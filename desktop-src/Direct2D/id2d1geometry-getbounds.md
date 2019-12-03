@@ -1,5 +1,5 @@
 ---
-title: ID2D1Geometry GetBounds methods
+title: ID2D1Geometry GetBounds methods (D2d1\_1.h)
 description: Retrieves the bounds of the geometry.
 ms.assetid: 3932189a-7c6b-4144-9d4a-32d2aba70835
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Geometry::GetBounds methods

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a bit mask that identifies the product suites available on the system. If this function is called in an application that runs in the context of a server silo, the suite mask for the server silo is retrieved instead.
 ms.assetid: 1D6434FD-D7BD-45F9-B7C3-238890AF9928
-title: RtlGetSuiteMask function
-ms.topic: article
+title: RtlGetSuiteMask function (Ntddk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

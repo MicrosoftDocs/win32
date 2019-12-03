@@ -1,8 +1,8 @@
 ---
 Description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 ms.assetid: c69f5ea7-5d14-4187-9405-1ceff8230185
-title: ID3DXMATRIXStack::RotateYawPitchRollLocal method
-ms.topic: article
+title: ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

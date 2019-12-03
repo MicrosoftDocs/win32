@@ -1,12 +1,12 @@
 ---
 Description: 'This section contains information about the following core functions:'
 ms.assetid: 012577cd-970e-43bc-996e-3be7c2283b60
-title: Core Functions
+title: Direct3D 10 core functions
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Functions
+# Direct3D 10 core functions
 
 This section contains information about the following core functions:
 

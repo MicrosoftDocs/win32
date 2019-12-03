@@ -1,8 +1,8 @@
 ---
 Description: Saves templates to a DirectX file. Deprecated.
 ms.assetid: 7a45565a-8c04-4fa1-a424-294b847d3a2f
-title: IDirectXFileSaveObject::SaveTemplates method
-ms.topic: article
+title: IDirectXFileSaveObject::SaveTemplates method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

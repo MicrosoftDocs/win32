@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidSettingsException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSettingsException class
 TOCTitle: EsentInvalidSettingsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsettingsexception(v=EXCHG.10)
 ms:contentKeyID: 55102084
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException
 dev_langs:

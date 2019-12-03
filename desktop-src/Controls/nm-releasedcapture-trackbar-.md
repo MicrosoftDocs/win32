@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (trackbar) notification code
+title: NM_RELEASEDCAPTURE (trackbar) notification code (Commctrl.h)
 description: Notifies a trackbar control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 1e3e4f67-672d-4e3e-84f4-b3fa6221d118
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

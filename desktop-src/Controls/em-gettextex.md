@@ -1,5 +1,5 @@
 ---
-title: EM_GETTEXTEX message
+title: EM_GETTEXTEX message (Richedit.h)
 description: Gets the text from a rich edit control.
 ms.assetid: 46431563-fde1-4407-ab7a-b2248c0e12b8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

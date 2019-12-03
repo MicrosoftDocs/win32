@@ -1,8 +1,8 @@
 ---
 Description: The KNOWNFOLDERID constants represent GUIDs that identify standard folders registered with the system as Known Folders.
 ms.assetid: f2c08ade-3083-44e4-82b0-dde45f0e3094
-title: KNOWNFOLDERID
-ms.topic: article
+title: KNOWNFOLDERID (Knownfolders.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Setting data to be passed as an array to the Msvm\_CollectionReferencePointExportSettingData class.
 ms.assetid: f127880f-f917-4069-a283-a6f9427c5e07
 title: Msvm_VirtualMachineToDisks class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

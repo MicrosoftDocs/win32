@@ -1,8 +1,8 @@
 ---
 Description: Flags used by the IWiaDevMgr::GetImageDlg, IWiaDevMgr2::GetImageDlg, IWiaItem::DeviceDlg, and IWiaItem2::DeviceDlg methods to control the dialog box operation.
 ms.assetid: 468a3c9e-64f8-456d-aad9-fa7c6876fbe6
-title: WiaFlag
-ms.topic: article
+title: WiaFlag (Wiadef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

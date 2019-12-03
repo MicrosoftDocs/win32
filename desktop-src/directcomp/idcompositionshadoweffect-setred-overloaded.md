@@ -1,5 +1,5 @@
 ---
-title: IDCompositionShadowEffect SetRed methods
+title: IDCompositionShadowEffect SetRed methods (Dcomp.h)
 description: Sets the red value for the color of the shadow.
 ms.assetid: c1a74aca-6026-1307-7300-ca2941246000
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionShadowEffect::SetRed methods

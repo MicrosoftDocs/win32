@@ -1,5 +1,5 @@
 ---
-title: GatherGreen(S,float,int2,int2,int2,int2) function
+title: Texture2D::GatherGreen(S,float,int2,int2,int2,int2) function
 description: Samples a texture and returns the green component.
 ms.assetid: 043434C0-BB12-4A08-A3E5-34C9738DEBDB
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherGreen
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

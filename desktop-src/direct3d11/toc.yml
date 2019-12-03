@@ -85,7 +85,7 @@
       items: 
       - name: "What's New in the August 2009 Windows 7/Direct3D 11 SDK"
         href: dx11-whats-new.md
-      - name: "What's New in the November 2008 Direct3D 11 Technical Preview"
+      - name: "What's new in the Nov 2008 Direct3D 11 Tech Preview"
         href: dx11-08nov-whats-new.md
   - name: "Programming Guide for Direct3D 11"
     href: dx-graphics-overviews.md
@@ -166,8 +166,8 @@
               href: hazard-tracking-versus-tile-pool-resources.md
           - name: "Tiled resource creation parameters"
             href: tiled-resource-creation-parameters.md
-          - name: "Address apace available for tiled resources"
-            href: address-apace-available-for-tiled-resources.md
+          - name: "Address space available for tiled resources"
+            href: address-space-available-for-tiled-resources.md
           - name: "Tile pool creation parameters"
             href: tile-pool-creation-parameters.md
           - name: "Tiled resource cross process and device sharing"
@@ -316,7 +316,7 @@
       href: d3d11-programming-guide-migrating.md
     - name: "Direct3D Video Interfaces"
       href: direct3d-video-interfaces.md
-  - name: "Direct3D 11 Reference"
+  - name: "Direct3D 11, utilities, and effects reference"
     href: atoc-d3d11-graphics-reference.md
     items: 
     - name: "Direct3D 11 Reference"

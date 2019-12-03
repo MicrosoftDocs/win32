@@ -2,7 +2,7 @@
 Description: Indicates whether the \_\_try block of a termination handler terminated normally. The function can be called only from within the \_\_finally block of a termination handler.
 ms.assetid: 0ddaef1f-03f0-45fc-9c5e-8d6a26a73245
 title: AbnormalTermination macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

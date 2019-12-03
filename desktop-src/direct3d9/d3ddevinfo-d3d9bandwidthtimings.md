@@ -1,8 +1,8 @@
 ---
 Description: Throughput metrics for help in understanding the performance of an application.
 ms.assetid: c0bcf060-a0ed-4c85-9554-398ffe4b4235
-title: D3DDEVINFO_D3D9BANDWIDTHTIMINGS structure
-ms.topic: structure
+title: D3DDEVINFO_D3D9BANDWIDTHTIMINGS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

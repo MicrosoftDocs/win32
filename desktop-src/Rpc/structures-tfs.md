@@ -1,12 +1,12 @@
 ---
-title: Structures
+title: Structures (RPC)
 description: Description of various types of structures in Remote Procedure Call (RPC).
 ms.assetid: edaf547d-d3d1-443c-93dd-8e036bc42944
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (RPC)
 
 There are several categories of structures, progressively more complicated in terms of actions required for marshaling. They begin with a simple structure that can be block-copied as a whole, and continue to a complex structure that has to be serviced field by field.
 

@@ -2,10 +2,10 @@
 title: mul - ps
 description: Multiplies sources into the destination.
 ms.assetid: 03823c10-9631-4468-8488-4bd17224d16c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

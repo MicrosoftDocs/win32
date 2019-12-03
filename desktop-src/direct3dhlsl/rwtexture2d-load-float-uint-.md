@@ -1,5 +1,5 @@
 ---
-title: Load(int,uint) function
+title: RWTexture2D::Load(int,uint) function
 description: Reads texture data and returns status about the operation.
 ms.assetid: E61E1EFD-BDD1-4415-9993-0CD7203B5BDC
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -1,5 +1,5 @@
 ---
-title: EsentLogWriteFailException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogWriteFailException members
 TOCTitle: EsentLogWriteFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogwritefailexception_members(v=EXCHG.10)

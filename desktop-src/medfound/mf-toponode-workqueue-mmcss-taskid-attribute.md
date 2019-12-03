@@ -1,8 +1,8 @@
 ---
 Description: Specifies a Multimedia Class Scheduler Service (MMCSS) task identifier for a topology branch.
 ms.assetid: ccecc1e6-2d30-4e89-849f-c3acad97f312
-title: MF_TOPONODE_WORKQUEUE_MMCSS_TASKID attribute
-ms.topic: article
+title: MF_TOPONODE_WORKQUEUE_MMCSS_TASKID attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

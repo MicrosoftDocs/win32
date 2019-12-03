@@ -1,8 +1,8 @@
 ---
 Description: Uses a left-handed coordinate system to create a mesh containing an axis-aligned box.
 ms.assetid: 396ef0f7-65d5-46f9-9b97-e6471f2fb5fe
-title: D3DXCreateBox function
-ms.topic: article
+title: D3DXCreateBox function (D3dx9shape.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

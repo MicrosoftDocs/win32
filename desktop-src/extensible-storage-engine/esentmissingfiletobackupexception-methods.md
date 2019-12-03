@@ -1,5 +1,5 @@
 ---
-title: EsentMissingFileToBackupException methods (Microsoft.Isam.Esent.Interop)
+title: EsentMissingFileToBackupException methods
 TOCTitle: EsentMissingFileToBackupException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingfiletobackupexception_methods(v=EXCHG.10)

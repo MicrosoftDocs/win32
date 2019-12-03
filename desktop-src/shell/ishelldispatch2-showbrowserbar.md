@@ -1,8 +1,8 @@
 ---
 Description: Displays a browser bar.
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
-title: IShellDispatch2.ShowBrowserBar method
-ms.topic: article
+title: IShellDispatch2.ShowBrowserBar method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

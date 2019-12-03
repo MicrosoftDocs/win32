@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.EsentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.esentexception.esentexception(v=EXCHG.10)
 ms:contentKeyID: 55100718
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

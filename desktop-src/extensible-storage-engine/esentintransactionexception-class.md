@@ -1,11 +1,11 @@
 ---
-title: EsentInTransactionException class (Microsoft.Isam.Esent.Interop)
+title: EsentInTransactionException class
 TOCTitle: EsentInTransactionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInTransactionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentintransactionexception(v=EXCHG.10)
 ms:contentKeyID: 55101894
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInTransactionException
 dev_langs:

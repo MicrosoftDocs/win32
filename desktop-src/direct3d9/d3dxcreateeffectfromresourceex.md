@@ -1,8 +1,8 @@
 ---
 Description: Create an effect from an ASCII or binary effect description. This is an extended version of D3DXCreateEffectFromResource that allows an application to control which parameters are ignored by the effects system.
 ms.assetid: 5937bdb1-750a-41f8-a49d-3643427f3e3c
-title: D3DXCreateEffectFromResourceEx function
-ms.topic: article
+title: D3DXCreateEffectFromResourceEx function (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

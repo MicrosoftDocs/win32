@@ -1,5 +1,5 @@
 ---
-title: JET_LGPOS methods (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS methods
 TOCTitle: JET_LGPOS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_LGPOS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos_methods(v=EXCHG.10)

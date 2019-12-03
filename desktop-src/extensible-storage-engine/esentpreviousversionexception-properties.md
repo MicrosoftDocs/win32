@@ -1,5 +1,5 @@
 ---
-title: EsentPreviousVersionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentPreviousVersionException properties
 TOCTitle: EsentPreviousVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpreviousversionexception_properties(v=EXCHG.10)

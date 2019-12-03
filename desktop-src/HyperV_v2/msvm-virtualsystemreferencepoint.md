@@ -2,7 +2,7 @@
 Description: Represents a reference point for a virtual system.
 ms.assetid: b3ba4fa7-3b77-4a1d-ab8f-d38af12ab5dd
 title: Msvm_VirtualSystemReferencePoint class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

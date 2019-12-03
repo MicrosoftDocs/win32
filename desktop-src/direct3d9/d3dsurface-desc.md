@@ -1,8 +1,8 @@
 ---
 Description: Describes a surface.
 ms.assetid: fad8ffdb-36e5-4695-b343-e1315357c31a
-title: D3DSURFACE_DESC structure
-ms.topic: structure
+title: D3DSURFACE_DESC structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

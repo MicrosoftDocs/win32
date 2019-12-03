@@ -2,7 +2,7 @@
 Description: The XMUDECN4 structure exposes the following operators.
 ms.assetid: 88590e8d-7c3a-49db-8b3a-4afc471cb76a
 title: XMUDECN4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

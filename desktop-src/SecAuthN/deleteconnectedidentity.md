@@ -1,8 +1,8 @@
 ---
 Description: Deletes the user credential used for the connected identity.
 ms.assetid: EB32832D-9A8C-4CEB-897A-7E9D24FF84DD
-title: DeleteConnectedIdentity function
-ms.topic: article
+title: DeleteConnectedIdentity function (Indentitystore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

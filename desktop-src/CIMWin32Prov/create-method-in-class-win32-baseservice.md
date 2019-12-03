@@ -3,7 +3,7 @@ Description: Creates a new service.
 ms.assetid: e000b896-3b49-4650-b706-548592cfe721
 ms.tgt_platform: multiple
 title: Create method of the Win32_BaseService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

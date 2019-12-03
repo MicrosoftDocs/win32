@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the user releases a key while the InkEdit control has focus.
 ms.assetid: 973d99f2-df09-4315-aaab-72877272100b
-title: InkEdit.KeyUp event
-ms.topic: article
+title: InkEdit.KeyUp event (Inked.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

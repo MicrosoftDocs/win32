@@ -1,11 +1,11 @@
 ---
-title: ColumnValueOfStruct(T) class (Microsoft.Isam.Esent.Interop)
+title: ColumnValueOfStruct(T) class
 TOCTitle: ColumnValueOfStruct(T) class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334171(v=EXCHG.10)
 ms:contentKeyID: 55100962
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1
 dev_langs:

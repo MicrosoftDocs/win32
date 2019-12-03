@@ -1,8 +1,8 @@
 ---
 Description: Returns a handle to the device that is associated with this authenticated channel.
 ms.assetid: 948eac1a-640a-47fd-b538-1de3ea5d8f0b
-title: D3DAUTHENTICATEDQUERY_DEVICEHANDLE
-ms.topic: article
+title: D3DAUTHENTICATEDQUERY_DEVICEHANDLE (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

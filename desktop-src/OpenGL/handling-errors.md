@@ -1,5 +1,5 @@
 ---
-title: Handling Errors
+title: Handling Errors (OpenGL)
 description: The gluErrorString function retrieves error strings that correspond to OpenGL or GLU error codes.
 ms.assetid: 59f93c1c-9d15-4980-b246-19257c66b6b8
 keywords:

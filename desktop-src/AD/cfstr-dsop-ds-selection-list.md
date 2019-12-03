@@ -1,5 +1,5 @@
 ---
-title: CFSTR_DSOP_DS_SELECTION_LIST
+title: CFSTR_DSOP_DS_SELECTION_LIST (Objsel.h)
 description: The CFSTR\_DSOP\_DS\_SELECTION\_LIST clipboard format provides an HGLOBAL that contains a DS\_SELECTION\_LIST structure. The DS\_SELECTION\_LIST structure contains data about the items selected in a Directory Object Picker dialog box.
 ms.assetid: cd634e3b-0eb7-4144-b9e1-1d27a322f72c
 ms.tgt_platform: multiple
@@ -11,7 +11,7 @@ api_location:
 - Objsel.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

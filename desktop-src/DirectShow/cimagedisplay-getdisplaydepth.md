@@ -1,8 +1,8 @@
 ---
 Description: The GetDisplayDepth method retrieves the bit depth of the current display mode.
 ms.assetid: 6d4ab847-dead-4d8c-8ce0-a60411c5ae73
-title: CImageDisplay.GetDisplayDepth method
-ms.topic: article
+title: CImageDisplay.GetDisplayDepth method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

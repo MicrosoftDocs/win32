@@ -1,5 +1,5 @@
 ---
-title: EsentSLVHeaderBadChecksumException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVHeaderBadChecksumException properties
 TOCTitle: EsentSLVHeaderBadChecksumException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvheaderbadchecksumexception_properties(v=EXCHG.10)

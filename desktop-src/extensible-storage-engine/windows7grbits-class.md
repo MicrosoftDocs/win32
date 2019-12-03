@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7grbits(v=EXCHG.10)
 ms:contentKeyID: 55104258
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the InkEdit control is double-clicked.
 ms.assetid: 380499e4-8697-4823-8153-29f24b2f234c
-title: InkEdit.DblClick event
-ms.topic: article
+title: InkEdit.DblClick event (Inked.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

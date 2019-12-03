@@ -1,5 +1,5 @@
 ---
-title: Texture2D GatherCmpAlpha methods
+title: Texture2D::Texture2D GatherCmpAlpha methods
 description: Samples and compares a Texture2D and returns the alpha component.
 ms.assetid: '16db51c4-9093-413d-995f-32659435b281'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

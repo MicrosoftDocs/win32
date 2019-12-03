@@ -1,8 +1,8 @@
 ---
 Description: Raised by a stream sink when the rate has changed.
 ms.assetid: c61c71de-fd3c-429b-a29f-f9d2bbfcb531
-title: MEStreamSinkRateChanged event
-ms.topic: article
+title: MEStreamSinkRateChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

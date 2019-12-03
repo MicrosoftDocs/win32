@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTableTransferEffect SetGreenTableValue methods
+title: IDCompositionTableTransferEffect SetGreenTableValue methods (Dcomp.h)
 description: Sets a value in the green table.
 ms.assetid: feccfc61-31e6-362a-1e81-0650736b962a
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionTableTransferEffect::SetGreenTableValue methods

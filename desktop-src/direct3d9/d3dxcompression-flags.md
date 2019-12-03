@@ -1,8 +1,8 @@
 ---
 Description: Defines the compression mode used for storing compressed animation set data.
 ms.assetid: 41592b71-52ba-4727-a885-fb10fc23c5f8
-title: D3DXCOMPRESSION_FLAGS enumeration
-ms.topic: enumeration
+title: D3DXCOMPRESSION_FLAGS enumeration (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

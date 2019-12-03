@@ -1,8 +1,8 @@
 ---
 Description: Resizes a video stream.
 ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
-title: Video Resizer DSP
-ms.topic: article
+title: Video Resizer DSP (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

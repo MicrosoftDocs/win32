@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetDesc method
+title: ID3DX11EffectPass GetDesc method (D3dx11effect.h)
 description: Get a pass description.
 ms.assetid: 423766be-96b2-4038-834e-34125789e8b1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

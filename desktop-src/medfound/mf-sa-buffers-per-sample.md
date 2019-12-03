@@ -1,8 +1,8 @@
 ---
 Description: Specifies how many buffers the video-sample allocator creates for each video sample.
 ms.assetid: A782BF8A-822A-407D-A30A-F2045BBB0BC0
-title: MF_SA_BUFFERS_PER_SAMPLE attribute
-ms.topic: article
+title: MF_SA_BUFFERS_PER_SAMPLE attribute (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

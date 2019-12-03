@@ -3,7 +3,7 @@ Description: The Win32\_POTSModemToSerialPort association WMI class relates a mo
 ms.assetid: 4dbde5ae-f785-4d2d-80d9-508effd72cf2
 ms.tgt_platform: multiple
 title: Win32_POTSModemToSerialPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

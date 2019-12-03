@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform SetCenterX methods
+title: IDCompositionRotateTransform SetCenterX methods (Dcomp.h)
 description: Changes or animates the value of the CenterX property of a 2D rotation transform.
 ms.assetid: D5CE4491-0A06-4824-BDE5-A839E0E60EA7
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform::SetCenterX methods

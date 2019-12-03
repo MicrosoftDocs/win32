@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: 8de43754-19dc-4865-af6c-badcb5445167
 title: Reset method of the Msvm_SCSIProtocolController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

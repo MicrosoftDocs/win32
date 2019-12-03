@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder performs band truncation.
 ms.assetid: 70b44f1e-06fc-4e7f-80cb-f9dd15891f75
-title: MFPKEY_DYN_BANDTRUNCATION Property
-ms.topic: article
+title: MFPKEY_DYN_BANDTRUNCATION Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

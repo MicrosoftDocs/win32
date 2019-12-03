@@ -1,8 +1,8 @@
 ---
 Description: Contains a collection of objects that implement the IAnalysisAlternate interface and that are the result of ink analysis.
 ms.assetid: 53802a62-4425-40fd-bf48-0da55ea8ffbe
-title: IAnalysisAlternates interface
-ms.topic: interface
+title: IAnalysisAlternates interface (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Contains an object for each user in the role to which the collection is related.
 ms.assetid: c6aebf7a-04d1-4c7c-a015-bc6fb4841c4a
 title: UsersInPartitionRole collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

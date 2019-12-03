@@ -1,5 +1,5 @@
 ---
-title: Keyboard Input
+title: Keyboard Input (Get Started with Win32 and C++)
 description: Keyboard Input
 ms.assetid: FC682E8B-8360-4D58-AC42-4CEFD9CB750F
 ms.topic: article

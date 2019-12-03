@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Registry Hives
 
-A *hive* is a logical group of keys, subkeys, and values in the registry that has a set of supporting files containing backups of its data.
+A *hive* is a logical group of keys, subkeys, and values in the registry that has a set of supporting files loaded into memory when the operating system is started or a user logs in.
 
 Each time a new user logs on to a computer, a new hive is created for that user with a separate file for the user profile. This is called the *user profile hive*. A user's hive contains specific registry information pertaining to the user's application settings, desktop, environment, network connections, and printers. User profile hives are located under the **HKEY\_USERS** key.
 

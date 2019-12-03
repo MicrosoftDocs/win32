@@ -1,8 +1,8 @@
 ---
 Description: Conjugates and renormalizes a quaternion.
 ms.assetid: 25407a60-f7c0-4063-8d1d-2d6d03bdb217
-title: D3DXQuaternionInverse function
-ms.topic: article
+title: D3DXQuaternionInverse function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

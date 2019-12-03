@@ -1,8 +1,8 @@
 ---
 Description: Identifies the combination of audio devices that the application is currently using with the Voice Capture DSP.
 ms.assetid: f87bef33-9a48-4568-b554-7eec34f0bd55
-title: MFPKEY_WMAAECMA_DEVICEPAIR_GUID Property
-ms.topic: article
+title: MFPKEY_WMAAECMA_DEVICEPAIR_GUID Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

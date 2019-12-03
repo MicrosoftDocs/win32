@@ -1,8 +1,8 @@
 ---
 Description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
-title: SetTraceCallback function
-ms.topic: article
+title: SetTraceCallback function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

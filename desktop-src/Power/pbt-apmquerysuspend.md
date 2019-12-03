@@ -1,8 +1,8 @@
 ---
 Description: Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.
 ms.assetid: 83cb0fdc-437e-4d03-87f0-6a416281c0d5
-title: PBT_APMQUERYSUSPEND event
-ms.topic: article
+title: PBT_APMQUERYSUSPEND event (WinUser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

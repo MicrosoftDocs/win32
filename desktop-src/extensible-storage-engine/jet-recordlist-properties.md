@@ -1,5 +1,5 @@
 ﻿---
-title: JET_RECORDLIST properties (Microsoft.Isam.Esent.Interop)
+title: JET_RECORDLIST properties
 TOCTitle: JET_RECORDLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recordlist_properties(v=EXCHG.10)

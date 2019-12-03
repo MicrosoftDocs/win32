@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_CATEGORY enumeration
+title: MPTHREAT_CATEGORY enumeration (MpClient.h)
 description: Possible threat categories.
 ms.assetid: 478ED59E-5D3C-43B3-A89D-44A649EDD086
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

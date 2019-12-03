@@ -1,8 +1,8 @@
 ---
 Description: Extends the IShellDispatch2 object.
 ms.assetid: 89d0aa4d-844d-497d-82bb-bcc2bcf9c78b
-title: IShellDispatch3 object
-ms.topic: interface
+title: IShellDispatch3 object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

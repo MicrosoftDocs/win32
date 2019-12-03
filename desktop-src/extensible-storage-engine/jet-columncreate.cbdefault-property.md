@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNCREATE.cbDefault property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE.cbDefault property 
 TOCTitle: 'cbDefault property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.cbDefault
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate.cbdefault(v=EXCHG.10)
 ms:contentKeyID: 55103473
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.cbDefault
 dev_langs:

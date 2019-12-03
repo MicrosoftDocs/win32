@@ -1,8 +1,8 @@
 ---
 Description: Saves a surface to a file.
 ms.assetid: 28bbf728-afde-4d25-8562-9d6a957aab2d
-title: D3DXSaveSurfaceToFile function
-ms.topic: article
+title: D3DXSaveSurfaceToFile function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

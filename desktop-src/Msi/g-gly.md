@@ -1,8 +1,7 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
 ms.assetid: 5cd0e997-cb40-4209-a74e-a65b307637b8
-title: G
+title: G (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---

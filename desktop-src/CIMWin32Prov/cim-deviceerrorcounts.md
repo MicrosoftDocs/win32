@@ -3,7 +3,7 @@ Description: The CIM\_DeviceErrorCounts class is a statistical class that contai
 ms.assetid: d65cbc78-40f2-4846-bd47-76e04b2f588b
 ms.tgt_platform: multiple
 title: CIM_DeviceErrorCounts class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIMType qualifier contains text describing the type of a proper
 ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
 ms.tgt_platform: multiple
 title: CIMType Qualifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

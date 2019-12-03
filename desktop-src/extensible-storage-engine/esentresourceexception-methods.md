@@ -1,5 +1,5 @@
 ---
-title: EsentResourceException methods (Microsoft.Isam.Esent.Interop)
+title: EsentResourceException methods
 TOCTitle: EsentResourceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentResourceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresourceexception_methods(v=EXCHG.10)

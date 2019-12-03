@@ -1,8 +1,8 @@
 ---
 Description: Gets the next specified number of providers in the enumeration sequence.
 ms.assetid: 9ef8d330-6f78-4063-825c-9cf5b4f283cf
-title: IEnumPStoreProviders::Next method
-ms.topic: article
+title: IEnumPStoreProviders::Next method (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

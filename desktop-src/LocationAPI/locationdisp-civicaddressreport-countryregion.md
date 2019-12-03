@@ -2,7 +2,7 @@
 Description: The country or region name.
 ms.assetid: 54c00418-42ef-45f8-bd82-51e287208b12
 title: LocationDisp.CivicAddressReport.CountryRegion property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

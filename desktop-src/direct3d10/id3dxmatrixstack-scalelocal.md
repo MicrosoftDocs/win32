@@ -1,8 +1,8 @@
 ---
 Description: Scale the current matrix about the object origin.
 ms.assetid: 748fce3a-a33c-4975-bbf0-dd3167a036f1
-title: ID3DXMATRIXStack::ScaleLocal method
-ms.topic: article
+title: ID3DXMATRIXStack::ScaleLocal method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

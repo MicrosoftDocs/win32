@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine HasMMX property
+title: IVMVirtualMachine HasMMX property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the MMX instruction set.
 ms.assetid: 85350abe-ab44-42d2-9f3e-0fbdb64ff854
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

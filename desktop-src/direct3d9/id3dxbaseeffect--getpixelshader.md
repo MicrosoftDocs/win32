@@ -1,8 +1,8 @@
 ---
 Description: Gets a pixel shader.
 ms.assetid: 173a20a5-dda0-493f-a161-2dc2881e71f2
-title: ID3DXBaseEffect::GetPixelShader method
-ms.topic: article
+title: ID3DXBaseEffect::GetPixelShader method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

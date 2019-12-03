@@ -1,8 +1,8 @@
 ---
 Description: Changes the dirty flag for the current stream.
 ms.assetid: 65fa7fbe-4fa7-45a3-91a4-4a3547b035b9
-title: CPersistStream.SetDirty method
-ms.topic: article
+title: CPersistStream.SetDirty method (Pstream.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

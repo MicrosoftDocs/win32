@@ -1,8 +1,8 @@
 ---
 Description: Flag that specifies whether to retrieve the device context (DC). If TRUE, the object retrieves a handle to the window's DC and creates a compatible memory DC.
 ms.assetid: e8b8dcc9-0046-40f8-9009-e23d839ef1db
-title: CBaseWindow::m_bDoGetDC member
-ms.topic: article
+title: CBaseWindow::m_bDoGetDC member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

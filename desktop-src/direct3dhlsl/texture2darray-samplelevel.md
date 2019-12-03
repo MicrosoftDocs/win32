@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray SampleLevel methods
+title: Texture2DArray::Texture2DArray SampleLevel methods
 description: Samples a Texture2DArray on the specified mipmap level.
 ms.assetid: 89BCC9CA-BFBC-4EC7-8267-0D3D7864C486
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

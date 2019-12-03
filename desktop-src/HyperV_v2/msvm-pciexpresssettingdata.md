@@ -2,7 +2,7 @@
 Description: Represents the configured state of a PCI Express port.
 ms.assetid: adb03dd7-5a47-47e6-a4e4-28224164150c
 title: Msvm_PciExpressSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: DL_DROPPED notification code
+title: DL_DROPPED notification code (Commctrl.h)
 description: Signals that the user has completed a drag operation by releasing the left mouse button. A drag list box sends this notification code to its parent window in the form of a drag list message. For more information, see Drag List Box Messages.
 ms.assetid: 81b9b424-2735-407d-bac9-f03ea2f48b4e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

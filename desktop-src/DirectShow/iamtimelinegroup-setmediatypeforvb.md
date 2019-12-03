@@ -1,8 +1,8 @@
 ---
 Description: The SetMediaTypeForVB method specifies the group media type, for Automation clients.
 ms.assetid: 86f52088-a0dd-40be-98a0-8adc09b264dd
-title: IAMTimelineGroup::SetMediaTypeForVB method
-ms.topic: article
+title: IAMTimelineGroup::SetMediaTypeForVB method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

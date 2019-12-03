@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: DESCRIPTOR_HEAP_HEADER_COLUMNS enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: B400DA8B-8A4D-49A0-88DB-F8E6CC4F60BE
 api_name: 

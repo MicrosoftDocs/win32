@@ -1,5 +1,5 @@
 ---
-title: TDM_CLICK_BUTTON message
+title: TDM_CLICK_BUTTON message (Commctrl.h)
 description: Simulates the action of a button click in a task dialog.
 ms.assetid: cc8a8252-3418-4a28-bfb7-11d6e3fee903
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

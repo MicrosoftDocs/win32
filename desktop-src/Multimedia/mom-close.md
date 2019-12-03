@@ -1,5 +1,5 @@
 ---
-title: MOM_CLOSE message
+title: MOM_CLOSE message (Mmsystem.h)
 description: The MOM\_CLOSE message is sent to a MIDI output callback function when a MIDI output device is closed.
 ms.assetid: '229b3701-16f1-4ec8-920e-cd8231561541'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

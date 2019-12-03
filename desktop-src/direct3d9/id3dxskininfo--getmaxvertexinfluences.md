@@ -1,8 +1,8 @@
 ---
 Description: Gets the maximum number of influences for any vertex in the mesh.
 ms.assetid: 012168e8-30e5-4571-b793-647ab23df068
-title: ID3DXSkinInfo::GetMaxVertexInfluences method
-ms.topic: article
+title: ID3DXSkinInfo::GetMaxVertexInfluences method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

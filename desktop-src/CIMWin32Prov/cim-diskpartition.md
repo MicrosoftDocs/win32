@@ -3,7 +3,7 @@ Description: The CIM\_DiskPartition class represents a contiguous range of logic
 ms.assetid: 22a0e5be-c66b-40a2-9a7a-047d2edc0278
 ms.tgt_platform: multiple
 title: CIM_DiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.
 ms.assetid: 0bcadb85-47c5-48a9-b3f9-f0a1ca60b503
-title: PBT_POWERSETTINGCHANGE event
-ms.topic: article
+title: PBT_POWERSETTINGCHANGE event (WinUser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

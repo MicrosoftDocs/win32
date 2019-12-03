@@ -1,5 +1,5 @@
 ---
-title: Texture1D SampleCmp methods
+title: Texture1D::Texture1D SampleCmp methods
 description: Samples a Texture1D, using a comparison value to reject samples.
 ms.assetid: 8F7E5355-E299-43BF-BCC8-F01E7D82A353
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

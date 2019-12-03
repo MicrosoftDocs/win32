@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateAfterTruncationException members (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateAfterTruncationException members
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateaftertruncationexception_members(v=EXCHG.10)

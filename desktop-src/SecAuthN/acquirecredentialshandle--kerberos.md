@@ -1,8 +1,8 @@
 ---
 Description: Acquires a handle to preexisting credentials of a security principal that is using Kerberos.
 ms.assetid: 2612bbe9-856b-4a81-bffb-6c761035883d
-title: AcquireCredentialsHandle (Kerberos) function
-ms.topic: article
+title: AcquireCredentialsHandle (Kerberos) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: General Constants
+title: General Constants (Winbio\_types.h)
 description: Specify maximum SID length, handles, IDs, maximum string length, and maximum sample buffer size.
 ms.assetid: 62e87bd8-a708-4d00-aaa8-9cac8e3736a7
 topic_type:
@@ -17,7 +17,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

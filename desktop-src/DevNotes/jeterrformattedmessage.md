@@ -2,7 +2,7 @@
 Description: Retrieves an error code identifier (IDA) and creates the final display string when a Jet error and extended error information is provided.
 ms.assetid: 961da4fb-cb70-4f3d-a4a4-1774be7a05f4
 title: JetErrFormattedMessage function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

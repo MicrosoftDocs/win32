@@ -1,8 +1,8 @@
 ---
 Description: Changes the locale identifier for the specified stroke.
 ms.assetid: 3714462d-0391-481f-968a-3c121b7dd538
-title: IInkAnalyzer::SetStrokeLanguageId method
-ms.topic: article
+title: IInkAnalyzer::SetStrokeLanguageId method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

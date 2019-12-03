@@ -1,6 +1,6 @@
 ---
-title: Windows Touch Scratchpad using the Real-time Stylus Sample (MTScratchpadRTStylus)
-description: Windows Touch Scratchpad using the Real-time Stylus Sample (MTScratchpadRTStylus)
+title: Windows Touch Scratchpad using the Real-time Stylus Sample (C++)
+description: The Windows Touch Scratchpad sample (MTScratchpadRTStylus) shows how to use Windows Touch messages to draw traces of the touch points to a window.
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
 - Windows Touch,code samples
@@ -9,19 +9,18 @@ keywords:
 - Scratchpad samples
 - Windows Touch,Real-time Stylus (RTS) object
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/28/2019
 ---
 
-# Windows Touch Scratchpad using the Real-time Stylus Sample (MTScratchpadRTStylus)
+# Windows Touch Scratchpad using the Real-time Stylus Sample (C++)
 
-The Windows Touch Scratchpad sample shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following screen shot shows how the application could look while running.
+The Windows Touch Scratchpad sample ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following screen shot shows how the application could look while running.
 
 ![screen shot showing the windows touch scratchpad sample using the real-time stylus, with a green, a red, three black, and a blue line on the screen](images/mtscratchpadrtstylus.png)
 
 For this sample, the Real-time Stylus (RTS) object is created and support for multiple contact points is enabled. A DynamicRenderer plug-in is added to the RTS to render content. A plug-in, **CSyncEventHandlerRTS**, is implemented to track down the number of fingers and to change the color that the dynamic renderer is drawing. With both plug-ins in the RTS plug-in stack, the Windows Touch Scratchpad application will render the primary contact in black and the rest of the contacts in the various colors.
 
 The following code shows how the RTS object is created with support for multiple contact points.
-
 
 ```C++
 IRealTimeStylus* CreateRealTimeStylus(HWND hWnd)
@@ -74,10 +73,7 @@ IRealTimeStylus* CreateRealTimeStylus(HWND hWnd)
 }
 ```
 
-
-
 The following code shows how the dynamic renderer plug-in is created and added to the RTS.
-
 
 ```C++
 IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
@@ -144,10 +140,7 @@ IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
 }
 ```
 
-
-
 The following code changes the stylus stroke color for the **StylusDown** event handler in the **CSyncEventHandlerRTS**, a custom RTS plug-in.
-
 
 ```C++
 HRESULT CSyncEventHandlerRTS::StylusDown(
@@ -162,7 +155,7 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
     HRESULT hr = g_pDynamicRenderer->get_DrawingAttributes(&pDrawingAttributesDynamicRenderer);
     if (FAILED(hr))
     {
-        ASSERT(SUCCEEDED(hr) && L"CSyncEventHandlerRTS::StylusDown: failed to get RTS's drawing attributes");        
+        ASSERT(SUCCEEDED(hr) && L"CSyncEventHandlerRTS::StylusDown: failed to get RTS's drawing attributes");
         return hr;
     }
 
@@ -184,21 +177,9 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
 }
 ```
 
-
-
 When the *m\_nContacts* value is incremented, it will change the color set in the dynamic renderer. Strokes that are not the primary contact will be drawn with different colors.
 
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)
+- [Windows Touch Samples](windows-touch-samples.md)

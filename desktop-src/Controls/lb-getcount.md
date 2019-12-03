@@ -1,5 +1,5 @@
 ---
-title: LB_GETCOUNT message
+title: LB_GETCOUNT message (Winuser.h)
 description: Gets the number of items in a list box.
 ms.assetid: 1fbe44fc-8b9d-4bfa-a8bb-06817eecf064
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

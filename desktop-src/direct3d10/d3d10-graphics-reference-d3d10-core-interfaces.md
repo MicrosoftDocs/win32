@@ -1,12 +1,12 @@
 ---
 Description: 'This section contains information about the following core interfaces:'
 ms.assetid: f5ad2db8-da90-4bcd-83a7-7466723a9c3c
-title: Core Interfaces
+title: Direct3D 10 core interfaces
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Interfaces
+# Direct3D 10 core interfaces
 
 This section contains information about the following core interfaces:
 

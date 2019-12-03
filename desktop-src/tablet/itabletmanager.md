@@ -2,7 +2,7 @@
 Description: Provides access to all of the tablets attached to the computer.
 ms.assetid: d0fd9a6f-93fe-43d6-97fd-fee45854dfa1
 title: ITabletManager interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

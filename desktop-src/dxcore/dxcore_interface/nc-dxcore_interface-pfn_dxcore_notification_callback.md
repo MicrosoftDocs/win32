@@ -2,7 +2,7 @@
 title: PFN_DXCORE_NOTIFICATION_CALLBACK
 description: A callback function (implemented by your application), which is called by a DXCore object for notification events.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

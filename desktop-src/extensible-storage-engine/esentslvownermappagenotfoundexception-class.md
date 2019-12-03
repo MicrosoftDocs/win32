@@ -1,11 +1,11 @@
 ---
-title: EsentSLVOwnerMapPageNotFoundException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapPageNotFoundException class
 TOCTitle: EsentSLVOwnerMapPageNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermappagenotfoundexception(v=EXCHG.10)
 ms:contentKeyID: 55102791
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException
 dev_langs:

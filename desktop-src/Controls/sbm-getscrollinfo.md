@@ -1,5 +1,5 @@
 ---
-title: SBM_GETSCROLLINFO message
+title: SBM_GETSCROLLINFO message (Winuser.h)
 description: The SBM\_GETSCROLLINFO message is sent to retrieve the parameters of a scroll bar.
 ms.assetid: 3b43430f-b55f-43ec-8558-baf5c953064f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

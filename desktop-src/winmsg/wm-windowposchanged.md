@@ -1,8 +1,8 @@
 ---
 Description: Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the SetWindowPos function or another window-management function.
 ms.assetid: 1eabd0b1-1f92-4576-b7fb-8af50fb04526
-title: WM_WINDOWPOSCHANGED message
-ms.topic: article
+title: WM_WINDOWPOSCHANGED message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

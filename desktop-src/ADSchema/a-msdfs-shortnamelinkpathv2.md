@@ -12,7 +12,7 @@ api_name:
 - ms-DFS-Short-Name-Link-Path-v2
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Creates an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffect that allows an application to control which parameters are ignored by the effects system.
 ms.assetid: b08f727e-6061-4e78-8243-08c4ccab342d
-title: D3DXCreateEffectEx function
-ms.topic: article
+title: D3DXCreateEffectEx function (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

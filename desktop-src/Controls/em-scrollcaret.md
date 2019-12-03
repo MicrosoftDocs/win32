@@ -1,5 +1,5 @@
 ---
-title: EM_SCROLLCARET message
+title: EM_SCROLLCARET message (Winuser.h)
 description: Scrolls the caret into view in an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 7a33034d-9369-49f8-a881-0c1d2cedff6a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

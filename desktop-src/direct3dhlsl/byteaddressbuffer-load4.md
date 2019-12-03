@@ -1,5 +1,5 @@
 ---
-title: Load4 methods
+title: ByteAddressBuffer::Load4 methods
 description: Gets four values from a read-only buffer indexed in bytes.
 ms.assetid: 0E6D7810-8AEC-4C47-929C-A381FE29A8A8
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

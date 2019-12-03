@@ -1,8 +1,8 @@
 ---
 Description: The Skip method skips over a specified number of media types. This method implements the IEnumMediaTypes::Skip method.
 ms.assetid: a01fb084-b227-4ca6-b5ca-c57d56e8b1aa
-title: CEnumMediaTypes.Skip method
-ms.topic: article
+title: CEnumMediaTypes.Skip method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

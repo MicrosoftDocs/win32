@@ -1,5 +1,5 @@
 ---
-title: TB_CHECKBUTTON message
+title: TB_CHECKBUTTON message (Commctrl.h)
 description: Checks or unchecks a given button in a toolbar.
 ms.assetid: e67734a9-851c-41ab-8ad7-15d434f58e5a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

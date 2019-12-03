@@ -1,8 +1,8 @@
 ---
 Description: Sets the number of worker threads that are used by a video decoder.
 ms.assetid: A1570BB5-62BC-46C0-B9C9-61F99AA13BBE
-title: CODECAPI_AVDecNumWorkerThreads property
-ms.topic: article
+title: CODECAPI_AVDecNumWorkerThreads property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

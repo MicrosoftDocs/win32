@@ -1,11 +1,11 @@
 ---
-title: EsentDistributedTransactionNotYetPreparedToCommitException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDistributedTransactionNotYetPreparedToCommitException constructor 
 TOCTitle: 'EsentDistributedTransactionNotYetPreparedToCommitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionNotYetPreparedToCommitException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdistributedtransactionnotyetpreparedtocommitexception.esentdistributedtransactionnotyetpreparedtocommitexception(v=EXCHG.10)
 ms:contentKeyID: 55101632
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDistributedTransactionNotYetPreparedToCommitException.EsentDistributedTransactionNotYetPreparedToCommitException
 dev_langs:

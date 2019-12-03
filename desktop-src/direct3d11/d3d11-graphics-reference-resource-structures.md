@@ -1,5 +1,5 @@
 ---
-title: Resource Structures
+title: Resource Structures (Direct3D 11 Graphics)
 description: Structures are used to create and use resources.
 ms.assetid: a29e01ac-8aa1-4a40-ad4d-3b738e129436
 keywords:

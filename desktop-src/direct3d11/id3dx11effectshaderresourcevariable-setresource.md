@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderResourceVariable SetResource method
+title: ID3DX11EffectShaderResourceVariable SetResource method (D3dx11effect.h)
 description: Set a shader resource.
 ms.assetid: f85c33ff-dc00-4421-939c-74f9317faadc
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

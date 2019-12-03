@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_LogicalDisk class sets the des
 ms.assetid: bb363434-2fb5-422e-aea7-5c7de1364b88
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

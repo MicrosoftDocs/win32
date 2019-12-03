@@ -1,5 +1,5 @@
 ---
-title: 
+title: AcceptServerName element
 description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element.
 ms.assetid: 307b2d2a-1678-4aa9-82ed-46d401cf0e0f
 keywords:
@@ -10,16 +10,13 @@ api_name:
 - AcceptServerName
 api_type:
 - Schema
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ROBOTS: INDEX,FOLLOW
 ---
 
-# 
+# AcceptServerName element
 
 The **AcceptServerName (EapType)** element indicates whether the server name is validated against the name string specified in the [**ServerNames (ServerValidationParameters)**](eaptlsconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) element.
 

@@ -2,7 +2,7 @@
 Description: The XMBYTEN4 structure exposes the following operators.
 ms.assetid: 3083dd93-301d-4b57-8ad2-bfafc8576063
 title: XMBYTEN4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

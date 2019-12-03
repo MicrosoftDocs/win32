@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyCallback JobModification method
+title: IBackgroundCopyCallback JobModification method (Deliveryoptimization.h)
 description: Delivery Optimization (DO) calls your implementation of the JobModification method when the job has been modified.
 ms.assetid: 4AC2575F-57FB-45E6-B29C-12DF615237F3
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

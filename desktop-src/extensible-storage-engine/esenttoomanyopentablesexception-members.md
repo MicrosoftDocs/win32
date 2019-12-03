@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesException members
 TOCTitle: EsentTooManyOpenTablesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesexception_members(v=EXCHG.10)

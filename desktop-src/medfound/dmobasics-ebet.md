@@ -1,7 +1,7 @@
 ---
 Description: DMO Basics
 ms.assetid: eaf453d2-69f8-432a-8a58-1ed70778f182
-title: DMO Basics
+title: DMO Basics (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

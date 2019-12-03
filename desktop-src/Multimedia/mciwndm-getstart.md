@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETSTART message
+title: MCIWNDM_GETSTART message (Vfw.h)
 description: The MCIWNDM\_GETSTART message retrieves the location of the beginning of the content of an MCI device or file. You can send this message explicitly or by using the MCIWndGetStart macro.
 ms.assetid: 2350616c-2aac-4ff6-b074-bb785a97cdfb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

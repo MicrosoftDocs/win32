@@ -1,5 +1,5 @@
 ---
-title: EsentLogGenerationMismatchException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogGenerationMismatchException methods
 TOCTitle: EsentLogGenerationMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentloggenerationmismatchexception_methods(v=EXCHG.10)

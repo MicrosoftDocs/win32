@@ -1,8 +1,8 @@
 ---
 Description: Vertex cache optimization hints.
 ms.assetid: 891624cd-03dd-4ddd-93f5-4899e1470325
-title: D3DDEVINFO_VCACHE structure
-ms.topic: structure
+title: D3DDEVINFO_VCACHE structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

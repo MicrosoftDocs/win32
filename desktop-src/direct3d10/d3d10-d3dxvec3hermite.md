@@ -1,8 +1,8 @@
 ---
 Description: Performs a Hermite spline interpolation, using the specified 3D vectors.
 ms.assetid: d2212299-0478-48a6-b303-60c212528058
-title: D3DXVec3Hermite function
-ms.topic: article
+title: D3DXVec3Hermite function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

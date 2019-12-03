@@ -2,7 +2,7 @@
 Description: Retrieves a specified property of a CRL.
 ms.assetid: b02f4f92-952a-4625-a7d4-6e78e542774e
 title: CertStoreProvGetCRLProperty callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

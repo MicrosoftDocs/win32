@@ -2,7 +2,7 @@
 Description: Represents an association between a virtual system and the setting data of the snapshot that was most recently applied to the virtual system.
 ms.assetid: 9231b441-20c4-468b-905f-5baabc32a8cc
 title: Msvm_LastAppliedSnapshot class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

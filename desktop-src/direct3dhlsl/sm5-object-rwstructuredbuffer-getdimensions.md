@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: RWStructuredBuffer::GetDimensions function
 description: Gets the resource dimensions.
 ms.assetid: 842b3d21-2e2b-4906-93ee-0252b2e8cf85
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

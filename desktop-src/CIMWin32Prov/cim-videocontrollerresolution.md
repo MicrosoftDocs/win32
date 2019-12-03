@@ -3,7 +3,7 @@ Description: The CIM\_VideoControllerResolution class represents the various vid
 ms.assetid: 954ac3fe-9777-460c-8929-853f19379256
 ms.tgt_platform: multiple
 title: CIM_VideoControllerResolution class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

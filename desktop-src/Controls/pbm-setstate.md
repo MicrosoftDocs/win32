@@ -1,5 +1,5 @@
 ---
-title: PBM_SETSTATE message
+title: PBM_SETSTATE message (Commctrl.h)
 description: Sets the state of the progress bar.
 ms.assetid: 4626f334-db74-4618-8fc7-e6f21c88ca19
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

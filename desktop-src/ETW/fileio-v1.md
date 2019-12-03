@@ -2,7 +2,7 @@
 Description: This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: da64a02d-4bde-4ee9-81fa-8a67d53cd62e
 title: FileIo_V1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

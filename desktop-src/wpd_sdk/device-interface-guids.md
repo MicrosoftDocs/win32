@@ -1,8 +1,8 @@
 ---
 Description: The device interface can be described by a GUID value. Windows Portable Devices defines the following device interface.
 ms.assetid: 47b8d3dd-ea12-461d-935d-2de2c0157f88
-title: Device Interface GUIDs
-ms.topic: article
+title: Device Interface GUIDs (PortableDevice.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The MXDC\_ESCAPE printer escape function enables applications to write documents to a file or to a printer in XML Paper Specification (XPS) format by means of the Microsoft XPS Document Converter (MXDC).
 ms.assetid: 79aeb32e-94b1-4806-8ebf-a9d0956f4667
-title: MXDC_ESCAPE function
-ms.topic: article
+title: MXDC_ESCAPE function (Mxdc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

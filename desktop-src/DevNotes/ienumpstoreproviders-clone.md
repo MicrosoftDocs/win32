@@ -1,8 +1,8 @@
 ---
 Description: Creates another enumerator that contains the same enumeration state as the current one.
 ms.assetid: c9a53005-4bb2-4a07-8f58-28d51f22c9e8
-title: IEnumPStoreProviders::Clone method
-ms.topic: article
+title: IEnumPStoreProviders::Clone method (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The get\_StreamLength method retrieves the duration of the current stream.
 ms.assetid: b3c13abe-cd56-4960-9862-bda47a0e87ed
-title: IMediaDet::get_StreamLength method
-ms.topic: article
+title: IMediaDet::get_StreamLength method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

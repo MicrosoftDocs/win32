@@ -3,7 +3,7 @@ Description: The Win32\_LogicalProgramGroupItem&\#8194;WMI class represents an e
 ms.assetid: 70b127bf-4e94-4c1a-98ff-909bdfe0f009
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroupItem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

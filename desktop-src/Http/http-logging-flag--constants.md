@@ -1,5 +1,5 @@
 ---
-title: HTTP_LOGGING_FLAG_ Constants
+title: HTTP_LOGGING_FLAG_ Constants (Http.h)
 description: Define the options to configure logging on the HTTP Server API.
 ms.assetid: b6afef7a-5426-4ccd-9785-169e83812c07
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - http.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

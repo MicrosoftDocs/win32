@@ -1,8 +1,8 @@
 ---
 Description: Specifies the device category for a video capture device.
 ms.assetid: 008ff9df-ebe0-4efd-a62c-24f4a4239ebd
-title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY attribute
-ms.topic: article
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

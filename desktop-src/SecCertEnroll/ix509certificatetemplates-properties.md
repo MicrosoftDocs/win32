@@ -2,7 +2,7 @@
 Description: The IX509CertificateTemplates interface exposes the following properties.
 ms.assetid: 74D5E1C1-5498-4339-A141-8BEDCC008179
 title: IX509CertificateTemplates Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

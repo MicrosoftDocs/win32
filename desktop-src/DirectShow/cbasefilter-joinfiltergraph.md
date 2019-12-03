@@ -1,8 +1,8 @@
 ---
 Description: The JoinFilterGraph method notifies the filter that it has joined or left a filter graph. This method implements the IBaseFilter::JoinFilterGraph method.
 ms.assetid: ee02650c-aaf0-4a0e-914f-180230010709
-title: CBaseFilter.JoinFilterGraph method
-ms.topic: article
+title: CBaseFilter.JoinFilterGraph method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

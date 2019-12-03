@@ -1,5 +1,5 @@
 ---
-title: glRenderMode function
+title: glRenderMode function (Gl.h)
 description: The glRenderMode function sets the rasterization mode.
 ms.assetid: bcbc3bba-c552-425b-8284-6cadff0c9f56
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

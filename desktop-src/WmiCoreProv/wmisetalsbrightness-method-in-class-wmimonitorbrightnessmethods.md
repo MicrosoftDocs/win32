@@ -2,7 +2,7 @@
 Description: Used to set the ambient light sensor brightness value.
 ms.assetid: 8b3ec692-4043-42b3-8dd6-7a147620e382
 title: WmiSetALSBrightness method of the WmiMonitorBrightnessMethods class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

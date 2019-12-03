@@ -2,10 +2,10 @@
 title: add - ps
 description: Adds two vectors.
 ms.assetid: f7d29a66-879b-4160-82fd-0a1b2076559a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

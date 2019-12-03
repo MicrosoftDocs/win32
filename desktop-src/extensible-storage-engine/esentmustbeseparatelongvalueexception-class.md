@@ -1,11 +1,11 @@
 ---
-title: EsentMustBeSeparateLongValueException class (Microsoft.Isam.Esent.Interop)
+title: EsentMustBeSeparateLongValueException class
 TOCTitle: EsentMustBeSeparateLongValueException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustbeseparatelongvalueexception(v=EXCHG.10)
 ms:contentKeyID: 55102269
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException
 dev_langs:

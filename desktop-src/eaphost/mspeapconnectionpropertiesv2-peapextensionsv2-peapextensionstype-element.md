@@ -1,5 +1,5 @@
 ---
-title: 
+title: PeapExtensionsV2 (PeapExtensionsType) Element
 description: Enables future enhancements to the schema.
 ms.assetid: afac3a39-9cdc-42de-8f9e-c37405ec662a
 keywords:
@@ -10,10 +10,7 @@ api_name:
 - Username
 api_type:
 - Schema
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ROBOTS: INDEX,FOLLOW

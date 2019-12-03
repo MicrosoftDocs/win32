@@ -1,8 +1,8 @@
 ---
 Description: Sent to a window after its size has changed.
 ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
-title: WM_SIZE message
-ms.topic: article
+title: WM_SIZE message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

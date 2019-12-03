@@ -1,8 +1,8 @@
 ---
 Description: The WM\_TABLET\_DELETED message is posted when a tablet device is removed from Windows.
 ms.assetid: af5be7f0-a213-49a1-800e-c922281522c8
-title: WM_TABLET_DELETED message
-ms.topic: article
+title: WM_TABLET_DELETED message (Tpcshrd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

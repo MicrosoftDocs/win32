@@ -1,5 +1,5 @@
 ---
-title: STGM Constants
+title: STGM Constants (ObjBase.h)
 description: Flags that indicate conditions for creating and deleting the object and access modes for the object.
 ms.assetid: 15a35da9-332a-46e1-9190-500c95e26f59
 topic_type:
@@ -27,7 +27,7 @@ api_location:
 - ObjBase.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

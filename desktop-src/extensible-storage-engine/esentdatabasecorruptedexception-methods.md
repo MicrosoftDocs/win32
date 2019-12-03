@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedException methods
 TOCTitle: EsentDatabaseCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptedexception_methods(v=EXCHG.10)

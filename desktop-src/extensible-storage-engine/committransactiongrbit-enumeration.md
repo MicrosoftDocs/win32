@@ -1,11 +1,11 @@
 ---
-title: CommitTransactionGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: CommitTransactionGrbit enumeration
 TOCTitle: CommitTransactionGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CommitTransactionGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.committransactiongrbit(v=EXCHG.10)
 ms:contentKeyID: 39510830
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.CommitTransactionGrbit
 - Microsoft.Isam.Esent.Interop.CommitTransactionGrbit.None

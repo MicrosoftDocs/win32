@@ -1,8 +1,8 @@
 ---
 Description: The DeletePrinter function deletes the specified printer object.
 ms.assetid: 04d9c073-b795-4307-ba89-d4984bc5b354
-title: DeletePrinter function
-ms.topic: article
+title: DeletePrinter function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

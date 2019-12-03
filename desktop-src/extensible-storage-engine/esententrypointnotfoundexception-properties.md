@@ -1,5 +1,5 @@
 ---
-title: EsentEntryPointNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentEntryPointNotFoundException properties
 TOCTitle: EsentEntryPointNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esententrypointnotfoundexception_properties(v=EXCHG.10)

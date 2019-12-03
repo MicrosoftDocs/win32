@@ -3,7 +3,7 @@ Description: Represents a physical disk drive as seen by a computer running the 
 ms.assetid: c1fc6a1e-e725-484b-aacf-279f777e9b19
 ms.tgt_platform: multiple
 title: Win32_DiskDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

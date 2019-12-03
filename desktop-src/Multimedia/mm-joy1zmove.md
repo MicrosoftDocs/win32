@@ -1,5 +1,5 @@
 ---
-title: MM_JOY1ZMOVE message
+title: MM_JOY1ZMOVE message (Mmsystem.h)
 description: The MM\_JOY1ZMOVE message notifies the window that has captured joystick JOYSTICKID1 that the joystick position on the z-axis has changed.
 ms.assetid: 25d98963-03e6-4276-a132-256e8bbfa73b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

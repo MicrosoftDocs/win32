@@ -2,7 +2,7 @@
 Description: Creates a context object that describes the specified tablet device.
 ms.assetid: 76f48485-a958-4457-9b87-73de73fa671e
 title: ITablet::CreateContext method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The UPDATE\_EVENT structure updates events. This structure is passed back to the calling application via the event status callback procedure by the NPP.
 ms.assetid: 6896be5a-f986-44ff-a18b-010f7b9858aa
-title: UPDATE_EVENT structure
-ms.topic: structure
+title: UPDATE_EVENT structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

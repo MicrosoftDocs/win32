@@ -1,5 +1,5 @@
 ---
-title: EsentTestInjectionNotSupportedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTestInjectionNotSupportedException properties
 TOCTitle: EsentTestInjectionNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttestinjectionnotsupportedexception_properties(v=EXCHG.10)

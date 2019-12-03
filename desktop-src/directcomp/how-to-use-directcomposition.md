@@ -2,7 +2,7 @@
 title: How to use DirectComposition
 description: This section describes best practices for using the Microsoft DirectComposition \ 32;API, and demonstrates how to use the API to accomplish several common tasks.
 ms.assetid: 49F6E356-90C7-423A-A31A-AEE41F882D3B
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

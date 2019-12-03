@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPort interface
+title: IVMSerialPort interface (VPCCOMInterfaces.h)
 description: Defines a serial port inside a virtual machine.
 ms.assetid: a6568885-bfdf-4559-8886-02ca59096ca0
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

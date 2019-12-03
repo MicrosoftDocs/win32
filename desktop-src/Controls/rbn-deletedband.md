@@ -1,5 +1,5 @@
 ---
-title: RBN_DELETEDBAND notification code
+title: RBN_DELETEDBAND notification code (Commctrl.h)
 description: Sent by a rebar control after a band has been deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ef4aca07-de08-47de-b236-321e84e6e81c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ADSI Simple Data Types
+title: ADSI Simple Data Types (Iads.h)
 description: Active Directory Service Interfaces (ADSI) defines and uses the following simple data types.
 ms.assetid: 0bd34f13-269f-4f5d-8a18-74577522e402
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ keywords:
 - ADS_PRINTABLE_STRING
 - ADS_SEARCH_HANDLE
 - ADS_UTC_TIME
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

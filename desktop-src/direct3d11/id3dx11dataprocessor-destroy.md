@@ -1,5 +1,5 @@
 ---
-title: ID3DX11DataProcessor Destroy method
+title: ID3DX11DataProcessor Destroy method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Destroys the processor after a work item completes.
 ms.assetid: 759641c0-ef86-42ee-88b9-3fcb7a171d86
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

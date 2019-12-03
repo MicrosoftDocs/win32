@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPort Name property
+title: IVMParallelPort Name property (VPCCOMInterfaces.h)
 description: Name of the parallel port.
 ms.assetid: 254df134-2b48-4a81-8229-0f5fbacf2e1c
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

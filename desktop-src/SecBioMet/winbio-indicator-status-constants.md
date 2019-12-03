@@ -1,5 +1,5 @@
 ---
-title: WINBIO_INDICATOR_STATUS Constants
+title: WINBIO_INDICATOR_STATUS Constants (Winbio\_types.h)
 description: Set an indicator light.
 ms.assetid: 1e00ff9d-6693-4763-8ac3-b42d2a3e987d
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

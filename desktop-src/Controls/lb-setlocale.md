@@ -1,5 +1,5 @@
 ---
-title: LB_SETLOCALE message
+title: LB_SETLOCALE message (Winuser.h)
 description: Sets the current locale of the list box. You can use the locale to determine the correct sorting order of displayed text (for list boxes with the LBS\_SORT style) and of text added by the LB\_ADDSTRING message.
 ms.assetid: e9503124-de9f-4b92-a59e-ec9320864ae7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

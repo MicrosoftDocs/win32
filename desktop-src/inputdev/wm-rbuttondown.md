@@ -1,5 +1,5 @@
 ---
-title: WM_RBUTTONDOWN message
+title: WM_RBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the right mouse button while the cursor is in the client area of a window.
 ms.assetid: da1a7d7c-6e49-4097-8b43-dcee7bd5fb3f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

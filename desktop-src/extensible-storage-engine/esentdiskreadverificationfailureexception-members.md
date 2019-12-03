@@ -1,5 +1,5 @@
 ---
-title: EsentDiskReadVerificationFailureException members (Microsoft.Isam.Esent.Interop)
+title: EsentDiskReadVerificationFailureException members
 TOCTitle: EsentDiskReadVerificationFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskreadverificationfailureexception_members(v=EXCHG.10)

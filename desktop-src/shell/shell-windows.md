@@ -1,7 +1,7 @@
 ---
 Description: Creates and returns a ShellWindows object. This object represents a collection of all of the open windows that belong to the Shell.
-title: Shell.Windows method
-ms.topic: article
+title: Shell.Windows method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

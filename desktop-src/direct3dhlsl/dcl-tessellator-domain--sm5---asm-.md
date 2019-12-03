@@ -2,7 +2,7 @@
 title: dcl_tessellator_domain (sm5 - asm)
 description: Declare the tessellator domain in a hull shader declaration section, and the domain shader.
 ms.assetid: 11A1D9D0-D848-4750-875B-7060CE1CF42A
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

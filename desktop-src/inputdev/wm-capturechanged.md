@@ -1,5 +1,5 @@
 ---
-title: WM_CAPTURECHANGED message
+title: WM_CAPTURECHANGED message (Winuser.h)
 description: Sent to the window that is losing the mouse capture.
 ms.assetid: 79c8f65e-31fa-4bdb-9e88-0160a52b5b7d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

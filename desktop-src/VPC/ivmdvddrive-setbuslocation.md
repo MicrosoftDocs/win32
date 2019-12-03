@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive SetBusLocation method
+title: IVMDVDDrive SetBusLocation method (VPCCOMInterfaces.h)
 description: Attaches the DVD drive to the specified bus location in the virtual machine.
 ms.assetid: 765274b8-91bc-475a-ac4d-994b2425a421
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

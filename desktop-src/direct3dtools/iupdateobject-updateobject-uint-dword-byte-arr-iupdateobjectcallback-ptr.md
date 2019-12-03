@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IUpdateObject::UpdateObject method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 824AB599-7377-4F77-8FC8-41E17ED57A79
 api_name: 

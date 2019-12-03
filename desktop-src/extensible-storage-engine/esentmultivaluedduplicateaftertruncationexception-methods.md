@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateAfterTruncationException methods (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateAfterTruncationException methods
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateaftertruncationexception_methods(v=EXCHG.10)

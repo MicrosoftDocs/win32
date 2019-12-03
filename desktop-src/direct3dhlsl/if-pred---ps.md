@@ -2,10 +2,10 @@
 title: if pred - ps
 description: Start of an if bool - ps...else - ps...endif - ps block, with the condition taken from the content of the predicate register.
 ms.assetid: 7b43bf71-a2e9-468f-805f-620de065db08
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

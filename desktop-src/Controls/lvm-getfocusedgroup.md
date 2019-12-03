@@ -1,5 +1,5 @@
 ---
-title: LVM_GETFOCUSEDGROUP message
+title: LVM_GETFOCUSEDGROUP message (Commctrl.h)
 description: Gets the group that has the focus. Send this message explicitly or by using the ListView\_GetFocusedGroup macro.
 ms.assetid: c1902f35-84b7-4f46-89a6-e48148f06172
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

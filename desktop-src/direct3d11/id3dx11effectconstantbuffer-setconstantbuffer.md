@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer SetConstantBuffer method
+title: ID3DX11EffectConstantBuffer SetConstantBuffer method (D3dx11effect.h)
 description: Set a constant-buffer.
 ms.assetid: 288e029a-e69a-4f58-be3f-8f9900c0e1dd
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

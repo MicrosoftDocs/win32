@@ -10,10 +10,7 @@ api_name:
 - ServerValidationParameters
 api_type:
 - Schema
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ROBOTS: INDEX,FOLLOW
@@ -64,7 +61,7 @@ The **ServerValidationParameters** complex type contains information about how t
 
 | Name                    | Type    | Description                                                                                                                                                                                                                  |
 |-------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PerformServerValidation | boolean | Windows 7 or leter: Indicates whether server validation is performed. The [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md) element is optional.<br/> |
+| PerformServerValidation | boolean | Windows 7 or later: Indicates whether server validation is performed. The [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md) element is optional.<br/> |
 
 
 

@@ -1,11 +1,11 @@
 ---
-title: EsentBadEmptyPageException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadEmptyPageException constructor 
 TOCTitle: 'EsentBadEmptyPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbademptypageexception.esentbademptypageexception(v=EXCHG.10)
 ms:contentKeyID: 55101120
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException.EsentBadEmptyPageException
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: Loads a series of characters into video memory to improve the efficiency of rendering to the device.
 ms.assetid: bb49842e-99de-406b-bf4b-139d6499f96e
-title: ID3DXFont::PreloadCharacters method
-ms.topic: article
+title: ID3DXFont::PreloadCharacters method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

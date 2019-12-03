@@ -1,8 +1,8 @@
 ---
 Description: Windows Portable Devices supports the following audio properties.
 ms.assetid: 5d6c6a95-abb7-4191-a961-bcb30ca96bb6
-title: Audio Properties
-ms.topic: article
+title: Audio Properties (PortableDevice.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

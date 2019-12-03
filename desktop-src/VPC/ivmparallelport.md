@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPort interface
+title: IVMParallelPort interface (VPCCOMInterfaces.h)
 description: Defines a parallel port inside a virtual machine.
 ms.assetid: da8daf16-5d22-49be-8fe9-72d5018c0622
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

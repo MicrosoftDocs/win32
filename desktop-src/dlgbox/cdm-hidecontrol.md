@@ -1,5 +1,5 @@
 ---
-title: CDM_HIDECONTROL message
+title: CDM_HIDECONTROL message (Commdlg.h)
 description: Hides the specified control in an Explorer-style Open or Save As dialog box.
 ms.assetid: 5bf7f861-d38c-491a-89f0-5b3dfce8abfc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

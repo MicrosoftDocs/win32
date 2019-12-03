@@ -1,8 +1,8 @@
 ---
 Description: Sets the flexible vertex format (FVF) type.
 ms.assetid: e581dcd4-7e17-4c36-aac9-c2942924cf51
-title: ID3DXSkinInfo::SetFVF method
-ms.topic: article
+title: ID3DXSkinInfo::SetFVF method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

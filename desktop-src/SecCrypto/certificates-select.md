@@ -2,7 +2,7 @@
 Description: Displays a dialog box for selecting certificates and returns a collection of those certificates selected.
 ms.assetid: dbf49a4b-6da1-4819-afcd-46db89a00fce
 title: ICertificates2::Select method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

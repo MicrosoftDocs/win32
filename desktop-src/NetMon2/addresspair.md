@@ -1,8 +1,8 @@
 ---
 Description: The ADDRESSPAIR structure constructs a capture filter.
 ms.assetid: 0dd2bcaa-5e0f-448f-969e-14b923a01a2f
-title: ADDRESSPAIR structure
-ms.topic: structure
+title: ADDRESSPAIR structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

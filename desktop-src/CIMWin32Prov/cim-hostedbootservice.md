@@ -3,7 +3,7 @@ Description: The CIM\_HostedBootService class associates a hosting system and a 
 ms.assetid: 91621288-a231-4423-94df-7601bdf2ebe1
 ms.tgt_platform: multiple
 title: CIM_HostedBootService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

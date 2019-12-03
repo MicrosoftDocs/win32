@@ -2,7 +2,7 @@
 Description: Starts the service.
 ms.assetid: 59918c15-7216-4cf7-9215-b27532febc72
 title: StartService method of the Msvm_SecurityService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

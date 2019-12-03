@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect CloneEffect method
+title: ID3DX11Effect CloneEffect method (D3dx11effect.h)
 description: Creates a copy of an effect interface.
 ms.assetid: 98cc8e25-38c5-4b87-99eb-39d2edd9053c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetNotifyInterface method
+title: IBackgroundCopyJob GetNotifyInterface method (Deliveryoptimization.h)
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 ms.assetid: 1AA50C03-AC84-4AA9-8EC3-3FBA865C70C0
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

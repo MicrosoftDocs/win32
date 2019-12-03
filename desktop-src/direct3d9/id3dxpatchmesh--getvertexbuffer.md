@@ -1,8 +1,8 @@
 ---
 Description: Gets the mesh vertex buffer.
 ms.assetid: 4ea4e99b-5c2c-467b-8b5d-8174c446680a
-title: ID3DXPatchMesh::GetVertexBuffer method
-ms.topic: article
+title: ID3DXPatchMesh::GetVertexBuffer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

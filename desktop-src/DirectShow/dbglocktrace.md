@@ -1,8 +1,8 @@
 ---
 Description: Enables or disables debug logging of a given critical section.
 ms.assetid: 6e6e3de4-8bea-4e28-b04e-54a52226b59a
-title: DbgLockTrace function
-ms.topic: article
+title: DbgLockTrace function (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

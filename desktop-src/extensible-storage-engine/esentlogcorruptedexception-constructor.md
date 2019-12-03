@@ -1,11 +1,11 @@
 ---
-title: EsentLogCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogCorruptedException constructor 
 TOCTitle: 'EsentLogCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptedexception.esentlogcorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55102143
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentLogCorruptedException.EsentLogCorruptedException
 dev_langs:

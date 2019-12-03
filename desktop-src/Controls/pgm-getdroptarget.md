@@ -1,5 +1,5 @@
 ---
-title: PGM_GETDROPTARGET message
+title: PGM_GETDROPTARGET message (Commctrl.h)
 description: Retrieves a pager control's IDropTarget interface pointer. You can send this message explicitly or use the Pager\_GetDropTarget macro.
 ms.assetid: 6b548c30-2d32-4372-90e4-346a27dda218
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

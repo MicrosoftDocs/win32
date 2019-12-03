@@ -1,8 +1,8 @@
 ---
 Description: Media sample queue.
 ms.assetid: 910f1c0c-2ce9-452f-a97b-aa424da9a93e
-title: COutputQueue::m_List member
-ms.topic: article
+title: COutputQueue::m_List member (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

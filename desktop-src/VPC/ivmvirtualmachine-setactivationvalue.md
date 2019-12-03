@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine SetActivationValue method
+title: IVMVirtualMachine SetActivationValue method (VPCCOMInterfaces.h)
 description: Sets the value of the specified activation setting for this virtual machine.
 ms.assetid: 6d664a80-1777-42ca-8454-df84c64ab505
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

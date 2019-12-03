@@ -1,8 +1,8 @@
 ---
 Description: Initializes a color with the supplied red, green, blue, and alpha values.
 ms.assetid: 87d322f1-4a26-42fd-a1c3-7be220cecf0f
-title: D3DCOLOR_RGBA macro
-ms.topic: article
+title: D3DCOLOR_RGBA macro (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

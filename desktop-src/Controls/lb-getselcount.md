@@ -1,5 +1,5 @@
 ---
-title: LB_GETSELCOUNT message
+title: LB_GETSELCOUNT message (Winuser.h)
 description: Gets the total number of selected items in a multiple-selection list box.
 ms.assetid: 1597f6d0-e8f2-4e10-8a0e-ef76192e6238
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

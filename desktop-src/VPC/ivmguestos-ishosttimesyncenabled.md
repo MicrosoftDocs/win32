@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS IsHostTimeSyncEnabled property
+title: IVMGuestOS IsHostTimeSyncEnabled property (VPCCOMInterfaces.h)
 description: Indicates whether the Integration Components in this VM should synchronize the guest's clock with the host's clock.
 ms.assetid: 57e3d49c-4acf-402f-9332-58ea443b363b
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

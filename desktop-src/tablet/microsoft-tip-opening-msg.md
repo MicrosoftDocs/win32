@@ -1,8 +1,8 @@
 ---
 Description: Notifies the window when the Text Input Panel is opening.
 ms.assetid: 6eadd648-bffb-4227-bdcd-cd733f692734
-title: MICROSOFT_TIP_OPENING_MSG message
-ms.topic: article
+title: MICROSOFT_TIP_OPENING_MSG message (Peninputpanel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

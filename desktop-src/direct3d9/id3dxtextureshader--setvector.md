@@ -1,8 +1,8 @@
 ---
 Description: Sets a 4D vector.
 ms.assetid: befed2a8-7695-4f06-a6ee-aff466d1940a
-title: ID3DXTextureShader::SetVector method
-ms.topic: article
+title: ID3DXTextureShader::SetVector method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

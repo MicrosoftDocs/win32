@@ -1,5 +1,5 @@
 ---
-title: glGetDoublev function
+title: glGetDoublev function (Gl.h)
 description: The glGetDoublev function returns the value or values of a selected parameter.
 ms.assetid: 9d99e653-7997-4e38-82d2-e7b1525208fe
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

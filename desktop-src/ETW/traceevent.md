@@ -1,8 +1,8 @@
 ---
 Description: The TraceEvent function sends an event to an event tracing session.
 ms.assetid: '9b21f6f0-dd9b-4f9c-a879-846901a3bab7'
-title: TraceEvent function
-ms.topic: article
+title: TraceEvent function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

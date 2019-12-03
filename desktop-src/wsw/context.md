@@ -1,5 +1,5 @@
 ---
-title: Context
+title: Context (Windows Web Services)
 description: A context is used in Service Model service operations and callbacks to pass relevant state data to the service operation or callback when it is invoked.
 ms.assetid: 44283854-96df-4e6b-8464-3df685896f07
 keywords:
@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Context
+# Context (Windows Web Services)
 
 A context is used in Service Model [service operations](service-operation.md) and callbacks to pass relevant state data to the service operation or callback when it is invoked. A context is referenced by a [WS\_OPERATION\_CONTEXT](ws-operation-context.md) structure. The properties of a context can be retrieved with the [**WsGetOperationContextProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetoperationcontextproperty) function, as illustrated in the following code.
 
@@ -23,8 +23,6 @@ HRESULT hr = WsGetOperationContextProperty (
                 sizeof(requestMessage),
                 error);
 ```
-
-## 
 
 Not all the context properties are available at any given time. See the context property documentation regarding availability of a specific property in a callback or a [service operation](service-operation.md).
 

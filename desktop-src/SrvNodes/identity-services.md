@@ -2,7 +2,7 @@
 Description: Identity Services
 ms.assetid: 0d65abae-c11e-4cb8-8cbc-576f0dab18af
 title: Identity Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

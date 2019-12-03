@@ -1,8 +1,8 @@
 ---
 Description: Get the sampler names referenced in a shader.
 ms.assetid: fe769917-daac-43b8-bf63-fb337915ff53
-title: D3DXGetShaderSamplers function
-ms.topic: article
+title: D3DXGetShaderSamplers function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

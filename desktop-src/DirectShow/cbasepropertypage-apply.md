@@ -1,8 +1,8 @@
 ---
 Description: The Apply method applies the current property page values to the object associated with the property page. This method implements the IPropertyPage::Apply method.
 ms.assetid: 9fe759d1-2b46-4489-b7b8-b5a35330091d
-title: CBasePropertyPage.Apply method
-ms.topic: article
+title: CBasePropertyPage.Apply method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Creates a save object that will be used to save data to a .x file.
 ms.assetid: da064e83-605f-4c86-985d-9a0961c18e01
-title: ID3DXFile::CreateSaveObject method
-ms.topic: article
+title: ID3DXFile::CreateSaveObject method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

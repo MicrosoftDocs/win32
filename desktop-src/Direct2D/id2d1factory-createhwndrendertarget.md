@@ -1,5 +1,5 @@
 ---
-title: ID2D1Factory CreateHwndRenderTarget methods
+title: ID2D1Factory CreateHwndRenderTarget methods (D2d1.h)
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 ms.assetid: 3b55b1b0-a423-40dc-9581-c1fbe8134ca5
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Factory::CreateHwndRenderTarget methods

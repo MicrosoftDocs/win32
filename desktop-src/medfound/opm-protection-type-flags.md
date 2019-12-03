@@ -1,8 +1,8 @@
 ---
 Description: The flags in the following table specify output protection mechanisms for Output Protection Manager (OPM).
 ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
-title: OPM Protection Type Flags
-ms.topic: article
+title: OPM Protection Type Flags (Opmapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

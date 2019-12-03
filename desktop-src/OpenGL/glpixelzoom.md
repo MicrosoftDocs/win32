@@ -1,5 +1,5 @@
 ---
-title: glPixelZoom function
+title: glPixelZoom function (Gl.h)
 description: The glPixelZoom function specifies the pixel zoom factors.
 ms.assetid: 57ead7d8-0502-46b4-9f66-dbb3cb75b0f9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

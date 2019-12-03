@@ -13,7 +13,7 @@ With Version 2.0, Performance Counters changed the architecture to simplify the 
 **Steps to creating a provider**
 
 1.  Write a manifest that defines the counter data that your provider will provide. For complete details on writing the manifest, see [Performance Counters Schema](performance-counters-schema.md).
-2.  Use the tool to generate the template code that you include in your provider. The template code includes the structures that define the counter sets, the [**CounterInitialize**](counterinitialize.md) and [**CounterCleanup**](countercleanup.md) functions, and the resource strings.
+2.  Use [CTRPP](ctrpp.md) to generate the template code that you include in your provider. The template code includes the structures that define the counter sets, the [**CounterInitialize**](counterinitialize.md) and [**CounterCleanup**](countercleanup.md) functions, and the resource strings.
 
     **Windows Vista:** The [**CounterInitialize**](counterinitialize.md) and [**CounterCleanup**](countercleanup.md) functions are named **PerfAutoInitialize** and **PerfAutoCleanup**, respectively. The generated code also includes the [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) function if requested.
 

@@ -2,7 +2,7 @@
 Description: Simulates a key release.
 ms.assetid: EAE84BD5-ECEA-44E7-A7AB-CD18299DF2FE
 title: ReleaseKey method of the Msvm_Keyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

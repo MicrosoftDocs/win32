@@ -2,7 +2,7 @@
 Description: Includes options that can be set or retrieved for the current Microsoft Windows HTTP Services (WinHTTP) session.
 ms.assetid: 8464d794-b4a8-4c83-9e26-69257000102a
 title: WinHttpRequestOption enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

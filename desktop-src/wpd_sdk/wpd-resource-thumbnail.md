@@ -2,7 +2,7 @@
 Description: Specifies a small picture&\#8212;typically a smaller version of a larger picture in the object.
 ms.assetid: ad1eac9d-b182-49b2-bd2c-2d76e2026d80
 title: WPD_RESOURCE_THUMBNAIL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

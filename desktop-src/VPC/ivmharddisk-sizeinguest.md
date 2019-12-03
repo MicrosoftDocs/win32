@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk SizeInGuest property
+title: IVMHardDisk SizeInGuest property (VPCCOMInterfaces.h)
 description: Retrieves the size of the virtual hard disk in the guest operating system.
 ms.assetid: 895598db-cd54-414c-8783-13102cfbd453
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

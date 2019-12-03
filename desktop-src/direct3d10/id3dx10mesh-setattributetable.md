@@ -1,8 +1,8 @@
 ---
 Description: Sets the attribute table for a mesh and the number of entries stored in the table.
 ms.assetid: 629fd31b-d88a-4650-82ed-ab7c40690986
-title: ID3DX10Mesh::SetAttributeTable method
-ms.topic: article
+title: ID3DX10Mesh::SetAttributeTable method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

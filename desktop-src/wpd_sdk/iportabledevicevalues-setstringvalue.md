@@ -1,8 +1,8 @@
 ---
 Description: The SetStringValue method adds a new string value (type VT\_LPWSTR) or overwrites an existing one.
 ms.assetid: a6eba2b9-de18-431e-874e-af68695e8d3f
-title: IPortableDeviceValues::SetStringValue method
-ms.topic: article
+title: IPortableDeviceValues::SetStringValue method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

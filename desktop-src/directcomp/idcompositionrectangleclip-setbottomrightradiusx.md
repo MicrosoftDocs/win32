@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottomRightRadiusX methods
+title: IDCompositionRectangleClip SetBottomRightRadiusX methods (Dcomp.h)
 description: Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property specifies the x radius of the ellipse that rounds the lower-right corner of the clip.
 ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetBottomRightRadiusX methods

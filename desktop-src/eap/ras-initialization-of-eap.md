@@ -2,9 +2,6 @@
 title: Access Point Initialization of EAP
 description: Upon initialization, the Access Point (AP) queries the registry for installed authentication protocols.
 ms.assetid: e230e01f-27df-4f61-8755-262ec11af660
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

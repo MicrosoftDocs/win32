@@ -1,8 +1,8 @@
 ---
 Description: Describes a two-component vector including operator overloads and type casts.
 ms.assetid: 5b7b4847-b994-48c6-ae3c-e48ee1716ddd
-title: D3DXVECTOR2 structure
-ms.topic: structure
+title: D3DXVECTOR2 structure (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

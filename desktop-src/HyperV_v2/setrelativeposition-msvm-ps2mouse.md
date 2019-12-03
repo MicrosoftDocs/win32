@@ -2,7 +2,7 @@
 Description: Offsets the position of the mouse pointer by the specified horizontal and vertical deltas.
 ms.assetid: C74E4BEA-C7E1-44C7-B4FC-8926F23DF1FE
 title: SetRelativePosition method of the Msvm_Ps2Mouse class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

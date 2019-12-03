@@ -1,8 +1,8 @@
 ---
 Description: Builds a right-handed orthographic projection matrix.
 ms.assetid: e6673ff4-06a2-4a16-b72e-5ca69ddf2438
-title: D3DXMatrixOrthoRH function
-ms.topic: article
+title: D3DXMatrixOrthoRH function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_MemoryCheck class specifies a condition for the minimum am
 ms.assetid: a7d22f31-a285-41c4-b069-47c54865ddf5
 ms.tgt_platform: multiple
 title: CIM_MemoryCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

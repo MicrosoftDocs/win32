@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_NOTIFYSIZE message
+title: MCIWNDM_NOTIFYSIZE message (Vfw.h)
 description: The MCIWNDM\_NOTIFYSIZE message notifies the parent window of an application that the window size has changed.
 ms.assetid: 76e1f663-bfc6-4d3c-9486-c8c7f79e4265
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

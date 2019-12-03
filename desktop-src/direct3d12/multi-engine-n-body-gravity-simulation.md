@@ -57,15 +57,15 @@ We start out by creating both a graphics and a compute root signature, in the **
 
 | Call flow                                                             | Parameters                                                            |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) |
-| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility)          |
-| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
-| [**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))                                   |                                                                       |
-| [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
-| [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) |
+| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_visibility)          |
+| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags)   |
+| [**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff728743(v=vs.85))                                   |                                                                       |
+| [**D3D12SerializeRootSignature**](/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
+| [**CreateRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 | [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) |                                                                       |
-| [**D3D12SerializeRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
-| [**CreateRootSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
+| [**D3D12SerializeRootSignature**](/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/api/d3d12/ne-d3d12-d3d_root_signature_version)   |
+| [**CreateRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)       |                                                                       |
 
 
 
@@ -92,7 +92,7 @@ The SRV and UAV buffers consist of an array of position and velocity data.
 
 | Call flow                       | Parameters |
 |---------------------------------|------------|
-| [**XMFLOAT4**](https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4) |            |
+| [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) |            |
 
 
 
@@ -118,7 +118,7 @@ For the graphics pipeline, the CBV is a **struct** containing two matrices used 
 
 | Call flow                       | Parameters |
 |---------------------------------|------------|
-| [**XMMATRIX**](https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix) |            |
+| [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) |            |
 
 
 
@@ -140,7 +140,7 @@ As a result, the vertex buffer used by the vertex shader actually does not conta
 
 | Call flow                       | Parameters |
 |---------------------------------|------------|
-| [**XMFLOAT4**](https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4) |            |
+| [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) |            |
 
 
 
@@ -205,11 +205,11 @@ void D3D12nBodyGravity::OnRender()
 |------------------------------------------------------------------------|------------|
 | [**InterlockedExchange**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedexchange)                  |            |
 | [**InterlockedGetValue**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)           |            |
-| [**GetCompletedValue**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)             |            |
-| [**Wait**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                                |            |
-| [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                         |            |
-| [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)  |            |
-| [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) |            |
+| [**GetCompletedValue**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)             |            |
+| [**Wait**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                                |            |
+| [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)                         |            |
+| [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)  |            |
+| [**IDXGISwapChain1::Present1**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) |            |
 
 
 
@@ -269,24 +269,24 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
 | Call flow                                                                   | Parameters |
 |-----------------------------------------------------------------------------|------------|
-| [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue)                            |            |
-| [**ID3D12CommandAllocator**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandallocator)                    |            |
-| [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist)              |            |
-| [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence)                                          |            |
+| [**ID3D12CommandQueue**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue)                            |            |
+| [**ID3D12CommandAllocator**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandallocator)                    |            |
+| [**ID3D12GraphicsCommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist)              |            |
+| [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence)                                          |            |
 | [**InterlockedGetValue**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)                |            |
-| [**Close**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)                            |            |
-| [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                              |            |
-| [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)       |            |
+| [**Close**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)                            |            |
+| [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)                              |            |
+| [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)       |            |
 | [**InterlockedIncrement**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedincrement)                     |            |
-| [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
-| [**SetEventOnCompletion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)            |            |
-| [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject)                         |            |
+| [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
+| [**SetEventOnCompletion**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)            |            |
+| [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject)                         |            |
 | [**InterlockedGetValue**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)                |            |
-| [**GetCompletedValue**](/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)                  |            |
-| [**Wait**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                                     |            |
+| [**GetCompletedValue**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue)                  |            |
+| [**Wait**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                                     |            |
 | [**InterlockedExchange**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedexchange)                       |            |
-| [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset)       |            |
-| [**ID3D12GraphicsCommandList::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset) |            |
+| [**ID3D12CommandAllocator::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset)       |            |
+| [**ID3D12GraphicsCommandList::Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset) |            |
 
 
 
@@ -298,18 +298,6 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
 ## Related topics
 
-<dl> <dt>
-
 [D3D12 Code Walk-Throughs](d3d12-code-walk-throughs.md)
-</dt> <dt>
 
-[Synchronization and Multi-Engine](user-mode-heap-synchronization.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization)

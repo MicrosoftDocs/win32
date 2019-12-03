@@ -1,11 +1,11 @@
 ---
-title: ColumnValue.Error property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.Error property 
 TOCTitle: 'Error property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.Error
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.error(v=EXCHG.10)
 ms:contentKeyID: 55101202
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnValue.Error
 dev_langs:

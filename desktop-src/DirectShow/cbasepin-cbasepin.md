@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2
-title: CBasePin.CBasePin constructor
-ms.topic: article
+title: CBasePin.CBasePin constructor (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

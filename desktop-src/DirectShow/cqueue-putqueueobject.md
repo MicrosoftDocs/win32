@@ -1,8 +1,8 @@
 ---
 Description: Puts an item onto the queue.
 ms.assetid: 8ac41d80-e7d5-4b3f-9f09-c3d39c94c490
-title: CQueue.PutQueueObject method
-ms.topic: article
+title: CQueue.PutQueueObject method (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: A 4x4 row-major matrix.
 ms.assetid: 2253f486-7bb6-4966-b3ec-dba47e53e372
-title: D3DMATRIX structure
-ms.topic: structure
+title: D3DMATRIX structure (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTranslateTransform SetOffsetY methods
+title: IDCompositionTranslateTransform SetOffsetY methods (Dcomp.h)
 description: Changes or animates the value of the OffsetY property of a 2D translation transform.
 ms.assetid: D3E750A9-4890-4E4A-A5EE-2FF4CF9A9E62
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionTranslateTransform::SetOffsetY methods

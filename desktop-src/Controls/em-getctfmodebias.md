@@ -1,5 +1,5 @@
 ---
-title: EM_GETCTFMODEBIAS message
+title: EM_GETCTFMODEBIAS message (Richedit.h)
 description: Gets the Text Services Framework mode bias values for a Microsoft Rich Edit control.
 ms.assetid: 2421d37d-169d-480f-a5f7-4c6033ca6c1a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

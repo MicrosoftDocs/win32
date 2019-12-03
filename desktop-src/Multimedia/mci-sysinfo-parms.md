@@ -1,5 +1,5 @@
 ---
-title: MCI_SYSINFO_PARMS structure
+title: MCI_SYSINFO_PARMS structure (Mciapi.h)
 description: The MCI\_SYSINFO\_PARMS structure contains information for the MCI\_SYSINFO command.
 ms.assetid: 433649ed-7c00-440d-84f3-164949e01cc4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

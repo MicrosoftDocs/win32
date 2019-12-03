@@ -1,5 +1,5 @@
 ---
-title: EsentSLVRootStillOpenException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootStillOpenException methods
 TOCTitle: EsentSLVRootStillOpenException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootstillopenexception_methods(v=EXCHG.10)

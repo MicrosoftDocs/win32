@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_HS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_HS structure (D3dx12.h)
 description: A helper structure used to describe a hull shader as a single object suitable for a stream description.
 ms.assetid: 4958161D-3E79-4227-ADD7-7F53E34B2175
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

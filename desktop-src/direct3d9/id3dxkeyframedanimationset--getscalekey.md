@@ -1,8 +1,8 @@
 ---
 Description: Get scale information for a specific key frame in the animation set.
 ms.assetid: 7f4a0bf3-2922-4fd7-bb85-b387d3e983a7
-title: ID3DXKeyframedAnimationSet::GetScaleKey method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetScaleKey method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

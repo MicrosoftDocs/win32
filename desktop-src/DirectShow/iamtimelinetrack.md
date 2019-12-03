@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineTrack interface provides methods for manipulating track objects in DirectShow Editing Services (DES).A track contains a list of sources that are rendered in the final output.
 ms.assetid: 42ac88f2-1361-413a-a9b0-95f5c32a7c3c
-title: IAMTimelineTrack interface
-ms.topic: interface
+title: IAMTimelineTrack interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

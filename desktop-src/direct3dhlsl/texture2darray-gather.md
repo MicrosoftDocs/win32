@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray Gather methods
+title: Texture2DArray::Texture2DArray Gather methods
 description: Samples a Texture2DArray and returns all four components.
 ms.assetid: 'eea1dd00-0061-4601-a218-979eb0ecd36d'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

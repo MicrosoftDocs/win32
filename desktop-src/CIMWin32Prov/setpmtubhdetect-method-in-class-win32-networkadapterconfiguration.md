@@ -3,7 +3,7 @@ Description: The SetPMTUBHDetect WMI class static method is used to enable the d
 ms.assetid: a1e45ed9-85a9-4fdd-890a-d578c3f94b72
 ms.tgt_platform: multiple
 title: SetPMTUBHDetect method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

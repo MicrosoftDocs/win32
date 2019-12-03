@@ -1,8 +1,8 @@
 ---
 Description: The current maximum number of delta frames to drop.
 ms.assetid: d14c594e-55ab-42c2-bdb0-6829f71d02dd
-title: CVideoTransformFilter::m_nWaitForKey member
-ms.topic: article
+title: CVideoTransformFilter::m_nWaitForKey member (Vtrans.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

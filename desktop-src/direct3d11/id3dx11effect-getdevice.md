@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetDevice method
+title: ID3DX11Effect GetDevice method (D3dx11effect.h)
 description: Get the device that created the effect.
 ms.assetid: efcc0358-9842-46eb-a521-ea220ec18735
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

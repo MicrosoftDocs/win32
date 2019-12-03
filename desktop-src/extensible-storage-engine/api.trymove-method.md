@@ -1,11 +1,11 @@
 ---
-title: Api.TryMove method  (Microsoft.Isam.Esent.Interop)
+title: Api.TryMove method 
 TOCTitle: 'TryMove method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryMove(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_Move,Microsoft.Isam.Esent.Interop.MoveGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.trymove(v=EXCHG.10)
 ms:contentKeyID: 55100883
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.TryMove
 dev_langs:

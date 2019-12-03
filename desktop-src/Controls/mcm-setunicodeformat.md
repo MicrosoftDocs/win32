@@ -1,5 +1,5 @@
 ---
-title: MCM_SETUNICODEFORMAT message
+title: MCM_SETUNICODEFORMAT message (Commctrl.h)
 description: Sets the Unicode character format flag for the control.
 ms.assetid: 250789b5-694b-4502-9cc0-3bc260ea06e7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

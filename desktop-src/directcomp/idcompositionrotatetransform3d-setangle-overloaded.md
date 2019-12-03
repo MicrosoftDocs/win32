@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform3D SetAngle methods
+title: IDCompositionRotateTransform3D SetAngle methods (Dcomp.h)
 description: Changes or animates the value of the Angle property of a 3D rotation transform. The Angle property specifies the rotation angle, in degrees. The default value is zero.
 ms.assetid: 12BEE73C-195A-42B5-A1BC-B5235440AC43
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform3D::SetAngle methods

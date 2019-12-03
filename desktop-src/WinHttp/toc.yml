@@ -75,7 +75,7 @@
               href: sortipaddresslist.md
             - name: "getClientVersion"
               href: getclientversion.md
-          - name: "Differences Between IPv6-Aware WPAD Helper Functions and Legacy WPAD Helper Functions"
+          - name: "IPv6-Aware and Legacy WPAD helper functions"
             href: differences-between-ipv6-aware-wpad-helper-functions-and-legacy-wpad-helper-functions.md
     - name: "Using the WinHttpRequest COM Object"
       href: using-the-winhttprequest-com-object.md

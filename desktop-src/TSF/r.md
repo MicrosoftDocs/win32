@@ -1,5 +1,5 @@
 ---
-title: R
+title: R (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 094eb7f8-d81b-4eae-83bc-009c145813aa

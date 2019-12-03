@@ -1,8 +1,8 @@
 ---
 Description: Decrypts a message.
 ms.assetid: ea271d0c-9167-41c5-8919-09611206fc71
-title: DecryptMessage (General) function
-ms.topic: article
+title: DecryptMessage (General) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

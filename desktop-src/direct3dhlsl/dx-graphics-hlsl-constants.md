@@ -1,5 +1,5 @@
 ---
-title: Shader Constants
+title: Shader Constants (HLSL)
 description: In Shader Model 4, shader constants are stored in one or more buffer resources in memory.
 ms.assetid: 89fe874a-8009-4901-bebe-2d9e45f894bb
 keywords:

@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseBufferDependenciesCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseBufferDependenciesCorruptedException constructor 
 TOCTitle: 'EsentDatabaseBufferDependenciesCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasebufferdependenciescorruptedexception.esentdatabasebufferdependenciescorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55101431
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException.EsentDatabaseBufferDependenciesCorruptedException
 dev_langs:

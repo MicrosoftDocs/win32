@@ -2,7 +2,7 @@
 Description: An effect function is written in HLSL and is declared with the following syntax.
 ms.assetid: 5ac85f09-50ac-4e8f-b4d2-ae8306b59348
 title: Effect Function Syntax (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

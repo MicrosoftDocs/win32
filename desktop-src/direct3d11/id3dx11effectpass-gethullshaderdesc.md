@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetHullShaderDesc method
+title: ID3DX11EffectPass GetHullShaderDesc method (D3dx11effect.h)
 description: Get hull-shader description.
 ms.assetid: 1a683e61-da9a-4d78-8073-a6104625852b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

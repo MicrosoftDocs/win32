@@ -83,7 +83,7 @@ sampler samp[7] : register(s0);
 tex1[myMaterialID].Sample(samp[samplerID], texCoords);
 ```
 
-There is an important default restriction on the use of the indices (`myMaterialID` and `samplerID` in the code above) in that they are not allowed to vary in a draw/dispatch call. Even changing the index based on instancing counts as varying.
+There's an important default restriction on the use of the indices (`myMaterialID` and `samplerID` in the code above) in that they're not allowed to vary within a [wave](/windows/win32/direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12#terminology). Even changing the index based on instancing counts as varying.
 
 If varying the index is required then specify the `NonUniformResourceIndex` qualifier on the index, for example:
 

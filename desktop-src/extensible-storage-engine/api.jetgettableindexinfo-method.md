@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetGetTableIndexInfo method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetTableIndexInfo method 
 TOCTitle: 'JetGetTableIndexInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetTableIndexInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgettableindexinfo(v=EXCHG.10)

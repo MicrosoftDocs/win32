@@ -1,8 +1,8 @@
 ---
 Description: Initializes the authenticated channel.
 ms.assetid: a74edbaa-af57-4f8e-9974-f6053f59377f
-title: D3DAUTHENTICATEDCONFIGURE_INITIALIZE
-ms.topic: article
+title: D3DAUTHENTICATEDCONFIGURE_INITIALIZE (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

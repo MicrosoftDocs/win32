@@ -1,18 +1,18 @@
 ---
-title: Using the Microsoft Linguistic Information Sound Editing Tool
+title: Using the Linguistic Information Sound Editing Tool
 description: Using the Microsoft Linguistic Information Sound Editing Tool
 ms.assetid: 6f029798-129e-4d63-b92e-94e3b902480c
 keywords:
-- Microsoft Linguistic Information Sound Editing tool
+- Linguistic Information Sound Editing tool
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using the Microsoft Linguistic Information Sound Editing Tool
+# Using the Linguistic Information Sound Editing Tool
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The Microsoft Linguistic Information Sound Editing Tool enables you to generate phoneme and word-break information for enhancing Windows sound (.wav) files to support high-quality lip-syncing character animation. The following sections describe how to use the tool.
+The Linguistic Information Sound Editing Tool enables you to generate phoneme and word-break information for enhancing Windows sound (.wav) files to support high-quality lip-syncing character animation. The following sections describe how to use the tool.
 
 -   [Installing the Sound Editor](installing-the-sound-editor.md)
 -   [Starting the Sound Editor](starting-the-sound-editor.md)

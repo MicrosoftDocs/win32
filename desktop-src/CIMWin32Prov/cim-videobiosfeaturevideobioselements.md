@@ -3,7 +3,7 @@ Description: The CIM\_VideoBIOSFeatureVideoBIOSElements class associates a video
 ms.assetid: f1419505-213f-450e-8c96-45f547dd71da
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSFeatureVideoBIOSElements class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

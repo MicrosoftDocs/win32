@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: 21845996-8c00-4f00-adcf-1bec67cfc235
-title: CEnumPins.~CEnumPins destructor
-ms.topic: article
+title: CEnumPins.~CEnumPins destructor (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

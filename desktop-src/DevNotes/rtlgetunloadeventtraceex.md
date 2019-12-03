@@ -2,7 +2,7 @@
 Description: Retrieves the size and location of the dynamically unloaded module list for the current process.
 ms.assetid: 53ac9a7f-aa4a-412d-a6f7-a3a73bede5c2
 title: RtlGetUnloadEventTraceEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

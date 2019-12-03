@@ -1,8 +1,8 @@
 ---
 Description: IdentityInformationChanged is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 3aca8a98-3d12-482d-9991-d6b53adde522
-title: IIdentityChangeNotify::IdentityInformationChanged method
-ms.topic: article
+title: IIdentityChangeNotify::IdentityInformationChanged method (Msident.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

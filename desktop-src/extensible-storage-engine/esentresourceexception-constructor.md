@@ -1,5 +1,5 @@
 ﻿---
-title: EsentResourceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentResourceException constructor 
 TOCTitle: 'EsentResourceException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentResourceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresourceexception.esentresourceexception(v=EXCHG.10)

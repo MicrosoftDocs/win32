@@ -1,5 +1,5 @@
 ---
-title: WM_KILLFOCUS message
+title: WM_KILLFOCUS message (Winuser.h)
 description: Sent to a window immediately before it loses the keyboard focus.
 ms.assetid: 6d32a09b-a856-4f94-9544-3345b3a700f4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

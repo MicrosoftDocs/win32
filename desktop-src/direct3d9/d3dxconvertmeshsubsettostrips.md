@@ -1,8 +1,8 @@
 ---
 Description: Convert the specified mesh subset into a series of strips.
 ms.assetid: 4f005383-6a5a-4393-ac88-202e45946d3d
-title: D3DXConvertMeshSubsetToStrips function
-ms.topic: article
+title: D3DXConvertMeshSubsetToStrips function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

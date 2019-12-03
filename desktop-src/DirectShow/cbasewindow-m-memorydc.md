@@ -1,8 +1,8 @@
 ---
 Description: Handle to the memory device context.
 ms.assetid: e6edf3fb-67d6-425e-94fe-18e91c56fabb
-title: CBaseWindow::m_MemoryDC member
-ms.topic: article
+title: CBaseWindow::m_MemoryDC member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

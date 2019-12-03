@@ -3,7 +3,7 @@ Description: The CIM\_ConnectedTo class represents an association that indicates
 ms.assetid: fedd9227-8a3b-461a-995b-08cbceb81181
 ms.tgt_platform: multiple
 title: CIM_ConnectedTo class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

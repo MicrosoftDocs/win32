@@ -1,8 +1,8 @@
 ---
 Description: This operator subtracts one reference time from another.
 ms.assetid: 5691cd76-0d25-45c0-bb58-6668abe1db01
-title: COARefTime.operator- method
-ms.topic: article
+title: COARefTime.operator- method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

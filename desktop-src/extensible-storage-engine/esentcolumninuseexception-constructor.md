@@ -1,11 +1,11 @@
 ---
-title: EsentColumnInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentColumnInUseException constructor 
 TOCTitle: 'EsentColumnInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninuseexception.esentcolumninuseexception(v=EXCHG.10)
 ms:contentKeyID: 55101254
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentColumnInUseException.EsentColumnInUseException
 dev_langs:

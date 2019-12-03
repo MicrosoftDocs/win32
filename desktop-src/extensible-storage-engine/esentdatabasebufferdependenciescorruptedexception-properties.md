@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseBufferDependenciesCorruptedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseBufferDependenciesCorruptedException properties
 TOCTitle: EsentDatabaseBufferDependenciesCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasebufferdependenciescorruptedexception_properties(v=EXCHG.10)

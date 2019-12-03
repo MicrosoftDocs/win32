@@ -1,5 +1,5 @@
 ---
-title: Channel
+title: Channel (Windows Web Services)
 description: Channels encapsulate a communication context between two or more parties and are used to send and receive messages.
 ms.assetid: 5a04580d-c89f-4505-a4b7-0724ffb788fd
 keywords:

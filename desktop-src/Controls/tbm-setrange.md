@@ -1,5 +1,5 @@
 ---
-title: TBM_SETRANGE message
+title: TBM_SETRANGE message (Commctrl.h)
 description: Sets the range of minimum and maximum logical positions for the slider in a trackbar.
 ms.assetid: 9c225742-8e5e-4f47-af8c-8243b6c90c1d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

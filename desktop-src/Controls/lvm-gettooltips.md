@@ -1,5 +1,5 @@
 ---
-title: LVM_GETTOOLTIPS message
+title: LVM_GETTOOLTIPS message (Commctrl.h)
 description: Retrieves the tooltip control that the list-view control uses to display tooltips. You can send this message explicitly or use the ListView\_GetToolTips macro.
 ms.assetid: a3522c64-9498-40b8-9062-c112b7c8cacc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

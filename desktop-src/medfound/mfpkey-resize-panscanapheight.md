@@ -1,8 +1,8 @@
 ---
 Description: Specifies the height of the pan/scan region, in pixels.
 ms.assetid: 11fda329-4adf-40e9-85b0-8d0999bbcfb8
-title: MFPKEY_RESIZE_PANSCANAPHEIGHT Property
-ms.topic: article
+title: MFPKEY_RESIZE_PANSCANAPHEIGHT Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

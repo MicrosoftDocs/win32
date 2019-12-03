@@ -1,5 +1,5 @@
 ---
-title: Session.Identify method
+title: Session.Identify method (WSManDisp.h)
 description: Queries a remote computer to determine if it supports the WS-Management protocol.
 ms.assetid: b86ec9b8-8fc4-4c3e-aca7-2f7d039749df
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

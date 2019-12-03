@@ -1,8 +1,8 @@
 ---
 Description: Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the active input thread's culture identifier to the strokes.
 ms.assetid: 4a8d6828-699b-465d-b057-197866ff069f
-title: IInkAnalyzer::AddStrokes method
-ms.topic: article
+title: IInkAnalyzer::AddStrokes method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

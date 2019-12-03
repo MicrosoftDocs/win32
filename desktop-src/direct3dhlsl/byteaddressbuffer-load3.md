@@ -1,5 +1,5 @@
 ---
-title: Load3 methods
+title: ByteAddressBuffer::Load3 methods
 description: Gets three values from a read-only buffer indexed in bytes.
 ms.assetid: FDC92927-661D-416C-98EA-FD8101110882
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

@@ -2,7 +2,7 @@
 Description: DebugSetMute function
 ms.assetid: c480d56e-63e6-42f0-b02a-75599882cf65
 title: DebugSetMute function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

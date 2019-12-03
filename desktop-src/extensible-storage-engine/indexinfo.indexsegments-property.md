@@ -1,11 +1,11 @@
 ---
-title: IndexInfo.IndexSegments property  (Microsoft.Isam.Esent.Interop)
+title: IndexInfo.IndexSegments property 
 TOCTitle: 'IndexSegments property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.IndexSegments
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo.indexsegments(v=EXCHG.10)
 ms:contentKeyID: 55103239
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.IndexInfo.IndexSegments
 dev_langs:

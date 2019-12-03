@@ -1,5 +1,5 @@
 ---
-title: SetStringProperty method of the Win32_RDSHCollection class
+title: SetStringProperty method of the Win32_RDSHCollection class (Certenroll.h)
 description: Updates a string property value of a Win32\_RDSHCollection object.
 ms.assetid: 6981b47a-5480-44f5-90e3-f64d439fa2aa
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

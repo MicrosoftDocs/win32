@@ -3,7 +3,7 @@ Description: Renames the shortcut file (or directory) specified in the object pa
 ms.assetid: 6325fe96-19ee-4ccc-934c-ef0c0668f353
 ms.tgt_platform: multiple
 title: Rename method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

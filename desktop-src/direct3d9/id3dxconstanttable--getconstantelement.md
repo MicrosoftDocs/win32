@@ -1,8 +1,8 @@
 ---
 Description: Gets a constant from an array of constants. An array is made up of elements.
 ms.assetid: 20a61207-b0e1-455d-9b65-0fade543d1cf
-title: ID3DXConstantTable::GetConstantElement method
-ms.topic: article
+title: ID3DXConstantTable::GetConstantElement method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

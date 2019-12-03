@@ -1,8 +1,8 @@
 ---
 Description: Adds data to a specified hash object.
 ms.assetid: 8E32BBC4-C2DD-4174-9FF1-9001E4A7D87B
-title: A_SHAUpdate function
-ms.topic: article
+title: A_SHAUpdate function (Sha.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

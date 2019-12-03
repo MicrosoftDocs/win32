@@ -1,5 +1,5 @@
 ---
-title: EM_GETFIRSTVISIBLELINE message
+title: EM_GETFIRSTVISIBLELINE message (Winuser.h)
 description: Gets the zero-based index of the uppermost visible line in a multiline edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 022838d2-7948-4c5a-92ca-655822c4f672
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

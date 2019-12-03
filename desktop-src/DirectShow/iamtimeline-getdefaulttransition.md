@@ -1,8 +1,8 @@
 ---
 Description: The GetDefaultTransition method retrieves the default transition. If the render engine cannot render a transition, it substitutes the default transition.
 ms.assetid: 3fe5d984-480b-4b35-970f-2f571e0fde7d
-title: IAMTimeline::GetDefaultTransition method
-ms.topic: article
+title: IAMTimeline::GetDefaultTransition method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

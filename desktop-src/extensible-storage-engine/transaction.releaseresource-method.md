@@ -1,11 +1,11 @@
 ---
-title: Transaction.ReleaseResource method  (Microsoft.Isam.Esent.Interop)
+title: Transaction.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.ReleaseResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.releaseresource(v=EXCHG.10)
 ms:contentKeyID: 55104072
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Transaction.ReleaseResource
 dev_langs:

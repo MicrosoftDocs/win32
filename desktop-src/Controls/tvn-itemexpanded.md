@@ -1,5 +1,5 @@
 ---
-title: TVN_ITEMEXPANDED notification code
+title: TVN_ITEMEXPANDED notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that a parent item's list of child items has expanded or collapsed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 18d9d61d-6ec5-4d3b-9c02-36d0e61ed232
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

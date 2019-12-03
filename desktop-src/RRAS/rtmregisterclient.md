@@ -1,5 +1,5 @@
 ---
-title: RtmRegisterClient function
+title: RtmRegisterClient function (Rtm.h)
 description: The RtmRegisterClient function registers a client as a handler of the specified protocol. It establishes a route change notification mechanism for the client, and sets protocol options.
 ms.assetid: 70426601-695d-47ed-b71a-1df3fb8ddf10
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

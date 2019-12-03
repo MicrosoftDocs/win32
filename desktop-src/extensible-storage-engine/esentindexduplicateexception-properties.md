@@ -1,5 +1,5 @@
 ---
-title: EsentIndexDuplicateException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexDuplicateException properties
 TOCTitle: EsentIndexDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexduplicateexception_properties(v=EXCHG.10)

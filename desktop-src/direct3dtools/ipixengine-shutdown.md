@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine::ShutDown method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 92934048-10BD-4182-A6C7-49B0091C19DE
 api_name: 

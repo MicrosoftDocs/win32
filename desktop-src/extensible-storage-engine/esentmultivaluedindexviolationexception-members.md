@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedIndexViolationException members (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedIndexViolationException members
 TOCTitle: EsentMultiValuedIndexViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedindexviolationexception_members(v=EXCHG.10)

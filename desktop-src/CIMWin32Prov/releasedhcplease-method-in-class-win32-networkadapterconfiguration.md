@@ -3,7 +3,7 @@ Description: The ReleaseDHCPLease WMI class method releases the IP address bound
 ms.assetid: 0cf4b531-8626-4388-bffa-e16a4aa8c794
 ms.tgt_platform: multiple
 title: ReleaseDHCPLease method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

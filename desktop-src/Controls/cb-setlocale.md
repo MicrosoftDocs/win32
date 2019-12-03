@@ -1,5 +1,5 @@
 ---
-title: CB_SETLOCALE message
+title: CB_SETLOCALE message (Winuser.h)
 description: An application sends a CB\_SETLOCALE message to set the current locale of the combo box. If the combo box has the CBS\_SORT style and strings are added using CB\_ADDSTRING, the locale of a combo box affects how list items are sorted.
 ms.assetid: 06f9c69d-1220-490f-bc67-6e125f696e87
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPeerToPeerEngine::CancelSetPlaybackEndpoint method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 0B4776B8-AF29-495B-91FC-70778B3E0C7B
 api_name: 

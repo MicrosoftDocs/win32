@@ -1,5 +1,5 @@
 ---
-title: HDM_ORDERTOINDEX message
+title: HDM_ORDERTOINDEX message (Commctrl.h)
 description: Retrieves an index value for an item based on its order in the header control. You can send this message explicitly or use the Header\_OrderToIndex macro.
 ms.assetid: 'vs|controls|~\controls\header\messages\hdm_ordertoindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

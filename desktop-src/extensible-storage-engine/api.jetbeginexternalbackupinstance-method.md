@@ -1,11 +1,11 @@
 ---
-title: Api.JetBeginExternalBackupInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetBeginExternalBackupInstance method 
 TOCTitle: 'JetBeginExternalBackupInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginExternalBackupInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.BeginExternalBackupGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetbeginexternalbackupinstance(v=EXCHG.10)
 ms:contentKeyID: 55100659
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetBeginExternalBackupInstance
 dev_langs:

@@ -2,7 +2,7 @@
 title: IDXCoreAdapterList::IsStale
 description: Determines whether changes to this system have resulted in this DXCore adapter list object becoming out of date.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

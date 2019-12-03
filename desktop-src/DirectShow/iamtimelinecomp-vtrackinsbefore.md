@@ -1,8 +1,8 @@
 ---
 Description: The VTrackInsBefore method inserts a virtual track into the composition at the specified priority.
 ms.assetid: 82ae0867-13b6-41ae-adb9-a55ac78e21cb
-title: IAMTimelineComp::VTrackInsBefore method
-ms.topic: article
+title: IAMTimelineComp::VTrackInsBefore method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

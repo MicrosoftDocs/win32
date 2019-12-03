@@ -2,7 +2,7 @@
 Description: Defines the means by which a client can discover the valid range of default settings for an Ethernet switch feature.
 ms.assetid: 84ae7656-2cc4-4ca7-b4ae-95d9905c9aad
 title: Msvm_EthernetSwitchFeatureCapabilities class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

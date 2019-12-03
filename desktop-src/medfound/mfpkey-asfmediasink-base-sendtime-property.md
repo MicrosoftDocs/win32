@@ -1,8 +1,8 @@
 ---
 Description: Base send time for the ASF media sink, in milliseconds.
 ms.assetid: 1b99845e-751a-4ec6-bd2d-e4644cd6863e
-title: MFPKEY_ASFMEDIASINK_BASE_SENDTIME property
-ms.topic: article
+title: MFPKEY_ASFMEDIASINK_BASE_SENDTIME property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

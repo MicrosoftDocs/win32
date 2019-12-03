@@ -2,7 +2,7 @@
 Description: XMUNIBBLE4 describes a 4D vector with four unsigned 4-bit integer components.
 ms.assetid: c9581948-f80f-4467-94a2-d6da2ddedb26
 title: XMUNIBBLE4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

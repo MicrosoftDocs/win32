@@ -1,5 +1,5 @@
 ---
-title: BN_UNHILITE notification code
+title: BN_UNHILITE notification code (Winuser.h)
 description: Sent when the highlight should be removed from a button.
 ms.assetid: 9839a55b-9e9c-4c9c-8e92-347007ea27be
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

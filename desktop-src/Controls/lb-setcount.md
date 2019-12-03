@@ -1,5 +1,5 @@
 ---
-title: LB_SETCOUNT message
+title: LB_SETCOUNT message (Winuser.h)
 description: Sets the count of items in a list box created with the LBS\_NODATA style and not created with the LBS\_HASSTRINGS style.
 ms.assetid: 3ebc4237-24d3-443f-86d5-bdcd66a31baf
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

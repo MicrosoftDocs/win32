@@ -1,11 +1,11 @@
 ---
-title: EsentBackupAbortByServerException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBackupAbortByServerException constructor 
 TOCTitle: 'EsentBackupAbortByServerException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupabortbyserverexception.esentbackupabortbyserverexception(v=EXCHG.10)
 ms:contentKeyID: 55101071
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException.EsentBackupAbortByServerException
 dev_langs:

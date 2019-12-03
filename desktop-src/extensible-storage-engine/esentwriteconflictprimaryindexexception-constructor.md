@@ -1,11 +1,11 @@
 ---
-title: EsentWriteConflictPrimaryIndexException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentWriteConflictPrimaryIndexException constructor 
 TOCTitle: 'EsentWriteConflictPrimaryIndexException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictprimaryindexexception.esentwriteconflictprimaryindexexception(v=EXCHG.10)
 ms:contentKeyID: 55107372
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException.EsentWriteConflictPrimaryIndexException
 dev_langs:

@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_POTSModem class sets the desir
 ms.assetid: 805f03f1-d85b-4e18-b942-0954d07168f4
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_POTSModem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

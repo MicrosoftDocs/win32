@@ -1,8 +1,8 @@
 ---
 Description: The FindFirstPrinterChangeNotification function creates a change notification object and returns a handle to the object. You can then use this handle in a call to one of the wait functions to monitor changes to the printer or print server.
 ms.assetid: 4155ef5c-cd96-4960-919b-d9a495bb73a5
-title: FindFirstPrinterChangeNotification function
-ms.topic: article
+title: FindFirstPrinterChangeNotification function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -85,8 +85,8 @@ The flag that determines the category of printers for which notifications will w
 
 | Value                                                                                                                                                                                                                                                               | Meaning                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PRINTER_NOTIFY_CATEGORY_ALL"></span><span id="printer_notify_category_all"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_ALL**</dt> <dt>0x00</dt> </dl> | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications for both 2D and 3D printers.<br/> |
-| <span id="PRINTER_NOTIFY_CATEGORY_3D"></span><span id="printer_notify_category_3d"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_3D**</dt> <dt>0x01</dt> </dl>    | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications only for 3D printers.<br/>        |
+| <span id="PRINTER_NOTIFY_CATEGORY_ALL"></span><span id="printer_notify_category_all"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_ALL**</dt> <dt>0x001000</dt> </dl> | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications for both 2D and 3D printers.<br/> |
+| <span id="PRINTER_NOTIFY_CATEGORY_3D"></span><span id="printer_notify_category_3d"></span><dl> <dt>**PRINTER\_NOTIFY\_CATEGORY\_3D**</dt> <dt>0x002000</dt> </dl>    | [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) returns notifications only for 3D printers.<br/>        |
 
 
 

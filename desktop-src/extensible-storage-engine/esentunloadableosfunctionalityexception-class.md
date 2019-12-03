@@ -1,11 +1,11 @@
 ---
-title: EsentUnloadableOSFunctionalityException class (Microsoft.Isam.Esent.Interop)
+title: EsentUnloadableOSFunctionalityException class
 TOCTitle: EsentUnloadableOSFunctionalityException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunloadableosfunctionalityexception(v=EXCHG.10)
 ms:contentKeyID: 55107333
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException
 dev_langs:

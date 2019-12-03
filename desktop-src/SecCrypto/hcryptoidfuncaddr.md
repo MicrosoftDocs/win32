@@ -1,8 +1,8 @@
 ---
 Description: Represents a handle to an object identifier (OID) installable function.
 ms.assetid: 06492b94-9717-40e0-be96-f97f42ac34af
-title: HCRYPTOIDFUNCADDR
-ms.topic: article
+title: HCRYPTOIDFUNCADDR (Wincrypt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

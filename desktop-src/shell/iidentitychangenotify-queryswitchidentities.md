@@ -1,8 +1,8 @@
 ---
 Description: Called when the current user has requested that their user identity be switched, but before the switch occurs.
 ms.assetid: f159b829-623c-4348-9692-7317663811a7
-title: IIdentityChangeNotify::QuerySwitchIdentities method
-ms.topic: article
+title: IIdentityChangeNotify::QuerySwitchIdentities method (Msident.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

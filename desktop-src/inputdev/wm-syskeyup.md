@@ -1,5 +1,5 @@
 ---
-title: WM_SYSKEYUP message
+title: WM_SYSKEYUP message (Winuser.h)
 description: Posted to the window with the keyboard focus when the user releases a key that was pressed while the ALT key was held down.
 ms.assetid: a4f62575-fb84-4390-a1d1-1a62629de55f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The Deregister export function frees the resources used to create the protocol property database. The parser DLL must implement Deregister.
 ms.assetid: 80852aed-07aa-440f-a537-f6cce461292e
-title: Deregister callback function
-ms.topic: article
+title: Deregister callback function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

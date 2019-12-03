@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetLeft methods
+title: IDCompositionRectangleClip SetLeft methods (Dcomp.h)
 description: Animates or changes the value of the Left property of a clip rectangle.
 ms.assetid: A8E2C2A3-6146-486F-8FF4-05097BFE9222
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetLeft methods

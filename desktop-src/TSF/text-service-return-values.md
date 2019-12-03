@@ -1,5 +1,5 @@
 ---
-title: Text Service Return Values
+title: Text Service Return Values (Ctffunc.h)
 description: A text service produces a return value of 0xHHHH0600. The following table lists the text service return value.
 ms.assetid: 78abf002-6862-4d5d-a3f7-e2f3ef49e23e
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - Ctffunc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

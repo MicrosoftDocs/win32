@@ -1,5 +1,5 @@
 ---
-title: RequestReplyTcpServerWithWindowsTransportSecurityExample
+title: RequestReplyTcpServerWithWindowsTransportSecurity example
 description: This example shows a TCP server that accepts a channel and receives and replies to messages, with security provided by Windows SSPI-based transport security.
 ms.assetid: 690fa5cd-228b-4099-bd2b-cbf9c8d70c53
 keywords:
@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RequestReplyTcpServerWithWindowsTransportSecurityExample
+# RequestReplyTcpServerWithWindowsTransportSecurity example
 
 This example shows a TCP server that accepts a channel and receives and replies to messages, with security provided by Windows SSPI-based transport security.
 

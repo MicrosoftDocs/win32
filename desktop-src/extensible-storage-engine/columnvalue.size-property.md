@@ -1,11 +1,11 @@
 ---
-title: ColumnValue.Size property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.Size
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.size(v=EXCHG.10)
 ms:contentKeyID: 55101207
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnValue.Size
 dev_langs:

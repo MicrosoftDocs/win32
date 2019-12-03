@@ -2,7 +2,7 @@
 Description: Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.
 ms.assetid: 578ddda7-4c8e-498e-8612-29c392390b73
 title: Msvm_MetricServiceSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

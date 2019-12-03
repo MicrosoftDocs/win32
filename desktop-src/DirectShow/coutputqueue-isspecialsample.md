@@ -1,8 +1,8 @@
 ---
 Description: The IsSpecialSample method determines whether queued data is a control message.
 ms.assetid: 33d9c7a2-3046-45a5-a9f5-8f33a03bbcdd
-title: COutputQueue.IsSpecialSample method
-ms.topic: article
+title: COutputQueue.IsSpecialSample method (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

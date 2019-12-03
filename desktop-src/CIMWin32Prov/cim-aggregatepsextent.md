@@ -3,7 +3,7 @@ Description: The CIM\_AggregatePSExtent class defines the number of addressable 
 ms.assetid: 6c188955-a963-414d-94f9-b7e1cb5960ed
 ms.tgt_platform: multiple
 title: CIM_AggregatePSExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: EsentRestoreOfNonBackupDatabaseException members (Microsoft.Isam.Esent.Interop)
+title: EsentRestoreOfNonBackupDatabaseException members
 TOCTitle: EsentRestoreOfNonBackupDatabaseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrestoreofnonbackupdatabaseexception_members(v=EXCHG.10)

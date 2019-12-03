@@ -3,7 +3,7 @@ Description: The Win32\_SCSIControllerDevice association WMI class relates a sma
 ms.assetid: 0334829c-3625-4acf-8ef3-da934c51e9bf
 ms.tgt_platform: multiple
 title: Win32_SCSIControllerDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

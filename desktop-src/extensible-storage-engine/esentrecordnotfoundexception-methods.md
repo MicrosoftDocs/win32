@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotFoundException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotFoundException methods
 TOCTitle: EsentRecordNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotfoundexception_methods(v=EXCHG.10)

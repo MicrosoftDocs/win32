@@ -1,8 +1,8 @@
 ---
 Description: The SetDefaultSourcePosition method sets the renderer back to using the default source position (typically all the native video).
 ms.assetid: 1ac03298-4c25-45f7-9719-ea03fe4699b2
-title: CBaseControlVideo.SetDefaultSourcePosition method
-ms.topic: article
+title: CBaseControlVideo.SetDefaultSourcePosition method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

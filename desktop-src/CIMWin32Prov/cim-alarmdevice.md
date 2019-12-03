@@ -3,7 +3,7 @@ Description: The CIM\_AlarmDevice class is an alarm device that emits audible or
 ms.assetid: 1f64aea4-d0a4-480b-9802-e2c21e71c754
 ms.tgt_platform: multiple
 title: CIM_AlarmDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

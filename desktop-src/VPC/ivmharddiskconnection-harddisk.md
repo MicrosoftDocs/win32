@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnection HardDisk property
+title: IVMHardDiskConnection HardDisk property (VPCCOMInterfaces.h)
 description: Retrieves a hard disk object corresponding to this connection.
 ms.assetid: dbe369d8-ec05-4039-9494-fc196262f697
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

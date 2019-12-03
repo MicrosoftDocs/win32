@@ -1,11 +1,11 @@
 ---
-title: EsentInTransactionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInTransactionException constructor 
 TOCTitle: 'EsentInTransactionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInTransactionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentintransactionexception.esentintransactionexception(v=EXCHG.10)
 ms:contentKeyID: 55101896
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInTransactionException.EsentInTransactionException
 dev_langs:

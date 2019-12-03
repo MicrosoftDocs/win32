@@ -1,5 +1,5 @@
 ---
-title: D3DX11CompileFromMemory function
+title: D3DX11CompileFromMemory function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the D3DCompile API. Compile a shader or an effect that is loaded in memory.
 ms.assetid: 3396560f-f411-4c66-9f22-03c0050c74b0
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

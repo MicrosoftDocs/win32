@@ -1,5 +1,5 @@
 ---
-title: WM_ADSPROP_NOTIFY_PAGEINIT message
+title: WM_ADSPROP_NOTIFY_PAGEINIT message (Adsprop.h)
 description: An Active Directory property sheet extension calls the ADsPropGetInitInfo to obtain data about regarding the directory object that the property sheet extension applies to.
 ms.assetid: 473c5a75-d0d9-4d12-b855-63683e8cdf3f
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

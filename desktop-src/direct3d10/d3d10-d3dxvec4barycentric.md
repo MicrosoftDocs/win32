@@ -1,8 +1,8 @@
 ---
 Description: Returns a point in Barycentric coordinates, using the specified 4D vectors.
 ms.assetid: 44406135-3270-4f2e-bb53-29affb2510f2
-title: D3DXVec4BaryCentric function
-ms.topic: article
+title: D3DXVec4BaryCentric function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

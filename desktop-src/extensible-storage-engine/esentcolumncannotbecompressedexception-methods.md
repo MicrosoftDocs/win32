@@ -1,5 +1,5 @@
 ---
-title: EsentColumnCannotBeCompressedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnCannotBeCompressedException methods
 TOCTitle: EsentColumnCannotBeCompressedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnCannotBeCompressedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumncannotbecompressedexception_methods(v=EXCHG.10)

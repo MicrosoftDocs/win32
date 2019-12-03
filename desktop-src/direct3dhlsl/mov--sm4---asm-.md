@@ -2,7 +2,7 @@
 title: mov (sm4 - asm)
 description: Component-wise move.
 ms.assetid: A8865237-59D3-4332-9F09-157E10C4FFC6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

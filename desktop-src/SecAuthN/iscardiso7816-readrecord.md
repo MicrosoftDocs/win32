@@ -1,8 +1,8 @@
 ---
 Description: The ReadRecord method constructs an application protocol data unit (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
 ms.assetid: b00a3242-93bc-4779-8c62-89157fbcb5d1
-title: ISCardISO7816::ReadRecord method
-ms.topic: article
+title: ISCardISO7816::ReadRecord method (Scardssp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

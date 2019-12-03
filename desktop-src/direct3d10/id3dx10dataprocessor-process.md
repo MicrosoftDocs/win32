@@ -1,8 +1,8 @@
 ---
 Description: Process some data.
 ms.assetid: c64f6a2d-4512-4028-8ed9-bfc5e9e86758
-title: ID3DX10DataProcessor::Process method
-ms.topic: article
+title: ID3DX10DataProcessor::Process method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

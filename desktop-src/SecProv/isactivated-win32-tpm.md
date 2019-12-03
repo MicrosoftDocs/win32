@@ -2,7 +2,7 @@
 Description: The IsActivated method of the Win32\_Tpm class indicates whether the device is activated.
 ms.assetid: 862c386c-c5b5-44d2-89a5-3735b99bf8bc
 title: IsActivated method of the Win32_Tpm class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

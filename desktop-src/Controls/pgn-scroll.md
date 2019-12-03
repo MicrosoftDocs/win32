@@ -1,5 +1,5 @@
 ---
-title: PGN_SCROLL notification code
+title: PGN_SCROLL notification code (Commctrl.h)
 description: Notifies a pager control's parent window that the contained window is about to be scrolled. This notification is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3d40e75e-c445-4885-b807-8cfcb92cb2d9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

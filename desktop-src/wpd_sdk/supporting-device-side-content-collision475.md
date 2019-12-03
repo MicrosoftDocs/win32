@@ -1,12 +1,12 @@
 ---
+title: Supporting device-side content
 Description: Supporting Device-Side Content
 ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
-title: Supporting Device-Side Content
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Supporting Device-Side Content
+# Supporting device-side content
 
 Because device-side content is not accessible through the file system in Windows Vista, you'll need to use either the Windows Shell API or the WPD API to retrieve data for device objects. This is the primary difference between a normal property sheet handler and a WPD property sheet handler. The following sample code demonstrates the retrieval of device-side content using the Windows Shell API.
 

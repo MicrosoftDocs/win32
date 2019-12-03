@@ -1,5 +1,5 @@
 ---
-title: IConnectionBrokerClient GetTargetInfo method
+title: IConnectionBrokerClient GetTargetInfo method (Cbclient.h)
 description: Requests information about the target computer where the connection should be redirected.
 ms.assetid: 43970B06-8CBD-4204-94AE-090A63918A90
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

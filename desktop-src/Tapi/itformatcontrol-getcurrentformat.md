@@ -1,8 +1,8 @@
 ---
 Description: The GetCurrentFormat method retrieves the media format of the current stream.
 ms.assetid: 02d1b3b5-3639-4864-9b72-623bf94acf69
-title: ITFormatControl::GetCurrentFormat method
-ms.topic: article
+title: ITFormatControl::GetCurrentFormat method (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

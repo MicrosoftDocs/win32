@@ -1,12 +1,12 @@
 ---
+title: Display an app-supplied bitmap on the composited image
 Description: Displaying an Application-Supplied Bitmap on the Composited Image
 ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
-title: Displaying an Application-Supplied Bitmap on the Composited Image
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Displaying an Application-Supplied Bitmap on the Composited Image
+# Display an app-supplied bitmap on the composited image
 
 Applications can use the VMR's mixing mode to display alpha-blended channel logos, a user interface, or advertisements either partially or completely within the video rectangle. Because the blending is performed in hardware by the graphics processor, there is minimal impact to the playback performance of the Video Stream, and there are no detectable flicker or tearing artifacts. Applications can change the image displayed as frequently as they wish. It should be noted that changes are only reflected on the screen when the DirectShow filter graph is in the running state.
 

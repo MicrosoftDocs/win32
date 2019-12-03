@@ -1,8 +1,8 @@
 ---
 Description: Manages a delayed app suspending operation.
 ms.assetid: 9F40659E-9B16-4FC9-B320-5679BB8A8161
-title: ISuspendingDeferral interface
-ms.topic: interface
+title: ISuspendingDeferral interface (Windows.ApplicationModel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters constructor  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters constructor 
 TOCTitle: 'InstanceParameters constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.InstanceParameters.#ctor(Microsoft.Isam.Esent.Interop.JET_INSTANCE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.instanceparameters(v=EXCHG.10)
 ms:contentKeyID: 55107431
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.InstanceParameters
 dev_langs:

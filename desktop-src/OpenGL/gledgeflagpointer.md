@@ -1,5 +1,5 @@
 ---
-title: glEdgeFlagPointer function
+title: glEdgeFlagPointer function (Gl.h)
 description: The glEdgeFlagPointer function defines an array of edge flags.
 ms.assetid: e0e7e442-533d-4c41-addd-a215ce0b1c56
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

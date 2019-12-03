@@ -1,5 +1,5 @@
 ---
-title: EsentLSNotSetException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLSNotSetException methods
 TOCTitle: EsentLSNotSetException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlsnotsetexception_methods(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the mouse pointer is moved over the InkPicture control and a mouse button is released.
 ms.assetid: 5e49acc8-1ce1-45ff-b87c-04bdc653156a
-title: InkPicture.MouseUp event
-ms.topic: article
+title: InkPicture.MouseUp event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

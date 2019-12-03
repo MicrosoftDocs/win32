@@ -1,8 +1,8 @@
 ---
 Description: The get\_Invert method retrieves a Boolean value indicating whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.
 ms.assetid: 2ccf2066-3d9c-493b-bc54-a03e7d075531
-title: IDxtKey::get_Invert method
-ms.topic: article
+title: IDxtKey::get_Invert method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

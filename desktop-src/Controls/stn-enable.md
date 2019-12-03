@@ -1,5 +1,5 @@
 ---
-title: STN_ENABLE notification code
+title: STN_ENABLE notification code (Winuser.h)
 description: The STN\_ENABLE notification code is sent when a static control is enabled.
 ms.assetid: daac2ed3-c7cd-46f8-abfa-78754b277ef4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,12 +1,12 @@
 ---
 Description: 'This section contains information about the following core enumerations:'
 ms.assetid: 3d1541bf-75d8-459d-a912-4068e9a0a9e4
-title: Core Enumerations
+title: Direct3D 10 core enumerations
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Enumerations
+# Direct3D 10 core enumerations
 
 This section contains information about the following core enumerations:
 

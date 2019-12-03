@@ -1,5 +1,5 @@
 ---
-title: JET_DBINFOMISC members (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC members
 TOCTitle: JET_DBINFOMISC members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc_members(v=EXCHG.10)

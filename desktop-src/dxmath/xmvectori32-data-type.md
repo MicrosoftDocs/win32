@@ -1,8 +1,8 @@
 ---
 Description: An opaque, portable type to support the use of C/C++ initializer syntax to load integer values into an instance of XMVECTOR type.
 ms.assetid: 6564030e-b6e9-0c4f-4e2a-4132e4264c94
-title: XMVECTORI32 Data Type
-ms.topic: article
+title: XMVECTORI32 Data Type (DirectXMath.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets the location of the icon assigned to the link.
 ms.assetid: 3bb7f0f0-7ab9-41e6-b738-274efbcd52ab
-title: ShellLinkObject.GetIconLocation method
-ms.topic: article
+title: ShellLinkObject.GetIconLocation method (Shlobj\_core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

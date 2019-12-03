@@ -1,5 +1,5 @@
 ---
-title: ColumnStream.Dispose method  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.ColumnStream.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.dispose(v=EXCHG.10)

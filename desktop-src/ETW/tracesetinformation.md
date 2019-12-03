@@ -1,8 +1,8 @@
 ---
 Description: Enables or disables event tracing session settings for the specified information class.
 ms.assetid: f4cdbe32-6885-4844-add5-560961c3dd1d
-title: TraceSetInformation function
-ms.topic: article
+title: TraceSetInformation function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

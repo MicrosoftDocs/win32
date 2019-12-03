@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseInvalidIncrementalReseedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidIncrementalReseedException constructor 
 TOCTitle: 'EsentDatabaseInvalidIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidIncrementalReseedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidincrementalreseedexception.esentdatabaseinvalidincrementalreseedexception(v=EXCHG.10)
 ms:contentKeyID: 55101503
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidIncrementalReseedException.EsentDatabaseInvalidIncrementalReseedException
 dev_langs:

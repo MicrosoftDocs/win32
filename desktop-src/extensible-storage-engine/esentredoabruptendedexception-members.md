@@ -1,5 +1,5 @@
 ---
-title: EsentRedoAbruptEndedException members (Microsoft.Isam.Esent.Interop)
+title: EsentRedoAbruptEndedException members
 TOCTitle: EsentRedoAbruptEndedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentredoabruptendedexception_members(v=EXCHG.10)

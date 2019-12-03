@@ -2,7 +2,7 @@
 Description: Proxy function for the GetChannelMask method.
 ms.assetid: c96e6078-4648-4333-8a25-bcb03a2cd50b
 title: IWICPixelFormatInfo_GetChannelMask_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

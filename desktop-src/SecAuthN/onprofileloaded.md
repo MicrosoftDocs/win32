@@ -1,8 +1,8 @@
 ---
 Description: Checks that the online user profile is loaded.
 ms.assetid: 4391664E-44D0-461D-84FF-E2B2410511BC
-title: OnProfileLoaded function
-ms.topic: article
+title: OnProfileLoaded function (Lsaidprov.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

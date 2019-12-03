@@ -1,5 +1,5 @@
 ---
-title: HDN_DROPDOWN notification code
+title: HDN_DROPDOWN notification code (Commctrl.h)
 description: Sent by a header control to its parent when the drop-down arrow on the header control is clicked. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: cacf5cb9-0593-42ff-868d-b098481f565f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

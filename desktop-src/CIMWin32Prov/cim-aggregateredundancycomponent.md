@@ -3,7 +3,7 @@ Description: The CIM\_AggregateRedundancyComponent class describes the aggregate
 ms.assetid: 3407e888-e17c-4f65-a33f-056002accbf7
 ms.tgt_platform: multiple
 title: CIM_AggregateRedundancyComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

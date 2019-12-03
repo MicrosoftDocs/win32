@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_CHANGESTYLES message
+title: MCIWNDM_CHANGESTYLES message (Vfw.h)
 description: The MCIWNDM\_CHANGESTYLES message changes the styles used by the MCIWnd window. You can send this message explicitly or by using the MCIWndChangeStyles macro.
 ms.assetid: 9074c21a-e49f-4089-a6d2-af8d513cb632
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

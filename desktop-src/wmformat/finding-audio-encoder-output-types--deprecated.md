@@ -1,5 +1,5 @@
 ---
-title: Finding Audio Encoder Output Types
+title: Finding Audio Encoder Output Types (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 79ac9d15-6e0d-449a-b780-cf2c1c0d1254
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Finding Audio Encoder Output Types
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

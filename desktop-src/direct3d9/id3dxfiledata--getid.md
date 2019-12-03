@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the GUID of this file data object.
 ms.assetid: 79bf56b5-5900-4427-8092-3a1df86f8a57
-title: ID3DXFileData::GetId method
-ms.topic: article
+title: ID3DXFileData::GetId method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Percent of time processing shader data.
 ms.assetid: 388bb943-c25f-4b50-b7e4-d6259f1186c2
-title: D3DDEVINFO_D3D9STAGETIMINGS structure
-ms.topic: structure
+title: D3DDEVINFO_D3D9STAGETIMINGS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

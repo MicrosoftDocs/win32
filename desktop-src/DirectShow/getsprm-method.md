@@ -2,7 +2,7 @@
 Description: The GetSPRM method retrieves the specified system parameter register.
 ms.assetid: c6177f43-2809-4ef2-bc94-ac9a28f94621
 title: GetSPRM Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

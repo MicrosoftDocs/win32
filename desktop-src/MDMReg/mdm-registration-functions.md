@@ -2,7 +2,7 @@
 title: MDM Registration Functions
 description: The following functions are used by MDM Registration.
 ms.assetid: 1b063a56-f59f-4b02-949f-c8b6bbf45a13
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

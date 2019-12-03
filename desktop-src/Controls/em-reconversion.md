@@ -1,5 +1,5 @@
 ---
-title: EM_RECONVERSION message
+title: EM_RECONVERSION message (Richedit.h)
 description: Invokes the Input Method Editor (IME) reconversion dialog box.
 ms.assetid: 1234905f-cbf2-42a3-b14a-5ade25ad9d75
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

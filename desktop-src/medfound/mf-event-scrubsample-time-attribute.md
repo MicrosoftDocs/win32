@@ -1,8 +1,8 @@
 ---
 Description: Presentation time for a sample that was rendered while scrubbing.
 ms.assetid: 6ce52cf5-014b-49a2-abf7-2c9cc5340a42
-title: MF_EVENT_SCRUBSAMPLE_TIME attribute
-ms.topic: article
+title: MF_EVENT_SCRUBSAMPLE_TIME attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

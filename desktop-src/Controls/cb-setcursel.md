@@ -1,5 +1,5 @@
 ---
-title: CB_SETCURSEL message
+title: CB_SETCURSEL message (Winuser.h)
 description: An application sends a CB\_SETCURSEL message to select a string in the list of a combo box.
 ms.assetid: d4ce3811-6e0a-4952-97cf-ba6efde0de0d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

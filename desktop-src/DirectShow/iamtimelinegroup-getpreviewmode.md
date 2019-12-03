@@ -1,8 +1,8 @@
 ---
 Description: The GetPreviewMode method retrieves the preview mode for the group.
 ms.assetid: 635354e5-5cb2-4045-8a7f-21d31005c5f3
-title: IAMTimelineGroup::GetPreviewMode method
-ms.topic: article
+title: IAMTimelineGroup::GetPreviewMode method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The NetHoodFolder property is the full path to the NetHood folder.
 ms.assetid: 44d1286c-064e-4bc7-ab3d-e7345f0af7a1
 title: NetHoodFolder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

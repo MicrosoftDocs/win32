@@ -1,7 +1,7 @@
 ---
 Description: Contains information that File Manager uses to add a Help string for a menu or toolbar command item.
-title: FMS_HELPSTRING structure
-ms.topic: structure
+title: FMS_HELPSTRING structure (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

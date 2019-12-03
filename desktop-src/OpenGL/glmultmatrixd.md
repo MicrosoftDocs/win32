@@ -1,5 +1,5 @@
 ---
-title: glMultMatrixd function
+title: glMultMatrixd function (Gl.h)
 description: The glMultMatrixd and glMultMatrixf functions multiply the current matrix by an arbitrary matrix.
 ms.assetid: 1f6cf4e4-e7bd-470c-b1f4-b9ccc1fb756e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

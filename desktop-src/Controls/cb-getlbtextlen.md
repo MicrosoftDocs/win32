@@ -1,5 +1,5 @@
 ---
-title: CB_GETLBTEXTLEN message
+title: CB_GETLBTEXTLEN message (Winuser.h)
 description: Gets the length, in characters, of a string in the list of a combo box.
 ms.assetid: f0fe0eef-f9db-4d9f-9a42-5bb2aeae30a0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

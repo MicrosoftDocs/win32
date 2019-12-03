@@ -1,5 +1,5 @@
 ---
-title: IWMPMetadataText (VB and C ) interface
+title: IWMPMetadataText (VB and C ) interface (Wmp.h)
 description: Provides properties for getting information about complex textual metadata attributes.
 ms.assetid: c0f300d2-6ddb-470b-849d-771d3719bb97
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

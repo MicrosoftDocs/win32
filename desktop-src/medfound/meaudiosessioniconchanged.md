@@ -1,8 +1,8 @@
 ---
 Description: Raised by the audio renderer when the audio session icon changes.
 ms.assetid: 72aae901-e5fe-481d-babb-459038abd629
-title: MEAudioSessionIconChanged event
-ms.topic: article
+title: MEAudioSessionIconChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

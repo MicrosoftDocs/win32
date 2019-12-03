@@ -3,7 +3,7 @@ Description: The CObjectPathParser class exposes the following enumerations.
 ms.assetid: A2D8604B-31BA-48D1-A571-05360A73D409
 ms.tgt_platform: multiple
 title: CObjectPathParser Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

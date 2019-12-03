@@ -2,7 +2,7 @@
 title: rcp (sm5 - asm)
 description: Component-wise reciprocal.
 ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

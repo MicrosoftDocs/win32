@@ -1,5 +1,5 @@
 ---
-title: DMO Basics
+title: DMO Basics (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 44e39ddc-d61c-4e14-b77e-3f940fa09741
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - DMO Basics
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

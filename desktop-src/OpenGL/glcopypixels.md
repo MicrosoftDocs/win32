@@ -1,5 +1,5 @@
 ---
-title: glCopyPixels function
+title: glCopyPixels function (Gl.h)
 description: The glCopyPixels function copies pixels in the framebuffer.
 ms.assetid: c4055928-7b8b-4d0f-94f3-e3b9c0503308
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

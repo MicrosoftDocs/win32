@@ -1,8 +1,8 @@
 ---
 Description: Modifies flags that control how the IInkAnalyzer performs ink analysis.
 ms.assetid: cb82edd0-1f15-4313-a286-1fcd715ac6df
-title: IInkAnalyzer::SetAnalysisModes method
-ms.topic: article
+title: IInkAnalyzer::SetAnalysisModes method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

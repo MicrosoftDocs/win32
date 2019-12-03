@@ -1,7 +1,7 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
-title: CPL_INQUIRE message
-ms.topic: article
+title: CPL_INQUIRE message (Cpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: daca87b7-f1ee-40f4-95d2-3150b595151e
 api_name: 

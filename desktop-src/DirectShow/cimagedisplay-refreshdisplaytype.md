@@ -1,8 +1,8 @@
 ---
 Description: The RefreshDisplayType method updates the object's video format to match the specified display.
 ms.assetid: cc2bdfeb-80f1-4fb6-859d-977d644a5e08
-title: CImageDisplay.RefreshDisplayType method
-ms.topic: article
+title: CImageDisplay.RefreshDisplayType method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

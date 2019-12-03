@@ -1,5 +1,5 @@
 ---
-title: XTYP_REGISTER transaction
+title: XTYP_REGISTER transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_REGISTER transaction type whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the DdeNameService function to register a service name, or whenever a non-DDEML application that supports the System topic is started.
 ms.assetid: 465e9c10-1526-4e2a-8a46-5984043f5a93
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

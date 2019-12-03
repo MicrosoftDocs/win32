@@ -1,5 +1,5 @@
 ---
-title: ICM_GET message
+title: ICM_GET message (Vfw.h)
 description: The ICM\_GET message retrieves an application-defined DWORD value from a video compression driver.
 ms.assetid: 288c0053-16a1-4547-b748-da218a0b588c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

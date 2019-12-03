@@ -1,5 +1,5 @@
 ---
-title: MCM_SETFIRSTDAYOFWEEK message
+title: MCM_SETFIRSTDAYOFWEEK message (Commctrl.h)
 description: Sets the first day of the week for a month calendar control. You can send this message explicitly or by using the MonthCal\_SetFirstDayOfWeek macro.
 ms.assetid: 6e0dc906-a41e-4c3a-9528-1f5428dceb8d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

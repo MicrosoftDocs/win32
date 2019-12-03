@@ -1,5 +1,5 @@
 ---
-title: Load methods
+title: ByteAddressBuffer::Load methods
 description: Gets one value from a read-only buffer indexed in bytes.
 ms.assetid: 53855344-06FB-40D0-B175-95A2B63A6473
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

@@ -1,5 +1,5 @@
 ---
-title: FreeSoH function
+title: FreeSoH function (NapUtil.h)
 description: Frees a SoH data structure.
 ms.assetid: 587acf64-31be-46c8-9d49-b5014c1a90ba
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

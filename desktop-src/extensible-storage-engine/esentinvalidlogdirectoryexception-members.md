@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLogDirectoryException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLogDirectoryException members
 TOCTitle: EsentInvalidLogDirectoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlogdirectoryexception_members(v=EXCHG.10)

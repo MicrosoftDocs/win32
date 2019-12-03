@@ -1,5 +1,5 @@
 ---
-title: IDCompositionShadowEffect SetGreen methods
+title: IDCompositionShadowEffect SetGreen methods (Dcomp.h)
 description: Sets the green value for the color of the shadow.
 ms.assetid: 55566eb3-939e-c61f-dae8-5bd8da1c9f5b
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionShadowEffect::SetGreen methods

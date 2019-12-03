@@ -3,7 +3,7 @@ Description: A base class for all intrinsic events that relate to a namespace.
 ms.assetid: 168637b1-217e-4b6d-bd07-25127b9e9f6c
 ms.tgt_platform: multiple
 title: '__NamespaceOperationEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

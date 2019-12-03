@@ -1,5 +1,5 @@
 ---
-title: EsentMissingFileToBackupException members (Microsoft.Isam.Esent.Interop)
+title: EsentMissingFileToBackupException members
 TOCTitle: EsentMissingFileToBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingfiletobackupexception_members(v=EXCHG.10)

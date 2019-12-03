@@ -1,8 +1,8 @@
 ---
 Description: The DbgInitialise function initializes the debug library. Ignored in retail builds.
 ms.assetid: d4ca739e-cd39-4692-81da-c5a88a09d546
-title: DbgInitialise function
-ms.topic: article
+title: DbgInitialise function (Wxdebug.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

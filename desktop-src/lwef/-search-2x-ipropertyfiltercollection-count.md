@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilterCollection Count property
+title: IPropertyFilterCollection Count property (WdsSharedIDL.h)
 description: Number of filters in the collection.
 ms.assetid: 9d656f06-eb1d-4cc6-9096-252f0fc65ae2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

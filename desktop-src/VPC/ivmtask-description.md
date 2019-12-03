@@ -1,5 +1,5 @@
 ---
-title: IVMTask Description property
+title: IVMTask Description property (VPCCOMInterfaces.h)
 description: Retrieves a description of the task.
 ms.assetid: f1d5c7a2-b29e-4a8d-9cbd-263c168ec658
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The FreeProps method frees resources allocated by the IPropertySetter::GetProps method. Call this method after calling GetProps, passing it the structures returned by GetProps.
 ms.assetid: 5920d63d-d8eb-4fd5-b0d6-9d175e8e2c86
-title: IPropertySetter::FreeProps method
-ms.topic: article
+title: IPropertySetter::FreeProps method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

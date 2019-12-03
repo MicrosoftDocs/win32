@@ -1,5 +1,5 @@
 ---
-title: RWTexture2D Load methods
+title: RWTexture2D::RWTexture2D Load methods
 description: Reads texture data from a RWTexture2D.
 ms.assetid: DFD9D5C4-C02E-47BC-B5C2-3DEA99034B0D
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

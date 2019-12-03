@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine5Callbacks::ReadTexelValueComplete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 3CAC08D8-0E4F-40B5-B91C-5C9159665C96
 api_name: 

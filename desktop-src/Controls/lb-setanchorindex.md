@@ -1,5 +1,5 @@
 ---
-title: LB_SETANCHORINDEX message
+title: LB_SETANCHORINDEX message (Winuser.h)
 description: Sets the anchor item \ 8212;that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.
 ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_setanchorindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: How to control whether a BITS job is allowed to download over an expensive connection
+title: Control a BITS download over an expensive connection
 description: Block downloading over an expensive connection such as a roaming cellular link.
 ms.assetid: 66C20B32-1348-44D9-81F3-43CCED0CEA34
 keywords:
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 10/04/2018
 ---
 
-# How to control whether a BITS job is allowed to download over an expensive connection
+# Control a BITS download over an expensive connection
 
 This topic shows how to block a BITS job from downloading over an expensive connection such as a roaming cellular link. BITS is an asynchronous API where the application creates a job, adds URLs to that job, and calls the job object's [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) function. From that point, BITS chooses when the job downloads based on factors such as job priority and the transfer policy. After the job has finished downloading, BITS notifies the application that the URL has been downloaded (if the application has registered for completion notification). During the job's lifetime, if the end user's network changes—such as if the user is traveling and is currently incurring roaming fees—then BITS will suspend the job until network conditions are optimal. The following step-by-step instructions show how to create the job and specify the appropriate transfer policy settings.
 

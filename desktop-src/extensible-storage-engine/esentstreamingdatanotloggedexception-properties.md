@@ -1,5 +1,5 @@
 ---
-title: EsentStreamingDataNotLoggedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentStreamingDataNotLoggedException properties
 TOCTitle: EsentStreamingDataNotLoggedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstreamingdatanotloggedexception_properties(v=EXCHG.10)

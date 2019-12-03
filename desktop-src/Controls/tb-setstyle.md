@@ -1,5 +1,5 @@
 ---
-title: TB_SETSTYLE message
+title: TB_SETSTYLE message (Commctrl.h)
 description: Sets the style for a toolbar control.
 ms.assetid: a1056136-e027-4ce4-b348-2d912a3ab467
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_SET command
+title: MCI_SET command (Mmsystem.h)
 description: The MCI\_SET command sets device information. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
 ms.assetid: c527f9d6-2119-4274-98b7-dc892e9b70f9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

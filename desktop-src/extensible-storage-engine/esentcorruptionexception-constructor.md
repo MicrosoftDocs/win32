@@ -1,5 +1,5 @@
 ﻿---
-title: EsentCorruptionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCorruptionException constructor 
 TOCTitle: 'EsentCorruptionException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentCorruptionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcorruptionexception.esentcorruptionexception(v=EXCHG.10)

@@ -2,7 +2,7 @@
 Description: Exports information that may help salvage encrypted data when the drive is severely damaged and no data backup files exist.
 ms.assetid: 3d376a02-3392-433e-b842-24c73074610c
 title: GetKeyPackage method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,10 +2,10 @@
 title: mad - ps
 description: Multiply and add instruction. Sets the destination register to (src0 \ src1) + src2.
 ms.assetid: 0bcf5dcc-3657-4ee0-9aeb-bd2d8feea7a6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

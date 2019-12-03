@@ -1,5 +1,5 @@
 ---
-title: MrmResourceIndexerMessageSeverity enumeration
+title: MrmResourceIndexerMessageSeverity enumeration (MrmResourceIndexer.h)
 description: Defines constants that specify the severity of an resource indexer message. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: A4734256-94BD-43BE-B93C-55B98DF8A9BF
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

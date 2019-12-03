@@ -1,5 +1,5 @@
 ---
-title: DeducingStringGetter
+title: DeducingStringGetter (D2d1effecthelpers.h)
 description: Deduces the class and arguments and then calls a member-function property getter callback for a string-type property.
 ms.assetid: 434E3360-D6C3-46CB-818E-15A185F4BB84
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: EsentRestoreOfNonBackupDatabaseException class (Microsoft.Isam.Esent.Interop)
+title: EsentRestoreOfNonBackupDatabaseException class
 TOCTitle: EsentRestoreOfNonBackupDatabaseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrestoreofnonbackupdatabaseexception(v=EXCHG.10)
 ms:contentKeyID: 55102655
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException
 dev_langs:

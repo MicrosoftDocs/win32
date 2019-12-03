@@ -1,8 +1,8 @@
 ---
 Description: A device error has occurred in an audio capture filter.
 ms.assetid: 13f8641b-7881-4f1c-816c-77c140e48ed4
-title: EC_SNDDEV_IN_ERROR
-ms.topic: article
+title: EC_SNDDEV_IN_ERROR (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

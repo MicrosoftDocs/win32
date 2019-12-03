@@ -1,8 +1,8 @@
 ---
 Description: Sets the active technique.
 ms.assetid: 18f19773-a9f8-47f9-9334-acc95e0f0eb7
-title: ID3DXEffect::SetTechnique method
-ms.topic: article
+title: ID3DXEffect::SetTechnique method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: Texture1DArray::Operator  function
 description: Returns a read-only resource variable.
 ms.assetid: 05ec9652-b5dd-41cf-8bef-730c507c5ba4
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -1,8 +1,8 @@
 ---
 Description: Searches for the next valid technique, starting at the technique after the specified technique.
 ms.assetid: 0d2f3f80-90fd-495d-acb8-075f50e9a974
-title: ID3DXEffect::FindNextValidTechnique method
-ms.topic: article
+title: ID3DXEffect::FindNextValidTechnique method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

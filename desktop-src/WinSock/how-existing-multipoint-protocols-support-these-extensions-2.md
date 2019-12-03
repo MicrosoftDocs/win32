@@ -1,12 +1,12 @@
 ---
+title: How multipoint protocols support these extensions
 Description: The following topics indicate how IP multicast and ATM point-to-multipoint capabilities can be accessed through the Windows Sockets 2 multipoint functions.
 ms.assetid: f6f1dcfa-c316-455b-a993-e09f02c2eedb
-title: How Existing Multipoint Protocols Support These Extensions
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How Existing Multipoint Protocols Support These Extensions
+# How multipoint protocols support these extensions
 
 The following topics indicate how IP multicast and ATM point-to-multipoint capabilities can be accessed through the Windows Sockets 2 multipoint functions. We chose these two as examples because they are popular and well understood.
 

@@ -1,11 +1,11 @@
 ---
-title: ColumnInfo.ToString method  (Microsoft.Isam.Esent.Interop)
+title: ColumnInfo.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnInfo.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo.tostring(v=EXCHG.10)
 ms:contentKeyID: 55100971
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnInfo.ToString
 dev_langs:

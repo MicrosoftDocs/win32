@@ -1,5 +1,5 @@
 ---
-title: PSM_HWNDTOINDEX message
+title: PSM_HWNDTOINDEX message (Prsht.h)
 description: Takes the window handle of the property sheet page and returns its zero-based index. You can send this message explicitly or use the PropSheet\_HwndToIndex macro.
 ms.assetid: 'vs|controls|~\controls\propsheet\messages\psm_hwndtoindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

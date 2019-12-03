@@ -1,11 +1,11 @@
 ---
-title: JET_SESID.Equals method (JET_SESID) (Microsoft.Isam.Esent.Interop)
+title: JET_SESID.Equals method (JET_SESID)
 TOCTitle: Equals method (JET_SESID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SESID.Equals(Microsoft.Isam.Esent.Interop.JET_SESID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_sesid.equals(v=EXCHG.10)
 ms:contentKeyID: 39511762
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

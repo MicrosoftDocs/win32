@@ -20,16 +20,7 @@ where *<***options***>* represents the command-line options you want to use, and
 
 A complete listing of MIDL compiler switches and options is available when you use the MIDL compiler [**/help**](-help-.md) and /? switches. The switches are organized by categories. For details, see the [MIDL Command-Line Reference](midl-command-line-reference.md).
 
-> [!Note]The new global flag **$(MIDL\_OPTIMIZATION)** exists in win32.mak. When an .idl file is compiled using this flag, the generated stub can utilize the latest RPC features available on the specified platform, and potentially improve the application's performance and stability. It's recommended that applications use this flag when using MIDL.
+> [!NOTE]
+> The new global flag **$(MIDL\_OPTIMIZATION)** exists in win32.mak. When an .idl file is compiled using this flag, the generated stub can utilize the latest RPC features available on the specified platform, and potentially improve the application's performance and stability. It's recommended that applications use this flag when using MIDL.
 >
 > **midl** **$(MIDL\_OPTIMIZATION)** **...**
-
- 
-
- 
-
- 
-
-
-
-

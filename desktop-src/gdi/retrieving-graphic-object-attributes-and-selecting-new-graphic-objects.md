@@ -1,12 +1,12 @@
 ---
+title: Retrieve object attributes, select new objects
 Description: An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the GetCurrentObject and GetObject functions.
 ms.assetid: 09d8412f-a67d-48d5-9c04-9233dee43cf9
-title: Retrieving Graphic-Object Attributes and Selecting New Graphic Objects
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Retrieving Graphic-Object Attributes and Selecting New Graphic Objects
+# Retrieve object attributes, select new objects
 
 An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the [**GetCurrentObject**](/windows/desktop/api/Wingdi/nf-wingdi-getcurrentobject) and [**GetObject**](/windows/desktop/api/Wingdi/nf-wingdi-getobject) functions. The **GetCurrentObject** function returns a handle identifying the object currently selected into the DC; the **GetObject** function returns a structure that describes the attributes of the object.
 

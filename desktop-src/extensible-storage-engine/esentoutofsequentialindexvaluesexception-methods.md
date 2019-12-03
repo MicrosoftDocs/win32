@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSequentialIndexValuesException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSequentialIndexValuesException methods
 TOCTitle: EsentOutOfSequentialIndexValuesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsequentialindexvaluesexception_methods(v=EXCHG.10)

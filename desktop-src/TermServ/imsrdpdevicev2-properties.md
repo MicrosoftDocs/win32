@@ -3,7 +3,7 @@ title: IMsRdpDeviceV2 properties
 description: The IMsRdpDeviceV2 interface exposes the following properties.
 ms.assetid: 763A6D57-5C38-4B8E-AEAB-A0E0390AA751
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

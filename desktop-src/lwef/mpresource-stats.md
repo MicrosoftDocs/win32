@@ -1,5 +1,5 @@
 ---
-title: MPRESOURCE_STATS structure
+title: MPRESOURCE_STATS structure (MpClient.h)
 description: Resource-related statistics.
 ms.assetid: D1DC4BC9-911D-448C-A421-11D2F51F0A61
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

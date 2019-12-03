@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_VolatileStorage class requests a reset
 ms.assetid: 3a0c4bf7-a2c3-4001-9658-8c3a94c2e7f1
 ms.tgt_platform: multiple
 title: Reset method of the CIM_VolatileStorage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilterCollection interface
+title: IPropertyFilterCollection interface (WdsSharedIDL.h)
 description: Exposes properties of the returned collection based on the query submitted.
 ms.assetid: 9ed4217f-54b0-4d69-bf44-2547320a9681
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

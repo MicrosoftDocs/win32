@@ -3,7 +3,7 @@ Description: The Win32\_StartupCommand&\#8194;WMI class represents a command tha
 ms.assetid: 7184ade8-fcc9-47b3-af04-8054b2fca937
 ms.tgt_platform: multiple
 title: Win32_StartupCommand class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

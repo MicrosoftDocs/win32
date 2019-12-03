@@ -1,8 +1,8 @@
 ---
 Description: The PROPERTYINFO data structure defines one property of the protocol.
 ms.assetid: '878777ab-141d-4cc5-b0c1-f2ac8f770bf0'
-title: PROPERTYINFO structure
-ms.topic: structure
+title: PROPERTYINFO structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

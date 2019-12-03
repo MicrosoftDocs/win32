@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SETREPEAT message
+title: MCIWNDM_SETREPEAT message (Vfw.h)
 description: The MCIWNDM\_SETREPEAT message sets the repeat flag associated with continuous playback.
 ms.assetid: 9a8da201-9ce8-4b6c-8b76-cd9e1356c75d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

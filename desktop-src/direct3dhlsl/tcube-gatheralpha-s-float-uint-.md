@@ -1,5 +1,5 @@
 ---
-title: GatherAlpha(S,float,uint) function
+title: TextureCube::GatherAlpha(S,float,uint) function
 description: Samples a texture and returns the alpha component along with status about the operation.
 ms.assetid: 19BD3024-D3E5-4AEA-8C8E-510A4EB527B5
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherAlpha
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

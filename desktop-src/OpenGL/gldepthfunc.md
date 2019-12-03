@@ -1,5 +1,5 @@
 ---
-title: glDepthFunc function
+title: glDepthFunc function (Gl.h)
 description: The glDepthFunc function specifies the value used for depth-buffer comparisons.
 ms.assetid: 6ab8774a-8887-4c1e-b567-4492c0a60cf2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

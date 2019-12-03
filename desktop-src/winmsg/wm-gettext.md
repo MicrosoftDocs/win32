@@ -1,8 +1,8 @@
 ---
 Description: Copies the text that corresponds to a window into a buffer provided by the caller.
 ms.assetid: 117c3d6d-24cd-462f-bdb0-b65d8914273a
-title: WM_GETTEXT message
-ms.topic: article
+title: WM_GETTEXT message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

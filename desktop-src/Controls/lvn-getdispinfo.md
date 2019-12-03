@@ -1,5 +1,5 @@
 ---
-title: LVN_GETDISPINFO notification code
+title: LVN_GETDISPINFO notification code (Commctrl.h)
 description: Sent by a list-view control to its parent window. It is a request for the parent window to provide information needed to display or sort a list-view item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 04310e39-69bc-45d7-958c-00452279d7a9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

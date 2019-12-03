@@ -1,8 +1,8 @@
 ---
 Description: The GetConnected method retrieves the pin connected to this pin.
 ms.assetid: 7b47aa8e-55a9-45f8-aa32-902fee037c72
-title: CBasePin.GetConnected method
-ms.topic: article
+title: CBasePin.GetConnected method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

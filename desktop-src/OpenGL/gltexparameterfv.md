@@ -1,5 +1,5 @@
 ---
-title: glTexParameterfv function
+title: glTexParameterfv function (Gl.h)
 description: Sets texture parameters.
 ms.assetid: 29aa2823-5c73-48f1-891f-018dd7a93323
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

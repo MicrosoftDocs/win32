@@ -1,5 +1,5 @@
 ---
-title: TVM_INSERTITEM message
+title: TVM_INSERTITEM message (Commctrl.h)
 description: Inserts a new item in a tree-view control. You can send this message explicitly or by using the TreeView\_InsertItem macro.
 ms.assetid: c5e5f88f-6ec8-4b95-89ea-97f6f1fd735e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

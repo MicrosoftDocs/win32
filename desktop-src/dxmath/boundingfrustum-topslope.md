@@ -1,8 +1,8 @@
 ---
 Description: The slope of the top of the BoundingFrustum.
 ms.assetid: 66aa839f-6280-4788-8e48-947e4d27ffbd
-title: BoundingFrustum.TopSlope
-ms.topic: article
+title: BoundingFrustum.TopSlope (DirectXCollision.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the work-item priority for a branch of the topology.
 ms.assetid: B2FA1151-08D3-46F9-A38D-AC8908EFA6A2
-title: MF_TOPONODE_WORKQUEUE_ITEM_PRIORITY attribute
-ms.topic: article
+title: MF_TOPONODE_WORKQUEUE_ITEM_PRIORITY attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

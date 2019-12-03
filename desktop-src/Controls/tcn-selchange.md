@@ -1,5 +1,5 @@
 ---
-title: TCN_SELCHANGE notification code
+title: TCN_SELCHANGE notification code (Commctrl.h)
 description: Notifies a tab control's parent window that the currently selected tab has changed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: f40e30f6-169b-4381-a300-12c3befb5fc5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

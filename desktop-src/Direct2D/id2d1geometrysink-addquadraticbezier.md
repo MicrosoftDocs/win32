@@ -1,5 +1,5 @@
 ---
-title: ID2D1GeometrySink AddQuadraticBezier methods
+title: ID2D1GeometrySink AddQuadraticBezier methods (D2d1.h)
 description: Creates a quadratic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 ms.assetid: 142f0823-0d8d-4216-8f40-9dec7f48032e
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1GeometrySink::AddQuadraticBezier methods

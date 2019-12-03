@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.NoInformationEvent property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.NoInformationEvent property 
 TOCTitle: 'NoInformationEvent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.NoInformationEvent
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.noinformationevent(v=EXCHG.10)
 ms:contentKeyID: 55103564
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.NoInformationEvent
 dev_langs:

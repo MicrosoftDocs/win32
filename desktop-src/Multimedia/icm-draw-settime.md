@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_SETTIME message
+title: ICM_DRAW_SETTIME message (Vfw.h)
 description: The ICM\_DRAW\_SETTIME provides synchronization information to a rendering driver that handles the timing of drawing frames.
 ms.assetid: 211e8ecc-ef36-4598-aa1d-cb0a06e64f14
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ﻿---
-title: EsentResource properties (Microsoft.Isam.Esent.Interop)
+title: EsentResource properties
 TOCTitle: EsentResource properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentResource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource_properties(v=EXCHG.10)

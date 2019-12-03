@@ -1,5 +1,5 @@
 ---
-title: RTM_IP_ROUTE structure
+title: RTM_IP_ROUTE structure (Rtm.h)
 description: The RTM\_IP\_ROUTE structure contains information that describes a route owned by the IP protocol family.
 ms.assetid: e752a4ae-a6bf-4cd3-9638-7615ff3901b7
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

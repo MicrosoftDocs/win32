@@ -1,5 +1,5 @@
 ---
-title: glListBase function
+title: glListBase function (Gl.h)
 description: The glListBase function sets the display list base for glCallLists.
 ms.assetid: df82f699-b2af-471a-83f3-5620857ba45d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

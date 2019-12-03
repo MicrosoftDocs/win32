@@ -3,7 +3,7 @@ Description: Is used in the registration of permanent event consumers to relate 
 ms.assetid: e6a06161-0f1c-4754-ac34-263ccf7bf10d
 ms.tgt_platform: multiple
 title: '__FilterToConsumerBinding class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

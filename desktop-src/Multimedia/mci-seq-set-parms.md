@@ -1,5 +1,5 @@
 ---
-title: MCI_SEQ_SET_PARMS structure
+title: MCI_SEQ_SET_PARMS structure (Mciapi.h)
 description: The MCI\_SEQ\_SET\_PARMS structure contains information for the MCI\_SET command for MIDI sequencer devices.
 ms.assetid: 71638a92-c1d6-474b-bc97-ea63ca586aaa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

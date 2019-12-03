@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_StorageExtent class sets the d
 ms.assetid: a344575f-c8b5-4fa5-a055-bd9c02332e2b
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_StorageExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

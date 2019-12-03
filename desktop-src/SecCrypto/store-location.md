@@ -2,7 +2,7 @@
 Description: Retrieves the location of the certificate store that this object represents.
 ms.assetid: '756ee7cb-5f9f-4fb2-bf10-79b543895189'
 title: Store.Location property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

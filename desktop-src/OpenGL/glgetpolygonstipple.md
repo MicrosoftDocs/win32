@@ -1,5 +1,5 @@
 ---
-title: glGetPolygonStipple function
+title: glGetPolygonStipple function (Gl.h)
 description: The glGetPolygonStipple function returns the polygon stipple pattern.
 ms.assetid: 95c1ebfa-8465-4bc1-b3f5-eed696a83816
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

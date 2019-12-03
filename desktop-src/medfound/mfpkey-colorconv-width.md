@@ -1,8 +1,8 @@
 ---
 Description: Specifies the width of the source and destination rectangles, in pixels.
 ms.assetid: 823f5fdf-a42c-47c0-aab4-3f43afd29c2b
-title: MFPKEY_COLORCONV_WIDTH Property
-ms.topic: article
+title: MFPKEY_COLORCONV_WIDTH Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

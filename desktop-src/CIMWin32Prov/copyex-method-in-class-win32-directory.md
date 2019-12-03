@@ -3,7 +3,7 @@ Description: Copies the logical directory entry file or directory specified in t
 ms.assetid: c15bd1ae-a60d-4875-a76e-99486820c42c
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

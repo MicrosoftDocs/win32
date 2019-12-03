@@ -1,5 +1,5 @@
 ---
-title: EsentReadPgnoVerifyFailureException properties (Microsoft.Isam.Esent.Interop)
+title: EsentReadPgnoVerifyFailureException properties
 TOCTitle: EsentReadPgnoVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentreadpgnoverifyfailureexception_properties(v=EXCHG.10)

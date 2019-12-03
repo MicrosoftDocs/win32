@@ -1,5 +1,5 @@
 ---
-title: WM_UNICHAR message
+title: WM_UNICHAR message (Winuser.h)
 description: The WM\_UNICHAR message can be used by an application to post input to other windows.
 ms.assetid: edbfcf14-0371-43ce-9676-eb10d964d0b7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

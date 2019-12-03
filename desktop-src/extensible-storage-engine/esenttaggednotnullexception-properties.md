@@ -1,5 +1,5 @@
 ---
-title: EsentTaggedNotNULLException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTaggedNotNULLException properties
 TOCTitle: EsentTaggedNotNULLException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttaggednotnullexception_properties(v=EXCHG.10)

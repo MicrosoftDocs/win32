@@ -1,8 +1,8 @@
 ---
 Description: This macro creates a value used by Issue to issue a query end.
 ms.assetid: 9ced932a-5d98-4bf8-aa11-06560f53546d
-title: D3DISSUE_END
-ms.topic: article
+title: D3DISSUE_END (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

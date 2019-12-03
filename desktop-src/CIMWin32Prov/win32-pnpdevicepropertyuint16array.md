@@ -3,7 +3,7 @@ Description: Represents a PnP device property consisting of an array of Uint16 e
 ms.assetid: A86C68BB-9CC6-4D0E-B2C9-91E3BF00077E
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint16Array class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

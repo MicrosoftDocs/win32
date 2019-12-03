@@ -2,7 +2,7 @@
 Description: Proxy function for the SetResolution method.
 ms.assetid: dc8df5bb-c38b-4be3-a4c6-60e7d5e1cd1b
 title: IWICBitmapFrameEncode_SetResolution_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

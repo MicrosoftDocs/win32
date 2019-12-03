@@ -2,7 +2,7 @@
 Description: Sets or retrieves the length of the key.
 ms.assetid: c0176d2d-c000-4529-af45-1cc9060ca56a
 title: Algorithm.KeyLength property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

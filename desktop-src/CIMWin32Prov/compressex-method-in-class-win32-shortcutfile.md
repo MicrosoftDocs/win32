@@ -3,7 +3,7 @@ Description: Compresses the logical shortcut file (or directory) specified in th
 ms.assetid: 1f7b6182-6ab7-4801-83a8-b57b1c78001f
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

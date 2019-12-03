@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest GetSoHRequest method
+title: INapSystemHealthAgentRequest GetSoHRequest method (NapSystemHealthAgent.h)
 description: Can be used by SHAs get SoHs previously cached by the NapAgent.
 ms.assetid: 187a4513-79db-45cb-8d64-6a92a2d3b004
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

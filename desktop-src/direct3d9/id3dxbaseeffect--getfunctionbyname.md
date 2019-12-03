@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a function by looking up its name.
 ms.assetid: 1e2e2dae-5084-47f3-9812-3dbf609bd70b
-title: ID3DXBaseEffect::GetFunctionByName method
-ms.topic: article
+title: ID3DXBaseEffect::GetFunctionByName method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

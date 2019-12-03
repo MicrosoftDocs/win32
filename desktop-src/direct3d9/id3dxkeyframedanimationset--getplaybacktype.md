@@ -1,8 +1,8 @@
 ---
 Description: Gets the type of the animation set playback loop.
 ms.assetid: f3c3a553-fa6e-4518-8b0f-e1b8a9931e07
-title: ID3DXKeyframedAnimationSet::GetPlaybackType method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetPlaybackType method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

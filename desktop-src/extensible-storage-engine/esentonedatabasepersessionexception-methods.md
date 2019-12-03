@@ -1,5 +1,5 @@
 ---
-title: EsentOneDatabasePerSessionException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOneDatabasePerSessionException methods
 TOCTitle: EsentOneDatabasePerSessionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentonedatabasepersessionexception_methods(v=EXCHG.10)

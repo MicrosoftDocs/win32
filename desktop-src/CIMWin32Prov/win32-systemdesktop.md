@@ -3,7 +3,7 @@ Description: The Win32\_SystemDesktop association WMI class relates a computer s
 ms.assetid: 2b024660-d707-4463-8207-73df74bfa7d6
 ms.tgt_platform: multiple
 title: Win32_SystemDesktop class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

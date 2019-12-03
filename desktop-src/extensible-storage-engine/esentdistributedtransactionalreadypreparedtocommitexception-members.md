@@ -1,5 +1,5 @@
 ---
-title: EsentDistributedTransactionAlreadyPreparedToCommitException members (Microsoft.Isam.Esent.Interop)
+title: EsentDistributedTransactionAlreadyPreparedToCommitException members
 TOCTitle: EsentDistributedTransactionAlreadyPreparedToCommitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionAlreadyPreparedToCommitException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdistributedtransactionalreadypreparedtocommitexception_members(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set the number of subdivision segments for N-patches.
 ms.assetid: f94910ee-3385-44d3-b4f1-a0e88c7afa39
-title: ID3DXEffectStateManager::SetNPatchMode method
-ms.topic: article
+title: ID3DXEffectStateManager::SetNPatchMode method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

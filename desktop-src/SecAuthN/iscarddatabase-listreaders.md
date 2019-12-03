@@ -1,8 +1,8 @@
 ---
 Description: The ListReaders method retrieves the names of the smart card readers registered in the smart card database.
 ms.assetid: e1ca85a1-9206-4c09-ba0f-10b60e472dfb
-title: ISCardDatabase::ListReaders method
-ms.topic: article
+title: ISCardDatabase::ListReaders method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: LB_SETITEMDATA message
+title: LB_SETITEMDATA message (Winuser.h)
 description: Sets a value associated with the specified item in a list box.
 ms.assetid: df974fa2-114a-43ef-b0ac-0451c31d95cd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

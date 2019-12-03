@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SETVOLUME message
+title: MCIWNDM_SETVOLUME message (Vfw.h)
 description: The MCIWNDM\_SETVOLUME message sets the volume level of an MCI device. You can send this message explicitly or by using the MCIWndSetVolume macro.
 ms.assetid: 04151588-b761-447a-9a57-808c034c3059
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

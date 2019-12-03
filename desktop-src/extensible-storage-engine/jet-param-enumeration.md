@@ -1,11 +1,11 @@
 ---
-title: JET_param enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_param enumeration
 TOCTitle: JET_param enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_param
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_param(v=EXCHG.10)
 ms:contentKeyID: 39515214
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_param
 - Microsoft.Isam.Esent.Interop.JET_param.CheckpointDepthMax

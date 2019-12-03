@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest GetSoHRequest method
+title: INapSystemHealthValidationRequest GetSoHRequest method (NapSystemHealthValidator.h)
 description: Allows System Health Validators (SHVs) to retrieve and validate the SoHRequest information sent by their System Health Agent (SHA) counterparts on the client.
 ms.assetid: e06e07c6-7305-4171-b94e-19c360e94c67
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

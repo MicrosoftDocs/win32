@@ -1,5 +1,5 @@
 ---
-title: TB_AUTOSIZE message
+title: TB_AUTOSIZE message (Commctrl.h)
 description: Causes a toolbar to be resized.
 ms.assetid: 11aff184-6f18-43a2-9bdc-462fc5ba1680
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

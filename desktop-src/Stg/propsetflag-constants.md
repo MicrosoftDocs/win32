@@ -1,5 +1,5 @@
 ---
-title: PROPSETFLAG Constants
+title: PROPSETFLAG Constants (Propidl.h)
 description: Define characteristics of a property set.
 ms.assetid: 6f865c8f-bbca-4122-b076-14f2bc56f292
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Propidl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

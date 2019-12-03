@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetSoHRequest method
+title: INapEnforcementClientConnection SetSoHRequest method (NapEnforcementClient.h)
 description: Sets the SoH-Request.
 ms.assetid: 87dbb982-a337-4644-a2fe-970bfdd6c140
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

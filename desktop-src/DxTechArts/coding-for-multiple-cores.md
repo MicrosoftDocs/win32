@@ -1,12 +1,12 @@
 ---
-title: Coding For Multiple Cores on Xbox 360 and Microsoft Windows
+title: Coding for multicore on Xbox 360 and Windows
 description: This topic gives some advice on how to get started with multithreaded programming.
 ms.assetid: 661f13a6-c73d-8513-2bad-0ef9d1a361a0
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Coding For Multiple Cores on Xbox 360 and Microsoft Windows
+# Coding for multicore on Xbox 360 and Windows
 
 For years the performance of processors has increased steadily, and games and other programs have reaped the benefits of this increasing power without having to do anything special.
 
@@ -284,7 +284,7 @@ The rdtsc instruction is one way to get accurate timing information on Windows. 
 
 Visual Studio fully supports multithreaded debugging for Windows and Xbox 360. The Visual Studio threads window lets you switch between threads in order to see the different call stacks and local variables. The threads window also lets you freeze and thaw particular threads.
 
-On Xbox 360, you can use the **@hwthread** meta-variable in the watch window to show the hardware thread on which the currently selected software thread is running.
+On Xbox 360, you can use the **\@hwthread** meta-variable in the watch window to show the hardware thread on which the currently selected software thread is running.
 
 The threads window is easier to use if you name your threads meaningfully. Visual Studio and other Microsoft debuggers allow you to name your threads. Implement the following **SetThreadName** function and call it from each thread as it starts up.
 

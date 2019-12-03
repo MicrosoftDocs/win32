@@ -2,8 +2,8 @@
 Description: Returns a collection of all association classes or instances that refer to a specific source class or instance.
 ms.assetid: 33425b1c-13f5-4c3d-8f8a-2922f3e95264
 ms.tgt_platform: multiple
-title: SWbemServices.ReferencesTo method
-ms.topic: article
+title: SWbemServices.ReferencesTo method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

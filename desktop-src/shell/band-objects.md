@@ -1,6 +1,6 @@
 ---
 Description: The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane.
-title: Creating Custom Explorer Bars, Tool Bands, and Desk Bands
+title: Create Custom Explorer Bars, Tool Bands, and Desk Bands
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 4bf46b3f-f833-42e0-baf7-21bfa9e6d890
@@ -28,7 +28,7 @@ To create a custom Explorer Bar, you must implement and register a *band object*
 
 ## Tool Bands
 
-A *tool band* is a band object that was introduced with Microsoft Internet Explorer 5 to support the Windows radio toolbar feature. The Internet Explorer toolbar is actually a [rebar control](https://msdn.microsoft.com/library/Bb774373(v=VS.85).aspx) that contains several [toolbar controls](https://msdn.microsoft.com/en-us/library/Bb760435(v=VS.85).aspx). By creating a tool band, you can add a band to that rebar control. However, like Explorer Bars, a tool band is a general purpose window.
+A *tool band* is a band object that was introduced with Microsoft Internet Explorer 5 to support the Windows radio toolbar feature. The Internet Explorer toolbar is actually a [rebar control](https://msdn.microsoft.com/library/Bb774373(v=VS.85).aspx) that contains several [toolbar controls](https://msdn.microsoft.com/library/Bb760435(v=VS.85).aspx). By creating a tool band, you can add a band to that rebar control. However, like Explorer Bars, a tool band is a general purpose window.
 
 ![screen shot of tool bands](images/toolband1.jpg)
 
@@ -60,11 +60,11 @@ The following topics are discussed.
 
 Although they can be used much like normal windows, band objects are COM objects that exist within a container. Explorer Bars are contained by Internet Explorer, and desk bands are contained by the Shell. While they serve different functions, their basic implementation is very similar. The primary difference is in how the band object is registered, which in turn controls the type of object and its container. This section discusses those aspects of implementation that are common to all band objects. See [A Simple Example of a Custom Explorer Bar](#a-simple-example-of-a-custom-explorer-bar) for additional implementation details.
 
-In addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) and [**IClassFactory**](https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx), all band objects must implement the following interfaces.
+In addition to [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) and [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx), all band objects must implement the following interfaces.
 
--   [**IDeskBand**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx)
--   [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx)
--   [**IPersistStream**](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx)
+-   [**IDeskBand**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx)
+-   [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx)
+-   [**IPersistStream**](https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx)
 
 In addition to registering their class identifier (CLSID), the Explorer Bar and desk band objects must also be registered for the appropriate component category. Registering the component category determines the object type and its container. Tool bands use a different registration procedure and do not have a category identifier (CATID). The CATIDs for the three band objects that require them are:
 
@@ -82,19 +82,19 @@ In addition to registering their class identifier (CLSID), the Explorer Bar and 
 
 See [Band Registration](#band-registration) for further discussion of how to register band objects.
 
-If the band object is to accept user input, it must also implement [**IInputObject**](https://msdn.microsoft.com/en-us/library/Bb761804(v=VS.85).aspx). To add items to the shortcut menu for Explorer Bar or desk bands, the band object must export [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx). Tool bands do not support shortcut menus.
+If the band object is to accept user input, it must also implement [**IInputObject**](https://msdn.microsoft.com/library/Bb761804(v=VS.85).aspx). To add items to the shortcut menu for Explorer Bar or desk bands, the band object must export [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx). Tool bands do not support shortcut menus.
 
 Because band objects implement a child window, they must also implement a window procedure to handle Windows messaging.
 
-Band objects can send commands to their container through the container's [**IOleCommandTarget**](https://msdn.microsoft.com/en-us/library/ms683797(v=VS.85).aspx) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/en-us/library/ms690300(v=VS.85).aspx). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
+Band objects can send commands to their container through the container's [**IOleCommandTarget**](https://msdn.microsoft.com/library/ms683797(v=VS.85).aspx) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/library/ms690300(v=VS.85).aspx). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
 
 -   DBID\_BANDINFOCHANGED
 
-    The band's information has changed. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx). The container will call the band object's **IDeskBand::GetBandInfo** method to request the updated information.
+    The band's information has changed. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx). The container will call the band object's **IDeskBand::GetBandInfo** method to request the updated information.
 
 -   DBID\_MAXIMIZEBAND
 
-    Maximize the band. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx).
+    Maximize the band. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx).
 
 -   DBID\_SHOWONLY
 
@@ -104,7 +104,7 @@ Band objects can send commands to their container through the container's [**IOl
 
     | Value | Description                                                                                                 |
     |-------|-------------------------------------------------------------------------------------------------------------|
-    | pUnk  | A pointer to the band object's [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. All other desk bands will be hidden. |
+    | pUnk  | A pointer to the band object's [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. All other desk bands will be hidden. |
     | 0     | Hide all desk bands.                                                                                        |
     | 1     | Show all desk bands.                                                                                        |
 
@@ -114,7 +114,7 @@ Band objects can send commands to their container through the container's [**IOl
 
 -   DBID\_PUSHCHEVRON
 
-    [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](https://msdn.microsoft.com/en-us/library/Bb774506(v=VS.85).aspx) message, and the band object receives an [RBN\_CHEVRONPUSHED](https://msdn.microsoft.com/en-us/library/Bb774409(v=VS.85).aspx) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/en-us/library/ms690300(v=VS.85).aspx) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
+    [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](https://msdn.microsoft.com/library/Bb774506(v=VS.85).aspx) message, and the band object receives an [RBN\_CHEVRONPUSHED](https://msdn.microsoft.com/library/Bb774409(v=VS.85).aspx) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/library/ms690300(v=VS.85).aspx) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
 
 ### Band Registration
 
@@ -214,7 +214,7 @@ HKEY_CURRENT_USER
                   BarSize = 23 01 00 00 00 00 00 00
 ```
 
-You can handle registration of a band object's CATID programmatically. Create a component categories manager object (CLSID\_StdComponentCategoriesMgr) and request a pointer to its [**ICatRegister**](https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx) interface. Pass the band object's CLSID and CATID to [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/en-us/library/ms692674(v=VS.85).aspx).
+You can handle registration of a band object's CATID programmatically. Create a component categories manager object (CLSID\_StdComponentCategoriesMgr) and request a pointer to its [**ICatRegister**](https://msdn.microsoft.com/library/ms680737(v=VS.85).aspx) interface. Pass the band object's CLSID and CATID to [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/library/ms692674(v=VS.85).aspx).
 
 ### A Simple Example of a Custom Explorer Bar
 
@@ -235,16 +235,16 @@ The very simple implementation used in the Explorer Bar sample could actually be
 
 All three objects are packaged in a single DLL, which exposes the following functions.
 
--   [**DllMain**](https://msdn.microsoft.com/en-us/library/ms682583(v=VS.85).aspx)
--   [**DllCanUnloadNow**](https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx)
--   [**DllGetClassObject**](https://msdn.microsoft.com/en-us/library/ms680760(v=VS.85).aspx)
--   [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx)
+-   [**DllMain**](https://msdn.microsoft.com/library/ms682583(v=VS.85).aspx)
+-   [**DllCanUnloadNow**](https://msdn.microsoft.com/library/ms690368(v=VS.85).aspx)
+-   [**DllGetClassObject**](https://msdn.microsoft.com/library/ms680760(v=VS.85).aspx)
+-   [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx)
 
 The first three functions are standard implementations and will not be discussed here. The Class Factory implementation is also standard.
 
 ### Required Interface Implementations
 
-The vertical Explorer Bar sample implements the four required interfaces: [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx), [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx), [**IPersistStream**](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx), and [**IDeskBand**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx) as part of the CExplorerBar class. The constructor, destructor, and **IUnknown** implementations are straightforward, and will not be discussed here. See the sample code for details.
+The vertical Explorer Bar sample implements the four required interfaces: [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx), [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx), [**IPersistStream**](https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx), and [**IDeskBand**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx) as part of the CExplorerBar class. The constructor, destructor, and **IUnknown** implementations are straightforward, and will not be discussed here. See the sample code for details.
 
 The following interfaces are discussed in detail.
 
@@ -254,20 +254,20 @@ The following interfaces are discussed in detail.
 
 ### IObjectWithSite
 
-When the user selects an Explorer Bar, the container calls the corresponding band object's [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/en-us/library/ms683869(v=VS.85).aspx) method. The *punkSite* parameter will be set to the site's [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer.
+When the user selects an Explorer Bar, the container calls the corresponding band object's [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) method. The *punkSite* parameter will be set to the site's [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer.
 
-In general, a [**SetSite**](https://msdn.microsoft.com/en-us/library/ms683869(v=VS.85).aspx) implementation should perform the following steps:
+In general, a [**SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) implementation should perform the following steps:
 
 1.  Release any site pointer that is currently being held.
-2.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/en-us/library/ms683869(v=VS.85).aspx) is set to **NULL**, the band is being removed. **SetSite** can return S\_OK.
-3.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/en-us/library/ms683869(v=VS.85).aspx) is non-**NULL**, a new site is being set. **SetSite** should do the following:
-    1.  Call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on the site for its [**IOleWindow**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx) interface.
-    2.  Call [**IOleWindow::GetWindow**](https://msdn.microsoft.com/en-us/library/ms687282(v=VS.85).aspx) to obtain the parent window's handle. Save the handle for later use. Release [**IOleWindow**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx) if it is no longer needed.
+2.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) is set to **NULL**, the band is being removed. **SetSite** can return S\_OK.
+3.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) is non-**NULL**, a new site is being set. **SetSite** should do the following:
+    1.  Call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) on the site for its [**IOleWindow**](https://msdn.microsoft.com/library/ms680102(v=VS.85).aspx) interface.
+    2.  Call [**IOleWindow::GetWindow**](https://msdn.microsoft.com/library/ms687282(v=VS.85).aspx) to obtain the parent window's handle. Save the handle for later use. Release [**IOleWindow**](https://msdn.microsoft.com/library/ms680102(v=VS.85).aspx) if it is no longer needed.
     3.  Create the band object's window as a child of the window obtained in the previous step. Do not create it as a visible window.
-    4.  If the band object implements [**IInputObject**](https://msdn.microsoft.com/en-us/library/Bb761804(v=VS.85).aspx), call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on the site for its [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) interface. Store the pointer to this interface for use later.
+    4.  If the band object implements [**IInputObject**](https://msdn.microsoft.com/library/Bb761804(v=VS.85).aspx), call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) on the site for its [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) interface. Store the pointer to this interface for use later.
     5.  If all steps are successful, return S\_OK. If not, return the OLE-defined error code indicating what failed.
 
-The Explorer Bar sample implements [**SetSite**](https://msdn.microsoft.com/en-us/library/ms683869(v=VS.85).aspx) in the following way. In the following code *m\_pSite* is a private member variable that holds the [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) pointer and *m\_hwndParent* holds the parent window's handle. In this sample, window creation is also handled. If the window does not exist, this method creates the Explorer Bar's window as an appropriately sized child of the parent window obtained by **SetSite**. The child window's handle is stored in *m\_hwnd*.
+The Explorer Bar sample implements [**SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx) in the following way. In the following code *m\_pSite* is a private member variable that holds the [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) pointer and *m\_hwndParent* holds the parent window's handle. In this sample, window creation is also handled. If the window does not exist, this method creates the Explorer Bar's window as an appropriately sized child of the parent window obtained by **SetSite**. The child window's handle is stored in *m\_hwnd*.
 
 
 ```C++
@@ -332,7 +332,7 @@ STDMETHODIMP CDeskBand::SetSite(IUnknown *pUnkSite)
 
 
 
-The sample's [**GetSite**](https://msdn.microsoft.com/en-us/library/ms694452(v=VS.85).aspx) implementation simply wraps a call to the site's [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method, using the site pointer saved by [**SetSite**](https://msdn.microsoft.com/en-us/library/ms683869(v=VS.85).aspx).
+The sample's [**GetSite**](https://msdn.microsoft.com/library/ms694452(v=VS.85).aspx) implementation simply wraps a call to the site's [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method, using the site pointer saved by [**SetSite**](https://msdn.microsoft.com/library/ms683869(v=VS.85).aspx).
 
 
 ```C++
@@ -357,21 +357,21 @@ STDMETHODIMP CDeskBand::GetSite(REFIID riid, void **ppv)
 
 ### IPersistStream
 
-Internet Explorer will call the Explorer Bar's [**IPersistStream**](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx) interface to allow the Explorer Bar to load or save persistent data. If there is no persistent data, the methods must still return a success code. The **IPersistStream** interface inherits from [**IPersist**](https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx), so five methods must be implemented.
+Internet Explorer will call the Explorer Bar's [**IPersistStream**](https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx) interface to allow the Explorer Bar to load or save persistent data. If there is no persistent data, the methods must still return a success code. The **IPersistStream** interface inherits from [**IPersist**](https://msdn.microsoft.com/library/ms688695(v=VS.85).aspx), so five methods must be implemented.
 
--   [**IPersist::GetClassID**](https://msdn.microsoft.com/en-us/library/ms688664(v=VS.85).aspx)
--   [**IPersistStream::IsDirty**](https://msdn.microsoft.com/en-us/library/ms694507(v=VS.85).aspx)
--   [**IPersistStream::Load**](https://msdn.microsoft.com/en-us/library/ms680568(v=VS.85).aspx)
--   [**IPersistStream::Save**](https://msdn.microsoft.com/en-us/library/ms691473(v=VS.85).aspx)
--   [**IPersistStream::GetSizeMax**](https://msdn.microsoft.com/en-us/library/ms694321(v=VS.85).aspx)
+-   [**IPersist::GetClassID**](https://msdn.microsoft.com/library/ms688664(v=VS.85).aspx)
+-   [**IPersistStream::IsDirty**](https://msdn.microsoft.com/library/ms694507(v=VS.85).aspx)
+-   [**IPersistStream::Load**](https://msdn.microsoft.com/library/ms680568(v=VS.85).aspx)
+-   [**IPersistStream::Save**](https://msdn.microsoft.com/library/ms691473(v=VS.85).aspx)
+-   [**IPersistStream::GetSizeMax**](https://msdn.microsoft.com/library/ms694321(v=VS.85).aspx)
 
-The Explorer Bar sample does not use any persistent data and has only a minimal implementation of [**IPersistStream**](https://msdn.microsoft.com/en-us/library/ms690091(v=VS.85).aspx). [**IPersist::GetClassID**](https://msdn.microsoft.com/en-us/library/ms688664(v=VS.85).aspx) returns the object's CLSID (CLSID\_SampleExplorerBar), and the remainder return either S\_OK, S\_FALSE, or E\_NOTIMPL.
+The Explorer Bar sample does not use any persistent data and has only a minimal implementation of [**IPersistStream**](https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx). [**IPersist::GetClassID**](https://msdn.microsoft.com/library/ms688664(v=VS.85).aspx) returns the object's CLSID (CLSID\_SampleExplorerBar), and the remainder return either S\_OK, S\_FALSE, or E\_NOTIMPL.
 
 ### IDeskBand
 
-The [**IDeskBand**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx) interface is specific to band objects. In addition to its one method, it inherits from [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow), which in turn inherits from [**IOleWindow**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx).
+The [**IDeskBand**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx) interface is specific to band objects. In addition to its one method, it inherits from [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow), which in turn inherits from [**IOleWindow**](https://msdn.microsoft.com/library/ms680102(v=VS.85).aspx).
 
-There are two [**IOleWindow**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx) methods: [**GetWindow**](https://msdn.microsoft.com/en-us/library/ms687282(v=VS.85).aspx) and [**IOleWindow::ContextSensitiveHelp**](https://msdn.microsoft.com/en-us/library/ms680059(v=VS.85).aspx). The Explorer Bar sample's implementation of **GetWindow** returns the Explorer Bar's child window handle, *m\_hwnd*. Context-sensitive Help is not implemented, so **ContextSensitiveHelp** returns **E\_NOTIMPL**.
+There are two [**IOleWindow**](https://msdn.microsoft.com/library/ms680102(v=VS.85).aspx) methods: [**GetWindow**](https://msdn.microsoft.com/library/ms687282(v=VS.85).aspx) and [**IOleWindow::ContextSensitiveHelp**](https://msdn.microsoft.com/library/ms680059(v=VS.85).aspx). The Explorer Bar sample's implementation of **GetWindow** returns the Explorer Bar's child window handle, *m\_hwnd*. Context-sensitive Help is not implemented, so **ContextSensitiveHelp** returns **E\_NOTIMPL**.
 
 The [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface has three methods.
 
@@ -415,7 +415,7 @@ STDMETHODIMP CDeskBand::CloseDW(DWORD)
 
 
 
-The remaining method, [**GetBandInfo**](https://msdn.microsoft.com/en-us/library/Bb762067(v=VS.85).aspx), is specific to **IDeskBand**. Internet Explorer uses it to specify the Explorer Bar's identifier and viewing mode. Internet Explorer also may request one or more pieces of information from the Explorer Bar by filling the **dwMask** member of the [**DESKBANDINFO**](/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo) structure that is passed as the third parameter. **GetBandInfo** should store the identifier and viewing mode and fill the **DESKBANDINFO** structure with the requested data. The Explorer Bar sample implements **GetBandInfo** as shown in the following code example.
+The remaining method, [**GetBandInfo**](https://msdn.microsoft.com/library/Bb762067(v=VS.85).aspx), is specific to **IDeskBand**. Internet Explorer uses it to specify the Explorer Bar's identifier and viewing mode. Internet Explorer also may request one or more pieces of information from the Explorer Bar by filling the **dwMask** member of the [**DESKBANDINFO**](/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo) structure that is passed as the third parameter. **GetBandInfo** should store the identifier and viewing mode and fill the **DESKBANDINFO** structure with the requested data. The Explorer Bar sample implements **GetBandInfo** as shown in the following code example.
 
 
 ```C++
@@ -477,21 +477,21 @@ STDMETHODIMP CDeskBand::GetBandInfo(DWORD dwBandID, DWORD, DESKBANDINFO *pdbi)
 
 ### Optional Interface Implementations
 
-There are two interfaces that are not required, but that may be useful to implement: [**IInputObject**](https://msdn.microsoft.com/en-us/library/Bb761804(v=VS.85).aspx) and [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx). The Explorer Bar sample implements **IInputObject**. Refer to the documentation for information on how to implement **IContextMenu**.
+There are two interfaces that are not required, but that may be useful to implement: [**IInputObject**](https://msdn.microsoft.com/library/Bb761804(v=VS.85).aspx) and [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx). The Explorer Bar sample implements **IInputObject**. Refer to the documentation for information on how to implement **IContextMenu**.
 
 ### IInputObject
 
-The [**IInputObject**](https://msdn.microsoft.com/en-us/library/Bb761804(v=VS.85).aspx) interface must be implemented if a band object accepts user input. Internet Explorer implements [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) and uses **IInputObject** to maintain proper user input focus when it has more than one contained window. There are three methods that need to be implemented by an Explorer Bar.
+The [**IInputObject**](https://msdn.microsoft.com/library/Bb761804(v=VS.85).aspx) interface must be implemented if a band object accepts user input. Internet Explorer implements [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) and uses **IInputObject** to maintain proper user input focus when it has more than one contained window. There are three methods that need to be implemented by an Explorer Bar.
 
--   [**IInputObject::UIActivateIO**](https://msdn.microsoft.com/en-us/library/Bb761808(v=VS.85).aspx)
--   [**IInputObject::HasFocusIO**](https://msdn.microsoft.com/en-us/library/Bb761802(v=VS.85).aspx)
--   [**IInputObject::TranslateAcceleratorIO**](https://msdn.microsoft.com/en-us/library/Bb761806(v=VS.85).aspx)
+-   [**IInputObject::UIActivateIO**](https://msdn.microsoft.com/library/Bb761808(v=VS.85).aspx)
+-   [**IInputObject::HasFocusIO**](https://msdn.microsoft.com/library/Bb761802(v=VS.85).aspx)
+-   [**IInputObject::TranslateAcceleratorIO**](https://msdn.microsoft.com/library/Bb761806(v=VS.85).aspx)
 
-Internet Explorer calls [**UIActivateIO**](https://msdn.microsoft.com/en-us/library/Bb761808(v=VS.85).aspx) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx) to set the focus to its window.
+Internet Explorer calls [**UIActivateIO**](https://msdn.microsoft.com/library/Bb761808(v=VS.85).aspx) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](https://msdn.microsoft.com/library/ms646312(v=VS.85).aspx) to set the focus to its window.
 
-Internet Explorer calls [**HasFocusIO**](https://msdn.microsoft.com/en-us/library/Bb761802(v=VS.85).aspx) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
+Internet Explorer calls [**HasFocusIO**](https://msdn.microsoft.com/library/Bb761802(v=VS.85).aspx) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
 
-[**TranslateAcceleratorIO**](https://msdn.microsoft.com/en-us/library/Bb761806(v=VS.85).aspx) allows the object to process keyboard accelerators. The Explorer Bar sample does not implement this method, so it returns S\_FALSE.
+[**TranslateAcceleratorIO**](https://msdn.microsoft.com/library/Bb761806(v=VS.85).aspx) allows the object to process keyboard accelerators. The Explorer Bar sample does not implement this method, so it returns S\_FALSE.
 
 The sample bar's implementation of [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) is as follows.
 
@@ -598,7 +598,7 @@ HRESULT RegisterServer()
 
 Registration of band objects in the sample uses normal COM procedures.
 
-In addition to the CLSID, the band object server must also be registered for one or more component categories. This is actually the main difference in implementation between the vertical and horizontal Explorer Bar samples. This process is handled by creating a component categories manager object (CLSID\_StdComponentCategoriesMgr) and using the [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/en-us/library/ms692674(v=VS.85).aspx) method to register the band object server. In this example, component category registration is handled by passing the Explorer Bar sample's CLSID and CATID to a private function—**RegisterComCat**—as shown in the following code example.
+In addition to the CLSID, the band object server must also be registered for one or more component categories. This is actually the main difference in implementation between the vertical and horizontal Explorer Bar samples. This process is handled by creating a component categories manager object (CLSID\_StdComponentCategoriesMgr) and using the [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/library/ms692674(v=VS.85).aspx) method to register the band object server. In this example, component category registration is handled by passing the Explorer Bar sample's CLSID and CATID to a private function—**RegisterComCat**—as shown in the following code example.
 
 
 ```C++
@@ -622,11 +622,11 @@ HRESULT RegisterComCat()
 
 Because a band object uses a child window for its display, it must implement a window procedure to handle Windows messaging. The band sample has minimal functionality, so its window procedure only handles five messages:
 
--   [**WM\_NCCREATE**](https://msdn.microsoft.com/en-us/library/ms632635(v=VS.85).aspx)
--   [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx)
--   [**WM\_COMMAND**](https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx)
--   [**WM\_SETFOCUS**](https://msdn.microsoft.com/en-us/library/ms646283(v=VS.85).aspx)
--   [**WM\_KILLFOCUS**](https://msdn.microsoft.com/en-us/library/ms646282(v=VS.85).aspx)
+-   [**WM\_NCCREATE**](https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx)
+-   [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx)
+-   [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx)
+-   [**WM\_SETFOCUS**](https://msdn.microsoft.com/library/ms646283(v=VS.85).aspx)
+-   [**WM\_KILLFOCUS**](https://msdn.microsoft.com/library/ms646282(v=VS.85).aspx)
 
 The procedure can easily be expanded to accommodate additional messages to support more features.
 

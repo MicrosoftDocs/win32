@@ -1,8 +1,8 @@
 ---
 Description: Create a texture resource from a file.
 ms.assetid: 23edad1f-89bb-4b62-8c48-3be1cd0690d2
-title: D3DX10CreateTextureFromFile function
-ms.topic: article
+title: D3DX10CreateTextureFromFile function (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

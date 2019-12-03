@@ -1,5 +1,5 @@
 ---
-title: EsentTempFileOpenErrorException members (Microsoft.Isam.Esent.Interop)
+title: EsentTempFileOpenErrorException members
 TOCTitle: EsentTempFileOpenErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttempfileopenerrorexception_members(v=EXCHG.10)

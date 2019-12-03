@@ -1,8 +1,8 @@
 ---
 Description: Unlocks an index buffer.
 ms.assetid: 69133f82-8391-4b7c-b39e-6730bc477b64
-title: ID3DXBaseMesh::UnlockIndexBuffer method
-ms.topic: article
+title: ID3DXBaseMesh::UnlockIndexBuffer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

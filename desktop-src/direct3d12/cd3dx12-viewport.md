@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_VIEWPORT structure
+title: CD3DX12_VIEWPORT structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_VIEWPORT structure.
 ms.assetid: 1A824F54-596B-450E-A191-B60FBBBB60ED
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

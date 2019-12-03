@@ -1,8 +1,8 @@
 ---
 Description: Retrieves all of the IContextNode objects of the specified type.
 ms.assetid: e6e68d78-9697-40e6-a4ae-a187ef01a769
-title: IInkAnalyzer::FindNodesOfType method
-ms.topic: article
+title: IInkAnalyzer::FindNodesOfType method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

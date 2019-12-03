@@ -1,8 +1,8 @@
 ---
 Description: Saves a mesh to a .x file.
 ms.assetid: 6d9cbca8-3847-4e15-95d4-9df3f8269665
-title: D3DXSaveMeshToX function
-ms.topic: article
+title: D3DXSaveMeshToX function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the position and size of the IContextNode object.
 ms.assetid: 40787a9b-1017-4209-aec8-09b7332bfa8a
-title: IContextNode::GetLocation method
-ms.topic: article
+title: IContextNode::GetLocation method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

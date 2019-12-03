@@ -2,8 +2,8 @@
 Description: Converts a date in the string FILETIME format to the CIM datetime format.
 ms.assetid: e375afda-5e94-46d6-b1ac-e801e0f4a620
 ms.tgt_platform: multiple
-title: SWbemDateTime.SetFileTime method
-ms.topic: article
+title: SWbemDateTime.SetFileTime method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

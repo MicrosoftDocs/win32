@@ -1,5 +1,5 @@
 ---
-title: LVM_INSERTGROUPSORTED message
+title: LVM_INSERTGROUPSORTED message (Commctrl.h)
 description: Inserts a group into an ordered list of groups.
 ms.assetid: 8ad1660b-8b64-4f02-ac1b-b7edeeea38ab
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

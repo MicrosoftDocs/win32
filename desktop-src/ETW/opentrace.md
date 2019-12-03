@@ -1,8 +1,8 @@
 ---
 Description: The OpenTrace function opens a real-time trace session or log file for consuming.
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
-title: OpenTrace function
-ms.topic: article
+title: OpenTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

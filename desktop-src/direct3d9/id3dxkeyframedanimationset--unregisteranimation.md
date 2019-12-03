@@ -1,8 +1,8 @@
 ---
 Description: Remove the animation data from the animation set.
 ms.assetid: 9821d21e-fe8f-4742-b4f3-63b2578d29ec
-title: ID3DXKeyframedAnimationSet::UnregisterAnimation method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::UnregisterAnimation method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

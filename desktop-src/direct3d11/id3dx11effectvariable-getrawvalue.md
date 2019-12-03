@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetRawValue method
+title: ID3DX11EffectVariable GetRawValue method (D3dx11effect.h)
 description: Get data.
 ms.assetid: 1b2a319c-880c-4f5a-b4e9-17405351b7d9
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

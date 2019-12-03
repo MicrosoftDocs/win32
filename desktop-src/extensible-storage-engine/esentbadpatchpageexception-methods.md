@@ -1,5 +1,5 @@
 ---
-title: EsentBadPatchPageException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadPatchPageException methods
 TOCTitle: EsentBadPatchPageException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadpatchpageexception_methods(v=EXCHG.10)

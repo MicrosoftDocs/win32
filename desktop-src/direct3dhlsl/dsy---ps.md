@@ -2,10 +2,10 @@
 title: dsy - ps
 description: Compute the rate of change in the render target's y-direction.
 ms.assetid: b35862d7-fc43-4cf8-bfe3-3eccbda2a133
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

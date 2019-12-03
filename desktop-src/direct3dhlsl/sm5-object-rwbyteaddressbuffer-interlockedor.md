@@ -1,5 +1,5 @@
 ---
-title: InterlockedOr function
+title: RWByteAddressBuffer::InterlockedOr function
 description: Performs an atomic OR on the value.
 ms.assetid: 3a05619b-db97-4cf1-af3c-12c376e605a6
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - InterlockedOr
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

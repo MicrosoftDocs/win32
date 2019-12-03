@@ -1,11 +1,11 @@
 ---
-title: EsentNTSystemCallFailedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNTSystemCallFailedException constructor 
 TOCTitle: 'EsentNTSystemCallFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentntsystemcallfailedexception.esentntsystemcallfailedexception(v=EXCHG.10)
 ms:contentKeyID: 55102381
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException.EsentNTSystemCallFailedException
 dev_langs:

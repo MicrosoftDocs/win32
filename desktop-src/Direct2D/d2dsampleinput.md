@@ -1,5 +1,5 @@
 ---
-title: D2DSampleInput function
+title: D2DSampleInput function (D2d1effecthelpers.h)
 description: Samples input N at position uv. Only available for complex inputs.
 ms.assetid: 8C1E3B23-D05B-4FCC-B32F-A5870A7C3FEF
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

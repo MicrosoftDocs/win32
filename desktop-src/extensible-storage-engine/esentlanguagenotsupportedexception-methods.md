@@ -1,5 +1,5 @@
 ---
-title: EsentLanguageNotSupportedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLanguageNotSupportedException methods
 TOCTitle: EsentLanguageNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlanguagenotsupportedexception_methods(v=EXCHG.10)

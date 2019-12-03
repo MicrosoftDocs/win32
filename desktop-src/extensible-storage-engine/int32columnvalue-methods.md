@@ -1,5 +1,5 @@
 ---
-title: Int32ColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: Int32ColumnValue methods
 TOCTitle: Int32ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Int32ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int32columnvalue_methods(v=EXCHG.10)

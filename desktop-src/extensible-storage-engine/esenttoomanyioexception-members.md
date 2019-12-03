@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyIOException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyIOException members
 TOCTitle: EsentTooManyIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyioexception_members(v=EXCHG.10)

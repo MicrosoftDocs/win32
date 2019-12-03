@@ -14,7 +14,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: method
+ms.topic: reference
 ms.date: 08/29/2019
 ---
 
@@ -38,17 +38,17 @@ HRESULT QueryVideoMemoryInfo(
 
 Type: **UINT**
 
-Specifies the device's physical adapter for which the video memory information is queried. For single-GPU operation, set this to zero. If there are multiple GPU nodes, set this to the index of the node (the device's physical adapter) for which the video memory information is queried. See [Multi-Adapter](multi-engine.md).
+Specifies the device's physical adapter for which the video memory information is queried. For single-GPU operation, set this to zero. If there are multiple GPU nodes, set this to the index of the node (the device's physical adapter) for which the video memory information is queried. See [Multi-adapter systems](multi-engine.md).
 
 `MemorySegmentGroup`
 
-Type: **[DXGI_MEMORY_SEGMENT_GROUP](/windows/desktop/api/dxgi1_4/ne-dxgi1_4-dxgi_memory_segment_group)**
+Type: **[DXGI_MEMORY_SEGMENT_GROUP](/windows/win32/api/dxgi1_4/ne-dxgi1_4-dxgi_memory_segment_group)**
 
 Specifies a **DXGI_MEMORY_SEGMENT_GROUP** that identifies the group as local or non-local.
 
 `pVideoMemoryInfo`
 
-Type: **[DXGI_QUERY_VIDEO_MEMORY_INFO](/windows/desktop/api/dxgi1_4/ns-dxgi1_4-dxgi_query_video_memory_info)\***
+Type: **[DXGI_QUERY_VIDEO_MEMORY_INFO](/windows/win32/api/dxgi1_4/ns-dxgi1_4-dxgi_query_video_memory_info)\***
 
 Fills in a **DXGI_QUERY_VIDEO_MEMORY_INFO** structure with the current values.
 

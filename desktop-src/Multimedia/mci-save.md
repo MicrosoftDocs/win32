@@ -1,5 +1,5 @@
 ---
-title: MCI_SAVE command
+title: MCI_SAVE command (Mmsystem.h)
 description: The MCI\_SAVE command saves the current file.
 ms.assetid: 286e6f31-cb93-443b-8191-8c363b366eae
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

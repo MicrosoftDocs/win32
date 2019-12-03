@@ -1,5 +1,5 @@
 ---
-title: EsentNTSystemCallFailedException members (Microsoft.Isam.Esent.Interop)
+title: EsentNTSystemCallFailedException members
 TOCTitle: EsentNTSystemCallFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentntsystemcallfailedexception_members(v=EXCHG.10)

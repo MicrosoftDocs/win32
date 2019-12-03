@@ -1,8 +1,8 @@
 ---
 Description: The KsQueryMediums method retrieves the mediums supported by a pin.
 ms.assetid: 554bf968-6054-4f9d-95db-facf0444641f
-title: IKsPin::KsQueryMediums method
-ms.topic: article
+title: IKsPin::KsQueryMediums method (Ksproxy.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

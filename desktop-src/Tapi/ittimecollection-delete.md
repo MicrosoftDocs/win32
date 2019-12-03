@@ -1,8 +1,8 @@
 ---
 Description: The Delete method deletes an ITTime component.
 ms.assetid: 0445d659-7b83-4462-b199-511fd8270f32
-title: ITTimeCollection::Delete method
-ms.topic: article
+title: ITTimeCollection::Delete method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

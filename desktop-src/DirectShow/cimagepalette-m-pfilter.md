@@ -1,8 +1,8 @@
 ---
 Description: The m\_pFilter member variable is a pointer to the owning filter.
 ms.assetid: f1a75a75-5f5c-420d-a7ab-5f0f03c6afb1
-title: CImagePalette::m_pFilter member
-ms.topic: article
+title: CImagePalette::m_pFilter member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilVariable GetBackingStore method
+title: ID3DX11EffectDepthStencilVariable GetBackingStore method (D3dx11effect.h)
 description: Get a pointer to a variable that contains depth-stencil state.
 ms.assetid: 6aeed5ac-f0ee-4e8c-b87b-022f58c9094c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

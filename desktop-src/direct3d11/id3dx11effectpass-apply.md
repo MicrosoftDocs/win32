@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass Apply method
+title: ID3DX11EffectPass Apply method (D3dx11effect.h)
 description: Set the state contained in a pass to the device.
 ms.assetid: d67fe968-bfb2-4f3a-b393-3f72f680211f
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

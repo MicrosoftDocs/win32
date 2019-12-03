@@ -2,7 +2,7 @@
 Description: This class is the event type class for ALPC wait for reply events. The following syntax is simplified from MOF code.
 ms.assetid: 9aaa2c93-41cc-4025-80f9-b7740a37c4d8
 title: ALPC_Wait_For_Reply class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: RWTexture2D::GetDimensions function
 description: Returns the dimensions of the resource.
 ms.assetid: bc55622d-fbff-4aeb-aceb-4eb2cfc7ac28
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

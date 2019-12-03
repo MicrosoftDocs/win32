@@ -1,11 +1,11 @@
 ---
-title: JET_SNPROG.GetHashCode method  (Microsoft.Isam.Esent.Interop)
+title: JET_SNPROG.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SNPROG.GetHashCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snprog.gethashcode(v=EXCHG.10)
 ms:contentKeyID: 55103908
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_SNPROG.GetHashCode
 dev_langs:

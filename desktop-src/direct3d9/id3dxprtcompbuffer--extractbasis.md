@@ -1,8 +1,8 @@
 ---
 Description: Extracts the mean and principal component analysis (PCA) basis vectors for a given cluster from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: dcb1372f-2c8f-4d18-9840-5982b2ed0d6e
-title: ID3DXPRTCompBuffer::ExtractBasis method
-ms.topic: article
+title: ID3DXPRTCompBuffer::ExtractBasis method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

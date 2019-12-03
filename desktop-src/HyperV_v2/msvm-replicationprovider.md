@@ -2,7 +2,7 @@
 Description: Represents the available providers for replication.
 ms.assetid: CAAD1CFC-6473-4642-8366-0A5625AE1F70
 title: Msvm_ReplicationProvider class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

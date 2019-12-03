@@ -1,11 +1,11 @@
 ---
-title: Api.JetOpenFileInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOpenFileInstance method 
 TOCTitle: 'JetOpenFileInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOpenFileInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String,Microsoft.Isam.Esent.Interop.JET_HANDLE@,System.Int64@,System.Int64@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetopenfileinstance(v=EXCHG.10)
 ms:contentKeyID: 55100767
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetOpenFileInstance
 dev_langs:

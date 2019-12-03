@@ -2,7 +2,7 @@
 Description: Time stamps the specified subject and supports setting time stamps on multiple signatures.
 ms.assetid: A290ED4F-8803-4EAA-8CE1-68879F7F754A
 title: SignerTimeStampEx3 function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -198,8 +198,8 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

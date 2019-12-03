@@ -1,5 +1,5 @@
 ---
-title: DRM_ACTION_ALLOWED_QUERY_RESULTS enumeration
+title: DRM_ACTION_ALLOWED_QUERY_RESULTS enumeration (Wmdrmsdk.h)
 description: The DRM\_ACTION\_ALLOWED\_QUERY\_RESULTS enumeration type is used by the IWMDRMLicenseQuery QueryActionAllowed interface to specify the reason an action is not allowed.
 ms.assetid: dc784cdf-6efe-415b-ba72-eb8fc50bef10
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

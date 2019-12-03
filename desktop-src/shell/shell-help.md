@@ -1,8 +1,8 @@
 ---
 Description: Displays the Windows Help and Support Center. This method has the same effect as clicking the Start menu and selecting Help and Support.
 ms.assetid: fc13fef8-dac8-4c59-936d-8da0e63e06d4
-title: Shell.Help method
-ms.topic: article
+title: Shell.Help method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

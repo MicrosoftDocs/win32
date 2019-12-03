@@ -3,7 +3,7 @@ Description: The Win32\_DeviceMemoryAddress WMI class represents a device memory
 ms.assetid: f0a70724-5ced-47fe-b17e-e153e65b80df
 ms.tgt_platform: multiple
 title: Win32_DeviceMemoryAddress class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

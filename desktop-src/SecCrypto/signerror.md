@@ -2,7 +2,7 @@
 Description: Calls the GetLastError function and converts the return code to an HRESULT.
 ms.assetid: 7b8eab85-212b-44bc-9d1b-60587652380d
 title: SignError function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: LB_GETITEMRECT message
+title: LB_GETITEMRECT message (Winuser.h)
 description: Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box.
 ms.assetid: 84f94bc9-f7a4-4c2d-8c35-1bd291082af9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

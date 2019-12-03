@@ -1,8 +1,8 @@
 ---
 Description: Represents an object that is useful for annotation scenarios where users are not concerned with performing recognition on ink but instead are interested in the size, shape, color, and position of the ink.
 ms.assetid: 61191ab3-075e-458b-9e0f-4bc255687b3c
-title: InkOverlay class
-ms.topic: interface
+title: InkOverlay class (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

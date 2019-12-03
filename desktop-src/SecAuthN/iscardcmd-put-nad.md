@@ -1,8 +1,8 @@
 ---
 Description: Specifies the node address (Nad) to use with the ISCardCmd interface.
 ms.assetid: 49de8264-9491-41a4-a8e0-68d0db088ded
-title: ISCardCmd::put_Nad method
-ms.topic: article
+title: ISCardCmd::put_Nad method (Scarddat.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

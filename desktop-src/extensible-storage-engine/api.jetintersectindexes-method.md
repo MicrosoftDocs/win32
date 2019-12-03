@@ -1,11 +1,11 @@
 ---
-title: Api.JetIntersectIndexes method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetIntersectIndexes method 
 TOCTitle: 'JetIntersectIndexes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetIntersectIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_INDEXRANGE[],System.Int32,Microsoft.Isam.Esent.Interop.JET_RECORDLIST@,Microsoft.Isam.Esent.Interop.IntersectIndexesGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetintersectindexes(v=EXCHG.10)
 ms:contentKeyID: 55100761
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetIntersectIndexes
 dev_langs:

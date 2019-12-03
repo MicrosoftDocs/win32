@@ -1,11 +1,11 @@
 ---
-title: Api.JetDeleteTable method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetDeleteTable method 
 TOCTitle: 'JetDeleteTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDeleteTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetdeletetable(v=EXCHG.10)
 ms:contentKeyID: 55100683
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetDeleteTable
 dev_langs:

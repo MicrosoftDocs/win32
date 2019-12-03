@@ -1,5 +1,5 @@
 ---
-title: MCI_MAKE_MSF macro
+title: MCI_MAKE_MSF macro (Mciapi.h)
 description: The MCI\_MAKE\_MSF macro creates a time value in packed minutes/seconds/frames (MSF) format from the given minutes, seconds, and frame values.
 ms.assetid: 8c981d84-b049-4448-a820-bff30896065e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

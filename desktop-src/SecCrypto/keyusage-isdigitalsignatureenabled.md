@@ -2,7 +2,7 @@
 Description: Retrieves a Boolean value that indicates whether the digitalSignature bit is set.
 ms.assetid: 561eea86-ff23-4a26-adf2-b43009566eaa
 title: KeyUsage.IsDigitalSignatureEnabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

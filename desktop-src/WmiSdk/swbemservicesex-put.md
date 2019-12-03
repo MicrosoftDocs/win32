@@ -2,8 +2,8 @@
 Description: Returns an SWbemObjectPath object that contains the path of the object to which the data was written.
 ms.assetid: 1a9a718d-875d-4102-9d9d-3d10be162f58
 ms.tgt_platform: multiple
-title: SWbemServicesEx.Put method
-ms.topic: article
+title: SWbemServicesEx.Put method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

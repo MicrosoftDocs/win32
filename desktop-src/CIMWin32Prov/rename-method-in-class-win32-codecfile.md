@@ -3,7 +3,7 @@ Description: Renames the codec file specified in the object path.
 ms.assetid: fd6ce02c-d513-4643-ac27-313c32732f1e
 ms.tgt_platform: multiple
 title: Rename method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

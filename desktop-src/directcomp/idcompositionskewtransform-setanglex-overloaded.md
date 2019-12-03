@@ -1,5 +1,5 @@
 ---
-title: IDCompositionSkewTransform SetAngleX methods
+title: IDCompositionSkewTransform SetAngleX methods (Dcomp.h)
 description: Changes or animates the value of the AngleX property of a 2D skew transform. The AngleX property specifies the rotation angle, in degrees. The default value is zero.
 ms.assetid: DA4AEE0D-A913-434E-9150-DD6763132041
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionSkewTransform::SetAngleX methods

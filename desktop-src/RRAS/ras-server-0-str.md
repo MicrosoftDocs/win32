@@ -1,5 +1,5 @@
 ---
-title: RAS_SERVER_0 structure
+title: RAS_SERVER_0 structure (Rassapi.h)
 description: The RAS\_SERVER\_0 structure is used by the RasAdminServerGetInfo function to return information about the ports configured on a RAS server.
 ms.assetid: 8818ad68-b528-45fe-9ff4-eea194259f25
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeTranslationFailException methods (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeTranslationFailException methods
 TOCTitle: EsentUnicodeTranslationFailException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodetranslationfailexception_methods(v=EXCHG.10)

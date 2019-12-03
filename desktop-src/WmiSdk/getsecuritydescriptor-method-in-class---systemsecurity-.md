@@ -3,7 +3,7 @@ Description: Gets the security descriptor that controls access to the WMI namesp
 ms.assetid: b031af45-9237-434d-91db-69222306c615
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the __SystemSecurity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

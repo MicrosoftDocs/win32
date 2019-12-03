@@ -1,5 +1,5 @@
 ---
-title: Comment Attribute
+title: Comment Attribute (Windows Media Player SDK)
 description: The Comment attribute specifies a user-defined comment.
 ms.assetid: eb992c0c-e690-4352-b1fa-86288f2f3992
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Comment
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

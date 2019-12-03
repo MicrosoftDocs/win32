@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (rebar) notification code
+title: NM_RELEASEDCAPTURE (rebar) notification code (Commctrl.h)
 description: Notifies a rebar control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 1196260f-b9ba-4a9e-80a7-e126196c3beb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

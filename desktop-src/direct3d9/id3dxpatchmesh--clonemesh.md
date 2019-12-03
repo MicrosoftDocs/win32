@@ -1,8 +1,8 @@
 ---
 Description: Creates a new patch mesh with the specified vertex declaration.
 ms.assetid: cc488cd3-fb38-468f-8aec-17c6ed842582
-title: ID3DXPatchMesh::CloneMesh method
-ms.topic: article
+title: ID3DXPatchMesh::CloneMesh method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

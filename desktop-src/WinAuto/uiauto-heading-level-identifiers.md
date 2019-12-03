@@ -1,5 +1,5 @@
 ---
-title: Heading Level Identifiers
+title: Heading Level Identifiers (UIAutomationClient.h)
 description: Indicates the heading level of a Microsoft UI Automation element.
 ms.assetid: D77D70DA-0EEE-438F-B467-159E0A8BF2B3
 topic_type:
@@ -19,7 +19,7 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

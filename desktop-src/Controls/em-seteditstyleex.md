@@ -1,5 +1,5 @@
 ---
-title: EM_SETEDITSTYLEEX message
+title: EM_SETEDITSTYLEEX message (Richedit.h)
 description: Sets the current extended edit style flags.
 ms.assetid: C5CECC7C-6418-4A72-9F0B-6F55BE89E302
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

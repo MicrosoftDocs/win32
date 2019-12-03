@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetMaxSize method
+title: INapEnforcementClientConnection GetMaxSize method (NapEnforcementClient.h)
 description: Gets the maximum size of the SoH packet for this client.
 ms.assetid: 054bc783-db5d-4801-8984-6b8a131744a2
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

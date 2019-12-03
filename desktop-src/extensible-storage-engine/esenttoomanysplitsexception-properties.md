@@ -1,5 +1,5 @@
 ---
-title: EsentTooManySplitsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManySplitsException properties
 TOCTitle: EsentTooManySplitsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanysplitsexception_properties(v=EXCHG.10)

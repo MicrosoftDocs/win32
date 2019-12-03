@@ -1,5 +1,5 @@
 ---
-title: Authentication-Level Constants
+title: Authentication-Level Constants (Rpcdce.h)
 description: The authentication-level constants represent authentication levels passed to various run-time functions.
 ms.assetid: b8bb2517-e1a0-4607-a672-259f8686fc3e
 topic_type:
@@ -16,7 +16,7 @@ api_location:
 - Rpcdce.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectStringVariable GetStringArray method
+title: ID3DX11EffectStringVariable GetStringArray method (D3dx11effect.h)
 description: Get an array of strings.
 ms.assetid: 2cc45b2f-1851-49d2-8844-3e249c48f327
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

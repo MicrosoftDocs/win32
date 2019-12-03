@@ -1,8 +1,8 @@
 ---
 Description: The DisplaySampleTimes method draws the time stamps of a media sample on top of the video image.
 ms.assetid: 3741dc74-5311-4cb1-9e6b-4a8bf6113477
-title: CDrawImage.DisplaySampleTimes method
-ms.topic: article
+title: CDrawImage.DisplaySampleTimes method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

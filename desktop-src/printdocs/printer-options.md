@@ -1,8 +1,8 @@
 ---
 Description: Represents printer options.
 ms.assetid: 7cc3d10c-8bc2-4899-b083-63d802ee16e7
-title: PRINTER_OPTIONS structure
-ms.topic: structure
+title: PRINTER_OPTIONS structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

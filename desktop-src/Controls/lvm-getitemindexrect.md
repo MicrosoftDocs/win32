@@ -1,5 +1,5 @@
 ---
-title: LVM_GETITEMINDEXRECT message
+title: LVM_GETITEMINDEXRECT message (Commctrl.h)
 description: Retrieves the bounding rectangle for all or part of a subitem in the current view of a list-view control. Send this message explicitly or by using the ListView\_GetItemIndexRect macro.
 ms.assetid: 17704d24-c029-4d41-b198-04d1e78698e0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

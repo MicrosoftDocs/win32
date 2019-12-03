@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable SetSampler method
+title: ID3DX11EffectSamplerVariable SetSampler method (D3dx11effect.h)
 description: Set sampler state.
 ms.assetid: 1826923d-d770-4d79-818a-a42a279f0a8c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

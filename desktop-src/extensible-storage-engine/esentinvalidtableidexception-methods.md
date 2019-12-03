@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidTableIdException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidTableIdException methods
 TOCTitle: EsentInvalidTableIdException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidtableidexception_methods(v=EXCHG.10)

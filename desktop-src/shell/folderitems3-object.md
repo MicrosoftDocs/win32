@@ -1,7 +1,7 @@
 ---
 Description: Extends the FolderItems2 object. This object supports an additional method and property.
-title: FolderItems3 object
-ms.topic: interface
+title: FolderItems3 object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

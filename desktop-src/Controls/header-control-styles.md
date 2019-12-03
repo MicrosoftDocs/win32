@@ -1,5 +1,5 @@
 ---
-title: Header Control Styles
+title: Header Control Styles (CommCtrl.h)
 description: Header controls have a number of styles, described in this section, that determine the control's appearance and behavior. You set the initial styles when you create the header control.
 ms.assetid: e47dc6c3-a1af-456c-9235-29ce63f1e13b
 topic_type:
@@ -20,7 +20,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Status Bar Styles
+title: Status Bar Styles (CommCtrl.h)
 description: This section lists the styles, in addition to standard window styles, supported by status bar controls.
 ms.assetid: c9efeeaa-f665-40fd-9782-f34603e6c603
 topic_type:
@@ -12,7 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

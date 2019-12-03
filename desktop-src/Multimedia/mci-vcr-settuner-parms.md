@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_SETTUNER_PARMS structure
+title: MCI_VCR_SETTUNER_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_SETTUNER\_PARMS structure contains parameters for the MCI\_SETTUNER command for video-cassette recorders.
 ms.assetid: 8254b4c0-80bb-44e4-9f51-1d7434d3b08f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

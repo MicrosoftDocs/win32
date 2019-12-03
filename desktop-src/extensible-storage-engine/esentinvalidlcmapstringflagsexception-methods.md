@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLCMapStringFlagsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLCMapStringFlagsException methods
 TOCTitle: EsentInvalidLCMapStringFlagsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlcmapstringflagsexception_methods(v=EXCHG.10)

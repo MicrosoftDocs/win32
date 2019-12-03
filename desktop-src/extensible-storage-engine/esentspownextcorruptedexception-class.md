@@ -1,11 +1,11 @@
 ---
-title: EsentSPOwnExtCorruptedException class (Microsoft.Isam.Esent.Interop)
+title: EsentSPOwnExtCorruptedException class
 TOCTitle: EsentSPOwnExtCorruptedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspownextcorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55102983
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsSetNextSourceSupported property
+title: ActiveBasicDevice IsSetNextSourceSupported property (PlayToDevice.h)
 description: Gets a value that indicates if setting the next source is supported.
 ms.assetid: 0888A737-D2CC-4259-BC60-9D2B8E8302A0
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

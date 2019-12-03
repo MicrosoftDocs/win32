@@ -1,5 +1,5 @@
 ---
-title: WFP Error Codes
+title: WFP Error Codes (Winerror.h)
 description: (WFP) specific error codes.
 ms.assetid: 11f3085a-f044-4a78-b47a-59b9086562bf
 topic_type:
@@ -66,7 +66,7 @@ api_location:
 - winerror.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

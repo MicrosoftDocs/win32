@@ -1,5 +1,5 @@
 ---
-title: WM_ACTIVATE message
+title: WM_ACTIVATE message (Winuser.h)
 description: Sent to both the window being activated and the window being deactivated.
 ms.assetid: a62bb9f7-f286-4d0d-a1ca-370950c188b2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

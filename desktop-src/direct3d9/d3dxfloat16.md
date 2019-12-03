@@ -1,8 +1,8 @@
 ---
 Description: Describes a 16-bit floating point vector.
 ms.assetid: f823a327-f07a-44e9-b58a-7865e11e80eb
-title: D3DXFLOAT16 structure
-ms.topic: structure
+title: D3DXFLOAT16 structure (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

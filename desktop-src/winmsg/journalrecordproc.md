@@ -1,14 +1,12 @@
 ---
 UID: 
 title: JournalRecordProc callback function
-author: TimShererWithAquent
 description: The function records messages the system removes from the system message queue.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/05/2019
 ms.keywords: 
-ms.topic: function
+ms.topic: reference
 req.header: 
 req.include-header: 
 req.target-type: Windows

@@ -1,5 +1,5 @@
 ---
-title: TCM_SETCURFOCUS message
+title: TCM_SETCURFOCUS message (Commctrl.h)
 description: Sets the focus to a specified tab in a tab control. You can send this message explicitly or by using the TabCtrl\_SetCurFocus macro.
 ms.assetid: bcbd5f26-b54e-492b-aff3-357b8ae23969
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

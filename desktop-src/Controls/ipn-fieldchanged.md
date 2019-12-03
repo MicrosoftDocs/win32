@@ -1,5 +1,5 @@
 ---
-title: IPN_FIELDCHANGED notification code
+title: IPN_FIELDCHANGED notification code (Commctrl.h)
 description: Sent when the user changes a field in the control or moves from one field to another. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: f9ca6435-1715-458e-8d0e-475920ed75bd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

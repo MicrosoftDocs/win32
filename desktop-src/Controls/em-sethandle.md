@@ -1,5 +1,5 @@
 ---
-title: EM_SETHANDLE message
+title: EM_SETHANDLE message (Winuser.h)
 description: Sets the handle of the memory that will be used by a multiline edit control.
 ms.assetid: 0eae9365-62af-4040-8a51-273997a00b81
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

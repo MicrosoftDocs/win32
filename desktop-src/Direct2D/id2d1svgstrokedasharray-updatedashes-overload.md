@@ -1,5 +1,5 @@
 ---
-title: ID2D1SvgStrokeDashArray UpdateDashes methods
+title: ID2D1SvgStrokeDashArray UpdateDashes methods (D2d1svg.h)
 description: Updates the array.
 ms.assetid: b9be98f2-d215-d009-ec9e-732163539053
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1SvgStrokeDashArray::UpdateDashes methods

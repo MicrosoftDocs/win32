@@ -1,5 +1,5 @@
 ---
-title: WIM_DATA message
+title: WIM_DATA message (Mmsystem.h)
 description: The WIM\_DATA message is sent to the given waveform-audio input callback function when waveform-audio data is present in the input buffer and the buffer is being returned to the application.
 ms.assetid: '94cc02b8-61c4-44b9-9f8e-041fe989c1a6'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

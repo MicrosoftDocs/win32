@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyKeysException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyKeysException members
 TOCTitle: EsentTooManyKeysException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanykeysexception_members(v=EXCHG.10)

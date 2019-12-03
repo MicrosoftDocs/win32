@@ -1,8 +1,8 @@
 ---
 Description: Sets an array of integers.
 ms.assetid: 4491bffd-ce5e-4f84-ac11-0314a1b16d63
-title: ID3DXBaseEffect::SetIntArray method
-ms.topic: article
+title: ID3DXBaseEffect::SetIntArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

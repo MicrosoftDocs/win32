@@ -12,7 +12,7 @@ api_name:
 - msSFU-30-Crypt-Method
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

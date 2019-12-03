@@ -1,5 +1,5 @@
 ---
-title: JET_ENUMCOLUMN members (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMN members
 TOCTitle: JET_ENUMCOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumn_members(v=EXCHG.10)

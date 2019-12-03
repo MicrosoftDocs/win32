@@ -1,11 +1,11 @@
 ---
-title: EsentDiskReadVerificationFailureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDiskReadVerificationFailureException constructor 
 TOCTitle: 'EsentDiskReadVerificationFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskreadverificationfailureexception.esentdiskreadverificationfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55101629
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException.EsentDiskReadVerificationFailureException
 dev_langs:

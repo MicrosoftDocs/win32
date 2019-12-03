@@ -1,5 +1,5 @@
 ---
-title: SB_GETTEXT message
+title: SB_GETTEXT message (Commctrl.h)
 description: Retrieves the text from the specified part of a status window.
 ms.assetid: 95bef9ff-04e5-431e-bc79-06d8498fcab0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

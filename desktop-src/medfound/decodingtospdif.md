@@ -1,7 +1,7 @@
 ---
 Description: Decoding to S/PDIF
 ms.assetid: 1d0be7f5-66d6-415f-8eee-abccc6d33a09
-title: Decoding to S/PDIF
+title: Decoding to S/PDIF (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---

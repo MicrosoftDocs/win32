@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagUseBasic method
+title: WSMan.SessionFlagUseBasic method (WSManDisp.h)
 description: Returns the value of the authentication flag WSManFlagUseBasic for use in the flags parameter of the WSMan.CreateSession method.
 ms.assetid: 789ecef9-7871-43af-9d63-018f1d99bd09
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

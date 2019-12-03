@@ -1,5 +1,5 @@
 ---
-title: GatherCmpGreen(S,float,float,int2,int2,int2,int2,uint) function
+title: Texture2DArray::GatherCmpGreen(S,float,float,int2,int2,int2,int2,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the green component along with status about the operation.
 ms.assetid: 53AC1FE7-ECC8-489B-8FEF-5028009BC080
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherCmpGreen
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

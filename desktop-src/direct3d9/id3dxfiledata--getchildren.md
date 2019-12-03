@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the number of children in this file data object.
 ms.assetid: ebc6905b-a453-4a15-adae-956ce7034084
-title: ID3DXFileData::GetChildren method
-ms.topic: article
+title: ID3DXFileData::GetChildren method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

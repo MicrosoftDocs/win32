@@ -1,5 +1,5 @@
 ---
-title: TVM_SETINSERTMARK message
+title: TVM_SETINSERTMARK message (Commctrl.h)
 description: Sets the insertion mark in a tree-view control. You can send this message explicitly or by using the TreeView\_SetInsertMark macro.
 ms.assetid: 35441807-406a-408c-ad89-6dd40c907e3c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

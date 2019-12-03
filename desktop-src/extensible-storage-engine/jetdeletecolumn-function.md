@@ -5,7 +5,7 @@ ms:assetid: b2f4be8c-7ea9-4f66-925b-4e9c14d9d475
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294062(v=EXCHG.10)
 ms:contentKeyID: 32765677
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetDeleteColumnA
 - JetDeleteColumnW

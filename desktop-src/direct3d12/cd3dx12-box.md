@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_BOX structure
+title: CD3DX12_BOX structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_BOX structure.
 ms.assetid: 7E1A352C-D664-4538-BA78-91493980559D
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.localizationpriority: low
 ms.date: 05/31/2018
 ---

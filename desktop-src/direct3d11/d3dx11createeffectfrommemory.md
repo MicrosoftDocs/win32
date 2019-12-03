@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateEffectFromMemory function
+title: D3DX11CreateEffectFromMemory function (D3dx11effect.h)
 description: Creates an effect from a binary effect or file.
 ms.assetid: 4aa65efb-4c6b-4faf-b48f-01329bdff6cd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

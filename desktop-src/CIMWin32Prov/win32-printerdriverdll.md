@@ -3,7 +3,7 @@ Description: The Win32\_PrinterDriverDll association WMI class relates a local p
 ms.assetid: decbd1de-8091-47f7-94a1-42862070b920
 ms.tgt_platform: multiple
 title: Win32_PrinterDriverDll class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

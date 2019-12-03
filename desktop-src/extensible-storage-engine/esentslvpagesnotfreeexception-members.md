@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotFreeException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotFreeException members
 TOCTitle: EsentSLVPagesNotFreeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotfreeexception_members(v=EXCHG.10)

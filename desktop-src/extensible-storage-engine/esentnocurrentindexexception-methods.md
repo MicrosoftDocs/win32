@@ -1,5 +1,5 @@
 ---
-title: EsentNoCurrentIndexException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNoCurrentIndexException methods
 TOCTitle: EsentNoCurrentIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentindexexception_methods(v=EXCHG.10)

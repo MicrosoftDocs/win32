@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidParameterException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidParameterException class
 TOCTitle: EsentInvalidParameterException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidparameterexception(v=EXCHG.10)
 ms:contentKeyID: 55102037
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidParameterException
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: Defines a set of lighting properties.
 ms.assetid: 25ce9d72-949c-41fc-8e3b-146d6a2de0dc
-title: D3DLIGHT9 structure
-ms.topic: structure
+title: D3DLIGHT9 structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

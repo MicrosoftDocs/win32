@@ -1,8 +1,8 @@
 ---
 Description: Indicates the current state of the object.
 ms.assetid: 5a642fff-5855-4b5e-8682-5f7fdf1254cb
-title: CBaseMediaFilter::m_State member
-ms.topic: article
+title: CBaseMediaFilter::m_State member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

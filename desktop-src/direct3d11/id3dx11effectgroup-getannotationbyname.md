@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectGroup GetAnnotationByName method
+title: ID3DX11EffectGroup GetAnnotationByName method (D3dx11effect.h)
 description: Get an annotation by name.
 ms.assetid: c526a249-fb56-47bb-a0c2-b829a1da88e8
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

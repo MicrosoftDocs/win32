@@ -2,7 +2,7 @@
 title: MDM Registration Structures
 description: The following structures are used by MDM Registration.
 ms.assetid: 7b104c65-4095-45c7-a508-56f2d2d4ae08
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the ink leaf nodes that contain the specified strokes.
 ms.assetid: d9ebc57d-63f5-4175-8bb6-a688b98823d4
-title: IInkAnalyzer::FindInkLeafNodesForStrokes method
-ms.topic: article
+title: IInkAnalyzer::FindInkLeafNodesForStrokes method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

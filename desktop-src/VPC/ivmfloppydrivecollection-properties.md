@@ -2,7 +2,7 @@
 title: IVMFloppyDriveCollection Properties
 description: The IVMFloppyDriveCollection interface exposes the following properties.
 ms.assetid: F2431143-CD7C-4AA3-8463-6DAE1DCC5A1D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

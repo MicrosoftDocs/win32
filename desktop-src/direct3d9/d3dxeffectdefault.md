@@ -1,8 +1,8 @@
 ---
 Description: Effect default parameters.
 ms.assetid: a8a24cf2-0ecd-4429-97d3-086ff49540a1
-title: D3DXEFFECTDEFAULT structure
-ms.topic: structure
+title: D3DXEFFECTDEFAULT structure (D3dx9mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

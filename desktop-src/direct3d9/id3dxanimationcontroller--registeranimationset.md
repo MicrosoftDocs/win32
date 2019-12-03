@@ -1,8 +1,8 @@
 ---
 Description: Adds an animation set to the animation controller.
 ms.assetid: 93351d61-b7f4-4bd1-a5bf-313911cf6b61
-title: ID3DXAnimationController::RegisterAnimationSet method
-ms.topic: article
+title: ID3DXAnimationController::RegisterAnimationSet method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

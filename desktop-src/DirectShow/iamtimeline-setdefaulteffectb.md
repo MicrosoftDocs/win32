@@ -1,8 +1,8 @@
 ---
 Description: The SetDefaultEffectB method sets the default effect. This method is equivalent to IAMTimeline::SetDefaultEffect, but takes a BSTR value, rather than a pointer to a GUID.
 ms.assetid: ffee9728-f69e-48a4-ac0a-d41347a20deb
-title: IAMTimeline::SetDefaultEffectB method
-ms.topic: article
+title: IAMTimeline::SetDefaultEffectB method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

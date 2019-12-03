@@ -3,7 +3,7 @@ Description: Uncompresses the logical file (or directory) specified in the objec
 ms.assetid: 383475ba-77d4-4bfb-a241-9c37aa594a1e
 ms.tgt_platform: multiple
 title: UncompressEx method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

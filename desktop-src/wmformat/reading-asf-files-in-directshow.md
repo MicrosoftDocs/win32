@@ -1,5 +1,5 @@
 ---
-title: Reading ASF Files in DirectShow
+title: Reading ASF Files in DirectShow (Windows Media Format 11 SDK)
 description: Reading ASF Files in DirectShow
 ms.assetid: eec2c91f-1762-4798-91d0-d68ec2160d6a
 keywords:

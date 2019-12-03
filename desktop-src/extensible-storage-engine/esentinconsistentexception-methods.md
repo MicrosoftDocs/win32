@@ -1,5 +1,5 @@
 ---
-title: EsentInconsistentException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInconsistentException methods
 TOCTitle: EsentInconsistentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinconsistentexception_methods(v=EXCHG.10)

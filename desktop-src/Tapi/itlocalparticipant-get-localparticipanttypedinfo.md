@@ -1,8 +1,8 @@
 ---
 Description: The get\_LocalParticipantTypedInfo method gets participant information, such as e-mail name or geographical location.
 ms.assetid: 46bb70a7-7dc9-463d-8416-737122412750
-title: ITLocalParticipant::get_LocalParticipantTypedInfo method
-ms.topic: article
+title: ITLocalParticipant::get_LocalParticipantTypedInfo method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

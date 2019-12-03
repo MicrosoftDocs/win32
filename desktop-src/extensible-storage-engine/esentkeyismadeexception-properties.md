@@ -1,5 +1,5 @@
 ---
-title: EsentKeyIsMadeException properties (Microsoft.Isam.Esent.Interop)
+title: EsentKeyIsMadeException properties
 TOCTitle: EsentKeyIsMadeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyIsMadeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeyismadeexception_properties(v=EXCHG.10)

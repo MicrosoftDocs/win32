@@ -1,8 +1,8 @@
 ---
 Description: Evaluates a light that is a linear interpolation between two colors over the sphere.
 ms.assetid: 7523ff42-c81d-4857-a50d-7efa213214b8
-title: D3DXSHEvalHemisphereLight function
-ms.topic: article
+title: D3DXSHEvalHemisphereLight function (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

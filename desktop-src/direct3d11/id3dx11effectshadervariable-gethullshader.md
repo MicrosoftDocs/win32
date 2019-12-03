@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetHullShader method
+title: ID3DX11EffectShaderVariable GetHullShader method (D3dx11effect.h)
 description: Get a hull shader.
 ms.assetid: 18b2a8fc-2c53-4858-9aaa-00d0dc86adee
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice DeviceString property
+title: IVMUSBDevice DeviceString property (VPCCOMInterfaces.h)
 description: Retrieves the name of the USB device.
 ms.assetid: 2ae82e2a-b33a-4039-acdb-958b094b1045
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

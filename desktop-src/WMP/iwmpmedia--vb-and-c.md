@@ -1,5 +1,5 @@
 ---
-title: IWMPMedia (VB and C ) interface
+title: IWMPMedia (VB and C ) interface (Wmp.h)
 description: Provides a way to set and retrieve the properties of a media item.The IWMPMedia interface exposes the following properties.
 ms.assetid: 4f67336e-d1d3-4f18-b063-086edf9d9094
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

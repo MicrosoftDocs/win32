@@ -1,8 +1,8 @@
 ---
 Description: Computes the tangent vectors for the texture coordinates given in the texture stage. Provided to support legacy applications. Use D3DXComputeTangentFrameEx for better results.
 ms.assetid: 39748459-3f9b-4b48-ae13-7143eb29c292
-title: D3DXComputeTangent function
-ms.topic: article
+title: D3DXComputeTangent function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

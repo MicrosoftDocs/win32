@@ -1,5 +1,5 @@
 ---
-title: JET_SPACEHINTS members (Microsoft.Isam.Esent.Interop)
+title: JET_SPACEHINTS members
 TOCTitle: JET_SPACEHINTS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints_members(v=EXCHG.10)

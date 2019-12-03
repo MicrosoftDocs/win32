@@ -1,5 +1,5 @@
 ---
-title: TBN_INITCUSTOMIZE notification code
+title: TBN_INITCUSTOMIZE notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that customizing has started. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: f4b9a1b0-94f7-4b2b-81b3-772da09134d2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

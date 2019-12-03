@@ -1,5 +1,5 @@
 ---
-title: MCI_STEP command
+title: MCI_STEP command (Mmsystem.h)
 description: The MCI\_STEP command steps the player one or more frames. Digital-video, VCR, and CAV-format videodisc devices recognize this command.
 ms.assetid: 8d976840-fe9d-4393-b9fc-10f847166b1b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

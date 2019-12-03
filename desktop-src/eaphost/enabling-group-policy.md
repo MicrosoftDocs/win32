@@ -2,9 +2,6 @@
 title: Enabling Group Policy
 description: Explains how to configure the supplicant by enabling group policy.
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

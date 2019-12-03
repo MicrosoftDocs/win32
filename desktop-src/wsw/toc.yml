@@ -184,7 +184,7 @@
           href: httpcalculatorwithusernameoversslclientexample.md
         - name: "HttpCalculatorWithUserNameOverSslServiceExample"
           href: httpcalculatorwithusernameoversslserviceexample.md
-        - name: "HttpCalculatorWithUsernameXmlTokenOverSslClientExample"
+        - name: "HttpCalculatorWithUsernameXmlTokenOverSslClient example"
           href: httpcalculatorwithusernamexmltokenoversslclientexample.md
         - name: "HttpPurchaseOrderClientExample"
           href: httppurchaseorderclientexample.md
@@ -366,7 +366,7 @@
           href: requestreplynamedpipesserverwithwindowstransportsecurityexample.md
         - name: "RequestReplyTcpClientWithWindowsTransportSecurityExample"
           href: requestreplytcpclientwithwindowstransportsecurityexample.md
-        - name: "RequestReplyTcpServerWithWindowsTransportSecurityExample"
+        - name: "RequestReplyTcpServerWithWindowsTransportSecurity example"
           href: requestreplytcpserverwithwindowstransportsecurityexample.md
       - name: "File Replication Examples"
         href: file-replication-examples.md

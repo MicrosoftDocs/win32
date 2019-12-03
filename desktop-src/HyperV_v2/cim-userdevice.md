@@ -1,8 +1,8 @@
 ---
 Description: Represents a logical device that allows a user to input, view or hear data on the computer system.
 ms.assetid: 95f88a63-3a2a-4b8c-9849-564dac254933
-title: CIM_UserDevice class
-ms.topic: article
+title: CIM_UserDevice class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: glVertex3f function
+title: glVertex3f function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: 9833ef82-1ac8-45d4-b3e0-9c06cb07862d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

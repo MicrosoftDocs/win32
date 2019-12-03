@@ -1,5 +1,5 @@
 ---
-title: EsentTableInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTableInUseException properties
 TOCTitle: EsentTableInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTableInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttableinuseexception_properties(v=EXCHG.10)

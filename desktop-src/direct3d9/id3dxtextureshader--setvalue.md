@@ -1,8 +1,8 @@
 ---
 Description: Sets the constant table with the data in the buffer.
 ms.assetid: 55cf5456-8f23-405d-9329-8ff737c5c139
-title: ID3DXTextureShader::SetValue method
-ms.topic: article
+title: ID3DXTextureShader::SetValue method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

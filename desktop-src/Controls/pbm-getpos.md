@@ -1,5 +1,5 @@
 ---
-title: PBM_GETPOS message
+title: PBM_GETPOS message (Commctrl.h)
 description: Retrieves the current position of the progress bar.
 ms.assetid: 76f49ec6-f2e1-4486-be8a-7dfd49f8b82c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

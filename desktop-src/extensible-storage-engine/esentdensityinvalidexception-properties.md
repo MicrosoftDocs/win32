@@ -1,5 +1,5 @@
 ---
-title: EsentDensityInvalidException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDensityInvalidException properties
 TOCTitle: EsentDensityInvalidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdensityinvalidexception_properties(v=EXCHG.10)

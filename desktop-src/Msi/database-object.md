@@ -2,7 +2,7 @@
 Description: The Database object accesses an installer database.
 ms.assetid: 97765884-3e1c-486a-932c-6430b113fac8
 title: Database object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

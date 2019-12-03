@@ -2,10 +2,10 @@
 title: mov - vs
 description: Move floating-point data between registers.
 ms.assetid: bf013ab2-593e-4201-ba75-faebd0c9f97a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

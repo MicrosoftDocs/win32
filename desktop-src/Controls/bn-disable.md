@@ -1,5 +1,5 @@
 ---
-title: BN_DISABLE notification code
+title: BN_DISABLE notification code (Winuser.h)
 description: Sent when a button is disabled.
 ms.assetid: 5e2bb434-f20d-42f1-a9e9-46c4d10b8c7e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

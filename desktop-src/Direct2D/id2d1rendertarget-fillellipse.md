@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget FillEllipse methods
+title: ID2D1RenderTarget FillEllipse methods (D2d1.h)
 description: Paints the interior of the specified ellipse.
 ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::FillEllipse methods

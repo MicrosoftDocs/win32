@@ -1,5 +1,5 @@
 ---
-title: PGM_GETBUTTONSIZE message
+title: PGM_GETBUTTONSIZE message (Commctrl.h)
 description: Retrieves the current button size for the pager control. You can send this message explicitly or use the Pager\_GetButtonSize macro.
 ms.assetid: fa8b4814-4587-4149-83a7-84faad2a4641
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

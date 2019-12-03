@@ -1,8 +1,8 @@
 ---
 Description: Event handle.
 ms.assetid: e68df736-c17e-4b08-a161-b6d9a7ead22b
-title: CAMEvent::m_hEvent member
-ms.topic: article
+title: CAMEvent::m_hEvent member (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Obtains a hash handle that is used to hash handshake messages.
 ms.assetid: 31390584-9d23-41d1-8604-b84a5e52ecde
-title: SslCreateHandshakeHash function
-ms.topic: article
+title: SslCreateHandshakeHash function (Sslprovider.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

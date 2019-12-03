@@ -3,7 +3,7 @@ Description: The Win32\_CacheMemory&\#32;WMI class represents internal and exter
 ms.assetid: 9cfb992d-fbac-4e56-b4f3-61c0c93f5852
 ms.tgt_platform: multiple
 title: Win32_CacheMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

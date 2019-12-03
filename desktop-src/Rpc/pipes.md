@@ -1,5 +1,5 @@
 ---
-title: Pipes
+title: Pipes (RPC)
 description: The pipe type constructor is a highly efficient mechanism for passing large amounts of data, or any quantity of data that is not all available in memory at one time.
 ms.assetid: '913d5e2a-00ad-4060-9274-a6db23fb2817'
 keywords:

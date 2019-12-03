@@ -1,8 +1,8 @@
 ---
 Description: Cascades all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Cascade windows.
 ms.assetid: 6A957D70-D6A3-4485-8DF3-7FD2C6DEFF78
-title: IShellDispatch.CascadeWindows method
-ms.topic: article
+title: IShellDispatch.CascadeWindows method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

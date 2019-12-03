@@ -1,8 +1,8 @@
 ---
 Description: Raised by the audio renderer when the audio session display name changes.
 ms.assetid: d180b145-88e1-4f85-b001-b76140ca39d8
-title: MEAudioSessionNameChanged event
-ms.topic: article
+title: MEAudioSessionNameChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

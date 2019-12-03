@@ -1,5 +1,5 @@
 ---
-title: WM_NCMBUTTONDOWN message
+title: WM_NCMBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the middle mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 0aa86fc6-43e9-4356-a4c1-e3f687dc2884
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

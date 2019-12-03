@@ -2,10 +2,10 @@
 title: endloop - vs
 description: End of a loop...endloop block.
 ms.assetid: fd7df120-a927-4a66-b152-6ce5247446e4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

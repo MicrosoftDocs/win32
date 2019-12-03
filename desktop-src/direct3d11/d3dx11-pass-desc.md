@@ -1,5 +1,5 @@
 ---
-title: D3DX11_PASS_DESC structure
+title: D3DX11_PASS_DESC structure (D3dx11effect.h)
 description: Describes an effect pass, which contains pipeline state.
 ms.assetid: 3695b99f-d379-403b-aa10-e3e370a6c864
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

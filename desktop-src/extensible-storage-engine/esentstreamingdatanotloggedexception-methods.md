@@ -1,5 +1,5 @@
 ---
-title: EsentStreamingDataNotLoggedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentStreamingDataNotLoggedException methods
 TOCTitle: EsentStreamingDataNotLoggedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstreamingdatanotloggedexception_methods(v=EXCHG.10)

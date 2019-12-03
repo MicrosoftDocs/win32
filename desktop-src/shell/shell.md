@@ -1,7 +1,7 @@
 ---
 Description: Represents the objects in the Shell. Methods are provided to control the Shell and to execute commands within the Shell. There are also methods to obtain other Shell-related objects.
-title: Shell object
-ms.topic: interface
+title: Shell object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the identifier for the audio endpoint device.
 ms.assetid: f145fb80-c136-421c-9a65-e69c52109348
-title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ID attribute
-ms.topic: article
+title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ID attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

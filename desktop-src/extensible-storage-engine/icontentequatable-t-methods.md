@@ -1,5 +1,5 @@
 ﻿---
-title: IContentEquatable(T) methods (Microsoft.Isam.Esent.Interop)
+title: IContentEquatable(T) methods
 TOCTitle: IContentEquatable(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578593(v=EXCHG.10)

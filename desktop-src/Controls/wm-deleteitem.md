@@ -1,5 +1,5 @@
 ---
-title: WM_DELETEITEM message
+title: WM_DELETEITEM message (Winuser.h)
 description: Sent to the owner of a list box or combo box when the list box or combo box is destroyed or when items are removed by the LB\_DELETESTRING, LB\_RESETCONTENT, CB\_DELETESTRING, or CB\_RESETCONTENT message.
 ms.assetid: c3adf8fb-45f2-44f1-8821-6ffa7d76dc78
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

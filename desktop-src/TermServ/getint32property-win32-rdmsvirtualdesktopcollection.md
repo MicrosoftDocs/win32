@@ -1,5 +1,5 @@
 ---
-title: GetInt32Property method of the Win32_RDMSVirtualDesktopCollection class
+title: GetInt32Property method of the Win32_RDMSVirtualDesktopCollection class (Microsoft.diagnostics.appanalysis.h)
 description: Retrieves an integer property from a virtual desktop collection.
 ms.assetid: 18ffca65-e7c0-4b17-902f-d74b2a81aba2
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

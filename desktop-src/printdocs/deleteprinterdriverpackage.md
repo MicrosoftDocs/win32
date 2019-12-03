@@ -1,8 +1,8 @@
 ---
 Description: Deletes a printer driver package from the driver store.
 ms.assetid: a43a94d1-097e-457c-bce9-d4c434ecfa93
-title: DeletePrinterDriverPackage function
-ms.topic: article
+title: DeletePrinterDriverPackage function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

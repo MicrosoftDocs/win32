@@ -1,11 +1,11 @@
 ---
-title: JET_SNPROG constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_SNPROG constructor 
 TOCTitle: 'JET_SNPROG constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SNPROG.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snprog.jet_snprog(v=EXCHG.10)
 ms:contentKeyID: 55103951
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_SNPROG.JET_SNPROG
 dev_langs:

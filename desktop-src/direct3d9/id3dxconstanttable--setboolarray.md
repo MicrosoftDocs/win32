@@ -1,8 +1,8 @@
 ---
 Description: Sets an array of Boolean values.
 ms.assetid: 323ad654-81e3-4986-a667-8333dd44a2d1
-title: ID3DXConstantTable::SetBoolArray method
-ms.topic: article
+title: ID3DXConstantTable::SetBoolArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

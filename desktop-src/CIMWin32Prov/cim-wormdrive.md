@@ -3,7 +3,7 @@ Description: The CIM\_WORMDrive class represents the capabilities and management
 ms.assetid: df77084a-01f2-4cca-b395-d74ee64ef526
 ms.tgt_platform: multiple
 title: CIM_WORMDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

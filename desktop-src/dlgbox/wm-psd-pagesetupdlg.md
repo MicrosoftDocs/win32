@@ -1,5 +1,5 @@
 ---
-title: WM_PSD_PAGESETUPDLG message
+title: WM_PSD_PAGESETUPDLG message (Commdlg.h)
 description: Notifies a PagePaintHook hook procedure that the Page Setup dialog box is about to draw the contents of the sample page. The hook procedure can use this message to carry out initialization tasks related to drawing the contents of the sample page.
 ms.assetid: 0d95240b-7d77-4819-8e5c-cc25cd1b30f2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

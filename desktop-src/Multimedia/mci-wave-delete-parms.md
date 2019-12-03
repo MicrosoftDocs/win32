@@ -1,5 +1,5 @@
 ---
-title: MCI_WAVE_DELETE_PARMS structure
+title: MCI_WAVE_DELETE_PARMS structure (Mciapi.h)
 description: The MCI\_WAVE\_DELETE\_PARMS structure contains position information for the MCI\_DELETE command for waveform-audio devices.
 ms.assetid: 5c0bf0ca-773b-4b96-8b55-9ef7b5a306d9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

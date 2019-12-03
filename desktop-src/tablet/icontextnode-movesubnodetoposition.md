@@ -1,8 +1,8 @@
 ---
 Description: Reorders a specified child IContextNode object to the specified index.
 ms.assetid: 1cee73af-8d5b-4d5d-bc67-a3ac6f4b2462
-title: IContextNode::MoveSubNodeToPosition method
-ms.topic: article
+title: IContextNode::MoveSubNodeToPosition method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

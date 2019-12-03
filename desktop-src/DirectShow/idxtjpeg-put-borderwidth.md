@@ -1,8 +1,8 @@
 ---
 Description: The put\_BorderWidth method specifies the width of the solid border along the edges of the wipe pattern.
 ms.assetid: a618926a-efa4-47a2-9ce9-ae298ed41083
-title: IDxtJpeg::put_BorderWidth method
-ms.topic: article
+title: IDxtJpeg::put_BorderWidth method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

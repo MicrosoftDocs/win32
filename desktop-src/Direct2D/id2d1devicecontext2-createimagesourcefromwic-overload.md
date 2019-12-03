@@ -1,5 +1,5 @@
 ---
-title: ID2D1DeviceContext2 CreateImageSourceFromWic methods
+title: ID2D1DeviceContext2 CreateImageSourceFromWic methods (D2d1\_3.h)
 description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
 ms.assetid: af02630d-a9ca-f5b4-6f2a-31a73ef603e5
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1DeviceContext2::CreateImageSourceFromWic methods

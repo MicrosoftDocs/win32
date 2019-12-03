@@ -1,8 +1,8 @@
 ---
 Description: Gets an animation set, given its name.
 ms.assetid: 4c3f3002-45f6-49b2-8a42-18d5824fb36f
-title: ID3DXAnimationController::GetAnimationSetByName method
-ms.topic: article
+title: ID3DXAnimationController::GetAnimationSetByName method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

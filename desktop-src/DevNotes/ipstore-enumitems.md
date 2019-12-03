@@ -1,8 +1,8 @@
 ---
 Description: Returns the interface pointer of a subtype for enumerating items in the protected storage database.
 ms.assetid: 940c321d-ec14-43fd-841b-cf581796bc87
-title: IPStore::EnumItems method
-ms.topic: article
+title: IPStore::EnumItems method (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

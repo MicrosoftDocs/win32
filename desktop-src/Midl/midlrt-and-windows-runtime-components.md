@@ -39,8 +39,8 @@ The following list shows the command-line switches that MIDLRT.EXE uses.
 [**/nomidl**](-nomidl.md)  
 [**/nomd**](-nomd.md)  
 [**/ns\_prefix**](-ns-prefix.md)  
-[**/winmd**](-metadata-dir.md)  
-[**/winrt**](-winmd.md)  
+[**/winmd**](-winmd.md)  
+[**/winrt**](-winrt.md)  
 </dl>
 
 A complete listing of MIDLRT compiler switches and options is available when you use the MIDLRT compiler [**/help**](-help-.md) and /? switches. The switches are organized by categories. For more info, see the [MIDL Command-Line Reference](midl-command-line-reference.md).

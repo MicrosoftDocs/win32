@@ -3,7 +3,7 @@ Description: The CIM\_JobDestinationJobs association describes where a job is su
 ms.assetid: 6f732d34-2284-4909-a966-6b4066780cb0
 ms.tgt_platform: multiple
 title: CIM_JobDestinationJobs class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

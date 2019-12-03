@@ -1,5 +1,5 @@
 ---
-title: DPI_AWARENESS_CONTEXT handle
+title: DPI_AWARENESS_CONTEXT handle (windef.h)
 description: Identifies the awareness context for a window.
 ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
 ms.topic: article
@@ -72,7 +72,7 @@ DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED was introduced in the October 2018 updat
 [**GetAwarenessFromDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext)
 </dt> </dl>
 
-[**GetDpiFRomDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getdpifromdpiawarenesscontext)
+[**GetDpiFromDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getdpifromdpiawarenesscontext)
 </dt> </dl>
 
 [**GetThreadDpiAwarenessContext**](/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext)

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETNEXTITEM message
+title: LVM_GETNEXTITEM message (Commctrl.h)
 description: Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can send this message explicitly or by using the ListView\_GetNextItem macro.
 ms.assetid: 2d458f12-b9d3-4b9e-bcb4-927c14c16537
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

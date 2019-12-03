@@ -9,7 +9,7 @@
     href: best-security-practices-in-game-development.md
   - name: "Cascaded Shadow Maps"
     href: cascaded-shadow-maps.md
-  - name: "Coding For Multiple Cores on Xbox 360 and Microsoft Windows"
+  - name: "Coding for multicore on Xbox 360 and Windows"
     href: coding-for-multiple-cores.md
   - name: "Common Techniques to Improve Shadow Depth Maps"
     href: common-techniques-to-improve-shadow-depth-maps.md

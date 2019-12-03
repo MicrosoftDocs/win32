@@ -1,5 +1,5 @@
 ---
-title: EsentMultiValuedDuplicateException methods (Microsoft.Isam.Esent.Interop)
+title: EsentMultiValuedDuplicateException methods
 TOCTitle: EsentMultiValuedDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedduplicateexception_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SelectSoftKeyboard method
+title: ISoftKbd SelectSoftKeyboard method (Softkbdc.h)
 description: The ISoftKbd SelectSoftKeyboard method selects the specified soft keyboard.
 ms.assetid: 7e85d346-3741-457d-aadd-11d3a6710e85
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

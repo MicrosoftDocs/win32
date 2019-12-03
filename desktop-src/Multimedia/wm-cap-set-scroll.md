@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_SCROLL message
+title: WM_CAP_SET_SCROLL message (Vfw.h)
 description: The WM\_CAP\_SET\_SCROLL message defines the portion of the video frame to display in the capture window.
 ms.assetid: 545605e4-6b1f-403a-a3ab-0fd6750ae776
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: Api.JetCreateDatabase2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetCreateDatabase2 method 
 TOCTitle: 'JetCreateDatabase2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateDatabase2(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,System.Int32,Microsoft.Isam.Esent.Interop.JET_DBID@,Microsoft.Isam.Esent.Interop.CreateDatabaseGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetcreatedatabase2(v=EXCHG.10)
 ms:contentKeyID: 55100671
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetCreateDatabase2
 dev_langs:

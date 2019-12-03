@@ -1,12 +1,12 @@
 ---
 Description: The Width property sets or retrieves the width of the rectangle.
 ms.assetid: '5aca3f45-7db7-44a7-af3e-99c5bb570ceb'
-title: Width Property
+title: Width property (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Width Property
+# Width property (DirectShow)
 
 > [!Note]  
 > This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.

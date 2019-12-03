@@ -2,7 +2,7 @@
 Description: Represents an ethernet port.
 ms.assetid: c9a148c2-cf02-466f-b8ca-b1bf616d75dc
 title: CIM_EthernetPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

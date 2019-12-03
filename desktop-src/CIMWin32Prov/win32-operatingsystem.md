@@ -3,7 +3,7 @@ Description: Represents a Windows-based operating system installed on a computer
 ms.assetid: eb6a8cff-20a0-4211-b46a-3084e9c39246
 ms.tgt_platform: multiple
 title: Win32_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

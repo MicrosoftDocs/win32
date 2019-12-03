@@ -3,7 +3,7 @@ Description: The DeleteEx WMI class method will delete the logical file (or dire
 ms.assetid: 6e5447c1-4d71-4a51-a1e0-b5785c13dfd2
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBackupException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBackupException properties
 TOCTitle: EsentInvalidBackupException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbackupexception_properties(v=EXCHG.10)

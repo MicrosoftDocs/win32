@@ -3,7 +3,7 @@ Description: Changes the security permissions for the directory entry file speci
 ms.assetid: 787e48af-7cb4-4d0b-a2f1-ffa696466ef2
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Generates IDL declarations for proxy functions for port type operations.
 ms.assetid: e56fdd68-b72d-4167-9e4c-b5bbf103880b
 title: idlFunctionDeclarations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

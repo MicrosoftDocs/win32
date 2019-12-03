@@ -12,7 +12,7 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

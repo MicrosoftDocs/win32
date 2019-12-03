@@ -1,8 +1,8 @@
 ---
 Description: The GetNPPPatternFilterFromBlob function retrieves the pattern match filter from a specific BLOB.
 ms.assetid: b17cde55-8abb-4699-960f-676cbbb24326
-title: GetNPPPatternFilterFromBlob function
-ms.topic: article
+title: GetNPPPatternFilterFromBlob function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

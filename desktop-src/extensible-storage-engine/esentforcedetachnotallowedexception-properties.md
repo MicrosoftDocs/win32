@@ -1,5 +1,5 @@
 ---
-title: EsentForceDetachNotAllowedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentForceDetachNotAllowedException properties
 TOCTitle: EsentForceDetachNotAllowedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentForceDetachNotAllowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentforcedetachnotallowedexception_properties(v=EXCHG.10)

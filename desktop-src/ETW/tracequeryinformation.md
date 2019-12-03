@@ -1,8 +1,8 @@
 ---
 Description: Queries event tracing session settings for the specified information class.
 ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278
-title: TraceQueryInformation function
-ms.topic: article
+title: TraceQueryInformation function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

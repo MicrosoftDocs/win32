@@ -5,7 +5,7 @@ ms:assetid: 9db3b875-0b95-4027-9742-c36d2d7e64cf
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294041(v=EXCHG.10)
 ms:contentKeyID: 32765642
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetCurrentIndexW
 - JetGetCurrentIndex

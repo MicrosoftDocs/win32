@@ -2,7 +2,7 @@
 Description: Secures the volume's encryption key with a specially formatted 48-digit password.
 ms.assetid: 23e0b79a-2feb-441a-9785-7ecd3bb4b6c6
 title: ProtectKeyWithNumericalPassword method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

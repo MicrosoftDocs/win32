@@ -1,5 +1,5 @@
 ---
-title: EM_GETWORDBREAKPROC message
+title: EM_GETWORDBREAKPROC message (Winuser.h)
 description: Gets the address of the current Wordwrap function. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 564b4b1b-913f-4040-bb28-eea50c0c3738
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

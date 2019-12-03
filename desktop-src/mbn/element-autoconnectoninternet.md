@@ -5,13 +5,13 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: AutoConnectOnInternet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # <span id="WWAN_profile_v4.element_AutoConnectOnInternet"></span>AutoConnectOnInternet
 
-Specifies whether the Mobile Broadband device will automatically connnect to a network.
+Specifies whether the Mobile Broadband device will automatically connect to a network.
 
 For more information, see the documentation for the v1 [**AutoConnectOnInternet**](https://msdn.microsoft.com/library/Dd323275(v=VS.85).aspx) element.
 

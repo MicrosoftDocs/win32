@@ -1,8 +1,8 @@
 ---
 Description: The LoadFromBlob method loads property data from a persistence format.
 ms.assetid: b314a844-2190-469a-a030-4494e2140ce6
-title: IPropertySetter::LoadFromBlob method
-ms.topic: article
+title: IPropertySetter::LoadFromBlob method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

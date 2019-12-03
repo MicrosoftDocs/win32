@@ -1,5 +1,5 @@
 ---
-title: EsentBackupAbortByServerException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBackupAbortByServerException methods
 TOCTitle: EsentBackupAbortByServerException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupabortbyserverexception_methods(v=EXCHG.10)

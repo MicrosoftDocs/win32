@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetInputSignatureElementDesc method
+title: ID3DX11EffectShaderVariable GetInputSignatureElementDesc method (D3dx11effect.h)
 description: Get an input-signature description.
 ms.assetid: 45b1fd25-1005-48fd-8a61-561ea2c273e5
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

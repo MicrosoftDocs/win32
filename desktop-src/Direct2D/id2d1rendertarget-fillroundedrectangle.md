@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget FillRoundedRectangle methods
+title: ID2D1RenderTarget FillRoundedRectangle methods (D2d1.h)
 description: Paints the interior of the specified rounded rectangle.
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::FillRoundedRectangle methods

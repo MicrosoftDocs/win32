@@ -359,7 +359,7 @@
         - name: "FreeTextureComplete"
           href: ipixengine5callbacks-freetexturecomplete.md
         - name: "LoadTextureFromFileComplete"
-          href: ipixengine5callbacks-loadtexturefromfilecomplete-uint-pixenginetexturedescriptor-uint-pixenginetexturesliceindex-arr-pixenginetextureslicedescriptor-arr-uint-int-arr-pixenginehistogram-ptr.md
+          href: ipixengine5callbacks-loadtexturefromfilecomplete-short-name.md
         - name: "LoadTextureSliceComplete"
           href: ipixengine5callbacks-loadtextureslicecomplete-pixenginetextureslicedescriptor-pixenginehistogram-ptr.md
         - name: "LoadHistogramComplete"

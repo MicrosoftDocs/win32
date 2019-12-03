@@ -1,5 +1,5 @@
 ---
-title: D3DX11FilterTexture function
+title: D3DX11FilterTexture function (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GenerateMipMaps and GenerateMipMaps3D. Generates mipmap chain using a particular texture filter.
 ms.assetid: 52ae3228-f9d7-4944-b49c-55df1816f1f7
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: ColumnStream.Flush method  (Microsoft.Isam.Esent.Interop)
+title: ColumnStream.Flush method 
 TOCTitle: 'Flush method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Flush
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.flush(v=EXCHG.10)
 ms:contentKeyID: 55100982
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnStream.Flush
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding GetSoHRequest method
+title: INapEnforcementClientBinding GetSoHRequest method (NapEnforcementClient.h)
 description: Is used by the enforcement client to retrieve an SoH-request for a particular connection.
 ms.assetid: 6fce6e84-ce03-48f2-957b-a41efe044fc5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

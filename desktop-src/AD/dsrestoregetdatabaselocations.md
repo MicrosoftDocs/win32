@@ -1,5 +1,5 @@
 ---
-title: DsRestoreGetDatabaseLocations function
+title: DsRestoreGetDatabaseLocations function (Ntdsbcli.h)
 description: Obtains the locations where backup files should be copied during a restore operation.
 ms.assetid: f91d701c-72cf-418a-8d1c-6bf6ef41c2c1
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

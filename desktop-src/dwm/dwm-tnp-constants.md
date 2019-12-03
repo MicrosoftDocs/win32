@@ -1,5 +1,5 @@
 ---
-title: DWM_TNP Constants
+title: DWM_TNP Constants (Dwmapi.h)
 description: Flags used by the DWM\_THUMBNAIL\_PROPERTIES structure to indicate which of its members contain valid information.
 ms.assetid: 8eee1baf-e24e-40af-92ab-a7acae267ecc
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

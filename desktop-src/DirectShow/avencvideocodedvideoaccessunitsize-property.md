@@ -1,8 +1,8 @@
 ---
 Description: Specifies the size of the video access units, in bytes. This property applies only to variable bit rate (VBR) control modes.
 ms.assetid: bb46b171-d70a-4e01-88c4-321a210a0220
-title: AVEncVideoCodedVideoAccessUnitSize property
-ms.topic: article
+title: AVEncVideoCodedVideoAccessUnitSize property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

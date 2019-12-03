@@ -10,7 +10,7 @@ api_name:
 - D1107 Internal Error
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

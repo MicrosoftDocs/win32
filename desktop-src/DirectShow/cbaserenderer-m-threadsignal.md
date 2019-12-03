@@ -1,8 +1,8 @@
 ---
 Description: Event used to release the streaming thread.
 ms.assetid: 612082ec-a5c9-4b20-abda-61432e839094
-title: CBaseRenderer::m_ThreadSignal member
-ms.topic: article
+title: CBaseRenderer::m_ThreadSignal member (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

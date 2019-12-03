@@ -2,9 +2,6 @@
 title: EAP Method Frequently Asked Questions
 description: Provides answers to commonly-asked programming questions about EAP method authoring.
 ms.assetid: 244e048f-4cc0-4094-a2b9-0f84674a293c
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

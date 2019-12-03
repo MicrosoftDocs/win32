@@ -1,11 +1,11 @@
 ---
-title: JET_BKLOGTIME.Equals method (JET_BKLOGTIME) (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME.Equals method (JET_BKLOGTIME)
 TOCTitle: Equals method (JET_BKLOGTIME)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.Equals(Microsoft.Isam.Esent.Interop.JET_BKLOGTIME)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime.equals(v=EXCHG.10)
 ms:contentKeyID: 39516064
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

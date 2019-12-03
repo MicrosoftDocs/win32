@@ -1,8 +1,8 @@
 ---
 Description: Retrieves GUID, version, and date of the specified core printer drivers and the path to their packages.
 ms.assetid: 98acad48-cd42-4d2b-be58-81c1366f6912
-title: GetCorePrinterDrivers function
-ms.topic: article
+title: GetCorePrinterDrivers function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

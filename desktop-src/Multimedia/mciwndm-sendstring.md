@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SENDSTRING message
+title: MCIWNDM_SENDSTRING message (Vfw.h)
 description: The MCIWNDM\_SENDSTRING message sends an MCI command in string form to the device associated with the MCIWnd window. You can send this message explicitly or by using the MCIWndSendString macro.
 ms.assetid: 0e999a0e-588d-4f06-a1bc-fd3f245d8980
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

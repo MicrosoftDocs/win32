@@ -1,5 +1,5 @@
 ---
-title: CBN_SETFOCUS notification code
+title: CBN_SETFOCUS notification code (Winuser.h)
 description: Sent when a combo box receives the keyboard focus. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 8072edc6-aedc-4daf-80df-d3acd82fcffa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

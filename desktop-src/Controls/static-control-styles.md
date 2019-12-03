@@ -1,5 +1,5 @@
 ---
-title: Static Control Styles
+title: Static Control Styles (Winuser.h)
 description: To create a static control using the CreateWindow or CreateWindowEx function, specify the STATIC class, appropriate window style constants, and a combination of the following static control styles.
 ms.assetid: ad412bef-d768-4847-aeed-715001be07c5
 topic_type:
@@ -39,7 +39,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

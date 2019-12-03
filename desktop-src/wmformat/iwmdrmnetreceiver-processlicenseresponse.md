@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetReceiver ProcessLicenseResponse method
+title: IWMDRMNetReceiver ProcessLicenseResponse method (Wmdrmsdk.h)
 description: The ProcessLicenseResponse method processes the license response that is sent by the transmitter in reply to a license challenge.
 ms.assetid: b6d04651-746b-474e-8a02-6b7cbee9db46
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Resource Types
+title: Resource Types (Winuser.h)
 description: The following are the predefined resource types.
 ms.assetid: 8d27f79a-8165-4565-a975-f25b2344efdc
 topic_type:
@@ -30,7 +30,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

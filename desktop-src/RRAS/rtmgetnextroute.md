@@ -1,5 +1,5 @@
 ---
-title: RtmGetNextRoute function
+title: RtmGetNextRoute function (Rtm.h)
 description: The RtmGetNextRoute function returns the next route from the specified subset of routes in the table.
 ms.assetid: 0f413276-2ace-4216-a1a0-1b3061bacc4a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

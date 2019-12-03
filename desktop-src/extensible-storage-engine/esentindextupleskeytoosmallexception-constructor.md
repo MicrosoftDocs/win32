@@ -1,11 +1,11 @@
 ---
-title: EsentIndexTuplesKeyTooSmallException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesKeyTooSmallException constructor 
 TOCTitle: 'EsentIndexTuplesKeyTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextupleskeytoosmallexception.esentindextupleskeytoosmallexception(v=EXCHG.10)
 ms:contentKeyID: 55101786
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException.EsentIndexTuplesKeyTooSmallException
 dev_langs:

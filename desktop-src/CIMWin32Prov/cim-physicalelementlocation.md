@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalElementLocation class associates a physical elemen
 ms.assetid: d1698c1a-0eda-4e32-9a29-fb741b987671
 ms.tgt_platform: multiple
 title: CIM_PhysicalElementLocation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

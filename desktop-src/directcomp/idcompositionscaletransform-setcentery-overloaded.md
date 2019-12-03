@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform SetCenterY methods
+title: IDCompositionScaleTransform SetCenterY methods (Dcomp.h)
 description: Changes or animates the value of the CenterY property of a 2D scale transform.
 ms.assetid: 18A755E6-C6E8-437C-BBB5-58F36F754BE7
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform::SetCenterY methods

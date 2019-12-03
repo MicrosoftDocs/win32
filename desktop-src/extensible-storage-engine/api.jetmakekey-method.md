@@ -1,11 +1,11 @@
 ---
-title: Api.JetMakeKey method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetMakeKey method 
 TOCTitle: 'JetMakeKey method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetMakeKey(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32,Microsoft.Isam.Esent.Interop.MakeKeyGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetmakekey(v=EXCHG.10)
 ms:contentKeyID: 55100764
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetMakeKey
 dev_langs:

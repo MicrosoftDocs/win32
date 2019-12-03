@@ -1,5 +1,5 @@
 ---
-title: MPCOMPONENT_STATUS structure
+title: MPCOMPONENT_STATUS structure (MpClient.h)
 description: Component status information.
 ms.assetid: 0E589E52-A204-425C-880B-CF13C16893F3
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

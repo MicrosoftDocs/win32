@@ -1,5 +1,5 @@
 ---
-title: EM_GETPASSWORDCHAR message
+title: EM_GETPASSWORDCHAR message (Winuser.h)
 description: Gets the password character that an edit control displays when the user enters text. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 874336f6-701b-466a-afa6-0cb3e787ba4c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

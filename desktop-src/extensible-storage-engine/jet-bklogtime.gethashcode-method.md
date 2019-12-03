@@ -1,11 +1,11 @@
 ---
-title: JET_BKLOGTIME.GetHashCode method  (Microsoft.Isam.Esent.Interop)
+title: JET_BKLOGTIME.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.GetHashCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime.gethashcode(v=EXCHG.10)
 ms:contentKeyID: 39510612
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.GetHashCode
 dev_langs:

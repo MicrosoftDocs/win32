@@ -1,5 +1,5 @@
 ---
-title: Resource Structures
+title: Resource Structures (Menus and Other Resources)
 description: .
 ms.assetid: 3b0eecd7-9de0-4897-9833-386c30bc511e
 ms.topic: article

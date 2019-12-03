@@ -1,5 +1,5 @@
 ---
-title: IWMPControls2 (VB and C ) interface
+title: IWMPControls2 (VB and C ) interface (Wmp.h)
 description: Provides a method that supplements the IWMPControls interface.
 ms.assetid: 6a181911-9ab1-4cab-a6a2-9e1465f44029
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

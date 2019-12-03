@@ -2,7 +2,7 @@
 Description: Enumerates the individual file members in the CatalogFiles section of a catalog definition file (CDF).
 ms.assetid: 38e17ef2-65dc-45f8-a484-8eedcf4ce3e3
 title: CryptCATCDFEnumMembersByCDFTagEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

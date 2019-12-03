@@ -3,7 +3,7 @@ Description: The CIM\_SlotInSlot relationship represents the ability of a specia
 ms.assetid: 688231de-49fd-415d-b2c8-ef0dd4dcaee4
 ms.tgt_platform: multiple
 title: CIM_SlotInSlot class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

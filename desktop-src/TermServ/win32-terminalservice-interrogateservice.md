@@ -1,5 +1,5 @@
 ---
-title: InterrogateService method of the Win32_Service class
+title: InterrogateService method of the Win32_Service class (Remote Desktop Services)
 description: Requests that the referenced service update its state to the service manager.
 ms.assetid: 7B572049-416E-4429-BD53-119FF570B2D8
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob5 interface
+title: IBackgroundCopyJob5 interface (Deliveryoptimization.h)
 description: Use this interface to query or set several optional behaviors of a job.
 ms.assetid: C4706E10-40E6-489B-9772-59D581781038
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

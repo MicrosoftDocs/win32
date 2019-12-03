@@ -1,8 +1,8 @@
 ---
 Description: Copies per-vertex albedo values from a mesh.
 ms.assetid: 3a6f1cc2-a870-4463-98df-599d9fbd9d78
-title: ID3DXPRTEngine::ExtractPerVertexAlbedo method
-ms.topic: article
+title: ID3DXPRTEngine::ExtractPerVertexAlbedo method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

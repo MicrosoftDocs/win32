@@ -2,7 +2,7 @@
 Description: The Send method sends an HTTP request to an HTTP server.
 ms.assetid: 4f30d6b7-d1c3-43f1-9829-260b7c84518f
 title: IWinHttpRequest::Send method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

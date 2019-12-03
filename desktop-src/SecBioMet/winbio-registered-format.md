@@ -1,5 +1,5 @@
 ---
-title: WINBIO_REGISTERED_FORMAT structure
+title: WINBIO_REGISTERED_FORMAT structure (Winbio\_types.h)
 description: Specifies a registered data format as an owner/format pair.
 ms.assetid: a178840e-81cc-4dd3-9d80-a181fa7fa888
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

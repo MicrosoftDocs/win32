@@ -1,8 +1,8 @@
 ---
 Description: Describes how chroma was sampled for a YCbCr video media type.
 ms.assetid: 0c930348-8669-42cc-9d74-df9ef475bdc8
-title: MF_MT_VIDEO_CHROMA_SITING attribute
-ms.topic: article
+title: MF_MT_VIDEO_CHROMA_SITING attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

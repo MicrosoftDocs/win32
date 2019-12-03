@@ -1,8 +1,8 @@
 ---
 Description: The HANDOFFENTRY structure defines a specific protocol entry in a HANDOFFTABLE structure.
 ms.assetid: 85793326-3007-4dd9-9325-3447d6e09883
-title: HANDOFFENTRY structure
-ms.topic: structure
+title: HANDOFFENTRY structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

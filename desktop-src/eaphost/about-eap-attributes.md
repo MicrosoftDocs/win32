@@ -2,9 +2,6 @@
 title: EAP Attributes
 description: Is an EAP\_ATTRIBUTE structure that contains a predetermined type of data relating to an authentication session.
 ms.assetid: 3c54cca2-cd3b-4149-bb0e-036d490cdd3b
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

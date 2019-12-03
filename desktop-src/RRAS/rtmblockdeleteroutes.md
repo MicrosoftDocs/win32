@@ -1,5 +1,5 @@
 ---
-title: RtmBlockDeleteRoutes function
+title: RtmBlockDeleteRoutes function (Rtm.h)
 description: The RtmBlockDeleteRoutes function deletes all routes in the specified subset of routes in the table.
 ms.assetid: d191883d-da3d-4a91-92e6-4979db96f4a4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

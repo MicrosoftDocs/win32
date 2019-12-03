@@ -1,8 +1,8 @@
 ---
 Description: Represents the objects in a view and provides properties and methods used to obtain information about the contents of the view.
 ms.assetid: '3b866266-fee0-42f7-a1e0-9adb6cc2e23f'
-title: ShellFolderView object
-ms.topic: interface
+title: ShellFolderView object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

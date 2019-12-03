@@ -1,8 +1,8 @@
 ---
 Description: Uploads a printer driver to the print servers driver store so that it can be installed by calling InstallPrinterDriverFromPackage.
 ms.assetid: dd3b3a3b-8ded-44ae-85dd-e630bc62e898
-title: UploadPrinterDriverPackage function
-ms.topic: article
+title: UploadPrinterDriverPackage function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

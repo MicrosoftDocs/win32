@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine2::SetPlaybackMachine method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 181EE044-1FC4-484B-AE63-C33BC627C3B7
 api_name: 

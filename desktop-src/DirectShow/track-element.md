@@ -2,7 +2,7 @@
 Description: The track element defines a track object.
 ms.assetid: 5cc11f26-80b2-4548-af33-2fdf883e3189
 title: track Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

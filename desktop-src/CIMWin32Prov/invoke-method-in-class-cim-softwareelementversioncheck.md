@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_SoftwareElementVersionCheck class eva
 ms.assetid: 5b477945-7ad4-49e2-b9c8-4a700a45f2b6
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_SoftwareElementVersionCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

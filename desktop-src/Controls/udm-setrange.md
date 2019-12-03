@@ -1,5 +1,5 @@
 ---
-title: UDM_SETRANGE message
+title: UDM_SETRANGE message (Commctrl.h)
 description: Sets the minimum and maximum positions (range) for an up-down control.
 ms.assetid: 81875528-86cc-419a-a07c-f4f98baf1462
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

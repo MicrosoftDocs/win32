@@ -3,7 +3,7 @@ Description: The Win32\_SystemConfigurationChangeEvent&\#8194;WMI class indicate
 ms.assetid: dce1e866-e739-4f90-9016-48b20ccfb75b
 ms.tgt_platform: multiple
 title: Win32_SystemConfigurationChangeEvent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

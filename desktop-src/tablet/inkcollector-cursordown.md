@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the cursor tip contacts the digitizing tablet surface.
 ms.assetid: bf914849-ef33-4746-b2e1-c768cd1d87aa
-title: InkCollector.CursorDown event
-ms.topic: article
+title: InkCollector.CursorDown event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

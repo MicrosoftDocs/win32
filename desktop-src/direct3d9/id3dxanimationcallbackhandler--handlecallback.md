@@ -1,8 +1,8 @@
 ---
 Description: The application implements this method. This method is called when a callback occurs for an animation set in one of the tracks during a call to ID3DXAnimationController::AdvanceTime.
 ms.assetid: eb606fb0-d6b9-456d-97e1-b595306e6463
-title: ID3DXAnimationCallbackHandler::HandleCallback method
-ms.topic: article
+title: ID3DXAnimationCallbackHandler::HandleCallback method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

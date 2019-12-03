@@ -3,7 +3,7 @@ Description: The CIM\_Printer class represents the capabilities and management o
 ms.assetid: e41ff580-0202-4d3f-8d78-4705d5fb41b3
 ms.tgt_platform: multiple
 title: CIM_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

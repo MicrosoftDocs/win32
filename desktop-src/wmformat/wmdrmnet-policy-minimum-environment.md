@@ -1,5 +1,5 @@
 ---
-title: WMDRMNET_POLICY_MINIMUM_ENVIRONMENT structure
+title: WMDRMNET_POLICY_MINIMUM_ENVIRONMENT structure (Wmdrmsdk.h)
 description: The WMDRMNET\_POLICY\_MINIMUM\_ENVIRONMENT structure contains the minimum security requirements for Windows Media DRM for Network Devices.
 ms.assetid: b1bc9a8d-197e-45fe-a152-0b81add977eb
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

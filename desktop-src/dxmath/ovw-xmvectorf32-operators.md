@@ -2,7 +2,7 @@
 Description: The following operators are exposed by the XMVECTORF32 structure.
 ms.assetid: 8fd01137-ed99-4f00-a7c0-e43078c9ce6b
 title: XMVECTORF32 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

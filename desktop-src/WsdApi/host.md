@@ -2,7 +2,7 @@
 Description: Defines the ServiceID and Types elements for the service host.
 ms.assetid: 95066c04-5bdc-4c97-98b8-1da9928d9395
 title: host element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

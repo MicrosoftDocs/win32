@@ -1,5 +1,5 @@
 ---
-title: ICM_GETSTATE message
+title: ICM_GETSTATE message (Vfw.h)
 description: The ICM\_GETSTATE message queries a video compression driver to return its current configuration in a block of memory or to determine the amount of memory required to retrieve the configuration information.
 ms.assetid: 4b77e294-f3aa-45f9-a4f4-f103b83eae8d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

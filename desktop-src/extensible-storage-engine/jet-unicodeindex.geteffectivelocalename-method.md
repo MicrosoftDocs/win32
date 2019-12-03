@@ -1,11 +1,11 @@
 ---
-title: JET_UNICODEINDEX.GetEffectiveLocaleName method  (Microsoft.Isam.Esent.Interop)
+title: JET_UNICODEINDEX.GetEffectiveLocaleName method 
 TOCTitle: 'GetEffectiveLocaleName method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.GetEffectiveLocaleName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex.geteffectivelocalename(v=EXCHG.10)
 ms:contentKeyID: 55103988
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.GetEffectiveLocaleName
 dev_langs:

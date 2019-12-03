@@ -1,5 +1,5 @@
 ---
-title: SwarmStatus enumeration
+title: SwarmStatus enumeration (Deliveryoptimization.h)
 description: Defines the status of a file within the delivery optimization client.
 ms.assetid: D40ABDD3-5573-4A8D-8608-4CB0F396CCAD
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

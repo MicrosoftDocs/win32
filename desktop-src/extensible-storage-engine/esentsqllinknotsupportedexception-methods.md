@@ -1,5 +1,5 @@
 ---
-title: EsentSQLLinkNotSupportedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSQLLinkNotSupportedException methods
 TOCTitle: EsentSQLLinkNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsqllinknotsupportedexception_methods(v=EXCHG.10)

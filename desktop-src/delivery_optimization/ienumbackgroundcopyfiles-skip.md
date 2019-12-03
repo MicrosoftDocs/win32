@@ -1,5 +1,5 @@
 ---
-title: IEnumBackgroundCopyFiles Skip method
+title: IEnumBackgroundCopyFiles Skip method (Deliveryoptimization.h)
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 ms.assetid: B01D4292-6BA5-4171-928B-AB2C555E2C2A
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

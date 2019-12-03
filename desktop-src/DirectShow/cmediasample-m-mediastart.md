@@ -1,8 +1,8 @@
 ---
 Description: Media start time.
 ms.assetid: 04ae3862-00b1-4c99-b535-756067cdf4c4
-title: CMediaSample::m_MediaStart member
-ms.topic: article
+title: CMediaSample::m_MediaStart member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

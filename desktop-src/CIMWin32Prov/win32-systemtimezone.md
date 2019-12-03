@@ -3,7 +3,7 @@ Description: The Win32\_SystemTimeZone association WMI class relates a computer 
 ms.assetid: 53c74a61-c91d-4daa-933e-4cc7b9583d98
 ms.tgt_platform: multiple
 title: Win32_SystemTimeZone class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

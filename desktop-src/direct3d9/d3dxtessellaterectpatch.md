@@ -1,8 +1,8 @@
 ---
 Description: Tessellates a rectangular higher-order surface patch into a triangle mesh.
 ms.assetid: d941d994-8a13-49ff-a0b1-b21a3f84ed78
-title: D3DXTessellateRectPatch function
-ms.topic: article
+title: D3DXTessellateRectPatch function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

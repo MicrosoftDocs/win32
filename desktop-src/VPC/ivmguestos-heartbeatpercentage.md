@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS HeartbeatPercentage property
+title: IVMGuestOS HeartbeatPercentage property (VPCCOMInterfaces.h)
 description: Percentage of expected heartbeats received over the past minute.
 ms.assetid: 456dd8ae-e946-429d-98aa-5773362fdd4e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

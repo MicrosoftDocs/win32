@@ -1,8 +1,8 @@
 ---
 Description: Returns an Secure Sockets Layer protocol (SSL) session key or public ephemeral key into a serialized BLOB.
 ms.assetid: c978e6ac-a535-4625-8598-4aa16484dcad
-title: SslExportKey function
-ms.topic: article
+title: SslExportKey function (Sslprovider.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

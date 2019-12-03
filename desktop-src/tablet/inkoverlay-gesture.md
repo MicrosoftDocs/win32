@@ -1,8 +1,8 @@
 ---
 Description: Occurs when an application-specific gesture is recognized.
 ms.assetid: 11b48fbc-0c93-4c3c-b218-258028822544
-title: InkOverlay.Gesture event
-ms.topic: article
+title: InkOverlay.Gesture event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

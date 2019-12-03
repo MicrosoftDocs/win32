@@ -1,8 +1,8 @@
 ---
 Description: Stores the IUnknown pointer of the class that implements the IMFSSLCertificateManager interface.
 ms.assetid: 13e05bda-96c2-4095-a266-74185760f33a
-title: MFNETSOURCE_SSLCERTIFICATE_MANAGER property
-ms.topic: article
+title: MFNETSOURCE_SSLCERTIFICATE_MANAGER property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

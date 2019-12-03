@@ -1,8 +1,8 @@
 ---
 Description: Requests a new input sample from the Enhanced Video Renderer (EVR) filter.
 ms.assetid: f1bf32ba-ecb7-435f-aefc-f60fdd355620
-title: EC_SAMPLE_NEEDED
-ms.topic: article
+title: EC_SAMPLE_NEEDED (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

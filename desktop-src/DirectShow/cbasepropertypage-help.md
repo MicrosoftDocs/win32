@@ -1,8 +1,8 @@
 ---
 Description: The Help method invokes the property page help. This method implements the IPropertyPage::Help method.
 ms.assetid: 8fe72b2e-a9f1-435d-8eda-27056f112c6d
-title: CBasePropertyPage.Help method
-ms.topic: article
+title: CBasePropertyPage.Help method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

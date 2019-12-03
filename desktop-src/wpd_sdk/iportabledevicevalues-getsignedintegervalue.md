@@ -1,8 +1,8 @@
 ---
 Description: The GetSignedIntegerValue method retrieves a LONG value (type VT\_I4) specified by a key.
 ms.assetid: d2291a64-d0b3-4a30-a37c-2b6cd9880a11
-title: IPortableDeviceValues::GetSignedIntegerValue method
-ms.topic: article
+title: IPortableDeviceValues::GetSignedIntegerValue method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

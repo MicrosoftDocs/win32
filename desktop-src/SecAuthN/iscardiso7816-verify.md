@@ -1,8 +1,8 @@
 ---
 Description: Constructs an application protocol data unit (APDU) command that initiates the comparison (in the card) of the verification data sent from the interface device with the reference data stored in the card (for example, password).
 ms.assetid: a0837c39-d741-42eb-88b2-87c4e043e64f
-title: ISCardISO7816::Verify method
-ms.topic: article
+title: ISCardISO7816::Verify method (Scardssp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

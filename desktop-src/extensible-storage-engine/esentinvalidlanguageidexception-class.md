@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidLanguageIdException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLanguageIdException class
 TOCTitle: EsentInvalidLanguageIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlanguageidexception(v=EXCHG.10)
 ms:contentKeyID: 55107279
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException
 dev_langs:

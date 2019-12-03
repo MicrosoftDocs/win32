@@ -1,8 +1,8 @@
 ---
 Description: The Wait method blocks until the event is signaled, or until a time-out occurs.
 ms.assetid: bcc13723-a59b-4e8a-bfc8-eadb6facf116
-title: CAMEvent.Wait method
-ms.topic: article
+title: CAMEvent.Wait method (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

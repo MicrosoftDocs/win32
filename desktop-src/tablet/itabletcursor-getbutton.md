@@ -2,7 +2,7 @@
 Description: Retrieves the specified button object from a tablet stylus.
 ms.assetid: 83a26703-4501-4f43-9e86-c5c753347012
 title: ITabletCursor::GetButton method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

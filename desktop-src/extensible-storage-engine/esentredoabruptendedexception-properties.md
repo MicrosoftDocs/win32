@@ -1,5 +1,5 @@
 ---
-title: EsentRedoAbruptEndedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRedoAbruptEndedException properties
 TOCTitle: EsentRedoAbruptEndedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentredoabruptendedexception_properties(v=EXCHG.10)

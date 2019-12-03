@@ -1,8 +1,8 @@
 ---
 Description: Receives IShellWindows window registration events.
 ms.assetid: c340296d-f8eb-43a1-809d-912ea7412fe2
-title: DShellWindowsEvents object
-ms.topic: interface
+title: DShellWindowsEvents object (Exdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

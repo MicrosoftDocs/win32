@@ -1,5 +1,5 @@
 ---
-title: Pager Control Styles
+title: Pager Control Styles (CommCtrl.h)
 description: This section lists the window styles used when creating pager controls.
 ms.assetid: 619fd8cc-e231-41af-8744-a29d14f2c6f8
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

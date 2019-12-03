@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMUSHORTN2.
 ms.assetid: 86782b41-06ac-41f3-bdf8-72d125789295
 title: XMUSHORTN2 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

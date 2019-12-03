@@ -1,11 +1,11 @@
 ---
-title: EsentNoBackupException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupException constructor 
 TOCTitle: 'EsentNoBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoBackupException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupexception.esentnobackupexception(v=EXCHG.10)
 ms:contentKeyID: 55102378
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentNoBackupException.EsentNoBackupException
 dev_langs:

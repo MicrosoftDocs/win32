@@ -1,10 +1,10 @@
 ---
-title: WS_OPERATION_CONTEXT
+title: WS_OPERATION_CONTEXT (WebServices.h)
 description: An opaque type used to reference a context.
 ms.assetid: 5c9b5906-15f0-4339-a4ad-39977d28ce5b
 keywords:
 - WS_OPERATION_CONTEXT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

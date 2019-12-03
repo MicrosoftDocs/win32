@@ -1,5 +1,5 @@
 ---
-title: EsentColumnInRelationshipException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnInRelationshipException methods
 TOCTitle: EsentColumnInRelationshipException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninrelationshipexception_methods(v=EXCHG.10)

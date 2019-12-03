@@ -1,5 +1,5 @@
 ---
-title: Speech Recognition Constants
+title: Speech Recognition Constants (Ctffunc.h)
 description: The following values are used with the speech recognition text service.
 ms.assetid: ac433d15-738a-46ab-8f69-0fbfb6a8b654
 topic_type:
@@ -20,7 +20,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

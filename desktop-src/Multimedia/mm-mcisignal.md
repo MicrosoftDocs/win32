@@ -1,5 +1,5 @@
 ---
-title: MM_MCISIGNAL message
+title: MM_MCISIGNAL message (Mmsystem.h)
 description: The MM\_MCISIGNAL message is sent to a window to notify an application that an MCI device has reached a position defined in a previous signal ( MCI\_SIGNAL) command.
 ms.assetid: 12512d23-9a89-4e38-9ec5-88845766f4f6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

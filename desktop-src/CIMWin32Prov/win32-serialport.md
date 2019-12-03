@@ -3,7 +3,7 @@ Description: The Win32\_SerialPort WMI class represents a serial port on a compu
 ms.assetid: f2e5cc5a-a12b-4079-92e1-6bb62fe797a0
 ms.tgt_platform: multiple
 title: Win32_SerialPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

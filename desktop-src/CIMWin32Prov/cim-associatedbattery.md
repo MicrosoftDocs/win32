@@ -3,7 +3,7 @@ Description: The CIM\_AssociatedBattery dependency associates a battery with a l
 ms.assetid: f8d8b3d3-edc5-438a-8be6-3ea4d765085b
 ms.tgt_platform: multiple
 title: CIM_AssociatedBattery class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

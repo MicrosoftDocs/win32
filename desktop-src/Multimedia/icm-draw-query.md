@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_QUERY message
+title: ICM_DRAW_QUERY message (Vfw.h)
 description: The ICM\_DRAW\_QUERY message queries a rendering driver to determine if it can render data in a specific format. You can send this message explicitly or by using the ICDrawQuery macro.
 ms.assetid: b829a04b-c1be-47c6-96e9-a6dc6f802811
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

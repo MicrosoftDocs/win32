@@ -5,7 +5,7 @@ ms:assetid: 9192614b-20a6-40fb-906a-51fc057e7483
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269343(v=EXCHG.10)
 ms:contentKeyID: 32765632
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCreateTableColumnIndexA
 - JetCreateTableColumnIndexW

@@ -1,5 +1,5 @@
 ---
-title: DDS_HEADER_DXT10 structure
+title: DDS_HEADER_DXT10 structure (Dds.h)
 description: DDS header extension to handle resource arrays, DXGI pixel formats that don't map to the legacy Microsoft DirectDraw pixel format structures, and additional metadata.
 ms.assetid: 502d6943-8f25-446c-b990-8276f862c195
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Dds.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

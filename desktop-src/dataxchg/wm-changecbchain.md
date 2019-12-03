@@ -1,5 +1,5 @@
 ---
-title: WM_CHANGECBCHAIN message
+title: WM_CHANGECBCHAIN message (Winuser.h)
 description: Sent to the first window in the clipboard viewer chain when a window is being removed from the chain. A window receives this message through its WindowProc function.
 ms.assetid: 7be87342-87fa-4cd2-b066-0b36b7ef52f5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

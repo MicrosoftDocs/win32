@@ -1,5 +1,5 @@
 ---
-title: TTM_UPDATE message
+title: TTM_UPDATE message (Commctrl.h)
 description: Forces the current tooltip to be redrawn.
 ms.assetid: b3879cca-489f-4811-92f1-a2d61e2e09aa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 Description: Use the Count property of the SWbemNamedValueSet object to determine how many items are in the collection. This property is read-only.
 ms.assetid: 4086cf91-69cd-4bce-a6e0-f223b18cd18d
 ms.tgt_platform: multiple
-title: SWbemNamedValueSet.Count property
-ms.topic: article
+title: SWbemNamedValueSet.Count property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

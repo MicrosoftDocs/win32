@@ -3,7 +3,7 @@ Description: Represents the status of the optional features that are present on 
 ms.assetid: 3ac0c227-dfe1-4f33-b3d1-bcd1309c3635
 ms.tgt_platform: multiple
 title: Win32_OptionalFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

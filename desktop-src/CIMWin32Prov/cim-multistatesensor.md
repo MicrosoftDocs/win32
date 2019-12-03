@@ -3,7 +3,7 @@ Description: The CIM\_MultiStateSensor class represents a multi-member set of bi
 ms.assetid: ebc90a57-b1ea-4cb4-a008-68b5f2db948c
 ms.tgt_platform: multiple
 title: CIM_MultiStateSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

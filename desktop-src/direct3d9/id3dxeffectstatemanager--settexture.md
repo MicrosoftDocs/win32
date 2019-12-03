@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set a texture.
 ms.assetid: 971802f4-ea7a-4906-83b8-0cd83111716e
-title: ID3DXEffectStateManager::SetTexture method
-ms.topic: article
+title: ID3DXEffectStateManager::SetTexture method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

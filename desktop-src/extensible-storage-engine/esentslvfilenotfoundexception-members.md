@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileNotFoundException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileNotFoundException members
 TOCTitle: EsentSLVFileNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilenotfoundexception_members(v=EXCHG.10)

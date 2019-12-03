@@ -1,5 +1,5 @@
 ---
-title: WM_RASDIALEVENT message
+title: WM_RASDIALEVENT message (Ras.h)
 description: The operating system sends a WM\_RASDIALEVENT message to a window procedure when a change of state event occurs during a RAS connection process.
 ms.assetid: 4526da20-04e7-47b2-b576-8dc36c08b053
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Ras.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMBYTEN4.
 ms.assetid: f90dfcdc-689c-4d0e-9c11-06d29b134901
 title: XMBYTEN4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

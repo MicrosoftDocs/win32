@@ -1,11 +1,11 @@
 ---
-title: EsentVersion.SupportsLargeKeys property  (Microsoft.Isam.Esent.Interop)
+title: EsentVersion.SupportsLargeKeys property 
 TOCTitle: 'SupportsLargeKeys property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsLargeKeys
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion.supportslargekeys(v=EXCHG.10)
 ms:contentKeyID: 55103180
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentVersion.SupportsLargeKeys
 dev_langs:

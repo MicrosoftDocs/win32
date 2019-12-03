@@ -1,5 +1,5 @@
 ---
-title: RAS_PPP_PROJECTION_RESULT structure
+title: RAS_PPP_PROJECTION_RESULT structure (Rassapi.h)
 description: The RAS\_PPP\_PROJECTION\_RESULT structure is used to report the results of the various PPP projection operations for a port.
 ms.assetid: 061b1b51-4b6f-4127-8ee5-8a1913a2aa99
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

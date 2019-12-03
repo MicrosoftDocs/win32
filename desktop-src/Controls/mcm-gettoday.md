@@ -1,5 +1,5 @@
 ---
-title: MCM_GETTODAY message
+title: MCM_GETTODAY message (Commctrl.h)
 description: Retrieves the date information for the date specified as \ 0034;today \ 0034; for a month calendar control. You can send this message explicitly or by using the MonthCal\_GetToday macro.
 ms.assetid: a79feb57-6aa3-4c96-95f3-7018b6b8327f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

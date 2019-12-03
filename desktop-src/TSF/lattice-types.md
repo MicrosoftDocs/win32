@@ -1,5 +1,5 @@
 ---
-title: Lattice Types
+title: Lattice Types (Ctffunc.h)
 description: The following constants identify specific types of lattice properties. These values are used with the ITfLMLattice QueryType and ITfLMLattice EnumLatticeElements methods.
 ms.assetid: ce4bf11b-e7e7-4f06-b572-8ed6f0ed8d36
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Ctffunc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

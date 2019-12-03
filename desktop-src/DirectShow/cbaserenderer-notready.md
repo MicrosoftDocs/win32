@@ -1,8 +1,8 @@
 ---
 Description: The NotReady method signals that a state transition is not yet complete.
 ms.assetid: 85529a22-5343-4c22-b282-31c0e7ff0f5f
-title: CBaseRenderer.NotReady method
-ms.topic: article
+title: CBaseRenderer.NotReady method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

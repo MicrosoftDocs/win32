@@ -1,11 +1,11 @@
 ---
-title: EsentIndexTuplesNonUniqueOnlyException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesNonUniqueOnlyException constructor 
 TOCTitle: 'EsentIndexTuplesNonUniqueOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesNonUniqueOnlyException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplesnonuniqueonlyexception.esentindextuplesnonuniqueonlyexception(v=EXCHG.10)
 ms:contentKeyID: 55101859
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentIndexTuplesNonUniqueOnlyException.EsentIndexTuplesNonUniqueOnlyException
 dev_langs:

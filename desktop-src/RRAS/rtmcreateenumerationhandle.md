@@ -1,5 +1,5 @@
 ---
-title: RtmCreateEnumerationHandle function
+title: RtmCreateEnumerationHandle function (Rtm.h)
 description: The RtmCreateEnumerationHandle function returns a handle to use with RtmEnumerateGetNextRoute to scan through all routes, or a subset of routes, known to the routing table manager.
 ms.assetid: 73e3ac7d-498a-4d89-a6b5-17aaf4b17ec2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

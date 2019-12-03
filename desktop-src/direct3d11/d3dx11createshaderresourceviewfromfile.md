@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateShaderResourceViewFromFile function
+title: D3DX11CreateShaderResourceViewFromFile function (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use these DirectXTK library (runtime), CreateXXXTextureFromFile (where XXX is DDS or WIC)DirectXTex library (tools), LoadFromXXXFile (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then CreateShaderResourceView Create a shader-resource view from a file.
 ms.assetid: c6a23503-f511-49dc-a0dc-19932cf8f313
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

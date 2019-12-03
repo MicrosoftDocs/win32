@@ -2,7 +2,7 @@
 Description: Division Assignment operator.
 ms.assetid: 59dee8a1-48c5-4748-8eca-1d0939e90fe0
 title: operator /= operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

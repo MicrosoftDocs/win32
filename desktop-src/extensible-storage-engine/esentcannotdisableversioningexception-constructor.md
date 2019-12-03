@@ -1,11 +1,11 @@
 ---
-title: EsentCannotDisableVersioningException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDisableVersioningException constructor 
 TOCTitle: 'EsentCannotDisableVersioningException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdisableversioningexception.esentcannotdisableversioningexception(v=EXCHG.10)
 ms:contentKeyID: 55101236
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException.EsentCannotDisableVersioningException
 dev_langs:

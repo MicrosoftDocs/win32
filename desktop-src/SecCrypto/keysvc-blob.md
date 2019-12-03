@@ -1,8 +1,8 @@
 ---
 Description: The KEYSVC\_BLOB structure defines a key service BLOB. This structure is used by the RKeyPFXInstall function.
 ms.assetid: 255b5fab-6271-4d3f-9c56-a63278b8b104
-title: KEYSVC_BLOB structure
-ms.topic: structure
+title: KEYSVC_BLOB structure (Rkeysvcc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC VirtualMachines property
+title: IVMVirtualPC VirtualMachines property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of virtual machines.
 ms.assetid: 9e8dcd65-7cf8-4cdd-a412-62cbb96eb8ec
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

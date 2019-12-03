@@ -1,5 +1,5 @@
 ---
-title: WM_MENUSELECT message
+title: WM_MENUSELECT message (Winuser.h)
 description: Sent to a menu's owner window when the user selects a menu item.
 ms.assetid: 57684a19-dfaa-4e0c-a8ff-010533322cb0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

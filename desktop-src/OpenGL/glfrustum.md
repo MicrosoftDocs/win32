@@ -1,5 +1,5 @@
 ---
-title: glFrustum function
+title: glFrustum function (Gl.h)
 description: The glFrustum function multiplies the current matrix by a perspective matrix.
 ms.assetid: aa44c3fc-3bf6-4ef3-bb29-98e3056cdad3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

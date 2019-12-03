@@ -1,5 +1,5 @@
 ---
-title: Control Events
+title: Control Events (COM)
 description: In addition to providing properties and methods, a control also provides outgoing interfaces to notify its client of events.
 ms.assetid: e7085bc0-c087-4cc8-9c69-ba05b0923b74
 ms.topic: article

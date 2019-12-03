@@ -3,9 +3,9 @@ Description: 'The WBEMTime class subtraction operator (&\#8211;) has been overlo
 audience: developer
 ms.assetid: 0fa51aab-7ea2-4af7-bb12-1646388b0405
 ms.tgt_platform: multiple
-title: WBEMTime::operator- operators
+title: WBEMTime::operator- operators (WbemTime.h)
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # WBEMTime::operator- operators

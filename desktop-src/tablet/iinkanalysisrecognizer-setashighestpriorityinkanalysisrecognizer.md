@@ -1,8 +1,8 @@
 ---
 Description: Modifies this IInkAnalysisRecognizer to the highest priority in the IInkAnalyzer internal ordered list of recognizers.
 ms.assetid: d11e66d3-7fd4-43ec-9123-0df27e5ddd10
-title: IInkAnalysisRecognizer::SetAsHighestPriorityInkAnalysisRecognizer method
-ms.topic: article
+title: IInkAnalysisRecognizer::SetAsHighestPriorityInkAnalysisRecognizer method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

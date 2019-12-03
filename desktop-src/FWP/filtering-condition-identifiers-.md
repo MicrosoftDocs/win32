@@ -1,5 +1,5 @@
 ---
-title: Filtering Condition Identifiers
+title: Filtering Condition Identifiers (Fwpmu.h)
 description: The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a GUID.
 ms.assetid: 4f0b970a-e511-4107-8023-22a8775905b9
 topic_type:
@@ -136,7 +136,7 @@ api_location:
 - Fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

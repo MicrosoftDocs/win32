@@ -1,8 +1,8 @@
 ---
 Description: The LINECALLPRIVILEGE\_ bit-flag constants describe the kinds of access rights or privileges an application with a call handle may have to the corresponding call.
 ms.assetid: a58b7e9e-696e-4421-9b31-1ba8afe6e03b
-title: LINECALLPRIVILEGE_ Constants
-ms.topic: article
+title: LINECALLPRIVILEGE_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

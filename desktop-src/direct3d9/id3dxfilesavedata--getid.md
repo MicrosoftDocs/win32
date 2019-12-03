@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the GUID of this ID3DXFileSaveData file data node.
 ms.assetid: 79413eb4-4889-4148-b1a1-58a0b780403c
-title: ID3DXFileSaveData::GetId method
-ms.topic: article
+title: ID3DXFileSaveData::GetId method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

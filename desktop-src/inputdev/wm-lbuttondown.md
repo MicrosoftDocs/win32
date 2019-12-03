@@ -1,5 +1,5 @@
 ---
-title: WM_LBUTTONDOWN message
+title: WM_LBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the left mouse button while the cursor is in the client area of a window.
 ms.assetid: 2e43720a-98e6-407a-9430-34c288c3da51
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

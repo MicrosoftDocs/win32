@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the width of the texture, in pixels.
 ms.assetid: 32a69449-327b-4f12-b3ff-fe9caeab783b
-title: ID3DXPRTCompBuffer::GetWidth method
-ms.topic: article
+title: ID3DXPRTCompBuffer::GetWidth method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

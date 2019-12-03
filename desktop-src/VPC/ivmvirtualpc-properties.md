@@ -2,7 +2,7 @@
 title: IVMVirtualPC Properties
 description: The IVMVirtualPC interface exposes the following properties.
 ms.assetid: 73029609-A520-4C41-8C37-A6E9EC4EF6B6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

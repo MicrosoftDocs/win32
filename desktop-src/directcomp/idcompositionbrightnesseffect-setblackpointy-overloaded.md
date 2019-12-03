@@ -1,5 +1,5 @@
 ---
-title: idcompositionbrightnesseffect SetBlackPointY methods
+title: idcompositionbrightnesseffect SetBlackPointY methods (Dcomp.h)
 description: Sets the y value of the black point.
 ms.assetid: 8d0aa548-90ad-4025-2e7a-8e5b07134665
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionbrightnesseffect::SetBlackPointY methods

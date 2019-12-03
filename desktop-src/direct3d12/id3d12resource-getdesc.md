@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 - d3d12.h

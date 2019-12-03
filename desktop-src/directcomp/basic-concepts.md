@@ -1,5 +1,5 @@
 ---
-title: Basic concepts
+title: Basic concepts (DirectComposition)
 description: This topic provides an overview of the basic concepts of Microsoft DirectComposition.
 ms.assetid: F442BDCA-C913-4438-BFFA-D3F28B68EE85
 keywords:

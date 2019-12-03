@@ -2,9 +2,6 @@
 title: EAPHost Peer Method Run-Time Functions
 description: EAPHost Peer Method Run-Time Functions
 ms.assetid: fdfa595d-acf7-4489-88a8-113093567fe5
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

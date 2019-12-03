@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectTechnique IsValid method
+title: ID3DX11EffectTechnique IsValid method (D3dx11effect.h)
 description: Test a technique to see if it contains valid syntax.
 ms.assetid: 599b191b-6307-4d36-b4e4-15a1ac36c65e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

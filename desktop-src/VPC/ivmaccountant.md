@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant interface
+title: IVMAccountant interface (VPCCOMInterfaces.h)
 description: Provides access to accounting-related information for a virtual machine.
 ms.assetid: 047fa4c9-cb2e-4830-bab8-0513247eff9b
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

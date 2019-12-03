@@ -1,8 +1,8 @@
 ---
 Description: Sets a 4D vector.
 ms.assetid: d5849a8b-b372-4ad0-8773-8c9c4bac3799
-title: ID3DXConstantTable::SetVector method
-ms.topic: article
+title: ID3DXConstantTable::SetVector method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

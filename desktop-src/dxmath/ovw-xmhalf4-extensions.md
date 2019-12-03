@@ -2,7 +2,7 @@
 Description: XMHALF4 describes 4D vector consisting of four half-precision (16bit) floating-point values.
 ms.assetid: 2bd8d651-e60e-409c-9257-5b30e212372e
 title: XMHALF4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

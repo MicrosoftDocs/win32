@@ -1,8 +1,8 @@
 ---
 Description: Retrieves system information.
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
-title: IShellDispatch2.GetSystemInformation method
-ms.topic: article
+title: IShellDispatch2.GetSystemInformation method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

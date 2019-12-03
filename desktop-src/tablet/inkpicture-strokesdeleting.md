@@ -1,8 +1,8 @@
 ---
 Description: Occurs before IInkStrokeDisp objects are deleted from the Ink property.
 ms.assetid: 747e0fdf-c68b-4805-bdc8-aa05e95ec0f7
-title: InkPicture.StrokesDeleting event
-ms.topic: article
+title: InkPicture.StrokesDeleting event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

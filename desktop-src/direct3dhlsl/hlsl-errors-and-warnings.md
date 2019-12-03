@@ -1,5 +1,5 @@
 ---
-title: HLSL errors and warnings
+title: HLSL errors and warnings (CompErrors.h)
 description: Error and warning codes that a shader can return.
 ms.assetid: ABAB9E0E-E4DA-4A77-83C3-8D92C8522647
 topic_type:
@@ -486,7 +486,7 @@ api_location:
 - CompErrors.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

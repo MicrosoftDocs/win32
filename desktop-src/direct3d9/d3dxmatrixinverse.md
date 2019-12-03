@@ -1,8 +1,8 @@
 ---
 Description: Calculates the inverse of a matrix.
 ms.assetid: b8cad5c5-caa5-4426-b045-1770f8806b6b
-title: D3DXMatrixInverse function
-ms.topic: article
+title: D3DXMatrixInverse function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: Registering Application Dependency
+title: Registering Application Dependency (Windows Media Format 11 SDK)
 description: Registering Application Dependency
 ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:

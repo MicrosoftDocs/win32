@@ -1,8 +1,8 @@
 ---
 Description: Indicates what is checked when a digital signature is verified.
 ms.assetid: e6259c3f-caed-42f4-832c-250365caa0d7
-title: CAPICOM_SIGNED_DATA_VERIFY_FLAG enumeration
-ms.topic: enumeration
+title: CAPICOM_SIGNED_DATA_VERIFY_FLAG enumeration (Capicom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

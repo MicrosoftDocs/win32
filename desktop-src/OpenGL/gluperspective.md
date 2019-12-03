@@ -1,5 +1,5 @@
 ---
-title: gluPerspective function
+title: gluPerspective function (Glu.h)
 description: The gluPerspective function sets up a perspective projection matrix.
 ms.assetid: 125e2828-a2d7-4c6c-9370-eb21a581ced8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

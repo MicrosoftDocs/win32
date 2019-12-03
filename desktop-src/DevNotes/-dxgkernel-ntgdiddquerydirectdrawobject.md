@@ -1,8 +1,8 @@
 ---
 Description: Queries a previously created kernel-mode representation of a Microsoft DirectDraw object for its capabilities.
 ms.assetid: ec07c7ef-4c57-4ed9-849b-f30692cc3181
-title: NtGdiDdQueryDirectDrawObject function
-ms.topic: article
+title: NtGdiDdQueryDirectDrawObject function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

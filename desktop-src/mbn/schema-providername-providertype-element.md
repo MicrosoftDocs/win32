@@ -2,7 +2,7 @@
 Description: Contains the name of the cellular network.
 ms.assetid: 4169babb-7616-468a-93f0-de25cce0c88b
 title: ProviderName (providerType) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

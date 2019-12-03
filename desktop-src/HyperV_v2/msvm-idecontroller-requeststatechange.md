@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: a884f3dc-21b1-4284-bb6c-75393bbda816
 title: RequestStateChange method of the Msvm_IDEController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

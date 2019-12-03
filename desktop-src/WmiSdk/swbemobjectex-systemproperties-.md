@@ -2,8 +2,8 @@
 Description: Returns an SWbemPropertySet object that contains the collection of WMI System Properties that apply to the object.
 ms.assetid: e95c325a-8851-4f55-a99d-4346d064e308
 ms.tgt_platform: multiple
-title: SWbemObjectEx.SystemProperties_ property
-ms.topic: article
+title: SWbemObjectEx.SystemProperties_ property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

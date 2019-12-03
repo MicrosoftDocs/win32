@@ -2,10 +2,10 @@
 title: if bool - ps
 description: Start of an if block.
 ms.assetid: cff53072-1c73-4cf8-9ecd-11032a9c4bbb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

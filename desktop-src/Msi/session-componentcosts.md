@@ -2,7 +2,7 @@
 Description: The ComponentCosts property of the Session object returns a RecordList object enumerating the disk space per drive required to install a component.
 ms.assetid: 9b1355f1-cc99-49d9-8187-07fba4804d1f
 title: Session.ComponentCosts property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

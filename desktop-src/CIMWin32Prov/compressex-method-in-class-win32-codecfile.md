@@ -3,7 +3,7 @@ Description: Compresses the logical codec file (or directory) specified in the o
 ms.assetid: e1ecf0de-3b81-443e-9936-326d7d2d9210
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

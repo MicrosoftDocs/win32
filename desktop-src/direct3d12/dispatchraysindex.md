@@ -3,7 +3,7 @@ Description: The current x and y location within the width and height obtained w
 ms.assetid: 
 title: DispatchRaysIndex
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

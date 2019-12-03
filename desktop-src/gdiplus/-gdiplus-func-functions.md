@@ -1,12 +1,12 @@
 ---
+title: GDI+ functions
 Description: 'Windows GDI+ provides the following functions:'
 ms.assetid: b03443eb-4d7c-41b7-893e-8dff2c56ddf9
-title: Functions
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# GDI+ functions
 
 Windows GDI+ provides the following functions:
 

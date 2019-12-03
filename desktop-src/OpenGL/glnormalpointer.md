@@ -1,5 +1,5 @@
 ---
-title: glNormalPointer function
+title: glNormalPointer function (Gl.h)
 description: The glNormalPointer function defines an array of normals.
 ms.assetid: 6ffb0522-87cc-4be1-a5b1-f6fd30e04b43
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

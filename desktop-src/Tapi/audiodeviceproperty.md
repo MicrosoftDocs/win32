@@ -1,8 +1,8 @@
 ---
 Description: The AudioDeviceProperty enum is used by the ITAudioDeviceControl::GetRange, ITAudioDeviceControl::Get, and ITAudioDeviceControl::Set methods to indicate the property being addressed.
 ms.assetid: 0ed9b75e-3c79-4e41-9883-63b85ebfae06
-title: AudioDeviceProperty enumeration
-ms.topic: enumeration
+title: AudioDeviceProperty enumeration (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

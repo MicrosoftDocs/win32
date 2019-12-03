@@ -1,5 +1,5 @@
 ---
-title: JET_UNICODEINDEX methods (Microsoft.Isam.Esent.Interop)
+title: JET_UNICODEINDEX methods
 TOCTitle: JET_UNICODEINDEX methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex_methods(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC Version property
+title: IVMVirtualPC Version property (VPCCOMInterfaces.h)
 description: Retrieves the version of this instance of Windows Virtual PC.
 ms.assetid: efcd5e71-8752-45a2-8138-4bc214762f39
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

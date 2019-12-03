@@ -1,11 +1,11 @@
 ---
-title: RenameColumnGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: RenameColumnGrbit enumeration
 TOCTitle: RenameColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.RenameColumnGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.renamecolumngrbit(v=EXCHG.10)
 ms:contentKeyID: 39511075
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.RenameColumnGrbit
 - Microsoft.Isam.Esent.Interop.RenameColumnGrbit.None

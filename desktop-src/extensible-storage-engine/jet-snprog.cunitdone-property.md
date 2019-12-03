@@ -1,11 +1,11 @@
 ---
-title: JET_SNPROG.cunitDone property  (Microsoft.Isam.Esent.Interop)
+title: JET_SNPROG.cunitDone property 
 TOCTitle: 'cunitDone property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SNPROG.cunitDone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snprog.cunitdone(v=EXCHG.10)
 ms:contentKeyID: 55103914
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_SNPROG.cunitDone
 dev_langs:

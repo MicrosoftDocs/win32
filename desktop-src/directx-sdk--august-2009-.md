@@ -4,7 +4,6 @@ ms.assetid: d8765da9-e7cf-47e8-8bc3-4b29162da41b
 title: Where is the DirectX SDK?
 ms.topic: article
 ms.date: 05/31/2018
-ms.technology: graphics-gaming
 ---
 
 # Where is the DirectX SDK?

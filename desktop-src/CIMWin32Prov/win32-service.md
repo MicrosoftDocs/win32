@@ -3,7 +3,7 @@ Description: Represents a service on a computer system running Windows.
 ms.assetid: 713402d3-ee73-4a6c-afb9-ad8033a4c580
 ms.tgt_platform: multiple
 title: Win32_Service class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

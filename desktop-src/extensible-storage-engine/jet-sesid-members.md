@@ -1,5 +1,5 @@
 ---
-title: JET_SESID members (Microsoft.Isam.Esent.Interop)
+title: JET_SESID members
 TOCTitle: JET_SESID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SESID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_sesid_members(v=EXCHG.10)

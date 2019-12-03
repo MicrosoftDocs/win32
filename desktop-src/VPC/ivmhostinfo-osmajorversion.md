@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo OSMajorVersion property
+title: IVMHostInfo OSMajorVersion property (VPCCOMInterfaces.h)
 description: Retrieves the major version of the operating system running on the host machine.
 ms.assetid: d0b62d2d-532f-45c7-8622-67176b9b4a8f
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

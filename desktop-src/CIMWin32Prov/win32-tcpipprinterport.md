@@ -3,7 +3,7 @@ Description: The Win32\_TCPIPPrinterPort&\#32;WMI class represents a TCP/IP serv
 ms.assetid: b1be18b6-47de-461c-a90b-c7e0537130ef
 ms.tgt_platform: multiple
 title: Win32_TCPIPPrinterPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Sets texel barycentric coordinates.
 ms.assetid: 6c7c74aa-71a3-45aa-9b18-6409fbd63bda
-title: ID3DXTextureGutterHelper::SetBaryMap method
-ms.topic: article
+title: ID3DXTextureGutterHelper::SetBaryMap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

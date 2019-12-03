@@ -1,11 +1,11 @@
 ---
-title: EsentTaskDroppedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTaskDroppedException constructor 
 TOCTitle: 'EsentTaskDroppedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttaskdroppedexception.esenttaskdroppedexception(v=EXCHG.10)
 ms:contentKeyID: 55103031
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentTaskDroppedException.EsentTaskDroppedException
 dev_langs:

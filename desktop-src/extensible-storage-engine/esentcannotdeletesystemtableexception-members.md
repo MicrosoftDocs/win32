@@ -1,5 +1,5 @@
 ---
-title: EsentCannotDeleteSystemTableException members (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDeleteSystemTableException members
 TOCTitle: EsentCannotDeleteSystemTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteSystemTableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdeletesystemtableexception_members(v=EXCHG.10)

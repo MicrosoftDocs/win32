@@ -1,8 +1,8 @@
 ---
 Description: Create a UV atlas for a mesh.
 ms.assetid: 70256990-b177-451e-b42a-84799fdc2a17
-title: D3DXUVAtlasCreate function
-ms.topic: article
+title: D3DXUVAtlasCreate function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

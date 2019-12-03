@@ -1,8 +1,8 @@
 ---
 Description: Error codes that can be returned by a DXGI function.
 ms.assetid: 9aa7dd65-6bf9-4731-8085-a9eab4224cdd
-title: DXGI_ERROR
-ms.topic: article
+title: DXGI_ERROR (Winerror.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

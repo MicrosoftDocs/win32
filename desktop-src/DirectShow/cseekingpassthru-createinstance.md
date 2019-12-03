@@ -1,8 +1,8 @@
 ---
 Description: The CreateInstance method creates an instance of the object. This method supports creation of the object through a class factory. For more information, see CFactoryTemplate.
 ms.assetid: 88dfa933-6fa1-4b57-8b0d-579233fa960c
-title: CSeekingPassThru.CreateInstance method
-ms.topic: article
+title: CSeekingPassThru.CreateInstance method (Seekpt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

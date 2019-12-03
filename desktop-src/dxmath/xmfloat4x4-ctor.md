@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMFLOAT4X4.
 ms.assetid: 943d7238-57e0-4908-bc58-bf434f2fbde0
 title: XMFLOAT4X4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

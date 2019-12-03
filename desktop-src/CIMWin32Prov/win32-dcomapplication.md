@@ -3,7 +3,7 @@ Description: The Win32\_DCOMApplication WMI class represents the properties of a
 ms.assetid: 11856834-6774-4262-bac4-e0265d4ba7e3
 ms.tgt_platform: multiple
 title: Win32_DCOMApplication class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

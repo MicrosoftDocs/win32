@@ -1,5 +1,5 @@
 ---
-title: EM_CANUNDO message
+title: EM_CANUNDO message (Winuser.h)
 description: Determines whether there are any actions in an edit control's undo queue. You can send this message to either an edit control or a rich edit control.
 ms.assetid: ae7ff372-b1f8-4ab7-9a7e-450aed3e0bc5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

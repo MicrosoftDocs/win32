@@ -2,7 +2,7 @@
 Description: Describes the capabilities of the associated Msvm\_MetricService instance.
 ms.assetid: 4E24D675-8265-4B5E-9551-550510B138FE
 title: Msvm_MetricServiceCapabilities class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

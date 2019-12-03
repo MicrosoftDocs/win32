@@ -10,7 +10,7 @@ api_name:
 - ScheduleByMonth
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -85,7 +85,7 @@ The following XML defines a monthly calendar trigger that starts a task ( at 8:0
             <October/>
             <November/>
             <December/>
-        <Months>
+        </Months>
     </ScheduleByMonth>
 </CalendarTrigger>
 ```

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETZOOM message
+title: MCIWNDM_GETZOOM message (Vfw.h)
 description: The MCIWNDM\_GETZOOM message retrieves the current zoom value used by an MCI device. You can send this message explicitly or by using the MCIWndGetZoom macro.
 ms.assetid: 92db8df2-515a-4616-a0f5-245d466ba379
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

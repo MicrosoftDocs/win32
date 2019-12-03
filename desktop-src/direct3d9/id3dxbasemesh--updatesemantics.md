@@ -1,8 +1,8 @@
 ---
 Description: This method allows the user to change the mesh declaration without changing the data layout of the vertex buffer. The call is valid only if the old and new declaration formats have the same vertex size.
 ms.assetid: ed2ad479-e0f7-4580-a20a-d3649759876a
-title: ID3DXBaseMesh::UpdateSemantics method
-ms.topic: article
+title: ID3DXBaseMesh::UpdateSemantics method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

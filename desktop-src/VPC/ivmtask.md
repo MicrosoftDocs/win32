@@ -1,5 +1,5 @@
 ---
-title: IVMTask interface
+title: IVMTask interface (VPCCOMInterfaces.h)
 description: Use the IVMTask interface to monitor and control asynchronous tasks for various COM methods.
 ms.assetid: 9b593444-80f5-43e9-9b95-1a2150c66efd
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

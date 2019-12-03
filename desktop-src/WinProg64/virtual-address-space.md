@@ -1,5 +1,5 @@
 ---
-title: Virtual Address Space
+title: Virtual Address Space (Programming Guide for 64-bit Windows)
 description: By default, 64-bit Microsoft Windows-based applications have a user-mode address space of several terabytes.
 ms.assetid: c5c4af39-727e-46e1-821e-8342c555bf4c
 keywords:

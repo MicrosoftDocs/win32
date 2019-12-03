@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the index of the mesh face to which each texel belongs.
 ms.assetid: 3eb3461c-4e16-4c89-9ca9-fc9c6b5638c7
-title: ID3DXTextureGutterHelper::GetFaceMap method
-ms.topic: article
+title: ID3DXTextureGutterHelper::GetFaceMap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Undoable property
+title: IVMVirtualMachine Undoable property (VPCCOMInterfaces.h)
 description: Determines whether undo drives are enabled for hard disks connected to the VM.
 ms.assetid: 4f591360-1229-46ae-9925-3a3d02ab3202
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

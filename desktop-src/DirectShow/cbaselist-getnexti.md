@@ -1,8 +1,8 @@
 ---
 Description: The GetNextI method retrieves the item at the specified position, and advances the position.
 ms.assetid: 3ec217ec-b0f9-4ff4-bdb7-ac204df99010
-title: CBaseList.GetNextI method
-ms.topic: article
+title: CBaseList.GetNextI method (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

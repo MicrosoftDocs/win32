@@ -1,5 +1,5 @@
 ---
-title: TDM_CLICK_RADIO_BUTTON message
+title: TDM_CLICK_RADIO_BUTTON message (Commctrl.h)
 description: Simulates the action of a radio button click in a task dialog.
 ms.assetid: ad1616fc-f64d-4575-8bd1-7ce63185d725
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TTM_GETTITLE message
+title: TTM_GETTITLE message (Commctrl.h)
 description: Retrieve information concerning the title of a tooltip control.
 ms.assetid: d8992dd1-1610-44e8-8c0f-8ae1ac4b5898
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

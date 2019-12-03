@@ -1,5 +1,5 @@
 ---
-title: MCI_LOAD_PARMS structure
+title: MCI_LOAD_PARMS structure (Mmsystem.h)
 description: The MCI\_LOAD\_PARMS structure contains the filename to load for the MCI\_LOAD command.
 ms.assetid: 371d11cc-44db-496b-b51a-66d7b919b794
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

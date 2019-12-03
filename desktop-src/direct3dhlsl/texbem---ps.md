@@ -2,10 +2,10 @@
 title: texbem - ps
 description: Apply a fake bump environment-map transform. This is accomplished by modifying the texture address data of the destination register, using address perturbation data (du,dv), and a 2D bump environment matrix.
 ms.assetid: 8e773f4a-c7a2-4caf-973f-8f50dccc9c04
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

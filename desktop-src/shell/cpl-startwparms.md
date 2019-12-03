@@ -1,7 +1,7 @@
 ---
 Description: Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.
-title: CPL_STARTWPARMS message
-ms.topic: article
+title: CPL_STARTWPARMS message (Cpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 04ac5117-39c9-4d3f-b32d-8f8d2b515be1
 api_name: 

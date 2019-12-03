@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNBASE.cbMax property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNBASE.cbMax property 
 TOCTitle: 'cbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.cbMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase.cbmax(v=EXCHG.10)
 ms:contentKeyID: 55103464
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.cbMax
 dev_langs:

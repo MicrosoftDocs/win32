@@ -1,8 +1,8 @@
 ---
 Description: Create an asynchronous-resource loader.
 ms.assetid: 1b3eb21c-4ba6-4910-b2f0-2ffa4ae50e47
-title: D3DX10CreateAsyncResourceLoader function
-ms.topic: article
+title: D3DX10CreateAsyncResourceLoader function (D3DX10Async.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

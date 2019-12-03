@@ -14,7 +14,7 @@ api_location:
 - Imapi2fs.idl
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

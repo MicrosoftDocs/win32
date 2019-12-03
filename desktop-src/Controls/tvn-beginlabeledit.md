@@ -1,5 +1,5 @@
 ---
-title: TVN_BEGINLABELEDIT notification code
+title: TVN_BEGINLABELEDIT notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window about the start of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 67ed1f1f-7ccc-4e84-9540-4a46f6cd3a44
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

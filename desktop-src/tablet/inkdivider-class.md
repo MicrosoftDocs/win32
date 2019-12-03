@@ -1,8 +1,8 @@
 ---
 Description: Represents the ability to analyze the layout of a collection of strokes and divide them into text and graphics.
 ms.assetid: 2c8e67fb-1032-4fcc-b419-82bae978daf8
-title: InkDivider class
-ms.topic: interface
+title: InkDivider class (Msinkaut15.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Represents an allocation request for a static or dynamic switch port, or represents the active configuration of a currently allocated static or dynamic switch port.
 ms.assetid: ef70b72f-75a0-448e-a648-6a28c12f0da1
 title: Msvm_EthernetPortAllocationSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

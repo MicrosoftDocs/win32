@@ -1,5 +1,5 @@
 ---
-title: EM_GETREDONAME message
+title: EM_GETREDONAME message (Richedit.h)
 description: Retrieves the type of the next action, if any, in the rich edit control's redo queue.
 ms.assetid: 8649236f-32dc-45d3-847e-c9f65ffba44c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

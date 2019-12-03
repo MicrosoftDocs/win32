@@ -1,21 +1,14 @@
 ---
+title: Flip model, dirty rectangles, scrolled areas
 Description: DXGI 1.2 supports a new flip-model swap chain, dirty rectangles, and scrolled areas. We explain the benefits of using the new flip-model swap chain and of optimizing presentation by specifying dirty rectangles and scrolled areas.
 ms.assetid: 22236FBD-E881-49B5-8AE9-96FB526DFEF8
-title: Enhancing presentation with the flip model, dirty rectangles, and scrolled areas
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enhancing presentation with the flip model, dirty rectangles, and scrolled areas
+# Flip model, dirty rectangles, scrolled areas
 
 DXGI 1.2 supports a new flip-model swap chain, dirty rectangles, and scrolled areas. We explain the benefits of using the new flip-model swap chain and of optimizing presentation by specifying dirty rectangles and scrolled areas.
-
--   [DXGI flip-model presentation](#dxgi-flip-model-presentation)
--   [Using dirty rectangles and the scroll rectangle in swap chain presentation](#using-dirty-rectangles-and-the-scroll-rectangle-in-swap-chain-presentation)
-    -   [Sample 2-buffer flip-model swap chain with dirty rectangles and scroll rectangle](#sample-2-buffer-flip-model-swap-chain-with-dirty-rectangles-and-scroll-rectangle)
-    -   [Tracking dirty rectangles and scroll rectangles across multiple frames](#tracking-dirty-rectangles-and-scroll-rectangles-across-multiple-frames)
-    -   [Bitblt model swap chain with dirty rectangles](#bitblt-model-swap-chain-with-dirty-rectangles)
--   [Related topics](#related-topics)
 
 ## DXGI flip-model presentation
 
@@ -86,7 +79,6 @@ In the simplest case, when you update a single dirty rectangle per frame, the di
 
 In this code snippet, a call to [**IntersectRect**](https://msdn.microsoft.com/en-us/library/Dd145001(v=VS.85).aspx) returns the intersection of two dirty rectangles in another [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) called dirtyRectCopy. After the code snippet determines that the two dirty rectangles intersect, it calls the [**ID3D11DeviceContext1::CopySubresourceRegion1**](https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx) method to copy the region of intersection into the current frame.
 
-
 ```
 RECT dirtyRectPrev, dirtyRectCurrent, dirtyRectCopy;
  
@@ -115,16 +107,13 @@ if (IntersectRect( &dirtyRectCopy, &dirtyRectPrev, &dirtyRectCurrent ))
 // Render additional content to the current pBackbuffer and call Present1.
 ```
 
-
-
-If you use this code snippet in an app, the app will then be ready to call [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) to update the current frame with the current dirty rectangle.
+If you use this code snippet in your application, the app will then be ready to call [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) to update the current frame with the current dirty rectangle.
 
 ### Tracking intersections between N dirty rectangles
 
 If you specify multiple dirty rectangles, which can include a dirty rectangle for the newly revealed scroll line, per frame, you need to verify and track any overlaps that might occur between all the dirty rectangles of the previous frame and all the dirty rectangles of the current frame. To calculate the intersections between the dirty rectangles of the previous frame and the dirty rectangles of the current frame, you can group the dirty rectangles into regions.
 
 In this code snippet, we call the GDI [**SetRectRgn**](https://msdn.microsoft.com/en-us/library/Dd145087(v=VS.85).aspx) function to convert each dirty rectangle into a rectangular region and then we call the GDI [**CombineRgn**](https://msdn.microsoft.com/en-us/library/Dd183465(v=VS.85).aspx) function to combine all the dirty rectangular regions into a group.
-
 
 ```
 HRGN hDirtyRgnPrev, hDirtyRgnCurrent, hRectRgn; // Handles to regions 
@@ -156,13 +145,9 @@ for (int i = 1; i<N; i++)
                         );
    // Handle the error that CombineRgn returns for iReturn.
 }
-
 ```
 
-
-
 You can now use the GDI [**CombineRgn**](https://msdn.microsoft.com/en-us/library/Dd183465(v=VS.85).aspx) function to determine the intersection between the dirty region of the previous frame and the dirty region of the current frame. After you obtain the intersecting region, call the GDI [**GetRegionData**](https://msdn.microsoft.com/en-us/library/Dd144920(v=VS.85).aspx) function to obtain each individual rectangle from the intersecting region and then call the [**ID3D11DeviceContext1::CopySubresourceRegion1**](https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx) method to copy each intersecting rectangle into the current back buffer. The next code snippet shows how to use these GDI and Direct3D functions.
-
 
 ```
 HRGN hIntersectRgn;
@@ -218,10 +203,7 @@ if (bRegionsIntersect)
               delete [] pMem;
        }
 }
-
 ```
-
-
 
 ### Bitblt model swap chain with dirty rectangles
 
@@ -229,14 +211,4 @@ You can use dirty rectangles with DXGI swap chains that run in bitblt model (set
 
 ## Related topics
 
-<dl> <dt>
-
 [DXGI 1.2 Improvements](dxgi-1-2-improvements.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

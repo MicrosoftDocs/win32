@@ -1,8 +1,8 @@
 ---
 Description: Reads data from an open file.
 ms.assetid: 7EA2FE38-20DA-43E1-A764-66A81725D1EA
-title: NtReadFile function
-ms.topic: article
+title: NtReadFile function (Wdm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Initiates the client side, outbound [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) from a credential handle by using the Digest [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: 4b482dcc-3878-4bc6-85e4-229a1726cecc
-title: InitializeSecurityContext (Digest) function
-ms.topic: article
+title: InitializeSecurityContext (Digest) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

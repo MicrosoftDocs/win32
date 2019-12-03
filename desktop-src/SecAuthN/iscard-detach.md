@@ -1,8 +1,8 @@
 ---
 Description: Closes the open connection to the smart card.
 ms.assetid: 7d768945-8d5d-4d29-b5bc-1b2ac5b0e114
-title: ISCard::Detach method
-ms.topic: article
+title: ISCard::Detach method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

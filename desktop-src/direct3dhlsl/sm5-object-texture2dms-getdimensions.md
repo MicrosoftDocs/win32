@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: Texture2DMS::GetDimensions function
 description: Returns the dimensions of the resource.
 ms.assetid: badf4127-2498-4c2e-acc7-20507488fc6b
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

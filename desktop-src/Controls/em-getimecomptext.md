@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMECOMPTEXT message
+title: EM_GETIMECOMPTEXT message (Richedit.h)
 description: Retrieves the Input Method Editor (IME) composition text.
 ms.assetid: 1516305c-5f87-4ae0-97db-8709c71abacc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

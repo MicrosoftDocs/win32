@@ -1,8 +1,8 @@
 ---
 Description: The AddForm function adds a form to the list of available forms that can be selected for the specified printer.
 ms.assetid: 17b59019-f93a-4b57-86fb-91c61aecbac4
-title: AddForm function
-ms.topic: article
+title: AddForm function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,11 +1,11 @@
 ---
-title: JET_LGPOS.lGeneration property  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.lGeneration property 
 TOCTitle: 'lGeneration property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.lGeneration
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.lgeneration(v=EXCHG.10)
 ms:contentKeyID: 39511130
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_LGPOS.lGeneration
 dev_langs:

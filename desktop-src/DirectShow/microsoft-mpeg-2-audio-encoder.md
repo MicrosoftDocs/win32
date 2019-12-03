@@ -1,8 +1,8 @@
 ---
 Description: The Microsoft MPEG-2 Audio Encoder filter encodes MPEG-1 audio layers I and II, including support for the MPEG-2 Low Sampling Frequency (LSF) extensions.
 ms.assetid: a36e838b-8b11-4851-9dd2-efd9fe070770
-title: Microsoft MPEG-2 Audio Encoder
-ms.topic: article
+title: Microsoft MPEG-2 Audio Encoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

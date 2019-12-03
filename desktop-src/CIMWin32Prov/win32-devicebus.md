@@ -3,7 +3,7 @@ Description: The Win32\_DeviceBus association WMI class relates a system bus and
 ms.assetid: 2d7d83a5-c058-40c0-aab3-7700f4067a16
 ms.tgt_platform: multiple
 title: Win32_DeviceBus class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Retrieves the attribute data for the specified file.
 ms.assetid: 899b4af3-8185-4ce5-8e81-05ec3a446e42
 title: SdbGetFileAttributes function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_PhysicalMemoryArray&\#160;WMI class represents details a
 ms.assetid: 6b553230-e1fc-46e6-b13a-02fbbd34034d
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemoryArray class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

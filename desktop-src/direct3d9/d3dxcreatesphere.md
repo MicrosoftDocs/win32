@@ -1,8 +1,8 @@
 ---
 Description: Uses a left-handed coordinate system to create a mesh containing a sphere.
 ms.assetid: d3198805-9435-4849-892d-ec98dc2221d2
-title: D3DXCreateSphere function
-ms.topic: article
+title: D3DXCreateSphere function (D3dx9shape.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

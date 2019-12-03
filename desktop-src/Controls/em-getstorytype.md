@@ -1,5 +1,5 @@
 ---
-title: EM_GETSTORYTYPE message
+title: EM_GETSTORYTYPE message (Richedit.h)
 description: Gets the story type.
 ms.assetid: 06D87AA1-5AA3-4235-AC1D-045CE9975384
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

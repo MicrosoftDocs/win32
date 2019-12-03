@@ -1,12 +1,12 @@
 ---
+title: Categorizing layered service providers and apps
 Description: Winsock 2 accommodates layered protocols.
 ms.assetid: 1c5efd2e-1b42-4c20-a4da-b81a5fc4243c
-title: Categorizing Layered Service Providers and Applications
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Categorizing Layered Service Providers and Applications
+# Categorizing layered service providers and apps
 
 > [!Note]  
 > Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/en-us/library/Aa366510(v=VS.85).aspx).

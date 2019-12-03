@@ -1,5 +1,5 @@
 ---
-title: LVM_ENSUREVISIBLE message
+title: LVM_ENSUREVISIBLE message (Commctrl.h)
 description: Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can send this message explicitly or by using the ListView\_EnsureVisible macro.
 ms.assetid: 3564b6e6-b8b6-401b-85bc-8bd6261fc054
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

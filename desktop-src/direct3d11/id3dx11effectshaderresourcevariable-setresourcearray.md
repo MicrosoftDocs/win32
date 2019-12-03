@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderResourceVariable SetResourceArray method
+title: ID3DX11EffectShaderResourceVariable SetResourceArray method (D3dx11effect.h)
 description: Set an array of shader resources.
 ms.assetid: b9597878-01af-42f3-9cc6-2ce1af4f08f6
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

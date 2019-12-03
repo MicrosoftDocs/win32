@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSnapIdException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSnapIdException properties
 TOCTitle: EsentOSSnapshotInvalidSnapIdException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsnapidexception_properties(v=EXCHG.10)

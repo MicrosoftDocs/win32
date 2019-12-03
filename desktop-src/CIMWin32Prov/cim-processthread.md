@@ -3,7 +3,7 @@ Description: The CIM\_ProcessThread class represents a link between a process an
 ms.assetid: e71543c5-d9b3-4f98-93a6-08f977a26305
 ms.tgt_platform: multiple
 title: CIM_ProcessThread class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

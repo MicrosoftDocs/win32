@@ -1,8 +1,8 @@
 ---
 Description: Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 ms.assetid: 2ee738c2-d56c-4a50-94b8-b7180918aa8c
-title: D3DAES_CTR_IV structure
-ms.topic: structure
+title: D3DAES_CTR_IV structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_SupportAccess class defines how to obtain assistance for a
 ms.assetid: f42a793f-d71e-498e-9c6b-581aa029a0dd
 ms.tgt_platform: multiple
 title: CIM_SupportAccess class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

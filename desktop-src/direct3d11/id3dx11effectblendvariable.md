@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable interface
+title: ID3DX11EffectBlendVariable interface (D3dx11effect.h)
 description: The blend-variable interface accesses blend state.
 ms.assetid: 8a6e6e7e-2f1e-4e16-8d28-ffc7f3f018d6
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

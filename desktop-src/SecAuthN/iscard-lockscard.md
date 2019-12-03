@@ -1,8 +1,8 @@
 ---
 Description: The LockSCard method claims exclusive access to the smart card.
 ms.assetid: 70af7c5a-ebe7-48ee-8a76-dfea7f73f45e
-title: ISCard::LockSCard method
-ms.topic: article
+title: ISCard::LockSCard method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

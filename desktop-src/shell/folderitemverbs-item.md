@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the FolderItemVerb object for a specified item in the collection.
 ms.assetid: 65871926-0920-4ad6-82da-7aba0a3c0fab
-title: FolderItemVerbs.Item method
-ms.topic: article
+title: FolderItemVerbs.Item method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

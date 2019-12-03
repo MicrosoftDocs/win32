@@ -1,8 +1,8 @@
 ---
 title: DXCoreNotificationType
-description: TBD
+description: Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

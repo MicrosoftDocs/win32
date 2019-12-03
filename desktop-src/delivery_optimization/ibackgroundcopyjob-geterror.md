@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetError method
+title: IBackgroundCopyJob GetError method (Deliveryoptimization.h)
 description: Retrieves the error interface after an error occurs.
 ms.assetid: 66891557-C118-4C66-AEFC-D8FD70976B9A
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

@@ -1,5 +1,5 @@
 ---
-title: idcompositionhuerotationeffect SetAngle methods
+title: idcompositionhuerotationeffect SetAngle methods (Dcomp.h)
 description: Sets the angle to rotate the hue.
 ms.assetid: e4069c7a-c8a1-dadb-a1fc-1d0c4c58834f
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionhuerotationeffect::SetAngle methods

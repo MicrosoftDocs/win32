@@ -1,5 +1,5 @@
 ---
-title: Referrals
+title: Referrals (ADSI)
 description: Referrals occur when the server you are querying does not contain that data, but can find it.
 ms.assetid: 2068ce7a-0b94-4d25-a18f-97f26863bd1d
 ms.tgt_platform: multiple

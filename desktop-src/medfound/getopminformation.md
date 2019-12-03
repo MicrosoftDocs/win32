@@ -2,7 +2,7 @@
 Description: Sends an OPM status request to a protected output object.
 ms.assetid: 4b691b20-25de-4b9e-a725-674a57697b56
 title: GetOPMInformation function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

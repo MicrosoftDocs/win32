@@ -27,7 +27,7 @@ Authentication is usually handled when a connection is first set up between a cl
 **To set up authentication in the SSPI client**
 
 1.  Get outbound [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) by using [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx).
-2.  Create a service name with **gss\_import\_name()** and get inbound credentials by using **gss\_aquire\_cred**.
+2.  Create a service name with **gss\_import\_name()** and get inbound credentials by using **gss\_acquire\_cred**.
 3.  Get an authentication token to send to the server by using [**InitializeSecurityContext (Kerberos)**](https://msdn.microsoft.com/en-us/library/Aa375507(v=VS.85).aspx).
 4.  Send the token to the server.
 

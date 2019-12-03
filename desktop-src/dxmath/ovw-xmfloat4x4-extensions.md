@@ -2,7 +2,7 @@
 Description: XMFLOAT4X4 describes a 4\*4 floating point matrix.
 ms.assetid: ae6a5159-4a77-488c-a836-da3a16e7fcaf
 title: XMFLOAT4X4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

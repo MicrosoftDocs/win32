@@ -1,8 +1,8 @@
 ---
 Description: The CloseSpoolFileHandle function closes a handle to a spool file associated with the print job currently submitted by the application.
 ms.assetid: e2c0e68f-b72e-4a97-ba18-8943bc5789c1
-title: CloseSpoolFileHandle function
-ms.topic: article
+title: CloseSpoolFileHandle function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

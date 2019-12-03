@@ -2,9 +2,6 @@
 title: EAPHost Registry Settings
 description: Registry values in the following registry keys control aspects of the functionality of EAPHost.
 ms.assetid: 2b954911-7c2e-4c86-b031-24632235a669
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: EM_SETAUTOCORRECTPROC message
+title: EM_SETAUTOCORRECTPROC message (Richedit.h)
 description: Defines the current autocorrect callback procedure.
 ms.assetid: 2FA48CFC-0D7C-41EF-8207-5EDC644FF3BC
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

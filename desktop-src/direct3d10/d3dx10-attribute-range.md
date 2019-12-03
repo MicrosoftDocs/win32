@@ -1,8 +1,8 @@
 ---
 Description: Stores an attribute table entry.
 ms.assetid: 81c77dc9-e078-46a1-a435-4b241e36ec13
-title: D3DX10_ATTRIBUTE_RANGE structure
-ms.topic: structure
+title: D3DX10_ATTRIBUTE_RANGE structure (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

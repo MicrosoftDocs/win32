@@ -1,11 +1,11 @@
 ---
-title: EsentSessionWriteConflictException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSessionWriteConflictException constructor 
 TOCTitle: 'EsentSessionWriteConflictException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessionwriteconflictexception.esentsessionwriteconflictexception(v=EXCHG.10)
 ms:contentKeyID: 55107341
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException.EsentSessionWriteConflictException
 dev_langs:

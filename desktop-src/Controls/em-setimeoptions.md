@@ -1,5 +1,5 @@
 ---
-title: EM_SETIMEOPTIONS message
+title: EM_SETIMEOPTIONS message (Richedit.h)
 description: Sets the Input Method Editor (IME) options.
 ms.assetid: 8a72ee1c-f6b8-44eb-b8df-57cd834db326
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

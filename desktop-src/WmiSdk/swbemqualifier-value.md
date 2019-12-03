@@ -2,8 +2,8 @@
 Description: The Value property of the SWbemQualifier object contains the variant value of this qualifier. This is the default property of this object.
 ms.assetid: a2f481fc-8231-4bc0-a9fc-9e622f11c925
 ms.tgt_platform: multiple
-title: SWbemQualifier.Value property
-ms.topic: article
+title: SWbemQualifier.Value property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The MXDC\_XPS\_S0PAGE\_RESOURCE\_T structure holds information about a resource, such as an image or font, that is associated with an XPS document page, and is to be passed to the Microsoft XPS Document Converter (MXDC) output file.
 ms.assetid: af0690a6-3047-4e95-b719-2305948c0f5d
-title: MXDC_XPS_S0PAGE_RESOURCE_T structure
-ms.topic: structure
+title: MXDC_XPS_S0PAGE_RESOURCE_T structure (Mxdc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

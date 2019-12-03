@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.CircularLog property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.CircularLog property 
 TOCTitle: 'CircularLog property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CircularLog
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.circularlog(v=EXCHG.10)
 ms:contentKeyID: 55103320
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.CircularLog
 dev_langs:

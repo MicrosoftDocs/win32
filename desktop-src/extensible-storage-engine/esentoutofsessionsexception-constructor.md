@@ -1,11 +1,11 @@
 ---
-title: EsentOutOfSessionsException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSessionsException constructor 
 TOCTitle: 'EsentOutOfSessionsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsessionsexception.esentoutofsessionsexception(v=EXCHG.10)
 ms:contentKeyID: 55107304
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException.EsentOutOfSessionsException
 dev_langs:

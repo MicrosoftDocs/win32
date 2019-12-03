@@ -1,5 +1,5 @@
 ---
-title: gluEndCurve function
+title: gluEndCurve function (Glu.h)
 description: The gluBeginCurve and gluEndCurve functions delimit a Non-Uniform Rational B-Spline (NURBS) curve definition.
 ms.assetid: b00ec687-6127-4585-b7b7-06e8dca78cfc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

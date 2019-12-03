@@ -1,11 +1,11 @@
 ---
-title: JET_LGPOS.ib property  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.ib property 
 TOCTitle: 'ib property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.ib
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.ib(v=EXCHG.10)
 ms:contentKeyID: 39512783
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_LGPOS.ib
 dev_langs:

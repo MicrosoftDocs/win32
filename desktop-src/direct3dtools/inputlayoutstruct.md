@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: InputLayoutStruct structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: CC7AAC2F-FDB1-4AD8-9B87-A97EE557FEAC
 api_name: 

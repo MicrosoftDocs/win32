@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottom methods
+title: IDCompositionRectangleClip SetBottom methods (Dcomp.h)
 description: Animates or changes the value of the Bottom property of a clip rectangle.
 ms.assetid: 5C80AA94-AE61-4F12-86C8-6474ADD455B1
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetBottom methods

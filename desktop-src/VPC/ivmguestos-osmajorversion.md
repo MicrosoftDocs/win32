@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS OSMajorVersion property
+title: IVMGuestOS OSMajorVersion property (VPCCOMInterfaces.h)
 description: The major version of the guest operating system running in the virtual machine.
 ms.assetid: c9be8b4e-15fe-402d-8396-30be6b065b73
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

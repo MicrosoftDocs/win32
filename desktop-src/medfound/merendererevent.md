@@ -1,8 +1,8 @@
 ---
 Description: Signals an event from a media sink that renders media data.
 ms.assetid: bb7db7c9-c39f-4bf4-9412-42525c4f2ea3
-title: MERendererEvent event
-ms.topic: article
+title: MERendererEvent event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

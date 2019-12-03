@@ -2,7 +2,7 @@
 Description: Retrieves the signer of the signed executable file.
 ms.assetid: aafa7006-b47c-4f4e-a5c4-bd96d297f939
 title: SignedCode.Signer property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

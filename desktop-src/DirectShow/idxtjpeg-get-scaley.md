@@ -1,8 +1,8 @@
 ---
 Description: The get\_ScaleY method retrieves the amount by which the wipe is stretched vertically.
 ms.assetid: d8b80f19-2ec5-4d66-bd13-d6f7b5144345
-title: IDxtJpeg::get_ScaleY method
-ms.topic: article
+title: IDxtJpeg::get_ScaleY method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

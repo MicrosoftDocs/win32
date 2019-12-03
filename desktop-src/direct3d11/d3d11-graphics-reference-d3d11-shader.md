@@ -1,5 +1,5 @@
 ---
-title: Shader Reference
+title: Shader Reference (Direct3D 11 Graphics)
 description: The Direct3D API defines several API elements to help you create and manage programmable shaders. Shaders are executable programs that are programmed exclusively using HLSL.
 ms.assetid: dd2e414b-02ed-4f55-90ad-8d17c322ec72
 ms.topic: article

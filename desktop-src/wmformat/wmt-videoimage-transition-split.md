@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_SPLIT
+title: WMT_VIDEOIMAGE_TRANSITION_SPLIT (Wmsdkidl.h)
 description: The split transition reveals the new image by splitting the old image. The split appears along a straight horizontal or vertical line starting inside the frame.
 ms.assetid: ad777bfb-29a7-441f-8399-e462639450eb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

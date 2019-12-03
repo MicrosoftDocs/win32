@@ -1,5 +1,5 @@
 ---
-title: INapSoHConstructor AppendAttribute method
+title: INapSoHConstructor AppendAttribute method (NapProtocol.h)
 description: Adds a TLV to the end of the SoH buffer.
 ms.assetid: 5706ceaa-757f-49d2-90e0-011415853875
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

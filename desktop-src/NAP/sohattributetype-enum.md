@@ -1,5 +1,5 @@
 ---
-title: SoHAttributeType enumeration
+title: SoHAttributeType enumeration (NapProtocol.h)
 description: Specifies the type of attribute stored in the attribute type-length-value (TLV) object.
 ms.assetid: ba725bf1-1d0a-4489-b912-3e761557d772
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - NapProtocol.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LB_SETTOPINDEX message
+title: LB_SETTOPINDEX message (Winuser.h)
 description: Ensures that the specified item in a list box is visible.
 ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_settopindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

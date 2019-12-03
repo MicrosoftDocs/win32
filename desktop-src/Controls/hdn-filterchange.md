@@ -1,5 +1,5 @@
 ---
-title: HDN_FILTERCHANGE notification code
+title: HDN_FILTERCHANGE notification code (Commctrl.h)
 description: Notifies the header control's parent window that the attributes of a header control filter are being changed or edited. This notification code sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0a46af14-569a-4119-881f-549a130f9b0d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentColumnDoesNotFitException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnDoesNotFitException members
 TOCTitle: EsentColumnDoesNotFitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumndoesnotfitexception_members(v=EXCHG.10)

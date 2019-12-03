@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyIOException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyIOException methods
 TOCTitle: EsentTooManyIOException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyioexception_methods(v=EXCHG.10)

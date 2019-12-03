@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsVideoSupported property
+title: ActiveBasicDevice IsVideoSupported property (PlayToDevice.h)
 description: Gets a value that indicates if the device supports video.
 ms.assetid: E8D33A04-748D-42F8-878F-35D973A6B559
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

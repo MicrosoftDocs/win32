@@ -1,8 +1,8 @@
 ---
 Description: The REFERENCE\_TIME() operator casts the object to a REFERENCE\_TIME data type.
 ms.assetid: 36f51e03-a458-46e6-9657-977b263c127f
-title: CRefTime.operator REFERENCE_TIME method
-ms.topic: article
+title: CRefTime.operator REFERENCE_TIME method (Reftime.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

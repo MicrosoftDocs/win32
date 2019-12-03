@@ -2,7 +2,7 @@
 Description: Sets or retrieves a Microsoft Windows HTTP Services (WinHTTP) option value.
 ms.assetid: 913573e6-fad3-42a5-bb5d-25a3d2ac9616
 title: IWinHttpRequest::Option property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

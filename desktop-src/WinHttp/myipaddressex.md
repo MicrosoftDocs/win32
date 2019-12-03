@@ -2,7 +2,7 @@
 Description: Finds all the IP addresses for localhost.
 ms.assetid: 47f7d03e-c1a1-4395-9889-01891208fe0f
 title: myIPAddressEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

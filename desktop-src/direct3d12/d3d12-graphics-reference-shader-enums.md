@@ -1,5 +1,5 @@
 ---
-title: Shader Enumerations
+title: Shader Enumerations (Direct3D 12 Graphics)
 description: d3d12shader.h declares the following enumerations, which specify information about shaders.
 ms.assetid: 68ce6520-8596-4492-992c-58d1fcf8a2c6
 keywords:

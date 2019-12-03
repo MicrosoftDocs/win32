@@ -1,12 +1,12 @@
 ---
+title: Supporting WPD device-side content
 Description: Supporting Device-Side Content
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
-title: Supporting Device-Side Content
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Supporting Device-Side Content
+# Supporting WPD device-side content
 
 Because device-side content is not accessible through the file system in Windows Vista, you'll need to use either the Windows Shell API or the WPD API to retrieve data for device objects. This is the primary difference between a normal context menu handler and a WPD context menu handler. The following sample code demonstrates the retrieval of device-side content using the Windows Shell API.
 

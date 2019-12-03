@@ -1,5 +1,5 @@
 ---
-title: TBN_DRAGOUT notification code
+title: TBN_DRAGOUT notification code (Commctrl.h)
 description: Sent by a toolbar control when the user clicks a button and then moves the cursor off the button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3566ad60-9744-494f-bb02-d30b41d06351
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MrmCreateResourceIndexer function
+title: MrmCreateResourceIndexer function (MrmResourceIndexer.h)
 description: Creates a resource indexer, used to generate package resource index (PRI) files for a UWP app. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: 9AE3EF90-4ADC-4646-9C62-87A702333B9A
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

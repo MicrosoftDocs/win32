@@ -1,5 +1,5 @@
 ---
-title: TB_CUSTOMIZE message
+title: TB_CUSTOMIZE message (Commctrl.h)
 description: Displays the Customize Toolbar dialog box.
 ms.assetid: 45249467-d585-4ffd-8bbe-e39739059c40
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

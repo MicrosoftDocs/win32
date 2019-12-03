@@ -1,5 +1,5 @@
 ---
-title: RasAdminGetErrorString function
+title: RasAdminGetErrorString function (Rassapi.h)
 description: The RasAdminGetErrorString function retrieves a message string that corresponds to a RAS error code returned by one of the RAS server administration (RasAdmin) functions.
 ms.assetid: b51bc1f9-fed7-43b6-9a07-f19ea4c0cd01
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

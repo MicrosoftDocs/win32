@@ -1,5 +1,5 @@
 ---
-title: EN_UPDATE notification code
+title: EN_UPDATE notification code (Winuser.h)
 description: Sent when an edit control is about to redraw itself.
 ms.assetid: 59138736-6cc9-4a3f-95f3-ada9cbf253cb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

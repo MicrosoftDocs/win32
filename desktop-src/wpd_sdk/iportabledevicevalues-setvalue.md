@@ -1,8 +1,8 @@
 ---
 Description: The SetValue method adds a new PROPVARIANT value or overwrites an existing one.
 ms.assetid: 69630a21-79e9-4c96-8ed7-9a41ebb991cd
-title: IPortableDeviceValues::SetValue method
-ms.topic: article
+title: IPortableDeviceValues::SetValue method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

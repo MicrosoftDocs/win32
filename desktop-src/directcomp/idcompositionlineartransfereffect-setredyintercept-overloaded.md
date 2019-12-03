@@ -1,5 +1,5 @@
 ---
-title: IDCompositionLinearTransferEffect setredyintercept methods
+title: IDCompositionLinearTransferEffect setredyintercept methods (Dcomp.h)
 description: Sets the Y-intercept of the linear function for the red channel.
 ms.assetid: 1ecb0d5e-a180-f135-a732-ebc0ea84e7b4
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionLinearTransferEffect::setredyintercept methods

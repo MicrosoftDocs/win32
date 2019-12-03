@@ -1,5 +1,5 @@
 ---
-title: RAS_PARAMETERS structure
+title: RAS_PARAMETERS structure (Rassapi.h)
 description: The RAS\_PARAMETERS structure is used by the RasAdminPortGetInfo function to return the name and value of a media-specific parameter associated with a port on a RAS server.
 ms.assetid: b46b6176-9a0c-4d9b-b961-b20fdc41653b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

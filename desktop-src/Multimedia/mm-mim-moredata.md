@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_MOREDATA message
+title: MM_MIM_MOREDATA message (Mmsystem.h)
 description: The MM\_MIM\_MOREDATA message is sent to a callback window when a MIDI message is received by a MIDI input device but the application is not processing MIM\_DATA messages fast enough to keep up with the input device driver.
 ms.assetid: 25d507f9-01d4-4a9a-afdd-693d74e3bd22
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

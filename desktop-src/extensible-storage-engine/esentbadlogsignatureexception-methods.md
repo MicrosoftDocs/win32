@@ -1,5 +1,5 @@
 ---
-title: EsentBadLogSignatureException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadLogSignatureException methods
 TOCTitle: EsentBadLogSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadlogsignatureexception_methods(v=EXCHG.10)

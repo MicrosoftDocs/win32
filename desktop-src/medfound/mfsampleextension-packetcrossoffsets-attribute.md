@@ -1,8 +1,8 @@
 ---
 Description: Specifies the offsets to the payload boundaries in a frame for protected samples.
 ms.assetid: 8aa25afd-efa8-4fe0-92d4-8432f9d633c9
-title: MFSampleExtension_PacketCrossOffsets attribute
-ms.topic: article
+title: MFSampleExtension_PacketCrossOffsets attribute (Wmcontainer.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

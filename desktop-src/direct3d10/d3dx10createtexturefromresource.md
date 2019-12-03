@@ -1,8 +1,8 @@
 ---
 Description: Create a texture from another resource.
 ms.assetid: 9758968a-652f-42bb-8c81-ad7816c57b17
-title: D3DX10CreateTextureFromResource function
-ms.topic: article
+title: D3DX10CreateTextureFromResource function (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

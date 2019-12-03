@@ -1,11 +1,11 @@
 ---
-Description: AuthProtocol
+Description: ModemDMConfigProfile\/...\/AuthProtocol (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AuthProtocol
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: AuthProtocol
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5e6c5a25-fe9e-4d0a-8b5b-4ff585f562af
 api_name: 
@@ -19,7 +19,7 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_1_AuthProtocol"></span>AuthProtocol
+# <span id="WWAN_profile_v4.element_1_AuthProtocol"></span>ModemDMConfigProfile\/...\/AuthProtocol (v4)
 
 >Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
 
@@ -29,15 +29,13 @@ For further information, see the documentation for the v1 [**AuthProtocol**](htt
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-**<AuthProtocol>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;**\<AuthProtocol\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-**<AuthProtocol>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;**\<AuthProtocol\>**
 
 ## Syntax
 

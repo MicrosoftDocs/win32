@@ -1,8 +1,8 @@
 ---
 Description: IEnumUserIdentity::Next is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 2c8dfe36-c1bb-49f8-8847-f355cfab2984
-title: IEnumUserIdentity::Next method
-ms.topic: article
+title: IEnumUserIdentity::Next method (Msident.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

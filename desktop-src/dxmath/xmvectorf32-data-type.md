@@ -1,8 +1,8 @@
 ---
 Description: An opaque, portable type to support the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.
 ms.assetid: bafaa59f-fd1b-e252-cbbd-903df796fde0
-title: XMVECTORF32 Data Type
-ms.topic: article
+title: XMVECTORF32 Data Type (DirectXMath.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CBN_EDITCHANGE notification code
+title: CBN_EDITCHANGE notification code (Winuser.h)
 description: Sent after the user has taken an action that may have altered the text in the edit control portion of a combo box.
 ms.assetid: 2c5de5cd-24d3-4198-906e-b520369e0f61
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

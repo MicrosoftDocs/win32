@@ -2,7 +2,7 @@
 Description: Specifies the list of preferred network providers at the time of roaming.
 ms.assetid: 5873fcd7-8e89-4edd-8dc5-f43675919c55
 title: DataRoamingPartners (MBNProfile) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

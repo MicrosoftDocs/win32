@@ -1,8 +1,8 @@
 ---
 Description: The RecognizeFrame export function indicates whether a piece of data is recognized as the protocol that the parser detects. The RecognizeFrame export function must be implemented for each parser that the parser DLL supports.
 ms.assetid: '3f835f58-b011-4329-b9b2-ff865a1f0ae5'
-title: RecognizeFrame callback function
-ms.topic: article
+title: RecognizeFrame callback function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

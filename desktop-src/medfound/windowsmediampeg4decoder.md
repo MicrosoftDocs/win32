@@ -1,8 +1,8 @@
 ---
 Description: The Windows Media MPEG4 V1/V2 decoder decodes MPEG4 V1/V2 video streams.
 ms.assetid: 63b32972-1003-4291-bfdd-cc0cb8d65430
-title: Windows Media MPEG4 V1/V2 Decoder
-ms.topic: article
+title: Windows Media MPEG4 V1/V2 Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

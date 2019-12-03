@@ -5,7 +5,7 @@ ms.assetid: 6da51660-a9fd-4e49-97e3-ba0829b1bbbf
 ms.tgt_platform: multiple
 keywords:
 - TLS_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

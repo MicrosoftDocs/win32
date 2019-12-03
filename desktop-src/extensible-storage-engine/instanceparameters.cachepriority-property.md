@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.CachePriority property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.CachePriority property 
 TOCTitle: 'CachePriority property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CachePriority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.cachepriority(v=EXCHG.10)
 ms:contentKeyID: 55107435
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.CachePriority
 dev_langs:

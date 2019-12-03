@@ -1,8 +1,8 @@
 ---
 Description: The InitialThreadProc method calls the COutputQueue::ThreadProc method when the thread is created.
 ms.assetid: 6093f0c3-ec58-418d-bb8c-618163c43ac7
-title: COutputQueue.InitialThreadProc method
-ms.topic: article
+title: COutputQueue.InitialThreadProc method (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

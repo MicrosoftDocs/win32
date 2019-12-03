@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXLIST.columnidLCMapFlags property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXLIST.columnidLCMapFlags property 
 TOCTitle: 'columnidLCMapFlags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidLCMapFlags
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist.columnidlcmapflags(v=EXCHG.10)
 ms:contentKeyID: 55103667
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidLCMapFlags
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: JET_LS members (Microsoft.Isam.Esent.Interop)
+title: JET_LS members
 TOCTitle: JET_LS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_LS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls_members(v=EXCHG.10)

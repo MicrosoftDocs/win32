@@ -1,5 +1,5 @@
 ---
-title: WM_LBUTTONDBLCLK message
+title: WM_LBUTTONDBLCLK message (Winuser.h)
 description: Posted when the user double-clicks the left mouse button while the cursor is in the client area of a window.
 ms.assetid: 370aa19e-4939-4ac3-9c0b-137a9792e52a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

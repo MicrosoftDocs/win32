@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: OBJECTTABLECOLUMNID enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 02702689-1E96-4A8E-91CA-76FFC0AACB33
 api_name: 

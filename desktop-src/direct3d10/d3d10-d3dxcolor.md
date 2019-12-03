@@ -1,8 +1,8 @@
 ---
 Description: Describes color values.
 ms.assetid: bb5e36c8-4f24-41b5-84e7-3034e497721d
-title: D3DXCOLOR structure
-ms.topic: structure
+title: D3DXCOLOR structure (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

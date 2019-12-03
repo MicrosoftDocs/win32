@@ -2,9 +2,6 @@
 title: eaphostconfig Schema Elements
 description: Is made up of the following schema elements.
 ms.assetid: 7e90440e-b19f-41ce-b45a-8f5ef5729aab
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

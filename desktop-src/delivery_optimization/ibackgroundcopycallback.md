@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyCallback interface
+title: IBackgroundCopyCallback interface (Deliveryoptimization.h)
 description: Implement the IBackgroundCopyCallback interface to receive notification that a job is complete, has been modified, or is in error. Clients use this interface instead of polling for the status of the job.
 ms.assetid: CF85D852-1B4E-4BC2-B6A6-0035ED3C439C
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable SetRawValue method
+title: ID3DX11EffectVariable SetRawValue method (D3dx11effect.h)
 description: Set data.
 ms.assetid: c5d53aa6-6cd8-4a93-9851-2a93bc6a728a
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

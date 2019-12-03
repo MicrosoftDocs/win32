@@ -1,5 +1,5 @@
 ---
-title: idcompositionbrightnesseffect SetWhitePointY methods
+title: idcompositionbrightnesseffect SetWhitePointY methods (Dcomp.h)
 description: Sets the y value of the white point.
 ms.assetid: b8111c61-cb02-e23f-6257-36708f775d02
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionbrightnesseffect::SetWhitePointY methods

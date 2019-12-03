@@ -1,8 +1,8 @@
 ---
 Description: Use this method to re-acquire resources and save initial state.
 ms.assetid: a326a465-ee90-466d-8e46-22e082e9533c
-title: ID3DXRenderToSurface::OnResetDevice method
-ms.topic: article
+title: ID3DXRenderToSurface::OnResetDevice method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

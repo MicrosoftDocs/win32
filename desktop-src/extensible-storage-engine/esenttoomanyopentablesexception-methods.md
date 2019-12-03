@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesException methods
 TOCTitle: EsentTooManyOpenTablesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesexception_methods(v=EXCHG.10)

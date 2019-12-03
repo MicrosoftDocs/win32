@@ -2,7 +2,7 @@
 Description: The MSIRMSHUTDOWN property determines how applications or services that are currently using files affected by an update should be shut down to enable the installation of the update.
 ms.assetid: 6763a490-8d1a-42d2-a8cb-0743b7ba6866
 title: MSIRMSHUTDOWN property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

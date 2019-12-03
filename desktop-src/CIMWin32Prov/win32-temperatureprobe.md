@@ -3,7 +3,7 @@ Description: The Win32\_TemperatureProbe&\#32; WMI class represents the properti
 ms.assetid: 63ba1ae2-6abc-4d86-a7f6-f02536ebd8ac
 ms.tgt_platform: multiple
 title: Win32_TemperatureProbe class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

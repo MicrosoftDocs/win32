@@ -1,8 +1,8 @@
 ---
 Description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use D3DReflect or D3D11Reflect.
 ms.assetid: 7090418c-1940-4f07-b075-937e3399613c
-title: D3DX10ReflectShader function
-ms.topic: article
+title: D3DX10ReflectShader function (D3DX10Core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

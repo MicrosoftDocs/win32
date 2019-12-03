@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsMatrix method
+title: ID3DX11EffectVariable AsMatrix method (D3dx11effect.h)
 description: Get a matrix variable.
 ms.assetid: 5d2baf65-ab0d-44df-bc6f-6ffae16cbb01
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

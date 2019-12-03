@@ -1,5 +1,5 @@
 ---
-title: Instance members (Microsoft.Isam.Esent.Interop)
+title: Instance members
 TOCTitle: Instance members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Instance
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance_members(v=EXCHG.10)

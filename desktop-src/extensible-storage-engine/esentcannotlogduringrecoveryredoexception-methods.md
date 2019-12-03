@@ -1,5 +1,5 @@
 ---
-title: EsentCannotLogDuringRecoveryRedoException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCannotLogDuringRecoveryRedoException methods
 TOCTitle: EsentCannotLogDuringRecoveryRedoException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotLogDuringRecoveryRedoException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotlogduringrecoveryredoexception_methods(v=EXCHG.10)

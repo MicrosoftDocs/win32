@@ -1,5 +1,5 @@
 ---
-title: CDN_SELCHANGE notification code
+title: CDN_SELCHANGE notification code (Commdlg.h)
 description: Sent by an Explorer-style Open or Save As dialog box when the selection changes in the list box that displays the contents of the currently opened folder or directory.
 ms.assetid: e622babf-7024-45c5-a8db-f80896f69140
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

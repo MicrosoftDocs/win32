@@ -3,7 +3,7 @@ Description: The CIM\_Tachometer class exists for backward compatibility with ea
 ms.assetid: 30b7c23e-05c6-4fd6-80bc-3f729855ab45
 ms.tgt_platform: multiple
 title: CIM_Tachometer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

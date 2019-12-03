@@ -3,7 +3,7 @@ Description: The Win32\_GroupUser association WMI class relates a group and an a
 ms.assetid: 46dd65f0-b729-4b23-8a00-bc33d1a4868b
 ms.tgt_platform: multiple
 title: Win32_GroupUser class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

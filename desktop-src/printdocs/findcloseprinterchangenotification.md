@@ -1,8 +1,8 @@
 ---
 Description: The FindClosePrinterChangeNotification function closes a change notification object created by calling the FindFirstPrinterChangeNotification function.
 ms.assetid: 2b4758f8-af0a-494b-8f1b-8ea6ee73c79b
-title: FindClosePrinterChangeNotification function
-ms.topic: article
+title: FindClosePrinterChangeNotification function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

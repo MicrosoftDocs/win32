@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_LOAD_PARMS structure
+title: MCI_OVLY_LOAD_PARMS structure (Mmsystem.h)
 description: The MCI\_OVLY\_LOAD\_PARMS structure contains information for the MCI\_LOAD command for video-overlay devices.
 ms.assetid: 701c27da-72bf-493d-a679-9e0bd210215d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

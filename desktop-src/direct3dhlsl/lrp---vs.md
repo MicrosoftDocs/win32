@@ -2,10 +2,10 @@
 title: lrp - vs
 description: Interpolates linearly between the second and third source registers by a proportion specified in the first source register.
 ms.assetid: 8438bcf3-9b00-4963-b2a3-54fd1c345961
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

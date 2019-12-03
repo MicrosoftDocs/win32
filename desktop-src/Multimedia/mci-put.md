@@ -1,5 +1,5 @@
 ---
-title: MCI_PUT command
+title: MCI_PUT command (Mmsystem.h)
 description: The MCI\_PUT command sets the source, destination, and frame rectangles. Digital-video and video-overlay devices recognize this command.
 ms.assetid: 9d81682b-6546-4e6d-a6df-e2de8c013b66
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

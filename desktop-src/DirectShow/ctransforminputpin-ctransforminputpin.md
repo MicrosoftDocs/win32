@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 097dce19-b430-42d6-8914-68350c7eca40
-title: CTransformInputPin.CTransformInputPin constructor
-ms.topic: article
+title: CTransformInputPin.CTransformInputPin constructor (Transfrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

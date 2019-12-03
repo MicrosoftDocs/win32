@@ -2,7 +2,7 @@
 Description: The Installed property is set only if the product is installed per-machine or for the current user.
 ms.assetid: 139a6324-58fb-485e-8b3e-c5cf2881d5d1
 title: Installed property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

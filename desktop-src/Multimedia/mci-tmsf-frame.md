@@ -1,5 +1,5 @@
 ---
-title: MCI_TMSF_FRAME macro
+title: MCI_TMSF_FRAME macro (Mciapi.h)
 description: The MCI\_TMSF\_FRAME macro retrieves the frames component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.
 ms.assetid: 1ba78d4f-4537-4955-abcc-842976b6b5b9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TS_CH_ Constants
+title: TS_CH_ Constants (Textstor.h)
 description: The TS\_CH\_\ constants are used internally by TSF to indicate that text deletions have occurred.
 ms.assetid: 347daddd-a884-400e-8109-dd13f780cbdc
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

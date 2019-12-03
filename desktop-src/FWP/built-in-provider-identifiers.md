@@ -1,5 +1,5 @@
 ---
-title: Built-in Provider Identifiers
+title: Built-in Provider Identifiers (Fwpmu.h)
 description: The identifiers for the providers that are built in to the Windows Filtering Platform (WFP) are each represented by a GUID.
 ms.assetid: 61bc1e2d-f6ee-45db-892f-c49680d27072
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The DecideBufferSize method sets the buffer requirements.
 ms.assetid: 1f7a3424-18ba-4a10-b09f-947ee8585ffa
-title: CBaseOutputPin.DecideBufferSize method
-ms.topic: article
+title: CBaseOutputPin.DecideBufferSize method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

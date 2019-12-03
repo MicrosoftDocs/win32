@@ -1,8 +1,8 @@
 ---
 Description: Retrieves quality metrics on acoustic echo cancellation (AEC) from the Voice Capture DSP.
 ms.assetid: de2e86ae-0469-471f-9105-0bb38a59b428
-title: MFPKEY_WMAAECMA_QUALITY_METRICS Property
-ms.topic: article
+title: MFPKEY_WMAAECMA_QUALITY_METRICS Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

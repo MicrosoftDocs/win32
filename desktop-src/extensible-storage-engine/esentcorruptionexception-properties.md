@@ -1,5 +1,5 @@
 ---
-title: EsentCorruptionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCorruptionException properties
 TOCTitle: EsentCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCorruptionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcorruptionexception_properties(v=EXCHG.10)

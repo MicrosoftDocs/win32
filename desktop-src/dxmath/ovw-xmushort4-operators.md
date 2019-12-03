@@ -2,7 +2,7 @@
 Description: The XMUSHORT4 structure exposes the following operators.
 ms.assetid: 428448bc-4bbf-420d-a41c-c38112bd26cc
 title: XMUSHORT4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

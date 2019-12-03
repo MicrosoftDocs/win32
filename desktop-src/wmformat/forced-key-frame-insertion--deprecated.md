@@ -1,5 +1,5 @@
 ---
-title: Forced Key Frame Insertion
+title: Forced Key Frame Insertion (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 3ac1ae35-41ab-42df-a9e4-9dd4a05f86e6
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Forced Key Frame Insertion
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

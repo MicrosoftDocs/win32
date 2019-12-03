@@ -1,11 +1,11 @@
 ---
-title: EsentDatabase200FormatException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase200FormatException class
 TOCTitle: EsentDatabase200FormatException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase200formatexception(v=EXCHG.10)
 ms:contentKeyID: 55101390
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException
 dev_langs:

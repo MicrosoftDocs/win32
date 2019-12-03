@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNID structure (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID structure
 TOCTitle: JET_COLUMNID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid(v=EXCHG.10)
 ms:contentKeyID: 39510915
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNID
 dev_langs:

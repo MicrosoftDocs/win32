@@ -1,5 +1,5 @@
 ---
-title: idcompositionarithmeticcompositeeffect SetCoefficient4 methods
+title: idcompositionarithmeticcompositeeffect SetCoefficient4 methods (Dcomp.h)
 description: Sets the fourth coefficient for the equation used to composite the two input images.
 ms.assetid: adaa5348-3887-d3ba-dad1-e49310815cc2
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionarithmeticcompositeeffect::SetCoefficient4 methods

@@ -1,5 +1,5 @@
 ---
-title: RtmGetNetworkCount function
+title: RtmGetNetworkCount function (Rtm.h)
 description: The RtmGetNetworkCount function retrieves the number of networks to which the routing table manager has routes.
 ms.assetid: d0c04b8d-a6c4-44bf-a3f2-de822d635131
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

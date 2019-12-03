@@ -1,5 +1,5 @@
 ---
-title: Standard Clipboard Formats
+title: Standard Clipboard Formats (Winuser.h)
 description: The clipboard formats defined by the system are called standard clipboard formats. These clipboard formats are described in the following table.
 ms.assetid: f0af4e61-7ef1-4263-b2c5-e4114515124f
 topic_type:
@@ -35,7 +35,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Serves as a parent class for classes that control the generation of
 ms.assetid: 381b06e7-2857-4932-9f52-f1d62efa8b79
 ms.tgt_platform: multiple
 title: '__EventGenerator class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

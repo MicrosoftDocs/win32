@@ -1,5 +1,5 @@
 ---
-title: RAS_PORT_1 structure
+title: RAS_PORT_1 structure (Rassapi.h)
 description: The RAS\_PORT\_1 structure contains information about a RAS port.
 ms.assetid: f226ef16-feb4-41e0-ba60-ddb2f0acd305
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

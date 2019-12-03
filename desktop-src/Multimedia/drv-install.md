@@ -1,5 +1,5 @@
 ---
-title: DRV_INSTALL message
+title: DRV_INSTALL message (Mmsystem.h)
 description: Notifies the driver that is it being installed. The driver should create and initialize any needed registry keys and values and verify that the supporting drivers and hardware are installed and properly configured.
 ms.assetid: 8ee7b30b-600b-49f3-93a7-8faa7b87cfd8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

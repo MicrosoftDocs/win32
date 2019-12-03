@@ -2,7 +2,7 @@
 Description: The userid attribute specifies an application-defined name for an object..
 ms.assetid: babb125e-2f7c-4d98-92f8-498d47dc6f27
 title: username Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

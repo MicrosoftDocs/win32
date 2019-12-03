@@ -1,14 +1,12 @@
 ---
 UID: 
 title: GetMsgProc callback function
-author: TimShererWithAquent
 description: The system calls this function when a message function gets a message from an application message queue.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/05/2019
 ms.keywords: 
-ms.topic: function
+ms.topic: reference
 req.header: 
 req.include-header: 
 req.target-type: Windows

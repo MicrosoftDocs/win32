@@ -1,5 +1,5 @@
 ---
-title: IResultVerb Icon property
+title: IResultVerb Icon property (WdsSharedIDL.h)
 description: This property returns a pointer to handle of the optional icon associated with the verb.
 ms.assetid: 19de0e36-b453-48a4-8ac0-f26432e088ae
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

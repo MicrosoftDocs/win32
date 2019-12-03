@@ -1,5 +1,5 @@
 ---
-title: EM_SETIMECOLOR message
+title: EM_SETIMECOLOR message (Richedit.h)
 description: Sets the Input Method Editor (IME) composition color for a rich edit control.
 ms.assetid: ea5449c9-7d0f-4340-8e3e-1e0b77d443f6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

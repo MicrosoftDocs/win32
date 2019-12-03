@@ -1,5 +1,5 @@
 ---
-title: Required Interfaces
+title: Required Interfaces (Windows Media Player SDK)
 description: Required Interfaces
 ms.assetid: 202d5769-edff-46df-bc05-bbb630a8f3f4
 keywords:

@@ -1,8 +1,8 @@
 ---
 Description: These constants are used in two contexts.
 ms.assetid: 5c05a567-cc65-411e-b049-919a442c5c57
-title: LINEPROXYREQUEST_ Constants
-ms.topic: article
+title: LINEPROXYREQUEST_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

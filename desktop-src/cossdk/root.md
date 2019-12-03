@@ -2,7 +2,7 @@
 Description: Contains the top-level collections in the catalog.
 ms.assetid: 6cd23e6a-53b8-42ec-97df-59281f019252
 title: Root collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

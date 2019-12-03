@@ -2,7 +2,7 @@
 title: IDXCoreAdapterList::GetFactory
 description: TBD
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

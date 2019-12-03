@@ -2,7 +2,7 @@
 Description: XMBYTEN2 describes a 2D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
 ms.assetid: da3c6c06-8dbb-4497-8e13-905ebf7eaa87
 title: XMBYTEN2 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Sent to an extension DLL when File Manager is loading the DLL.
 ms.assetid: 9d673ab8-c468-4b46-b96e-1adfaa9f85fb
-title: FMEVENT_LOAD message
-ms.topic: article
+title: FMEVENT_LOAD message (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

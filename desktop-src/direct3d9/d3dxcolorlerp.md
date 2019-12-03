@@ -1,8 +1,8 @@
 ---
 Description: Uses linear interpolation to create a color value.
 ms.assetid: bf7bf2f4-5fb5-44d3-a7e5-7998640d7d49
-title: D3DXColorLerp function
-ms.topic: article
+title: D3DXColorLerp function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

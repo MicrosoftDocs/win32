@@ -3,7 +3,7 @@ Description: Pauses the print queue.
 ms.assetid: 0f425318-a7c0-4bba-bb44-e7635fa3ca03
 ms.tgt_platform: multiple
 title: Pause method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

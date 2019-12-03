@@ -3,7 +3,7 @@ Description: Creates a new printer driver.
 ms.assetid: 23d9ec50-235a-4bf8-ab6b-be3509c3869f
 ms.tgt_platform: multiple
 title: AddPrinterDriver method of the Win32_PrinterDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: TBN_ENDDRAG notification code
+title: TBN_ENDDRAG notification code (Commctrl.h)
 description: Notifies the toolbar's parent window that the user has stopped dragging a button in a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 846ba42e-6e0d-45bb-88ce-7b4d2cb17e13
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

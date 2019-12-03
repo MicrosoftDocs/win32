@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseInvalidPagesException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidPagesException class
 TOCTitle: EsentDatabaseInvalidPagesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception(v=EXCHG.10)
 ms:contentKeyID: 55101388
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException
 dev_langs:

@@ -3,7 +3,7 @@ Description: The CIM\_RedundancyGroup class represents a collection of managed s
 ms.assetid: b47899cc-eafc-431f-96d4-edb01bf4bcd1
 ms.tgt_platform: multiple
 title: CIM_RedundancyGroup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

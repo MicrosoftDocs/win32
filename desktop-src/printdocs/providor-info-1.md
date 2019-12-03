@@ -1,8 +1,8 @@
 ---
 Description: The PROVIDOR\_INFO\_1 structure identifies a print provider.
 ms.assetid: 0eff115a-b3d2-4c8f-b820-46e7f62dd295
-title: PROVIDOR_INFO_1 structure
-ms.topic: structure
+title: PROVIDOR_INFO_1 structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

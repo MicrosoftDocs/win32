@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the locale identifier for the parent of the supplied locale.
 ms.assetid: 4cfa1787-6b9e-4dd4-8466-7b737e00a4b1
-title: DownlevelGetParentLocaleLCID function
-ms.topic: article
+title: DownlevelGetParentLocaleLCID function (Nlsdl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

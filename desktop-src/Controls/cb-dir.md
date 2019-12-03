@@ -1,5 +1,5 @@
 ---
-title: CB_DIR message
+title: CB_DIR message (Winuser.h)
 description: Adds names to the list displayed by the combo box. The message adds the names of directories and files that match a specified string and set of file attributes. CB\_DIR can also add mapped drive letters to the list.
 ms.assetid: 6082d12c-0af4-4a99-98c0-6a98d171f4d8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

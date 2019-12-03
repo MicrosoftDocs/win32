@@ -1,8 +1,8 @@
 ---
 Description: The WPD\_DEVICE\_TRANSPORTS enumeration type specifies the inheritance relationship for a service. This enumeration is used by the WPD\_DEVICE\_TRANSPORT property.
 ms.assetid: a9d48034-3588-4e48-a03a-91cbe679cbc9
-title: WPD_DEVICE_TRANSPORTS enumeration
-ms.topic: enumeration
+title: WPD_DEVICE_TRANSPORTS enumeration (PortableDevice.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the luma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.
 ms.assetid: 65e6e276-1da7-47ee-b337-0ff64a9c4cff
-title: AVEncMPVQuantMatrixIntra property
-ms.topic: article
+title: AVEncMPVQuantMatrixIntra property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,9 +2,8 @@
 Description: This section contains the reference for the system APIs and services offered by Windows for desktop apps.
 ms.assetid: 3a3dc403-8bad-4464-9dda-361daaf8f8d3
 title: System Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: system-services
 ---
 
 # System Services

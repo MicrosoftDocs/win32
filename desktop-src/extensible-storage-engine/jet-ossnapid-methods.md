@@ -1,5 +1,5 @@
 ---
-title: JET_OSSNAPID methods (Microsoft.Isam.Esent.Interop)
+title: JET_OSSNAPID methods
 TOCTitle: JET_OSSNAPID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ossnapid_methods(v=EXCHG.10)

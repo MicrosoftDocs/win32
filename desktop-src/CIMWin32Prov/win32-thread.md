@@ -3,7 +3,7 @@ Description: The Win32\_Thread&\#8194;WMI class represents a thread of execution
 ms.assetid: a284616c-1977-441a-9173-dff4f56b2d39
 ms.tgt_platform: multiple
 title: Win32_Thread class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

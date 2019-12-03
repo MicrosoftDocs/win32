@@ -1,5 +1,5 @@
 ---
-title: Int16ColumnValue members (Microsoft.Isam.Esent.Interop)
+title: Int16ColumnValue members
 TOCTitle: Int16ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int16columnvalue_members(v=EXCHG.10)

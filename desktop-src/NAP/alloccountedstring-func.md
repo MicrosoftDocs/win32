@@ -1,5 +1,5 @@
 ---
-title: AllocCountedString function
+title: AllocCountedString function (NapUtil.h)
 description: Allocates memory for a null-terminated string and returns it in a CountedString structure.
 ms.assetid: 6dd503bf-8853-499b-adcd-54de696f01d6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_MONITOR command
+title: MCI_MONITOR command (Mmsystem.h)
 description: The MCI\_MONITOR command specifies the presentation source. Digital-video devices recognize this command.
 ms.assetid: b6c476ef-d1a4-477d-a104-dda10be60915
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

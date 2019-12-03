@@ -1,10 +1,10 @@
 ---
-title: UI_ANIMATION_SECONDS
+title: UI_ANIMATION_SECONDS (UIAnimation.h)
 description: The unit of time used for all animations.
 ms.assetid: 0745b227-61c4-462e-8529-9402c9eaa70a
 keywords:
 - UI_ANIMATION_SECONDS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable SetBlendState method
+title: ID3DX11EffectBlendVariable SetBlendState method (D3dx11effect.h)
 description: Sets an effect's blend-state.
 ms.assetid: 46100721-65a3-46de-aa22-3e7e2fb7b960
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

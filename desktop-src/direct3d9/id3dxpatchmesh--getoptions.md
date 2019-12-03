@@ -1,8 +1,8 @@
 ---
 Description: Gets the type of patch.
 ms.assetid: 1e35a6db-7045-451d-a2d8-847d4935ccc8
-title: ID3DXPatchMesh::GetOptions method
-ms.topic: article
+title: ID3DXPatchMesh::GetOptions method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

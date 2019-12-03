@@ -1,11 +1,11 @@
 ---
-title: EsentLoggingDisabledException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLoggingDisabledException constructor 
 TOCTitle: 'EsentLoggingDisabledException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentloggingdisabledexception.esentloggingdisabledexception(v=EXCHG.10)
 ms:contentKeyID: 55102135
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException.EsentLoggingDisabledException
 dev_langs:

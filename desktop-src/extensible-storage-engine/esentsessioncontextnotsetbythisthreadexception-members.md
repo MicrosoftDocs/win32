@@ -1,5 +1,5 @@
 ---
-title: EsentSessionContextNotSetByThisThreadException members (Microsoft.Isam.Esent.Interop)
+title: EsentSessionContextNotSetByThisThreadException members
 TOCTitle: EsentSessionContextNotSetByThisThreadException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextnotsetbythisthreadexception_members(v=EXCHG.10)

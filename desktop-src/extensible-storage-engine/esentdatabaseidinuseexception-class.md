@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseIdInUseException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseIdInUseException class
 TOCTitle: EsentDatabaseIdInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseidinuseexception(v=EXCHG.10)
 ms:contentKeyID: 55101458
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException
 dev_langs:

@@ -2,7 +2,7 @@
 Description: Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
 ms.assetid: 1f0512e0-68b6-4b79-84bd-614babb4151d
 title: ISCrdEnr::getCertTemplateSMIME method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

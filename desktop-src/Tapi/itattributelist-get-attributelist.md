@@ -1,8 +1,8 @@
 ---
 Description: The get\_AttributeList method gets the list of attributes.
 ms.assetid: 75518257-3339-441f-9965-b93e27f0e2bf
-title: ITAttributeList::get_AttributeList method
-ms.topic: article
+title: ITAttributeList::get_AttributeList method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,6 +1,6 @@
 ---
 Description: Math Functions
-title: Math Functions
+title: Math Functions (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 27fbd94b-e84a-4583-a355-a669b9662e00

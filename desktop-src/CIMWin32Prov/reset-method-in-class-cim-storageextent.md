@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_StorageExtent class requests a reset o
 ms.assetid: 8580ffeb-6861-4320-80d2-e87b8782851b
 ms.tgt_platform: multiple
 title: Reset method of the CIM_StorageExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

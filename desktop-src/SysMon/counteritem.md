@@ -1,5 +1,5 @@
 ---
-title: CounterItem object
+title: CounterItem object (Isysmon.h)
 description: Use this class to retrieve the path and value of a counter and to specify the color used to graph the counter. To retrieve this object, call Counters.Item.
 ms.assetid: 76b69395-efd8-4321-b7ed-63daa46e2636
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Deprecated Desktop Protocol Provider Interfaces
 description: The following interfaces have been deprecated and should no longer be used. For new projects, use the Remote Desktop Protocol Provider Interfaces interfaces instead.
 ms.assetid: FD64A6B9-AE15-4311-BD69-4824CAF53544
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: IPrivateIdentityManager2::CreateIdentity2 method
 title: IPrivateIdentityManager2::CreateIdentity2 method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

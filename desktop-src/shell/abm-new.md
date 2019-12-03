@@ -1,8 +1,8 @@
 ---
 Description: Registers a new appbar and specifies the message identifier that the system should use to send it notification messages. An appbar should send this message before sending any other appbar messages.
 ms.assetid: 1da9db13-6fdc-44b3-9985-de32d572675a
-title: ABM_NEW message
-ms.topic: article
+title: ABM_NEW message (Shellapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: FreePrivateData function
+title: FreePrivateData function (NapUtil.h)
 description: Frees a PrivateData data structure.
 ms.assetid: 94b3618e-224f-4801-94f3-2faa1a298ec0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

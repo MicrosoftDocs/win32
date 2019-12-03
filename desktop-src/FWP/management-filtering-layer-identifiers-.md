@@ -1,5 +1,5 @@
 ---
-title: Filtering Layer Identifiers
+title: Filtering Layer Identifiers (Fwpmu.h)
 description: WFP API management filtering layer identifier constants.
 ms.assetid: 3b2daef1-558b-4e3a-a98a-f4dfa80a29c0
 topic_type:
@@ -60,7 +60,7 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

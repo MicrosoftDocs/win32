@@ -1,5 +1,5 @@
 ---
-title: WM_CTLCOLOREDIT message
+title: WM_CTLCOLOREDIT message (Winuser.h)
 description: An edit control that is not read-only or disabled sends the WM\_CTLCOLOREDIT message to its parent window when the control is about to be drawn.
 ms.assetid: 2294e3b8-00a7-43ef-b20a-fe0e46764055
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TF_MOD_ Constants
+title: TF_MOD_ Constants (Msctf.h)
 description: The TF\_MOD\_\ constants specify key modifiers in the TF\_PRESERVEDKEY structure.
 ms.assetid: 4642ef17-34bd-4482-a9e9-0fbed7b574b1
 topic_type:
@@ -20,7 +20,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

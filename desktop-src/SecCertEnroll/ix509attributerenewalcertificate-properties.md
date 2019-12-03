@@ -2,7 +2,7 @@
 Description: The IX509AttributeRenewalCertificate interface exposes the following properties.
 ms.assetid: C91D42B7-24F8-4DF0-8398-B15268E9C84B
 title: IX509AttributeRenewalCertificate Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

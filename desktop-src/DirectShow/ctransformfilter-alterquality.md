@@ -1,8 +1,8 @@
 ---
 Description: The AlterQuality method notifies the filter that a quality change is requested.
 ms.assetid: 46743d6b-65cf-4d63-8913-114277d76da4
-title: CTransformFilter.AlterQuality method
-ms.topic: article
+title: CTransformFilter.AlterQuality method (Transfrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

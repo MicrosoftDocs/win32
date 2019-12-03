@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseSignInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseSignInUseException properties
 TOCTitle: EsentDatabaseSignInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesigninuseexception_properties(v=EXCHG.10)

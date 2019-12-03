@@ -1,5 +1,5 @@
 ---
-title: MrmIndexFile function
+title: MrmIndexFile function (MrmResourceIndexer.h)
 description: Indexes a resource file belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: C9F245B4-D2D3-4863-BB64-72619FC73D3C
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

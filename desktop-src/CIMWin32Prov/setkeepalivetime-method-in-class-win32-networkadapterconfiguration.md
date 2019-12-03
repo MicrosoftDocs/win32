@@ -3,7 +3,7 @@ Description: The SetKeepAliveTime WMI class static method is used to set how oft
 ms.assetid: 8640b109-928b-46fc-8dce-9ee5dcbd94e3
 ms.tgt_platform: multiple
 title: SetKeepAliveTime method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: DoubleColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: DoubleColumnValue methods
 TOCTitle: DoubleColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.doublecolumnvalue_methods(v=EXCHG.10)

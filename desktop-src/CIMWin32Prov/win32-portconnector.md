@@ -3,7 +3,7 @@ Description: The Win32\_PortConnector WMI class represents physical connection p
 ms.assetid: 85788d1d-0641-4dba-b4ae-a84eb6c4992a
 ms.tgt_platform: multiple
 title: Win32_PortConnector class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

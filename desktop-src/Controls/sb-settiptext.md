@@ -1,5 +1,5 @@
 ---
-title: SB_SETTIPTEXT message
+title: SB_SETTIPTEXT message (Commctrl.h)
 description: Sets the tooltip text for a part in a status bar. The status bar must have been created with the SBT\_TOOLTIPS style to enable tooltips.
 ms.assetid: 8fc3cc00-9742-4861-b2c2-b8aa30f75aaa
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

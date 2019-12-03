@@ -3,7 +3,7 @@ Description: Enables this Plug and Play device.
 ms.assetid: 8f2096c4-03b4-4005-9b97-0086f2b41080
 ms.tgt_platform: multiple
 title: Enable method of the Win32_PnPEntity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

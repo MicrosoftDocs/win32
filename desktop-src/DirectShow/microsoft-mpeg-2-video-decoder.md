@@ -1,8 +1,8 @@
 ---
 Description: This filter decodes MPEG-1, MPEG-2, H.264 video.
 ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
-title: Microsoft MPEG-2 Video Decoder
-ms.topic: article
+title: Microsoft MPEG-2 Video Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

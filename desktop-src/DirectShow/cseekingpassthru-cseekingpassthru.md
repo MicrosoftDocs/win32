@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: e31253fc-b365-4414-9dee-906d4c41d16e
-title: CSeekingPassThru.CSeekingPassThru constructor
-ms.topic: article
+title: CSeekingPassThru.CSeekingPassThru constructor (Seekpt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

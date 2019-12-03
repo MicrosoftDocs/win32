@@ -1,5 +1,5 @@
 ﻿---
-title: JET_OSSNAPID operators (Microsoft.Isam.Esent.Interop)
+title: JET_OSSNAPID operators
 TOCTitle: JET_OSSNAPID operators
 ms:assetid: 30e3519b-5ceb-150e-eaf2-d15c3133310b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh564633(v=EXCHG.10)

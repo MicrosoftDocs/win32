@@ -2,7 +2,7 @@
 Description: The PlayForwards method starts forward playback from the current location at the specified speed.
 ms.assetid: 4f1a3e74-b343-413d-8df7-6c4bea39c62d
 title: PlayForwards Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SEQUENCE_NOFILE message
+title: WM_CAP_SEQUENCE_NOFILE message (Vfw.h)
 description: The WM\_CAP\_SEQUENCE\_NOFILE message initiates streaming video capture without writing data to a file. You can send this message explicitly or by using the capCaptureSequenceNoFile macro.
 ms.assetid: 60cbcb62-3bfa-4182-a049-1e3cb2ede423
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

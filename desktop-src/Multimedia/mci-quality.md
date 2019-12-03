@@ -1,5 +1,5 @@
 ---
-title: MCI_QUALITY command
+title: MCI_QUALITY command (Mmsystem.h)
 description: The MCI\_QUALITY command defines a custom quality level for audio, video, or still image data compression. Digital-video devices recognize this command.
 ms.assetid: 91ad9704-0089-4b1f-b0f6-919ab5fd84e0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

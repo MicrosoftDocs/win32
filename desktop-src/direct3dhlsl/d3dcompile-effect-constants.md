@@ -1,5 +1,5 @@
 ---
-title: D3DCOMPILE_EFFECT Constants
+title: D3DCOMPILE_EFFECT Constants (D3DCompiler.h)
 description: These constants direct how the compiler compiles an effect file or how the runtime processes the effect file.
 ms.assetid: AA46E5ED-92DD-4327-B852-8DD23A878562
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - D3DCompiler.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

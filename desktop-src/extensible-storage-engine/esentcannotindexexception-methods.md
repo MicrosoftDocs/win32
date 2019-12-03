@@ -1,5 +1,5 @@
 ---
-title: EsentCannotIndexException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCannotIndexException methods
 TOCTitle: EsentCannotIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotindexexception_methods(v=EXCHG.10)

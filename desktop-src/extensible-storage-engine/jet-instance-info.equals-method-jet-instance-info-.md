@@ -1,11 +1,11 @@
 ---
-title: JET_INSTANCE_INFO.Equals method (JET_INSTANCE_INFO) (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE_INFO.Equals method (JET_INSTANCE_INFO)
 TOCTitle: Equals method (JET_INSTANCE_INFO)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.Equals(Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info.equals(v=EXCHG.10)
 ms:contentKeyID: 55103697
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

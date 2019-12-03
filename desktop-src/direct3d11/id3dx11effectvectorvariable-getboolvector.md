@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable GetBoolVector method
+title: ID3DX11EffectVectorVariable GetBoolVector method (D3dx11effect.h)
 description: Get a four-component vector that contains boolean data.
 ms.assetid: ecaf5705-d13b-4d61-9766-d2ff183af789
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

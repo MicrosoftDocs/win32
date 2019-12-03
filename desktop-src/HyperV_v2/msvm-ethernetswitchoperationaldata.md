@@ -2,7 +2,7 @@
 Description: Represents switch operational parameters.
 ms.assetid: f225d321-8f40-4e6c-b30d-8fab3f84761d
 title: Msvm_EthernetSwitchOperationalData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

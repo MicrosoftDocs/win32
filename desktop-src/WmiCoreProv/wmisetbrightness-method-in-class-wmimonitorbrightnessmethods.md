@@ -2,7 +2,7 @@
 Description: Sets the display brightness of a computer monitor.
 ms.assetid: 900cf5fd-6888-4f0b-8e0b-01eeaaeeeb8f
 title: WmiSetBrightness method of the WmiMonitorBrightnessMethods class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

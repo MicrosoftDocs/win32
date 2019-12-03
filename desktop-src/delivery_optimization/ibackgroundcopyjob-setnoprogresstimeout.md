@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob SetNoProgressTimeout method
+title: IBackgroundCopyJob SetNoProgressTimeout method (Deliveryoptimization.h)
 description: Sets the length of time that Delivery Optimization (DO) tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 ms.assetid: DC86F74F-8429-4D78-B425-CAF19867B05E
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

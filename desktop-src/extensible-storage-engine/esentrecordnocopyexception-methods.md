@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNoCopyException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNoCopyException methods
 TOCTitle: EsentRecordNoCopyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnocopyexception_methods(v=EXCHG.10)

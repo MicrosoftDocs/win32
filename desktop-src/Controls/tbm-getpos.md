@@ -1,5 +1,5 @@
 ---
-title: TBM_GETPOS message
+title: TBM_GETPOS message (Commctrl.h)
 description: Retrieves the current logical position of the slider in a trackbar. The logical positions are the integer values in the trackbar's range of minimum to maximum slider positions.
 ms.assetid: 6f082ab2-2f9a-4bc0-bfca-56f7b1a2d921
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

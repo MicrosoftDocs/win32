@@ -1,11 +1,11 @@
 ---
-title: IJET_LOGTIME interface (Microsoft.Isam.Esent.Interop)
+title: IJET_LOGTIME interface
 TOCTitle: IJET_LOGTIME interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.ijet_logtime(v=EXCHG.10)
 ms:contentKeyID: 39516007
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.IJET_LOGTIME
 dev_langs:

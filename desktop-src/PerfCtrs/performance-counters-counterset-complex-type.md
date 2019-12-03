@@ -2,7 +2,7 @@
 Description: Defines a list of counters that are logically related.
 ms.assetid: d094146a-389e-4053-8ee5-acd29254e817
 title: counterSet Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

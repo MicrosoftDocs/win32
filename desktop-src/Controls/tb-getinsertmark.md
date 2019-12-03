@@ -1,5 +1,5 @@
 ---
-title: TB_GETINSERTMARK message
+title: TB_GETINSERTMARK message (Commctrl.h)
 description: Retrieves the current insertion mark for the toolbar.
 ms.assetid: b22770a4-e859-451d-a726-279bbc49b984
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

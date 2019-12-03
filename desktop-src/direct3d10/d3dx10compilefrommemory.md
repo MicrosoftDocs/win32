@@ -1,8 +1,8 @@
 ---
 Description: Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect that is loaded in memory.
 ms.assetid: c6458d82-a649-402c-8180-5b7320f9fdb0
-title: D3DX10CompileFromMemory function
-ms.topic: article
+title: D3DX10CompileFromMemory function (D3DX10Async.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

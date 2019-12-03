@@ -2,7 +2,7 @@
 Description: The following tables list media subtype GUIDs for audio. Where applicable, each table lists the equivalent format tag, declared in Mmreg.h.
 ms.assetid: 55012be5-2d61-4d38-aab7-0c42f161f555
 title: Audio Subtypes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

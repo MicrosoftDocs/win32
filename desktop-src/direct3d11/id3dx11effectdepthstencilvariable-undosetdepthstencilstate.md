@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilVariable UndoSetDepthStencilState method
+title: ID3DX11EffectDepthStencilVariable UndoSetDepthStencilState method (D3dx11effect.h)
 description: Reverts a previously set depth stencil state.
 ms.assetid: 558bc777-a520-4235-84d3-db2d9f1ce4b6
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

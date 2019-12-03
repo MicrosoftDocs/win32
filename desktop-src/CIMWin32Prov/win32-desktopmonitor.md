@@ -3,7 +3,7 @@ Description: Represents the type of monitor or display device attached to the co
 ms.assetid: 922be3c1-3c7b-4418-a72f-ab5ada91a7a4
 ms.tgt_platform: multiple
 title: Win32_DesktopMonitor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

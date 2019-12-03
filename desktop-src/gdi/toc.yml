@@ -541,7 +541,7 @@
         href: obtaining-a-private-display-device-context.md
       - name: "Retrieving the Capabilities of a Printer"
         href: retrieving-the-capabilities-of-a-printer.md
-      - name: "Retrieving Graphic-Object Attributes and Selecting New Graphic Objects"
+      - name: "Retrieve object attributes, select new objects"
         href: retrieving-graphic-object-attributes-and-selecting-new-graphic-objects.md
       - name: "Setting and Retrieving the Device Context Brush Color Value"
         href: setting-and-retrieving-the-device-context-brush-color-value.md

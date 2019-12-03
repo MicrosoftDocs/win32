@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo GetIcon method
+title: INapComponentInfo GetIcon method (NapCommon.h)
 description: Is used by the NAP System to get the icon of a health client.
 ms.assetid: 6501fe12-1ec0-43a1-b672-b6cfd9a08d85
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

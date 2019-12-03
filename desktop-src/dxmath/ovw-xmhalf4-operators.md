@@ -2,7 +2,7 @@
 Description: The XMHALF4 structure exposes the following operators.
 ms.assetid: b69b554d-afdc-48ea-a8a6-45e4000993ac
 title: XMHALF4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

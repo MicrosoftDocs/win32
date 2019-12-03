@@ -1,8 +1,8 @@
 ---
-title: Classes
+title: Classes (Media Streaming API)
 description: The Media Streaming API provides the following classes.
 ms.assetid: E537FCE0-5AE5-41BC-903D-AE67CE9F4D78
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

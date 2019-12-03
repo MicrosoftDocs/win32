@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS SetParameter method
+title: IVMGuestOS SetParameter method (VPCCOMInterfaces.h)
 description: Sets a named parameter within the guest operating system.
 ms.assetid: ed6ade61-19dc-44ac-9e86-29fffe80e874
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

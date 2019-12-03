@@ -1,11 +1,11 @@
 ---
-title: EsentOutOfDatabaseSpaceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDatabaseSpaceException constructor 
 TOCTitle: 'EsentOutOfDatabaseSpaceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdatabasespaceexception.esentoutofdatabasespaceexception(v=EXCHG.10)
 ms:contentKeyID: 55102461
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException.EsentOutOfDatabaseSpaceException
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherAlpha methods
+title: TextureCube::TextureCube GatherAlpha methods
 description: Samples a texture and returns the alpha component.
 ms.assetid: 1384BB1D-9AE7-4014-AB99-3EE84B383653
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

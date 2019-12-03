@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine DiscardUndoDisks method
+title: IVMVirtualMachine DiscardUndoDisks method (VPCCOMInterfaces.h)
 description: Discards the virtual undo disks.
 ms.assetid: 5c3a4b3f-ea58-498c-b7cf-54f028fa061c
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

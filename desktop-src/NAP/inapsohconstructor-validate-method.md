@@ -1,5 +1,5 @@
 ---
-title: INapSoHConstructor Validate method
+title: INapSoHConstructor Validate method (NapProtocol.h)
 description: Checks the validity of the SoH packet.
 ms.assetid: 66338213-43c0-461a-a794-5f18d56bd505
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

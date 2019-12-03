@@ -1,5 +1,5 @@
 ---
-title: Virtual-Key Codes
+title: Virtual-Key Codes (Winuser.h)
 description: The following table shows the symbolic constant names, hexadecimal values, and mouse or keyboard equivalents for the virtual-key codes used by the system. The codes are listed in numeric order.
 ms.assetid: fa8926ad-41b2-4164-9ba3-ae501fd0eef2
 topic_type:
@@ -146,7 +146,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

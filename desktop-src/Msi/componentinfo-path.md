@@ -2,7 +2,7 @@
 Description: The path of the component.
 ms.assetid: f10253f4-d948-4853-9056-2a5c674a6506
 title: ComponentInfo.Path property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

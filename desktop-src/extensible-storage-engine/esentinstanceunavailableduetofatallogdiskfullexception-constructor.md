@@ -1,11 +1,11 @@
 ---
-title: EsentInstanceUnavailableDueToFatalLogDiskFullException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceUnavailableDueToFatalLogDiskFullException constructor 
 TOCTitle: 'EsentInstanceUnavailableDueToFatalLogDiskFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableduetofatallogdiskfullexception.esentinstanceunavailableduetofatallogdiskfullexception(v=EXCHG.10)
 ms:contentKeyID: 55101824
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException.EsentInstanceUnavailableDueToFatalLogDiskFullException
 dev_langs:

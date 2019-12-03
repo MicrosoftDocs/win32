@@ -1,8 +1,8 @@
 ---
 Description: Contains the photo thumbnail of a IMFSample.
 ms.assetid: 510706A3-92FB-4188-97B9-6E8E0B4B175F
-title: MFSampleExtension_PhotoThumbnail attribute
-ms.topic: article
+title: MFSampleExtension_PhotoThumbnail attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

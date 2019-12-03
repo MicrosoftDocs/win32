@@ -2,7 +2,7 @@
 Description: An effect technique is declared with the following syntax.
 ms.assetid: 84f9b74d-8397-4cd5-91a0-7f910ba7b19e
 title: Effect Technique Syntax (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

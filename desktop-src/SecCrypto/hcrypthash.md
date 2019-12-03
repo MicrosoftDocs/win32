@@ -1,8 +1,8 @@
 ---
 Description: The HCRYPTHASH data type is used to represent handles to hash objects.
 ms.assetid: 3b872bf0-cf1b-465b-82a2-c6fd154e1125
-title: HCRYPTHASH
-ms.topic: article
+title: HCRYPTHASH (Wincrypt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

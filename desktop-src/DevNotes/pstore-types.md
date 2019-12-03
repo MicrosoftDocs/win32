@@ -1,8 +1,8 @@
 ---
 Description: The data types for Protected Storage methods.
 ms.assetid: 4d494326-6d0f-4a12-83a2-3c3dd3ca9c1b
-title: PStore Types
-ms.topic: article
+title: PStore Types (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

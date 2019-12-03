@@ -1,8 +1,8 @@
 ---
 Description: The put\_MachineAddress method sets the machine address of the originating host.
 ms.assetid: f4af55b1-e20b-4fe8-a15e-a1a68d22f1b9
-title: ITSdp::put_MachineAddress method
-ms.topic: article
+title: ITSdp::put_MachineAddress method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

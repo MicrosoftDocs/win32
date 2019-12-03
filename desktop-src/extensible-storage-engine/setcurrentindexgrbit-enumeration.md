@@ -1,11 +1,11 @@
 ---
-title: SetCurrentIndexGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: SetCurrentIndexGrbit enumeration
 TOCTitle: SetCurrentIndexGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.setcurrentindexgrbit(v=EXCHG.10)
 ms:contentKeyID: 39515072
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit
 - Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit.MoveFirst

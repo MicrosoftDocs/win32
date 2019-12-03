@@ -3,7 +3,7 @@ Description: The Win32\_PageFileSetting&\#8194;WMI class represents the settings
 ms.assetid: 22190ede-1db6-4d69-ae74-63d10977cc78
 ms.tgt_platform: multiple
 title: Win32_PageFileSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

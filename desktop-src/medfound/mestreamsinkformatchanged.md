@@ -1,8 +1,8 @@
 ---
 Description: Raised by a stream sink when the sinks media type is no longer valid.
 ms.assetid: 9eeb4262-1593-4c5f-9341-ebd328b586e7
-title: MEStreamSinkFormatChanged event
-ms.topic: article
+title: MEStreamSinkFormatChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

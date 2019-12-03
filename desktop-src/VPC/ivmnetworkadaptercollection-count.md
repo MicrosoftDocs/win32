@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapterCollection Count property
+title: IVMNetworkAdapterCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of network interfaces in this collection.
 ms.assetid: 0b6391fa-62fe-4db1-b0a2-565ab17157ab
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

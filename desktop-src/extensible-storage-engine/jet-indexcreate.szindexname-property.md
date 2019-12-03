@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXCREATE.szIndexName property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.szIndexName property 
 TOCTitle: 'szIndexName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.szIndexName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.szindexname(v=EXCHG.10)
 ms:contentKeyID: 55103583
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.szIndexName
 dev_langs:

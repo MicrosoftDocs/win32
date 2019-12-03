@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETDEVICEID message
+title: MCIWNDM_GETDEVICEID message (Vfw.h)
 description: The MCIWNDM\_GETDEVICEID message retrieves the identifier of the currently open MCI device to use with the mciSendCommand function. You can send this message explicitly or by using the MCIWndGetDeviceID macro.
 ms.assetid: 188f15fa-579a-438e-a812-9a2b684127c0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

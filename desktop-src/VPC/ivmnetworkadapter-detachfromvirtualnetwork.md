@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter DetachFromVirtualNetwork method
+title: IVMNetworkAdapter DetachFromVirtualNetwork method (VPCCOMInterfaces.h)
 description: Detaches the network interface from its virtual network.
 ms.assetid: f1a00ea2-2b79-4b5c-a4bd-3cab66deb0d0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 Robots: noindex, nofollow
 ms.assetid: 771277DF-D50A-4701-93D9-951D7EF8E7E1
-title: R
+title: R (Isolated Applications and Side-by-side Assemblies)
 ms.topic: article
 ms.date: 05/31/2018
 ---

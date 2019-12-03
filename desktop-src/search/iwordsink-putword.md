@@ -1,8 +1,8 @@
 ---
 Description: Puts a word and its position in the IWordSink object.
 ms.assetid: 3D645BF6-895E-46E2-92A3-3E301CD228D8
-title: IWordSink::PutWord method
-ms.topic: article
+title: IWordSink::PutWord method (Search.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IADsPropertyEntry Property Methods
+title: IADsPropertyEntry Property Methods (Iads.h)
 description: Provide access to the following properties.
 ms.assetid: 73b0f6d4-55db-46cf-a781-e10bc4fcf2db
 ms.tgt_platform: multiple
@@ -25,7 +25,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

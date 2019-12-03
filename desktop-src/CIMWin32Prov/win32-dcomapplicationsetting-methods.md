@@ -17,7 +17,7 @@ The [**Win32\_DCOMApplicationSetting**](win32-dcomapplicationsetting.md) class e
 -   [**SetAccessSecurityDescriptor method**](setaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)
 -   [**GetConfigurationSecurityDescriptor method**](getconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)
 -   [**SetConfigurationSecurityDescriptor method**](setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)
--   [**SetLaunchSecurityDescriptor method**](getlaunchsecuritydescriptor-in-class-win32-dcomapplicationsetting.md)
+-   [**GetLaunchSecurityDescriptor method**](getlaunchsecuritydescriptor-in-class-win32-dcomapplicationsetting.md)
 -   [**SetLaunchSecurityDescriptor method**](setlaunchsecuritydescriptor-method-in-class-win32-dcomapplicationsetting.md)
 
  

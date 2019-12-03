@@ -1,11 +1,11 @@
 ---
-title: EsentFileIOFailException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOFailException constructor 
 TOCTitle: 'EsentFileIOFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOFailException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiofailexception.esentfileiofailexception(v=EXCHG.10)
 ms:contentKeyID: 55107277
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentFileIOFailException.EsentFileIOFailException
 dev_langs:

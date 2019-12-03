@@ -1,8 +1,8 @@
 ---
 Description: Creates an enumerator of property information for each available Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: e37b73d5-5192-46e4-bb1c-bd1ef41f1d6c
-title: IWiaDevMgr2::EnumDeviceInfo method
-ms.topic: article
+title: IWiaDevMgr2::EnumDeviceInfo method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

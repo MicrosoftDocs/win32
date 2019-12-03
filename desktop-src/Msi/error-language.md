@@ -1,8 +1,8 @@
 ---
 Description: The read-only Language property of the Error object returns the LANGID of the current error.
 ms.assetid: f47cad5d-8e76-4210-b1ab-377d2d05379e
-title: Error.Language property
-ms.topic: article
+title: Error.Language property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

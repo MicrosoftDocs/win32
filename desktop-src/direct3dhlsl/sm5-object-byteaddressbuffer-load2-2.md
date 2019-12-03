@@ -1,5 +1,5 @@
 ---
-title: Load2(uint, uint) function
+title: ByteAddressBuffer::Load2(uint, uint) function
 description: Gets two values and the status of the operation.
 ms.assetid: EE6FA09D-0C86-499D-86F9-EAA56125EB91
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load2
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

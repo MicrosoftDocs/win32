@@ -1,5 +1,5 @@
 ---
-title: TCM_GETUNICODEFORMAT message
+title: TCM_GETUNICODEFORMAT message (Commctrl.h)
 description: Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the TabCtrl\_GetUnicodeFormat macro.
 ms.assetid: 720e0325-500b-436c-8713-38ed780735bf
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

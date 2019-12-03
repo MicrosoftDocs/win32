@@ -3,7 +3,7 @@ Description: Epresents the properties of a Plug and Play device.
 ms.assetid: 621f4410-8d8f-4afa-b0f0-beed263f3a13
 ms.tgt_platform: multiple
 title: Win32_PnPEntity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

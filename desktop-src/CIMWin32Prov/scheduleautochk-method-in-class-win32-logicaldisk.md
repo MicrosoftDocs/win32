@@ -3,7 +3,7 @@ Description: Schedules Autochk to be run on the disk drive represented by the Wi
 ms.assetid: 34f4c26b-6bfb-45d9-9d6c-0a9b735355f3
 ms.tgt_platform: multiple
 title: ScheduleAutoChk method of the Win32_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

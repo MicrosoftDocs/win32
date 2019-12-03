@@ -1,5 +1,5 @@
 ---
-title: WM_CHOOSEFONT_SETFLAGS message
+title: WM_CHOOSEFONT_SETFLAGS message (Commdlg.h)
 description: An application sends the WM\_CHOOSEFONT\_SETFLAGS message to a Font dialog box to set the display options for the dialog box.
 ms.assetid: 945ebc07-440d-4466-8255-ad344bdc568a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

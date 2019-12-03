@@ -2,9 +2,6 @@
 title: Configuring the EAP Method User Interface
 description: Explains how to configure the supplicant by supplying an EAP method configuration to EAPHost.
 ms.assetid: f6a23201-e221-4098-863f-71a81735d927
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

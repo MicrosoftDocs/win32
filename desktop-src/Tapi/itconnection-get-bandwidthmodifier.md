@@ -1,8 +1,8 @@
 ---
 Description: The get\_BandwidthModifier method gets the bandwidth modifier, which is a single, alphanumeric word giving the meaning of the bandwidth figure. The two modifiers defined are CT (Conference Total) and AS (Application Specific Maximum).
 ms.assetid: 29bf137d-e88b-437f-8bf1-824e335d47a1
-title: ITConnection::get_BandwidthModifier method
-ms.topic: article
+title: ITConnection::get_BandwidthModifier method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CB_CONNECTION_INFO structure
+title: CB_CONNECTION_INFO structure (Cbclient.h)
 description: Contains information about an incoming connection request.
 ms.assetid: BA908425-3B68-40AA-B1E3-153D6873EF2C
 ms.tgt_platform: multiple
@@ -14,7 +14,7 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

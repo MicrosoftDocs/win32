@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesException properties
 TOCTitle: EsentTooManyOpenTablesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesexception_properties(v=EXCHG.10)

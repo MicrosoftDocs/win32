@@ -1,8 +1,8 @@
 ---
 Description: This method is not currently implemented and returns E\_NOTIMPL.
 ms.assetid: 1004d7e1-d1e9-4217-bbbb-a25f46c7112f
-title: CDeferredCommand.Confidence method
-ms.topic: article
+title: CDeferredCommand.Confidence method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

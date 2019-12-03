@@ -1,8 +1,8 @@
 ---
 Description: Loads a surface from another surface with color conversion.
 ms.assetid: eddb420d-fd32-4c09-afec-435887c4e905
-title: D3DXLoadSurfaceFromSurface function
-ms.topic: article
+title: D3DXLoadSurfaceFromSurface function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

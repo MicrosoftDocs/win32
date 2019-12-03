@@ -1,6 +1,6 @@
 ---
 Description: A subquery is a saved search file (\*.search-ms) that you can use as a filter for a new query.
-title: SUBQUERY Argument
+title: SUBQUERY Argument (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 2d97b891-ba62-4009-bc6a-9f42e6dbbb34

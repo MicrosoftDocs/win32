@@ -1,5 +1,5 @@
 ---
-title: IConnectionBrokerRequest interface
+title: IConnectionBrokerRequest interface (Cbclient.h)
 description: Provides the methods needed to obtain the results of the asynchronous IConnectionBrokerClient GetTargetInfo method.
 ms.assetid: 20F42FDC-7026-468E-9B8D-25DFFBE229C1
 ms.tgt_platform: multiple
@@ -14,7 +14,7 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 Description: The Derivation\_ property of the SWbemObject object contains an array of strings that describe the class derivation hierarchy for the instance being referenced.
 ms.assetid: 8a4daab0-7d10-4a37-aacd-1f3f499b859a
 ms.tgt_platform: multiple
-title: SWbemObject.Derivation_ property
-ms.topic: article
+title: SWbemObject.Derivation_ property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ﻿---
-title: JET_RSTINFO properties (Microsoft.Isam.Esent.Interop)
+title: JET_RSTINFO properties
 TOCTitle: JET_RSTINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RSTINFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_rstinfo_properties(v=EXCHG.10)

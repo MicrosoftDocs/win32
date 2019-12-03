@@ -2,7 +2,7 @@
 Description: The ProvideAssembly method of the Installer object returns the installed path of an assembly.
 ms.assetid: c99b1934-3834-478b-ab1d-7e7583dba779
 title: Installer::ProvideAssembly method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

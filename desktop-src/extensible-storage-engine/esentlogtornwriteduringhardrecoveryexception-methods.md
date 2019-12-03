@@ -1,5 +1,5 @@
 ---
-title: EsentLogTornWriteDuringHardRecoveryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogTornWriteDuringHardRecoveryException methods
 TOCTitle: EsentLogTornWriteDuringHardRecoveryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRecoveryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogtornwriteduringhardrecoveryexception_methods(v=EXCHG.10)

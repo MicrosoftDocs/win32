@@ -1,8 +1,8 @@
 ---
 Description: Opens a scan profile that has been saved to disk as an XML file.
 ms.assetid: 2b45280e-a1b6-4db9-af8c-09faff34b067
-title: IScanProfileMgr::OpenProfile method
-ms.topic: article
+title: IScanProfileMgr::OpenProfile method (Scanprofilemgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

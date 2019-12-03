@@ -2,7 +2,7 @@
 Description: Converts a Unicode character string or a single character to lowercase.
 ms.assetid: 09b7cf8e-6aed-40f4-9dfa-29be3559ae89
 title: CharLowerWrapW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

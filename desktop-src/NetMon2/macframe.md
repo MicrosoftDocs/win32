@@ -1,8 +1,8 @@
 ---
 Description: The MACFRAME structure is a union of the most common initial protocols.
 ms.assetid: ec7e3a54-a47f-4390-a137-9574c63c9a11
-title: MACFRAME union
-ms.topic: structure
+title: MACFRAME union (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

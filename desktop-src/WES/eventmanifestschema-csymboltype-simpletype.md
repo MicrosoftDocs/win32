@@ -1,5 +1,5 @@
 ---
-title: CSymbolType Simple Type
+title: CSymbolType Simple Type (Windows Event Log)
 description: Defines a valid C/C++ symbol name.
 ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - CSymbolType
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

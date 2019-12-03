@@ -2,10 +2,10 @@
 title: dcl_temps (sm4 - asm)
 description: dcl\_temps (sm4 - asm)
 ms.assetid: ecfbdd1e-0f2d-4371-91cc-ebc3e5ee8ee7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

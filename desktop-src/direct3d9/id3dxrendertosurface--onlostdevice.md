@@ -1,8 +1,8 @@
 ---
 Description: Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost or before resetting a device.
 ms.assetid: 8962236d-4801-46a3-9944-a7c4ad762882
-title: ID3DXRenderToSurface::OnLostDevice method
-ms.topic: article
+title: ID3DXRenderToSurface::OnLostDevice method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

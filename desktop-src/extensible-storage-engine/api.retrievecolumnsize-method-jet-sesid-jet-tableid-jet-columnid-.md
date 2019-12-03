@@ -1,11 +1,11 @@
 ---
-title: Api.RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID) (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 TOCTitle: RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnSize(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnsize(v=EXCHG.10)
 ms:contentKeyID: 55100868
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

@@ -1,5 +1,5 @@
 ---
-title: SBM_SETRANGE message
+title: SBM_SETRANGE message (Winuser.h)
 description: The SBM\_SETRANGE message is sent to set the minimum and maximum position values for the scroll bar control.
 ms.assetid: 9cf84354-3944-4c10-9b59-39427b840868
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

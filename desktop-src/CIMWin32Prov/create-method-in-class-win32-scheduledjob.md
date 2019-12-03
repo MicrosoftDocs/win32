@@ -3,7 +3,7 @@ Description: Submits a job to an operating system for execution at a specified t
 ms.assetid: 9d582fbb-24cb-401d-8b77-af7671a24e6d
 ms.tgt_platform: multiple
 title: Create method of the Win32_ScheduledJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

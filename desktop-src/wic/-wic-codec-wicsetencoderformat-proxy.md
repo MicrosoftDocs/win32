@@ -2,7 +2,7 @@
 Description: Proxy function for negotiating the pixel format and the palette for the encoder.
 ms.assetid: 01179598-ba40-4aed-a7c4-888cb4e851f4
 title: WICSetEncoderFormat_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

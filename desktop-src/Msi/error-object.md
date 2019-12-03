@@ -1,8 +1,8 @@
 ---
 Description: The Error object returns the information of a single merge error.
 ms.assetid: 38025e21-2d31-40f8-a088-2d3912c2893e
-title: Error object
-ms.topic: interface
+title: Error object (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

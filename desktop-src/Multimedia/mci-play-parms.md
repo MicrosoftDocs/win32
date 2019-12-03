@@ -1,5 +1,5 @@
 ---
-title: MCI_PLAY_PARMS structure
+title: MCI_PLAY_PARMS structure (Mciapi.h)
 description: The MCI\_PLAY\_PARMS structure contains positioning information for the MCI\_PLAY command.
 ms.assetid: f1bacf61-ec14-4391-b227-20b35c0bbbc3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

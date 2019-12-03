@@ -2,7 +2,7 @@
 Description: The EnableUIPreview method of the Database object facilitates the authoring of dialog boxes and billboards by providing the support needed to view user interface dialog boxes stored in the installer database.
 ms.assetid: c4687de7-8ab4-4377-ac5c-1fed7c915519
 title: Database.EnableUIPreview method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

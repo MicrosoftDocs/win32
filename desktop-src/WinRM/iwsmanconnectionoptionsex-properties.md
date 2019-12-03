@@ -3,7 +3,7 @@ title: IWSManConnectionOptionsEx Properties
 description: The IWSManConnectionOptionsEx interface exposes the following properties.
 ms.assetid: 79FCE78F-7294-4A77-88AA-E9654115AD63
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

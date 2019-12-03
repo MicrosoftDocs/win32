@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.ForceNewLog
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7grbits.forcenewlog(v=EXCHG.10)
 ms:contentKeyID: 55104381
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.ForceNewLog
 dev_langs:

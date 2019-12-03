@@ -1,5 +1,5 @@
 ---
-title: MpManagerStatusQuery function
+title: MpManagerStatusQuery function (MpClient.h)
 description: Returns status information about various components of the malware protection manager.
 ms.assetid: E993FD8B-A35D-41C1-9522-1B9F0BC10B3D
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Color Palettes
+title: Color Palettes (Windows Media Player SDK)
 description: Color Palettes
 ms.assetid: 3054a846-5830-4923-a546-0575a06c4530
 keywords:

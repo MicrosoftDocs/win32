@@ -1,5 +1,5 @@
 ---
-title: EapHostPeerNapInfo structure
+title: EapHostPeerNapInfo structure (Eaphostpeerapis.h)
 description: Contains the Network Access Protection (NAP) information on an EAP supplicant.
 ms.assetid: 703eda56-5932-44d5-ae7f-0a6328d82237
 keywords:
@@ -12,10 +12,7 @@ api_location:
 - eaphostpeerapis.h
 api_type:
 - HeaderDef
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

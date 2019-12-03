@@ -3,7 +3,7 @@ Description: Requests that the compiler load the MOF file into the namespace spe
 ms.assetid: d280f67a-a798-47c0-b8de-071c290dd216
 ms.tgt_platform: multiple
 title: pragma namespace
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: TCN_GETOBJECT notification code
+title: TCN_GETOBJECT notification code (Commctrl.h)
 description: Sent by a tab control when it has the TCS\_EX\_REGISTERDROP extended style and an object is dragged over a tab item in the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0beddabe-0e97-4fe7-bcf7-adaba0d72dfe
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

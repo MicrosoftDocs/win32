@@ -1,8 +1,8 @@
 ---
 Description: The TransAdd method adds a transition to the object. An object can have multiple transitions, but they must not overlap in time. Transitions must fall within the time boundaries of the object.
 ms.assetid: 2c3f923f-c754-4cc8-82ca-d3979d4bda07
-title: IAMTimelineTransable::TransAdd method
-ms.topic: article
+title: IAMTimelineTransable::TransAdd method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

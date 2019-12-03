@@ -2,7 +2,7 @@
 Description: Represents a collection of virtual system reference points.
 ms.assetid: dc293f94-a683-468f-af05-ba99824d773e
 title: Msvm_ReferencePointCollection class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

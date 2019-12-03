@@ -1,5 +1,5 @@
 ---
-title: MM_ACM_FORMATCHOOSE message
+title: MM_ACM_FORMATCHOOSE message (Msacm.h)
 description: The MM\_ACM\_FORMATCHOOSE message notifies an acmFormatChoose dialog hook function before adding an element to one of the three drop-down list boxes.
 ms.assetid: f77e41c6-14e9-45c0-971e-4d6325145f1c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Msacm.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: EsentAfterInitializationException class (Microsoft.Isam.Esent.Interop)
+title: EsentAfterInitializationException class
 TOCTitle: EsentAfterInitializationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentafterinitializationexception(v=EXCHG.10)
 ms:contentKeyID: 55101005
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentAfterInitializationException
 dev_langs:

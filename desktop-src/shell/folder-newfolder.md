@@ -1,8 +1,8 @@
 ---
 Description: Creates a new folder.
 ms.assetid: 7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87
-title: Folder.NewFolder method
-ms.topic: article
+title: Folder.NewFolder method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

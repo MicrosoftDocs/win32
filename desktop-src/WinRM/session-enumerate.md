@@ -1,5 +1,5 @@
 ---
-title: Session.Enumerate method
+title: Session.Enumerate method (WSManDisp.h)
 description: Enumerates a table, data collection, or log resource.
 ms.assetid: ed8ad3ad-d033-45cb-b681-995c5f73b12e
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

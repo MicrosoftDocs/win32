@@ -1,5 +1,5 @@
 ---
-title: MM_MCINOTIFY message
+title: MM_MCINOTIFY message (Mmsystem.h)
 description: The MM\_MCINOTIFY message notifies an application that an MCI device has completed an operation. MCI devices send this message only when the MCI\_NOTIFY flag is used.
 ms.assetid: a0840130-2969-4ce5-b098-3e45401eebb1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetFloat method
+title: ID3DX11EffectScalarVariable GetFloat method (D3dx11effect.h)
 description: Get a floating-point variable.
 ms.assetid: 0416db40-5e70-44e4-905f-86f49a9b58b8
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a collection of IContextNode objects that are relevant to the specified text range for the specified context nodes.
 ms.assetid: 39a5dd52-7007-4395-8668-261eca78a090
-title: IInkAnalyzer::GetNodesFromTextRange method
-ms.topic: article
+title: IInkAnalyzer::GetNodesFromTextRange method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

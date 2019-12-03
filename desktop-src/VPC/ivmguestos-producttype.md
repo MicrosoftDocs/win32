@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS ProductType property
+title: IVMGuestOS ProductType property (VPCCOMInterfaces.h)
 description: Retrieves the product type of the guest operating system running in the virtual machine.
 ms.assetid: 426cd456-42a6-4bcd-a7a2-3aec258b02cb
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

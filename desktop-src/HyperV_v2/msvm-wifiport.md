@@ -2,7 +2,7 @@
 Description: Represents a physical Wi-Fi (802.11) network adapter that can be bound to a virtual switch to provide external network connectivity to virtual machines.
 ms.assetid: c6dae491-607c-4f17-aea9-162d910120c2
 title: Msvm_WiFiPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: WINBIO_IDENTITY_TYPE Constants
+title: WINBIO_IDENTITY_TYPE Constants (Winbio\_types.h)
 description: Specify the format of the identity information contained in the WINBIO\_IDENTITY structure.
 ms.assetid: 27A01538-9B26-4A29-8ADB-ED9C5D5808B3
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

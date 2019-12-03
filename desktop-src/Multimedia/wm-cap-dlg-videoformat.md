@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_DLG_VIDEOFORMAT message
+title: WM_CAP_DLG_VIDEOFORMAT message (Vfw.h)
 description: The WM\_CAP\_DLG\_VIDEOFORMAT message displays a dialog box in which the user can select the video format.
 ms.assetid: 3b44507e-3806-467f-877a-e9992d1337cb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

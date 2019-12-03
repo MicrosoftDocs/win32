@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob interface
+title: IBackgroundCopyJob interface (Deliveryoptimization.h)
 description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
 ms.assetid: 0D1EAC8D-0013-4FBC-A07F-14CD5D709549
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

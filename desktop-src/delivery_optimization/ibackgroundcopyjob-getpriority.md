@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetPriority method
+title: IBackgroundCopyJob GetPriority method (Deliveryoptimization.h)
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 ms.assetid: 2F778B35-8DBB-4540-88C2-A2E18EBB0D89
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

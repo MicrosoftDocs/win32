@@ -1,5 +1,5 @@
 ---
-title: RB_GETBANDCOUNT message
+title: RB_GETBANDCOUNT message (Commctrl.h)
 description: Retrieves the count of bands currently in the rebar control.
 ms.assetid: cd521a6b-18ed-4343-8bd8-1b6548b1ac81
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

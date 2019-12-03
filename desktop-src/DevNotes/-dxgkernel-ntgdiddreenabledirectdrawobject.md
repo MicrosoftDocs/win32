@@ -1,8 +1,8 @@
 ---
 Description: Re-enables a Microsoft DirectDraw kernel-mode device object after a mode switch.
 ms.assetid: 26451881-cebf-4db1-aeed-365f0dae6704
-title: NtGdiDdReenableDirectDrawObject function
-ms.topic: article
+title: NtGdiDdReenableDirectDrawObject function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: WM_CHOOSEFONT_SETLOGFONT message
+title: WM_CHOOSEFONT_SETLOGFONT message (Commdlg.h)
 description: An application sends the WM\_CHOOSEFONT\_SETLOGFONT message to a Font dialog box to set the current logical font information.
 ms.assetid: ad169eca-a3ae-45bd-90df-821a93a7a764
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

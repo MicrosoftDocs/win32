@@ -1,8 +1,8 @@
 ---
 Description: Swizzles a vector.
 ms.assetid: 75608e80-5911-45a8-beca-ceac1f4d2c1c
-title: XMVectorSwizzle template
-ms.topic: article
+title: XMVectorSwizzle template (DirectXMath.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

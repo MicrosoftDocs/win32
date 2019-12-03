@@ -1,5 +1,5 @@
 ---
-title: IResultType GetProperty property
+title: IResultType GetProperty property (WdsSharedIDL.h)
 description: This property contains specified property information.
 ms.assetid: 04c810f2-c781-4384-93ae-1060466e2bc4
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine5Callbacks::RenderTextureComplete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 321219F0-209F-41AB-A2B0-A053FB6C3AE7
 api_name: 

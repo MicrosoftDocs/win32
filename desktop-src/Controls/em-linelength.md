@@ -1,5 +1,5 @@
 ---
-title: EM_LINELENGTH message
+title: EM_LINELENGTH message (Winuser.h)
 description: Retrieves the length, in characters, of a line in an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: cfb0632c-9ba9-4864-939a-dbbaed6c177e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

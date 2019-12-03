@@ -1,5 +1,5 @@
 ---
-title: MCI_SEEK command
+title: MCI_SEEK command (Mmsystem.h)
 description: The MCI\_SEEK command changes the current position in the content as quickly as possible.
 ms.assetid: 5ffab964-a28d-4dc2-ac04-da501cd34d24
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

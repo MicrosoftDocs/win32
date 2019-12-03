@@ -2,7 +2,7 @@
 Description: Represents the virtual LAN (VLAN) setting data.
 ms.assetid: c3a49021-5256-4751-a5a5-81bf1c6d6e6d
 title: Msvm_EthernetSwitchPortVlanSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

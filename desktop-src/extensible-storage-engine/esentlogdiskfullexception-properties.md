@@ -1,5 +1,5 @@
 ---
-title: EsentLogDiskFullException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogDiskFullException properties
 TOCTitle: EsentLogDiskFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogdiskfullexception_properties(v=EXCHG.10)

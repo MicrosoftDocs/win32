@@ -3,7 +3,7 @@ Description: Represents a PnP device property of type Uint8.
 ms.assetid: 56DCA3FD-45FD-4E87-909D-BE4CEFE2DF5A
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint8 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

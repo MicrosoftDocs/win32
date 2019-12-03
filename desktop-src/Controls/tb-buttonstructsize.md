@@ -1,5 +1,5 @@
 ---
-title: TB_BUTTONSTRUCTSIZE message
+title: TB_BUTTONSTRUCTSIZE message (Commctrl.h)
 description: Specifies the size of the TBBUTTON structure.
 ms.assetid: 4e63a075-4191-44c1-8df6-38fce51d4be5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

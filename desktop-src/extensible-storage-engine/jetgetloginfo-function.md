@@ -5,7 +5,7 @@ ms:assetid: a9d14830-d731-4d47-bdc2-c0660a08678e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294055(v=EXCHG.10)
 ms:contentKeyID: 32765665
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetLogInfoA
 - JetGetLogInfoW

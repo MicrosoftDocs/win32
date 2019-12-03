@@ -1,8 +1,8 @@
 ---
 Description: Opens an item for multiple accesses.
 ms.assetid: b0602abd-dbda-40d0-befa-348c1179fa4f
-title: IPStore::OpenItem method
-ms.topic: article
+title: IPStore::OpenItem method (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

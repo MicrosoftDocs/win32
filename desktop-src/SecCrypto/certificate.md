@@ -2,7 +2,7 @@
 Description: Represents a single digital certificate.
 ms.assetid: 'da95312b-cc9f-44f0-9517-0b28c5fcfb61'
 title: Certificate object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

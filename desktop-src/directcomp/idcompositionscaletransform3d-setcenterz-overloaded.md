@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform3D SetCenterZ methods
+title: IDCompositionScaleTransform3D SetCenterZ methods (Dcomp.h)
 description: Changes or animates the value of the CenterZ property of a 3D scale transform.
 ms.assetid: 1A5C63FE-2378-4274-8ADD-04A88B60FF8F
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform3D::SetCenterZ methods

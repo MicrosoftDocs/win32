@@ -3,7 +3,7 @@ Description: Verifies whether the referenced physical element can be contained b
 ms.assetid: 406aaa75-b48c-4377-adb5-e900676b6e36
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_PhysicalPackage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

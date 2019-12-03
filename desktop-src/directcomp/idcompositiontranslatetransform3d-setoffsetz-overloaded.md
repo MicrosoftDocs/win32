@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTranslateTransform3D SetOffsetZ methods
+title: IDCompositionTranslateTransform3D SetOffsetZ methods (Dcomp.h)
 description: Changes or animates the value of the OffsetZ property of a 3D translation transform effect.
 ms.assetid: 1467F8A8-15CF-4B3E-8816-76F2F5BFB68B
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetZ methods

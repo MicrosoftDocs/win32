@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_RECORD_PARMS structure
+title: MCI_VCR_RECORD_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_RECORD\_PARMS structure contains parameters for the MCI\_RECORD command for video-cassette recorders.
 ms.assetid: a95a6dab-9854-4c44-989a-032dff680106
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

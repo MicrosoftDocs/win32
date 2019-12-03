@@ -3,7 +3,7 @@ Description: The SetForwardBufferMemory WMI class static method is used to speci
 ms.assetid: e76452e8-2ee8-4d39-9405-33b0aeeac74d
 ms.tgt_platform: multiple
 title: SetForwardBufferMemory method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

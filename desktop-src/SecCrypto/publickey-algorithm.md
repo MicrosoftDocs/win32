@@ -2,7 +2,7 @@
 Description: The Algorithm property retrieves the OID object that identifies the algorithm used by the public key. This is the default property.
 ms.assetid: f804ac4b-6a33-4f25-950b-6b6838bcc638
 title: PublicKey.Algorithm property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

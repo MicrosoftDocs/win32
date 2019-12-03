@@ -2,7 +2,7 @@
 title: Structures
 description: The Media Streaming API provides the following structures.
 ms.assetid: 61B10B96-6B3C-4A4B-A7DA-F3E9E31EC5FD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

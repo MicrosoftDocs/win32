@@ -2,7 +2,7 @@
 Description: Represents an association between a job and the managed element that created the job.
 ms.assetid: 08c33a81-0a3f-4545-9812-96a854a7509e
 title: CIM_OwningJobElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

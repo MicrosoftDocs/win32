@@ -2,7 +2,7 @@
 Description: Represents the transparent bridging aspect of a CIM\_SwitchService object.
 ms.assetid: 24f650ab-22a1-41c8-8498-c6c30e63c83c
 title: CIM_TransparentBridgingService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

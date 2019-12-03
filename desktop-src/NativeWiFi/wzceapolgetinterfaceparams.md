@@ -1,8 +1,8 @@
 ---
 Description: Gets EAPOL configuration parameters for the specified wireless LAN interface.
 ms.assetid: 3dce15be-879d-42e9-b8eb-96d52c004acb
-title: WZCEapolGetInterfaceParams function
-ms.topic: article
+title: WZCEapolGetInterfaceParams function (Wzcsapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

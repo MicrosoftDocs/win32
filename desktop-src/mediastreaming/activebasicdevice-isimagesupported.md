@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsImageSupported property
+title: ActiveBasicDevice IsImageSupported property (PlayToDevice.h)
 description: Gets a value that indicates if the device supports images.
 ms.assetid: FC53B87C-D739-4AD4-9DD3-415AC8692224
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

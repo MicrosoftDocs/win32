@@ -1,8 +1,8 @@
 ---
 Description: The m\_hPalette member variable is a handle to the logical palette that this object manages.
 ms.assetid: 8c73adc1-0c01-4518-a0dd-17c7bff6c92b
-title: CImagePalette::m_hPalette member
-ms.topic: article
+title: CImagePalette::m_hPalette member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

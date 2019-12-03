@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidSesidException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSesidException class
 TOCTitle: EsentInvalidSesidException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsesidexception(v=EXCHG.10)
 ms:contentKeyID: 55102020
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidSesidException
 dev_langs:

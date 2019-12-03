@@ -1,5 +1,5 @@
 ---
-title: Custom Draw Values
+title: Custom Draw Values (CommCtrl.h)
 description: This section lists the values used to identify a Trackbar control's parts.
 ms.assetid: 154321c7-99f8-4ed5-a5ff-fb96126b43c7
 topic_type:
@@ -12,7 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

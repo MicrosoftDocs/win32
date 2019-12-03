@@ -3,7 +3,7 @@ Description: The Win32\_LoadOrderGroup WMI class represents a group of system se
 ms.assetid: 0aa3151e-6622-46b4-9050-4e1c4c720902
 ms.tgt_platform: multiple
 title: Win32_LoadOrderGroup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

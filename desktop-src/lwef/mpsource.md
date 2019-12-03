@@ -1,5 +1,5 @@
 ---
-title: MPSOURCE enumeration
+title: MPSOURCE enumeration (MpClient.h)
 description: Possible category of source.
 ms.assetid: 1AD12D67-C74B-481A-AC9B-D119AABDB6E9
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

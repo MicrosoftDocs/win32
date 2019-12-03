@@ -1,8 +1,8 @@
 ---
 Description: Contains a media type that has been wrapped in another media type.
 ms.assetid: 3bd94523-0206-44d8-83a2-e569e4ab7815
-title: MF_MT_WRAPPED_TYPE attribute
-ms.topic: article
+title: MF_MT_WRAPPED_TYPE attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

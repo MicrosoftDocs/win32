@@ -3,7 +3,7 @@ Description: The CIM\_VolumeSet class represents a contiguous range of logical b
 ms.assetid: f0350185-6210-4f95-a2a2-23de61b1af1f
 ms.tgt_platform: multiple
 title: CIM_VolumeSet class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

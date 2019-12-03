@@ -3,7 +3,7 @@ Description: The Win32\_ComClassEmulator association WMI class relates two versi
 ms.assetid: 33899c1e-911d-49ad-be25-355dcdb8f0c7
 ms.tgt_platform: multiple
 title: Win32_ComClassEmulator class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilViewVariable SetDepthStencilArray method
+title: ID3DX11EffectDepthStencilViewVariable SetDepthStencilArray method (D3dx11effect.h)
 description: Set an array of depth-stencil-view resources.
 ms.assetid: 7a00ca3e-fb07-4185-a361-36228f72dcea
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

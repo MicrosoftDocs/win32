@@ -1,8 +1,8 @@
 ---
 Description: Determines the product of two matrices.
 ms.assetid: 160c801a-6589-4a0d-8e90-7e7a99fbd5f7
-title: D3DXMatrixMultiply function
-ms.topic: article
+title: D3DXMatrixMultiply function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

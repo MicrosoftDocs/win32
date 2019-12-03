@@ -1,7 +1,7 @@
 ---
 Description: Notifies an appbar when a full-screen application is opening or closing. This notification is sent in the form of an application-defined message that is set by the ABM\_NEW message.
-title: ABN_FULLSCREENAPP message
-ms.topic: article
+title: ABN_FULLSCREENAPP message (Shellapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: c67ec934-088c-43e0-bff4-900d76a456e5
 api_name: 

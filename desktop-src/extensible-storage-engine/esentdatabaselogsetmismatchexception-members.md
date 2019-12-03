@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseLogSetMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLogSetMismatchException members
 TOCTitle: EsentDatabaseLogSetMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaselogsetmismatchexception_members(v=EXCHG.10)

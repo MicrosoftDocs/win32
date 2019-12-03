@@ -2,8 +2,8 @@
 Description: The CIM\_Setting class represents configuration-related and operational parameters for one or more managed system elements.
 ms.assetid: 57c46b00-96c4-4df1-82ad-01f7b4f75ced
 ms.tgt_platform: multiple
-title: CIM_Setting class
-ms.topic: article
+title: CIM_Setting class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

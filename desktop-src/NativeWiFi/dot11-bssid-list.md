@@ -1,8 +1,8 @@
 ---
 Description: Contains a list of basic service set (BSS) identifiers.
 ms.assetid: 22907f94-1ae8-4938-a816-b406656256c0
-title: DOT11_BSSID_LIST structure
-ms.topic: structure
+title: DOT11_BSSID_LIST structure (Windot11.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

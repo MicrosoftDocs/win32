@@ -1,5 +1,5 @@
 ---
-title: MCI_BREAK_PARMS structure
+title: MCI_BREAK_PARMS structure (Mciapi.h)
 description: The MCI\_BREAK\_PARMS structure contains virtual-key code and window information for the MCI\_BREAK command.
 ms.assetid: c8df8c55-cc6b-4dd7-b275-784d3eb9dce1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

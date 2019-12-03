@@ -3,7 +3,7 @@ Description: The CIM\_LocalFileSystem class represents the file store controlled
 ms.assetid: eab52a25-ca24-4a69-b030-091603d3582c
 ms.tgt_platform: multiple
 title: CIM_LocalFileSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: Load(int) function
+title: RWByteAddressBuffer::Load(int) function
 description: Gets one value.
 ms.assetid: C95C865E-E44D-46DC-A076-BD2903758432
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

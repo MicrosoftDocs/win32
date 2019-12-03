@@ -1,7 +1,7 @@
 ---
 Description: IPrivateIdentityManager2::LogonAs method
 title: IPrivateIdentityManager2::LogonAs method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

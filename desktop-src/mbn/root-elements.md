@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: Mobile Broadband Profile Schema v4 Elements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: a322bf35-1c63-4c4f-a646-ee862fe83c7a
 api_name: 

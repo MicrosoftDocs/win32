@@ -1,5 +1,5 @@
 ---
-title: CDM_GETSPEC message
+title: CDM_GETSPEC message (Commdlg.h)
 description: Retrieves the file name (not including the path) of the currently selected file in an Explorer-style Open or Save As dialog box.
 ms.assetid: 22a67c92-bd24-4cba-bef8-291d241e6ec8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

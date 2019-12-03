@@ -1,5 +1,5 @@
 ---
-title: CBN_KILLFOCUS notification code
+title: CBN_KILLFOCUS notification code (Winuser.h)
 description: Sent when a combo box loses the keyboard focus. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 0118a2ff-9811-4bf1-b3f6-1d00ca5c8dbe
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

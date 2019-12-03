@@ -1,5 +1,5 @@
 ---
-title: Metadata Identifiers
+title: Metadata Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants, which are used to identify metadata types in a document.
 ms.assetid: 0A19C4F7-314C-4959-83FA-D592F4506752
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

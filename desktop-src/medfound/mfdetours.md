@@ -2,7 +2,7 @@
 Description: Specifies the Microsoft Media Foundation Detours provider, which traces Media Foundation API calls.
 ms.assetid: 7c9abda9-7968-463c-b4a9-19b54012ef56
 title: mfdetours element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

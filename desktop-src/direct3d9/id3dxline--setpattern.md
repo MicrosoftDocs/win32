@@ -1,8 +1,8 @@
 ---
 Description: Applies a stipple pattern to the line.
 ms.assetid: 53548a9f-cf09-4ab9-9327-d5053645fc1b
-title: ID3DXLine::SetPattern method
-ms.topic: article
+title: ID3DXLine::SetPattern method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

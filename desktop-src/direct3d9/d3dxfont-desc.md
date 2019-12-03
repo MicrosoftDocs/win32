@@ -1,8 +1,8 @@
 ---
 Description: Defines the attributes of a font.
 ms.assetid: 6f456f26-3410-4205-a013-e3c12bf0feb1
-title: D3DXFONT_DESC structure
-ms.topic: structure
+title: D3DXFONT_DESC structure (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

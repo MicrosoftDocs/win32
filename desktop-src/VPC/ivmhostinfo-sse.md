@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo SSE property
+title: IVMHostInfo SSE property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the SSE instruction set.
 ms.assetid: 135704db-757a-45b1-884a-5e26ef7d65c7
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

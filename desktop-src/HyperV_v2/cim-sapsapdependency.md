@@ -1,8 +1,8 @@
 ---
 Description: Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service.
 ms.assetid: fba4144b-833f-469f-93df-e8a79aa37811
-title: CIM_SAPSAPDependency class
-ms.topic: article
+title: CIM_SAPSAPDependency class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

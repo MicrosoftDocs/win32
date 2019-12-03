@@ -1,11 +1,11 @@
 ---
-title: EsentRfsFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentRfsFailureException class
 TOCTitle: EsentRfsFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRfsFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrfsfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55102636
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRfsFailureException
 dev_langs:

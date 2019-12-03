@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the ASF media sink automatically adjusts the bit rate.
 ms.assetid: 0a6f4dd4-4ad7-4aab-a33d-14b4716f9902
-title: MFPKEY_ASFMEDIASINK_AUTOADJUST_BITRATE property
-ms.topic: article
+title: MFPKEY_ASFMEDIASINK_AUTOADJUST_BITRATE property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

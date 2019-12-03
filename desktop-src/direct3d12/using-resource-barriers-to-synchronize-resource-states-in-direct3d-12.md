@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Using Resource Barriers to Synchronize Resource States in Direct3D 12
 
-To reduce overall CPU usage and enable driver multi-threading and pre-processing, Direct3D 12 moves the responsibility of per-resource state management from the graphics driver to the application. An example of per-resource state is whether a texture resource is currently being accessed as through a Shader Resource View or as a Render Target View. In Direct3D 11, drivers were required to track this state in the background. This is expensive from a CPU perspective and significantly complicates any sort of multi-threaded design. In Microsoft Direct3D 12, most per-resource state is managed by the application with a single API, [**ID3D12GraphicsCommandList::ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier).
+To reduce overall CPU usage and enable driver multi-threading and pre-processing, Direct3D 12 moves the responsibility of per-resource state management from the graphics driver to the application. An example of per-resource state is whether a texture resource is currently being accessed as through a Shader Resource View or as a Render Target View. In Direct3D 11, drivers were required to track this state in the background. This is expensive from a CPU perspective and significantly complicates any sort of multi-threaded design. In Microsoft Direct3D 12, most per-resource state is managed by the application with a single API, [**ID3D12GraphicsCommandList::ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier).
 
 -   [Using the ResourceBarrier API to manage per-resource state](#using-the-resourcebarrier-api-to-manage-per-resource-state)
     -   [Resource states](#using-resource-barriers-to-synchronize-resource-states-in-direct3d-12)
@@ -29,25 +29,25 @@ To reduce overall CPU usage and enable driver multi-threading and pre-processing
 
 ## Using the ResourceBarrier API to manage per-resource state
 
-[**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) notifies the graphics driver of situations in which the driver may need to synchronize multiple accesses to the memory in which a resource is stored. The method is called with one or more resource barrier description structures indicating the type of resource barrier being declared.
+[**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) notifies the graphics driver of situations in which the driver may need to synchronize multiple accesses to the memory in which a resource is stored. The method is called with one or more resource barrier description structures indicating the type of resource barrier being declared.
 
 There are three types of resource barriers:
 
--   **Transition barrier** - A transition barrier indicates that a set of subresources transition between different usages. A [**D3D12\_RESOURCE\_TRANSITION\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_transition_barrier) structure is used to specify the subresource that is transitioning as well as the *before* and *after* states of the subresource.
+-   **Transition barrier** - A transition barrier indicates that a set of subresources transition between different usages. A [**D3D12\_RESOURCE\_TRANSITION\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_transition_barrier) structure is used to specify the subresource that is transitioning as well as the *before* and *after* states of the subresource.
 
     The system verifies that subresource transitions in a command list are consistent with previous transitions in the same command list. The debug layer further tracks subresource state to find other errors however this validation is conservative and not exhaustive.
 
     Note that you can use the D3D12\_RESOURCE\_BARRIER\_ALL\_SUBRESOURCES flag to specify that all subresources within a resource are being transitioned.
 
--   **Aliasing barrier** - An aliasing barrier indicates a transition between usages of two different resources which have overlapping mappings into the same heap. This applies to both reserved and placed resources. A [**D3D12\_RESOURCE\_ALIASING\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier) structure is used to specify both the *before* resource and the *after* resource.
+-   **Aliasing barrier** - An aliasing barrier indicates a transition between usages of two different resources which have overlapping mappings into the same heap. This applies to both reserved and placed resources. A [**D3D12\_RESOURCE\_ALIASING\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier) structure is used to specify both the *before* resource and the *after* resource.
 
-    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources) and [Volume Tiled Resources](volume-tiled-resources.md).
+    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](/windows/win32/direct3d11/tiled-resources) and [Volume Tiled Resources](volume-tiled-resources.md).
 
--   **Unordered access view (UAV) barrier** - A UAV barrier indicates that all UAV accesses, both read or write, to a particular resource must complete between any future UAV accesses, both read or write. It's not necessary for an app to put a UAV barrier between two draw or dispatch calls that only read from a UAV. Also, it's not necessary to put a UAV barrier between two draw or dispatch calls that write to the same UAV if the application knows that it is safe to execute the UAV access in any order. A [**D3D12\_RESOURCE\_UAV\_BARRIER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier) structure is used to specify the UAV resource to which the barrier applies. The application can specify NULL for the barrier's UAV, which indicates that any UAV access could require the barrier.
+-   **Unordered access view (UAV) barrier** - A UAV barrier indicates that all UAV accesses, both read or write, to a particular resource must complete between any future UAV accesses, both read or write. It's not necessary for an app to put a UAV barrier between two draw or dispatch calls that only read from a UAV. Also, it's not necessary to put a UAV barrier between two draw or dispatch calls that write to the same UAV if the application knows that it is safe to execute the UAV access in any order. A [**D3D12\_RESOURCE\_UAV\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier) structure is used to specify the UAV resource to which the barrier applies. The application can specify NULL for the barrier's UAV, which indicates that any UAV access could require the barrier.
 
-When [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) is called with an array of resource barrier descriptions, the API behaves as if it was called once for each element, in the order in which they were supplied.
+When [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) is called with an array of resource barrier descriptions, the API behaves as if it was called once for each element, in the order in which they were supplied.
 
-At any given time, a subresource is in exactly one state, determined by the set of [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) flags supplied to [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier). The application must ensure that the *before* and *after* states of consecutive calls to **ResourceBarrier** agree.
+At any given time, a subresource is in exactly one state, determined by the set of [**D3D12\_RESOURCE\_STATES**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) flags supplied to [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier). The application must ensure that the *before* and *after* states of consecutive calls to **ResourceBarrier** agree.
 
 > [!TIP]
 >
@@ -57,9 +57,9 @@ At any given time, a subresource is in exactly one state, determined by the set 
 
 ### Resource states
 
-For the complete list of resource states that a resource can transition between, see the reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) enumeration.
+For the complete list of resource states that a resource can transition between, see the reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) enumeration.
 
-For split resource barriers, also refer to [**D3D12\_RESOURCE\_BARRIER\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_barrier_flags).
+For split resource barriers, also refer to [**D3D12\_RESOURCE\_BARRIER\_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_barrier_flags).
 
 ### Initial states for resources
 
@@ -79,17 +79,17 @@ Before a heap can be the target of a GPU copy operation, normally the heap must 
 
 ### Read/write resource state restrictions
 
-The resource state usage bits that are used to describe a resource state are divided into read-only and read/write states. The reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) indicates the read/write access level for each bit in the enumeration.
+The resource state usage bits that are used to describe a resource state are divided into read-only and read/write states. The reference topic for the [**D3D12\_RESOURCE\_STATES**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) indicates the read/write access level for each bit in the enumeration.
 
 At most, only one read/write bit can be set for any resource. If a write bit is set, then no read-only bit may be set for that resource. If no write bit is set, then any number of read bits may be set.
 
 ### Resource states for presenting back buffers
 
-Before a back buffer is presented, it must be in the D3D12\_RESOURCE\_STATE\_COMMON state. Note, the resource state D3D12\_RESOURCE\_STATE\_PRESENT is a synonym for D3D12\_RESOURCE\_STATE\_COMMON, and they both have a value of 0. If [**IDXGISwapChain::Present**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present) (or [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)) is called on a resource that is not currently in this state, a debug layer warning is emitted.
+Before a back buffer is presented, it must be in the D3D12\_RESOURCE\_STATE\_COMMON state. Note, the resource state D3D12\_RESOURCE\_STATE\_PRESENT is a synonym for D3D12\_RESOURCE\_STATE\_COMMON, and they both have a value of 0. If [**IDXGISwapChain::Present**](/windows/win32/api/dxgi/nf-dxgi-idxgiswapchain-present) (or [**IDXGISwapChain1::Present1**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)) is called on a resource that is not currently in this state, a debug layer warning is emitted.
 
 ### Discarding resources
 
-All subresources in a resource must be in the RENDER\_TARGET state, or DEPTH\_WRITE state, for render targets/depth-stencil resources respectively, when [**ID3D12GraphicsCommandList::DiscardResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource) is called.
+All subresources in a resource must be in the RENDER\_TARGET state, or DEPTH\_WRITE state, for render targets/depth-stencil resources respectively, when [**ID3D12GraphicsCommandList::DiscardResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource) is called.
 
 ## Implicit State Transitions
 
@@ -138,26 +138,26 @@ Note that common state promotion is "free" in that there is no need for the GPU 
 
 ### State decay to common
 
-The flip-side of common state promotion is decay back to D3D12\_RESOURCE\_STATE\_COMMON. Resources that meet certain requirements are considered to be stateless and effectively return to the common state when the GPU finishes execution of an [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) operation. Decay does not occur between command lists executed together in the same **ExecuteCommandLists** call.
+The flip-side of common state promotion is decay back to D3D12\_RESOURCE\_STATE\_COMMON. Resources that meet certain requirements are considered to be stateless and effectively return to the common state when the GPU finishes execution of an [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) operation. Decay does not occur between command lists executed together in the same **ExecuteCommandLists** call.
 
-The following resources will decay when an [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) operation is completed on the GPU:
+The following resources will decay when an [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) operation is completed on the GPU:
 
 -   Resources being accessed on a Copy queue, *or*
 -   Buffer resources on any queue type, *or*
 -   Texture resources on any queue type that have the D3D12\_RESOURCE\_FLAG\_ALLOW\_SIMULTANEOUS\_ACCESS flag set, *or*
 -   Any resource implicitly promoted to a read-only state.
 
-Like common state promotion, the decay is free in that no additional synchronization is needed. Combining common state promotion and decay can help to eliminate many unnecessary [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions. In some cases, this can provide significant performance improvements.
+Like common state promotion, the decay is free in that no additional synchronization is needed. Combining common state promotion and decay can help to eliminate many unnecessary [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions. In some cases, this can provide significant performance improvements.
 
 Resources will decay to the common state regardless of whether they were explicitly transitioned using resource barriers or implicitly promoted.
 
 ### Performance implications
 
-When recording explicit [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions on resources in the common state, it is correct to use either D3D12\_RESOURCE\_STATE\_COMMON or any promotable state as the *BeforeState* value in the D3D12\_RESOURCE\_TRANSITION\_BARRIER structure. This allows traditional state management that ignores automatic decay of buffers and simultaneous-access textures. This may not be desirable though, as avoiding transition **ResourceBarrier** calls with resources known to be in the common state can significantly improve performance. Resource barriers can be expensive. They are designed to force cache flushes, memory layout changes and other synchronization that may not be necessary for resources already in the common state. A command list that uses a resource barrier from a non-common state to another non-common state on a resource currently in the common state can introduce a lot of unneeded overhead.
+When recording explicit [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions on resources in the common state, it is correct to use either D3D12\_RESOURCE\_STATE\_COMMON or any promotable state as the *BeforeState* value in the D3D12\_RESOURCE\_TRANSITION\_BARRIER structure. This allows traditional state management that ignores automatic decay of buffers and simultaneous-access textures. This may not be desirable though, as avoiding transition **ResourceBarrier** calls with resources known to be in the common state can significantly improve performance. Resource barriers can be expensive. They are designed to force cache flushes, memory layout changes and other synchronization that may not be necessary for resources already in the common state. A command list that uses a resource barrier from a non-common state to another non-common state on a resource currently in the common state can introduce a lot of unneeded overhead.
 
-Also, avoid explicit [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions to D3D12\_RESOURCE\_STATE\_COMMON unless absolutely necessary (e.g. the next access is on a COPY command queue which requires a resources begin in the common state). Excessive transitions to the common state can dramatically slow down GPU performance.
+Also, avoid explicit [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions to D3D12\_RESOURCE\_STATE\_COMMON unless absolutely necessary (e.g. the next access is on a COPY command queue which requires a resources begin in the common state). Excessive transitions to the common state can dramatically slow down GPU performance.
 
-In summary, try to rely on common state promotion and decay whenever its semantics let you get away without issuing [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) calls.
+In summary, try to rely on common state promotion and decay whenever its semantics let you get away without issuing [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) calls.
 
 ## Split Barriers
 
@@ -169,7 +169,7 @@ Using split barriers can help to improve performance, especially in multi-engine
 
 ## Resource barrier example scenario
 
-The following snippets show the use of the [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) method in a multi-threading sample.
+The following snippets show the use of the [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) method in a multi-threading sample.
 
 Creating the depth stencil view, transitioning it to a writeable state.
 
@@ -369,7 +369,7 @@ Creating textures and shader resource views. The texture is changed from a commo
 
 
 
-Beginning a frame; this not only uses [**ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) to indicate that the backbuffer is to be used as a render target, but also initializes the frame resource (which calls **ResourceBarrier** on the depth stencil buffer).
+Beginning a frame; this not only uses [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) to indicate that the backbuffer is to be used as a render target, but also initializes the frame resource (which calls **ResourceBarrier** on the depth stencil buffer).
 
 
 ```C++
@@ -583,21 +583,8 @@ D3D12_RESOURCE_BARRIER BarrierDesc = {};
 
 ## Related topics
 
-<dl> <dt>
-
 [DirectX advanced learning video tutorials : Resource Barriers and State Tracking](https://www.youtube.com/watch?v=nmB2XMasz2o)
-</dt> <dt>
 
-[Synchronization and Multi-Engine](user-mode-heap-synchronization.md)
-</dt> <dt>
+[Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization)
 
 [Work Submission in Direct3D 12](command-queues-and-command-lists.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

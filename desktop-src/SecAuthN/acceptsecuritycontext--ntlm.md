@@ -1,8 +1,8 @@
 ---
 Description: Enables the server component of a transport application to establish a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) between the server and a remote client that is using NTLM.
 ms.assetid: 7a0f5118-be6d-443d-8b01-596dc4030b3b
-title: AcceptSecurityContext (NTLM) function
-ms.topic: article
+title: AcceptSecurityContext (NTLM) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

@@ -2,7 +2,7 @@
 Description: The Status property retrieves the HTTP status code from the last response.
 ms.assetid: 80b05e69-7f00-455d-94c3-a06eaa997cae
 title: IWinHttpRequest::Status property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

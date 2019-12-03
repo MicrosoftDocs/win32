@@ -1,5 +1,5 @@
 ---
-title: TB_GETBITMAP message
+title: TB_GETBITMAP message (Commctrl.h)
 description: Retrieves the index of the bitmap associated with a button in a toolbar.
 ms.assetid: 64878cca-7d71-48ad-b2ed-d2bdc3067592
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

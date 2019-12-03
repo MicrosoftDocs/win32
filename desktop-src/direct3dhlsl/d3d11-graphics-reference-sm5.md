@@ -2,10 +2,10 @@
 title: Shader Model 5
 description: This section contains the reference pages for HLSL Shader Model 5.
 ms.assetid: ec646940-8901-45c5-a44c-434c8acae2aa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

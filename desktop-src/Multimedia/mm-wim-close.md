@@ -1,5 +1,5 @@
 ---
-title: MM_WIM_CLOSE message
+title: MM_WIM_CLOSE message (Mmsystem.h)
 description: The MM\_WIM\_CLOSE message is sent to a window when a waveform-audio input device is closed. The device handle is no longer valid after this message has been sent.
 ms.assetid: 4ea35b66-6bfa-41f0-9d52-a8cf2b0a69dd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

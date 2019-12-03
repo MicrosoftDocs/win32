@@ -1,5 +1,5 @@
 ---
-title: GatherCmpAlpha(S,float,float,uint) function
+title: TextureCubeArray::GatherCmpAlpha(S,float,float,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the alpha component along with status about the operation.
 ms.assetid: EA1D7176-3F70-4867-9854-80206A871B23
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherCmpAlpha
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

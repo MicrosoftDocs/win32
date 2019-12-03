@@ -1,8 +1,8 @@
 ---
 Description: Contains input data for the D3DAUTHENTICATEDCONFIGURE\_ENCRYPTIONWHENACCESSIBLE command.
 ms.assetid: d2d0adff-5d4d-4af3-b6b8-b8c60a506142
-title: D3DAUTHENTICATEDCHANNEL_CONFIGUREUNCOMPRESSEDENCRYPTION structure
-ms.topic: structure
+title: D3DAUTHENTICATEDCHANNEL_CONFIGUREUNCOMPRESSEDENCRYPTION structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Predefined constants for cryptography protocols. These values are defined in Wincrypt.h.
 ms.assetid: 61dc0eff-2033-464a-a558-1798a92d48a2
-title: Protocol Flags
-ms.topic: article
+title: Protocol Flags (Wincrypt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

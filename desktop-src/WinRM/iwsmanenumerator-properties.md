@@ -3,7 +3,7 @@ title: IWSManEnumerator Properties
 description: The IWSManEnumerator interface exposes the following properties.
 ms.assetid: 3A8A6A8B-345E-4EAE-B23C-251535907A9F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

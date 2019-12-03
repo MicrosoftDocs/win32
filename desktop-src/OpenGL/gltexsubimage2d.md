@@ -1,5 +1,5 @@
 ---
-title: glTexSubImage2D function
+title: glTexSubImage2D function (Gl.h)
 description: The glTexSubImage2D function specifies a portion of an existing one-dimensional texture image. You cannot define a new texture with glTexSubImage2D.
 ms.assetid: 2b6cb663-8e1d-4270-b8ba-5a8b43a2ece7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

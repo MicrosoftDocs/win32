@@ -45,7 +45,7 @@
         href: user-modal-functions.md
       - name: "Workstation and Workstation User Functions"
         href: workstation-and-workstation-user-functions.md
-    - name: "Security Requirements for the Network Management Functions"
+    - name: "Network management function security requirements"
       href: security-requirements-for-the-network-management-functions.md
       items: 
       - name: "Requirements for Network Management Functions on Active Directory Domain Controllers"

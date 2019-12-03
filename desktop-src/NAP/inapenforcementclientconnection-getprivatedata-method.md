@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetPrivateData method
+title: INapEnforcementClientConnection GetPrivateData method (NapEnforcementClient.h)
 description: Is used by the NapAgent to get private data.
 ms.assetid: d38ef523-b645-401f-b3a9-1315ef39931a
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

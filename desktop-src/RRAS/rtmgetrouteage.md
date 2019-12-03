@@ -1,5 +1,5 @@
 ---
-title: RtmGetRouteAge function
+title: RtmGetRouteAge function (Rtm.h)
 description: The RtmGetRouteAge function returns the age of a route. The age is the time, in seconds, since it was created or last updated.
 ms.assetid: 93052412-227f-4c9e-978b-3ec4bde4a256
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

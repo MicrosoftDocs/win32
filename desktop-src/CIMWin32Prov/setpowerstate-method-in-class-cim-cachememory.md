@@ -3,7 +3,7 @@ Description: The SetPowerState method sets the desired power state for a logical
 ms.assetid: f9482bc4-d657-4e31-b6b1-aff6519e8a55
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CacheMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

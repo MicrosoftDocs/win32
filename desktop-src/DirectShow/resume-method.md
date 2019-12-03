@@ -2,7 +2,7 @@
 Description: The Resume method resumes playback after a menu has been displayed.
 ms.assetid: e16d0c05-34ca-4841-b7a2-e7878c795a40
 title: Resume Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

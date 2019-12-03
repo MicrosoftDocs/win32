@@ -1,12 +1,12 @@
 ---
 Description: The following describes how to create a Windows Installer package to install a Win32 assembly.
 ms.assetid: 1234e904-fc7f-4eb7-8c50-0c959bbf5261
-title: Installing Win32 Assemblies for Side-by-Side Sharing on Windows XP
+title: Installing Win32 Assemblies for Side-by-Side Sharing
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Installing Win32 Assemblies for Side-by-Side Sharing on Windows XP
+# Installing Win32 Assemblies for Side-by-Side Sharing
 
 The following describes how to create a Windows Installer package to install a Win32 assembly. The package installs a side-by-side assembly in the Winsxs folder for the shared use of the application. After installing the package, the shared assembly is globally available to any application that specifies a dependence on the assembly in an assembly manifest file. The installer does not globally register the side-by-side assembly on the system.
 
@@ -14,7 +14,7 @@ Note that you may install shared side-by-side assemblies using [merge modules](m
 
 Before continuing you should understand how to author a Windows Installer package without assemblies. For an example of how to author a simple installation, see [An Installation Example](an-installation-example.md).
 
-**To install a shared assembly side-by-side on Windows XP**
+**To install a shared assembly side-by-side**
 
 1.  Define a Windows Installer component that includes the Win32 assembly. This component may contain other resources that should always be installed or removed with the assembly. All the other components of the application can be authored just as for an installation without assemblies. Add a row to the [Component table](component-table.md) for the component containing the Win32 assembly. Enter a valid Windows Installer [GUID](guid.md) for this component code. Do not use the manifest file as the key path for this component.
 2.  Add a row to the [FeatureComponents table](featurecomponents-table.md) tying the component to a Windows Installer feature. For information see, [Components and Features](components-and-features.md). A Windows Installer feature should be a piece of the application's functionality that is recognizable to a user. The assembly is activated when this feature is selected by a user or faulted in by an application. If the assembly defines an additional feature, then add an additional row to the [Feature table](feature-table.md) for the feature's attributes. This step is not needed when authoring a merge module.

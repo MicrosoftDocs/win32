@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest GetCacheSoHFlag method
+title: INapSystemHealthAgentRequest GetCacheSoHFlag method (NapSystemHealthAgent.h)
 description: Is used only by the NapAgent.
 ms.assetid: 97dd4e95-30c2-48e2-9359-b1019299581d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

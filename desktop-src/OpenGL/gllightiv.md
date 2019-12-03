@@ -1,5 +1,5 @@
 ---
-title: glLightiv function
+title: glLightiv function (Gl.h)
 description: The glLightiv function returns light source parameter values.
 ms.assetid: 927f6a7e-be42-46ab-9c23-6ce87f96bd8a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

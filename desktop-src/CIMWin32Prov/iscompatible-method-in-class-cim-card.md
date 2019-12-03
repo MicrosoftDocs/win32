@@ -3,7 +3,7 @@ Description: The IsCompatible method verifies whether the referenced physical el
 ms.assetid: 809a1871-dfa2-499b-9adf-118dec71586b
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Card class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

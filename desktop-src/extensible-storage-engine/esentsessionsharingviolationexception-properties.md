@@ -1,5 +1,5 @@
 ---
-title: EsentSessionSharingViolationException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSessionSharingViolationException properties
 TOCTitle: EsentSessionSharingViolationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessionsharingviolationexception_properties(v=EXCHG.10)

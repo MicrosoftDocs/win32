@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable SetBool method
+title: ID3DX11EffectScalarVariable SetBool method (D3dx11effect.h)
 description: Set a boolean variable.
 ms.assetid: b5385ed3-6e65-4d65-bb8e-835967e6f610
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

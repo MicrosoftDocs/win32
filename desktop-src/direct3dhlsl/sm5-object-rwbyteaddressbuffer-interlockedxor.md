@@ -1,5 +1,5 @@
 ---
-title: InterlockedXor function
+title: RWByteAddressBuffer::InterlockedXor function
 description: Performs an atomic XOR on the value.
 ms.assetid: 692f8b5e-a81e-4700-8a8d-3594aba85671
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - InterlockedXor
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

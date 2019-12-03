@@ -1,5 +1,5 @@
 ---
-title: ID2D1Brush SetTransform methods
+title: ID2D1Brush SetTransform methods (D2d1\_1.h)
 description: Sets the transformation applied to the brush.
 ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Brush::SetTransform methods

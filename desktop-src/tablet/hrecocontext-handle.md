@@ -1,8 +1,8 @@
 ---
 Description: An HRECOCONTEXT handle is used to add ink to the context, perform ink recognition (synchronously or asynchronously), retrieve the recognition result, and retrieve alternates.
 ms.assetid: 509188e2-28af-4915-bc76-ee451133398f
-title: HRECOCONTEXT Handle
-ms.topic: article
+title: HRECOCONTEXT Handle (Recapis.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

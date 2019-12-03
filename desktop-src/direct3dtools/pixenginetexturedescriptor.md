@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PixEngineTextureDescriptor structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: E28D5707-C4C4-4C99-9AA2-3397FEDC388B
 api_name: 

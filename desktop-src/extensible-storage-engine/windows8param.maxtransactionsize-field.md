@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.MaxTransaction
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.maxtransactionsize(v=EXCHG.10)
 ms:contentKeyID: 55104478
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.MaxTransactionSize
 dev_langs:

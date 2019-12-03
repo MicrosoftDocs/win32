@@ -4,8 +4,8 @@ MS-HAID: WWAN\_profile\_v4.element\_Description
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: Description
-ms.topic: article
+title: Description (Mobile Broadband)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 7adc4b26-1202-4f80-8b26-7879df687bb0
 api_name: 

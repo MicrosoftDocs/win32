@@ -1,8 +1,8 @@
 ---
 Description: Structure used by the SfcGetFiles function.
 ms.assetid: 958167e3-3eb3-406a-85bf-ffe2851a95a1
-title: PPROTECT_FILE_ENTRY structure
-ms.topic: structure
+title: PPROTECT_FILE_ENTRY structure (Sfcfiles.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

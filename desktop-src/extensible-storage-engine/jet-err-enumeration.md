@@ -1,11 +1,11 @@
 ---
-title: JET_err enumeration (Microsoft.Isam.Esent.Interop)
+title: JET_err enumeration
 TOCTitle: JET_err enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_err
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_err(v=EXCHG.10)
 ms:contentKeyID: 39511751
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_err
 - Microsoft.Isam.Esent.Interop.JET_err.AccessDenied

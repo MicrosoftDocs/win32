@@ -1,5 +1,5 @@
 ---
-title: VMDVDDriveAttachmentType enumeration
+title: VMDVDDriveAttachmentType enumeration (VPCCOMInterfaces.h)
 description: Specifies what is attached to a DVD drive.
 ms.assetid: 66f33974-8622-4fa3-b5ac-3fae5a637434
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

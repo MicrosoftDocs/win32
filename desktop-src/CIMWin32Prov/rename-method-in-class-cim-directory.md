@@ -3,7 +3,7 @@ Description: Renames the logical file (or directory) specified in the object pat
 ms.assetid: 728737a7-7cb8-4237-be03-16c4dac530b2
 ms.tgt_platform: multiple
 title: Rename method of the CIM_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

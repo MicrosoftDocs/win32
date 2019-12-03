@@ -1,5 +1,5 @@
 ---
-title: LVM_GETCOLUMN message
+title: LVM_GETCOLUMN message (Commctrl.h)
 description: Gets the attributes of a list-view control's column. You can send this message explicitly or by using the ListView\_GetColumn macro.
 ms.assetid: 59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TCM_SETCURSEL message
+title: TCM_SETCURSEL message (Commctrl.h)
 description: Selects a tab in a tab control. You can send this message explicitly or by using the TabCtrl\_SetCurSel macro.
 ms.assetid: cf709d8c-c522-47c8-8ff3-463dc8e924b5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

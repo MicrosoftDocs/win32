@@ -1,5 +1,5 @@
 ---
-title: CCM_GETVERSION message
+title: CCM_GETVERSION message (Commctrl.h)
 description: Gets the version number for a control set by the most recent CCM\_SETVERSION message.
 ms.assetid: c4b401d7-bba0-430c-b368-c363d49b3411
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Resource usage statistics.
 ms.assetid: e43de550-2025-4210-a420-e41d14620704
-title: D3DDEVINFO_ResourceManager structure
-ms.topic: structure
+title: D3DDEVINFO_ResourceManager structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Defines values that specify the packet properties.
 ms.assetid: 3e8495f6-0860-4ea8-a258-784eaade85c7
-title: PacketPropertyGuids Constants
-ms.topic: article
+title: PacketPropertyGuids Constants (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

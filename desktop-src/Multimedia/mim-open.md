@@ -1,5 +1,5 @@
 ---
-title: MIM_OPEN message
+title: MIM_OPEN message (Mmsystem.h)
 description: The MIM\_OPEN message is sent to a MIDI input callback function when a MIDI input device is opened.
 ms.assetid: c7a8b856-aedd-457d-8a21-0ec2e9303960
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

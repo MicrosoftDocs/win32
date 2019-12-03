@@ -1,5 +1,5 @@
 ---
-title: SB_ISSIMPLE message
+title: SB_ISSIMPLE message (Commctrl.h)
 description: Checks a status bar control to determine if it is in simple mode.
 ms.assetid: f4362bc3-1852-4569-af9b-96d2da4f0606
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

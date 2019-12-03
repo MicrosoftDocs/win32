@@ -2,7 +2,7 @@
 Description: Specifies a key word for an MFTrace provider.
 ms.assetid: 1ce4a5ee-c053-4d31-a984-dc11acebbf2a
 title: keyword element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

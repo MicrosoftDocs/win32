@@ -3,7 +3,7 @@ Description: The CIM\_PackageInSlot association represents the relationship betw
 ms.assetid: 439f28a8-24fd-4a53-9d42-48fabb58e84a
 ms.tgt_platform: multiple
 title: CIM_PackageInSlot class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

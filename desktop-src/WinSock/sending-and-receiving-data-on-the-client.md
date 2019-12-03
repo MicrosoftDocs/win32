@@ -18,7 +18,7 @@ The following code demonstrates the [**send**](/windows/desktop/api/Winsock2/nf-
 
 int recvbuflen = DEFAULT_BUFLEN;
 
-char *sendbuf = "this is a test";
+const char *sendbuf = "this is a test";
 char recvbuf[DEFAULT_BUFLEN];
 
 int iResult;

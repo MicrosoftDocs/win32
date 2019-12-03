@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a pass.
 ms.assetid: 71332f6a-18fe-4702-8620-6d16b835ba8f
-title: ID3DXBaseEffect::GetPass method
-ms.topic: article
+title: ID3DXBaseEffect::GetPass method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

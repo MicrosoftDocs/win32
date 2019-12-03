@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement UnregisterEnforcementClient method
+title: INapClientManagement UnregisterEnforcementClient method (NapManagement.h)
 description: Unregisters an enforcement client with the NAP system.
 ms.assetid: 549683de-7f2c-4da6-9616-862e0e99d21f
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

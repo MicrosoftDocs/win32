@@ -2,7 +2,7 @@
 title: atomic_xor (sm5 - asm)
 description: Atomic bitwise XOR to memory.
 ms.assetid: DC284647-FBB4-419B-A555-8076C5716F0A
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

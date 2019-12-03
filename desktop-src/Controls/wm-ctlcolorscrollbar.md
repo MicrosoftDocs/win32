@@ -1,5 +1,5 @@
 ---
-title: WM_CTLCOLORSCROLLBAR message
+title: WM_CTLCOLORSCROLLBAR message (Winuser.h)
 description: The WM\_CTLCOLORSCROLLBAR message is sent to the parent window of a scroll bar control when the control is about to be drawn.
 ms.assetid: 35832a23-96f1-42cb-a986-06726bf2a124
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

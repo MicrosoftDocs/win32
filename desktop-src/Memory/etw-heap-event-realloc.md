@@ -1,8 +1,8 @@
 ---
 Description: Memory management tracing event for a heap reallocation operation.
 ms.assetid: D8080B7B-CECC-40DB-B52A-2C3E4F04ABA9
-title: ETW_HEAP_EVENT_REALLOC event
-ms.topic: article
+title: ETW_HEAP_EVENT_REALLOC event (Ntwmi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

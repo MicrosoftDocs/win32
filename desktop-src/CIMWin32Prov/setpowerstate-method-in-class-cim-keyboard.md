@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Keyboard class sets the desire
 ms.assetid: f51cc589-b103-468c-89a5-2bfff4868ff2
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Keyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

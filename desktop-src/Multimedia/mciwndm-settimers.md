@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_SETTIMERS message
+title: MCIWNDM_SETTIMERS message (Vfw.h)
 description: The MCIWNDM\_SETTIMERS message sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window.
 ms.assetid: 06407c67-b620-4f80-9fe9-456cdf3d0666
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

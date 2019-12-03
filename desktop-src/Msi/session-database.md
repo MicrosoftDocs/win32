@@ -2,7 +2,7 @@
 Description: The Database property of the Session object is a read-only property that returns the database for the current install session as a Database object.
 ms.assetid: 03c14d1c-5adb-4cd7-8978-170dfc5bce40
 title: Session.Database property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

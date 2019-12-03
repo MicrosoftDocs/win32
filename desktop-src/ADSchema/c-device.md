@@ -1,5 +1,5 @@
 ---
-title: Device class
+title: Device class (AD Schema)
 description: A generic base class for physical devices.
 ms.assetid: c257344c-4ab9-4bc6-b485-ad0ad1a495e2
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ api_name:
 - Device
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

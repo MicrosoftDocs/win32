@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd DestroySoftKeyboardWindow method
+title: ISoftKbd DestroySoftKeyboardWindow method (Softkbdc.h)
 description: The ISoftKbd DestroySoftKeyboardWindow method destroys a soft keyboard window.
 ms.assetid: 44030934-7b4a-46c1-95ea-709fc9004e43
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

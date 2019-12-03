@@ -1,8 +1,8 @@
 ---
 Description: Gets a constant by looking up its name.
 ms.assetid: 0c57f6ce-ea81-4b34-9251-c385bfe6ebe7
-title: ID3DXTextureShader::GetConstantByName method
-ms.topic: article
+title: ID3DXTextureShader::GetConstantByName method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

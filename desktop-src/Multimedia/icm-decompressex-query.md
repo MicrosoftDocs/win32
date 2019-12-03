@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESSEX_QUERY message
+title: ICM_DECOMPRESSEX_QUERY message (Vfw.h)
 description: The ICM\_DECOMPRESSEX\_QUERY message queries a video compression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format.
 ms.assetid: 7778a52d-2ed8-495c-8656-c6beb1863499
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

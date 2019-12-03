@@ -1,10 +1,10 @@
 ---
-title: WS_ERROR
+title: WS_ERROR (WebServices.h)
 description: An opaque type used to reference to an error object.
 ms.assetid: d5763d93-8eff-4df8-9a8a-a58aefabcb21
 keywords:
 - WS_ERROR
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

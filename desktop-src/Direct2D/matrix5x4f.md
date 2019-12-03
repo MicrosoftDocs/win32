@@ -1,5 +1,5 @@
 ---
-title: Matrix5x4F class
+title: Matrix5x4F class (D2d1\_helper.h)
 description: The Matrix5x4F class represents a 5-by-4 matrix and provides convenience methods for creating matrices.
 ms.assetid: F014694B-5117-48E1-89F7-2F943515AEC6
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D2d1.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

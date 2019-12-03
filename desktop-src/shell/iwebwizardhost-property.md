@@ -1,8 +1,8 @@
 ---
 Description: Sets or retrieves a property's current value.
 ms.assetid: bb0b3296-a07b-458f-bea3-e1c9ada3246b
-title: WebWizardHost.Property property
-ms.topic: article
+title: WebWizardHost.Property property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: BM_SETDONTCLICK message
+title: BM_SETDONTCLICK message (Winuser.h)
 description: Sets a flag on a radio button that controls the generation of BN\_CLICKED messages when the button receives focus.
 ms.assetid: 91d98bce-abea-4afc-a995-0f426ba7a518
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

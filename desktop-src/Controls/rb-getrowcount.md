@@ -1,5 +1,5 @@
 ---
-title: RB_GETROWCOUNT message
+title: RB_GETROWCOUNT message (Commctrl.h)
 description: Retrieves the number of rows of bands in a rebar control.
 ms.assetid: 80f9614e-672d-4c2a-bb2a-382597193796
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

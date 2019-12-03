@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_SUBRESOURCE_RANGE_UINT64 structure
+title: CD3DX12_SUBRESOURCE_RANGE_UINT64 structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_SUBRESOURCE\_RANGE\_UINT64 structure.
 ms.assetid: 607A60ED-98D2-4A77-9A7A-6B54342EA101
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

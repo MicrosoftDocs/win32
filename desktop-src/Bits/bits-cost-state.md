@@ -1,5 +1,5 @@
 ---
-title: BITS_COST_STATE
+title: BITS_COST_STATE (Bits5\_0.h)
 description: The BITS\_COST\_STATE enumeration defines the constant values that specify the BITS cost state.
 ms.assetid: A8C36D4E-98B3-45C4-9ECD-9B5280133176
 topic_type:
@@ -23,7 +23,7 @@ api_location:
 - Bits5_0.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 02/20/2019
 ---
 

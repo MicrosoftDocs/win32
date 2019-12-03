@@ -1,5 +1,5 @@
 ---
-title: DRM_PLAY_OPL_EX structure
+title: DRM_PLAY_OPL_EX structure (Wmdrmsdk.h)
 description: The DRM\_PLAY\_OPL\_EX structure holds information about the output protection levels (OPLs) specified in a license for play actions.
 ms.assetid: 287f6681-f12e-4ef3-b802-24ee7b94bc7f
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

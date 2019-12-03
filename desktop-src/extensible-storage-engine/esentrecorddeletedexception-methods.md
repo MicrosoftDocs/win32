@@ -1,5 +1,5 @@
 ---
-title: EsentRecordDeletedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentRecordDeletedException methods
 TOCTitle: EsentRecordDeletedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordDeletedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecorddeletedexception_methods(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: The GetSerializedSize method calculates the buffer size that is required to hold a serialized IPortableDeviceValues interface.
 ms.assetid: 12fa6ed1-ce3b-4c5d-920a-87ff693fe0ea
-title: IWpdSerializer::GetSerializedSize method
-ms.topic: article
+title: IWpdSerializer::GetSerializedSize method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

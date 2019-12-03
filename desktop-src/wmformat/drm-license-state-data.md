@@ -1,5 +1,5 @@
 ---
-title: DRM_LICENSE_STATE_DATA structure
+title: DRM_LICENSE_STATE_DATA structure (Drmexternals.h)
 description: The DRM\_LICENSE\_STATE\_DATA structure contains license information about a specified DRM right.
 ms.assetid: '5ca577b5-d28b-4e36-8af7-6fae4300d464'
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

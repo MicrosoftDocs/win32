@@ -1,8 +1,8 @@
 ---
 Description: Create a translation matrix.
 ms.assetid: a3565a06-22af-4ded-8835-da4c7ae81805
-title: D3DXMatrixTranslation function
-ms.topic: article
+title: D3DXMatrixTranslation function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

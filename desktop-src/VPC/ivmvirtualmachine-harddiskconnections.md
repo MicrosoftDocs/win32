@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine HardDiskConnections property
+title: IVMVirtualMachine HardDiskConnections property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of hard disk connections.
 ms.assetid: 167eb8af-bbc1-49a8-83fd-8d946b50530d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

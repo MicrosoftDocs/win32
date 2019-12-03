@@ -1,8 +1,8 @@
 ---
 Description: The Active method notifies the pin that the filter is now active. This method overrides the CBasePin::Active method. If the pin is connected, this method starts the streaming thread.
 ms.assetid: ea32b602-2583-4de6-96ec-6ea875c49d14
-title: CSourceStream.Active method
-ms.topic: article
+title: CSourceStream.Active method (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

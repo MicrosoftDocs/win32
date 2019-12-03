@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Memory property
+title: IVMVirtualMachine Memory property (VPCCOMInterfaces.h)
 description: Amount of physical memory in the virtual machine, in megabytes.
 ms.assetid: 1a1d4cc7-a537-49f0-981f-0b72eca9013e
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

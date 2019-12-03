@@ -3,7 +3,7 @@ Description: The Win32\_LogicalDiskToPartition association WMI class relates a l
 ms.assetid: 41161d57-d392-4acc-a22a-10be75aa14a6
 ms.tgt_platform: multiple
 title: Win32_LogicalDiskToPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

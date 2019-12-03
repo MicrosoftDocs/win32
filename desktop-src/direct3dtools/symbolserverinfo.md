@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: SymbolServerInfo structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: D57D87E4-BA94-4C6F-9D5F-999C61F4DD6F
 api_name: 

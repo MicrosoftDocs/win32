@@ -1,5 +1,5 @@
 ---
-title: Texture1DArray SampleGrad methods
+title: Texture1DArray::Texture1DArray SampleGrad methods
 description: Samples a texture using a gradient to influence the way the sample location is calculated.
 ms.assetid: 8B16599A-1676-4E86-A9A9-B4FE54C1E4A2
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

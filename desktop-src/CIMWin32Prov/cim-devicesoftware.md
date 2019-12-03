@@ -3,7 +3,7 @@ Description: The CIM\_DeviceSoftware relationship identifies software that is as
 ms.assetid: 831d0014-2a01-49f4-9642-fae5682f0388
 ms.tgt_platform: multiple
 title: CIM_DeviceSoftware class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

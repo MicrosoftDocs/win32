@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_BinarySensor class requests a reset of
 ms.assetid: 73ae915d-9649-4eca-8f9b-fb4165c94cbe
 ms.tgt_platform: multiple
 title: Reset method of the CIM_BinarySensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

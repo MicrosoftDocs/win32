@@ -1,5 +1,5 @@
 ---
-title: PGM_GETPOS message
+title: PGM_GETPOS message (Commctrl.h)
 description: Retrieves the current scroll position of the pager control. You can send this message explicitly or use the Pager\_GetPos macro.
 ms.assetid: 1e0f967a-3290-43b7-b812-8cf56abf2d32
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

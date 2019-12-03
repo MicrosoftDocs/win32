@@ -1,8 +1,8 @@
 ---
 Description: The get\_Item method gets an item from the collection using an index.
 ms.assetid: 7401ae21-190d-479c-aebc-51bf8a953b94
-title: ITTimeCollection::get_Item method
-ms.topic: article
+title: ITTimeCollection::get_Item method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

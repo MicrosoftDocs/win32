@@ -1,5 +1,5 @@
 ---
-title: glRotated function
+title: glRotated function (Gl.h)
 description: The glRotated function multiplies the current matrix by a rotation matrix.
 ms.assetid: 9adfeb5b-8c2a-4acf-a251-6ba23cc4c3a6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

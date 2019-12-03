@@ -1,8 +1,8 @@
 ---
 Description: System-level event generated on a Parental Controls setting change.
 ms.assetid: 2540c3cc-96d0-4e01-a525-4da4a857cb58
-title: WPCEVENT_SYS_SETTINGCHANGE event
-ms.topic: article
+title: WPCEVENT_SYS_SETTINGCHANGE event (Wpcevent.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,9 +2,8 @@
 Description: Microsoft provides components that are designed to enable application developers, Web developers, and systems administrators to develop audio and video programs and to create Windows Media-compatible applications and Web sites.
 ms.assetid: 30595274-5234-4722-ac4e-4471b4d8dae2
 title: Audio and Video
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
-ms.technology: audio-video
 ---
 
 # Audio and Video

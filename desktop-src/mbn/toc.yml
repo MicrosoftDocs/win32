@@ -565,8 +565,6 @@
         href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter
       - name: "MBN_SMS_STATUS_INFO"
         href: /windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info
-    - name: "Wireless Wide Area Network Functions"
-      href: mobile-broadband-api-functions.md
   - name: "Mobile Broadband Profile Schema Reference"
     href: schema-schema.md
     items: 

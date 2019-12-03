@@ -1,5 +1,5 @@
 ---
-title: MCI_BREAK command
+title: MCI_BREAK command (Mmsystem.h)
 description: The MCI\_BREAK command sets a break key for an MCI device. MCI supports this command directly rather than passing it to the device. Any MCI application can use this command.
 ms.assetid: 127b5179-2838-4bde-8d0c-37a4cc87fa4d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

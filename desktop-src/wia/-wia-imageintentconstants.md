@@ -1,8 +1,8 @@
 ---
 Description: Image intent constants specify what type of data the image is meant to represent.
 ms.assetid: 171228d9-a619-49aa-964e-f72a7f294a9d
-title: Image Intent Constants
-ms.topic: article
+title: Image Intent Constants (Wiadef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

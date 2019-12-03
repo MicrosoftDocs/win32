@@ -1,5 +1,5 @@
 ---
-title: Handling Errors
+title: Handling Errors (BITS)
 description: There are two types of errors to handle in your application.
 ms.assetid: cbc182ce-c853-492e-8953-21c54500875b
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: RasAdminServerGetInfo function
+title: RasAdminServerGetInfo function (Rassapi.h)
 description: The RasAdminServerGetInfo function gets the server configuration of a RAS server.
 ms.assetid: a1c371fd-462c-443c-8016-592efb2f0b1a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: WMDRMCreateProvider function
+title: WMDRMCreateProvider function (Wmdrmsdk.h)
 description: The WMDRMCreateProvider function creates a class factory that can create the other objects of the Windows Media DRM Client Extended APIs.
 ms.assetid: 25ec2fbf-136a-4f40-b2d3-f35b42178c60
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Ext-MS-Win-mm-wmdrmsdk-l1-1-0.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

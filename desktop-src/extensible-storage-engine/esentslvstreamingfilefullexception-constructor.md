@@ -1,11 +1,11 @@
 ---
-title: EsentSLVStreamingFileFullException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileFullException constructor 
 TOCTitle: 'EsentSLVStreamingFileFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilefullexception.esentslvstreamingfilefullexception(v=EXCHG.10)
 ms:contentKeyID: 55102830
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException.EsentSLVStreamingFileFullException
 dev_langs:

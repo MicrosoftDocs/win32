@@ -1,5 +1,5 @@
 ---
-title: PSN_KILLACTIVE notification code
+title: PSN_KILLACTIVE notification code (Prsht.h)
 description: Notifies a page that it is about to lose activation either because another page is being activated or the user has clicked the OK button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 470cd6ff-73ad-451a-a861-4d3324a8a8db
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

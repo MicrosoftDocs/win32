@@ -1,5 +1,5 @@
 ---
-title: TVM_SETIMAGELIST message
+title: TVM_SETIMAGELIST message (Commctrl.h)
 description: Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can send this message explicitly or by using the TreeView\_SetImageList macro.
 ms.assetid: 1a7bf2f8-c7db-44a8-b234-0ffc498e9000
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

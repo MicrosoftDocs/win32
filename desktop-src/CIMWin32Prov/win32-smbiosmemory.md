@@ -3,7 +3,7 @@ Description: The Win32\_SMBIOSMemory abstract WMI class represents the propertie
 ms.assetid: 2f609fc6-f0f5-45a5-9f9a-3873da034d49
 ms.tgt_platform: multiple
 title: Win32_SMBIOSMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

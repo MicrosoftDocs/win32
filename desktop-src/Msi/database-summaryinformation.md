@@ -2,7 +2,7 @@
 Description: The SummaryInformation property of the Database object returns a SummaryInfo object that can be used to examine, update, and add properties to the summary information stream.
 ms.assetid: 6892a8c0-c99e-4dcb-b6cb-d470ffceab69
 title: Database.SummaryInformation property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

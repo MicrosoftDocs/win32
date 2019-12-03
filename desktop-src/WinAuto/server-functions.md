@@ -1,5 +1,5 @@
 ---
-title: Server Functions
+title: Server Functions (Windows Accessibility features)
 description: Server Functions
 ms.assetid: 3cfa42c4-3d8b-44a1-9b8e-19248da12334
 ms.topic: article

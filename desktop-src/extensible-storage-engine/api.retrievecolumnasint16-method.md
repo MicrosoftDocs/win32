@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsInt16 method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsInt16 method 
 TOCTitle: 'RetrieveColumnAsInt16 method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsInt16
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasint16(v=EXCHG.10)

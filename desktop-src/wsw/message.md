@@ -1,5 +1,5 @@
 ---
-title: Message
+title: Message (Windows Web Services)
 description: A message is an object that encapsulates data that is transmitted or received.
 ms.assetid: edc810d9-7d78-4b79-8cbb-e87401f6ae41
 keywords:

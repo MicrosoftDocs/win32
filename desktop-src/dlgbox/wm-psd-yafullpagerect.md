@@ -1,5 +1,5 @@
 ---
-title: WM_PSD_YAFULLPAGERECT message
+title: WM_PSD_YAFULLPAGERECT message (Commdlg.h)
 description: Notifies the hook procedure of a Page Setup dialog box, PagePaintHook, that the dialog box is about to draw the return address portion of an envelope sample page.
 ms.assetid: 1f6aea69-a1bd-41ea-b508-44b4f5c38757
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

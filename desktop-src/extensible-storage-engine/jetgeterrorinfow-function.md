@@ -5,7 +5,7 @@ ms:assetid: 7a84f937-7a16-434e-896d-789f316ee833
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh475859(v=EXCHG.10)
 ms:contentKeyID: 37033565
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetErrorInfoW
 topic_type: 

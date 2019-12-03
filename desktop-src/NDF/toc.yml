@@ -10,7 +10,7 @@
       href: using-ndf-functionality.md
     - name: "Designing NDF Helper Class Extensions"
       href: designing-ndf-helper-class-extensions.md
-    - name: "User Interface Guidelines for NDF Helper Class Extensions"
+    - name: "UI guidelines for NDF helper class extensions"
       href: user-interface-guidelines-for-ndf-helper-class-extensions.md
     - name: "Registering NDF Helper Class Extensions"
       href: registering-ndf-helper-class-extensions.md

@@ -1,8 +1,8 @@
 ---
 Description: Releases the previously created device context (DC) for the indicated kernel-mode Microsoft DirectDraw surface object.
 ms.assetid: 98def2a1-878d-4776-a519-32cb70107338
-title: NtGdiDdReleaseDC function
-ms.topic: article
+title: NtGdiDdReleaseDC function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

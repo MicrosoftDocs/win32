@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray GatherCmp methods
+title: TextureCubeArray::TextureCubeArray GatherCmp methods
 description: Samples and compares a texture and returns all components.
 ms.assetid: DF2C86F3-B585-47CD-8A0F-A5695A91F89E
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

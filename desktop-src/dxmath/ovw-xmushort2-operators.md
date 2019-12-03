@@ -2,7 +2,7 @@
 Description: The XMUSHORT2 structure exposes the following operators.
 ms.assetid: f57c9445-bd7f-42f7-b892-1023b76c792e
 title: XMUSHORT2 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

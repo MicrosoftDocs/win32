@@ -1,5 +1,5 @@
 ---
-title: Description attribute
+title: Description attribute (AD Schema)
 description: Contains the description to display for an object. This value is restricted as single-valued for backward compatibility in some cases but is allowed to be multi-valued in others. See Remarks.
 ms.assetid: 97dad871-5db0-4d1e-b931-1b053559f9c2
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ api_name:
 - Description
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

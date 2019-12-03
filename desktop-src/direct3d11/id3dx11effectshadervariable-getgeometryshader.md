@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetGeometryShader method
+title: ID3DX11EffectShaderVariable GetGeometryShader method (D3dx11effect.h)
 description: Get a geometry shader.
 ms.assetid: 395d5c92-a941-4fbf-9bb9-b43634c1810b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

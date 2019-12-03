@@ -2,7 +2,7 @@
 Description: Suggests the security policy to be applied to the browser.
 ms.assetid: 73541611-2024-4c33-ab03-e3204244c46c
 title: IItemPreviewerExt::SuggestBrowserPolicy method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

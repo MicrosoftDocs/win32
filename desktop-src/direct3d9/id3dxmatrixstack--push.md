@@ -1,8 +1,8 @@
 ---
 Description: Adds a matrix to the stack.
 ms.assetid: 99bc636d-f1fd-4ace-a649-6a1a952927e0
-title: ID3DXMATRIXStack::Push method
-ms.topic: article
+title: ID3DXMATRIXStack::Push method (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect Optimize method
+title: ID3DX11Effect Optimize method (D3dx11effect.h)
 description: Minimize the amount of memory required for an effect.
 ms.assetid: fa1d0769-6746-44f6-9979-31a534646884
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

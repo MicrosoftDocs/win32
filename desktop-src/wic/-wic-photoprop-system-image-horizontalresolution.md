@@ -1,12 +1,12 @@
 ---
+title: System.Image.HorizontalResolution photo metadata policy
 Description: The photo metadata policy for the System.Image.HorizontalResolution property.
 ms.assetid: 1fe73c50-4179-4ea4-be1c-9e103fb65d59
-title: System.Image.HorizontalResolution Photo Metadata Policy
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# System.Image.HorizontalResolution Photo Metadata Policy
+# System.Image.HorizontalResolution photo metadata policy
 
 The photo metadata policy for the [System.Image.HorizontalResolution](https://msdn.microsoft.com/en-us/library/bb787460(VS.85).aspx) property.
 

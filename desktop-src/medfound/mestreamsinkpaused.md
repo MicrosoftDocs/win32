@@ -1,8 +1,8 @@
 ---
 Description: Raised by a stream sink when it completes the transition to the paused state.
 ms.assetid: 84ab62fc-1525-433c-8af5-70659122703c
-title: MEStreamSinkPaused event
-ms.topic: article
+title: MEStreamSinkPaused event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

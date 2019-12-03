@@ -1,8 +1,8 @@
 ---
 Description: The ITParticipantEvent interface contains methods that retrieve the description of participant events.
 ms.assetid: 1199ec91-ee06-4e6c-8d8f-1585a3da3db0
-title: ITParticipantEvent interface
-ms.topic: interface
+title: ITParticipantEvent interface (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

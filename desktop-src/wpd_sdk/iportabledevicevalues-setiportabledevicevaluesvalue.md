@@ -1,8 +1,8 @@
 ---
 Description: The SetIPortableDeviceValuesValue method adds a new IPortableDeviceValues value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: 3e51964e-6ee0-4885-94ca-cc8000b456b4
-title: IPortableDeviceValues::SetIPortableDeviceValuesValue method
-ms.topic: article
+title: IPortableDeviceValues::SetIPortableDeviceValuesValue method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

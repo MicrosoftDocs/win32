@@ -1,8 +1,8 @@
 ---
 Description: The SetAddressInfo method sets the address information.
 ms.assetid: 100b96af-e6ba-4496-9978-4df133e1c2b5
-title: ITConnection::SetAddressInfo method
-ms.topic: article
+title: ITConnection::SetAddressInfo method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

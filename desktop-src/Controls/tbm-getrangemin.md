@@ -1,5 +1,5 @@
 ---
-title: TBM_GETRANGEMIN message
+title: TBM_GETRANGEMIN message (Commctrl.h)
 description: Retrieves the minimum position for the slider in a trackbar.
 ms.assetid: 64334aed-0403-4785-829e-693292734d10
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

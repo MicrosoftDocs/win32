@@ -1,8 +1,8 @@
 ---
 Description: Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Video Acceleration (DXVA) version 1.0.
 ms.assetid: abe3beac-f3f8-413d-8b83-9da3340b19ac
-title: IDirect3DVideoDevice9 interface
-ms.topic: interface
+title: IDirect3DVideoDevice9 interface (Dxva.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

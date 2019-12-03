@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 9078b2f5-b11e-4780-8143-6738e9df4f4b
-title: CSourceStream.CSourceStream constructor
-ms.topic: article
+title: CSourceStream.CSourceStream constructor (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

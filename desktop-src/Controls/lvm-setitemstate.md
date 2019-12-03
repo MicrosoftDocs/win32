@@ -1,5 +1,5 @@
 ---
-title: LVM_SETITEMSTATE message
+title: LVM_SETITEMSTATE message (Commctrl.h)
 description: Changes the state of an item in a list-view control. You can send this message explicitly or by using the ListView\_SetItemState macro.
 ms.assetid: aecd14dd-cfd0-4c7c-bddc-f65022de68c9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

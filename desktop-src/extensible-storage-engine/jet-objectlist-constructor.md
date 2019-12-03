@@ -1,11 +1,11 @@
 ---
-title: JET_OBJECTLIST constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTLIST constructor 
 TOCTitle: 'JET_OBJECTLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist.jet_objectlist(v=EXCHG.10)
 ms:contentKeyID: 55107641
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.JET_OBJECTLIST
 dev_langs:

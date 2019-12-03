@@ -2,7 +2,7 @@
 Description: Indicates whether the volume is automatically unlocked when it is mounted.
 ms.assetid: cba04d77-1e7c-4191-8eb7-b8c43694193f
 title: IsAutoUnlockEnabled method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

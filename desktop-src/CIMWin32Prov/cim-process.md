@@ -3,7 +3,7 @@ Description: The CIM\_Process class represents a single instance of a running pr
 ms.assetid: 8b00ef6e-5c7f-410c-9e48-1205ea6e5a4c
 ms.tgt_platform: multiple
 title: CIM_Process class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

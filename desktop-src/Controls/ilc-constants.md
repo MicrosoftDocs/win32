@@ -1,5 +1,5 @@
 ---
-title: Image List Creation Flags
+title: Image List Creation Flags (Shlobj.h)
 description: The set of bit flags that specifies the type of image list to create. This parameter can be a combination of the following values, but it can include only one of the ILC\_COLOR values. Used by ImageList\_Create and IImageList2 Initialize.
 ms.assetid: DFEB1934-DB7F-4151-97F9-DDB2BCCC782A
 topic_type:
@@ -22,7 +22,7 @@ api_location:
 - Shlobj.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

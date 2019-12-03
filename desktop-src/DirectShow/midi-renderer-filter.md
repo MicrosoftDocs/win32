@@ -1,8 +1,8 @@
 ---
 Description: The MIDI Renderer filter renders MIDI data from the MIDI Parser filter.
 ms.assetid: 2675a21d-41d0-4095-96c4-f12f52c00d5a
-title: MIDI Renderer Filter
-ms.topic: article
+title: MIDI Renderer Filter (Windows.devices.midi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

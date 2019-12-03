@@ -1,8 +1,8 @@
 ---
 Description: Duration of the stream. By default, the value is set to the value of the CSourceSeeking::m\_rtStop member variable.
 ms.assetid: a87b321e-3179-4485-969b-bf12cb634b43
-title: CSourceSeeking::m_rtDuration member
-ms.topic: article
+title: CSourceSeeking::m_rtDuration member (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_VideoBIOSElement class represents the low-level software t
 ms.assetid: f23d411f-4781-4727-abd1-61fe1a366bf0
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

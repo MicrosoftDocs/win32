@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS TerminalServicesInitialized property
+title: IVMGuestOS TerminalServicesInitialized property (VPCCOMInterfaces.h)
 description: Status of Remote Desktop Services in the guest operating system.
 ms.assetid: 104d9256-6b2e-45ec-a290-21e0732c65ac
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

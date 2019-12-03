@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform SetScaleX methods
+title: IDCompositionScaleTransform SetScaleX methods (Dcomp.h)
 description: Changes or animates the value of the ScaleX property of a 2D scale transform.
 ms.assetid: 114C4907-280C-4060-9157-30E0E8989251
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform::SetScaleX methods

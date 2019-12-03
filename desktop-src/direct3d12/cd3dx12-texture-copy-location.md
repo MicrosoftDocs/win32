@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_TEXTURE_COPY_LOCATION structure
+title: CD3DX12_TEXTURE_COPY_LOCATION structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_TEXTURE\_COPY\_LOCATION structure.
 ms.assetid: 8BA93729-2FFB-4C09-88B0-779049BAF385
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

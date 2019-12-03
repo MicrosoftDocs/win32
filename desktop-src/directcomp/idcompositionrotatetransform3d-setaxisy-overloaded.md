@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform3D SetAxisY methods
+title: IDCompositionRotateTransform3D SetAxisY methods (Dcomp.h)
 description: Changes or animates the value of the AxisY property of a rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
 ms.assetid: C86E4D59-4E9D-44BF-BA9D-91714D0C2D37
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform3D::SetAxisY methods

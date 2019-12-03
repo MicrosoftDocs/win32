@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd interface
+title: ISoftKbd interface (Softkbdc.h)
 description: The ISoftKbd interface is used by applications and text services to implement a soft keyboard.
 ms.assetid: 804634bd-646e-459f-9fbb-cd6929b11fab
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

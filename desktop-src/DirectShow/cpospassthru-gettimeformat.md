@@ -1,8 +1,8 @@
 ---
 Description: The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeeking::GetTimeFormat method.
 ms.assetid: 445c1873-da6f-42be-a4cf-0c475c5f0723
-title: CPosPassThru.GetTimeFormat method
-ms.topic: article
+title: CPosPassThru.GetTimeFormat method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (pager) notification code
+title: NM_RELEASEDCAPTURE (pager) notification code (Commctrl.h)
 description: Notifies a pager control's parent window that the control has released the mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 5ce9c38a-5d37-4ac7-8510-30bc59d85cca
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

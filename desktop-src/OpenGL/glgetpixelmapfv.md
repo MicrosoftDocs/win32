@@ -1,5 +1,5 @@
 ---
-title: glGetPixelMapfv function
+title: glGetPixelMapfv function (Gl.h)
 description: The glGetPixelMapfv, glGetPixelMapuiv, and glGetPixelMapusv functions return the specified pixel map.
 ms.assetid: b09f4799-8e36-4d4f-90d8-4a8ed3d15718
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

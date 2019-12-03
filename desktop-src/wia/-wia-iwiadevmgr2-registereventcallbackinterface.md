@@ -1,8 +1,8 @@
 ---
 Description: Registers a running application for Windows Image Acquisition (WIA) 2.0 event notification.
 ms.assetid: 978dcd41-d63b-421d-b7e1-8e9368b36180
-title: IWiaDevMgr2::RegisterEventCallbackInterface method
-ms.topic: article
+title: IWiaDevMgr2::RegisterEventCallbackInterface method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

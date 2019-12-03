@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_WINDOW_PARMS structure
+title: MCI_OVLY_WINDOW_PARMS structure (Mciapi.h)
 description: The MCI\_OVLY\_WINDOW\_PARMS structure contains window-display information for the MCI\_WINDOW command for video-overlay devices.
 ms.assetid: 1189f31e-6e54-4279-a23d-b4e21c6cd276
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

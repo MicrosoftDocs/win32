@@ -1,8 +1,8 @@
 ---
 Description: Gets a vector.
 ms.assetid: 55f5512f-42f2-4588-abd4-1cdea530b9bf
-title: ID3DXBaseEffect::GetVector method
-ms.topic: article
+title: ID3DXBaseEffect::GetVector method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

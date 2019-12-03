@@ -1,5 +1,5 @@
 ---
-title: LVM_GETITEMSPACING message
+title: LVM_GETITEMSPACING message (Commctrl.h)
 description: Determines the spacing between items in a list-view control. You can send this message explicitly or by using the ListView\_GetItemSpacing macro.
 ms.assetid: 4e43fb43-468c-4b8a-9e3b-1694e90ffef8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

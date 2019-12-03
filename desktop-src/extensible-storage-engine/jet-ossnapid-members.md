@@ -1,5 +1,5 @@
 ---
-title: JET_OSSNAPID members (Microsoft.Isam.Esent.Interop)
+title: JET_OSSNAPID members
 TOCTitle: JET_OSSNAPID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ossnapid_members(v=EXCHG.10)

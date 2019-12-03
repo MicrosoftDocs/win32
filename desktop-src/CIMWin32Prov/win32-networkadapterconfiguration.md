@@ -3,7 +3,7 @@ Description: Represents the attributes and behaviors of a network adapter. This 
 ms.assetid: 690b46ed-a065-4973-b044-0df4e81e41a1
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

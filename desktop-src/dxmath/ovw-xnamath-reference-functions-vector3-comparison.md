@@ -2,7 +2,7 @@
 Description: Lists the 3D vector comparison functions.
 ms.assetid: 8c5f71fd-2ef8-86db-42de-da3da3c17e41
 title: DirectXMath Library 3D Vector Comparison Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

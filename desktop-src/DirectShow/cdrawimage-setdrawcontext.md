@@ -1,8 +1,8 @@
 ---
 Description: The SetDrawContext method sets the device contexts used for drawing.
 ms.assetid: dd752970-99b3-42bb-95a5-8103cab276da
-title: CDrawImage.SetDrawContext method
-ms.topic: article
+title: CDrawImage.SetDrawContext method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

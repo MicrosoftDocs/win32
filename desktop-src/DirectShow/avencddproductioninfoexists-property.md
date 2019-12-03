@@ -1,8 +1,8 @@
 ---
 Description: Specifies the audio production information flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 72f5f988-37c3-40d4-9c1c-07086e60ea51
-title: AVEncDDProductionInfoExists property
-ms.topic: article
+title: AVEncDDProductionInfoExists property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EM_LINESCROLL message
+title: EM_LINESCROLL message (Winuser.h)
 description: Scrolls the text in a multiline edit control.
 ms.assetid: 5398082d-f1ef-4a3a-9e5a-83cf286adbf1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXLIST.columnidgrbitColumn property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXLIST.columnidgrbitColumn property 
 TOCTitle: 'columnidgrbitColumn property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidgrbitColumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist.columnidgrbitcolumn(v=EXCHG.10)
 ms:contentKeyID: 55103665
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidgrbitColumn
 dev_langs:

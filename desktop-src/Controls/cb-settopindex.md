@@ -1,5 +1,5 @@
 ---
-title: CB_SETTOPINDEX message
+title: CB_SETTOPINDEX message (Winuser.h)
 description: An application sends the CB\_SETTOPINDEX message to ensure that a particular item is visible in the list box of a combo box.
 ms.assetid: 'vs|controls|~\controls\comboboxes\comboboxreference\comboboxmessages\cb_settopindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

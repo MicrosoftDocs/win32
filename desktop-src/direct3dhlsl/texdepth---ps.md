@@ -2,10 +2,10 @@
 title: texdepth - ps
 description: Calculate depth values to be used in the depth buffer comparison test for this pixel.
 ms.assetid: f7128dbb-a5f3-4e95-b53b-7432439ae0c4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

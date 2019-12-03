@@ -1,5 +1,5 @@
 ---
-title: VMDriveBusType enumeration
+title: VMDriveBusType enumeration (VPCCOMInterfaces.h)
 description: Specifies the type of bus.
 ms.assetid: 7e0926f3-8218-49c9-8d3a-27214c111a77
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

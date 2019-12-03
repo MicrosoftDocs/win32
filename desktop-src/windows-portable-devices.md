@@ -4,7 +4,6 @@ ms.assetid: b3833a11-631d-4860-867f-a611c9362dae
 title: Windows Portable Devices
 ms.topic: article
 ms.date: 05/31/2018
-ms.technology: devices
 ---
 
 # Windows Portable Devices

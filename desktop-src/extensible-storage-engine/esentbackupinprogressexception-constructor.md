@@ -1,11 +1,11 @@
 ---
-title: EsentBackupInProgressException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBackupInProgressException constructor 
 TOCTitle: 'EsentBackupInProgressException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupInProgressException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupinprogressexception.esentbackupinprogressexception(v=EXCHG.10)
 ms:contentKeyID: 55101084
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBackupInProgressException.EsentBackupInProgressException
 dev_langs:

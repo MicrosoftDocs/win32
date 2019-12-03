@@ -1,8 +1,8 @@
 ---
 Description: The DestroyHandoffTable function destroys a handoff table created with CreateHandoffTable.
 ms.assetid: 01ae9899-4f7c-4706-a2ce-9f55b112351d
-title: DestroyHandoffTable function
-ms.topic: article
+title: DestroyHandoffTable function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

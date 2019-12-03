@@ -3,7 +3,7 @@ Description: The CIM\_ElementConfiguration association relates a CIM\_Configurat
 ms.assetid: 4d2af009-7466-4394-af42-72c8d96e0786
 ms.tgt_platform: multiple
 title: CIM_ElementConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

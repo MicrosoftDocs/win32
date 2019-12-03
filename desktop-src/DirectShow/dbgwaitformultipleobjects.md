@@ -1,8 +1,8 @@
 ---
 Description: Waits for any (or all) of the specified objects to be signaled.
 ms.assetid: e60c98b6-a4d2-40de-8297-727404e3c387
-title: DbgWaitForMultipleObjects function
-ms.topic: article
+title: DbgWaitForMultipleObjects function (Wxdebug.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

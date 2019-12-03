@@ -2,7 +2,7 @@
 Description: Retrieves the length of the public key in bits.
 ms.assetid: 02cb631a-5a5d-4d16-bdad-55263a0a53b3
 title: PublicKey.Length property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

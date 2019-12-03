@@ -1,5 +1,5 @@
 ---
-title: Resource Reference
+title: Resource Reference (Direct3D 11 Graphics)
 description: The Direct3D API defines several API elements to help you create and manage resources.
 ms.assetid: 03d9952d-2f70-4343-b0c6-b0ef94365c2a
 ms.topic: article

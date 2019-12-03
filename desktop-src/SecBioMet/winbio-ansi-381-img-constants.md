@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_381_IMG Constants
+title: WINBIO_ANSI_381_IMG Constants (Winbio\_types.h)
 description: Specify the type of image compression used by a sensor.
 ms.assetid: 7854F747-1ED5-48E4-8C00-26115F32026E
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

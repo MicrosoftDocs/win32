@@ -1,8 +1,8 @@
 ---
 Description: The IWiaPreview interface caches unfiltered images internally and passes them through image processing filters.
 ms.assetid: 8a51c42b-aa1d-4df0-aba3-6aeb8e1ca2cf
-title: IWiaPreview interface
-ms.topic: interface
+title: IWiaPreview interface (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

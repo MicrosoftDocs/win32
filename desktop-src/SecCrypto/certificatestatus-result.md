@@ -2,7 +2,7 @@
 Description: The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.
 ms.assetid: b1edfbde-9d54-4e9c-ba9b-33e4c354c23f
 title: CertificateStatus.Result property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

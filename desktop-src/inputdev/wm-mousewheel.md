@@ -1,5 +1,5 @@
 ---
-title: WM_MOUSEWHEEL message
+title: WM_MOUSEWHEEL message (Winuser.h)
 description: Sent to the focus window when the mouse wheel is rotated.
 ms.assetid: 9831cceb-bbf3-42a0-a0f9-c2d6ad4573eb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

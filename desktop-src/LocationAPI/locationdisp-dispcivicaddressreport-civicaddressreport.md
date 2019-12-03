@@ -1,8 +1,8 @@
 ---
 Description: The current civic address report.
 ms.assetid: a58dd612-bc54-42d1-9960-8c3de1c4fa83
-title: LocationDisp.CivicAddressReportFactory.CivicAddressReport property
-ms.topic: article
+title: LocationDisp.CivicAddressReportFactory.CivicAddressReport property (Locationapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

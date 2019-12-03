@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the number of IInkAnalysisRecognizer objects in this collection.
 ms.assetid: dfb5c530-b481-4c60-b7fe-87fe162de270
-title: IInkAnalysisRecognizers::GetCount method
-ms.topic: article
+title: IInkAnalysisRecognizers::GetCount method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

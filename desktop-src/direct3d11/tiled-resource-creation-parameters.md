@@ -65,7 +65,7 @@ Whatever would be supported for the given configuration regardless of it being t
 <span id="Supported_Width_Height_MipLevels_ArraySize"></span><span id="supported_width_height_miplevels_arraysize"></span><span id="SUPPORTED_WIDTH_HEIGHT_MIPLEVELS_ARRAYSIZE"></span>**Supported Width/Height/MipLevels/ArraySize**
 </dt> <dd>
 
-Full extents supported by Direct3D 11. Tiled resources don't have the restriction on total memory size imposed on non-tiled resources. Tiled resources are only constrained by overall virtual address space limits. For info, see [Address apace available for tiled resources](address-apace-available-for-tiled-resources.md).
+Full extents supported by Direct3D 11. Tiled resources don't have the restriction on total memory size imposed on non-tiled resources. Tiled resources are only constrained by overall virtual address space limits. For info, see [Address space available for tiled resources](address-space-available-for-tiled-resources.md).
 
 </dd> </dl>
 

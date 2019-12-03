@@ -1,5 +1,5 @@
 ---
-title: EsentOneDatabasePerSessionException members (Microsoft.Isam.Esent.Interop)
+title: EsentOneDatabasePerSessionException members
 TOCTitle: EsentOneDatabasePerSessionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentonedatabasepersessionexception_members(v=EXCHG.10)

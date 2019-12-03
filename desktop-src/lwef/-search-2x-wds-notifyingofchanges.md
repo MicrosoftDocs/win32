@@ -1,5 +1,5 @@
 ---
-title: Notifying the Index of Changes
+title: Notifying the Index of Changes (Legacy Windows Environment Features)
 description: With Microsoft Windows Desktop Search (WDS) 2.6, protocol handlers for a given data store can tell the WDS Indexer when data in their store has changed.
 ms.assetid: 700b1707-dd11-4a30-8f00-5c4aae1173ff
 ms.topic: article

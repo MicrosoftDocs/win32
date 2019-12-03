@@ -1,5 +1,5 @@
 ---
-title: Filtering Conditions Available at Each Filtering Layer
+title: Filtering Conditions Available at Each Filtering Layer (Fwpmu.h)
 description: The Windows Filtering Platform (WFP) filter engine supports a different set of filtering conditions at each of its filtering layers.
 ms.assetid: 6faace21-44ec-49dd-8e77-e403c258c14a
 topic_type:
@@ -42,7 +42,7 @@ api_location:
 - Fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: VMHardDiskType enumeration
+title: VMHardDiskType enumeration (VPCCOMInterfaces.h)
 description: Specifies the hard disk image type.
 ms.assetid: 14480bad-523a-40d8-a6ba-9ec31fe4b217
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

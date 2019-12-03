@@ -1,8 +1,8 @@
 ---
 Description: The put\_AddressType method sets the address type.
 ms.assetid: 73c64904-925c-4a35-a8f9-88b196b59b1e
-title: ITConnection::put_AddressType method
-ms.topic: article
+title: ITConnection::put_AddressType method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

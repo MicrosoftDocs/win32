@@ -1,5 +1,5 @@
 ---
-title: WM_MBUTTONDOWN message
+title: WM_MBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the middle mouse button while the cursor is in the client area of a window.
 ms.assetid: 5181a425-2577-4806-8926-1075a1a756ee
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

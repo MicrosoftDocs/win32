@@ -1,5 +1,5 @@
 ---
-title: IDeliveryOptimizationFile GetStats method
+title: IDeliveryOptimizationFile GetStats method (Deliveryoptimization.h)
 description: Returns download and upload stats for a specific file.
 ms.assetid: 8A3AD658-F1AD-4EA5-B010-AB7B88126FD6
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

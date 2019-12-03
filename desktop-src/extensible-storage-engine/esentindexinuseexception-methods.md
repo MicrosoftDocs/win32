@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInUseException methods (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInUseException methods
 TOCTitle: EsentIndexInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinuseexception_methods(v=EXCHG.10)

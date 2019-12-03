@@ -1,5 +1,5 @@
 ---
-title: MCI_UNFREEZE command
+title: MCI_UNFREEZE command (Mmsystem.h)
 description: The MCI\_UNFREEZE command restores motion to an area of the video buffer frozen with the MCI\_FREEZE command. Digital-video, VCR, and video-overlay devices recognize this command.
 ms.assetid: 79ff1be5-6e30-4ef4-ab81-fc5643e3a72d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

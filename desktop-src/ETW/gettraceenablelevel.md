@@ -1,8 +1,8 @@
 ---
 Description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
-title: GetTraceEnableLevel function
-ms.topic: article
+title: GetTraceEnableLevel function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

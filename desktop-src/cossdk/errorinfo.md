@@ -2,7 +2,7 @@
 Description: Retrieves extended error information regarding methods that deal with multiple objects, such as Populate and SaveChanges on the COMAdminCatalogCollection object, and methods to install, import, or export applications or components on the COMAdminCatalog object.
 ms.assetid: cf612fc4-55dd-4706-8c41-2654ca922b9a
 title: ErrorInfo collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

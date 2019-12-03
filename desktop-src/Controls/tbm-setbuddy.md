@@ -1,5 +1,5 @@
 ---
-title: TBM_SETBUDDY message
+title: TBM_SETBUDDY message (Commctrl.h)
 description: Assigns a window as the buddy window for a trackbar control. Trackbar buddy windows are automatically displayed in a location relative to the control's orientation (horizontal or vertical).
 ms.assetid: ab35911f-bf81-47f3-98aa-0901aa877dea
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Retrieves the full name of the item as it appears in the UI. Read-only.
 ms.assetid: efe8de99-fe66-4472-8ca3-f45373d03f81
 title: Item.FullName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

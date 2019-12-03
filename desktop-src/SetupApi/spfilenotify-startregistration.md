@@ -1,8 +1,8 @@
 ---
 Description: When using the RegisterDlls INF directive to self-register DLLs, callers of SetupInstallFromInfSection may receive notifications on each file as it is registered or unregistered.
 ms.assetid: 0faf277c-7805-478f-9cec-0dd7b6acdb0e
-title: SPFILENOTIFY_STARTREGISTRATION message
-ms.topic: article
+title: SPFILENOTIFY_STARTREGISTRATION message (Setupapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

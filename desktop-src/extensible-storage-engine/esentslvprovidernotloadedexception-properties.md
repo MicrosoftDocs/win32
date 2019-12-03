@@ -1,5 +1,5 @@
 ---
-title: EsentSLVProviderNotLoadedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVProviderNotLoadedException properties
 TOCTitle: EsentSLVProviderNotLoadedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvprovidernotloadedexception_properties(v=EXCHG.10)

@@ -2,7 +2,7 @@
 Description: Registers an application as a client of CTL3D.
 ms.assetid: 38a4a04a-6322-4eb8-b272-ae9b90f84e0f
 title: Ctl3dRegister function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

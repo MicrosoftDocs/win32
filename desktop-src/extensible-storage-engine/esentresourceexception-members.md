@@ -1,5 +1,5 @@
 ---
-title: EsentResourceException members (Microsoft.Isam.Esent.Interop)
+title: EsentResourceException members
 TOCTitle: EsentResourceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentResourceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresourceexception_members(v=EXCHG.10)

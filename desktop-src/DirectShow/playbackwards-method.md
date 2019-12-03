@@ -2,7 +2,7 @@
 Description: The PlayBackwards method starts backward playback from the current location at the specified speed.
 ms.assetid: 7f8421e7-f835-4a10-a9c9-0e43de159e4f
 title: PlayBackwards Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

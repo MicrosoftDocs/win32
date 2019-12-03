@@ -1,5 +1,5 @@
 ---
-title: TDN_HELP notification code
+title: TDN_HELP notification code (Commctrl.h)
 description: Sent by a task dialog when the user presses F1 on the keyboard while the dialog has focus. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: 207ba231-639d-4906-b5dc-1592f2717f1c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

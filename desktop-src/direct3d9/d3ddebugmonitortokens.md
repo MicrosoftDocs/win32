@@ -1,8 +1,8 @@
 ---
 Description: Defines the debug monitor tokens.
 ms.assetid: c0df4c9f-a232-45cf-b543-e95ee84a4a8d
-title: D3DDEBUGMONITORTOKENS enumeration
-ms.topic: enumeration
+title: D3DDEBUGMONITORTOKENS enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

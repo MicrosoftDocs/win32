@@ -1,5 +1,5 @@
 ---
-title: XTYP_WILDCONNECT transaction
+title: XTYP_WILDCONNECT transaction (Ddeml.h)
 description: Enables a client to establish a conversation on each of the server's service name and topic name pairs that match the specified service name and topic name.
 ms.assetid: 4651e14f-ca13-412e-853d-326a13db78e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

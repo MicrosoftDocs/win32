@@ -1,8 +1,8 @@
 ---
 Description: A handle to a Windows Runtime string.
 ms.assetid: 763ACE57-EFDD-482E-851E-668D7756C5DF
-title: HSTRING
-ms.topic: article
+title: HSTRING (Hstring.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: Api.MakeKey method (JET_SESID, JET_TABLEID, Int64, MakeKeyGrbit) (Microsoft.Isam.Esent.Interop)
+title: Api.MakeKey method (JET_SESID, JET_TABLEID, Int64, MakeKeyGrbit)
 TOCTitle: MakeKey method (JET_SESID, JET_TABLEID, Int64, MakeKeyGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MakeKey(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Int64,Microsoft.Isam.Esent.Interop.MakeKeyGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.makekey(v=EXCHG.10)
 ms:contentKeyID: 55100841
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

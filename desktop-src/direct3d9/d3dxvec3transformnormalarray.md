@@ -1,8 +1,8 @@
 ---
 Description: Transforms an array (x, y, z, 0) by a given matrix.
 ms.assetid: c12fad52-d541-483f-a919-e6031aa4f761
-title: D3DXVec3TransformNormalArray function
-ms.topic: article
+title: D3DXVec3TransformNormalArray function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

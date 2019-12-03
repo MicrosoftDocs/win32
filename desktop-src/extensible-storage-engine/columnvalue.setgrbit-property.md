@@ -1,11 +1,11 @@
 ---
-title: ColumnValue.SetGrbit property  (Microsoft.Isam.Esent.Interop)
+title: ColumnValue.SetGrbit property 
 TOCTitle: 'SetGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.SetGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.setgrbit(v=EXCHG.10)
 ms:contentKeyID: 55101204
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnValue.SetGrbit
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the file identifier of an Advanced Systems Format (ASF) file.
 ms.assetid: 096c2e1a-7fd7-49ab-aa24-7d7c779d9e79
-title: MF_PD_ASF_FILEPROPERTIES_FILE_ID attribute
-ms.topic: article
+title: MF_PD_ASF_FILEPROPERTIES_FILE_ID attribute (Wmcontainer.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

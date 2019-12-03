@@ -3,7 +3,7 @@ Description: The Win32\_AutochkSetting WMI class represents the settings for the
 ms.assetid: 637f4d5d-f2f0-4fe0-bbde-7804156979b7
 ms.tgt_platform: multiple
 title: Win32_AutochkSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

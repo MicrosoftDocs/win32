@@ -1,11 +1,11 @@
 ---
-title: JET_RETINFO constructor  (Microsoft.Isam.Esent.Interop)
+title: JET_RETINFO constructor 
 TOCTitle: 'JET_RETINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETINFO.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retinfo.jet_retinfo(v=EXCHG.10)
 ms:contentKeyID: 55103865
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RETINFO.JET_RETINFO
 dev_langs:

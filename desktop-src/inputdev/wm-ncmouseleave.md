@@ -1,5 +1,5 @@
 ---
-title: WM_NCMOUSELEAVE message
+title: WM_NCMOUSELEAVE message (Winuser.h)
 description: Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to TrackMouseEvent.
 ms.assetid: b3ada6db-93ce-45d7-b408-d08692328aeb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

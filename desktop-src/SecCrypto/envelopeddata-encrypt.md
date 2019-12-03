@@ -2,7 +2,7 @@
 Description: Generates a session key and encrypts and envelopes data.
 ms.assetid: 7ae0c908-207b-4a74-a195-d12e9e7dec76
 title: EnvelopedData.Encrypt method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: MCI_CAPTURE command
+title: MCI_CAPTURE command (Mmsystem.h)
 description: The MCI\_CAPTURE command captures the contents of the frame buffer and stores it in a specified file. Digital-video devices recognize this command.
 ms.assetid: bdebddc5-a0a0-449e-889e-37c7d6612c60
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

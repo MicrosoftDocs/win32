@@ -3,7 +3,7 @@ Description: Is an abstract base class that serves as the parent class for all i
 ms.assetid: 4d2e4715-041c-49e9-b948-a148dfe85483
 ms.tgt_platform: multiple
 title: '__Event class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

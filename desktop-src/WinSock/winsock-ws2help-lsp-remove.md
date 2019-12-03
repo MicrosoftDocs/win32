@@ -2,7 +2,7 @@
 Description: Winsock catalog change event for a layered service provider (LSP) removal operation.
 ms.assetid: 86FF17F7-8CCF-4A03-899F-42BFACDF3F54
 title: WINSOCK_WS2HELP_LSP_REMOVE event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

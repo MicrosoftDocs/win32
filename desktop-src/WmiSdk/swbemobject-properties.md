@@ -3,7 +3,7 @@ Description: The SWbemObject object exposes the following properties.
 ms.assetid: A39AF028-EFE8-4699-9505-59B9AE879F86
 ms.tgt_platform: multiple
 title: SWbemObject Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

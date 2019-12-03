@@ -2,7 +2,7 @@
 Description: To disable the embedded user interface for the installation defined in the MsiEmbeddedUI table, set the MSIDISABLEEEUI property to 1 on the command line.
 ms.assetid: c5ada690-c5dd-455f-babe-8c09750525c4
 title: MSIDISABLEEEUI property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

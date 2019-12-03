@@ -1,8 +1,8 @@
 ---
 Description: Recreates the application-specific and internal property data for an array of bytes that was previously created with IContextNode::SavePropertiesData.
 ms.assetid: 2d24d0da-16f1-4ddc-8e2e-93c312ecfa42
-title: IContextNode::LoadPropertiesData method
-ms.topic: article
+title: IContextNode::LoadPropertiesData method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

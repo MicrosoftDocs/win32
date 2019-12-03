@@ -170,7 +170,7 @@ Direct2D defines the following enumerations.
 |[**D2D1_SVG_LINE_JOIN**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_line_join). Specifies a value for the SVG stroke-linejoin property.|
 |[**D2D1_SVG_OVERFLOW**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_overflow). Specifies a value for the SVG overflow property.|
 |[**D2D1_SVG_PAINT_TYPE**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type). Specifies the paint type for an SVG fill or stroke.|
-|[**D2D1_SVG_PATH_COMMAND**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_path_command). Represents a path commmand. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.|
+|[**D2D1_SVG_PATH_COMMAND**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_path_command). Represents a path command. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.|
 |[**D2D1_SVG_UNIT_TYPE**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_unit_type). Defines the coordinate system used for SVG gradient or clipPath elements.|
 |[**D2D1_SVG_VISIBILITY**](/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_visibility). Specifies a value for the SVG visibility property.|
 |[**D2D1_SWEEP_DIRECTION**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction). Defines the direction that an elliptical arc is drawn.|

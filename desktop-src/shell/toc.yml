@@ -5089,7 +5089,7 @@
       - name: "ASSOCDATA"
         href: /windows/desktop/api/Shlwapi/ne-shlwapi-assocdata
       - name: "ASSOCF"
-        href: https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0
+        href: assocf_str.md
       - name: "ASSOCIATIONLEVEL"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel
       - name: "ASSOCIATIONTYPE"

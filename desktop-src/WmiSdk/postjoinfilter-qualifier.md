@@ -3,7 +3,7 @@ Description: You can filter the instances of a join view class by assigning a WQ
 ms.assetid: 926a7262-ea6b-4a5a-8aa7-6ec0ae389031
 ms.tgt_platform: multiple
 title: PostJoinFilter Qualifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

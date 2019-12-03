@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherCmpRed methods
+title: TextureCube::TextureCube GatherCmpRed methods
 description: Samples and compares a texture and returns the red component.
 ms.assetid: 614F9DD0-2A49-4F20-8967-3DD63D5B5F32
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

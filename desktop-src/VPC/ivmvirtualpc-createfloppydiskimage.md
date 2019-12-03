@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC CreateFloppyDiskImage method
+title: IVMVirtualPC CreateFloppyDiskImage method (VPCCOMInterfaces.h)
 description: Creates a floppy disk image file.
 ms.assetid: 474e86a4-2019-41bd-9361-e494291d1961
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

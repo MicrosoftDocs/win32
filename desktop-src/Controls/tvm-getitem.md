@@ -1,5 +1,5 @@
 ---
-title: TVM_GETITEM message
+title: TVM_GETITEM message (Commctrl.h)
 description: Retrieves some or all of a tree-view item's attributes. You can send this message explicitly or by using the TreeView\_GetItem macro.
 ms.assetid: e26ec000-967d-46de-8f71-6ebc36fefe5e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

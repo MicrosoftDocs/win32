@@ -2,7 +2,7 @@
 Description: The Character Count Summary property is only used in transforms.
 ms.assetid: d26d24a5-558e-4333-ae39-ffba1bbc5247
 title: Character Count Summary property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

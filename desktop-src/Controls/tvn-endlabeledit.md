@@ -1,5 +1,5 @@
 ---
-title: TVN_ENDLABELEDIT notification code
+title: TVN_ENDLABELEDIT notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window about the end of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 82eb9fcd-de10-4efb-8501-78c5af5e089e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

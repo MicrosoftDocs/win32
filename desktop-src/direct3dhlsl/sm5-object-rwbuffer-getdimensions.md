@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: RWBuffer::GetDimensions function
 description: Gets the length of the buffer.
 ms.assetid: 600147cb-9513-4b74-a873-1ed22b31cdf7
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

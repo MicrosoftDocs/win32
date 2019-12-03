@@ -1,11 +1,11 @@
 ---
-title: EsentMissingRestoreLogFilesException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentMissingRestoreLogFilesException constructor 
 TOCTitle: 'EsentMissingRestoreLogFilesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingrestorelogfilesexception.esentmissingrestorelogfilesexception(v=EXCHG.10)
 ms:contentKeyID: 55102251
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException.EsentMissingRestoreLogFilesException
 dev_langs:

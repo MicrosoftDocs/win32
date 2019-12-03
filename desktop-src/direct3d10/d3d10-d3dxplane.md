@@ -1,8 +1,8 @@
 ---
 Description: Describes a plane.
 ms.assetid: c6da7343-a4f3-4cac-855b-14bd70c0d3c2
-title: D3DXPLANE structure
-ms.topic: structure
+title: D3DXPLANE structure (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

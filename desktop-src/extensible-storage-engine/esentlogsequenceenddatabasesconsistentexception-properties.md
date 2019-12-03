@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndDatabasesConsistentException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndDatabasesConsistentException properties
 TOCTitle: EsentLogSequenceEndDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceenddatabasesconsistentexception_properties(v=EXCHG.10)

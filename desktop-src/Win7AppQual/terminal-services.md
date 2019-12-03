@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
-title: Remote Desktop Services
+title: Remote Desktop Services (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---

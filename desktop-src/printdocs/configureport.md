@@ -1,8 +1,8 @@
 ---
 Description: The ConfigurePort function displays the port-configuration dialog box for a port on the specified server.
 ms.assetid: a65e9876-d6af-48c2-9e6b-8bd8695db130
-title: ConfigurePort function
-ms.topic: article
+title: ConfigurePort function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

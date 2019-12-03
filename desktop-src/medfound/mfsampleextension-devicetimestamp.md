@@ -1,8 +1,8 @@
 ---
 Description: Contains the time stamp from the device driver.
 ms.assetid: 8904d104-ebcc-474d-b6b5-b262b6f62ee9
-title: MFSampleExtension_DeviceTimestamp attribute
-ms.topic: article
+title: MFSampleExtension_DeviceTimestamp attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

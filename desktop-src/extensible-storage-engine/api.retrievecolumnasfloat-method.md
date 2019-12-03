@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsFloat method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsFloat method 
 TOCTitle: 'RetrieveColumnAsFloat method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsFloat
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasfloat(v=EXCHG.10)

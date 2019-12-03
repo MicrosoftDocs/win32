@@ -2,7 +2,7 @@
 Description: Retrieves a Boolean value that indicates whether the keyAgreement bit is set.
 ms.assetid: 3dd1f6c7-893d-453e-92dc-ffeffd879519
 title: KeyUsage.IsKeyAgreementEnabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

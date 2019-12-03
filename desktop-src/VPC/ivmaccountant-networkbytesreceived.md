@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant NetworkBytesReceived property
+title: IVMAccountant NetworkBytesReceived property (VPCCOMInterfaces.h)
 description: Total number of bytes received by all virtual network adapters for this virtual machine.
 ms.assetid: 6f6b32e6-d99b-405c-a788-ed646b3a7593
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

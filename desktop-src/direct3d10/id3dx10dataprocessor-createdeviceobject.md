@@ -1,8 +1,8 @@
 ---
 Description: Create a device object.
 ms.assetid: 5b9b00de-c744-43c7-b383-1d3358c80741
-title: ID3DX10DataProcessor::CreateDeviceObject method
-ms.topic: article
+title: ID3DX10DataProcessor::CreateDeviceObject method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The sockaddr structure varies depending on the protocol selected.
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
 title: sockaddr
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

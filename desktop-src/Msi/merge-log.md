@@ -1,8 +1,8 @@
 ---
 Description: The Log method of the Merge object writes a text string to the currently open log file.
 ms.assetid: 'dbfc9be7-1b0b-417e-9e2b-bf191ea255b6'
-title: Merge.Log method
-ms.topic: article
+title: Merge.Log method (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

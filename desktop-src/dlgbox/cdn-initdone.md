@@ -1,5 +1,5 @@
 ---
-title: CDN_INITDONE notification code
+title: CDN_INITDONE notification code (Commdlg.h)
 description: Sent by an Explorer-style Open or Save As dialog box when the system has finished arranging the controls in the dialog box. The system moves the standard controls to make room for the controls of the child dialog box.
 ms.assetid: 337fccac-5444-442d-92f0-862c5302fa21
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

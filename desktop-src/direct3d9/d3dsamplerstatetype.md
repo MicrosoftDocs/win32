@@ -1,8 +1,8 @@
 ---
 Description: Sampler states define texture sampling operations such as texture addressing and texture filtering.
 ms.assetid: 03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0
-title: D3DSAMPLERSTATETYPE enumeration
-ms.topic: enumeration
+title: D3DSAMPLERSTATETYPE enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

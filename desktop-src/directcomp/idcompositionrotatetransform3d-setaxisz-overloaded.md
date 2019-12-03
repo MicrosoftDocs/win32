@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform3D SetAxisZ methods
+title: IDCompositionRotateTransform3D SetAxisZ methods (Dcomp.h)
 description: Changes or animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 ms.assetid: 1A96FA00-20FE-4876-B7DF-2B833B17E925
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform3D::SetAxisZ methods

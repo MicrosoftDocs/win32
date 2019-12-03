@@ -3,7 +3,7 @@ Description: Uncompresses the logical codec file (or directory) specified in the
 ms.assetid: 257c69fa-c4f7-48be-8317-55db4b01601b
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

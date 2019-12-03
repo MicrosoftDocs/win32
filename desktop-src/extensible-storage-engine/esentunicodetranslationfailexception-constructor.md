@@ -1,11 +1,11 @@
 ---
-title: EsentUnicodeTranslationFailException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeTranslationFailException constructor 
 TOCTitle: 'EsentUnicodeTranslationFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodetranslationfailexception.esentunicodetranslationfailexception(v=EXCHG.10)
 ms:contentKeyID: 55107335
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException.EsentUnicodeTranslationFailException
 dev_langs:

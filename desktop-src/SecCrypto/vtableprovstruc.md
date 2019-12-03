@@ -1,8 +1,8 @@
 ---
 Description: Contains pointers to callback functions that can be used by cryptographic service provider (CSP) functions.
 ms.assetid: 84a379e9-c6b9-4c1d-bbbb-9bed4a045d90
-title: VTableProvStruc structure
-ms.topic: structure
+title: VTableProvStruc structure (Cspdk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

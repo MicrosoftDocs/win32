@@ -1,8 +1,8 @@
 ---
 Description: The get\_MediaType method returns the resizer filter's current output media type.
 ms.assetid: b9900f7c-05f6-47e4-9cb0-683df2aea404
-title: IResize::get_MediaType method
-ms.topic: article
+title: IResize::get_MediaType method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

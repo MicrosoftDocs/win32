@@ -1,5 +1,5 @@
 ---
-title: MCI_TMSF_TRACK macro
+title: MCI_TMSF_TRACK macro (Mciapi.h)
 description: The MCI\_TMSF\_TRACK macro retrieves the tracks component from a parameter containing packed tracks/minutes/seconds/frames (TMSF) information.
 ms.assetid: 3455442c-5c66-47c7-b06b-1a2de0e2dfed
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

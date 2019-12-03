@@ -1,8 +1,8 @@
 ---
 Description: Reports to the Print Spooler service whether an XPS print job is in the spooling or the rendering phase and what part of the processing is currently underway.
 ms.assetid: 66f7483d-be98-410d-b0c7-430743397de2
-title: ReportJobProcessingProgress function
-ms.topic: article
+title: ReportJobProcessingProgress function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

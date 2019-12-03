@@ -1,8 +1,8 @@
 ---
 Description: The put\_LocalParticipantTypedInfo method sets participant information.
 ms.assetid: c4afd1d3-6fe4-4e5b-a9bf-81b7dffa9914
-title: ITLocalParticipant::put_LocalParticipantTypedInfo method
-ms.topic: article
+title: ITLocalParticipant::put_LocalParticipantTypedInfo method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

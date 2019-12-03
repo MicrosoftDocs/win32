@@ -1,5 +1,5 @@
 ---
-title: EM_GETTABLEPARMS message
+title: EM_GETTABLEPARMS message (Richedit.h)
 description: Retrieves the table parameters for a table row and the cell parameters for the specified number of cells.
 ms.assetid: 36ADA41B-735B-4D6E-92B1-33260C71DF73
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

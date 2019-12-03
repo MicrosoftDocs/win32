@@ -1,5 +1,5 @@
 ---
-title: EsentDiskFullException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDiskFullException properties
 TOCTitle: EsentDiskFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDiskFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskfullexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: IPM_SETADDRESS message
+title: IPM_SETADDRESS message (Commctrl.h)
 description: Sets the address values for all four fields in the IP address control.
 ms.assetid: 52e72437-3558-4789-844f-5ab5b0b7967c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

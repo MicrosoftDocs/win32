@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer SetTextureBuffer method
+title: ID3DX11EffectConstantBuffer SetTextureBuffer method (D3dx11effect.h)
 description: Set a texture-buffer.
 ms.assetid: b8c327e4-52ff-498e-81e9-187e58bbe5d2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

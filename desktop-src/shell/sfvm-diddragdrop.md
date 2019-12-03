@@ -1,8 +1,8 @@
 ---
 Description: SFVM\_DIDDRAGDROP may be altered or unavailable.
 ms.assetid: 5d37cf61-d8a7-4afa-9159-fea13d2b1d59
-title: SFVM_DIDDRAGDROP message
-ms.topic: article
+title: SFVM_DIDDRAGDROP message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

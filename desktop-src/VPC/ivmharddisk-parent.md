@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk Parent property
+title: IVMHardDisk Parent property (VPCCOMInterfaces.h)
 description: Parent of the differencing virtual hard disk.
 ms.assetid: 9a400fa0-ee0d-4474-a410-82756ea544fe
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: open command
+title: open command (Corecrt\_io.h)
 description: The open command initializes a device. All MCI devices recognize this command.
 ms.assetid: '0bb97c8c-8222-4d4e-b20b-94e9f9095afe'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_io.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: EsentRecoveredWithoutUndoDatabasesConsistentException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithoutUndoDatabasesConsistentException constructor 
 TOCTitle: 'EsentRecoveredWithoutUndoDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwithoutundodatabasesconsistentexception.esentrecoveredwithoutundodatabasesconsistentexception(v=EXCHG.10)
 ms:contentKeyID: 55102606
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException.EsentRecoveredWithoutUndoDatabasesConsistentException
 dev_langs:

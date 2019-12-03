@@ -1,5 +1,5 @@
 ---
-title: TB_INDETERMINATE message
+title: TB_INDETERMINATE message (Commctrl.h)
 description: Sets or clears the indeterminate state of the specified button in a toolbar.
 ms.assetid: 6a0f2b82-8241-4c2e-b349-606975ba1a24
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

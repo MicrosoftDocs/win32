@@ -2,7 +2,7 @@
 Description: Contains a 3 byte hexBinary that identifies the IHV.
 ms.assetid: 0b2e73fb-df3a-48c4-b38d-970c37de46eb
 title: OUI (OUIHeader) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

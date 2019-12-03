@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the data object that has the specified GUID.
 ms.assetid: c3d598bd-0646-4f99-8517-4475ef7cd8c9
-title: ID3DXFileEnumObject::GetDataObjectById method
-ms.topic: article
+title: ID3DXFileEnumObject::GetDataObjectById method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

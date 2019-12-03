@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileInvalidPathException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileInvalidPathException members
 TOCTitle: EsentSLVFileInvalidPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileInvalidPathException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileinvalidpathexception_members(v=EXCHG.10)

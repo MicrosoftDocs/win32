@@ -2,7 +2,6 @@
 title: DO Structures and Unions
 description: The Delivery Optimization (DO) interfaces use the following structures.
 ms.assetid: 58A5361E-871A-4911-85BD-83F18CB9A2F5
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 07/03/2019
 ---

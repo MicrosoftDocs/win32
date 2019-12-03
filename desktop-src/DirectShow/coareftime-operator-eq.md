@@ -1,8 +1,8 @@
 ---
 Description: This operator tests for equality between two reference times.
 ms.assetid: a265f7c6-8334-4bb3-8cb7-c7918ebdf97a
-title: COARefTime.operator== method
-ms.topic: article
+title: COARefTime.operator== method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

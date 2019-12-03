@@ -1,8 +1,8 @@
 ---
 Description: The AddFoundLocation method adds a directory to the directory cache.
 ms.assetid: 0323c4ea-2e86-433b-87d0-34d1800a5627
-title: IMediaLocator::AddFoundLocation method
-ms.topic: article
+title: IMediaLocator::AddFoundLocation method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

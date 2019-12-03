@@ -2,7 +2,7 @@
 Description: Locks a connected smart card for exclusive use.
 ms.assetid: c39a7cfe-04b6-4298-927a-4280664cf769
 title: ISCardManage::SCardLock method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

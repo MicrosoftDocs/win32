@@ -1,5 +1,5 @@
 ---
-title: EsentMissingCurrentLogFilesException members (Microsoft.Isam.Esent.Interop)
+title: EsentMissingCurrentLogFilesException members
 TOCTitle: EsentMissingCurrentLogFilesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingCurrentLogFilesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingcurrentlogfilesexception_members(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Writes a data item to protected storage.
 ms.assetid: d940470c-b881-4e05-8e52-f804eac11e45
-title: IPStore::WriteItem method
-ms.topic: article
+title: IPStore::WriteItem method (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

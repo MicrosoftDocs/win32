@@ -1,8 +1,8 @@
 ---
 Description: The Deactivate method destroys the dialog window. This method implements the IPropertyPage::Deactivate method.
 ms.assetid: f2d2f15f-15f6-4902-bafc-f58a684ff193
-title: CBasePropertyPage.Deactivate method
-ms.topic: article
+title: CBasePropertyPage.Deactivate method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,11 +1,11 @@
 ---
-title: EsentBadEmptyPageException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadEmptyPageException class
 TOCTitle: EsentBadEmptyPageException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbademptypageexception(v=EXCHG.10)
 ms:contentKeyID: 55101115
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException
 dev_langs:

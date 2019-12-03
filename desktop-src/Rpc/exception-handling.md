@@ -1,5 +1,5 @@
 ---
-title: Exception Handling
+title: Exception Handling (RPC)
 description: RPC uses the same approach to exception handling as the Windows API.
 ms.assetid: 7133d3f4-ed84-4cde-bc77-88e73ced9073
 ms.topic: article

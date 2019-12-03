@@ -1,8 +1,8 @@
 ---
 Description: The ReAttach method resets, or reinitializes, the smart card.
 ms.assetid: c9cd9cd7-5ee6-48dc-8460-deb9c827fcc4
-title: ISCard::ReAttach method
-ms.topic: article
+title: ISCard::ReAttach method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

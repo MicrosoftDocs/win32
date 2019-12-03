@@ -1,8 +1,8 @@
 ---
 Description: The AddBefore method inserts a list before the specified position.
 ms.assetid: a4c0dbec-64a0-445b-95e5-000603cc0264
-title: CBaseList.AddBefore method
-ms.topic: article
+title: CBaseList.AddBefore method (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

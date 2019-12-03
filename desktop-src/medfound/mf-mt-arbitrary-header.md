@@ -1,8 +1,8 @@
 ---
 Description: Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 45608dde-894b-4204-80dc-505f068fb158
-title: MF_MT_ARBITRARY_HEADER attribute
-ms.topic: article
+title: MF_MT_ARBITRARY_HEADER attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

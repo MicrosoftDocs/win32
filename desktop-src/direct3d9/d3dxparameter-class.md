@@ -1,8 +1,8 @@
 ---
 Description: The type of object.
 ms.assetid: ab405984-2ebc-4514-9400-bdb13676eda5
-title: D3DXPARAMETER_CLASS enumeration
-ms.topic: enumeration
+title: D3DXPARAMETER_CLASS enumeration (D3dx9shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

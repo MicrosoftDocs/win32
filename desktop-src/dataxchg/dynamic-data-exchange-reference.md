@@ -2,7 +2,7 @@
 title: DDE Reference
 description: DDE Reference
 ms.assetid: e0fcded0-04a2-4135-bc2d-21bd6e54d29e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

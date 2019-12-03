@@ -1,5 +1,5 @@
 ---
-title: GatherGreen(S,float,uint) function
+title: TextureCube::GatherGreen(S,float,uint) function
 description: Samples a texture and returns the green component along with status about the operation.
 ms.assetid: DB0A6386-70ED-4D8C-A4EE-C058496D2F12
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherGreen
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

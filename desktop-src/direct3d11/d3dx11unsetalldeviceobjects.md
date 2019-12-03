@@ -1,5 +1,5 @@
 ---
-title: D3DX11UnsetAllDeviceObjects function
+title: D3DX11UnsetAllDeviceObjects function (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the ID3D11DeviceContext ClearState method.
 ms.assetid: 0e52bbca-f171-477f-89b0-ba56a2cfa096
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

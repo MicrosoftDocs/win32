@@ -1,5 +1,5 @@
 ---
-title: Annotation Type Identifiers
+title: Annotation Type Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants that are used to identify types of annotations in a document.
 ms.assetid: 46948B7C-EC9F-4B55-B769-62EE8BE11D33
 topic_type:
@@ -33,7 +33,7 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

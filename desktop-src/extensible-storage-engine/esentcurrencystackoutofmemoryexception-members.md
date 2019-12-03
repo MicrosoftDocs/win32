@@ -1,5 +1,5 @@
 ---
-title: EsentCurrencyStackOutOfMemoryException members (Microsoft.Isam.Esent.Interop)
+title: EsentCurrencyStackOutOfMemoryException members
 TOCTitle: EsentCurrencyStackOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcurrencystackoutofmemoryexception_members(v=EXCHG.10)

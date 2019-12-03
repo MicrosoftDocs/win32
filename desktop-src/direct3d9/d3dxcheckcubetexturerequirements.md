@@ -1,8 +1,8 @@
 ---
 Description: Checks cube-texture-creation parameters.
 ms.assetid: 56ced947-1142-4d05-95e3-ca6a26b147d4
-title: D3DXCheckCubeTextureRequirements function
-ms.topic: article
+title: D3DXCheckCubeTextureRequirements function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

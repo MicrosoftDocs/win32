@@ -1,8 +1,8 @@
 ---
 Description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified rectangle.
 ms.assetid: a35b8bfc-a87a-4e9a-908f-2b13a128d222
-title: IAnalysisRegion::ExcludeRectangle method
-ms.topic: article
+title: IAnalysisRegion::ExcludeRectangle method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

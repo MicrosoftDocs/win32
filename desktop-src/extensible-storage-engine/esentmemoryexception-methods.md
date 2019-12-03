@@ -1,5 +1,5 @@
 ---
-title: EsentMemoryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentMemoryException methods
 TOCTitle: EsentMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmemoryexception_methods(v=EXCHG.10)

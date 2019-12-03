@@ -1,8 +1,8 @@
 ---
 Description: Calculate the Fresnel term.
 ms.assetid: eaa2e5ea-9b6f-4216-8b48-7be74501124d
-title: D3DXFresnelTerm function
-ms.topic: article
+title: D3DXFresnelTerm function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

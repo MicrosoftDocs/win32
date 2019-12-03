@@ -1,5 +1,5 @@
 ---
-title: IWMPCdrom (VB and C ) interface
+title: IWMPCdrom (VB and C ) interface (Wmp.h)
 description: Provides a way to access a CD or DVD in its drive.The IWMPCdrom interface exposes the following properties.
 ms.assetid: 2748e64b-b9b7-489a-a6b5-21154aabd312
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

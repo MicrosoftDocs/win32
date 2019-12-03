@@ -1,5 +1,5 @@
 ---
-title: COM Error Codes (UI, Audio, DirectX, Codec)
+title: COM Error Codes (UI, Audio, DirectX, Codec) (Winerror.h)
 description: The following table provides a list of error codes used by COM-based APIs.
 ms.assetid: 259BE370-305A-47C8-A4F8-AAAAC687A1B4
 topic_type:
@@ -170,7 +170,7 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

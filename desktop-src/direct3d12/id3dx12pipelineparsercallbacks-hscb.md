@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks HSCb method
+title: ID3DX12PipelineParserCallbacks HSCb method (D3DX12.h)
 description: Calls the hull shader subobject callback of an object that implements this interface.
 ms.assetid: B2967E7F-391F-4A76-A087-E0B925018EE3
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

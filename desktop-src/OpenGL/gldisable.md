@@ -1,5 +1,5 @@
 ---
-title: glDisable function
+title: glDisable function (Gl.h)
 description: The glEnable and glDisable functions enable or disable OpenGL capabilities.
 ms.assetid: 094f730e-5e2b-485e-8d9d-fee2902d3d5f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

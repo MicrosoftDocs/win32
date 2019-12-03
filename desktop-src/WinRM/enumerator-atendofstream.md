@@ -1,5 +1,5 @@
 ---
-title: Enumerator.AtEndOfStream property
+title: Enumerator.AtEndOfStream property (WSManDisp.h)
 description: Gets a Boolean value that indicates whether there are any more items in the collection.
 ms.assetid: 5e80674a-7889-4753-b0dd-4d7b44eba00a
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

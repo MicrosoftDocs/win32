@@ -1,11 +1,11 @@
 ---
-title: EsentCallbackFailedException class (Microsoft.Isam.Esent.Interop)
+title: EsentCallbackFailedException class
 TOCTitle: EsentCallbackFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbackfailedexception(v=EXCHG.10)
 ms:contentKeyID: 55101180
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCallbackFailedException
 dev_langs:

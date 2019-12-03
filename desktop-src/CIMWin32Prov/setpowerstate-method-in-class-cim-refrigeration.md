@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Refrigeration class sets the d
 ms.assetid: eaee6e0e-8330-4c4f-b4e1-4029050544a2
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Refrigeration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

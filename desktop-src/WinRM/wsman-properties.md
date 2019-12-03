@@ -3,7 +3,7 @@ title: WSMan Properties
 description: The WSMan object exposes the following properties.
 ms.assetid: 84DC4212-1C23-43D0-B50B-C4F98FF869E4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

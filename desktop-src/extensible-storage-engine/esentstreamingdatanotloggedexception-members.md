@@ -1,5 +1,5 @@
 ---
-title: EsentStreamingDataNotLoggedException members (Microsoft.Isam.Esent.Interop)
+title: EsentStreamingDataNotLoggedException members
 TOCTitle: EsentStreamingDataNotLoggedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstreamingdatanotloggedexception_members(v=EXCHG.10)

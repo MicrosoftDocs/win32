@@ -1,11 +1,11 @@
 ---
-title: JET_RECORDLIST class (Microsoft.Isam.Esent.Interop)
+title: JET_RECORDLIST class
 TOCTitle: JET_RECORDLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recordlist(v=EXCHG.10)
 ms:contentKeyID: 55103806
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RECORDLIST
 dev_langs:

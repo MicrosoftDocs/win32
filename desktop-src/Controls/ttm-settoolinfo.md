@@ -1,5 +1,5 @@
 ---
-title: TTM_SETTOOLINFO message
+title: TTM_SETTOOLINFO message (Commctrl.h)
 description: Sets the information that a tooltip control maintains for a tool.
 ms.assetid: ba18f651-2e52-46e2-871b-c1760e94ab59
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: Notifies you that a menu band has been created.
-title: SMC_CREATE message
-ms.topic: article
+title: SMC_CREATE message (Shobjidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8eeca6f6-1718-4ff6-b4a7-4b68b9527468
 api_name: 

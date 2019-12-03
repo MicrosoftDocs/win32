@@ -1,5 +1,5 @@
 ---
-title: MIM_DATA message
+title: MIM_DATA message (Mmsystem.h)
 description: The MIM\_DATA message is sent to a MIDI input callback function when a MIDI message is received by a MIDI input device.
 ms.assetid: 966aab84-420a-42ce-9989-da5910ced9c0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

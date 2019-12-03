@@ -1,5 +1,5 @@
 ﻿---
-title: DoubleColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: DoubleColumnValue properties
 TOCTitle: DoubleColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.doublecolumnvalue_properties(v=EXCHG.10)

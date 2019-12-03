@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBufferSizeException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBufferSizeException members
 TOCTitle: EsentInvalidBufferSizeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbuffersizeexception_members(v=EXCHG.10)

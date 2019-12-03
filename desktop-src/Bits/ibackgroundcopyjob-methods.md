@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob Methods
+title: IBackgroundCopyJob Methods (BITS)
 description: The IBackgroundCopyJob interface exposes the following methods.
 ms.assetid: CB1C6D64-416A-4F31-AC9D-B3C1A6818034
 ms.topic: reference

@@ -1,8 +1,8 @@
 ---
 Description: Requests an endpoint that is used to connect to a service.
 ms.assetid: 4C02EA78-AD77-42CD-B94F-C8C3ED26CB4C
-title: IUpdateEndpointProvider::GetServiceEndpoint method
-ms.topic: article
+title: IUpdateEndpointProvider::GetServiceEndpoint method (UpdateEndpointAuth.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

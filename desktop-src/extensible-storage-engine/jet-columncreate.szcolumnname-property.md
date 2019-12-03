@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNCREATE.szColumnName property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE.szColumnName property 
 TOCTitle: 'szColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.szColumnName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate.szcolumnname(v=EXCHG.10)
 ms:contentKeyID: 55103478
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.szColumnName
 dev_langs:

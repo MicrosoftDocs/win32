@@ -1,8 +1,8 @@
 ---
 Description: Checks texture-creation parameters.
 ms.assetid: f8e788f3-02a9-4ee7-b74d-9e781a2fb39f
-title: D3DXCheckTextureRequirements function
-ms.topic: article
+title: D3DXCheckTextureRequirements function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

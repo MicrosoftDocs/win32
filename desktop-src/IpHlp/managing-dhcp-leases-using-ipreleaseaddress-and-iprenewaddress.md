@@ -1,12 +1,12 @@
 ---
+title: Manage DHCP leases with IpReleaseAddress, IpRenewAddress
 Description: The IpReleaseAddress and IpRenewAddress functions are used to release and renew the current Dynamic Host Configuration Protocol (DHCP) lease.
 ms.assetid: 0ed699dd-0bfb-4581-900d-7f5bc1e8acff
-title: Managing DHCP Leases Using IpReleaseAddress and IpRenewAddress
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Managing DHCP Leases Using IpReleaseAddress and IpRenewAddress
+# Manage DHCP leases with IpReleaseAddress, IpRenewAddress
 
 The [**IpReleaseAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-ipreleaseaddress) and [**IpRenewAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-iprenewaddress) functions are used to release and renew the current Dynamic Host Configuration Protocol (DHCP) lease. The **IpReleaseAddress** function releases an IPv4 address previously obtained through DHCP. The **IpRenewAddress** function renews a lease on an IPv4 address previously obtained through DHCP. It is common to use these two functions together, first releasing the lease with a call to **IpReleaseAddress**, and then renewing the lease with a call to the **IpRenewAddress** function.
 

@@ -1,8 +1,8 @@
 ---
 Description: The put\_WindowState method sets the window state.
 ms.assetid: 0d22fa84-17bc-4228-b86e-d31857156802
-title: CBaseControlWindow.put_WindowState method
-ms.topic: article
+title: CBaseControlWindow.put_WindowState method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

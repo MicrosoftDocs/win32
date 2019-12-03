@@ -1,8 +1,8 @@
 ---
 Description: The ListCards method retrieves all of the smart card names that match the specified interface identifiers (GUIDs), the specified ATR string, or both.
 ms.assetid: a1cf8186-0746-4c4d-917d-40d6c3542036
-title: ISCardDatabase::ListCards method
-ms.topic: article
+title: ISCardDatabase::ListCards method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

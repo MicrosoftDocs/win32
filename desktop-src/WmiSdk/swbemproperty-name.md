@@ -2,8 +2,8 @@
 Description: The Name property of the SWbemProperty object returns the name of this WMI property. This property is read-only.
 ms.assetid: d69dfe46-21a7-43d1-abfd-d73b47707e85
 ms.tgt_platform: multiple
-title: SWbemProperty.Name property
-ms.topic: article
+title: SWbemProperty.Name property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

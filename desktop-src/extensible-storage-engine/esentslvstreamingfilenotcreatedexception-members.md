@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileNotCreatedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileNotCreatedException members
 TOCTitle: EsentSLVStreamingFileNotCreatedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilenotcreatedexception_members(v=EXCHG.10)

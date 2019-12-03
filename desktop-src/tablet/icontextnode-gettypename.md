@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a human-readable type name of this IContextNode.
 ms.assetid: 02031efd-1e9c-4e96-8dc1-280cc1a6e58f
-title: IContextNode::GetTypeName method
-ms.topic: article
+title: IContextNode::GetTypeName method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: EsentTableLockedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTableLockedException properties
 TOCTitle: EsentTableLockedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTableLockedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttablelockedexception_properties(v=EXCHG.10)

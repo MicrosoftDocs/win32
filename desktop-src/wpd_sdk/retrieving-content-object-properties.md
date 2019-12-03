@@ -1,12 +1,12 @@
 ---
+title: Retrieving WPD object properties
 Description: Retrieving Object Properties
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
-title: Retrieving Object Properties
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Retrieving Object Properties
+# Retrieving WPD object properties
 
 Services often contain child objects that belong to one of the formats that each service supports. For example, a Contacts service may support multiple contact objects of the Abstract Contact format. Each contact object is described by related properties (contact name, phone number, email address, and so on).
 

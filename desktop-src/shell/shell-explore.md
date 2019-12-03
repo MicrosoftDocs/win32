@@ -1,8 +1,8 @@
 ---
 Description: Opens a specified folder in a Windows Explorer window.
 ms.assetid: a788a3c4-f316-4fae-9294-3872eee8f46a
-title: Shell.Explore method
-ms.topic: article
+title: Shell.Explore method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

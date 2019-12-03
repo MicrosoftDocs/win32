@@ -2,7 +2,7 @@
 Description: The installer sets the CaptionHeight property to the height, in pixels, of the window caption area.
 ms.assetid: fb773059-b8d1-4056-aa0f-c1e7746137fb
 title: CaptionHeight property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MMIOM_OPEN message
+title: MMIOM_OPEN message (Mmsystem.h)
 description: The MMIOM\_OPEN message is sent to an I/O procedure by the mmioOpen function to request that a file be opened or deleted.
 ms.assetid: 02b2cf22-21a3-4f49-b90e-7b44478c0168
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TB_GETTOOLTIPS message
+title: TB_GETTOOLTIPS message (Commctrl.h)
 description: Retrieves the handle to the tooltip control, if any, associated with the toolbar.
 ms.assetid: 1e0edfdc-d0cb-41f3-9178-1239d81d3034
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

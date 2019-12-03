@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer interface
+title: ID3DX11EffectConstantBuffer interface (D3dx11effect.h)
 description: A constant-buffer interface accesses constant buffers or texture buffers.
 ms.assetid: 2106cb51-dc0a-4ab6-adb6-2deb06922af1
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

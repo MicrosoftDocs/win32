@@ -1,8 +1,8 @@
 ---
 Description: Builds a matrix that rotates around the y-axis.
 ms.assetid: b58def9b-29dc-4c7d-89a3-188ef9b9f94f
-title: D3DXMatrixRotationY function
-ms.topic: article
+title: D3DXMatrixRotationY function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

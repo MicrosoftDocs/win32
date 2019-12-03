@@ -2,7 +2,7 @@
 Description: Retrieves the system AppPatch directory.
 ms.assetid: 1c79411f-1f90-4b90-84c7-24a34cf0d91d
 title: SdbGetAppPatchDir function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

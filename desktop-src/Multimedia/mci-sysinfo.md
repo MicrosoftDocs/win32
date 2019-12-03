@@ -1,5 +1,5 @@
 ---
-title: MCI_SYSINFO command
+title: MCI_SYSINFO command (Mmsystem.h)
 description: The MCI\_SYSINFO command retrieves information about MCI devices.
 ms.assetid: 605efd25-8849-42aa-99fd-b36b6fd2c7b7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

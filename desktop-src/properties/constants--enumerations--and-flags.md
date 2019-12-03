@@ -1,7 +1,7 @@
 ---
 Description: This section describes the Windows Property System constants, enumerations, and flags.
 ms.assetid: ff735b9c-e444-4e6f-8e80-0b2a5d770386
-title: Constants, Enumerations, and Flags
+title: Constants, Enumerations, and Flags (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---

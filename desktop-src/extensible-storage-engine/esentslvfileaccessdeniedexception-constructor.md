@@ -1,11 +1,11 @@
 ---
-title: EsentSLVFileAccessDeniedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileAccessDeniedException constructor 
 TOCTitle: 'EsentSLVFileAccessDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileaccessdeniedexception.esentslvfileaccessdeniedexception(v=EXCHG.10)
 ms:contentKeyID: 55107306
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException.EsentSLVFileAccessDeniedException
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: The AttachByReader method opens the smart card in the named reader.
 ms.assetid: a92f3281-5018-4e90-bfa0-f03eb9373bb1
-title: ISCard::AttachByReader method
-ms.topic: article
+title: ISCard::AttachByReader method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

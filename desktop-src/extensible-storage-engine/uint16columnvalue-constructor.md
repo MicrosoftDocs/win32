@@ -1,11 +1,11 @@
 ---
-title: UInt16ColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: UInt16ColumnValue constructor 
 TOCTitle: 'UInt16ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt16ColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint16columnvalue.uint16columnvalue(v=EXCHG.10)
 ms:contentKeyID: 55104077
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.UInt16ColumnValue.UInt16ColumnValue
 dev_langs:

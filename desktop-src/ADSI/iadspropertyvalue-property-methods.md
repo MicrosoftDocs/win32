@@ -1,5 +1,5 @@
 ---
-title: IADsPropertyValue Property Methods
+title: IADsPropertyValue Property Methods (Iads.h)
 description: The property methods of the IADsPropertyValue interface provide access to the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 1039d4a9-bef8-457d-9a32-3743c14adef1
 ms.tgt_platform: multiple
@@ -49,7 +49,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

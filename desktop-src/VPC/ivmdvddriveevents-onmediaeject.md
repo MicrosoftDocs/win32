@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDriveEvents OnMediaEject method
+title: IVMDVDDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
 description: Receives notification that media has been ejected from the drive.
 ms.assetid: ec90fbce-7123-4bfa-abab-300e916fa089
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

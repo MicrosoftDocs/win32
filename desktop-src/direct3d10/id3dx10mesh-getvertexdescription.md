@@ -1,8 +1,8 @@
 ---
 Description: Access the vertex description passed into D3DX10CreateMesh. The vertex description describes the layout of the mesh's vertex buffers.
 ms.assetid: e4a4a98a-e131-414c-ad98-21288ff0c61b
-title: ID3DX10Mesh::GetVertexDescription method
-ms.topic: article
+title: ID3DX10Mesh::GetVertexDescription method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW (tooltip) notification code
+title: NM_CUSTOMDRAW (tooltip) notification code (Commctrl.h)
 description: Sent by a tooltip control to notify its parent window about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 82939901-baed-452b-85bf-3c0c01e1f5df
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

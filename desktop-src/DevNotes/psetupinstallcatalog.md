@@ -2,7 +2,7 @@
 Description: Installs a catalog file.
 ms.assetid: bea74e91-1a87-4785-b983-5fec87e03499
 title: pSetupInstallCatalog function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

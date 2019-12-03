@@ -1,11 +1,11 @@
 ---
-title: EsentOutOfMemoryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfMemoryException constructor 
 TOCTitle: 'EsentOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofmemoryexception.esentoutofmemoryexception(v=EXCHG.10)
 ms:contentKeyID: 55102434
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException.EsentOutOfMemoryException
 dev_langs:

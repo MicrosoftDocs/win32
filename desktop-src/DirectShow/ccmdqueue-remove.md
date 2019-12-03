@@ -1,8 +1,8 @@
 ---
 Description: The Remove method removes the CDeferredCommand object from the queue.
 ms.assetid: b3cff57d-9625-40db-b815-9529ac706f45
-title: CCmdQueue.Remove method
-ms.topic: article
+title: CCmdQueue.Remove method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

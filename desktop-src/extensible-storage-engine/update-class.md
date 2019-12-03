@@ -1,11 +1,11 @@
 ---
-title: Update class (Microsoft.Isam.Esent.Interop)
+title: Update class
 TOCTitle: Update class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Update
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update(v=EXCHG.10)
 ms:contentKeyID: 55104086
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Update
 dev_langs:

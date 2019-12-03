@@ -1,11 +1,11 @@
 ---
-title: JET_SPACEHINTS class (Microsoft.Isam.Esent.Interop)
+title: JET_SPACEHINTS class
 TOCTitle: JET_SPACEHINTS class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints(v=EXCHG.10)
 ms:contentKeyID: 55103956
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
 dev_langs:

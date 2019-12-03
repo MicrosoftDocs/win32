@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileNotFoundException properties
 TOCTitle: EsentSLVFileNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilenotfoundexception_properties(v=EXCHG.10)

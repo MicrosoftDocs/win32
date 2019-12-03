@@ -1,5 +1,5 @@
 ---
-title: EM_SETWORDBREAKPROC message
+title: EM_SETWORDBREAKPROC message (Winuser.h)
 description: Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can send this message to either an edit control or a rich edit control.
 ms.assetid: e5029b75-5f35-43a5-876d-24e81605bb49
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

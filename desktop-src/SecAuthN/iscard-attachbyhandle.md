@@ -1,8 +1,8 @@
 ---
 Description: Attaches the ISCard object to an open and configured smart card handle.
 ms.assetid: e735d33d-a337-404e-a760-4cf8f19d172a
-title: ISCard::AttachByHandle method
-ms.topic: article
+title: ISCard::AttachByHandle method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

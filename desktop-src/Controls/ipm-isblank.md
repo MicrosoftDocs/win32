@@ -1,5 +1,5 @@
 ---
-title: IPM_ISBLANK message
+title: IPM_ISBLANK message (Commctrl.h)
 description: Determines if all fields in the IP address control are blank.
 ms.assetid: 6e35b848-943a-4475-890a-01fc3d8ed97d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

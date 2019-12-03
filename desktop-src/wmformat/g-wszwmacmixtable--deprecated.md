@@ -1,5 +1,5 @@
 ---
-title: g_wszWMACMixTable
+title: g_wszWMACMixTable (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 83ce85ca-dbf7-4577-b280-d8d336e3faf9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

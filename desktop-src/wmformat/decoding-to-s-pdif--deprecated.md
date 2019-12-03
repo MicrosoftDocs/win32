@@ -1,5 +1,5 @@
 ---
-title: Decoding to S/PDIF
+title: Decoding to S/PDIF (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 5c5b6bcb-5008-4b51-9f3a-744806924f6a
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Decoding to S/PDIF
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

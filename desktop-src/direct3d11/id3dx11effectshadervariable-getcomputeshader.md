@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetComputeShader method
+title: ID3DX11EffectShaderVariable GetComputeShader method (D3dx11effect.h)
 description: Get a compute shader.
 ms.assetid: 16a48be1-4e73-4206-837f-615f8d624086
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

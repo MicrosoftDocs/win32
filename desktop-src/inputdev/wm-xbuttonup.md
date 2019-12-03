@@ -1,5 +1,5 @@
 ---
-title: WM_XBUTTONUP message
+title: WM_XBUTTONUP message (Winuser.h)
 description: Posted when the user releases the first or second X button while the cursor is in the client area of a window.
 ms.assetid: ad726859-368a-4603-bffa-4e639bc69a6a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 08/23/2019
 ---
 

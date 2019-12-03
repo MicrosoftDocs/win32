@@ -5,7 +5,7 @@ ms:assetid: 36464e24-1cc0-4cda-9d7a-f64555c622bf
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269223(v=EXCHG.10)
 ms:contentKeyID: 32765525
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetTerm2
 topic_type: 

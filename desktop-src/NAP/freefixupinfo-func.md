@@ -1,5 +1,5 @@
 ---
-title: FreeFixupInfo function
+title: FreeFixupInfo function (NapUtil.h)
 description: Frees a FixupInfo data structure.
 ms.assetid: 6bf71ccf-2618-46a3-8a04-9f83a5b7b429
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

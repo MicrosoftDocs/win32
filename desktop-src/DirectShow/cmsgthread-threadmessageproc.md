@@ -1,8 +1,8 @@
 ---
 Description: Processes requests. This is a pure virtual member function.
 ms.assetid: ffdbc287-ca17-44e4-b00a-d72a2367f510
-title: CMsgThread.ThreadMessageProc method
-ms.topic: article
+title: CMsgThread.ThreadMessageProc method (Msgthrd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

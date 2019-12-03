@@ -1,5 +1,5 @@
 ---
-title: EsentGivenLogFileIsNotContiguousException properties (Microsoft.Isam.Esent.Interop)
+title: EsentGivenLogFileIsNotContiguousException properties
 TOCTitle: EsentGivenLogFileIsNotContiguousException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentgivenlogfileisnotcontiguousexception_properties(v=EXCHG.10)

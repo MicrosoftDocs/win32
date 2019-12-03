@@ -1,5 +1,5 @@
 ---
-title: LVM_DELETECOLUMN message
+title: LVM_DELETECOLUMN message (Commctrl.h)
 description: Removes a column from a list-view control. You can send this message explicitly or by using the ListView\_DeleteColumn macro.
 ms.assetid: 1748a70b-9a13-4753-ac23-55b5652164c2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

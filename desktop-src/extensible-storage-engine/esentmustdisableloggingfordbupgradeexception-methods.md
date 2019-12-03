@@ -1,5 +1,5 @@
 ---
-title: EsentMustDisableLoggingForDbUpgradeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentMustDisableLoggingForDbUpgradeException methods
 TOCTitle: EsentMustDisableLoggingForDbUpgradeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMustDisableLoggingForDbUpgradeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustdisableloggingfordbupgradeexception_methods(v=EXCHG.10)

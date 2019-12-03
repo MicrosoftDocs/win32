@@ -1,8 +1,8 @@
 ---
 Description: Specifies the author-supplied fold-down coefficients for decoding multichannel audio for fewer channels than the encoded stream contains.
 ms.assetid: f6737c05-4b39-4209-9985-9402b28cf316
-title: MFPKEY_WMADEC_FOLDDOWN_MATRIX Property
-ms.topic: article
+title: MFPKEY_WMADEC_FOLDDOWN_MATRIX Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

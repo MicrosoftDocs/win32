@@ -1,8 +1,8 @@
 ---
 Description: Contains a line within a Paragraph.
 ms.assetid: 'a88a2bf7-034f-4141-9f1c-f1123bab4a67'
-title: Line Element
-ms.topic: article
+title: Line Element (Windows.ui.xaml.shapes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Projects a function represented in a cube map into spherical harmonics.
 ms.assetid: de8bc4bd-cb29-44ab-8806-33d3ffd10a7b
-title: D3DX10SHProjectCubeMap function
-ms.topic: article
+title: D3DX10SHProjectCubeMap function (D3DX10Tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

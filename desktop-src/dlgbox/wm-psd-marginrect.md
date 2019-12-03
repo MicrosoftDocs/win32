@@ -1,5 +1,5 @@
 ---
-title: WM_PSD_MARGINRECT message
+title: WM_PSD_MARGINRECT message (Commdlg.h)
 description: Notifies the hook procedure of a Page Setup dialog box, PagePaintHook, that the dialog box is about to draw the margin rectangle of the sample page.
 ms.assetid: 81c057ab-6faf-4dd8-8b0c-34a2753e572c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

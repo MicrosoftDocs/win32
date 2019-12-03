@@ -1,8 +1,8 @@
 ---
 Description: Sets the specified parameter information.
 ms.assetid: fe3fe5cf-e8b8-40ca-9e12-9d92489982a7
-title: IPStore::SetProvParam method
-ms.topic: article
+title: IPStore::SetProvParam method (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

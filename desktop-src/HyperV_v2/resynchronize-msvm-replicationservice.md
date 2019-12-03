@@ -2,7 +2,7 @@
 Description: Performs a resynchronization operation on the specified virtual machine.
 ms.assetid: a3d06780-f43b-45c4-a186-a3544f9c7963
 title: Resynchronize method of the Msvm_ReplicationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

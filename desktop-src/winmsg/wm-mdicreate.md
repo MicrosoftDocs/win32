@@ -1,8 +1,8 @@
 ---
 Description: An application sends the WM\_MDICREATE message to a multiple-document interface (MDI) client window to create an MDI child window.
 ms.assetid: f2313ffd-867f-4870-a667-3e5f5402776f
-title: WM_MDICREATE message
-ms.topic: article
+title: WM_MDICREATE message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

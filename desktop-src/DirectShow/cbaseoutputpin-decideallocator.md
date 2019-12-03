@@ -1,8 +1,8 @@
 ---
 Description: The DecideAllocator method selects a memory allocator.
 ms.assetid: cdc15b0e-ea1b-43aa-9267-95fa9db56ed5
-title: CBaseOutputPin.DecideAllocator method
-ms.topic: article
+title: CBaseOutputPin.DecideAllocator method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

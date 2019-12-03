@@ -2,10 +2,10 @@
 title: texcoord - ps
 description: Interprets texture coordinate data (UVW1) as color data (RGBA).
 ms.assetid: 0f79a62c-1142-4dcd-aa2f-a5bd1c369ffc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

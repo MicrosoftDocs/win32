@@ -1,8 +1,8 @@
 ---
 Description: Create a new child item. Adds IWiaItem2 objects to a device's IWiaItem2 tree.
 ms.assetid: 525ee788-3ff4-4def-ae71-4a405c04c6a3
-title: IWiaItem2::CreateChildItem method
-ms.topic: article
+title: IWiaItem2::CreateChildItem method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

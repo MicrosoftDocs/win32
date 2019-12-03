@@ -1,5 +1,5 @@
 ---
-title: EM_GETEDITSTYLEEX message
+title: EM_GETEDITSTYLEEX message (Richedit.h)
 description: Retrieves the current extended edit style flags.
 ms.assetid: 3E81F7BB-404D-4465-982A-3CF6FD9359DA
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob SetNotifyInterface method
+title: IBackgroundCopyJob SetNotifyInterface method (Deliveryoptimization.h)
 description: Identifies your implementation of the IBackgroundCopyCallback interface to DO. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
 ms.assetid: 792211FC-440E-4D2C-A6C7-CE9EFB86571C
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

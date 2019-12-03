@@ -1,8 +1,8 @@
 ---
 Description: The StringFromResource function loads a string from a resource file with the given resource identifier.
 ms.assetid: 26b40905-db16-46d1-8621-9aa8cb8e7232
-title: StringFromResource function
-ms.topic: article
+title: StringFromResource function (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

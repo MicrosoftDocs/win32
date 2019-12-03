@@ -1,5 +1,5 @@
 ---
-title: CDN_FOLDERCHANGE notification code
+title: CDN_FOLDERCHANGE notification code (Commdlg.h)
 description: Sent by an Explorer-style Open or Save As dialog box when a new folder is opened.
 ms.assetid: 864ab80d-cd99-4dd6-8aff-49beed246e53
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

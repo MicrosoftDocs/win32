@@ -1,8 +1,8 @@
 ---
 Description: The Cancel method cancels a previously queued CDeferredCommand::Invoke request.
 ms.assetid: 77671f6b-db50-4d8a-b727-aeed365f0303
-title: CDeferredCommand.Cancel method
-ms.topic: article
+title: CDeferredCommand.Cancel method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

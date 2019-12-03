@@ -1,8 +1,8 @@
 ---
 Description: Used to release a lock held on a specified area of buffer memory.
 ms.assetid: ec06829b-2b3a-45db-9ecd-d4c7cf67b8ae
-title: NtGdiDdUnlockD3D function
-ms.topic: article
+title: NtGdiDdUnlockD3D function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

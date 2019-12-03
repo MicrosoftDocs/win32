@@ -1,5 +1,5 @@
 ---
-title: glBlendFunc function
+title: glBlendFunc function (Gl.h)
 description: The glBlendFunc function specifies pixel arithmetic.
 ms.assetid: 6756774b-5eef-419a-a653-0b251aed65a0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

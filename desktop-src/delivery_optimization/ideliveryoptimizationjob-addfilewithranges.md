@@ -1,5 +1,5 @@
 ---
-title: IDeliveryOptimizationJob AddFileWithRanges method
+title: IDeliveryOptimizationJob AddFileWithRanges method (Deliveryoptimization.h)
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
 ms.assetid: 23F0A39F-670F-4030-A3B3-4F9277FFA8AB
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

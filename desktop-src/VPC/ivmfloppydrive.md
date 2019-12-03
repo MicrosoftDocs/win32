@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive interface
+title: IVMFloppyDrive interface (VPCCOMInterfaces.h)
 description: Controls a floppy drive within a virtual machine.
 ms.assetid: b652182a-27ae-4390-81b1-b644a82924df
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

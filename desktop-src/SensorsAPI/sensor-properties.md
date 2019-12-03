@@ -1,8 +1,8 @@
 ---
 Description: The Sensor and Location platform defines constants that identify properties for sensors. Sensor manufacturers can also define their own properties.
 ms.assetid: 2fb739a0-9af5-4784-94b2-f8d10b9e21ca
-title: Sensor Properties
-ms.topic: article
+title: Sensor Properties (Sensors.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

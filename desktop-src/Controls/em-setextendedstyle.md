@@ -1,5 +1,5 @@
 ---
-title: EM_SETEXTENDEDSTYLE message
+title: EM_SETEXTENDEDSTYLE message (Commctrl.h)
 description: Informs the edit control to set extended styles. Send this message or use the macro Edit\_SetExtendedStyle.
 ms.assetid: 4ca010c3-2c70-41e5-ade4-11e1895fda26
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 10/19/2018
 ---
 

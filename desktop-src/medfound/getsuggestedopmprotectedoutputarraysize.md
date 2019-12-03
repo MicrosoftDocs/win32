@@ -2,7 +2,7 @@
 Description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
 ms.assetid: 65edce14-f225-4b7f-b953-32b085e1cabf
 title: GetSuggestedOPMProtectedOutputArraySize function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

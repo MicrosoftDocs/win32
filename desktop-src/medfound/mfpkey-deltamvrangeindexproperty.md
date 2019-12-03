@@ -1,8 +1,8 @@
 ---
 Description: Specifies the method used to encode the motion vector information.
 ms.assetid: 22ffdb77-9266-42e5-be41-fc7457141bba
-title: MFPKEY_DELTAMVRANGEINDEX Property
-ms.topic: article
+title: MFPKEY_DELTAMVRANGEINDEX Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

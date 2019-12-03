@@ -2,7 +2,7 @@
 Description: Defines the basic RGB color object.
 ms.assetid: f00638d3-93c1-4ec6-b4f7-d3849f1a9000
 title: ColorRGB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

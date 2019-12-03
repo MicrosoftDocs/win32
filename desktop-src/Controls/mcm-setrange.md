@@ -1,5 +1,5 @@
 ---
-title: MCM_SETRANGE message
+title: MCM_SETRANGE message (Commctrl.h)
 description: Sets the minimum and maximum allowable dates for a month calendar control. You can send this message explicitly or by using the MonthCal\_SetRange macro.
 ms.assetid: dab9ebb0-f397-4e71-b060-ef8d7d89a6bc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

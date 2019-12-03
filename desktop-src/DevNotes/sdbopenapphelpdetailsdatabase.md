@@ -2,7 +2,7 @@
 Description: Opens the specified Apphelp details database.
 ms.assetid: c3b07c00-a3c6-419c-94c6-34c573a04d6d
 title: SdbOpenApphelpDetailsDatabase function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

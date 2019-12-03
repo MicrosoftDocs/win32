@@ -2,7 +2,7 @@
 Description: Defines the type that indicates the group has been reflowed.
 ms.assetid: a25c4957-012d-495d-a176-a3218c876320
 title: ReflowType Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

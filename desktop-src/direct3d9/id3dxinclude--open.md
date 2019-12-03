@@ -1,8 +1,8 @@
 ---
 Description: A user-implemented method for opening and reading the contents of a shader \#include file.
 ms.assetid: ad0105f7-042d-4e96-ad4a-1ece08e519af
-title: ID3DXInclude::Open method
-ms.topic: article
+title: ID3DXInclude::Open method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

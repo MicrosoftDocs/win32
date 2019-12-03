@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Sensor class sets the desired 
 ms.assetid: ca934b60-4af4-40a5-a619-353d35fbe9e5
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Sensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

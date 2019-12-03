@@ -1,5 +1,5 @@
 ---
-title: NM_RCLICK (tab) notification code
+title: NM_RCLICK (tab) notification code (Commctrl.h)
 description: Notifies the parent window of a tab control that the user has clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ef2270c0-eef3-4867-8aa3-b6ff7e1a5f0f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The following constants are provided by the DirectXMath Library.
 ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: DirectXMath Library Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

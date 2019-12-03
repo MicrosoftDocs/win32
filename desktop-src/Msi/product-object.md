@@ -2,7 +2,7 @@
 Description: The Product object represents a unique instance of a product that is either advertised, installed or unknown.The object can be instantiated with the Product property as &\#0034;WindowsInstaller.Installer.Product(ProductCode, UserSid, Context)&\#0034;.
 ms.assetid: 1fa89239-051a-4b3a-913a-12c7c093f35b
 title: Product object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Contains the category GUID for a Media Foundation transform (MFT).
 ms.assetid: 3c0948fc-42ea-4e43-a312-c98038020214
-title: MFPKEY_CATEGORY property
-ms.topic: article
+title: MFPKEY_CATEGORY property (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

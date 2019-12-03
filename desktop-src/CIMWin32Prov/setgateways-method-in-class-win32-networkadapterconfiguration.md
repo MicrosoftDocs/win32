@@ -3,7 +3,7 @@ Description: The SetGateways &\#32; WMI class method specifies a list of gateway
 ms.assetid: 240f7aff-7a07-4e0d-af30-7bcabb68c736
 ms.tgt_platform: multiple
 title: SetGateways method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

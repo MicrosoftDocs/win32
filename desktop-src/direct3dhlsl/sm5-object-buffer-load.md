@@ -1,5 +1,5 @@
 ---
-title: Load(int, uint) function
+title: Buffer::Load(int, uint) function
 description: Reads buffer data and returns status of the operation.
 ms.assetid: 0C7FC522-C962-4467-AA3E-6611064C188B
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

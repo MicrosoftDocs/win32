@@ -3,7 +3,7 @@ Description: Invokes the chkdsk operation on the disk.
 ms.assetid: 65942702-b660-46cd-b614-e3e1ec3df7b9
 ms.tgt_platform: multiple
 title: Chkdsk method of the Win32_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

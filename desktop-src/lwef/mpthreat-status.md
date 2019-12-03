@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_STATUS enumeration
+title: MPTHREAT_STATUS enumeration (MpClient.h)
 description: Possible threat status.
 ms.assetid: 64B57C8B-231B-4A2C-BF2E-45DB62B8350E
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

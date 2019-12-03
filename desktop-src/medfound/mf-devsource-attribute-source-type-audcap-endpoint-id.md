@@ -1,8 +1,8 @@
 ---
 Description: Specifies the endpoint ID for an audio capture device.
 ms.assetid: a0d8b54b-7a05-4307-a756-a34bb22f1afd
-title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID attribute
-ms.topic: article
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

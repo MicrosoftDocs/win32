@@ -1,11 +1,11 @@
 ---
-title: SystemParameters.HungIOThreshold property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.HungIOThreshold property 
 TOCTitle: 'HungIOThreshold property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.HungIOThreshold
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.hungiothreshold(v=EXCHG.10)
 ms:contentKeyID: 55104041
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SystemParameters.HungIOThreshold
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: MIM_LONGDATA message
+title: MIM_LONGDATA message (Mmsystem.h)
 description: The MIM\_LONGDATA message is sent to a MIDI input callback function when a system-exclusive buffer has been filled with data and is being returned to the application.
 ms.assetid: 3a11ed21-e7c5-4b78-9536-f0d862e26a02
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

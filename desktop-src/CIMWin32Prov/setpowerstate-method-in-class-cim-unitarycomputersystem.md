@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_UnitaryComputerSystem class se
 ms.assetid: a02991d5-3c93-4579-b1f5-f70ad7c7052b
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_UnitaryComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

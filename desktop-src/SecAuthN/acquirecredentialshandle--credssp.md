@@ -2,7 +2,7 @@
 Description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 title: AcquireCredentialsHandle (CredSSP) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

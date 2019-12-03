@@ -1,8 +1,8 @@
 ---
 Description: Get the semantics for all shader output elements.
 ms.assetid: 1a3cdd5d-0ea7-48ae-a3f1-030e95b03a42
-title: D3DXGetShaderOutputSemantics function
-ms.topic: article
+title: D3DXGetShaderOutputSemantics function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

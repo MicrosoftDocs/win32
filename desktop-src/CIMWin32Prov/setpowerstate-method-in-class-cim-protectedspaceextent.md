@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_ProtectedSpaceExtent class set
 ms.assetid: b1767736-b612-4be3-9e0b-f737353fac54
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_ProtectedSpaceExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

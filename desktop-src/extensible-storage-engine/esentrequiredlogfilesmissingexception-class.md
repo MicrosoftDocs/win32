@@ -1,11 +1,11 @@
 ---
-title: EsentRequiredLogFilesMissingException class (Microsoft.Isam.Esent.Interop)
+title: EsentRequiredLogFilesMissingException class
 TOCTitle: EsentRequiredLogFilesMissingException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrequiredlogfilesmissingexception(v=EXCHG.10)
 ms:contentKeyID: 55102617
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException
 dev_langs:

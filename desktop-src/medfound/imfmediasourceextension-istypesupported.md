@@ -2,7 +2,7 @@
 Description: Gets a value that indicates if the specified MIME type is supported by the media source.
 ms.assetid: 894ef7d2-d008-42e1-8a61-26f35a8877be
 title: IMFMediaSourceExtension::IsTypeSupported method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

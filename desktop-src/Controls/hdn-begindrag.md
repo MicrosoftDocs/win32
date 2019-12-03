@@ -1,5 +1,5 @@
 ---
-title: HDN_BEGINDRAG notification code
+title: HDN_BEGINDRAG notification code (Commctrl.h)
 description: Sent by a header control when a drag operation has begun on one of its items. This notification code is sent only by header controls that are set to the HDS\_DRAGDROP style. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3dfb7a7c-d783-48e0-ba92-8144104f163a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

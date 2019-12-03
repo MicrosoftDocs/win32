@@ -1,8 +1,8 @@
 ---
 Description: Retrieves all of the IContextNode objects that match the specified criteria and are descendants of the specified IContextNode object.
 ms.assetid: 48d0ae97-c4a5-458d-b4c0-fa82f5aed4e5
-title: IInkAnalyzer::FindNodesWithCallBackInSubTree method
-ms.topic: article
+title: IInkAnalyzer::FindNodesWithCallBackInSubTree method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

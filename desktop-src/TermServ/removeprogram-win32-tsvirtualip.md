@@ -1,5 +1,5 @@
 ---
-title: RemoveProgram method of the Win32_TSVirtualIP class
+title: RemoveProgram method of the Win32_TSVirtualIP class (Bdaiface.h)
 description: Removes a program from the list of programs that use IP virtualization.
 ms.assetid: 2a8069a0-2c48-40d3-a850-0cdfce4fbc82
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

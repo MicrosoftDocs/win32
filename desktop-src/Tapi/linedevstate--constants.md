@@ -1,8 +1,8 @@
 ---
 Description: The LINEDEVSTATE\_ bit-flag constants describe various line status events.
 ms.assetid: 41e8a777-a57a-4d6c-850f-e21b58081b0d
-title: LINEDEVSTATE_ Constants
-ms.topic: article
+title: LINEDEVSTATE_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

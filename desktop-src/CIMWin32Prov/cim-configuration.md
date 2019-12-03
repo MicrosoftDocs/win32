@@ -3,7 +3,7 @@ Description: The CIM\_Configuration object allows the grouping of parameter sets
 ms.assetid: f597fe78-be50-4d31-b1eb-d219acaf1751
 ms.tgt_platform: multiple
 title: CIM_Configuration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

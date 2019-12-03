@@ -1,5 +1,5 @@
 ---
-title: Dialog Box Styles
+title: Dialog Box Styles (Winuser.h)
 description: The following table lists the dialog box styles that you can specify when you create a dialog box.
 ms.assetid: C347A1C4-BCE2-48de-B646-8D4869C5B971
 topic_type:
@@ -24,7 +24,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

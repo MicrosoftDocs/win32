@@ -2,7 +2,7 @@
 Description: Provides properties and methods to encrypt and decrypt data using a session key derived from a secret.
 ms.assetid: 3b9bd0a2-6e15-4d58-a682-588a93895799
 title: EncryptedData object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

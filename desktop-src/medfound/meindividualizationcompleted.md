@@ -1,8 +1,8 @@
 ---
 Description: Raised by the policy engine when individualization is complete. For more information, see MEIndividualizationStart event.
 ms.assetid: 44a4956f-19ba-410d-b96c-e7774cbe2d7e
-title: MEIndividualizationCompleted event
-ms.topic: article
+title: MEIndividualizationCompleted event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Defines constants that describe the fog mode.
 ms.assetid: cd83c914-bc1d-4f66-b5a6-7984b7ec52cd
-title: D3DFOGMODE enumeration
-ms.topic: enumeration
+title: D3DFOGMODE enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Computes a coordinate-axis oriented bounding box.
 ms.assetid: 1b8f328c-2fe1-462e-b464-c8dd9dc03e67
-title: D3DXComputeBoundingBox function
-ms.topic: article
+title: D3DXComputeBoundingBox function (D3DX10math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

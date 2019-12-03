@@ -1,8 +1,8 @@
 ---
 Description: Raised by a media stream after a call to IMFMediaSource::Start causes a seek in the stream. A media stream raises this event when the media source raises the MESourceSeeked event.
 ms.assetid: df06df16-711d-4262-b049-fb29f25934de
-title: MEStreamSeeked event
-ms.topic: article
+title: MEStreamSeeked event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

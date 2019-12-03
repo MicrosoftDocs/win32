@@ -1,5 +1,5 @@
 ---
-title: WM_MBUTTONUP message
+title: WM_MBUTTONUP message (Winuser.h)
 description: Posted when the user releases the middle mouse button while the cursor is in the client area of a window.
 ms.assetid: fb8dee71-11bd-4405-855d-a5d120442271
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

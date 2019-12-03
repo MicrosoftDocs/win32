@@ -1,5 +1,5 @@
 ---
-title: TB_GETEXTENDEDSTYLE message
+title: TB_GETEXTENDEDSTYLE message (Commctrl.h)
 description: Retrieves the extended styles for a toolbar control.
 ms.assetid: d9e31a8e-5e5a-4d2d-bc3b-65ac40e8592f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

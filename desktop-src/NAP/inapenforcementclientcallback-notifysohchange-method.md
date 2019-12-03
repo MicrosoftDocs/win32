@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientCallback NotifySoHChange method
+title: INapEnforcementClientCallback NotifySoHChange method (NapEnforcementClient.h)
 description: Is used by the NapAgent to inform the enforcement client of SoH changes.
 ms.assetid: da8b9238-6371-4a6a-a9e7-ab791391ffc2
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

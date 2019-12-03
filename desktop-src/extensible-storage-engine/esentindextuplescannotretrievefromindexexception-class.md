@@ -1,11 +1,11 @@
 ---
-title: EsentIndexTuplesCannotRetrieveFromIndexException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesCannotRetrieveFromIndexException class
 TOCTitle: EsentIndexTuplesCannotRetrieveFromIndexException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplescannotretrievefromindexexception(v=EXCHG.10)
 ms:contentKeyID: 55101841
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException
 dev_langs:

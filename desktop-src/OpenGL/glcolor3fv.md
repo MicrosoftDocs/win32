@@ -1,5 +1,5 @@
 ---
-title: glColor3fv function
+title: glColor3fv function (Gl.h)
 description: Sets the current color from an already existing array of color values.
 ms.assetid: 4ffaaa7e-4fa3-45b8-acf0-850e1e9d9a60
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

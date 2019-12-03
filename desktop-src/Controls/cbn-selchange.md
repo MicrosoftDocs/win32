@@ -1,5 +1,5 @@
 ---
-title: CBN_SELCHANGE notification code
+title: CBN_SELCHANGE notification code (Winuser.h)
 description: Sent when the user changes the current selection in the list box of a combo box.
 ms.assetid: 2d0d711c-dfc4-485b-97bb-9ccfa7c5864b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

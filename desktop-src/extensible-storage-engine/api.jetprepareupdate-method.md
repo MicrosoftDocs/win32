@@ -1,11 +1,11 @@
 ---
-title: Api.JetPrepareUpdate method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetPrepareUpdate method 
 TOCTitle: 'JetPrepareUpdate method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_prep)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetprepareupdate(v=EXCHG.10)
 ms:contentKeyID: 55100782
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate
 dev_langs:

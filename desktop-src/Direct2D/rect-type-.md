@@ -1,5 +1,5 @@
 ---
-title: Rect Type Function
+title: Rect Type Function (D2d1helper.h)
 description: Creates a rectangle structure that stores its coordinates using the specified data type.
 ms.assetid: b152efaf-0779-4024-b998-82a347abba71
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

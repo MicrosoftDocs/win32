@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS InstallIntegrationComponents method
+title: IVMGuestOS InstallIntegrationComponents method (VPCCOMInterfaces.h)
 description: Locates and installs the latest Integration Components into the guest operating system.
 ms.assetid: 06f302b3-ec2b-471a-8e2e-095ed6ecbd3d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_REALIZE command
+title: MCI_REALIZE command (Mmsystem.h)
 description: The MCI\_REALIZE command causes a graphic device to realize its palette into a device context (DC). Digital-video devices recognize this command.
 ms.assetid: cbc9e6ef-a372-4ddb-b7f3-ea99ac14ec95
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

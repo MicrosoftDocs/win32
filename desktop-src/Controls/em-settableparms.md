@@ -1,5 +1,5 @@
 ---
-title: EM_SETTABLEPARMS message
+title: EM_SETTABLEPARMS message (Richedit.h)
 description: Changes the parameters of rows in a table.
 ms.assetid: 6CE9B8D1-68C9-4692-8454-24BC81E9038F
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EM_SETPARAFORMAT message
+title: EM_SETPARAFORMAT message (Richedit.h)
 description: Sets the paragraph formatting for the current selection in a rich edit control.
 ms.assetid: 2d612e1b-1489-4055-929b-e0b2719f6ec2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Removes all events from a specified animation track.
 ms.assetid: 25c4d04a-0d75-4113-ad90-db84aa937098
-title: ID3DXAnimationController::UnkeyAllTrackEvents method
-ms.topic: article
+title: ID3DXAnimationController::UnkeyAllTrackEvents method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

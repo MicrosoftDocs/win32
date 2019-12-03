@@ -1,5 +1,5 @@
 ---
-title: EsentInitInProgressException members (Microsoft.Isam.Esent.Interop)
+title: EsentInitInProgressException members
 TOCTitle: EsentInitInProgressException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInitInProgressException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinitinprogressexception_members(v=EXCHG.10)

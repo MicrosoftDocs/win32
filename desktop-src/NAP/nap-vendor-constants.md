@@ -1,5 +1,5 @@
 ---
-title: NAP Vendor Constants
+title: NAP Vendor Constants (NapMicrosoftVendorIds.h)
 description: The following internal Microsoft NAP component IDs are defined in NapMicrosoftVendorIds.h.
 ms.assetid: 16d87399-3d96-47c7-b865-c56cfacdeff8
 topic_type:
@@ -22,7 +22,7 @@ api_location:
 - NapMicrosoftVendorIds.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

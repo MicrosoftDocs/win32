@@ -1,5 +1,5 @@
 ---
-title: isfinite
+title: isfinite (Corecrt\_math.h)
 description: Determines if the specified floating-point value is finite.
 ms.assetid: 8be10499-2d06-4520-9697-dab2f461bd0d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

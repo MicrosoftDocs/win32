@@ -1,5 +1,5 @@
 ---
-title: SampleLevel(S,float,float,int,uint) function
+title: SampleLevel::SampleLevel(S,float,float,int,uint) function
 description: Samples a texture on the specified mipmap level and returns status about the operation.
 ms.assetid: D79247AC-A922-49C7-BAC6-807C31F279B1
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - SampleLevel
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

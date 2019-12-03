@@ -1,5 +1,5 @@
 ---
-title: EsentLinkNotSupportedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLinkNotSupportedException methods
 TOCTitle: EsentLinkNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLinkNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlinknotsupportedexception_methods(v=EXCHG.10)

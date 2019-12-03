@@ -1,8 +1,7 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
 ms.assetid: 67f9755c-2f0f-4ee6-8252-b4e5b84a2acc
-title: O
+title: O (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---

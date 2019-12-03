@@ -1,5 +1,5 @@
 ---
-title: EsentSLVOwnerMapPageNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapPageNotFoundException properties
 TOCTitle: EsentSLVOwnerMapPageNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermappagenotfoundexception_properties(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Selects a register NIC.
 ms.assetid: 27814a40-6933-498b-a0d2-535698b1e402
-title: GetNPPBlobFromUI function
-ms.topic: article
+title: GetNPPBlobFromUI function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetDomainShader method
+title: ID3DX11EffectShaderVariable GetDomainShader method (D3dx11effect.h)
 description: Get a domain shader.
 ms.assetid: fd95a4f0-7df3-4098-843f-0a1e22209603
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

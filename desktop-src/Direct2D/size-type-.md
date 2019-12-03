@@ -1,5 +1,5 @@
 ---
-title: Size Type Function
+title: Size Type Function (D2d1helper.h)
 description: Creates a size structure that stores its width and height using the specified data type.
 ms.assetid: 9f7e37a3-440e-40c0-a527-9fcbd207dce8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Returns time position in the local timeframe of an animation set.
 ms.assetid: d822e1d8-f371-43a1-bbcf-2223e28a200a
-title: ID3DXAnimationSet::GetPeriodicPosition method
-ms.topic: article
+title: ID3DXAnimationSet::GetPeriodicPosition method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

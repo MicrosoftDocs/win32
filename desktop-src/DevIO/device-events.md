@@ -1,8 +1,8 @@
 ---
 Description: Applications, including services, can register to receive notification of device events.
 ms.assetid: c89da4ac-57dd-4d95-ac86-3eb137dee0bc
-title: Device Events
-ms.topic: article
+title: Device Events (IoEvent.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

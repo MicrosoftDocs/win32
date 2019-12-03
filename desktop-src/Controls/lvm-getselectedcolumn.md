@@ -1,5 +1,5 @@
 ---
-title: LVM_GETSELECTEDCOLUMN message
+title: LVM_GETSELECTEDCOLUMN message (Commctrl.h)
 description: Retrieves an integer that specifies the selected column.
 ms.assetid: 5aba5d96-50fd-439b-9782-fd5d8684b17f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

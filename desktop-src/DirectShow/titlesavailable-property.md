@@ -2,7 +2,7 @@
 Description: The TitlesAvailable property retrieves the number of titles available on the disc.
 ms.assetid: 821ab1dc-7a42-407f-8fcd-8662036a6fa5
 title: TitlesAvailable Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: These topics describe the documents and printing features of Windows that enable applications to save, view, and print.
 ms.assetid: 20e56af6-9598-4d6a-a2bf-454cef8a3368
 title: Documents and Printing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

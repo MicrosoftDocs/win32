@@ -1,5 +1,5 @@
 ---
-title: IDCompositionBrightnessEffect SetWhitePointX methods
+title: IDCompositionBrightnessEffect SetWhitePointX methods (Dcomp.h)
 description: Sets the x value of the white point.
 ms.assetid: a35c4a79-bf30-3334-1cea-ddd055427a0f
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionBrightnessEffect::SetWhitePointX methods

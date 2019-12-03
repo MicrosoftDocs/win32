@@ -3,7 +3,7 @@ Description: The GetLocalOffsetForDate method returns the offset in minutes (+ o
 audience: developer
 ms.assetid: 15cc5f45-604c-4335-bcd3-92d62dc15420
 ms.tgt_platform: multiple
-title: WBEMTime::GetLocalOffsetForDate methods
+title: WBEMTime::GetLocalOffsetForDate methods (WbemTime.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

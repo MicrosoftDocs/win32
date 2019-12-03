@@ -1,8 +1,8 @@
 ---
 Description: The GetFrameMacType function returns the MAC type of the frame.
 ms.assetid: 8d3da770-1392-4638-a267-32c2dae289b0
-title: GetFrameMacType function
-ms.topic: article
+title: GetFrameMacType function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_RemoteFileSystem class represents a remote file system tha
 ms.assetid: 932970a8-0ab3-45d8-912d-c4ba7cf433b5
 ms.tgt_platform: multiple
 title: CIM_RemoteFileSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

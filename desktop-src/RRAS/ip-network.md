@@ -1,5 +1,5 @@
 ---
-title: IP_NETWORK structure
+title: IP_NETWORK structure (Rtm.h)
 description: The IP\_NETWORK structure describes an IP network address.
 ms.assetid: 5dcc733f-c86f-407e-8727-64f3ae71dd48
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

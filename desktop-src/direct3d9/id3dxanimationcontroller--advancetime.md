@@ -1,8 +1,8 @@
 ---
 Description: Animates the mesh and advances the global animation time by a specified amount.
 ms.assetid: a822d92a-c301-4289-b67b-1df99808c79d
-title: ID3DXAnimationController::AdvanceTime method
-ms.topic: article
+title: ID3DXAnimationController::AdvanceTime method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

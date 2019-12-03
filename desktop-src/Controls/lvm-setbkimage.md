@@ -1,5 +1,5 @@
 ---
-title: LVM_SETBKIMAGE message
+title: LVM_SETBKIMAGE message (Commctrl.h)
 description: Sets the background image in a list-view control. You can send this message explicitly or by using the ListView\_SetBkImage macro.
 ms.assetid: 8fdd363c-ac12-498b-80b7-aaa5741cfd76
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: gluBuild2DMipmaps function
+title: gluBuild2DMipmaps function (Glu.h)
 description: The gluBuild2DMipmaps function creates 2-D mipmaps.
 ms.assetid: ea19a9b0-baf7-436f-afd5-609bc364b3ba
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

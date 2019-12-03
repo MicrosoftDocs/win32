@@ -1,5 +1,5 @@
 ---
-title: WMDRMNET_POLICY structure
+title: WMDRMNET_POLICY structure (Wmdrmsdk.h)
 description: The WMDRMNET\_POLICY structure contains the policy to be used for Windows Media DRM for Network Devices operations.
 ms.assetid: 11eaaeb2-3470-4f58-ae1c-53ee0f60bdce
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

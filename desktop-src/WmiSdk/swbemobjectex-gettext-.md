@@ -2,8 +2,8 @@
 Description: Returns an XML representation of an object or instance. The text file is formatted in the XML format specified as shown in WbemObjectTextFormatEnum.
 ms.assetid: 98961d94-8360-4ed7-b1b1-20b4fca45d45
 ms.tgt_platform: multiple
-title: SWbemObjectEx.GetText_ method
-ms.topic: article
+title: SWbemObjectEx.GetText_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

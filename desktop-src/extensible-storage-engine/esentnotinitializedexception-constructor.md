@@ -1,11 +1,11 @@
 ---
-title: EsentNotInitializedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNotInitializedException constructor 
 TOCTitle: 'EsentNotInitializedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNotInitializedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnotinitializedexception.esentnotinitializedexception(v=EXCHG.10)
 ms:contentKeyID: 55102523
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentNotInitializedException.EsentNotInitializedException
 dev_langs:

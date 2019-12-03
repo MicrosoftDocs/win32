@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetTransmitter GetLeafLicenseResponse method
+title: IWMDRMNetTransmitter GetLeafLicenseResponse method (Wmdrmsdk.h)
 description: The GetLeafLicenseResponse method generates a leaf license response message.
 ms.assetid: b2893d22-b6f3-44d2-b6db-e2b07fbe098d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

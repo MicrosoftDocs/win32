@@ -1,5 +1,5 @@
 ---
-title: DTN_FORMATQUERY notification code
+title: DTN_FORMATQUERY notification code (Commctrl.h)
 description: Sent by a date and time picker (DTP) control to retrieve the maximum allowable size of the string that will be displayed in a callback field. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0f00086a-0ab8-4f6f-9c3e-6e77008aa088
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

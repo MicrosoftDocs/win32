@@ -1,5 +1,5 @@
 ---
-title: Button
+title: Button (Windows Controls)
 description: This section contains information about the programming elements used with button controls. A button is a control the user can click to provide input to an application.
 ms.assetid: 'vs|controls|~\controls\buttons\buttons.htm'
 ms.topic: article

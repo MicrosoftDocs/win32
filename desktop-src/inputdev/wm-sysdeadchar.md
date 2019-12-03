@@ -1,5 +1,5 @@
 ---
-title: WM_SYSDEADCHAR message
+title: WM_SYSDEADCHAR message (Winuser.h)
 description: Sent to the window with the keyboard focus when a WM\_SYSKEYDOWN message is translated by the TranslateMessage function.
 ms.assetid: cf9a1171-a47c-4d7b-b351-31f41a893b20
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

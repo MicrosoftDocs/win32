@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSettingsException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSettingsException members
 TOCTitle: EsentInvalidSettingsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsettingsexception_members(v=EXCHG.10)

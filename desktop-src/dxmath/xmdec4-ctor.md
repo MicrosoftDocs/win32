@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMDEC4.
 ms.assetid: e8ca8689-c946-4fef-a211-6c3737cc88aa
 title: XMDEC4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

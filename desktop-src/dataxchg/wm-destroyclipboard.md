@@ -1,5 +1,5 @@
 ---
-title: WM_DESTROYCLIPBOARD message
+title: WM_DESTROYCLIPBOARD message (Winuser.h)
 description: Sent to the clipboard owner when a call to the EmptyClipboard function empties the clipboard. A window receives this message through its WindowProc function.
 ms.assetid: 9f75b7fb-e9ae-4876-ba99-7db931b9c2ff
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

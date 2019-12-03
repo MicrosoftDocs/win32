@@ -1,8 +1,8 @@
 ---
 Description: Contains various security settings.
 ms.assetid: 1d912fb1-8fb4-4761-8991-5a50ffb0399e
-title: security (MSM) Element
-ms.topic: article
+title: security (MSM) Element (LAN_policy)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# security (MSM) Element
+# security (MSM) Element (LAN_policy)
 
 The security (MSM) element contains various security settings.
 

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexDuplicateException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexDuplicateException members
 TOCTitle: EsentIndexDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexduplicateexception_members(v=EXCHG.10)

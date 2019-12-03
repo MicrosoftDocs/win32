@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical directory entry fi
 ms.assetid: d3caeec1-fecc-4463-9349-d82869c11927
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the CIM_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

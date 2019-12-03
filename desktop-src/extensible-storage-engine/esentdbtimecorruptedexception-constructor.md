@@ -1,11 +1,11 @@
 ---
-title: EsentDbTimeCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDbTimeCorruptedException constructor 
 TOCTitle: 'EsentDbTimeCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdbtimecorruptedexception.esentdbtimecorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55101576
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException.EsentDbTimeCorruptedException
 dev_langs:

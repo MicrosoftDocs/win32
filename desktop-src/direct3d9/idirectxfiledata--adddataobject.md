@@ -1,8 +1,8 @@
 ---
 Description: Adds a data object as a child object. Deprecated.
 ms.assetid: 43771dd6-c17f-4376-9b0a-459ba61ff4c5
-title: IDirectXFileData::AddDataObject method
-ms.topic: article
+title: IDirectXFileData::AddDataObject method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

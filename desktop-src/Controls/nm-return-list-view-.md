@@ -1,5 +1,5 @@
 ---
-title: NM_RETURN (list view) notification code
+title: NM_RETURN (list view) notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that the control has the input focus and that the user has pressed the ENTER key. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 21a8d308-d747-4020-8925-d982234bcf81
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

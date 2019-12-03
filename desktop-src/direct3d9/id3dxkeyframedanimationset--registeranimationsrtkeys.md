@@ -1,8 +1,8 @@
 ---
 Description: Register the scale, rotate, and translate (SRT) key frame data for an animation.
 ms.assetid: 10e5b391-1529-4952-abbb-ef560a35d667
-title: ID3DXKeyframedAnimationSet::RegisterAnimationSRTKeys method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::RegisterAnimationSRTKeys method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

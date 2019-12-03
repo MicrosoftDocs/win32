@@ -1,8 +1,8 @@
 ---
 Description: Applications use the methods of the ID3DX10Mesh interface to manipulate mesh objects.
 ms.assetid: 1734b8fd-e1a6-4aa4-96a0-8693019a9dac
-title: ID3DX10Mesh interface
-ms.topic: interface
+title: ID3DX10Mesh interface (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set an array of vertex shader Boolean constants.
 ms.assetid: 25fd0c68-11b5-4401-a2f8-86075ba3fa54
-title: ID3DXEffectStateManager::SetVertexShaderConstantB method
-ms.topic: article
+title: ID3DXEffectStateManager::SetVertexShaderConstantB method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

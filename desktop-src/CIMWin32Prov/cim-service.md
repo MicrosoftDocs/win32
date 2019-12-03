@@ -2,8 +2,8 @@
 Description: The CIM\_Service class represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
 ms.assetid: b95e8ea7-4daf-4dcf-817c-b872560b62df
 ms.tgt_platform: multiple
-title: CIM_Service class
-ms.topic: article
+title: CIM_Service class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

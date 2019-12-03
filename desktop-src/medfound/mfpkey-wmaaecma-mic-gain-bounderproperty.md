@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the Voice Capture DSP applies microphone gain bounding.
 ms.assetid: b9f0bcc7-57ab-4339-bf1d-2b12c8744f01
-title: MFPKEY_WMAAECMA_MIC_GAIN_BOUNDER Property
-ms.topic: article
+title: MFPKEY_WMAAECMA_MIC_GAIN_BOUNDER Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: tex2D
+title: tex2D (HLSL reference)
 description: Samples a 2D texture using a gradient to select the mip level.
 ms.assetid: 0e8c32ed-d174-4045-9cbf-6c04586ea5bb
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - tex2D
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex2D
+# tex2D (HLSL reference)
 
 Samples a 2D texture using a gradient to select the mip level.
 

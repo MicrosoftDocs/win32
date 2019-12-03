@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNoCopyException members (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNoCopyException members
 TOCTitle: EsentRecordNoCopyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnocopyexception_members(v=EXCHG.10)

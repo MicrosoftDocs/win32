@@ -1,5 +1,5 @@
 ---
-title: SETRGBSTRING message
+title: SETRGBSTRING message (Commdlg.h)
 description: The hook procedure of a Color dialog box, CCHookProc, can send the SETRGBSTRING registered message to the dialog box to set the current color selection.
 ms.assetid: 02d36248-be75-4552-853f-6ac3ec034ebe
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

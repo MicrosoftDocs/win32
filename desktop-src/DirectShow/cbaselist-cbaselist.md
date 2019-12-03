@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 2d48cb66-45d2-4d2d-ba7e-ae759b6d2aa4
-title: CBaseList.CBaseList(TCHAR*, INT) constructor
-ms.topic: article
+title: CBaseList.CBaseList(TCHAR*, INT) constructor (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

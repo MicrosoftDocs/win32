@@ -1,11 +1,11 @@
 ---
-title: EsentWriteConflictException class (Microsoft.Isam.Esent.Interop)
+title: EsentWriteConflictException class
 TOCTitle: EsentWriteConflictException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentWriteConflictException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictexception(v=EXCHG.10)
 ms:contentKeyID: 55103199
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentWriteConflictException
 dev_langs:

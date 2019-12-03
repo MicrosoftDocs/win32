@@ -1,5 +1,5 @@
 ---
-title: IResultType UID property
+title: IResultType UID property (WdsSharedIDL.h)
 description: This property contains the unique identifier for the type.
 ms.assetid: 31c2ef7d-f5a7-441e-80ea-fd7e46fded07
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

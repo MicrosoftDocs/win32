@@ -3,7 +3,7 @@ Description: The CIM\_AssociatedProcessorMemory class associates the processor a
 ms.assetid: a4c28a0a-e4cc-4db2-bd77-b7b5023eace6
 ms.tgt_platform: multiple
 title: CIM_AssociatedProcessorMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

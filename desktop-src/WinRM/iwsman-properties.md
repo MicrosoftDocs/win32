@@ -3,7 +3,7 @@ title: IWSMan Properties
 description: The IWSMan interface exposes the following properties.
 ms.assetid: A6960F12-DF2A-44CB-9168-05E62EEC6537
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

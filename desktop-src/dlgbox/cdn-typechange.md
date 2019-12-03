@@ -1,5 +1,5 @@
 ---
-title: CDN_TYPECHANGE notification code
+title: CDN_TYPECHANGE notification code (Commdlg.h)
 description: Sent by an Explorer-style Open or Save As dialog box when the user selects a new file type from the file types combo box.
 ms.assetid: fb8324db-e435-4ef2-aac5-506a6b7adb2c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

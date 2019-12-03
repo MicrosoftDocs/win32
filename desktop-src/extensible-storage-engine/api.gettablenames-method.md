@@ -1,11 +1,11 @@
 ---
-title: Api.GetTableNames method  (Microsoft.Isam.Esent.Interop)
+title: Api.GetTableNames method 
 TOCTitle: 'GetTableNames method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableNames(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.gettablenames(v=EXCHG.10)
 ms:contentKeyID: 55100650
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.GetTableNames
 dev_langs:

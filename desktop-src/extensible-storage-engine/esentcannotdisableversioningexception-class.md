@@ -1,11 +1,11 @@
 ---
-title: EsentCannotDisableVersioningException class (Microsoft.Isam.Esent.Interop)
+title: EsentCannotDisableVersioningException class
 TOCTitle: EsentCannotDisableVersioningException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdisableversioningexception(v=EXCHG.10)
 ms:contentKeyID: 55101260
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: Sets an array of pointers to transposed matrices.
 ms.assetid: f2db10cb-a146-412d-8de8-f093253470fd
-title: ID3DXConstantTable::SetMatrixTransposePointerArray method
-ms.topic: article
+title: ID3DXConstantTable::SetMatrixTransposePointerArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

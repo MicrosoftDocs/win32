@@ -3,7 +3,7 @@ Description: The Win32\_ProtocolBinding association WMI class relates a system-l
 ms.assetid: 09b84bb2-9999-4e80-a330-88ed6b2bd5e9
 ms.tgt_platform: multiple
 title: Win32_ProtocolBinding class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

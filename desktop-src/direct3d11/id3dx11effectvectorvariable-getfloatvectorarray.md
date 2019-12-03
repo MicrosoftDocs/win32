@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable GetFloatVectorArray method
+title: ID3DX11EffectVectorVariable GetFloatVectorArray method (D3dx11effect.h)
 description: Get an array of four-component vectors that contain floating-point data.
 ms.assetid: 30ecbd97-c16d-4ea9-b7d9-364887f42a04
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

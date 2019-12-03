@@ -2,7 +2,7 @@
 Description: Decrypts an encrypted and encoded data string.
 ms.assetid: 7601083d-0adb-48e1-98a7-804a49f71206
 title: EncryptedData.Decrypt method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ title: RemoteApp and Desktop Connection Management Service Enumerations
 description: The RemoteApp and Desktop Connection Management Service API provides the following enumerations.
 ms.assetid: 9109DEE5-4D37-4B4E-B02A-3499592B3694
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

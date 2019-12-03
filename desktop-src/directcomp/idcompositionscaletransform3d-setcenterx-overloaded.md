@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform3D SetCenterX methods
+title: IDCompositionScaleTransform3D SetCenterX methods (Dcomp.h)
 description: Changes or animates the value of the CenterX property of a 3D scale transform.
 ms.assetid: 959F8530-D2D5-46BC-9F29-F1DFC8029C12
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform3D::SetCenterX methods

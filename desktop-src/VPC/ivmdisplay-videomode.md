@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay VideoMode property
+title: IVMDisplay VideoMode property (VPCCOMInterfaces.h)
 description: Retrieves the current video mode.
 ms.assetid: e5a090c2-f7e6-4b85-8729-64d2ff68fcf3
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Occurs when there is a run-time error in the application.
 ms.assetid: d99400a4-3661-4162-bfd6-8c2a27e0f328
 title: IWinHttpRequestEvents::OnError event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

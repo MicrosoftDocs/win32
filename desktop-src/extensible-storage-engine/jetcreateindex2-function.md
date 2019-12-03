@@ -5,7 +5,7 @@ ms:assetid: 8810eaed-40cb-4561-aafc-9a9bbdb0d05b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269324(v=EXCHG.10)
 ms:contentKeyID: 32765614
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCreateIndex2W
 - JetCreateIndex2A

@@ -1,8 +1,8 @@
 ---
 Description: A decoder-defined GUID that identifies the spatial audio metadata format, notifying downstream components of the metadata object type that the decoder will output.
 ms.assetid: 9714A2C7-25A1-4735-A0AC-22329ECBBC46
-title: MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID attribute
-ms.topic: article
+title: MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

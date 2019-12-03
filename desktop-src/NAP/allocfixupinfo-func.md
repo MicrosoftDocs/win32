@@ -1,5 +1,5 @@
 ---
-title: AllocFixupInfo function
+title: AllocFixupInfo function (NapUtil.h)
 description: Allocates memory for a FixupInfo structure of the specified size.
 ms.assetid: e0b66a08-9714-4451-a22d-3822153c6a36
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

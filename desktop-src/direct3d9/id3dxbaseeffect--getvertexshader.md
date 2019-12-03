@@ -1,8 +1,8 @@
 ---
 Description: Gets a vertex shader.
 ms.assetid: ab58b465-7b10-46eb-88c0-c5229cb09481
-title: ID3DXBaseEffect::GetVertexShader method
-ms.topic: article
+title: ID3DXBaseEffect::GetVertexShader method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

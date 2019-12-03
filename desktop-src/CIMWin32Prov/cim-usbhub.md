@@ -3,7 +3,7 @@ Description: The CIM\_USBHub class represents the capabilities and management of
 ms.assetid: 33618963-3053-4c01-992e-aa6d9774f84b
 ms.tgt_platform: multiple
 title: CIM_USBHub class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

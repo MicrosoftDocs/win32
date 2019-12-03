@@ -1,5 +1,5 @@
 ---
-title: CDM_SETDEFEXT message
+title: CDM_SETDEFEXT message (Commdlg.h)
 description: Sets the default file name extension for an Explorer-style Open or Save As dialog box.
 ms.assetid: bd4999f1-0a7e-4b7f-a0ba-a7c2a7f196c6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

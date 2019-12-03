@@ -1,11 +1,11 @@
 ---
-title: EsentTransTooDeepException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTransTooDeepException constructor 
 TOCTitle: 'EsentTransTooDeepException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttranstoodeepexception.esenttranstoodeepexception(v=EXCHG.10)
 ms:contentKeyID: 55107317
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentTransTooDeepException.EsentTransTooDeepException
 dev_langs:

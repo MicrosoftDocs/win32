@@ -1,5 +1,5 @@
 ---
-title: UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_END
+title: UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_END (UIAnimation.h)
 description: Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the keyframe loop terminates on the ending keyframe when the IUIAnimationStoryboard Conclude method is called.
 ms.assetid: DB333A87-C969-4B47-AAE3-898B052F00F3
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

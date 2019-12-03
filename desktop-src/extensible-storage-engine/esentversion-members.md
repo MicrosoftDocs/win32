@@ -1,5 +1,5 @@
 ﻿---
-title: EsentVersion members (Microsoft.Isam.Esent.Interop)
+title: EsentVersion members
 TOCTitle: EsentVersion members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersion
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversion_members(v=EXCHG.10)

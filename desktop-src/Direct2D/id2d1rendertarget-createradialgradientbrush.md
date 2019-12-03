@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateRadialGradientBrush methods
+title: ID2D1RenderTarget CreateRadialGradientBrush methods (D2d1.h)
 description: Creates an ID2D1RadialGradientBrush object that can be used to paint areas with a radial gradient.
 ms.assetid: 985a4c1b-d29b-46ed-bc55-6dcd313718a8
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::CreateRadialGradientBrush methods

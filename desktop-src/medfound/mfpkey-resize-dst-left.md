@@ -1,8 +1,8 @@
 ---
 Description: Specifies the left edge of the destination rectangle, in pixels.
 ms.assetid: faefe634-c517-43a0-9741-cb79824f840d
-title: MFPKEY_RESIZE_DST_LEFT Property
-ms.topic: article
+title: MFPKEY_RESIZE_DST_LEFT Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

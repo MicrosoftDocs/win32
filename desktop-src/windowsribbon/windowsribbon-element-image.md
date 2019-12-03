@@ -1,5 +1,5 @@
 ---
-title: Image element
+title: Image element (Windows Ribbon Framework)
 description: Represents an image.
 ms.assetid: 2c71bb16-93ac-484f-b81b-1b95842472b3
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Image
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

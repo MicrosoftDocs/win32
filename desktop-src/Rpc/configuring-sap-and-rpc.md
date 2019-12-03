@@ -22,8 +22,8 @@ By default, the RPC service will check for the presence of Gateway Services for 
 
 On the computer running a client version of Windows with CSNW, the RPC service checks for the SAP Agent service. If the services are present, RPC will start its own thread that will do the SAP broadcast Type 640 every minute.
 
-> [!Note]  
-> If you do not want SAP broadcasts on the network every 60 seconds, you can disable SAP broadcasts using the Registry Editor. Be warned that using Registry Editor incorrectly can cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that problems resulting from the incorrect use of Registry Editor can be solved. Use Registry Editor at your own risk. You should back up the registry before you edit it.
+> [!NOTE]
+> If you don't want SAP broadcasts on the network every 60 seconds, you can disable SAP broadcasts using the Registry Editor. Be warned that using Registry Editor incorrectly can cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that problems resulting from the incorrect use of Registry Editor can be solved. Use Registry Editor at your own risk. You should back up the registry before you edit it.
 
  
 
@@ -39,21 +39,12 @@ On the computer running a client version of Windows with CSNW, the RPC service c
     3.  String: No
 3.  Using No for the string turns RPC SAP broadcasting off. Using Yes for the string turns RPC SAP broadcasting on.
 4.  Restart the computer for the registry change to take effect.
-    > [!Note]If the SAP broadcasts continue after following these steps, you may want to try a troubleshooting step. Delete the **Ncacn\_spx** string value in the following registry key:
+    > [!NOTE]
+    > If the SAP broadcasts continue after following these steps, you may want to try a troubleshooting step. Delete the **Ncacn\_spx** string value in the following registry key:
     >
     > **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Rpc\\ServerProtocols\\**
 
      
 
-> [!Note]  
+> [!NOTE]  
 > This should be used only as a troubleshooting step. Deleting this string value completely disables SAP broadcasts which some programs may need in order to function properly.
-
- 
-
- 
-
- 
-
-
-
-

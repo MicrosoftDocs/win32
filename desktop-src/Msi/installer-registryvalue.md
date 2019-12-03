@@ -2,7 +2,7 @@
 Description: The RegistryValue method of the Installer object reads information about a specified registry key of value.
 ms.assetid: 63c258f9-8649-419d-9f79-3681f9f97302
 title: Installer.RegistryValue method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

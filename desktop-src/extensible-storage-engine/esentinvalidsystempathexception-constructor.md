@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidSystemPathException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSystemPathException constructor 
 TOCTitle: 'EsentInvalidSystemPathException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsystempathexception.esentinvalidsystempathexception(v=EXCHG.10)
 ms:contentKeyID: 55107282
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException.EsentInvalidSystemPathException
 dev_langs:

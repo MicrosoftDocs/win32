@@ -1,5 +1,5 @@
 ﻿---
-title: Api methods (Microsoft.Isam.Esent.Interop)
+title: Api methods
 TOCTitle: Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Api
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api_methods(v=EXCHG.10)

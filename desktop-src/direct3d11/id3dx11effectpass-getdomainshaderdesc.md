@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetDomainShaderDesc method
+title: ID3DX11EffectPass GetDomainShaderDesc method (D3dx11effect.h)
 description: Get a domain-shader description.
 ms.assetid: 02109930-0922-46b8-9381-bb75abd0c4a0
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

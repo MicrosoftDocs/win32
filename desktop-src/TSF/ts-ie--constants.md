@@ -1,5 +1,5 @@
 ---
-title: TS_IE_ Constants
+title: TS_IE_ Constants (Textstor.h)
 description: The TS\_IE\_\ constants describe how to insert text that can contain embedded objects used by text services.
 ms.assetid: a455d712-42d5-472e-862d-85ae3ba9149f
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

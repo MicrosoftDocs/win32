@@ -1,5 +1,5 @@
 ---
-title: SystemMonitor object
+title: SystemMonitor object (Isysmon.h)
 description: This class contains the methods and properties used to configure the System Monitor control.
 ms.assetid: 5a6195ee-ed89-4f5d-85dd-88cf4a9b5155
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

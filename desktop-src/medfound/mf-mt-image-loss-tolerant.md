@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether an ASF image stream is a degradable JPEG type.
 ms.assetid: e29d0893-8561-4a8c-99e2-168186becd82
-title: MF_MT_IMAGE_LOSS_TOLERANT attribute
-ms.topic: article
+title: MF_MT_IMAGE_LOSS_TOLERANT attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Reset method
+title: IVMVirtualMachine Reset method (VPCCOMInterfaces.h)
 description: Resets the virtual machine.
 ms.assetid: 44daf6be-66ce-4291-a535-c30369eed60f
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

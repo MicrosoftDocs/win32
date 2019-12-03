@@ -1,5 +1,5 @@
 ---
-title: fmod
+title: fmod (Corecrt\_math.h)
 description: Returns the floating-point remainder of x/y.
 ms.assetid: bb940548-c4c5-4109-a488-4ea7295c7213
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

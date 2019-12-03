@@ -2,8 +2,8 @@
 Description: Modifies a service object derived from Win32\_BaseService.
 ms.assetid: d5f4f472-e7d9-4664-9430-9c77034a5978
 ms.tgt_platform: multiple
-title: Change method of the Win32_BaseService class
-ms.topic: article
+title: Change method of the Win32_BaseService class (Mbnapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

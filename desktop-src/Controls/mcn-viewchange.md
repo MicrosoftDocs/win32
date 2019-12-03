@@ -1,5 +1,5 @@
 ---
-title: MCN_VIEWCHANGE notification code
+title: MCN_VIEWCHANGE notification code (Commctrl.h)
 description: Sent by a month calendar control when the current view changes. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ee35ac1d-9aeb-4d75-9cef-016487f23602
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

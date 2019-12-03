@@ -12,7 +12,7 @@ api_name:
 - ID2D1CommandSink1.SetPrimitiveBlend1
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

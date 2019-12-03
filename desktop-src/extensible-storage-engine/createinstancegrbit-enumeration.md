@@ -1,11 +1,11 @@
 ---
-title: CreateInstanceGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: CreateInstanceGrbit enumeration
 TOCTitle: CreateInstanceGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateInstanceGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.createinstancegrbit(v=EXCHG.10)
 ms:contentKeyID: 39516897
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.CreateInstanceGrbit
 - Microsoft.Isam.Esent.Interop.CreateInstanceGrbit.None

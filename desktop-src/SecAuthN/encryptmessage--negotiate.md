@@ -2,7 +2,7 @@
 Description: Encrypts a message to provide privacy by using Negotiate.
 ms.assetid: b80b3d64-9c0a-4602-9378-1e208f6593fc
 title: EncryptMessage (Negotiate) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

@@ -1,5 +1,5 @@
 ﻿---
-title: JET_DBID properties (Microsoft.Isam.Esent.Interop)
+title: JET_DBID properties
 TOCTitle: JET_DBID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_DBID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbid_properties(v=EXCHG.10)

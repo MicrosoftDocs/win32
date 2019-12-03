@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.MaxOpenTables property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.MaxOpenTables property 
 TOCTitle: 'MaxOpenTables property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxOpenTables
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.maxopentables(v=EXCHG.10)
 ms:contentKeyID: 55107442
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.MaxOpenTables
 dev_langs:

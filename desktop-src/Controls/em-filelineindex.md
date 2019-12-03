@@ -1,5 +1,5 @@
 ---
-title: EM_FILELINEINDEX message
+title: EM_FILELINEINDEX message (CommCtrl.h)
 description: Gets the character index of the first character of a specified line in a multiline edit control, independently of how lines are displayed on the screen.
 ms.assetid: 'vs|controls|~\controls\editcontrols\editcontrolreference\editcontrolmessages\em_lineindex.htm'
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

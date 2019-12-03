@@ -1,7 +1,7 @@
 ---
 Description: Used by the SHGetSetSettings function to specify which members of its SHELLSTATE structure should be set or retrived.
-title: SSF Constants
-ms.topic: article
+title: SSF Constants (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 2a883110-fdc3-4451-9e47-e58894600e3b
 api_name: 

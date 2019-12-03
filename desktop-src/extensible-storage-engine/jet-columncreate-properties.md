@@ -1,5 +1,5 @@
 ﻿---
-title: JET_COLUMNCREATE properties (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE properties
 TOCTitle: JET_COLUMNCREATE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate_properties(v=EXCHG.10)

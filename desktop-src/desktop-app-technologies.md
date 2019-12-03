@@ -1,257 +1,53 @@
 ---
-Description: .
+Description: This article provides an index of documentation about the available Win32 APIs for Windows features and technologies.
 ms.assetid: FF115416-220F-4FCD-8690-F9C0890CD6CC
 title: Desktop app technologies
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.date: 05/31/2018
-ms.technology: get-started
 ---
 
 # Desktop app technologies
 
-This article provides an index of documentation about the available Win32 APIs for Windows features and technologies.
+This section provides in-depth guidance and code examples about Windows features that are available to desktop applications by using the Win32 API.
 
-<ul class="panelContent cardsL" style="margin-left: 1px">
-    <li>              
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master" alt="UI illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>User Interface and accessibility</h3>
-                        <p style="display: block;"><a  href="windows-application-ui-development.md">Desktop User Interface</a></p>
-                        <p style="display: block;"><a  href="winmsg/windowing.md">Windows and messages</a></p>
-                        <p style="display: block;"><a  href="dwm/dwm-overview.md">Desktop Window Manager</a></p>
-                        <p style="display: block;"><a  href="menurc/resources.md">Menus and other resources</a></p>
-                        <p style="display: block;"><a  href="dlgbox/dialog-boxes.md">Dialog boxes</a></p>
-                        <p style="display: block;"><a  href="dataxchg/data-exchange.md">Data exchange</a></p>
-                        <p style="display: block;"><a  href="hidpi/high-dpi-desktop-application-development-on-windows.md">High DPI</a></p>
-                        <p style="display: block;"><a  href="controls/window-controls.md">Windows controls (Win32)</a></p>
-                        <p style="display: block;"><a  href="user-interface.md">Desktop environment and shell</a></p>
-                        <p style="display: block;"><a  href="properties/windows-properties-system.md">Windows Property System</a></p>
-                        <p style="display: block;"><a  href="accessibility.md">Accessibility</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </li>  
-    <li>
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/biztalk-get-started-get-started.svg?branch=master" alt="System illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>System services and fundamentals</h3>
-                        <p style="display: block;"><a  href="system-services.md">System services</a></p>
-                        <p style="display: block;"><a  href="com/component-object-model--com--portal.md">Component Object Model (COM)</a></p>
-                        <p style="display: block;"><a  href="cossdk/component-services-portal.md">COM+</a></p>
-                        <p style="display: block;"><a  href="stg/structured-storage-start-page.md">Structured storage</a></p>
-                        <p style="display: block;"><a  href="dlls/dynamic-link-libraries.md">Dynamic-link libraries</a></p>
-                        <p style="display: block;"><a  href="ipc/interprocess-communications.md">Interprocess communications</a></p>
-                        <p style="display: block;"><a  href="memory/memory-management.md">Memory management</a></p>
-                        <p style="display: block;"><a  href="power/power-management-portal.md">Power management</a></p>
-                        <p style="display: block;"><a  href="procthread/processes-and-threads.md">Processes and threads</a></p>
-                        <p style="display: block;"><a  href="services/services.md">Services</a></p>
-                        <p style="display: block;"><a  href="sync/synchronization.md">Synchronization</a></p>
-                        <p style="display: block;"><a  href="sysinfo/windows-system-information.md">Windows system information</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>       
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/virtualization-containers-samples.svg?branch=master" alt="Audio video and graphics illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Audio, video, and graphics</h3>
-                        <p><a style="display:block" href="audio-and-video.md">Audio and video technologies</a></p>
-                        <p><a style="display:block" href="coreaudio/core-audio-apis-in-windows-vista.md">Core Audio APIs</a></p>
-                        <p><a style="display:block" href="directshow/directshow.md">DirectShow</a></p>
-                        <p><a style="display:block" href="multimedia/windows-multimedia-start-page.md">Windows Multimedia</a></p>
-                        <p><a style="display:block" href="graphics-and-multimedia.md">Graphics and gaming technologies</a></p>
-                        <p><a style="display:block" href="directx.md">DirectX</a></p>
-                        <p><a style="display:block" href="direct2d/direct2d-portal.md">Direct2D</a></p>
-                        <p><a style="display:block" href="direct3d.md">Direct3D</a></p>
-                        <p><a style="display:block" href="gdi/windows-gdi.md">Windows GDI</a></p>
-                        <p><a style="display:block" href="gdiplus/-gdiplus-gdi-start.md">GDI+</a></p>
-                        <p><a style="display:block" href="opengl/opengl.md">OpenGL</a></p>
-                        <p><a style="display:block" href="wic/-wic-lh.md">Windows Imaging Component</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/teams-voice-deployment.svg?branch=master" alt="Networking illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Networking and Internet</h3>
-                        <p><a style="display:block" href="networking.md">Networking and Internet overview</a></p>
-                        <p><a style="display:block" href="rpc/rpc-start-page.md">Remote Procedure Call</a></p>
-                        <p><a style="display:block" href="delivery_optimization/delivery-optimization-portal.md">Delivery Optimization</a></p>
-                        <p><a style="display:block" href="network-interfaces.md">Network Interfaces</a></p>
-                        <p><a style="display:block" href="netmgmt/network-management.md">Network Management</a></p>
-                        <p><a style="display:block" href="netshare/network-share-management.md">Network Share Management</a></p>
-                        <p><a style="display:block" href="wnet/windows-networking-wnet-.md">Windows Networking</a></p>
-                        <p><a style="display:block" href="winsock/windows-sockets-start-page-2.md">Windows Sockets 2</a></p>
-                        <p><a style="display:block" href="wireless-networking.md">Wireless Networking</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/azure-architecture-patterns.svg?branch=master" alt="Data illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Data access and storage</h3>
-                        <p><a style="display:block" href="data-access-and-storage.md">Data access and storage overview</a></p>
-                        <p><a style="display:block" href="fileio/file-systems.md">Local File Systems</a></p>
-                        <p><a style="display:block" href="dfs/distributed-file-system.md">Distributed File System</a></p>
-                        <p><a style="display:block" href="projfs/projected-file-system.md">Projected File System</a></p>
-                        <p><a style="display:block" href="cfapi/cloud-files-api-portal.md">Cloud Sync Engines</a></p>
-                        <p><a style="display:block" href="VStor/virtual-storage.md">Virtual Storage</a></p>
-                        <p><a style="display:block" href="bits/background-intelligent-transfer-service-portal.md">Background Intelligent Transfer Service</a></p>
-                        <p><a style="display:block" href="backup.md">Backup</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/virtualization-hperv-server-doc-archive.svg?branch=master" alt="Devices and documents illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Devices, documents, and printing</h3>
-                        <p><a style="display:block" href="devices.md">Devices overview</a></p>
-                        <p><a style="display:block" href="devio/communications-resources.md">Communications Resources</a></p>
-                        <p><a style="display:block" href="locationapi/windows-location-api-portal.md">Location API</a></p>
-                        <p><a style="display:block" href="sensorsapi/portal.md">Sensor API</a></p>
-                        <p><a style="display:block" href="upnp/universal-plug-and-play-start-page.md">UPnP APIs</a></p>
-                        <p><a style="display:block" href="windows-portable-devices.md">Windows Portable Devices</a></p>
-                        <p><a style="display:block" href="printdocs/documents-and-printing.md">Documents and Printing</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/bcs-partner-advanced-management-password-3.svg?branch=master" alt="Security and identity illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Security and identity</h3>
-                        <p><a style="display:block" href="security.md">Security and identity overview</a></p>
-                        <p><a style="display:block" href="amsi/antimalware-scan-interface-portal.md">Antimalware Scan Interface</a></p>
-                        <p><a style="display:block" href="secauthn/authentication-portal.md">Authentication</a></p>
-                        <p><a style="display:block" href="secauthz/authorization-portal.md">Authorization</a></p>
-                        <p><a style="display:block" href="seccertenroll/certenroll-portal.md">Certificate Enrollment API</a></p>
-                        <p><a style="display:block" href="seccng/cng-portal.md">Cryptography (CNG)</a></p>
-                        <p><a style="display:block" href="SrvNodes/rights-management.md">Rights Management</a></p>
-                        <p><a style="display:block" href="secmgmt/management-portal.md">Security Management</a></p>
-                        <p><a style="display:block" href="tbs/tpm-base-services-portal.md">TPM Base Services</a></p>
-                        <p><a style="display:block" href="secbiomet/biometric-service-api-portal.md">Windows Biometric Framework</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/team-services-dev-ops-test.svg?branch=master" alt="Diagnostics and testing illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Diagnostics and testing</h3>
-                        <p><a style="display:block" href="diagnostics.md">Diagnostics overview</a></p>
-                        <p><a style="display:block" href="debugging-and-error-handling.md">Debugging and error handling</a></p>
-                        <p><a style="display:block" href="netmon2/network-monitor.md">Network Monitor</a></p>
-                        <p><a style="display:block" href="sysmon/system-monitor-portal.md">System Monitor</a></p>
-                        <p><a style="display:block" href="perfctrs/performance-counters-portal.md">Performance counters</a></p>
-                        <p><a style="display:block" href="wer/windows-error-reporting.md">Windows error reporting</a></p>
-                        <p><a style="display:block" href="events/windows-events.md">Windows events</a></p>
-                        <p><a style="display:block" href="tracelogging/trace-logging-portal.md">TraceLogging</a></p>
-                        <p><a style="display:block" href="//docs.microsoft.com/windows-hardware/drivers/debugger/index)">Debugging tools for Windows</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>    
-        <div style="display:block" class="cardSize">
-            <div style="display:block" class="cardPadding">
-                <div style="display:block" class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="/media/illustrations/biztalk-host-integration-install-configure.svg?branch=master" alt="Packaging and installation illustration" data-linktype="external" class="x-hidden-focus">
-                        </div>
-                    </div>
-                    <div style="display:block" class="cardText">
-                        <p></p>
-                        <h3>Packaging and installation</h3>
-                        <p><a style="display:block" href="//docs.microsoft.com/windows/msix">MSIX packaging and deployment</a></p>
-                        <p><a style="display:block" href="application-installing-and-servicing.md">Application Installation and Servicing</a></p>
-                        <p><a style="display:block" href="sbscs/isolated-applications-and-side-by-side-assemblies-portal.md">Isolated Applications and Side-by-side Assemblies</a></p>
-                        <p><a style="display:block" href="appxpkg/appx-portal.md">Packaging, deployment, and query of UWP apps</a></p>
-                        <p><a style="display:block" href="msi/windows-installer-portal.md">Windows Installer</a></p>
-                        <p><a style="display:block" href="appxpkg/windows-desktop-application-program.md">Windows Desktop Application Program</a></p>
-                        <p><a style="display:block" href="//docs.microsoft.com/virtualization/windowscontainers/about/">Windows containers</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+## In this section
+
+| Topic | Description  |  
+|----------------------------------|---|
+| [Accessibility](accessibility.md) | Provides guidance for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications. |
+| [Desktop user interface](windows-application-ui-development.md) | Provides information that enables you to develop graphical user interfaces for your apps, including features such as windows and messages, resources, and controls. |
+| [Desktop environment](user-interface.md) | Provides guidance for integrating and extending the desktop user-facing features of Windows, including the Taskbar, the desktop, and File Explorer. |
+| [Application installation and servicing](application-installing-and-servicing.md) | Provides information about using APIs and services provided by Windows to install, manage, and service your desktop apps. |
+| [Audio and video](audio-and-video.md) | Provides guidance about using audio and video features provided by Windows. |
+| [Data access and storage](data-access-and-storage.md) | Provides information about data access and storage features you can use in your desktop applications, including file system management and cloud sync engines.  |
+| [Devices](devices.md) | Describes APIs for interacting with devices and sensors. |
+| [Diagnostics](diagnostics.md) | Provides guidance about debugging and error handling, performance profiling, network monitoring, and other diagnostics features. |
+| [Documents and printing](printdocs/documents-and-printing.md) | Describes the documents and printing features of Windows that enable applications to save, view, and print.  |
+| [Graphics and gaming](graphics-and-multimedia.md) | Provides information about graphics and gaming features of Windows, including DirectX and digital imaging.  |
+| [Networking and Internet](networking.md) | Provides guidance about the networking and Internet-related features of Windows, including network management, HTTP APIs, and Remote Procedure Call (RPC). |
+| [Security and identity](security.md) | Provides information about authentication, authorization, cryptography, and other security features of Windows. |
+| [System services](system-services.md) | Provides guidance about fundamental OS features such as process and threads, services, dynamic-link libraries, COM, the registry, and more. |information. |
+
+<!--
+<br/>
+
+| User Interface and accessibility | System services and fundamentals  |  Audio, video, and graphics  |
+|----------------------------------|---|----|
+| [Desktop User Interface](windows-application-ui-development.md)<br/>[Windows and messages](winmsg/windowing.md)<br/>[Desktop Window Manager](dwm/dwm-overview.md)<br/>[Menus and other resources](menurc/resources.md)<br/>[Dialog boxes](dlgbox/dialog-boxes.md)<br/>[Data exchange](dataxchg/data-exchange.md)<br/>[High DPI](hidpi/high-dpi-desktop-application-development-on-windows.md)<br/>[Windows controls (Win32)](controls/window-controls.md)<br/>[Desktop environment and shell](user-interface.md)<br/>[Windows Property System](properties/windows-properties-system.md)<br/>[Accessibility](accessibility.md) | [System services](system-services.md)<br/>[Component Object Model (COM)](com/component-object-model--com--portal.md)<br/>[COM+](cossdk/component-services-portal.md)<br/>[Structured storage](stg/structured-storage-start-page.md)<br/>[Dynamic-link libraries](dlls/dynamic-link-libraries.md)<br/>[Interprocess communications](ipc/interprocess-communications.md)<br/>[Memory management](memory/memory-management.md)<br/>[Power management](power/power-management-portal.md)<br/>[Processes and threads](procthread/processes-and-threads.md)<br/>[Services](services/services.md)<br/>[Synchronization](sync/synchronization.md)<br/>[Windows system information](sysinfo/windows-system-information.md) | [Audio and video technologies](audio-and-video.md)<br/>[Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)<br/>[DirectShow](directshow/directshow.md)<br/>[Windows Multimedia](multimedia/windows-multimedia-start-page.md)<br/>[Graphics and gaming technologies](graphics-and-multimedia.md)<br/>[DirectX](directx.md)<br/>[Direct2D](direct2d/direct2d-portal.md)<br/>[Direct3D](direct3d.md)<br/>[Windows GDI](gdi/windows-gdi.md)<br/>[GDI+](gdiplus/-gdiplus-gdi-start.md)<br/>[OpenGL](opengl/opengl.md)<br/>[Windows Imaging Component](wic/-wic-lh.md) |
+
+<br/>
+
+| Networking and Internet | Data access and storage  |  Devices, documents, and printing  |
+|----------------------------------|---|----|
+| [Networking and Internet overview](networking.md)<br/>[Remote Procedure Call](rpc/rpc-start-page.md)<br/>[Delivery optimization](delivery_optimization/delivery-optimization-portal.md)<br/>[Network interfaces](network-interfaces.md)<br/>[Network management](netmgmt/network-management.md)<br/>[Network share management](netshare/network-share-management.md)<br/>[Windows networking](wnet/windows-networking-wnet-.md)<br/>[Windows Sockets 2](winsock/windows-sockets-start-page-2.md)<br/>[Wireless networking](wireless-networking.md) | [Data access and storage overview](data-access-and-storage.md)<br/>[Local file systems](fileio/file-systems.md)<br/>[Distributed File System](dfs/distributed-file-system.md)<br/>[Projected File System](projfs/projected-file-system.md)<br/>[Cloud sync engines](cfapi/cloud-files-api-portal.md)<br/>[Virtual Storage](VStor/virtual-storage.md)<br/>[Background Intelligent Transfer Service](bits/background-intelligent-transfer-service-portal.md)<br/>[Backup](backup.md) | [Devices overview](devices.md)<br/>[Communications resources](devio/communications-resources.md)<br/>[Location API](locationapi/windows-location-api-portal.md)<br/>[Sensor API](sensorsapi/portal.md)<br/>[UPnP APIs](upnp/universal-plug-and-play-start-page.md)<br/>[Windows Portable Devices](windows-portable-devices.md)<br/>[Documents and printing](printdocs/documents-and-printing.md) |
+
+<br/>
+
+| Security and identity | Diagnostics and testing  |  Packaging and installation  |
+|----------------------------------|---|----|
+| [Security and identity overview](security.md)<br/>[Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)<br/>[Authentication](secauthn/authentication-portal.md)<br/>[Authorization](secauthz/authorization-portal.md)<br/>[Certificate Enrollment API](seccertenroll/certenroll-portal.md)<br/>[Cryptography (CNG)](seccng/cng-portal.md)<br/>[Rights Management](SrvNodes/rights-management.md)<br/>[Security Management](secmgmt/management-portal.md)<br/>[TPM Base Services](tbs/tpm-base-services-portal.md)<br/>[Windows Biometric Framework](secbiomet/biometric-service-api-portal.md) | [Diagnostics overview](diagnostics.md)<br/>[Debugging and error handling](debugging-and-error-handling.md)<br/>[Network Monitor](netmon2/network-monitor.md)<br/>[System Monitor](sysmon/system-monitor-portal.md)<br/>[Performance counters](perfctrs/performance-counters-portal.md)<br/>[Windows error reporting](wer/windows-error-reporting.md)<br/>[Windows events](events/windows-events.md)<br/>[TraceLogging](tracelogging/trace-logging-portal.md)<br/>[Debugging tools for Windows](//docs.microsoft.com/windows-hardware/drivers/debugger/index) | [MSIX packaging](//docs.microsoft.com/windows/msix)<br/>[Application install and servicing](application-installing-and-servicing.md)<br/>[Side-by-side assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)<br/>[Packaging and query of UWP apps](appxpkg/appx-portal.md)<br/>[Windows Installer](msi/windows-installer-portal.md)<br/>[Desktop Application Program](appxpkg/windows-desktop-application-program.md)<br/>[Windows containers](//docs.microsoft.com/virtualization/windowscontainers/about/) |
+
+-->
 
 <!--
 :::row:::

@@ -2,7 +2,7 @@
 Description: Sets or retrieves the plaintext content of a message to be enveloped. This is the default property.
 ms.assetid: 7927321f-fbda-45e0-9b9f-c10ecd3a98b1
 title: EnvelopedData.Content property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The Windows Media Audio Voice decoder decodes streams that were encoded by the Windows Media Audio Voice Encoder.
 ms.assetid: 8bb5c8bd-949f-4faa-b679-8854f78076a4
-title: Windows Media Audio Voice Decoder
-ms.topic: article
+title: Windows Media Audio Voice Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

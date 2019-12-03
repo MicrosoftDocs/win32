@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable UndoSetSampler method
+title: ID3DX11EffectSamplerVariable UndoSetSampler method (D3dx11effect.h)
 description: Revert a previously set sampler state.
 ms.assetid: bb837b12-d6c3-47e9-a0a1-0bfcfe0f3e4e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

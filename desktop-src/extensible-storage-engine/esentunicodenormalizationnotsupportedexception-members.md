@@ -1,5 +1,5 @@
 ---
-title: EsentUnicodeNormalizationNotSupportedException members (Microsoft.Isam.Esent.Interop)
+title: EsentUnicodeNormalizationNotSupportedException members
 TOCTitle: EsentUnicodeNormalizationNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentunicodenormalizationnotsupportedexception_members(v=EXCHG.10)

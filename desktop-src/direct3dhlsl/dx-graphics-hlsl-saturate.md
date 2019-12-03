@@ -1,5 +1,5 @@
 ---
-title: saturate
+title: saturate (HLSL reference)
 description: Clamps the specified value within the range of 0 to 1.
 ms.assetid: efe4dedd-732a-4643-8a57-61814434f6ff
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - saturate
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# saturate
+# saturate (HLSL reference)
 
 Clamps the specified value within the range of 0 to 1.
 

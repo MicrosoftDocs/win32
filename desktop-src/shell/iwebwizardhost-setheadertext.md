@@ -1,7 +1,7 @@
 ---
 Description: Sets the title and subtitle that appear in the wizard header. In general, the client will display the header above the HTML and below the title bar.
-title: WebWizardHost.SetHeaderText method
-ms.topic: article
+title: WebWizardHost.SetHeaderText method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

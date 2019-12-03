@@ -1,8 +1,8 @@
 ---
 Description: Sets the HDCP protection level for DVD playback, following DVD Content Scramble System (CSS) rules.
 ms.assetid: 8d9ecb9b-8528-4b23-ab2f-234ba2cb7ed0
-title: OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD
-ms.topic: article
+title: OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD (Opmapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

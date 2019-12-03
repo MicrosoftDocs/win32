@@ -1,5 +1,5 @@
 ---
-title: WM_MOUSELEAVE message
+title: WM_MOUSELEAVE message (Winuser.h)
 description: Posted to a window when the cursor leaves the client area of the window specified in a prior call to TrackMouseEvent.
 ms.assetid: b23d24ff-531a-4b6d-8848-f82ac5568995
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

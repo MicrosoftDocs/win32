@@ -3,7 +3,7 @@ Description: The CIM\_PackageInChassis association represents the relationship i
 ms.assetid: 3243bc0f-ce20-4108-b6e3-838bcb8f2fec
 ms.tgt_platform: multiple
 title: CIM_PackageInChassis class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

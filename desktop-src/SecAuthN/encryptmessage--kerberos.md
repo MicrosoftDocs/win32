@@ -2,7 +2,7 @@
 Description: Encrypts a message to provide privacy by using Kerberos.
 ms.assetid: b9b6ca95-b986-4de7-bd28-994a5125ad05
 title: EncryptMessage (Kerberos) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

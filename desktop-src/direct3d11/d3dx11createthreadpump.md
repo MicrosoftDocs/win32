@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateThreadPump function
+title: D3DX11CreateThreadPump function (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create a thread pump.
 ms.assetid: 8983a2e2-185f-43c0-baf0-a4c883d91220
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: RAS_PPP_NBFCP_RESULT structure
+title: RAS_PPP_NBFCP_RESULT structure (Rassapi.h)
 description: The RAS\_PPP\_NBFCP\_RESULT structure is used to report the result of a PPP NetBEUI Framer (NBF) projection operation for a port.
 ms.assetid: 670bf125-cad5-481f-89e4-858e636316bd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

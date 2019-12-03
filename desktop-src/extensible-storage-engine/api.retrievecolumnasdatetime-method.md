@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsDateTime method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsDateTime method 
 TOCTitle: 'RetrieveColumnAsDateTime method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsDateTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasdatetime(v=EXCHG.10)

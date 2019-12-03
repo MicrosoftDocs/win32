@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareFeature class represents a particular function or 
 ms.assetid: 7beeb32c-d285-44f7-adeb-3b661d8ab037
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

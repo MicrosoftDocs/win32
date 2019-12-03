@@ -1,5 +1,5 @@
 ---
-title: Session.Error property
+title: Session.Error property (WSManDisp.h)
 description: Gets additional error information in an XML stream.
 ms.assetid: f291c11c-012f-45eb-b851-5661d881ee79
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

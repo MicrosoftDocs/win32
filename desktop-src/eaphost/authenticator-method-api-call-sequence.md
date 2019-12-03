@@ -2,9 +2,6 @@
 title: Authenticator Method API Call Sequence
 description: Provides the specific call sequence for the authenticator method API.
 ms.assetid: 4756300c-5e49-44e8-ab49-1993d780d2a3
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

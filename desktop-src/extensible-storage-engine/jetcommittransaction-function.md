@@ -5,7 +5,7 @@ ms:assetid: 140ca76a-b3a7-4ae8-bc7e-73941fbfc759
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269191(v=EXCHG.10)
 ms:contentKeyID: 32765494
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCommitTransaction
 topic_type: 

@@ -3,7 +3,7 @@ Description: The SWbemObjectPath object exposes the following properties.
 ms.assetid: 7EE0A09D-F8C5-40B8-B32A-AADFB1BD9C27
 ms.tgt_platform: multiple
 title: SWbemObjectPath Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

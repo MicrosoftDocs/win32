@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set a light.
 ms.assetid: 3b9b2cbd-79f5-4ea4-a47b-da23b091adfd
-title: ID3DXEffectStateManager::SetLight method
-ms.topic: article
+title: ID3DXEffectStateManager::SetLight method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

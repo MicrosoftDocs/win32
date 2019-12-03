@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetPixelShaderDesc method
+title: ID3DX11EffectPass GetPixelShaderDesc method (D3dx11effect.h)
 description: Get a pixel-shader description.
 ms.assetid: 5772f197-7ac5-4492-9a41-eedb1a8b22c9
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

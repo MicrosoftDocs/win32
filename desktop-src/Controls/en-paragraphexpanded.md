@@ -1,5 +1,5 @@
 ---
-title: EN_PARAGRAPHEXPANDED notification code
+title: EN_PARAGRAPHEXPANDED notification code (Richedit.h)
 description: Notifies a rich edit control's parent that an outline has been expanded. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: D33EB118-FC79-4284-820B-3424F13722C4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Decrypts a single Secure Sockets Layer protocol (SSL) packet.
 ms.assetid: 22a7dd2b-d023-47b9-8f76-1c17c2dd6466
-title: SslDecryptPacket function
-ms.topic: article
+title: SslDecryptPacket function (Sslprovider.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

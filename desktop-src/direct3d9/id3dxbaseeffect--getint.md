@@ -1,8 +1,8 @@
 ---
 Description: Gets an integer.
 ms.assetid: 8074758a-f650-4698-8a75-aa0ffb14cb21
-title: ID3DXBaseEffect::GetInt method
-ms.topic: article
+title: ID3DXBaseEffect::GetInt method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

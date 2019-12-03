@@ -1,5 +1,5 @@
 ---
-title: WOM_DONE message
+title: WOM_DONE message (Mmsystem.h)
 description: The WOM\_DONE message is sent to a waveform-audio output callback function when the given output buffer is being returned to the application.
 ms.assetid: 'cac94a44-d1b0-43de-b3ec-ae34547b1fc3'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

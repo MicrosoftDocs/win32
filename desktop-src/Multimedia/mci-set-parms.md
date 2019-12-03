@@ -1,5 +1,5 @@
 ---
-title: MCI_SET_PARMS structure
+title: MCI_SET_PARMS structure (Mciapi.h)
 description: The MCI\_SET\_PARMS structure contains information for the MCI\_SET command.
 ms.assetid: 58811a0f-dc89-4303-b2b2-c98933ebab80
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

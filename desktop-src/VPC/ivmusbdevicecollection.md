@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDeviceCollection interface
+title: IVMUSBDeviceCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of USB devices attached to the host system. To obtain an IVMUSBDeviceCollection object, use the IVMVirtualPC USBDeviceCollection property.
 ms.assetid: a5cca485-29d3-47fa-9cda-fedcdc379155
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

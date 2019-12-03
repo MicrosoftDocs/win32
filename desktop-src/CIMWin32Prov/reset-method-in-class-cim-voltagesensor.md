@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_VoltageSensor class requests a reset o
 ms.assetid: 21afca17-0c7e-4c4b-81e7-6f3481ea4cd6
 ms.tgt_platform: multiple
 title: Reset method of the CIM_VoltageSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

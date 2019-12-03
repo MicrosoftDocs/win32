@@ -2,7 +2,7 @@
 Description: The IX509CertificateRequestPkcs7 interface exposes the following properties.
 ms.assetid: 9F8F7DDC-0378-48AE-8DBF-70666CC956E4
 title: IX509CertificateRequestPkcs7 Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

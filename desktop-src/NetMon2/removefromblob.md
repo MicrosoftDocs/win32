@@ -1,8 +1,8 @@
 ---
 Description: The RemoveFromBlob function deletes any level of BLOB entry (Owner, Category, or Tag).
 ms.assetid: b8bb01e0-8b97-4c95-96f5-f2a30c8700e9
-title: RemoveFromBlob function
-ms.topic: article
+title: RemoveFromBlob function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

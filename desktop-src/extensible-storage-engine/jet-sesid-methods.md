@@ -1,5 +1,5 @@
 ---
-title: JET_SESID methods (Microsoft.Isam.Esent.Interop)
+title: JET_SESID methods
 TOCTitle: JET_SESID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SESID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_sesid_methods(v=EXCHG.10)

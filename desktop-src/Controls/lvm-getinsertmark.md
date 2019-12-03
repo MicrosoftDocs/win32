@@ -1,5 +1,5 @@
 ---
-title: LVM_GETINSERTMARK message
+title: LVM_GETINSERTMARK message (Commctrl.h)
 description: Retrieves the position of the insertion point.
 ms.assetid: ad00df4c-4b4b-48f1-8821-7849a216df2e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

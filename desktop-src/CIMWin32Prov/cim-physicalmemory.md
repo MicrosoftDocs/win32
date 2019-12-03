@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalMemory class represents low-level memory devices, 
 ms.assetid: a25c5f00-cd85-42e6-9b26-8e9380b3c73b
 ms.tgt_platform: multiple
 title: CIM_PhysicalMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

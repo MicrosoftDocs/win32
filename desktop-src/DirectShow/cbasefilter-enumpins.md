@@ -1,8 +1,8 @@
 ---
 Description: The EnumPins method enumerates the pins on this filter. This method implements the IBaseFilter::EnumPins method.
 ms.assetid: c1015ed3-658f-4f96-a1fb-e04b81a9ddb5
-title: CBaseFilter.EnumPins method
-ms.topic: article
+title: CBaseFilter.EnumPins method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

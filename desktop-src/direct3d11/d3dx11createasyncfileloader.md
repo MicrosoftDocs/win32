@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateAsyncFileLoader function
+title: D3DX11CreateAsyncFileLoader function (D3DX11async.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create an asynchronous-file loader.
 ms.assetid: ee24ac00-3636-4900-9b8a-27778c9a2152
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

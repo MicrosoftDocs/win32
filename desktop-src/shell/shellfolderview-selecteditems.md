@@ -1,7 +1,7 @@
 ---
 Description: Gets a FolderItems object that represents all of the selected items in the view.
-title: ShellFolderView.SelectedItems method
-ms.topic: article
+title: ShellFolderView.SelectedItems method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

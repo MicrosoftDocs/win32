@@ -1,5 +1,5 @@
 ---
-title: IDWriteFactory3 CreateFontFaceReference methods
+title: IDWriteFactory3 CreateFontFaceReference methods (Dwrite\_3.h)
 description: Creates a reference to a font.
 ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDWriteFactory3::CreateFontFaceReference methods

@@ -1,8 +1,8 @@
 ---
 Description: Gets the effect description.
 ms.assetid: 96b53b8a-0c20-4bfd-af45-626f6e0305d2
-title: ID3DXBaseEffect::GetDesc method
-ms.topic: article
+title: ID3DXBaseEffect::GetDesc method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

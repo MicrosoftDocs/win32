@@ -2,7 +2,7 @@
 title: ult (sm4 - asm)
 description: Component-wise vector unsigned integer less-than comparison.
 ms.assetid: DB10F654-4A98-4ED8-A3B4-CA9FE1DFE6CD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

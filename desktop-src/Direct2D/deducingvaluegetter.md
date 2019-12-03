@@ -1,5 +1,5 @@
 ---
-title: DeducingValueGetter
+title: DeducingValueGetter (D2d1effecthelpers.h)
 description: Deduces the class and arguments and then calls a member-function property getter callback for a value-type property.
 ms.assetid: E2E5CCC3-B112-4D3C-8840-121A55C4F1A2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

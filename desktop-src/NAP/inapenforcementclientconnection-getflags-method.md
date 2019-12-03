@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetFlags method
+title: INapEnforcementClientConnection GetFlags method (NapEnforcementClient.h)
 description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
 ms.assetid: e8399615-5190-46f7-a3bf-3070de548953
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

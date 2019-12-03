@@ -1,5 +1,5 @@
 ---
-title: CDM_GETFOLDERPATH message
+title: CDM_GETFOLDERPATH message (Commdlg.h)
 description: Retrieves the path of the currently open folder or directory for an Explorer-style Open or Save As dialog box.
 ms.assetid: 7c3d4598-b45d-46c1-ad0d-cb0ecd20b3eb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS OSBuildNumber property
+title: IVMGuestOS OSBuildNumber property (VPCCOMInterfaces.h)
 description: The build number of the guest operating system running in the virtual machine.
 ms.assetid: d77472c6-c793-476f-b0b6-819023ea6b20
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

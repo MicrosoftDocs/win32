@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback object to modify a Windows Explorer pop-up menu before it is displayed. Used by IShellFolderViewCB::MessageSFVCB.
-title: SFVM_INITMENUPOPUP message
-ms.topic: article
+title: SFVM_INITMENUPOPUP message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 9d7e96e9-c52e-43bd-945b-05db33c8dfd0
 api_name: 

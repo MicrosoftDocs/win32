@@ -2,7 +2,7 @@
 title: DDE Functions
 description: .
 ms.assetid: d109ac50-e464-4928-9d6b-bc65f257f826
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

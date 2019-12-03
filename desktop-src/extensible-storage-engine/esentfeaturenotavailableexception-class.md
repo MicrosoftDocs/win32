@@ -1,11 +1,11 @@
 ---
-title: EsentFeatureNotAvailableException class (Microsoft.Isam.Esent.Interop)
+title: EsentFeatureNotAvailableException class
 TOCTitle: EsentFeatureNotAvailableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfeaturenotavailableexception(v=EXCHG.10)
 ms:contentKeyID: 55101625
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException
 dev_langs:

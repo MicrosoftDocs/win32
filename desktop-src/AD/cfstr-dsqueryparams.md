@@ -1,5 +1,5 @@
 ---
-title: CFSTR_DSQUERYPARAMS
+title: CFSTR_DSQUERYPARAMS (DSQuery.h)
 description: The CFSTR\_DSQUERYPARAMS clipboard format provides a global memory handle (HGLOBAL) that contains a DSQUERYPARAMS structure.
 ms.assetid: bb8aea98-8309-42bf-993d-fa408bb4deb2
 ms.tgt_platform: multiple
@@ -11,7 +11,7 @@ api_location:
 - DSQuery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

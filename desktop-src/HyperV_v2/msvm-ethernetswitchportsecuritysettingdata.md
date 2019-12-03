@@ -2,7 +2,7 @@
 Description: Represents the security feature setting data.
 ms.assetid: 98e0de24-ccdc-4fc7-86a5-b68d454fde9d
 title: Msvm_EthernetSwitchPortSecuritySettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

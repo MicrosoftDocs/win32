@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseAlreadyRunningMaintenanceException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseAlreadyRunningMaintenanceException properties
 TOCTitle: EsentDatabaseAlreadyRunningMaintenanceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasealreadyrunningmaintenanceexception_properties(v=EXCHG.10)

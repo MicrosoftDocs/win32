@@ -1,11 +1,11 @@
 ---
-title: EsentDisabledFunctionalityException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDisabledFunctionalityException constructor 
 TOCTitle: 'EsentDisabledFunctionalityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdisabledfunctionalityexception.esentdisabledfunctionalityexception(v=EXCHG.10)
 ms:contentKeyID: 55101613
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException.EsentDisabledFunctionalityException
 dev_langs:

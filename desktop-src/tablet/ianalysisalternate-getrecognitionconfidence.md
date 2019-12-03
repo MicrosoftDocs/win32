@@ -1,8 +1,8 @@
 ---
 Description: Gets a value that indicates the level of confidence that the IInkAnalyzer has in the accuracy of the IAnalysisAlternate.
 ms.assetid: ac1c68df-2e0c-4633-b7ee-519482a4d67a
-title: IAnalysisAlternate::GetRecognitionConfidence method
-ms.topic: article
+title: IAnalysisAlternate::GetRecognitionConfidence method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

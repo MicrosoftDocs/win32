@@ -1,8 +1,8 @@
 ---
 Description: Add a work item to the thread pump.
 ms.assetid: f07789dc-a3d5-4bad-9768-527e701271b8
-title: ID3DX10ThreadPump::AddWorkItem method
-ms.topic: article
+title: ID3DX10ThreadPump::AddWorkItem method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

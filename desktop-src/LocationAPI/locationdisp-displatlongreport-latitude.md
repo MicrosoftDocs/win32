@@ -2,7 +2,7 @@
 Description: Current latitude, in degrees.
 ms.assetid: 24a4e75c-5162-406a-bf34-471387bff5d9
 title: LocationDisp.DispLatLongReport.Latitude property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

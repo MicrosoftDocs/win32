@@ -1,8 +1,8 @@
 ---
 Description: Sets the root security identifier for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: DD2B9487-53B0-4753-8C47-4D6BFE113109
-title: MFPKEY_HTTP_ByteStream_Urlmon_Security_Id property
-ms.topic: article
+title: MFPKEY_HTTP_ByteStream_Urlmon_Security_Id property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

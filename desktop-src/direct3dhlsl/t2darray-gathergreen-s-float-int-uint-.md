@@ -1,5 +1,5 @@
 ---
-title: GatherGreen(S,float,int,uint) function
+title: Texture2DArray::GatherGreen(S,float,int,uint) function
 description: Samples a texture and returns the green component along with status about the operation.
 ms.assetid: 90BEB8B3-F851-469B-B55A-E51CB8463CC8
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherGreen
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

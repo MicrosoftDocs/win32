@@ -1,5 +1,5 @@
 ---
-title: MIM_LONGERROR message
+title: MIM_LONGERROR message (Mmsystem.h)
 description: The MIM\_LONGERROR message is sent to a MIDI input callback function when an invalid or incomplete MIDI system-exclusive message is received.
 ms.assetid: 7e3b0716-33c4-449c-a200-e5ba72428dc1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

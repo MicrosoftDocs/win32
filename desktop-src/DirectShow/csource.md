@@ -1,8 +1,8 @@
 ---
 Description: The CSource class is a base class for implementing source filters. A filter derived from CSource contains one or more output pins derived from the CSourceStream class. Each output pin creates a worker thread that pushes media samples downstream.
 ms.assetid: '25bd0334-4ad1-48ed-93f9-b36c13a280a3'
-title: CSource class
-ms.topic: interface
+title: CSource class (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

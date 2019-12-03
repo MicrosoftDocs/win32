@@ -2,7 +2,7 @@
 Description: Enables and disables the collection of metrics.
 ms.assetid: 1a53c7a7-c0fc-49d7-ad1b-d185d776ede5
 title: ControlMetricsByClass method of the CIM_MetricService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

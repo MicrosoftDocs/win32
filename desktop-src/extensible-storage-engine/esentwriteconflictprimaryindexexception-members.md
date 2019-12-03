@@ -1,5 +1,5 @@
 ---
-title: EsentWriteConflictPrimaryIndexException members (Microsoft.Isam.Esent.Interop)
+title: EsentWriteConflictPrimaryIndexException members
 TOCTitle: EsentWriteConflictPrimaryIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictprimaryindexexception_members(v=EXCHG.10)

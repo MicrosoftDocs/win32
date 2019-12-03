@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetTechniqueByName method
+title: ID3DX11Effect GetTechniqueByName method (D3dx11effect.h)
 description: Get a technique by name.
 ms.assetid: 0f7fa02c-dfbf-4971-86ad-3429f99f84e0
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

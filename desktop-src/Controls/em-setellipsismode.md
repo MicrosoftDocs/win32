@@ -1,5 +1,5 @@
 ---
-title: EM_SETELLIPSISMODE message
+title: EM_SETELLIPSISMODE message (Richedit.h)
 description: This message sets the current ellipsis mode.
 ms.assetid: C77263E8-424B-4EDE-ACBF-BA85248FC31F
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

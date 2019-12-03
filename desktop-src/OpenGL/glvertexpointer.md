@@ -1,5 +1,5 @@
 ---
-title: glVertexPointer function
+title: glVertexPointer function (Gl.h)
 description: The glVertexPointer function defines an array of vertex data.
 ms.assetid: e5f97fdc-9448-4389-8533-3855a3213feb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

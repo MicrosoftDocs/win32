@@ -1,5 +1,5 @@
 ---
-title: EsentBadCheckpointSignatureException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadCheckpointSignatureException methods
 TOCTitle: EsentBadCheckpointSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadcheckpointsignatureexception_methods(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Contains the MPEG-1 or MPEG-2 sequence header for a video media type.
 ms.assetid: 17b7f76c-404c-4aa9-9746-1488fee027f2
-title: MF_MT_MPEG_SEQUENCE_HEADER attribute
-ms.topic: article
+title: MF_MT_MPEG_SEQUENCE_HEADER attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -17,6 +17,8 @@ Byte array
 ## Remarks
 
 This attribute corresponds to the **dwSequenceHeader** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) structure, or the **bSequenceHeader** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx) structure.
+
+For h264 and h265 video, the blob contains concatenated [NAL units](https://en.wikipedia.org/wiki/Network_Abstraction_Layer) in Annex B format, along with their start codes. Specifically, for h264 video they are SPS & PPS NAL units. For h265 they are VPS, SPS & PPS.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

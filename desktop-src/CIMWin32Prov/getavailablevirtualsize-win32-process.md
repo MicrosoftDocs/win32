@@ -3,7 +3,7 @@ Description: Retrieves the current size, in bytes, of the free virtual address s
 ms.assetid: 13b3b347-5db1-484f-bd1d-3a604eb6bc5b
 ms.tgt_platform: multiple
 title: GetAvailableVirtualSize method of the Win32_Process class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Specifies when a presentation was last modified.
 ms.assetid: 12990de2-7656-4781-943b-c46f42a0e38d
-title: MF_PD_LAST_MODIFIED_TIME attribute
-ms.topic: article
+title: MF_PD_LAST_MODIFIED_TIME attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: WM_DWMSENDICONICTHUMBNAIL message
+title: WM_DWMSENDICONICTHUMBNAIL message (Dwmapi.h)
 description: Instructs a window to provide a static bitmap to use as a thumbnail representation of that window.
 ms.assetid: 476c2542-f4d0-4777-93d3-bf50da26d94f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

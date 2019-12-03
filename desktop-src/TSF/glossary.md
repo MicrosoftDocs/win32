@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glossary (Text Services Framework)
 description: Glossary
 ms.assetid: 2fd6c6bf-c556-414c-98bf-ed042d49920b
 keywords:

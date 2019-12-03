@@ -1,8 +1,8 @@
 ---
 Description: Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect from a file.
 ms.assetid: b0ca0b6a-3ff0-49ee-83de-14c4686a7104
-title: D3DX10CompileFromFile function
-ms.topic: article
+title: D3DX10CompileFromFile function (D3DX10Async.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

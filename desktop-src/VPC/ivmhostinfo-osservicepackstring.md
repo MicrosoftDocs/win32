@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo OSServicePackString property
+title: IVMHostInfo OSServicePackString property (VPCCOMInterfaces.h)
 description: Retrieves the service pack information of the operating system running on the host machine.
 ms.assetid: e5fe51f8-9bcf-49bd-bec6-2538b3e8edfa
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

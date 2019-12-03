@@ -3,7 +3,7 @@ Description: The CIM\_RealizesPExtent association represents the relationship in
 ms.assetid: 9abe1a7d-8463-4d48-8cec-52bf934ad08b
 ms.tgt_platform: multiple
 title: CIM_RealizesPExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

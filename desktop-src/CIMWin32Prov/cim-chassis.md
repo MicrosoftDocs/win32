@@ -3,7 +3,7 @@ Description: The CIM\_Chassis class represents the physical elements that enclos
 ms.assetid: 4c55dbff-bc4a-4cc9-8f34-29636defaa56
 ms.tgt_platform: multiple
 title: CIM_Chassis class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

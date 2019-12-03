@@ -1,11 +1,11 @@
 ---
-title: Api.JetOSSnapshotFreeze method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOSSnapshotFreeze method 
 TOCTitle: 'JetOSSnapshotFreeze method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOSSnapshotFreeze(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,System.Int32@,Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO[]@,Microsoft.Isam.Esent.Interop.SnapshotFreezeGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetossnapshotfreeze(v=EXCHG.10)
 ms:contentKeyID: 55100793
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetOSSnapshotFreeze
 dev_langs:

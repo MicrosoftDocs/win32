@@ -3,7 +3,7 @@ Description: The CIM\_NetworkAdapter class is an abstract class that defines gen
 ms.assetid: dd44e05a-1124-42c2-aa69-340c06da35a2
 ms.tgt_platform: multiple
 title: CIM_NetworkAdapter class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

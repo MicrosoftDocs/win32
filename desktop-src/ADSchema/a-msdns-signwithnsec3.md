@@ -12,7 +12,7 @@ api_name:
 - ms-DNS-Sign-With-NSEC3
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

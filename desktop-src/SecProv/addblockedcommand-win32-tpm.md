@@ -2,7 +2,7 @@
 Description: Adds a TPM command to the local list of commands blocked from running on the operating system.
 ms.assetid: 4e44ef21-346c-4d9f-b40d-cb70118398d1
 title: AddBlockedCommand method of the Win32_Tpm class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

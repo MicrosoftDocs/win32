@@ -1,5 +1,5 @@
 ---
-title: MCI_CLOSE command
+title: MCI_CLOSE command (Mmsystem.h)
 description: The MCI\_CLOSE command releases access to a device or file. All devices recognize this command.
 ms.assetid: 62dadd90-e8fc-4bdd-9f8c-f9ea9ff5550f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

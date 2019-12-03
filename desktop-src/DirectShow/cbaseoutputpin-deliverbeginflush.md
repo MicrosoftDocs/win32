@@ -1,8 +1,8 @@
 ---
 Description: The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
 ms.assetid: 0d7c7bd7-2a7a-42a4-a0de-60205b62e49c
-title: CBaseOutputPin.DeliverBeginFlush method
-ms.topic: article
+title: CBaseOutputPin.DeliverBeginFlush method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

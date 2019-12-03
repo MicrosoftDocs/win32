@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd CreateSoftKeyboardWindow method
+title: ISoftKbd CreateSoftKeyboardWindow method (Softkbdc.h)
 description: The ISoftKbd CreateSoftKeyboardWindow method creates a soft keyboard window.
 ms.assetid: e9aa9d88-d0bb-407f-9b53-98c8747be5d3
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

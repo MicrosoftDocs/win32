@@ -1,8 +1,8 @@
 ---
 Description: Specifies the protection scheme for encrypted samples.
 ms.assetid: 04E9F908-C61C-43DC-8CF5-9A629FCDD82C
-title: MFSampleExtension_Encryption_ProtectionScheme attribute
-ms.topic: article
+title: MFSampleExtension_Encryption_ProtectionScheme attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

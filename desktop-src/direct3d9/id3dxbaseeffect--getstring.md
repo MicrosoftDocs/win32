@@ -1,8 +1,8 @@
 ---
 Description: Gets a string.
 ms.assetid: 49388582-a110-4aa2-90ab-2282b59da951
-title: ID3DXBaseEffect::GetString method
-ms.topic: article
+title: ID3DXBaseEffect::GetString method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

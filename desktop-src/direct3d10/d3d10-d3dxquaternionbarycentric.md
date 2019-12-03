@@ -1,8 +1,8 @@
 ---
 Description: Returns a quaternion in barycentric coordinates.
 ms.assetid: 0a8d8d5a-f486-4457-86e9-27e76eaf1bc4
-title: D3DXQuaternionBaryCentric function
-ms.topic: article
+title: D3DXQuaternionBaryCentric function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

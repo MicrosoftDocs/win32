@@ -1,5 +1,5 @@
 ﻿---
-title: JET_INSTANCE_INFO properties (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE_INFO properties
 TOCTitle: JET_INSTANCE_INFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info_properties(v=EXCHG.10)

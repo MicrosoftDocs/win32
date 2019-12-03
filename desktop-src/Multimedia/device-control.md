@@ -1,5 +1,5 @@
 ---
-title: Device Control
+title: Device Control (Windows Multimedia)
 description: Device Control
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
 ms.topic: article

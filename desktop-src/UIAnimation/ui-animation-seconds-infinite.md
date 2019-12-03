@@ -1,5 +1,5 @@
 ---
-title: UI_ANIMATION_SECONDS_INFINITE
+title: UI_ANIMATION_SECONDS_INFINITE (UIAnimation.h)
 description: Indicates that there are no scheduled events.
 ms.assetid: 7DDE96A5-5639-49EC-B5C0-3FBE60B84197
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidCodePageException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCodePageException constructor 
 TOCTitle: 'EsentInvalidCodePageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcodepageexception.esentinvalidcodepageexception(v=EXCHG.10)
 ms:contentKeyID: 55101884
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException.EsentInvalidCodePageException
 dev_langs:

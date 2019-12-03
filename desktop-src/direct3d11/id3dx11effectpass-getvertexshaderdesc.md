@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetVertexShaderDesc method
+title: ID3DX11EffectPass GetVertexShaderDesc method (D3dx11effect.h)
 description: Get a vertex-shader description.
 ms.assetid: 7e02a438-2ff4-4e32-bc16-d112aafa57cb
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: ilt (sm4 - asm)
 description: Component-wise vector integer less-than comparison.
 ms.assetid: 5F06E568-6234-4778-8169-D8352FAB5297
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

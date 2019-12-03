@@ -1,8 +1,8 @@
 ---
 Description: The CanSeekForward method determines whether the stream can be seeked forward. This method implements the IMediaPosition::CanSeekForward method.
 ms.assetid: ccb2db8d-b52e-4e3d-b49b-9689197a974a
-title: CPosPassThru.CanSeekForward method
-ms.topic: article
+title: CPosPassThru.CanSeekForward method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

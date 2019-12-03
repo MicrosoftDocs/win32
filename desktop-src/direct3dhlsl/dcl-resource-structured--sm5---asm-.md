@@ -2,7 +2,7 @@
 title: dcl_resource structured (sm5 - asm)
 description: Declare a shader resource input and assign it to a t\ - a placeholder register for the resource.
 ms.assetid: 87FC8A56-9DB2-424B-889C-2AB59885DA13
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

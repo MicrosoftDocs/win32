@@ -1,5 +1,5 @@
 ---
-title: IADsContainer Property Methods
+title: IADsContainer Property Methods (Iads.h)
 description: The property methods of the IADsContainer interface get or set the properties described in the following table. For more information, and a general discussion about property methods, see Interface Property Methods.
 ms.assetid: 74d348bf-7b7f-4971-ba03-f77940600674
 ms.tgt_platform: multiple
@@ -21,7 +21,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The UsingDifferentAllocators method determines whether the input and output pins are using different allocators.
 ms.assetid: 75feaa6e-6395-4d47-ae92-10a857f8764b
-title: CTransInPlaceFilter.UsingDifferentAllocators method
-ms.topic: article
+title: CTransInPlaceFilter.UsingDifferentAllocators method (Transip.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

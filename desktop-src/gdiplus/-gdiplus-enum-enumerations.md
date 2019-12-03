@@ -1,12 +1,12 @@
 ---
+title: GDI+ enumerations
 Description: 'Windows GDI+ defines the following enumerations:'
 ms.assetid: e37295d3-9bfe-4708-94b4-b45a8da894b9
-title: Enumerations
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# GDI+ enumerations
 
 Windows GDI+ defines the following enumerations:
 

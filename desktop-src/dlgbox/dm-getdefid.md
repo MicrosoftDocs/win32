@@ -1,5 +1,5 @@
 ---
-title: DM_GETDEFID message
+title: DM_GETDEFID message (Winuser.h)
 description: Retrieves the identifier of the default push button control for a dialog box.
 ms.assetid: 9f00a494-f5a2-4c4e-a9fc-2220d9326eb9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LVN_MARQUEEBEGIN notification code
+title: LVN_MARQUEEBEGIN notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that a bounding box (marquee) selection has begun. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e9daa264-1861-4791-9a12-cf95d86a688e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

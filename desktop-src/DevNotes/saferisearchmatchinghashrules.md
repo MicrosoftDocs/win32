@@ -2,7 +2,7 @@
 Description: Gets the level of a hash identification rule that matches the specified hash.
 ms.assetid: 1592c8da-31c0-45fb-b832-d439dd53c277
 title: SaferiSearchMatchingHashRules function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

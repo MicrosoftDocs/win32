@@ -3,7 +3,7 @@ Description: The Win32\_ClassicCOMClass WMI class represents the properties of a
 ms.assetid: 49b10991-cc2e-40a1-bbb3-a816a52d1a91
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClass class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

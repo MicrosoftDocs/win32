@@ -1,7 +1,7 @@
 ---
 Description: Constructors exposed by XMUINT3.
 ms.assetid: f3737cb1-36a0-4dbc-94d5-237e7395670e
-title: XMUINT3 constructors
+title: XMUINT3 constructors (Directxmath.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

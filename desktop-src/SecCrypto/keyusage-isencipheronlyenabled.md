@@ -2,7 +2,7 @@
 Description: Retrieves a Boolean value that indicates whether the encipherOnly bit is set.
 ms.assetid: 60d79ea4-4968-49e0-8d16-873fbcbd951c
 title: KeyUsage.IsEncipherOnlyEnabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

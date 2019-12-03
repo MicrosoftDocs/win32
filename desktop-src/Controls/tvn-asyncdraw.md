@@ -1,5 +1,5 @@
 ---
-title: TVN_ASYNCDRAW notification code
+title: TVN_ASYNCDRAW notification code (Commctrl.h)
 description: Sent by a tree-view control to its parent when the drawing of a icon or overlay has failed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 209bfffb-e57d-435d-98a1-8b117c4969b1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

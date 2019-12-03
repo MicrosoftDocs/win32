@@ -1,5 +1,5 @@
 ---
-title: WM_SETFOCUS message
+title: WM_SETFOCUS message (Winuser.h)
 description: Sent to a window after it has gained the keyboard focus.
 ms.assetid: 77180e4c-95a6-41a4-93d9-033381ae7543
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

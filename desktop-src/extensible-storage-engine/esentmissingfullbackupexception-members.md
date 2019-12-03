@@ -1,5 +1,5 @@
 ---
-title: EsentMissingFullBackupException members (Microsoft.Isam.Esent.Interop)
+title: EsentMissingFullBackupException members
 TOCTitle: EsentMissingFullBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingfullbackupexception_members(v=EXCHG.10)

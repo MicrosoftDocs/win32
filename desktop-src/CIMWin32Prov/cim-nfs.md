@@ -3,7 +3,7 @@ Description: The CIM\_NFS class represents a remote file system that is mounted,
 ms.assetid: 24eba28f-fbd5-4aa3-a7c7-a611269d55ac
 ms.tgt_platform: multiple
 title: CIM_NFS class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

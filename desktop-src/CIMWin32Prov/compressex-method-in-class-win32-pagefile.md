@@ -3,7 +3,7 @@ Description: Compresses the logical paging file (or directory) specified in the 
 ms.assetid: ea99367b-4d5e-4cd2-aa89-d250d1161f8f
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: DTM_GETDATETIMEPICKERINFO message
+title: DTM_GETDATETIMEPICKERINFO message (Commctrl.h)
 description: Gets information on a date and time picker (DTP) control.
 ms.assetid: 04847b68-ac45-4b28-8f62-2cd68ffe48d4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

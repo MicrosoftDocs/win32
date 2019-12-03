@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidOperationException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidOperationException members
 TOCTitle: EsentInvalidOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidoperationexception_members(v=EXCHG.10)

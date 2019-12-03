@@ -1,11 +1,11 @@
 ---
-title: JET_LGPOS.CompareTo method  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.CompareTo method 
 TOCTitle: 'CompareTo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.CompareTo(Microsoft.Isam.Esent.Interop.JET_LGPOS)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.compareto(v=EXCHG.10)
 ms:contentKeyID: 39514516
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_LGPOS.CompareTo
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: The LINECALLSTATE\_ bit-flag constants describe the call states a call can be in.
 ms.assetid: 18d881ee-cf98-4dec-a561-333c2518935d
-title: LINECALLSTATE_ Constants
-ms.topic: article
+title: LINECALLSTATE_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Reports an instance creation event, which is a type of intrinsic ev
 ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
 ms.tgt_platform: multiple
 title: '__InstanceCreationEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

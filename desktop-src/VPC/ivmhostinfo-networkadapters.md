@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo NetworkAdapters property
+title: IVMHostInfo NetworkAdapters property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of NICs in the host machine.
 ms.assetid: 17393d7a-c883-4d67-826b-83b886c0d7a6
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetParentConstantBuffer method
+title: ID3DX11EffectVariable GetParentConstantBuffer method (D3dx11effect.h)
 description: Get a constant buffer.
 ms.assetid: 43b46b05-951e-4c52-8bc7-4bb5f657ea78
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

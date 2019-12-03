@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESS message
+title: ICM_DECOMPRESS message (Vfw.h)
 description: The ICM\_DECOMPRESS message notifies a video decompression driver to decompress a frame of data into an application-defined buffer.
 ms.assetid: 666f2ebf-80a5-4846-861d-c79c3001c5a0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

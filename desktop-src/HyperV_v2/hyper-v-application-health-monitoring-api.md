@@ -2,7 +2,7 @@
 Description: The Hyper-V application health monitoring API is used to monitor the health state of applications running in a virtual machine.
 ms.assetid: 05B1B355-0200-451B-B097-6BED02430C8D
 title: Hyper-V application health monitoring API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

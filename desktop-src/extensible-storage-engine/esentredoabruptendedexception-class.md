@@ -1,11 +1,11 @@
 ---
-title: EsentRedoAbruptEndedException class (Microsoft.Isam.Esent.Interop)
+title: EsentRedoAbruptEndedException class
 TOCTitle: EsentRedoAbruptEndedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentredoabruptendedexception(v=EXCHG.10)
 ms:contentKeyID: 55102536
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
 dev_langs:

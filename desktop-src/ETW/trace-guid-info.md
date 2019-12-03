@@ -1,8 +1,8 @@
 ---
 Description: Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.
 ms.assetid: 2c484adf-605d-420b-8059-942b35305acd
-title: TRACE_GUID_INFO structure
-ms.topic: structure
+title: TRACE_GUID_INFO structure (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

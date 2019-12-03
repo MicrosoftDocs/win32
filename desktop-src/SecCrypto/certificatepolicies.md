@@ -2,7 +2,7 @@
 Description: A collection of PolicyInformation objects.
 ms.assetid: 2abdd070-82ae-47fd-afbc-6d4361e5a3f1
 title: CertificatePolicies object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_AUDIOFORMAT message
+title: WM_CAP_SET_AUDIOFORMAT message (Vfw.h)
 description: The WM\_CAP\_SET\_AUDIOFORMAT message sets the audio format to use when performing streaming or step capture. You can send this message explicitly or by using the capSetAudioFormat macro.
 ms.assetid: 8bffa401-3d36-43bb-9f69-988ebc69b860
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

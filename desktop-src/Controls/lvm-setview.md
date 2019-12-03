@@ -1,5 +1,5 @@
 ---
-title: LVM_SETVIEW message
+title: LVM_SETVIEW message (Commctrl.h)
 description: Sets the view of a list-view control.
 ms.assetid: e6d3f16d-52ea-4863-a6c9-9a085d5f794a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

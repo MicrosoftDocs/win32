@@ -1,5 +1,5 @@
 ---
-title: MCI_LIST command
+title: MCI_LIST command (Mmsystem.h)
 description: The MCI\_LIST command obtains information about the number and types of inputs available to the device. Digital-video and VCR devices recognize this command.
 ms.assetid: 1977fbfa-cae4-4afe-9fc5-ac68177574ca
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: Removes an object from the shell view. Used by SHShellFolderView\_Message.
-title: SFVM_REMOVEOBJECT message
-ms.topic: article
+title: SFVM_REMOVEOBJECT message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5b493cea-dfbd-4aee-8126-b118c058bb4c
 api_name: 

@@ -1,5 +1,5 @@
 ---
-title: MCN_SELCHANGE notification code
+title: MCN_SELCHANGE notification code (Commctrl.h)
 description: Sent by a month calendar control when the currently selected date or range of dates changes. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8923524f-d257-409d-bd3e-021684b88856
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

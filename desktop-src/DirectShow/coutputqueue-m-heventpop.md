@@ -1,8 +1,8 @@
 ---
 Description: Optional event that is signaled whenever the object removes a sample from the queue. The value is initially NULL. Call the COutputQueue::SetPopEvent method to specify an event handle.
 ms.assetid: f2602532-b045-4384-b87c-b28cc34c81b0
-title: COutputQueue::m_hEventPop member
-ms.topic: article
+title: COutputQueue::m_hEventPop member (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

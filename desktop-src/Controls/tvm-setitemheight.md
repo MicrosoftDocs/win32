@@ -1,5 +1,5 @@
 ---
-title: TVM_SETITEMHEIGHT message
+title: TVM_SETITEMHEIGHT message (Commctrl.h)
 description: Sets the height of the tree-view items. You can send this message explicitly or by using the TreeView\_SetItemHeight macro.
 ms.assetid: 23f6f2a4-cdd9-441d-af24-ed40513d2721
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

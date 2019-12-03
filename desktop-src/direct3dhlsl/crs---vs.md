@@ -2,10 +2,10 @@
 title: crs - vs
 description: Computes a cross product using the right-hand rule.
 ms.assetid: 102108f5-acc8-49ce-a84b-b8060decbaa7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

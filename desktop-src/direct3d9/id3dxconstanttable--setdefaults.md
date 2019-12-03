@@ -1,8 +1,8 @@
 ---
 Description: Sets the constants to their default values. The default values are declared in the variable declarations in the shader.
 ms.assetid: 593a3a1b-cf96-4d46-9917-21068def0988
-title: ID3DXConstantTable::SetDefaults method
-ms.topic: article
+title: ID3DXConstantTable::SetDefaults method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

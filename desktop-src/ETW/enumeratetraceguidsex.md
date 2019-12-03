@@ -1,8 +1,8 @@
 ---
 Description: Use this function to retrieve information about trace providers that are registered on the computer.
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
-title: EnumerateTraceGuidsEx function
-ms.topic: article
+title: EnumerateTraceGuidsEx function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

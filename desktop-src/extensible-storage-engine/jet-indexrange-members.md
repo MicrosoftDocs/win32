@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXRANGE members (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXRANGE members
 TOCTitle: JET_INDEXRANGE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexrange_members(v=EXCHG.10)

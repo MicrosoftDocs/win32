@@ -1,8 +1,8 @@
 ---
 Description: Specifies how the topology loader connects this topology node, and whether this node is optional.
 ms.assetid: 8d70e1af-607b-47c3-9808-091c95fd05b7
-title: MF_TOPONODE_CONNECT_METHOD attribute
-ms.topic: article
+title: MF_TOPONODE_CONNECT_METHOD attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID2D1Ink SetSegmentAtEnd methods
+title: ID2D1Ink SetSegmentAtEnd methods (D2d1\_3.h)
 description: Updates the last segment in this ink object with new control points.
 ms.assetid: d2901735-724d-502b-bc2e-dc030f8be4fe
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Ink::SetSegmentAtEnd methods

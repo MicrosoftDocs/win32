@@ -1,11 +1,11 @@
 ---
-title: EsentTooManyKeysException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyKeysException constructor 
 TOCTitle: 'EsentTooManyKeysException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanykeysexception.esenttoomanykeysexception(v=EXCHG.10)
 ms:contentKeyID: 55103064
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentTooManyKeysException.EsentTooManyKeysException
 dev_langs:

@@ -1,11 +1,11 @@
 ---
-title: CompactGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: CompactGrbit enumeration
 TOCTitle: CompactGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CompactGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.compactgrbit(v=EXCHG.10)
 ms:contentKeyID: 39509676
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.CompactGrbit
 - Microsoft.Isam.Esent.Interop.CompactGrbit.None

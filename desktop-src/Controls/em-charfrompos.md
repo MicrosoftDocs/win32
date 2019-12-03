@@ -1,5 +1,5 @@
 ---
-title: EM_CHARFROMPOS message
+title: EM_CHARFROMPOS message (Winuser.h)
 description: Gets information about the character closest to a specified point in the client area of an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: fe9f96f2-5b3c-4039-befd-5e9a456ba32d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

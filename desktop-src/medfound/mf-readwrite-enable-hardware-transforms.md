@@ -1,8 +1,8 @@
 ---
 Description: Enables the source reader or sink writer to use hardware-based Media Foundation transforms (MFTs).
 ms.assetid: 03f2fa76-b828-40b1-929d-60e7d5ab49bb
-title: MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS attribute
-ms.topic: article
+title: MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS attribute (Mfreadwrite.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

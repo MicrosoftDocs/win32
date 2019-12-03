@@ -1,5 +1,5 @@
 ---
-title: glLightModelfv function
+title: glLightModelfv function (Gl.h)
 description: The glLightModelfv function sets lighting model parameters.
 ms.assetid: a62bcf3b-1769-48a3-8121-8f2b41266183
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

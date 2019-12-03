@@ -1,8 +1,8 @@
 ---
 Description: SFVM\_THISIDLIST may be altered or unavailable.
 ms.assetid: 488f696d-aa71-4727-bbd2-c99e7d245d85
-title: SFVM_THISIDLIST message
-ms.topic: article
+title: SFVM_THISIDLIST message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

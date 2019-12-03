@@ -1,8 +1,8 @@
 ---
 Description: Disables the use of post-processing camera plug-ins by the Source Reader.
 ms.assetid: 837A6BA8-9C79-4B0A-B40D-C094009BFF2C
-title: MF_SOURCE_READER_DISABLE_CAMERA_PLUGINS attribute
-ms.topic: article
+title: MF_SOURCE_READER_DISABLE_CAMERA_PLUGINS attribute (Mfreadwrite.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

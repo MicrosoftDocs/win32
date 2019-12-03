@@ -1,8 +1,8 @@
 ---
 Description: Computes a quaternion's axis and angle of rotation.
 ms.assetid: 6efd0a68-7641-403e-8ae2-c715b705b36e
-title: D3DXQuaternionToAxisAngle function
-ms.topic: article
+title: D3DXQuaternionToAxisAngle function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

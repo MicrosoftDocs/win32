@@ -1,8 +1,8 @@
 ---
 Description: The CallWorker method signals the thread with a request.
 ms.assetid: 51431688-bf55-4778-afc0-91b6ab336aa3
-title: CAMThread.CallWorker method
-ms.topic: article
+title: CAMThread.CallWorker method (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

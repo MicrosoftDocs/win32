@@ -3,7 +3,7 @@ title: IMsTscAx Properties
 description: The IMsTscAx interface exposes the following properties.
 ms.assetid: 0B127BEA-C656-4B9E-B791-9C19CAAC46B3
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

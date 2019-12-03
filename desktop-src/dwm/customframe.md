@@ -253,6 +253,7 @@ LRESULT CustomCaptionProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam,
     {
         HDC hdc;
         {
+            PAINTSTRUCT ps;
             hdc = BeginPaint(hWnd, &ps);
             PaintCustomCaption(hWnd, hdc);
             EndPaint(hWnd, &ps);

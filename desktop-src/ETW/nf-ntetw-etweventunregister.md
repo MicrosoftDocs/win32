@@ -1,14 +1,12 @@
 ---
 UID: NF:ntw.EtwEventUnregister
 title: EtwEventUnregister function
-author: windows-sdk-content
 description: Unregisters an event.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 02/20/2018
 ms.keywords: EtwEventUnregister
-ms.topic: function
+ms.topic: reference
 req.header: ntetw.h
 req.include-header: 
 req.target-type: Windows
@@ -35,7 +33,6 @@ api_location:
 - ntetw.h
 api_name:
 - EtwEventUnregister
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

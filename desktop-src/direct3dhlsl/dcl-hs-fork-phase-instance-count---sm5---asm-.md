@@ -2,7 +2,7 @@
 title: dcl_hs_fork_phase_instance_count (sm5 - asm)
 description: Declare the fork phase instance count in a hull shader fork phase.
 ms.assetid: E38C48BB-3439-4F63-8DF8-21CF562CF5E6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

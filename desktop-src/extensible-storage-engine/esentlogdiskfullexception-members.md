@@ -1,5 +1,5 @@
 ---
-title: EsentLogDiskFullException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogDiskFullException members
 TOCTitle: EsentLogDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogdiskfullexception_members(v=EXCHG.10)

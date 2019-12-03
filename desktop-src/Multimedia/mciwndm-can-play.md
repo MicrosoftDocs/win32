@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_CAN_PLAY message
+title: MCIWNDM_CAN_PLAY message (Vfw.h)
 description: The MCIWNDM\_CAN\_PLAY message determines if an MCI device can play a data file or content of some other kind. You can send this message explicitly or by using the MCIWndCanPlay macro.
 ms.assetid: dbb742b0-b8ab-4b80-96da-c4823a4747c9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

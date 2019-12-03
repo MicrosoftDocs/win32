@@ -1,8 +1,8 @@
 ---
 Description: The EnumerateTraceGuids function retrieves information about registered event trace providers that are running on the computer.
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
-title: EnumerateTraceGuids function
-ms.topic: article
+title: EnumerateTraceGuids function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

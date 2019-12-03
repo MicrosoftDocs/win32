@@ -1,8 +1,8 @@
 ---
 Description: Sent by the WM ASF Reader filter when it reads ASF files protected by digital rights management (DRM).
 ms.assetid: ac6ea7a1-238e-42ae-9f10-e1db60381357
-title: EC_WMT_EVENT
-ms.topic: article
+title: EC_WMT_EVENT (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

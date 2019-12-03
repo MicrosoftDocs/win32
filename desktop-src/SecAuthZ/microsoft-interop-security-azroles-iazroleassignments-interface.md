@@ -2,7 +2,7 @@
 Description: Links to documentation for the IAzRoleAssignments interoperability wrapper methods and properties.
 ms.assetid: 7aa691c9-0daa-4956-993f-973eaae081f6
 title: Microsoft.Interop.Security.AzRoles.IAzRoleAssignments interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

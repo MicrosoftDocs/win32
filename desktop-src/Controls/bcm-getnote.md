@@ -1,5 +1,5 @@
 ---
-title: BCM_GETNOTE message
+title: BCM_GETNOTE message (Commctrl.h)
 description: Gets the text of the note associated with a command link button. You can send this message explicitly or use the Button\_GetNote macro.
 ms.assetid: ddaf4227-1316-49b5-abf0-00215472c46c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

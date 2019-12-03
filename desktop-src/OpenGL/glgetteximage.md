@@ -1,5 +1,5 @@
 ---
-title: glGetTexImage function
+title: glGetTexImage function (Gl.h)
 description: The glGetTexImage function returns a texture image.
 ms.assetid: d7235df4-2dd8-4537-aadd-284c130a3f99
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

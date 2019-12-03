@@ -1,8 +1,8 @@
 ---
 Description: Transforms vector (x, y, z, 1) by a given matrix.
 ms.assetid: 88b26d94-2550-4126-bf91-b06391ec5c75
-title: D3DXVec3Transform function
-ms.topic: article
+title: D3DXVec3Transform function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IWMPClosedCaption (VB and C ) interface
+title: IWMPClosedCaption (VB and C ) interface (Wmp.h)
 description: Provides a way to include captions with a digital media file. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
 ms.assetid: 927f6fe4-5847-439e-9df0-19cc910d887d
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

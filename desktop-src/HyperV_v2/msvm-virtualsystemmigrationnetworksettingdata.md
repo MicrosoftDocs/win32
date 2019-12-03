@@ -2,7 +2,7 @@
 Description: Represents the network on which the virtual system migration service is listening for incoming virtual system migration.
 ms.assetid: 24458602-ff5c-45c2-8053-00315b59d3bb
 title: Msvm_VirtualSystemMigrationNetworkSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

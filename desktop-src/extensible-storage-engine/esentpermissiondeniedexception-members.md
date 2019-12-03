@@ -1,5 +1,5 @@
 ---
-title: EsentPermissionDeniedException members (Microsoft.Isam.Esent.Interop)
+title: EsentPermissionDeniedException members
 TOCTitle: EsentPermissionDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpermissiondeniedexception_members(v=EXCHG.10)

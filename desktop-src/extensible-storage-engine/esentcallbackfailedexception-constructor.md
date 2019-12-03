@@ -1,11 +1,11 @@
 ---
-title: EsentCallbackFailedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentCallbackFailedException constructor 
 TOCTitle: 'EsentCallbackFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbackfailedexception.esentcallbackfailedexception(v=EXCHG.10)
 ms:contentKeyID: 55101165
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCallbackFailedException.EsentCallbackFailedException
 dev_langs:

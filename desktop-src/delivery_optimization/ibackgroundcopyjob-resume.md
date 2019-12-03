@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob Resume method
+title: IBackgroundCopyJob Resume method (Deliveryoptimization.h)
 description: Activates a new job or restarts a job that has been suspended.
 ms.assetid: B745BDA6-36B9-41FD-9737-61D14150A9E4
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNID methods (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID methods
 TOCTitle: JET_COLUMNID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_COLUMNID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid_methods(v=EXCHG.10)

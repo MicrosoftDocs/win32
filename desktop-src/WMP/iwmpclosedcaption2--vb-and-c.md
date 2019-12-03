@@ -1,5 +1,5 @@
 ---
-title: IWMPClosedCaption2 (VB and C ) interface
+title: IWMPClosedCaption2 (VB and C ) interface (Wmp.h)
 description: Provides properties and methods for closed captioning that supplement the IWMPClosedCaption interface.In addition to the properties inherited from IWMPClosedCaption, the IWMPClosedCaption2 interface exposes the following properties.
 ms.assetid: e34ea819-dc1a-48f3-9e55-cf2217379ddb
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

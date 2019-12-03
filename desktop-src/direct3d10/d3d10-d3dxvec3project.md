@@ -1,8 +1,8 @@
 ---
 Description: Projects a 3D vector from object space into screen space.
 ms.assetid: 6fc59788-c3f7-4f47-a345-9108105e820e
-title: D3DXVec3Project function
-ms.topic: article
+title: D3DXVec3Project function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

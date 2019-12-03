@@ -1,7 +1,7 @@
 ---
 Description: Extends the IShellDispatch4 object.
-title: IShellDispatch5 object
-ms.topic: interface
+title: IShellDispatch5 object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

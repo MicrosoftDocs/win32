@@ -1,5 +1,5 @@
 ---
-title: EM_POSFROMCHAR message
+title: EM_POSFROMCHAR message (Winuser.h)
 description: Retrieves the client area coordinates of a specified character in an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: a32532fa-976f-4c19-ac6e-29e5614fc410
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

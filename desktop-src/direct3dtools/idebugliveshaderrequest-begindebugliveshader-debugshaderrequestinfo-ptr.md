@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IDebugLiveShaderRequest::BeginDebugLiveShader method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 805B2B68-C251-4192-85A3-F857B3F204C7
 api_name: 

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionVisual SetOffsetX methods
+title: IDCompositionVisual SetOffsetX methods (Dcomp.h)
 description: Changes or animates the value of the OffsetX property of this visual, altering the horizontal position of the visual relative to its parent.
 ms.assetid: 0EFCDE12-3BF1-4D1F-8E28-54F3D7EEFFC1
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionVisual::SetOffsetX methods

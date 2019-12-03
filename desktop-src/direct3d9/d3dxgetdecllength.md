@@ -1,8 +1,8 @@
 ---
 Description: Returns the number of elements in the vertex declaration.
 ms.assetid: 3ce24e59-0ec3-4d53-8bc8-8a5a7cdf53b2
-title: D3DXGetDeclLength function
-ms.topic: article
+title: D3DXGetDeclLength function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

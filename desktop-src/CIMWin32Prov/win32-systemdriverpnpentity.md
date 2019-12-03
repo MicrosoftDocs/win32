@@ -3,7 +3,7 @@ Description: The Win32\_SystemDriverPNPEntity association WMI class relates a Pl
 ms.assetid: 2696c8e5-3bc3-42e3-807b-a387607c7c09
 ms.tgt_platform: multiple
 title: Win32_SystemDriverPNPEntity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

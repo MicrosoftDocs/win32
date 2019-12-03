@@ -1,5 +1,5 @@
 ---
-title: INapSoHProcessor FindNextAttribute method
+title: INapSoHProcessor FindNextAttribute method (NapProtocol.h)
 description: Finds the location (index) of the next attribute of the type indicated by SoHAttributeType.
 ms.assetid: 0ff94a32-ece8-4a89-9ee9-93c5e14dfb6c
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The source file has changed. The application should rebuild the filter graph.
 ms.assetid: f99df68f-d7e8-4dbf-b958-84fe3f0821f0
-title: EC_PLEASE_REOPEN
-ms.topic: article
+title: EC_PLEASE_REOPEN (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

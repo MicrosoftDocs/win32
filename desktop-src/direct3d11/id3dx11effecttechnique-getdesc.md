@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectTechnique GetDesc method
+title: ID3DX11EffectTechnique GetDesc method (D3dx11effect.h)
 description: Get a technique description.
 ms.assetid: ed82d873-0540-4aa8-ac0f-198852b886ad
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Date and Time Picker Control Styles
+title: Date and Time Picker Control Styles (CommCtrl.h)
 description: The window styles listed here are specific to date and time picker controls.
 ms.assetid: d3b95521-75ef-4cca-b801-94c6f749aa47
 topic_type:
@@ -17,7 +17,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

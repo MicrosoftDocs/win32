@@ -3,7 +3,7 @@ Description: Is an abstract base class that is used in the registration of a per
 ms.assetid: c1dc9a91-76f9-4527-ad69-0323a9aef28a
 ms.tgt_platform: multiple
 title: '__EventConsumer class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

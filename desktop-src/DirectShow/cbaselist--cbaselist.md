@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: bfc7a979-fbce-4680-a4b6-3273b9d1a9c2
-title: CBaseList.~CBaseList destructor
-ms.topic: article
+title: CBaseList.~CBaseList destructor (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

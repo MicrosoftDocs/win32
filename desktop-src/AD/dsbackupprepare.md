@@ -1,5 +1,5 @@
 ---
-title: DsBackupPrepare function
+title: DsBackupPrepare function (Ntdsbcli.h)
 description: Prepares the directory on the specified server for the online backup and returns a backup context handle used in subsequent calls to other backup functions.
 ms.assetid: 18c6dbcf-b707-4674-9af5-40f2178e6d2b
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

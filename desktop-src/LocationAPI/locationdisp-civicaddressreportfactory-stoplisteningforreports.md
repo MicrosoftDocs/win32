@@ -1,8 +1,8 @@
 ---
 Description: Stops civic address report events.
 ms.assetid: 6efe26bc-842d-49fc-aec2-e0dfa7f1eb0a
-title: LocationDisp.CivicAddressReportFactory.StopListeningForReports method
-ms.topic: article
+title: LocationDisp.CivicAddressReportFactory.StopListeningForReports method (Locationapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

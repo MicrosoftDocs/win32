@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IServerConnectionCallback::ConnectToEngine method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 56D67449-EA8B-4AD0-94D7-B3CDB7F0ABC8
 api_name: 

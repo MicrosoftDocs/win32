@@ -2,7 +2,7 @@
 Description: The Mobile Broadband API is used to implement connectivity to cellular networks. Applications should not communicate with such mobile broadband devices directly. Instead, they must use the Mobile Broadband API.
 ms.assetid: 94015595-99a0-4b9b-b6b7-7bf81d88a4e8
 title: Mobile Broadband
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -29,10 +29,3 @@ Mobile Broadband support begins with Windows 7.
 -   [Mobile Broadband API Best Practices](mobile-broadband-best-practices.md)
 -   [Mobile Broadband API Reference](mobile-broadband-networks-api-reference.md)
 -   [Mobile Broadband Profile Schema Reference](schema-schema.md)
-
- 
-
- 
-
-
-

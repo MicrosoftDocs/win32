@@ -1,11 +1,11 @@
 ---
-title: EsentDirtyShutdownException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDirtyShutdownException constructor 
 TOCTitle: 'EsentDirtyShutdownException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDirtyShutdownException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdirtyshutdownexception.esentdirtyshutdownexception(v=EXCHG.10)
 ms:contentKeyID: 55101509
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDirtyShutdownException.EsentDirtyShutdownException
 dev_langs:

@@ -2,7 +2,7 @@
 Description: Retrieves the number of objects in the Recipients collection.
 ms.assetid: 451ec6af-84d8-4664-9f79-bf017a78071e
 title: Recipients.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

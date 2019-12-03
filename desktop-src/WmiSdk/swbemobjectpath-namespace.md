@@ -2,8 +2,8 @@
 Description: The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.
 ms.assetid: be88670d-6f0d-4b9d-886f-3e70bf4758ed
 ms.tgt_platform: multiple
-title: SWbemObjectPath.Namespace property
-ms.topic: article
+title: SWbemObjectPath.Namespace property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

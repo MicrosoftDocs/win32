@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInUseException properties
 TOCTitle: EsentDatabaseInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinuseexception_properties(v=EXCHG.10)

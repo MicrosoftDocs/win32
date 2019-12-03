@@ -1,8 +1,8 @@
 ---
 Description: Posts an I/O completion packet to an I/O completion port.
 ms.assetid: 69a9b1e5-2d40-42de-a14a-f7b6f29bf571
-title: PostQueuedCompletionStatus function
-ms.topic: article
+title: PostQueuedCompletionStatus function (IoAPI.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

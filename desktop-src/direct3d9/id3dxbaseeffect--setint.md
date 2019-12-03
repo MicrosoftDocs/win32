@@ -1,8 +1,8 @@
 ---
 Description: Sets an integer.
 ms.assetid: 1090d4a6-b4f5-4e15-a49f-e2724f1c3f95
-title: ID3DXBaseEffect::SetInt method
-ms.topic: article
+title: ID3DXBaseEffect::SetInt method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

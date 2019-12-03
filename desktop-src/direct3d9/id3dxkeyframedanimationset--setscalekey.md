@@ -1,8 +1,8 @@
 ---
 Description: Set scale information for a specific key frame in the animation set.
 ms.assetid: b606e5d3-11c9-4997-ad3c-d3ae21c32e10
-title: ID3DXKeyframedAnimationSet::SetScaleKey method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::SetScaleKey method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

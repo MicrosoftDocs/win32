@@ -1,8 +1,8 @@
 ---
 Description: Number of pins on the filter.
 ms.assetid: dcd3a240-beff-4481-8768-a0c0f69f0bfd
-title: CSource::m_iPins member
-ms.topic: article
+title: CSource::m_iPins member (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

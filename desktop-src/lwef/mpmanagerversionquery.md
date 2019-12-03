@@ -1,5 +1,5 @@
 ---
-title: MpManagerVersionQuery function
+title: MpManagerVersionQuery function (MpClient.h)
 description: Returns version information about various components of the malware protection manager.
 ms.assetid: 47DE12BF-D7A4-468B-B0E7-79B5C27E56F5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

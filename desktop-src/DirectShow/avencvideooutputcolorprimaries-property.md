@@ -1,8 +1,8 @@
 ---
 Description: Specifies the color primaries for the encoded video.
 ms.assetid: f0369dee-12e4-4403-a0c4-6d840ad2552e
-title: AVEncVideoOutputColorPrimaries property
-ms.topic: article
+title: AVEncVideoOutputColorPrimaries property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

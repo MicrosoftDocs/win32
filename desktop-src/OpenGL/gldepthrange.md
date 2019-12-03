@@ -1,5 +1,5 @@
 ---
-title: glDepthRange function
+title: glDepthRange function (Gl.h)
 description: The glDepthRange function specifies the mapping of z values from normalized device coordinates to window coordinates.
 ms.assetid: 44aed5e5-4bd2-4e7f-ad05-1cf4be5254a5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

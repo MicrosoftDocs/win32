@@ -1,11 +1,11 @@
 ---
-title: JET_DBINFOMISC.logtimeGenMaxCreate property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.logtimeGenMaxCreate property 
 TOCTitle: 'logtimeGenMaxCreate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeGenMaxCreate
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.logtimegenmaxcreate(v=EXCHG.10)
 ms:contentKeyID: 39510493
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeGenMaxCreate
 dev_langs:

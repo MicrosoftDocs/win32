@@ -1,5 +1,5 @@
 ---
-title: EsentBadSLVSignatureException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadSLVSignatureException methods
 TOCTitle: EsentBadSLVSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadslvsignatureexception_methods(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: The Invoke method provides access to methods and properties exposed by an object.
 ms.assetid: d9539b89-b7c2-4b4d-b6d6-6275cc6d7e7c
-title: CDeferredCommand.Invoke method
-ms.topic: article
+title: CDeferredCommand.Invoke method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

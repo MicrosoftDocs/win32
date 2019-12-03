@@ -2,8 +2,8 @@
 Description: Gets or sets the Coordinated Universal Times (UTC) representation of the datetime value.
 ms.assetid: 43d9d0c8-5521-410f-825b-6b00c3dd0039
 ms.tgt_platform: multiple
-title: SWbemDateTime.UTC property
-ms.topic: article
+title: SWbemDateTime.UTC property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

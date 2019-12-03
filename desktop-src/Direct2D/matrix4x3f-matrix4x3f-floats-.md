@@ -1,5 +1,5 @@
 ---
-title: Matrix4x3F Matrix4x3F(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor
+title: Matrix4x3F Matrix4x3F(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor (D2d1\_helper.h)
 description: Instantiates a new instance of a Matrix4x3F class that is initialized with all of the floating point matrix values.
 ms.assetid: 1B4359BD-9B92-4C9F-9FED-49246D45F0E3
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - D2d1.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

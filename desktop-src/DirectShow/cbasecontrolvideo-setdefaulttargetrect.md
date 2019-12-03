@@ -1,8 +1,8 @@
 ---
 Description: The SetDefaultTargetRect method sets the default target video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle is reset.
 ms.assetid: bb7e32b2-f02c-465f-a8cb-6172d9724790
-title: CBaseControlVideo.SetDefaultTargetRect method
-ms.topic: article
+title: CBaseControlVideo.SetDefaultTargetRect method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

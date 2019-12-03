@@ -1,5 +1,5 @@
 ---
-title: Load3(uint, uint) function
+title: ByteAddressBuffer::Load3(uint, uint) function
 description: Gets three values and the status of the operation.
 ms.assetid: 6AD8E957-F646-4749-A9B4-5C0C936D90E3
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load3
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

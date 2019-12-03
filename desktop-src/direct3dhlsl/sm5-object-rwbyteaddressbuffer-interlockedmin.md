@@ -1,5 +1,5 @@
 ---
-title: InterlockedMin function
+title: RWByteAddressBuffer::InterlockedMin function
 description: Finds the minimum value, atomically.
 ms.assetid: bf650b2e-9c6c-4458-9565-1e9ec76a1472
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - InterlockedMin
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

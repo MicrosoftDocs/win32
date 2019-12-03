@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo OSVersionString property
+title: IVMHostInfo OSVersionString property (VPCCOMInterfaces.h)
 description: Retrieves the operating system version running on the host machine.
 ms.assetid: ac3a162a-d3e6-420d-ac26-d77f1c9646a6
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

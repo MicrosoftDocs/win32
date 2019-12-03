@@ -1,5 +1,5 @@
 ---
-title: IDWriteFontSet GetPropertyValues methods
+title: IDWriteFontSet GetPropertyValues methods (Dwrite\_3.h)
 description: Returns property values for the font set.
 ms.assetid: 3c3fd5b7-88dd-d434-0b62-f365b407c379
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDWriteFontSet::GetPropertyValues methods

@@ -1,5 +1,5 @@
 ---
-title: TCM_GETITEM message
+title: TCM_GETITEM message (Commctrl.h)
 description: Retrieves information about a tab in a tab control. You can send this message explicitly or by using the TabCtrl\_GetItem macro.
 ms.assetid: 41774f14-c4e9-4c98-bc25-3522b2125ed5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

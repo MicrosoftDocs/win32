@@ -1,5 +1,5 @@
 ---
-title: WINBIO_EXTENDED_STORAGE_INFO structure
+title: WINBIO_EXTENDED_STORAGE_INFO structure (Winbio\_types.h)
 description: Contains information about the capabilities and enrollment requirements of the storage adapter for a biometric unit.
 ms.assetid: 7A648610-E947-4967-A9AF-C8A9C0B81D92
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

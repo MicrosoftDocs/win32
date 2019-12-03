@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidLoggedOperationException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLoggedOperationException class
 TOCTitle: EsentInvalidLoggedOperationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidloggedoperationexception(v=EXCHG.10)
 ms:contentKeyID: 55101979
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException
 dev_langs:

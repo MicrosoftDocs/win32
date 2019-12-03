@@ -1,12 +1,12 @@
 ---
+title: Enumerating devices (WPD)
 Description: Enumerating Devices
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
-title: Enumerating Devices
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerating Devices
+# Enumerating devices (WPD)
 
 The first task completed by most applications is the enumeration of the devices connected to the computer. This task, and the retrieval of device information (such as manufacturer, friendly name, and description), is supported by the [**IPortableDeviceManager**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager) interface.
 

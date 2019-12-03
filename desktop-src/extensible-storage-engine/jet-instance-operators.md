@@ -1,5 +1,5 @@
 ﻿---
-title: JET_INSTANCE operators (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE operators
 TOCTitle: JET_INSTANCE operators
 ms:assetid: 45e2b5a4-498a-9de3-014f-2c3104658669
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh564749(v=EXCHG.10)

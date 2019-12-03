@@ -1,11 +1,11 @@
 ---
-title: EsentErrorException.Error property  (Microsoft.Isam.Esent.Interop)
+title: EsentErrorException.Error property 
 TOCTitle: 'Error property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentErrorException.Error
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenterrorexception.error(v=EXCHG.10)
 ms:contentKeyID: 55101646
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentErrorException.Error
 dev_langs:

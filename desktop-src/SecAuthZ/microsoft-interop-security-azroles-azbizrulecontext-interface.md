@@ -2,7 +2,7 @@
 Description: Links to documentation for the IAzBizRuleContext interoperability wrapper methods and properties.
 ms.assetid: d4fa67c9-fe4a-4adb-bd3a-a3f33ba5f087
 title: Microsoft.Interop.Security.AzRoles.IAzBizRuleContext interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

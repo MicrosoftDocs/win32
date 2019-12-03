@@ -26,7 +26,7 @@
         href: implementing-firewall-filters-for-teredo.md
       - name: "Required Firewall Exceptions for Teredo"
         href: required-firewall-exceptions-for-teredo.md
-      - name: "Required Windows Filtering Platform Exceptions for Teredo"
+      - name: "Windows Filtering Platform exceptions for Teredo"
         href: required-windows-filtering-platform-exceptions-for-teredo.md
     - name: "Receiving Solicited Traffic Over Teredo"
       href: receiving-solicited-traffic-over-teredo.md

@@ -1,5 +1,5 @@
 ---
-title: ID2D1Device CreatePrintControl methods
+title: ID2D1Device CreatePrintControl methods (D2d1\_1.h)
 description: Creates an ID2D1PrintControl object that converts Direct2D primitives stored in ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 ms.assetid: C8860AEE-807A-435E-9F44-B50545320EDA
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Device::CreatePrintControl methods

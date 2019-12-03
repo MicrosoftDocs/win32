@@ -1,5 +1,5 @@
 ---
-title: INapServerManagement RegisterSystemHealthValidator method
+title: INapServerManagement RegisterSystemHealthValidator method (NapServerManagement.h)
 description: Registers an SHV.
 ms.assetid: 23f147d5-3c4e-48ca-940a-c4350ad6ecb3
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

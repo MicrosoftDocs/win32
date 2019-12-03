@@ -1,8 +1,8 @@
 ---
 Description: The StartAt method informs the pin when to start delivering data. This method implements the IAMStreamControl::StartAt method.
 ms.assetid: fd2943e8-8d35-4122-a99e-96d12459b335
-title: CBaseStreamControl.StartAt method
-ms.topic: article
+title: CBaseStreamControl.StartAt method (Strmctl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

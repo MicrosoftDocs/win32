@@ -1,8 +1,8 @@
 ---
 Description: The CreateMediaType function allocates a new AM\_MEDIA\_TYPE structure, including the format block.
 ms.assetid: 841a8c51-6027-49d6-b3d8-b5e21e3d5f13
-title: CreateMediaType function
-ms.topic: article
+title: CreateMediaType function (Mtype.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

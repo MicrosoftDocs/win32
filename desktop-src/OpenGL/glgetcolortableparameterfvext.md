@@ -1,5 +1,5 @@
 ---
-title: glGetColorTableParameterfvEXT function
+title: glGetColorTableParameterfvEXT function (Gl.h)
 description: The glGetColorTableParameterfvEXT and glGetColorTableParameterivEXT functions get palette parameters from color tables.
 ms.assetid: e78051aa-4233-413c-8838-0741b54eab0e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

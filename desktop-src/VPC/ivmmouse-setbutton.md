@@ -1,5 +1,5 @@
 ---
-title: IVMMouse SetButton method
+title: IVMMouse SetButton method (VPCCOMInterfaces.h)
 description: Sets the current state (up or down) of the specified mouse button.
 ms.assetid: 52b24472-68d6-4a42-8ae5-b1434a6d67f3
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

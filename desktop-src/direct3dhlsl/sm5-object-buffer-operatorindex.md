@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: Buffer::Operator  function
 description: Returns a read-only resource variable.
 ms.assetid: 6a9e1176-439b-4565-9c7e-957d7c4045f0
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

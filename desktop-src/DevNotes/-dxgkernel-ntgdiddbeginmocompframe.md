@@ -1,8 +1,8 @@
 ---
 Description: Starts decoding a new frame.
 ms.assetid: da2c231d-89a9-4fd9-99b5-f7c1309c26e0
-title: NtGdiDdBeginMoCompFrame function
-ms.topic: article
+title: NtGdiDdBeginMoCompFrame function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

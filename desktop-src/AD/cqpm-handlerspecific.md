@@ -1,5 +1,5 @@
 ---
-title: CQPM_HANDLERSPECIFIC message
+title: CQPM_HANDLERSPECIFIC message (Cmnquery.h)
 description: Base value used for messages that are private to the query handler.
 ms.assetid: c3badb89-ee4e-4317-97aa-15187b9bb3e8
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

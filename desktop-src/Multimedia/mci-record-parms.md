@@ -1,5 +1,5 @@
 ---
-title: MCI_RECORD_PARMS structure
+title: MCI_RECORD_PARMS structure (Mciapi.h)
 description: The MCI\_RECORD\_PARMS structure contains positioning information for the MCI\_RECORD command.
 ms.assetid: 5d502cf8-3963-49d6-b515-d26e19195322
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

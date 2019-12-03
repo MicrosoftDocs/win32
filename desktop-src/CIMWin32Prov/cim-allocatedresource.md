@@ -3,7 +3,7 @@ Description: The CIM\_AllocatedResource class represents an association between 
 ms.assetid: e1702635-32f5-4280-8c02-3940fd858106
 ms.tgt_platform: multiple
 title: CIM_AllocatedResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

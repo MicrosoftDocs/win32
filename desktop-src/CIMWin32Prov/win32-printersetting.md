@@ -3,7 +3,7 @@ Description: The Win32\_PrinterSetting association WMI class relates a printer a
 ms.assetid: 5d0f0724-0583-449b-a6da-336e7c8e526e
 ms.tgt_platform: multiple
 title: Win32_PrinterSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

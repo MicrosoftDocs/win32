@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_USBHub class requests a reset of the l
 ms.assetid: ce23ac02-6f13-4b9e-bf73-51f61ced7efe
 ms.tgt_platform: multiple
 title: Reset method of the CIM_USBHub class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

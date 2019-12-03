@@ -1,5 +1,5 @@
 ---
-title: RasAdminGetUserAccountServer function
+title: RasAdminGetUserAccountServer function (Rassapi.h)
 description: The RasAdminGetUserAccountServer function retrieves the name of the server that has the user account database. Use the returned server name in the RasAdminUserGetInfo and RasAdminUserSetInfo functions to get or set information about a specified user.
 ms.assetid: db91aa48-32af-49ac-87ed-8c484926ca15
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

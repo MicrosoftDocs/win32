@@ -1,8 +1,8 @@
 ---
 Description: Represents a CRT desktop monitor.
 ms.assetid: 26a06320-9fd9-434e-87c8-486e9ca4945c
-title: CIM_DesktopMonitor class
-ms.topic: article
+title: CIM_DesktopMonitor class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

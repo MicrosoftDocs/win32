@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd AdviseSoftKeyboardEventSink method
+title: ISoftKbd AdviseSoftKeyboardEventSink method (Softkbdc.h)
 description: The ISoftKbd AdviseSoftKeyboardEventSink method installs a soft keyboard event sink to handle OnKeySelection notifications from the soft keyboard.
 ms.assetid: f7a441dc-7bef-4fc0-bc62-c153a55a844c
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

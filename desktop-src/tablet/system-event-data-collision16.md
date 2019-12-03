@@ -2,7 +2,7 @@
 Description: Contains information about a tablet system event.
 ms.assetid: 725f4b43-0bcb-4452-a87f-b24a85de0049
 title: SYSTEM_EVENT_DATA structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

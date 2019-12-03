@@ -1,5 +1,5 @@
 ---
-title: Core Structures
+title: Direct3D 11 core structures
 description: This section contains information about the core structures.
 ms.assetid: 2a45182a-7114-4075-b8b8-147f52fe7aa9
 keywords:
@@ -8,15 +8,11 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Structures
+# Direct3D 11 core structures
 
 This section contains information about the core structures.
 
-## 
-
 ## In this section
-
-
 
 <table>
 <colgroup>

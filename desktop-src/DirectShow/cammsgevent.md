@@ -1,8 +1,8 @@
 ---
 Description: The CAMMsgEvent class is a wrapper for event objects that perform message processing.
 ms.assetid: 4b94febe-169f-4f04-be93-043a8c75e3b4
-title: CAMMsgEvent class
-ms.topic: interface
+title: CAMMsgEvent class (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The SetBufferSamples method specifies whether to copy sample data into a buffer as it goes through the filter.
 ms.assetid: 1ef4508e-441f-45e0-afb4-239dd947284b
-title: ISampleGrabber::SetBufferSamples method
-ms.topic: article
+title: ISampleGrabber::SetBufferSamples method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IMAPIv1 Result Codes
+title: IMAPIv1 Result Codes (Imapierror.h)
 description: The methods of the IMAPI interfaces return S\_OK if the method was successful. Otherwise, they return one of the following result codes.
 ms.assetid: 0143ad10-9b65-4621-9bed-71dadd38c3fc
 topic_type:
@@ -46,7 +46,7 @@ api_location:
 - Imapierror.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

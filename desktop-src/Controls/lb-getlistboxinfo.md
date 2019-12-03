@@ -1,5 +1,5 @@
 ---
-title: LB_GETLISTBOXINFO message
+title: LB_GETLISTBOXINFO message (Winuser.h)
 description: Gets the number of items per column in a specified list box.
 ms.assetid: 925bebd9-2563-4892-a7d7-73d4ef012b42
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

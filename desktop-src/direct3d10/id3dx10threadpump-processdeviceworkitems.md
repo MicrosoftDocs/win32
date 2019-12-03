@@ -1,8 +1,8 @@
 ---
 Description: Set work items to the device after they have finished loading and processing.
 ms.assetid: 67a9fcb2-3513-413d-ac3d-9988ef7b5a1f
-title: ID3DX10ThreadPump::ProcessDeviceWorkItems method
-ms.topic: article
+title: ID3DX10ThreadPump::ProcessDeviceWorkItems method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

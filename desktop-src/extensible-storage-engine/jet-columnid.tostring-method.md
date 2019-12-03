@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNID.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.tostring(v=EXCHG.10)
 ms:contentKeyID: 39516404
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

@@ -1,5 +1,5 @@
 ---
-title: LBN_ERRSPACE notification code
+title: LBN_ERRSPACE notification code (Winuser.h)
 description: Notifies the application that the list box cannot allocate enough memory to meet a specific request. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: ff716ad0-cbd8-4ac3-bcaf-d5be81355eaa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

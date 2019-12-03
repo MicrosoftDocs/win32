@@ -1,5 +1,5 @@
 ---
-title: EsentTableNotEmptyException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTableNotEmptyException properties
 TOCTitle: EsentTableNotEmptyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttablenotemptyexception_properties(v=EXCHG.10)

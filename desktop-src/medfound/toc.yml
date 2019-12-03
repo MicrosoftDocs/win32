@@ -1089,6 +1089,11 @@
             href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetstreamhdrmetadata
           - name: "VideoProcessorSetStreamHDRMetaData method"
             href: https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetstreamhdrmetadata
+        - name: "ID3D11VideoContext3"
+          href: /windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext3
+          items:
+          - name: "ID3D11VideoContext3::DecoderBeginFrame1"
+            href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext3-decoderbeginframe1
         - name: "ID3D11VideoDecoder"
           href: /windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder
           items: 
@@ -1149,6 +1154,11 @@
             href: /windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-getvideodecodercaps
           - name: "RecommendVideoDecoderDownsampleParameters method"
             href: /windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-recommendvideodecoderdownsampleparameters
+        - name: "ID3D11VideoDevice2"
+          href: /windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videodevice2
+          items:
+          - name: "ID3D11VideoDevice2::CheckFeatureSupport"
+            href: /windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videodevice2-checkfeaturesupport
         - name: "ID3D11VideoProcessor"
           href: /windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor
           items: 
@@ -1199,12 +1209,18 @@
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps
         - name: "D3D11_CRYPTO_SESSION_STATUS"
           href: /windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status
+        - name: "D3D11_FEATURE_VIDEO"
+          href: /windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_feature_video
         - name: "D3D11_VDOV_DIMENSION"
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_vdov_dimension
         - name: "D3D11_VIDEO_DECODER_BUFFER_TYPE"
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_video_decoder_buffer_type
         - name: "D3D11_VIDEO_DECODER_CAPS"
           href: /windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps
+        - name: "D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT"
+          href: /windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component
+        - name: "D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS"
+          href: /windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component_flags
         - name: "D3D11_VIDEO_FRAME_FORMAT"
           href: /windows/desktop/api/d3d11/ne-d3d11-d3d11_video_frame_format
         - name: "D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE"
@@ -1316,6 +1332,10 @@
           href: /windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data
         - name: "D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA"
           href: /windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data
+        - name: "D3D11_FEATURE_DATA_D3D11_OPTIONS4 (d3d11_4.h)"
+          href: /windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4
+        - name: "D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM"
+          href: /windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_video_decoder_histogram
         - name: "D3D11_OMAC"
           href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_omac
         - name: "D3D11_TEX2D_ARRAY_VPOV"
@@ -1374,6 +1394,274 @@
           href: /windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_sample_desc
       - name: "Direct3D 11 Video GUIDs"
         href: direct3d-11-video-guids.md
+    - name: "Direct3D 12 Video APIs"
+      href: direct3d-12-video-apis.md
+      items:
+      - name: "Direct3D 12 Video Overview"
+        href: direct3d-12-video-overview.md
+      - name: "Direct3D Video Decode Histograms"
+        href: direct3d-video-decode-histograms.md
+      - name: "Migrating to Direct3D 12 video"
+        href: direct3d-12-video-migration.md
+      - name: "Direct3D 12 Video Enumerations"
+        href: direct3d-12-video-enumerations.md
+        items:
+          - name: "D3D12_BITSTREAM_ENCRYPTION_TYPE"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_bitstream_encryption_type
+          - name: "D3D12_FEATURE_VIDEO"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_feature_video
+          - name: "D3D12_VIDEO_DECODE_ARGUMENT_TYPE"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_argument_type
+          - name: "D3D12_VIDEO_DECODE_CONFIGURATION_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_configuration_flags
+          - name: "D3D12_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_conversion_support_flags
+          - name: "D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component
+          - name: "D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_histogram_component_flags
+          - name: "D3D12_VIDEO_DECODE_STATUS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_status
+          - name: "D3D12_VIDEO_DECODE_SUPPORT_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_support_flags
+          - name: "D3D12_VIDEO_DECODE_TIER"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_decode_tier
+          - name: "D3D12_VIDEO_FIELD_TYPE"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_field_type
+          - name: "D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_coded_interlace_type
+          - name: "D3D12_VIDEO_FRAME_STEREO_FORMAT"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format
+          - name: "D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_alpha_fill_mode
+          - name: "D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_auto_processing_flags
+          - name: "D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_deinterlace_flags
+          - name: "D3D12_VIDEO_PROCESS_FEATURE_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_feature_flags
+          - name: "D3D12_VIDEO_PROCESS_FILTER_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_filter_flags
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_input_stream_flags
+          - name: "D3D12_VIDEO_PROCESS_ORIENTATION"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_orientation
+          - name: "D3D12_VIDEO_PROCESS_SUPPORT_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_support_flags
+          - name: "D3D12_VIDEO_SCALE_SUPPORT_FLAGS"
+            href: /windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_scale_support_flags
+      - name: "Direct3D 12 Video Interfaces"
+        href: direct3d-12-video-interfaces.md
+        items:
+          - name: "ID3D12VideoDecodeCommandList"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecodecommandlist
+            items:
+              - name: "ID3D12VideoDecodeCommandList::BeginEvent"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-beginevent
+              - name: "ID3D12VideoDecodeCommandList::BeginQuery"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-beginquery
+              - name: "ID3D12VideoDecodeCommandList::ClearState"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-clearstate
+              - name: "ID3D12VideoDecodeCommandList::Close"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-close
+              - name: "ID3D12VideoDecodeCommandList::DecodeFrame"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-decodeframe
+              - name: "ID3D12VideoDecodeCommandList::DiscardResource"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-discardresource
+              - name: "ID3D12VideoDecodeCommandList::EndEvent"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-endevent
+              - name: "ID3D12VideoDecodeCommandList::EndQuery"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-endquery
+              - name: "ID3D12VideoDecodeCommandList::Reset"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-reset
+              - name: "ID3D12VideoDecodeCommandList::ResolveQueryData"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-resolvequerydata
+              - name: "ID3D12VideoDecodeCommandList::ResourceBarrier"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-resourcebarrier
+              - name: "ID3D12VideoDecodeCommandList::SetMarker"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-setmarker
+              - name: "ID3D12VideoDecodeCommandList::SetPredication"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist-setpredication
+              - name: "ID3D12VideoDecodeCommandList::WriteBufferImmediate"
+          - name: "ID3D12VideoDecodeCommandList1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecodecommandlist1
+            items:
+              - name: "ID3D12VideoDecodeCommandList1::DecodeFrame1"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1
+          - name: "ID3D12VideoDecodeCommandList2"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecodecommandlist2
+            items:
+              - name: "ID3D12VideoDecodeCommandList2::ExecuteExtensionCommand"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1
+              - name: "ID3D12VideoDecodeCommandList2::InitializeExtensionCommand"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-initializeextensioncommand
+              - name: "ID3D12VideoDecodeCommandList2::SetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist2-setprotectedresourcesession
+          - name: "ID3D12VideoDecoder"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoder
+            items:
+              - name: "ID3D12VideoDecoder::GetDesc"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoder-getdesc  
+          - name: "ID3D12VideoDecoderHeap"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoderheap
+            items:
+              - name: "ID3D12VideoDecoderHeap::GetDesc"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoderheap-getdesc
+          - name: "ID3D12VideoDecoderHeap1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodecoderheap1
+            items:
+              - name: "ID3D12VideoDecoderHeap1::GetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodecoderheap1-getprotectedresourcesession
+          - name: "ID3D12VideoDevice"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videodevice
+            items:
+              - name: "ID3D12VideoDevice::CheckFeatureSupport"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport
+              - name: "ID3D12VideoDevice::CreateVideoDecoder"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoder
+              - name: "ID3D12VideoDevice::CreateVideoDecoderHeap"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideodecoderheap
+              - name: "ID3D12VideoDevice::CreateVideoProcessor"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-createvideoprocessor
+          - name: "ID3D12VideoProcessCommandList"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist
+            items:
+              - name: "ID3D12VideoProcessCommandList::BeginEvent"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-beginevent
+              - name: "ID3D12VideoProcessCommandList::BeginQuery"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-beginquery
+              - name: "ID3D12VideoProcessCommandList::ClearState"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-clearstate
+              - name: "ID3D12VideoProcessCommandList::Close"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-close
+              - name: "ID3D12VideoProcessCommandList::DiscardResource"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-discardresource
+              - name: "ID3D12VideoProcessCommandList::EndEvent"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-endevent
+              - name: "ID3D12VideoProcessCommandList::EndQuery"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-endquery
+              - name: "ID3D12VideoProcessCommandList::ProcessFrames"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-processframes
+              - name: "ID3D12VideoProcessCommandList::Reset"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-reset
+              - name: "ID3D12VideoProcessCommandList::ResolveQueryData"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-resolvequerydata
+              - name: "ID3D12VideoProcessCommandList::ResourceBarrier"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-resourcebarrier
+              - name: "ID3D12VideoProcessCommandList::SetMarker"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-setmarker
+              - name: "ID3D12VideoProcessCommandList::SetPredication"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-setpredication
+              - name: "ID3D12VideoProcessCommandList::WriteBufferImmediate"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-writebufferimmediate
+          - name: "ID3D12VideoProcessCommandList1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocesscommandlist1
+            items:
+              - name: "ID3D12VideoProcessCommandList1::ProcessFrames1"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist1-processframes1
+          - name: "ID3D12VideoProcessor"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor
+            items:
+              - name: "ID3D12VideoProcessor::GetInputStreamDescs"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getinputstreamdescs
+              - name: "ID3D12VideoProcessor::GetNodeMask"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getnodemask
+              - name: "ID3D12VideoProcessor::GetNumInputStreamDescs"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getnuminputstreamdescs
+              - name: "ID3D12VideoProcessor::GetOutputStreamDesc"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdesc
+          - name: "ID3D12VideoProcessor1"
+            href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor1
+            items:
+              - name: "ID3D12VideoProcessor1::GetProtectedResourceSession"
+                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
+      - name: "Direct3D 12 Video Structures"
+        href: direct3d-12-video-structures.md
+        items:
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_conversion_support
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_formats
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_histogram
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_profiles
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decode_support
+          - name: "D3D12_FEATURE_DATA_VIDEO_DECODER_HEAP_SIZE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_decoder_heap_size
+          - name: "D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_max_input_streams
+          - name: "D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_reference_info
+          - name: "D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_support
+          - name: "D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_processor_size
+          - name: "D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_query_data_video_decode_statistics
+          - name: "D3D12_VIDEO_DECODER_DESC"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decoder_desc
+          - name: "D3D12_VIDEO_DECODER_HEAP_DESC"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decoder_heap_desc
+          - name: "D3D12_VIDEO_DECODE_COMPRESSED_BITSTREAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_compressed_bitstream
+          - name: "D3D12_VIDEO_DECODE_CONFIGURATION"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_configuration
+          - name: "D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_conversion_arguments
+          - name: "D3D12_VIDEO_DECODE_CONVERSION_ARGUMENTS1"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_conversion_arguments1
+          - name: "D3D12_VIDEO_DECODE_FRAME_ARGUMENT"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_frame_argument
+          - name: "D3D12_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_input_stream_arguments
+          - name: "D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_histogram
+          - name: "D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments
+          - name: "D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments1
+          - name: "D3D12_VIDEO_DECODE_REFERENCE_FRAMES"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_reference_frames
+          - name: "D3D12_VIDEO_DECODE_SUB_SAMPLE_MAPPING_BLOCK"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_decode_sub_sample_mapping_block
+          - name: "D3D12_VIDEO_FORMAT"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_format
+          - name: "D3D12_VIDEO_PROCESS_ALPHA_BLENDING"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_alpha_blending
+          - name: "D3D12_VIDEO_PROCESS_FILTER_RANGE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_filter_range
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_arguments1
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_desc
+          - name: "D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream_rate
+          - name: "D3D12_VIDEO_PROCESS_LUMA_KEY"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_luma_key
+          - name: "D3D12_VIDEO_PROCESS_OUTPUT_STREAM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream
+          - name: "D3D12_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_arguments
+          - name: "D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_output_stream_desc
+          - name: "D3D12_VIDEO_PROCESS_REFERENCE_SET"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_reference_set
+          - name: "D3D12_VIDEO_PROCESS_TRANSFORM"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_transform
+          - name: "D3D12_VIDEO_SAMPLE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_sample
+          - name: "D3D12_VIDEO_SCALE_SUPPORT"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_scale_support
+          - name: "D3D12_VIDEO_SIZE_RANGE"
+            href: /windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_size_range
+      - name: "Direct3D 12 Video GUIDs"
+        href: direct3d-12-video-guids.md
     - name: "DirectX Video Acceleration 2.0"
       href: directx-video-acceleration-2-0.md
       items: 

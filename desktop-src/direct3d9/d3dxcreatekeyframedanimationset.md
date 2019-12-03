@@ -1,8 +1,8 @@
 ---
 Description: Creates a ID3DXKeyframedAnimationSet key framed animation set interface.
 ms.assetid: 7b4fffdc-696c-400c-a0cc-fc755fd25b75
-title: D3DXCreateKeyframedAnimationSet function
-ms.topic: article
+title: D3DXCreateKeyframedAnimationSet function (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

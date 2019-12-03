@@ -1,8 +1,8 @@
 ---
 Description: Notifies the callback object of the container site. This is used only when IObjectWithSite::SetSite is not supported and SHCreateShellFolderViewEx is used. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: a4aa40f8-1d98-4686-86e2-87280e470aac
-title: SFVM_SETISFV message
-ms.topic: article
+title: SFVM_SETISFV message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EventTrigger object
+title: EventTrigger object (Windows.ui.xaml.h)
 description: Scripting object that represents a trigger that starts a task when a system event occurs.
 ms.assetid: 79cb6591-0919-441f-ad7f-4eb7cf0f9591
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

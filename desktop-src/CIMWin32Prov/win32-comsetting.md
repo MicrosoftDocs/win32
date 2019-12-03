@@ -3,7 +3,7 @@ Description: The Win32\_COMSetting abstract WMI class represents the settings as
 ms.assetid: e8cdbee8-41ab-4aff-b17b-707667138411
 ms.tgt_platform: multiple
 title: Win32_COMSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

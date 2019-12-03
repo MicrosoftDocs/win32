@@ -1,8 +1,8 @@
 ---
 Description: Compile a shader file.
 ms.assetid: e944ae61-0c27-4795-8381-0ec9b3d8c3f4
-title: D3DXCompileShaderFromResource function
-ms.topic: article
+title: D3DXCompileShaderFromResource function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

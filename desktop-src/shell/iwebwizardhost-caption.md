@@ -1,7 +1,7 @@
 ---
 Description: WebWizardHost.Caption property
 title: WebWizardHost.Caption property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

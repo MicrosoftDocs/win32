@@ -1,8 +1,8 @@
 ---
 Description: Posted to the window with the focus when the user chooses a new input language, either with the hotkey (specified in the Keyboard control panel application) or from the indicator on the system taskbar.
 ms.assetid: db38c31c-6ae4-4401-82b8-7fd220c1678c
-title: WM_INPUTLANGCHANGEREQUEST message
-ms.topic: article
+title: WM_INPUTLANGCHANGEREQUEST message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

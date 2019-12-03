@@ -1,5 +1,5 @@
 ---
-title: LB_GETTEXT message
+title: LB_GETTEXT message (Winuser.h)
 description: Gets a string from a list box.
 ms.assetid: 6bf7ec3b-237b-4668-9493-40c098a32428
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

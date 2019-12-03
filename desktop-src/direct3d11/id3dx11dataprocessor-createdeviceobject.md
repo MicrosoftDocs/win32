@@ -1,5 +1,5 @@
 ---
-title: ID3DX11DataProcessor CreateDeviceObject method
+title: ID3DX11DataProcessor CreateDeviceObject method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Creates a device object.
 ms.assetid: 797d216b-2f54-4d24-aa97-04be0c71f909
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

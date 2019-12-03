@@ -1,8 +1,8 @@
 ---
 Description: Describes a rectangular high-order patch.
 ms.assetid: 5f195009-d047-4dc0-a386-e1a434914e34
-title: D3DRECTPATCH_INFO structure
-ms.topic: structure
+title: D3DRECTPATCH_INFO structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -5,7 +5,7 @@ ms:assetid: afff995f-378a-4e67-b522-d5eafcbad57e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294058(v=EXCHG.10)
 ms:contentKeyID: 32765673
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetBackupA
 - JetBackup

@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: Texture3D::Operator  function
 description: Returns a read-only resource variable.
 ms.assetid: d7e27778-6a96-47f8-a58a-1966452adf04
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -1,11 +1,11 @@
 ---
-title: ColumnStream class (Microsoft.Isam.Esent.Interop)
+title: ColumnStream class
 TOCTitle: ColumnStream class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnStream
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream(v=EXCHG.10)
 ms:contentKeyID: 55100939
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnStream
 dev_langs:

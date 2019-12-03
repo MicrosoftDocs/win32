@@ -3,7 +3,7 @@ Description: The Win32\_PageFileElementSetting association WMI class relates the
 ms.assetid: efc1f20d-166e-4e27-9767-f6ec0bbd6c14
 ms.tgt_platform: multiple
 title: Win32_PageFileElementSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

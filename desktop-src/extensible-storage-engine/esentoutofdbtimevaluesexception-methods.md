@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfDbtimeValuesException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDbtimeValuesException methods
 TOCTitle: EsentOutOfDbtimeValuesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdbtimevaluesexception_methods(v=EXCHG.10)

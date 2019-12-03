@@ -10,7 +10,7 @@ api_name:
 - Why does a decoder DMO not accept the input format that I set
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

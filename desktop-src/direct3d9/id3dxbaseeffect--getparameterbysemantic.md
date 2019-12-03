@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a top-level parameter or a structure member parameter by looking up its semantic with a case-insensitive search.
 ms.assetid: 3de3791a-fe09-4a39-bd6f-0e20a641dd32
-title: ID3DXBaseEffect::GetParameterBySemantic method
-ms.topic: article
+title: ID3DXBaseEffect::GetParameterBySemantic method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

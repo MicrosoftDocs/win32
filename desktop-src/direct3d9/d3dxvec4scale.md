@@ -1,8 +1,8 @@
 ---
 Description: Scales a 4D vector.
 ms.assetid: b185a9b9-f768-4b50-aa6c-667c71eac39a
-title: D3DXVec4Scale function
-ms.topic: article
+title: D3DXVec4Scale function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

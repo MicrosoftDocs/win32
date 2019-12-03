@@ -2,7 +2,7 @@
 Description: A logical representation of a network port on a network device.
 ms.assetid: afcfc93d-174e-43b5-a16f-28937b4bf81a
 title: CIM_NetworkPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

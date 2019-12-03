@@ -1,5 +1,5 @@
 ---
-title: TCM_HITTEST message
+title: TCM_HITTEST message (Commctrl.h)
 description: Determines which tab, if any, is at a specified screen position. You can send this message explicitly or by using the TabCtrl\_HitTest macro.
 ms.assetid: 0334f616-8d39-4460-a7f8-692a9ffab012
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

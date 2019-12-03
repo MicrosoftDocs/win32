@@ -1,8 +1,8 @@
 ---
 Description: Fills an array with rotational key data used for key frame animation.
 ms.assetid: 9ae8bc28-d231-4d50-98f0-762b2d2c04e8
-title: ID3DXKeyframedAnimationSet::GetRotationKeys method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetRotationKeys method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

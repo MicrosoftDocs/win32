@@ -1,7 +1,7 @@
 ---
 Description: MEDeviceStreamCreated is an extended media event type generated with an MEUnknown media event by the Device MFT.
 ms.assetid: 8aaa6908-0f2e-4a73-9362-69f42b74f495
-title: MEDeviceStreamCreated event
+title: MEDeviceStreamCreated event (mftransform.h)
 ms.topic: article
 ms.date: 08/31/2018
 ---

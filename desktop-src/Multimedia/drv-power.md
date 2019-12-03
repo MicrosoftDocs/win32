@@ -1,5 +1,5 @@
 ---
-title: DRV_POWER message
+title: DRV_POWER message (Mmsystem.h)
 description: Notifies the driver that power to the device is being turned on or off.
 ms.assetid: b3bbd16a-5b90-4127-a1dd-f2ddfd918f0a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

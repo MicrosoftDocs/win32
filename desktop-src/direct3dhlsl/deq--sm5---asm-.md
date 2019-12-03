@@ -2,7 +2,7 @@
 title: deq (sm5 - asm)
 description: Component-wise double-precision equality comparison.
 ms.assetid: 99806989-D3A0-43F4-832A-5F1BD9C59A11
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

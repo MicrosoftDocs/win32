@@ -1,11 +1,11 @@
 ---
-title: JET_DBID structure (Microsoft.Isam.Esent.Interop)
+title: JET_DBID structure
 TOCTitle: JET_DBID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_DBID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbid(v=EXCHG.10)
 ms:contentKeyID: 39515255
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_DBID
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: IResultProperty DisplayName property
+title: IResultProperty DisplayName property (WdsSharedIDL.h)
 description: Localized display name of the property.
 ms.assetid: 8f9e118a-9e92-4919-afe1-735c61af38f7
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

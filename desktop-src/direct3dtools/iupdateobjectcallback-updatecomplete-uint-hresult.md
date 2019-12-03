@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IUpdateObjectCallback::UpdateComplete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 7F54DDEC-E595-4615-B9B7-B1213A58B362
 api_name: 

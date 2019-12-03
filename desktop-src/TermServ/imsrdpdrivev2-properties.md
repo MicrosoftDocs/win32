@@ -3,7 +3,7 @@ title: IMsRdpDriveV2 properties
 description: The IMsRdpDriveV2 interface exposes the following properties.
 ms.assetid: F99BCFA6-AD62-43F1-8090-CAA51CE12756
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

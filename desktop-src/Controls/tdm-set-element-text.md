@@ -1,5 +1,5 @@
 ---
-title: TDM_SET_ELEMENT_TEXT message
+title: TDM_SET_ELEMENT_TEXT message (Commctrl.h)
 description: Updates a text element in a task dialog.
 ms.assetid: e3f15805-5d48-4549-9959-69ec01345e57
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

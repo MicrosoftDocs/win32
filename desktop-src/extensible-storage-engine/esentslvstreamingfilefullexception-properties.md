@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileFullException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileFullException properties
 TOCTitle: EsentSLVStreamingFileFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilefullexception_properties(v=EXCHG.10)

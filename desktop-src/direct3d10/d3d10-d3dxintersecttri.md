@@ -1,8 +1,8 @@
 ---
 Description: Computes the intersection of a ray and a triangle.
 ms.assetid: 819f2543-8046-47c9-93b8-7d888264786f
-title: D3DXIntersectTri function
-ms.topic: article
+title: D3DXIntersectTri function (D3DX10math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

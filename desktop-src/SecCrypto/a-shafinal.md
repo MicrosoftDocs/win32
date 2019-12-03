@@ -1,8 +1,8 @@
 ---
 Description: Computes the final hash of the data entered by the MD5Update function.
 ms.assetid: A0457D26-F4E3-4ED4-B374-0AFCB6F661FB
-title: A_SHAFinal function
-ms.topic: article
+title: A_SHAFinal function (Sha.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

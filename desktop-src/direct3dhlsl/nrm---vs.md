@@ -2,10 +2,10 @@
 title: nrm - vs
 description: Normalize a 3D vector.
 ms.assetid: 735e9971-c0c3-4648-8362-58bda6fac46a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

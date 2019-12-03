@@ -1,8 +1,8 @@
 ---
 Description: The ResetEndOfStream method resets the end-of-stream flags.
 ms.assetid: 80f6d49b-a825-4c3c-b693-7b1d9298f541
-title: CBaseRenderer.ResetEndOfStream method
-ms.topic: article
+title: CBaseRenderer.ResetEndOfStream method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo interface
+title: INapComponentInfo interface (NapCommon.h)
 description: Provides methods that plug-in components (such as SHAs and SHVs) must implement for the NAP system to communicate with them.
 ms.assetid: eeff4f57-72e0-465f-9a18-ed72dad82bc7
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

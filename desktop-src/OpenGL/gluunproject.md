@@ -1,5 +1,5 @@
 ---
-title: gluUnProject function
+title: gluUnProject function (Glu.h)
 description: The gluUnProject function maps window coordinates to object coordinates.
 ms.assetid: 6a719fc2-ad40-4b22-9c99-5753f5dbb8a0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

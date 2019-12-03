@@ -3,7 +3,7 @@ Description: The Mid method extracts a substring of length nCount characters fro
 audience: developer
 ms.assetid: 2036813b-f991-4ca3-95d3-8bbe858aae09
 ms.tgt_platform: multiple
-title: CHString::Mid methods
+title: CHString::Mid methods (ChString.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

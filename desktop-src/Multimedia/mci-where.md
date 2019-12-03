@@ -1,5 +1,5 @@
 ---
-title: MCI_WHERE command
+title: MCI_WHERE command (Mmsystem.h)
 description: The MCI\_WHERE command obtains the clipping rectangle for the video device.
 ms.assetid: f64a7e49-4ee1-4836-ba9a-0bbdc47626b3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

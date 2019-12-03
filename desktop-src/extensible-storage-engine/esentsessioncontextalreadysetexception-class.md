@@ -1,11 +1,11 @@
 ---
-title: EsentSessionContextAlreadySetException class (Microsoft.Isam.Esent.Interop)
+title: EsentSessionContextAlreadySetException class
 TOCTitle: EsentSessionContextAlreadySetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextalreadysetexception(v=EXCHG.10)
 ms:contentKeyID: 55102703
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException
 dev_langs:

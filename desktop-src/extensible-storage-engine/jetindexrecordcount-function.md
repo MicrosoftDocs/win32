@@ -5,7 +5,7 @@ ms:assetid: 62d39738-cd91-4cfb-9483-f4a2dd845d9a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269267(v=EXCHG.10)
 ms:contentKeyID: 32765569
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetIndexRecordCount
 topic_type: 

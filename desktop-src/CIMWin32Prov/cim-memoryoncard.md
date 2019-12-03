@@ -3,7 +3,7 @@ Description: The CIM\_MemoryOnCard class associates physical memory located on h
 ms.assetid: 0d094cad-c542-4794-b6e1-87cdc8067668
 ms.tgt_platform: multiple
 title: CIM_MemoryOnCard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

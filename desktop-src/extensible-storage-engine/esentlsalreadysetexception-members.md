@@ -1,5 +1,5 @@
 ---
-title: EsentLSAlreadySetException members (Microsoft.Isam.Esent.Interop)
+title: EsentLSAlreadySetException members
 TOCTitle: EsentLSAlreadySetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlsalreadysetexception_members(v=EXCHG.10)

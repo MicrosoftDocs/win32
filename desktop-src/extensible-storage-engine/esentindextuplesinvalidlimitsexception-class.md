@@ -1,11 +1,11 @@
 ---
-title: EsentIndexTuplesInvalidLimitsException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesInvalidLimitsException class
 TOCTitle: EsentIndexTuplesInvalidLimitsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplesinvalidlimitsexception(v=EXCHG.10)
 ms:contentKeyID: 55101849
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInUseException properties
 TOCTitle: EsentIndexInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinuseexception_properties(v=EXCHG.10)

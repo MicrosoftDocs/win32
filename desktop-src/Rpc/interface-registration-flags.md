@@ -1,5 +1,5 @@
 ---
-title: Interface Registration Flags
+title: Interface Registration Flags (Rpcdce.h)
 description: The following constants are used in the Flags parameter of the RpcServerRegisterIf2 and RpcServerRegisterIfEx functions.
 ms.assetid: 387311c0-13df-4497-a0ac-ce6aec0e726c
 topic_type:
@@ -16,7 +16,7 @@ api_location:
 - Rpcdce.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

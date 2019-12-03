@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIR_HEADER structure
+title: WINBIO_BIR_HEADER structure (Winbio\_types.h)
 description: Contains the header of a biometric information record (BIR).
 ms.assetid: 4b020720-42ef-4ac7-aaa3-7a0e45198890
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

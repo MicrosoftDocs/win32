@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_PAL_OPEN message
+title: WM_CAP_PAL_OPEN message (Vfw.h)
 description: The WM\_CAP\_PAL\_OPEN message loads a new palette from a palette file and passes it to a capture driver.
 ms.assetid: e77b518e-ff03-4622-978f-d9ebaa49c6a4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

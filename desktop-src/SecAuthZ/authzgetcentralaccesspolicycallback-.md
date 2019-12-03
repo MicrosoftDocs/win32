@@ -2,7 +2,7 @@
 Description: The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.
 ms.assetid: 1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0
 title: AuthzGetCentralAccessPolicyCallback callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

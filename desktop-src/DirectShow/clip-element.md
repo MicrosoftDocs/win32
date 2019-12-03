@@ -2,7 +2,7 @@
 Description: The clip epecifies a media source.
 ms.assetid: 40323e64-ad5f-4646-bad7-2a4e7d0ddcf6
 title: clip Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

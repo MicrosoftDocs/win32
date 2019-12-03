@@ -1,5 +1,5 @@
 ---
-title: LVM_GETVIEW message
+title: LVM_GETVIEW message (Commctrl.h)
 description: Retrieves the current view of a list-view control.
 ms.assetid: dd63e726-3a7f-40e7-8d46-4680816c02a3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

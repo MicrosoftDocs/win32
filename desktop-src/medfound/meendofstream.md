@@ -1,8 +1,8 @@
 ---
 Description: Raised by a media stream when the stream ends.
 ms.assetid: e793131a-f737-411f-a9fc-03b5b3d09aea
-title: MEEndOfStream event
-ms.topic: article
+title: MEEndOfStream event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

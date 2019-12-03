@@ -14,7 +14,7 @@ If you know C# or Java, interfaces should be a familiar concept. An *interface* 
 
 In C++, the nearest equivalent to an interface is a pure virtual class—that is, a class that contains only pure virtual methods and no other members. Here is a hypothetical example of an interface:
 
-``` syntax
+```C++
 // The following is not actual COM.
 
 // Pseudo-C++:
@@ -29,14 +29,14 @@ The idea of this example is that a set of objects in some graphics library are d
 
 All interfaces are *abstract*, so a program could not create an instance of an `IDrawable` object as such. For example, the following code would not compile.
 
-``` syntax
+```C++
 IDrawable draw;
 draw.Draw();
 ```
 
 Instead, the graphics library provides objects that *implement* the `IDrawable` interface. For example, the library might provide a shape object for drawing shapes and a bitmap object for drawing images. In C++, this is done by inheriting from a common abstract base class:
 
-``` syntax
+```C++
 class Shape : public IDrawable
 {
 public:
@@ -54,7 +54,7 @@ The `Shape` and `Bitmap` classes define two distinct types of drawable object. E
 
 A program using this graphics library would manipulate `Shape` and `Bitmap` objects through `IDrawable` pointers, rather than using `Shape` or `Bitmap` pointers directly.
 
-``` syntax
+```C++
 IDrawable *pDrawable = CreateTriangleShape();
 
 if (pDrawable)
@@ -65,7 +65,7 @@ if (pDrawable)
 
 Here is an example that loops over an array of `IDrawable` pointers. The array might contain a heterogeneous assortment of shapes, bitmaps, and other graphics objects, as long as each object in the array inherits `IDrawable`.
 
-``` syntax
+```C++
 void DrawSomeShapes(IDrawable **drawableArray, size_t count)
 {
     for (size_t i = 0; i < count; i++)
@@ -82,9 +82,7 @@ In a C++ implementation, interfaces are declared using a class or structure.
 > [!Note]  
 > The code examples in this topic are meant to convey general concepts, not real-world practice. Defining new COM interfaces is beyond the scope of this series, but you would not define an interface directly in a header file. Instead, a COM interface is defined using a language called Interface Definition Language (IDL). The IDL file is processed by an IDL compiler, which generates a C++ header file.
 
- 
-
-``` syntax
+```C++
 class IDrawable
 {
 public:
@@ -94,7 +92,7 @@ public:
 
 When you work with COM, it is important to remember that interfaces are not objects. They are collections of methods that objects must implement. Several objects can implement the same interface, as shown with the `Shape` and `Bitmap` examples. Moreover, one object can implement several interfaces. For example, the graphics library might define an interface named `ISerializable` that supports saving and loading graphics objects. Now consider the following class declarations:
 
-``` syntax
+```C++
 // An interface for serialization.
 class ISerializable
 {
@@ -125,11 +123,3 @@ This section has examined the conceptual basis of interfaces, but so far we have
 ## Next
 
 [Initializing the COM Library](initializing-the-com-library.md)
-
- 
-
- 
-
-
-
-

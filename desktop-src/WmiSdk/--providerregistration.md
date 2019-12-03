@@ -3,7 +3,7 @@ Description: Serves as the parent class for registration classes for various typ
 ms.assetid: 1e5d95cb-0961-4be8-b80a-37b598c9ccfe
 ms.tgt_platform: multiple
 title: '__ProviderRegistration class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

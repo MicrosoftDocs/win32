@@ -1,8 +1,8 @@
 ---
 Description: Loads a mesh from a resource.
 ms.assetid: 3cf253dc-4f3f-4949-ab24-8225667f95f2
-title: D3DXLoadMeshFromXResource function
-ms.topic: article
+title: D3DXLoadMeshFromXResource function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

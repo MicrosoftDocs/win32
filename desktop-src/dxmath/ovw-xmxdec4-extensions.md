@@ -2,7 +2,7 @@
 Description: XMXDEC4describes a 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit unsigned integer value.
 ms.assetid: ccdb5c7c-801a-4eaf-bb0c-4b1c7e003541
 title: XMXDEC4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

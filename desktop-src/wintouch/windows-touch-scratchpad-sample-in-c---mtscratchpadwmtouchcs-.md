@@ -1,6 +1,6 @@
 ---
 title: Windows Touch Scratchpad Sample in C (MTScratchpadWMTouchCS)
-description: This section describes the Windows Touch Scratchpad sample in C\ .
+description: The Windows Touch Scratchpad sample in C# shows how to use Windows Touch messages to draw traces of the touch points to a window.
 ms.assetid: 652124be-01a8-4df4-b590-e5c2ca3f012c
 keywords:
 - Windows Touch,code samples
@@ -8,19 +8,16 @@ keywords:
 - Windows Touch,Scratchpad samples
 - Scratchpad samples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/28/2019
 ---
 
-# Windows Touch Scratchpad Sample in C# (MTScratchpadWMTouchCS)
+# Windows Touch Scratchpad Sample (C#)
 
-This section describes the Windows Touch Scratchpad sample in C#.
-
-The Windows Touch Scratchpad sample in C# shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following image shows how the application could look when it runs.
+The [Windows Touch Scratchpad sample in C#](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md) shows how to use Windows Touch messages to draw traces of the touch points to a window. The trace of the primary finger, the one that was put on the digitizer first, is drawn in black. Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow. The following image shows how the application could look when it runs.
 
 ![screen shot that shows the windows touch scratchpad sample in c sharp, with black, green, blue, and red squiggles on the screen](images/mtscratchpadwmtouchcs.png)
 
 For this sample, a touchable form is created to handle [**WM\_TOUCH**](wm-touchdown.md) messages. This form is inherited to enable Windows Touch on the scratchpad application. When the **WM\_TOUCH** messages come to the form, they are interpreted into points and are added to the collection of strokes. The strokes collection is rendered to the Graphics object. The following code shows how the touchable form registers itself for handling **WM\_TOUCH** messages, and how it handles **WM\_TOUCH** messages.
-
 
 ```CSharp
         private void OnLoadHandler(Object sender, EventArgs e)
@@ -69,10 +66,7 @@ For this sample, a touchable form is created to handle [**WM\_TOUCH**](wm-touchd
         }
 ```
 
-
-
 The following code shows how the Windows Touch message is interpreted and the data is added to stroke collections.
-
 
 ```CSharp
         private bool DecodeTouch(ref Message m)
@@ -149,10 +143,7 @@ The following code shows how the Windows Touch message is interpreted and the da
     }
 ```
 
-
-
 The following code shows how a stroke collection is displayed.
-
 
 ```CSharp
         public void Draw(Graphics graphics)
@@ -167,10 +158,7 @@ The following code shows how a stroke collection is displayed.
         }
 ```
 
-
-
 The following code shows how the individual stroke objects display themselves with a Graphics object.
-
 
 ```CSharp
         public void Draw(Graphics graphics)
@@ -185,19 +173,7 @@ The following code shows how the individual stroke objects display themselves wi
         }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Windows Touch Scratchpad sample in C#](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md)
+- [Windows Touch Samples](windows-touch-samples.md)

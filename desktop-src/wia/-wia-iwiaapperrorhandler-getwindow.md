@@ -1,8 +1,8 @@
 ---
 Description: Gets a handle to the dialog box that displays error messages and provides one or more buttons to continue, cancel, or abort the application.
 ms.assetid: 54deac2e-a395-45dc-b9f9-ecf8140fd9d7
-title: IWiaAppErrorHandler::GetWindow method
-ms.topic: article
+title: IWiaAppErrorHandler::GetWindow method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

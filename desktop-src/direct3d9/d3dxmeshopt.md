@@ -1,8 +1,8 @@
 ---
 Description: Specifies the type of mesh optimization to be performed.
 ms.assetid: 32ef227a-b299-47c4-96b8-c0ea7bf549e1
-title: D3DXMESHOPT enumeration
-ms.topic: enumeration
+title: D3DXMESHOPT enumeration (D3dx9mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_REALIZE message
+title: ICM_DRAW_REALIZE message (Vfw.h)
 description: The ICM\_DRAW\_REALIZE message notifies a rendering driver to realize its drawing palette while drawing. You can send this message explicitly or by using the ICDrawRealize macro.
 ms.assetid: 501540cd-41e2-4f80-abf8-2ec2179970a9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

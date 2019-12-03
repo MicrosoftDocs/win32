@@ -1,5 +1,5 @@
 ---
-title: Programming Guide
+title: DirectWrite programming guide
 description: The following topics provide an overview of the DirectWrite API.
 ms.assetid: ca80d130-0579-409f-9054-6e63af14ebe3
 keywords:
@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# DirectWrite programming guide
 
 The following topics provide an overview of the [DirectWrite](direct-write-portal.md) API.
 

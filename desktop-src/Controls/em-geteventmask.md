@@ -1,5 +1,5 @@
 ---
-title: EM_GETEVENTMASK message
+title: EM_GETEVENTMASK message (Richedit.h)
 description: Retrieves the event mask for a rich edit control. The event mask specifies which notification codes the control sends to its parent window.
 ms.assetid: cdf99f2a-e747-4b0e-9235-2719477c3ce2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

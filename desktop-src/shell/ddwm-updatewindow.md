@@ -1,7 +1,7 @@
 ---
 Description: Instructs a drop image window to update using new DROPDESCRIPTION information.
 title: DDWM_UPDATEWINDOW message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 3b74f2e1-8121-4b7c-8d7a-b449cda529da
 api_name: 

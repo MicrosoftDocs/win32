@@ -1,8 +1,8 @@
 ---
 Description: Puts the original word form in the IWordFormSink object.
 ms.assetid: 333A3109-6C0A-42AE-9E10-87F53C7F737C
-title: IWordFormSink::PutWord method
-ms.topic: article
+title: IWordFormSink::PutWord method (Search.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

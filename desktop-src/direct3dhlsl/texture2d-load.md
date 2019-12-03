@@ -1,5 +1,5 @@
 ---
-title: Texture2D Load methods
+title: Texture2D::Texture2D Load methods
 description: Reads texture data from a Texture2D.
 ms.assetid: 'b65672c8-e8ac-4863-b7f9-33033366fe62'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

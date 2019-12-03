@@ -2,8 +2,8 @@
 Description: Uses the values set in the Permissions parameter to determine whether the user has the specified permissions set in the AccessMask property of the Win32\_CodecFile object that represents the codec file.
 ms.assetid: 068dfcaf-037b-4516-b85a-8ba6558ba561
 ms.tgt_platform: multiple
-title: GetEffectivePermission method of the Win32_CodecFile class
-ms.topic: article
+title: GetEffectivePermission method of the Win32_CodecFile class (Aclui.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Removes a network or URL source.
 ms.assetid: 76c7cc6c-740f-40e0-8385-024dcc82b79e
 title: Patch.SourceListClearSource method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

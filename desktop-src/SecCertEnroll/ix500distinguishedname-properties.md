@@ -2,7 +2,7 @@
 Description: The IX500DistinguishedName interface exposes the following properties.
 ms.assetid: 2B5D5B1A-08B3-46EC-8EC9-B91F045137E2
 title: IX500DistinguishedName Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

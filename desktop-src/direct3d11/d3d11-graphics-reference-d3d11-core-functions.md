@@ -1,5 +1,5 @@
 ---
-title: Core Functions
+title: Direct3D 11 core functions
 description: This section contains information about the core functions.
 ms.assetid: 3acbd433-c28d-4630-aa0e-25f2fb5c32d0
 keywords:
@@ -8,11 +8,9 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Functions
+# Direct3D 11 core functions
 
 This section contains information about the core functions.
-
-## 
 
 ## In this section
 

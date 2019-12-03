@@ -1,11 +1,11 @@
 ---
-title: EsentSLVFileStaleException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileStaleException constructor 
 TOCTitle: 'EsentSLVFileStaleException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilestaleexception.esentslvfilestaleexception(v=EXCHG.10)
 ms:contentKeyID: 55107314
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException.EsentSLVFileStaleException
 dev_langs:

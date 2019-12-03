@@ -1,5 +1,5 @@
 ---
-title: DirectComposition error codes
+title: DirectComposition error codes (Dcomp.h)
 description: This section describes the error codes that are specific to DirectComposition.
 ms.assetid: 8DFBFC34-DBD0-4731-8305-B33E90C96C54
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - Dcomp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

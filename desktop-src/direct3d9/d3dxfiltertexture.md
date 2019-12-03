@@ -1,8 +1,8 @@
 ---
 Description: Filters mipmap levels of a texture.
 ms.assetid: bfeae9b0-9480-4a26-a225-4a34780546ce
-title: D3DXFilterTexture function
-ms.topic: article
+title: D3DXFilterTexture function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

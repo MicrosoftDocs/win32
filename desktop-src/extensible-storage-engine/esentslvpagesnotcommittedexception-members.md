@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotCommittedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotCommittedException members
 TOCTitle: EsentSLVPagesNotCommittedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotcommittedexception_members(v=EXCHG.10)

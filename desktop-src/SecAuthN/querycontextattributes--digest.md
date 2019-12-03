@@ -1,8 +1,8 @@
 ---
 Description: Enables a transport application to query the Digest [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) for certain attributes of a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).
 ms.assetid: d4cd2cc4-77a2-42ba-9029-f4d92706c5c2
-title: QueryContextAttributes (Digest) function
-ms.topic: article
+title: QueryContextAttributes (Digest) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

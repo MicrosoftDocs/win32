@@ -1,8 +1,8 @@
 ---
 Description: Specifies the video encoding bit rate for the presentation, in bits per second. This attribute applies to presentation descriptors.
 ms.assetid: 0fe8cf64-2256-4e48-9853-2c734f97f3c7
-title: MF_PD_VIDEO_ENCODING_BITRATE attribute
-ms.topic: article
+title: MF_PD_VIDEO_ENCODING_BITRATE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

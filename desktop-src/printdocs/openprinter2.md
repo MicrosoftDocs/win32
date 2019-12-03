@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a handle to the specified printer, print server, or other types of handles in the print subsystem, while setting some of the printer options.
 ms.assetid: e2370ae4-4475-4ccc-a6f9-3d33d1370054
-title: OpenPrinter2 function
-ms.topic: article
+title: OpenPrinter2 function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

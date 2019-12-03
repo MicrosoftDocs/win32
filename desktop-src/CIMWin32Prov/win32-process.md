@@ -3,7 +3,7 @@ Description: The Win32\_Process&\#32;WMI class represents a process on an operat
 ms.assetid: 51206aca-4784-4d18-95ca-bc0a45691f78
 ms.tgt_platform: multiple
 title: Win32_Process class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

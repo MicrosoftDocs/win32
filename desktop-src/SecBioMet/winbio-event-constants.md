@@ -1,5 +1,5 @@
 ---
-title: WINBIO_EVENT Constants
+title: WINBIO_EVENT Constants (Winbio\_types.h)
 description: Specify the types of service provider event notifications to monitor.
 ms.assetid: 73805413-a8d9-4682-aa21-7032451d750a
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

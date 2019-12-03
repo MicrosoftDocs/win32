@@ -1,7 +1,7 @@
 ---
 Description: The Version data type is a text string containing a valid version string.
 ms.assetid: '0b19a7fb-7390-47a7-83ca-6b86ab871197'
-title: Version
+title: Version (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_RENDERBUFFER message
+title: ICM_DRAW_RENDERBUFFER message (Vfw.h)
 description: The ICM\_DRAW\_RENDERBUFFER message notifies a rendering driver to draw the frames that have been passed to it. You can send this message explicitly or by using the ICDrawRenderBuffer macro.
 ms.assetid: b21be12c-b8a5-49ea-b6b3-d2eb0077a8e9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the guide, or area where ink is drawn and recognized.
 ms.assetid: 5bd874ff-003b-4471-b4ef-50731007dc5a
-title: InkAnalysisRecognizerGuide structure
-ms.topic: structure
+title: InkAnalysisRecognizerGuide structure (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

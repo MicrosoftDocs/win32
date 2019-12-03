@@ -1,5 +1,5 @@
 ---
-title: EM_GETFILELINE message
+title: EM_GETFILELINE message (CommCtrl.h)
 description: Copies a line of text from an edit control, independently of how lines are displayed on the screen, and places it in a specified buffer.
 ms.assetid: ff56d2c6-5013-46c6-90d8-ee2bdc9074b1
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 10/19/2018
 ---
 

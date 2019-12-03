@@ -1,5 +1,5 @@
 ---
-title: EsentNoBackupDirectoryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupDirectoryException methods
 TOCTitle: EsentNoBackupDirectoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupdirectoryexception_methods(v=EXCHG.10)

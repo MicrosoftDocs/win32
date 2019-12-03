@@ -1,5 +1,5 @@
 ---
-title: BM_SETIMAGE message
+title: BM_SETIMAGE message (Winuser.h)
 description: Associates a new image (icon or bitmap) with the button.
 ms.assetid: bf05e684-63d0-4583-960b-f329edafb151
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: NM_LDOWN (toolbar) notification code
+title: NM_LDOWN (toolbar) notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that the left mouse button has been pressed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: f5b356fb-265b-4eb0-a5a3-2a22d688f847
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

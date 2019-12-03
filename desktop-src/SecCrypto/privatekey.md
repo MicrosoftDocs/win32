@@ -2,7 +2,7 @@
 Description: Represents the private key associated with a certificate.
 ms.assetid: '26ad1d1c-17c5-4191-ac97-b911e62b4119'
 title: PrivateKey object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC VirtualNetworks property
+title: IVMVirtualPC VirtualNetworks property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of virtual networks.
 ms.assetid: 88c68178-0399-44cd-8145-1f2e4d6ac632
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

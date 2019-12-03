@@ -1,8 +1,8 @@
 ---
 Description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.
 ms.assetid: A73F7118-CC4A-45E6-869A-DFF6924D10C8
-title: SetThreadSelectedCpuSets function
-ms.topic: article
+title: SetThreadSelectedCpuSets function (Processthreadapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

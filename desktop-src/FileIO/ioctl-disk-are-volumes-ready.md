@@ -1,8 +1,8 @@
 ---
 Description: Waits for all volumes on the specified disk to be ready for use.
 ms.assetid: 6cf619bb-7ff5-485e-b533-0f7f6503c6e0
-title: IOCTL_DISK_ARE_VOLUMES_READY control code
-ms.topic: article
+title: IOCTL_DISK_ARE_VOLUMES_READY control code (Ntdddisk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

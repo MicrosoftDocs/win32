@@ -1,12 +1,12 @@
 ---
+title: Copy individual frames from a multiple-frame image
 Description: The following example retrieves the individual frames from a multiple-frame TIFF file.
 ms.assetid: dfed0b61-2230-4911-a642-0a6e4beb08d6
-title: Copying Individual Frames from a Multiple-Frame Image
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Copying Individual Frames from a Multiple-Frame Image
+# Copy individual frames from a multiple-frame image
 
 The following example retrieves the individual frames from a multiple-frame TIFF file. When the TIFF file was created, the individual frames were added to the Page dimension (see [Creating and Saving a Multiple-Frame Image](-gdiplus-creating-and-saving-a-multiple-frame-image-use.md)). The code displays each of the four pages and saves each page to a separate PNG disk file.
 

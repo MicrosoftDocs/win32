@@ -1,11 +1,11 @@
 ---
-title: JET_BKINFO.Equality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKINFO.op_Equality(Microsoft.Isam.Esent.Interop.JET_BKINFO,Microsoft.Isam.Esent.Interop.JET_BKINFO)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bkinfo.op_equality(v=EXCHG.10)
 ms:contentKeyID: 39510688
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_BKINFO.Equality
 dev_langs:

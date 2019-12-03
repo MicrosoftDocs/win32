@@ -1,5 +1,5 @@
 ---
-title: gluLoadSamplingMatrices function
+title: gluLoadSamplingMatrices function (Glu.h)
 description: The gluLoadSamplingMatrices function loads Non-Uniform Rational B-Spline (NURBS) sampling and culling matrices.
 ms.assetid: 7fdbc4e2-a037-4f07-bb03-e51feea42775
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

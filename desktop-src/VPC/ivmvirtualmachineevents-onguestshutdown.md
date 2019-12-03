@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnGuestShutdown method
+title: IVMVirtualMachineEvents OnGuestShutdown method (VPCCOMInterfaces.h)
 description: Receives notification that guest operating system shuts down.
 ms.assetid: a70c746a-f1ce-4f93-b41b-b03dc83f3da2
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-Description: Context
+Description: ModemDMConfigProfile\/Context (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Context
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: Context
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8f463f14-95b3-4364-b1b1-549a32291959
 api_name: 
@@ -19,19 +19,17 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_1_Context"></span>Context
+# <span id="WWAN_profile_v4.element_1_Context"></span>ModemDMConfigProfile\/Context (v4)
 
 Specifies the parameters required to establish a data connection.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<Context>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;**\<Context\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<Context>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;**\<Context\>**
 
 ## Syntax
 

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETEXTENDEDLISTVIEWSTYLE message
+title: LVM_GETEXTENDEDLISTVIEWSTYLE message (Commctrl.h)
 description: Gets the extended styles that are currently in use for a given list-view control. You can send this message explicitly or use the ListView\_GetExtendedListViewStyle macro.
 ms.assetid: 5cfccdb8-a81c-4fa9-a4fa-19cf49bd6ce0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

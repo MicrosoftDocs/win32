@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_STEP_PARMS structure
+title: MCI_VCR_STEP_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_STEP\_PARMS structure contains parameters for the MCI\_STEP command for video-cassette recorders.
 ms.assetid: 57751de6-d174-418f-8167-402d3ead4e24
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

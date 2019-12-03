@@ -1,5 +1,5 @@
 ---
-title: ID2D1Factory CreateEllipseGeometry methods
+title: ID2D1Factory CreateEllipseGeometry methods (D2d1.h)
 description: Creates an ID2D1EllipseGeometry.
 ms.assetid: 4c03bb0b-74fe-456a-aa26-5449d758c0ea
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Factory::CreateEllipseGeometry methods

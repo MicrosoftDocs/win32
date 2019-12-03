@@ -2,7 +2,7 @@
 Description: Contains the background for a JournalDocument element or JournalPage element.
 ms.assetid: 48527c4e-50fb-4800-ac87-1646234783ba
 title: Background Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

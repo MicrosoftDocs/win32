@@ -1,5 +1,5 @@
 ---
-title: EsentIndexHasPrimaryException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexHasPrimaryException members
 TOCTitle: EsentIndexHasPrimaryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexhasprimaryexception_members(v=EXCHG.10)

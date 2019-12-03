@@ -2,7 +2,7 @@
 title: DXCore functions
 description: The following free functions are declared in dxcore.h.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

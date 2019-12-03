@@ -1,5 +1,5 @@
 ---
-title: MCI_SAVE_PARMS structure
+title: MCI_SAVE_PARMS structure (Mciapi.h)
 description: The MCI\_SAVE\_PARMS structure contains the filename information for the MCI\_SAVE command.
 ms.assetid: fbaff175-e521-4b93-853a-f444726932d3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

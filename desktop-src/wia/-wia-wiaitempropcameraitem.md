@@ -1,8 +1,8 @@
 ---
 Description: The following word constants form the set of valid Windows Image Acquisition (WIA) camera item properties.
 ms.assetid: 708f35e7-3ce4-4a9e-8547-2e12b6f535b2
-title: Camera WIA Item Property Constants
-ms.topic: article
+title: Camera WIA Item Property Constants (Wiadef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

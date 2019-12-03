@@ -1,5 +1,5 @@
 ---
-title: PBM_SETRANGE message
+title: PBM_SETRANGE message (Commctrl.h)
 description: Sets the minimum and maximum values for a progress bar and redraws the bar to reflect the new range.
 ms.assetid: 251eb8c5-bedc-4e2c-90c2-e1626cb00420
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

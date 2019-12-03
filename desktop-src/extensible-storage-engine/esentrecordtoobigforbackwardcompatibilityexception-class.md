@@ -1,11 +1,11 @@
 ---
-title: EsentRecordTooBigForBackwardCompatibilityException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecordTooBigForBackwardCompatibilityException class
 TOCTitle: EsentRecordTooBigForBackwardCompatibilityException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordtoobigforbackwardcompatibilityexception(v=EXCHG.10)
 ms:contentKeyID: 55102602
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException
 dev_langs:

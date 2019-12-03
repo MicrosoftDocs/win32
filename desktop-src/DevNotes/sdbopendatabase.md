@@ -2,7 +2,7 @@
 Description: Opens the specified shim database.
 ms.assetid: 148181d7-a20a-467c-984b-e32013960783
 title: SdbOpenDatabase function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

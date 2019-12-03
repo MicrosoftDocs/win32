@@ -1,5 +1,5 @@
 ---
-title: Texture2D GatherGreen methods
+title: Texture2D::Texture2D GatherGreen methods
 description: Samples a Texture2D and returns the green component.
 ms.assetid: '4f4583b4-2b9c-458c-9cd4-a324f1cdb423'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

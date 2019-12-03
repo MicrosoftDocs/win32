@@ -1,8 +1,8 @@
 ---
 Description: The LINEREQUESTMODE bit flag constants describe different types of telephony requests that can be made from one application to another.
 ms.assetid: 23321700-64d3-45e3-929a-8f5df64dc4be
-title: LINEREQUESTMODE_ Constants
-ms.topic: article
+title: LINEREQUESTMODE_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

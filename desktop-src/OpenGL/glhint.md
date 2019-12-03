@@ -1,5 +1,5 @@
 ---
-title: glHint function
+title: glHint function (Gl.h)
 description: The glHint function specifies implementation-specific hints.
 ms.assetid: 6d03e107-321a-45ee-9ce7-25fa9cab32d9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

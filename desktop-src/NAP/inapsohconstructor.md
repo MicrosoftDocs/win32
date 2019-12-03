@@ -1,5 +1,5 @@
 ---
-title: INapSoHConstructor interface
+title: INapSoHConstructor interface (NapProtocol.h)
 description: Are used by SHAs to construct SoHRequests and by SHVs to construct SoHResponses.
 ms.assetid: ad79c80a-3003-4465-b350-77890c217d63
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

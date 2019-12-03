@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectGroup GetDesc method
+title: ID3DX11EffectGroup GetDesc method (D3dx11effect.h)
 description: Gets a group description.
 ms.assetid: 04bb707a-be21-43d1-8d9d-5a84d29fda74
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

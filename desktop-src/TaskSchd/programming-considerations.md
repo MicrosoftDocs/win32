@@ -1,5 +1,5 @@
 ---
-title: Programming Considerations
+title: Programming Considerations (Task Scheduler)
 description: When developing applications that use the Task Scheduler 1.0, keep the following programming issues in mind.Your application must ensure the Task Scheduler service is running before attempting to make any calls using the Task Scheduler API.When retrieving strings, make sure that you call CoTaskMemFree to release each string after it is no longer needed. When retrieving arrays of strings, make sure you first release each string in the array and then release the array itself.When creating or modifying a work item, including triggers associated with a work item, make sure you call IPersistFile Save to save the work item to disk.After using any of the interfaces that are provided by the Task Scheduler API, make sure you call IUnknown Release to release the interface. IUnknown is supported by each Task Scheduler object.
 ms.assetid: b9e1806c-acfa-4d44-a371-91bad788648c
 keywords:

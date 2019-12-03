@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESS_GET_PALETTE message
+title: ICM_DECOMPRESS_GET_PALETTE message (Vfw.h)
 description: The ICM\_DECOMPRESS\_GET\_PALETTE message requests that the video decompression driver supply the color table of the output BITMAPINFOHEADER structure. You can send this message explicitly or by using the ICDecompressGetPalette macro.
 ms.assetid: f9fae9ab-9f69-44b6-bedb-f56f43845229
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentSessionInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSessionInUseException properties
 TOCTitle: EsentSessionInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioninuseexception_properties(v=EXCHG.10)

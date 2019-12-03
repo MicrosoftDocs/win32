@@ -1,8 +1,8 @@
 ---
 Description: The GetForm function retrieves information about a specified form.
 ms.assetid: 10b25748-6d7c-46ab-bd2c-9b6126a1d7d1
-title: GetForm function
-ms.topic: article
+title: GetForm function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

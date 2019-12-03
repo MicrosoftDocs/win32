@@ -1,5 +1,5 @@
 ---
-title: MrmCreateConfigInMemory function
+title: MrmCreateConfigInMemory function (MrmResourceIndexer.h)
 description: Creates new, initialized PRI configuration info (as in-memory data, not as a file) defining the qualifier defaults that you specify.
 ms.assetid: D8822D6E-5F68-46A1-B99F-52575DB1D277
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

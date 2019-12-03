@@ -1,8 +1,8 @@
 ---
 Description: Gets the time remaining before a delayed app suspending operation continues.
 ms.assetid: A90347F3-75CB-4EEB-930D-30882F43D192
-title: ISuspendingOperation::Deadline property
-ms.topic: article
+title: ISuspendingOperation::Deadline property (Windows.ApplicationModel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

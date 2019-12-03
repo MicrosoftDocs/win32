@@ -1,11 +1,11 @@
 ---
-title: SystemParameters class (Microsoft.Isam.Esent.Interop)
+title: SystemParameters class
 TOCTitle: SystemParameters class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SystemParameters
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters(v=EXCHG.10)
 ms:contentKeyID: 55104027
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SystemParameters
 dev_langs:

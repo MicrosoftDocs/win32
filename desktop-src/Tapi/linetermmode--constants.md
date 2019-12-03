@@ -1,8 +1,8 @@
 ---
 Description: The LINETERMMODE\_ bit-flag constants describe different types of events on a phone line that can be routed to a terminal device.
 ms.assetid: 60af1687-8958-4918-be21-a13780c60974
-title: LINETERMMODE_ Constants
-ms.topic: article
+title: LINETERMMODE_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

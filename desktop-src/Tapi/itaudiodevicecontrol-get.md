@@ -1,8 +1,8 @@
 ---
 Description: The Get method retrieves the value of a given audio device property.
 ms.assetid: 34cb3f3e-be4a-49e0-bf7d-6915906e2368
-title: ITAudioDeviceControl::Get method
-ms.topic: article
+title: ITAudioDeviceControl::Get method (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

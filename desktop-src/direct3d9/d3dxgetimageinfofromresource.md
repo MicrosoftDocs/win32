@@ -1,8 +1,8 @@
 ---
 Description: Retrieves information about a given image in a resource.
 ms.assetid: 1f811b1e-f0bd-4f64-a4c9-caf899470940
-title: D3DXGetImageInfoFromResource function
-ms.topic: article
+title: D3DXGetImageInfoFromResource function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The AddHead method inserts another list at the front of this list.
 ms.assetid: 10999d93-2eb0-481f-8909-6f1184137786
-title: CBaseList.AddHead method
-ms.topic: article
+title: CBaseList.AddHead method (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

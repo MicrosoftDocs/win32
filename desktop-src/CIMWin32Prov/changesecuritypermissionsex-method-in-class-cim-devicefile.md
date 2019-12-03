@@ -3,7 +3,7 @@ Description: Changes the security permissions for the device file specified in t
 ms.assetid: 5ad54470-6961-4c0d-9d2a-d3eaf81d75f4
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

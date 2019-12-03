@@ -1,5 +1,5 @@
 ---
-title: PSN_SETACTIVE notification code
+title: PSN_SETACTIVE notification code (Prsht.h)
 description: Notifies a page that it is about to be activated. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0cf918b7-9f0d-4dec-8df1-a1d2d8ac6463
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

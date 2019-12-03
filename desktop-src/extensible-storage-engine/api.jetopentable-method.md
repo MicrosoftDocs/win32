@@ -1,11 +1,11 @@
 ---
-title: Api.JetOpenTable method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetOpenTable method 
 TOCTitle: 'JetOpenTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOpenTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.Byte[],System.Int32,Microsoft.Isam.Esent.Interop.OpenTableGrbit,Microsoft.Isam.Esent.Interop.JET_TABLEID@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetopentable(v=EXCHG.10)
 ms:contentKeyID: 55100776
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetOpenTable
 dev_langs:

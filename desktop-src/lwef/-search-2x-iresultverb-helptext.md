@@ -1,5 +1,5 @@
 ---
-title: IResultVerb HelpText property
+title: IResultVerb HelpText property (WdsSharedIDL.h)
 description: This property returns a pointer to the localized help string for the verb.
 ms.assetid: 14e91101-5ee2-459a-97d7-35c76d3ba990
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

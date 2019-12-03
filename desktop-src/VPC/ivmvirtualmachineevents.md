@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents interface
+title: IVMVirtualMachineEvents interface (VPCCOMInterfaces.h)
 description: Defines the outgoing event interface for the IVMVirtualMachine interface.
 ms.assetid: 52901a95-0f4f-4503-97c5-1459179feeb8
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

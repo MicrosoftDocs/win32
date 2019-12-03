@@ -1,8 +1,8 @@
 ---
 Description: Indicates the type of video content for a video encoder.
 ms.assetid: 2BCAA6F3-E08A-4387-BD48-038A7A3B1ADB
-title: CODECAPI_AVEncVideoContentType property
-ms.topic: article
+title: CODECAPI_AVEncVideoContentType property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

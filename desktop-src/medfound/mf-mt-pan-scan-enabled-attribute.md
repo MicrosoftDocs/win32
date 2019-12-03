@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether pan/scan mode is enabled.
 ms.assetid: 9e8746c6-13a4-4cf7-9748-82223d9529fa
-title: MF_MT_PAN_SCAN_ENABLED attribute
-ms.topic: article
+title: MF_MT_PAN_SCAN_ENABLED attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

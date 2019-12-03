@@ -2,8 +2,8 @@
 Description: Use the SpawnDerivedClass\_ method of the SWbemObject object to create a derived class object from the current object. The object must be a class definition that becomes the parent class of the spawned object.
 ms.assetid: 1b5aaea7-50f4-40bd-ab2a-f4ff55cc22fc
 ms.tgt_platform: multiple
-title: SWbemObject.SpawnDerivedClass_ method
-ms.topic: article
+title: SWbemObject.SpawnDerivedClass_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

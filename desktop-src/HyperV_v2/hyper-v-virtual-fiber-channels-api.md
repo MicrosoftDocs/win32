@@ -2,7 +2,7 @@
 Description: The Hyper-V virtual Fibre Channel API is used to control virtual Fibre Channel adapters in Hyper-V.
 ms.assetid: 238B20B0-1C59-41D0-B2B5-5B0C6032300A
 title: Hyper-V virtual Fibre Channel API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

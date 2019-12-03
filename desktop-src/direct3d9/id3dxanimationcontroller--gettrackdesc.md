@@ -1,8 +1,8 @@
 ---
 Description: Gets the track description.
 ms.assetid: 7663a26f-5ad3-4a17-a502-c0dcfa730db2
-title: ID3DXAnimationController::GetTrackDesc method
-ms.topic: article
+title: ID3DXAnimationController::GetTrackDesc method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: RWByteAddressBuffer Load4 methods
+title: RWByteAddressBuffer::RWByteAddressBuffer Load4 methods
 description: Gets four values from a RWByteAddressBuffer.
 ms.assetid: 6BFB07EE-6171-4AF0-864A-E2DEC4B2665E
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

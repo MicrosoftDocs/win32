@@ -1,8 +1,8 @@
 ---
 Description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
 ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67
-title: TraceMessageVa function
-ms.topic: article
+title: TraceMessageVa function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

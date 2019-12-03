@@ -1,5 +1,5 @@
 ---
-title: Q
+title: Q (Text Services Framework)
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 8c83c9e0-7dff-4796-b1fd-d9bffdf100f5

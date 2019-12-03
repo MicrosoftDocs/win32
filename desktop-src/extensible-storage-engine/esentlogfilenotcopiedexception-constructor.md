@@ -1,11 +1,11 @@
 ---
-title: EsentLogFileNotCopiedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileNotCopiedException constructor 
 TOCTitle: 'EsentLogFileNotCopiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilenotcopiedexception.esentlogfilenotcopiedexception(v=EXCHG.10)
 ms:contentKeyID: 55102105
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException.EsentLogFileNotCopiedException
 dev_langs:

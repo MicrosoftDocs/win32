@@ -1,5 +1,5 @@
 ---
-title: UninitializeNapAgentNotifier function
+title: UninitializeNapAgentNotifier function (NapUtil.h)
 description: Unsubscribes the calling process from NapAgent state change notifications and quarantine state change notifications.
 ms.assetid: b676ee33-caf6-48f0-acf8-5be1b23c62fe
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

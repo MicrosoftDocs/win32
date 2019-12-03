@@ -1,8 +1,8 @@
 ---
 Description: Sent when the DVD Navigator processes a DVD navigation command.
 ms.assetid: 95e502b6-330f-4bc7-8adc-851913987370
-title: EC_DVD_NavigationCommand
-ms.topic: article
+title: EC_DVD_NavigationCommand (Dvdevcode.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

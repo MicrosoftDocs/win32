@@ -1,5 +1,5 @@
 ---
-title: glColor3usv function
+title: glColor3usv function (Gl.h)
 description: Sets the current color from an already existing array of color values.
 ms.assetid: 820d01a9-1f04-48da-a6d6-18385b240dd7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

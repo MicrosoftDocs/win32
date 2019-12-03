@@ -1,8 +1,8 @@
 ---
 Description: The IDelaydC interface provides the methods used to connect to the network, capture network traffic to a capture file, retrieve statistics, and disconnect from the network.
 ms.assetid: ab275653-2377-4af6-a810-48515962c88c
-title: IDelaydC interface
-ms.topic: interface
+title: IDelaydC interface (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

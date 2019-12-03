@@ -1,5 +1,5 @@
 ---
-title: FreeSystemHealthAgentState function
+title: FreeSystemHealthAgentState function (NapUtil.h)
 description: Frees a SystemHealthAgentState data structure.
 ms.assetid: e9bfa8ee-c335-416e-94cf-28646709d419
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

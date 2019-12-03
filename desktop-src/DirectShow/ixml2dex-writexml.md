@@ -1,8 +1,8 @@
 ---
 Description: The WriteXML method translates a timeline to an XML string.
 ms.assetid: 1039c6fc-b2ba-4052-90b6-b7468b94c071
-title: IXml2Dex::WriteXML method
-ms.topic: article
+title: IXml2Dex::WriteXML method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

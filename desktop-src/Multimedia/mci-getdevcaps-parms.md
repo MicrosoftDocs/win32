@@ -1,5 +1,5 @@
 ---
-title: MCI_GETDEVCAPS_PARMS structure
+title: MCI_GETDEVCAPS_PARMS structure (Mciapi.h)
 description: The MCI\_GETDEVCAPS\_PARMS structure contains device-capability information for the MCI\_GETDEVCAPS command.
 ms.assetid: a7b128c5-2121-49cd-b668-3a8466d49a73
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

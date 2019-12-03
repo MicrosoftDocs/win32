@@ -2,7 +2,7 @@
 Description: Retrieves the HTTP status text.
 ms.assetid: 480babbd-432c-4722-98df-a73ba5928e1f
 title: IWinHttpRequest::StatusText property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

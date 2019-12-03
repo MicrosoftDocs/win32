@@ -1,5 +1,5 @@
 ---
-title: CBEM_GETITEM message
+title: CBEM_GETITEM message (Commctrl.h)
 description: Gets item information for a given ComboBoxEx item.
 ms.assetid: 2df07ae8-fa84-487c-a4a7-90244dfdb40e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

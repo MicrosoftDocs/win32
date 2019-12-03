@@ -1,8 +1,8 @@
 ---
 Description: The GetPinCount method retrieves the number of pins on the filter.
 ms.assetid: 29039ada-fccd-4890-b36b-3dd5c0bbdc3e
-title: CTransformFilter.GetPinCount method
-ms.topic: article
+title: CTransformFilter.GetPinCount method (Transfrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive AttachHostDrive method
+title: IVMDVDDrive AttachHostDrive method (VPCCOMInterfaces.h)
 description: Attaches a host drive to the DVD drive within the virtual machine.
 ms.assetid: 68e658ba-470c-452c-8124-5bb2ec81911b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

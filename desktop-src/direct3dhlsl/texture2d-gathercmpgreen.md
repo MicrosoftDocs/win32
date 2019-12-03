@@ -1,5 +1,5 @@
 ---
-title: Texture2D GatherCmpGreen methods
+title: Texture2D::Texture2D GatherCmpGreen methods
 description: Samples and compares a Texture2D and returns the green component.
 ms.assetid: '4a2c67b6-8a33-4bf8-a4aa-cf26b720f345'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

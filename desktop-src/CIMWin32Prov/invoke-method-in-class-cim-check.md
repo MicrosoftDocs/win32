@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_Check class evaluates a particular ch
 ms.assetid: cf1adeb2-f8a2-4f84-978f-e801bce104ac
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Check class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

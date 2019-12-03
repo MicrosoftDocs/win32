@@ -1,5 +1,5 @@
 ---
-title: IVMAccountant NetworkBytesSent property
+title: IVMAccountant NetworkBytesSent property (VPCCOMInterfaces.h)
 description: Total number of bytes sent by all virtual network adapters for this virtual machine.
 ms.assetid: 3b5c3fa2-48c6-46c8-bbb6-5d1a9769308a
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

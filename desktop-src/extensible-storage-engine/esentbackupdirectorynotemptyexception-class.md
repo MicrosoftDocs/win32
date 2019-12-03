@@ -1,11 +1,11 @@
 ---
-title: EsentBackupDirectoryNotEmptyException class (Microsoft.Isam.Esent.Interop)
+title: EsentBackupDirectoryNotEmptyException class
 TOCTitle: EsentBackupDirectoryNotEmptyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupdirectorynotemptyexception(v=EXCHG.10)
 ms:contentKeyID: 55101028
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException
 dev_langs:

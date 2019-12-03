@@ -3,7 +3,7 @@ Description: The Win32\_PortResource WMI class represents an I/O port on a compu
 ms.assetid: 820f4f49-571c-4044-aefc-69bac5d59e6f
 ms.tgt_platform: multiple
 title: Win32_PortResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

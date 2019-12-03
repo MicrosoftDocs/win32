@@ -2,8 +2,8 @@
 Description: A Common Information Model (CIM) association class that establishes relationships between a system and the managed system elements of which it is composed.
 ms.assetid: 11ad6dc1-a09a-4bab-bb1d-2131a8fdb812
 ms.tgt_platform: multiple
-title: CIM_SystemComponent class
-ms.topic: article
+title: CIM_SystemComponent class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

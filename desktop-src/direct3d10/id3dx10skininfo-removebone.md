@@ -1,8 +1,8 @@
 ---
 Description: Remove a bone.
 ms.assetid: efb88108-5c76-47c8-b8ce-1ba29cb18ba4
-title: ID3DX10SkinInfo::RemoveBone method
-ms.topic: article
+title: ID3DX10SkinInfo::RemoveBone method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

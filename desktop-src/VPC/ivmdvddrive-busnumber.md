@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive BusNumber property
+title: IVMDVDDrive BusNumber property (VPCCOMInterfaces.h)
 description: Retrieves the bus number to which this device is attached.
 ms.assetid: 8edc94da-22bc-4141-a6c7-1b18cca754fc
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

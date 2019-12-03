@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_PointingDevice class requests a reset 
 ms.assetid: c7479e34-c95a-4eac-847c-3637f493ee9f
 ms.tgt_platform: multiple
 title: Reset method of the CIM_PointingDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

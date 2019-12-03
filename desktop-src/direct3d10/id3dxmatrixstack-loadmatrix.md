@@ -1,8 +1,8 @@
 ---
 Description: Loads the given matrix into the current matrix.
 ms.assetid: b898f344-db90-48e0-b457-0eb8d7b31dca
-title: ID3DXMATRIXStack::LoadMatrix method
-ms.topic: article
+title: ID3DXMATRIXStack::LoadMatrix method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Notifies an application when a selected IME needs a string for reconversion. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: 82ef20b5-bdfa-4bde-abb4-3d14ae35c116
-title: IMR_RECONVERTSTRING notification code
-ms.topic: article
+title: IMR_RECONVERTSTRING notification code (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

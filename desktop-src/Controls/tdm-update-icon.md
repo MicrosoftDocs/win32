@@ -1,5 +1,5 @@
 ---
-title: TDM_UPDATE_ICON message
+title: TDM_UPDATE_ICON message (Commctrl.h)
 description: Refreshes the icon of a task dialog.
 ms.assetid: 1094d9ca-90b4-4ba6-a14b-0d4e96243a34
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

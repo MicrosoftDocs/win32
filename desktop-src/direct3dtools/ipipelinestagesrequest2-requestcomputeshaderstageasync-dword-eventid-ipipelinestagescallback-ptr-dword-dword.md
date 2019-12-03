@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPipeLineStagesRequest2::RequestComputeShaderStageAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: EC5695A6-70B5-4F7D-A235-974A0A59A44F
 api_name: 

@@ -2,7 +2,7 @@
 Description: Defines the type that holds a paragraph in a Journal document.
 ms.assetid: b01000d4-5271-48f9-9592-0cd200e48cab
 title: ParagraphType Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

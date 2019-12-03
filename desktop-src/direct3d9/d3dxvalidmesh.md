@@ -1,8 +1,8 @@
 ---
 Description: Validates a mesh.
 ms.assetid: e5bec2f3-e914-4677-8114-77c71b8a586e
-title: D3DXValidMesh function
-ms.topic: article
+title: D3DXValidMesh function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

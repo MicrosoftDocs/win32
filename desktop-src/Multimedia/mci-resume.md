@@ -1,5 +1,5 @@
 ---
-title: MCI_RESUME command
+title: MCI_RESUME command (Mmsystem.h)
 description: The MCI\_RESUME command causes a paused device to resume the paused operation.
 ms.assetid: 2df712c1-5005-4e89-a439-a651076bbb73
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

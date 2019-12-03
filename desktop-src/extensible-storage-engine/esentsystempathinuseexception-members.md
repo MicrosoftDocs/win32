@@ -1,5 +1,5 @@
 ---
-title: EsentSystemPathInUseException members (Microsoft.Isam.Esent.Interop)
+title: EsentSystemPathInUseException members
 TOCTitle: EsentSystemPathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsystempathinuseexception_members(v=EXCHG.10)

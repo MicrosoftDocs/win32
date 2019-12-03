@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine::OpenFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8E0E1336-9FC7-4C32-AF3C-F3BDF39A36D9
 api_name: 

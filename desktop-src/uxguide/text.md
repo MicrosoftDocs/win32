@@ -1,5 +1,5 @@
 ---
-title: Text
+title: Text (Design basics)
 description: Text includes any text users can see in your app. Review these guidelines on the use of UI text, style, and tone for your apps.
 ms.assetid: C0C72078-E951-4DC1-BA55-62AF13E1BA37
 ms.topic: article

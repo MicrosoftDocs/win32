@@ -1,5 +1,5 @@
 ---
-title: ID2D1ImageSourceFromWic EnsureCached methods
+title: ID2D1ImageSourceFromWic EnsureCached methods (D2d1\_3.h)
 description: Loads image data into caches of image sources if that data is not already cached.
 ms.assetid: 9addc82b-7446-1f2c-5666-f817b8b5707d
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1ImageSourceFromWic::EnsureCached methods

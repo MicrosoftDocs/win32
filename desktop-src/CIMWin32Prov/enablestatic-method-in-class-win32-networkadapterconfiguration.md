@@ -3,7 +3,7 @@ Description: The EnableStatic WMI class method enables static TCP/IP addressing 
 ms.assetid: d0076424-58c0-4cfe-b55b-44c0f2620388
 ms.tgt_platform: multiple
 title: EnableStatic method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

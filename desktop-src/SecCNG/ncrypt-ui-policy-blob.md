@@ -1,8 +1,8 @@
 ---
 Description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
 ms.assetid: c567d8ba-3315-4316-8e09-93b2c10a55ec
-title: NCRYPT_UI_POLICY_BLOB structure
-ms.topic: structure
+title: NCRYPT_UI_POLICY_BLOB structure (Ncrypt\_provider.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

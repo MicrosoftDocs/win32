@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_OPEN_PARMS structure
+title: MCI_OVLY_OPEN_PARMS structure (Mmsystem.h)
 description: The MCI\_OVLY\_OPEN\_PARMS structure contains information for the MCI\_OPEN command for video-overlay devices.
 ms.assetid: 1559ae40-4aa5-4dfc-b337-7b056c706b67
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

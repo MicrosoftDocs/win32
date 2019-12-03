@@ -1,5 +1,5 @@
 ---
-title: modf
+title: modf (Corecrt\_math.h)
 description: Splits the value x into fractional and integer parts, each of which has the same sign as x.
 ms.assetid: 0cac1cf3-f0da-4b0a-ba30-4af5d65b04b2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

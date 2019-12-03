@@ -3,7 +3,7 @@ title: ITsSbTaskInfo Properties
 description: The ITsSbTaskInfo interface exposes the following properties.
 ms.assetid: 402B8502-DE17-440B-867D-45922582C30E
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

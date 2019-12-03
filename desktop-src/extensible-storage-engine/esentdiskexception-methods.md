@@ -1,5 +1,5 @@
 ---
-title: EsentDiskException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDiskException methods
 TOCTitle: EsentDiskException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDiskException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdiskexception_methods(v=EXCHG.10)

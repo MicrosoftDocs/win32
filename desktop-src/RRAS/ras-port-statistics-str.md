@@ -1,5 +1,5 @@
 ---
-title: RAS_PORT_STATISTICS structure
+title: RAS_PORT_STATISTICS structure (Rassapi.h)
 description: The RAS\_PORT\_STATISTICS structure reports the statistics that a RAS server collects for a connected port.
 ms.assetid: c42c7059-ff92-4f49-a86e-2f47a083aa8e
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

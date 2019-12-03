@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectTechnique ComputeStateBlockMask method
+title: ID3DX11EffectTechnique ComputeStateBlockMask method (D3dx11effect.h)
 description: Compute a state-block mask to allow/prevent state changes.
 ms.assetid: 4fd6061d-6ca5-4e3f-b031-fae98f3de057
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

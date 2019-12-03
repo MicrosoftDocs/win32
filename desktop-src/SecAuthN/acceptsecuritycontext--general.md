@@ -1,8 +1,8 @@
 ---
 Description: Enables the server component of a transport application to establish a [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) between the server and a remote client.
 ms.assetid: eaa15fed-4438-4e43-9be3-aa100ca453c7
-title: AcceptSecurityContext (General) function
-ms.topic: article
+title: AcceptSecurityContext (General) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 

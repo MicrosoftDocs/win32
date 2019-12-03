@@ -2,7 +2,7 @@
 Description: The XMDEC4 structure exposes the following operators.
 ms.assetid: 8f67be03-9b2e-4ffd-99ca-deb2c2cd1adf
 title: XMDEC4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - SetVertexShader, Direct3D 11 Effect
 - SetGeometryShader, Direct3D 11 Effect
 - SetPixelShader, Direct3D 11 Effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -61,7 +61,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 </tr>
 <tr class="odd">
 <td><span id="______________Annotations__"></span><span id="______________annotations__"></span><span id="______________ANNOTATIONS__"></span> <<em>Annotations</em> ><br/></td>
-<td>[in] Optional. One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see <a href="d3d11-effect-annotation-syntax">Annotation Syntax (Direct3D 11)</a>.<br/></td>
+<td>[in] Optional. One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see <a href="d3d11-effect-annotation-syntax.md">Annotation Syntax (Direct3D 11)</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="pass"></span><span id="PASS"></span>pass<br/></td>

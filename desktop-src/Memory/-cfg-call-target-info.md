@@ -1,8 +1,8 @@
 ---
 Description: Represents information about call targets for Control Flow Guard (CFG).
 ms.assetid: 8DEF907F-3F23-4122-95CE-F413FC7FD96B
-title: CFG_CALL_TARGET_INFO structure
-ms.topic: structure
+title: CFG_CALL_TARGET_INFO structure (Ntmmapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

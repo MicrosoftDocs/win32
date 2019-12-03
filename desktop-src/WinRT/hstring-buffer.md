@@ -1,8 +1,8 @@
 ---
 Description: A handle to a mutable string buffer that you can use to create an HSTRING.
 ms.assetid: D173CE70-ABF3-4703-A229-0753F2AF6F70
-title: HSTRING_BUFFER
-ms.topic: article
+title: HSTRING_BUFFER (Hstring.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

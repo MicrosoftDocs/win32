@@ -1,8 +1,8 @@
 ---
 Description: Describes the creation parameters for a device.
 ms.assetid: 7db5ef2b-6894-4113-b726-8b238bb4fb2f
-title: D3DDEVICE_CREATION_PARAMETERS structure
-ms.topic: structure
+title: D3DDEVICE_CREATION_PARAMETERS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

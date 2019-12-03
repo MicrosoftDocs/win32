@@ -1,5 +1,5 @@
 ---
-title: HDM_GETITEMCOUNT message
+title: HDM_GETITEMCOUNT message (Commctrl.h)
 description: Gets a count of the items in a header control. You can send this message explicitly or use the Header\_GetItemCount macro.
 ms.assetid: 0e6d2131-53b4-4927-bd0f-577b8eaf237a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

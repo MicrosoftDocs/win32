@@ -3,7 +3,7 @@ Description: The SetTcpNumConnections WMI class static method is used to set the
 ms.assetid: 50458161-1f28-47f9-b395-09586e859d5d
 ms.tgt_platform: multiple
 title: SetTcpNumConnections method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

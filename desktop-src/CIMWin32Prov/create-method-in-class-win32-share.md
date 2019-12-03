@@ -3,7 +3,7 @@ Description: Initiates sharing for a server resource.
 ms.assetid: 36530e1b-9109-4a6c-bba9-d9358101f5e2
 ms.tgt_platform: multiple
 title: Create method of the Win32_Share class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

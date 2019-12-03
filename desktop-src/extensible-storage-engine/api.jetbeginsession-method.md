@@ -1,11 +1,11 @@
 ---
-title: Api.JetBeginSession method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetBeginSession method 
 TOCTitle: 'JetBeginSession method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginSession(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_SESID@,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetbeginsession(v=EXCHG.10)
 ms:contentKeyID: 55107223
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetBeginSession
 dev_langs:

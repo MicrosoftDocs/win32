@@ -1,8 +1,8 @@
 ---
 Description: The RegionChange method displays a system dialog box that enables the user to change the region associated with the DVD drive.
 ms.assetid: 67b0ec96-adcb-4d0b-9f8c-38ce67c71cd3
-title: RegionChange Method
-ms.topic: article
+title: RegionChange Method (Segment.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
