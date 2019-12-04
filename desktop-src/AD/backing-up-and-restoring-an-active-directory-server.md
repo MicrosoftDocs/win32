@@ -36,7 +36,7 @@ The system state can be backed up in any order, but restoration of the system st
 
 For more information about backing up and restoring Certificate Services, see [Using the Certificate Services Backup and Restore Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions).
 
-For more information about backing up and restoring Active Directory Domain Services, see
+For more information about backing up and restoring Active Directory Domain Services, see:
 
 -   [Considerations for Active Directory Domain Services Backup](considerations-for-active-directory-domain-services-backup.md)
 -   [Backing Up an Active Directory Server](backing-up-an-active-directory-server.md)
