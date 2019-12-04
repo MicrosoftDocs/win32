@@ -28,7 +28,7 @@ To create a security descriptor for an object:
 11. Use the [**IADsSecurityDescriptor::put\_SystemAcl**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) method to set the SACL.
 12. Convert the [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) object to a [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) by using the **QueryInterface** method of the **IADsSecurityDescriptor** object to obtain an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. Then set the **vt** member of the **VARIANT** to **VT\_DISPATCH** and set the **pdispVal** member of the **VARIANT** equal to the **IDispatch** pointer.
 13. Obtain an [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) interface pointer to the object.
-14. Use the [**IADs::Put**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put) method with "nTSecurityDescriptor" and the [**VARIANT**](https://msdn.microsoft.com//library/ms221627(v=VS.71).aspx) created above to write the new security descriptor to the property cache.
+14. Use the [**IADs::Put**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put) method with "nTSecurityDescriptor" and the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) created above to write the new security descriptor to the property cache.
 15. Use the [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) method to update the property on the object in the directory.
 
  
