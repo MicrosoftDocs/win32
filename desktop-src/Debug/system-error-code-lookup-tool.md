@@ -1,24 +1,13 @@
 ---
 Description: Describes how to use the Microsoft Error Lookup Tool to find text explanations of hexadecimal error codes in Windows.
-title: Download and use the Microsoft Error Lookup Tool
+title: The Microsoft Error Lookup Tool
 ms.topic: article
 ms.date: 12/4/2019
 ---
 
-# Download and use the Microsoft Error Lookup Tool
+# The Microsoft Error Lookup Tool
 
-Microsoft Windows and other software components report status information, including error-level information, in the form of hexadecimal values. These values are often in DWORD (double word) format to conserve energy and computer resources. This is because one DWORD value typically takes less space in memory than a string of Unicode text.
-
-Unfortunately, the stored value itself may not have meaning for users and technicians, who have to convert the codes to human-readable text to be able to understand the content that event logs, text logs, and other diagnostic sources are reporting.
-
-To decode Microsoft event message codes, use any of the following methods:
-
-- Use the Microsoft Error Lookup Tool (as described in this article).
-- Search for the code by using your favorite search engine and hope for the best.
-- Install the Debugging Tools for Windows, load a memory dump file, and then run the **\!err \<code>** command.
-- Search the Microsoft Protocols site for the raw text or error code. For more information, see [[MS-ERREF]: Windows Error Codes](https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
-
-The Microsoft Error Lookup Tool quickly and easily produces the message text that is associated with a DWORD hexadecimal status code (or other code). This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.
+The Microsoft Error Lookup Tool displays the message text that is associated with a hexadecimal status code (or other code). This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.
 
 The tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:  
 
@@ -81,4 +70,4 @@ C:\Tools>Err_6.4.5.exe 7b
 
 ## More information
 
-Keep in mind that this is a "point-in-time" tool. The Microsoft Error Lookup Tool decodes most Microsoft error codes as of the date on which the tool was compiled. As new releases of Windows add new event and error codes, you may have to download a new version of the Error Lookup Tool. Check the Microsoft Download Center for a new version, or consult the [Windows Protocols](https://docs.microsoft.com/openspecs/windows_protocols/MS-WINPROTLP/92b33e19-6fff-496b-86c3-d168206f9845) site.
+Keep in mind that this is a "point-in-time" tool. The Microsoft Error Lookup Tool decodes most Microsoft error codes as of the date on which the tool was compiled. As new releases of Windows add new event and error codes, you may have to download a new version of the Error Lookup Tool. Check the Microsoft Download Center for a new version, or see [Error Codes](system-error-codes.md).
