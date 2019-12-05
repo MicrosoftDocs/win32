@@ -7,18 +7,20 @@ ms.date: 11/08/2019
 
 # Download and use the Microsoft Error Lookup Tool
 
-Microsoft Windows and other software components report status information, including error-level information, in the form of hexadecimal values. These values often use DWORD (double word) format. This format conserves energy and computer resources because one DWORD value typically takes less space in memory than a string of Unicode text. However, the stored value itself may not have meaning for end users and technicians. They have to convert those codes to human-readable text to understand what event logs, text logs, and other diagnostic sources are reporting.
+Microsoft Windows and other software components report status information, including error-level information, in the form of hexadecimal values. These values are often in DWORD (double word) format to conserve energy and computer resources, as one DWORD value typically takes less space in memory than a string of Unicode text. 
 
-You can use any of the following methods to decode Microsoft event message codes:
+Unfortunately, the stored value itself may not have meaning for end users and technicians, who have to convert the codes to human-readable text to understand what event logs, text logs, and other diagnostic sources are reporting.
 
-- Use your favorite search engine, search for the code, and hope for the best.
+To decode Microsoft event message codes, use any of the following methods:
+
+- Use the Microsoft Error Lookup Tool (as described in this article).
+- Search for the code using your favorite search engine and hope for the best.
 - Install the Debugging Tools for Windows, load a memory dump file, and then run **\!err \<code>**.
 - Search the Microsoft Protocols site for the raw text or error code. For more information, see [[MS-ERREF]: Windows Error Codes](https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
-- Use the Microsoft Error Lookup Tool (as described in this article).
 
-The Microsoft Error Lookup Tool quickly and easily produces the message text that is associated with a DWORD hexadecimal status code or other code. This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.
+The Microsoft Error Lookup Tool quickly and easily produces the message text associated with a DWORD hexadecimal status code (or other code). This text is defined in various Microsoft source-code header files, such as Winerror.h, Setupapi.h, and so on.
 
-This tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:  
+The tool is digitally signed by Microsoft. The following is the SHA256 information for the file download:  
 
 |Algorithm |Hash |
 | --- | --- |
@@ -78,4 +80,4 @@ C:\Tools>Err_6.4.5.exe 7b
 
 ## More Information
 
-This simple tool decodes most Microsoft error codes as of the date that the tool was compiled. Keep in mind that this is a "point-in-time" tool. As new releases of Windows add new event and error codes, you may have to download a new version of the Error Lookup Tool. You can check the Microsoft Download Center for a new version, or consult the [Windows Protocols](https://docs.microsoft.com/openspecs/windows_protocols/MS-WINPROTLP/92b33e19-6fff-496b-86c3-d168206f9845) site.
+Keep in mind that this is a "point-in-time" tool. The Microsoft Error Lookup Tool decodes most Microsoft error codes as of the date that the tool was compiled. As new releases of Windows add new event and error codes, you may have to download a new version of the Error Lookup Tool. Check the Microsoft Download Center for a new version, or consult the [Windows Protocols](https://docs.microsoft.com/openspecs/windows_protocols/MS-WINPROTLP/92b33e19-6fff-496b-86c3-d168206f9845) site.
