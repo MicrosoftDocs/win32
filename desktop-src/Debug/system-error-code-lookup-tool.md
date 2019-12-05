@@ -70,4 +70,4 @@ C:\Tools>Err_6.4.5.exe 7b
 
 ## More information
 
-Keep in mind that this is a "point-in-time" tool. The Microsoft Error Lookup Tool decodes most Microsoft error codes as of the date on which the tool was compiled. As new releases of Windows add new event and error codes, you may have to download a new version of the Error Lookup Tool. Check the Microsoft Download Center for a new version, or see [Error Codes](system-error-codes).
+Keep in mind that this is a "point-in-time" tool. The Microsoft Error Lookup Tool decodes most Microsoft error codes as of the date on which the tool was compiled. As new releases of Windows add new event and error codes, you may have to download a new version of the Error Lookup Tool. Check the Microsoft Download Center for a new version, or see [Error Codes](system-error-codes.md).
