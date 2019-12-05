@@ -19,7 +19,7 @@ This section is intended for developers who are debugging system errors. If you 
 
 We've listed the system error codes in this section, organized by number. If you need more help tracking down a specific error, here are some more recommendations:
 
-* Use the [Microsoft Error Lookup Tool](system-error-code-lookup-tool).
+* Use the [Microsoft Error Lookup Tool](system-error-code-lookup-tool.md).
 *  Install the Debugging Tools for Windows, load a memory dump file, and then run the **\!err \<code>** command.
 * Search the Microsoft Protocols site for the raw text or error code. For more information, see [[MS-ERREF]: Windows Error Codes](https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
