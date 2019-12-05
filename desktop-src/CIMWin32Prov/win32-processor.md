@@ -1161,883 +1161,1316 @@ This property is inherited from [**CIM\_Processor**](cim-processor.md).
 
 <span id="Other"></span><span id="other"></span><span id="OTHER"></span>
 
-<span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)
+**Other** (1)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
 
-<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (2)
+**Unknown** (2)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="8086"></span>
 
-<span id="8086"></span>**8086** (3)
+**8086** (3)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="80286"></span>
 
-<span id="80286"></span>**80286** (4)
+**80286** (4)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="80386"></span>
 
-<span id="80386"></span>**80386** (5)
+**80386** (5)
 
 
-</dt> <dd>
-
-Intel386™ Processor
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="80486"></span>
 
-<span id="80486"></span>**80486** (6)
+**80486** (6)
 
 
-</dt> <dd>
-
-Intel486™ Processor
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="8087"></span>
 
-<span id="8087"></span>**8087** (7)
+**8087** (7)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="80287"></span>
 
-<span id="80287"></span>**80287** (8)
+**80287** (8)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="80387"></span>
 
-<span id="80387"></span>**80387** (9)
+**80387** (9)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="80487"></span>
 
-<span id="80487"></span>**80487** (10)
+**80487** (10)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Pentium_R__brand"></span><span id="pentium_r__brand"></span><span id="PENTIUM_R__BRAND"></span>
 
-<span id="Pentium_R__brand"></span><span id="pentium_r__brand"></span><span id="PENTIUM_R__BRAND"></span>**Pentium(R) brand** (11)
+**Pentium(R) brand** (11)
 
 
-</dt> <dd>
-
-Pentium Brand
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__Pro"></span><span id="pentium_r__pro"></span><span id="PENTIUM_R__PRO"></span>
 
-<span id="Pentium_R__Pro"></span><span id="pentium_r__pro"></span><span id="PENTIUM_R__PRO"></span>**Pentium(R) Pro** (12)
+**Pentium(R) Pro** (12)
 
 
-</dt> <dd>
-
-Pentium Pro
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__II"></span><span id="pentium_r__ii"></span><span id="PENTIUM_R__II"></span>
 
-<span id="Pentium_R__II"></span><span id="pentium_r__ii"></span><span id="PENTIUM_R__II"></span>**Pentium(R) II** (13)
+**Pentium(R) II** (13)
 
 
-</dt> <dd>
-
-Pentium II
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__processor_with_MMX_TM__technology"></span><span id="pentium_r__processor_with_mmx_tm__technology"></span><span id="PENTIUM_R__PROCESSOR_WITH_MMX_TM__TECHNOLOGY"></span>
 
-<span id="Pentium_R__processor_with_MMX_TM__technology"></span><span id="pentium_r__processor_with_mmx_tm__technology"></span><span id="PENTIUM_R__PROCESSOR_WITH_MMX_TM__TECHNOLOGY"></span>**Pentium(R) processor with MMX(TM) technology** (14)
+**Pentium(R) processor with MMX(TM) technology** (14)
 
 
-</dt> <dd>
-
-Pentium Processor with MMX™ Technology
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Celeron_TM_"></span><span id="celeron_tm_"></span><span id="CELERON_TM_"></span>
 
-<span id="Celeron_TM_"></span><span id="celeron_tm_"></span><span id="CELERON_TM_"></span>**Celeron(TM)** (15)
+**Celeron(TM)** (15)
 
 
-</dt> <dd>
-
-Celeron™
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__II_Xeon_TM_"></span><span id="pentium_r__ii_xeon_tm_"></span><span id="PENTIUM_R__II_XEON_TM_"></span>
 
-<span id="Pentium_R__II_Xeon_TM_"></span><span id="pentium_r__ii_xeon_tm_"></span><span id="PENTIUM_R__II_XEON_TM_"></span>**Pentium(R) II Xeon(TM)** (16)
+**Pentium(R) II Xeon(TM)** (16)
 
 
-</dt> <dd>
-
-Pentium II Xeon™
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__III"></span><span id="pentium_r__iii"></span><span id="PENTIUM_R__III"></span>
 
-<span id="Pentium_R__III"></span><span id="pentium_r__iii"></span><span id="PENTIUM_R__III"></span>**Pentium(R) III** (17)
+**Pentium(R) III** (17)
 
 
-</dt> <dd>
-
-Pentium III
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="M1_Family"></span><span id="m1_family"></span><span id="M1_FAMILY"></span>
 
-<span id="M1_Family"></span><span id="m1_family"></span><span id="M1_FAMILY"></span>**M1 Family** (18)
+**M1 Family** (18)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="M2_Family"></span><span id="m2_family"></span><span id="M2_FAMILY"></span>
 
-<span id="M2_Family"></span><span id="m2_family"></span><span id="M2_FAMILY"></span>**M2 Family** (19)
+**M2 Family** (19)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Celeron_R__M_processor"></span><span id="intel_r__celeron_r__m_processor"></span><span id="INTEL_R__CELERON_R__M_PROCESSOR"></span>
+
+**Intel(R) Celeron(R) M processor** (20)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Pentium_R__4_HT_processor"></span><span id="intel_r__pentium_r__4_ht_processor"></span><span id="INTEL_R__PENTIUM_R__4_HT_PROCESSOR"></span>
+
+**Intel(R) Pentium(R) 4 HT processor** (21)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="K5_Family"></span><span id="k5_family"></span><span id="K5_FAMILY"></span>
 
-<span id="K5_Family"></span><span id="k5_family"></span><span id="K5_FAMILY"></span>**K5 Family** (24)
+**K5 Family** (24)
 
 
-</dt> <dd>
-
-AMD Duron™ Processor Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="K6_Family"></span><span id="k6_family"></span><span id="K6_FAMILY"></span>
 
-<span id="K6_Family"></span><span id="k6_family"></span><span id="K6_FAMILY"></span>**K6 Family** (25)
+**K6 Family** (25)
 
 
-</dt> <dd>
-
-K5 Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="K6-2"></span><span id="k6-2"></span>
 
-<span id="K6-2"></span><span id="k6-2"></span>**K6-2** (26)
+**K6-2** (26)
 
 
-</dt> <dd>
-
-K6 Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="K6-3"></span><span id="k6-3"></span>
 
-<span id="K6-3"></span><span id="k6-3"></span>**K6-3** (27)
+**K6-3** (27)
 
 
-</dt> <dd>
-
-K6-2
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="AMD_Athlon_TM__Processor_Family"></span><span id="amd_athlon_tm__processor_family"></span><span id="AMD_ATHLON_TM__PROCESSOR_FAMILY"></span>
 
-<span id="AMD_Athlon_TM__Processor_Family"></span><span id="amd_athlon_tm__processor_family"></span><span id="AMD_ATHLON_TM__PROCESSOR_FAMILY"></span>**AMD Athlon(TM) Processor Family** (28)
+**AMD Athlon(TM) Processor Family** (28)
 
 
-</dt> <dd>
-
-K6-3
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="AMD_R__Duron_TM__Processor"></span><span id="amd_r__duron_tm__processor"></span><span id="AMD_R__DURON_TM__PROCESSOR"></span>
 
-<span id="AMD_R__Duron_TM__Processor"></span><span id="amd_r__duron_tm__processor"></span><span id="AMD_R__DURON_TM__PROCESSOR"></span>**AMD(R) Duron(TM) Processor** (29)
+**AMD(R) Duron(TM) Processor** (29)
 
 
-</dt> <dd>
-
-AMD Athlon™ Processor Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="AMD29000_Family"></span><span id="amd29000_family"></span><span id="AMD29000_FAMILY"></span>
 
-<span id="AMD29000_Family"></span><span id="amd29000_family"></span><span id="AMD29000_FAMILY"></span>**AMD29000 Family** (30)
+**AMD29000 Family** (30)
 
 
-</dt> <dd>
-
-AMD2900 Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="K6-2_"></span><span id="k6-2_"></span>
 
-<span id="K6-2_"></span><span id="k6-2_"></span>**K6-2+** (31)
+**K6-2+** (31)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_Family"></span><span id="power_pc_family"></span><span id="POWER_PC_FAMILY"></span>
 
-<span id="Power_PC_Family"></span><span id="power_pc_family"></span><span id="POWER_PC_FAMILY"></span>**Power PC Family** (32)
+**Power PC Family** (32)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_601"></span><span id="power_pc_601"></span><span id="POWER_PC_601"></span>
 
-<span id="Power_PC_601"></span><span id="power_pc_601"></span><span id="POWER_PC_601"></span>**Power PC 601** (33)
+**Power PC 601** (33)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_603"></span><span id="power_pc_603"></span><span id="POWER_PC_603"></span>
 
-<span id="Power_PC_603"></span><span id="power_pc_603"></span><span id="POWER_PC_603"></span>**Power PC 603** (34)
+**Power PC 603** (34)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_603_"></span><span id="power_pc_603_"></span><span id="POWER_PC_603_"></span>
 
-<span id="Power_PC_603_"></span><span id="power_pc_603_"></span><span id="POWER_PC_603_"></span>**Power PC 603+** (35)
+**Power PC 603+** (35)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_604"></span><span id="power_pc_604"></span><span id="POWER_PC_604"></span>
 
-<span id="Power_PC_604"></span><span id="power_pc_604"></span><span id="POWER_PC_604"></span>**Power PC 604** (36)
+**Power PC 604** (36)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_620"></span><span id="power_pc_620"></span><span id="POWER_PC_620"></span>
 
-<span id="Power_PC_620"></span><span id="power_pc_620"></span><span id="POWER_PC_620"></span>**Power PC 620** (37)
+**Power PC 620** (37)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_X704"></span><span id="power_pc_x704"></span><span id="POWER_PC_X704"></span>
 
-<span id="Power_PC_X704"></span><span id="power_pc_x704"></span><span id="POWER_PC_X704"></span>**Power PC X704** (38)
+**Power PC X704** (38)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Power_PC_750"></span><span id="power_pc_750"></span><span id="POWER_PC_750"></span>
 
-<span id="Power_PC_750"></span><span id="power_pc_750"></span><span id="POWER_PC_750"></span>**Power PC 750** (39)
+**Power PC 750** (39)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__Duo_processor"></span><span id="intel_r__core_tm__duo_processor"></span><span id="INTEL_R__CORE_TM__DUO_PROCESSOR"></span>
+
+**Intel(R) Core(TM) Duo processor** (40)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__Duo_mobile_processor"></span><span id="intel_r__core_tm__duo_mobile_processor"></span><span id="INTEL_R__CORE_TM__DUO_MOBILE_PROCESSOR"></span>
+
+**Intel(R) Core(TM) Duo mobile processor** (41)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__Solo_mobile_processor"></span><span id="intel_r__core_tm__solo_mobile_processor"></span><span id="INTEL_R__CORE_TM__SOLO_MOBILE_PROCESSOR"></span>
+
+**Intel(R) Core(TM) Solo mobile processor** (42)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Atom_TM__processor"></span><span id="intel_r__atom_tm__processor"></span><span id="INTEL_R__ATOM_TM__PROCESSOR"></span>
+
+**Intel(R) Atom(TM) processor** (43)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_Family"></span><span id="alpha_family"></span><span id="ALPHA_FAMILY"></span>
 
-<span id="Alpha_Family"></span><span id="alpha_family"></span><span id="ALPHA_FAMILY"></span>**Alpha Family** (48)
+**Alpha Family** (48)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21064"></span><span id="alpha_21064"></span><span id="ALPHA_21064"></span>
 
-<span id="Alpha_21064"></span><span id="alpha_21064"></span><span id="ALPHA_21064"></span>**Alpha 21064** (49)
+**Alpha 21064** (49)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21066"></span><span id="alpha_21066"></span><span id="ALPHA_21066"></span>
 
-<span id="Alpha_21066"></span><span id="alpha_21066"></span><span id="ALPHA_21066"></span>**Alpha 21066** (50)
+**Alpha 21066** (50)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21164"></span><span id="alpha_21164"></span><span id="ALPHA_21164"></span>
 
-<span id="Alpha_21164"></span><span id="alpha_21164"></span><span id="ALPHA_21164"></span>**Alpha 21164** (51)
+**Alpha 21164** (51)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21164PC"></span><span id="alpha_21164pc"></span><span id="ALPHA_21164PC"></span>
 
-<span id="Alpha_21164PC"></span><span id="alpha_21164pc"></span><span id="ALPHA_21164PC"></span>**Alpha 21164PC** (52)
+**Alpha 21164PC** (52)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21164a"></span><span id="alpha_21164a"></span><span id="ALPHA_21164A"></span>
 
-<span id="Alpha_21164a"></span><span id="alpha_21164a"></span><span id="ALPHA_21164A"></span>**Alpha 21164a** (53)
+**Alpha 21164a** (53)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21264"></span><span id="alpha_21264"></span><span id="ALPHA_21264"></span>
 
-<span id="Alpha_21264"></span><span id="alpha_21264"></span><span id="ALPHA_21264"></span>**Alpha 21264** (54)
+**Alpha 21264** (54)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Alpha_21364"></span><span id="alpha_21364"></span><span id="ALPHA_21364"></span>
 
-<span id="Alpha_21364"></span><span id="alpha_21364"></span><span id="ALPHA_21364"></span>**Alpha 21364** (55)
+**Alpha 21364** (55)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Turion_TM__II_Ultra_Dual-Core_Mobile_M_Processor_Family"></span><span id="amd_turion_tm__ii_ultra_dual-core_mobile_m_processor_family"></span><span id="AMD_TURION_TM__II_ULTRA_DUAL-CORE_MOBILE_M_PROCESSOR_FAMILY"></span>
+
+**AMD Turion(TM) II Ultra Dual-Core Mobile M Processor Family** (56)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Turion_TM__II_Dual-Core_Mobile_M_Processor_Family"></span><span id="amd_turion_tm__ii_dual-core_mobile_m_processor_family"></span><span id="AMD_TURION_TM__II_DUAL-CORE_MOBILE_M_PROCESSOR_FAMILY"></span>
+
+**AMD Turion(TM) II Dual-Core Mobile M Processor Family** (57)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Athlon_TM__II_Dual-Core_Mobile_M_Processor_Family"></span><span id="amd_athlon_tm__ii_dual-core_mobile_m_processor_family"></span><span id="AMD_ATHLON_TM__II_DUAL-CORE_MOBILE_M_PROCESSOR_FAMILY"></span>
+
+**AMD Athlon(TM) II Dual-Core Mobile M Processor Family** (58)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Opteron_TM__6100_Series_Processor"></span><span id="amd_opteron_tm__6100_series_processor"></span><span id="AMD_OPTERON_TM__6100_SERIES_PROCESSOR"></span>
+
+**AMD Opteron(TM) 6100 Series Processor** (59)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Opteron_TM__4100_Series_Processor"></span><span id="amd_opteron_tm__4100_series_processor"></span><span id="AMD_OPTERON_TM__4100_SERIES_PROCESSOR"></span>
+
+**AMD Opteron(TM) 4100 Series Processor** (60)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MIPS_Family"></span><span id="mips_family"></span><span id="MIPS_FAMILY"></span>
 
-<span id="MIPS_Family"></span><span id="mips_family"></span><span id="MIPS_FAMILY"></span>**MIPS Family** (64)
+**MIPS Family** (64)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MIPS_R4000"></span><span id="mips_r4000"></span>
 
-<span id="MIPS_R4000"></span><span id="mips_r4000"></span>**MIPS R4000** (65)
+**MIPS R4000** (65)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MIPS_R4200"></span><span id="mips_r4200"></span>
 
-<span id="MIPS_R4200"></span><span id="mips_r4200"></span>**MIPS R4200** (66)
+**MIPS R4200** (66)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MIPS_R4400"></span><span id="mips_r4400"></span>
 
-<span id="MIPS_R4400"></span><span id="mips_r4400"></span>**MIPS R4400** (67)
+**MIPS R4400** (67)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MIPS_R4600"></span><span id="mips_r4600"></span>
 
-<span id="MIPS_R4600"></span><span id="mips_r4600"></span>**MIPS R4600** (68)
+**MIPS R4600** (68)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MIPS_R10000"></span><span id="mips_r10000"></span>
 
-<span id="MIPS_R10000"></span><span id="mips_r10000"></span>**MIPS R10000** (69)
+**MIPS R10000** (69)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SPARC_Family"></span><span id="sparc_family"></span><span id="SPARC_FAMILY"></span>
 
-<span id="SPARC_Family"></span><span id="sparc_family"></span><span id="SPARC_FAMILY"></span>**SPARC Family** (80)
+**SPARC Family** (80)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SuperSPARC"></span><span id="supersparc"></span><span id="SUPERSPARC"></span>
 
-<span id="SuperSPARC"></span><span id="supersparc"></span><span id="SUPERSPARC"></span>**SuperSPARC** (81)
+**SuperSPARC** (81)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="microSPARC_II"></span><span id="microsparc_ii"></span><span id="MICROSPARC_II"></span>
 
-<span id="microSPARC_II"></span><span id="microsparc_ii"></span><span id="MICROSPARC_II"></span>**microSPARC II** (82)
+**microSPARC II** (82)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="microSPARC_IIep"></span><span id="microsparc_iiep"></span><span id="MICROSPARC_IIEP"></span>
 
-<span id="microSPARC_IIep"></span><span id="microsparc_iiep"></span><span id="MICROSPARC_IIEP"></span>**microSPARC IIep** (83)
+**microSPARC IIep** (83)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UltraSPARC"></span><span id="ultrasparc"></span><span id="ULTRASPARC"></span>
 
-<span id="UltraSPARC"></span><span id="ultrasparc"></span><span id="ULTRASPARC"></span>**UltraSPARC** (84)
+**UltraSPARC** (84)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UltraSPARC_II"></span><span id="ultrasparc_ii"></span><span id="ULTRASPARC_II"></span>
 
-<span id="UltraSPARC_II"></span><span id="ultrasparc_ii"></span><span id="ULTRASPARC_II"></span>**UltraSPARC II** (85)
+**UltraSPARC II** (85)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UltraSPARC_IIi"></span><span id="ultrasparc_iii"></span><span id="ULTRASPARC_III"></span>
 
-<span id="UltraSPARC_IIi"></span><span id="ultrasparc_iii"></span><span id="ULTRASPARC_III"></span>**UltraSPARC IIi** (86)
+**UltraSPARC IIi** (86)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UltraSPARC_III"></span><span id="ultrasparc_iii"></span><span id="ULTRASPARC_III"></span>
 
-<span id="UltraSPARC_III"></span><span id="ultrasparc_iii"></span><span id="ULTRASPARC_III"></span>**UltraSPARC III** (87)
+**UltraSPARC III** (87)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UltraSPARC_IIIi"></span><span id="ultrasparc_iiii"></span><span id="ULTRASPARC_IIII"></span>
 
-<span id="UltraSPARC_IIIi"></span><span id="ultrasparc_iiii"></span><span id="ULTRASPARC_IIII"></span>**UltraSPARC IIIi** (88)
+**UltraSPARC IIIi** (88)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="68040"></span>
 
-<span id="68040"></span>**68040** (96)
+**68040** (96)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="68xxx_Family"></span><span id="68xxx_family"></span><span id="68XXX_FAMILY"></span>
 
-<span id="68xxx_Family"></span><span id="68xxx_family"></span><span id="68XXX_FAMILY"></span>**68xxx Family** (97)
+**68xxx Family** (97)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="68000"></span>
 
-<span id="68000"></span>**68000** (98)
+**68000** (98)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="68010"></span>
 
-<span id="68010"></span>**68010** (99)
+**68010** (99)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="68020"></span>
 
-<span id="68020"></span>**68020** (100)
+**68020** (100)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="68030"></span>
 
-<span id="68030"></span>**68030** (101)
+**68030** (101)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Hobbit_Family"></span><span id="hobbit_family"></span><span id="HOBBIT_FAMILY"></span>
 
-<span id="Hobbit_Family"></span><span id="hobbit_family"></span><span id="HOBBIT_FAMILY"></span>**Hobbit Family** (112)
+**Hobbit Family** (112)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Crusoe_TM__TM5000_Family"></span><span id="crusoe_tm__tm5000_family"></span><span id="CRUSOE_TM__TM5000_FAMILY"></span>
 
-<span id="Crusoe_TM__TM5000_Family"></span><span id="crusoe_tm__tm5000_family"></span><span id="CRUSOE_TM__TM5000_FAMILY"></span>**Crusoe(TM) TM5000 Family** (120)
+**Crusoe(TM) TM5000 Family** (120)
 
 
-</dt> <dd>
-
-Crusoe™ TM5000 Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Crusoe_TM__TM3000_Family"></span><span id="crusoe_tm__tm3000_family"></span><span id="CRUSOE_TM__TM3000_FAMILY"></span>
 
-<span id="Crusoe_TM__TM3000_Family"></span><span id="crusoe_tm__tm3000_family"></span><span id="CRUSOE_TM__TM3000_FAMILY"></span>**Crusoe(TM) TM3000 Family** (121)
+**Crusoe(TM) TM3000 Family** (121)
 
 
-</dt> <dd>
-
-Crusoe™ TM3000 Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Efficeon_TM__TM8000_Family"></span><span id="efficeon_tm__tm8000_family"></span><span id="EFFICEON_TM__TM8000_FAMILY"></span>
 
-<span id="Efficeon_TM__TM8000_Family"></span><span id="efficeon_tm__tm8000_family"></span><span id="EFFICEON_TM__TM8000_FAMILY"></span>**Efficeon(TM) TM8000 Family** (122)
+**Efficeon(TM) TM8000 Family** (122)
 
 
-</dt> <dd>
-
-Efficeon™ TM8000 Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Weitek"></span><span id="weitek"></span><span id="WEITEK"></span>
 
-<span id="Weitek"></span><span id="weitek"></span><span id="WEITEK"></span>**Weitek** (128)
+**Weitek** (128)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Itanium_TM__Processor"></span><span id="itanium_tm__processor"></span><span id="ITANIUM_TM__PROCESSOR"></span>
 
-<span id="Itanium_TM__Processor"></span><span id="itanium_tm__processor"></span><span id="ITANIUM_TM__PROCESSOR"></span>**Itanium(TM) Processor** (130)
+**Itanium(TM) Processor** (130)
 
 
-</dt> <dd>
-
-Itanium™ Processor
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="AMD_Athlon_TM__64_Processor_Family"></span><span id="amd_athlon_tm__64_processor_family"></span><span id="AMD_ATHLON_TM__64_PROCESSOR_FAMILY"></span>
 
-<span id="AMD_Athlon_TM__64_Processor_Family"></span><span id="amd_athlon_tm__64_processor_family"></span><span id="AMD_ATHLON_TM__64_PROCESSOR_FAMILY"></span>**AMD Athlon(TM) 64 Processor Family** (131)
+**AMD Athlon(TM) 64 Processor Family** (131)
 
 
-</dt> <dd>
+</dt> <dd></dd> <dt>
 
-AMD Athlon™ 64 Processor Family
+<span id="AMD_Opteron_TM__Processor_Family"></span><span id="amd_opteron_tm__processor_family"></span><span id="AMD_OPTERON_TM__PROCESSOR_FAMILY"></span>
 
-</dd> <dt>
-
-<span id="AMD_Opteron_TM__Family"></span><span id="amd_opteron_tm__family"></span><span id="AMD_OPTERON_TM__FAMILY"></span>
-
-<span id="AMD_Opteron_TM__Family"></span><span id="amd_opteron_tm__family"></span><span id="AMD_OPTERON_TM__FAMILY"></span>**AMD Opteron(TM) Family** (132)
+**AMD Opteron(TM) Processor Family** (132)
 
 
-</dt> <dd>
+</dt> <dd></dd> <dt>
 
-AMD Opteron™ Processor Family
+<span id="AMD_Sempron_TM__Processor_Family"></span><span id="amd_sempron_tm__processor_family"></span><span id="AMD_SEMPRON_TM__PROCESSOR_FAMILY"></span>
 
-</dd> <dt>
+**AMD Sempron(TM) Processor Family** (133)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Turion_TM__64_Mobile_Technology"></span><span id="amd_turion_tm__64_mobile_technology"></span><span id="AMD_TURION_TM__64_MOBILE_TECHNOLOGY"></span>
+
+**AMD Turion(TM) 64 Mobile Technology** (134)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_AMD_Opteron_TM__Processor_Family"></span><span id="dual-core_amd_opteron_tm__processor_family"></span><span id="DUAL-CORE_AMD_OPTERON_TM__PROCESSOR_FAMILY"></span>
+
+**Dual-Core AMD Opteron(TM) Processor Family** (135)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Athlon_TM__64_X2_Dual-Core_Processor_Family"></span><span id="amd_athlon_tm__64_x2_dual-core_processor_family"></span><span id="AMD_ATHLON_TM__64_X2_DUAL-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Athlon(TM) 64 X2 Dual-Core Processor Family** (136)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Turion_TM__64_X2_Mobile_Technology"></span><span id="amd_turion_tm__64_x2_mobile_technology"></span><span id="AMD_TURION_TM__64_X2_MOBILE_TECHNOLOGY"></span>
+
+**AMD Turion(TM) 64 X2 Mobile Technology** (137)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_AMD_Opteron_TM__Processor_Family"></span><span id="quad-core_amd_opteron_tm__processor_family"></span><span id="QUAD-CORE_AMD_OPTERON_TM__PROCESSOR_FAMILY"></span>
+
+**Quad-Core AMD Opteron(TM) Processor Family** (138)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Third-Generation_AMD_Opteron_TM__Processor_Family"></span><span id="third-generation_amd_opteron_tm__processor_family"></span><span id="THIRD-GENERATION_AMD_OPTERON_TM__PROCESSOR_FAMILY"></span>
+
+**Third-Generation AMD Opteron(TM) Processor Family** (139)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Phenom_TM__FX_Quad-Core_Processor_Family"></span><span id="amd_phenom_tm__fx_quad-core_processor_family"></span><span id="AMD_PHENOM_TM__FX_QUAD-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Phenom(TM) FX Quad-Core Processor Family** (140)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Phenom_TM__X4_Quad-Core_Processor_Family"></span><span id="amd_phenom_tm__x4_quad-core_processor_family"></span><span id="AMD_PHENOM_TM__X4_QUAD-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Phenom(TM) X4 Quad-Core Processor Family** (141)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Phenom_TM__X2_Dual-Core_Processor_Family"></span><span id="amd_phenom_tm__x2_dual-core_processor_family"></span><span id="AMD_PHENOM_TM__X2_DUAL-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Phenom(TM) X2 Dual-Core Processor Family** (142)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Athlon_TM__X2_Dual-Core_Processor_Family"></span><span id="amd_athlon_tm__x2_dual-core_processor_family"></span><span id="AMD_ATHLON_TM__X2_DUAL-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Athlon(TM) X2 Dual-Core Processor Family** (143)
+
+
+</dt> <dd></dd> <dt>
 
 <span id="PA-RISC_Family"></span><span id="pa-risc_family"></span><span id="PA-RISC_FAMILY"></span>
 
-<span id="PA-RISC_Family"></span><span id="pa-risc_family"></span><span id="PA-RISC_FAMILY"></span>**PA-RISC Family** (144)
+**PA-RISC Family** (144)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="PA-RISC_8500"></span><span id="pa-risc_8500"></span>
 
-<span id="PA-RISC_8500"></span><span id="pa-risc_8500"></span>**PA-RISC 8500** (145)
+**PA-RISC 8500** (145)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="PA-RISC_8000"></span><span id="pa-risc_8000"></span>
 
-<span id="PA-RISC_8000"></span><span id="pa-risc_8000"></span>**PA-RISC 8000** (146)
+**PA-RISC 8000** (146)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="PA-RISC_7300LC"></span><span id="pa-risc_7300lc"></span>
 
-<span id="PA-RISC_7300LC"></span><span id="pa-risc_7300lc"></span>**PA-RISC 7300LC** (147)
+**PA-RISC 7300LC** (147)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="PA-RISC_7200"></span><span id="pa-risc_7200"></span>
 
-<span id="PA-RISC_7200"></span><span id="pa-risc_7200"></span>**PA-RISC 7200** (148)
+**PA-RISC 7200** (148)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="PA-RISC_7100LC"></span><span id="pa-risc_7100lc"></span>
 
-<span id="PA-RISC_7100LC"></span><span id="pa-risc_7100lc"></span>**PA-RISC 7100LC** (149)
+**PA-RISC 7100LC** (149)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="PA-RISC_7100"></span><span id="pa-risc_7100"></span>
 
-<span id="PA-RISC_7100"></span><span id="pa-risc_7100"></span>**PA-RISC 7100** (150)
+**PA-RISC 7100** (150)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="V30_Family"></span><span id="v30_family"></span><span id="V30_FAMILY"></span>
 
-<span id="V30_Family"></span><span id="v30_family"></span><span id="V30_FAMILY"></span>**V30 Family** (160)
+**V30 Family** (160)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_3200_Series"></span><span id="quad-core_intel_r__xeon_r__processor_3200_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_3200_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 3200 Series** (161)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_3000_Series"></span><span id="dual-core_intel_r__xeon_r__processor_3000_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_3000_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 3000 Series** (162)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_5300_Series"></span><span id="quad-core_intel_r__xeon_r__processor_5300_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_5300_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 5300 Series** (163)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_5100_Series"></span><span id="dual-core_intel_r__xeon_r__processor_5100_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_5100_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 5100 Series** (164)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_5000_Series"></span><span id="dual-core_intel_r__xeon_r__processor_5000_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_5000_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 5000 Series** (165)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_LV"></span><span id="dual-core_intel_r__xeon_r__processor_lv"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_LV"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor LV** (166)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_ULV"></span><span id="dual-core_intel_r__xeon_r__processor_ulv"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_ULV"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor ULV** (167)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_7100_Series"></span><span id="dual-core_intel_r__xeon_r__processor_7100_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_7100_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 7100 Series** (168)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_5400_Series"></span><span id="quad-core_intel_r__xeon_r__processor_5400_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_5400_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 5400 Series** (169)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor"></span><span id="quad-core_intel_r__xeon_r__processor"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor** (170)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_5200_Series"></span><span id="dual-core_intel_r__xeon_r__processor_5200_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_5200_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 5200 Series** (171)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_7200_Series"></span><span id="dual-core_intel_r__xeon_r__processor_7200_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_7200_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 7200 Series** (172)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_7300_Series"></span><span id="quad-core_intel_r__xeon_r__processor_7300_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_7300_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 7300 Series** (173)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_7400_Series"></span><span id="quad-core_intel_r__xeon_r__processor_7400_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_7400_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 7400 Series** (174)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Multi-Core_Intel_R__Xeon_R__processor_7400_Series"></span><span id="multi-core_intel_r__xeon_r__processor_7400_series"></span><span id="MULTI-CORE_INTEL_R__XEON_R__PROCESSOR_7400_SERIES"></span>
+
+**Multi-Core Intel(R) Xeon(R) processor 7400 Series** (175)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Pentium_R__III_Xeon_TM_"></span><span id="pentium_r__iii_xeon_tm_"></span><span id="PENTIUM_R__III_XEON_TM_"></span>
 
-<span id="Pentium_R__III_Xeon_TM_"></span><span id="pentium_r__iii_xeon_tm_"></span><span id="PENTIUM_R__III_XEON_TM_"></span>**Pentium(R) III Xeon(TM)** (176)
+**Pentium(R) III Xeon(TM)** (176)
 
 
-</dt> <dd>
-
-Pentium III Xeon™ Processor
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__III_Processor_with_Intel_R__SpeedStep_TM__Technology"></span><span id="pentium_r__iii_processor_with_intel_r__speedstep_tm__technology"></span><span id="PENTIUM_R__III_PROCESSOR_WITH_INTEL_R__SPEEDSTEP_TM__TECHNOLOGY"></span>
 
-<span id="Pentium_R__III_Processor_with_Intel_R__SpeedStep_TM__Technology"></span><span id="pentium_r__iii_processor_with_intel_r__speedstep_tm__technology"></span><span id="PENTIUM_R__III_PROCESSOR_WITH_INTEL_R__SPEEDSTEP_TM__TECHNOLOGY"></span>**Pentium(R) III Processor with Intel(R) SpeedStep(TM) Technology** (177)
+**Pentium(R) III Processor with Intel(R) SpeedStep(TM) Technology** (177)
 
 
-</dt> <dd>
-
-Pentium III Processor with Intel SpeedStep™ Technology
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Pentium_R__4"></span><span id="pentium_r__4"></span><span id="PENTIUM_R__4"></span>
 
-<span id="Pentium_R__4"></span><span id="pentium_r__4"></span><span id="PENTIUM_R__4"></span>**Pentium(R) 4** (178)
+**Pentium(R) 4** (178)
 
 
-</dt> <dd>
-
-Pentium 4
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Intel_R__Xeon_TM_"></span><span id="intel_r__xeon_tm_"></span><span id="INTEL_R__XEON_TM_"></span>
 
-<span id="Intel_R__Xeon_TM_"></span><span id="intel_r__xeon_tm_"></span><span id="INTEL_R__XEON_TM_"></span>**Intel(R) Xeon(TM)** (179)
+**Intel(R) Xeon(TM)** (179)
 
 
-</dt> <dd>
-
-Intel Xeon™
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="AS400_Family"></span><span id="as400_family"></span><span id="AS400_FAMILY"></span>
 
-<span id="AS400_Family"></span><span id="as400_family"></span><span id="AS400_FAMILY"></span>**AS400 Family** (180)
+**AS400 Family** (180)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Intel_R__Xeon_TM__processor_MP"></span><span id="intel_r__xeon_tm__processor_mp"></span><span id="INTEL_R__XEON_TM__PROCESSOR_MP"></span>
 
-<span id="Intel_R__Xeon_TM__processor_MP"></span><span id="intel_r__xeon_tm__processor_mp"></span><span id="INTEL_R__XEON_TM__PROCESSOR_MP"></span>**Intel(R) Xeon(TM) processor MP** (181)
+**Intel(R) Xeon(TM) processor MP** (181)
 
 
-</dt> <dd>
+</dt> <dd></dd> <dt>
 
-Intel Xeon™ Processor MP
+<span id="AMD_Athlon_TM__XP_Family"></span><span id="amd_athlon_tm__xp_family"></span><span id="AMD_ATHLON_TM__XP_FAMILY"></span>
 
-</dd> <dt>
-
-<span id="AMD_AthlonXP_TM__Family"></span><span id="amd_athlonxp_tm__family"></span><span id="AMD_ATHLONXP_TM__FAMILY"></span>
-
-<span id="AMD_AthlonXP_TM__Family"></span><span id="amd_athlonxp_tm__family"></span><span id="AMD_ATHLONXP_TM__FAMILY"></span>**AMD AthlonXP(TM) Family** (182)
+**AMD Athlon(TM) XP Family** (182)
 
 
-</dt> <dd>
+</dt> <dd></dd> <dt>
 
-AMD Athlon™ XP Family
+<span id="AMD_Athlon_TM__MP_Family"></span><span id="amd_athlon_tm__mp_family"></span><span id="AMD_ATHLON_TM__MP_FAMILY"></span>
 
-</dd> <dt>
-
-<span id="AMD_AthlonMP_TM__Family"></span><span id="amd_athlonmp_tm__family"></span><span id="AMD_ATHLONMP_TM__FAMILY"></span>
-
-<span id="AMD_AthlonMP_TM__Family"></span><span id="amd_athlonmp_tm__family"></span><span id="AMD_ATHLONMP_TM__FAMILY"></span>**AMD AthlonMP(TM) Family** (183)
+**AMD Athlon(TM) MP Family** (183)
 
 
-</dt> <dd>
-
-AMD Athlon™ MP Family
-
-</dd> <dt>
+</dt> <dd></dd> <dt>
 
 <span id="Intel_R__Itanium_R__2"></span><span id="intel_r__itanium_r__2"></span><span id="INTEL_R__ITANIUM_R__2"></span>
 
-<span id="Intel_R__Itanium_R__2"></span><span id="intel_r__itanium_r__2"></span><span id="INTEL_R__ITANIUM_R__2"></span>**Intel(R) Itanium(R) 2** (184)
+**Intel(R) Itanium(R) 2** (184)
 
 
-</dt> <dd>
+</dt> <dd></dd> <dt>
 
-Intel Itanium 2
+<span id="Intel_R__Pentium_R__M_processor"></span><span id="intel_r__pentium_r__m_processor"></span><span id="INTEL_R__PENTIUM_R__M_PROCESSOR"></span>
 
-</dd> <dt>
+**Intel(R) Pentium(R) M processor** (185)
 
-<span id="Intel_Pentium_M_Processor"></span><span id="intel_pentium_m_processor"></span><span id="INTEL_PENTIUM_M_PROCESSOR"></span>
 
-<span id="Intel_Pentium_M_Processor"></span><span id="intel_pentium_m_processor"></span><span id="INTEL_PENTIUM_M_PROCESSOR"></span>**Intel Pentium M Processor** (185)
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Celeron_R__D_processor"></span><span id="intel_r__celeron_r__d_processor"></span><span id="INTEL_R__CELERON_R__D_PROCESSOR"></span>
+
+**Intel(R) Celeron(R) D processor** (186)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Pentium_R__D_processor"></span><span id="intel_r__pentium_r__d_processor"></span><span id="INTEL_R__PENTIUM_R__D_PROCESSOR"></span>
+
+**Intel(R) Pentium(R) D processor** (187)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Pentium_R__Processor_Extreme_Edition"></span><span id="intel_r__pentium_r__processor_extreme_edition"></span><span id="INTEL_R__PENTIUM_R__PROCESSOR_EXTREME_EDITION"></span>
+
+**Intel(R) Pentium(R) Processor Extreme Edition** (188)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__Solo_Processor"></span><span id="intel_r__core_tm__solo_processor"></span><span id="INTEL_R__CORE_TM__SOLO_PROCESSOR"></span>
+
+**Intel(R) Core(TM) Solo Processor** (189)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="K7"></span><span id="k7"></span>
 
-<span id="K7"></span><span id="k7"></span>**K7** (190)
+**K7** (190)
 
 
 </dt> <dd></dd> <dt>
 
-198
-</dt> <dd>
+<span id="Intel_R__Core_TM_2_Duo_Processor"></span><span id="intel_r__core_tm_2_duo_processor"></span><span id="INTEL_R__CORE_TM_2_DUO_PROCESSOR"></span>
 
-Intel Core™ i7-2760QM
-
-</dd> <dt>
-
-<span id="IBM390_Family"></span><span id="ibm390_family"></span><span id="IBM390_FAMILY"></span>
-
-<span id="IBM390_Family"></span><span id="ibm390_family"></span><span id="IBM390_FAMILY"></span>**IBM390 Family** (200)
+**Intel(R) Core(TM)2 Duo Processor** (191)
 
 
 </dt> <dd></dd> <dt>
 
-<span id="G4"></span><span id="g4"></span>
+<span id="Intel_R__Core_TM_2_Solo_processor"></span><span id="intel_r__core_tm_2_solo_processor"></span><span id="INTEL_R__CORE_TM_2_SOLO_PROCESSOR"></span>
 
-<span id="G4"></span><span id="g4"></span>**G4** (201)
-
-
-</dt> <dd></dd> <dt>
-
-<span id="G5"></span><span id="g5"></span>
-
-<span id="G5"></span><span id="g5"></span>**G5** (202)
+**Intel(R) Core(TM)2 Solo processor** (192)
 
 
 </dt> <dd></dd> <dt>
 
-<span id="G6"></span><span id="g6"></span>
+<span id="Intel_R__Core_TM_2_Extreme_processor"></span><span id="intel_r__core_tm_2_extreme_processor"></span><span id="INTEL_R__CORE_TM_2_EXTREME_PROCESSOR"></span>
 
-<span id="G6"></span><span id="g6"></span>**G6** (203)
+**Intel(R) Core(TM)2 Extreme processor** (193)
 
 
 </dt> <dd></dd> <dt>
 
-<span id="z_Architecture_base"></span><span id="z_architecture_base"></span><span id="Z_ARCHITECTURE_BASE"></span>
+<span id="Intel_R__Core_TM_2_Quad_processor"></span><span id="intel_r__core_tm_2_quad_processor"></span><span id="INTEL_R__CORE_TM_2_QUAD_PROCESSOR"></span>
 
-<span id="z_Architecture_base"></span><span id="z_architecture_base"></span><span id="Z_ARCHITECTURE_BASE"></span>**z/Architecture base** (204)
+**Intel(R) Core(TM)2 Quad processor** (194)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM_2_Extreme_mobile_processor"></span><span id="intel_r__core_tm_2_extreme_mobile_processor"></span><span id="INTEL_R__CORE_TM_2_EXTREME_MOBILE_PROCESSOR"></span>
+
+**Intel(R) Core(TM)2 Extreme mobile processor** (195)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM_2_Duo_mobile_processor"></span><span id="intel_r__core_tm_2_duo_mobile_processor"></span><span id="INTEL_R__CORE_TM_2_DUO_MOBILE_PROCESSOR"></span>
+
+**Intel(R) Core(TM)2 Duo mobile processor** (196)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM_2_Solo_mobile_processor"></span><span id="intel_r__core_tm_2_solo_mobile_processor"></span><span id="INTEL_R__CORE_TM_2_SOLO_MOBILE_PROCESSOR"></span>
+
+**Intel(R) Core(TM)2 Solo mobile processor** (197)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__i7_processor"></span><span id="intel_r__core_tm__i7_processor"></span><span id="INTEL_R__CORE_TM__I7_PROCESSOR"></span>
+
+**Intel(R) Core(TM) i7 processor** (198)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Celeron_R__Processor"></span><span id="dual-core_intel_r__celeron_r__processor"></span><span id="DUAL-CORE_INTEL_R__CELERON_R__PROCESSOR"></span>
+
+**Dual-Core Intel(R) Celeron(R) Processor** (199)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="S_390_and_zSeries_Family"></span><span id="s_390_and_zseries_family"></span><span id="S_390_AND_ZSERIES_FAMILY"></span>
+
+**S/390 and zSeries Family** (200)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="ESA_390_G4"></span><span id="esa_390_g4"></span>
+
+**ESA/390 G4** (201)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="ESA_390_G5"></span><span id="esa_390_g5"></span>
+
+**ESA/390 G5** (202)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="ESA_390_G6"></span><span id="esa_390_g6"></span>
+
+**ESA/390 G6** (203)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="z_Architectur_base"></span><span id="z_architectur_base"></span><span id="Z_ARCHITECTUR_BASE"></span>
+
+**z/Architectur base** (204)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__i5_processor"></span><span id="intel_r__core_tm__i5_processor"></span><span id="INTEL_R__CORE_TM__I5_PROCESSOR"></span>
+
+**Intel(R) Core(TM) i5 processor** (205)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Intel_R__Core_TM__i3_processor"></span><span id="intel_r__core_tm__i3_processor"></span><span id="INTEL_R__CORE_TM__I3_PROCESSOR"></span>
+
+**Intel(R) Core(TM) i3 processor** (206)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="VIA_C7_TM_-M_Processor_Family"></span><span id="via_c7_tm_-m_processor_family"></span><span id="VIA_C7_TM_-M_PROCESSOR_FAMILY"></span>
+
+**VIA C7(TM)-M Processor Family** (210)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="VIA_C7_TM_-D_Processor_Family"></span><span id="via_c7_tm_-d_processor_family"></span><span id="VIA_C7_TM_-D_PROCESSOR_FAMILY"></span>
+
+**VIA C7(TM)-D Processor Family** (211)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="VIA_C7_TM__Processor_Family"></span><span id="via_c7_tm__processor_family"></span><span id="VIA_C7_TM__PROCESSOR_FAMILY"></span>
+
+**VIA C7(TM) Processor Family** (212)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="VIA_Eden_TM__Processor_Family"></span><span id="via_eden_tm__processor_family"></span><span id="VIA_EDEN_TM__PROCESSOR_FAMILY"></span>
+
+**VIA Eden(TM) Processor Family** (213)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Multi-Core_Intel_R__Xeon_R__processor"></span><span id="multi-core_intel_r__xeon_r__processor"></span><span id="MULTI-CORE_INTEL_R__XEON_R__PROCESSOR"></span>
+
+**Multi-Core Intel(R) Xeon(R) processor** (214)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_3xxx_Series"></span><span id="dual-core_intel_r__xeon_r__processor_3xxx_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_3XXX_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 3xxx Series** (215)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_3xxx_Series"></span><span id="quad-core_intel_r__xeon_r__processor_3xxx_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_3XXX_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 3xxx Series** (216)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="VIA_Nano_TM__Processor_Family"></span><span id="via_nano_tm__processor_family"></span><span id="VIA_NANO_TM__PROCESSOR_FAMILY"></span>
+
+**VIA Nano(TM) Processor Family** (217)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_5xxx_Series"></span><span id="dual-core_intel_r__xeon_r__processor_5xxx_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_5XXX_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 5xxx Series** (218)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_5xxx_Series"></span><span id="quad-core_intel_r__xeon_r__processor_5xxx_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_5XXX_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 5xxx Series** (219)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Dual-Core_Intel_R__Xeon_R__processor_7xxx_Series"></span><span id="dual-core_intel_r__xeon_r__processor_7xxx_series"></span><span id="DUAL-CORE_INTEL_R__XEON_R__PROCESSOR_7XXX_SERIES"></span>
+
+**Dual-Core Intel(R) Xeon(R) processor 7xxx Series** (221)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Quad-Core_Intel_R__Xeon_R__processor_7xxx_Series"></span><span id="quad-core_intel_r__xeon_r__processor_7xxx_series"></span><span id="QUAD-CORE_INTEL_R__XEON_R__PROCESSOR_7XXX_SERIES"></span>
+
+**Quad-Core Intel(R) Xeon(R) processor 7xxx Series** (222)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Multi-Core_Intel_R__Xeon_R__processor_7xxx_Series"></span><span id="multi-core_intel_r__xeon_r__processor_7xxx_series"></span><span id="MULTI-CORE_INTEL_R__XEON_R__PROCESSOR_7XXX_SERIES"></span>
+
+**Multi-Core Intel(R) Xeon(R) processor 7xxx Series** (223)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Multi-Core_Intel_R__Xeon_R__processor_3400_Series"></span><span id="multi-core_intel_r__xeon_r__processor_3400_series"></span><span id="MULTI-CORE_INTEL_R__XEON_R__PROCESSOR_3400_SERIES"></span>
+
+**Multi-Core Intel(R) Xeon(R) processor 3400 Series** (224)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Embedded_AMD_Opteron_TM__Quad-Core_Processor_Family"></span><span id="embedded_amd_opteron_tm__quad-core_processor_family"></span><span id="EMBEDDED_AMD_OPTERON_TM__QUAD-CORE_PROCESSOR_FAMILY"></span>
+
+**Embedded AMD Opteron(TM) Quad-Core Processor Family** (230)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Phenom_TM__Triple-Core_Processor_Family"></span><span id="amd_phenom_tm__triple-core_processor_family"></span><span id="AMD_PHENOM_TM__TRIPLE-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Phenom(TM) Triple-Core Processor Family** (231)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Turion_TM__Ultra_Dual-Core_Mobile_Processor_Family"></span><span id="amd_turion_tm__ultra_dual-core_mobile_processor_family"></span><span id="AMD_TURION_TM__ULTRA_DUAL-CORE_MOBILE_PROCESSOR_FAMILY"></span>
+
+**AMD Turion(TM) Ultra Dual-Core Mobile Processor Family** (232)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Turion_TM__Dual-Core_Mobile_Processor_Family"></span><span id="amd_turion_tm__dual-core_mobile_processor_family"></span><span id="AMD_TURION_TM__DUAL-CORE_MOBILE_PROCESSOR_FAMILY"></span>
+
+**AMD Turion(TM) Dual-Core Mobile Processor Family** (233)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Athlon_TM__Dual-Core_Processor_Family"></span><span id="amd_athlon_tm__dual-core_processor_family"></span><span id="AMD_ATHLON_TM__DUAL-CORE_PROCESSOR_FAMILY"></span>
+
+**AMD Athlon(TM) Dual-Core Processor Family** (234)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Sempron_TM__SI_Processor_Family"></span><span id="amd_sempron_tm__si_processor_family"></span><span id="AMD_SEMPRON_TM__SI_PROCESSOR_FAMILY"></span>
+
+**AMD Sempron(TM) SI Processor Family** (235)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Phenom_TM__II_Processor_Family"></span><span id="amd_phenom_tm__ii_processor_family"></span><span id="AMD_PHENOM_TM__II_PROCESSOR_FAMILY"></span>
+
+**AMD Phenom(TM) II Processor Family** (236)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Athlon_TM__II_Processor_Family"></span><span id="amd_athlon_tm__ii_processor_family"></span><span id="AMD_ATHLON_TM__II_PROCESSOR_FAMILY"></span>
+
+**AMD Athlon(TM) II Processor Family** (237)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Six-Core_AMD_Opteron_TM__Processor_Family"></span><span id="six-core_amd_opteron_tm__processor_family"></span><span id="SIX-CORE_AMD_OPTERON_TM__PROCESSOR_FAMILY"></span>
+
+**Six-Core AMD Opteron(TM) Processor Family** (238)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="AMD_Sempron_TM__M_Processor_Family"></span><span id="amd_sempron_tm__m_processor_family"></span><span id="AMD_SEMPRON_TM__M_PROCESSOR_FAMILY"></span>
+
+**AMD Sempron(TM) M Processor Family** (239)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="i860"></span><span id="I860"></span>
 
-<span id="i860"></span><span id="I860"></span>**i860** (250)
+**i860** (250)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="i960"></span><span id="I960"></span>
 
-<span id="i960"></span><span id="I960"></span>**i960** (251)
+**i960** (251)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Reserved__SMBIOS_Extension_"></span><span id="reserved__smbios_extension_"></span><span id="RESERVED__SMBIOS_EXTENSION_"></span>
+
+**Reserved (SMBIOS Extension)** (254)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Reserved__Un-initialized_Flash_Content_-_Lo_"></span><span id="reserved__un-initialized_flash_content_-_lo_"></span><span id="RESERVED__UN-INITIALIZED_FLASH_CONTENT_-_LO_"></span>
+
+**Reserved (Un-initialized Flash Content - Lo)** (255)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SH-3"></span><span id="sh-3"></span>
 
-<span id="SH-3"></span><span id="sh-3"></span>**SH-3** (260)
+**SH-3** (260)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="SH-4"></span><span id="sh-4"></span>
 
-<span id="SH-4"></span><span id="sh-4"></span>**SH-4** (261)
+**SH-4** (261)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="ARM"></span><span id="arm"></span>
 
-<span id="ARM"></span><span id="arm"></span>**ARM** (280)
+**ARM** (280)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="StrongARM"></span><span id="strongarm"></span><span id="STRONGARM"></span>
 
-<span id="StrongARM"></span><span id="strongarm"></span><span id="STRONGARM"></span>**StrongARM** (281)
+**StrongARM** (281)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="6x86"></span><span id="6X86"></span>
 
-<span id="6x86"></span><span id="6X86"></span>**6x86** (300)
+**6x86** (300)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MediaGX"></span><span id="mediagx"></span><span id="MEDIAGX"></span>
 
-<span id="MediaGX"></span><span id="mediagx"></span><span id="MEDIAGX"></span>**MediaGX** (301)
+**MediaGX** (301)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="MII"></span><span id="mii"></span>
 
-<span id="MII"></span><span id="mii"></span>**MII** (302)
+**MII** (302)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="WinChip"></span><span id="winchip"></span><span id="WINCHIP"></span>
 
-<span id="WinChip"></span><span id="winchip"></span><span id="WINCHIP"></span>**WinChip** (320)
+**WinChip** (320)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DSP"></span><span id="dsp"></span>
 
-<span id="DSP"></span><span id="dsp"></span>**DSP** (350)
+**DSP** (350)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Video_Processor"></span><span id="video_processor"></span><span id="VIDEO_PROCESSOR"></span>
 
-<span id="Video_Processor"></span><span id="video_processor"></span><span id="VIDEO_PROCESSOR"></span>**Video Processor** (500)
+**Video Processor** (500)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Reserved__For_Future_Special_Purpose_Assignment_"></span><span id="reserved__for_future_special_purpose_assignment_"></span><span id="RESERVED__FOR_FUTURE_SPECIAL_PURPOSE_ASSIGNMENT_"></span>
+
+**Reserved (For Future Special Purpose Assignment)** (65534)
+
+
+</dt> <dd></dd> <dt>
+
+<span id="Reserved__Un-initialized_Flash_Content_-_Hi_"></span><span id="reserved__un-initialized_flash_content_-_hi_"></span><span id="RESERVED__UN-INITIALIZED_FLASH_CONTENT_-_HI_"></span>
+
+**Reserved (Un-initialized Flash Content - Hi)** (65535)
 
 
 </dt> <dd></dd> </dl>
