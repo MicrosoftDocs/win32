@@ -23,12 +23,14 @@ Some apps perform a version check and simply pass a warning to users. However, t
 -   If the app is dependent on specific API functionality, ensure you target the correct API version.
 -   NTDDI (NT device driver interface) version number will increment only if target functionality in the API changes. Ensure you detect the change via APISet or other exposed API as created by the feature team, and do not use the version as a proxy for some feature or fix. If there are breaking changes and a proper check is not exposed, then that is a bug.
 -   Ensure the app does NOT check for version in odd ways, such as via the registry, file versions, offsets, kernel mode, drivers or other means. If the app absolutely needs to check the version, use the GetVersion APIs, which should return the major, minor and build number.
--   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), remember that the behavior of this API has changed since Windows 8.1. Please refer to [the API documentation](../SysInfo/version-helper-apis.md) for more details.
+-   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), remember that the behavior of this API has changed starting with Windows 8.1. Please refer to [the API documentation](../SysInfo/version-helper-apis.md) for more details.
 -   If you own apps such as antimalware or firewall, you should work through your usual feedback channels and via the Windows Insider program.
 
 ## Declaring Windows 10 Compatibility With An App Manifest
 
-If your app is compatible with Windows 10, it can declare this fact in the [app (executable) manifest](/windows/compatibility/application-executable-manifest) for the app's executable. Specifically, within the [**&lt;compatibility&gt;** section](../SbsCs/application-manifests.md#compatibility) of the manifest, you'll need to add a **&lt;supportedOS&gt;** element for each Windows version you want to declare that your app supports.
+If your app is compatible with Windows 10, it can declare this fact in the [app (executable) manifest](/windows/compatibility/application-executable-manifest) for the app's executable. This tells the system that your app understands Windows 10's system version number of 10.0 (so the GetVersion API does not return an earlier version), and also lets the system turn off other compatibility behaviors applied to apps that don't declare Windows 10 compatibility.
+
+To declare Windows 10 compatibility in an app manifest, you'll need to add a [**&lt;compatibility&gt;** section](../SbsCs/application-manifests.md#compatibility) of the manifest if one does not already exist, and then add **&lt;supportedOS&gt;** elements for Windows 10 and every other Windows version you want to declare that your app supports.
 
 The following example shows an app manifest file for an app that supports all versions of Windows from Windows Vista to Windows 10:
 
