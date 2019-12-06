@@ -12,7 +12,7 @@ ms.custom: CSSTroubleshooting
 
 Restore points are created to allow users to select a previous system state. Each restore point contains the information needed to restore the system to the chosen state. Restore points are created before key changes are made to the system.
 
-System Restore has an automatic restore point space-management feature that purges the oldest restore points to make room for new ones, while still enabling the user to recover from any recent destructive changes. System Restore allocates space based on the size of the hard disk and the version of Windows that the computer runs, as follows:
+System Restore automatically manages the disk space that is allocated for restore points. It purges the oldest restore points to make room for new ones. System Restore allocates space based on the size of the hard disk and the version of Windows that the computer runs, as shown in the following table.
 
 |Windows version |Hard&nbsp;disk size |System Restore space |
 | --- | --- | --- |
@@ -27,8 +27,8 @@ System Restore has an automatic restore point space-management feature that purg
 System Restore automatically creates a restore point before the following events:
 
 - **Application installation** (provided the application uses an installer that is System Restore-compliant). If installing the application causes system problems, the user can restore the system to a state that precedes the installation.
-- **Windows Update or AutoUpdate installation**. Windows Update (previously known as AutoUpdate) automatically downloads and installs Windows updates, and provides an easy way for users to manually download and install updates. In any case, before an update installs, System Restore creates a restore point.
-- **System restore operation**. System Restore automatically creates a restore point as a backup before any restore operation starts. For example, if a user accidentally chooses the wrong restore point, the user can undo the restore operation by selecting a restore point that was created before the system restore took place. After Windows has been restored to its initial state, the user can select the correct restore point.
+- **Windows Update or AutoUpdate installation**. Windows Update (previously known as AutoUpdate) automatically downloads and installs Windows updates. Additionally, it provides an easy way for users to manually download and install updates. In any case, before an update installs, System Restore creates a restore point.
+- **System restore operation**. System Restore automatically creates a restore point as a backup before any restore operation starts. For example, suppose a user accidentally restores Windows to the wrong restore point. To undo that restoration, the user can restore Windows again and select the pre-restore restore point. After Windows has been restored to its initial state, the user can restore again, this time selecting the correct restore point.
 
 ## Scheduled restore points
 
@@ -45,7 +45,7 @@ Consider the following scenario:
 1. You install one or more Windows 10 updates.
 1. After the updates have finished installing, you restore the system to the "R1" restore point.
 
-In this scenario, the system is not restored to the "R1" restore point. Instead, the computer experiences a Stop error (0xc000021a). You restart the computer, but the system cannot return to the Windows desktop.
+In this scenario, the system is not restored to the "R1" restore point. Instead, the computer experiences a Stop error (0xc000021a). When you restart the computer, the system cannot return to the Windows desktop.
 
 ### Cause
 
@@ -53,7 +53,7 @@ This is a known issue in Windows 10.
 
 During the system restore process, Windows temporarily stages the restoration of files that are in use. It then saves the information in the registry. When the computer restarts, it completes the staged operation.
 
-In this situation, Windows restores the catalog files and stages the driver `.sys` files to be restored when the computer restarts. However, when the computer restarts, Windows loads the existing drivers before it restores the later versions of the drivers. Because the driver versions do not match the versions of the restored catalog files, the restart process stops.
+In this situation, Windows restores the catalog files and stages the driver (.sys) files to be restored when the computer restarts. However, when the computer restarts, Windows loads the existing drivers before it restores the later versions of the drivers. Because the driver versions do not match the versions of the restored catalog files, the restart process stops.
 
 ### Workaround
 
