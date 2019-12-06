@@ -8,26 +8,30 @@ ms.date: 12/04/2019
 
 # DXGI 1.6 improvements
 
-## Introduced in Windows 10, version 1809 (10.0; Build 17763)&mdash;also known as Windows 10 October 2018 Update
+## What's new for Windows 10 October 2018 Update
+
+The following APIs were added for Windows 10, version 1809 (10.0; Build 17763)&mdash;also known as Windows 10 October 2018 Update.
 
 - [**IDXGIFactory7**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory7) interface, and its methods.
 
-## Introduced in Windows 10, version 1803 (10.0; Build 17134)&mdash;also known as Windows 10 April 2018 Update
+## What's new for Windows 10 April 2018 Update
+
+The following APIs were added for Windows 10, version 1803 (10.0; Build 17134)&mdash;also known as Windows 10 April 2018 Update.
 
 - [**DXGI_GPU_PREFERENCE**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_gpu_preference) enumeration.
 - [**IDXGIFactory6**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory6) interface, and its methods.
 
-## Introduced in Windows 10, version 1709 (10.0; Build 16299)&mdash;also known as Windows 10 Fall Creators Update
+## What's new for Windows 10 Fall Creators Update
 
-These constants have been added to the [**DXGI_ADAPTER_FLAG3**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3) enumeration.
+For Windows 10, version 1709 (10.0; Build 16299)&mdash;also known as Windows 10 Fall Creators Update&mdash;these constants have been added to the [**DXGI_ADAPTER_FLAG3**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3) enumeration. 
 
 - **DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES**
 - **DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES**
 - **DXGI_ADAPTER_FLAG3_KEYED_MUTEX_CONFORMANCE**
 
-## Introduced in Windows 10, version 1703 (10.0; Build 15063)&mdash;also known as Windows 10 Creators Update
+## What's new for Windows 10 Creators Update
 
-The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 in order to detect HDR displays.
+For Windows 10, version 1703 (10.0; Build 15063)&mdash;also known as Windows 10 Creators Update&mdash;the following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 in order to detect HDR displays.
 
 ### High dynamic range (HDR) detection
 
