@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Windows Media Format SDK Functions
 description: Functions
 ms.assetid: '10fa8f96-8030-4727-af5d-7c06229d05d8'
 keywords:

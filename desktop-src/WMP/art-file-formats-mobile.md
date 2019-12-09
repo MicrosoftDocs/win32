@@ -1,5 +1,5 @@
 ---
-title: Art File Formats
+title: Art File Formats (Mobile)
 description: Art File Formats
 ms.assetid: c20a8eeb-6a13-4631-bb20-df03c4a4a1d2
 keywords:

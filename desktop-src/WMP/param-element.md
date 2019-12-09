@@ -1,5 +1,5 @@
 ---
-title: PARAM Element
+title: PARAM Element (WMP SDK)
 description: The PARAM element defines a custom parameter associated with a playlist or an element of a playlist.
 ms.assetid: d905a42a-ac89-4c99-94ca-b3b7060ebbdc
 keywords:

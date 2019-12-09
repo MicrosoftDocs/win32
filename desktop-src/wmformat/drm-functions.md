@@ -1,6 +1,6 @@
 ---
-title: Functions
-description: Functions
+title: Microsoft Windows Media DRM Client Functions
+description: Microsoft Windows Media DRM Client Functions
 ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
 keywords:
 - Windows Media Format SDK,functions

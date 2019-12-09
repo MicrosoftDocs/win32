@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Windows Media Format SDK Constants
 description: Constants
 ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
 keywords:

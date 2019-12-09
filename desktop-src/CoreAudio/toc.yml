@@ -33,8 +33,6 @@
         href: rendersharedeventdriven.md
       - name: "RenderSharedTimerDriven"
         href: rendersharedtimerdriven.md
-    - name: "For More Information"
-      href: for-more-information.md
   - name: "Programming Guide"
     href: programming-guide.md
     items: 

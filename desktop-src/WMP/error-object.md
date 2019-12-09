@@ -1,5 +1,5 @@
 ---
-title: Error Object
+title: Error Object (WMP SDK)
 description: The Error object provides access to a collection of ErrorItem objects.
 ms.assetid: 1f026ad4-0240-48fe-90ad-739a24e8a7ca
 keywords:

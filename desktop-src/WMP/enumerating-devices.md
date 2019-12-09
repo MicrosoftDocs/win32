@@ -1,5 +1,5 @@
 ---
-title: Enumerating Devices
+title: Enumerating Devices (WMP SDK)
 description: Enumerating Devices
 ms.assetid: 0236a629-c09a-4687-a8ba-fa05107fab33
 keywords:

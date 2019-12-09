@@ -1,6 +1,6 @@
 ---
-title: Structures
-description: Structures
+title: Windows Media Format SDK Structures
+description: Windows Media Format SDK Structures
 ms.assetid: '118ef278-ca4f-4c30-9633-a2d851f5c758'
 keywords:
 - Windows Media Format SDK,structures
