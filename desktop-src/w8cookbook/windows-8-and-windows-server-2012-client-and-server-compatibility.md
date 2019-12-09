@@ -1,5 +1,5 @@
 ---
-title: Windows 8 and Windows Server 2012 client and server compatibility
+title: Client and server compatibility - Windows 8
 description: Windows 8 and Windows Server 2012 client and server compatibility
 ms.assetid: 5067219A-EBA2-4FAF-8C17-7AB22C5EADD0
 ms.topic: article
@@ -48,7 +48,3 @@ This section describes changes in the operating system that you should pay speci
  
 
  
-
-
-
-

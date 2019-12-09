@@ -1,12 +1,12 @@
 ---
 Description: Windows 7 and Windows Server 2008 R2 include many enhancements to improve both the users' and the developers' experience.
 ms.assetid: 6f168d39-5c1e-4bbd-9e99-59318eb58074
-title: New Features and Enhancements
+title: New Features - Windows 7 compatibility
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# New Features and Enhancements
+# New Features and enhancements in Windows 7
 
 Windows 7 and Windows Server 2008 R2 include many enhancements to improve both the users' and the developers' experience. A few of them, however, have impacts that developers need to be aware of regarding their existing and new products. The new features and enhancements are listed below:
 
@@ -26,6 +26,3 @@ Windows 7 and Windows Server 2008 R2 include many enhancements to improve both t
  
 
  
-
-
-

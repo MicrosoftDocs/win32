@@ -1,7 +1,7 @@
 ---
 Description: The following table describes changes between Microsoft Internet Explorer 6 and Windows Internet Explorer 8.
 ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
-title: 'Appendix 1: Internet Explorer 6 to Internet Explorer 8 browser changes'
+title: IE 8 browser changes
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -128,6 +128,3 @@ Architectural changes
  
 
  
-
-
-

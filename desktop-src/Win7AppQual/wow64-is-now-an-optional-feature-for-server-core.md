@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 9a918cd3-60a0-4231-975a-bee12de5c812
-title: WoW64 Is Now an Optional Feature for Server Core
+title: WoW64 status in Server Core
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -52,6 +52,3 @@ Verify that all code used is 64-bit.
  
 
  
-
-
-
