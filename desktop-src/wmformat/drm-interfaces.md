@@ -1,6 +1,6 @@
 ---
-title: Interfaces
-description: Interfaces
+title: Microsoft Windows Media DRM Client Interfaces
+description: Microsoft Windows Media DRM Client Interfaces
 ms.assetid: 27bbc33f-8102-4db2-bbc6-1a1da92bac80
 keywords:
 - Windows Media Format SDK,interfaces

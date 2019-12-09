@@ -1,5 +1,5 @@
 ---
-title: Enumeration Types
+title: Windows Media Player SDK Enumeration Types
 description: Enumeration Types
 ms.assetid: '90689fb7-656d-4c06-a0a9-02bbe0e5b5dd'
 keywords:

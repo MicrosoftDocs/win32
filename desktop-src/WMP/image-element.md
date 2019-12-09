@@ -1,5 +1,5 @@
 ---
-title: Image Element
+title: Image Element (WMP SDK)
 description: Note This section describes functionality designed for use by online stores.
 ms.assetid: 06804c26-e847-43a7-bb75-60da600c7d4f
 keywords:

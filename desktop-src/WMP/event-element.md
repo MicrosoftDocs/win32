@@ -1,5 +1,5 @@
 ---
-title: EVENT Element
+title: EVENT Element (WMP SDK)
 description: The EVENT element defines a behavior or action taken by Windows Media Player when it receives a script command labeled as an event.
 ms.assetid: d12af3bd-a63e-4022-aa84-0386eeef1390
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Windows Media Format SDK Interfaces
 description: Interfaces
 ms.assetid: 'c61a0739-09f2-497f-a2cd-d3f2472738e3'
 keywords:

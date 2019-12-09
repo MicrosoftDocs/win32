@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Media Streaming Enumerations
 description: The Media Streaming API provides the following enumerations.
 ms.assetid: 5B5FF20E-DC9F-4817-B2D5-E5F15D215CAB
 ms.topic: reference

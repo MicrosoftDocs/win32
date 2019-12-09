@@ -1,6 +1,6 @@
 ---
 title: Concepts
-description: Concepts
+description: Windows Media Format SDK Concepts
 ms.assetid: 02beae02-ee8e-40e0-b7c9-b17894c9627e
 keywords:
 - Windows Media Format SDK,concepts

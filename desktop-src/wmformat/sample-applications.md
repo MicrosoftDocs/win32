@@ -1,6 +1,6 @@
 ---
-title: Sample Applications
-description: Sample Applications
+title: Windows Media Format SDK Sample Applications
+description: Windows Media Format SDK Sample Applications
 ms.assetid: '037741cb-c5fb-485f-bf62-79b5465abfe4'
 keywords:
 - Windows Media Format SDK,sample applications

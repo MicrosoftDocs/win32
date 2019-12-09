@@ -1,6 +1,6 @@
 ---
-title: Skin Definition File
-description: Skin Definition File
+title: Skin Definition File (Mobile)
+description: Skin Definition File (Mobile)
 ms.assetid: 76f5a17c-8126-4310-8cdf-72cdca98708b
 keywords:
 - Windows Media Player Mobile skins,skin definition files

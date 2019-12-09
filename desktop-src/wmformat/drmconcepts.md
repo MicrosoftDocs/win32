@@ -1,6 +1,6 @@
 ---
 title: Concepts
-description: Concepts
+description: Windows Media DRM Client Concepts
 ms.assetid: e1d306db-5c56-45a7-b0e2-c20555858ad4
 keywords:
 - Windows Media Format SDK,DRM Client Extended APIs

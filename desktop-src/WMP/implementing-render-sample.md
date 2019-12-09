@@ -1,6 +1,6 @@
 ---
-title: Implementing Render
-description: Implementing Render
+title: Implementing Render Sample
+description: Implementing Render Sample
 ms.assetid: 5791f6ea-ddad-49e6-8c6f-8093592895d4
 keywords:
 - visualizations,Glow sample
