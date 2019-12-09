@@ -6,7 +6,7 @@
     items: 
     - name: "What is Direct3D 12?"
       href: what-is-directx-12-.md
-    - name: "New Releases"
+    - name: "What's new in Direct3D 12"
       href: new-releases.md
     - name: "Understanding Direct3D 12"
       href: directx-12-getting-started.md

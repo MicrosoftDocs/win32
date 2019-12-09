@@ -1,31 +1,46 @@
 ---
-title: New Releases
-description: Describes the most significant new documentation available with the latest SDK release.
+title: What's new in Direct3D 12
+description: This topic describes the most significant new Direct3D 12 documentation available for various releases.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
 ms.localizationpriority: high
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/05/2019
 ---
 
-# New Releases
+# What's new in Direct3D 12
 
-Describes the most significant new documentation available with the latest SDK release.
+This topic describes the most significant new Direct3D 12 documentation available for various releases.
 
--   [Windows 7](#windows-7)
--   [Windows 10, version 1809](#windows-10-version-1809)
--   [Windows 10, version 1709](#windows-10-version-1709)
--   [Windows 10, version 1703](#windows-10-version-1703)
--   [November 2016 documentation update](#november-2016-documentation-update)
--   [August 2016 documentation update 2](#august-2016-documentation-update-2)
--   [August 2016 documentation update 1](#august-2016-documentation-update-1)
--   [Windows 10, version 1607](#windows-10-version-1607)
--   [Related topics](#related-topics)
+## Direct3D 12 on Windows 7
 
-## Windows 7
+- [Direct3D 12 on Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/) is now available for developers to use.
 
-- [Direct3D 12 on Windows 7](http://aka.ms/d3d12on7) is now available for developers to use.
+## Windows 10 May 2019 Update
+
+These features and APIs were added or updated for Windows 10, version 1903 (10.0; Build 18362)&mdash;also known as Windows 10 May 2019 Update.
+
+- [Variable-rate shading (VRS)](/windows/win32/direct3d12/vrs). Lets you allocate rendering performance/power at rates that vary across your rendered image.
+- [HLSL shader model 6.4](/windows/win32/direct3dhlsl/hlsl-shader-model-6-4-features-for-direct3d-12). Describes the machine learning intrinsics added to HLSL Shader Model 6.4.
+- [**D3D12_DRED_VERSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_dred_version) enumeration. Defines constants that specify a version of Device Removed Extended Data (DRED).
+- [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6) structure. Indicates the level of support that the adapter provides for metacommands.
+- [**D3D12_FEATURE_DATA_QUERY_META_COMMAND**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_query_meta_command) structure. Indicates the level of support that the adapter provides for metacommands.
+- [**D3D12_VARIABLE_SHADING_RATE_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier) enumeration. Defines constants that specify a shading rate tier (for variable-rate shading, or VRS).
+- [**ID3D12Device6**](/windows/win32/api/d3d12/nn-d3d12-id3d12device6) interface, and its methods. Used to set the mode for driver background processing optimizations. Also see [Background shader optimizations](https://devblogs.microsoft.com/directx/background-shader-optimizations/).
+- [**ID3D12DeviceRemovedExtendedData**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata) interface, and its methods. Provides runtime access to Device Removed Extended Data (DRED) data.
+- [**ID3D12DeviceRemovedExtendedDataSettings**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings) interface, and its methods. Controls Device Removed Extended Data (DRED) settings.
+- [**D3D12GraphicsCommandList5**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist5) interface, and its methods. Support for variable-rate shading (VRS).
+
+The [**D3D_SHADER_MODEL**](/windows/win32/api/d3d12/ne-d3d12-d3d_shader_model) enumeration has been updated with the addition of the **D3D_SHADER_MODEL_6_5** constant (an experimental-level feature).
+
+The [**D3D12_COMMAND_LIST_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type) enumeration has been updated with the addition of the **D3D12_COMMAND_LIST_TYPE_VIDEO_ENCODE** constant.
+
+The [**D3D12_FEATURE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_feature) enumeration has been updated with the addition of the **D3D12_FEATURE_D3D12_OPTIONS6** and **D3D12_FEATURE_QUERY_META_COMMAND** constants.
+
+The [**D3D12_RESOURCE_STATES**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) enumeration has been updated with the addition of the **D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE** constant.
 
 ## Windows 10, version 1809
+
+These features and APIs were added or updated for Windows 10, version 1809 (10.0; Build 17763)&mdash;also known as Windows 10 October 2018 Update.
 
 - [Direct3D 12 Raytracing](/windows/win32/direct3d12/direct3d-12-raytracing)
 - [Direct3D 12 Render Passes](/windows/win32/direct3d12/direct3d-12-render-passes)

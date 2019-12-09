@@ -1,5 +1,5 @@
 ---
-title: Internet Authentication Service and Network Policy Server
+title: Internet Authentication Service & Network Policy Server
 description: Internet Authentication Service (IAS) was renamed Network Policy Server (NPS).
 ms.assetid: c7c6d1a3-d0c8-469e-ae1e-a848ef7fee2b
 ms.tgt_platform: multiple
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Internet Authentication Service and Network Policy Server
+# Internet Authentication Service & Network Policy Server
 
 Internet Authentication Service (IAS) was renamed Network Policy Server (NPS).
 

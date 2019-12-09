@@ -8,23 +8,22 @@ ms.date: 09/23/2019
 
 # What's new in DirectWrite
 
-Here are some of the new additions to [DirectWrite](direct-write-portal.md).
+This topic describes what's new in [DirectWrite](direct-write-portal.md) for various releases of Windows 10.
 
-## What's new for Windows 10 May 2019 Update
+## Windows 10 May 2019 Update
 
 No features nor APIs were added nor updated for Windows 10, version 1903 (10.0; Build 18362)&mdash;also known as Windows 10 May 2019 Update.
 
-## What's new for Windows 10 October 2018 Update
+## Windows 10 October 2018 Update
 
 The following features and APIs were added or updated for Windows 10, version 1809 (10.0; Build 17763)&mdash;also known as Windows 10 October 2018 Update.
 
 ### New
 
 - [**DWRITE_FONT_SOURCE_TYPE**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type) enumeration
-
 - [**IDWriteFontSet3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset3) interface, and its methods
 
-## What's new for Windows 10 April 2018 Update
+## Windows 10 April 2018 Update
 
 The following features and APIs were added or updated for Windows 10, version 1803 (10.0; Build 17134)&mdash;also known as Windows 10 April 2018 Update.
 
@@ -34,7 +33,7 @@ The following features and APIs were added or updated for Windows 10, version 18
 - [**IDWriteFontCollection3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection3) interface, and its methods
 - [**IDWriteFontSet2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) interface, and its methods
 
-## What's new for Windows 10 Fall Creators Update
+## Windows 10 Fall Creators Update
 
 The following features and APIs were added or updated for Windows 10, version 1709 (10.0; Build 16299)&mdash;also known as Windows 10 Fall Creators Update.
 
@@ -44,7 +43,6 @@ The following features and APIs were added or updated for Windows 10, version 17
 - [**DWRITE_FONT_AXIS_ATTRIBUTES**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_attributes) enumeration
 - [**DWRITE_FONT_AXIS_TAG**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag) enumeration
 - [**DWRITE_FONT_FAMILY_MODEL**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model) enumeration
-
 - [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) interface, and its methods
 - [**IDWriteFontCollection2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2) interface, and its methods
 - [**IDWriteFontFace5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5) interface, and its methods
@@ -57,9 +55,7 @@ The following features and APIs were added or updated for Windows 10, version 17
 - [**IDWriteFontSetBuilder2**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) interface, and its methods
 - [**IDWriteTextFormat3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat3) interface, and its methods
 - [**IDWriteTextLayout4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat4) interface, and its methods
-
 - [**DWRITE_MAKE_FONT_AXIS_TAG**](/windows/win32/api/dwrite_3/nf-dwrite_3-dwrite_make_font_axis_tag) macro
-
 - [**DWRITE_FONT_AXIS_RANGE**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range) structure
 - [**DWRITE_FONT_AXIS_VALUE**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) structure
 
@@ -67,7 +63,7 @@ The following features and APIs were added or updated for Windows 10, version 17
 
 The [**DWRITE_GLYPH_IMAGE_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) enumeration moved from `dwrite_3.h` to `dcommon.h`.
 
-## What's new for Windows 10 Creators Update
+## Windows 10 Creators Update
 
 The following features and APIs were added or updated for Windows 10, version 1703 (10.0; Build 15063)&mdash;also known as Windows 10 Creators Update.
 
@@ -91,7 +87,7 @@ Version 1.8 of the OpenType font format specification introduced an exciting new
 
 [OpenType Variable Fonts](opentype-variable-fonts.md)
 
-## What's new for Windows 10 Anniversary Update
+## Windows 10 Anniversary Update
 
 The following features and APIs were added or updated for Windows 10, version 1607 (10.0; Build 14393)&mdash;also known as Windows 10 Anniversary Update.
 
@@ -119,7 +115,7 @@ Fonts loaded by a font-service utility are visible in the system font collection
 
 The OpenType and TrueType font formats have long supported the ability for multiple fonts to be packaged together in a single font file, known as a “font collection”. The OpenType specification has always allowed fonts to use either TrueType or CFF formats for glyph outline data. Until recently, however, the specification has only allowed for collections in which glyph outlines use the TrueType format. OpenType version 1.7 now allows for collections to use either TrueType or CFF formats for glyph outline data. Starting in the Windows 10 Anniversary Update, DirectWrite will support OpenType collections using CFF outline data.
 
-## What's new for Windows 10
+## Windows 10
 
 ### Windows font service integration
 
@@ -167,7 +163,7 @@ Since its introduction in Windows 7, DirectWrite has provided a migration path f
 
 -   [**IDWriteGdiInterop1**](https://msdn.microsoft.com/library/Dn958415(v=VS.85).aspx) interface
 
-## What's new in Windows 8.1
+## Windows 8.1
 
 ### Rendering color fonts
 
@@ -176,7 +172,7 @@ Starting in Windows Windows 8.1, DirectWrite provides support for color fonts. 
 -   [**D2D1\_DRAW\_TEXT\_OPTIONS**](/windows/win32/api/d2d1/ne-d2d1-d2d1_draw_text_options) enumeration
 -   [**IDWriteFactory2::TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Dn280451(v=VS.85).aspx) method
 
-## What's new in Windows 8
+## Windows 8
 
 A new factory interface, [**IDWriteFactory1**](https://msdn.microsoft.com/library/Hh780401(v=VS.85).aspx), for creating additional interfaces that are available.
 

@@ -1,12 +1,12 @@
 ---
 Description: Explains the procedure used for storing a session key.
 ms.assetid: 9ab7f747-9c69-40b5-af78-163f3ba315bf
-title: Procedure for Storing a Session Key
+title: Storing a Session Key
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Procedure for Storing a Session Key
+# Storing a Session Key
 
 > [!Note]  
 > This section assumes that users possess a set of [*public/private key pairs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx). Instructions and an example for creating key pairs can be found in [Example C Program: Creating a Key Container and Generating Keys](example-c-program-creating-a-key-container-and-generating-keys.md).

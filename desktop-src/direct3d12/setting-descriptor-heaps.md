@@ -34,69 +34,11 @@ When descriptor heaps are set (using [**ID3D12GraphicsCommandList::SetDescriptor
 
 ## Populating descriptor heaps
 
-After an application has created a descriptor heap, it can then use methods on the heap or on a command list to either generate descriptors directly into the heap or copy descriptors from one place to another.
+After an application has created a descriptor heap, it can then use methods on the device to either generate descriptors directly into the heap or copy descriptors from one place to another.
 
 The initial contents of descriptor heap memory is undefined, so asking the GPU or driver to reference uninitialized memory for rendering can cause undefined results such as a device reset.
 
-If the application configures a descriptor heap to be CPU visible, then the CPU can call methods to create descriptors into the heap and copy from place to place (including across heaps) in an immediate, free threaded manner. If the heap has been configured with a write combine property, reading by the CPU is not permitted.
-
-Descriptors can also record a descriptor copy call on a command list in the event that the application does not want the copy to occur immediately, but rather when the GPU is executing the command list. This can also be useful if an application chooses to put a descriptor heap in a non CPU-visible memory pool and therefore needs to do a GPU operation to manipulate its contents, or if an application simply wants the update to occur on the GPU time-line. Command list descriptor copies require the source of the copy to be in a non shader visible descriptor heap (from which the command list snapshots a copy the source descriptors into the command list at record time), and the destination must be a shader visible descriptor heap (which at command list execution gets written to by the GPU). The API reference for copying descriptors goes into more detail.
-
-For example, setting descriptor heaps when populating command lists.
-
-
-```C++
-void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
-{
-    // Command list allocators can only be reset when the associated
-    // command lists have finished execution on the GPU; apps should use
-    // fences to determine GPU execution progress.
-    ThrowIfFailed(m_pCurrentFrameResource->m_commandAllocator->Reset());
-
-    // However, when ExecuteCommandList() is called on a particular command
-    // list, that command list can then be reset at any time and must be before
-    // re-recording.
-    ThrowIfFailed(m_commandList->Reset(m_pCurrentFrameResource->m_commandAllocator.Get(), m_pipelineState1.Get()));
-
-    // Set necessary state.
-    m_commandList->SetGraphicsRootSignature(m_rootSignature.Get());
-
-    ID3D12DescriptorHeap* ppHeaps[] = { m_cbvSrvHeap.Get(), m_samplerHeap.Get() };
-    m_commandList->SetDescriptorHeaps(_countof(ppHeaps), ppHeaps);
-
-    m_commandList->RSSetViewports(1, &m_viewport);
-    m_commandList->RSSetScissorRects(1, &m_scissorRect);
-
-    // Indicate that the back buffer will be used as a render target.
-    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
-
-    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-    CD3DX12_CPU_DESCRIPTOR_HANDLE dsvHandle(m_dsvHeap->GetCPUDescriptorHandleForHeapStart());
-    m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, &dsvHandle);
-
-    // Record commands.
-    const float clearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
-    m_commandList->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
-    m_commandList->ClearDepthStencilView(m_dsvHeap->GetCPUDescriptorHandleForHeapStart(), D3D12_CLEAR_FLAG_DEPTH, 1.0f, 0, 0, nullptr);
-
-    if (UseBundles)
-    {
-        // Execute the prebuilt bundle.
-        m_commandList->ExecuteBundle(pFrameResource->m_bundle.Get());
-    }
-    else
-    {
-        // Populate a new command list.
-        pFrameResource->PopulateCommandList(m_commandList.Get(), m_pipelineState1.Get(), m_pipelineState2.Get(), m_currentFrameResourceIndex, m_numIndices, &m_indexBufferView,
-            &m_vertexBufferView, m_cbvSrvHeap.Get(), m_cbvSrvDescriptorSize, m_samplerHeap.Get(), m_rootSignature.Get());
-    }
-
-    // Indicate that the back buffer will now be used to present.
-    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
-
-    ThrowIfFailed(m_commandList->Close());
-}
-```
+If the application configures a descriptor heap to be CPU visible, then the CPU can call methods to create descriptors into the heap and copy from place to place (including across heaps) in an immediate, free threaded manner. If the heap has been configured as SHADER_VISIBLE, reading by the CPU is not permitted.
 
 
 

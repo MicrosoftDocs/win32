@@ -72,32 +72,22 @@ Windows Vista introduces *protected processes* to enhance support for Digital R
 
 The following standard access rights are not allowed from a process to a protected process:
 
-<dl> **DELETE**  
-**READ\_CONTROL**  
-**WRITE\_DAC**  
-**WRITE\_OWNER**  
-</dl>
+- **DELETE**  
+- **READ\_CONTROL**  
+- **WRITE\_DAC**  
+- **WRITE\_OWNER**  
 
 The following specific access rights are not allowed from a process to a protected process:
 
-<dl> **PROCESS\_ALL\_ACCESS**  
-**PROCESS\_CREATE\_PROCESS**  
-**PROCESS\_CREATE\_THREAD**  
-**PROCESS\_DUP\_HANDLE**  
-**PROCESS\_QUERY\_INFORMATION**  
-**PROCESS\_SET\_INFORMATION**  
-**PROCESS\_SET\_QUOTA**  
-**PROCESS\_VM\_OPERATION**  
-**PROCESS\_VM\_READ**  
-**PROCESS\_VM\_WRITE**  
-</dl>
+- **PROCESS\_ALL\_ACCESS**  
+- **PROCESS\_CREATE\_PROCESS**  
+- **PROCESS\_CREATE\_THREAD**  
+- **PROCESS\_DUP\_HANDLE**  
+- **PROCESS\_QUERY\_INFORMATION**  
+- **PROCESS\_SET\_INFORMATION**  
+- **PROCESS\_SET\_QUOTA**  
+- **PROCESS\_VM\_OPERATION**  
+- **PROCESS\_VM\_READ**  
+- **PROCESS\_VM\_WRITE**  
 
 The **PROCESS\_QUERY\_LIMITED\_INFORMATION** right was introduced to provide access to a subset of the information available through **PROCESS\_QUERY\_INFORMATION**.
-
- 
-
- 
-
-
-
-

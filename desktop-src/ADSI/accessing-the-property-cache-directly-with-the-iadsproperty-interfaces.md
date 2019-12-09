@@ -1,5 +1,5 @@
 ---
-title: Accessing the Property Cache Directly with the IADsProperty Interfaces
+title: Accessing Property Cache with IADsProperty Interfaces
 description: The IADsProperty interfaces consist of IADsPropertyList, IADsPropertyEntry, and IADsPropertyValue.
 ms.assetid: ff15eb50-01ab-4b45-bcfd-1df01172f274
 ms.tgt_platform: multiple
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Accessing the Property Cache Directly with the IADsProperty Interfaces
+# Accessing Property Cache with IADsProperty Interfaces
 
 The [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty) interfaces consist of [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IADsPropertyEntry**](/windows/desktop/api/Iads/nn-iads-iadspropertyentry), and [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue). These interfaces provide methods to directly access and manipulate the properties of an object cache. A property is known as a property entry and corresponds to an attribute defined in the schema. A property entry can have one, or many, property values. A set of property entries are organized as a property list.
 
