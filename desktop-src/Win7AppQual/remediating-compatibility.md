@@ -1,12 +1,12 @@
 ---
 Description: .
 ms.assetid: 18F74BA7-2729-4EB3-8E6F-4E5A8C17C317
-title: Compatibility
+title: DEP/NX compatibility
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Compatibility
+# DEP/NX compatibility
 
 By default, in Windows Internet Explorer 7, DEP/NX is disabled for compatibility reasons. Several popular add-ons are not compatible with DEP/NX and fail when Windows Internet Explorer loads them with DEP/NX enabled.
 
@@ -24,6 +24,3 @@ When an add-on is not DEP/NX-compatible and it does not use an outdated ATL, you
  
 
  
-
-
-

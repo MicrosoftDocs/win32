@@ -1,5 +1,5 @@
 ---
-title: .NET Framework 4.5 is default and .NET Framework 3.5 is optional
+title: .NET Framework default settings
 description: .NET Framework 4.5 is default and .NET Framework 3.5 is optional
 ms.assetid: 19B53C82-812A-49AC-87C6-C08E7C199208
 ms.topic: article
@@ -33,20 +33,20 @@ To enable .NET Framework 3.5 on only test machines with clean installs of Window
     xcopy e:\sources\sxs\*.* c:\dotnet35 /s
     ```
 
-    
+
 
 2.  Execute this command line using admin privileges:
     ```
     Dism.exe /online /enable-feature /featurename:NetFX3 /All /Source:c:\dotnet35 /LimitAccess
-    
+
     ```
 
-    
+
 
 > [!Note]  
 > The sources\\SxS folder must not be used as a redistribution mechanism since this is not a supported mechanism.
 
- 
+
 
 ## Solution
 
@@ -76,18 +76,18 @@ To enable .NET Framework 3.5 for EEAP builds and for applications that do not ha
 
 1.  Copy \\sources\\sxs\\ from the mounted OS build ISO image to the dotnet35 or similar folder. For example:
     ```
-    xcopy e:\sources\sxs\*.* c:\dotnet35 /s 
+    xcopy e:\sources\sxs\*.* c:\dotnet35 /s
     ```
 
-    
+
 
 2.  Set the regkey:
     ```
     [HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Servicing]
-     LocalSourcePath = c:\dotnet35 
+     LocalSourcePath = c:\dotnet35
     ```
 
-    
+
 
 **For enterprises:**
 
@@ -98,7 +98,7 @@ For machines that are configured to use WSUS for servicing, you can set a regist
     [HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Servicing]  RepairContentServerSource =DWORD(2)
     ```
 
-    
+
 
 This registry entry can also be set via Group Policy (Local Computer Policy -> Computer Configuration -> Administrative Templates -> System. Select the setting  Specify settings for optional component installation and component repair .
 
@@ -132,7 +132,7 @@ This registry entry is supported:
 
 
 
- 
+
 
 ## Resources
 
@@ -140,12 +140,3 @@ This registry entry is supported:
 
 [Implementing Registry-based Policy](https://go.microsoft.com/fwlink/p/?linkid=325432)  
 </dl>
-
- 
-
- 
-
-
-
-
-
