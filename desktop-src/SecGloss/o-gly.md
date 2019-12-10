@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter O.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: e6be8932-015e-4058-b249-1671b3fea521
 title: O (Security Glossary)
 ms.topic: article

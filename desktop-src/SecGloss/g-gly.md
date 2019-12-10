@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter G.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: c9567a5b-bd56-4ae1-9eac-af0bb5a6842a
 title: G (Security Glossary)
 ms.topic: article

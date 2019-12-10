@@ -1,6 +1,6 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter M.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8080d650-5288-4946-8628-cc9778370c03
 title: M (Network Monitor)
 ms.topic: article

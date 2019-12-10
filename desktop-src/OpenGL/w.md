@@ -1,7 +1,7 @@
 ---
 title: W (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter W.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '7f8235a3-ea48-40eb-8957-e7a55a5778af'
 keywords:
 - windows

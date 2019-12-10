@@ -1,7 +1,7 @@
 ---
 title: Windows Remote Management Glossary
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bbda0db7-f473-444b-85ab-f3c5240c4b18
 ms.tgt_platform: multiple
 ms.topic: article

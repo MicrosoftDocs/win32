@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter V.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 412796ce-2ad5-429b-a2a6-8d286b19ae30
 title: V (Security Glossary)
 ms.topic: article

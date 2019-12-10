@@ -1,6 +1,6 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter F.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 6e6b85cc-83bc-4468-b1cf-3480022a8f12
 title: F (Network Monitor)
 ms.topic: article

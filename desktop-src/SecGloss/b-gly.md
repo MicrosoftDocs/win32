@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter B.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2e570727-7da0-4e17-bf5d-6fe0e6aef65b
 title: B (Security Glossary)
 ms.topic: article

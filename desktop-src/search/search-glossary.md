@@ -1,6 +1,6 @@
 ---
 Description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8e9b45de-c81b-4324-b00b-b11ee6749920
 title: Windows Search Glossary
 ms.topic: article

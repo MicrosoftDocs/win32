@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter M.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 4c4402e9-7455-4868-978f-3899a8fd86c1
 title: M (Security Glossary)
 ms.topic: article

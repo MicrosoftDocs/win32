@@ -1,7 +1,7 @@
 ---
 title: V (Text Services Framework)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: a0f43bec-d653-4e85-aaa7-c6a84490c14b
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,7 +1,7 @@
 ---
 title: E (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter E.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: de499edb-59f2-4488-bb49-17e44876f5c8
 keywords:
 - elements

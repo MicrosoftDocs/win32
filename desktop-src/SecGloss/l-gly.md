@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter L.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 65dd9a04-fc7c-4179-95ff-dac7dad4668f
 title: L (Security Glossary)
 ms.topic: article

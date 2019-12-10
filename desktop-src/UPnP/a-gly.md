@@ -1,7 +1,7 @@
 ---
 title: A (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter A.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ca76e4c9-2ee9-4101-9a40-62311ec0cbcc
 ms.topic: article
 ms.date: 05/31/2018

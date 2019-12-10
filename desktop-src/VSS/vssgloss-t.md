@@ -1,6 +1,6 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 84c00072-74d9-4629-980c-7308f9b641c0
 title: T (Volume Shadow Copy Service)
 ms.topic: article

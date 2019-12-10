@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter X.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 28dba6ef-939f-4789-9789-ee6e0fef0177
 title: X (Security Glossary)
 ms.topic: article
