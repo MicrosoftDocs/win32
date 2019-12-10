@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_CANCELMODE message
 
-Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](https://msdn.microsoft.com/en-us/library/ms646291(v=VS.85).aspx) function sends this message when disabling the specified window.
+Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx) function sends this message when disabling the specified window.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -45,7 +45,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
+When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
 
 ## Requirements
 
@@ -66,13 +66,13 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msd
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**EnableWindow**](https://msdn.microsoft.com/en-us/library/ms646291(v=VS.85).aspx)
+[**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx)
 </dt> <dt>
 
-[**ReleaseCapture**](https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx)
+[**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

@@ -38,7 +38,7 @@ The media type offered by the MP3 file source contains the following attributes.
 | [**MF\_MT\_AUDIO\_BLOCK\_ALIGNMENT**](mf-mt-audio-block-alignment-attribute.md)             | Equal to 1.                                                                                                                                        |
 | [**MF\_MT\_AUDIO\_NUM\_CHANNELS**](mf-mt-audio-num-channels-attribute.md)                   | Number of audio channels.                                                                                                                          |
 | [**MF\_MT\_AUDIO\_SAMPLES\_PER\_SECOND**](mf-mt-audio-samples-per-second-attribute.md)      | Number of audio samples per second.                                                                                                                |
-| [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md)                                      | Contains the portion of a [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd390710(v=VS.85).aspx) structure that appears after the **wfx** member of the structure. |
+| [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md)                                      | Contains the portion of a [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/library/Dd390710(v=VS.85).aspx) structure that appears after the **wfx** member of the structure. |
 
 
 
@@ -46,7 +46,7 @@ The media type offered by the MP3 file source contains the following attributes.
 
 ## Interfaces
 
-The MP3 file source exposes the following interfaces through [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx):
+The MP3 file source exposes the following interfaces through [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx):
 
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFMediaEventGenerator**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator)

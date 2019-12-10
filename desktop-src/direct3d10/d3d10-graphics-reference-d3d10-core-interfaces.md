@@ -17,7 +17,7 @@ This section contains information about the following core interfaces:
 | [**ID3D10BlendState Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10blendstate)               | Accesses blending state for a Direct3D 10.0 device. |
 | [**ID3D10BlendState1 Interface**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10blendstate1)             | Accesses blending state for a Direct3D 10.1 device. |
 | [**ID3D10DepthStencilState Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10depthstencilstate) | Accesses depth-stencil state.                       |
-| [**ID3D10InputLayout Interface**](https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx)             | Accesses pipeline-input data from memory.           |
+| [**ID3D10InputLayout Interface**](https://msdn.microsoft.com/library/Bb173815(v=VS.85).aspx)             | Accesses pipeline-input data from memory.           |
 | [**ID3D10RasterizerState Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10rasterizerstate)     | Accesses rasterizer state.                          |
 | [**ID3D10SamplerState Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10samplerstate)           | Accesses sampler state.                             |
 
@@ -36,10 +36,10 @@ This section contains information about the following core interfaces:
 | [**ID3D10Device Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)             | Represents a virtual adapter for Direct3D 10.0.                                      |
 | [**ID3D10Device1 Interface**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1)           | Represents a virtual adapter for Direct3D 10.1.                                      |
 | [**ID3D10DeviceChild Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10devicechild)   | Accesses data used by a device.                                                      |
-| [**ID3D10Include Interface**](https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx)           | Provides user-overridable methods for handling include files when loading an effect. |
+| [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)           | Provides user-overridable methods for handling include files when loading an effect. |
 | [**ID3D10InfoQueue Interface**](/windows/desktop/api/D3D10SDKLayers/nn-d3d10sdklayers-id3d10infoqueue)       | Stores, retrieves, and filters debug messages.                                       |
 | [**ID3D10Multithread Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10multithread)   | Accesses multithread settings.                                                       |
-| [**ID3D10Predicate Interface**](https://msdn.microsoft.com/en-us/library/Bb173822(v=VS.85).aspx)       | Determines whether geometry should be processed.                                     |
+| [**ID3D10Predicate Interface**](https://msdn.microsoft.com/library/Bb173822(v=VS.85).aspx)       | Determines whether geometry should be processed.                                     |
 | [**ID3D10Query Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10query)               | Queries information from the GPU.                                                    |
 | [**ID3D10StateBlock Interface**](/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10stateblock)     | Encapsulates render states.                                                          |
 | [**ID3D10SwitchToRef Interface**](/windows/desktop/api/D3D10SDKLayers/nn-d3d10sdklayers-id3d10switchtoref)   | Switches between a hardware and software device.                                     |

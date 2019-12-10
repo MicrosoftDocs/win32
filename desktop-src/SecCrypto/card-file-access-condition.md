@@ -17,7 +17,7 @@ api_location:
 
 # CARD\_FILE\_ACCESS\_CONDITION enumeration
 
-The **CARD\_FILE\_ACCESS\_CONDITION** enumeration specifies access control permissions for a file on a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **CARD\_FILE\_ACCESS\_CONDITION** enumeration specifies access control permissions for a file on a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -89,13 +89,13 @@ Access permissions for the file are unknown.
 
 <dl> <dt>
 
-[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/en-us/library/Dd627637(v=VS.85).aspx)
+[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/library/Dd627637(v=VS.85).aspx)
 </dt> <dt>
 
-[**CARD\_FILE\_INFO**](https://msdn.microsoft.com/en-us/library/Dd627631(v=VS.85).aspx)
+[**CARD\_FILE\_INFO**](https://msdn.microsoft.com/library/Dd627631(v=VS.85).aspx)
 </dt> <dt>
 
-[**CardCreateFile**](https://msdn.microsoft.com/en-us/library/Dd627607(v=VS.85).aspx)
+[**CardCreateFile**](https://msdn.microsoft.com/library/Dd627607(v=VS.85).aspx)
 </dt> </dl>
 
  

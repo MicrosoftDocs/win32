@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Switches
 
-The switch controls are two-state switches. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/en-us/library/Dd757295(v=VS.85).aspx) structure to retrieve and set control properties. The following table describes the types of switches.
+The switch controls are two-state switches. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/library/Dd757295(v=VS.85).aspx) structure to retrieve and set control properties. The following table describes the types of switches.
 
 
 

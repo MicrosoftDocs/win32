@@ -109,7 +109,7 @@ The following procedure describes how to request a partial-instance update using
 
 **To request a partial-instance update using C++**
 
-1.  Create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object with a call to [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx).
+1.  Create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object with a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
 
     A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object to instruct the provider to accept partial-instance updates.
 

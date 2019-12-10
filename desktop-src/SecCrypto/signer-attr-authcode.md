@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_ATTR\_AUTHCODE structure
 
-The **SIGNER\_ATTR\_AUTHCODE** structure specifies attributes for an [*Authenticode*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) signature.
+The **SIGNER\_ATTR\_AUTHCODE** structure specifies attributes for an [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) signature.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

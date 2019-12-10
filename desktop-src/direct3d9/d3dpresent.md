@@ -106,7 +106,7 @@ This flag should only be used with swap effect D3DSWAPEFFECT_FLIPEX. The use of 
 
 Windowed mode supports D3DPRESENT\_INTERVAL\_DEFAULT, D3DPRESENT\_INTERVAL\_IMMEDIATE, and D3DPRESENT\_INTERVAL\_ONE. D3DPRESENT\_INTERVAL\_DEFAULT and the D3DPRESENT\_INTERVAL\_ONE are nearly equivalent (see the information regarding timer resolution below). They perform similarly to COPY\_VSYNC in that there is only one present per frame, and they prevent tearing with beam-following. In contrast, D3DPRESENT\_INTERVAL\_IMMEDIATE will attempt to provide an unlimited presentation rate.
 
-Full-screen mode supports similar usage as windowed mode by supporting D3DPRESENT\_INTERVAL\_IMMEDIATE regardless of the refresh rate or swap effect. D3DPRESENT\_INTERVAL\_DEFAULT uses the default system timer resolution whereas the D3DPRESENT\_INTERVAL\_ONE calls [**timeBeginPeriod**](https://msdn.microsoft.com/en-us/library/Dd757624(v=VS.85).aspx) to enhance system timer resolution. This improves the quality of vertical sync, but consumes slightly more processing time. Both parameters attempt to synchronize vertically.
+Full-screen mode supports similar usage as windowed mode by supporting D3DPRESENT\_INTERVAL\_IMMEDIATE regardless of the refresh rate or swap effect. D3DPRESENT\_INTERVAL\_DEFAULT uses the default system timer resolution whereas the D3DPRESENT\_INTERVAL\_ONE calls [**timeBeginPeriod**](https://msdn.microsoft.com/library/Dd757624(v=VS.85).aspx) to enhance system timer resolution. This improves the quality of vertical sync, but consumes slightly more processing time. Both parameters attempt to synchronize vertically.
 
 ## Requirements
 

@@ -82,7 +82,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The help context identifier for the dialog box window. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) message, it passes this value in the **wContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/en-us/library/Bb773313(v=VS.85).aspx) structure.
+The help context identifier for the dialog box window. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) message, it passes this value in the **wContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/library/Bb773313(v=VS.85).aspx) structure.
 
 </dd> <dt>
 

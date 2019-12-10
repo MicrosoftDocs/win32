@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMMATRIX Extensions
 
-[**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) describes a 4\*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
+[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) describes a 4\*4 matrix aligned on a 16-byte boundary that maps to four hardware vector registers.
 
 > [!Note]  
 > The features listed here are only available under C++.
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 | Topic                                                       | Description                                                                     |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [**XMMATRIX Constructors**](xmmatrix-ctor.md)<br/>   | Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) structure. <br/> |
+| [**XMMATRIX Constructors**](xmmatrix-ctor.md)<br/>   | Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) structure. <br/> |
 | [XMMATRIX Operators](ovw-xmmatrix-operators.md)<br/> | Operators exposed by `XMMATRIX`.<br/>                                     |
 
 
@@ -35,7 +35,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
+[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
 </dt> </dl>
 
  

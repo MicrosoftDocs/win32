@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Requests
 
-Certificate Services supports [*certificate requests*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) based on the PKCS \#10 format and the Keygen (Netscape) format. Certificate Services also supports PKCS \#7 renewal requests and Cryptographic Message Syntax (CMS) requests.
+Certificate Services supports [*certificate requests*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) based on the PKCS \#10 format and the Keygen (Netscape) format. Certificate Services also supports PKCS \#7 renewal requests and Cryptographic Message Syntax (CMS) requests.
 
 Certificate Services also provides an [ICertRequest](/windows/desktop/api/Certcli/nn-certcli-icertrequest) interface, which contains methods for submitting a certificate request and (if the request is approved) for receiving the resulting issued certificate.
 

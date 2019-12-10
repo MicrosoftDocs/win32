@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent after a window has been moved.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -57,7 +57,7 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 
 
-You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/en-us/library/Dd145043(v=VS.85).aspx) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/en-us/library/Dd162808(v=VS.85).aspx) structure.
+You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd145043(v=VS.85).aspx) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx) structure.
 
 ## Requirements
 
@@ -78,10 +78,10 @@ You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/en-us/library/D
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx)
+[**HIWORD**](https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx)
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx)
+[**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**
@@ -93,10 +93,10 @@ You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/en-us/library/D
 **Other Resources**
 </dt> <dt>
 
-[**MAKEPOINTS**](https://msdn.microsoft.com/en-us/library/Dd145043(v=VS.85).aspx)
+[**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd145043(v=VS.85).aspx)
 </dt> <dt>
 
-[**POINTS**](https://msdn.microsoft.com/en-us/library/Dd162808(v=VS.85).aspx)
+[**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx)
 </dt> </dl>
 
  

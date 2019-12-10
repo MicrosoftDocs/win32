@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_UNMERGEMENU message
 
-Notifies the callback object that a menu is being removed. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Notifies the callback object that a menu is being removed. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

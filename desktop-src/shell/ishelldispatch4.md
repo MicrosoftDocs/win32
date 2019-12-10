@@ -59,7 +59,7 @@ The **IShellDispatch4** object has these methods.
 
 ## Remarks
 
-For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx) documentation.
+For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx) documentation.
 
 ## Requirements
 
@@ -79,7 +79,7 @@ For a discussion of Windows services, see the [Services](https://msdn.microsoft.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [**Shell Object**](shell.md)

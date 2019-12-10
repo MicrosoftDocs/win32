@@ -23,7 +23,7 @@ The **IByteBuffer** interface is provided to read, write and manage stream objec
 
 ## Members
 
-The **IByteBuffer** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IByteBuffer** also has these types of members:
+The **IByteBuffer** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IByteBuffer** also has these types of members:
 
 -   [Methods](#methods)
 

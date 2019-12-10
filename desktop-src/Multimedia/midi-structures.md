@@ -18,13 +18,13 @@ ms.date: 05/31/2018
 
 The following structures are used with MIDI.
 
--   [**MIDIEVENT**](https://msdn.microsoft.com/en-us/library/Dd798448(v=VS.85).aspx)
--   [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx)
--   [**MIDIINCAPS**](https://msdn.microsoft.com/en-us/library/Dd798451(v=VS.85).aspx)
--   [**MIDIOUTCAPS**](https://msdn.microsoft.com/en-us/library/Dd798467(v=VS.85).aspx)
--   [**MIDIPROPTEMPO**](https://msdn.microsoft.com/en-us/library/Dd798483(v=VS.85).aspx)
--   [**MIDIPROPTIMEDIV**](https://msdn.microsoft.com/en-us/library/Dd798484(v=VS.85).aspx)
--   [**MIDISTRMBUFFVER**](https://msdn.microsoft.com/en-us/library/Dd798493(v=VS.85).aspx)
+-   [**MIDIEVENT**](https://msdn.microsoft.com/library/Dd798448(v=VS.85).aspx)
+-   [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx)
+-   [**MIDIINCAPS**](https://msdn.microsoft.com/library/Dd798451(v=VS.85).aspx)
+-   [**MIDIOUTCAPS**](https://msdn.microsoft.com/library/Dd798467(v=VS.85).aspx)
+-   [**MIDIPROPTEMPO**](https://msdn.microsoft.com/library/Dd798483(v=VS.85).aspx)
+-   [**MIDIPROPTIMEDIV**](https://msdn.microsoft.com/library/Dd798484(v=VS.85).aspx)
+-   [**MIDISTRMBUFFVER**](https://msdn.microsoft.com/library/Dd798493(v=VS.85).aspx)
 
 ## Related topics
 

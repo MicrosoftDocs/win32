@@ -53,7 +53,7 @@ The **HistoricalContext** member of [**WNODE\_HEADER**](wnode-header.md) contain
 
 If the function succeeds, it returns the event tracing session handle.
 
-If the function fails, it returns **INVALID\_HANDLE\_VALUE**. To get extended error information, call the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function.
+If the function fails, it returns **INVALID\_HANDLE\_VALUE**. To get extended error information, call the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function.
 
 ## Remarks
 

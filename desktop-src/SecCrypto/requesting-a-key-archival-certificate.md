@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Requesting a Key Archival Certificate
 
-The following example shows creating and submitting a [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and receiving the resulting key archival certificate. For this example to succeed, the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) that receives the certificate request must be configured for key archival.
+The following example shows creating and submitting a [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and receiving the resulting key archival certificate. For this example to succeed, the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) that receives the certificate request must be configured for key archival.
 
 The following steps describe how to create and submit a certificate request.
 

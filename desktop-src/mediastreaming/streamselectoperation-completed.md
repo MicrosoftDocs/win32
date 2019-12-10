@@ -19,7 +19,7 @@ api_location:
 
 # StreamSelectOperation.Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829002(v=VS.85).aspx) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/library/Hh829002(v=VS.85).aspx) is completed.
 
 This property is read/write.
 

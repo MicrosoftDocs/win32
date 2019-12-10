@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_FILTER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/en-us/library/Aa364267(v=VS.85).aspx)
+-   [**FWPM\_FILTER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364267(v=VS.85).aspx)
 -   [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)
 -   [**FwpmFilterCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0)
 -   [**FwpmFilterDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)

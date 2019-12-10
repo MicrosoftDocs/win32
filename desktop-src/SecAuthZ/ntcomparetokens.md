@@ -17,7 +17,7 @@ api_location:
 
 # NtCompareTokens function
 
-The **NtCompareTokens** function compares two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](https://msdn.microsoft.com/en-us/library/Aa374815(v=VS.85).aspx) function.
+The **NtCompareTokens** function compares two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](https://msdn.microsoft.com/library/Aa374815(v=VS.85).aspx) function.
 
 ## Syntax
 

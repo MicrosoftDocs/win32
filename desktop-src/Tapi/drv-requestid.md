@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DRV\_REQUESTID
 
-The **DRV\_REQUESTID** datatype is used to supply a unique identifier for a request to the service provider. A value of this type is passed as a parameter to every function that allows for asynchronous operation. If the operation is asynchronous, the service provider returns this value as the return value of the function. Whenever the service provider flags a request as asynchronous in this way, it must eventually report the operation is complete by calling the [*Completion\_Proc*](https://msdn.microsoft.com/en-us/library/ms725180(v=VS.85).aspx) callback function.
+The **DRV\_REQUESTID** datatype is used to supply a unique identifier for a request to the service provider. A value of this type is passed as a parameter to every function that allows for asynchronous operation. If the operation is asynchronous, the service provider returns this value as the return value of the function. Whenever the service provider flags a request as asynchronous in this way, it must eventually report the operation is complete by calling the [*Completion\_Proc*](https://msdn.microsoft.com/library/ms725180(v=VS.85).aspx) callback function.
 
 TAPI ensures that the **DRV\_REQUESTID** values it supplies are strictly positive, that is, between the values of 0x00000001 and 0x7FFFFFFF, inclusive. Furthermore, the values are unique in that no value returned from a function to flag the request as asynchronous will be re-used before the operation is reported complete.
 

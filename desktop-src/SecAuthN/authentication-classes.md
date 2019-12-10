@@ -16,8 +16,8 @@ Authentication provides the following classes.
 
 | Topic                                                                                   | Description                                                       |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [**RemoteTpmVirtualSmartCardManager**](https://msdn.microsoft.com/en-us/library/Hh707166(v=VS.85).aspx)<br/> | Manages TPM virtual smart cards on remote computers.<br/>   |
-| [**TpmVirtualSmartCardManager**](https://msdn.microsoft.com/en-us/library/Hh707171(v=VS.85).aspx)<br/>             | Manages TPM virtual smart cards on the local computer.<br/> |
+| [**RemoteTpmVirtualSmartCardManager**](https://msdn.microsoft.com/library/Hh707166(v=VS.85).aspx)<br/> | Manages TPM virtual smart cards on remote computers.<br/>   |
+| [**TpmVirtualSmartCardManager**](https://msdn.microsoft.com/library/Hh707171(v=VS.85).aspx)<br/>             | Manages TPM virtual smart cards on the local computer.<br/> |
 
 
 

@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::SetDefaultClassId method
 
-\[The **SetDefaultClassId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **SetDefaultClassId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **SetDefaultClassId** method assigns a standard class identifier byte that will be used in all operations when constructing an ISO 7816-4 command [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU). By default, the standard class identifier byte is 0x00.
+The **SetDefaultClassId** method assigns a standard class identifier byte that will be used in all operations when constructing an ISO 7816-4 command [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU). By default, the standard class identifier byte is 0x00.
 
 ## Syntax
 
@@ -59,7 +59,7 @@ The possible return values are the following:
 
 For a list of all the methods provided by the [**ISCardISO7816**](iscardiso7816.md) interface, see **ISCardISO7816**.
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For information about smart card error codes, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For information about smart card error codes, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

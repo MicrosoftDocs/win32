@@ -12,7 +12,7 @@ This topic shows you how you can set the output matrix of a mono source voice th
 
 ## To setup panning
 
-1.  Retrieve the speaker configuration using [**IXAudio2MasteringVoice::GetChannelMask**](https://msdn.microsoft.com/en-us/library/Hh405046(v=VS.85).aspx).
+1.  Retrieve the speaker configuration using [**IXAudio2MasteringVoice::GetChannelMask**](https://msdn.microsoft.com/library/Hh405046(v=VS.85).aspx).
 
     ```
     DWORD dwChannelMask;       
@@ -41,7 +41,7 @@ This topic shows you how you can set the output matrix of a mono source voice th
 
     
 
-4.  Set the output matrix indices corresponding to the left and right speakers with the values calculated in the previous step. The left and right speakers are determined by looking at the channel mask returned by [**IXAudio2MasteringVoice::GetChannelMask**](https://msdn.microsoft.com/en-us/library/Hh405046(v=VS.85).aspx). Since the channels must always be encoded in the order specified on the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/en-us/library/Ff538802(v=VS.85).aspx) reference page, it is possible to determine the array index corresponding to an individual speaker.
+4.  Set the output matrix indices corresponding to the left and right speakers with the values calculated in the previous step. The left and right speakers are determined by looking at the channel mask returned by [**IXAudio2MasteringVoice::GetChannelMask**](https://msdn.microsoft.com/library/Hh405046(v=VS.85).aspx). Since the channels must always be encoded in the order specified on the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Ff538802(v=VS.85).aspx) reference page, it is possible to determine the array index corresponding to an individual speaker.
 
     ```
     switch (dwChannelMask)
@@ -78,7 +78,7 @@ This topic shows you how you can set the output matrix of a mono source voice th
 
     
 
-5.  Apply the output matrix to the originating voice by using [**IXAudio2Voice::SetOutputMatrix**](https://msdn.microsoft.com/en-us/library/Ee418598(v=VS.85).aspx). The originating voice will be either a source voice or a submix voice sending to either a submix voice or a mastering voice. You can get info about the originating and destination voices, like their number of channels, by using [**IXAudio2Voice::GetVoiceDetails**](https://msdn.microsoft.com/en-us/library/Ee418591(v=VS.85).aspx).
+5.  Apply the output matrix to the originating voice by using [**IXAudio2Voice::SetOutputMatrix**](https://msdn.microsoft.com/library/Ee418598(v=VS.85).aspx). The originating voice will be either a source voice or a submix voice sending to either a submix voice or a mastering voice. You can get info about the originating and destination voices, like their number of channels, by using [**IXAudio2Voice::GetVoiceDetails**](https://msdn.microsoft.com/library/Ee418591(v=VS.85).aspx).
 
     ```
     // Assuming pVoice sends to pMasteringVoice

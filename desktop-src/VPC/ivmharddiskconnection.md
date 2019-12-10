@@ -25,7 +25,7 @@ Defines the connection for a hard disk within the virtual machine. An **IVMHardD
 
 ## Members
 
-The **IVMHardDiskConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnection** also has these types of members:
+The **IVMHardDiskConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

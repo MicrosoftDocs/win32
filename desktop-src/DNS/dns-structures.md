@@ -53,7 +53,7 @@ The following Resource Record (RR) structures are also included in the DNS API. 
 - [**DNS_PTR_DATA**](/windows/win32/api/windns/ns-windns-dns_ptr_dataw)
 - [**DNS_RRSET**](/windows/win32/api/windns/ns-windns-dns_rrset)
 - [**DNS_RRSIG_DATA**](/windows/win32/api/windns/ns-windns-dns_sig_dataw)
-- [**DNS_SIG_DATA**](https://msdn.microsoft.com/en-us/library/ms682094(v=VS.85).aspx)
+- [**DNS_SIG_DATA**](https://msdn.microsoft.com/library/ms682094(v=VS.85).aspx)
 - [**DNS_SOA_DATA**](/windows/win32/api/windns/ns-windns-dns_soa_dataw)
 - [**DNS_SRV_DATA**](/windows/win32/api/windns/ns-windns-dns_ptr_dataw0)
 - [**DNS_TKEY_DATA**](/windows/win32/api/windns/ns-windns-dns_ptr_dataw5)

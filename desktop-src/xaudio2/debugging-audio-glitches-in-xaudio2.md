@@ -50,19 +50,19 @@ XAudio2 can communicate glitches in the debug build in several ways.
     XAudio2: WARNING: Glitch at output sample X
     ```
 
--   Calling [**IXAudio2::GetPerformanceData**](https://msdn.microsoft.com/en-us/library/Ee418615(v=VS.85).aspx) provides XAudio2 performance data, including the total number of glitches since the XAudio2 engine started.
+-   Calling [**IXAudio2::GetPerformanceData**](https://msdn.microsoft.com/library/Ee418615(v=VS.85).aspx) provides XAudio2 performance data, including the total number of glitches since the XAudio2 engine started.
 
 ## Approaches to fixing problems
 
 Possible ways to reduce audio glitches include the following.
 
--   In the voice starvation case: Increase the amount of audio data that is queued ahead on a voice. You can use [**IXAudio2SourceVoice::GetState**](https://msdn.microsoft.com/en-us/library/Hh405047(v=VS.85).aspx) to discover the number of buffers queued at any moment. If you still see voice starvation errors, but can't hear any glitch, make sure you are setting [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer).**Flags** to XAUDIO2\_END\_OF\_STREAM on the final buffer of a sound. This tells XAudio2 not to expect any more buffers necessarily to be available as soon as this one completes.
+-   In the voice starvation case: Increase the amount of audio data that is queued ahead on a voice. You can use [**IXAudio2SourceVoice::GetState**](https://msdn.microsoft.com/library/Hh405047(v=VS.85).aspx) to discover the number of buffers queued at any moment. If you still see voice starvation errors, but can't hear any glitch, make sure you are setting [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer).**Flags** to XAUDIO2\_END\_OF\_STREAM on the final buffer of a sound. This tells XAudio2 not to expect any more buffers necessarily to be available as soon as this one completes.
 
     In the other cases:
 
     -   Reduce the number of active voices and effects in the graph, especially expensive effects like reverb.
     -   Disable voices and effects you're not using.
-    -   Use the XAUDIO2\_VOICE\_NOSRC and XAUDIO2\_VOICE\_NOPITCH flags in [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx), whenever possible. Sample rate conversion is costly.
+    -   Use the XAUDIO2\_VOICE\_NOSRC and XAUDIO2\_VOICE\_NOPITCH flags in [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx), whenever possible. Sample rate conversion is costly.
     -   Reduce the sample rate of individual voices. For example, a submix voice hosting a reverb effect can have a lower sample rate than the source voice sending to it. Sounds such as explosions and gunshots that don't need high fidelity can also be recorded at lower sample rates.
     -   Ensure that callback implementations do as little work as possible and never block.
     -   Make fewer calls to XAudio2. Audio parameters usually don't need to be updated for every video frame. Every 30 ms or so is sufficient. You should eliminate redundant calls, such as setting volume several times in quick succession.

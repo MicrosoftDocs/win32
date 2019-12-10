@@ -16,15 +16,15 @@ The Spell Checking API is designed for use by professional C/C++ developers of W
 
 ## Versioning
 
-The Spell Checking API is available beginning with the Windows 8 or Windows Server 2012. Future additions to the API will be handled by creating new interfaces that can be determined using [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on the existing ones.
+The Spell Checking API is available beginning with the Windows 8 or Windows Server 2012. Future additions to the API will be handled by creating new interfaces that can be determined using [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) on the existing ones.
 
 ## Interfaces
 
-All interfaces must be released when they are no longer used. All returned (out parameter) **LPWSTR** strings (and **LPOLESTR** items from [**IEnumString**](https://msdn.microsoft.com/en-us/library/ms687257(v=VS.85).aspx)) must be released with [**CoTaskMemFree**](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx) when no longer used.
+All interfaces must be released when they are no longer used. All returned (out parameter) **LPWSTR** strings (and **LPOLESTR** items from [**IEnumString**](https://msdn.microsoft.com/library/ms687257(v=VS.85).aspx)) must be released with [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx) when no longer used.
 
 ## Error handling
 
-Errors are returned as **HRESULT**s. [**IErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221233(v=VS.71).aspx) and [**ISupportErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221083(v=VS.71).aspx) are not supported in this API. Errors are not particularly actionable except for incorrect arguments.
+Errors are returned as **HRESULT**s. [**IErrorInfo**](https://msdn.microsoft.com/library/ms221233(v=VS.71).aspx) and [**ISupportErrorInfo**](https://msdn.microsoft.com/library/ms221083(v=VS.71).aspx) are not supported in this API. Errors are not particularly actionable except for incorrect arguments.
 
 Standard RPC error codes may be returned by any of the API calls because they are out-of-proc. Standard RPC timeouts apply.
 
@@ -38,7 +38,7 @@ The user-specific dictionaries for a language, which hold the content for the Ad
 
 ## Installing a spell checking provider
 
-The installation of a spell checking provider must place all the files it uses in a location that allows read access from the SID ([security identifier](https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx)) "ALL APPLICATION PACKAGES". Installing it in a folder under "Program Files" works well. Also, the provider must set some keys in the registry for it to appear to the spell checking API. It can be in either the HKEY\_CURRENT\_USER hive or the HKEY\_LOCAL\_MACHINE hive depending on whether it should install only for the current user or all users.
+The installation of a spell checking provider must place all the files it uses in a location that allows read access from the SID ([security identifier](https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx)) "ALL APPLICATION PACKAGES". Installing it in a folder under "Program Files" works well. Also, the provider must set some keys in the registry for it to appear to the spell checking API. It can be in either the HKEY\_CURRENT\_USER hive or the HKEY\_LOCAL\_MACHINE hive depending on whether it should install only for the current user or all users.
 
 
 ```
@@ -77,10 +77,10 @@ If you are creating new spell checking options for a spell checking provider, se
 [**IOptionDescription::Id**](/windows/desktop/api/Spellcheck/nf-spellcheck-ioptiondescription-get_id)
 </dt> <dt>
 
-[**IEnumString**](https://msdn.microsoft.com/en-us/library/ms687257(v=VS.85).aspx)
+[**IEnumString**](https://msdn.microsoft.com/library/ms687257(v=VS.85).aspx)
 </dt> <dt>
 
-[**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx)
+[**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -54,7 +54,7 @@ api_location:
 
 # Win32\_PhysicalMemory class
 
-The **Win32\_PhysicalMemory** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents a physical memory device located on a computer system and available to the operating system.
+The **Win32\_PhysicalMemory** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a physical memory device located on a computer system and available to the operating system.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -124,7 +124,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Attributes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Attributes")
 </dt> </dl>
 
 SMBIOS - Type 17 - Attributes. Represents the RANK.
@@ -144,7 +144,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.4")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.4")
 </dt> </dl>
 
 Physically labeled bank where the memory is located.
@@ -166,7 +166,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.5"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.5"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("bytes")
 </dt> </dl>
 
 Total capacity of the physical memory—in bytes.
@@ -188,7 +188,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the object—a one-line string.
@@ -206,7 +206,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Configured Memory Clock Speed")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Configured Memory Clock Speed")
 </dt> </dl>
 
 The configured clock speed of the memory device, in megahertz (MHz), or 0, if the speed is unknown.
@@ -226,7 +226,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Configured voltage")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Configured voltage")
 </dt> </dl>
 
 Configured voltage for this device, in millivolts, or 0, if the voltage is unknown.
@@ -246,7 +246,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the first concrete class that appears in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, the property allows all instances of this class and its subclasses to be identified uniquely.
@@ -264,7 +264,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.8"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bits")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.8"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("bits")
 </dt> </dl>
 
 Data width of the physical memory—in bits. A data width of 0 (zero) and a total width of 8 (eight) indicates that the memory is used solely to provide error correction bits.
@@ -284,7 +284,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of an object.
@@ -302,7 +302,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Device Locator")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Device Locator")
 </dt> </dl>
 
 Label of the socket or circuit board that holds the memory.
@@ -322,7 +322,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.6")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.6")
 </dt> </dl>
 
 Implementation form factor for the chip.
@@ -623,7 +623,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time the object is installed. This property does not need a value to indicate that the object is installed.
@@ -641,7 +641,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 20\|Interleaved Data Depth")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 20\|Interleaved Data Depth")
 </dt> </dl>
 
 Unsigned 16-bit integer maximum number of consecutive rows of data that are accessed in a single interleaved transfer from the memory device. If the value is 0 (zero), the memory is not interleaved.
@@ -657,7 +657,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device Mapped Addresses\|001.7")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device Mapped Addresses\|001.7")
 </dt> </dl>
 
 Position of the physical memory in an interleave. For example, in a 2:1 interleave, a value of "1" indicates that the memory is in the "even" position.
@@ -698,7 +698,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the organization responsible for producing the physical element.
@@ -718,7 +718,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Maximum voltage")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Maximum voltage")
 </dt> </dl>
 
 The maximum operating voltage for this device, in millivolts, or 0, if the voltage is unknown.
@@ -738,7 +738,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.9")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.9")
 </dt> </dl>
 
 Type of physical memory. This is a CIM value that is mapped to the SMBIOS value. The **SMBIOSMemoryType** property contains the raw SMBIOS memory type.
@@ -943,7 +943,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 20\|Minimum voltage")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 20\|Minimum voltage")
 </dt> </dl>
 
 The minimum operating voltage for this device, in millivolts, or 0, if the voltage is unknown.
@@ -963,7 +963,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Name for the physical element.
@@ -981,7 +981,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Label for the object. When subclassed, the property can be overridden to be a key property.
@@ -1014,7 +1014,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Part number assigned by the organization responsible for producing or manufacturing the physical element.
@@ -1034,7 +1034,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device Mapped Addresses\|001.6")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device Mapped Addresses\|001.6")
 </dt> </dl>
 
 Position of the physical memory in a row. For example, if it takes two 8-bit memory devices to form a 16-bit row, then a value of 2 (two) means that this memory is the second device—0 (zero) is an invalid value for this property.
@@ -1097,7 +1097,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Manufacturer-allocated number to identify the physical element.
@@ -1117,7 +1117,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Stock keeping unit number for the physical element.
@@ -1135,7 +1135,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Memory\_Type")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Memory\_Type")
 </dt> </dl>
 
 The raw SMBIOS memory type. The value of the **MemoryType** property is a CIM value that is mapped to the SMBIOS value.
@@ -1153,7 +1153,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("nanoseconds")
+Qualifiers: [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("nanoseconds")
 </dt> </dl>
 
 Speed of the physical memory—in nanoseconds.
@@ -1173,7 +1173,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1279,7 +1279,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Unique identifier for the physical memory device that is represented by an instance of **Win32\_PhysicalMemory**. This property is inherited from [**CIM\_PhysicalElement**](cim-physicalelement.md).
@@ -1297,7 +1297,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.7"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bits")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Memory Device\|002.7"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("bits")
 </dt> </dl>
 
 Total width, in bits, of the physical memory, including check or error correction bits. If there are no error correction bits, the value in this property should match what is specified for the **DataWidth** property.
@@ -1317,7 +1317,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Type Detail")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 17\|Type Detail")
 </dt> </dl>
 
 Type of physical memory represented.
@@ -1432,7 +1432,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Version of the physical element.

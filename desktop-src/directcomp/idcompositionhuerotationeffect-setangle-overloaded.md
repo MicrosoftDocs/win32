@@ -24,8 +24,8 @@ Sets the angle to rotate the hue.
 
 | Method                                                                                    | Description                                  |
 |:------------------------------------------------------------------------------------------|:---------------------------------------------|
-| [**SetAngle (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919740(v=VS.85).aspx) | Sets the angle to rotate the hue.<br/> |
-| [**SetAngle**](https://msdn.microsoft.com/en-us/library/Dn919739(v=VS.85).aspx)                               | Sets the angle to rotate the hue.<br/> |
+| [**SetAngle (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919740(v=VS.85).aspx) | Sets the angle to rotate the hue.<br/> |
+| [**SetAngle**](https://msdn.microsoft.com/library/Dn919739(v=VS.85).aspx)                               | Sets the angle to rotate the hue.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the angle to rotate the hue.
 
 <dl> <dt>
 
-[**IDCompositionHueRotationEffect**](https://msdn.microsoft.com/en-us/library/Dn919738(v=VS.85).aspx)
+[**IDCompositionHueRotationEffect**](https://msdn.microsoft.com/library/Dn919738(v=VS.85).aspx)
 </dt> </dl>
 
 �

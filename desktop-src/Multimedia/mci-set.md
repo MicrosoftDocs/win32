@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SET command sets device information. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

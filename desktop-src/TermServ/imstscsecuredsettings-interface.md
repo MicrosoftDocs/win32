@@ -24,7 +24,7 @@ Includes methods to retrieve and set properties of the Remote Desktop ActiveX co
 
 ## Members
 
-The **IMsTscSecuredSettings** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IMsTscSecuredSettings** also has these types of members:
+The **IMsTscSecuredSettings** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IMsTscSecuredSettings** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -67,7 +67,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)

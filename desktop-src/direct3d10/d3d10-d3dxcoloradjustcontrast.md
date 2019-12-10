@@ -40,7 +40,7 @@ D3DXCOLOR* D3DXColorAdjustContrast(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)\***
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
 
 \[in, out\] Pointer to a [**D3DXCOLOR**](d3d10-d3dxcolor.md) that is the result of the operation.
 
@@ -49,7 +49,7 @@ Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.8
 *pC* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)\***
+Type: **const [**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
 
 Pointer to a source D3DXCOLOR structure.
 
@@ -58,7 +58,7 @@ Pointer to a source D3DXCOLOR structure.
 *c* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Contrast value. This parameter linearly interpolates between fifty percent gray and the color, pC. There are no limits on the value of c. If this parameter is zero, then the returned color is fifty percent gray. If this parameter is 1, then the returned color is the original color.
 
@@ -66,7 +66,7 @@ Contrast value. This parameter linearly interpolates between fifty percent gray 
 
 ## Return value
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)\***
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
 
 This function returns a pointer to a D3DXCOLOR structure that is the result of the contrast adjustment.
 

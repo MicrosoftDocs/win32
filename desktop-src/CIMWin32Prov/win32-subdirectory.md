@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SubDirectory class
 
-The **Win32\_SubDirectory** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a directory (folder) and one of its subdirectories (subfolders).
+The **Win32\_SubDirectory** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a directory (folder) and one of its subdirectories (subfolders).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_Directory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Directory")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Directory")
 </dt> </dl>
 
 Reference to the instance representing the properties of the parent directory (folder) in this association.
@@ -72,7 +72,7 @@ Data type: **Win32\_Directory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Directory")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Directory")
 </dt> </dl>
 
 Reference to the instance representing the subdirectory (subfolder) part of the association.
@@ -128,7 +128,7 @@ Next
 [**CIM\_Component**](cim-component.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

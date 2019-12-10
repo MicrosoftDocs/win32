@@ -39,9 +39,9 @@ HRESULT SetTransform(
 *State* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx)**
+Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx)**
 
-The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx).
+The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -56,7 +56,7 @@ A transformation matrix. See [**D3DMATRIX**](d3dmatrix.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

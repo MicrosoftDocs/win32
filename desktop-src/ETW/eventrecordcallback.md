@@ -39,7 +39,7 @@ VOID WINAPI EventRecordCallback(
 *EventRecord* \[in\]
 </dt> <dd>
 
-Pointer to an [**EVENT\_RECORD**](https://msdn.microsoft.com/en-us/library/Aa363769(v=VS.85).aspx) structure that contains the event information.
+Pointer to an [**EVENT\_RECORD**](https://msdn.microsoft.com/library/Aa363769(v=VS.85).aspx) structure that contains the event information.
 
 </dd> </dl>
 

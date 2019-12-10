@@ -14,15 +14,15 @@ This topic lists structures that are used with processes, threads, processors, j
 
 The following structures are used with processes and threads:
 
--   [**APP\_MEMORY\_INFORMATION**](https://msdn.microsoft.com/en-us/library/Mt767995(v=VS.85).aspx)
+-   [**APP\_MEMORY\_INFORMATION**](https://msdn.microsoft.com/library/Mt767995(v=VS.85).aspx)
 -   [**AR\_STATE**](/windows/win32/api/winuser/ne-winuser-ar_state)
 -   [**CACHE\_DESCRIPTOR**](/windows/desktop/api/WinNT/ns-winnt-cache_descriptor)
 -   [**IO\_COUNTERS**](/windows/desktop/api/WinNT/ns-winnt-io_counters)
 -   [**ORIENTATION\_PREFERENCE**](/windows/desktop/api/WinUser/ne-winuser-orientation_preference)
 -   [**PEB**](/windows/desktop/api/Winternl/ns-winternl-peb)
 -   [**PEB\_LDR\_DATA**](/windows/desktop/api/Winternl/ns-winternl-peb_ldr_data)
--   [**PROCESS\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx)
--   [**PROCESS\_MEMORY\_EXHAUSTION\_INFO**](https://msdn.microsoft.com/en-us/library/Mt767997(v=VS.85).aspx)
+-   [**PROCESS\_INFORMATION**](https://msdn.microsoft.com/library/ms684873(v=VS.85).aspx)
+-   [**PROCESS\_MEMORY\_EXHAUSTION\_INFO**](https://msdn.microsoft.com/library/Mt767997(v=VS.85).aspx)
 -   [**PROCESS\_MITIGATION\_ASLR\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-process_mitigation_aslr_policy)
 -   [**PROCESS\_MITIGATION\_BINARY\_SIGNATURE\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-process_mitigation_binary_signature_policy)
 -   [**PROCESS\_MITIGATION\_CONTROL\_FLOW\_GUARD\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-process_mitigation_control_flow_guard_policy)
@@ -34,7 +34,7 @@ The following structures are used with processes and threads:
 -   [**PROCESS\_MITIGATION\_STRICT\_HANDLE\_CHECK\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-process_mitigation_strict_handle_check_policy)
 -   [**PROCESS\_MITIGATION\_SYSTEM\_CALL\_DISABLE\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-process_mitigation_system_call_disable_policy)
 -   [**RTL\_USER\_PROCESS\_PARAMETERS**](/windows/desktop/api/Winternl/ns-winternl-rtl_user_process_parameters)
--   [**STARTUPINFO**](https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx)
+-   [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx)
 -   [**STARTUPINFOEX**](/windows/desktop/api/WinBase/ns-winbase-startupinfoexa)
 -   [**TEB**](/windows/desktop/api/Winternl/ns-winternl-teb)
 

@@ -40,7 +40,7 @@ typedef struct _D3DCOMPOSERECTDESC {
 **X**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Left coordinate to begin copy at.
 **Y**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Top coordinate to begin copy at.
 **Width**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Number of texels from left coordinate.
 **Height**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

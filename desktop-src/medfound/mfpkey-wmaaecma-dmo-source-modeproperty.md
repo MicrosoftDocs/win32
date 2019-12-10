@@ -12,7 +12,7 @@ Specifies whether the Voice Capture DSP uses source mode or filter mode.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 
@@ -44,7 +44,7 @@ This property can have the following values.
  
 
 > [!Note]  
-> When the DMO is in source mode, you should only call [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx) to set output stream format, and do not call [**IMediaObject::SetInputType**](https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx) to set input stream formats. Otherwise DMO initialization will fail.
+> When the DMO is in source mode, you should only call [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/library/Dd406963(v=VS.85).aspx) to set output stream format, and do not call [**IMediaObject::SetInputType**](https://msdn.microsoft.com/library/Dd406962(v=VS.85).aspx) to set input stream formats. Otherwise DMO initialization will fail.
 
  
 

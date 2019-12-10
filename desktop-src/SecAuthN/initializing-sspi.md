@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Initializing SSPI
 
-The client and server use the same sequence of operations to initialize SSPI and select a [*security package*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The client and server use the same sequence of operations to initialize SSPI and select a [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 The following steps initialize SSPI:
 

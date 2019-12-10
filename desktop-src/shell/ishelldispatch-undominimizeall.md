@@ -52,7 +52,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.UndoMinimizeAll**](https://msdn.microsoft.com/en-us/library/Bb774106(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.UndoMinimizeAll**](https://msdn.microsoft.com/library/Bb774106(v=VS.85).aspx) method.
 
 ## Examples
 

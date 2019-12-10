@@ -59,7 +59,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 The [**Stroke**](inkcollector-stroke.md) event is fired when in select or erase mode, not just when inserting ink. This requires that you monitor the editing mode (which you are responsible for setting) and are aware of the mode before interpreting the event. The advantage of this requirement is greater freedom to innovate on the platform through greater awareness of platform events.
 
 > [!Note]  
-> The [**Stroke**](inkcollector-stroke.md) event fires when the user finishes drawing a stroke, not when a stroke is added to the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection. When the user first starts to draw a stroke, it is added immediately to the InkStrokes collection; however, the **Stroke** event does not fire until the stroke is complete. Therefore, strokes can exist in the InkStrokes collection that the **Stroke** event handler has not seen.
+> The [**Stroke**](inkcollector-stroke.md) event fires when the user finishes drawing a stroke, not when a stroke is added to the [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection. When the user first starts to draw a stroke, it is added immediately to the InkStrokes collection; however, the **Stroke** event does not fire until the stroke is complete. Therefore, strokes can exist in the InkStrokes collection that the **Stroke** event handler has not seen.
 
  
 

@@ -44,7 +44,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\*\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object copy.
 

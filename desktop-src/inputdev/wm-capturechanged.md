@@ -53,7 +53,7 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-A window receives this message even if it calls [**ReleaseCapture**](https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx) itself. An application should not attempt to set the mouse capture in response to this message.
+A window receives this message even if it calls [**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx) itself. An application should not attempt to set the mouse capture in response to this message.
 
 When it receives this message, a window should redraw itself, if necessary, to reflect the new mouse-capture state.
 
@@ -76,10 +76,10 @@ When it receives this message, a window should redraw itself, if necessary, to r
 **Reference**
 </dt> <dt>
 
-[**ReleaseCapture**](https://msdn.microsoft.com/en-us/library/ms646261(v=VS.85).aspx)
+[**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

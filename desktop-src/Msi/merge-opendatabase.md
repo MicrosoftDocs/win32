@@ -48,7 +48,7 @@ This method does not return a value.
 
 ## C++
 
-See [**OpenDatabase**](https://msdn.microsoft.com/en-us/library/Aa369276(v=VS.85).aspx) function.
+See [**OpenDatabase**](https://msdn.microsoft.com/library/Aa369276(v=VS.85).aspx) function.
 
 ## Requirements
 

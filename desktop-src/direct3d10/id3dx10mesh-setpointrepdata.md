@@ -38,7 +38,7 @@ HRESULT SetPointRepData(
 *pPointReps* \[in\]
 </dt> <dd>
 
-Type: **const [**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 The point rep data to set.
 
@@ -46,7 +46,7 @@ The point rep data to set.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

@@ -43,7 +43,7 @@ An index value in the range 0 through 255.
 
 ## Return value
 
-The [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx) that maps to the given *index*.
+The [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx) that maps to the given *index*.
 
 ## Remarks
 

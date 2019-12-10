@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMU555 Extensions
 
-[**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx) describes a 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
+[**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx) describes a 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,7 +35,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx)
+[**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx)
 </dt> </dl>
 
  

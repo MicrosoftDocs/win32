@@ -22,7 +22,7 @@ Applications use the methods of the IDirectXFileEnumObject interface to cycle th
 
 ## Members
 
-The **IDirectXFileEnumObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IDirectXFileEnumObject** also has these types of members:
+The **IDirectXFileEnumObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirectXFileEnumObject** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -35,7 +35,7 @@ propVal = Dependency.Language
 
 ## C++
 
-See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/en-us/library/Aa369246(v=VS.85).aspx).
+See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/library/Aa369246(v=VS.85).aspx).
 
 ## Requirements
 

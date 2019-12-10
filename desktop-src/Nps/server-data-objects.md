@@ -22,7 +22,7 @@ With the SDO API, a developer can manipulate any element of the NPS configuratio
 
 The SDO API also makes it possible to set or retrieve any of the values accessible through the user dial-in settings property page.
 
-The SDO API is composed of COM interfaces. Each of the interfaces in the SDO API inherits from the COM [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. The **IDispatch** interface enables developers to call the SDO interface methods from Visual Basic or any Automation client, as well as from C/C++.
+The SDO API is composed of COM interfaces. Each of the interfaces in the SDO API inherits from the COM [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. The **IDispatch** interface enables developers to call the SDO interface methods from Visual Basic or any Automation client, as well as from C/C++.
 
 Developers can also call the SDO API from scripting languages such as VBScript. However, because VBScript is limited to using VARIANT-type parameters only, not all the functionality of SDO is available.
 

@@ -83,7 +83,7 @@ This event does not return a value.
 
  
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseWheel.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseWheel.
 
 ## Requirements
 

@@ -82,7 +82,7 @@ The *system large icon* is mainly used by applications, but it is also displayed
 
 -   Call [**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXICON** and **SM\_CYICON**.
 
-The [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect), and [**SHGetFileInfo**](https://msdn.microsoft.com/en-us/library/Bb762179(v=VS.85).aspx) functions can be used to work with icons in sizes other than system large.
+The [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect), and [**SHGetFileInfo**](https://msdn.microsoft.com/library/Bb762179(v=VS.85).aspx) functions can be used to work with icons in sizes other than system large.
 
 The *shell small icon* is used in the Windows Explorer and the common dialogs. Currently, this defaults to the system small size.
 
@@ -101,7 +101,7 @@ The shell large icon is used on the desktop.
 
 ### To retrieve the size of the shell large icon
 
-1.  Use the [**SHGetFileInfo**](https://msdn.microsoft.com/en-us/library/Bb762179(v=VS.85).aspx) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
+1.  Use the [**SHGetFileInfo**](https://msdn.microsoft.com/library/Bb762179(v=VS.85).aspx) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
 2.  Then call the [**ImageList\_GetIconSize**](https://msdn.microsoft.com/library/Bb761550(v=VS.85).aspx) function to get the icon size.
 
 The Start menu uses either shell small icons or shell large icons, depending on whether the **Use Large Icons** check box is selected.
@@ -118,7 +118,7 @@ When filling in the [**WNDCLASSEX**](https://docs.microsoft.com/windows/win32/ap
 
 Standard icons are predefined, so it is not necessary to create them. To use a standard icon, an application can obtain its handle by using the [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function. An *icon handle* is a unique value of the **HICON** type that identifies a standard or custom icon.
 
-To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](https://msdn.microsoft.com/en-us/library/Aa381018(v=VS.85).aspx) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
+To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](https://msdn.microsoft.com/library/Aa381018(v=VS.85).aspx) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
 
 An application can also create a custom icon at run-time by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates an icon based on the contents of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure. The [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function fills the structure with the hot-spot coordinates and information about the bitmask bitmap and color bitmap for the icon.
 

@@ -20,8 +20,8 @@ The **Find** method searches a string for the first match of a substring.
 
 | Method                                          | Description                                             |
 |:------------------------------------------------|:--------------------------------------------------------|
-| [**Find(WCHAR)**](https://msdn.microsoft.com/en-us/library/Aa385501(v=VS.85).aspx)     | Searches for the **WSTR** in this string.<br/>    |
-| [**Find(LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385497(v=VS.85).aspx) | Searches for the **LPCWSTR** in this string.<br/> |
+| [**Find(WCHAR)**](https://msdn.microsoft.com/library/Aa385501(v=VS.85).aspx)     | Searches for the **WSTR** in this string.<br/>    |
+| [**Find(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385497(v=VS.85).aspx) | Searches for the **LPCWSTR** in this string.<br/> |
 
 
 

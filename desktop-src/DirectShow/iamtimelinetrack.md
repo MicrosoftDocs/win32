@@ -31,7 +31,7 @@ To create a track object, call [**IAMTimeline::CreateEmptyNode**](iamtimeline-cr
 
 ## Members
 
-The **IAMTimelineTrack** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineTrack** also has these types of members:
+The **IAMTimelineTrack** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineTrack** also has these types of members:
 
 -   [Methods](#methods)
 

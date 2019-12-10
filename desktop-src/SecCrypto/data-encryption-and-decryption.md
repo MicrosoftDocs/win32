@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Data Encryption and Decryption
 
-Encryption is the process of translating plain text data ([*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx)) into something that appears to be random and meaningless ([*ciphertext*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx)). Decryption is the process of converting ciphertext back to plaintext.
+Encryption is the process of translating plain text data ([*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx)) into something that appears to be random and meaningless ([*ciphertext*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx)). Decryption is the process of converting ciphertext back to plaintext.
 
-To encrypt more than a small amount of data, [*symmetric encryption*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) is used. A [*symmetric key*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) is used during both the encryption and decryption processes. To decrypt a particular piece of ciphertext, the key that was used to encrypt the data must be used.
+To encrypt more than a small amount of data, [*symmetric encryption*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) is used. A [*symmetric key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) is used during both the encryption and decryption processes. To decrypt a particular piece of ciphertext, the key that was used to encrypt the data must be used.
 
 The goal of every encryption algorithm is to make it as difficult as possible to decrypt the generated ciphertext without using the key. If a really good encryption algorithm is used, there is no technique significantly better than methodically trying every possible key. For such an algorithm, the longer the key, the more difficult it is to decrypt a piece of ciphertext without possessing the key.
 

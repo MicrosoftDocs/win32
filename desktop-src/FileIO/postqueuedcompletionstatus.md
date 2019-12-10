@@ -52,21 +52,21 @@ A handle to an I/O completion port to which the I/O completion packet is to be p
 *dwNumberOfBytesTransferred* \[in\]
 </dt> <dd>
 
-The value to be returned through the *lpNumberOfBytesTransferred* parameter of the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function.
+The value to be returned through the *lpNumberOfBytesTransferred* parameter of the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx) function.
 
 </dd> <dt>
 
 *dwCompletionKey* \[in\]
 </dt> <dd>
 
-The value to be returned through the *lpCompletionKey* parameter of the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function.
+The value to be returned through the *lpCompletionKey* parameter of the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx) function.
 
 </dd> <dt>
 
 *lpOverlapped* \[in, optional\]
 </dt> <dd>
 
-The value to be returned through the *lpOverlapped* parameter of the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function.
+The value to be returned through the *lpOverlapped* parameter of the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx) function.
 
 </dd> </dl>
 
@@ -78,7 +78,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-The I/O completion packet will satisfy an outstanding call to the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx) function. This function returns with the three values passed as the second, third, and fourth parameters of the call to **PostQueuedCompletionStatus**. The system does not use or validate these values. In particular, the *lpOverlapped* parameter need not point to an [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure.
+The I/O completion packet will satisfy an outstanding call to the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx) function. This function returns with the three values passed as the second, third, and fourth parameters of the call to **PostQueuedCompletionStatus**. The system does not use or validate these values. In particular, the *lpOverlapped* parameter need not point to an [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -122,7 +122,7 @@ CsvFs will do redirected IO for compressed files.
 [File Management Functions](file-management-functions.md)
 </dt> <dt>
 
-[**GetQueuedCompletionStatus**](https://msdn.microsoft.com/en-us/library/Aa364986(v=VS.85).aspx)
+[**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx)
 </dt> <dt>
 
 [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped)

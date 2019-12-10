@@ -65,7 +65,7 @@ After calling CoInitialize on the control pointer, you have a reference to the c
 
 ## Show the Control
 
-The control will not automatically appear after you create it. To show the control, call the [**Show**](/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show) method on the control reference that you created in the previous step. The following code demonstrates how the [**Show**](https://msdn.microsoft.com/en-us/library/ms703289(v=VS.85).aspx) method can be called.
+The control will not automatically appear after you create it. To show the control, call the [**Show**](/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show) method on the control reference that you created in the previous step. The following code demonstrates how the [**Show**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx) method can be called.
 
 
 ```

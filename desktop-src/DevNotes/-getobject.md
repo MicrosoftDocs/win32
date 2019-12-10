@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **GetObject** function. This function may be altered or unavailable in the future. Applications should call **GetObject** directly.\]
 
-Gets graphics object information. See [**GetObject**](https://msdn.microsoft.com/en-us/library/Dd144904(v=VS.85).aspx).
+Gets graphics object information. See [**GetObject**](https://msdn.microsoft.com/library/Dd144904(v=VS.85).aspx).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ int _GetObject(
 
 <dl> <dt>
 
-[**GetObject**](https://msdn.microsoft.com/en-us/library/Dd144904(v=VS.85).aspx)
+[**GetObject**](https://msdn.microsoft.com/library/Dd144904(v=VS.85).aspx)
 </dt> </dl>
 
  

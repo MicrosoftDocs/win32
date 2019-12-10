@@ -24,9 +24,9 @@ Creates a Direct2D bitmap by copying a WIC bitmap.
 
 | Method                                                                                                                                                | Description                                                   |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| [**CreateBitmapFromWicBitmap (IWICBitmapSource\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/Dn900384(v=VS.85).aspx)                            | Creates a Direct2D bitmap by copying a WIC bitmap.<br/> |
-| [**CreateBitmapFromWicBitmap (IWICBitmapSource\*, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/Hh847971(v=VS.85).aspx) | Creates a Direct2D bitmap by copying a WIC bitmap.<br/> |
-| [**CreateBitmapFromWicBitmap (IWICBitmapSource\*, D2D1\_BITMAP\_PROPERTIES1&, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841136(v=VS.85).aspx) | Creates a Direct2D bitmap by copying a WIC bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap (IWICBitmapSource\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/Dn900384(v=VS.85).aspx)                            | Creates a Direct2D bitmap by copying a WIC bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap (IWICBitmapSource\*, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/Hh847971(v=VS.85).aspx) | Creates a Direct2D bitmap by copying a WIC bitmap.<br/> |
+| [**CreateBitmapFromWicBitmap (IWICBitmapSource\*, D2D1\_BITMAP\_PROPERTIES1&, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/JJ841136(v=VS.85).aspx) | Creates a Direct2D bitmap by copying a WIC bitmap.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Creates a Direct2D bitmap by copying a WIC bitmap.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
  

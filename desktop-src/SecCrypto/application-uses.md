@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Application Uses
 
-Certificate Services issues certificates that can be used in public key infrastructure (PKI) applications. For example, the certificates work in SSL, S/MIME and IPSEC applications. Possible scenarios where these certificates can be used are digital signing and message encryption. Certificate Services provides certificates, [*certificate revocation lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRL), and CRL distribution points (CDP) that are usable by both Microsoft and non-Microsoft applications.
+Certificate Services issues certificates that can be used in public key infrastructure (PKI) applications. For example, the certificates work in SSL, S/MIME and IPSEC applications. Possible scenarios where these certificates can be used are digital signing and message encryption. Certificate Services provides certificates, [*certificate revocation lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRL), and CRL distribution points (CDP) that are usable by both Microsoft and non-Microsoft applications.
 
  
 

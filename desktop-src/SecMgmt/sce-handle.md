@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SCE\_HANDLE
 
-The **SCE\_HANDLE** data type is an opaque handle provided by the Security Configuration tool set. It is used by [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/en-us/library/ms721890(v=VS.85).aspx) and [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/en-us/library/ms721892(v=VS.85).aspx) support functions to pass information between the attachment and the security database.
+The **SCE\_HANDLE** data type is an opaque handle provided by the Security Configuration tool set. It is used by [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx) and [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/library/ms721892(v=VS.85).aspx) support functions to pass information between the attachment and the security database.
 
 
 ```C++
@@ -33,10 +33,10 @@ typedef PVOID SCE_HANDLE;
 
 <dl> <dt>
 
-[**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/en-us/library/ms721890(v=VS.85).aspx)
+[**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx)
 </dt> <dt>
 
-[**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/en-us/library/ms721892(v=VS.85).aspx)
+[**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/library/ms721892(v=VS.85).aspx)
 </dt> </dl>
 
  

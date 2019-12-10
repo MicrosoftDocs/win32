@@ -43,7 +43,7 @@ The return value is **TRUE** if the text is set. It is **FALSE** (for an edit co
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function sets and displays the window text. For an edit control, the text is the contents of the edit control. For a combo box, the text is the contents of the edit-control portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title.
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function sets and displays the window text. For an edit control, the text is the contents of the edit control. For a combo box, the text is the contents of the edit-control portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title.
 
 This message does not change the current selection in the list box of a combo box. An application should use the [**CB\_SELECTSTRING**](https://msdn.microsoft.com/library/Bb775895(v=VS.85).aspx) message to select the item in a list box that matches the text in the edit control.
 
@@ -66,7 +66,7 @@ This message does not change the current selection in the list box of a combo bo
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETTEXT**](wm-gettext.md)

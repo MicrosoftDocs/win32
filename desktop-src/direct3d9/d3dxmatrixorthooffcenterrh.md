@@ -46,14 +46,14 @@ D3DXMATRIX* D3DXMatrixOrthoOffCenterRH(
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
 
 </dd> <dt>
 
 *l* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum x-value of view volume.
 
@@ -62,7 +62,7 @@ Minimum x-value of view volume.
 *r* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum x-value of view volume.
 
@@ -71,7 +71,7 @@ Maximum x-value of view volume.
 *b* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum y-value of view volume.
 
@@ -80,7 +80,7 @@ Minimum y-value of view volume.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum y-value of view volume.
 
@@ -89,7 +89,7 @@ Maximum y-value of view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum z-value of the view volume.
 
@@ -98,7 +98,7 @@ Minimum z-value of the view volume.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum z-value of the view volume.
 
@@ -108,7 +108,7 @@ Maximum z-value of the view volume.
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
 
 ## Remarks
 

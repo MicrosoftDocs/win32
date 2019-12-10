@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUBYTE4 Operators
 
-The [**XMUBYTE4**](https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx) structure exposes the following operators.
+The [**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMUBYTE4**](https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).as
 
 | Methods                                               | Description                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee420491(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUBYTE4` to the current instance of `XMUBYTE4`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Ee420491(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUBYTE4` to the current instance of `XMUBYTE4`. <br/> |
 
 
 
@@ -37,7 +37,7 @@ The [**XMUBYTE4**](https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).as
 **Reference**
 </dt> <dt>
 
-[**XMUBYTE4**](https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx)
+[**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx)
 </dt> </dl>
 
  

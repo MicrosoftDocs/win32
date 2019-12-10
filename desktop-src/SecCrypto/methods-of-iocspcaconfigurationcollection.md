@@ -14,7 +14,7 @@ The following methods are defined by the [**IOCSPCAConfigurationCollection**](/w
 
 | Method                                                                                       | Description                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateCAConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration) | Creates a new [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) configuration and adds it to the configuration set. |
+| [**CreateCAConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration) | Creates a new [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) configuration and adds it to the configuration set. |
 | [**DeleteCAConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspcaconfigurationcollection-deletecaconfiguration) | Removes a named CA configuration from the configuration set.                                                                                                                                   |
 
 

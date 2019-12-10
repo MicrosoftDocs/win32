@@ -37,7 +37,7 @@ typedef struct D3DXFLOAT16 {
 **Value**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

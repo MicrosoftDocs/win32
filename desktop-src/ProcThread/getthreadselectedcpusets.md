@@ -42,7 +42,7 @@ BOOL WINAPI GetThreadSelectedCpuSets(
 *Thread* \[in\]
 </dt> <dd>
 
-Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](https://msdn.microsoft.com/en-us/library/ms683182(v=VS.85).aspx) can also be specified here.
+Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](https://msdn.microsoft.com/library/ms683182(v=VS.85).aspx) can also be specified here.
 
 </dd> <dt>
 

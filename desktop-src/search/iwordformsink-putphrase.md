@@ -58,7 +58,7 @@ This method can return one of these values.
 | Return code                                                                                              | Description                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S\_OK**</dt> </dl>                     | The operation was completed successfully. <br/>                                                                                             |
-| <dl> <dt>**LANGUAGE\_S\_LARGE\_WORD** </dt> </dl> | Value of *cwc* is larger than the value for *ulMaxTokenSize* that is specified in [**IStemmer::Init**](https://msdn.microsoft.com/en-us/library/Bb266436(v=VS.85).aspx). <br/> |
+| <dl> <dt>**LANGUAGE\_S\_LARGE\_WORD** </dt> </dl> | Value of *cwc* is larger than the value for *ulMaxTokenSize* that is specified in [**IStemmer::Init**](https://msdn.microsoft.com/library/Bb266436(v=VS.85).aspx). <br/> |
 
 
 
@@ -66,7 +66,7 @@ This method can return one of these values.
 
 ## Remarks
 
-This method is called from the [**GenerateWordForms**](https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx) method of the [**IStemmer**](https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx) implementation. All alternative forms for a word, except the last, are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling **IWordFormSink::PutAltWord**. The final alternative form of a word, which is always the original form of the word, is handled by calling [**IWordFormSink::PutWord**](iwordformsink-putword.md).
+This method is called from the [**GenerateWordForms**](https://msdn.microsoft.com/library/Bb266434(v=VS.85).aspx) method of the [**IStemmer**](https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx) implementation. All alternative forms for a word, except the last, are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling **IWordFormSink::PutAltWord**. The final alternative form of a word, which is always the original form of the word, is handled by calling [**IWordFormSink::PutWord**](iwordformsink-putword.md).
 
 ## Requirements
 

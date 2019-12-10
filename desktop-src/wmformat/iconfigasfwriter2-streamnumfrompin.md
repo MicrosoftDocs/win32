@@ -63,7 +63,7 @@ Sometimes you may need to use the Windows Media Format SDK interfaces directly t
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/en-us/library/Dd743206(v=VS.85).aspx)
+[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/library/Dd743206(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -67,7 +67,7 @@ A Wordwrap function scans a text buffer that contains text to be sent to the dis
 **Reference**
 </dt> <dt>
 
-[*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx)
+[*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx)
 </dt> <dt>
 
 [**EM\_FMTLINES**](em-fmtlines.md)

@@ -24,8 +24,8 @@ Changes or animates the value of the AngleY property of a 2D skew transform. The
 
 | Method                                                                                                     | Description                                           |
 |:-----------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetAngleY(float)**](https://msdn.microsoft.com/en-us/library/Hh449065(v=VS.85).aspx)                                     | Changes the value of the AngleY property.<br/>  |
-| [**SetAngleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449067(v=VS.85).aspx) | Animates the value of the AngleY property.<br/> |
+| [**SetAngleY(float)**](https://msdn.microsoft.com/library/Hh449065(v=VS.85).aspx)                                     | Changes the value of the AngleY property.<br/>  |
+| [**SetAngleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449067(v=VS.85).aspx) | Animates the value of the AngleY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the AngleY property of a 2D skew transform. The
 
 <dl> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
 </dt> </dl>
 
 �

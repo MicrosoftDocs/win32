@@ -16,7 +16,7 @@ api_location:
 
 # ID2D1DeviceContext::CreateBitmap methods
 
-Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the [**DrawBitmap**](https://msdn.microsoft.com/en-us/library/Dn441539(v=VS.85).aspx) and [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) APIs. In addition, color context information can be passed to the bitmap.[**CreateBitmap**](https://msdn.microsoft.com/en-us/library/Hh404480(v=VS.85).aspx)[**CreateBitmap**](https://msdn.microsoft.com/en-us/library/JJ841129(v=VS.85).aspx)
+Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the [**DrawBitmap**](https://msdn.microsoft.com/library/Dn441539(v=VS.85).aspx) and [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) APIs. In addition, color context information can be passed to the bitmap.[**CreateBitmap**](https://msdn.microsoft.com/library/Hh404480(v=VS.85).aspx)[**CreateBitmap**](https://msdn.microsoft.com/library/JJ841129(v=VS.85).aspx)
 
 ### Overload list
 
@@ -24,9 +24,9 @@ Creates a bitmap that can be used as a target surface, for reading back to the C
 
 | Method                                                                                                                                 | Description                                                                                                                                                                                                                                                                                          |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateBitmap (D2D1\_SIZE\_U, void\*, UINT32, D2D1\_BITMAP\_PROPERTIES1, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841129(v=VS.85).aspx)  | Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the [**DrawBitmap**](https://msdn.microsoft.com/en-us/library/Dn441539(v=VS.85).aspx) and [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx) APIs. In addition, color context information can be passed to the bitmap.<br/> |
-| [**CreateBitmap (D2D1\_SIZE\_U, void\*, UINT32, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/Hh404480(v=VS.85).aspx) |                                                                                                                                                                                                                                                                                                      |
-| [**CreateBitmap (D2D1\_SIZE\_U, void\*, UINT32, D2D1\_BITMAP\_PROPERTIES1&, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841129(v=VS.85).aspx) |                                                                                                                                                                                                                                                                                                      |
+| [**CreateBitmap (D2D1\_SIZE\_U, void\*, UINT32, D2D1\_BITMAP\_PROPERTIES1, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/JJ841129(v=VS.85).aspx)  | Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the [**DrawBitmap**](https://msdn.microsoft.com/library/Dn441539(v=VS.85).aspx) and [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) APIs. In addition, color context information can be passed to the bitmap.<br/> |
+| [**CreateBitmap (D2D1\_SIZE\_U, void\*, UINT32, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/Hh404480(v=VS.85).aspx) |                                                                                                                                                                                                                                                                                                      |
+| [**CreateBitmap (D2D1\_SIZE\_U, void\*, UINT32, D2D1\_BITMAP\_PROPERTIES1&, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/JJ841129(v=VS.85).aspx) |                                                                                                                                                                                                                                                                                                      |
 
 
 
@@ -34,7 +34,7 @@ Creates a bitmap that can be used as a target surface, for reading back to the C
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
  

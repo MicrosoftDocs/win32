@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::SelectFile method
 
-\[The **SelectFile** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **SelectFile** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **SelectFile** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) command that sets a current elementary file within a logical channel. Subsequent commands may implicitly refer to the current file through the logical channel.
+The **SelectFile** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that sets a current elementary file within a logical channel. Subsequent commands may implicitly refer to the current file through the logical channel.
 
 Selecting a directory (DF) within the card filestore — which may be the root (MF) of the filestore — makes it the current DF. After such a selection, an implicit current elementary file may be referred to through that logical channel.
 
@@ -112,7 +112,7 @@ Empty (that is, 0) or maximum length of data expected in response.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 

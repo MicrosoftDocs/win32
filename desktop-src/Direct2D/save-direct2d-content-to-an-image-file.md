@@ -8,19 +8,19 @@ ms.date: 05/31/2018
 
 # How to save Direct2D content to an image file
 
-This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG. If you are writing a Windows Store app, you can have the user select a destination file using [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker).
+This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG. If you are writing a Windows Store app, you can have the user select a destination file using [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker).
 
 ## What you need to know
 
 ### Technologies
 
--   [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx)
+-   [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)
 -   [Direct2D effects](effects-overview.md)
 -   [**Windows::Storage::Pickers::FileSavePicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker)
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) object and an object containing [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) content that implements [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) such as [**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx) or [**ID2D1Bitmap1**](https://msdn.microsoft.com/en-us/library/Hh404349(v=VS.85).aspx).
+-   You need an [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) object and an object containing [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) content that implements [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) such as [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) or [**ID2D1Bitmap1**](https://msdn.microsoft.com/library/Hh404349(v=VS.85).aspx).
 
 ## Instructions
 
@@ -152,7 +152,7 @@ DX::ThrowIfFailed(
 
 
 
-Call [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder). The first parameter is an [**ID2D1Device**](https://msdn.microsoft.com/en-us/library/Hh404478(v=VS.85).aspx) and must be the device on which the image you want to encode was created – you cannot mix images from different resource domains within a single [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder).
+Call [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder). The first parameter is an [**ID2D1Device**](https://msdn.microsoft.com/library/Hh404478(v=VS.85).aspx) and must be the device on which the image you want to encode was created – you cannot mix images from different resource domains within a single [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder).
 
 
 ```C++
@@ -169,9 +169,9 @@ Call [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/wi
 
 ### Step 4: Write the Direct2D content using IWICImageEncoder
 
-[**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) can write a [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder) and [IWICBitmapFrameEncode](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode) to encode the imaging data to a file as normal.
+[**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) can write a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder) and [IWICBitmapFrameEncode](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode) to encode the imaging data to a file as normal.
 
-Write the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) image to the frame. In this snippet we write an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx).
+Write the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) image to the frame. In this snippet we write an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx).
 
 
 ```C++
@@ -187,7 +187,7 @@ Write the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).
 
 
 > [!Note]  
-> The [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) parameter must have been created on the [**ID2D1Device**](https://msdn.microsoft.com/en-us/library/Hh404478(v=VS.85).aspx) that was passed into [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder).
+> The [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) parameter must have been created on the [**ID2D1Device**](https://msdn.microsoft.com/library/Hh404478(v=VS.85).aspx) that was passed into [**IWICImagingFactory2::CreateImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder).
 
  
 
@@ -216,7 +216,7 @@ Commit the WIC and stream resources to finalize the operation.
 
  
 
-Now you have a file containing the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) image.
+Now you have a file containing the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) image.
 
 ## Complete example
 

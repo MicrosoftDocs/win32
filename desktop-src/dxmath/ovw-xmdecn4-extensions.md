@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMDECN4 Extensions
 
-[**XMDECN4**](https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx) describes a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and a 2 bit signed w-component.
+[**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx) describes a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and a 2 bit signed w-component.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,7 +35,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMDECN4**](https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx)
+[**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx)
 </dt> </dl>
 
  

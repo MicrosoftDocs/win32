@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 Use of the IMM functionality in your IME-aware application relieves users of the need to remember all possible character values. Instead, it allows the IME to monitor a user's keystrokes, anticipates the characters the user might want, and presents a list of candidate characters from which to choose.
 
 > [!Note]  
-> The IMM performs similar operations to those of the [Text Services Framework](https://msdn.microsoft.com/en-us/library/ms629032(v=VS.85).aspx), used by applications that communicate with text services.
+> The IMM performs similar operations to those of the [Text Services Framework](https://msdn.microsoft.com/library/ms629032(v=VS.85).aspx), used by applications that communicate with text services.
 
  
 

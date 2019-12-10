@@ -23,8 +23,8 @@ Transforms the BoundingBox.
 
 | Method                                                                                           | Description                            |
 |:-------------------------------------------------------------------------------------------------|:---------------------------------------|
-| [**BoundingBox::Transform (BoundingBox&,XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh437835(v=VS.85).aspx)                | Transforms the BoundingBox.<br/> |
-| [**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh437834(v=VS.85).aspx) | Transforms the BoundingBox.<br/> |
+| [**BoundingBox::Transform (BoundingBox&,XMMATRIX)**](https://msdn.microsoft.com/library/Hh437835(v=VS.85).aspx)                | Transforms the BoundingBox.<br/> |
+| [**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh437834(v=VS.85).aspx) | Transforms the BoundingBox.<br/> |
 
 
 

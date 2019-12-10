@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMDECN4`.
 
-Assigns vector component data to the current instance of [**XMDECN4**](https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx).
 
 ### Overload list
 
@@ -68,7 +68,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMDECN4**](https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx)
+[**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx)
 </dt> </dl>
 
  

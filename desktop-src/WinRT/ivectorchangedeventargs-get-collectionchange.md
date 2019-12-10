@@ -39,7 +39,7 @@ HRESULT get_CollectionChange(
 
 Type: **CollectionChange\***
 
-A value from the [**CollectionChange**](https://msdn.microsoft.com/en-us/library/BR226023(v=Win.10).aspx) enumeration that describes the change.
+A value from the [**CollectionChange**](https://msdn.microsoft.com/library/BR226023(v=Win.10).aspx) enumeration that describes the change.
 
 </dd> </dl>
 

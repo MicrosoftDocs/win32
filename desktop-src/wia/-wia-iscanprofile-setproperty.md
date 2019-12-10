@@ -57,7 +57,7 @@ A pointer to an array of identification numbers of the properties to be set. Eac
 *pvar* \[in\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx)\***
+Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)\***
 
 A pointer to an array of values to be assigned to the properties.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMU565 Extensions
 
-[**XMU565**](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) describes a 4D vector with 5-bit unsigned x- and z- components and a 6 bit unsigned y-component.
+[**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx) describes a 4D vector with 5-bit unsigned x- and z- components and a 6 bit unsigned y-component.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,7 +35,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMU565**](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx)
+[**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx)
 </dt> </dl>
 
  

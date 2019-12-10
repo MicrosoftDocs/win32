@@ -27,7 +27,7 @@ Defines the top-level Windows Virtual PC application object. All other Windows V
 
 ## Members
 
-The **IVMVirtualPC** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualPC** also has these types of members:
+The **IVMVirtualPC** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualPC** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

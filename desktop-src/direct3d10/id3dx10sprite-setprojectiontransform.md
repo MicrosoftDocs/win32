@@ -38,7 +38,7 @@ HRESULT SetProjectionTransform(
 *pProjectionTransform* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 The projection matrix to be used on all sprites.
 
@@ -46,7 +46,7 @@ The projection matrix to be used on all sprites.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

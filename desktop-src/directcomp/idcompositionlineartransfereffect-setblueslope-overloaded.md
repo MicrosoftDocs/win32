@@ -24,8 +24,8 @@ The slope of the linear function for the blue channel.
 
 | Method                                                                                               | Description                                                       |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
-| [**SetBlueSlope**](https://msdn.microsoft.com/en-us/library/Dn919748(v=VS.85).aspx)                               | The slope of the linear function for the blue channel.<br/> |
-| [**SetBlueSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919749(v=VS.85).aspx) | The slope of the linear function for the blue channel.<br/> |
+| [**SetBlueSlope**](https://msdn.microsoft.com/library/Dn919748(v=VS.85).aspx)                               | The slope of the linear function for the blue channel.<br/> |
+| [**SetBlueSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919749(v=VS.85).aspx) | The slope of the linear function for the blue channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ The slope of the linear function for the blue channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

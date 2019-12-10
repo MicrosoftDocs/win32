@@ -64,7 +64,7 @@ If the caller provides this event and the function succeeds or the function fail
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx).
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
 
 ## Remarks
 
@@ -80,7 +80,7 @@ If *CompletionEvent* is a handle to an event provided by the caller, it is possi
 
 **Windows XP:** If *CompletionEvent* is a handle to an event provided by the caller and the function fails with **ERROR\_IO\_PENDING**, the caller should wait until the event is signaled to close the event. This behavior changed starting with Windows Vista.
 
-To compile an application that uses this function, define **\_WIN32\_WINNT** as 0x0500 or later. For more information, see [Using the Windows Headers](https://msdn.microsoft.com/en-us/library/Aa383745(v=VS.85).aspx).
+To compile an application that uses this function, define **\_WIN32\_WINNT** as 0x0500 or later. For more information, see [Using the Windows Headers](https://msdn.microsoft.com/library/Aa383745(v=VS.85).aspx).
 
 ## Requirements
 
@@ -106,7 +106,7 @@ To compile an application that uses this function, define **\_WIN32\_WINNT** as 
 [Synchronization Functions](synchronization-functions.md)
 </dt> <dt>
 
-[Thread Pooling](https://msdn.microsoft.com/en-us/library/ms686756(v=VS.85).aspx)
+[Thread Pooling](https://msdn.microsoft.com/library/ms686756(v=VS.85).aspx)
 </dt> </dl>
 
  

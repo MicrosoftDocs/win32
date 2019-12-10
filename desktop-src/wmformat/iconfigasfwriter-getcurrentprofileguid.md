@@ -55,7 +55,7 @@ This method is not used with custom profiles (including all profiles that includ
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

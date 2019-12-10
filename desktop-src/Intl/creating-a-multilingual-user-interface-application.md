@@ -436,7 +436,7 @@ When you create a release build, you copy the same DoReverseMuiLoc.cmd and DoRev
 
 ## Step 3: Creating a Resource-Savvy "Hello MUI"
 
-Building on the initial hard-coded GuiStep\_0.exe example from above, you could extend the reach of the application to multiple language users by choosing to incorporate the Win32 resource model. The new run-time code presented in this step includes the module loading ([**LoadLibraryEx**](https://msdn.microsoft.com/en-us/library/ms684179(v=VS.85).aspx)) and string retrieval ([**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)) logic.
+Building on the initial hard-coded GuiStep\_0.exe example from above, you could extend the reach of the application to multiple language users by choosing to incorporate the Win32 resource model. The new run-time code presented in this step includes the module loading ([**LoadLibraryEx**](https://msdn.microsoft.com/library/ms684179(v=VS.85).aspx)) and string retrieval ([**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)) logic.
 
 1.  Add a new project to the HelloMUI solution (using the menu selection File, Add, and New Project) with the following settings and values:
 
@@ -738,9 +738,9 @@ This step of the tutorial uses a simplified text file mechanism to enable custom
 
 A number of the run-time features mentioned so far within this tutorial are available only on Windows Vista and later. You may wish to re-use the effort invested in localizing and splitting resources by making the application work on downlevel Windows operating system versions, such as Windows XP. This process involves adjusting the previous example in two key areas:
 
--   The pre-Windows Vista resource loading functions (such as [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx), [**LoadIcon**](https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx), [**LoadBitmap**](https://msdn.microsoft.com/en-us/library/Dd145033(v=VS.85).aspx), [**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx), and others) are non-MUI aware. Applications that ship with split resources (LN and .mui files) must load resource modules using one of these two functions:
+-   The pre-Windows Vista resource loading functions (such as [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx), [**LoadIcon**](https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx), [**LoadBitmap**](https://msdn.microsoft.com/library/Dd145033(v=VS.85).aspx), [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx), and others) are non-MUI aware. Applications that ship with split resources (LN and .mui files) must load resource modules using one of these two functions:
 
-    -   If the application is to be run only on Windows Vista and later, it should load resource modules with [**LoadLibraryEx**](https://msdn.microsoft.com/en-us/library/ms684179(v=VS.85).aspx).
+    -   If the application is to be run only on Windows Vista and later, it should load resource modules with [**LoadLibraryEx**](https://msdn.microsoft.com/library/ms684179(v=VS.85).aspx).
     -   If the application is to be run on versions prior to Windows Vista, as well as Windows Vista or later, it must use [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya), which is a specific downlevel function provided in the Windows 7 SDK.
 
 -   The language management and language fallback order support offered in pre-Windows Vista versions of the Windows operating system differs significantly from that in Windows Vista and later. For this reason, applications that allow user-configured language fallback must adjust their language management practices:

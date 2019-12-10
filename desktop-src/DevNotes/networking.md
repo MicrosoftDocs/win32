@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [**CheckConnectionWizard**](/windows/desktop/api/Icwcfg/nf-icwcfg-checkconnectionwizard)
 -   [**InetGetAutodial**](inetgetautodial.md)
 -   [**I\_NetLogonControl2**](/windows/desktop/api/Lmaccess/nf-lmaccess-i_netlogoncontrol2)
--   [**ResumeSuspendedDownload**](https://msdn.microsoft.com/en-us/library/Bb432423(v=VS.85).aspx)
+-   [**ResumeSuspendedDownload**](https://msdn.microsoft.com/library/Bb432423(v=VS.85).aspx)
 -   [RPC NDR Engine](rpc-ndr-engine.md)
 
  

@@ -38,7 +38,7 @@ HRESULT DoInitialize(
 *pUnkMonitorCtrl* \[in\]
 </dt> <dd>
 
-An [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer passed in by the MCSVC. To obtain a supported monitor control interface, the monitor must call [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on the pointer.
+An [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer passed in by the MCSVC. To obtain a supported monitor control interface, the monitor must call [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) on the pointer.
 
 </dd> <dt>
 
@@ -55,7 +55,7 @@ On output, an NPP BLOB that contains a capture filter.
 
 If the method is successful, the return value is S\_OK (which is the same as NOERROR).
 
-If the method is unsuccessful, the return value is an error code. On error, the MCSVC will not create the monitor or call [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) on the interface pointer.
+If the method is unsuccessful, the return value is an error code. On error, the MCSVC will not create the monitor or call [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on the interface pointer.
 
 ## Remarks
 

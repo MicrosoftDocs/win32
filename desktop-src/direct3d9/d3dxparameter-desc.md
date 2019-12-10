@@ -47,7 +47,7 @@ typedef struct D3DXPARAMETER_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -58,7 +58,7 @@ Name of the parameter.
 **Semantic**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -69,29 +69,29 @@ Semantic meaning, also called the usage.
 **Class**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx)**
+Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/library/Bb205378(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Parameter class. Set this to one of the values in [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx).
+Parameter class. Set this to one of the values in [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/library/Bb205378(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx)**
+Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/library/Bb205380(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Parameter type. Set this to one of the values in [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx).
+Parameter type. Set this to one of the values in [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/library/Bb205380(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -102,7 +102,7 @@ Number of rows in the array.
 **Columns**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -113,7 +113,7 @@ Number of columns in the array.
 **Elements**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -124,7 +124,7 @@ Number of elements in the array.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -135,7 +135,7 @@ Number of annotations.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -146,7 +146,7 @@ Number of structure members.
 **Flags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -157,7 +157,7 @@ Parameter attributes. See [Effect Constants](dx9-graphics-reference-effects-cons
 **Bytes**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

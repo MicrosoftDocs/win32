@@ -17,12 +17,12 @@ api_location:
 
 # GetDateFormatWrapW function
 
-\[**GetDateFormatWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**GetDateFormatW**](https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx) in its place.\]
+\[**GetDateFormatWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**GetDateFormatW**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx) in its place.\]
 
 Formats a date as a date string for a specified locale. The function formats either a specified date or the local system date.
 
 > [!Note]  
-> **GetDateFormatWrapW** is a wrapper for the **GetDateFormatW** function. See the [**GetDateFormat**](https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx) page for further usage notes.
+> **GetDateFormatWrapW** is a wrapper for the **GetDateFormatW** function. See the [**GetDateFormat**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx) page for further usage notes.
 
  
 
@@ -53,7 +53,7 @@ Type: **LCID**
 
 The locale for which the date string is to be formatted. If *pwzFormat* is **NULL**, the function formats the string according to the date format for this locale. If *pwzFormat* is not **NULL**, the function uses the locale only for information not specified in the format picture string (for example, the locale's day and month names).
 
-This parameter can be a locale identifier created by the [**MAKELCID**](https://msdn.microsoft.com/en-us/library/Dd319052(v=VS.85).aspx) macro, or one of the following predefined values.
+This parameter can be a locale identifier created by the [**MAKELCID**](https://msdn.microsoft.com/library/Dd319052(v=VS.85).aspx) macro, or one of the following predefined values.
 
 <dt>
 
@@ -179,9 +179,9 @@ Adds marks for right-to-left reading layout. This value cannot be used with DATE
 *lpDate* \[in\]
 </dt> <dd>
 
-Type: **const [**SYSTEMTIME**](https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx)\***
+Type: **const [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx)\***
 
-A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx) structure that contains the date information to be formatted. If this pointer is **NULL**, the function uses the current local system date.
+A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx) structure that contains the date information to be formatted. If this pointer is **NULL**, the function uses the current local system date.
 
 </dd> <dt>
 
@@ -190,7 +190,7 @@ A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/en-us/library/ms72495
 
 Type: **LPCWSTR**
 
-A pointer to a format picture to use to form the date string. If *pwzFormat* is **NULL**, the function uses the date format of the specified locale. See [**GetDateFormat**](https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx) for more details.
+A pointer to a format picture to use to form the date string. If *pwzFormat* is **NULL**, the function uses the date format of the specified locale. See [**GetDateFormat**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx) for more details.
 
 </dd> <dt>
 
@@ -218,7 +218,7 @@ Type: **int**
 
 If the function succeeds, the return value is the number of characters written to the buffer pointed to by *pwzDateStr*. If the *cchDate* parameter is zero, the return value is the number of characters required to hold the formatted date string. The count includes the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx). **GetLastError** may return one of the following error codes.
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx). **GetLastError** may return one of the following error codes.
 
 <dl> <dt>
 
@@ -233,7 +233,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-**GetDateFormatWrapW** provides the ability to use Unicode strings in operating systems earlier than Windows XP. The preferred method is to use [**GetDateFormatW**](https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+**GetDateFormatWrapW** provides the ability to use Unicode strings in operating systems earlier than Windows XP. The preferred method is to use [**GetDateFormatW**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **GetDateFormatWrapW** must be called directly from Shlwapi.dll, using ordinal 311.
 
@@ -253,7 +253,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 <dl> <dt>
 
-[**GetDateFormat**](https://msdn.microsoft.com/en-us/library/Dd318086(v=VS.85).aspx)
+[**GetDateFormat**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -42,7 +42,7 @@ Another option is to use a smart pointer class, such as **CComPtr**, which is de
 [About Media Foundation](about-the-media-foundation-sdk.md)
 </dt> <dt>
 
-[**IUnknown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx)
+[**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)
 </dt> </dl>
 
  

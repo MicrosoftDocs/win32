@@ -23,7 +23,7 @@ Parameters can be referenced in functions and in techniques (specifically, in th
 | Item                                                                                 | Description                                                                                                                                                     |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="usage"></span><span id="USAGE"></span>*usage*<br/>                   | Scope of the parameter. See [Usages and Literals (Direct3D 9)](usages-and-literals.md).<br/>                                                             |
-| <span id="type"></span><span id="TYPE"></span>*type*<br/>                      | Any valid [Reference for HLSL](https://msdn.microsoft.com/en-us/library/Bb509638(v=VS.85).aspx) type.<br/>                                                                        |
+| <span id="type"></span><span id="TYPE"></span>*type*<br/>                      | Any valid [Reference for HLSL](https://msdn.microsoft.com/library/Bb509638(v=VS.85).aspx) type.<br/>                                                                        |
 | <span id="ID"></span><span id="id"></span>*ID*<br/>                            | A unique name.<br/>                                                                                                                                       |
 | <span id="semantic"></span><span id="SEMANTIC"></span>*semantic*<br/>          | A tag following identifier rules that typically indicates the usage of the parameter. Must be a particular type.<br/>                                     |
 | <span id="annotations"></span><span id="ANNOTATIONS"></span>*annotations*<br/> | Zero or more pieces of user-specific information. May be any type. See [Add Information to Effect Parameters with Annotations](using-an-effect.md).<br/> |
@@ -33,7 +33,7 @@ Parameters can be referenced in functions and in techniques (specifically, in th
 
  
 
-Parameters can be initialized to any valid [Reference for HLSL](https://msdn.microsoft.com/en-us/library/Bb509638(v=VS.85).aspx) expression that reduces to a literal value.
+Parameters can be initialized to any valid [Reference for HLSL](https://msdn.microsoft.com/library/Bb509638(v=VS.85).aspx) expression that reduces to a literal value.
 
 Parameter values are not changed by the execution of state assignment or function calls.
 

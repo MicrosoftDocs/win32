@@ -21,7 +21,7 @@ typedef D3DCOLORVALUE D2D_COLOR_F;
 
 ## Remarks
 
-For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/library/Dd368193(v=VS.85).aspx).
+For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/library/Dd368193(v=VS.85).aspx).
 
 ## Requirements
 
@@ -40,7 +40,7 @@ For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/l
 
 <dl> <dt>
 
-[**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/library/Dd368193(v=VS.85).aspx)
+[**D3DCOLORVALUE**](https://msdn.microsoft.com/library/Dd368193(v=VS.85).aspx)
 </dt> </dl>
 
  

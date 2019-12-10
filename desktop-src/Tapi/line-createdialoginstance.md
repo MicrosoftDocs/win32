@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINE\_CREATEDIALOGINSTANCE message
 
-The TSPI **LINE\_CREATEDIALOGINSTANCE** message causes TAPI to create an association between the service provider and an instance of the [**TUISPI\_providerGenericDialog**](https://msdn.microsoft.com/en-us/library/ms725982(v=VS.85).aspx) function executing in the context of the application that invoked the asynchronous TSPI function identified by the *dwRequestID* parameter of the [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/en-us/library/ms725972(v=VS.85).aspx) structure pointed to by *lpTUISPICreateDialogInstanceParams*.
+The TSPI **LINE\_CREATEDIALOGINSTANCE** message causes TAPI to create an association between the service provider and an instance of the [**TUISPI\_providerGenericDialog**](https://msdn.microsoft.com/library/ms725982(v=VS.85).aspx) function executing in the context of the application that invoked the asynchronous TSPI function identified by the *dwRequestID* parameter of the [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/library/ms725972(v=VS.85).aspx) structure pointed to by *lpTUISPICreateDialogInstanceParams*.
 
 
 ```C++
@@ -24,14 +24,14 @@ The TSPI **LINE\_CREATEDIALOGINSTANCE** message causes TAPI to create an associa
 *hProvider* 
 </dt> <dd>
 
-The ProviderHandle supplied to the service provider as a parameter to [**TSPI\_providerEnumDevices**](https://msdn.microsoft.com/en-us/library/ms725957(v=VS.85).aspx).
+The ProviderHandle supplied to the service provider as a parameter to [**TSPI\_providerEnumDevices**](https://msdn.microsoft.com/library/ms725957(v=VS.85).aspx).
 
 </dd> <dt>
 
 *lpTUISPICreateDialogInstanceParams* 
 </dt> <dd>
 
-Pointer to a [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/en-us/library/ms725972(v=VS.85).aspx) structure.
+Pointer to a [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/library/ms725972(v=VS.85).aspx) structure.
 
 </dd> </dl>
 
@@ -50,10 +50,10 @@ Pointer to a [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/e
 
 <dl> <dt>
 
-[**TSPI\_providerEnumDevices**](https://msdn.microsoft.com/en-us/library/ms725957(v=VS.85).aspx)
+[**TSPI\_providerEnumDevices**](https://msdn.microsoft.com/library/ms725957(v=VS.85).aspx)
 </dt> <dt>
 
-[**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/en-us/library/ms725972(v=VS.85).aspx)
+[**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/library/ms725972(v=VS.85).aspx)
 </dt> </dl>
 
  

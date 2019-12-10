@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Meters
 
-The meter controls measure data passing through an audio line. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/en-us/library/Dd757295(v=VS.85).aspx), [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/en-us/library/Dd757297(v=VS.85).aspx), and [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/en-us/library/Dd757298(v=VS.85).aspx) structures to retrieve and set control properties. The following table describes the types of meters.
+The meter controls measure data passing through an audio line. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/library/Dd757295(v=VS.85).aspx), [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/library/Dd757297(v=VS.85).aspx), and [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/library/Dd757298(v=VS.85).aspx) structures to retrieve and set control properties. The following table describes the types of meters.
 
 
 

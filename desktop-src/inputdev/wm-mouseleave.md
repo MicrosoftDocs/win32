@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_MOUSELEAVE message
 
-Posted to a window when the cursor leaves the client area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx).
+Posted to a window when the cursor leaves the client area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx).
 
 A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
@@ -53,7 +53,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
+All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
 
 ## Requirements
 
@@ -74,16 +74,16 @@ All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/en-us
 **Reference**
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
-[**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx)
+[**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
+[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_NCMOUSELEAVE**](wm-ncmouseleave.md)

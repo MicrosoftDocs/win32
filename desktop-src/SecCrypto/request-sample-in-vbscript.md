@@ -13,7 +13,7 @@ api_location:
 
 # Request Sample in VBScript
 
-The following VBScript sample code shows how the Certificate Enrollment Control can be used with the CCertRequest object to create and submit a [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+The following VBScript sample code shows how the Certificate Enrollment Control can be used with the CCertRequest object to create and submit a [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 
 ```VB

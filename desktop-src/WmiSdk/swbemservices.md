@@ -81,7 +81,7 @@ The methods can be called in either the synchronous mode, the asynchronous mode,
 
 **SWbemServices** serves two primary roles. First, the **SWbemServices** object represents an authenticated connection to a WMI namespace on a target computer. Second, **SWbemServices** is the Automation object you use to retrieve WMI-managed resources. You can obtain a reference to an **SWbemServices** object in either of two ways:
 
--   As demonstrated in most of the WMI scripts presented thus far, you can use the VBScript [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) function in combination with the WMI moniker "winmgmts:". The following example is the simplest form of a WMI connection. The example connects to the default namespace (typically "Root\\CIMv2") on the local computer:
+-   As demonstrated in most of the WMI scripts presented thus far, you can use the VBScript [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) function in combination with the WMI moniker "winmgmts:". The following example is the simplest form of a WMI connection. The example connects to the default namespace (typically "Root\\CIMv2") on the local computer:
 
     `Set objSWbemServices = GetObject("winmgmts:")`
 

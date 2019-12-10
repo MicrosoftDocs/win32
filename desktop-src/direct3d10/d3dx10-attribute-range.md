@@ -41,7 +41,7 @@ typedef struct D3DX10_ATTRIBUTE_RANGE {
 **AttribId**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Attribute table identifier.
 **FaceStart**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Starting face.
 **FaceCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Face count.
 **VertexStart**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Starting vertex.
 **VertexCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

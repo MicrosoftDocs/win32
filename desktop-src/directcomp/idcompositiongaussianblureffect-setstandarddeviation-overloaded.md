@@ -24,8 +24,8 @@ Sets the amount of blur to be applied to the image.
 
 | Method                                                                                                             | Description                                                    |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-| [**SetStandardDeviation**](https://msdn.microsoft.com/en-us/library/Dn919736(v=VS.85).aspx)                               | Sets the amount of blur to be applied to the image.<br/> |
-| [**SetStandardDeviation (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919737(v=VS.85).aspx) | Sets the amount of blur to be applied to the image.<br/> |
+| [**SetStandardDeviation**](https://msdn.microsoft.com/library/Dn919736(v=VS.85).aspx)                               | Sets the amount of blur to be applied to the image.<br/> |
+| [**SetStandardDeviation (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919737(v=VS.85).aspx) | Sets the amount of blur to be applied to the image.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the amount of blur to be applied to the image.
 
 <dl> <dt>
 
-[**idcompositiongaussianblureffect**](https://msdn.microsoft.com/en-us/library/Dn919734(v=VS.85).aspx)
+[**idcompositiongaussianblureffect**](https://msdn.microsoft.com/library/Dn919734(v=VS.85).aspx)
 </dt> </dl>
 
 �

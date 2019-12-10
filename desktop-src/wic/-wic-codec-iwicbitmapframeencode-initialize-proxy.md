@@ -48,7 +48,7 @@ Pointer to this [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-win
 *pIEncoderOptions* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
 
 The set of properties to use for [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) initialization.
 

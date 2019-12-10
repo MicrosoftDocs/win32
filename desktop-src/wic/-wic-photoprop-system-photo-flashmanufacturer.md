@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FlashManufacturer Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FlashManufacturer](https://msdn.microsoft.com/en-us/library/bb760453(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FlashManufacturer](https://msdn.microsoft.com/library/bb760453(VS.85).aspx) property.
 
 ### PKEY
 
@@ -68,7 +68,7 @@ If the file is in TIFF format, the handler will use the following order of prece
 
 <dl> <dt>
 
-[System.Photo.FlashManufacturer](https://msdn.microsoft.com/en-us/library/bb760453(VS.85).aspx)
+[System.Photo.FlashManufacturer](https://msdn.microsoft.com/library/bb760453(VS.85).aspx)
 </dt> </dl>
 
  

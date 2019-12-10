@@ -48,7 +48,7 @@ A handle to the newly opened symbolic link object.
 *DesiredAccess* \[in\]
 </dt> <dd>
 
-An [**ACCESS\_MASK**](https://msdn.microsoft.com/en-us/library/Aa374892(v=VS.85).aspx) that specifies the requested access to the directory object. It is typical to use GENERIC\_READ so the handle can be passed to the [**NtQueryDirectoryObject**](ntquerydirectoryobject.md) function.
+An [**ACCESS\_MASK**](https://msdn.microsoft.com/library/Aa374892(v=VS.85).aspx) that specifies the requested access to the directory object. It is typical to use GENERIC\_READ so the handle can be passed to the [**NtQueryDirectoryObject**](ntquerydirectoryobject.md) function.
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ The function returns **STATUS\_SUCCESS** or an error status.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

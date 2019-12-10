@@ -61,7 +61,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *NumSegs* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of segments per edge to tessellate.
 
@@ -70,7 +70,7 @@ Number of segments per edge to tessellate.
 *QuadraticInterpNormals* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Set to **TRUE** to use quadratic interpolation for normals; set to **FALSE** for linear interpolation.
 
@@ -96,7 +96,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface. If the v
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

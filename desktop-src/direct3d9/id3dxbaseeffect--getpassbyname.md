@@ -48,7 +48,7 @@ Handle of the parent technique. See [Handles (Direct3D 9)](handles.md).
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 String containing the pass name.
 

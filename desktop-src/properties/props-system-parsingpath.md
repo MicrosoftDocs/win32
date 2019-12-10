@@ -30,7 +30,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-This value can be passed to [**SHParseDisplayName**](https://msdn.microsoft.com/en-us/library/Bb762236(v=VS.85).aspx) to parse the path to the correct Shell folder. If the item is a file, the value is identical to [System.ItemPathDisplay](https://msdn.microsoft.com/library/Bb760776(v=VS.85).aspx). If the item cannot be accessed through the Shell namespace, this value is VT\_EMPTY.
+This value can be passed to [**SHParseDisplayName**](https://msdn.microsoft.com/library/Bb762236(v=VS.85).aspx) to parse the path to the correct Shell folder. If the item is a file, the value is identical to [System.ItemPathDisplay](https://msdn.microsoft.com/library/Bb760776(v=VS.85).aspx). If the item cannot be accessed through the Shell namespace, this value is VT\_EMPTY.
 
 ## Related topics
 

@@ -39,7 +39,7 @@ The value of the **Language** property is -1 unless the error is of type msmErro
 
 ### C++
 
-See [**get\_Language Function (Error Object)**](https://msdn.microsoft.com/en-us/library/Aa369252(v=VS.85).aspx).
+See [**get\_Language Function (Error Object)**](https://msdn.microsoft.com/library/Aa369252(v=VS.85).aspx).
 
 ## Requirements
 

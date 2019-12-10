@@ -22,7 +22,7 @@ The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel 
 
 ## Members
 
-The **ID3DXPRTBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTBuffer** also has these types of members:
+The **ID3DXPRTBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTBuffer** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -40,7 +40,7 @@ This method always returns **S\_OK**.
 
 ## Remarks
 
-Calling the **GetResults** method has no effect if the current implementation has a dynamic type of [**IAsyncAction**](https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx).
+Calling the **GetResults** method has no effect if the current implementation has a dynamic type of [**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx).
 
 ## Requirements
 
@@ -58,7 +58,7 @@ Calling the **GetResults** method has no effect if the current implementation ha
 
 <dl> <dt>
 
-[**IAsyncAction**](https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx)
+[**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx)
 </dt> </dl>
 
  

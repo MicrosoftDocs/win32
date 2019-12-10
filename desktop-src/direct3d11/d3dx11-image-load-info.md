@@ -226,7 +226,7 @@ The default values are:
 
 
 
-Here is a brief example that uses this structure to supply the pixel format when loading a texture. For the complete code, see HDRFormats10.cpp in [HDRToneMappingCS11 Sample](https://msdn.microsoft.com/en-us/library/Ee416569(v=VS.85).aspx).
+Here is a brief example that uses this structure to supply the pixel format when loading a texture. For the complete code, see HDRFormats10.cpp in [HDRToneMappingCS11 Sample](https://msdn.microsoft.com/library/Ee416569(v=VS.85).aspx).
 
 
 ```

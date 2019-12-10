@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Ink Data
 
-After the ink is collected, applications can manage, manipulate, and/or transfer that data to other media. The actions of selecting, copying, moving, saving, viewing, and altering of the ink take place on the [**Ink**](inkdisp-class.md) object and its contained members, such as the [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection and [**Stroke**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects.
+After the ink is collected, applications can manage, manipulate, and/or transfer that data to other media. The actions of selecting, copying, moving, saving, viewing, and altering of the ink take place on the [**Ink**](inkdisp-class.md) object and its contained members, such as the [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection and [**Stroke**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects.
 
 > [!Note]  
 > Using Real-Time Stylus, applications may choose to maintain data in its own format (such as saving strokes).
@@ -21,9 +21,9 @@ An [**Ink**](inkdisp-class.md) object is the fundamental data type that manages,
 
 ## Strokes
 
-You can obtain a snapshot of the strokes in a [**Ink**](inkdisp-class.md) object by using the **Ink** object's [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes) property. The **Strokes** property is a collection of references to the strokes in the **Ink** object at the time the **Strokes** property is read. If strokes are subsequently added to or deleted from the **Ink** object, a previously obtained [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection is not updated. Furthermore, the **Strokes** property is a value and, like any value, goes out of scope unless it is assigned to a variable.
+You can obtain a snapshot of the strokes in a [**Ink**](inkdisp-class.md) object by using the **Ink** object's [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes) property. The **Strokes** property is a collection of references to the strokes in the **Ink** object at the time the **Strokes** property is read. If strokes are subsequently added to or deleted from the **Ink** object, a previously obtained [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection is not updated. Furthermore, the **Strokes** property is a value and, like any value, goes out of scope unless it is assigned to a variable.
 
-To keep a [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes) property synchronized with an [**Ink**](inkdisp-class.md) object, wrap it in an event handler for the [**StrokesAdded**](inkstrokes-strokesadded.md) and [**StrokesRemoved**](inkstrokes-strokesremoved.md) events on the [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection. The handler should obtain a new copy of the **Strokes** property when either event is fired. Be careful not to add the event handler to a **Strokes** collection that is out of scope before the event is fired.
+To keep a [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_strokes) property synchronized with an [**Ink**](inkdisp-class.md) object, wrap it in an event handler for the [**StrokesAdded**](inkstrokes-strokesadded.md) and [**StrokesRemoved**](inkstrokes-strokesremoved.md) events on the [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection. The handler should obtain a new copy of the **Strokes** property when either event is fired. Be careful not to add the event handler to a **Strokes** collection that is out of scope before the event is fired.
 
 Notice in this example that `theAddedStrokesIDs` is updated with a new copy of the strokes property in the `StrokesAdded_Event` handler.
 

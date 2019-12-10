@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1Factory::CreateRectangleGeometry methods
 
-Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/en-us/library/Dd371286(v=VS.85).aspx).
+Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx).
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/en-us/library
 
 | Method                                                                                                                                                            | Description                                                                      |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**CreateRectangleGeometry(D2D1\_RECT\_F\*,ID2D1RectangleGeometry\*\*)**](id2d1factory-createrectanglegeometry-ptr-d2d-rect-f-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371286(v=VS.85).aspx) | Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/en-us/library/Dd371286(v=VS.85).aspx). <br/> |
-| [**CreateRectangleGeometry(D2D1\_RECT\_F&,ID2D1RectangleGeometry\*\*)**](id2d1factory-createrectanglegeometry-ref-d2d-rect-f-ptr-ptr-https://msdn.microsoft.com/en-us/library/Dd371286(v=VS.85).aspx)  | Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/en-us/library/Dd371286(v=VS.85).aspx). <br/> |
+| [**CreateRectangleGeometry(D2D1\_RECT\_F\*,ID2D1RectangleGeometry\*\*)**](id2d1factory-createrectanglegeometry-ptr-d2d-rect-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx) | Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx). <br/> |
+| [**CreateRectangleGeometry(D2D1\_RECT\_F&,ID2D1RectangleGeometry\*\*)**](id2d1factory-createrectanglegeometry-ref-d2d-rect-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx)  | Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx). <br/> |
 
 
 
@@ -45,7 +45,7 @@ Creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/en-us/library
 
 <dl> <dt>
 
-[**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
+[**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>
 
 �

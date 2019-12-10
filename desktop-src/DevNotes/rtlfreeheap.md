@@ -17,7 +17,7 @@ api_location:
 
 # RtlFreeHeap function
 
-Frees a memory block that was allocated from a heap by [**RtlAllocateHeap**](https://msdn.microsoft.com/en-us/library/Ff552108(v=VS.85).aspx).
+Frees a memory block that was allocated from a heap by [**RtlAllocateHeap**](https://msdn.microsoft.com/library/Ff552108(v=VS.85).aspx).
 
 ## Syntax
 
@@ -39,14 +39,14 @@ BOOLEAN RtlFreeHeap(
 *HeapHandle* \[in\]
 </dt> <dd>
 
-A handle for the heap whose memory block is to be freed. This parameter is a handle returned by [**RtlCreateHeap**](https://msdn.microsoft.com/en-us/library/Ff552159(v=VS.85).aspx).
+A handle for the heap whose memory block is to be freed. This parameter is a handle returned by [**RtlCreateHeap**](https://msdn.microsoft.com/library/Ff552159(v=VS.85).aspx).
 
 </dd> <dt>
 
 *Flags* \[in, optional\]
 </dt> <dd>
 
-A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the *Flags* parameter when the heap was created by [**RtlCreateHeap**](https://msdn.microsoft.com/en-us/library/Ff552159(v=VS.85).aspx).
+A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the *Flags* parameter when the heap was created by [**RtlCreateHeap**](https://msdn.microsoft.com/library/Ff552159(v=VS.85).aspx).
 
 
 
@@ -63,7 +63,7 @@ A set of flags that controls aspects of freeing a memory block. Specifying the f
 *HeapBase* \[in\]
 </dt> <dd>
 
-A pointer to the memory block to free. This pointer is returned by [**RtlAllocateHeap**](https://msdn.microsoft.com/en-us/library/Ff552108(v=VS.85).aspx).
+A pointer to the memory block to free. This pointer is returned by [**RtlAllocateHeap**](https://msdn.microsoft.com/library/Ff552108(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -95,13 +95,13 @@ Returns **TRUE** if the block was freed successfully; **FALSE** otherwise.
 
 <dl> <dt>
 
-[**RtlAllocateHeap**](https://msdn.microsoft.com/en-us/library/Ff552108(v=VS.85).aspx)
+[**RtlAllocateHeap**](https://msdn.microsoft.com/library/Ff552108(v=VS.85).aspx)
 </dt> <dt>
 
-[**RtlCreateHeap**](https://msdn.microsoft.com/en-us/library/Ff552159(v=VS.85).aspx)
+[**RtlCreateHeap**](https://msdn.microsoft.com/library/Ff552159(v=VS.85).aspx)
 </dt> <dt>
 
-[**RtlDestroyHeap**](https://msdn.microsoft.com/en-us/library/Ff552233(v=VS.85).aspx)
+[**RtlDestroyHeap**](https://msdn.microsoft.com/library/Ff552233(v=VS.85).aspx)
 </dt> </dl>
 
  

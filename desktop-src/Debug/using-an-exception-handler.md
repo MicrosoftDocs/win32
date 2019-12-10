@@ -35,7 +35,7 @@ BOOL SafeDiv(INT32 dividend, INT32 divisor, INT32 *pResult)
 
 ## Example 2
 
-The following example function calls the [**DebugBreak**](https://msdn.microsoft.com/en-us/library/ms679297(v=VS.85).aspx) function and uses structured exception handling to check for a breakpoint exception. If one occurs, the function returns **FALSE**— otherwise it returns **TRUE**.
+The following example function calls the [**DebugBreak**](https://msdn.microsoft.com/library/ms679297(v=VS.85).aspx) function and uses structured exception handling to check for a breakpoint exception. If one occurs, the function returns **FALSE**— otherwise it returns **TRUE**.
 
 The filter expression in the example uses the [**GetExceptionCode**](getexceptioncode.md) function to check the exception type before executing the handler. This enables the system to continue its search for an appropriate handler if some other type of exception occurs.
 
@@ -66,7 +66,7 @@ Only return EXCEPTION\_EXECUTE\_HANDLER from an exception filter when the except
 
 ## Example 3
 
-The following example shows the interaction of nested handlers. The [**RaiseException**](https://msdn.microsoft.com/en-us/library/ms680552(v=VS.85).aspx) function causes an exception in the guarded body of a termination handler that is inside the guarded body of an exception handler. The exception causes the system to evaluate the FilterFunction function, whose return value in turn causes the exception handler to be invoked. However, before the exception-handler block is executed, the **\_\_finally** block of the termination handler is executed because the flow of control has left the **\_\_try** block of the termination handler.
+The following example shows the interaction of nested handlers. The [**RaiseException**](https://msdn.microsoft.com/library/ms680552(v=VS.85).aspx) function causes an exception in the guarded body of a termination handler that is inside the guarded body of an exception handler. The exception causes the system to evaluate the FilterFunction function, whose return value in turn causes the exception handler to be invoked. However, before the exception-handler block is executed, the **\_\_finally** block of the termination handler is executed because the flow of control has left the **\_\_try** block of the termination handler.
 
 
 ```C++

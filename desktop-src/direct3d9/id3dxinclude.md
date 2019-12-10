@@ -26,7 +26,7 @@ ID3DXInclude is a user-implemented interface to provide callbacks for \#include 
 
 ## Members
 
-The **ID3DXInclude** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXInclude** also has these types of members:
+The **ID3DXInclude** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXInclude** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -25,7 +25,7 @@ Defines the interface for a USB device attached to host. You can attach USB devi
 
 ## Members
 
-The **IVMUSBDevice** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMUSBDevice** also has these types of members:
+The **IVMUSBDevice** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMUSBDevice** also has these types of members:
 
 -   [Properties](#properties)
 

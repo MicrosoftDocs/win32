@@ -49,7 +49,7 @@ A string that contains the name of the output file where the certificates will b
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) password for a [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) file. The default value is the empty string (""). Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx).
+A string that contains the [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) password for a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) file. The default value is the empty string (""). Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
 
 </dd> <dt>
 

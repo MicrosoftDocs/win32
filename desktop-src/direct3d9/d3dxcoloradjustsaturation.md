@@ -58,7 +58,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Saturation value. This parameter linearly interpolates between the color converted to grayscale and the original color, pC. There are no limits on the value of s. If s is 0, the returned color is the grayscale color. If s is 1, the returned color is the original color.
 

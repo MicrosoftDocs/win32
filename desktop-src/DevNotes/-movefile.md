@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **MoveFile** function. This function may be altered or unavailable in the future. Applications should call **MoveFile** directly.\]
 
-Moves an existing file or directory, including its children. See [**MoveFile**](https://msdn.microsoft.com/en-us/library/Aa365239(v=VS.85).aspx)
+Moves an existing file or directory, including its children. See [**MoveFile**](https://msdn.microsoft.com/library/Aa365239(v=VS.85).aspx)
 
 ## Syntax
 
@@ -54,7 +54,7 @@ BOOL _MoveFile(
 
 <dl> <dt>
 
-[**MoveFile**](https://msdn.microsoft.com/en-us/library/Aa365239(v=VS.85).aspx)
+[**MoveFile**](https://msdn.microsoft.com/library/Aa365239(v=VS.85).aspx)
 </dt> </dl>
 
  

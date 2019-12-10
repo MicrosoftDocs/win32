@@ -52,7 +52,7 @@ To retrieve the name of the 32-bit system directory, 64-bit applications should 
 
 Applications should use the [**SHGetKnownFolderPath**](https://www.bing.com/search?q=**SHGetKnownFolderPath**) function to determine the %ProgramFiles% directory name.
 
-**Windows Server 2003 and Windows XP:** Applications should use the [**SHGetSpecialFolderPath**](https://msdn.microsoft.com/en-us/library/Bb762204(v=VS.85).aspx) function to determine the %ProgramFiles% directory name.
+**Windows Server 2003 and Windows XP:** Applications should use the [**SHGetSpecialFolderPath**](https://msdn.microsoft.com/library/Bb762204(v=VS.85).aspx) function to determine the %ProgramFiles% directory name.
 
 Applications can control the WOW64 file system redirector using the [**Wow64DisableWow64FsRedirection**](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection), [**Wow64EnableWow64FsRedirection**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection), and [**Wow64RevertWow64FsRedirection**](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection) functions. Disabling file system redirection affects all file operations performed by the calling thread, so it should be disabled only when necessary for a single [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) call and re-enabled again immediately after the function returns. Disabling file system redirection for longer periods can prevent 32-bit applications from loading system DLLs, causing the applications to fail.
 

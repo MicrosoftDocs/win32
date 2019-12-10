@@ -48,7 +48,7 @@ Specifies for which type of network to obtain route information, for example, IP
 
 If the function succeeds, the return value is the network count, the number of networks known to the routing protocols of the specified protocol family.
 
-If the return value is zero, either no routes are available, or the operation failed. Call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) to obtain more information.
+If the return value is zero, either no routes are available, or the operation failed. Call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) to obtain more information.
 
 
 
@@ -86,7 +86,7 @@ If the return value is zero, either no routes are available, or the operation fa
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
+[**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [RTMv1 Protocol Family Identifiers](routing-table-manager-version-1-protocol-family-identifiers.md)

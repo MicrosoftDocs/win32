@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::enumCAName method
 
-The **enumCAName** method enumerates the name of the [*certification authorities*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CAs) for a given certificate template name.
+The **enumCAName** method enumerates the name of the [*certification authorities*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CAs) for a given certificate template name.
 
 ## Syntax
 

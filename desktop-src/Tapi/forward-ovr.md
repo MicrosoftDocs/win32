@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Forward
 
-Forwarding is the deflection of an incoming session to a different destination address. TAPI allows an application to specify a list of forwarding conditions for an address. Forwarding conditions can be as finely grained as a different destination and [**forwarding mode**](https://msdn.microsoft.com/en-us/library/ms735649(v=VS.85).aspx) for each caller address.
+Forwarding is the deflection of an incoming session to a different destination address. TAPI allows an application to specify a list of forwarding conditions for an address. Forwarding conditions can be as finely grained as a different destination and [**forwarding mode**](https://msdn.microsoft.com/library/ms735649(v=VS.85).aspx) for each caller address.
 
 The forwarding operation can also be used to implement a selective do-not-disturb feature, by forwarding some callers to voice mail and allowing others to attempt completion.
 
@@ -18,7 +18,7 @@ Some service providers require that an application create a consultation call pr
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** To set [**lineForward**](https://msdn.microsoft.com/en-us/library/ms735640(v=VS.85).aspx) to get [**lineGetAddressStatus**](https://msdn.microsoft.com/en-us/library/ms735683(v=VS.85).aspx), change the [**LINE\_ADDRESSSTATE**](https://msdn.microsoft.com/en-us/library/ms736484(v=VS.85).aspx) notification message with LINEADDRESSSTATE\_FORWARD.
+**TAPI 2.x:** To set [**lineForward**](https://msdn.microsoft.com/library/ms735640(v=VS.85).aspx) to get [**lineGetAddressStatus**](https://msdn.microsoft.com/library/ms735683(v=VS.85).aspx), change the [**LINE\_ADDRESSSTATE**](https://msdn.microsoft.com/library/ms736484(v=VS.85).aspx) notification message with LINEADDRESSSTATE\_FORWARD.
 
 **TAPI 3.x:** See [**ITAddress::Forward**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward), [**ITAddress::get\_CurrentForwardInfo**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo), change notification: [**ITAddressEvent::get\_Event**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddressevent-get_event) with AE\_FORWARD.
 

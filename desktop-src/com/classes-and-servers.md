@@ -12,8 +12,8 @@ COM uses **HKEY\_CLASSES\_ROOT** for computer-wide settings but also allows per-
 
 COM servers support self-registration. For an in-process server, this means that the DLL must export the following functions:
 
--   [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx)
--   [**DllUnregisterServer**](https://msdn.microsoft.com/en-us/library/ms691457(v=VS.85).aspx)
+-   [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx)
+-   [**DllUnregisterServer**](https://msdn.microsoft.com/library/ms691457(v=VS.85).aspx)
 
 You must explicitly export these functions by using a module definition file, linker switches, or compiler directives. The class store uses these functions to configure the local registry after downloading the file to the client machine. In addition to class store, these functions are also used by other environments to install servers on host computers.
 

@@ -24,8 +24,8 @@ Changes or animates the value of the BottomLeftRadiusX property of this clip. Th
 
 | Method                                                                                                                           | Description                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**SetBottomLeftRadiusX(float)**](https://msdn.microsoft.com/en-us/library/Hh437436(v=VS.85).aspx)                                     | Changes the value of the BottomLeftRadiusX property of this clip.<br/>  |
-| [**SetBottomLeftRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh437438(v=VS.85).aspx) | Animates the value of the BottomLeftRadiusX property of this clip.<br/> |
+| [**SetBottomLeftRadiusX(float)**](https://msdn.microsoft.com/library/Hh437436(v=VS.85).aspx)                                     | Changes the value of the BottomLeftRadiusX property of this clip.<br/>  |
+| [**SetBottomLeftRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh437438(v=VS.85).aspx) | Animates the value of the BottomLeftRadiusX property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the BottomLeftRadiusX property of this clip. Th
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_LOAD command loads a file. Digital-video and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -55,7 +55,7 @@ MCI\_NOTIFY, MCI\_WAIT, or, for digital-video devices, MCI\_TEST. For informatio
 <span id="lpLoad"></span><span id="lpload"></span><span id="LPLOAD"></span>*lpLoad*
 </dt> <dd>
 
-Pointer to an [**MCI\_LOAD\_PARMS**](mci-load-parms.md) structure. (Devices with additional parameters might replace this structure with a device-specific structure. For digital-video devices, the **lpLoad** parameter points to an [**MCI\_DGV\_LOAD\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743391(v=VS.85).aspx) structure.)
+Pointer to an [**MCI\_LOAD\_PARMS**](mci-load-parms.md) structure. (Devices with additional parameters might replace this structure with a device-specific structure. For digital-video devices, the **lpLoad** parameter points to an [**MCI\_DGV\_LOAD\_PARMS**](https://msdn.microsoft.com/library/Dd743391(v=VS.85).aspx) structure.)
 
 </dd> </dl>
 

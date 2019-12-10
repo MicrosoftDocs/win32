@@ -21,7 +21,7 @@ Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
 
 ## Members
 
-The **IDirect3DDXVADevice9** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IDirect3DDXVADevice9** also has these types of members:
+The **IDirect3DDXVADevice9** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirect3DDXVADevice9** also has these types of members:
 
 -   [Methods](#methods)
 

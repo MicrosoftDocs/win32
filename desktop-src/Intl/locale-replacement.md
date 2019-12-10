@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LOCALE\_REPLACEMENT
 
-**Windows Vista and later:** Enumerate [replacement locales](custom-locales.md). This constant is valid input only for [**EnumLocalesProcEx**](https://msdn.microsoft.com/en-us/library/Dd317823(v=VS.85).aspx).
+**Windows Vista and later:** Enumerate [replacement locales](custom-locales.md). This constant is valid input only for [**EnumLocalesProcEx**](https://msdn.microsoft.com/library/Dd317823(v=VS.85).aspx).
 
  
 

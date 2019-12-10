@@ -35,9 +35,9 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205397(v=VS.85).aspx)**
+Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/library/Bb205397(v=VS.85).aspx)**
 
-Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205397(v=VS.85).aspx).
+Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/library/Bb205397(v=VS.85).aspx).
 
 ## Requirements
 

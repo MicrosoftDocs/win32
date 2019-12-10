@@ -23,7 +23,7 @@ You can enable the core debug objects so that a mirrored object which contains a
 
 To enable debug information, the \#define must get built before the D3D9.h file (Any program using DXUT will automatically enable D3D\_DEBUG\_INFO when the program is compiled for debug). If you are running a SDK sample, you can see this in DXStdAfx.h (which affects all the C++ samples). You must also be running the debug Direct3D runtime (which can be enabled from the Control Panel if necessary).
 
-Here's an example using the [BasicHLSL Sample](https://msdn.microsoft.com/en-us/library/Ee416223(v=VS.85).aspx).
+Here's an example using the [BasicHLSL Sample](https://msdn.microsoft.com/library/Ee416223(v=VS.85).aspx).
 
 1.  Add the \#define to the Dxstdafx.h file before line 37.
 2.  Build a debug project.

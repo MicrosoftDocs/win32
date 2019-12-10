@@ -61,7 +61,7 @@ ms.date: 05/31/2018
 | [**DIALOG\_DPI\_CHANGE\_BEHAVIORS**](/windows/desktop/api/winuser/ne-winuser-dialog_dpi_change_behaviors)      | Describes per-monitor DPI scaling behavior overrides for dialogs.                      |
 | [**MONITOR\_DPI\_TYPE**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-monitor_dpi_type)                 | Represents the type of DPI associated with a monitor.                                  |
 | [**PROCESS\_DPI\_AWARENESS**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness)                   | Represents the DPI coordinate virtualization mode of a process.                        |
-| [**DPI\_HOSTING\_BEHAVIOR**](https://msdn.microsoft.com/en-us/library/Mt845776(v=VS.85).aspx)                    | Represents the DPI hosting behavior for a window.                                      |
+| [**DPI\_HOSTING\_BEHAVIOR**](https://msdn.microsoft.com/library/Mt845776(v=VS.85).aspx)                    | Represents the DPI hosting behavior for a window.                                      |
 
 
 

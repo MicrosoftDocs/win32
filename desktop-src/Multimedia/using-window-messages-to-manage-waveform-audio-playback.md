@@ -24,19 +24,19 @@ The following messages can be sent to a window procedure function for managing w
 
 | Message                                | Description                                                                                                                |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [**MM\_WOM\_CLOSE**](mm-wom-close.md) | Sent when the device is closed by using the [**waveOutClose**](https://msdn.microsoft.com/en-us/library/Dd743856(v=VS.85).aspx) function.                                 |
-| [**MM\_WOM\_DONE**](mm-wom-done.md)   | Sent when the device driver is finished with a data block sent by using the [**waveOutWrite**](https://msdn.microsoft.com/en-us/library/Dd743876(v=VS.85).aspx) function. |
-| [**MM\_WOM\_OPEN**](mm-wom-open.md)   | Sent when the device is opened by using the [**waveOutOpen**](https://msdn.microsoft.com/en-us/library/Dd743866(v=VS.85).aspx) function.                                   |
+| [**MM\_WOM\_CLOSE**](mm-wom-close.md) | Sent when the device is closed by using the [**waveOutClose**](https://msdn.microsoft.com/library/Dd743856(v=VS.85).aspx) function.                                 |
+| [**MM\_WOM\_DONE**](mm-wom-done.md)   | Sent when the device driver is finished with a data block sent by using the [**waveOutWrite**](https://msdn.microsoft.com/library/Dd743876(v=VS.85).aspx) function. |
+| [**MM\_WOM\_OPEN**](mm-wom-open.md)   | Sent when the device is opened by using the [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx) function.                                   |
 
 
 
  
 
-A *wParam* and *lParam* parameter is associated with each of these messages. The *wParam* parameter always specifies a handle of the open waveform-audio device. For the [**MM\_WOM\_DONE**](mm-wom-done.md) message, *lParam* specifies a pointer to a [**WAVEHDR**](https://msdn.microsoft.com/en-us/library/Dd743837(v=VS.85).aspx) structure that identifies the completed data block. The *lParam* parameter is unused for the [**MM\_WOM\_CLOSE**](mm-wom-close.md) and [**MM\_WOM\_OPEN**](mm-wom-open.md) messages.
+A *wParam* and *lParam* parameter is associated with each of these messages. The *wParam* parameter always specifies a handle of the open waveform-audio device. For the [**MM\_WOM\_DONE**](mm-wom-done.md) message, *lParam* specifies a pointer to a [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx) structure that identifies the completed data block. The *lParam* parameter is unused for the [**MM\_WOM\_CLOSE**](mm-wom-close.md) and [**MM\_WOM\_OPEN**](mm-wom-open.md) messages.
 
 The most useful message is probably MM\_WOM\_DONE. When this message signals that playback of a data block is complete, you can clean up and free the data block. Unless you need to allocate memory or initialize variables, you probably do not need to process the MM\_WOM\_OPEN and MM\_WOM\_CLOSE messages.
 
-The callback function for waveform-audio output devices is supplied by the application. For information about this callback function, see the [**waveOutProc**](https://msdn.microsoft.com/en-us/library/Dd743869(v=VS.85).aspx) function.
+The callback function for waveform-audio output devices is supplied by the application. For information about this callback function, see the [**waveOutProc**](https://msdn.microsoft.com/library/Dd743869(v=VS.85).aspx) function.
 
  
 

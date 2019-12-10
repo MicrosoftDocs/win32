@@ -35,7 +35,7 @@ HRESULT D2D1CreateFactory(
 
 | Parameter | Description                                                 |
 |-----------|-------------------------------------------------------------|
-| *Factory* | The type of [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) to create. |
+| *Factory* | The type of [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) to create. |
 
 
 

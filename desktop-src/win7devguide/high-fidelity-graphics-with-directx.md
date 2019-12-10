@@ -18,7 +18,7 @@ With DirectX, Win32 developers can also use the GPU's parallelism for general-pu
 
 These enhanced graphics capabilities are provided by the following *COM*-based APIs:
 
--   [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) for drawing 2D graphics.
+-   [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) for drawing 2D graphics.
 -   [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal) for arranging and rendering text.
 -   [Windows Imaging Component](https://docs.microsoft.com/windows/desktop/wic/-wic-lh) for processing and displaying images.
 -   [Direct3D 10](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics) for drawing 3D graphics.
@@ -27,15 +27,15 @@ These enhanced graphics capabilities are provided by the following *COM*-based A
 
 ## Direct2D
 
-Built on Microsoft Direct3D 10, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) offers Win32 developers immediate-mode, resolution-independent, 2D APIs that use the power of next-generation graphics hardware, yet interoperate well with today's GDI/GDI+ applications and Direct3D 10 applications. Direct2D provides high-quality 2D rendering with performance superior to GDI and GDI+. It provides Win32 developers finer control over resources and their management. (See [Direct2D](https://go.microsoft.com/?linkid=9669716).)
+Built on Microsoft Direct3D 10, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) offers Win32 developers immediate-mode, resolution-independent, 2D APIs that use the power of next-generation graphics hardware, yet interoperate well with today's GDI/GDI+ applications and Direct3D 10 applications. Direct2D provides high-quality 2D rendering with performance superior to GDI and GDI+. It provides Win32 developers finer control over resources and their management. (See [Direct2D](https://go.microsoft.com/?linkid=9669716).)
 
 ## DirectWrite
 
 Many of today's applications need to support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal), a new DirectX component, provides these features and more:
 
 -   A device-independent text layout system that improves text readability in documents and in UI.
--   High-quality, sub-pixel, *ClearType* text rendering that can use GDI, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx), or application-specific rendering technology.
--   Hardware-accelerated text, when used with [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx).
+-   High-quality, sub-pixel, *ClearType* text rendering that can use GDI, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx), or application-specific rendering technology.
+-   Hardware-accelerated text, when used with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx).
 -   Support for multi-format text.
 -   Support for the advanced typography features of *OpenType* fonts.
 -   Support for the layout and rendering of text in all supported languages.

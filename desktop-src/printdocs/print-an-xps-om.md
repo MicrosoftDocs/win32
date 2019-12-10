@@ -43,7 +43,7 @@ To detect when the print job has completed, create an event handle as shown in t
 
 To print a complete XPS OM:
 
-1.  Create a new print job stream by calling [**StartXpsPrintJob**](https://msdn.microsoft.com/en-us/library/Dd374437(v=VS.85).aspx).
+1.  Create a new print job stream by calling [**StartXpsPrintJob**](https://msdn.microsoft.com/library/Dd374437(v=VS.85).aspx).
 2.  Send the contents of the XPS OM to the stream by calling the package's [**WriteToStream**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackage-writetostream) method.
 3.  Close the print job stream by calling the stream's **Close** method.
 4.  Wait for the print job to signal that it has completed.
@@ -155,7 +155,7 @@ Create a new print job stream and a new package writer. Pass each of the documen
 
 Start each document new, then add pages to it. After passing all document components to the print job stream, close the stream, wait for the print job to complete, and then close and release open resources.
 
-1.  Create a new print job stream by calling [**StartXpsPrintJob**](https://msdn.microsoft.com/en-us/library/Dd374437(v=VS.85).aspx).
+1.  Create a new print job stream by calling [**StartXpsPrintJob**](https://msdn.microsoft.com/library/Dd374437(v=VS.85).aspx).
 2.  Create a part URI for the FixedDocumentSequence part.
 3.  Create a new package writer on the print job stream.
 4.  For each document to be written:
@@ -474,13 +474,13 @@ For more information on the structure of an XPS document, see the [XML Paper Spe
 [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter)
 </dt> <dt>
 
-[**IXpsPrintJob**](https://msdn.microsoft.com/en-us/library/Dd368613(v=VS.85).aspx)
+[**IXpsPrintJob**](https://msdn.microsoft.com/library/Dd368613(v=VS.85).aspx)
 </dt> <dt>
 
-[**IXpsPrintJobStream**](https://msdn.microsoft.com/en-us/library/Dd368614(v=VS.85).aspx)
+[**IXpsPrintJobStream**](https://msdn.microsoft.com/library/Dd368614(v=VS.85).aspx)
 </dt> <dt>
 
-[**StartXpsPrintJob**](https://msdn.microsoft.com/en-us/library/Dd374437(v=VS.85).aspx)
+[**StartXpsPrintJob**](https://msdn.microsoft.com/library/Dd374437(v=VS.85).aspx)
 </dt> <dt>
 
 [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject)

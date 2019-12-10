@@ -25,7 +25,7 @@ This section contains information about interfaces provided by the Microsoft XAu
 | [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback)<br/>   | The [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) interface contains methods that notify the client when certain events happen in a given [**IXAudio2SourceVoice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice). <br/>                                                                                                                       |
 | [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo)<br/>                                   | The interface for an Audio Processing Object which be used in an XAudio2 effect chain.<br/>                                                                                                                                                                                                                                        |
 | [**IXAPOParameters**](/windows/desktop/api/XAPO/nn-xapo-ixapoparameters)<br/>               | An optional interface that allows an XAPO to use effect-specific parameters.<br/>                                                                                                                                                                                                                                                  |
-| [**IXAPOHrtfParameters**](https://msdn.microsoft.com/en-us/library/Mt186608(v=VS.85).aspx)<br/>       | The interface used to set parameters that control how head-related transfer function (HRTF) is applied to a sound.<br/>                                                                                                                                                                                                            |
+| [**IXAPOHrtfParameters**](https://msdn.microsoft.com/library/Mt186608(v=VS.85).aspx)<br/>       | The interface used to set parameters that control how head-related transfer function (HRTF) is applied to a sound.<br/>                                                                                                                                                                                                            |
 
 
 
@@ -38,7 +38,7 @@ This section contains information about interfaces provided by the Microsoft XAu
 [Programming Reference](programming-reference.md)
 </dt> <dt>
 
-[Programming Reference](https://msdn.microsoft.com/en-us/library/Ee415899(v=VS.85).aspx)
+[Programming Reference](https://msdn.microsoft.com/library/Ee415899(v=VS.85).aspx)
 </dt> </dl>
 
  

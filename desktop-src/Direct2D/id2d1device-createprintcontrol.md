@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1Device::CreatePrintControl methods
 
-Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/en-us/library/Hh847997(v=VS.85).aspx) object that converts [Direct2D](/windows/desktop/direct2d/direct2d-portal) primitives stored in [**ID2D1CommandList**](https://msdn.microsoft.com/en-us/library/Hh404392(v=VS.85).aspx) into a fixed page representation. The print sub-system then consumes the primitives.
+Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/library/Hh847997(v=VS.85).aspx) object that converts [Direct2D](/windows/desktop/direct2d/direct2d-portal) primitives stored in [**ID2D1CommandList**](https://msdn.microsoft.com/library/Hh404392(v=VS.85).aspx) into a fixed page representation. The print sub-system then consumes the primitives.
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/en-us/library/Hh84
 
 | Method                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                               |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreatePrintControl (IWICImagingFactory\*, IPrintDocumentPackageTarget\*, D2D1\_PRINT\_CONTROL\_PROPERTIES\*, ID2D1PrintControl\*\*)**](https://msdn.microsoft.com/en-us/library/Hh404550(v=VS.85).aspx) | Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/en-us/library/Hh847997(v=VS.85).aspx) object that converts [Direct2D](/windows/desktop/direct2d/direct2d-portal) primitives stored in [**ID2D1CommandList**](https://msdn.microsoft.com/en-us/library/Hh404392(v=VS.85).aspx) into a fixed page representation. The print sub-system then consumes the primitives.<br/> |
-| [**CreatePrintControl (IWICImagingFactory\*, IPrintDocumentPackageTarget\*, D2D1\_PRINT\_CONTROL\_PROPERTIES&, ID2D1PrintControl\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841161(v=VS.85).aspx)    | Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/en-us/library/Hh847997(v=VS.85).aspx) object that converts [Direct2D](/windows/desktop/direct2d/direct2d-portal) primitives stored in [**ID2D1CommandList**](https://msdn.microsoft.com/en-us/library/Hh404392(v=VS.85).aspx) into a fixed page representation. The print sub-system then consumes the primitives.<br/> |
+| [**CreatePrintControl (IWICImagingFactory\*, IPrintDocumentPackageTarget\*, D2D1\_PRINT\_CONTROL\_PROPERTIES\*, ID2D1PrintControl\*\*)**](https://msdn.microsoft.com/library/Hh404550(v=VS.85).aspx) | Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/library/Hh847997(v=VS.85).aspx) object that converts [Direct2D](/windows/desktop/direct2d/direct2d-portal) primitives stored in [**ID2D1CommandList**](https://msdn.microsoft.com/library/Hh404392(v=VS.85).aspx) into a fixed page representation. The print sub-system then consumes the primitives.<br/> |
+| [**CreatePrintControl (IWICImagingFactory\*, IPrintDocumentPackageTarget\*, D2D1\_PRINT\_CONTROL\_PROPERTIES&, ID2D1PrintControl\*\*)**](https://msdn.microsoft.com/library/JJ841161(v=VS.85).aspx)    | Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/library/Hh847997(v=VS.85).aspx) object that converts [Direct2D](/windows/desktop/direct2d/direct2d-portal) primitives stored in [**ID2D1CommandList**](https://msdn.microsoft.com/library/Hh404392(v=VS.85).aspx) into a fixed page representation. The print sub-system then consumes the primitives.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Creates an [**ID2D1PrintControl**](https://msdn.microsoft.com/en-us/library/Hh84
 
 <dl> <dt>
 
-[**ID2D1Device**](https://msdn.microsoft.com/en-us/library/Hh404478(v=VS.85).aspx)
+[**ID2D1Device**](https://msdn.microsoft.com/library/Hh404478(v=VS.85).aspx)
 </dt> </dl>
 
 �

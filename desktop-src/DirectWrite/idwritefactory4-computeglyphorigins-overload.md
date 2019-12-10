@@ -24,8 +24,8 @@ Converts glyph run placements to glyph origins.
 
 | Method                                                                                                                                                              | Description                                                                                                                                                        |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ComputeGlyphOrigins(DWRITE\_GLYPH\_RUN, DWRITE\_MEASURING\_MODE, D2D1\_POINT\_2F, DWRITE\_MATRIX, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/en-us/library/Mt725316(v=VS.85).aspx) | Converts glyph run placements to glyph origins.<br/>                                                                                                         |
-| [**ComputeGlyphOrigins(DWRITE\_GLYPH\_RUN, D2D1\_POINT\_2F, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/en-us/library/Mt725317(v=VS.85).aspx)                                        | Converts glyph run placements to glyph origins. This overload is for natural metrics, which includes SVG, TrueType natural modes, and bitmap placement.<br/> |
+| [**ComputeGlyphOrigins(DWRITE\_GLYPH\_RUN, DWRITE\_MEASURING\_MODE, D2D1\_POINT\_2F, DWRITE\_MATRIX, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/library/Mt725316(v=VS.85).aspx) | Converts glyph run placements to glyph origins.<br/>                                                                                                         |
+| [**ComputeGlyphOrigins(DWRITE\_GLYPH\_RUN, D2D1\_POINT\_2F, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/library/Mt725317(v=VS.85).aspx)                                        | Converts glyph run placements to glyph origins. This overload is for natural metrics, which includes SVG, TrueType natural modes, and bitmap placement.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Converts glyph run placements to glyph origins.
 
 <dl> <dt>
 
-[**IDWriteFactory4**](https://msdn.microsoft.com/en-us/library/Mt725315(v=VS.85).aspx)
+[**IDWriteFactory4**](https://msdn.microsoft.com/library/Mt725315(v=VS.85).aspx)
 </dt> </dl>
 
 �

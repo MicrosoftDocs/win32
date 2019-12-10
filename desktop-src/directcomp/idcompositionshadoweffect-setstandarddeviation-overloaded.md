@@ -24,8 +24,8 @@ Sets the amount of blur to be applied to the alpha channel of the image.
 
 | Method                                                                                                       | Description                                                                         |
 |:-------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| [**SetStandardDeviation**](https://msdn.microsoft.com/en-us/library/Dn919781(v=VS.85).aspx)                               | Sets the amount of blur to be applied to the alpha channel of the image.<br/> |
-| [**SetStandardDeviation (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919782(v=VS.85).aspx) | Sets the amount of blur to be applied to the alpha channel of the image.<br/> |
+| [**SetStandardDeviation**](https://msdn.microsoft.com/library/Dn919781(v=VS.85).aspx)                               | Sets the amount of blur to be applied to the alpha channel of the image.<br/> |
+| [**SetStandardDeviation (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919782(v=VS.85).aspx) | Sets the amount of blur to be applied to the alpha channel of the image.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the amount of blur to be applied to the alpha channel of the image.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx)
+[**IDCompositionShadowEffect**](https://msdn.microsoft.com/library/Dn919766(v=VS.85).aspx)
 </dt> </dl>
 
 �

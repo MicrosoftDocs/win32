@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_GETDEVCAPS command retrieves static information about a device. All devices recognize this command. The parameters and flags available for this command depend on the selected device. Information is returned in the **dwReturn** member of the structure identified by *lpCapsParms*.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

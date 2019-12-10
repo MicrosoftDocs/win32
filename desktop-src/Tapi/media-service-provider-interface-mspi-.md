@@ -16,9 +16,9 @@ In addition, an MSP may expose provider-specific private interfaces and methods 
 
 The majority of the programming effort in creating an MSP is highly specific to a given platform, device, and transport protocol, and is outside the scope of this document. However, Microsoft supplies a set of MSP base classes, which will be useful to most MSP authors. See [TAPI 3 MSP Base Classes](tapi-3-msp-base-classes.md) for information on using these classes.
 
-The [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress) interface represents a media service provider to the TAPI DLL. This interface is not used by or exposed to an end-user application. The TAPI 3 DLL calls **CoCreateInstance** on this interface to create the main MSP object. Methods on this object allow an application to load and unload the MSP, receive information from a TSP, and create the [**ITStreamControl**](https://msdn.microsoft.com/en-us/library/ms732393(v=VS.85).aspx) interface, which is exposed on the call object.
+The [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress) interface represents a media service provider to the TAPI DLL. This interface is not used by or exposed to an end-user application. The TAPI 3 DLL calls **CoCreateInstance** on this interface to create the main MSP object. Methods on this object allow an application to load and unload the MSP, receive information from a TSP, and create the [**ITStreamControl**](https://msdn.microsoft.com/library/ms732393(v=VS.85).aspx) interface, which is exposed on the call object.
 
-The [**ITSubStreamControl**](https://msdn.microsoft.com/en-us/library/ms732442(v=VS.85).aspx) and [**ITSubStream**](https://msdn.microsoft.com/en-us/library/ms732440(v=VS.85).aspx) interfaces provide parallel methods with respect to substreams. Substream support is optional. All other interfaces must be implemented by an MSP.
+The [**ITSubStreamControl**](https://msdn.microsoft.com/library/ms732442(v=VS.85).aspx) and [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) interfaces provide parallel methods with respect to substreams. Substream support is optional. All other interfaces must be implemented by an MSP.
 
 > [!Note]  
 > Operations implemented by a TSP/MSP pair must be located in one DLL to allow a user to update the service provider without rebooting his or her system.

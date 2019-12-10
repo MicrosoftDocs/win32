@@ -88,7 +88,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 
  
 
-To detect that the ALT key was pressed, check whether [**GetKeyState**](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx) with **VK\_MENU** < 0. Note, this must not be [**GetAsyncKeyState**](https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx).
+To detect that the ALT key was pressed, check whether [**GetKeyState**](https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx) with **VK\_MENU** < 0. Note, this must not be [**GetAsyncKeyState**](https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx).
 
 ## Requirements
 
@@ -115,13 +115,13 @@ To detect that the ALT key was pressed, check whether [**GetKeyState**](https://
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetKeyState**](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx)
+[**GetKeyState**](https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MBUTTONDBLCLK**](wm-mbuttondblclk.md)

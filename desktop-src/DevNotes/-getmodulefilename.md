@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetModuleFileName** function. This function may be altered or unavailable in the future. Applications should call **GetModuleFileName** directly.\]
 
-Gets the module path. See [**GetModuleFileName**](https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx).
+Gets the module path. See [**GetModuleFileName**](https://msdn.microsoft.com/library/ms683197(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ DWORD _GetModuleFileName(
 
 <dl> <dt>
 
-[**GetModuleFileName**](https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx)
+[**GetModuleFileName**](https://msdn.microsoft.com/library/ms683197(v=VS.85).aspx)
 </dt> </dl>
 
  

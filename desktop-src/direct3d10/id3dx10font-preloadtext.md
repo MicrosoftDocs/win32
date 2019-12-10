@@ -39,7 +39,7 @@ HRESULT PreloadText(
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string of characters to be loaded into video memory. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR; otherwise, the data type resolves to LPCSTR. See Remarks.
 
@@ -48,7 +48,7 @@ Pointer to a string of characters to be loaded into video memory. If the compile
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of characters in the text string.
 
@@ -56,7 +56,7 @@ Number of characters in the text string.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 
@@ -68,7 +68,7 @@ This method generates textures that contain glyphs that represent the input text
 
 Text will not be rendered to the device; ID3DX10Font::DrawText must still be called to render the text. However, by preloading text into video memory, ID3DX10Font::DrawText will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](https://msdn2.microsoft.com/en-us/library/ms534004.aspx).
+This method internally converts characters to glyphs using the GDI function [GetCharacterPlacement](https://msdn2.microsoft.com/library/ms534004.aspx).
 
 ## Requirements
 

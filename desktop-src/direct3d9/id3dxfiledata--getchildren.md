@@ -38,7 +38,7 @@ HRESULT GetChildren(
 *puiChildren* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Address of a pointer to receive the number of children in this file data object.
 
@@ -46,7 +46,7 @@ Address of a pointer to receive the number of children in this file data object.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DXFERR\_BADVALUE.
 

@@ -25,7 +25,7 @@ Provides access to accounting-related information for a virtual machine. To retr
 
 ## Members
 
-The **IVMAccountant** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMAccountant** also has these types of members:
+The **IVMAccountant** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMAccountant** also has these types of members:
 
 -   [Properties](#properties)
 

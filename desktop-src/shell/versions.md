@@ -129,7 +129,7 @@ For Windows versions earlier than Windows 2000, [**DllGetVersion**](/windows/de
 The following sample function `GetVersion` loads a specified DLL and attempts to call its [**DllGetVersion**](/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc) function. If successful, it uses a macro to pack the major and minor version numbers from the [**DLLVERSIONINFO**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo) structure into a **DWORD** that is returned to the calling application. If the DLL does not export **DllGetVersion**, the function returns zero. With Windows 2000 and later systems, you can modify the function to handle the possibility that **DllGetVersion** returns a [**DLLVERSIONINFO2**](/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2) structure. If so, use the information in that **DLLVERSIONINFO2** structure's **ullVersion** member to compare versions, build numbers, and service pack releases. The [**MAKEDLLVERULL**](/windows/desktop/api/Shlwapi/nf-shlwapi-makedllverull) macro simplifies the task of comparing these values to those in **ullVersion**.
 
 > [!Note]  
-> Using [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) incorrectly can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+> Using [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) incorrectly can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
  
 
@@ -208,7 +208,7 @@ else
 
 ## Project Versions
 
-To ensure that your application is compatible with different targeted versions of a .dll file, version macros are present in the header files. These macros are used to define, exclude, or redefine certain definitions for different versions of the DLL. See [Using the Windows Headers](https://msdn.microsoft.com/en-us/library/Aa383745(v=VS.85).aspx) for an in-depth description of these macros.
+To ensure that your application is compatible with different targeted versions of a .dll file, version macros are present in the header files. These macros are used to define, exclude, or redefine certain definitions for different versions of the DLL. See [Using the Windows Headers](https://msdn.microsoft.com/library/Aa383745(v=VS.85).aspx) for an in-depth description of these macros.
 
 For example, the macro name **\_WIN32\_IE** is commonly found in older headers. You are responsible for defining the macro as a hexadecimal number. This version number defines the target version of the application that is using the DLL. The following table shows the available version numbers and the effect each has on your application.
 

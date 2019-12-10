@@ -48,9 +48,9 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/en-us/library/Bb205467(v=VS.85).aspx) flags.
+Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/library/Bb205467(v=VS.85).aspx) flags.
 
 Use **NULL** to specify the following options:
 
@@ -66,7 +66,7 @@ Use **NULL** to specify the following options:
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 
@@ -110,7 +110,7 @@ The most robust solution for computing orthogonal Cartesian coordinates is to no
 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md)
 </dt> <dt>
 
-[**D3DXTANGENT**](https://msdn.microsoft.com/en-us/library/Bb205467(v=VS.85).aspx)
+[**D3DXTANGENT**](https://msdn.microsoft.com/library/Bb205467(v=VS.85).aspx)
 </dt> </dl>
 
  

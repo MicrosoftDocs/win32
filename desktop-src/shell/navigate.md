@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Navigating the Namespace
 
-You now have all the essential elements needed to navigate anywhere in the namespace. The simplest way to start is to have your application call [**SHGetDesktopFolder**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder) to retrieve the desktop's [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface. Then, to navigate downward through the namespace, your application can follow these steps:
+You now have all the essential elements needed to navigate anywhere in the namespace. The simplest way to start is to have your application call [**SHGetDesktopFolder**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder) to retrieve the desktop's [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface. Then, to navigate downward through the namespace, your application can follow these steps:
 
 1.  Enumerate the folder's contents.
 2.  Determine which objects are subfolders, and select one.
-3.  Bind to the subfolder to retrieve its [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface.
+3.  Bind to the subfolder to retrieve its [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface.
 
 Repeat these steps as often as necessary to reach the target.
 
@@ -20,7 +20,7 @@ Repeat these steps as often as necessary to reach the target.
 
 The following piece of sample code is a simple console application that illustrates a number of the procedures discussed in the preceding sections. Error checking has been omitted for clarity. The application performs the following tasks:
 
-1.  Retrieves the Program Files folder's [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface ([Using the IShellFolder Interface](folder-info.md)).
+1.  Retrieves the Program Files folder's [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface ([Using the IShellFolder Interface](folder-info.md)).
 2.  Enumerates the contents of the folder ([Enumerating the Contents of a Folder](folder-info.md)).
 3.  Determines all the display names and prints them ([Determining Display Names and Other Properties](folder-info.md)).
 4.  Looks for a subfolder ([Getting a Pointer to a Subfolder's IShellFolder Interface](folder-info.md)).

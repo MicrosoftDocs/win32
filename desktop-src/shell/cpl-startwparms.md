@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_STARTWPARMS message
 
-Sent to notify [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) that the user has chosen the icon associated with a given dialog box. **CPlApplet** should display the corresponding dialog box and carry out any user-specified tasks.
+Sent to notify [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) that the user has chosen the icon associated with a given dialog box. **CPlApplet** should display the corresponding dialog box and carry out any user-specified tasks.
 
 ## Parameters
 
@@ -44,7 +44,7 @@ Returns **TRUE** if the message was handled, or **FALSE** otherwise.
 
 ## Remarks
 
-**CPL\_STARTWPARMS** is similar to [**CPL\_DBLCLK**](cpl-dblclk.md) but allows you to pass a string to [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) instead of an **int**. You can use this string as a flexible way to provide detailed directions for execution.
+**CPL\_STARTWPARMS** is similar to [**CPL\_DBLCLK**](cpl-dblclk.md) but allows you to pass a string to [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) instead of an **int**. You can use this string as a flexible way to provide detailed directions for execution.
 
 ## Requirements
 

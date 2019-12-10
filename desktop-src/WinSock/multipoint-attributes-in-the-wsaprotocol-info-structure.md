@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Multipoint attributes in WSAPROTOCOL_INFO
 
-Three attribute parameters are defined in the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure in order to distinguish the different schemes used in the control and data planes, respectively:
+Three attribute parameters are defined in the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure in order to distinguish the different schemes used in the control and data planes, respectively:
 
 -   XP1\_SUPPORT\_MULTIPOINT with a value of 1 indicates this protocol entry supports multipoint communications, and that the following two parameters are meaningful.
 -   XP1\_MULTIPOINT\_CONTROL\_PLANE indicates whether the control plane is rooted (value = 1) or nonrooted (value = 0).
 -   XP1\_MULTIPOINT\_DATA\_PLANE indicates whether the data plane is rooted (value = 1) or nonrooted (value = 0).
 
-Two [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) entries would be present if a multipoint protocol supported both rooted and nonrooted data planes, one entry for each.
+Two [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) entries would be present if a multipoint protocol supported both rooted and nonrooted data planes, one entry for each.
 
  
 

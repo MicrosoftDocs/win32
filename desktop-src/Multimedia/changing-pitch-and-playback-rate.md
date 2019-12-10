@@ -32,10 +32,10 @@ Windows provides the following functions to query and set waveform-audio pitch a
 
 | Function                                                 | Description                                                                 |
 |----------------------------------------------------------|-----------------------------------------------------------------------------|
-| [**waveOutGetPitch**](https://msdn.microsoft.com/en-us/library/Dd743861(v=VS.85).aspx)               | Retrieves the pitch for the specified waveform-audio output device.         |
-| [**waveOutGetPlaybackRate**](https://msdn.microsoft.com/en-us/library/Dd743862(v=VS.85).aspx) | Retrieves the playback rate for the specified waveform-audio output device. |
-| [**waveOutSetPitch**](https://msdn.microsoft.com/en-us/library/Dd743872(v=VS.85).aspx)               | Sets the pitch for the specified waveform-audio output device.              |
-| [**waveOutSetPlaybackRate**](https://msdn.microsoft.com/en-us/library/Dd743873(v=VS.85).aspx) | Sets the playback rate for the specified waveform-audio output device.      |
+| [**waveOutGetPitch**](https://msdn.microsoft.com/library/Dd743861(v=VS.85).aspx)               | Retrieves the pitch for the specified waveform-audio output device.         |
+| [**waveOutGetPlaybackRate**](https://msdn.microsoft.com/library/Dd743862(v=VS.85).aspx) | Retrieves the playback rate for the specified waveform-audio output device. |
+| [**waveOutSetPitch**](https://msdn.microsoft.com/library/Dd743872(v=VS.85).aspx)               | Sets the pitch for the specified waveform-audio output device.              |
+| [**waveOutSetPlaybackRate**](https://msdn.microsoft.com/library/Dd743873(v=VS.85).aspx) | Sets the playback rate for the specified waveform-audio output device.      |
 
 
 

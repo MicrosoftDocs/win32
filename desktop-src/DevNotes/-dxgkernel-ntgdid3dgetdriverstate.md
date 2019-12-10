@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DGetDriverState(
 *pdata* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETDRIVERSTATEDATA**](https://msdn.microsoft.com/en-us/library/Ff551551(v=VS.85).aspx) structure that describes the state of the driver.
+Pointer to a [**DD\_GETDRIVERSTATEDATA**](https://msdn.microsoft.com/library/Ff551551(v=VS.85).aspx) structure that describes the state of the driver.
 
 </dd> </dl>
 

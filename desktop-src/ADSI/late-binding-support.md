@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Late Binding Support
 
-When late binding support is in place, each function call must go through the ADSI [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface, before it is rerouted to the appropriate extension.
+When late binding support is in place, each function call must go through the ADSI [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface, before it is rerouted to the appropriate extension.
 
 Consider the following code example.
 
@@ -35,7 +35,7 @@ Debug.Print x.LastName
 
 
 
-There are no explicit calls to the **QueryInterface** method to get to the extensions. The extensions must reroute their [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) calls to the ADSI **IDispatch** interface. ADSI makes the decision and resolves any conflicts that occur, then it re-routes back to the appropriate extension using an interface called [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension). Therefore, any extension that supports late binding must implement **IADsExtension**.
+There are no explicit calls to the **QueryInterface** method to get to the extensions. The extensions must reroute their [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) calls to the ADSI **IDispatch** interface. ADSI makes the decision and resolves any conflicts that occur, then it re-routes back to the appropriate extension using an interface called [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension). Therefore, any extension that supports late binding must implement **IADsExtension**.
 
  
 

@@ -21,7 +21,7 @@ The [**XMHALF4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvecto
 
 | Methods                                              | Description                                                                                                        |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee419678(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMHALF4` to the current instance of `XMHALF4`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Ee419678(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMHALF4` to the current instance of `XMHALF4`. <br/> |
 
 
 

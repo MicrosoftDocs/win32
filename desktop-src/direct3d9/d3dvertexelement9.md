@@ -42,7 +42,7 @@ typedef struct D3DVERTEXELEMENT9 {
 **Stream**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ Stream number.
 **Offset**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -64,40 +64,40 @@ Offset from the beginning of the vertex data to the data associated with the par
 **Type**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-The data type, specified as a [**D3DDECLTYPE**](https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx). One of several predefined types that define the data size. Some methods have an implied type.
+The data type, specified as a [**D3DDECLTYPE**](https://msdn.microsoft.com/library/Bb172533(v=VS.85).aspx). One of several predefined types that define the data size. Some methods have an implied type.
 
 </dd> <dt>
 
 **Method**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-The method specifies the tessellator processing, which determines how the tessellator interprets (or operates on) the vertex data. For more information, see [**D3DDECLMETHOD**](https://msdn.microsoft.com/en-us/library/Bb172532(v=VS.85).aspx).
+The method specifies the tessellator processing, which determines how the tessellator interprets (or operates on) the vertex data. For more information, see [**D3DDECLMETHOD**](https://msdn.microsoft.com/library/Bb172532(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Defines what the data will be used for; that is, the interoperability between vertex data layouts and vertex shaders. Each usage acts to bind a vertex declaration to a vertex shader. In some cases, they have a special interpretation. For example, an element that specifies D3DDECLUSAGE\_NORMAL or D3DDECLUSAGE\_POSITION is used by the N-patch tessellator to set up tessellation. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx) for a list of the available semantics. D3DDECLUSAGE\_TEXCOORD can be used for user-defined fields (which don't have an existing usage defined).
+Defines what the data will be used for; that is, the interoperability between vertex data layouts and vertex shaders. Each usage acts to bind a vertex declaration to a vertex shader. In some cases, they have a special interpretation. For example, an element that specifies D3DDECLUSAGE\_NORMAL or D3DDECLUSAGE\_POSITION is used by the N-patch tessellator to set up tessellation. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx) for a list of the available semantics. D3DDECLUSAGE\_TEXCOORD can be used for user-defined fields (which don't have an existing usage defined).
 
 </dd> <dt>
 
 **UsageIndex**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

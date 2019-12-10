@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetY property of a 2D translation transf
 
 | Method                                                                                                            | Description                                            |
 |:------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetOffsetY(float)**](https://msdn.microsoft.com/en-us/library/Hh449127(v=VS.85).aspx)                                     | Changes the value of the OffsetY property.<br/>  |
-| [**SetOffsetY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449129(v=VS.85).aspx) | Animates the value of the OffsetY property.<br/> |
+| [**SetOffsetY(float)**](https://msdn.microsoft.com/library/Hh449127(v=VS.85).aspx)                                     | Changes the value of the OffsetY property.<br/>  |
+| [**SetOffsetY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449129(v=VS.85).aspx) | Animates the value of the OffsetY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the OffsetY property of a 2D translation transf
 
 <dl> <dt>
 
-[**IDCompositionTranslateTransform**](https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx)
+[**IDCompositionTranslateTransform**](https://msdn.microsoft.com/library/Hh449113(v=VS.85).aspx)
 </dt> </dl>
 
 �

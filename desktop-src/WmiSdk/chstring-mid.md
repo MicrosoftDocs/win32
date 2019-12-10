@@ -20,8 +20,8 @@ The **Mid** method extracts a substring of length *nCount* characters from a [**
 
 | Method                                        | Description                                                              |
 |:----------------------------------------------|:-------------------------------------------------------------------------|
-| [**Mid(int,int)**](https://msdn.microsoft.com/en-us/library/Aa385636(v=VS.85).aspx) | Extracts a substring of specified length and beginning point.<br/> |
-| [**Mid(int)**](https://msdn.microsoft.com/en-us/library/Aa385630(v=VS.85).aspx)         | Extracts a substring beginning at int.<br/>                        |
+| [**Mid(int,int)**](https://msdn.microsoft.com/library/Aa385636(v=VS.85).aspx) | Extracts a substring of specified length and beginning point.<br/> |
+| [**Mid(int)**](https://msdn.microsoft.com/library/Aa385630(v=VS.85).aspx)         | Extracts a substring beginning at int.<br/>                        |
 
 
 

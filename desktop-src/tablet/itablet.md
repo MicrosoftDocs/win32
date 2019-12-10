@@ -35,14 +35,14 @@ The **ITablet** interface has these methods.
 | Method                                                                 | Description                                                                           |
 |:-----------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
 | [**CreateContext**](itablet-createcontext.md)                         | Creates a context object that describes the specified tablet device.<br/>       |
-| [**GetCursor**](https://msdn.microsoft.com/en-us/library/Aa373535(v=VS.85).aspx)                                 | Retrieves the specified [**ITabletCursor**](itabletcursor.md) object.<br/>     |
+| [**GetCursor**](https://msdn.microsoft.com/library/Aa373535(v=VS.85).aspx)                                 | Retrieves the specified [**ITabletCursor**](itabletcursor.md) object.<br/>     |
 | [**GetCursorCount**](itablet-getcursorcount.md)                       | Retrieves the number of cursor objects associated with the tablet.<br/>         |
 | [**GetDefaultContextSettings**](itablet-getdefaultcontextsettings.md) | Retrieves the default context settings for the tablet.<br/>                     |
 | [**GetHardwareCaps**](itablet-gethardwarecaps.md)                     | Retrieves a value that represents the capabilities of the tablet hardware.<br/> |
 | [**GetMaxInputRect**](itablet-getmaxinputrect.md)                     | Retrieves a rectangle that represents maximum input area of the tablet.<br/>    |
 | [**GetName**](itablet-getname.md)                                     | Retrieves a string containing the name of the tablet device.<br/>               |
 | [**GetPlugAndPlayId**](itablet-getplugandplayid.md)                   | Retrieves a string containing the Plug and Play ID for the tablet device.<br/>  |
-| [**GetPropertyMetrics**](https://msdn.microsoft.com/en-us/library/Aa367722(v=VS.85).aspx)               | Retrieves the metrics data for a specified property.<br/>                       |
+| [**GetPropertyMetrics**](https://msdn.microsoft.com/library/Aa367722(v=VS.85).aspx)               | Retrieves the metrics data for a specified property.<br/>                       |
 
 
 

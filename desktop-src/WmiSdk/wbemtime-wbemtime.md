@@ -20,12 +20,12 @@ The **WBEMTime** class constructor facilitates conversions between various Windo
 
 | Constructor                                                                 | Description                                                               |
 |:----------------------------------------------------------------------------|:--------------------------------------------------------------------------|
-| [**WBEMTime()**](https://msdn.microsoft.com/en-us/library/Aa394048(v=VS.85).aspx)                                   | Creates an uninitialized time object.<br/>                          |
-| [**WBEMTime(BSTR)**](https://msdn.microsoft.com/en-us/library/Aa394043(v=VS.85).aspx)                           | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const time\_t&)**](https://msdn.microsoft.com/en-us/library/Aa394047(v=VS.85).aspx)        | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const struct tm)**](https://msdn.microsoft.com/en-us/library/Aa394045(v=VS.85).aspx)    | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const FILETIME&)**](https://msdn.microsoft.com/en-us/library/Aa394044(v=VS.85).aspx)     | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const SYSTEMTIME&)**](https://msdn.microsoft.com/en-us/library/Aa394046(v=VS.85).aspx) | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime()**](https://msdn.microsoft.com/library/Aa394048(v=VS.85).aspx)                                   | Creates an uninitialized time object.<br/>                          |
+| [**WBEMTime(BSTR)**](https://msdn.microsoft.com/library/Aa394043(v=VS.85).aspx)                           | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const time\_t&)**](https://msdn.microsoft.com/library/Aa394047(v=VS.85).aspx)        | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const struct tm)**](https://msdn.microsoft.com/library/Aa394045(v=VS.85).aspx)    | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const FILETIME&)**](https://msdn.microsoft.com/library/Aa394044(v=VS.85).aspx)     | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const SYSTEMTIME&)**](https://msdn.microsoft.com/library/Aa394046(v=VS.85).aspx) | Initializes the new time object to the value in the parameter.<br/> |
 
 
 

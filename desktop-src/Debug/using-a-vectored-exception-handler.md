@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using a Vectored Exception Handler
 
-The following sample code demonstrates how to use vectored exception handling. It uses the [**AddVectoredExceptionHandler**](https://msdn.microsoft.com/en-us/library/ms679274(v=VS.85).aspx) function to add several handlers, tests the handlers, then uses the [**RemoveVectoredExceptionHandler**](https://msdn.microsoft.com/en-us/library/ms680571(v=VS.85).aspx) function to remove the handlers.
+The following sample code demonstrates how to use vectored exception handling. It uses the [**AddVectoredExceptionHandler**](https://msdn.microsoft.com/library/ms679274(v=VS.85).aspx) function to add several handlers, tests the handlers, then uses the [**RemoveVectoredExceptionHandler**](https://msdn.microsoft.com/library/ms680571(v=VS.85).aspx) function to remove the handlers.
 
 **64-bit Windows:** This code is not suitable for 64-bit Windows.
 

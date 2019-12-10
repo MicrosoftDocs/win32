@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Changing the I/O Buffer Size
 
-The following example opens a file named SAMPLE.TXT for unbuffered I/O, and then enables buffered I/O with an internal 16K buffer using the [**mmioSetBuffer**](https://msdn.microsoft.com/en-us/library/Dd757338(v=VS.85).aspx) function.
+The following example opens a file named SAMPLE.TXT for unbuffered I/O, and then enables buffered I/O with an internal 16K buffer using the [**mmioSetBuffer**](https://msdn.microsoft.com/library/Dd757338(v=VS.85).aspx) function.
 
 
 ```C++

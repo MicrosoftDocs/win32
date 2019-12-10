@@ -59,7 +59,7 @@ Unique identifier to a constant. See [D3DXHANDLE](dx9-graphics-reference-effects
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Buffer containing data.
 
@@ -68,7 +68,7 @@ Buffer containing data.
 *Bytes* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of the buffer, in bytes.
 
@@ -76,7 +76,7 @@ Size of the buffer, in bytes.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -16,11 +16,11 @@ ms.date: 05/31/2018
 
 The functions in this section can be used in an application to open, close, and communicate with an installable driver.
 
--   [**CloseDriver**](https://msdn.microsoft.com/en-us/library/Dd797785(v=VS.85).aspx)
--   [**DrvGetModuleHandle**](https://msdn.microsoft.com/en-us/library/Dd797924(v=VS.85).aspx)
--   [**GetDriverModuleHandle**](https://msdn.microsoft.com/en-us/library/Dd797983(v=VS.85).aspx)
--   [**OpenDriver**](https://msdn.microsoft.com/en-us/library/Dd743639(v=VS.85).aspx)
--   [**SendDriverMessage**](https://msdn.microsoft.com/en-us/library/Dd798653(v=VS.85).aspx)
+-   [**CloseDriver**](https://msdn.microsoft.com/library/Dd797785(v=VS.85).aspx)
+-   [**DrvGetModuleHandle**](https://msdn.microsoft.com/library/Dd797924(v=VS.85).aspx)
+-   [**GetDriverModuleHandle**](https://msdn.microsoft.com/library/Dd797983(v=VS.85).aspx)
+-   [**OpenDriver**](https://msdn.microsoft.com/library/Dd743639(v=VS.85).aspx)
+-   [**SendDriverMessage**](https://msdn.microsoft.com/library/Dd798653(v=VS.85).aspx)
 
 ## Related topics
 

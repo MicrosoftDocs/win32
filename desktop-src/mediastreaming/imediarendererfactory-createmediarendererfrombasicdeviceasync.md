@@ -69,7 +69,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererFactory**](https://msdn.microsoft.com/en-us/library/Hh828924(v=VS.85).aspx)
+[**IMediaRendererFactory**](https://msdn.microsoft.com/library/Hh828924(v=VS.85).aspx)
 </dt> </dl>
 
  

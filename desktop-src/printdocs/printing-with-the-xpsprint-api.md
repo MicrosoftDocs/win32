@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes how to use the [XPS Print API](xpsprint-api.md) to print from a Windows application.
 
-The [XPS Print API](xpsprint-api.md) enables native Windows applications to print XPS documents. An application can create an XPS document by using the [XPS Document API](https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx). The [Common XPS Document Programming Tasks](https://msdn.microsoft.com/en-us/library/Dd316968(v=VS.85).aspx) help topic describes how to do this. Once an XPS document has been created, the application can use the XPS Print API to print it.
+The [XPS Print API](xpsprint-api.md) enables native Windows applications to print XPS documents. An application can create an XPS document by using the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx). The [Common XPS Document Programming Tasks](https://msdn.microsoft.com/library/Dd316968(v=VS.85).aspx) help topic describes how to do this. Once an XPS document has been created, the application can use the XPS Print API to print it.
 
 Using the [XPS Print API](xpsprint-api.md) to print a document from an application involves the following steps.
 
@@ -23,7 +23,7 @@ Using the [XPS Print API](xpsprint-api.md) to print a document from an applicati
 -   [Wait for the Completion Event](#wait-for-the-completion-event)
 -   [Release Resources](#release-resources)
 
-The [XPS Print API](xpsprint-api.md) requires an XPS document to print. In the following example, the XPS document is created as it is sent to the printer by the XPS Print API. It is also possible to create an XPS document without sending it to a printer by using the [XPS Document API](https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx) and maintaining it as an XPS OM or by saving the XPS OM as an XPS document. For more information about using an XPS OM, see the XPS Document API.
+The [XPS Print API](xpsprint-api.md) requires an XPS document to print. In the following example, the XPS document is created as it is sent to the printer by the XPS Print API. It is also possible to create an XPS document without sending it to a printer by using the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx) and maintaining it as an XPS OM or by saving the XPS OM as an XPS document. For more information about using an XPS OM, see the XPS Document API.
 
 ### Initialize COM Interface
 
@@ -90,7 +90,7 @@ Start an XPS print job by calling [**StartXpsPrintJob**](/windows/desktop/api/Xp
 
 ### Create an IXpsOMPackageWriter Interface
 
-Create an [**IXpsOMPackageWriter**](https://msdn.microsoft.com/en-us/library/Dd372619(v=VS.85).aspx) interface by calling [**IXpsOMObjectFactory::CreatePackageWriterOnStream**](https://msdn.microsoft.com/en-us/library/Dd372554(v=VS.85).aspx) on the stream returned by [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob).
+Create an [**IXpsOMPackageWriter**](https://msdn.microsoft.com/library/Dd372619(v=VS.85).aspx) interface by calling [**IXpsOMObjectFactory::CreatePackageWriterOnStream**](https://msdn.microsoft.com/library/Dd372554(v=VS.85).aspx) on the stream returned by [**StartXpsPrintJob**](/windows/desktop/api/XpsPrint/nf-xpsprint-startxpsprintjob).
 
 
 ```C++
@@ -168,7 +168,7 @@ For each document in this print job, start a new document and then add pages to 
 
 ### Start a New Document
 
-Start a new document in the package writer by calling [**IXpsOMPackageWriter::StartNewDocument**](https://msdn.microsoft.com/en-us/library/Dd372624(v=VS.85).aspx). If a document is open when this method is called, it is closed and a new document is opened.
+Start a new document in the package writer by calling [**IXpsOMPackageWriter::StartNewDocument**](https://msdn.microsoft.com/library/Dd372624(v=VS.85).aspx). If a document is open when this method is called, it is closed and a new document is opened.
 
 
 ```C++
@@ -228,10 +228,10 @@ Start a new document in the package writer by calling [**IXpsOMPackageWriter::St
 
 ### Add a Page
 
-Call [**IXpsOMPackageWriter::AddPage**](https://msdn.microsoft.com/en-us/library/Dd372620(v=VS.85).aspx) to write each of the document's pages from the application to the new document in the package writer.
+Call [**IXpsOMPackageWriter::AddPage**](https://msdn.microsoft.com/library/Dd372620(v=VS.85).aspx) to write each of the document's pages from the application to the new document in the package writer.
 
 > [!Note]  
-> The application is assumed to have created the page prior to this step. For more information about creating document pages and adding content to them, see the [Common XPS Document Programming Tasks](https://msdn.microsoft.com/en-us/library/Dd316968(v=VS.85).aspx).
+> The application is assumed to have created the page prior to this step. For more information about creating document pages and adding content to them, see the [Common XPS Document Programming Tasks](https://msdn.microsoft.com/library/Dd316968(v=VS.85).aspx).
 
  
 
@@ -261,7 +261,7 @@ Call [**IXpsOMPackageWriter::AddPage**](https://msdn.microsoft.com/en-us/library
 
 ### Close the IXpsOMPackageWriter Interface
 
-After all the documents have been written for this print job, call [**IXpsOMPackageWriter::Close**](https://msdn.microsoft.com/en-us/library/Dd372622(v=VS.85).aspx) to close the package.
+After all the documents have been written for this print job, call [**IXpsOMPackageWriter::Close**](https://msdn.microsoft.com/library/Dd372622(v=VS.85).aspx) to close the package.
 
 
 ```C++

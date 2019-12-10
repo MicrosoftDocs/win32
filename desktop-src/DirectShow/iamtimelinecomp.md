@@ -33,7 +33,7 @@ To create a composition object, call [**IAMTimeline::CreateEmptyNode**](iamtimel
 
 ## Members
 
-The **IAMTimelineComp** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineComp** also has these types of members:
+The **IAMTimelineComp** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineComp** also has these types of members:
 
 -   [Methods](#methods)
 

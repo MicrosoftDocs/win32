@@ -14,7 +14,7 @@ The following properties are defined by the [**ICertSrvSetup**](/windows/desktop
 
 | Property                                             | Description                                                                                                                                                                                                  |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CAErrorId**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorid)         | Gets the ID for additional error information related to a failed [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) specification. |
+| [**CAErrorId**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorid)         | Gets the ID for additional error information related to a failed [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) specification. |
 | [**CAErrorString**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorstring) | Gets the string data for additional error information related to a failed CA specification.                                                                                                                  |
 
 

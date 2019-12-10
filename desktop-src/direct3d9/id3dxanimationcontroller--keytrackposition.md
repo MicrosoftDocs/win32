@@ -40,7 +40,7 @@ D3DXEVENTHANDLE KeyTrackPosition(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Identifier of the track to modify.
 
@@ -49,7 +49,7 @@ Identifier of the track to modify.
 *NewPosition* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 New local time of the animation track.
 
@@ -58,7 +58,7 @@ New local time of the animation track.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Global time key. Specifies the global time when the change will take place.
 

@@ -45,7 +45,7 @@ HRESULT RegisterAnimationSRTKeys(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the animation name.
 
@@ -54,7 +54,7 @@ Pointer to the animation name.
 *NumScaleKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of scale keys.
 
@@ -63,7 +63,7 @@ Number of scale keys.
 *NumRotationKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of rotation keys.
 
@@ -72,7 +72,7 @@ Number of rotation keys.
 *NumTranslationKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of translation keys.
 
@@ -108,7 +108,7 @@ Address of a pointer to a user-allocated array of [**D3DXKEY\_VECTOR3**](d3dxkey
 *pAnimationIndex* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the animation index.
 
@@ -116,7 +116,7 @@ Returns the animation index.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL
 

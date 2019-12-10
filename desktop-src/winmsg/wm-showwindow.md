@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to a window when the window is about to be hidden or shown.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -33,7 +33,7 @@ Indicates whether a window is being shown. If *wParam* is **TRUE**, the window i
 *lParam* 
 </dt> <dd>
 
-The status of the window being shown. If *lParam* is zero, the message was sent because of a call to the [**ShowWindow**](https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx) function; otherwise, *lParam* is one of the following values.
+The status of the window being shown. If *lParam* is zero, the message was sent because of a call to the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) function; otherwise, *lParam* is one of the following values.
 
 
 
@@ -58,12 +58,12 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function hides or shows the window, as specified by the message. If a window has the [**WS\_VISIBLE**](window-styles.md) style when it is created, the window receives this message after it is created, but before it is displayed. A window also receives this message when its visibility state is changed by the [**ShowWindow**](https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx) or [**ShowOwnedPopups**](https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx) function.
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function hides or shows the window, as specified by the message. If a window has the [**WS\_VISIBLE**](window-styles.md) style when it is created, the window receives this message after it is created, but before it is displayed. A window also receives this message when its visibility state is changed by the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) or [**ShowOwnedPopups**](https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx) function.
 
 The **WM\_SHOWWINDOW** message is not sent under the following circumstances:
 
 -   When a top-level, overlapped window is created with the [**WS\_MAXIMIZE**](window-styles.md) or **WS\_MINIMIZE** style.
--   When the **SW\_SHOWNORMAL** flag is specified in the call to the [**ShowWindow**](https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx) function.
+-   When the **SW\_SHOWNORMAL** flag is specified in the call to the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) function.
 
 ## Requirements
 
@@ -84,13 +84,13 @@ The **WM\_SHOWWINDOW** message is not sent under the following circumstances:
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**ShowOwnedPopups**](https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx)
+[**ShowOwnedPopups**](https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx)
 </dt> <dt>
 
-[**ShowWindow**](https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx)
+[**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

@@ -24,8 +24,8 @@ Changes or animates the value of the CenterZ property of a 3D scale transform. T
 
 | Method                                                                                                          | Description                                            |
 |:----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterZ(float)**](https://msdn.microsoft.com/en-us/library/Hh449008(v=VS.85).aspx)                                     | Changes the value of the CenterZ property.<br/>  |
-| [**SetCenterZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449010(v=VS.85).aspx) | Animates the value of the CenterZ property.<br/> |
+| [**SetCenterZ(float)**](https://msdn.microsoft.com/library/Hh449008(v=VS.85).aspx)                                     | Changes the value of the CenterZ property.<br/>  |
+| [**SetCenterZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449010(v=VS.85).aspx) | Animates the value of the CenterZ property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterZ property of a 3D scale transform. T
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDCompositionScaleTransform3D::SetCenterX**](idcompositionscaletransform3d-setcenterx-overloaded.md)

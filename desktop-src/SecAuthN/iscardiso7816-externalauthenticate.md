@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::ExternalAuthenticate method
 
-\[The **ExternalAuthenticate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ExternalAuthenticate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ExternalAuthenticate** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) command that conditionally updates security status, verifying the identity of the computer when the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) does not trust it.
+The **ExternalAuthenticate** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that conditionally updates security status, verifying the identity of the computer when the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) does not trust it.
 
 The command uses the result (yes or no) of the computation by the card (based on a challenge previously issued by the card, for example, by the INS\_GET\_CHALLENGE command), a key (possibly secret) stored in the card, and authentication data transmitted by the interface device.
 
@@ -83,7 +83,7 @@ A pointer to the authentication-related data. This parameter may be **NULL**.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned by using the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned by using the *ppCmd* pointer.
 
 </dd> </dl>
 

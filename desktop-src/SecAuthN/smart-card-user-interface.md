@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Smart Card User Interface
 
-The smart card [*user interface*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) (UI) is a single [*common dialog box*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) that lets the user specify or search for a smart card to open (that is, connect to and use in an application).
+The smart card [*user interface*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) (UI) is a single [*common dialog box*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) that lets the user specify or search for a smart card to open (that is, connect to and use in an application).
 
 Following are two ways you can use the common dialog box. Both assume that the dialog box UI will be displayed. For more information, see [**OPENCARDNAME**](/windows/desktop/api/Winscard/ns-winscard-opencardnamea).
 
@@ -30,7 +30,7 @@ Following are two ways you can use the common dialog box. Both assume that the d
      
 
 4.  Call the [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) common dialog box function.
-5.  The common dialog box will then search for the requested cards. If a matching card name or [*ATR string*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) is found, the **Connect**, **Check**, and **Disconnect** callback functions will be called in sequence. If a card passes the **Check** routine (that is, the **Check** callback returns **TRUE**), this card is highlighted in the display to the user.
+5.  The common dialog box will then search for the requested cards. If a matching card name or [*ATR string*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) is found, the **Connect**, **Check**, and **Disconnect** callback functions will be called in sequence. If a card passes the **Check** routine (that is, the **Check** callback returns **TRUE**), this card is highlighted in the display to the user.
     > [!Note]  
     > If multiple card names are given, the first reader that contains one of the requested cards and passes the **Check** routine will be the selected card.
 

@@ -62,7 +62,7 @@ The size of the update sequence array, in bytes.
 
 Note that there is no associated header file for this structure.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
 
 The multisector header and update sequence array provide detection of incomplete multisector transfers for devices that either have a physical sector size greater than or equal to the sequence number stride (512) or that do not transfer sectors out of order. If a device exists that has a sector size smaller than the sequence number stride and it sometimes transfers sectors out of order, then the update sequence array will not provide absolute detection of incomplete transfers. The sequence number stride is set to a small enough number to provide absolute protection for all known hard disks. It is not set any smaller or there might be excessive run time or space overhead.
 

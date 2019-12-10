@@ -44,7 +44,7 @@ HRESULT D3DXCreateEffectCompiler(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a buffer containing an effect description.
 
@@ -53,7 +53,7 @@ Pointer to a buffer containing an effect description.
 *SrcDataLen* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Length, in bytes, of the effect data.
 
@@ -80,9 +80,9 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Compile options identified by various flags (see [D3DXSHADER Flags](d3dxshader-flags.md)). The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx) for details.
+Compile options identified by various flags (see [D3DXSHADER Flags](d3dxshader-flags.md)). The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface containin
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

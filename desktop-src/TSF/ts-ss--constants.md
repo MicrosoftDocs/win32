@@ -61,7 +61,7 @@ The **dwStaticFlags** member of the **TS\_STATUS** structure uses these constant
 [**TS\_STATUS**](/windows/desktop/api/Textstor/ns-textstor-ts_status)
 </dt> <dt>
 
-[**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx)
+[**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx)
 </dt> </dl>
 
  

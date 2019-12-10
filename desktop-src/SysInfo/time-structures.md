@@ -12,10 +12,10 @@ The following structures are used with time.
 
 <dl>
 
-[**DYNAMIC\_TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms724253(v=VS.85).aspx)  
-[**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx)  
-[**SYSTEMTIME**](https://msdn.microsoft.com/en-us/library/ms724950(v=VS.85).aspx)  
-[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms725481(v=VS.85).aspx)  
+[**DYNAMIC\_TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms724253(v=VS.85).aspx)  
+[**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx)  
+[**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx)  
+[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms725481(v=VS.85).aspx)  
 </dl>
 
  

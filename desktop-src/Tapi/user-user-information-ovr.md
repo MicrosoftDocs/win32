@@ -12,7 +12,7 @@ User-user information is a buffer that can be transmitted from one end of a conn
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:  **[**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx), **dwCallDataSize** and **dwCallDataOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/en-us/library/ms735527(v=VS.85).aspx), [**lineSendUserUserInfo**](https://msdn.microsoft.com/en-us/library/ms736067(v=VS.85).aspx)
+**TAPI 2.x:  **[**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx), **dwCallDataSize** and **dwCallDataOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx), [**lineSendUserUserInfo**](https://msdn.microsoft.com/library/ms736067(v=VS.85).aspx)
 
 **TAPI 3.x:  **[**ITCallInfo::GetCallInfoBuffer**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer), called with the **CIB\_USERUSERINFO** member of [**CALLINFO\_BUFFER**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_buffer), [**ITCallInfo::ReleaseUserUserInfo**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-releaseuseruserinfo)
 

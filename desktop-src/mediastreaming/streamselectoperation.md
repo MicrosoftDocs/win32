@@ -18,7 +18,7 @@ api_location:
 
 # StreamSelectOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
 
 **StreamSelectOperation** has these types of members:
 
@@ -33,7 +33,7 @@ The **StreamSelectOperation** class has these methods.
 
 | Method                                                 | Description                                                                                                                                       |
 |:-------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](streamselectoperation-getresults.md) | Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx).<br/> |
+| [**GetResults**](streamselectoperation-getresults.md) | Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx).<br/> |
 
 
 
@@ -47,7 +47,7 @@ The **StreamSelectOperation** class has these properties.
 
 | Property                                                        | Access type           | Description                                                                                                                                                                             |
 |:----------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](streamselectoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829002(v=VS.85).aspx) is completed.<br/> |
+| [**Completed**](streamselectoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/library/Hh829002(v=VS.85).aspx) is completed.<br/> |
 
 
 

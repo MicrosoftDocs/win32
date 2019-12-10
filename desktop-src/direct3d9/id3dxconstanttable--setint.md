@@ -58,7 +58,7 @@ Unique identifier to the constant. See [D3DXHANDLE](dx9-graphics-reference-effec
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Integer.
 
@@ -66,7 +66,7 @@ Integer.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

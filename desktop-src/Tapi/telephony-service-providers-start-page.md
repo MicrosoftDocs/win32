@@ -39,16 +39,16 @@ TSPI enables development of TSPs for all versions of Windows.
 
 <dl> <dt>
 
-[Microsoft Telephony Overview](https://msdn.microsoft.com/en-us/library/ms733433(v=VS.85).aspx)
+[Microsoft Telephony Overview](https://msdn.microsoft.com/library/ms733433(v=VS.85).aspx)
 </dt> <dt>
 
-[Media Service Providers](https://msdn.microsoft.com/en-us/library/ms733409(v=VS.85).aspx)
+[Media Service Providers](https://msdn.microsoft.com/library/ms733409(v=VS.85).aspx)
 </dt> <dt>
 
-[TAPI 2.2](https://msdn.microsoft.com/en-us/library/ms737220(v=VS.85).aspx)
+[TAPI 2.2](https://msdn.microsoft.com/library/ms737220(v=VS.85).aspx)
 </dt> <dt>
 
-[TAPI 3.1](https://msdn.microsoft.com/en-us/library/ms734215(v=VS.85).aspx)
+[TAPI 3.1](https://msdn.microsoft.com/library/ms734215(v=VS.85).aspx)
 </dt> </dl>
 
  

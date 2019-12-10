@@ -87,7 +87,7 @@ This method is used to create an enumerator object to obtain the set of commands
 
 This method can only be called on the root item of [**IWiaItem2**](-wia-iwiaitem2.md) objects of a device tree.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnumWIA\_DEV\_CAPS* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnumWIA\_DEV\_CAPS* parameter.
 
 ## Requirements
 

@@ -53,7 +53,7 @@ File name, including path, where the file was last known to reside. For source o
 *FilterString* 
 </dt> <dd>
 
-A **BSTR** containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx) structure. The media locator uses this filter if it displays a File Open dialog box. The value can be **NULL** if the *Flags* parameter does not include the SFN\_VALIDATEF\_POPUP flag.
+A **BSTR** containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure. The media locator uses this filter if it displays a File Open dialog box. The value can be **NULL** if the *Flags* parameter does not include the SFN\_VALIDATEF\_POPUP flag.
 
 </dd> <dt>
 

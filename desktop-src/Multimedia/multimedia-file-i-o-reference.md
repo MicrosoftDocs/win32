@@ -23,35 +23,35 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Basic I/O
 
--   [**mmioClose**](https://msdn.microsoft.com/en-us/library/Dd757316(v=VS.85).aspx)
--   [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx)
--   [**mmioRead**](https://msdn.microsoft.com/en-us/library/Dd757334(v=VS.85).aspx)
--   [**mmioRename**](https://msdn.microsoft.com/en-us/library/Dd757335(v=VS.85).aspx)
--   [**mmioSeek**](https://msdn.microsoft.com/en-us/library/Dd757336(v=VS.85).aspx)
--   [**mmioWrite**](https://msdn.microsoft.com/en-us/library/Dd757341(v=VS.85).aspx)
+-   [**mmioClose**](https://msdn.microsoft.com/library/Dd757316(v=VS.85).aspx)
+-   [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx)
+-   [**mmioRead**](https://msdn.microsoft.com/library/Dd757334(v=VS.85).aspx)
+-   [**mmioRename**](https://msdn.microsoft.com/library/Dd757335(v=VS.85).aspx)
+-   [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx)
+-   [**mmioWrite**](https://msdn.microsoft.com/library/Dd757341(v=VS.85).aspx)
 
 ## Buffered I/O
 
--   [**mmioAdvance**](https://msdn.microsoft.com/en-us/library/Dd757314(v=VS.85).aspx)
--   [**mmioFlush**](https://msdn.microsoft.com/en-us/library/Dd757319(v=VS.85).aspx)
--   [**mmioGetInfo**](https://msdn.microsoft.com/en-us/library/Dd757321(v=VS.85).aspx)
--   [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx)
--   [**mmioSetBuffer**](https://msdn.microsoft.com/en-us/library/Dd757338(v=VS.85).aspx)
--   [**mmioSetInfo**](https://msdn.microsoft.com/en-us/library/Dd757339(v=VS.85).aspx)
+-   [**mmioAdvance**](https://msdn.microsoft.com/library/Dd757314(v=VS.85).aspx)
+-   [**mmioFlush**](https://msdn.microsoft.com/library/Dd757319(v=VS.85).aspx)
+-   [**mmioGetInfo**](https://msdn.microsoft.com/library/Dd757321(v=VS.85).aspx)
+-   [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx)
+-   [**mmioSetBuffer**](https://msdn.microsoft.com/library/Dd757338(v=VS.85).aspx)
+-   [**mmioSetInfo**](https://msdn.microsoft.com/library/Dd757339(v=VS.85).aspx)
 
 ## RIFF I/O
 
--   [**mmioAscend**](https://msdn.microsoft.com/en-us/library/Dd757315(v=VS.85).aspx)
--   [**MMCKINFO**](https://msdn.microsoft.com/en-us/library/Dd757312(v=VS.85).aspx)
--   [**mmioCreateChunk**](https://msdn.microsoft.com/en-us/library/Dd757317(v=VS.85).aspx)
--   [**mmioDescend**](https://msdn.microsoft.com/en-us/library/Dd757318(v=VS.85).aspx)
--   [**mmioFOURCC**](https://msdn.microsoft.com/en-us/library/Dd757320(v=VS.85).aspx)
--   [**mmioStringToFOURCC**](https://msdn.microsoft.com/en-us/library/Dd757340(v=VS.85).aspx)
+-   [**mmioAscend**](https://msdn.microsoft.com/library/Dd757315(v=VS.85).aspx)
+-   [**MMCKINFO**](https://msdn.microsoft.com/library/Dd757312(v=VS.85).aspx)
+-   [**mmioCreateChunk**](https://msdn.microsoft.com/library/Dd757317(v=VS.85).aspx)
+-   [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx)
+-   [**mmioFOURCC**](https://msdn.microsoft.com/library/Dd757320(v=VS.85).aspx)
+-   [**mmioStringToFOURCC**](https://msdn.microsoft.com/library/Dd757340(v=VS.85).aspx)
 
 ## Custom I/O Procedures
 
--   [**IOProc**](https://msdn.microsoft.com/en-us/library/Dd757098(v=VS.85).aspx)
--   [**mmioInstallIOProc**](https://msdn.microsoft.com/en-us/library/Dd757323(v=VS.85).aspx)
+-   [**IOProc**](https://msdn.microsoft.com/library/Dd757098(v=VS.85).aspx)
+-   [**mmioInstallIOProc**](https://msdn.microsoft.com/library/Dd757323(v=VS.85).aspx)
 -   [**MMIOM\_CLOSE**](mmiom-close.md)
 -   [**MMIOM\_OPEN**](mmiom-open.md)
 -   [**MMIOM\_READ**](mmiom-read.md)
@@ -59,7 +59,7 @@ This section describes the functions, macros, messages, and structures associate
 -   [**MMIOM\_SEEK**](mmiom-seek.md)
 -   [**MMIOM\_WRITE**](mmiom-write.md)
 -   [**MMIOM\_WRITEFLUSH**](mmiom-writeflush.md)
--   [**mmioSendMessage**](https://msdn.microsoft.com/en-us/library/Dd757337(v=VS.85).aspx)
+-   [**mmioSendMessage**](https://msdn.microsoft.com/library/Dd757337(v=VS.85).aspx)
 
 ## Related topics
 

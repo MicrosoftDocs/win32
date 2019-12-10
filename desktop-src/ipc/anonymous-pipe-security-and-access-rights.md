@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 Windows security enables you to control access to anonymous pipes. For more information about security, see [Access-Control Model](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model).
 
-You can specify a [security descriptor](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors) for a pipe when you call the [**CreatePipe**](https://msdn.microsoft.com/en-us/library/Aa365152(v=VS.85).aspx) function. The security descriptor controls access to both the read and write ends of the pipe. If you specify **NULL**, the pipe gets a default security descriptor. The ACLs in the default security descriptor for a pipe come from the primary or impersonation token of the creator.
+You can specify a [security descriptor](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors) for a pipe when you call the [**CreatePipe**](https://msdn.microsoft.com/library/Aa365152(v=VS.85).aspx) function. The security descriptor controls access to both the read and write ends of the pipe. If you specify **NULL**, the pipe gets a default security descriptor. The ACLs in the default security descriptor for a pipe come from the primary or impersonation token of the creator.
 
 To retrieve a pipe's security descriptor, call the [**GetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) function. To change a pipe's security descriptor, call the [**SetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) function.
 
-The [**CreatePipe**](https://msdn.microsoft.com/en-us/library/Aa365152(v=VS.85).aspx) function returns two handles to the anonymous pipe: a read handle with GENERIC\_READ and SYNCHRONIZE access; and a write handle with GENERIC\_WRITE and SYNCHRONIZE access. GENERIC\_READ and GENERIC\_WRITE access use the same access rights mapping as for named pipes.
+The [**CreatePipe**](https://msdn.microsoft.com/library/Aa365152(v=VS.85).aspx) function returns two handles to the anonymous pipe: a read handle with GENERIC\_READ and SYNCHRONIZE access; and a write handle with GENERIC\_WRITE and SYNCHRONIZE access. GENERIC\_READ and GENERIC\_WRITE access use the same access rights mapping as for named pipes.
 
 GENERIC\_READ access for an anonymous pipe combines the rights to read data from the pipe, read pipe attributes, read extended attributes, and read the pipe's DACL.
 

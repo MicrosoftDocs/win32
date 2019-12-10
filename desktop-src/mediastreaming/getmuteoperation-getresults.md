@@ -19,7 +19,7 @@ api_location:
 
 # GetMuteOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx).
 
 ## Syntax
 

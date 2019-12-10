@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**IPrintDialogCallback**](https://msdn.microsoft.com/en-us/library/ms646896(v=VS.85).aspx)
--   [**IPrintDialogServices**](https://msdn.microsoft.com/en-us/library/ms646897(v=VS.85).aspx)
+-   [**IPrintDialogCallback**](https://msdn.microsoft.com/library/ms646896(v=VS.85).aspx)
+-   [**IPrintDialogServices**](https://msdn.microsoft.com/library/ms646897(v=VS.85).aspx)
 
  
 

@@ -8,28 +8,28 @@ ms.date: 05/31/2018
 
 # Generating a Table of Contents Automatically
 
-This topic demonstrates how to use [**Table of Contents Generator**](https://msdn.microsoft.com/en-us/library/Ff819466(v=VS.85).aspx) (TOC Generator) component to automatically generate a table of contents for a video file.
+This topic demonstrates how to use [**Table of Contents Generator**](https://msdn.microsoft.com/library/Ff819466(v=VS.85).aspx) (TOC Generator) component to automatically generate a table of contents for a video file.
 
 TOC Generator is a DirectX Media Object (DMO). To use the TOC Generator DMO, build a DirectX filter graph that has a video file as its source. Insert the TOC Generator DMO into the filter graph, and run the graph. You can then obtain the automatically generated table of contents from the TOC Generator DMO.
 
 The following procedure gives the steps in more detail.
 
-1.  Call [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create a Filter Graph object (**CLSID\_FilterGraph**) and obtain an [**IGraphBuilder**](https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx) interface.
-2.  Call [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create a DMO Wrapper Filter object (**CLSID\_DMOWrapperFilter**) and obtain an [**IDMOWrapperFilter**](https://msdn.microsoft.com/en-us/library/Dd406848(v=VS.85).aspx) interface.
-3.  Pass **CLSID\_CTocGeneratorDmo** to the [**Init**](https://msdn.microsoft.com/en-us/library/Dd406849(v=VS.85).aspx) method of your DMO wrapper filter. This creates a TOC Generator DMO and wraps it in your DMO wrapper filter.
-4.  Call the [**AddFilter**](https://msdn.microsoft.com/en-us/library/Dd390016(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx) interface to add the wrapped TOC Generator DMO to the filter graph.
+1.  Call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create a Filter Graph object (**CLSID\_FilterGraph**) and obtain an [**IGraphBuilder**](https://msdn.microsoft.com/library/Dd390085(v=VS.85).aspx) interface.
+2.  Call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create a DMO Wrapper Filter object (**CLSID\_DMOWrapperFilter**) and obtain an [**IDMOWrapperFilter**](https://msdn.microsoft.com/library/Dd406848(v=VS.85).aspx) interface.
+3.  Pass **CLSID\_CTocGeneratorDmo** to the [**Init**](https://msdn.microsoft.com/library/Dd406849(v=VS.85).aspx) method of your DMO wrapper filter. This creates a TOC Generator DMO and wraps it in your DMO wrapper filter.
+4.  Call the [**AddFilter**](https://msdn.microsoft.com/library/Dd390016(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/library/Dd390085(v=VS.85).aspx) interface to add the wrapped TOC Generator DMO to the filter graph.
     > [!Note]  
-    > [**IGraphBuilder**](https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx) inherits from [**IFilterGraph**](https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx).
+    > [**IGraphBuilder**](https://msdn.microsoft.com/library/Dd390085(v=VS.85).aspx) inherits from [**IFilterGraph**](https://msdn.microsoft.com/library/Dd389989(v=VS.85).aspx).
 
      
 
-5.  Call the [**AddSourceFilter**](https://msdn.microsoft.com/en-us/library/Dd390087(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx) interface to create a souce filter and add it to the graph.
-6.  Enumerate pins on the DMO wrapper filter and the source filter. This involves obtaining [**IEnumPins**](https://msdn.microsoft.com/en-us/library/Dd376610(v=VS.85).aspx) interfaces and [**IPin**](https://msdn.microsoft.com/en-us/library/Dd390397(v=VS.85).aspx) interfaces.
-7.  Connect the source filter and the wrapper filter by calling the [**Connect**](https://msdn.microsoft.com/en-us/library/Dd390088(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx) interface.
-8.  Complete the graph by calling the [**Render**](https://msdn.microsoft.com/en-us/library/Dd390089(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx) interface.
-9.  Run the graph ([**IMediaControl::Run**](https://msdn.microsoft.com/en-us/library/Dd390177(v=VS.85).aspx)), and wait for it to complete ([**IMediaEvent::WaitForCompletion**](https://msdn.microsoft.com/en-us/library/Dd406914(v=VS.85).aspx)).
-10. Obtain an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface on your DMO filter wrapper, and get the value of the [**MFPKEY\_TOCGENERATOR\_TOCREADY**](https://msdn.microsoft.com/en-us/library/Ff819466(v=VS.85).aspx) property. Repeat if necessary until the table of contents is ready.
-11. Use your [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface to get the value of the [**MFPKEY\_TOCGENERATOR\_TOCOBJECT**](https://msdn.microsoft.com/en-us/library/Ff819466(v=VS.85).aspx) property. This property is an [**IToc**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc) interface that represents the automatically generated table of contents.
+5.  Call the [**AddSourceFilter**](https://msdn.microsoft.com/library/Dd390087(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/library/Dd390085(v=VS.85).aspx) interface to create a souce filter and add it to the graph.
+6.  Enumerate pins on the DMO wrapper filter and the source filter. This involves obtaining [**IEnumPins**](https://msdn.microsoft.com/library/Dd376610(v=VS.85).aspx) interfaces and [**IPin**](https://msdn.microsoft.com/library/Dd390397(v=VS.85).aspx) interfaces.
+7.  Connect the source filter and the wrapper filter by calling the [**Connect**](https://msdn.microsoft.com/library/Dd390088(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/library/Dd390085(v=VS.85).aspx) interface.
+8.  Complete the graph by calling the [**Render**](https://msdn.microsoft.com/library/Dd390089(v=VS.85).aspx) method of your [**IGraphBuilder**](https://msdn.microsoft.com/library/Dd390085(v=VS.85).aspx) interface.
+9.  Run the graph ([**IMediaControl::Run**](https://msdn.microsoft.com/library/Dd390177(v=VS.85).aspx)), and wait for it to complete ([**IMediaEvent::WaitForCompletion**](https://msdn.microsoft.com/library/Dd406914(v=VS.85).aspx)).
+10. Obtain an [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface on your DMO filter wrapper, and get the value of the [**MFPKEY\_TOCGENERATOR\_TOCREADY**](https://msdn.microsoft.com/library/Ff819466(v=VS.85).aspx) property. Repeat if necessary until the table of contents is ready.
+11. Use your [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface to get the value of the [**MFPKEY\_TOCGENERATOR\_TOCOBJECT**](https://msdn.microsoft.com/library/Ff819466(v=VS.85).aspx) property. This property is an [**IToc**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc) interface that represents the automatically generated table of contents.
 
 The following code demonstrates the procedure for generating a table of contents automatically. The code uses three helper functions ([**BuildGraph**](buildgraph-method-for-generating-a-table-of-contents.md), [**RunGraphAndWait**](rungraphandwait-method-for-generating-a-table-of-contents.md), and [**GetToc**](gettoc-method-for-generating-a-table-of-contents.md)) that are shown on other pages of this documentation.
 

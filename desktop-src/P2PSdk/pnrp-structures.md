@@ -22,7 +22,7 @@ The PNRP Namespace Provider API uses the following structures:
 | [**PNRP\_CLOUD\_ID**](/windows/desktop/api/Pnrpdef/ns-pnrpdef-pnrp_cloud_id)                              | Contains the values that define a network cloud.                                                                                                                    |
 | [**PNRPCLOUDINFO**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpcloudinfo)                                | Pointed to by the **lpBlob** member of the [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure.                                                            |
 | [**PNRPINFO\_V1**](/windows/desktop/api/Pnrpns/ns-pnrpns-pnrpinfo_v1)                                      | Pointed to by the **lpBlob** member of the [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure                                                             |
-| [**PNRPINFO\_V2**](https://msdn.microsoft.com/en-us/library/Aa371671(v=VS.85).aspx)                                   | Pointed to by the **lpBlob** member of the [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure, and provides support for application-specific opaque data. |
+| [**PNRPINFO\_V2**](https://msdn.microsoft.com/library/Aa371671(v=VS.85).aspx)                                   | Pointed to by the **lpBlob** member of the [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure, and provides support for application-specific opaque data. |
 
 
 

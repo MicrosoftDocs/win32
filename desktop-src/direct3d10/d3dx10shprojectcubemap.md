@@ -42,7 +42,7 @@ HRESULT D3DX10SHProjectCubeMap(
 *Order* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Order of the SH evaluation, generates Order^2 coefs, degree is Order-1.
 
@@ -60,7 +60,7 @@ Cubemap that is going to be projected into spherical harmonics. See [**ID3D10Tex
 *pROut* 
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Output SH vector for red.
 
@@ -69,7 +69,7 @@ Output SH vector for red.
 *pGOut* 
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Output SH vector for green.
 
@@ -78,7 +78,7 @@ Output SH vector for green.
 *pBOut* 
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Output SH vector for blue.
 
@@ -86,7 +86,7 @@ Output SH vector for blue.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

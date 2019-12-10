@@ -16,8 +16,8 @@ Lists the 4D vector transformation functions.
 
 | Topic                                                                   | Description                                                     |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------|
-| [**XMVector4Transform**](https://msdn.microsoft.com/en-us/library/Ee420986(v=VS.85).aspx)<br/>             | Transforms a 4D vector by a matrix.<br/>                  |
-| [**XMVector4TransformStream**](https://msdn.microsoft.com/en-us/library/Hh404783(v=VS.85).aspx)<br/> | Transforms a stream of 4D vectors by a given matrix.<br/> |
+| [**XMVector4Transform**](https://msdn.microsoft.com/library/Ee420986(v=VS.85).aspx)<br/>             | Transforms a 4D vector by a matrix.<br/>                  |
+| [**XMVector4TransformStream**](https://msdn.microsoft.com/library/Hh404783(v=VS.85).aspx)<br/> | Transforms a stream of 4D vectors by a given matrix.<br/> |
 
 
 

@@ -29,7 +29,7 @@ api_location:
 
 The abstract base class for all concrete raw performance counter classes.
 
-To appear in System Monitor, performance counter classes must be added to the root\\cimv2 namespace and derived from **Win32\_PerfRawData**. Data in these classes are provided by the high-performance [Performance Counter Provider](https://msdn.microsoft.com/en-us/library/Aa392739(v=VS.85).aspx).
+To appear in System Monitor, performance counter classes must be added to the root\\cimv2 namespace and derived from **Win32\_PerfRawData**. Data in these classes are provided by the high-performance [Performance Counter Provider](https://msdn.microsoft.com/library/Aa392739(v=VS.85).aspx).
 
 The following properties are inherited when a class is derived from **Win32\_PerfRawData**:
 
@@ -83,7 +83,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description for the statistic or metric.
@@ -167,7 +167,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Label by which the statistic or metric is known. When subclassed, this property can be overridden to be a key property.
@@ -231,7 +231,7 @@ This property is inherited from [**Win32\_Perf**](win32-perf.md).
 
 The **Win32\_PerfRawData** class is derived from [**Win32\_Perf**](win32-perf.md), which is derived from [**CIM\_StatisticalInformation**](cim-statisticalinformation.md).
 
-All classes derived from [**Win32\_Perf**](win32-perf.md) are designed to be used with a [*refresher*](https://msdn.microsoft.com/en-us/library/Aa390834(v=VS.85).aspx) object. For more information about how to create and use a refresher object in the C++ programming language, see [Accessing Performance Data in C++](https://msdn.microsoft.com/en-us/library/Aa384724(v=VS.85).aspx). For more information about how to create and use a refresher object in a script programming language, see [Refreshing WMI Data in Scripts](https://msdn.microsoft.com/en-us/library/Aa393026(v=VS.85).aspx).
+All classes derived from [**Win32\_Perf**](win32-perf.md) are designed to be used with a [*refresher*](https://msdn.microsoft.com/library/Aa390834(v=VS.85).aspx) object. For more information about how to create and use a refresher object in the C++ programming language, see [Accessing Performance Data in C++](https://msdn.microsoft.com/library/Aa384724(v=VS.85).aspx). For more information about how to create and use a refresher object in a script programming language, see [Refreshing WMI Data in Scripts](https://msdn.microsoft.com/library/Aa393026(v=VS.85).aspx).
 
 ## Requirements
 
@@ -257,13 +257,13 @@ All classes derived from [**Win32\_Perf**](win32-perf.md) are designed to be use
 [Performance Counter Classes](performance-counter-classes.md)
 </dt> <dt>
 
-[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/en-us/library/Aa384740(v=VS.85).aspx)
+[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/library/Aa384740(v=VS.85).aspx)
 </dt> <dt>
 
-[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/en-us/library/Aa394597(v=VS.85).aspx)
+[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/library/Aa394597(v=VS.85).aspx)
 </dt> <dt>
 
-[Accessing Performance Data in Script](https://msdn.microsoft.com/en-us/library/Aa384728(v=VS.85).aspx)
+[Accessing Performance Data in Script](https://msdn.microsoft.com/library/Aa384728(v=VS.85).aspx)
 </dt> </dl>
 
  

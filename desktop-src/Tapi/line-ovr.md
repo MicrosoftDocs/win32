@@ -20,7 +20,7 @@ Although the three lines in the preceding illustration are composed of different
 
 The line device class is a device-independent representation of a physical line device, such as a modem. It can contain one or more identical communications channels (used for signaling and/or information) between the application and the switch or network. Because channels belonging to a single line have identical capabilities, they are interchangeable. In many cases (as with POTS), a service provider will model a line as having only one channel. Other technologies, like ISDN, offer more channels, and the service provider should treat them accordingly.
 
-**TAPI 2.x:** Applications discover line capabilities using the [**lineGetDevCaps**](https://msdn.microsoft.com/en-us/library/ms735735(v=VS.85).aspx) function. Version negotiation using the [**lineNegotiateAPIVersion**](https://msdn.microsoft.com/en-us/library/ms736002(v=VS.85).aspx) [**lineNegotiateExtVersion**](https://msdn.microsoft.com/en-us/library/ms736003(v=VS.85).aspx) functions must have been previously called.
+**TAPI 2.x:** Applications discover line capabilities using the [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx) function. Version negotiation using the [**lineNegotiateAPIVersion**](https://msdn.microsoft.com/library/ms736002(v=VS.85).aspx) [**lineNegotiateExtVersion**](https://msdn.microsoft.com/library/ms736003(v=VS.85).aspx) functions must have been previously called.
 
 **TAPI 3.x:** Applications rely primarily on the address concept.
 

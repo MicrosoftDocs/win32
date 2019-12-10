@@ -35,7 +35,7 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 ## Remarks
 
 > [!Note]  
-> [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
+> [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 ```cpp
 typedef HRESULT (*CREATEHARDWAREEVENTMONIKER)(REFCLSID clsid, LPCWSTR pszEventHandler, IMoniker **ppmoniker);
@@ -73,7 +73,7 @@ HRESULT RegisterComponent(IUnknown* punk, DWORD* dpwToken)
 }
 ```
 
-The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/en-us/library/ms680747(v=VS.85).aspx) requires that the component have the following **AppID** information in the registry.
+The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/library/ms680747(v=VS.85).aspx) requires that the component have the following **AppID** information in the registry.
 
 ```
 HKEY_CLASSES_ROOT

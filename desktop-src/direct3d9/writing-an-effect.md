@@ -14,7 +14,7 @@ The effect syntax is detailed in the [Effect Format (Direct3D 9)](dx9-graphics-r
 
 ## Effect Example
 
-Effects contain three types of state: shader state, texture and sampler state, and pipeline state. Here is an example of an effect from the [BasicHLSL Sample](https://msdn.microsoft.com/en-us/library/Ee416223(v=VS.85).aspx):
+Effects contain three types of state: shader state, texture and sampler state, and pipeline state. Here is an example of an effect from the [BasicHLSL Sample](https://msdn.microsoft.com/library/Ee416223(v=VS.85).aspx):
 
 
 ```

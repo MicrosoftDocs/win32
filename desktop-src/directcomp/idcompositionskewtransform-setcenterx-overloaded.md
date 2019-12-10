@@ -24,8 +24,8 @@ Changes or animates the value of the CenterX property of a 2D skew transform. Th
 
 | Method                                                                                                       | Description                                            |
 |:-------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterX(float)**](https://msdn.microsoft.com/en-us/library/Hh449071(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
-| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449073(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
+| [**SetCenterX(float)**](https://msdn.microsoft.com/library/Hh449071(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
+| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449073(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterX property of a 2D skew transform. Th
 
 <dl> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
 </dt> </dl>
 
 �

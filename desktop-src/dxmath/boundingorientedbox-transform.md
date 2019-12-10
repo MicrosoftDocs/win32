@@ -15,7 +15,7 @@ api_location:
 
 # BoundingOrientedBox.Transform methods
 
-Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).
+Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).
 
 ### Overload list
 
@@ -23,8 +23,8 @@ Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/librar
 
 | Method                                                                                                                   | Description                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh855951(v=VS.85).aspx)                | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855952(v=VS.85).aspx) | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://msdn.microsoft.com/library/Hh855951(v=VS.85).aspx)                | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh855952(v=VS.85).aspx) | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -38,7 +38,7 @@ Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/librar
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
 </dt> </dl>
 
  

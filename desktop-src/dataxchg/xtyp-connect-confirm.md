@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_CONNECT\_CONFIRM transaction
 
-A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_CONNECT\_CONFIRM** transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle. The system sends this transaction as a result of a previous [**XTYP\_CONNECT**](xtyp-connect.md) or [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction.
+A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_CONNECT\_CONFIRM** transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle. The system sends this transaction as a result of a previous [**XTYP\_CONNECT**](xtyp-connect.md) or [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction.
 
 
 ```C++

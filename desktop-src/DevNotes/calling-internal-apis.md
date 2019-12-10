@@ -12,7 +12,7 @@ The Winternl.h header file exposes prototypes of internal Windows APIs. There is
 
 The functions and structures in Winternl.h are internal to the operating system and subject to change from one release of Windows to the next, and possibly even between service packs for each release. To maintain the compatibility of your application, you should use the equivalent public functions instead. Further information is available in the header file, Winternl.h, and the documentation for each function.
 
-If you do use these functions, you can access them through run-time dynamic linking using [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
+If you do use these functions, you can access them through run-time dynamic linking using [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
 
  
 

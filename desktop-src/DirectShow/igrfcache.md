@@ -25,7 +25,7 @@ The `IGrfCache` interface is not supported.
 
 ## Members
 
-The **IGrfCache** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
+The **IGrfCache** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
 
 ## See also
 

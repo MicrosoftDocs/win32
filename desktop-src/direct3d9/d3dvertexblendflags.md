@@ -104,7 +104,7 @@ Geometry blending (multimatrix vertex blending) requires that your application u
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
 </dt> <dt>
 
 [**D3DTS\_WORLD**](d3dts-world.md)

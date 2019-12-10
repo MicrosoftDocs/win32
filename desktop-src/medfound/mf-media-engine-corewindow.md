@@ -16,7 +16,7 @@ Core window.
 
 ## Remarks
 
-For information more information see [**ICoreWindow interface**](https://msdn.microsoft.com/en-us/library/BR208296(v=Win.10).aspx).
+For information more information see [**ICoreWindow interface**](https://msdn.microsoft.com/library/BR208296(v=Win.10).aspx).
 
 ## Requirements
 

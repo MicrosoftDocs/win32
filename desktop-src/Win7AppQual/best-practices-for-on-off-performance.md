@@ -50,9 +50,9 @@ System extensions like drivers, applications, and services can have a significan
 -   -   [Windows On/Off Transitions Solutions Guide](https://go.microsoft.com/fwlink/p/?linkid=163850)
 -   [On/Off Transition Performance Analysis of Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=144554)
 -   [Windows Performance Analysis](https://go.microsoft.com/fwlink/p/?linkid=147307)
--   [Windows Performance Toolkit documentation on MSDN](https://msdn.microsoft.com/en-us/library/Ff191077(v=VS.85).aspx)
+-   [Windows Performance Toolkit documentation on MSDN](https://msdn.microsoft.com/library/Ff191077(v=VS.85).aspx)
 -   [Windows Performance Analysis forum](https://go.microsoft.com/fwlink/p/?linkid=169713)
--   [Event Tracing for Windows on MSDN](https://msdn.microsoft.com/en-us/library/Bb968803(v=VS.85).aspx)
+-   [Event Tracing for Windows on MSDN](https://msdn.microsoft.com/library/Bb968803(v=VS.85).aspx)
 
  
 

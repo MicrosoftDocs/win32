@@ -25,7 +25,7 @@ Retrieves information about the host machine. An **IVMHostInfo** object is retur
 
 ## Members
 
-The **IVMHostInfo** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHostInfo** also has these types of members:
+The **IVMHostInfo** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHostInfo** also has these types of members:
 
 -   [Properties](#properties)
 

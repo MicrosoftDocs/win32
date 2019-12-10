@@ -40,7 +40,7 @@ HRESULT D3DXGetShaderConstantTableEx(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the function DWORD stream.
 
@@ -49,7 +49,7 @@ Pointer to the function DWORD stream.
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Use the D3DXCONSTTABLE\_LARGEADDRESSAWARE flag to access up to 4 GB of virtual address space (instead of the default of 2 GB). If you do not need the additional virtual address space, use [**D3DXGetShaderConstantTable**](d3dxgetshaderconstanttable.md).
 
@@ -66,7 +66,7 @@ Returns the constant table interface (see [**ID3DXConstantTable**](id3dxconstant
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

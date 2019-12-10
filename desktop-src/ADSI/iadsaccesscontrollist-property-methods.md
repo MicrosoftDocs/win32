@@ -213,7 +213,7 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)
 </dt> <dt>
 
-[**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx)
+[**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx)
 </dt> <dt>
 
 [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry)

@@ -40,7 +40,7 @@ The low-order word specifies whether the window is being activated or deactivate
 
 | Value                                                                                                                                                                                                                   | Meaning                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WA_ACTIVE"></span><span id="wa_active"></span><dl> <dt>**WA\_ACTIVE**</dt> <dt>1</dt> </dl>                | Activated by some method other than a mouse click (for example, by a call to the [**SetActiveWindow**](https://msdn.microsoft.com/en-us/library/ms646311(v=VS.85).aspx) function or by use of the keyboard interface to select the window).<br/> |
+| <span id="WA_ACTIVE"></span><span id="wa_active"></span><dl> <dt>**WA\_ACTIVE**</dt> <dt>1</dt> </dl>                | Activated by some method other than a mouse click (for example, by a call to the [**SetActiveWindow**](https://msdn.microsoft.com/library/ms646311(v=VS.85).aspx) function or by use of the keyboard interface to select the window).<br/> |
 | <span id="WA_CLICKACTIVE"></span><span id="wa_clickactive"></span><dl> <dt>**WA\_CLICKACTIVE**</dt> <dt>2</dt> </dl> | Activated by a mouse click.<br/>                                                                                                                                                                     |
 | <span id="WA_INACTIVE"></span><span id="wa_inactive"></span><dl> <dt>**WA\_INACTIVE**</dt> <dt>0</dt> </dl>          | Deactivated.<br/>                                                                                                                                                                                    |
 
@@ -87,7 +87,7 @@ If the window is being activated and is not minimized, the [**DefWindowProc**](h
 [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**SetActiveWindow**](https://msdn.microsoft.com/en-us/library/ms646311(v=VS.85).aspx)
+[**SetActiveWindow**](https://msdn.microsoft.com/library/ms646311(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md)

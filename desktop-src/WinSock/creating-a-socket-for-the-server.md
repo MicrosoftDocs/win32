@@ -20,7 +20,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the se
     -   **AI\_PASSIVE** flag indicates the caller intends to use the returned socket address structure in a call to the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) function. When the **AI\_PASSIVE** flag is set and *nodename* parameter to the [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function is a **NULL** pointer, the IP address portion of the socket address structure is set to **INADDR\_ANY** for IPv4 addresses or **IN6ADDR\_ANY\_INIT** for IPv6 addresses.
     -   27015 is the port number associated with the server that the client will connect to.
 
-    The [**addrinfo**](https://msdn.microsoft.com/en-us/library/ms737530(v=VS.85).aspx) structure is used by the [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function.
+    The [**addrinfo**](https://msdn.microsoft.com/library/ms737530(v=VS.85).aspx) structure is used by the [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function.
 
     ```C++
     #define DEFAULT_PORT "27015"

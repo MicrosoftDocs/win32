@@ -48,7 +48,7 @@ This method does not return a value.
 
 ## C++
 
-See [**Log**](https://msdn.microsoft.com/en-us/library/Aa369274(v=VS.85).aspx) function.
+See [**Log**](https://msdn.microsoft.com/library/Aa369274(v=VS.85).aspx) function.
 
 ## Requirements
 

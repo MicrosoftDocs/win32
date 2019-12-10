@@ -307,7 +307,7 @@ The Default Programs infrastructure is not available on any Windows operating sy
 
 To support an upgrade from Windows XP to Windows Vista or later, applications should add all the registry entries required for Default Programs even when they are installing on a computer running Windows XP. The registration will have no effect on a computer running Windows XP, but if the computer is later upgraded, the application will be already registered and able to take advantage of the framework.
 
-For more information, see [**OSVERSIONINFO**](https://msdn.microsoft.com/en-us/library/ms724834(v=VS.85).aspx).
+For more information, see [**OSVERSIONINFO**](https://msdn.microsoft.com/library/ms724834(v=VS.85).aspx).
 
 ## Additional Resources
 

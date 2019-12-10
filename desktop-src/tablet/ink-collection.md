@@ -64,7 +64,7 @@ The [**InkOverlay**](inkoverlay-class.md) object includes basic printing support
 
 The [**InkOverlay**](inkoverlay-class.md) object enables users to use a lasso tool to select ink objects that are contained in a traced region. Users can also select ink by tapping any [**Ink**](inkdisp-class.md) object.
 
-Use the [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection) property to return a [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that you can use to manipulate a user's selection.
+Use the [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection) property to return a [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection that you can use to manipulate a user's selection.
 
 When an [**Ink**](inkdisp-class.md) object or a set of **Ink** objects is selected, sizing handles appear at the four corners of the ink's bounding box and at all midpoints between adjacent corners. If the user drags anywhere within the selected region, the ink becomes movable inside the control.
 

@@ -25,10 +25,10 @@ Computes the area of the geometry.
 
 | Method                                                                                                                      | Description                                                                                                                                      |
 |:----------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ComputeArea(D2D1\_MATRIX\_3X2\_F&,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316651(v=VS.85).aspx)              | Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>    |
-| [**ComputeArea(D2D1\_MATRIX\_3X2\_F\*,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316644(v=VS.85).aspx)             | Computes the area of the geometry after it has been transformed by the specified matrix and flattened by using the default tolerance.<br/> |
-| [**ComputeArea(D2D1\_MATRIX\_3X2\_F&,FLOAT,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316648(v=VS.85).aspx)  | Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/>  |
-| [**ComputeArea(D2D1\_MATRIX\_3X2\_F\*,FLOAT,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316641(v=VS.85).aspx) | Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/>  |
+| [**ComputeArea(D2D1\_MATRIX\_3X2\_F&,FLOAT\*)**](https://msdn.microsoft.com/library/Dd316651(v=VS.85).aspx)              | Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>    |
+| [**ComputeArea(D2D1\_MATRIX\_3X2\_F\*,FLOAT\*)**](https://msdn.microsoft.com/library/Dd316644(v=VS.85).aspx)             | Computes the area of the geometry after it has been transformed by the specified matrix and flattened by using the default tolerance.<br/> |
+| [**ComputeArea(D2D1\_MATRIX\_3X2\_F&,FLOAT,FLOAT\*)**](https://msdn.microsoft.com/library/Dd316648(v=VS.85).aspx)  | Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/>  |
+| [**ComputeArea(D2D1\_MATRIX\_3X2\_F\*,FLOAT,FLOAT\*)**](https://msdn.microsoft.com/library/Dd316641(v=VS.85).aspx) | Computes the area of the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/>  |
 
 
 
@@ -64,7 +64,7 @@ hr = m_pCircleGeometry1->ComputeArea(
 
 <dl> <dt>
 
-[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
+[**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

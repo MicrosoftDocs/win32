@@ -12,7 +12,7 @@ Device-specific buffers may be part of a service provider's implementation of ex
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx) (**dwDevSpecificSize** and **dwDevSpecificOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/en-us/library/ms735527(v=VS.85).aspx)).
+**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx) (**dwDevSpecificSize** and **dwDevSpecificOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx)).
 
 **TAPI 3.x:** See [**ITCallInfo::GetCallInfoBuffer**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer) (**CIB\_DEVSPECIFICBUFFER** member of [**CALLINFO\_BUFFER**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_buffer)).
 

@@ -73,7 +73,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 This method searches the current item's tree of sub-items using the name as the search key. If **IWiaItem2::FindItemByName** finds the item specified by *bstrFullItemName*, it stores the address of a pointer to the [**IWiaItem2**](-wia-iwiaitem2.md) interface of the item in the *ppIWiaItem2* parameter.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 ## Requirements
 

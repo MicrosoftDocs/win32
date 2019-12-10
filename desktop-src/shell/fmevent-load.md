@@ -39,7 +39,7 @@ The address of an [**FMS\_LOAD**](fms-load.md) structure that specifies the menu
 
 ## Return value
 
-An extension DLL must return **TRUE** to continue loading the DLL. If the DLL returns **FALSE**, File Manager calls the [**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx) function and ends any communication with the extension DLL.
+An extension DLL must return **TRUE** to continue loading the DLL. If the DLL returns **FALSE**, File Manager calls the [**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx) function and ends any communication with the extension DLL.
 
 ## Remarks
 

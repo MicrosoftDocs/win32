@@ -17,7 +17,7 @@ The [**IScheduledWorkItem**](/windows/desktop/api/Mstask/nn-mstask-ischeduledwor
 
  
 
-Whenever you modify a work item, you must call the [**IPersistFile::Save**](https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx) object to save the modified work item to disk. The [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface is a standard COM interface that is supported by the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface.
+Whenever you modify a work item, you must call the [**IPersistFile::Save**](https://msdn.microsoft.com/library/ms693701(v=VS.85).aspx) object to save the modified work item to disk. The [**IPersistFile**](https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx) interface is a standard COM interface that is supported by the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface.
 
 | For examples of                                                            | See                                                                                  |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|

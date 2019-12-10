@@ -39,7 +39,7 @@ HRESULT ActionInformation(
 *value* \[out\]
 </dt> <dd>
 
-Receives a reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx) interface.
+Receives a reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx) interface.
 
 </dd> </dl>
 

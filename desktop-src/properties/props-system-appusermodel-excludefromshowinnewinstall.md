@@ -41,7 +41,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx)
+[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/library/Dd378459(v=VS.85).aspx)
 </dt> <dt>
 
 [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx)

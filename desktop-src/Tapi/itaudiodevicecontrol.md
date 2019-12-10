@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The **ITAudioDeviceControl** interface exposes methods that enable an application to get and set parameters for control of an audio device.
 
-This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 MSP](h323-msp.md). It is exposed when a call uses these service providers or a third party service provider that implements this interface. To obtain a pointer to the **ITAudioDeviceControl** interface, call **QueryInterface** on the [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) interface that controls the audio device corresponding to the stream. The media type of the **ITStream** interface must be audio for the **ITAudioDeviceControl** interface to be exposed.
+This interface is implemented by the [IPConf MSP](ipconf-msp.md) and the [H323 MSP](h323-msp.md). It is exposed when a call uses these service providers or a third party service provider that implements this interface. To obtain a pointer to the **ITAudioDeviceControl** interface, call **QueryInterface** on the [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface that controls the audio device corresponding to the stream. The media type of the **ITStream** interface must be audio for the **ITAudioDeviceControl** interface to be exposed.
 
 ## Members
 

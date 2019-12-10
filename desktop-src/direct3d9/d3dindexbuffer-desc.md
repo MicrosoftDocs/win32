@@ -52,18 +52,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as an index buffer.
+Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as an index buffer.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -90,18 +90,18 @@ Combination of one or more of the following flags, specifying the usage for this
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this index buffer.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this index buffer.
 
 </dd> <dt>
 
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

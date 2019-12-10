@@ -56,7 +56,7 @@ Pointer to a source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The dot product of two quaternions.
 

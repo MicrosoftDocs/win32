@@ -121,7 +121,7 @@ Indicates whether a Media Service Provider (MSP) is associated with the line. Th
 
 
 
-Specifies whether [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall), [**lineDial**](/windows/desktop/api/Tapi/nf-tapi-linedial), [**TSPI\_lineMakeCall**](https://msdn.microsoft.com/en-us/library/ms725576(v=VS.85).aspx), or [**TSPI\_lineDial**](https://msdn.microsoft.com/en-us/library/ms725542(v=VS.85).aspx) is able to deal with multiple addresses at once (as for inverse multiplexing).
+Specifies whether [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall), [**lineDial**](/windows/desktop/api/Tapi/nf-tapi-linedial), [**TSPI\_lineMakeCall**](https://msdn.microsoft.com/library/ms725576(v=VS.85).aspx), or [**TSPI\_lineDial**](https://msdn.microsoft.com/library/ms725542(v=VS.85).aspx) is able to deal with multiple addresses at once (as for inverse multiplexing).
 
 
 </dt> </dl> </dd> <dt>
@@ -131,7 +131,7 @@ Specifies whether [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakec
 
 
 
-Indicates whether [provider-specific Interfaces](https://msdn.microsoft.com/en-us/library/ms734165(v=VS.85).aspx) have been implemented. This flag is exposed only to applications that negotiate a TAPI version of 3.0 or higher.
+Indicates whether [provider-specific Interfaces](https://msdn.microsoft.com/library/ms734165(v=VS.85).aspx) have been implemented. This flag is exposed only to applications that negotiate a TAPI version of 3.0 or higher.
 
 
 </dt> </dl> </dd> </dl>

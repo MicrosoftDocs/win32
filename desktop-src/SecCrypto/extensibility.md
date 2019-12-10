@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Extensibility
 
-Certificate Services supports [*X.509*](https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx) certificate extensions. Policy modules can add or modify extensions, and an exit module can retrieve these extensions.
+Certificate Services supports [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) certificate extensions. Policy modules can add or modify extensions, and an exit module can retrieve these extensions.
 
 See [Extension Handlers](extension-handlers.md) for more information.
 

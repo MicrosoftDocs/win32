@@ -36,7 +36,7 @@ This method has no parameters.
 
 ## Return value
 
-This method returns an [**EKU**](eku.md) object that indicates the extended key usage setting of the [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). The EKU setting establishes a certificate's valid use. Only a single **EKU** object can be set for each certificate.
+This method returns an [**EKU**](eku.md) object that indicates the extended key usage setting of the [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). The EKU setting establishes a certificate's valid use. Only a single **EKU** object can be set for each certificate.
 
 ## Remarks
 

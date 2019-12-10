@@ -62,7 +62,7 @@ The installer attempts to open the module in the language specified by *Language
 
 ### C++
 
-See [**OpenModule**](https://msdn.microsoft.com/en-us/library/Aa369278(v=VS.85).aspx) function.
+See [**OpenModule**](https://msdn.microsoft.com/library/Aa369278(v=VS.85).aspx) function.
 
 ## Requirements
 

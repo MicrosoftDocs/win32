@@ -25,7 +25,7 @@ Defines the collection of parallel ports within the virtual machine. To obtain a
 
 ## Members
 
-The **IVMParallelPortCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPortCollection** also has these types of members:
+The **IVMParallelPortCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPortCollection** also has these types of members:
 
 -   [Properties](#properties)
 

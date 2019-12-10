@@ -219,7 +219,7 @@ The name of the event tracing log file is the second null-terminated string foll
 **TimeZone**
 </dt> <dd>
 
-A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
+A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
 
 </dd> <dt>
 
@@ -283,10 +283,10 @@ The first event from any log file contains the data defined in this structure. Y
 [**EVENT\_TRACE\_LOGFILE**](event-trace-logfile.md)
 </dt> <dt>
 
-[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)
+[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/Aa383713(v=VS.85).aspx)
 </dt> <dt>
 
-[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms725481(v=VS.85).aspx)
+[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms725481(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # CSPs and the Cryptography Process
 
-[*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions use [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs) to perform encryption and decryption, and to provide key storage and security. These CSPs are independent modules. Ideally, CSPs are written to be independent of a particular application, so that any application will run with a variety of CSPs. In reality, however, some applications have specific requirements that require a customized CSP. This compares to the Windows [*GDI*](https://msdn.microsoft.com/en-us/library/ms721584(v=VS.85).aspx) model. CSPs are analogous to graphics device drivers.
+[*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions use [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs) to perform encryption and decryption, and to provide key storage and security. These CSPs are independent modules. Ideally, CSPs are written to be independent of a particular application, so that any application will run with a variety of CSPs. In reality, however, some applications have specific requirements that require a customized CSP. This compares to the Windows [*GDI*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) model. CSPs are analogous to graphics device drivers.
 
 The quality of protection for keys within the system is a design parameter of the CSP and not of the system as a whole. This allows an application to run in a variety of security contexts without modification.
 
@@ -18,9 +18,9 @@ The following three design rules apply:
 
 -   Applications cannot directly access keying material. Because all keying material is generated within the CSP and used by the application through opaque handles, there is no risk of an application or its associated DLLs either divulging keying material or choosing keying material from poor random sources.
 -   Applications cannot specify the details of cryptographic operations. The CSP interface allows an application to choose an encryption or signature algorithm, but the implementation of every cryptographic operation is done by the CSP.
--   Applications do not handle user [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) or other user authentication data. User authentication is done by the CSP; therefore, future CSPs with advanced authentication capabilities, such as biometric inputs, will function without needing to change the application authentication model.
+-   Applications do not handle user [*credentials*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) or other user authentication data. User authentication is done by the CSP; therefore, future CSPs with advanced authentication capabilities, such as biometric inputs, will function without needing to change the application authentication model.
 
-At a minimum, a CSP consists of a dynamic-link library (DLL) and a [*signature file*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). The signature file is necessary to ensure that the [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) recognizes the CSP. CryptoAPI validates this signature periodically to ensure that any tampering with the CSP is detected.
+At a minimum, a CSP consists of a dynamic-link library (DLL) and a [*signature file*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). The signature file is necessary to ensure that the [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) recognizes the CSP. CryptoAPI validates this signature periodically to ensure that any tampering with the CSP is detected.
 
 Some CSPs can implement a fraction of their functionality in an address-separated service called through local RPC or in hardware called through a system device driver. Isolating global key-state and central cryptographic operations in an address-separated service or in hardware keeps keys and operations safe from tampering within an application data space.
 

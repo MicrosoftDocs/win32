@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The following functions are used to handle modem connections.
 
--   [**InternetAutodial**](https://msdn.microsoft.com/en-us/library/Aa384336(v=VS.85).aspx)
--   [**InternetAutodialHangup**](https://msdn.microsoft.com/en-us/library/Aa384340(v=VS.85).aspx)
--   [**InternetDial**](https://msdn.microsoft.com/en-us/library/Aa384587(v=VS.85).aspx)
--   [**InternetGetConnectedState**](https://msdn.microsoft.com/en-us/library/Aa384702(v=VS.85).aspx)
--   [**InternetGetConnectedStateEx**](https://msdn.microsoft.com/en-us/library/Aa384705(v=VS.85).aspx)
--   [**InternetHangUp**](https://msdn.microsoft.com/en-us/library/Aa384737(v=VS.85).aspx)
--   [**InternetGoOnline**](https://msdn.microsoft.com/en-us/library/Aa384734(v=VS.85).aspx)
+-   [**InternetAutodial**](https://msdn.microsoft.com/library/Aa384336(v=VS.85).aspx)
+-   [**InternetAutodialHangup**](https://msdn.microsoft.com/library/Aa384340(v=VS.85).aspx)
+-   [**InternetDial**](https://msdn.microsoft.com/library/Aa384587(v=VS.85).aspx)
+-   [**InternetGetConnectedState**](https://msdn.microsoft.com/library/Aa384702(v=VS.85).aspx)
+-   [**InternetGetConnectedStateEx**](https://msdn.microsoft.com/library/Aa384705(v=VS.85).aspx)
+-   [**InternetHangUp**](https://msdn.microsoft.com/library/Aa384737(v=VS.85).aspx)
+-   [**InternetGoOnline**](https://msdn.microsoft.com/library/Aa384734(v=VS.85).aspx)
 
 > [!Note]  
 > WinINet dial-up functions do not support double-dial connections, SmartCard authentication, or connections that require registry-based certification.

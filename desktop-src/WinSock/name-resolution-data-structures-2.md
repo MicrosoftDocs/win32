@@ -36,7 +36,7 @@ The **lpszQueryString** member is used to supply additional, namespace-specific 
 
 The [**AFPROTOCOLS**](/windows/desktop/api/Winsock2/ns-winsock2-afprotocols) structure referenced by the **lpafpProtocols** member is used for query purposes only, and supplies a list of protocols to constrain the query. These protocols are represented as (address family, protocol) pairs, since protocol values only have meaning within the context of an address family.
 
-The array of the [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure referenced by the **lpcsaBuffer** member contain all of the information needed for either a service to use in establishing a listen, or for a client to use in establishing a connection to the service. The **LocalAddr** and **RemoteAddr** members both directly contain a [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-socket_address) structure.
+The array of the [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure referenced by the **lpcsaBuffer** member contain all of the information needed for either a service to use in establishing a listen, or for a client to use in establishing a connection to the service. The **LocalAddr** and **RemoteAddr** members both directly contain a [**SOCKET\_ADDRESS**](/windows/desktop/api/Ws2def/ns-ws2def-socket_address) structure.
 
 A service would create a socket by calling the [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) or [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) function using the tuple of *LocalAddr.lpSockaddr->sa\_family*, *iSocketType*, and *iProtocol* as parameters. A service would bind the socket to a local address by calling the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) function using *LocalAddr.lpSockaddr* and *LocalAddr.lpSockaddrLength* as parameters.
 
@@ -61,7 +61,7 @@ The entire collection of data represented in a **WSASERVICECLASSINFO** structure
 [**AFPROTOCOLS**](/windows/desktop/api/Winsock2/ns-winsock2-afprotocols)
 </dt> <dt>
 
-[**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx)
+[**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx)
 </dt> <dt>
 
 [Name Resolution Model](name-resolution-model-2.md)

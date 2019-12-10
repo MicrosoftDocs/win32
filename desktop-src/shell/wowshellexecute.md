@@ -226,7 +226,7 @@ Activates the window and displays it in its current size and position.
 
 </dt> <dd>
 
-Sets the show state based on the SW\_ flag specified in the [**STARTUPINFO**](https://msdn.microsoft.com/en-us/library/ms686331(v=VS.85).aspx) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) function by the program that started the application. An application should call [**ShowWindow**](https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx) with this flag to set the initial show state of its main window.
+Sets the show state based on the SW\_ flag specified in the [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) function by the program that started the application. An application should call [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) with this flag to set the initial show state of its main window.
 
 </dd> <dt>
 
@@ -301,7 +301,7 @@ Activates and displays a window. If the window is minimized or maximized, Window
 
 Type: **void\***
 
-Callback function used to call [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) in the 16-bit kernel.
+Callback function used to call [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) in the 16-bit kernel.
 
 </dd> </dl>
 

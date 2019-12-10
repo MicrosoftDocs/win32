@@ -46,7 +46,7 @@ Pointer to the source [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The vector's length.
 

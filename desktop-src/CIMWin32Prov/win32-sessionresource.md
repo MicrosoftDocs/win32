@@ -56,7 +56,7 @@ Data type: **Win32\_LogicalElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Antecedent")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent")
 </dt> </dl>
 
 The Antecedent reference represents resources used by this session.
@@ -72,7 +72,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Dependent")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent")
 </dt> </dl>
 
 The Dependent reference represents the session using the resource.

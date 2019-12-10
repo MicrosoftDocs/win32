@@ -21,7 +21,7 @@ The following procedure describes how to make an asynchronous call by using the 
 
 2.  Log on to the target WMI namespace.
 
-    Applications always have to call the COM function [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) during the initialization phase. If they do not do so before making an asynchronous call, WMI releases the application sink without completing the asynchronous call. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
+    Applications always have to call the COM function [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) during the initialization phase. If they do not do so before making an asynchronous call, WMI releases the application sink without completing the asynchronous call. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
 3.  Set the security for your sink.
 

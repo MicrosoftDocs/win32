@@ -46,7 +46,7 @@ A pointer to the vertex declaration. See [**D3DVERTEXELEMENT9**](d3dvertexelemen
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of elements in the vertex declaration.
 

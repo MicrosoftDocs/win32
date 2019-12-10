@@ -39,7 +39,7 @@ BOOL D3DXCheckVersion(
 *D3DSDKVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Use D3D\_SDK\_VERSION. See remarks.
 
@@ -48,7 +48,7 @@ Use D3D\_SDK\_VERSION. See remarks.
 *D3DXSDKVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Use D3DX\_SDK\_VERSION. See remarks.
 
@@ -56,7 +56,7 @@ Use D3DX\_SDK\_VERSION. See remarks.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the version of D3DX you compiled against is the version you are running with; otherwise, **FALSE** is returned.
 

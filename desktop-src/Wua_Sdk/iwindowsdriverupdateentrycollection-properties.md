@@ -14,7 +14,7 @@ The [**IWindowsDriverUpdateEntryCollection**](/windows/desktop/api/Wuapi/nn-wuap
 
 | Property                                                          | Description                                                                                                          |
 |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get__newenum) | Gets an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface that is used to enumerate the collection. |
+| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get__newenum) | Gets an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface that is used to enumerate the collection. |
 | [**Count**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get_count)        | Gets the number of elements in the collection.                                                                       |
 | [**Item**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsdriverupdateentrycollection-get_item)          | Gets an [**IWindowsDriverUpdateEntry**](/windows/desktop/api/Wuapi/nn-wuapi-iwindowsdriverupdateentry) intrface in the collection.                   |
 

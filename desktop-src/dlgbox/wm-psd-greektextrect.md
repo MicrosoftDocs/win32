@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_PSD\_GREEKTEXTRECT message
 
-Notifies the hook procedure of a **Page Setup** dialog box, [*PagePaintHook*](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx), that the dialog box is about to draw Greek text inside the margin rectangle of the sample page.
+Notifies the hook procedure of a **Page Setup** dialog box, [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx), that the dialog box is about to draw Greek text inside the margin rectangle of the sample page.
 
 
 ```C++
@@ -54,7 +54,7 @@ If the hook procedure returns **FALSE**, the dialog box draws the Greek text por
 
 ## Remarks
 
-The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. When you call the [**PageSetupDlg**](https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx) function, you can provide a [*PagePaintHook*](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx) hook procedure to customize the appearance of the sample page. Whenever the dialog box is about to draw the contents of the sample page, the dialog box sends a sequence of messages to the hook procedure.
+The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. When you call the [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) function, you can provide a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure to customize the appearance of the sample page. Whenever the dialog box is about to draw the contents of the sample page, the dialog box sends a sequence of messages to the hook procedure.
 
 ## Requirements
 
@@ -75,10 +75,10 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 **Reference**
 </dt> <dt>
 
-[*PagePaintHook*](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx)
+[*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx)
 </dt> <dt>
 
-[**PageSetupDlg**](https://msdn.microsoft.com/en-us/library/ms646937(v=VS.85).aspx)
+[**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_PSD\_PAGESETUPDLG**](wm-psd-pagesetupdlg.md)

@@ -12,11 +12,11 @@ Installation of a new service provider is highly device- and operating-system-sp
 
 Initialization of a telephony service provider starts with version negotiation. See [TSPI Versioning](tspi-versioning.md) for a discussion of version negotiation and current version.
 
-TAPI then calls [**TSPI\_providerInit**](https://msdn.microsoft.com/en-us/library/ms725960(v=VS.85).aspx), which passes the provider a pointer to a callback function used to report on asynchronous functions progress. The TSP returns a count of line and phone devices associated with the current device identifier.
+TAPI then calls [**TSPI\_providerInit**](https://msdn.microsoft.com/library/ms725960(v=VS.85).aspx), which passes the provider a pointer to a callback function used to report on asynchronous functions progress. The TSP returns a count of line and phone devices associated with the current device identifier.
 
-Typically, the next step will be resource inventory, conducted by TAPI invoking [**TSPI\_lineGetDevCaps**](https://msdn.microsoft.com/en-us/library/ms725568(v=VS.85).aspx) and [**TSPI\_lineGetAddressCaps**](https://msdn.microsoft.com/en-us/library/ms725560(v=VS.85).aspx). The service provider is expected to fill in those elements of the data structures involved that pertain to device and session capabilities it supports.
+Typically, the next step will be resource inventory, conducted by TAPI invoking [**TSPI\_lineGetDevCaps**](https://msdn.microsoft.com/library/ms725568(v=VS.85).aspx) and [**TSPI\_lineGetAddressCaps**](https://msdn.microsoft.com/library/ms725560(v=VS.85).aspx). The service provider is expected to fill in those elements of the data structures involved that pertain to device and session capabilities it supports.
 
-TAPI collects information from the various applications concerning event notification requirements, and instructs the TSP using [**TSPI\_lineSetDefaultMediaDetection**](https://msdn.microsoft.com/en-us/library/ms725601(v=VS.85).aspx) to indicate which media types to detect for a line and [**TSPI\_lineSetStatusMessages**](https://msdn.microsoft.com/en-us/library/ms725606(v=VS.85).aspx) to indicate which line and address events should be reported.
+TAPI collects information from the various applications concerning event notification requirements, and instructs the TSP using [**TSPI\_lineSetDefaultMediaDetection**](https://msdn.microsoft.com/library/ms725601(v=VS.85).aspx) to indicate which media types to detect for a line and [**TSPI\_lineSetStatusMessages**](https://msdn.microsoft.com/library/ms725606(v=VS.85).aspx) to indicate which line and address events should be reported.
 
  
 

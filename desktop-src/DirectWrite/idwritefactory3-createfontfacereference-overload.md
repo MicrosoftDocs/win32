@@ -24,8 +24,8 @@ Creates a reference to a font.
 
 | Method                                                                                                                                                                         | Description                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**CreateFontFaceReference (IDWriteFontFile\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/en-us/library/Dn890757(v=VS.85).aspx)               | Creates a reference to a font given a file.<br/>      |
-| [**CreateFontFaceReference (WCHAR const \*, FILETIME const\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/en-us/library/Dn890756(v=VS.85).aspx) | Creates a reference to a font given a full path.<br/> |
+| [**CreateFontFaceReference (IDWriteFontFile\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/library/Dn890757(v=VS.85).aspx)               | Creates a reference to a font given a file.<br/>      |
+| [**CreateFontFaceReference (WCHAR const \*, FILETIME const\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/library/Dn890756(v=VS.85).aspx) | Creates a reference to a font given a full path.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Creates a reference to a font.
 
 <dl> <dt>
 
-[**IDWriteFactory3**](https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx)
+[**IDWriteFactory3**](https://msdn.microsoft.com/library/Dn890753(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) on \**pbstrName* when you no longer need to use the string.
+> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) on \**pbstrName* when you no longer need to use the string.
 
  
 

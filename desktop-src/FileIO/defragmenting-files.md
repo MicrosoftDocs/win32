@@ -32,15 +32,15 @@ These operations can be performed without inhibiting other processes from runnin
 
 **To defragment a file**
 
-1.  Use the [**FSCTL\_GET\_VOLUME\_BITMAP**](https://msdn.microsoft.com/en-us/library/Aa364573(v=VS.85).aspx) control code to find a place on the volume that is large enough to accept an entire file.
+1.  Use the [**FSCTL\_GET\_VOLUME\_BITMAP**](https://msdn.microsoft.com/library/Aa364573(v=VS.85).aspx) control code to find a place on the volume that is large enough to accept an entire file.
     > [!Note]  
     > If necessary, move other files to make a place that is large enough. Ideally, there is enough unallocated clusters after the first extent of the file that you can move subsequent extents into the space after the first extent.
 
      
 
-2.  Use the [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](https://msdn.microsoft.com/en-us/library/Aa364572(v=VS.85).aspx) control code to get a map of the current layout of the file on the disk.
-3.  Walk the [**RETRIEVAL\_POINTERS\_BUFFER**](/windows/desktop/api/WinIoCtl/ns-winioctl-retrieval_pointers_buffer) structure returned by [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](https://msdn.microsoft.com/en-us/library/Aa364572(v=VS.85).aspx).
-4.  Use the [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/en-us/library/Aa364577(v=VS.85).aspx) control code to move each cluster as you walk the structure.
+2.  Use the [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](https://msdn.microsoft.com/library/Aa364572(v=VS.85).aspx) control code to get a map of the current layout of the file on the disk.
+3.  Walk the [**RETRIEVAL\_POINTERS\_BUFFER**](/windows/desktop/api/WinIoCtl/ns-winioctl-retrieval_pointers_buffer) structure returned by [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](https://msdn.microsoft.com/library/Aa364572(v=VS.85).aspx).
+4.  Use the [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/library/Aa364577(v=VS.85).aspx) control code to move each cluster as you walk the structure.
     > [!Note]  
     > You may need to renew either the bitmap or the retrieval structure, or both at various times as other processes write to the disk.
 
@@ -69,7 +69,7 @@ For more information about shadow copies, see [Volume Shadow Copy Service](https
 
 ## Files, streams, and stream types supported for defragmentation
 
-While most files can be moved using the [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/en-us/library/Aa364577(v=VS.85).aspx) control code, not all can be moved. Below is the list of files, streams, and stream types (also called attribute type codes) supported by **FSCTL\_MOVE\_FILE**. Other files, streams, and stream types are not supported by **FSCTL\_MOVE\_FILE**.
+While most files can be moved using the [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/library/Aa364577(v=VS.85).aspx) control code, not all can be moved. Below is the list of files, streams, and stream types (also called attribute type codes) supported by **FSCTL\_MOVE\_FILE**. Other files, streams, and stream types are not supported by **FSCTL\_MOVE\_FILE**.
 
 Stream types supported for any file or directory.
 
@@ -86,7 +86,7 @@ Stream types supported for any directory.
 -   ::$BITMAP
 -   ::$INDEX\_ALLOCATION
 
-Following are the system file, stream, and stream types supported by [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/en-us/library/Aa364577(v=VS.85).aspx) in "*filename*:*streamname*:$*typename*" format.
+Following are the system file, stream, and stream types supported by [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/library/Aa364577(v=VS.85).aspx) in "*filename*:*streamname*:$*typename*" format.
 
 -   $MFT::$DATA
 -   $MFT::$ATTRIBUTE\_LIST

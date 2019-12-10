@@ -22,7 +22,7 @@ api_location:
 
 \[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.\]
 
-Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object that was created with the **dwCaps** member of the [**DDSCAPS**](https://msdn.microsoft.com/en-us/library/Ff550286(v=VS.85).aspx) structure set to DDSCAPS\_EXECUTEBUFFER.
+Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object that was created with the **dwCaps** member of the [**DDSCAPS**](https://msdn.microsoft.com/library/Ff550286(v=VS.85).aspx) structure set to DDSCAPS\_EXECUTEBUFFER.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ DWORD APIENTRY NtGdiDdDestroyD3DBuffer(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_DESTROYSURFACEDATA**](https://msdn.microsoft.com/en-us/library/Ff550577(v=VS.85).aspx) structure that contains the information needed to destroy a Direct3D command or vertex buffer.
+Handle to a [**DD\_DESTROYSURFACEDATA**](https://msdn.microsoft.com/library/Ff550577(v=VS.85).aspx) structure that contains the information needed to destroy a Direct3D command or vertex buffer.
 
 </dd> </dl>
 

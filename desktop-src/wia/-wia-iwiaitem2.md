@@ -21,7 +21,7 @@ The **IWiaItem2** interface provides applications with the same functionality as
 
 ## Members
 
-The **IWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IWiaItem2** also has these types of members:
+The **IWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaItem2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -58,15 +58,15 @@ The **IWiaItem2** interface has these methods.
 
 The WIA 2.0 item tree that an application can see is separate from the tree that is created and maintained by a WIA 2.0 minidriver. When a minidriver creates a tree of items, the WIA 2.0 Service uses this WIA 2.0 item tree as a guide to create identical copies that can be viewed by imaging applications. Items in the copied tree are called application items. Items in the tree created by a minidriver are called driver items. In Windows Vista the WIA 2.0 item trees are built of **IWiaItem2** objects, each one of which implements the **IWiaItem2** interface).
 
-The **IWiaItem2** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface methods.
+The **IWiaItem2** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface methods.
 
 
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
+| [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
 
 
 

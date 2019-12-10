@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XPS Print API Structures
 
-\[The structures described in this section are deprecated. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx) instead.\]
+\[The structures described in this section are deprecated. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/library/Hh448418(v=VS.85).aspx) instead.\]
 
 \[ **XPS\_JOB\_STATUS** is not supported and may be altered or unavailable in the future. \]
 
@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[Documents](https://msdn.microsoft.com/en-us/library/ms716526(v=VS.85).aspx)
+[Documents](https://msdn.microsoft.com/library/ms716526(v=VS.85).aspx)
 </dt> <dt>
 
 [XML Paper Specification](https://go.microsoft.com/?linkid=8435939)

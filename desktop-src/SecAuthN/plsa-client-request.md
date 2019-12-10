@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **PLSA\_CLIENT\_REQUEST** data type is an opaque data type.
 
-The [*Local Security Authority*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) (LSA) uses it internally to maintain client information related to individual requests.
+The [*Local Security Authority*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) (LSA) uses it internally to maintain client information related to individual requests.
 
 
 ```C++

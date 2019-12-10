@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1RenderTarget::CreateLinearGradientBrush methods
 
-Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx) object for painting areas with a linear gradient.
+Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) object for painting areas with a linear gradient.
 
 ### Overload list
 
@@ -24,9 +24,9 @@ Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/libra
 
 | Method                                                                                                                                                                                                                       | Description                                                                                                                                                                      |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateLinearGradientBrush(D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1LinearGradientBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371845(v=VS.85).aspx)                            | Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx) that contains the specified gradient stops, has no transform, and has a base opacity of 1.0. <br/> |
-| [**CreateLinearGradientBrush(D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES&,D2D1\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1LinearGradientBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371850(v=VS.85).aspx)   | Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
-| [**CreateLinearGradientBrush(D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES\*,D2D1\_BRUSH\_PROPERTIES\*,ID2D1GradientStopCollection\*,ID2D1LinearGradientBrush\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371842(v=VS.85).aspx) | Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
+| [**CreateLinearGradientBrush(D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1LinearGradientBrush\*\*)**](https://msdn.microsoft.com/library/Dd371845(v=VS.85).aspx)                            | Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) that contains the specified gradient stops, has no transform, and has a base opacity of 1.0. <br/> |
+| [**CreateLinearGradientBrush(D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES&,D2D1\_BRUSH\_PROPERTIES&,ID2D1GradientStopCollection\*,ID2D1LinearGradientBrush\*\*)**](https://msdn.microsoft.com/library/Dd371850(v=VS.85).aspx)   | Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
+| [**CreateLinearGradientBrush(D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES\*,D2D1\_BRUSH\_PROPERTIES\*,ID2D1GradientStopCollection\*,ID2D1LinearGradientBrush\*\*)**](https://msdn.microsoft.com/library/Dd371842(v=VS.85).aspx) | Creates an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) that contains the specified gradient stops and has the specified transform and base opacity. <br/> |
 
 
 
@@ -50,19 +50,19 @@ For an example showing how to create a gradient stop collection and use it to de
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> <dt>
 
 [**CreateGradientStopCollection**](id2d1rendertarget-creategradientstopcollection.md)
 </dt> <dt>
 
-[**ID2D1GradientStopCollection**](https://msdn.microsoft.com/en-us/library/Dd316783(v=VS.85).aspx)
+[**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx)
 </dt> <dt>
 
-[**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371488(v=VS.85).aspx)
+[**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx)
 </dt> <dt>
 
-[**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx)
+[**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx)
 </dt> <dt>
 
 [How to Create a Linear Gradient Brush](how-to-create-a-linear-gradient-brush.md)

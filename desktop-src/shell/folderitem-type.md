@@ -32,7 +32,7 @@ strType = FolderItem.Type
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx) that receives the item's type.
+A variable of type [**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx) that receives the item's type.
 
 ## Examples
 

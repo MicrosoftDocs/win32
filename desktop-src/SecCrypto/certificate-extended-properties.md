@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # Certificate Extended Properties
 
-The data in a [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), [*certificate revocation list*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRL), or [*certificate trust list*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTL) [*context*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), including any extensions, is read-only and cannot be changed. However, on Microsoft platforms, CryptoAPI certificates also have dynamic extended properties that can be added and changed.
+The data in a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), [*certificate revocation list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRL), or [*certificate trust list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CTL) [*context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), including any extensions, is read-only and cannot be changed. However, on Microsoft platforms, CryptoAPI certificates also have dynamic extended properties that can be added and changed.
 
 > [!Note]  
-> Extended properties are associated with a certificate and are not part of a certificate as issued by a [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA). Extended properties are not available on a certificate when it is used on a non-Microsoft platform.
+> Extended properties are associated with a certificate and are not part of a certificate as issued by a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA). Extended properties are not available on a certificate when it is used on a non-Microsoft platform.
 
  
 

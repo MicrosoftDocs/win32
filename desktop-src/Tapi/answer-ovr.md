@@ -18,7 +18,7 @@ In a bridged situation, if a call is connected but in the active state, it can b
 
 The application has the option to send user-user information at the time of the answer, if the service provider supports it.
 
-**TAPI 2.x:** See [**lineAnswer**](https://msdn.microsoft.com/en-us/library/ms735502(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineAnswer**](https://msdn.microsoft.com/library/ms735502(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Answer**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-answer).
 

@@ -31,7 +31,7 @@ Exposes methods that enable a Shell folder to support different views on its con
 
 ## Members
 
-The **IShellFolderViewType** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IShellFolderViewType** also has these types of members:
+The **IShellFolderViewType** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IShellFolderViewType** also has these types of members:
 
 -   [Methods](#methods)
 

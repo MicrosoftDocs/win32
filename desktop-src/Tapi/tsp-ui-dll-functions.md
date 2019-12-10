@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 This section describes the Telephony Service Provider User Interface (UI) DLL functions. The TSP UI DLL functions include:
 
--   [**TSPI\_providerFreeDialogInstance**](https://msdn.microsoft.com/en-us/library/ms725958(v=VS.85).aspx)
--   [**TSPI\_providerGenericDialogData**](https://msdn.microsoft.com/en-us/library/ms725959(v=VS.85).aspx)
--   [**TSPI\_providerUIIdentify**](https://msdn.microsoft.com/en-us/library/ms725964(v=VS.85).aspx)
+-   [**TSPI\_providerFreeDialogInstance**](https://msdn.microsoft.com/library/ms725958(v=VS.85).aspx)
+-   [**TSPI\_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725959(v=VS.85).aspx)
+-   [**TSPI\_providerUIIdentify**](https://msdn.microsoft.com/library/ms725964(v=VS.85).aspx)
 
  
 

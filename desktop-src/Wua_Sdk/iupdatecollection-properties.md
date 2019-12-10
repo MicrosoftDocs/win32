@@ -14,7 +14,7 @@ The [**IUpdateCollection**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatecollectio
 
 | Property                                        | Description                                                                                                              |
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get__newenum) | Gets an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface that can be used to enumerate the collection. |
+| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get__newenum) | Gets an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface that can be used to enumerate the collection. |
 | [**Count**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_count)        | Gets the number of elements in the collection.                                                                           |
 | [**Item**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_item)          | Gets or sets an [**IUpdate**](/windows/desktop/api/Wuapi/nn-wuapi-iupdate) interface in a collection.                                                    |
 | [**ReadOnly**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatecollection-get_readonly)  | Gets a Boolean value that indicates whether the update collection is read-only.                                          |

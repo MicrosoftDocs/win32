@@ -17,7 +17,7 @@ api_location:
 
 # PStoreCreateInstance function
 
-\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/en-us/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/en-us/library/Aa380882(v=VS.85).aspx) functions.\]
+\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx) functions.\]
 
 \[This function may be altered or unavailable in future versions of Windows. Use the **CryptProtectData** and **CryptUnprotectData** functions instead of this function.\]
 
@@ -44,7 +44,7 @@ HRESULT __stdcall PStoreCreateInstance(
 *ppProvider* \[out\]
 </dt> <dd>
 
-A pointer to the retrieved interface pointer for the storage provider. When you finish using the interface, decrement its reference count by calling its [**IUnknown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method. This parameter cannot be **NULL**.
+A pointer to the retrieved interface pointer for the storage provider. When you finish using the interface, decrement its reference count by calling its [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method. This parameter cannot be **NULL**.
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ The return value is an **HRESULT**. A value of **S\_OK** indicates the function 
 
 ## Remarks
 
-This function has no associated import library; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 
@@ -92,10 +92,10 @@ This function has no associated import library; you must call it using the [**Lo
 
 <dl> <dt>
 
-[**CryptProtectData**](https://msdn.microsoft.com/en-us/library/Aa380261(v=VS.85).aspx)
+[**CryptProtectData**](https://msdn.microsoft.com/library/Aa380261(v=VS.85).aspx)
 </dt> <dt>
 
-[**CryptUnprotectData**](https://msdn.microsoft.com/en-us/library/Aa380882(v=VS.85).aspx)
+[**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx)
 </dt> </dl>
 
  

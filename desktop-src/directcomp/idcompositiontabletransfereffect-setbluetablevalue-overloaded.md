@@ -24,8 +24,8 @@ Sets a value in the blue table.
 
 | Method                                                                                                              | Description                                |
 |:--------------------------------------------------------------------------------------------------------------------|:-------------------------------------------|
-| [**SetBlueTableValue**](https://msdn.microsoft.com/en-us/library/Dn919790(v=VS.85).aspx)                                     | Sets a value in the blue table.<br/> |
-| [**SetBlueTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919791(v=VS.85).aspx) | Sets a value in the blue table.<br/> |
+| [**SetBlueTableValue**](https://msdn.microsoft.com/library/Dn919790(v=VS.85).aspx)                                     | Sets a value in the blue table.<br/> |
+| [**SetBlueTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919791(v=VS.85).aspx) | Sets a value in the blue table.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets a value in the blue table.
 
 <dl> <dt>
 
-[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx)
+[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/library/Dn919783(v=VS.85).aspx)
 </dt> </dl>
 
 �

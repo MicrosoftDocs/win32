@@ -83,7 +83,7 @@ case TE_CALLNOTIFICATION:
 [**ITBasicCallControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol)
 </dt> <dt>
 
-[**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx)
+[**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx)
 </dt> </dl>
 
  

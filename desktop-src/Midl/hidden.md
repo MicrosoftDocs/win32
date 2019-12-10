@@ -115,7 +115,7 @@ library HiddenLib
 
 <dl> <dt>
 
-[TYPEFLAGS](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
+[TYPEFLAGS](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
 </dt> <dt>
 
 [**dispinterface**](dispinterface.md)
@@ -133,10 +133,10 @@ library HiddenLib
 [**library**](library.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
+[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
 </dt> </dl>
 
  

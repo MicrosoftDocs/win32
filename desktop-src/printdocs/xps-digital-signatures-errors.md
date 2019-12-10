@@ -48,7 +48,7 @@ Some XPS digital signature API methods make calls to the [Packaging](https://doc
 
 <dl> <dt>
 
-[Error Handling in COM](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx)
+[Error Handling in COM](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx)
 </dt> <dt>
 
 [Packaging Errors](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors)

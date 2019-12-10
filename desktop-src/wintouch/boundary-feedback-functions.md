@@ -18,9 +18,9 @@ This section describes the boundary feedback functions.
 
 | Function                                               | Description                                                                                        |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [**BeginPanningFeedback**](https://msdn.microsoft.com/en-us/library/Dd317331(v=VS.85).aspx)     | This function is invoked by the user before using boundary feedback.                               |
-| [**EndPanningFeedback**](https://msdn.microsoft.com/en-us/library/Dd317327(v=VS.85).aspx)     | This function is called upon completion of boundary feedback and optionally triggers an animation. |
-| [**UpdatePanningFeedback**](https://msdn.microsoft.com/en-us/library/Dd317336(v=VS.85).aspx) | This function is called during boundary feedback and optionally triggers an animation.             |
+| [**BeginPanningFeedback**](https://msdn.microsoft.com/library/Dd317331(v=VS.85).aspx)     | This function is invoked by the user before using boundary feedback.                               |
+| [**EndPanningFeedback**](https://msdn.microsoft.com/library/Dd317327(v=VS.85).aspx)     | This function is called upon completion of boundary feedback and optionally triggers an animation. |
+| [**UpdatePanningFeedback**](https://msdn.microsoft.com/library/Dd317336(v=VS.85).aspx) | This function is called during boundary feedback and optionally triggers an animation.             |
 
 
 

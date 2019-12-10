@@ -42,7 +42,7 @@ HRESULT D3DXSaveSurfaceToFile(
 *pDestFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that specifies the file name of the destination image. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -51,9 +51,9 @@ Pointer to a string that specifies the file name of the destination image. If th
 *DestFormat* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx)**
 
-[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
+[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
 
 </dd> <dt>
 
@@ -78,15 +78,15 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)\***
+Type: **const [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
+Pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be the following: D3DERR\_INVALIDCALL
 

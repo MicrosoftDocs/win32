@@ -17,7 +17,7 @@ api_location:
 
 # IVectorChangedEventArgs interface
 
-Provides data for a [**VectorChanged**](https://msdn.microsoft.com/en-us/library/BR226053(v=Win.10).aspx) event.
+Provides data for a [**VectorChanged**](https://msdn.microsoft.com/library/BR226053(v=Win.10).aspx) event.
 
 ## Members
 

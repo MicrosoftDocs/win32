@@ -17,10 +17,10 @@ api_location:
 
 # FreeCryptProvFromCertEx function
 
-The **FreeCryptProvFromCertEx** function releases the handle either to a [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) or to a Cryptography API: Next Generation (CNG) key.
+The **FreeCryptProvFromCertEx** function releases the handle either to a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) or to a Cryptography API: Next Generation (CNG) key.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -47,7 +47,7 @@ void WINAPI FreeCryptProvFromCertEx(
 *fAcquired* \[in\]
 </dt> <dd>
 
-A value that specifies whether the provider handle was acquired from the [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+A value that specifies whether the provider handle was acquired from the [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

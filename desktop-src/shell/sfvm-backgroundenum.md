@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_BACKGROUNDENUM message
 
-Allows the callback object to request enumeration on a background thread. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to request enumeration on a background thread. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

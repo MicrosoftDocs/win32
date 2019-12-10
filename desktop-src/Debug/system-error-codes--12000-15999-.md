@@ -23,7 +23,7 @@ The following list describes [system error codes](system-error-codes.md) (errors
 
 
 
-See [Internet Error Codes](https://msdn.microsoft.com/en-us/library/Aa385465(v=VS.85).aspx) and WinInet.h.
+See [Internet Error Codes](https://msdn.microsoft.com/library/Aa385465(v=VS.85).aspx) and WinInet.h.
 
 
 </dt> </dl> </dd> <dt>
@@ -1102,7 +1102,7 @@ Failed to obtain Kerberos server credentials for ISAKMP/ERROR\_IPSEC\_IKE servic
 
 
 
-Failed to determine SSPI principal name for ISAKMP/ERROR\_IPSEC\_IKE service ([**QueryCredentialsAttributes**](https://msdn.microsoft.com/en-us/library/Aa379342(v=VS.85).aspx)).
+Failed to determine SSPI principal name for ISAKMP/ERROR\_IPSEC\_IKE service ([**QueryCredentialsAttributes**](https://msdn.microsoft.com/library/Aa379342(v=VS.85).aspx)).
 
 
 </dt> </dl> </dd> <dt>
@@ -4521,7 +4521,7 @@ The monitor returned an invalid monitor technology type. CRT, Plasma and LCD (TF
 
 
 
-The caller of [**SetMonitorColorTemperature**](https://msdn.microsoft.com/en-us/library/Dd692973(v=VS.85).aspx) specified a color temperature that the current monitor did not support. This error implies that the monitor violated the MCCS 2.0 or MCCS 2.0 Revision 1 specification.
+The caller of [**SetMonitorColorTemperature**](https://msdn.microsoft.com/library/Dd692973(v=VS.85).aspx) specified a color temperature that the current monitor did not support. This error implies that the monitor violated the MCCS 2.0 or MCCS 2.0 Revision 1 specification.
 
 
 </dt> </dl> </dd> <dt>

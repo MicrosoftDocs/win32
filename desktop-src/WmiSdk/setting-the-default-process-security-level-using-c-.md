@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Setting the Default Process Security Level Using C++
 
-When a client application logs on to Windows Management Instrumentation (WMI) for the first time, it must set the default process security level with a call to [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx). COM uses the information in the call to determine how much security another process must have to access the client application process.
+When a client application logs on to Windows Management Instrumentation (WMI) for the first time, it must set the default process security level with a call to [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx). COM uses the information in the call to determine how much security another process must have to access the client application process.
 
 The following sections are discussed in this topic:
 
@@ -81,7 +81,7 @@ The following table lists and describes the different levels of authentication.
 
  
 
-You can specify the default authentication credentials for multiple users by using a **SOLE\_AUTHENTICATION\_LIST** structure in the *pAuthList* parameter of [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx).
+You can specify the default authentication credentials for multiple users by using a **SOLE\_AUTHENTICATION\_LIST** structure in the *pAuthList* parameter of [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx).
 
 The following code example shows how to change the authentication credentials.
 

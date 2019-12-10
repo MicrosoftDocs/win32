@@ -23,8 +23,8 @@ The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overlo
 
 | Operator                                                                         | Description                                                                      |
 |:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**operator-(WBEMTime&)**](https://msdn.microsoft.com/en-us/library/Aa394037(v=VS.85).aspx)         | Subtracts a **WBEMTime** from a **WBEMTime**.<br/>                         |
-| [**operator-(WBEMTimeSpan&)**](https://msdn.microsoft.com/en-us/library/Aa394036(v=VS.85).aspx) | Subtracts a [**WBEMTimeSpan**](https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx) from a **WBEMTime**.<br/> |
+| [**operator-(WBEMTime&)**](https://msdn.microsoft.com/library/Aa394037(v=VS.85).aspx)         | Subtracts a **WBEMTime** from a **WBEMTime**.<br/>                         |
+| [**operator-(WBEMTimeSpan&)**](https://msdn.microsoft.com/library/Aa394036(v=VS.85).aspx) | Subtracts a [**WBEMTimeSpan**](https://msdn.microsoft.com/library/Aa393989(v=VS.85).aspx) from a **WBEMTime**.<br/> |
 
 
 

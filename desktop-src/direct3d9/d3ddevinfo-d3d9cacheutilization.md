@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3D9CACHEUTILIZATION {
 **TextureCacheHitRate**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ The hit rate for finding a texture in the texture cache. This assumes there is a
 **PostTransformVertexCacheHitRate**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

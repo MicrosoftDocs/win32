@@ -27,7 +27,7 @@ Next
 
 
 
-The actual process of using the WMI methods is identical to using any other Windows COM or automation interface. For more information, see [COM](https://msdn.microsoft.com/en-us/library/ms685978(v=VS.85).aspx) and [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md). For more information about the interfaces that WMI supports, see [COM API for WMI](com-api-for-wmi.md) and [Scripting API for WMI](scripting-api-for-wmi.md).
+The actual process of using the WMI methods is identical to using any other Windows COM or automation interface. For more information, see [COM](https://msdn.microsoft.com/library/ms685978(v=VS.85).aspx) and [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md). For more information about the interfaces that WMI supports, see [COM API for WMI](com-api-for-wmi.md) and [Scripting API for WMI](scripting-api-for-wmi.md).
 
 For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 

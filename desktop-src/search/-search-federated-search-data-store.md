@@ -58,7 +58,7 @@ Windows Federated Search supports Windows-based authentication, and can provide 
 -   NTLM.
 -   Kerberos.
 -   Basic (only over https).
--   Other Security Support Providers (SSPs) installed on Windows that provide additional querying capacity. See the [SSP Interface](https://msdn.microsoft.com/en-us/library/aa380493(VS.85).aspx) SDK documentation to keep abreast of the potential addition of other SSPs.
+-   Other Security Support Providers (SSPs) installed on Windows that provide additional querying capacity. See the [SSP Interface](https://msdn.microsoft.com/library/aa380493(VS.85).aspx) SDK documentation to keep abreast of the potential addition of other SSPs.
 
 ## Sending Queries and Returning Search Results in RSS or Atom
 
@@ -118,7 +118,7 @@ https://schemas.microsoft.com/windows/2008/propertynamespace
 
 **About Windows Shell System Properties**
 
-Windows defines a complete list of [System Properties](https://msdn.microsoft.com/en-us/library/dd561977(VS.85).aspx) and the value type format required for each property. The documentation for the [System.FileExtension](https://msdn.microsoft.com/en-us/library/bb760699(VS.85).aspx) Window Shell property, for example, specifies that the value must contain the leading dot (".docx" and not "docx").
+Windows defines a complete list of [System Properties](https://msdn.microsoft.com/library/dd561977(VS.85).aspx) and the value type format required for each property. The documentation for the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Window Shell property, for example, specifies that the value must contain the leading dot (".docx" and not "docx").
 
 **Date and Time Values**
 
@@ -152,8 +152,8 @@ For example, if the item has a link URL that uses a file system path (such as `f
 
 If the item uses the standard RSS enclosure or **MediaRSS media:content** element, the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider assumes that the item is a file and identifies the file name extension as follows:
 
--   If the [System.FileExtension](https://msdn.microsoft.com/en-us/library/bb760699(VS.85).aspx) Windows Shell property has been mapped for the item, the provider uses that file name extension.
--   If the [System.FileExtension](https://msdn.microsoft.com/en-us/library/bb760699(VS.85).aspx) Windows Shell property has not been mapped, the provider uses the **Type** attribute specified in the enclosure or content element. This element should contain a `MIMEType` string, such as `"image/jpeg"`. If the `MIMEType` is associated with a file name extension that is registered on the client computer, the item is regarded as a file of that type. If the `MIMEType` is not associated with a file name extension registered on the client computer, the item is treated as a web link type. The [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider does not attempt to parse the **Url** attribute to locate the file name extension.
+-   If the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Windows Shell property has been mapped for the item, the provider uses that file name extension.
+-   If the [System.FileExtension](https://msdn.microsoft.com/library/bb760699(VS.85).aspx) Windows Shell property has not been mapped, the provider uses the **Type** attribute specified in the enclosure or content element. This element should contain a `MIMEType` string, such as `"image/jpeg"`. If the `MIMEType` is associated with a file name extension that is registered on the client computer, the item is regarded as a file of that type. If the `MIMEType` is not associated with a file name extension registered on the client computer, the item is treated as a web link type. The [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider does not attempt to parse the **Url** attribute to locate the file name extension.
 -   If the `MIMEType` is associated with a file name extension that is registered on the client computer, the provider determines whether the file name extension is a known web file type (.htm, .html, .asp, .aspx, .php, .swf, .stm). If so, the file type is regarded as a web link type; otherwise, it is regarded as a file type. For example, if the `MIMEType "text/html"` is associated with the .htm file name extension, that item is regarded as a web link instead of as an .htm file type.
 
 ## Avoiding Potential Barriers to Enabling a Data Store
@@ -191,7 +191,7 @@ However, there are alternatives that can avoid barriers to enabling a data store
       <ShortName>Windows Help</ShortName>
       <Description>Search Windows Help using the live.com search engine</Description>
       <Language></Language>
-      <Url type="text/html" template="https://windowshelp.microsoft.com/windows/en-us/search.aspx?=&amp;qu={searchTerms}"/>
+      <Url type="text/html" template="https://windowshelp.microsoft.com/windows/search.aspx?=&amp;qu={searchTerms}"/>
       <Url type="application/rss+xml" template="https://api.search.live.com/rss.aspx?source=web&amp;query={searchTerms} site:windowshelp.microsoft.com&amp;web.count=50"/>
     </OpenSearchDescription>
     ```
@@ -206,7 +206,7 @@ However, there are alternatives that can avoid barriers to enabling a data store
 **To write a client-side data store if a server-side-only solution does not work:**
 
 1.  Write a client-side [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) data source that sits between the Windows [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider and the external data source.
-2.  Use the [IOpenSearchSource Interface](https://msdn.microsoft.com/en-us/library/dd378289(VS.85).aspx) API in the Windows SDK to create an appropriately configured .searchconnector-ms file through which Windows Explorer can call your implementation with the query parameters. Your implementation can then return results formatted in RSS or Atom format. Doing so enables your implementation to provide custom authentication UI and to connect to the data source using its proprietary API.
+2.  Use the [IOpenSearchSource Interface](https://msdn.microsoft.com/library/dd378289(VS.85).aspx) API in the Windows SDK to create an appropriately configured .searchconnector-ms file through which Windows Explorer can call your implementation with the query parameters. Your implementation can then return results formatted in RSS or Atom format. Doing so enables your implementation to provide custom authentication UI and to connect to the data source using its proprietary API.
 
 > [!Note]  
 > Opening an .osdx file creates a .searchconnector-ms file (search connector) in the %userprofile%/searches directory and places a link to it in the %userprofile%/links directory.
@@ -215,7 +215,7 @@ However, there are alternatives that can avoid barriers to enabling a data store
 
 ## Additional Resources
 
-For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/en-us/library/dd742958(VS.85).aspx).
+For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](https://msdn.microsoft.com/library/dd742958(VS.85).aspx).
 
 ## Related topics
 

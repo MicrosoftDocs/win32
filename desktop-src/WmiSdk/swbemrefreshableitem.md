@@ -62,7 +62,7 @@ The **SWbemRefreshableItem** object has these properties.
 
 ## Remarks
 
-The VBScript method [**GetObject**](https://msdn.microsoft.com/en-us/library/ebdktb00(v=VS.71).aspx) cannot be used to create **SWbemRefreshableItem** objects directly.
+The VBScript method [**GetObject**](https://msdn.microsoft.com/library/ebdktb00(v=VS.71).aspx) cannot be used to create **SWbemRefreshableItem** objects directly.
 
 ## Examples
 

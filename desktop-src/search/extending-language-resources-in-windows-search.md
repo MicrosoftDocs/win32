@@ -18,7 +18,7 @@ Windows Search uses language resources such as word breakers and stemmers to bre
 ## Additional Resources
 
 -   For a list of lanuages supported by word breakers, see [Languages Supported by Windows Search](-search-3x-wds-language-support.md).
--   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](https://msdn.microsoft.com/en-us/library/Dd317839(v=VS.85).aspx) (ELS).
+-   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](https://msdn.microsoft.com/library/Dd317839(v=VS.85).aspx) (ELS).
 -   For applicable reference documentation, see [Data Add-in Interfaces](-search-data-addins-interfaces-entry-page.md).
 
 ## Related topics

@@ -23,13 +23,13 @@ Tests the BoundingSphere for intersection with an object.
 
 | Method                                                                                         | Description                                                                                                                              |
 |:-----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingSphere::Intersects (XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh437828(v=VS.85).aspx)                   | Tests the BoundingSphere for intersection with a Plane.<br/>                                                                       |
-| [**BoundingSphere::Intersects (const BoundingBox&)**](https://msdn.microsoft.com/en-us/library/Hh437822(v=VS.85).aspx)         | Tests the BoundingSphere for intersection with a BoundingBox.<br/>                                                                 |
-| [**BoundingSphere::Intersects (const BoundingSphere&)**](https://msdn.microsoft.com/en-us/library/Hh437826(v=VS.85).aspx)      | Tests the BoundingSphere for intersection with a BoundingSphere.<br/>                                                              |
-| [**BoundingSphere::Intersects (const BoundingFrustum&)**](https://msdn.microsoft.com/en-us/library/Hh855914(v=VS.85).aspx)     | Test the [**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx) for intersection with a [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).<br/>         |
-| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,float&)**](https://msdn.microsoft.com/en-us/library/Hh437818(v=VS.85).aspx)   | Tests the BoundingSphere for intersection with a ray.<br/>                                                                         |
-| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh437820(v=VS.85).aspx) | Tests the BoundingSphere for intersection with a triangle.<br/>                                                                    |
-| [**BoundingSphere::Intersects (const BoundingOrientedBox&)**](https://msdn.microsoft.com/en-us/library/Hh855928(v=VS.85).aspx) | Test the [**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx) for intersection with a [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingSphere::Intersects (XMVECTOR)**](https://msdn.microsoft.com/library/Hh437828(v=VS.85).aspx)                   | Tests the BoundingSphere for intersection with a Plane.<br/>                                                                       |
+| [**BoundingSphere::Intersects (const BoundingBox&)**](https://msdn.microsoft.com/library/Hh437822(v=VS.85).aspx)         | Tests the BoundingSphere for intersection with a BoundingBox.<br/>                                                                 |
+| [**BoundingSphere::Intersects (const BoundingSphere&)**](https://msdn.microsoft.com/library/Hh437826(v=VS.85).aspx)      | Tests the BoundingSphere for intersection with a BoundingSphere.<br/>                                                              |
+| [**BoundingSphere::Intersects (const BoundingFrustum&)**](https://msdn.microsoft.com/library/Hh855914(v=VS.85).aspx)     | Test the [**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx) for intersection with a [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>         |
+| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,float&)**](https://msdn.microsoft.com/library/Hh437818(v=VS.85).aspx)   | Tests the BoundingSphere for intersection with a ray.<br/>                                                                         |
+| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh437820(v=VS.85).aspx) | Tests the BoundingSphere for intersection with a triangle.<br/>                                                                    |
+| [**BoundingSphere::Intersects (const BoundingOrientedBox&)**](https://msdn.microsoft.com/library/Hh855928(v=VS.85).aspx) | Test the [**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx) for intersection with a [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -43,7 +43,7 @@ Tests the BoundingSphere for intersection with an object.
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
+[**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -73,7 +73,7 @@ If the function fails, it returns INVALID\_PROCESSTRACE\_HANDLE.
 
  
 
-If the function returns INVALID\_PROCESSTRACE\_HANDLE, you can use the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function to obtain extended error information. The following table lists some common errors and their causes.
+If the function returns INVALID\_PROCESSTRACE\_HANDLE, you can use the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function to obtain extended error information. The following table lists some common errors and their causes.
 
 
 

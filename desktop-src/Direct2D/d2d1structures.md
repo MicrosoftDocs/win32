@@ -17,7 +17,7 @@ The D2D1 namespace defines the following structures.
 |                                                 |                                                                                                               |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Name                                            | Description                                                                                                   |
-| [**TypeTraits<Type>**](https://msdn.microsoft.com/en-us/library/Dd317123(v=VS.85).aspx) | Contains implementations of **Point**, **Size**, and **Rect** that store their data using the specified type. |
+| [**TypeTraits<Type>**](https://msdn.microsoft.com/library/Dd317123(v=VS.85).aspx) | Contains implementations of **Point**, **Size**, and **Rect** that store their data using the specified type. |
 
 
 

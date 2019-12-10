@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Restricted Tokens
 
-A restricted token is a [*primary*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) or impersonation [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) that has been modified by the [**CreateRestrictedToken**](https://msdn.microsoft.com/en-us/library/Aa446583(v=VS.85).aspx) function. A [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) or impersonating thread running in the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of a restricted token is restricted in its ability to access securable objects or perform privileged operations. The **CreateRestrictedToken** function can restrict a token in the following ways:
+A restricted token is a [*primary*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) or impersonation [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) that has been modified by the [**CreateRestrictedToken**](https://msdn.microsoft.com/library/Aa446583(v=VS.85).aspx) function. A [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) or impersonating thread running in the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of a restricted token is restricted in its ability to access securable objects or perform privileged operations. The **CreateRestrictedToken** function can restrict a token in the following ways:
 
 -   Remove [privileges](privileges.md) from the token.
 -   Apply the deny-only attribute to SIDs in the token so that they cannot be used to access secured objects. For more information about the deny-only attribute, see [SID Attributes in an Access Token](sid-attributes-in-an-access-token.md).
@@ -18,9 +18,9 @@ The system uses the list of restricting SIDs when it checks the token's access t
 
 You can use a restricted [*primary token*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) in a call to the [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function. Typically, the process that calls **CreateProcessAsUser** must have the SE\_ASSIGNPRIMARYTOKEN\_NAME privilege, which is usually held only by system code or by services running in the LocalSystem account. However, if the **CreateProcessAsUser** call specifies a restricted version of the caller's primary token, this privilege is not required. This enables ordinary applications to create restricted processes.
 
-You can also use a restricted primary or [*impersonation token*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) in the [**ImpersonateLoggedOnUser**](https://msdn.microsoft.com/en-us/library/Aa378612(v=VS.85).aspx) function.
+You can also use a restricted primary or [*impersonation token*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) in the [**ImpersonateLoggedOnUser**](https://msdn.microsoft.com/library/Aa378612(v=VS.85).aspx) function.
 
-To determine whether a token has a list of restricting SIDs, call the [**IsTokenRestricted**](https://msdn.microsoft.com/en-us/library/Aa379137(v=VS.85).aspx) function.
+To determine whether a token has a list of restricting SIDs, call the [**IsTokenRestricted**](https://msdn.microsoft.com/library/Aa379137(v=VS.85).aspx) function.
 
 > [!Note]  
 > Applications that use restricted tokens should run the restricted application on desktops other than the default desktop. This is necessary to prevent an attack by a restricted application, using **SendMessage** or **PostMessage**, to unrestricted applications on the default desktop. If necessary, switch between desktops for your application purposes.

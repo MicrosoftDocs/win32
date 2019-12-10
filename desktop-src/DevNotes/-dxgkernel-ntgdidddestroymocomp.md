@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdDestroyMoComp(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation object to be destroyed.
+Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation object to be destroyed.
 
 </dd> <dt>
 
 *puBeginFrameData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_DESTROYMOCOMPDATA**](https://msdn.microsoft.com/en-us/library/Ff550570(v=VS.85).aspx) structure that contains the information needed to finish motion compensation.
+Pointer to a [**DD\_DESTROYMOCOMPDATA**](https://msdn.microsoft.com/library/Ff550570(v=VS.85).aspx) structure that contains the information needed to finish motion compensation.
 
 </dd> </dl>
 

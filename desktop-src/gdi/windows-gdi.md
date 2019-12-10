@@ -18,7 +18,7 @@ GDI can be used in all Windows-based applications.
 
 ## Developer audience
 
-This API is designed for use by C/C++ programmers. Familiarity with the Windows [message-driven architecture](https://msdn.microsoft.com/en-us/library/Ff381405(v=VS.85).aspx) is required.
+This API is designed for use by C/C++ programmers. Familiarity with the Windows [message-driven architecture](https://msdn.microsoft.com/library/Ff381405(v=VS.85).aspx) is required.
 
 ## Run-time requirements
 
@@ -48,13 +48,13 @@ For information on which operating systems are required to use a particular func
 
 <dl> <dt>
 
-[DirectX](https://msdn.microsoft.com/en-us/library/aa302281.aspx)
+[DirectX](https://msdn.microsoft.com/library/aa302281.aspx)
 </dt> <dt>
 
 [GDI+](https://msdn.microsoft.com/library/ms533798(v=VS.85).aspx)
 </dt> <dt>
 
-[OpenGL](https://msdn.microsoft.com/en-us/library/Dd374278(v=VS.85).aspx)
+[OpenGL](https://msdn.microsoft.com/library/Dd374278(v=VS.85).aspx)
 </dt> <dt>
 
 [Windows Image Acquisition](https://msdn.microsoft.com/library/ms630368(v=VS.85).aspx)

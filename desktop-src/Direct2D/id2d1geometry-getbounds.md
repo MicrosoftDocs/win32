@@ -24,8 +24,8 @@ Retrieves the bounds of the geometry.
 
 | Method                                                                                                                   | Description                                      |
 |:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
-| [**GetBounds(D2D1\_MATRIX\_3X2\_F&,D2D\_RECT\_F\*)**](https://msdn.microsoft.com/en-us/library/Dd316701(v=VS.85).aspx)   | Retrieves the bounds of the geometry.<br/> |
-| [**GetBounds(D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/en-us/library/Dd316699(v=VS.85).aspx) | Retrieves the bounds of the geometry.<br/> |
+| [**GetBounds(D2D1\_MATRIX\_3X2\_F&,D2D\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316701(v=VS.85).aspx)   | Retrieves the bounds of the geometry.<br/> |
+| [**GetBounds(D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316699(v=VS.85).aspx) | Retrieves the bounds of the geometry.<br/> |
 
 
 
@@ -343,5 +343,5 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
+[**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>

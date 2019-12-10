@@ -29,7 +29,7 @@ For more information on using this interface, see [Logging Errors](logging-error
 
 ## Members
 
-The **IAMSetErrorLog** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMSetErrorLog** also has these types of members:
+The **IAMSetErrorLog** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMSetErrorLog** also has these types of members:
 
 -   [Methods](#methods)
 

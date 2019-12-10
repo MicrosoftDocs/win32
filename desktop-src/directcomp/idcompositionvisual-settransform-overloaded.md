@@ -24,8 +24,8 @@ Sets the Transform property of this visual. The Transform property specifies a 2
 
 | Method                                                                                                    | Description                                                                    |
 |:----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**SetTransform(D2D\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/en-us/library/Hh449174(v=VS.85).aspx)          | Sets the Transform property to the specified transform matrix.<br/>      |
-| [**SetTransform(IDCompositionTransform\*)**](https://msdn.microsoft.com/en-us/library/Hh449176(v=VS.85).aspx) | Sets the Transform property to the specified transformation object.<br/> |
+| [**SetTransform(D2D\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/library/Hh449174(v=VS.85).aspx)          | Sets the Transform property to the specified transform matrix.<br/>      |
+| [**SetTransform(IDCompositionTransform\*)**](https://msdn.microsoft.com/library/Hh449176(v=VS.85).aspx) | Sets the Transform property to the specified transformation object.<br/> |
 
 
 
@@ -47,25 +47,25 @@ Sets the Transform property of this visual. The Transform property specifies a 2
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx)
+[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/library/Hh437424(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionTransform**](https://msdn.microsoft.com/en-us/library/Hh449110(v=VS.85).aspx)
+[**IDCompositionTransform**](https://msdn.microsoft.com/library/Hh449110(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionTranslateTransform**](https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx)
+[**IDCompositionTranslateTransform**](https://msdn.microsoft.com/library/Hh449113(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx)
+[**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDCompositionVisual::SetOffsetX**](idcompositionvisual-setoffsetx-overloaded.md)

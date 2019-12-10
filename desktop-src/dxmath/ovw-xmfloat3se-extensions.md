@@ -35,7 +35,7 @@ A 3D vector of three floating-point components with 9 bit mantissas, each sharin
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx)
+[**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdRenderMoComp(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
+Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puRenderMoCompData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_RENDERMOCOMPDATA**](https://msdn.microsoft.com/en-us/library/Ff551693(v=VS.85).aspx) structure that contains the information needed to render a frame.
+Pointer to a [**DD\_RENDERMOCOMPDATA**](https://msdn.microsoft.com/library/Ff551693(v=VS.85).aspx) structure that contains the information needed to render a frame.
 
 </dd> </dl>
 

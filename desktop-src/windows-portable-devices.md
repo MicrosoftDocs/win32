@@ -16,9 +16,9 @@ You can write both Windows applications and Web applications with WPD. You use t
 
 The WPD Application Programming Interface is supported in Windows 7, Windows Vista, and Windows XP operating systems. The WPD Automation Object Model is only supported in Windows 7.
 
-For more information about creating a WPD Windows application, refer to the [WPD Application Programming Interface](https://msdn.microsoft.com/en-us/library/Dd389005(v=VS.85).aspx) documentation and samples.
+For more information about creating a WPD Windows application, refer to the [WPD Application Programming Interface](https://msdn.microsoft.com/library/Dd389005(v=VS.85).aspx) documentation and samples.
 
-For more information about creating a WPD Automation application, refer to the [WPD Automation Object Model](https://msdn.microsoft.com/en-us/library/Dd389295(v=VS.85).aspx) documentation and samples.
+For more information about creating a WPD Automation application, refer to the [WPD Automation Object Model](https://msdn.microsoft.com/library/Dd389295(v=VS.85).aspx) documentation and samples.
 
 ## Related topics
 
@@ -27,10 +27,10 @@ For more information about creating a WPD Automation application, refer to the [
 
 </dt> <dt>
 
-[WPD Application Programming Interface](https://msdn.microsoft.com/en-us/library/Dd389005(v=VS.85).aspx)
+[WPD Application Programming Interface](https://msdn.microsoft.com/library/Dd389005(v=VS.85).aspx)
 </dt> <dt>
 
-[WPD Automation Object Model](https://msdn.microsoft.com/en-us/library/Dd389295(v=VS.85).aspx)
+[WPD Automation Object Model](https://msdn.microsoft.com/library/Dd389295(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -19,7 +19,7 @@ api_location:
 
 # GetStreamPropertiesOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx).
 
 ## Syntax
 

@@ -54,7 +54,7 @@ Type: **BOOL**
 If you are using system image lists in your own process, you must call **FileIconInit** at the following times:
 
 -   On launch.
--   In response to a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx) message when the [**SPI\_SETNONCLIENTMETRICS**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) flag is set.
+-   In response to a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message when the [**SPI\_SETNONCLIENTMETRICS**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) flag is set.
 
 **FileIconInit** is not included in a header file. You must call it directly from Shell32.dll, using ordinal 660.
 

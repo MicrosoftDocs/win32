@@ -16,9 +16,9 @@ api_location:
 
 # ISCardVerify::ResetSecurityState method
 
-\[The **ResetSecurityState** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ResetSecurityState** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ResetSecurityState** method resets the current [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **ResetSecurityState** method resets the current [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -50,7 +50,7 @@ The method returns one of the following possible values:
 
 ## Remarks
 
-To re-enable the [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) without resetting, call [**Unblock**](https://msdn.microsoft.com/en-us/library/Aa377269(v=VS.85).aspx).
+To re-enable the [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) without resetting, call [**Unblock**](https://msdn.microsoft.com/library/Aa377269(v=VS.85).aspx).
 
 For a list of all the methods defined by this interface, see [**ISCardVerify**](iscardverify.md).
 
@@ -76,7 +76,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 [**ISCardVerify**](iscardverify.md)
 </dt> <dt>
 
-[**Unblock**](https://msdn.microsoft.com/en-us/library/Aa377269(v=VS.85).aspx)
+[**Unblock**](https://msdn.microsoft.com/library/Aa377269(v=VS.85).aspx)
 </dt> </dl>
 
  

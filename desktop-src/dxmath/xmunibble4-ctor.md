@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUNIBBLE4`.
 
-Constructs instances of the [**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,7 +109,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx)
+[**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx)
 </dt> </dl>
 
  

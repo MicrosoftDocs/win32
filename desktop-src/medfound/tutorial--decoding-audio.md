@@ -167,14 +167,14 @@ int wmain(int argc, wchar_t* argv[])
 
 This function does the following:
 
-1.  Calls [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) to initialize the COM library.
+1.  Calls [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) to initialize the COM library.
 2.  Calls [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) to initialize the Media Foundation platform.
 3.  Calls [**MFCreateSourceReaderFromURL**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl) to create the source reader. This function takes the name of the input file and receives an [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) interface pointer.
 4.  Creates the output file by calling the **CreateFile** function, which returns a file handle.
 5.  Calls the application-defined [WriteWavFile](#write-the-wave-file) function. This function decodes the audio and writes the WAVE file.
 6.  Releases the [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) pointer and the file handle.
 7.  Calls [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) to shut down the Media Foundation platform.
-8.  Calls [**CoUninitialize**](https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx) to release the COM library.
+8.  Calls [**CoUninitialize**](https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx) to release the COM library.
 
 ## Write the WAVE File
 

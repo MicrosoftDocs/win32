@@ -186,7 +186,7 @@ System-alarm and object-specific system-alarm ACEs are not currently supported.
 
 <dl> <dt>
 
-[**AddAce**](https://msdn.microsoft.com/en-us/library/Aa374970(v=VS.85).aspx)
+[**AddAce**](https://msdn.microsoft.com/library/Aa374970(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCESS\_ALLOWED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_ace)

@@ -25,7 +25,7 @@ Controls the keyboard device within a virtual machine. The **IVMKeyboard** for a
 
 ## Members
 
-The **IVMKeyboard** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMKeyboard** also has these types of members:
+The **IVMKeyboard** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMKeyboard** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

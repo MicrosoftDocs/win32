@@ -53,18 +53,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as a vertex buffer.
+Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as a vertex buffer.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -75,18 +75,18 @@ Combination of one or more [**D3DUSAGE**](d3dusage.md) flags.
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this vertex buffer.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this vertex buffer.
 
 </dd> <dt>
 
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -97,7 +97,7 @@ Size of the vertex buffer, in bytes.
 **FVF**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

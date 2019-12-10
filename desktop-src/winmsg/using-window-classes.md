@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic has a code example that shows how to register a local window and use it to create a main window.
 
-Each process must register its own window classes. To register an application local class, use the [**RegisterClassEx**](https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx) function. You must define the window procedure, fill the members of the [**WNDCLASSEX**](https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx) structure, and then pass a pointer to the structure to the **RegisterClassEx** function.
+Each process must register its own window classes. To register an application local class, use the [**RegisterClassEx**](https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx) function. You must define the window procedure, fill the members of the [**WNDCLASSEX**](https://msdn.microsoft.com/library/ms633577(v=VS.85).aspx) structure, and then pass a pointer to the structure to the **RegisterClassEx** function.
 
 The following example shows how to register a local window class and use it to create a main window.
 
@@ -124,7 +124,7 @@ BOOL InitInstance(HINSTANCE hinstance, int nCmdShow)
 
 
 
-Registering an application global class is similar to registering an application local class, except that the **style** member of the [**WNDCLASSEX**](https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx) structure must specify the **CS\_GLOBALCLASS** style.
+Registering an application global class is similar to registering an application local class, except that the **style** member of the [**WNDCLASSEX**](https://msdn.microsoft.com/library/ms633577(v=VS.85).aspx) structure must specify the **CS\_GLOBALCLASS** style.
 
  
 
