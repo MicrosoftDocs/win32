@@ -1,6 +1,6 @@
 ---
 Description: Defines terms that are used in WIC.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b066757a-8841-4976-b20b-989ebba5eb3b
 title: Windows Imaging Component Glossary
 ms.topic: article

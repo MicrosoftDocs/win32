@@ -1,7 +1,7 @@
 ---
 title: J
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 1dc342c8-eea2-4be9-bb25-a262e88f39aa
 ms.topic: article
 ms.date: 05/31/2018

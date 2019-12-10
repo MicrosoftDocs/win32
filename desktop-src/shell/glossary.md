@@ -1,6 +1,6 @@
 ---
 Description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 title: Shell Glossary
 ms.topic: article
 ms.date: 05/31/2018

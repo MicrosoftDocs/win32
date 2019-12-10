@@ -1,7 +1,7 @@
 ---
 title: WMFormat Glossary
 description: To find a term in the glossary, click the letter of the alphabet that is the first letter in the term you want to look up.You can also read glossary terms within the text of Help by clicking the underlined glossary term links.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 7142163b-ee2c-43e3-9c17-3e039abbeeaf
 ms.topic: article
 ms.date: 05/31/2018

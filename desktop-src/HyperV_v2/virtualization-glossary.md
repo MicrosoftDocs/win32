@@ -1,6 +1,6 @@
 ---
 Description: Glossary of terms used in the Windows Virtualization SDK documentation.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 365D0295-EA0B-4B40-8272-DFF62B2A6F3D
 title: Hyper-V glossary
 ms.topic: article

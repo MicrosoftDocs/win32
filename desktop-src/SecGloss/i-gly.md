@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter I.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: af511aed-88f5-4b12-ad44-317925297f70
 title: I (Security Glossary)
 ms.topic: article

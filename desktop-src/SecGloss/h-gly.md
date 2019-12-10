@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter H.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 4165b820-30fc-477e-a690-81109f161323
 title: H (Security Glossary)
 ms.topic: article

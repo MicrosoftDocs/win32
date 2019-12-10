@@ -1,6 +1,6 @@
 ---
 Description: Contains definitions of security terms that begin with the letter E.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: f1caccd2-3453-448e-b194-bf899eff8091
 title: E (Security Glossary)
 ms.topic: article

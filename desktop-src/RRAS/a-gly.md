@@ -1,7 +1,7 @@
 ---
 title: A (RRAS)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 74559a2a-693f-48a4-b577-e217a21f8b06
 ms.topic: article
 ms.date: 05/31/2018

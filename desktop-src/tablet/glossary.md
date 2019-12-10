@@ -1,6 +1,6 @@
 ---
 Description: This topic provides the definitions of terms that are used by the Tablet PC API.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: c55e4881-ca98-4393-a72e-f3ced687b7ca
 title: Tablet PC API Glossary
 ms.topic: article

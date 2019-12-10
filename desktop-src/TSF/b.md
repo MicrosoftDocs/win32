@@ -1,7 +1,7 @@
 ---
 title: B (Text Services Framework)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2ed7c463-e2f1-49ad-b957-041af54ff56f
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,7 +1,7 @@
 ---
 title: R (Text Services Framework)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 094eb7f8-d81b-4eae-83bc-009c145813aa
 ms.topic: article
 ms.date: 05/31/2018

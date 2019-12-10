@@ -1,7 +1,7 @@
 ---
 title: Windows Animation Glossary
 description: This glossary contains terms and acronyms of interest to developers using the Windows Animation Manager.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 66e9cfb4-b9ae-4c21-9b1f-532c7d750903
 keywords:
 - Windows Animation Windows Animation ,glossary

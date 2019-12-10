@@ -1,7 +1,7 @@
 ---
 title: T (RPC)
 description: Words starting with T in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: cdcc7c11-697d-4c54-8ecf-513e2e2649aa
 ms.topic: article
 ms.date: 05/31/2018

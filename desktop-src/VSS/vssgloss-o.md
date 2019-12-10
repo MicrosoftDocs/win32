@@ -1,6 +1,6 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ab1c2011-1a36-4a8f-8b1b-dcacfc4d4561
 title: O (Volume Shadow Copy Service)
 ms.topic: article
