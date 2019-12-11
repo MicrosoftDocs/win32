@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# BOOLEAN
+# BOOLEAN (Certificate Enrollment API)
 
 A Boolean value can be **TRUE** or **FALSE**. **FALSE** is encoded as a TLV triplet in which the **Value** field is zero (0). **TRUE** is encoded as a nonzero value. The **Tag** for the **BOOLEAN** data type is 0x01.
 

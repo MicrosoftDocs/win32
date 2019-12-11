@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_LS.ToString method
+# JET_LS.ToString method overload list
 
 Include protected members  
 Include inherited members  

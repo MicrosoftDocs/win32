@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_OSSNAPID.ToString method
+# JET_OSSNAPID.ToString method overload list
 
 Include protected members  
 Include inherited members  

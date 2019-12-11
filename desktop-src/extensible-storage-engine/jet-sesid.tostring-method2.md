@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_SESID.ToString method
+# JET_SESID.ToString method overload list
 
 Include protected members  
 Include inherited members  

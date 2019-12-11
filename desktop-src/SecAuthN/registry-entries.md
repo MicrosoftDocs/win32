@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registry Entries
+# Registry Entries (Authentication)
 
 In order for your package to receive event notifications from [*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx), you must provide the name of the package, the names of the event handler functions in the package, the DLL responsible for implementing the package, and information about whether the DLL supports asynchronous events and impersonation.
 

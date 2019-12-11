@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Certificate Properties
+# Certificate Properties (Node)
 
 The [**Certificate**](certificate.md) object exposes the following properties.
 

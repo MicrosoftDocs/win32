@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Collections
+# Collections (Authorization)
 
 The Authorization Manager API provides interfaces that represent collections of other objects. For example, the [**IAzRoles**](/windows/desktop/api/Azroles/nn-azroles-iazroles) interface represents a collection of [**IAzRole**](/windows/desktop/api/Azroles/nn-azroles-iazrole) objects.
 

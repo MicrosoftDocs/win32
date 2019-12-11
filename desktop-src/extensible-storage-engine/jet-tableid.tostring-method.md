@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_TABLEID.ToString method
+# JET_TABLEID.ToString method overload list
 
 Include protected members  
 Include inherited members  

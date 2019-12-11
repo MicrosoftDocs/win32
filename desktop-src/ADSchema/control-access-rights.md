@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Control Access Rights
+# Control Access Rights (AD Schema)
 
 The following topics provide lists of the types of control access rights defined by Active Directory.
 

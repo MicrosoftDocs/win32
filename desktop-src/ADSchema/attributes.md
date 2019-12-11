@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Attributes
+# Attributes (AD Schema)
 
 The following topics provide lists of the types of attributes defined by Active Directory.
 

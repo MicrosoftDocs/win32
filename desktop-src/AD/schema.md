@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Schema
+# Schema (AD DS)
 
 Active Directory schema is implemented as a set of object class instances stored in the directory. This is very different than many directories that have a schema but store it as a text file read at startup. Storing the schema in the directory has many advantages. For example, user applications can read it to discover what objects and properties are available.
 

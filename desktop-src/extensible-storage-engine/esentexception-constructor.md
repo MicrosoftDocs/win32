@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# EsentException constructor
+# EsentException constructor overload list
 
 Include protected members  
 Include inherited members  

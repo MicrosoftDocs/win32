@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Attributes
+# Attributes (AD DS)
 
 Each object in Active Directory Domain Services contains a set of attributes that define the characteristics of the object. Each attribute is described by an [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object in the schema container that defines the attribute. The attribute definition includes a variety of data, for example, what object types that the attribute applies to and the syntax type of the attribute. For more information about attribute schema definitions, see [Characteristics of Attributes](characteristics-of-attributes.md).
 

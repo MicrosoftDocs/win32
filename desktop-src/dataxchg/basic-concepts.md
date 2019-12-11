@@ -35,7 +35,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Basic Concepts
+# Basic Concepts (DDE)
 
 These concepts are key to understanding Dynamic Data Exchange (DDE) and the Dynamic Data Exchange Management Library (DDEML).
 

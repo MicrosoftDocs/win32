@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# Instance.Init method
+# Instance.Init method overload list
 
 Include protected members  
 Include inherited members  

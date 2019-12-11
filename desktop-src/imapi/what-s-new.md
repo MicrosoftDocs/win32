@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New: Image Mastering API
 
 The following table identifies what is new for each release of the Image Mastering API.
 

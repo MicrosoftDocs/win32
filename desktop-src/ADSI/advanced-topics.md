@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Advanced Topics
+# Advanced Topics (ADSI)
 
 This section discusses the following advanced tasks that can be performed with ADSI:
 

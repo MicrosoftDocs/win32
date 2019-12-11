@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Considerations
+# Programming Considerations (Local File Systems)
 
 Keep the following programming considerations in mind when working with symbolic links:
 

@@ -15,7 +15,7 @@ api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
 ---
 
-# GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class
+# GetKeyProtectorAdSidInformation method of the Win32\_EncryptableVolume class
 
 The **GetKeyProtectorAdSidInformation** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class retrieves the security identifier and flags used to protect a key.
 
