@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Control Access Rights
+# Control Access Rights (AD DS)
 
 All objects in Active Directory Domain Services support a standard set of access rights defined in the [**ADS\_RIGHTS\_ENUM**](https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_rights_enum) enumeration. These access rights can be used in the Access Control Entries (ACEs) of an object's security descriptor to control access to the object; that is, to control who can perform standard operations, such as creating and deleting child objects, or reading and writing the object attributes. However, for some object classes, it may be desirable to control access in a way not supported by the standard access rights. To facilitate this, Active Directory Domain Services allow the standard access control mechanism to be extended through the **controlAccessRight** object.
 

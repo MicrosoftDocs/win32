@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Global Attributes
+# Global Attributes (AD Schema)
 
 The following are the attributes that are contained in the global catalog.
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Persistent Object Interfaces
+# Persistent Object Interfaces (ADSI)
 
 This section describes the following persistent object interfaces:
 

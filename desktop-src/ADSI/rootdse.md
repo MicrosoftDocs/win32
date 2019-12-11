@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RootDSE
+# RootDSE (ADSI)
 
 Each directory server has a unique entry called **RootDSE**. It provides data about the server, such as its capabilities, the LDAP version it supports, and the naming contexts it uses.
 

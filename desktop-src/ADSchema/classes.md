@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Classes
+# Classes (AD Schema)
 
 The following types of classes are defined by Active Directory.
 

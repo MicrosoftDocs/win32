@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Impersonation Levels
+# Impersonation Levels (Authorization)
 
 The [**SECURITY\_IMPERSONATION\_LEVEL**](/windows/desktop/api/Winnt/ne-winnt-security_impersonation_level) enumeration defines four impersonation levels that determine the operations a server can perform in the client's context.
 

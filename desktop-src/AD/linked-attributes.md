@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Linked Attributes
+# Linked Attributes (AD DS)
 
 Linked attributes are pairs of attributes in which the system calculates the values of one attribute (the back link) based on the values set on the other attribute (the forward link) throughout the forest. A back-link value on any object instance consists of the DNs of all the objects that have the object's DN set in the corresponding forward link. For example, "Manager" and "Reports" are a pair of linked attributes, where Manager is the forward link and Reports is the back link. Now suppose Bill is Joe's manager. If you store the DN of Bill's user object in the "Manager" attribute of Joe's user object, then the DN of Joe's user object will show up in the "Reports" attribute of Bill's user object.
 

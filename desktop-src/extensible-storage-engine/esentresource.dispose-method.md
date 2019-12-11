@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# EsentResource.Dispose method
+# EsentResource.Dispose method overload list
 
 Include protected members  
 Include inherited members  

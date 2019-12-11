@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Attributes
+# Attributes (Network Policy Server)
 
 Use the following enumeration types when manipulating RADIUS dictionary attributes on the SDO computer.
 

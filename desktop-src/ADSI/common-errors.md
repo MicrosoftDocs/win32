@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Common Errors
+# Common Errors (ADSI)
 
 All ADSI-specific errors have a hexadecimal form of 80005xxx. The most common error codes encountered are outlined in the following table.
 

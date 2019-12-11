@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Client Impersonation
+# Client Impersonation (Authorization)
 
 [*Impersonation*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) is the ability of a thread to execute using different security information than the process that owns the thread. Typically, a thread in a server application impersonates a client. This allows the server thread to act on behalf of that client to access objects on the server or validate access to the client's own objects.
 

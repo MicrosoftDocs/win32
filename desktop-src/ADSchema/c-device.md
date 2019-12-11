@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Device class
+# Device class (AD Schema)
 
 A generic base class for physical devices.
 

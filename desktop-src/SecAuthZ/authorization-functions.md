@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Authorization Functions
+# Authorization Functions (Authorization)
 
 The following functions are used with authorization applications.
 

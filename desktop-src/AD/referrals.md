@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Referrals
+# Referrals (AD DS)
 
 Active Directory Domain Services maintain referral data in [**crossRef**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossref) objects stored in the partitions container ([**crossRefContainer**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossrefcontainer)) in the configuration container. In the [Deciding Where to Search](where-to-search.md) topic, referrals are discussed in the context of a domain within a domain tree and the generation of referrals to subordinate domains on a subtree search.
 

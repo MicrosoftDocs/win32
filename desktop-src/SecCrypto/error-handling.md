@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling
+# Error Handling (Cryptography)
 
 In all of the C examples that accompany each function's documentation, the example function [**MyHandleError**](myhandleerror.md) is used to print an error message and exit a procedure. In real situations, more extensive error handling procedures may be required. For more information, see [Example Program Limitations](example-program-limitations.md).
 

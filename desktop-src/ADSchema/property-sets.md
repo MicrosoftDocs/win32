@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property Sets
+# Property Sets (AD Schema)
 
 The following property sets are defined by Active Directory.
 

@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# EsentInvalidColumnException constructor
+# EsentInvalidColumnException constructor overload list
 
 Include protected members  
 Include inherited members  
