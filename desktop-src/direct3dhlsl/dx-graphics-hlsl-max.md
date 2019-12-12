@@ -57,6 +57,8 @@ Denormals are handled as follows:
 | +inf        | +inf | +inf          | +inf | +inf |
 | NaN         | -inf | src1          | +inf | NaN  |
 
+F means finite-real number.
+
 
 ## Type Description
 
@@ -92,7 +94,7 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
-[**DirectX Functional Specification**](https://microsoft.github.io/DirectX-Specs/d3d/archive/D3D11_3_FunctionalSpec.htm#inst_MIN) 
+[**DirectX Functional Specification**](https://microsoft.github.io/DirectX-Specs/d3d/archive/D3D11_3_FunctionalSpec.htm#inst_MAX) 
 </dt> </dl>
  
  
