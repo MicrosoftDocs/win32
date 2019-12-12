@@ -42,7 +42,7 @@ Required keyword.
 <span id="Type"></span><span id="type"></span><span id="TYPE"></span>*Type*
 </dt> <dd>
 
-One of the [scalar](dx-graphics-hlsl-scalar.md), [vector](dx-graphics-hlsl-vector.md), and some [matrix](dx-graphics-hlsl-matrix.md) HLSL types. You can declare a buffer variable with a matrix as long as it fits in 4 32-bit quantities. So, you can write Buffer<float2x2>. But Buffer<float4x4> is too large, and the compiler will generate an error.
+One of the [scalar](dx-graphics-hlsl-scalar.md), [vector](dx-graphics-hlsl-vector.md), and some [matrix](dx-graphics-hlsl-matrix.md) HLSL types. You can declare a buffer variable with a matrix as long as it fits in 4 32-bit quantities. So, you can write `Buffer<float2x2>`. But `Buffer<float4x4>` is too large, and the compiler will generate an error.
 
 </dd> <dt>
 
