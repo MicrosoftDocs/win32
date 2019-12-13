@@ -125,34 +125,34 @@
       - name: "SCESVC_HANDLE"
         href: scesvc-handle.md
       - name: "SCESVC_INFO_TYPE"
-        href: /windows/desktop/api/Scesvc/ne-scesvc-_scesvc_info_type
+        href: /windows/win32/api/Scesvc/ne-scesvc-scesvc_info_type
     - name: "Security Management Enumerations"
       href: management-enumerations.md
       items: 
       - name: "CRED_FETCH"
         href: cred-fetch.md
       - name: "MSA_INFO_LEVEL"
-        href: /windows/desktop/api/Lmaccess/ne-lmaccess-_msa_info_level
+        href: /windows/win32/api/Lmaccess/ne-lmaccess-msa_info_level
       - name: "MSA_INFO_STATE"
-        href: /windows/desktop/api/Lmaccess/ne-lmaccess-_msa_info_state
+        href: /windows/win32/api/Lmaccess/ne-lmaccess-msa_info_state
       - name: "POLICY_AUDIT_EVENT_TYPE"
-        href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_audit_event_type
+        href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_audit_event_type
       - name: "POLICY_INFORMATION_CLASS"
-        href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_information_class
+        href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_information_class
       - name: "POLICY_LSA_SERVER_ROLE"
-        href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_lsa_server_role
+        href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_lsa_server_role
       - name: "POLICY_NOTIFICATION_INFORMATION_CLASS"
-        href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_notification_information_class
+        href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_notification_information_class
       - name: "POLICY_SERVER_ENABLE_STATE"
-        href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-_policy_server_enable_state
+        href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_server_enable_state
       - name: "SAFER_IDENTIFICATION_TYPES"
-        href: /windows/desktop/api/WinSafer/ne-winsafer-_safer_identification_types
+        href: /windows/win32/api/WinSafer/ne-winsafer-safer_identification_types
       - name: "SAFER_OBJECT_INFO_CLASS"
-        href: /windows/desktop/api/WinSafer/ne-winsafer-_safer_object_info_class
+        href: /windows/win32/api/WinSafer/ne-winsafer-safer_object_info_class
       - name: "SAFER_POLICY_INFO_CLASS"
-        href: /windows/desktop/api/WinSafer/ne-winsafer-_safer_policy_info_class
+        href: /windows/win32/api/WinSafer/ne-winsafer-safer_policy_info_class
       - name: "TRUSTED_INFORMATION_CLASS"
-        href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-_trusted_information_class
+        href: /windows/win32/api/Ntsecapi/ne-ntsecapi-trusted_information_class
     - name: "Security Management Functions"
       href: management-functions.md
       items: 
@@ -326,51 +326,51 @@
       href: management-structures.md
       items: 
       - name: "LSA_AUTH_INFORMATION"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_lsa_auth_information
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_auth_information
       - name: "LSA_ENUMERATION_INFORMATION"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_lsa_enumeration_information
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_enumeration_information
       - name: "LSA_OBJECT_ATTRIBUTES"
-        href: /windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_object_attributes
+        href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_object_attributes
       - name: "LSA_REFERENCED_DOMAIN_LIST"
         href: https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list
       - name: "LSA_TRANSLATED_NAME"
-        href: /windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_translated_name
+        href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_translated_name
       - name: "LSA_TRANSLATED_SID"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_lsa_translated_sid
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_translated_sid
       - name: "LSA_TRANSLATED_SID2"
-        href: /windows/desktop/api/LsaLookup/ns-lsalookup-_lsa_translated_sid2
+        href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_translated_sid2
       - name: "LSA_TRUST_INFORMATION"
-        href: /windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information
+        href: /windows/win32/api/lsalookup/ns-lsalookup-lsa_trust_information
       - name: "LSA_UNICODE_STRING"
-        href: /windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string
+        href: /windows/win32/api/lsalookup/ns-lsalookup-lsa_unicode_string
       - name: "MSA_INFO_0"
-        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_msa_info_0
+        href: /windows/win32/api/Lmaccess/ns-lmaccess-msa_info_0
       - name: "POLICY_ACCOUNT_DOMAIN_INFO"
-        href: /windows/desktop/api/LsaLookup/ns-lsalookup-_policy_account_domain_info
+        href: /windows/win32/api/LsaLookup/ns-lsalookup-policy_account_domain_info
       - name: "POLICY_AUDIT_EVENTS_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_policy_audit_events_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_audit_events_info
       - name: "POLICY_DNS_DOMAIN_INFO"
-        href: /windows/desktop/api/LsaLookup/ns-lsalookup-_policy_dns_domain_info
+        href: /windows/win32/api/LsaLookup/ns-lsalookup-policy_dns_domain_info
       - name: "POLICY_LSA_SERVER_ROLE_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_lsa_server_role_info
       - name: "POLICY_MODIFICATION_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_policy_modification_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_modification_info
       - name: "POLICY_PD_ACCOUNT_INFO"
         href: policy-pd-account-info.md
       - name: "POLICY_PRIMARY_DOMAIN_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_policy_primary_domain_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_primary_domain_info
       - name: "SAFER_CODE_PROPERTIES"
-        href: /windows/desktop/api/WinSafer/ns-winsafer-_safer_code_properties_v2
+        href: /windows/win32/api/WinSafer/ns-winsafer-safer_code_properties_v2
       - name: "SAFER_CODE_PROPERTIES_V1"
-        href: /windows/desktop/api/WinSafer/ns-winsafer-_safer_code_properties_v1
+        href: /windows/win32/api/WinSafer/ns-winsafer-safer_code_properties_v1
       - name: "SAFER_HASH_IDENTIFICATION"
-        href: /windows/desktop/api/WinSafer/ns-winsafer-_safer_hash_identification
+        href: /windows/win32/api/WinSafer/ns-winsafer-safer_hash_identification
       - name: "SAFER_IDENTIFICATION_HEADER"
-        href: /windows/desktop/api/WinSafer/ns-winsafer-_safer_identification_header
+        href: /windows/win32/api/WinSafer/ns-winsafer-safer_identification_header
       - name: "SAFER_PATHNAME_IDENTIFICATION"
-        href: /windows/desktop/api/WinSafer/ns-winsafer-_safer_pathname_identification
+        href: /windows/win32/api/WinSafer/ns-winsafer-safer_pathname_identification
       - name: "SAFER_URLZONE_IDENTIFICATION"
-        href: /windows/desktop/api/WinSafer/ns-winsafer-_safer_urlzone_identification
+        href: /windows/win32/api/WinSafer/ns-winsafer-safer_urlzone_identification
       - name: "SCESVC_ANALYSIS_INFO"
         href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_info_
       - name: "SCESVC_ANALYSIS_LINE"
@@ -382,16 +382,16 @@
       - name: "SCESVC_CONFIGURATION_LINE"
         href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_line_
       - name: "TRUSTED_DOMAIN_AUTH_INFORMATION"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_trusted_domain_auth_information
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_auth_information
       - name: "TRUSTED_DOMAIN_FULL_INFORMATION"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_trusted_domain_full_information
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_full_information
       - name: "TRUSTED_DOMAIN_INFORMATION_BASIC"
         href: trusted-domain-information-basic.md
       - name: "TRUSTED_DOMAIN_INFORMATION_EX"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_trusted_domain_information_ex
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_information_ex
       - name: "TRUSTED_DOMAIN_NAME_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_trusted_domain_name_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_name_info
       - name: "TRUSTED_PASSWORD_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_trusted_password_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_password_info
       - name: "TRUSTED_POSIX_OFFSET_INFO"
-        href: /windows/desktop/api/Ntsecapi/ns-ntsecapi-_trusted_posix_offset_info
+        href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_posix_offset_info

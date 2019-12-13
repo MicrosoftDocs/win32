@@ -56,4 +56,4 @@
       - name: "TBS_CONTEXT_PARAMS2"
         href: /windows/desktop/api/Tbs/ns-tbs-tdtbs_context_params2
       - name: "TPM_DEVICE_INFO"
-        href: /windows/desktop/api/Tbs/ns-tbs-_tpm_device_info
+        href: /windows/win32/api/Tbs/ns-tbs-tpm_device_info

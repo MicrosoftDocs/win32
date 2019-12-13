@@ -226,10 +226,10 @@
       - name: "ReportValueTypeConstants"
         href: /windows/desktop/api/ISysmon/ne-isysmon-ereportvaluetypeconstant
       - name: "SysmonBatchReason"
-        href: /windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0003
+        href: /windows/win32/api/ISysmon/ne-isysmon-sysmonbatchreason
       - name: "SysmonDataType"
-        href: /windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0002
+        href: /windows/win32/api/ISysmon/ne-isysmon-sysmondatatype
       - name: "SysmonFileType"
-        href: /windows/desktop/api/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0001
+        href: /windows/win32/api/ISysmon/ne-isysmon-sysmonfiletype
     - name: "SYSMON Return Values"
       href: sysmon-return-values.md

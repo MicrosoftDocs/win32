@@ -37,21 +37,21 @@
     href: accessibility-structures.md
     items: 
     - name: "ACCESSTIMEOUT"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagaccesstimeout
+      href: /windows/win32/api/Winuser/ns-winuser-accesstimeout
     - name: "FILTERKEYS"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagfilterkeys
+      href: /windows/win32/api/Winuser/ns-winuser-filterkeys
     - name: "HIGHCONTRAST"
-      href: /windows/desktop/api/Winuser/ns-winuser-taghighcontrasta
+      href: /windows/win32/api/Winuser/ns-winuser-highcontrasta
     - name: "MOUSEKEYS"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagmousekeys
+      href: /windows/win32/api/Winuser/ns-winuser-mousekeys
     - name: "SERIALKEYS"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagserialkeysa
+      href: /windows/win32/api/Winuser/ns-winuser-serialkeysa
     - name: "SOUNDSENTRY"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagsoundsentrya
+      href: /windows/win32/api/Winuser/ns-winuser-soundsentrya
     - name: "STICKYKEYS"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagstickykeys
+      href: /windows/win32/api/Winuser/ns-winuser-stickykeys
     - name: "TOGGLEKEYS"
-      href: /windows/desktop/api/Winuser/ns-winuser-tagtogglekeys
+      href: /windows/win32/api/Winuser/ns-winuser-togglekeys
   - name: "Checking the State of an Accessibility Parameter"
     href: checking-the-state-of-an-accessibility-parameter.md
   - name: "Enabling a Built-in Accessibility Feature"
@@ -2921,7 +2921,7 @@
           href: structures-and-data-types.md
           items: 
           - name: "MSAAMENUINFO"
-            href: /windows/desktop/api/Oleacc/ns-oleacc-tagmsaamenuinfo
+            href: /windows/win32/api/Oleacc/ns-oleacc-msaamenuinfo
           - name: "HWINEVENTHOOK"
             href: hwineventhook.md
           - name: "WINEVENTPROC"

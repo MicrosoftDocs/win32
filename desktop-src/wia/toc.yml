@@ -437,19 +437,19 @@
         - name: "DEVICEDIALOGDATA2"
           href: -wia-devicedialogdata2.md
         - name: "WIA_DATA_CALLBACK_HEADER"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_data_callback_header
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_data_callback_header
         - name: "WIA_DATA_TRANSFER_INFO"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_data_transfer_info
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_data_transfer_info
         - name: "WIA_DEV_CAP"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_dev_cap
         - name: "WIA_DITHER_PATTERN_DATA"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_dither_pattern_data
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_dither_pattern_data
         - name: "WIA_EXTENDED_TRANSFER_INFO"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_extended_transfer_info
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_extended_transfer_info
         - name: "WIA_FORMAT_INFO"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_format_info
         - name: "WIA_PROPID_TO_NAME"
-          href: /windows/desktop/api/wia_xp/ns-wia_xp-_wia_propid_to_name
+          href: /windows/win32/api/wia_xp/ns-wia_xp-wia_propid_to_name
         - name: "WIA_RAW_HEADER"
           href: -wia-wia-raw-header.md
         - name: "WiaTransferParams"
@@ -458,7 +458,7 @@
         href: -wia-enumerations.md
         items: 
         - name: "WIAVIDEO_STATE"
-          href: /windows/desktop/api/Wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001
+          href: /windows/win32/api/Wiavideo/ne-wiavideo-wiavideo_state
       - name: "Constants"
         href: -wia-constants.md
         items: 

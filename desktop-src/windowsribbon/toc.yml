@@ -583,9 +583,9 @@
       href: structures.md
       items: 
       - name: "UI_EVENTPARAMS"
-        href: /windows/desktop/api/Uiribbon/ns-uiribbon-_ui_eventparams
+        href: /windows/win32/api/Uiribbon/ns-uiribbon-ui_eventparams
       - name: "UI_EVENTPARAMS_COMMAND"
-        href: /windows/desktop/api/Uiribbon/ns-uiribbon-_ui_eventparams_command
+        href: /windows/win32/api/Uiribbon/ns-uiribbon-ui_eventparams_command
   - name: "Ribbon Framework Samples"
     href: windowsribbon-samples-entry.md
     items: 

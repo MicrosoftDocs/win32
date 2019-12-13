@@ -747,11 +747,11 @@
           href: winsock-ipx-spx-structures.md
           items: 
           - name: "IPX_ADDRESS_DATA"
-            href: /windows/desktop/api/Wsnwlink/ns-wsnwlink-_ipx_address_data
+            href: /windows/win32/api/Wsnwlink/ns-wsnwlink-ipx_address_data
           - name: "IPX_NETNUM_DATA"
-            href: /windows/desktop/api/Wsnwlink/ns-wsnwlink-_ipx_netnum_data
+            href: /windows/win32/api/Wsnwlink/ns-wsnwlink-ipx_netnum_data
           - name: "IPX_SPXCONNSTATUS_DATA"
-            href: /windows/desktop/api/Wsnwlink/ns-wsnwlink-_ipx_spxconnstatus_data
+            href: /windows/win32/api/Wsnwlink/ns-wsnwlink-ipx_spxconnstatus_data
       - name: "Winsock TCP/IP Annex"
         href: winsock-tcp-ip-annex.md
         items: 
@@ -772,9 +772,9 @@
           href: winsock-tcp-ip-structures.md
           items: 
           - name: "INTERFACE_INFO"
-            href: /windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info
+            href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-interface_info
           - name: "INTERFACE_INFO_EX"
-            href: /windows/desktop/api/Ws2ipdef/ns-ws2ipdef-_interface_info_ex
+            href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-interface_info_ex
           - name: "sockaddr_gen"
             href: /windows/desktop/api/Ws2ipdef/ns-ws2ipdef-sockaddr_gen
     - name: "Winsock Enumerations"
@@ -793,17 +793,17 @@
       - name: "NAPI_PROVIDER_TYPE"
         href: /windows/desktop/api/Nsemail/ne-nsemail-napi_provider_type_tag
       - name: "RIO_NOTIFICATION_COMPLETION_TYPE"
-        href: /windows/desktop/api/Mswsock/ne-mswsock-_rio_notification_completion_type
+        href: /windows/win32/api/Mswsock/ne-mswsock-rio_notification_completion_type
       - name: "SOCKET_SECURITY_PROTOCOL"
-        href: /windows/desktop/api/Mstcpip/ne-mstcpip-_socket_security_protocol
+        href: /windows/win32/api/Mstcpip/ne-mstcpip-socket_security_protocol
       - name: "SOCKET_USAGE_TYPE"
-        href: /windows/desktop/api/Mstcpip/ne-mstcpip-_socket_usage_type
+        href: /windows/win32/api/Mstcpip/ne-mstcpip-socket_usage_type
       - name: "TCPSTATE"
-        href: /windows/desktop/api/Mstcpip/ne-mstcpip-_tcpstate
+        href: /windows/win32/api/Mstcpip/ne-mstcpip-tcpstate
       - name: "WSAECOMPARATOR"
-        href: /windows/desktop/api/Winsock2/ne-winsock2-_wsaecomparator
+        href: /windows/win32/api/Winsock2/ne-winsock2-wsaecomparator
       - name: "WSC_PROVIDER_INFO_TYPE"
-        href: /windows/desktop/api/Ws2spi/ne-ws2spi-_wsc_provider_info_type
+        href: /windows/win32/api/Ws2spi/ne-ws2spi-wsc_provider_info_type
     - name: "Winsock Functions"
       href: winsock-functions.md
       items: 
@@ -1123,9 +1123,9 @@
       - name: "addrinfoex4"
         href: /windows/desktop/api/Ws2def/ns-ws2def-addrinfoex4
       - name: "AFPROTOCOLS"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_afprotocols
+        href: /windows/win32/api/Winsock2/ns-winsock2-afprotocols
       - name: "ASSOCIATE_NAMERES_CONTEXT_INPUT"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_associate_nameres_context_input
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-associate_nameres_context_input
       - name: "BLOB"
         href: https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob
       - name: "CSADDR_INFO"
@@ -1149,7 +1149,7 @@
       - name: "in6_pktinfo"
         href: /windows/desktop/api/Ws2ipdef/ns-ws2ipdef-in6_pktinfo
       - name: "INET_PORT_RANGE"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_inet_port_range
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-inet_port_range
       - name: "INET_PORT_RESERVATION_INSTANCE"
         href: /windows/desktop/api/Mstcpip/ns-mstcpip-inet_port_reservation_instance
       - name: "INET_PORT_RESERVATION_TOKEN"
@@ -1169,117 +1169,117 @@
       - name: "NAPI_PROVIDER_INSTALLATION_BLOB"
         href: /windows/desktop/api/Nsemail/ns-nsemail-napi_provider_installation_blob_tag
       - name: "NS_SERVICE_INFO"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_ns_service_infoa
+        href: /windows/win32/api/Nspapi/ns-nspapi-ns_service_infoa
       - name: "PROTOCOL_INFO"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_protocol_infoa
+        href: /windows/win32/api/Nspapi/ns-nspapi-protocol_infoa
       - name: "protoent"
         href: /windows/desktop/api/winsock/ns-winsock-protoent
       - name: "REAL_TIME_NOTIFICATION_SETTING_INPUT"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_input
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input
       - name: "REAL_TIME_NOTIFICATION_SETTING_OUTPUT"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_real_time_notification_setting_output
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-real_time_notification_setting_output
       - name: "RIO_EXTENSION_FUNCTION_TABLE"
         href: https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_rio_extension_function_table
       - name: "RIO_BUF"
-        href: /windows/desktop/api/Mswsockdef/ns-mswsockdef-_rio_buf
+        href: /windows/win32/api/Mswsockdef/ns-mswsockdef-rio_buf
       - name: "RIO_BUFFERID"
         href: rio-bufferid.md
       - name: "RIO_CQ"
         href: riocqueue.md
       - name: "RIO_NOTIFICATION_COMPLETION"
-        href: /windows/desktop/api/Mswsock/ns-mswsock-_rio_notification_completion
+        href: /windows/win32/api/Mswsock/ns-mswsock-rio_notification_completion
       - name: "RIO_RQ"
         href: riorqueue.md
       - name: "RIORESULT"
-        href: /windows/desktop/api/Mswsockdef/ns-mswsockdef-_rioresult
+        href: /windows/win32/api/Mswsockdef/ns-mswsockdef-rioresult
       - name: "RM_FEC_INFO"
-        href: /windows/desktop/api/Wsrm/ns-wsrm-_rm_fec_info
+        href: /windows/win32/api/Wsrm/ns-wsrm-rm_fec_info
       - name: "RM_RECEIVER_STATS"
-        href: /windows/desktop/api/Wsrm/ns-wsrm-_rm_receiver_stats
+        href: /windows/win32/api/Wsrm/ns-wsrm-rm_receiver_stats
       - name: "RM_SEND_WINDOW"
-        href: /windows/desktop/api/Wsrm/ns-wsrm-_rm_send_window
+        href: /windows/win32/api/Wsrm/ns-wsrm-rm_send_window
       - name: "RM_SENDER_STATS"
-        href: /windows/desktop/api/Wsrm/ns-wsrm-_rm_sender_stats
+        href: /windows/win32/api/Wsrm/ns-wsrm-rm_sender_stats
       - name: "servent"
         href: /windows/desktop/api/winsock/ns-winsock-servent
       - name: "SERVICE_ADDRESS"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_service_address
+        href: /windows/win32/api/Nspapi/ns-nspapi-service_address
       - name: "SERVICE_ADDRESSES"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_service_addresses
+        href: /windows/win32/api/Nspapi/ns-nspapi-service_addresses
       - name: "SERVICE_INFO"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_service_infoa
+        href: /windows/win32/api/Nspapi/ns-nspapi-service_infoa
       - name: "SERVICE_TYPE_INFO_ABS"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_service_type_info_absa
+        href: /windows/win32/api/Nspapi/ns-nspapi-service_type_info_absa
       - name: "SERVICE_TYPE_VALUE_ABS"
-        href: /windows/desktop/api/Nspapi/ns-nspapi-_service_type_value_absa
+        href: /windows/win32/api/Nspapi/ns-nspapi-service_type_value_absa
       - name: "sockaddr"
         href: sockaddr-2.md
       - name: "SOCKADDR_IRDA"
-        href: /windows/desktop/api/Af_irda/ns-af_irda-_sockaddr_irda
+        href: /windows/win32/api/Af_irda/ns-af_irda-sockaddr_irda
       - name: "SOCKADDR_STORAGE"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)
       - name: "SOCKET_ADDRESS"
-        href: /windows/desktop/api/Ws2def/ns-ws2def-_socket_address
+        href: /windows/win32/api/Ws2def/ns-ws2def-socket_address
       - name: "SOCKET_ADDRESS_LIST"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)
       - name: "SOCKET_PEER_TARGET_NAME"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_socket_peer_target_name
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-socket_peer_target_name
       - name: "SOCKET_PROCESSOR_AFFINITY"
-        href: /windows/desktop/api/Ws2def/ns-ws2def-_socket_processor_affinity
+        href: /windows/win32/api/Ws2def/ns-ws2def-socket_processor_affinity
       - name: "SOCKET_SECURITY_QUERY_INFO"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_query_info
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-socket_security_query_info
       - name: "SOCKET_SECURITY_QUERY_TEMPLATE"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_query_template
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-socket_security_query_template
       - name: "SOCKET_SECURITY_SETTINGS"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_settings
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-socket_security_settings
       - name: "SOCKET_SECURITY_SETTINGS_IPSEC"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_socket_security_settings_ipsec
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-socket_security_settings_ipsec
       - name: "TCP_INFO_v0"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_tcp_info_v0
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-tcp_info_v0
       - name: "TCP_INITIAL_RTO_PARAMETERS"
-        href: /windows/desktop/api/Mstcpip/ns-mstcpip-_tcp_initial_rto_parameters
+        href: /windows/win32/api/Mstcpip/ns-mstcpip-tcp_initial_rto_parameters
       - name: "timeval"
         href: /windows/desktop/api/winsock/ns-winsock-timeval
       - name: "TRANSMIT_FILE_BUFFERS"
-        href: /windows/desktop/api/mswsock/ns-mswsock-_transmit_file_buffers
+        href: /windows/win32/api/mswsock/ns-mswsock-transmit_file_buffers
       - name: "TRANSMIT_PACKETS_ELEMENT"
-        href: /windows/desktop/api/Mswsock/ns-mswsock-_transmit_packets_element
+        href: /windows/win32/api/Mswsock/ns-mswsock-transmit_packets_element
       - name: "TRANSPORT_SETTING_ID"
         href: https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id
       - name: "WSABUF"
-        href: /windows/desktop/api/ws2def/ns-ws2def-_wsabuf
+        href: /windows/win32/api/ws2def/ns-ws2def-wsabuf
       - name: "WSACOMPLETION"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsacompletion
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsacompletion
       - name: "WSADATA"
         href: /windows/desktop/api/winsock/ns-winsock-wsadata
       - name: "WSAMSG"
-        href: /windows/desktop/api/Ws2def/ns-ws2def-_wsamsg
+        href: /windows/win32/api/Ws2def/ns-ws2def-wsamsg
       - name: "WSANAMESPACE_INFO"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsanamespace_infow
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsanamespace_infow
       - name: "WSANAMESPACE_INFOEX"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsanamespace_infoexw
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsanamespace_infoexw
       - name: "WSANETWORKEVENTS"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsanetworkevents
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsanetworkevents
       - name: "WSANSCLASSINFO"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsansclassinfow
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsansclassinfow
       - name: "WSAOVERLAPPED"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaoverlapped
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaoverlapped
       - name: "WSAPOLLFD"
         href: /windows/desktop/api/Winsock2/ns-winsock2-pollfd
       - name: "WSAPROTOCOL_INFO"
         href: https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa
       - name: "WSAPROTOCOL_INFOW"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaprotocol_infow
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaprotocol_infow
       - name: "WSAPROTOCOLCHAIN"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaprotocolchain
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaprotocolchain
       - name: "WSAQUERYSET"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaquerysetw
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaquerysetw
       - name: "WSAQUERYSET2"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaqueryset2w
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaqueryset2w
       - name: "WSASERVICECLASSINFO"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaserviceclassinfow
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaserviceclassinfow
       - name: "WSAVERSION"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-_wsaversion
+        href: /windows/win32/api/Winsock2/ns-winsock2-wsaversion
     - name: "Winsock Tracing Events"
       href: winsock-tracing-events.md
       items: 
@@ -1507,18 +1507,18 @@
         href: winsock-spi-structures.md
         items: 
         - name: "NSP_ROUTINE"
-          href: /windows/desktop/api/Ws2spi/ns-ws2spi-_nsp_routine
+          href: /windows/win32/api/Ws2spi/ns-ws2spi-nsp_routine
         - name: "NSPV2_ROUTINE"
-          href: /windows/desktop/api/Ws2spi/ns-ws2spi-_nspv2_routine
+          href: /windows/win32/api/Ws2spi/ns-ws2spi-nspv2_routine
         - name: "WSATHREADID"
-          href: /windows/desktop/api/Ws2spi/ns-ws2spi-_wsathreadid
+          href: /windows/win32/api/Ws2spi/ns-ws2spi-wsathreadid
         - name: "WSC_PROVIDER_AUDIT_INFO"
-          href: /windows/desktop/api/Ws2spi/ns-ws2spi-_wsc_provider_audit_info
+          href: /windows/win32/api/Ws2spi/ns-ws2spi-wsc_provider_audit_info
         - name: "WSPDATA"
           href: /windows/desktop/api/Ws2spi/ns-ws2spi-wspdata
         - name: "WSPPROC_TABLE"
-          href: /windows/desktop/api/Ws2spi/ns-ws2spi-_wspproc_table
+          href: /windows/win32/api/Ws2spi/ns-ws2spi-wspproc_table
         - name: "WSPUPCALLTABLE"
-          href: /windows/desktop/api/Ws2spi/ns-ws2spi-_wspupcalltable
+          href: /windows/win32/api/Ws2spi/ns-ws2spi-wspupcalltable
     - name: "Windows Sockets Error Codes"
       href: windows-sockets-error-codes-2.md

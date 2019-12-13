@@ -7,15 +7,15 @@
     href: web-socket-protocol-component-api-enumerations.md
     items: 
     - name: "WEB_SOCKET_ACTION"
-      href: /windows/desktop/api/Websocket/ne-websocket-_web_socket_action
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_action
     - name: "WEB_SOCKET_ACTION_QUEUE"
-      href: /windows/desktop/api/Websocket/ne-websocket-_web_socket_action_queue
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_action_queue
     - name: "WEB_SOCKET_BUFFER_TYPE"
-      href: /windows/desktop/api/Websocket/ne-websocket-_web_socket_buffer_type
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_buffer_type
     - name: "WEB_SOCKET_CLOSE_STATUS"
-      href: /windows/desktop/api/Websocket/ne-websocket-_web_socket_close_status
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_close_status
     - name: "WEB_SOCKET_PROPERTY_TYPE"
-      href: /windows/desktop/api/Websocket/ne-websocket-_web_socket_property_type
+      href: /windows/win32/api/Websocket/ne-websocket-web_socket_property_type
   - name: "WebSocket Protocol Component API Functions"
     href: web-socket-protocol-component-api-functions.md
     items: 
@@ -49,8 +49,8 @@
     href: web-socket-protocol-component-api-structures.md
     items: 
     - name: "WEB_SOCKET_BUFFER"
-      href: /windows/desktop/api/Websocket/ns-websocket-_web_socket_buffer
+      href: /windows/win32/api/Websocket/ns-websocket-web_socket_buffer
     - name: "WEB_SOCKET_HTTP_HEADER"
-      href: /windows/desktop/api/Websocket/ns-websocket-_web_socket_http_header
+      href: /windows/win32/api/Websocket/ns-websocket-web_socket_http_header
     - name: "WEB_SOCKET_PROPERTY"
-      href: /windows/desktop/api/Websocket/ns-websocket-_web_socket_property
+      href: /windows/win32/api/Websocket/ns-websocket-web_socket_property

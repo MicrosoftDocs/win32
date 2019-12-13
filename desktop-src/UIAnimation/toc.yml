@@ -56,29 +56,29 @@
       href: -enumerations-main.md
       items: 
       - name: "UI_ANIMATION_DEPENDENCIES"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0010_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_dependencies
       - name: "UI_ANIMATION_IDLE_BEHAVIOR"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0012_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_idle_behavior
       - name: "UI_ANIMATION_MANAGER_STATUS"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0002
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_manager_status
       - name: "UI_ANIMATION_MODE"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0003
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_mode
       - name: "UI_ANIMATION_PRIORITY_EFFECT"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0008_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_priority_effect
       - name: "UI_ANIMATION_REPEAT_MODE"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0004
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_repeat_mode
       - name: "UI_ANIMATION_ROUNDING_MODE"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0001_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_rounding_mode
       - name: "UI_ANIMATION_SCHEDULING_RESULT"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0002_0002
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_scheduling_result
       - name: "UI_ANIMATION_SLOPE"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0009_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_slope
       - name: "UI_ANIMATION_STORYBOARD_STATUS"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0002_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_storyboard_status
       - name: "UI_ANIMATION_TIMER_CLIENT_STATUS"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0014_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_timer_client_status
       - name: "UI_ANIMATION_UPDATE_RESULT"
-        href: /windows/desktop/api/UIAnimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0001
+        href: /windows/win32/api/UIAnimation/ne-uianimation-ui_animation_update_result
     - name: "Interfaces"
       href: -interfaces-main.md
       items: 

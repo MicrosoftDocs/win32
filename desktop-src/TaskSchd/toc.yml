@@ -1355,17 +1355,17 @@
       href: task-scheduler-structures-and-unions.md
       items: 
       - name: "DAILY"
-        href: /windows/desktop/api/Mstask/ns-mstask-_daily
+        href: /windows/win32/api/Mstask/ns-mstask-daily
       - name: "MONTHLYDATE"
-        href: /windows/desktop/api/Mstask/ns-mstask-_monthlydate
+        href: /windows/win32/api/Mstask/ns-mstask-monthlydate
       - name: "MONTHLYDOW"
-        href: /windows/desktop/api/Mstask/ns-mstask-_monthlydow
+        href: /windows/win32/api/Mstask/ns-mstask-monthlydow
       - name: "TASK_TRIGGER"
-        href: /windows/desktop/api/Mstask/ns-mstask-_task_trigger
+        href: /windows/win32/api/Mstask/ns-mstask-task_trigger
       - name: "TRIGGER_TYPE_UNION"
-        href: /windows/desktop/api/Mstask/ns-mstask-_trigger_type_union
+        href: /windows/win32/api/Mstask/ns-mstask-trigger_type_union
       - name: "WEEKLY"
-        href: /windows/desktop/api/Mstask/ns-mstask-_weekly
+        href: /windows/win32/api/Mstask/ns-mstask-weekly
     - name: "Task Scheduler Enumerated Types"
       href: task-scheduler-enumerated-types.md
       items: 
@@ -1373,36 +1373,36 @@
         href: task-scheduler-1-0-enumerated-types.md
         items: 
         - name: "TASK_TRIGGER_TYPE"
-          href: /windows/desktop/api/Mstask/ne-mstask-_task_trigger_type
+          href: /windows/win32/api/Mstask/ne-mstask-task_trigger_type
         - name: "TASKPAGE"
-          href: /windows/desktop/api/Mstask/ne-mstask-_taskpage
+          href: /windows/win32/api/Mstask/ne-mstask-taskpage
       - name: "Task Scheduler 2.0 Enumerated Types"
         href: task-scheduler-2-0-enumerated-types.md
         items: 
         - name: "TASK_ACTION_TYPE"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_action_type
+          href: /windows/win32/api/taskschd/ne-taskschd-task_action_type
         - name: "TASK_COMPATIBILITY"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_compatibility
+          href: /windows/win32/api/taskschd/ne-taskschd-task_compatibility
         - name: "TASK_CREATION"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_creation
+          href: /windows/win32/api/taskschd/ne-taskschd-task_creation
         - name: "TASK_ENUM_FLAGS"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_enum_flags
+          href: /windows/win32/api/taskschd/ne-taskschd-task_enum_flags
         - name: "TASK_INSTANCES_POLICY"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_instances_policy
+          href: /windows/win32/api/taskschd/ne-taskschd-task_instances_policy
         - name: "TASK_LOGON_TYPE"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_logon_type
+          href: /windows/win32/api/taskschd/ne-taskschd-task_logon_type
         - name: "TASK_PROCESSTOKENSID_TYPE"
           href: /windows/desktop/api/taskschd/ne-taskschd-_task_processtokensid
         - name: "TASK_RUNLEVEL_TYPE"
           href: /windows/desktop/api/taskschd/ne-taskschd-_task_runlevel
         - name: "TASK_RUN_FLAGS"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_run_flags
+          href: /windows/win32/api/taskschd/ne-taskschd-task_run_flags
         - name: "TASK_SESSION_STATE_CHANGE_TYPE"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_session_state_change_type
+          href: /windows/win32/api/taskschd/ne-taskschd-task_session_state_change_type
         - name: "TASK_STATE"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_state
+          href: /windows/win32/api/taskschd/ne-taskschd-task_state
         - name: "TASK_TRIGGER_TYPE2"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2
+          href: /windows/win32/api/taskschd/ne-taskschd-task_trigger_type2
     - name: "Task Scheduler Schema"
       href: task-scheduler-schema.md
       items: 

@@ -957,11 +957,11 @@
         - name: "CQFORM"
           href: /windows/desktop/api/Cmnquery/ns-cmnquery-cqform
         - name: "CQPAGE"
-          href: /windows/desktop/api/Cmnquery/ns-cmnquery-_cqpage
+          href: /windows/win32/api/Cmnquery/ns-cmnquery-cqpage
         - name: "DSA_SEC_PAGE_INFO"
           href: dsa-sec-page-info.md
         - name: "DOMAINDESC"
-          href: /windows/desktop/api/Dsclient/ns-dsclient-_domaindesc
+          href: /windows/win32/api/Dsclient/ns-dsclient-domaindesc
         - name: "DOMAINTREE"
           href: /windows/desktop/api/Dsclient/ns-dsclient-domain_tree
         - name: "DSBITEM"
@@ -973,7 +973,7 @@
         - name: "DSCOLUMN"
           href: /windows/desktop/api/Dsquery/ns-dsquery-dscolumn
         - name: "DSDISPLAYSPECOPTIONS"
-          href: /windows/desktop/api/Dsclient/ns-dsclient-_dsdisplayspecoptions
+          href: /windows/win32/api/Dsclient/ns-dsclient-dsdisplayspecoptions
         - name: "DSOBJECT"
           href: /windows/desktop/api/Dsclient/ns-dsclient-dsobject
         - name: "DSOBJECTNAMES"
@@ -994,9 +994,9 @@
         href: mmc-property-page-structures-in-active-directory-domain-services.md
         items: 
         - name: "ADSPROPERROR"
-          href: /windows/desktop/api/Adsprop/ns-adsprop-_adsproperror
+          href: /windows/win32/api/Adsprop/ns-adsprop-adsproperror
         - name: "ADSPROPINITPARAMS"
-          href: /windows/desktop/api/Adsprop/ns-adsprop-_adspropinitparams
+          href: /windows/win32/api/Adsprop/ns-adsprop-adspropinitparams
       - name: "Domain Controller and Replication Management Structures"
         href: domain-controller-and-replication-management-structures.md
         items: 
@@ -1011,65 +1011,65 @@
         - name: "DS_NAME_RESULT_ITEM"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_result_itema
         - name: "DS_REPL_ATTR_META_DATA"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data
         - name: "DS_REPL_ATTR_META_DATA_2"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2
         - name: "DS_REPL_ATTR_META_DATA_BLOB"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_blob
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_blob
         - name: "DS_REPL_ATTR_VALUE_META_DATA"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data
         - name: "DS_REPL_ATTR_VALUE_META_DATA_2"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data_2
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2
         - name: "DS_REPL_ATTR_VALUE_META_DATA_EXT"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data_ext
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext
         - name: "DS_REPL_CURSOR"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursor
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor
         - name: "DS_REPL_CURSOR_2"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursor_2
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_2
         - name: "DS_REPL_CURSOR_3"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursor_3w
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_3w
         - name: "DS_REPL_CURSOR_BLOB"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursor_blob
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_blob
         - name: "DS_REPL_CURSORS"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursors
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors
         - name: "DS_REPL_CURSORS_2"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursors_2
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_2
         - name: "DS_REPL_CURSORS_3"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_cursors_3w
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_3w
         - name: "DS_REPL_KCC_DSA_FAILURE"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew
         - name: "DS_REPL_KCC_DSA_FAILURES"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failuresw
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw
         - name: "DS_REPL_KCC_DSA_FAILUREW_BLOB"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew_blob
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew_blob
         - name: "DS_REPL_NEIGHBOR"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw
         - name: "DS_REPL_NEIGHBORS"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_neighborsw
         - name: "DS_REPL_NEIGHBORW_BLOB"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw_blob
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw_blob
         - name: "DS_REPL_OBJ_META_DATA"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data
         - name: "DS_REPL_OBJ_META_DATA_2"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data_2
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2
         - name: "DS_REPL_OP"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_opw
         - name: "DS_REPL_OPW_BLOB"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_opw_blob
         - name: "DS_REPL_PENDING_OPS"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_pending_opsw
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_pending_opsw
         - name: "DS_REPL_QUEUE_STATISTICSW"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_queue_statisticsw
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_queue_statisticsw
         - name: "DS_REPL_VALUE_META_DATA"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data
         - name: "DS_REPL_VALUE_META_DATA_2"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_2
         - name: "DS_REPL_VALUE_META_DATA_BLOB"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob
         - name: "DS_REPL_VALUE_META_DATA_BLOB_EXT"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob_ext
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_blob_ext
         - name: "DS_REPL_VALUE_META_DATA_EXT"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_ext
+          href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext
         - name: "DS_REPSYNCALL_ERRINFO"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa
         - name: "DS_REPSYNCALL_SYNC"
@@ -1081,22 +1081,22 @@
         - name: "DS_SITE_COST_INFO"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_site_cost_info
         - name: "SCHEDULE"
-          href: /windows/desktop/api/Schedule/ns-schedule-_schedule
+          href: /windows/win32/api/Schedule/ns-schedule-schedule
         - name: "SCHEDULE_HEADER"
-          href: /windows/desktop/api/Schedule/ns-schedule-_schedule_header
+          href: /windows/win32/api/Schedule/ns-schedule-schedule_header
       - name: "Directory Service Structures"
         href: directory-service-structures.md
         items: 
         - name: "DOMAIN_CONTROLLER_INFO"
-          href: /windows/desktop/api/Dsgetdc/ns-dsgetdc-_domain_controller_infoa
+          href: /windows/win32/api/Dsgetdc/ns-dsgetdc-domain_controller_infoa
         - name: "DS_DOMAIN_TRUSTS"
-          href: /windows/desktop/api/Dsgetdc/ns-dsgetdc-_ds_domain_trustsa
+          href: /windows/win32/api/Dsgetdc/ns-dsgetdc-ds_domain_trustsa
         - name: "DSROLE_OPERATION_STATE_INFO"
-          href: /windows/desktop/api/Dsrole/ns-dsrole-_dsrole_operation_state_info
+          href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_operation_state_info
         - name: "DSROLE_PRIMARY_DOMAIN_INFO_BASIC"
-          href: /windows/desktop/api/Dsrole/ns-dsrole-_dsrole_primary_domain_info_basic
+          href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_primary_domain_info_basic
         - name: "DSROLE_UPGRADE_STATUS_INFO"
-          href: /windows/desktop/api/Dsrole/ns-dsrole-_dsrole_upgrade_status_info
+          href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_upgrade_status_info
       - name: "Directory Backup Structures"
         href: directory-backup-structures.md
         items: 
@@ -1106,24 +1106,24 @@
         href: object-picker-dialog-box-structures.md
         items: 
         - name: "DS_SELECTION"
-          href: /windows/desktop/api/Objsel/ns-objsel-_ds_selection
+          href: /windows/win32/api/Objsel/ns-objsel-ds_selection
         - name: "DS_SELECTION_LIST"
-          href: /windows/desktop/api/Objsel/ns-objsel-_ds_selection_list
+          href: /windows/win32/api/Objsel/ns-objsel-ds_selection_list
         - name: "DSOP_FILTER_FLAGS"
-          href: /windows/desktop/api/Objsel/ns-objsel-_dsop_filter_flags
+          href: /windows/win32/api/Objsel/ns-objsel-dsop_filter_flags
         - name: "DSOP_INIT_INFO"
-          href: /windows/desktop/api/Objsel/ns-objsel-_dsop_init_info
+          href: /windows/win32/api/Objsel/ns-objsel-dsop_init_info
         - name: "DSOP_SCOPE_INIT_INFO"
-          href: /windows/desktop/api/Objsel/ns-objsel-_dsop_scope_init_info
+          href: /windows/win32/api/Objsel/ns-objsel-dsop_scope_init_info
         - name: "DSOP_UPLEVEL_FILTER_FLAGS"
-          href: /windows/desktop/api/Objsel/ns-objsel-_dsop_uplevel_filter_flags
+          href: /windows/win32/api/Objsel/ns-objsel-dsop_uplevel_filter_flags
     - name: "Enumerations in Active Directory Domain Services"
       href: enumerations-in-active-directory-domain-services.md
       items: 
       - name: "DS_KCC_TASKID"
         href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_kcc_taskid
       - name: "DS_MANGLE_FOR"
-        href: /windows/desktop/api/Dsparse/ne-dsparse-_ds_mangle_for
+        href: /windows/win32/api/Dsparse/ne-dsparse-ds_mangle_for
       - name: "DS_NAME_ERROR"
         href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_error
       - name: "DS_NAME_FLAGS"
@@ -1131,9 +1131,9 @@
       - name: "DS_NAME_FORMAT"
         href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_format
       - name: "DS_REPL_INFO_TYPE"
-        href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-_ds_repl_info_type
+        href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_info_type
       - name: "DS_REPL_OP_TYPE"
-        href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-_ds_repl_op_type
+        href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_op_type
       - name: "DS_REPSYNCALL_ERROR"
         href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_error
       - name: "DS_REPSYNCALL_EVENT"
@@ -1143,13 +1143,13 @@
       - name: "DS_SPN_WRITE_OP"
         href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_write_op
       - name: "DSROLE_MACHINE_ROLE"
-        href: /windows/desktop/api/Dsrole/ne-dsrole-_dsrole_machine_role
+        href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_machine_role
       - name: "DSROLE_OPERATION_STATE"
-        href: /windows/desktop/api/Dsrole/ne-dsrole-_dsrole_operation_state
+        href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_operation_state
       - name: "DSROLE_PRIMARY_DOMAIN_INFO_LEVEL"
-        href: /windows/desktop/api/Dsrole/ne-dsrole-_dsrole_primary_domain_info_level
+        href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_primary_domain_info_level
       - name: "DSROLE_SERVER_STATE"
-        href: /windows/desktop/api/Dsrole/ne-dsrole-_dsrole_server_state
+        href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_server_state
     - name: "Functions in Active Directory Domain Services"
       href: functions-in-active-directory-domain-services.md
       items: 

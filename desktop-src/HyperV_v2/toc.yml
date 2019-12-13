@@ -20,7 +20,7 @@
       href: hyper-v-management-structures.md
       items: 
       - name: "VM_GENCOUNTER"
-        href: /windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter
+        href: /windows/win32/api/Vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter
 - name: "Hyper-V WMI provider (V2)"
   href: windows-virtualization-portal.md
   items: 

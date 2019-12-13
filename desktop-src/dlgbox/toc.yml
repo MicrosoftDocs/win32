@@ -104,7 +104,7 @@
       - name: "DLGTEMPLATEEX"
         href: dlgtemplateex.md
       - name: "MSGBOXPARAMS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagmsgboxparamsa
+        href: /windows/win32/api/Winuser/ns-winuser-msgboxparamsa
     - name: "Dialog Box Styles"
       href: dialog-box-styles.md
   - name: "Common Dialog Box Library"
@@ -149,7 +149,7 @@
         - name: "ChooseColor"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)
         - name: "ChooseFont"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta
+          href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
         - name: "CommDlgExtendedError"
           href: /windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror
         - name: "FindText"
@@ -275,21 +275,21 @@
         href: common-dialog-box-structures.md
         items: 
         - name: "CHOOSECOLOR"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagchoosecolora
+          href: /windows/win32/api/Commdlg/ns-commdlg-choosecolora~r1
         - name: "CHOOSEFONT"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta
+          href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
         - name: "DEVNAMES"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagdevnames
+          href: /windows/win32/api/Commdlg/ns-commdlg-devnames
         - name: "FINDREPLACE"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagfindreplacea
+          href: /windows/win32/api/Commdlg/ns-commdlg-findreplacea
         - name: "OFNOTIFY"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya
+          href: /windows/win32/api/Commdlg/ns-commdlg-ofnotifya
         - name: "OFNOTIFYEX"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa
+          href: /windows/win32/api/Commdlg/ns-commdlg-ofnotifyexa
         - name: "OPENFILENAME"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagofna
+          href: /windows/win32/api/Commdlg/ns-commdlg-openfilenamea
         - name: "OPENFILENAME_NT4"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagofn_nt4a
+          href: /windows/win32/api/Commdlg/ns-commdlg-openfilename_nt4a
         - name: "PAGESETUPDLG"
           href: /windows/desktop/api/Commdlg/ns-commdlg-tagpsda
         - name: "PRINTDLG"
@@ -297,4 +297,4 @@
         - name: "PRINTDLGEX"
           href: /windows/desktop/api/Commdlg/ns-commdlg-tagpdexa
         - name: "PRINTPAGERANGE"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagprintpagerange
+          href: /windows/win32/api/Commdlg/ns-commdlg-printpagerange

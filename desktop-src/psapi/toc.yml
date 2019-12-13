@@ -79,24 +79,24 @@
       href: psapi-structures.md
       items: 
       - name: "ENUM_PAGE_FILE_INFORMATION"
-        href: /windows/desktop/api/Psapi/ns-psapi-_enum_page_file_information
+        href: /windows/win32/api/Psapi/ns-psapi-enum_page_file_information
       - name: "MODULEINFO"
-        href: /windows/desktop/api/Psapi/ns-psapi-_moduleinfo
+        href: /windows/win32/api/Psapi/ns-psapi-moduleinfo
       - name: "PERFORMANCE_INFORMATION"
-        href: /windows/desktop/api/Psapi/ns-psapi-_performance_information
+        href: /windows/win32/api/Psapi/ns-psapi-performance_information
       - name: "PROCESS_MEMORY_COUNTERS"
-        href: /windows/desktop/api/Psapi/ns-psapi-_process_memory_counters
+        href: /windows/win32/api/Psapi/ns-psapi-process_memory_counters
       - name: "PROCESS_MEMORY_COUNTERS_EX"
-        href: /windows/desktop/api/Psapi/ns-psapi-_process_memory_counters_ex
+        href: /windows/win32/api/Psapi/ns-psapi-process_memory_counters_ex
       - name: "PSAPI_WORKING_SET_BLOCK"
-        href: /windows/desktop/api/Psapi/ns-psapi-_psapi_working_set_block
+        href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_block
       - name: "PSAPI_WORKING_SET_EX_BLOCK"
-        href: /windows/desktop/api/Psapi/ns-psapi-_psapi_working_set_ex_block
+        href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_ex_block
       - name: "PSAPI_WORKING_SET_EX_INFORMATION"
-        href: /windows/desktop/api/Psapi/ns-psapi-_psapi_working_set_ex_information
+        href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_ex_information
       - name: "PSAPI_WORKING_SET_INFORMATION"
-        href: /windows/desktop/api/Psapi/ns-psapi-_psapi_working_set_information
+        href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_information
       - name: "PSAPI_WS_WATCH_INFORMATION"
-        href: /windows/desktop/api/Psapi/ns-psapi-_psapi_ws_watch_information
+        href: /windows/win32/api/Psapi/ns-psapi-psapi_ws_watch_information
       - name: "PSAPI_WS_WATCH_INFORMATION_EX"
-        href: /windows/desktop/api/Psapi/ns-psapi-_psapi_ws_watch_information_ex
+        href: /windows/win32/api/Psapi/ns-psapi-psapi_ws_watch_information_ex

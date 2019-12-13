@@ -320,15 +320,15 @@
       - name: "INTERNET_AUTH_NOTIFY_DATA"
         href: /windows/desktop/api/Wininet/ns-wininet-__unnamed_struct_4
       - name: "INTERNET_BUFFERS"
-        href: /windows/desktop/api/Wininet/ns-wininet-_internet_buffersa
+        href: /windows/win32/api/Wininet/ns-wininet-internet_buffersa
       - name: "INTERNET_CACHE_CONFIG_INFO"
-        href: /windows/desktop/api/Winineti/ns-winineti-_internet_cache_config_infoa
+        href: /windows/win32/api/Winineti/ns-winineti-internet_cache_config_infoa
       - name: "INTERNET_CACHE_ENTRY_INFO"
-        href: /windows/desktop/api/Wininet/ns-wininet-_internet_cache_entry_infoa
+        href: /windows/win32/api/Wininet/ns-wininet-internet_cache_entry_infoa
       - name: "INTERNET_CACHE_GROUP_INFO"
-        href: /windows/desktop/api/Wininet/ns-wininet-_internet_cache_group_infoa
+        href: /windows/win32/api/Wininet/ns-wininet-internet_cache_group_infoa
       - name: "INTERNET_CACHE_TIMESTAMPS"
-        href: /windows/desktop/api/Wininet/ns-wininet-_internet_cache_timestamps
+        href: /windows/win32/api/Wininet/ns-wininet-internet_cache_timestamps
       - name: "INTERNET_CERTIFICATE_INFO"
         href: /windows/desktop/api/Wininet/ns-wininet-internet_certificate_info
       - name: "INTERNET_CONNECTED_INFO"

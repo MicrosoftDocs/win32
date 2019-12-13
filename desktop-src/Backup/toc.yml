@@ -75,22 +75,22 @@
       href: backup-structures.md
       items: 
       - name: "TAPE_ERASE"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_erase
+        href: /windows/win32/api/Winnt/ns-winnt-tape_erase
       - name: "TAPE_GET_DRIVE_PARAMETERS"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_get_drive_parameters
+        href: /windows/win32/api/Winnt/ns-winnt-tape_get_drive_parameters
       - name: "TAPE_GET_MEDIA_PARAMETERS"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_get_media_parameters
+        href: /windows/win32/api/Winnt/ns-winnt-tape_get_media_parameters
       - name: "TAPE_GET_POSITION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_get_position
+        href: /windows/win32/api/Winnt/ns-winnt-tape_get_position
       - name: "TAPE_PREPARE"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_prepare
+        href: /windows/win32/api/Winnt/ns-winnt-tape_prepare
       - name: "TAPE_SET_DRIVE_PARAMETERS"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_set_drive_parameters
+        href: /windows/win32/api/Winnt/ns-winnt-tape_set_drive_parameters
       - name: "TAPE_SET_MEDIA_PARAMETERS"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_set_media_parameters
+        href: /windows/win32/api/Winnt/ns-winnt-tape_set_media_parameters
       - name: "TAPE_SET_POSITION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_set_position
+        href: /windows/win32/api/Winnt/ns-winnt-tape_set_position
       - name: "TAPE_WRITE_MARKS"
-        href: /windows/desktop/api/Winnt/ns-winnt-_tape_write_marks
+        href: /windows/win32/api/Winnt/ns-winnt-tape_write_marks
       - name: "WIN32_STREAM_ID"
-        href: /windows/desktop/api/Winbase/ns-winbase-_win32_stream_id
+        href: /windows/win32/api/Winbase/ns-winbase-win32_stream_id

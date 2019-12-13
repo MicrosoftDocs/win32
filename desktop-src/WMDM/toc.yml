@@ -891,9 +891,9 @@
       - name: "_BITMAPINFOHEADER"
         href: -bitmapinfoheader.md
       - name: "MTP_COMMAND_DATA_IN"
-        href: /windows/desktop/api/MtpExt/ns-mtpext-_mtp_command_data_in
+        href: /windows/win32/api/MtpExt/ns-mtpext-mtp_command_data_in
       - name: "MTP_COMMAND_DATA_OUT"
-        href: /windows/desktop/api/MtpExt/ns-mtpext-_mtp_command_data_out
+        href: /windows/win32/api/MtpExt/ns-mtpext-mtp_command_data_out
       - name: "OPAQUECOMMAND"
         href: opaquecommand.md
       - name: "_VIDEOINFOHEADER"

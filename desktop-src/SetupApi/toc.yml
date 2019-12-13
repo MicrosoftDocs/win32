@@ -390,31 +390,31 @@
       href: structures--setup-api-.md
       items: 
       - name: "CABINET_INFO"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_cabinet_info_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-cabinet_info_a
       - name: "FILE_IN_CABINET_INFO"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_file_in_cabinet_info_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-file_in_cabinet_info_a
       - name: "FILEPATHS"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_filepaths_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-filepaths_a
       - name: "FILEPATHS_SIGNERINFO"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_filepaths_signerinfo_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-filepaths_signerinfo_a
       - name: "INFCONTEXT"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_infcontext
+        href: /windows/win32/api/Setupapi/ns-setupapi-infcontext
       - name: "SOURCE_MEDIA"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_source_media_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-source_media_a
       - name: "SP_ALTPLATFORM_INFO_V1"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_altplatform_info_v1
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_altplatform_info_v1
       - name: "SP_ALTPLATFORM_INFO_V2"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_altplatform_info_v2
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_altplatform_info_v2
       - name: "SP_INF_SIGNER_INFO"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_inf_signer_info_v1_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_inf_signer_info_v1_a
       - name: "SP_FILE_COPY_PARAMS"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_file_copy_params_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_file_copy_params_a
       - name: "SP_INF_INFORMATION"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_inf_information
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_inf_information
       - name: "SP_ORIGINAL_FILE_INFO"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_original_file_info_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_original_file_info_a
       - name: "SP_REGISTER_CONTROL_STATUS"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_register_control_statusa
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_register_control_statusa
     - name: "Notifications"
       href: notifications.md
       items: 

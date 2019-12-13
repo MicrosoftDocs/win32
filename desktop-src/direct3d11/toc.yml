@@ -1695,31 +1695,31 @@
           - name: "D3D11_DOMAIN_SHADER_TRACE_DESC"
             href: /windows/desktop/api/D3D11ShaderTracing/ns-d3d11shadertracing-d3d11_domain_shader_trace_desc
           - name: "D3D11_FUNCTION_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_function_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_function_desc
           - name: "D3D11_GEOMETRY_SHADER_TRACE_DESC"
             href: /windows/desktop/api/D3D11ShaderTracing/ns-d3d11shadertracing-d3d11_geometry_shader_trace_desc
           - name: "D3D11_HULL_SHADER_TRACE_DESC"
             href: /windows/desktop/api/D3D11ShaderTracing/ns-d3d11shadertracing-d3d11_hull_shader_trace_desc
           - name: "D3D11_LIBRARY_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_library_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_library_desc
           - name: "D3D11_PARAMETER_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_parameter_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_parameter_desc
           - name: "D3D11_PIXEL_SHADER_TRACE_DESC"
             href: /windows/desktop/api/D3D11ShaderTracing/ns-d3d11shadertracing-d3d11_pixel_shader_trace_desc
           - name: "D3D11_SHADER_BUFFER_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_shader_buffer_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_shader_buffer_desc
           - name: "D3D11_SHADER_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_shader_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_shader_desc
           - name: "D3D11_SHADER_INPUT_BIND_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_shader_input_bind_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_shader_input_bind_desc
           - name: "D3D11_SHADER_TRACE_DESC"
             href: /windows/desktop/api/D3D11ShaderTracing/ns-d3d11shadertracing-d3d11_shader_trace_desc
           - name: "D3D11_SHADER_TYPE_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_shader_type_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_shader_type_desc
           - name: "D3D11_SHADER_VARIABLE_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_shader_variable_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_shader_variable_desc
           - name: "D3D11_SIGNATURE_PARAMETER_DESC"
-            href: /windows/desktop/api/D3D11Shader/ns-d3d11shader-_d3d11_signature_parameter_desc
+            href: /windows/win32/api/D3D11Shader/ns-d3d11shader-d3d11_signature_parameter_desc
           - name: "D3D11_TRACE_REGISTER"
             href: /windows/desktop/api/D3D11ShaderTracing/ns-d3d11shadertracing-d3d11_trace_register
           - name: "D3D11_TRACE_STATS"
@@ -1736,7 +1736,7 @@
           - name: "D3D11_CBUFFER_TYPE"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476097(v=vs.85)
           - name: "D3D_PARAMETER_FLAGS"
-            href: /windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_parameter_flags
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_parameter_flags
           - name: "D3D11_RESOURCE_RETURN_TYPE"
             href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type
           - name: "D3D11_SHADER_TYPE"
@@ -1804,18 +1804,18 @@
           href: d3d11-graphics-reference-d3d11-common-structures.md
           items: 
           - name: "D3D_SHADER_MACRO"
-            href: /windows/desktop/api/D3DCommon/ns-d3dcommon-_d3d_shader_macro
+            href: /windows/win32/api/D3DCommon/ns-d3dcommon-d3d_shader_macro
         - name: "Common Version Enumerations"
           href: d3d11-graphics-reference-d3d11-common-enumerations.md
           items: 
           - name: "D3D_CBUFFER_TYPE"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_cbuffer_type
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_cbuffer_type
           - name: "D3D_DRIVER_TYPE"
             href: /windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type
           - name: "D3D_FEATURE_LEVEL"
             href: /windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level
           - name: "D3D_INCLUDE_TYPE"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_include_type
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_include_type
           - name: "D3D_INTERPOLATION_MODE"
             href: /windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_interpolation_mode
           - name: "D3D_MIN_PRECISION"
@@ -1831,17 +1831,17 @@
           - name: "D3D_RESOURCE_RETURN_TYPE"
             href: /windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_resource_return_type
           - name: "D3D_SHADER_CBUFFER_FLAGS"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_shader_cbuffer_flags
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_cbuffer_flags
           - name: "D3D_SHADER_INPUT_FLAGS"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_shader_input_flags
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_input_flags
           - name: "D3D_SHADER_INPUT_TYPE"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_shader_input_type
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_input_type
           - name: "D3D_SHADER_VARIABLE_CLASS"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_shader_variable_class
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_class
           - name: "D3D_SHADER_VARIABLE_FLAGS"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_shader_variable_flags
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_flags
           - name: "D3D_SHADER_VARIABLE_TYPE"
-            href: /windows/desktop/api/D3DCommon/ne-d3dcommon-_d3d_shader_variable_type
+            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_type
           - name: "D3D_SRV_DIMENSION"
             href: /windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_srv_dimension
           - name: "D3D_TESSELLATOR_DOMAIN"

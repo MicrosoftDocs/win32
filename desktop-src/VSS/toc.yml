@@ -414,11 +414,11 @@
       - name: "VSS_ALTERNATE_WRITER_STATE"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_alternate_writer_state
       - name: "VSS_APPLICATION_LEVEL"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_application_level
+        href: /windows/win32/api/Vss/ne-vss-vss_application_level
       - name: "VSS_BACKUP_SCHEMA"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_backup_schema
+        href: /windows/win32/api/Vss/ne-vss-vss_backup_schema
       - name: "VSS_BACKUP_TYPE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_backup_type
+        href: /windows/win32/api/Vss/ne-vss-vss_backup_type
       - name: "VSS_COMPONENT_FLAGS"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_component_flags
       - name: "VSS_COMPONENT_TYPE"
@@ -426,39 +426,39 @@
       - name: "VSS_FILE_RESTORE_STATUS"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_file_restore_status
       - name: "VSS_FILE_SPEC_BACKUP_TYPE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type
+        href: /windows/win32/api/Vss/ne-vss-vss_file_spec_backup_type
       - name: "_VSS_HARDWARE_OPTIONS"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_hardware_options
+        href: /windows/win32/api/Vss/ne-vss-vss_hardware_options
       - name: "VSS_MGMT_OBJECT_TYPE"
-        href: /windows/desktop/api/VsMgmt/ne-vsmgmt-_vss_mgmt_object_type
+        href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_mgmt_object_type
       - name: "VSS_OBJECT_TYPE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_object_type
+        href: /windows/win32/api/Vss/ne-vss-vss_object_type
       - name: "VSS_PROTECTION_FAULT"
-        href: /windows/desktop/api/VsMgmt/ne-vsmgmt-_vss_protection_fault
+        href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_protection_fault
       - name: "VSS_PROTECTION_LEVEL"
-        href: /windows/desktop/api/VsMgmt/ne-vsmgmt-_vss_protection_level
+        href: /windows/win32/api/VsMgmt/ne-vsmgmt-vss_protection_level
       - name: "_VSS_PROVIDER_CAPABILITIES"
-        href: /windows/desktop/api/vss/ne-vss-_vss_provider_capabilities
+        href: /windows/win32/api/vss/ne-vss-vss_provider_capabilities
       - name: "VSS_PROVIDER_TYPE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_provider_type
+        href: /windows/win32/api/Vss/ne-vss-vss_provider_type
       - name: "VSS_RECOVERY_OPTIONS"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_recovery_options
+        href: /windows/win32/api/Vss/ne-vss-vss_recovery_options
       - name: "VSS_RESTORE_TARGET"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_restore_target
       - name: "VSS_RESTORE_TYPE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_restore_type
+        href: /windows/win32/api/Vss/ne-vss-vss_restore_type
       - name: "VSS_RESTOREMETHOD_ENUM"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum
       - name: "VSS_ROLLFORWARD_TYPE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_rollforward_type
+        href: /windows/win32/api/Vss/ne-vss-vss_rollforward_type
       - name: "VSS_SNAPSHOT_COMPATIBILITY"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_snapshot_compatibility
+        href: /windows/win32/api/Vss/ne-vss-vss_snapshot_compatibility
       - name: "_VSS_SNAPSHOT_CONTEXT"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_snapshot_context
+        href: /windows/win32/api/Vss/ne-vss-vss_snapshot_context
       - name: "VSS_SNAPSHOT_PROPERTY_ID"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_snapshot_property_id
+        href: /windows/win32/api/Vss/ne-vss-vss_snapshot_property_id
       - name: "VSS_SNAPSHOT_STATE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_snapshot_state
+        href: /windows/win32/api/Vss/ne-vss-vss_snapshot_state
       - name: "VSS_SOURCE_TYPE"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_source_type
       - name: "VSS_SUBSCRIBE_MASK"
@@ -466,9 +466,9 @@
       - name: "VSS_USAGE_TYPE"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_usage_type
       - name: "_VSS_VOLUME_SNAPSHOT_ATTRIBUTES"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes
+        href: /windows/win32/api/Vss/ne-vss-vss_volume_snapshot_attributes
       - name: "VSS_WRITER_STATE"
-        href: /windows/desktop/api/Vss/ne-vss-_vss_writer_state
+        href: /windows/win32/api/Vss/ne-vss-vss_writer_state
       - name: "VSS_WRITERRESTORE_ENUM"
         href: /windows/desktop/api/VsWriter/ne-vswriter-vss_writerrestore_enum
     - name: "Volume Shadow Copy API Functions"
@@ -1073,27 +1073,27 @@
       href: volume-shadow-copy-api-structures.md
       items: 
       - name: "VSS_COMPONENTINFO"
-        href: /windows/desktop/api/VsBackup/ns-vsbackup-_vss_componentinfo
+        href: /windows/win32/api/VsBackup/ns-vsbackup-vss_componentinfo
       - name: "VSS_DIFF_AREA_PROP"
-        href: /windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_diff_area_prop
+        href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_diff_area_prop
       - name: "VSS_DIFF_VOLUME_PROP"
-        href: /windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_diff_volume_prop
+        href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_diff_volume_prop
       - name: "VSS_MGMT_OBJECT_PROP"
-        href: /windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_mgmt_object_prop
+        href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_mgmt_object_prop
       - name: "VSS_MGMT_OBJECT_UNION"
         href: /windows/desktop/api/VsMgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001
       - name: "VSS_OBJECT_PROP"
-        href: /windows/desktop/api/Vss/ns-vss-_vss_object_prop
+        href: /windows/win32/api/Vss/ns-vss-vss_object_prop
       - name: "VSS_OBJECT_UNION"
         href: /windows/desktop/api/Vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001
       - name: "VSS_PROVIDER_PROP"
-        href: /windows/desktop/api/Vss/ns-vss-_vss_provider_prop
+        href: /windows/win32/api/Vss/ns-vss-vss_provider_prop
       - name: "VSS_SNAPSHOT_PROP"
-        href: /windows/desktop/api/Vss/ns-vss-_vss_snapshot_prop
+        href: /windows/win32/api/Vss/ns-vss-vss_snapshot_prop
       - name: "VSS_VOLUME_PROP"
-        href: /windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_volume_prop
+        href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_volume_prop
       - name: "VSS_VOLUME_PROTECTION_INFO"
-        href: /windows/desktop/api/VsMgmt/ns-vsmgmt-_vss_volume_protection_info
+        href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_volume_protection_info
   - name: "Volume Shadow Copy Glossary"
     href: volume-shadow-copy-glossary.md
     items: 
