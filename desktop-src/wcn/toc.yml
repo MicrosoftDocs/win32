@@ -10,40 +10,40 @@
       href: windows-connect-now-enumerations.md
       items: 
       - name: "WCN_ATTRIBUTE_TYPE"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_attribute_type
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_attribute_type
       - name: "WCN_PASSWORD_TYPE"
-        href: /windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_password_type
+        href: /windows/win32/api/wcndevice/ne-wcndevice-wcn_password_type
       - name: "WCN_SESSION_STATUS"
-        href: /windows/desktop/api/wcndevice/ne-wcndevice-tagwcn_session_status
+        href: /windows/win32/api/wcndevice/ne-wcndevice-wcn_session_status
       - name: "WCN_VALUE_TYPE_ASSOCIATION_STATE"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_association_state
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_association_state
       - name: "WCN_VALUE_TYPE_BOOLEAN"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_boolean
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_boolean
       - name: "WCN_VALUE_TYPE_AUTHENTICATION_TYPE"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_authentication_type
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type
       - name: "WCN_VALUE_TYPE_CONFIG_METHODS"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_config_methods
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_config_methods
       - name: "WCN_VALUE_TYPE_CONFIGURATION_ERROR"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_configuration_error
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_configuration_error
       - name: "WCN_VALUE_TYPE_CONNECTION_TYPE"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_connection_type
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_connection_type
       - name: "WCN_VALUE_TYPE_DEVICE_PASSWORD_ID"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_device_password_id
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_device_password_id
       - name: "WCN_VALUE_TYPE_ENCRYPTION_TYPE"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_encryption_type
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_encryption_type
       - name: "WCN_VALUE_TYPE_RF_BANDS"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_rf_bands
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_rf_bands
       - name: "WCN_VALUE_TYPE_VERSION"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_version
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_version
       - name: "WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE"
-        href: /windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_wi_fi_protected_setup_state
+        href: /windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_wi_fi_protected_setup_state
     - name: "Windows Connect Now Structures"
       href: windows-connect-now-structures.md
       items: 
       - name: "WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE"
-        href: /windows/desktop/api/wcntypes/ns-wcntypes-tagwcn_value_type_primary_device_type
+        href: /windows/win32/api/wcntypes/ns-wcntypes-wcn_value_type_primary_device_type
       - name: "WCN_VENDOR_EXTENSION_SPEC"
-        href: /windows/desktop/api/Wcndevice/ns-wcndevice-tagwcn_vendor_extension_spec
+        href: /windows/win32/api/Wcndevice/ns-wcndevice-wcn_vendor_extension_spec
     - name: "Windows Connect Now Interfaces"
       href: windows-connect-now-interfaces.md
       items: 

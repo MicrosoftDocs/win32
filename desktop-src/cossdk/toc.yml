@@ -994,41 +994,41 @@
         - name: "COMAdminTxIsolationLevelOptions"
           href: /windows/desktop/api/ComAdmin/ne-comadmin-comadmintxisolationleveloptions
         - name: "COMPLUS_APPTYPE"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcomplus_apptype
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-complus_apptype
         - name: "CRMFLAGS"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcrmflags
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-crmflags
         - name: "CRMREGFLAGS"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcrmregflags
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-crmregflags
         - name: "CrmTransactionState"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcrmtransactionstate
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-crmtransactionstate
         - name: "CSC_Binding"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_binding
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_binding
         - name: "CSC_COMTIIntrinsicsConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_comtiintrinsicsconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_comtiintrinsicsconfig
         - name: "CSC_IISIntrinsicsConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_iisintrinsicsconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_iisintrinsicsconfig
         - name: "CSC_InheritanceConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_inheritanceconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_inheritanceconfig
         - name: "CSC_PartitionConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_partitionconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_partitionconfig
         - name: "CSC_SxsConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_sxsconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_sxsconfig
         - name: "CSC_SynchronizationConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_synchronizationconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_synchronizationconfig
         - name: "CSC_ThreadPool"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_threadpool
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_threadpool
         - name: "CSC_TrackerConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_trackerconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_trackerconfig
         - name: "CSC_TransactionConfig"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagcsc_transactionconfig
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_transactionconfig
         - name: "EOC_ChangeType"
           href: eoc-changetype.md
         - name: "GetAppTrackerDataFlags"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-_getapptrackerdataflags
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-getapptrackerdataflags
         - name: "TRACKING_COLL_TYPE"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-__midl___midl_itf_autosvcs_0000_0034_0001
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-tracking_coll_type
         - name: "TransactionVote"
-          href: /windows/desktop/api/ComSvcs/ne-comsvcs-tagtransactionvote
+          href: /windows/win32/api/ComSvcs/ne-comsvcs-transactionvote
       - name: "COM+ Functions"
         href: com--functions.md
         items: 
@@ -2385,24 +2385,24 @@
         href: com--structures.md
         items: 
         - name: "ApplicationProcessRecycleInfo"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_applicationprocessrecycleinfo
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationprocessrecycleinfo
         - name: "ApplicationProcessStatistics"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_applicationprocessstatistics
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationprocessstatistics
         - name: "ApplicationProcessSummary"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_applicationprocesssummary
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationprocesssummary
         - name: "ApplicationSummary"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_applicationsummary
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-applicationsummary
         - name: "COMEVENTSYSCHANGEINFO"
-          href: /windows/desktop/api/EventSys/ns-eventsys-__midl___midl_itf_eventsys_0000_0009_0001
+          href: /windows/win32/api/EventSys/ns-eventsys-comeventsyschangeinfo
         - name: "ComponentHangMonitorInfo"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_componenthangmonitorinfo
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-componenthangmonitorinfo
         - name: "ComponentStatistics"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_componentstatistics
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-componentstatistics
         - name: "ComponentSummary"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-_componentsummary
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-componentsummary
         - name: "COMSVCSEVENTINFO"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-__midl___midl_itf_autosvcs_0000_0013_0001
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-comsvcseventinfo
         - name: "CrmLogRecordRead"
-          href: /windows/desktop/api/ComSvcs/ns-comsvcs-tagcrmlogrecordread
+          href: /windows/win32/api/ComSvcs/ns-comsvcs-crmlogrecordread
     - name: "COM+ Glossary"
       href: com--glossary.md

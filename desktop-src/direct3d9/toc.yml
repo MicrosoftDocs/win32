@@ -1140,7 +1140,7 @@
         - name: "D3DBOX"
           href: d3dbox.md
         - name: "D3DCAPS9"
-          href: /windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9
+          href: /windows/win32/api/D3D9Caps/ns-d3d9caps-d3dcaps9
         - name: "D3DCLIPSTATUS9"
           href: d3dclipstatus9.md
         - name: "D3DCOLOR"
@@ -1196,7 +1196,7 @@
         - name: "D3DPRESENTSTATS"
           href: d3dpresentstats.md
         - name: "D3DPSHADERCAPS2_0"
-          href: /windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0
+          href: /windows/win32/api/D3D9Caps/ns-d3d9caps-d3dpshadercaps2_0
         - name: "D3DRANGE"
           href: d3drange.md
         - name: "D3DRASTER_STATUS"
@@ -1222,9 +1222,9 @@
         - name: "D3DVOLUME_DESC"
           href: d3dvolume-desc.md
         - name: "D3DVSHADERCAPS2_0"
-          href: /windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dvshadercaps2_0
+          href: /windows/win32/api/D3D9Caps/ns-d3d9caps-d3dvshadercaps2_0
         - name: "PALETTEENTRY"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagpaletteentry
+          href: /windows/win32/api/Wingdi/ns-wingdi-paletteentry
       - name: "Direct3D Enumerations"
         href: dx9-graphics-reference-d3d-enums.md
         items: 

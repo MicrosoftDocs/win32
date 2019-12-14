@@ -86,7 +86,7 @@
         - name: "CURSORDIR"
           href: cursordir.md
         - name: "CURSORSHAPE"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagcursorshape
+          href: /windows/win32/api/Winuser/ns-winuser-cursorshape
         - name: "DIRENTRY"
           href: direntry.md
         - name: "FONTDIRENTRY"
@@ -104,11 +104,11 @@
         - name: "MENUHELPID"
           href: menuhelpid.md
         - name: "MESSAGE_RESOURCE_BLOCK"
-          href: /windows/desktop/api/Winnt/ns-winnt-_message_resource_block
+          href: /windows/win32/api/Winnt/ns-winnt-message_resource_block
         - name: "MESSAGE_RESOURCE_DATA"
-          href: /windows/desktop/api/Winnt/ns-winnt-_message_resource_data
+          href: /windows/win32/api/Winnt/ns-winnt-message_resource_data
         - name: "MESSAGE_RESOURCE_ENTRY"
-          href: /windows/desktop/api/Winnt/ns-winnt-_message_resource_entry
+          href: /windows/win32/api/Winnt/ns-winnt-message_resource_entry
         - name: "NEWHEADER"
           href: newheader.md
         - name: "NORMALMENUITEM"
@@ -204,7 +204,7 @@
         href: cursor-structures.md
         items: 
         - name: "CURSORINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagcursorinfo
+          href: /windows/win32/api/Winuser/ns-winuser-cursorinfo
   - name: "Icons"
     href: icons.md
     items: 
@@ -258,11 +258,11 @@
         href: icon-structures.md
         items: 
         - name: "ICONINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-_iconinfo
+          href: /windows/win32/api/Winuser/ns-winuser-iconinfo
         - name: "ICONINFOEX"
-          href: /windows/desktop/api/Winuser/ns-winuser-_iconinfoexa
+          href: /windows/win32/api/Winuser/ns-winuser-iconinfoexa
         - name: "ICONMETRICS"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagiconmetricsa
+          href: /windows/win32/api/Winuser/ns-winuser-iconmetricsa
   - name: "Fonts and text metrics"
     href: fonts-and-font-metrics.md
   - name: "Keyboard Accelerators"
@@ -316,7 +316,7 @@
         href: keyboard-accelerator-structures.md
         items: 
         - name: "ACCEL"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagaccel
+          href: /windows/win32/api/Winuser/ns-winuser-accel
   - name: "Menus"
     href: menus.md
     items: 
@@ -437,25 +437,25 @@
         href: menu-structures.md
         items: 
         - name: "MDINEXTMENU"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmdinextmenu
+          href: /windows/win32/api/Winuser/ns-winuser-mdinextmenu
         - name: "MENUBARINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmenubarinfo
+          href: /windows/win32/api/Winuser/ns-winuser-menubarinfo
         - name: "MENUEX_TEMPLATE_HEADER"
           href: menuex-template-header.md
         - name: "MENUEX_TEMPLATE_ITEM"
           href: menuex-template-item.md
         - name: "MENUGETOBJECTINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmenugetobjectinfo
+          href: /windows/win32/api/Winuser/ns-winuser-menugetobjectinfo
         - name: "MENUINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmenuinfo
+          href: /windows/win32/api/Winuser/ns-winuser-menuinfo
         - name: "MENUITEMINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmenuiteminfoa
+          href: /windows/win32/api/Winuser/ns-winuser-menuiteminfoa
         - name: "MENUITEMTEMPLATE"
           href: /windows/desktop/api/Winuser/ns-winuser-menuitemtemplate
         - name: "MENUITEMTEMPLATEHEADER"
           href: /windows/desktop/api/Winuser/ns-winuser-menuitemtemplateheader
         - name: "TPMPARAMS"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagtpmparams
+          href: /windows/win32/api/Winuser/ns-winuser-tpmparams
   - name: "Strings"
     href: strings.md
     items: 
@@ -645,7 +645,7 @@
         - name: "VarFileInfo"
           href: varfileinfo.md
         - name: "VS_FIXEDFILEINFO"
-          href: /windows/desktop/api/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo
+          href: /windows/win32/api/VerRsrc/ns-verrsrc-vs_fixedfileinfo
         - name: "VS_VERSIONINFO"
           href: vs-versioninfo.md
   - name: "Resource Compiler"

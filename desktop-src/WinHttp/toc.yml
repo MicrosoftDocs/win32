@@ -258,21 +258,21 @@
         - name: "WINHTTP_CONNECTION_INFO"
           href: /windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info
         - name: "WINHTTP_CREDS"
-          href: /windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds
+          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_creds
         - name: "WINHTTP_CREDS_EX"
-          href: /windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex
+          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_creds_ex
         - name: "WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"
           href: /windows/desktop/api/Winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config
         - name: "WINHTTP_PROXY_INFO"
           href: /windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3
         - name: "WINHTTP_PROXY_RESULT"
-          href: /windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result
         - name: "WINHTTP_PROXY_RESULT_ENTRY"
-          href: /windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result_entry
         - name: "WINHTTP_WEB_SOCKET_ASYNC_RESULT"
-          href: /windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_async_result
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_async_result
         - name: "WINHTTP_WEB_SOCKET_STATUS"
-          href: /windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_status
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_status
       - name: "WinHTTP Enumerations"
         href: winhttp-enumerations.md
         items: 
@@ -281,11 +281,11 @@
         - name: "WinHttpRequestOption"
           href: winhttprequestoption.md
         - name: "WINHTTP_WEB_SOCKET_BUFFER_TYPE"
-          href: /windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_buffer_type
+          href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type
         - name: "WINHTTP_WEB_SOCKET_CLOSE_STATUS"
-          href: /windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_close_status
+          href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_close_status
         - name: "WINHTTP_WEB_SOCKET_OPERATION"
-          href: /windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_operation
+          href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_operation
       - name: "WinHTTP Constants"
         href: winhttp-constants.md
         items: 

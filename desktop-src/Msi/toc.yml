@@ -3152,9 +3152,9 @@
       href: installer-structures.md
       items: 
       - name: "MSIFILEHASHINFO"
-        href: /windows/desktop/api/Msi/ns-msi-_msifilehashinfo
+        href: /windows/win32/api/Msi/ns-msi-msifilehashinfo
       - name: "MSIPATCHSEQUENCEINFO"
-        href: /windows/desktop/api/Msi/ns-msi-tagmsipatchsequenceinfoa
+        href: /windows/win32/api/Msi/ns-msi-msipatchsequenceinfoa
     - name: "Installer Database"
       href: installer-database.md
       items: 

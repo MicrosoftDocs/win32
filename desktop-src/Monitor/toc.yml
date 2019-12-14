@@ -104,23 +104,23 @@
       href: monitor-configuration-structures.md
       items: 
       - name: "MC_TIMING_REPORT Structure"
-        href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-_mc_timing_report
+        href: /windows/win32/api/LowLevelMonitorConfigurationAPI/ns-lowlevelmonitorconfigurationapi-mc_timing_report
       - name: "PHYSICAL_MONITOR Structure"
-        href: /windows/desktop/api/PhysicalMonitorEnumerationAPI/ns-physicalmonitorenumerationapi-_physical_monitor
+        href: /windows/win32/api/PhysicalMonitorEnumerationAPI/ns-physicalmonitorenumerationapi-physical_monitor
     - name: "Monitor Configuration Enumeration Types"
       href: monitor-configuration-enumeration-types.md
       items: 
       - name: "MC_COLOR_TEMPERATURE Enumeration"
-        href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-_mc_color_temperature
+        href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_color_temperature
       - name: "MC_DISPLAY_TECHNOLOGY_TYPE Enumeration"
-        href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-_mc_display_technology_type
+        href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_display_technology_type
       - name: "MC_DRIVE_TYPE Enumeration"
-        href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-_mc_drive_type
+        href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_drive_type
       - name: "MC_GAIN_TYPE Enumeration"
-        href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-_mc_gain_type
+        href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_gain_type
       - name: "MC_POSITION_TYPE Enumeration"
-        href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-_mc_position_type
+        href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_position_type
       - name: "MC_SIZE_TYPE Enumeration"
-        href: /windows/desktop/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-_mc_size_type
+        href: /windows/win32/api/HighLevelMonitorConfigurationAPI/ne-highlevelmonitorconfigurationapi-mc_size_type
       - name: "MC_VCP_CODE_TYPE Enumeration"
-        href: /windows/desktop/api/LowLevelMonitorConfigurationAPI/ne-lowlevelmonitorconfigurationapi-_mc_vcp_code_type
+        href: /windows/win32/api/LowLevelMonitorConfigurationAPI/ne-lowlevelmonitorconfigurationapi-mc_vcp_code_type

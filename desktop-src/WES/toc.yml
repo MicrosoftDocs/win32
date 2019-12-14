@@ -491,53 +491,53 @@
       href: windows-event-log-enumerations.md
       items: 
       - name: "EVT_CHANNEL_CLOCK_TYPE"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_channel_clock_type
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_clock_type
       - name: "EVT_CHANNEL_CONFIG_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_channel_config_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_config_property_id
       - name: "EVT_CHANNEL_ISOLATION_TYPE"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_channel_isolation_type
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_isolation_type
       - name: "EVT_CHANNEL_REFERENCE_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_channel_reference_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_reference_flags
       - name: "EVT_CHANNEL_SID_TYPE"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_channel_sid_type
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_sid_type
       - name: "EVT_CHANNEL_TYPE"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_channel_type
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_channel_type
       - name: "EVT_EVENT_METADATA_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_event_metadata_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_event_metadata_property_id
       - name: "EVT_EVENT_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_event_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_event_property_id
       - name: "EVT_EXPORTLOG_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_exportlog_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_exportlog_flags
       - name: "EVT_FORMAT_MESSAGE_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_format_message_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_format_message_flags
       - name: "EVT_LOG_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_log_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_log_property_id
       - name: "EVT_LOGIN_CLASS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_login_class
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_login_class
       - name: "EVT_OPEN_LOG_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_open_log_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_open_log_flags
       - name: "EVT_PUBLISHER_METADATA_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_publisher_metadata_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_publisher_metadata_property_id
       - name: "EVT_QUERY_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_query_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_query_flags
       - name: "EVT_QUERY_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_query_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_query_property_id
       - name: "EVT_RENDER_CONTEXT_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_render_context_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_render_context_flags
       - name: "EVT_RENDER_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_render_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_render_flags
       - name: "EVT_RPC_LOGIN_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_rpc_login_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_rpc_login_flags
       - name: "EVT_SEEK_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_seek_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_seek_flags
       - name: "EVT_SUBSCRIBE_FLAGS"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_subscribe_flags
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_subscribe_flags
       - name: "EVT_SUBSCRIBE_NOTIFY_ACTION"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_subscribe_notify_action
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_subscribe_notify_action
       - name: "EVT_SYSTEM_PROPERTY_ID"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_system_property_id
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_system_property_id
       - name: "EVT_VARIANT_TYPE"
-        href: /windows/desktop/api/WinEvt/ne-winevt-_evt_variant_type
+        href: /windows/win32/api/WinEvt/ne-winevt-evt_variant_type
     - name: "Windows Event Log Functions"
       href: windows-event-log-functions.md
       items: 
@@ -617,9 +617,9 @@
       href: windows-event-log-structures.md
       items: 
       - name: "EVT_RPC_LOGIN"
-        href: /windows/desktop/api/WinEvt/ns-winevt-_evt_rpc_login
+        href: /windows/win32/api/WinEvt/ns-winevt-evt_rpc_login
       - name: "EVT_VARIANT"
-        href: /windows/desktop/api/WinEvt/ns-winevt-_evt_variant
+        href: /windows/win32/api/WinEvt/ns-winevt-evt_variant
     - name: "Windows Event Log Tools"
       href: windows-event-log-tools.md
       items: 

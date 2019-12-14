@@ -92,11 +92,11 @@
       href: bluetooth-enumerations.md
       items: 
       - name: "BLUETOOTH_AUTHENTICATION_METHOD"
-        href: /windows/desktop/api/BluetoothAPIs/ne-bluetoothapis-_bluetooth_authentication_method
+        href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_authentication_method
       - name: "_AUTHENTICATION_REQUIREMENTS"
-        href: /windows/desktop/api/BluetoothAPIs/ne-bluetoothapis-_bluetooth_authentication_requirements
+        href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_authentication_requirements
       - name: "BLUETOOTH_IO_CAPABILITY"
-        href: /windows/desktop/api/BluetoothAPIs/ne-bluetoothapis-_bluetooth_io_capability
+        href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_io_capability
     - name: "Bluetooth Functions"
       href: bluetooth-functions.md
       items: 
@@ -174,54 +174,54 @@
       - name: "BLUETOOTH_ADDRESS"
         href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_address
       - name: "BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_authentication_callback_params
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_authentication_callback_params
       - name: "BLUETOOTH_AUTHENTICATE_RESPONSE"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_authenticate_response
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_authenticate_response
       - name: "BLUETOOTH_COD_PAIRS"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_cod_pairs
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_cod_pairs
       - name: "BLUETOOTH_DEVICE_INFO"
         href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_device_info
       - name: "BLUETOOTH_DEVICE_SEARCH_PARAMS"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_device_search_params
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_device_search_params
       - name: "BLUETOOTH_FIND_RADIO_PARAMS"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_find_radio_params
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_find_radio_params
       - name: "BLUETOOTH_LOCAL_SERVICE_INFO"
         href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_local_service_info
       - name: "BLUETOOTH_NUMERIC_COMPARISON_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_numeric_comparison_info
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_numeric_comparison_info
       - name: "BLUETOOTH_OOB_DATA_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_oob_data_info
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_oob_data_info
       - name: "BLUETOOTH_PASSKEY_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_passkey_info
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_passkey_info
       - name: "BLUETOOTH_PIN_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_pin_info
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_pin_info
       - name: "BLUETOOTH_RADIO_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_radio_info
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_radio_info
       - name: "BLUETOOTH_SELECT_DEVICE_PARAMS"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_select_device_params
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_select_device_params
       - name: "BTH_DEVICE_INFO"
-        href: /windows/desktop/api/Bthdef/ns-bthdef-_bth_device_info
+        href: /windows/win32/api/Bthdef/ns-bthdef-bth_device_info
       - name: "BTH_HCI_EVENT_INFO"
-        href: /windows/desktop/api/Bthdef/ns-bthdef-_bth_hci_event_info
+        href: /windows/win32/api/Bthdef/ns-bthdef-bth_hci_event_info
       - name: "BTH_L2CAP_EVENT_INFO"
-        href: /windows/desktop/api/Bthdef/ns-bthdef-_bth_l2cap_event_info
+        href: /windows/win32/api/Bthdef/ns-bthdef-bth_l2cap_event_info
       - name: "BTH_QUERY_DEVICE"
-        href: /windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_device
+        href: /windows/win32/api/Ws2bth/ns-ws2bth-bth_query_device
       - name: "BTH_QUERY_SERVICE"
-        href: /windows/desktop/api/Ws2bth/ns-ws2bth-_bth_query_service
+        href: /windows/win32/api/Ws2bth/ns-ws2bth-bth_query_service
       - name: "BTH_RADIO_IN_RANGE"
-        href: /windows/desktop/api/Bthdef/ns-bthdef-_bth_radio_in_range
+        href: /windows/win32/api/Bthdef/ns-bthdef-bth_radio_in_range
       - name: "BTH_SET_SERVICE"
-        href: /windows/desktop/api/Ws2bth/ns-ws2bth-_bth_set_service
+        href: /windows/win32/api/Ws2bth/ns-ws2bth-bth_set_service
       - name: "SDP_ELEMENT_DATA"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_sdp_element_data
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-sdp_element_data
       - name: "SDP_STRING_TYPE_DATA"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_sdp_string_type_data
+        href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-sdp_string_type_data
       - name: "SdpAttributeRange"
-        href: /windows/desktop/api/Bthsdpdef/ns-bthsdpdef-_sdpattributerange
+        href: /windows/win32/api/Bthsdpdef/ns-bthsdpdef-sdpattributerange
       - name: "SdpQueryUuid"
-        href: /windows/desktop/api/Bthsdpdef/ns-bthsdpdef-_sdpqueryuuid
+        href: /windows/win32/api/Bthsdpdef/ns-bthsdpdef-sdpqueryuuid
       - name: "SdpQueryUuidUnion"
         href: /windows/desktop/api/Bthsdpdef/ns-bthsdpdef-sdpqueryuuidunion
       - name: "SOCKADDR_BTH"
-        href: /windows/desktop/api/Ws2bth/ns-ws2bth-_sockaddr_bth
+        href: /windows/win32/api/Ws2bth/ns-ws2bth-sockaddr_bth

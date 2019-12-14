@@ -93,19 +93,19 @@
       href: communications-structures.md
       items: 
       - name: "COMMCONFIG"
-        href: /windows/desktop/api/Winbase/ns-winbase-_commconfig
+        href: /windows/win32/api/Winbase/ns-winbase-commconfig
       - name: "COMMPROP"
-        href: /windows/desktop/api/WinBase/ns-winbase-_commprop
+        href: /windows/win32/api/WinBase/ns-winbase-commprop
       - name: "COMMTIMEOUTS"
-        href: /windows/desktop/api/Winbase/ns-winbase-_commtimeouts
+        href: /windows/win32/api/Winbase/ns-winbase-commtimeouts
       - name: "COMSTAT"
-        href: /windows/desktop/api/Winbase/ns-winbase-_comstat
+        href: /windows/win32/api/Winbase/ns-winbase-comstat
       - name: "DCB"
-        href: /windows/desktop/api/Winbase/ns-winbase-_dcb
+        href: /windows/win32/api/Winbase/ns-winbase-dcb
       - name: "MODEMDEVCAPS"
-        href: /windows/desktop/api/Mcx/ns-mcx-_modemdevcaps
+        href: /windows/win32/api/Mcx/ns-mcx-modemdevcaps
       - name: "MODEMSETTINGS"
-        href: /windows/desktop/api/Mcx/ns-mcx-_modemsettings
+        href: /windows/win32/api/Mcx/ns-mcx-modemsettings
 - name: "Device Management"
   href: device-management.md
   items: 
@@ -251,94 +251,94 @@
       href: device-management-structures.md
       items: 
       - name: "CHANGER_ELEMENT"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_element
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element
       - name: "CHANGER_ELEMENT_LIST"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_element_list
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element_list
       - name: "CHANGER_ELEMENT_STATUS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_element_status
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element_status
       - name: "CHANGER_ELEMENT_STATUS_EX"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_element_status_ex
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_element_status_ex
       - name: "CHANGER_EXCHANGE_MEDIUM"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_exchange_medium
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_exchange_medium
       - name: "CHANGER_INITIALIZE_ELEMENT_STATUS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_initialize_element_status
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_initialize_element_status
       - name: "CHANGER_MOVE_MEDIUM"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_move_medium
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_move_medium
       - name: "CHANGER_PRODUCT_DATA"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_product_data
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_product_data
       - name: "CHANGER_READ_ELEMENT_STATUS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_read_element_status
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_read_element_status
       - name: "CHANGER_SEND_VOLUME_TAG_INFORMATION"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_send_volume_tag_information
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_send_volume_tag_information
       - name: "CHANGER_SET_ACCESS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_set_access
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_set_access
       - name: "CHANGER_SET_POSITION"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_changer_set_position
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-changer_set_position
       - name: "CLASS_MEDIA_CHANGE_CONTEXT"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_class_media_change_context
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-class_media_change_context
       - name: "_DEV_BROADCAST_USERDEFINED"
         href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_userdefined
       - name: "DEV_BROADCAST_DEVICEINTERFACE"
-        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_deviceinterface_a
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_deviceinterface_a
       - name: "DEV_BROADCAST_HANDLE"
-        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_handle
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_handle
       - name: "DEV_BROADCAST_HDR"
-        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_hdr
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_hdr
       - name: "DEV_BROADCAST_OEM"
-        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_oem
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_oem
       - name: "DEV_BROADCAST_PORT"
-        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_port_a
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_port_a
       - name: "DEV_BROADCAST_VOLUME"
-        href: /windows/desktop/api/Dbt/ns-dbt-_dev_broadcast_volume
+        href: /windows/win32/api/Dbt/ns-dbt-dev_broadcast_volume
       - name: "DEVICE_DATA_SET_LB_PROVISIONING_STATE"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_data_set_lb_provisioning_state
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state
       - name: "DEVICE_DATA_SET_RANGE"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_data_set_range
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_data_set_range
       - name: "DEVICE_DATA_SET_REPAIR_PARAMETERS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_data_set_repair_parameters
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_data_set_repair_parameters
       - name: "DEVICE_DSM_NOTIFICATION_PARAMETERS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_dsm_notification_parameters
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_dsm_notification_parameters
       - name: "DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_dsm_offload_read_parameters
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters
       - name: "DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_dsm_offload_write_parameters
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters
       - name: "DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_manage_data_set_attributes
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_manage_data_set_attributes
       - name: "DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_manage_data_set_attributes_output
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_manage_data_set_attributes_output
       - name: "DEVICE_MEDIA_INFO"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_media_info
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-device_media_info
       - name: "GET_CHANGER_PARAMETERS"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_get_changer_parameters
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-get_changer_parameters
       - name: "GET_MEDIA_TYPES"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_get_media_types
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-get_media_types
       - name: "MEDIA_SERIAL_NUMBER_DATA"
         href: media-serial-number-data-str.md
       - name: "PREVENT_MEDIA_REMOVAL"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_prevent_media_removal
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-prevent_media_removal
       - name: "READ_ELEMENT_ADDRESS_INFO"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_read_element_address_info
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-read_element_address_info
       - name: "STORAGE_DEVICE_NUMBER"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_device_number
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_number
       - name: "STORAGE_HOTPLUG_INFO"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_hotplug_info
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_hotplug_info
       - name: "STORAGE_OFFLOAD_READ_OUTPUT"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_offload_read_output
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_offload_read_output
       - name: "STORAGE_OFFLOAD_TOKEN"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_offload_token
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_offload_token
       - name: "STORAGE_OFFLOAD_WRITE_OUTPUT"
-        href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_offload_write_output
+        href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_offload_write_output
       - name: "STORAGE_READ_CAPACITY"
         href: storage-read-capacity.md
     - name: "Device Management Enumeration Types"
       href: device-management-enumeration-types.md
       items: 
       - name: "ELEMENT_TYPE"
-        href: /windows/desktop/api/WinIoCtl/ne-winioctl-_element_type
+        href: /windows/win32/api/WinIoCtl/ne-winioctl-element_type
       - name: "STORAGE_BUS_TYPE"
         href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_bus_type
       - name: "STORAGE_MEDIA_TYPE"
-        href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_media_type
+        href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_media_type
 - name: "PWM API"
   href: pwm-api.md
   items: 
@@ -371,11 +371,11 @@
     - name: "PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT"
       href: pwm-controller-get-actual-period-output.md
     - name: "PWM_CONTROLLER_INFO"
-      href: /windows/desktop/api/Pwm/ns-pwm-_pwm_controller_info
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_controller_info
     - name: "PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT"
-      href: /windows/desktop/api/Pwm/ns-pwm-_pwm_controller_set_desired_period_input
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_controller_set_desired_period_input
     - name: "PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT"
-      href: /windows/desktop/api/Pwm/ns-pwm-_pwm_controller_set_desired_period_output
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_controller_set_desired_period_output
     - name: "PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT"
       href: pwm-pin-get-active-duty-cycle-percentage-output.md
     - name: "PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT"
@@ -383,11 +383,11 @@
     - name: "PWM_PIN_GET_POLARITY_OUTPUT"
       href: pwm-pin-get-polarity-output.md
     - name: "PWM_PIN_SET_POLARITY_INPUT"
-      href: /windows/desktop/api/Pwm/ns-pwm-_pwm_pin_set_polarity_input
+      href: /windows/win32/api/Pwm/ns-pwm-pwm_pin_set_polarity_input
     - name: "PWM_PIN_IS_STARTED_OUTPUT"
       href: pwm-pin-is-started-output.md
   - name: "PWM Enumeration Types"
     href: pwm-enumeration-types.md
     items: 
     - name: "PWM_POLARITY"
-      href: /windows/desktop/api/Pwm/ne-pwm-_pwm_polarity
+      href: /windows/win32/api/Pwm/ne-pwm-pwm_polarity

@@ -2501,7 +2501,7 @@
         href: dx-graphics-d3dcompiler-reference-structs.md
         items: 
         - name: "D3D_SHADER_DATA"
-          href: /windows/desktop/api/d3dcompiler/ns-d3dcompiler-_d3d_shader_data
+          href: /windows/win32/api/d3dcompiler/ns-d3dcompiler-d3d_shader_data
       - name: "Enumerations"
         href: dx-graphics-d3dcompiler-reference-enums.md
         items: 

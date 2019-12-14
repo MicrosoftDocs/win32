@@ -744,77 +744,77 @@
         - name: "D3DAUTHENTICATEDCHANNEL_QUERYUNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT_OUTPUT"
           href: d3dauthenticatedchannel-queryunrestrictedprotectedsharedresourcecount-output.md
         - name: "D3DCONTENTPROTECTIONCAPS"
-          href: /windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcontentprotectioncaps
+          href: /windows/win32/api/d3d9caps/ns-d3d9caps-d3dcontentprotectioncaps
         - name: "D3DENCRYPTED_BLOCK_INFO"
           href: d3dencrypted-block-info.md
         - name: "D3DMEMORYPRESSURE"
           href: d3dmemorypressure.md
         - name: "D3DOVERLAYCAPS"
-          href: /windows/desktop/api/d3d9caps/ns-d3d9caps-_d3doverlaycaps
+          href: /windows/win32/api/d3d9caps/ns-d3d9caps-d3doverlaycaps
         - name: "DXVABufferInfo"
-          href: /windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvabufferinfo
+          href: /windows/win32/api/dxva9typ/ns-dxva9typ-dxvabufferinfo
         - name: "DXVACompBufferInfo"
-          href: /windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvacompbufferinfo
+          href: /windows/win32/api/dxva9typ/ns-dxva9typ-dxvacompbufferinfo
         - name: "DXVAHD_BLT_STATE_ALPHA_FILL_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_alpha_fill_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data
         - name: "DXVAHD_BLT_STATE_BACKGROUND_COLOR_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_background_color_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_background_color_data
         - name: "DXVAHD_BLT_STATE_CONSTRICTION_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_constriction_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data
         - name: "DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_output_color_space_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data
         - name: "DXVAHD_BLT_STATE_PRIVATE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_private_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_private_data
         - name: "DXVAHD_BLT_STATE_TARGET_RECT_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_target_rect_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data
         - name: "DXVAHD_COLOR_RGBA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_color_rgba
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color_rgba
         - name: "DXVAHD_COLOR_YCbCrA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_color_ycbcra
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color_ycbcra
         - name: "DXVAHD_CONTENT_DESC"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_content_desc
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_content_desc
         - name: "DXVAHD_CUSTOM_RATE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_custom_rate_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_custom_rate_data
         - name: "DXVAHD_FILTER_RANGE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_filter_range_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_filter_range_data
         - name: "DXVAHD_RATIONAL"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_rational
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_rational
         - name: "DXVAHD_STREAM_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_data
         - name: "DXVAHD_STREAM_STATE_ALPHA_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_alpha_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_alpha_data
         - name: "DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_aspect_ratio_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_aspect_ratio_data
         - name: "DXVAHD_STREAM_STATE_D3DFORMAT_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_d3dformat_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_d3dformat_data
         - name: "DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_destination_rect_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_destination_rect_data
         - name: "DXVAHD_STREAM_STATE_FILTER_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_filter_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_filter_data
         - name: "DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_frame_format_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_frame_format_data
         - name: "DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_input_color_space_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_input_color_space_data
         - name: "DXVAHD_STREAM_STATE_LUMA_KEY_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_luma_key_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_luma_key_data
         - name: "DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_output_rate_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data
         - name: "DXVAHD_STREAM_STATE_PALETTE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_palette_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_palette_data
         - name: "DXVAHD_STREAM_STATE_PRIVATE_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_private_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_private_data
         - name: "DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_private_ivtc_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_private_ivtc_data
         - name: "DXVAHD_STREAM_STATE_SOURCE_RECT_DATA"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_source_rect_data
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_source_rect_data
         - name: "DXVAHD_VPCAPS"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_vpcaps
         - name: "DXVAHD_VPDEVCAPS"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps
         - name: "DXVAHDSW_CALLBACKS"
-          href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahdsw_callbacks
+          href: /windows/win32/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks
         - name: "DXVAUncompDataInfo"
-          href: /windows/desktop/api/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo
+          href: /windows/win32/api/dxva9typ/ns-dxva9typ-dxvauncompdatainfo
       - name: "Direct3D Video Enumerations"
         href: direct3d-video-enumerations.md
         items: 
@@ -825,35 +825,35 @@
         - name: "D3DBUSTYPE"
           href: d3dbustype.md
         - name: "DXVAHD_ALPHA_FILL_MODE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_alpha_fill_mode
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_alpha_fill_mode
         - name: "DXVAHD_BLT_STATE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_blt_state
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_blt_state
         - name: "DXVAHD_DEVICE_CAPS"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_device_caps
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_device_caps
         - name: "DXVAHD_DEVICE_TYPE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_device_type
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_device_type
         - name: "DXVAHD_DEVICE_USAGE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_device_usage
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_device_usage
         - name: "DXVAHD_FEATURE_CAPS"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_feature_caps
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_feature_caps
         - name: "DXVAHD_FILTER"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_filter
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_filter
         - name: "DXVAHD_FILTER_CAPS"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_filter_caps
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_filter_caps
         - name: "DXVAHD_FRAME_FORMAT"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_frame_format
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_frame_format
         - name: "DXVAHD_INPUT_FORMAT_CAPS"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_input_format_caps
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_input_format_caps
         - name: "DXVAHD_ITELECINE_CAPS"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_itelecine_caps
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_itelecine_caps
         - name: "DXVAHD_OUTPUT_RATE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_output_rate
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_output_rate
         - name: "DXVAHD_PROCESSOR_CAPS"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_processor_caps
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_processor_caps
         - name: "DXVAHD_STREAM_STATE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_stream_state
         - name: "DXVAHD_SURFACE_TYPE"
-          href: /windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_surface_type
+          href: /windows/win32/api/dxvahd/ne-dxvahd-dxvahd_surface_type
       - name: "Content Protection Commands"
         href: content-protection-commands.md
         items: 
@@ -1267,7 +1267,7 @@
         href: direct3d-11-video-structures.md
         items: 
         - name: "D3D11_AES_CTR_IV"
-          href: /windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv
+          href: /windows/win32/api/d3d11/ns-d3d11-d3d11_aes_ctr_iv
         - name: "D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT"
           href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_accessible_encryption_input
         - name: "D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT"
@@ -1812,41 +1812,41 @@
           - name: "MF_SIGNATURE"
             href: mf-signature.md
           - name: "OPM_ACP_AND_CGMSA_SIGNALING"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_acp_and_cgmsa_signaling
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_acp_and_cgmsa_signaling
           - name: "OPM_ACTUAL_OUTPUT_FORMAT"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_actual_output_format
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_actual_output_format
           - name: "OPM_CONFIGURE_PARAMETERS"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_configure_parameters
           - name: "OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_connected_hdcp_device_information
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_connected_hdcp_device_information
           - name: "OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_copp_compatible_get_info_parameters
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters
           - name: "OPM_ENCRYPTED_INITIALIZATION_PARAMETERS"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_encrypted_initialization_parameters
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters
           - name: "OPM_GET_CODEC_INFO_INFORMATION"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_codec_info_information
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_get_codec_info_information
           - name: "OPM_GET_CODEC_INFO_PARAMETERS"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_codec_info_parameters
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_get_codec_info_parameters
           - name: "OPM_GET_INFO_PARAMETERS"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters
           - name: "OPM_HDCP_KEY_SELECTION_VECTOR"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_hdcp_key_selection_vector
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_hdcp_key_selection_vector
           - name: "OPM_OMAC"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_omac
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_omac
           - name: "OPM_OUTPUT_ID_DATA"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_output_id_data
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_output_id_data
           - name: "OPM_RANDOM_NUMBER"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_random_number
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_random_number
           - name: "OPM_REQUESTED_INFORMATION"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_requested_information
           - name: "OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_set_acp_and_cgmsa_signaling_parameters
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_set_acp_and_cgmsa_signaling_parameters
           - name: "OPM_SET_HDCP_SRM_PARAMETERS"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_set_hdcp_srm_parameters
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_set_hdcp_srm_parameters
           - name: "OPM_SET_PROTECTION_LEVEL_PARAMETERS"
-            href: /windows/desktop/api/opmapi/ns-opmapi-_opm_set_protection_level_parameters
+            href: /windows/win32/api/opmapi/ns-opmapi-opm_set_protection_level_parameters
           - name: "OPM_STANDARD_INFORMATION"
-            href: /windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_standard_information
+            href: /windows/win32/api/ksopmapi/ns-ksopmapi-opm_standard_information
         - name: "OPM Enumerations"
           href: opm-enumerations.md
           items: 
@@ -1859,15 +1859,15 @@
           - name: "OPM Status Flags"
             href: opm-status-flags.md
           - name: "OPM_ACP_PROTECTION_LEVEL"
-            href: /windows/desktop/api/opmapi/ne-opmapi-_opm_acp_protection_level
+            href: /windows/win32/api/opmapi/ne-opmapi-opm_acp_protection_level
           - name: "OPM_DPCP_PROTECTION_LEVEL"
-            href: /windows/desktop/api/opmapi/ne-opmapi-_opm_dpcp_protection_level
+            href: /windows/win32/api/opmapi/ne-opmapi-opm_dpcp_protection_level
           - name: "OPM_HDCP_PROTECTION_LEVEL"
-            href: /windows/desktop/api/opmapi/ne-opmapi-_opm_hdcp_protection_level
+            href: /windows/win32/api/opmapi/ne-opmapi-opm_hdcp_protection_level
           - name: "OPM_IMAGE_ASPECT_RATIO_EN300294"
-            href: /windows/desktop/api/opmapi/ne-opmapi-_opm_image_aspect_ratio_en300294
+            href: /windows/win32/api/opmapi/ne-opmapi-opm_image_aspect_ratio_en300294
           - name: "OPM_VIDEO_OUTPUT_SEMANTICS"
-            href: /windows/desktop/api/opmapi/ne-opmapi-_opm_video_output_semantics
+            href: /windows/win32/api/opmapi/ne-opmapi-opm_video_output_semantics
         - name: "OPM Commands"
           href: opm-commands.md
           items: 
@@ -2138,9 +2138,9 @@
             href: toc-parser-structures.md
             items: 
             - name: "TOC_DESCRIPTOR"
-              href: /windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-_toc_descriptor
+              href: /windows/win32/api/wmcodecdsp/ns-wmcodecdsp-toc_descriptor
             - name: "TOC_ENTRY_DESCRIPTOR"
-              href: /windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-_toc_entry_descriptor
+              href: /windows/win32/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor
           - name: "Table of Contents Parser Enumerations"
             href: toc-parser-enumerations.md
             items: 
@@ -3340,7 +3340,7 @@
       - name: "_MFDepthMeasurement"
         href: /windows/desktop/api/mfapi/ne-mfapi-_mfdepthmeasurement
       - name: "_MF_CROSS_ORIGIN_POLICY"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_cross_origin_policy
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_cross_origin_policy
       - name: "_MFP_CREATION_OPTIONS"
         href: /windows/desktop/api/mfplay/ne-mfplay-_mfp_creation_options
       - name: "_MFP_CREDENTIAL_FLAGS"
@@ -3378,21 +3378,21 @@
       - name: "ASF_STATUSFLAGS"
         href: /windows/desktop/api/wmcontainer/ne-wmcontainer-asf_statusflags
       - name: "DXVA2_NominalRange"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_nominalrange
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_nominalrange
       - name: "DXVA2_SampleFormat"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_sampleformat
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_sampleformat
       - name: "DXVA2_SurfaceType"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-__midl___midl_itf_dxva2api_0000_0006_0001
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_surfacetype
       - name: "DXVA2_VideoChromaSubSampling"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videochromasubsampling
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_videochromasubsampling
       - name: "DXVA2_VideoLighting"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videolighting
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_videolighting
       - name: "DXVA2_VideoPrimaries"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videoprimaries
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_videoprimaries
       - name: "DXVA2_VideoTransferFunction"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videotransferfunction
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_videotransferfunction
       - name: "DXVA2_VideoTransferMatrix"
-        href: /windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videotransfermatrix
+        href: /windows/win32/api/dxva2api/ne-dxva2api-dxva2_videotransfermatrix
       - name: "eAVDecDDStereoDownMixMode"
         href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavdecddstereodownmixmode
       - name: "eAVEncAdaptiveMode"
@@ -3412,9 +3412,9 @@
       - name: "MF_ATTRIBUTE_SERIALIZE_OPTIONS"
         href: /windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_serialize_options
       - name: "MF_ATTRIBUTE_TYPE"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mf_attribute_type
       - name: "MF_ATTRIBUTES_MATCH_TYPE"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mf_attributes_match_type
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mf_attributes_match_type
       - name: "MF_CAPTURE_ENGINE_DEVICE_TYPE Enumeration"
         href: /windows/desktop/api/mfcaptureengine/ne-mfcaptureengine-mf_capture_engine_device_type
       - name: "MF_CAPTURE_ENGINE_SINK_TYPE Enumeration"
@@ -3422,15 +3422,15 @@
       - name: "MF_CAPTURE_ENGINE_STREAM_CATEGORY Enumeration"
         href: /windows/desktop/api/mfcaptureengine/ne-mfcaptureengine-mf_capture_engine_stream_category
       - name: "MF_CONNECT_METHOD"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_connect_method
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_connect_method
       - name: "MF_CUSTOM_DECODE_UNIT_TYPE enumeration"
         href: mf-custom-decode-unit-type-enum.md
       - name: "MF_FILE_ACCESSMODE"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0001
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mf_file_accessmode
       - name: "MF_FILE_FLAGS"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0003
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mf_file_flags
       - name: "MF_FILE_OPENMODE"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-__midl___midl_itf_mfobjects_0000_0017_0002
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mf_file_openmode
       - name: "MF_MEDIA_ENGINE_CANPLAY"
         href: /windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_canplay
       - name: "MF_MEDIA_ENGINE_CREATEFLAGS"
@@ -3470,19 +3470,19 @@
       - name: "MF_OBJECT_TYPE"
         href: /windows/desktop/api/mfidl/ne-mfidl-mf_object_type
       - name: "MF_OPM_ACP_PROTECTION_LEVEL"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_opm_acp_protection_level
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_opm_acp_protection_level
       - name: "MF_OPM_CGMSA_PROTECTION_LEVEL"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_opm_cgmsa_protection_level
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_opm_cgmsa_protection_level
       - name: "MF_PLUGIN_CONTROL_POLICY"
         href: /windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_control_policy
       - name: "MF_Plugin_Type"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mf_plugin_type
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mf_plugin_type
       - name: "MF_QUALITY_ADVISE_FLAGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_quality_advise_flags
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_quality_advise_flags
       - name: "MF_QUALITY_DROP_MODE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_quality_drop_mode
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_quality_drop_mode
       - name: "MF_QUALITY_LEVEL"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_quality_level
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_quality_level
       - name: "MF_SHARING_ENGINE_EVENT"
         href: /windows/desktop/api/mfsharingengine/ne-mfsharingengine-mf_sharing_engine_event
       - name: "MF_SOURCE_READER_CONTROL_FLAG"
@@ -3510,31 +3510,31 @@
       - name: "MF_TIMED_TEXT_WRITING_MODE"
         href: /windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode
       - name: "MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_topology_resolution_status_flags
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_topology_resolution_status_flags
       - name: "MF_TOPOLOGY_TYPE"
         href: /windows/desktop/api/mfidl/ne-mfidl-mf_topology_type
       - name: "MF_TOPONODE_DRAIN_MODE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_toponode_drain_mode
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_toponode_drain_mode
       - name: "MF_TOPONODE_FLUSH_MODE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_toponode_flush_mode
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_toponode_flush_mode
       - name: "MF_TOPOSTATUS"
         href: /windows/desktop/api/mfapi/ne-mfapi-mf_topostatus
       - name: "MF_TRANSCODE_ADJUST_PROFILE_FLAGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_transcode_adjust_profile_flags
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_transcode_adjust_profile_flags
       - name: "MF_TRANSCODE_TOPOLOGYMODE_FLAGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_transcode_topologymode_flags
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_transcode_topologymode_flags
       - name: "MF_URL_TRUST_STATUS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0031_0001
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_url_trust_status
       - name: "MF_VIDEO_PROCESSOR_ALGORITHM_TYPE"
         href: mf-video-processor-algorithm-type.md
       - name: "MF_VIDEO_PROCESSOR_MIRROR"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_video_processor_mirror
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_video_processor_mirror
       - name: "MF_VIDEO_PROCESSOR_ROTATION"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mf_video_processor_rotation
+        href: /windows/win32/api/mfidl/ne-mfidl-mf_video_processor_rotation
       - name: "MF2DBuffer_LockFlags"
         href: https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf2dbuffer_lockflags
       - name: "MF3DVideoOutputType"
-        href: /windows/desktop/api/mftransform/ne-mftransform-_mf3dvideooutputtype
+        href: /windows/win32/api/mftransform/ne-mftransform-mf3dvideooutputtype
       - name: "MFASF_INDEXER_FLAGS"
         href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_indexerflags
       - name: "MFASF_MULTIPLEXERFLAGS"
@@ -3546,37 +3546,37 @@
       - name: "MFASYNC_WORKQUEUE_TYPE"
         href: /windows/desktop/api/mfapi/ne-mfapi-mfasync_workqueue_type
       - name: "MFAudioConstriction"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfaudioconstriction
+        href: /windows/win32/api/mfidl/ne-mfidl-mfaudioconstriction
       - name: "MFBYTESTREAM_SEEK_ORIGIN"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfbytestream_seek_origin
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfbytestream_seek_origin
       - name: "MFCLOCK_CHARACTERISTICS_FLAGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfclock_characteristics_flags
+        href: /windows/win32/api/mfidl/ne-mfidl-mfclock_characteristics_flags
       - name: "MFCLOCK_RELATIONAL_FLAGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfclock_relational_flags
+        href: /windows/win32/api/mfidl/ne-mfidl-mfclock_relational_flags
       - name: "MFCLOCK_STATE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfclock_state
+        href: /windows/win32/api/mfidl/ne-mfidl-mfclock_state
       - name: "MFFrameSourceTypes"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfframesourcetypes
+        href: /windows/win32/api/mfapi/ne-mfapi-mfframesourcetypes
       - name: "MFMEDIASOURCE_CHARACTERISTICS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics
+        href: /windows/win32/api/mfidl/ne-mfidl-mfmediasource_characteristics
       - name: "MFNET_PROXYSETTINGS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnet_proxysettings
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnet_proxysettings
       - name: "MFNetAuthenticationFlags"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetauthenticationflags
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetauthenticationflags
       - name: "MFNetCredentialOptions"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetcredentialoptions
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetcredentialoptions
       - name: "MFNetCredentialRequirements"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetcredentialrequirements
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetcredentialrequirements
       - name: "MFNETSOURCE_CACHE_STATE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_cache_state
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetsource_cache_state
       - name: "MFNETSOURCE_PROTOCOL_TYPE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_protocol_type
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetsource_protocol_type
       - name: "MFNETSOURCE_STATISTICS_IDS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_statistics_ids
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetsource_statistics_ids
       - name: "MFNETSOURCE_TRANSPORT_TYPE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_transport_type
+        href: /windows/win32/api/mfidl/ne-mfidl-mfnetsource_transport_type
       - name: "MFNominalRange"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfnominalrange
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfnominalrange
       - name: "MFP_EVENT_TYPE"
         href: /windows/desktop/api/mfplay/ne-mfplay-mfp_event_type
       - name: "MFP_MEDIAPLAYER_STATE"
@@ -3584,33 +3584,33 @@
       - name: "MFPMPSESSION_CREATION_FLAGS"
         href: /windows/desktop/api/mfidl/ne-mfidl-mfpmpsession_creation_flags
       - name: "MFPOLICYMANAGER_ACTION"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfpolicymanager_action
+        href: /windows/win32/api/mfidl/ne-mfidl-mfpolicymanager_action
       - name: "MFRATE_DIRECTION"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfrate_direction
+        href: /windows/win32/api/mfidl/ne-mfidl-mfrate_direction
       - name: "MFSampleEncryptionProtectionScheme"
         href: https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme
       - name: "MFSensorDeviceType"
-        href: /windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0001
+        href: /windows/win32/api/mfidl/ne-mfidl-mfsensordevicetype
       - name: "MFSensorStreamType"
-        href: /windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0002
+        href: /windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype
       - name: "MFSensorDeviceMode"
-        href: /windows/desktop/api/mfidl/ne-mfidl-__midl___midl_itf_mfidl_0000_0109_0003
+        href: /windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode
       - name: "MFSequencerTopologyFlags"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfsequencertopologyflags
+        href: /windows/win32/api/mfidl/ne-mfidl-mfsequencertopologyflags
       - name: "MFSESSION_GETFULLTOPOLOGY_FLAGS"
         href: /windows/desktop/api/mfidl/ne-mfidl-mfsession_getfulltopology_flags
       - name: "MFSESSION_SETTOPOLOGY_FLAGS"
         href: /windows/desktop/api/mfidl/ne-mfidl-mfsession_settopology_flags
       - name: "MFSHUTDOWN_STATUS"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfshutdown_status
+        href: /windows/win32/api/mfidl/ne-mfidl-mfshutdown_status
       - name: "MFSINK_WMDRMACTION"
         href: https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-_mfsink_wmdrmaction
       - name: "MFStandardVideoFormat"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfstandardvideoformat
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfstandardvideoformat
       - name: "MFSTREAMSINK_MARKER_TYPE"
-        href: /windows/desktop/api/mfidl/ne-mfidl-_mfstreamsink_marker_type
+        href: /windows/win32/api/mfidl/ne-mfidl-mfstreamsink_marker_type
       - name: "MFT_MESSAGE_TYPE"
-        href: /windows/desktop/api/mftransform/ne-mftransform-_mft_message_type
+        href: /windows/win32/api/mftransform/ne-mftransform-mft_message_type
         items: 
         - name: "MFT_MESSAGE_COMMAND_DRAIN"
           href: mft-message-command-drain.md
@@ -3635,49 +3635,49 @@
       - name: "MFTOPOLOGY_HARDWARE_MODE"
         href: /windows/desktop/api/mfidl/ne-mfidl-mftopology_hardware_mode
       - name: "MFVideo3DFormat"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideo3dformat
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideo3dformat
       - name: "MFVideo3DFormat"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideo3dformat
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideo3dformat
       - name: "MFVideo3DSampleFormat"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideo3dsampleformat
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideo3dsampleformat
       - name: "MFVideo3DSampleFormat"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideo3dsampleformat
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideo3dsampleformat
       - name: "MFVideoAlphaBitmapFlags"
-        href: /windows/desktop/api/evr9/ne-evr9-__midl___midl_itf_evr9_0000_0002_0002
+        href: /windows/win32/api/evr9/ne-evr9-mfvideoalphabitmapflags
       - name: "MFVideoAspectRatioMode"
         href: /windows/desktop/api/evr/ne-evr-mfvideoaspectratiomode
       - name: "MFVideoChromaSubsampling"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideochromasubsampling
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideochromasubsampling
       - name: "MFVideoDRMFlags"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideodrmflags
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideodrmflags
       - name: "MFVideoDSPMode"
-        href: /windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-_mfvideodspmode
+        href: /windows/win32/api/wmcodecdsp/ne-wmcodecdsp-mfvideodspmode
       - name: "MFVideoFlags"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoflags
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideoflags
       - name: "MFVideoInterlaceMode"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideointerlacemode
       - name: "MFVideoLighting"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideolighting
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideolighting
       - name: "MFVideoMixPrefs"
-        href: /windows/desktop/api/evr/ne-evr-_mfvideomixprefs
+        href: /windows/win32/api/evr/ne-evr-mfvideomixprefs
       - name: "MFVideoPadFlags"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideopadflags
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideopadflags
       - name: "MFVideoPrimaries"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoprimaries
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideoprimaries
       - name: "MFVideoRenderPrefs"
         href: /windows/desktop/api/evr/ne-evr-mfvideorenderprefs
       - name: "MFVideoRotationFormat"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideorotationformat
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideorotationformat
       - name: "MFVideoSrcContentHintFlags"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfvideosrccontenthintflags
+        href: /windows/win32/api/mfapi/ne-mfapi-mfvideosrccontenthintflags
       - name: "MFVideoTransferFunction"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideotransferfunction
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideotransferfunction
       - name: "MFVideoTransferMatrix"
-        href: /windows/desktop/api/mfobjects/ne-mfobjects-_mfvideotransfermatrix
+        href: /windows/win32/api/mfobjects/ne-mfobjects-mfvideotransfermatrix
       - name: "MFVP_MESSAGE_TYPE"
         href: /windows/desktop/api/evr/ne-evr-mfvp_message_type
       - name: "MFWaveFormatExConvertFlags"
-        href: /windows/desktop/api/mfapi/ne-mfapi-_mfwaveformatexconvertflags
+        href: /windows/win32/api/mfapi/ne-mfapi-mfwaveformatexconvertflags
       - name: "MIC_ARRAY_MODE"
         href: /windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-mic_array_mode
       - name: "PLAYTO_SOURCE_CREATEFLAGS"
@@ -8281,15 +8281,15 @@
       href: media-foundation-structures.md
       items: 
       - name: "AecQualityMetrics_Struct"
-        href: /windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-tagaecqualitymetrics_struct
+        href: /windows/win32/api/wmcodecdsp/ns-wmcodecdsp-aecqualitymetrics_struct
       - name: "ASF_FLAT_PICTURE"
         href: /windows/desktop/api/mfidl/ns-mfidl-_asfflatpicture
       - name: "ASF_FLAT_SYNCHRONISED_LYRICS"
         href: /windows/desktop/api/mfidl/ns-mfidl-_asfflatsynchronisedlyrics
       - name: "ASF_INDEX_DESCRIPTOR"
-        href: /windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_descriptor
+        href: /windows/win32/api/wmcontainer/ns-wmcontainer-asf_index_descriptor
       - name: "ASF_INDEX_IDENTIFIER"
-        href: /windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_identifier
+        href: /windows/win32/api/wmcontainer/ns-wmcontainer-asf_index_identifier
       - name: "ASF_MUX_STATISTICS"
         href: /windows/desktop/api/wmcontainer/ns-wmcontainer-asf_mux_statistics
       - name: "DEVICE_INFO"
@@ -8303,89 +8303,89 @@
       - name: "DXVA_Slice_HEVC_Short"
         href: dxva-slice-hevc-short.md
       - name: "DXVA2_AES_CTR_IV"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_aes_ctr_iv
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv
       - name: "DXVA2_AYUVSample16"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_ayuvsample16
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_ayuvsample16
       - name: "DXVA2_AYUVSample8"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_ayuvsample8
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8
       - name: "DXVA2_ConfigPictureDecode"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_configpicturedecode
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_configpicturedecode
       - name: "DXVA2_DecodeBufferDesc"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc
       - name: "DXVA2_DecodeExecuteParams"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeexecuteparams
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams
       - name: "DXVA2_DecodeExtensionData"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeextensiondata
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_decodeextensiondata
       - name: "DXVA2_ExtendedFormat"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_extendedformat
       - name: "DXVA2_FilterValues"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_filtervalues
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_filtervalues
       - name: "DXVA2_Fixed32"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_fixed32
       - name: "DXVA2_Frequency"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_frequency
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_frequency
       - name: "DXVA2_ProcAmpValues"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_procampvalues
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_procampvalues
       - name: "DXVA2_ValueRange"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_valuerange
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_valuerange
       - name: "DXVA2_VideoDesc"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videodesc
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_videodesc
       - name: "DXVA2_VideoProcessBltParams"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams
       - name: "DXVA2_VideoProcessorCaps"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps
       - name: "DXVA2_VideoSample"
-        href: /windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videosample
+        href: /windows/win32/api/dxva2api/ns-dxva2api-dxva2_videosample
       - name: "MF_BYTE_STREAM_CACHE_RANGE"
-        href: /windows/desktop/api/mfidl/ns-mfidl-__midl___midl_itf_mfidl_0000_0058_0001
+        href: /windows/win32/api/mfidl/ns-mfidl-mf_byte_stream_cache_range
       - name: "MF_FLOAT2"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mf_float2
+        href: /windows/win32/api/mfapi/ns-mfapi-mf_float2
       - name: "MF_FLOAT3"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mf_float3
+        href: /windows/win32/api/mfapi/ns-mfapi-mf_float3
       - name: "MF_LEAKY_BUCKET_PAIR"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mf_leaky_bucket_pair
+        href: /windows/win32/api/mfidl/ns-mfidl-mf_leaky_bucket_pair
       - name: "MF_QUATERNION"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mf_quaternion
+        href: /windows/win32/api/mfapi/ns-mfapi-mf_quaternion
       - name: "MF_SINK_WRITER_STATISTICS"
-        href: /windows/desktop/api/mfreadwrite/ns-mfreadwrite-_mf_sink_writer_statistics
+        href: /windows/win32/api/mfreadwrite/ns-mfreadwrite-mf_sink_writer_statistics
       - name: "MF_TRANSCODE_SINK_INFO"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mf_transcode_sink_info
+        href: /windows/win32/api/mfidl/ns-mfidl-mf_transcode_sink_info
       - name: "MFARGB"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfargb
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfargb
       - name: "MFASYNCRESULT"
-        href: /windows/desktop/api/mfapi/ns-mfapi-tagmfasyncresult
+        href: /windows/win32/api/mfapi/ns-mfapi-mfasyncresult
       - name: "MFAYUVSample"
         href: /windows/desktop/api/mfobjects/ns-mfobjects-__mfayuvsample
       - name: "MFBYTESTREAM_BUFFERING_PARAMS"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfbytestream_buffering_params
+        href: /windows/win32/api/mfidl/ns-mfidl-mfbytestream_buffering_params
       - name: "MFCameraExtrinsic_CalibratedTransform"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mfcameraextrinsic_calibratedtransform
+        href: /windows/win32/api/mfapi/ns-mfapi-mfcameraextrinsic_calibratedtransform
       - name: "MFCameraExtrinsics"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mfcameraextrinsics
+        href: /windows/win32/api/mfapi/ns-mfapi-mfcameraextrinsics
       - name: "MFCameraIntrinsic_PinholeCameraModel"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mfcameraintrinsic_pinholecameramodel
+        href: /windows/win32/api/mfapi/ns-mfapi-mfcameraintrinsic_pinholecameramodel
       - name: "MFCameraIntrinsic_DistortionModel"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mfcameraintrinsic_distortionmodel
+        href: /windows/win32/api/mfapi/ns-mfapi-mfcameraintrinsic_distortionmodel
       - name: "MFCLOCK_PROPERTIES"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfclock_properties
+        href: /windows/win32/api/mfidl/ns-mfidl-mfclock_properties
       - name: "MFCONTENTPROTECTIONDEVICE_INPUT_DATA"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfcontentprotectiondevice_input_data
+        href: /windows/win32/api/mfidl/ns-mfidl-mfcontentprotectiondevice_input_data
       - name: "MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfcontentprotectiondevice_output_data
+        href: /windows/win32/api/mfidl/ns-mfidl-mfcontentprotectiondevice_output_data
       - name: "MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfcontentprotectiondevice_realtimeclient_data
+        href: /windows/win32/api/mfidl/ns-mfidl-mfcontentprotectiondevice_realtimeclient_data
       - name: "MFFOLDDOWN_MATRIX"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mffolddown_matrix
+        href: /windows/win32/api/mfapi/ns-mfapi-mffolddown_matrix
       - name: "MFINPUTTRUSTAUTHORITY_ACCESS_ACTION"
         href: /windows/desktop/api/mfidl/ns-mfidl-_mfinputtrustauthority_action
       - name: "MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfinputtrustauthority_access_params
+        href: /windows/win32/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params
       - name: "MFMPEG2DLNASINKSTATS"
-        href: /windows/desktop/api/mfmp2dlna/ns-mfmp2dlna-_mfmpeg2dlnasinkstats
+        href: /windows/win32/api/mfmp2dlna/ns-mfmp2dlna-mfmpeg2dlnasinkstats
       - name: "MFNetCredentialManagerGetParam"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfnetcredentialmanagergetparam
+        href: /windows/win32/api/mfidl/ns-mfidl-mfnetcredentialmanagergetparam
       - name: "MFOffset"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfoffset
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfoffset
       - name: "MFP_ACQUIRE_USER_CREDENTIAL_EVENT"
         href: /windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event
       - name: "MFP_ERROR_EVENT"
@@ -8415,53 +8415,53 @@
       - name: "MFP_STOP_EVENT"
         href: /windows/desktop/api/mfplay/ns-mfplay-mfp_stop_event
       - name: "MFPinholeCameraIntrinsic_IntrinsicModel"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mfpinholecameraintrinsic_intrinsicmodel
+        href: /windows/win32/api/mfapi/ns-mfapi-mfpinholecameraintrinsic_intrinsicmodel
       - name: "MFPinholeCameraIntrinsics"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mfpinholecameraintrinsics
+        href: /windows/win32/api/mfapi/ns-mfapi-mfpinholecameraintrinsics
       - name: "MFRatio"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfratio
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfratio
       - name: "MFRR_COMPONENT_HASH_INFO"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfrr_component_hash_info
+        href: /windows/win32/api/mfidl/ns-mfidl-mfrr_component_hash_info
       - name: "MFRR_COMPONENTS"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfrr_components
+        href: /windows/win32/api/mfidl/ns-mfidl-mfrr_components
       - name: "MFT_INPUT_STREAM_INFO"
-        href: /windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info
+        href: /windows/win32/api/mftransform/ns-mftransform-mft_input_stream_info
       - name: "MFT_OUTPUT_DATA_BUFFER"
-        href: /windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer
+        href: /windows/win32/api/mftransform/ns-mftransform-mft_output_data_buffer
       - name: "MFT_OUTPUT_STREAM_INFO"
-        href: /windows/desktop/api/mftransform/ns-mftransform-_mft_output_stream_info
+        href: /windows/win32/api/mftransform/ns-mftransform-mft_output_stream_info
       - name: "MFT_REGISTER_TYPE_INFO"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info
       - name: "MFT_REGISTRATION_INFO"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mft_registration_info
+        href: /windows/win32/api/mfidl/ns-mfidl-mft_registration_info
       - name: "MFTOPONODE_ATTRIBUTE_UPDATE"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mftoponode_attribute_update
+        href: /windows/win32/api/mfidl/ns-mfidl-mftoponode_attribute_update
       - name: "MFVideoAlphaBitmap"
         href: /windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap
       - name: "MFVideoAlphaBitmapParams"
         href: /windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams
       - name: "MFVideoArea"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoarea
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfvideoarea
       - name: "MFVideoCompressedInfo"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfvideocompressedinfo
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfvideocompressedinfo
       - name: "MFVIDEOFORMAT"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfvideoformat
       - name: "MFVideoInfo"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoinfo
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfvideoinfo
       - name: "MFVideoNormalizedRect"
         href: /windows/desktop/api/evr/ns-evr-mfvideonormalizedrect
       - name: "MFVideoSurfaceInfo"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfvideosurfaceinfo
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfvideosurfaceinfo
       - name: "MT_ARBITRARY_HEADER"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mt_arbitrary_header
+        href: /windows/win32/api/mfapi/ns-mfapi-mt_arbitrary_header
       - name: "MT_CUSTOM_VIDEO_PRIMARIES"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_mt_custom_video_primaries
+        href: /windows/win32/api/mfapi/ns-mfapi-mt_custom_video_primaries
       - name: "ROI_AREA"
-        href: /windows/desktop/api/mfapi/ns-mfapi-_roi_area
+        href: /windows/win32/api/mfapi/ns-mfapi-roi_area
       - name: "SENSORPROFILEID"
         href: https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-sensorprofileid
       - name: "STREAM_MEDIUM"
-        href: /windows/desktop/api/Mftransform/ns-mftransform-_stream_medium
+        href: /windows/win32/api/Mftransform/ns-mftransform-stream_medium
     - name: "Media Foundation Unions"
       href: media-foundation-unions.md
       items: 

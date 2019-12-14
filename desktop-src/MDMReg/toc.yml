@@ -33,6 +33,6 @@
       href: mdm-registration-structures.md
       items: 
       - name: "MANAGEMENT_SERVICE_INFO"
-        href: /windows/desktop/api/MDMRegistration/ns-mdmregistration-_management_service_info
+        href: /windows/win32/api/MDMRegistration/ns-mdmregistration-management_service_info
       - name: "REGISTRATION_INFORMATION_CLASS"
-        href: /windows/desktop/api/MDMRegistration/ne-mdmregistration-_registration_information_class
+        href: /windows/win32/api/MDMRegistration/ne-mdmregistration-registration_information_class

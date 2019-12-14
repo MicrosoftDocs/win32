@@ -110,13 +110,13 @@
         href: enumerations.md
         items: 
         - name: "ASM_CMP_FLAGS"
-          href: /windows/desktop/api/Winsxs/ne-winsxs-__midl_iassemblyname_0004
+          href: /windows/win32/api/Winsxs/ne-winsxs-asm_cmp_flags
         - name: "ASM_DISPLAY_FLAGS"
-          href: /windows/desktop/api/Winsxs/ne-winsxs-__midl_iassemblyname_0003
+          href: /windows/win32/api/Winsxs/ne-winsxs-asm_display_flags
         - name: "ASM_NAME"
-          href: /windows/desktop/api/Winsxs/ne-winsxs-__midl_iassemblyname_0001
+          href: /windows/win32/api/Winsxs/ne-winsxs-asm_name
         - name: "CREATE_ASM_NAME_OBJ_FLAGS"
-          href: /windows/desktop/api/Winsxs/ne-winsxs-__midl___midl_itf_winsxs_0000_0003_0001
+          href: /windows/win32/api/Winsxs/ne-winsxs-create_asm_name_obj_flags
       - name: "Side-by-Side Assembly Functions"
         href: side-by-side-assembly-functions.md
         items: 
@@ -166,7 +166,7 @@
         href: structures.md
         items: 
         - name: "ASSEMBLY_INFO"
-          href: /windows/desktop/api/Winsxs/ns-winsxs-_assembly_info
+          href: /windows/win32/api/Winsxs/ns-winsxs-assembly_info
         - name: "FUSION_INSTALL_REFERENCE"
           href: /windows/desktop/api/Winsxs/ns-winsxs-_fusion_install_reference_
     - name: "Manifest Files Reference"
@@ -214,23 +214,23 @@
       - name: "ZombifyActCtx"
         href: /windows/desktop/api/Winbase/nf-winbase-zombifyactctx
       - name: "ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_activation_context_assembly_detailed_information
+        href: /windows/win32/api/Winnt/ns-winnt-activation_context_assembly_detailed_information
       - name: "ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_activation_context_compatibility_information
+        href: /windows/win32/api/Winnt/ns-winnt-activation_context_compatibility_information
       - name: "ACTIVATION_CONTEXT_DETAILED_INFORMATION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_activation_context_detailed_information
+        href: /windows/win32/api/Winnt/ns-winnt-activation_context_detailed_information
       - name: "ACTIVATION_CONTEXT_QUERY_INDEX"
-        href: /windows/desktop/api/Winnt/ns-winnt-_activation_context_query_index
+        href: /windows/win32/api/Winnt/ns-winnt-activation_context_query_index
       - name: "ACTCTX"
-        href: /windows/desktop/api/Winbase/ns-winbase-tagactctxa
+        href: /windows/win32/api/Winbase/ns-winbase-actctxa
       - name: "ACTCTX_SECTION_KEYED_DATA"
-        href: /windows/desktop/api/Winbase/ns-winbase-tagactctx_section_keyed_data
+        href: /windows/win32/api/Winbase/ns-winbase-actctx_section_keyed_data
       - name: "ASSEMBLY_FILE_DETAILED_INFORMATION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_assembly_file_detailed_information
+        href: /windows/win32/api/Winnt/ns-winnt-assembly_file_detailed_information
       - name: "ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_activation_context_run_level_information
+        href: /windows/win32/api/Winnt/ns-winnt-activation_context_run_level_information
       - name: "COMPATIBILITY_CONTEXT_ELEMENT"
-        href: /windows/desktop/api/Winnt/ns-winnt-_compatibility_context_element
+        href: /windows/win32/api/Winnt/ns-winnt-compatibility_context_element
       - name: "ACTCTX_COMPATIBILITY_ELEMENT_TYPE"
         href: /windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type
       - name: "ACTCTX_REQUESTED_RUN_LEVEL"

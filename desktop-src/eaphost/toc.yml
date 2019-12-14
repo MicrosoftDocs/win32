@@ -430,38 +430,38 @@
       href: common-eap-host-api-enumerations.md
       items: 
       - name: "EAP_ATTRIBUTE_TYPE"
-        href: /windows/desktop/api/eaptypes/ne-eaptypes-_eap_attribute_type
+        href: /windows/win32/api/eaptypes/ne-eaptypes-eap_attribute_type
       - name: "EAP_CONFIG_INPUT_FIELD_TYPE"
-        href: /windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type
+        href: /windows/win32/api/eaptypes/ne-eaptypes-eap_config_input_field_type
       - name: "EapCode"
-        href: /windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode
+        href: /windows/win32/api/eapmethodtypes/ne-eapmethodtypes-eapcode
     - name: "Common EAPHost API Structures"
       href: common-eap-host-api-structures.md
       items: 
       - name: "EAP_ATTRIBUTE"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_attribute
       - name: "EAP_ATTRIBUTES"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_attributes
       - name: "EAP_CONFIG_INPUT_FIELD_ARRAY"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_config_input_field_array
       - name: "EAP_CONFIG_INPUT_FIELD_DATA"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_data
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_config_input_field_data
       - name: "EAP_ERROR"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_error
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_error
       - name: "EAP_METHOD_INFO"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info
       - name: "EAP_METHOD_INFO_EX"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_ex
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info_ex
       - name: "EAP_METHOD_INFO_ARRAY"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info_array
       - name: "EAP_METHOD_INFO_ARRAY_EX"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array_ex
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_info_array_ex
       - name: "EAP_METHOD_TYPE"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_method_type
       - name: "EAP_TYPE"
-        href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_type
+        href: /windows/win32/api/eaptypes/ns-eaptypes-eap_type
       - name: "EapPacket"
-        href: /windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket
+        href: /windows/win32/api/eapmethodtypes/ns-eapmethodtypes-eappacket
     - name: "Common EAPHost Constants"
       href: common-eap-host-error-constants.md
       items: 
@@ -555,21 +555,21 @@
         href: eap-host-supplicant-enumerations.md
         items: 
         - name: "EAP_INTERACTIVE_UI_DATA_TYPE"
-          href: /windows/desktop/api/eaptypes/ne-eaptypes-_eap_interactive_ui_data_type
+          href: /windows/win32/api/eaptypes/ne-eaptypes-eap_interactive_ui_data_type
         - name: "EAP_METHOD_PROPERTY_TYPE"
-          href: /windows/desktop/api/EapTypes/ne-eaptypes-_eap_method_property_type
+          href: /windows/win32/api/EapTypes/ne-eaptypes-eap_method_property_type
         - name: "EAP_METHOD_PROPERTY_VALUE_TYPE"
-          href: /windows/desktop/api/EapTypes/ne-eaptypes-_eap_method_property_value_type
+          href: /windows/win32/api/EapTypes/ne-eaptypes-eap_method_property_value_type
         - name: "EAPHOST_AUTH_STATUS"
-          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_eaphost_auth_status
+          href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphost_auth_status
         - name: "EapHostPeerAuthParams"
-          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerauthparams
+          href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams
         - name: "EapHostPeerMethodResultReason"
-          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeermethodresultreason
+          href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason
         - name: "EapHostPeerResponseAction"
-          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction
+          href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction
         - name: "ISOLATION_STATE"
-          href: /windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state
+          href: /windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state
       - name: "EAPHost Supplicant Structures"
         href: eap-host-supplicant-structures.md
         items: 
@@ -582,27 +582,27 @@
         - name: "EAP_CRED_RESP"
           href: eap-cred-resp.md
         - name: "EAP_CRED_EXPIRY_REQ"
-          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_cred_expiry_req
+          href: /windows/win32/api/eaptypes/ns-eaptypes-eap_cred_expiry_req
         - name: "EAP_INTERACTIVE_UI_DATA"
-          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data
+          href: /windows/win32/api/eaptypes/ns-eaptypes-eap_interactive_ui_data
         - name: "EAP_METHOD_PROPERTY"
-          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property
+          href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property
         - name: "EAP_METHOD_PROPERTY_ARRAY"
-          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_array
+          href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_array
         - name: "EAP_METHOD_PROPERTY_VALUE"
           href: /windows/desktop/api/EapTypes/ns-eaptypes-eap_method_property_value
         - name: "EAP_METHOD_PROPERTY_VALUE_BOOL"
-          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_bool
+          href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_value_bool
         - name: "EAP_METHOD_PROPERTY_VALUE_DWORD"
-          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_dword
+          href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_value_dword
         - name: "EAP_METHOD_PROPERTY_VALUE_STRING"
-          href: /windows/desktop/api/EapTypes/ns-eaptypes-_eap_method_property_value_string
+          href: /windows/win32/api/EapTypes/ns-eaptypes-eap_method_property_value_string
         - name: "EAP_UI_DATA_FORMAT"
           href: /windows/desktop/api/eaptypes/ns-eaptypes-eap_ui_data_format
         - name: "EAPHOST_AUTH_INFO"
-          href: /windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-_eaphost_auth_info
+          href: /windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info
         - name: "EapHostPeerMethodResult"
-          href: /windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-tageaphostpeermethodresult
+          href: /windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult
         - name: "EapHostPeerNapInfo"
           href: eaphostpeernapinfo.md
     - name: "EAPHost Peer Method API Reference"
@@ -674,28 +674,28 @@
         href: eap-host-peer-method-enumerations.md
         items: 
         - name: "EapCredentialType"
-          href: /windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype
+          href: /windows/win32/api/eaptypes/ne-eaptypes-eapcredentialtype
         - name: "EapPeerMethodResponseAction"
-          href: /windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction
+          href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eappeermethodresponseaction
         - name: "EapPeerMethodResultReason"
-          href: /windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresultreason
+          href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eappeermethodresultreason
       - name: "EAPHost Peer Method Structures"
         href: eap-host-peer-method-structures.md
         items: 
         - name: "EapCertificateCredential"
-          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapcertificatecredential
+          href: /windows/win32/api/eaptypes/ns-eaptypes-eapcertificatecredential
         - name: "EapCredential"
-          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapcredential
+          href: /windows/win32/api/eaptypes/ns-eaptypes-eapcredential
         - name: "EAP_PEER_METHOD_ROUTINES"
-          href: /windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-_eap_peer_method_routines
+          href: /windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eap_peer_method_routines
         - name: "EapPeerMethodOutput"
-          href: /windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-tageappeermethodouput
+          href: /windows/win32/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-eappeermethodoutput
         - name: "EapPeerMethodResult"
-          href: /windows/desktop/api/eapmethodpeerapis/ns-eapmethodpeerapis-tageappeermethodresult
+          href: /windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eappeermethodresult
         - name: "EapSimCredential"
-          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapsimcredential
+          href: /windows/win32/api/eaptypes/ns-eaptypes-eapsimcredential
         - name: "EapUsernamePasswordCredential"
-          href: /windows/desktop/api/eaptypes/ns-eaptypes-_eapusernamepasswordcredential
+          href: /windows/win32/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential
     - name: "EAPHost Authenticator Method APIs"
       href: eaphost-authenticator-method-apis.md
       items: 
@@ -734,13 +734,13 @@
         href: eap-host-authenticator-method-enumerations.md
         items: 
         - name: "EAP_AUTHENTICATOR_SEND_TIMEOUT"
-          href: /windows/desktop/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-_eap_authenticator_send_timeout
+          href: /windows/win32/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout
         - name: "EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION"
-          href: /windows/desktop/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-_eap_method_authenticator_response_action
+          href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action
       - name: "EAPHost Authenticator Method Structures"
         href: eap-host-authenticator-method-structures.md
         items: 
         - name: "EAP_AUTHENTICATOR_METHOD_ROUTINES"
-          href: /windows/desktop/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-_eap_authenticator_method_routines
+          href: /windows/win32/api/eapmethodauthenticatorapis/ns-eapmethodauthenticatorapis-eap_authenticator_method_routines
         - name: "EAP_METHOD_AUTHENTICATOR_RESULT"
-          href: /windows/desktop/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-_eap_method_authenticator_result
+          href: /windows/win32/api/EapAuthenticatorActionDefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result

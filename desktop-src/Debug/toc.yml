@@ -191,7 +191,7 @@
       href: debugging-structures.md
       items: 
       - name: "CONTEXT"
-        href: /windows/desktop/api/WinNT/ns-winnt-_arm64_nt_context
+        href: /windows/win32/api/WinNT/ns-winnt-arm64_nt_context
       - name: "CREATE_PROCESS_DEBUG_INFO"
         href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info
       - name: "CREATE_THREAD_DEBUG_INFO"
@@ -205,7 +205,7 @@
       - name: "EXIT_THREAD_DEBUG_INFO"
         href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-exit_thread_debug_info
       - name: "LDT_ENTRY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_ldt_entry
+        href: /windows/win32/api/WinNT/ns-winnt-ldt_entry
       - name: "LOAD_DLL_DEBUG_INFO"
         href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-load_dll_debug_info
       - name: "OUTPUT_DEBUG_STRING_INFO"
@@ -217,11 +217,11 @@
       - name: "UNLOAD_DLL_DEBUG_INFO"
         href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-unload_dll_debug_info
       - name: "WOW64_CONTEXT"
-        href: /windows/desktop/api/WinNT/ns-winnt-_wow64_context
+        href: /windows/win32/api/WinNT/ns-winnt-wow64_context
       - name: "WOW64_FLOATING_SAVE_AREA"
-        href: /windows/desktop/api/WinNT/ns-winnt-_wow64_floating_save_area
+        href: /windows/win32/api/WinNT/ns-winnt-wow64_floating_save_area
       - name: "WOW64_LDT_ENTRY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_wow64_ldt_entry
+        href: /windows/win32/api/WinNT/ns-winnt-wow64_ldt_entry
 - name: "Debug Help Library"
   href: debug-help-library.md
   items: 
@@ -304,21 +304,21 @@
       - name: "IMAGEHLP_EXTENDED_OPTIONS"
         href: /windows/desktop/api/DbgHelp/ne-dbghelp-imagehlp_extended_options
       - name: "IMAGEHLP_SYMBOL_TYPE_INFO"
-        href: /windows/desktop/api/DbgHelp/ne-dbghelp-_imagehlp_symbol_type_info
+        href: /windows/win32/api/DbgHelp/ne-dbghelp-imagehlp_symbol_type_info
       - name: "MINIDUMP_CALLBACK_TYPE"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_callback_type
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type
       - name: "MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_handle_object_information_type
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_handle_object_information_type
       - name: "MINIDUMP_SECONDARY_FLAGS"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_secondary_flags
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags
       - name: "MINIDUMP_STREAM_TYPE"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type
       - name: "MINIDUMP_TYPE"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_type
       - name: "MODULE_WRITE_FLAGS"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-module_write_flags
       - name: "THREAD_WRITE_FLAGS"
-        href: /windows/desktop/api/minidumpapiset/ne-minidumpapiset-_thread_write_flags
+        href: /windows/win32/api/minidumpapiset/ne-minidumpapiset-thread_write_flags
     - name: "DbgHelp Functions"
       href: dbghelp-functions.md
       items: 
@@ -594,137 +594,137 @@
       - name: "API_VERSION"
         href: /windows/desktop/api/DbgHelp/ns-dbghelp-api_version
       - name: "FPO_DATA"
-        href: /windows/desktop/api/WinNT/ns-winnt-_fpo_data
+        href: /windows/win32/api/WinNT/ns-winnt-fpo_data
       - name: "IMAGE_DEBUG_INFORMATION"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_image_debug_information
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-image_debug_information
       - name: "IMAGEHLP_CBA_EVENT"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_cba_event
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_cba_event
       - name: "IMAGEHLP_CBA_READ_MEMORY"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_cba_read_memory
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_cba_read_memory
       - name: "IMAGEHLP_DEFERRED_SYMBOL_LOAD64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_deferred_symbol_load
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_deferred_symbol_load
       - name: "IMAGEHLP_DUPLICATE_SYMBOL64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_duplicate_symbol
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_duplicate_symbol
       - name: "IMAGEHLP_GET_TYPE_INFO_PARAMS"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_get_type_info_params
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_get_type_info_params
       - name: "IMAGEHLP_LINE64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_line
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_line
       - name: "IMAGEHLP_MODULE64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_module
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_module
       - name: "IMAGEHLP_STACK_FRAME"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_stack_frame
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_stack_frame
       - name: "IMAGEHLP_SYMBOL64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_imagehlp_symbol
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-imagehlp_symbol
       - name: "KDHELP64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_kdhelp
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-kdhelp
       - name: "LOADED_IMAGE"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_loaded_image
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-loaded_image
       - name: "MINIDUMP_CALLBACK_INFORMATION"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_information
       - name: "MINIDUMP_CALLBACK_INPUT"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_input
       - name: "MINIDUMP_CALLBACK_OUTPUT"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_callback_output
       - name: "MINIDUMP_DIRECTORY"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_directory
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_directory
       - name: "MINIDUMP_EXCEPTION"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_exception
       - name: "MINIDUMP_EXCEPTION_INFORMATION"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception_information
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information
       - name: "MINIDUMP_EXCEPTION_STREAM"
         href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_stream
       - name: "MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_function_table_descriptor
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_function_table_descriptor
       - name: "MINIDUMP_FUNCTION_TABLE_STREAM"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_function_table_stream
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_function_table_stream
       - name: "MINIDUMP_HANDLE_DATA_STREAM"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_data_stream
       - name: "MINIDUMP_HANDLE_DESCRIPTOR"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_descriptor
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor
       - name: "MINIDUMP_HANDLE_DESCRIPTOR_2"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_descriptor_2
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor_2
       - name: "MINIDUMP_HANDLE_OBJECT_INFORMATION"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_object_information
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_object_information
       - name: "MINIDUMP_HANDLE_OPERATION_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_operation_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_operation_list
       - name: "MINIDUMP_HEADER"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_header
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_header
       - name: "MINIDUMP_INCLUDE_MODULE_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_include_module_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_module_callback
       - name: "MINIDUMP_INCLUDE_THREAD_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_include_thread_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_thread_callback
       - name: "MINIDUMP_IO_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_io_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback
       - name: "MINIDUMP_LOCATION_DESCRIPTOR"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor
       - name: "MINIDUMP_MEMORY_DESCRIPTOR"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_descriptor
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor
       - name: "MINIDUMP_MEMORY_INFO"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info
       - name: "MINIDUMP_MEMORY_INFO_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list
       - name: "MINIDUMP_MEMORY_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory64_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory64_list
       - name: "MINIDUMP_MISC_INFO"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info
       - name: "MINIDUMP_MISC_INFO_2"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info_2
       - name: "MINIDUMP_MODULE"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module
       - name: "MINIDUMP_MODULE_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_callback
       - name: "MINIDUMP_MODULE_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_list
       - name: "MINIDUMP_READ_MEMORY_FAILURE_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_read_memory_failure_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_read_memory_failure_callback
       - name: "MINIDUMP_STRING"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_string
       - name: "MINIDUMP_SYSTEM_INFO"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_system_info
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_system_info
       - name: "MINIDUMP_THREAD"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread
       - name: "MINIDUMP_THREAD_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_callback
       - name: "MINIDUMP_THREAD_EX"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex
       - name: "MINIDUMP_THREAD_EX_CALLBACK"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex_callback
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_callback
       - name: "MINIDUMP_THREAD_EX_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_list
       - name: "MINIDUMP_THREAD_INFO"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info
       - name: "MINIDUMP_THREAD_INFO_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info_list
       - name: "MINIDUMP_THREAD_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_list
       - name: "MINIDUMP_UNLOADED_MODULE"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module
       - name: "MINIDUMP_UNLOADED_MODULE_LIST"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module_list
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module_list
       - name: "MINIDUMP_USER_STREAM"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream
       - name: "MINIDUMP_USER_STREAM_INFORMATION"
-        href: /windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information
+        href: /windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information
       - name: "MODLOAD_CVMISC"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_modload_cvmisc
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-modload_cvmisc
       - name: "MODLOAD_DATA"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_modload_data
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-modload_data
       - name: "OMAP"
-        href: /windows/desktop/api/Dbghelp/ns-dbghelp-_omap
+        href: /windows/win32/api/Dbghelp/ns-dbghelp-omap
       - name: "SOURCEFILE"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_sourcefile
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-sourcefile
       - name: "SRCCODEINFO"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_srccodeinfo
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-srccodeinfo
       - name: "STACKFRAME64"
         href: /windows/desktop/api/DbgHelp/ns-dbghelp-_tagstackframe
       - name: "STACKFRAME_EX"
         href: /windows/desktop/api/DbgHelp/ns-dbghelp-_tagstackframe_ex
       - name: "SYMBOL_INFO"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_symbol_info
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-symbol_info
       - name: "SYMSRV_INDEX_INFO"
         href: /windows/desktop/api/Dbghelp/ns-dbghelp-symsrv_index_info
       - name: "TI_FINDCHILDREN_PARAMS"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_ti_findchildren_params
+        href: /windows/win32/api/DbgHelp/ns-dbghelp-ti_findchildren_params
     - name: "Image Help Library"
       href: image-help-library.md
       items: 
@@ -799,23 +799,23 @@
           href: imagehlp-structures.md
           items: 
           - name: "IMAGE_COFF_SYMBOLS_HEADER"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_coff_symbols_header
+            href: /windows/win32/api/WinNT/ns-winnt-image_coff_symbols_header
           - name: "IMAGE_DATA_DIRECTORY"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_data_directory
+            href: /windows/win32/api/WinNT/ns-winnt-image_data_directory
           - name: "IMAGE_DEBUG_DIRECTORY"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_debug_directory
+            href: /windows/win32/api/WinNT/ns-winnt-image_debug_directory
           - name: "IMAGE_FILE_HEADER"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_file_header
+            href: /windows/win32/api/WinNT/ns-winnt-image_file_header
           - name: "IMAGE_FUNCTION_ENTRY"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_function_entry
+            href: /windows/win32/api/WinNT/ns-winnt-image_function_entry
           - name: "IMAGE_LOAD_CONFIG_DIRECTORY64"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_load_config_directory32
+            href: /windows/win32/api/WinNT/ns-winnt-image_load_config_directory32
           - name: "IMAGE_NT_HEADERS"
             href: /windows/desktop/api/WinNT/ns-winnt-_image_nt_headers
           - name: "IMAGE_OPTIONAL_HEADER"
             href: /windows/desktop/api/WinNT/ns-winnt-_image_optional_header
           - name: "IMAGE_SECTION_HEADER"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_section_header
+            href: /windows/win32/api/WinNT/ns-winnt-image_section_header
 - name: "Structured Exception Handling"
   href: structured-exception-handling.md
   items: 
@@ -923,7 +923,7 @@
     - name: "RegisterWaitChainCOMCallback"
       href: /windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback
     - name: "WAITCHAIN_NODE_INFO"
-      href: /windows/desktop/api/Wct/ns-wct-_waitchain_node_info
+      href: /windows/win32/api/Wct/ns-wct-waitchain_node_info
     - name: "PWAITCHAINCALLBACK"
       href: https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback
 - name: "Intel AVX"

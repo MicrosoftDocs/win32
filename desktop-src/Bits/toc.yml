@@ -560,19 +560,19 @@
       - name: "BG_AUTH_CREDENTIALS_UNION"
         href: /windows/win32/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0004
       - name: "BG_BASIC_CREDENTIALS"
-        href: /windows/win32/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003
+        href: /windows/win32/api/Bits1_5/ns-bits1_5-bg_auth_credentials
       - name: "BG_FILE_INFO"
-        href: /windows/win32/api/Bits/ns-bits-_bg_file_info
+        href: /windows/win32/api/Bits/ns-bits-bg_file_info
       - name: "BG_FILE_PROGRESS"
-        href: /windows/win32/api/Bits/ns-bits-_bg_file_progress
+        href: /windows/win32/api/Bits/ns-bits-bg_file_progress
       - name: "BG_FILE_RANGE"
-        href: /windows/win32/api/Bits2_0/ns-bits2_0-_bg_file_range
+        href: /windows/win32/api/Bits2_0/ns-bits2_0-bg_file_range
       - name: "BG_JOB_PROGRESS"
-        href: /windows/win32/api/Bits/ns-bits-_bg_job_progress
+        href: /windows/win32/api/Bits/ns-bits-bg_job_progress
       - name: "BG_JOB_REPLY_PROGRESS"
-        href: /windows/win32/api/Bits1_5/ns-bits1_5-_bg_job_reply_progress
+        href: /windows/win32/api/Bits1_5/ns-bits1_5-bg_job_reply_progress
       - name: "BG_JOB_TIMES"
-        href: /windows/win32/api/Bits/ns-bits-_bg_job_times
+        href: /windows/win32/api/Bits/ns-bits-bg_job_times
       - name: "BITS_FILE_PROPERTY_VALUE"
         href: /windows/win32/api/Bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0005
       - name: "BITS_JOB_PROPERTY_VALUE"
@@ -705,6 +705,6 @@
         href: qmgr-structures.md
         items: 
         - name: "FILESETINFO"
-          href: /windows/win32/api/Qmgr/ns-qmgr-_filesetinfo
+          href: /windows/win32/api/Qmgr/ns-qmgr-filesetinfo
     - name: "Managed Reference for BITS PowerShell Commands"
       href: bits-powershell-commands.md

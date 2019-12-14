@@ -717,9 +717,9 @@
       - name: "DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
         href: /windows/desktop/api/dxgi1_3/ne-dxgi1_3-dxgi_multiplane_overlay_ycbcr_flags
       - name: "DXGI_OFFER_RESOURCE_FLAGS"
-        href: /windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_offer_resource_flags
+        href: /windows/win32/api/dxgi1_5/ne-dxgi1_5-dxgi_offer_resource_flags
       - name: "DXGI_OFFER_RESOURCE_PRIORITY"
-        href: /windows/desktop/api/dxgi1_2/ne-dxgi1_2-_dxgi_offer_resource_priority
+        href: /windows/win32/api/dxgi1_2/ne-dxgi1_2-dxgi_offer_resource_priority
       - name: "DXGI_OUTDUPL_POINTER_SHAPE_TYPE"
         href: /windows/desktop/api/DXGI1_2/ne-dxgi1_2-dxgi_outdupl_pointer_shape_type
       - name: "DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG"
@@ -727,7 +727,7 @@
       - name: "DXGI_OVERLAY_SUPPORT_FLAG"
         href: /windows/desktop/api/DXGI1_3/ne-dxgi1_3-dxgi_overlay_support_flag
       - name: "DXGI_RECLAIM_RESOURCE_RESULTS"
-        href: /windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results
+        href: /windows/win32/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results
       - name: "DXGI_RESIDENCY"
         href: /windows/desktop/api/DXGI/ne-dxgi-dxgi_residency
       - name: "DXGI_SCALING"

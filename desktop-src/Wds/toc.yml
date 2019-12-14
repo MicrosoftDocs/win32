@@ -242,9 +242,9 @@
       href: windows-deployment-services-enumerations.md
       items: 
       - name: "TRANSPORTCLIENT_CALLBACK_ID"
-        href: /windows/desktop/api/Wdstci/ne-wdstci-_transportclient_callback_id
+        href: /windows/win32/api/Wdstci/ne-wdstci-transportclient_callback_id
       - name: "TRANSPORTPROVIDER_CALLBACK_ID"
-        href: /windows/desktop/api/Wdstpdi/ne-wdstpdi-_transportprovider_callback_id
+        href: /windows/win32/api/Wdstpdi/ne-wdstpdi-transportprovider_callback_id
       - name: "WDS_LOG_LEVEL"
         href: https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_2
       - name: "WDS_LOG_TYPE_CLIENT"
@@ -253,33 +253,33 @@
       href: windows-deployment-services-structures.md
       items: 
       - name: "PXE_ADDRESS"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_address
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_address
       - name: "PXE_DHCP_OPTION"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcp_option
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcp_option
       - name: "PXE_DHCPV6_OPTION"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcpv6_option
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcpv6_option
       - name: "PXE_DHCP_MESSAGE"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcp_message
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcp_message
       - name: "PXE_DHCPV6_MESSAGE"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcpv6_message
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcpv6_message
       - name: "PXE_DHCPV6_MESSAGE_HEADER"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcpv6_message_header
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcpv6_message_header
       - name: "PXE_DHCPV6_NESTED_RELAY_MESSAGE"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcpv6_nested_relay_message
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcpv6_nested_relay_message
       - name: "PXE_DHCPV6_RELAY_MESSAGE"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_dhcpv6_relay_message
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_dhcpv6_relay_message
       - name: "PXE_PROVIDER"
-        href: /windows/desktop/api/WdsPxe/ns-wdspxe-tagpxe_provider
+        href: /windows/win32/api/WdsPxe/ns-wdspxe-pxe_provider
       - name: "WDS_CLI_CRED"
-        href: /windows/desktop/api/WdsClientAPI/ns-wdsclientapi-tagwds_cli_cred
+        href: /windows/win32/api/WdsClientAPI/ns-wdsclientapi-wds_cli_cred
       - name: "WDS_TRANSPORTCLIENT_REQUEST"
-        href: /windows/desktop/api/Wdstci/ns-wdstci-_wds_transportclient_request
+        href: /windows/win32/api/Wdstci/ns-wdstci-wds_transportclient_request
       - name: "TRANSPORTCLIENT_SESSION_INFO"
-        href: /windows/desktop/api/Wdstci/ns-wdstci-_transportclient_session_info
+        href: /windows/win32/api/Wdstci/ns-wdstci-transportclient_session_info
       - name: "WDS_TRANSPORTPROVIDER_INIT_PARAMS"
-        href: /windows/desktop/api/Wdstpdi/ns-wdstpdi-_wds_transportprovider_init_params
+        href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_init_params
       - name: "WDS_TRANSPORTPROVIDER_SETTINGS"
-        href: /windows/desktop/api/Wdstpdi/ns-wdstpdi-_wds_transportprovider_settings
+        href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_settings
     - name: "Windows Deployment Services Transport Management API"
       href: windows-deployment-services-transport-management-api.md
       items: 
@@ -287,29 +287,29 @@
         href: wds-transport-management-enums.md
         items: 
         - name: "WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0009
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_diagnostics_component_flags
         - name: "WDSTRANSPORT_DISCONNECT_TYPE"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0004
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_disconnect_type
         - name: "WDSTRANSPORT_FEATURE_FLAGS"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0001
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_feature_flags
         - name: "WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0007
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_source_type
         - name: "WDSTRANSPORT_IP_ADDRESS_TYPE"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0006
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type
         - name: "WDSTRANSPORT_NAMESPACE_TYPE"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type
         - name: "WDSTRANSPORT_NETWORK_PROFILE_TYPE"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0008
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_network_profile_type
         - name: "WDSTRANSPORT_PROTOCOL_FLAGS"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0002
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_protocol_flags
         - name: "WDSTRANSPORT_SERVICE_NOTIFICATION"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0005
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_service_notification
         - name: "WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0010
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_slow_client_handling_type
         - name: "WDSTRANSPORT_TFTP_CAPABILITY"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0012
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability
         - name: "WDSTRANSPORT_UDP_PORT_POLICY"
-          href: /windows/desktop/api/Wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0011
+          href: /windows/win32/api/Wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy
       - name: "WDS Transport Management Interfaces"
         href: wds-transport-management-interfaces.md
         items: 

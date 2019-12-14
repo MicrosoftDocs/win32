@@ -1802,17 +1802,17 @@
       - name: "AVICOMPRESSOPTIONS"
         href: /windows/desktop/api/Vfw/ns-vfw-avicompressoptions
       - name: "AVIFILEINFO"
-        href: /windows/desktop/api/Vfw/ns-vfw-_avifileinfoa
+        href: /windows/win32/api/Vfw/ns-vfw-avifileinfoa
       - name: "AVISTREAMINFO"
-        href: /windows/desktop/api/Vfw/ns-vfw-_avistreaminfoa
+        href: /windows/win32/api/Vfw/ns-vfw-avistreaminfoa
       - name: "CAPDRIVERCAPS"
-        href: /windows/desktop/api/Vfw/ns-vfw-tagcapdrivercaps
+        href: /windows/win32/api/Vfw/ns-vfw-capdrivercaps
       - name: "CAPINFOCHUNK"
-        href: /windows/desktop/api/Vfw/ns-vfw-tagcapinfochunk
+        href: /windows/win32/api/Vfw/ns-vfw-capinfochunk
       - name: "CAPSTATUS"
-        href: /windows/desktop/api/Vfw/ns-vfw-tagcapstatus
+        href: /windows/win32/api/Vfw/ns-vfw-capstatus
       - name: "CAPTUREPARMS"
-        href: /windows/desktop/api/Vfw/ns-vfw-tagcaptureparms
+        href: /windows/win32/api/Vfw/ns-vfw-captureparms
       - name: "COMPVARS"
         href: /windows/desktop/api/Vfw/ns-vfw-compvars
       - name: "DRAWDIBTIME"
@@ -1996,7 +1996,7 @@
       - name: "MIXERCONTROL"
         href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola
       - name: "MIXERCONTROLDETAILS"
-        href: /windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta
+        href: /windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta
       - name: "MIXERCONTROLDETAILS_BOOLEAN"
         href: https://docs.microsoft.com/previous-versions//dd757295(v=vs.85)
       - name: "MIXERCONTROLDETAILS_LISTTEXT"

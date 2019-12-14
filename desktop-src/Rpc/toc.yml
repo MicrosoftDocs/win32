@@ -753,90 +753,90 @@
         - name: "GUID"
           href: /windows/win32/api/guiddef/ns-guiddef-guid
         - name: "NDR_USER_MARSHAL_INFO"
-          href: /windows/desktop/api/Rpcndr/ns-rpcndr-_ndr_user_marshal_info
+          href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info
         - name: "NDR_USER_MARSHAL_INFO_LEVEL1"
-          href: /windows/desktop/api/Rpcndr/ns-rpcndr-_ndr_user_marshal_info_level1
+          href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info_level1
         - name: "RPC_ASYNC_NOTIFICATION_INFO"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-_rpc_async_notification_info
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_notification_info
         - name: "RPC_ASYNC_STATE"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-_rpc_async_state
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_state
         - name: "RPC_BINDING_HANDLE_OPTIONS_V1"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_binding_handle_options_v1
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_options_v1
         - name: "RPC_BINDING_HANDLE_SECURITY_V1"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_binding_handle_security_v1_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_security_v1_a
         - name: "RPC_BINDING_HANDLE_TEMPLATE_V1"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_binding_handle_template_v1_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_template_v1_a
         - name: "RPC_BINDING_VECTOR"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_binding_vector
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_vector
         - name: "RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR"
-          href: /windows/desktop/api/Rpcdcep/ns-rpcdcep-_rpc_c_opt_cookie_auth_descriptor
+          href: /windows/win32/api/Rpcdcep/ns-rpcdcep-rpc_c_opt_cookie_auth_descriptor
         - name: "RPC_CALL_ATTRIBUTES_V1"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_call_attributes_v1_a
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_attributes_v1_a
         - name: "RPC_CALL_ATTRIBUTES_V2"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_call_attributes_v2_a
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_attributes_v2_a
         - name: "RPC_CALL_LOCAL_ADDRESS_V1"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-_rpc_call_local_address_v1
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_local_address_v1
         - name: "RPC_CLIENT_INTERFACE"
-          href: /windows/desktop/api/RpcdceP/ns-rpcdcep-_rpc_client_interface
+          href: /windows/win32/api/RpcdceP/ns-rpcdcep-rpc_client_interface
         - name: "RPC_DISPATCH_TABLE"
           href: /windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_dispatch_table
         - name: "RPC_EE_INFO_PARAM"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_ee_info_param
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_ee_info_param
         - name: "RPC_ERROR_ENUM_HANDLE"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_error_enum_handle
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_error_enum_handle
         - name: "RPC_ENDPOINT_TEMPLATE"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_endpoint_template
         - name: "RPC_EXTENDED_ERROR_INFO"
-          href: /windows/desktop/api/Rpcasync/ns-rpcasync-tagrpc_extended_error_info
+          href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_extended_error_info
         - name: "RPC_HTTP_TRANSPORT_CREDENTIALS"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_a
         - name: "RPC_HTTP_TRANSPORT_CREDENTIALS_V2"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v2_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a
         - name: "RPC_HTTP_TRANSPORT_CREDENTIALS_V3"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v3_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a
         - name: "RPC_IF_ID"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_if_id
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_if_id
         - name: "RPC_IF_ID_VECTOR"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_if_id_vector
         - name: "RPC_INTERFACE_TEMPLATE"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_interface_template
         - name: "RPC_POLICY"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_policy
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_policy
         - name: "RPC_PROTSEQ_VECTOR"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_protseq_vector
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_protseq_vector
         - name: "RPC_SECURITY_QOS"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_security_qos
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos
         - name: "RPC_SECURITY_QOS_V2"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_security_qos_v2_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v2_a
         - name: "RPC_SECURITY_QOS_V3"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_security_qos_v3_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v3_a
         - name: "RPC_SECURITY_QOS_V4"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_security_qos_v4_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v4_a
         - name: "RPC_SECURITY_QOS_V5"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_security_qos_v5_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v5_a
         - name: "RPC_STATS_VECTOR"
           href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_stats_vector
         - name: "SEC_WINNT_AUTH_IDENTITY"
-          href: /windows/desktop/api/Rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a
+          href: /windows/win32/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a
         - name: "UUID"
           href: /windows/desktop/rpc/rpcdce/ns-rpcdce-_uuid
         - name: "UUID_VECTOR"
-          href: /windows/desktop/api/rpcdce/ns-rpcdce-_uuid_vector
+          href: /windows/win32/api/rpcdce/ns-rpcdce-uuid_vector
       - name: "RPC Enumerated Types"
         href: rpc-enumerated-types.md
         items: 
         - name: "RPC_ASYNC_EVENT"
-          href: /windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event
+          href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_async_event
         - name: "RPC_NOTIFICATION_TYPES"
-          href: /windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_notification_types
+          href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notification_types
         - name: "RPC_NOTIFICATIONS"
-          href: /windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_notifications
+          href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notifications
         - name: "RpcCallClientLocality"
-          href: /windows/desktop/api/RpcAsync/ne-rpcasync-tagrpccallclientlocality
+          href: /windows/win32/api/RpcAsync/ne-rpcasync-rpccallclientlocality
         - name: "RpcCallType"
-          href: /windows/desktop/api/Rpcasync/ne-rpcasync-tagrpccalltype
+          href: /windows/win32/api/Rpcasync/ne-rpcasync-rpccalltype
         - name: "RpcLocalAddressFormat"
-          href: /windows/desktop/api/Rpcasync/ne-rpcasync-tagrpclocaladdressformat
+          href: /windows/win32/api/Rpcasync/ne-rpcasync-rpclocaladdressformat
       - name: "Other RPC Types"
         href: other-rpc-types.md
         items: 
@@ -1520,13 +1520,13 @@
       - name: "NdrUserMarshalMarshall"
         href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalmarshall
       - name: "MIDL_STUB_DESC"
-        href: /windows/desktop/api/Rpcndr/ns-rpcndr-_midl_stub_desc
+        href: /windows/win32/api/Rpcndr/ns-rpcndr-midl_stub_desc
       - name: "MIDL_STUB_MESSAGE"
-        href: /windows/desktop/api/Rpcndr/ns-rpcndr-_midl_stub_message
+        href: /windows/win32/api/Rpcndr/ns-rpcndr-midl_stub_message
       - name: "ProxyFileInfo"
-        href: /windows/desktop/api/Rpcproxy/ns-rpcproxy-tagproxyfileinfo
+        href: /windows/win32/api/Rpcproxy/ns-rpcproxy-proxyfileinfo
       - name: "RPC_MESSAGE"
-        href: /windows/desktop/api/RpcdceP/ns-rpcdcep-_rpc_message
+        href: /windows/win32/api/RpcdceP/ns-rpcdcep-rpc_message
   - name: "Glossary"
     href: glossary.md
     items: 

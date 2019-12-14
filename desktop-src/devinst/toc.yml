@@ -8,7 +8,7 @@
       href: cfg-h.md
       items: 
       - name: "PNP_VETO_TYPE"
-        href: /windows/desktop/api/cfg/ne-cfg-_pnp_veto_type
+        href: /windows/win32/api/cfg/ne-cfg-pnp_veto_type
     - name: "Cfgmgr32.h"
       href: cfgmgr32-h.md
       items: 
@@ -195,11 +195,11 @@
       - name: "CM_Modify_Res_Des_Ex"
         href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des_ex
       - name: "CM_NOTIFY_ACTION"
-        href: /windows/desktop/api/Cfgmgr32/ne-cfgmgr32-_cm_notify_action
+        href: /windows/win32/api/Cfgmgr32/ne-cfgmgr32-cm_notify_action
       - name: "CM_NOTIFY_EVENT_DATA"
-        href: /windows/desktop/api/Cfgmgr32/ns-cfgmgr32-_cm_notify_event_data
+        href: /windows/win32/api/Cfgmgr32/ns-cfgmgr32-cm_notify_event_data
       - name: "CM_NOTIFY_FILTER"
-        href: /windows/desktop/api/Cfgmgr32/ns-cfgmgr32-_cm_notify_filter
+        href: /windows/win32/api/Cfgmgr32/ns-cfgmgr32-cm_notify_filter
       - name: "CM_Open_Class_Key"
         href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_class_keyw
       - name: "CM_Open_Device_Interface_Key"
@@ -259,7 +259,7 @@
       - name: "CMP_WaitNoPendingInstallEvents"
         href: https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents
       - name: "CONFLICT_DETAILS"
-        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-_conflict_details_a
+        href: /windows/win32/api/cfgmgr32/ns-cfgmgr32-conflict_details_a
       - name: "CS_DES"
         href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des_s
       - name: "CS_RESOURCE"
@@ -558,44 +558,44 @@
       - name: "SetupWriteTextLogInfLine"
         href: /windows/desktop/api/Setupapi/nf-setupapi-setupwritetextloginfline
       - name: "SP_ADDPROPERTYPAGE_DATA"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_newdevicewizard_data
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_newdevicewizard_data
       - name: "SP_ALTPLATFORM_INFO"
         href: sp-altplatform-info.md
       - name: "SP_CLASSIMAGELIST_DATA"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_classimagelist_data
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_classimagelist_data
       - name: "SP_CLASSINSTALL_HEADER"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_classinstall_header
       - name: "SP_DETECTDEVICE_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_detectdevice_params
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_detectdevice_params
       - name: "SP_DEVICE_INTERFACE_DATA"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_device_interface_data
       - name: "SP_DEVICE_INTERFACE_DETAIL_DATA"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_detail_data_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a
       - name: "SP_DEVINFO_DATA"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_devinfo_data
       - name: "SP_DEVINFO_LIST_DETAIL_DATA"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_list_detail_data_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_devinfo_list_detail_data_a
       - name: "SP_DEVINSTALL_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_devinstall_params_a
       - name: "SP_DRVINFO_DATA"
-        href: /windows/desktop/api/Setupapi/ns-setupapi-_sp_drvinfo_data_v1_a
+        href: /windows/win32/api/Setupapi/ns-setupapi-sp_drvinfo_data_v1_a
       - name: "SP_DRVINFO_DETAIL_DATA"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_drvinfo_detail_data_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_drvinfo_detail_data_a
       - name: "SP_DRVINSTALL_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_drvinstall_params
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_drvinstall_params
       - name: "SP_NEWDEVICEWIZARD_DATA"
         href: https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_newdevicewizard_data
       - name: "SP_POWERMESSAGEWAKE_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_powermessagewake_params_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_powermessagewake_params_a
       - name: "SP_PROPCHANGE_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_propchange_params
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_propchange_params
       - name: "SP_PROPSHEETPAGE_REQUEST"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_propsheetpage_request
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_propsheetpage_request
       - name: "SP_REMOVEDEVICE_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_removedevice_params
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_removedevice_params
       - name: "SP_SELECTDEVICE_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_selectdevice_params_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_selectdevice_params_a
       - name: "SP_TROUBLESHOOTER_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_troubleshooter_params_a
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_troubleshooter_params_a
       - name: "SP_UNREMOVEDEVICE_PARAMS"
-        href: /windows/desktop/api/setupapi/ns-setupapi-_sp_unremovedevice_params
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_unremovedevice_params

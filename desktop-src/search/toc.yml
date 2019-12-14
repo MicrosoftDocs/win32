@@ -1023,68 +1023,68 @@
       href: -search-structures-entry-page.md
       items: 
       - name: "AUTHENTICATION_INFO"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_authentication_info
+        href: /windows/win32/api/Searchapi/ns-searchapi-authentication_info
       - name: "FILTERED_DATA_SOURCES"
-        href: /windows/desktop/api/filtereg/ns-filtereg-_filtered_data_sources
+        href: /windows/win32/api/filtereg/ns-filtereg-filtered_data_sources
       - name: "FILTERREGION"
         href: https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-filterregion
       - name: "FULLPROPSPEC"
         href: https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec
       - name: "HITRANGE"
-        href: /windows/desktop/api/Structuredquery/ns-structuredquery-taghitrange
+        href: /windows/win32/api/Structuredquery/ns-structuredquery-hitrange
       - name: "INCREMENTAL_ACCESS_INFO"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_incremental_access_info
+        href: /windows/win32/api/Searchapi/ns-searchapi-incremental_access_info
       - name: "INLINE_NOTIFY_DATA_CHANGE_ENTRY"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965367(v=vs.85)
       - name: "ITEM_INFO"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_item_info
+        href: /windows/win32/api/Searchapi/ns-searchapi-item_info
       - name: "ITEMPROP"
         href: /windows/desktop/api/subsmgr/ns-subsmgr-_tagitemprop
       - name: "LINKINFO"
         href: -search-linkinfo.md
       - name: "PROXY_INFO"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_proxy_info
+        href: /windows/win32/api/Searchapi/ns-searchapi-proxy_info
       - name: "SEARCH_COLUMN_PROPERTIES"
-        href: /windows/desktop/api/searchapi/ns-searchapi-_search_column_properties
+        href: /windows/win32/api/searchapi/ns-searchapi-search_column_properties
       - name: "SEARCH_ITEM_CHANGE"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_search_item_change
+        href: /windows/win32/api/Searchapi/ns-searchapi-search_item_change
       - name: "SEARCH_ITEM_INDEXING_STATUS"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_search_item_indexing_status
+        href: /windows/win32/api/Searchapi/ns-searchapi-search_item_indexing_status
       - name: "SEARCH_ITEM_PERSISTENT_CHANGE"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_search_item_persistent_change
+        href: /windows/win32/api/Searchapi/ns-searchapi-search_item_persistent_change
       - name: "STAT_CHUNK"
         href: https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk
       - name: "TEXT_SOURCE"
-        href: /windows/desktop/api/Indexsrv/ns-indexsrv-tagtext_source
+        href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
       - name: "TIMEOUT_INFO"
-        href: /windows/desktop/api/Searchapi/ns-searchapi-_timeout_info
+        href: /windows/win32/api/Searchapi/ns-searchapi-timeout_info
     - name: "Windows Search Constants and Enumerations"
       href: -search-constants-and-enumerations-entry-page.md
       items: 
       - name: "Search Protocol Handler Error Messages"
         href: -search-prth-error-constants.md
       - name: "AUTH_TYPE"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_auth_type
+        href: /windows/win32/api/Searchapi/ne-searchapi-auth_type
       - name: "CASE_REQUIREMENT"
         href: /windows/desktop/api/Structuredquery/ne-structuredquery-case_requirement
       - name: "CatalogPausedReason"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_catalogpausedreason
+        href: /windows/win32/api/Searchapi/ne-searchapi-catalogpausedreason
       - name: "CatalogStatus"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_catalogstatus
+        href: /windows/win32/api/Searchapi/ne-searchapi-catalogstatus
       - name: "CHUNKSTATE"
         href: https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate
       - name: "CHUNK_BREAKTYPE"
         href: https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunk_breaktype
       - name: "CLUSION_REASON"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0013_0001
+        href: /windows/win32/api/Searchapi/ne-searchapi-clusion_reason
       - name: "CONDITION_CREATION_OPTIONS"
         href: /windows/desktop/api/Structuredquery/ne-structuredquery-condition_creation_options
       - name: "CONDITION_OPERATION"
-        href: /windows/desktop/api/Structuredquerycondition/ne-structuredquerycondition-tagcondition_operation
+        href: /windows/win32/api/Structuredquerycondition/ne-structuredquerycondition-condition_operation
       - name: "CONDITION_TYPE"
-        href: /windows/desktop/api/Structuredquerycondition/ne-structuredquerycondition-tagcondition_type
+        href: /windows/win32/api/Structuredquerycondition/ne-structuredquerycondition-condition_type
       - name: "FOLLOW_FLAGS"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_follow_flags
+        href: /windows/win32/api/Searchapi/ne-searchapi-follow_flags
       - name: "DISPLAYSTATE"
         href: displaystate.md
       - name: "IFILTER_FLAGS"
@@ -1092,43 +1092,43 @@
       - name: "IFILTER_INIT"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb266511(v=vs.85)
       - name: "INTERVAL_LIMIT_KIND"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-taginterval_limit_kind
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-interval_limit_kind
       - name: "LINKTYPE"
         href: -search-linktype.md
       - name: "NAMED_ENTITY_CERTAINTY"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-__midl___midl_itf_structuredquery_0000_0012_0001
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-named_entity_certainty
       - name: "PRIORITIZE_FLAGS"
         href: /windows/desktop/api/Searchapi/ne-searchapi-tagprioritize_flags
       - name: "PRIORITY_LEVEL"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001
+        href: /windows/win32/api/Searchapi/ne-searchapi-priority_level
       - name: "PROXY_ACCESS"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_proxy_access
+        href: /windows/win32/api/Searchapi/ne-searchapi-proxy_access
       - name: "QUERY_PARSER_MANAGER_OPTION"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-tagquery_parser_manager_option
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-query_parser_manager_option
       - name: "ROWSETEVENT_ITEMSTATE"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001
+        href: /windows/win32/api/Searchapi/ne-searchapi-rowsetevent_itemstate
       - name: "ROWSETEVENT_TYPE"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002
+        href: /windows/win32/api/Searchapi/ne-searchapi-rowsetevent_type
       - name: "SEARCH_INDEXING_PHASE"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_search_indexing_phase
+        href: /windows/win32/api/Searchapi/ne-searchapi-search_indexing_phase
       - name: "SEARCH_KIND_OF_CHANGE"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_search_kind_of_change
+        href: /windows/win32/api/Searchapi/ne-searchapi-search_kind_of_change
       - name: "SEARCH_NOTIFICATION_PRIORITY"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_search_notification_priority
+        href: /windows/win32/api/Searchapi/ne-searchapi-search_notification_priority
       - name: "SEARCH_QUERY_SYNTAX"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_search_query_syntax
+        href: /windows/win32/api/Searchapi/ne-searchapi-search_query_syntax
       - name: "SEARCH_TERM_EXPANSION"
-        href: /windows/desktop/api/Searchapi/ne-searchapi-_search_term_expansion
+        href: /windows/win32/api/Searchapi/ne-searchapi-search_term_expansion
       - name: "STRUCTURED_QUERY_MULTIOPTION"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_multioption
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_multioption
       - name: "STRUCTURED_QUERY_PARSE_ERROR"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_parse_error
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_parse_error
       - name: "STRUCTURED_QUERY_RESOLVE_OPTION"
         href: /windows/desktop/api/Structuredquery/ne-structuredquery-structured_query_resolve_option
       - name: "STRUCTURED_QUERY_SINGLE_OPTION"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_single_option
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_single_option
       - name: "STRUCTURED_QUERY_SYNTAX"
-        href: /windows/desktop/api/Structuredquery/ne-structuredquery-tagstructured_query_syntax
+        href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_syntax
       - name: "WORDREP_BREAK_TYPE"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff819130(v=vs.85)
     - name: "Property Mappings (from WDS 2.x to 3.x)"

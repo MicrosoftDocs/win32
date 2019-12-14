@@ -196,9 +196,9 @@
     href: on-demand-connection-routing-helper-api.md
     items: 
     - name: "NET_INTERFACE_CONTEXT"
-      href: /windows/desktop/api/OnDemandConnRouteHelper/ns-ondemandconnroutehelper-_net_interface_context
+      href: /windows/win32/api/OnDemandConnRouteHelper/ns-ondemandconnroutehelper-net_interface_context
     - name: "NET_INTERFACE_CONTEXT_TABLE"
-      href: /windows/desktop/api/OnDemandConnRouteHelper/ns-ondemandconnroutehelper-_net_interface_context_table
+      href: /windows/win32/api/OnDemandConnRouteHelper/ns-ondemandconnroutehelper-net_interface_context_table
     - name: "GetInterfaceContextTableForHostName"
       href: /windows/desktop/api/OnDemandConnRouteHelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname
     - name: "FreeInterfaceContextTable"

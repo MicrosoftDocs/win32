@@ -1692,23 +1692,23 @@
         href: d3d12-graphics-reference-shader-structures.md
         items: 
         - name: "D3D12_FUNCTION_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_function_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_function_desc
         - name: "D3D12_LIBRARY_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_library_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_library_desc
         - name: "D3D12_PARAMETER_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_parameter_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_parameter_desc
         - name: "D3D12_SHADER_BUFFER_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_shader_buffer_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_buffer_desc
         - name: "D3D12_SHADER_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_shader_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_desc
         - name: "D3D12_SHADER_INPUT_BIND_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_shader_input_bind_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_input_bind_desc
         - name: "D3D12_SHADER_TYPE_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_shader_type_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_type_desc
         - name: "D3D12_SHADER_VARIABLE_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_shader_variable_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_shader_variable_desc
         - name: "D3D12_SIGNATURE_PARAMETER_DESC"
-          href: /windows/win32/api/d3d12shader/ns-d3d12shader-_d3d12_signature_parameter_desc
+          href: /windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc
       - name: "Shader Enumerations"
         href: d3d12-graphics-reference-shader-enums.md
         items: 
