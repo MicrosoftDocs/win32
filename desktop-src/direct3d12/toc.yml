@@ -2357,5 +2357,7 @@
         items:
         - name: "D3D12_DOWNLEVEL_PRESENT_FLAGS"
           href: d3d12_downlevel_present_flags.md
+    - name: "Windows.Graphics.Holographic.Interop.h header"
+      href: /windows/win32/direct3d12/windows.graphics.holographic.interop/windows.graphics.holographic.interop
   - name: "Direct3D 12 Glossary"
     href: directx-12-glossary.md
