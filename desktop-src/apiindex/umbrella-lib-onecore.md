@@ -18,7 +18,8 @@ For convenience, an umbrella library named OneCore.lib is provided in the Micros
 This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneCore.lib will add to your app or driver dependencies on dlls that are present on all Windows 10 devices. For delay load, use the module name (whether that's an [API set](windows-umbrella-libraries.md) name or a dll name). Note that an umbrella lib can contain some, but not necessarily all, APIs from a given module.
 
 > [!Note]  
-> When linking your app or driver to OneCore.lib, be sure to remove any links to non-umbrella libs (such as kernel32.lib). If you have references to both an umbrella lib and a non-umbrella lib containing the same API, then it becomes unpredictable as to which lib the linker will use. To be fully compliant, limit yourself to linking to the umbrella lib only.
+> When linking your app or driver to OneCore.lib, be sure to remove any links to non-umbrella libs (such as kernel32.lib). If you have references to both an umbrella lib and a non-umbrella lib containing the same API, then it becomes unpredictable as to which lib the linker will use. To be fully compliant, limit yourself to linking to the umbrella lib only, by explicitly removing the non-umbrella default lib.  For example, command-line builds can pass **/nodefaultlib:kernel32.lib** to the linker, while Visual Studio projects can add kernel32.lib to the **Ignore Specific Default Libraries** setting of the Linker Input property page. 
+
 
  
 
