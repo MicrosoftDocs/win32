@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Interfaces (Structured Storage)
 description: Structured Storage defines the following interfaces.
 ms.assetid: 068ca25f-8aca-450b-b9c9-cec07d515dac
 keywords:

@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 278eadc0-62ab-4b28-b238-93e96ce9da00
-title: Image
+title: Image (Windows Properties)
 ms.topic: article
 ms.date: 05/31/2018
 ---

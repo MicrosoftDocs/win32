@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (Structured Storage)
 description: Structures are primarily collections of data elements or members that facilitate an organizational scheme for interpreting data or performing operations on it.
 ms.assetid: 5931fbf9-2219-47e3-abd0-c6d6d0389e73
 keywords:

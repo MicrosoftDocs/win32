@@ -1,5 +1,5 @@
 ---
-title: Insertable
+title: Insertable (ProgID Key)
 description: Indicates that this class is insertable in OLE 2 containers.
 ms.assetid: 08aa22a6-4f11-4fdf-8690-677224469392
 keywords:

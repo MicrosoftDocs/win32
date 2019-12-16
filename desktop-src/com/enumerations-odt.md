@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Enumerations (OLE and Data Transfer)
 description: The following enumerations are used to implement compound documents and perform data transfer between applications.
 ms.assetid: daff8e11-c7b8-4f34-910c-5fabbbae8de9
 ms.topic: article

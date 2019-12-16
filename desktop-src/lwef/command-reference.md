@@ -1,5 +1,5 @@
 ---
-title: Command Reference
+title: Command Reference (Linguistic Information Sound Editing Tool)
 description: Command Reference
 ms.assetid: 084f14ee-6774-46e2-a4ec-92f480f2f74a
 ms.topic: article

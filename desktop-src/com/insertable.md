@@ -1,5 +1,5 @@
 ---
-title: Insertable
+title: Insertable (CLSID Key)
 description: Indicates that objects of this class should appear in the Insert Object dialog box list box when used by COM container applications.
 ms.assetid: 908cbfc4-ebf8-454e-b2e5-34449de60e7f
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Top Property
+title: Top Property (PropertySheet Object)
 description: Top Property
 ms.assetid: 413374d8-3c7a-44b2-8b33-3a5cdef01aee
 ms.topic: article

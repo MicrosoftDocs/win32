@@ -1,5 +1,5 @@
 ---
-title: /o switch
+title: /o switch (MDMERGE)
 description: The /o switch specifies the output directory for composed metadata files.
 ms.assetid: 70C924A8-5877-462B-B66A-86B2CEF8B502
 keywords:

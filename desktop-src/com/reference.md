@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: Reference (COM)
 ms.assetid: cad0242e-844d-4504-b633-3143a88e1514
 description: 
 ms.topic: article

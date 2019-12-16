@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Enumerations (Windows Update Agent)
 description: Enumerations in Structured Storage are data types that consist of a sequence of named values in a given order.
 ms.assetid: 222e1a0f-8834-45d0-b623-d4e3cd70a449
 keywords:

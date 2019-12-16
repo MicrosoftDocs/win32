@@ -1,5 +1,5 @@
 ---
-title: FontName Property
+title: FontName Property (Commands Object)
 description: FontName Property
 ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Top Property
+title: Top Property (CommandsWindow Object)
 description: Top Property
 ms.assetid: 3840b036-8f8d-4180-a8d6-6c521fe3d728
 ms.topic: article

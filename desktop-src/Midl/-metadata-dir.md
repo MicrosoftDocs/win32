@@ -1,5 +1,5 @@
 ---
-title: /metadata_dir switch
+title: /metadata_dir switch (MIDLRT)
 description: The /metadata\_dir switch specifies one or more directories that contain platform metadata files.
 ms.assetid: '578b9d3f-3ee6-4978-9d2a-0c5aee561a30'
 keywords:

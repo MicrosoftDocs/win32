@@ -1,5 +1,5 @@
 ---
-title: Height Property
+title: Height Property (PropertySheet Object)
 description: Height Property
 ms.assetid: ad1efe47-3fa5-4885-8855-a9977cf21cef
 ms.topic: article

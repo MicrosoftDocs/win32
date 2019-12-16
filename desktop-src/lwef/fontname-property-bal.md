@@ -1,5 +1,5 @@
 ---
-title: FontName Property
+title: FontName Property (Balloon Object)
 description: FontName Property
 ms.assetid: a84a19a4-9e0e-4736-b401-286e6618bc19
 ms.topic: article

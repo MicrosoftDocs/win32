@@ -1,5 +1,5 @@
 ---
-title: Enabled Property
+title: Enabled Property (Balloon Object)
 description: Enabled Property
 ms.assetid: 4d73acda-6fcc-4912-a466-570849aeb807
 ms.topic: article

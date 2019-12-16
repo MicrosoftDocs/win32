@@ -1,5 +1,5 @@
 ---
-title: HelpContextID Property
+title: HelpContextID Property (Commands Collection Object)
 description: HelpContextID Property
 ms.assetid: 8b8ac1c6-1a34-45f1-a0a6-2ae14ad6adef
 ms.topic: article

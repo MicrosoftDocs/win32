@@ -1,5 +1,5 @@
 ---
-title: Caption Property
+title: Caption Property (Commands Collection Object)
 description: Caption Property
 ms.assetid: 7182c21e-1ff0-4dce-9571-534b7576c082
 ms.topic: article

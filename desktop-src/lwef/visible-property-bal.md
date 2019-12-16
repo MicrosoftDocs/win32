@@ -1,5 +1,5 @@
 ---
-title: Visible Property
+title: Visible Property (Balloon Object)
 description: Visible Property
 ms.assetid: cbda7f69-889a-45a0-9549-d27eddfcec57
 ms.topic: article

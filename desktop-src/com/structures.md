@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (COM)
 ms.assetid: 07f65855-f529-4d57-81fe-150167a03901
 description: 
 ms.topic: article

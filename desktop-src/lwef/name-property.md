@@ -1,5 +1,5 @@
 ---
-title: Name Property
+title: Name Property (Characters Object)
 description: Name Property
 ms.assetid: 'vs|msagent|~\pacontrol_2bxm.htm'
 ms.topic: article
