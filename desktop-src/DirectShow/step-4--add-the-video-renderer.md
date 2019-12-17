@@ -110,10 +110,10 @@ done:
 
 The `InitializeEVR` function initializes the EVR filter. This function performs the following steps.
 
-1.  Queries the filter for the [**IMFGetService**](https://msdn.microsoft.com/en-us/library/ms694261(v=VS.85).aspx) interface.
-2.  Calls [**IMFGetService::GetService**](https://msdn.microsoft.com/en-us/library/ms696978(v=VS.85).aspx) to get a pointer to the [**IMFVideoDisplayControl**](https://msdn.microsoft.com/en-us/library/ms704002(v=VS.85).aspx) interface.
-3.  Calls [**IMFVideoDisplayControl::SetVideoWindow**](https://msdn.microsoft.com/en-us/library/ms697051(v=VS.85).aspx) to set the video window.
-4.  Calls [**IMFVideoDisplayControl::SetAspectRatioMode**](https://msdn.microsoft.com/en-us/library/ms704027(v=VS.85).aspx) to configure the EVR to preserve the video aspect ratio.
+1.  Queries the filter for the [**IMFGetService**](https://msdn.microsoft.com/library/ms694261(v=VS.85).aspx) interface.
+2.  Calls [**IMFGetService::GetService**](https://msdn.microsoft.com/library/ms696978(v=VS.85).aspx) to get a pointer to the [**IMFVideoDisplayControl**](https://msdn.microsoft.com/library/ms704002(v=VS.85).aspx) interface.
+3.  Calls [**IMFVideoDisplayControl::SetVideoWindow**](https://msdn.microsoft.com/library/ms697051(v=VS.85).aspx) to set the video window.
+4.  Calls [**IMFVideoDisplayControl::SetAspectRatioMode**](https://msdn.microsoft.com/library/ms704027(v=VS.85).aspx) to configure the EVR to preserve the video aspect ratio.
 
 The following code shows the `InitializeEVR` function.
 
@@ -463,7 +463,7 @@ done:
 [DirectShow Playback Example](directshow-playback-example.md)
 </dt> <dt>
 
-[Using the DirectShow EVR Filter](https://msdn.microsoft.com/en-us/library/Aa965247(v=VS.85).aspx)
+[Using the DirectShow EVR Filter](https://msdn.microsoft.com/library/Aa965247(v=VS.85).aspx)
 </dt> <dt>
 
 [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md)

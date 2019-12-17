@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # How to Draw and Fill a Complex Shape
 
-Direct2D provides the [**ID2D1PathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371512(v=VS.85).aspx) interface for describing complex shapes that can contain curves, arcs, and lines. This topic describes how to define and render a path geometry.
+Direct2D provides the [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx) interface for describing complex shapes that can contain curves, arcs, and lines. This topic describes how to define and render a path geometry.
 
-To define a path geometry, first use the [**ID2D1Factory::CreatePathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371282(v=VS.85).aspx) method to create the path geometry, then use the path geometry's [**Open**](https://msdn.microsoft.com/en-us/library/Dd371522(v=VS.85).aspx) method to retrieve an [**ID2D1GeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316592(v=VS.85).aspx). You can then add lines, curves, and arcs by calling the sink's various Add methods.
+To define a path geometry, first use the [**ID2D1Factory::CreatePathGeometry**](https://msdn.microsoft.com/library/Dd371282(v=VS.85).aspx) method to create the path geometry, then use the path geometry's [**Open**](https://msdn.microsoft.com/library/Dd371522(v=VS.85).aspx) method to retrieve an [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx). You can then add lines, curves, and arcs by calling the sink's various Add methods.
 
-The following example creates an [**ID2D1PathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371512(v=VS.85).aspx), retrieves a sink, and uses it to define an hourglass shape.
+The following example creates an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx), retrieves a sink, and uses it to define an hourglass shape.
 
 
 ```C++
@@ -62,7 +62,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-Note that an [**ID2D1PathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371512(v=VS.85).aspx) is a device-independent resource and can, therefore, be created once and retained for the life of the application. (For more information about different types of resources, see the [Resources Overview](resources-and-resource-domains.md).)
+Note that an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx) is a device-independent resource and can, therefore, be created once and retained for the life of the application. (For more information about different types of resources, see the [Resources Overview](resources-and-resource-domains.md).)
 
 The next example creates two brushes that will be used to paint the path geometry's outline and fill.
 
@@ -110,7 +110,7 @@ if (SUCCEEDED(hr))
 
 
 
-The final example uses the [**DrawGeometry**](https://msdn.microsoft.com/en-us/library/Dd371890(v=VS.85).aspx) and [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) methods to paint the geometry's outline and interior. This example produces the output shown in the following illustration.
+The final example uses the [**DrawGeometry**](https://msdn.microsoft.com/library/Dd371890(v=VS.85).aspx) and [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) methods to paint the geometry's outline and interior. This example produces the output shown in the following illustration.
 
 ![illustration of an hourglass-shaped geometry](images/transformgeometryexample-1.png)
 

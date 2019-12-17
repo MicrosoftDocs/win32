@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Listing Installed Encoders
 
-GDI+ provides the [**GetImageEncoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) function so that you can determine which image encoders are available on your computer. **GetImageEncoders** returns an array of [**ImageCodecInfo**](https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx) objects. Before you call **GetImageEncoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageEncodersSize**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize) to determine the size of the required buffer.
+GDI+ provides the [**GetImageEncoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) function so that you can determine which image encoders are available on your computer. **GetImageEncoders** returns an array of [**ImageCodecInfo**](https://msdn.microsoft.com/library/ms534466(v=VS.85).aspx) objects. Before you call **GetImageEncoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageEncodersSize**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize) to determine the size of the required buffer.
 
 The following console application lists the available image encoders:
 

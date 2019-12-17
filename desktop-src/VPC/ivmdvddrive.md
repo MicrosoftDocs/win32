@@ -27,7 +27,7 @@ You can add a new CD-ROM or DVD-ROM drive to a virtual machine using the [**IVMV
 
 ## Members
 
-The **IVMDVDDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDrive** also has these types of members:
+The **IVMDVDDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDrive** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

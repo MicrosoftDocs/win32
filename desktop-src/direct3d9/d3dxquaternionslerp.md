@@ -68,7 +68,7 @@ Pointer to a source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Parameter that indicates how far to interpolate between the quaternions.
 

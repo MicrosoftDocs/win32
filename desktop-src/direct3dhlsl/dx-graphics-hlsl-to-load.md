@@ -2,10 +2,10 @@
 title: Load (DirectX HLSL Texture Object)
 description: Reads texel data without any filtering or sampling.
 ms.assetid: a2fbda88-29c7-4d28-bd3e-df1d9aa36ee8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
@@ -139,7 +139,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the Paint.fx file in the [AdvancedParticles Sample](https://msdn.microsoft.com/en-us/library/Ee416394(v=VS.85).aspx).
+This partial code example is from the Paint.fx file in the [AdvancedParticles Sample](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx).
 
 
 ```

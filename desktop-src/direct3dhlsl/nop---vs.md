@@ -2,10 +2,10 @@
 title: nop - vs
 description: No operation is performed.
 ms.assetid: 0ef0ad87-4fda-4c7a-a61a-fb83484cf11f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

@@ -32,7 +32,7 @@ When a user inserts a disc into a CD-ROM drive on a AutoRun-compatible computer,
 Autorun.inf is a text file located in the root directory of the CD-ROM that contains your application. Its primary function is to provide the system with the name and location of the application's startup program that will be run when the disc is inserted.
 
 > [!Note]  
-> Autorun.inf files are not supported under Windows XP for drives that return DRIVE\_REMOVABLE from [**GetDriveType**](https://msdn.microsoft.com/en-us/library/Aa364939(v=VS.85).aspx).
+> Autorun.inf files are not supported under Windows XP for drives that return DRIVE\_REMOVABLE from [**GetDriveType**](https://msdn.microsoft.com/library/Aa364939(v=VS.85).aspx).
 
  
 

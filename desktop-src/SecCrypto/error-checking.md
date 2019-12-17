@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Checking
+# Error Checking (Cryptography)
 
 For C++, the return value is always an **HRESULT**, and indicates whether the method call succeeded or failed. If the call failed then the return value indicates why it failed.
 

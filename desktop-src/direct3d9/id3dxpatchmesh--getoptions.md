@@ -35,13 +35,13 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The patch type.
 
 ## Remarks
 
-For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx).
+For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/library/Bb205384(v=VS.85).aspx).
 
 ## Requirements
 

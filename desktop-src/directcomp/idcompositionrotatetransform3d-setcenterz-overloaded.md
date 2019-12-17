@@ -24,8 +24,8 @@ Changes or animates the value of the CenterZ property of a 3D rotation transform
 
 | Method                                                                                                           | Description                                            |
 |:-----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterZ(float)**](https://msdn.microsoft.com/en-us/library/Hh448965(v=VS.85).aspx)                                     | Changes the value of the CenterZ property.<br/>  |
-| [**SetCenterZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448967(v=VS.85).aspx) | Animates the value of the CenterZ property.<br/> |
+| [**SetCenterZ(float)**](https://msdn.microsoft.com/library/Hh448965(v=VS.85).aspx)                                     | Changes the value of the CenterZ property.<br/>  |
+| [**SetCenterZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448967(v=VS.85).aspx) | Animates the value of the CenterZ property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterZ property of a 3D rotation transform
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
 </dt> </dl>
 
 �

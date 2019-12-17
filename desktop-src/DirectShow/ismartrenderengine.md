@@ -27,7 +27,7 @@ The `ISmartRenderEngine` interface provides methods that support smart recompres
 
 ## Members
 
-The **ISmartRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISmartRenderEngine** also has these types of members:
+The **ISmartRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISmartRenderEngine** also has these types of members:
 
 -   [Methods](#methods)
 

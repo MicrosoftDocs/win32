@@ -61,7 +61,7 @@ A foreign key into the [MsiDigitalCertificate table](msidigitalcertificate-table
 
 In this field enter the reference hash of the resource (or object) that is to be checked against the actual hash of the resource (or object) obtained at run-time. If only the certificate needs to be verified, the Hash field may be null. Note that the format of the hash depends on the type of the resource (or object) being signed.
 
-The Hash column contains the binary representation of the hash. The actual content is the **pbData** member of the [**CRYPT\_HASH\_BLOB**](https://msdn.microsoft.com/en-us/library/Aa380238(v=VS.85).aspx) structure, which is part of the **CRYPTOAPI\_BLOB** structure. This may be obtained by calling [WinVerifyTrust](https://msdn.microsoft.com/en-us/library/Aa388208(v=VS.85).aspx) or [**MsiGetFileSignatureInformation**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa).
+The Hash column contains the binary representation of the hash. The actual content is the **pbData** member of the [**CRYPT\_HASH\_BLOB**](https://msdn.microsoft.com/library/Aa380238(v=VS.85).aspx) structure, which is part of the **CRYPTOAPI\_BLOB** structure. This may be obtained by calling [WinVerifyTrust](https://msdn.microsoft.com/library/Aa388208(v=VS.85).aspx) or [**MsiGetFileSignatureInformation**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa).
 
 </dd> </dl>
 

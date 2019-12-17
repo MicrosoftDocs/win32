@@ -68,7 +68,7 @@ The following table lists the module name and flag for each available module.
 | ADMIN  | 0x00000080 | Yes                | VSS command line utilities such as VSSADMIN.EXE and DISKSHADOW.EXE.                                                                           |
 | VSSUI  | 0x00000100 | Yes                | The Shadow Copies for Shared Folders configuration user interface (UI). The UI is available only on Windows Server operating systems.         |
 | TEST   | 0x00000200 | Yes                | Not applicable. (This tracing module is reserved.)                                                                                            |
-| IOCTL  | 0x00000400 | Yes                | Details of FSCTL and IOCTL operations that the VSS service has initiated by calling the [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) function. |
+| IOCTL  | 0x00000400 | Yes                | Details of FSCTL and IOCTL operations that the VSS service has initiated by calling the [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) function. |
 | GEN    | 0x00000800 | Yes                | General VSS utility functions, such as allocators, string classes, and registry and volume operations.                                        |
 | WRXML  | 0x00001000 | No                 | XML processing for writer metadata. This module has a very high level of noise.                                                               |
 | VSSXML | 0x00002000 | No                 | XML processing base classes. This module has a very high level of noise.                                                                      |

@@ -75,7 +75,7 @@ This structure is returned by [**ExtEscape**](/windows/desktop/api/Wingdi/nf-win
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/en-us/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)

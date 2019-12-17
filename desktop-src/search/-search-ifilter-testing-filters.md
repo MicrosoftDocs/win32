@@ -155,7 +155,7 @@ The user of the ifilttst.exe program of the [**IFilter**](https://msdn.microsoft
 
  | Entry         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Flags         | The names of the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) flags that are to be joined by the OR operator to form the *grfFlags* parameter of the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method. The flag names must all be uppercase, and on the same line.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Flags         | The names of the [**IFILTER\_INIT**](https://msdn.microsoft.com/library/Bb266511(v=VS.85).aspx) flags that are to be joined by the OR operator to form the *grfFlags* parameter of the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method. The flag names must all be uppercase, and on the same line.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | *cAttributes* | A decimal integer representing the value of the *cAttributes* parameter.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | *aAttributes* | This entry must start with *aAttributes* and must be different from the other *aAttributes* entries within the section. Legal names for the *aAttributes* entry are: *aAttributes*, *aAttributes1*, *aAttributes2*, and so forth. The first token must be a GUID. The GUID must be formatted exactly as illustrated in the `[Test3]` section of the [Sample ifilttst.ini File](#sample-ifilttstini-file). The second token can be either a property identifier (PID) consisting of a number in hexadecimal notation, or a pointer to a wide character string (lpwstr). A lpwstr can be specified by enclosing the string in double quotes, as illustrated in the `[Test6]` section of the Sample ifilttst.ini File. |
 
@@ -217,15 +217,15 @@ After the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).asp
 
 ### Validation Test
 
-The validation test steps through the object one chunk at a time, verifying each individual chunk and all return codes. The validation test saves all returned [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx) structures in a list.
+The validation test steps through the object one chunk at a time, verifying each individual chunk and all return codes. The validation test saves all returned [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx) structures in a list.
 
 The validation test verifies the following conditions:
 
-- The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*idChunk* chunk IDs must be unique and increasing.
-- The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*flags* parameter is a recognized chunk state, such as [**CHUNKSTATE**](https://msdn.microsoft.com/en-us/library/Bb266508(v=VS.85).aspx), CHUNK\_TEXT, or CenabledHUNK\_VALUE constants.
-- The [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*breakType* parameter is a recognized break type (0, 1, 2, 3, 4).
+- The [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx).*idChunk* chunk IDs must be unique and increasing.
+- The [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx).*flags* parameter is a recognized chunk state, such as [**CHUNKSTATE**](https://msdn.microsoft.com/library/Bb266508(v=VS.85).aspx), CHUNK\_TEXT, or CenabledHUNK\_VALUE constants.
+- The [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx).*breakType* parameter is a recognized break type (0, 1, 2, 3, 4).
 - If the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) initialization attributes specify that the **IFilter** should return only chunks containing internal value-type properties, then *idChunkSource* must equal 0.
-- If the chunk is not derived that is, if it is not an internal value-type property, then [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx).*idChunkSource* must equal **STAT\_CHUNK**.*idChunk*.
+- If the chunk is not derived that is, if it is not an internal value-type property, then [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx).*idChunkSource* must equal **STAT\_CHUNK**.*idChunk*.
 - [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
 - If the chunk contains text, [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns S\_OK, FILTER\_S\_LAST\_TEXT, or FILTER\_E\_NO\_MORE\_TEXT.
 - If [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) returns FILTER\_S\_LAST\_TEXT, the next call to **IFilter::GetText** returns FILTER\_E\_NO\_MORE\_TEXT.
@@ -233,11 +233,11 @@ The validation test verifies the following conditions:
 
 ### Consistency Test
 
-The ifilttxt.exe program re-initializes the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface with the same parameters as in the validation test and performs a consistency test. If the **IFilter** implementation has been initialized with the [**IFILTER\_INIT**](https://msdn.microsoft.com/en-us/library/Bb266511(v=VS.85).aspx) IFILTER\_INIT\_INDEXING\_ONLY flag, the test releases the **IFilter** interface and re-binds it before making another call to the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method.
+The ifilttxt.exe program re-initializes the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface with the same parameters as in the validation test and performs a consistency test. If the **IFilter** implementation has been initialized with the [**IFILTER\_INIT**](https://msdn.microsoft.com/library/Bb266511(v=VS.85).aspx) IFILTER\_INIT\_INDEXING\_ONLY flag, the test releases the **IFilter** interface and re-binds it before making another call to the [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx) method.
 
 The consistency test verifies the following conditions:
 
-- Each [**STAT\_CHUNK**](https://msdn.microsoft.com/en-us/library/Bb231253(v=VS.85).aspx) structure returned by the [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
+- Each [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx) structure returned by the [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
 - [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
 
 ### Invalid Input Test
@@ -368,8 +368,8 @@ The next chunk, starting at line 21, has the same GUID and PID, but its chunk st
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
-- For an overview of file types, see [File Types](https://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
-- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+- For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).
 
 ## Related topics
 

@@ -42,7 +42,7 @@ HRESULT D3DXCreateTextureGutterHelper(
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Width of the texture, in pixels.
 
@@ -51,7 +51,7 @@ Width of the texture, in pixels.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Height of the texture, in pixels.
 
@@ -69,7 +69,7 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object.
 *GutterSize* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of texels by which to over-sample the texture and create the gutter region. Must be at least 1.
 
@@ -86,7 +86,7 @@ Pointer to an [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.md) object
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of these: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

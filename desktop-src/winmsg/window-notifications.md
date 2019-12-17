@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 -   [**WM\_COMPACTING**](wm-compacting.md)
 -   [**WM\_CREATE**](wm-create.md)
 -   [**WM\_DESTROY**](wm-destroy.md)
--   [**WM\_DPICHANGED**](https://msdn.microsoft.com/en-us/library/Dn312083(v=VS.85).aspx)
+-   [**WM\_DPICHANGED**](https://msdn.microsoft.com/library/Dn312083(v=VS.85).aspx)
 -   [**WM\_ENABLE**](wm-enable.md)
 -   [**WM\_ENTERSIZEMOVE**](wm-entersizemove.md)
 -   [**WM\_EXITSIZEMOVE**](wm-exitsizemove.md)

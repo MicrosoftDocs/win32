@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Call Handles
 
-As is mentioned in the [Session Identifier](https://msdn.microsoft.com/en-us/library/ms734196(v=VS.85).aspx) overview, a call handle is the means by which a TAPI 2.2 application identifies a particular communications session. When an application initiates a session, TAPI returns a call handle for use in further operations or queries. When an application is notified of an incoming session, TAPI also passes in a call handle.
+As is mentioned in the [Session Identifier](https://msdn.microsoft.com/library/ms734196(v=VS.85).aspx) overview, a call handle is the means by which a TAPI 2.2 application identifies a particular communications session. When an application initiates a session, TAPI returns a call handle for use in further operations or queries. When an application is notified of an incoming session, TAPI also passes in a call handle.
 
 After a session has ended and the session state is idle, the call handle remains valid until the application deallocates the handle or the line is closed. The line might be closed by the application, or it may receive a [**LINE\_CLOSE**](line-close.md) message. If a line is closed, all call handles to calls on the line instantly become invalid.
 

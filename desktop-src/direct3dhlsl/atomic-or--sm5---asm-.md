@@ -2,7 +2,7 @@
 title: atomic_or (sm5 - asm)
 description: Atomic bitwise OR to memory.
 ms.assetid: 5AFB96AA-267B-454E-9526-BA61A876ED42
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Creating a Heterogeneous Join between SQL Server and Active Directory
+title: Creating a Heterogeneous Join between SQL Server & Active Directory
 description: All employees at the Fabrikam corporation are reviewed every six months.
 ms.assetid: 16f605ae-7f6c-4429-a379-47686618b15d
 ms.tgt_platform: multiple
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Creating a Heterogeneous Join between SQL Server and Active Directory
+# Creating a Heterogeneous Join between SQL Server & Active Directory
 
 All employees at the Fabrikam corporation are reviewed every six months. Review ratings are stored in the Human Resource database in SQL Server. To create a view of this data, Joe Worden, the enterprise administrator, must first create an employee performance review table.
 

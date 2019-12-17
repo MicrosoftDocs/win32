@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**CallWindowProc**](https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx)
--   [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
--   [*WindowProc*](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx)
+-   [**CallWindowProc**](https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx)
+-   [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+-   [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx)
 
  
 

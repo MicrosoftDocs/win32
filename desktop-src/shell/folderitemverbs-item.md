@@ -45,7 +45,7 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 ## Return value
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
 
 Object that receives the [**FolderItemVerb**](folderitemverb.md) object.
 

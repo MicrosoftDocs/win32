@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 This section contains an alphabetic list of the Telephony User Interface Service Provider functions. The **TUISPI service provider functions** include:
 
--   [**TUISPI\_providerConfig**](https://msdn.microsoft.com/en-us/library/ms725981(v=VS.85).aspx)
--   [**TUISPI\_providerGenericDialog**](https://msdn.microsoft.com/en-us/library/ms725982(v=VS.85).aspx)
--   [**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/en-us/library/ms725983(v=VS.85).aspx)
--   [**TUISPI\_providerInstall**](https://msdn.microsoft.com/en-us/library/ms725984(v=VS.85).aspx)
--   [**TUISPI\_providerRemove**](https://msdn.microsoft.com/en-us/library/ms725985(v=VS.85).aspx)
+-   [**TUISPI\_providerConfig**](https://msdn.microsoft.com/library/ms725981(v=VS.85).aspx)
+-   [**TUISPI\_providerGenericDialog**](https://msdn.microsoft.com/library/ms725982(v=VS.85).aspx)
+-   [**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725983(v=VS.85).aspx)
+-   [**TUISPI\_providerInstall**](https://msdn.microsoft.com/library/ms725984(v=VS.85).aspx)
+-   [**TUISPI\_providerRemove**](https://msdn.microsoft.com/library/ms725985(v=VS.85).aspx)
 
  
 

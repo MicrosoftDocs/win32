@@ -92,6 +92,6 @@
       - name: "ELF_LOGFILE_HEADER"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)
       - name: "EVENTLOG_FULL_INFORMATION"
-        href: /windows/desktop/api/Winbase/ns-winbase-_eventlog_full_information
+        href: /windows/win32/api/Winbase/ns-winbase-eventlog_full_information
       - name: "EVENTLOGRECORD"
-        href: /windows/desktop/api/Winnt/ns-winnt-_eventlogrecord
+        href: /windows/win32/api/Winnt/ns-winnt-eventlogrecord

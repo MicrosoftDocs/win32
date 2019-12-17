@@ -8,32 +8,32 @@ ms.date: 05/31/2018
 
 # Cryptography Concepts
 
-Secure communication over nonsecure networks generally involves three major areas of concern: [privacy](#privacy), [authentication](#authentication), and [integrity](#integrity). The Microsoft cryptography API ([*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx)) is a set of functions, interfaces, and tools that applications can use to improve confidence of security in these areas.
+Secure communication over nonsecure networks generally involves three major areas of concern: [privacy](#privacy), [authentication](#authentication), and [integrity](#integrity). The Microsoft cryptography API ([*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx)) is a set of functions, interfaces, and tools that applications can use to improve confidence of security in these areas.
 
-In addition to functionality for privacy, authentication, and integrity, [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) also provides for:
+In addition to functionality for privacy, authentication, and integrity, [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) also provides for:
 
--   Encoding messages to [*Abstract Syntax Notation One*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (ASN.1) form.
+-   Encoding messages to [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (ASN.1) form.
 -   Decoding ASN.1 messages.
--   Managing collections of [*certificates*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) in [*certificate stores*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
--   Working with [*certificate trust lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and certificate chains for verification of the validity of certificates.
+-   Managing collections of [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) in [*certificate stores*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+-   Working with [*certificate trust lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and certificate chains for verification of the validity of certificates.
 
 ## Privacy
 
-To achieve privacy, users must prevent anyone except the intended recipient from reading a message. Improving the likelihood of privacy usually involves using some form of [*cryptography*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). Cryptographic techniques are used to encrypt (scramble) messages before the messages are stored or transmitted.
+To achieve privacy, users must prevent anyone except the intended recipient from reading a message. Improving the likelihood of privacy usually involves using some form of [*cryptography*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). Cryptographic techniques are used to encrypt (scramble) messages before the messages are stored or transmitted.
 
-Data encryption transforms [*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) into [*ciphertext*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). The data to be encrypted can be [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) text, a database file, or any other data. In this documentation, the term [*message*](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx) is used to refer to any piece of data, plaintext refers to data that has not been encrypted, and *ciphertext* refers to data that has been encrypted. A good data encryption system makes it difficult to transform encrypted data back to plaintext without a secret key.
+Data encryption transforms [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) into [*ciphertext*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). The data to be encrypted can be [*ASCII*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) text, a database file, or any other data. In this documentation, the term [*message*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) is used to refer to any piece of data, plaintext refers to data that has not been encrypted, and *ciphertext* refers to data that has been encrypted. A good data encryption system makes it difficult to transform encrypted data back to plaintext without a secret key.
 
 Encrypted data can be stored on non-secure media or transmitted over a non-secure network. Later, the data can be decrypted into its original form. This process is shown in the following illustration.
 
 ![helping retain privacy throughout encryption and decryption](images/capi01.png)
 
-When data is encrypted, the message and an [*encryption*](https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx) key are passed to the encryption algorithm. To decrypt the data, the ciphertext and a [*decryption*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) key are passed to the decryption algorithm. Encryption and decryption can be done by using a single key in a process called symmetric encryption.
+When data is encrypted, the message and an [*encryption*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) key are passed to the encryption algorithm. To decrypt the data, the ciphertext and a [*decryption*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) key are passed to the decryption algorithm. Encryption and decryption can be done by using a single key in a process called symmetric encryption.
 
 Keys used to decrypt a message must be kept as secret and safe as possible, and must be transmitted to other users by using security-enhancing techniques. This is discussed further in [Data Encryption and Decryption](data-encryption-and-decryption.md). The main challenge is properly restricting access to the decryption key because anyone who possesses it will be able to decrypt all messages that were encrypted with its corresponding encryption key.
 
-To address the stated goals of privacy, developers can use [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) to encrypt and digitally sign data in a flexible manner, while helping to provide protection for the user's sensitive private key data.
+To address the stated goals of privacy, developers can use [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) to encrypt and digitally sign data in a flexible manner, while helping to provide protection for the user's sensitive private key data.
 
-[*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) provides the following areas of functionality to perform the tasks of encryption/decryption, message signing, and key storage:
+[*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) provides the following areas of functionality to perform the tasks of encryption/decryption, message signing, and key storage:
 
 -   [Base Cryptography Functions](cryptography-functions.md)
 -   [Simplified Message Functions](cryptography-functions.md)
@@ -47,7 +47,7 @@ For example, in day to day life, physical documentation, often called credential
 
 Passports provide another example. A customs official looks at a passport and accepts it as proof that a person is who he says he is. The official trusts that the government did an adequate job of identifying the passport holder before issuing the passport. In both examples, a level of trust exists in the issuer of the physical document.
 
-Authentication also involves making sure that the data received is the data that was sent. If party A sends a message to party B, party B needs to be able to prove that the message received was the message that party A sent and not a message that was substituted for that message. To provide this form of authentication, [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) provides functions for signing data and verifying signatures by using public/private key pairs.
+Authentication also involves making sure that the data received is the data that was sent. If party A sends a message to party B, party B needs to be able to prove that the message received was the message that party A sent and not a message that was substituted for that message. To provide this form of authentication, [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) provides functions for signing data and verifying signatures by using public/private key pairs.
 
 Because communications over a computer network take place with no physical contact between the communicators, verifying identity often depends upon a credential that can be sent and received over a network. Such a credential must be issued by a trusted issuer of credentials. Digital certificates, commonly known as certificates, are just such a credential. They are a way to verify identity and achieve authentication on a computer network.
 
@@ -55,7 +55,7 @@ A digital certificate is a credential issued by a trusted organization or entity
 
 The communication between a CA and a certificate requester could be accomplished by the requester physically carrying the necessary information, perhaps stored on a floppy disk, to the CA. However, the communication is usually accomplished with a signed message sent over a network. The CA often uses a trusted application called a certificate server to issues certificates.
 
-[*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) supports authentication through the use of digital certificates, with certificate encode/decode functions, and [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions.
+[*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) supports authentication through the use of digital certificates, with certificate encode/decode functions, and [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions.
 
 For more information about identity verification and authentication through the use of certificates, see [Digital Certificates](digital-certificates.md).
 
@@ -63,11 +63,11 @@ For more information about identity verification and authentication through the 
 
 Any data sent over a non-secure media can be changed either by accident or on purpose. In the real world, seals are used to provide and prove integrity. A bottle of aspirin, for example, can come in tamper-proof packaging that has an unbroken seal to prove that nothing was put into the package after the package left the manufacturer.
 
-In the same manner, a receiver of data must be able to verify the identity of the sender of the data and be sure that the data received is exactly the data that was sent; that is, that it has not been tampered with. Establishing the [*integrity*](https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx) of data received is often done by sending not only the original data but also a verification message, called a [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx), about that data. Both the data and the verification message can be sent with a [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) that proves the origin of both.
+In the same manner, a receiver of data must be able to verify the identity of the sender of the data and be sure that the data received is exactly the data that was sent; that is, that it has not been tampered with. Establishing the [*integrity*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx) of data received is often done by sending not only the original data but also a verification message, called a [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx), about that data. Both the data and the verification message can be sent with a [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) that proves the origin of both.
 
 Integrity is provided in CryptoAPI by means of using [Digital Signatures](digital-signatures.md) and [Data Hashes](data-hashes.md).
 
-[*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) supports integrity through the use of message functions to sign data and to verify digital signatures.
+[*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) supports integrity through the use of message functions to sign data and to verify digital signatures.
 
  
 

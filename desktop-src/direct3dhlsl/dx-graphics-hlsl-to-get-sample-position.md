@@ -2,10 +2,10 @@
 title: GetSamplePosition (DirectX HLSL Texture Object)
 description: Gets the position of the specified sample.
 ms.assetid: 4e622b85-82d6-4339-b03a-becbe5f9aa57
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

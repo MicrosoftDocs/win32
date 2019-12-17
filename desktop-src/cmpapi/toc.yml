@@ -39,7 +39,7 @@
     href: compression-api-structures.md
     items: 
     - name: "COMPRESS_ALLOCATION_ROUTINES"
-      href: /windows/desktop/api/compressapi/ns-compressapi-_compress_allocation_routines
+      href: /windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines
   - name: "Compression API Enumerations"
     href: compression-api-enumerations.md
     items: 

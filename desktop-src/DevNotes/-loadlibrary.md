@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadLibrary** function. This function may be altered or unavailable in the future. Applications should call **LoadLibrary** directly.\]
 
-Loads a library. See [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx).
+Loads a library. See [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ HMODULE _LoadLibrary(
 
 <dl> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx)
+[**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)
 </dt> </dl>
 
  

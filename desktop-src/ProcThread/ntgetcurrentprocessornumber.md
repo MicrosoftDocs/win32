@@ -17,7 +17,7 @@ api_location:
 
 # NtGetCurrentProcessorNumber function
 
-\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](https://msdn.microsoft.com/en-us/library/ms683181(v=VS.85).aspx) function instead.\]
+\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](https://msdn.microsoft.com/library/ms683181(v=VS.85).aspx) function instead.\]
 
 Retrieves the number of the processor the current thread was running on during the call to this function.
 
@@ -42,7 +42,7 @@ The function returns the current processor number.
 
 This function is used to provide information for estimating process performance.
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 

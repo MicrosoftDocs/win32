@@ -197,7 +197,7 @@ This function takes several parameters including:
 -   A pointer to the compiled geometry shader (or vertex shader if no geometry shader will be present and data will be streamed out directly from the vertex shader). For information about how to get this pointer, see [Getting a Pointer to a Compiled Shader](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-using-shaders-10).
 -   A pointer to an array of declarations that describe the input data for the stream output stage. (See [**D3D11\_SO\_DECLARATION\_ENTRY**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_so_declaration_entry).) You can supply up to 64 declarations, one for each different type of element to be output from the SO stage. The array of declaration entries describes the data layout regardless of whether only a single buffer or multiple buffers are to be bound for stream output.
 -   The number of elements that are written out by the SO stage.
--   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx)).
+-   A pointer to the geometry shader object that is created (see [**ID3D11GeometryShader**](https://msdn.microsoft.com/library/Ff476536(v=VS.85).aspx)).
 
 In this situation, the buffer stride is NULL, the index of the stream to be sent to the rasterizer is 0, and the class linkage interface is NULL.
 

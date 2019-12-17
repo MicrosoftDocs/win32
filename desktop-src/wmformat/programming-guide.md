@@ -1,6 +1,6 @@
 ---
-title: Programming Guide
-description: Programming Guide
+title: Windows Media Format SDK Programming Guide
+description: Windows Media Format SDK Programming Guide
 ms.assetid: '9b382c88-e4a9-4aed-a250-250fabface44'
 keywords:
 - Windows Media Format SDK,Programming Guide

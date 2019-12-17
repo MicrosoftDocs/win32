@@ -66,7 +66,7 @@ To draw a bitmap source by using Direct2D
 
     
 
-3.  Create an [ID2D1RenderTarget](https://msdn.microsoft.com/en-us/library/dd371766(VS.85).aspx) object for rendering to a window handle.
+3.  Create an [ID2D1RenderTarget](https://msdn.microsoft.com/library/dd371766(VS.85).aspx) object for rendering to a window handle.
 
     ```C++
        // Create a D2D render target properties
@@ -89,9 +89,9 @@ To draw a bitmap source by using Direct2D
 
     
 
-    For more information render targets, see the Direct2D [Render Targets Overview](https://msdn.microsoft.com/en-us/library/dd371766(VS.85).aspx).
+    For more information render targets, see the Direct2D [Render Targets Overview](https://msdn.microsoft.com/library/dd371766(VS.85).aspx).
 
-4.  Create an [ID2D1Bitmap](https://msdn.microsoft.com/en-us/library/dd756755(VS.85).aspx) object using the [ID2D1RenderTarget::CreateBitmapFromWicBitmap](https://msdn.microsoft.com/en-us/library/dd742779(VS.85).aspx) method.
+4.  Create an [ID2D1Bitmap](https://msdn.microsoft.com/library/dd756755(VS.85).aspx) object using the [ID2D1RenderTarget::CreateBitmapFromWicBitmap](https://msdn.microsoft.com/library/dd742779(VS.85).aspx) method.
 
     ```C++
         // D2DBitmap may have been released due to device loss. 
@@ -104,7 +104,7 @@ To draw a bitmap source by using Direct2D
 
     
 
-5.  Draw the [ID2D1Bitmap](https://msdn.microsoft.com/en-us/library/dd756755(VS.85).aspx) using D2D [ID2D1RenderTarget::DrawBitmap](https://msdn.microsoft.com/en-us/library/dd742844(VS.85).aspx) method.
+5.  Draw the [ID2D1Bitmap](https://msdn.microsoft.com/library/dd756755(VS.85).aspx) using D2D [ID2D1RenderTarget::DrawBitmap](https://msdn.microsoft.com/library/dd742844(VS.85).aspx) method.
 
     ```C++
         // Draws an image and scales it to the current window size
@@ -129,7 +129,7 @@ Code has been omitted from this example. For the complete code, see the [WIC Ima
 [Samples](-wic-samples.md)
 
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/dd370990(VS.85).aspx)
+[Direct2D](https://msdn.microsoft.com/library/dd370990(VS.85).aspx)
 
 
  

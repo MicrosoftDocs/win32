@@ -12,7 +12,7 @@ The debug version of the XAudio2 engine validates parameters, and provides detai
 
 ## Setting the Debug Logging Level at Run Time
 
-You can set the level of debugging information shown by XAudio2 at any time by filling out an [**XAUDIO2\_DEBUG\_CONFIGURATION**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration) structure with the flags for the desired logging level, and then pass the structure to the [**IXAudio2::SetDebugConfiguration**](https://msdn.microsoft.com/en-us/library/Ee418624(v=VS.85).aspx) method. Values passed to the **IXAudio2::SetDebugConfiguration** method always override any default values that were set in the Windows registry.
+You can set the level of debugging information shown by XAudio2 at any time by filling out an [**XAUDIO2\_DEBUG\_CONFIGURATION**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_debug_configuration) structure with the flags for the desired logging level, and then pass the structure to the [**IXAudio2::SetDebugConfiguration**](https://msdn.microsoft.com/library/Ee418624(v=VS.85).aspx) method. Values passed to the **IXAudio2::SetDebugConfiguration** method always override any default values that were set in the Windows registry.
 
 ## Debug Support
 

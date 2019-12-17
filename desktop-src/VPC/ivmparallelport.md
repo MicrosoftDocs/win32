@@ -25,7 +25,7 @@ Defines a parallel port inside a virtual machine. This interface allows you to c
 
 ## Members
 
-The **IVMParallelPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPort** also has these types of members:
+The **IVMParallelPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPort** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

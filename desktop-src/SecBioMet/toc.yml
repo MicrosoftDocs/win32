@@ -182,7 +182,7 @@
         - name: "WINBIO_ANTI_SPOOF_POLICY"
           href: winbio-anti-spoof-policy.md
         - name: "WINBIO_ASYNC_RESULT"
-          href: /windows/desktop/api/Winbio/ns-winbio-_winbio_async_result
+          href: /windows/win32/api/Winbio/ns-winbio-winbio_async_result
         - name: "WINBIO_BDB_ANSI_381_HEADER"
           href: winbio-bdb-ansi-381-header.md
         - name: "WINBIO_BDB_ANSI_381_RECORD"
@@ -223,7 +223,7 @@
         - name: "WINBIO_ANTI_SPOOF_POLICY_ACTION"
           href: winbio-anti-spoof-policy-action.md
         - name: "WINBIO_ASYNC_NOTIFICATION_METHOD"
-          href: /windows/desktop/api/Winbio/ne-winbio-_winbio_async_notification_method
+          href: /windows/win32/api/Winbio/ne-winbio-winbio_async_notification_method
         - name: "WINBIO_CREDENTIAL_FORMAT"
           href: winbio-credential-format.md
         - name: "WINBIO_CREDENTIAL_STATE"
@@ -519,19 +519,19 @@
         - name: "WINBIO_ACCOUNT_POLICY"
           href: winbio-account-policy.md
         - name: "WINBIO_ADAPTER_INTERFACE_VERSION"
-          href: /windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_adapter_interface_version
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_adapter_interface_version
         - name: "WINBIO_ENGINE_INTERFACE"
-          href: /windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_engine_interface
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_engine_interface
         - name: "WINBIO_EXTENDED_ENROLLMENT_PARAMETERS"
           href: winbio-extended-enrollment-parameters.md
         - name: "WINBIO_PIPELINE"
-          href: /windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_pipeline
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_pipeline
         - name: "WINBIO_SENSOR_INTERFACE"
-          href: /windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_sensor_interface
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_sensor_interface
         - name: "WINBIO_STORAGE_INTERFACE"
-          href: /windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_storage_interface
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_storage_interface
         - name: "WINBIO_STORAGE_RECORD"
-          href: /windows/desktop/api/Winbio_adapter/ns-winbio_adapter-_winbio_storage_record
+          href: /windows/win32/api/Winbio_adapter/ns-winbio_adapter-winbio_storage_record
       - name: "Plug-in Wrapper Functions"
         href: plug-in-wrapper-functions.md
         items: 

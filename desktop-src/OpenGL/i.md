@@ -1,7 +1,7 @@
 ---
 title: I (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter I.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '2c78efce-9aed-4bcd-a254-7bff053b0acd'
 keywords:
 - images

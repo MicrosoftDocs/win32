@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# General Purpose Functions
+# General Purpose Functions (Cryptography)
 
 The following general-purpose example functions perform a number of auxiliary tasks in the example programs:
 

@@ -21,7 +21,7 @@ The **IScanProfile** interface represents a single scan profile and enables appl
 
 ## Members
 
-The **IScanProfile** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IScanProfile** also has these types of members:
+The **IScanProfile** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IScanProfile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -81,7 +81,7 @@ The `<Properties>` element contains `<Property>` children. Use these to add any 
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)

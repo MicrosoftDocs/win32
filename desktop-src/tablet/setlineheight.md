@@ -18,7 +18,7 @@ api_location:
 
 # SetLineHeight function
 
-Sets the [**LineHeight**](https://msdn.microsoft.com/en-us/library/ms699524(v=VS.85).aspx) property on the [**InkDivider**](inkdivider-class.md) object.
+Sets the [**LineHeight**](https://msdn.microsoft.com/library/ms699524(v=VS.85).aspx) property on the [**InkDivider**](inkdivider-class.md) object.
 
 This helper function is not intended to be used by application code.
 
@@ -48,7 +48,7 @@ A handle to the [**InkDivider**](inkdivider-class.md) object.
 *lLineHeight* \[in\]
 </dt> <dd>
 
-The [**LineHeight**](https://msdn.microsoft.com/en-us/library/ms699524(v=VS.85).aspx) property of the [**InkDivider**](inkdivider-class.md) object, in HIMETRIC units.
+The [**LineHeight**](https://msdn.microsoft.com/library/ms699524(v=VS.85).aspx) property of the [**InkDivider**](inkdivider-class.md) object, in HIMETRIC units.
 
 </dd> </dl>
 

@@ -38,7 +38,7 @@ D3DX_CPU_OPTIMIZATION D3DXCpuOptimizations(
 *Enable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 **TRUE** to enable CPU optimizations; otherwise **FALSE**.
 

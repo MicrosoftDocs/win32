@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_HANDLE.ToString method
+# JET_HANDLE.ToString method overload list
 
 Include protected members  
 Include inherited members  

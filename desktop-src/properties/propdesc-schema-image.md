@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 89893C4E-4F4E-4d85-9623-08607B4383E5
-title: image
+title: image Element (Property Description Schema)
 ms.topic: article
 ms.date: 05/31/2018
 ---

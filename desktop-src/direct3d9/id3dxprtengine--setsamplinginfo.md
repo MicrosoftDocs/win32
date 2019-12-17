@@ -42,7 +42,7 @@ HRESULT SetSamplingInfo(
 *NumRays* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of light rays to direct at each sample. Must be greater than zero.
 
@@ -51,7 +51,7 @@ Number of light rays to direct at each sample. Must be greater than zero.
 *UseSphere* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 If **TRUE**, samples will be computed over a full sphere. If **FALSE**, samples will be computed over a hemisphere.
 
@@ -60,7 +60,7 @@ If **TRUE**, samples will be computed over a full sphere. If **FALSE**, samples 
 *UseCosine* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 If **TRUE**, use a cosine weighting of samples. If both UseCosine and UseSphere are **TRUE**, the method will fail and an error will be returned.
 
@@ -69,7 +69,7 @@ If **TRUE**, use a cosine weighting of samples. If both UseCosine and UseSphere 
 *Adaptive* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Must be **FALSE**. Adaptive sampling is currently not implemented.
 
@@ -78,7 +78,7 @@ Must be **FALSE**. Adaptive sampling is currently not implemented.
 *AdaptiveThresh* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Ignored.
 
@@ -86,7 +86,7 @@ Ignored.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_NOTIMPL, E\_OUTOFMEMORY.
 

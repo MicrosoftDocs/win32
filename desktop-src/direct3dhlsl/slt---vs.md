@@ -2,10 +2,10 @@
 title: slt - vs
 description: Computes the sign if the first source is less than the second source.
 ms.assetid: 7573bcee-8f31-49ea-b515-5be59a7a508d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

@@ -1,7 +1,7 @@
 ---
 Description: Defines a string type for either the name or the description of a wireless LAN policy profile.
 ms.assetid: a01e8789-3401-4e58-b733-2ec95fc895b6
-title: nameType Simple Type
+title: nameType Simple Type (LAN_policy)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# nameType Simple Type
+# nameType Simple Type (LAN_policy)
 
 The nameType simple type defines a string type for either the name or the description of a wireless LAN policy profile. Names and descriptions are strings that are at least one character long and at most 255 characters long.
 

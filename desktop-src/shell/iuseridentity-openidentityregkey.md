@@ -74,7 +74,7 @@ The result of the registry request. If successful, it returns **S\_OK**. Otherwi
 
 ## Remarks
 
-The *dwDesiredAccess* parameter is a standard registry access security descriptor that describes the access you want to gain to the registry key. For more information on registry security, including a list of acceptable values for this parameter, see [Registry Key Security and Access Rights](https://msdn.microsoft.com/en-us/library/ms724878(v=VS.85).aspx).
+The *dwDesiredAccess* parameter is a standard registry access security descriptor that describes the access you want to gain to the registry key. For more information on registry security, including a list of acceptable values for this parameter, see [Registry Key Security and Access Rights](https://msdn.microsoft.com/library/ms724878(v=VS.85).aspx).
 
 ## Requirements
 

@@ -12,10 +12,10 @@ Starting with Windows 2000 telephony service providers that negotiate a version
 
 TSPI provides the following functions and messages to allow a virtual connection between a TSP and an MSP:
 
--   [**TSPI\_lineCloseMSPInstance**](https://msdn.microsoft.com/en-us/library/ms725533(v=VS.85).aspx)
--   [**TSPI\_lineCreateMSPInstance**](https://msdn.microsoft.com/en-us/library/ms725539(v=VS.85).aspx)
--   [**TSPI\_lineMSPIdentify**](https://msdn.microsoft.com/en-us/library/ms725580(v=VS.85).aspx)
--   [**TSPI\_lineReceiveMSPData**](https://msdn.microsoft.com/en-us/library/ms725587(v=VS.85).aspx)
+-   [**TSPI\_lineCloseMSPInstance**](https://msdn.microsoft.com/library/ms725533(v=VS.85).aspx)
+-   [**TSPI\_lineCreateMSPInstance**](https://msdn.microsoft.com/library/ms725539(v=VS.85).aspx)
+-   [**TSPI\_lineMSPIdentify**](https://msdn.microsoft.com/library/ms725580(v=VS.85).aspx)
+-   [**TSPI\_lineReceiveMSPData**](https://msdn.microsoft.com/library/ms725587(v=VS.85).aspx)
 -   [**LINE\_QOSINFO**](line-qosinfo.md)
 -   [**LINE\_SENDMSPDATA**](line-sendmspdata.md)
 

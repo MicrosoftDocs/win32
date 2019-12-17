@@ -39,7 +39,7 @@ HRESULT D3DX10CheckVersion(
 *D3DSdkVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Use D3D10\_SDK\_VERSION. See remarks.
 
@@ -48,7 +48,7 @@ Use D3D10\_SDK\_VERSION. See remarks.
 *D3DX10SdkVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Use D3DX10\_SDK\_VERSION. See remarks.
 
@@ -56,7 +56,7 @@ Use D3DX10\_SDK\_VERSION. See remarks.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the version doesn't match, the function will return FALSE (a number less than or equal to 0, the number itself has no meaning).
 

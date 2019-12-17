@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Strokes Collection Events
 
-The following table describes which threads the [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection events can fire on.
+The following table describes which threads the [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection events can fire on.
 
 
 

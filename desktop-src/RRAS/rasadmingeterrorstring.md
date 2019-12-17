@@ -64,7 +64,7 @@ Specifies the size, in characters, of the *lpszString* buffer. Error messages ar
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is an error code. This value can be a last error value set by the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx), [**GlobalAlloc**](https://msdn.microsoft.com/en-us/library/Aa366574(v=VS.85).aspx), or [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx) functions; or it can be one of the following error codes.
+If the function fails, the return value is an error code. This value can be a last error value set by the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx), [**GlobalAlloc**](https://msdn.microsoft.com/library/Aa366574(v=VS.85).aspx), or [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx) functions; or it can be one of the following error codes.
 
 
 
@@ -107,10 +107,10 @@ The RasAdmin functions can return error codes that are not in the range supporte
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx)
+[**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)
 </dt> <dt>
 
-[**GlobalAlloc**](https://msdn.microsoft.com/en-us/library/Aa366574(v=VS.85).aspx)
+[**GlobalAlloc**](https://msdn.microsoft.com/library/Aa366574(v=VS.85).aspx)
 </dt> <dt>
 
 [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)

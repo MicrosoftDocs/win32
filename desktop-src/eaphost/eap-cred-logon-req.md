@@ -4,7 +4,6 @@ description: Stores EAP security credentials within an EAP\_CONFIG\_INPUT\_FIELD
 ms.assetid: 1F1A2F77-054D-4FD2-83A5-69C3D77418B3
 keywords:
 - EAP_CRED_LOGON_REQ
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
 ---

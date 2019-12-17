@@ -21,7 +21,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# General Constants
+# General Constants (Winbio\_types.h)
 
 The following constants are used throughout the Windows Biometric Framework.
 

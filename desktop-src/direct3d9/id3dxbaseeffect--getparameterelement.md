@@ -48,7 +48,7 @@ Handle of the array. See [Handles (Direct3D 9)](handles.md).
 *ElementIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Array element index.
 

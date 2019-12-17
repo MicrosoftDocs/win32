@@ -4879,7 +4879,7 @@ Note that some paths have changed for Windows Vista.
 [How to Extend Known Folders with Custom Folders](how-to-extend-known-folders-with-custom-folders.md)
 </dt> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/en-us/library/Dd940364(v=VS.85).aspx)
+[Known Folders Sample](https://msdn.microsoft.com/library/Dd940364(v=VS.85).aspx)
 </dt> </dl>
 
  

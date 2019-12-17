@@ -41,7 +41,7 @@ typedef struct D3DDEVINFO_D3D9INTERFACETIMINGS {
 **WaitingForGPUToUseApplicationResourceTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Percentage of time the driver spent waiting for the GPU to finish using a locked
 **WaitingForGPUToAcceptMoreCommandsTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Percentage of time the driver spent waiting for the GPU to finish processing som
 **WaitingForGPUToStayWithinLatencyTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ If an application is GPU-limited, the driver must stall the CPU until the GPU ge
 **WaitingForGPUExclusiveResourceTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Percentage of time the driver spent waiting for a resource that cannot be pipeli
 **WaitingForGPUOtherTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

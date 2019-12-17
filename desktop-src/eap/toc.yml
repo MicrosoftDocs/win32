@@ -55,7 +55,7 @@
       href: eap-enumerations.md
       items: 
       - name: "PPP_EAP_ACTION"
-        href: /windows/desktop/api/Raseapif/ne-raseapif-_ppp_eap_action
+        href: /windows/win32/api/Raseapif/ne-raseapif-ppp_eap_action
       - name: "RAS_AUTH_ATTRIBUTE_TYPE"
         href: /windows/desktop/api/Raseapif/ne-raseapif-_ras_auth_attribute_type_
     - name: "EAP Functions"
@@ -99,12 +99,12 @@
       href: eap-structures.md
       items: 
       - name: "PPP_EAP_INFO"
-        href: /windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_info
+        href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_info
       - name: "PPP_EAP_INPUT"
-        href: /windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_input
+        href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_input
       - name: "PPP_EAP_OUTPUT"
-        href: /windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_output
+        href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_output
       - name: "PPP_EAP_PACKET"
-        href: /windows/desktop/api/Raseapif/ns-raseapif-_ppp_eap_packet
+        href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_packet
       - name: "RAS_AUTH_ATTRIBUTE"
-        href: /windows/desktop/api/Raseapif/ns-raseapif-_ras_auth_attribute
+        href: /windows/win32/api/Raseapif/ns-raseapif-ras_auth_attribute

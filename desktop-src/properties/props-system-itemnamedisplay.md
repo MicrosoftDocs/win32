@@ -38,8 +38,8 @@ For example, for documents, the [System.Title](https://msdn.microsoft.com/librar
 
 **Compatibility notes:**
 
--   Shell folder implementations on Windows Vista: use PKEY\_ItemNameDisplay for the name column when you want Windows Explorer to call [**IShellFolder::GetDisplayNameOf**](https://msdn.microsoft.com/en-us/library/Bb775071(v=VS.85).aspx)(SHGDN\_NORMAL) to get the value of the name. Use another PKEY, such as PKEY\_ItemName, when you want Windows Explorer to call either the folder's property store or [**IShellFolder2::GetDetailsEx**](https://msdn.microsoft.com/en-us/library/Bb775051(v=VS.85).aspx) to get the value of the name.
--   Shell folder implementations on Windows XP: the first column must be the name column, and Windows Explorer calls [**IShellFolder::GetDisplayNameOf**](https://msdn.microsoft.com/en-us/library/Bb775071(v=VS.85).aspx) to get the value of the name. The PKEY/SCID does not matter.
+-   Shell folder implementations on Windows Vista: use PKEY\_ItemNameDisplay for the name column when you want Windows Explorer to call [**IShellFolder::GetDisplayNameOf**](https://msdn.microsoft.com/library/Bb775071(v=VS.85).aspx)(SHGDN\_NORMAL) to get the value of the name. Use another PKEY, such as PKEY\_ItemName, when you want Windows Explorer to call either the folder's property store or [**IShellFolder2::GetDetailsEx**](https://msdn.microsoft.com/library/Bb775051(v=VS.85).aspx) to get the value of the name.
+-   Shell folder implementations on Windows XP: the first column must be the name column, and Windows Explorer calls [**IShellFolder::GetDisplayNameOf**](https://msdn.microsoft.com/library/Bb775071(v=VS.85).aspx) to get the value of the name. The PKEY/SCID does not matter.
 
 
 

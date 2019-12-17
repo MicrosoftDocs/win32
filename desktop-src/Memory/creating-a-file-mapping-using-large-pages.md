@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following example uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) function with the **SEC\_LARGE\_PAGES** flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.
 
-The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](https://msdn.microsoft.com/en-us/library/Aa366568(v=VS.85).aspx) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
+The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](https://msdn.microsoft.com/library/Aa366568(v=VS.85).aspx) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
 
 
 ```C++

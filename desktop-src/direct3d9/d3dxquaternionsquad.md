@@ -88,7 +88,7 @@ Pointer to a source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Parameter that indicates how far to interpolate between the quaternions.
 
@@ -113,7 +113,7 @@ Slerp(Slerp(pQ1, pC, t), Slerp(pA, pB, t), 2t(1 - t))
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXQuaternionSquad** function can be used as a parameter for another function.
 
-For an example of interpolating between quaternions, see the SkinnedMesh Sample. You can get this sample and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx).
+For an example of interpolating between quaternions, see the SkinnedMesh Sample. You can get this sample and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx).
 
 Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion input that is not already normalized.
 

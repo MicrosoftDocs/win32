@@ -17,19 +17,19 @@ The [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecurityp
 
 Alternatively, you can use the [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity) function to display a property sheet that contains the basic security property page.
 
-For both [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) and [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity), the caller must pass a pointer to an implementation of the [**ISecurityInformation**](https://msdn.microsoft.com/en-us/library/Aa378900(v=VS.85).aspx) interface. The access control editor calls the methods of this interface to retrieve access control information about the object being edited and to pass the user's input back to your application. The **ISecurityInformation** methods have the following purposes:
+For both [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) and [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity), the caller must pass a pointer to an implementation of the [**ISecurityInformation**](https://msdn.microsoft.com/library/Aa378900(v=VS.85).aspx) interface. The access control editor calls the methods of this interface to retrieve access control information about the object being edited and to pass the user's input back to your application. The **ISecurityInformation** methods have the following purposes:
 
 -   To initialize the property pages.
 
-    Your implementation of the [**GetObjectInformation**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx) method passes an [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) structure to the editor. This structure specifies the property pages that you want the editor to display and other information that determines the editing options available to the user.
+    Your implementation of the [**GetObjectInformation**](https://msdn.microsoft.com/library/Aa379102(v=VS.85).aspx) method passes an [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) structure to the editor. This structure specifies the property pages that you want the editor to display and other information that determines the editing options available to the user.
 
 -   To provide security information about the object being edited.
 
-    Your [**GetSecurity**](https://msdn.microsoft.com/en-us/library/Aa379105(v=VS.85).aspx) implementation passes the object's initial [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) to the editor. The [**GetAccessRights**](https://msdn.microsoft.com/en-us/library/Aa379092(v=VS.85).aspx) and [**MapGeneric**](https://msdn.microsoft.com/en-us/library/Aa379113(v=VS.85).aspx) methods provide information about the object's access rights. The [**GetInheritTypes**](https://msdn.microsoft.com/en-us/library/Aa379097(v=VS.85).aspx) method provides information about how the object's ACEs can be inherited by child objects.
+    Your [**GetSecurity**](https://msdn.microsoft.com/library/Aa379105(v=VS.85).aspx) implementation passes the object's initial [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) to the editor. The [**GetAccessRights**](https://msdn.microsoft.com/library/Aa379092(v=VS.85).aspx) and [**MapGeneric**](https://msdn.microsoft.com/library/Aa379113(v=VS.85).aspx) methods provide information about the object's access rights. The [**GetInheritTypes**](https://msdn.microsoft.com/library/Aa379097(v=VS.85).aspx) method provides information about how the object's ACEs can be inherited by child objects.
 
 -   To pass the user's input back to your application.
 
-    When the user clicks **Okay** or **Apply**, the editor calls your [**SetSecurity**](https://msdn.microsoft.com/en-us/library/Aa379122(v=VS.85).aspx) method to pass back a security descriptor containing the user's changes.
+    When the user clicks **Okay** or **Apply**, the editor calls your [**SetSecurity**](https://msdn.microsoft.com/library/Aa379122(v=VS.85).aspx) method to pass back a security descriptor containing the user's changes.
 
  
 

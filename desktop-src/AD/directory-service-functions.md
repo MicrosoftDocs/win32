@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Directory Service Functions
+# Directory Service Functions (AD DS)
 
 The directory service functions provide a utility for locating a domain controller (DC) in a Windows NT or Windows 2000 domain. The architecture interacts with clients as well as servers in all versions of Windows NT and Windows 2000. The following functions enable developers to work with the domain controller and domain membership in the directory service:
 

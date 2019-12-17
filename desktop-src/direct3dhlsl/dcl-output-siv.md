@@ -2,10 +2,10 @@
 title: dcl_output_siv (sm4 - asm)
 description: dcl\_output\_siv (sm4 - asm)
 ms.assetid: 5a87a113-7413-48ef-9a6a-13eb185650be
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

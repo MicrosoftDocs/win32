@@ -36,17 +36,17 @@
       href: enumerations.md
       items: 
       - name: "RM_APP_STATUS"
-        href: /windows/desktop/api/RestartManager/ne-restartmanager-_rm_app_status
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_status
       - name: "RM_APP_TYPE"
-        href: /windows/desktop/api/RestartManager/ne-restartmanager-_rm_app_type
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_type
       - name: "RM_FILTER_ACTION"
-        href: /windows/desktop/api/RestartManager/ne-restartmanager-_rm_filter_action
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_action
       - name: "RM_FILTER_TRIGGER"
-        href: /windows/desktop/api/RestartManager/ne-restartmanager-_rm_filter_trigger
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_trigger
       - name: "RM_REBOOT_REASON"
-        href: /windows/desktop/api/RestartManager/ne-restartmanager-_rm_reboot_reason
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_reboot_reason
       - name: "RM_SHUTDOWN_TYPE"
-        href: /windows/desktop/api/RestartManager/ne-restartmanager-_rm_shutdown_type
+        href: /windows/win32/api/RestartManager/ne-restartmanager-rm_shutdown_type
     - name: "Restart Manager Functions"
       href: functions.md
       items: 
@@ -76,8 +76,8 @@
       href: structures.md
       items: 
       - name: "RM_FILTER_INFO"
-        href: /windows/desktop/api/RestartManager/ns-restartmanager-_rm_filter_info
+        href: /windows/win32/api/RestartManager/ns-restartmanager-rm_filter_info
       - name: "RM_PROCESS_INFO"
-        href: /windows/desktop/api/RestartManager/ns-restartmanager-_rm_process_info
+        href: /windows/win32/api/RestartManager/ns-restartmanager-rm_process_info
       - name: "RM_UNIQUE_PROCESS"
-        href: /windows/desktop/api/RestartManager/ns-restartmanager-_rm_unique_process
+        href: /windows/win32/api/RestartManager/ns-restartmanager-rm_unique_process

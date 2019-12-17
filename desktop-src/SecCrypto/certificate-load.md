@@ -50,7 +50,7 @@ A string that contains the path to a .cer or .pfx file that contains the certifi
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) password to the [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx).
+A string that contains the [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) password to the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
 
 </dd> <dt>
 

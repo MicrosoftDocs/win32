@@ -90,7 +90,7 @@ The **ShellLinkObject** object has these properties.
 
 <dl> <dt>
 
-[Shell Links](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx)
+[Shell Links](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx)
 </dt> </dl>
 
  

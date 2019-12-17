@@ -2,7 +2,7 @@
 Description: Declares an object to be a pick-any constant, to avoid redundant reloads of that object if it is used (and declared) in multiple places in the DirectXMath Library.
 ms.assetid: FDE5C004-9E8E-4890-8FDC-987C1569D8E5
 title: XMGLOBALCONST macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -34,10 +34,10 @@ Using XMGLOBALCONST permits the specification of global constants. This helps to
 [Global Constants in the DirectXMath Library](pg-xnamath-internals.md)
 </dt> <dt>
 
-[selectany](https://msdn.microsoft.com/en-us/library/aa273550(VS.60).aspx)
+[selectany](https://msdn.microsoft.com/library/aa273550(VS.60).aspx)
 </dt> <dt>
 
-[declspec](https://msdn.microsoft.com/en-us/library/aa273692(VS.60).aspx)
+[declspec](https://msdn.microsoft.com/library/aa273692(VS.60).aspx)
 </dt> </dl>
 
  

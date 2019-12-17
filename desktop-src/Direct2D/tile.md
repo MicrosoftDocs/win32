@@ -60,7 +60,7 @@ m_d2dContext->EndDraw();
 
 This effect generates a logically infinite sized bitmap.
 
-You can tile an image and output a certain size without any additional effects by setting the size when you call [**ID2D1DeviceContext::DrawImage**](https://msdn.microsoft.com/en-us/library/Hh404511(v=VS.85).aspx).
+You can tile an image and output a certain size without any additional effects by setting the size when you call [**ID2D1DeviceContext::DrawImage**](https://msdn.microsoft.com/library/Hh404511(v=VS.85).aspx).
 
 ## Requirements
 
@@ -81,7 +81,7 @@ You can tile an image and output a certain size without any additional effects b
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

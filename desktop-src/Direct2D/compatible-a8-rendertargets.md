@@ -11,7 +11,7 @@ ms.custom: "seodec18"
 
 This topic describes the basics of a compatible A8 render target, and provides examples of how to use it.
 
-A compatible A8 render target is a compatible render target ([**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371146(v=VS.85).aspx)) that uses an A8 pixel format (DXGI\_FORMAT\_A8\_UNORM). You can use a compatible A8 render target to improve the application's performance and provide smoother transitions during text animation. A compatible A8 render target is particular useful when you try to improve the following:
+A compatible A8 render target is a compatible render target ([**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/library/Dd371146(v=VS.85).aspx)) that uses an A8 pixel format (DXGI\_FORMAT\_A8\_UNORM). You can use a compatible A8 render target to improve the application's performance and provide smoother transitions during text animation. A compatible A8 render target is particular useful when you try to improve the following:
 
 -   The frame rate of the application that renders text or anti-aliased geometry that includes only simple animations, such as translation, rotation, scale, or color changes.
 

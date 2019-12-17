@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_PrinterShare class
 
-The **Win32\_PrinterShare** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a local printer and the share that represents it as it is viewed over a network.
+The **Win32\_PrinterShare** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a local printer and the share that represents it as it is viewed over a network.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -55,7 +55,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
 </dt> </dl>
 
 Reference to the instance representing the local printer shared in this association.
@@ -71,7 +71,7 @@ Data type: **Win32\_Share**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
 </dt> </dl>
 
 Reference to the instance representing the share of the printer in this association.
@@ -100,7 +100,7 @@ The **Win32\_PrinterShare** class is derived from [**CIM\_Dependency**](cim-depe
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

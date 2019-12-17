@@ -542,7 +542,7 @@
           - name: "D3D10_SHADER_RESOURCE_VIEW_DESC1"
             href: /windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_shader_resource_view_desc1
           - name: "D3D10_STATE_BLOCK_MASK"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask
           - name: "D3D10_SO_DECLARATION_ENTRY"
             href: /windows/desktop/api/D3D10/ns-d3d10-d3d10_so_declaration_entry
           - name: "D3D10_VIEWPORT"
@@ -575,7 +575,7 @@
           - name: "D3D10_FEATURE_LEVEL1"
             href: /windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1
           - name: "D3D10_DEVICE_STATE_TYPES"
-            href: /windows/desktop/api/D3D10Effect/ne-d3d10effect-_d3d10_device_state_types
+            href: /windows/win32/api/D3D10Effect/ne-d3d10effect-d3d10_device_state_types
           - name: "D3D10_DRIVER_TYPE"
             href: /windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type
           - name: "D3D10_FILL_MODE"
@@ -892,41 +892,41 @@
           href: d3d10-graphics-reference-d3d10-shader-structures.md
           items: 
           - name: "D3D10_SHADER_BUFFER_DESC"
-            href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_buffer_desc
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_buffer_desc
           - name: "D3D10_SHADER_DESC"
-            href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_desc
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_desc
           - name: "D3D10_SHADER_DEBUG_FILE_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_file_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_file_info
           - name: "D3D10_SHADER_DEBUG_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info
           - name: "D3D10_SHADER_DEBUG_INPUT_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_input_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_input_info
           - name: "D3D10_SHADER_DEBUG_INST_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_inst_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_inst_info
           - name: "D3D10_SHADER_DEBUG_OUTPUTREG_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_outputreg_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputreg_info
           - name: "D3D10_SHADER_DEBUG_OUTPUTVAR"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_outputvar
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputvar
           - name: "D3D10_SHADER_DEBUG_SCOPE_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_scope_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_scope_info
           - name: "D3D10_SHADER_DEBUG_SCOPEVAR_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_scopevar_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_scopevar_info
           - name: "D3D10_SHADER_DEBUG_TOKEN_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_token_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_token_info
           - name: "D3D10_SHADER_DEBUG_VARTYPE"
-            href: /windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_vartype
+            href: /windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_vartype
           - name: "D3D10_SHADER_DEBUG_VAR_INFO"
-            href: /windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_var_info
+            href: /windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_var_info
           - name: "D3D10_SHADER_INPUT_BIND_DESC"
-            href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_input_bind_desc
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_input_bind_desc
           - name: "D3D10_SHADER_MACRO"
             href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro
           - name: "D3D10_SHADER_TYPE_DESC"
-            href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_type_desc
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_type_desc
           - name: "D3D10_SHADER_VARIABLE_DESC"
-            href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_shader_variable_desc
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_variable_desc
           - name: "D3D10_SIGNATURE_PARAMETER_DESC"
-            href: /windows/desktop/api/D3D10Shader/ns-d3d10shader-_d3d10_signature_parameter_desc
+            href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_signature_parameter_desc
         - name: "Shader Enumerations"
           href: d3d10-graphics-reference-d3d10-shader-enums.md
           items: 
@@ -937,9 +937,9 @@
           - name: "D3D10_PRIMITIVE"
             href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive
           - name: "D3D10_SHADER_DEBUG_REGTYPE"
-            href: /windows/desktop/api/D3D10_1Shader/ne-d3d10_1shader-_d3d10_shader_debug_regtype
+            href: /windows/win32/api/D3D10_1Shader/ne-d3d10_1shader-d3d10_shader_debug_regtype
           - name: "D3D10_SHADER_DEBUG_SCOPETYPE"
-            href: /windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_scopetype
+            href: /windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_scopetype
           - name: "D3D10_NAME"
             href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name
           - name: "D3D10_SHADER_CBUFFER_FLAGS"
@@ -1311,19 +1311,19 @@
           href: d3d10-graphics-reference-effect-structures.md
           items: 
           - name: "D3D10_EFFECT_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_desc
           - name: "D3D10_EFFECT_SHADER_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_shader_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_shader_desc
           - name: "D3D10_EFFECT_TYPE_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_type_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc
           - name: "D3D10_EFFECT_VARIABLE_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_variable_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_effect_variable_desc
           - name: "D3D10_PASS_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_pass_desc
           - name: "D3D10_PASS_SHADER_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_shader_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_pass_shader_desc
           - name: "D3D10_TECHNIQUE_DESC"
-            href: /windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_technique_desc
+            href: /windows/win32/api/d3d10effect/ns-d3d10effect-d3d10_technique_desc
         - name: "Effect Constants"
           href: d3d10-graphics-reference-effect-constants.md
           items: 

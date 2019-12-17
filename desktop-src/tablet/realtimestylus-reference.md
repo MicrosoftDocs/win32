@@ -20,7 +20,7 @@ Provides access to the stylus events coming from pen or touch digitizers.
 
 This object implements the [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) COM interface.
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method in C++.
 
 You can fully control, dynamically render, modify, and even delete data from the packet stream within the synchronous and asynchronous plug-ins of the [**RealTimeStylus Class**](realtimestylus-class.md) object.
 
@@ -39,10 +39,10 @@ The difference between the synchronous plug-ins and the asynchronous plug-ins li
 [**IDynamicRenderer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer)
 </dt> <dt>
 
-[**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx)
+[**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx)
 </dt> <dt>
 
-[**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx)
+[**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx)
 </dt> <dt>
 
 [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus)

@@ -55,7 +55,7 @@ By default, the [WM ASF Writer](wm-asf-writer-filter.md) creates temporally inde
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

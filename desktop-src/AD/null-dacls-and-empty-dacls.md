@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Null DACLs and Empty DACLs
+# Null DACLs and Empty DACLs (AD DS)
 
 The presence of a null discretionary access-control list (DACL) in the [**nTSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/ADSchema/a-ntsecuritydescriptor) attribute of any object can create a serious security risk. A null DACL grants full access to any user that requests it; normal security checking is not performed with respect to the object. A null DACL should not be confused with an empty DACL. An empty DACL is a properly allocated and initialized DACL containing no access-control entries (ACEs). An empty DACL grants no access to the object it is assigned to.
 

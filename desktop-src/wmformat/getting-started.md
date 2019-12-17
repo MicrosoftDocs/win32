@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting Started with Windows Media Format SDK
 description: Getting Started
 ms.assetid: 'e6f560a6-e677-47dc-b99c-e14bd60e4007'
 keywords:

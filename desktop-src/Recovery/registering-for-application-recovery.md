@@ -20,11 +20,11 @@ This section provides details on implementing a recovery feature in your applica
 
 ## Recovering when an application experiences an unhandled exception or stops responding
 
-To register a recovery callback, call the [**RegisterApplicationRecoveryCallback**](https://msdn.microsoft.com/en-us/library/Aa373345(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) calls your recovery callback before the application exits due to an unhandled exception or the application not responding.
+To register a recovery callback, call the [**RegisterApplicationRecoveryCallback**](https://msdn.microsoft.com/library/Aa373345(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) calls your recovery callback before the application exits due to an unhandled exception or the application not responding.
 
 You use the recovery callback to try to save data and state information before the application terminates. You could then use the saved data and state information when the application is restarted.
 
-During the recovery process, you must call the [**ApplicationRecoveryInProgress**](https://msdn.microsoft.com/en-us/library/Aa373329(v=VS.85).aspx) function within the specified ping interval; otherwise, the recovery process is terminated. Calling **ApplicationRecoveryInProgress** lets WER know that you are still actively recovering data. When the recovery process is complete, call the [**ApplicationRecoveryFinished**](https://msdn.microsoft.com/en-us/library/Aa373328(v=VS.85).aspx) function. Note that the **ApplicationRecoveryFinished** function should be the last call you make before exiting because the function immediately terminates the application.
+During the recovery process, you must call the [**ApplicationRecoveryInProgress**](https://msdn.microsoft.com/library/Aa373329(v=VS.85).aspx) function within the specified ping interval; otherwise, the recovery process is terminated. Calling **ApplicationRecoveryInProgress** lets WER know that you are still actively recovering data. When the recovery process is complete, call the [**ApplicationRecoveryFinished**](https://msdn.microsoft.com/library/Aa373328(v=VS.85).aspx) function. Note that the **ApplicationRecoveryFinished** function should be the last call you make before exiting because the function immediately terminates the application.
 
 You should consider periodically saving temporary copies of the data and state information during the normal course of the application process. Periodically saving the data may save time in the recovery process.
 

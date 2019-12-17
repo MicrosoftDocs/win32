@@ -33,8 +33,6 @@
         href: rendersharedeventdriven.md
       - name: "RenderSharedTimerDriven"
         href: rendersharedtimerdriven.md
-    - name: "For More Information"
-      href: for-more-information.md
   - name: "Programming Guide"
     href: programming-guide.md
     items: 
@@ -978,17 +976,17 @@
       - name: "AudioClientProperties"
         href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties
       - name: "AudioExtensionParams"
-        href: /windows/desktop/api/mmdeviceapi/ns-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0008_0001
+        href: /windows/win32/api/mmdeviceapi/ns-mmdeviceapi-audioextensionparams
       - name: "DIRECTX_AUDIO_ACTIVATION_PARAMS"
-        href: /windows/desktop/api/Mmdeviceapi/ns-mmdeviceapi-tagdirectx_audio_activation_params
+        href: /windows/win32/api/Mmdeviceapi/ns-mmdeviceapi-directx_audio_activation_params
       - name: "KSJACK_DESCRIPTION"
-        href: /windows/desktop/api/Devicetopology/ns-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0009
+        href: /windows/win32/api/Devicetopology/ns-devicetopology-ksjack_description
       - name: "KSJACK_DESCRIPTION2"
         href: /windows/desktop/api/Devicetopology/ns-devicetopology-_tagksjack_description2
       - name: "KSJACK_SINK_INFORMATION"
         href: /windows/desktop/api/Devicetopology/ns-devicetopology-_tagksjack_sink_information
       - name: "LUID"
-        href: /windows/desktop/api/Devicetopology/ns-devicetopology-_luid
+        href: /windows/win32/api/Devicetopology/ns-devicetopology-luid
       - name: "SpatialAudioClientActivationParams"
         href: /windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioclientactivationparams
       - name: "SpatialAudioHrtfActivationParams"
@@ -1020,29 +1018,29 @@
       - name: "_AUDCLNT_BUFFERFLAGS"
         href: /windows/desktop/api/Audioclient/ne-audioclient-_audclnt_bufferflags
       - name: "AUDCLNT_SHAREMODE"
-        href: /windows/desktop/api/Audiosessiontypes/ne-audiosessiontypes-_audclnt_sharemode
+        href: /windows/win32/api/Audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode
       - name: "AUDCLNT_STREAMOPTIONS"
         href: /windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions
       - name: "AUDIO_STREAM_CATEGORY"
-        href: /windows/desktop/api/audiosessiontypes/ne-audiosessiontypes-_audio_stream_category
+        href: /windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category
       - name: "AudioObjectType"
         href: /windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype
       - name: "AudioSessionState"
-        href: /windows/desktop/api/Audiosessiontypes/ne-audiosessiontypes-_audiosessionstate
+        href: /windows/win32/api/Audiosessiontypes/ne-audiosessiontypes-audiosessionstate
       - name: "ConnectorType"
-        href: /windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-connectortype
       - name: "DataFlow"
-        href: /windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0011
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-dataflow
       - name: "EDataFlow"
-        href: /windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001
+        href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-edataflow
       - name: "EndpointFormFactor"
-        href: /windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0003
+        href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-endpointformfactor
       - name: "ERole"
-        href: /windows/desktop/api/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002
+        href: /windows/win32/api/Mmdeviceapi/ne-mmdeviceapi-erole
       - name: "KSJACK_SINK_CONNECTIONTYPE"
-        href: /windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0010
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-ksjack_sink_connectiontype
       - name: "PartType"
-        href: /windows/desktop/api/Devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0012
+        href: /windows/win32/api/Devicetopology/ne-devicetopology-parttype
       - name: "SpatialAudioHrtfDirectivityType"
         href: /windows/desktop/api/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfdirectivitytype
       - name: "SpatialAudioHrtfEnvironmentType"

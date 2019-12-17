@@ -1,6 +1,6 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 68977073-ac40-4d4d-b6e1-4733d4a2c490
 ms.tgt_platform: multiple
 title: O (WMI)

@@ -1,5 +1,5 @@
 ---
-title: PLAYERAPPLICATION.hasDisplay
+title: PLAYERAPPLICATION.hasDisplay Attribute
 description: The hasDisplay attribute retrieves a value indicating whether video can display through the remoted Windows Media Player control.
 ms.assetid: c6a735a4-29ae-401c-9381-d8aad2c456eb
 keywords:

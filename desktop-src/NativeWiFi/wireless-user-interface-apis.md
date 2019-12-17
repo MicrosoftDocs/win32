@@ -16,9 +16,9 @@ On Windows 7, Windows Server 2008, and Windows Vista, there are a number of u
 
 ## Connect to a network
 
-On Windows 8, Windows Server 2012, Windows 7, Windows Server 2008, and Windows Vista, the **Connect to a network** wizard can be used to establish a connection to a wireless network. You can use the [**ShellExecute**](https://msdn.microsoft.com/en-us/library/Bb762153(v=VS.85).aspx) function to start the **Connect to a network** wizard.
+On Windows 8, Windows Server 2012, Windows 7, Windows Server 2008, and Windows Vista, the **Connect to a network** wizard can be used to establish a connection to a wireless network. You can use the [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) function to start the **Connect to a network** wizard.
 
-The following code shows a [**ShellExecute**](https://msdn.microsoft.com/en-us/library/Bb762153(v=VS.85).aspx) call that starts the **Connect to a network** wizard.
+The following code shows a [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) call that starts the **Connect to a network** wizard.
 
 
 ```C++
@@ -48,11 +48,11 @@ void wmain()
 
 ## **Manage Wireless Networks**
 
-On Windows 7, Windows Server 2008, and Windows Vista, the **Manage Wireless Networks** Control Panel item is used to manage wireless network profiles. The [**ShellExecute**](https://msdn.microsoft.com/en-us/library/Bb762153(v=VS.85).aspx) function can also be used to start the **Manage Wireless Networks** item. The path to use when calling **ShellExecute** on Windows 7 and Windows Vista is the following:
+On Windows 7, Windows Server 2008, and Windows Vista, the **Manage Wireless Networks** Control Panel item is used to manage wireless network profiles. The [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) function can also be used to start the **Manage Wireless Networks** item. The path to use when calling **ShellExecute** on Windows 7 and Windows Vista is the following:
 
 `shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\3\::{1fa9085f-25a2-489b-85d4-86326eedcd87}  `.
 
-The following sample code shows how to use [**ShellExecute**](https://msdn.microsoft.com/en-us/library/Bb762153(v=VS.85).aspx) to start the **Managed Wireless Networks** wizard from an application.
+The following sample code shows how to use [**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx) to start the **Managed Wireless Networks** wizard from an application.
 
 
 ```C++
@@ -128,7 +128,7 @@ Windows Vista and later include an advanced user interface that is used to view
 [Wireless Profile Samples](wireless-profile-samples.md)
 </dt> <dt>
 
-[**ShellExecute**](https://msdn.microsoft.com/en-us/library/Bb762153(v=VS.85).aspx)
+[**ShellExecute**](https://msdn.microsoft.com/library/Bb762153(v=VS.85).aspx)
 </dt> <dt>
 
 [**WlanUIEditProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanuieditprofile)

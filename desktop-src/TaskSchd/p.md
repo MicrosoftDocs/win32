@@ -1,7 +1,7 @@
 ---
 title: P (Task Scheduler)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '82a5a6cf-f7d9-41ab-ac80-5dea33616e89'
 ms.topic: article
 ms.date: 05/31/2018

@@ -14,7 +14,7 @@ The Intel Itanium and x64 processor architectures can access more than 4 GB of p
 
 With PAE, the operating system moves from two-level linear address translation to three-level address translation. Instead of a linear address being split into three separate fields for indexing into memory tables, it is split into four separate fields: a 2-bit bitfield, two 9-bit bitfields, and a 12-bit bitfield that corresponds to the page size implemented by Intel architecture (4 KB). The size of page table entries (PTEs) and page directory entries (PDEs) in PAE mode is increased from 32 to 64 bits. The additional bits allow an operating system PTE or PDE to reference physical memory above 4 GB.
 
-In 32-bit Windows running on x64-based systems, PAE also enables several advanced system and processor features, including hardware-enabled [Data Execution Prevention](data-execution-prevention.md) (DEP), [non-uniform memory access (NUMA)](https://msdn.microsoft.com/en-us/library/Aa363804(v=VS.85).aspx), and the ability to add memory to a system while it is running (hot-add memory).
+In 32-bit Windows running on x64-based systems, PAE also enables several advanced system and processor features, including hardware-enabled [Data Execution Prevention](data-execution-prevention.md) (DEP), [non-uniform memory access (NUMA)](https://msdn.microsoft.com/library/Aa363804(v=VS.85).aspx), and the ability to add memory to a system while it is running (hot-add memory).
 
 PAE does not change the amount of virtual address space available to a process. Each process running in 32-bit Windows is still limited to a 4 GB virtual address space.
 
@@ -63,7 +63,7 @@ AWE does not require PAE or 4GT but is often used together with PAE to allocate 
 
 <dl> <dt>
 
-[**IsProcessorFeaturePresent**](https://msdn.microsoft.com/en-us/library/ms724482(v=VS.85).aspx)
+[**IsProcessorFeaturePresent**](https://msdn.microsoft.com/library/ms724482(v=VS.85).aspx)
 </dt> <dt>
 
 [PAE X86 Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=93594)

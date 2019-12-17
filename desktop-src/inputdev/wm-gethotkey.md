@@ -64,7 +64,7 @@ The return value is the virtual-key code and modifiers for the hot key, or **NUL
 
 ## Remarks
 
-These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx) function.
+These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx) function.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](htt
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx)
+[**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SETHOTKEY**](wm-sethotkey.md)

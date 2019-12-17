@@ -847,9 +847,9 @@
         - name: "IPSEC_ID0"
           href: /windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_id0_
         - name: "IPSEC_KEY_MANAGER0"
-          href: /windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0
+          href: /windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0
         - name: "IPSEC_KEY_MANAGER_CALLBACKS0"
-          href: /windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0
+          href: /windows/win32/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0
         - name: "IPSEC_KEYING_POLICY0"
           href: /windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_keying_policy0_
         - name: "IPSEC_KEYING_POLICY1"

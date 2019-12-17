@@ -26,7 +26,7 @@ The `IAMFilterData` interface converts filter information to packed binary data,
 
 ## Members
 
-The **IAMFilterData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMFilterData** also has these types of members:
+The **IAMFilterData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMFilterData** also has these types of members:
 
 -   [Methods](#methods)
 

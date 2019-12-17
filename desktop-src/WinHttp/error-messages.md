@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Error Messages
 
-The error values listed below are returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](https://msdn.microsoft.com/en-us/library/ms690088(v=VS.85).aspx) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
+The error values listed below are returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](https://msdn.microsoft.com/library/ms690088(v=VS.85).aspx) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
 
 Error values whose names begin with "ERROR\_WINHTTP\_" are specific to the WinHTTP functions. The WinHTTP functions also return Windows error messages where appropriate.
 
@@ -556,7 +556,7 @@ Indicates that an error occurred having to do with a secure channel (equivalent 
 
 
 
-One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx).
+One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx).
 
 
 </dt> </dl> </dd> <dt>

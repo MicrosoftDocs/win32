@@ -15,7 +15,7 @@ api_location:
 
 # BoundingOrientedBox constructors
 
-Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).
+Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).
 
 ### Overload list
 
@@ -23,9 +23,9 @@ Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/en-u
 
 | Constructor                                                                                                 | Description                                                                           |
 |:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
-| [**BoundingOrientedBox ()**](https://msdn.microsoft.com/en-us/library/Hh855902(v=VS.85).aspx)                                                | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox (const BoundingOrientedBox&)**](https://msdn.microsoft.com/en-us/library/Hh855904(v=VS.85).aspx)                      | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**](https://msdn.microsoft.com/en-us/library/Hh855898(v=VS.85).aspx) | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox ()**](https://msdn.microsoft.com/library/Hh855902(v=VS.85).aspx)                                                | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox (const BoundingOrientedBox&)**](https://msdn.microsoft.com/library/Hh855904(v=VS.85).aspx)                      | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**](https://msdn.microsoft.com/library/Hh855898(v=VS.85).aspx) | Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -36,7 +36,7 @@ Creates an instance of [**BoundingOrientedBox**](https://msdn.microsoft.com/en-u
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
 </dt> </dl>
 
  

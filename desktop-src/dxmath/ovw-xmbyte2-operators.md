@@ -2,7 +2,7 @@
 Description: The XMBYTE2 structure exposes the following operators.
 ms.assetid: 402876b9-731e-4c30-b48f-bca67ed6dad1
 title: XMBYTE2 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ The [**XMBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvecto
 
 | Methods                                              | Description                                                                                                       |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Hh437846(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMBYTE2` to the current instance of `XMBYTE2`.<br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Hh437846(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMBYTE2` to the current instance of `XMBYTE2`.<br/> |
 
 
 

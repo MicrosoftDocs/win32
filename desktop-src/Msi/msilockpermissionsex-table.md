@@ -58,7 +58,7 @@ This column and the LockObject column specify the file, directory, registry key,
 <span id="SDDLText"></span><span id="sddltext"></span><span id="SDDLTEXT"></span>SDDLText
 </dt> <dd>
 
-Enter the SDDL string to indicate permissions to apply to selected object. The SDDL must be provided in [Security Descriptor String Format](https://msdn.microsoft.com/en-us/library/Aa379570(v=VS.85).aspx).
+Enter the SDDL string to indicate permissions to apply to selected object. The SDDL must be provided in [Security Descriptor String Format](https://msdn.microsoft.com/library/Aa379570(v=VS.85).aspx).
 
 This does not support private or public properties.
 

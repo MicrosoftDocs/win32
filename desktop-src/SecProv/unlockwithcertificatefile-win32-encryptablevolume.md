@@ -17,7 +17,7 @@ api_location:
 
 # UnlockWithCertificateFile method of the Win32\_EncryptableVolume class
 
-The **UnlockWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class uses the provided [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) file to obtain the derived key and unlock the encrypted volume.
+The **UnlockWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class uses the provided [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) file to obtain the derived key and unlock the encrypted volume.
 
 > [!Note]  
 > If the disc supports hardware encryption this function sets the band status to "unlocked""
@@ -45,7 +45,7 @@ uint32 UnlockWithCertificateFile(
 
 Type: **string**
 
-A string that specifies the location and name of the .cer file used to retrieve the certificate thumbprint. An [*encryption*](https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx) certificate must be exported in .cer format ([*Distinguished Encoding Rules*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) (DER)-encoded binary [*X.509*](https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
+A string that specifies the location and name of the .cer file used to retrieve the certificate thumbprint. An [*encryption*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) certificate must be exported in .cer format ([*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) (DER)-encoded binary [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
 
 </dd> <dt>
 
@@ -54,7 +54,7 @@ A string that specifies the location and name of the .cer file used to retrieve 
 
 Type: **string**
 
-A user-specified personal identification string. This string must consist of a sequence of 4 to 20 digits. This string is used to silently authenticate the [*key storage provider*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) (KSP) when used with a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+A user-specified personal identification string. This string must consist of a sequence of 4 to 20 digits. This string is used to silently authenticate the [*key storage provider*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) (KSP) when used with a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ This method returns one of the following codes or another error code if it fails
 | <dl> <dt>**FVE\_E\_NOT\_ACTIVATED**</dt> <dt>2150694920 (0x80310008)</dt> </dl>           | BitLocker is not enabled on the volume. Add a key protector to enable BitLocker. <br/>                                                                                                                                                                             |
 | <dl> <dt>**FVE\_E\_FAILED\_AUTHENTICATION**</dt> <dt>2150694951 (0x80310027)</dt> </dl>   | The volume cannot be unlocked with the provided information. <br/>                                                                                                                                                                                                 |
 | <dl> <dt>**FVE\_E\_PROTECTOR\_NOT\_FOUND**</dt> <dt>2150694963 (0x80310033)</dt> </dl>    | The provided key protector does not exist on the volume. You must enter another key protector.<br/>                                                                                                                                                                |
-| <dl> <dt>**FVE\_E\_PRIVATEKEY\_AUTH\_FAILED**</dt> <dt>2150695060 (0x80310094)</dt> </dl> | The [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx), associated with the specified certificate, could not be authorized. The private key authorization was either not provided or the provided authorization was invalid.<br/> |
+| <dl> <dt>**FVE\_E\_PRIVATEKEY\_AUTH\_FAILED**</dt> <dt>2150695060 (0x80310094)</dt> </dl> | The [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx), associated with the specified certificate, could not be authorized. The private key authorization was either not provided or the provided authorization was invalid.<br/> |
 
 
 

@@ -107,7 +107,7 @@ Example values:
 [queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
 </dt> <dt>
 
-[Programmatic Identifiers](https://msdn.microsoft.com/en-us/library/Cc144152(v=VS.85).aspx)
+[Programmatic Identifiers](https://msdn.microsoft.com/library/Cc144152(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -49,9 +49,9 @@ Currently unused. Should be set to zero.
 *pSource* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
 
-Specifies a pointer to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) data.
+Specifies a pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) data.
 
 </dd> <dt>
 

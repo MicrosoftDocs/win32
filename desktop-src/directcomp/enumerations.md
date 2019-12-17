@@ -1,12 +1,12 @@
 ---
-title: Enumerations
+title: DirectComposition enumerations
 description: This section describes the enumerations provided by the Microsoft DirectComposition \ 32;API.
 ms.assetid: 9E415188-6B50-40D7-A208-D1E3708CAC9A
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# DirectComposition enumerations
 
 This section describes the enumerations provided by the Microsoft DirectComposition API.
 
@@ -21,7 +21,7 @@ This section describes the enumerations provided by the Microsoft DirectComposit
 | [**DCOMPOSITION\_BORDER\_MODE**](/windows/desktop/api/DcompTypes/ne-dcomptypes-dcomposition_border_mode)<br/>                              | Specifies the border mode to use when composing a bitmap or applying a clip with any transform such that the edges of the bitmap or clip are not axis-aligned with integer coordinates. <br/> |
 | [**DCOMPOSITION\_COMPOSITE\_MODE**](/windows/desktop/api/DcompTypes/ne-dcomptypes-dcomposition_composite_mode)<br/>                        | The mode to use to blend the bitmap content of a visual with the render target.<br/>                                                                                                          |
 | [**DCOMPOSITION\_OPACITY\_MODE**](/windows/desktop/api/dcomptypes/ne-dcomptypes-dcomposition_opacity_mode)<br/>                            | Specifies how the effective opacity value of a visual is applied to that visual s content and children.<br/>                                                                                  |
-| [**DCOMPOSITION\_TRANSFORM\_MODE**](https://msdn.microsoft.com/en-us/library/Dn904487(v=VS.85).aspx)<br/>                        | Specifies the transform style to be applied to a visual. <br/>                                                                                                                                |
+| [**DCOMPOSITION\_TRANSFORM\_MODE**](https://msdn.microsoft.com/library/Dn904487(v=VS.85).aspx)<br/>                        | Specifies the transform style to be applied to a visual. <br/>                                                                                                                                |
 
 
 

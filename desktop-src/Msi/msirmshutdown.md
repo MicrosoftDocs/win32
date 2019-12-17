@@ -17,7 +17,7 @@ The **MSIRMSHUTDOWN** property determines how applications or services that are 
 | Value                                                                        | Meaning                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>0</dt> </dl> | Processes or services that are currently using files affected by the update are shut down.<br/>                                                                                                                                                                   |
-| <dl> <dt>1</dt> </dl> | Processes or services that are currently using files affected by the update, and that do not respond to the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx), are forced to shut down.<br/>                                                                                       |
+| <dl> <dt>1</dt> </dl> | Processes or services that are currently using files affected by the update, and that do not respond to the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx), are forced to shut down.<br/>                                                                                       |
 | <dl> <dt>2</dt> </dl> | Processes or services that are currently using files affected by the update are shut down only if they have all been registered for a restart. If any process or service has not been registered for a restart, then no processes or services are shut down.<br/> |
 
 
@@ -26,7 +26,7 @@ The **MSIRMSHUTDOWN** property determines how applications or services that are 
 
 ## Remarks
 
-The **MSIRMSHUTDOWN** property is ignored if the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) is unavailable or disabled.
+The **MSIRMSHUTDOWN** property is ignored if the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) is unavailable or disabled.
 
 ## Requirements
 

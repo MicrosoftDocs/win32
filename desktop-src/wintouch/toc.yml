@@ -260,11 +260,11 @@
         href: mtstructures.md
         items: 
         - name: "GESTURECONFIG"
-          href: /windows/desktop/api/winuser/ns-winuser-taggestureconfig
+          href: /windows/win32/api/winuser/ns-winuser-gestureconfig
         - name: "GESTUREINFO"
-          href: /windows/desktop/api/winuser/ns-winuser-taggestureinfo
+          href: /windows/win32/api/winuser/ns-winuser-gestureinfo
         - name: "GESTURENOTIFYSTRUCT"
-          href: /windows/desktop/api/winuser/ns-winuser-taggesturenotifystruct
+          href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
     - name: "Windows Touch Input"
       href: multi-touch-input.md
       items: 
@@ -297,6 +297,6 @@
         href: structures.md
         items: 
         - name: "TOUCHINPUT"
-          href: /windows/desktop/api/winuser/ns-winuser-tagtouchinput
+          href: /windows/win32/api/winuser/ns-winuser-touchinput
   - name: "Windows Touch Glossary"
     href: glossary.md

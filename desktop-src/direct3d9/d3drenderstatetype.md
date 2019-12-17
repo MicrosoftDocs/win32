@@ -140,7 +140,7 @@ typedef enum D3DRENDERSTATETYPE {
 <span id="D3DRS_ZENABLE"></span><span id="d3drs_zenable"></span>**D3DRS\_ZENABLE**
 </dt> <dd>
 
-Depth-buffering state as one member of the [**D3DZBUFFERTYPE**](https://msdn.microsoft.com/en-us/library/Bb205568(v=VS.85).aspx) enumerated type. Set this state to D3DZB\_TRUE to enable z-buffering, D3DZB\_USEW to enable w-buffering, or D3DZB\_FALSE to disable depth buffering.
+Depth-buffering state as one member of the [**D3DZBUFFERTYPE**](https://msdn.microsoft.com/library/Bb205568(v=VS.85).aspx) enumerated type. Set this state to D3DZB\_TRUE to enable z-buffering, D3DZB\_USEW to enable w-buffering, or D3DZB\_FALSE to disable depth buffering.
 
 The default value for this render state is D3DZB\_TRUE if a depth stencil was created along with the swap chain by setting the EnableAutoDepthStencil member of the [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure to **TRUE**, and D3DZB\_FALSE otherwise.
 
@@ -149,14 +149,14 @@ The default value for this render state is D3DZB\_TRUE if a depth stencil was cr
 <span id="D3DRS_FILLMODE"></span><span id="d3drs_fillmode"></span>**D3DRS\_FILLMODE**
 </dt> <dd>
 
-One or more members of the [**D3DFILLMODE**](https://msdn.microsoft.com/en-us/library/Bb172556(v=VS.85).aspx) enumerated type. The default value is D3DFILL\_SOLID.
+One or more members of the [**D3DFILLMODE**](https://msdn.microsoft.com/library/Bb172556(v=VS.85).aspx) enumerated type. The default value is D3DFILL\_SOLID.
 
 </dd> <dt>
 
 <span id="D3DRS_SHADEMODE"></span><span id="d3drs_shademode"></span>**D3DRS\_SHADEMODE**
 </dt> <dd>
 
-One or more members of the [**D3DSHADEMODE**](https://msdn.microsoft.com/en-us/library/Bb172605(v=VS.85).aspx) enumerated type. The default value is D3DSHADE\_GOURAUD.
+One or more members of the [**D3DSHADEMODE**](https://msdn.microsoft.com/library/Bb172605(v=VS.85).aspx) enumerated type. The default value is D3DSHADE\_GOURAUD.
 
 </dd> <dt>
 
@@ -188,28 +188,28 @@ The default value is **TRUE**, which enables drawing of the last pixel in a line
 <span id="D3DRS_SRCBLEND"></span><span id="d3drs_srcblend"></span>**D3DRS\_SRCBLEND**
 </dt> <dd>
 
-One member of the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) enumerated type. The default value is D3DBLEND\_ONE.
+One member of the [**D3DBLEND**](https://msdn.microsoft.com/library/Bb172508(v=VS.85).aspx) enumerated type. The default value is D3DBLEND\_ONE.
 
 </dd> <dt>
 
 <span id="D3DRS_DESTBLEND"></span><span id="d3drs_destblend"></span>**D3DRS\_DESTBLEND**
 </dt> <dd>
 
-One member of the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) enumerated type. The default value is D3DBLEND\_ZERO.
+One member of the [**D3DBLEND**](https://msdn.microsoft.com/library/Bb172508(v=VS.85).aspx) enumerated type. The default value is D3DBLEND\_ZERO.
 
 </dd> <dt>
 
 <span id="D3DRS_CULLMODE"></span><span id="d3drs_cullmode"></span>**D3DRS\_CULLMODE**
 </dt> <dd>
 
-Specifies how back-facing triangles are culled, if at all. This can be set to one member of the [**D3DCULL**](https://msdn.microsoft.com/en-us/library/Bb172529(v=VS.85).aspx) enumerated type. The default value is D3DCULL\_CCW.
+Specifies how back-facing triangles are culled, if at all. This can be set to one member of the [**D3DCULL**](https://msdn.microsoft.com/library/Bb172529(v=VS.85).aspx) enumerated type. The default value is D3DCULL\_CCW.
 
 </dd> <dt>
 
 <span id="D3DRS_ZFUNC"></span><span id="d3drs_zfunc"></span>**D3DRS\_ZFUNC**
 </dt> <dd>
 
-One member of the [**D3DCMPFUNC**](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_LESSEQUAL. This member enables an application to accept or reject a pixel, based on its distance from the camera.
+One member of the [**D3DCMPFUNC**](https://msdn.microsoft.com/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_LESSEQUAL. This member enables an application to accept or reject a pixel, based on its distance from the camera.
 
 The depth value of the pixel is compared with the depth-buffer value. If the depth value of the pixel passes the comparison function, the pixel is written.
 
@@ -229,7 +229,7 @@ Value that specifies a reference alpha value against which pixels are tested whe
 <span id="D3DRS_ALPHAFUNC"></span><span id="d3drs_alphafunc"></span>**D3DRS\_ALPHAFUNC**
 </dt> <dd>
 
-One member of the [**D3DCMPFUNC**](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_ALWAYS. This member enables an application to accept or reject a pixel, based on its alpha value.
+One member of the [**D3DCMPFUNC**](https://msdn.microsoft.com/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_ALWAYS. This member enables an application to accept or reject a pixel, based on its alpha value.
 
 </dd> <dt>
 
@@ -277,7 +277,7 @@ Value whose type is [**D3DCOLOR**](d3dcolor.md). The default value is 0. For mor
 <span id="D3DRS_FOGTABLEMODE"></span><span id="d3drs_fogtablemode"></span>**D3DRS\_FOGTABLEMODE**
 </dt> <dd>
 
-The fog formula to be used for pixel fog. Set to one of the members of the [**D3DFOGMODE**](https://msdn.microsoft.com/en-us/library/Bb172557(v=VS.85).aspx) enumerated type. The default value is D3DFOG\_NONE. For more information about pixel fog, see [Pixel Fog (Direct3D 9)](pixel-fog.md).
+The fog formula to be used for pixel fog. Set to one of the members of the [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type. The default value is D3DFOG\_NONE. For more information about pixel fog, see [Pixel Fog (Direct3D 9)](pixel-fog.md).
 
 </dd> <dt>
 
@@ -353,28 +353,28 @@ For more information, see [Vertex Fog (Direct3D 9)](vertex-fog.md).
 <span id="D3DRS_STENCILFAIL"></span><span id="d3drs_stencilfail"></span>**D3DRS\_STENCILFAIL**
 </dt> <dd>
 
-Stencil operation to perform if the stencil test fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/en-us/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
+Stencil operation to perform if the stencil test fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
 
 </dd> <dt>
 
 <span id="D3DRS_STENCILZFAIL"></span><span id="d3drs_stencilzfail"></span>**D3DRS\_STENCILZFAIL**
 </dt> <dd>
 
-Stencil operation to perform if the stencil test passes and the depth test (z-test) fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/en-us/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
+Stencil operation to perform if the stencil test passes and the depth test (z-test) fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
 
 </dd> <dt>
 
 <span id="D3DRS_STENCILPASS"></span><span id="d3drs_stencilpass"></span>**D3DRS\_STENCILPASS**
 </dt> <dd>
 
-Stencil operation to perform if both the stencil and the depth (z) tests pass. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/en-us/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
+Stencil operation to perform if both the stencil and the depth (z) tests pass. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
 
 </dd> <dt>
 
 <span id="D3DRS_STENCILFUNC"></span><span id="d3drs_stencilfunc"></span>**D3DRS\_STENCILFUNC**
 </dt> <dd>
 
-Comparison function for the stencil test. Values are from the [**D3DCMPFUNC**](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_ALWAYS.
+Comparison function for the stencil test. Values are from the [**D3DCMPFUNC**](https://msdn.microsoft.com/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_ALWAYS.
 
 The comparison function is used to compare the reference value to a stencil buffer entry. This comparison applies only to the bits in the reference value and stencil buffer entry that are set in the stencil mask (set by the D3DRS\_STENCILMASK render state). If **TRUE**, the stencil test passes.
 
@@ -488,7 +488,7 @@ Ambient light color. This value is of type [**D3DCOLOR**](d3dcolor.md). The defa
 <span id="D3DRS_FOGVERTEXMODE"></span><span id="d3drs_fogvertexmode"></span>**D3DRS\_FOGVERTEXMODE**
 </dt> <dd>
 
-Fog formula to be used for vertex fog. Set to one member of the [**D3DFOGMODE**](https://msdn.microsoft.com/en-us/library/Bb172557(v=VS.85).aspx) enumerated type. The default value is D3DFOG\_NONE.
+Fog formula to be used for vertex fog. Set to one member of the [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type. The default value is D3DFOG\_NONE.
 
 </dd> <dt>
 
@@ -523,35 +523,35 @@ For more information, see the following render states:
 <span id="D3DRS_DIFFUSEMATERIALSOURCE"></span><span id="d3drs_diffusematerialsource"></span>**D3DRS\_DIFFUSEMATERIALSOURCE**
 </dt> <dd>
 
-Diffuse color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/en-us/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_COLOR1. The value for this render state is used only if the D3DRS\_COLORVERTEX render state is set to **TRUE**.
+Diffuse color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_COLOR1. The value for this render state is used only if the D3DRS\_COLORVERTEX render state is set to **TRUE**.
 
 </dd> <dt>
 
 <span id="D3DRS_SPECULARMATERIALSOURCE"></span><span id="d3drs_specularmaterialsource"></span>**D3DRS\_SPECULARMATERIALSOURCE**
 </dt> <dd>
 
-Specular color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/en-us/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_COLOR2.
+Specular color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_COLOR2.
 
 </dd> <dt>
 
 <span id="D3DRS_AMBIENTMATERIALSOURCE"></span><span id="d3drs_ambientmaterialsource"></span>**D3DRS\_AMBIENTMATERIALSOURCE**
 </dt> <dd>
 
-Ambient color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/en-us/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_MATERIAL.
+Ambient color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_MATERIAL.
 
 </dd> <dt>
 
 <span id="D3DRS_EMISSIVEMATERIALSOURCE"></span><span id="d3drs_emissivematerialsource"></span>**D3DRS\_EMISSIVEMATERIALSOURCE**
 </dt> <dd>
 
-Emissive color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/en-us/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_MATERIAL.
+Emissive color source for lighting calculations. Valid values are members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/library/Bb172572(v=VS.85).aspx) enumerated type. The default value is D3DMCS\_MATERIAL.
 
 </dd> <dt>
 
 <span id="D3DRS_VERTEXBLEND"></span><span id="d3drs_vertexblend"></span>**D3DRS\_VERTEXBLEND**
 </dt> <dd>
 
-Number of matrices to use to perform geometry blending, if any. Valid values are members of the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. The default value is D3DVBF\_DISABLE.
+Number of matrices to use to perform geometry blending, if any. Valid values are members of the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/library/Bb172628(v=VS.85).aspx) enumerated type. The default value is D3DVBF\_DISABLE.
 
 </dd> <dt>
 
@@ -669,14 +669,14 @@ If there are n multisamples and k enabled samples, the resulting intensity of th
 <span id="D3DRS_PATCHEDGESTYLE"></span><span id="d3drs_patchedgestyle"></span>**D3DRS\_PATCHEDGESTYLE**
 </dt> <dd>
 
-Sets whether patch edges will use float style tessellation. Possible values are defined by the [**D3DPATCHEDGESTYLE**](https://msdn.microsoft.com/en-us/library/Bb172575(v=VS.85).aspx) enumerated type. The default value is D3DPATCHEDGE\_DISCRETE.
+Sets whether patch edges will use float style tessellation. Possible values are defined by the [**D3DPATCHEDGESTYLE**](https://msdn.microsoft.com/library/Bb172575(v=VS.85).aspx) enumerated type. The default value is D3DPATCHEDGE\_DISCRETE.
 
 </dd> <dt>
 
 <span id="D3DRS_DEBUGMONITORTOKEN"></span><span id="d3drs_debugmonitortoken"></span>**D3DRS\_DEBUGMONITORTOKEN**
 </dt> <dd>
 
-Set only for debugging the monitor. Possible values are defined by the [**D3DDEBUGMONITORTOKENS**](https://msdn.microsoft.com/en-us/library/Bb172531(v=VS.85).aspx) enumerated type. Note that if D3DRS\_DEBUGMONITORTOKEN is set, the call is treated as passing a token to the debug monitor. For example, if - after passing D3DDMT\_ENABLE or D3DDMT\_DISABLE to D3DRS\_DEBUGMONITORTOKEN - other token values are passed in, the state (enabled or disabled) of the debug monitor will still persist.
+Set only for debugging the monitor. Possible values are defined by the [**D3DDEBUGMONITORTOKENS**](https://msdn.microsoft.com/library/Bb172531(v=VS.85).aspx) enumerated type. Note that if D3DRS\_DEBUGMONITORTOKEN is set, the call is treated as passing a token to the debug monitor. For example, if - after passing D3DDMT\_ENABLE or D3DDMT\_DISABLE to D3DRS\_DEBUGMONITORTOKEN - other token values are passed in, the state (enabled or disabled) of the debug monitor will still persist.
 
 This state is only useful for debug builds. The debug monitor defaults to D3DDMT\_ENABLE.
 
@@ -729,7 +729,7 @@ m_pDevice9->SetRenderState(D3DRS_TWEENFACTOR, *((DWORD*)&TweenFactor));
 <span id="D3DRS_BLENDOP"></span><span id="d3drs_blendop"></span>**D3DRS\_BLENDOP**
 </dt> <dd>
 
-Value used to select the arithmetic operation applied when the alpha blending render state, D3DRS\_ALPHABLENDENABLE, is set to **TRUE**. Valid values are defined by the [**D3DBLENDOP**](https://msdn.microsoft.com/en-us/library/Bb172509(v=VS.85).aspx) enumerated type. The default value is D3DBLENDOP\_ADD.
+Value used to select the arithmetic operation applied when the alpha blending render state, D3DRS\_ALPHABLENDENABLE, is set to **TRUE**. Valid values are defined by the [**D3DBLENDOP**](https://msdn.microsoft.com/library/Bb172509(v=VS.85).aspx) enumerated type. The default value is D3DBLENDOP\_ADD.
 
 If the D3DPMISCCAPS\_BLENDOP device capability is not supported, then D3DBLENDOP\_ADD is performed.
 
@@ -738,14 +738,14 @@ If the D3DPMISCCAPS\_BLENDOP device capability is not supported, then D3DBLENDOP
 <span id="D3DRS_POSITIONDEGREE"></span><span id="d3drs_positiondegree"></span>**D3DRS\_POSITIONDEGREE**
 </dt> <dd>
 
-N-patch position interpolation degree. The values can be D3DDEGREE\_CUBIC (default) or D3DDEGREE\_LINEAR. For more information, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx).
+N-patch position interpolation degree. The values can be D3DDEGREE\_CUBIC (default) or D3DDEGREE\_LINEAR. For more information, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx).
 
 </dd> <dt>
 
 <span id="D3DRS_NORMALDEGREE"></span><span id="d3drs_normaldegree"></span>**D3DRS\_NORMALDEGREE**
 </dt> <dd>
 
-N-patch normal interpolation degree. The values can be D3DDEGREE\_LINEAR (default) or D3DDEGREE\_QUADRATIC. For more information, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx).
+N-patch normal interpolation degree. The values can be D3DDEGREE\_LINEAR (default) or D3DDEGREE\_QUADRATIC. For more information, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -837,28 +837,28 @@ To see if two-sided stencil is supported, check the StencilCaps member of [**D3D
 <span id="D3DRS_CCW_STENCILFAIL"></span><span id="d3drs_ccw_stencilfail"></span>**D3DRS\_CCW\_STENCILFAIL**
 </dt> <dd>
 
-Stencil operation to perform if CCW stencil test fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/en-us/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
+Stencil operation to perform if CCW stencil test fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
 
 </dd> <dt>
 
 <span id="D3DRS_CCW_STENCILZFAIL"></span><span id="d3drs_ccw_stencilzfail"></span>**D3DRS\_CCW\_STENCILZFAIL**
 </dt> <dd>
 
-Stencil operation to perform if CCW stencil test passes and z-test fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/en-us/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
+Stencil operation to perform if CCW stencil test passes and z-test fails. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
 
 </dd> <dt>
 
 <span id="D3DRS_CCW_STENCILPASS"></span><span id="d3drs_ccw_stencilpass"></span>**D3DRS\_CCW\_STENCILPASS**
 </dt> <dd>
 
-Stencil operation to perform if both CCW stencil and z-tests pass. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/en-us/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
+Stencil operation to perform if both CCW stencil and z-tests pass. Values are from the [**D3DSTENCILOP**](https://msdn.microsoft.com/library/Bb172610(v=VS.85).aspx) enumerated type. The default value is D3DSTENCILOP\_KEEP.
 
 </dd> <dt>
 
 <span id="D3DRS_CCW_STENCILFUNC"></span><span id="d3drs_ccw_stencilfunc"></span>**D3DRS\_CCW\_STENCILFUNC**
 </dt> <dd>
 
-The comparison function. CCW stencil test passes if ((ref & mask) stencil function (stencil & mask)) is **TRUE**. Values are from the [**D3DCMPFUNC**](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_ALWAYS.
+The comparison function. CCW stencil test passes if ((ref & mask) stencil function (stencil & mask)) is **TRUE**. Values are from the [**D3DCMPFUNC**](https://msdn.microsoft.com/library/Bb172517(v=VS.85).aspx) enumerated type. The default value is D3DCMP\_ALWAYS.
 
 </dd> <dt>
 
@@ -886,7 +886,7 @@ Additional ColorWriteEnable values for the devices. See D3DRS\_COLORWRITEENABLE.
 <span id="D3DRS_BLENDFACTOR"></span><span id="d3drs_blendfactor"></span>**D3DRS\_BLENDFACTOR**
 </dt> <dd>
 
-[**D3DCOLOR**](d3dcolor.md) used for a constant blend-factor during alpha blending. This functionality is available if the D3DPBLENDCAPS\_BLENDFACTOR capabilities bit is set in the SrcBlendCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) or the DestBlendCaps member of **D3DCAPS9**. See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx). The default value is 0xffffffff.
+[**D3DCOLOR**](d3dcolor.md) used for a constant blend-factor during alpha blending. This functionality is available if the D3DPBLENDCAPS\_BLENDFACTOR capabilities bit is set in the SrcBlendCaps member of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) or the DestBlendCaps member of **D3DCAPS9**. See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx). The default value is 0xffffffff.
 
 </dd> <dt>
 
@@ -974,14 +974,14 @@ The type of separate alpha blending is determined by the D3DRS\_SRCBLENDALPHA an
 <span id="D3DRS_SRCBLENDALPHA"></span><span id="d3drs_srcblendalpha"></span>**D3DRS\_SRCBLENDALPHA**
 </dt> <dd>
 
-One member of the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) enumerated type. This value is ignored unless D3DRS\_SEPARATEALPHABLENDENABLE is **TRUE**. The default value is D3DBLEND\_ONE.
+One member of the [**D3DBLEND**](https://msdn.microsoft.com/library/Bb172508(v=VS.85).aspx) enumerated type. This value is ignored unless D3DRS\_SEPARATEALPHABLENDENABLE is **TRUE**. The default value is D3DBLEND\_ONE.
 
 </dd> <dt>
 
 <span id="D3DRS_DESTBLENDALPHA"></span><span id="d3drs_destblendalpha"></span>**D3DRS\_DESTBLENDALPHA**
 </dt> <dd>
 
-One member of the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb172508(v=VS.85).aspx) enumerated type. This value is ignored unless D3DRS\_SEPARATEALPHABLENDENABLE is **TRUE**. The default value is D3DBLEND\_ZERO.
+One member of the [**D3DBLEND**](https://msdn.microsoft.com/library/Bb172508(v=VS.85).aspx) enumerated type. This value is ignored unless D3DRS\_SEPARATEALPHABLENDENABLE is **TRUE**. The default value is D3DBLEND\_ZERO.
 
 </dd> <dt>
 
@@ -990,7 +990,7 @@ One member of the [**D3DBLEND**](https://msdn.microsoft.com/en-us/library/Bb1725
 
 Value used to select the arithmetic operation applied to separate alpha blending when the render state, D3DRS\_SEPARATEALPHABLENDENABLE, is set to **TRUE**.
 
-Valid values are defined by the [**D3DBLENDOP**](https://msdn.microsoft.com/en-us/library/Bb172509(v=VS.85).aspx) enumerated type. The default value is D3DBLENDOP\_ADD.
+Valid values are defined by the [**D3DBLENDOP**](https://msdn.microsoft.com/library/Bb172509(v=VS.85).aspx) enumerated type. The default value is D3DBLENDOP\_ADD.
 
 If the D3DPMISCCAPS\_BLENDOP device capability is not supported, then D3DBLENDOP\_ADD is performed. See [D3DPMISCCAPS](d3dpmisccaps.md).
 

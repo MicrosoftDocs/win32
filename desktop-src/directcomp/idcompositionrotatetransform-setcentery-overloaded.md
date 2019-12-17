@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a 2D rotation transform
 
 | Method                                                                                                         | Description                                            |
 |:---------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/en-us/library/Hh448984(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448986(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh448984(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448986(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterY property of a 2D rotation transform
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
 </dt> </dl>
 
 �

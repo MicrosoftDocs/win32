@@ -24,18 +24,18 @@ Paints the interior of the specified rectangle.
 
 | Method                                                                                                               | Description                                                 |
 |:---------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**FillRectangle(D2D1\_RECT\_F&,ID2D1Brush\*)**](https://msdn.microsoft.com/en-us/library/Dd371954(v=VS.85).aspx)  | Paints the interior of the specified rectangle. <br/> |
-| [**FillRectangle(D2D1\_RECT\_F\*,ID2D1Brush\*)**](https://msdn.microsoft.com/en-us/library/Dd371950(v=VS.85).aspx) | Paints the interior of the specified rectangle. <br/> |
+| [**FillRectangle(D2D1\_RECT\_F&,ID2D1Brush\*)**](https://msdn.microsoft.com/library/Dd371954(v=VS.85).aspx)  | Paints the interior of the specified rectangle. <br/> |
+| [**FillRectangle(D2D1\_RECT\_F\*,ID2D1Brush\*)**](https://msdn.microsoft.com/library/Dd371950(v=VS.85).aspx) | Paints the interior of the specified rectangle. <br/> |
 
 
 
 ## Remarks
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **FillRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) methods.
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **FillRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) methods.
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx) to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx) to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 
@@ -139,7 +139,7 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> <dt>
 
 [Creating a Simple Direct2D Application](direct2d-quickstart.md)

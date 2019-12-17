@@ -104,25 +104,25 @@
       href: event-tracing-enumerations.md
       items: 
       - name: "DECODING_SOURCE"
-        href: /windows/desktop/api/Tdh/ne-tdh-_decoding_source
+        href: /windows/win32/api/Tdh/ne-tdh-decoding_source
       - name: "ETW_PROCESS_HANDLE_INFO_TYPE"
         href: etw-process-handle-info-type.md
       - name: "EVENT_FIELD_TYPE"
-        href: /windows/desktop/api/Tdh/ne-tdh-_event_field_type
+        href: /windows/win32/api/Tdh/ne-tdh-event_field_type
       - name: "EVENT_INFO_CLASS"
-        href: /windows/desktop/api/Evntprov/ne-evntprov-_event_info_class
+        href: /windows/win32/api/Evntprov/ne-evntprov-event_info_class
       - name: "EVENTSECURITYOPERATION"
         href: /windows/desktop/api/Evntcons/ne-evntcons-eventsecurityoperation
       - name: "MAP_FLAGS"
-        href: /windows/desktop/api/Tdh/ne-tdh-_map_flags
+        href: /windows/win32/api/Tdh/ne-tdh-map_flags
       - name: "MAP_VALUETYPE"
-        href: /windows/desktop/api/Tdh/ne-tdh-_map_valuetype
+        href: /windows/win32/api/Tdh/ne-tdh-map_valuetype
       - name: "PROPERTY_FLAGS"
-        href: /windows/desktop/api/Tdh/ne-tdh-_property_flags
+        href: /windows/win32/api/Tdh/ne-tdh-property_flags
       - name: "TDH_CONTEXT_TYPE"
-        href: /windows/desktop/api/Tdh/ne-tdh-_tdh_context_type
+        href: /windows/win32/api/Tdh/ne-tdh-tdh_context_type
       - name: "TEMPLATE_FLAGS"
-        href: /windows/desktop/api/Tdh/ne-tdh-_template_flags
+        href: /windows/win32/api/Tdh/ne-tdh-template_flags
       - name: "TRACE_INFO_CLASS"
         href: trace-info-class.md
     - name: "Event Tracing Functions"
@@ -697,31 +697,31 @@
       - name: "ENABLE_TRACE_PARAMETERS_V1"
         href: enable-trace-parameters-v1.md
       - name: "ETW_BUFFER_CONTEXT"
-        href: /windows/desktop/api/relogger/ns-relogger-_etw_buffer_context
+        href: /windows/win32/api/relogger/ns-relogger-etw_buffer_context
       - name: "EVENT_DATA_DESCRIPTOR"
-        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_data_descriptor
+        href: /windows/win32/api/Evntprov/ns-evntprov-event_data_descriptor
       - name: "EVENT_DESCRIPTOR"
         href: https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor
       - name: "EVENT_EXTENDED_ITEM_INSTANCE"
-        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_instance
+        href: /windows/win32/api/Evntcons/ns-evntcons-event_extended_item_instance
       - name: "EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
-        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_related_activityid
+        href: /windows/win32/api/Evntcons/ns-evntcons-event_extended_item_related_activityid
       - name: "EVENT_EXTENDED_ITEM_STACK_TRACE32"
-        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace32
+        href: /windows/win32/api/Evntcons/ns-evntcons-event_extended_item_stack_trace32
       - name: "EVENT_EXTENDED_ITEM_STACK_TRACE64"
-        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_stack_trace64
+        href: /windows/win32/api/Evntcons/ns-evntcons-event_extended_item_stack_trace64
       - name: "EVENT_EXTENDED_ITEM_TS_ID"
-        href: /windows/desktop/api/Evntcons/ns-evntcons-_event_extended_item_ts_id
+        href: /windows/win32/api/Evntcons/ns-evntcons-event_extended_item_ts_id
       - name: "EVENT_FILTER_DESCRIPTOR"
-        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_descriptor
+        href: /windows/win32/api/Evntprov/ns-evntprov-event_filter_descriptor
       - name: "EVENT_FILTER_EVENT_NAME"
-        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_name
+        href: /windows/win32/api/Evntprov/ns-evntprov-event_filter_event_name
       - name: "EVENT_FILTER_LEVEL_KW"
-        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_level_kw
+        href: /windows/win32/api/Evntprov/ns-evntprov-event_filter_level_kw
       - name: "EVENT_FILTER_EVENT_ID"
-        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_event_id
+        href: /windows/win32/api/Evntprov/ns-evntprov-event_filter_event_id
       - name: "EVENT_FILTER_HEADER"
-        href: /windows/desktop/api/Evntprov/ns-evntprov-_event_filter_header
+        href: /windows/win32/api/Evntprov/ns-evntprov-event_filter_header
       - name: "EVENT_HEADER"
         href: https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header
       - name: "EVENT_HEADER_EXTENDED_DATA_ITEM"
@@ -731,11 +731,11 @@
       - name: "EVENT_INSTANCE_INFO"
         href: event-instance-info.md
       - name: "EVENT_MAP_ENTRY"
-        href: /windows/desktop/api/Tdh/ns-tdh-_event_map_entry
+        href: /windows/win32/api/Tdh/ns-tdh-event_map_entry
       - name: "EVENT_MAP_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_event_map_info
+        href: /windows/win32/api/Tdh/ns-tdh-event_map_info
       - name: "EVENT_PROPERTY_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_event_property_info
+        href: /windows/win32/api/Tdh/ns-tdh-event_property_info
       - name: "EVENT_RECORD"
         href: https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record
       - name: "EVENT_TRACE"
@@ -751,25 +751,25 @@
       - name: "MOF_FIELD"
         href: mof-field.md
       - name: "PAYLOAD_FILTER_PREDICATE"
-        href: /windows/desktop/api/Tdh/ns-tdh-_payload_filter_predicate
+        href: /windows/win32/api/Tdh/ns-tdh-payload_filter_predicate
       - name: "PROPERTY_DATA_DESCRIPTOR"
-        href: /windows/desktop/api/Tdh/ns-tdh-_property_data_descriptor
+        href: /windows/win32/api/Tdh/ns-tdh-property_data_descriptor
       - name: "PROVIDER_ENUMERATION_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_provider_enumeration_info
+        href: /windows/win32/api/Tdh/ns-tdh-provider_enumeration_info
       - name: "PROVIDER_EVENT_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_provider_event_info
+        href: /windows/win32/api/Tdh/ns-tdh-provider_event_info
       - name: "PROVIDER_FIELD_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_provider_field_info
+        href: /windows/win32/api/Tdh/ns-tdh-provider_field_info
       - name: "PROVIDER_FIELD_INFOARRAY"
-        href: /windows/desktop/api/Tdh/ns-tdh-_provider_field_infoarray
+        href: /windows/win32/api/Tdh/ns-tdh-provider_field_infoarray
       - name: "PROVIDER_FILTER_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_provider_filter_info
+        href: /windows/win32/api/Tdh/ns-tdh-provider_filter_info
       - name: "TDH_CONTEXT"
-        href: /windows/desktop/api/Tdh/ns-tdh-_tdh_context
+        href: /windows/win32/api/Tdh/ns-tdh-tdh_context
       - name: "TRACE_ENABLE_INFO"
         href: trace-enable-info.md
       - name: "TRACE_EVENT_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_trace_event_info
+        href: /windows/win32/api/Tdh/ns-tdh-trace_event_info
       - name: "TRACE_GUID_INFO"
         href: trace-guid-info.md
       - name: "TRACE_GUID_PROPERTIES"
@@ -781,7 +781,7 @@
       - name: "TRACE_PERIODIC_CAPTURE_STATE_INFO"
         href: trace-periodic-capture-state-info.md
       - name: "TRACE_PROVIDER_INFO"
-        href: /windows/desktop/api/Tdh/ns-tdh-_trace_provider_info
+        href: /windows/win32/api/Tdh/ns-tdh-trace_provider_info
       - name: "TRACE_PROVIDER_INSTANCE_INFO"
         href: trace-provider-instance-info.md
       - name: "TRACE_VERSION_INFO"

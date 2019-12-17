@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XML Digital Signature Cryptographic Algorithms
 
-CryptXML natively supports the URIs listed below. If support is required for cryptographic algorithms and transforms that are not part of the native support, you can use [Cryptography API: Next Generation](https://msdn.microsoft.com/en-us/library/Aa376210(v=VS.85).aspx) and [XML Digital Signature Cryptographic Extensions](xml-digital-signature-cryptographic-extensions.md) to support new algorithms.
+CryptXML natively supports the URIs listed below. If support is required for cryptographic algorithms and transforms that are not part of the native support, you can use [Cryptography API: Next Generation](https://msdn.microsoft.com/library/Aa376210(v=VS.85).aspx) and [XML Digital Signature Cryptographic Extensions](xml-digital-signature-cryptographic-extensions.md) to support new algorithms.
 
 ## Supported URIs
 

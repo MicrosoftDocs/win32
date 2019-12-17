@@ -82,7 +82,7 @@ Extended window styles. You must specify *style* to specify *extended-style*. Fo
 <span id="helpId"></span><span id="helpid"></span><span id="HELPID"></span>*helpId*
 </dt> <dd>
 
-Numeric expression indicating the ID used to identify the control during [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) processing.
+Numeric expression indicating the ID used to identify the control during [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) processing.
 
 </dd> <dt>
 

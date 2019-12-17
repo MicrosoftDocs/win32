@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Performs no operation. An application sends the **WM\_NULL** message if it wants to post a message that the recipient window will ignore.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -45,9 +45,9 @@ An application returns zero if it processes this message.
 
 ## Remarks
 
-For example, if an application has installed a **WH\_GETMESSAGE** hook and wants to prevent a message from being processed, the [**GetMsgProc**](https://msdn.microsoft.com/en-us/library/ms644981(v=VS.85).aspx) callback function can change the message number to **WM\_NULL** so the recipient will ignore it.
+For example, if an application has installed a **WH\_GETMESSAGE** hook and wants to prevent a message from being processed, the [**GetMsgProc**](https://msdn.microsoft.com/library/ms644981(v=VS.85).aspx) callback function can change the message number to **WM\_NULL** so the recipient will ignore it.
 
-As another example, an application can check if a window is responding to messages by sending the **WM\_NULL** message with the [**SendMessageTimeout**](https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx) function.
+As another example, an application can check if a window is responding to messages by sending the **WM\_NULL** message with the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function.
 
 ## Requirements
 

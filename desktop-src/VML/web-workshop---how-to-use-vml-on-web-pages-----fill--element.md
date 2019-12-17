@@ -39,9 +39,9 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-As you've learned, you can use the **fillcolor** property attribute of a predefined shape element -- such as <oval> , <line>, <polyline>, <curve>, <rect>, <roundrect>, <arc> -- to specify the color that is used to fill the shape. In this topic, we will illustrate how to draw a shape that is filled with more advanced effects.
+As you've learned, you can use the **fillcolor** property attribute of a predefined shape element -- such as `<oval>` , `<line>`, `<polyline>`, `<curve>`, `<rect>`, `<roundrect>`, `<arc>` -- to specify the color that is used to fill the shape. In this topic, we will illustrate how to draw a shape that is filled with more advanced effects.
 
-You can place the <fill> sub-element inside the <shape>, or <shapetype>, or any predefined shape element to describe how to fill the shape. You can then use the property attributes of the <fill> sub-element to customize the fill effect, such as [gradient fill](#gradient-fill), [pattern fill](#pattern-fill), [picture fill](#picture-fill).
+You can place the `<fill>` sub-element inside the `<shape>`, or `<shapetype>`, or any predefined shape element to describe how to fill the shape. You can then use the property attributes of the `<fill>` sub-element to customize the fill effect, such as [gradient fill](#gradient-fill), [pattern fill](#pattern-fill), [picture fill](#picture-fill).
 
 In this topic:
 
@@ -51,7 +51,7 @@ In this topic:
 
 ## Gradient Fill
 
-To draw a gradient-filled shape, you can set the **type** property attribute of the <fill> sub-element to "gradient" or "gradientRadial", and then specify other property attributes of the <fill> sub-element, such as **method**, **color2**, **focus**, and **angle**.
+To draw a gradient-filled shape, you can set the **type** property attribute of the `<fill>` sub-element to "gradient" or "gradientRadial", and then specify other property attributes of the `<fill>` sub-element, such as **method**, **color2**, **focus**, and **angle**.
 
 **Examples:**
 
@@ -70,7 +70,7 @@ To create a shape that is gradient-filled horizontally, you can set the **type**
 
 [Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/Horizontal1.md)
 
-If you change the **fillcolor** property attribute of the shape, the shape is then gradient-filled with a different color. You can add a second color by specifying the **color2** property attribute of the <fill> sub-element. For example, to create a shape that is gradient-filled in two colors, you can add a second color by specifying the **color2** property attribute of the <fill> sub-element, as shown in the following VML representation:
+If you change the **fillcolor** property attribute of the shape, the shape is then gradient-filled with a different color. You can add a second color by specifying the **color2** property attribute of the `<fill>` sub-element. For example, to create a shape that is gradient-filled in two colors, you can add a second color by specifying the **color2** property attribute of the `<fill>` sub-element, as shown in the following VML representation:
 
 ![horizontal2.gif (3127 bytes)](images/horizontal2.gif)
 
@@ -160,7 +160,7 @@ type="gradientRadial" />
 
 ## Pattern Fill
 
-To draw a pattern-filled shape, you can set the **type** property attribute of the <fill> sub-element to "pattern", and then specify other property attributes of the <fill> sub-element, such as **src** and **color2**.
+To draw a pattern-filled shape, you can set the **type** property attribute of the `<fill>` sub-element to "pattern", and then specify other property attributes of the `<fill>` sub-element, such as **src** and **color2**.
 
 **Examples:**
 
@@ -199,7 +199,7 @@ color2="blue" />
 
 ## Picture Fill
 
-To draw a picture-filled shape, you can set the **type** property attribute of the <fill> sub-element to "frame", and then specify other property attributes of the <fill> sub-element, such as **src** and **color2**.
+To draw a picture-filled shape, you can set the **type** property attribute of the `<fill>` sub-element to "frame", and then specify other property attributes of the `<fill>` sub-element, such as **src** and **color2**.
 
 **Examples:**
 

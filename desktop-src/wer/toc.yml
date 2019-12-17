@@ -98,16 +98,16 @@
       href: wer-structures.md
       items: 
       - name: "WER_REPORT_METADATA_V2"
-        href: /windows/desktop/api/Werapi/ns-werapi-_wer_report_metadata_v2
+        href: /windows/win32/api/Werapi/ns-werapi-wer_report_metadata_v2
       - name: "STOWED_EXCEPTION_INFORMATION_HEADER"
         href: stowed-exception-information-header.md
       - name: "STOWED_EXCEPTION_INFORMATION_V2"
         href: stowed-exception-information-v2.md
       - name: "WER_DUMP_CUSTOM_OPTIONS"
-        href: /windows/desktop/api/Werapi/ns-werapi-_wer_dump_custom_options
+        href: /windows/win32/api/Werapi/ns-werapi-wer_dump_custom_options
       - name: "WER_EXCEPTION_INFORMATION"
-        href: /windows/desktop/api/Werapi/ns-werapi-_wer_exception_information
+        href: /windows/win32/api/Werapi/ns-werapi-wer_exception_information
       - name: "WER_REPORT_INFORMATION"
-        href: /windows/desktop/api/Werapi/ns-werapi-_wer_report_information
+        href: /windows/win32/api/Werapi/ns-werapi-wer_report_information
       - name: "WER_RUNTIME_EXCEPTION_INFORMATION"
-        href: /windows/desktop/api/Werapi/ns-werapi-_wer_runtime_exception_information
+        href: /windows/win32/api/Werapi/ns-werapi-wer_runtime_exception_information

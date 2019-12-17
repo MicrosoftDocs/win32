@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Master File Table
+# Master File Table (Local File Systems)
 
 The NTFS file system contains a file called the *master file table*, or MFT. There is at least one entry in the MFT for every file on an NTFS file system volume, including the MFT itself. All information about a file, including its size, time and date stamps, permissions, and data content, is stored either in MFT entries, or in space outside the MFT that is described by MFT entries.
 
@@ -20,7 +20,7 @@ The MFT itself can be defragmented. To reduce the chance of the MFT zone becomin
 
 The default MFT zone is calculated and reserved by the system when it mounts the volume, and is based on volume size. You can increase the MFT zone by means of the registry entry detailed in [Microsoft Knowledge Base Article 174619](https://go.microsoft.com/fwlink/p/?linkid=83991), but you cannot make the default MFT zone smaller than what is calculated. Increasing the MFT zone does not decrease the disk space that users can use for data files.
 
-To determine the current size of the MFT, analyze the NTFS file system drive with Disk Defragmenter, then click the **View Report** button. The drive statistics will be displayed, including the current MFT size, and number of fragments. You can also obtain the size of the MFT by using the [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx) control code.
+To determine the current size of the MFT, analyze the NTFS file system drive with Disk Defragmenter, then click the **View Report** button. The drive statistics will be displayed, including the current MFT size, and number of fragments. You can also obtain the size of the MFT by using the [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx) control code.
 
  
 

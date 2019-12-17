@@ -21,7 +21,7 @@ typedef UINT64 D2D1_TAG;
 
 ## Remarks
 
-To set a tag before a series of rendering operations, use the [**ID2D1RenderTarget::SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx) method. To retrieve the current tag, use the [**ID2D1RenderTarget::GetTags**](https://msdn.microsoft.com/en-us/library/Dd316830(v=VS.85).aspx) method.
+To set a tag before a series of rendering operations, use the [**ID2D1RenderTarget::SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) method. To retrieve the current tag, use the [**ID2D1RenderTarget::GetTags**](https://msdn.microsoft.com/library/Dd316830(v=VS.85).aspx) method.
 
 ## Requirements
 
@@ -40,10 +40,10 @@ To set a tag before a series of rendering operations, use the [**ID2D1RenderTarg
 
 <dl> <dt>
 
-[**GetTags**](https://msdn.microsoft.com/en-us/library/Dd316830(v=VS.85).aspx)
+[**GetTags**](https://msdn.microsoft.com/library/Dd316830(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx)
+[**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx)
 </dt> </dl>
 
  

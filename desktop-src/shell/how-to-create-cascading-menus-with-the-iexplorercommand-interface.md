@@ -1,14 +1,14 @@
 ---
 Description: Another option for adding verbs to a cascading menu is through IExplorerCommand::EnumSubCommands.
 ms.assetid: 010157F3-B950-4A57-B0AA-248B4990DA34
-title: How to Create Cascading Menus with the IExplorerCommand Interface
+title: Create Cascading Menus with the IExplorerCommand Interface
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # How to Create Cascading Menus with the IExplorerCommand Interface
 
-Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through the [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) interface to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using the [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) interface as you can with the [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx) interface.
+Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). This method enables data sources that provide their command module commands through the [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) interface to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using the [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) interface as you can with the [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) interface.
 
 ## Instructions
 
@@ -37,7 +37,7 @@ The following two screen shots illustrate the use of cascading menus in the **De
 [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider)
 </dt> <dt>
 
-[**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx)
+[**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx)
 </dt> </dl>
 
  

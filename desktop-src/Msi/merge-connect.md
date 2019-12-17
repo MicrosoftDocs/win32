@@ -54,7 +54,7 @@ Errors may be retrieved through the [**Errors**](merge-errors.md) property. Erro
 
 ### C++
 
-See [**Connect**](https://msdn.microsoft.com/en-us/library/Aa369268(v=VS.85).aspx) function.
+See [**Connect**](https://msdn.microsoft.com/library/Aa369268(v=VS.85).aspx) function.
 
 ## Requirements
 

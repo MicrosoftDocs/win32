@@ -1,5 +1,5 @@
 ---
-title: dataType Complex Type
+title: dataType complex type (Task Scheduler)
 description: Defines a base type.
 ms.assetid: 1f9013fd-b59c-48f6-9de2-a2e7e2bf3d23
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# dataType Complex Type
+# dataType complex type (Task Scheduler)
 
 Defines a base type.
 

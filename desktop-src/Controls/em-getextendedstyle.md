@@ -12,7 +12,6 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 10/19/2018
 ---

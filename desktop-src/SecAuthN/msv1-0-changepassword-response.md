@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The MSV1\_0\_CHANGEPASSWORD\_RESPONSE structure is obsolete.
 
-For password change requests, see [**NetUserChangePassword**](https://msdn.microsoft.com/en-us/library/Aa370650(v=VS.85).aspx).
+For password change requests, see [**NetUserChangePassword**](https://msdn.microsoft.com/library/Aa370650(v=VS.85).aspx).
 
  
 

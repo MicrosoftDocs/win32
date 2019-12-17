@@ -1,5 +1,5 @@
 ---
-title: Return Values for Functions in Active Directory Domain Services
+title: Function Return Values in Active Directory Domain Services
 description: The following are categories of return values for functions in Active Directory Domain Services.
 ms.assetid: e8e85ec1-0574-49ed-b649-f3131b048069
 ms.tgt_platform: multiple
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Return Values for Functions in Active Directory Domain Services
+# Function Return Values in Active Directory Domain Services
 
 The following are categories of return values for functions in Active Directory Domain Services:
 

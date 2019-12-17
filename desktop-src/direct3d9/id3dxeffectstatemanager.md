@@ -27,7 +27,7 @@ When an application uses the state manager to implement custom callbacks, an eff
 
 ## Members
 
-The **ID3DXEffectStateManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXEffectStateManager** also has these types of members:
+The **ID3DXEffectStateManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXEffectStateManager** also has these types of members:
 
 -   [Methods](#methods)
 

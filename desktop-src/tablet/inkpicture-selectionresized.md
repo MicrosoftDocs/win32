@@ -28,7 +28,7 @@ void SelectionResized(
 *OldSelectionRect* \[in\]
 </dt> <dd>
 
-The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionResized** event fired.
+The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionResized** event fired.
 
 > [!Note]  
 > This rectangle is specified in ink space coordinates, which allows for undo scenarios.

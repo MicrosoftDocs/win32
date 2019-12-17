@@ -17,7 +17,7 @@ api_location:
 
 # KEYSVC\_UNICODE\_STRING structure
 
-The **KEYSVC\_UNICODE\_STRING** structure defines a [*Unicode*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) string and a maximum length for the string. This structure is used by the [**RKeyPFXInstall**](rkeypfxinstall.md) function.
+The **KEYSVC\_UNICODE\_STRING** structure defines a [*Unicode*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) string and a maximum length for the string. This structure is used by the [**RKeyPFXInstall**](rkeypfxinstall.md) function.
 
 ## Syntax
 

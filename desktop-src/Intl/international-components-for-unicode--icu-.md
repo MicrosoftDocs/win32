@@ -72,7 +72,7 @@ Then you can call whatever ICU C API you want. (No C++ APIs are exposed.)
 > [!Note]  
 >
 > -   This is the configuration for “All Platforms”.
-> -   For Win32 apps to use ICU, they need to call CoInitializeEx first. See the MSDN documentation here: <https://msdn.microsoft.com/en-us/library/windows/desktop/ms695279(v=vs.85).aspx>
+> -   For Win32 apps to use ICU, they need to call CoInitializeEx first. See the MSDN documentation here: <https://msdn.microsoft.com/library/windows/desktop/ms695279(v=vs.85).aspx>
 > -   Not all data returned by ICU APIs will align with the Windows OS, as this alignment work is still in progress.
 
  

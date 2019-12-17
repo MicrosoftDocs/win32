@@ -5109,7 +5109,7 @@
       - name: "Bind Context String Keys"
         href: str-constants.md
       - name: "BNSTATE"
-        href: /windows/desktop/api/Shdeprecated/ne-shdeprecated-tagbnstate
+        href: /windows/win32/api/Shdeprecated/ne-shdeprecated-bnstate
       - name: "BROWSERFRAMEOPTIONS"
         href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-_browserframeoptions
       - name: "CATEGORYINFO_FLAGS"
@@ -5131,17 +5131,17 @@
       - name: "CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS"
         href: /windows/desktop/api/CredentialProvider/ne-credentialprovider-credential_provider_credential_field_options
       - name: "CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE"
-        href: /windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_interactive_state
+        href: /windows/win32/api/Credentialprovider/ne-credentialprovider-credential_provider_field_interactive_state
       - name: "CREDENTIAL_PROVIDER_FIELD_STATE"
-        href: /windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_state
+        href: /windows/win32/api/Credentialprovider/ne-credentialprovider-credential_provider_field_state
       - name: "CREDENTIAL_PROVIDER_FIELD_TYPE"
-        href: /windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_type
+        href: /windows/win32/api/Credentialprovider/ne-credentialprovider-credential_provider_field_type
       - name: "CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE"
-        href: /windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_get_serialization_response
+        href: /windows/win32/api/Credentialprovider/ne-credentialprovider-credential_provider_get_serialization_response
       - name: "CREDENTIAL_PROVIDER_STATUS_ICON"
-        href: /windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_status_icon
+        href: /windows/win32/api/Credentialprovider/ne-credentialprovider-credential_provider_status_icon
       - name: "CREDENTIAL_PROVIDER_USAGE_SCENARIO"
-        href: /windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_usage_scenario
+        href: /windows/win32/api/Credentialprovider/ne-credentialprovider-credential_provider_usage_scenario
       - name: "CSIDL"
         href: csidl.md
       - name: "CTF Flags"
@@ -5201,7 +5201,7 @@
       - name: "IActiveDesktop Flags"
         href: iactivedesktop-flags.md
       - name: "IESHORTCUTFLAGS"
-        href: /windows/desktop/api/shlobj_core/ne-shlobj_core-tagieshortcutflags
+        href: /windows/win32/api/shlobj_core/ne-shlobj_core-ieshortcutflags
       - name: "KF_CATEGORY"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category
       - name: "KF_DEFINITION_FLAGS"
@@ -5243,7 +5243,7 @@
       - name: "PACKAGE_EXECUTION_STATE"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-package_execution_state
       - name: "PERCEIVED"
-        href: /windows/desktop/api/Shtypes/ne-shtypes-tagperceived
+        href: /windows/win32/api/Shtypes/ne-shtypes-perceived
       - name: "PUBAPPINFOFLAGS"
         href: /windows/desktop/api/Shappmgr/ne-shappmgr-_tagpublishedappinfoflags
       - name: "QUERY_USER_NOTIFICATION_STATE"
@@ -5267,7 +5267,7 @@
       - name: "SHARE_ROLE"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-share_role
       - name: "SHCOLSTATE"
-        href: /windows/desktop/api/Shtypes/ne-shtypes-tagshcolstate
+        href: /windows/win32/api/Shtypes/ne-shtypes-shcolstate
       - name: "SHCONTF"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shcontf
       - name: "SHELL_LINK_DATA_FLAGS"
@@ -5295,13 +5295,13 @@
       - name: "SICHINTF"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sichintf
       - name: "SIGDN"
-        href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sigdn
+        href: /windows/win32/api/shobjidl_core/ne-shobjidl_core-sigdn
       - name: "SPACTION"
-        href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction
+        href: /windows/win32/api/shobjidl_core/ne-shobjidl_core-spaction
       - name: "SPBEGINF"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf
       - name: "SPTEXT"
-        href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext
+        href: /windows/win32/api/shobjidl_core/ne-shobjidl_core-sptext
       - name: "SRRF"
         href: srrf.md
       - name: "SSF Constants"
@@ -6583,29 +6583,29 @@
       href: structures.md
       items: 
       - name: "AASHELLMENUFILENAME"
-        href: /windows/desktop/api/Shlobj/ns-shlobj-tagaamenufilename
+        href: /windows/win32/api/Shlobj/ns-shlobj-aashellmenufilename
       - name: "AASHELLMENUITEM"
-        href: /windows/desktop/api/Shlobj/ns-shlobj-tagaashellmenuitem
+        href: /windows/win32/api/Shlobj/ns-shlobj-aashellmenuitem
       - name: "APPBARDATA"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_appbardata
+        href: /windows/win32/api/Shellapi/ns-shellapi-appbardata
       - name: "APPCATEGORYINFO"
-        href: /windows/desktop/api/Appmgmt/ns-appmgmt-_appcategoryinfo
+        href: /windows/win32/api/Appmgmt/ns-appmgmt-appcategoryinfo
       - name: "APPCATEGORYINFOLIST"
-        href: /windows/desktop/api/Appmgmt/ns-appmgmt-_appcategoryinfolist
+        href: /windows/win32/api/Appmgmt/ns-appmgmt-appcategoryinfolist
       - name: "APPINFODATA"
-        href: /windows/desktop/api/Shappmgr/ns-shappmgr-_appinfodata
+        href: /windows/win32/api/Shappmgr/ns-shappmgr-appinfodata
       - name: "ASSOCIATIONELEMENT"
         href: /windows/desktop/api/Shellapi/ns-shellapi-associationelement
       - name: "BANDINFOSFB"
         href: /windows/desktop/api/Shlobj/ns-shlobj-bandinfosfb
       - name: "BANDSITEINFO"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagbandsiteinfo
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-bandsiteinfo
       - name: "BASEBROWSERDATA"
         href: /windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh
       - name: "BORDERWIDTHS"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)
       - name: "BROWSEINFO"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_browseinfoa
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-browseinfoa
       - name: "CATEGORY_INFO"
         href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info
       - name: "CIDA"
@@ -6613,11 +6613,11 @@
       - name: "CM_COLUMNINFO"
         href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo
       - name: "CMINVOKECOMMANDINFO"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo
       - name: "CMINVOKECOMMANDINFOEX"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex
       - name: "COMDLG_FILTERSPEC"
-        href: /windows/desktop/api/Shtypes/ns-shtypes-_comdlg_filterspec
+        href: /windows/win32/api/Shtypes/ns-shtypes-comdlg_filterspec
       - name: "COMPONENT"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent
       - name: "COMPONENTSOPT"
@@ -6631,31 +6631,31 @@
       - name: "CONFIRM_CONFLICT_RESULT_INFO"
         href: /windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_result_info
       - name: "CPLINFO"
-        href: /windows/desktop/api/Cpl/ns-cpl-tagcplinfo
+        href: /windows/win32/api/Cpl/ns-cpl-cplinfo
       - name: "CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"
-        href: /windows/desktop/api/Credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization
+        href: /windows/win32/api/Credentialprovider/ns-credentialprovider-credential_provider_credential_serialization
       - name: "CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR"
-        href: /windows/desktop/api/Credentialprovider/ns-credentialprovider-_credential_provider_field_descriptor
+        href: /windows/win32/api/Credentialprovider/ns-credentialprovider-credential_provider_field_descriptor
       - name: "CSFV"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_csfv
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-csfv
       - name: "DATABLOCK_HEADER"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header
       - name: "DEFCONTEXTMENU"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu
       - name: "DELEGATEITEMID"
         href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-delegateitemid
       - name: "DETAILSINFO"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_detailsinfo
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-detailsinfo
       - name: "DFMICS"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-dfmics
       - name: "DLLVERSIONINFO"
-        href: /windows/desktop/api/Shlwapi/ns-shlwapi-_dllversioninfo
+        href: /windows/win32/api/Shlwapi/ns-shlwapi-dllversioninfo
       - name: "DLLVERSIONINFO2"
-        href: /windows/desktop/api/Shlwapi/ns-shlwapi-_dllversioninfo2
+        href: /windows/win32/api/Shlwapi/ns-shlwapi-dllversioninfo2
       - name: "DROPDESCRIPTION"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription
       - name: "DROPFILES"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_dropfiles
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-dropfiles
       - name: "EXP_DARWIN_LINK"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link
       - name: "EXP_PROPERTYSTORAGE"
@@ -6689,35 +6689,35 @@
       - name: "FVSHOWINFO"
         href: /windows/desktop/api/Shlobj/ns-shlobj-fvshowinfo
       - name: "HELPINFO"
-        href: /windows/desktop/api/Winuser/ns-winuser-taghelpinfo
+        href: /windows/win32/api/Winuser/ns-winuser-helpinfo
       - name: "HELPWININFO"
-        href: /windows/desktop/api/Winuser/ns-winuser-taghelpwininfoa
+        href: /windows/win32/api/Winuser/ns-winuser-helpwininfoa
       - name: "IE4COMPONENT"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagie4component
       - name: "ITEMIDLIST"
-        href: /windows/desktop/api/Shtypes/ns-shtypes-_itemidlist
+        href: /windows/win32/api/Shtypes/ns-shtypes-itemidlist
       - name: "ITEMSPACING"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_itemspacing
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-itemspacing
       - name: "KNOWNFOLDER_DEFINITION"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-knownfolder_definition
       - name: "LOGFONT"
-        href: /windows/desktop/api/dimm/ns-dimm-__midl___midl_itf_dimm_0000_0000_0003
+        href: /windows/win32/api/dimm/ns-dimm-logfonta
       - name: "MRUINFO"
         href: mruinfo.md
       - name: "MULTIKEYHELP"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagmultikeyhelpa
+        href: /windows/win32/api/Winuser/ns-winuser-multikeyhelpa
       - name: "NC_ADDRESS"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-tagnc_address
+        href: /windows/win32/api/Shellapi/ns-shellapi-nc_address
       - name: "NET_ADDRESS_INFO"
         href: https://docs.microsoft.com/windows/desktop/shell/hkey-type
       - name: "NEWCPLINFO"
-        href: /windows/desktop/api/Cpl/ns-cpl-tagnewcplinfoa
+        href: /windows/win32/api/Cpl/ns-cpl-newcplinfoa
       - name: "NOTIFYICONDATA"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa
+        href: /windows/win32/api/Shellapi/ns-shellapi-notifyicondataa
       - name: "NOTIFYICONIDENTIFIER"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_notifyiconidentifier
+        href: /windows/win32/api/Shellapi/ns-shellapi-notifyiconidentifier
       - name: "NRESARRAY"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_nresarray
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-nresarray
       - name: "NSTCCUSTOMDRAW"
         href: /windows/desktop/api/Shobjidl/ns-shobjidl-nstccustomdraw
       - name: "NT_CONSOLE_PROPS"
@@ -6725,35 +6725,35 @@
       - name: "NT_FE_CONSOLE_PROPS"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props
       - name: "OPEN_PRINTER_PROPS_INFO"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_open_printer_props_infoa
+        href: /windows/win32/api/Shellapi/ns-shellapi-open_printer_props_infoa
       - name: "OPENASINFO"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_openasinfo
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-openasinfo
       - name: "OVERLAPPED"
-        href: /windows/desktop/api/Shobjidl/ns-shobjidl-_overlapped
+        href: /windows/win32/api/Shobjidl/ns-shobjidl-overlapped
       - name: "PARSEDURL"
-        href: /windows/desktop/api/Shlwapi/ns-shlwapi-tagparsedurla
+        href: /windows/win32/api/Shlwapi/ns-shlwapi-parsedurla
       - name: "PERSIST_FOLDER_TARGET_INFO"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_persist_folder_target_info
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-persist_folder_target_info
       - name: "PREVIEWHANDLERFRAMEINFO"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-previewhandlerframeinfo
       - name: "PROFILEINFO"
-        href: /windows/desktop/api/Profinfo/ns-profinfo-_profileinfoa
+        href: /windows/win32/api/Profinfo/ns-profinfo-profileinfoa
       - name: "PUBAPPINFO"
-        href: /windows/desktop/api/Shappmgr/ns-shappmgr-_pubappinfo
+        href: /windows/win32/api/Shappmgr/ns-shappmgr-pubappinfo
       - name: "QCMINFO"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_qcminfo
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-qcminfo
       - name: "QITAB"
         href: /windows/desktop/api/Shlwapi/ns-shlwapi-qitab
       - name: "SERIALIZEDPROPERTYVALUE"
-        href: /windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue
+        href: /windows/win32/api/Propidl/ns-propidl-serializedpropertyvalue
       - name: "SFV_CREATE"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-sfv_create
       - name: "SFV_SETITEMPOS"
-        href: /windows/desktop/api/Shlobj/ns-shlobj-_sfv_setitempos
+        href: /windows/win32/api/Shlobj/ns-shlobj-sfv_setitempos
       - name: "SFVM_HELPTOPIC_DATA"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_sfvm_helptopic_data
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-sfvm_helptopic_data
       - name: "SFVM_PROPPAGE_DATA"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_sfvm_proppage_data
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-sfvm_proppage_data
       - name: "SHARDAPPIDINFO"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfo
       - name: "SHARDAPPIDINFOIDLIST"
@@ -6761,7 +6761,7 @@
       - name: "SHARDAPPIDINFOLINK"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfolink
       - name: "SHChangeNotifyEntry"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangenotifyentry
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-shchangenotifyentry
       - name: "SHCOLUMNDATA"
         href: /windows/desktop/api/Shlobj/ns-shlobj-shcolumndata
       - name: "SHCOLUMNID"
@@ -6771,49 +6771,49 @@
       - name: "SHCOLUMNINIT"
         href: /windows/desktop/api/Shlobj/ns-shlobj-shcolumninit
       - name: "SHDESCRIPTIONID"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_shdescriptionid
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-shdescriptionid
       - name: "SHDRAGIMAGE"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shdragimage
       - name: "SHELL_ITEM_RESOURCE"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shell_item_resource
       - name: "SHELLDETAILS"
-        href: /windows/desktop/api/Shtypes/ns-shtypes-_shelldetails
+        href: /windows/win32/api/Shtypes/ns-shtypes-shelldetails
       - name: "SHELLEXECUTEINFO"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_shellexecuteinfoa
+        href: /windows/win32/api/Shellapi/ns-shellapi-shellexecuteinfoa
       - name: "SHELLFLAGSTATE"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate
       - name: "SHELLSTATE"
         href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea
       - name: "SHFILEINFO"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_shfileinfoa
+        href: /windows/win32/api/Shellapi/ns-shellapi-shfileinfoa
       - name: "SHFILEOPSTRUCT"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_shfileopstructa
+        href: /windows/win32/api/Shellapi/ns-shellapi-shfileopstructa
       - name: "SHFOLDERCUSTOMSETTINGS"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-shfoldercustomsettings
       - name: "SHITEMID"
-        href: /windows/desktop/api/Shtypes/ns-shtypes-_shitemid
+        href: /windows/win32/api/Shtypes/ns-shtypes-shitemid
       - name: "SHNAMEMAPPING"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_shnamemappinga
+        href: /windows/win32/api/Shellapi/ns-shellapi-shnamemappinga
       - name: "SHQUERYRBINFO"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_shqueryrbinfo
+        href: /windows/win32/api/Shellapi/ns-shellapi-shqueryrbinfo
       - name: "SHSTOCKICONINFO"
-        href: /windows/desktop/api/Shellapi/ns-shellapi-_shstockiconinfo
+        href: /windows/win32/api/Shellapi/ns-shellapi-shstockiconinfo
       - name: "SLOWAPPINFO"
         href: /windows/desktop/api/Shappmgr/ns-shappmgr-_tagslowappinfo
       - name: "SMCSHCHANGENOTIFYSTRUCT"
         href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-shcschangenotifystruct
       - name: "SMDATA"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-smdata
       - name: "SMINFO"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsminfo
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-sminfo
       - name: "SOFTDISTINFO"
         href: /windows/desktop/api/Urlmon/ns-urlmon-_tagsoftdistinfo
       - name: "SORTCOLUMN"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-sortcolumn
       - name: "STRRET"
-        href: /windows/desktop/api/Shtypes/ns-shtypes-_strret
+        href: /windows/win32/api/Shtypes/ns-shtypes-strret
       - name: "SV2CVW2_PARAMS"
-        href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_sv2cvw2_params
+        href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-sv2cvw2_params
       - name: "SYNC_HANDLER_ITEM_INFO"
         href: https://docs.microsoft.com/windows/desktop/shell/objects-cpp
       - name: "SYNCMGR_CONFLICT_ID_INFO"
@@ -6827,13 +6827,13 @@
       - name: "SYNCMGRPROGRESSITEM"
         href: /windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrprogressitem
       - name: "TBINFO"
-        href: /windows/desktop/api/Shlobj/ns-shlobj-_tbinfo
+        href: /windows/win32/api/Shlobj/ns-shlobj-tbinfo
       - name: "THUMBBUTTON"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton
       - name: "WALLPAPEROPT"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt
       - name: "WINDOWDATA"
-        href: /windows/desktop/api/Tlogstg/ns-tlogstg-_windowdata
+        href: /windows/win32/api/Tlogstg/ns-tlogstg-windowdata
       - name: "WTS_CONTEXTFLAGS"
         href: /windows/desktop/api/Thumbcache/ne-thumbcache-wts_contextflags
       - name: "WTS_FLAGS"
@@ -6852,7 +6852,7 @@
     - name: "SECURELOCK"
       href: https://docs.microsoft.com/windows/desktop/api/shdeprecated/ne-shdeprecated-securelockcode
     - name: "FOLDERSETDATA"
-      href: /windows/desktop/api/Shdeprecated/ns-shdeprecated-tagfoldersetdata
+      href: /windows/win32/api/Shdeprecated/ns-shdeprecated-foldersetdata
     - name: "TOOLBARITEM"
       href: /windows/desktop/api/Shdeprecated/ns-shdeprecated-stoolbaritem
     - name: "AddMRUStringW"
@@ -6988,11 +6988,11 @@
     - name: "SHAnsiToUnicode"
       href: /windows/desktop/api/Shlwapi/nf-shlwapi-shansitounicode
     - name: "SHChangeDWORDAsIDList"
-      href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist
+      href: /windows/win32/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist
     - name: "SHChangeProductKeyAsIDList"
-      href: /windows/desktop/api/Shlobj/ns-shlobj-_shchangeproductkeyasidlist
+      href: /windows/win32/api/Shlobj/ns-shlobj-shchangeproductkeyasidlist
     - name: "SHChangeUpdateImageIDList"
-      href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist
+      href: /windows/win32/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist
     - name: "SHCloneSpecialIDList"
       href: /windows/desktop/api/shlobj_core/nf-shlobj_core-shclonespecialidlist
     - name: "SHCLSIDFromString"
@@ -7008,7 +7008,7 @@
     - name: "SHCreateProcessAsUserW"
       href: /windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw
     - name: "SHCREATEPROCESSINFOW"
-      href: /windows/desktop/api/Shellapi/ns-shellapi-_shcreateprocessinfow
+      href: /windows/win32/api/Shellapi/ns-shellapi-shcreateprocessinfow
     - name: "SHCreatePropSheetExtArray"
       href: /windows/desktop/api/Shlobj/nf-shlobj-shcreatepropsheetextarray
     - name: "SHCreateQueryCancelAutoPlayMoniker"

@@ -24,8 +24,8 @@ Changes or animates the value of the CenterX property of a 2D rotation transform
 
 | Method                                                                                                         | Description                                            |
 |:---------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterX(float)**](https://msdn.microsoft.com/en-us/library/Hh448978(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
-| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448980(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
+| [**SetCenterX(float)**](https://msdn.microsoft.com/library/Hh448978(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
+| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448980(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterX property of a 2D rotation transform
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
 </dt> </dl>
 
 �

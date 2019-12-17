@@ -258,9 +258,9 @@
           href: remote-access-service-structures.md
           items: 
           - name: "RAS_PROJECTION_INFO"
-            href: /windows/desktop/api/Ras/ns-ras-_ras_projection_info
+            href: /windows/win32/api/Ras/ns-ras-ras_projection_info
           - name: "RAS_STATS"
-            href: /windows/desktop/api/Ras/ns-ras-_ras_stats
+            href: /windows/win32/api/Ras/ns-ras-ras_stats
           - name: "RASADPARAMS"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376719(v=vs.85)
           - name: "RASAMB"
@@ -284,7 +284,7 @@
           - name: "RASDEVINFO"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)
           - name: "RASDEVSPECIFICINFO"
-            href: /windows/desktop/api/Ras/ns-ras-tagrasdevspecificinfo
+            href: /windows/win32/api/Ras/ns-ras-rasdevspecificinfo
           - name: "RASDIALDLG"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)
           - name: "RASDIALEXTENSIONS"
@@ -302,7 +302,7 @@
           - name: "RASENTRYNAME"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)
           - name: "RASIKEV2_PROJECTION_INFO"
-            href: /windows/desktop/api/Ras/ns-ras-_rasikev2_projection_info
+            href: /windows/win32/api/Ras/ns-ras-rasikev2_projection_info
           - name: "RASIPADDR"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377578(v=vs.85)
           - name: "RASMONITORDLG"
@@ -314,7 +314,7 @@
           - name: "RASPBDLG"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)
           - name: "RASPPP_PROJECTION_INFO"
-            href: /windows/desktop/api/Ras/ns-ras-_rasppp_projection_info
+            href: /windows/win32/api/Ras/ns-ras-rasppp_projection_info
           - name: "RASPPPCCP"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377620(v=vs.85)
           - name: "RASPPPIP"
@@ -328,7 +328,7 @@
           - name: "RASPPPNBF"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377642(v=vs.85)
           - name: "RASPROJECTION_INFO_TYPE"
-            href: /windows/desktop/api/Ras/ne-ras-_rasprojection_info_type
+            href: /windows/win32/api/Ras/ne-ras-rasprojection_info_type
           - name: "RASSLIP"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377836(v=vs.85)
           - name: "RASSUBENTRY"
@@ -446,56 +446,56 @@
           href: ras-administration-structures.md
           items: 
           - name: "MPRAPI_ADMIN_DLL_CALLBACKS"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mprapi_admin_dll_callbacks
+            href: /windows/win32/api/Mprapi/ns-mprapi-mprapi_admin_dll_callbacks
           - name: "PPP_ATCP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_atcp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_atcp_info
           - name: "PPP_CCP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_ccp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_ccp_info
           - name: "PPP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_info
           - name: "PPP_INFO_2"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_info_2
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_info_2
           - name: "PPP_INFO_3"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_info_3
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_info_3
           - name: "PPP_IPCP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_ipcp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_ipcp_info
           - name: "PPP_IPCP_INFO2"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_ipcp_info2
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_ipcp_info2
           - name: "PPP_IPXCP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_ipxcp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_ipxcp_info
           - name: "PPP_IPV6_CP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_ipv6_cp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_ipv6_cp_info
           - name: "PPP_LCP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_lcp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_lcp_info
           - name: "PPP_NBFCP_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_nbfcp_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_nbfcp_info
           - name: "RAS_CONNECTION_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_connection_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_connection_0
           - name: "RAS_CONNECTION_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_connection_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_connection_1
           - name: "RAS_CONNECTION_2"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_connection_2
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_connection_2
           - name: "RAS_CONNECTION_3"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_connection_3
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_connection_3
           - name: "RAS_CONNECTION_EX"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_connection_ex
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_connection_ex
           - name: "RAS_PORT_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_port_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_port_0
           - name: "RAS_PORT_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_port_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_port_1
           - name: "RAS_USER_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_user_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_user_0
           - name: "RAS_USER_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ras_user_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_user_1
         - name: "RAS Administration Enumerations"
           href: ras-administration-enumerations.md
           items: 
           - name: "RAS_HARDWARE_CONDITION"
-            href: /windows/desktop/api/Mprapi/ne-mprapi-_ras_hardware_condition
+            href: /windows/win32/api/Mprapi/ne-mprapi-ras_hardware_condition
           - name: "RAS_PORT_CONDITION"
-            href: /windows/desktop/api/Mprapi/ne-mprapi-_ras_port_condition
+            href: /windows/win32/api/Mprapi/ne-mprapi-ras_port_condition
           - name: "RAS_QUARANTINE_STATE"
-            href: /windows/desktop/api/Mprapi/ne-mprapi-_ras_quarantine_state
+            href: /windows/win32/api/Mprapi/ne-mprapi-ras_quarantine_state
       - name: "RAS Server Administration Reference"
         href: ras-server-administration-reference.md
         items: 
@@ -570,13 +570,13 @@
           - name: "RAS_PPP_PROJECTION_RESULT"
             href: ras-ppp-projection-result-str.md
           - name: "RAS_SECURITY_INFO"
-            href: /windows/desktop/api/Rasshost/ns-rasshost-_ras_security_info
+            href: /windows/win32/api/Rasshost/ns-rasshost-ras_security_info
           - name: "RAS_SERVER_0"
             href: ras-server-0-str.md
           - name: "RAS_USER_0"
             href: ras-user-0-str.md
           - name: "SECURITY_MESSAGE"
-            href: /windows/desktop/api/Rasshost/ns-rasshost-_security_message
+            href: /windows/win32/api/Rasshost/ns-rasshost-security_message
         - name: "RAS Server Administration Enumerations"
           href: ras-server-administration-enumerations.md
           items: 
@@ -828,9 +828,9 @@
               href: ipx-information-structures.md
               items: 
               - name: "IPX_IF_INFO"
-                href: /windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipx_if_info
+                href: /windows/win32/api/Ipxrtdef/ns-ipxrtdef-ipx_if_info
               - name: "IPXWAN_IF_INFO"
-                href: /windows/desktop/api/Ipxrtdef/ns-ipxrtdef-_ipxwan_if_info
+                href: /windows/win32/api/Ipxrtdef/ns-ipxrtdef-ipxwan_if_info
           - name: "Router Information Enumerations"
             href: router-information-enumerations.md
             items: 
@@ -844,17 +844,17 @@
           href: router-management-structures.md
           items: 
           - name: "AUTH_VALIDATION_EX"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_auth_validation_ex
+            href: /windows/win32/api/Mprapi/ns-mprapi-auth_validation_ex
           - name: "IKEV2_CONFIG_PARAMS"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ikev2_config_params
+            href: /windows/win32/api/Mprapi/ns-mprapi-ikev2_config_params
           - name: "IKEV2_PROJECTION_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ikev2_projection_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ikev2_projection_info
           - name: "IKEV2_PROJECTION_INFO2"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2
+            href: /windows/win32/api/mprapi/ns-mprapi-ikev2_projection_info2
           - name: "IKEV2_TUNNEL_CONFIG_PARAMS1"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_ikev2_tunnel_config_params1
+            href: /windows/win32/api/mprapi/ns-mprapi-ikev2_tunnel_config_params1
           - name: "IKEV2_TUNNEL_CONFIG_PARAMS2"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_ikev2_tunnel_config_params2
+            href: /windows/win32/api/mprapi/ns-mprapi-ikev2_tunnel_config_params2
           - name: "IP_ADAPTER_BINDING_INFO"
             href: /windows/desktop/api/Routprot/ns-routprot-ip_adapter_binding_info
           - name: "IP_LOCAL_BINDING"
@@ -864,76 +864,76 @@
           - name: "IPV6_LOCAL_BINDING"
             href: /windows/desktop/api/Routprot/ns-routprot-ipv6_local_binding
           - name: "L2TP_CONFIG_PARAMS"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_l2tp_config_params0
+            href: /windows/win32/api/Mprapi/ns-mprapi-l2tp_config_params0
           - name: "MPR_CREDENTIALSEX_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_credentialsex_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_credentialsex_0
           - name: "MPR_CREDENTIALSEX_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_credentialsex_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_credentialsex_1
           - name: "MPR_DEVICE_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_device_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_device_0
           - name: "MPR_DEVICE_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_device_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_device_1
           - name: "MPR_FILTER_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_filter_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_filter_0
           - name: "MPR_IF_CUSTOMINFOEX0"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_mpr_if_custominfoex0
+            href: /windows/win32/api/mprapi/ns-mprapi-mpr_if_custominfoex0
           - name: "MPR_IFTRANSPORT_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_iftransport_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_iftransport_0
           - name: "MPR_INTERFACE_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_interface_0
           - name: "MPR_INTERFACE_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_interface_1
           - name: "MPR_INTERFACE_2"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_2
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_interface_2
           - name: "MPR_INTERFACE_3"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_interface_3
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_interface_3
           - name: "MPR_SERVER_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_server_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_server_0
           - name: "MPR_SERVER_1"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_server_1
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_server_1
           - name: "MPR_SERVER_2"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_server_2
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_server_2
           - name: "MPR_SERVER_EX"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_server_ex0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_server_ex0
           - name: "MPR_SERVER_SET_CONFIG_EX"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_server_set_config_ex0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_server_set_config_ex0
           - name: "MPR_TRANSPORT_0"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mpr_transport_0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mpr_transport_0
           - name: "MPRAPI_OBJECT_HEADER"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mprapi_object_header
+            href: /windows/win32/api/Mprapi/ns-mprapi-mprapi_object_header
           - name: "MPRAPI_TUNNEL_CONFIG_PARAMS"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_mprapi_tunnel_config_params0
+            href: /windows/win32/api/Mprapi/ns-mprapi-mprapi_tunnel_config_params0
           - name: "PPP_PROJECTION_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_ppp_projection_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-ppp_projection_info
           - name: "PPP_PROJECTION_INFO2"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2
+            href: /windows/win32/api/mprapi/ns-mprapi-ppp_projection_info2
           - name: "PPTP_CONFIG_PARAMS"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_pptp_config_params
+            href: /windows/win32/api/Mprapi/ns-mprapi-pptp_config_params
           - name: "PROJECTION_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_projection_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-projection_info
           - name: "PROJECTION_INFO2"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_projection_info2
+            href: /windows/win32/api/mprapi/ns-mprapi-projection_info2
           - name: "RAS_CONNECTION_4"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_ras_connection_4
+            href: /windows/win32/api/mprapi/ns-mprapi-ras_connection_4
           - name: "RAS_UPDATE_CONNECTION"
             href: /windows/desktop/api/Mprapi/ns-mprapi-ras_update_connection_
           - name: "ROUTER_CUSTOM_IKEV2_POLICY0"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_router_custom_ikev2_policy0
+            href: /windows/win32/api/mprapi/ns-mprapi-router_custom_ikev2_policy0
           - name: "ROUTER_IKEV2_IF_CUSTOM_CONFIG0"
-            href: /windows/desktop/api/mprapi/ns-mprapi-_router_ikev2_if_custom_config0
+            href: /windows/win32/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0
           - name: "SSTP_CERT_INFO"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_sstp_cert_info
+            href: /windows/win32/api/Mprapi/ns-mprapi-sstp_cert_info
           - name: "SSTP_CONFIG_PARAMS"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-_sstp_config_params
+            href: /windows/win32/api/Mprapi/ns-mprapi-sstp_config_params
         - name: "Router Management Enumerations"
           href: router-management-enumerations.md
           items: 
           - name: "MPRAPI_OBJECT_TYPE"
-            href: /windows/desktop/api/Mprapi/ne-mprapi-_mprapi_object_type
+            href: /windows/win32/api/Mprapi/ne-mprapi-mprapi_object_type
           - name: "ROUTER_CONNECTION_STATE"
-            href: /windows/desktop/api/Mprapi/ne-mprapi-_router_connection_state
+            href: /windows/win32/api/Mprapi/ne-mprapi-router_connection_state
           - name: "ROUTER_INTERFACE_TYPE"
-            href: /windows/desktop/api/Mprapi/ne-mprapi-_router_interface_type
+            href: /windows/win32/api/Mprapi/ne-mprapi-router_interface_type
           - name: "Unreachability Reasons"
             href: unreachability-reasons.md
     - name: "Router Managers and Management Information Base"
@@ -1120,16 +1120,16 @@
           href: multicast-group-manager-structures.md
           items: 
           - name: "MGM_IF_ENTRY"
-            href: /windows/desktop/api/Mgm/ns-mgm-_mgm_if_entry
+            href: /windows/win32/api/Mgm/ns-mgm-mgm_if_entry
           - name: "ROUTING_PROTOCOL_CONFIG"
-            href: /windows/desktop/api/Mgm/ns-mgm-_routing_protocol_config
+            href: /windows/win32/api/Mgm/ns-mgm-routing_protocol_config
           - name: "SOURCE_GROUP_ENTRY"
-            href: /windows/desktop/api/Mgm/ns-mgm-_source_group_entry
+            href: /windows/win32/api/Mgm/ns-mgm-source_group_entry
         - name: "Multicast Group Manager Enumerations"
           href: multicast-group-manager-enumerations.md
           items: 
           - name: "MGM_ENUM_TYPES"
-            href: /windows/desktop/api/Mgm/ne-mgm-_mgm_enum_types
+            href: /windows/win32/api/Mgm/ne-mgm-mgm_enum_types
     - name: "Routing Protocol Interface"
       href: routing-protocol-interface.md
       items: 
@@ -1206,18 +1206,18 @@
           href: routing-protocol-interface-structures.md
           items: 
           - name: "MESSAGE"
-            href: /windows/desktop/api/Routprot/ns-routprot-_message
+            href: /windows/win32/api/Routprot/ns-routprot-message
           - name: "MPR_ROUTING_CHARACTERISTICS"
-            href: /windows/desktop/api/Routprot/ns-routprot-_mpr50_routing_characteristics
+            href: /windows/win32/api/Routprot/ns-routprot-mpr50_routing_characteristics
           - name: "MPR_SERVICE_CHARACTERISTICS"
             href: https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_mpr40_service_characteristics
           - name: "UPDATE_COMPLETE_MESSAGE"
-            href: /windows/desktop/api/Routprot/ns-routprot-_update_complete_message
+            href: /windows/win32/api/Routprot/ns-routprot-update_complete_message
           - name: "Support Functions Reference"
             href: support-functions-reference.md
             items: 
             - name: "SUPPORT_FUNCTIONS"
-              href: /windows/desktop/api/Routprot/ns-routprot-_support_functions_50
+              href: /windows/win32/api/Routprot/ns-routprot-support_functions_50
             - name: "DemandDialRequest"
               href: demanddialrequest.md
             - name: "MIBEntryCreate"
@@ -1268,9 +1268,9 @@
             href: service-table-management-structures.md
             items: 
             - name: "IPX_SERVER_ENTRY"
-              href: /windows/desktop/api/Stm/ns-stm-_ipx_server_entry
+              href: /windows/win32/api/Stm/ns-stm-ipx_server_entry
             - name: "IPX_SERVICE"
-              href: /windows/desktop/api/Stm/ns-stm-_ipx_service
+              href: /windows/win32/api/Stm/ns-stm-ipx_service
     - name: "Routing Table Manager Version 1"
       href: routing-table-manager-version-1.md
       items: 
@@ -1588,29 +1588,29 @@
           href: routing-table-manager-version-2-structures.md
           items: 
           - name: "RTM_DEST_INFO"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_dest_info
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_dest_info
           - name: "RTM_ENTITY_EXPORT_METHODS"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_entity_export_methods
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_entity_export_methods
           - name: "RTM_ENTITY_ID"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_entity_id
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_entity_id
           - name: "RTM_ENTITY_INFO"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_entity_info
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_entity_info
           - name: "RTM_ENTITY_METHOD_INPUT"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_entity_method_input
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_entity_method_input
           - name: "RTM_ENTITY_METHOD_OUTPUT"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_entity_method_output
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_entity_method_output
           - name: "RTM_NET_ADDRESS"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_net_address
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_net_address
           - name: "RTM_NEXTHOP_INFO"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_nexthop_info
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_nexthop_info
           - name: "RTM_NEXTHOP_LIST"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_nexthop_list
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_nexthop_list
           - name: "RTM_PREF_INFO"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_pref_info
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_pref_info
           - name: "RTM_REGN_PROFILE"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_regn_profile
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_regn_profile
           - name: "RTM_ROUTE_INFO"
-            href: /windows/desktop/api/Rtmv2/ns-rtmv2-_rtm_route_info
+            href: /windows/win32/api/Rtmv2/ns-rtmv2-rtm_route_info
         - name: "Routing Table Manager Version 2 Macros"
           href: routing-table-manager-version-2-macros.md
           items: 
@@ -1651,7 +1651,7 @@
           href: routing-table-manager-version-2-enumerations.md
           items: 
           - name: "RTM_EVENT_TYPE"
-            href: /windows/desktop/api/Rtmv2/ne-rtmv2-_rtm_event_type
+            href: /windows/win32/api/Rtmv2/ne-rtmv2-rtm_event_type
         - name: "Routing Table Manager Version 2 Simple Data Types"
           href: routing-table-manager-version-2-simple-data-types.md
   - name: "Glossary"

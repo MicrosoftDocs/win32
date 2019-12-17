@@ -24,8 +24,8 @@ Changes or animates the value of the Angle property of a rotation transform. The
 
 | Method                                                                                                     | Description                                          |
 |:-----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAngle(float)**](https://msdn.microsoft.com/en-us/library/Hh448972(v=VS.85).aspx)                                     | Changes the value of the Angle property.<br/>  |
-| [**SetAngle(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448974(v=VS.85).aspx) | Animates the value of the Angle property.<br/> |
+| [**SetAngle(float)**](https://msdn.microsoft.com/library/Hh448972(v=VS.85).aspx)                                     | Changes the value of the Angle property.<br/>  |
+| [**SetAngle(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448974(v=VS.85).aspx) | Animates the value of the Angle property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the Angle property of a rotation transform. The
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
 </dt> </dl>
 
 �

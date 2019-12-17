@@ -241,7 +241,7 @@ The total allocated for the file (the sum of the allocated clusters).
 
 Note that there is no associated header file for this structure.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
 
 Attribute records are always aligned on a quadword boundary.
 

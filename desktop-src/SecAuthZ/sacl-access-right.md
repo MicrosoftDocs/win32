@@ -12,10 +12,10 @@ The ACCESS\_SYSTEM\_SECURITY access right controls the ability to get or set the
 
 **To access an object's SACL**
 
-1.  Call the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/en-us/library/Aa375202(v=VS.85).aspx) function to enable the SE\_SECURITY\_NAME privilege.
+1.  Call the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/library/Aa375202(v=VS.85).aspx) function to enable the SE\_SECURITY\_NAME privilege.
 2.  Request the ACCESS\_SYSTEM\_SECURITY access right when you open a handle to the object.
 3.  Get or set the object's SACL by using a function such as [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) or [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo).
-4.  Call [**AdjustTokenPrivileges**](https://msdn.microsoft.com/en-us/library/Aa375202(v=VS.85).aspx) to disable the SE\_SECURITY\_NAME privilege.
+4.  Call [**AdjustTokenPrivileges**](https://msdn.microsoft.com/library/Aa375202(v=VS.85).aspx) to disable the SE\_SECURITY\_NAME privilege.
 
 To access a SACL using the [**GetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa) or [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) functions, enable the SE\_SECURITY\_NAME privilege. The function internally requests the access right.
 

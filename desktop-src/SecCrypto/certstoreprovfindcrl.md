@@ -16,7 +16,7 @@ api_location:
 
 # CertStoreProvFindCRL callback function
 
-The **CertStoreProvFindCRL** callback function enumerates or finds the first or next [*CRL*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) in an external [*store*](https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx) that matches specified criteria.
+The **CertStoreProvFindCRL** callback function enumerates or finds the first or next [*CRL*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) in an external [*store*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) that matches specified criteria.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ BOOL WINAPI CertStoreProvFindCRL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

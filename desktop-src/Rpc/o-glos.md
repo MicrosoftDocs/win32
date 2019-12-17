@@ -1,7 +1,7 @@
 ---
 title: O (RPC)
 description: Words starting with O in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 36f7998d-6f4a-43d9-ba17-44260cdca405
 ms.topic: article
 ms.date: 05/31/2018

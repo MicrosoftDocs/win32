@@ -2,10 +2,10 @@
 title: else - vs
 description: Start of an else block.
 ms.assetid: c3bd99c2-35a1-4ffd-9781-4bac9f6bb0ef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

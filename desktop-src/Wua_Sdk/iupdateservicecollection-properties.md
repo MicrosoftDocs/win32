@@ -14,7 +14,7 @@ The [**IUpdateServiceCollection**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatese
 
 | Property                                               | Description                                                                                                          |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get__newenum) | Gets an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface that is used to enumerate the collection. |
+| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get__newenum) | Gets an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface that is used to enumerate the collection. |
 | [**Count**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get_count)        | Gets the number of elements in the collection.                                                                       |
 | [**Item**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicecollection-get_item)          | Gets and sets an [**IUpdateService**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateservice) interface in the collection.                               |
 

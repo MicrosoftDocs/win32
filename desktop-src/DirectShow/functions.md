@@ -1,12 +1,12 @@
 ---
-Description: Functions
+Description: DirectShow functions
 ms.assetid: '5bf62e2a-7d5f-4feb-872a-54d102759824'
 title: Functions
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# DirectShow functions
 
 DirectShow provides the following function.
 
@@ -14,7 +14,7 @@ DirectShow provides the following function.
 
 | Function                                 | Description                                              |
 |------------------------------------------|----------------------------------------------------------|
-| [**AMGetErrorText**](https://msdn.microsoft.com/en-us/library/Dd373430(v=VS.85).aspx) | Retrieves the error message text for a given message ID. |
+| [**AMGetErrorText**](https://msdn.microsoft.com/library/Dd373430(v=VS.85).aspx) | Retrieves the error message text for a given message ID. |
 
 
 

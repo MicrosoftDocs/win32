@@ -28,7 +28,7 @@ void SelectionChanging(
 *NewSelection* \[in\]
 </dt> <dd>
 
-The new collection of [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) that is being selected.
+The new collection of [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) that is being selected.
 
 </dd> </dl>
 

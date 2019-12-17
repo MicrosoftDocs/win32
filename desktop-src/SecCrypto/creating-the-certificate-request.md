@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating the Certificate Request
 
-The process of creating a certificate request involves collecting certain information from the requester. Usually, this is done through some sort of user interface (UI), although the information could be taken directly from a database without the need for a UI. The level of information required is set by the policy of the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).
+The process of creating a certificate request involves collecting certain information from the requester. Usually, this is done through some sort of user interface (UI), although the information could be taken directly from a database without the need for a UI. The level of information required is set by the policy of the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
 
 An example of the required information might be as follows:
 
@@ -20,7 +20,7 @@ An example of the required information might be as follows:
 -   Country/Region
 
 > [!Note]  
-> The interface is designed to make a single request for each xenroll instance. A separate xenroll instance must be created to create each [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+> The interface is designed to make a single request for each xenroll instance. A separate xenroll instance must be created to create each [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
  
 

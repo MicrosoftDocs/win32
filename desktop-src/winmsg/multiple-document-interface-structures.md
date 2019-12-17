@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MDI Structures
 
--   [**MDICREATESTRUCT**](https://msdn.microsoft.com/en-us/library/ms644910(v=VS.85).aspx)
+-   [**MDICREATESTRUCT**](https://msdn.microsoft.com/library/ms644910(v=VS.85).aspx)
 
  
 

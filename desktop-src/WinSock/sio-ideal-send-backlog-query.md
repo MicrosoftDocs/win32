@@ -2,8 +2,6 @@
 Description: Control code retrieves the ideal send backlog value for the underlying connection.
 ms.assetid: 03fe964b-26f7-4af7-83bf-62cc877d01a8
 title: SIO_IDEAL_SEND_BACKLOG_QUERY Control Code
-author: TimShererWithAquent
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]

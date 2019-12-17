@@ -2,10 +2,10 @@
 title: dsx - ps
 description: Compute the rate of change in the render target's x-direction.
 ms.assetid: 3358ddca-97a3-421d-8e5d-6b425903e683
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

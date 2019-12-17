@@ -52,7 +52,7 @@ Pointer to an [**ID3DXSprite**](id3dxsprite.md) object that contains the string.
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string to draw. If the Count parameter is -1, the string must be null-terminated.
 
@@ -61,7 +61,7 @@ Pointer to a string to draw. If the Count parameter is -1, the string must be nu
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the number of characters in the string. If Count is -1, then the pString parameter is assumed to be a pointer to a null-terminated string and **DrawText** computes the character count automatically.
 
@@ -70,16 +70,16 @@ Specifies the number of characters in the string. If Count is -1, then the pStri
 *pRect* \[in\]
 </dt> <dd>
 
-Type: **[**LPRECT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPRECT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. The coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
+Pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. The coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
 
 </dd> <dt>
 
 *Format* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the method of formatting the text. It can be any combination of the following values:
 
@@ -117,13 +117,13 @@ Color of the text. For more information, see [**D3DCOLOR**](d3dcolor.md).
 
 ## Return value
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 If the function succeeds, the return value is the height of the text in logical units. If DT\_VCENTER or DT\_BOTTOM is specified, the return value is the offset from pRect (top to the bottom) of the drawn text. If the function fails, the return value is zero.
 
 ## Remarks
 
-The parameters of this method are very similar to those of the GDI [**DrawText**](https://msdn.microsoft.com/en-us/library/Dd162498(v=VS.85).aspx) function.
+The parameters of this method are very similar to those of the GDI [**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx) function.
 
 This method supports both ANSI and Unicode strings.
 

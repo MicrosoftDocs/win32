@@ -46,7 +46,7 @@ Indicates that the interval between two keyframes in a storyboard should repeat 
 [Constants](constants.md)
 </dt> <dt>
 
-[**IUIAnimationStoryboard2::RepeatBetweenKeyframes**](https://msdn.microsoft.com/en-us/library/Hh448593(v=VS.85).aspx)
+[**IUIAnimationStoryboard2::RepeatBetweenKeyframes**](https://msdn.microsoft.com/library/Hh448593(v=VS.85).aspx)
 </dt> </dl>
 
  

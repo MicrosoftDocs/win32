@@ -25,7 +25,7 @@ Before you start using the XPS Document API, make sure that you are familiar wit
 When using the XPS Document API, you might also want to use the following technologies:<dl>
 
 [DirectWrite](https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal)  
-[XPS Print API](https://msdn.microsoft.com/en-us/library/Ff728890(v=VS.85).aspx)  
+[XPS Print API](https://msdn.microsoft.com/library/Ff728890(v=VS.85).aspx)  
 [XPS Digital Signature API](xps-digital-signatures.md)  
 </dl>
 

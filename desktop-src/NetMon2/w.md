@@ -1,6 +1,6 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter W.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b768f51a-62ff-467c-b8a7-5c7f9932953a
 title: W (Network Monitor)
 ms.topic: article

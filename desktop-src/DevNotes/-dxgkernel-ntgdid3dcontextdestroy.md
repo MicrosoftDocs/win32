@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DContextDestroy(
 *pContextDestroyData* \[in\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_CONTEXTDESTROYDATA**](https://msdn.microsoft.com/en-us/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to destroy the context.
+Pointer to a [**D3DNTHAL\_CONTEXTDESTROYDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to destroy the context.
 
 </dd> </dl>
 

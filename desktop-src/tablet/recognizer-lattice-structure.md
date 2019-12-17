@@ -52,7 +52,7 @@ In this case, a recognizer might create the following lattice structure.
 ![lattice structure for the word "together"](images/2496c3dd-8b08-4f86-9fe3-f118be49a8c8.gif)
 
 > [!Note]  
-> Each column shares the same stroke order because they all refer to the same [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection.
+> Each column shares the same stroke order because they all refer to the same [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection.
 
  
 

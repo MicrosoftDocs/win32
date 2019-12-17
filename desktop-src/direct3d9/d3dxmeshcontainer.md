@@ -88,7 +88,7 @@ Pointer to a set of default effect parameters. See [**D3DXEFFECTINSTANCE**](d3dx
 **NumMaterials**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -99,7 +99,7 @@ Number of materials in the mesh.
 **pAdjacency**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 </dd> <dd>
 

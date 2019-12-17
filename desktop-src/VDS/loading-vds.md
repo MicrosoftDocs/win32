@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 **To load and initialize VDS**
 
 1.  Release non-null interfaces.
-2.  Call the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx), [**CoCreateInstanceEx**](https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx), or [**CoGetClassObject**](https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx) function to obtain a pointer to the service loader object.
+2.  Call the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx), [**CoCreateInstanceEx**](https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx), or [**CoGetClassObject**](https://msdn.microsoft.com/library/ms684007(v=VS.85).aspx) function to obtain a pointer to the service loader object.
 
-    **CLSCTX\_DISABLE\_AAA** cannot be specified in this call. If [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) is called, **EOAC\_DISABLE\_AAA** cannot be specified in the *dwCapabilities* parameter.
+    **CLSCTX\_DISABLE\_AAA** cannot be specified in this call. If [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) is called, **EOAC\_DISABLE\_AAA** cannot be specified in the *dwCapabilities* parameter.
 
 3.  Call the [**IVdsServiceLoader::LoadService**](/windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice) method to load VDS.
 

@@ -64,7 +64,7 @@ The polarity of the pin or channel as a [**PWM\_POLARITY**](/windows/desktop/api
 [**IOCTL\_PWM\_PIN\_GET\_POLARITY**](https://www.bing.com/search?q=**IOCTL\_PWM\_PIN\_GET\_POLARITY**)
 </dt> <dt>
 
-[**PWM\_POLARITY**](https://msdn.microsoft.com/en-us/library/Mt843932(v=VS.85).aspx)
+[**PWM\_POLARITY**](https://msdn.microsoft.com/library/Mt843932(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -59,7 +59,7 @@ Checks whether MDM registration is allowed by local policy.
 [**RegisterDeviceWithManagement**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement)
 </dt> <dd>
 
-Registers a device with a MDM service, using the [\[MS-MDE\]: Mobile Device Enrollment Protocol](https://msdn.microsoft.com/en-us/library/Dn409494(v=PROT.20).aspx).
+Registers a device with a MDM service, using the [\[MS-MDE\]: Mobile Device Enrollment Protocol](https://msdn.microsoft.com/library/Dn409494(v=PROT.20).aspx).
 
 </dd> <dt>
 

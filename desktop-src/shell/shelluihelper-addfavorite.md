@@ -48,7 +48,7 @@ iRetVal = ShellUIHelper.AddFavorite(
 *sURL* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** value that specifies the URL of the item to be added to the **Favorites** folder.
 

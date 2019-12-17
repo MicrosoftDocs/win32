@@ -20,8 +20,8 @@ The overloaded **FormatMessageW** method formats a message string.
 
 | Method                                                              | Description                                                                                     |
 |:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**FormatMessageW(UINT)**](https://msdn.microsoft.com/en-us/library/Aa385519(v=VS.85).aspx)       | Formats this message according to the resource identifier specified by the **UINT**.<br/> |
-| [**FormatMessageW(LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385515(v=VS.85).aspx) | Formats this message string according to the format specified by the **LPCWSTR**.<br/>    |
+| [**FormatMessageW(UINT)**](https://msdn.microsoft.com/library/Aa385519(v=VS.85).aspx)       | Formats this message according to the resource identifier specified by the **UINT**.<br/> |
+| [**FormatMessageW(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385515(v=VS.85).aspx) | Formats this message string according to the format specified by the **LPCWSTR**.<br/>    |
 
 
 

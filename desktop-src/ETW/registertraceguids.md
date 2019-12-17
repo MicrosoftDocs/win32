@@ -120,7 +120,7 @@ Pointer to the provider's registration handle. Use this handle when you call the
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 > [!Note]  
 > This function can return the return value from [*ControlCallback*](controlcallback.md) if a controller calls [**EnableTrace**](enabletrace.md) to enable the provider and the provider has not yet called **RegisterTraceGuids**. When this occurs, **RegisterTraceGuids** will return the return value of the callback if the registration was successful.

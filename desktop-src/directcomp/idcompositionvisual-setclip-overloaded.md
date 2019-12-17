@@ -24,8 +24,8 @@ Sets the Clip property of this visual to the specified rectangular region or cli
 
 | Method                                                                                | Description                                                            |
 |:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| [**SetClip(const D2D\_RECT\_F&)**](https://msdn.microsoft.com/en-us/library/Hh449151(v=VS.85).aspx) | Sets the Clip property to the specified rectangular region.<br/> |
-| [**SetClip(IDCompositionClip\*)**](https://msdn.microsoft.com/en-us/library/Hh449153(v=VS.85).aspx) | Sets the Clip property to the specified clip object.<br/>        |
+| [**SetClip(const D2D\_RECT\_F&)**](https://msdn.microsoft.com/library/Hh449151(v=VS.85).aspx) | Sets the Clip property to the specified rectangular region.<br/> |
+| [**SetClip(IDCompositionClip\*)**](https://msdn.microsoft.com/library/Hh449153(v=VS.85).aspx) | Sets the Clip property to the specified clip object.<br/>        |
 
 
 
@@ -50,7 +50,7 @@ Sets the Clip property of this visual to the specified rectangular region or cli
 [Clipping](clipping.md)
 </dt> <dt>
 
-[**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx)
+[**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx)
 </dt> </dl>
 
 �

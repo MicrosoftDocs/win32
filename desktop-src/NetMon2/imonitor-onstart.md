@@ -37,7 +37,7 @@ HRESULT OnStart(
 *pUnkNPP* \[in\]
 </dt> <dd>
 
-An [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer to the [IRTC](irtc.md) interface. The monitor can use this interface to obtain statistics that can be used to determine if the capture should be started.
+An [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer to the [IRTC](irtc.md) interface. The monitor can use this interface to obtain statistics that can be used to determine if the capture should be started.
 
 </dd> </dl>
 

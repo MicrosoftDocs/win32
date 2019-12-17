@@ -119,7 +119,7 @@ Access type: Read-only
 Qualifiers: [**WmiDataId**](event-tracing-mof-qualifiers.md) (8)
 </dt> </dl>
 
-The time between I/O initiation and completion as measured by the partition manager (in the [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/en-us/library/Ff553053(v=VS.85).aspx) tick units).
+The time between I/O initiation and completion as measured by the partition manager (in the [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/library/Ff553053(v=VS.85).aspx) tick units).
 
 **Windows Server 2003:** This property has a [**WmiDataId**](event-tracing-mof-qualifiers.md) value of 7.
 

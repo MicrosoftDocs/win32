@@ -17,7 +17,7 @@ Media files contain properties that describe the contents of the file. In Micros
 There are two ways to read metadata in Media Foundation:
 
 -   The [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) interface (Media Foundation version 1 metadata).
--   The Windows Shell [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface (Shell metadata).
+-   The Windows Shell [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface (Shell metadata).
 
 Shell metadata pertains not only to media files but to a much wider range of files on the system.
 
@@ -79,7 +79,7 @@ Shell metadata in general does not require Windows 7, but Media Foundation did 
 
 | Topic                                                                                     | Description                                                                                                                                |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [Shell Metadata Providers](shell-metadata-providers.md)<br/>                       | Starting in Windows 7, Media Foundation exposes metadata through the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface.<br/> |
+| [Shell Metadata Providers](shell-metadata-providers.md)<br/>                       | Starting in Windows 7, Media Foundation exposes metadata through the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface.<br/> |
 | [Metadata Properties for Media Files](metadata-properties-for-media-files.md)<br/> | This topic lists the most common metadata properties for media files.<br/>                                                           |
 | [Metadata Providers in Windows Vista](metadata-providers-in-windows-vista.md)<br/> | In Windows Vista, Media Foundation exposes metadata through the [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) interface.<br/>                   |
 

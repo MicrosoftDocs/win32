@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](https://msdn.microsoft.com/en-us/library/Aa965729(v=VS.85).aspx) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
+Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
 
 ## Regular Queries
 

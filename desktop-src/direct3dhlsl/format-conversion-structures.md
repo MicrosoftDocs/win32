@@ -1,17 +1,17 @@
 ---
-title: Structures
+title: Format conversion structures (HLSL reference)
 ms.assetid: b7af5595-ec09-49b4-8458-57dd8fb8a9cc
 description: 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
 ---
 
-# Structures
+# Format conversion structures (HLSL reference)
 
 This section contains the following structures:
 

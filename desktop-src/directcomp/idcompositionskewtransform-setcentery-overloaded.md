@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a of a 2D skew transfor
 
 | Method                                                                                                       | Description                                            |
 |:-------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/en-us/library/Hh449077(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449079(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh449077(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449079(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterY property of a of a 2D skew transfor
 
 <dl> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
 </dt> </dl>
 
 �

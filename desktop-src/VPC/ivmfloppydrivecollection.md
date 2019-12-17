@@ -25,7 +25,7 @@ Defines a collection of floppy drives within the virtual machine. To obtain an *
 
 ## Members
 
-The **IVMFloppyDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDriveCollection** also has these types of members:
+The **IVMFloppyDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDriveCollection** also has these types of members:
 
 -   [Properties](#properties)
 

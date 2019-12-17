@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HDC**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HDC**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Handle to a display DC.
 

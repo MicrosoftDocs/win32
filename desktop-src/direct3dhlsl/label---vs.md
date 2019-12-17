@@ -2,10 +2,10 @@
 title: label - vs
 description: Mark the next instruction as having a label index.
 ms.assetid: e1aee8bc-4655-4bd5-8012-bd7a2d46e712
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

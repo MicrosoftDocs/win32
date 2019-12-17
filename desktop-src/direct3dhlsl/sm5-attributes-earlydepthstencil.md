@@ -2,10 +2,10 @@
 title: earlydepthstencil
 description: Forces depth-stencil testing before a shader executes.
 ms.assetid: f8a9fee7-4a8a-4a34-bf7c-56906592caac
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

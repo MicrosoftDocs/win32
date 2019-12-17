@@ -1,5 +1,5 @@
 ---
-title: InterlockedCompareExchange function
+title: InterlockedCompareExchange function (HLSL reference)
 description: Atomically compares the destination with the comparison value. If they are identical, the destination is overwritten with the input value. The original value is set to the destination's original value.
 ms.assetid: 85d1ba58-8e79-41cd-abd6-7ffff59839c7
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedCompareExchange function
+# InterlockedCompareExchange function (HLSL reference)
 
 Atomically compares the destination with the comparison value. If they are identical, the destination is overwritten with the input value. The original value is set to the destination's original value.
 

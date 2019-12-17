@@ -21,8 +21,8 @@ ms.date: 05/31/2018
 
 The following structures are used with multimedia file I/O.
 
--   [**MMCKINFO**](https://msdn.microsoft.com/en-us/library/Dd757312(v=VS.85).aspx)
--   [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx)
+-   [**MMCKINFO**](https://msdn.microsoft.com/library/Dd757312(v=VS.85).aspx)
+-   [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx)
 
 ## Related topics
 

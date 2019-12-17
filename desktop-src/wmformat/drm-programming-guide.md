@@ -1,6 +1,6 @@
 ---
-title: Programming Guide
-description: Programming Guide
+title: Microsoft Windows Media DRM Client Programming Guide
+description: Microsoft Windows Media DRM Client Programming Guide
 ms.assetid: e7b179b3-ed14-4ea0-9a00-9d96557a2e2e
 keywords:
 - Windows Media Format SDK,DRM Client Extended APIs

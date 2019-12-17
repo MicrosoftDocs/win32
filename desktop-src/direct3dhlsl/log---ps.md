@@ -2,10 +2,10 @@
 title: log - ps
 description: Full precision log₂(x).
 ms.assetid: e540a082-5916-4111-b908-bb229c9e7dc8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

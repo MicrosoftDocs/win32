@@ -2,7 +2,6 @@
 title: IBackgroundCopyManager Methods (DO)
 description: The IBackgroundCopyManager interface exposes the following methods.
 ms.assetid: DF517077-4775-473C-B16B-7EFB0AD9D169
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -51,7 +51,7 @@ Create an index buffer object by calling the [**IDirect3DDevice9::CreateIndexBuf
 
 -   The third parameter is either the D3DFMT\_INDEX16 or D3DFMT\_INDEX32 member of the [D3DFORMAT](d3dformat.md) enumerated type that specifies the size of each index.
 
--   The fourth parameter is a member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type that tells the system where in memory to place the new index buffer.
+-   The fourth parameter is a member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type that tells the system where in memory to place the new index buffer.
 
 -   The final parameter that [**IDirect3DDevice9::CreateIndexBuffer**](https://msdn.microsoft.com/library/Bb174357(v=VS.85).aspx) accepts is the address of a variable that is filled with a pointer to the new [**IDirect3DIndexBuffer9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx) interface of the vertex buffer object, if the call succeeds.
 

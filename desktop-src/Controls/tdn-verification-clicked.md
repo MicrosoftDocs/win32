@@ -71,7 +71,7 @@ The return value is ignored.
 **Reference**
 </dt> <dt>
 
-[*TaskDialogCallbackProc*](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx)
+[*TaskDialogCallbackProc*](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx)
 </dt> </dl>
 
  

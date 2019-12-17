@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About the Media Service Provider (MSP)
 
-A TAPI 3 media service provider (MSP) allows an application considerable control over the media for a particular transport mechanism. An MSP always exists paired with a Telephony Service Provider (TSP). Just as a TSP is an abstraction layer for call control, the MSP controls media without need for device-specific coding. For an example of MSP/TSP communication, see [TAPI Service Provider Overview](https://msdn.microsoft.com/en-us/library/ms725514(v=VS.85).aspx).
+A TAPI 3 media service provider (MSP) allows an application considerable control over the media for a particular transport mechanism. An MSP always exists paired with a Telephony Service Provider (TSP). Just as a TSP is an abstraction layer for call control, the MSP controls media without need for device-specific coding. For an example of MSP/TSP communication, see [TAPI Service Provider Overview](https://msdn.microsoft.com/library/ms725514(v=VS.85).aspx).
 
 An MSP enables media control through the use of special terminal, stream, and substream interfaces defined by TAPI. The diagram in [About Call and Media Controls](about-call-and-media-controls.md) illustrates how these interfaces appear to a TAPI 3 application.
 

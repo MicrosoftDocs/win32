@@ -58,7 +58,7 @@ Pointer to a user-provided evaluator function, which will be used to compute the
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to an arbitrary block of user-defined data. This pointer will be passed to the function provided in *pFunction*.
 
@@ -66,7 +66,7 @@ Pointer to an arbitrary block of user-defined data. This pointer will be passed 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL.
 

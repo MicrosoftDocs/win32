@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Common Errors
+# Common Errors (AD DS)
 
 The following table contains a list of common errors that can occur based on the scope of the group being nested.
 

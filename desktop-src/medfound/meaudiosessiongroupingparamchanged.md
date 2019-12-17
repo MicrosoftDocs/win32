@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnGroupingParamChanged**](https://msdn.microsoft.com/en-us/library/Dd370937(v=VS.85).aspx) event from the audio session.
+This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnGroupingParamChanged**](https://msdn.microsoft.com/library/Dd370937(v=VS.85).aspx) event from the audio session.
 
 To get the new grouping parameters, call [**IMFAudioPolicy::GetGroupingParam**](/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getgroupingparam).
 

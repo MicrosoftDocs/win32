@@ -1,13 +1,13 @@
 ---
+title: Set the default process security level with VBScript
 Description: A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection.
 ms.assetid: cb477224-3117-45e4-9271-613b58e48b6e
 ms.tgt_platform: multiple
-title: Setting the Default Process Security Level Using VBScript
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Setting the Default Process Security Level Using VBScript
+# Set the default process security level with VBScript
 
 A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md) and [Requiring an Encrypted Connection to a Namespace](requiring-an-encrypted-connection-to-a-namespace.md).
 
@@ -29,7 +29,7 @@ Next
 
 
 
-You can also use a [moniker](constructing-a-moniker-string.md) in a call to [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx), and set the default security settings, as in the following example.
+You can also use a [moniker](constructing-a-moniker-string.md) in a call to [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx), and set the default security settings, as in the following example.
 
 
 ```VB

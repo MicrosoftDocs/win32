@@ -41,7 +41,7 @@ HRESULT IPropertyBag2_Write_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
 
 PARAMDESC
 
@@ -57,7 +57,7 @@ Type: **ULONG**
 *ppropBag* \[in\]
 </dt> <dd>
 
-Type: **[PROPBAG2](https://msdn.microsoft.com/en-us/library/Aa768188(VS.85).aspx)\***
+Type: **[PROPBAG2](https://msdn.microsoft.com/library/Aa768188(VS.85).aspx)\***
 
 </dd> <dt>
 

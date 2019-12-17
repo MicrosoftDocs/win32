@@ -1,8 +1,8 @@
 ---
+title: Creating a WHERE clause for the registry provider
 Description: The main points to consider when creating a proper WHERE clause for the System Registry provider is that each event query must be complete and explicit. Failure to be complete and explicit will result in an error message.
 ms.assetid: cdef2900-8d1a-4f0b-8318-7463d90e4152
 ms.tgt_platform: multiple
-title: Creating a Proper WHERE Clause for the Registry Provider
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -12,7 +12,7 @@ api_type:
 api_location: 
 ---
 
-# Creating a Proper WHERE Clause for the Registry Provider
+# Creating a WHERE clause for the registry provider
 
 The main points to consider when creating a proper WHERE clause for the System Registry provider is that each event query must be complete and explicit. Failure to be complete and explicit will result in an error message.
 

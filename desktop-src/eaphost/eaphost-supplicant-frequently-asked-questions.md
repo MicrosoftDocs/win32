@@ -2,7 +2,6 @@
 title: EAPHost Supplicant Frequently Asked Questions
 description: This topic provides answers to commonly-asked questions about the EAPHost Supplicant API.
 ms.assetid: bf8db711-386e-47c2-be47-4cfd6c4d8d9e
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

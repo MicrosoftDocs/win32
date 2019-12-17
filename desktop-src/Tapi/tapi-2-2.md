@@ -12,7 +12,7 @@ TAPI 2.2 provides specialized call center management functionality. Under TAPI 2
 
 **TAPI 2.x:** For more information, see [Call Center Control](call-center-control.md).
 
-**TAPI 3.x:** For more information, see [Call Center Controls](https://msdn.microsoft.com/en-us/library/ms725998(v=VS.85).aspx).
+**TAPI 3.x:** For more information, see [Call Center Controls](https://msdn.microsoft.com/library/ms725998(v=VS.85).aspx).
 
  
 

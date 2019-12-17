@@ -2,7 +2,7 @@
 Description: Function type used by the texture fill functions.
 ms.assetid: ab2f3005-150f-46e1-b75b-75c39e7feed1
 title: LPD3DXFILL3D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -40,7 +40,7 @@ No return value.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 

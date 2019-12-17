@@ -36,7 +36,7 @@ The **EKU** object has these properties.
 | Property                            | Access type           | Description                                                                                                                                                                                                   |
 |:------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Name**](eku-name.md)<br/> | Read/write<br/> | Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.<br/>                                                                                   |
-| [**OID**](eku-oid.md)<br/>   | Read/write<br/> | Sets or retrieves a string that contains an EKU [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) string value as defined in Wincrypt.h.<br/> |
+| [**OID**](eku-oid.md)<br/>   | Read/write<br/> | Sets or retrieves a string that contains an EKU [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) string value as defined in Wincrypt.h.<br/> |
 
 
 

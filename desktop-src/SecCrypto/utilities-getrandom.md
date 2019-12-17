@@ -19,7 +19,7 @@ api_location:
 
 \[The **GetRandom** method is available for use in the operating systems specified in the Requirements section.\]
 
-The **GetRandom** method generates a secure random number using the default [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP).
+The **GetRandom** method generates a secure random number using the default [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
 
 ## Syntax
 

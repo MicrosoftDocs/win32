@@ -46,7 +46,7 @@ A SID string that identifies the object's primary group.
 <span id="dacl_flags"></span><span id="DACL_FLAGS"></span>dacl\_flags
 </dt> <dd>
 
-Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](https://msdn.microsoft.com/en-us/library/Aa379582(v=VS.85).aspx) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
+Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](https://msdn.microsoft.com/library/Aa379582(v=VS.85).aspx) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
 
 
 

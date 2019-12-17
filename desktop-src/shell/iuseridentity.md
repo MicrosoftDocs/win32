@@ -23,7 +23,7 @@ Exposes methods that provide identification, registry, and folder data for a spe
 
 ## Members
 
-The **IUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IUserIdentity** also has these types of members:
+The **IUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IUserIdentity** also has these types of members:
 
 -   [Methods](#methods)
 

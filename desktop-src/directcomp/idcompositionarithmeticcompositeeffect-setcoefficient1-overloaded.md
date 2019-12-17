@@ -24,8 +24,8 @@ Sets the first coefficient for the equation used to composite the two input imag
 
 | Method                                                                                                          | Description                                                                                    |
 |:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**SetCoefficient1**](https://msdn.microsoft.com/en-us/library/Dn919700(v=VS.85).aspx)                               | Sets the first coefficient for the equation used to composite the two input images.<br/> |
-| [**SetCoefficient1 (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919701(v=VS.85).aspx) | Sets the first coefficient for the equation used to composite the two input images.<br/> |
+| [**SetCoefficient1**](https://msdn.microsoft.com/library/Dn919700(v=VS.85).aspx)                               | Sets the first coefficient for the equation used to composite the two input images.<br/> |
+| [**SetCoefficient1 (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919701(v=VS.85).aspx) | Sets the first coefficient for the equation used to composite the two input images.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the first coefficient for the equation used to composite the two input imag
 
 <dl> <dt>
 
-[**idcompositionarithmeticcompositeeffect**](https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx)
+[**idcompositionarithmeticcompositeeffect**](https://msdn.microsoft.com/library/Dn919698(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -51,7 +51,7 @@ This function does not return a value.
 
 The process that calls this function acts as the Shell and is used to view the content of folders opened with the [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 'open' verb.
 
-This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) with the DLL name (Shdocvw.dll) to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) with that module handle and the function ordinal number 118 to get the address of the function.
+This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) with the DLL name (Shdocvw.dll) to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) with that module handle and the function ordinal number 118 to get the address of the function.
 
 ## Requirements
 

@@ -1554,7 +1554,7 @@
         - name: "InkRecognizerCharacterAutoCompletionMode Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-inkrecognizercharacterautocompletionmode
         - name: "InkRecoGuide Enumeration"
-          href: /windows/desktop/api/msinkaut/ns-msinkaut-_inkrecoguide
+          href: /windows/win32/api/msinkaut/ns-msinkaut-inkrecoguide
         - name: "InkShiftKeyModifierFlags Enumeration"
           href: /windows/desktop/api/msinkaut/ne-msinkaut-inkshiftkeymodifierflags
         - name: "InkSystemGesture Enumeration"
@@ -2426,9 +2426,9 @@
         href: mip-enumerations.md
         items: 
         - name: "MICUIELEMENT Enumeration"
-          href: /windows/desktop/api/micaut/ne-micaut-__midl___midl_itf_micaut_0000_0000_0001
+          href: /windows/win32/api/micaut/ne-micaut-micuielement
         - name: "MICUIELEMENTSTATE Enumeration"
-          href: /windows/desktop/api/micaut/ne-micaut-__midl___midl_itf_micaut_0000_0000_0002
+          href: /windows/win32/api/micaut/ne-micaut-micuielementstate
     - name: "RealTimeStylus Reference"
       href: realtimestylus-reference.md
       items: 
@@ -2620,7 +2620,7 @@
         - name: "StylusInfo Structure"
           href: /windows/desktop/api/RTSCom/ns-rtscom-stylusinfo
         - name: "SYSTEM_EVENT_DATA Structure"
-          href: /windows/desktop/api/tpcshrd/ns-tpcshrd-tagsystem_event_data
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data
     - name: "Recognizer Reference"
       href: recognizer-apis.md
       items: 
@@ -2744,40 +2744,40 @@
         - name: "LINE_METRICS Enumeration"
           href: /windows/desktop/api/rectypes/ne-rectypes-enumline_metrics
         - name: "PROPERTY_UNITS Enumeration"
-          href: /windows/desktop/api/tpcshrd/ne-tpcshrd-_property_units
+          href: /windows/win32/api/tpcshrd/ne-tpcshrd-property_units
       - name: "Recognizer Structures"
         href: recognizer-api-structures.md
         items: 
         - name: "CHARACTER_RANGE Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range
+          href: /windows/win32/api/rectypes/ns-rectypes-character_range
         - name: "LATTICE_METRICS Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-taglattice_metrics
+          href: /windows/win32/api/rectypes/ns-rectypes-lattice_metrics
         - name: "LINE_SEGMENT Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagline_segment
+          href: /windows/win32/api/rectypes/ns-rectypes-line_segment
         - name: "PACKET_DESCRIPTION Structure"
-          href: /windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_description
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_description
         - name: "PACKET_PROPERTY Structure"
-          href: /windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_property
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-packet_property
         - name: "PROPERTY_METRICS Structure"
-          href: /windows/desktop/api/tpcshrd/ns-tpcshrd-_property_metrics
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-property_metrics
         - name: "RECO_ATTRS Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_attrs
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_attrs
         - name: "RECO_GUIDE Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_guide
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_guide
         - name: "RECO_LATTICE Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice
         - name: "RECO_LATTICE_COLUMN Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_column
         - name: "RECO_LATTICE_ELEMENT Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_element
         - name: "RECO_LATTICE_PROPERTIES Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_properties
         - name: "RECO_LATTICE_PROPERTY Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_property
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_lattice_property
         - name: "RECO_RANGE Structure"
-          href: /windows/desktop/api/rectypes/ns-rectypes-tagreco_range
+          href: /windows/win32/api/rectypes/ns-rectypes-reco_range
         - name: "STROKE_RANGE Structure"
-          href: /windows/desktop/api/tpcshrd/ns-tpcshrd-tagstroke_range
+          href: /windows/win32/api/tpcshrd/ns-tpcshrd-stroke_range
       - name: "Recognizer GUIDs"
         href: recognizer-guids.md
         items: 
@@ -2797,19 +2797,19 @@
         href: text-input-panel-enumerations.md
         items: 
         - name: "CorrectionMode Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode
         - name: "CorrectionPosition Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0005
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition
         - name: "EventMask Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0007
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-eventmask
         - name: "InPlaceDirection Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0006
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacedirection
         - name: "InPlaceState Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate
         - name: "InteractionMode Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0001
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode
         - name: "PanelInputArea Enumeration"
-          href: /windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003
+          href: /windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea
       - name: "Text Input Panel Interfaces"
         href: text-input-panel-interfaces.md
         items: 
@@ -3067,6 +3067,6 @@
           - name: "SetFormat Method"
             href: /windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat
       - name: "INKMETRIC Structure"
-        href: /windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric
+        href: /windows/win32/api/msinkaut/ns-msinkaut-inkmetric
   - name: "Tablet PC API Glossary"
     href: glossary.md

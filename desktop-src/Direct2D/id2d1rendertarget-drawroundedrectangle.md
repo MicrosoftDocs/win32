@@ -24,18 +24,18 @@ Draws the outline of the specified rounded rectangle using the specified stroke 
 
 | Method                                                                                                                                                                                              | Description                                                                                       |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| [**DrawRoundedRectangle(D2D1\_ROUNDED\_RECT&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/en-us/library/Dd371910(v=VS.85).aspx)  | Draws the outline of the specified rounded rectangle using the specified stroke style.<br/> |
-| [**DrawRoundedRectangle(D2D1\_ROUNDED\_RECT\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/en-us/library/Dd371908(v=VS.85).aspx) | Draws the outline of the specified rounded rectangle using the specified stroke style.<br/> |
+| [**DrawRoundedRectangle(D2D1\_ROUNDED\_RECT&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371910(v=VS.85).aspx)  | Draws the outline of the specified rounded rectangle using the specified stroke style.<br/> |
+| [**DrawRoundedRectangle(D2D1\_ROUNDED\_RECT\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371908(v=VS.85).aspx) | Draws the outline of the specified rounded rectangle using the specified stroke style.<br/> |
 
 
 
 ## Remarks
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **DrawRoundedRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) methods.
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **DrawRoundedRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) methods.
 
 ## Examples
 
-The following example uses the **DrawRoundedRectangle** and [**FillRoundedRectangle**](https://msdn.microsoft.com/en-us/library/Dd742852(v=VS.85).aspx) methods to outline and fill a rounded rectangle. This example produces the output shown in the following illustration.
+The following example uses the **DrawRoundedRectangle** and [**FillRoundedRectangle**](https://msdn.microsoft.com/library/Dd742852(v=VS.85).aspx) methods to outline and fill a rounded rectangle. This example produces the output shown in the following illustration.
 
 ![illustration of four rounded rectangles with different stroke styles and fills](images/drawroundedrectangle-scr.png)
 
@@ -127,13 +127,13 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> <dt>
 
 [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.md)
 </dt> <dt>
 
-[**D2D1::RoundedRect**](https://msdn.microsoft.com/en-us/library/Dd316917(v=VS.85).aspx)
+[**D2D1::RoundedRect**](https://msdn.microsoft.com/library/Dd316917(v=VS.85).aspx)
 </dt> </dl>
 
 �

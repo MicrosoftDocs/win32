@@ -38,7 +38,7 @@ If there is no stencil component in the depth-buffer format, or no depth buffer 
 
 Only one depth/stencil buffer can be active at a time; any bound resource view must match (same size and dimensions) the depth/stencil view. This does not mean the resource size must match, just that the view size must match.
 
-For more information about depth-stencil testing, see [tutorial 14](https://msdn.microsoft.com/en-us/library/Ee416550(v=VS.85).aspx).
+For more information about depth-stencil testing, see [tutorial 14](https://msdn.microsoft.com/library/Ee416550(v=VS.85).aspx).
 
 ## Blending Overview
 

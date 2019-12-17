@@ -50,14 +50,14 @@ The full name of a print queue.
 *maxVersion* \[in\]
 </dt> <dd>
 
-The latest version of the [Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx) that the caller supports.
+The latest version of the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) that the caller supports.
 
 </dd> <dt>
 
 *prefVersion* \[in\]
 </dt> <dd>
 
-The version of the [Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx) requested by the caller.
+The version of the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) requested by the caller.
 
 </dd> <dt>
 
@@ -71,13 +71,13 @@ A pointer to a handle to the print ticket provider.
 *usedVersion* \[out\]
 </dt> <dd>
 
-The version of the [Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx) that the print ticket provider will use.
+The version of the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) that the print ticket provider will use.
 
 </dd> </dl>
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Remarks
 
@@ -99,7 +99,7 @@ Before calling this function, the calling thread must initialize COM by calling 
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx)
+[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
 </dt> <dt>
 
 [**PTOpenProviderEx**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex)

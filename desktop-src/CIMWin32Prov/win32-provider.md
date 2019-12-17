@@ -13,14 +13,14 @@ The Microsoft Win32 provider retrieves and updates data relevant to Windows sys
 
 The Win32 provider defines the classes used to describe hardware or software available on Windows systems and the relationships between them.
 
-As an instance and method provider, the Win32 provider implements the standard [**IWbemProviderInit**](https://msdn.microsoft.com/en-us/library/Aa391853(v=VS.85).aspx) interface as well as the following [**IWbemServices**](https://msdn.microsoft.com/en-us/library/Aa392093(v=VS.85).aspx) methods:
+As an instance and method provider, the Win32 provider implements the standard [**IWbemProviderInit**](https://msdn.microsoft.com/library/Aa391853(v=VS.85).aspx) interface as well as the following [**IWbemServices**](https://msdn.microsoft.com/library/Aa392093(v=VS.85).aspx) methods:
 
--   [**CreateInstanceEnumAsync**](https://msdn.microsoft.com/en-us/library/Aa392098(v=VS.85).aspx)
--   [**DeleteInstanceAsync**](https://msdn.microsoft.com/en-us/library/Aa392102(v=VS.85).aspx)
--   [**ExecMethodAsync**](https://msdn.microsoft.com/en-us/library/Aa392104(v=VS.85).aspx)
--   [**ExecQueryAsync**](https://msdn.microsoft.com/en-us/library/Aa392108(v=VS.85).aspx)
--   [**GetObjectAsync**](https://msdn.microsoft.com/en-us/library/Aa392110(v=VS.85).aspx)
--   [**PutInstanceAsync**](https://msdn.microsoft.com/en-us/library/Aa392116(v=VS.85).aspx)
+-   [**CreateInstanceEnumAsync**](https://msdn.microsoft.com/library/Aa392098(v=VS.85).aspx)
+-   [**DeleteInstanceAsync**](https://msdn.microsoft.com/library/Aa392102(v=VS.85).aspx)
+-   [**ExecMethodAsync**](https://msdn.microsoft.com/library/Aa392104(v=VS.85).aspx)
+-   [**ExecQueryAsync**](https://msdn.microsoft.com/library/Aa392108(v=VS.85).aspx)
+-   [**GetObjectAsync**](https://msdn.microsoft.com/library/Aa392110(v=VS.85).aspx)
+-   [**PutInstanceAsync**](https://msdn.microsoft.com/library/Aa392116(v=VS.85).aspx)
 
 The following table lists the Win32 provider class categories.
 

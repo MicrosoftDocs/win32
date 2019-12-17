@@ -21,7 +21,7 @@ The **IWiaPreview** interface caches unfiltered images internally and passes the
 
 ## Members
 
-The **IWiaPreview** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IWiaPreview** also has these types of members:
+The **IWiaPreview** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaPreview** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -46,15 +46,15 @@ The **IWiaPreview** interface has these methods.
 
 This filter is called automatically by the [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md) method.
 
-The **IWiaPreview** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface methods.
+The **IWiaPreview** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface methods.
 
 
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
+| [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
 
 
 

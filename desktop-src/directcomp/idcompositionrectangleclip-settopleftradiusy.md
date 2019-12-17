@@ -24,8 +24,8 @@ Changes or animates the value of the TopLeftRadiusY property of this clip. The T
 
 | Method                                                                                                                     | Description                                                                |
 |:---------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
-| [**SetTopLeftRadiusY(float)**](https://msdn.microsoft.com/en-us/library/Hh448913(v=VS.85).aspx)                                     | Changes the value of the TopLeftRadiusY property of this clip.<br/>  |
-| [**SetTopLeftRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448914(v=VS.85).aspx) | Animates the value of the TopLeftRadiusY property of this clip.<br/> |
+| [**SetTopLeftRadiusY(float)**](https://msdn.microsoft.com/library/Hh448913(v=VS.85).aspx)                                     | Changes the value of the TopLeftRadiusY property of this clip.<br/>  |
+| [**SetTopLeftRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448914(v=VS.85).aspx) | Animates the value of the TopLeftRadiusY property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the TopLeftRadiusY property of this clip. The T
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

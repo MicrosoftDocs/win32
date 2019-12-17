@@ -87,9 +87,9 @@ The following procedure describes how to receive asynchronous event notification
 
 **To receive asynchronous event notifications in C++**
 
-1.  Set up your application with calls to the [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) functions.
+1.  Set up your application with calls to the [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) functions.
 
-    Calling [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) initializes COM, while [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) grants WMI the permission to call into the process of the consumer. The **CoInitializeEx** function also grants you the ability to program a multithreaded application, which is necessary for asynchronous notification. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
+    Calling [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) initializes COM, while [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) grants WMI the permission to call into the process of the consumer. The **CoInitializeEx** function also grants you the ability to program a multithreaded application, which is necessary for asynchronous notification. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
 
     The code in this topic requires the following references and \#include statements to compile correctly.
 
@@ -102,7 +102,7 @@ The following procedure describes how to receive asynchronous event notification
 
     
 
-    The following code example describes how to set up the temporary event consumer with calls to [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx).
+    The following code example describes how to set up the temporary event consumer with calls to [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx).
 
     ```C++
     void main(int argc, char **argv)

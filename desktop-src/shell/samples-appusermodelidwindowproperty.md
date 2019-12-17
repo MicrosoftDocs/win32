@@ -1,6 +1,6 @@
 ---
 Description: Demonstrates how to control the taskbar grouping behavior of an application's windows through the System.AppUserModel.ID property.
-title: Application User Model ID (AppID) Window Property Sample
+title: Application User Model ID Window Property Sample
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: D4B22B3F-C849-4b5f-BDA0-FB42D7E0E4C9
@@ -14,7 +14,7 @@ topic_type:
 
 # Application User Model ID (AppID) Window Property Sample
 
-Demonstrates how to control the taskbar grouping behavior of an application's windows through the [System.AppUserModel.ID](https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx) property.
+Demonstrates how to control the taskbar grouping behavior of an application's windows through the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property.
 
 This topic contains the following sections.
 
@@ -27,7 +27,7 @@ This topic contains the following sections.
 
 ## Description
 
-This sample shows how to set the [System.AppUserModel.ID](https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx) property through the use of the window's [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) implementation, which is obtained through [**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/en-us/library/Dd378430(v=VS.85).aspx).
+This sample shows how to set the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property through the use of the window's [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) implementation, which is obtained through [**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/library/Dd378430(v=VS.85).aspx).
 
 ## Requirements
 

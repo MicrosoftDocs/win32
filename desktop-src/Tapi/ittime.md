@@ -14,7 +14,7 @@ The **ITTime** interface is a provider-specific interface for a Session Descript
 
 ## Members
 
-The **ITTime** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITTime** also has these types of members:
+The **ITTime** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITTime** also has these types of members:
 
 -   [Methods](#methods)
 

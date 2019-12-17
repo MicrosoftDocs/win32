@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MsiNTSuiteEnterprise property
 
-On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteEnterprise** property to 1 if Windows 2000 Advanced Server is installed. The installer sets this property to 1 only if the VER\_SUITE\_ENTERPRISE flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/en-us/library/ms724833(v=VS.85).aspx) structure. Otherwise, the installer does not set this property.
+On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteEnterprise** property to 1 if Windows 2000 Advanced Server is installed. The installer sets this property to 1 only if the VER\_SUITE\_ENTERPRISE flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/ms724833(v=VS.85).aspx) structure. Otherwise, the installer does not set this property.
 
 ## Requirements
 

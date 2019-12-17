@@ -1,6 +1,6 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 904FE2AB-9E94-47E4-88BA-DB215775797B
 title: G (Isolated Applications and Side-by-side Assemblies)
 ms.topic: article

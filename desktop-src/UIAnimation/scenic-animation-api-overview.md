@@ -80,10 +80,10 @@ To conserve system resources, a timer can be configured to disable itself when n
 
 The Windows Animation API is a single-threaded COM-based API that provides the following features for developers:
 
--   An animation manager object, [**UIAnimationManager**](https://msdn.microsoft.com/en-us/library/Dd317019(v=VS.85).aspx), for creating animation objects and controlling animations
+-   An animation manager object, [**UIAnimationManager**](https://msdn.microsoft.com/library/Dd317019(v=VS.85).aspx), for creating animation objects and controlling animations
 -   Animation variables and storyboards
--   A foundational library, [**UIAnimationTransitionLibrary**](https://msdn.microsoft.com/en-us/library/Dd317028(v=VS.85).aspx), of ready-to-use transitions
--   A timer object, [**UIAnimationTimer**](https://msdn.microsoft.com/en-us/library/Dd317021(v=VS.85).aspx), for determining the current time and, optionally, for driving animation
+-   A foundational library, [**UIAnimationTransitionLibrary**](https://msdn.microsoft.com/library/Dd317028(v=VS.85).aspx), of ready-to-use transitions
+-   A timer object, [**UIAnimationTimer**](https://msdn.microsoft.com/library/Dd317021(v=VS.85).aspx), for determining the current time and, optionally, for driving animation
 -   Event hooks for monitoring the state and progress of animation
 
 For the complete API reference, see [Windows Animation Reference](windows-animation-reference.md). For example code, see [Windows Animation Tasks](using-windows-animation.md) and [Windows Animation Samples](windows-animation-samples.md).

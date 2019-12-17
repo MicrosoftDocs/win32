@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerating Groups
+# Enumerating Groups (AD DS)
 
 This section contains the following information:
 

@@ -2,7 +2,7 @@
 Description: Permutes the components of two vectors to create a new vector.
 ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)'
 title: XMVectorPermute template (DirectXMath.h)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -47,7 +47,7 @@ If all 4 indices reference only a single vector (i.e. they are all in the range 
 
 Note the library makes use of template specializations on some platforms to improve performance. Not every possible mirror case is implemented for these special cases, so prefer permutes where the X element of the resulting vector comes from the V1 parameter rather than the V2 parameter. For example, prefer using `XMVectorPermute<0,1,4,5>(A,B);` to `XMVectorPermute(4,5,0,1)(B,A);`.
 
-This function is a template version of [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx) where the *Permute\** arguments are template values.
+This function is a template version of [**XMVectorPermute**](https://msdn.microsoft.com/library/Hh855956(v=VS.85).aspx) where the *Permute\** arguments are template values.
 
 The [XM\_PERMUTE\_](ovw-xnamath-reference-constants.md) constants are provided to use as input values for *PermuteX*,*PermuteY*,*PermuteZ*, and *PermuteW*.
 

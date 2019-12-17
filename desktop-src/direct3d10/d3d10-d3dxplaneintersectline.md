@@ -41,7 +41,7 @@ D3DXVECTOR3* D3DXPlaneIntersectLine(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the intersection between the specified plane and line.
 
@@ -50,7 +50,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the intersecti
 *pP* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
+Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
@@ -59,7 +59,7 @@ Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR3 structure, defining a line starting point.
 
@@ -68,7 +68,7 @@ Pointer to a source D3DXVECTOR3 structure, defining a line starting point.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR3 structure, defining a line ending point.
 
@@ -76,7 +76,7 @@ Pointer to a source D3DXVECTOR3 structure, defining a line ending point.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure that is the intersection between the specified plane and line.
 

@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::ReadRecord method
 
-\[The **ReadRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ReadRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ReadRecord** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
+The **ReadRecord** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
 
 ## Syntax
 
@@ -90,7 +90,7 @@ If the Le field contains only zeros, then depending on b3b2b1 of P2 and within t
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -113,7 +113,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being read.
+The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being read.
 
 If another elementary file is currently selected at the time of issuing this command, it may be processed without identification of the currently selected file.
 

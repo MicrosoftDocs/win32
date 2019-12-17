@@ -53,7 +53,7 @@ Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336
 *InnerRadius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Inner-radius of the torus. Value should be greater than or equal to 0.0f.
 
@@ -62,7 +62,7 @@ Inner-radius of the torus. Value should be greater than or equal to 0.0f.
 *OuterRadius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Outer-radius of the torus. Value should be greater than or equal to 0.0f.
 
@@ -71,7 +71,7 @@ Outer-radius of the torus. Value should be greater than or equal to 0.0f.
 *Sides* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of sides in a cross-section. Value must be greater than or equal to 3.
 
@@ -80,7 +80,7 @@ Number of sides in a cross-section. Value must be greater than or equal to 3.
 *Rings* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of rings making up the torus. Value must be greater than or equal to 3.
 
@@ -106,7 +106,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface. When the
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

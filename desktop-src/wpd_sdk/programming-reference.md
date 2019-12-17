@@ -1,12 +1,12 @@
 ---
+title: WPD reference
 Description: Programming Reference
 ms.assetid: e9dcb602-d04f-4067-8abc-d39e5a29de4e
-title: Programming Reference
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Reference
+# WPD reference
 
 The reference section of this documentation contains the following sections.
 

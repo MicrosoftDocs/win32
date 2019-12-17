@@ -143,7 +143,7 @@ Windows Defender WMI APIs can be used to manage malware protection through scrip
 
 </dd> <dt>
 
-[Windows PowerShell](https://msdn.microsoft.com/en-us/library/Dd835506(v=VS.85).aspx)
+[Windows PowerShell](https://msdn.microsoft.com/library/Dd835506(v=VS.85).aspx)
 </dt> <dd>
 
 Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. Built on the .NET Framework, Windows PowerShell helps IT professionals and power users control and automate the administration of the Windows operating system and applications that run on Windows.

@@ -1,5 +1,5 @@
 ---
-title: PLAYERAPPLICATION.playerDocked
+title: PLAYERAPPLICATION.playerDocked Attribute
 description: The playerDocked attribute retrieves a value indicating whether Windows Media Player is in a docked state.
 ms.assetid: 8b95da72-037b-4179-a564-fc9bc63368ac
 keywords:

@@ -2,7 +2,7 @@
 title: emit_stream (sm5 - asm)
 description: Emit a vertex to a given stream.
 ms.assetid: 5DBB0BEC-6EA4-4C04-A3D2-853E48260226
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

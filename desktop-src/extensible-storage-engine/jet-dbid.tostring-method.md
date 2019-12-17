@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_DBID.ToString method
+# JET_DBID.ToString method overload list
 
 Include protected members  
 Include inherited members  

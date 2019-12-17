@@ -92,10 +92,10 @@ A signed value that gives the results of the comparison:
 
 <dl> <dt>
 
-[**RtlCompareString**](https://msdn.microsoft.com/en-us/library/Ff561781(v=VS.85).aspx)
+[**RtlCompareString**](https://msdn.microsoft.com/library/Ff561781(v=VS.85).aspx)
 </dt> <dt>
 
-[**RtlEqualString**](https://msdn.microsoft.com/en-us/library/Ff561852(v=VS.85).aspx)
+[**RtlEqualString**](https://msdn.microsoft.com/library/Ff561852(v=VS.85).aspx)
 </dt> </dl>
 
  

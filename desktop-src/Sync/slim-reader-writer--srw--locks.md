@@ -21,7 +21,7 @@ A single SRW lock can be acquired in either mode; reader threads can acquire it 
 
 An SRW lock is the size of a pointer. The advantage is that it is fast to update the lock state. The disadvantage is that very little state information can be stored, so SRW locks cannot be acquired recursively. In addition, a thread that owns an SRW lock in shared mode cannot upgrade its ownership of the lock to exclusive mode.
 
-The caller must allocate an SRWLOCK structure and initialize it by either calling [**InitializeSRWLock**](https://msdn.microsoft.com/en-us/library/ms683483(v=VS.85).aspx) (to initialize the structure dynamically) or assign the constant **SRWLOCK\_INIT** to the structure variable (to initialize the structure statically).
+The caller must allocate an SRWLOCK structure and initialize it by either calling [**InitializeSRWLock**](https://msdn.microsoft.com/library/ms683483(v=VS.85).aspx) (to initialize the structure dynamically) or assign the constant **SRWLOCK\_INIT** to the structure variable (to initialize the structure statically).
 
 The following are the SRW lock functions.
 
@@ -29,14 +29,14 @@ The following are the SRW lock functions.
 
 | SRW lock function                                                | Description                                                                                                                                       |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AcquireSRWLockExclusive**](https://msdn.microsoft.com/en-us/library/ms681930(v=VS.85).aspx)       | Acquires an SRW lock in exclusive mode.                                                                                                           |
-| [**AcquireSRWLockShared**](https://msdn.microsoft.com/en-us/library/ms681934(v=VS.85).aspx)             | Acquires an SRW lock in shared mode.                                                                                                              |
-| [**InitializeSRWLock**](https://msdn.microsoft.com/en-us/library/ms683483(v=VS.85).aspx)                   | Initialize an SRW lock.                                                                                                                           |
-| [**ReleaseSRWLockExclusive**](https://msdn.microsoft.com/en-us/library/ms685076(v=VS.85).aspx)       | Releases an SRW lock that was opened in exclusive mode.                                                                                           |
-| [**ReleaseSRWLockShared**](https://msdn.microsoft.com/en-us/library/ms685080(v=VS.85).aspx)             | Releases an SRW lock that was opened in shared mode.                                                                                              |
-| [**SleepConditionVariableSRW**](https://msdn.microsoft.com/en-us/library/ms686304(v=VS.85).aspx)   | Sleeps on the specified condition variable and releases the specified lock as an atomic operation.                                                |
-| [**TryAcquireSRWLockExclusive**](https://msdn.microsoft.com/en-us/library/Dd405523(v=VS.85).aspx) | Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock. |
-| [**TryAcquireSRWLockShared**](https://msdn.microsoft.com/en-us/library/Dd405524(v=VS.85).aspx)       | Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.    |
+| [**AcquireSRWLockExclusive**](https://msdn.microsoft.com/library/ms681930(v=VS.85).aspx)       | Acquires an SRW lock in exclusive mode.                                                                                                           |
+| [**AcquireSRWLockShared**](https://msdn.microsoft.com/library/ms681934(v=VS.85).aspx)             | Acquires an SRW lock in shared mode.                                                                                                              |
+| [**InitializeSRWLock**](https://msdn.microsoft.com/library/ms683483(v=VS.85).aspx)                   | Initialize an SRW lock.                                                                                                                           |
+| [**ReleaseSRWLockExclusive**](https://msdn.microsoft.com/library/ms685076(v=VS.85).aspx)       | Releases an SRW lock that was opened in exclusive mode.                                                                                           |
+| [**ReleaseSRWLockShared**](https://msdn.microsoft.com/library/ms685080(v=VS.85).aspx)             | Releases an SRW lock that was opened in shared mode.                                                                                              |
+| [**SleepConditionVariableSRW**](https://msdn.microsoft.com/library/ms686304(v=VS.85).aspx)   | Sleeps on the specified condition variable and releases the specified lock as an atomic operation.                                                |
+| [**TryAcquireSRWLockExclusive**](https://msdn.microsoft.com/library/Dd405523(v=VS.85).aspx) | Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock. |
+| [**TryAcquireSRWLockShared**](https://msdn.microsoft.com/library/Dd405524(v=VS.85).aspx)       | Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.    |
 
 
 

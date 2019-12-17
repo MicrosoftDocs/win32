@@ -55,7 +55,7 @@ Shell.ShellExecute( _
 *sFile* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the file on which **ShellExecute** will perform the action specified by *vOperation*.
 

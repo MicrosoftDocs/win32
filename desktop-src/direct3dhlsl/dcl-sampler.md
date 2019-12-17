@@ -2,10 +2,10 @@
 title: dcl_sampler (sm4 - asm)
 description: dcl\_sampler (sm4 - asm)
 ms.assetid: 285a47fa-2d47-4ba9-90b9-3f4c61d5dce1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

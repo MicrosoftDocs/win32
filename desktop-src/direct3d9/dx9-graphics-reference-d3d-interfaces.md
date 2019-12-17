@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This section contains reference information for the Component Object Model (COM) interfaces provided by Microsoft Direct3D 9.
 
 > [!Note]  
-> Direct3D Windows Store apps can't use the Direct3D 9 API. Instead, use the Microsoft Direct3D 11 or later API with [feature level](https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx) 9\_x.
+> Direct3D Windows Store apps can't use the Direct3D 9 API. Instead, use the Microsoft Direct3D 11 or later API with [feature level](https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx) 9\_x.
 
  
 
@@ -43,11 +43,11 @@ The following interfaces are used with Direct3D 9.
 The following interfaces are only available in Direct3D 9Ex.
 
 -   [**IDirect3D9Ex**](/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex)
--   [**IDirect3D9ExOverlayExtension**](https://msdn.microsoft.com/en-us/library/Dd797817(v=VS.85).aspx)
--   [**IDirect3DAuthenticatedChannel9**](https://msdn.microsoft.com/en-us/library/Dd318795(v=VS.85).aspx)
--   [**IDirect3DCryptoSession9**](https://msdn.microsoft.com/en-us/library/Dd318803(v=VS.85).aspx)
+-   [**IDirect3D9ExOverlayExtension**](https://msdn.microsoft.com/library/Dd797817(v=VS.85).aspx)
+-   [**IDirect3DAuthenticatedChannel9**](https://msdn.microsoft.com/library/Dd318795(v=VS.85).aspx)
+-   [**IDirect3DCryptoSession9**](https://msdn.microsoft.com/library/Dd318803(v=VS.85).aspx)
 -   [**IDirect3DDevice9Ex**](/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex)
--   [**IDirect3DDevice9Video**](https://msdn.microsoft.com/en-us/library/Dd318823(v=VS.85).aspx)
+-   [**IDirect3DDevice9Video**](https://msdn.microsoft.com/library/Dd318823(v=VS.85).aspx)
 -   [**IDirect3DSwapChain9Ex**](/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex)
 
 ## Related topics

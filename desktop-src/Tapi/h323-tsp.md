@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 \[H323 TSP is not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
 
-The H323 TSP (H323.tsp), when paired with the [H323 MSP](https://msdn.microsoft.com/en-us/library/ms727017(v=VS.85).aspx) (H323msp.dll), allows an application to make and receive video and audio calls using the H.323 protocol for IP telephony.
+The H323 TSP (H323.tsp), when paired with the [H323 MSP](https://msdn.microsoft.com/library/ms727017(v=VS.85).aspx) (H323msp.dll), allows an application to make and receive video and audio calls using the H.323 protocol for IP telephony.
 
-This TSP supports [**address type**](https://msdn.microsoft.com/en-us/library/ms733291(v=VS.85).aspx) values of LINEADDRESSTYPE\_PHONENUMBER, LINEADDRESSTYPE\_IPADDRESS, and LINEADDRESSTYPE\_DOMAINNAME. The LINEADDRESSTYPE\_DOMAINNAME refers to the domain name of the machine.
+This TSP supports [**address type**](https://msdn.microsoft.com/library/ms733291(v=VS.85).aspx) values of LINEADDRESSTYPE\_PHONENUMBER, LINEADDRESSTYPE\_IPADDRESS, and LINEADDRESSTYPE\_DOMAINNAME. The LINEADDRESSTYPE\_DOMAINNAME refers to the domain name of the machine.
 
 The H323 MSP was enhanced in Windows 2000 SP1 to enable communication between H323 and SDP clients.
 

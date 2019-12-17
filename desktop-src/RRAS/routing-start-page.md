@@ -46,7 +46,7 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 
 <dl> <dt>
 
-[IP Helper Functions](https://msdn.microsoft.com/en-us/library/Aa366073(v=VS.85).aspx)
+[IP Helper Functions](https://msdn.microsoft.com/library/Aa366073(v=VS.85).aspx)
 </dt> <dt>
 
 [Remote Access](remote-access-start-page.md)

@@ -44,7 +44,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
     
 
-4.  Apply the effect chain to an XAudio2 voice with the [**SetEffectChain**](https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx) function.
+4.  Apply the effect chain to an XAudio2 voice with the [**SetEffectChain**](https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx) function.
 
     ```
     pVoice->SetEffectChain(&chain);
@@ -53,11 +53,11 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
     
 
     > [!Note]  
-    > You can also apply an effect chain to a voice when you create the voice by passing the chain as a parameter to [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx), [**IXAudio2::CreateSubmixVoice**](https://msdn.microsoft.com/en-us/library/Ee418608(v=VS.85).aspx), or [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx).
+    > You can also apply an effect chain to a voice when you create the voice by passing the chain as a parameter to [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx), [**IXAudio2::CreateSubmixVoice**](https://msdn.microsoft.com/library/Ee418608(v=VS.85).aspx), or [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/library/Hh405048(v=VS.85).aspx).
 
      
 
-5.  Release the effect with IUnknown::Release. When you create an XAPO, it will have a reference count of 1. When the XAPO is passed to XAudio2 with [**SetEffectChain**](https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx), XAudio2 increments the reference count on the XAPO. Releasing the client's reference to the XAPO allows XAudio2 to take ownership of the XAPO. If XAudio2 has the only reference to the XAPO, this reference is disposed of when it is no longer being used by XAudio2. If the client code needs to maintain a reference to the XAPO—for example, for reuse later—you can skip this step.
+5.  Release the effect with IUnknown::Release. When you create an XAPO, it will have a reference count of 1. When the XAPO is passed to XAudio2 with [**SetEffectChain**](https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx), XAudio2 increments the reference count on the XAPO. Releasing the client's reference to the XAPO allows XAudio2 to take ownership of the XAPO. If XAudio2 has the only reference to the XAPO, this reference is disposed of when it is no longer being used by XAudio2. If the client code needs to maintain a reference to the XAPO—for example, for reuse later—you can skip this step.
 
     ```
     pXAPO->Release();
@@ -77,7 +77,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
     
 
-7.  Pass the effect parameter structure to the effect by calling the [**SetEffectParameters**](https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx) function on the voice to which the effect is attached.
+7.  Pass the effect parameter structure to the effect by calling the [**SetEffectParameters**](https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx) function on the voice to which the effect is attached.
 
     ```
     hr = pVoice->SetEffectParameters( 0, &XAPOParameters, sizeof( FXREVERB_PARAMETERS ) );

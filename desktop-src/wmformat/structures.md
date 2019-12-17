@@ -1,6 +1,6 @@
 ---
-title: Structures
-description: Structures
+title: Windows Media Format SDK Structures
+description: Windows Media Format SDK Structures
 ms.assetid: '118ef278-ca4f-4c30-9633-a2d851f5c758'
 keywords:
 - Windows Media Format SDK,structures
@@ -35,7 +35,7 @@ The Windows Media Format SDK implements the following structures.
 | [**WM\_GET\_LICENSE\_DATA**](wm-get-license-data.md)                                    | Contains information about a DRM license.                                                                                                                                 |
 | [**WM\_INDIVIDUALIZE\_STATUS**](wm-individualize-status.md)                             | Records the status of the [*individualization*](wmformat-glossary.md) process.                                                                |
 | [**WM\_LEAKY\_BUCKET\_PAIR**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_leaky_bucket_pair)                                  | Describes the buffering requirements for a variable-bit-rate (VBR) file.                                                                                                  |
-| [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/en-us/library/Dd757942(v=VS.85).aspx)                                | Encapsulates a [**DRM\_LICENSE\_STATE\_DATA**](drm-license-state-data.md) structure which describes DRM license state data.                                              |
+| [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx)                                | Encapsulates a [**DRM\_LICENSE\_STATE\_DATA**](drm-license-state-data.md) structure which describes DRM license state data.                                              |
 | [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type)                                                 | Describes a media sample.                                                                                                                                                 |
 | [**WMMPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmmpeg2videoinfo)                                             | Describes an MPEG-2 video stream.                                                                                                                                         |
 | [**WM\_PICTURE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture)                                                        | Contains the data for the [**WM/Picture**](wmpicture.md) complex metadata attribute.                                                                                     |

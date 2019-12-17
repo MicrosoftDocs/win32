@@ -178,7 +178,7 @@ The time specified in **SPLREG_RESTART_JOB_ON_POOL_ERROR** is a minimum time. Th
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegSetValueEx**](https://msdn.microsoft.com/en-us/library/ms724922(v=VS.85).aspx) function to set these values.
+Call the [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) function to set these values.
 
 
 

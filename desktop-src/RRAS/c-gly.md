@@ -1,7 +1,7 @@
 ---
 title: C (RRAS)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 58c409f7-7d3f-4488-a993-d19e64d541fd
 ms.topic: article
 ms.date: 05/31/2018
@@ -25,7 +25,7 @@ A CRC is a numerical value related to a block of data. This value provides infor
 
 The compression control protocol (CCP) allows two computers that communicate through PPP to negotiate compatible algorithms for sending and receiving compressed PPP frames. The two computers may not use CCP until the network-control-protocol phase of the PPP connection.
 
-For more information see [RFC 1962](remote-access-request-for-comments.md). Also see [**PPP\_CCP\_INFO**](/windows/desktop/api/Mprapi/ns-mprapi-ppp_ccp_info) and [**RASPPPCCP**](https://msdn.microsoft.com/en-us/library/Aa377620(v=VS.85).aspx).
+For more information see [RFC 1962](remote-access-request-for-comments.md). Also see [**PPP\_CCP\_INFO**](/windows/desktop/api/Mprapi/ns-mprapi-ppp_ccp_info) and [**RASPPPCCP**](https://msdn.microsoft.com/library/Aa377620(v=VS.85).aspx).
 
 </dd> </dl>
 

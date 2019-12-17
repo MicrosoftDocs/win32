@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Call and Media Controls Structures
 
-The following material describes structures used by TAPI 3.x. Many TAPI 3.x operations also reference [TAPI 2.x structures](https://msdn.microsoft.com/en-us/library/ms737245(v=VS.85).aspx).
+The following material describes structures used by TAPI 3.x. Many TAPI 3.x operations also reference [TAPI 2.x structures](https://msdn.microsoft.com/library/ms737245(v=VS.85).aspx).
 
 -   [**TAPI\_AUDIO\_STREAM\_CONFIG\_CAPS**](tapi-audio-stream-config-caps.md)
 -   [**TAPI\_CUSTOMTONE**](/windows/desktop/api/Tapi3if/ns-tapi3if-tapi_customtone)

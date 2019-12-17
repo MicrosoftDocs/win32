@@ -35,7 +35,7 @@ theRecognizerContext.WordList = theUserWordList;
 
 
 > [!Note]  
-> The [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes) property of the [**RecognizerContext**](inkrecognizercontext-class.md) object must be empty before you set the [**WordList**](inkwordlist-class.md) property. If the [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) property is not empty, an exception is thrown. In addition, words should never be added to a word list after it has been assigned to a **RecognizerContext** object. Words that are added to the word list after it is assigned to the **RecognizerContext** object are not updated in the recognizer. To update the word list you must reassign the **WordList** object to the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object.
+> The [**Strokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes) property of the [**RecognizerContext**](inkrecognizercontext-class.md) object must be empty before you set the [**WordList**](inkwordlist-class.md) property. If the [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) property is not empty, an exception is thrown. In addition, words should never be added to a word list after it has been assigned to a **RecognizerContext** object. Words that are added to the word list after it is assigned to the **RecognizerContext** object are not updated in the recognizer. To update the word list you must reassign the **WordList** object to the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the **RecognizerContext** object.
 
  
 

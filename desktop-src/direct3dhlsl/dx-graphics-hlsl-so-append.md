@@ -2,10 +2,10 @@
 title: Append (DirectX HLSL Stream-Output Object)
 description: Append geometry-shader-output data to an existing stream.
 ms.assetid: 7df51383-7fc7-4a6f-aaa2-6c929f0443a3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
@@ -43,7 +43,7 @@ None
 
 ## Example
 
-This code snippet (from the [CubeMapGS Sample](https://msdn.microsoft.com/en-us/library/Ee416398(v=VS.85).aspx)) shows a partial example of appending triangle strip primitives to a stream-output object.
+This code snippet (from the [CubeMapGS Sample](https://msdn.microsoft.com/library/Ee416398(v=VS.85).aspx)) shows a partial example of appending triangle strip primitives to a stream-output object.
 
 
 ```

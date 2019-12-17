@@ -34,7 +34,7 @@ This macro has no parameters.
 
 ## Return value
 
-A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/en-us/library/Bb172623(v=VS.85).aspx).
+A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/library/Bb172623(v=VS.85).aspx).
 
 ## Remarks
 

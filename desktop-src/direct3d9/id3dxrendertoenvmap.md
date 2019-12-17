@@ -22,7 +22,7 @@ The ID3DXRenderToEnvMap interface is used to generalize the process of rendering
 
 ## Members
 
-The **ID3DXRenderToEnvMap** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXRenderToEnvMap** also has these types of members:
+The **ID3DXRenderToEnvMap** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXRenderToEnvMap** also has these types of members:
 
 -   [Methods](#methods)
 

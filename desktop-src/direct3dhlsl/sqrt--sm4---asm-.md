@@ -2,7 +2,7 @@
 title: sqrt (sm4 - asm)
 description: Component-wise square root.
 ms.assetid: B860D656-7F01-484F-909F-A5C9A61C52C3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

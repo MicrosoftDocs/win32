@@ -2,7 +2,7 @@
 title: ishl (sm4 - asm)
 description: Shift left.
 ms.assetid: FA0213B8-8A76-4916-8B2F-0983C404A838
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

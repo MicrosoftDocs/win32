@@ -17,7 +17,7 @@ typedef unsigned int ALG_ID;
 
 
 
-The following table lists the algorithm identifiers that are currently defined. Authors of custom [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs) can define new values. Also, the **ALG_ID** used by custom CSPs for the key specifications **AT_KEYEXCHANGE** and **AT_SIGNATURE** are provider dependent. Current mappings follow the table.
+The following table lists the algorithm identifiers that are currently defined. Authors of custom [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs) can define new values. Also, the **ALG_ID** used by custom CSPs for the key specifications **AT_KEYEXCHANGE** and **AT_SIGNATURE** are provider dependent. Current mappings follow the table.
 
 
 

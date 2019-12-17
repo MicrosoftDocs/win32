@@ -22,7 +22,7 @@ Applications use the methods of the ID3DX10Mesh interface to manipulate mesh obj
 
 ## Members
 
-The **ID3DX10Mesh** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DX10Mesh** also has these types of members:
+The **ID3DX10Mesh** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DX10Mesh** also has these types of members:
 
 -   [Methods](#methods)
 

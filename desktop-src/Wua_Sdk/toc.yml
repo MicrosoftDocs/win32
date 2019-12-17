@@ -41,51 +41,51 @@
       href: enumerations.md
       items: 
       - name: "AddServiceFlag"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagaddserviceflag
+        href: /windows/win32/api/Wuapi/ne-wuapi-addserviceflag
       - name: "AutoDownloadMode"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagautodownloadmode
+        href: /windows/win32/api/Wuapi/ne-wuapi-autodownloadmode
       - name: "AutomaticUpdatesNotificationLevel"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagautomaticupdatesnotificationlevel
+        href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesnotificationlevel
       - name: "AutomaticUpdatesPermissionType"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagautomaticupdatespermissiontype
+        href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatespermissiontype
       - name: "AutomaticUpdatesScheduledInstallationDay"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagautomaticupdatesscheduledinstallationday
+        href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesscheduledinstallationday
       - name: "AutomaticUpdatesUserType"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagautomaticupdatesusertype
+        href: /windows/win32/api/Wuapi/ne-wuapi-automaticupdatesusertype
       - name: "AutoSelectionMode"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagautoselectionmode
+        href: /windows/win32/api/Wuapi/ne-wuapi-autoselectionmode
       - name: "DeploymentAction"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagdeploymentaction
+        href: /windows/win32/api/Wuapi/ne-wuapi-deploymentaction
       - name: "DownloadPhase"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagdownloadphase
+        href: /windows/win32/api/Wuapi/ne-wuapi-downloadphase
       - name: "DownloadPriority"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagdownloadpriority
+        href: /windows/win32/api/Wuapi/ne-wuapi-downloadpriority
       - name: "InstallationImpact"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-taginstallationimpact
+        href: /windows/win32/api/Wuapi/ne-wuapi-installationimpact
       - name: "InstallationRebootBehavior"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-taginstallationrebootbehavior
+        href: /windows/win32/api/Wuapi/ne-wuapi-installationrebootbehavior
       - name: "OperationResultCode"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagoperationresultcode
+        href: /windows/win32/api/Wuapi/ne-wuapi-operationresultcode
       - name: "SearchScope"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagsearchscope
+        href: /windows/win32/api/Wuapi/ne-wuapi-searchscope
       - name: "ServerSelection"
-        href: /windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection
+        href: /windows/win32/api/wuapicommon/ne-wuapicommon-serverselection
       - name: "UpdateEndpointAuthTokenType"
         href: updateendpointauthtokentype.md
       - name: "UpdateEndpointType"
         href: updateendpointtype.md
       - name: "UpdateExceptionContext"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagupdateexceptioncontext
+        href: /windows/win32/api/Wuapi/ne-wuapi-updateexceptioncontext
       - name: "UpdateLockdownOption"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagupdatelockdownoption
+        href: /windows/win32/api/Wuapi/ne-wuapi-updatelockdownoption
       - name: "UpdateOperation"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagupdateoperation
+        href: /windows/win32/api/Wuapi/ne-wuapi-updateoperation
       - name: "UpdateServiceOption"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagupdateserviceoption
+        href: /windows/win32/api/Wuapi/ne-wuapi-updateserviceoption
       - name: "UpdateServiceRegistrationState"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagupdateserviceregistrationstate
+        href: /windows/win32/api/Wuapi/ne-wuapi-updateserviceregistrationstate
       - name: "UpdateType"
-        href: /windows/desktop/api/Wuapi/ne-wuapi-tagupdatetype
+        href: /windows/win32/api/Wuapi/ne-wuapi-updatetype
     - name: "Interfaces"
       href: interfaces.md
       items: 

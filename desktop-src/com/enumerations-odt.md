@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Enumerations (OLE and Data Transfer)
 description: The following enumerations are used to implement compound documents and perform data transfer between applications.
 ms.assetid: daff8e11-c7b8-4f34-910c-5fabbbae8de9
 ms.topic: article
@@ -20,7 +20,7 @@ The following enumerations are used to implement compound documents and perform 
 -   [**DVASPECTINFOFLAG**](/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag)
 -   [**DVEXTENTMODE**](/windows/win32/api/ocidl/ne-ocidl-dvextentmode)
 -   [**HITRESULT**](/windows/win32/api/ocidl/ne-ocidl-hitresult)
--   [**OLECLOSE**](https://msdn.microsoft.com/en-us/library/ms680623(v=VS.85).aspx)
+-   [**OLECLOSE**](https://msdn.microsoft.com/library/ms680623(v=VS.85).aspx)
 -   [**OLECMDEXECOPT**](/windows/desktop/api/DocObj/ne-docobj-olecmdexecopt)
 -   [**OLECMDF**](/windows/desktop/api/DocObj/ne-docobj-olecmdf)
 -   [**OLECMDID**](/windows/desktop/api/DocObj/ne-docobj-olecmdid)
@@ -33,7 +33,7 @@ The following enumerations are used to implement compound documents and perform 
 -   [**OLEMISC**](/windows/win32/api/oleidl/ne-oleidl-olemisc)
 -   [**OLERENDER**](/windows/win32/api/oleidl/ne-oleidl-olerender)
 -   [**OLEUIPASTEFLAG**](/windows/win32/api/oledlg/ne-oledlg-oleuipasteflag)
--   [**OLEUPDATE**](https://msdn.microsoft.com/en-us/library/ms679715(v=VS.85).aspx)
+-   [**OLEUPDATE**](https://msdn.microsoft.com/library/ms679715(v=VS.85).aspx)
 -   [**OLEVERBATTRIB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 -   [**OLEWHICHMK**](/windows/win32/api/oleidl/ne-oleidl-olewhichmk)
 -   [**TYMED**](/windows/win32/api/objidl/ne-objidl-tymed)

@@ -90,7 +90,7 @@ The following procedure describes how to create a simple provider that supports 
 
 5.  Define a COM object to contain your provider. The example code for this step is located in a complete example at the end of this topic.
 
-    1.  As with any COM object, you must implement a constructor and a deconstructor, as well as the [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx), [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx), and [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) methods.
+    1.  As with any COM object, you must implement a constructor and a deconstructor, as well as the [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx), [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx), and [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) methods.
 
     2.  Implement the [**IWbemProviderInit::Initialize**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize) method in your COM object.
 

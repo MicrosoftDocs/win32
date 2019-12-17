@@ -53,7 +53,7 @@ There are other considerations as well, and developers should carefully consider
 Best Practices
 
 -   Developers must consider the appropriate approach to each user interface when modifying their application to support IPv6. Ensuring that the user interface contains sufficient length to display IPv6 addresses is imperative, as is determining whether that address is number or name based.
--   Whenever possible, use existing Winsock and IP Helper functions when using IPv6 addresses rather than re-implementing this logic. For example, the [**RtlIpv6AddressToString**](https://msdn.microsoft.com/en-us/library/Aa814460(v=VS.85).aspx), [**RtlIpv6AddressToStringEx**](https://msdn.microsoft.com/en-us/library/Aa814461(v=VS.85).aspx), [**RtlIpv6StringToAddress**](https://msdn.microsoft.com/en-us/library/Aa814462(v=VS.85).aspx), and [**RtlIpv6StringToAddressEx**](https://msdn.microsoft.com/en-us/library/Aa814463(v=VS.85).aspx) functions can be used to convert between IPv6 addresses and string representations of these IPv6 addresses.
+-   Whenever possible, use existing Winsock and IP Helper functions when using IPv6 addresses rather than re-implementing this logic. For example, the [**RtlIpv6AddressToString**](https://msdn.microsoft.com/library/Aa814460(v=VS.85).aspx), [**RtlIpv6AddressToStringEx**](https://msdn.microsoft.com/library/Aa814461(v=VS.85).aspx), [**RtlIpv6StringToAddress**](https://msdn.microsoft.com/library/Aa814462(v=VS.85).aspx), and [**RtlIpv6StringToAddressEx**](https://msdn.microsoft.com/library/Aa814463(v=VS.85).aspx) functions can be used to convert between IPv6 addresses and string representations of these IPv6 addresses.
 
 Code To Avoid
 

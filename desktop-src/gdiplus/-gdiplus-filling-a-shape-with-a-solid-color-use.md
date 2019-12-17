@@ -20,7 +20,7 @@ stat = graphics.FillEllipse(&solidBrush, 0, 0, 100, 60);
 
 In the preceding example, the [**SolidBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush) constructor takes a [**Color**](/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color) object reference as its only argument. The values used by the **Color** constructor represent the alpha, red, green, and blue components of the color. Each of these values must be in the range 0 through 255. The first 255 indicates that the color is fully opaque, and the second 255 indicates that the red component is at full intensity. The two zeros indicate that the green and blue components both have an intensity of 0.
 
-The four numbers (0, 0, 100, 60) passed to the [**Graphics::FillEllipse**](https://msdn.microsoft.com/en-us/library/ms535969(v=VS.85).aspx) method specify the location and size of the bounding rectangle for the ellipse. The rectangle has an upper-left corner of (0, 0), a width of 100, and a height of 60.
+The four numbers (0, 0, 100, 60) passed to the [**Graphics::FillEllipse**](https://msdn.microsoft.com/library/ms535969(v=VS.85).aspx) method specify the location and size of the bounding rectangle for the ellipse. The rectangle has an upper-left corner of (0, 0), a width of 100, and a height of 60.
 
  
 

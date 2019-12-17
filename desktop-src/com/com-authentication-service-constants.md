@@ -58,7 +58,7 @@ Defines authentication services by identifying the security package that provide
 
 ## Remarks
 
-These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/en-us/library/ms686648(v=VS.85).aspx) and the [**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/en-us/library/ms680049(v=VS.85).aspx) structures. The **SOLE\_AUTHENTICATION\_SERVICE** structure is passed by the server to the [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function and can be retrieved by the [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) function. A pointer to a **SOLE\_AUTHENTICATION\_INFO** structure is passed by the client to **CoInitializeSecurity**. For more information on the security packages identified by these values, such as NTLMSSP and Kerberos, see [COM and Security Packages](com-and-security-packages.md).
+These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/library/ms686648(v=VS.85).aspx) and the [**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/library/ms680049(v=VS.85).aspx) structures. The **SOLE\_AUTHENTICATION\_SERVICE** structure is passed by the server to the [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) function and can be retrieved by the [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) function. A pointer to a **SOLE\_AUTHENTICATION\_INFO** structure is passed by the client to **CoInitializeSecurity**. For more information on the security packages identified by these values, such as NTLMSSP and Kerberos, see [COM and Security Packages](com-and-security-packages.md).
 
 ## Requirements
 
@@ -85,10 +85,10 @@ These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn
 [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/en-us/library/ms680049(v=VS.85).aspx)
+[**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/library/ms680049(v=VS.85).aspx)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/en-us/library/ms686648(v=VS.85).aspx)
+[**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/library/ms686648(v=VS.85).aspx)
 </dt> </dl>
 
  

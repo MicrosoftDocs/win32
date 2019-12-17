@@ -1,12 +1,12 @@
 ---
 Description: Each item in a collection exposes properties.
 ms.assetid: d9af57ea-c5b3-4017-bdc2-e43b86b3ddcd
-title: Setting Properties and Saving Changes to the COM+ Catalog
+title: Editing Properties in the COM+ Catalog
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Setting Properties and Saving Changes to the COM+ Catalog
+# Editing Properties in the COM+ Catalog
 
 Each item in a collection exposes properties. These properties serve to hold configuration data for whatever element the item represents. In the Component Services administrative tool, these properties appear on a property page that you access by right-clicking an item in a folder.
 

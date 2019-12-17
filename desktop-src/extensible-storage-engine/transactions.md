@@ -8,10 +8,10 @@ ms.date: 04/11/2016
 ms.topic: article
 ---
 
-# Transactions
+# Transactions (Windows Events)
 
 
-_**Applies to:** Windows | Windows Server_
+_**Applies to:** Windowsï¿½| Windows Server_
 
 ## Transactions
 

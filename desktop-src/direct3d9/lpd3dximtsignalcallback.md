@@ -2,7 +2,7 @@
 Description: Function prototype used by D3DXComputeIMTFromSignal to describe a user-defined signal in an input mesh's u,v space. The function evaluates a procedural signal of dimension uSignalDimension at the provided u,v coordinate.
 ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
 title: LPD3DXIMTSIGNALCALLBACK
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ This function must be implemented to return S\_OK.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 

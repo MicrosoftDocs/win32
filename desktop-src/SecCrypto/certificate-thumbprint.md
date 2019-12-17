@@ -19,7 +19,7 @@ api_location:
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://msdn.microsoft.com/library/Hh424017(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Thumbprint** property retrieves a hexadecimal string that contains the [*SHA-1*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) hash of the certificate.
+The **Thumbprint** property retrieves a hexadecimal string that contains the [*SHA-1*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) hash of the certificate.
 
 This property is read-only.
 

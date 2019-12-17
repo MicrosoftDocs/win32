@@ -1,5 +1,5 @@
 ---
-title: Getting Format Capabilities on Devices That Support Only IWMDMDevice
+title: Getting format capabilities through IWMDMDevice
 description: Getting Format Capabilities on Devices That Support Only IWMDMDevice
 ms.assetid: bff079a1-d192-4e53-9b1d-9ad3b5dcca51
 keywords:
@@ -20,7 +20,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Format Capabilities on Devices That Support Only IWMDMDevice
+# Getting format capabilities through IWMDMDevice
 
 The recommended method for querying a device for its playback capabilities is [**IWMDMDevice3::GetFormatCapability**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability). However, if a device does not support this method, the application instead can call [**IWMDMDevice::GetFormatSupport**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport) to retrieve an array of supported audio formats as [**\_WAVEFORMATEX**](-waveformatex.md) structures and MIME formats as strings from the device.
 

@@ -2,10 +2,10 @@
 title: D3DCompiler Constants
 description: This section contains information about the following Direct3D HLSL compiler constants
 ms.assetid: 27A19D5B-7B6D-4CA4-89BB-9DD6A5AEB8B9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

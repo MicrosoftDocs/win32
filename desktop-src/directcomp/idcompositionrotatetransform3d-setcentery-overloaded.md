@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a 3D rotation transform
 
 | Method                                                                                                           | Description                                            |
 |:-----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/en-us/library/Hh448959(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448961(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh448959(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448961(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterY property of a 3D rotation transform
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
 </dt> </dl>
 
 �

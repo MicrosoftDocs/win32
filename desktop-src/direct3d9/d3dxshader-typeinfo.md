@@ -43,29 +43,29 @@ typedef struct D3DXSHADER_TYPEINFO {
 **Class**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Shader object type. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx).
+Shader object type. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/library/Bb205378(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Data type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx).
+Data type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/library/Bb205380(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Number of matrix rows (matrices).
 **Columns**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Number of columns (vectors and matrices).
 **Elements**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -98,7 +98,7 @@ Array dimension.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -109,7 +109,7 @@ Number of structure members.
 **StructMemberInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

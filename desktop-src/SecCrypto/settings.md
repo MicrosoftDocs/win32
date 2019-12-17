@@ -14,7 +14,7 @@ api_location:
 - Capicom.dll
 ---
 
-# Settings object
+# Settings object (Cryptography)
 
 \[The **Settings** object is available for use in the operating systems specified in the Requirements section.\]
 

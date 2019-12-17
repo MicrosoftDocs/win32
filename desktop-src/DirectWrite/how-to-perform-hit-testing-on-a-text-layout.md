@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Perform Hit Testing on a Text Layout
 
-Provides a short tutorial about how to add hit testing to a [DirectWrite](direct-write-portal.md) application that displays text by using the [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface.
+Provides a short tutorial about how to add hit testing to a [DirectWrite](direct-write-portal.md) application that displays text by using the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface.
 
 The result of this tutorial is an application that underlines the character that is clicked on by the left mouse button, as shown in the following screen shot.
 
@@ -24,11 +24,11 @@ This how to contains the following parts:
 
 ## Step 1: Create a Text Layout.
 
-To begin, you will need an application that uses an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object. If you already have an application that displays text with a text layout, go to Step 2.
+To begin, you will need an application that uses an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) object. If you already have an application that displays text with a text layout, go to Step 2.
 
 To add a text layout you must do the following:
 
-1.  Declare a pointer to an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface as a member of the class.
+1.  Declare a pointer to an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface as a member of the class.
 ```C++
     IDWriteTextLayout* pTextLayout_;
     
@@ -36,7 +36,7 @@ To add a text layout you must do the following:
 
     
 
-2.  At the end of the **CreateDeviceIndependentResources** method, create an [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) interface object by calling the [**CreateTextLayout**](https://msdn.microsoft.com/en-us/library/Dd368205(v=VS.85).aspx) method.
+2.  At the end of the **CreateDeviceIndependentResources** method, create an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) interface object by calling the [**CreateTextLayout**](https://msdn.microsoft.com/library/Dd368205(v=VS.85).aspx) method.
 ```C++
     // Create a text layout using the text format.
     if (SUCCEEDED(hr))
@@ -101,7 +101,7 @@ Now add a method to the class that will use the hit testing functionality of the
 
 ## Step 3: Perform Hit Testing.
 
-To determine where the user has clicked the text layout we will use the [**IDWriteTextLayout::HitTestPoint**](https://msdn.microsoft.com/en-us/library/Dd371464(v=VS.85).aspx) method.
+To determine where the user has clicked the text layout we will use the [**IDWriteTextLayout::HitTestPoint**](https://msdn.microsoft.com/library/Dd371464(v=VS.85).aspx) method.
 
 Add the following to the **OnClick** method that you defined in Step 2.
 
@@ -115,7 +115,7 @@ Add the following to the **OnClick** method that you defined in Step 2.
 
     
 
-    The [**HitTestPoint**](https://msdn.microsoft.com/en-us/library/Dd371464(v=VS.85).aspx) method outputs the following parameters.
+    The [**HitTestPoint**](https://msdn.microsoft.com/library/Dd371464(v=VS.85).aspx) method outputs the following parameters.
 
     
 
@@ -129,7 +129,7 @@ Add the following to the **OnClick** method that you defined in Step 2.
 
      
 
-2.  Call the [**HitTestPoint**](https://msdn.microsoft.com/en-us/library/Dd371464(v=VS.85).aspx) method of the [**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx) object.
+2.  Call the [**HitTestPoint**](https://msdn.microsoft.com/library/Dd371464(v=VS.85).aspx) method of the [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) object.
 
 ```C++
     pTextLayout_->HitTestPoint(
@@ -147,7 +147,7 @@ Add the following to the **OnClick** method that you defined in Step 2.
 
 ## Step 4: Underline the Clicked Text.
 
-Add the following to the **OnClick** you defined in Step 2, after the call to the [**HitTestPoint**](https://msdn.microsoft.com/en-us/library/Dd371464(v=VS.85).aspx) method.
+Add the following to the **OnClick** you defined in Step 2, after the call to the [**HitTestPoint**](https://msdn.microsoft.com/library/Dd371464(v=VS.85).aspx) method.
 
 
 ```C++
@@ -170,10 +170,10 @@ This code does the following.
 1.  Checks if the hit-test point was inside the text using the *isInside* variable.
 2.  The **textPosition** member of the *hitTestMetrics* structure contains the zero-based index of the character clicked.
 
-    Gets the underline for this character by passing this value to the [**IDWriteTextLayout::GetUnderline**](https://msdn.microsoft.com/en-us/library/Dd371463(v=VS.85).aspx) method.
+    Gets the underline for this character by passing this value to the [**IDWriteTextLayout::GetUnderline**](https://msdn.microsoft.com/library/Dd371463(v=VS.85).aspx) method.
 
 3.  Declares a [**DWRITE\_TEXT\_RANGE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) variable with the start position set to **hitTestMetrics.textPosition** and a length of 1.
-4.  Toggles the underline by using the [**IDWriteTextLayout::SetUnderline**](https://msdn.microsoft.com/en-us/library/Dd371518(v=VS.85).aspx) method.
+4.  Toggles the underline by using the [**IDWriteTextLayout::SetUnderline**](https://msdn.microsoft.com/library/Dd371518(v=VS.85).aspx) method.
 
 After setting the underline, redraw the text by calling the **DrawD2DContent** method of the class.
 

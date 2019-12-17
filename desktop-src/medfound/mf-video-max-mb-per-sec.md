@@ -23,14 +23,14 @@ This is a read-only attribute.
 This attribute is affected by the following properties:
 
 -   [MF\_MT\_VIDEO\_LEVEL](mf-mt-video-level.md) (which is an alias of [MF\_MT\_MPEG2\_LEVEL](mf-mt-mpeg2-level-attribute.md))
--   [CODECAPI\_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx)
--   [CODECAPI\_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/en-us/library/Dd317879(v=VS.85).aspx)
+-   [CODECAPI\_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/library/Dd317840(v=VS.85).aspx)
+-   [CODECAPI\_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/library/Dd317879(v=VS.85).aspx)
 
 If the [MF\_MT\_VIDEO\_LEVEL](mf-mt-video-level.md) attribute is present, the encoder should return the processing rate for the highest bitrate and resolution supported at the specified level. If the MF\_MT\_VIDEO\_LEVEL attribute is not present then it should use a default level of 4.
 
-If the [CODECAPI\_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx) ICodecAPI property has been set, the encoder should return the processing rate corresponding to the value set for this property. If the CODECAPI\_AVEncCommonQualityVsSpeed attribute is not present, then it should use a default value of 0 which should be the fastest processing mode.
+If the [CODECAPI\_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/library/Dd317840(v=VS.85).aspx) ICodecAPI property has been set, the encoder should return the processing rate corresponding to the value set for this property. If the CODECAPI\_AVEncCommonQualityVsSpeed attribute is not present, then it should use a default value of 0 which should be the fastest processing mode.
 
-If the [CODECAPI\_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/en-us/library/Dd317879(v=VS.85).aspx) ICodecAPI property has been set to a valid and supported value, the encoder should return the processing rate corresponding the value set for this property. If the CODECAPI\_AVEncMPVDefaultBPictureCount attribute is not presen,t then it should use a default value of 0 B frames.
+If the [CODECAPI\_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/library/Dd317879(v=VS.85).aspx) ICodecAPI property has been set to a valid and supported value, the encoder should return the processing rate corresponding the value set for this property. If the CODECAPI\_AVEncMPVDefaultBPictureCount attribute is not presen,t then it should use a default value of 0 B frames.
 
 Only the lower 28 bits should be used by an application. The upper 4bits are reserved for future use. Applications should ignore the upper 4 bits and MFTs should set the upper 4 bits to 0.
 

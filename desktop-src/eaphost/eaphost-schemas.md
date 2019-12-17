@@ -2,7 +2,6 @@
 title: EAPHost and Legacy Schema
 description: Describes the EAPHost schema and legacy schema for creating configuration XML and credential XML.
 ms.assetid: d4572866-7e2b-4e7c-afe1-66394b549bc4
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

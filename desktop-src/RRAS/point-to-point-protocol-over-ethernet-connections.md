@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Point-to-Point Protocol over Ethernet Connections
 
-Windows Server 2003, Windows XP, and later operating systems provide support for Point-to-Point Protocol over Ethernet (PPPoE). For a PPPoE connection, set the following values in the [**RASENTRY**](https://msdn.microsoft.com/en-us/library/Aa377274(v=VS.85).aspx) structure.
+Windows Server 2003, Windows XP, and later operating systems provide support for Point-to-Point Protocol over Ethernet (PPPoE). For a PPPoE connection, set the following values in the [**RASENTRY**](https://msdn.microsoft.com/library/Aa377274(v=VS.85).aspx) structure.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: VoiceCaption Property
+title: VoiceCaption Property (Commands Object)
 description: VoiceCaption Property
 ms.assetid: 2c4fa175-fc2d-4474-b15f-7e838103a435
 ms.topic: article

@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 ## 
 
-[**IGatherNotify**](https://msdn.microsoft.com/en-us/library/Aa965731(v=VS.85).aspx)
+[**IGatherNotify**](https://msdn.microsoft.com/library/Aa965731(v=VS.85).aspx)
 
-[**ISearchDesktop**](https://msdn.microsoft.com/en-us/library/Aa965729(v=VS.85).aspx)
+[**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx)
 
  
 

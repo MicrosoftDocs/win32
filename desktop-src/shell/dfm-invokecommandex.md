@@ -18,7 +18,7 @@ topic_type:
 
 # DFM\_INVOKECOMMANDEX message
 
-Sent by the default context menu implementation to request [**LPFNDFMCALLBACK**](https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx) to invoke an extended menu command.
+Sent by the default context menu implementation to request [**LPFNDFMCALLBACK**](https://msdn.microsoft.com/library/Bb776770(v=VS.85).aspx) to invoke an extended menu command.
 
 
 ```C++

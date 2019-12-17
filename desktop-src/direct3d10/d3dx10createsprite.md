@@ -21,7 +21,7 @@ api_location:
 Create a sprite for drawing a 2D texture.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and the [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteBatch** class.
+> Instead of using this function, we recommend that you use [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and the [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteBatch** class.
 
  
 
@@ -54,7 +54,7 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *cDeviceBufferSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The size of the vertex buffer, in number of sprites, that will be sent to the device when [**ID3DX10Sprite::Flush**](id3dx10sprite-flush.md) or [**ID3DX10Sprite::DrawSpritesImmediate**](id3dx10sprite-drawspritesimmediate.md) is called. This should be a small number if you know you will be rendering a small number of sprites at a time (to save memory) and a large number if you know you will be rendering a large number of sprites at a time. The maximum value is 4096. If 0 is specified, the vertex buffer size will automatically be set to 4096.
 
@@ -71,7 +71,7 @@ The address of a pointer to a sprite interface (see [**ID3DX10Sprite Interface**
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

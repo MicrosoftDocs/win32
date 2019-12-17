@@ -16,7 +16,7 @@ Specifies how to allocate Microsoft Direct3D 11 surfaces for media samples. The
 
 ## Remarks
 
-The value of this attribute is a [**D3D11\_USAGE**](https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx) value.
+The value of this attribute is a [**D3D11\_USAGE**](https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx) value.
 
 ### Microsoft Media Foundation Transforms
 

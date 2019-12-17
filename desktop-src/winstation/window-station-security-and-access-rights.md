@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 Security enables you to control access to window station objects. For more information about security, see [Access-Control Model](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model).
 
-You can specify a [security descriptor](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors) for a window station object when you call the [**CreateWindowStation**](https://msdn.microsoft.com/en-us/library/ms682496(v=VS.85).aspx) function. If you specify NULL, the window station gets a default security descriptor. The ACLs in the default security descriptor for a window station come from the primary or impersonation token of the creator.
+You can specify a [security descriptor](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors) for a window station object when you call the [**CreateWindowStation**](https://msdn.microsoft.com/library/ms682496(v=VS.85).aspx) function. If you specify NULL, the window station gets a default security descriptor. The ACLs in the default security descriptor for a window station come from the primary or impersonation token of the creator.
 
 To get or set the security descriptor of a window station object, call the [**GetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) and [**SetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) functions.
 
-When you call the [**OpenWindowStation**](https://msdn.microsoft.com/en-us/library/ms684339(v=VS.85).aspx) function, the system checks the requested access rights against the object's security descriptor.
+When you call the [**OpenWindowStation**](https://msdn.microsoft.com/library/ms684339(v=VS.85).aspx) function, the system checks the requested access rights against the object's security descriptor.
 
 The valid access rights for window station objects include the [standard access rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights) and some object-specific access rights. The following table lists the standard access rights used by all objects.
 

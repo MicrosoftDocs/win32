@@ -1,5 +1,5 @@
 ---
-title: AppID
+title: AppID (CLSID Key)
 description: Associates an AppID with a CLSID.
 ms.assetid: 16b16d07-b37e-47fc-b7a4-e5f2933e6201
 keywords:

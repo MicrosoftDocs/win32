@@ -26,10 +26,10 @@ This topic lists the methods of the [**Matrix**](/windows/desktop/api/gdiplusmat
 -   [**Scale**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-scale)
 -   [**SetElements**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-setelements)
 -   [**Shear**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear)
--   [**TransformPoints(Point\*,INT)**](https://msdn.microsoft.com/en-us/library/ms535320(v=VS.85).aspx)
--   [**TransformPoints(PointF\*,INT)**](https://msdn.microsoft.com/en-us/library/ms535321(v=VS.85).aspx)
--   [**TransformVectors(Point\*,INT)**](https://msdn.microsoft.com/en-us/library/ms535318(v=VS.85).aspx)
--   [**TransformVectors(PointF\*,INT)**](https://msdn.microsoft.com/en-us/library/ms535319(v=VS.85).aspx)
+-   [**TransformPoints(Point\*,INT)**](https://msdn.microsoft.com/library/ms535320(v=VS.85).aspx)
+-   [**TransformPoints(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535321(v=VS.85).aspx)
+-   [**TransformVectors(Point\*,INT)**](https://msdn.microsoft.com/library/ms535318(v=VS.85).aspx)
+-   [**TransformVectors(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535319(v=VS.85).aspx)
 -   [**Translate**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-translate)
 
  

@@ -1,5 +1,5 @@
 ---
-Description: Name
+Description: ModemDMConfigProfile\/Name (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Name
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -19,19 +19,17 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_1_Name"></span>Name
+# <span id="WWAN_profile_v4.element_1_Name"></span>ModemDMConfigProfile\/Name (v4)
 
 The name of the profile. For more information, see the documentation for the v1 [**Name**](https://msdn.microsoft.com/library/Dd323291(v=VS.85).aspx) element.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<Name>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;**\<Name\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<Name>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;**\<Name\>**
 
 ## Syntax
 

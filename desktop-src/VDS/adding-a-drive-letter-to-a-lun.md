@@ -22,7 +22,7 @@ You can assign drive letters to volume objects directly; however, if your disk i
 
 2.  Invoke the [**IVdsService::Reenumerate**](/windows/desktop/api/Vds/nf-vds-ivdsservice-reenumerate) method on the computer that is running the hardware provider.
 3.  Initialize the LUN as a basic disk as follows:
-    1.  Invoke the [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method on the LUN object to query for the [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) interface.
+    1.  Invoke the [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method on the LUN object to query for the [**IVdsDisk**](/windows/desktop/api/Vds/nn-vds-ivdsdisk) interface.
     2.  Invoke the [**IVdsSwProvider::CreatePack**](/windows/desktop/api/Vds/nf-vds-ivdsswprovider-createpack) method to create a basic pack.
     3.  Invoke the [**IVdsPack::AddDisk**](/windows/desktop/api/Vds/nf-vds-ivdspack-adddisk) method to add the disk to the new pack.
 4.  Create a partition on the disk and obtain the volume object as follows:

@@ -1,5 +1,5 @@
 ---
-title: The Advanced Character Options Window
+title: Advanced Character Options Window (Voice Commands Window)
 description: The Advanced Character Options Window
 ms.assetid: c2f784e9-d1c5-4fa3-b3f7-5061c9b7e6d9
 ms.topic: article

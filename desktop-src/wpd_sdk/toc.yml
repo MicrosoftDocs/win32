@@ -81,7 +81,7 @@
     - name: "Retrieving Object Information"
       href: retrieving-object-information.md
       items: 
-      - name: "Retrieving an Object Identifier from a Persistent Unique Identifier"
+      - name: "Retrieving an Object Id from a Persistent Unique Id"
         href: retrieving-an-object-identifier-from-a-persistent-unique-identifier.md
       - name: "Retrieving the Functional Object Identifiers for a Device"
         href: retrieving-the-functional-object-identifiers-for-a-device.md

@@ -19,9 +19,9 @@ The following code examples demonstrate how to perform the following tasks assoc
 
 The system does not automatically create a message queue for each thread. Instead, the system creates a message queue only for threads that perform operations which require a message queue. If the thread creates one or more windows, a message loop must be provided; this message loop retrieves messages from the thread's message queue and dispatches them to the appropriate window procedures.
 
-Because the system directs messages to individual windows in an application, a thread must create at least one window before starting its message loop. Most applications contain a single thread that creates windows. A typical application registers the window class for its main window, creates and shows the main window, and then starts its message loop — all in the [**WinMain**](https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx) function.
+Because the system directs messages to individual windows in an application, a thread must create at least one window before starting its message loop. Most applications contain a single thread that creates windows. A typical application registers the window class for its main window, creates and shows the main window, and then starts its message loop — all in the [**WinMain**](https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx) function.
 
-You create a message loop by using the [**GetMessage**](https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx) and [**DispatchMessage**](https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx) function of a simple Windows-based application.
+You create a message loop by using the [**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx) and [**DispatchMessage**](https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](https://msdn.microsoft.com/library/ms644955(v=VS.85).aspx) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx) function of a simple Windows-based application.
 
 
 ```
@@ -100,7 +100,7 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 
 
-The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](https://msdn.microsoft.com/en-us/library/ms646373(v=VS.85).aspx) or [**IsDialogMessage**](https://msdn.microsoft.com/en-us/library/ms645498(v=VS.85).aspx) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx) and [**DispatchMessage**](https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
+The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx) or [**IsDialogMessage**](https://msdn.microsoft.com/library/ms645498(v=VS.85).aspx) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](https://msdn.microsoft.com/library/ms644955(v=VS.85).aspx) and [**DispatchMessage**](https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
 
 
 ```
@@ -137,11 +137,11 @@ while( (bRet = GetMessage( &msg, NULL, 0, 0 )) != 0)
 
 ## Examining a Message Queue
 
-Occasionally, an application needs to examine the contents of a thread's message queue from outside the thread's message loop. For example, if an application's window procedure performs a lengthy drawing operation, you may want the user to be able to interrupt the operation. Unless your application periodically examines the message queue during the operation for mouse and keyboard messages, it will not respond to user input until after the operation has completed. The reason for this is that the [**DispatchMessage**](https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx) function in the thread's message loop does not return until the window procedure finishes processing a message.
+Occasionally, an application needs to examine the contents of a thread's message queue from outside the thread's message loop. For example, if an application's window procedure performs a lengthy drawing operation, you may want the user to be able to interrupt the operation. Unless your application periodically examines the message queue during the operation for mouse and keyboard messages, it will not respond to user input until after the operation has completed. The reason for this is that the [**DispatchMessage**](https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx) function in the thread's message loop does not return until the window procedure finishes processing a message.
 
-You can use the [**PeekMessage**](https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx) function to examine a message queue during a lengthy operation. **PeekMessage** is similar to the [**GetMessage**](https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx) function; both check a message queue for a message that matches the filter criteria and then copy the message to an [**MSG**](https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx) structure. The main difference between the two functions is that **GetMessage** does not return until a message matching the filter criteria is placed in the queue, whereas **PeekMessage** returns immediately regardless of whether a message is in the queue.
+You can use the [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx) function to examine a message queue during a lengthy operation. **PeekMessage** is similar to the [**GetMessage**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx) function; both check a message queue for a message that matches the filter criteria and then copy the message to an [**MSG**](https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx) structure. The main difference between the two functions is that **GetMessage** does not return until a message matching the filter criteria is placed in the queue, whereas **PeekMessage** returns immediately regardless of whether a message is in the queue.
 
-The following example shows how to use [**PeekMessage**](https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx) to examine a message queue for mouse clicks and keyboard input during a lengthy operation.
+The following example shows how to use [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx) to examine a message queue for mouse clicks and keyboard input during a lengthy operation.
 
 
 ```
@@ -179,17 +179,17 @@ while (!fDone)
 
 
 
-Other functions, including [**GetQueueStatus**](https://msdn.microsoft.com/en-us/library/ms644940(v=VS.85).aspx) and [**GetInputState**](https://msdn.microsoft.com/en-us/library/ms644935(v=VS.85).aspx), also allow you to examine the contents of a thread's message queue. **GetQueueStatus** returns an array of flags that indicates the types of messages in the queue; using it is the fastest way to discover whether the queue contains any messages. **GetInputState** returns **TRUE** if the queue contains mouse or keyboard messages. Both of these functions can be used to determine whether the queue contains messages that need to be processed.
+Other functions, including [**GetQueueStatus**](https://msdn.microsoft.com/library/ms644940(v=VS.85).aspx) and [**GetInputState**](https://msdn.microsoft.com/library/ms644935(v=VS.85).aspx), also allow you to examine the contents of a thread's message queue. **GetQueueStatus** returns an array of flags that indicates the types of messages in the queue; using it is the fastest way to discover whether the queue contains any messages. **GetInputState** returns **TRUE** if the queue contains mouse or keyboard messages. Both of these functions can be used to determine whether the queue contains messages that need to be processed.
 
 ## Posting a Message
 
-You can post a message to a message queue by using the [**PostMessage**](https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx) function. **PostMessage** places a message at the end of a thread's message queue and returns immediately, without waiting for the thread to process the message. The function's parameters include a window handle, a message identifier, and two message parameters. The system copies these parameters to an [**MSG**](https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx) structure, fills the **time** and **pt** members of the structure, and places the structure in the message queue.
+You can post a message to a message queue by using the [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) function. **PostMessage** places a message at the end of a thread's message queue and returns immediately, without waiting for the thread to process the message. The function's parameters include a window handle, a message identifier, and two message parameters. The system copies these parameters to an [**MSG**](https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx) structure, fills the **time** and **pt** members of the structure, and places the structure in the message queue.
 
-The system uses the window handle passed with the [**PostMessage**](https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx) function to determine which thread message queue should receive the message. If the handle is **HWND\_TOPMOST**, the system posts the message to the thread message queues of all top-level windows.
+The system uses the window handle passed with the [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) function to determine which thread message queue should receive the message. If the handle is **HWND\_TOPMOST**, the system posts the message to the thread message queues of all top-level windows.
 
-You can use the [**PostThreadMessage**](https://msdn.microsoft.com/en-us/library/ms644946(v=VS.85).aspx) function to post a message to a specific thread message queue. **PostThreadMessage** is similar to [**PostMessage**](https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx), except the first parameter is a thread identifier rather than a window handle. You can retrieve the thread identifier by calling the [**GetCurrentThreadId**](https://msdn.microsoft.com/en-us/library/ms683183(v=VS.85).aspx) function.
+You can use the [**PostThreadMessage**](https://msdn.microsoft.com/library/ms644946(v=VS.85).aspx) function to post a message to a specific thread message queue. **PostThreadMessage** is similar to [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx), except the first parameter is a thread identifier rather than a window handle. You can retrieve the thread identifier by calling the [**GetCurrentThreadId**](https://msdn.microsoft.com/library/ms683183(v=VS.85).aspx) function.
 
-Use the [**PostQuitMessage**](https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx) function to exit a message loop. **PostQuitMessage** posts the [**WM\_QUIT**](wm-quit.md) message to the currently executing thread. The thread's message loop terminates and returns control to the system when it encounters the **WM\_QUIT** message. An application usually calls **PostQuitMessage** in response to the [**WM\_DESTROY**](wm-destroy.md) message, as shown in the following example.
+Use the [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) function to exit a message loop. **PostQuitMessage** posts the [**WM\_QUIT**](wm-quit.md) message to the currently executing thread. The thread's message loop terminates and returns control to the system when it encounters the **WM\_QUIT** message. An application usually calls **PostQuitMessage** in response to the [**WM\_DESTROY**](wm-destroy.md) message, as shown in the following example.
 
 
 ```
@@ -205,11 +205,11 @@ case WM_DESTROY:
 
 ## Sending a Message
 
-The [**SendMessage**](https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx) function is used to send a message directly to a window procedure. **SendMessage** calls a window procedure and waits for that procedure to process the message and return a result.
+The [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function is used to send a message directly to a window procedure. **SendMessage** calls a window procedure and waits for that procedure to process the message and return a result.
 
 A message can be sent to any window in the system; all that is required is a window handle. The system uses the handle to determine which window procedure should receive the message.
 
-Before processing a message that may have been sent from another thread, a window procedure should first call the [**InSendMessage**](https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx) function. If this function returns **TRUE**, the window procedure should call [**ReplyMessage**](https://msdn.microsoft.com/en-us/library/ms644948(v=VS.85).aspx) before any function that causes the thread to yield control, as shown in the following example.
+Before processing a message that may have been sent from another thread, a window procedure should first call the [**InSendMessage**](https://msdn.microsoft.com/library/ms644941(v=VS.85).aspx) function. If this function returns **TRUE**, the window procedure should call [**ReplyMessage**](https://msdn.microsoft.com/library/ms644948(v=VS.85).aspx) before any function that causes the thread to yield control, as shown in the following example.
 
 
 ```
@@ -225,7 +225,7 @@ case WM_USER + 5:
 
 A number of messages can be sent to controls in a dialog box. These control messages set the appearance, behavior, and content of controls or retrieve information about controls. For example, the [**CB\_ADDSTRING**](https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx) message can add a string to a combo box, and the [**BM\_SETCHECK**](https://msdn.microsoft.com/library/Bb775989(v=VS.85).aspx) message can set the check state of a check box or radio button.
 
-Use the [**SendDlgItemMessage**](https://msdn.microsoft.com/en-us/library/ms645515(v=VS.85).aspx) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx) message to the combo box.
+Use the [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx) message to the combo box.
 
 
 ```

@@ -576,7 +576,7 @@
       - name: "PROPVARIANT"
         href: https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant
       - name: "RemSNB"
-        href: /windows/desktop/api/Objidl/ns-objidl-tagremsnb
+        href: /windows/win32/api/Objidl/ns-objidl-remsnb
       - name: "SNB"
         href: snb.md
       - name: "STATPROPSETSTG"
@@ -584,28 +584,28 @@
       - name: "STATPROPSTG"
         href: https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg
       - name: "STATSTG"
-        href: /windows/desktop/api/Objidl/ns-objidl-tagstatstg
+        href: /windows/win32/api/Objidl/ns-objidl-statstg
       - name: "STGOPTIONS"
-        href: /windows/desktop/api/coml2api/ns-coml2api-tagstgoptions
+        href: /windows/win32/api/coml2api/ns-coml2api-stgoptions
       - name: "StorageLayout"
-        href: /windows/desktop/api/Objidl/ns-objidl-tagstoragelayout
+        href: /windows/win32/api/Objidl/ns-objidl-storagelayout
     - name: "Enumerations"
       href: enumerations.md
       items: 
       - name: "LOCKTYPE"
-        href: /windows/desktop/api/Objidl/ne-objidl-taglocktype
+        href: /windows/win32/api/Objidl/ne-objidl-locktype
       - name: "STATFLAG"
-        href: /windows/desktop/api/WTypes/ne-wtypes-tagstatflag
+        href: /windows/win32/api/WTypes/ne-wtypes-statflag
       - name: "STGC"
-        href: /windows/desktop/api/WTypes/ne-wtypes-tagstgc
+        href: /windows/win32/api/WTypes/ne-wtypes-stgc
       - name: "STGFMT"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380330(v=vs.85)
       - name: "STGMOVE"
-        href: /windows/desktop/api/WTypes/ne-wtypes-tagstgmove
+        href: /windows/win32/api/WTypes/ne-wtypes-stgmove
       - name: "STGTY"
-        href: /windows/desktop/api/Objidl/ne-objidl-tagstgty
+        href: /windows/win32/api/Objidl/ne-objidl-stgty
       - name: "STREAM_SEEK"
-        href: /windows/desktop/api/Objidl/ne-objidl-tagstream_seek
+        href: /windows/win32/api/Objidl/ne-objidl-stream_seek
     - name: "Constants"
       href: constants.md
       items: 

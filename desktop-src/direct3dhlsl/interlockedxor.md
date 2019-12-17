@@ -1,5 +1,5 @@
 ---
-title: InterlockedXor function
+title: InterlockedXor function (HLSL reference)
 description: Performs a guaranteed atomic xor.
 ms.assetid: 844ca31f-d051-4713-b9e1-dd6712ad36ca
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedXor function
+# InterlockedXor function (HLSL reference)
 
 Performs a guaranteed atomic xor.
 

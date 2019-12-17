@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The pipe server controls whether its handles can be inherited in the following ways:
 
--   The [**CreatePipe**](https://msdn.microsoft.com/en-us/library/Aa365152(v=VS.85).aspx) function receives a [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure. If the pipe server sets the **bInheritHandle** member of this structure to **TRUE**, the handles created by **CreatePipe** can be inherited.
+-   The [**CreatePipe**](https://msdn.microsoft.com/library/Aa365152(v=VS.85).aspx) function receives a [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure. If the pipe server sets the **bInheritHandle** member of this structure to **TRUE**, the handles created by **CreatePipe** can be inherited.
 -   The pipe server can use the [**DuplicateHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle) function to change the inheritance of a pipe handle. The pipe server can create a noninheritable duplicate of an inheritable pipe handle or an inheritable duplicate of a noninheritable pipe handle.
 -   The [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function enables the pipe server to specify whether a child process inherits all or none of its inheritable handles.
 

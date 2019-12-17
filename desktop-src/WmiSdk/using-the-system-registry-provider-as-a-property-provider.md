@@ -2,7 +2,7 @@
 Description: You can use the System Registry Provider as either an instance or a property provider.
 ms.assetid: 0a8198c0-57c1-4d96-9965-3867c8c0e738
 ms.tgt_platform: multiple
-title: Using the System Registry Provider as a Property Provider
+title: Use the System Registry Provider as a Property Provider
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -12,7 +12,7 @@ api_type:
 api_location: 
 ---
 
-# Using the System Registry Provider as a Property Provider
+# Use the System Registry Provider as a Property Provider
 
 You can use the [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) as either an instance or a property provider.
 

@@ -67,7 +67,7 @@ Beginning with the Windows Media Format 9 Series SDK, no new system profiles hav
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

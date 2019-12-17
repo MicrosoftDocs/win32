@@ -24,7 +24,7 @@ Includes methods to set and retrieve the RemoteApp mode and the start-up paramet
 
 ## Members
 
-The **ITSRemoteProgram** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITSRemoteProgram** also has these types of members:
+The **ITSRemoteProgram** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITSRemoteProgram** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -75,7 +75,7 @@ The **ITSRemoteProgram** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)

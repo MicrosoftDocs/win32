@@ -2,10 +2,10 @@
 title: endloop - ps
 description: End of a loop - ps...endloop block.
 ms.assetid: 8d05d0b3-88d2-44e3-a22d-54d8a8ceb5f4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

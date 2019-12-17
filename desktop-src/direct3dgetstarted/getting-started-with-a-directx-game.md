@@ -18,7 +18,7 @@ To develop a game in DirectX for Windows, you must have a few basic skills. Spec
 
 -   Read and write modern C++ code (C++11 helps the most), and be familiar with basic C++ design principles and patterns like templates and the factory model. You must also be familiar with common C++ libraries like the Standard Template Library, and specifically with the casting operators, pointer types, and the standard template library data structures (such as std::vector).
 -   Understand basic geometry, trigonometry, and linear algebra. Much of the code you will find in the examples assumes you understand these forms of mathematics and their common rules.
--   Have familiarity with COM—especially [**Microsoft::WRL::ComPtr**](https://msdn.microsoft.com/en-us/library/BR244983(v=VS.110).aspx) (smart pointer).
+-   Have familiarity with COM—especially [**Microsoft::WRL::ComPtr**](https://msdn.microsoft.com/library/BR244983(v=VS.110).aspx) (smart pointer).
 -   Understand the foundations of graphics and graphics technology, particularly 3D graphics. While DirectX itself has its own terminology, it still builds upon a well-established understanding of general 3D graphics principles.
 -   Understand the concept of a message loop, because you'll be implementing a loop that listens to the Windows operating system.
 

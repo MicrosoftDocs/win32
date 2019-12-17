@@ -24,7 +24,7 @@ The Get... methods provide access to the data structures used by the Apply... me
 
 ## Members
 
-The **ID3DXTextureGutterHelper** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXTextureGutterHelper** also has these types of members:
+The **ID3DXTextureGutterHelper** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXTextureGutterHelper** also has these types of members:
 
 -   [Methods](#methods)
 

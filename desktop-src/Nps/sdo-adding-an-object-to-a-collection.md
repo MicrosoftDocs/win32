@@ -118,7 +118,7 @@ The following code adds a new policy to the IAS policies collection. The variabl
 [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
 </dt> </dl>
 
  

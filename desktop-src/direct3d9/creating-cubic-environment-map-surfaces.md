@@ -40,11 +40,11 @@ m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &pFace2);
 
 
 
-The first parameter that [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx) accepts is a [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/en-us/library/Bb172528(v=VS.85).aspx) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
+The first parameter that [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx) accepts is a [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
 
 > [!Note]
 >
-> After calling this method, the internal reference count on the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) method on this **IDirect3DSurface9** interface or you will have a memory leak.
+> After calling this method, the internal reference count on the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) method on this **IDirect3DSurface9** interface or you will have a memory leak.
 
  
 

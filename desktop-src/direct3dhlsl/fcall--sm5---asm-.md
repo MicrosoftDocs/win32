@@ -2,7 +2,7 @@
 title: fcall (sm5 - asm)
 description: Interface function call.
 ms.assetid: C21784A0-D2F4-4DDE-9AC4-4F21351BCA6E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,9 +1,7 @@
 ---
 title: '_aulldiv Routine'
-author: TimShererWithAquent
 description: Divides two ULONGLONG integers.
 ms.assetid: na
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 04/29/2019
 ms.keywords: _aulldiv, ntoskrnl.exe!_aulldiv 

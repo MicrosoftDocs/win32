@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[**SFVM\_GETPANE** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to provide the status bar pane in which to display the Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to provide the status bar pane in which to display the Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

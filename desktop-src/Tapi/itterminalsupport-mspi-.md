@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # ITTerminalSupport (MSPI)
 
-The [**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx) interface is exposed on an [Address object](address-object.md) if an MSP exists. The methods of this interface allow an application to discover available terminals and/or create one, and get pointers to required [Terminal objects](terminal-object.md).
+The [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx) interface is exposed on an [Address object](address-object.md) if an MSP exists. The methods of this interface allow an application to discover available terminals and/or create one, and get pointers to required [Terminal objects](terminal-object.md).
 
-The [**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx) interface is implemented by an MSP and is not available if there is no media service provider associated with the address. Please see **ITTerminalSupport** in the MSP Interface section for details on this interface.
+The [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx) interface is implemented by an MSP and is not available if there is no media service provider associated with the address. Please see **ITTerminalSupport** in the MSP Interface section for details on this interface.
 
  
 

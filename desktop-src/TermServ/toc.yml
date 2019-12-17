@@ -1119,19 +1119,19 @@
         href: custom-remote-protocol-enumerations.md
         items: 
         - name: "WRDS_CONNECTION_SETTING_LEVEL"
-          href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_connection_setting_level
+          href: /windows/win32/api/Wtsdefs/ne-wtsdefs-wrds_connection_setting_level
         - name: "WRDS_LISTENER_SETTING_LEVEL"
-          href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_listener_setting_level
+          href: /windows/win32/api/Wtsdefs/ne-wtsdefs-wrds_listener_setting_level
         - name: "WRDS_SETTING_LEVEL"
-          href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_setting_level
+          href: /windows/win32/api/Wtsdefs/ne-wtsdefs-wrds_setting_level
         - name: "WRDS_SETTING_STATUS"
-          href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_setting_status
+          href: /windows/win32/api/Wtsdefs/ne-wtsdefs-wrds_setting_status
         - name: "WRDS_SETTING_TYPE"
-          href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-_wrds_setting_type
+          href: /windows/win32/api/Wtsdefs/ne-wtsdefs-wrds_setting_type
         - name: "WTS_CERT_TYPE"
           href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_cert_type
         - name: "WTS_LOGON_ERROR_REDIRECTOR_RESPONSE"
-          href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-_wts_logon_error_redirector_response
+          href: /windows/win32/api/Wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response
         - name: "WTS_RCM_DRAIN_STATE"
           href: /windows/desktop/api/Wtsdefs/ne-wtsdefs-wts_rcm_drain_state
         - name: "WTS_RCM_SERVICE_STATE"
@@ -1455,64 +1455,64 @@
         - name: "TSMF_SUPPORT_NODEDATA_OUT"
           href: tsmf-support-nodedata-out.md
         - name: "WRDS_CONNECTION_SETTINGS"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_connection_settings
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_connection_settings
         - name: "WRDS_CONNECTION_SETTINGS_1"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_connection_settings_1
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_connection_settings_1
         - name: "WRDS_DYNAMIC_TIME_ZONE_INFORMATION"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_dynamic_time_zone_information
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_dynamic_time_zone_information
         - name: "WRDS_LISTENER_SETTINGS"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_listener_settings
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_listener_settings
         - name: "WRDS_LISTENER_SETTINGS_1"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_listener_settings_1
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_listener_settings_1
         - name: "WRDS_SETTINGS"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_settings
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_settings
         - name: "WRDS_SETTINGS_1"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_settings_1
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_settings_1
         - name: "WTS_CACHE_STATS"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_cache_stats
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_cache_stats
         - name: "WTS_DISPLAY_IOCTL"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_display_ioctl
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_display_ioctl
         - name: "WTS_CLIENT_DATA"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_client_data
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_client_data
         - name: "WTS_LICENSE_CAPABILITIES"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_license_capabilities
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_license_capabilities
         - name: "WTS_POLICY_DATA"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_policy_data
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_policy_data
         - name: "WTS_PROPERTY_VALUE"
           href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-__wts_property_value
         - name: "WTS_PROTOCOL_CACHE"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_protocol_cache
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_protocol_cache
         - name: "WTS_PROTOCOL_COUNTERS"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_protocol_counters
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_protocol_counters
         - name: "WTS_PROTOCOL_STATUS"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_protocol_status
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_protocol_status
         - name: "WTS_SERVICE_STATE"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_service_state
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_service_state
         - name: "WTS_SESSION_ID"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_session_id
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_session_id
         - name: "WTS_SMALL_RECT"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_small_rect
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_small_rect
         - name: "WTS_SOCKADDR"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_sockaddr
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_sockaddr
         - name: "WTS_SYSTEMTIME"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_systemtime
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_systemtime
         - name: "WTS_TIME_ZONE_INFORMATION"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_time_zone_information
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_time_zone_information
         - name: "WTS_USER_CREDENTIAL"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_user_credential
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_user_credential
         - name: "WTS_USER_DATA"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_user_data
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_user_data
       - name: "Remote Desktop Protocol Provider Unions"
         href: custom-remote-protocol-unions.md
         items: 
         - name: "WRDS_CONNECTION_SETTING"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_connection_setting
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_connection_setting
         - name: "WRDS_LISTENER_SETTING"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_listener_setting
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_listener_setting
         - name: "WRDS_SETTING"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wrds_setting
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wrds_setting
         - name: "WTS_CACHE_STATS_UN"
-          href: /windows/desktop/api/Wtsdefs/ns-wtsdefs-_wts_cache_stats_un
+          href: /windows/win32/api/Wtsdefs/ns-wtsdefs-wts_cache_stats_un
   - name: "Remote Desktop Services virtual channels"
     href: terminal-services-virtual-channels.md
     items: 
@@ -1663,7 +1663,7 @@
         href: graphics-virtual-channels-enumerations.md
         items: 
         - name: "WRdsGraphicsChannelType"
-          href: /windows/desktop/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-__midl___midl_itf_wrdsgraphicschannels_0000_0002_0001
+          href: /windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype
   - name: "RemoteFX Media Redirection API"
     href: remotefx-api.md
     items: 
@@ -1787,7 +1787,7 @@
       href: task-agent-api-enumerations.md
       items: 
       - name: "RDV_TASK_STATUS"
-        href: /windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status
+        href: /windows/win32/api/SessDirPublicTypes/ne-sessdirpublictypes-rdv_task_status
   - name: "About Remote Desktop Services"
     href: about-terminal-services.md
     items: 
@@ -2094,11 +2094,11 @@
         href: remote-desktop-gateway-enumeration-types.md
         items: 
         - name: "AAAccountingDataType"
-          href: /windows/desktop/api/Tsgpolicyengine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0002
+          href: /windows/win32/api/Tsgpolicyengine/ne-tsgpolicyengine-aaaccountingdatatype
         - name: "AAAuthSchemes"
-          href: /windows/desktop/api/Tsgpolicyengine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0001
+          href: /windows/win32/api/Tsgpolicyengine/ne-tsgpolicyengine-aaauthschemes
         - name: "PolicyAttributeType"
-          href: /windows/desktop/api/TSGPolicyEngine/ne-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0005
+          href: /windows/win32/api/TSGPolicyEngine/ne-tsgpolicyengine-policyattributetype
       - name: "Remote Desktop Gateway Interfaces"
         href: remote-desktop-gateway-interfaces.md
         items: 
@@ -2168,7 +2168,7 @@
         href: remote-desktop-gateway-structures.md
         items: 
         - name: "AAAccountingData"
-          href: /windows/desktop/api/TSGPolicyEngine/ns-tsgpolicyengine-__midl___midl_itf_tsgpolicyengine_0000_0000_0003
+          href: /windows/win32/api/TSGPolicyEngine/ns-tsgpolicyengine-aaaccountingdata
     - name: "Remote Desktop Services API reference"
       href: terminal-services-api-reference.md
       items: 
@@ -2183,29 +2183,29 @@
         href: terminal-services-api-enumeration-types.md
         items: 
         - name: "WTS_CONFIG_CLASS"
-          href: /windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_config_class
+          href: /windows/win32/api/Wtsapi32/ne-wtsapi32-wts_config_class
         - name: "WTS_CONFIG_SOURCE"
-          href: /windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_config_source
+          href: /windows/win32/api/Wtsapi32/ne-wtsapi32-wts_config_source
         - name: "WTS_CONNECTSTATE_CLASS"
-          href: /windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_connectstate_class
+          href: /windows/win32/api/Wtsapi32/ne-wtsapi32-wts_connectstate_class
         - name: "WTS_INFO_CLASS"
-          href: /windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_info_class
+          href: /windows/win32/api/Wtsapi32/ne-wtsapi32-wts_info_class
         - name: "WTS_TYPE_CLASS"
-          href: /windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_type_class
+          href: /windows/win32/api/Wtsapi32/ne-wtsapi32-wts_type_class
         - name: "WTS_VIRTUAL_CLASS"
-          href: /windows/desktop/api/Wtsapi32/ne-wtsapi32-_wts_virtual_class
+          href: /windows/win32/api/Wtsapi32/ne-wtsapi32-wts_virtual_class
         - name: "WTSSBX_ADDRESS_FAMILY"
-          href: /windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0003
+          href: /windows/win32/api/Tssbx/ne-tssbx-wtssbx_address_family
         - name: "WTSSBX_MACHINE_DRAIN"
-          href: /windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0001
+          href: /windows/win32/api/Tssbx/ne-tssbx-wtssbx_machine_drain
         - name: "WTSSBX_MACHINE_SESSION_MODE"
-          href: /windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0002
+          href: /windows/win32/api/Tssbx/ne-tssbx-wtssbx_machine_session_mode
         - name: "WTSSBX_MACHINE_STATE"
-          href: /windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0005
+          href: /windows/win32/api/Tssbx/ne-tssbx-wtssbx_machine_state
         - name: "WTSSBX_NOTIFICATION_TYPE"
-          href: /windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0010
+          href: /windows/win32/api/Tssbx/ne-tssbx-wtssbx_notification_type
         - name: "WTSSBX_SESSION_STATE"
-          href: /windows/desktop/api/Tssbx/ne-tssbx-__midl_iwtssbplugin_0008
+          href: /windows/win32/api/Tssbx/ne-tssbx-wtssbx_session_state
       - name: "Remote Desktop Services API Functions"
         href: terminal-services-api-functions.md
         items: 
@@ -2342,60 +2342,60 @@
         - name: "CHANNEL_DEF"
           href: /windows/desktop/api/Pchannel/ns-pchannel-tagchannel_def
         - name: "CHANNEL_ENTRY_POINTS"
-          href: /windows/desktop/api/Cchannel/ns-cchannel-tagchannel_entry_points
+          href: /windows/win32/api/Cchannel/ns-cchannel-channel_entry_points
         - name: "CHANNEL_PDU_HEADER"
-          href: /windows/desktop/api/Pchannel/ns-pchannel-tagchannel_pdu_header
+          href: /windows/win32/api/Pchannel/ns-pchannel-channel_pdu_header
         - name: "LSKeyPack"
           href: lskeypack.md
         - name: "LSLicense"
           href: lslicense.md
         - name: "WTSCLIENT"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsclienta
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsclienta
         - name: "WTSCONFIGINFO"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsconfiginfoa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsconfiginfoa
         - name: "WTSINFO"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsinfoa
         - name: "WTSINFOEX"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoexa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsinfoexa
         - name: "WTSINFOEX_LEVEL1"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsinfoex_level1_a
         - name: "WTSLISTENERCONFIG"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtslistenerconfiga
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtslistenerconfiga
         - name: "WTSSBX_IP_ADDRESS"
-          href: /windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0004
+          href: /windows/win32/api/Tssbx/ns-tssbx-wtssbx_ip_address
         - name: "WTSSBX_MACHINE_CONNECT_INFO"
-          href: /windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0006
+          href: /windows/win32/api/Tssbx/ns-tssbx-wtssbx_machine_connect_info
         - name: "WTSSBX_MACHINE_INFO"
-          href: /windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0007
+          href: /windows/win32/api/Tssbx/ns-tssbx-wtssbx_machine_info
         - name: "WTSSBX_SESSION_INFO"
-          href: /windows/desktop/api/Tssbx/ns-tssbx-__midl_iwtssbplugin_0009
+          href: /windows/win32/api/Tssbx/ns-tssbx-wtssbx_session_info
         - name: "WTSSESSION_NOTIFICATION"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagwtssession_notification
+          href: /windows/win32/api/Winuser/ns-winuser-wtssession_notification
         - name: "WTSUSERCONFIG"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsuserconfiga
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsuserconfiga
         - name: "WTS_CLIENT_ADDRESS"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_client_address
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_client_address
         - name: "WTS_CLIENT_DISPLAY"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_client_display
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_client_display
         - name: "WTS_PROCESS_INFO"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_process_infoa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_process_infoa
         - name: "WTS_PROCESS_INFO_EX"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_process_info_exa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa
         - name: "WTS_PRODUCT_INFO"
           href: https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_product_infoa
         - name: "WTS_SERVER_INFO"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_server_infoa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_server_infoa
         - name: "WTS_SESSION_ADDRESS"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_session_address
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_session_address
         - name: "WTS_SESSION_INFO"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_session_infoa
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_session_infoa
         - name: "WTS_SESSION_INFO_1"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wts_session_info_1a
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a
       - name: "Remote Desktop Services API Unions"
         href: remote-desktop-services-api-unions.md
         items: 
         - name: "WTSINFOEX_LEVEL"
-          href: /windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoex_level_a
+          href: /windows/win32/api/Wtsapi32/ns-wtsapi32-wtsinfoex_level_a
     - name: "Remote Desktop Services AudioEndpoint API reference"
       href: terminal-services-audioendpoint-api-reference.md
       items: 
@@ -2544,17 +2544,17 @@
         href: remote-desktop-virtualization-enumerations.md
         items: 
         - name: "TARGET_CHANGE_TYPE"
-          href: /windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_target_change_type
+          href: /windows/win32/api/SessDirPublicTypes/ne-sessdirpublictypes-target_change_type
         - name: "TARGET_STATE"
-          href: /windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_target_state
+          href: /windows/win32/api/SessDirPublicTypes/ne-sessdirpublictypes-target_state
         - name: "TARGET_TYPE"
-          href: /windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_target_type
+          href: /windows/win32/api/SessDirPublicTypes/ne-sessdirpublictypes-target_type
         - name: "TSSESSION_STATE"
-          href: /windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_tssession_state
+          href: /windows/win32/api/SessDirPublicTypes/ne-sessdirpublictypes-tssession_state
         - name: "TSSD_AddrV46Type"
-          href: /windows/desktop/api/SessDirPublicTypes/ne-sessdirpublictypes-_tssd_addrv46type
+          href: /windows/win32/api/SessDirPublicTypes/ne-sessdirpublictypes-tssd_addrv46type
         - name: "TS_SB_SORT_BY"
-          href: /windows/desktop/api/sbtsv/ne-sbtsv-_ts_sb_sort_by
+          href: /windows/win32/api/sbtsv/ne-sbtsv-ts_sb_sort_by
       - name: "Remote Desktop Virtualization Interfaces"
         href: remote-desktop-virtualization-interfaces.md
         items: 
@@ -3049,9 +3049,9 @@
         href: remote-desktop-virtualization-structures.md
         items: 
         - name: "CLIENT_DISPLAY"
-          href: /windows/desktop/api/SessDirPublicTypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0001
+          href: /windows/win32/api/SessDirPublicTypes/ns-sessdirpublictypes-client_display
         - name: "TSSD_ConnectionPoint"
-          href: /windows/desktop/api/SessDirPublicTypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0002
+          href: /windows/win32/api/SessDirPublicTypes/ns-sessdirpublictypes-tssd_connectionpoint
     - name: "RemoteApp and Desktop Connection Management Service API reference"
       href: centralized-publishing-api-reference.md
       items: 
@@ -3097,18 +3097,18 @@
         href: remoteapp-and-desktop-connection-management-service-structures.md
         items: 
         - name: "pluginResource"
-          href: /windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001
+          href: /windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource
         - name: "pluginResource2"
-          href: /windows/desktop/api/tspubplugin2com/ns-tspubplugin2com-__midl_itspubplugin2_0002
+          href: /windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2
         - name: "pluginResource2FileAssociation"
-          href: /windows/desktop/api/tspubplugin2com/ns-tspubplugin2com-__midl_itspubplugin2_0001
+          href: /windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2fileassociation
       - name: "RemoteApp and Desktop Connection Management Service Enumerations"
         href: remoteapp-and-desktop-connection-management-service-enumerations.md
         items: 
         - name: "TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE"
-          href: /windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_assignment_type
+          href: /windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_assignment_type
         - name: "TSPUB_PLUGIN_PD_RESOLUTION_TYPE"
-          href: /windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_resolution_type
+          href: /windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_resolution_type
     - name: "RemoteApp and Desktop Connection Runtime interfaces"
       href: remoteapp-and-desktop-connection-runtime-interfaces.md
       items: 

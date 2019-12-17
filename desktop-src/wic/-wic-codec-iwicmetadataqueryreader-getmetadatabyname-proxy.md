@@ -58,7 +58,7 @@ The name of the requested metadata item.
 *pvarValue* \[in, out\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx)\***
+Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx)\***
 
 Pointer that receives the metadata property.
 

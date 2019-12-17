@@ -67,7 +67,7 @@ Geometry blending in Direct3D presents an alternative to the classic segmented-m
 
 The [**IDirect3DDevice9::SetTransform**](/windows/desktop/api) method recognizes the [**D3DTS\_WORLD**](d3dts-world.md) and [**D3DTS\_WORLDn**](d3dts-worldn.md) macros, which correspond to values that can be defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro. These macros are used to identify the matrices between which geometry will be blended.
 
-The [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx) enumerated type includes the D3DRS\_VERTEXBLEND render state to enable and control geometry blending. Valid values for this render state are defined by the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. If geometry blending is enabled, the vertex format must include the appropriate number of blending weights.
+The [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) enumerated type includes the D3DRS\_VERTEXBLEND render state to enable and control geometry blending. Valid values for this render state are defined by the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/library/Bb172628(v=VS.85).aspx) enumerated type. If geometry blending is enabled, the vertex format must include the appropriate number of blending weights.
 
 ## Blending Weights
 

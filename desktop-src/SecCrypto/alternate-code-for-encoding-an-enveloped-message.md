@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Alternate Code for Encoding an Enveloped Message
 
-The following example demonstrates an alternate process of encoding a signed message, using that signed message as the [*inner content*](https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx) for an enveloped message. In preparation for decoding, the inner content is tested to determine its inner-content type.
+The following example demonstrates an alternate process of encoding a signed message, using that signed message as the [*inner content*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx) for an enveloped message. In preparation for decoding, the inner content is tested to determine its inner-content type.
 
 This example illustrates the following CryptoAPI functions:
 

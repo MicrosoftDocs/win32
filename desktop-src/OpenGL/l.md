@@ -1,7 +1,7 @@
 ---
 title: L (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter L.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: c516732e-8b2e-4809-aadf-428b2a2112f4
 keywords:
 - lighting

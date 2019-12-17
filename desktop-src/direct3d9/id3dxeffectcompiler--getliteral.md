@@ -48,7 +48,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *pLiteral* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns True if the parameter is a literal, and False otherwise.
 
@@ -56,7 +56,7 @@ Returns True if the parameter is a literal, and False otherwise.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

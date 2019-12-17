@@ -69,7 +69,7 @@ Returns **true** if the user can start and stop the service; otherwise, **false*
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.CanStartStopService**](https://msdn.microsoft.com/en-us/library/Gg537736(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.CanStartStopService**](https://msdn.microsoft.com/library/Gg537736(v=VS.85).aspx) method.
 
 This method is not currently available in Microsoft Visual Basic.
 

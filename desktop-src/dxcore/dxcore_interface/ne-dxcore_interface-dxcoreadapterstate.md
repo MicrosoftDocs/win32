@@ -2,7 +2,7 @@
 title: DXCoreAdapterState
 description: Defines constants that specify kinds of DXCore adapter states.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

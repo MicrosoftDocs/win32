@@ -63,10 +63,10 @@ GraphEdit files are intended only for testing and debugging. They are not meant 
 [Simulating Graph Building with GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
-[**StgIsStorageFile**](https://msdn.microsoft.com/en-us/library/Aa380334(v=VS.85).aspx)
+[**StgIsStorageFile**](https://msdn.microsoft.com/library/Aa380334(v=VS.85).aspx)
 </dt> <dt>
 
-[**StgOpenStorage**](https://msdn.microsoft.com/en-us/library/Aa380341(v=VS.85).aspx)
+[**StgOpenStorage**](https://msdn.microsoft.com/library/Aa380341(v=VS.85).aspx)
 </dt> </dl>
 
  

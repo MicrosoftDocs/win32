@@ -1,5 +1,5 @@
 ---
-title: Enabled Property
+title: Enabled Property (Speech Input Object)
 description: Enabled Property
 ms.assetid: d48f02f1-7d93-4780-88a7-61597672bb58
 ms.topic: article

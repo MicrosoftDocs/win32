@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Collections
+# Collections (Network Policy Server)
 
 The values in the following enumeration types correspond to SDO collections.
 

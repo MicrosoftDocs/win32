@@ -2,10 +2,10 @@
 title: m4x3 - vs
 description: Multiplies a 4-component vector by a 4x3 matrix.
 ms.assetid: 12dd31bd-2078-44a1-912e-72c8f377bc4c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

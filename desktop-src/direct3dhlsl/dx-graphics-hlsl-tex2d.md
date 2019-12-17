@@ -1,5 +1,5 @@
 ---
-title: tex2D
+title: tex2D (HLSL reference)
 description: Samples a 2D texture.
 ms.assetid: 9f4cbca8-c3de-42ed-89d9-5e86e47d12e5
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex2D
+# tex2D (HLSL reference)
 
 Samples a 2D texture.
 

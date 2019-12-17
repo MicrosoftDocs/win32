@@ -1,12 +1,12 @@
 ---
-Description: Media Types
+Description: Media types (DirectShow)
 ms.assetid: 'c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3'
 title: Media Types
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Media Types
+# Media types (DirectShow)
 
 Microsoft® DirectShow® uses the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure to describe media samples. This structure includes **GUID** members for major type, subtype, and format type. This section summarizes the major type and subtype GUIDs that are defined for DirectShow. Third-party filters may define their own media type GUIDs.
 

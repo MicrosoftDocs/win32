@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 *File mapping* is the association of a file's contents with a portion of the virtual address space of a process. The system creates a *file mapping object* (also known as a *section object*) to maintain this association. A *file view* is the portion of virtual address space that a process uses to access the file's contents. File mapping allows the process to use both random input and output (I/O) and sequential I/O. It also allows the process to work efficiently with a large data file, such as a database, without having to map the whole file into memory. Multiple processes can also use memory-mapped files to share data.
 
-Processes read from and write to the file view using pointers, just as they would with dynamically allocated memory. The use of file mapping improves efficiency because the file resides on disk, but the file view resides in memory. Processes can also manipulate the file view with the [**VirtualProtect**](https://msdn.microsoft.com/en-us/library/Aa366898(v=VS.85).aspx) function.
+Processes read from and write to the file view using pointers, just as they would with dynamically allocated memory. The use of file mapping improves efficiency because the file resides on disk, but the file view resides in memory. Processes can also manipulate the file view with the [**VirtualProtect**](https://msdn.microsoft.com/library/Aa366898(v=VS.85).aspx) function.
 
 The following illustration shows the relationship between the file on disk, a file mapping object, and a file view.
 

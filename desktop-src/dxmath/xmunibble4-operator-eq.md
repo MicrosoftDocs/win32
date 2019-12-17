@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMUNIBBLE4`.
 
-Assigns vector component data to the current instance of [**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx).
 
 ### Overload list
 
@@ -63,7 +63,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx)
+[**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx)
 </dt> </dl>
 
  

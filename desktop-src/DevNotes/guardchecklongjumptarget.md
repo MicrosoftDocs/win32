@@ -1,11 +1,9 @@
 ---
 UID: 
 title: GuardCheckLongJumpTarget function
-author: TimShererWithAquent
 description: "Attempts to verify whether the target of a longjmp is valid."
 old-location:
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/02/2019
 ms.keywords: 
 ms.topic: reference

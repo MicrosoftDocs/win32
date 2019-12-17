@@ -56,7 +56,7 @@ Unique identifier for the technique. See [Handles (Direct3D 9)](handles.md).
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the parameter is being used and returns **FALSE** if the parameter is not being used.
 

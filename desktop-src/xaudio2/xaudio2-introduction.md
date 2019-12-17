@@ -20,7 +20,7 @@ The following is a list of XAudio2 features and new functionality that enable de
 
     Digital Signal Processing (DSP) effects are the pixel shaders of audio. They handle everything from transforming a sound—turning a pig squeal into a low, scary monster sound—to placing sounds in the game environment using reverb and occlusion or obstruction filtering. XAudio2 provides a flexible and powerful DSP framework. It also provides a built-in filter on every voice, for efficient low/high/band-pass filtering effects.
 
-    See [XAudio2 Audio Effects](xaudio2-audio-effects.md) and [**IXAudio2Voice::SetFilterParameters**](https://msdn.microsoft.com/en-us/library/Ee418596(v=VS.85).aspx) for more information about DSP effects and per voice filtering.
+    See [XAudio2 Audio Effects](xaudio2-audio-effects.md) and [**IXAudio2Voice::SetFilterParameters**](https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx) for more information about DSP effects and per voice filtering.
 
 -   Submixing
 
@@ -42,7 +42,7 @@ The following is a list of XAudio2 features and new functionality that enable de
 
 -   Nonblocking API Model
 
-    With few exceptions, an XAudio2 method call will not block the audio processing engine. This means that a client can safely make a set of method calls at any time without blocking on long-running calls causing delays. The exceptions are the [**IXAudio2Voice::DestroyVoice**](https://msdn.microsoft.com/en-us/library/Ee418481(v=VS.85).aspx) method (which may block the engine until the voice being destroyed is finished processing) and the methods that terminate the audio thread: [**IXAudio2::StopEngine**](https://msdn.microsoft.com/en-us/library/Ee418628(v=VS.85).aspx) and [**IXAudio2::Release**](https://msdn.microsoft.com/en-us/library/Ee418622(v=VS.85).aspx). Note that while XAudio2 method calls will not block the audio processing engine, the XAudio2 methods contain critical sections and may themselves become blocked in some circumstances.
+    With few exceptions, an XAudio2 method call will not block the audio processing engine. This means that a client can safely make a set of method calls at any time without blocking on long-running calls causing delays. The exceptions are the [**IXAudio2Voice::DestroyVoice**](https://msdn.microsoft.com/library/Ee418481(v=VS.85).aspx) method (which may block the engine until the voice being destroyed is finished processing) and the methods that terminate the audio thread: [**IXAudio2::StopEngine**](https://msdn.microsoft.com/library/Ee418628(v=VS.85).aspx) and [**IXAudio2::Release**](https://msdn.microsoft.com/library/Ee418622(v=VS.85).aspx). Note that while XAudio2 method calls will not block the audio processing engine, the XAudio2 methods contain critical sections and may themselves become blocked in some circumstances.
 
 ## When to use XAudio2
 

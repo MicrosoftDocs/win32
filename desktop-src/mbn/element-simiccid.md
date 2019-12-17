@@ -1,27 +1,25 @@
 ---
-Description: SimIccID
+Description: MBNProfileExt\/SimIccID (v4)
 MS-HAID: WWAN\_profile\_v4.element\_SimIccID
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: SimIccID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# <span id="WWAN_profile_v4.element_SimIccID"></span>SimIccID
+# <span id="WWAN_profile_v4.element_SimIccID"></span>MBNProfileExt\/SimIccID (v4)
 
 The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 [**SimIccID**](https://msdn.microsoft.com/library/Dd323302(v=VS.85).aspx) element.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<SimIccID>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;**\<SimIccID\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<SimIccID>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;**\<SimIccID\>**
 
 ## Syntax
 

@@ -1,5 +1,5 @@
 ---
-title: Enabled Property
+title: Enabled Property (AudioOutput Object)
 description: Enabled Property
 ms.assetid: 6526f249-be13-4732-b79e-a9952489461f
 ms.topic: article

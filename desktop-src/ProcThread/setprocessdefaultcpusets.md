@@ -41,7 +41,7 @@ BOOL WINAPI SetProcessDefaultCpuSets(
 *Process* \[in\]
 </dt> <dd>
 
-Specifies the process for which to set the default CPU Sets. This handle must have the PROCESS\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](https://msdn.microsoft.com/en-us/library/ms683179(v=VS.85).aspx) can also be specified here.
+Specifies the process for which to set the default CPU Sets. This handle must have the PROCESS\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](https://msdn.microsoft.com/library/ms683179(v=VS.85).aspx) can also be specified here.
 
 </dd> <dt>
 

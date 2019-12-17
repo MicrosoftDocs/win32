@@ -40,7 +40,7 @@ HRESULT D3DXGetShaderSamplers(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the shader function DWORD stream.
 
@@ -49,7 +49,7 @@ Pointer to the shader function DWORD stream.
 *pSamplers* \[in, out\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of LPCSTRs. The function will fill this array with pointers to the sampler names contained within *pFunction*. The maximum array size is the maximum number of sampler registers (16 for vs\_3\_0 and ps\_3\_0).
 
@@ -60,7 +60,7 @@ To find the number of samplers used, check *pCount* after calling **D3DXGetShade
 *pCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the number of samplers referenced by the shader.
 
@@ -68,7 +68,7 @@ Returns the number of samplers referenced by the shader.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

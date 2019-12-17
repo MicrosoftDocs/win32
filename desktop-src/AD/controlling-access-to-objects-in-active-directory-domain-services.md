@@ -1,5 +1,5 @@
 ---
-title: Controlling Access to Objects in Active Directory Domain Services
+title: Controlling object access in Active Directory Domain Services
 description: Each Active Directory directory service object is protected by Windows 2000 security.
 ms.assetid: 0821069d-76bd-49cb-a617-8446d26e61d9
 ms.tgt_platform: multiple
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Controlling Access to Objects in Active Directory Domain Services
+# Controlling object access in Active Directory Domain Services
 
 Each Active Directory directory service object is protected by Windows 2000 security. This security protection controls the operations that each security principal can perform in the directory. The following sections describe how a directory-enabled application can use the access control features in Active Directory.
 

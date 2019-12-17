@@ -24,8 +24,8 @@ Draws the text within the given layout rectangle.
 
 | Method                                                                                                                                                                                                  | Description                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F\*, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](https://msdn.microsoft.com/en-us/library/Mt750186(v=VS.85).aspx) | Draws the text within the given layout rectangle.<br/>  |
-| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F&, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](https://msdn.microsoft.com/en-us/library/Mt750186(v=VS.85).aspx)  | Draws the text within the given layout rectangle. <br/> |
+| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F\*, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](https://msdn.microsoft.com/library/Mt750186(v=VS.85).aspx) | Draws the text within the given layout rectangle.<br/>  |
+| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F&, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](https://msdn.microsoft.com/library/Mt750186(v=VS.85).aspx)  | Draws the text within the given layout rectangle. <br/> |
 
 
 
@@ -33,7 +33,7 @@ Draws the text within the given layout rectangle.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext4**](https://msdn.microsoft.com/en-us/library/Mt736468(v=VS.85).aspx)
+[**ID2D1DeviceContext4**](https://msdn.microsoft.com/library/Mt736468(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -7,7 +7,6 @@ keywords:
 - Extensible Authentication Protocol, start page
 - EAP
 - EAP, See Extensible Authentication Protocol
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

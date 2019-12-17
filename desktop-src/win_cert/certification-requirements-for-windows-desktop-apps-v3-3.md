@@ -1,14 +1,14 @@
 ---
-title: Certification requirements for Windows Desktop Apps v3.3
+title: Desktop certification requirements
 description: Document version 3.3Document date March 18, 2014This document contains the technical requirements and eligibility qualifications that a desktop app must meet in order to participate in the Windows 8.1 Desktop App Certification Program.
 ms.assetid: BD4765EA-C8A1-4A9F-9C50-479A3612DB85
 ms.topic: article
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - kbArticle
-api_name: 
-api_type: 
-api_location: 
+api_name:
+api_type:
+api_location:
 ---
 
 # Certification requirements for Windows Desktop Apps v3.3
@@ -121,7 +121,7 @@ It is important that customers are not artificially blocked from installing or r
 -   Apps that check only the minimum version of the operating system (during install only, not at runtime) by using only the approved API calls, and that properly list the minimum version requirement in the app manifest.
 -   Security apps (antivirus, firewall, etc.), system utilities (for example, defrag, backups, and diagnostics tools) that check the operating system version by using only the approved API calls.
 
-  
+
 </dl>
 
 ## 8. Apps don t load services or drivers in safe mode
@@ -146,7 +146,7 @@ To create a manifest, create a file with the name <app\_name>.exe.manifest and s
 -   Administrative or system tools with execution level set to highestAvailable, and/or requireAdministrator
 -   Only Accessibility or UI automation framework app sets the uiAccess flag to true to bypass the user interface privilege isolation (UIPI). To properly start app utilization, this flag must be Authenticode signed, and must reside in a protected location in the file system, namely Program Files.
 
-  
+
 </dl> </dd> </dl>
 
 ## 10. Apps must install to the correct folders by default
@@ -209,7 +209,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
- 
+
 
 ## Learn more about desktop app certification
 
@@ -233,7 +233,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
- 
+
 
 ## See also
 
@@ -241,12 +241,3 @@ Thank you again for joining in our commitment to delivering great customer exper
 -   [Windows Store Apps Certification Requirements](https://docs.microsoft.com/legal/windows/agreements/store-policies)
 -   [Windows 7 Software Logo Program](faq--windows-7-software-logo-process.md)
 -   [How to use the Windows App Certification Kit](https://www.microsoft.com/download/details.aspx?id=27414)
-
- 
-
- 
-
-
-
-
-

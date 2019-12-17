@@ -20,9 +20,9 @@ api_location:
 
 Gets the level of a hash identification rule that matches the specified hash.
 
-This function has no associated import library and is not declared in a public header. You must define a function pointer with the signature of this function, and you must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Advapi32.dll.
+This function has no associated import library and is not declared in a public header. You must define a function pointer with the signature of this function, and you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Advapi32.dll.
 
-We recommend using the [**SaferIdentifyLevel**](https://msdn.microsoft.com/en-us/library/ms722428(v=VS.85).aspx) function to evaluate software restriction policies.
+We recommend using the [**SaferIdentifyLevel**](https://msdn.microsoft.com/library/ms722428(v=VS.85).aspx) function to evaluate software restriction policies.
 
 ## Syntax
 

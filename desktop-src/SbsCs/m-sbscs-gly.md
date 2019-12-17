@@ -1,6 +1,6 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 726518FB-FCED-433B-BDD1-3B141C17AF32
 title: M (Isolated Applications and Side-by-side Assemblies)
 ms.topic: article

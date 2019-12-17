@@ -2,7 +2,6 @@
 title: PEAP MS-CHAPv2 User Properties
 description: Is an instance of the mschapv2userpropertiesv1 legacy schema.
 ms.assetid: af1ed6b1-712e-4b55-9ab4-b6b38f486fb1
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

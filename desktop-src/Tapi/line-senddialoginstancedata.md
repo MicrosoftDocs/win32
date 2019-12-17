@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINE\_SENDDIALOGINSTANCEDATA message
 
-The TSPI **LINE\_SENDDIALOGINSTANCEDATA** message causes TAPI to call the [**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/en-us/library/ms725983(v=VS.85).aspx) function in the UI DLL associated with *htDlgInst*, passing it the parameter block pointed to by *lpParams*, of length *dwSize*.
+The TSPI **LINE\_SENDDIALOGINSTANCEDATA** message causes TAPI to call the [**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725983(v=VS.85).aspx) function in the UI DLL associated with *htDlgInst*, passing it the parameter block pointed to by *lpParams*, of length *dwSize*.
 
 
 ```C++
@@ -31,7 +31,7 @@ The HTAPIDIALOGINSTANCE that was returned to the service provider when the dialo
 *lpParams* 
 </dt> <dd>
 
-Pointer to a provider-specific parameter block that is conveyed to the UI DLL [**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/en-us/library/ms725983(v=VS.85).aspx) function, the size of which is specified by *dwSize*. If this parameter is set to **NULL**, this is a request to close the dialog box immediately and clean up (the UI DLL should not invoke [**TUISPIDLLCALLBACK**](https://msdn.microsoft.com/en-us/library/ms725187(v=VS.85).aspx) during this cleanup).
+Pointer to a provider-specific parameter block that is conveyed to the UI DLL [**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725983(v=VS.85).aspx) function, the size of which is specified by *dwSize*. If this parameter is set to **NULL**, this is a request to close the dialog box immediately and clean up (the UI DLL should not invoke [**TUISPIDLLCALLBACK**](https://msdn.microsoft.com/library/ms725187(v=VS.85).aspx) during this cleanup).
 
 </dd> <dt>
 
@@ -57,10 +57,10 @@ The size in bytes of the parameter block to be conveyed to the UI DLL.
 
 <dl> <dt>
 
-[**TUISPIDLLCALLBACK**](https://msdn.microsoft.com/en-us/library/ms725187(v=VS.85).aspx)
+[**TUISPIDLLCALLBACK**](https://msdn.microsoft.com/library/ms725187(v=VS.85).aspx)
 </dt> <dt>
 
-[**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/en-us/library/ms725983(v=VS.85).aspx)
+[**TUISPI\_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725983(v=VS.85).aspx)
 </dt> <dt>
 
 [**LINE\_CREATEDIALOGINSTANCE**](line-createdialoginstance.md)

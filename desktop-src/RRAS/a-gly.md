@@ -1,13 +1,13 @@
 ---
 title: A (RRAS)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 74559a2a-693f-48a4-b577-e217a21f8b06
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# A
+# A (RRAS)
 
 A [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F G H [I](i-gly.md) J K L M N O [P](p-gly.md) Q R [S](s-gly.md) T U V W X Y Z
 

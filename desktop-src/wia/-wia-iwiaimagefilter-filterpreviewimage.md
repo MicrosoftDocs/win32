@@ -67,9 +67,9 @@ The coordinates (on the physical acquisition area) of the image that the preview
 *pInputStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
 
-A pointer to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) interface for the cached image data that is filtered.
+A pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) interface for the cached image data that is filtered.
 
 </dd> </dl>
 

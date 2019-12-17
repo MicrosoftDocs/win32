@@ -46,7 +46,7 @@ BITS version 10.3 is included in the Windows 10 May 2019 Update (10.0; Build 183
 <li>Added <a href="/windows/desktop/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2"><strong>BackgroundCopyJobHttpOptions2</strong></a> to change the HTTP method for HTTP downloads.</li>
 <li>BITS now uses the default proxy ordering to be more consistent with the rest of the system.</li>
 <li>It's easier for programmers to set BITS proxy configuration for enterprise scenarios.</li>
-<li>BITS is now more careful of power and supports [Modern Standby](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/modern-standby).</li>
+<li>BITS is now more careful of power and supports [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby).</li>
 <li>BITS now support Mobile device manager (MDM) [policies](/windows/client-management/mdm/policy-configuration-service-provider) in addition to [group policies](./group-policies).</li>
 </ul>
 BITS version 10.2 is included in Windows 10 October 2018 Update(10.0; Build 17763), and later.

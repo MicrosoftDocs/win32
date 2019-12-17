@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Indexed Attributes
+# Indexed Attributes (AD Schema)
 
 The following are the indexed attributes defined by Active Directory.
 

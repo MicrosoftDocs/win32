@@ -1,11 +1,9 @@
 ---
 UID: 
 title: UnicodeToBytes function
-author: TimShererWithAquent
 description: Converts Unicode characters to GB18030 bytes.
 old-location: 
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/10/2019
 ms.keywords: WideCharToMultiByte, MultiByteToWideChar
 ms.topic: reference

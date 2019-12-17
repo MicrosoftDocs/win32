@@ -1,14 +1,14 @@
 ---
+title: Use Wireless Hosted Network, Internet Connection Sharing
 Description: Using Wireless Hosted Network and Internet Connection Sharing
 ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
-title: Using Wireless Hosted Network and Internet Connection Sharing
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Wireless Hosted Network and Internet Connection Sharing
+# Use Wireless Hosted Network, Internet Connection Sharing
 
-The wireless Hosted Network is a new WLAN feature supported on Windows 7 and Windows 8. It is also supported on Windows Server 2012 and Windows Server 2008 R2 with the Wireless LAN Service installed. This feature implements two major functions:
+The Wireless Hosted Network is a new WLAN feature supported on Windows 7 and Windows 8. It is also supported on Windows Server 2012 and Windows Server 2008 R2 with the Wireless LAN Service installed. This feature implements two major functions:
 
 -   The virtualization of a physical wireless adapter into more than one virtual wireless adapter sometimes referred to as Virtual Wi-Fi.
 -   A software-based wireless access point (AP) sometimes referred to as a SoftAP that uses a designated virtual wireless adapter.
@@ -48,11 +48,11 @@ At any time, there is at most one instance of full ICS running on the local comp
 
 When full ICS is already running, invoking a second full ICS is disruptive to remotely connected devices using the old private interface as long as the second ICS integration uses a different new private interface.
 
-To manage and use the ICS service to support ICS integration with wireless Hosted Network, a software application must first obtain an [**INetSharingManager**](https://msdn.microsoft.com/en-us/library/Aa365960(v=VS.85).aspx) interface. The **INetSharingManager** interface provides access directly or indirectly to all the other COM interfaces in the ICS API. The [**get\_SharingInstalled**](https://msdn.microsoft.com/en-us/library/Aa365969(v=VS.85).aspx) method on the **INetSharingManager** interface reports whether the local computer supports connection sharing. The [**get\_EnumEveryConnection**](https://msdn.microsoft.com/en-us/library/Aa365961(v=VS.85).aspx) method on the **INetSharingManager** interface retrieves an enumeration interface for all connections in the connections folder. The [**get\_INetSharingConfigurationForINetConnection**](https://msdn.microsoft.com/en-us/library/Aa365966(v=VS.85).aspx) method retrieves an [**INetSharingConfiguration**](https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx) interface for the specified connection. Methods on the **INetSharingConfiguration** interface can be used to query and change ICS settings.
+To manage and use the ICS service to support ICS integration with wireless Hosted Network, a software application must first obtain an [**INetSharingManager**](https://msdn.microsoft.com/library/Aa365960(v=VS.85).aspx) interface. The **INetSharingManager** interface provides access directly or indirectly to all the other COM interfaces in the ICS API. The [**get\_SharingInstalled**](https://msdn.microsoft.com/library/Aa365969(v=VS.85).aspx) method on the **INetSharingManager** interface reports whether the local computer supports connection sharing. The [**get\_EnumEveryConnection**](https://msdn.microsoft.com/library/Aa365961(v=VS.85).aspx) method on the **INetSharingManager** interface retrieves an enumeration interface for all connections in the connections folder. The [**get\_INetSharingConfigurationForINetConnection**](https://msdn.microsoft.com/library/Aa365966(v=VS.85).aspx) method retrieves an [**INetSharingConfiguration**](https://msdn.microsoft.com/library/Aa365935(v=VS.85).aspx) interface for the specified connection. Methods on the **INetSharingConfiguration** interface can be used to query and change ICS settings.
 
-The wireless Hosted Network must be started before calling the [**get\_EnumEveryConnection**](https://msdn.microsoft.com/en-us/library/Aa365961(v=VS.85).aspx) method on the [**INetSharingManager**](https://msdn.microsoft.com/en-us/library/Aa365960(v=VS.85).aspx) interface to enumerate all connections in the connections folder.
+The wireless Hosted Network must be started before calling the [**get\_EnumEveryConnection**](https://msdn.microsoft.com/library/Aa365961(v=VS.85).aspx) method on the [**INetSharingManager**](https://msdn.microsoft.com/library/Aa365960(v=VS.85).aspx) interface to enumerate all connections in the connections folder.
 
-For information on ICS and the public interfaces and methods that can be used to query and change ICS settings, please see the documentation on [About Internet Connection Sharing and Internet Connection Firewall](https://msdn.microsoft.com/en-us/library/Aa364602(v=VS.85).aspx).
+For information on ICS and the public interfaces and methods that can be used to query and change ICS settings, please see the documentation on [About Internet Connection Sharing and Internet Connection Firewall](https://msdn.microsoft.com/library/Aa364602(v=VS.85).aspx).
 
 ## Hosted Network and ICS Integration
 
@@ -94,7 +94,7 @@ The general recommendations on which functions to call to start and stop a wirel
 For an application that starts a wireless Hosted Network with full ICS, the recommendation is to start the wireless Hosted Network, then start full ICS. If a wireless Hosted Network is already running, an application should use the [**WlanHostedNetworkForceStop**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop) function to stop the wireless Hosted Network only if full ICS is required but has not been enabled before the Hosted Network was started. This will allow other applications to recover from potential disruptions caused by the start of full ICS. For more information, see the discussion below on the recovery sequence for wireless Hosted Network. The combined operation should succeed and fail as a whole.
 
 > [!Note]  
-> The wireless Hosted Network must be started before attempting to enumerate the corresponding adapter using the [**IEnumNetSharingEveryConnection**](https://msdn.microsoft.com/en-us/library/Aa364755(v=VS.85).aspx) interface.
+> The wireless Hosted Network must be started before attempting to enumerate the corresponding adapter using the [**IEnumNetSharingEveryConnection**](https://msdn.microsoft.com/library/Aa364755(v=VS.85).aspx) interface.
 
  
 
@@ -124,7 +124,7 @@ An application using wireless Hosted Network without full ICS that is finished w
 
 ## Recovery Sequence for Wireless Hosted Network
 
-An application using the wireless Hosted Network may be affected by the actions of other applications. The ICS service and the interfaces for managing ICS provide no method for an application to register for ICS change notifications. If another application calls the [**EnableSharing**](https://msdn.microsoft.com/en-us/library/Aa365944(v=VS.85).aspx) or the [**DisableSharing**](https://msdn.microsoft.com/en-us/library/Aa365940(v=VS.85).aspx) methods on the [**INetSharingConfiguration**](https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx) interface to enable or disable sharing on a connection, a message is sent to the user interface (the screen) on the local computer not to other applications. So an application needs to rely on the wireless Hosted Network notifications to perform recovery actions when ICS or wireless Hosted Network changes occur.
+An application using the wireless Hosted Network may be affected by the actions of other applications. The ICS service and the interfaces for managing ICS provide no method for an application to register for ICS change notifications. If another application calls the [**EnableSharing**](https://msdn.microsoft.com/library/Aa365944(v=VS.85).aspx) or the [**DisableSharing**](https://msdn.microsoft.com/library/Aa365940(v=VS.85).aspx) methods on the [**INetSharingConfiguration**](https://msdn.microsoft.com/library/Aa365935(v=VS.85).aspx) interface to enable or disable sharing on a connection, a message is sent to the user interface (the screen) on the local computer not to other applications. So an application needs to rely on the wireless Hosted Network notifications to perform recovery actions when ICS or wireless Hosted Network changes occur.
 
 An application using the wireless Hosted Network should register for wireless Hosted Network notifications by calling the [**WlanRegisterNotification**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification). If notifications for only wireless Hosted Network are needed, then the application should pass **WLAN\_NOTIFICATION\_SOURCE\_HNWK** in the *dwNotifSource* parameter passed to the **WlanRegisterNotification**. If other wireless notications are also needed, then **WLAN\_NOTIFICATION\_SOURCE\_HNWK** should be combined with the notification source constants for other types of wireless notifications desired and pass this value in the *dwNotifSource* parameter.
 

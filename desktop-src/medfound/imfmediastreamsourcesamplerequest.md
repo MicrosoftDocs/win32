@@ -21,7 +21,7 @@ Represents a request for a sample from a MediaStreamSource.
 
 ## Members
 
-The **IMFMediaStreamSourceSampleRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IMFMediaStreamSourceSampleRequest** also has these types of members:
+The **IMFMediaStreamSourceSampleRequest** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IMFMediaStreamSourceSampleRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,7 +41,7 @@ The **IMFMediaStreamSourceSampleRequest** interface has these methods.
 
 ## Remarks
 
-**MFMediaStreamSourceSampleRequest** is implemented by the [**Windows.Media.Core.MediaStreamSourceSampleRequest**](https://msdn.microsoft.com/en-us/library/Dn282723(v=WIN.10).aspx) runtime class.
+**MFMediaStreamSourceSampleRequest** is implemented by the [**Windows.Media.Core.MediaStreamSourceSampleRequest**](https://msdn.microsoft.com/library/Dn282723(v=WIN.10).aspx) runtime class.
 
 ## Requirements
 

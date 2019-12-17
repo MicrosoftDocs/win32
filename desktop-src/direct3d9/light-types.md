@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Light Types (Direct3D 9)
 
-The light type property defines which type of light source you're using. The light type is set by using a value from the [**D3DLIGHTTYPE**](https://msdn.microsoft.com/en-us/library/Bb172567(v=VS.85).aspx) C++ enumeration in the Type member of the light's [**D3DLIGHT9**](d3dlight9.md) structure. There are three types of lights in Direct3D - point lights, spotlights, and directional lights. Each type illuminates objects in a scene differently, with varying levels of computational overhead.
+The light type property defines which type of light source you're using. The light type is set by using a value from the [**D3DLIGHTTYPE**](https://msdn.microsoft.com/library/Bb172567(v=VS.85).aspx) C++ enumeration in the Type member of the light's [**D3DLIGHT9**](d3dlight9.md) structure. There are three types of lights in Direct3D - point lights, spotlights, and directional lights. Each type illuminates objects in a scene differently, with varying levels of computational overhead.
 
 ## Point Light
 

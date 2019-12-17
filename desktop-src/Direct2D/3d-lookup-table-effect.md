@@ -12,7 +12,7 @@ A 3D look-up table is a general-purpose effect that is used to encapsulate any 1
 
 The 3D Lookup Table (LUT) effect modifies an input image by using the image's RGB color value to index a 3D texture, where the texture contains a precomputed output value of an arbitrary effect pipeline.
 
-The 3D LUT must be loaded into a GPU texture resource in order to be rendered, and this can be expensive depending on the size of the texture and the device capabilities. Application developers can specify when to pay this cost using the [**ID2D1LookupTable3D**](https://msdn.microsoft.com/en-us/library/Dn900453(v=VS.85).aspx) D2D resource. **ID2D1LookupTable3D** has the following attributes:
+The 3D LUT must be loaded into a GPU texture resource in order to be rendered, and this can be expensive depending on the size of the texture and the device capabilities. Application developers can specify when to pay this cost using the [**ID2D1LookupTable3D**](https://msdn.microsoft.com/library/Dn900453(v=VS.85).aspx) D2D resource. **ID2D1LookupTable3D** has the following attributes:
 
 -   Provides an abstracted representation of 3D LUT's GPU resource.
 -   Depending on the device capabilities, either a 2D or 3D texture will be created and filled with the provided LUT data.

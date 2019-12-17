@@ -39,7 +39,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Transaction Management
+# Transaction Management (Data Exchange)
 
 After establishing a conversation with a server, a client can send transactions to obtain data and services from the server.
 

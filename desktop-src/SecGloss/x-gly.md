@@ -1,13 +1,13 @@
 ---
 Description: Contains definitions of security terms that begin with the letter X.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 28dba6ef-939f-4789-9789-ee6e0fef0177
 title: X (Security Glossary)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# X
+# X (Security Glossary)
 
 [A](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F [G](g-gly.md) [H](h-gly.md) [I](i-gly.md) J [K](k-gly.md) [L](l-gly.md) [M](m-gly.md) [N](n-gly.md) [O](o-gly.md) [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) [T](t-gly.md) [U](u-gly.md) [V](v-gly.md) [W](w-gly.md) X Y Z
 

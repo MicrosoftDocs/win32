@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::getCACount method
 
-The **getCACount** method returns the number of [*certification authorities*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CAs) willing to issue a certificate based on the specified certificate template.
+The **getCACount** method returns the number of [*certification authorities*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CAs) willing to issue a certificate based on the specified certificate template.
 
 ## Syntax
 

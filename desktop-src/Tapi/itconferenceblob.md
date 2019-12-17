@@ -14,7 +14,7 @@ The **ITConferenceBlob** interface manipulates a textual conference description.
 
 ## Members
 
-The **ITConferenceBlob** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITConferenceBlob** also has these types of members:
+The **ITConferenceBlob** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITConferenceBlob** also has these types of members:
 
 -   [Methods](#methods)
 

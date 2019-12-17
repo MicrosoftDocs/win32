@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # SETRGBSTRING message
 
-The hook procedure of a **Color** dialog box, [*CCHookProc*](https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx), can send the **SETRGBSTRING** registered message to the dialog box to set the current color selection.
+The hook procedure of a **Color** dialog box, [*CCHookProc*](https://msdn.microsoft.com/library/ms646908(v=VS.85).aspx), can send the **SETRGBSTRING** registered message to the dialog box to set the current color selection.
 
 
 ```C++

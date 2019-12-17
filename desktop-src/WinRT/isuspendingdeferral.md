@@ -21,7 +21,7 @@ Manages a delayed app suspending operation.
 
 ## Members
 
-The **ISuspendingDeferral** interface inherits from [**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx). **ISuspendingDeferral** also has these types of members:
+The **ISuspendingDeferral** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx). **ISuspendingDeferral** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -56,7 +56,7 @@ The **ISuspendingDeferral** interface has these methods.
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx)
+[**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx)
 </dt> <dt>
 
 [**ISuspendingEventArgs**](isuspendingeventargs.md)

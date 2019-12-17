@@ -6,7 +6,7 @@ title: ASSOCF enumeration
 
 # ASSOCF enumeration
 
-Provides information to the [**IQueryAssociations**](IQueryAssociations.htm) interface methods.
+Provides information to the [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) interface methods.
 
 ## Syntax
 
@@ -41,11 +41,11 @@ None of the following options are set.
 
  <span id="ASSOCF_INIT_NOREMAPCLSID"></span><span id="assocf_init_noremapclsid"></span>**ASSOCF\_INIT\_NOREMAPCLSID** 
 
-Instructs [**IQueryAssociations**](IQueryAssociations.htm) interface methods not to map CLSID values to ProgID values.
+Instructs [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) interface methods not to map CLSID values to ProgID values.
 
  <span id="ASSOCF_INIT_BYEXENAME"></span><span id="assocf_init_byexename"></span>**ASSOCF\_INIT\_BYEXENAME** 
 
-Identifies the value of the *pwszAssoc* parameter of [**IQueryAssociations::Init**](IQueryAssociations_Init.htm) as an executable file name. If this flag is not set, the root key will be set to the ProgID associated with the **.exe** key instead of the executable file's ProgID.
+Identifies the value of the *pwszAssoc* parameter of [**IQueryAssociations::Init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init) as an executable file name. If this flag is not set, the root key will be set to the ProgID associated with the **.exe** key instead of the executable file's ProgID.
 
  <span id="ASSOCF_OPEN_BYEXENAME"></span><span id="assocf_open_byexename"></span>**ASSOCF\_OPEN\_BYEXENAME** 
 
@@ -53,11 +53,11 @@ Identical to [****ASSOCF\_INIT\_BYEXENAME****](ASSOCF_str.htm).
 
  <span id="ASSOCF_INIT_DEFAULTTOSTAR"></span><span id="assocf_init_defaulttostar"></span>**ASSOCF\_INIT\_DEFAULTTOSTAR** 
 
-Specifies that when an [**IQueryAssociations**](IQueryAssociations.htm) method does not find the requested value under the root key, it should attempt to retrieve the comparable value from the **\*** subkey.
+Specifies that when an [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) method does not find the requested value under the root key, it should attempt to retrieve the comparable value from the **\*** subkey.
 
  <span id="ASSOCF_INIT_DEFAULTTOFOLDER"></span><span id="assocf_init_defaulttofolder"></span>**ASSOCF\_INIT\_DEFAULTTOFOLDER** 
 
-Specifies that when a [**IQueryAssociations**](IQueryAssociations.htm) method does not find the requested value under the root key, it should attempt to retrieve the comparable value from the **Folder** subkey.
+Specifies that when a [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) method does not find the requested value under the root key, it should attempt to retrieve the comparable value from the **Folder** subkey.
 
  <span id="ASSOCF_NOUSERSETTINGS"></span><span id="assocf_nousersettings"></span>**ASSOCF\_NOUSERSETTINGS** 
 
@@ -69,15 +69,15 @@ Specifies that the return string should not be truncated. Instead, return an err
 
  <span id="ASSOCF_VERIFY"></span><span id="assocf_verify"></span>**ASSOCF\_VERIFY** 
 
-Instructs [**IQueryAssociations**](IQueryAssociations.htm) methods to verify that data is accurate. This setting allows **IQueryAssociations** methods to read data from the user's hard disk for verification. For example, they can check the friendly name in the registry against the one stored in the .exe file. Setting this flag typically reduces the efficiency of the method.
+Instructs [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) methods to verify that data is accurate. This setting allows **IQueryAssociations** methods to read data from the user's hard disk for verification. For example, they can check the friendly name in the registry against the one stored in the .exe file. Setting this flag typically reduces the efficiency of the method.
 
  <span id="ASSOCF_REMAPRUNDLL"></span><span id="assocf_remaprundll"></span>**ASSOCF\_REMAPRUNDLL** 
 
-Instructs [**IQueryAssociations**](IQueryAssociations.htm) methods to ignore Rundll.exe and return information about its target. Typically **IQueryAssociations** methods return information about the first .exe or .dll in a command string. If a command uses Rundll.exe, setting this flag tells the method to ignore Rundll.exe and return information about its target.
+Instructs [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) methods to ignore Rundll.exe and return information about its target. Typically **IQueryAssociations** methods return information about the first .exe or .dll in a command string. If a command uses Rundll.exe, setting this flag tells the method to ignore Rundll.exe and return information about its target.
 
  <span id="ASSOCF_NOFIXUPS"></span><span id="assocf_nofixups"></span>**ASSOCF\_NOFIXUPS** 
 
-Instructs [**IQueryAssociations**](IQueryAssociations.htm) methods not to fix errors in the registry, such as the friendly name of a function not matching the one found in the .exe file.
+Instructs [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) methods not to fix errors in the registry, such as the friendly name of a function not matching the one found in the .exe file.
 
  <span id="ASSOCF_IGNOREBASECLASS"></span><span id="assocf_ignorebaseclass"></span>**ASSOCF\_IGNOREBASECLASS** 
 
@@ -115,7 +115,7 @@ Specifies that the BaseClass value should be ignored.
 
 ## See also
 
- [**AssocQueryKey**](AssocQueryKey.htm) [**AssocQueryString**](AssocQueryString.htm) [**AssocQueryStringByKey**](AssocQueryStringByKey.htm) 
+ [**AssocQueryKey**](/windows/win32/api/shlwapi/nf-shlwapi-assocquerykeya) [**AssocQueryString**](/windows/win32/api/shlwapi/nf-shlwapi-assocquerystringa) [**AssocQueryStringByKey**](/windows/win32/api/shlwapi/nf-shlwapi-assocquerystringa) 
 
  
 

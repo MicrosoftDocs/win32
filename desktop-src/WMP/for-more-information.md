@@ -1,6 +1,6 @@
 ---
-title: For More Information
-description: For More Information
+title: For More Information (WMP SDK)
+description: For More Information (WMP SDK)
 ms.assetid: 0202b197-54b7-42f2-b783-152b4c4aff4b
 keywords:
 - Windows Media Player,documentation

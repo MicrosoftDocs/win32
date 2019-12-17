@@ -59,7 +59,7 @@ Unique identifier to the array of constants. See [D3DXHANDLE](dx9-graphics-refer
 *pn* \[in\]
 </dt> <dd>
 
-Type: **const [**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Array of integers.
 
@@ -68,7 +68,7 @@ Array of integers.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of integers in the array.
 
@@ -76,7 +76,7 @@ Number of integers in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

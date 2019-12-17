@@ -79,10 +79,10 @@ int _tmain(int argc, TCHAR *argv[])
 
 <dl> <dt>
 
-[**FileTimeToSystemTime**](https://msdn.microsoft.com/en-us/library/ms724280(v=VS.85).aspx)
+[**FileTimeToSystemTime**](https://msdn.microsoft.com/library/ms724280(v=VS.85).aspx)
 </dt> <dt>
 
-[**SystemTimeToTzSpecificLocalTime**](https://msdn.microsoft.com/en-us/library/ms724949(v=VS.85).aspx)
+[**SystemTimeToTzSpecificLocalTime**](https://msdn.microsoft.com/library/ms724949(v=VS.85).aspx)
 </dt> </dl>
 
  

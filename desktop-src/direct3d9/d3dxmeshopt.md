@@ -94,7 +94,7 @@ Affects the vertex cache size. Using this flag specifies a default vertex cache 
 
 The D3DXMESHOPT\_STRIPREORDER and D3DXMESHOPT\_VERTEXCACHE optimization flags are mutually exclusive.
 
-The D3DXMESHOPT\_SHAREVB flag has been removed from this enumeration. Use D3DXMESH\_VB\_SHARE instead, in [**D3DXMESH**](https://msdn.microsoft.com/en-us/library/Bb205370(v=VS.85).aspx).
+The D3DXMESHOPT\_SHAREVB flag has been removed from this enumeration. Use D3DXMESH\_VB\_SHARE instead, in [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx).
 
 ## Requirements
 

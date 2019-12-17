@@ -16,7 +16,7 @@ The Restart Manager API uses the callback functions in the following table.
 
 | Callback Function                                               | Description                                                                                                                                                            |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RM\_WRITE\_STATUS\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Aa373678(v=VS.85).aspx) | The application that started the Restart Manager session can pass a pointer to this function to the Restart Manager functions to receive a percentage of completeness. |
+| [**RM\_WRITE\_STATUS\_CALLBACK**](https://msdn.microsoft.com/library/Aa373678(v=VS.85).aspx) | The application that started the Restart Manager session can pass a pointer to this function to the Restart Manager functions to receive a percentage of completeness. |
 
 
 

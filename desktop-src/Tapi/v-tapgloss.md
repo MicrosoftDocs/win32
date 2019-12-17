@@ -1,6 +1,6 @@
 ---
 Description: The following terms are useful in understanding the TAPI technology.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 945c16bf-e835-4759-93d1-4e27080ac873
 title: V (Telephony API)
 ms.topic: article

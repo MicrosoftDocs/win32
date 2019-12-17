@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Description attribute
+# Description attribute (AD Schema)
 
 Contains the description to display for an object. This value is restricted as single-valued for backward compatibility in some cases but is allowed to be multi-valued in others. See Remarks.
 

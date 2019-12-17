@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 02/05/2019
 ---
 
-# Privilege Constants
+# Privilege Constants (Authorization)
 
 Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each user's privileges include those granted to the user and to the groups to which the user belongs.
 

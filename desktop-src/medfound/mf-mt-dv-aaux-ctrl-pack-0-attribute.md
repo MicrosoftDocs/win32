@@ -16,7 +16,7 @@ Audio auxiliary (AAUX) source control pack for the first audio block in a digita
 
 ## Remarks
 
-This attribute corresponds to the **dwDVAAuxCtl** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/en-us/library/Dd388639(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwDVAAuxCtl** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/library/Dd388639(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

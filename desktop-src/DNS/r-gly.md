@@ -1,7 +1,7 @@
 ---
 title: R (DNS)
 description: Domain Name System (DNS) glossary entries that start with R.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 675287c2-9394-4d32-8ef4-9bb64794d326
 ms.topic: article
 ms.date: 05/31/2018

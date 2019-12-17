@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Multiple Provider Router
 
-The [*Multiple Provider Router*](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx) (MPR) handles communication between the Windows operating system and the installed network providers. It enables Windows to present an integrated network to the user.
+The [*Multiple Provider Router*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) (MPR) handles communication between the Windows operating system and the installed network providers. It enables Windows to present an integrated network to the user.
 
 When the MPR starts, it checks the registry to determine which network providers are installed on the system and the order they should be cycled through. It loads all registered network provider DLLs and uses them to process subsequent WNet calls made by the user interface or other applications.
 
-For more information about WNet functions, see [Windows Networking](https://msdn.microsoft.com/en-us/library/Aa385406(v=VS.85).aspx).
+For more information about WNet functions, see [Windows Networking](https://msdn.microsoft.com/library/Aa385406(v=VS.85).aspx).
 
  
 

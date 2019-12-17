@@ -168,10 +168,10 @@ Same as **PRIVACY\_TEMPLATE\_LOW**.
 
 <dl> <dt>
 
-[**PrivacyGetZonePreferenceW**](https://msdn.microsoft.com/en-us/library/Aa385336(v=VS.85).aspx)
+[**PrivacyGetZonePreferenceW**](https://msdn.microsoft.com/library/Aa385336(v=VS.85).aspx)
 </dt> <dt>
 
-[**PrivacySetZonePreferenceW**](https://msdn.microsoft.com/en-us/library/Aa385338(v=VS.85).aspx)
+[**PrivacySetZonePreferenceW**](https://msdn.microsoft.com/library/Aa385338(v=VS.85).aspx)
 </dt> </dl>
 
  

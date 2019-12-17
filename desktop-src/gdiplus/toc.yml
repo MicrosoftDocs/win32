@@ -154,11 +154,11 @@
         href: -gdiplus-converting-a-bmp-image-to-a-png-image-use.md
       - name: "Setting JPEG Compression Level"
         href: -gdiplus-setting-jpeg-compression-level-use.md
-      - name: "Transforming a JPEG Image Without Loss of Information"
+      - name: "Lossless transform of a JPEG image"
         href: -gdiplus-transforming-a-jpeg-image-without-loss-of-information-use.md
       - name: "Creating and Saving a Multiple-Frame Image"
         href: -gdiplus-creating-and-saving-a-multiple-frame-image-use.md
-      - name: "Copying Individual Frames from a Multiple-Frame Image"
+      - name: "Copy individual frames from a multiple-frame image"
         href: -gdiplus-copying-individual-frames-from-a-multiple-frame-image-use.md
     - name: "Alpha Blending Lines and Fills"
       href: -gdiplus-alpha-blending-lines-and-fills-use.md

@@ -62,7 +62,7 @@ If successful, this function returns a valid **HDC**; otherwise it returns **NUL
 
 Only one DC is allowed per surface at any given time. Subsequent calls to **NtGdiDdGetDC** will fail until the previous DC is released.
 
-Applications are advised to call [IDirectDrawSurface7::GetDC](https://msdn.microsoft.com/en-us/library/Gg426195(v=VS.85).aspx) instead, which provides the same functionality in a manner independent of the operating system.
+Applications are advised to call [IDirectDrawSurface7::GetDC](https://msdn.microsoft.com/library/Gg426195(v=VS.85).aspx) instead, which provides the same functionality in a manner independent of the operating system.
 
 ## Requirements
 

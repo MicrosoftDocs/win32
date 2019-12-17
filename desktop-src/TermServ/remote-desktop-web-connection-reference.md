@@ -333,14 +333,14 @@ Includes methods to retrieve and set properties of the Remote Desktop ActiveX co
 
 </dd> <dt>
 
-[**IRemoteDesktopClient**](https://msdn.microsoft.com/en-us/library/Mt786998(v=VS.85).aspx)
+[**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx)
 </dt> <dd>
 
 Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientActions**](https://msdn.microsoft.com/en-us/library/Mt787001(v=VS.85).aspx)
+[**IRemoteDesktopClientActions**](https://msdn.microsoft.com/library/Mt787001(v=VS.85).aspx)
 </dt> <dd>
 
 Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
@@ -354,16 +354,16 @@ Provides methods that receive information from the server that are related to cl
 
 </dd> <dt>
 
-[**IRemoteDesktopClientSettings**](https://msdn.microsoft.com/en-us/library/Mt787023(v=VS.85).aspx)
+[**IRemoteDesktopClientSettings**](https://msdn.microsoft.com/library/Mt787023(v=VS.85).aspx)
 </dt> <dd>
 
 Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 
-Use the [**IRemoteDesktopClient**](https://msdn.microsoft.com/en-us/library/Mt786998(v=VS.85).aspx)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
+Use the [**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/en-us/library/Mt787029(v=VS.85).aspx)
+[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx)
 </dt> <dd>
 
 Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.

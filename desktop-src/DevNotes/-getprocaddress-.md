@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetProcAddress** function. This function may be altered or unavailable in the future. Applications should call **GetProcAddress** directly.\]
 
-Gets the address of a function from a DLL. See [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx).
+Gets the address of a function from a DLL. See [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ FARPROC _GetProcAddress_(
 
 <dl> <dt>
 
-[**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx)
+[**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -50,7 +50,7 @@ Specifies a 4D vector that is dotted with the vertices to get the per-vertex ada
 *dwMaxTessLevel* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum limit for adaptive tessellation. This is the number of vertices introduced between existing vertices. This integer value can range from 1 to 32, inclusive.
 
@@ -59,7 +59,7 @@ Maximum limit for adaptive tessellation. This is the number of vertices introduc
 *dwMinTessLevel* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum limit for adaptive tessellation. This is the number of vertices introduced between existing vertices. This integer value can range from 1 to 32, inclusive.
 
@@ -76,7 +76,7 @@ Resulting tessellated mesh. See [**ID3DXMesh**](id3dxmesh.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

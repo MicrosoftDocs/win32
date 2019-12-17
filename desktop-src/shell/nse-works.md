@@ -62,14 +62,14 @@ When a user displays a folder that belongs to a namespace extension in Windows E
 
 ### Tree View
 
-The tree view provides a high-level view of the namespace. This area hosts a [tree view control](https://msdn.microsoft.com/en-us/library/Bb760017(v=VS.85).aspx) that can display every namespace folder and the folder's position in the namespace hierarchy. A user can perform several operations with the tree view area, including:
+The tree view provides a high-level view of the namespace. This area hosts a [tree view control](https://msdn.microsoft.com/library/Bb760017(v=VS.85).aspx) that can display every namespace folder and the folder's position in the namespace hierarchy. A user can perform several operations with the tree view area, including:
 
 -   Displaying or hiding the next level in the namespace.
 -   Copying, moving, or deleting folders.
 -   Right-clicking a folder to display a shortcut menu.
 -   Selecting a folder and viewing its contents in the folder view.
 
-The tree view communicates with folder objects primarily through their [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface. For example, when a user clicks the plus sign (+) next to the folder's icon, Windows Explorer expands the display to show the folder's subfolders. To obtain the information needed to update the tree view, the Shell makes several calls to the folder object's **IShellFolder** interface to:
+The tree view communicates with folder objects primarily through their [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface. For example, when a user clicks the plus sign (+) next to the folder's icon, Windows Explorer expands the display to show the folder's subfolders. To obtain the information needed to update the tree view, the Shell makes several calls to the folder object's **IShellFolder** interface to:
 
 -   Request the folder's attributes.
 -   Enumerate the contents of the folder.
@@ -100,20 +100,20 @@ When a user selects a folder that belongs to your namespace extension, you creat
 
 Namespace extensions use one of two approaches for creating a folder view:
 
--   Use your child window to host a [list view](https://msdn.microsoft.com/en-us/library/Bb774737(v=VS.85).aspx) control. This control allows you to display the contents of a folder in much the same way as the Windows Explorer [classic view](https://msdn.microsoft.com/en-us/library/Bb776835(v=VS.85).aspx).
+-   Use your child window to host a [list view](https://msdn.microsoft.com/library/Bb774737(v=VS.85).aspx) control. This control allows you to display the contents of a folder in much the same way as the Windows Explorer [classic view](https://msdn.microsoft.com/library/Bb776835(v=VS.85).aspx).
 -   Use your child window to host a [WebBrowser control](https://msdn.microsoft.com/library/Aa752044(v=VS.85).aspx) and use a Dynamic HTML (DHTML) document to display the contents of the folder.
 
 Both approaches display a folder view that looks very much like that displayed for system folders. However, if you want to use a different display scheme, you are free to do so.
 
 ### Menu Bar and Toolbars
 
-Like most Windows applications, Windows Explorer provides the user with a collection of tools. A complete selection of tools is available through the menu bar. The more commonly used tools are also represented by buttons or edit boxes on a toolbar. Unlike many Windows applications, the Windows Explorer menu bar is actually a [toolbar control](https://msdn.microsoft.com/en-us/library/Bb760435(v=VS.85).aspx) that has been customized to behave like a conventional menu. Both the menu bar and the toolbar are incorporated into a [rebar control](https://msdn.microsoft.com/en-us/library/Bb774375(v=VS.85).aspx) to allow users to organize the individual controls to suit their needs.
+Like most Windows applications, Windows Explorer provides the user with a collection of tools. A complete selection of tools is available through the menu bar. The more commonly used tools are also represented by buttons or edit boxes on a toolbar. Unlike many Windows applications, the Windows Explorer menu bar is actually a [toolbar control](https://msdn.microsoft.com/library/Bb760435(v=VS.85).aspx) that has been customized to behave like a conventional menu. Both the menu bar and the toolbar are incorporated into a [rebar control](https://msdn.microsoft.com/library/Bb774375(v=VS.85).aspx) to allow users to organize the individual controls to suit their needs.
 
-By default, Windows Explorer supports a standard set of buttons and menu items, such as Copy and Properties. Your namespace extension can customize the menu bar and toolbars by deleting standard tools and adding custom tools. When your folder view object is initialized, Windows Explorer passes a pointer to its [**IShellBrowser**](https://msdn.microsoft.com/en-us/library/Bb775123(v=VS.85).aspx) interface. This interface supports several methods that you can call to customize the menu bar and toolbar. When the user selects one of your custom menu items or toolbar buttons, Windows Explorer forwards WM\_COMMAND messages for custom menu and toolbar items to your child window's window procedure.
+By default, Windows Explorer supports a standard set of buttons and menu items, such as Copy and Properties. Your namespace extension can customize the menu bar and toolbars by deleting standard tools and adding custom tools. When your folder view object is initialized, Windows Explorer passes a pointer to its [**IShellBrowser**](https://msdn.microsoft.com/library/Bb775123(v=VS.85).aspx) interface. This interface supports several methods that you can call to customize the menu bar and toolbar. When the user selects one of your custom menu items or toolbar buttons, Windows Explorer forwards WM\_COMMAND messages for custom menu and toolbar items to your child window's window procedure.
 
 ### Status Bar
 
-The Windows Explorer status bar displays information about the currently selected object. Your namespace extension can use the status bar to display status information, such as a text string. You can customize the status bar by calling [**IShellBrowser**](https://msdn.microsoft.com/en-us/library/Bb775123(v=VS.85).aspx).
+The Windows Explorer status bar displays information about the currently selected object. Your namespace extension can use the status bar to display status information, such as a text string. You can customize the status bar by calling [**IShellBrowser**](https://msdn.microsoft.com/library/Bb775123(v=VS.85).aspx).
 
  
 

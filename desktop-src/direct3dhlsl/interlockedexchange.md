@@ -1,5 +1,5 @@
 ---
-title: InterlockedExchange function
+title: InterlockedExchange function (HLSL reference)
 description: Assigns value to dest and returns the original value.
 ms.assetid: 1e7ce7ff-9e23-47fa-8e76-713f6bf57abf
 keywords:
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedExchange function
+# InterlockedExchange function (HLSL reference)
 
 Assigns value to dest and returns the original value.
 

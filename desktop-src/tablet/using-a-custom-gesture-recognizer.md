@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 You can use a custom gesture recognizer independently, or in addition to the [**GestureRecognizer**](gesturerecognizer-class.md).
 
-Create your custom gesture recognizer as an [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx), have it create [CustomStylusData](https://msdn.microsoft.com/library/ms575208(v=VS.100).aspx), and include the plug-in in the same [StylusSyncPluginCollection](https://msdn.microsoft.com/library/ms824788(v=MSDN.10).aspx) as the [**GestureRecognizer**](gesturerecognizer-class.md). In the **IStylusSyncPlugin**, combine gesture notifications from both recognizers into notifications to be consumed by an application.
+Create your custom gesture recognizer as an [**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx), have it create [CustomStylusData](https://msdn.microsoft.com/library/ms575208(v=VS.100).aspx), and include the plug-in in the same [StylusSyncPluginCollection](https://msdn.microsoft.com/library/ms824788(v=MSDN.10).aspx) as the [**GestureRecognizer**](gesturerecognizer-class.md). In the **IStylusSyncPlugin**, combine gesture notifications from both recognizers into notifications to be consumed by an application.
 
 ## Related topics
 

@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMFLOAT3SE`.
 
-Constructs instances of the [**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -91,7 +91,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx)
+[**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx)
 </dt> </dl>
 
  

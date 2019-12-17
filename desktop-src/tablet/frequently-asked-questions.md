@@ -59,7 +59,7 @@ A. Yes, sample code for COM and selected managed languages is included in the Ta
 For available sample applications, see:
 
 -   [Mobile PC and Tablet PC Samples](mobile-pc-and-tablet-pc-samples.md)
--   [Digital Ink Samples, Windows Presentation Foundation (WPF)](https://msdn.microsoft.com/en-us/library/Aa972145(v=VS.85).aspx)
+-   [Digital Ink Samples, Windows Presentation Foundation (WPF)](https://msdn.microsoft.com/library/Aa972145(v=VS.85).aspx)
 -   <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Samples\\TabletPC
 
 ## Q. What's the base level of Tablet hardware that I should develop for?

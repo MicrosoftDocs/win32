@@ -2,7 +2,7 @@
 title: if (sm4 - asm)
 description: Branch based on logical OR result.
 ms.assetid: 9F4CF9E0-4D9D-4300-B432-432C560F34BB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -12,7 +12,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
 
 **To create a socket**
 
-1.  Declare an [**addrinfo**](https://msdn.microsoft.com/en-us/library/ms737530(v=VS.85).aspx) object that contains a [**sockaddr**](sockaddr-2.md) structure and initialize these values. For this application, the Internet address family is unspecified so that either an IPv6 or IPv4 address can be returned. The application requests the socket type to be a stream socket for the TCP protocol.
+1.  Declare an [**addrinfo**](https://msdn.microsoft.com/library/ms737530(v=VS.85).aspx) object that contains a [**sockaddr**](sockaddr-2.md) structure and initialize these values. For this application, the Internet address family is unspecified so that either an IPv6 or IPv4 address can be returned. The application requests the socket type to be a stream socket for the TCP protocol.
     ```C++
     struct addrinfo *result = NULL,
                     *ptr = NULL,

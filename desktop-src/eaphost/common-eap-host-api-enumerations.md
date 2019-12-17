@@ -2,7 +2,6 @@
 title: Common EAPHost API Enumerations
 description: Common EAPHost API Enumerations
 ms.assetid: 2bf991f2-44b8-4815-b6c7-582f51087c83
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

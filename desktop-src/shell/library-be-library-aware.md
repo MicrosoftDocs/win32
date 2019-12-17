@@ -74,23 +74,23 @@ Using a common file dialog box with libraries The common file dialog box has bee
 
 ![screen shot of the common file dialog box showing libraries](images/libraries-commonfiledialog.png)
 
-In Windows 7, if your program currently displays a common file dialog box and does not change the dialog box template or hook any of its events, it will display the new Windows 7 version of the dialog box automatically. Specifically, in the call to the common file dialog box function, the **lpfnHook**, **hInstance**, **lpTemplatename** members of the [**OPENFILENAME**](https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx) structure must be **NULL** and the **OFN\_ENABLEHOOK** and **OFN\_ENABLETEMPLATE** flags must be clear.
+In Windows 7, if your program currently displays a common file dialog box and does not change the dialog box template or hook any of its events, it will display the new Windows 7 version of the dialog box automatically. Specifically, in the call to the common file dialog box function, the **lpfnHook**, **hInstance**, **lpTemplatename** members of the [**OPENFILENAME**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure must be **NULL** and the **OFN\_ENABLEHOOK** and **OFN\_ENABLETEMPLATE** flags must be clear.
 
-In Windows 7, the [**IFileDialog**](https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx)-related interfaces replace the common file dialog box functions that were used in earlier versions of Windows. The earlier common file dialog box functions are still supported in Windows 7 but they do not provide the complete Windows 7 user experience and they do not support libraries. Some of the new features supported by the **IFileDialog**-related interfaces include:
+In Windows 7, the [**IFileDialog**](https://msdn.microsoft.com/library/Bb775966(v=VS.85).aspx)-related interfaces replace the common file dialog box functions that were used in earlier versions of Windows. The earlier common file dialog box functions are still supported in Windows 7 but they do not provide the complete Windows 7 user experience and they do not support libraries. Some of the new features supported by the **IFileDialog**-related interfaces include:
 
 -   The user can access the file properties supported by the Windows 7 Windows Explorer to search and select the files.
 -   The program can use interfaces and methods from the Shell namespace API to work with the items.
 -   The program can use a data-driven customization model instead of a resource-file-driven customization model to add new controls to the common file dialog boxes.
 
-You should use the [**IFileDialog**](https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx)-related interfaces when:
+You should use the [**IFileDialog**](https://msdn.microsoft.com/library/Bb775966(v=VS.85).aspx)-related interfaces when:
 
 -   you need to customize the common file dialog box for your program in Windows 7. This will allow your program to work with libraries and support customizing your dialog box.
 -   you want the user to be able to select multiple files from a common file dialog box. This will ensure you get the correct paths to the selected object because a library can have contents that are stored in different folders.
 
-For more information on the [**IFileDialog**](https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx)-related interfaces, see:
+For more information on the [**IFileDialog**](https://msdn.microsoft.com/library/Bb775966(v=VS.85).aspx)-related interfaces, see:
 
--   [**IFileDialog**](https://msdn.microsoft.com/en-us/library/Bb775966(v=VS.85).aspx)
--   [**IFileOpenDialog**](https://msdn.microsoft.com/en-us/library/Bb775834(v=VS.85).aspx)
+-   [**IFileDialog**](https://msdn.microsoft.com/library/Bb775966(v=VS.85).aspx)
+-   [**IFileOpenDialog**](https://msdn.microsoft.com/library/Bb775834(v=VS.85).aspx)
 -   [**IFileSaveDialog**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog)
 -   [**IFileDialogCustomize**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize)
 -   [**IFileDialogEvents**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents)
@@ -98,9 +98,9 @@ For more information on the [**IFileDialog**](https://msdn.microsoft.com/en-us/l
 
 ## Enabling library selection from the user interface
 
-If your program allows the user to select a folder, such as for import or export functions, in Windows 7, it should allow the user to select a library as well. The [**IFileOpenDialog**](https://msdn.microsoft.com/en-us/library/Bb775834(v=VS.85).aspx) interface and [**SHBrowseForFolder**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera) function allow the user to select a library when prompted to select a folder. The **IFileOpenDialog** interface is preferred over the **SHBrowseForFolder** function because **IFileOpenDialog** supports the Windows 7 user interface.
+If your program allows the user to select a folder, such as for import or export functions, in Windows 7, it should allow the user to select a library as well. The [**IFileOpenDialog**](https://msdn.microsoft.com/library/Bb775834(v=VS.85).aspx) interface and [**SHBrowseForFolder**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera) function allow the user to select a library when prompted to select a folder. The **IFileOpenDialog** interface is preferred over the **SHBrowseForFolder** function because **IFileOpenDialog** supports the Windows 7 user interface.
 
-To allow users to select folders when using the [**IFileOpenDialog**](https://msdn.microsoft.com/en-us/library/Bb775834(v=VS.85).aspx) interface, call SetOptions with the FOS\_PICKFOLDERS flag set and make sure the FOS\_FORCEFILESYSTEM flag is clear.
+To allow users to select folders when using the [**IFileOpenDialog**](https://msdn.microsoft.com/library/Bb775834(v=VS.85).aspx) interface, call SetOptions with the FOS\_PICKFOLDERS flag set and make sure the FOS\_FORCEFILESYSTEM flag is clear.
 
 
 ```C++
@@ -157,7 +157,7 @@ hr = pslLibrary->GetFolders(LFF_FORCEFILESYSTEM, IID_PPV_ARGS(&pictureFolders));
 
 ### Accessing library content with the Shell APIs
 
-Because the library objects are part of the Shell programming model, they can be used with other Windows Shell APIs. For example you can use the [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) and [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interfaces in your program, along with related helper functions, to access the contents of a library in the same way as you would enumerate folders and folder contents to access content with the file system APIs.
+Because the library objects are part of the Shell programming model, they can be used with other Windows Shell APIs. For example you can use the [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) and [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interfaces in your program, along with related helper functions, to access the contents of a library in the same way as you would enumerate folders and folder contents to access content with the file system APIs.
 
 The Windows Shell APIs support two enumeration modes to access the contents of a library:
 
@@ -219,7 +219,7 @@ To detect changes to items within a library using the Windows Shell API, call [*
 
 File system notifications must be used in service processes.
 
-To detect changes to items in a library using the file-system API, enumerate the folders in the library and call [**FindFirstChangeNotification**](https://msdn.microsoft.com/en-us/library/Aa364417(v=VS.85).aspx) for each folder to monitor. Your program will receive notification when a monitored folder changes. To find the specific file of files that changed in the folder, call [**ReadDirectoryChangesW**](https://msdn.microsoft.com/en-us/library/Aa365465(v=VS.85).aspx). To detect changes in the library description file, monitor the folder that contains it. The library description file can be found in the [**FOLDERID\_Libraries**](knownfolderid.md) folder. The library description file, however, should not be opened or modified.
+To detect changes to items in a library using the file-system API, enumerate the folders in the library and call [**FindFirstChangeNotification**](https://msdn.microsoft.com/library/Aa364417(v=VS.85).aspx) for each folder to monitor. Your program will receive notification when a monitored folder changes. To find the specific file of files that changed in the folder, call [**ReadDirectoryChangesW**](https://msdn.microsoft.com/library/Aa365465(v=VS.85).aspx). To detect changes in the library description file, monitor the folder that contains it. The library description file can be found in the [**FOLDERID\_Libraries**](knownfolderid.md) folder. The library description file, however, should not be opened or modified.
 
 ## Related topics
 
@@ -231,7 +231,7 @@ To detect changes to items in a library using the file-system API, enumerate the
 [**IShellLibrary**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary)
 </dt> <dt>
 
-[Shell Links](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx)
+[Shell Links](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx)
 </dt> <dt>
 
 [Known Folders](known-folders.md)
@@ -240,7 +240,7 @@ To detect changes to items in a library using the file-system API, enumerate the
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[**IID\_PPV\_ARGS**](https://msdn.microsoft.com/en-us/library/Ee330727(v=VS.85).aspx)
+[**IID\_PPV\_ARGS**](https://msdn.microsoft.com/library/Ee330727(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -22,7 +22,7 @@ When the process uses [**CreateFile**](https://docs.microsoft.com/windows/deskto
 -   The *fdwCreate* parameter must specify the OPEN\_EXISTING flag.
 -   The *hTemplateFile* parameter must be **NULL**.
 
-When using [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) to open a handle directly to a device, an application must use the special characters " \\\\ .\\" to identify the device. For example, to open a handle to drive A, specify \\\\ .\\a: for the *lpszName* parameter of **CreateFile**. The calling process can use the handle in the [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) function to send control codes to the device.
+When using [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) to open a handle directly to a device, an application must use the special characters " \\\\ .\\" to identify the device. For example, to open a handle to drive A, specify \\\\ .\\a: for the *lpszName* parameter of **CreateFile**. The calling process can use the handle in the [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) function to send control codes to the device.
 
  
 

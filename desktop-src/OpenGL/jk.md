@@ -1,7 +1,7 @@
 ---
 title: J K
 description: Definitions of OpenGL terms that begin with the letter J.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 182cc66c-afff-490b-8338-e592ce43a083
 keywords:
 - jaggies

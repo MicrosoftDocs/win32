@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Interfaces
+# Core Interfaces (ADSI)
 
 This section describes the following core ADSI interfaces:
 

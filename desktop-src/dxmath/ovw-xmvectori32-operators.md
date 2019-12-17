@@ -2,7 +2,7 @@
 Description: The following operators are exposed by the XMVECTORI32 structure.
 ms.assetid: cab788bf-6c2e-49bb-9a6d-92cbad2f7a64
 title: XMVECTORI32 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,8 +21,8 @@ The following operators are exposed by the [**XMVECTORI32**](xmvectori32-data-ty
 
 | Methods                                                               | Description                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator \_\_m128i**](https://msdn.microsoft.com/en-us/library/Ee421164(v=VS.85).aspx)<br/> | Returns the object implementing the current instance of [**XMVECTORI32**](xmvectori32-data-type.md) cast to a [\_\_m128i](https://docs.microsoft.com/cpp/cpp/m128i) instance of \[Windows systems supporting [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) Only\]<br/> |
-| [**operator XMVECTOR**](https://msdn.microsoft.com/en-us/library/Ee421165(v=VS.85).aspx)<br/> | Returns the instance of `XMVECTOR` implementing the current instance of `XMVECTORI32`.<br/>                                                                                                                                                                                                         |
+| [**operator \_\_m128i**](https://msdn.microsoft.com/library/Ee421164(v=VS.85).aspx)<br/> | Returns the object implementing the current instance of [**XMVECTORI32**](xmvectori32-data-type.md) cast to a [\_\_m128i](https://docs.microsoft.com/cpp/cpp/m128i) instance of \[Windows systems supporting [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) Only\]<br/> |
+| [**operator XMVECTOR**](https://msdn.microsoft.com/library/Ee421165(v=VS.85).aspx)<br/> | Returns the instance of `XMVECTOR` implementing the current instance of `XMVECTORI32`.<br/>                                                                                                                                                                                                         |
 
 
 

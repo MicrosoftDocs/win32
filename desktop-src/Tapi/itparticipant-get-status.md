@@ -31,7 +31,7 @@ HRESULT get_Status(
 *pITStream* \[in\]
 </dt> <dd>
 
-Pointer to [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) interface.
+Pointer to [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Enabling or disabling a participant's status on a stream allows an application t
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx)
+[**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx)
 </dt> <dt>
 
 [**put\_Status**](itparticipant-put-status.md)

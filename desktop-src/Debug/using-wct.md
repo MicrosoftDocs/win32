@@ -3,7 +3,7 @@ Description: The following sample code demonstrates the use of the wait chain tr
 ms.assetid: 7c5fa606-6e9b-41da-bfa9-1f066449d813
 title: Using WCT
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/19/2019
 ---
 
 # Using WCT
@@ -12,14 +12,13 @@ The following sample code demonstrates the use of the wait chain traversal API. 
 
 To enumerate all threads in the system, run the sample with no parameters. To enumerate only the threads from a specified process, run the sample and pass the process identifier as a parameter. The sample performs the following steps:
 
-1.  Calls the [**RegisterWaitChainCOMCallback**](/windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback) function to register the COM callback functions.
-2.  Calls the [**OpenThreadWaitChainSession**](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) function to create the wait chain session.
-3.  Calls the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/en-us/library/Aa375202(v=VS.85).aspx) function to enable the SE\_DEBUG\_NAME privilege.
-4.  Calls the [**EnumProcesses**](https://msdn.microsoft.com/library/ms682629(v=VS.85).aspx) and [**CreateToolhelp32Snapshot**](https://msdn.microsoft.com/library/ms682489(v=VS.85).aspx) functions to enumerate the specified threads.
-5.  Calls the [**GetThreadWaitChain**](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) to retrieve an array of [**WAITCHAIN\_NODE\_INFO**](/windows/desktop/api/Wct/ns-wct-waitchain_node_info) structures that contain the nodes of the wait chain.
-6.  Prints information from the wait chain.
-7.  Calls the [**CloseThreadWaitChainSession**](/windows/desktop/api/Wct/nf-wct-closethreadwaitchainsession) function to clean up the wait chain.
-
+1. Calls the [RegisterWaitChainCOMCallback](/windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback) function to register the COM callback functions.
+2. Calls the [OpenThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) function to create the wait chain session.
+3. Calls the [AdjustTokenPrivileges](https://msdn.microsoft.com/library/Aa375202(v=VS.85).aspx) function to enable the SE\_DEBUG\_NAME privilege.
+4. Calls the [EnumProcesses](https://msdn.microsoft.com/library/ms682629(v=VS.85).aspx) and [CreateToolhelp32Snapshot](https://msdn.microsoft.com/library/ms682489(v=VS.85).aspx) functions to enumerate the specified threads.
+5. Calls the [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) to retrieve an array of [WAITCHAIN\_NODE\_INFO](/windows/desktop/api/Wct/ns-wct-waitchain_node_info) structures that contain the nodes of the wait chain.
+6. Prints information from the wait chain.
+7. Calls the [CloseThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-closethreadwaitchainsession) function to clean up the wait chain.
 
 ```C++
 // Copyright (C) Microsoft. All rights reserved.
@@ -512,18 +511,6 @@ Routine Description:
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Wait Chain Traversal](wait-chain-traversal.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+[Wait Chain Traversal](wait-chain-traversal.md), [WCT Reference](wct-reference.md), [MSDN Magazine 2007 July - Bugslayer: Wait Chain Traversal](https://docs.microsoft.com/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal), [Microsoft Support: Fix problems with apps from Microsoft Store](https://support.microsoft.com/help/4027498/microsoft-store-fix-problems-with-apps)

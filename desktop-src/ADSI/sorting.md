@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Sorting
+# Sorting (ADSI)
 
 A client can request a server to sort the result set. You can specify:
 

@@ -2,7 +2,7 @@
 title: ftou (sm4 - asm)
 description: Floating point to unsigned integer conversion.
 ms.assetid: 0E3E090B-72C0-4CED-AFA5-2DDCF67D7263
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

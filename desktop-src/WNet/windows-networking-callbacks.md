@@ -14,9 +14,9 @@ The following function prototypes are used in Windows Networking.
 
 | Function Prototype                                 | Description                                                                                                           |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**PFNGETPROFILEPATH**](https://msdn.microsoft.com/en-us/library/Aa385358(v=VS.85).aspx)     | Prototype for a function that obtains a user profile path.                                                            |
-| [**PFNPROCESSPOLICIES**](https://msdn.microsoft.com/en-us/library/Aa385360(v=VS.85).aspx)   | Prototype for a function that returns the user account policy information associated with a specific Windows process. |
-| [**PFNRECONCILEPROFILE**](https://msdn.microsoft.com/en-us/library/Aa385364(v=VS.85).aspx) | Prototype of a function that reconciles a local profile with its corresponding global profile.                        |
+| [**PFNGETPROFILEPATH**](https://msdn.microsoft.com/library/Aa385358(v=VS.85).aspx)     | Prototype for a function that obtains a user profile path.                                                            |
+| [**PFNPROCESSPOLICIES**](https://msdn.microsoft.com/library/Aa385360(v=VS.85).aspx)   | Prototype for a function that returns the user account policy information associated with a specific Windows process. |
+| [**PFNRECONCILEPROFILE**](https://msdn.microsoft.com/library/Aa385364(v=VS.85).aspx) | Prototype of a function that reconciles a local profile with its corresponding global profile.                        |
 
 
 

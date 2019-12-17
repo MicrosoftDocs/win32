@@ -2,7 +2,7 @@
 title: DXCore structures
 description: The following structures are declared in dxcore_interface.h.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

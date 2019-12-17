@@ -40,14 +40,14 @@
       href: structures.md
       items: 
       - name: "XINPUT_BATTERY_INFORMATION"
-        href: /windows/desktop/api/XInput/ns-xinput-_xinput_battery_information
+        href: /windows/win32/api/XInput/ns-xinput-xinput_battery_information
       - name: "XINPUT_CAPABILITIES"
-        href: /windows/desktop/api/XInput/ns-xinput-_xinput_capabilities
+        href: /windows/win32/api/XInput/ns-xinput-xinput_capabilities
       - name: "XINPUT_GAMEPAD"
-        href: /windows/desktop/api/XInput/ns-xinput-_xinput_gamepad
+        href: /windows/win32/api/XInput/ns-xinput-xinput_gamepad
       - name: "XINPUT_KEYSTROKE"
-        href: /windows/desktop/api/XInput/ns-xinput-_xinput_keystroke
+        href: /windows/win32/api/XInput/ns-xinput-xinput_keystroke
       - name: "XINPUT_STATE"
-        href: /windows/desktop/api/XInput/ns-xinput-_xinput_state
+        href: /windows/win32/api/XInput/ns-xinput-xinput_state
       - name: "XINPUT_VIBRATION"
-        href: /windows/desktop/api/XInput/ns-xinput-_xinput_vibration
+        href: /windows/win32/api/XInput/ns-xinput-xinput_vibration

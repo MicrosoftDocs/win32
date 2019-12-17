@@ -2,7 +2,6 @@
 title: EAPHost Supplicant Enumerations
 description: EAPHost Supplicant Enumerations
 ms.assetid: ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

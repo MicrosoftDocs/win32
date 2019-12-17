@@ -55,7 +55,7 @@ The URL syntax is described in the following table.
 
 The Windows Search Indexer trims the final slash from URLs. As a result you cannot rely on the existence of a final slash to identify a directory versus an item. Your protocol handler must be able to handle this URL syntax. Ensure that the protocol name that you select to identify your Shell data source does not conflict with current ones. We recommend this naming convention: `companyName.scheme`.
 
-For more information on creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/en-us/library/cc144093(VS.85).aspx).
+For more information on creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/library/cc144093(VS.85).aspx).
 
 ## Implementing Protocol Handler Interfaces
 
@@ -96,7 +96,7 @@ The UrlAccessor object is instantiated and initialized by a SearchProtocol objec
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IUrlAccessor::GetLastModified**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified)                 | Returns the time that the URL was last modified. If this time is more recent than the last time the indexer processed this URL, filter handlers (implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface) are called to extract the (possibly) changed data for that item. Modified times for directories are ignored. |
 | [**IUrlAccessor::IsDirectory**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-isdirectory)                         | Identifies whether the URL represents a folder containing a child URLs.                                                                                                                                                                                                                                                            |
-| [**IUrlAccessor::BindToStream**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtostream)                       | Binds to an [IStream interface](https://msdn.microsoft.com/en-us/library/Aa380034(VS.85).aspx) that represents the data of a file in a custom data store.                                                                                                                                                                           |
+| [**IUrlAccessor::BindToStream**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtostream)                       | Binds to an [IStream interface](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) that represents the data of a file in a custom data store.                                                                                                                                                                           |
 | [**IUrlAccessor::BindToFilter**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-bindtofilter)                       | Binds to a protocol handler-specific [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), which can expose properties for the item.                                                                                                                                                                                                                 |
 | [**IUrlAccessor4::ShouldIndexItemContent**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent) | Identifies whether the content of the item should be indexed.                                                                                                                                                                                                                                                                      |
 
@@ -114,17 +114,17 @@ If you are implementing a hierarchical protocol handler, then you must implement
 
 [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx) returns the properties of the container. To enumerate child URLs, **IFilter::GetChunk** returns either of the following:
 
--   [PKEY\_Search\_UrlToIndex](https://msdn.microsoft.com/en-us/library/bb760177(VS.85).aspx):
+-   [PKEY\_Search\_UrlToIndex](https://msdn.microsoft.com/library/bb760177(VS.85).aspx):
 
     The URL to the item without the last modified time. [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns a PROPVARIANT containing the child URL.
 
--   [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx):
+-   [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/bb760179(VS.85).aspx):
 
     The URL and the last modified time. [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) returns a PROPVARIANT containing a vector of the child URL and the last modified time.
 
-Returning [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the [**ISearchProtocol::CreateAccessor**](/windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-createaccessor) and [**IUrlAccessor::GetLastModified**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified) methods.
+Returning [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/bb760179(VS.85).aspx) is more efficient because the indexer can immediately determine whether the item needs to be indexed without calling the [**ISearchProtocol::CreateAccessor**](/windows/desktop/api/Searchapi/nf-searchapi-isearchprotocol-createaccessor) and [**IUrlAccessor::GetLastModified**](/windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor-getlastmodified) methods.
 
-The following example code demonstrates how to return the [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) property.
+The following example code demonstrates how to return the [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/bb760179(VS.85).aspx) property.
 
 > [!IMPORTANT]
 >
@@ -197,7 +197,7 @@ HRESULT GetPropVariantForUrlAndTime
 
 
 > [!Note]  
-> A container [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) component should always enumerate all child URLs even if the child URLs have not changed, because the indexer detects deletions through the enumeration process. If the date output in a [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/en-us/library/bb760179(VS.85).aspx) indicates that the data has not changed, the indexer does not update the data for that URL.
+> A container [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) component should always enumerate all child URLs even if the child URLs have not changed, because the indexer detects deletions through the enumeration process. If the date output in a [PKEY\_Search\_UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/bb760179(VS.85).aspx) indicates that the data has not changed, the indexer does not update the data for that URL.
 
  
 

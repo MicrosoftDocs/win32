@@ -2,7 +2,7 @@
 title: callc (sm4 - asm)
 description: Conditionally calls a subroutine marked by where the label l\ appears in the program.
 ms.assetid: 7F6E81CE-0C38-499B-B83E-FA76FA154451
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -112,7 +112,7 @@ This bitmask is optional. This mask further restricts the category of events tha
 *EnableProperty* \[in\]
 </dt> <dd>
 
-Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](https://msdn.microsoft.com/en-us/library/Aa363760(v=VS.85).aspx) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
+Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](https://msdn.microsoft.com/library/Aa363760(v=VS.85).aspx) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
 
 
 
@@ -140,7 +140,7 @@ A session can call the [**TdhEnumerateProviderFilters**](/windows/desktop/api/Td
 
 If the function is successful, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

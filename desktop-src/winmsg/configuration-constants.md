@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuration Constants
 
-This section provides the reference specifications for [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) constants related to [Configuration](configuration.md) system attributes.
+This section provides the reference specifications for [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) constants related to [Configuration](configuration.md) system attributes.
 
 ## In this section
 

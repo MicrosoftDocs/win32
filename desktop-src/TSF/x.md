@@ -1,7 +1,7 @@
 ---
 title: X (Text Services Framework)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'a93ad5d1-0470-40a8-a452-e78637c1a134'
 ms.topic: article
 ms.date: 05/31/2018

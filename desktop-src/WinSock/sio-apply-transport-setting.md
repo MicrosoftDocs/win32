@@ -2,8 +2,6 @@
 Description: Control code applies one or more transport settings to a socket.
 ms.assetid: FA0657EE-B65E-4EFA-AF1E-CA0EA7B27715
 title: SIO_APPLY_TRANSPORT_SETTING Control Code
-author: TimShererWithAquent
-ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]

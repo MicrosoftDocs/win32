@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Using PlaySound to Play System Sounds
 
-The [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function will also play sounds referred to by a keyname in the registry. Users can assign their own sounds to system alerts and warnings, or to user actions, such as a mouse button click. Sounds that are associated with system alerts and warnings are called *sound events*.
+The [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx) function will also play sounds referred to by a keyname in the registry. Users can assign their own sounds to system alerts and warnings, or to user actions, such as a mouse button click. Sounds that are associated with system alerts and warnings are called *sound events*.
 
 To play a sound event, call **PlaySound** with the *pszSound* parameter pointing to a string containing the name of the registry entry that identifies the sound. For example, to play the sound associated with the "MouseClick" entry and to wait for the sound to complete before returning, use the following statement:
 
@@ -40,7 +40,7 @@ The sound events that are predefined by the system can vary with the platform. T
 
 If an application registers its own sound events, the user can configure the sound event by using the standard Control Panel interface. The application should register the sound event by using the standard registry functions; for more information, see [Registry](https://go.microsoft.com/fwlink/p/?linkid=17106). The entries belong at the same position in the registry hierarchy as the rest of the sound events. This position varies with the Win32 implementation. The appropriate data value also varies with the implementation.
 
-The [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx) function always searches the registry for a keyname matching *lpszSound* before attempting to load a file with this name. The [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function accepts flags that specify the location of the sound.
+The [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx) function always searches the registry for a keyname matching *lpszSound* before attempting to load a file with this name. The [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx) function accepts flags that specify the location of the sound.
 
  
 

@@ -46,7 +46,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-The application must use [SysAllocString](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx) to allocate memory for the *ppInfo* parameter and use [SysFreeString](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [SysAllocString](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *ppInfo* parameter and use [SysFreeString](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
 
 ## Requirements
 

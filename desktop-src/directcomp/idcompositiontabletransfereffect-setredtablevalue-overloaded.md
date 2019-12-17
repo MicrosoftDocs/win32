@@ -24,8 +24,8 @@ Sets a value in the red table.
 
 | Method                                                                                                           | Description                               |
 |:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------|
-| [**SetRedTableValue (UINT, float)**](https://msdn.microsoft.com/en-us/library/Dn919799(v=VS.85).aspx)                      | Sets a value in the red table.<br/> |
-| [**SetRedTableValue (UINT, IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Dn919800(v=VS.85).aspx) | Sets a value in the red table.<br/> |
+| [**SetRedTableValue (UINT, float)**](https://msdn.microsoft.com/library/Dn919799(v=VS.85).aspx)                      | Sets a value in the red table.<br/> |
+| [**SetRedTableValue (UINT, IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Dn919800(v=VS.85).aspx) | Sets a value in the red table.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets a value in the red table.
 
 <dl> <dt>
 
-[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx)
+[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/library/Dn919783(v=VS.85).aspx)
 </dt> </dl>
 
 �

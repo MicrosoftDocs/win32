@@ -54,7 +54,7 @@ Writing reliable code largely depends on good coding practices, effective code r
 
     As of Windows 7, WIC requires that RAW CODECs be of COM apartment type "Both". This means that you must do the appropriate locking to handle cross-apartment callers and callers in multi-threaded scenarios. Objects within an Multi Threaded Apartment (MTA) may be called concurrently by any number of threads within the MTA, allowing for better performance on multi-core systems and certain server scenarios. In addition, WIC CODECs that live within an MTA can call other objects that live within the MTA without the marshalling cost associated of calling between threads that live in different STA apartments. In Windows 7, all in-box WIC CODECs have been updated to support MTAs, including JPEG, TIFF, PNG, GIF, ICO, and BMP. 3rd-party CODECs that do not to support MTAs will cause significant performance costs in multithreaded applications due to marshaling. Enabling MTA support requires proper synchronization to be implemented in the 3rd-party CODEC. Exact implementation of these synchronization techniques is beyond the scope of this paper. A general reference for synchronizing COM objects is provided below.
 
-    https://msdn.microsoft.com/en-us/library/ms809971.aspx
+    https://msdn.microsoft.com/library/ms809971.aspx
 
 ## Related topics
 

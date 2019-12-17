@@ -2,7 +2,7 @@
 title: and (sm4 - asm)
 description: Bitwise AND.
 ms.assetid: 403DA289-E2CF-4736-8882-4131F884F777
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -28,7 +28,7 @@ VT\_UNKNOWN
 
 ## Remarks
 
-Use this property to configure the Media Foundation HTTP byte stream. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
+Use this property to configure the Media Foundation HTTP byte stream. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
 
 ## Requirements
 

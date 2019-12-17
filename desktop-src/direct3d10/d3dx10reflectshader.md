@@ -17,7 +17,7 @@ api_location:
 
 # D3DX10ReflectShader function
 
-This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/en-us/library/Dd607334(v=VS.85).aspx) or [**D3D11Reflect**](https://msdn.microsoft.com/en-us/library/Ff728670(v=VS.85).aspx).
+This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx) or [**D3D11Reflect**](https://msdn.microsoft.com/library/Ff728670(v=VS.85).aspx).
 
 ## Syntax
 
@@ -41,14 +41,14 @@ HRESULT D3DX10ReflectShader(
 
 Type: **const void\***
 
-A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/en-us/library/Bb509703(v=VS.85).aspx).
+A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/library/Bb509703(v=VS.85).aspx).
 
 </dd> <dt>
 
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Length of pShaderBytecode.
 
@@ -65,7 +65,7 @@ Address of a shader reflection interface (see [**ID3D10ShaderReflection1 Interfa
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 
@@ -80,7 +80,7 @@ pVSBuf
 
 
 
-which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx)).
+which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/library/Ee416414(v=VS.85).aspx)).
 
 
 ```

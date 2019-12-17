@@ -67,7 +67,7 @@ If successful, this method will cause an **EC\_GRAPH\_CHANGED** event to be sent
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

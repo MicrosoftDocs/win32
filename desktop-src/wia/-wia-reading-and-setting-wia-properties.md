@@ -12,7 +12,7 @@ The [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaproperty
 
 An application can obtain a pointer to an [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface of an item either by enumerating the item's device information or event information by calling [**IWiaItem::EnumDeviceCapabilities**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities) or [**IWiaItem::EnumRegisterEventInfo**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo) or by querying the [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interface of the item. (In WIA 2.0, do this by calling [**IWiaItem2::EnumDeviceCapabilities**](-wia-iwiaitem2-enumdevicecapabilities.md) or [**IWiaItem2::EnumRegisterEventInfo**](-wia-iwiaitem2-enumregistereventinfo.md) or by querying the [**IWiaItem2**](-wia-iwiaitem2.md) interface of the item.)
 
-[**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) inherits from [IPropertyStorage](https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx) and the inherited methods are implemented as described in the reference section of Structured Storage in the Windows Software Development Kit (SDK).
+[**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) inherits from [IPropertyStorage](https://msdn.microsoft.com/library/Aa379968(v=VS.85).aspx) and the inherited methods are implemented as described in the reference section of Structured Storage in the Windows Software Development Kit (SDK).
 
 > [!Note]
 >

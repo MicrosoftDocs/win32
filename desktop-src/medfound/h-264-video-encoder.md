@@ -16,7 +16,7 @@ The Microsoft Media Foundation H.264 video encoder is a [Media Foundation transf
 
 The H.264 video encoder exposes the following interfaces:
 
--   [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx)
+-   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
 ## Input Types
@@ -107,7 +107,7 @@ After the output type is set, the video encoder updates the type by adding the [
 
 ## Codec Properties
 
-The H.264 encoder implements the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface for setting encoding parameters. It supports the following properties.
+The H.264 encoder implements the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface for setting encoding parameters. It supports the following properties.
 
 For the codec requirements for HCK encoder certification, see the **Certified Hardware Encoder** section below.
 
@@ -117,8 +117,8 @@ The following properties are supported in Windows 7.
 
 | Property                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CODECAPI_AVEncCommonRateControlMode**](https://msdn.microsoft.com/en-us/library/Dd317842(v=VS.85).aspx) | Sets the rate control mode. See Remarks. The default mode is unconstrained variable bit rate (VBR).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**CODECAPI_AVEncCommonQuality**](https://msdn.microsoft.com/en-us/library/Dd317841(v=VS.85).aspx)                 | Sets the quality level. This property applies when the rate control mode is quality-based VBR (**eAVEncCommonRateControlMode_Quality**). The valid range is 1–100. The default value is 70. <br/> To set this parameter, set the property before calling [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). <br/> To set this parameter in Windows 7, set the property before calling [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). The encoder ignores changes after the output type is set. <br/> In Windows 8, this property can be set at any time during encoding. Changes are applied starting at the next input frame. <br/> Internally, the encoder converts this property to an [AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value. <br/> |
+| [**CODECAPI_AVEncCommonRateControlMode**](https://msdn.microsoft.com/library/Dd317842(v=VS.85).aspx) | Sets the rate control mode. See Remarks. The default mode is unconstrained variable bit rate (VBR).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [**CODECAPI_AVEncCommonQuality**](https://msdn.microsoft.com/library/Dd317841(v=VS.85).aspx)                 | Sets the quality level. This property applies when the rate control mode is quality-based VBR (**eAVEncCommonRateControlMode_Quality**). The valid range is 1–100. The default value is 70. <br/> To set this parameter, set the property before calling [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). <br/> To set this parameter in Windows 7, set the property before calling [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype). The encoder ignores changes after the output type is set. <br/> In Windows 8, this property can be set at any time during encoding. Changes are applied starting at the next input frame. <br/> Internally, the encoder converts this property to an [AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value. <br/> |
 
 
 
@@ -232,9 +232,9 @@ The encoder supports the following rate control modes.
 
 | Mode                                  | Constant                                            | Description                                                                                                                                                                                                                                         |
 |---------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Constant bit rate (CBR)               | **eAVEncCommonRateControlMode_CBR**                | The encoder tries to achieve a constant bit rate, using a "leaky bucket" model. The target bit rate is given by the [CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx) property. <br/> Requires Windows 8. <br/> |
-| Constrained variable bit rate (VBR)   | **eAVEncCommonRateControlMode_PeakConstrainedVBR** | The encoder uses a "leaky bucket" model with a peak bit rate. The drain rate for the leaky bucket is given by the [CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/en-us/library/Dd317658(v=VS.85).aspx) property. <br/> Requires Windows 8. <br/>     |
-| Quality-based variable bit rate (VBR) | **eAVEncCommonRateControlMode_Quality**            | The encoder tries to achieve a constant quality level, given by the [**AVEncCommonQuality**](https://msdn.microsoft.com/en-us/library/Dd317841(v=VS.85).aspx) property.                                                                                                           |
+| Constant bit rate (CBR)               | **eAVEncCommonRateControlMode_CBR**                | The encoder tries to achieve a constant bit rate, using a "leaky bucket" model. The target bit rate is given by the [CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/library/Dd317662(v=VS.85).aspx) property. <br/> Requires Windows 8. <br/> |
+| Constrained variable bit rate (VBR)   | **eAVEncCommonRateControlMode_PeakConstrainedVBR** | The encoder uses a "leaky bucket" model with a peak bit rate. The drain rate for the leaky bucket is given by the [CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/library/Dd317658(v=VS.85).aspx) property. <br/> Requires Windows 8. <br/>     |
+| Quality-based variable bit rate (VBR) | **eAVEncCommonRateControlMode_Quality**            | The encoder tries to achieve a constant quality level, given by the [**AVEncCommonQuality**](https://msdn.microsoft.com/library/Dd317841(v=VS.85).aspx) property.                                                                                                           |
 | Unconstrained VBR                     | **eAVEncCommonRateControlMode_UnconstrainedVBR**   | The encoder tries to achieve the target bitrate given by the [**MF_MT_AVG_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute in the output media type. This is the default mode.                                                              |
 
 
@@ -275,13 +275,13 @@ The following is the set of required and optional **ICodecAPI** properties for e
 
 The following Windows 8 and Windows 8.1 **ICodecAPI** properties are required:
 
--   [CODECAPI_AVEncCommonRateControlMode](https://msdn.microsoft.com/en-us/library/Dd317842(v=VS.85).aspx)
--   [CODECAPI_AVEncCommonQuality](https://msdn.microsoft.com/en-us/library/Dd317841(v=VS.85).aspx)
--   [CODECAPI_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/en-us/library/Dd317840(v=VS.85).aspx)
--   [CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx)
--   [CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/en-us/library/Dd317658(v=VS.85).aspx)
--   [CODECAPI_AVEncCommonBufferSize](https://msdn.microsoft.com/en-us/library/Dd317651(v=VS.85).aspx)
--   [CODECAPI_AVEncMPVGOPSize](https://msdn.microsoft.com/en-us/library/Dd317889(v=VS.85).aspx)
+-   [CODECAPI_AVEncCommonRateControlMode](https://msdn.microsoft.com/library/Dd317842(v=VS.85).aspx)
+-   [CODECAPI_AVEncCommonQuality](https://msdn.microsoft.com/library/Dd317841(v=VS.85).aspx)
+-   [CODECAPI_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/library/Dd317840(v=VS.85).aspx)
+-   [CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/library/Dd317662(v=VS.85).aspx)
+-   [CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/library/Dd317658(v=VS.85).aspx)
+-   [CODECAPI_AVEncCommonBufferSize](https://msdn.microsoft.com/library/Dd317651(v=VS.85).aspx)
+-   [CODECAPI_AVEncMPVGOPSize](https://msdn.microsoft.com/library/Dd317889(v=VS.85).aspx)
 -   [CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)
 -   [CODECAPI_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)
 
@@ -308,7 +308,7 @@ The following Windows 8 and Windows 8.1 **ICodecAPI** properties are optional,
 
 The following **ICodecAPI** properties are optional. They are not tested in HCK.
 
--   [CODECAPI_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/en-us/library/Dd317879(v=VS.85).aspx)
+-   [CODECAPI_AVEncMPVDefaultBPictureCount](https://msdn.microsoft.com/library/Dd317879(v=VS.85).aspx)
 
 ## Requirements
 

@@ -40,7 +40,7 @@ The following types of custom actions call a dynamic-link library.
  
 
 > [!Note]  
-> To use COM you need to call [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) in the custom action. Do not quit if you find that the thread has already been initialized. For example, the thread is initialized in a per-machine installation but not in a per-user installation.
+> To use COM you need to call [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) in the custom action. Do not quit if you find that the thread has already been initialized. For example, the thread is initialized in a per-machine installation but not in a per-user installation.
 
  
 

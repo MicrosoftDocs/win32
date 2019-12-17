@@ -57,8 +57,8 @@ This example code uses the following interfaces.
 -   [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice)
 -   [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient)
 -   [**IMMDeviceCollection**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevicecollection)
--   [**IMFTrustedOutput**](https://msdn.microsoft.com/en-us/library/ms694305(v=VS.85).aspx)
--   [**IMFOutputPolicy**](https://msdn.microsoft.com/en-us/library/ms698985(v=VS.85).aspx)
+-   [**IMFTrustedOutput**](https://msdn.microsoft.com/library/ms694305(v=VS.85).aspx)
+-   [**IMFOutputPolicy**](https://msdn.microsoft.com/library/ms698985(v=VS.85).aspx)
 
 The media application must perform the following tasks.
 
@@ -73,7 +73,7 @@ The media application must perform the following tasks.
 
     -   Link to the Mfuuid.lib to use the OTA interfaces.
     -   Disable the kernel debugger and driver verifier to avoid any authentication checking errors.
-2.  Enumerate all endpoints in the system and select the target endpoint from the endpoint collection, as shown in the following code. For more information about enumerating devices, see [Enumerating Audio Devices](https://msdn.microsoft.com/en-us/library/ms678716(VS.85).aspx).
+2.  Enumerate all endpoints in the system and select the target endpoint from the endpoint collection, as shown in the following code. For more information about enumerating devices, see [Enumerating Audio Devices](https://msdn.microsoft.com/library/ms678716(VS.85).aspx).
     ```cpp
     BOOL IsDigitalEndpoint(IMMDevice *pDevice)
     {
@@ -203,7 +203,7 @@ The media application must perform the following tasks.
 
             
 
-        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](https://msdn.microsoft.com/en-us/library/bb219818(VS.85).aspx) on MSDN.
+        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](https://msdn.microsoft.com/library/bb219818(VS.85).aspx) on MSDN.
     -   For WASAPI:
         1.  Create an [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IAudioClient as the interface identifier.
             ```cpp
@@ -225,7 +225,7 @@ The media application must perform the following tasks.
             
 4.  Start audio streaming.
 5.  Set the protection policy on the stream.
-    1.  For WASAPI clients, get a reference to the [**IMFTrustedOutput**](https://msdn.microsoft.com/en-us/library/ms694305(v=VS.85).aspx) interface of the output trust authority (OTA) object for the stream by calling [**IAudioClient::GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) and specifying IID\_IMFTrustedOutput as the interface identifier.
+    1.  For WASAPI clients, get a reference to the [**IMFTrustedOutput**](https://msdn.microsoft.com/library/ms694305(v=VS.85).aspx) interface of the output trust authority (OTA) object for the stream by calling [**IAudioClient::GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) and specifying IID\_IMFTrustedOutput as the interface identifier.
         ```cpp
         IMFTrustedOutput*       pTrustedOutput = NULL;
         hr = pIAudioClient>GetService(
@@ -235,14 +235,14 @@ The media application must perform the following tasks.
 
         
 
-    2.  Get a count of the available OTA objects by calling [**IMFTrustedOutput::GetOutputTrustAuthorityCount**](https://msdn.microsoft.com/en-us/library/Bb970384(v=VS.85).aspx).
+    2.  Get a count of the available OTA objects by calling [**IMFTrustedOutput::GetOutputTrustAuthorityCount**](https://msdn.microsoft.com/library/Bb970384(v=VS.85).aspx).
         ```cpp
         hr = pTrustedOutput->GetOutputTrustAuthorityCount(&m_dwCountOTA);
         ```
 
         
 
-    3.  Enumerate the OTA collection and get a reference to the OTA object that supports the action PEACTION\_PLAY. All OTAs expose the [**IMFOutputTrustAuthority**](https://msdn.microsoft.com/en-us/library/ms695254(v=VS.85).aspx) interface.
+    3.  Enumerate the OTA collection and get a reference to the OTA object that supports the action PEACTION\_PLAY. All OTAs expose the [**IMFOutputTrustAuthority**](https://msdn.microsoft.com/library/ms695254(v=VS.85).aspx) interface.
         ```cpp
         hr = pMFTrustedOutput->GetOutputTrustAuthorityByIndex(I, &pMFOutputTrustAuthority);
         hr = pMFOutputTrustAuthority->GetAction(&action) 
@@ -250,7 +250,7 @@ The media application must perform the following tasks.
 
         
 
-    4.  Use the [**IMFTrustedOutput**](https://msdn.microsoft.com/en-us/library/ms694305(v=VS.85).aspx) interface to set the protection policy on the stream.
+    4.  Use the [**IMFTrustedOutput**](https://msdn.microsoft.com/library/ms694305(v=VS.85).aspx) interface to set the protection policy on the stream.
 
         ```cpp
         hr = pTrustedOutput ->SetPolicy(&pPolicy, nPolicy, &pbTicket, &cbTicket);
@@ -259,17 +259,17 @@ The media application must perform the following tasks.
         
 
         > [!Note]
-        > If you are using the EVR, [**SetPolicy**](https://msdn.microsoft.com/en-us/library/Bb970572(v=VS.85).aspx) raises the [MEPolicySet](https://msdn.microsoft.com/en-us/library/ms703081(v=VS.85).aspx) event and returns MF\_S\_WAIT\_FOR\_POLICY\_SET to indicate that the OTA will enforce the policy asynchronously. However, in this example code, the application is a direct WASAPI client that retrieved the OTA object from the audio client (Step 5 a). Unlike the EVR, an audio client and other WASAPI objects do not implement media event generators. Without media event generators, **IMFTrustedOutput::SetPolicy** does not return MF\_S\_WAIT\_FOR\_POLICY\_SET.
+        > If you are using the EVR, [**SetPolicy**](https://msdn.microsoft.com/library/Bb970572(v=VS.85).aspx) raises the [MEPolicySet](https://msdn.microsoft.com/library/ms703081(v=VS.85).aspx) event and returns MF\_S\_WAIT\_FOR\_POLICY\_SET to indicate that the OTA will enforce the policy asynchronously. However, in this example code, the application is a direct WASAPI client that retrieved the OTA object from the audio client (Step 5 a). Unlike the EVR, an audio client and other WASAPI objects do not implement media event generators. Without media event generators, **IMFTrustedOutput::SetPolicy** does not return MF\_S\_WAIT\_FOR\_POLICY\_SET.
         >
-        > The audio policy settings must be set after audio streaming starts, otherwise [**IMFTrustedOutput::GetOutputTrustAuthorityByIndex**](https://msdn.microsoft.com/en-us/library/Bb970401(v=VS.85).aspx) fails. Also, to support this feature, the underlying audio driver must be a *trusted driver*.
+        > The audio policy settings must be set after audio streaming starts, otherwise [**IMFTrustedOutput::GetOutputTrustAuthorityByIndex**](https://msdn.microsoft.com/library/Bb970401(v=VS.85).aspx) fails. Also, to support this feature, the underlying audio driver must be a *trusted driver*.
 
          
 
-        In the example code, *pPolicy* is a pointer to the [**IMFOutputPolicy**](https://msdn.microsoft.com/en-us/library/ms698985(v=VS.85).aspx) interface of a client-implemented policy object. For information, see [Media Foundation SDK](https://msdn.microsoft.com/en-us/library/ms694197(VS.85).aspx) documentation.
+        In the example code, *pPolicy* is a pointer to the [**IMFOutputPolicy**](https://msdn.microsoft.com/library/ms698985(v=VS.85).aspx) interface of a client-implemented policy object. For information, see [Media Foundation SDK](https://msdn.microsoft.com/library/ms694197(VS.85).aspx) documentation.
 
-        In the implementation of the [**IMFOutputPolicy::GenerateRequiredSchemas**](https://msdn.microsoft.com/en-us/library/Bb970362(v=VS.85).aspx) method, a collection of the output protection systems (schemas) must be generated that the OTA must enforce. Each schema is identified by a GUID and contains configuration data for the protection system. Make sure that the protection systems in the collection are restricted to using trusted audio drivers. This restriction is identified by the GUID, **MFPROTECTION\_TRUSTEDAUDIODRIVERS**,DISABLE, or CONSTRICTAUDIO. If MFPROTECTION\_TRUSTEDAUDIODRIVERS is used, the configuration data for this schema is a DWORD. For more information about the schemas and the related configuration data, see Protected Environment SDK documentation.
+        In the implementation of the [**IMFOutputPolicy::GenerateRequiredSchemas**](https://msdn.microsoft.com/library/Bb970362(v=VS.85).aspx) method, a collection of the output protection systems (schemas) must be generated that the OTA must enforce. Each schema is identified by a GUID and contains configuration data for the protection system. Make sure that the protection systems in the collection are restricted to using trusted audio drivers. This restriction is identified by the GUID, **MFPROTECTION\_TRUSTEDAUDIODRIVERS**,DISABLE, or CONSTRICTAUDIO. If MFPROTECTION\_TRUSTEDAUDIODRIVERS is used, the configuration data for this schema is a DWORD. For more information about the schemas and the related configuration data, see Protected Environment SDK documentation.
 
-        The client must also provide the schema definition, by implementing the [**IMFOutputSchema**](https://msdn.microsoft.com/en-us/library/ms703800(v=VS.85).aspx) interface. [**IMFOutputSchema::GetSchemaType**](https://msdn.microsoft.com/en-us/library/Bb970414(v=VS.85).aspx) retrieves **MFPROTECTION\_TRUSTEDAUDIODRIVERS** as the schema GUID. [**IMFOutputSchema::GetConfigurationData**](https://msdn.microsoft.com/en-us/library/Bb970364(v=VS.85).aspx) returns a pointer to the schema's configuration data.
+        The client must also provide the schema definition, by implementing the [**IMFOutputSchema**](https://msdn.microsoft.com/library/ms703800(v=VS.85).aspx) interface. [**IMFOutputSchema::GetSchemaType**](https://msdn.microsoft.com/library/Bb970414(v=VS.85).aspx) retrieves **MFPROTECTION\_TRUSTEDAUDIODRIVERS** as the schema GUID. [**IMFOutputSchema::GetConfigurationData**](https://msdn.microsoft.com/library/Bb970364(v=VS.85).aspx) returns a pointer to the schema's configuration data.
 
 6.  Continue audio streaming.
 7.  Make sure the protection policy is clear before stopping streaming.

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Waiting for Multiple Objects
 
-The following example uses the [**CreateEvent**](https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx) function to create two event objects and the [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx) function to create a thread. It then uses the [**WaitForMultipleObjects**](https://msdn.microsoft.com/en-us/library/ms687025(v=VS.85).aspx) function to wait for the thread to set the state of one of the objects to signaled using the [**SetEvent**](https://msdn.microsoft.com/en-us/library/ms685081(v=VS.85).aspx) function.
+The following example uses the [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx) function to create two event objects and the [**CreateThread**](https://msdn.microsoft.com/library/ms682453(v=VS.85).aspx) function to create a thread. It then uses the [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/ms687025(v=VS.85).aspx) function to wait for the thread to set the state of one of the objects to signaled using the [**SetEvent**](https://msdn.microsoft.com/library/ms685081(v=VS.85).aspx) function.
 
 For an example that waits for a single object, see [Using Mutex Objects](using-mutex-objects.md).
 

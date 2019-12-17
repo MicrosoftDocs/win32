@@ -15,7 +15,7 @@ The [**IVMVirtualNetwork**](ivmvirtualnetwork.md) interface exposes the followin
 ## In this section
 
 -   [**HostAdapter Property**](ivmvirtualnetwork-hostadapter.md)
--   [**MediaType Property**](https://msdn.microsoft.com/en-us/library/Dd796707(v=VS.85).aspx)
+-   [**MediaType Property**](https://msdn.microsoft.com/library/Dd796707(v=VS.85).aspx)
 -   [**Name Property**](ivmvirtualnetwork-name.md)
 -   [**NetworkAdapters Property**](ivmvirtualnetwork-networkadapters.md)
 

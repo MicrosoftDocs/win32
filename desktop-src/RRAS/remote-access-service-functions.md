@@ -98,7 +98,7 @@ Use the following functions to implement RAS functionality.
 
 [**RasGetProjectionInfoEx**](/windows/desktop/api/Ras/nf-ras-rasgetprojectioninfoex)
 
-[**RasGetQuarantineConnectionId**](https://msdn.microsoft.com/en-us/library/Aa377552(v=VS.85).aspx)
+[**RasGetQuarantineConnectionId**](https://msdn.microsoft.com/library/Aa377552(v=VS.85).aspx)
 
 [**RasGetSubEntryHandle**](/windows/desktop/api/Ras/nf-ras-rasgetsubentryhandlea)
 
@@ -108,7 +108,7 @@ Use the following functions to implement RAS functionality.
 
 [**RasInvokeEapUI**](/windows/desktop/api/Ras/nf-ras-rasinvokeeapui)
 
-[**RasMonitorDlg**](https://msdn.microsoft.com/en-us/library/Aa377584(v=VS.85).aspx)
+[**RasMonitorDlg**](https://msdn.microsoft.com/library/Aa377584(v=VS.85).aspx)
 
 [**RasPBDlgFunc**](/windows/desktop/api/Rasdlg/nc-rasdlg-raspbdlgfunca)
 

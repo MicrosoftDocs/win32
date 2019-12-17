@@ -22,7 +22,7 @@ Some service providers can remind the user after a session has been parked for s
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**linePark**](https://msdn.microsoft.com/en-us/library/ms736007(v=VS.85).aspx), [**lineUnpark**](https://msdn.microsoft.com/en-us/library/ms736480(v=VS.85).aspx).
+**TAPI 2.x:** See [**linePark**](https://msdn.microsoft.com/library/ms736007(v=VS.85).aspx), [**lineUnpark**](https://msdn.microsoft.com/library/ms736480(v=VS.85).aspx).
 
 **TAPI 3:** See [**ITBasicCallControl::ParkDirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect), [**ITBasicCallControl::ParkIndirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect), [**ITBasicCallControl::Unpark**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-unpark).
 

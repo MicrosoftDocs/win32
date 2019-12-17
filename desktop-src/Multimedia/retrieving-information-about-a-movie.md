@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Retrieving Information About a Movie
 
-The following example sets the time format to frames and obtains the current position if the device is playing using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
+The following example sets the time format to frames and obtains the current position if the device is playing using the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

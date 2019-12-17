@@ -1,27 +1,25 @@
 ---
-Description: AdminEnable
+Description: ModemDMConfigProfile\/AdminEnable (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AdminEnable
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: AdminEnable
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# <span id="WWAN_profile_v4.element_1_AdminEnable"></span>AdminEnable
+# <span id="WWAN_profile_v4.element_1_AdminEnable"></span>ModemDMConfigProfile\/AdminEnable (v4)
 
 Specifies whether the profile is enabled administratively.This is a new element for v4.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<AdminEnable>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;**\<AdminEnable\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<AdminEnable>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;**\<AdminEnable\>**
 
 ## Syntax
 

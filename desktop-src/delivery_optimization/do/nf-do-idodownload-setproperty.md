@@ -11,7 +11,6 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019

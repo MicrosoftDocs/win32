@@ -24,8 +24,8 @@ Sets the red value for the color of the shadow.
 
 | Method                                                                           | Description                                                |
 |:---------------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [**SetRed (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919775(v=VS.85).aspx) | Sets the red value for the color of the shadow.<br/> |
-| [**SetRed**](https://msdn.microsoft.com/en-us/library/Dn919774(v=VS.85).aspx)                               | Sets the red value for the color of the shadow.<br/> |
+| [**SetRed (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919775(v=VS.85).aspx) | Sets the red value for the color of the shadow.<br/> |
+| [**SetRed**](https://msdn.microsoft.com/library/Dn919774(v=VS.85).aspx)                               | Sets the red value for the color of the shadow.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the red value for the color of the shadow.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx)
+[**IDCompositionShadowEffect**](https://msdn.microsoft.com/library/Dn919766(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -56,7 +56,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Antecedent)
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (Antecedent)
 </dt> </dl>
 
 A [**Win32\_Session**](win32-session.md) that describes the session that has a subsession.
@@ -72,7 +72,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Dependent)
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (Dependent)
 </dt> </dl>
 
 A [**Win32\_Session**](win32-session.md) that describes the session that is the subsession.

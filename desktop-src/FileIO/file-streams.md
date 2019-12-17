@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# File Streams
+# File Streams (Local File Systems)
 
 A stream is a sequence of bytes. In the NTFS file system, streams contain the data that is written to a file, and that gives more information about a file than attributes and properties. For example, you can create a stream that contains search keywords, or the identity of the user account that creates a file.
 

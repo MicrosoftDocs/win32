@@ -1,7 +1,7 @@
 ---
 title: B (RPC)
 description: Words starting with B in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: d1737dac-3799-4f55-8963-bfffb04c94fe
 ms.topic: article
 ms.date: 05/31/2018

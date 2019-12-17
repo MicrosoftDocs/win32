@@ -112,10 +112,10 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_LBUTTONDBLCLK**](wm-lbuttondblclk.md)

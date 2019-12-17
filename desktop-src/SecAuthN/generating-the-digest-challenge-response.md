@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Generating the Digest Challenge Response
 
-After receiving a challenge from the server, the client creates the Digest challenge response by calling the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/en-us/library/Aa375505(v=VS.85).aspx) function. This function generates an MD5 [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) fingerprint by using information about the requested resource and data from the challenge, and outputs a security token that represents a partial [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). To complete the authentication, the client must return the token to the server that issued the challenge.
+After receiving a challenge from the server, the client creates the Digest challenge response by calling the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/library/Aa375505(v=VS.85).aspx) function. This function generates an MD5 [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) fingerprint by using information about the requested resource and data from the challenge, and outputs a security token that represents a partial [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). To complete the authentication, the client must return the token to the server that issued the challenge.
 
-The following table describes the parameters of the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/en-us/library/Aa375505(v=VS.85).aspx) [*function*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly), and the values to supply when constructing a Digest challenge response.
+The following table describes the parameters of the [**InitializeSecurityContext (Digest)**](https://msdn.microsoft.com/library/Aa375505(v=VS.85).aspx) [*function*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly), and the values to supply when constructing a Digest challenge response.
 
 
 
@@ -35,7 +35,7 @@ Context requirements are flags that determine:
 
 By default, Microsoft Digest functions as a SASL mechanism.
 
-Context requirements are specified as flags passed to the *fContextReq* parameter of the [**InitializeSecurityContext**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function. The flags affect the security context's quality of protection by controlling the qop directive in the challenge response.
+Context requirements are specified as flags passed to the *fContextReq* parameter of the [**InitializeSecurityContext**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) function. The flags affect the security context's quality of protection by controlling the qop directive in the challenge response.
 
 By default, the qop directive is set to "auth". To generate a challenge response that sets qop to "auth-int", the following must occur:
 
@@ -50,7 +50,7 @@ For SASL only: Generate a challenge response with the qop directive set to "auth
 
 ## Verifying the Quality of Protection
 
-The client must examine the security context attributes flags returned in the [**InitializeSecurityContext**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function's *pfContextAttr* parameter. The client should send the challenge response to the server only if the quality of protection indicated by the flags is sufficient for its purposes. The relevant flags can be any combination of the following:
+The client must examine the security context attributes flags returned in the [**InitializeSecurityContext**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) function's *pfContextAttr* parameter. The client should send the challenge response to the server only if the quality of protection indicated by the flags is sufficient for its purposes. The relevant flags can be any combination of the following:
 
 -   ISC\_RET\_INTEGRITY
 -   ISC\_RET\_REPLAY\_DETECT

@@ -2,7 +2,7 @@
 title: IDXCoreAdapterList
 description: The **IDXCoreAdapterList** interface implements methods for retrieving adapter items from a generated list, as well as details about the list.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

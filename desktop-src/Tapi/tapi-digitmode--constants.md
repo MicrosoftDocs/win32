@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TAPI\_DIGITMODE\_ Constants
 
-The digit mode describes the type, such as DTMF (Dial Tone Multifrequency). The values used are those from the TAPI 2 [LINEDIGITMODE\_ Constants](https://msdn.microsoft.com/en-us/library/ms735619(v=VS.85).aspx).
+The digit mode describes the type, such as DTMF (Dial Tone Multifrequency). The values used are those from the TAPI 2 [LINEDIGITMODE\_ Constants](https://msdn.microsoft.com/library/ms735619(v=VS.85).aspx).
 
 ## Related topics
 

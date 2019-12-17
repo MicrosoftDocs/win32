@@ -98,10 +98,10 @@ Create the device object and the composition target object. For more information
 
 Use the following steps to create a visual, set its content property to use the layered child window's bitmap, and then add the visual to the visual tree.
 
-1.  Call [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx) to create a visual object.
-2.  Create a Microsoft DirectComposition surface for the layered child window by passing the child window's handle to the [**CreateSurfaceFromHwnd**](https://msdn.microsoft.com/en-us/library/Hh437407(v=VS.85).aspx) function.
-3.  Call the visual object's [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx) method to set the new surface as the visual content of the layered child window.
-4.  Add the visual object to the visual tree. To add the visual to the root of the tree, call the [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx) method. To add the visual as a child of another visual, use the [**IDCompositionVisual::AddVisual**](https://msdn.microsoft.com/en-us/library/Hh449141(v=VS.85).aspx) method of the parent visual.
+1.  Call [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/library/Hh437414(v=VS.85).aspx) to create a visual object.
+2.  Create a Microsoft DirectComposition surface for the layered child window by passing the child window's handle to the [**CreateSurfaceFromHwnd**](https://msdn.microsoft.com/library/Hh437407(v=VS.85).aspx) function.
+3.  Call the visual object's [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/library/Hh449157(v=VS.85).aspx) method to set the new surface as the visual content of the layered child window.
+4.  Add the visual object to the visual tree. To add the visual to the root of the tree, call the [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/library/Hh449109(v=VS.85).aspx) method. To add the visual as a child of another visual, use the [**IDCompositionVisual::AddVisual**](https://msdn.microsoft.com/library/Hh449141(v=VS.85).aspx) method of the parent visual.
 
 The following example creates a visual object, sets its Content property to use the layered child window's bitmap, and adds the visual to the root of the visual tree.
 
@@ -131,7 +131,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Create an animation object and a scale transform object
 
-Use the [**IDCompositionDevice::CreateAnimation**](https://msdn.microsoft.com/en-us/library/Hh437394(v=VS.85).aspx) method to create an animation object, and the [**IDCompositionDevice::CreateScaleTransform**](https://msdn.microsoft.com/en-us/library/Hh437402(v=VS.85).aspx) method to create a scale transform object.
+Use the [**IDCompositionDevice::CreateAnimation**](https://msdn.microsoft.com/library/Hh437394(v=VS.85).aspx) method to create an animation object, and the [**IDCompositionDevice::CreateScaleTransform**](https://msdn.microsoft.com/library/Hh437402(v=VS.85).aspx) method to create a scale transform object.
 
 
 ```C++
@@ -173,7 +173,7 @@ pAnimateScale->End(1.0f, 1.0f);
 
 ### Step 6: Apply the animation object to properties of the scale transform object
 
-Use the [**IDCompositionScale::SetScaleX**](https://msdn.microsoft.com/en-us/library/Hh449046(v=VS.85).aspx) and [**SetScaleY**](https://msdn.microsoft.com/en-us/library/Hh449053(v=VS.85).aspx) methods to apply the animation object to the ScaleX and ScaleY properties of the scale transform object.
+Use the [**IDCompositionScale::SetScaleX**](https://msdn.microsoft.com/library/Hh449046(v=VS.85).aspx) and [**SetScaleY**](https://msdn.microsoft.com/library/Hh449053(v=VS.85).aspx) methods to apply the animation object to the ScaleX and ScaleY properties of the scale transform object.
 
 
 ```C++
@@ -197,7 +197,7 @@ pScale->SetScaleY(pAnimateScale);
 
 ### Step 7: Apply the scale transform object to the transform property of the visual
 
-Use the [**IDCompositionVisual::SetTransform**](https://msdn.microsoft.com/en-us/library/Hh449176(v=VS.85).aspx) method to apply the scale transform object to the Transform property of the visual.
+Use the [**IDCompositionVisual::SetTransform**](https://msdn.microsoft.com/library/Hh449176(v=VS.85).aspx) method to apply the scale transform object to the Transform property of the visual.
 
 
 ```C++
@@ -223,7 +223,7 @@ DwmSetWindowAttribute(pDemoApp->m_hwndLayeredChild,
 
 ### Step 9: Commit the composition
 
-Use the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx) method to commit the batch of commands to Microsoft DirectComposition for processing. The animation will appear in the target window.
+Use the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx) method to commit the batch of commands to Microsoft DirectComposition for processing. The animation will appear in the target window.
 
 ### Step 10: Uncloak the layered child window
 

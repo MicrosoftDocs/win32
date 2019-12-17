@@ -32,11 +32,11 @@ Basic device characteristics are:
 
 In addition, the service providers supply information concerning the capacity of a given address to perform various session operations.
 
-Supplemental characteristics may be associated with certain devices, if the service providers support them. A TAPI 2.x application discovers capabilities by using the [**lineGetDevCaps**](https://msdn.microsoft.com/en-us/library/ms735735(v=VS.85).aspx) and [**lineGetAddressCaps**](https://msdn.microsoft.com/en-us/library/ms735674(v=VS.85).aspx) functions. TAPI 3.x applications use the [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities) interface for this purpose.
+Supplemental characteristics may be associated with certain devices, if the service providers support them. A TAPI 2.x application discovers capabilities by using the [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx) and [**lineGetAddressCaps**](https://msdn.microsoft.com/library/ms735674(v=VS.85).aspx) functions. TAPI 3.x applications use the [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities) interface for this purpose.
 
-TAPI 2.x provides a special set of supplemental operations that the service provider may implement for use with phone devices. See [Phone Devices](https://msdn.microsoft.com/en-us/library/ms736591(v=VS.85).aspx).
+TAPI 2.x provides a special set of supplemental operations that the service provider may implement for use with phone devices. See [Phone Devices](https://msdn.microsoft.com/library/ms736591(v=VS.85).aspx).
 
-Extended capabilities are provider-specific and not directly covered by the Microsoft Telephony API. See [Extended Line Functions](https://msdn.microsoft.com/en-us/library/ms734886(v=VS.85).aspx), [Extended Telephony Phone Functions](https://msdn.microsoft.com/en-us/library/ms734891(v=VS.85).aspx), or [Provider-Specific Interfaces](provider-specific-interfaces.md).
+Extended capabilities are provider-specific and not directly covered by the Microsoft Telephony API. See [Extended Line Functions](https://msdn.microsoft.com/library/ms734886(v=VS.85).aspx), [Extended Telephony Phone Functions](https://msdn.microsoft.com/library/ms734891(v=VS.85).aspx), or [Provider-Specific Interfaces](provider-specific-interfaces.md).
 
 Below is a summary of TAPI operations that query service providers on device characteristics and provide data on current state.
 
@@ -44,18 +44,18 @@ Below is a summary of TAPI operations that query service providers on device cha
 
 | TAPI 2.x functions                                                  | Description                                                                                                    |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**lineGetDevCaps**](https://msdn.microsoft.com/en-us/library/ms735735(v=VS.85).aspx)                   | Queries a specified line device to determine the telephony capabilities of associated addresses.               |
-| [**lineGetAddressCaps**](https://msdn.microsoft.com/en-us/library/ms735674(v=VS.85).aspx)           | Queries a specified line device to determine the telephony capabilities of specific address.                   |
-| [**lineGetDevConfig**](https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx)               | Returns an "opaque" data structure that stores the current configuration of a device.                          |
-| [**lineSetDevConfig**](https://msdn.microsoft.com/en-us/library/ms736096(v=VS.85).aspx)               | Restores device configuration.                                                                                 |
-| [**lineConfigDialog**](https://msdn.microsoft.com/en-us/library/ms735582(v=VS.85).aspx)               | Display a dialog box that allows the user to configure parameters related to the device.                       |
-| [**lineGetID**](https://msdn.microsoft.com/en-us/library/ms735751(v=VS.85).aspx)                             | Retrieves a stable device identifier that can be used in further TAPI function calls, or with a different API. |
-| [**lineGetLineDevStatus**](https://msdn.microsoft.com/en-us/library/ms735753(v=VS.85).aspx)       | Queries device for current status, such as number of active calls.                                             |
-| [**lineSetLineDevStatus**](https://msdn.microsoft.com/en-us/library/ms736098(v=VS.85).aspx)       | Sets device status, such as setting a device as not in service.                                                |
-| [**lineGetIcon**](https://msdn.microsoft.com/en-us/library/ms735746(v=VS.85).aspx)                         | Retrieves provider-specific icon for display to the user.                                                      |
-| [**lineNegotiateExtVersion**](https://msdn.microsoft.com/en-us/library/ms736003(v=VS.85).aspx) | Allows an application to negotiate an extension version to use with the specified line device.                 |
-| [**lineDevSpecific**](https://msdn.microsoft.com/en-us/library/ms735604(v=VS.85).aspx)                 | Gives access to device-specific features.                                                                      |
-| [**lineDevSpecificFeature**](https://msdn.microsoft.com/en-us/library/ms735607(v=VS.85).aspx)   | Sends device-specific features to the service provider.                                                        |
+| [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx)                   | Queries a specified line device to determine the telephony capabilities of associated addresses.               |
+| [**lineGetAddressCaps**](https://msdn.microsoft.com/library/ms735674(v=VS.85).aspx)           | Queries a specified line device to determine the telephony capabilities of specific address.                   |
+| [**lineGetDevConfig**](https://msdn.microsoft.com/library/ms735739(v=VS.85).aspx)               | Returns an "opaque" data structure that stores the current configuration of a device.                          |
+| [**lineSetDevConfig**](https://msdn.microsoft.com/library/ms736096(v=VS.85).aspx)               | Restores device configuration.                                                                                 |
+| [**lineConfigDialog**](https://msdn.microsoft.com/library/ms735582(v=VS.85).aspx)               | Display a dialog box that allows the user to configure parameters related to the device.                       |
+| [**lineGetID**](https://msdn.microsoft.com/library/ms735751(v=VS.85).aspx)                             | Retrieves a stable device identifier that can be used in further TAPI function calls, or with a different API. |
+| [**lineGetLineDevStatus**](https://msdn.microsoft.com/library/ms735753(v=VS.85).aspx)       | Queries device for current status, such as number of active calls.                                             |
+| [**lineSetLineDevStatus**](https://msdn.microsoft.com/library/ms736098(v=VS.85).aspx)       | Sets device status, such as setting a device as not in service.                                                |
+| [**lineGetIcon**](https://msdn.microsoft.com/library/ms735746(v=VS.85).aspx)                         | Retrieves provider-specific icon for display to the user.                                                      |
+| [**lineNegotiateExtVersion**](https://msdn.microsoft.com/library/ms736003(v=VS.85).aspx) | Allows an application to negotiate an extension version to use with the specified line device.                 |
+| [**lineDevSpecific**](https://msdn.microsoft.com/library/ms735604(v=VS.85).aspx)                 | Gives access to device-specific features.                                                                      |
+| [**lineDevSpecificFeature**](https://msdn.microsoft.com/library/ms735607(v=VS.85).aspx)   | Sends device-specific features to the service provider.                                                        |
 
 
 
@@ -66,11 +66,11 @@ Below is a summary of TAPI operations that query service providers on device cha
 | TAPI 3.x interfaces or methods                                   | Description                                                                                             |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities)           | Gets information concerning an address's capabilities.                                                  |
-| [**ITAMMediaFormat**](https://msdn.microsoft.com/en-us/library/Aa382285(v=VS.85).aspx)                       | Sets and gets DirectShow™ media format.                                                                 |
+| [**ITAMMediaFormat**](https://msdn.microsoft.com/library/Aa382285(v=VS.85).aspx)                       | Sets and gets DirectShow™ media format.                                                                 |
 | [**ITBasicAudioTerminal**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal)             | Sets and gets standard audio terminal characteristics, such as volume.                                  |
 | [**ITMediaSupport**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport)                         | Gets information concerning an address's media support capabilities.                                    |
-| [**ITTerminal**](https://msdn.microsoft.com/en-us/library/ms732646(v=VS.85).aspx)                                 | Base interface for the Terminal object. Obtains information such as terminal class and media supported. |
-| [**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx)                   | Gets information on available terminals and creates additional terminals.                               |
+| [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)                                 | Base interface for the Terminal object. Obtains information such as terminal class and media supported. |
+| [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx)                   | Gets information on available terminals and creates additional terminals.                               |
 | [Provider-Specific Interfaces](provider-specific-interfaces.md) | Service provider dependent.                                                                             |
 
 

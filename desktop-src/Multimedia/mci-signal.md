@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SIGNAL command sets a specified position in the workspace. Digital-video devices recognize this command. MCIAVI supports only one active signal at a time.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

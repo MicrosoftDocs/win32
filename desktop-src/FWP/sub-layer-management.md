@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_SUBLAYER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/en-us/library/Aa364314(v=VS.85).aspx)
+-   [**FWPM\_SUBLAYER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364314(v=VS.85).aspx)
 -   [**FwpmSubLayerAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayeradd0)
 -   [**FwpmSubLayerCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayercreateenumhandle0)
 -   [**FwpmSubLayerDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayerdeletebykey0)

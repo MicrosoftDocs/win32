@@ -122,7 +122,7 @@ The start of the optional attribute name.
 
 The attributes list is an ordered list of quadword-aligned **ATTRIBUTE\_LIST\_ENTRY** structures. This list is ordered first by the attribute type code and then by the attribute name (if present). No two attributes can have the same type code, name, and lowest VCN. Therefore, there can be at most one attribute for each type code without a name.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
 
 Note that there is no associated header file for this structure.
 

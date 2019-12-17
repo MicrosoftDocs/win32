@@ -22,7 +22,7 @@ api_location:
 The **CryptCATCDFEnumMembersByCDFTagEx** function enumerates the individual file members in the **CatalogFiles** section of a catalog definition file (CDF). **CryptCATCDFEnumMembersByCDFTagEx** is called by [MakeCat](makecat.md).
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -152,10 +152,10 @@ The following example shows the correct sequence of assignments for the *pwszPre
 [**CRYPTCATMEMBER**](/windows/desktop/api/Mscat/ns-mscat-cryptcatmember_)
 </dt> <dt>
 
-[**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx)
+[**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx)
 </dt> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx)
+[**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: Toolbar Buttons
+title: Toolbar Buttons (Microsoft Agent Character Editor)
 description: Toolbar Buttons
 ms.assetid: 8867a038-d2c4-43c1-b994-bd3779a251b9
 ms.topic: article

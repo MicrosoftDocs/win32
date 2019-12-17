@@ -52,7 +52,7 @@ Pointer to an input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that represen
 *AdaptiveThresh* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Threshold on the PRT vector to use for subdividing mesh vertices and faces. If less than 1e-6f, a default value of 1e-6f is specified.
 
@@ -61,7 +61,7 @@ Threshold on the PRT vector to use for subdividing mesh vertices and faces. If l
 *MinEdgeLength* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum face edge length that will be generated in adaptive sampling. If the method determines that the value is too small, a model-dependent value is specified.
 
@@ -70,7 +70,7 @@ Minimum face edge length that will be generated in adaptive sampling. If the met
 *MaxSubdiv* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum level of subdivision of a face that will be used in adaptive sampling. If zero, a default value of 4 is specified.
 
@@ -96,7 +96,7 @@ Pointer to an optional [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that is th
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

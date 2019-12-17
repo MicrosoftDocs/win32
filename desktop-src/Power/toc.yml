@@ -84,13 +84,13 @@
       - name: "POWER_ACTION"
         href: /windows/desktop/api/WinNT/ne-winnt-power_action
       - name: "POWER_DATA_ACCESSOR"
-        href: /windows/desktop/api/PowrProf/ne-powrprof-_power_data_accessor
+        href: /windows/win32/api/PowrProf/ne-powrprof-power_data_accessor
       - name: "POWER_PLATFORM_ROLE"
-        href: /windows/desktop/api/WinNT/ne-winnt-_power_platform_role
+        href: /windows/win32/api/WinNT/ne-winnt-power_platform_role
       - name: "SYSTEM_POWER_CONDITION"
         href: /windows/desktop/api/WinNT/ne-winnt-system_power_condition
       - name: "SYSTEM_POWER_STATE"
-        href: /windows/desktop/api/WinNT/ne-winnt-_system_power_state
+        href: /windows/win32/api/WinNT/ne-winnt-system_power_state
     - name: "Power Management Events"
       href: power-management-events.md
       items: 
@@ -318,7 +318,7 @@
       href: power-management-structures.md
       items: 
       - name: "ADMINISTRATOR_POWER_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_administrator_power_policy
+        href: /windows/win32/api/WinNT/ns-winnt-administrator_power_policy
       - name: "BATTERY_INFORMATION"
         href: battery-information-str.md
       - name: "BATTERY_MANUFACTURE_DATE"
@@ -336,31 +336,31 @@
       - name: "DISPLAY_BRIGHTNESS"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372686(v=vs.85)
       - name: "DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
-        href: /windows/desktop/api/Powrprof/ns-powrprof-_device_notify_subscribe_parameters
+        href: /windows/win32/api/Powrprof/ns-powrprof-device_notify_subscribe_parameters
       - name: "GLOBAL_MACHINE_POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_global_machine_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-global_machine_power_policy
       - name: "GLOBAL_POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_global_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-global_power_policy
       - name: "GLOBAL_USER_POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_global_user_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-global_user_power_policy
       - name: "MACHINE_POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_machine_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-machine_power_policy
       - name: "MACHINE_PROCESSOR_POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_machine_processor_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-machine_processor_power_policy
       - name: "POWER_ACTION_POLICY"
         href: /windows/desktop/api/WinNT/ns-winnt-power_action_policy
       - name: "POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-power_policy
       - name: "POWERBROADCAST_SETTING"
         href: /windows/desktop/api/WinUser/ns-winuser-powerbroadcast_setting
       - name: "PROCESSOR_POWER_INFORMATION"
         href: processor-power-information-str.md
       - name: "PROCESSOR_POWER_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_processor_power_policy
+        href: /windows/win32/api/WinNT/ns-winnt-processor_power_policy
       - name: "PROCESSOR_POWER_POLICY_INFO"
-        href: /windows/desktop/api/WinNT/ns-winnt-_processor_power_policy_info
+        href: /windows/win32/api/WinNT/ns-winnt-processor_power_policy_info
       - name: "REASON_CONTEXT"
-        href: /windows/desktop/api/MinWinBase/ns-minwinbase-_reason_context
+        href: /windows/win32/api/MinWinBase/ns-minwinbase-reason_context
       - name: "SYSTEM_BATTERY_STATE"
         href: /windows/desktop/api/WinNT/ns-winnt-system_battery_state
       - name: "SYSTEM_POWER_CAPABILITIES"
@@ -370,10 +370,10 @@
       - name: "SYSTEM_POWER_LEVEL"
         href: /windows/desktop/api/WinNT/ns-winnt-system_power_level
       - name: "SYSTEM_POWER_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_system_power_policy
+        href: /windows/win32/api/WinNT/ns-winnt-system_power_policy
       - name: "SYSTEM_POWER_STATUS"
-        href: /windows/desktop/api/Winbase/ns-winbase-_system_power_status
+        href: /windows/win32/api/Winbase/ns-winbase-system_power_status
       - name: "THERMAL_EVENT"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_thermal_event
+        href: /windows/win32/api/PowrProf/ns-powrprof-thermal_event
       - name: "USER_POWER_POLICY"
-        href: /windows/desktop/api/PowrProf/ns-powrprof-_user_power_policy
+        href: /windows/win32/api/PowrProf/ns-powrprof-user_power_policy

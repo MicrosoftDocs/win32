@@ -59,14 +59,14 @@ The socket option for which the value is to be retrieved. Use **SO\_BSP\_STATE**
 *optval* \[out\]
 </dt> <dd>
 
-A pointer to the buffer in which the value for the requested option is to be returned. This parameter should point to buffer equal to or larger than the size of a [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure.
+A pointer to the buffer in which the value for the requested option is to be returned. This parameter should point to buffer equal to or larger than the size of a [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure.
 
 </dd> <dt>
 
 *optlen* \[in, out\]
 </dt> <dd>
 
-A pointer to the size, in bytes, of the *optval* buffer. This size must be equal to or larger than the size of a [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure.
+A pointer to the size, in bytes, of the *optval* buffer. This size must be equal to or larger than the size of a [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure.
 
 </dd> </dl>
 
@@ -82,7 +82,7 @@ If the operation fails, a value of SOCKET\_ERROR is returned and a specific erro
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | A successful [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) call must occur before using this function.<br/>                                                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | The network subsystem has failed.<br/>                                                                                                                                                                                                                                               |
-| <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | One of the *optval* or the *optlen* parameters point to memory that is not in a valid part of the user address space. This error is also returned if the value pointed to by the *optlen* parameter is less than the size of a [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure.<br/> |
+| <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | One of the *optval* or the *optlen* parameters point to memory that is not in a valid part of the user address space. This error is also returned if the value pointed to by the *optlen* parameter is less than the size of a [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure.<br/> |
 | <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.<br/>                                                                                                                                                            |
 | <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md)**</dt> </dl>                 | The *level* parameter is unknown or invalid.<br/>                                                                                                                                                                                                                                    |
 | <dl> <dt>**[WSAENOPROTOOPT](windows-sockets-error-codes-2.md)**</dt> </dl>       | The option is unknown or unsupported by the indicated protocol family.<br/>                                                                                                                                                                                                          |
@@ -96,15 +96,15 @@ If the operation fails, a value of SOCKET\_ERROR is returned and a specific erro
 
 The [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function called with the **SO\_BSP\_STATE** socket option retrieves the local address, local port, remote address, remote port, socket type, and protocol used by a socket. The **SO\_BSP\_STATE** socket option works with IPv6 or IPv4 sockets (the **AF\_INET6** and **AF\_INET** address families).
 
-If the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function is successful, the information is returned in a [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure in the buffer pointed to by the *optval* parameter. The integer pointed to by *optlen* should originally contain the size of this buffer; on return, it will be set to the length, in bytes, of the value returned in the *optval* parameter.
+If the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function is successful, the information is returned in a [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure in the buffer pointed to by the *optval* parameter. The integer pointed to by *optlen* should originally contain the size of this buffer; on return, it will be set to the length, in bytes, of the value returned in the *optval* parameter.
 
-The **iSocketType** and **iProtocol** members in the returned [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure are filled in for the socket descriptor in the *s* parameter.
+The **iSocketType** and **iProtocol** members in the returned [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure are filled in for the socket descriptor in the *s* parameter.
 
-If the socket is in a connected or bound state, then the **LocalAddr** member of the returned [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure will be set to a [SOCKADDR](sockaddr-2.md) structure representing the local address and port. If the socket is in a connected state, then the **RemoteAddr** member of the returned **CSADDR\_INFO** structure will be set to a SOCKADDR structure representing the remote address and port.
+If the socket is in a connected or bound state, then the **LocalAddr** member of the returned [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure will be set to a [SOCKADDR](sockaddr-2.md) structure representing the local address and port. If the socket is in a connected state, then the **RemoteAddr** member of the returned **CSADDR\_INFO** structure will be set to a SOCKADDR structure representing the remote address and port.
 
-If the socket is not in a connected or bound state, then the **LocalAddr** member of the returned [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure is returned with a **NULL** pointer in the **lpSockaddr** member and the **iSockaddrLength** member set to zero. If the socket is not in a bound state, then the **RemoteAddr** member of the returned **CSADDR\_INFO** structure is returned with a **NULL** pointer in the **lpSockaddr** member and the **iSockaddrLength** member set to zero.
+If the socket is not in a connected or bound state, then the **LocalAddr** member of the returned [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure is returned with a **NULL** pointer in the **lpSockaddr** member and the **iSockaddrLength** member set to zero. If the socket is not in a bound state, then the **RemoteAddr** member of the returned **CSADDR\_INFO** structure is returned with a **NULL** pointer in the **lpSockaddr** member and the **iSockaddrLength** member set to zero.
 
-If the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function fails, the *optval* and *optlen* parameters are left unchanged and the *optval* parameter does not point to a returned [**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx) structure.
+If the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function fails, the *optval* and *optlen* parameters are left unchanged and the *optval* parameter does not point to a returned [**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx) structure.
 
 Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, and should never be used directly.
 
@@ -127,7 +127,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)
 </dt> <dt>
 
-[**CSADDR\_INFO**](https://msdn.microsoft.com/en-us/library/ms737640(v=VS.85).aspx)
+[**CSADDR\_INFO**](https://msdn.microsoft.com/library/ms737640(v=VS.85).aspx)
 </dt> <dt>
 
 [SOCKADDR](sockaddr-2.md)

@@ -18,11 +18,11 @@ api_location:
 # D3DX10DisassembleEffect function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/en-us/library/Dd607326(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/library/Dd607326(v=VS.85).aspx) API.
 
  
 
-This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/en-us/library/Dd607327(v=VS.85).aspx).
+This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/library/Dd607327(v=VS.85).aspx).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ A pointer to the effect interface (see [**ID3D10Effect Interface**](/windows/des
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Include HTML tags in the output to color code the result.
 
@@ -70,7 +70,7 @@ Address of a buffer (see [**ID3D10Blob Interface**](/windows/desktop/api/D3DComm
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

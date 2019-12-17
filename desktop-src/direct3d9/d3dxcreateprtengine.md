@@ -51,7 +51,7 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object that models the 3D
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Optional pointer to an array of three DWORDs per face to be filled with adjacent face indices. The number of bytes in this array must be at least ((3 \* [**GetNumFaces**](id3dxbasemesh--getnumfaces.md)) \* sizeof(DWORD)). May be **NULL**.
 
@@ -60,7 +60,7 @@ Optional pointer to an array of three DWORDs per face to be filled with adjacent
 *ExtractUVs* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 If **TRUE**, textures will be used to store albedos or PRT vectors.
 
@@ -86,7 +86,7 @@ Pointer to an output [**ID3DXPRTEngine**](id3dxprtengine.md) object.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

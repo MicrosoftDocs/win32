@@ -1,5 +1,5 @@
 ---
-title: Left Property
+title: Left Property (CommandsWindow Object)
 description: Left Property
 ms.assetid: 03786379-42c2-4f54-99cc-1dc120c45858
 ms.topic: article

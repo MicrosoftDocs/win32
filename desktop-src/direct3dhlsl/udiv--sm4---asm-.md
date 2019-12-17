@@ -2,7 +2,7 @@
 title: udiv (sm4 - asm)
 description: Unsigned integer divide.
 ms.assetid: 87C81418-0F74-4C67-9D4A-DA952EFD008E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

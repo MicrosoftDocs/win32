@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Searching for a Subchunk
 
-The following example uses the [**mmioDescend**](https://msdn.microsoft.com/en-us/library/Dd757318(v=VS.85).aspx) function to search for the "FMT" chunk in the "RIFF" chunk of the previous example.
+The following example uses the [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx) function to search for the "FMT" chunk in the "RIFF" chunk of the previous example.
 
 
 ```C++
@@ -34,11 +34,11 @@ else
 
 
 
-To search for a subchunk (that is, any chunk other than a "RIFF" or "LIST" chunk), identify its parent chunk in the *lpckParent* parameter of the [**mmioDescend**](https://msdn.microsoft.com/en-us/library/Dd757318(v=VS.85).aspx) function.
+To search for a subchunk (that is, any chunk other than a "RIFF" or "LIST" chunk), identify its parent chunk in the *lpckParent* parameter of the [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx) function.
 
 If you do not specify a parent chunk, the current file position should be at the beginning of a chunk before you call the **mmioDescend** function. If you do specify a parent chunk, the current file position can be anywhere in that chunk.
 
-If the search for a subchunk fails, the current file position is undefined. You can use the [**mmioSeek**](https://msdn.microsoft.com/en-us/library/Dd757336(v=VS.85).aspx) function and the **dwDataOffset** member of the [**MMCKINFO**](https://msdn.microsoft.com/en-us/library/Dd757312(v=VS.85).aspx) structure describing the parent chunk to seek back to the beginning of the parent chunk, as in the following example:
+If the search for a subchunk fails, the current file position is undefined. You can use the [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx) function and the **dwDataOffset** member of the [**MMCKINFO**](https://msdn.microsoft.com/library/Dd757312(v=VS.85).aspx) structure describing the parent chunk to seek back to the beginning of the parent chunk, as in the following example:
 
 
 ```C++

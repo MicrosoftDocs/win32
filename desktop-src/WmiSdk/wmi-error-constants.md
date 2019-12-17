@@ -320,7 +320,7 @@ This error may be caused by many conditions, including the following:
 
 -   Provider is using a WMI DLL that does not match the .lib file used when the provider was built.
 -   Provider's DLL, or any of the DLLs on which it depends, is corrupt.
--   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx).
+-   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx).
 -   In-process provider was not registered using the **regsvr32** command.
 -   Out-of-process provider was not registered using the **/regserver** switch. For example, **myprog.exe /regserver**.
 
