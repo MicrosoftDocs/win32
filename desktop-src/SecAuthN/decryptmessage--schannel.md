@@ -10,10 +10,12 @@ ms.date: 07/25/2019
 
 The **DecryptMessage (Schannel)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](https://docs.microsoft.com/windows/win32/secgloss/h-gly).
 
-This function is also used with the Schannel [*security support provider*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) (SSP) to signal a request from a message sender for a renegotiation (redo) of the connection attributes or for a shutdown of the connection.
+
+This function is also used with the Schannel [*security support provider*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_SUPPORT_PROVIDER_GLY) (SSP) to signal a request from a message sender for a renegotiation (redo) of the connection attributes or for a shutdown of the connection.
 
 > [!Note]  
-> [**EncryptMessage (Schannel)**](encryptmessage--schannel.md) and **DecryptMessage (Schannel)** can be called at the same time from two different threads in a single [*security support provider interface*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (Schannel)**](encryptmessage--schannel.md) and **DecryptMessage (Schannel)** can be called at the same time from two different threads in a single [*security support provider interface*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_SUPPORT_PROVIDER_INTERFACE_GLY) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+
 
 ## Syntax
 
@@ -30,13 +32,14 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 *phContext* \[in\]
 
-A handle to the [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) to be used to decrypt the message.
+
+A handle to the [*security context*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_CONTEXT_GLY) to be used to decrypt the message.
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer) structures. One of these may be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
-When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
+When using the Schannel SSP with contexts that are not connection oriented, on input, the structure must contain four [**SecBuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer) structures. Exactly one buffer must be of type SECBUFFER\_DATA and contain an encrypted message, which is decrypted in place. The remaining buffers are used for output and must be of type SECBUFFER\_EMPTY. For connection-oriented contexts, a SECBUFFER\_DATA type buffer must be supplied, as noted for nonconnection-oriented contexts. Additionally, a second SECBUFFER\_TOKEN type buffer that contains a security token must also be supplied.
 
 *MessageSeqNo* \[in\]
 
@@ -68,7 +71,8 @@ If the function fails to decrypt the message, it returns one of the following er
 | **SEC\_E\_MESSAGE\_ALTERED**    | The message has been altered. Used with the Schannel SSP.                                                      |
 | **SEC\_E\_OUT\_OF\_SEQUENCE**   | The message was not received in the correct sequence.                                                          |
 | **SEC\_I\_CONTEXT\_EXPIRED**    | The message sender has finished using the connection and has initiated a shutdown. For information about initiating or recognizing a shutdown, see [Shutting Down an Schannel Connection](shutting-down-an-schannel-connection.md). Used with the Schannel SSP. |
-| **SEC\_I\_RENEGOTIATE**         | The remote party requires a new handshake sequence or the application has just initiated a shutdown. Return to the negotiation loop and call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md), and passing the contents of SECBUFFER_EXTRA returned from DecryptMessage in the SECBUFFER_TOKEN.
+| **SEC\_I\_RENEGOTIATE**         | The remote party requires a new handshake sequence or the application has just initiated a shutdown. Return to the negotiation loop and call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md), pass SECBUFFER_EXTRA returned from DecryptMessage(). Renegotiation is not supported for Schannel kernel mode. The caller should either ignore this return value or shut down the connection. If the value is ignored, either the client or the server might shut down the connection as a result. |
+
 
 ## Remarks
 
@@ -78,7 +82,9 @@ When you use the Schannel SSP, the [**DecryptMessage (General)**](decryptmessage
 
 If you are using TLS 1.0, you may need to call this function multiple times, adjusting the input buffer on each call, to decrypt a whole message.
 
-The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the message sender wants to renegotiate the connection ([*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly)). An application handles a requested renegotiation by calling [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (server side) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) (client side) and passing the contents of SECBUFFER_EXTRA returned from DecryptMessage in the SECBUFFER_TOKEN. After this initial call returns a value, proceed as though your application were creating a new connection. For more information, see [Creating an Schannel [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly)](creating-an-schannel-security-context.md).
+
+The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the message sender wants to renegotiate the connection ([*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly)). An application handles a requested renegotiation by calling [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (server side) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) (client side) and pass SECBUFFER_EXTRA returned from DecryptMessage(). After this initial call returns a value, proceed as though your application were creating a new connection. For more information, see [Creating an Schannel Security Context](creating-an-schannel-security-context.md).
+
 
 ## Requirements
 
@@ -94,5 +100,6 @@ The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the 
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Schannel)**](encryptmessage--schannel.md)
-- [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer)
-- [**SecBufferDesc**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbufferdesc)
+- [**SecBuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer)
+- [**SecBufferDesc**](/windows/win32/api/sspi/ns-sspi-secbufferdesc)
+
