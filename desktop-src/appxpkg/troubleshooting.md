@@ -297,7 +297,7 @@ On a Windows 10-based computer, you cannot start some applications, and the appl
 
 When you try to open an application by selecting the dimmed name, you may receive one of the following error messages:
 
-> There's a problem with *application name*. Contact your system administrator about repairing or reinstalling it  
+> There's a problem with \<*application name*>. Contact your system administrator about repairing or reinstalling it  
 > Error: This app can't open
 
 Additionally, the following event entries are logged in the "Microsoft-Windows-TWinUI/Operational" log under **Applications and Services\Microsoft\Windows\Apps**:
