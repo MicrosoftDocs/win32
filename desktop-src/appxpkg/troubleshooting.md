@@ -327,10 +327,15 @@ To fix this issue:
 
 1. To back up the subkey data, right-click **PackageList**, select **Export**, and then save the data as a registry file.
 1. For each of the applications that are listed in the Event ID 5960 log entries, follow these steps:  
-   1. Locate the **PackageStatus** entry. In the case of the example event in this article, the full subkey is **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus**.  
+   1. Locate the **PackageStatus** entry.
+
    1. Set the value of **PackageStatus** to zero (**0**).
    > [!NOTE]  
-   > If there are no entries for the application under **PackageList**, then the issue has some other cause.
+   >- If there are no entries for the application under **PackageList**, then the issue has some other cause.
+   >- In the case of the example event in this article, the full subkey is as follows:
+   >    ```
+   >    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus
+   >    ```
 1. Restart the computer.
 
 ## Related topics
