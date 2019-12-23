@@ -46,7 +46,7 @@ If your application does not host a DLL, extension, plug-in, or control panel, y
     To add the manifest as a resource, create a resource in the application of type RT\_MANIFEST id 1. For example, if the application's name is YourApp, the application's header file should contain the following:
 
     ``` syntax
-#define MANIFEST_RESOURCE_ID 1
+    #define MANIFEST_RESOURCE_ID 1
     MANIFEST_RESOURCE_ID RT_MANIFEST "YourApp.manifest"
     ```
 
