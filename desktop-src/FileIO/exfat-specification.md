@@ -3311,8 +3311,7 @@ a> defines its contents.</td>
 <td>LastModifiedTimestamp</td>
 <td>12</td>
 <td>4</td>
-<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-field
-s">Section 7.4.6</a> defines its contents.</td>
+<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-fields">Section 7.4.6</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>LastAccessedTimestamp</td>
@@ -3331,8 +3330,7 @@ a> defines its contents.</td>
 <td>LastModified10msIncrement</td>
 <td>21</td>
 <td>1</td>
-<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-field
-s">Section 7.4.6</a> defines its contents.</td>
+<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-fields">Section 7.4.6</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>CreateUtcOffset</td>
@@ -3345,8 +3343,7 @@ a> defines its contents.</td>
 <td>LastModifiedUtcOffset</td>
 <td>23</td>
 <td>1</td>
-<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-field
-s">Section 7.4.6</a> defines its contents.</td>
+<td>This field is mandatory and <a href="#746-lastmodifiedtimestamp-lastmodified10msincrement-and-lastmodifiedutcoffset-fields">Section 7.4.6</a> defines its contents.</td>
 </tr>
 <tr class="odd">
 <td>LastAccessedUtcOffset</td>
