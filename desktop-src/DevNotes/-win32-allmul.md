@@ -13,8 +13,6 @@ api_location:
 - ntoskrnl.exe
 api_name: 
 - _allmul
-product: 
-- Windows
 targetos: Windows
 ---
 

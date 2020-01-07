@@ -29,8 +29,6 @@ topic_type:
 api_type: 
 api_location: 
 api_name: 
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

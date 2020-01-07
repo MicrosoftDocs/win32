@@ -33,8 +33,6 @@ api_type:
 api_location: 
 api_name:
 - LsaManageSidNameMapping
-product:
-- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 

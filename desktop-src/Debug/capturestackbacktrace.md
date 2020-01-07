@@ -31,8 +31,6 @@ api_location:
 - API-MS-Win-Core-rtlsupport-l1-1-0.dll
 api_name:
 - CaptureStackBackTrace
-product:
-- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 
