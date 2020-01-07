@@ -27,7 +27,7 @@ For information about UI Automation for managed code, please see [Accessibility]
 
 ## Run-Time Requirements
 
-UI Automation is supported on the following operating systems: Windows XP, Windows Server 2003, Windows Server 2003 R2, Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2.
+UI Automation is supported on the following operating systems: Windows XP, Windows Server 2003, Windows Server 2003 R2, Windows Vista, Windows 7, Windows 10, Windows Server 2008, Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, and Windows Server 2019.
 
 > [!Note]  
 > Windows XP and Windows Server 2003 also require Microsoft .NET Framework 3.0.
