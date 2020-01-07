@@ -31,8 +31,6 @@ api_location:
 - c_g18030.dll
 api_name:
 - UnicodeToBytes
-product:
-- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 

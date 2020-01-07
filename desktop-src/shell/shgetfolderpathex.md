@@ -31,8 +31,6 @@ api_location:
 - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
 api_name:
 - SHGetFolderPathEx
-product:
-- Windows SDK
 targetos: Windows
 req.typenames: 
 req.redist: 

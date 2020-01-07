@@ -32,8 +32,6 @@ api_location:
  - api-ms-win-core-guard-l1-1-0.dll
 api_name:
  - GuardCheckLongJumpTarget
-product: 
- - Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
