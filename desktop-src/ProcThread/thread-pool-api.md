@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The thread pool application programming interface (API) uses an object-based design. Each of the following objects is represented by a user-mode data structure:
 
 -   A pool object is a set of worker threads that can be used to perform work. Each process can create multiple isolated pools with different characteristics as necessary. There is also a default pool for each process.
--   A clean-up group is associated with a set of callback-generating objects. Functions exists to wait on and release all objects that are members of each clean-up group. This frees the application from keeping track of all the objects it has created.
+-   A clean-up group is associated with a set of callback-generating objects. Functions exist to wait on and release all objects that are members of each clean-up group. This frees the application from keeping track of all the objects it has created.
 -   A work object is assigned to a pool and optionally to a clean-up group. It can be posted, causing a worker thread from the pool to execute its callback. A work object can have multiple posts outstanding; each generates a callback. The post operation cannot fail due to lack of resources.
 -   A timer object controls the scheduling of callbacks. Each time a timer expires, its callback is posted to its worker pool. Setting a timer cannot fail due to lack of resources.
 -   A wait object causes a waiter thread to wait on a waitable handle. After the wait is satisfied or the time-out period expires, the waiter thread posts the wait objects' callback to the wait's worker pool. Setting a wait cannot fail due to lack of resources.
