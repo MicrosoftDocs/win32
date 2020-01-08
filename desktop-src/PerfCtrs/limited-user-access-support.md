@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Limited User Access Support
 
-Only the administrator of the computer or users in the Performance Logs User Group can log and view counter data. Users in the Administrator group can log and view counter data only if the tool they use to log and view counter data is started from a Command Prompt window that is opened with **Run as administrator...**. Users in the Performance Monitoring Users group can view counter data.
+Only the administrator of the computer or users in the Performance Logs User Group can log counter data. Users in the Administrator group can log counter data only if the tool they use to log counter data is started from a Command Prompt window that is opened with **Run as administrator...**. Any users in interactive logon sessions can view counter data. However, users in non-interactive logon sessions must be in the Performance Monitoring Users group to view counter data.
 
 **Windows XP:** The Administrator or users in the Administrator group can log and view counter data without restriction.
 
