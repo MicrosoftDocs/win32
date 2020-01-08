@@ -21,10 +21,10 @@ Creates a copy of a composition surface, for use with a swap chain.
 
 ```cpp
 HRESULT CopySurface(
-  IUnknown* destinationResource,
-  int destinationOffsetX,
-  int destinationOffsetY,
-  const RECT * sourceRectangle
+  IUnknown   *destinationResource,
+  int        destinationOffsetX,
+  int        destinationOffsetY,
+  const RECT *sourceRectangle
 );
 ```
 
@@ -63,6 +63,12 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## Remarks
 
 This interface is available on Windows 10, version 1903 (10.0; Build 18362), but it is not defined in the `windows.ui.composition.interop.h` header file for that version of the Windows Software Development Kit (SDK). If you first obtain a pointer to an [ICompositionDrawingSurfaceInterop](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop) interface, you can then query that (via [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void))) for a pointer to an [ICompositionDrawingSurfaceInterop2](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2) interface.
+
+## Requirements
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Target Platform** | Windows |
+| **Header** | windows.ui.composition.interop.h |
 
 ## See also
 
