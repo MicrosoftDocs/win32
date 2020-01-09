@@ -1,6 +1,6 @@
 ---
 title: ICompositionDrawingSurfaceInterop2
-description: A native interoperation interface that allows you to copy a surface object.
+description: A native interoperation interface that allows you to read back the contents of a composition drawing surface (or a composition virtual drawing surface).
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 01/07/2020
@@ -16,13 +16,14 @@ ms.date: 01/07/2020
 
 ## Description
 
-A native interoperation interface that allows you to copy a surface object. This interface is available in C++ only.
+A native interoperation interface that allows you to read back the contents of a composition drawing surface (or a composition virtual drawing surface). This interface is available in C++ only.
 
 **ICompositionDrawingSurfaceInterop2** inherits from the [ICompositionDrawingSurfaceInterop](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop) interface.
 
 ## Remarks
 
-This interface is available on Windows 10, version 1903 (10.0; Build 18362), but it is not defined in the `windows.ui.composition.interop.h` header file for that version of the Windows Software Development Kit (SDK). If you first obtain a pointer to an [ICompositionDrawingSurfaceInterop](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop) interface, you can then query that (via [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void))) for a pointer to an **ICompositionDrawingSurfaceInterop2** interface.
+> [!NOTE]
+> This interface is available on Windows 10, version 1903 (10.0; Build 18362), but it is not defined in the `windows.ui.composition.interop.h` header file for that version of the Windows Software Development Kit (SDK). If you first obtain a pointer to an [ICompositionDrawingSurfaceInterop](/windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop) interface, you can then query that (via [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void))) for a pointer to an **ICompositionDrawingSurfaceInterop2** interface.
 
 ## Requirements
 | &nbsp; | &nbsp; |
