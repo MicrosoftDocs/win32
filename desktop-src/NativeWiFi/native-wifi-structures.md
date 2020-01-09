@@ -1,12 +1,12 @@
 ---
 Description: The Native Wifi interface defines and uses the following structures.
 ms.assetid: b94ff899-2350-4f8b-b096-9d1c73e2b492
-title: Native Wifi Structures
+title: Native Wifi structures
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Native Wifi Structures
+# Native Wifi structures
 
 The Native Wifi interface defines and uses the following structures.
 
@@ -33,6 +33,8 @@ The Native Wifi interface defines and uses the following structures.
 -   [**WLAN\_CONNECTION\_NOTIFICATION\_DATA**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_notification_data)
 -   [**WLAN\_CONNECTION\_PARAMETERS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters)
 -   [**WLAN\_COUNTRY\_OR\_REGION\_STRING\_LIST**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list)
+-   [**WLAN_DEVICE_SERVICE_GUID_LIST**](/windows/win32/api/wlanapi/ns-wlanapi-wlan_device_service_guid_list)
+-   [**WLAN_DEVICE_SERVICE_NOTIFICATION_DATA**](/windows/win32/api/wlanapi/ns-wlanapi-wlan_device_service_notification_data)
 -   [**WLAN\_HOSTED\_NETWORK\_CONNECTION\_SETTINGS**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_connection_settings)
 -   [**WLAN\_HOSTED\_NETWORK\_DATA\_PEER\_STATE\_CHANGE**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change)
 -   [**WLAN\_HOSTED\_NETWORK\_PEER\_STATE**](/windows/desktop/api/Wlanapi/ns-wlanapi-wlan_hosted_network_peer_state)
@@ -57,10 +59,3 @@ The Native Wifi interface defines and uses the following structures.
 -   [**WLAN\_REASON\_CODE**](wlan-reason-code.md)
 -   [**WLAN\_SECURITY\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_security_attributes)
 -   [**WLAN\_STATISTICS**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_statistics)
-
- 
-
- 
-
-
-
