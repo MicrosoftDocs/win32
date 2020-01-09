@@ -22,7 +22,7 @@ Text Services Framework is designed for use by Component Object Model (COM) prog
 
 ## Run-time requirements
 
-Text Services Framework is available as a redistributable for Windows 2000. For more information about the requirements of specific API elements, see the Requirements section in the reference documentation. To download the latest redistributable, go to [Windows Server 2003 SP1 Platform SDK](https://www.microsoft.com/downloads/details.aspx?FamilyId=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5).
+Text Services Framework is available as a redistributable for Windows 2000. For more information about the requirements of specific API elements, see the Requirements section in the reference documentation.
 
 ## In this section
 
