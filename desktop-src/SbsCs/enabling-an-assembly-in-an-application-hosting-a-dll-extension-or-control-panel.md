@@ -51,14 +51,14 @@ The following method can be used to add a manifest to an application or a hosted
     For example, if the application's name is YourApp, the application should contain the following:
 
     ``` syntax
-#define MANIFEST_RESOURCE_ID 2
+    #define MANIFEST_RESOURCE_ID 2
     MANIFEST_RESOURCE_ID RT_MANIFEST "YourApp.manifest"
     ```
 
 3.  Compile the application with the -DISOLATION\_AWARE\_ENABLED flag, or insert this statement before the \#include "Windows.h" statement. In the case of an application with multiple modules, the -DISOLATION\_AWARE\_ENABLED flag is required on all modules.
 
     ``` syntax
-#define ISOLATION_AWARE_ENABLED 1
+    #define ISOLATION_AWARE_ENABLED 1
     ```
 
 4.  Test to ensure that assemblies that are used by the application work correctly in the application and hosted component.
