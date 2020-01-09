@@ -16,7 +16,7 @@ A *device* is an abstraction that represents whatever actually draws the pixels.
 
 A *resource* is an object that the program uses for drawing. Here are some examples of resources that are defined in Direct2D:
 
--   **Brush**. Controls how lines and regions are painted. Brush types include solid-color brushes and gradiant brushes.
+-   **Brush**. Controls how lines and regions are painted. Brush types include solid-color brushes and gradient brushes.
 -   **Stroke style**. Controls the appearance of a line—for example, dashed or solid.
 -   **Geometry**. Represents a collection of lines and curves.
 -   **Mesh**. A shape formed out of triangles. Mesh data can be consumed directly by the GPU, unlike geometry data, which must be converted before rendering.
