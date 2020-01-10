@@ -1,8 +1,8 @@
 ---
 Description: The following table lists all HRESULT values that can be returned by the methods in the XPS Digital Signature API.
 ms.assetid: d20707b0-55ea-438a-8ce3-972c61678928
-title: XPS Digital Signature API Errors
-ms.topic: article
+title: XPS Digital Signature API Errors (Xpsdigitalsignature.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -48,7 +48,7 @@ Some XPS digital signature API methods make calls to the [Packaging](https://doc
 
 <dl> <dt>
 
-[Error Handling in COM](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx)
+[Error Handling in COM](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx)
 </dt> <dt>
 
 [Packaging Errors](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors)

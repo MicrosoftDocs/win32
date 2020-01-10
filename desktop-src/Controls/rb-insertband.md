@@ -1,5 +1,5 @@
 ---
-title: RB_INSERTBAND message
+title: RB_INSERTBAND message (Commctrl.h)
 description: Inserts a new band in a rebar control.
 ms.assetid: ac621f65-b8ab-41d6-928d-a48fbea572e7
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

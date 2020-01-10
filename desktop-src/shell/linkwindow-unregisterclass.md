@@ -2,7 +2,7 @@
 Description: Unregisters a window class registered by LinkWindow\_RegisterClass.
 ms.assetid: 9e5c4326-efd1-43ca-a087-a436fe3f9bbd
 title: LinkWindow_UnregisterClass function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ Returns **TRUE** if the operation was successful; **FALSE** otherwise.
 
 ## Remarks
 
-This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) with the DLL name Shell32.dll to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) with that module handle and the ordinal number 259 to use this function.
+This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) with the DLL name Shell32.dll to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) with that module handle and the ordinal number 259 to use this function.
 
 ## Requirements
 

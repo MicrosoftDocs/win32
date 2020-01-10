@@ -2,8 +2,8 @@
 Description: The Instances\_ method of the SWbemObject object creates an enumerator that returns the instances of the current class object. This method implements a simple query. More complex queries may require the use of SWbemServices.ExecQuery.
 ms.assetid: 30402d7d-f7cb-43b5-96b5-a8a76144e32d
 ms.tgt_platform: multiple
-title: SWbemObject.Instances_ method
-ms.topic: article
+title: SWbemObject.Instances_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

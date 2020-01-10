@@ -1,8 +1,8 @@
 ---
 Description: The ReconnectPin method breaks an existing pin connection and reconnects it to the same pin, using a specified media type.
 ms.assetid: 9e2dea49-a2bd-4abd-b896-54b13b2271bb
-title: CBaseFilter.ReconnectPin method
-ms.topic: article
+title: CBaseFilter.ReconnectPin method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

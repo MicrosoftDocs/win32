@@ -1,8 +1,8 @@
 ---
 Description: Sets an event key that changes the local time of an animation track.
 ms.assetid: b527e960-8ab9-42a0-bb4d-bea5aaf83424
-title: ID3DXAnimationController::KeyTrackPosition method
-ms.topic: article
+title: ID3DXAnimationController::KeyTrackPosition method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ D3DXEVENTHANDLE KeyTrackPosition(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Identifier of the track to modify.
 
@@ -49,7 +49,7 @@ Identifier of the track to modify.
 *NewPosition* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 New local time of the animation track.
 
@@ -58,7 +58,7 @@ New local time of the animation track.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Global time key. Specifies the global time when the change will take place.
 

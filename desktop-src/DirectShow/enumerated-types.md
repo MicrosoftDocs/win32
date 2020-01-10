@@ -1,7 +1,7 @@
 ---
 Description: Enumerated Types
 ms.assetid: 'b32fab05-1bf0-43e9-8047-2a07231e01f7'
-title: Enumerated Types
+title: Enumerated Types (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---

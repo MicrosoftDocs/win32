@@ -33,7 +33,7 @@ rc.bottom = GetSystemMetrics (SM_CYSCREEN);
 
 
 
-To change the work area of a monitor, call [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) with SPI\_SETWORKAREA and *pvParam* pointing to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure that is on the desired monitor. If *pvParam* is **NULL**, the work area of the primary monitor is modified. Using SPI\_GETWORKAREA always returns the work area of the primary monitor. To get the work area of a monitor other than the primary monitor, call [**GetMonitorInfo**](/windows/desktop/api/Winuser/nf-winuser-getmonitorinfoa).
+To change the work area of a monitor, call [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) with SPI\_SETWORKAREA and *pvParam* pointing to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure that is on the desired monitor. If *pvParam* is **NULL**, the work area of the primary monitor is modified. Using SPI\_GETWORKAREA always returns the work area of the primary monitor. To get the work area of a monitor other than the primary monitor, call [**GetMonitorInfo**](/windows/desktop/api/Winuser/nf-winuser-getmonitorinfoa).
 
  
 

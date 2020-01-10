@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMFLOAT3PK.
 ms.assetid: da9f468c-6545-4535-a77c-96ae897c16de
 title: XMFLOAT3PK constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMFLOAT3PK`.
 
-Constructs instances of the [**XMFLOAT3PK**](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT3PK**](https://msdn.microsoft.com/library/Ee419478(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -91,7 +91,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3PK**](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx)
+[**XMFLOAT3PK**](https://msdn.microsoft.com/library/Ee419478(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: TB_GETPADDING message
+title: TB_GETPADDING message (Commctrl.h)
 description: Retrieves the padding for a toolbar control.
 ms.assetid: dde0f44d-5d22-4cab-a7f8-48d84b8995d3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

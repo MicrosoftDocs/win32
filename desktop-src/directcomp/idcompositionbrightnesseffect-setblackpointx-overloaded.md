@@ -1,5 +1,5 @@
 ---
-title: idcompositionbrightnesseffect SetBlackPointX methods
+title: idcompositionbrightnesseffect SetBlackPointX methods (Dcomp.h)
 description: Sets the x value of the black point.
 ms.assetid: 05fc473f-4dc6-b64d-830e-4153b1e0e392
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionbrightnesseffect::SetBlackPointX methods
@@ -24,8 +24,8 @@ Sets the x value of the black point.
 
 | Method                                                                                               | Description                                     |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetBlackPointX**](https://msdn.microsoft.com/en-us/library/Dn919713(v=VS.85).aspx)                               | Sets the x value of the black point.<br/> |
-| [**SetBlackPointX (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919714(v=VS.85).aspx) | Sets the x value of the black point.<br/> |
+| [**SetBlackPointX**](https://msdn.microsoft.com/library/Dn919713(v=VS.85).aspx)                               | Sets the x value of the black point.<br/> |
+| [**SetBlackPointX (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919714(v=VS.85).aspx) | Sets the x value of the black point.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the x value of the black point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx)
+[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/library/Dn919711(v=VS.85).aspx)
 </dt> </dl>
 
 �

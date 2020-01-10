@@ -1,8 +1,8 @@
 ---
 Description: Applications use the methods of the ID3DXMesh interface to manipulate mesh objects.
 ms.assetid: f571fe0b-3f0c-43c9-809c-d1e14f85b720
-title: ID3DXMesh interface
-ms.topic: interface
+title: ID3DXMesh interface (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

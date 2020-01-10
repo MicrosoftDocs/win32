@@ -12,7 +12,7 @@ api_name:
 - BasicDevice.add_ConnectionStatusChanged
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -40,7 +40,7 @@ HRESULT add_ConnectionStatusChanged(
 *handler* \[in\]
 </dt> <dd>
 
-A [**ConnectionStatusHandler**](https://msdn.microsoft.com/en-us/library/Hh828836(v=VS.85).aspx) event handler function.
+A [**ConnectionStatusHandler**](https://msdn.microsoft.com/library/Hh828836(v=VS.85).aspx) event handler function.
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ To unregister the event handler that was registered by this method, pass the *to
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

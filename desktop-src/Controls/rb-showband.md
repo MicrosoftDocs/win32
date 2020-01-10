@@ -1,5 +1,5 @@
 ---
-title: RB_SHOWBAND message
+title: RB_SHOWBAND message (Commctrl.h)
 description: Shows or hides a given band in a rebar control.
 ms.assetid: 18097aca-e1b4-4359-9d08-4e62406f3f7f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

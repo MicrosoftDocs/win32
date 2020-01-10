@@ -1,7 +1,7 @@
 ---
 Description: Exposes methods that allow a Shell extension to provide a searchable namespace.
 title: IShellFolderSearchable interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -31,7 +31,7 @@ Exposes methods that allow a Shell extension to provide a searchable namespace.
 
 ## Members
 
-The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchable** also has these types of members:
+The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchable** also has these types of members:
 
 -   [Methods](#methods)
 

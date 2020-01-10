@@ -1,12 +1,12 @@
 ---
-title: Strings
+title: string attribute (RPC)
 description: The \ string\ attribute and Remote Procedure Call (RPC).
 ms.assetid: '794e03f2-b1e9-42dc-8536-9ced5c0e3dad'
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Strings
+# string attribute (RPC)
 
 The \[ [string](https://docs.microsoft.com/windows/desktop/Midl/string)\] attribute indicates that the parameter is a pointer to an array of type [char](https://docs.microsoft.com/windows/desktop/Midl/char-idl), [byte](https://docs.microsoft.com/windows/desktop/Midl/byte), or **w\_char**. As with a conformant array, the size of a **\[string\]** parameter is determined at run time. Unlike a conformant array, the developer does not have to provide the length associated with the array—the **\[string\]** attribute tells the stub to determine the array size by calling **strlen**. A **\[string\]** attribute cannot be used at the same time as the \[ [length\_is](https://docs.microsoft.com/windows/desktop/Midl/length-is)\] or \[ [last\_is](https://docs.microsoft.com/windows/desktop/Midl/last-is)\] attributes.
 

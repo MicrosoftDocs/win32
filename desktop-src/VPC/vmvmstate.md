@@ -1,5 +1,5 @@
 ---
-title: VMVMState enumeration
+title: VMVMState enumeration (VPCCOMInterfaces.h)
 description: Specifies the state of a virtual machine.
 ms.assetid: 952dab9d-3d38-4cc5-ab75-4ee5096f7923
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

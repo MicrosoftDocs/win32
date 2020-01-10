@@ -1,8 +1,8 @@
 ---
 Description: Sets a non-transposed matrix.
 ms.assetid: 90329460-756e-4b3e-9ff3-be9dc556eb9f
-title: ID3DXBaseEffect::SetMatrix method
-ms.topic: article
+title: ID3DXBaseEffect::SetMatrix method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a nontransposed matrix. See [**D3DXMATRIX**](d3dxmatrix.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -1,8 +1,8 @@
 ---
 Description: Scale the plane with the given scaling factor.
 ms.assetid: 3a0454ef-2821-472f-b7a4-5e49bb5f556e
-title: D3DXPlaneScale function
-ms.topic: article
+title: D3DXPlaneScale function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Pointer to the source [**D3DXPLANE**](d3dxplane.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scale factor.
 

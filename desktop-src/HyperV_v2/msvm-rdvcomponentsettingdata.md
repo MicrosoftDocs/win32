@@ -2,7 +2,7 @@
 Description: Represents the configured state of the Remote Desktop Virtualization (RDV) component. The default state is Enabled.
 ms.assetid: 058432d7-4439-47ec-9909-82a405d69a6e
 title: Msvm_RdvComponentSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

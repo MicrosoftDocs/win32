@@ -1,8 +1,8 @@
 ---
 Description: Specifies the y-coordinate of the upper-left corner of the minimum display aperture.
 ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
-title: MFPKEY_RESIZE_MINAPY Property
-ms.topic: article
+title: MFPKEY_RESIZE_MINAPY Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the y-coordinate of the upper-left corner of the minimum display apert
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

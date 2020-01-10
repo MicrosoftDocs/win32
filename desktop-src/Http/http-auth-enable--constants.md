@@ -1,5 +1,5 @@
 ---
-title: HTTP_AUTH_ENABLE_ Constants
+title: HTTP_AUTH_ENABLE_ Constants (Http.h)
 description: Define authentication schemes that can be enabled on a URL Group.
 ms.assetid: db22645f-c9e4-427e-b3d5-91d568aec7c5
 topic_type:
@@ -17,7 +17,7 @@ api_location:
 - http.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

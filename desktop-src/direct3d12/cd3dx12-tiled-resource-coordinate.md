@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_TILED_RESOURCE_COORDINATE structure
+title: CD3DX12_TILED_RESOURCE_COORDINATE structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_TILED\_RESOURCE\_COORDINATE structure.
 ms.assetid: B337ED04-E2C6-4B89-80F1-92C0854A6AF2
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

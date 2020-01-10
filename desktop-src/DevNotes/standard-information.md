@@ -2,7 +2,7 @@
 Description: Contains the standard information attribute. This attribute is present in every base file record and must be resident.
 ms.assetid: 8e668309-2722-4115-923d-bf0aa78d24f1
 title: STANDARD_INFORMATION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ The security identifier for the file.
 
 Note that there is no associated header file for this structure.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
 
 ## See also
 

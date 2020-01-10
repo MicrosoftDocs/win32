@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: RWStructuredBuffer::Operator  function
 description: Returns a resource variable.
 ms.assetid: e821b60e-38db-463f-b0c6-47f2a4c9ccee
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

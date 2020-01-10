@@ -1,5 +1,5 @@
 ---
-title: TB_GETRECT message
+title: TB_GETRECT message (Commctrl.h)
 description: Retrieves the bounding rectangle for a specified toolbar button.
 ms.assetid: a93885eb-7eb7-4434-ad51-80fb30d3bfa1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

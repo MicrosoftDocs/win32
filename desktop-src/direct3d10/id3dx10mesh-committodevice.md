@@ -1,8 +1,8 @@
 ---
 Description: Commit any changes made to a mesh to the device so that the changes can be rendered. This should be called after a mesh's data is altered and before it is rendered. A mesh cannot be rendered unless it is committed to the device. See remarks.
 ms.assetid: 26927553-d1d8-4745-85ad-a8a6fe949306
-title: ID3DX10Mesh::CommitToDevice method
-ms.topic: article
+title: ID3DX10Mesh::CommitToDevice method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

@@ -3,7 +3,7 @@ Description: A matrix for transforming from object-space to world-space.
 ms.assetid: 
 title: ObjectToWorld3x4
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

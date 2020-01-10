@@ -1,16 +1,16 @@
 ---
 Description: Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the SetWindowPos function or another window-management function.
 ms.assetid: 1eabd0b1-1f92-4576-b7fb-8af50fb04526
-title: WM_WINDOWPOSCHANGED message
-ms.topic: article
+title: WM_WINDOWPOSCHANGED message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # WM\_WINDOWPOSCHANGED message
 
-Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the [**SetWindowPos**](https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx) function or another window-management function.
+Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the [**SetWindowPos**](https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx) function or another window-management function.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -33,7 +33,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**WINDOWPOS**](https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx) structure that contains information about the window's new size and position.
+A pointer to a [**WINDOWPOS**](https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx) structure that contains information about the window's new size and position.
 
 </dd> </dl>
 
@@ -45,7 +45,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function sends the [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages to the window. The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**. It is more efficient to perform any move or size change processing during the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
+By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function sends the [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages to the window. The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**. It is more efficient to perform any move or size change processing during the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 
 ## Requirements
 
@@ -66,16 +66,16 @@ By default, the [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms6
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**EndDeferWindowPos**](https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx)
+[**EndDeferWindowPos**](https://msdn.microsoft.com/library/ms633440(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetWindowPos**](https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx)
+[**SetWindowPos**](https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx)
 </dt> <dt>
 
-[**WINDOWPOS**](https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx)
+[**WINDOWPOS**](https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MOVE**](wm-move.md)

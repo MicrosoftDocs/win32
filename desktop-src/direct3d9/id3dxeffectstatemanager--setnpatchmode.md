@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set the number of subdivision segments for N-patches.
 ms.assetid: f94910ee-3385-44d3-b4f1-a0e88c7afa39
-title: ID3DXEffectStateManager::SetNPatchMode method
-ms.topic: article
+title: ID3DXEffectStateManager::SetNPatchMode method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -38,7 +38,7 @@ HRESULT SetNPatchMode(
 *nSegments* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Break the surface into this number of subdivisions. This is the same as the number used by [**IDirect3DDevice9::SetNPatchMode**](https://msdn.microsoft.com/library/Bb174438(v=VS.85).aspx).
 
@@ -46,7 +46,7 @@ Break the surface into this number of subdivisions. This is the same as the numb
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

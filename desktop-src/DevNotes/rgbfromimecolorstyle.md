@@ -2,7 +2,7 @@
 Description: Converts an IMECOLORSTY structure to a COLORREF structure.
 ms.assetid: f7a3eab0-16ca-4c4e-9eda-bead8d1a91b8
 title: RGBFromIMEColorStyle function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # RGBFromIMEColorStyle function
 
-Converts an **IMECOLORSTY** structure to a [**COLORREF**](https://msdn.microsoft.com/en-us/library/Dd183449(v=VS.85).aspx) structure.
+Converts an **IMECOLORSTY** structure to a [**COLORREF**](https://msdn.microsoft.com/library/Dd183449(v=VS.85).aspx) structure.
 
 ## Syntax
 
@@ -43,11 +43,11 @@ An **IMECOLORSTY** structure returned from a [**PColorStyleBackFromIMEStyle**](p
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/en-us/library/Dd183449(v=VS.85).aspx) structure.
+Returns a [**COLORREF**](https://msdn.microsoft.com/library/Dd183449(v=VS.85).aspx) structure.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 
@@ -63,7 +63,7 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**COLORREF**](https://msdn.microsoft.com/en-us/library/Dd183449(v=VS.85).aspx)
+[**COLORREF**](https://msdn.microsoft.com/library/Dd183449(v=VS.85).aspx)
 </dt> <dt>
 
 [**PColorStyleBackFromIMEStyle**](pcolorstylebackfromimestyle.md)

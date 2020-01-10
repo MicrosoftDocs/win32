@@ -1,5 +1,5 @@
 ---
-title: MCI_MARK command
+title: MCI_MARK command (Mmsystem.h)
 description: The MCI\_MARK command records or erases marks that can be used with the MCI\_SEEK command for high-speed searches. VCR devices recognize this command.
 ms.assetid: 69b17e5b-99a1-4fb9-bc0e-30e772c1f11f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_MARK command records or erases marks that can be used with the [MCI\_SEEK](mci-seek.md) command for high-speed searches. VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

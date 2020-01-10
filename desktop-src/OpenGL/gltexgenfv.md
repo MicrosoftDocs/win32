@@ -1,5 +1,5 @@
 ---
-title: glTexGenfv function
+title: glTexGenfv function (Gl.h)
 description: Controls the generation of texture coordinates.
 ms.assetid: d5454d6f-16bb-47d9-9c52-da2daf491224
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

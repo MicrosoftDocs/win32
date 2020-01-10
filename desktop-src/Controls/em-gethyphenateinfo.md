@@ -1,5 +1,5 @@
 ---
-title: EM_GETHYPHENATEINFO message
+title: EM_GETHYPHENATEINFO message (Richedit.h)
 description: Retrieves information about hyphenation for a Microsoft Rich Edit control.
 ms.assetid: 70ccb698-e440-493b-8f38-2bf7f32e4b26
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

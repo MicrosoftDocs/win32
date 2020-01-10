@@ -1,8 +1,8 @@
 ---
 Description: Indicates the reason a WLAN operation has failed.
 ms.assetid: 7b267f0b-b3f7-4729-bab4-de3bdd0a35a2
-title: WLAN_REASON_CODE
-ms.topic: article
+title: WLAN_REASON_CODE (Wlanapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

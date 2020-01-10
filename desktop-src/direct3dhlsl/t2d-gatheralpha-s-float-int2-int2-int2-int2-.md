@@ -1,5 +1,5 @@
 ---
-title: GatherAlpha(S,float,int2,int2,int2,int2) function
+title: Texture2D::GatherAlpha(S,float,int2,int2,int2,int2) function
 description: Samples a texture and returns the alpha component.
 ms.assetid: 925A5085-33CB-4DFC-B4E3-1ADA5892C13A
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherAlpha
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

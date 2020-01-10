@@ -1,5 +1,5 @@
 ---
-title: XTYP_CONNECT_CONFIRM transaction
+title: XTYP_CONNECT_CONFIRM transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives the XTYP\_CONNECT\_CONFIRM transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle.
 ms.assetid: 4db67539-9322-44d7-bf2b-749bd6cfcbb4
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_CONNECT\_CONFIRM transaction
 
-A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_CONNECT\_CONFIRM** transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle. The system sends this transaction as a result of a previous [**XTYP\_CONNECT**](xtyp-connect.md) or [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction.
+A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_CONNECT\_CONFIRM** transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle. The system sends this transaction as a result of a previous [**XTYP\_CONNECT**](xtyp-connect.md) or [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction.
 
 
 ```C++

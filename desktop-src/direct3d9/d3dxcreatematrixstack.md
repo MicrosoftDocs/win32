@@ -1,8 +1,8 @@
 ---
 Description: Creates an instance of the ID3DXMATRIXStack interface.
 ms.assetid: bb067b38-efc6-4ed8-9eef-14b3cc70660f
-title: D3DXCreateMatrixStack function
-ms.topic: article
+title: D3DXCreateMatrixStack function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT D3DXCreateMatrixStack(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Not implemented. Specify zero.
 
@@ -56,7 +56,7 @@ Address of a pointer filled with an [**ID3DXMATRIXStack**](id3dxmatrixstack.md) 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

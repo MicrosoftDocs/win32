@@ -1,5 +1,5 @@
 ---
-title: TBN_SAVE notification code
+title: TBN_SAVE notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that a toolbar is in the process of being saved. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 31622f5e-2e33-4a42-8c49-cc3028a6fa62
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: glGetBooleanv function
+title: glGetBooleanv function (Gl.h)
 description: The glGetBooleanv function returns the value or values of a selected parameter.
 ms.assetid: dda38a63-9cf6-46f4-9b7a-52ee4fe2a5e1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

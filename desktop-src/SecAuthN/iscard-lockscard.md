@@ -1,8 +1,8 @@
 ---
 Description: The LockSCard method claims exclusive access to the smart card.
 ms.assetid: 70af7c5a-ebe7-48ee-8a76-dfea7f73f45e
-title: ISCard::LockSCard method
-ms.topic: article
+title: ISCard::LockSCard method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::LockSCard method
 
-\[The **LockSCard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **LockSCard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **LockSCard** method claims exclusive access to the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **LockSCard** method claims exclusive access to the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 

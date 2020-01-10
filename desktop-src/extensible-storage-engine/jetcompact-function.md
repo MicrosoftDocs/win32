@@ -5,7 +5,7 @@ ms:assetid: 6944bd61-893d-4269-869b-56590e22580a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269284(v=EXCHG.10)
 ms:contentKeyID: 32765576
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCompactW
 - JetCompactA

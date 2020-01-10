@@ -1,8 +1,8 @@
 ---
 Description: Retrieves texel barycentric coordinates.
 ms.assetid: f380a37f-b9c1-4433-b1d6-e9feeca79b30
-title: ID3DXTextureGutterHelper::GetBaryMap method
-ms.topic: article
+title: ID3DXTextureGutterHelper::GetBaryMap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure that contains the first
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

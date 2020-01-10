@@ -1,8 +1,8 @@
 ---
 Description: Specifies protection is disabled.
 ms.assetid: 1ED6587A-8880-4DC7-90DA-D6AC9EDFEEB5
-title: MFPROTECTION_DISABLE attribute
-ms.topic: article
+title: MFPROTECTION_DISABLE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

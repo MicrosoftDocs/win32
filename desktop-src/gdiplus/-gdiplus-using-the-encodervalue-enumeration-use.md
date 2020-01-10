@@ -124,7 +124,7 @@ Parameter[0]
 
 
 
-You can look up the GUID in Gdiplusimaging.h and find out that the category of this [**EncoderParameter**](https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx) object is EncoderTransformation. In Gdiplusenums.h, the [**EncoderParameterValueType**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encoderparametervaluetype) enumeration indicates that data type 4 is ValueLong (32-bit unsigned integer). The number of values is five, so we know that the **Value** member of the **EncoderParameter** object is a pointer to an array of five **ULONG** values.
+You can look up the GUID in Gdiplusimaging.h and find out that the category of this [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object is EncoderTransformation. In Gdiplusenums.h, the [**EncoderParameterValueType**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encoderparametervaluetype) enumeration indicates that data type 4 is ValueLong (32-bit unsigned integer). The number of values is five, so we know that the **Value** member of the **EncoderParameter** object is a pointer to an array of five **ULONG** values.
 
 The following code is a continuation of the console application that is shown in the preceding example. The code lists the allowable values for an EncoderTransformation parameter:
 

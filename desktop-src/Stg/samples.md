@@ -1,5 +1,5 @@
 ---
-title: Samples
+title: Samples (Structured Storage)
 description: Several sample applications are included with the Structured Storage documentation.
 ms.assetid: '0c48da47-b718-48fe-8ad0-39686bb83283'
 keywords:

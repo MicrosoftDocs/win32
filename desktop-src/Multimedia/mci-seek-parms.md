@@ -1,5 +1,5 @@
 ---
-title: MCI_SEEK_PARMS structure
+title: MCI_SEEK_PARMS structure (Mciapi.h)
 description: The MCI\_SEEK\_PARMS structure contains positioning information for the MCI\_SEEK command.
 ms.assetid: 2c199855-2134-4709-9313-5b8d66ce4f03
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -52,7 +52,7 @@ Position to seek to.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -79,7 +79,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SEEK**](mci-seek.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: ICM_GETINFO message
+title: ICM_GETINFO message (Vfw.h)
 description: The ICM\_GETINFO message queries a video compression driver to return a description of itself in an ICINFO structure.
 ms.assetid: 8029f247-9777-4a34-9e84-908482094493
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

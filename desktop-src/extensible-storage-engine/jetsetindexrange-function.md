@@ -5,7 +5,7 @@ ms:assetid: dac99576-707d-4713-9825-ddad1980723e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294112(v=EXCHG.10)
 ms:contentKeyID: 32765726
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetSetIndexRange
 topic_type: 

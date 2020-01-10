@@ -1,7 +1,7 @@
 ---
 Description: The pluggable terminals are classified into Terminal Superclasses.
 ms.assetid: 0ab2896e-3634-47f7-b1f4-e7d1ffcb3592
-title: Registry Entries
+title: Registry Entries (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -23,7 +23,7 @@ The entry for each Terminal Superclass is identified by a Terminal Superclass CL
 | Name           | REG\_SZ  | Terminal friendly name                                                            |
 | Company        | REG\_SZ  | Company name                                                                      |
 | Version        | REG\_SZ  | Version information                                                               |
-| CLSID          | REG\_SZ  | Terminal CLSID (used in COM [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) method) |
+| CLSID          | REG\_SZ  | Terminal CLSID (used in COM [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method) |
 | Directions     | DWORD    | Terminal direction                                                                |
 | MediaTypes     | DWORD    | Terminal media types supported                                                    |
 

@@ -1,5 +1,5 @@
 ---
-title: Global Attributes
+title: Global Attributes (Windows Media Player SDK)
 description: Global Attributes
 ms.assetid: 2ed09506-990e-4da2-89d6-6ff77dc43eb2
 keywords:

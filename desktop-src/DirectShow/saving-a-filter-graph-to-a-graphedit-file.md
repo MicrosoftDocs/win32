@@ -88,7 +88,7 @@ void __cdecl main(void)
 [Simulating Graph Building with GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
-[**StgCreateDocfile**](https://msdn.microsoft.com/en-us/library/Aa380323(v=VS.85).aspx)
+[**StgCreateDocfile**](https://msdn.microsoft.com/library/Aa380323(v=VS.85).aspx)
 </dt> </dl>
 
  

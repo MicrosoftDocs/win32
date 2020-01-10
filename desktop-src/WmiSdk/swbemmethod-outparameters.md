@@ -2,8 +2,8 @@
 Description: The OutParameters property of the SWbemMethod object is an SWbemObject object whose properties define the out parameters and return type of this method. This property is read-only.
 ms.assetid: ae7774f7-8a53-44e4-a110-2aef9ae4037f
 ms.tgt_platform: multiple
-title: SWbemMethod.OutParameters property
-ms.topic: article
+title: SWbemMethod.OutParameters property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

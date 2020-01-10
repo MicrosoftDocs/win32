@@ -1,5 +1,5 @@
 ---
-title: WM_HSCROLL (Trackbar) notification code
+title: WM_HSCROLL (Trackbar) notification code (Winuser.h)
 description: The WM\_HSCROLL message is sent to the owner of a horizontal trackbar control when the slider changes position. A window receives this message through its WindowProc function.
 ms.assetid: EC4AF407-E13F-4562-A0A6-FA109C15101B
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable SetSampler method
+title: ID3DX11EffectSamplerVariable SetSampler method (D3dx11effect.h)
 description: Set sampler state.
 ms.assetid: 1826923d-d770-4d79-818a-a42a279f0a8c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ Pointer to an [**ID3D11SamplerState**](/windows/desktop/api/D3D11/nn-d3d11-id3d1
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

@@ -1,8 +1,8 @@
 ---
 Description: Describes the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
 ms.assetid: 1CB91DD9-5B58-4FE0-B7B0-E6189760511A
-title: WFD_DISPLAY_SINK_NOTIFICATION structure
-ms.topic: structure
+title: WFD_DISPLAY_SINK_NOTIFICATION structure (Wfdsink.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

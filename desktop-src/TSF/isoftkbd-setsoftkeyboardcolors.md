@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SetSoftKeyboardColors method
+title: ISoftKbd SetSoftKeyboardColors method (Softkbdc.h)
 description: The ISoftKbd SetSoftKeyboardColors method sets the soft keyboard color for the specified color type.
 ms.assetid: 1abbff35-a5ef-4119-9367-60b6e0961c59
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

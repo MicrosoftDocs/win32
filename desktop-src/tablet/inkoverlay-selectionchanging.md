@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the selection of ink within the control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: dffdb183-d363-40d3-81a2-d496433f7075
-title: InkOverlay.SelectionChanging event
-ms.topic: article
+title: InkOverlay.SelectionChanging event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -28,7 +28,7 @@ void SelectionChanging(
 *NewSelection* \[in\]
 </dt> <dd>
 
-The new collection of [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) that is being selected.
+The new collection of [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) that is being selected.
 
 </dd> </dl>
 

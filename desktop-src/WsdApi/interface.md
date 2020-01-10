@@ -2,7 +2,7 @@
 Description: The name of the interface to be returned by QueryInterface.
 ms.assetid: 3db34c89-a97d-47a2-97dd-4bb80da09e82
 title: interface element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

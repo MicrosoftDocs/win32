@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Protecting the Automatic Logon Password
 
-The automatic logon password should be protected by using the [**LsaStorePrivateData**](https://msdn.microsoft.com/en-us/library/ms721818(v=VS.85).aspx) function.
+The automatic logon password should be protected by using the [**LsaStorePrivateData**](https://msdn.microsoft.com/library/ms721818(v=VS.85).aspx) function.
 
-The following example shows how to protect the automatic logon password. The example retrieves a handle to the [**Policy**](https://msdn.microsoft.com/en-us/library/ms721912(v=VS.85).aspx) object by calling the [**LsaOpenPolicy**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaopenpolicy) function. For more information about the **Policy** object and **Policy** object handles, see **Policy** object and [Opening a Policy Object Handle](https://msdn.microsoft.com/en-us/library/ms721874(v=VS.85).aspx), respectively. The example then sets the protected password by calling the [**LsaStorePrivateData**](https://msdn.microsoft.com/en-us/library/ms721818(v=VS.85).aspx) function. Note that if the caller passes in **NULL** for the protected password value, then the code clears the existing protected password. Before exiting, the code closes the handle to the **Policy** object.
+The following example shows how to protect the automatic logon password. The example retrieves a handle to the [**Policy**](https://msdn.microsoft.com/library/ms721912(v=VS.85).aspx) object by calling the [**LsaOpenPolicy**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaopenpolicy) function. For more information about the **Policy** object and **Policy** object handles, see **Policy** object and [Opening a Policy Object Handle](https://msdn.microsoft.com/library/ms721874(v=VS.85).aspx), respectively. The example then sets the protected password by calling the [**LsaStorePrivateData**](https://msdn.microsoft.com/library/ms721818(v=VS.85).aspx) function. Note that if the caller passes in **NULL** for the protected password value, then the code clears the existing protected password. Before exiting, the code closes the handle to the **Policy** object.
 
 
 ```C++
@@ -98,11 +98,11 @@ DWORD UpdateDefaultPassword(WCHAR * pwszSecret)
 
 
 
-Note that if Winlogon cannot find a password stored by the [**LsaStorePrivateData**](https://msdn.microsoft.com/en-us/library/ms721818(v=VS.85).aspx) function, it will use the **DefaultPassword** value of the Winlogon key (if it exists) for the automatic logon password.
+Note that if Winlogon cannot find a password stored by the [**LsaStorePrivateData**](https://msdn.microsoft.com/library/ms721818(v=VS.85).aspx) function, it will use the **DefaultPassword** value of the Winlogon key (if it exists) for the automatic logon password.
 
 For more information about automatic logon and the Winlogon registry key, see [MSGina.dll Features](msgina-dll-features.md).
 
-For more information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx).
+For more information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
 
  
 

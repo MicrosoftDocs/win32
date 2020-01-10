@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is pressed.
 ms.assetid: db9ec396-b2a7-4f4f-99f2-95aad46eea28
-title: InkCollector.MouseDown event
-ms.topic: article
+title: InkCollector.MouseDown event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

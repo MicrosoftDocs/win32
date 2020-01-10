@@ -1,5 +1,5 @@
 ---
-title: TS_AS_ Constants
+title: TS_AS_ Constants (Textstor.h)
 description: The following flags specify the events that call the AdviseSink methods.
 ms.assetid: 8f406b67-f846-4712-b4be-811dbcc6ad55
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

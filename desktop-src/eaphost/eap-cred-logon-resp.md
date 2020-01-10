@@ -1,11 +1,10 @@
 ---
-title: EAP\_CRED\_LOGON\_RESP
+title: EAP\_CRED\_LOGON\_RESP (Eaptypes.h)
 description: Stores EAP security credentials within a EAP\_CONFIG\_INPUT\_FIELD\_ARRAY structure.
 ms.assetid: 1244A40F-6999-4053-97C4-1C4FB107B2F5
 keywords:
 - EAP_CRED_LOGON_RESP
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

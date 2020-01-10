@@ -1,8 +1,8 @@
 ---
 Description: The DOC\_INFO\_3 structure describes a document that will be printed.
 ms.assetid: 6e7b6727-da04-4f67-af77-6b51c68a4eb3
-title: DOC_INFO_3 structure
-ms.topic: structure
+title: DOC_INFO_3 structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
-title: TraceEventInstance function
-ms.topic: article
+title: TraceEventInstance function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -80,7 +80,7 @@ Pointer to an [**EVENT\_INSTANCE\_INFO**](event-instance-info.md) structure, whi
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

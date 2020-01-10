@@ -1,5 +1,5 @@
 ---
-title: WINBIO_FLAG Constants
+title: WINBIO_FLAG Constants (Winbio\_types.h)
 description: Specify biometric unit configuration and access characteristics for the new session.
 ms.assetid: 82b57023-6c27-433d-bf13-f136f501fc60
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

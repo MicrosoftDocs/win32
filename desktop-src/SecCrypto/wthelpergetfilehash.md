@@ -2,7 +2,7 @@
 Description: Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
 ms.assetid: 130b3c3e-cc67-44ec-acc7-daa87b714299
 title: WTHelperGetFileHash function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ api_location:
 The **WTHelperGetFileHash** function verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
 
 > [!Note]  
-> This function is not declared in a published header file. To use this function, declare it in the exact format shown. This function also has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Wintrust.dll.
+> This function is not declared in a published header file. To use this function, declare it in the exact format shown. This function also has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Wintrust.dll.
 
  
 

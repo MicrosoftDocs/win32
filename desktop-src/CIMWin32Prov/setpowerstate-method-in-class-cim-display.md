@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Display class sets the desired
 ms.assetid: 949c300c-b01b-4c91-a902-41e940667ee6
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Display class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

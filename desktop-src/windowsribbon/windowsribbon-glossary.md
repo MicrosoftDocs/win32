@@ -1,7 +1,7 @@
 ---
 title: Windows Ribbon Framework Glossary
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 6fb35475-3b65-43c8-acca-1ec6c36f01c0
 ms.topic: article
 ms.date: 05/31/2018

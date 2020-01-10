@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_OPENINTERFACE message
+title: MCIWNDM_OPENINTERFACE message (Vfw.h)
 description: The MCIWNDM\_OPENINTERFACE message attaches the data stream or file associated with the specified interface to an MCIWnd window. You can send this message explicitly or by using the MCIWndOpenInterface macro.
 ms.assetid: 73cbd637-d315-4b39-a978-2b72aed1f303
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

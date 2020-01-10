@@ -1,5 +1,5 @@
 ---
-title: PGM_GETBKCOLOR message
+title: PGM_GETBKCOLOR message (Commctrl.h)
 description: Retrieves the current background color for the pager control. You can send this message explicitly or use the Pager\_GetBkColor macro.
 ms.assetid: c39ad721-fe39-44e9-8305-67444acc5d65
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_Sensor class represents a hardware device that is capable 
 ms.assetid: e14629db-830d-4bb8-8d1e-4f01c24f4082
 ms.tgt_platform: multiple
 title: CIM_Sensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

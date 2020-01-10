@@ -1,8 +1,8 @@
 ---
 Description: Determines the cross-product in four dimensions.
 ms.assetid: 4f728fbd-cf5a-4d2e-ba4f-487616d83f6d
-title: D3DXVec4Cross function
-ms.topic: article
+title: D3DXVec4Cross function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ D3DXVECTOR4* D3DXVec4Cross(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -49,7 +49,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR4 structure.
 
@@ -58,7 +58,7 @@ Pointer to a source D3DXVECTOR4 structure.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR4 structure.
 
@@ -67,7 +67,7 @@ Pointer to a source D3DXVECTOR4 structure.
 *pV3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR4 structure.
 
@@ -75,7 +75,7 @@ Pointer to a source D3DXVECTOR4 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR4 structure that is the cross product.
 

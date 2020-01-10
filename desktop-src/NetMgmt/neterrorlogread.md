@@ -4,7 +4,7 @@ description: The NetErrorLogRead function is obsolete. It is included for compat
 ms.assetid: 90f86d91-e19e-4386-b263-5479680bc6f7
 keywords:
 - NetErrorLogRead
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

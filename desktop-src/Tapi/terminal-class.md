@@ -1,8 +1,8 @@
 ---
 Description: The terminal class GUIDs identify a particular terminal by capabilities.
 ms.assetid: 2a16d33c-2d87-4172-a5ff-33ff62e96615
-title: Terminal Class
-ms.topic: article
+title: Terminal Class (Tapi3if.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -124,7 +124,7 @@ Video display window, dynamically created.
 
 ## Remarks
 
-The **BSTR** version of the terminal classes is mainly designated for the use of Visual Basic applications. (For example, they are returned as the elements of the collection obtained with [**get\_DynamicTerminalClasses**](https://msdn.microsoft.com/en-us/library/ms733178(v=VS.85).aspx).)
+The **BSTR** version of the terminal classes is mainly designated for the use of Visual Basic applications. (For example, they are returned as the elements of the collection obtained with [**get\_DynamicTerminalClasses**](https://msdn.microsoft.com/library/ms733178(v=VS.85).aspx).)
 
 -   BSTR CLSID\_String\_HandsetTerminal
 -   BSTR CLSID\_String\_HeadsetTerminal
@@ -150,10 +150,10 @@ The **BSTR** version of the terminal classes is mainly designated for the use of
 
 <dl> <dt>
 
-[**ITTerminalSupport::CreateTerminal**](https://msdn.microsoft.com/en-us/library/ms733172(v=VS.85).aspx)
+[**ITTerminalSupport::CreateTerminal**](https://msdn.microsoft.com/library/ms733172(v=VS.85).aspx)
 </dt> <dt>
 
-[**ITTerminal::get\_TerminalClass**](https://msdn.microsoft.com/en-us/library/ms733195(v=VS.85).aspx)
+[**ITTerminal::get\_TerminalClass**](https://msdn.microsoft.com/library/ms733195(v=VS.85).aspx)
 </dt> <dt>
 
 [**ITTerminalManager::CreateDynamicTerminal**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalmanager-createdynamicterminal)
@@ -162,7 +162,7 @@ The **BSTR** version of the terminal classes is mainly designated for the use of
 [**ITTerminalManager::GetDynamicTerminalClasses**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalmanager-getdynamicterminalclasses)
 </dt> <dt>
 
-[**ITTerminalSupport::EnumerateDynamicTerminalClasses**](https://msdn.microsoft.com/en-us/library/ms733173(v=VS.85).aspx)
+[**ITTerminalSupport::EnumerateDynamicTerminalClasses**](https://msdn.microsoft.com/library/ms733173(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: Combo Box
+title: Combo Box (Windows Ribbon Framework)
 description: The Combo Box consists of a single-column list box that contains a collection of mutually exclusive items or Commands combined with a static or edit control and a drop-down arrow.
 ms.assetid: 6b7de2ec-dcb7-44cb-b01f-db1ba0643499
 ms.topic: article

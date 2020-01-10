@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 The following macros are used with fibers:
 
--   [**GetCurrentFiber**](https://msdn.microsoft.com/en-us/library/ms683178(v=VS.85).aspx)
--   [**GetFiberData**](https://msdn.microsoft.com/en-us/library/ms683191(v=VS.85).aspx)
+-   [**GetCurrentFiber**](https://msdn.microsoft.com/library/ms683178(v=VS.85).aspx)
+-   [**GetFiberData**](https://msdn.microsoft.com/library/ms683191(v=VS.85).aspx)
 
  
 

@@ -1,8 +1,8 @@
 ---
 Description: Flags used to specify creation options for a mesh.
 ms.assetid: 1a5a6b3f-34f4-4338-9ffe-8f95f6f0c385
-title: D3DX10_MESH enumeration
-ms.topic: enumeration
+title: D3DX10_MESH enumeration (D3DX10Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

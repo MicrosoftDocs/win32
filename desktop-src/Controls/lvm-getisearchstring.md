@@ -1,5 +1,5 @@
 ---
-title: LVM_GETISEARCHSTRING message
+title: LVM_GETISEARCHSTRING message (Commctrl.h)
 description: Retrieves the incremental search string of a list-view control. You can send this message explicitly or by using the ListView\_GetISearchString macro.
 ms.assetid: e953c4a0-0556-4987-8abf-3276e787fe49
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

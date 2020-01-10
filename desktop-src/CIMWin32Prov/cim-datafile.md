@@ -3,7 +3,7 @@ Description: The CIM\_DataFile class represents a named collection of data or ex
 ms.assetid: e90e1216-e943-4f3a-9f6c-8a0b4568a11f
 ms.tgt_platform: multiple
 title: CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

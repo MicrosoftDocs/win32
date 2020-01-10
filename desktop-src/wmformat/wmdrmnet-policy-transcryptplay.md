@@ -1,5 +1,5 @@
 ---
-title: WMDRMNET_POLICY_TRANSCRYPTPLAY structure
+title: WMDRMNET_POLICY_TRANSCRYPTPLAY structure (Wmdrmsdk.h)
 description: The WMDRMNET\_POLICY\_TRANSCRYPTPLAY structure holds the policy information for playing content using Windows Media DRM for Network Devices.
 ms.assetid: 95671c58-a593-40bb-856e-28ad1cba340e
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

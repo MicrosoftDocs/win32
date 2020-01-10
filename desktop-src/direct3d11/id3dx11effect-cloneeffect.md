@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect CloneEffect method
+title: ID3DX11Effect CloneEffect method (D3dx11effect.h)
 description: Creates a copy of an effect interface.
 ms.assetid: 98cc8e25-38c5-4b87-99eb-39d2edd9053c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ Pointer to an [**ID3DX11Effect**](id3dx11effect.md) pointer that will be set to 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

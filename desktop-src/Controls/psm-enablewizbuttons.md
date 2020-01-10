@@ -1,5 +1,5 @@
 ---
-title: PSM_ENABLEWIZBUTTONS message
+title: PSM_ENABLEWIZBUTTONS message (Prsht.h)
 description: Enables or disables any of the standard buttons in an Aero wizard. You can send this message explicitly or use the PropSheet\_EnableWizButtons macro.
 ms.assetid: 9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

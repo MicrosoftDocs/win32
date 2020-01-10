@@ -3,7 +3,7 @@ Description: The CIM\_DMA class represents computer architecture direct memory a
 ms.assetid: 101fa9f3-a403-487d-8482-b1e8e9f957d6
 ms.tgt_platform: multiple
 title: CIM_DMA class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

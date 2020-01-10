@@ -1,5 +1,5 @@
 ---
-title: WM ASF Writer Filter
+title: WM ASF Writer Filter (Windows Media Format 11 SDK)
 description: WM ASF Writer Filter
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
@@ -44,7 +44,7 @@ The following table contains information about the WM ASF Writer filter, such as
 
 The number of input pins on the filter depends on the profile that is passed to the filter. One pin of the appropriate media type is created for each stream defined in the profile.
 
-The input pins support one method from the **IAMStreamConfig** interface: **IAMStreamConfig::GetFormat**. All other methods return E\_NOTIMPL. Call the **GetFormat** method to query the pin's destination compression format, which is defined by the current profile. Use the [**IConfigAsfWriter**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx) interface to set the profile.
+The input pins support one method from the **IAMStreamConfig** interface: **IAMStreamConfig::GetFormat**. All other methods return E\_NOTIMPL. Call the **GetFormat** method to query the pin's destination compression format, which is defined by the current profile. Use the [**IConfigAsfWriter**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx) interface to set the profile.
 
 The filter's **IServiceProvider** interface enables applications to retrieve the [**IWMWriterAdvanced2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2) interface, which is defined in the Windows Media Format SDK. The **IWMWriterAdvanced2** interface controls video deinterlacing, and is useful if the input is an [*interlaced*](wmformat-glossary.md) source, such as DV (digital video). Use the **GetInputSetting** and **SetInputSetting** methods to control deinterlacing. It is not recommended that clients use any of the other methods on this interface. This interface can only be obtained after the filter has been added to the filter graph. The following example shows how to query for this interface:
 

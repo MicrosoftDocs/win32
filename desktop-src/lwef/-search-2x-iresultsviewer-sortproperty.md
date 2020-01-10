@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer SortProperty property
+title: IResultsViewer SortProperty property (WdsView.h)
 description: This property will set or return the IndexColumn of the property to sort results by.
 ms.assetid: 5b117f2e-52cc-43ef-9ebd-d7a800015465
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - WdsView.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

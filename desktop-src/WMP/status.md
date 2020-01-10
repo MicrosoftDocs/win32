@@ -1,5 +1,5 @@
 ---
-title: Status
+title: Status (Windows Media Player SDK)
 description: Status
 ms.assetid: 'b8d6d026-819c-4889-a894-c82fe81ec922'
 keywords:

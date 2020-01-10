@@ -1,8 +1,8 @@
 ---
 Description: Writes the filter's data to the given stream.
 ms.assetid: 1b405050-6cfd-4b69-b449-f00a6ecfac6a
-title: CPersistStream.WriteToStream method
-ms.topic: article
+title: CPersistStream.WriteToStream method (Pstream.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

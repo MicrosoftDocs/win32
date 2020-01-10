@@ -3,7 +3,7 @@ Description: Represents a PnP device property of type datetime.
 ms.assetid: 30B11948-4AF9-490F-B22F-260DDE5514AF
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyDateTime class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

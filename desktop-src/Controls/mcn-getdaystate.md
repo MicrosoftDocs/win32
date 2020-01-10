@@ -1,5 +1,5 @@
 ---
-title: MCN_GETDAYSTATE notification code
+title: MCN_GETDAYSTATE notification code (Commctrl.h)
 description: Sent by a month calendar control to request information about how individual days should be displayed. This notification code is sent only by month calendar controls that use the MCS\_DAYSTATE style, and it is sent in the form of a WM\_NOTIFY message.
 ms.assetid: dc2608e0-c598-4b26-9195-208f09cd84b7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

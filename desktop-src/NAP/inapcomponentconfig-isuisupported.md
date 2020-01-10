@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig IsUISupported method
+title: INapComponentConfig IsUISupported method (NapCommon.h)
 description: Specifies whether the component supports a customized user interface.
 ms.assetid: 044f8014-f041-4e9c-922a-2691b799ba84
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

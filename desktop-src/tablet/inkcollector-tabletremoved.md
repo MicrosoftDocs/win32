@@ -1,8 +1,8 @@
 ---
 Description: Occurs when a IInkTablet is removed from the system.
 ms.assetid: 659a9809-fe35-4d34-aa95-af353998c350
-title: InkCollector.TabletRemoved event
-ms.topic: article
+title: InkCollector.TabletRemoved event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

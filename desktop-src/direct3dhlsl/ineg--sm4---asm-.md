@@ -2,7 +2,7 @@
 title: ineg (sm4 - asm)
 description: 2's complement.
 ms.assetid: 20C1EEC8-E349-4398-8EE3-EDD01EBCD4B1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

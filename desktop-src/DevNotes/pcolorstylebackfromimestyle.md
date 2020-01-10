@@ -2,7 +2,7 @@
 Description: Retrieves the background color style of the specified style.
 ms.assetid: 1b0acac1-c36d-49b6-8154-f69bda008e9a
 title: PColorStyleBackFromIMEStyle function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ Pointer to an **IMECOLORSTY** structure representing the background color style.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 The **IMECOLORSTY** structure is defined as follows:
 

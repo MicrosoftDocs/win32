@@ -2,8 +2,8 @@
 Description: If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.
 ms.assetid: b560f37c-da22-4745-8d1f-b27afdf572ec
 ms.tgt_platform: multiple
-title: WMI Error Constants
-ms.topic: article
+title: WMI Error Constants (WbemCli.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -320,7 +320,7 @@ This error may be caused by many conditions, including the following:
 
 -   Provider is using a WMI DLL that does not match the .lib file used when the provider was built.
 -   Provider's DLL, or any of the DLLs on which it depends, is corrupt.
--   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx).
+-   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx).
 -   In-process provider was not registered using the **regsvr32** command.
 -   Out-of-process provider was not registered using the **/regserver** switch. For example, **myprog.exe /regserver**.
 

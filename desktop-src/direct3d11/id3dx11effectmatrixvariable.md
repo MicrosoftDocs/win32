@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectMatrixVariable interface
+title: ID3DX11EffectMatrixVariable interface (D3dx11effect.h)
 description: A matrix-variable interface accesses a matrix.
 ms.assetid: 44f30d1a-3ec1-49d7-92c0-475cf2fa4d2a
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

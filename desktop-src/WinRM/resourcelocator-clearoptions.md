@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.ClearOptions method
+title: ResourceLocator.ClearOptions method (WSManDisp.h)
 description: Removes any options from the ResourceLocator object.
 ms.assetid: 1b4d7f15-c56f-4b0d-9614-8376012abca7
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

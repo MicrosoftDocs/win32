@@ -1,12 +1,12 @@
 ---
 Description: Retrieving an Object Identifier from a Persistent Unique Identifier
 ms.assetid: 146f8943-d4e1-4b87-a812-e534082a4f14
-title: Retrieving an Object Identifier from a Persistent Unique Identifier
+title: Retrieving an Object Id from a Persistent Unique Id
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Retrieving an Object Identifier from a Persistent Unique Identifier
+# Retrieving an Object Id from a Persistent Unique Id
 
 Object identifiers are only guaranteed to be unique for a given device session; if the user establishes a new connection, identifiers from a previous session may not match identifiers for the current session. To resolve this issue, the WPD API supports persistent unique identifiers (PUIDs), which persist across device sessions.
 

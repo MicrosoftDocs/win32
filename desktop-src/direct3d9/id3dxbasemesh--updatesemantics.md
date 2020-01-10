@@ -1,8 +1,8 @@
 ---
 Description: This method allows the user to change the mesh declaration without changing the data layout of the vertex buffer. The call is valid only if the old and new declaration formats have the same vertex size.
 ms.assetid: ed2ad479-e0f7-4580-a20a-d3649759876a
-title: ID3DXBaseMesh::UpdateSemantics method
-ms.topic: article
+title: ID3DXBaseMesh::UpdateSemantics method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,13 +40,13 @@ HRESULT UpdateSemantics(
 
 Type: **[**D3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/en-us/library/Bb147183(v=VS.85).aspx).
+An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/library/Bb147183(v=VS.85).aspx).
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

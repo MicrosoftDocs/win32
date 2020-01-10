@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 0fbfdc68-e1df-449f-a7d1-739504db8a2f
-title: CBaseReferenceClock.CBaseReferenceClock constructor
-ms.topic: article
+title: CBaseReferenceClock.CBaseReferenceClock constructor (Refclock.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

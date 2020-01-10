@@ -1,5 +1,5 @@
 ---
-title: Windows Animation Error Codes
+title: Windows Animation Error Codes (Winerror.h)
 description: If an error occurs, Windows Animation returns a code as an HRESULT value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see COM Error Codes.
 ms.assetid: 38f15d61-d415-4c7d-b454-5144fc7c9b1e
 topic_type:
@@ -31,7 +31,7 @@ api_location:
 - winerror.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

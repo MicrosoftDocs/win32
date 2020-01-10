@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**DefRawInputProc**](https://msdn.microsoft.com/en-us/library/ms645594(v=VS.85).aspx)
--   [**GetRawInputBuffer**](https://msdn.microsoft.com/en-us/library/ms645595(v=VS.85).aspx)
--   [**GetRawInputData**](https://msdn.microsoft.com/en-us/library/ms645596(v=VS.85).aspx)
--   [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx)
--   [**GetRawInputDeviceList**](https://msdn.microsoft.com/en-us/library/ms645598(v=VS.85).aspx)
--   [**GetRegisteredRawInputDevices**](https://msdn.microsoft.com/en-us/library/ms645599(v=VS.85).aspx)
--   [**RegisterRawInputDevices**](https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx)
+-   [**DefRawInputProc**](https://msdn.microsoft.com/library/ms645594(v=VS.85).aspx)
+-   [**GetRawInputBuffer**](https://msdn.microsoft.com/library/ms645595(v=VS.85).aspx)
+-   [**GetRawInputData**](https://msdn.microsoft.com/library/ms645596(v=VS.85).aspx)
+-   [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx)
+-   [**GetRawInputDeviceList**](https://msdn.microsoft.com/library/ms645598(v=VS.85).aspx)
+-   [**GetRegisteredRawInputDevices**](https://msdn.microsoft.com/library/ms645599(v=VS.85).aspx)
+-   [**RegisterRawInputDevices**](https://msdn.microsoft.com/library/ms645600(v=VS.85).aspx)
 
  
 

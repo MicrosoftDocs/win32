@@ -1,5 +1,5 @@
 ---
-title: Rendering
+title: Rendering (Direct3D 11 Graphics)
 description: This section contains information about several Direct3D 11 rendering technologies.
 ms.assetid: 43772cb4-731f-4f0f-b549-cd1660aece03
 ms.topic: article

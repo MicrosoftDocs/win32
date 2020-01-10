@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray GatherAlpha methods
+title: Texture2DArray::Texture2DArray GatherAlpha methods
 description: Samples a Texture2DArray and returns the alpha component.
 ms.assetid: '98f41243-e2d4-475b-ba28-8e9f660ddba6'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

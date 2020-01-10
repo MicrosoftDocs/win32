@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectGroup IsValid method
+title: ID3DX11EffectGroup IsValid method (D3dx11effect.h)
 description: Test an effect to see if it contains valid syntax.
 ms.assetid: 05829749-cef0-40ed-beab-556a65a1ac96
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

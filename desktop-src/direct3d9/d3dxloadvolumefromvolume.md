@@ -1,8 +1,8 @@
 ---
 Description: Loads a volume from another volume.
 ms.assetid: bc162f91-feb7-4571-ae4a-abaa5e7953f6
-title: D3DXLoadVolumeFromVolume function
-ms.topic: article
+title: D3DXLoadVolumeFromVolume function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -99,7 +99,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the source box. Set th
 *Filter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A combination of one or more [D3DX\_FILTER](d3dx-filter.md), controlling how the image is filtered. Specifying D3DX\_DEFAULT for this parameter is the equivalent of specifying D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER.
 
@@ -116,7 +116,7 @@ Type: **[**D3DCOLOR**](d3dcolor.md)**
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

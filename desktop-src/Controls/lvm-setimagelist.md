@@ -1,5 +1,5 @@
 ---
-title: LVM_SETIMAGELIST message
+title: LVM_SETIMAGELIST message (Commctrl.h)
 description: Assigns an image list to a list-view control. You can send this message explicitly or by using the ListView\_SetImageList macro.
 ms.assetid: 5241065b-85e4-412e-9868-fd5b15ff7c17
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: PROTOCOL_SPECIFIC_DATA structure
+title: PROTOCOL_SPECIFIC_DATA structure (Rtm.h)
 description: The PROTOCOL\_SPECIFIC\_DATA structure contains memory reserved for data specific to a particular routing protocol.
 ms.assetid: b6c3a342-4726-4f7b-9511-dbe1393faf98
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Loads a mesh from a resource.
 ms.assetid: 3cf253dc-4f3f-4949-ab24-8225667f95f2
-title: D3DXLoadMeshFromXResource function
-ms.topic: article
+title: D3DXLoadMeshFromXResource function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -47,7 +47,7 @@ HRESULT D3DXLoadMeshFromXResource(
 *Module* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Handle to the module where the resource is located, or **NULL** for the module associated with the image the operating system used to create the current process. See remarks.
 
@@ -56,7 +56,7 @@ Handle to the module where the resource is located, or **NULL** for the module a
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that specifies the resource to create the mesh from. See remarks.
 
@@ -65,7 +65,7 @@ Pointer to a string that specifies the resource to create the mesh from. See rem
 *Type* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that specifies the resource type. See remarks.
 
@@ -74,9 +74,9 @@ Pointer to a string that specifies the resource type. See remarks.
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/en-us/library/Bb205370(v=VS.85).aspx) enumeration that specify creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) enumeration that specify creation options for the mesh.
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Pointer to a buffer containing an array of effect instances, one per attribute g
 *pNumMaterials* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *ppMaterials* array, when the method returns.
 
@@ -136,13 +136,13 @@ Address of a pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 
 ## Remarks
 
-See [**FindResource**](https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx) to find out more about the Module, Name and Type parameters.
+See [**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx) to find out more about the Module, Name and Type parameters.
 
 All the meshes in the file will be collapsed into one output mesh. If the file contains a frame hierarchy, all the transformations will be applied to the mesh.
 

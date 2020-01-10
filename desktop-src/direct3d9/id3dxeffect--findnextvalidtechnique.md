@@ -1,8 +1,8 @@
 ---
 Description: Searches for the next valid technique, starting at the technique after the specified technique.
 ms.assetid: 0d2f3f80-90fd-495d-acb8-075f50e9a974
-title: ID3DXEffect::FindNextValidTechnique method
-ms.topic: article
+title: ID3DXEffect::FindNextValidTechnique method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to an identifier for the next technique. **NULL** is returned if this is
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

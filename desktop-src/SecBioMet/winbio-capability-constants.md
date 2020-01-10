@@ -1,5 +1,5 @@
 ---
-title: WINBIO_CAPABILITY Constants
+title: WINBIO_CAPABILITY Constants (Winbio\_types.h)
 description: Fingerprint sensor sub types.
 ms.assetid: D447273E-2A02-484E-B0E4-69FEADD15797
 topic_type:
@@ -17,7 +17,7 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

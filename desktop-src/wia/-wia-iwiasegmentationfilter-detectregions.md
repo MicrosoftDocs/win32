@@ -1,8 +1,8 @@
 ---
 Description: Determines the sub-regions of an image laid out on the flatbed platen so that each of sub-region can be acquired into a separate image item.
 ms.assetid: 899d61f0-2dd8-4a68-827e-89e85ebb5143
-title: IWiaSegmentationFilter::DetectRegions method
-ms.topic: article
+title: IWiaSegmentationFilter::DetectRegions method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,9 +48,9 @@ Currently unused. Should be set to zero.
 *pInputStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
 
-Specifies a pointer to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) preview image.
+Specifies a pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) preview image.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ If the application calls **IWiaSegmentationFilter::DetectRegions** more than onc
 
 If an application changes any properties into *pWiaItem2*, between acquiring the image into *pInputStream* and its call to **IWiaSegmentationFilter::DetectRegions**, the original properties (that is, the properties the item had when the stream was acquired) must be restored. This can be done by [**GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) and [**SetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream).
 
-The application must reset the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling **IWiaSegmentationFilter::DetectRegions**.
+The application must reset the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling **IWiaSegmentationFilter::DetectRegions**.
 
 ## Examples
 

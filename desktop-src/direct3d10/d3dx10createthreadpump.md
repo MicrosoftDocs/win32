@@ -1,8 +1,8 @@
 ---
 Description: Create a thread pump.
 ms.assetid: a7a016e2-784d-4d7a-8058-88895bf3c4e2
-title: D3DX10CreateThreadPump function
-ms.topic: article
+title: D3DX10CreateThreadPump function (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT D3DX10CreateThreadPump(
 *cIoThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of I/O threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -49,7 +49,7 @@ The number of I/O threads to create. If 0 is specified, Direct3D will attempt to
 *cProcThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of process threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -66,7 +66,7 @@ The created thread pump. See [**ID3DX10ThreadPump Interface**](id3dx10threadpump
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

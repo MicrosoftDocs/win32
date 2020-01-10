@@ -2,7 +2,7 @@
 Description: Gets the version of the WPAD processing engine.
 ms.assetid: f9e9a867-d491-4d46-bbd8-c0c3d8d5b3d6
 title: getClientVersion function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

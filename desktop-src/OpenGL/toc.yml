@@ -289,13 +289,13 @@
       - name: "wglUseFontOutlines"
         href: /windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa
       - name: "GLYPHMETRICSFLOAT"
-        href: /windows/desktop/api/wingdi/ns-wingdi-_glyphmetricsfloat
+        href: /windows/win32/api/wingdi/ns-wingdi-glyphmetricsfloat
       - name: "LAYERPLANEDESCRIPTOR"
-        href: /windows/desktop/api/Wingdi/ns-wingdi-taglayerplanedescriptor
+        href: /windows/win32/api/Wingdi/ns-wingdi-layerplanedescriptor
       - name: "PIXELFORMATDESCRIPTOR"
-        href: /windows/desktop/api/Wingdi/ns-wingdi-tagpixelformatdescriptor
+        href: /windows/win32/api/Wingdi/ns-wingdi-pixelformatdescriptor
       - name: "POINTFLOAT"
-        href: /windows/desktop/api/wingdi/ns-wingdi-_pointfloat
+        href: /windows/win32/api/wingdi/ns-wingdi-pointfloat
   - name: "Programming Tips"
     href: programming-tips.md
     items: 
@@ -1285,7 +1285,7 @@
           href: porting-greset.md
         - name: "Porting IRIS GL &quot;Get&quot; Functions"
           href: porting-iris-gl-get-functions.md
-        - name: "Porting Code that Requires a Current Graphics Position"
+        - name: "Port code that needs a current graphics position"
           href: porting-code-that-requires-a-current-graphics-position.md
           items: 
           - name: "Porting Screen and Buffer Clearing Commands"

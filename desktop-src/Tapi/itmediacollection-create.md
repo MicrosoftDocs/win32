@@ -1,8 +1,8 @@
 ---
 Description: The Create method creates a new media with default properties, adds it to the collection at the specified index, and returns a pointer to the ITMedia interface.
 ms.assetid: f0036556-d2e7-4589-8bb4-e2c5559902fe
-title: ITMediaCollection::Create method
-ms.topic: article
+title: ITMediaCollection::Create method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

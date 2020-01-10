@@ -10,11 +10,11 @@
       href: winsat-enumerations.md
       items: 
       - name: "WINSAT_ASSESSMENT_STATE"
-        href: /windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0002
+        href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_state
       - name: "WINSAT_ASSESSMENT_TYPE"
-        href: /windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0003
+        href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type
       - name: "WINSAT_BITMAP_SIZE"
-        href: /windows/desktop/api/Winsatcominterfacei/ne-winsatcominterfacei-__midl___midl_itf_winsatcominterfacei_0000_0000_0004
+        href: /windows/win32/api/Winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size
     - name: "WinSAT Interfaces"
       href: winsat-interfaces.md
       items: 

@@ -3,7 +3,7 @@ Description: Represents a PnP device property consisting of an array of datetime
 ms.assetid: 1036D49E-7F73-43C6-8F6E-BB909E74519E
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyDateTimeArray class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

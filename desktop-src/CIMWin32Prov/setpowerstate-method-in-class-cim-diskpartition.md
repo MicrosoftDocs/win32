@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_DiskPartition class sets the d
 ms.assetid: cfc68ad3-819c-438f-baca-bed6e2592369
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_DiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

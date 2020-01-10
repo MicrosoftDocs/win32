@@ -2,7 +2,7 @@
 Description: Called by CertDeleteCTLFromStore before deleting a CTL from the store.
 ms.assetid: 6cda772f-7e94-414d-99fc-a90451ac0ccf
 title: CertStoreProvDeleteCTL callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ BOOL WINAPI CertStoreProvDeleteCTL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRasterizerVariable interface
+title: ID3DX11EffectRasterizerVariable interface (D3dx11effect.h)
 description: A rasterizer-variable interface accesses rasterizer state.
 ms.assetid: d039e3c5-c066-4658-bead-92a5d705ed89
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

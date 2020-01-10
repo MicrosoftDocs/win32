@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: 92375e95-adfb-414b-abbb-e827db2186ac
-title: CMediaType.~CMediaType destructor
-ms.topic: article
+title: CMediaType.~CMediaType destructor (Mtype.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

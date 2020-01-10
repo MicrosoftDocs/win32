@@ -176,7 +176,7 @@ Optional initial value(s); the number of values should match the number of compo
 
 Global variables that are not marked **static** or **extern** are not compiled into the shader. The compiler does not automatically set default values for global variables and cannot use them in optimizations. To initialize this type of global variable, use reflection to get its value and then copy the value to a constant buffer. For example, you can use the [**ID3D11ShaderReflection::GetVariableByName**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getvariablebyname) method to get the variable, use the [**ID3D11ShaderReflectionVariable::GetDesc**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc) method to get the shader-variable description, and get the initial value from the **DefaultValue** member of the [**D3D11\_SHADER\_VARIABLE\_DESC**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_variable_desc) structure. To copy the value to the constant buffer, you must ensure that the buffer was created with CPU write access ([**D3D11\_CPU\_ACCESS\_WRITE**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag)). For more information about how to create a constant buffer, see [How to: Create a Constant Buffer](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-constant-how-to).
 
-You can also use the [effects framework](https://msdn.microsoft.com/en-us/library/Ff476136(v=VS.85).aspx) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](https://docs.microsoft.com/windows/desktop/direct3d11/id3dx11effectpass-apply) method.
+You can also use the [effects framework](https://msdn.microsoft.com/library/Ff476136(v=VS.85).aspx) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](https://docs.microsoft.com/windows/desktop/direct3d11/id3dx11effectpass-apply) method.
 
 </dd> </dl>
 
@@ -279,7 +279,7 @@ cbuffer MyBuffer
 
 
 
-A sample that uses packoffset is: [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx).
+A sample that uses packoffset is: [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/library/Ee416414(v=VS.85).aspx).
 
 ## Related topics
 

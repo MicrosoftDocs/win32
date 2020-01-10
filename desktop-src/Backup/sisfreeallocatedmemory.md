@@ -1,5 +1,5 @@
 ---
-title: SisFreeAllocatedMemory function
+title: SisFreeAllocatedMemory function (Sisbkup.h)
 description: Frees memory allocated by SIS API functions.
 ms.assetid: 8fab79c8-593c-46df-a885-09a59620a977
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

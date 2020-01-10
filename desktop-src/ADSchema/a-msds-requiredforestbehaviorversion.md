@@ -12,7 +12,7 @@ api_name:
 - ms-DS-Required-Forest-Behavior-Version
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

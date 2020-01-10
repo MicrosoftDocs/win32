@@ -1,8 +1,8 @@
 ---
 Description: Applies stored texture gutter data to an ID3DXPRTBuffer texture buffer.
 ms.assetid: 05cc0709-543a-4df5-980a-8549451d396b
-title: ID3DXPRTBuffer::EvalGH method
-ms.topic: article
+title: ID3DXPRTBuffer::EvalGH method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.
 

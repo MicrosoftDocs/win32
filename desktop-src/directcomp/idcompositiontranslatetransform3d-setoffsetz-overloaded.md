@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTranslateTransform3D SetOffsetZ methods
+title: IDCompositionTranslateTransform3D SetOffsetZ methods (Dcomp.h)
 description: Changes or animates the value of the OffsetZ property of a 3D translation transform effect.
 ms.assetid: 1467F8A8-15CF-4B3E-8816-76F2F5BFB68B
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetZ methods
@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetZ property of a 3D translation transf
 
 | Method                                                                                                              | Description                                            |
 |:--------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetOffsetZ(float)**](https://msdn.microsoft.com/en-us/library/Hh449121(v=VS.85).aspx)                                     | Changes the value of the OffsetZ property.<br/>  |
-| [**SetOffsetZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449122(v=VS.85).aspx) | Animates the value of the OffsetZ property.<br/> |
+| [**SetOffsetZ(float)**](https://msdn.microsoft.com/library/Hh449121(v=VS.85).aspx)                                     | Changes the value of the OffsetZ property.<br/>  |
+| [**SetOffsetZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449122(v=VS.85).aspx) | Animates the value of the OffsetZ property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the OffsetZ property of a 3D translation transf
 
 <dl> <dt>
 
-[**IDCompositionTranslateTransform3D**](https://msdn.microsoft.com/en-us/library/Hh449114(v=VS.85).aspx)
+[**IDCompositionTranslateTransform3D**](https://msdn.microsoft.com/library/Hh449114(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -2,7 +2,7 @@
 title: store_uav_typed (sm5 - asm)
 description: Random-access write of an element into a typed unordered access view (UAV).
 ms.assetid: AD8E035B-DACD-4241-A05B-7D6DC8E3222C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Handle to the thread.
 ms.assetid: 93d1182a-58f0-4570-8568-fe0fded762cb
-title: CAMThread::m_hThread member
-ms.topic: article
+title: CAMThread::m_hThread member (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

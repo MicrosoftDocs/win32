@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable SetRawValue method
+title: ID3DX11EffectVariable SetRawValue method (D3dx11effect.h)
 description: Set data.
 ms.assetid: c5d53aa6-6cd8-4a93-9851-2a93bc6a728a
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ The number of bytes to set.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

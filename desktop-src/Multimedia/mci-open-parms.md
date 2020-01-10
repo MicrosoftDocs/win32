@@ -1,5 +1,5 @@
 ---
-title: MCI_OPEN_PARMS structure
+title: MCI_OPEN_PARMS structure (Mciapi.h)
 description: The MCI\_OPEN\_PARMS structure contains information for the MCI\_OPEN command.
 ms.assetid: d22cefeb-3d49-47cf-a946-f73c77ae43fd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -76,7 +76,7 @@ Optional device alias.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -103,7 +103,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_OPEN**](mci-open.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest GetMachineName method
+title: INapSystemHealthValidationRequest GetMachineName method (NapSystemHealthValidator.h)
 description: Is used by System Health Validators (SHVs) to retrieve the machine name of the NAP client. The SHV then logs this information.
 ms.assetid: 2ea6a65d-1579-4a05-b5bc-aebf6421e46a
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

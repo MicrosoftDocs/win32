@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_PLAYFROM message
+title: MCIWNDM_PLAYFROM message (Vfw.h)
 description: The MCIWNDM\_PLAYFROM message plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can send this message explicitly or by using the MCIWndPlayFrom macro.
 ms.assetid: 1c47f8eb-2a1b-4671-a9f8-fd6d59a5c7c6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Associates a virtual machine instance with the management service that controls its state.
 ms.assetid: 12EB3951-74D4-477F-8B55-69FAA3B14631
 title: Msvm_ServiceAffectsElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

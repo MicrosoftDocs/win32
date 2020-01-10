@@ -2,7 +2,7 @@
 Description: Accesses specific matrix elements referenced by row and column from the current instance of XMMATRIX.
 ms.assetid: 917d44b0-4625-412f-b3ad-5955856689d5
 title: XMMATRIX operator () operators
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2018
 topic_type:
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMMATRIX`.
 
-Accesses specific matrix elements referenced by row and column from the current instance of [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
+Accesses specific matrix elements referenced by row and column from the current instance of [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
 
 ### Overload list
 
@@ -68,7 +68,7 @@ This operator is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
+[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
 </dt> </dl>
 
  

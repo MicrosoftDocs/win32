@@ -1,8 +1,8 @@
 ---
 Description: Initiate the rendering of a cubic environment map.
 ms.assetid: 0f02b2e2-8132-4994-ab07-c79a1b7821dd
-title: ID3DXRenderToEnvMap::BeginCube method
-ms.topic: article
+title: ID3DXRenderToEnvMap::BeginCube method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb1
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

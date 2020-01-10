@@ -1,7 +1,7 @@
 ---
-title: D
+title: D (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter D.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'f97470e7-a500-47d7-84f0-b3045d04b8fc'
 keywords:
 - depth

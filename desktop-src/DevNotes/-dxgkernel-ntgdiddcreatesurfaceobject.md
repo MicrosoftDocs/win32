@@ -1,8 +1,8 @@
 ---
 Description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
 ms.assetid: 1b2886a8-279b-4bec-9fb8-b88a68ded25b
-title: NtGdiDdCreateSurfaceObject function
-ms.topic: article
+title: NtGdiDdCreateSurfaceObject function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -61,21 +61,21 @@ Previous handle to the same surface. Used if the surface is being re-created aft
 *puSurfaceLocal* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that represents the DirectDraw user-mode surface object with which to associate the allocated memory. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that represents the DirectDraw user-mode surface object with which to associate the allocated memory. See the DDK documentation for details.
 
 </dd> <dt>
 
 *puSurfaceMore* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/en-us/library/Ff551737(v=VS.85).aspx) structure that contains additional local data for each individual surface object. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/library/Ff551737(v=VS.85).aspx) structure that contains additional local data for each individual surface object. See the DDK documentation for details.
 
 </dd> <dt>
 
 *puSurfaceGlobal* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/en-us/library/Ff551726(v=VS.85).aspx) structure that contains surface data shared globally with multiple surfaces. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/library/Ff551726(v=VS.85).aspx) structure that contains surface data shared globally with multiple surfaces. See the DDK documentation for details.
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ If successful, this function returns a handle to the kernel-mode surface represe
 
 ## Remarks
 
-Applications are advised to use the DirectDraw and [Direct3D](https://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+Applications are advised to use the DirectDraw and [Direct3D](https://msdn.microsoft.com/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
 ## Requirements
 

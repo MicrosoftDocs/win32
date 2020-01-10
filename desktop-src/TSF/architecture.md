@@ -1,5 +1,5 @@
 ---
-title: Architecture
+title: Architecture (Text Services Framework)
 description: Architecture
 ms.assetid: 6ef6ba1f-fcbb-4ede-bc6f-3da66135ea69
 keywords:

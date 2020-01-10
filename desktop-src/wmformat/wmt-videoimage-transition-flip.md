@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_FLIP
+title: WMT_VIDEOIMAGE_TRANSITION_FLIP (Wmsdkidl.h)
 description: The flip transition rotates the old image on a y-axis through the center of the frame. The new image is revealed as the back of the old image.
 ms.assetid: ff9990ef-962c-4dbb-b2bc-3bee070d2044
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TVM_CREATEDRAGIMAGE message
+title: TVM_CREATEDRAGIMAGE message (Commctrl.h)
 description: Creates a dragging bitmap for the specified item in a tree-view control.
 ms.assetid: fbe97921-c9d3-473c-933c-d6bc0599e24d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

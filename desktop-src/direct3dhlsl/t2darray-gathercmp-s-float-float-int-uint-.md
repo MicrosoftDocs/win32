@@ -1,5 +1,5 @@
 ---
-title: GatherCmp(S,float,float,int,uint) function
+title: Texture2DArray::GatherCmp(S,float,float,int,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns all four components along with status about the operation.
 ms.assetid: E68619B2-6AB0-4C57-9604-7759FD987446
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherCmp
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

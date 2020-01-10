@@ -12,7 +12,7 @@ The maximum number of sockets supported by a particular Windows Sockets service 
 
 ## FD\_SET and select
 
-A number of FD\_XXX macros are defined in the *Winsock2.h* header file for use in porting applications to Windows from the UNIX environment. These macros are used with the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) and [**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx) functions for porting applications to Windows. The maximum number of sockets that a Windows Sockets application can use is not affected by the manifest constant FD\_SETSIZE. This value defined in the *Winsock2.h* header file is used in constructing the [**FD\_SET**](/windows/desktop/api/winsock/nf-winsock-fd_set) structures used with **select** function. The default value in Winsock2.h is 64. If an application is designed to be capable of working with more than 64 sockets using the **select** and **WSAPoll** functions, the implementor should define the manifest FD\_SETSIZE in every source file before including the *Winsock2.h* header file. One way of doing this may be to include the definition within the compiler options in the makefile. For example, you could add "-DFD\_SETSIZE=128" as an option to the compiler command line for Microsoft C++. It must be emphasized that defining FD\_SETSIZE as a particular value has no effect on the actual number of sockets provided by a Windows Sockets service provider. This value only affects the FD\_XXX macros used by the **select** and **WSAPoll** functions.
+A number of FD\_XXX macros are defined in the *Winsock2.h* header file for use in porting applications to Windows from the UNIX environment. These macros are used with the [**select**](/windows/desktop/api/Winsock2/nf-winsock2-select) and [**WSAPoll**](https://msdn.microsoft.com/library/ms741669(v=VS.85).aspx) functions for porting applications to Windows. The maximum number of sockets that a Windows Sockets application can use is not affected by the manifest constant FD\_SETSIZE. This value defined in the *Winsock2.h* header file is used in constructing the [**FD\_SET**](/windows/desktop/api/winsock/nf-winsock-fd_set) structures used with **select** function. The default value in Winsock2.h is 64. If an application is designed to be capable of working with more than 64 sockets using the **select** and **WSAPoll** functions, the implementor should define the manifest FD\_SETSIZE in every source file before including the *Winsock2.h* header file. One way of doing this may be to include the definition within the compiler options in the makefile. For example, you could add "-DFD\_SETSIZE=128" as an option to the compiler command line for Microsoft C++. It must be emphasized that defining FD\_SETSIZE as a particular value has no effect on the actual number of sockets provided by a Windows Sockets service provider. This value only affects the FD\_XXX macros used by the **select** and **WSAPoll** functions.
 
 ## Related topics
 
@@ -33,7 +33,7 @@ A number of FD\_XXX macros are defined in the *Winsock2.h* header file for use i
 [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup)
 </dt> <dt>
 
-[**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx)
+[**WSAPoll**](https://msdn.microsoft.com/library/ms741669(v=VS.85).aspx)
 </dt> </dl>
 
  

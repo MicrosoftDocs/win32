@@ -1,5 +1,5 @@
 ---
-title: EM_SETCHARFORMAT message
+title: EM_SETCHARFORMAT message (Richedit.h)
 description: Sets character formatting in a rich edit control.
 ms.assetid: 5e7a545d-4ca4-4dc6-badb-584c11194982
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

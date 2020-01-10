@@ -107,7 +107,7 @@ An application can use the [**GetSystemMenu**](/windows/desktop/api/Winuser/nf-w
 
 ### Help Identifier
 
-Associated with each menu bar, menu, submenu, and shortcut menu is a help identifier. If the user presses the F1 key while the menu is active, this value is sent to the owner window as part of a [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) message.
+Associated with each menu bar, menu, submenu, and shortcut menu is a help identifier. If the user presses the F1 key while the menu is active, this value is sent to the owner window as part of a [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) message.
 
 ## Keyboard Access to Menus
 

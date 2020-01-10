@@ -2,7 +2,6 @@
 title: Installing an EAP Method
 description: Follow the instructions below to install a user-implemented EAP method on a client computer running EAPHost.
 ms.assetid: c353550f-73a7-4195-81ea-544f74abc880
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

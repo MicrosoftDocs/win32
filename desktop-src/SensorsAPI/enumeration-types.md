@@ -14,8 +14,8 @@ The Sensor API defines the following enumeration types.
 
 | Enumeration                                                                | Description                                      |
 |----------------------------------------------------------------------------|--------------------------------------------------|
-| [**SensorConnectionType**](https://msdn.microsoft.com/en-us/library/Dd318902(v=VS.85).aspx) | Defines types of sensor device connections.      |
-| [**SensorState**](https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx)                   | Defines possible operational states for sensors. |
+| [**SensorConnectionType**](https://msdn.microsoft.com/library/Dd318902(v=VS.85).aspx) | Defines types of sensor device connections.      |
+| [**SensorState**](https://msdn.microsoft.com/library/Dd318905(v=VS.85).aspx)                   | Defines possible operational states for sensors. |
 
 
 

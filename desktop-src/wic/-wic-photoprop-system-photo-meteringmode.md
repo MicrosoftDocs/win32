@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.MeteringMode Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.MeteringMode](https://msdn.microsoft.com/en-us/library/bb760501(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.MeteringMode](https://msdn.microsoft.com/library/bb760501(VS.85).aspx) property.
 
 ### PKEY
 
@@ -122,7 +122,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.MeteringMode](https://msdn.microsoft.com/en-us/library/bb760501(VS.85).aspx)
+[System.Photo.MeteringMode](https://msdn.microsoft.com/library/bb760501(VS.85).aspx)
 </dt> </dl>
 
  

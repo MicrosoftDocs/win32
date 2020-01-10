@@ -1,8 +1,8 @@
 ---
 Description: Initiates a data upload of a single item from the caller.
 ms.assetid: 301ac5d9-b864-4c3c-bd4b-143cc4032dcb
-title: IWiaTransfer::Upload method
-ms.topic: article
+title: IWiaTransfer::Upload method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,9 +49,9 @@ Currently unused. Should be set to zero.
 *pSource* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
 
-Specifies a pointer to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) data.
+Specifies a pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) data.
 
 </dd> <dt>
 

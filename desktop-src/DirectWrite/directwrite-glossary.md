@@ -1,7 +1,7 @@
 ---
 title: DirectWrite Glossary
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bf50f374-440b-44f3-a365-47588eaa071f
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,8 +1,8 @@
 ---
 Description: The ChangeMediaType method dynamically changes the media type for the connection.
 ms.assetid: 38efdfdc-f636-4cad-b8d3-8c63a277644e
-title: CDynamicOutputPin.ChangeMediaType method
-ms.topic: article
+title: CDynamicOutputPin.ChangeMediaType method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

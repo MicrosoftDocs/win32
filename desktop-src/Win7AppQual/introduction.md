@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 6BB5AABC-6281-4575-8189-477C57DF4F4F
-title: Introduction
+title: Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk Type property
+title: IVMHardDisk Type property (VPCCOMInterfaces.h)
 description: Type of the virtual hard disk.
 ms.assetid: a855ed9b-a573-471c-ad98-521c80e9ab8c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

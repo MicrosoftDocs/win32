@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineEffect interface provides methods for manipulating audio and video effects in DirectShow Editing Services (DES).
 ms.assetid: 3cc8a5f8-3f57-4e2b-82dd-827e04c771f7
-title: IAMTimelineEffect interface
-ms.topic: interface
+title: IAMTimelineEffect interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ To create an effect object, call [**IAMTimeline::CreateEmptyNode**](iamtimeline-
 
 ## Members
 
-The **IAMTimelineEffect** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineEffect** also has these types of members:
+The **IAMTimelineEffect** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineEffect** also has these types of members:
 
 -   [Methods](#methods)
 

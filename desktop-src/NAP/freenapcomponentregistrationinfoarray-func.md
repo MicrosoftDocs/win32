@@ -1,5 +1,5 @@
 ---
-title: FreeNapComponentRegistrationInfoArray function
+title: FreeNapComponentRegistrationInfoArray function (NapUtil.h)
 description: Frees a specified number of NapComponentRegistrationInfo data structures from an array.
 ms.assetid: 6fcb1394-04dd-4d8a-87f7-6b69b6ef29ff
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

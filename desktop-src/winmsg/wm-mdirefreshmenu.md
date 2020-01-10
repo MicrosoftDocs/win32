@@ -1,8 +1,8 @@
 ---
 Description: An application sends the WM\_MDIREFRESHMENU message to a multiple-document interface (MDI) client window to refresh the window menu of the MDI frame window.
 ms.assetid: 6450d84a-a0b9-45d0-9e0c-757d26502059
-title: WM_MDIREFRESHMENU message
-ms.topic: article
+title: WM_MDIREFRESHMENU message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -45,7 +45,7 @@ If the message fails, the return value is **NULL**.
 
 ## Remarks
 
-After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx) function to update the menu bar.
+After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx) function to update the menu bar.
 
 ## Requirements
 
@@ -66,7 +66,7 @@ After sending this message, an application must call the [**DrawMenuBar**](https
 **Reference**
 </dt> <dt>
 
-[**DrawMenuBar**](https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx)
+[**DrawMenuBar**](https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MDISETMENU**](wm-mdisetmenu.md)

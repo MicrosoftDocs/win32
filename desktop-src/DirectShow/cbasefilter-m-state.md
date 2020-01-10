@@ -1,8 +1,8 @@
 ---
 Description: Indicates the current state of the filter.
 ms.assetid: 65de36d4-4a05-40e2-aa00-701237281bbe
-title: CBaseFilter::m_State member
-ms.topic: article
+title: CBaseFilter::m_State member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

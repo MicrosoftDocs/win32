@@ -1,5 +1,5 @@
 ---
-title: MpFreeMemory function
+title: MpFreeMemory function (MpClient.h)
 description: Frees memory for the malware protection manager.
 ms.assetid: D0B43AE5-756F-4E86-B8A5-8268A41901BC
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The DefaultValue property of the ConfigurableItem object returns the value from the DefaultValue column of the ModuleConfiguration table.
 ms.assetid: 2d99ee59-5dea-41ca-bd24-359195a37864
-title: ConfigurableItem.DefaultValue property
-ms.topic: article
+title: ConfigurableItem.DefaultValue property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

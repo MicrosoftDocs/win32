@@ -1,8 +1,8 @@
 ---
 Description: Applications use the methods of the ID3DXFileSaveObject interface to write a .x file to disk, and to add and save data objects and templates.
 ms.assetid: 1131c151-fa21-4654-9776-484922d58487
-title: ID3DXFileSaveObject interface
-ms.topic: interface
+title: ID3DXFileSaveObject interface (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFileSaveObject interface to write a .x 
 
 ## Members
 
-The **ID3DXFileSaveObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileSaveObject** also has these types of members:
+The **ID3DXFileSaveObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileSaveObject** also has these types of members:
 
 -   [Methods](#methods)
 

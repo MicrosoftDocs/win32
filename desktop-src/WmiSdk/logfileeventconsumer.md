@@ -3,7 +3,7 @@ Description: The LogFileEventConsumer class writes customized strings to a text 
 ms.assetid: 8934b60e-3763-4b85-89fd-58fe6136dff6
 ms.tgt_platform: multiple
 title: LogFileEventConsumer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

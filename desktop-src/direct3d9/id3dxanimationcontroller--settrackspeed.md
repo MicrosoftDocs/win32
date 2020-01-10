@@ -1,8 +1,8 @@
 ---
 Description: Sets the track speed. The track speed is similar to a multiplier that is used to speed up or slow down the playback of the track.
 ms.assetid: b3946b61-0676-4690-9844-639fabd8fd7c
-title: ID3DXAnimationController::SetTrackSpeed method
-ms.topic: article
+title: ID3DXAnimationController::SetTrackSpeed method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetTrackSpeed(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Identifier of the track to set the speed on.
 
@@ -48,7 +48,7 @@ Identifier of the track to set the speed on.
 *Speed* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 New speed.
 
@@ -56,7 +56,7 @@ New speed.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

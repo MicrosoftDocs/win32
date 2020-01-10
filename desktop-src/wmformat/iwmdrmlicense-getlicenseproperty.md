@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense GetLicenseProperty method
+title: IWMDRMLicense GetLicenseProperty method (Wmdrmsdk.h)
 description: The GetLicenseProperty method retrieves a property from the current license.
 ms.assetid: 5431f849-b37e-40b7-8bdb-ee30948aeff1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

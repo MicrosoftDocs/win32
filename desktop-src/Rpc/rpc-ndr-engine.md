@@ -1,5 +1,5 @@
 ---
-title: RPC NDR Engine
+title: RPC NDR Engine (RPC)
 description: The Remote Procedure Call (RPC) Network Data Representation (NDR) Engine is the marshaling engine of the RPC and DCOM components.
 ms.assetid: E452AA27-053D-4032-868B-CF2D5C0D4BE0
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a function.
 ms.assetid: 97c82c28-4402-4605-8247-44d6f38bfa20
-title: ID3DXBaseEffect::GetFunction method
-ms.topic: article
+title: ID3DXBaseEffect::GetFunction method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ D3DXHANDLE GetFunction(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Function index.
 

@@ -1,5 +1,5 @@
 ---
-title: D2DSampleInputAtOffset function
+title: D2DSampleInputAtOffset function (D2d1effecthelpers.h)
 description: Samples input N at an offset of offset from the input coordinate. Only available for complex inputs.
 ms.assetid: 4A01264E-04E3-49BD-9EF8-7834D9B8B0B8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

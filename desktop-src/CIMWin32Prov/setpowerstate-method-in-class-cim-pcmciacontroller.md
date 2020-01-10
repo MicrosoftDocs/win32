@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_PCMCIAController class sets th
 ms.assetid: 30e6936d-f621-4dd1-b25c-8d959ea97cc8
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PCMCIAController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

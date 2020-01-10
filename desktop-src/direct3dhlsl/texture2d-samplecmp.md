@@ -1,5 +1,5 @@
 ---
-title: Texture2D SampleCmp methods
+title: Texture2D::Texture2D SampleCmp methods
 description: Samples a Texture2D, using a comparison value to reject samples.
 ms.assetid: 57CAF0F4-740A-440D-B1CC-05CFE748ECC0
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

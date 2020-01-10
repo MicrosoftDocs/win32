@@ -1,8 +1,8 @@
 ---
 Description: The m\_pBaseWindow member variable is a pointer to the owning CBaseWindow object.
 ms.assetid: 123b020e-cdd6-4db0-93a8-cecef5ff5012
-title: CDrawImage::m_pBaseWindow member
-ms.topic: article
+title: CDrawImage::m_pBaseWindow member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

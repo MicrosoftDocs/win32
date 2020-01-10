@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the InkCollector detects a cursor button that is up.
 ms.assetid: ce7205f7-727c-4acf-a727-4dbb3cc42441
-title: InkOverlay.CursorButtonUp event
-ms.topic: article
+title: InkOverlay.CursorButtonUp event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

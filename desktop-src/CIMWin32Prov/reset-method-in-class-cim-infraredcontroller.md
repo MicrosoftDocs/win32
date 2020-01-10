@@ -3,7 +3,7 @@ Description: The Reset method requests a reset of the logical device. This metho
 ms.assetid: 16e77637-f063-4206-a9b3-2c7d08c652a6
 ms.tgt_platform: multiple
 title: Reset method of the CIM_InfraredController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the next item from the queue.
 ms.assetid: 406ae640-5903-427d-91f9-8b01beb1aaa7
-title: CQueue.GetQueueObject method
-ms.topic: article
+title: CQueue.GetQueueObject method (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

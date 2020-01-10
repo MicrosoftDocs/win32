@@ -1,8 +1,8 @@
 ---
 Description: The GetCount method retrieves the number of items in the collection.
 ms.assetid: 89266483-4211-43d2-a306-68c70f1e7026
-title: IPortableDeviceValues::GetCount method
-ms.topic: article
+title: IPortableDeviceValues::GetCount method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: TTM_GETTIPBKCOLOR message
+title: TTM_GETTIPBKCOLOR message (Commctrl.h)
 description: Retrieves the background color in a tooltip window.
 ms.assetid: 0dbd5172-cb4f-4dc0-b523-cdc46c05dbb3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

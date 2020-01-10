@@ -1,8 +1,8 @@
 ---
 Description: Tells the driver what macroblocks to render by specifying the surfaces containing the macroblocks, the offsets in each surface where the macroblocks exist, and the size of the macroblock data to be rendered.
 ms.assetid: c49d9dfa-a3db-4572-a474-72c7d4e80940
-title: NtGdiDdRenderMoComp function
-ms.topic: article
+title: NtGdiDdRenderMoComp function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdRenderMoComp(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
+Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puRenderMoCompData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_RENDERMOCOMPDATA**](https://msdn.microsoft.com/en-us/library/Ff551693(v=VS.85).aspx) structure that contains the information needed to render a frame.
+Pointer to a [**DD\_RENDERMOCOMPDATA**](https://msdn.microsoft.com/library/Ff551693(v=VS.85).aspx) structure that contains the information needed to render a frame.
 
 </dd> </dl>
 

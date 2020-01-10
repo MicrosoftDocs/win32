@@ -1,5 +1,5 @@
 ---
-title: DRM_LICENSE_STATE_DATA structure
+title: DRM_LICENSE_STATE_DATA structure (Drmexternals.h)
 description: The DRM\_LICENSE\_STATE\_DATA structure contains license information about a specified DRM right.
 ms.assetid: '5ca577b5-d28b-4e36-8af7-6fae4300d464'
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -105,7 +105,7 @@ Zero or more of the following flags combined with a bitwise **OR**:
 
 ## Remarks
 
-This structure is returned (encapsulated in a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/en-us/library/Dd757942(v=VS.85).aspx) structure) from a call to [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) when you specify one of the DRM license state properties. These properties are:
+This structure is returned (encapsulated in a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx) structure) from a call to [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) when you specify one of the DRM license state properties. These properties are:
 
 -   [**DRM\_LicenseState\_Playback**](drm-licensestate-playback.md)
 -   [**DRM\_LicenseState\_CopyToCD**](drm-licensestate-copytocd.md)

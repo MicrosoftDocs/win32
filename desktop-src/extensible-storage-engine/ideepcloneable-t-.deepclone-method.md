@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.IDeepCloneable`1.DeepClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578936(v=EXCHG.10)
 ms:contentKeyID: 39512955
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.IDeepCloneable`1.DeepClone
 dev_langs:

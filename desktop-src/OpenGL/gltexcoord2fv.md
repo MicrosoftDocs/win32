@@ -1,5 +1,5 @@
 ---
-title: glTexCoord2fv function
+title: glTexCoord2fv function (Gl.h)
 description: Sets the current texture coordinates.
 ms.assetid: ee7976ae-cea8-4116-8810-20d0995ff569
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Constructs instances of the XMMATRIX structure.
 ms.assetid: 5efe5362-fb5a-46ff-b421-887f654a464f
 title: XMMATRIX constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -15,9 +15,9 @@ api_location:
 
 # XMMATRIX constructors
 
-Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) structure.
+Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) structure.
 
-Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) structure.
+Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -86,7 +86,7 @@ This constructor is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
+[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
 </dt> </dl>
 
  

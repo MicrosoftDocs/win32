@@ -3,7 +3,7 @@ Description: The CIM\_Statistics class represents an association that relates ma
 ms.assetid: fc75991b-adcd-4e47-b610-7503f6bb7c03
 ms.tgt_platform: multiple
 title: CIM_Statistics class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

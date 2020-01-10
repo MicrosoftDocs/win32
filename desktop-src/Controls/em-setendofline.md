@@ -1,5 +1,5 @@
 ---
-title: EM_SETENDOFLINE message
+title: EM_SETENDOFLINE message (CommCtrl.h)
 description: Sets the end-of-line character used when a linebreak is inserted.
 ms.assetid: a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 10/19/2018
 ---
 

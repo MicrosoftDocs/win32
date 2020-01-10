@@ -1,5 +1,5 @@
 ---
-title: Enabled Property
+title: Enabled Property (Command Object)
 description: Enabled Property
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article

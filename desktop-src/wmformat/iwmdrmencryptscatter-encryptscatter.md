@@ -1,5 +1,5 @@
 ---
-title: IWMDRMEncryptScatter EncryptScatter method
+title: IWMDRMEncryptScatter EncryptScatter method (Wmdrmsdk.h)
 description: The EncryptScatter method unscrambles and encrypts data.
 ms.assetid: e7f87aac-387b-4483-956e-bfbca0cec0f2
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

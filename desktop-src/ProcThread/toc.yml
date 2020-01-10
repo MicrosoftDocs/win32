@@ -233,15 +233,15 @@
       - name: "CPU_SET_INFORMATION_TYPE"
         href: cpu-set-information-type.md
       - name: "LOGICAL_PROCESSOR_RELATIONSHIP"
-        href: /windows/desktop/api/WinNT/ne-winnt-_logical_processor_relationship
+        href: /windows/win32/api/WinNT/ne-winnt-logical_processor_relationship
       - name: "JOB_OBJECT_NET_RATE_CONTROL_FLAGS"
         href: /windows/desktop/api/Winnt/ne-winnt-job_object_net_rate_control_flags
       - name: "PROCESS_MEMORY_EXHAUSTION_TYPE"
         href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ne-processthreadsapi-_process_memory_exhaustion_type
       - name: "PROCESS_MITIGATION_POLICY"
-        href: /windows/desktop/api/WinNT/ne-winnt-_process_mitigation_policy
+        href: /windows/win32/api/WinNT/ne-winnt-process_mitigation_policy
       - name: "PROCESSOR_CACHE_TYPE"
-        href: /windows/desktop/api/WinNT/ne-winnt-_processor_cache_type
+        href: /windows/win32/api/WinNT/ne-winnt-processor_cache_type
       - name: "UMS_THREAD_INFO_CLASS"
         href: https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class
     - name: "Process and Thread Functions"
@@ -762,114 +762,114 @@
       - name: "PROCESS_PROTECTION_LEVEL_INFORMATION"
         href: /windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information
       - name: "THREAD_POWER_THROTTLING_STATE"
-        href: /windows/desktop/api/processthreadsapi/ns-processthreadsapi-_thread_power_throttling_state
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-thread_power_throttling_state
       - name: "PROCESS_POWER_THROTTLING_STATE"
-        href: /windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_power_throttling_state
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state
       - name: "APP_MEMORY_INFORMATION"
         href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_app_memory_information
       - name: "AR_STATE"
-        href: /windows/desktop/api/WinUser/ne-winuser-tagar_state
+        href: /windows/win32/api/WinUser/ne-winuser-ar_state
       - name: "CACHE_DESCRIPTOR"
-        href: /windows/desktop/api/WinNT/ns-winnt-_cache_descriptor
+        href: /windows/win32/api/WinNT/ns-winnt-cache_descriptor
       - name: "CACHE_RELATIONSHIP"
-        href: /windows/desktop/api/WinNT/ns-winnt-_cache_relationship
+        href: /windows/win32/api/WinNT/ns-winnt-cache_relationship
       - name: "GROUP_AFFINITY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_group_affinity
+        href: /windows/win32/api/WinNT/ns-winnt-group_affinity
       - name: "GROUP_RELATIONSHIP"
-        href: /windows/desktop/api/WinNT/ns-winnt-_group_relationship
+        href: /windows/win32/api/WinNT/ns-winnt-group_relationship
       - name: "IO_COUNTERS"
-        href: /windows/desktop/api/WinNT/ns-winnt-_io_counters
+        href: /windows/win32/api/WinNT/ns-winnt-io_counters
       - name: "JOBOBJECT_ASSOCIATE_COMPLETION_PORT"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_associate_completion_port
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_associate_completion_port
       - name: "JOBOBJECT_BASIC_ACCOUNTING_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_accounting_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_basic_accounting_information
       - name: "JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_and_io_accounting_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_basic_and_io_accounting_information
       - name: "JOBOBJECT_BASIC_LIMIT_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_limit_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_basic_limit_information
       - name: "JOBOBJECT_BASIC_PROCESS_ID_LIST"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_process_id_list
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_basic_process_id_list
       - name: "JOBOBJECT_BASIC_UI_RESTRICTIONS"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_basic_ui_restrictions
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_basic_ui_restrictions
       - name: "JOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
-        href: /windows/desktop/api/Winnt/ns-winnt-_jobobject_cpu_rate_control_information
+        href: /windows/win32/api/Winnt/ns-winnt-jobobject_cpu_rate_control_information
       - name: "JOBOBJECT_END_OF_JOB_TIME_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_end_of_job_time_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_end_of_job_time_information
       - name: "JOBOBJECT_EXTENDED_LIMIT_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_extended_limit_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_extended_limit_information
       - name: "JOBOBJECT_IO_RATE_CONTROL_INFORMATION"
         href: /windows/desktop/api/jobapi2/ns-jobapi2-jobobject_io_rate_control_information
       - name: "JOBOBJECT_LIMIT_VIOLATION_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_limit_violation_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_limit_violation_information
       - name: "JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2"
         href: /windows/desktop/api/Winnt/ns-winnt-jobobject_limit_violation_information_2
       - name: "JOBOBJECT_NET_RATE_CONTROL_INFORMATION"
         href: /windows/desktop/api/Winnt/ns-winnt-jobobject_net_rate_control_information
       - name: "JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_notification_limit_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_notification_limit_information
       - name: "JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2"
         href: /windows/desktop/api/Winnt/ns-winnt-jobobject_notification_limit_information_2
       - name: "JOBOBJECT_SECURITY_LIMIT_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_jobobject_security_limit_information
+        href: /windows/win32/api/WinNT/ns-winnt-jobobject_security_limit_information
       - name: "MEMORY_PRIORITY_INFORMATION"
         href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_memory_priority_information
       - name: "NUMA_NODE_RELATIONSHIP"
-        href: /windows/desktop/api/WinNT/ns-winnt-_numa_node_relationship
+        href: /windows/win32/api/WinNT/ns-winnt-numa_node_relationship
       - name: "ORIENTATION_PREFERENCE"
         href: /windows/desktop/api/WinUser/ne-winuser-orientation_preference
       - name: "PEB"
-        href: /windows/desktop/api/Winternl/ns-winternl-_peb
+        href: /windows/win32/api/Winternl/ns-winternl-peb
       - name: "PEB_LDR_DATA"
-        href: /windows/desktop/api/Winternl/ns-winternl-_peb_ldr_data
+        href: /windows/win32/api/Winternl/ns-winternl-peb_ldr_data
       - name: "PROCESS_INFORMATION"
         href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information
       - name: "PROCESS_MEMORY_EXHAUSTION_INFO"
         href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_memory_exhaustion_info
       - name: "PROCESS_MITIGATION_ASLR_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_aslr_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_aslr_policy
       - name: "PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_binary_signature_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_binary_signature_policy
       - name: "PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_control_flow_guard_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_control_flow_guard_policy
       - name: "PROCESS_MITIGATION_DEP_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_dep_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_dep_policy
       - name: "PROCESS_MITIGATION_DYNAMIC_CODE_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_dynamic_code_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_dynamic_code_policy
       - name: "PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY"
-        href: /windows/desktop/api/winnt/ns-winnt-_process_mitigation_extension_point_disable_policy
+        href: /windows/win32/api/winnt/ns-winnt-process_mitigation_extension_point_disable_policy
       - name: "PROCESS_MITIGATION_FONT_DISABLE_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_font_disable_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_font_disable_policy
       - name: "PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_image_load_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_image_load_policy
       - name: "PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_strict_handle_check_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_strict_handle_check_policy
       - name: "PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_process_mitigation_system_call_disable_policy
+        href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_system_call_disable_policy
       - name: "PROCESSOR_GROUP_INFO"
-        href: /windows/desktop/api/WinNT/ns-winnt-_processor_group_info
+        href: /windows/win32/api/WinNT/ns-winnt-processor_group_info
       - name: "PROCESSOR_NUMBER"
-        href: /windows/desktop/api/WinNT/ns-winnt-_processor_number
+        href: /windows/win32/api/WinNT/ns-winnt-processor_number
       - name: "PROCESSOR_RELATIONSHIP"
-        href: /windows/desktop/api/WinNT/ns-winnt-_processor_relationship
+        href: /windows/win32/api/WinNT/ns-winnt-processor_relationship
       - name: "RTL_USER_PROCESS_PARAMETERS"
-        href: /windows/desktop/api/Winternl/ns-winternl-_rtl_user_process_parameters
+        href: /windows/win32/api/Winternl/ns-winternl-rtl_user_process_parameters
       - name: "STARTUPINFO"
         href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa
       - name: "STARTUPINFOEX"
-        href: /windows/desktop/api/WinBase/ns-winbase-_startupinfoexa
+        href: /windows/win32/api/WinBase/ns-winbase-startupinfoexa
       - name: "SYSTEM_CPU_SET_INFORMATION"
-        href: /windows/desktop/api/winnt/ns-winnt-_system_cpu_set_information
+        href: /windows/win32/api/winnt/ns-winnt-system_cpu_set_information
       - name: "SYSTEM_LOGICAL_PROCESSOR_INFORMATION"
-        href: /windows/desktop/api/WinNT/ns-winnt-_system_logical_processor_information
+        href: /windows/win32/api/WinNT/ns-winnt-system_logical_processor_information
       - name: "SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
-        href: /windows/desktop/api/WinNT/ns-winnt-_system_logical_processor_information_ex
+        href: /windows/win32/api/WinNT/ns-winnt-system_logical_processor_information_ex
       - name: "TEB"
-        href: /windows/desktop/api/Winternl/ns-winternl-_teb
+        href: /windows/win32/api/Winternl/ns-winternl-teb
       - name: "UMS_CREATE_THREAD_ATTRIBUTES"
-        href: /windows/desktop/api/WinNT/ns-winnt-_ums_create_thread_attributes
+        href: /windows/win32/api/WinNT/ns-winnt-ums_create_thread_attributes
       - name: "UMS_SCHEDULER_STARTUP_INFO"
-        href: /windows/desktop/api/WinBase/ns-winbase-_ums_scheduler_startup_info
+        href: /windows/win32/api/WinBase/ns-winbase-ums_scheduler_startup_info
       - name: "UMS_SYSTEM_THREAD_INFORMATION"
-        href: /windows/desktop/api/WinBase/ns-winbase-_ums_system_thread_information
+        href: /windows/win32/api/WinBase/ns-winbase-ums_system_thread_information
     - name: "Process Creation Flags"
       href: process-creation-flags.md

@@ -2,7 +2,7 @@
 Description: This class is the parent class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 362d7653-1ba0-45b7-80f3-0fccca0badf1
 title: Registry class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

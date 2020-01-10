@@ -1,8 +1,8 @@
 ---
 Description: The MXDC\_PRINTTICKET\_ESCAPE\_T structure is a MXDC\_ESCAPE\_HEADER\_T structure concatenated with a MXDC\_PRINTTICKET\_DATA\_T structure.
 ms.assetid: 79b4f830-3e3f-4c6f-9e61-98e8bf6e2824
-title: MXDC_PRINTTICKET_ESCAPE_T structure
-ms.topic: structure
+title: MXDC_PRINTTICKET_ESCAPE_T structure (Mxdc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -97,7 +97,7 @@ If the **opCode** is set to **MXDCOP\_PRINTTICKET\_FIXED\_PAGE**, the call to [*
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/en-us/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)

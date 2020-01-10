@@ -1,5 +1,5 @@
 ---
-title: TEXT Element
+title: TEXT Element (Windows Media Player SDK)
 description: TEXT Element
 ms.assetid: '4523fe7a-a77a-4bf2-9195-3943bff0eb21'
 keywords:

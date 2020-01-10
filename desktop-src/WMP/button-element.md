@@ -1,5 +1,5 @@
 ---
-title: BUTTON Element
+title: BUTTON Element (WMP)
 description: BUTTON Element
 ms.assetid: 2818ff6a-4fc5-4150-9ff9-ff143feb9204
 keywords:

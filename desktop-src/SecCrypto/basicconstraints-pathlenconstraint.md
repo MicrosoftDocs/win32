@@ -2,7 +2,7 @@
 Description: Retrieves the value of the path length constraint.
 ms.assetid: 77a12fdf-e9ed-4c79-aa2c-bd476ab3ff90
 title: BasicConstraints.PathLenConstraint property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

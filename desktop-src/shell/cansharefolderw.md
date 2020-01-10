@@ -1,7 +1,7 @@
 ---
 Description: Used to determine whether to show the Share this folder option in web view.
 title: CanShareFolderW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -77,7 +77,7 @@ Return values include the following.
 
 ## Remarks
 
-This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) to use it.
+This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to use it.
 
 ## Requirements
 
@@ -96,7 +96,7 @@ This function has no associated .lib file. You must use [**LoadLibrary**](https:
 
 <dl> <dt>
 
-[**ShowShareFolderUI**](https://msdn.microsoft.com/en-us/library/Bb762235(v=VS.85).aspx)
+[**ShowShareFolderUI**](https://msdn.microsoft.com/library/Bb762235(v=VS.85).aspx)
 </dt> </dl>
 
  

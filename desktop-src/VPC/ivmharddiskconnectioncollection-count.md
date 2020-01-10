@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnectionCollection Count property
+title: IVMHardDiskConnectionCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of hard disk connections in this collection.
 ms.assetid: 913c1bb7-0237-4f11-9873-7b42a94004f8
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Queries the blit status of the specified surface.
 ms.assetid: 0221bdc6-2146-4f4d-afb5-d1f701446d5e
-title: NtGdiDdGetBltStatus function
-ms.topic: article
+title: NtGdiDdGetBltStatus function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdGetBltStatus(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/en-us/library/ms793861.aspx) structure representing the surface whose blit status is being queried.
+Handle to a [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/library/ms793861.aspx) structure representing the surface whose blit status is being queried.
 
 </dd> <dt>
 
 *puGetBltStatusData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_GETBLTSTATUSDATA](https://msdn.microsoft.com/en-us/library/ms794243.aspx) structure that contains the information required to perform the blit status query.
+Pointer to a [DD\_GETBLTSTATUSDATA](https://msdn.microsoft.com/library/ms794243.aspx) structure that contains the information required to perform the blit status query.
 
 </dd> </dl>
 

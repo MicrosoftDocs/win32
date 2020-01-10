@@ -1,5 +1,5 @@
 ---
-title: RpcTryExcept
+title: RpcTryExcept (Rpc.h)
 description: The RpcTryExcept statement provides structured exception handling for RPC applications.
 ms.assetid: 3addb367-4bdc-4c11-bf4d-b5b94da45b26
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rpc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

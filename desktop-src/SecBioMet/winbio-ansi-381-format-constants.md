@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_381_FORMAT Constants
+title: WINBIO_ANSI_381_FORMAT Constants (Winbio\_types.h)
 description: Specify format owner and format type.
 ms.assetid: 5EFFF7EB-D998-4EE9-A23F-B17477F00863
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

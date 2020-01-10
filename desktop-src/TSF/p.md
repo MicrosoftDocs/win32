@@ -1,7 +1,7 @@
 ---
-title: P
+title: P (Text Services Framework)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '60666b4e-4aac-4a81-9675-46bc77e56133'
 ms.topic: article
 ms.date: 05/31/2018

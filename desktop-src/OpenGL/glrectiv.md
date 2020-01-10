@@ -1,5 +1,5 @@
 ---
-title: glRectiv function
+title: glRectiv function (Gl.h)
 description: The glRectiv function draws a rectangle.
 ms.assetid: 24db6fc0-9b53-4e72-9b12-18ea65409f12
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

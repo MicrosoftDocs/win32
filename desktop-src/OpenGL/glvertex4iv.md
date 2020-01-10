@@ -1,5 +1,5 @@
 ---
-title: glVertex4iv function
+title: glVertex4iv function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: 7b56777a-f904-4a9d-8d3d-84a38cbf0b45
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

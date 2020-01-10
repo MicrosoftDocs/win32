@@ -1,5 +1,5 @@
 ---
-title: COMBOBOX control
+title: COMBOBOX control (Menus and Other Resources)
 description: Defines a combination box control (a combo box).
 ms.assetid: 0a0fcfa8-b65c-44c1-89d8-f5020af10f0f
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - COMBOBOX
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

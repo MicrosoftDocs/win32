@@ -6,7 +6,7 @@ keywords:
 - GoForward method Legacy Windows Environment Features
 - GoForward method Legacy Windows Environment Features , IResultProperty interface
 - IResultProperty interface Legacy Windows Environment Features , GoForward method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

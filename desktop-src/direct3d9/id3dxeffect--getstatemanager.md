@@ -1,8 +1,8 @@
 ---
 Description: Get the effect state manager.
 ms.assetid: 4a09eb2a-2393-40b0-81b9-3c27998c2b77
-title: ID3DXEffect::GetStateManager method
-ms.topic: article
+title: ID3DXEffect::GetStateManager method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Returns a pointer to the state manager. See [**ID3DXEffectStateManager**](id3dxe
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

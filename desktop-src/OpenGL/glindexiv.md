@@ -1,5 +1,5 @@
 ---
-title: glIndexiv function
+title: glIndexiv function (Gl.h)
 description: The glIndexiv function sets the current color index.
 ms.assetid: 642c243f-046d-474e-8075-ef5692797020
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: RB_SETTEXTCOLOR message
+title: RB_SETTEXTCOLOR message (Commctrl.h)
 description: Sets a rebar control's default text color.
 ms.assetid: 85f120bd-39aa-43f8-a794-3bb4f3fe1cd4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

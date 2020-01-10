@@ -1,5 +1,5 @@
 ---
-title: BM_GETCHECK message
+title: BM_GETCHECK message (Winuser.h)
 description: Gets the check state of a radio button or check box. You can send this message explicitly or use the Button\_GetCheck macro.
 ms.assetid: a25b2c8d-0b32-4807-bfb4-e277675924f1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

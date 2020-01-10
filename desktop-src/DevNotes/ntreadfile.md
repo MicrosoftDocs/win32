@@ -1,8 +1,8 @@
 ---
 Description: Reads data from an open file.
 ms.assetid: 7EA2FE38-20DA-43E1-A764-66A81725D1EA
-title: NtReadFile function
-ms.topic: article
+title: NtReadFile function (Wdm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 Reads data from an open file.
 
-This function is the user-mode equivalent to the [**ZwReadFile**](https://msdn.microsoft.com/en-us/library/Ff567072(v=VS.85).aspx) function documented in the Windows Driver Kit (WDK).
+This function is the user-mode equivalent to the [**ZwReadFile**](https://msdn.microsoft.com/library/Ff567072(v=VS.85).aspx) function documented in the Windows Driver Kit (WDK).
 
 ## Syntax
 
@@ -75,7 +75,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 *IoStatusBlock* \[out\]
 </dt> <dd>
 
-Pointer to an [**IO\_STATUS\_BLOCK**](https://msdn.microsoft.com/en-us/library/Ff550671(v=VS.85).aspx) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
+Pointer to an [**IO\_STATUS\_BLOCK**](https://msdn.microsoft.com/library/Ff550671(v=VS.85).aspx) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
 
 </dd> <dt>
 
@@ -176,7 +176,7 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 
 <dl> <dt>
 
-[**KeInitializeEvent**](https://msdn.microsoft.com/en-us/library/Ff552137(v=VS.85).aspx)
+[**KeInitializeEvent**](https://msdn.microsoft.com/library/Ff552137(v=VS.85).aspx)
 </dt> <dt>
 
 [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile)

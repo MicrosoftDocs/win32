@@ -135,14 +135,14 @@
       href: structs.md
       items: 
       - name: "DWM_BLURBEHIND"
-        href: /windows/desktop/api/Dwmapi/ns-dwmapi-_dwm_blurbehind
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_blurbehind
       - name: "DWM_PRESENT_PARAMETERS"
-        href: /windows/desktop/api/Dwmapi/ns-dwmapi-_dwm_present_parameters
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_present_parameters
       - name: "DWM_THUMBNAIL_PROPERTIES"
-        href: /windows/desktop/api/Dwmapi/ns-dwmapi-_dwm_thumbnail_properties
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_thumbnail_properties
       - name: "DWM_TIMING_INFO"
-        href: /windows/desktop/api/Dwmapi/ns-dwmapi-_dwm_timing_info
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-dwm_timing_info
       - name: "MilMatrix3x2D"
-        href: /windows/desktop/api/Dwmapi/ns-dwmapi-_milmatrix3x2d
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-milmatrix3x2d
       - name: "UNSIGNED_RATIO"
-        href: /windows/desktop/api/Dwmapi/ns-dwmapi-_unsigned_ratio
+        href: /windows/win32/api/Dwmapi/ns-dwmapi-unsigned_ratio

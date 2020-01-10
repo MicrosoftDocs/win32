@@ -8,20 +8,20 @@ ms.date: 05/31/2018
 
 # Interactive Authentication
 
-Authentication is interactive when a user is prompted to supply logon information. The [*Local Security Authority*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) (LSA) performs an interactive authentication when a user logs on through the [*GINA*](https://msdn.microsoft.com/en-us/library/ms721584(v=VS.85).aspx) user interface. The following illustration shows the parts of a typical interactive authentication.
+Authentication is interactive when a user is prompted to supply logon information. The [*Local Security Authority*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) (LSA) performs an interactive authentication when a user logs on through the [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) user interface. The following illustration shows the parts of a typical interactive authentication.
 
 ![interactive authentication](images/lsaint3.png)
 
-A user signals the system to begin the logon sequence by typing the CTRL+ALT+DEL [*secure attention sequence*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SAS). [*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) receives the SAS and calls the GINA to display a user interface and obtain the user's logon data, such as a user name and password.
+A user signals the system to begin the logon sequence by typing the CTRL+ALT+DEL [*secure attention sequence*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SAS). [*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) receives the SAS and calls the GINA to display a user interface and obtain the user's logon data, such as a user name and password.
 
 After obtaining the logon data, the GINA calls the [**LsaLogonUser**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalogonuser) function to authenticate the user, specifying which authentication package must be used to evaluate the logon data.
 
 The LSA calls the specified authentication package and passes the logon data to it. The authentication package examines the data and determines whether the authentication is successful. The authentication result is returned to the LSA and from the LSA, to the GINA.
 
-The GINA displays the success or failure of the authentication to the user and returns the result of the authentication to Winlogon. If the authentication succeeds, the user's logon session begins and a set of logon [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) are saved for future reference.
+The GINA displays the success or failure of the authentication to the user and returns the result of the authentication to Winlogon. If the authentication succeeds, the user's logon session begins and a set of logon [*credentials*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) are saved for future reference.
 
 > [!Note]  
-> In general, a developer who writes a custom GINA to accept specialized logon data, such as a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) or retinal-scan data, must also write an authentication package responsible for processing that data and determining its authenticity.
+> In general, a developer who writes a custom GINA to accept specialized logon data, such as a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) or retinal-scan data, must also write an authentication package responsible for processing that data and determining its authenticity.
 
  
 

@@ -20,7 +20,7 @@ keywords:
 - control types,support for ProgressBar
 - control types,ProgressBar
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/04/2019
 ---
 
 # ProgressBar Control Type
@@ -33,17 +33,15 @@ The following sections define the required UI Automation tree structure, propert
 
 This topic contains the following sections.
 
--   [Typical Tree Structure](#typical-tree-structure)
--   [Relevant Properties](#relevant-properties)
--   [Required Control Patterns](#required-control-patterns)
--   [Required Events](#required-events)
--   [Related topics](#related-topics)
+- [Typical Tree Structure](#typical-tree-structure)
+- [Relevant Properties](#relevant-properties)
+- [Required Control Patterns](#required-control-patterns)
+- [Required Events](#required-events)
+- [Related topics](#related-topics)
 
 ## Typical Tree Structure
 
 The following table depicts a typical control and content view of the UI Automation tree that pertains to progress bar controls and describes what can be contained in each view. For more information about the UI Automation tree, see [UI Automation Tree Overview](uiauto-treeoverview.md).
-
-
 
 <table>
 <colgroup>
@@ -68,17 +66,11 @@ The following table depicts a typical control and content view of the UI Automat
 </tbody>
 </table>
 
-
-
- 
-
 The progress bar controls do not have any children in the control or content view of the UI Automation tree.
 
 ## Relevant Properties
 
 The following table lists the UI Automation properties whose value or definition is especially relevant to progress bars. For more information about UI Automation properties, see [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md).
-
-
 
 | UI Automation Property                                                                                              | Value           | Notes                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,8 +98,8 @@ The following table lists the UI Automation control patterns required to be supp
 | Control Pattern/Pattern Property                              | Support/Value | Notes                                                                                                                                      |
 |---------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IRangeValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irangevalueprovider)     | Depends       | Progress bar controls that take a numeric range must implement the [RangeValue](uiauto-implementingrangevalue.md) control pattern.        |
-| [**Minimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)         | 0.0           | The value of this property must be the smallest value that the control can be set to.                                                      |
-| [**Maximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | 100.0         | The value of this property must be the largest value that the control can be set to.                                                       |
+| [**Minimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)         | Depends           | The value of this property is the minimum value that the control can be set to. This value should be less than [**Maximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum).                                                      |
+| [**Maximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | Depends         | The value of this property is the maximum value that the control can be set to. This value should be greater than [**Minimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum).                                                        |
 | [**SmallChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange) | **NaN**       | This property is not required because progress bar controls are read-only.                                                                 |
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | **NaN**       | This property is not required because progress bar controls are read-only.                                                                 |
 | [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)               | Depends       | Progress bar controls that give a textual indication of progress must implement the [Value](uiauto-implementingvalue.md) control pattern. |

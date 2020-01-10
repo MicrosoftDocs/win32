@@ -1,6 +1,6 @@
 ---
-title: Structures
-description: Structures
+title: Microsoft Windows Media DRM Client Structures
+description: Microsoft Windows Media DRM Client Structures
 ms.assetid: 794de1b7-d60c-435e-9f77-c4df109b5372
 keywords:
 - Windows Media Format SDK,structures

@@ -37,19 +37,19 @@
       href: nap-enumerated-types.md
       items: 
       - name: "FailureCategory"
-        href: /windows/desktop/api/NapTypes/ne-naptypes-tagfailurecategory
+        href: /windows/win32/api/NapTypes/ne-naptypes-failurecategory
       - name: "FixupState"
-        href: /windows/desktop/api/NapTypes/ne-naptypes-tagfixupstate
+        href: /windows/win32/api/NapTypes/ne-naptypes-fixupstate
       - name: "HealthClassValue"
         href: healthclassvalue-enum.md
       - name: "IsolationState"
-        href: /windows/desktop/api/NapTypes/ne-naptypes-tagisolationstate
+        href: /windows/win32/api/NapTypes/ne-naptypes-isolationstate
       - name: "ExtendedIsolationState"
-        href: /windows/desktop/api/NapTypes/ne-naptypes-tagextendedisolationstate
+        href: /windows/win32/api/NapTypes/ne-naptypes-extendedisolationstate
       - name: "NapNotifyType"
-        href: /windows/desktop/api/NapTypes/ne-naptypes-tagnapnotifytype
+        href: /windows/win32/api/NapTypes/ne-naptypes-napnotifytype
       - name: "RemoteConfigurationType"
-        href: /windows/desktop/api/NapTypes/ne-naptypes-tagremoteconfigurationtype
+        href: /windows/win32/api/NapTypes/ne-naptypes-remoteconfigurationtype
       - name: "SoHAttributeType"
         href: sohattributetype-enum.md
     - name: "NAP Interfaces"
@@ -344,37 +344,37 @@
       - name: "Connections"
         href: connections-struct.md
       - name: "CorrelationId"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagcorrelationid
+        href: /windows/win32/api/NapTypes/ns-naptypes-correlationid
       - name: "CountedString"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagcountedstring
+        href: /windows/win32/api/NapTypes/ns-naptypes-countedstring
       - name: "FailureCategoryMapping"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagfailurecategorymapping
+        href: /windows/win32/api/NapTypes/ns-naptypes-failurecategorymapping
       - name: "FixupInfo"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagfixupinfo
+        href: /windows/win32/api/NapTypes/ns-naptypes-fixupinfo
       - name: "Ipv4Address"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagipv4address
+        href: /windows/win32/api/NapTypes/ns-naptypes-ipv4address
       - name: "Ipv6Address"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagipv6address
+        href: /windows/win32/api/NapTypes/ns-naptypes-ipv6address
       - name: "IsolationInfo"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfo
+        href: /windows/win32/api/NapTypes/ns-naptypes-isolationinfo
       - name: "IsolationInfoEx"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagisolationinfoex
+        href: /windows/win32/api/NapTypes/ns-naptypes-isolationinfoex
       - name: "NapComponentRegistrationInfo"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo
+        href: /windows/win32/api/NapTypes/ns-naptypes-napcomponentregistrationinfo
       - name: "NetworkSoH"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagnetworksoh
+        href: /windows/win32/api/NapTypes/ns-naptypes-networksoh
       - name: "PrivateData"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagprivatedata
+        href: /windows/win32/api/NapTypes/ns-naptypes-privatedata
       - name: "ResultCodes"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagresultcodes
+        href: /windows/win32/api/NapTypes/ns-naptypes-resultcodes
       - name: "SoH"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagsoh
+        href: /windows/win32/api/NapTypes/ns-naptypes-soh
       - name: "SoHAttribute"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagsohattribute
+        href: /windows/win32/api/NapTypes/ns-naptypes-sohattribute
       - name: "SoHAttributeValue"
         href: sohattributevalue-union.md
       - name: "SystemHealthAgentState"
-        href: /windows/desktop/api/NapTypes/ns-naptypes-tagsystemhealthagentstate
+        href: /windows/win32/api/NapTypes/ns-naptypes-systemhealthagentstate
     - name: "NAP Utility Functions"
       href: nap-utility-functions.md
       items: 

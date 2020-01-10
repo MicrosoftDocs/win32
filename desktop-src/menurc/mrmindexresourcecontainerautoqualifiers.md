@@ -1,5 +1,5 @@
 ---
-title: MrmIndexResourceContainerAutoQualifiers function
+title: MrmIndexResourceContainerAutoQualifiers function (MrmResourceIndexer.h)
 description: Indexes the string resources contained inside a Resources File (.resw/.resjson), or a .priinfo or .prifile, belonging to a UWP app.
 ms.assetid: 7FCAA2B5-FF45-4961-84BA-B444B550C91D
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

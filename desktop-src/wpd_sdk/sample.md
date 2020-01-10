@@ -1,12 +1,12 @@
 ---
+title: WPD samples
 Description: Samples
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
-title: Samples
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Samples
+# WPD samples
 
 The Windows SDK provides two samples: [WpdApiSample](wpdapisample-sample-application.md) and [WpdServiceApiSample](wpdapisample-sample-service-application.md).
 

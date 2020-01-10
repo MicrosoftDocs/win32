@@ -1,5 +1,5 @@
 ---
-title: PSM_INDEXTOHWND message
+title: PSM_INDEXTOHWND message (Prsht.h)
 description: Takes the index of a property sheet page and returns its window handle. You can send this message explicitly or use the PropSheet\_IndexToHwnd macro.
 ms.assetid: 93b46b4c-47f9-4ce8-8797-f3d4bd5248e9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

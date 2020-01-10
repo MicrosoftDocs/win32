@@ -1,8 +1,8 @@
 ---
 Description: Adjusts the hue.
 ms.assetid: 8dc3c888-5ab8-40a1-8768-bec58b62eaf0
-title: MFPKEY_COLOR_HUE Property
-ms.topic: article
+title: MFPKEY_COLOR_HUE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Adjusts the hue.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

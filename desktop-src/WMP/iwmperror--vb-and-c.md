@@ -1,5 +1,5 @@
 ---
-title: IWMPError (VB and C ) interface
+title: IWMPError (VB and C ) interface (Wmp.h)
 description: Provides properties and methods for accessing a collection of IWMPErrorItem interfaces for retrieving error information.The IWMPError interface exposes the following properties.
 ms.assetid: c7d9f834-43ed-40a2-95a3-b1633f025118
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: Sent to an extension DLL when the user selects a file name in the File Manager directory window or Search Results window.
-title: FMEVENT_SELCHANGE message
-ms.topic: article
+title: FMEVENT_SELCHANGE message (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

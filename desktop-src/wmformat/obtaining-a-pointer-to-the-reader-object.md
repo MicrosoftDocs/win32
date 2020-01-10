@@ -1,5 +1,5 @@
 ---
-title: Obtaining a Pointer to the Reader Object
+title: Obtaining a Pointer to the Reader Object (Windows Media Format 11 SDK)
 description: Obtaining a Pointer to the Reader Object
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:

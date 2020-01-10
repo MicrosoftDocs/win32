@@ -1,5 +1,5 @@
 ---
-title: EM_GETWORDBREAKPROCEX message
+title: EM_GETWORDBREAKPROCEX message (Richedit.h)
 description: Retrieves the address of the currently registered extended word-break procedure for a rich edit control.
 ms.assetid: 391681b6-fba9-4fc8-8778-3b3bd45ee5d6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

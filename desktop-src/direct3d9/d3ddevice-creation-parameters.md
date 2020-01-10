@@ -1,8 +1,8 @@
 ---
 Description: Describes the creation parameters for a device.
 ms.assetid: 7db5ef2b-6894-4113-b726-8b238bb4fb2f
-title: D3DDEVICE_CREATION_PARAMETERS structure
-ms.topic: structure
+title: D3DDEVICE_CREATION_PARAMETERS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -40,7 +40,7 @@ typedef struct D3DDEVICE_CREATION_PARAMETERS {
 **AdapterOrdinal**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -51,18 +51,18 @@ Ordinal number that denotes the display adapter. D3DADAPTER\_DEFAULT is always t
 **DeviceType**
 </dt> <dd>
 
-Type: **[**D3DDEVTYPE**](https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx)**
+Type: **[**D3DDEVTYPE**](https://msdn.microsoft.com/library/Bb172547(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DDEVTYPE**](https://msdn.microsoft.com/en-us/library/Bb172547(v=VS.85).aspx) enumerated type. Denotes the amount of emulated functionality for this device. The value of this parameter mirrors the value passed to the [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) call that created this device.
+Member of the [**D3DDEVTYPE**](https://msdn.microsoft.com/library/Bb172547(v=VS.85).aspx) enumerated type. Denotes the amount of emulated functionality for this device. The value of this parameter mirrors the value passed to the [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) call that created this device.
 
 </dd> <dt>
 
 **hFocusWindow**
 </dt> <dd>
 
-Type: **[**HWND**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HWND**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Window handle to which focus belongs for this Direct3D device. The value of this
 **BehaviorFlags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

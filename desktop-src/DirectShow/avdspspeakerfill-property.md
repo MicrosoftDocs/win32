@@ -1,8 +1,8 @@
 ---
 Description: Enables or disables speaker fill in an audio decoder or digital signal processor (DSP).
 ms.assetid: 5a42d4c9-d593-4d7f-bfee-37271c48e5cf
-title: AVDSPSpeakerFill property
-ms.topic: article
+title: AVDSPSpeakerFill property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

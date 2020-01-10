@@ -1,8 +1,8 @@
 ---
 Description: Gets the type of the endpoint token, such as a WS-Security SAML (Security Assertion Markup Language) 1.1 token.
 ms.assetid: 1C6FFAD7-DC80-4957-96B4-FA0D954786DD
-title: IUpdateEndpointAuthToken::TokenType method
-ms.topic: article
+title: IUpdateEndpointAuthToken::TokenType method (UpdateEndpointAuth.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

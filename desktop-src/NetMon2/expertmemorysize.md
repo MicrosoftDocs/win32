@@ -1,8 +1,8 @@
 ---
 Description: The ExpertMemorySize function returns the amount of memory allocated by the ExpertAllocMemory function.
 ms.assetid: 60d3f33d-dc03-4c39-98fa-ec093398b51b
-title: ExpertMemorySize function
-ms.topic: article
+title: ExpertMemorySize function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

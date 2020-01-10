@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC USBDeviceCollection property
+title: IVMVirtualPC USBDeviceCollection property (VPCCOMInterfaces.h)
 description: An enumerable collection of all USB devices connected to the host.
 ms.assetid: 80844912-15b1-44d1-8d07-dca90c579927
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

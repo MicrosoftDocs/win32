@@ -3,7 +3,7 @@ Description: The EnableIPSec&\#8194;WMI class method enables Internet Protocol s
 ms.assetid: 0a45d864-606d-4adb-9b51-62d46a0d68b1
 ms.tgt_platform: multiple
 title: EnableIPSec method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

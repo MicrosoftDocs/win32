@@ -1,8 +1,8 @@
 ---
 Description: The StartTrace function registers and starts an event tracing session.
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
-title: StartTrace function
-ms.topic: article
+title: StartTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -87,7 +87,7 @@ Depending on the type of log file you choose to create, you may also need to spe
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

@@ -1,8 +1,8 @@
 ---
 Description: Blocking state.
 ms.assetid: 55afd314-efd3-47bf-80e3-e17c1332a4cf
-title: CDynamicOutputPin::m_BlockState member
-ms.topic: article
+title: CDynamicOutputPin::m_BlockState member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

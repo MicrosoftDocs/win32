@@ -2,7 +2,7 @@
 Description: Winsock network tracing event for socket close operation.
 ms.assetid: C59B2B51-288A-46C9-B390-26A18DB0C2FB
 title: AFD_EVENT_CLOSE event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -62,7 +62,7 @@ A private field used internally.
 *Process* 
 </dt> <dd>
 
-The [EPROCESS](https://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) structure.
+The [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) structure.
 
 </dd> <dt>
 

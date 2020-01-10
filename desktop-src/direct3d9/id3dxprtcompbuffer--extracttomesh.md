@@ -1,8 +1,8 @@
 ---
 Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer and adds the data to an ID3DXMesh object.
 ms.assetid: 0680d626-f07a-43d3-acb9-e8db82b5e933
-title: ID3DXPRTCompBuffer::ExtractToMesh method
-ms.topic: article
+title: ID3DXPRTCompBuffer::ExtractToMesh method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ HRESULT ExtractToMesh(
 *NumPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of PCA coefficients to extract from the buffer.
 
@@ -50,16 +50,16 @@ Number of PCA coefficients to extract from the buffer.
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx)**
+Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx)**
 
-Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx).
+Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
 
 </dd> <dt>
 
 *UsageIndexStart* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Starting index for PCA coefficients to be stored in the mesh.
 
@@ -76,7 +76,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) mesh object that will store PCA coef
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

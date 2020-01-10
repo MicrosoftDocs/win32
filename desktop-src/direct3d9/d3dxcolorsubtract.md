@@ -1,8 +1,8 @@
 ---
 Description: Subtracts two color values to create a new color value.
 ms.assetid: c21f8402-c1c2-4909-896f-2872ef518537
-title: D3DXColorSubtract function
-ms.topic: article
+title: D3DXColorSubtract function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

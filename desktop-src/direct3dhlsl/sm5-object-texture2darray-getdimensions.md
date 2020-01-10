@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: Texture2DArray::GetDimensions function
 description: Returns the dimensions of the resource.
 ms.assetid: 0f6d88b3-195d-4f8c-ac31-ac90129a233e
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

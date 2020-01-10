@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW (list view) notification code
+title: NM_CUSTOMDRAW (list view) notification code (Commctrl.h)
 description: Sent by a list-view control to notify its parent windows about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4e9b91e3-d042-4fd0-b063-a9e6ea9ad564
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

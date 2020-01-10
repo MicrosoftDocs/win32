@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Transport Layer Security Protocol
 
-Schannel supports versions 1.0, 1.1, and 1.2 of the [*Transport Layer Security (TLS) protocol*](https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx). This protocol is an industry standard designed to protect the privacy of information communicated over the Internet. TLS assumes that a connection-oriented transport, typically TCP, is in use. The TLS protocol allows client/server applications to detect the following security risks:
+Schannel supports versions 1.0, 1.1, and 1.2 of the [*Transport Layer Security (TLS) protocol*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx). This protocol is an industry standard designed to protect the privacy of information communicated over the Internet. TLS assumes that a connection-oriented transport, typically TCP, is in use. The TLS protocol allows client/server applications to detect the following security risks:
 
 -   Message tampering
 -   Message interception

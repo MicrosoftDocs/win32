@@ -1,8 +1,8 @@
 ---
 Description: Performs tangent frame computations on a mesh. Tangent, binormal, and optionally normal vectors are generated. Singularities are handled as required by grouping edges and splitting vertices.
 ms.assetid: 15cc46bc-6db6-4e1d-a95e-cd60d2666600
-title: D3DXComputeTangentFrameEx function
-ms.topic: article
+title: D3DXComputeTangentFrameEx function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object.
 *dwTextureInSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the texture coordinate input semantic. If D3DX\_DEFAULT, the function assumes that there are no texture coordinates, and the function will fail unless normal vector calculation is specified.
 
@@ -71,7 +71,7 @@ Specifies the texture coordinate input semantic. If D3DX\_DEFAULT, the function 
 *dwTextureInIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 If a mesh has multiple texture coordinates, specifies the texture coordinate to use for the tangent frame computations. If zero, the mesh has only a single texture coordinate.
 
@@ -80,7 +80,7 @@ If a mesh has multiple texture coordinates, specifies the texture coordinate to 
 *dwUPartialOutSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the output semantic for the type, typically D3DDECLUSAGE\_TANGENT, that describes where the partial derivative with respect to the U texture coordinate will be stored. If D3DX\_DEFAULT, then this partial derivative will not be stored.
 
@@ -89,7 +89,7 @@ Specifies the output semantic for the type, typically D3DDECLUSAGE\_TANGENT, tha
 *dwUPartialOutIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the semantic index at which to store the partial derivative with respect to the U texture coordinate.
 
@@ -98,16 +98,16 @@ Specifies the semantic index at which to store the partial derivative with respe
 *dwVPartialOutSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Specifies the [**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx) type, typically D3DDECLUSAGE\_BINORMAL, that describes where the partial derivative with respect to the V texture coordinate will be stored. If D3DX\_DEFAULT, then this partial derivative will not be stored.
+Specifies the [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx) type, typically D3DDECLUSAGE\_BINORMAL, that describes where the partial derivative with respect to the V texture coordinate will be stored. If D3DX\_DEFAULT, then this partial derivative will not be stored.
 
 </dd> <dt>
 
 *dwVPartialOutIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the semantic index at which to store the partial derivative with respect to the V texture coordinate.
 
@@ -116,7 +116,7 @@ Specifies the semantic index at which to store the partial derivative with respe
 *dwNormalOutSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the output normal semantic, typically D3DDECLUSAGE\_NORMAL, that describes where the normal vector at each vertex will be stored. If D3DX\_DEFAULT, then this normal vector will not be stored.
 
@@ -125,7 +125,7 @@ Specifies the output normal semantic, typically D3DDECLUSAGE\_NORMAL, that descr
 *dwNormalOutIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the semantic index at which to store the normal vector at each vertex.
 
@@ -134,13 +134,13 @@ Specifies the semantic index at which to store the normal vector at each vertex.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/en-us/library/Bb205467(v=VS.85).aspx) flags that specify tangent frame computation options. If **NULL**, the following options will be specified:
+Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/library/Bb205467(v=VS.85).aspx) flags that specify tangent frame computation options. If **NULL**, the following options will be specified:
 
 
 
-| Description                                                                                              | [**D3DXTANGENT**](https://msdn.microsoft.com/en-us/library/Bb205467(v=VS.85).aspx) Flag Value                               |
+| Description                                                                                              | [**D3DXTANGENT**](https://msdn.microsoft.com/library/Bb205467(v=VS.85).aspx) Flag Value                               |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | Weight the normal vector length by the angle, in radians, subtended by the two edges leaving the vertex. | & !( D3DXTANGENT\_WEIGHT\_BY\_AREA \| D3DXTANGENT\_WEIGHT\_EQUAL )                |
 | Compute orthogonal Cartesian coordinates from texture coordinates (u, v). See Remarks.                   | & !( D3DXTANGENT\_ORTHOGONALIZE\_FROM\_U \| D3DXTANGENT\_ORTHOGONALIZE\_FROM\_V ) |
@@ -160,7 +160,7 @@ If D3DXTANGENT\_GENERATE\_IN\_PLACE is not set, the input mesh is cloned. The or
 *pdwAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh. The number of bytes in this array must be at least 3 \* [**GetNumFaces**](id3dxbasemesh--getnumfaces.md) \* sizeof(DWORD).
 
@@ -169,7 +169,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *fPartialEdgeThreshold* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the maximum cosine of the angle at which two partial derivatives are deemed to be incompatible with each other. If the dot product of the direction of the two partial derivatives in adjacent triangles is less than or equal to this threshold, then the vertices shared between these triangles will be split.
 
@@ -178,7 +178,7 @@ Specifies the maximum cosine of the angle at which two partial derivatives are d
 *fSingularPointThreshold* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the maximum magnitude of a partial derivative at which a vertex will be deemed singular. As multiple triangles are incident on a point that have nearby tangent frames, but altogether cancel each other out (such as at the top of a sphere), the magnitude of the partial derivative will decrease. If the magnitude is less than or equal to this threshold, then the vertex will be split for every triangle that contains it.
 
@@ -187,7 +187,7 @@ Specifies the maximum magnitude of a partial derivative at which a vertex will b
 *fNormalEdgeThreshold* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Similar to fPartialEdgeThreshold, specifies the maximum cosine of the angle between two normals that is a threshold beyond which vertices shared between triangles will be split. If the dot product of the two normals is less than the threshold, the shared vertices will be split, forming a hard edge between neighboring triangles. If the dot product is more than the threshold, neighboring triangles will have their normals interpolated.
 
@@ -213,7 +213,7 @@ Address of a pointer to an output [**ID3DXBuffer**](id3dxbuffer.md) buffer objec
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

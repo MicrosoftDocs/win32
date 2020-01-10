@@ -1,8 +1,8 @@
 ---
 Description: Contains detailed information about an interface that is required by an RPC client.
 ms.assetid: 92e734f3-eacb-44dc-9016-88dc6e9f04b6
-title: INTF_ENTRY structure
-ms.topic: structure
+title: INTF_ENTRY structure (Wzcsapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: COLOROKSTRING message
+title: COLOROKSTRING message (Commdlg.h)
 description: A Color dialog box sends the COLOROKSTRING registered message to your hook procedure, CCHookProc, when the user selects a color and clicks the OK button.
 ms.assetid: 18b28558-1262-4c88-becf-76ce799b7542
 keywords:
@@ -14,13 +14,13 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # COLOROKSTRING message
 
-A **Color** dialog box sends the **COLOROKSTRING** registered message to your hook procedure, [*CCHookProc*](https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx), when the user selects a color and clicks the **OK** button. The hook procedure can accept the color and allow the dialog box to close, or reject the color and force the dialog box to remain open.
+A **Color** dialog box sends the **COLOROKSTRING** registered message to your hook procedure, [*CCHookProc*](https://msdn.microsoft.com/library/ms646908(v=VS.85).aspx), when the user selects a color and clicks the **OK** button. The hook procedure can accept the color and allow the dialog box to close, or reject the color and force the dialog box to remain open.
 
 
 ```C++

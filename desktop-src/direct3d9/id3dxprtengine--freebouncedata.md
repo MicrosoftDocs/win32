@@ -1,8 +1,8 @@
 ---
 Description: Frees memory used for temporary bounced-light simulation data.
 ms.assetid: a28442ed-f281-4236-8995-366d43c97c43
-title: ID3DXPRTEngine::FreeBounceData method
-ms.topic: article
+title: ID3DXPRTEngine::FreeBounceData method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is S\_OK.
 

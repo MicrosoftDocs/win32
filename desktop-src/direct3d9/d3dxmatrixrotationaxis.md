@@ -1,8 +1,8 @@
 ---
 Description: Builds a matrix that rotates around an arbitrary axis.
 ms.assetid: 368c8f64-7709-4200-94d3-3dbc92a960c1
-title: D3DXMatrixRotationAxis function
-ms.topic: article
+title: D3DXMatrixRotationAxis function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Pointer to the arbitrary axis. See [**D3DXVECTOR3**](d3dxvector3.md).
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 

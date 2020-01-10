@@ -1,7 +1,7 @@
 ---
 Description: A callback function used to notify the host of the engines progress. This also serves as a way for the host to determine that the engine is still running.
 title: "IStatusCallback::Status method"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4DC2A05F-506C-4AB4-98E1-58827056700D
 api_name: 

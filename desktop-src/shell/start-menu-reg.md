@@ -135,7 +135,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\StartMenuInternet"`. This notifies the operating system that the default client has changed.
+After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\StartMenuInternet"`. This notifies the operating system that the default client has changed.
 
 Setting these subkeys for the default Start menu Internet browser is necessary to preserve backward compatibility with old web browsers that do not support per-user registrations.
 
@@ -192,7 +192,7 @@ HKEY_LOCAL_MACHINE
 
 The LocalizedString data is of type REG\_SZ, or REG\_EXPAND\_SZ if path variables such as `%programfiles%` are used. LocalizedString provides the path to an executable (.exe) or library (.dll) file. Note that the path string begins with an "at" sign (@) and that no quotation marks are required around the path regardless of spaces within it. The decimal integer is the ID of a string resource, contained within the specified DLL, whose value is to be displayed to the user. This enables the same registration to be used for multiple languages. Each language provides a different ResourceDLL.dll. This enables the system to display the correct string based on the currently selected language.
 
-After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\Mail"`. This notifies the operating system that the default client has changed.
+After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\Mail"`. This notifies the operating system that the default client has changed.
 
 For backward compatibility with applications that do not support localized strings, the name of the application in the installed language should also be set as the default value for the subkey.
 

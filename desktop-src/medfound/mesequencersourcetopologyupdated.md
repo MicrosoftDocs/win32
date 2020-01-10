@@ -1,8 +1,8 @@
 ---
 Description: Raised by the sequencer source when the IMFSequencerSource::UpdateTopology method completes asynchronously.
 ms.assetid: f573cbd0-689c-4bfe-846b-6fc8008101c8
-title: MESequencerSourceTopologyUpdated event
-ms.topic: article
+title: MESequencerSourceTopologyUpdated event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

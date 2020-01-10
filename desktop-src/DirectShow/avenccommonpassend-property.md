@@ -1,8 +1,8 @@
 ---
 Description: Stops the current encoding pass, or queries whether the current encoding pass is the last one.
 ms.assetid: 847f638f-9ab9-42ca-8e39-82c113cee92f
-title: AVEncCommonPassEnd property
-ms.topic: article
+title: AVEncCommonPassEnd property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

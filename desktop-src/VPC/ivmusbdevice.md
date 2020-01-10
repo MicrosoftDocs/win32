@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice interface
+title: IVMUSBDevice interface (VPCCOMInterfaces.h)
 description: Defines the interface for a USB device attached to host. You can attach USB device to a virtual machine to use the device inside the virtual machine.
 ms.assetid: f491fe8f-bc43-4dfa-b9c1-c93b4e5a7df6
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the interface for a USB device attached to host. You can attach USB devi
 
 ## Members
 
-The **IVMUSBDevice** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMUSBDevice** also has these types of members:
+The **IVMUSBDevice** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMUSBDevice** also has these types of members:
 
 -   [Properties](#properties)
 

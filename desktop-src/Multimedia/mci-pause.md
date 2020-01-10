@@ -1,5 +1,5 @@
 ---
-title: MCI_PAUSE command
+title: MCI_PAUSE command (Mmsystem.h)
 description: The MCI\_PAUSE command pauses the current action. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
 ms.assetid: c4d0b0a2-cd7b-4641-a318-eb4b4e88b70f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_PAUSE command pauses the current action. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -67,7 +67,7 @@ Returns zero if successful or an error otherwise.
 
 The difference between the [MCI\_STOP](mci-stop.md) and MCI\_PAUSE commands depends on the device. If possible, MCI\_PAUSE suspends device operation but leaves the device ready to resume play immediately. With the MCICDA, MCISEQ, and MCIPIONR drivers, the MCI\_PAUSE command works the same as the MCI\_STOP command.
 
-For digital-video devices, the *lpPause* parameter points to an [**MCI\_DGV\_PAUSE\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743395(v=VS.85).aspx) structure.
+For digital-video devices, the *lpPause* parameter points to an [**MCI\_DGV\_PAUSE\_PARMS**](https://msdn.microsoft.com/library/Dd743395(v=VS.85).aspx) structure.
 
 ## Requirements
 

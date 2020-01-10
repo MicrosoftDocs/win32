@@ -1,5 +1,5 @@
 ---
-title: TB_GETHOTIMAGELIST message
+title: TB_GETHOTIMAGELIST message (Commctrl.h)
 description: Retrieves the image list that a toolbar control uses to display hot buttons.
 ms.assetid: 63054449-2768-459c-933c-781d31bdcc15
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

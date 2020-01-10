@@ -1,5 +1,5 @@
 ---
-title: TTM_NEWTOOLRECT message
+title: TTM_NEWTOOLRECT message (Commctrl.h)
 description: Sets a new bounding rectangle for a tool.
 ms.assetid: 81d1b745-310e-482e-8c6e-6e98e1e67b66
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Memory class requests a reset of the l
 ms.assetid: e3091f03-65cb-41f5-9cf7-531402993d80
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Memory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

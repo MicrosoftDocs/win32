@@ -1,8 +1,8 @@
 ---
 Description: Pointer to the filter graph manager.
 ms.assetid: ad736a2d-1dc5-4be9-8b9b-d2cfb87f2576
-title: CBaseFilter::m_pGraph member
-ms.topic: article
+title: CBaseFilter::m_pGraph member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Reboot method requests a reboot of the operating system.
 ms.assetid: 2ce766dd-51a4-4ffb-a45a-40399f1110f6
 ms.tgt_platform: multiple
 title: Reboot method of the CIM_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

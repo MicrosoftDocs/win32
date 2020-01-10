@@ -1,5 +1,5 @@
 ---
-title: glEvalCoord2d function
+title: glEvalCoord2d function (Gl.h)
 description: The glEvalCoord2d function evaluates enabled two-dimensional maps.
 ms.assetid: 95963abc-841a-4154-92d5-5ae3e6de0f97
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

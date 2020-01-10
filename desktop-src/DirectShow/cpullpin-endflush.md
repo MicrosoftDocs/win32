@@ -1,8 +1,8 @@
 ---
 Description: The EndFlush method informs the owning filter to end a flush operation. The derived class must implement this method.
 ms.assetid: 5b178b09-019c-4b5b-9794-5176b5402e1c
-title: CPullPin.EndFlush method
-ms.topic: article
+title: CPullPin.EndFlush method (Pullpin.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

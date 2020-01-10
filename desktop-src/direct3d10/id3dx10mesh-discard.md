@@ -1,8 +1,8 @@
 ---
 Description: Removes mesh data from the device that has been committed to the device (with ID3DX10Mesh::CommitToDevice).
 ms.assetid: 60eee1f8-f04b-4f33-8f86-0564d0334f97
-title: ID3DX10Mesh::Discard method
-ms.topic: article
+title: ID3DX10Mesh::Discard method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Specifies which pieces of mesh data to discard from the device. See [**D3DX10\_M
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

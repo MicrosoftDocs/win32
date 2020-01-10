@@ -2,7 +2,7 @@
 Description: During a concurrent installation, the installer sets the ParentProductCode property in the concurrent installation's session to the same value as the ProductCode property in the parent installation's session.
 ms.assetid: 7bf2b9b1-9efd-4d47-9fa3-253421f1ba4f
 title: ParentProductCode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets the identifier of the service to be authenticated with the endpoint token.
 ms.assetid: FE110B8E-F8FB-4CC8-BDD8-6427BA8B7920
-title: IUpdateEndpointAuthToken::ServiceID method
-ms.topic: article
+title: IUpdateEndpointAuthToken::ServiceID method (UpdateEndpointAuth.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine BIOSGUID property
+title: IVMVirtualMachine BIOSGUID property (VPCCOMInterfaces.h)
 description: The BIOS GUID.
 ms.assetid: d866838d-31e9-41f1-be57-43e778b9db95
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

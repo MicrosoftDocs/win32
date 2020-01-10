@@ -2,7 +2,7 @@
 Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT4X3.
 ms.assetid: 9ca8b924-fea8-421f-b7a5-8912bf2dc6f7
 title: XMFLOAT4X3 operator () operators
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2018
 topic_type:
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X3`.
 
-Accesses specific matrix elements referenced by row and column from the current instance of [**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx)
+Accesses specific matrix elements referenced by row and column from the current instance of [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx)
 
 ### Overload list
 
@@ -68,7 +68,7 @@ This operator is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx)
+[**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx)
 </dt> </dl>
 
  

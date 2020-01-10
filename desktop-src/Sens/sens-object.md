@@ -20,7 +20,7 @@ The SENS object implementation is provided by the operating system.
 
 | Function                                      | Description                                             |
 |-----------------------------------------------|---------------------------------------------------------|
-| [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) | Creates an instance of the SENS object using its CLSID. |
+| [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) | Creates an instance of the SENS object using its CLSID. |
 
 
 

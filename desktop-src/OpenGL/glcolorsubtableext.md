@@ -1,5 +1,5 @@
 ---
-title: glColorSubTableEXT function
+title: glColorSubTableEXT function (Gl.h)
 description: The glColorSubTableEXT function specifies a portion of the targeted texture's palette to be replaced.
 ms.assetid: 21430245-f837-4c7a-944f-b44482254b12
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

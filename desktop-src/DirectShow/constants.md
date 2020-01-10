@@ -1,12 +1,12 @@
 ---
-Description: Constants
+Description: DirectShow constants
 ms.assetid: 9c800d17-1bca-4fcb-940b-3477dc700ce3
 title: Constants
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# DirectShow constants
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

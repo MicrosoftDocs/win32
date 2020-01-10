@@ -2,7 +2,7 @@
 Description: Removes all Certificate objects from a Recipients collection.
 ms.assetid: 456fcfbc-4388-40f4-ab58-04508ee2141b
 title: Recipients.Clear method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

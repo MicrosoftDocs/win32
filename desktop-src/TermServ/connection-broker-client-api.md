@@ -3,7 +3,7 @@ title: Remote Desktop Connection Broker client API
 description: Describes how to use the Remote Desktop Connection Broker client API.
 ms.assetid: 4C5B5FDD-0ACD-4971-8FF9-CFB3ADF3D06E
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

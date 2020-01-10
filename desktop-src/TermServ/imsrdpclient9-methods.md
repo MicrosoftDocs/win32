@@ -16,7 +16,7 @@ The [**IMsRdpClient9**](imsrdpclient9.md) interface exposes the following method
 -   [**attachEvent method**](imsrdpclient9-attachevent.md)
 -   [**detachEvent method**](imsrdpclient9-detachevent.md)
 -   [**SyncSessionDisplaySettings method**](imsrdpclient9-syncsessiondisplaysettings.md)
--   [**UpdateSessionDisplaySettings method**](https://msdn.microsoft.com/en-us/library/Mt703457(v=VS.85).aspx)
+-   [**UpdateSessionDisplaySettings method**](https://msdn.microsoft.com/library/Mt703457(v=VS.85).aspx)
 
  
 

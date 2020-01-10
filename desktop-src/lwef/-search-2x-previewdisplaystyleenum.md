@@ -12,7 +12,7 @@ api_location:
 - WdsView.idl
 api_type:
 - IDLDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

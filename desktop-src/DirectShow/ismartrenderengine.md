@@ -1,8 +1,8 @@
 ---
 Description: The ISmartRenderEngine interface provides methods that support smart recompression in DirectShow Editing Services (DES). The smart render engine exposes this interface.
 ms.assetid: 0e03708f-e471-4188-a212-ec5e951d20fa
-title: ISmartRenderEngine interface
-ms.topic: interface
+title: ISmartRenderEngine interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -27,7 +27,7 @@ The `ISmartRenderEngine` interface provides methods that support smart recompres
 
 ## Members
 
-The **ISmartRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISmartRenderEngine** also has these types of members:
+The **ISmartRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISmartRenderEngine** also has these types of members:
 
 -   [Methods](#methods)
 

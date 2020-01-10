@@ -14,7 +14,7 @@ The disk cost of regular Windows Installer components and common language runtim
 
 The Windows Installer uses a two-step transactional process to install products containing common language runtime assemblies. This enables the rollback of assembly installation and removal. For more information, see [Rollback of Assemblies in the Global Assembly Cache](rollback-of-assemblies-in-the-global-assembly-cache.md).
 
-Note that assemblies installed to the global assembly cache by an installation in the per-user [installation context](installation-context.md) are not protected by Windows File Protection. Assemblies that are installed to the global assembly cache by an installation in the per-machine installation context are protected by [Windows Resource Protection](https://msdn.microsoft.com/en-us/library/Cc185681(v=VS.85).aspx).
+Note that assemblies installed to the global assembly cache by an installation in the per-user [installation context](installation-context.md) are not protected by Windows File Protection. Assemblies that are installed to the global assembly cache by an installation in the per-machine installation context are protected by [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx).
 
  
 

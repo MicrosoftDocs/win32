@@ -1,12 +1,12 @@
 ---
 Description: Enables users to perform common tasks as nonadministrators, called standard users, and as administrators without having to switch users, log off, or use Run As.
 ms.assetid: 8a7ba726-c2a6-4b7b-b664-3c6fcfbfb221
-title: User Account Control
+title: User Account Control (Authorization)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# User Account Control
+# User Account Control (Authorization)
 
 User Account Control (UAC) enables users to perform common tasks as nonadministrators, called standard users, and as administrators without having to switch users, log off, or use **Run As**. The behavior of UAC for the "Never notify" setting no longer disables UAC. The "Never notify" setting gives you a split token and always automatically elevates the privilege required. This subtlety may cause your app to have compatibility problems. You can still disable UAC by using Group Policies or manually setting the registry key.
 

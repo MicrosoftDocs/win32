@@ -1,8 +1,8 @@
 ---
 Description: Specifies the height of the source rectangle, in pixels.
 ms.assetid: 418bcd69-9dde-4bc3-9897-f465d12536a1
-title: MFPKEY_RESIZE_SRC_HEIGHT Property
-ms.topic: article
+title: MFPKEY_RESIZE_SRC_HEIGHT Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the height of the source rectangle, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

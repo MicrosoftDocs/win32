@@ -1,8 +1,8 @@
 ---
 Description: Provides detailed information for a wireless LAN interface managed by the Wireless Zero Configuration service.
 ms.assetid: e1d2260b-a71f-481e-b505-b5d1a17ee221
-title: WZCQueryInterface function
-ms.topic: article
+title: WZCQueryInterface function (Wzcsapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -121,7 +121,7 @@ The Wireless Zero Configuration service does not automotically update media stat
 
 When the *dwInFlags* parameter contains **INTF\_BSSIDLIST**, the **WZCQueryInterface** function does not set the *dwOutFlags* with **INTF\_BSSIDLIST** if the visible list of networks is empty. When the *dwInFlags* parameter contains **INTF\_SSID**, the **WZCQueryInterface** function does not set the *dwOutFlags* with **INTF\_SSID** if no SSID is available.
 
-If the **WZCQueryInterface** function returns ERROR\_SUCCESS, the caller should call the [**LocalFree**](https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx) function with the *pIntf* parameter to release the internal buffers allocated for the data returned once this information is no longer needed. This releases the buffers used by the **rdSSID**, **rdBSSID**, **rdBSSIDList**, **rdStSSIDList**, and **rdCtrlData** members of the [**INTF\_ENTRY**](intf-entry.md) structure pointed to by *pIntf* parameter.
+If the **WZCQueryInterface** function returns ERROR\_SUCCESS, the caller should call the [**LocalFree**](https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx) function with the *pIntf* parameter to release the internal buffers allocated for the data returned once this information is no longer needed. This releases the buffers used by the **rdSSID**, **rdBSSID**, **rdBSSIDList**, **rdStSSIDList**, and **rdCtrlData** members of the [**INTF\_ENTRY**](intf-entry.md) structure pointed to by *pIntf* parameter.
 
 > [!Note]  
 > The *Wzcsapi.h* header file and *Wzcsapi.lib* import library file are not available in the Windows SDK.

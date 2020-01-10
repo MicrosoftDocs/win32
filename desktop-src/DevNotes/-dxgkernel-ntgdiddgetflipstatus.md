@@ -1,8 +1,8 @@
 ---
 Description: Determines whether the most recently requested flip on a surface has occurred.
 ms.assetid: 4489e259-b22d-4e72-807a-5290401f0331
-title: NtGdiDdGetFlipStatus function
-ms.topic: article
+title: NtGdiDdGetFlipStatus function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdGetFlipStatus(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to a [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/en-us/library/ms793861.aspx) structure that describes the surface whose flip status is being queried.
+Handle to a [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/library/ms793861.aspx) structure that describes the surface whose flip status is being queried.
 
 </dd> <dt>
 
 *puGetFlipStatusData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_GETFLIPSTATUSDATA](https://msdn.microsoft.com/en-us/library/ms793859.aspx) structure that contains the information required to perform the flip status query.
+Pointer to a [DD\_GETFLIPSTATUSDATA](https://msdn.microsoft.com/library/ms793859.aspx) structure that contains the information required to perform the flip status query.
 
 </dd> </dl>
 

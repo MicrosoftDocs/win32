@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer SortOrderProperty property
+title: IResultsViewer SortOrderProperty property (WdsView.h)
 description: This property will set or return the order of columns to sort results by.
 ms.assetid: ea05f4df-4caf-404f-8890-a109ca88555c
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - WdsView.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

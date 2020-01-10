@@ -1,5 +1,5 @@
 ---
-title: PSM_CHANGED message
+title: PSM_CHANGED message (Prsht.h)
 description: Informs a property sheet that information in a page has changed. You can send this message explicitly or by using the PropSheet\_Changed macro.
 ms.assetid: b092969f-31dc-4e3c-9100-d15f1bdd5aa5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

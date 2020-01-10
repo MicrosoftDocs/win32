@@ -1,5 +1,5 @@
 ---
-title: MrmDumpPriFileInMemory function
+title: MrmDumpPriFileInMemory function (MrmResourceIndexer.h)
 description: Dumps a PRI file (which is binary) to its XML equivalent (as in-memory data), in order to make it more easily readable.
 ms.assetid: 04FD048F-1473-47B1-9CAB-03FEF98A9B48
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

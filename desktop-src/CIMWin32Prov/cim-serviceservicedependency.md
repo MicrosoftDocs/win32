@@ -3,7 +3,7 @@ Description: The CIM\_ServiceServiceDependency class represents an association b
 ms.assetid: 0fb43fb3-2c05-4762-b339-2dcc090ed38d
 ms.tgt_platform: multiple
 title: CIM_ServiceServiceDependency class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

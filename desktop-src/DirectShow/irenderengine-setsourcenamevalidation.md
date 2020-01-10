@@ -1,8 +1,8 @@
 ---
 Description: The SetSourceNameValidation method specifies how the render engine validates file names.
 ms.assetid: b33904cd-ed7d-41b5-9ebf-50983ec9f7b3
-title: IRenderEngine::SetSourceNameValidation method
-ms.topic: article
+title: IRenderEngine::SetSourceNameValidation method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ HRESULT SetSourceNameValidation(
 *FilterString* 
 </dt> <dd>
 
-**BSTR** value containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx) structure. The media locator uses this filter if it presents an Open File dialog box to the end user.
+**BSTR** value containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure. The media locator uses this filter if it presents an Open File dialog box to the end user.
 
 </dd> <dt>
 

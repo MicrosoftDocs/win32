@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform3D SetAxisZ methods
+title: IDCompositionRotateTransform3D SetAxisZ methods (Dcomp.h)
 description: Changes or animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 ms.assetid: 1A96FA00-20FE-4876-B7DF-2B833B17E925
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform3D::SetAxisZ methods
@@ -24,8 +24,8 @@ Changes or animates the value of the AxisZ property of a 3D rotation transform. 
 
 | Method                                                                                                       | Description                                          |
 |:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAxisZ(float)**](https://msdn.microsoft.com/en-us/library/Hh448947(v=VS.85).aspx)                                     | Changes the value of the AxisZ property.<br/>  |
-| [**SetAxisZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448949(v=VS.85).aspx) | Animates the value of the AxisZ property.<br/> |
+| [**SetAxisZ(float)**](https://msdn.microsoft.com/library/Hh448947(v=VS.85).aspx)                                     | Changes the value of the AxisZ property.<br/>  |
+| [**SetAxisZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448949(v=VS.85).aspx) | Animates the value of the AxisZ property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the AxisZ property of a 3D rotation transform. 
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,8 +1,8 @@
 ---
 Description: The SetPreroll method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the IMediaSample::SetPreroll method.
 ms.assetid: 2887e627-5999-407a-88d3-811c803c9a43
-title: CMediaSample.SetPreroll method
-ms.topic: article
+title: CMediaSample.SetPreroll method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

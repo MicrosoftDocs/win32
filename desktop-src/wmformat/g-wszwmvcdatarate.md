@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCDatarate
+title: g_wszWMVCDatarate (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 3caca352-7a4a-495e-a875-dd34c44dbd27
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

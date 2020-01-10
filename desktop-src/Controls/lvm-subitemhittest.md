@@ -1,5 +1,5 @@
 ---
-title: LVM_SUBITEMHITTEST message
+title: LVM_SUBITEMHITTEST message (Commctrl.h)
 description: Determines which list-view item or subitem is at a given position. You can send this message explicitly or by using the ListView\_SubItemHitTest macro.
 ms.assetid: 1468febb-af0d-4c04-b0b1-cda5ec77aa2c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

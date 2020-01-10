@@ -1,5 +1,5 @@
 ---
-title: Signed and Unsigned Types
+title: Signed and Unsigned Types (MIDL)
 description: Compilers that use different defaults for signed and unsigned types can cause software errors in your distributed application.
 ms.assetid: a4c2d811-6cf4-4c0b-af12-bf8247152984
 keywords:

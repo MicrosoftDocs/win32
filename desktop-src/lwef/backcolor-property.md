@@ -1,5 +1,5 @@
 ---
-title: BackColor Property
+title: BackColor Property (Legacy Windows Environment Features)
 description: BackColor Property
 ms.assetid: a82c23bc-b280-4a52-9272-68879557cac7
 ms.topic: article

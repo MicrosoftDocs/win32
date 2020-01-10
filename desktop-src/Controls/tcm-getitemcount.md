@@ -1,5 +1,5 @@
 ---
-title: TCM_GETITEMCOUNT message
+title: TCM_GETITEMCOUNT message (Commctrl.h)
 description: Retrieves the number of tabs in the tab control. You can send this message explicitly or by using the TabCtrl\_GetItemCount macro.
 ms.assetid: a8ec7d66-fe44-45ca-8f6c-4e75752ebe95
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

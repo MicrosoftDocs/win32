@@ -1,5 +1,5 @@
 ---
-title: WM_NEXTMENU message
+title: WM_NEXTMENU message (Winuser.h)
 description: Sent to an application when the right or left arrow key is used to switch between the menu bar and the system menu.
 ms.assetid: 3fa50fd3-47a6-4dae-9ceb-2abb6626e0a6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

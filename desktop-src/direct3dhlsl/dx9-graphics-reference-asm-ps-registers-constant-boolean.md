@@ -1,5 +1,5 @@
 ---
-title: Constant Boolean Register
+title: Constant Boolean register (HLSL PS reference)
 description: This register is a collection of bits used in static flow control instructions (for example, if bool - ps - else - ps - endif - ps).
 ms.assetid: fb4abe19-d0cf-48ac-866e-4be60cc86bd6
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Constant Boolean Register
+# Constant Boolean register (HLSL PS reference)
 
 This register is a collection of bits used in static flow control instructions (for example, [if bool - ps](if-bool---ps.md) - [else - ps](else---ps.md) - [endif - ps](endif---ps.md)). There are 16 of them, therefore, a shader can have 16 independent branch conditions. They can be set using [defb - ps](defb---ps.md) or [**SetPixelShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb).
 
@@ -24,7 +24,7 @@ The behavior of shader constants has changed between Direct3D 8 and Direct3D 9.
 
 | Pixel shader versions     | 1\_1 | 1\_2 | 1\_3 | 1\_4 | 2\_0 | 2\_sw | 2\_x | 3\_0 | 3\_sw |
 |---------------------------|------|------|------|------|------|-------|------|------|-------|
-| Constant Boolean Register |      |      |      |      |      |       | x    | x    | x     |
+| Constant Boolean register |      |      |      |      |      |       | x    | x    | x     |
 
 
 

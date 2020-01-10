@@ -6,7 +6,7 @@ keywords:
 - GetVerb method Legacy Windows Environment Features
 - GetVerb method Legacy Windows Environment Features , ISearchResult interface
 - ISearchResult interface Legacy Windows Environment Features , GetVerb method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

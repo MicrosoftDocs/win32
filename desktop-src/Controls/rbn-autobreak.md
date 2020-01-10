@@ -1,5 +1,5 @@
 ---
-title: RBN_AUTOBREAK message
+title: RBN_AUTOBREAK message (Commctrl.h)
 description: Notifies a rebar's parent that a break will appear in the bar. The parent determines whether to make the break. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b7a63027-6cfa-4d5a-9ea6-fdd8b4fb6864
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

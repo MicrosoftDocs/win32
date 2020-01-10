@@ -1,8 +1,8 @@
 ---
 Description: Contains the link object's target.
 ms.assetid: 26da562b-a1d6-4150-9d9a-05b11e3972d9
-title: IShellLinkDual2.Target property
-ms.topic: article
+title: IShellLinkDual2.Target property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: HDM_GETOVERFLOWRECT message
+title: HDM_GETOVERFLOWRECT message (Commctrl.h)
 description: Gets the bounding rectangle of the overflow button when the HDS\_OVERFLOW style is set on the header control and the overflow button is visible. Send this message explicitly or by using the Header\_GetOverflowRect macro.
 ms.assetid: 52fb3dc3-ce22-40da-8222-20fd75c005ae
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

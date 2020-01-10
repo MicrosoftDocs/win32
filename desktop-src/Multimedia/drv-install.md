@@ -1,5 +1,5 @@
 ---
-title: DRV_INSTALL message
+title: DRV_INSTALL message (Mmsystem.h)
 description: Notifies the driver that is it being installed. The driver should create and initialize any needed registry keys and values and verify that the supporting drivers and hardware are installed and properly configured.
 ms.assetid: 8ee7b30b-600b-49f3-93a7-8faa7b87cfd8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -41,7 +41,7 @@ Handle of the installable driver instance.
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-Address of a [**DRVCONFIGINFO**](https://msdn.microsoft.com/en-us/library/Dd797923(v=VS.85).aspx) structure or **NULL**. If a structure is given, it contains the names of the registry key and value associated with the driver.
+Address of a [**DRVCONFIGINFO**](https://msdn.microsoft.com/library/Dd797923(v=VS.85).aspx) structure or **NULL**. If a structure is given, it contains the names of the registry key and value associated with the driver.
 
 </dd> </dl>
 

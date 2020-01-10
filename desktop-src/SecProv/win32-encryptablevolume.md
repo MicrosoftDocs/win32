@@ -2,7 +2,7 @@
 Description: For drive encryption or to create encryption security software, you can use the Windows encryption software, BitLocker Drive Encryption, an encryption API you can use by using the Win32\_EncryptableVolume WMI provider class.
 ms.assetid: '464fa664-4330-43fa-a5e0-144d1e73cf58'
 title: Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -163,7 +163,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](https://msdn.microsoft.com/en-us/library/Aa394515(v=VS.85).aspx).
+The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](https://msdn.microsoft.com/library/Aa394515(v=VS.85).aspx).
 
 For volumes without drive letters, this value is **NULL**.
 
@@ -226,7 +226,7 @@ The default namespace security setting includes an entry to allow editing by def
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

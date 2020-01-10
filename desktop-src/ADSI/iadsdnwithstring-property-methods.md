@@ -1,5 +1,5 @@
 ---
-title: IADsDNWithString Property Methods
+title: IADsDNWithString Property Methods (Iads.h)
 description: The property method of the IADsDNWithString interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: d3fb67b6-9f7d-4de5-bf01-f9c5b9e4f086
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

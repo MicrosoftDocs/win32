@@ -1,5 +1,5 @@
 ---
-title: glStencilOp function
+title: glStencilOp function (Gl.h)
 description: The glStencilOp function sets the stencil test actions.
 ms.assetid: 16809735-5624-49cf-bfa5-9908d008b234
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

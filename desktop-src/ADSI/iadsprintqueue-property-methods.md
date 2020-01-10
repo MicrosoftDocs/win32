@@ -1,5 +1,5 @@
 ---
-title: IADsPrintQueue Property Methods
+title: IADsPrintQueue Property Methods (Iads.h)
 description: The property methods of the IADsPrintQueue interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 7f5b4200-65c8-4230-8561-ad4fefb391f3
 ms.tgt_platform: multiple
@@ -52,7 +52,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

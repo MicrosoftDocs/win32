@@ -8,18 +8,18 @@ ms.date: 05/31/2018
 
 # DirectInput and XUSB Devices
 
-The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
+The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](https://msdn.microsoft.com/library/Ee416842(v=VS.85).aspx) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
 
 ## Human Interface Device (HID)
 
-HID standard is a standard from the Universal Serial Bus (USB) committee originally proposed by Microsoft to generalize protocols for input devices. It consists of a byte-code description language and can express gamepads, mice, joysticks, throttle and rudder controls, and multi-axis controllers. Because this standard is so generalized, you might have difficulty writing software that consumes input from arbitrary devices. Therefore, for the game-centric [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) API, we developed a specific sub-mapping of types to encourage hardware manufactures to support through their drivers.
+HID standard is a standard from the Universal Serial Bus (USB) committee originally proposed by Microsoft to generalize protocols for input devices. It consists of a byte-code description language and can express gamepads, mice, joysticks, throttle and rudder controls, and multi-axis controllers. Because this standard is so generalized, you might have difficulty writing software that consumes input from arbitrary devices. Therefore, for the game-centric [DirectInput](https://msdn.microsoft.com/library/Ee416842(v=VS.85).aspx) API, we developed a specific sub-mapping of types to encourage hardware manufactures to support through their drivers.
 
 - [USB Device Class Definition for HID v1.11](http://go.microsoft.com/fwlink/p/?LinkID=155094)
 - [HID Game Controllers and DirectInput](http://www.microsoft.com/whdc/archive/hidgame.mspx)
 
 ## Mappings
 
-The XUSB driver implements both an XUSB class interface and a HID class interface for devices in order to support both XINPUT and [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx) usage. This mapping is based on the XUSB subtype information. The driver implements four distinct groups of mappings.
+The XUSB driver implements both an XUSB class interface and a HID class interface for devices in order to support both XINPUT and [DirectInput](https://msdn.microsoft.com/library/Ee416842(v=VS.85).aspx) usage. This mapping is based on the XUSB subtype information. The driver implements four distinct groups of mappings.
 
 | XUSB Subtype                                      | Mapping                     |
 |---------------------------------------------------|-----------------------------|
@@ -59,7 +59,7 @@ This is the default mapping and is designed around the standard Xbox Common Cont
 | RSB (right stick button)     | Button 10               |
 
 > [!Note]  
-> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for rotation; this does mean it is not possible to see all possible trigger combination values through [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx).
+> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for rotation; this does mean it is not possible to see all possible trigger combination values through [DirectInput](https://msdn.microsoft.com/library/Ee416842(v=VS.85).aspx).
 
 ## Arcade Stick/Arcade Pad
 
@@ -102,7 +102,7 @@ This mapping is designed around the Xbox Racing Wheel, and is exposed as a Gamep
 | START                                                          | Button 10               |
 
 > [!Note]  
-> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for the brake and accelerator controls; this does mean it is not possible to see all possible pedal combination values through [DirectInput](https://msdn.microsoft.com/en-us/library/Ee416842(v=VS.85).aspx).
+> (\*): This is combined so that Z exhibits the centering behavior expected by most titles for the brake and accelerator controls; this does mean it is not possible to see all possible pedal combination values through [DirectInput](https://msdn.microsoft.com/library/Ee416842(v=VS.85).aspx).
 
 ## Flight Stick
 

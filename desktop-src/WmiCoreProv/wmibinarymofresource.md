@@ -2,7 +2,7 @@
 Description: The WDM class provider defines the WMIBinaryMofResource class in the \\root\\wmi namespace to support the task of keeping track of the status of data in the WMI repository.
 ms.assetid: 57416a36-5b3a-4d04-808c-09adc597c47a
 title: WMIBinaryMofResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

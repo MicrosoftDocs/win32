@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Introduces the Search Connector Description schema that is used by Windows Explorer libraries and federated search providers. The schema specifies the structure and requirements for Search Connector Description files (\*.searchConnector-ms) and for **searchConnectorDescriptionType** elements of the Shell Library Description (\*.library-ms) files.
 
-This topic describes the schema as it relates to federated search connectors. For more information about libraries and the Library Description schema, see [Library Description Schema](https://msdn.microsoft.com/en-us/library/dd798389(VS.85).aspx).
+This topic describes the schema as it relates to federated search connectors. For more information about libraries and the Library Description schema, see [Library Description Schema](https://msdn.microsoft.com/library/dd798389(VS.85).aspx).
 
 This topic includes the following sections:
 
@@ -65,7 +65,7 @@ The following table lists the major parts of the schema.
 | [templateInfo](search-schema-sconn-templateinfo.md)                                   | Specifies a folder type for the search connector.                                                                                                                                       |
 | [locationProvider](search-schema-sconn-locationprovider.md)                           | Specifies the search provider to be used by this search connector.                                                                                                                      |
 | [scope](search-schema-sconn-scope.md)                                                 | Specifies the locations to include in and exclude from the search scope.                                                                                                                |
-| [propertyStore](search-schema-sconn-propertystore.md)                                 | Specifies the location of an XML-based [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) for this search connector. The **IPropertyStore** supports the search connector's open metadata. |
+| [propertyStore](search-schema-sconn-propertystore.md)                                 | Specifies the location of an XML-based [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) for this search connector. The **IPropertyStore** supports the search connector's open metadata. |
 | [includeInStartMenuScope](search-schema-sconn-includeinstartmenuscope.md)             | Specifies whether the location represented by the search connector should be included in the Start menu's search scope.                                                                 |
 | [domain](search-schema-sconn-domain.md)                                               | Identifies the search connector's top-level domain.                                                                                                                                     |
 | [supportsAdvancedQuerySyntax](search-schema-sconn-supportsadvancedquerysyntax.md)     | Specifies whether the search connector supports Advanced Query Syntax (AQS).                                                                                                            |
@@ -127,7 +127,7 @@ The following is an example of a Search Connector Description file for a MAPI pr
 
 ## Additional Resources
 
--   For more information about the Library Description schema, see [Library Description Schema](https://msdn.microsoft.com/en-us/library/dd798389(VS.85).aspx).
+-   For more information about the Library Description schema, see [Library Description Schema](https://msdn.microsoft.com/library/dd798389(VS.85).aspx).
 -   For more information on installing a search connector, see [Federated Search in Windows](-search-federated-search-overview.md).
 
 ## Related topics

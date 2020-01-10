@@ -2,7 +2,7 @@
 title: dp4 (sm4 - asm)
 description: 4-dimensional vector dot-product of components rgba, POS-swizzle.
 ms.assetid: A41EC054-0060-49CA-90FB-A096E63DD27D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

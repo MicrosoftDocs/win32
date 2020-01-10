@@ -1,5 +1,5 @@
 ---
-title: LVM_INSERTGROUPSORTED message
+title: LVM_INSERTGROUPSORTED message (Commctrl.h)
 description: Inserts a group into an ordered list of groups.
 ms.assetid: 8ad1660b-8b64-4f02-ac1b-b7edeeea38ab
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -36,7 +36,7 @@ The return value is not used.
 
 ## Remarks
 
-The ordering of the list is based on the ID of the group. The order is defined by the application-defined ordering function, [**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx), that is passed in the [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted) structure by the *wParam* parameter.
+The ordering of the list is based on the ID of the group. The order is defined by the application-defined ordering function, [**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx), that is passed in the [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted) structure by the *wParam* parameter.
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
@@ -62,7 +62,7 @@ The ordering of the list is based on the ID of the group. The order is defined b
 **Reference**
 </dt> <dt>
 
-[**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx)
+[**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx)
 </dt> <dt>
 
 [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted)

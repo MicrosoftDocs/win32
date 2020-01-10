@@ -1,7 +1,7 @@
 ---
 Description: Asynchronous Transfer Mode (ATM) networking is emerging into the mainstream of computing, and support for ATM has been added to many parts of the operating system.
 ms.assetid: 0ca0ecf3-2b67-4925-a6fc-3edfaad2c0e2
-title: Quality of Service
+title: Quality of Service (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -20,7 +20,7 @@ Support for QOS is not restricted to ATM transports; any service provider can im
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:  **[**lineSetCallQualityOfService**](https://msdn.microsoft.com/en-us/library/ms736090(v=VS.85).aspx), [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx), **dwSendingFlowspecSize**, **dwSendingFlowspecOffset**, **dwReceivingFlowspecSize**, and **dwReceivingFlowspecOffset** members of [**LINECALLPARAMS**](https://msdn.microsoft.com/en-us/library/ms735534(v=VS.85).aspx)
+**TAPI 2.x:  **[**lineSetCallQualityOfService**](https://msdn.microsoft.com/library/ms736090(v=VS.85).aspx), [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx), **dwSendingFlowspecSize**, **dwSendingFlowspecOffset**, **dwReceivingFlowspecSize**, and **dwReceivingFlowspecOffset** members of [**LINECALLPARAMS**](https://msdn.microsoft.com/library/ms735534(v=VS.85).aspx)
 
 **TAPI 3.x:  **[**ITBasicCallControl::SetQOS**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos), [**ITQOSEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent)
 

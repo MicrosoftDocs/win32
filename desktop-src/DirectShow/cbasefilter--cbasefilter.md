@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: 786fb4d0-a482-4887-91ed-ed156c008272
-title: CBaseFilter.~CBaseFilter destructor
-ms.topic: article
+title: CBaseFilter.~CBaseFilter destructor (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

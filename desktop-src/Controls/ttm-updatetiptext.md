@@ -1,5 +1,5 @@
 ---
-title: TTM_UPDATETIPTEXT message
+title: TTM_UPDATETIPTEXT message (Commctrl.h)
 description: Sets the tooltip text for a tool.
 ms.assetid: 2a7432dd-76f9-42b4-b639-178dce1d89ef
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,8 +24,8 @@ Draw a metafile to the device context.
 
 | Method                                                                                                | Description                                       |
 |:------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F)**](https://msdn.microsoft.com/en-us/library/JJ841147(v=VS.85).aspx)  | Draw a metafile to the device context.<br/> |
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/en-us/library/Dn441540(v=VS.85).aspx) | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F)**](https://msdn.microsoft.com/library/JJ841147(v=VS.85).aspx)  | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_POINT\_2F\*)**](https://msdn.microsoft.com/library/Dn441540(v=VS.85).aspx) | Draw a metafile to the device context.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Draw a metafile to the device context.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ Description: Uncompresses the logical directory entry file (or directory) specif
 ms.assetid: ef5b7c90-5013-4ec0-bfa6-c32428ffb501
 ms.tgt_platform: multiple
 title: UncompressEx method of the CIM_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

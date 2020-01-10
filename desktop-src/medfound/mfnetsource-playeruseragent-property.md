@@ -1,8 +1,8 @@
 ---
 Description: The value of the second portion of the &\#0034;cs(User-Agent)&\#0034; field that the network source uses for logging.
 ms.assetid: c662a6d6-5e0b-4c28-841d-5774d4103d4b
-title: MFNETSOURCE_PLAYERUSERAGENT property
-ms.topic: article
+title: MFNETSOURCE_PLAYERUSERAGENT property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_RECT_PARMS structure
+title: MCI_OVLY_RECT_PARMS structure (Mciapi.h)
 description: The MCI\_OVLY\_RECT\_PARMS structure contains positioning information for the MCI\_PUT and MCI\_WHERE commands for video-overlay devices.
 ms.assetid: 1cfd8e51-c76f-4a1c-905c-efacbd8146f4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -52,7 +52,7 @@ Rectangle containing positioning information. [RECT](https://go.microsoft.com/fw
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -82,7 +82,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_WHERE**](mci-where.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> <dt>
 
 [RECT](https://go.microsoft.com/fwlink/p/?linkid=16998)

@@ -1,5 +1,5 @@
 ---
-title: D3DX Enumerations
+title: D3DX Enumerations (Direct3D 11 Graphics)
 description: This section contains information about D3DX 11 enumerations.
 ms.assetid: c8cabd56-5e7d-4fd5-968d-2c5c17a63650
 keywords:

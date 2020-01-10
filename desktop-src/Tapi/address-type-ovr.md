@@ -14,7 +14,7 @@ For general information on addresses, see [Address](address-ovr.md) under [Devic
 
 The [address type for a session](address-type-for-a-session-ovr.md) will be a subset of the device address types.
 
-**TAPI 2.x:** See [**lineGetDevCaps**](https://msdn.microsoft.com/en-us/library/ms735735(v=VS.85).aspx) and the **dwAddressType** member of [**LINEDEVCAPS**](https://msdn.microsoft.com/en-us/library/ms735602(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx) and the **dwAddressType** member of [**LINEDEVCAPS**](https://msdn.microsoft.com/library/ms735602(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITAddressCapabilities::get\_AddressCapability**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability), with *AddressCap* set to the **AC\_ADDRESSTYPES** member of [**ADDRESS\_CAPABILITY**](/windows/desktop/api/Tapi3if/ne-tapi3if-address_capability).
 

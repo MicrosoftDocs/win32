@@ -1,12 +1,12 @@
 ---
 Description: Integer values are encoded into a TLV triplet that begins with a Tag value of 0x02.
 ms.assetid: a6fed62f-af59-488c-a690-be8c3413086f
-title: INTEGER
+title: INTEGER (Certificate Enrollment API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# INTEGER
+# INTEGER (Certificate Enrollment API)
 
 Integer values are encoded into a TLV triplet that begins with a **Tag** value of 0x02. The **Value** field of the TLV triplet contains the encoded integer if it is positive, or its two's complement if it is negative. If the integer is positive but the high order bit is set to 1, a leading 0x00 is added to the content to indicate that the number is not negative. For example, the high order byte of 0x8F (10001111) is 1. Therefore a leading zero byte is added to the content as shown in the following illustration.
 

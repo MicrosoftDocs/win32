@@ -1,5 +1,5 @@
 ---
-title: MDM Registration Error Values
+title: MDM Registration Error Values (MDMRegistration.h)
 description: The following error values are with MDM Registration.
 ms.assetid: 1f42ed5e-e221-47ec-a019-ed06c05d55d0
 topic_type:
@@ -66,7 +66,7 @@ api_location:
 - MDMRegistration.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

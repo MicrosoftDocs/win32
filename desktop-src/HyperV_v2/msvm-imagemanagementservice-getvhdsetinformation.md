@@ -2,7 +2,7 @@
 Description: Retrieves information about a VHD Set file.
 ms.assetid: efdfd4c6-b762-4369-add3-e152652c6802
 title: GetVHDSetInformation method of the Msvm_ImageManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

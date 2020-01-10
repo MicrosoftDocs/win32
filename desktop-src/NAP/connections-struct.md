@@ -1,5 +1,5 @@
 ---
-title: Connections structure
+title: Connections structure (NapEnforcementClient.h)
 description: Contains information about the list of connections maintained by an enforcer.
 ms.assetid: 79466099-b567-4268-b9bf-d5e57f4d4900
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

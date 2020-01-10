@@ -30,7 +30,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-This value can be passed to the [**ParseDisplayName**](https://msdn.microsoft.com/en-us/library/Bb775090(v=VS.85).aspx) method of the [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) object that represents the parent Shell folder.
+This value can be passed to the [**ParseDisplayName**](https://msdn.microsoft.com/library/Bb775090(v=VS.85).aspx) method of the [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) object that represents the parent Shell folder.
 
 ## Related topics
 

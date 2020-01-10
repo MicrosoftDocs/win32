@@ -1,5 +1,5 @@
 ---
-title: Load3(uint,uint) function
+title: RWByteAddressBuffer::Load3(uint,uint) function
 description: Gets three values and returns status of the operation.
 ms.assetid: EBCCDAF3-69B9-4132-85EC-82759F292811
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load3
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

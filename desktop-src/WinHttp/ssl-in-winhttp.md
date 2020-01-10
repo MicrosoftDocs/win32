@@ -24,7 +24,7 @@ Server certificates are sent from the server to the client so that the client ca
 
 When using the WinHTTP  application programming interface (API), you can retrieve a server certificate by calling [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) and specifying the [**WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT**](option-flags.md) flag. The server certificate is returned in a [**WINHTTP\_CERTIFICATE\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) structure. If you prefer to retrieve the certificate context, specify the [**WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT**](option-flags.md) flag instead.
 
-If a server certificate contains errors, details about the error can be obtained in the status callback function. The [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx) notification indicates an error with a server certificate. The *lpvStatusInformation* parameter contains one or more detailed error flags. See [**WINHTTP\_STATUS\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx) for more information.
+If a server certificate contains errors, details about the error can be obtained in the status callback function. The [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx) notification indicates an error with a server certificate. The *lpvStatusInformation* parameter contains one or more detailed error flags. See [**WINHTTP\_STATUS\_CALLBACK**](https://msdn.microsoft.com/library/Aa383917(v=VS.85).aspx) for more information.
 
 ## Client Certificates
 

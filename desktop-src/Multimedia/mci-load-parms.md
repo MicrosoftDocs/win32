@@ -1,5 +1,5 @@
 ---
-title: MCI_LOAD_PARMS structure
+title: MCI_LOAD_PARMS structure (Mmsystem.h)
 description: The MCI\_LOAD\_PARMS structure contains the filename to load for the MCI\_LOAD command.
 ms.assetid: 371d11cc-44db-496b-b51a-66d7b919b794
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -52,7 +52,7 @@ Name of file to load.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -79,7 +79,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_LOAD**](mci-load.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

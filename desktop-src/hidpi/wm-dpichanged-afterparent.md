@@ -1,5 +1,5 @@
 ---
-title: WM_DPICHANGED_AFTERPARENT message
+title: WM_DPICHANGED_AFTERPARENT message (Winuser.h)
 description: For Per Monitor v2 top-level windows, this message is sent to all HWNDs in the child HWDN tree of the window that is undergoing a DPI change.
 ms.assetid: FEA1BF07-55B6-4584-ABD3-340515831E0A
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -42,8 +42,8 @@
       href: webdav-api-structures.md
       items: 
       - name: "DAV_CALLBACK_AUTH_BLOB"
-        href: /windows/desktop/api/Davclnt/ns-davclnt-_dav_callback_auth_blob
+        href: /windows/win32/api/Davclnt/ns-davclnt-dav_callback_auth_blob
       - name: "DAV_CALLBACK_AUTH_UNP"
-        href: /windows/desktop/api/Davclnt/ns-davclnt-_dav_callback_auth_unp
+        href: /windows/win32/api/Davclnt/ns-davclnt-dav_callback_auth_unp
       - name: "DAV_CALLBACK_CRED"
-        href: /windows/desktop/api/Davclnt/ns-davclnt-_dav_callback_cred
+        href: /windows/win32/api/Davclnt/ns-davclnt-dav_callback_cred

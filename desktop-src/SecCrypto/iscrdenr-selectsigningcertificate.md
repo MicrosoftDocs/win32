@@ -2,7 +2,7 @@
 Description: Displays a Select Certificate dialog box, allowing a signing certificate (also known as the enrollment agent certificate) to be selected.
 ms.assetid: b8198f65-4ffb-4dfa-8286-e62ef483ab16
 title: ISCrdEnr::selectSigningCertificate method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 The **selectSigningCertificate** method displays a **Select Certificate** dialog box, allowing a signing certificate (also known as the *enrollment agent certificate*) to be selected.
 
-Before enrolling on behalf of users, you must select a signing certificate. The [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
+Before enrolling on behalf of users, you must select a signing certificate. The [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
 
 ## Syntax
 

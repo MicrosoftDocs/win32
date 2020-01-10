@@ -1,5 +1,5 @@
 ---
-title: glGetMapdv function
+title: glGetMapdv function (Gl.h)
 description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters.
 ms.assetid: 3b4fc03b-ada4-4f4a-a234-fa6439f2e5c8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

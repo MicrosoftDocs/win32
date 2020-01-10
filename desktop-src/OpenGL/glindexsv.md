@@ -1,5 +1,5 @@
 ---
-title: glIndexsv function
+title: glIndexsv function (Gl.h)
 description: The glIndexsv function sets the current color index.
 ms.assetid: 4b7f4edf-a7c8-4e81-8448-5181295d5174
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

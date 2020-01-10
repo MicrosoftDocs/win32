@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETSTYLES message
+title: MCIWNDM_GETSTYLES message (Vfw.h)
 description: The MCIWNDM\_GETSTYLES message retrieves the flags specifying the current MCIWnd window styles used by a window. You can send this message explicitly or by using the MCIWndGetStyles macro.
 ms.assetid: cd34ba05-47cb-488e-a6c6-4ec1c0d25de8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

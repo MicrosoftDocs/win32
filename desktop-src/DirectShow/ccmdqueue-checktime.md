@@ -1,8 +1,8 @@
 ---
 Description: The CheckTime method determines if a specified time is due.
 ms.assetid: 522bc7ae-f998-4a7d-8bc3-caf09b4108a6
-title: CCmdQueue.CheckTime method
-ms.topic: article
+title: CCmdQueue.CheckTime method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

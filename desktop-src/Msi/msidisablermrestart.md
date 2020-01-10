@@ -2,7 +2,7 @@
 Description: The MSIDISABLERMRESTART property determines how applications or services that are currently using files affected by an update should be shut down and restarted to enable the installation of the update.
 ms.assetid: 45c804bf-6d15-416a-b106-d8bb3f4c547d
 title: MSIDISABLERMRESTART property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,8 +16,8 @@ The **MSIDISABLERMRESTART** property determines how applications or services tha
 
 | Value                                                                        | Meaning                                                                                                                                                                                      |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>0</dt> </dl> | All system services that were shut down to install the update are restarted. All applications that registered themselves with the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) are restarted.<br/> |
-| <dl> <dt>1</dt> </dl> | Processes that were shut down using the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) while installing the update will not be restarted after the update is applied.<br/>                           |
+| <dl> <dt>0</dt> </dl> | All system services that were shut down to install the update are restarted. All applications that registered themselves with the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) are restarted.<br/> |
+| <dl> <dt>1</dt> </dl> | Processes that were shut down using the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) while installing the update will not be restarted after the update is applied.<br/>                           |
 
 
 
@@ -25,7 +25,7 @@ The **MSIDISABLERMRESTART** property determines how applications or services tha
 
 ## Remarks
 
-The **MSIDISABLERMRESTART** Property is ignored if the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) is unavailable or disabled.
+The **MSIDISABLERMRESTART** Property is ignored if the [Restart Manager](https://msdn.microsoft.com/library/Cc948910(v=VS.85).aspx) is unavailable or disabled.
 
 ## Requirements
 

@@ -1,8 +1,8 @@
 ---
 Description: The Encapsulate method encapsulates the given command application protocol data unit (APDU) into another command APDU for transmission to a smart card.
 ms.assetid: dfffad09-046b-46cb-b6fd-286a4bbf1066
-title: ISCardCmd::Encapsulate method
-ms.topic: article
+title: ISCardCmd::Encapsulate method (Scarddat.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::Encapsulate method
 
-\[The **Encapsulate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Encapsulate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **Encapsulate** method encapsulates the given command [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) into another command APDU for transmission to a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **Encapsulate** method encapsulates the given command [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) into another command APDU for transmission to a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ Pointer to the APDU to be encapsulated.
 *ApduType* \[in\]
 </dt> <dd>
 
-ISO 7816-4 case for [*T=0*](https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx) transmissions.
+ISO 7816-4 case for [*T=0*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx) transmissions.
 
 <dl><span id="ISO_CASE_1"></span><span id="iso_case_1"></span><dt>
 

@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnection DeviceNumber property
+title: IVMHardDiskConnection DeviceNumber property (VPCCOMInterfaces.h)
 description: Retrieves the device number to which the drive image is attached.
 ms.assetid: fea8bac6-fb25-495a-bc56-1d517b831f33
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

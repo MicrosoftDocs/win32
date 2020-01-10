@@ -2,7 +2,7 @@
 Description: The Count property is a read-only property that returns the number of items in the StringList object.
 ms.assetid: aa85b8d9-344d-4f31-aa86-9e6497c07751
 title: StringList.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

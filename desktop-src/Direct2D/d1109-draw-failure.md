@@ -10,7 +10,7 @@ api_name:
 - D1109 Draw Failure
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---
@@ -33,14 +33,14 @@ The address of the render target.
 <span id="tag1"></span><span id="TAG1"></span>*tag1*
 </dt> <dd>
 
-The first tag value (see [**SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx) more for information).
+The first tag value (see [**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) more for information).
 
 </dd> <dt>
 
 <span id="tag2"></span><span id="TAG2"></span>*tag2*
 </dt> <dd>
 
-The second tag value (see [**SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx) more for information).
+The second tag value (see [**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) more for information).
 
 </dd> </dl> 
 

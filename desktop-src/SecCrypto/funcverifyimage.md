@@ -1,8 +1,8 @@
 ---
 Description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
 ms.assetid: 477a6c9f-05ac-485a-8b27-5605fc11c1d6
-title: CRYPT_VERIFY_IMAGE function pointer
-ms.topic: article
+title: CRYPT_VERIFY_IMAGE function pointer (Cspdk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,9 +19,9 @@ api_location:
 
 # CRYPT\_VERIFY\_IMAGE function pointer
 
-The **FuncVerifyImage** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) to verify the signature of a DLL.
+The **FuncVerifyImage** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) to verify the signature of a DLL.
 
-All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
+All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
 
 ## Syntax
 

@@ -1,8 +1,8 @@
 ---
 Description: Defines constants that describe the supported shading modes.
 ms.assetid: ba4e0c62-b496-427b-a324-2fb560d153ba
-title: D3DSHADEMODE enumeration
-ms.topic: enumeration
+title: D3DSHADEMODE enumeration (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -92,7 +92,7 @@ The members of this enumerated type define the vales for the D3DRS\_SHADEMODE re
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
 </dt> </dl>
 
  

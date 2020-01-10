@@ -1,8 +1,8 @@
 ---
 Description: Requests allocation of a mesh container object.
 ms.assetid: ec66b393-016b-4572-94dc-5c8903b506a3
-title: ID3DXAllocateHierarchy::CreateMeshContainer method
-ms.topic: article
+title: ID3DXAllocateHierarchy::CreateMeshContainer method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ HRESULT CreateMeshContainer(
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Name of the mesh.
 
@@ -81,7 +81,7 @@ Array of effect instances used in the mesh. See [**D3DXEFFECTINSTANCE**](d3dxeff
 *NumMaterials* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of materials in the materials array.
 
@@ -90,7 +90,7 @@ Number of materials in the materials array.
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Adjacency array for the mesh.
 
@@ -116,7 +116,7 @@ Returns the created mesh container. See [**D3DXMESHCONTAINER**](d3dxmeshcontaine
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from D3DERR or D3DXERR, as this will cause [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) to fail also, and return the error.
 

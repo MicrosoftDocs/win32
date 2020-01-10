@@ -1,5 +1,5 @@
 ---
-title: MIM_ERROR message
+title: MIM_ERROR message (Mmsystem.h)
 description: The MIM\_ERROR message is sent to a MIDI input callback function when an invalid MIDI message is received.
 ms.assetid: ea720da5-1f18-4d0d-ac9d-45cd1c3219d6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ Invalid MIDI message that was received. The message is packed into a doubleword 
 <span id="dwTimestamp"></span><span id="dwtimestamp"></span><span id="DWTIMESTAMP"></span>*dwTimestamp*
 </dt> <dd>
 
-Time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://msdn.microsoft.com/en-us/library/Dd798462(v=VS.85).aspx) function was called.
+Time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://msdn.microsoft.com/library/Dd798462(v=VS.85).aspx) function was called.
 
 </dd> </dl>
 

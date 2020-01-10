@@ -1,8 +1,8 @@
 ---
 Description: Removes all scheduled priority blend events from the animation controller.
 ms.assetid: 4dea1998-4081-4c2c-929e-6fb440806c2a
-title: ID3DXAnimationController::UnkeyAllPriorityBlends method
-ms.topic: article
+title: ID3DXAnimationController::UnkeyAllPriorityBlends method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

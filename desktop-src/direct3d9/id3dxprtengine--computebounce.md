@@ -1,8 +1,8 @@
 ---
 Description: Computes the source radiance resulting from a single bounce of interreflected light. This method can be used for any lit scene, including a spherical harmonic (SH)-based precomputed radiance transfer (PRT) model.
 ms.assetid: 91a6b503-acd2-459b-9d60-de68c879c61b
-title: ID3DXPRTEngine::ComputeBounce method
-ms.topic: article
+title: ID3DXPRTEngine::ComputeBounce method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -66,7 +66,7 @@ Pointer to an optional [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that is th
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

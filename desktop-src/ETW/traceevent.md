@@ -1,8 +1,8 @@
 ---
 Description: The TraceEvent function sends an event to an event tracing session.
 ms.assetid: '9b21f6f0-dd9b-4f9c-a879-846901a3bab7'
-title: TraceEvent function
-ms.topic: article
+title: TraceEvent function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -66,7 +66,7 @@ Depending on the complexity of the information your provider provides, you shoul
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the current matrix at the top of the stack.
 ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
-title: ID3DXMATRIXStack::GetTop method
-ms.topic: article
+title: ID3DXMATRIXStack::GetTop method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 This method returns a pointer to a D3DXMATRIX structure representing the current matrix.
 

@@ -1,8 +1,8 @@
 ---
 Description: Flag that specifies whether the window has been activated. If TRUE, the window has been activated.
 ms.assetid: 6444c581-53a9-48eb-ba9b-fdb8f09aab5d
-title: CBaseWindow::m_bActivated member
-ms.topic: article
+title: CBaseWindow::m_bActivated member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,7 +1,7 @@
 ---
 Description: Exposes methods that are used to initialize a most recently used (MRU) list for an autocompletion object.
 title: IACLCustomMRU interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -29,7 +29,7 @@ Exposes methods that are used to initialize a most recently used (MRU) list for 
 
 ## Members
 
-The **IACLCustomMRU** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IACLCustomMRU** also has these types of members:
+The **IACLCustomMRU** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IACLCustomMRU** also has these types of members:
 
 -   [Methods](#methods)
 

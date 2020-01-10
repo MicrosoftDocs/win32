@@ -1,5 +1,5 @@
 ---
-title: INapSoHConstructor Initialize method
+title: INapSoHConstructor Initialize method (NapProtocol.h)
 description: Initializes a SoH protocol packet in the NAP system.
 ms.assetid: 1678b677-c8c8-465c-a412-9b929e39bbac
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

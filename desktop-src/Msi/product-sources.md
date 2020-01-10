@@ -2,7 +2,7 @@
 Description: The Sources property enumerates all the sources for the product instance.
 ms.assetid: 26602099-d0e0-4269-91d9-82943859811a
 title: Product.Sources property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

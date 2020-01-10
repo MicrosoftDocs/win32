@@ -1,5 +1,5 @@
 ---
-title: GetInt32Property method of the Win32_RDSHCollection class
+title: GetInt32Property method of the Win32_RDSHCollection class (Microsoft.diagnostics.appanalysis.h)
 description: Retrieves an integer property value of a Win32\_RDSHCollection object.
 ms.assetid: ab68f357-057d-4a36-ae39-f47198768a49
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

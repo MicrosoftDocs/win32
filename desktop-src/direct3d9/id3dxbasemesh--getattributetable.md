@@ -1,8 +1,8 @@
 ---
 Description: Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
 ms.assetid: 15b24137-0ff9-4299-971b-90fa4ef2686d
-title: ID3DXBaseMesh::GetAttributeTable method
-ms.topic: article
+title: ID3DXBaseMesh::GetAttributeTable method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to an array of [**D3DXATTRIBUTERANGE**](d3dxattributerange.md) structure
 *pAttribTableSize* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to either the number of entries stored in pAttribTable or a value to be filled in with the number of entries stored in the attribute table for the mesh.
 
@@ -56,7 +56,7 @@ Pointer to either the number of entries stored in pAttribTable or a value to be 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

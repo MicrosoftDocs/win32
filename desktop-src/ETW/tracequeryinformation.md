@@ -1,8 +1,8 @@
 ---
 Description: Queries event tracing session settings for the specified information class.
 ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278
-title: TraceQueryInformation function
-ms.topic: article
+title: TraceQueryInformation function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -89,7 +89,7 @@ If the function fails, the return value is one of the following error codes.
 | <dl> <dt>**ERROR\_BAD\_LENGTH**</dt> </dl>        | The program issued a command but the command length is incorrect. This error is returned if the *InformationLength* parameter is less than a minimum size.<br/> |
 | <dl> <dt>**ERROR\_INVALID\_PARAMETER**</dt> </dl> | The parameter is incorrect. <br/>                                                                                                                               |
 | <dl> <dt>**ERROR\_NOT\_SUPPORTED**</dt> </dl>     | The request is not supported.<br/>                                                                                                                              |
-| <dl> <dt>**Other**</dt> </dl>                     | Use [**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx) to obtain the message string for the returned error.<br/>                                                           |
+| <dl> <dt>**Other**</dt> </dl>                     | Use [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx) to obtain the message string for the returned error.<br/>                                                           |
 
 
 

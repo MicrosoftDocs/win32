@@ -1,5 +1,5 @@
 ---
-title: InterlockedCompareExchange function
+title: RWByteAddressBuffer::InterlockedCompareExchange function
 description: Compares the input to the comparison value and exchanges the result, atomically.
 ms.assetid: 9d6e8d95-5157-49a7-8a79-f3ca6ba87ebb
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - InterlockedCompareExchange
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

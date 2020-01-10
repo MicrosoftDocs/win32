@@ -1,5 +1,5 @@
 ---
-title: Direct3D 12 Raytracing HLSL Structures
+title: Raytracing HLSL structures (Direct3D 12)
 description: The following HLSL structures support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
 ms.localizationpriority: low
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Raytracing HLSL Shaders
+# Raytracing HLSL structures (Direct3D 12)
 
 The following HLSL structures support the Direct3D 12 raytracing pipeline.
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of an annotation by looking up its name.
 ms.assetid: da4e2805-5f06-4a9b-836f-85a8c154c502
-title: ID3DXBaseEffect::GetAnnotationByName method
-ms.topic: article
+title: ID3DXBaseEffect::GetAnnotationByName method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Handle of a technique, pass, or top-level parameter. See [Handles (Direct3D 9)](
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 String containing the annotation name.
 

@@ -3,7 +3,7 @@ Description: Represents a CD-ROM drive on a computer system running Windows.
 ms.assetid: 08087976-ca88-4ac8-9456-0d8bd799e66c
 ms.tgt_platform: multiple
 title: Win32_CDROMDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

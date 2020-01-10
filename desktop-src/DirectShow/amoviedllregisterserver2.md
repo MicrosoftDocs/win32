@@ -1,8 +1,8 @@
 ---
 Description: The AMovieDllRegisterServer2 function registers and unregisters filters.
 ms.assetid: 2122949d-0117-4c68-bfcd-c717b14dc970
-title: AMovieDllRegisterServer2 function
-ms.topic: article
+title: AMovieDllRegisterServer2 function (Dllsetup.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

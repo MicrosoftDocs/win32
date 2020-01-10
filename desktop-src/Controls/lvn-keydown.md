@@ -1,5 +1,5 @@
 ---
-title: LVN_KEYDOWN notification code
+title: LVN_KEYDOWN notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that a key has been pressed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 3aa3d165-7227-41c4-8bc2-3e51a0f52ee3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

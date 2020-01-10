@@ -1,8 +1,8 @@
 ---
 Description: Sent by an audio capture source when the audio dession is disconnected because the user logged off from a Windows Terminal Services (WTS) session.
 ms.assetid: 88B24E79-FEB8-46AF-9A6C-3FB426089584
-title: MECaptureAudioSessionDisconnected event
-ms.topic: article
+title: MECaptureAudioSessionDisconnected event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 This event is sent by the media stream of the audio capture source.
 
-The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/en-us/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonSessionDisconnected**.
+The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonSessionDisconnected**.
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: Store function
+title: RWByteAddressBuffer::Store function
 description: Sets one value.
 ms.assetid: edfda955-602c-44f4-adc3-77b61c9dcd05
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Store
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -2,7 +2,7 @@
 Description: Specifies a signing certificate (also known as the enrollment agent certificate).
 ms.assetid: db2437a9-46f6-48c3-9630-82ec556df645
 title: ISCrdEnr::setSigningCertificate method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 The **setSigningCertificate** method specifies a signing certificate (also known as the *enrollment agent certificate*).
 
-Before enrolling on behalf of users, you must select or set a signing certificate. The [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
+Before enrolling on behalf of users, you must select or set a signing certificate. The [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
 
 ## Syntax
 

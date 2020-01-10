@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_index_range.jet_index_range(v=EXCHG.10)
 ms:contentKeyID: 55104439
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE.JET_INDEX_RANGE
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: Calls ID3DXSprite::Flush and restores the device state to how it was before ID3DXSprite::Begin was called.
 ms.assetid: 603c69f7-13a8-4646-b367-6f2d21b1a2a0
-title: ID3DXSprite::End method
-ms.topic: article
+title: ID3DXSprite::End method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

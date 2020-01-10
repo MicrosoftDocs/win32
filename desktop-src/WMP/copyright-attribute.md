@@ -1,5 +1,5 @@
 ---
-title: Copyright Attribute
+title: Copyright Attribute (Msfeeds.h)
 description: The Copyright attribute is the copyright message for the item.
 ms.assetid: 617272cb-883f-46d6-b0a9-29ac32c63148
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - msfeeds.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

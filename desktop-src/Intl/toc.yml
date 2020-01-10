@@ -56,15 +56,15 @@
           href: extended-linguistic-services-structures.md
           items: 
           - name: "MAPPING_DATA_RANGE"
-            href: /windows/desktop/api/Elscore/ns-elscore-_mapping_data_range
+            href: /windows/win32/api/Elscore/ns-elscore-mapping_data_range
           - name: "MAPPING_ENUM_OPTIONS"
-            href: /windows/desktop/api/Elscore/ns-elscore-_mapping_enum_options
+            href: /windows/win32/api/Elscore/ns-elscore-mapping_enum_options
           - name: "MAPPING_OPTIONS"
-            href: /windows/desktop/api/Elscore/ns-elscore-_mapping_options
+            href: /windows/win32/api/Elscore/ns-elscore-mapping_options
           - name: "MAPPING_PROPERTY_BAG"
-            href: /windows/desktop/api/Elscore/ns-elscore-_mapping_property_bag
+            href: /windows/win32/api/Elscore/ns-elscore-mapping_property_bag
           - name: "MAPPING_SERVICE_INFO"
-            href: /windows/desktop/api/Elscore/ns-elscore-_mapping_service_info
+            href: /windows/win32/api/Elscore/ns-elscore-mapping_service_info
     - name: "International Components for Unicode (ICU)"
       href: international-components-for-unicode--icu-.md
     - name: "National Language Support"
@@ -123,13 +123,13 @@
           href: using-unicode-normalization-to-represent-strings.md
         - name: "Working with Custom Locales"
           href: working-with-custom-locales.md
-        - name: "NLS: Internationalized Domain Name (IDN) Conversion Sample"
+        - name: "NLS - Internationalized Domain Name Conversion Sample"
           href: nls--internationalized-domain-name--idn--conversion-sample.md
-        - name: "NLS: Internationalized Domain Name (IDN) Mitigation Sample"
+        - name: "NLS - Internationalized Domain Name Mitigation Sample"
           href: nls--internationalized-domain-name--idn--mitigation-sample.md
-        - name: "NLS: Name-based APIs Sample"
+        - name: "NLS - Name-based APIs Sample"
           href: nls--name-based-apis-sample.md
-        - name: "NLS: Unicode Normalization Sample"
+        - name: "NLS - Unicode Normalization Sample"
           href: nls--unicode-normalization-sample.md
       - name: "National Language Support Reference"
         href: national-language-support-reference.md
@@ -368,24 +368,24 @@
           - name: "CALDATETIME"
             href: caldatetime.md
           - name: "CPINFO"
-            href: /windows/desktop/api/Winnls/ns-winnls-_cpinfo
+            href: /windows/win32/api/Winnls/ns-winnls-cpinfo
           - name: "CPINFOEX"
-            href: /windows/desktop/api/Winnls/ns-winnls-_cpinfoexa
+            href: /windows/win32/api/Winnls/ns-winnls-cpinfoexa
           - name: "CURRENCYFMT"
-            href: /windows/desktop/api/Winnls/ns-winnls-_currencyfmta
+            href: /windows/win32/api/Winnls/ns-winnls-currencyfmta
           - name: "NLSVERSIONINFO"
             href: /windows/desktop/api/Winnls/ns-winnls-_nlsversioninfo
           - name: "NLSVERSIONINFOEX"
-            href: /windows/desktop/api/Winnls/ns-winnls-_nlsversioninfoex
+            href: /windows/win32/api/Winnls/ns-winnls-nlsversioninfoex
           - name: "NUMBERFMT"
-            href: /windows/desktop/api/Winnls/ns-winnls-_numberfmta
+            href: /windows/win32/api/Winnls/ns-winnls-numberfmta
         - name: "National Language Support Enumeration Types"
           href: national-language-support-enumeration-types.md
           items: 
           - name: "CALDATETIME_DATEUNIT"
             href: caldatetime-dateunit.md
           - name: "NORM_FORM"
-            href: /windows/desktop/api/Winnls/ne-winnls-_norm_form
+            href: /windows/win32/api/Winnls/ne-winnls-norm_form
           - name: "SYSGEOCLASS"
             href: /windows/desktop/api/Winnls/ne-winnls-sysgeoclass
           - name: "SYSGEOTYPE"
@@ -1080,37 +1080,37 @@
         href: input-method-manager-structures.md
         items: 
         - name: "APPLETIDLIST"
-          href: /windows/desktop/api/Imepad/ns-imepad-tagappletidlist
+          href: /windows/win32/api/Imepad/ns-imepad-appletidlist
         - name: "CANDIDATEFORM"
-          href: /windows/desktop/api/Imm/ns-imm-tagcandidateform
+          href: /windows/win32/api/Imm/ns-imm-candidateform
         - name: "CANDIDATELIST"
-          href: /windows/desktop/api/Imm/ns-imm-tagcandidatelist
+          href: /windows/win32/api/Imm/ns-imm-candidatelist
         - name: "COMPOSITIONFORM"
-          href: /windows/desktop/api/Imm/ns-imm-tagcompositionform
+          href: /windows/win32/api/Imm/ns-imm-compositionform
         - name: "IMEAPPLETCFG"
-          href: /windows/desktop/api/Imepad/ns-imepad-tagappletcfg
+          href: /windows/win32/api/Imepad/ns-imepad-imeappletcfg
         - name: "IMEAPPLETUI"
-          href: /windows/desktop/api/Imepad/ns-imepad-tagimeappletui
+          href: /windows/win32/api/Imepad/ns-imepad-imeappletui
         - name: "IMECHARPOSITION"
-          href: /windows/desktop/api/Imm/ns-imm-tagimecharposition
+          href: /windows/win32/api/Imm/ns-imm-imecharposition
         - name: "IMECOMPOSITIONSTRINGINFO"
-          href: /windows/desktop/api/Imepad/ns-imepad-tagimecompositionstringinfo
+          href: /windows/win32/api/Imepad/ns-imepad-imecompositionstringinfo
         - name: "IMEDLG"
-          href: /windows/desktop/api/Msime/ns-msime-_imedlg
+          href: /windows/win32/api/Msime/ns-msime-imedlg
         - name: "IMESHF"
-          href: /windows/desktop/api/Msime/ns-msime-_imeshf
+          href: /windows/win32/api/Msime/ns-msime-imeshf
         - name: "IMEMENUITEMINFO"
-          href: /windows/desktop/api/Imm/ns-imm-tagimemenuiteminfoa
+          href: /windows/win32/api/Imm/ns-imm-imemenuiteminfoa
         - name: "IMEWRD"
-          href: /windows/desktop/api/Msime/ns-msime-_imewrd
+          href: /windows/win32/api/Msime/ns-msime-imewrd
         - name: "POSTBL"
-          href: /windows/desktop/api/Msime/ns-msime-_postbl
+          href: /windows/win32/api/Msime/ns-msime-postbl
         - name: "RECONVERTSTRING"
-          href: /windows/desktop/api/Imm/ns-imm-tagreconvertstring
+          href: /windows/win32/api/Imm/ns-imm-reconvertstring
         - name: "REGISTERWORD"
-          href: /windows/desktop/api/Imm/ns-imm-tagregisterworda
+          href: /windows/win32/api/Imm/ns-imm-registerworda
         - name: "STYLEBUF"
-          href: /windows/desktop/api/Imm/ns-imm-tagstylebufa
+          href: /windows/win32/api/Imm/ns-imm-stylebufa
   - name: "International Fonts and Text Display"
     href: international-fonts-and-text-display.md
     items: 
@@ -1255,46 +1255,46 @@
           href: uniscribe-structures.md
           items: 
           - name: "GOFFSET"
-            href: /windows/desktop/api/Usp10/ns-usp10-taggoffset
+            href: /windows/win32/api/Usp10/ns-usp10-goffset
           - name: "OPENTYPE_FEATURE_RECORD"
             href: /windows/desktop/api/Usp10/ns-usp10-opentype_feature_record
           - name: "OPENTYPE_TAG"
             href: opentype-tag.md
           - name: "SCRIPT_ANALYSIS"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_analysis
+            href: /windows/win32/api/Usp10/ns-usp10-script_analysis
           - name: "SCRIPT_CACHE"
             href: script-cache.md
           - name: "SCRIPT_CHARPROP"
             href: /windows/desktop/api/Usp10/ns-usp10-script_charprop
           - name: "SCRIPT_CONTROL"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_control
+            href: /windows/win32/api/Usp10/ns-usp10-script_control
           - name: "SCRIPT_DIGITSUBSTITUTE"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_digitsubstitute
+            href: /windows/win32/api/Usp10/ns-usp10-script_digitsubstitute
           - name: "SCRIPT_FONTPROPERTIES"
             href: /windows/desktop/api/Usp10/ns-usp10-script_fontproperties
           - name: "SCRIPT_GLYPHPROP"
             href: /windows/desktop/api/Usp10/ns-usp10-script_glyphprop
           - name: "SCRIPT_ITEM"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_item
+            href: /windows/win32/api/Usp10/ns-usp10-script_item
           - name: "SCRIPT_LOGATTR"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_logattr
+            href: /windows/win32/api/Usp10/ns-usp10-script_logattr
           - name: "SCRIPT_PROPERTIES"
             href: /windows/desktop/api/Usp10/ns-usp10-script_properties
           - name: "SCRIPT_STATE"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_state
+            href: /windows/win32/api/Usp10/ns-usp10-script_state
           - name: "SCRIPT_STRING_ANALYSIS"
             href: script-string-analysis.md
           - name: "SCRIPT_TABDEF"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_tabdef
+            href: /windows/win32/api/Usp10/ns-usp10-script_tabdef
           - name: "SCRIPT_VISATTR"
-            href: /windows/desktop/api/Usp10/ns-usp10-tag_script_visattr
+            href: /windows/win32/api/Usp10/ns-usp10-script_visattr
           - name: "TEXTRANGE_PROPERTIES"
             href: /windows/desktop/api/Usp10/ns-usp10-textrange_properties
         - name: "Uniscribe Enumeration Types"
           href: uniscribe-enumeration-types.md
           items: 
           - name: "SCRIPT_JUSTIFY"
-            href: /windows/desktop/api/Usp10/ne-usp10-tag_script_justify
+            href: /windows/win32/api/Usp10/ne-usp10-script_justify
   - name: "Multilingual User Interface"
     href: multilingual-user-interface.md
     items: 
@@ -1427,7 +1427,7 @@
         href: multilingual-user-interface-structures.md
         items: 
         - name: "FILEMUIINFO"
-          href: /windows/desktop/api/Winnls/ns-winnls-_filemuiinfo
+          href: /windows/win32/api/Winnls/ns-winnls-filemuiinfo
       - name: "Resource Utilities"
         href: resource-utilities.md
   - name: "Unicode and Character Sets"
@@ -1545,11 +1545,11 @@
         href: unicode-and-character-set-structures.md
         items: 
         - name: "CHARSETINFO"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagcharsetinfo
+          href: /windows/win32/api/Wingdi/ns-wingdi-charsetinfo
         - name: "FONTSIGNATURE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagfontsignature
+          href: /windows/win32/api/Wingdi/ns-wingdi-fontsignature
         - name: "LOCALESIGNATURE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taglocalesignature
+          href: /windows/win32/api/Wingdi/ns-wingdi-localesignature
       - name: "Unicode and Character Set Constants"
         href: unicode-and-character-set-constants.md
         items: 

@@ -1,8 +1,8 @@
 ---
 Description: The GetEmailNames method gets an array of e-mail names associated with the conference blob.
 ms.assetid: e51f25d7-41e5-408e-930b-396c7ac24437
-title: ITSdp::GetEmailNames method
-ms.topic: article
+title: ITSdp::GetEmailNames method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

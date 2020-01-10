@@ -1,8 +1,8 @@
 ---
 Description: Gets a technique description.
 ms.assetid: 12122858-1e54-446c-8f12-20cc62499d74
-title: ID3DXBaseEffect::GetTechniqueDesc method
-ms.topic: article
+title: ID3DXBaseEffect::GetTechniqueDesc method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Returns a description of the technique. See [**D3DXTECHNIQUE\_DESC**](d3dxtechni
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

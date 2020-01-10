@@ -1,5 +1,5 @@
 ---
-title: PSM_SHOWWIZBUTTONS message
+title: PSM_SHOWWIZBUTTONS message (Prsht.h)
 description: Shows or hides buttons in a wizard. You can send this message explicitly or by using the PropSheet\_ShowWizButtons macro.
 ms.assetid: 669c4e51-cac1-40e1-8f23-afae0e41fc9b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

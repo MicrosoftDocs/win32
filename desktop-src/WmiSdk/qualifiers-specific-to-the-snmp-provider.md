@@ -3,7 +3,7 @@ Description: Qualifiers contain implementation-specific context information and 
 ms.assetid: f2ac107c-e201-4670-96d1-883419787377
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the SNMP Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

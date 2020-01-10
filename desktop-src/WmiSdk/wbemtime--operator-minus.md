@@ -3,9 +3,9 @@ Description: 'The WBEMTime class subtraction operator (&\#8211;) has been overlo
 audience: developer
 ms.assetid: 0fa51aab-7ea2-4af7-bb12-1646388b0405
 ms.tgt_platform: multiple
-title: WBEMTime::operator- operators
+title: WBEMTime::operator- operators (WbemTime.h)
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # WBEMTime::operator- operators
@@ -23,8 +23,8 @@ The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overlo
 
 | Operator                                                                         | Description                                                                      |
 |:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**operator-(WBEMTime&)**](https://msdn.microsoft.com/en-us/library/Aa394037(v=VS.85).aspx)         | Subtracts a **WBEMTime** from a **WBEMTime**.<br/>                         |
-| [**operator-(WBEMTimeSpan&)**](https://msdn.microsoft.com/en-us/library/Aa394036(v=VS.85).aspx) | Subtracts a [**WBEMTimeSpan**](https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx) from a **WBEMTime**.<br/> |
+| [**operator-(WBEMTime&)**](https://msdn.microsoft.com/library/Aa394037(v=VS.85).aspx)         | Subtracts a **WBEMTime** from a **WBEMTime**.<br/>                         |
+| [**operator-(WBEMTimeSpan&)**](https://msdn.microsoft.com/library/Aa394036(v=VS.85).aspx) | Subtracts a [**WBEMTimeSpan**](https://msdn.microsoft.com/library/Aa393989(v=VS.85).aspx) from a **WBEMTime**.<br/> |
 
 
 

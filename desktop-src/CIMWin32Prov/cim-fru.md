@@ -3,7 +3,7 @@ Description: The CIM\_FRU class represents a vendor-defined collection of produc
 ms.assetid: 4464ec3a-5509-4e15-9020-4abb2edd2570
 ms.tgt_platform: multiple
 title: CIM_FRU class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

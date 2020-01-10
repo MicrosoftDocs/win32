@@ -3,7 +3,7 @@ Description: The CIM\_ServiceAccessBySAP association class represents the access
 ms.assetid: 68311a56-b034-4a30-a885-74a745a738d8
 ms.tgt_platform: multiple
 title: CIM_ServiceAccessBySAP class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

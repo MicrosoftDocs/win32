@@ -1,5 +1,5 @@
 ---
-title: EM_SETCARETINDEX message
+title: EM_SETCARETINDEX message (CommCtrl.h)
 description: Sets the zero-based index value of the position of the caret in an edit control.
 ms.assetid: 5cb7ff1e-18e8-49c8-8072-872cf32b18b0
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 10/19/2018
 ---
 

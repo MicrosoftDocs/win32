@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform3D SetAxisX methods
+title: IDCompositionRotateTransform3D SetAxisX methods (Dcomp.h)
 description: Changes or animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
 ms.assetid: 6ADBB027-8F80-4DF3-9199-DDB6570DF81B
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform3D::SetAxisX methods
@@ -24,8 +24,8 @@ Changes or animates the value of the AxisX property of a 3D rotation transform. 
 
 | Method                                                                                                       | Description                                          |
 |:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAxisX(float)**](https://msdn.microsoft.com/en-us/library/Hh448935(v=VS.85).aspx)                                     | Changes the value of the AxisX property.<br/>  |
-| [**SetAxisX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448937(v=VS.85).aspx) | Animates the value of the AxisX property.<br/> |
+| [**SetAxisX(float)**](https://msdn.microsoft.com/library/Hh448935(v=VS.85).aspx)                                     | Changes the value of the AxisX property.<br/>  |
+| [**SetAxisX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448937(v=VS.85).aspx) | Animates the value of the AxisX property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the AxisX property of a 3D rotation transform. 
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,8 +1,8 @@
 ---
 Description: Flag that indicates whether the pin tries its own preferred media types before those of the receiving pin.
 ms.assetid: 50462ee4-4a61-472f-9a7e-9cdb39be4dea
-title: CBasePin::m_bTryMyTypesFirst member
-ms.topic: article
+title: CBasePin::m_bTryMyTypesFirst member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

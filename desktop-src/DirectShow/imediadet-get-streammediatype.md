@@ -1,8 +1,8 @@
 ---
 Description: The get\_StreamMediaType method retrieves the media type of the current stream. All video streams are converted to VIDEOINFOHEADER types, and all audio streams are converted to WAVEFORMATEX types.
 ms.assetid: 7fc15cb3-af77-42c1-b5eb-d1d88bf9cd1d
-title: IMediaDet::get_StreamMediaType method
-ms.topic: article
+title: IMediaDet::get_StreamMediaType method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -23,7 +23,7 @@ api_location:
 
  
 
-The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd390970(v=VS.85).aspx) types.
+The `get_StreamMediaType` method retrieves the media type of the current stream. All video streams are converted to [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) types, and all audio streams are converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) types.
 
 ## Syntax
 

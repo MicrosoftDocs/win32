@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This topic is Step 4 of [Grabbing a Poster Frame](grabbing-a-poster-frame.md).
 
-The final step is to draw the bitmap onto the client area of the application window, using the [**SetDIBitsToDevice**](https://msdn.microsoft.com/en-us/library/Dd162974(v=VS.85).aspx) function. This example simply paints the bitmap in the upper-left corner of the client area, without regard to the window size:
+The final step is to draw the bitmap onto the client area of the application window, using the [**SetDIBitsToDevice**](https://msdn.microsoft.com/library/Dd162974(v=VS.85).aspx) function. This example simply paints the bitmap in the upper-left corner of the client area, without regard to the window size:
 
 
 ```C++

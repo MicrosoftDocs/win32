@@ -2,7 +2,7 @@
 Description: Injects a non-maskable interrupt into the virtual machine.
 ms.assetid: 897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9
 title: Msvm_ComputerSystem::InjectNonMaskableInterrupt method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

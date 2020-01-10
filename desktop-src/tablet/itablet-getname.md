@@ -2,7 +2,7 @@
 Description: Returns a string containing the name of the tablet device.
 ms.assetid: 025620b5-ab68-4e36-ae26-2226a2fdeb61
 title: ITablet::GetName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

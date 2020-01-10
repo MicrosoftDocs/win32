@@ -1,5 +1,5 @@
 ---
-title: Filter Weight Identifiers
+title: Filter Weight Identifiers (Fwpmu.h)
 description: Filter weight identifiers used by the Base Filtering Engine (BFE) to compute auto-generated filter weights.
 ms.assetid: 73d2e9e0-0d3a-474e-b660-f91675f9000e
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

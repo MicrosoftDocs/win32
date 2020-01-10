@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagUseNegotiate method
+title: WSMan.SessionFlagUseNegotiate method (WSManDisp.h)
 description: Returns the value of the WSManFlagUseNegotiate authentication flag for use in the flags parameter of the WSMan.CreateSession method.
 ms.assetid: 86d8ed13-5eae-4a06-8ceb-b0ec067f4a4c
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

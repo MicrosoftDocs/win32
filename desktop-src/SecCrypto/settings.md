@@ -1,7 +1,7 @@
 ---
 Description: Used to configure CAPICOM components.
 title: Settings object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -14,7 +14,7 @@ api_location:
 - Capicom.dll
 ---
 
-# Settings object
+# Settings object (Cryptography)
 
 \[The **Settings** object is available for use in the operating systems specified in the Requirements section.\]
 

@@ -3,7 +3,7 @@ Description: The Win32\_ClassicCOMClassSettings association WMI class relates a 
 ms.assetid: 50f253cc-b8ae-41ac-b01f-ea816f5ca3d4
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClassSettings class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

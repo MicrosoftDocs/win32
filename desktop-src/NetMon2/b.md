@@ -1,7 +1,7 @@
 ---
 Description: Glossary of Network Monitor terms that begin with the letter B.
-Robots: noindex, nofollow
-title: B
+ROBOTS: NOINDEX, NOFOLLOW
+title: B (Network Monitor)
 ms.topic: article
 ms.date: 05/31/2018
 ---

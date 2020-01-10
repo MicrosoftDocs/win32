@@ -1,8 +1,8 @@
 ---
 Description: Controls the luminance and brightness controls of an overlay surface.
 ms.assetid: 2f617c89-5505-4d84-be7d-473b216c0571
-title: NtGdiDdColorControl function
-ms.topic: article
+title: NtGdiDdColorControl function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdColorControl(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure representing the overlay surface.
+Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure representing the overlay surface.
 
 </dd> <dt>
 
 *puColorControlData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_COLORCONTROLDATA**](https://msdn.microsoft.com/en-us/library/Ff550525(v=VS.85).aspx) structure that contains the color control information for a specified overlay surface.
+Pointer to a [**DD\_COLORCONTROLDATA**](https://msdn.microsoft.com/library/Ff550525(v=VS.85).aspx) structure that contains the color control information for a specified overlay surface.
 
 </dd> </dl>
 

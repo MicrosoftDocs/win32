@@ -1,5 +1,5 @@
 ---
-title: CBEN_INSERTITEM notification code
+title: CBEN_INSERTITEM notification code (Commctrl.h)
 description: Sent when a new item has been inserted in the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: caf60156-10d2-4cfb-91c4-def6ee99c471
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

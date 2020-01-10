@@ -1,5 +1,5 @@
 ---
-title: EN_CHANGE (rich edit) notification code
+title: EN_CHANGE (rich edit) notification code (Winuser.h)
 description: Notifies a windowless rich edit control's host window that a change has occurred. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 97C0D9F1-7D4E-409D-A4F6-E645475A8EEF
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

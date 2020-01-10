@@ -653,7 +653,7 @@
             href: https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector2refract
           - name: "XMVector2RefractV"
             href: https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector2refractv
-        - name: "DirectXMath Library 2D Vector Transformation Functions"
+        - name: "DirectXMath 3D vector transformation functions"
           href: ovw-xnamath-reference-functions-vector2-transformation.md
           items: 
           - name: "XMVector2Transform"

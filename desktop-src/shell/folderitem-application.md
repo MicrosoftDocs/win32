@@ -1,8 +1,8 @@
 ---
 Description: Contains the Application object of the folder item.
 ms.assetid: cd8d6dea-1d16-4d62-b56b-c915192f730b
-title: FolderItem.Application property
-ms.topic: article
+title: FolderItem.Application property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -32,7 +32,7 @@ objApplication = FolderItem.Application
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the **Application** object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the **Application** object.
 
 ## Remarks
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies access control permissions for a directory on a smart card.
 ms.assetid: 361d9fa0-286e-4d2c-8452-3b5f48e77779
-title: CARD_DIRECTORY_ACCESS_CONDITION enumeration
-ms.topic: enumeration
+title: CARD_DIRECTORY_ACCESS_CONDITION enumeration (Cardmod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration
 
-The **CARD\_DIRECTORY\_ACCESS\_CONDITION** enumeration specifies access control permissions for a directory on a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **CARD\_DIRECTORY\_ACCESS\_CONDITION** enumeration specifies access control permissions for a directory on a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -73,13 +73,13 @@ Administrators can read, write, and delete the directory.
 
 <dl> <dt>
 
-[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/en-us/library/Dd627637(v=VS.85).aspx)
+[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/library/Dd627637(v=VS.85).aspx)
 </dt> <dt>
 
-[**CardCreateDirectory**](https://msdn.microsoft.com/en-us/library/Dd627606(v=VS.85).aspx)
+[**CardCreateDirectory**](https://msdn.microsoft.com/library/Dd627606(v=VS.85).aspx)
 </dt> <dt>
 
-[**CardDeleteDirectory**](https://msdn.microsoft.com/en-us/library/Dd627611(v=VS.85).aspx)
+[**CardDeleteDirectory**](https://msdn.microsoft.com/library/Dd627611(v=VS.85).aspx)
 </dt> </dl>
 
  

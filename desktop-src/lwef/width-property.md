@@ -1,5 +1,5 @@
 ---
-title: Width Property
+title: Width Property (CommandsWindow Object)
 description: Width Property
 ms.assetid: 'vs|msagent|~\pacontrol_7ca2.htm'
 ms.topic: article

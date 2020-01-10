@@ -1,8 +1,8 @@
 ---
 Description: Contains a collection of objects that implement the IContextNode interface and that are the result of an ink analysis operation.
 ms.assetid: 2c4e9d84-243a-40e4-b3f9-5c4cafc5aac4
-title: IContextNodes interface
-ms.topic: interface
+title: IContextNodes interface (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

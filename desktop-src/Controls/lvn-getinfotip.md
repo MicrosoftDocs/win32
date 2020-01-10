@@ -1,5 +1,5 @@
 ---
-title: LVN_GETINFOTIP notification code
+title: LVN_GETINFOTIP notification code (Commctrl.h)
 description: Sent by a large icon view list-view control that has the LVS\_EX\_INFOTIP extended style.
 ms.assetid: 62be5087-7e49-4722-a63a-1768e030af48
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the SetThreadSelectedCpuSets API. If no explicit assignment is set, RequiredIdCount is set to 0 and the function returns TRUE.
 ms.assetid: 9ACF72F8-A64C-4FFF-B340-C920E80238CA
-title: GetThreadSelectedCpuSets function
-ms.topic: article
+title: GetThreadSelectedCpuSets function (Processthreadapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -42,7 +42,7 @@ BOOL WINAPI GetThreadSelectedCpuSets(
 *Thread* \[in\]
 </dt> <dd>
 
-Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](https://msdn.microsoft.com/en-us/library/ms683182(v=VS.85).aspx) can also be specified here.
+Specifies the thread for which to query the selected CPU Sets. This handle must have the THREAD\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentThread**](https://msdn.microsoft.com/library/ms683182(v=VS.85).aspx) can also be specified here.
 
 </dd> <dt>
 

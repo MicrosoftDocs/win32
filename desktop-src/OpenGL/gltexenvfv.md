@@ -1,5 +1,5 @@
 ---
-title: glTexEnvfv function
+title: glTexEnvfv function (Gl.h)
 description: The glTexEnvfv function sets a texture environment parameter.
 ms.assetid: 7b8e65aa-1b5c-47ab-8d6c-df14c90075a8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Contains a wired network profile.
 ms.assetid: f5f9fcdc-febf-4730-8be4-5e1885d9ab08
 title: LANProfile Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

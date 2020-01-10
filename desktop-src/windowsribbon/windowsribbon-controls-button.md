@@ -1,5 +1,5 @@
 ---
-title: Button
+title: Button (Windows Ribbon Framework)
 description: The Button is a control the user can click to provide input to an application.
 ms.assetid: 6d4aa571-dbea-4139-a6b7-45a85595dd04
 ms.topic: article

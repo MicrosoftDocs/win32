@@ -1,5 +1,5 @@
 ---
-title: TTN_GETDISPINFO notification code
+title: TTN_GETDISPINFO notification code (Commctrl.h)
 description: Sent by a tooltip control to retrieve information needed to display a tooltip window. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: af9ecc27-2004-4c45-9f1d-9ee0b2b50ff6
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

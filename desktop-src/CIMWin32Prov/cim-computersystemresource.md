@@ -3,7 +3,7 @@ Description: The CIM\_ComputerSystemResource class represents an association bet
 ms.assetid: 365a3cc2-89f9-4fbd-aa70-a89608fc3c1f
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

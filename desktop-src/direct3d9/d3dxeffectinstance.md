@@ -1,8 +1,8 @@
 ---
 Description: Data type for managing a set of default effect parameters.
 ms.assetid: a3408c0b-b4a6-47b1-b12e-594c13bd3a7d
-title: D3DXEFFECTINSTANCE structure
-ms.topic: structure
+title: D3DXEFFECTINSTANCE structure (D3dx9mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Name of the effect file.
 **NumDefaults**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

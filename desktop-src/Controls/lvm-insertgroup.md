@@ -1,5 +1,5 @@
 ---
-title: LVM_INSERTGROUP message
+title: LVM_INSERTGROUP message (Commctrl.h)
 description: Inserts a group into a list-view control.
 ms.assetid: d43e21bc-e212-42dd-af88-48813d40cd50
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

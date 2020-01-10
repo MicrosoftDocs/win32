@@ -448,7 +448,7 @@
           href: authoring-a-progressbar-control.md
         - name: "Authoring Disk Prompt Messages"
           href: authoring-disk-prompt-messages.md
-        - name: "Authoring a Conditional &quot;Please Wait . . .&quot; Message Box"
+        - name: "Authoring a Conditional Please Wait... Message Box"
           href: authoring-a-conditional-please-wait-------message-box.md
         - name: "Adding Text Stored in a Property"
           href: adding-text-stored-in-a-property.md
@@ -3152,9 +3152,9 @@
       href: installer-structures.md
       items: 
       - name: "MSIFILEHASHINFO"
-        href: /windows/desktop/api/Msi/ns-msi-_msifilehashinfo
+        href: /windows/win32/api/Msi/ns-msi-msifilehashinfo
       - name: "MSIPATCHSEQUENCEINFO"
-        href: /windows/desktop/api/Msi/ns-msi-tagmsipatchsequenceinfoa
+        href: /windows/win32/api/Msi/ns-msi-msipatchsequenceinfoa
     - name: "Installer Database"
       href: installer-database.md
       items: 

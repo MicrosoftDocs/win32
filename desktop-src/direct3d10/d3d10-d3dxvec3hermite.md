@@ -1,8 +1,8 @@
 ---
 Description: Performs a Hermite spline interpolation, using the specified 3D vectors.
 ms.assetid: d2212299-0478-48a6-b303-60c212528058
-title: D3DXVec3Hermite function
-ms.topic: article
+title: D3DXVec3Hermite function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ D3DXVECTOR3* D3DXVec3Hermite(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the operation.
 
@@ -51,7 +51,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR3 structure, a position vector.
 
@@ -60,7 +60,7 @@ Pointer to a source D3DXVECTOR3 structure, a position vector.
 *pT1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR3 structure, a tangent vector.
 
@@ -69,7 +69,7 @@ Pointer to a source D3DXVECTOR3 structure, a tangent vector.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR3 structure, a position vector.
 
@@ -78,7 +78,7 @@ Pointer to a source D3DXVECTOR3 structure, a position vector.
 *pT2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR3 structure, a tangent vector.
 
@@ -87,7 +87,7 @@ Pointer to a source D3DXVECTOR3 structure, a tangent vector.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -95,7 +95,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure that is the result of the Hermite spline interpolation.
 

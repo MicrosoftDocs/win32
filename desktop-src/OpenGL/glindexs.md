@@ -1,5 +1,5 @@
 ---
-title: glIndexs function
+title: glIndexs function (Gl.h)
 description: The glIndexs function sets the current color index.
 ms.assetid: 193304e6-c88a-49a6-935b-29bcf1954564
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The ISCardISO7816 interface provides methods for implementing ISO 7816-4 functionality.
 ms.assetid: c940c44f-0556-48ef-91f4-502f4c0dfc02
-title: ISCardISO7816 interface
-ms.topic: interface
+title: ISCardISO7816 interface (Scardssp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,11 +17,11 @@ api_location:
 
 # ISCardISO7816 interface
 
-\[The **ISCardISO7816** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ISCardISO7816** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ISCardISO7816** interface provides methods for implementing ISO 7816-4 functionality. With the exception of [**SetDefaultClassId**](iscardiso7816-setdefaultclassid.md), these methods create an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) command that is encapsulated in a [**ISCardCmd**](iscardcmd.md) object.
+The **ISCardISO7816** interface provides methods for implementing ISO 7816-4 functionality. With the exception of [**SetDefaultClassId**](iscardiso7816-setdefaultclassid.md), these methods create an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that is encapsulated in a [**ISCardCmd**](iscardcmd.md) object.
 
-The ISO 7816-4 specification defines standard commands available on [*smart cards*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). The specification also defines how a smart card APDU command should be constructed and sent to the smart card for execution. This interface automates the building process.
+The ISO 7816-4 specification defines standard commands available on [*smart cards*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). The specification also defines how a smart card APDU command should be constructed and sent to the smart card for execution. This interface automates the building process.
 
 The following example shows a typical use of the **ISCardISO7816** interface. In this case, the **ISCardISO7816** interface is used to build an APDU command.
 
@@ -44,7 +44,7 @@ The following example shows a typical use of the **ISCardISO7816** interface. In
 
 ## Members
 
-The **ISCardISO7816** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ISCardISO7816** also has these types of members:
+The **ISCardISO7816** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ISCardISO7816** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -64,7 +64,7 @@ The **ISCardISO7816** interface has these methods.
 | [**GetResponse**](iscardiso7816-getresponse.md)                   | Transmits from the card to the interface device APDUs that otherwise could not be transmitted by the available protocols.<br/>                                                                                                                                                                               |
 | [**InternalAuthenticate**](iscardiso7816-internalauthenticate.md) | Initiates the computation of the authentication data by the card using the challenge data sent from the interface device and a relevant secret stored in the card.<br/>                                                                                                                                      |
 | [**ManageChannel**](iscardiso7816-managechannel.md)               | Opens and closes logical channels.<br/>                                                                                                                                                                                                                                                                      |
-| [**PutData**](iscardiso7816-putdata.md)                           | Stores one primitive data object, or one or more data objects contained in a constructed data object, within the current [*resource manager context*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx).<br/>                                                    |
+| [**PutData**](iscardiso7816-putdata.md)                           | Stores one primitive data object, or one or more data objects contained in a constructed data object, within the current [*resource manager context*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx).<br/>                                                    |
 | [**ReadBinary**](iscardiso7816-readbinary.md)                     | Constructs a command that acquires a response message that gives that part of the contents of an EF with transparent structure.<br/>                                                                                                                                                                         |
 | [**ReadRecord**](iscardiso7816-readrecord.md)                     | Constructs a command that reads the contents of the specified records of an elementary file.<br/>                                                                                                                                                                                                            |
 | [**SelectFile**](iscardiso7816-selectfile.md)                     | Sets a current file within a logical channel.<br/>                                                                                                                                                                                                                                                           |

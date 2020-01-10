@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnTripleFault method
+title: IVMVirtualMachineEvents OnTripleFault method (VPCCOMInterfaces.h)
 description: Receives notification that a virtual machine has triple-faulted.
 ms.assetid: a17b1a05-3058-48ba-a196-7e9563f3e1c0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

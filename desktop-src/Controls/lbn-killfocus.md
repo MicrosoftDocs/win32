@@ -1,5 +1,5 @@
 ---
-title: LBN_KILLFOCUS notification code
+title: LBN_KILLFOCUS notification code (Winuser.h)
 description: Notifies the application that the list box has lost the keyboard focus. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: ef927b56-3c46-4ae7-87df-13295cf175a8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

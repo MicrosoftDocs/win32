@@ -1,5 +1,5 @@
 ---
-title: LVM_GETINSERTMARKCOLOR message
+title: LVM_GETINSERTMARKCOLOR message (Commctrl.h)
 description: Retrieves the color of the insertion point.
 ms.assetid: 1e98023a-9d26-4b87-bee4-bee4939ccfca
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

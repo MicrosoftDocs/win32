@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDriveCollection interface
+title: IVMDVDDriveCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of CD and DVD drives within the virtual machine. To obtain an IVMDVDDriveCollection object, use the IVMVirtualMachine DVDROMDrives property.
 ms.assetid: 3069f530-9bc7-4f55-bf5a-82d1244d0cc5
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the collection of CD and DVD drives within the virtual machine. To obtai
 
 ## Members
 
-The **IVMDVDDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDriveCollection** also has these types of members:
+The **IVMDVDDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDriveCollection** also has these types of members:
 
 -   [Properties](#properties)
 

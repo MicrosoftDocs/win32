@@ -1,5 +1,5 @@
 ---
-title: Error Handling
+title: Error Handling (RPC)
 description: In synchronous RPC, a client makes a remote call that returns with either a success or failure code.
 ms.assetid: 7dfc9f84-ce3c-49f3-8f72-b212095133fd
 ms.topic: article

@@ -3,7 +3,7 @@ Description: The CIM\_Rack class represents a rack (a physical frame or enclosur
 ms.assetid: 1e0273ce-2a09-4f75-a82e-d0555d6a831e
 ms.tgt_platform: multiple
 title: CIM_Rack class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

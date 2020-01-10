@@ -1,14 +1,14 @@
 ---
 Description: The slope of the right side of the BoundingFrustum.
 ms.assetid: 0392a81b-610f-4199-b32d-40d862ba4652
-title: BoundingFrustum.RightSlope
-ms.topic: article
+title: BoundingFrustum.RightSlope (DirectXCollision.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # BoundingFrustum.RightSlope
 
-The slope of the right side of the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
+The slope of the right side of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).
 
 
 ```C++
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
+[**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

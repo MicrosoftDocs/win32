@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Signing a Hash and Verifying the Hash Signature
 
-The following example [*hashes*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user's [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx), and the signer's [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) is exported so that the signature can be verified.
+The following example [*hashes*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user's [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx), and the signer's [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) is exported so that the signature can be verified.
 
-This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions:
+This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions:
 
 -   Acquiring a CSP using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
 -   Getting the user's AT\_SIGNATURE key pair using [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey).

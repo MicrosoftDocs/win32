@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the identifiers for the locales that this IInkAnalysisRecognizer supports.
 ms.assetid: 14c91ad0-f49e-43e7-848c-abc96b0dffa8
-title: IInkAnalysisRecognizer::GetLanguages method
-ms.topic: article
+title: IInkAnalysisRecognizer::GetLanguages method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

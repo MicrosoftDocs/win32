@@ -1,8 +1,8 @@
 ---
 Description: Installs a printer driver from a driver package that is in the print servers driver store.
 ms.assetid: 5906d9c6-9fbf-4ec6-81ce-112a9ef6d7c0
-title: InstallPrinterDriverFromPackage function
-ms.topic: article
+title: InstallPrinterDriverFromPackage function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -79,7 +79,7 @@ This can only be 0 or IPDFP\_COPY\_ALL\_FILES. A value of 0 means that the print
 
 If the operation succeeds, the return value is S\_OK, otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Remarks
 

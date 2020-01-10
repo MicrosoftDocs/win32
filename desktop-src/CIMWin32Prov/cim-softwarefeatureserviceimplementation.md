@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareFeatureServiceImplementation class represents an a
 ms.assetid: fa80cc91-8dd7-4726-a24a-5c4dfa3e786b
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureServiceImplementation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

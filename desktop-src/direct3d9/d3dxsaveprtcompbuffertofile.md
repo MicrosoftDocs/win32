@@ -1,8 +1,8 @@
 ---
 Description: Saves a compressed precomputed radiance transfer (PRT) buffer to disk.
 ms.assetid: cc94a83e-f755-411d-a993-4529c5d53cd5
-title: D3DXSavePRTCompBufferToFile function
-ms.topic: article
+title: D3DXSavePRTCompBufferToFile function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT D3DXSavePRTCompBufferToFile(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Name of the file to which the compressed buffer is to be saved.
 
@@ -56,7 +56,7 @@ Address of a pointer to the input [**ID3DXPRTCompBuffer**](id3dxprtcompbuffer.md
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder uses the style of mask computation performed by version 7 of the Windows Media Audio Encoder.
 ms.assetid: 04003fae-5db8-4ad2-87e3-4f3428319d43
-title: MFPKEY_DYN_SIMPLEMASK Property
-ms.topic: article
+title: MFPKEY_DYN_SIMPLEMASK Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the encoder uses the style of mask computation performed by ve
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

@@ -1,8 +1,8 @@
 ---
 Description: The Show method shows or hides the dialog box. This method implements the IPropertyPage::Show method.
 ms.assetid: 03796779-ed41-4b68-852d-6b1849a9dc10
-title: CBasePropertyPage.Show method
-ms.topic: article
+title: CBasePropertyPage.Show method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

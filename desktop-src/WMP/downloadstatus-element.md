@@ -1,5 +1,5 @@
 ---
-title: DownloadStatus Element
+title: DownloadStatus Element (Msfeeds.h)
 description: Note This section describes functionality designed for use by online stores.
 ms.assetid: 08d9719a-390d-454a-935e-27812c0f3599
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - msfeeds.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,10 +2,10 @@
 title: dcl_immediateConstantBuffer (sm4 - asm)
 description: dcl\_immediateConstantBuffer (sm4 - asm)
 ms.assetid: 55e21ab1-0749-4200-8e68-bb098e935dac
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

@@ -1,5 +1,5 @@
 ---
-title: WM_DDE_ADVISE message
+title: WM_DDE_ADVISE message (Dde.h)
 description: A Dynamic Data Exchange (DDE) client application posts the WM\_DDE\_ADVISE message to a DDE server application to request the server to supply an update for a data item whenever the item changes.
 ms.assetid: b00db740-36a7-4487-abbf-d74b12f5212a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

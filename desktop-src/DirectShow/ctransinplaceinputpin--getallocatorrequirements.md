@@ -1,8 +1,8 @@
 ---
 Description: The GetAllocatorRequirements method retrieves the allocator properties requested by the pin. This method implements the IMemInputPin::GetAllocatorRequirements method.
 ms.assetid: 1355facc-f863-44b2-9284-8f06f62d39a2
-title: CTransInPlaceInputPin.GetAllocatorRequirements method
-ms.topic: article
+title: CTransInPlaceInputPin.GetAllocatorRequirements method (Transip.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

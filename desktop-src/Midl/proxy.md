@@ -10,7 +10,7 @@ api_name:
 - proxy
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -87,7 +87,7 @@ Interfaces can be marked with the TYPEFLAG\_PROXY flag to indicate they will be 
 [**dual**](dual.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
+[**TYPEFLAGS**](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
 </dt> </dl>
 
  

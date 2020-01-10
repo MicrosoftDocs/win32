@@ -1,5 +1,5 @@
 ---
-title: CBEM_GETIMAGELIST message
+title: CBEM_GETIMAGELIST message (Commctrl.h)
 description: Gets the handle to an image list assigned to a ComboBoxEx control.
 ms.assetid: d577f920-b8f7-4d51-9507-765b7f925408
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

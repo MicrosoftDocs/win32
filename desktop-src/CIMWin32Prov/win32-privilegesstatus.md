@@ -2,8 +2,8 @@
 Description: The Win32\_PrivilegesStatus&\#8194;WMI class reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
 ms.assetid: 295ec2bd-7996-4031-8503-d4e869d8368d
 ms.tgt_platform: multiple
-title: Win32_PrivilegesStatus class
-ms.topic: article
+title: Win32_PrivilegesStatus class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -25,7 +25,7 @@ api_location:
 
 # Win32\_PrivilegesStatus class
 
-The **Win32\_PrivilegesStatus** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
+The **Win32\_PrivilegesStatus** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -68,7 +68,7 @@ Access type: Read-only
 
 Any user-defined string that describes an error or operational status.
 
-This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/en-us/library/Aa394645(v=VS.85).aspx).
+This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/Aa394645(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -81,9 +81,9 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Operation that takes place at the time of a failure or anomaly. Typically, Windows Management Instrumentation (WMI) sets this property to the name of a COM API for WMI method such as the following: [**IWbemServices::CreateInstanceEnum**](https://msdn.microsoft.com/en-us/library/Aa392097(v=VS.85).aspx).
+Operation that takes place at the time of a failure or anomaly. Typically, Windows Management Instrumentation (WMI) sets this property to the name of a COM API for WMI method such as the following: [**IWbemServices::CreateInstanceEnum**](https://msdn.microsoft.com/library/Aa392097(v=VS.85).aspx).
 
-This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/en-us/library/Aa394645(v=VS.85).aspx).
+This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/Aa394645(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ Access type: Read-only
 
 Parameters involved in an error or status change. For example, if an application attempts to retrieve a class that does not exist, this property is set to the offending class name.
 
-This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/en-us/library/Aa394645(v=VS.85).aspx).
+This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/Aa394645(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -111,7 +111,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|AccessControl\|Windows NT Privileges")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|AccessControl\|Windows NT Privileges")
 </dt> </dl>
 
 Listing required access privileges missing to complete an operation. The types of access privileges can be found under the Windows Privileges.
@@ -129,7 +129,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|AccessControl\|Windows NT Privileges")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|AccessControl\|Windows NT Privileges")
 </dt> </dl>
 
 Listing of all of the privileges required to perform an operation. This includes values from the **PrivilegesNotHeld** property.
@@ -149,7 +149,7 @@ Access type: Read-only
 
 Identifies the provider that causes or reports an error or status change. If a provider is not involved, this string is set to "Windows Management".
 
-This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/en-us/library/Aa394645(v=VS.85).aspx).
+This property is inherited from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/Aa394645(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -164,13 +164,13 @@ Access type: Read-only
 
 Contains an error or information code for an operation. This can be any value defined by the provider, but the value 0 (zero) is usually reserved to indicate success.
 
-This property is inherited from [**\_\_NotifyStatus**](https://msdn.microsoft.com/en-us/library/Aa394662(v=VS.85).aspx).
+This property is inherited from [**\_\_NotifyStatus**](https://msdn.microsoft.com/library/Aa394662(v=VS.85).aspx).
 
 </dd> </dl>
 
 ## Remarks
 
-The **Win32\_PrivilegesStatus** class is derived from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/en-us/library/Aa394645(v=VS.85).aspx).
+The **Win32\_PrivilegesStatus** class is derived from [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/Aa394645(v=VS.85).aspx).
 
 ## Requirements
 
@@ -190,7 +190,7 @@ The **Win32\_PrivilegesStatus** class is derived from [**\_\_ExtendedStatus**](h
 
 <dl> <dt>
 
-[**\_\_ExtendedStatus**](https://msdn.microsoft.com/en-us/library/Aa394645(v=VS.85).aspx)
+[**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/Aa394645(v=VS.85).aspx)
 </dt> </dl>
 
  

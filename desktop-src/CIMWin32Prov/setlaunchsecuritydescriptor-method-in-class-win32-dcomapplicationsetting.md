@@ -3,7 +3,7 @@ Description: Updates the launch security descriptor of the DCOM application with
 ms.assetid: 72245d22-1a0a-4069-b5d6-9d59e4de4aab
 ms.tgt_platform: multiple
 title: SetLaunchSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

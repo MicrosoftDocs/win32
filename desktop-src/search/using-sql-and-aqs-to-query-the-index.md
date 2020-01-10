@@ -75,7 +75,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-For more information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/en-us/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx) documentation.
+For more information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/library/system.data.oledb(VS.71).aspx) documentation.
 
 ### Using ADO and ADO.NET
 
@@ -292,7 +292,7 @@ To implement the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-sear
 
 ### Using the search-ms Protocol
 
-The **search-ms** [application protocol](https://msdn.microsoft.com/en-us/library/Aa767916(VS.85).aspx) is a convention for starting an application, like Windows Explorer, to query the Windows Search index. It enables queries to be built with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
+The **search-ms** [application protocol](https://msdn.microsoft.com/library/Aa767916(VS.85).aspx) is a convention for starting an application, like Windows Explorer, to query the Windows Search index. It enables queries to be built with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 
 For detailed information on the search-ms protocol syntax, see [Querying the Index wtih the search-ms Protocol](-search-3x-wds-qryidx-searchms.md).
 

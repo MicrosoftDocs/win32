@@ -1,5 +1,5 @@
 ---
-title: /metadata_dir switch
+title: /metadata_dir switch (MDMERGE)
 description: The /metadata\_dir switch specifies the directory that contains platform metadata files.
 ms.assetid: E95D410B-D384-4337-B0A0-6D5DDA3BE699
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - /metadata_dir
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

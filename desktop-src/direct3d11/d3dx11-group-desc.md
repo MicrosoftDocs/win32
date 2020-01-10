@@ -1,5 +1,5 @@
 ---
-title: D3DX11_GROUP_DESC structure
+title: D3DX11_GROUP_DESC structure (D3dx11effect.h)
 description: Describes an effect group.
 ms.assetid: 9d4dd5f6-76a5-456d-b464-131b89953ef1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

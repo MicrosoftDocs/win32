@@ -1,8 +1,8 @@
 ---
 Description: The get\_\_NewEnum method returns an enumerator for the collection.
 ms.assetid: 0c2d739d-736d-4773-9747-1107546a973c
-title: ITTimeCollection::get__NewEnum method
-ms.topic: article
+title: ITTimeCollection::get__NewEnum method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -30,9 +30,9 @@ HRESULT get__NewEnum(
 *pVal* \[out\]
 </dt> <dd>
 
-Pointer to an [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface on an enumerator object for the collection.
+Pointer to an [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface on an enumerator object for the collection.
 
-Call the [QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method on the returned **IUnknown** interface to obtain a pointer to an [IEnumVARIANT](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) enumeration interface on the collection. **IEnumVARIANT** provides a number of methods that you can use to iterate through the collection.
+Call the [QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method on the returned **IUnknown** interface to obtain a pointer to an [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) enumeration interface on the collection. **IEnumVARIANT** provides a number of methods that you can use to iterate through the collection.
 
 For more information, see the following Remarks section.
 

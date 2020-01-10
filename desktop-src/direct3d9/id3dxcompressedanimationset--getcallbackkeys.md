@@ -1,8 +1,8 @@
 ---
 Description: Fills an array with callback key data used for key frame animation.
 ms.assetid: 0dc30c1f-9ffb-42ec-8074-84293f16c344
-title: ID3DXCompressedAnimationSet::GetCallbackKeys method
-ms.topic: article
+title: ID3DXCompressedAnimationSet::GetCallbackKeys method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a user-allocated array of [**D3DXKEY\_CALLBACK**](d3dxkey-callback.md
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

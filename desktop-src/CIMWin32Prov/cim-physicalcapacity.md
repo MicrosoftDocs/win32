@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalCapacity class is an abstract class that represent
 ms.assetid: e422aec0-1830-464e-ac52-2911652165a2
 ms.tgt_platform: multiple
 title: CIM_PhysicalCapacity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

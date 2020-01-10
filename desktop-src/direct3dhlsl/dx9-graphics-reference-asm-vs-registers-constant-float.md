@@ -1,5 +1,5 @@
 ---
-title: Constant Float Register
+title: Constant float register (HLSL VS reference)
 description: Vertex shader input register for a four component floating-point constant. Set a constant register with either def - vs or SetVertexShaderConstantF.
 ms.assetid: 45a14258-52d5-4c22-885f-5af20ae36251
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Constant Float Register
+# Constant float register (HLSL VS reference)
 
 Vertex shader input register for a four component floating-point constant. Set a constant register with either [def - vs](def---vs.md) or [**SetVertexShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf).
 

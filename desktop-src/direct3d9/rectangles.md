@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Rectangles (Direct3D 9)
 
-Throughout Direct3D and Window programming, objects on the screen are referred to in terms of bounding rectangles. The sides of a bounding rectangle are always parallel to the sides of the screen, so the rectangle can be described by two points, the upper-left corner and lower-right corner. Most applications use the [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure to carry information about a bounding rectangle to use when blitting to the screen or performing hit detection.
+Throughout Direct3D and Window programming, objects on the screen are referred to in terms of bounding rectangles. The sides of a bounding rectangle are always parallel to the sides of the screen, so the rectangle can be described by two points, the upper-left corner and lower-right corner. Most applications use the [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure to carry information about a bounding rectangle to use when blitting to the screen or performing hit detection.
 
-In C++, the [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure has the following definition.
+In C++, the [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure has the following definition.
 
 
 ```

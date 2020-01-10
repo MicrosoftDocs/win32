@@ -1,5 +1,5 @@
 ---
-title: EAP\_CERT Error Constants
+title: EAP\_CERT Error Constants (Eaphosterror.h)
 description: Define certificate-related errors common to all EAPHost API technologies.
 ms.assetid: 12f626e1-520a-4aba-954b-769c3062a38c
 topic_type:
@@ -20,8 +20,7 @@ api_location:
 - eaphosterror.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

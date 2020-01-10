@@ -1,8 +1,8 @@
 ---
 Description: Defines the type of tokens that can be used for authenticating with an endpoint.
 ms.assetid: 2048BD09-056F-47C1-AD2F-998DE6C52EA6
-title: UpdateEndpointAuthTokenType enumeration
-ms.topic: enumeration
+title: UpdateEndpointAuthTokenType enumeration (UpdateEndpointAuth.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

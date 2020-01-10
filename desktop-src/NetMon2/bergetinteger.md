@@ -1,8 +1,8 @@
 ---
 Description: The BERGetInteger function decodes a BER-encoded integer.
 ms.assetid: 1ab0dcec-05cf-4322-a44e-28aa9131495a
-title: BERGetInteger function
-ms.topic: article
+title: BERGetInteger function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

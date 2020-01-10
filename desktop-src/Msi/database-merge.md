@@ -2,7 +2,7 @@
 Description: The Merge method of the Database object merges the reference database with the base database.
 ms.assetid: 777060cf-c672-49d5-a1a8-8674fdc4bde4
 title: Database.Merge method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

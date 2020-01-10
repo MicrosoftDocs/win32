@@ -1,5 +1,5 @@
 ---
-title: TB_SAVERESTORE message
+title: TB_SAVERESTORE message (Commctrl.h)
 description: Send this message to initiate saving or restoring a toolbar state.
 ms.assetid: 59f51d07-cd08-4d6f-9d19-614064ba6f20
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

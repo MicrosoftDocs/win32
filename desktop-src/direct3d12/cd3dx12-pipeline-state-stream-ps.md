@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_PS structure
+title: CD3DX12_PIPELINE_STATE_STREAM_PS structure (D3dx12.h)
 description: A helper structure used to describe a pixel shader as a single object suitable for a stream description.
 ms.assetid: A71E2ABE-5B52-41B4-ACE0-25CA63EF2565
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

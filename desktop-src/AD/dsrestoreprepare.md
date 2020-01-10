@@ -1,5 +1,5 @@
 ---
-title: DsRestorePrepare function
+title: DsRestorePrepare function (Ntdsbcli.h)
 description: Connects to the specified directory server and prepares it for the restore operation.
 ms.assetid: e847d57a-32e1-49c0-800c-7ce0e5f442fa
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

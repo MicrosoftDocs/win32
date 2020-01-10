@@ -2,9 +2,7 @@
 Description: Control code retrieves the Transmission Control Protocol (TCP) statistics for a specified socket.
 ms.assetid: AB5F25B6-D2D2-42D7-8189-06CAC4842C66
 title: SIO_TCP_INFO Control Code
-author: TimShererWithAquent
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

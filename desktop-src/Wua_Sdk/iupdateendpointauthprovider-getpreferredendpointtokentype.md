@@ -1,8 +1,8 @@
 ---
 Description: Returns the preferred type of authentication token for the endpoint of the service.
 ms.assetid: DF60C49A-89FE-4EEB-8E82-C2C43F2D2F2A
-title: IUpdateEndpointAuthProvider::GetPreferredEndpointTokenType method
-ms.topic: article
+title: IUpdateEndpointAuthProvider::GetPreferredEndpointTokenType method (UpdateEndpointAuth.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

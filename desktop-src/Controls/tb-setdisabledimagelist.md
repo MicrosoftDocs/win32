@@ -1,5 +1,5 @@
 ---
-title: TB_SETDISABLEDIMAGELIST message
+title: TB_SETDISABLEDIMAGELIST message (Commctrl.h)
 description: Sets the image list that the toolbar control will use to display disabled buttons.
 ms.assetid: 1e76b3cf-2d06-48c8-8298-ef6caf3d85c3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_PCVideoController represents the capabilities and manageme
 ms.assetid: bf937727-a332-445b-9397-7d87d58c4a5b
 ms.tgt_platform: multiple
 title: CIM_PCVideoController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

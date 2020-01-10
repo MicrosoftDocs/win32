@@ -1,8 +1,8 @@
 ---
 Description: Gets the maximum face influences in a triangle mesh with the specified index buffer.
 ms.assetid: 72dc2440-87df-461e-80d0-9ad9b1e4d8ee
-title: ID3DXSkinInfo::GetMaxFaceInfluences method
-ms.topic: article
+title: ID3DXSkinInfo::GetMaxFaceInfluences method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -49,7 +49,7 @@ Pointer to the index buffer that contains the mesh index data.
 *NumFaces* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of faces in the mesh.
 
@@ -58,7 +58,7 @@ Number of faces in the mesh.
 *maxFaceInfluences* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the maximum face influences.
 
@@ -66,7 +66,7 @@ Pointer to the maximum face influences.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: 014dd9b8-bcfc-4fe0-b0a4-580a253ae6db
 title: IRenderEngine::Decommit method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

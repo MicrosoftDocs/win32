@@ -1,8 +1,8 @@
 ---
 Description: Use this method to re-acquire resources and save initial state.
 ms.assetid: 782f3537-f61c-4faa-a0b8-d60c516ba241
-title: ID3DXEffect::OnResetDevice method
-ms.topic: article
+title: ID3DXEffect::OnResetDevice method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

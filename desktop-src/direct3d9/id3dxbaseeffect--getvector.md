@@ -1,8 +1,8 @@
 ---
 Description: Gets a vector.
 ms.assetid: 55f5512f-42f2-4588-abd4-1cdea530b9bf
-title: ID3DXBaseEffect::GetVector method
-ms.topic: article
+title: ID3DXBaseEffect::GetVector method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Returns a 4D vector.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

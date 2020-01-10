@@ -1,5 +1,5 @@
 ---
-title: glPixelMapfv function
+title: glPixelMapfv function (Gl.h)
 description: The glPixelMapfv function sets up pixel transfer maps.
 ms.assetid: 13403243-1ec4-4b1d-a9da-9a6693b6f9b8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

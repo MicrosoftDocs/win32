@@ -1,8 +1,8 @@
 ---
 Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object changes between layouts.
 ms.assetid: 21d38406-7ed9-4741-a092-ed3a369dc0dc
-title: PenInputPanel.PanelChanged event
-ms.topic: article
+title: PenInputPanel.PanelChanged event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -40,7 +40,7 @@ If this event succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-When creating a [**PenInputPanel**](peninputpanel-class.md) object, [**Handwriting**](https://msdn.microsoft.com/en-us/library/ms704908(v=VS.85).aspx) is the default **PanelType**. If you change the panel by setting the [**CurrentPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel) property before the pen input panel becomes active for the first time, a **PanelChanged** event occurs.
+When creating a [**PenInputPanel**](peninputpanel-class.md) object, [**Handwriting**](https://msdn.microsoft.com/library/ms704908(v=VS.85).aspx) is the default **PanelType**. If you change the panel by setting the [**CurrentPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel) property before the pen input panel becomes active for the first time, a **PanelChanged** event occurs.
 
 The **PanelChanged** event is not raised when the user changes between Lined and Boxed writing pads.
 

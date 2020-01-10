@@ -13,12 +13,12 @@ The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface exposes the following me
 
 ## In this section
 
--   [**ClearWorkspaceCredential method**](https://msdn.microsoft.com/en-us/library/Ee351596(v=VS.85).aspx)
--   [**DisconnectWorkspace method**](https://msdn.microsoft.com/en-us/library/Ee351597(v=VS.85).aspx)
--   [**IsWorkspaceCredentialSpecified method**](https://msdn.microsoft.com/en-us/library/Ee351598(v=VS.85).aspx)
--   [**IsWorkspaceSSOEnabled method**](https://msdn.microsoft.com/en-us/library/Ee351599(v=VS.85).aspx)
--   [**OnAuthenticated method**](https://msdn.microsoft.com/en-us/library/Ee351600(v=VS.85).aspx)
--   [**StartWorkspace method**](https://msdn.microsoft.com/en-us/library/Ee351601(v=VS.85).aspx)
+-   [**ClearWorkspaceCredential method**](https://msdn.microsoft.com/library/Ee351596(v=VS.85).aspx)
+-   [**DisconnectWorkspace method**](https://msdn.microsoft.com/library/Ee351597(v=VS.85).aspx)
+-   [**IsWorkspaceCredentialSpecified method**](https://msdn.microsoft.com/library/Ee351598(v=VS.85).aspx)
+-   [**IsWorkspaceSSOEnabled method**](https://msdn.microsoft.com/library/Ee351599(v=VS.85).aspx)
+-   [**OnAuthenticated method**](https://msdn.microsoft.com/library/Ee351600(v=VS.85).aspx)
+-   [**StartWorkspace method**](https://msdn.microsoft.com/library/Ee351601(v=VS.85).aspx)
 
  
 

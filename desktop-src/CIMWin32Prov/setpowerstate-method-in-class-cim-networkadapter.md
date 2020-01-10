@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_NetworkAdapter class sets the 
 ms.assetid: b384bd64-c4a3-4a35-b18a-a4f23cd3d131
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_NetworkAdapter class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

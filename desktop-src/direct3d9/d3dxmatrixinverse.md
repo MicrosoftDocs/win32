@@ -1,8 +1,8 @@
 ---
 Description: Calculates the inverse of a matrix.
 ms.assetid: b8cad5c5-caa5-4426-b045-1770f8806b6b
-title: D3DXMatrixInverse function
-ms.topic: article
+title: D3DXMatrixInverse function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *pDeterminant* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a FLOAT value containing the determinant of the matrix. If the determinant is not needed, set this parameter to **NULL**.
 

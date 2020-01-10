@@ -1,5 +1,5 @@
 ---
-title: LVM_SETEXTENDEDLISTVIEWSTYLE message
+title: LVM_SETEXTENDEDLISTVIEWSTYLE message (Commctrl.h)
 description: Sets extended styles in list-view controls. You can send this message explicitly or use the ListView\_SetExtendedListViewStyle or ListView\_SetExtendedListViewStyleEx macro.
 ms.assetid: eb3f47ed-484a-49a8-94b0-e50ee081bd69
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

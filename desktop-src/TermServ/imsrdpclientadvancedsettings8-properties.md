@@ -3,7 +3,7 @@ title: IMsRdpClientAdvancedSettings8 properties
 description: The IMsRdpClientAdvancedSettings8 interface exposes the following properties.
 ms.assetid: 872CF5A1-6850-4317-BF5F-AD38F69A0CBA
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

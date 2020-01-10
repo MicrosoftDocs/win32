@@ -2,7 +2,7 @@
 Description: The Remove method removes a certificate from an open certificate store. This method can only be used with a store that has been opened with read/write permission.
 ms.assetid: 02bb8ff1-2240-4ec7-b8af-9a7812a12ba9
 title: Store.Remove method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/d228271e(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Remove** method removes a [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) from an open [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). This method can only be used with a store that has been opened with read/write permission.
+The **Remove** method removes a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) from an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). This method can only be used with a store that has been opened with read/write permission.
 
 ## Syntax
 

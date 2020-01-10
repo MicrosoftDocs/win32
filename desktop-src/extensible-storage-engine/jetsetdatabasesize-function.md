@@ -5,7 +5,7 @@ ms:assetid: 4a87bf43-c8f7-4966-9f1f-68c16d1cb558
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269242(v=EXCHG.10)
 ms:contentKeyID: 32765544
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetSetDatabaseSizeW
 - JetSetDatabaseSize

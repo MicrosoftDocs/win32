@@ -1,8 +1,8 @@
 ---
 Description: The CAPICOM\_HASH\_ALGORITHM enumeration defines a hash algorithm.
 ms.assetid: 5373b6cc-944a-4d83-ac71-59edcb2af94e
-title: CAPICOM_HASH_ALGORITHM enumeration
-ms.topic: enumeration
+title: CAPICOM_HASH_ALGORITHM enumeration (Capicom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -25,7 +25,7 @@ The **CAPICOM\_HASH\_ALGORITHM** enumeration defines a hash algorithm.
 
 | Member                                 | Description                                                                                                                                                                 | Value |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
-| **CAPICOM\_HASH\_ALGORITHM\_SHA1**     | [*Secure Hash Algorithm*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SHA) that generates a 160-bit message digest.<br/> | 0     |
+| **CAPICOM\_HASH\_ALGORITHM\_SHA1**     | [*Secure Hash Algorithm*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SHA) that generates a 160-bit message digest.<br/> | 0     |
 | **CAPICOM\_HASH\_ALGORITHM\_MD2**      | MD2 hashing algorithm.<br/>                                                                                                                                           | 1     |
 | **CAPICOM\_HASH\_ALGORITHM\_MD4**      | MD4 hashing algorithm.<br/>                                                                                                                                           | 2     |
 | **CAPICOM\_HASH\_ALGORITHM\_MD5**      | MD5 hashing algorithm.<br/>                                                                                                                                           | 3     |

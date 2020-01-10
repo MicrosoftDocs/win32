@@ -18,7 +18,7 @@ There are two ways to open a Control Panel item:
 -   The user can open Control Panel and then open an item by clicking or double-clicking the item's icon.
 -   The user or an application can start a Control Panel item by executing it directly from the command line prompt.
 
-An application can open the Control Panel programmatically by using the [**WinExec**](https://msdn.microsoft.com/en-us/library/ms687393(v=VS.85).aspx) function.
+An application can open the Control Panel programmatically by using the [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx) function.
 
 
 ```
@@ -27,7 +27,7 @@ WinExec("c:\windows\system32\control.exe", SW_NORMAL);
 
 
 
-The following example shows how an application can start the Control Panel item named **MyCpl.cpl** by using the [**WinExec**](https://msdn.microsoft.com/en-us/library/ms687393(v=VS.85).aspx) function.
+The following example shows how an application can start the Control Panel item named **MyCpl.cpl** by using the [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx) function.
 
 
 ```
@@ -58,7 +58,7 @@ In Windows Vista and later, the preferred method of launching a Control Panel i
 
 By convention, the canonical name is formed as "CorporationName.ControlPanelItemName".
 
-The following example shows how an application can start the Control Panel item **Windows Update** with [**WinExec**](https://msdn.microsoft.com/en-us/library/ms687393(v=VS.85).aspx).
+The following example shows how an application can start the Control Panel item **Windows Update** with [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx).
 
 
 ```
@@ -130,7 +130,7 @@ On Windows Vista, some options that were accessed by a .cpl module on Windows 
 
 ## Legacy Control Panel Commands
 
-When you use the [**WinExec**](https://msdn.microsoft.com/en-us/library/ms687393(v=VS.85).aspx) function, the system can recognize special Control Panel commands. These commands predate Windows Vista.
+When you use the [**WinExec**](https://msdn.microsoft.com/library/ms687393(v=VS.85).aspx) function, the system can recognize special Control Panel commands. These commands predate Windows Vista.
 
 
 

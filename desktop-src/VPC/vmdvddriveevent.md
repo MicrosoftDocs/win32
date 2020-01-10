@@ -1,5 +1,5 @@
 ---
-title: VMDVDDriveEvent enumeration
+title: VMDVDDriveEvent enumeration (VPCCOMInterfaces.h)
 description: Specifies the DVD drive events.
 ms.assetid: 17126138-614f-42d9-937e-1aca9393557c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

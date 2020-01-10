@@ -1,8 +1,8 @@
 ---
 Description: Specifies the date and time when an Advanced Systems Format (ASF) file was created.
 ms.assetid: 97f80584-9d74-4ba5-80f4-ddb6f2bc4625
-title: MF_PD_ASF_FILEPROPERTIES_CREATION_TIME attribute
-ms.topic: article
+title: MF_PD_ASF_FILEPROPERTIES_CREATION_TIME attribute (Wmcontainer.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LVM_ENABLEGROUPVIEW message
+title: LVM_ENABLEGROUPVIEW message (Commctrl.h)
 description: Enables or disables whether the items in a list-view control display as a group.
 ms.assetid: 783a5e23-d1cb-4523-a6d2-b2cf93fa7f62
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

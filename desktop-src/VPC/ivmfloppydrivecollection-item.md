@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveCollection Item property
+title: IVMFloppyDriveCollection Item property (VPCCOMInterfaces.h)
 description: Floppy object that corresponds to the specified index.
 ms.assetid: 068a1f1c-ae84-4689-b68a-ce25b68fc06b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

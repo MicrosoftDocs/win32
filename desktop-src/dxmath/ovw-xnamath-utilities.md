@@ -2,7 +2,7 @@
 Description: Lists the utility functions provided by DirectXMath.
 ms.assetid: 4d46fd96-55ca-cb66-f878-caf7894535ae
 title: DirectXMath Library Utility Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,8 +23,8 @@ Lists the utility functions provided by DirectXMath.
 | [**XMComparisonAnyOutOfBounds**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonanyoutofbounds)<br/> | Tests the comparison value to determine if any of the compared components are outside the set bounds.<br/>           |
 | [**XMComparisonAnyTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonanytrue)<br/>               | Tests the comparison value to determine if any of the compared components are true.<br/>                             |
 | [**XMComparisonMixed**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonmixed)<br/>                   | Tests the comparison value to determine if the compared components had mixed results--some true and some false.<br/> |
-| [**XMFresnelTerm**](https://msdn.microsoft.com/en-us/library/Ee419648(v=VS.85).aspx)<br/>                           | Calculates the Fresnel term for unpolarized light.<br/>                                                              |
-| [**XMVerifyCPUSupport**](https://msdn.microsoft.com/en-us/library/Ee421398(v=VS.85).aspx)<br/>                 | Indicates if the DirectXMath Library supports the current platform.<br/>                                             |
+| [**XMFresnelTerm**](https://msdn.microsoft.com/library/Ee419648(v=VS.85).aspx)<br/>                           | Calculates the Fresnel term for unpolarized light.<br/>                                                              |
+| [**XMVerifyCPUSupport**](https://msdn.microsoft.com/library/Ee421398(v=VS.85).aspx)<br/>                 | Indicates if the DirectXMath Library supports the current platform.<br/>                                             |
 
 
 

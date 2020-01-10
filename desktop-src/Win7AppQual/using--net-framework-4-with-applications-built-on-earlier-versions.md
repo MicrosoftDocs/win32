@@ -34,9 +34,9 @@ However, if the .NET Framework 4 is the only runtime version that is installed o
 
 ## Solution
 
-To run applications that are built with earlier .NET Framework versions with .NET Framework 4, you must compile your application to target the .NET Framework 4 version by specifying it in the properties for your project in Microsoft Visual Studio, or you can specify .NET Framework 4 in the [**<supportedRuntime> element**](https://msdn.microsoft.com/en-us/library/w4atty68(v=VS.71).aspx) in an application configuration file.
+To run applications that are built with earlier .NET Framework versions with .NET Framework 4, you must compile your application to target the .NET Framework 4 version by specifying it in the properties for your project in Microsoft Visual Studio, or you can specify .NET Framework 4 in the [**<supportedRuntime> element**](https://msdn.microsoft.com/library/w4atty68(v=VS.71).aspx) in an application configuration file.
 
-For more information about how to migrate to the .NET Framework 4, see [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/en-us/library/Ff657133(v=VS.100).aspx) and [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/en-us/library/Ff602939(v=VS.100).aspx).
+For more information about how to migrate to the .NET Framework 4, see [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/Ff657133(v=VS.100).aspx) and [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/library/Ff602939(v=VS.100).aspx).
 
 ## Compatibility Tests
 
@@ -46,10 +46,10 @@ If your application or component does not work after .NET Framework 4 is install
 
 ## Links to Other Resources
 
--   [**<supportedRuntime> Element**](https://msdn.microsoft.com/en-us/library/w4atty68(v=VS.71).aspx)
--   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/en-us/library/Ff657133(v=VS.100).aspx)
--   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/en-us/library/Ff602939(v=VS.100).aspx)
--   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<https://msdn.microsoft.com/en-us/library/dd889541.aspx>
+-   [**<supportedRuntime> Element**](https://msdn.microsoft.com/library/w4atty68(v=VS.71).aspx)
+-   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/Ff657133(v=VS.100).aspx)
+-   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/library/Ff602939(v=VS.100).aspx)
+-   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<https://msdn.microsoft.com/library/dd889541.aspx>
 -   [Microsoft Connect](https://go.microsoft.com/fwlink/p/?linkid=101629)
 
  

@@ -2,7 +2,7 @@
 Description: Specifies the connenction context of a Mobile Broadband device.
 ms.assetid: 513e744d-bd62-43e9-a636-6690867d8b9b
 title: contextType Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

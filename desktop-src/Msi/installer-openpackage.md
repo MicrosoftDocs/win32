@@ -2,7 +2,7 @@
 Description: The OpenPackage method of the Installer object opens an installer package for use with functions that access the product database and install engine, returning an Session object.
 ms.assetid: 22b03bde-29ae-4dd4-a41c-d55b3a4f424c
 title: Installer.OpenPackage method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

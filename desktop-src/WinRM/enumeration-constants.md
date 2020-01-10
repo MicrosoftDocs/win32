@@ -1,5 +1,5 @@
 ---
-title: Enumeration Constants
+title: Enumeration Constants (WSManDisp.h)
 description: Enumeration contains constants, as listed in the following list, used in the flags parameter by calls to Session.Enumerate and IWSManSession Enumerate.
 ms.assetid: c0f2763b-a549-43d5-84a6-8cebf33a1ea2
 ms.tgt_platform: multiple
@@ -17,7 +17,7 @@ api_location:
 - WSManDisp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

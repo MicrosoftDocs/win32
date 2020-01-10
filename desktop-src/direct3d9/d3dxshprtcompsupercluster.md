@@ -1,8 +1,8 @@
 ---
 Description: Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.
 ms.assetid: 0ec28b8c-5010-48a4-8e45-d7f9aa08185f
-title: D3DXSHPRTCompSuperCluster function
-ms.topic: article
+title: D3DXSHPRTCompSuperCluster function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ HRESULT D3DXSHPRTCompSuperCluster(
 *pClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a NumVerts cluster IDs (extracted from a compressed buffer.)
 
@@ -61,7 +61,7 @@ Pointer to a mesh that represents composite scene passed to the simulator. See [
 *MaxNumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum number of clusters allocated per super cluster.
 
@@ -70,7 +70,7 @@ Maximum number of clusters allocated per super cluster.
 *NumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of clusters computed in the simulator.
 
@@ -79,7 +79,7 @@ Number of clusters computed in the simulator.
 *pSClusterIDs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of length *NumClusters*. Contains the index of the super cluster to which the corresponding cluster was assigned.
 
@@ -88,7 +88,7 @@ Pointer to an array of length *NumClusters*. Contains the index of the super clu
 *pNumSCs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Number of super clusters allocated.
 
@@ -96,7 +96,7 @@ Number of super clusters allocated.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

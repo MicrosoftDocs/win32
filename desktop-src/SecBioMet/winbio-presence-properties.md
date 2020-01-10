@@ -1,5 +1,5 @@
 ---
-title: WINBIO_PRESENCE_PROPERTIES union
+title: WINBIO_PRESENCE_PROPERTIES union (Winbio\_types.h)
 description: Contains biometric values that the Windows Biometric Framework used to determine that an individual was present.
 ms.assetid: 596CAA7F-35D2-442A-8041-BA1010DF5BAD
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_Chip class represents the type of integrated circuit hardw
 ms.assetid: 3c2b0023-5d02-49b9-90f5-d66eb8a103f0
 ms.tgt_platform: multiple
 title: CIM_Chip class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

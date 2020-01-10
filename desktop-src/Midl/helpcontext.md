@@ -10,7 +10,7 @@ api_name:
 - helpcontext
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -80,7 +80,7 @@ Specifies statements that make up the element definition.
 
 The \[**helpcontext**\] attribute can be applied to the following elements: [**library**](library.md), \[[**importlib**](importlib.md)\], [**interface**](interface.md), [**dispinterface**](dispinterface.md), [**module**](module.md), [**typedef**](typedef.md), **method**, **property**, or [**coclass**](coclass.md).
 
-The *helpcontext-value* is a 32-bit context identifier within the Help file that can be retrieved with the [**GetDocumentation**](https://msdn.microsoft.com/en-us/library/ms221396(v=VS.71).aspx) functions in the [**ITypeLib**](https://msdn.microsoft.com/en-us/library/ms221549(v=VS.71).aspx) and [**ITypeInfo**](https://msdn.microsoft.com/en-us/library/ms221696(v=VS.71).aspx) interfaces.
+The *helpcontext-value* is a 32-bit context identifier within the Help file that can be retrieved with the [**GetDocumentation**](https://msdn.microsoft.com/library/ms221396(v=VS.71).aspx) functions in the [**ITypeLib**](https://msdn.microsoft.com/library/ms221549(v=VS.71).aspx) and [**ITypeInfo**](https://msdn.microsoft.com/library/ms221696(v=VS.71).aspx) interfaces.
 
 ## Examples
 
@@ -123,10 +123,10 @@ coclass Hello
 [**module**](module.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
+[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
 </dt> <dt>
 
 [**typedef**](typedef.md)

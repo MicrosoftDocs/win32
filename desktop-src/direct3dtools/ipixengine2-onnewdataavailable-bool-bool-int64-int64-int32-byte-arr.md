@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine2::OnNewDataAvailable method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: B99FC54C-9395-4B14-93D5-B6408D655DC3
 api_name: 

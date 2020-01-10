@@ -1,8 +1,8 @@
 ---
 Description: Occurs when a key is pressed and in the down position while the InkPicture control has focus.
 ms.assetid: d83823ea-d863-4eb7-8f6b-fa7a3396e64b
-title: InkPicture.KeyDown event
-ms.topic: article
+title: InkPicture.KeyDown event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEKeyDown.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEKeyDown.
 
 ## Requirements
 

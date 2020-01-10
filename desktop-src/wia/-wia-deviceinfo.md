@@ -2,7 +2,7 @@
 Description: The DeviceInfo object provides access to the properties of a Windows Image Acquisition (WIA) hardware device.
 ms.assetid: b3cf153b-76f8-4822-8d88-331ab91a1116
 title: DeviceInfo object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the GUID of this file data object.
 ms.assetid: 79bf56b5-5900-4427-8092-3a1df86f8a57
-title: ID3DXFileData::GetId method
-ms.topic: article
+title: ID3DXFileData::GetId method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ Pointer to a GUID to receive the ID of this file data object. If the file data o
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DXFERR\_BADVALUE.
 

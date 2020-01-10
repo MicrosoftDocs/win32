@@ -1,5 +1,5 @@
 ---
-title: gluBuild1DMipmaps function
+title: gluBuild1DMipmaps function (Glu.h)
 description: The gluBuild1DMipmaps function creates 1-D mipmaps.
 ms.assetid: 52ed924f-7a72-4458-b1b8-8e5d3021f60a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

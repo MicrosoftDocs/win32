@@ -1,8 +1,8 @@
 ---
 Description: Counts number of frames in a subtree that have non-null names.
 ms.assetid: bc1cb985-acd1-4ba0-bb3c-3e86fea559da
-title: D3DXFrameNumNamedMatrices function
-ms.topic: article
+title: D3DXFrameNumNamedMatrices function (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the root node of the subtree.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the frame count.
 

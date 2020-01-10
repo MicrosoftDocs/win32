@@ -1,8 +1,8 @@
 ---
 Description: Specifies the source glyph and location in a monochrome surface to copy glyphs into.
 ms.assetid: eda6fc82-6a06-4a59-a3ab-9f7e5c5bb5a1
-title: D3DCOMPOSERECTDESTINATION structure
-ms.topic: structure
+title: D3DCOMPOSERECTDESTINATION structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -40,7 +40,7 @@ typedef struct _D3DCOMPOSERECTDESTINATION {
 **SrcRectIndex**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Index particular glyph from vertex buffer containing [**D3DCOMPOSERECTDESC**](d3
 **Reserved**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Reserved for alignment purposes.
 **X**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Left coordinate to begin copy at.
 **Y**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

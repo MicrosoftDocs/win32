@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob SetNotifyFlags method
+title: IBackgroundCopyJob SetNotifyFlags method (Deliveryoptimization.h)
 description: Specifies the type of event notification you want to receive, such as job transferred events.
 ms.assetid: 19E626A5-6B6E-44E0-BD6F-43F132F32890
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

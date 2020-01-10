@@ -1,8 +1,8 @@
 ---
 Description: Contains the photo thumbnail of a IMFSample.
 ms.assetid: 510706A3-92FB-4188-97B9-6E8E0B4B175F
-title: MFSampleExtension_PhotoThumbnail attribute
-ms.topic: article
+title: MFSampleExtension_PhotoThumbnail attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ The thumbnail is configured using the **KSPROPERTYSETID\_ExtendedCameraControl**
 
 ## Remarks
 
-This attribute is set on the [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) provided by the MFT0 and is the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface of the [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) associated with the photo thumbnail.
+This attribute is set on the [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) provided by the MFT0 and is the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface of the [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) associated with the photo thumbnail.
 
 The format of the photo thumbnail can be JPEG (major type image), NV12 or ARGB32.
 

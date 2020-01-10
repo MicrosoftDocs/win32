@@ -1,8 +1,8 @@
 ---
 Description: Displays a dialog box to the user to prepare for image acquisition.
 ms.assetid: 2d7246ec-fb90-4538-b717-b9e3813c1696
-title: IWiaItem2::DeviceDlg method
-ms.topic: article
+title: IWiaItem2::DeviceDlg method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -115,7 +115,7 @@ This method displays a dialog box to the user that an application uses to gather
 
 After this method returns, the application can use the [**IWiaTransfer**](-wia-iwiatransfer.md) interface to acquire the image.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method for each element in the array of interface pointers they receive through the *ppIWiaItem2* parameter. Applications must also free the array using [CoTaskMemFree](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx).
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method for each element in the array of interface pointers they receive through the *ppIWiaItem2* parameter. Applications must also free the array using [CoTaskMemFree](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx).
 
 ## Requirements
 

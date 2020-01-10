@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer GetConstantBuffer method
+title: ID3DX11EffectConstantBuffer GetConstantBuffer method (D3dx11effect.h)
 description: Get a constant-buffer.
 ms.assetid: 857b3dc2-41ae-4a52-904a-9ca8f0afeb9e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ The address of a pointer to a constant-buffer interface. See [**ID3D11Buffer**](
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

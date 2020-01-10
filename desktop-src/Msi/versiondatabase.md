@@ -2,7 +2,7 @@
 Description: The value of the VersionDatabase property is the numeric database version of the current installation.
 ms.assetid: e75185a5-1b47-470f-b780-fba30740f499
 title: VersionDatabase property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

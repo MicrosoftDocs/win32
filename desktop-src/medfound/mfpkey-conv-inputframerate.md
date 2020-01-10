@@ -1,8 +1,8 @@
 ---
 Description: Specifies the input frame rate as a ratio.
 ms.assetid: 8988fc7e-02bd-43ea-8934-e3af44a38bc5
-title: MFPKEY_CONV_INPUTFRAMERATE Property
-ms.topic: article
+title: MFPKEY_CONV_INPUTFRAMERATE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the input frame rate as a ratio.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

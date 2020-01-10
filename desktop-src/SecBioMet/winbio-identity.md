@@ -1,5 +1,5 @@
 ---
-title: WINBIO_IDENTITY structure
+title: WINBIO_IDENTITY structure (Winbio\_types.h)
 description: Contains an identifying value associated with a biometric template.
 ms.assetid: 58a5f4ba-2f58-466c-90fd-9480c3c095db
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

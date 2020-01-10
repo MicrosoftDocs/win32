@@ -2,10 +2,10 @@
 title: break - vs
 description: Break out of the current loop at the nearest endloop - vs or endrep - vs.
 ms.assetid: d46a5ecd-8142-4134-b4c8-121a644a85c2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

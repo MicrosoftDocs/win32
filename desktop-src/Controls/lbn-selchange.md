@@ -1,5 +1,5 @@
 ---
-title: LBN_SELCHANGE notification code
+title: LBN_SELCHANGE notification code (Winuser.h)
 description: Notifies the application that the selection in a list box has changed as a result of user input. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 126d2c47-816e-4179-a870-f5c5a34c5513
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

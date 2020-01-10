@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the decoder should perform Lt-Rt fold down.
 ms.assetid: ce1dc4ea-4326-40ab-bb30-ff1a34f06d79
-title: MFPKEY_WMADEC_LTRTOUTPUT Property
-ms.topic: article
+title: MFPKEY_WMADEC_LTRTOUTPUT Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the decoder should perform Lt-Rt fold down.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Working with DMO Media Types
 
-The input and output media types that are used by the codec DMOs are defined using the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure. This structure is identical to both [**WM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx), which is defined in the Windows Media Format SDK, and [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx), which is defined in Microsoft DirectShow®. Depending upon your application, you may use variables defined as any one of these three types. It is safe to cast a pointer to one of the media type structures as another. For example:
+The input and output media types that are used by the codec DMOs are defined using the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd375504(v=VS.85).aspx) structure. This structure is identical to both [**WM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd757963(v=VS.85).aspx), which is defined in the Windows Media Format SDK, and [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd373477(v=VS.85).aspx), which is defined in Microsoft DirectShow®. Depending upon your application, you may use variables defined as any one of these three types. It is safe to cast a pointer to one of the media type structures as another. For example:
 
 
 ```

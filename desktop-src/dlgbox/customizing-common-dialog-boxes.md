@@ -85,22 +85,22 @@ The following table shows the type of hook procedure to provide for each of the 
 
 | Dialog box type                          | Hook procedure                                      |
 |------------------------------------------|-----------------------------------------------------|
-| **Color**                                | [*CCHookProc*](https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx)                      |
-| **Find** or **Replace**                  | [*FRHookProc*](https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx)                      |
-| **Font**                                 | [*CFHookProc*](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)                      |
-| **Open** or **Save As** (Explorer-style) | [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)                    |
+| **Color**                                | [*CCHookProc*](https://msdn.microsoft.com/library/ms646908(v=VS.85).aspx)                      |
+| **Find** or **Replace**                  | [*FRHookProc*](https://msdn.microsoft.com/library/ms646922(v=VS.85).aspx)                      |
+| **Font**                                 | [*CFHookProc*](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)                      |
+| **Open** or **Save As** (Explorer-style) | [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx)                    |
 | **Open** or **Save As** (Old-style)      | [*OFNHookProcOldStyle*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) |
-| **Print**                                | [*PrintHookProc*](https://msdn.microsoft.com/en-us/library/ms646944(v=VS.85).aspx)                |
-| **Page Setup**                           | [*PageSetupHook*](https://msdn.microsoft.com/en-us/library/ms646939(v=VS.85).aspx)                |
+| **Print**                                | [*PrintHookProc*](https://msdn.microsoft.com/library/ms646944(v=VS.85).aspx)                |
+| **Page Setup**                           | [*PageSetupHook*](https://msdn.microsoft.com/library/ms646939(v=VS.85).aspx)                |
 
 
 
  
 
-For the **Page Setup** dialog box, you can also specify a [*PagePaintHook*](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx) hook procedure. This is a special hook procedure that you can use to customize the appearance of the sample page displayed by the **Page Setup** dialog box.
+For the **Page Setup** dialog box, you can also specify a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure. This is a special hook procedure that you can use to customize the appearance of the sample page displayed by the **Page Setup** dialog box.
 
 > [!Note]  
-> The **Print Setup** dialog box has been superseded by the **Page Setup** dialog box. Applications should use the **Page Setup** dialog box. However, for compatibility, the [**PrintDlg**](https://msdn.microsoft.com/en-us/library/ms646940(v=VS.85).aspx) function continues to support display of the **Print Setup** dialog box. You can provide a [*SetupHookProc*](https://msdn.microsoft.com/en-us/library/ms646948(v=VS.85).aspx) hook procedure for the **Print Setup** dialog box.
+> The **Print Setup** dialog box has been superseded by the **Page Setup** dialog box. Applications should use the **Page Setup** dialog box. However, for compatibility, the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function continues to support display of the **Print Setup** dialog box. You can provide a [*SetupHookProc*](https://msdn.microsoft.com/library/ms646948(v=VS.85).aspx) hook procedure for the **Print Setup** dialog box.
 
  
 
@@ -126,7 +126,7 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 
  
 
-Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](https://msdn.microsoft.com/en-us/library/ms646935(v=VS.85).aspx) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
+Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
 
 The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
 
@@ -152,18 +152,18 @@ If you customize a dialog box by adding new controls, you must also extend help 
 | User action                                                           | Message                                      |
 |-----------------------------------------------------------------------|----------------------------------------------|
 | Click the right mouse button over a control.                          | [**WM\_CONTEXTMENU**](https://docs.microsoft.com/windows/desktop/menurc/wm-contextmenu) |
-| Pressed the F1 key.                                                   | [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx)               |
-| Clicked the **?** button on the title bar and then clicked a control. | [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx)               |
+| Pressed the F1 key.                                                   | [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx)               |
+| Clicked the **?** button on the title bar and then clicked a control. | [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx)               |
 
 
 
  
 
-You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](https://msdn.microsoft.com/en-us/library/Bb776786(v=VS.85).aspx).
+You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](https://msdn.microsoft.com/library/Bb776786(v=VS.85).aspx).
 
 ### The Help Button
 
-You can display a **Help** button in any of the common dialog boxes by setting a **SHOWHELP** value in the **Flags** member of the initialization structure for the dialog box. If you display the **Help** button, you must process the user's request for help. The processing can be done either in one of your application's window procedures or in a hook procedure for the dialog box. Typically, you would process the request for help by calling the [**WinHelp**](https://msdn.microsoft.com/en-us/library/Bb762267(v=VS.85).aspx) function.
+You can display a **Help** button in any of the common dialog boxes by setting a **SHOWHELP** value in the **Flags** member of the initialization structure for the dialog box. If you display the **Help** button, you must process the user's request for help. The processing can be done either in one of your application's window procedures or in a hook procedure for the dialog box. Typically, you would process the request for help by calling the [**WinHelp**](https://msdn.microsoft.com/library/Bb762267(v=VS.85).aspx) function.
 
 To process help messages in one of your window procedures, you must get a message identifier for the string defined by the [**HELPMSGSTRING**](helpmsgstring.md) value and identify the window to receive messages. To get the message identifier, specify **HELPMSGSTRING** as the parameter in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function. When you create the dialog box, use the **hwndOwner** member of the dialog box initialization structure to identify the window that is to receive the messages. The dialog box procedure sends the message to the window procedure whenever the user clicks the **Help** button.
 

@@ -1,8 +1,8 @@
 ---
 Description: Contains the folder's FolderItem object.
 ms.assetid: 0964505d-4138-4444-91d4-46c707c45688
-title: Folder2.Self property
-ms.topic: article
+title: Folder2.Self property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

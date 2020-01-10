@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray GatherCmpGreen methods
+title: TextureCubeArray::TextureCubeArray GatherCmpGreen methods
 description: Samples and compares a texture and returns the green component.
 ms.assetid: F4B58F67-E13C-4166-9793-4CD1E1712766
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

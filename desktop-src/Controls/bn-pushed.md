@@ -1,5 +1,5 @@
 ---
-title: BN_PUSHED notification code
+title: BN_PUSHED notification code (Winuser.h)
 description: Sent when the push state of a button is set to pushed.
 ms.assetid: 34000def-189c-4a37-bcef-4ca09a67df00
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

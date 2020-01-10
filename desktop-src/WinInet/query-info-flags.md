@@ -1,5 +1,5 @@
 ---
-title: Query Info Flags
+title: Query Info Flags (Wininet.h)
 description: The following lists contain the attributes and modifiers used by HttpQueryInfo and QueryInfo.
 ms.assetid: b1613193-ae03-411e-bf05-de42f471cd8c
 topic_type:
@@ -98,7 +98,7 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

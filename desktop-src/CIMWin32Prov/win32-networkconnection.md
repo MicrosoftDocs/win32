@@ -3,7 +3,7 @@ Description: Represents an active network connection in a Windows-based environm
 ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
 ms.tgt_platform: multiple
 title: Win32_NetworkConnection class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ api_location:
 
 # Win32\_NetworkConnection class
 
-The **Win32\_NetworkConnection** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx)represents an active network connection in a Windows-based environment.
+The **Win32\_NetworkConnection** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx)represents an active network connection in a Windows-based environment.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -86,7 +86,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 List of access rights to the given file or directory held by the user or group on whose behalf the instance is returned. On FAT volumes, the **FULL\_ACCESS** value is returned instead, indicating no security has been set on the object.
@@ -258,7 +258,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -276,7 +276,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|*lpComment*")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|*lpComment*")
 </dt> </dl>
 
 Comment supplied by the network provider.
@@ -292,7 +292,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (20), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USE\_INFO\_1**](https://msdn.microsoft.com/en-us/library/Aa371360(v=VS.85).aspx)\|**ui1\_status**")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (20), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USE\_INFO\_1**](https://msdn.microsoft.com/library/Aa371360(v=VS.85).aspx)\|**ui1\_status**")
 </dt> </dl>
 
 Current state of the network connection.
@@ -352,7 +352,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**dwScope**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**dwScope**")
 </dt> </dl>
 
 Persistence type of the connection used for connecting to the network.
@@ -384,7 +384,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -402,7 +402,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**dwDisplayType**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**dwDisplayType**")
 </dt> </dl>
 
 Network object should be displayed in a network browsing user interface.
@@ -448,7 +448,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -466,7 +466,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**lpLocalName**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**lpLocalName**")
 </dt> </dl>
 
 Local name of the connected network device.
@@ -484,7 +484,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)")
 </dt> </dl>
 
 Name of the current network connection. It is the combination of the values in **RemoteName** and **LocalName**.
@@ -502,7 +502,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Functions\|[**WNetEnumResource**](https://msdn.microsoft.com/en-us/library/Aa385449(v=VS.85).aspx)")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Functions\|[**WNetEnumResource**](https://msdn.microsoft.com/library/Aa385449(v=VS.85).aspx)")
 </dt> </dl>
 
 Connection will be reconnected automatically by the operating system on the next logon.
@@ -518,7 +518,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**lpProvider**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**lpProvider**")
 </dt> </dl>
 
 Name of the provider that owns the resource. This property can be **NULL** if the provider name is unknown.
@@ -534,7 +534,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**lpRemoteName**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**lpRemoteName**")
 </dt> </dl>
 
 Remote network resource name for a network resource. For a current or persistent connection, **RemoteName** contains the network name associated with the name of the value in the **LocalName** property. The name in **RemoteName** must follow the network provider's naming conventions.
@@ -552,7 +552,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**lpRemoteName**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**lpRemoteName**")
 </dt> </dl>
 
 Full path to the network resource.
@@ -570,7 +570,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/en-us/library/Aa385353(v=VS.85).aspx)\|**dwType**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Structures\|[**NETRESOURCE**](https://msdn.microsoft.com/library/Aa385353(v=VS.85).aspx)\|**dwType**")
 </dt> </dl>
 
 Type of resource to enumerate or connect to.
@@ -609,7 +609,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -717,7 +717,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Functions\|[**WNetGetUser**](https://msdn.microsoft.com/en-us/library/Aa385476(v=VS.85).aspx)")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Windows Networking Functions\|[**WNetGetUser**](https://msdn.microsoft.com/library/Aa385476(v=VS.85).aspx)")
 </dt> </dl>
 
 User name or the default user name used to establish a network connection.
@@ -784,7 +784,7 @@ Next
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,8 +1,8 @@
 ---
 Description: The MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T structure is an MXDC\_ESCAPE\_HEADER\_T structure concatenated with an MXDC\_XPS\_S0PAGE\_RESOURCE\_T structure.
 ms.assetid: e5caa280-f0a5-4a89-b4f1-4f195a537dc6
-title: MXDC_S0PAGE_RESOURCE_ESCAPE_T structure
-ms.topic: structure
+title: MXDC_S0PAGE_RESOURCE_ESCAPE_T structure (Mxdc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -99,7 +99,7 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/en-us/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)

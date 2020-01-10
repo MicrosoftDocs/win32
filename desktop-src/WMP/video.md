@@ -1,5 +1,5 @@
 ---
-title: Video
+title: Video (Windows Media Player SDK)
 description: Video
 ms.assetid: '3c654494-19b5-401e-bed8-02f7cc7d7f4e'
 keywords:

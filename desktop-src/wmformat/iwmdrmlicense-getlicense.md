@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense GetLicense method
+title: IWMDRMLicense GetLicense method (Wmdrmsdk.h)
 description: The GetLicense method retrieves the license as XML or XMR data.
 ms.assetid: 63317841-fd13-4e83-8b99-e3cab1405050
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

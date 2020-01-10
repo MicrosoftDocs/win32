@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XPS Print API Reference
 
-\[The APIs described in this section are deprecated. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx) instead.\]
+\[The APIs described in this section are deprecated. Client applications should use the [Print Document Package API](https://msdn.microsoft.com/library/Hh448418(v=VS.85).aspx) instead.\]
 
 Prints XPS documents from Windows-based applications.
 
@@ -26,7 +26,7 @@ Prints XPS documents from Windows-based applications.
 
 <dl> <dt>
 
-[Documents](https://msdn.microsoft.com/en-us/library/ms716526(v=VS.85).aspx)
+[Documents](https://msdn.microsoft.com/library/ms716526(v=VS.85).aspx)
 </dt> <dt>
 
 [XML Paper Specification](https://go.microsoft.com/?linkid=8435939)

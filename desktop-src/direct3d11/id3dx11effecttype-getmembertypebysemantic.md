@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType GetMemberTypeBySemantic method
+title: ID3DX11EffectType GetMemberTypeBySemantic method (D3dx11effect.h)
 description: Get a member type by semantic.
 ms.assetid: d5fea2d9-8d08-4e02-a9c6-dbcfaaf4a7d1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

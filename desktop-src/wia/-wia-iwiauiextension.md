@@ -1,8 +1,8 @@
 ---
 Description: The IWiaUIExtension interface provides methods that replace the default system user interface, provide a custom device bitmap logo, and provide a custom device icon.
 ms.assetid: e3c69019-0e07-44ad-b48b-ea7e3daed2b7
-title: IWiaUIExtension interface
-ms.topic: interface
+title: IWiaUIExtension interface (Wiadevd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ The **IWiaUIExtension** interface provides methods that replace the default syst
 
 ## Members
 
-The **IWiaUIExtension** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IWiaUIExtension** also has these types of members:
+The **IWiaUIExtension** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaUIExtension** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,9 +47,9 @@ The **IWiaUIExtension** interface has these methods.
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
+| [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
 
 
 

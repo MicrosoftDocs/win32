@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetComputeShaderDesc method
+title: ID3DX11EffectPass GetComputeShaderDesc method (D3dx11effect.h)
 description: Get a compute-shader description.
 ms.assetid: 9c3a702f-2016-4b1a-a832-d1bb968aec2d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to a compute-shader description (see [**D3DX11\_PASS\_SHADER\_DESC**](
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

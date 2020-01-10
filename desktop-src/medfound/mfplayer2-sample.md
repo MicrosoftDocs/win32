@@ -28,14 +28,14 @@ The following image shows the controls used for these features.
 
 This sample demonstrates the following APIs.
 
--   [**IAudioSessionControl**](https://msdn.microsoft.com/en-us/library/Dd368246(v=VS.85).aspx)
--   [**IAudioSessionManager**](https://msdn.microsoft.com/en-us/library/Dd370948(v=VS.85).aspx)
+-   [**IAudioSessionControl**](https://msdn.microsoft.com/library/Dd368246(v=VS.85).aspx)
+-   [**IAudioSessionManager**](https://msdn.microsoft.com/library/Dd370948(v=VS.85).aspx)
 -   [**IMFPMediaItem**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem)
 -   [**IMFPMediaPlayer**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer)
 -   [**IMFPMediaPlayerCallback**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback)
--   [**IMMDevice**](https://msdn.microsoft.com/en-us/library/Dd371395(v=VS.85).aspx)
--   [**IMMDeviceEnumerator**](https://msdn.microsoft.com/en-us/library/Dd371399(v=VS.85).aspx)
--   [**ISimpleAudioVolume**](https://msdn.microsoft.com/en-us/library/Dd316531(v=VS.85).aspx)
+-   [**IMMDevice**](https://msdn.microsoft.com/library/Dd371395(v=VS.85).aspx)
+-   [**IMMDeviceEnumerator**](https://msdn.microsoft.com/library/Dd371399(v=VS.85).aspx)
+-   [**ISimpleAudioVolume**](https://msdn.microsoft.com/library/Dd316531(v=VS.85).aspx)
 
 ## Requirements
 

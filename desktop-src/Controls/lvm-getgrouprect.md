@@ -1,5 +1,5 @@
 ---
-title: LVM_GETGROUPRECT message
+title: LVM_GETGROUPRECT message (Commctrl.h)
 description: Gets the rectangle for a specified group. Send this message explicitly or by using the ListView\_GetGroupRect macro.
 ms.assetid: 9441a6c5-11d8-4f52-80dd-1b60befd9b9d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

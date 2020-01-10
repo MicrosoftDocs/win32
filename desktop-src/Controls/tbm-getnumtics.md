@@ -1,5 +1,5 @@
 ---
-title: TBM_GETNUMTICS message
+title: TBM_GETNUMTICS message (Commctrl.h)
 description: Retrieves the number of tick marks in a trackbar.
 ms.assetid: 3c3f7ebb-a544-474c-ba14-68eae543ee38
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

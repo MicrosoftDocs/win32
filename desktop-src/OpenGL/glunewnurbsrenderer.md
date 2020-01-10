@@ -1,5 +1,5 @@
 ---
-title: gluNewNurbsRenderer function
+title: gluNewNurbsRenderer function (Glu.h)
 description: The gluNewNurbsRenderer function creates a Non-Uniform Rational B-Spline (NURBS) object.
 ms.assetid: f47badb0-6b75-4bfd-9771-516668d9e255
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

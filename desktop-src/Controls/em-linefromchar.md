@@ -1,5 +1,5 @@
 ---
-title: EM_LINEFROMCHAR message
+title: EM_LINEFROMCHAR message (Winuser.h)
 description: Gets the index of the line that contains the specified character index in a multiline edit control.
 ms.assetid: e8e9217b-3f0c-478d-b44d-2a51868dbc5a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

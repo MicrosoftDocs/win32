@@ -1,8 +1,8 @@
 ---
 Description: Options for welding together vertices.
 ms.assetid: e73af63d-ed02-4fbc-8386-e8a40b0465ea
-title: D3DXWELDEPSILONSFLAGS enumeration
-ms.topic: enumeration
+title: D3DXWELDEPSILONSFLAGS enumeration (D3dx9mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

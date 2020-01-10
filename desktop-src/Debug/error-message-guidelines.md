@@ -35,7 +35,7 @@ The following are ways to improve your error messages:
     -   To provide more information about the solution to the problem, use the **Help** button.
     -   If a user action is included in the message, use the **OK** button to close the message box.
     -   **Yes** and **No** buttons must be used in combination and must always be preceded by a question.
--   If the error is a critical error, write it to the [event log](https://msdn.microsoft.com/en-us/library/Aa363652(v=VS.85).aspx).
+-   If the error is a critical error, write it to the [event log](https://msdn.microsoft.com/library/Aa363652(v=VS.85).aspx).
 
 ## Style Considerations
 

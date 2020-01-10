@@ -3,7 +3,7 @@ Description: Removes all jobs, including the one currently printing from the que
 ms.assetid: d7466513-b123-43af-ab17-b3213ba80284
 ms.tgt_platform: multiple
 title: CancelAllJobs method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

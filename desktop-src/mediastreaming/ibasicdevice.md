@@ -11,7 +11,7 @@ api_name:
 - IBasicDevice
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -36,11 +36,11 @@ The **IBasicDevice** interface has these methods.
 |:---------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 | [**add\_ConnectionStatusChanged**](ibasicdevice-add-connectionstatuschanged.md)       | Registers an event handler for the [**ConnectionStatusChanged**](connectionstatuschanged.md) event.<br/>                |
 | [**CanWakeDevices**](ibasicdevice-canwakedevices.md)                                  | Retrieves a value that indicates if the device can wake.<br/>                                                            |
-| [**ConnectionStatus**](https://msdn.microsoft.com/en-us/library/Hh828873(v=VS.85).aspx)                              | Returns an enumeration value indicating whether the device is currently on-line, off-line or sleeping but wakeable.<br/> |
+| [**ConnectionStatus**](https://msdn.microsoft.com/library/Hh828873(v=VS.85).aspx)                              | Returns an enumeration value indicating whether the device is currently on-line, off-line or sleeping but wakeable.<br/> |
 | [**Description**](ibasicdevice-description.md)                                        | Retrieves a description of the device.<br/>                                                                              |
 | [**DiscoveredOnCurrentNetwork**](ibasicdevice-discoveredoncurrentnetwork.md)          | Retrieves a value that indicates if the device is on the current network.<br/>                                           |
 | [**FriendlyName**](ibasicdevice-friendlyname.md)                                      | Retrieves the device s friendly name.<br/>                                                                               |
-| [**Icons**](ibasicdevice-icons.md)                                                    | Returns a vector of [**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx) interfaces.<br/>                                                  |
+| [**Icons**](ibasicdevice-icons.md)                                                    | Returns a vector of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interfaces.<br/>                                                  |
 | [**IpAddresses**](ibasicdevice-ipaddresses.md)                                        | Returns a vector of IP addresses.<br/>                                                                                   |
 | [**ManufacturerName**](ibasicdevice-manufacturername.md)                              | Retrieves the device s manufacturer name.<br/>                                                                           |
 | [**ManufacturerUrl**](ibasicdevice-manufacturerurl.md)                                | Retrieves the device s manufacturer URL.<br/>                                                                            |

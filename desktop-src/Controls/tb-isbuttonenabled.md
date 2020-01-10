@@ -1,5 +1,5 @@
 ---
-title: TB_ISBUTTONENABLED message
+title: TB_ISBUTTONENABLED message (Commctrl.h)
 description: Determines whether the specified button in a toolbar is enabled.
 ms.assetid: 055ed89a-2f3a-4174-b249-c6e68afbad31
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

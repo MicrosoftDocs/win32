@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectConstantBuffer SetTextureBuffer method
+title: ID3DX11EffectConstantBuffer SetTextureBuffer method (D3dx11effect.h)
 description: Set a texture-buffer.
 ms.assetid: b8c327e4-52ff-498e-81e9-187e58bbe5d2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to a shader-resource-view interface for accessing a texture buffer.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

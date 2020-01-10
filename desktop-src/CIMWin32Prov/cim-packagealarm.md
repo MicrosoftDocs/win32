@@ -3,7 +3,7 @@ Description: The CIM\_PackageAlarm association represents the relationship in wh
 ms.assetid: 4911502a-de9c-46b4-91f6-a042c69fd052
 ms.tgt_platform: multiple
 title: CIM_PackageAlarm class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

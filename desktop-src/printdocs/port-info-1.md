@@ -1,8 +1,8 @@
 ---
 Description: The PORT\_INFO\_1 structure identifies a supported printer port.
 ms.assetid: e474fe9c-e554-406a-a5bf-de07f9a72b32
-title: PORT_INFO_1 structure
-ms.topic: structure
+title: PORT_INFO_1 structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

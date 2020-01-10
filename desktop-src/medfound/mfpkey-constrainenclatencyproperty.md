@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder is constrained by a maximum latency requirement.
 ms.assetid: 8148ae1e-239e-40fa-a88d-810a1d93d8e9
-title: MFPKEY_CONSTRAINENCLATENCY Property
-ms.topic: article
+title: MFPKEY_CONSTRAINENCLATENCY Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the encoder is constrained by a maximum latency requirement.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

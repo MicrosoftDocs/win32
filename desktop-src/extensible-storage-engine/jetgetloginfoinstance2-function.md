@@ -5,7 +5,7 @@ ms:assetid: 50fdae92-611c-4dbf-846e-86cc836a23db
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269247(v=EXCHG.10)
 ms:contentKeyID: 32765549
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetLogInfoInstance2W
 - JetGetLogInfoInstance2

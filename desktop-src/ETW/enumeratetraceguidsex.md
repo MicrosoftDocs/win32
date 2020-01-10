@@ -1,8 +1,8 @@
 ---
 Description: Use this function to retrieve information about trace providers that are registered on the computer.
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
-title: EnumerateTraceGuidsEx function
-ms.topic: article
+title: EnumerateTraceGuidsEx function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -89,7 +89,7 @@ Actual size of the data in *OutBuffer*, in bytes.
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

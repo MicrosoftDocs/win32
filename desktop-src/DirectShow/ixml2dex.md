@@ -1,8 +1,8 @@
 ---
 Description: The IXml2Dex interface saves and loads DirectShow Editing Services (DES) project files in Extensible Markup Language (XML). This interface also provides methods for reading and writing DirectShow graph (.grf) files.
 ms.assetid: a07b0cbe-1f1d-4ccd-a994-9bb1a49c78d8
-title: IXml2Dex interface
-ms.topic: interface
+title: IXml2Dex interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -27,7 +27,7 @@ The `IXml2Dex` interface saves and loads [DirectShow Editing Services](directsho
 
 ## Members
 
-The **IXml2Dex** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IXml2Dex** also has these types of members:
+The **IXml2Dex** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IXml2Dex** also has these types of members:
 
 -   [Methods](#methods)
 

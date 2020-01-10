@@ -2,7 +2,7 @@
 Description: This class is the event type class for image load events. The following syntax is simplified from MOF code.
 ms.assetid: 43bf0b2b-3ab4-4561-b48c-65fbace38a79
 title: Image_V1_Load class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

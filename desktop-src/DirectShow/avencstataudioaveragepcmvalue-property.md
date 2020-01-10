@@ -1,8 +1,8 @@
 ---
 Description: Returns the average volume level of the audio content.
 ms.assetid: 371c2eb6-24dc-42f0-a525-2a7fcd7cb087
-title: AVEncStatAudioAveragePCMValue property
-ms.topic: article
+title: AVEncStatAudioAveragePCMValue property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

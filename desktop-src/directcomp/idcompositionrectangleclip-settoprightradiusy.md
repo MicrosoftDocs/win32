@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetTopRightRadiusY methods
+title: IDCompositionRectangleClip SetTopRightRadiusY methods (Dcomp.h)
 description: Changes or animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property specifies the y radius of the ellipse that rounds the top-right corner of the clip.
 ms.assetid: CB0C1B66-F1AB-4440-8898-77107C1A2C42
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetTopRightRadiusY methods
@@ -24,8 +24,8 @@ Changes or animates the value of the TopRightRadiusY property of this clip. The 
 
 | Method                                                                                                                       | Description                                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**SetTopRightRadiusY(float)**](https://msdn.microsoft.com/en-us/library/Hh448919(v=VS.85).aspx)                                     | Changes the value of the TopRightRadiusY property of this clip.<br/>  |
-| [**SetTopRightRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448920(v=VS.85).aspx) | Animates the value of the TopRightRadiusY property of this clip.<br/> |
+| [**SetTopRightRadiusY(float)**](https://msdn.microsoft.com/library/Hh448919(v=VS.85).aspx)                                     | Changes the value of the TopRightRadiusY property of this clip.<br/>  |
+| [**SetTopRightRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448920(v=VS.85).aspx) | Animates the value of the TopRightRadiusY property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the TopRightRadiusY property of this clip. The 
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

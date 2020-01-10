@@ -2,7 +2,7 @@
 Description: Retrieves the thumbnail image of an existing virtual machine.
 ms.assetid: 8D670D2E-EAD7-47FF-B13C-764EFFDF4547
 title: GetVirtualSystemThumbnailImage method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

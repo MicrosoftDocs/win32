@@ -1,8 +1,8 @@
 ---
 Description: Sets the (u, v) texture coordinates of each texel.
 ms.assetid: b1f8f5d6-568f-4868-87c9-9d6b1034d898
-title: ID3DXTextureGutterHelper::SetTexelMap method
-ms.topic: article
+title: ID3DXTextureGutterHelper::SetTexelMap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the location in pixel (u, v) texture coordinates where each texel is 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

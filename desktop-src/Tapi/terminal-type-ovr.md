@@ -12,7 +12,7 @@ The **terminal type** identifies whether a terminal is static or dynamic. For ex
 
 This concept is primarily used by TAPI 3 applications.
 
-**TAPI 3.x:** See [**ITTerminal::get\_TerminalType**](https://msdn.microsoft.com/en-us/library/ms733198(v=VS.85).aspx), [**TERMINAL\_TYPE**](/windows/desktop/api/Tapi3if/ne-tapi3if-terminal_type).
+**TAPI 3.x:** See [**ITTerminal::get\_TerminalType**](https://msdn.microsoft.com/library/ms733198(v=VS.85).aspx), [**TERMINAL\_TYPE**](/windows/desktop/api/Tapi3if/ne-tapi3if-terminal_type).
 
  
 

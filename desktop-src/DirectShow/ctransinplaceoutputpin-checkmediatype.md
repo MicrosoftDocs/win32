@@ -1,8 +1,8 @@
 ---
 Description: The CheckMediaType method determines if the pin accepts a specific media type.
 ms.assetid: be720021-ef7b-4281-a9f4-93abbdafc75d
-title: CTransInPlaceOutputPin.CheckMediaType method
-ms.topic: article
+title: CTransInPlaceOutputPin.CheckMediaType method (Transip.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

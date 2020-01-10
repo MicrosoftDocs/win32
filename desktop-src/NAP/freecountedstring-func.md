@@ -1,5 +1,5 @@
 ---
-title: FreeCountedString function
+title: FreeCountedString function (NapUtil.h)
 description: Frees a CountedString data structure.
 ms.assetid: d080d247-9339-474b-866e-b412e82dd35f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

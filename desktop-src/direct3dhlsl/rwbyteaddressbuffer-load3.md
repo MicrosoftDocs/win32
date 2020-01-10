@@ -1,5 +1,5 @@
 ---
-title: RWByteAddressBuffer Load3 methods
+title: RWByteAddressBuffer::RWByteAddressBuffer Load3 methods
 description: Gets three values from a RWByteAddressBuffer.
 ms.assetid: BB36AF51-1C2A-4DA2-A257-4BE837E8587A
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

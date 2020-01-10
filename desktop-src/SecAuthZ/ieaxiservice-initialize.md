@@ -2,7 +2,7 @@
 Description: Checks and downloads an ActiveX object.
 ms.assetid: a477c6dc-32a7-4d17-a997-6df4967d6c55
 title: IeAxiService::Initialize method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

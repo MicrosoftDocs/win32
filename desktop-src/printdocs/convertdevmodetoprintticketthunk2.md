@@ -2,7 +2,7 @@
 Description: Converts a DEVMODE structure to a print ticket.
 ms.assetid: c03371f8-a978-4fb7-82cc-f76a65f3904c
 title: ConvertDevModeToPrintTicketThunk2 function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -85,7 +85,7 @@ The size, in bytes, of the print ticket returned in *ppPrintTicket*.
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Requirements
 
@@ -103,7 +103,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx)
+[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
 </dt> <dt>
 
 [**PTConvertDevModeToPrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertdevmodetoprintticket)

@@ -2,9 +2,7 @@
 Description: Control code acquires a runtime reservation for a block of TCP or UDP ports.
 ms.assetid: 1A2E3920-88D2-4109-B7EF-E66BD4AB6153
 title: SIO_ACQUIRE_PORT_RESERVATION Control Code
-author: TimShererWithAquent
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

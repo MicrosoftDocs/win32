@@ -20,7 +20,7 @@ The timing of notifications affects the performance and coordination between an 
 
 <dl> <dt>
 
-[**CreateDataAdviseHolder**](https://msdn.microsoft.com/en-us/library/ms690308(v=VS.85).aspx)
+[**CreateDataAdviseHolder**](https://msdn.microsoft.com/library/ms690308(v=VS.85).aspx)
 </dt> <dt>
 
 [**CreateOleAdviseHolder**](/windows/desktop/api/Ole2/nf-ole2-createoleadviseholder)

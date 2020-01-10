@@ -1,5 +1,5 @@
 ---
-title: glDrawElements function
+title: glDrawElements function (Gl.h)
 description: The glDrawElements function renders primitives from array data.
 ms.assetid: fb433294-106e-48d5-ad49-4434934fe072
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: LVM_SETITEMPOSITION message
+title: LVM_SETITEMPOSITION message (Commctrl.h)
 description: Moves an item to a specified position in a list-view control (must be in icon or small icon view). You can send this message explicitly or by using the ListView\_SetItemPosition macro.
 ms.assetid: dfb35af4-e6c3-40fc-9d7c-cf0d68a3ea01
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

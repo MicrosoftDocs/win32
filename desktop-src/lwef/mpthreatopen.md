@@ -1,5 +1,5 @@
 ---
-title: MpThreatOpen function
+title: MpThreatOpen function (MpClient.h)
 description: Returns an enumeration handle for the purpose of retrieving threats.
 ms.assetid: E1178F0C-E9C0-4532-AE9B-452770600DF2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

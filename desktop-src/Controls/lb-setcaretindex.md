@@ -1,5 +1,5 @@
 ---
-title: LB_SETCARETINDEX message
+title: LB_SETCARETINDEX message (Winuser.h)
 description: Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view.
 ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_setcaretindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

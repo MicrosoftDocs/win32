@@ -3,7 +3,7 @@ Description: Writes an updated version of the security descriptor that controls 
 ms.assetid: e92430fd-61b1-4986-88dc-b85f502f62e6
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the __SystemSecurity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

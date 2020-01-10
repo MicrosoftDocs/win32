@@ -1,8 +1,8 @@
 ---
 Description: Queries the status of the most recent rendering operation to the specified surface.
 ms.assetid: bc7f8f84-119e-4c09-87f5-6b122e9f9821
-title: NtGdiDdQueryMoCompStatus function
-ms.topic: article
+title: NtGdiDdQueryMoCompStatus function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdQueryMoCompStatus(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
+Pointer to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/library/Ff551663(v=VS.85).aspx) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puQueryMoCompStatusData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_QUERYMOCOMPSTATUSDATA**](https://msdn.microsoft.com/en-us/library/Ff551691(v=VS.85).aspx) structure that contains the information needed to query the status.
+Pointer to a [**DD\_QUERYMOCOMPSTATUSDATA**](https://msdn.microsoft.com/library/Ff551691(v=VS.85).aspx) structure that contains the information needed to query the status.
 
 </dd> </dl>
 

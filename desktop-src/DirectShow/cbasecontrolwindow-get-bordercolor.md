@@ -1,8 +1,8 @@
 ---
 Description: The get\_BorderColor method retrieves the current border color.
 ms.assetid: 4b4cae1d-bef7-4f8d-8011-c220fcfb73eb
-title: CBaseControlWindow.get_BorderColor method
-ms.topic: article
+title: CBaseControlWindow.get_BorderColor method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

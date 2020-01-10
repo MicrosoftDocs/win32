@@ -14,7 +14,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ The **IRemoteDesktopClientEvents** interface has these methods.
 | [**OnNetworkStatusChanged**](iremotedesktopclientevents-onnetworkstatuschanged.md)         | Called when the network status has changed. <br/>                                                                                                             |
 | [**OnRemoteDesktopSizeChanged**](iremotedesktopclientevents-onremotedesktopsizechanged.md) | Called when the remote desktop size has changed. <br/>                                                                                                        |
 | [**OnStatusChanged**](iremotedesktopclientevents-onstatuschanged.md)                       | Called when the client control has updated its status. <br/>                                                                                                  |
-| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](https://msdn.microsoft.com/en-us/library/Mt787031(v=VS.85).aspx) property is set to true. <br/> |
+| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](https://msdn.microsoft.com/library/Mt787031(v=VS.85).aspx) property is set to true. <br/> |
 
 
 

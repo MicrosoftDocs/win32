@@ -2,7 +2,7 @@
 Description: This class is the event type class for network events. The following syntax is simplified from MOF code.
 ms.assetid: afa994ef-dd1c-4909-a6cd-7021be4fff40
 title: SystemConfig_Network class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -79,7 +79,7 @@ Qualifiers: WmiDataId(3)
 
 The highest port number TCP can assign when an application requests an available user port from the system. Typically, ephemeral ports (those used briefly) are allocated to port numbers 1024 through 5000.
 
-The value for the highest user port number TCP can assign is controlled by a registry setting. For more information, see [MaxUserPort](https://technet.microsoft.com/en-us/library/cc938196.aspx).
+The value for the highest user port number TCP can assign is controlled by a registry setting. For more information, see [MaxUserPort](https://technet.microsoft.com/library/cc938196.aspx).
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ RFC 793 published by the IETF requires that TCP maintains a closed connection fo
 
 Reducing the value of this entry using a registry setting allows TCP to release closed connections faster, providing more resources for new connections. However, if the value is too low, TCP might release connection resources before the connection is complete, requiring the server to use additional resources to reestablish the connection.
 
-Normally, TCP does not release closed connections until the value of this entry expires. However, TCP can release connections before this value expires if it is running out of TCP control blocks (TCBs). The number of TCBs the system creates is controlled by a registry setting. For more information, see [MaxFreeTCBs](https://technet.microsoft.com/en-us/library/cc938178.aspx).
+Normally, TCP does not release closed connections until the value of this entry expires. However, TCP can release connections before this value expires if it is running out of TCP control blocks (TCBs). The number of TCBs the system creates is controlled by a registry setting. For more information, see [MaxFreeTCBs](https://technet.microsoft.com/library/cc938178.aspx).
 
 </dd> </dl>
 

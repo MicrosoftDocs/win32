@@ -2,7 +2,7 @@
 Description: Suspends the processes of the package if they are currently running.
 ms.assetid: 83f44285-46ed-4968-b0af-7964dfacf602
 title: IPackageDebugSettings::Suspend method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ This method can return one of these values.
 
 ## Remarks
 
-Each process receives the [**Suspending**](https://msdn.microsoft.com/en-us/library/BR205860(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Suspending**](https://msdn.microsoft.com/library/BR205860(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ Each process receives the [**Suspending**](https://msdn.microsoft.com/en-us/libr
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](https://msdn.microsoft.com/en-us/library/Hh438393(v=VS.85).aspx)
+[**IPackageDebugSettings**](https://msdn.microsoft.com/library/Hh438393(v=VS.85).aspx)
 </dt> </dl>
 
  

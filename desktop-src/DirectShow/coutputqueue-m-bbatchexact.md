@@ -1,8 +1,8 @@
 ---
 Description: Flag that specifies whether the object delivers samples in exact batches.
 ms.assetid: 1a37c78f-4499-4ebb-92b4-b71ba3ff1a02
-title: COutputQueue::m_bBatchExact member
-ms.topic: article
+title: COutputQueue::m_bBatchExact member (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

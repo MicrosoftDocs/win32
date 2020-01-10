@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether a decoder exposes IYUV/I420 output types (suitable for transcoding) before other formats.
 ms.assetid: 8505CFA1-210A-4DA8-B92A-FCE62F0310E5
-title: MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER attribute
-ms.topic: article
+title: MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER attribute (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

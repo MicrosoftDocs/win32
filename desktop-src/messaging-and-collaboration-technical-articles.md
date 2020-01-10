@@ -2,7 +2,7 @@
 Description: Messaging and Collaboration Technical Articles
 ms.assetid: A98B4FEA-BC46-4D1F-86E7-02E1E6F61DE1
 title: Messaging and Collaboration Technical Articles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the content key IDs.
 ms.assetid: 886127A1-7612-40FE-8BE7-EA90708E41DA
-title: MF_EVENT_STREAM_METADATA_CONTENT_KEYIDS attribute
-ms.topic: article
+title: MF_EVENT_STREAM_METADATA_CONTENT_KEYIDS attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

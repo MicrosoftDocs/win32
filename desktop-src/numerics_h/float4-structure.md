@@ -1,5 +1,5 @@
 ---
-title: float4 structure
+title: float4 structure (Windowsnumerics.h)
 description: A vector with four components.
 ms.assetid: AC07C6D0-E7FD-4582-B40D-4838F49FB8B4
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

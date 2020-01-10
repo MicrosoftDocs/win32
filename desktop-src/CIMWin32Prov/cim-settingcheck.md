@@ -3,7 +3,7 @@ Description: The CIM\_SettingCheck class specifies information needed to check a
 ms.assetid: 0e40276c-e794-4ea1-8937-c6d7f110f97d
 ms.tgt_platform: multiple
 title: CIM_SettingCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

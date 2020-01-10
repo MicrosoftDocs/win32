@@ -1,5 +1,5 @@
 ---
-title: glGetTexLevelParameterfv function
+title: glGetTexLevelParameterfv function (Gl.h)
 description: The glGetTexLevelParameterfv and glGetTexLevelParameteriv functions return texture parameter values for a specific level of detail.
 ms.assetid: 5ea91f2e-c0cd-41ee-be95-df096f1c78ef
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

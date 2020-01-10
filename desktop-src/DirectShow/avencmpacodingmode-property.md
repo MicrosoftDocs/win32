@@ -1,8 +1,8 @@
 ---
 Description: Specifies the MPEG-1/2 audio encoding mode. This property applies to MPEG audio encoders.
 ms.assetid: c1a303fd-3625-4051-b6b8-4f83cceec945
-title: AVEncMPACodingMode property
-ms.topic: article
+title: AVEncMPACodingMode property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

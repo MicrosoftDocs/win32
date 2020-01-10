@@ -1,5 +1,5 @@
 ---
-title: TB_MOVEBUTTON message
+title: TB_MOVEBUTTON message (Commctrl.h)
 description: Moves a button from one index to another.
 ms.assetid: 030aedc5-2de5-4751-90b2-63794322f503
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

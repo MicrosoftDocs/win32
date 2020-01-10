@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetTimes method
+title: IBackgroundCopyJob GetTimes method (Deliveryoptimization.h)
 description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
 ms.assetid: 9002FB8D-08CB-4878-980F-15FE0DC952A6
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

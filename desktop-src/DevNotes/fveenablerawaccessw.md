@@ -2,7 +2,7 @@
 Description: Enables or disables reading and writing of disk sectors.
 ms.assetid: 885e4db1-a131-4727-80ab-3be8c591b766
 title: FveEnableRawAccessW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

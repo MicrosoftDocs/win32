@@ -1,5 +1,5 @@
 ---
-title: DRV_CONFIGURE message
+title: DRV_CONFIGURE message (Mmsystem.h)
 description: Directs the installable driver to display its configuration dialog box and let the user specify new settings for the given installable driver instance.
 ms.assetid: 0d99fad7-ce79-4574-9fd8-262f7e758866
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -48,7 +48,7 @@ Handle of the parent window. This window is used as the parent window for the co
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-Address of a [**DRVCONFIGINFO**](https://msdn.microsoft.com/en-us/library/Dd797923(v=VS.85).aspx) structure or **NULL**. If the structure is given, it contains the names of the registry key and value associated with the driver.
+Address of a [**DRVCONFIGINFO**](https://msdn.microsoft.com/library/Dd797923(v=VS.85).aspx) structure or **NULL**. If the structure is given, it contains the names of the registry key and value associated with the driver.
 
 </dd> </dl>
 

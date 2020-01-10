@@ -1,12 +1,12 @@
 ---
+title: Position and move video rectangles in composition space
 Description: Positioning and Moving Video Rectangles in Composition Space
 ms.assetid: 97e7bb24-79f6-4638-a9c4-ac09dbd29be9
-title: Positioning and Moving Video Rectangles in Composition Space
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Positioning and Moving Video Rectangles in Composition Space
+# Position and move video rectangles in composition space
 
 When the VMR mixes multiple input streams, it positions each stream within a normalized rectangle, called "composition space." Within composition space, the coordinates (0.0, 0.0) to (1.0, 1.0) form the visible video rectangle. Any coordinates that fall outside of this rectangle are clipped.
 

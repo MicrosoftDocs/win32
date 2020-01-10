@@ -1,8 +1,8 @@
 ---
 Description: The get\_Bandwidth method gets the bandwidth value.
 ms.assetid: d9020443-d061-4a60-9d54-191144def110
-title: ITConnection::get_Bandwidth method
-ms.topic: article
+title: ITConnection::get_Bandwidth method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

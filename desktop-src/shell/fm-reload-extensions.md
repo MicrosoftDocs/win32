@@ -1,8 +1,8 @@
 ---
 Description: Sent by a File Manager extension (or another application) to cause File Manager to reload all extension DLLs listed in the \[AddOns\] section of the Winfile.ini file.
 ms.assetid: 5103a986-5f45-4deb-aaae-c6e87cb60051
-title: FM_RELOAD_EXTENSIONS message
-ms.topic: article
+title: FM_RELOAD_EXTENSIONS message (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ No return value.
 
 ## Remarks
 
-Other applications can use the [**PostMessage**](https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx) function to send this message to File Manager. To obtain the appropriate File Manager window handle, an application can specify "WFS\_Frame" as the *lpszClassName* parameter in a call to the [**FindWindow**](https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx) function.
+Other applications can use the [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) function to send this message to File Manager. To obtain the appropriate File Manager window handle, an application can specify "WFS\_Frame" as the *lpszClassName* parameter in a call to the [**FindWindow**](https://msdn.microsoft.com/library/ms633499(v=VS.85).aspx) function.
 
 ## Requirements
 

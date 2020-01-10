@@ -2,7 +2,7 @@
 Description: Associates a transparent bridging service with an entry of its forwarding database.
 ms.assetid: 6db93e71-c9b7-4710-a9ee-99a1055cfd82
 title: CIM_TransparentBridgingDynamicForwarding class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

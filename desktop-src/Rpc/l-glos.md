@@ -1,7 +1,7 @@
 ---
-title: L
+title: L (RPC)
 description: Words starting with L in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: db8cfb63-7476-42ee-9c62-031200ca46b6
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-title: Objects
+title: Objects (Windows Media Format 11 SDK)
 description: Objects
 ms.assetid: f884e115-d41a-4f36-bcef-dfaef78510af
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: Load(int,int,uint) function
+title: Texture3D::Load(int,int,uint) function
 description: Reads texture data and returns status of the operation.
 ms.assetid: 3F562ADB-225F-462B-A7AC-40797BBB632A
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

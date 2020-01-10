@@ -2,7 +2,7 @@
 Description: A notification callback function specified with the LdrRegisterDllNotification function.
 ms.assetid: 12202797-c80c-4fa3-9cc4-dcb1a9f01551
 title: LdrDllNotification callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

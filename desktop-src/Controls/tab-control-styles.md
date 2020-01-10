@@ -1,5 +1,5 @@
 ---
-title: Tab Control Styles
+title: Tab Control Styles (CommCtrl.h)
 description: This section lists supported tab control styles.
 ms.assetid: a01a6609-b02e-4ada-afa0-ed5ad8dde0d6
 topic_type:
@@ -29,7 +29,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

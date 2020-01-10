@@ -1,18 +1,16 @@
 ---
+title: WIA structures
 Description: 'This section presents information about the following structures used by WIA:'
 ms.assetid: 8917bb94-c9d8-49f2-8a09-bb9722a09cb8
-title: Structures
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# WIA structures
 
 This section presents information about the following structures used by WIA:
 
-## 
-
-### Structures
+## Structures
 
 -   [**DEVICEDIALOGDATA**](-wia-devicedialogdata.md)
 -   [**DEVICEDIALOGDATA2**](-wia-devicedialogdata2.md)

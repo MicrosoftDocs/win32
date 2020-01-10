@@ -1,8 +1,8 @@
 ---
 Description: Provides information about an app suspending operation.
 ms.assetid: B380AEA2-6486-46CC-AD0A-CF25C144DC01
-title: ISuspendingOperation interface
-ms.topic: interface
+title: ISuspendingOperation interface (Windows.ApplicationModel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -21,7 +21,7 @@ Provides information about an app suspending operation.
 
 ## Members
 
-The **ISuspendingOperation** interface inherits from [**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx). **ISuspendingOperation** also has these types of members:
+The **ISuspendingOperation** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx). **ISuspendingOperation** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -71,7 +71,7 @@ The **ISuspendingOperation** interface has these properties.
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx)
+[**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx)
 </dt> <dt>
 
 [**ISuspendingDeferral**](isuspendingdeferral.md)

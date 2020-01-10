@@ -1,8 +1,8 @@
 ---
 Description: The ITTimeCollection interface is a provider-specific interface for the Session Descriptor Protocol (SDP) conference blob object.
 ms.assetid: 6309e9f2-8a73-4d42-ae0a-2165352d6244
-title: ITTimeCollection interface
-ms.topic: interface
+title: ITTimeCollection interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ The **ITTimeCollection** interface is a provider-specific interface for the Sess
 
 ## Members
 
-The **ITTimeCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITTimeCollection** also has these types of members:
+The **ITTimeCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITTimeCollection** also has these types of members:
 
 -   [Methods](#methods)
 

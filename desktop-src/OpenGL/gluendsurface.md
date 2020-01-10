@@ -1,5 +1,5 @@
 ---
-title: gluEndSurface function
+title: gluEndSurface function (Glu.h)
 description: The gluBeginSurface and gluEndSurface functions delimit a Non-Uniform Rational B-Spline (NURBS) surface definition.
 ms.assetid: beaa0340-c67d-4376-bedd-7f73c5c6d742
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

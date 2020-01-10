@@ -1,8 +1,8 @@
 ---
 Description: Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.
 ms.assetid: 7de8cb64-122a-475f-990c-c19590a9d9d8
-title: MEStreamThinMode event
-ms.topic: article
+title: MEStreamThinMode event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

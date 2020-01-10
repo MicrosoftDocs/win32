@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the user presses a key while the InkEdit control has focus.
 ms.assetid: 14b05b72-ae5d-416a-8ea5-9d9716c0967f
-title: InkEdit.KeyDown event
-ms.topic: article
+title: InkEdit.KeyDown event (Inked.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -58,7 +58,7 @@ If this event succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeKeyDown.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeKeyDown.
 
 ## Requirements
 

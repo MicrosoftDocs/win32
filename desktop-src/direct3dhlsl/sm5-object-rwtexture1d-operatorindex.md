@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: RWTexture1D::Operator  function
 description: Returns a resource variable.
 ms.assetid: 16e62879-8ed3-4b17-9124-9da41c41af4f
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

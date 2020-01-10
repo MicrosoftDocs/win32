@@ -1,8 +1,8 @@
 ---
 Description: The LINEADDRCAPFLAGS\_ bit-flag constants are used in the dwAddrCapFlags member of the LINEADDRESSCAPS data structure to describe various Boolean address capabilities.
 ms.assetid: 530af273-82ba-4310-8aac-266d657e1bfe
-title: LINEADDRCAPFLAGS_ Constants
-ms.topic: article
+title: LINEADDRCAPFLAGS_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ The **LINEADDRCAPFLAGS**\_ bit-flag constants are used in the **dwAddrCapFlags**
 
 
 
-The address supports [ACD Groups](../tapi3/about_call_center_controls.md) in connection with call center operations. See [About Call Center Controls](https://msdn.microsoft.com/en-us/library/ms725998(v=VS.85).aspx) for additional information on ACD groups.
+The address supports [ACD Groups](../tapi3/about_call_center_controls.md) in connection with call center operations. See [About Call Center Controls](https://msdn.microsoft.com/library/ms725998(v=VS.85).aspx) for additional information on ACD groups.
 
 
 </dt> </dl> </dd> <dt>

@@ -1,8 +1,8 @@
 ---
 Description: Contains a pointer to the proxy object for the applications presentation descriptor.
 ms.assetid: 0cd83204-0d32-417c-8911-1d3358eb0802
-title: MF_PD_PMPHOST_CONTEXT attribute
-ms.topic: article
+title: MF_PD_PMPHOST_CONTEXT attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: gluNurbsProperty function
+title: gluNurbsProperty function (Glu.h)
 description: The gluNurbsProperty function sets a Non-Uniform Rational B-Spline (NURBS) property.
 ms.assetid: c8c3b0c3-11b8-4123-91b6-75fed78932ce
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

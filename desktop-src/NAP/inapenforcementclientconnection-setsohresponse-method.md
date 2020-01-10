@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetSoHResponse method
+title: INapEnforcementClientConnection SetSoHResponse method (NapEnforcementClient.h)
 description: Sets the SoH-Response and is used by the enforcement client on receiving a packet.
 ms.assetid: 718669c7-73cf-44f4-8463-c59fdbe215cc
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

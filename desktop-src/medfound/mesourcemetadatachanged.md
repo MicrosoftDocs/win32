@@ -1,8 +1,8 @@
 ---
 Description: Raised by a media source when it updates its metadata.
 ms.assetid: 6818b0c9-9628-41e6-8dc6-dff26f4fcfd2
-title: MESourceMetadataChanged event
-ms.topic: article
+title: MESourceMetadataChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -14,14 +14,14 @@ api_name:
 - GetTransportInformationOperation.put_Completed
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # GetTransportInformationOperation::Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/en-us/library/Hh828932(v=VS.85).aspx) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/library/Hh828932(v=VS.85).aspx) is completed.
 
 This property is read/write.
 

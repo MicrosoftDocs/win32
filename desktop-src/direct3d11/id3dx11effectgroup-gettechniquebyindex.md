@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectGroup GetTechniqueByIndex method
+title: ID3DX11EffectGroup GetTechniqueByIndex method (D3dx11effect.h)
 description: Get a technique by index.
 ms.assetid: b0962957-20d1-4ec6-9f8e-acc7a62c5f4e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

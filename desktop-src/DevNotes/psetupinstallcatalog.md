@@ -2,7 +2,7 @@
 Description: Installs a catalog file.
 ms.assetid: bea74e91-1a87-4785-b983-5fec87e03499
 title: pSetupInstallCatalog function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -67,7 +67,7 @@ If the function succeeds, it returns **NO\_ERROR**; otherwise, it returns a Win3
 
 The file is copied by the system into a special directory and is optionally renamed.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 
@@ -83,7 +83,7 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**CryptCATAdminAddCatalog**](https://msdn.microsoft.com/en-us/library/Aa379890(v=VS.85).aspx)
+[**CryptCATAdminAddCatalog**](https://msdn.microsoft.com/library/Aa379890(v=VS.85).aspx)
 </dt> </dl>
 
  

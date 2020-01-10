@@ -1,8 +1,8 @@
 ---
 Description: The following table describes the stream media subtypes.
 ms.assetid: 45a1edcd-9ea3-4ea2-b830-15df304e4566
-title: Stream Subtypes
-ms.topic: article
+title: Stream Subtypes (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

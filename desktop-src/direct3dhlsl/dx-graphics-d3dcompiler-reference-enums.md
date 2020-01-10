@@ -1,19 +1,19 @@
 ---
-title: Enumerations
+title: Enumerations (HLSL reference)
 description: This section contains information about the following Direct3D HLSL compiler enumerations
 ms.assetid: 684508d8-2289-4124-9910-93c6bf0a1f99
 keywords:
 - enumerations, Compiler
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
 ---
 
-# Enumerations
+# Enumerations (HLSL reference)
 
 This section contains information about the following Direct3D HLSL compiler enumerations:
 

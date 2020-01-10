@@ -1,5 +1,5 @@
 ---
-title: EN_MAXTEXT notification code
+title: EN_MAXTEXT notification code (Winuser.h)
 description: Sent when the current text insertion has exceeded the specified number of characters for the edit control.
 ms.assetid: b03835d6-d06f-415a-97f2-d2b62b17e175
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

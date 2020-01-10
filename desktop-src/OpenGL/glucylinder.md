@@ -1,5 +1,5 @@
 ---
-title: gluCylinder function
+title: gluCylinder function (Glu.h)
 description: The gluCylinder function draws a cylinder.
 ms.assetid: 43329d2f-50bb-46ea-85cb-22956d0df375
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

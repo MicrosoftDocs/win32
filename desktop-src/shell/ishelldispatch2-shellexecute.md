@@ -1,8 +1,8 @@
 ---
 Description: Performs a specified operation on a specified file.
 ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
-title: IShellDispatch2.ShellExecute method
-ms.topic: article
+title: IShellDispatch2.ShellExecute method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -55,7 +55,7 @@ IShellDispatch2.ShellExecute( _
 *sFile* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the file on which **ShellExecute** will perform the action specified by *vOperation*.
 
@@ -116,7 +116,7 @@ A recommendation as to how the application window should be displayed initially.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ShellExecute**](https://msdn.microsoft.com/en-us/library/Gg537745(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.ShellExecute**](https://msdn.microsoft.com/library/Gg537745(v=VS.85).aspx) method.
 
 This method is equivalent to launching one of the commands associated with a file's shortcut menu. Each command is represented by a verb string. The set of supported verbs varies from file to file. The most commonly supported verb is "open", which is also usually the default verb. Other verbs might be supported by only certain types of files. For further discussion of Shell verbs, see [Launching Applications](launch.md) or [Extending Shortcut Menus](context.md).
 

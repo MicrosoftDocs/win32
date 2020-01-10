@@ -1,8 +1,8 @@
 ---
 Description: Get translation information for a specific key frame in the animation set.
 ms.assetid: 757af408-8a9c-4294-9343-91f52d4cc1ab
-title: ID3DXKeyframedAnimationSet::GetTranslationKey method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetTranslationKey method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT GetTranslationKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation index.
 
@@ -49,7 +49,7 @@ Animation index.
 *Key* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Key Frame.
 
@@ -66,7 +66,7 @@ Pointer to the rotation information. See [**D3DXKEY\_VECTOR3**](d3dxkey-vector3.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

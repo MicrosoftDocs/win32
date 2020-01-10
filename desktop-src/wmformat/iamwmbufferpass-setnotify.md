@@ -12,14 +12,14 @@ api_name:
 - IAMWMBufferPass.SetNotify
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # IAMWMBufferPass::SetNotify method
 
-The **SetNotify** method is used by applications to provide the WM ASF Writer or [WM ASF Reader](wm-asf-reader-filter.md) filter with a pointer to the application's [**IAMWMBufferPassCallback**](https://msdn.microsoft.com/en-us/library/Dd798277(v=VS.85).aspx) interface.
+The **SetNotify** method is used by applications to provide the WM ASF Writer or [WM ASF Reader](wm-asf-reader-filter.md) filter with a pointer to the application's [**IAMWMBufferPassCallback**](https://msdn.microsoft.com/library/Dd798277(v=VS.85).aspx) interface.
 
 ## Syntax
 
@@ -55,7 +55,7 @@ Call this method before putting the filter graph into the run state.
 
 <dl> <dt>
 
-[**IAMWMBufferPass Interface**](https://msdn.microsoft.com/en-us/library/Dd798276(v=VS.85).aspx)
+[**IAMWMBufferPass Interface**](https://msdn.microsoft.com/library/Dd798276(v=VS.85).aspx)
 </dt> </dl>
 
  

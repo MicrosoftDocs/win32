@@ -3,7 +3,7 @@ Description: The Win32\_ComClassAutoEmulator association WMI class relates a Com
 ms.assetid: e060ba26-98e7-47cb-bf21-1ca80d0e8a07
 ms.tgt_platform: multiple
 title: Win32_ComClassAutoEmulator class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Adds an animation output to the animation controller and registers pointers for scale, rotate, and translate (SRT) transformations.
 ms.assetid: 8c3197bc-9d03-40ba-869b-151f9c8e96ba
-title: ID3DXAnimationController::RegisterAnimationOutput method
-ms.topic: article
+title: ID3DXAnimationController::RegisterAnimationOutput method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ HRESULT RegisterAnimationOutput(
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Name of the animation output.
 
@@ -86,7 +86,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) vector that describes the transla
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

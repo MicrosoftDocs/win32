@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMCOLOR.
 ms.assetid: 9b9f0c85-453b-416d-9e70-6ffcf2286df7
 title: XMCOLOR constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

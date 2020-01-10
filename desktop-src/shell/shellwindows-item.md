@@ -1,8 +1,8 @@
 ---
 Description: Retrieves an InternetExplorer object that represents the Shell window.
 ms.assetid: '32390f35-f83a-45d9-a240-282da7cb2b13'
-title: ShellWindows.Item method
-ms.topic: article
+title: ShellWindows.Item method (Exdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 ## Return value
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
 
 An object reference to the [**InternetExplorer**](https://msdn.microsoft.com/library/Aa752084(v=VS.85).aspx) object that represents the Shell window.
 

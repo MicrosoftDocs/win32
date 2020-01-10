@@ -1,5 +1,5 @@
 ---
-title: IWMPCdromBurn (VB and C ) interface
+title: IWMPCdromBurn (VB and C ) interface (Wmp.h)
 description: Provides properties and methods to manage creating audio CDs.
 ms.assetid: d98b243d-d6c2-4d85-8d5a-de49c62d0acf
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

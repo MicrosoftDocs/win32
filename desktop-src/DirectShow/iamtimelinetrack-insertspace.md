@@ -1,8 +1,8 @@
 ---
 Description: The InsertSpace method splits any objects that exist at the specified time and inserts space between them.
 ms.assetid: f9e48f58-1867-405c-b208-1ab781912aa1
-title: IAMTimelineTrack::InsertSpace method
-ms.topic: article
+title: IAMTimelineTrack::InsertSpace method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

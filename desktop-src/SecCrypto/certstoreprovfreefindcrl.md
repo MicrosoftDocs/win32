@@ -2,7 +2,7 @@
 Description: Called when the certificate returned by the CertStoreProvFindCRL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCRL.
 ms.assetid: e90609f6-63cd-40eb-bd5a-289473daa5bb
 title: CertStoreProvFreeFindCRL callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ BOOL WINAPI CertStoreProvFreeFindCRL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

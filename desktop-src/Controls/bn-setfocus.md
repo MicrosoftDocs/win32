@@ -1,5 +1,5 @@
 ---
-title: BN_SETFOCUS notification code
+title: BN_SETFOCUS notification code (Winuser.h)
 description: Sent when a button receives the keyboard focus. The button must have the BS\_NOTIFY style to send this notification code. The parent window of the button receives this notification code through the WM\_COMMAND message.
 ms.assetid: 6b8d9bde-67f9-454f-ba2c-e5c8d9ff2709
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

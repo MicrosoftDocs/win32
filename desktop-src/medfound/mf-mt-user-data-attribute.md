@@ -1,8 +1,8 @@
 ---
 Description: Contains additional format data for a media type.
 ms.assetid: 020832c4-40a1-4d8b-ada0-7a04ce097bce
-title: MF_MT_USER_DATA attribute
-ms.topic: article
+title: MF_MT_USER_DATA attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,7 +23,7 @@ The meaning of the data in this attribute depends on the format that is describe
 | Format Type                                                                                                           | Additional Format Data                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows Media codec.                                                                                                  | Codec private data.                                                                                                                       |
-| Converted [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) structure.   | Extra data that appears after the [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd318229(v=VS.85).aspx) structure, not including the color table or color masks. |
+| Converted [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) structure.   | Extra data that appears after the [**BITMAPINFOHEADER**](https://msdn.microsoft.com/library/Dd318229(v=VS.85).aspx) structure, not including the color table or color masks. |
 | Converted [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure. | Extra data that appears after the audio format structure.                                                                                 |
 
 

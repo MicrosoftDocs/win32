@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Implementing CollectPerformanceData
 
-After the system successfully calls your your [**OpenPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa372200(v=VS.85).aspx) function, it calls your [**CollectPerformanceData**](https://msdn.microsoft.com/en-us/library/Aa371898(v=VS.85).aspx) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
+After the system successfully calls your your [**OpenPerformanceData**](https://msdn.microsoft.com/library/Aa372200(v=VS.85).aspx) function, it calls your [**CollectPerformanceData**](https://msdn.microsoft.com/library/Aa371898(v=VS.85).aspx) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
 
-The following example shows an implementation of the [*CollectPerformanceData*](https://msdn.microsoft.com/en-us/library/Aa371898(v=VS.85).aspx) function. The header file that contains the definition of the counters used in this function is shown in [Implementing OpenPerformanceData](implementing-openperformancedata.md). If you use C++ to implement this function, be sure to use extern "C" when you declare your function.
+The following example shows an implementation of the [*CollectPerformanceData*](https://msdn.microsoft.com/library/Aa371898(v=VS.85).aspx) function. The header file that contains the definition of the counters used in this function is shown in [Implementing OpenPerformanceData](implementing-openperformancedata.md). If you use C++ to implement this function, be sure to use extern "C" when you declare your function.
 
 
 ```C++

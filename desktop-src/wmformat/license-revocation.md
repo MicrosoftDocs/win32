@@ -1,5 +1,5 @@
 ---
-title: License Revocation
+title: License Revocation (Windows Media Format SDK)
 description: License Revocation
 ms.assetid: '15917bce-d89e-41eb-904d-7ee290ba545e'
 keywords:

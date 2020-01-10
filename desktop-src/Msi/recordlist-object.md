@@ -2,7 +2,7 @@
 Description: The RecordList object is a collection of Record objects. You must verify that the RecordList object exists and is not empty before referencing its properties.
 ms.assetid: 7f5ac153-8da1-4dc8-9bb7-defd4e821142
 title: RecordList object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

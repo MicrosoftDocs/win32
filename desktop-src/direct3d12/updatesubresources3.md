@@ -1,5 +1,5 @@
 ---
-title: UpdateSubresources (stack-allocating) function
+title: UpdateSubresources (stack-allocating) function (D3dx12.h)
 description: Updates subresources with a stack-allocating implementation.
 ms.assetid: 2F30FDF1-4450-473E-AEA8-C5FF54260BCE
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - DllExport
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

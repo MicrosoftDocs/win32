@@ -1,5 +1,5 @@
 ---
-title: glSelectBuffer function
+title: glSelectBuffer function (Gl.h)
 description: The glSelectBuffer function establishes a buffer for selection mode values.
 ms.assetid: b5c64364-1f47-4281-96b5-95c3f5c8e753
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

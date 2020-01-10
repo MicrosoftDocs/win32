@@ -3,7 +3,7 @@ Description: A shader that is used to implement custom intersection primitives f
 ms.assetid: 
 title: Intersection Shader
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

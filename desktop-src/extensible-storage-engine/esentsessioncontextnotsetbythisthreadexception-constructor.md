@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThread
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextnotsetbythisthreadexception.esentsessioncontextnotsetbythisthreadexception(v=EXCHG.10)
 ms:contentKeyID: 55102699
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException.EsentSessionContextNotSetByThisThreadException
 dev_langs:

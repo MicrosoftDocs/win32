@@ -1,8 +1,8 @@
 ---
 Description: Sets an albedo value for each mesh vertex, overwriting previous albedo values.
 ms.assetid: 5220dfe3-8d41-480c-a850-b9aad3d2bb2f
-title: ID3DXPRTEngine::SetPerVertexAlbedo method
-ms.topic: article
+title: ID3DXPRTEngine::SetPerVertexAlbedo method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Pointer to FLOAT albedo data of the first sample.
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of color channels to set. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -58,7 +58,7 @@ Number of color channels to set. Set to 1 to specify gray materials (R = G = B),
 *Stride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride in bytes needed to get to next sample's albedo value. See [Width vs. Pitch (Direct3D 9)](width-vs--pitch.md).
 
@@ -66,7 +66,7 @@ Stride in bytes needed to get to next sample's albedo value. See [Width vs. Pitc
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyExc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplessecondaryindexonlyexception.esentindextuplessecondaryindexonlyexception(v=EXCHG.10)
 ms:contentKeyID: 55101796
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyException.EsentIndexTuplesSecondaryIndexOnlyException
 dev_langs:

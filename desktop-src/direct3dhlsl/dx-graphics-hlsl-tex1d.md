@@ -1,5 +1,5 @@
 ---
-title: tex1D
+title: tex1D (HLSL reference)
 description: Samples a 1D texture.
 ms.assetid: 587be0fd-af12-4bf0-862b-84988435e90e
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - tex1D
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex1D
+# tex1D (HLSL reference)
 
 Samples a 1D texture.
 

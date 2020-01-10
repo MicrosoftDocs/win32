@@ -1,5 +1,5 @@
 ---
-title: IWMPQuery (VB and C ) interface
+title: IWMPQuery (VB and C ) interface (Wmp.h)
 description: Represents a compound query.
 ms.assetid: b9cfeec9-f928-4b12-88c2-0f78b26f8687
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The FindMediaFile method searches for a file and, if successful, retrieves the path to the file.
 ms.assetid: ddfa2c75-e51f-4aad-afe6-8a60c46e8d35
-title: IMediaLocator::FindMediaFile method
-ms.topic: article
+title: IMediaLocator::FindMediaFile method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -53,7 +53,7 @@ File name, including path, where the file was last known to reside. For source o
 *FilterString* 
 </dt> <dd>
 
-A **BSTR** containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx) structure. The media locator uses this filter if it displays a File Open dialog box. The value can be **NULL** if the *Flags* parameter does not include the SFN\_VALIDATEF\_POPUP flag.
+A **BSTR** containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure. The media locator uses this filter if it displays a File Open dialog box. The value can be **NULL** if the *Flags* parameter does not include the SFN\_VALIDATEF\_POPUP flag.
 
 </dd> <dt>
 

@@ -2,7 +2,7 @@
 Description: Reports the health status of an application that is running in a virtual machine to the Hyper-V integration components running in the same virtual machine.
 ms.assetid: C463391B-669C-4CBA-9EC7-7E0ABC5A63A1
 title: IVmApplicationHealthMonitor interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,7 +23,7 @@ This interface is implemented by the Windows 8 Hyper-V integration components. A
 
 ## Members
 
-The **IVmApplicationHealthMonitor** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVmApplicationHealthMonitor** also has these types of members:
+The **IVmApplicationHealthMonitor** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVmApplicationHealthMonitor** also has these types of members:
 
 -   [Methods](#methods)
 

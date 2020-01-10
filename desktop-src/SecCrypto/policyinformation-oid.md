@@ -2,7 +2,7 @@
 Description: Retrieves the policy's OID. This is the default property.
 ms.assetid: c78bbbcb-befd-491c-afbd-80c3ba124d29
 title: PolicyInformation.OID property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

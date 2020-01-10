@@ -373,6 +373,11 @@
       items: 
       - name: "Close method"
         href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close
+    - name: "ICompositionDrawingSurfaceInterop2"
+      href: /windows/win32/winrt/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2
+      items: 
+      - name: "CopySurface method"
+        href: /windows/win32/winrt/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2-copysurface
     - name: "IContactManagerInterop"
       href: https://docs.microsoft.com/previous-versions//dn302109(v=vs.85)
       items: 
@@ -1384,7 +1389,7 @@
     - name: "Rect"
       href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect
     - name: "ServerInformation"
-      href: /windows/desktop/api/combaseapi/ns-combaseapi-tagserverinformation
+      href: /windows/win32/api/combaseapi/ns-combaseapi-serverinformation
     - name: "Size"
       href: https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-size
     - name: "TextRange"

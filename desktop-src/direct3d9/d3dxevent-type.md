@@ -1,8 +1,8 @@
 ---
 Description: Describes the type of events that can be keyed by the animation controller.
 ms.assetid: d98b398e-29e1-41b5-84eb-37983bac8d0a
-title: D3DXEVENT_TYPE enumeration
-ms.topic: enumeration
+title: D3DXEVENT_TYPE enumeration (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

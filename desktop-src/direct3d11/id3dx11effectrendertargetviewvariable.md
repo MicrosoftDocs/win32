@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRenderTargetViewVariable interface
+title: ID3DX11EffectRenderTargetViewVariable interface (D3dx11effect.h)
 description: A render-target-view interface accesses a render target.
 ms.assetid: 35c4e1da-05a8-4f1c-8730-58e3c90ad213
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

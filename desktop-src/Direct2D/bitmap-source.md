@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 # Bitmap source effect
 
-Use the bitmap source effect to generate an [**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) from a [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) for use as an input in an effect graph. This effect performs scaling and rotation on the CPU. It can also optionally generate a system memory mipmap, which can be a performance optimization for actively scaling very large images at various reduced resolutions.
+Use the bitmap source effect to generate an [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) from a [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) for use as an input in an effect graph. This effect performs scaling and rotation on the CPU. It can also optionally generate a system memory mipmap, which can be a performance optimization for actively scaling very large images at various reduced resolutions.
 
 > [!Note]  
-> The bitmap source effect takes its input as a property, not as an image input. You must use the [**SetValue**](https://msdn.microsoft.com/en-us/library/Hh446885(v=VS.85).aspx) method, not the [**SetInput**](https://msdn.microsoft.com/en-us/library/Hh404591(v=VS.85).aspx) method. The *WicBitmapSource* property is where you specify the image input data.
+> The bitmap source effect takes its input as a property, not as an image input. You must use the [**SetValue**](https://msdn.microsoft.com/library/Hh446885(v=VS.85).aspx) method, not the [**SetInput**](https://msdn.microsoft.com/library/Hh404591(v=VS.85).aspx) method. The *WicBitmapSource* property is where you specify the image input data.
 
  
 
@@ -133,9 +133,9 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
 ## Remarks
 
-To optimize performance when using WIC and [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) together, you should use [**IWICFormatConverter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) to convert to an appropriate pixel format based your app s scenario and the image s native precision.
+To optimize performance when using WIC and [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) together, you should use [**IWICFormatConverter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) to convert to an appropriate pixel format based your app s scenario and the image s native precision.
 
-In most cases, either your app s [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) pipeline only requires 8 bits per channel (bpc) of precision, or the image only provides 8 bpc precision, and therefore you should convert to GUID\_WICPixelFormat32bppPBGRA. However, if you want to take advantage of extra precision provided by an image (for example, a JPEG-XR or TIFF stored with greater than 8 bpc precision), you should use an RGBA-based pixel format. The below table provides more details.
+In most cases, either your app s [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) pipeline only requires 8 bits per channel (bpc) of precision, or the image only provides 8 bpc precision, and therefore you should convert to GUID\_WICPixelFormat32bppPBGRA. However, if you want to take advantage of extra precision provided by an image (for example, a JPEG-XR or TIFF stored with greater than 8 bpc precision), you should use an RGBA-based pixel format. The below table provides more details.
 
 
 
@@ -170,7 +170,7 @@ Because many image formats support multiple levels of precision, you should use 
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

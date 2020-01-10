@@ -1,5 +1,5 @@
 ---
-title: RBN_CHEVRONPUSHED notification code
+title: RBN_CHEVRONPUSHED notification code (Commctrl.h)
 description: Sent by a rebar control when a chevron is pushed. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

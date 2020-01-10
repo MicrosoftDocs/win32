@@ -1,8 +1,8 @@
 ---
 Description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 ms.assetid: e4d9c95d-1b68-4af6-beb2-2014074e5089
-title: IEnumTime::Skip method
-ms.topic: article
+title: IEnumTime::Skip method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

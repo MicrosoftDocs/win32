@@ -1,8 +1,8 @@
 ---
 Description: CryptXML defines the following global limits in the Cryptxml.h header file.
 ms.assetid: 8f4dc314-76fc-40ce-a1e1-a701ae39d66d
-title: CryptXML Limits
-ms.topic: article
+title: CryptXML Limits (Cryptxml.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

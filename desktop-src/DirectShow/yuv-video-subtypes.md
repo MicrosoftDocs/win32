@@ -1,8 +1,8 @@
 ---
 Description: 'YUV formats are categorized according to the following information:'
 ms.assetid: 452f017c-81ce-4be4-9962-4b9c1a9ce849
-title: YUV Video Subtypes
-ms.topic: article
+title: YUV Video Subtypes (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ YUV formats are categorized according to the following information:
 
  
 
-For a description of theses YUV formats for video rendering on Windows, see [Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/en-us/library/Dd206750(v=VS.85).aspx) .
+For a description of theses YUV formats for video rendering on Windows, see [Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/library/Dd206750(v=VS.85).aspx) .
 
 **Other YUV Format Types**
 
@@ -94,7 +94,7 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
 
 <dl> <dt>
 
-[Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/en-us/library/Dd206750(v=VS.85).aspx)
+[Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/library/Dd206750(v=VS.85).aspx)
 </dt> <dt>
 
 [Video Subtypes](video-subtypes.md)

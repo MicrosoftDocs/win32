@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The following example demonstrates aspects of working with the [**Store**](store.md) object. It shows opening stores in the CAPICOM\_MEMORY\_STORE, CAPICOM\_CURRENT\_USER\_STORE, and CAPICOM\_LOCAL\_MACHINE\_STORE locations.
 
-The example shows exporting [*certificates*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) from an open [*store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), writing the exported certificates to a file, reading them back in and importing them into a different store. The newly imported certificates are then enumerated and displayed.
+The example shows exporting [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) from an open [*store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), writing the exported certificates to a file, reading them back in and importing them into a different store. The newly imported certificates are then enumerated and displayed.
 
 On any CAPICOM error, a negative decimal value of **Err.Number** is returned. For more information, see [**CAPICOM\_ERROR\_CODE**](capicom-error-code.md). For information about positive decimal values of **Err.Number**, see Winerror.h.
 

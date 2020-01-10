@@ -2,7 +2,7 @@
 Description: This filter demultiplexes MPEG-2 transport and program streams that are delivered in push-mode.
 ms.assetid: 99bfc55d-6519-4e85-98ce-cad27bd71ffb
 title: MPEG-2 Demultiplexer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

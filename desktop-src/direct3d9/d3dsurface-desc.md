@@ -1,8 +1,8 @@
 ---
 Description: Describes a surface.
 ms.assetid: fad8ffdb-36e5-4695-b343-e1315357c31a
-title: D3DSURFACE_DESC structure
-ms.topic: structure
+title: D3DSURFACE_DESC structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -55,18 +55,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as a surface.
+Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as a surface.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -77,29 +77,29 @@ Either the D3DUSAGE\_DEPTHSTENCIL or D3DUSAGE\_RENDERTARGET values. For more inf
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this surface.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this surface.
 
 </dd> <dt>
 
 **MultiSampleType**
 </dt> <dd>
 
-Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx)**
+Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx) enumerated type, specifying the levels of full-scene multisampling supported by the surface.
+Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx) enumerated type, specifying the levels of full-scene multisampling supported by the surface.
 
 </dd> <dt>
 
 **MultiSampleQuality**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -110,7 +110,7 @@ Quality level. The valid range is between zero and one less than the level retur
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -121,7 +121,7 @@ Width of the surface, in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

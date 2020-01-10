@@ -1,5 +1,5 @@
 ---
-title: DTM_SETMCCOLOR message
+title: DTM_SETMCCOLOR message (Commctrl.h)
 description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_SetMonthCalColor macro.
 ms.assetid: cee72c1d-58da-4ee5-850e-a615ec6ad079
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

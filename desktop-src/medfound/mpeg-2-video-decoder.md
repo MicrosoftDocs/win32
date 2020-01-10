@@ -2,7 +2,7 @@
 Description: The MPEG-2 Video Decoder is a Media Foundation transform that decodes MPEG-1 and MPEG-2 video.
 ms.assetid: 3E7FAE14-932D-44A3-997B-567C0D2EAE7B
 title: MPEG-2 Video Decoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -40,7 +40,7 @@ The decoder supports the following output types.
 
 The MPEG-2 video decoder exposes the following interfaces:
 
--   [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx)
+-   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
 -   [**IMFQualityAdvise2**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2)
@@ -57,7 +57,7 @@ The decoder supports DirectX Video Acceleration (DXVA) using either Microsoft Di
 
 -   **Low latency mode.** This mode is appropriate for scenarios such as real-time communications. It reduces start-up latency, so the decoder produces the first output sample sooner. However, the decoder buffers fewer samples in this mode, which can potentially lead to glitches, because the decoder does not decode as many frames in advance. To enable low latency mode, set the [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md) attribute.
 -   **Seeking.** For precise seeking, call the [**IMFTransform::SetOutputBounds**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputbounds) method. When this method is called, the decoder outputs only frames that fall within the range of time stamps specified by the caller.
--   **Thumbnail generation mode**. This mode is intended for quick generation of thumbnail images. In this mode, the decoder initially decodes only I frames. If no I frame is found within a certain number of frames, the decoder starts decoding P frames and outputs non–I frames at a fixed interval (one per *N* pictures) until an I frame is reached. To enable thumbnail generation mode, set the [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx) property.
+-   **Thumbnail generation mode**. This mode is intended for quick generation of thumbnail images. In this mode, the decoder initially decodes only I frames. If no I frame is found within a certain number of frames, the decoder starts decoding P frames and outputs non–I frames at a fixed interval (one per *N* pictures) until an I frame is reached. To enable thumbnail generation mode, set the [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx) property.
 -   **Trick play.** The decoder can decode at rates faster than real time. At higher playback rates, the decoder will switch to decoding only I frames. For reverse playback, only I frames are decoded.
 
 ### Codec Properties
@@ -68,8 +68,8 @@ The decoder supports the following properties through the [**IMFTransform::GetAt
 
 | Property                                                                                                      | Description                                                                                                |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx)               | Enables or disables thumbnail generation mode.                                                             |
-| [CODECAPI\_AVDecVideoAcceleration\_MPEG2](https://msdn.microsoft.com/en-us/library/Dd742713(v=VS.85).aspx)                        | Enables or disables hardware accelerated decoding.                                                         |
+| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx)               | Enables or disables thumbnail generation mode.                                                             |
+| [CODECAPI\_AVDecVideoAcceleration\_MPEG2](https://msdn.microsoft.com/library/Dd742713(v=VS.85).aspx)                        | Enables or disables hardware accelerated decoding.                                                         |
 | [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)                                                   | Enables or disables low-latency mode.                                                                      |
 | [MFT\_DECODER\_EXPOSE\_OUTPUT\_TYPES\_IN\_NATIVE\_ORDER](mft-decoder-expose-output-types-in-native-order.md) | Specifies whether the decoder exposes output types that are suitable for transcoding before other formats. |
 
@@ -77,10 +77,10 @@ The decoder supports the following properties through the [**IMFTransform::GetAt
 
  
 
-Of these properties, the following can also be set through the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface:
+Of these properties, the following can also be set through the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface:
 
--   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx)
--   [CODECAPI\_AVDecVideoAcceleration\_MPEG2](https://msdn.microsoft.com/en-us/library/Dd742713(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoAcceleration\_MPEG2](https://msdn.microsoft.com/library/Dd742713(v=VS.85).aspx)
 -   [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)
 
 ### Limitations

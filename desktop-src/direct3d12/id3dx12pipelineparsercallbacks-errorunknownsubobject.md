@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks ErrorUnknownSubobject method
+title: ID3DX12PipelineParserCallbacks ErrorUnknownSubobject method (D3DX12.h)
 description: Calls the unknown subobject error callback of an object that implements this interface.
 ms.assetid: 612D7C44-4DC5-4DEA-B369-09C27123D45E
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

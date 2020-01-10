@@ -1,8 +1,8 @@
 ---
 Description: The StopStreaming method halts streaming when the filter switches out of the running state.
 ms.assetid: 465dde15-adec-46da-b8c8-56743e0cbd29
-title: CBaseRenderer.StopStreaming method
-ms.topic: article
+title: CBaseRenderer.StopStreaming method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

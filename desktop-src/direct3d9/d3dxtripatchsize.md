@@ -1,8 +1,8 @@
 ---
 Description: Gets the size of the triangle patch.
 ms.assetid: 3bfbed4c-59af-43eb-a462-478e89cfe9ae
-title: D3DXTriPatchSize function
-ms.topic: article
+title: D3DXTriPatchSize function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT D3DXTriPatchSize(
 *pfNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Number of segments per edge to tessellate.
 
@@ -49,7 +49,7 @@ Number of segments per edge to tessellate.
 *pdwTriangles* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a DWORD that contains the number of triangles in the patch.
 
@@ -58,7 +58,7 @@ Pointer to a DWORD that contains the number of triangles in the patch.
 *pdwVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a DWORD that contains the number of vertices in the triangle patch.
 
@@ -66,7 +66,7 @@ Pointer to a DWORD that contains the number of vertices in the triangle patch.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

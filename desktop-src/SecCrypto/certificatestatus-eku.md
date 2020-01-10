@@ -2,7 +2,7 @@
 Description: Returns the EKU object used to build the Chain object.
 ms.assetid: d02f1614-6a4f-4c60-b406-ce174a99e9a5
 title: CertificateStatus.EKU method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -36,7 +36,7 @@ This method has no parameters.
 
 ## Return value
 
-This method returns an [**EKU**](eku.md) object that indicates the extended key usage setting of the [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). The EKU setting establishes a certificate's valid use. Only a single **EKU** object can be set for each certificate.
+This method returns an [**EKU**](eku.md) object that indicates the extended key usage setting of the [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). The EKU setting establishes a certificate's valid use. Only a single **EKU** object can be set for each certificate.
 
 ## Remarks
 

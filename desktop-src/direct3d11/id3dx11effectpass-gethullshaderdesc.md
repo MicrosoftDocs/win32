@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectPass GetHullShaderDesc method
+title: ID3DX11EffectPass GetHullShaderDesc method (D3dx11effect.h)
 description: Get hull-shader description.
 ms.assetid: 1a683e61-da9a-4d78-8073-a6104625852b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to a hull-shader description (see [**D3DX11\_PASS\_SHADER\_DESC**](d3d
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

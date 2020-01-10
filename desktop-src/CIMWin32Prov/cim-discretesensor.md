@@ -3,7 +3,7 @@ Description: The CIM\_DiscreteSensor class has a set of legal string values that
 ms.assetid: 58ab5b4d-ff8b-4981-8f09-c9a255635110
 ms.tgt_platform: multiple
 title: CIM_DiscreteSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

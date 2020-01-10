@@ -1,5 +1,5 @@
 ---
-title: List Box Styles
+title: List Box Styles (Winuser.h)
 description: To create a list box by using the CreateWindow or CreateWindowEx function, use the LISTBOX class, appropriate window style constants, and the following style constants to define the list box.
 ms.assetid: bbf430f1-cdc1-4f87-b296-acf74cc6fc1b
 topic_type:
@@ -26,7 +26,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

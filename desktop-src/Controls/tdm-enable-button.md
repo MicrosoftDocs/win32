@@ -1,5 +1,5 @@
 ---
-title: TDM_ENABLE_BUTTON message
+title: TDM_ENABLE_BUTTON message (Commctrl.h)
 description: Enables or disables a push button in a task dialog.
 ms.assetid: 133fe4ac-4e2d-4826-8510-c0d9f88b5b37
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

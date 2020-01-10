@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_CAN_EJECT message
+title: MCIWNDM_CAN_EJECT message (Vfw.h)
 description: The MCIWNDM\_CAN\_EJECT message determines if an MCI device can eject its media. You can send this message explicitly or by using the MCIWndCanEject macro.
 ms.assetid: e9bd33c4-0ad8-4c0a-8b75-52011b58904d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

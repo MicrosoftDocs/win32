@@ -1,5 +1,5 @@
 ---
-title: RB_SETBKCOLOR message
+title: RB_SETBKCOLOR message (Commctrl.h)
 description: Sets a rebar control's default background color.
 ms.assetid: 450a1e16-24f6-4f86-8e46-14009da05efc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

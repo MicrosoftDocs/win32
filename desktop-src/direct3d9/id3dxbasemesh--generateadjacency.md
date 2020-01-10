@@ -1,8 +1,8 @@
 ---
 Description: Generate a list of mesh edges, as well as a list of faces that share each edge.
 ms.assetid: 9d52290f-1c9e-43a7-b239-35cd54e36466
-title: ID3DXBaseMesh::GenerateAdjacency method
-ms.topic: article
+title: ID3DXBaseMesh::GenerateAdjacency method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT GenerateAdjacency(
 *Epsilon* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies that vertices that differ in position by less than epsilon should be treated as coincident.
 
@@ -48,7 +48,7 @@ Specifies that vertices that differ in position by less than epsilon should be t
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face to be filled with the indices of adjacent faces. The number of bytes in this array must be at least 3 \* [**ID3DXBaseMesh::GetNumFaces**](id3dxbasemesh--getnumfaces.md) \* sizeof(DWORD).
 
@@ -56,7 +56,7 @@ Pointer to an array of three DWORDs per face to be filled with the indices of ad
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

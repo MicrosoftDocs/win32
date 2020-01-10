@@ -1,8 +1,8 @@
 ---
 Description: Specifies the identifier for the audio endpoint device.
 ms.assetid: f145fb80-c136-421c-9a65-e69c52109348
-title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ID attribute
-ms.topic: article
+title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ID attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,10 +23,10 @@ You can use this attribute to configure the audio renderer. The usage depends on
 
 An audio endpoint device is a hardware device that lies at one end of an audio data path, such as a headphone or a speaker. To obtain the audio endpoint identifier, use the following core audio APIs:
 
--   Use the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/en-us/library/Dd371399(v=VS.85).aspx) interface to enumerate the devices on the system.
--   Call [**IMMDevice::GetId**](https://msdn.microsoft.com/en-us/library/Dd371407(v=VS.85).aspx) to get the identifier for the device.
+-   Use the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/library/Dd371399(v=VS.85).aspx) interface to enumerate the devices on the system.
+-   Call [**IMMDevice::GetId**](https://msdn.microsoft.com/library/Dd371407(v=VS.85).aspx) to get the identifier for the device.
 
-For more information, see the [Core Audio](https://msdn.microsoft.com/en-us/library/Dd370802(v=VS.85).aspx) API documentation. If this attribute is not set, the audio renderer uses the default endpoint device.
+For more information, see the [Core Audio](https://msdn.microsoft.com/library/Dd370802(v=VS.85).aspx) API documentation. If this attribute is not set, the audio renderer uses the default endpoint device.
 
 If this attribute is set, do not set the [**MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ROLE**](mf-audio-renderer-attribute-endpoint-role-attribute.md) attribute. If both attributes are set, a failure will occur when the audio renderer is created.
 

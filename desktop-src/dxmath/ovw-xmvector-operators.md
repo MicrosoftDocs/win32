@@ -2,7 +2,7 @@
 Description: The following operators are exposed by the XMVECTOR structure.
 ms.assetid: 16fc1276-7bed-4e6f-8af5-d871afa73b68
 title: XMVECTOR Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ The following operators are exposed by the [**XMVECTOR**](xmvector-data-type.md)
 
 | Methods                                                    | Description                                                                                                                                 |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator +=**](https://msdn.microsoft.com/en-us/library/Ee421394(v=VS.85).aspx)<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
+| [**operator +=**](https://msdn.microsoft.com/library/Ee421394(v=VS.85).aspx)<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
 | [**operator -=**](https://msdn.microsoft.com/library/Ee421383(v=VS.85).aspx)<br/>    | Subtracts a floating point value from the current instance of `XMVECTOR`, returning the result in the updated current instance. <br/> |
 | [**operator \***](xmvector-operator-mul.md)<br/>    | Multiplication operators<br/>                                                                                                         |
 | [**operator \*=**](xmvector-operator-muleq.md)<br/> | Multiplication assignment operators<br/>                                                                                              |

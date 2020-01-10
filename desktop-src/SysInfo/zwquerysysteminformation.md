@@ -2,7 +2,7 @@
 Description: Retrieves the specified system information.
 ms.assetid: c91b9a35-ca2b-4d81-973d-fe709144df90
 title: ZwQuerySystemInformation function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -54,7 +54,7 @@ The type of system information to be retrieved. This parameter can be one of the
 
 </dt> <dd>
 
-The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx) function instead.
+The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx) function instead.
 
 </dd> <dt>
 
@@ -172,7 +172,7 @@ typedef struct _SYSTEM_BASIC_INFORMATION {
 } SYSTEM_BASIC_INFORMATION;
 ```
 
-The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx) instead to retrieve this information.
+The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx) instead to retrieve this information.
 
 The other members of the structure are reserved for internal use by the operating system.
 
@@ -284,7 +284,7 @@ The **KernelTime** member contains the amount of time that the system has spent 
 
 The **UserTime** member contains the amount of time that the system has spent executing in User mode (including all threads in all processes, on all processors), in 1/100ths of a nanosecond.
 
-Use [**GetSystemTimes**](https://msdn.microsoft.com/en-us/library/ms724400(v=VS.85).aspx) instead to retrieve this information.
+Use [**GetSystemTimes**](https://msdn.microsoft.com/library/ms724400(v=VS.85).aspx) instead to retrieve this information.
 
 </dd> <dt>
 
@@ -420,7 +420,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 <dl> <dt>
 
-[**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx)
+[**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetProcessHandleCount**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount)
@@ -429,7 +429,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 [**GetProcessMemoryInfo**](https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo)
 </dt> <dt>
 
-[**GetSystemTimes**](https://msdn.microsoft.com/en-us/library/ms724400(v=VS.85).aspx)
+[**GetSystemTimes**](https://msdn.microsoft.com/library/ms724400(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetSystemRegistryQuota**](/windows/desktop/api/Winbase/nf-winbase-getsystemregistryquota)

@@ -10,7 +10,7 @@ api_name:
 - D1112 Device Must Be DX11
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---

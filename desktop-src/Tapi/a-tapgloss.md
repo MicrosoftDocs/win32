@@ -1,8 +1,8 @@
 ---
 Description: The following terms are useful in understanding the TAPI technology.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3089d918-78fe-4794-8ba3-3885025cb9c4
-title: A
+title: A (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -23,7 +23,7 @@ A Bellcore standard defining a protocol on the flow of information between a swi
 <span id="tapi2.assisted_telephony_tapgloss"></span><span id="TAPI2.ASSISTED_TELEPHONY_TAPGLOSS"></span>**Assisted Telephony**
 </dt> <dd>
 
-The set of functions that are not just dedicated to telephonic functionality, but are designed to make the establishment of voice calls and media calls available to any application. For additional information, see [Assisted Telephony](https://msdn.microsoft.com/en-us/library/ms726209(v=VS.85).aspx) in the telephony overview. See [*Basic Telephony*](b-tapgloss.md), [*Extended Telephony*](e-tapgloss.md), [*Supplementary Telephony*](s-tapgloss.md).
+The set of functions that are not just dedicated to telephonic functionality, but are designed to make the establishment of voice calls and media calls available to any application. For additional information, see [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx) in the telephony overview. See [*Basic Telephony*](b-tapgloss.md), [*Extended Telephony*](e-tapgloss.md), [*Supplementary Telephony*](s-tapgloss.md).
 
 </dd> <dt>
 

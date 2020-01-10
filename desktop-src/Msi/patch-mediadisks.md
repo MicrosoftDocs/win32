@@ -2,7 +2,7 @@
 Description: The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as array of Record objects.
 ms.assetid: 02faf211-16c8-4d2f-b192-c2ce8f3f2c66
 title: Patch.MediaDisks property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

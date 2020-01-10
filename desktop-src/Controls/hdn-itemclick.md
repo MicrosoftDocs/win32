@@ -1,5 +1,5 @@
 ---
-title: HDN_ITEMCLICK notification code
+title: HDN_ITEMCLICK notification code (Commctrl.h)
 description: Notifies a header control's parent window that the user clicked the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 25ed0070-5891-4f36-9ae0-fc04e064401f
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

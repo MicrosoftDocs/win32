@@ -1,8 +1,8 @@
 ---
 Description: Gets a pass description.
 ms.assetid: 44c65a82-bcf4-49f5-9312-8320e133bb2f
-title: ID3DXBaseEffect::GetPassDesc method
-ms.topic: article
+title: ID3DXBaseEffect::GetPassDesc method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Returns a description of the specified pass. See [**D3DXPASS\_DESC**](d3dxpass-d
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnection interface
+title: IVMHardDiskConnection interface (VPCCOMInterfaces.h)
 description: Defines the connection for a hard disk within the virtual machine.
 ms.assetid: 7ba1ace5-a3af-4b97-b329-f12a0ecbf7d3
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the connection for a hard disk within the virtual machine. An **IVMHardD
 
 ## Members
 
-The **IVMHardDiskConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnection** also has these types of members:
+The **IVMHardDiskConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

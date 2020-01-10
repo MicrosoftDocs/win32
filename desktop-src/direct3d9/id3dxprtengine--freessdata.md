@@ -1,8 +1,8 @@
 ---
 Description: Frees memory used for temporary subsurface light scattering simulation data.
 ms.assetid: c85643bf-4a6d-452a-9cd8-17f919123307
-title: ID3DXPRTEngine::FreeSSData method
-ms.topic: article
+title: ID3DXPRTEngine::FreeSSData method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is D3D\_OK.
 

@@ -1,5 +1,5 @@
 ---
-title: PSM_ADDPAGE message
+title: PSM_ADDPAGE message (Prsht.h)
 description: Adds a new page to the end of an existing property sheet. You can send this message explicitly or by using the PropSheet\_AddPage macro.
 ms.assetid: 41f9a09e-6de6-466b-bdfa-c8c4e8f193e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 The new page should be no larger than the largest page currently in the property sheet because the property sheet is not resized to fit the new page.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the PSM\_ADDPAGE message in your implementation of [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) or while handling the following notifications and Windows messages.
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the PSM\_ADDPAGE message in your implementation of [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx) or while handling the following notifications and Windows messages.
 
 -   [PSN\_APPLY](psn-apply.md)
 -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -55,7 +55,7 @@ A number of messages and one function call occur while the property sheet is man
 -   [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy)
 -   [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog)
 
-If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
+If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 
 ## Requirements
 

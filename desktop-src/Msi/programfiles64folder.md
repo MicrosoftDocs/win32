@@ -2,7 +2,7 @@
 Description: The installer sets the ProgramFiles64Folder property to the full path of the predefined 64-bit Program Files folder. The existing ProgramFilesFolder property is set to the corresponding 32-bit folder.
 ms.assetid: 9301628a-3d56-4d0a-aab5-88663742daa1
 title: ProgramFiles64Folder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

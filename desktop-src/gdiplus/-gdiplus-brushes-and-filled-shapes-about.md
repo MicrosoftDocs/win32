@@ -21,7 +21,7 @@ A closed figure such as a rectangle or an ellipse consists of an outline and an 
 
 ## Solid Brushes
 
-To fill a closed shape, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Brush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush) object. The **Graphics** object provides methods, such as [FillRectangle](https://msdn.microsoft.com/en-us/library/ms535773(v=VS.85).aspx) and [FillEllipse](https://msdn.microsoft.com/en-us/library/ms535767(v=VS.85).aspx), and the **Brush** object stores attributes of the fill, such as color and pattern. The address of the **Brush** object is passed as one of the arguments to the fill method. The following example fills an ellipse with a solid red color.
+To fill a closed shape, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Brush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush) object. The **Graphics** object provides methods, such as [FillRectangle](https://msdn.microsoft.com/library/ms535773(v=VS.85).aspx) and [FillEllipse](https://msdn.microsoft.com/library/ms535767(v=VS.85).aspx), and the **Brush** object stores attributes of the fill, such as color and pattern. The address of the **Brush** object is passed as one of the arguments to the fill method. The following example fills an ellipse with a solid red color.
 
 
 ```

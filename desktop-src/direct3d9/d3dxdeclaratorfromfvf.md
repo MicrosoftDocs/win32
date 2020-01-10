@@ -1,8 +1,8 @@
 ---
 Description: Returns a declarator from a flexible vertex format (FVF) code.
 ms.assetid: 0272239c-0873-4a5c-b046-541f4ba603f4
-title: D3DXDeclaratorFromFVF function
-ms.topic: article
+title: D3DXDeclaratorFromFVF function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT D3DXDeclaratorFromFVF(
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Combination of [D3DFVF](d3dfvf.md) that describes the FVF from which to generate the returned declarator array.
 
@@ -50,13 +50,13 @@ Combination of [D3DFVF](d3dfvf.md) that describes the FVF from which to generate
 
 Type: **[**D3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/en-us/library/Bb147183(v=VS.85).aspx).
+An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/library/Bb147183(v=VS.85).aspx).
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DXERR\_INVALIDMESH.
 

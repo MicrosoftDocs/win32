@@ -1,8 +1,8 @@
 ---
 Description: Acquires a byte pointer to the HGLOBAL memory block that is managed by the IStream COM interface.
 ms.assetid: ea25eb98-b841-4f5e-b428-3d9cb8176142
-title: ISCardTypeConv::GetAtIStreamMemory method
-ms.topic: article
+title: ISCardTypeConv::GetAtIStreamMemory method (Scarddat.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # ISCardTypeConv::GetAtIStreamMemory method
 
-\[The **GetAtIStreamMemory** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **GetAtIStreamMemory** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
 The **GetAtIStreamMemory** method acquires a byte pointer to the HGLOBAL memory block that is managed by the **IStream** COM interface.
 

@@ -1,8 +1,8 @@
 ---
 Description: A relationship that indicates that two or more devices are connected together.
 ms.assetid: 84282740-f60f-46fa-95b7-b52a7e6efcc4
-title: CIM_DeviceConnection class
-ms.topic: article
+title: CIM_DeviceConnection class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Gets the free disk space.
 ms.assetid: 4b7f4938-9918-4625-b28d-faf22de56976
 title: '_GetDiskFreeSpaceEx function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **GetDiskFreeSpaceEx** function. This function may be altered or unavailable in the future. Applications should call **GetDiskFreeSpaceEx** directly.\]
 
-Gets the free disk space. See [**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/en-us/library/Aa364937(v=VS.85).aspx).
+Gets the free disk space. See [**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/library/Aa364937(v=VS.85).aspx).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ BOOL _GetDiskFreeSpaceEx(
 
 <dl> <dt>
 
-[**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/en-us/library/Aa364937(v=VS.85).aspx)
+[**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/library/Aa364937(v=VS.85).aspx)
 </dt> </dl>
 
  

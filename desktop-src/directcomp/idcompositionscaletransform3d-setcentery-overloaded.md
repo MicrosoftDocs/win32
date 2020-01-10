@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform3D SetCenterY methods
+title: IDCompositionScaleTransform3D SetCenterY methods (Dcomp.h)
 description: Changes or animates the value of the CenterY property of a 3D scale transform.
 ms.assetid: C650032E-3344-4BE8-9018-F57EFECEBF61
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform3D::SetCenterY methods
@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a 3D scale transform. T
 
 | Method                                                                                                          | Description                                            |
 |:----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/en-us/library/Hh449002(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449004(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh449002(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449004(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,13 +47,13 @@ Changes or animates the value of the CenterY property of a 3D scale transform. T
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDCompositionScaleTransform3D::SetCenterX**](idcompositionscaletransform3d-setcenterx-overloaded.md)
 </dt> <dt>
 
-[**IDCompositionScaleTransform3D::SetCenterZ**](https://msdn.microsoft.com/en-us/library/Hh449012(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D::SetCenterZ**](https://msdn.microsoft.com/library/Hh449012(v=VS.85).aspx)
 </dt> </dl>
 
 �

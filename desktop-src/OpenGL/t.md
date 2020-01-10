@@ -1,7 +1,7 @@
 ---
-title: T
+title: T (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter T.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'effb170b-fea3-4954-9f9c-3bc1aa829bc0'
 keywords:
 - tessellation

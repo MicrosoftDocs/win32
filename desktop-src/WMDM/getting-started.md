@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Getting started with WMDM
 description: Getting Started
 ms.assetid: 0af11e8e-ddfd-4178-aca9-61bb74a2d144
 keywords:
@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting started with WMDM
 
 This section provides the basic information you need to get started developing applications and service providers that use Windows Media Device Manager. This section includes the following topics.
 

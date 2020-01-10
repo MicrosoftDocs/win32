@@ -1,5 +1,5 @@
 ---
-title: PBM_GETBARCOLOR message
+title: PBM_GETBARCOLOR message (Commctrl.h)
 description: Gets the color of the progress bar.
 ms.assetid: d046f7e4-e21e-4dd9-a7be-2bf820c3c492
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

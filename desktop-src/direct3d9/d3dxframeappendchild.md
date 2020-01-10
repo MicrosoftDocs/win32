@@ -1,8 +1,8 @@
 ---
 Description: Adds a child frame to a frame.
 ms.assetid: a04c9bbe-8e54-467a-8e02-27c6469f4dac
-title: D3DXFrameAppendChild function
-ms.topic: article
+title: D3DXFrameAppendChild function (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to the child node.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

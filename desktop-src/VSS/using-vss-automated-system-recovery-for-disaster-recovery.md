@@ -67,7 +67,7 @@ In the backup initialization phase, the ASR writer reports the following types o
 
      
 
--   Disks. Every fixed disk on the computer is exposed as a component in ASR. If a disk was not excluded during backup, it will be assigned during restore and can be re-created and reformatted. Note that during restore, the requester can still re-create a disk that was excluded during backup by calling the [**IVssBackupComponents::SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) method. If one disk in a dynamic disk pack is selected, all other disks in that pack must also be selected. If a volume is selected because it is a critical volume (that is, a volume that contains system state information), every disk that contains an extent for that volume must also be selected. To find the extents for a volume, use the [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](https://msdn.microsoft.com/en-us/library/Aa365194(v=VS.85).aspx) control code.
+-   Disks. Every fixed disk on the computer is exposed as a component in ASR. If a disk was not excluded during backup, it will be assigned during restore and can be re-created and reformatted. Note that during restore, the requester can still re-create a disk that was excluded during backup by calling the [**IVssBackupComponents::SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) method. If one disk in a dynamic disk pack is selected, all other disks in that pack must also be selected. If a volume is selected because it is a critical volume (that is, a volume that contains system state information), every disk that contains an extent for that volume must also be selected. To find the extents for a volume, use the [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](https://msdn.microsoft.com/library/Aa365194(v=VS.85).aspx) control code.
 
     > [!Note]  
     > During backup, the requester should include all fixed disks. If the disk that contains the requester's backup set is a local disk, this disk should be included. During restore, the requester must exclude the disk that contains the requester's backup set to prevent it from being overwritten.
@@ -76,7 +76,7 @@ In the backup initialization phase, the ASR writer reports the following types o
 
     In a clustering environment, ASR does not re-create the layout of the cluster's shared disks. Those disks should be restored online after the operating system is restored in the Windows RE.
 
--   Boot Configuration Data (BCD) store. This component specifies the path of the directory that contains the BCD store. The requester must specify this component and back up all of the files in the BCD store directory. For more information about the BCD store, see [About BCD](https://msdn.microsoft.com/en-us/library/Aa362639(v=VS.85).aspx).
+-   Boot Configuration Data (BCD) store. This component specifies the path of the directory that contains the BCD store. The requester must specify this component and back up all of the files in the BCD store directory. For more information about the BCD store, see [About BCD](https://msdn.microsoft.com/library/Aa362639(v=VS.85).aspx).
     > [!Note]  
     > On computers that use the Extended Firmware Interface (EFI), the EFI System Partition (ESP) is always hidden and cannot be included in a volume shadow copy. The requester must back up the contents of this partition. Because this partition cannot be included in a volume shadow copy, the backup can only be performed from the live volume, not from the shadow copy. For more information about EFI and ESP, see [Bring up guide](https://go.microsoft.com/fwlink/p/?linkid=86780).
 
@@ -86,7 +86,7 @@ The component names use the following formats:
 
     <COMPONENT logicalPath="Disks" componentName="harddisk*n*" componentType="filegroup" />
 
-    where *n* is the disk number. Only the disk number is recorded. To get the disk number, use the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](https://msdn.microsoft.com/en-us/library/Bb968800(v=VS.85).aspx) control code.
+    where *n* is the disk number. Only the disk number is recorded. To get the disk number, use the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](https://msdn.microsoft.com/library/Bb968800(v=VS.85).aspx) control code.
 
 -   For volume components, the format is
 
@@ -129,8 +129,8 @@ In the [**PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomp
     -   For GPT disks, the partition identifier is not changed.
 -   A dynamic disk is not re-created if its disk layout is intact or only additive changes have been made to it. For a dynamic disk to be intact, all of the conditions for a basic disk must be met. In addition, the entire disk pack's volume structure must be intact. The disk pack's volume structure is intact if it meets the following conditions, which apply to both MBR and GPT disks:
     -   The number of volumes that are available in the physical pack during restore must be greater than or equal to the number of volumes that were specified in the ASR writer metadata during backup.
-    -   The number of [*plexes*](https://msdn.microsoft.com/en-us/library/Aa383960(v=VS.85).aspx) per volume must be unchanged.
-    -   The number of [*members*](https://msdn.microsoft.com/en-us/library/Aa383960(v=VS.85).aspx) must be unchanged.
+    -   The number of [*plexes*](https://msdn.microsoft.com/library/Aa383960(v=VS.85).aspx) per volume must be unchanged.
+    -   The number of [*members*](https://msdn.microsoft.com/library/Aa383960(v=VS.85).aspx) must be unchanged.
     -   The number of physical disk extents must be greater than the number of disk extents specified in the ASR writer metadata.
     -   An intact pack remains intact when additional volumes are added, or if a volume in the pack is extended (for example, from a simple volume to a spanned volume).
         > [!Note]  

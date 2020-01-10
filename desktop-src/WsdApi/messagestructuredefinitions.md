@@ -2,7 +2,7 @@
 Description: Generates C structure definitions for message types.
 ms.assetid: 68459b22-0f35-444a-969e-29695e735774
 title: messageStructureDefinitions element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

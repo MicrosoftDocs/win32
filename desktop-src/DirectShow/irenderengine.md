@@ -1,8 +1,8 @@
 ---
 Description: The IRenderEngine interface renders a DirectShow Editing Services (DES) project by constructing a filter graph from a timeline.DES provides two components that implement this interface:The basic render engine creates uncompressed output.
 ms.assetid: e2a91b34-ee4d-405e-81bf-29d15ea6342a
-title: IRenderEngine interface
-ms.topic: interface
+title: IRenderEngine interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ Although an application can create a filter graph and pass it to a render engine
 
 ## Members
 
-The **IRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IRenderEngine** also has these types of members:
+The **IRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IRenderEngine** also has these types of members:
 
 -   [Methods](#methods)
 

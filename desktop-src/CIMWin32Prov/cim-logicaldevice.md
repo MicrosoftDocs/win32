@@ -2,8 +2,8 @@
 Description: The CIM\_LogicalDevice class represents a hardware entity that may or may not be realized in physical hardware.
 ms.assetid: 4f3d38ff-8080-4b53-ae29-82b68558c550
 ms.tgt_platform: multiple
-title: CIM_LogicalDevice class
-ms.topic: article
+title: CIM_LogicalDevice class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: gluProject function
+title: gluProject function (Glu.h)
 description: The gluProject function maps object coordinates to window coordinates.
 ms.assetid: cfd8bc5b-b684-4207-8bdb-bf086858da13
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

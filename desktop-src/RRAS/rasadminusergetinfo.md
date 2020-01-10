@@ -1,5 +1,5 @@
 ---
-title: RasAdminUserGetInfo function
+title: RasAdminUserGetInfo function (Rassapi.h)
 description: The RasAdminUserGetInfo function gets the RAS permissions and callback phone number information for a specified user.
 ms.assetid: 178ff775-9cd2-43f0-9a9a-dbae337c5fe8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

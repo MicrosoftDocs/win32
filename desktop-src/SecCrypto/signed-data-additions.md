@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following changes have been made to signed data capabilities:
 
--   Nondata [*inner content*](https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx) is encapsulated in an OCTET STRING.
+-   Nondata [*inner content*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx) is encapsulated in an OCTET STRING.
 -   Provision is made for different message versions.
 -   Signers can be identified either by Issuer and Serial Number, as in PKCS \#7 1.5, or by Subject key identifier.
 -   Multiple signers are allowed.

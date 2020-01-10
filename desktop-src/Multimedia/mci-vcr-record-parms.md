@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_RECORD_PARMS structure
+title: MCI_VCR_RECORD_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_RECORD\_PARMS structure contains parameters for the MCI\_RECORD command for video-cassette recorders.
 ms.assetid: a95a6dab-9854-4c44-989a-032dff680106
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -70,7 +70,7 @@ Time value that affects the [**MCI\_RECORD**](mci-record.md) or [**MCI\_CUE**](m
 
 Positions are specified in the current time format.
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -100,7 +100,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_RECORD**](mci-record.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

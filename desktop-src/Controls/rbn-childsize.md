@@ -1,5 +1,5 @@
 ---
-title: RBN_CHILDSIZE notification code
+title: RBN_CHILDSIZE notification code (Commctrl.h)
 description: Sent by a rebar control when a band's child window is resized. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ba64d21a-e568-4894-8007-be644ae4f54a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

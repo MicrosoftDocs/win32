@@ -1,7 +1,7 @@
 ---
 Description: When developing an application that uses Microsoft Windows HTTP Services (WinHTTP), it is important to understand the following concepts and terminology that relate to networking in general and the HTTP protocol in particular.
 ms.assetid: 6ea0c16f-1233-4580-97bb-14e224646857
-title: Network Terminology
+title: Network Terminology (WinHTTP)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -57,7 +57,7 @@ An asynchronous model, on the other hand, allows an application to perform other
 
 Authentication is the process by which an HTTP proxy or HTTP server validates a user's login information before it allows access to resources. Various authentication schemes are used on the Internet. Usually a user's name and password are compared against an authorized list, and if the system detects a match, access is granted to the extent specified in the permission list for the user.
 
-WinHTTP functions support both server and proxy authentication for HTTP sessions. WinHTTP supports the following authentication schemes: Basic, Digest (see [RFC 2617](https://go.microsoft.com/fwlink/p/?linkid=84049)), [NTLM Authentication](https://msdn.microsoft.com/en-us/library/ms691272(v=VS.85).aspx), Negotiate/ [Kerberos](https://msdn.microsoft.com/en-us/library/ms690406(v=VS.85).aspx), and Microsoft Passport 1.4. For detailed information on authentication, as well as an example of using authentication in a Microsoft Visual C++ application, see [Authentication in WinHTTP](authentication-in-winhttp.md).
+WinHTTP functions support both server and proxy authentication for HTTP sessions. WinHTTP supports the following authentication schemes: Basic, Digest (see [RFC 2617](https://go.microsoft.com/fwlink/p/?linkid=84049)), [NTLM Authentication](https://msdn.microsoft.com/library/ms691272(v=VS.85).aspx), Negotiate/ [Kerberos](https://msdn.microsoft.com/library/ms690406(v=VS.85).aspx), and Microsoft Passport 1.4. For detailed information on authentication, as well as an example of using authentication in a Microsoft Visual C++ application, see [Authentication in WinHTTP](authentication-in-winhttp.md).
 
 For information about security considerations regarding Basic and Passport authentication, see [WinHTTP Security Considerations](winhttp-security-considerations.md).
 

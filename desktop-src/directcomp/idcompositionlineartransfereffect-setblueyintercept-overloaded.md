@@ -1,5 +1,5 @@
 ---
-title: IDCompositionLinearTransferEffect SetBlueYIntercept methods
+title: IDCompositionLinearTransferEffect SetBlueYIntercept methods (Dcomp.h)
 description: Sets the Y-intercept of the linear function for the blue channel.
 ms.assetid: 34bff151-4844-73fa-8e7e-9a542373b820
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionLinearTransferEffect::SetBlueYIntercept methods
@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the blue channel.
 
 | Method                                                                                                         | Description                                                                  |
 |:---------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**SetBlueYIntercept**](https://msdn.microsoft.com/en-us/library/Dn919750(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the blue channel.<br/> |
-| [**SetBlueYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919751(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the blue channel.<br/> |
+| [**SetBlueYIntercept**](https://msdn.microsoft.com/library/Dn919750(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the blue channel.<br/> |
+| [**SetBlueYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919751(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the blue channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the Y-intercept of the linear function for the blue channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

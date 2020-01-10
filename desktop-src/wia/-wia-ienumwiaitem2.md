@@ -1,8 +1,8 @@
 ---
 Description: Used by applications to enumerate IWiaItem2 objects in the item tree's current folder.
 ms.assetid: a82298e0-fbe7-4ef5-99c5-18ff60538e03
-title: IEnumWiaItem2 interface
-ms.topic: interface
+title: IEnumWiaItem2 interface (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ Used by applications to enumerate [**IWiaItem2**](-wia-iwiaitem2.md) objects in 
 
 ## Members
 
-The **IEnumWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IEnumWiaItem2** also has these types of members:
+The **IEnumWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IEnumWiaItem2** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -2,7 +2,7 @@
 Description: Locates a resource.
 ms.assetid: eb105299-fd5a-48a1-be8c-11979c38f1cd
 title: '_FindResource function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

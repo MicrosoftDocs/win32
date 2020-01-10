@@ -3,7 +3,7 @@ Description: Copies the logical shortcut file or directory specified in the obje
 ms.assetid: 06b629bb-d35e-4bc2-b0e5-c6a981b6d968
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

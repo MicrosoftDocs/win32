@@ -3,7 +3,7 @@ Description: The Win32\_DeviceSettings abstract, association WMI class relates a
 ms.assetid: 4f6c4c26-8da9-4e2c-8b8c-cec658ac08d4
 ms.tgt_platform: multiple
 title: Win32_DeviceSettings class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

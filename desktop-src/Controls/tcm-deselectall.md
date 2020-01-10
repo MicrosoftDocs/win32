@@ -1,5 +1,5 @@
 ---
-title: TCM_DESELECTALL message
+title: TCM_DESELECTALL message (Commctrl.h)
 description: Resets items in a tab control, clearing any that were set to the TCIS\_BUTTONPRESSED state. You can send this message explicitly or by using the TabCtrl\_DeselectAll macro.
 ms.assetid: cc2e5131-3c1b-473a-a0ca-274a2d39a2f1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

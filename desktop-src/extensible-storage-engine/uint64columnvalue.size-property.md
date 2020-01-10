@@ -5,7 +5,7 @@ ms:assetid: P:Microsoft.Isam.Esent.Interop.UInt64ColumnValue.Size
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint64columnvalue.size(v=EXCHG.10)
 ms:contentKeyID: 55104194
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.UInt64ColumnValue.Size
 dev_langs:

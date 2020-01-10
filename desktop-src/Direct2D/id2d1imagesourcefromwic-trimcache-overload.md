@@ -1,5 +1,5 @@
 ---
-title: ID2D1ImageSourceFromWic TrimCache methods
+title: ID2D1ImageSourceFromWic TrimCache methods (D2d1\_3.h)
 description: Trims the populated regions of the image source cache to just the specified rectangle.
 ms.assetid: 04e6e010-3642-6775-8a95-f20ff0461b09
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1ImageSourceFromWic::TrimCache methods
@@ -24,8 +24,8 @@ Trims the populated regions of the image source cache to just the specified rect
 
 | Method                                                                    | Description                                                                                                   |
 |:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [**TrimCache (D2D1\_RECT\_U\*)**](https://msdn.microsoft.com/en-us/library/Dn900423(v=VS.85).aspx)  | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
-| [**TrimCache (D2D1\_RECT\_U&)**](https://msdn.microsoft.com/en-us/library/Dn900424(v=VS.85).aspx) | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
+| [**TrimCache (D2D1\_RECT\_U\*)**](https://msdn.microsoft.com/library/Dn900423(v=VS.85).aspx)  | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
+| [**TrimCache (D2D1\_RECT\_U&)**](https://msdn.microsoft.com/library/Dn900424(v=VS.85).aspx) | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Trims the populated regions of the image source cache to just the specified rect
 
 <dl> <dt>
 
-[**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx)
+[**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/library/Dn900414(v=VS.85).aspx)
 </dt> </dl>
 
 �

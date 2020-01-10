@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk interface
+title: IVMHardDisk interface (VPCCOMInterfaces.h)
 description: Provides access to a hard disk image. It can be accessed through the IVMHardDiskConnection HardDisk property or the IVMVirtualPC GetHardDisk method.
 ms.assetid: 0c536906-91be-428a-8199-c452abef423d
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Provides access to a hard disk image. It can be accessed through the [**IVMHardD
 
 ## Members
 
-The **IVMHardDisk** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHardDisk** also has these types of members:
+The **IVMHardDisk** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHardDisk** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

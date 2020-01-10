@@ -1,5 +1,5 @@
 ---
-title: PSN_QUERYINITIALFOCUS notification code
+title: PSN_QUERYINITIALFOCUS notification code (Prsht.h)
 description: Sent by a property sheet to provide a property sheet page an opportunity to specify which dialog box control should receive the initial focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 29b5e598-75b2-4b6f-acdb-171b1f7a1850
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

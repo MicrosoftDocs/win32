@@ -1,17 +1,17 @@
 ---
-title: Structures
+title: Structures (HLSL reference)
 description: This section contains information about the following Direct3D HLSL compiler structures
 ms.assetid: 1439305e-5620-40f9-a6cb-17eed6689b29
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
 ---
 
-# Structures
+# Structures (HLSL reference)
 
 This section contains information about the following Direct3D HLSL compiler structures:
 

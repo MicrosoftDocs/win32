@@ -1,8 +1,8 @@
 ---
 Description: Saves templates to a DirectX file. Deprecated.
 ms.assetid: 7a45565a-8c04-4fa1-a424-294b847d3a2f
-title: IDirectXFileSaveObject::SaveTemplates method
-ms.topic: article
+title: IDirectXFileSaveObject::SaveTemplates method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SaveTemplates(
 *cTemplates* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Total number of templates to save.
 
@@ -56,7 +56,7 @@ Address of a pointer to an array of the GUIDs for all templates to save.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be DXFILEERR\_BADVALUE.
 

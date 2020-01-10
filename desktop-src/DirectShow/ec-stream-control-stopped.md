@@ -1,8 +1,8 @@
 ---
 Description: A stream-control stop command has taken effect.
 ms.assetid: a2f7a959-fafd-47ff-9b3d-1a898fdb1f81
-title: EC_STREAM_CONTROL_STOPPED
-ms.topic: article
+title: EC_STREAM_CONTROL_STOPPED (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

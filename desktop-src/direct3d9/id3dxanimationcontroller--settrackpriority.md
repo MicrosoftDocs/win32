@@ -1,8 +1,8 @@
 ---
 Description: Sets the priority blending weight for the specified animation track.
 ms.assetid: 8d40b0f6-d79a-42c1-99fb-3f76bd46f30c
-title: ID3DXAnimationController::SetTrackPriority method
-ms.topic: article
+title: ID3DXAnimationController::SetTrackPriority method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetTrackPriority(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Track identifier.
 
@@ -48,15 +48,15 @@ Track identifier.
 *Priority* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205401(v=VS.85).aspx)**
+Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/library/Bb205401(v=VS.85).aspx)**
 
-Track priority. This parameter should be set to one of the constants from [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205401(v=VS.85).aspx).
+Track priority. This parameter should be set to one of the constants from [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/library/Bb205401(v=VS.85).aspx).
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

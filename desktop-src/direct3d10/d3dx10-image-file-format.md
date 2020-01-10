@@ -1,8 +1,8 @@
 ---
 Description: Image file formats supported by D3DXCreatexxx and D3DX10Savexxx functions.
 ms.assetid: 39602f3c-5c91-4667-96d0-c3bdba712d88
-title: D3DX10_IMAGE_FILE_FORMAT enumeration
-ms.topic: enumeration
+title: D3DX10_IMAGE_FILE_FORMAT enumeration (D3DX10Tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -88,7 +88,7 @@ Graphics Interchange Format (GIF).The file extension for this format is .gif.
 
 Windows Media Photo format (WMP). This format is also known as HD Photo and JPEG XR. The file extensions for this format are .hdp, .jxr, and .wdp.
 
-To work properly, **D3DX10\_IFF\_WMP** requires that you initialize COM. Therefore, call [**CoInitialize**](https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx) or [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) in your application before you call D3DX.
+To work properly, **D3DX10\_IFF\_WMP** requires that you initialize COM. Therefore, call [**CoInitialize**](https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx) or [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) in your application before you call D3DX.
 
 </dd> <dt>
 
@@ -101,9 +101,9 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-See [Types of Bitmaps (GDI+)](https://msdn2.microsoft.com/en-us/library/ms536393.aspx) for more information on some of these formats.
+See [Types of Bitmaps (GDI+)](https://msdn2.microsoft.com/library/ms536393.aspx) for more information on some of these formats.
 
-D3DX10 makes use of the Windows Imaging Component to implement the majority of the supported bitmap file types. See [Windows Imaging Component Overview](https://msdn.microsoft.com/en-us/library/ms737408.aspx) for additional information.
+D3DX10 makes use of the Windows Imaging Component to implement the majority of the supported bitmap file types. See [Windows Imaging Component Overview](https://msdn.microsoft.com/library/ms737408.aspx) for additional information.
 
 ## Requirements
 

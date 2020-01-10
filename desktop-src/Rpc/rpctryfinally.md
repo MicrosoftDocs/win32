@@ -1,5 +1,5 @@
 ---
-title: RpcTryFinally
+title: RpcTryFinally (Rpc.h)
 description: The RpcTryFinally statement provides structured termination handling.
 ms.assetid: e9ed748a-db15-4c91-b8a4-b510f99042d8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rpc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

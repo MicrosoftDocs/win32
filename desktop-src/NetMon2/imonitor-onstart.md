@@ -1,8 +1,8 @@
 ---
 Description: The OnStart method is an optional method that can be implemented by the monitor. The MCSVC calls this method to request that the monitor start the capture.
 ms.assetid: 992ee27e-aaba-4e65-989b-e3f0fbd542ea
-title: IMonitor::OnStart method
-ms.topic: article
+title: IMonitor::OnStart method (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ HRESULT OnStart(
 *pUnkNPP* \[in\]
 </dt> <dd>
 
-An [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer to the [IRTC](irtc.md) interface. The monitor can use this interface to obtain statistics that can be used to determine if the capture should be started.
+An [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer to the [IRTC](irtc.md) interface. The monitor can use this interface to obtain statistics that can be used to determine if the capture should be started.
 
 </dd> </dl>
 

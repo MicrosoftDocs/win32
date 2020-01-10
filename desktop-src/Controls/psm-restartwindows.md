@@ -1,5 +1,5 @@
 ---
-title: PSM_RESTARTWINDOWS message
+title: PSM_RESTARTWINDOWS message (Prsht.h)
 description: Indicates that Windows needs to be restarted for the changes to take effect.
 ms.assetid: 5bf634ee-7408-45df-adb6-c5b947f6c47b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

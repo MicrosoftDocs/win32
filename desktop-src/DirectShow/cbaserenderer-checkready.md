@@ -1,8 +1,8 @@
 ---
 Description: The CheckReady method queries whether a state transition is complete.
 ms.assetid: dfa669ed-a5ab-498e-9fc2-ff15d6ddbc13
-title: CBaseRenderer.CheckReady method
-ms.topic: article
+title: CBaseRenderer.CheckReady method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

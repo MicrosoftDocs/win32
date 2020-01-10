@@ -1,5 +1,5 @@
 ---
-title: CB_LIMITTEXT message
+title: CB_LIMITTEXT message (Winuser.h)
 description: Limits the length of the text the user may type into the edit control of a combo box.
 ms.assetid: 95b7d07a-594b-4096-afbb-4dab77bdc41d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

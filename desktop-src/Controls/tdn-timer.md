@@ -1,5 +1,5 @@
 ---
-title: TDN_TIMER notification code
+title: TDN_TIMER notification code (Commctrl.h)
 description: Sent by a task dialog approximately every 200 milliseconds.
 ms.assetid: 5a162d97-6912-45bc-8151-1ea56cc459ea
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

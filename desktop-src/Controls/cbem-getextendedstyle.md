@@ -1,5 +1,5 @@
 ---
-title: CBEM_GETEXTENDEDSTYLE message
+title: CBEM_GETEXTENDEDSTYLE message (Commctrl.h)
 description: Gets the extended styles that are in use for a ComboBoxEx control.
 ms.assetid: 7c661d9c-fa9a-4284-9bb0-d54708cb6468
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

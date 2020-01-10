@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: 06167630-3b75-4433-8b2f-2127ffb4d389
-title: CPullPin.~CPullPin destructor
-ms.topic: article
+title: CPullPin.~CPullPin destructor (Pullpin.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

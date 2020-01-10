@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Winlogon States
 
-[*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) maintains the workstation state that is used by the [*GINA*](https://msdn.microsoft.com/en-us/library/ms721584(v=VS.85).aspx) to determine what authentication actions are required.
+[*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) maintains the workstation state that is used by the [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) to determine what authentication actions are required.
 
 At any point in time, Winlogon is in one of three states:
 
@@ -26,7 +26,7 @@ When Winlogon is in the logged-off state, users are prompted to identify themsel
 
 ## Logged-On State
 
-When Winlogon is in the logged-on state, users can interact with the shell, activate additional applications, and do their work. From the logged-on state, users can either stop all work and log off, or lock their workstations (leaving all work in place). If the user decides to log off, Winlogon will terminate all processes associated with that [*logon session*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) and the workstation will be available for another user. If, instead, the user decides to lock the workstation, Winlogon changes to the workstation-locked state.
+When Winlogon is in the logged-on state, users can interact with the shell, activate additional applications, and do their work. From the logged-on state, users can either stop all work and log off, or lock their workstations (leaving all work in place). If the user decides to log off, Winlogon will terminate all processes associated with that [*logon session*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) and the workstation will be available for another user. If, instead, the user decides to lock the workstation, Winlogon changes to the workstation-locked state.
 
 ## Workstation-Locked State
 
@@ -34,7 +34,7 @@ When Winlogon is in the workstation-locked state, a secure desktop is displayed 
 
 A number of different actions can be performed in each of the Winlogon states. A GINA DLL may implement actions that are not part of the standard Windows operating system. For example, a high security system could automatically lock a workstation every 10 minutes and force users to reauthenticate themselves.
 
-For information about creating desktops and registering a [*secure attention sequence*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SAS), see [Initializing Winlogon](initializing-winlogon.md). For information about time-out operations, see [Supported Dialog Box Service Time-out Operations](supported-dialog-box-service-time-out-operations.md). For information about sending messages to the GINA while a dialog box is displayed, see [Sending Messages to the GINA](sending-messages-to-the-gina.md). For information about support functions, see [Winlogon Support Functions](authentication-functions.md).
+For information about creating desktops and registering a [*secure attention sequence*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SAS), see [Initializing Winlogon](initializing-winlogon.md). For information about time-out operations, see [Supported Dialog Box Service Time-out Operations](supported-dialog-box-service-time-out-operations.md). For information about sending messages to the GINA while a dialog box is displayed, see [Sending Messages to the GINA](sending-messages-to-the-gina.md). For information about support functions, see [Winlogon Support Functions](authentication-functions.md).
 
  
 

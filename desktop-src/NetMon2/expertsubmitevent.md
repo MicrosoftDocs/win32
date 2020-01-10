@@ -1,8 +1,8 @@
 ---
 Description: The ExpertSubmitEvent function indicates that an event condition exists and provides a data structure that describes the condition.
 ms.assetid: 2339b530-427b-4028-aef6-c2cdd1353f77
-title: ExpertSubmitEvent function
-ms.topic: article
+title: ExpertSubmitEvent function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

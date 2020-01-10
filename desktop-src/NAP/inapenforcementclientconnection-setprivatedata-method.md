@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetPrivateData method
+title: INapEnforcementClientConnection SetPrivateData method (NapEnforcementClient.h)
 description: Is used by the NapAgent to set private data.
 ms.assetid: 2559a612-8857-4e60-b5bc-dd8235ff69f9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

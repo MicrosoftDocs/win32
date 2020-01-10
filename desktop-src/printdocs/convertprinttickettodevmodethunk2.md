@@ -2,7 +2,7 @@
 Description: Converts a print ticket to a DEVMODE structure.
 ms.assetid: 3b0a6afd-fa9d-434e-a95f-b051296d4567
 title: ConvertPrintTicketToDevModeThunk2 function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -95,13 +95,13 @@ The size, in bytes, of the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-dev
 *errMsg* \[out, optional\]
 </dt> <dd>
 
-A pointer to a string that specifies what, if anything, is invalid about the print ticket in *pPrintTicket*. If it is valid, this is **NULL**. If *errMsg* is not **NULL** when the function returns, the caller must free the string with [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx).
+A pointer to a string that specifies what, if anything, is invalid about the print ticket in *pPrintTicket*. If it is valid, this is **NULL**. If *errMsg* is not **NULL** when the function returns, the caller must free the string with [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx).
 
 </dd> </dl>
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Requirements
 
@@ -119,7 +119,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx)
+[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
 </dt> <dt>
 
 [**PTConvertPrintTicketToDevMode**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertprinttickettodevmode)

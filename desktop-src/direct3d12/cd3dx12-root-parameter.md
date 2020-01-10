@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_ROOT_PARAMETER structure
+title: CD3DX12_ROOT_PARAMETER structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_PARAMETER structure.
 ms.assetid: CDDF84D0-4E66-4CF2-999B-3F401E8DD17F
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Impersonation Level Constants
+title: Impersonation Level Constants (RpcDce.h)
 description: Specifies an impersonation level, which indicates the amount of authority given to the server when it is impersonating the client.
 ms.assetid: ea5a3b46-b607-4192-a3cc-b2ec55ca94a6
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - RpcDce.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

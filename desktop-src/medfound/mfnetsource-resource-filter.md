@@ -1,8 +1,8 @@
 ---
 Description: Contains a pointer to the IMFNetResourceFilter callback interface for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: C035B4AD-CF99-4A4F-9384-F80A3620BD27
-title: MFNETSOURCE_RESOURCE_FILTER property
-ms.topic: article
+title: MFNETSOURCE_RESOURCE_FILTER property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -28,7 +28,7 @@ VT\_UNKNOWN
 
 ## Remarks
 
-Use this property to configure the Media Foundation HTTP byte stream. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
+Use this property to configure the Media Foundation HTTP byte stream. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
 
 ## Requirements
 

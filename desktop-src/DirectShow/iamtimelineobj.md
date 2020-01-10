@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineObj interface provides methods for manipulating timeline objects in DirectShow Editing Services (DES).
 ms.assetid: ae8a778d-00b3-4b88-98dd-16e0a8645127
-title: IAMTimelineObj interface
-ms.topic: interface
+title: IAMTimelineObj interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -27,7 +27,7 @@ The `IAMTimelineObj` interface provides methods for manipulating timeline object
 
 ## Members
 
-The **IAMTimelineObj** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineObj** also has these types of members:
+The **IAMTimelineObj** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineObj** also has these types of members:
 
 -   [Methods](#methods)
 

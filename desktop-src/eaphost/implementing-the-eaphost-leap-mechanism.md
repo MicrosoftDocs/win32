@@ -2,7 +2,6 @@
 title: Implementing the EAPHost LEAP Mechanism
 description: Describes the EAPHost mechanism that allows third parties to write Lightweight Extensible Authentication Protocol (LEAP) modules for Windows.
 ms.assetid: d17a99cb-4a43-4719-984e-b742c9518f52
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

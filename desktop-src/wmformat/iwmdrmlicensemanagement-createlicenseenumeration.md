@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement CreateLicenseEnumeration method
+title: IWMDRMLicenseManagement CreateLicenseEnumeration method (Wmdrmsdk.h)
 description: The CreateLicenseEnumeration method creates a license enumerator object with which you can get information about licenses in the local license store.
 ms.assetid: 48da1ef4-89bc-4cba-b5c9-0e202eb2986f
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

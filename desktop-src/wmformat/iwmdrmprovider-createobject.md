@@ -1,5 +1,5 @@
 ---
-title: IWMDRMProvider CreateObject method
+title: IWMDRMProvider CreateObject method (Wmdrmsdk.h)
 description: The CreateObject method retrieves a pointer to a specified interface, creating the implementing object if needed.
 ms.assetid: d408f7f3-9e49-4747-ac8f-d39db31d1240
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Performs a Catmull-Rom interpolation, using the specified 2D vectors.
 ms.assetid: dacda32d-b4c4-4d8b-9d20-9a4bb1d3ce6c
-title: D3DXVec2CatmullRom function
-ms.topic: article
+title: D3DXVec2CatmullRom function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -88,7 +88,7 @@ Pointer to a source [**D3DXVECTOR2**](d3dxvector2.md) structure, a position vect
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 

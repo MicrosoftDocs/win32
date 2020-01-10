@@ -1,5 +1,5 @@
 ---
-title: glGetPointerv function
+title: glGetPointerv function (Gl.h)
 description: The glGetPointerv function returns the address of a vertex data array.
 ms.assetid: 6f85c508-9335-4474-8cc5-e67c7421a8e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

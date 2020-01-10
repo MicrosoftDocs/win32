@@ -1,8 +1,8 @@
 ---
 Description: Flag that specifies whether the palette should be a background palette. If TRUE, the palette is selected as a background palette.
 ms.assetid: 908deebc-c978-4423-8e8b-c9cf0b3a0775
-title: CBaseWindow::m_bBackground member
-ms.topic: article
+title: CBaseWindow::m_bBackground member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

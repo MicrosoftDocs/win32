@@ -1,14 +1,14 @@
 ---
 Description: Specifies a Multimedia Class Scheduler Service (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
 ms.assetid: F1B8A8C8-2E41-4321-A94D-C50447C69941
-title: MF_READWRITE_MMCSS_CLASS_AUDIO attribute
-ms.topic: article
+title: MF_READWRITE_MMCSS_CLASS_AUDIO attribute (Mfreadwrite.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MF\_READWRITE\_MMCSS\_CLASS\_AUDIO attribute
 
-Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/en-us/library/ms684247(v=VS.85).aspx) (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
+Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) class for audio-processing threads in the Source Reader or Sink Writer.
 
 ## Data type
 

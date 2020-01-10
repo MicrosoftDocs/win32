@@ -1,8 +1,8 @@
 ---
 Description: The COLORREF value is used to specify an RGB color.
 ms.assetid: b87d3de2-7a13-44ef-8253-c6851a75fa54
-title: COLORREF
-ms.topic: article
+title: COLORREF (Windef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

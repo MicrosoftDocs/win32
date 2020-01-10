@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder uses variable-bit-rate (VBR) encoding.
 ms.assetid: e6826802-99b7-4a38-9b58-8a9cb8b753fb
-title: MFPKEY_VBRENABLED Property
-ms.topic: article
+title: MFPKEY_VBRENABLED Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Specifies whether the encoder uses variable-bit-rate (VBR) encoding. Read-write.
 
 This value must be set to **VARIANT\_TRUE** for any of the other VBR properties to be used by the codec.
 
-After you set this value to **VARIANT\_TRUE** on the audio encoder, the output types retrieved by using the [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/en-us/library/Dd406956(v=VS.85).aspx) method are VBR types.
+After you set this value to **VARIANT\_TRUE** on the audio encoder, the output types retrieved by using the [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/library/Dd406956(v=VS.85).aspx) method are VBR types.
 
 ## Requirements
 

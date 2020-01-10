@@ -2,7 +2,7 @@
 Description: Provides access to all of the tablets attached to the computer.
 ms.assetid: d0fd9a6f-93fe-43d6-97fd-fee45854dfa1
 title: ITabletManager interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -34,7 +34,7 @@ The **ITabletManager** interface has these methods.
 
 | Method                                                  | Description                                                        |
 |:--------------------------------------------------------|:-------------------------------------------------------------------|
-| [**GetTablet**](https://msdn.microsoft.com/en-us/library/Aa373683(v=VS.85).aspx)           | Retrieves the specified tablet object.<br/>                  |
+| [**GetTablet**](https://msdn.microsoft.com/library/Aa373683(v=VS.85).aspx)           | Retrieves the specified tablet object.<br/>                  |
 | [**GetTabletCount**](itabletmanager-gettabletcount.md) | Retrieves the number of tablets attached to the system.<br/> |
 
 

@@ -1,5 +1,5 @@
 ---
-title: TS_ATTR_ Constants
+title: TS_ATTR_ Constants (Textstor.h)
 description: The TS\_ATTR\_\ constants are used to obtain and change the values of document attributes. These constants form possible values of bitfield flags in ITextStoreACP and ITextStoreAnchor methods.
 ms.assetid: e99a44ba-c41a-4dd7-9475-dd37159081fd
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a collection of the policy's qualifiers.
 ms.assetid: aa5e2225-0a39-40bc-868c-d96f5953edaa
-title: PolicyInformation.Qualifiers property
-ms.topic: article
+title: PolicyInformation.Qualifiers property (Iads.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

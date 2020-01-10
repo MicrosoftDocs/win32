@@ -1,5 +1,5 @@
 ---
-title: glGetTexGendv function
+title: glGetTexGendv function (Gl.h)
 description: The glGetTexGendv, glGetTexGenfv, and glGetTexGeniv functions return texture coordinate generation parameters.
 ms.assetid: bce26bde-071b-476e-9e33-c43a8c997cdd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

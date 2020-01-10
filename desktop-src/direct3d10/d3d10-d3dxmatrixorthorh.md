@@ -1,8 +1,8 @@
 ---
 Description: Builds a right-handed orthographic projection matrix.
 ms.assetid: e6673ff4-06a2-4a16-b72e-5ca69ddf2438
-title: D3DXMatrixOrthoRH function
-ms.topic: article
+title: D3DXMatrixOrthoRH function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ D3DXMATRIX* D3DXMatrixOrthoRH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the resulting [**D3DXMATRIX**](d3d10-d3dxmatrix.md).
 
@@ -51,7 +51,7 @@ Pointer to the resulting [**D3DXMATRIX**](d3d10-d3dxmatrix.md).
 *w* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Width of the view volume.
 
@@ -60,7 +60,7 @@ Width of the view volume.
 *h* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Height of the view volume.
 
@@ -69,7 +69,7 @@ Height of the view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum z-value of the view volume.
 
@@ -78,7 +78,7 @@ Minimum z-value of the view volume.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum z-value of the view volume.
 
@@ -86,7 +86,7 @@ Maximum z-value of the view volume.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the resulting [**D3DXMATRIX**](d3d10-d3dxmatrix.md).
 

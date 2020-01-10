@@ -14,13 +14,13 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # EmailAction.ReplyTo property
 
-\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/en-us/library/Hh849925(v=WPS.620).aspx) cmdlet as a workaround.\]
+\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx) cmdlet as a workaround.\]
 
 For scripting, gets or sets the email address that you want to reply to.
 

@@ -1,5 +1,5 @@
 ---
-title: SB_SETICON message
+title: SB_SETICON message (Commctrl.h)
 description: Sets the icon for a part in a status bar.
 ms.assetid: d8528cd1-54d2-44ba-b0d6-29111f75616a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

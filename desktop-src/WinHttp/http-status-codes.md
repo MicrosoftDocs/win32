@@ -1,8 +1,8 @@
 ---
 Description: These constants and corresponding values indicate HTTP status codes returned by servers on the Internet.
 ms.assetid: 3de6a35d-41e9-4fce-ab92-e970c7c07e55
-title: HTTP Status Codes
-ms.topic: article
+title: HTTP Status Codes (Winhttp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

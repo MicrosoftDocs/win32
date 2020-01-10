@@ -1,8 +1,8 @@
 ---
 Description: Returns an event handle to the event currently running on the specified animation track.
 ms.assetid: 2e3d4b85-42f0-463f-9eca-d9b1fa8932f6
-title: ID3DXAnimationController::GetCurrentTrackEvent method
-ms.topic: article
+title: ID3DXAnimationController::GetCurrentTrackEvent method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ D3DXEVENTHANDLE GetCurrentTrackEvent(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Track identifier.
 
@@ -48,7 +48,7 @@ Track identifier.
 *EventType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172827(v=VS.85).aspx)**
+Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/library/Bb172827(v=VS.85).aspx)**
 
 Type of event to query.
 

@@ -1,8 +1,8 @@
 ---
 Description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: 551e0ddc-7ebf-4fc2-a155-0c9ee2f406d4
-title: IEnumParticipant::Clone method
-ms.topic: article
+title: IEnumParticipant::Clone method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 ## Remarks
 
-TAPI calls the [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) method on the [**IEnumParticipant**](ienumparticipant.md) interface returned by **IEnumParticipant::Clone**. The application must call [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) on the **IEnumParticipant** interface to free resources associated with it.
+TAPI calls the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) method on the [**IEnumParticipant**](ienumparticipant.md) interface returned by **IEnumParticipant::Clone**. The application must call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on the **IEnumParticipant** interface to free resources associated with it.
 
 ## Requirements
 

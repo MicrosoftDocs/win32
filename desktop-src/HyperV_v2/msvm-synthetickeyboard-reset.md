@@ -2,7 +2,7 @@
 Description: Resets the virtual keyboard.
 ms.assetid: 2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6
 title: Reset method of the Msvm_SyntheticKeyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

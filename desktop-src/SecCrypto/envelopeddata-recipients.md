@@ -2,7 +2,7 @@
 Description: Retrieves the collection of recipients of the enveloped message.
 ms.assetid: de9cbf8e-f34c-4e08-89aa-b5ac842aa599
 title: EnvelopedData.Recipients property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

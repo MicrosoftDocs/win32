@@ -1,8 +1,8 @@
 ---
 Description: Event that is signaled when a state transition is complete.
 ms.assetid: 96d236a3-dfba-49a6-95a9-812f7b6a5b68
-title: CBaseRenderer::m_evComplete member
-ms.topic: article
+title: CBaseRenderer::m_evComplete member (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

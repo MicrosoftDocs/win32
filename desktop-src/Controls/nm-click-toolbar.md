@@ -1,5 +1,5 @@
 ---
-title: NM_CLICK (toolbar) notification code
+title: NM_CLICK (toolbar) notification code (Commctrl.h)
 description: Sent by a toolbar control when the user clicks an item with the left mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: fa43c9bc-db2a-4460-b193-2b4694d06d83
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

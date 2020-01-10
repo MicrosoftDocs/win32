@@ -1,12 +1,12 @@
 ---
 Description: This section contains reference information for the macros provided by Direct3D.
 ms.assetid: cabb715a-2a6a-4d56-8113-5e5ed26fc107
-title: Macros
+title: Macros (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Macros
+# Macros (Direct3D 9)
 
 This section contains reference information for the macros provided by Direct3D.
 

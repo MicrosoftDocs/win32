@@ -1,8 +1,8 @@
 ---
 Description: Adjusts the brightness.
 ms.assetid: 1b3f56eb-3f22-4120-ba6c-331eccd5d303
-title: MFPKEY_COLOR_BRIGHTNESS Property
-ms.topic: article
+title: MFPKEY_COLOR_BRIGHTNESS Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Adjusts the brightness.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

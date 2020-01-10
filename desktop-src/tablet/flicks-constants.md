@@ -1,8 +1,8 @@
 ---
 Description: The following are the Flicks constants.
 ms.assetid: 21aaf8f0-13b7-4f97-ad4a-3557a7020337
-title: Flicks Constants
-ms.topic: article
+title: Flicks Constants (Tabflicks.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

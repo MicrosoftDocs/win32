@@ -1,8 +1,8 @@
 ---
 Description: Information about the properties of a display mode.
 ms.assetid: df9d12b9-7acb-435b-9d54-0b095c871f0e
-title: D3DDISPLAYMODEEX structure
-ms.topic: structure
+title: D3DDISPLAYMODEEX structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ typedef struct {
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ The size of this structure. This should always be set to sizeof(D3DDISPLAYMODEEX
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -64,7 +64,7 @@ Width of the display mode.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Height of the display mode.
 **RefreshRate**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -97,11 +97,11 @@ Format of the display mode. See [D3DFORMAT](d3dformat.md).
 **ScanLineOrdering**
 </dt> <dd>
 
-Type: **[**D3DSCANLINEORDERING**](https://msdn.microsoft.com/en-us/library/Bb172604(v=VS.85).aspx)**
+Type: **[**D3DSCANLINEORDERING**](https://msdn.microsoft.com/library/Bb172604(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Indicates whether the scanline order is progressive or interlaced. See [**D3DSCANLINEORDERING**](https://msdn.microsoft.com/en-us/library/Bb172604(v=VS.85).aspx).
+Indicates whether the scanline order is progressive or interlaced. See [**D3DSCANLINEORDERING**](https://msdn.microsoft.com/library/Bb172604(v=VS.85).aspx).
 
 </dd> </dl>
 

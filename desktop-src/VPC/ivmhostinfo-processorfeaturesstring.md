@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ProcessorFeaturesString property
+title: IVMHostInfo ProcessorFeaturesString property (VPCCOMInterfaces.h)
 description: Retrieves the list features supported by the host processor.
 ms.assetid: 036c6376-0e9b-46fa-90f4-a40c71c5cf23
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

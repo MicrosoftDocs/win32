@@ -74,10 +74,10 @@ Documentation of ADSI interfaces and methods.
 
 <dl> <dt>
 
-[The Component Object Model](https://msdn.microsoft.com/en-us/library/ms694363(v=VS.85).aspx)
+[The Component Object Model](https://msdn.microsoft.com/library/ms694363(v=VS.85).aspx)
 </dt> <dt>
 
-[COM Clients and Servers](https://msdn.microsoft.com/en-us/library/ms683835(v=VS.85).aspx)
+[COM Clients and Servers](https://msdn.microsoft.com/library/ms683835(v=VS.85).aspx)
 </dt> <dt>
 
 [Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services)

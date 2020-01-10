@@ -2,7 +2,7 @@
 Description: Completes an asynchronous request to unregister a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 ms.assetid: 0E8F9BF6-AC1E-4FC0-BFAE-F292C4859F1F
 title: RtwqEndUnregisterWorkQueueWithMMCSS function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ HRESULT WINAPI RtwqEndUnregisterWorkQueueWithMMCSS(
 *pResult* 
 </dt> <dd>
 
-Pointer to the [**IMFAsyncResult**](https://msdn.microsoft.com/en-us/library/ms700196(v=VS.85).aspx) interface. Pass in the same pointer that your callback object received in the [**IRtwqAsyncCallback::Invoke**](https://msdn.microsoft.com/en-us/library/Dn448446(v=VS.85).aspx) method.
+Pointer to the [**IMFAsyncResult**](https://msdn.microsoft.com/library/ms700196(v=VS.85).aspx) interface. Pass in the same pointer that your callback object received in the [**IRtwqAsyncCallback::Invoke**](https://msdn.microsoft.com/library/Dn448446(v=VS.85).aspx) method.
 
 </dd> </dl>
 

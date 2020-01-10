@@ -2,7 +2,7 @@
 Description: The application GUID of the subscriber.
 ms.assetid: 46c91cae-ca31-4eac-baa8-d36910917f0f
 title: IEventSubscription3::SubscriberApplicationID property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

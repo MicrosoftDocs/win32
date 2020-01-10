@@ -1,5 +1,5 @@
 ---
-title: IDCompositionVisual SetOffsetX methods
+title: IDCompositionVisual SetOffsetX methods (Dcomp.h)
 description: Changes or animates the value of the OffsetX property of this visual, altering the horizontal position of the visual relative to its parent.
 ms.assetid: 0EFCDE12-3BF1-4D1F-8E28-54F3D7EEFFC1
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionVisual::SetOffsetX methods
@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetX property of this visual, altering t
 
 | Method                                                                                                | Description                                           |
 |:------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetOffsetX(float)**](https://msdn.microsoft.com/en-us/library/Hh449161(v=VS.85).aspx)                                     | Changes the value of the OffsetX property.<br/> |
-| [**SetOffsetX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449163(v=VS.85).aspx) | Animates the value of the OffsetX property<br/> |
+| [**SetOffsetX(float)**](https://msdn.microsoft.com/library/Hh449161(v=VS.85).aspx)                                     | Changes the value of the OffsetX property.<br/> |
+| [**SetOffsetX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449163(v=VS.85).aspx) | Animates the value of the OffsetX property<br/> |
 
 
 
@@ -47,10 +47,10 @@ Changes or animates the value of the OffsetX property of this visual, altering t
 
 <dl> <dt>
 
-[**IDCompositionVisual**](https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx)
+[**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionVisual::SetOffsetY**](https://msdn.microsoft.com/en-us/library/Hh449171(v=VS.85).aspx)
+[**IDCompositionVisual::SetOffsetY**](https://msdn.microsoft.com/library/Hh449171(v=VS.85).aspx)
 </dt> </dl>
 
 �

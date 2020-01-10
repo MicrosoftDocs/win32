@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareElementChecks association class relates a software
 ms.assetid: ff130fe9-ddb2-4e4f-86d3-53f1d8ed14aa
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementChecks class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

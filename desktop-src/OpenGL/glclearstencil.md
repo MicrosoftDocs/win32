@@ -1,5 +1,5 @@
 ---
-title: glClearStencil function
+title: glClearStencil function (Gl.h)
 description: The glClearStencil function specifies the clear value for the stencil buffer.
 ms.assetid: bbde8fa8-78f3-45bd-bac3-5d03839acc52
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

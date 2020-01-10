@@ -2,7 +2,7 @@
 Description: Proxy function for the CopyPixels method.
 ms.assetid: 020c11e9-0847-468e-b240-20529f6460cd
 title: IWICBitmapSource_CopyPixels_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

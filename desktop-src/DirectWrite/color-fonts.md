@@ -108,10 +108,10 @@ If your app uses lower-level APIs to handle glyph runs directly, then it will co
 
 To correctly handle color glyphs, your app should:
 
-1.  Pass the glyph run information to [**TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Mt761992(v=VS.85).aspx), along with a [**DWRITE\_GLYPH\_IMAGE\_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) parameter that indicates which type(s) of color glyph the app is prepared to handle. If any color glyphs are present (based on the font and the requested **DWRITE\_GLYPH\_IMAGE\_FORMATS**), then DirectWrite will split the primary glyph run into individual  color glyph runs  which can be accessed through the returned [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) object in Step 4.
-2.  Check the HRESULT returned by [**TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Mt761992(v=VS.85).aspx) to determine whether any color glyph runs were detected. An **HRESULT** of **DWRITE\_E\_NOCOLOR** indicates no applicable color glyph run.
-3.  If [**TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Mt761992(v=VS.85).aspx) reported no color glyph runs (by returning **DWRITE\_E\_NOCOLOR**), then the whole glyph run is treated as monochromatic, and your app should draw it as desired (for example, using [**ID2D1DeviceContext::DrawGlyphRun**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun)).
-4.  If [**TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Mt761992(v=VS.85).aspx) does report the presence of color glyph runs, then your app should ignore the primary glyph run and instead use the color glyph run(s) returned by TranslateColorGlyphRun. To do so, iterate through the returned [**IDWriteColorGlyphRunEnumerator1**](https://msdn.microsoft.com/en-us/library/Mt725314(v=VS.85).aspx) object, retrieving each color glyph run and drawing it as appropriate for its glyph image format (for example, you can use [**DrawColorBitmapGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawcolorbitmapglyphrun) and [**DrawSvgGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawsvgglyphrun) to draw color bitmap glyphs and SVG glyphs, respectively).
+1.  Pass the glyph run information to [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx), along with a [**DWRITE\_GLYPH\_IMAGE\_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) parameter that indicates which type(s) of color glyph the app is prepared to handle. If any color glyphs are present (based on the font and the requested **DWRITE\_GLYPH\_IMAGE\_FORMATS**), then DirectWrite will split the primary glyph run into individual  color glyph runs  which can be accessed through the returned [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) object in Step 4.
+2.  Check the HRESULT returned by [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx) to determine whether any color glyph runs were detected. An **HRESULT** of **DWRITE\_E\_NOCOLOR** indicates no applicable color glyph run.
+3.  If [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx) reported no color glyph runs (by returning **DWRITE\_E\_NOCOLOR**), then the whole glyph run is treated as monochromatic, and your app should draw it as desired (for example, using [**ID2D1DeviceContext::DrawGlyphRun**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun)).
+4.  If [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx) does report the presence of color glyph runs, then your app should ignore the primary glyph run and instead use the color glyph run(s) returned by TranslateColorGlyphRun. To do so, iterate through the returned [**IDWriteColorGlyphRunEnumerator1**](https://msdn.microsoft.com/library/Mt725314(v=VS.85).aspx) object, retrieving each color glyph run and drawing it as appropriate for its glyph image format (for example, you can use [**DrawColorBitmapGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawcolorbitmapglyphrun) and [**DrawSvgGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawsvgglyphrun) to draw color bitmap glyphs and SVG glyphs, respectively).
 
 The following code example shows the general structure of this procedure:
 
@@ -229,10 +229,10 @@ args.DrawingSession.DrawText(
 [DirectWrite Color Font Fallback sample](https://code.msdn.microsoft.com/windowsapps/DirectWrite-Color-Font-ef762d88)
 
 
-[**IDWriteFontFace4 interface**](https://msdn.microsoft.com/en-us/library/Mt725320(v=VS.85).aspx)
+[**IDWriteFontFace4 interface**](https://msdn.microsoft.com/library/Mt725320(v=VS.85).aspx)
 
 
-[**IDWriteFactory4::TranslateColorGlyphRun method**](https://msdn.microsoft.com/en-us/library/Mt761992(v=VS.85).aspx)
+[**IDWriteFactory4::TranslateColorGlyphRun method**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx)
 
 
 [**ID2D1DeviceContext4::DrawText method**](/windows/win32/Direct2D/id2d1devicecontext4-drawtext-overload)

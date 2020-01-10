@@ -14,17 +14,17 @@ To enable DLL redirection machine-wide, you must create a new registry key. Crea
 
 To use DLL redirection, create a *redirection file* for your application. The redirection file must be named as follows: *App\_name*.local. For example, if the application name is Editor.exe, the redirection file should be named Editor.exe.local. You must install the .local file in the application directory. You must also install the DLLs in the application directory.
 
-The contents of a redirection file are ignored, but its presence causes Windows to check the application directory first whenever it loads a DLL, regardless of the path specified to [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa). If the DLL is not found in the application directory, then these functions use their usual search order. For example, if the application c:\\myapp\\myapp.exe calls **LoadLibrary** using the following path:
+The contents of a redirection file are ignored, but its presence causes Windows to check the application directory first whenever it loads a DLL, regardless of the path specified to [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa). If the DLL is not found in the application directory, then these functions use their usual search order. For example, if the application c:\\myapp\\myapp.exe calls **LoadLibrary** using the following path:
 
 c:\\program files\\common files\\system\\mydll.dll
 
-And, if both c:\\myapp\\myapp.exe.local and c:\\myapp\\mydll.dll exist, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\mydll.dll. Otherwise, **LoadLibrary** loads c:\\program files\\common files\\system\\mydll.dll.
+And, if both c:\\myapp\\myapp.exe.local and c:\\myapp\\mydll.dll exist, [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\mydll.dll. Otherwise, **LoadLibrary** loads c:\\program files\\common files\\system\\mydll.dll.
 
-Alternatively, if a directory named c:\\myapp\\myapp.exe.local exists and contains mydll.dll, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\myapp.exe.local\\mydll.dll.
+Alternatively, if a directory named c:\\myapp\\myapp.exe.local exists and contains mydll.dll, [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) loads c:\\myapp\\myapp.exe.local\\mydll.dll.
 
 If the application has a manifest, then any .local files are ignored.
 
-If you are using DLL redirection and the application does not have access to all drives and directories in the search order, [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) stops searching as soon as access is denied. (If you are not using DLL redirection, **LoadLibrary** skips directories that it cannot access and then continues searching.)
+If you are using DLL redirection and the application does not have access to all drives and directories in the search order, [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) stops searching as soon as access is denied. (If you are not using DLL redirection, **LoadLibrary** skips directories that it cannot access and then continues searching.)
 
 It is good practice to install application DLLs in the same directory that contains the application, even if you are not using DLL redirection. This ensures that installing the application does not overwrite other copies of the DLL and cause other applications to fail. Also, if you follow this good practice, other applications do not overwrite your copy of the DLL and cause your application to fail.
 

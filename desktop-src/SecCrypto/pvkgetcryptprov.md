@@ -2,7 +2,7 @@
 Description: Gets a handle to a cryptographic service provider (CSP) based on either a private key file or a key container name.
 ms.assetid: 82cdaa6f-e747-4c9d-8d2d-5fa206891eed
 title: PvkGetCryptProv function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,10 +22,10 @@ api_location:
 
  
 
-The **PvkGetCryptProv** function gets a handle to a [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) based on either a [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) file or a key container name.
+The **PvkGetCryptProv** function gets a handle to a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) based on either a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) file or a key container name.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
 
  
 

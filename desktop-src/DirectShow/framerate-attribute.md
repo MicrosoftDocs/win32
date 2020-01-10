@@ -1,12 +1,12 @@
 ---
 Description: The framerate attribute specifies a framerate, in frames per second.
 ms.assetid: 541a86e3-7736-4de4-b509-f8d61ef9bc58
-title: framerate Attribute
-ms.topic: article
+title: framerate Attribute (DirectShow)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# framerate Attribute
+# framerate Attribute (DirectShow)
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

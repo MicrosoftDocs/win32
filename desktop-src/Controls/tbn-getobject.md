@@ -1,5 +1,5 @@
 ---
-title: TBN_GETOBJECT notification code
+title: TBN_GETOBJECT notification code (Commctrl.h)
 description: Sent by a toolbar control that uses the TBSTYLE\_REGISTERDROP style to request a drop target object when the pointer passes over one of its buttons. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 9fd8516d-fe2e-4f84-9035-e2246aba369a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

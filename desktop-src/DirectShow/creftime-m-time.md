@@ -1,8 +1,8 @@
 ---
 Description: Specifies the REFERENCE\_TIME value.
 ms.assetid: 8004f7a2-c882-40dd-a248-cf8da06eebec
-title: CRefTime::m_time member
-ms.topic: article
+title: CRefTime::m_time member (Reftime.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

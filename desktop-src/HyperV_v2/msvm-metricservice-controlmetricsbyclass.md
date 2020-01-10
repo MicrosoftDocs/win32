@@ -2,7 +2,7 @@
 Description: Controls metrics by class.
 ms.assetid: f848fdec-561b-4be0-b1e9-a59e15196d1d
 title: ControlMetricsByClass method of the Msvm_MetricService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

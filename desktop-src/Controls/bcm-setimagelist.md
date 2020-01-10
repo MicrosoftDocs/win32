@@ -1,5 +1,5 @@
 ---
-title: BCM_SETIMAGELIST message
+title: BCM_SETIMAGELIST message (Commctrl.h)
 description: Assigns an image list to a button control. You can send this message explicitly or use the Button\_SetImageList macro.
 ms.assetid: 805d2d9b-3e8f-4323-abaf-0dd5765cd740
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

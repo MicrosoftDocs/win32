@@ -2,7 +2,7 @@
 Description: Specifies the name of the certification authority (CA).
 ms.assetid: 224c2a51-8a25-4b66-b86b-c87531475145
 title: ISCrdEnr::setCAName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::setCAName method
 
-The **setCAName** method specifies the name of the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).
+The **setCAName** method specifies the name of the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
 
 ## Syntax
 

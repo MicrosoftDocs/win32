@@ -1,5 +1,5 @@
 ---
-title: WM_NCMBUTTONDBLCLK message
+title: WM_NCMBUTTONDBLCLK message (Winuser.h)
 description: Posted when the user double-clicks the middle mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 7c0f8d6e-eb37-4873-a3f8-777e8b0b22bc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

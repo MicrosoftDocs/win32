@@ -1,8 +1,8 @@
 ---
 Description: Handle to a semaphore, used by the thread to wait for samples.
 ms.assetid: c64a7221-6eea-459b-b306-e6d547a233b2
-title: COutputQueue::m_hSem member
-ms.topic: article
+title: COutputQueue::m_hSem member (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

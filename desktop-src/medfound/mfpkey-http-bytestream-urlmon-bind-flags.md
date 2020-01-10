@@ -1,8 +1,8 @@
 ---
 Description: Sets the moniker binding flags for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: 9426D235-65E1-40BA-94E9-CF0C49263E6F
-title: MFPKEY_HTTP_ByteStream_Urlmon_Bind_Flags property
-ms.topic: article
+title: MFPKEY_HTTP_ByteStream_Urlmon_Bind_Flags property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -28,7 +28,7 @@ VT\_UI4
 
 ## Remarks
 
-Use this property to configure the Media Foundation HTTP byte stream. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
+Use this property to configure the Media Foundation HTTP byte stream. To set the property, pass an [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) pointer to the source resolver. For more information, see [Configuring a Media Source](configuring-a-media-source.md).
 
 The value of this property is a bitwise **OR** of flags from the **BINDF** enumeration. This property applies only when the [MFPKEY\_HTTP\_ByteStream\_Enable\_Urlmon](mfpkey-http-bytestream-enable-urlmon.md) property is set to **VARIANT\_TRUE**.
 

@@ -1,8 +1,8 @@
 ---
 Description: The StopAt method informs the pin when to stop delivering data. This method implements the IAMStreamControl::StopAt method.
 ms.assetid: cc9f0fdc-253b-4feb-95ce-56ebc575a49b
-title: CBaseStreamControl.StopAt method
-ms.topic: article
+title: CBaseStreamControl.StopAt method (Strmctl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

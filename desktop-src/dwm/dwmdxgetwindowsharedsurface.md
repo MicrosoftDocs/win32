@@ -1,8 +1,8 @@
-﻿---
+---
 Description: Retrieves the DirectX shared surface backing a given window. This surface can be written to in order to update the contents of the window.
 ms.assetid: 500CF5B4-0D56-4201-91F4-7333E45DACEE
 title: DwmDxGetWindowSharedSurface function
-ms.topic: article
+ms.topic: reference
 ms.date: 11/27/2018
 topic_type:
  - APIRef

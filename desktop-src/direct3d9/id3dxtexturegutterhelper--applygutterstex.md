@@ -1,8 +1,8 @@
 ---
 Description: Applies gutters to an IDirect3DTexture9 texture object.
 ms.assetid: e8f4a4cf-4d3b-419b-9486-08aa3bd3d8a4
-title: ID3DXTextureGutterHelper::ApplyGuttersTex method
-ms.topic: article
+title: ID3DXTextureGutterHelper::ApplyGuttersTex method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DERR\_NOTAVAILABLE, D3DERR\_OUTOFVIDEOMEMORY, D3DERR\_WASSTILLDRAWING, E\_OUTOFMEMORY.
 

@@ -2,8 +2,8 @@
 Description: The CIM\_UserDevice class is a parent class from which other classes, such as CIM\_Keyboard or CIM\_DesktopMonitor, descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
 ms.assetid: 311a065a-df9b-4c4b-bdc4-d3de89ce2f3d
 ms.tgt_platform: multiple
-title: CIM_UserDevice class
-ms.topic: article
+title: CIM_UserDevice class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

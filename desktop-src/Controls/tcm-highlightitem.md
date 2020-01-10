@@ -1,5 +1,5 @@
 ---
-title: TCM_HIGHLIGHTITEM message
+title: TCM_HIGHLIGHTITEM message (Commctrl.h)
 description: Sets the highlight state of a tab item. You can send this message explicitly or by using the TabCtrl\_HighlightItem macro.
 ms.assetid: b0d0850a-62d9-46a1-8846-81f67a886ea8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

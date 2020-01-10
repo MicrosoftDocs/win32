@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense ResetEnumeration method
+title: IWMDRMLicense ResetEnumeration method (Wmdrmsdk.h)
 description: The ResetEnumeration method resets the license list to its original state. The active license becomes the first license in the list.
 ms.assetid: cb5a31a8-ee25-44d6-81ca-746c379cb99e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_ACTION enumeration
+title: MPTHREAT_ACTION enumeration (MpClient.h)
 description: Possible threat actions.
 ms.assetid: 142249A5-4C9D-4E3A-A06E-70C040F9C14F
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

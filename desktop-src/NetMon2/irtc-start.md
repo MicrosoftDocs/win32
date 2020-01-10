@@ -1,8 +1,8 @@
 ---
 Description: The Start method starts the capture.
 ms.assetid: 1f676e19-18ff-4c34-a83f-2723ff356be2
-title: IRTC::Start method
-ms.topic: article
+title: IRTC::Start method (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

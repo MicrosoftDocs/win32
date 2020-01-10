@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig3 DeleteConfig method
+title: INapComponentConfig3 DeleteConfig method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) to provide a way to delete configuration data for a specific configuration ID.
 ms.assetid: 9740c122-86c8-4b77-9268-faa90e84d8aa
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

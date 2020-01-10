@@ -1,8 +1,8 @@
 ---
 Description: Notifies an application when the IME needs to change the RECONVERTSTRING structure. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: 035a7072-d292-4883-bc3e-d1e9ed64d9ec
-title: IMR_CONFIRMRECONVERTSTRING notification code
-ms.topic: article
+title: IMR_CONFIRMRECONVERTSTRING notification code (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

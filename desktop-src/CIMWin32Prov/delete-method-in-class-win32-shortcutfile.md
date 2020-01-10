@@ -3,7 +3,7 @@ Description: The Delete WMI class method deletes the logical shortcut file (or d
 ms.assetid: 4059eca3-44d9-48a7-b69f-e9598f939266
 ms.tgt_platform: multiple
 title: Delete method of the Win32_ShortcutFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

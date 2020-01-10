@@ -1,8 +1,8 @@
 ---
 Description: The GetMuted method retrieves the object's muted state.
 ms.assetid: e901af1f-1137-4708-a98b-c9f83edc5ab9
-title: IAMTimelineObj::GetMuted method
-ms.topic: article
+title: IAMTimelineObj::GetMuted method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

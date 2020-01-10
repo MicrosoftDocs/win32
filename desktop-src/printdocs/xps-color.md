@@ -1,8 +1,8 @@
 ---
 Description: A structure that describes a single color value.
 ms.assetid: 710f3ef1-bbc3-416d-9faf-aa4a716007c2
-title: XPS_COLOR
-ms.topic: article
+title: XPS_COLOR (Xpsobjectmodel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: PauseService method of the Win32_Service class
+title: PauseService method of the Win32_Service class (Remote Desktop Services)
 description: Attempts to place the service in the paused state.
 ms.assetid: 101987F6-FBAB-4E79-B1FA-346B1EF58DE1
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

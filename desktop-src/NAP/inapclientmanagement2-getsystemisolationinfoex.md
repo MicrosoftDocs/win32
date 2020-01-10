@@ -1,5 +1,5 @@
 ---
-title: INapClientManagement2 GetSystemIsolationInfoEx method
+title: INapClientManagement2 GetSystemIsolationInfoEx method (NapManagement.h)
 description: Retrieves information about the isolation state and extended isolation state of the NapClient.
 ms.assetid: 614bcf19-873e-4043-98b2-dcb152bae3e2
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

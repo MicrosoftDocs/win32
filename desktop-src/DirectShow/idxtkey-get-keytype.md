@@ -1,8 +1,8 @@
 ---
 Description: The get\_KeyType method retrieves the type of key.
 ms.assetid: 902cbd46-529a-45d8-afa2-a8dd9439769a
-title: IDxtKey::get_KeyType method
-ms.topic: article
+title: IDxtKey::get_KeyType method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

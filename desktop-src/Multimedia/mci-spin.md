@@ -1,5 +1,5 @@
 ---
-title: MCI_SPIN command
+title: MCI_SPIN command (Mmsystem.h)
 description: The MCI\_SPIN command starts the device spinning up or down. Videodisc devices recognize this command.
 ms.assetid: 9e491455-d06d-44c6-8aca-6360384ec266
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SPIN command starts the device spinning up or down. Videodisc devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

@@ -45,14 +45,14 @@ Another difference from .NET Framework regular expressions is that handwriting r
 
 ## Using Input Scopes
 
-You can also use the set of regular input scopes that are defined as part of the [**SetInputScope**](https://msdn.microsoft.com/en-us/library/ms629025(v=VS.85).aspx) function in your regular expressions. For example, the value for Month (numerical) is IS\_DATE\_MONTH. The syntax for specifying an input scope as part of a regular expression is to prepend the input scope enumerated value with an open parenthesis and an exclamation point, (!, and place a closing parenthesis, ), on the end. For example:
+You can also use the set of regular input scopes that are defined as part of the [**SetInputScope**](https://msdn.microsoft.com/library/ms629025(v=VS.85).aspx) function in your regular expressions. For example, the value for Month (numerical) is IS\_DATE\_MONTH. The syntax for specifying an input scope as part of a regular expression is to prepend the input scope enumerated value with an open parenthesis and an exclamation point, (!, and place a closing parenthesis, ), on the end. For example:
 
 (!IS\_DATE\_MONTH)
 
 If you combine the IS\_DEFAULT input scope by ORing it with any other input scope, the effect is that the recognizer can return either any single expression that the default language model supports (for example, one word from the system dictionary or a date) with or without punctuation, or any value that meets the rest of the regular expression passed in to the recognizer.
 
 > [!Note]  
-> The following members of [**SetInputScope**](https://msdn.microsoft.com/en-us/library/ms629025(v=VS.85).aspx) are not supported in regular expressions: IS\_PHRASELIST, IS\_REGULAREXPRESSION, IS\_SRGS, IS\_XML.
+> The following members of [**SetInputScope**](https://msdn.microsoft.com/library/ms629025(v=VS.85).aspx) are not supported in regular expressions: IS\_PHRASELIST, IS\_REGULAREXPRESSION, IS\_SRGS, IS\_XML.
 
  
 

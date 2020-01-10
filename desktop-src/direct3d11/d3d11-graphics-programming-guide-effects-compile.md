@@ -109,7 +109,7 @@ Use these flags when you create an effect to define either compilation behavior 
 
 ## Checking Errors
 
-If during compilation an error occurs, the API returns an interface that contains the errors from the effect compiler. This interface is called [**ID3DBlob**](https://msdn.microsoft.com/en-us/library/Ff728743(v=VS.85).aspx). It is not directly readable; however, by returning a pointer to the buffer that contains the data (which is a string), you can see any compilation errors.
+If during compilation an error occurs, the API returns an interface that contains the errors from the effect compiler. This interface is called [**ID3DBlob**](https://msdn.microsoft.com/library/Ff728743(v=VS.85).aspx). It is not directly readable; however, by returning a pointer to the buffer that contains the data (which is a string), you can see any compilation errors.
 
 This example contains an error in the BasicHLSL.fx, the first variable declaration occurs twice.
 

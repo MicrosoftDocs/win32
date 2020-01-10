@@ -1,7 +1,7 @@
 ---
 Description: Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.
 title: EnumMRUListW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -99,7 +99,7 @@ Returns one of the following values.
 
 ## Remarks
 
-This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) or extracted from comctl32.dll by its ordinal, which is 403 for **EnumMRUListW**.
+This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) or extracted from comctl32.dll by its ordinal, which is 403 for **EnumMRUListW**.
 
 ## Requirements
 

@@ -5,7 +5,7 @@ ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvbuffertoosmallexception.esentslvbuffertoosmallexception(v=EXCHG.10)
 ms:contentKeyID: 55102727
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException.EsentSLVBufferTooSmallException
 dev_langs:

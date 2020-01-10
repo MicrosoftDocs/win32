@@ -3,7 +3,7 @@ Description: The CIM\_AssociatedAlarm dependency associates an alarm with a logi
 ms.assetid: ed0ccc81-6d1b-45b0-abf0-7a2bd9a50193
 ms.tgt_platform: multiple
 title: CIM_AssociatedAlarm class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

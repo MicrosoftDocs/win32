@@ -1,5 +1,5 @@
 ---
-title: Navigation Constants
+title: Navigation Constants (Oleacc.h)
 description: This topic describes the constant values, defined in oleacc.h, that indicate the spatial (up, down, left, and right) or logical (first child, last, next, and previous) direction observed when clients use IAccessible accNavigate to navigate from one user interface element to another within the same container.
 ms.assetid: 5859a7a3-bcd3-443e-8ff0-4952f4639517
 topic_type:
@@ -17,7 +17,7 @@ api_location:
 - oleacc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

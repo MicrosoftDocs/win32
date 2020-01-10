@@ -2,10 +2,10 @@
 title: dcl_semantics (sm3 - ps asm)
 description: Declare the association between vertex shader output and pixel shader input.
 ms.assetid: 4f4dc6fe-0efa-4d84-aefd-583e90ab9a61
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
@@ -84,7 +84,7 @@ texld r1, v1.zw, s1
 [Pixel Shader Instructions](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> <dt>
 
-[Antialias Sample](https://msdn.microsoft.com/en-us/library/Ee415231(v=VS.85).aspx)
+[Antialias Sample](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,8 +1,8 @@
 ---
 Description: The ISampleGrabber interface is exposed by the Sample Grabber filter. It enables an application to retrieve individual media samples as they move through the filter graph.
 ms.assetid: 97cf1127-d5d7-4e6a-a371-19f24e497a7f
-title: ISampleGrabber interface
-ms.topic: interface
+title: ISampleGrabber interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -27,7 +27,7 @@ The **ISampleGrabber** interface is exposed by the [**Sample Grabber**](sample-g
 
 ## Members
 
-The **ISampleGrabber** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISampleGrabber** also has these types of members:
+The **ISampleGrabber** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISampleGrabber** also has these types of members:
 
 -   [Methods](#methods)
 

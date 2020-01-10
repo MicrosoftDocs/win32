@@ -3,7 +3,7 @@ Description: Sets the Internetworking Packet Exchange (IPX) network number/frame
 ms.assetid: 8190564f-7d9f-4b05-9949-2e732ce36dba
 ms.tgt_platform: multiple
 title: SetIPXFrameTypeNetworkPairs method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

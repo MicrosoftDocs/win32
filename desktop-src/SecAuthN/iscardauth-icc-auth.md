@@ -2,7 +2,7 @@
 Description: The ICC\_Auth method allows an application to authenticate the smart card.
 ms.assetid: 98aea241-6bdc-4f47-b56c-a90f69fcd9a4
 title: ISCardAuth::ICC_Auth method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardAuth::ICC\_Auth method
 
-\[The **ICC\_Auth** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ICC\_Auth** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
 The **ICC\_Auth** method allows an application to authenticate the smart card.
 

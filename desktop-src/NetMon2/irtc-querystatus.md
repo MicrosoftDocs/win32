@@ -1,8 +1,8 @@
 ---
 Description: The QueryStatus method retrieves the status of the NPP.
 ms.assetid: 4517eb34-087a-491c-97b5-cbe9190fa7a2
-title: IRTC::QueryStatus method
-ms.topic: article
+title: IRTC::QueryStatus method (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

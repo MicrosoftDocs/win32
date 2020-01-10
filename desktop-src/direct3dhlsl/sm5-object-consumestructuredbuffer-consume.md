@@ -1,5 +1,5 @@
 ---
-title: Consume function
+title: ConsumeStructuredBuffer::Consume function
 description: Removes a value from the end of the buffer.
 ms.assetid: b4f7b472-9274-463d-99b0-f05b74f54fc1
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Consume
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

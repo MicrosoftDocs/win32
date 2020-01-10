@@ -1,5 +1,5 @@
 ---
-title: Getting Format Capabilities on Devices That Support IWMDMDevice3
+title: Getting format capabilities through IWMDMDevice3
 description: Getting Format Capabilities on Devices That Support IWMDMDevice3
 ms.assetid: a431c3cb-e722-4d68-a82d-385fff067ea6
 keywords:
@@ -20,7 +20,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Format Capabilities on Devices That Support IWMDMDevice3
+# Getting format capabilities through IWMDMDevice3
 
 [**IWMDMDevice3::GetFormatCapability**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability) is the preferred method for asking a device what formats it supports. The following steps show how to use this method to query a device for its format capabilities:
 

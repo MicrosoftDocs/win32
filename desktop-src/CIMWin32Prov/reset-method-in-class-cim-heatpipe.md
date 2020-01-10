@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_HeatPipe class requests a reset of the
 ms.assetid: 25153ec2-ecf8-4cf7-a650-03e5c5459445
 ms.tgt_platform: multiple
 title: Reset method of the CIM_HeatPipe class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

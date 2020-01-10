@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of an annotation.
 ms.assetid: 433d73b7-9371-4d76-8b34-a64c608eb1a3
-title: ID3DXBaseEffect::GetAnnotation method
-ms.topic: article
+title: ID3DXBaseEffect::GetAnnotation method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Handle of a technique, pass, or top-level parameter. See [Handles (Direct3D 9)](
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Annotation index.
 

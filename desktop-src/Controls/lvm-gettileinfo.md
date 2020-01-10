@@ -1,5 +1,5 @@
 ---
-title: LVM_GETTILEINFO message
+title: LVM_GETTILEINFO message (Commctrl.h)
 description: Retrieves information about a tile in a list-view control.
 ms.assetid: e89a3eae-0970-488c-ba95-1072aa85bbf4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

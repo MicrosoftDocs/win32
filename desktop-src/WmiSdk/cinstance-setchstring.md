@@ -2,8 +2,8 @@
 Description: The CInstance::SetCHString method sets a string property.
 ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
 ms.tgt_platform: multiple
-title: CInstance::SetCHString methods
-ms.topic: article
+title: CInstance::SetCHString methods (Instance.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -29,7 +29,7 @@ The **CInstance::SetCHString** method sets a string property.
 | Method                                                                                           | Description                        |
 |:-------------------------------------------------------------------------------------------------|:-----------------------------------|
 | [**SetCHString(LPCWSTR, LPCSTR)**](/windows/desktop/api/Instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr))                   | Sets a string property.<br/> |
-| [**SetCHString(LPCWSTR, const CHString&)**](https://msdn.microsoft.com/en-us/library/Aa388996(v=VS.85).aspx) | Sets a string property.<br/> |
+| [**SetCHString(LPCWSTR, const CHString&)**](https://msdn.microsoft.com/library/Aa388996(v=VS.85).aspx) | Sets a string property.<br/> |
 
 
 

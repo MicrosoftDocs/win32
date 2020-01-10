@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_DEPTH_STENCIL_DESC structure
+title: CD3DX12_DEPTH_STENCIL_DESC structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_DEPTH\_STENCIL\_DESC structure.
 ms.assetid: D3DB04C3-4564-45A4-830A-E63B8D308B33
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

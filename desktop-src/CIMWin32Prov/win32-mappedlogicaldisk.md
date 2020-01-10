@@ -3,7 +3,7 @@ Description: The Win32\_MappedLogicalDisk &\#32; WMI class represents network st
 ms.assetid: 5dd4b0eb-7872-4f2d-9c8b-ea03f7e2c16d
 ms.tgt_platform: multiple
 title: Win32_MappedLogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

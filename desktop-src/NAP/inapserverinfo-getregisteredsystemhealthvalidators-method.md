@@ -1,5 +1,5 @@
 ---
-title: INapServerInfo GetRegisteredSystemHealthValidators method
+title: INapServerInfo GetRegisteredSystemHealthValidators method (NapServerManagement.h)
 description: Retrieves a list of registered SHVs.
 ms.assetid: 029c7d5c-b397-415c-a530-0096de1ef771
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

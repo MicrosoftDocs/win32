@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_REALIZE message
+title: MCIWNDM_REALIZE message (Vfw.h)
 description: The MCIWNDM\_REALIZE message realizes the palette currently used by the MCI device in an MCIWnd window. This macro is defined with the MCIWNDM\_REALIZE message. You can send this message explicitly or by using the MCIWndRealize macro.
 ms.assetid: fe8803b5-3500-44b4-97f7-784bedf0b362
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

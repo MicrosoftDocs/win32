@@ -1,5 +1,5 @@
 ---
-title: TDN_DIALOG_CONSTRUCTED notification code
+title: TDN_DIALOG_CONSTRUCTED notification code (Commctrl.h)
 description: Sent by a task dialog after the dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: e8556039-a74d-4e33-931d-a63ad5b2d4b0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

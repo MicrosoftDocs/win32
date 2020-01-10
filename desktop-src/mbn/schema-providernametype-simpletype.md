@@ -2,7 +2,7 @@
 Description: Defines a string type for the ProviderName element in the Mobile Broadband profile.
 ms.assetid: 1644ded2-f931-4920-848d-e0405d8723e3
 title: providerNameType Simple Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

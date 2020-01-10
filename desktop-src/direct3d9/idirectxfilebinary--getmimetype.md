@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the Multipurpose Internet Mail Extensions (MIME) type for the binary data. Deprecated.
 ms.assetid: 57c42ace-4313-40d8-9992-eaf12edf3a30
-title: IDirectXFileBinary::GetMimeType method
-ms.topic: article
+title: IDirectXFileBinary::GetMimeType method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT GetMimeType(
 *pszMimeType* \[out\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Address of a pointer to receive the MIME type string.
 
@@ -46,7 +46,7 @@ Address of a pointer to receive the MIME type string.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be DXFILEERR\_BADVALUE.
 

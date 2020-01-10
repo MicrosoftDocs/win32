@@ -1,8 +1,8 @@
 ---
 Description: The Merge method of the Merge object executes a merge of the current database and current module.
 ms.assetid: '4b580b1f-5071-42f1-8022-a152817f9fdc'
-title: Merge.Merge method
-ms.topic: article
+title: Merge.Merge method (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,13 +62,13 @@ Once the merge is complete, components in the module are attached to the feature
 
 The module may be attached to additional features using the [**Connect**](merge-connect.md) method. Note that calling the **Connect** method only creates feature-component associations. It does not modify the rows that have already been merged in to the database.
 
-Changes made to the database are saved if and only if the [**CloseDatabase**](https://msdn.microsoft.com/en-us/library/Aa369265(v=VS.85).aspx) method is called with *bCommit* set to **TRUE**.
+Changes made to the database are saved if and only if the [**CloseDatabase**](https://msdn.microsoft.com/library/Aa369265(v=VS.85).aspx) method is called with *bCommit* set to **TRUE**.
 
 If any merge conflicts occur, including exclusions, they are placed in the error enumerator for later retrieval, but does not cause the merge to fail. Errors may be retrieved through the [**Errors**](error-object.md) property. Errors and informational messages are posted to the current log file.
 
 ### C++
 
-See [**Merge**](https://msdn.microsoft.com/en-us/library/Aa369275(v=VS.85).aspx) function.
+See [**Merge**](https://msdn.microsoft.com/library/Aa369275(v=VS.85).aspx) function.
 
 ## Requirements
 

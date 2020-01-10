@@ -21,28 +21,28 @@ Please see [Options for Displaying Text](https://msdn.microsoft.com/en-US/global
 
 <dl> <dt>
 
-[**TextOut**](https://msdn.microsoft.com/en-us/library/Dd145133(v=VS.85).aspx)
+[**TextOut**](https://msdn.microsoft.com/library/Dd145133(v=VS.85).aspx)
 </dt> <dt>
 
-[**ExtTextOut**](https://msdn.microsoft.com/en-us/library/Dd162713(v=VS.85).aspx)
+[**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx)
 </dt> <dt>
 
-[**TabbedTextOut**](https://msdn.microsoft.com/en-us/library/Dd145129(v=VS.85).aspx)
+[**TabbedTextOut**](https://msdn.microsoft.com/library/Dd145129(v=VS.85).aspx)
 </dt> <dt>
 
-[**DrawText**](https://msdn.microsoft.com/en-us/library/Dd162498(v=VS.85).aspx)
+[**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetTabbedTextExtent**](https://msdn.microsoft.com/en-us/library/Dd144930(v=VS.85).aspx)
+[**GetTabbedTextExtent**](https://msdn.microsoft.com/library/Dd144930(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetTextExtentPoint32**](https://msdn.microsoft.com/en-us/library/Dd144938(v=VS.85).aspx)
+[**GetTextExtentPoint32**](https://msdn.microsoft.com/library/Dd144938(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetTextExtentExPoint**](https://msdn.microsoft.com/en-us/library/Dd144935(v=VS.85).aspx)
+[**GetTextExtentExPoint**](https://msdn.microsoft.com/library/Dd144935(v=VS.85).aspx)
 </dt> <dt>
 
-[**Edit control**](https://msdn.microsoft.com/en-us/library/Aa368342(v=VS.85).aspx)
+[**Edit control**](https://msdn.microsoft.com/library/Aa368342(v=VS.85).aspx)
 </dt> <dt>
 
 [Rich Edit](https://msdn.microsoft.com/library/Bb787873(v=VS.85).aspx)

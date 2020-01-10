@@ -3,7 +3,7 @@ Description: The CIM\_Container class represents an association between a contai
 ms.assetid: 9b119163-3c56-44e2-ba66-d8add3c375fa
 ms.tgt_platform: multiple
 title: CIM_Container class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

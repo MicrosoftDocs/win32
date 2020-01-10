@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_ProtectedSpaceExtent class requests a 
 ms.assetid: 601e6b0d-4f3c-4a99-aec1-1a769213cf6e
 ms.tgt_platform: multiple
 title: Reset method of the CIM_ProtectedSpaceExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

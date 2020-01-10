@@ -2,7 +2,7 @@
 Description: Is an abstract WMI base class. The classes that describe video display monitors inherit from this MSMonitorClass.
 ms.assetid: d9a0ce80-0323-4d84-a7d2-aefa99355f9e
 title: MSMonitorClass class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

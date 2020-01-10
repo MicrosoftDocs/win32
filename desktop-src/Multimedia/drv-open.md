@@ -1,5 +1,5 @@
 ---
-title: DRV_OPEN message
+title: DRV_OPEN message (Mmsystem.h)
 description: Directs the driver to open an new instance.
 ms.assetid: 6b5e21e3-dc29-4f0f-84cb-bd2d2e3c54e9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the handle for a connected smart card. This method returns (\*pHandle) == NULL if not connected.
 ms.assetid: f03f8f25-b2e4-4fae-b7d2-bb0f1a7cd987
-title: ISCard::get_CardHandle method
-ms.topic: article
+title: ISCard::get_CardHandle method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::get\_CardHandle method
 
-\[The **get\_CardHandle** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_CardHandle** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_CardHandle** method retrieves the handle for a connected [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). This method returns (\*pHandle) == **NULL** if not connected.
+The **get\_CardHandle** method retrieves the handle for a connected [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). This method returns (\*pHandle) == **NULL** if not connected.
 
 ## Syntax
 

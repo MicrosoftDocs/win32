@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnection SetBusLocation method
+title: IVMHardDiskConnection SetBusLocation method (VPCCOMInterfaces.h)
 description: Sets the bus location to which this hard disk is attached.
 ms.assetid: 0aa303ae-d8bf-4d38-94ab-bdbb4e744c7b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

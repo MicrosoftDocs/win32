@@ -4,7 +4,7 @@ description: The RasAdminGetIpAddressForUser function is an application-defined 
 ms.assetid: ef553202-0adc-47d6-8630-74f276e9e2bd
 keywords:
 - RasAdminGetIpAddressForUser callback function RAS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

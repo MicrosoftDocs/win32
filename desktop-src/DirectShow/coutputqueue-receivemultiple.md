@@ -1,8 +1,8 @@
 ---
 Description: The ReceiveMultiple method delivers a batch of media samples to the input pin.
 ms.assetid: e9c7d6ed-fbf9-4c90-8e1e-3bad66cb5d4f
-title: COutputQueue.ReceiveMultiple method
-ms.topic: article
+title: COutputQueue.ReceiveMultiple method (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

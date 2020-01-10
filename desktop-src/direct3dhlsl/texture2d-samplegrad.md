@@ -1,5 +1,5 @@
 ---
-title: Texture2D SampleGrad methods
+title: Texture2D::Texture2D SampleGrad methods
 description: Samples a Texture2D using a gradient to influence the way the sample location is calculated.
 ms.assetid: 8C066E43-B40C-4633-9669-BC0F2218DB25
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

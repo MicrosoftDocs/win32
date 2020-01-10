@@ -19,7 +19,7 @@
       href: /windows/desktop/api/Sensapi/nf-sensapi-isdestinationreachablea
       items: 
       - name: "QOCINFO"
-        href: /windows/desktop/api/Sensapi/ns-sensapi-tagqocinfo
+        href: /windows/win32/api/Sensapi/ns-sensapi-qocinfo
     - name: "IsNetworkAlive"
       href: /windows/desktop/api/Sensapi/nf-sensapi-isnetworkalive
     - name: "SENS Object"

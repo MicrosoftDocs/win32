@@ -1,5 +1,5 @@
 ---
-title: TB_GETHOTITEM message
+title: TB_GETHOTITEM message (Commctrl.h)
 description: Retrieves the index of the hot item in a toolbar.
 ms.assetid: a87dbfc3-c6be-4a0a-9b6a-301b900d7929
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The singleton ScriptingStandardConsumerSetting class provides regis
 ms.assetid: d217e058-3529-4173-b896-ebff3d7b05c6
 ms.tgt_platform: multiple
 title: ScriptingStandardConsumerSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

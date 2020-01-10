@@ -1,8 +1,8 @@
 ---
 Description: Pointer to a critical section.
 ms.assetid: 7d949b7f-a6a7-4ab5-b651-f85b70d55065
-title: CBaseMediaFilter::m_pLock member
-ms.topic: article
+title: CBaseMediaFilter::m_pLock member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

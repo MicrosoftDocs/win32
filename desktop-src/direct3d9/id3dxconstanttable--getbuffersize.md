@@ -1,8 +1,8 @@
 ---
 Description: Gets the buffer size of the constant table.
 ms.assetid: 77dbff34-a6b4-43d8-a790-d9e69ff09cfb
-title: ID3DXConstantTable::GetBufferSize method
-ms.topic: article
+title: ID3DXConstantTable::GetBufferSize method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the size of the buffer, in bytes.
 

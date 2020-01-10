@@ -1,8 +1,8 @@
 ---
 Description: Direction of the pin.
 ms.assetid: 57c7e435-9db3-45ef-be83-52d65ff1f7a5
-title: CBasePin::m_dir member
-ms.topic: article
+title: CBasePin::m_dir member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

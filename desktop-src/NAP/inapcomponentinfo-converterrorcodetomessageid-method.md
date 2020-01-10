@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo ConvertErrorCodeToMessageId method
+title: INapComponentInfo ConvertErrorCodeToMessageId method (NapCommon.h)
 description: Is used by the NAP System to request the health client convert an HRESULT error code into a message ID.
 ms.assetid: 760dd039-5b9c-4227-9939-ad6ea23f5b81
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

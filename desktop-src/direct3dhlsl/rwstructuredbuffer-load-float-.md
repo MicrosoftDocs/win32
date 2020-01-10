@@ -1,5 +1,5 @@
 ---
-title: Load(int) function
+title: RWStructuredBuffer::Load(int) function
 description: Reads buffer data.
 ms.assetid: 9CB40579-6BF8-468C-81B8-936D9940458E
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

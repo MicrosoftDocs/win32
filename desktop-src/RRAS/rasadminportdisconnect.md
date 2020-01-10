@@ -1,5 +1,5 @@
 ---
-title: RasAdminPortDisconnect function
+title: RasAdminPortDisconnect function (Rassapi.h)
 description: The RasAdminPortDisconnect function disconnects a port that is currently in use.
 ms.assetid: 7ed3bc46-2d56-44c8-afd5-fcbdad0f7f3a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

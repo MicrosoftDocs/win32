@@ -2,7 +2,7 @@
 Description: Represents a file name attribute. A file has one file name attribute for every directory it is entered into.
 ms.assetid: 54458eee-b786-446c-80bd-213c13bdeb4a
 title: FILE_NAME structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -84,7 +84,7 @@ The first character of the file name.
 
 Note that there is no associated header file for this structure.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
 
 ## See also
 

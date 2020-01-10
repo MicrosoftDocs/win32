@@ -1,5 +1,5 @@
 ---
-title: LVM_GETITEM message
+title: LVM_GETITEM message (Commctrl.h)
 description: Retrieves some or all of a list-view item's attributes. You can send this message explicitly or by using the ListView\_GetItem macro.
 ms.assetid: 684ad96a-2c3b-4148-b66c-41f8322500bb
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

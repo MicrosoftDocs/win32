@@ -1,5 +1,5 @@
 ---
-title: RB_GETTEXTCOLOR message
+title: RB_GETTEXTCOLOR message (Commctrl.h)
 description: Retrieves a rebar control's default text color.
 ms.assetid: fc9c731d-c606-4845-a119-737267301b29
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

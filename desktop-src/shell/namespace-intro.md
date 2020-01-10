@@ -98,7 +98,7 @@ Although PIDLs have some similarity to paths, using them requires a somewhat dif
 
 Like the string used for a path, memory must be allocated for a PIDL. If an application creates a PIDL, it must allocate sufficient memory for the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemidlist) structure. For most of the cases discussed here, the Shell creates the PIDL and handles memory allocation. Regardless of what allocated the PIDL, the application is usually responsible for deallocating the PIDL when it is no longer needed.
 
-Use the [**CoTaskMemAlloc**](https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx) function to allocate the PIDL, and the [**CoTaskMemFree**](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx) function to deallocate it.
+Use the [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx) function to allocate the PIDL, and the [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx) function to deallocate it.
 
  
 

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine RemoveDVDROMDrive method
+title: IVMVirtualMachine RemoveDVDROMDrive method (VPCCOMInterfaces.h)
 description: Removes the specified CD or DVD drive from the virtual machine.
 ms.assetid: 1c45c271-bead-41f6-8371-448d385a1288
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

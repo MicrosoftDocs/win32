@@ -1,8 +1,8 @@
 ---
 Description: Create a new child item. Adds IWiaItem2 objects to a device's IWiaItem2 tree.
 ms.assetid: 525ee788-3ff4-4def-ae71-4a405c04c6a3
-title: IWiaItem2::CreateChildItem method
-ms.topic: article
+title: IWiaItem2::CreateChildItem method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -105,7 +105,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Some WIA 2.0 hardware devices allow applications to create new items in the [**IWiaItem2**](-wia-iwiaitem2.md) tree that represents the device. Applications must test the devices to see if they support this capability. Use the IEnumWIA\_DEV\_CAPS interface to enumerate the current device's capabilities.
 
-If the device allows the creation of new items in the [**IWiaItem2**](-wia-iwiaitem2.md) tree, invoking **IWiaItem2::CreateChildItem** creates a new **IWiaItem2** object that is a child of the current node. It passes a pointer to the new node to the application through the *ppIWiaItem2* parameter. Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+If the device allows the creation of new items in the [**IWiaItem2**](-wia-iwiaitem2.md) tree, invoking **IWiaItem2::CreateChildItem** creates a new **IWiaItem2** object that is a child of the current node. It passes a pointer to the new node to the application through the *ppIWiaItem2* parameter. Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 If *lCreationFlags* is COPY\_PARENT\_PROPERTY\_VALUES and *lItemFlags* is zero, the function returns E\_INVALIDARG.
 

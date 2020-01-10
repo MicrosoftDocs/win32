@@ -2,7 +2,7 @@
 Description: Represents the routing domain setting data.
 ms.assetid: 6216cc4e-b2aa-4344-b8fa-489b986c14be
 title: Msvm_EthernetSwitchPortRoutingDomainSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

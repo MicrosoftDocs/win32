@@ -1,8 +1,8 @@
 ---
 Description: Retrieves system information.
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
-title: IShellDispatch2.GetSystemInformation method
-ms.topic: article
+title: IShellDispatch2.GetSystemInformation method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ IShellDispatch2.GetSystemInformation( _
 *sName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that specifies the system information that is being requested.
 
@@ -69,7 +69,7 @@ Returns the value of the requested system information. The return type depends o
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/en-us/library/Gg537740(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/library/Gg537740(v=VS.85).aspx) method.
 
 This method can be used to request many system information values. The following table gives the *sName* value that is used to request the information and the associated type of the returned value.
 
@@ -109,7 +109,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/en-us/library/ms724958(v=VS.85).aspx) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/ms724958(v=VS.85).aspx) structure.
 
 PhysicalMemoryInstalled
 

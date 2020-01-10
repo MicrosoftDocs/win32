@@ -1,8 +1,8 @@
 ---
 Description: The following table lists all the HRESULT values that can be returned by the methods of the XPS Document API.
 ms.assetid: 9e6db1e3-7151-4538-8607-b7185ebc0110
-title: XPS Document Errors
-ms.topic: article
+title: XPS Document Errors (Xpsobjectmodel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -357,7 +357,7 @@ Some XPS document API methods make calls to the [Packaging](https://docs.microso
 
 <dl> <dt>
 
-[Error Handling in COM](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx)
+[Error Handling in COM](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx)
 </dt> </dl>
 
  

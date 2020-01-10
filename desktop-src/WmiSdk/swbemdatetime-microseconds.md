@@ -2,8 +2,8 @@
 Description: Gets or sets a value that represents the microseconds component of the datetime value.
 ms.assetid: b810b781-86a3-4730-8114-44d10454f7c3
 ms.tgt_platform: multiple
-title: SWbemDateTime.Microseconds property
-ms.topic: article
+title: SWbemDateTime.Microseconds property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

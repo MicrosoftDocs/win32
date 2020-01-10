@@ -29,11 +29,11 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-You've learned that you can use the VML predefined shape elements -- such as <oval> , <line>, <polyline>, <curve>, <rect>, <roundrect>, and <arc> -- to draw a shape. In this topic, we will illustrate how to use the <path> sub-element to customize the outline of a shape.
+You've learned that you can use the VML predefined shape elements -- such as `<oval>` , `<line>`, `<polyline>`, `<curve>`, `<rect>`, `<roundrect>`, and `<arc>` -- to draw a shape. In this topic, we will illustrate how to use the `<path>` sub-element to customize the outline of a shape.
 
-You can place the <path> sub-element inside the <shape> or <shapetype> element. You can then use the property attributes of the <path> sub-element to customize the outline of the shape.
+You can place the `<path>` sub-element inside the `<shape>` or `<shapetype>` element. You can then use the property attributes of the `<path>` sub-element to customize the outline of the shape.
 
-For example, to draw the customized shape illustrated in the following picture, you can use the <path> sub-element to define the outline of the shape, as shown in the following VML representation:
+For example, to draw the customized shape illustrated in the following picture, you can use the `<path>` sub-element to define the outline of the shape, as shown in the following VML representation:
 
 ![shape1.gif (1301 bytes)](images/shape1p.gif)
 

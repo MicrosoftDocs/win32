@@ -1,5 +1,5 @@
 ---
-title: WINBIO_POOL Constants
+title: WINBIO_POOL Constants (Winbio\_types.h)
 description: Specify the type of biometric unit pool to be used in the session.
 ms.assetid: e6e49b95-981a-477d-9889-ea132db5b387
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

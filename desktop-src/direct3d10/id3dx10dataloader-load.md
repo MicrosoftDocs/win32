@@ -1,8 +1,8 @@
 ---
 Description: Used by a ID3DX10ThreadPump Interface to load data from a disk.
 ms.assetid: e2d38ff0-9593-4da4-b179-11938d1e48d6
-title: ID3DX10DataLoader::Load method
-ms.topic: article
+title: ID3DX10DataLoader::Load method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

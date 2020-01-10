@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC Name property
+title: IVMVirtualPC Name property (VPCCOMInterfaces.h)
 description: Retrieves the name of the Windows Virtual PC application.
 ms.assetid: d33af684-ecba-4177-9ef3-cf6dff5bee4d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

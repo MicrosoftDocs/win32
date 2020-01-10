@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay Height property
+title: IVMDisplay Height property (VPCCOMInterfaces.h)
 description: Height of the virtual machine's display, in pixels.
 ms.assetid: 4fbb7c2b-6d5f-4af6-b8cc-3a7546b15cbd
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

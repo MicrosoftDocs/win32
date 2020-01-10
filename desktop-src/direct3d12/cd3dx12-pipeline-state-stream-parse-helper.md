@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER structure
+title: CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER structure (D3dx12.h)
 description: Builds an internal CD3DX12\_PIPELINE\_STATE\_STREAM object from subobject details passed into the corresponding member functions. This struct implements the ID3DX12PipelineParserCallbacks interface.
 ms.assetid: 7D4FFD1D-9FA3-4482-A67B-E742611030BC
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

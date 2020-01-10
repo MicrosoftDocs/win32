@@ -1,5 +1,5 @@
 ---
-title: TRBN_THUMBPOSCHANGING notification code
+title: TRBN_THUMBPOSCHANGING notification code (Commctrl.h)
 description: Notifies that the thumb position on a trackbar is changing. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0876e026-bc07-409d-b174-b97ed704fc11
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

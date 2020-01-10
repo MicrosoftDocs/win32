@@ -2,7 +2,7 @@
 Description: The GetSubpictureLanguage method retrieves the language for the specified subpicture stream.
 ms.assetid: 2a2e6961-99c3-4200-b462-b381f9e37066
 title: GetSubpictureLanguage Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

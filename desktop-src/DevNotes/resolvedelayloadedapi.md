@@ -2,7 +2,7 @@
 Description: Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.
 ms.assetid: 4ab79b7c-81d1-40bf-a76b-217d93567e40
 title: ResolveDelayLoadedAPI function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -104,7 +104,7 @@ The address of the import, or the failure stub for it.
 
 <dl> <dt>
 
-[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/en-us/library/151kt790(v=VS.71).aspx)
+[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/library/151kt790(v=VS.71).aspx)
 </dt> </dl>
 
  

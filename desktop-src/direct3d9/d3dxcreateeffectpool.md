@@ -1,8 +1,8 @@
 ---
 Description: Create an effect pool. A pool is used to share parameters between effects.
 ms.assetid: 5b202f85-b32b-4041-8873-0de535c2f59f
-title: D3DXCreateEffectPool function
-ms.topic: article
+title: D3DXCreateEffectPool function (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Returns a pointer to the created pool.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK.
 

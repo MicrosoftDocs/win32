@@ -1,8 +1,8 @@
 ---
 Description: Specifies the top edge of the destination rectangle, in pixels.
 ms.assetid: e3ccbb23-0be3-4316-9e5f-0094fdb9e2db
-title: MFPKEY_COLORCONV_DSTTOP Property
-ms.topic: article
+title: MFPKEY_COLORCONV_DSTTOP Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the top edge of the destination rectangle, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

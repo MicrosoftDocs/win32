@@ -1,5 +1,5 @@
 ---
-title: gluEndPolygon function
+title: gluEndPolygon function (Glu.h)
 description: The gluBeginPolygon and gluEndPolygon functions delimit a polygon description.
 ms.assetid: fdb8cc73-c6c3-4377-aa5b-36a79791e7a9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
-title: Remote Desktop Services
+title: Remote Desktop Services (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -60,11 +60,11 @@ In Windows Server 2008 R2, you can install a program on the Remote Desktop Serve
 
 Prior to the Windows Server 2008 R2 version of Remote Desktop Services, Windows supported only one Windows Installer installation at a time. For applications that required per-user configurations, such as Microsoft Office Word, an administrator needed to pre-install the application, and application developers needed to test these applications on both the remote desktop client and the Remote Desktop Session Host. Windows Installer RDS Compatibility feature allows identifying and installing missing per-user configurations for multiple users simultaneously and makes the application installation experience on Remote Desktop Server similar to that on a local desktop.
 
-**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](https://msdn.microsoft.com/en-us/library/Bb736316(v=VS.85).aspx) fails if the [Remote Desktop Services](https://msdn.microsoft.com/en-us/library/Bb892075(v=VS.85).aspx) role is enabled.
+**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) role enabled:** Not supported. A multiple package installation using the [MsiEmbeddedChainer table](https://msdn.microsoft.com/library/Bb736316(v=VS.85).aspx) fails if the [Remote Desktop Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) role is enabled.
 
 ## Links to Other Resources
 
--   [Terminal Services Programming Guidelines](https://msdn.microsoft.com/en-us/library/Aa383490(v=VS.85).aspx)
+-   [Terminal Services Programming Guidelines](https://msdn.microsoft.com/library/Aa383490(v=VS.85).aspx)
 -   [Terminal Services at TechNet](https://go.microsoft.com/fwlink/p/?linkid=205177)
 -   [Terminal Services product home page](https://go.microsoft.com/fwlink/p/?linkid=205178)
 -   [Application Readiness for Terminal Services white paper](https://go.microsoft.com/fwlink/p/?linkid=205677)

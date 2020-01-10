@@ -1,8 +1,8 @@
 ---
 Description: The CAutoLock class holds a critical section for the scope of a code block.
 ms.assetid: 8013b3a7-297b-4cf8-8107-4cee1fc12b56
-title: CAutoLock class
-ms.topic: interface
+title: CAutoLock class (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

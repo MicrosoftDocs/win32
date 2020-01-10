@@ -40,7 +40,7 @@ The XPS Document API suports both XPS and OpenXPS, and is designed for C++ progr
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XPS Print API](https://msdn.microsoft.com/en-us/library/Ff728890(v=VS.85).aspx)
+[XPS Print API](https://msdn.microsoft.com/library/Ff728890(v=VS.85).aspx)
 </dt> <dt>
 
 [XML Paper Specification](https://go.microsoft.com/?linkid=8435939)

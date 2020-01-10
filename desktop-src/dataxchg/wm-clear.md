@@ -1,5 +1,5 @@
 ---
-title: WM_CLEAR message
+title: WM_CLEAR message (Winuser.h)
 description: An application sends a WM\_CLEAR message to an edit control or combo box to delete (clear) the current selection, if any, from the edit control.
 ms.assetid: 6730a725-01ec-4821-9ffc-1ea267d665b3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

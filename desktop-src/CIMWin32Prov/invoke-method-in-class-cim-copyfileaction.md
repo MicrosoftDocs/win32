@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_CopyFileAction class takes a particul
 ms.assetid: b948e9ed-332d-4ac5-be7f-88b7f46f5f1d
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_CopyFileAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

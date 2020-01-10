@@ -2,10 +2,10 @@
 title: dcl_indexableTemp (sm4 - asm)
 description: dcl\_indexableTemp (sm4 - asm)
 ms.assetid: 32d8e7ce-4b28-48c3-b794-56ace96394f0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

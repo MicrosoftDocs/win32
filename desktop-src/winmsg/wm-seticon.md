@@ -1,8 +1,8 @@
 ---
 Description: Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.
 ms.assetid: c86620f2-893b-46f8-8254-1d7c4c142f37
-title: WM_SETICON message
-ms.topic: article
+title: WM_SETICON message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ The return value is a handle to the previous large or small icon, depending on t
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function returns a handle to the previous large or small icon associated with the window, depending on the value of *wParam*.
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns a handle to the previous large or small icon associated with the window, depending on the value of *wParam*.
 
 ## Requirements
 
@@ -75,7 +75,7 @@ The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.8
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETICON**](wm-geticon.md)

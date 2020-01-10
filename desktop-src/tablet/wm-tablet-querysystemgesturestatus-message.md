@@ -1,8 +1,8 @@
 ---
 Description: Sent when the system asks a window which system gestures it would like to receive.
 ms.assetid: 5b747b3c-3b77-4913-932f-182114d1f674
-title: WM_TABLET_QUERYSYSTEMGESTURESTATUS message
-ms.topic: article
+title: WM_TABLET_QUERYSYSTEMGESTURESTATUS message (Tpcshrd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ By default, your window will receive all system gesture events. You can choose w
 
  
 
-Use caution when handling the **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** message. **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** is passed using the [**SendMessageTimeout**](https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx) function. If you call methods on a COM interface, that object must be within the same process. If not, COM throws an exception.
+Use caution when handling the **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** message. **WM\_TABLET\_QUERYSYSTEMGESTURESTATUS** is passed using the [**SendMessageTimeout**](https://msdn.microsoft.com/library/ms644952(v=VS.85).aspx) function. If you call methods on a COM interface, that object must be within the same process. If not, COM throws an exception.
 
 ## Examples
 

@@ -3,7 +3,7 @@ Description: Represents a PnP device property of type string.
 ms.assetid: 10D5C2B1-E5B4-4A7E-BC5E-5F6A4ABDDBF7
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyString class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: Reference (Microsoft Agent Control)
 description: Reference
 ms.assetid: 'vs|msagent|~\paface_4dk5.htm'
 ms.topic: article

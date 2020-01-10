@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BSP_SCHEMA structure
+title: WINBIO_BSP_SCHEMA structure (Winbio\_types.h)
 description: Describes the capabilities of a biometric service provider.
 ms.assetid: d690c735-55a1-4e2c-8b39-d52a1972bf93
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

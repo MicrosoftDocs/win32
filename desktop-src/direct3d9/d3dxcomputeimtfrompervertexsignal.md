@@ -1,8 +1,8 @@
 ---
 Description: Calculate per-triangle IMT's from from per-vertex data. This function allows you to calculate the IMT based off of any value in a mesh (color, normal, etc).
 ms.assetid: a417a8ad-77b1-49ae-aea0-6a32a154499f
-title: D3DXComputeIMTFromPerVertexSignal function
-ms.topic: article
+title: D3DXComputeIMTFromPerVertexSignal function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -54,7 +54,7 @@ A pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains th
 *pfVertexSignal* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 A pointer to an array of per-vertex data from which IMT will be computed. The array size is uSignalStride \* v, where v is the number of vertices in the mesh.
 
@@ -63,7 +63,7 @@ A pointer to an array of per-vertex data from which IMT will be computed. The ar
 *uSignalDimension* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of floats per vertex.
 
@@ -72,7 +72,7 @@ The number of floats per vertex.
 *uSignalStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of bytes per vertex in the array. This must be a multiple of sizeof(float)
 
@@ -81,9 +81,9 @@ The number of bytes per vertex in the array. This must be a multiple of sizeof(f
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/en-us/library/Bb172880(v=VS.85).aspx).
+Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/library/Bb172880(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ A pointer to a callback function to monitor IMT computation progress.
 *pUserContext* 
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A pointer to a user-defined variable which is passed to the status callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -116,7 +116,7 @@ A pointer to the buffer (see [**ID3DXBuffer**](id3dxbuffer.md)) containing the r
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK; otherwise, the value is D3DERR\_INVALIDCALL.
 

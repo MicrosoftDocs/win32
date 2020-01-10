@@ -1,5 +1,5 @@
 ---
-title: IEnumBackgroundCopyFiles Methods
+title: IEnumBackgroundCopyFiles Methods (BITS)
 description: The IEnumBackgroundCopyFiles interface exposes the following methods.
 ms.assetid: 42808313-A20B-4AD6-BC3C-8C3C44DE71E2
 ms.topic: reference

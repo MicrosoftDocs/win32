@@ -1,5 +1,5 @@
 ---
-title: TTM_ADJUSTRECT message
+title: TTM_ADJUSTRECT message (Commctrl.h)
 description: Calculates a tooltip control's text display rectangle from its window rectangle, or the tooltip window rectangle needed to display a specified text display rectangle.
 ms.assetid: b848c16f-9f41-4ed2-918a-9c03aebe535c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

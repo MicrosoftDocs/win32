@@ -1,5 +1,5 @@
 ---
-title: ID2D1HwndRenderTarget Resize methods
+title: ID2D1HwndRenderTarget Resize methods (D2d1.h)
 description: Changes the size of the render target to the specified pixel size.
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1HwndRenderTarget::Resize methods
@@ -24,14 +24,14 @@ Changes the size of the render target to the specified pixel size.
 
 | Method                                                                         | Description                                                                    |
 |:-------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**Resize(D2D1\_SIZE\_U&)**](https://msdn.microsoft.com/en-us/library/Dd371479(v=VS.85).aspx)  | Changes the size of the render target to the specified pixel size. <br/> |
-| [**Resize(D2D1\_SIZE\_U\*)**](https://msdn.microsoft.com/en-us/library/Dd371474(v=VS.85).aspx) | Changes the size of the render target to the specified pixel size.<br/>  |
+| [**Resize(D2D1\_SIZE\_U&)**](https://msdn.microsoft.com/library/Dd371479(v=VS.85).aspx)  | Changes the size of the render target to the specified pixel size. <br/> |
+| [**Resize(D2D1\_SIZE\_U\*)**](https://msdn.microsoft.com/library/Dd371474(v=VS.85).aspx) | Changes the size of the render target to the specified pixel size.<br/>  |
 
 
 
 ## Remarks
 
-After this method is called, the contents of the render target's back-buffer are not defined, even if the [**D2D1\_PRESENT\_OPTIONS\_RETAIN\_CONTENTS**](https://msdn.microsoft.com/en-us/library/Dd368144(v=VS.85).aspx) option was specified when the render target was created.
+After this method is called, the contents of the render target's back-buffer are not defined, even if the [**D2D1\_PRESENT\_OPTIONS\_RETAIN\_CONTENTS**](https://msdn.microsoft.com/library/Dd368144(v=VS.85).aspx) option was specified when the render target was created.
 
 ## Requirements
 
@@ -49,7 +49,7 @@ After this method is called, the contents of the render target's back-buffer are
 
 <dl> <dt>
 
-[**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx)
+[**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx)
 </dt> </dl>
 
 �

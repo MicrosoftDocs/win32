@@ -1,5 +1,5 @@
 ---
-title: MrmCreateResourceIndexerFromPreviousSchemaData function
+title: MrmCreateResourceIndexerFromPreviousSchemaData function (MrmResourceIndexer.h)
 description: Creates a resource indexer from in-memory schema data created with a previous call to either MrmDumpPriFileInMemory or MrmDumpPriDataInMemory.
 ms.assetid: D9C90C12-CEFE-4794-9553-8BFBE9E43D99
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

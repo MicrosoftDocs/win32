@@ -1,8 +1,8 @@
 ---
 Description: This event is not supported.
 ms.assetid: b7a2b134-eff8-4431-b4ca-78bbd6eba008
-title: EC_MARKER_HIT
-ms.topic: article
+title: EC_MARKER_HIT (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

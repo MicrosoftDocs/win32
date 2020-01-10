@@ -59,12 +59,12 @@
       href: tool-help-structures.md
       items: 
       - name: "HEAPENTRY32"
-        href: /windows/desktop/api/TlHelp32/ns-tlhelp32-tagheapentry32
+        href: /windows/win32/api/TlHelp32/ns-tlhelp32-heapentry32
       - name: "HEAPLIST32"
-        href: /windows/desktop/api/TlHelp32/ns-tlhelp32-tagheaplist32
+        href: /windows/win32/api/TlHelp32/ns-tlhelp32-heaplist32
       - name: "MODULEENTRY32"
-        href: /windows/desktop/api/TlHelp32/ns-tlhelp32-tagmoduleentry32
+        href: /windows/win32/api/TlHelp32/ns-tlhelp32-moduleentry32
       - name: "PROCESSENTRY32"
-        href: /windows/desktop/api/TlHelp32/ns-tlhelp32-tagprocessentry32
+        href: /windows/win32/api/TlHelp32/ns-tlhelp32-processentry32
       - name: "THREADENTRY32"
-        href: /windows/desktop/api/TlHelp32/ns-tlhelp32-tagthreadentry32
+        href: /windows/win32/api/TlHelp32/ns-tlhelp32-threadentry32

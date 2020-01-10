@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottomRightRadiusY methods
+title: IDCompositionRectangleClip SetBottomRightRadiusY methods (Dcomp.h)
 description: Changes or animates the value of the BottomRightRadiusY property of this clip. The BottomRightRadiusY property specifies the y radius of the ellipse that rounds the lower-right corner of the clip.
 ms.assetid: A2A3F43E-62C6-43B8-929F-AEDA11620DF1
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetBottomRightRadiusY methods
@@ -24,8 +24,8 @@ Changes or animates the value of the BottomRightRadiusY property of this clip. T
 
 | Method                                                                                                                             | Description                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**SetBottomRightRadiusY(float)**](https://msdn.microsoft.com/en-us/library/Hh448857(v=VS.85).aspx)                                     | Changes the value of the BottomRightRadiusY property of this clip.<br/>  |
-| [**SetBottomRightRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448858(v=VS.85).aspx) | Animates the value of the BottomRightRadiusY property of this clip.<br/> |
+| [**SetBottomRightRadiusY(float)**](https://msdn.microsoft.com/library/Hh448857(v=VS.85).aspx)                                     | Changes the value of the BottomRightRadiusY property of this clip.<br/>  |
+| [**SetBottomRightRadiusY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448858(v=VS.85).aspx) | Animates the value of the BottomRightRadiusY property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the BottomRightRadiusY property of this clip. T
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

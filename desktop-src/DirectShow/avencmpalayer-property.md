@@ -1,8 +1,8 @@
 ---
 Description: Specifies the MPEG audio layer. This property applies to MPEG audio encoders.
 ms.assetid: cdfe21f6-44aa-4450-99a6-58b23f4b588a
-title: AVEncMPALayer property
-ms.topic: article
+title: AVEncMPALayer property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncMPALayer**](https://msdn.microsoft.com/en-us/library/Dd319405(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncMPALayer**](https://msdn.microsoft.com/library/Dd319405(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

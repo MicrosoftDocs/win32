@@ -3,7 +3,7 @@ Description: This class represents the association between an operating system a
 ms.assetid: 11178459-85c2-41c0-83b3-5b967e3311cf
 ms.tgt_platform: multiple
 title: Win32_OperatingSystemAutochkSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax
@@ -50,7 +50,7 @@ Data type: **Win32\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 TBD
@@ -66,7 +66,7 @@ Data type: **Win32\_AutochkSetting**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 TBD

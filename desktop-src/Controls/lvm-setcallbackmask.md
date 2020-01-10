@@ -1,5 +1,5 @@
 ---
-title: LVM_SETCALLBACKMASK message
+title: LVM_SETCALLBACKMASK message (Commctrl.h)
 description: Changes the callback mask for a list-view control. You can send this message explicitly or by using the ListView\_SetCallbackMask macro.
 ms.assetid: d7828bab-9897-408c-99ca-fad42b431be8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

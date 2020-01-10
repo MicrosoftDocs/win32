@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the IContextNode object that is the source for this IContextLink.
 ms.assetid: 2f55ae9c-9f63-4d49-9bf0-9e169b819e79
-title: IContextLink::GetSourceNode method
-ms.topic: article
+title: IContextLink::GetSourceNode method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

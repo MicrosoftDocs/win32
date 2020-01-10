@@ -1,8 +1,8 @@
 ---
 Description: Queries the driver for additional Microsoft DirectDraw and Microsoft Direct3D functionality that the driver supports.
 ms.assetid: 7169b672-5c61-4fca-860b-5ef426a7f925
-title: NtGdiDdGetDriverInfo function
-ms.topic: article
+title: NtGdiDdGetDriverInfo function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetDriverInfoData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_GETDRIVERINFODATA](https://msdn.microsoft.com/en-us/library/ms793868.aspx) structure that contains the information required to perform the query.
+Pointer to a [DD\_GETDRIVERINFODATA](https://msdn.microsoft.com/library/ms793868.aspx) structure that contains the information required to perform the query.
 
 </dd> </dl>
 

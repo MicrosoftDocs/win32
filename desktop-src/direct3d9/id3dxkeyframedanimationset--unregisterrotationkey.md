@@ -1,8 +1,8 @@
 ---
 Description: Removes the rotation data at the specified key frame.
 ms.assetid: 8e95d684-fa22-4eba-a721-e7551e8f393b
-title: ID3DXKeyframedAnimationSet::UnregisterRotationKey method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::UnregisterRotationKey method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT UnregisterRotationKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation identifier.
 
@@ -48,7 +48,7 @@ Animation identifier.
 *Key* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Key frame.
 
@@ -56,7 +56,7 @@ Key frame.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

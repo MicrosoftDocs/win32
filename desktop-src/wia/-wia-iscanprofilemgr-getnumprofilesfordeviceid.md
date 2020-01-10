@@ -1,8 +1,8 @@
 ---
 Description: Gets the number of scan profiles for the device.
 ms.assetid: fb1f8884-28ef-460e-a8c4-b9608cc89dc6
-title: IScanProfileMgr::GetNumProfilesforDeviceID method
-ms.topic: article
+title: IScanProfileMgr::GetNumProfilesforDeviceID method (Scanprofilemgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

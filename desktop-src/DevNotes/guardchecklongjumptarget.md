@@ -1,14 +1,12 @@
 ---
 UID: 
 title: GuardCheckLongJumpTarget function
-author: TimShererWithAquent
 description: "Attempts to verify whether the target of a longjmp is valid."
 old-location:
 ms.assetid: na
-ms.author: windowssdkdev
 ms.date: 04/02/2019
 ms.keywords: 
-ms.topic: function
+ms.topic: reference
 req.header: guardapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -34,8 +32,6 @@ api_location:
  - api-ms-win-core-guard-l1-1-0.dll
 api_name:
  - GuardCheckLongJumpTarget
-product: 
- - Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

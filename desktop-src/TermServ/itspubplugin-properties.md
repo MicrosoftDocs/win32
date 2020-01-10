@@ -3,7 +3,7 @@ title: ItsPubPlugin Properties
 description: The ItsPubPlugin interface exposes the following properties.
 ms.assetid: BF315663-8C4D-4477-A8ED-0F0D77B9BBDC
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

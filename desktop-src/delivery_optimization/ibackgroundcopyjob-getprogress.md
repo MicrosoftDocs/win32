@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetProgress method
+title: IBackgroundCopyJob GetProgress method (Deliveryoptimization.h)
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
 ms.assetid: E23C82E1-3805-4C5D-9F18-0DA17F7C473E
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

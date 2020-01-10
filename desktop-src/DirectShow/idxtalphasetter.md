@@ -1,8 +1,8 @@
 ---
 Description: The IDxtAlphaSetter interface sets properties on the Alpha Setter effect.This interface is used internally by DirectShow Editing Services (DES) when it renders the Alpha Setter effect.
 ms.assetid: 9f0439b9-55d2-4526-ae4c-64ab90e11a64
-title: IDxtAlphaSetter interface
-ms.topic: interface
+title: IDxtAlphaSetter interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

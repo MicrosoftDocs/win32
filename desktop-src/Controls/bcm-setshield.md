@@ -1,5 +1,5 @@
 ---
-title: BCM_SETSHIELD message
+title: BCM_SETSHIELD message (Commctrl.h)
 description: Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the Button\_SetElevationRequiredState macro.
 ms.assetid: 2ce2a006-7136-415b-824b-46b282b100f4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

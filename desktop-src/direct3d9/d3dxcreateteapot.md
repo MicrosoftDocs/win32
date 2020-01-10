@@ -1,8 +1,8 @@
 ---
 Description: Uses a left-handed coordinate system to create a mesh containing a teapot.
 ms.assetid: c002d6d4-1829-4293-9a86-d8560d6ec0e9
-title: D3DXCreateTeapot function
-ms.topic: article
+title: D3DXCreateTeapot function (D3dx9shape.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -66,7 +66,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface. When the
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

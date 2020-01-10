@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Registering a Winlogon Notification Package
 
-Information about [*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) notification packages is stored in the registry. Registry entries specify the name of the notification package, the name of the DLL that implements the package, and the names of the functions that handle Winlogon events.
+Information about [*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) notification packages is stored in the registry. Registry entries specify the name of the notification package, the name of the DLL that implements the package, and the names of the functions that handle Winlogon events.
 
 When Winlogon starts, it checks the registry and loads any registered notification packages. When an event occurs, Winlogon calls the designated event handler function for each package. Multiple event notification packages may be registered on a system.
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets a BOOL value.
 ms.assetid: 9d61efcd-f267-4c45-b685-d363588796f7
-title: ID3DXBaseEffect::GetBool method
-ms.topic: article
+title: ID3DXBaseEffect::GetBool method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pb* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns a Boolean value.
 
@@ -56,7 +56,7 @@ Returns a Boolean value.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

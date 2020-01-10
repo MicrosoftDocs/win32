@@ -1,8 +1,8 @@
 ---
 Description: The ChangeCurrentAudioStream event is sent when the disc enables or disables changing the audio stream.
 ms.assetid: b3a146e7-cfc6-4fb2-92af-598bf695e816
-title: ChangeCurrentAudioStream
-ms.topic: article
+title: ChangeCurrentAudioStream (Segment.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

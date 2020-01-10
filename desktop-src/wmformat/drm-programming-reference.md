@@ -1,6 +1,6 @@
 ---
-title: Programming Reference
-description: Programming Reference
+title: Microsoft Windows Media DRM Client Programming Reference
+description: Microsoft Windows Media DRM Client Programming Reference
 ms.assetid: 585e1dc4-8b79-4306-b2c7-3b04723ca24c
 keywords:
 - Windows Media Format SDK,DRM Client Extended APIs

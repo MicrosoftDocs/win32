@@ -1,8 +1,8 @@
 ---
 Description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
-title: FlushTrace function
-ms.topic: article
+title: FlushTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -73,7 +73,7 @@ On output, the structure receives the property settings and session statistics o
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

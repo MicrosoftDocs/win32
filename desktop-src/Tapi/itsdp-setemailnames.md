@@ -1,8 +1,8 @@
 ---
 Description: The SetEmailNames method sets an array of e-mail addresses associated with the conference blob.
 ms.assetid: 1d6d5b01-bc0f-455f-8b23-bc0f409afde4
-title: ITSdp::SetEmailNames method
-ms.topic: article
+title: ITSdp::SetEmailNames method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

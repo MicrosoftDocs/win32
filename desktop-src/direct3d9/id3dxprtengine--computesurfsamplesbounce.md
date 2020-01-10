@@ -1,8 +1,8 @@
 ---
 Description: Computes precomputed radiance transfer (PRT) samples for an arbitrary point (and normal vector).
 ms.assetid: 862a9067-5c5e-4428-86f4-ebef653411b9
-title: ID3DXPRTEngine::ComputeSurfSamplesBounce method
-ms.topic: article
+title: ID3DXPRTEngine::ComputeSurfSamplesBounce method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ Pointer to an input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that represen
 *NumSamples* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of sample locations.
 
@@ -96,7 +96,7 @@ Pointer to an optional [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that is th
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -100,12 +100,12 @@
       - name: "DISCDLGSTRUCT"
         href: https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_discdlgstructa
       - name: "NETCONNECTINFOSTRUCT"
-        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_netconnectinfostruct
+        href: /windows/win32/api/Winnetwk/ns-winnetwk-netconnectinfostruct
       - name: "NETINFOSTRUCT"
         href: https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netinfostruct
       - name: "NETRESOURCE"
-        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_netresourcea
+        href: /windows/win32/api/Winnetwk/ns-winnetwk-netresourcea
       - name: "REMOTE_NAME_INFO"
-        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_remote_name_infoa
+        href: /windows/win32/api/Winnetwk/ns-winnetwk-remote_name_infoa
       - name: "UNIVERSAL_NAME_INFO"
-        href: /windows/desktop/api/Winnetwk/ns-winnetwk-_universal_name_infoa
+        href: /windows/win32/api/Winnetwk/ns-winnetwk-universal_name_infoa

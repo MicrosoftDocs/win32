@@ -2,7 +2,7 @@
 title: Effect Variable Syntax (Direct3D 11)
 description: An effect variable is declared with the syntax described in this section.
 ms.assetid: c0cfc9dd-2df3-4f38-a0e4-2e494456b3c9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

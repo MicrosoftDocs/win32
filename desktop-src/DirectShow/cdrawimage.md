@@ -1,8 +1,8 @@
 ---
 Description: The CDrawImage class is a helper class that manages drawing for a video renderer filter.
 ms.assetid: 7a6b3726-dbf5-4b60-8cf1-42034a321293
-title: CDrawImage class
-ms.topic: interface
+title: CDrawImage class (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice AttachedToVM property
+title: IVMUSBDevice AttachedToVM property (VPCCOMInterfaces.h)
 description: Retrieves the name of the virtual machine to which the USB Device is attached.
 ms.assetid: 214ed891-1fca-4311-945a-0ce3d05d604e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

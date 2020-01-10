@@ -1,8 +1,8 @@
 ---
 Description: The WPD\_STREAM\_UNITS enumeration specifies the unit types to be used for IPortableDeviceUnitsStream operations.
 ms.assetid: BE668696-7AF3-44AA-891A-9BFF67FB5544
-title: WPD_STREAM_UNITS enumeration
-ms.topic: enumeration
+title: WPD_STREAM_UNITS enumeration (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

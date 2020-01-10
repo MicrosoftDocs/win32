@@ -1,5 +1,5 @@
 ---
-title: EN_SAVECLIPBOARD notification code
+title: EN_SAVECLIPBOARD notification code (Richedit.h)
 description: Notifies the rich edit control's parent window that the control is closing and the clipboard contains information. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: e8b95e80-6494-4153-8e78-ede9ed17c66f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

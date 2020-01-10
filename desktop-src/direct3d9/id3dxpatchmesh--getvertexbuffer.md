@@ -1,8 +1,8 @@
 ---
 Description: Gets the mesh vertex buffer.
 ms.assetid: 4ea4e99b-5c2c-467b-8b5d-8174c446680a
-title: ID3DXPatchMesh::GetVertexBuffer method
-ms.topic: article
+title: ID3DXPatchMesh::GetVertexBuffer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the vertex buffer.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

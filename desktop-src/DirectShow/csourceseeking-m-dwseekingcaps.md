@@ -1,8 +1,8 @@
 ---
 Description: Seeking capabilities.
 ms.assetid: c849db20-7567-41e0-9a57-85070a6e6a3a
-title: CSourceSeeking::m_dwSeekingCaps member
-ms.topic: article
+title: CSourceSeeking::m_dwSeekingCaps member (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

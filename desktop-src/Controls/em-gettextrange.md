@@ -1,5 +1,5 @@
 ---
-title: EM_GETTEXTRANGE message
+title: EM_GETTEXTRANGE message (Richedit.h)
 description: Retrieves a specified range of characters from a rich edit control.
 ms.assetid: 18398963-eb2c-4f64-99f5-9614a5d34b52
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

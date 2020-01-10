@@ -1,19 +1,19 @@
 ---
-title: Functions
+title: Functions (HLSL reference)
 description: This section contains information about the following Direct3D HLSL compiler functions
 ms.assetid: aacc5207-3ec8-4031-b5c9-f7c0fb7b7095
 keywords:
 - functions, Compiler
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
 ---
 
-# Functions
+# Functions (HLSL reference)
 
 This section contains information about the following Direct3D HLSL compiler functions:
 
@@ -120,10 +120,10 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <br/> Gets shader debug information.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a><br/></td>
+<td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the input and output signatures from a compilation result.<br/></td>
 </tr>

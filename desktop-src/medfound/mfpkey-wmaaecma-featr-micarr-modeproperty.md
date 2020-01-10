@@ -1,8 +1,8 @@
 ---
 Description: Specifies how the Voice Capture DSP performs microphone array processing.
 ms.assetid: 5e04fe50-d764-4497-9999-37279e156204
-title: MFPKEY_WMAAECMA_FEATR_MICARR_MODE Property
-ms.topic: article
+title: MFPKEY_WMAAECMA_FEATR_MICARR_MODE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies how the Voice Capture DSP performs microphone array processing.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

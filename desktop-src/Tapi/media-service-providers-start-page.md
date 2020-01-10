@@ -45,7 +45,7 @@ MSPI enables development of media service providers for particular protocols or 
 [TAPI 3.1](tapi-3-1-start-page.md)
 </dt> <dt>
 
-[Telephony Service Providers](https://msdn.microsoft.com/en-us/library/ms725516(v=VS.85).aspx)
+[Telephony Service Providers](https://msdn.microsoft.com/library/ms725516(v=VS.85).aspx)
 </dt> </dl>
 
  

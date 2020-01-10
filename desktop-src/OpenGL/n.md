@@ -1,7 +1,7 @@
 ---
-title: N
+title: N (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter N.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '48f4f44d-c1b5-4312-b024-5a0097b0c032'
 keywords:
 - networks

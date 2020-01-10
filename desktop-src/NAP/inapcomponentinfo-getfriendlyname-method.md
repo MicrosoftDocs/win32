@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo GetFriendlyName method
+title: INapComponentInfo GetFriendlyName method (NapCommon.h)
 description: Is used by the NAP System to get the friendly name of a health client.
 ms.assetid: 28614f06-a250-4f92-abf2-422675efd8a0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

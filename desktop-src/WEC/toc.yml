@@ -17,7 +17,7 @@
       href: creating-hardware-event-subscriptions.md
     - name: "Deleting an Event Collector Subscription"
       href: deleting-an-event-collector-subscription.md
-    - name: "Displaying the Properties of an Event Collector Subscription"
+    - name: "Display event collector subscription properties"
       href: displaying-the-properties-of-an-event-collector-subscription.md
     - name: "Displaying the Status of an Event Collector Subscription"
       href: displaying-the-status-of-an-event-collector-subscription.md
@@ -38,23 +38,23 @@
       href: windows-event-collector-enumerations.md
       items: 
       - name: "EC_SUBSCRIPTION_CONFIGURATION_MODE"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_configuration_mode
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_configuration_mode
       - name: "EC_SUBSCRIPTION_CONTENT_FORMAT"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_content_format
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_content_format
       - name: "EC_SUBSCRIPTION_CREDENTIALS_TYPE"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_credentials_type
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_credentials_type
       - name: "EC_SUBSCRIPTION_DELIVERY_MODE"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_delivery_mode
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_delivery_mode
       - name: "EC_SUBSCRIPTION_PROPERTY_ID"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_property_id
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_property_id
       - name: "EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_runtime_status_active_status
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_active_status
       - name: "EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_runtime_status_info_id
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_info_id
       - name: "EC_SUBSCRIPTION_TYPE"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_subscription_type
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_type
       - name: "EC_VARIANT_TYPE"
-        href: /windows/desktop/api/Evcoll/ne-evcoll-_ec_variant_type
+        href: /windows/win32/api/Evcoll/ne-evcoll-ec_variant_type
     - name: "Windows Event Collector Functions"
       href: windows-event-collector-functions.md
       items: 
@@ -92,6 +92,6 @@
       href: windows-event-collector-structures.md
       items: 
       - name: "EC_VARIANT"
-        href: /windows/desktop/api/Evcoll/ns-evcoll-_ec_variant
+        href: /windows/win32/api/Evcoll/ns-evcoll-ec_variant
     - name: "Wecutil.exe"
       href: wecutil.md

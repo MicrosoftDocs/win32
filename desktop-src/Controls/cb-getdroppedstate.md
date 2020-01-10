@@ -1,5 +1,5 @@
 ---
-title: CB_GETDROPPEDSTATE message
+title: CB_GETDROPPEDSTATE message (Winuser.h)
 description: Determines whether the list box of a combo box is dropped down.
 ms.assetid: a3f4e352-298d-45ea-a5a7-007f1fc1a387
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

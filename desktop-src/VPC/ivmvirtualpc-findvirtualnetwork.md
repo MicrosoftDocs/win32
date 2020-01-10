@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC FindVirtualNetwork method
+title: IVMVirtualPC FindVirtualNetwork method (VPCCOMInterfaces.h)
 description: Retrieves a virtual network object that matches the requested name.
 ms.assetid: 84526fa4-fe88-4466-866d-c432ed3125aa
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Resizes a video stream.
 ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
-title: Video Resizer DSP
-ms.topic: article
+title: Video Resizer DSP (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,10 +16,10 @@ CLSID\_CResizerDMO
 
 ## Interfaces
 
--   [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx)
+-   [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx)
 -   [**IMFRealTimeClient**](/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
--   [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
+-   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
 -   [**IWMResizerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops)
 
 ## Formats

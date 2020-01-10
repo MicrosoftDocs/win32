@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the next child data object, data reference object, or binary object in the DirectX file. Deprecated.
 ms.assetid: 8232e911-6552-4b2b-a9c2-59e6a13a0d9b
-title: IDirectXFileData::GetNextObject method
-ms.topic: article
+title: IDirectXFileData::GetNextObject method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**IDirectXFileObject**](idirectxfileobject.md) inter
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values: DXFILEERR\_BADVALUE, DXFILEERR\_NOMOREOBJECTS.
 

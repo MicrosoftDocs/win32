@@ -1,5 +1,5 @@
 ---
-title: TVM_DELETEITEM message
+title: TVM_DELETEITEM message (Commctrl.h)
 description: Removes an item and all its children from a tree-view control. You can send this message explicitly or by using the TreeView\_DeleteItem macro.
 ms.assetid: 225420a5-6ded-4786-a080-2817aa5f66c9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

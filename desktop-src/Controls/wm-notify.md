@@ -1,5 +1,5 @@
 ---
-title: WM_NOTIFY message
+title: WM_NOTIFY message (Winuser.h)
 description: Sent by a common control to its parent window when an event has occurred or the control requires some information.
 ms.assetid: 'vs|controls|~\controls\common\messages\wm_notify.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

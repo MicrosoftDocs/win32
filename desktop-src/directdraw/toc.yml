@@ -233,23 +233,23 @@
       href: directdraw-structures.md
       items: 
       - name: "DDBLTBATCH"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddbltbatch
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddbltbatch
       - name: "DDBLTFX"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddbltfx
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddbltfx
       - name: "DDCAPS"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddcaps_dx3
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddcaps_dx3
       - name: "DDCOLORCONTROL"
         href: /windows/desktop/api/Ddraw/ns-ddraw-_ddcolorcontrol
       - name: "DDCOLORKEY"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddcolorkey
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddcolorkey
       - name: "DDDEVICEIDENTIFIER2"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-tagdddeviceidentifier2
+        href: /windows/win32/api/Ddraw/ns-ddraw-dddeviceidentifier2
       - name: "DDGAMMARAMP"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddgammaramp
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddgammaramp
       - name: "DDOVERLAYFX"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddoverlayfx
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddoverlayfx
       - name: "DDPIXELFORMAT"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddpixelformat
+        href: /windows/win32/api/Ddraw/ns-ddraw-ddpixelformat
       - name: "DDSCAPS"
         href: /windows/desktop/api/Ddraw/ns-ddraw-_ddscaps
       - name: "DDSCAPS2"

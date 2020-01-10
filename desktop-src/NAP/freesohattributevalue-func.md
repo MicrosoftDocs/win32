@@ -1,5 +1,5 @@
 ---
-title: FreeSoHAttributeValue function
+title: FreeSoHAttributeValue function (NapUtil.h)
 description: Frees an SoHAttributeValue data structure.
 ms.assetid: 21647ee6-2ea2-45fd-b1f2-fb1836196f94
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

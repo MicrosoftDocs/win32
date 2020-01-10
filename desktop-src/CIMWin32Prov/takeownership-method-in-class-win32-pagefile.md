@@ -3,7 +3,7 @@ Description: The TakeOwnerShip&\#8194;WMI class method obtains ownership of the 
 ms.assetid: c4f42d54-562c-4163-a5ec-e94f76932631
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

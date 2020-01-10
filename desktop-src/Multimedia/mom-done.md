@@ -1,5 +1,5 @@
 ---
-title: MOM_DONE message
+title: MOM_DONE message (Mciapi.h)
 description: The MOM\_DONE message is sent to a MIDI output callback function when the specified system-exclusive or stream buffer has been played and is being returned to the application.
 ms.assetid: '0b9bd0e1-c87d-4f21-912e-5ac9f5c04192'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -36,7 +36,7 @@ dwParam2 = reserved
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
+Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
 
 </dd> <dt>
 

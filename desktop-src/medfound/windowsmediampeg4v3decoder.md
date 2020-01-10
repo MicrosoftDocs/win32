@@ -1,8 +1,8 @@
 ---
 Description: The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.
 ms.assetid: 5143b0cc-c171-46af-8d7f-4d029af71fb4
-title: Windows Media MPEG-4 V3 Decoder
-ms.topic: article
+title: Windows Media MPEG-4 V3 Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ The Windows Media MPEG-4 V3 decoder supports the following output media subtypes
 
 ## Remarks
 
-The Windows Media MPEG-4 V3 decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
+The Windows Media MPEG-4 V3 decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
 
 The MPEG-4 V3 decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which an MPEG-4 V3 decoder behaves as a DMO or an MFT.
 

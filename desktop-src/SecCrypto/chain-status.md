@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the validity status of the chain or a specific certificate in the chain.
 title: IChain2::Status property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -123,7 +123,7 @@ The revocation status of the certificate or one of the certificates in the certi
 
 </dt> <dd>
 
-One of the certificates in the chain was issued by a [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) that the original certificate had certified.
+One of the certificates in the chain was issued by a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) that the original certificate had certified.
 
 </dd> <dt>
 

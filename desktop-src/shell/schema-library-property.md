@@ -110,7 +110,7 @@ The requirements for the <canonical-name> element match the requirements for Win
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Property Schemas](https://msdn.microsoft.com/en-us/library/Cc144135(v=VS.85).aspx)
+[Property Schemas](https://msdn.microsoft.com/library/Cc144135(v=VS.85).aspx)
 </dt> <dt>
 
 [Search Connector Description Schema](https://msdn.microsoft.com/library/Dd940480(v=VS.85).aspx)

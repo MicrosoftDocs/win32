@@ -2,7 +2,7 @@
 Description: Sets the sample for the media stream source.
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 title: IMFMediaStreamSourceSampleRequest::SetSample method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [**RegisterWaitEvent**](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-registerwaitevent)       | Adds a wait event to the thread pool.                                                     |
 | [**UnregisterWaitEvent**](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-unregisterwaitevent)   | Removes a wait event from the thread pool.                                                |
-| [**InternalCreateStream**](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-internalcreatestream) | Called by [**CreateStream**](https://msdn.microsoft.com/en-us/library/ms732395(v=VS.85).aspx) to create a stream object. |
+| [**InternalCreateStream**](/windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-internalcreatestream) | Called by [**CreateStream**](https://msdn.microsoft.com/library/ms732395(v=VS.85).aspx) to create a stream object. |
 
 
 

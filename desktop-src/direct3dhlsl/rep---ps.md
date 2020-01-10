@@ -2,10 +2,10 @@
 title: rep - ps
 description: Start a rep...endrep - ps block.
 ms.assetid: 'vs|directx_sdk|~\rep___ps.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

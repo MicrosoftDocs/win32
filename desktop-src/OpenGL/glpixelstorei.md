@@ -1,5 +1,5 @@
 ---
-title: glPixelStorei function
+title: glPixelStorei function (Gl.h)
 description: Sets pixel storage modes.
 ms.assetid: 1e1e94e9-aabe-4923-a0a9-f1c041a925ba
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

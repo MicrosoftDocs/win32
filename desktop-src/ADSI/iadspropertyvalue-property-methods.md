@@ -1,5 +1,5 @@
 ---
-title: IADsPropertyValue Property Methods
+title: IADsPropertyValue Property Methods (Iads.h)
 description: The property methods of the IADsPropertyValue interface provide access to the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 1039d4a9-bef8-457d-9a32-3743c14adef1
 ms.tgt_platform: multiple
@@ -49,7 +49,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -232,7 +232,7 @@ HRESULT put_Integer(
 **LargeInteger**
 </dt> <dd> <dl>
 
-Pointer to the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface of the object implementing [**IADsLargeInteger**](/windows/desktop/api/Iads/nn-iads-iadslargeinteger) for this value.
+Pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface of the object implementing [**IADsLargeInteger**](/windows/desktop/api/Iads/nn-iads-iadslargeinteger) for this value.
 
 <dt>
 
@@ -344,7 +344,7 @@ HRESULT put_PrintableString(
 **SecurityDescriptor**
 </dt> <dd> <dl>
 
-Pointer to the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface of the object implementing [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor) for this value.
+Pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface of the object implementing [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor) for this value.
 
 <dt>
 
@@ -616,7 +616,7 @@ Cleanup:
 [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)
 </dt> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> </dl>
 
  

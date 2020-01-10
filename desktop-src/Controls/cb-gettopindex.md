@@ -1,5 +1,5 @@
 ---
-title: CB_GETTOPINDEX message
+title: CB_GETTOPINDEX message (Winuser.h)
 description: An application sends the CB\_GETTOPINDEX message to retrieve the zero-based index of the first visible item in the list box portion of a combo box.
 ms.assetid: 'vs|controls|~\controls\comboboxes\comboboxreference\comboboxmessages\cb_gettopindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

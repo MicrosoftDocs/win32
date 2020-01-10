@@ -28,7 +28,7 @@ If the current owner application is told to change media types, it does so by ha
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineHandoff**](https://msdn.microsoft.com/en-us/library/ms735980(v=VS.85).aspx), with *lpszFileName* set to the application name for a direct handoff or *dwMediaMode* set to one media type for an indirect handoff.
+**TAPI 2.x:** See [**lineHandoff**](https://msdn.microsoft.com/library/ms735980(v=VS.85).aspx), with *lpszFileName* set to the application name for a direct handoff or *dwMediaMode* set to one media type for an indirect handoff.
 
 **TAPI 3.x:** See [**ITBasicCallControl::HandoffDirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffdirect), [**ITBasicCallControl::HandoffIndirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect).
 

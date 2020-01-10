@@ -1,8 +1,8 @@
 ---
 Description: Used to report status or error information in response to a SCSI Request Sense command.
 ms.assetid: 43B2FE98-1468-4457-AB7D-3038C16E20B6
-title: SENSE_DATA structure
-ms.topic: structure
+title: SENSE_DATA structure (Scsi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

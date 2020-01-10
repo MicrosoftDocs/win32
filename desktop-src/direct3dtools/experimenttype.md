@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: EXPERIMENTTYPE enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 9AEBCF2D-4556-43A4-9C97-8184BA9DB22D
 api_name: 

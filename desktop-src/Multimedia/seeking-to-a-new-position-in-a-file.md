@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Seeking to a New Position in a File
 
-The following example moves to the beginning of an open file using the [**mmioSeek**](https://msdn.microsoft.com/en-us/library/Dd757336(v=VS.85).aspx) function.
+The following example moves to the beginning of an open file using the [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx) function.
 
 
 ```C++

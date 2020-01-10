@@ -1,8 +1,8 @@
 ---
 Description: Remove a bone.
 ms.assetid: efb88108-5c76-47c8-b8ce-1ba29cb18ba4
-title: ID3DX10SkinInfo::RemoveBone method
-ms.topic: article
+title: ID3DX10SkinInfo::RemoveBone method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT RemoveBone(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 An index that specifies which bone to remove. Must be between 0 and the value returned by [**ID3DX10SkinInfo::GetNumBones**](id3dx10skininfo-getnumbones.md).
 
@@ -46,7 +46,7 @@ An index that specifies which bone to remove. Must be between 0 and the value re
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be: E\_INVALIDARG.
 

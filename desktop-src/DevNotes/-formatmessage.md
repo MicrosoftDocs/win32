@@ -2,7 +2,7 @@
 Description: Formats a message string.
 ms.assetid: e5513b0d-5f93-4bcd-a011-eb4a6fab91e1
 title: '_FormatMessage function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **FormatMessage** function. This function may be altered or unavailable in the future. Applications should call **FormatMessage** directly.\]
 
-Formats a message string. See [**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx).
+Formats a message string. See [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ DWORD _FormatMessage(
 
 <dl> <dt>
 
-[**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx)
+[**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx)
 </dt> </dl>
 
  

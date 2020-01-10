@@ -1,8 +1,8 @@
 ---
 Description: The FormatProperties export function formats the data that is displayed in the details pane of the Network Monitor UI. If you want to display data in the details pane, you must implement the FormatProperties export function in all parser DLLs.
 ms.assetid: 78e0b4b9-f19e-41cb-8504-635f3f9ac1ee
-title: FormatProperties callback function
-ms.topic: article
+title: FormatProperties callback function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

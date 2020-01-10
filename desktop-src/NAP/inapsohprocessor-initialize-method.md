@@ -1,5 +1,5 @@
 ---
-title: INapSoHProcessor Initialize method
+title: INapSoHProcessor Initialize method (NapProtocol.h)
 description: Initializes the protocol packet and SoH processor system. This method must be called exactly once.
 ms.assetid: 4fccc847-3c4d-4fc5-935d-28fb2964a9be
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

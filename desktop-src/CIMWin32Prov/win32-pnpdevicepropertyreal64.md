@@ -3,7 +3,7 @@ Description: Represents a PnP device property of type real64.
 ms.assetid: 0C1CE76A-8E31-4A97-9483-DA3E24FD634B
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyReal64 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

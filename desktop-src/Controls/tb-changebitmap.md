@@ -1,5 +1,5 @@
 ---
-title: TB_CHANGEBITMAP message
+title: TB_CHANGEBITMAP message (Commctrl.h)
 description: Changes the bitmap for a button in a toolbar.
 ms.assetid: 112b6f4e-6034-4e13-8b2f-b8411a351fbd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

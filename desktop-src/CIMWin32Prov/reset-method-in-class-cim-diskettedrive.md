@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_DisketteDrive class requests a reset o
 ms.assetid: 4e2c7759-5bf0-43a5-8cc4-186d8b1e61c4
 ms.tgt_platform: multiple
 title: Reset method of the CIM_DisketteDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

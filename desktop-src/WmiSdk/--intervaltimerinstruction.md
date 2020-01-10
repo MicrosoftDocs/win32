@@ -3,7 +3,7 @@ Description: Generates events at intervals, similar to a WM\_TIMER message in Wi
 ms.assetid: 0895a743-a0dd-4833-a2bf-0196369e18b9
 ms.tgt_platform: multiple
 title: '__IntervalTimerInstruction class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

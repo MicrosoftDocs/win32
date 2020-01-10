@@ -2,7 +2,7 @@
 Description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
 ms.assetid: 5cf3d249-3d8b-4596-9d8b-e7b95a270eff
 title: IMFCdmSuspendNotify::Begin method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

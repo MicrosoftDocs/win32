@@ -2,10 +2,10 @@
 title: dcl_outputTopology (sm4 - asm)
 description: dcl\_outputTopology (sm4 - asm)
 ms.assetid: a03a6feb-ec34-4655-a68c-a91e31e7140b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

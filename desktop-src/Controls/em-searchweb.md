@@ -1,5 +1,5 @@
 ---
-title: EM_SEARCHWEB message
+title: EM_SEARCHWEB message (Commctrl.h)
 description: Opens the browser and performs a web search with the selected text as the search term.
 ms.assetid: 1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

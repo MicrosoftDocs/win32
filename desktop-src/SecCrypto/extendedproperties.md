@@ -2,7 +2,7 @@
 Description: Represents a collection of ExtendedProperty objects.
 ms.assetid: '9de25994-9f0b-47a0-b4c8-781aec782f88'
 title: ExtendedProperties object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -60,7 +60,7 @@ The **ExtendedProperties** object has these properties.
 
 | Property                                                   | Access type          | Description                                                                                                                                                                                                                     |
 |:-----------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](extendedproperties-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](extendedproperties-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](extendedproperties-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**ExtendedProperty**](extendedproperty.md) objects in the collection.<br/>                                                                                                                      |
 | [**Item**](extendedproperties-item.md)<br/>         | Read-only<br/> | Retrieves an [**ExtendedProperty**](extendedproperty.md) object that represents the indexed extended property of the collection. This is the default property.<br/>                                                      |
 

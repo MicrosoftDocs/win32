@@ -1,8 +1,8 @@
 ---
 Description: Contains pointers to callback functions that can be used by cryptographic service provider (CSP) functions.
 ms.assetid: 84a379e9-c6b9-4c1d-bbbb-9bed4a045d90
-title: VTableProvStruc structure
-ms.topic: structure
+title: VTableProvStruc structure (Cspdk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,7 +18,7 @@ api_location:
 
 # VTableProvStruc structure
 
-The **VTableProvStruc** structure contains pointers to callback functions that can be used by [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) functions.
+The **VTableProvStruc** structure contains pointers to callback functions that can be used by [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) functions.
 
 ## Syntax
 
@@ -53,7 +53,7 @@ This is a version 1 member.
 **FuncVerifyImage**
 </dt> <dd>
 
-The address of a [**FuncVerifyImage**](funcverifyimage.md) callback function that the CSP uses to verify the signature of any DLLs that the CSP will load. All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
+The address of a [**FuncVerifyImage**](funcverifyimage.md) callback function that the CSP uses to verify the signature of any DLLs that the CSP will load. All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
 
 This function pointer can be stored and used until the CSP context is released.
 
@@ -75,7 +75,7 @@ This is a version 1 member.
 **dwProvType**
 </dt> <dd>
 
-A **DWORD** value that specifies the type of provider to acquire. The following [*provider types*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) are predefined and are discussed in detail in [CSP Interoperability](https://www.bing.com/search?q=CSP+Interoperability):
+A **DWORD** value that specifies the type of provider to acquire. The following [*provider types*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) are predefined and are discussed in detail in [CSP Interoperability](https://www.bing.com/search?q=CSP+Interoperability):
 
 -   PROV\_RSA\_FULL
 -   PROV\_RSA\_SIG

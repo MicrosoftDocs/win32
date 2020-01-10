@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks NodemaskCb method
+title: ID3DX12PipelineParserCallbacks NodemaskCb method (D3DX12.h)
 description: Calls the nodemask subobject callback of an object that implements this interface.
 ms.assetid: F5A408B7-A777-4BBC-A2A3-1BC3551E65ED
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

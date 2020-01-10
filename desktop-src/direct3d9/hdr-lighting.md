@@ -12,7 +12,7 @@ Lighting in the real world contains a very high dynamic range (HDR) of luminance
 
 Tone mapping is the technique used by DirectX for mapping HDR information into a more limited range. Tone mapping applied to CGI rendering can dramatically improve the amount of lighting detail rendered, allowing details in the darkest areas to be seen, and providing contrast in areas that are so bright, they appear burned. The resulting scenes render with far more visible lighting detail.
 
-[HDRLighting Sample](https://msdn.microsoft.com/en-us/library/Ee417769(v=VS.85).aspx) is a SDK sample that demonstrates HDR lighting.
+[HDRLighting Sample](https://msdn.microsoft.com/library/Ee417769(v=VS.85).aspx) is a SDK sample that demonstrates HDR lighting.
 
 ## Tone Mapping
 

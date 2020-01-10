@@ -1,8 +1,8 @@
 ---
 Description: Broadcast to every window following a theme change event. Examples of theme change events are the activation of a theme, the deactivation of a theme, or a transition from one theme to another.
 ms.assetid: 1a4051ac-cc6e-4520-ab66-d0a41a8a4c73
-title: WM_THEMECHANGED message
-ms.topic: article
+title: WM_THEMECHANGED message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 > [!Note]  
 > This message is posted by the operating system. Applications typically do not send this message.

@@ -1,8 +1,8 @@
 ---
 Description: Set the mesh's attribute data.
 ms.assetid: bcf7b1b3-b923-400a-8d12-5094f3844d8f
-title: ID3DX10Mesh::SetAttributeData method
-ms.topic: article
+title: ID3DX10Mesh::SetAttributeData method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT SetAttributeData(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **const [**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 The attribute data to set.
 
@@ -46,7 +46,7 @@ The attribute data to set.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

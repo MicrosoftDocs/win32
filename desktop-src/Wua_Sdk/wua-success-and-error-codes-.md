@@ -1,7 +1,7 @@
 ---
 ms.assetid: 484CABA1-5488-41AC-A6CC-51D0084DFC54
-title: WUA Success and Error Codes
-ms.topic: article
+title: WUA Success and Error Codes (Wuerror.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the path to the specified printer driver package on a print server.
 ms.assetid: e88e984b-d2c0-43b4-8f70-b05ec202ab14
-title: GetPrinterDriverPackagePath function
-ms.topic: article
+title: GetPrinterDriverPackagePath function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -95,7 +95,7 @@ A pointer to the required size of the *pszDriverPackageCab* buffer.
 
 If the operation succeeds, the return value is S\_OK, otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Remarks
 

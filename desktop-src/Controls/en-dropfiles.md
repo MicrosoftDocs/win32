@@ -1,5 +1,5 @@
 ---
-title: EN_DROPFILES notification code
+title: EN_DROPFILES notification code (Richedit.h)
 description: Notifies a rich edit control parent window that the user is attempting to drop files into the control. A rich edit control sends this notification code in the form of a WM\_NOTIFY message when it receives the WM\_DROPFILES message.
 ms.assetid: fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Proxy function for the CreateNewFrame method.
 ms.assetid: b23e8689-0fdc-49a7-a004-148b50420127
 title: IWICBitmapEncoder_CreateNewFrame_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ A pointer that receives a pointer to the new instance of an [**IWICBitmapFrameEn
 *ppIEncoderOptions* \[in, out\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx)\*\***
+Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\*\***
 
 The named properties to use for frame initialization.
 

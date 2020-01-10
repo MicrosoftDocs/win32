@@ -1,5 +1,5 @@
 ---
-title: MM_MOM_DONE message
+title: MM_MOM_DONE message (Mmsystem.h)
 description: The MM\_MOM\_DONE message is sent to a window when the specified MIDI system-exclusive or stream buffer has been played and is being returned to the application.
 ms.assetid: 4651d5b4-3c98-4fa7-b761-dafb30e0d31e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ Handle to the MIDI output device that played the buffer.
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
+Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
 
 </dd> </dl>
 

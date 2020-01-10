@@ -49,10 +49,10 @@ TAPI version 2.2 enables development of communications applications for the Wind
 
 <dl> <dt>
 
-[TAPI 3.1](https://msdn.microsoft.com/en-us/library/ms734215(v=VS.85).aspx)
+[TAPI 3.1](https://msdn.microsoft.com/library/ms734215(v=VS.85).aspx)
 </dt> <dt>
 
-[TAPI Service Providers](https://msdn.microsoft.com/en-us/library/ms725513(v=VS.85).aspx)
+[TAPI Service Providers](https://msdn.microsoft.com/library/ms725513(v=VS.85).aspx)
 </dt> </dl>
 
  

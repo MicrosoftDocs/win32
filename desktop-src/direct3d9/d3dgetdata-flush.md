@@ -1,8 +1,8 @@
 ---
 Description: This macro creates the value passed to GetData to flush query data.
 ms.assetid: 874fe2d7-d7d8-49eb-8057-e606982527fa
-title: D3DGETDATA_FLUSH
-ms.topic: article
+title: D3DGETDATA_FLUSH (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

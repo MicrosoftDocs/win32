@@ -1,8 +1,8 @@
 ---
 Description: Determines if a parameter is used by the technique.
 ms.assetid: ac50c0d3-93d9-4477-a854-d0b53df28c90
-title: ID3DXEffect::IsParameterUsed method
-ms.topic: article
+title: ID3DXEffect::IsParameterUsed method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Unique identifier for the technique. See [Handles (Direct3D 9)](handles.md).
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the parameter is being used and returns **FALSE** if the parameter is not being used.
 

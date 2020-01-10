@@ -1,5 +1,5 @@
 ---
-title: DsBackupOpenFile function
+title: DsBackupOpenFile function (Ntdsbcli.h)
 description: Opens the specified file and performs the client and server operations necessary to prepare the file for backup.
 ms.assetid: 1ffb81ee-9e7e-4d88-91fc-f1857377d125
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 Description: The CIM\_MediaAccessDevice class represents the ability to access one or more media, and then use the media to store and retrieve data.
 ms.assetid: 224a7b08-1566-4b0b-90d8-9991fa188d93
 ms.tgt_platform: multiple
-title: CIM_MediaAccessDevice class
-ms.topic: article
+title: CIM_MediaAccessDevice class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

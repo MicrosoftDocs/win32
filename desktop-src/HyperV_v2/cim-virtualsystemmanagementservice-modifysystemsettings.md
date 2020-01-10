@@ -2,7 +2,7 @@
 Description: Modifies virtual system settings.
 ms.assetid: 9c3d28f8-9806-411a-866f-d062c6d31818
 title: ModifySystemSettings method of the CIM_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

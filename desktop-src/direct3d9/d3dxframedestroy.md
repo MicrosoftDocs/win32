@@ -1,8 +1,8 @@
 ---
 Description: Destroys the subtree of frames under the root, including the root.
 ms.assetid: 0bbb529f-01d8-430b-a72b-4af5f7a71253
-title: D3DXFrameDestroy function
-ms.topic: article
+title: D3DXFrameDestroy function (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Allocation interface used to deallocate nodes of the frame hierarchy.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

@@ -2,8 +2,8 @@
 Description: The GetRequestId method returns a Globally Unique Identifier (GUID) value for a request. A GUID is a unique 128-bit number.
 ms.assetid: c8df15cf-ab48-491f-ac18-1dad567bbc0b
 ms.tgt_platform: multiple
-title: IWbemCausalityAccess::GetRequestId method
-ms.topic: article
+title: IWbemCausalityAccess::GetRequestId method (Wbemint.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

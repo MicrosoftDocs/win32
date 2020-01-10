@@ -3,7 +3,7 @@ Description: An association between a virtual system and the setting data of the
 ms.assetid: d11e00e0-a163-49ea-b8ef-e3909a7dc83f
 ms.tgt_platform: multiple
 title: CIM_PreviousSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

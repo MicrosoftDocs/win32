@@ -3,7 +3,7 @@ Description: The SetDynamicDNSRegistration method indicates the dynamic DNS regi
 ms.assetid: 8e6ca408-3283-40b8-b621-9befdc39b730
 ms.tgt_platform: multiple
 title: SetDynamicDNSRegistration method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

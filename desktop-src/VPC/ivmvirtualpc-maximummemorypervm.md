@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MaximumMemoryPerVM property
+title: IVMVirtualPC MaximumMemoryPerVM property (VPCCOMInterfaces.h)
 description: Retrieves the maximum allowable quantity of physical memory per virtual machine, in megabytes.
 ms.assetid: eb30dd6c-8f37-4cf9-9ed7-47925b5b1112
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the index of the bone influence affecting a single vertex.
 ms.assetid: 'vs|directx_sdk|~\id3dxskininfo__findbonevertexinfluenceindex.htm'
-title: ID3DXSkinInfo::FindBoneVertexInfluenceIndex method
-ms.topic: article
+title: ID3DXSkinInfo::FindBoneVertexInfluenceIndex method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT FindBoneVertexInfluenceIndex(
 *boneNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Index of the bone. Must be between 0 and the number of bones.
 
@@ -49,7 +49,7 @@ Index of the bone. Must be between 0 and the number of bones.
 *vertexNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Index of the vertex for which the bone influence is to be found. Must be between 0 and the number of vertices in the mesh.
 
@@ -58,7 +58,7 @@ Index of the vertex for which the bone influence is to be found. Must be between
 *pInfluenceIndex* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the index of the bone influence that affects vertexNum.
 
@@ -66,7 +66,7 @@ Pointer to the index of the bone influence that affects vertexNum.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the specified bone does not influence the given vertex, S\_FALSE is returned. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

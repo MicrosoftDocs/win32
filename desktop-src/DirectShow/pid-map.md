@@ -1,8 +1,8 @@
 ---
 Description: The PID\_MAP structure contains identifies the contents of an MPEG-2 transport stream packet ID.
 ms.assetid: c247ec75-483d-4587-a82f-07bbf6d277b4
-title: PID_MAP structure
-ms.topic: structure
+title: PID_MAP structure (Bdatypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

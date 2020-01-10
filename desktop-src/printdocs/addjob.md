@@ -1,8 +1,8 @@
 ---
 Description: The AddJob function adds a print job to the list of print jobs that can be scheduled by the print spooler. The function retrieves the name of the file you can use to store the job.
 ms.assetid: cfafa874-6022-4bf4-bf3d-096213eb0c98
-title: AddJob function
-ms.topic: article
+title: AddJob function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

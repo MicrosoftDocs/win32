@@ -1,8 +1,8 @@
 ---
 Description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh. Typically used to determine whether a given point is in shadow.
 ms.assetid: fcd53a0f-80e8-4013-8efd-125e38f4ccd0
-title: ID3DXPRTEngine::ShadowRayIntersects method
-ms.topic: article
+title: ID3DXPRTEngine::ShadowRayIntersects method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the normali
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the current mesh; otherwise, returns **FALSE**.
 

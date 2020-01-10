@@ -68,7 +68,7 @@ Knowing how to create and share factories and render targets across threads can 
 
 ![direct2d multithreading diagram with a single render target.](images/server-side-rendering-1.png)
 
-In figure 1, different threads share the same factory and the same render target. This approach can lead to unpredictable results in cases when multiple threads simultaneously change the state of the shared render target, such as simultaneously setting the transformation matrix. As the internal locking in Direct2D does not synchronize a shared resource such as render targets, this approach can cause the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) call to fail in thread 1, because in thread 2, the **BeginDraw** call is already using the shared render target.
+In figure 1, different threads share the same factory and the same render target. This approach can lead to unpredictable results in cases when multiple threads simultaneously change the state of the shared render target, such as simultaneously setting the transformation matrix. As the internal locking in Direct2D does not synchronize a shared resource such as render targets, this approach can cause the [**BeginDraw**](https://msdn.microsoft.com/library/Dd371768(v=VS.85).aspx) call to fail in thread 1, because in thread 2, the **BeginDraw** call is already using the shared render target.
 
 ![direct2d multithreading diagram with multiple render targets.](images/server-side-rendering-2.png)
 

@@ -1,5 +1,5 @@
 ---
-title: TF_TF_ Constants
+title: TF_TF_ Constants (Msctf.h)
 description: The TF\_TF\_\ constants are used to specify options with the ITfRange GetText method.
 ms.assetid: 1b779d99-3e09-4789-8575-73a6ecb44e3b
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

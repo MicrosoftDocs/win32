@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection GetSoHRequest method
+title: INapEnforcementClientConnection GetSoHRequest method (NapEnforcementClient.h)
 description: Gets the current SoH-Request.
 ms.assetid: 21397a0d-ef18-494e-9c5a-43d7f6216a67
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

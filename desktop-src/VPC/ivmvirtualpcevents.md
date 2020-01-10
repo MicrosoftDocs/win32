@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPCEvents interface
+title: IVMVirtualPCEvents interface (VPCCOMInterfaces.h)
 description: Defines the outgoing event interface for the IVMVirtualPC interface.
 ms.assetid: 40ce14d8-43e4-4c72-9729-e5503d882be6
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the outgoing event interface for the [**IVMVirtualPC**](ivmvirtualpc.md)
 
 ## Members
 
-The **IVMVirtualPCEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualPCEvents** also has these types of members:
+The **IVMVirtualPCEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualPCEvents** also has these types of members:
 
 -   [Methods](#methods)
 

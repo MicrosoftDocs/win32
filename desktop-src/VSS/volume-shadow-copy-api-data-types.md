@@ -43,7 +43,7 @@ The **VSS\_PWSZ** definition specifies a null-terminated wide character string (
 typedef LONGLONG VSS_TIMESTAMP;
 ```
 
-The **VSS\_TIMESTAMP** definition holds time-stamp information as a 64-bit integer value containing the number of 100-nanosecond intervals since January 1, 1601 (UTC). This definition is interchangeable with the [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure.
+The **VSS\_TIMESTAMP** definition holds time-stamp information as a 64-bit integer value containing the number of 100-nanosecond intervals since January 1, 1601 (UTC). This definition is interchangeable with the [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure.
 
 </dd> </dl>
 

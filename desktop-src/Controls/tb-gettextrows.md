@@ -1,5 +1,5 @@
 ---
-title: TB_GETTEXTROWS message
+title: TB_GETTEXTROWS message (Commctrl.h)
 description: Retrieves the maximum number of text rows that can be displayed on a toolbar button.
 ms.assetid: a7950e5f-c80a-4af2-9ccd-d8e3df5552d2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

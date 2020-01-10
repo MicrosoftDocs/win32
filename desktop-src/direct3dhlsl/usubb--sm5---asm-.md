@@ -2,7 +2,7 @@
 title: usubb (sm5 - asm)
 description: Unsigned integer subtract with borrow.
 ms.assetid: 6D42E3CA-5A37-4194-AB42-7A2337C5AB9D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

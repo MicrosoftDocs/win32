@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_DESCRIPTOR_RANGE structure
+title: CD3DX12_DESCRIPTOR_RANGE structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_DESCRIPTOR\_RANGE structure.
 ms.assetid: F066ECA5-5E52-4483-B773-B43C5F12809B
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

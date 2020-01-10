@@ -1,5 +1,5 @@
 ---
-title: TextureCube Gather methods
+title: TextureCube::TextureCube Gather methods
 description: Samples a texture and returns all four components.
 ms.assetid: 4891A62A-9D54-4F7E-92C2-9CDDF1453671
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

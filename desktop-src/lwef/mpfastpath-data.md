@@ -1,5 +1,5 @@
 ---
-title: MPFASTPATH_DATA structure
+title: MPFASTPATH_DATA structure (MpClient.h)
 description: FastPath update notification.
 ms.assetid: E19F153D-DD46-4E27-9A4B-33586794DAC2
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Transaction Management
+title: Transaction Management (Data Exchange)
 description: This topic discusses how a client can send transactions to obtain data and services from the server.
 ms.assetid: 2d08ffa3-cbd7-4806-b94f-979938322c38
 keywords:
@@ -39,7 +39,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Transaction Management
+# Transaction Management (Data Exchange)
 
 After establishing a conversation with a server, a client can send transactions to obtain data and services from the server.
 

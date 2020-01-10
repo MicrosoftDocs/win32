@@ -1,5 +1,5 @@
 ---
-title: RWByteAddressBuffer Load2 methods
+title: RWByteAddressBuffer::RWByteAddressBuffer Load2 methods
 description: Gets two values from a RWByteAddressBuffer.
 ms.assetid: 0D397B74-282E-4492-9E07-31D3A44DF83A
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

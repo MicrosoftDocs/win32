@@ -1,5 +1,5 @@
 ---
-title: XTYP_XACT_COMPLETE transaction
+title: XTYP_XACT_COMPLETE transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) client callback function, DdeCallback, receives the XTYP\_XACT\_COMPLETE transaction when an asynchronous transaction, initiated by a call to the DdeClientTransaction function, has completed.
 ms.assetid: d34a6fab-0e3c-44fe-b25f-7011228fe261
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_XACT\_COMPLETE transaction
 
-A Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_XACT\_COMPLETE** transaction when an asynchronous transaction, initiated by a call to the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function, has completed.
+A Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_XACT\_COMPLETE** transaction when an asynchronous transaction, initiated by a call to the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function, has completed.
 
 
 ```C++

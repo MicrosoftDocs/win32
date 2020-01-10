@@ -1,8 +1,8 @@
 ---
 Description: The ISCardLocate interface provides services for locating a smart card by its name.
 ms.assetid: add00705-69d5-4562-a74f-94c6864f6bd8
-title: ISCardLocate interface
-ms.topic: interface
+title: ISCardLocate interface (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,13 +18,13 @@ api_location:
 
 # ISCardLocate interface
 
-\[The **ISCardLocate** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ISCardLocate** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ISCardLocate** interface provides services for locating a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) by its name.
+The **ISCardLocate** interface provides services for locating a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) by its name.
 
-This interface can display the smart card [*user interface*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) if it is required.
+This interface can display the smart card [*user interface*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) if it is required.
 
-The following scenario shows a typical use of the **ISCardLocate** interface. The **ISCardLocate** interface is used to build an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU).
+The following scenario shows a typical use of the **ISCardLocate** interface. The **ISCardLocate** interface is used to build an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU).
 
 **To locate a specific card using its name**
 
@@ -36,7 +36,7 @@ The following scenario shows a typical use of the **ISCardLocate** interface. Th
 
 ## Members
 
-The **ISCardLocate** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ISCardLocate** also has these types of members:
+The **ISCardLocate** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ISCardLocate** also has these types of members:
 
 -   [Methods](#methods)
 

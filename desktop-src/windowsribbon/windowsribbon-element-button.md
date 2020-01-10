@@ -1,5 +1,5 @@
 ---
-title: Button element
+title: Button element (Windows Ribbon Framework)
 description: Represents a Button control.
 ms.assetid: a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Button
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

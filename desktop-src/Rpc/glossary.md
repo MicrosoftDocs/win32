@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glossary (RPC)
 description: Glossary
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article

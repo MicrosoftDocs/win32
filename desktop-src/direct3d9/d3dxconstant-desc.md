@@ -1,8 +1,8 @@
 ---
 Description: A description of a constant in a constant table.
 ms.assetid: d1970536-7195-4270-a1b9-b082ebe4f17f
-title: D3DXCONSTANT_DESC structure
-ms.topic: structure
+title: D3DXCONSTANT_DESC structure (D3dx9shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ typedef struct D3DXCONSTANT_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -59,18 +59,18 @@ Name of the constant.
 **RegisterSet**
 </dt> <dd>
 
-Type: **[**D3DXREGISTER\_SET**](https://msdn.microsoft.com/en-us/library/Bb205424(v=VS.85).aspx)**
+Type: **[**D3DXREGISTER\_SET**](https://msdn.microsoft.com/library/Bb205424(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Constant data type. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/en-us/library/Bb205424(v=VS.85).aspx).
+Constant data type. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/library/Bb205424(v=VS.85).aspx).
 
 </dd> <dt>
 
 **RegisterIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -81,7 +81,7 @@ Zero-based index of the constant in the table.
 **RegisterCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -92,29 +92,29 @@ Number of registers that contain data.
 **Class**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx)**
+Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/library/Bb205378(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Parameter class. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/en-us/library/Bb205378(v=VS.85).aspx).
+Parameter class. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/library/Bb205378(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx)**
+Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/library/Bb205380(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Parameter type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205380(v=VS.85).aspx).
+Parameter type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/library/Bb205380(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -125,7 +125,7 @@ Number of rows.
 **Columns**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -136,7 +136,7 @@ Number of columns.
 **Elements**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -147,7 +147,7 @@ Number of elements in the array.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -158,7 +158,7 @@ Number of structure member sub-parameters.
 **Bytes**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -169,7 +169,7 @@ Data size in number of bytes.
 **DefaultValue**
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

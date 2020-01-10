@@ -1,5 +1,5 @@
 ---
-title: TB_GETDISABLEDIMAGELIST message
+title: TB_GETDISABLEDIMAGELIST message (Commctrl.h)
 description: Retrieves the image list that a toolbar control uses to display inactive buttons.
 ms.assetid: 8f6782d5-488b-4906-908a-e4bf8d512e0a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

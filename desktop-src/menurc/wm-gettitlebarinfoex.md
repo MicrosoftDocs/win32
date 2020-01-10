@@ -1,5 +1,5 @@
 ---
-title: WM_GETTITLEBARINFOEX message
+title: WM_GETTITLEBARINFOEX message (Winuser.h)
 description: Sent to request extended title bar information. A window receives this message through its WindowProc function.
 ms.assetid: 0760dbf1-5b20-471c-bfd9-b8d28b52074b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

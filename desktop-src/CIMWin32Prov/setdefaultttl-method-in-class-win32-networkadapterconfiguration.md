@@ -3,7 +3,7 @@ Description: The SetDefaultTTL WMI class static method is used to set the defaul
 ms.assetid: 74b060de-512c-407e-9f93-c3b496f8d09d
 ms.tgt_platform: multiple
 title: SetDefaultTTL method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

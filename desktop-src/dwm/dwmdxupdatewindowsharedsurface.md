@@ -1,8 +1,8 @@
-﻿---
+---
 Description: Notifies the DWM of an incoming update to a window shared surface.
 ms.assetid: 8357D977-E501-47D7-85BC-7C8954C6D166
 title: DwmDxUpdateWindowSharedSurface function
-ms.topic: article
+ms.topic: reference
 ms.date: 11/27/2018
 topic_type:
  - APIRef

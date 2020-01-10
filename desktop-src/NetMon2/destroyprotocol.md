@@ -1,8 +1,8 @@
 ---
 Description: The DestroyProtocol function destroys the protocol that the CreateProtocol function creates.
 ms.assetid: f7621c2a-1905-4748-b8e3-7b49f3f2bf03
-title: DestroyProtocol function
-ms.topic: article
+title: DestroyProtocol function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

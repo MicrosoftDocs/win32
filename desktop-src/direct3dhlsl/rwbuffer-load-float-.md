@@ -1,5 +1,5 @@
 ---
-title: Load(int) function
+title: RWBuffer::Load(int) function
 description: Reads buffer data.
 ms.assetid: 3066E244-DE56-4F0D-8443-018B9EFEC1FF
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

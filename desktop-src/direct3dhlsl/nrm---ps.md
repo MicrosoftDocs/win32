@@ -2,10 +2,10 @@
 title: nrm - ps
 description: Normalize a 3D vector.
 ms.assetid: 4881037d-3ad1-4afb-b4ad-d615c6b8fe34
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

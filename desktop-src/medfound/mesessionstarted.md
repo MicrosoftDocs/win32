@@ -1,8 +1,8 @@
 ---
 Description: Raised when the IMFMediaSession::Start method completes asynchronously.
 ms.assetid: 28ed32f0-9b23-4da1-9587-15f490da7bf9
-title: MESessionStarted event
-ms.topic: article
+title: MESessionStarted event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

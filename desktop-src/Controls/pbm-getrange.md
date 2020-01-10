@@ -1,5 +1,5 @@
 ---
-title: PBM_GETRANGE message
+title: PBM_GETRANGE message (Commctrl.h)
 description: Retrieves information about the current high and low limits of a given progress bar control.
 ms.assetid: 676b7a37-bdde-4307-9888-9a0cf40db2db
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

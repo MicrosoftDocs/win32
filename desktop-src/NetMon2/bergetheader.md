@@ -1,8 +1,8 @@
 ---
 Description: The BERGetHeader function decodes a choice header.
 ms.assetid: 2574a9b3-c28e-43d1-904f-d45888617584
-title: BERGetHeader function
-ms.topic: article
+title: BERGetHeader function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

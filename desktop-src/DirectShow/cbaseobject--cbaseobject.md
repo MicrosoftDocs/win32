@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: 3714d030-f0bd-4826-a3c5-fc206bb88561
-title: CBaseObject.~CBaseObject destructor
-ms.topic: article
+title: CBaseObject.~CBaseObject destructor (Combase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

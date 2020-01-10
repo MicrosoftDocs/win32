@@ -1,5 +1,5 @@
 ---
-title: EDB_RSTMAP structure
+title: EDB_RSTMAP structure (Ntdsbcli.h)
 description: Used with the DsRestoreRegister function to map a backed up database to a new database.
 ms.assetid: b2c5d30a-3617-4807-82e8-57f7179b817c
 ms.tgt_platform: multiple
@@ -16,7 +16,7 @@ api_location:
 - Ntdsbcli.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

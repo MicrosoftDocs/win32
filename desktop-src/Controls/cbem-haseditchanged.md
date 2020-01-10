@@ -1,5 +1,5 @@
 ---
-title: CBEM_HASEDITCHANGED message
+title: CBEM_HASEDITCHANGED message (Commctrl.h)
 description: Determines whether the user has changed the text of a ComboBoxEx edit control.
 ms.assetid: 8bf8c40a-e1ab-4748-899b-a9ed27767884
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

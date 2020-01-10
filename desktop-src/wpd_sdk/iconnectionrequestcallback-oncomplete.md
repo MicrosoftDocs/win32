@@ -1,8 +1,8 @@
 ---
 Description: Notifies an application that a previously scheduled Connect or Disconnect request to the MTP/Bluetooth device has completed.
 ms.assetid: 1588d0ec-0d6a-4379-bfdc-4ba5fdaa4665
-title: IConnectionRequestCallback::OnComplete method
-ms.topic: article
+title: IConnectionRequestCallback::OnComplete method (Devpkey.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

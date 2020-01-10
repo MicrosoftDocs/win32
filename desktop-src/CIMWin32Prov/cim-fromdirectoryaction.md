@@ -3,7 +3,7 @@ Description: The CIM\_FromDirectoryAction association identifies the source dire
 ms.assetid: 25d06dad-ae39-4cfc-9331-4be7ef02d87c
 ms.tgt_platform: multiple
 title: CIM_FromDirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

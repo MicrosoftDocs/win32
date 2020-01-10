@@ -1,5 +1,5 @@
 ---
-title: TF_ Constants
+title: TF_ Constants (Msctf.h)
 description: TSF atom function calls use these constants to manage thread input processes.
 ms.assetid: '37af6ed6-bd01-4b05-8c80-e9756f417db8'
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionLinearTransferEffect SetGreenSlope methods
+title: IDCompositionLinearTransferEffect SetGreenSlope methods (Dcomp.h)
 description: Sets the slope of the linear function for the green channel.
 ms.assetid: e7e92544-dbc5-91ce-b818-056b7b572a7c
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionLinearTransferEffect::SetGreenSlope methods
@@ -24,8 +24,8 @@ Sets the slope of the linear function for the green channel.
 
 | Method                                                                                                 | Description                                                             |
 |:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-| [**SetGreenSlope**](https://msdn.microsoft.com/en-us/library/Dn919754(v=VS.85).aspx)                               | Sets the slope of the linear function for the green channel.<br/> |
-| [**SetGreenSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919755(v=VS.85).aspx) | Sets the slope of the linear function for the green channel.<br/> |
+| [**SetGreenSlope**](https://msdn.microsoft.com/library/Dn919754(v=VS.85).aspx)                               | Sets the slope of the linear function for the green channel.<br/> |
+| [**SetGreenSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919755(v=VS.85).aspx) | Sets the slope of the linear function for the green channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the slope of the linear function for the green channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

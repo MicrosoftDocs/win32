@@ -1,8 +1,8 @@
 ---
 Description: The InitialThreadProc method calls the main thread procedure.
 ms.assetid: 1546c214-7ea9-4484-974b-dbd4b2b3e296
-title: CAMThread.InitialThreadProc method
-ms.topic: article
+title: CAMThread.InitialThreadProc method (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

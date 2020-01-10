@@ -10,7 +10,7 @@ api_name:
 - MENUEX
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -104,7 +104,7 @@ Numeric expression indicating the state of the menu item To use the predefined M
 <span id="helpID"></span><span id="helpid"></span><span id="HELPID"></span>*helpID*
 </dt> <dd>
 
-Numeric expression indicating the identifier used to identify the menu during [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) processing.
+Numeric expression indicating the identifier used to identify the menu during [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) processing.
 
 </dd> </dl> </dd> <dt>
 

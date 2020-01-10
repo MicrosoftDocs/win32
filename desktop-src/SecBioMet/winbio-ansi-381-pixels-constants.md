@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANSI_381_PIXELS Constants
+title: WINBIO_ANSI_381_PIXELS Constants (Winbio\_types.h)
 description: Specify scale units.
 ms.assetid: D349081E-FF29-40D1-BC42-870F595AC338
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 0.
 ms.assetid: 7aba1e94-6531-4c07-83b0-6100805e8bbd
-title: D3DXPlaneDotNormal function
-ms.topic: article
+title: D3DXPlaneDotNormal function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The dot product of the plane and 3D vector.
 

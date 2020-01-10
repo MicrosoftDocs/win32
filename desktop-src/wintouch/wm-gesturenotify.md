@@ -1,5 +1,5 @@
 ---
-title: WM_GESTURENOTIFY message
+title: WM_GESTURENOTIFY message (Winuser.h)
 description: Gives you a chance to set the gesture configuration.
 ms.assetid: 83c23928-86ce-421d-bb84-5c41a770bf60
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

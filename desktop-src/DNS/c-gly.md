@@ -1,7 +1,7 @@
 ---
-title: C
+title: C (DNS)
 description: Domain Name System (DNS) glossary entries that start with C.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 49373608-6509-4528-822f-58c6a8960022
 ms.topic: article
 ms.date: 05/31/2018

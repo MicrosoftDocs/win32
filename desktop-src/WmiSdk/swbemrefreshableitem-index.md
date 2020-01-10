@@ -2,8 +2,8 @@
 Description: Represents the index of the item in its parent SWbemRefresher object.
 ms.assetid: f076eb01-1e71-487d-a1af-687a052b4d67
 ms.tgt_platform: multiple
-title: SWbemRefreshableItem.Index property
-ms.topic: article
+title: SWbemRefreshableItem.Index property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

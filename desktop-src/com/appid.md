@@ -1,5 +1,5 @@
 ---
-title: AppID
+title: AppID (AppID Key)
 description: Identifies the AppID GUID that corresponds to the named executable.
 ms.assetid: 960abcc5-c97f-47d6-9d8a-840473c136bf
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: TDN_NAVIGATED notification code
+title: TDN_NAVIGATED notification code (Commctrl.h)
 description: Sent by a task dialog when navigation has occurred. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: e7668ab3-3a11-4bf4-8cb4-067d3204fb3f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

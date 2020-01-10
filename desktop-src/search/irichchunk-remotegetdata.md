@@ -2,7 +2,7 @@
 Description: Retrieves the PROPVARIANT and input string that represents a chunk of data. Calling this method is the same as calling GetData.
 ms.assetid: 78846D1D-923F-4FEA-8BF2-B16BB1B21BB3
 title: IRichChunk::RemoteGetData method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # IRichChunk::RemoteGetData method
 
-Retrieves the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) and input string that represents a chunk of data. Calling this method is the same as calling [**GetData**](/windows/desktop/api/StructuredQueryCondition/nf-structuredquerycondition-irichchunk-getdata).
+Retrieves the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) and input string that represents a chunk of data. Calling this method is the same as calling [**GetData**](/windows/desktop/api/StructuredQueryCondition/nf-structuredquerycondition-irichchunk-getdata).
 
 ## Syntax
 
@@ -60,7 +60,7 @@ Receives the associated Unicode string value, or **NULL** if not available.
 *pValue* \[out\]
 </dt> <dd>
 
-Receives the associated [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) value, or **VT\_EMPTY** if not available. This parameter can be **NULL**.
+Receives the associated [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) value, or **VT\_EMPTY** if not available. This parameter can be **NULL**.
 
 </dd> </dl>
 

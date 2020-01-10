@@ -3,7 +3,7 @@ Description: Deletes an existing class and its instances from the repository.
 ms.assetid: 6f96d14a-16ab-4e83-a75f-5dbf162d1692
 ms.tgt_platform: multiple
 title: pragma deleteclass
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Get the semantics for all shader output elements.
 ms.assetid: 1a3cdd5d-0ea7-48ae-a3f1-030e95b03a42
-title: D3DXGetShaderOutputSemantics function
-ms.topic: article
+title: D3DXGetShaderOutputSemantics function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT D3DXGetShaderOutputSemantics(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the shader function DWORD stream.
 
@@ -58,7 +58,7 @@ Pointer to an array of [**D3DXSEMANTIC**](d3dxsemantic.md) structures. The funct
 *pCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the number of elements in pSemantics.
 
@@ -66,7 +66,7 @@ Returns the number of elements in pSemantics.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

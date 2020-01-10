@@ -22,17 +22,17 @@ This topic discusses the following topics:
 
 ## Preview Handler Architecture
 
-A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](https://msdn.microsoft.com/en-us/library/Bb775309(v=VS.85).aspx) as a method of communication between the preview handler and the host.
+A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx) as a method of communication between the preview handler and the host.
 
 The preview handler itself implements these interfaces:
 
 -   [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
--   [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx)
--   [**IOleWindow**](https://msdn.microsoft.com/en-us/library/ms680102(v=VS.85).aspx)
--   [**IPreviewHandler**](https://msdn.microsoft.com/en-us/library/Bb775315(v=VS.85).aspx)
--   [**IPreviewHandlerVisuals**](https://msdn.microsoft.com/en-us/library/Bb775299(v=VS.85).aspx) (Optional)
+-   [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx)
+-   [**IOleWindow**](https://msdn.microsoft.com/library/ms680102(v=VS.85).aspx)
+-   [**IPreviewHandler**](https://msdn.microsoft.com/library/Bb775315(v=VS.85).aspx)
+-   [**IPreviewHandlerVisuals**](https://msdn.microsoft.com/library/Bb775299(v=VS.85).aspx) (Optional)
 
-Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/en-us/library/ms693765(v=VS.85).aspx), which returns an [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) pointer through which you request an [**IPreviewHandlerFrame**](https://msdn.microsoft.com/en-us/library/Bb775309(v=VS.85).aspx) object to interact with the host.
+Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/library/ms693765(v=VS.85).aspx), which returns an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) pointer through which you request an [**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx) object to interact with the host.
 
 ## Server Model Options
 

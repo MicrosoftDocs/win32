@@ -1,7 +1,7 @@
 ---
 Description: IPrivateIdentityManager interface
 title: IPrivateIdentityManager interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

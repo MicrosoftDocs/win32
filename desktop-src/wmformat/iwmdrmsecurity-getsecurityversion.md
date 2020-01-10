@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity GetSecurityVersion method
+title: IWMDRMSecurity GetSecurityVersion method (Wmdrmsdk.h)
 description: The GetSecurityVersion method retrieves the version of the DRM subsystem on the client computer.
 ms.assetid: ec97dec8-61ba-4424-b5eb-2e6885cc1f48
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

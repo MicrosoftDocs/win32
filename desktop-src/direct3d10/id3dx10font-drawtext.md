@@ -1,8 +1,8 @@
 ---
 Description: Draw formatted text. This method supports ANSI and Unicode strings.
 ms.assetid: 205e9e23-4293-4195-9e41-d8c06dabd285
-title: ID3DX10Font::DrawText method
-ms.topic: article
+title: ID3DX10Font::DrawText method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ Pointer to an ID3DX10Sprite object that contains the string you wish to draw. Ca
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string to draw. If UNICODE is defined, this parameter type resolves to an LPCWSTR, otherwise, the type resolves to an LPCSTR. If the Count parameter is -1, the string must be **NULL** terminated.
 
@@ -61,7 +61,7 @@ Pointer to a string to draw. If UNICODE is defined, this parameter type resolves
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of characters in the string. If Count is -1, then the pString parameter is assumed to be a pointer to a sprite containing a NULL-terminated string and ID3DX10Font::DrawText computes the character count automatically.
 
@@ -79,7 +79,7 @@ Pointer to a [RECT](https://docs.microsoft.com/previous-versions//ms536136(v=vs.
 *Format* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specify the method of formatting the text. It can be any combination of the following values:
 
@@ -109,7 +109,7 @@ Specify the method of formatting the text. It can be any combination of the foll
 *Color* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)**
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)**
 
 Color of the text. See [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
@@ -117,13 +117,13 @@ Color of the text. See [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
 ## Return value
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 If the function succeeds, the return value is the height of the text in logical units. If DT\_VCENTER or DT\_BOTTOM is specified, the return value is the offset from pRect (top to the bottom) of the drawn text. If the function fails, the return value is zero.
 
 ## Remarks
 
-The parameters of this method are very similar to those of the [GDI DrawText](https://msdn2.microsoft.com/en-us/library/ms533909.aspx) function.
+The parameters of this method are very similar to those of the [GDI DrawText](https://msdn2.microsoft.com/library/ms533909.aspx) function.
 
 This method supports both ANSI and Unicode strings.
 

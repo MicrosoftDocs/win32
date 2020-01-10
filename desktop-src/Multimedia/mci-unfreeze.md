@@ -1,5 +1,5 @@
 ---
-title: MCI_UNFREEZE command
+title: MCI_UNFREEZE command (Mmsystem.h)
 description: The MCI\_UNFREEZE command restores motion to an area of the video buffer frozen with the MCI\_FREEZE command. Digital-video, VCR, and video-overlay devices recognize this command.
 ms.assetid: 79ff1be5-6e30-4ef4-ab81-fc5643e3a72d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_UNFREEZE command restores motion to an area of the video buffer frozen with the [MCI\_FREEZE](mci-freeze.md) command. Digital-video, VCR, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -71,7 +71,7 @@ MCI\_DGV\_RECT
 
 The **rc** member of the structure identified by *lpUnfreeze* contains a valid display rectangle. The rectangle specifies a region within the frame buffer whose pixels should have their lock mask bit turned off. Rectangular regions are specified as described for the [MCI\_PUT](mci-put.md) command. If omitted, the rectangle defaults to the entire frame buffer. By using a sequence of freeze and unfreeze commands with different rectangles, arbitrary patterns of lock mask bits can be described.
 
-For digital-video devices, the *lpUnfreeze* parameter points to an **MCI\_DGV\_UNFREEZE\_PARMS** structure. For more information, see the comments for the [**MCI\_DGV\_RECT\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743400(v=VS.85).aspx) structure.
+For digital-video devices, the *lpUnfreeze* parameter points to an **MCI\_DGV\_UNFREEZE\_PARMS** structure. For more information, see the comments for the [**MCI\_DGV\_RECT\_PARMS**](https://msdn.microsoft.com/library/Dd743400(v=VS.85).aspx) structure.
 
 The following additional flags are used with the **vcr** device type:
 

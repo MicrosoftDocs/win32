@@ -1,8 +1,8 @@
 ---
 Description: Contains the object's Application object.
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
-title: ShellFolderView.Application property
-ms.topic: article
+title: ShellFolderView.Application property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -32,7 +32,7 @@ objApplication = ShellFolderView.Application
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the Application object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the Application object.
 
 ## Remarks
 

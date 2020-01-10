@@ -2,7 +2,7 @@
 Description: Retrieves the number of cryptographic service providers (CSPs).
 ms.assetid: 7e0c1613-85ad-4f25-837e-d7b0f11e654a
 title: ISCrdEnr::CSPCount property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 # ISCrdEnr::CSPCount property
 
-The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs).
+The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs).
 
 This property is read-only.
 

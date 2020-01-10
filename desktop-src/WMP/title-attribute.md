@@ -1,5 +1,5 @@
 ---
-title: Title Attribute
+title: Title Attribute (Windows Media Player SDK)
 description: The Title attribute is the title of the content.
 ms.assetid: 1f669940-fb80-4352-a764-553427c85a13
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Title
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

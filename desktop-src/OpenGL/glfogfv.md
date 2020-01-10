@@ -1,5 +1,5 @@
 ---
-title: glFogfv function
+title: glFogfv function (Gl.h)
 description: The glFogfv function specifies fog parameters.
 ms.assetid: a2243ff4-4f3a-4b8c-b4fb-ce2cd74815e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

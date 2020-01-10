@@ -2,7 +2,7 @@
 Description: Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
 ms.assetid: e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd
 title: ISearchItem interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ Provides methods that define interaction between a user interface (UI) and the S
 
 ## Members
 
-The **ISearchItem** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISearchItem** also has these types of members:
+The **ISearchItem** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISearchItem** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -33,7 +33,7 @@ The **ISearchItem** interface has these methods.
 | Method                                                         | Description                                                                                                                               |
 |:---------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetParentFolder**](-search-isearchitem-getparentfolder.md) | Gets the **ISearchItem** object if the URL represents an actual Shell data source (also known as a Shell namespace extension).<br/> |
-| [**GetUIObjectOf**](https://msdn.microsoft.com/en-us/library/Dd756721(v=VS.85).aspx)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
+| [**GetUIObjectOf**](https://msdn.microsoft.com/library/Dd756721(v=VS.85).aspx)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
 
 
 

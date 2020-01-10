@@ -2,7 +2,7 @@
 Description: The Keywords Summary property in installation databases or transforms contains a list of keywords.
 ms.assetid: e19dc495-e4d4-465f-8464-c60af8985334
 title: Keywords Summary property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

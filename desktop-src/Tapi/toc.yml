@@ -1348,7 +1348,7 @@
           - name: "TERMINAL_TYPE"
             href: /windows/desktop/api/Tapi3if/ne-tapi3if-terminal_type
           - name: "TMGR_DIRECTION"
-            href: /windows/desktop/api/Termmgr/ne-termmgr-__midl___midl_itf_termmgr_0000_0000_0001
+            href: /windows/win32/api/Termmgr/ne-termmgr-tmgr_direction
         - name: "Call and Media Controls Structures"
           href: call-and-media-controls-structures.md
           items: 
@@ -4110,14 +4110,14 @@
               items: 
               - name: "RemoveStream Method"
                 href: /windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-removestream
-            - name: "CMSPCallMultiGraph Public Methods, Called by MSPAddress Object"
+            - name: "CMSPCallMultiGraph Public Methods Called by MSPAddress Object"
               href: cmspcallmultigraph-public-methods-called-by-mspaddress-object.md
               items: 
               - name: "Init Method"
                 href: /windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-init
               - name: "ShutDown Method"
                 href: /windows/desktop/api/Mspcall/nf-mspcall-cmspcallmultigraph-shutdown
-            - name: "CMSPCallMultiGraph Public Methods, Called by Thread Pool"
+            - name: "CMSPCallMultiGraph Public Methods Called by Thread Pool"
               href: cmspcallmultigraph-public-methods-called-by-thread-pool.md
               items: 
               - name: "DispatchGraphEvent Method"
@@ -4149,7 +4149,7 @@
               href: cmspstream-members.md
             - name: "CMSPStream MSPI Methods Implemented"
               href: cmspstream-mspi-methods-implemented.md
-            - name: "CMSPStream Public Methods, Called by MSPCall Object"
+            - name: "CMSPStream Public Methods Called by MSPCall Object"
               href: cmspstream-public-methods-called-by-mspcall-object.md
               items: 
               - name: "Init Method"
@@ -4374,15 +4374,15 @@
           href: media-service-provider-types.md
           items: 
           - name: "MSP_ADDRESS_EVENT"
-            href: /windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0001
+            href: /windows/win32/api/msp/ne-msp-msp_address_event
           - name: "MSP_CALL_EVENT"
-            href: /windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0002
+            href: /windows/win32/api/msp/ne-msp-msp_call_event
           - name: "MSP_CALL_EVENT_CAUSE"
-            href: /windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0003
+            href: /windows/win32/api/msp/ne-msp-msp_call_event_cause
           - name: "MSP_EVENT"
-            href: /windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0004
+            href: /windows/win32/api/msp/ne-msp-msp_event
           - name: "MSP_EVENT_INFO"
-            href: /windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005
+            href: /windows/win32/api/msp/ns-msp-msp_event_info
   - name: "Glossary"
     href: glossary-tapgloss.md
     items: 

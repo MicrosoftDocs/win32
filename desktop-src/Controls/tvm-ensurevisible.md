@@ -1,5 +1,5 @@
 ---
-title: TVM_ENSUREVISIBLE message
+title: TVM_ENSUREVISIBLE message (Commctrl.h)
 description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can send this message explicitly or by using the TreeView\_EnsureVisible macro.
 ms.assetid: 7053438a-f9ca-4c4c-9da6-46b99fe1e4f8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

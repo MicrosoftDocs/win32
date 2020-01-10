@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Installing Custom I/O Procedures
 
-To install an I/O procedure associated with the .ARC filename extension, use the [**mmioInstallIOProc**](https://msdn.microsoft.com/en-us/library/Dd757323(v=VS.85).aspx) function as follows:
+To install an I/O procedure associated with the .ARC filename extension, use the [**mmioInstallIOProc**](https://msdn.microsoft.com/library/Dd757323(v=VS.85).aspx) function as follows:
 
 
 ```C++
@@ -26,9 +26,9 @@ mmioInstallIOProc (mmioFOURCC('A', 'R', 'C', ' '),
 
 
 
-When you install an I/O procedure using [**mmioInstallIOProc**](https://msdn.microsoft.com/en-us/library/Dd757323(v=VS.85).aspx), the procedure remains installed until you remove it. The I/O procedure is used for any file you open as long as the file has the appropriate filename extension.
+When you install an I/O procedure using [**mmioInstallIOProc**](https://msdn.microsoft.com/library/Dd757323(v=VS.85).aspx), the procedure remains installed until you remove it. The I/O procedure is used for any file you open as long as the file has the appropriate filename extension.
 
-You can also temporarily install an I/O procedure by using the [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx) function. In this case, the I/O procedure is used only with a file opened by using **mmioOpen** and is removed when the file is closed by using the [**mmioClose**](https://msdn.microsoft.com/en-us/library/Dd757316(v=VS.85).aspx) function. To specify an I/O procedure when you open a file by using **mmioOpen**, use the *lpmmioinfo* parameter to reference an [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure as follows:
+You can also temporarily install an I/O procedure by using the [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx) function. In this case, the I/O procedure is used only with a file opened by using **mmioOpen** and is removed when the file is closed by using the [**mmioClose**](https://msdn.microsoft.com/library/Dd757316(v=VS.85).aspx) function. To specify an I/O procedure when you open a file by using **mmioOpen**, use the *lpmmioinfo* parameter to reference an [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure as follows:
 
 1.  Set the **fccIOProc** member to **NULL**.
 2.  Set the **pIOProc** member to the procedure-instance address of the I/O procedure.

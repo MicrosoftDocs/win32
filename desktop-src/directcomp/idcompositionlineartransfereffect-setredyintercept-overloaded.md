@@ -1,5 +1,5 @@
 ---
-title: IDCompositionLinearTransferEffect setredyintercept methods
+title: IDCompositionLinearTransferEffect setredyintercept methods (Dcomp.h)
 description: Sets the Y-intercept of the linear function for the red channel.
 ms.assetid: 1ecb0d5e-a180-f135-a732-ebc0ea84e7b4
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionLinearTransferEffect::setredyintercept methods
@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the red channel.
 
 | Method                                                                                                       | Description                                                                 |
 |:-------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**SetRedYIntercept**](https://msdn.microsoft.com/en-us/library/Dn919761(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the red channel.<br/> |
-| [**SetRedYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919762(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the red channel.<br/> |
+| [**SetRedYIntercept**](https://msdn.microsoft.com/library/Dn919761(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the red channel.<br/> |
+| [**SetRedYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919762(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the red channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the Y-intercept of the linear function for the red channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

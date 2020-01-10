@@ -1,8 +1,8 @@
 ---
 Description: The EXPERTCONFIG structure contains the configuration data of the expert. The expert overlays the RawConfigData member with an expert-specific structure.
 ms.assetid: 6167e846-d58c-40a8-94f7-c6d6185ae724
-title: EXPERTCONFIG structure
-ms.topic: structure
+title: EXPERTCONFIG structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

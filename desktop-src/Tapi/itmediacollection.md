@@ -1,8 +1,8 @@
 ---
 Description: The ITMediaCollection interface provides access to the set of media information in an SDP (RFC 2327) conference description.
 ms.assetid: a7e7a07d-239e-432e-9984-7763f11c59ce
-title: ITMediaCollection interface
-ms.topic: interface
+title: ITMediaCollection interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ The [**ITSdp::get\_MediaCollection**](itsdp-get-mediacollection.md) method creat
 
 ## Members
 
-The **ITMediaCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITMediaCollection** also has these types of members:
+The **ITMediaCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITMediaCollection** also has these types of members:
 
 -   [Methods](#methods)
 

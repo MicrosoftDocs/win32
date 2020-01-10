@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_SETAUDIO_PARMS structure
+title: MCI_VCR_SETAUDIO_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_SETAUDIO\_PARMS structure contains parameters for the MCI\_SETAUDIO command for video-cassette recorders.
 ms.assetid: 328d8e63-7ddd-4c9b-85d6-2e56fd802dbc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ Audio input (of the type specified in the **dwTo** member) to use.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -95,7 +95,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SETAUDIO**](mci-setaudio.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

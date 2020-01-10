@@ -1,5 +1,5 @@
 ---
-title: UI_ANIMATION_DIMENSION_UNKNOWN
+title: UI_ANIMATION_DIMENSION_UNKNOWN (UIAnimation.h)
 description: Indicates that the requested dimension cannot be retrieved.
 ms.assetid: DEDFEB69-B537-45AD-BFCB-193178414116
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

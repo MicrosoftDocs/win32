@@ -1,5 +1,5 @@
 ---
-title: sample.Operator    function
+title: Texture2DMSArray::sample.Operator    function
 description: Returns a read-only resource variable.
 ms.assetid: 5334c1d5-dfbd-4987-875c-0b92967b0f13
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - sample.Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -1,5 +1,5 @@
 ---
-title: glRasterPos4s function
+title: glRasterPos4s function (Gl.h)
 description: Specifies the raster position for pixel operations.
 ms.assetid: 60e6ced4-a542-4189-a3da-eed36f81cafb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

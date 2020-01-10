@@ -1,5 +1,5 @@
 ---
-title: CFSTR_DSQUERYPARAMS
+title: CFSTR_DSQUERYPARAMS (DSQuery.h)
 description: The CFSTR\_DSQUERYPARAMS clipboard format provides a global memory handle (HGLOBAL) that contains a DSQUERYPARAMS structure.
 ms.assetid: bb8aea98-8309-42bf-993d-fa408bb4deb2
 ms.tgt_platform: multiple
@@ -11,7 +11,7 @@ api_location:
 - DSQuery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 
 
-The **CFSTR\_DSQUERYPARAMS** clipboard format is supported by the [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) provided by the [**ICommonQuery::OpenQueryWindow**](https://msdn.microsoft.com/en-us/library/ms676933(v=VS.85).aspx) method. The **CFSTR\_DSQUERYPARAMS** clipboard format provides a global memory handle (**HGLOBAL**) that contains a [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) structure.
+The **CFSTR\_DSQUERYPARAMS** clipboard format is supported by the [**IDataObject**](https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx) provided by the [**ICommonQuery::OpenQueryWindow**](https://msdn.microsoft.com/library/ms676933(v=VS.85).aspx) method. The **CFSTR\_DSQUERYPARAMS** clipboard format provides a global memory handle (**HGLOBAL**) that contains a [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) structure.
 
 
 </dt> </dl> </dd> </dl>
@@ -48,10 +48,10 @@ The **CFSTR\_DSQUERYPARAMS** clipboard format is supported by the [**IDataObject
 
 <dl> <dt>
 
-[**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx)
+[**IDataObject**](https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx)
 </dt> <dt>
 
-[**ICommonQuery::OpenQueryWindow**](https://msdn.microsoft.com/en-us/library/ms676933(v=VS.85).aspx)
+[**ICommonQuery::OpenQueryWindow**](https://msdn.microsoft.com/library/ms676933(v=VS.85).aspx)
 </dt> <dt>
 
 [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams)

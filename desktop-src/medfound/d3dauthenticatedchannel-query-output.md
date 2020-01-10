@@ -1,8 +1,8 @@
 ---
 Description: Contains the response from the IDirect3DAuthenticatedChannel9::Query method.
 ms.assetid: b2783b8e-0436-419a-a93e-93dc1b87024d
-title: D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT structure
-ms.topic: structure
+title: D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

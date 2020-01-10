@@ -1,5 +1,5 @@
 ---
-title: MM_ACM_FORMATCHOOSE message
+title: MM_ACM_FORMATCHOOSE message (Msacm.h)
 description: The MM\_ACM\_FORMATCHOOSE message notifies an acmFormatChoose dialog hook function before adding an element to one of the three drop-down list boxes.
 ms.assetid: f77e41c6-14e9-45c0-971e-4d6325145f1c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Msacm.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -42,9 +42,9 @@ Drop-down list box being initialized and a verify or add operation.
 
 |                                 |                                                                                                                                                                                                                                              |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FORMATCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) structure to be added to the custom Name drop-down list box.                                                                                                   |
-| FORMATCHOOSE\_FORMAT\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) structure to be added to the Format drop-down list box. The application must copy the format structure to be added into this buffer. |
-| FORMATCHOOSE\_FORMAT\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) structure to be added to the Format drop-down list box.                                                                                                        |
+| FORMATCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure to be added to the custom Name drop-down list box.                                                                                                   |
+| FORMATCHOOSE\_FORMAT\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure to be added to the Format drop-down list box. The application must copy the format structure to be added into this buffer. |
+| FORMATCHOOSE\_FORMAT\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure to be added to the Format drop-down list box.                                                                                                        |
 | FORMATCHOOSE\_FORMATTAG\_ADD    | The *lParam* parameter is a pointer to a variable that will accept a waveform-audio format tag to be added to the Format Tag drop-down list box.                                                                                             |
 | FORMATCHOOSE\_FORMATTAG\_VERIFY | The *lParam* parameter is a waveform-audio format tag to be listed in the Format Tag drop-down list box.                                                                                                                                     |
 

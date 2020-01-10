@@ -1,5 +1,5 @@
 ---
-title: EM_SETCUEBANNER message
+title: EM_SETCUEBANNER message (Commctrl.h)
 description: Sets the textual cue, or tip, that is displayed by the edit control to prompt the user for information.
 ms.assetid: 1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

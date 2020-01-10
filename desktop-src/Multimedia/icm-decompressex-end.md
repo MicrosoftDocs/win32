@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESSEX_END message
+title: ICM_DECOMPRESSEX_END message (Vfw.h)
 description: The ICM\_DECOMPRESSEX\_END message notifies a video decompression driver to end decompression and free resources allocated for decompression. You can send this message explicitly or by using the ICDecompressExEnd macro.
 ms.assetid: 7ed63a4e-bb17-43a3-b593-25c4a51be942
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

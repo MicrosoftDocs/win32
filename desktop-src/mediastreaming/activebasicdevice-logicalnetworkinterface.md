@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice LogicalNetworkInterface property
+title: ActiveBasicDevice LogicalNetworkInterface property (PlayToDevice.h)
 description: Gets the id of the logical network interface.
 ms.assetid: 47C2E0BE-D3E3-4A9F-9FC6-873882811506
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -58,7 +58,7 @@ A pointer to a**GUID** that specifies the id of the logical network interface.
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: ps_1_4 Source Register Modifiers for texld and texcrd
+title: ps\_1\_4 source register modifiers for texld, texcrd
 description: Two pixel shader version 1\_4 texture address instructions, texld - ps\_1\_4 and texcrd - ps, have custom syntax.
 ms.assetid: bbc8074f-882e-4b67-ae4d-1641ceb7f3ad
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# ps\_1\_4 Source Register Modifiers for texld and texcrd
+# ps\_1\_4 source register modifiers for texld, texcrd
 
 Two pixel shader version 1\_4 texture address instructions, [texld - ps\_1\_4](texld---ps-1-4.md) and [texcrd - ps](texcrd---ps.md), have custom syntax. These instructions support their own set of source register modifiers, source register selectors, and destination-register write masks, as shown here.
 

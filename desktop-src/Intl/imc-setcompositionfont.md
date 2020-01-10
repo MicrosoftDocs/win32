@@ -1,8 +1,8 @@
 ---
 Description: Instructs an IME window to specify the logical font to use for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 17b222e7-bf57-4cdd-8475-d9a8be03ab7f
-title: IMC_SETCOMPOSITIONFONT command
-ms.topic: article
+title: IMC_SETCOMPOSITIONFONT command (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ Set to IMC\_SETCOMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**LOGFONT**](https://msdn.microsoft.com/en-us/library/Dd145037(v=VS.85).aspx) structure that contains information about the logical font.
+Pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure that contains information about the logical font.
 
 </dd> </dl>
 

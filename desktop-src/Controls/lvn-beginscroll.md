@@ -1,5 +1,5 @@
 ---
-title: LVN_BEGINSCROLL notification code
+title: LVN_BEGINSCROLL notification code (Commctrl.h)
 description: Notifies a list-view control's parent window when a scrolling operation starts. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 67123db1-118c-43d7-8511-12a3c4413958
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

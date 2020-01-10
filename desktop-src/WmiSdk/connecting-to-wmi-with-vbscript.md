@@ -73,7 +73,7 @@ The following procedure describes how to connect to WMI and retrieve an object u
 
 **To connect to WMI and retrieve an object using a moniker**
 
-1.  Call [**GetObject**](https://msdn.microsoft.com/en-us/library/ebdktb00(v=VS.71).aspx) with a moniker in the input parameter.
+1.  Call [**GetObject**](https://msdn.microsoft.com/library/ebdktb00(v=VS.71).aspx) with a moniker in the input parameter.
 
     ```VB
     'the simple version
@@ -92,7 +92,7 @@ The following procedure describes how to connect to WMI and retrieve an object u
 
     -   You can optionally set the security levels for the connection. Note that you cannot set name and password information in a moniker, however. For more information, see [Securing Scripting Clients](securing-scripting-clients.md).
 
-    -   You can optionally define the path to the WMI object. This includes either the local or remote computer, the namespace, as well as the name of the class. For more information about using the VBScript [**GetObject**](https://msdn.microsoft.com/en-us/library/ebdktb00(v=VS.71).aspx) in WMI scripts, see [Creating an Instance](creating-an-instance.md) and [Retrieving a WMI Instance](retrieving-an-instance.md).
+    -   You can optionally define the path to the WMI object. This includes either the local or remote computer, the namespace, as well as the name of the class. For more information about using the VBScript [**GetObject**](https://msdn.microsoft.com/library/ebdktb00(v=VS.71).aspx) in WMI scripts, see [Creating an Instance](creating-an-instance.md) and [Retrieving a WMI Instance](retrieving-an-instance.md).
 
 2.  Instead of retrieving a single item or collection, you can also choose to retrieve the [**SWbemServices**](swbemservices.md) object (as described in the previous example). Afterwards, you can then call additional queries on the returned object.
 

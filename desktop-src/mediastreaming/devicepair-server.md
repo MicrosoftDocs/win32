@@ -1,5 +1,5 @@
 ---
-title: DevicePair Server property
+title: DevicePair Server property (Asptlb.h)
 description: Gets the server for the active basic device pair.
 ms.assetid: 25FD523F-36C7-4165-BBB2-6A3410D896EF
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - asptlb.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -38,7 +38,7 @@ HRESULT get_Server(
 
 ## Property value
 
-Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx) object that represents the server device.
+Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx) object that represents the server device.
 
 ## Requirements
 
@@ -54,7 +54,7 @@ Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn38
 
 <dl> <dt>
 
-[**DevicePair**](https://msdn.microsoft.com/en-us/library/Dn385771(v=VS.85).aspx)
+[**DevicePair**](https://msdn.microsoft.com/library/Dn385771(v=VS.85).aspx)
 </dt> </dl>
 
  

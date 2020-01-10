@@ -1,5 +1,5 @@
 ---
-title: TB_SETPRESSEDIMAGELIST message
+title: TB_SETPRESSEDIMAGELIST message (Commctrl.h)
 description: Sets the image list that the toolbar uses to display buttons that are in a pressed state.
 ms.assetid: d0e061ec-3a89-4c2d-b7f7-5f2061098428
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

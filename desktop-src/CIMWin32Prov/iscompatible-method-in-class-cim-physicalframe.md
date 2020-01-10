@@ -3,7 +3,7 @@ Description: Verifies whether the referenced physical frame can be contained by,
 ms.assetid: 8102569d-a956-445a-ae42-23eb206ba224
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_PhysicalFrame class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

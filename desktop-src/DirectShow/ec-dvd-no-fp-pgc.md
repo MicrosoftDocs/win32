@@ -1,8 +1,8 @@
 ---
 Description: Signals that the DVD disc does not have a FP\_PGC (First Play Program Chain) and that the DVD Navigator will not automatically load any PGC and start playback.
 ms.assetid: c6b37256-5f99-41bb-98f0-b9519d260c8a
-title: EC_DVD_NO_FP_PGC
-ms.topic: article
+title: EC_DVD_NO_FP_PGC (Dvdevcode.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

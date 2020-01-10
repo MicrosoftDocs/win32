@@ -3,7 +3,7 @@ Description: Sends a ray into a search for hits in an acceleration structure.
 ms.assetid: 
 title: TraceRay function
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

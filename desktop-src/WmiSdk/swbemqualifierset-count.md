@@ -2,8 +2,8 @@
 Description: The Count property of the SWbemQualifierSet object contains the number of items in an SWbemQualifierSet collection. This property is read-only.
 ms.assetid: a381916a-a1e2-4b9a-8162-777a04824291
 ms.tgt_platform: multiple
-title: SWbemQualifierSet.Count property
-ms.topic: article
+title: SWbemQualifierSet.Count property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

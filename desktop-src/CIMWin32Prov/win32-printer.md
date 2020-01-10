@@ -3,7 +3,7 @@ Description: Represents a device connected to a computer running on a Microsoft 
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
 ms.tgt_platform: multiple
 title: Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -106,7 +106,7 @@ api_location:
 
 # Win32\_Printer class
 
-The **Win32\_Printer** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
+The **Win32\_Printer** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -445,7 +445,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
 </dt> </dl>
 
 Availability and status of the device.
@@ -648,7 +648,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.RequiredJobSheets")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.RequiredJobSheets")
 </dt> </dl>
 
 Array of all the job sheets available on a printer. Can also be used to describe the banner that a printer might provide at the beginning of each job, or other user-specified options.
@@ -679,7 +679,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).CapabilityDescriptions", "CIM\_PrintJob.Finishing", "CIM\_PrintService.Capabilities")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).CapabilityDescriptions", "CIM\_PrintJob.Finishing", "CIM\_PrintService.Capabilities")
 </dt> </dl>
 
 Array of printer capabilities.
@@ -865,7 +865,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**Capabilities**")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**Capabilities**")
 </dt> </dl>
 
 Array of free-form strings that provide detailed explanations for the printer features indicated in the **Capabilities** array. Each entry of this array is related to an entry in the **Capabilities** array that is located in the same index.
@@ -883,7 +883,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of an object—a one-line string.
@@ -901,7 +901,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.CharSet"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtLocalizationCharacterSet")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.CharSet"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtLocalizationCharacterSet")
 </dt> </dl>
 
 Array of available character sets for output. Strings provided in this property must conform to the semantics and syntax specified by section 4.1.2 ("Charset parameters") in RFC 2046 (MIME Part 2) and contained in the IANA character-set registry. Examples include, "UTF-8", "us-ASCII", and "iso-8859-1".
@@ -934,7 +934,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 Win32 Configuration Manager error code.
@@ -1294,7 +1294,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 If **TRUE**, the device is using a user-defined configuration.
@@ -1312,7 +1312,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Name of the first concrete class to appear in the inheritance chain used to create an instance. When used with other key properties of the class, the property allows all instances of this class and its subclasses to be identified uniquely.
@@ -1330,7 +1330,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**Capabilities**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**Capabilities**")
 </dt> </dl>
 
 Array of printer capabilities that are being used currently. An entry in this property must also be listed in the **Capabilities** array.
@@ -1516,7 +1516,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**CharSetsSupported**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**CharSetsSupported**")
 </dt> </dl>
 
 The character set currently used for output. Strings provided in this property must conform to the semantics and syntax specified by section 4.1.2 ("Charset parameters") in RFC 2046 (MIME Part 2) and contained in the IANA character-set registry. Examples include "utf-8", "us-ASCII", and iso-8859-1.
@@ -1534,7 +1534,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).LanguagesSupported", "**CIM\_Printer**.**CurrentMimeType**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).LanguagesSupported", "**CIM\_Printer**.**CurrentMimeType**")
 </dt> </dl>
 
 Printer language currently used. The language used must be listed in the **LanguagesSupported** property.
@@ -1916,7 +1916,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**CurrentLanguage**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**CurrentLanguage**")
 </dt> </dl>
 
 MIME type currently being used if the **CurrentLanguage** is a MIME type (value = 47).
@@ -1934,7 +1934,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**NaturalLanguagesSupported**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**NaturalLanguagesSupported**")
 </dt> </dl>
 
 Language that the printer is using for management currently. The language listed here must also be listed in the **NaturalLanguagesSupported** property.
@@ -1952,7 +1952,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**PaperTypesAvailable**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**PaperTypesAvailable**")
 </dt> </dl>
 
 Type of paper the printer is using. Must be expressed in the form specified by the ISO/IEC 10175 Document Printing Application (DPA), which is summarized in Appendix C of RFC 1759 (Printer MIB).
@@ -1983,7 +1983,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**Capabilities**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**Capabilities**")
 </dt> </dl>
 
 Array of the printer capabilities used by default. Each entry in the **DefaultCapabilities** array must also be listed in the **Capabilities** array.
@@ -2184,7 +2184,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).LanguagesSupported", "**CIM\_Printer**.**DefaultMimeType**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).LanguagesSupported", "**CIM\_Printer**.**DefaultMimeType**")
 </dt> </dl>
 
 Default printer language. The language listed here must also be listed in the **LanguagesSupported** property.
@@ -2566,7 +2566,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**DefaultLanguage**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**DefaultLanguage**")
 </dt> </dl>
 
 MIME type currently being used, if the **DefaultLanguage** value is a MIME type (value = 47).
@@ -2599,7 +2599,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**PaperTypesAvailable**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**PaperTypesAvailable**")
 </dt> </dl>
 
 Paper type that the printer uses—unless a print job specifies a different paper type. The string must be expressed in the form specified by ISO/IEC 1017 Document Printing Application (DPA), which is summarized in Appendix C of [RFC 1759](https://go.microsoft.com/fwlink/p/?linkid=84407) (Printer MIB).
@@ -2630,7 +2630,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of an object.
@@ -2648,7 +2648,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**ErrorInformation**"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.hrPrinterDetectedErrorState")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**ErrorInformation**"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.hrPrinterDetectedErrorState")
 </dt> </dl>
 
 Printer error information.
@@ -2752,7 +2752,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Unique identifier of the printer on a system.
@@ -2867,7 +2867,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**DetectedErrorState**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**DetectedErrorState**")
 </dt> </dl>
 
 Array of supplemental information for the current error state indicated in **DetectedErrorState**.
@@ -3168,7 +3168,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.HorizontalResolution"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("pixels per inch")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.HorizontalResolution"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("pixels per inch")
 </dt> </dl>
 
 Horizontal resolution of the printer—in pixels per inch.
@@ -3186,7 +3186,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time an object was installed. The object may be installed without a value being written to this property. This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
@@ -3233,7 +3233,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtInterpreterLangFamily"), [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).MimeTypesSupported", "CIM\_PrintJob.Language", "CIM\_PrintService.LanguagesSupported")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtInterpreterLangFamily"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).MimeTypesSupported", "CIM\_PrintJob.Language", "CIM\_PrintService.LanguagesSupported")
 </dt> </dl>
 
 Array of the print languages natively supported.
@@ -3658,7 +3658,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtMarkerMarkTech")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtMarkerMarkTech")
 </dt> </dl>
 
 Marking technology the printer uses.
@@ -3867,7 +3867,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.Copies")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.Copies")
 </dt> </dl>
 
 Maximum number of copies the printer can produce for one job.
@@ -3885,7 +3885,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.NumberUp")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.NumberUp")
 </dt> </dl>
 
 Maximum number of print-stream pages the printer can render on one media sheet, such as paper.
@@ -3903,7 +3903,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.JobSize"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("kilobytes")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.JobSize"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("kilobytes")
 </dt> </dl>
 
 Largest job as a byte stream, in kilobytes, that the printer can accept. A value of 0 (zero) indicates that no limit is set.
@@ -3921,7 +3921,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).LanguagesSupported", "CIM\_PrintJob.MimeTypes", "CIM\_PrintService.MimeTypesSupported")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).LanguagesSupported", "CIM\_PrintJob.MimeTypes", "CIM\_PrintService.MimeTypesSupported")
 </dt> </dl>
 
 Array of detailed MIME-type explanations that the printer supports. If data is provided, then the value 47 ("MIME") must be included in the **LanguagesSupported** property.
@@ -3939,7 +3939,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Name of the printer.
@@ -3957,7 +3957,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtLocalizationLanguage"), [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.NaturalLanguage")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtLocalizationLanguage"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.NaturalLanguage")
 </dt> </dl>
 
 Array of languages supported for strings that the printer uses for output of management information. Must conform to [RFC 1766](https://go.microsoft.com/fwlink/p/?linkid=84408). For example, "en" is used for English.
@@ -4599,7 +4599,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.RequiredPaperType", "CIM\_PrintService.PaperTypesAvailable"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtInputMediaName")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.RequiredPaperType", "CIM\_PrintService.PaperTypesAvailable"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtInputMediaName")
 </dt> </dl>
 
 Array of paper types that are currently available on the printer. Each string must be expressed in the format specified by ISO/IEC 10175 Document Printing Application (DPA), which is summarized in Appendix C of [RFC 1759](https://go.microsoft.com/fwlink/p/?linkid=84407) (Printer MIB). Any paper size identified in this property must also appear in the **PaperSizesSupported** property.
@@ -4634,7 +4634,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 Windows Plug and Play device identifier of the logical device.
@@ -4725,7 +4725,7 @@ The device can change its power state based on usage or other criteria.
 
 </dt> <dd>
 
-The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/en-us/library/Aa390351(v=VS.85).aspx).
+The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/library/Aa390351(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -4794,7 +4794,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 One of the possible states relating to this printer. This property is obsolete. In place of this property, use **PrinterStatus**.
@@ -4994,7 +4994,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.hrPrinterStatus")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.hrPrinterStatus")
 </dt> </dl>
 
 Status information for a printer that is different from information specified in the logical device **Availability** property.
@@ -5205,7 +5205,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 This property is obsolete; do not use. If **TRUE**, spooling is enabled for printer.
@@ -5234,7 +5234,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: **OK**, **Degraded**, and **Pred Fail** (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: **Error**, **Starting**, **Stopping**, and **Service**. The latter, **Service**, could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither **OK** nor in one of the other states.
@@ -5340,7 +5340,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.3")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.3")
 </dt> </dl>
 
 State of the logical device. If this property does not apply to the logical device, the value 5 (**Not Applicable**) should be used.
@@ -5395,7 +5395,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Value of the scoping computer's **CreationClassName** property.
@@ -5413,7 +5413,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Name of the scoping system.
@@ -5459,7 +5459,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.HorizontalResolution"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("pixels per inch")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.HorizontalResolution"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("pixels per inch")
 </dt> </dl>
 
 Vertical resolution, in pixels-per-inch, of the printer.
@@ -5483,7 +5483,7 @@ If **TRUE**, you can queue print jobs on the computer when the printer is offlin
 
 ## Remarks
 
-The **Win32\_Printer** class is derived from [**CIM\_Printer**](cim-printer.md). Before calling [**SWbemObject.Put\_**](https://msdn.microsoft.com/en-us/library/Aa393783(v=VS.85).aspx) or [**IWbemServices::PutInstance**](https://msdn.microsoft.com/en-us/library/Aa392115(v=VS.85).aspx) for a **Win32\_Printer** instance, the **SeLoadDriverPrivilege** privilege (**wbemPrivilegeLoadDriver** for Visual Basic and LoadDriver for scripting monikers) must be enabled. For more information, see [**Privilege Constants**](https://msdn.microsoft.com/en-us/library/Aa392758(v=VS.85).aspx) and [Executing Privileged Operations](https://msdn.microsoft.com/en-us/library/Aa390428(v=VS.85).aspx). The following VBScript code example shows how to enable the **SetLoadDriverPrivilege** privilege in script.
+The **Win32\_Printer** class is derived from [**CIM\_Printer**](cim-printer.md). Before calling [**SWbemObject.Put\_**](https://msdn.microsoft.com/library/Aa393783(v=VS.85).aspx) or [**IWbemServices::PutInstance**](https://msdn.microsoft.com/library/Aa392115(v=VS.85).aspx) for a **Win32\_Printer** instance, the **SeLoadDriverPrivilege** privilege (**wbemPrivilegeLoadDriver** for Visual Basic and LoadDriver for scripting monikers) must be enabled. For more information, see [**Privilege Constants**](https://msdn.microsoft.com/library/Aa392758(v=VS.85).aspx) and [Executing Privileged Operations](https://msdn.microsoft.com/library/Aa390428(v=VS.85).aspx). The following VBScript code example shows how to enable the **SetLoadDriverPrivilege** privilege in script.
 
 For working with MSCS Printer clusters, use the prnadmin.dll assembly, or else the .NET Framework [System.Printing](https://docs.microsoft.com/dotnet/api/system.printing?redirectedfrom=MSDN) namespace.
 
@@ -5612,7 +5612,7 @@ Next
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Printers and Printing](https://msdn.microsoft.com/en-us/library/Aa394598(v=VS.85).aspx)
+[WMI Tasks: Printers and Printing](https://msdn.microsoft.com/library/Aa394598(v=VS.85).aspx)
 </dt> </dl>
 
  

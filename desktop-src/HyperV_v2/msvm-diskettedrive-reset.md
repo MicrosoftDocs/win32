@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: 7d848e32-344d-4a55-84f2-d2f2f599fe1c
 title: Reset method of the Msvm_DisketteDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: A CIM\_Action class is an operation that is part of a process to ei
 ms.assetid: d1f72aaf-7e26-414f-99e7-ff8f14d66360
 ms.tgt_platform: multiple
 title: CIM_Action class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

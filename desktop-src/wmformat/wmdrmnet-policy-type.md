@@ -1,5 +1,5 @@
 ---
-title: WMDRMNET_POLICY_TYPE enumeration
+title: WMDRMNET_POLICY_TYPE enumeration (Wmdrmsdk.h)
 description: The WMDRMNET\_POLICY\_TYPE enumeration type lists the types of policies that are available for Windows Media DRM for Network Devices operations.
 ms.assetid: 83e9e247-3bd8-4857-97b6-95b3cd5ad25c
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

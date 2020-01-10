@@ -2,7 +2,7 @@
 title: dcl_input vJoinInstanceID (sm5 - asm)
 description: Declare the instance ID in a hull shader join phase.
 ms.assetid: 2EABB24A-7ED7-460D-A2AD-D2C40DCCB2DC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

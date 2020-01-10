@@ -1,8 +1,8 @@
 ---
 Description: The ITQOSApplicationID interface exposes a method that allows an application to get the QOS identifier for the current call.
 ms.assetid: 1df50b3a-bd16-4e9b-afca-b025bfe537a4
-title: ITQOSApplicationID interface
-ms.topic: interface
+title: ITQOSApplicationID interface (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ This interface is implemented by the [IPConf MSP](ipconf-msp.md) and is exposed 
 
 ## Members
 
-The **ITQOSApplicationID** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITQOSApplicationID** also has these types of members:
+The **ITQOSApplicationID** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITQOSApplicationID** also has these types of members:
 
 -   [Methods](#methods)
 

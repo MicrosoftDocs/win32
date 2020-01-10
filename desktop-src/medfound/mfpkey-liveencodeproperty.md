@@ -1,8 +1,8 @@
 ---
 Description: This property is obsolete and should not be set.
 ms.assetid: f4bb5bde-15f4-4454-9d77-a04479207b06
-title: MFPKEY_LIVEENCODE Property
-ms.topic: article
+title: MFPKEY_LIVEENCODE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: This topic demonstrates how to load an IWICBitmapFrameDecode from an application resource.
 ms.assetid: 2260ad3a-44d4-4fe2-aa8c-608ffc11fbfb
-title: How to Load a Bitmap from a Resource
+title: How to Load a Bitmap from a Resource (Windows Imaging Component)
 ms.topic: article
 ms.date: 05/31/2018
 ---

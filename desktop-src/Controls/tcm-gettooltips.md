@@ -1,5 +1,5 @@
 ---
-title: TCM_GETTOOLTIPS message
+title: TCM_GETTOOLTIPS message (Commctrl.h)
 description: Retrieves the handle to the tooltip control associated with a tab control. You can send this message explicitly or by using the TabCtrl\_GetToolTips macro.
 ms.assetid: d7dcca4f-8629-4eeb-844f-b3171438f528
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: WM_HOTKEY message
+title: WM_HOTKEY message (Winuser.h)
 description: Posted when the user presses a hot key registered by the RegisterHotKey function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
 ms.assetid: 28d87c2f-b2bb-4176-910b-0addea6beb93
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # WM\_HOTKEY message
 
-Posted when the user presses a hot key registered by the [**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx) function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
+Posted when the user presses a hot key registered by the [**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx) function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
 
 
 ```C++
@@ -92,7 +92,7 @@ The low-order word specifies the keys that were to be pressed in combination wit
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx)
+[**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETHOTKEY**](wm-gethotkey.md)

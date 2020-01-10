@@ -1,5 +1,5 @@
 ---
-title: WsDumpMemory function
+title: WsDumpMemory function (WebServicesDebug.h)
 description: This function dumps all memory allocations to the console.
 ms.assetid: 84a4f1e7-7d62-48c2-a8a3-ee4573bde5e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - WebServicesDebug.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

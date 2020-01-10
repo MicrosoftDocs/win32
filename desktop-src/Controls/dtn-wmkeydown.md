@@ -1,5 +1,5 @@
 ---
-title: DTN_WMKEYDOWN notification code
+title: DTN_WMKEYDOWN notification code (Commctrl.h)
 description: Sent by a date and time picker (DTP) control when the user types in a callback field. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e67e222d-28a1-4d30-ae64-8ec9a62fa321
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

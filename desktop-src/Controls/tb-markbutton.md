@@ -1,5 +1,5 @@
 ---
-title: TB_MARKBUTTON message
+title: TB_MARKBUTTON message (Commctrl.h)
 description: Sets the highlight state of a given button in a toolbar control.
 ms.assetid: cba0e2d2-40a7-4e20-a1ef-d5f5444c96d9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

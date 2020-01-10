@@ -1,8 +1,8 @@
 ---
 Description: The IWiaDevMgr2::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) 2.0 device and write the image to a specified file.
 ms.assetid: 30a63426-150e-44cf-a03e-7b6da14450f7
-title: IWiaDevMgr2::GetImageDlg method
-ms.topic: article
+title: IWiaDevMgr2::GetImageDlg method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -141,7 +141,7 @@ If the application passes **NULL** for the value of the *bstrDeviceID* parameter
 
 Use a menu item named **From scanner** on the **File** menu so that device and image selections are available in your application.
 
-Call [SysFreeString](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring) on each BSTR in the array that *ppbstrFilePaths*\[i\] points to, and call [CoTaskMemFree](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx) on the array itself to free associated memory. If S\_FALSE is returned, check to see if the value that *plNumFiles* points to is not zero. If the value is not zero, free the *ppbstrFilePaths*\[i\] resources in the application, because the user might cancel after scanning one or more pages. Initialize *plNumFiles* to zero before you call **IWiaDevMgr2::GetImageDlg**. If *plNumFiles* is not initialized to zero and a failure in the COM infrastructure causes the function to return S\_FALSE before **IWiaDevMgr2::GetImageDlg** is called, then *plNumFiles* will have a misleading garbage value.
+Call [SysFreeString](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring) on each BSTR in the array that *ppbstrFilePaths*\[i\] points to, and call [CoTaskMemFree](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx) on the array itself to free associated memory. If S\_FALSE is returned, check to see if the value that *plNumFiles* points to is not zero. If the value is not zero, free the *ppbstrFilePaths*\[i\] resources in the application, because the user might cancel after scanning one or more pages. Initialize *plNumFiles* to zero before you call **IWiaDevMgr2::GetImageDlg**. If *plNumFiles* is not initialized to zero and a failure in the COM infrastructure causes the function to return S\_FALSE before **IWiaDevMgr2::GetImageDlg** is called, then *plNumFiles* will have a misleading garbage value.
 
 The dialog box must have sufficient rights to *bstrFolderName* so that it can save the files with unique file names. Protect the folder with an access control list (ACL) because it contains user data.
 

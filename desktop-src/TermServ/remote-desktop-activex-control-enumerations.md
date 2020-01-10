@@ -3,7 +3,7 @@ title: Remote Desktop ActiveX control enumerations
 description: The following enumerations are used with the Remote Desktop ActiveX control.
 ms.assetid: C4EBA996-B3C7-492B-A6B7-96A3EC1847B2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -50,7 +50,7 @@ Used to specify the type of a device.
 
 </dd> <dt>
 
-[**RemoteActionType**](https://msdn.microsoft.com/en-us/library/Mt787075(v=VS.85).aspx)
+[**RemoteActionType**](https://msdn.microsoft.com/library/Mt787075(v=VS.85).aspx)
 </dt> <dd>
 
 The action to send to the remote session.
@@ -71,14 +71,14 @@ Used with the method to specify information about the event.
 
 </dd> <dt>
 
-[**SnapshotEncodingType**](https://msdn.microsoft.com/en-us/library/Mt787078(v=VS.85).aspx)
+[**SnapshotEncodingType**](https://msdn.microsoft.com/library/Mt787078(v=VS.85).aspx)
 </dt> <dd>
 
 The type of encoding used for a Remote Desktop Protocol (RDP) app container client snapshot.
 
 </dd> <dt>
 
-[**SnapshotFormatType**](https://msdn.microsoft.com/en-us/library/Mt787079(v=VS.85).aspx)
+[**SnapshotFormatType**](https://msdn.microsoft.com/library/Mt787079(v=VS.85).aspx)
 </dt> <dd>
 
 The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.

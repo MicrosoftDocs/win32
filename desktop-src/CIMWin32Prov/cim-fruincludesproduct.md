@@ -3,7 +3,7 @@ Description: The CIM\_FRUIncludesProduct class indicates that a field replaceabl
 ms.assetid: e57dc7f5-4c5b-4ec4-9300-e080053955cb
 ms.tgt_platform: multiple
 title: CIM_FRUIncludesProduct class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

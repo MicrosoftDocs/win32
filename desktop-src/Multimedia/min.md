@@ -1,5 +1,5 @@
 ---
-title: min macro
+title: min macro (Minwindef.h)
 description: The min macro compares two values and returns the smaller one. The data type can be any numeric data type, signed or unsigned. The data type of the arguments and the return value is the same.
 ms.assetid: c7d5094c-6f26-4799-95c8-804a8b48d39e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - minwindef.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

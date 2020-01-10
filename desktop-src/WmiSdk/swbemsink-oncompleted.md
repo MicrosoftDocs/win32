@@ -2,8 +2,8 @@
 Description: The OnCompleted event of an SWbemSink object is triggered when an asynchronous call is complete. This event indicates to the client application, the result of an asynchronous operation, and provides error information when the asynchronous call fails.
 ms.assetid: 2723185d-5b8b-4cc7-ada3-51c3275272a9
 ms.tgt_platform: multiple
-title: ISWbemSinkEvents::OnCompleted event
-ms.topic: article
+title: ISWbemSinkEvents::OnCompleted event (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

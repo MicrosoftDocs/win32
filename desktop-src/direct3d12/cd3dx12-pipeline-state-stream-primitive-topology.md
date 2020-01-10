@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_PRIMITIVE_TOPOLOGY structure
+title: CD3DX12_PIPELINE_STATE_STREAM_PRIMITIVE_TOPOLOGY structure (D3dx12.h)
 description: A helper structure used to describe the primitive topology as a single object suitable for a stream description.
 ms.assetid: 7DC73B75-2B8D-4DAB-A0AA-6DF6F4039093
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

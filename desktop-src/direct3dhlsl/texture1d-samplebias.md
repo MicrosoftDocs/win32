@@ -1,5 +1,5 @@
 ---
-title: Texture1D SampleBias methods
+title: Texture1D::Texture1D SampleBias methods
 description: Samples a Texture1D, after applying the bias value to the mipmap level.
 ms.assetid: 1F70D58D-1286-480E-A60E-324FDABBC4A0
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

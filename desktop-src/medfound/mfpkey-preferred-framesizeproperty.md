@@ -1,8 +1,8 @@
 ---
 Description: Specifies the preferred number of samples per frame.
 ms.assetid: ad629dbd-49d8-43d0-95a8-03f2043e397e
-title: MFPKEY_PREFERRED_FRAMESIZE Property
-ms.topic: article
+title: MFPKEY_PREFERRED_FRAMESIZE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the preferred number of samples per frame.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

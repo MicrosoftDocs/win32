@@ -1,12 +1,12 @@
 ---
-title: How to Create a Directory Listing in a Single-Selection List Box
+title: Create a directory listing in a ListBox
 description: This topic demonstrates how to use a single-selection list box to display and access the contents of a directory.
 ms.assetid: 11C0DB10-59BA-47C4-8687-101A2A85D660
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Create a Directory Listing in a Single-Selection List Box
+# How to create a directory listing in a single-selection ListBox
 
 This topic demonstrates how to use a single-selection list box to display and access the contents of a directory. The single-selection list box is the default list box type. A user can only select one item at a time from a single-selection list box.
 

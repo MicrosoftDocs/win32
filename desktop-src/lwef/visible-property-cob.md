@@ -1,5 +1,5 @@
 ---
-title: Visible Property
+title: Visible Property (Characters Object)
 description: Visible Property
 ms.assetid: c06d623d-8997-413a-b4ab-24275eccfa10
 ms.topic: article

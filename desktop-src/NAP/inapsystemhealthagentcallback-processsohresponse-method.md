@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentCallback ProcessSoHResponse method
+title: INapSystemHealthAgentCallback ProcessSoHResponse method (NapSystemHealthAgent.h)
 description: Is called when the NapAgent receives an SoHResponse destined for this health agent.
 ms.assetid: 860b1012-7df8-456f-8f21-eb0e1abd2b3b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapSystemHealthAgent.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

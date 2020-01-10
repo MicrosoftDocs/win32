@@ -1,7 +1,7 @@
 ---
 Description: Flags that restrict the data to be set or returned.
-title: SRRF
-ms.topic: article
+title: SRRF (Shlwapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: c9dbffd1-3b3e-4a25-89ee-1666e2812a62
 api_name: 

@@ -2,7 +2,7 @@
 Description: Causes one or more properties to be saved into the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: 35491fbc-fb1c-4bad-86e8-9f19856ed7cb
 title: IItemPropertyBag::Write method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

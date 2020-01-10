@@ -1,8 +1,8 @@
 ---
 Description: Creates a device context (DC) for the specified surface.
 ms.assetid: c2eaaed6-db19-4dab-ac12-6b4e7eeb58e4
-title: NtGdiDdGetDC function
-ms.topic: article
+title: NtGdiDdGetDC function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ If successful, this function returns a valid **HDC**; otherwise it returns **NUL
 
 Only one DC is allowed per surface at any given time. Subsequent calls to **NtGdiDdGetDC** will fail until the previous DC is released.
 
-Applications are advised to call [IDirectDrawSurface7::GetDC](https://msdn.microsoft.com/en-us/library/Gg426195(v=VS.85).aspx) instead, which provides the same functionality in a manner independent of the operating system.
+Applications are advised to call [IDirectDrawSurface7::GetDC](https://msdn.microsoft.com/library/Gg426195(v=VS.85).aspx) instead, which provides the same functionality in a manner independent of the operating system.
 
 ## Requirements
 

@@ -3,7 +3,7 @@ Description: The CIM\_BIOSFeatureBIOSElements class associates a BIOS feature an
 ms.assetid: 84ebd6d0-af42-4e82-bad3-1f934789cbfe
 ms.tgt_platform: multiple
 title: CIM_BIOSFeatureBIOSElements class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The ID3DXFont interface encapsulates the textures and resources needed to render a specific font on a specific device.
 ms.assetid: ac40b600-3b9f-4e6e-8563-18597b3dd602
-title: ID3DXFont interface
-ms.topic: interface
+title: ID3DXFont interface (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ The ID3DXFont interface encapsulates the textures and resources needed to render
 
 ## Members
 
-The **ID3DXFont** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXFont** also has these types of members:
+The **ID3DXFont** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFont** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -39,7 +39,7 @@ The **ID3DXFont** interface has these methods.
 | [**GetDesc**](id3dxfont--getdesc.md)                     | Gets a description of the current font object. GetDescW and GetDescA are identical to this method, except that a pointer is returned to a [**D3DXFONT\_DESCW**](d3dxfont-desc.md) or **D3DXFONT\_DESCA** structure, respectively.<br/> |
 | [**GetDevice**](id3dxfont--getdevice.md)                 | Retrieves the Direct3D device associated with the font object.<br/>                                                                                                                                                                     |
 | [**GetGlyphData**](id3dxfont--getglyphdata.md)           | Returns information about the placement and orientation of a glyph in a character cell.<br/>                                                                                                                                            |
-| [**GetTextMetrics**](id3dxfont--gettextmetrics.md)       | Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/en-us/library/Dd145132(v=VS.85).aspx) structure. This method supports ANSI and Unicode compiler settings.<br/>                                                                       |
+| [**GetTextMetrics**](id3dxfont--gettextmetrics.md)       | Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx) structure. This method supports ANSI and Unicode compiler settings.<br/>                                                                       |
 | [**OnLostDevice**](id3dxfont--onlostdevice.md)           | Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost, or before resetting a device.<br/>                                              |
 | [**OnResetDevice**](id3dxfont--onresetdevice.md)         | Use this method to re-acquire resources and save initial state.<br/>                                                                                                                                                                    |
 | [**PreloadCharacters**](id3dxfont--preloadcharacters.md) | Loads a series of characters into video memory to improve the efficiency of rendering to the device.<br/>                                                                                                                               |

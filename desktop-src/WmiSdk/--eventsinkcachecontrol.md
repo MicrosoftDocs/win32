@@ -3,7 +3,7 @@ Description: Used to determine when WMI releases an event consumer providers IWb
 ms.assetid: f7b14efc-a2f7-4e99-8ec8-5b5af0743139
 ms.tgt_platform: multiple
 title: __EventSinkCacheControl class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Destructor method.
 ms.assetid: 98e00ff2-0175-4c44-9a7f-c5c1b23f8fce
-title: CSeekingPassThru.~CSeekingPassThru destructor
-ms.topic: article
+title: CSeekingPassThru.~CSeekingPassThru destructor (Seekpt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

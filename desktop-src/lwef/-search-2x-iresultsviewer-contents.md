@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer Contents property
+title: IResultsViewer Contents property (WdsView.h)
 description: This property tracks the type of the content being displayed in the results view.
 ms.assetid: fad3c9c9-9bf4-4725-962a-ae285bcd23d4
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - WdsView.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

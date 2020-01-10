@@ -1,5 +1,5 @@
 ---
-title: WM_CHOOSEFONT_SETFLAGS message
+title: WM_CHOOSEFONT_SETFLAGS message (Commdlg.h)
 description: An application sends the WM\_CHOOSEFONT\_SETFLAGS message to a Font dialog box to set the display options for the dialog box.
 ms.assetid: 945ebc07-440d-4466-8255-ad344bdc568a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ No return value.
 
 The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
 
-Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure.
+Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx) hook procedure.
 
 ## Requirements
 
@@ -75,7 +75,7 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
+[**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)

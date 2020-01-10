@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: e72e4ecc-70a8-4eb6-877c-670857ea9b6d
 title: Reset method of the Msvm_Ps2Mouse class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

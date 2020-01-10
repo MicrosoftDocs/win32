@@ -1,5 +1,5 @@
 ---
-title: IWMPPlaylist (VB and C ) interface
+title: IWMPPlaylist (VB and C ) interface (Wmp.h)
 description: Provides properties and methods to organize, manage, and manipulate media items in a playlist.The IWMPPlaylist interface exposes the following properties.
 ms.assetid: c3f4f9dd-eb5f-493a-b8d0-22e70c63a2d1
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

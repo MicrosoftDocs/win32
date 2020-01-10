@@ -2,7 +2,7 @@
 Description: Event that occurs when a data transfer is completed successfully.
 ms.assetid: 6110867b-21e2-48ab-97ad-0e084a0ccf07
 title: Wia.OnTransferComplete event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

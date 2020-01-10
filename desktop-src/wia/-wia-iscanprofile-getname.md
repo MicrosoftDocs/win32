@@ -1,8 +1,8 @@
 ---
 Description: Gets the friendly name of the profile.
 ms.assetid: db2f8229-ce43-4608-af3f-a06011b4fac0
-title: IScanProfile::GetName method
-ms.topic: article
+title: IScanProfile::GetName method (Scanprofile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

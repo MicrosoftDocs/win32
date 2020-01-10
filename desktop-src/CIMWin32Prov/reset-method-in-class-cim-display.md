@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Display class requests a reset of the 
 ms.assetid: ae9f21ab-8029-412e-b3fe-38fc757525a6
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Display class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

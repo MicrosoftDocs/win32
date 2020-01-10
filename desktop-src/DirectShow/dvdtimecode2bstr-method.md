@@ -2,7 +2,7 @@
 Description: The DVDTimeCode2bstr method retrieves a string indicating the current time on the disc.
 ms.assetid: 0a477274-ac56-4f46-8461-53411362b33e
 title: DVDTimeCode2bstr Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

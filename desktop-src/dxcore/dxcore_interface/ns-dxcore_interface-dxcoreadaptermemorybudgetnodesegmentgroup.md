@@ -2,7 +2,7 @@
 title: DXCoreAdapterMemoryBudgetNodeSegmentGroup
 description: Describes a memory segment group for an adapter.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

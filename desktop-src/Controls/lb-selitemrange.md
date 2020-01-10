@@ -1,5 +1,5 @@
 ---
-title: LB_SELITEMRANGE message
+title: LB_SELITEMRANGE message (Winuser.h)
 description: Selects or deselects one or more consecutive items in a multiple-selection list box.
 ms.assetid: 817d62df-98a3-40b3-8d62-86bf07ad797f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

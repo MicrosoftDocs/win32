@@ -1,5 +1,5 @@
 ---
-title: glNormal3dv function
+title: glNormal3dv function (Gl.h)
 description: Sets the current normal vector.
 ms.assetid: 9d4f8d3c-f4c4-4165-a5f9-edc89319008b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

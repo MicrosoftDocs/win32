@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection2 interface
+title: INapEnforcementClientConnection2 interface (NapEnforcementClient.h)
 description: Allow for client connection management.
 ms.assetid: f7b5d8cc-6a91-4e49-8957-cf67d1001089
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

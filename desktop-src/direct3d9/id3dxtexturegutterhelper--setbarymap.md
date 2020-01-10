@@ -1,8 +1,8 @@
 ---
 Description: Sets texel barycentric coordinates.
 ms.assetid: 6c7c74aa-71a3-45aa-9b18-6409fbd63bda
-title: ID3DXTextureGutterHelper::SetBaryMap method
-ms.topic: article
+title: ID3DXTextureGutterHelper::SetBaryMap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure that contains the first
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

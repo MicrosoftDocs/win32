@@ -1,5 +1,5 @@
 ---
-title: TB_ENABLEBUTTON message
+title: TB_ENABLEBUTTON message (Commctrl.h)
 description: Enables or disables the specified button in a toolbar.
 ms.assetid: d73851ee-f909-4b70-9514-c45cd3a7e999
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

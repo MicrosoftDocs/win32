@@ -1,5 +1,5 @@
 ---
-title: Enumerating Devices
+title: Enumerating devices (WMDM)
 description: Enumerating Devices
 ms.assetid: 7602da65-4c98-4766-b206-2129dad4cc2a
 keywords:
@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerating Devices
+# Enumerating devices (WMDM)
 
 Windows Media Device Manager maintains a cache of connected devices that is updated when a Windows Media Device Manager application starts, when a Plug and Play (PnP) device connects or disconnects, or when the application calls [**IWMDeviceManager2::Reinitialize**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-reinitialize). This cache is exposed to the application when it calls [**IWMDeviceManager::EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices) or [**IWMDeviceManager2::EnumDevices2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2). Each device is exposed to the application as an [**IWMDMDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice) interface. If the service provider is registered to handle PnP devices, Windows Media Device Manager will be aware of the current list of connected devices. If the service provider is registered to handle non-PnP devices, the service provider is responsible for discovering attached devices. A service provider can only be registered for PnP or non-PnP devices, never both.
 

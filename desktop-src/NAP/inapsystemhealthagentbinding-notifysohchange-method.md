@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentBinding NotifySoHChange method
+title: INapSystemHealthAgentBinding NotifySoHChange method (NapSystemHealthAgent.h)
 description: Is used by SHAs when their SoH changes.
 ms.assetid: 3a653282-03b0-49d5-833f-966497f46faa
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

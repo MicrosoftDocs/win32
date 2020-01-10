@@ -1,5 +1,5 @@
 ---
-title: WM_ENTERMENULOOP message
+title: WM_ENTERMENULOOP message (Winuser.h)
 description: Notifies an application's main window procedure that a menu modal loop has been entered.
 ms.assetid: 0a018b6f-fe4b-4e90-bbb6-9b5719253dc1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

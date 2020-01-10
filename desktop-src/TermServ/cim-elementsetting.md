@@ -1,5 +1,5 @@
 ---
-title: CIM_ElementSetting class
+title: CIM_ElementSetting class (Remote Desktop Services)
 description: Represents the association between managed system elements and the setting class defined for them.
 ms.assetid: b74c2fef-0f3a-46b9-9dd8-11016a8f7b57
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

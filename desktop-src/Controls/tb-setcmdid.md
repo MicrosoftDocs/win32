@@ -1,5 +1,5 @@
 ---
-title: TB_SETCMDID message
+title: TB_SETCMDID message (Commctrl.h)
 description: Sets the command identifier of a toolbar button.
 ms.assetid: 0674c905-2d9d-45d3-b565-2f3bcd7d6383
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

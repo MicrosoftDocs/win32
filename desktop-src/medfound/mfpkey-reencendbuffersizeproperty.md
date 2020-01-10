@@ -1,8 +1,8 @@
 ---
 Description: For segment re-encoding, specifies the buffer size.
 ms.assetid: 4f8d3a29-e011-4dcb-8eed-23ccce03a66a
-title: MFPKEY_REENCENDBUFFERSIZE Property
-ms.topic: article
+title: MFPKEY_REENCENDBUFFERSIZE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ For segment re-encoding, specifies the buffer size.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

@@ -1,21 +1,21 @@
 ---
-title: ' define Directive'
+title: \#define directive (HLSL reference)
 description: Preprocessor directive that defines a constant or a macro.
 ms.assetid: 44d98e28-868c-4403-baa1-c08d33a7b589
 keywords:
-- define Directive HLSL
+- define directive HLSL
 topic_type:
 - apiref
 api_name:
 - define Directive
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# \#define Directive
+# \#define directive (HLSL reference)
 
 Preprocessor directive that defines a constant or a macro.
 

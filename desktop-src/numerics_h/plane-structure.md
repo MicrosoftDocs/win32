@@ -1,5 +1,5 @@
 ---
-title: plane structure
+title: plane structure (Windowsnumerics.h)
 description: This structure represents a plane using a 3D vector normal and a distance value.
 ms.assetid: 3C5A5EA0-8A51-4F9B-A84A-0C8E726CE3FD
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

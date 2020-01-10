@@ -2,7 +2,7 @@
 Description: The IX509CertificateRequestCertificate2 interface exposes the following properties.
 ms.assetid: 4B153A01-2ACA-4AC4-A8D8-77272D32808D
 title: IX509CertificateRequestCertificate2 Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

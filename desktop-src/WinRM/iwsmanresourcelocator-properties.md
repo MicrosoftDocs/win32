@@ -3,7 +3,7 @@ title: IWSManResourceLocator Properties
 description: The IWSManResourceLocator interface exposes the following properties.
 ms.assetid: 011995CB-E664-49D1-B8F2-9359579FB096
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_ExecuteProgram class represents files that can be executed
 ms.assetid: 4329d228-4069-4a5a-b1eb-2dbad9644118
 ms.tgt_platform: multiple
 title: CIM_ExecuteProgram class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IResultVerb DoIt property
+title: IResultVerb DoIt property (WdsSharedIDL.h)
 description: Executes the verb.
 ms.assetid: cfe57396-e1c2-457a-8950-d2f6a79aa44b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

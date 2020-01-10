@@ -2,7 +2,7 @@
 Description: If the LIMITUI property is set, the user interface (UI) level used when installing the package is restricted to Basic.
 ms.assetid: 1a75e66b-958a-4fa8-b13c-ced976c9508e
 title: LIMITUI property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

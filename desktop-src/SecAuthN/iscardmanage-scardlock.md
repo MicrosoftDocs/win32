@@ -2,7 +2,7 @@
 Description: Locks a connected smart card for exclusive use.
 ms.assetid: c39a7cfe-04b6-4298-927a-4280664cf769
 title: ISCardManage::SCardLock method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,9 +16,9 @@ api_location:
 
 # ISCardManage::SCardLock method
 
-\[The **SCardLock** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **SCardLock** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **SCardLock** method locks a connected [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) for exclusive use.
+The **SCardLock** method locks a connected [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) for exclusive use.
 
 ## Syntax
 

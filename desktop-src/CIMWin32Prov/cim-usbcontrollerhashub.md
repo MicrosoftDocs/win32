@@ -3,7 +3,7 @@ Description: The CIM\_USBControllerHasHub class defines the hubs that are downst
 ms.assetid: 38bc0342-3ff0-42c8-9c1e-ea5a5822e1d3
 ms.tgt_platform: multiple
 title: CIM_USBControllerHasHub class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

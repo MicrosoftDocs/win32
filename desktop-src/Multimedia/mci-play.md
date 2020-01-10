@@ -1,5 +1,5 @@
 ---
-title: MCI_PLAY command
+title: MCI_PLAY command (Mmsystem.h)
 description: The MCI\_PLAY command signals the device to begin transmitting output data. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 ms.assetid: d912ab49-63f0-40a9-aa4c-f9463782b54c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_PLAY command signals the device to begin transmitting output data. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -115,7 +115,7 @@ Playback should use a full-screen display. Use this flag only when playing compr
 
 </dd> </dl>
 
-For digital-video devices, *lpPlay* points to an [**MCI\_DGV\_PLAY\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743396(v=VS.85).aspx) structure.
+For digital-video devices, *lpPlay* points to an [**MCI\_DGV\_PLAY\_PARMS**](https://msdn.microsoft.com/library/Dd743396(v=VS.85).aspx) structure.
 
 The following additional flags are used with the **vcr** device type:
 

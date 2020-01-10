@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable SetBlendState method
+title: ID3DX11EffectBlendVariable SetBlendState method (D3dx11effect.h)
 description: Sets an effect's blend-state.
 ms.assetid: 46100721-65a3-46de-aa22-3e7e2fb7b960
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ A pointer to an [**ID3D11BlendState**](/windows/desktop/api/D3D11/nn-d3d11-id3d1
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

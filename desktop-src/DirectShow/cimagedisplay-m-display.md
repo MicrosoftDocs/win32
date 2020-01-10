@@ -1,8 +1,8 @@
 ---
 Description: The m\_Display member is a VIDEOINFO structure that describes the current display format.
 ms.assetid: 774264a1-86a8-449f-a83a-a56c04b8a6ac
-title: CImageDisplay::m_Display member
-ms.topic: article
+title: CImageDisplay::m_Display member (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

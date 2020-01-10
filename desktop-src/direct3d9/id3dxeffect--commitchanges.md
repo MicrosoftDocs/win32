@@ -1,8 +1,8 @@
 ---
 Description: Propagate state changes that occur inside of an active pass to the device before rendering.
 ms.assetid: 3a779b63-c106-4a81-afeb-82bd6e556de4
-title: ID3DXEffect::CommitChanges method
-ms.topic: article
+title: ID3DXEffect::CommitChanges method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

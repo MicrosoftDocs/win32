@@ -1,8 +1,8 @@
 ---
 Description: Specifies the center downmix level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 175d551a-d101-4171-b24b-1a64427c0971
-title: AVEncDDCentreDownMixLevel property
-ms.topic: article
+title: AVEncDDCentreDownMixLevel property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

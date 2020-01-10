@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the capture engine captures audio but not video.
 ms.assetid: 0A905D55-CEE5-44FC-97A5-9474872D5724
-title: MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY attribute
-ms.topic: article
+title: MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY attribute (Mfcaptureengine.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

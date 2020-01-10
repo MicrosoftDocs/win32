@@ -1,8 +1,8 @@
 ---
 Description: The MergeEx method of the Merge object is equivalent to the Merge function, except that it takes an extra argument.
 ms.assetid: 83b6d62b-d176-42ac-b513-d1c2e562965c
-title: Merge.MergeEx method
-ms.topic: article
+title: Merge.MergeEx method (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,7 +18,7 @@ api_location:
 
 # Merge.MergeEx method
 
-The **MergeEx** method of the [**Merge**](merge-object.md) object is equivalent to the [**Merge**](https://msdn.microsoft.com/en-us/library/Aa369275(v=VS.85).aspx) function, except that it takes an extra argument. The *pConfiguration* argument is an interface implemented by the client. The argument may be null. The presence of this argument indicates that the client is capable of supporting the configuration functionality, but does not obligate the client to provide configuration data for any specific configurable item.
+The **MergeEx** method of the [**Merge**](merge-object.md) object is equivalent to the [**Merge**](https://msdn.microsoft.com/library/Aa369275(v=VS.85).aspx) function, except that it takes an extra argument. The *pConfiguration* argument is an interface implemented by the client. The argument may be null. The presence of this argument indicates that the client is capable of supporting the configuration functionality, but does not obligate the client to provide configuration data for any specific configurable item.
 
 The [**Merge**](merge-merge.md) method executes a merge of the current database and current module. The merge attaches the components in the module to the feature identified by *Feature*. The root of the module's directory tree is redirected to the location given by *RedirectDir*.
 
@@ -72,7 +72,7 @@ Changes made to the database are saved if and only if the [**CloseDatabase**](me
 
 If any merge conflicts occur, including exclusions, they are placed in the error enumerator for later retrieval, but does not cause the merge to fail. Errors may be retrieved through the [**Errors**](merge-errors.md) property. Errors and informational messages are posted to the current log file.
 
-When the merge fails because of an incorrect module configuration the [**MergeEx**](/windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-mergeex) function returns E\_FAIL. This includes these msmErrorType errors: **msmErrorBadNullSubstitution**, **msmErrorBadSubstitutionType**, **msmErrorBadNullResponse**, **msmErrorMissingConfigItem**, and **msmErrorDataRequestFailed**. These errors cause the merge to stop immediately when the error is encountered. The error object is still added to the enumerator when **MergeEx** returns E\_FAIL. For more information about msmErrorType errors, see [**get\_Type Function (Error Object)**](https://msdn.microsoft.com/en-us/library/Aa369256(v=VS.85).aspx). All other errors cause **MergeEx** to return S\_FALSE and cause the merge to continue.
+When the merge fails because of an incorrect module configuration the [**MergeEx**](/windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-mergeex) function returns E\_FAIL. This includes these msmErrorType errors: **msmErrorBadNullSubstitution**, **msmErrorBadSubstitutionType**, **msmErrorBadNullResponse**, **msmErrorMissingConfigItem**, and **msmErrorDataRequestFailed**. These errors cause the merge to stop immediately when the error is encountered. The error object is still added to the enumerator when **MergeEx** returns E\_FAIL. For more information about msmErrorType errors, see [**get\_Type Function (Error Object)**](https://msdn.microsoft.com/library/Aa369256(v=VS.85).aspx). All other errors cause **MergeEx** to return S\_FALSE and cause the merge to continue.
 
 ### C++
 

@@ -13,7 +13,7 @@ api_location:
 - N/A
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -78,7 +78,7 @@ A pointer to a **BYTE** buffer that contains:
 **pMessage**
 </dt> <dd>
 
-A pointer to an [**RPCOLEMESSAGE**](https://msdn.microsoft.com/en-us/library/ms691405(v=VS.85).aspx) structure that contains RPC data marshalling information.
+A pointer to an [**RPCOLEMESSAGE**](https://msdn.microsoft.com/library/ms691405(v=VS.85).aspx) structure that contains RPC data marshalling information.
 
 > [!Note]
 >
@@ -104,7 +104,7 @@ A pointer to the IID of the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interfac
 **pChannel**
 </dt> <dd>
 
-A pointer to the [**IRpcChannelBuffer**](https://msdn.microsoft.com/en-us/library/ms679738(v=VS.85).aspx) interface of the COM RPC channel implementation on the server.
+A pointer to the [**IRpcChannelBuffer**](https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx) interface of the COM RPC channel implementation on the server.
 
 > [!Note]
 >

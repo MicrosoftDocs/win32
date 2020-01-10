@@ -1,5 +1,5 @@
 ---
-title: EM_GETCTFOPENSTATUS message
+title: EM_GETCTFOPENSTATUS message (Richedit.h)
 description: Determines if the Text Services Framework (TSF) keyboard is open or closed.
 ms.assetid: a50fedf4-b4e5-4b99-be46-1bbbf08e85a8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

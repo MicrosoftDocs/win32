@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A transport protocol must be properly installed on the system and registered with Windows Sockets to be accessible to an application. The Ws2\_32.dll library exports a set of functions to facilitate the registration process. This includes creating a new registration and removing an existing one.
 
-When new registrations are created, the caller (that is, the stack vendor's installation script) supplies one or more filled in [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structures containing a complete set of information about the protocol. For more information, see [Windows Sockets 2 SPI](about-the-winsock-spi.md). Any transport stack installed in this manner is referred to as a Windows Sockets service provider.
+When new registrations are created, the caller (that is, the stack vendor's installation script) supplies one or more filled in [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structures containing a complete set of information about the protocol. For more information, see [Windows Sockets 2 SPI](about-the-winsock-spi.md). Any transport stack installed in this manner is referred to as a Windows Sockets service provider.
 
 On Windows XP with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows Vista and later. the Winsock catalog that contains a list of installed transport and namespace providers can be displayed in a command prompt with the following command:
 

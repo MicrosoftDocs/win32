@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable SetFloat method
+title: ID3DX11EffectScalarVariable SetFloat method (D3dx11effect.h)
 description: Set a floating-point variable.
 ms.assetid: e13f3ba1-437a-47f0-bd08-4423ffc25ddb
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to the variable.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

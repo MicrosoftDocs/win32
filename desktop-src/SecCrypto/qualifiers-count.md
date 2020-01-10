@@ -2,7 +2,7 @@
 Description: Retrieves the number of Qualifier objects in the collection.
 ms.assetid: 9dafb83a-ff7f-4317-8ed4-2a46dcebf409
 title: Qualifiers.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

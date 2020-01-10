@@ -1,5 +1,5 @@
 ---
-title: Automatic Maintenance
+title: Automatic Maintenance (Compatibility cookbook for Windows)
 description: Automatic Maintenance
 ms.assetid: D3B61105-D118-42A4-8F3D-ED92EFAF597F
 ms.topic: article

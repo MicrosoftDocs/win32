@@ -1,5 +1,5 @@
 ---
-title: LVM_GETCOUNTPERPAGE message
+title: LVM_GETCOUNTPERPAGE message (Commctrl.h)
 description: Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can send this message explicitly or by using the ListView\_GetCountPerPage macro.
 ms.assetid: 2ffd2bb1-cddf-4a4a-a4a8-087c9dc3fec0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

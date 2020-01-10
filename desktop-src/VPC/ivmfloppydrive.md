@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive interface
+title: IVMFloppyDrive interface (VPCCOMInterfaces.h)
 description: Controls a floppy drive within a virtual machine.
 ms.assetid: b652182a-27ae-4390-81b1-b644a82924df
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Controls a floppy drive within a virtual machine. **IVMFloppyDrive** can notify 
 
 ## Members
 
-The **IVMFloppyDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDrive** also has these types of members:
+The **IVMFloppyDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDrive** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

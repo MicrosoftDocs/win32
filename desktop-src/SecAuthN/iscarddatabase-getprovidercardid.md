@@ -1,8 +1,8 @@
 ---
 Description: The GetProviderCardId method retrieves the identifier (GUID) of the primary service provider for the specified smart card.
 ms.assetid: 0008bb5a-872f-4e5d-9029-a863cd3eea00
-title: ISCardDatabase::GetProviderCardId method
-ms.topic: article
+title: ISCardDatabase::GetProviderCardId method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardDatabase::GetProviderCardId method
 
-\[The **GetProviderCardId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **GetProviderCardId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **GetProviderCardId** method retrieves the identifier (GUID) of the [*primary service provider*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) for the specified [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **GetProviderCardId** method retrieves the identifier (GUID) of the [*primary service provider*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) for the specified [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -72,7 +72,7 @@ The method returns one of the following possible values.
 
 To list the interfaces of the smart card, call [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md).
 
-To retrieve all known [*smart cards*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), [*readers*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) and [*reader groups*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) call [**ListCards**](iscarddatabase-listcards.md), [**ListReaders**](iscarddatabase-listreaders.md), and [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
+To retrieve all known [*smart cards*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), [*readers*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) and [*reader groups*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) call [**ListCards**](iscarddatabase-listcards.md), [**ListReaders**](iscarddatabase-listreaders.md), and [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
 
 For a list of all the methods provided by this interface, see [**ISCardDatabase**](iscarddatabase.md).
 

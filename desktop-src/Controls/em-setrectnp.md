@@ -1,5 +1,5 @@
 ---
-title: EM_SETRECTNP message
+title: EM_SETRECTNP message (Winuser.h)
 description: Sets the formatting rectangle of a multiline edit control.
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

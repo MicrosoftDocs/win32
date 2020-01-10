@@ -1,8 +1,8 @@
 ---
 Description: The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeeking::ConvertTimeFormat method.
 ms.assetid: d0cb44fa-30c1-41b4-92a4-7169161e3140
-title: CSourceSeeking.ConvertTimeFormat method
-ms.topic: article
+title: CSourceSeeking.ConvertTimeFormat method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

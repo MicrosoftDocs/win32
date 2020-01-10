@@ -1,8 +1,8 @@
 ---
 Description: Occurs when an application-specific gesture is recognized.
 ms.assetid: a20f2d78-6cfe-4755-968e-91369021db1b
-title: InkPicture.Gesture event
-ms.topic: article
+title: InkPicture.Gesture event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -38,7 +38,7 @@ The [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) objec
 *Strokes* \[in\]
 </dt> <dd>
 
-The [IInkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that the recognizer returned as the gesture.
+The [IInkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection that the recognizer returned as the gesture.
 
 </dd> <dt>
 

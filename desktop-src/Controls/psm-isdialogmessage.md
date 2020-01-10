@@ -1,5 +1,5 @@
 ---
-title: PSM_ISDIALOGMESSAGE message
+title: PSM_ISDIALOGMESSAGE message (Prsht.h)
 description: Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can send this message explicitly or by using the PropSheet\_IsDialogMessage macro.
 ms.assetid: 7629c3f8-0b10-4585-8a95-9309c75b3ebb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

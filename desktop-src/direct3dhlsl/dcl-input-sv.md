@@ -2,10 +2,10 @@
 title: dcl_input_sv (sm4 - asm)
 description: dcl\_input\_sv (sm4 - asm)
 ms.assetid: 59270148-e2eb-4525-a888-ad7e843d62a5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
@@ -48,7 +48,7 @@ Declares a shader-input register that expects a [system-value](dx-graphics-hlsl-
 </tr>
 <tr class="even">
 <td><span id="systemValueName"></span><span id="systemvaluename"></span><span id="SYSTEMVALUENAME"></span><em>systemValueName</em><br/></td>
-<td>[in] The system-value name which is a string (see <a href="dx-graphics-hlsl-semantics">system-value semantics</a>) without the &quot;SV_&quot; prefix.<br/></td>
+<td>[in] The system-value name which is a string (see <a href="dx-graphics-hlsl-semantics.md">system-value semantics</a>) without the &quot;SV_&quot; prefix.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="interpolationMode"></span><span id="interpolationmode"></span><span id="INTERPOLATIONMODE"></span><em>interpolationMode</em><br/></td>

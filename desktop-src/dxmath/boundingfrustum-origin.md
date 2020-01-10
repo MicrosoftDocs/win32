@@ -1,14 +1,14 @@
 ---
 Description: The origin of the BoundingFrustum.
 ms.assetid: 9cfe75ae-cd9c-41c6-ae05-990d6b27fb04
-title: BoundingFrustum.Origin
-ms.topic: article
+title: BoundingFrustum.Origin (DirectXCollision.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # BoundingFrustum.Origin
 
-The origin of the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
+The origin of the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).
 
 
 ```C++
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
+[**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

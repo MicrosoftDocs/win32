@@ -1,5 +1,5 @@
 ---
-title: MPSCAN_TYPE enumeration
+title: MPSCAN_TYPE enumeration (MpClient.h)
 description: Type of scan performed.
 ms.assetid: 980A80FD-FF02-4338-B7FB-DAA141F65E89
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

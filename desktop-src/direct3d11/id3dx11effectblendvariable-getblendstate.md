@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable GetBlendState method
+title: ID3DX11EffectBlendVariable GetBlendState method (D3dx11effect.h)
 description: Get a pointer to a blend-state interface.
 ms.assetid: ab4ee765-b5ad-4dc3-9b00-48052528d3bd
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ The address of a pointer to a blend-state interface (see [**ID3D11BlendState**](
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

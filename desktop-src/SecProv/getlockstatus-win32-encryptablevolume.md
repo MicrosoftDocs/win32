@@ -2,7 +2,7 @@
 Description: Indicates whether the contents of the volume are accessible from Windows.
 ms.assetid: 54b2a41b-11c6-40ec-97fa-74996c15554e
 title: GetLockStatus method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -76,7 +76,7 @@ Use the [**UnlockWithExternalKey**](unlockwithexternalkey-win32-encryptablevolum
 
 The volume that contains the currently running operating system is always accessible and cannot be locked.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

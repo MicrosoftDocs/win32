@@ -1,8 +1,8 @@
 ---
 Description: A 4x4, 16-byte-aligned matrix that contains methods and operator overloads.
 ms.assetid: c7082fe5-f98b-4ab7-b8c2-7cdbab4848ad
-title: D3DXMATRIXA16 structure
-ms.topic: structure
+title: D3DXMATRIXA16 structure (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ typedef struct D3DXMATRIXA16 {
 **\_ij**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -58,7 +58,7 @@ Vectors and quaternions are not byte aligned in D3DX. When using vectors and qua
 
 
 
-Other compilers interpret D3DXMATRIXA16 as D3DXMATRIX. Using this structure on a compiler that does not actually align the matrix can be problematic because it will not expose bugs that ignore alignment. For example, if a D3DXMATRIXA16 object is inside a structure or class, a [**memcpy**](https://msdn.microsoft.com/en-us/library/dswaw1wk(v=VS.71).aspx) might be done with tight packing (ignoring 16-byte boundaries). This would cause build breaks if the compiler were to sometime add matrix aligning.
+Other compilers interpret D3DXMATRIXA16 as D3DXMATRIX. Using this structure on a compiler that does not actually align the matrix can be problematic because it will not expose bugs that ignore alignment. For example, if a D3DXMATRIXA16 object is inside a structure or class, a [**memcpy**](https://msdn.microsoft.com/library/dswaw1wk(v=VS.71).aspx) might be done with tight packing (ignoring 16-byte boundaries). This would cause build breaks if the compiler were to sometime add matrix aligning.
 
 ### D3DXMATRIXA16
 

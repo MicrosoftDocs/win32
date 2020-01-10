@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine RemoveHardDiskConnection method
+title: IVMVirtualMachine RemoveHardDiskConnection method (VPCCOMInterfaces.h)
 description: Removes the specified hard disk connection from the virtual machine.
 ms.assetid: d31f2442-aae4-4987-9188-fd32778604a1
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

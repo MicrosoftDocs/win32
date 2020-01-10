@@ -1,5 +1,5 @@
 ---
-title: BITS_JOB_PROPERTY_VALUE structure
+title: BITS_JOB_PROPERTY_VALUE structure (Deliveryoptimization.h)
 description: The BITS_JOB_PROPERTY_VALUE union provides the property value of the DO job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 ms.assetid: C24D9EA1-2E72-4403-939A-7B01D7133FE7
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

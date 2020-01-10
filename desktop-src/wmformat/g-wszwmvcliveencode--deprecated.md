@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCLiveEncode
+title: g_wszWMVCLiveEncode (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 63fe2783-08a2-44f0-a301-d5a6c030a90c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

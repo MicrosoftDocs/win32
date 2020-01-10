@@ -3,7 +3,7 @@ Description: Represents a PnP device property of type Sint16.
 ms.assetid: AD329F31-1E31-4C9D-B6BE-C4FF2364F534
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint16 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: TTM_TRACKACTIVATE message
+title: TTM_TRACKACTIVATE message (Commctrl.h)
 description: Activates or deactivates a tracking tooltip.
 ms.assetid: 6cf43377-a772-4749-81c4-a685998092e5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ID2D1GeometrySink AddArc methods
+title: ID2D1GeometrySink AddArc methods (D2d1.h)
 description: Creates a single arc and adds it to the path geometry.
 ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1GeometrySink::AddArc methods
@@ -24,8 +24,8 @@ Creates a single arc and adds it to the path geometry.
 
 | Method                                                                                | Description                                         |
 |:--------------------------------------------------------------------------------------|:----------------------------------------------------|
-| [**AddArc(D2D1\_ARC\_SEGMENT&)**](https://msdn.microsoft.com/en-us/library/Dd316597(v=VS.85).aspx)  | Adds a single arc to the path geometry.<br/>  |
-| [**AddArc(D2D1\_ARC\_SEGMENT\*)**](https://msdn.microsoft.com/en-us/library/Dd316595(v=VS.85).aspx) | Adds a single arc to the path geometry. <br/> |
+| [**AddArc(D2D1\_ARC\_SEGMENT&)**](https://msdn.microsoft.com/library/Dd316597(v=VS.85).aspx)  | Adds a single arc to the path geometry.<br/>  |
+| [**AddArc(D2D1\_ARC\_SEGMENT\*)**](https://msdn.microsoft.com/library/Dd316595(v=VS.85).aspx) | Adds a single arc to the path geometry. <br/> |
 
 
 
@@ -45,7 +45,7 @@ Creates a single arc and adds it to the path geometry.
 
 <dl> <dt>
 
-[**ID2D1GeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316592(v=VS.85).aspx)
+[**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx)
 </dt> </dl>
 
 �

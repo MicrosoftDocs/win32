@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback object to specify a default sorting parameter. Used by IShellFolderViewCB::MessageSFVCB.
-title: SFVM_GETSORTDEFAULTS message
-ms.topic: article
+title: SFVM_GETSORTDEFAULTS message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: edd428f2-50d9-4819-ba77-df51262e33ff
 api_name: 
@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_GETSORTDEFAULTS message
 
-Allows the callback object to specify a default sorting parameter. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify a default sorting parameter. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

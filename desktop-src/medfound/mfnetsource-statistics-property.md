@@ -1,8 +1,8 @@
 ---
 Description: Contains network statistics for the network source.
 ms.assetid: 1948481b-febd-434b-a5dc-faef592ea0ed
-title: MFNETSOURCE_STATISTICS Property
-ms.topic: article
+title: MFNETSOURCE_STATISTICS Property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

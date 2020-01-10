@@ -2,7 +2,7 @@
 Description: The ProductProperty Property of the Session object is a read-only property that retrieves product properties from the product database.
 ms.assetid: 1af539e3-26e1-4c4c-be23-d1cfe4918d00
 title: Session.ProductProperty property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

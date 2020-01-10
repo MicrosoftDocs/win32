@@ -1,8 +1,8 @@
 ---
 Description: Provides access to layout analysis, writing and drawing classification, and handwriting recognition.
 ms.assetid: 3a19db78-df14-43c2-9e3e-8cf674aa7b9c
-title: IInkAnalyzer interface
-ms.topic: interface
+title: IInkAnalyzer interface (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -97,7 +97,7 @@ The **IInkAnalyzer** interface has these methods.
 
 ## Remarks
 
-**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](inkdisp-class.md) or [InkStrokes Collection](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) objects directly.
+**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](inkdisp-class.md) or [InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) objects directly.
 
 To add or remove strokes to the **IInkAnalyzer** for analysis, use one of the following methods.
 

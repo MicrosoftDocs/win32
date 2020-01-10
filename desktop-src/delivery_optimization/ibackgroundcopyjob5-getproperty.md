@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob5 GetProperty method
+title: IBackgroundCopyJob5 GetProperty method (Deliveryoptimization.h)
 description: A generic method for getting Delivery Optimization (DO) job properties.
 ms.assetid: 22BA2FAB-3F24-4801-8FB7-CB6F9E8DFBB3
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

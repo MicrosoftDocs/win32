@@ -1,5 +1,5 @@
 ---
-title: gluLookAt function
+title: gluLookAt function (Glu.h)
 description: The gluLookAt function defines a viewing transformation.
 ms.assetid: 1fd87701-19c2-49b9-99ac-10e70aaedbfd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

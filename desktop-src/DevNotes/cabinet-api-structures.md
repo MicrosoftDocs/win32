@@ -15,7 +15,7 @@ This section details the following Cabinet API Structures:
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [**CABINETDLLVERSIONINFO**](cabinetdllversioninfo.md) | Contains the version information for Cabinet.dll.<br/>                                    |
 | [**CCAB**](/windows/desktop/api/Fci/ns-fci-ccab)                                   | Contains cabinet information.<br/>                                                        |
-| [**ERF**](https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx)                                     | Returns error information from FCI/FDI. The caller should not modify this structure.<br/> |
+| [**ERF**](https://msdn.microsoft.com/library/Bb432257(v=VS.85).aspx)                                     | Returns error information from FCI/FDI. The caller should not modify this structure.<br/> |
 | [**FDICABINETINFO**](/windows/desktop/api/Fdi/ns-fdi-fdicabinetinfo)               | Contains details about a particular cabinet file.<br/>                                    |
 | [**FDINOTIFICATION**](/windows/desktop/api/Fdi/ns-fdi-fdinotification)             | Provide information to [**FNFDINOTIFY**](/windows/desktop/api/fdi/nf-fdi-fnfdinotify).<br/>                           |
 | [**SESSION**](session.md)                             | Contains information about the current session.<br/>                                      |

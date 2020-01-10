@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement BackupLicenses method
+title: IWMDRMLicenseManagement BackupLicenses method (Wmdrmsdk.h)
 description: The BackupLicenses method creates a backup of the licenses in the local license store.
 ms.assetid: f265254d-b240-4a9f-9c67-de9c92e8a14d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

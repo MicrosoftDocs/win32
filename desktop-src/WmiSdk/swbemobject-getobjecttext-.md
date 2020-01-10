@@ -2,8 +2,8 @@
 Description: The GetObjectText\_ method of the SWbemObject object returns a textual rendering of the object.
 ms.assetid: 8b980863-14ad-4884-8897-dd076d927824
 ms.tgt_platform: multiple
-title: SWbemObject.GetObjectText_ method
-ms.topic: article
+title: SWbemObject.GetObjectText_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,7 +1,7 @@
 ---
 Description: Sent to an application that has initiated a training card with Windows Help.
-title: WM_TCARD message
-ms.topic: article
+title: WM_TCARD message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: fdde7603-9913-4e80-9502-2142ef8a511c
 api_name: 

@@ -1,8 +1,8 @@
 ---
 Description: Generate a list of mesh edges, as well as a list of faces that share each edge.
 ms.assetid: 3932e2b1-031d-4962-ad90-6e9da8cf2e0e
-title: ID3DX10Mesh::GenerateAdjacencyAndPointReps method
-ms.topic: article
+title: ID3DX10Mesh::GenerateAdjacencyAndPointReps method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT GenerateAdjacencyAndPointReps(
 *Epsilon* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies that vertices that differ in position by less than epsilon should be treated as coincident.
 
@@ -46,7 +46,7 @@ Specifies that vertices that differ in position by less than epsilon should be t
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

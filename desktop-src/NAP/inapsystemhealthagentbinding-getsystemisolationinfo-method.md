@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentBinding GetSystemIsolationInfo method
+title: INapSystemHealthAgentBinding GetSystemIsolationInfo method (NapSystemHealthAgent.h)
 description: Is called by SHAs to determine the system isolation state.
 ms.assetid: 0401a846-0da2-4975-87bc-3e9fe8b5b67d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

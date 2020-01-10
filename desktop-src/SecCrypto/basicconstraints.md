@@ -2,7 +2,7 @@
 Description: Represents the basic constraints extension of a certificate.
 ms.assetid: c21794f6-7654-4140-8114-0edb398d6de8
 title: BasicConstraints object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,7 +44,7 @@ The **BasicConstraints** object has these properties.
 
 | Property                                                                                     | Access type          | Description                                                                                                                                                                                                        |
 |:---------------------------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IsCertificateAuthority**](basicconstraints-iscertificateauthority.md)<br/>         | Read-only<br/> | Retrieves a Boolean value that indicates whether the certificate is for a [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).<br/> |
+| [**IsCertificateAuthority**](basicconstraints-iscertificateauthority.md)<br/>         | Read-only<br/> | Retrieves a Boolean value that indicates whether the certificate is for a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).<br/> |
 | [**IsCritical**](basicconstraints-iscritical.md)<br/>                                 | Read-only<br/> | Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.<br/>                                                                                                     |
 | [**IsPathLenConstraintPresent**](basicconstraints-ispathlenconstraintpresent.md)<br/> | Read-only<br/> | Retrieves a Boolean value that indicates whether the certificate's path length constraint is present.<br/>                                                                                                   |
 | [**IsPresent**](basicconstraints-ispresent.md)<br/>                                   | Read-only<br/> | Retrieves a Boolean value that indicates whether the basic constraints extension is present. This is the default property.<br/>                                                                              |

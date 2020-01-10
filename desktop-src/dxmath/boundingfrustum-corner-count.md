@@ -1,14 +1,14 @@
 ---
 Description: The number of corners defining the BoundingFrustum.
 ms.assetid: 0344b0ca-de22-454a-b140-33f5790fb1b9
-title: BoundingFrustum.CORNER_COUNT
-ms.topic: article
+title: BoundingFrustum.CORNER_COUNT (DirectXCollision.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # BoundingFrustum.CORNER\_COUNT
 
-The number of corners defining the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
+The number of corners defining the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).
 
 
 ```C++
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
+[**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

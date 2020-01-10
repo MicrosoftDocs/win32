@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.ExposureBias Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.ExposureBias](https://msdn.microsoft.com/en-us/library/bb760423(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.ExposureBias](https://msdn.microsoft.com/library/bb760423(VS.85).aspx) property.
 
 ### PKEY
 
@@ -118,7 +118,7 @@ This value is generated from System.Photo.ExposureBiasNumerator and System.Photo
 
 <dl> <dt>
 
-[System.Photo.ExposureBias](https://msdn.microsoft.com/en-us/library/bb760423(VS.85).aspx)
+[System.Photo.ExposureBias](https://msdn.microsoft.com/library/bb760423(VS.85).aspx)
 </dt> </dl>
 
  

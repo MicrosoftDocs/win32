@@ -2,7 +2,7 @@
 Description: Represents an object identifier (OID) that is used by several CAPICOM properties.
 ms.assetid: 'd9dc2a9a-920b-41e1-91fb-da1628df577d'
 title: OID object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://msdn.microsoft.com/library/za72cszy(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
 
-The **OID** object represents an [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) that is used by several CAPICOM properties.
+The **OID** object represents an [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) that is used by several CAPICOM properties.
 
 ## When to use
 

@@ -2,7 +2,7 @@
 Description: Gets an IMemoryBuffer as an array of bytes.
 ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
 title: IMemoryBufferByteAccess::GetBuffer method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # IMemoryBufferByteAccess::GetBuffer method
 
-Gets an [**IMemoryBuffer**](https://msdn.microsoft.com/en-us/library/Dn921670(v=WIN.10).aspx) as an array of bytes.
+Gets an [**IMemoryBuffer**](https://msdn.microsoft.com/library/Dn921670(v=WIN.10).aspx) as an array of bytes.
 
 ## Syntax
 
@@ -54,13 +54,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-When [**MemoryBuffer::Close**](https://msdn.microsoft.com/en-us/library/Dn921676(v=WIN.10).aspx) is called, the code using this buffer should set the *value* pointer to null.
+When [**MemoryBuffer::Close**](https://msdn.microsoft.com/library/Dn921676(v=WIN.10).aspx) is called, the code using this buffer should set the *value* pointer to null.
 
 ## See also
 
 <dl> <dt>
 
-[**IMemoryBufferByteAccess**](https://msdn.microsoft.com/en-us/library/Mt297505(v=VS.85).aspx)
+[**IMemoryBufferByteAccess**](https://msdn.microsoft.com/library/Mt297505(v=VS.85).aspx)
 </dt> </dl>
 
  

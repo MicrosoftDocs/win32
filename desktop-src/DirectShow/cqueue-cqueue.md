@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 4dcbb088-638b-49a6-afaf-a973e13bd5fb
-title: CQueue.CQueue constructor
-ms.topic: article
+title: CQueue.CQueue constructor (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

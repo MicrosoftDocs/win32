@@ -1,5 +1,5 @@
 ---
-title: LVM_INSERTMARKHITTEST message
+title: LVM_INSERTMARKHITTEST message (Commctrl.h)
 description: Retrieves the insertion point closest to a specified point.
 ms.assetid: 901bb770-a36d-4d9f-a53b-d497b4df39e5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

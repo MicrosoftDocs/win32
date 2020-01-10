@@ -10,7 +10,7 @@ api_name:
 - Comparing the Windows Media Audio and Video Codec Interfaces and the Windows Media Format SDK
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Winsock network tracing event for a socket creation operation.
 ms.assetid: 59B9A570-5AEC-429D-AF71-AB6D8325C341
 title: AFD_EVENT_CREATE event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -62,7 +62,7 @@ A private field used internally.
 *Process* 
 </dt> <dd>
 
-The [EPROCESS](https://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/en-us/library/ff544273(VS.85).aspx) structure.
+The [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) structure.
 
 </dd> <dt>
 

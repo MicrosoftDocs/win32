@@ -1,5 +1,5 @@
 ---
-title: MCI_RECORD command
+title: MCI_RECORD command (Mmsystem.h)
 description: The MCI\_RECORD command starts recording from the current position or from one specified location to another specified location.
 ms.assetid: d3c4e8a3-7d81-428e-91d8-d8d63fc0aa02
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The [**MCI\_RECORD**](mci-record-parms.md) command starts recording from the current position or from one specified location to another specified location. VCR and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

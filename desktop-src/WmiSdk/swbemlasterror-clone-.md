@@ -2,8 +2,8 @@
 Description: The Clone\_ method of the SWbemLastError object returns a new object that is a clone of the current SWbemLastError object.
 ms.assetid: 577be060-309f-40a2-a4db-c0a477c21f11
 ms.tgt_platform: multiple
-title: SWbemLastError.Clone_ method
-ms.topic: article
+title: SWbemLastError.Clone_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

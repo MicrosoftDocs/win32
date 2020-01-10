@@ -15,7 +15,7 @@ Dynamic linking allows a module to include only the information needed to locate
 There are two methods for calling a function in a DLL:
 
 -   In *load-time dynamic linking*, a module makes explicit calls to exported DLL functions as if they were local functions. This requires you to link the module with the import library for the DLL that contains the functions. An import library supplies the system with the information needed to load the DLL and locate the exported DLL functions when the application is loaded.
--   In *run-time dynamic linking*, a module uses the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function to load the DLL at run time. After the DLL is loaded, the module calls the [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) function to get the addresses of the exported DLL functions. The module calls the exported DLL functions using the function pointers returned by **GetProcAddress**. This eliminates the need for an import library.
+-   In *run-time dynamic linking*, a module uses the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function to load the DLL at run time. After the DLL is loaded, the module calls the [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) function to get the addresses of the exported DLL functions. The module calls the exported DLL functions using the function pointers returned by **GetProcAddress**. This eliminates the need for an import library.
 
 ## DLLs and Memory Management
 

@@ -1,5 +1,5 @@
 ---
-title: CCM_GETUNICODEFORMAT message
+title: CCM_GETUNICODEFORMAT message (Commctrl.h)
 description: Gets the Unicode character format flag for the control.
 ms.assetid: 8a23cd1c-549e-4d48-891a-b37dbf5c524b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

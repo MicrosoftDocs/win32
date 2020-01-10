@@ -1,5 +1,5 @@
 ---
-title: RasAdminGetUserAccountServer function
+title: RasAdminGetUserAccountServer function (Rassapi.h)
 description: The RasAdminGetUserAccountServer function retrieves the name of the server that has the user account database. Use the returned server name in the RasAdminUserGetInfo and RasAdminUserSetInfo functions to get or set information about a specified user.
 ms.assetid: db91aa48-32af-49ac-87ed-8c484926ca15
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -82,11 +82,11 @@ There is no extended error information for this function; do not call [**GetLast
 
 The **RasAdminGetUserAccountServer** function obtains the name of the server with the user accounts database. This function requires the name of the RAS server or the name of the domain in which the RAS server resides.
 
-The *lpszDomain* parameter should specify a valid domain name. This parameter is **NULL** for RAS administration applications running on servers that are not members of a domain (for example, the server is in its own workgroup). In this case, the *lpszServer* parameter must specify the server name. To get the server name, call the [**GetComputerName**](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx) function. Be sure to prefix the server name with the "\\\\" characters.
+The *lpszDomain* parameter should specify a valid domain name. This parameter is **NULL** for RAS administration applications running on servers that are not members of a domain (for example, the server is in its own workgroup). In this case, the *lpszServer* parameter must specify the server name. To get the server name, call the [**GetComputerName**](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx) function. Be sure to prefix the server name with the "\\\\" characters.
 
 If the server name specified by *lpszServer* is a stand-alone server (that is, the server or workstation is not a member of a domain), then the server name itself is returned in the *lpszUserAccountServer* buffer.
 
-Then use the name of the user account server in a call to the [**NetQueryDisplayInformation**](https://msdn.microsoft.com/en-us/library/Aa370610(v=VS.85).aspx) function to enumerate the users in the user account database.
+Then use the name of the user account server in a call to the [**NetQueryDisplayInformation**](https://msdn.microsoft.com/library/Aa370610(v=VS.85).aspx) function to enumerate the users in the user account database.
 
 ## Requirements
 
@@ -112,7 +112,7 @@ Then use the name of the user account server in a call to the [**NetQueryDisplay
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**GetComputerName**](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx)
+[**GetComputerName**](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx)
 </dt> <dt>
 
 [**RasAdminUserGetInfo**](rasadminusergetinfo.md)

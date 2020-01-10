@@ -1,8 +1,8 @@
 ---
 Description: Get the number of bones in ID3DX10SkinInfo.
 ms.assetid: 373c8b42-a745-4c68-a93e-381602ca6e0d
-title: ID3DX10SkinInfo::GetNumBones method
-ms.topic: article
+title: ID3DX10SkinInfo::GetNumBones method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of bones in ID3DX10SkinInfo.
 

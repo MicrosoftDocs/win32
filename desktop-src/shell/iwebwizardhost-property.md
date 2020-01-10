@@ -1,8 +1,8 @@
 ---
 Description: Sets or retrieves a property's current value.
 ms.assetid: bb0b3296-a07b-458f-bea3-e1c9ada3246b
-title: WebWizardHost.Property property
-ms.topic: article
+title: WebWizardHost.Property property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -33,7 +33,7 @@ WebWizardHost.Property = Property
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx) that specifies or receives the property.
+A variable of type [**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx) that specifies or receives the property.
 
 ## Requirements
 
@@ -55,7 +55,7 @@ A variable of type [**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(
 [**WebWizardHost**](webwizardhost.md)
 </dt> <dt>
 
-[Using the Transfer Manifest](https://msdn.microsoft.com/en-us/library/Bb776791(v=VS.85).aspx)
+[Using the Transfer Manifest](https://msdn.microsoft.com/library/Bb776791(v=VS.85).aspx)
 </dt> <dt>
 
 [Transfer Manifest Schema](manifest-schema.md)

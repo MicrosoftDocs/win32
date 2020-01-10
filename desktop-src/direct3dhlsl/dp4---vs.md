@@ -2,10 +2,10 @@
 title: dp4 - vs
 description: Computes the four-component dot product of the source registers.
 ms.assetid: ee3d3c8d-6031-4264-80ba-2b200a721310
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

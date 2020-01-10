@@ -1,8 +1,8 @@
 ---
 Description: Used to release a lock held on a specified area of buffer memory.
 ms.assetid: ec06829b-2b3a-45db-9ecd-d4c7cf67b8ae
-title: NtGdiDdUnlockD3D function
-ms.topic: article
+title: NtGdiDdUnlockD3D function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdUnlockD3D(
 *hSurface* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the surface to be unlocked.
+Pointer to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface to be unlocked.
 
 </dd> <dt>
 
 *puUnlockData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_UNLOCKDATA**](https://msdn.microsoft.com/en-us/library/Ff551745(v=VS.85).aspx) structure that contains the information required to perform the lock release.
+Pointer to a [**DD\_UNLOCKDATA**](https://msdn.microsoft.com/library/Ff551745(v=VS.85).aspx) structure that contains the information required to perform the lock release.
 
 </dd> </dl>
 

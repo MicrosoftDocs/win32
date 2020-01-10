@@ -1,5 +1,5 @@
 ---
-title: NM_FONTCHANGED notification code
+title: NM_FONTCHANGED notification code (Commctrl.h)
 description: Sent by a list-view control when the control has changed a font. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ffa019b0-34be-4bb3-b9dd-c267545fec84
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

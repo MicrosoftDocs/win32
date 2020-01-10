@@ -3,7 +3,7 @@ Description: The Win32\_1394ControllerDevice association WMI class relates the h
 ms.assetid: 327fbced-4637-4402-a06f-6ac352da920c
 ms.tgt_platform: multiple
 title: Win32_1394ControllerDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -92,7 +92,7 @@ CompFunc
 
 is the comparison function.
 
-The current pixel is written to the target surface if the stencil test passes, and is ignored otherwise. The default comparison behavior is to write the pixel, no matter how each bitwise operation turns out (D3DCMP\_ALWAYS). You can change this behavior by changing the value of the D3DRS\_STENCILFUNC render state, passing a member of the [**D3DCMPFUNC**](https://msdn.microsoft.com/en-us/library/Bb172517(v=VS.85).aspx) enumerated type to identify the desired comparison function.
+The current pixel is written to the target surface if the stencil test passes, and is ignored otherwise. The default comparison behavior is to write the pixel, no matter how each bitwise operation turns out (D3DCMP\_ALWAYS). You can change this behavior by changing the value of the D3DRS\_STENCILFUNC render state, passing a member of the [**D3DCMPFUNC**](https://msdn.microsoft.com/library/Bb172517(v=VS.85).aspx) enumerated type to identify the desired comparison function.
 
 Your application can customize the operation of the stencil buffer. It can set the comparison function, the stencil mask, and the stencil reference value. It can also control the action that Direct3D takes when the stencil test passes or fails. For more information, see [Stencil Buffer State (Direct3D 9)](stencil-buffer-state.md).
 

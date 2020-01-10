@@ -1,8 +1,8 @@
 ---
 Description: Block alignment, in bytes, for an audio media type. The block alignment is the minimum atomic unit of data for the audio format.
 ms.assetid: 7d304826-ad81-4243-a675-2f55b668b348
-title: MF_MT_AUDIO_BLOCK_ALIGNMENT attribute
-ms.topic: article
+title: MF_MT_AUDIO_BLOCK_ALIGNMENT attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

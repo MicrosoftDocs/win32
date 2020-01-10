@@ -1,5 +1,5 @@
 ---
-title: LVM_DELETEALLITEMS message
+title: LVM_DELETEALLITEMS message (Commctrl.h)
 description: Removes all items from a list-view control. You can send this message explicitly or by using the ListView\_DeleteAllItems macro.
 ms.assetid: 816bf565-79e9-4f5d-b5b4-5cdecce8a61c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

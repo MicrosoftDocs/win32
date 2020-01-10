@@ -2,13 +2,13 @@
 Description: Specifies a IPropertySet that defines the mapping from a property system id to a property system activation id.
 ms.assetid: CA333C46-3C5A-40AC-9885-454E380428A7
 title: MFPKEY_MediaProtectionSystemIdMapping property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MFPKEY\_MediaProtectionSystemIdMapping property
 
-Specifies a [**IPropertySet**](https://msdn.microsoft.com/en-us/library/BR226054(v=Win.10).aspx) that defines the mapping from a property system id to a property system activation id.
+Specifies a [**IPropertySet**](https://msdn.microsoft.com/library/BR226054(v=Win.10).aspx) that defines the mapping from a property system id to a property system activation id.
 
 
 
@@ -28,7 +28,7 @@ VT\_UNKNOWN
 
 ## Remarks
 
-This property key is used to pass an [**IPropertySet**](https://msdn.microsoft.com/en-us/library/BR226054(v=Win.10).aspx) that contains mappings between protection system GUIDs and runtime class strings to a media source.
+This property key is used to pass an [**IPropertySet**](https://msdn.microsoft.com/library/BR226054(v=Win.10).aspx) that contains mappings between protection system GUIDs and runtime class strings to a media source.
 
 ## Requirements
 

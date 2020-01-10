@@ -2,7 +2,7 @@
 Description: Initializes or reinitializes the system image list.
 ms.assetid: 4e661326-157e-4c75-86df-cd213e01c3e5
 title: FileIconInit function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -54,7 +54,7 @@ Type: **BOOL**
 If you are using system image lists in your own process, you must call **FileIconInit** at the following times:
 
 -   On launch.
--   In response to a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx) message when the [**SPI\_SETNONCLIENTMETRICS**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) flag is set.
+-   In response to a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message when the [**SPI\_SETNONCLIENTMETRICS**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) flag is set.
 
 **FileIconInit** is not included in a header file. You must call it directly from Shell32.dll, using ordinal 660.
 

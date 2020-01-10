@@ -11,14 +11,14 @@ api_name:
 - GetMuteOperation
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # GetMuteOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
 
 **GetMuteOperation** has these types of members:
 
@@ -33,7 +33,7 @@ The **GetMuteOperation** class has these methods.
 
 | Method                                            | Description                                                                                                                   |
 |:--------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getmuteoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx). <br/> |
+| [**GetResults**](getmuteoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx). <br/> |
 
 
 
@@ -47,7 +47,7 @@ The **GetMuteOperation** class has these properties.
 
 | Property                                                   | Access type           | Description                                                                                                                                                            |
 |:-----------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getmuteoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx) is completed. <br/> |
+| [**Completed**](getmuteoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx) is completed. <br/> |
 
 
 

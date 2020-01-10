@@ -1,5 +1,5 @@
 ---
-title: TBM_SETPOS message
+title: TBM_SETPOS message (Commctrl.h)
 description: Sets the current logical position of the slider in a trackbar.
 ms.assetid: df6c4e5d-2847-419d-82b5-334d53bb6ba1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

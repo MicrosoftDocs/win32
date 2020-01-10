@@ -1,5 +1,5 @@
 ---
-title: glLoadIdentity function
+title: glLoadIdentity function (Gl.h)
 description: The glLoadIdentity function replaces the current matrix with the identity matrix.
 ms.assetid: 59273aa9-4db3-4c8c-8364-f54c03d2f97a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

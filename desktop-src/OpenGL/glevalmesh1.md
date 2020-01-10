@@ -1,5 +1,5 @@
 ---
-title: glEvalMesh1 function
+title: glEvalMesh1 function (Gl.h)
 description: Computes a one-dimensional grid of points or lines.
 ms.assetid: 176a4b81-f1a7-42fc-8ecd-bba77a0ec5b3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

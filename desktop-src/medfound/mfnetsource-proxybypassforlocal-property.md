@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the proxy locator should use a proxy server for local addresses.
 ms.assetid: 384343f5-5919-44da-b8ea-0c994b4743a8
-title: MFNETSOURCE_PROXYBYPASSFORLOCAL property
-ms.topic: article
+title: MFNETSOURCE_PROXYBYPASSFORLOCAL property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

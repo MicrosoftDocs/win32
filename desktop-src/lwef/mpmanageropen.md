@@ -1,5 +1,5 @@
 ---
-title: MpManagerOpen function
+title: MpManagerOpen function (MpClient.h)
 description: Establishes a connection to the malware protection manager on the local computer.
 ms.assetid: 40513A74-AFCC-4E22-9B78-D46FEB575A00
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

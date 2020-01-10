@@ -2,7 +2,7 @@
 Description: Contains an object for each subscriber property for the parent TransientSubscriptions collection. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 ms.assetid: b4f003b0-db9d-45f1-a57d-3e4d321289ca
 title: TransientSubscriberProperties collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

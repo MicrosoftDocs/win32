@@ -1,8 +1,8 @@
 ---
 Description: Notifies the driver that a software decoder will start using motion compensation with the specified GUID.
 ms.assetid: c9a55428-7fe6-45dd-987a-d9ab8ae8a1cb
-title: NtGdiDdCreateMoComp function
-ms.topic: article
+title: NtGdiDdCreateMoComp function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to a previously created DirectDraw kernel-mode object for the device on w
 *puCreateMoCompData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CREATEMOCOMPDATA**](https://msdn.microsoft.com/en-us/library/Ff550529(v=VS.85).aspx) structure that contains the information required to begin using motion compensation.
+Pointer to a [**DD\_CREATEMOCOMPDATA**](https://msdn.microsoft.com/library/Ff550529(v=VS.85).aspx) structure that contains the information required to begin using motion compensation.
 
 </dd> </dl>
 

@@ -3,7 +3,7 @@ Description: The CIM\_StorageRedundancyGroup class represents mass storage-relat
 ms.assetid: 6bc81680-672a-4872-8951-11d7f10acbc7
 ms.tgt_platform: multiple
 title: CIM_StorageRedundancyGroup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_AssociatedSensor class associates an installed sensor with
 ms.assetid: 8ccaa37f-b95f-4582-a694-23bdc15b8c8b
 ms.tgt_platform: multiple
 title: CIM_AssociatedSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Globally unique identifier (GUID) values that identify producers of debug messages.
 ms.assetid: 85946D30-5E49-4E4B-AC25-394ABFF0DB11
-title: DXGI_DEBUG_ID
-ms.topic: article
+title: DXGI_DEBUG_ID (DXGIDebug.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

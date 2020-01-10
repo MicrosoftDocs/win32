@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Stand-Alone Objects
 
-TAPI 3 involves a number of objects that are independent of its five main TAPI objects (TAPI, Address, Call, CallHub, and Terminal). [Event Interfaces](https://msdn.microsoft.com/en-us/library/ms734880(v=VS.85).aspx) and [Enumerator Interfaces](enumerator-interfaces.md) are stand-alone objects, and are summarized separately. The following summarizes non-event and non-enumerator stand-alone interfaces.
+TAPI 3 involves a number of objects that are independent of its five main TAPI objects (TAPI, Address, Call, CallHub, and Terminal). [Event Interfaces](https://msdn.microsoft.com/library/ms734880(v=VS.85).aspx) and [Enumerator Interfaces](enumerator-interfaces.md) are stand-alone objects, and are summarized separately. The following summarizes non-event and non-enumerator stand-alone interfaces.
 
 
 
@@ -16,9 +16,9 @@ TAPI 3 involves a number of objects that are independent of its five main TAPI o
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)                  | Provides methods to allow Automation client applications such as Visual Basic to retrieve collection information.                                                                                             |
 | [**ITCollection2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itcollection2)                | Extends [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection) by providing additional methods for modifying collections.                                                                                                       |
-| [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221037(v=VS.71).aspx) | Standard COM interface for implementing Automation.                                                                                                                                                           |
-| [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)                         | Standard COM interface for getting pointers to object interfaces.                                                                                                                                             |
-| [**ITDispatchMapper**](/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper)          | Allows an application to retrieve the dispatch pointer of another interface on an object, given a current [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221037(v=VS.71).aspx) pointer. Useful for some scripting languages. |
+| [**IDispatch**](https://msdn.microsoft.com/library/ms221037(v=VS.71).aspx) | Standard COM interface for implementing Automation.                                                                                                                                                           |
+| [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)                         | Standard COM interface for getting pointers to object interfaces.                                                                                                                                             |
+| [**ITDispatchMapper**](/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper)          | Allows an application to retrieve the dispatch pointer of another interface on an object, given a current [**IDispatch**](https://msdn.microsoft.com/library/ms221037(v=VS.71).aspx) pointer. Useful for some scripting languages. |
 | [**ITRequest**](/windows/desktop/api/tapi3if/nn-tapi3if-itrequest)                        | Provides methods that allow a TAPI 3 application to use [Assisted Telephony](assisted-telephony-overview.md).                                                                                                |
 
 

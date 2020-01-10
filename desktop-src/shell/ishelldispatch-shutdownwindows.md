@@ -1,8 +1,8 @@
 ---
 Description: Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
-title: IShellDispatch.ShutdownWindows method
-ms.topic: article
+title: IShellDispatch.ShutdownWindows method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

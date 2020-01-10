@@ -1,5 +1,5 @@
 ---
-title: LB_GETCARETINDEX message
+title: LB_GETCARETINDEX message (Winuser.h)
 description: Retrieves the index of the item that has the focus in a multiple-selection list box. The item may or may not be selected.
 ms.assetid: 'vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_getcaretindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

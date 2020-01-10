@@ -1,8 +1,8 @@
 ---
 Description: The DoConfigure method must be implemented by the monitor. The MCSVC calls this method to obtain configuration information for the capture.
 ms.assetid: bc2a3246-28dc-4452-a98e-a8a2447bb127
-title: IMonitor::DoConfigure method
-ms.topic: article
+title: IMonitor::DoConfigure method (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

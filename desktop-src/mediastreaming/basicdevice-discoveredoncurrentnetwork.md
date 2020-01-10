@@ -12,7 +12,7 @@ api_name:
 - BasicDevice.DiscoveredOnCurrentNetwork
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -42,7 +42,7 @@ A pointer to a boolean value that is **True** if the device is on the current ne
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

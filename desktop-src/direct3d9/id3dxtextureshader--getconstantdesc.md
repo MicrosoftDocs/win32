@@ -1,8 +1,8 @@
 ---
 Description: Gets a pointer to the array of constants in the constant table.
 ms.assetid: 2476344b-8433-46bb-9242-dff84e3168e7
-title: ID3DXTextureShader::GetConstantDesc method
-ms.topic: article
+title: ID3DXTextureShader::GetConstantDesc method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Returns a pointer to an array of descriptions. See [**D3DXCONSTANT\_DESC**](d3dx
 *pCount* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 The input supplied must be the maximum size of the array. The output is the number of elements that are filled in the array when the function returns.
 
@@ -66,7 +66,7 @@ The input supplied must be the maximum size of the array. The output is the numb
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

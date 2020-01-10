@@ -1,5 +1,5 @@
 ---
-title: RtmEnumerateGetNextRoute function
+title: RtmEnumerateGetNextRoute function (Rtm.h)
 description: The RtmEnumerateGetNextRoute function returns the next-route entry in the enumeration started by a call to RtmCreateEnumerationHandle.
 ms.assetid: fff6fb58-8a37-49f0-abc5-354b5bc340f8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Measure the cache hit rate performance for textures and indexed vertices.
 ms.assetid: 70bc4e93-0a34-485b-bdcc-028c24b52f62
-title: D3DDEVINFO_D3D9CACHEUTILIZATION structure
-ms.topic: structure
+title: D3DDEVINFO_D3D9CACHEUTILIZATION structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3D9CACHEUTILIZATION {
 **TextureCacheHitRate**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ The hit rate for finding a texture in the texture cache. This assumes there is a
 **PostTransformVertexCacheHitRate**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

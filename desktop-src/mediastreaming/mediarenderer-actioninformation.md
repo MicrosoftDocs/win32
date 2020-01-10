@@ -12,7 +12,7 @@ api_name:
 - MediaRenderer.ActionInformation
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -36,7 +36,7 @@ HRESULT get_ActionInformation(
 
 ## Property value
 
-A reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx) interface.
+A reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx) interface.
 
 ## See also
 

@@ -2,7 +2,7 @@
 Description: Proxy function for the Initialize method.
 ms.assetid: af9e204c-7072-47b8-84eb-47a754968d5b
 title: IWICBitmapFrameEncode_Initialize_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to this [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-win
 *pIEncoderOptions* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
 
 The set of properties to use for [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) initialization.
 

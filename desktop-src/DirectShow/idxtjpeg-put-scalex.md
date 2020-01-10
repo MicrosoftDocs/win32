@@ -1,8 +1,8 @@
 ---
 Description: The put\_ScaleX method specifies the amount by which the wipe is stretched horizontally.
 ms.assetid: d57af5dc-41e0-45a7-8f11-55ef3bc62549
-title: IDxtJpeg::put_ScaleX method
-ms.topic: article
+title: IDxtJpeg::put_ScaleX method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

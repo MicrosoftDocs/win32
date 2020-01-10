@@ -3,7 +3,7 @@ Description: Attempts to send a user-defined control code to a service managed b
 ms.assetid: 62e66c35-f264-43d0-9e94-fb5e85f936e0
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_SystemDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

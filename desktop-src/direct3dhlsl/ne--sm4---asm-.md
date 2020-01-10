@@ -2,7 +2,7 @@
 title: ne (sm4 - asm)
 description: Component-wise vector floating point not-equal comparison.
 ms.assetid: 5BED97D3-8FF6-4F1C-819B-DC8B4A4F2CCA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

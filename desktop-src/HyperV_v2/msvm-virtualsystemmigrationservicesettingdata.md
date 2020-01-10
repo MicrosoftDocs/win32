@@ -2,7 +2,7 @@
 Description: Represents the settings for the virtual system migration service on a host.
 ms.assetid: 56711134-9a4a-49bd-8a0e-ce679b959adf
 title: Msvm_VirtualSystemMigrationServiceSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

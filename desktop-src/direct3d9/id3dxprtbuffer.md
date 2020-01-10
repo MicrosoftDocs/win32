@@ -1,8 +1,8 @@
 ---
 Description: The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel data for use with precomputed radiance transfer (PRT) methods and functions.
 ms.assetid: 36c1fd13-0949-4991-93cb-41ace458802d
-title: ID3DXPRTBuffer interface
-ms.topic: interface
+title: ID3DXPRTBuffer interface (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -22,7 +22,7 @@ The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel 
 
 ## Members
 
-The **ID3DXPRTBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTBuffer** also has these types of members:
+The **ID3DXPRTBuffer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXPRTBuffer** also has these types of members:
 
 -   [Methods](#methods)
 

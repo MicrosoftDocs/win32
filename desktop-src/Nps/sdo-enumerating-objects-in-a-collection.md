@@ -119,7 +119,7 @@ The following code enumerates the protocols in the NPS protocols collection.
 
 ## Remarks
 
-The vtName and vtProtocol variables are of type [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857). A [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857) object encapsulates, or encloses, the **VARIANT** data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/en-us/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx) as appropriate.
+The vtName and vtProtocol variables are of type [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857). A [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857) object encapsulates, or encloses, the **VARIANT** data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx) as appropriate.
 
 ## Related topics
 
@@ -134,7 +134,7 @@ The vtName and vtProtocol variables are of type [\_variant\_t](https://go.micros
 [**IASCOMMONPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties)
 </dt> <dt>
 
-[**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx)
+[**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx)
 </dt> <dt>
 
 [**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
@@ -143,13 +143,13 @@ The vtName and vtProtocol variables are of type [\_variant\_t](https://go.micros
 [Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
 </dt> <dt>
 
-[**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx)
+[**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx)
 </dt> <dt>
 
-[**VariantInit**](https://msdn.microsoft.com/en-us/library/ms221402(v=VS.71).aspx)
+[**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: CIM_ManagedSystemElement class
+title: CIM_ManagedSystemElement class (Remote Desktop Services)
 description: The base class for the system element hierarchy.
 ms.assetid: c71c0441-381f-4a46-864c-9206c43a27d0
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

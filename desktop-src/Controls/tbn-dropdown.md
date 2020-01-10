@@ -1,5 +1,5 @@
 ---
-title: TBN_DROPDOWN notification code
+title: TBN_DROPDOWN notification code (Commctrl.h)
 description: Sent by a toolbar control when the user clicks a dropdown button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 85360f74-4b43-4d0a-8c89-22b0741fe96a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

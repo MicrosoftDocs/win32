@@ -1,5 +1,5 @@
 ---
-title: Common Functions
+title: Common Functions (Windows Internet)
 description: The different Internet protocols (such as ftp and http) use several of the same WinINet functions to handle information on the Internet.
 ms.assetid: c80768cf-c8c0-4bdf-9ea2-f82c92ade05a
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: glColor3s function
+title: glColor3s function (Gl.h)
 description: Sets the current color.
 ms.assetid: 6d4308c7-d640-447d-8efc-1fd547975516
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

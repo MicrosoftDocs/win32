@@ -1,8 +1,8 @@
 ---
 Description: Indicates the current status of a running expert.
 ms.assetid: 49107459-599c-4710-8935-4b2c789081de
-title: EXPERTSTATUS structure
-ms.topic: structure
+title: EXPERTSTATUS structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

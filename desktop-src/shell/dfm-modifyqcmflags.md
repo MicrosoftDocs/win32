@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.
-title: DFM_MODIFYQCMFLAGS message
-ms.topic: article
+title: DFM_MODIFYQCMFLAGS message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 2c87e14d-4cf4-425d-a5fe-9dc7530f0e59
 api_name: 

@@ -2,7 +2,7 @@
 Description: Determines whether the certificate has a private key associated with it. The method determines this by checking whether the CERT\_KEY\_PROV\_INFO\_PROP\_ID property is present.
 ms.assetid: 80478956-1ed7-4c25-9ae3-d7176649e6d7
 title: ICertificate2::HasPrivateKey method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -21,7 +21,7 @@ api_location:
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://msdn.microsoft.com/library/Hh424017(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **HasPrivateKey** method determines whether the [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) has a [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) associated with it. The method determines this by checking whether the CERT\_KEY\_PROV\_INFO\_PROP\_ID property is present.
+The **HasPrivateKey** method determines whether the [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) has a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with it. The method determines this by checking whether the CERT\_KEY\_PROV\_INFO\_PROP\_ID property is present.
 
 ## Syntax
 

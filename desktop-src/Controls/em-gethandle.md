@@ -1,5 +1,5 @@
 ---
-title: EM_GETHANDLE message
+title: EM_GETHANDLE message (Winuser.h)
 description: Gets a handle of the memory currently allocated for a multiline edit control's text.
 ms.assetid: 74271812-9715-4a46-96b3-0788134f8143
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

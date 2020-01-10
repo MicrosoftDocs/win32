@@ -1,8 +1,8 @@
 ---
 Description: Get the handle of an array element parameter.
 ms.assetid: fe8edbc5-dc1d-4386-8149-489541d55bde
-title: ID3DXBaseEffect::GetParameterElement method
-ms.topic: article
+title: ID3DXBaseEffect::GetParameterElement method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Handle of the array. See [Handles (Direct3D 9)](handles.md).
 *ElementIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Array element index.
 

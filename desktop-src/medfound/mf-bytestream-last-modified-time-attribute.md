@@ -1,8 +1,8 @@
 ---
 Description: Specifies when a byte stream was last modified.
 ms.assetid: dceff922-44eb-478f-842a-8ac0e73a02ee
-title: MF_BYTESTREAM_LAST_MODIFIED_TIME attribute
-ms.topic: article
+title: MF_BYTESTREAM_LAST_MODIFIED_TIME attribute (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ Byte array
 
 ## Remarks
 
-This attribute is optional. The value of the attribute is a [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure.
+This attribute is optional. The value of the attribute is a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SetSoftKeyboardTextFont method
+title: ISoftKbd SetSoftKeyboardTextFont method (Softkbdc.h)
 description: The ISoftKbd SetSoftKeyboardTextFont method sets the text font used by a soft keyboard.
 ms.assetid: 14705723-4592-40ef-9ebb-1c44c10c3cda
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

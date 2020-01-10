@@ -1,5 +1,5 @@
 ---
-title: MCI_WAVE_OPEN_PARMS structure
+title: MCI_WAVE_OPEN_PARMS structure (Mciapi.h)
 description: The MCI\_WAVE\_OPEN\_PARMS structure contains information for MCI\_OPEN command for waveform-audio devices.
 ms.assetid: 2fc9383e-4610-4751-acad-b545dc6d8992
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -84,7 +84,7 @@ Buffer length, in seconds.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure instead of **MCI\_WAVE\_OPEN\_PARMS** if you are not using the extended data members.
 
@@ -113,7 +113,7 @@ You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure instead of *
 [**MCI\_OPEN**](mci-open.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> <dt>
 
 [**MCI\_OPEN\_PARMS**](mci-open-parms.md)

@@ -1,8 +1,8 @@
 ---
 Description: Occurs when a IInkTablet is removed from the system.
 ms.assetid: 2217a69e-5b39-4827-82cd-99a02e9d39c6
-title: InkOverlay.TabletRemoved event
-ms.topic: article
+title: InkOverlay.TabletRemoved event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

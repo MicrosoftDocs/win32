@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine NetworkAdapters property
+title: IVMVirtualMachine NetworkAdapters property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of NICs attached to the virtual machine.
 ms.assetid: 3877edf7-92b8-43c9-8229-a198a07079a4
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

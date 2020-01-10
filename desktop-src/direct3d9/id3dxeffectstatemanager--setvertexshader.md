@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set a vertex shader.
 ms.assetid: 8f3d3be3-c073-441d-a318-6d2cd5e7aca5
-title: ID3DXEffectStateManager::SetVertexShader method
-ms.topic: article
+title: ID3DXEffectStateManager::SetVertexShader method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ A pointer to a vertex shader object. See [**IDirect3DVertexShader9**](https://ms
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

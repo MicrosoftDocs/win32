@@ -14,7 +14,7 @@ During initialization, an application tells TAPI which privilege level it requir
 
 An application's privilege on a session it creates is always owner.
 
-**TAPI 2.x:** See [**lineGetCallStatus**](https://msdn.microsoft.com/en-us/library/ms735723(v=VS.85).aspx), **dwCallPrivilege** member of [**LINECALLSTATUS**](https://msdn.microsoft.com/en-us/library/ms735544(v=VS.85).aspx), [**lineSetCallPrivilege**](https://msdn.microsoft.com/en-us/library/ms736088(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineGetCallStatus**](https://msdn.microsoft.com/library/ms735723(v=VS.85).aspx), **dwCallPrivilege** member of [**LINECALLSTATUS**](https://msdn.microsoft.com/library/ms735544(v=VS.85).aspx), [**lineSetCallPrivilege**](https://msdn.microsoft.com/library/ms736088(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITCallInfo::get\_Privilege**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege), [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong), called with the **CIL\_NUMBEROFOWNERS** or **CIL\_NUMBEROFMONITORS** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long).
 

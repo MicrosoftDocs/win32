@@ -2,7 +2,7 @@
 Description: Requests that the state of the migration job be changed to the specified state.
 ms.assetid: f0be5ea8-7e21-407e-b84d-8bd4ca5a6a2c
 title: RequestStateChange method of the Msvm_MigrationJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

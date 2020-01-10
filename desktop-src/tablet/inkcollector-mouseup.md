@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is released.
 ms.assetid: 6dcc6c68-89f7-4020-b378-56df9d46974b
-title: InkCollector.MouseUp event
-ms.topic: article
+title: InkCollector.MouseUp event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

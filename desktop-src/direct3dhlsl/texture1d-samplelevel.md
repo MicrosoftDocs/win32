@@ -1,5 +1,5 @@
 ---
-title: Texture1D SampleLevel methods
+title: Texture1D::Texture1D SampleLevel methods
 description: Samples a Texture1D on the specified mipmap level.
 ms.assetid: 1334CEDE-5885-4DC6-8438-3ADFC3B58AD8
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

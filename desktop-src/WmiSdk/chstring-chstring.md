@@ -3,7 +3,7 @@ Description: Each of the following constructors initializes a new CHString objec
 audience: developer
 ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.tgt_platform: multiple
-title: CHString::CHString constructors
+title: CHString::CHString constructors (ChString.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---
@@ -20,13 +20,13 @@ Each of the following constructors initializes a new [**CHString**](chstring.md)
 
 | Constructor                                                                        | Description                                                  |
 |:-----------------------------------------------------------------------------------|:-------------------------------------------------------------|
-| [**CHString()**](https://msdn.microsoft.com/en-us/library/Aa385468(v=VS.85).aspx)                                          | Creates an empty CHString object.<br/>                 |
-| [**CHString(LPCSTR)**](https://msdn.microsoft.com/en-us/library/Aa385445(v=VS.85).aspx)                              | Initializes with the LPCSTR value.<br/>                |
-| [**CHString(LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385454(v=VS.85).aspx)                            | Initializes with the LPCWSTR value.<br/>               |
-| [**CHString(WCHAR,int)**](https://msdn.microsoft.com/en-us/library/Aa385463(v=VS.85).aspx)                        | Initializes with int copies of the WCHAR value.<br/>   |
-| [**CHString(LPCWSTR,int)**](https://msdn.microsoft.com/en-us/library/Aa385456(v=VS.85).aspx)                    | Initializes with int copies of the LPCWSTR value.<br/> |
-| [**CHString(const CHString&)**](https://msdn.microsoft.com/en-us/library/Aa385434(v=VS.85).aspx)            | Replicates the CHString parameter.<br/>                |
-| [**CHString(const unsigned char\*)**](https://msdn.microsoft.com/en-us/library/Aa385441(v=VS.85).aspx) | Initializes with the value pointed to by char\*.<br/>  |
+| [**CHString()**](https://msdn.microsoft.com/library/Aa385468(v=VS.85).aspx)                                          | Creates an empty CHString object.<br/>                 |
+| [**CHString(LPCSTR)**](https://msdn.microsoft.com/library/Aa385445(v=VS.85).aspx)                              | Initializes with the LPCSTR value.<br/>                |
+| [**CHString(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385454(v=VS.85).aspx)                            | Initializes with the LPCWSTR value.<br/>               |
+| [**CHString(WCHAR,int)**](https://msdn.microsoft.com/library/Aa385463(v=VS.85).aspx)                        | Initializes with int copies of the WCHAR value.<br/>   |
+| [**CHString(LPCWSTR,int)**](https://msdn.microsoft.com/library/Aa385456(v=VS.85).aspx)                    | Initializes with int copies of the LPCWSTR value.<br/> |
+| [**CHString(const CHString&)**](https://msdn.microsoft.com/library/Aa385434(v=VS.85).aspx)            | Replicates the CHString parameter.<br/>                |
+| [**CHString(const unsigned char\*)**](https://msdn.microsoft.com/library/Aa385441(v=VS.85).aspx) | Initializes with the value pointed to by char\*.<br/>  |
 
 
 

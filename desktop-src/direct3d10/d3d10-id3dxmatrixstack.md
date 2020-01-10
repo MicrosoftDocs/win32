@@ -1,8 +1,8 @@
 ---
 Description: Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
 ms.assetid: 6c76f9e0-5f59-4cf3-b34a-2475536af6c7
-title: ID3DXMatrixStack interface
-ms.topic: interface
+title: ID3DXMatrixStack interface (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXMATRIXStack interface to manipulate a m
 
 ## Members
 
-The **ID3DXMatrixStack** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXMatrixStack** also has these types of members:
+The **ID3DXMatrixStack** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXMatrixStack** also has these types of members:
 
 -   [Methods](#methods)
 

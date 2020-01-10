@@ -1,8 +1,8 @@
 ---
 Description: Specifies the direction of an IContextLink object.
 ms.assetid: 4ba7dca7-6801-45bf-bbf1-1dd3172fbfa2
-title: ContextLinkDirection enumeration
-ms.topic: enumeration
+title: ContextLinkDirection enumeration (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

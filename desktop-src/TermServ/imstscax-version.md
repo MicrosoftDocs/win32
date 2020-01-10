@@ -52,7 +52,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -83,7 +83,7 @@ Return **S\_OK** if successful.
 
 ## Remarks
 
-This method allocates the memory required for the buffer pointed to by the *pVersion* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) function. This is not required for Visual Basic and scripting clients.
+This method allocates the memory required for the buffer pointed to by the *pVersion* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) function. This is not required for Visual Basic and scripting clients.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 

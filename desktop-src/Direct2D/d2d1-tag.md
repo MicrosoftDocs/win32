@@ -1,10 +1,10 @@
 ---
-title: D2D1_TAG
+title: D2D1_TAG (D2d1.h)
 description: An application-defined 64-bit value used to \ 160;mark a set of rendering operations.
 ms.assetid: 4f363295-f140-4149-ba78-3abbc56eebe8
 keywords:
 - D2D1_TAG
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ typedef UINT64 D2D1_TAG;
 
 ## Remarks
 
-To set a tag before a series of rendering operations, use the [**ID2D1RenderTarget::SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx) method. To retrieve the current tag, use the [**ID2D1RenderTarget::GetTags**](https://msdn.microsoft.com/en-us/library/Dd316830(v=VS.85).aspx) method.
+To set a tag before a series of rendering operations, use the [**ID2D1RenderTarget::SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx) method. To retrieve the current tag, use the [**ID2D1RenderTarget::GetTags**](https://msdn.microsoft.com/library/Dd316830(v=VS.85).aspx) method.
 
 ## Requirements
 
@@ -40,10 +40,10 @@ To set a tag before a series of rendering operations, use the [**ID2D1RenderTarg
 
 <dl> <dt>
 
-[**GetTags**](https://msdn.microsoft.com/en-us/library/Dd316830(v=VS.85).aspx)
+[**GetTags**](https://msdn.microsoft.com/library/Dd316830(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetTags**](https://msdn.microsoft.com/en-us/library/Dd316892(v=VS.85).aspx)
+[**SetTags**](https://msdn.microsoft.com/library/Dd316892(v=VS.85).aspx)
 </dt> </dl>
 
  

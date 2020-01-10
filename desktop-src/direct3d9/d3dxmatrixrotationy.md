@@ -1,8 +1,8 @@
 ---
 Description: Builds a matrix that rotates around the y-axis.
 ms.assetid: 80449e5d-f9bb-48c0-a787-a5e5a9d1c9a3
-title: D3DXMatrixRotationY function
-ms.topic: article
+title: D3DXMatrixRotationY function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 

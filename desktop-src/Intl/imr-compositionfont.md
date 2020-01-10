@@ -1,8 +1,8 @@
 ---
 Description: Notifies an application when a selected IME needs information about the font used by the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters as shown below.
 ms.assetid: 46bb71ee-8dc9-4ef0-bc4e-59866c122bf7
-title: IMR_COMPOSITIONFONT notification code
-ms.topic: article
+title: IMR_COMPOSITIONFONT notification code (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,13 +31,13 @@ Set to IMR\_COMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**LOGFONT**](https://msdn.microsoft.com/en-us/library/Dd145037(v=VS.85).aspx) structure. The application fills in the values for the current composition window.
+Pointer to a buffer containing a [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure. The application fills in the values for the current composition window.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**LOGFONT**](https://msdn.microsoft.com/en-us/library/Dd145037(v=VS.85).aspx) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure. Otherwise, the command returns 0.
 
 ## Remarks
 

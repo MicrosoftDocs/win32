@@ -1,5 +1,5 @@
 ---
-title: TB_HASACCELERATOR message
+title: TB_HASACCELERATOR message (Commctrl.h)
 description: Retrieves a count of toolbar buttons that have the specified accelerator character.
 ms.assetid: 41167815-fb64-4203-a32c-b2a88ce7bce1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

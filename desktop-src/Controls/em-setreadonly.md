@@ -1,5 +1,5 @@
 ---
-title: EM_SETREADONLY message
+title: EM_SETREADONLY message (Winuser.h)
 description: Sets or removes the read-only style (ES\_READONLY) of an edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

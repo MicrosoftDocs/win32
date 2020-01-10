@@ -1,8 +1,8 @@
 ---
 Description: Determines the product of the given matrix and the current matrix.
 ms.assetid: 6f909b38-821c-4173-aba9-fd4392f70551
-title: ID3DXMATRIXStack::MultMatrixLocal method
-ms.topic: article
+title: ID3DXMATRIXStack::MultMatrixLocal method (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure to be multiplied with t
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -2,7 +2,7 @@
 Description: Notifies an object that it should display its builder for the specified property.
 ms.assetid: 4d855aed-aaa1-4cc8-be9d-1175c254a813
 title: IProvidePropertyBuilder::ExecuteBuilder method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

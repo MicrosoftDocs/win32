@@ -2,7 +2,7 @@
 Description: Retrieves the firmware version of the device. This property applies only to items of type device (root items). Read-only.
 ms.assetid: 9933746c-0730-4ca6-9f4c-82322d3474f1
 title: Item.FirmwareVersion property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

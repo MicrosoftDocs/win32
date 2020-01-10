@@ -1,8 +1,8 @@
 ---
 Description: The IsEndOfStreamDelivered method queries whether the EC\_COMPLETE event has been delivered to the filter graph manager.
 ms.assetid: 13138626-35b0-4da1-9c7e-5d22d86ad2e3
-title: CBaseRenderer.IsEndOfStreamDelivered method
-ms.topic: article
+title: CBaseRenderer.IsEndOfStreamDelivered method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

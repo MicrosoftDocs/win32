@@ -1,8 +1,8 @@
 ---
 Description: Converts an array of 16-bit floats to 32-bit floats.
 ms.assetid: cf07a21d-9ea3-4fbe-ab8f-564e2bbb8d60
-title: D3DXFloat16To32Array function
-ms.topic: article
+title: D3DXFloat16To32Array function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ FLOAT* D3DXFloat16To32Array(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the array of 32-bit floats.
 
@@ -49,7 +49,7 @@ Pointer to the array of 32-bit floats.
 *pIn* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXFLOAT16**](https://msdn.microsoft.com/en-us/library/Bb172839(v=VS.85).aspx)\***
+Type: **const [**D3DXFLOAT16**](https://msdn.microsoft.com/library/Bb172839(v=VS.85).aspx)\***
 
 Pointer to an array of 16-bit floats.
 
@@ -58,7 +58,7 @@ Pointer to an array of 16-bit floats.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of elements in the array.
 
@@ -66,7 +66,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of 32-bit floats.
 

@@ -2,7 +2,7 @@
 Description: Installs an exception package.
 ms.assetid: c4c3c01c-9aaf-42cd-a690-13e2113b15b3
 title: InstallComponentW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -122,7 +122,7 @@ Exception packages are Windows system files that are released outside of a full 
 
 To install and uninstall files that are not protected by Windows File Protection, use the functions documented in [General Setup Functions](https://go.microsoft.com/fwlink/p/?linkid=85320). To install device drivers, venders should use functions documented in [Device Installation Functions](https://go.microsoft.com/fwlink/p/?linkid=85318) and [PnP Configuration Manager Functions](https://go.microsoft.com/fwlink/p/?linkid=85319).
 
-This function has no associated import library or header file; you must call it by using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it by using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

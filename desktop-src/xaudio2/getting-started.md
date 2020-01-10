@@ -1,12 +1,12 @@
 ---
+title: Getting started with XAudio2
 Description: This section provides a list of key topics about XAudio2.
 ms.assetid: e9a1a384-39e3-c87a-d718-a6a4ea6785ec
-title: Getting Started
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started
+# Getting started with XAudio2
 
 This section provides a list of key topics about XAudio2.
 

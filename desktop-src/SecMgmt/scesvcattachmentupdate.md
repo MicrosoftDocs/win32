@@ -2,7 +2,7 @@
 Description: The SceSvcAttachmentUpdate function is called by the Security Configuration snap-ins to pass configuration changes to the security database.
 ms.assetid: '2b5b3718-8ccb-480a-97fb-c8115d8f3a5c'
 title: SceSvcAttachmentUpdate callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

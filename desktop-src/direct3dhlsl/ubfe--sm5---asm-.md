@@ -2,7 +2,7 @@
 title: ubfe (sm5 - asm)
 description: Given a range of bits in a number, shift those bits to the LSB and set remaining bits to 0.
 ms.assetid: CC6BE378-2726-47A2-8E23-B8151521F72D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

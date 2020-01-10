@@ -1,8 +1,8 @@
 ---
 Description: Verifies the specified signature by using the supplied hash and the public key.
 ms.assetid: fa274851-15f2-4be0-9e2f-4cdced36daff
-title: SslVerifySignature function
-ms.topic: article
+title: SslVerifySignature function (Sslprovider.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

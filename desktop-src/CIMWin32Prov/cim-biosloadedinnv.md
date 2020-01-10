@@ -3,7 +3,7 @@ Description: The CIM\_BIOSLoadedInNV class associates a BIOS element and the non
 ms.assetid: 11641616-e11d-49ff-bfe4-f95fe27f00b8
 ms.tgt_platform: multiple
 title: CIM_BIOSLoadedInNV class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: glVertex2s function
+title: glVertex2s function (Gl.h)
 description: Specifies a vertex.
 ms.assetid: e964d7b0-1cb7-4334-8861-1cc2ee37a71a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

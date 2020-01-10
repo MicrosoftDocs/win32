@@ -1,5 +1,5 @@
 ---
-title: Shader Interfaces
+title: Shader Interfaces (Direct3D 11 Graphics)
 description: This section contains information about the shader interfaces.
 ms.assetid: 1791d2c9-3791-47fe-b887-a8117ecc798b
 keywords:

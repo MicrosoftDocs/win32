@@ -1,5 +1,5 @@
 ---
-title: LVM_INSERTITEM message
+title: LVM_INSERTITEM message (Commctrl.h)
 description: Inserts a new item in a list-view control. You can send this message explicitly or by using the ListView\_InsertItem macro.
 ms.assetid: ac283e81-5b9f-4a90-acdb-fd7813c9cb84
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Manipulates a textual conference description.
 ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
-title: ITConferenceBlob interface
-ms.topic: interface
+title: ITConferenceBlob interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ The **ITConferenceBlob** interface manipulates a textual conference description.
 
 ## Members
 
-The **ITConferenceBlob** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITConferenceBlob** also has these types of members:
+The **ITConferenceBlob** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITConferenceBlob** also has these types of members:
 
 -   [Methods](#methods)
 

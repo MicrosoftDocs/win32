@@ -1,8 +1,8 @@
 ---
 Description: The DeletePrinterDriver function removes the specified printer-driver name from the list of names of supported drivers on a server.
 ms.assetid: b159bd8b-3416-44a5-91bf-c0447ed6b465
-title: DeletePrinterDriver function
-ms.topic: article
+title: DeletePrinterDriver function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

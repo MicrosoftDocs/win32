@@ -1,8 +1,8 @@
 ---
 Description: Projects a vector from screen space into object space.
 ms.assetid: 9fd69cae-1d9c-4fae-9e15-8eb9950b4850
-title: D3DXVec3Unproject function
-ms.topic: article
+title: D3DXVec3Unproject function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

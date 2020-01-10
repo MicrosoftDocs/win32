@@ -1,5 +1,5 @@
 ---
-title: TF_LBI_STATUS_ Constants
+title: TF_LBI_STATUS_ Constants (Ctfutb.h)
 description: The TF\_LBI\_STATUS\_\ constants indicate the status of a language bar item. These values are used with the ITfLangBarItem GetStatus method.
 ms.assetid: 5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc
 topic_type:
@@ -12,7 +12,7 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

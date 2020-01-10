@@ -5,7 +5,7 @@ ms:assetid: c8975145-e48a-4029-9522-1509263019ae
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294087(v=EXCHG.10)
 ms:contentKeyID: 32765702
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetCloseTable
 topic_type: 

@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagUseKerberos method
+title: WSMan.SessionFlagUseKerberos method (WSManDisp.h)
 description: Returns the value of the WSManFlagUseKerberos authentication flag for use in the flags parameter of WSMan.CreateSession.
 ms.assetid: be005312-1e87-4371-9791-709a9be46f7c
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files.
 ms.assetid: 9a6b6402-ff53-4399-8616-06b7768a8737
-title: MF_TRANSCODE_ENCODINGPROFILE attribute
-ms.topic: article
+title: MF_TRANSCODE_ENCODINGPROFILE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,8 +26,8 @@ Use this attribute when transcoding to a device that supports Windows Media. If 
 
 The value of this attribute can be any of the conformance template strings listed in the following topics:
 
--   [Audio Device Conformance Templates](https://msdn.microsoft.com/en-us/library/Dd743069(v=VS.85).aspx)
--   [Video Device Conformance Templates](https://msdn.microsoft.com/en-us/library/Dd743969(v=VS.85).aspx)
+-   [Audio Device Conformance Templates](https://msdn.microsoft.com/library/Dd743069(v=VS.85).aspx)
+-   [Video Device Conformance Templates](https://msdn.microsoft.com/library/Dd743969(v=VS.85).aspx)
 
 For Windows Media Video encoding, the topology builder uses this attribute to set the [**MFPKEY\_DECODERCOMPLEXITYREQUESTED**](mfpkey-decodercomplexityrequestedproperty.md) property on the encoder. The encoder will attempt to use the specified template to encode the content. To get the actual template, traverse the nodes of the transcode topology to get a pointer to the encoder node. Then get the value of the [**MFPKEY\_DECODERCOMPLEXITYPROFILE**](mfpkey-decodercomplexityprofileproperty.md) property from the encoder.
 

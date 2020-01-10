@@ -3,7 +3,7 @@ Description: The CIM\_Export class represents an association between a local fil
 ms.assetid: 4c43ba5a-e003-4985-85b3-68ecf13a4bf5
 ms.tgt_platform: multiple
 title: CIM_Export class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

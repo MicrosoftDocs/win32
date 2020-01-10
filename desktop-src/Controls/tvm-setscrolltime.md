@@ -1,5 +1,5 @@
 ---
-title: TVM_SETSCROLLTIME message
+title: TVM_SETSCROLLTIME message (Commctrl.h)
 description: Sets the maximum scroll time for the tree-view control. You can send this message explicitly or by using the TreeView\_SetScrollTime macro.
 ms.assetid: b0ad81ba-0621-42b7-8fe1-f3bd5bc16d6a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

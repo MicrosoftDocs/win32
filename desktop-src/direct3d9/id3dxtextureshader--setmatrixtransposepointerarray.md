@@ -1,8 +1,8 @@
 ---
 Description: Sets an array of pointers to transposed matrices.
 ms.assetid: 2b9f1efe-b2ea-416b-a370-202db57b1925
-title: ID3DXTextureShader::SetMatrixTransposePointerArray method
-ms.topic: article
+title: ID3DXTextureShader::SetMatrixTransposePointerArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Array of pointers to transposed matrices. See [**D3DXMATRIX**](d3dxmatrix.md).
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of matrices in the array.
 
@@ -66,7 +66,7 @@ Number of matrices in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

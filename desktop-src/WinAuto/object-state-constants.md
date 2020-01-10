@@ -1,5 +1,5 @@
 ---
-title: Object State Constants
+title: Object State Constants (Oleacc.h)
 description: This topic describes the constant values used to describe the state of objects in an application UI.
 ms.assetid: 1253d2d2-d931-4380-9ae8-f4e1fdaee817
 topic_type:
@@ -41,7 +41,7 @@ api_location:
 - oleacc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

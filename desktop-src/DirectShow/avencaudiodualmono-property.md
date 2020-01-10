@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether 2-channel audio is encoded as stereo or dual mono.
 ms.assetid: 37f25590-69c2-43bd-a5d4-2262457cb39d
-title: AVEncAudioDualMono property
-ms.topic: article
+title: AVEncAudioDualMono property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncAudioDualMono**](https://msdn.microsoft.com/en-us/library/Dd388765(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncAudioDualMono**](https://msdn.microsoft.com/library/Dd388765(v=VS.85).aspx) enumeration.
 
 ## Remarks
 

@@ -1,8 +1,8 @@
 ---
 Description: The DVD Copy Protection property set provides authentication of copy protection information from hardware or software decrypters. Use this property set to prevent unauthorized copying from prerecorded DVD-Video.
 ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
-title: DVD Copy Protection Property Set
-ms.topic: article
+title: DVD Copy Protection Property Set (Dvdmedia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

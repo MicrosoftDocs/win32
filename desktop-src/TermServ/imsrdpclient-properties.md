@@ -3,7 +3,7 @@ title: IMsRdpClient Properties
 description: The IMsRdpClient interface exposes the following properties.
 ms.assetid: E7E8DB5F-2EFB-4765-BD0D-753C056B3161
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

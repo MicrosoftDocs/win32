@@ -1,8 +1,8 @@
 ---
 Description: Get the number of items in each of the three queues inside the thread pump.
 ms.assetid: b5b829a5-5ef7-4ef5-afb4-efe1bb22ae70
-title: ID3DX10ThreadPump::GetQueueStatus method
-ms.topic: article
+title: ID3DX10ThreadPump::GetQueueStatus method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT GetQueueStatus(
 *pIoQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Number of items in the I/O queue.
 
@@ -49,7 +49,7 @@ Number of items in the I/O queue.
 *pProcessQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Number of items in the process queue.
 
@@ -58,7 +58,7 @@ Number of items in the process queue.
 *pDeviceQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Number of items in the device queue.
 
@@ -66,7 +66,7 @@ Number of items in the device queue.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

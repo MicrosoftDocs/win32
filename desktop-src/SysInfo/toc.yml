@@ -371,11 +371,11 @@
         href: system-information-structures.md
         items: 
         - name: "HW_PROFILE_INFO"
-          href: /windows/desktop/api/Winbase/ns-winbase-taghw_profile_infoa
+          href: /windows/win32/api/Winbase/ns-winbase-hw_profile_infoa
         - name: "OSVERSIONINFO"
-          href: /windows/desktop/api/Winnt/ns-winnt-_osversioninfoa
+          href: /windows/win32/api/Winnt/ns-winnt-osversioninfoa
         - name: "OSVERSIONINFOEX"
-          href: /windows/desktop/api/Winnt/ns-winnt-_osversioninfoexa
+          href: /windows/win32/api/Winnt/ns-winnt-osversioninfoexa
         - name: "SYSTEM_INFO"
           href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info
       - name: "System Information Macros"
@@ -391,7 +391,7 @@
         - name: "EXTENDED_NAME_FORMAT"
           href: /windows/desktop/api/Secext/ne-secext-extended_name_format
         - name: "FIRMWARE_TYPE"
-          href: /windows/desktop/api/Winnt/ne-winnt-_firmware_type
+          href: /windows/win32/api/Winnt/ne-winnt-firmware_type
       - name: "Image File Machine Constants"
         href: image-file-machine-constants.md
   - name: "Time"
@@ -587,9 +587,9 @@
         href: update-assessor-structures.md
         items: 
         - name: "OSUpdateAssessment"
-          href: /windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment
+          href: /windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment
         - name: "UpdateAssessment"
-          href: /windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment
+          href: /windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment
       - name: "WaaS Assessment Enumerations"
         href: update-assessor-enumerations.md
         items: 

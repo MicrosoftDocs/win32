@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (COM)
 ms.assetid: 'ec12a8ae-bdd6-473c-b72b-2ba5fe5fc9c0'
 description: 
 ms.topic: article

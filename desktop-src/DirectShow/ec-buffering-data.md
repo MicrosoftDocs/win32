@@ -1,8 +1,8 @@
 ---
 Description: The graph is buffering data, or has stopped buffering data.
 ms.assetid: 39e8b151-0323-42b3-99f0-3dcd230925c8
-title: EC_BUFFERING_DATA
-ms.topic: article
+title: EC_BUFFERING_DATA (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

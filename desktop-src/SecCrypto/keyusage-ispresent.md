@@ -2,7 +2,7 @@
 Description: Retrieves a Boolean value that indicates whether the KeyUsage extension is present.
 ms.assetid: 'd666049a-4b40-42b6-8c2d-c27a1bb4c48a'
 title: KeyUsage.IsPresent property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

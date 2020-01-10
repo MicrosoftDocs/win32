@@ -10,7 +10,7 @@ api_name:
 - signal
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The signal command identifies a specified position in the workspace by sending the application an [MM\_MCISIGNAL](mm-mcisignal.md) message. Digital-video devices recognize this command. MCIAVI supports only one active signal at a time.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(

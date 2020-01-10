@@ -1,5 +1,5 @@
 ---
-title: cglTexCoord3f function
+title: cglTexCoord3f function (Gl.h)
 description: Sets the current texture coordinates.
 ms.assetid: 5ff078bb-040f-47c0-9051-69cde14ba259
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

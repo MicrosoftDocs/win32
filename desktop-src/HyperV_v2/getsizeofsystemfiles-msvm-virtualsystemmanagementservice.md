@@ -2,7 +2,7 @@
 Description: Retrieves the total size of the system files of virtual machine.
 ms.assetid: 492aa0df-1562-4d83-a0ea-43776b12c1b1
 title: GetSizeOfSystemFiles method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

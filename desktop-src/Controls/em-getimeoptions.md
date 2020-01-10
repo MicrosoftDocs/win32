@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMEOPTIONS message
+title: EM_GETIMEOPTIONS message (Richedit.h)
 description: Retrieves the current Input Method Editor (IME) options.
 ms.assetid: 81ec89b9-dabd-487e-805e-e3c2e58e3068
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

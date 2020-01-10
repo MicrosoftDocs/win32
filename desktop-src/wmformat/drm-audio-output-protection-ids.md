@@ -1,5 +1,5 @@
 ---
-title: DRM_AUDIO_OUTPUT_PROTECTION_IDS structure
+title: DRM_AUDIO_OUTPUT_PROTECTION_IDS structure (Wmdrmsdk.h)
 description: The DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS structure contains a list of audio output protection identifiers.
 ms.assetid: 21972b18-334b-4a4d-812d-21cbfaf7cc58
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

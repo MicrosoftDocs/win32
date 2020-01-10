@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_FADE_TO_COLOR
+title: WMT_VIDEOIMAGE_TRANSITION_FADE_TO_COLOR (Wmsdkidl.h)
 description: The fade-to-color transition dissolves from the image to a frame of solid color.
 ms.assetid: 4ec52682-1ca2-436d-b7ce-2a9d407ff50e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

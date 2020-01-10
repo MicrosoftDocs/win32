@@ -1,5 +1,5 @@
 ---
-title: VMVirtualMachineEvents enumeration
+title: VMVirtualMachineEvents enumeration (VPCCOMInterfaces.h)
 description: Specifies the VM events.
 ms.assetid: '158bdada-6fd3-488c-9ff1-e04df9a79127'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

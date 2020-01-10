@@ -1,5 +1,5 @@
 ---
-title: TB_GETSTYLE message
+title: TB_GETSTYLE message (Commctrl.h)
 description: Retrieves the styles currently in use for a toolbar control.
 ms.assetid: 6fbe8733-79df-462e-acb6-6568105e5058
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

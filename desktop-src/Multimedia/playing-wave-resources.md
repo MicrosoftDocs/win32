@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Playing WAVE Resources
 
-You can use the [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function to play a sound that is stored as a resource. Although this is also possible using the [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx) function, **sndPlaySound** requires that you find, load, lock, unlock, and free the resource; **PlaySound** achieves all of this with a single line of code.
+You can use the [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx) function to play a sound that is stored as a resource. Although this is also possible using the [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx) function, **sndPlaySound** requires that you find, load, lock, unlock, and free the resource; **PlaySound** achieves all of this with a single line of code.
 
 ## PlaySound Example
 

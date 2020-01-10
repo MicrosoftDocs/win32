@@ -1,5 +1,5 @@
 ---
-title: CCM_SETUNICODEFORMAT message
+title: CCM_SETUNICODEFORMAT message (Commctrl.h)
 description: Sets the Unicode character format flag for the control. This message enables you to change the character set used by the control at run time rather than having to re-create the control.
 ms.assetid: 8028b7d7-30d2-4154-81c7-ba1ed095ef02
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

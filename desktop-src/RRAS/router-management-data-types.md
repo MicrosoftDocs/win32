@@ -1,5 +1,5 @@
 ---
-title: Router Management Data Types
+title: Router Management Data Types (Mprapi.h)
 description: The version of the Router Management data structures depends on the operating system.
 ms.assetid: 6CF919BD-E1E9-423F-8186-C992A5E6AB89
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - mprapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

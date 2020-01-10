@@ -1,8 +1,8 @@
 ---
 Description: Applies the animation set to the specified track.
 ms.assetid: f48bb0f1-3ccd-4db9-8a30-58c79ae0939e
-title: ID3DXAnimationController::SetTrackAnimationSet method
-ms.topic: article
+title: ID3DXAnimationController::SetTrackAnimationSet method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetTrackAnimationSet(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Identifier of the track to which the animation set is applied.
 
@@ -56,7 +56,7 @@ Pointer to the [**ID3DXAnimationSet**](id3dxanimationset.md) animation set to be
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

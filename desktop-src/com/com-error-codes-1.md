@@ -1,5 +1,5 @@
 ---
-title: COM Error Codes (Generic)
+title: COM Error Codes (Generic) (Winerror.h)
 description: The following table provides a list of error codes used by COM-based APIs.
 ms.assetid: b7dc2a45-2dc7-48e3-8288-942373b7be1d
 topic_type:
@@ -205,7 +205,7 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

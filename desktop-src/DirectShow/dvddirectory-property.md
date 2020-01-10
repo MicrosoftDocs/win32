@@ -2,7 +2,7 @@
 Description: The DVDDirectory property sets or retrieves the current directory of the current DVD volume.
 ms.assetid: 0dbfdf28-cda5-41b2-82ce-114d9b940d91
 title: DVDDirectory Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

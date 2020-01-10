@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether a Media Foundation transform (MFT) performs asynchronous processing.
 ms.assetid: fcc70282-cfac-487c-b9ff-39e62c836f8b
-title: MF_TRANSFORM_ASYNC attribute
-ms.topic: article
+title: MF_TRANSFORM_ASYNC attribute (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

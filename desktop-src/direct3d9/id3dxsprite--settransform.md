@@ -1,8 +1,8 @@
 ---
 Description: Sets the sprite transform.
 ms.assetid: 87dfc169-b647-4a96-897d-abbe765ea9e2
-title: ID3DXSprite::SetTransform method
-ms.topic: article
+title: ID3DXSprite::SetTransform method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) that contains a transform of the sp
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

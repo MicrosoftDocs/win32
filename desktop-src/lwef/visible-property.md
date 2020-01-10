@@ -1,5 +1,5 @@
 ---
-title: Visible Property
+title: Visible Property (PropertySheet Object)
 description: Visible Property
 ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
 ms.topic: article

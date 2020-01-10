@@ -1,5 +1,5 @@
 ---
-title: IADsServiceOperations Property Methods
+title: IADsServiceOperations Property Methods (Iads.h)
 description: The property methods of the IADsServiceOperations interface read and write the properties described in the following list. For more information about property methods, see Interface Property Methods.
 ms.assetid: ebddfc42-1d2f-495b-b57c-f57419b54ff8
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

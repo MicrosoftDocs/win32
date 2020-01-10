@@ -5,7 +5,7 @@ ms:assetid: 0bfe36fe-4ddd-442b-b934-57a7bfb28e5f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269183(v=EXCHG.10)
 ms:contentKeyID: 32765486
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetInstanceMiscInfo
 topic_type: 

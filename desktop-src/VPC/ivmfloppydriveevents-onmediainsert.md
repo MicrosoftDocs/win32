@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveEvents OnMediaInsert method
+title: IVMFloppyDriveEvents OnMediaInsert method (VPCCOMInterfaces.h)
 description: Receives notification that media has been inserted into the drive.
 ms.assetid: 922fca14-8ef6-4d3d-b1b6-72d2ea83e8ef
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

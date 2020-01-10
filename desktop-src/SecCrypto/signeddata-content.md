@@ -2,7 +2,7 @@
 Description: Sets or retrieves the data to be signed. This is the default property.
 ms.assetid: 554ca500-403d-4c2a-868e-9e635d0b358e
 title: SignedData.Content property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -36,7 +36,7 @@ The data to be signed.
 
 ## Remarks
 
-This property must be initialized before the [**Sign**](signeddata-sign.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the object is reset, and any signature that was associated with the object before the property was changed is lost.
+This property must be initialized before the [**Sign**](signeddata-sign.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset, and any signature that was associated with the object before the property was changed is lost.
 
 ## Requirements
 

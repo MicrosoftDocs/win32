@@ -1,5 +1,5 @@
 ---
-title: DTM_SETMCSTYLE message
+title: DTM_SETMCSTYLE message (Commctrl.h)
 description: Sets the style of a date and time picker (DTP) control. Send this message explicitly or by using the DateTime\_SetMonthCalStyle macro.
 ms.assetid: 6b480a1e-c76e-4026-ab2a-5ec53df6fa28
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

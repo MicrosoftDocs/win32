@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTableTransferEffect SetAlphaTableValue methods
+title: IDCompositionTableTransferEffect SetAlphaTableValue methods (Dcomp.h)
 description: Sets a value in the alpha table.
 ms.assetid: 6f4e04e0-1ec6-a475-264e-d64f68e23fb9
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionTableTransferEffect::SetAlphaTableValue methods
@@ -24,8 +24,8 @@ Sets a value in the alpha table.
 
 | Method                                                                                                                | Description                                 |
 |:----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
-| [**SetAlphaTableValue**](https://msdn.microsoft.com/en-us/library/Dn919786(v=VS.85).aspx)                                     | Sets a value in the alpha table.<br/> |
-| [**SetAlphaTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919787(v=VS.85).aspx) | Sets a value in the alpha table.<br/> |
+| [**SetAlphaTableValue**](https://msdn.microsoft.com/library/Dn919786(v=VS.85).aspx)                                     | Sets a value in the alpha table.<br/> |
+| [**SetAlphaTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919787(v=VS.85).aspx) | Sets a value in the alpha table.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets a value in the alpha table.
 
 <dl> <dt>
 
-[**idcompositiontabletransfereffect**](https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx)
+[**idcompositiontabletransfereffect**](https://msdn.microsoft.com/library/Dn919783(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,5 +1,5 @@
 ---
-title: IVMTask IsCancelable property
+title: IVMTask IsCancelable property (VPCCOMInterfaces.h)
 description: Determines whether the task can be canceled.
 ms.assetid: abb8a29a-7f5b-45ba-ae79-d422dfb2f39d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Point2 Type Function
+title: Point2 Type Function (D2d1helper.h)
 description: Creates a point that stores its coordinates using the specified data type.
 ms.assetid: 59a631ae-d70e-4ee2-9546-2d19da40aa9b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

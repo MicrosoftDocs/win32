@@ -1,5 +1,5 @@
 ---
-title: TextureCube SampleBias methods
+title: TextureCube::TextureCube SampleBias methods
 description: Samples a texture, after applying the bias value to the mipmap level.
 ms.assetid: 6D63F216-2DF9-4B23-A741-8D7F7543E73C
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

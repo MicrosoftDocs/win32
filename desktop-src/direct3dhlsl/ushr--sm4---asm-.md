@@ -2,7 +2,7 @@
 title: ushr (sm4 - asm)
 description: Shift right.
 ms.assetid: 3E7CB515-9D0F-44C7-A770-AD0584631BFE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

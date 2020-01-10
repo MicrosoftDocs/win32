@@ -1,8 +1,8 @@
 ---
 Description: Determines if a locale specified by name is installed or supported on the operating system.
 ms.assetid: 6df92e4d-d78e-48b5-9515-18f0497de95b
-title: RtlIsValidLocaleName function
-ms.topic: article
+title: RtlIsValidLocaleName function (Ntrtl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

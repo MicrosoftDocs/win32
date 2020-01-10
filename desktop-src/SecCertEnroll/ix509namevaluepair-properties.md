@@ -2,7 +2,7 @@
 Description: The IX509NameValuePair interface exposes the following properties.
 ms.assetid: FBF10692-622E-4500-913E-4FFF27EEB3E2
 title: IX509NameValuePair Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

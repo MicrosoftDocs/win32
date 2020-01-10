@@ -1,5 +1,5 @@
 ---
-title: WM_NCMOUSELEAVE message
+title: WM_NCMOUSELEAVE message (Winuser.h)
 description: Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to TrackMouseEvent.
 ms.assetid: b3ada6db-93ce-45d7-b408-d08692328aeb
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # WM\_NCMOUSELEAVE message
 
-Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx).
+Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx).
 
 A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
@@ -53,7 +53,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
+All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
 
 ## Requirements
 
@@ -74,10 +74,10 @@ All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/en-us
 **Reference**
 </dt> <dt>
 
-[**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx)
+[**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
+[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)

@@ -1,8 +1,8 @@
 ---
 Description: The Init method initializes the conference blob based on a textual string. If pBlob is NULL, default values are used.
 ms.assetid: ba492503-90ff-45dd-a39f-6d4451e57339
-title: ITConferenceBlob::Init method
-ms.topic: article
+title: ITConferenceBlob::Init method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -72,7 +72,7 @@ This method can return one of these values.
 
 **ITConferenceBlob::Init** will return a failure if the blob has already been initialized.
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx) to allocate memory for the *pName* and *pBlob* parameters. The application must use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory when the variables are no longer needed.
+The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pName* and *pBlob* parameters. The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variables are no longer needed.
 
 ## Requirements
 

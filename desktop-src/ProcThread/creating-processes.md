@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating Processes
 
-The [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
+The [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
 
 The following code demonstrates how to create a process.
 
@@ -61,9 +61,9 @@ void _tmain( int argc, TCHAR *argv[] )
 
 
 
-If [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) succeeds, it returns a [**PROCESS\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx) structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, although access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.
+If [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) succeeds, it returns a [**PROCESS\_INFORMATION**](https://msdn.microsoft.com/library/ms684873(v=VS.85).aspx) structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, although access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.
 
-You can also create a process using the [**CreateProcessAsUser**](https://msdn.microsoft.com/en-us/library/ms682429(v=VS.85).aspx) or [**CreateProcessWithLogonW**](/windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw) function. This allows you to specify the security context of the user account in which the process will execute.
+You can also create a process using the [**CreateProcessAsUser**](https://msdn.microsoft.com/library/ms682429(v=VS.85).aspx) or [**CreateProcessWithLogonW**](/windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw) function. This allows you to specify the security context of the user account in which the process will execute.
 
  
 

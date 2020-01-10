@@ -1,8 +1,8 @@
 ---
 Description: Returns the driver level.
 ms.assetid: e8c85201-7850-4c8d-a124-ceb76d4e24d5
-title: D3DXGetDriverLevel function
-ms.topic: article
+title: D3DXGetDriverLevel function (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The driver level. See remarks.
 

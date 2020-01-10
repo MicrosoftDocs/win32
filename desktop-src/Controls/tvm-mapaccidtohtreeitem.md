@@ -1,5 +1,5 @@
 ---
-title: TVM_MAPACCIDTOHTREEITEM message
+title: TVM_MAPACCIDTOHTREEITEM message (Commctrl.h)
 description: Maps an accessibility ID to an HTREEITEM.
 ms.assetid: f4feb7cb-2138-4930-b8ee-b9e2d4b19001
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -19,7 +19,7 @@ The [**CHPtrArray**](/windows/desktop/api/ChPtrArr/nl-chptrarr-chptrarray) class
 -   [**GetAt method**](/windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-getat)
 -   [**GetSize method**](/windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-getsize)
 -   [**RemoveAll method**](/windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-removeall)
--   [**operator \[\] method**](https://msdn.microsoft.com/en-us/library/Aa384934(v=VS.85).aspx)
+-   [**operator \[\] method**](https://msdn.microsoft.com/library/Aa384934(v=VS.85).aspx)
 
  
 

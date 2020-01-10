@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPortCollection _NewEnum property
+title: IVMSerialPortCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the collection.
 ms.assetid: 4bf7bbde-d97f-424e-afa0-ff0e334740b5
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

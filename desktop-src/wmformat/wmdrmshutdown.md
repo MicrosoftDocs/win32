@@ -1,5 +1,5 @@
 ---
-title: WMDRMShutdown function
+title: WMDRMShutdown function (Wmdrmsdk.h)
 description: The WMDRMShutdown function releases resources used by the Windows Media DRM Client Extended APIs.
 ms.assetid: fa99a07a-2f07-464b-b7a2-e8f3110389b5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

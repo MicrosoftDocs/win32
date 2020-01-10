@@ -1,5 +1,5 @@
 ---
-title: MP_SIGNATURE_TYPE enumeration
+title: MP_SIGNATURE_TYPE enumeration (MpClient.h)
 description: Possible signature types.
 ms.assetid: 44B195A8-866D-4B87-9576-54E00658F9B3
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

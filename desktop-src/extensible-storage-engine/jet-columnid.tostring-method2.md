@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_COLUMNID.ToString method
+# JET_COLUMNID.ToString method overload list
 
 Include protected members  
 Include inherited members  

@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_WINDOW_PARMS structure
+title: MCI_OVLY_WINDOW_PARMS structure (Mciapi.h)
 description: The MCI\_OVLY\_WINDOW\_PARMS structure contains window-display information for the MCI\_WINDOW command for video-overlay devices.
 ms.assetid: 1189f31e-6e54-4279-a23d-b4e21c6cd276
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ Window caption.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -95,7 +95,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_WINDOW**](mci-window.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

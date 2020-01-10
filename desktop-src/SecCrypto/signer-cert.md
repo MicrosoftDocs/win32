@@ -2,7 +2,7 @@
 Description: Specifies a certificate used to sign a document. The certificate can be stored in a Software Publisher Certificate (SPC) file or in a certificate store.
 ms.assetid: 9a99ce98-237d-4223-ab3d-0576041038e3
 title: SIGNER_CERT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_CERT structure
 
-The **SIGNER\_CERT** structure specifies a [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SPC) file or in a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+The **SIGNER\_CERT** structure specifies a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SPC) file or in a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

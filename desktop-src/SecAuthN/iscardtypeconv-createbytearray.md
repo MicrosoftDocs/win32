@@ -1,8 +1,8 @@
 ---
 Description: Creates a typical C/C++ byte array.
 ms.assetid: 915e8cca-2a0f-409e-a6df-54fa73bdc305
-title: ISCardTypeConv::CreateByteArray method
-ms.topic: article
+title: ISCardTypeConv::CreateByteArray method (Scarddat.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # ISCardTypeConv::CreateByteArray method
 
-\[The **CreateByteArray** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **CreateByteArray** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
 The **CreateByteArray** method creates a typical C/C++ byte array.
 

@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk MergeTo method
+title: IVMHardDisk MergeTo method (VPCCOMInterfaces.h)
 description: Merges a differencing virtual hard disk with all of its parents.
 ms.assetid: 3c63f892-7c05-4ed6-a59a-914a921ec391
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

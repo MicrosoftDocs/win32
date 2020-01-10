@@ -1,5 +1,5 @@
 ---
-title: EN_CORRECTTEXT notification code
+title: EN_CORRECTTEXT notification code (Richedit.h)
 description: Notifies a rich edit control parent window that a SYV\_CORRECT gesture occurred, giving the parent window a chance to cancel correcting the text. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: d6f6278f-ff63-4f6a-a352-2b4d70df3e1a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

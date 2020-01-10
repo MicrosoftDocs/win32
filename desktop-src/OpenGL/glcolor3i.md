@@ -1,5 +1,5 @@
 ---
-title: glColor3i function
+title: glColor3i function (Gl.h)
 description: Sets the current color.
 ms.assetid: 9c68221b-1633-435b-9ae4-abc1c52601aa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

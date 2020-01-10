@@ -1,5 +1,5 @@
 ---
-title: gluQuadricNormals function
+title: gluQuadricNormals function (Glu.h)
 description: The gluQuadricNormals function specifies what kind of normals are to be used for quadrics.
 ms.assetid: 945759ec-ed4a-480f-8243-49fc785867c1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

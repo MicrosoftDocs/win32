@@ -2,8 +2,8 @@
 Description: Attempts to send a user-defined control code to the referenced service.
 ms.assetid: a7132c9b-6faf-4182-a5b8-3f2334c1a74b
 ms.tgt_platform: multiple
-title: UserControlService method of the Win32_Service class
-ms.topic: article
+title: UserControlService method of the Win32_Service class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

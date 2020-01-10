@@ -1,5 +1,5 @@
 ---
-title: glLoadMatrixd function
+title: glLoadMatrixd function (Gl.h)
 description: The glLoadMatrixd and glLoadMatrixf functions replace the current matrix with an arbitrary matrix.
 ms.assetid: 66c499f7-3f55-4de2-b67b-5b775b5854e0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

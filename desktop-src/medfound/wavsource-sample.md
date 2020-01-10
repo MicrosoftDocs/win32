@@ -15,7 +15,7 @@ This sample is a relatively simple example of a media source:
 -   There is only one stream, so there is no code to implement stream selection.
 -   The media source does not implement rate control (that is, fast forward or reverse playback).
 -   All source and stream methods are implemented as synchronous methods.
--   Because the data portion of a .wav file is a single block of uncompressed PCM audio, the media source does not need to read packet headers or otherwise parse the stream during playback, other than reading the initial [**WAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd757712(v=VS.85).aspx) header.
+-   Because the data portion of a .wav file is a single block of uncompressed PCM audio, the media source does not need to read packet headers or otherwise parse the stream during playback, other than reading the initial [**WAVEFORMAT**](https://msdn.microsoft.com/library/Dd757712(v=VS.85).aspx) header.
 
 For a more advanced example of a media source, see the [MPEG1Source Sample](mpeg1source-sample.md).
 

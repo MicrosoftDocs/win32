@@ -1,8 +1,8 @@
 ---
 Description: The get\_Description method gets the session description (BSTR).
 ms.assetid: 09a372fe-0dcd-4daf-8f13-c4c89b1ecd16
-title: ITSdp::get_Description method
-ms.topic: article
+title: ITSdp::get_Description method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the *ppDescription* parameter.
+The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the *ppDescription* parameter.
 
 ## Requirements
 

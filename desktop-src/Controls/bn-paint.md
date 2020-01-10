@@ -1,5 +1,5 @@
 ---
-title: BN_PAINT notification code
+title: BN_PAINT notification code (Winuser.h)
 description: Sent when a button should be painted.
 ms.assetid: 1c742272-60bb-42f1-a9b3-974e9a8540cd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

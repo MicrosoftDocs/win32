@@ -13,7 +13,7 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

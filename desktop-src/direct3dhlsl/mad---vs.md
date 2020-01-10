@@ -2,10 +2,10 @@
 title: mad - vs
 description: Multiplies and adds sources.
 ms.assetid: 059f0bf6-d143-4efc-b074-0ed026edb008
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

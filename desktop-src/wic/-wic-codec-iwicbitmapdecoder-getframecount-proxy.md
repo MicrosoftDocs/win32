@@ -2,7 +2,7 @@
 Description: Proxy function for the GetFrameCount method.
 ms.assetid: 2103af73-60a2-4c1c-8db2-7dfd474440eb
 title: IWICBitmapDecoder_GetFrameCount_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

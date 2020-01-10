@@ -1,5 +1,5 @@
 ---
-title: EC_WMT_INDEX_EVENT
+title: EC_WMT_INDEX_EVENT (Windows Media Format 11 SDK)
 description: EC\_WMT\_INDEX\_EVENT
 ms.assetid: 46e6a011-7f25-470b-9e10-fa59f0ddbf22
 keywords:

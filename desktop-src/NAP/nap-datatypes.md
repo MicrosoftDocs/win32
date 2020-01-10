@@ -1,5 +1,5 @@
 ---
-title: NAP Datatypes
+title: NAP Datatypes (NapTypes.h)
 description: Note The Network Access Protection platform is not available starting with Windows 10 The datatypes for the Network Access Protection (NAP) API are as follows.
 ms.assetid: 54f2866b-4333-4fc8-bb25-b7d4ae72b7dc
 keywords:
@@ -14,7 +14,7 @@ keywords:
 - ConnectionId
 - Percentage
 - MessageId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

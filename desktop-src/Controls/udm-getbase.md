@@ -1,5 +1,5 @@
 ---
-title: UDM_GETBASE message
+title: UDM_GETBASE message (Commctrl.h)
 description: Retrieves the current radix base (that is, either base 10 or 16) for an up-down control.
 ms.assetid: df755b11-9a11-44f1-bdef-1bb7244c7979
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

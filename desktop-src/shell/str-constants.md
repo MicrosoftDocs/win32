@@ -1,7 +1,7 @@
 ---
 Description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
-title: Bind Context String Keys
-ms.topic: article
+title: Bind Context String Keys (Shobjidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: d89a0ee1-9a4b-48a4-8965-0d92f09743a6
 api_name: 
@@ -54,7 +54,7 @@ topic_type:
 
 # Bind Context String Keys
 
-A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](https://msdn.microsoft.com/en-us/library/ms687254(v=VS.85).aspx) method to specify a bind context.
+A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](https://msdn.microsoft.com/library/ms687254(v=VS.85).aspx) method to specify a bind context.
 
 
 
@@ -237,7 +237,7 @@ Introduced in Windows 2000 SP3, this value was defined in Shlobj.h until Window
 
 ## Remarks
 
-Bind contexts are used to pass optional parameters to functions that have an IBindCtx\* parameter. Those parameters are expressed as COM objects and might implement interfaces that are used to model the parameter data. Some bind contexts represent a Boolean value, where **TRUE** indicates an object that implements only [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) and FALSE indicates no object is present.
+Bind contexts are used to pass optional parameters to functions that have an IBindCtx\* parameter. Those parameters are expressed as COM objects and might implement interfaces that are used to model the parameter data. Some bind contexts represent a Boolean value, where **TRUE** indicates an object that implements only [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) and FALSE indicates no object is present.
 
 [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname), [**IShellFolder::BindToObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject) and [**IShellItem::BindToHandler**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler) take a bind context and you can pass them parameters through that bind context.
 
@@ -245,7 +245,7 @@ Some bind contexts are specific to a certain data source implementations or hand
 
 Bind context parameters are defined for use with a specific function or method.
 
-When requesting a property store through [**IShellFolder**](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx), you can specify the equivalent of [**GPS\_DEFAULT**](https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx) by passing in a null [**IBindCtx**](https://msdn.microsoft.com/en-us/library/ms693755(v=VS.85).aspx) parameter. You can also specify the equivalent of GPS\_READWRITE by passing a mode of STGM\_READWRITE \| STGM\_EXCLUSIVE in the bind context.
+When requesting a property store through [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx), you can specify the equivalent of [**GPS\_DEFAULT**](https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx) by passing in a null [**IBindCtx**](https://msdn.microsoft.com/library/ms693755(v=VS.85).aspx) parameter. You can also specify the equivalent of GPS\_READWRITE by passing a mode of STGM\_READWRITE \| STGM\_EXCLUSIVE in the bind context.
 
 The property bag specified by the **STR\_PROPERTYBAG\_PARAM** bind context object contains additional values that you can access with the [**IPropertyBag::Read**](https://msdn.microsoft.com/library/Aa768197(v=VS.85).aspx) and [**IPropertyBag::Write**](https://msdn.microsoft.com/library/Aa768198(v=VS.85).aspx) methods.
 

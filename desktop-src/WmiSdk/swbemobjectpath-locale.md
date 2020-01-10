@@ -2,8 +2,8 @@
 Description: The Locale property of the SWbemObjectPath object contains the locale of object path.
 ms.assetid: cde4ebac-b112-48b5-a274-802e6d3fbfbf
 ms.tgt_platform: multiple
-title: SWbemObjectPath.Locale property
-ms.topic: article
+title: SWbemObjectPath.Locale property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_WINDOW message
+title: ICM_DRAW_WINDOW message (Vfw.h)
 description: The ICM\_DRAW\_WINDOW message notifies a rendering driver that the window specified for the ICM\_DRAW\_BEGIN message needs to be redrawn.
 ms.assetid: 4df1b9a7-8d61-4e79-8f43-1e7ee266375c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

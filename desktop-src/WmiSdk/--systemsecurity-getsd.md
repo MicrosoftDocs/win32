@@ -3,7 +3,7 @@ Description: Gets the security descriptor for the namespace to which the user is
 ms.assetid: aeac1e7b-fcb8-4880-afd1-4950da37602b
 ms.tgt_platform: multiple
 title: GetSD method of the __SystemSecurity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

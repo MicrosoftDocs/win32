@@ -1,5 +1,5 @@
 ---
-title: EM_NOSETFOCUS message
+title: EM_NOSETFOCUS message (Commctrl.h)
 description: Prevents a single-line edit control from receiving keyboard focus. You can send this message explicitly or by using the Edit\_NoSetFocus macro.
 ms.assetid: aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

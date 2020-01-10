@@ -1,5 +1,5 @@
 ---
-title: SB_SETBKCOLOR message
+title: SB_SETBKCOLOR message (Commctrl.h)
 description: Sets the background color in a status bar.
 ms.assetid: 49bcd816-e3e2-45f4-8845-ef67789b8a01
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

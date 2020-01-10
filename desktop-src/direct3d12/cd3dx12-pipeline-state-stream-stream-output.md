@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT structure
+title: CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT structure (D3dx12.h)
 description: A helper structure used to describe the stream output description as a single object suitable for a stream description.
 ms.assetid: CC7E1E76-CD44-4D70-A5B8-7C2B6210468E
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

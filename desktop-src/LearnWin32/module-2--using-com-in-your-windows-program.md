@@ -1,5 +1,5 @@
 ---
-title: Module 2. Using COM in Your Windows-Based Program
+title: Using COM in Your Windows app
 description: Module 1 of this series showed how to create a window and respond to window messages such as WM\_PAINT and WM\_CLOSE. Module 2 introduces the Component Object Model (COM).
 ms.assetid: 6e867618-4d02-4c17-b7ea-dc7290507689
 ms.topic: article
@@ -55,7 +55,3 @@ COM is a *binary standard*, not a language standard: It defines the binary inter
  
 
  
-
-
-
-

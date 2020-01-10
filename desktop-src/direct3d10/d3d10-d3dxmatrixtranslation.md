@@ -1,8 +1,8 @@
 ---
 Description: Create a translation matrix.
 ms.assetid: a3565a06-22af-4ded-8835-da4c7ae81805
-title: D3DXMatrixTranslation function
-ms.topic: article
+title: D3DXMatrixTranslation function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ D3DXMATRIX* D3DXMatrixTranslation(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 The matrix that will become a translation matrix. See [**D3DXMATRIX**](d3d10-d3dxmatrix.md).
 
@@ -50,7 +50,7 @@ The matrix that will become a translation matrix. See [**D3DXMATRIX**](d3d10-d3d
 *x* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The x-component of the translation.
 
@@ -59,7 +59,7 @@ The x-component of the translation.
 *y* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The y-component of the translation.
 
@@ -68,7 +68,7 @@ The y-component of the translation.
 *z* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The z-component of the translation.
 
@@ -76,7 +76,7 @@ The z-component of the translation.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 The translation matrix.
 

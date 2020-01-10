@@ -1,5 +1,5 @@
 ---
-title: WM_NCLBUTTONDOWN message
+title: WM_NCLBUTTONDOWN message (Winuser.h)
 description: Posted when the user presses the left mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: fca6d9ec-c549-4c82-9a80-15471481f876
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

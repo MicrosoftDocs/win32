@@ -3,7 +3,7 @@ Description: The Win32\_AssociatedProcessorMemory association WMI class relates 
 ms.assetid: 23da2a9d-772e-4258-9489-07d47801b2d8
 ms.tgt_platform: multiple
 title: Win32_AssociatedProcessorMemory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

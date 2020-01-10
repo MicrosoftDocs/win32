@@ -1,5 +1,5 @@
 ---
-title: TYPEMODE enumeration
+title: TYPEMODE enumeration (Softkbdc.h)
 description: Elements of the TYPEMODE enumeration are used to specify type modes that are available for a soft keyboard.
 ms.assetid: '7db0a4dd-0ee2-455d-aeb8-11cd1249134c'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Softkbdc.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

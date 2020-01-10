@@ -1,8 +1,8 @@
 ---
 Description: The GetSrcAtTime method retrieves the source object nearest to the specified time, according to the specified boundary conditions.
 ms.assetid: 0469c0c2-13df-49f7-95b2-15d3069c5b1c
-title: IAMTimelineTrack::GetSrcAtTime method
-ms.topic: article
+title: IAMTimelineTrack::GetSrcAtTime method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

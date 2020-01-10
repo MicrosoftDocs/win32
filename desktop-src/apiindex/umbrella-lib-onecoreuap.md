@@ -534,7 +534,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**WriteConsoleOutputAttribute**](https://docs.microsoft.com/windows/console/writeconsoleoutputattribute)  | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240. |
 | [**WriteConsoleOutputCharacterA**](https://docs.microsoft.com/windows/console/writeconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240. |
 | [**WriteConsoleOutputCharacterW**](https://docs.microsoft.com/windows/console/writeconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240. |
-| [**WriteConsoleOutputW**](https://msdn.microsoft.com/en-us/library/Cc429851.aspx)                   | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240. |
+| [**WriteConsoleOutputW**](https://msdn.microsoft.com/library/Cc429851.aspx)                   | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.10240. |
 
 
 
@@ -1507,9 +1507,9 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 
 | API                                                                                                    | Requirements                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ExpandEnvironmentStringsA**](https://msdn.microsoft.com/en-us/library/Cc522631.aspx)                | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [**ExpandEnvironmentStringsA**](https://msdn.microsoft.com/library/Cc522631.aspx)                | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**ExpandEnvironmentStringsW**](https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilexpandenvironmentstrings)                | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [**FreeEnvironmentStringsA**](https://msdn.microsoft.com/en-us/library/Cc429102.aspx)                  | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [**FreeEnvironmentStringsA**](https://msdn.microsoft.com/library/Cc429102.aspx)                  | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**FreeEnvironmentStringsW**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa)                  | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**GetCommandLineA**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea)          | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**GetCommandLineW**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea)          | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
@@ -1518,7 +1518,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**GetEnvironmentStrings**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize)                    | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**GetEnvironmentStringsW**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize)                   | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**GetEnvironmentVariableA**](https://docs.microsoft.com/cpp/atl-mfc-shared/reference/cstringt-class?view=vs-2017)                  | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [**GetEnvironmentVariableW**](https://msdn.microsoft.com/en-us/library/ms392609.aspx)                  | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [**GetEnvironmentVariableW**](https://msdn.microsoft.com/library/ms392609.aspx)                  | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**GetStdHandle**](https://docs.microsoft.com/windows/console/getstdhandle)                             | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | [**NeedCurrentDirectoryForExePathA**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-needcurrentdirectoryforexepatha) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240.                                                                         |
 | [**NeedCurrentDirectoryForExePathW**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-needcurrentdirectoryforexepatha) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240.                                                                         |
@@ -1750,7 +1750,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://msdn.microsoft.com/en-us/library/ms383723.aspx"><strong>OpenThreadToken</strong></a></td>
+<td><a href="https://msdn.microsoft.com/library/ms383723.aspx"><strong>OpenThreadToken</strong></a></td>
 <td>Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299.</td>
 </tr>
 <tr class="even">
@@ -7650,7 +7650,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
 | [**alljoyn\_aboutdata\_createfrommsgarg**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                          | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_destroy**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                                   | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getaboutdata**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                              | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
-| [**alljoyn\_aboutdata\_getajsoftwareversion**](https://docs.microsoft.com/en-us/scripting/chakra-hosting/jsoftwareversion-function)                        | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
+| [**alljoyn\_aboutdata\_getajsoftwareversion**](https://docs.microsoft.com/scripting/chakra-hosting/jsoftwareversion-function)                        | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getannouncedaboutdata**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                     | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getappid**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                                  | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |
 | [**alljoyn\_aboutdata\_getappname**](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c)                                                | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. Removed in 10.0.15063. |

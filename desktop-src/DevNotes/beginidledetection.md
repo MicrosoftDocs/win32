@@ -2,7 +2,7 @@
 Description: Begins monitoring inactivity.
 ms.assetid: fed5e4ae-2c2b-4b00-9230-b71aec9335c8
 title: BeginIdleDetection function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -72,7 +72,7 @@ Returns 0 if the function succeeds; otherwise, it returns an error code. For exa
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions. This function is not exported by name; specify ordinal 3 when calling **GetProcAddress**.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions. This function is not exported by name; specify ordinal 3 when calling **GetProcAddress**.
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientCallback GetConnections method
+title: INapEnforcementClientCallback GetConnections method (NapEnforcementClient.h)
 description: Is called by the NapAgent and implemented by the enforcement client to return a set of connections.
 ms.assetid: 8f697217-5799-48e4-9f0b-715f516e48d9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

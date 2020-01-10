@@ -1,8 +1,8 @@
 ---
 Description: Specifies the pixel aspect ratio.
 ms.assetid: 948eae1e-ab24-4b39-aa20-ec7da71bb359
-title: AVEncVideoPixelAspectRatio property
-ms.topic: article
+title: AVEncVideoPixelAspectRatio property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

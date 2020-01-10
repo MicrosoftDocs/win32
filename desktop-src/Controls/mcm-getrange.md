@@ -1,5 +1,5 @@
 ---
-title: MCM_GETRANGE message
+title: MCM_GETRANGE message (Commctrl.h)
 description: Retrieves the minimum and maximum allowable dates set for a month calendar control. You can send this message explicitly or by using the MonthCal\_GetRange macro.
 ms.assetid: 5000053a-2975-4781-b3c9-83f9763f679a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

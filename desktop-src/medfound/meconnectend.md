@@ -1,8 +1,8 @@
 ---
 Description: Raised by the network source when it finishes opening a URL.
 ms.assetid: 737aec32-24f4-4825-ad34-8d2fc889bc09
-title: MEConnectEnd event
-ms.topic: article
+title: MEConnectEnd event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

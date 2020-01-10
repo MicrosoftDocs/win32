@@ -1,8 +1,8 @@
 ---
 Description: Loads into memory a precomputed radiance transfer (PRT) buffer that was saved to disk.
 ms.assetid: b9296c9e-e8ff-4a18-8682-fcac4feb64e9
-title: D3DXLoadPRTBufferFromFile function
-ms.topic: article
+title: D3DXLoadPRTBufferFromFile function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT D3DXLoadPRTBufferFromFile(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Name of the file from which to load the buffer data.
 
@@ -56,7 +56,7 @@ Address of a pointer to the output [**ID3DXPRTBuffer**](id3dxprtbuffer.md) objec
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

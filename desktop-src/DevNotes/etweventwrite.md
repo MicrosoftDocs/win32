@@ -1,7 +1,7 @@
 ---
 Description: 
 title: EtwEventWrite
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -84,8 +84,8 @@ The EtwEventWrite function and the structures that it returns are internal to th
 
 <dl> <dt>
 
-[EventWrite](https://docs.microsoft.com/en-us/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
+[EventWrite](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
 </dt> <dt>
 
-[EventWriteEx](https://docs.microsoft.com/en-us/windows/desktop/api/evntprov/nf-evntprov-eventwriteex)
+[EventWriteEx](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex)
 </dt></dl>

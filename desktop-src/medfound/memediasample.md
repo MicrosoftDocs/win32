@@ -1,8 +1,8 @@
 ---
 Description: Sent when a media stream delivers a new sample in response to a call to IMFMediaStream::RequestSample.
 ms.assetid: 01610053-786f-44b5-90d6-2cb2668cd632
-title: MEMediaSample event
-ms.topic: article
+title: MEMediaSample event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

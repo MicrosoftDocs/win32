@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement ProcessLicenseDeletionMessage method
+title: IWMDRMLicenseManagement ProcessLicenseDeletionMessage method (Wmdrmsdk.h)
 description: The ProcessLicenseDeletion method deletes a license that was imported for content originally protected with another content protection system.
 ms.assetid: 478dd156-feb8-4eda-9d3a-35db3e65c227
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Retrieves the number of Certificate objects in the collection.
 ms.assetid: 95931721-3b0c-4915-805f-039d1d5510fa
 title: Certificates.Count property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -36,7 +36,7 @@ The number of [**Certificate**](certificate.md) objects in the collection. Each 
 
 ## Remarks
 
-CAPICOM only supports a single certificate for the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) store. Even if the smart card store contains more than one certificate, this property will contain 1. For more information about the smart card store, see the **CAPICOM\_SMART\_CARD\_USER\_STORE** member of the [**CAPICOM\_STORE\_LOCATION**](capicom-store-location.md) enumeration.
+CAPICOM only supports a single certificate for the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) store. Even if the smart card store contains more than one certificate, this property will contain 1. For more information about the smart card store, see the **CAPICOM\_SMART\_CARD\_USER\_STORE** member of the [**CAPICOM\_STORE\_LOCATION**](capicom-store-location.md) enumeration.
 
 ## Requirements
 

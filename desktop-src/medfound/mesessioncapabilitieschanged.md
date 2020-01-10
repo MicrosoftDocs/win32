@@ -1,8 +1,8 @@
 ---
 Description: Raised by the Media Session when the session capabilities change.
 ms.assetid: d59fd3a0-29db-434c-b6ba-d9beb33bd965
-title: MESessionCapabilitiesChanged event
-ms.topic: article
+title: MESessionCapabilitiesChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

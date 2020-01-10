@@ -2,8 +2,8 @@
 Description: WMI return codes that indicate status and do not indicate an error.
 ms.assetid: 36faa3fb-9496-47ca-bdba-f8eb52a06ff7
 ms.tgt_platform: multiple
-title: WMI Non-Error Constants
-ms.topic: article
+title: WMI Non-Error Constants (WbemCli.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

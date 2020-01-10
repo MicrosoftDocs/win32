@@ -1,5 +1,5 @@
 ---
-title: Resource Reference
+title: Resource Reference (Menus and Other Resources)
 description: .
 ms.assetid: 977021bf-fd1a-44d9-bfa1-6a727661fde7
 ms.topic: article

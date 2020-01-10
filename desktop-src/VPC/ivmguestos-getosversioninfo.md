@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS GetOsVersionInfo method
+title: IVMGuestOS GetOsVersionInfo method (VPCCOMInterfaces.h)
 description: Retrieves version information for the guest operating system running in the virtual machine.
 ms.assetid: 1f9d749f-6007-466d-9df9-71c6a72e8112
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

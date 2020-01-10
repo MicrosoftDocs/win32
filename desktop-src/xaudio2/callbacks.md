@@ -1,7 +1,7 @@
 ---
 Description: This section lists overview topics about XAudio2 callbacks.
 ms.assetid: 5565438b-dbd4-e645-dd7b-93a17758d768
-title: Callbacks
+title: Callbacks (XAudio2 APIs)
 ms.topic: article
 ms.date: 05/31/2018
 ---

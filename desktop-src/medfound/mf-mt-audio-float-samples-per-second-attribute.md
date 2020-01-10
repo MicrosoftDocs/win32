@@ -1,8 +1,8 @@
 ---
 Description: Number of audio samples per second in an audio media type.
 ms.assetid: 9e794f7d-0fb3-4069-8431-62651252517d
-title: MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND attribute
-ms.topic: article
+title: MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

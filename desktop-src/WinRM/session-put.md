@@ -1,5 +1,5 @@
 ---
-title: Session.Put method
+title: Session.Put method (WSManDisp.h)
 description: Updates a resource.
 ms.assetid: f121d9ce-6aa3-45e3-b0ba-67b19c2f5665
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

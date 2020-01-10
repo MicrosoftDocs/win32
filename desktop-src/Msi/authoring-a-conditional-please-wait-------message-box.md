@@ -1,12 +1,12 @@
 ---
 Description: The following example illustrates how to author a conditional message box that pops up and warns the user that a background task is still running whenever the user activates a displayed control prematurely.
 ms.assetid: 4a99a96b-50c2-42eb-82ad-acdfa186a71f
-title: Authoring a Conditional "Please Wait . . ." Message Box
+title: Authoring a "Please Wait . . ." Message Box
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Authoring a Conditional "Please Wait . . ." Message Box
+# Authoring a Conditional "Please Wait..." Message Box
 
 The following example illustrates how to author a conditional message box that pops up and warns the user that a background task is still running whenever the user activates a displayed control prematurely.
 

@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 35198320-d028-42d4-823f-4f8346d8f977
-title: CMediaType.CMediaType constructor
-ms.topic: article
+title: CMediaType.CMediaType constructor (Mtype.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

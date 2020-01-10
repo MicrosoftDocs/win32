@@ -3,7 +3,7 @@ Description: The CIM\_FromDirectorySpecification association identifies the sour
 ms.assetid: 031ff95f-aa68-4b05-92a6-97a5e0d8956f
 ms.tgt_platform: multiple
 title: CIM_FromDirectorySpecification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

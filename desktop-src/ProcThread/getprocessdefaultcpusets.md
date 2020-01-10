@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the list of CPU Sets in the process default set that was set by SetProcessDefaultCpuSets. If no default CPU Sets are set for a given process, then the RequiredIdCount is set to 0 and the function succeeds.
 ms.assetid: 85DC5331-9EC0-4603-94FD-B49E725301B1
-title: GetProcessDefaultCpuSets function
-ms.topic: article
+title: GetProcessDefaultCpuSets function (Processthreadapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -42,7 +42,7 @@ BOOL WINAPI GetProcessDefaultCpuSets(
 *Process* \[in\]
 </dt> <dd>
 
-Specifies a process handle for the process to query. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](https://msdn.microsoft.com/en-us/library/ms683179(v=VS.85).aspx) can also be specified here.
+Specifies a process handle for the process to query. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](https://msdn.microsoft.com/library/ms683179(v=VS.85).aspx) can also be specified here.
 
 </dd> <dt>
 

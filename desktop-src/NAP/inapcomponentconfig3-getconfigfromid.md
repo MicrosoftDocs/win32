@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig3 GetConfigFromID method
+title: INapComponentConfig3 GetConfigFromID method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) to provide a way to obtain configuration data for a specific configuration ID.
 ms.assetid: 5c91681d-16d6-42f3-b1e0-c4b6e7561a73
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

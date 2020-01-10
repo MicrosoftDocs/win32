@@ -1,8 +1,8 @@
 ---
 Description: Constructs an APDU command that initiates one of the listed operations.
 ms.assetid: 2ce313b9-ccd7-4be0-a91f-d0747e35fab8
-title: ISCardISO7816::WriteRecord method
-ms.topic: article
+title: ISCardISO7816::WriteRecord method (Scardssp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::WriteRecord method
 
-\[The **WriteRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **WriteRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **WriteRecord** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) command that initiates one of the following operations:
+The **WriteRecord** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that initiates one of the following operations:
 
 -   The write once of a record.
 -   The logical **OR** of the data bytes of a record already present in the card with the data bytes of the record given in the command APDU.
@@ -96,7 +96,7 @@ Pointer to the record to be written.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -119,7 +119,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being processed.
+The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being processed.
 
 When the command contains a valid short elementary identifier, it sets the file as current elementary file. If another elementary file is currently selected at the time of issuing this command, this command may be processed without identification of the currently selected file.
 

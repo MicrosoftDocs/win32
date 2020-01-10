@@ -2,7 +2,7 @@
 Description: Requests a verification of the user.
 ms.assetid: e8b7155c-3444-4aa8-8a15-3b3624a44a77
 title: ISCardVerify::Verify method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardVerify::Verify method
 
-\[The **Verify** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Verify** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
 The **Verify** method requests a verification of the user.
 
@@ -40,7 +40,7 @@ HRESULT Verify(
 *pCode* \[in\]
 </dt> <dd>
 
-Contains the code to be presented to the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) in the CHV (card holder verification) process.
+Contains the code to be presented to the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) in the CHV (card holder verification) process.
 
 </dd> <dt>
 

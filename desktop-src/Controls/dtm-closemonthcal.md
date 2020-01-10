@@ -1,5 +1,5 @@
 ---
-title: DTM_CLOSEMONTHCAL message
+title: DTM_CLOSEMONTHCAL message (Commctrl.h)
 description: Closes a date and time picker (DTP) control. Send this message explicitly or by using the DateTime\_CloseMonthCal macro.
 ms.assetid: f60af77f-ec34-4f3d-9427-cda7ac6083bf
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

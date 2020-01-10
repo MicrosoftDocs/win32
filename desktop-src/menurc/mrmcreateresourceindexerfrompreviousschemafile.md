@@ -1,5 +1,5 @@
 ---
-title: MrmCreateResourceIndexerFromPreviousSchemaFile function
+title: MrmCreateResourceIndexerFromPreviousSchemaFile function (MrmResourceIndexer.h)
 description: Creates a resource indexer from a schema file created with a previous call to MrmDumpPriFile. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: 2ECF355C-C6FD-4949-B455-52E3FF455005
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

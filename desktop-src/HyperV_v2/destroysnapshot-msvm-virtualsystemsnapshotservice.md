@@ -2,7 +2,7 @@
 Description: Destroys an existing virtual machine snapshot.
 ms.assetid: 84752bb3-cae1-4a93-89bc-e735c058feda
 title: DestroySnapshot method of the Msvm_VirtualSystemSnapshotService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

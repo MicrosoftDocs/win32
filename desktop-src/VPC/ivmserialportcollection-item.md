@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPortCollection Item property
+title: IVMSerialPortCollection Item property (VPCCOMInterfaces.h)
 description: Retrieves the serial port object that corresponds to the specified index.
 ms.assetid: 24ce1404-d7aa-4125-b1f9-9c54418ea205
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

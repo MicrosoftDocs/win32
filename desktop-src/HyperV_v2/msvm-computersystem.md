@@ -2,7 +2,7 @@
 Description: Represents a physical computer system or virtual machine.
 ms.assetid: '1db9e169-1466-4898-ab95-e9d622fe43cb'
 title: Msvm_ComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -2,8 +2,8 @@
 Description: The Clone method of the SWbemNamedValueSet object returns a new object that is a clone of the current collection.
 ms.assetid: 0e7fab2e-8175-45e5-aa70-1109502e2b3f
 ms.tgt_platform: multiple
-title: SWbemNamedValueSet.Clone method
-ms.topic: article
+title: SWbemNamedValueSet.Clone method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

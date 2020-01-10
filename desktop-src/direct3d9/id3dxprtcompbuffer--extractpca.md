@@ -1,8 +1,8 @@
 ---
 Description: Extracts the per-sample principal component analysis (PCA) projection coefficients from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: 149098c2-35ca-46e9-a13a-94906c95cfd9
-title: ID3DXPRTCompBuffer::ExtractPCA method
-ms.topic: article
+title: ID3DXPRTCompBuffer::ExtractPCA method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT ExtractPCA(
 *StartPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Starting index for PCA projection coefficients to extract from the buffer.
 
@@ -49,7 +49,7 @@ Starting index for PCA projection coefficients to extract from the buffer.
 *NumExtract* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of PCA projection coefficients to extract from the buffer.
 
@@ -58,7 +58,7 @@ Number of PCA projection coefficients to extract from the buffer.
 *pPCACoefficients* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the location where clustered principal component analysis (CPCA) coefficients are written. The size of the data written is (Number of Samples) \* (Number of PCA Coefficients).
 
@@ -66,7 +66,7 @@ Pointer to the location where clustered principal component analysis (CPCA) coef
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.
 

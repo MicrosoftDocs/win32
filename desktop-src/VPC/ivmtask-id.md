@@ -1,5 +1,5 @@
 ---
-title: IVMTask ID property
+title: IVMTask ID property (VPCCOMInterfaces.h)
 description: Retrieves a unique identifier for this task.
 ms.assetid: 56a63b94-139b-4445-aef6-1b988e548b4b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

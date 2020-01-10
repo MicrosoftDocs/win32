@@ -1,5 +1,5 @@
 ---
-title: glColor3ub function
+title: glColor3ub function (Gl.h)
 description: Sets the current color.
 ms.assetid: 5837e6cf-5a75-4d05-9843-b3205e8ad1ab
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

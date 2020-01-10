@@ -3,7 +3,7 @@ Description: The CIM\_Battery class represents the capabilities and management o
 ms.assetid: af127b7a-021b-4cd8-af1b-176aff760858
 ms.tgt_platform: multiple
 title: CIM_Battery class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,12 +1,12 @@
 ---
-title: How to Ensure That Your Application Displays Properly on High-DPI Displays
+title: Displaying properly on a high-DPI display
 description: Describes how to create a window the displays properly on high-DPI displays.
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Ensure That Your Application Displays Properly on High-DPI Displays
+# Displaying properly on a high-DPI display
 
 Although Direct2D addresses many high-DPI issues for you, there are two steps you should take to ensure that your application works properly on high-DPI displays:
 
@@ -16,17 +16,17 @@ Although Direct2D addresses many high-DPI issues for you, there are two steps yo
 
 ## Step 1: Use the System DPI When Creating Windows
 
-The [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) interface provides the [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
+The [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) interface provides the [**GetDesktopDpi**](https://msdn.microsoft.com/library/Dd371316(v=VS.85).aspx) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
 
 <*horizontal DPI*> \* <*width*, in pixels> / <*default horizontal DPI*>
 
-...where *horizontal DPI* is the value retrived by [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) and *default horizontal DPI* is 96. The formula is similar for the vertical size:
+...where *horizontal DPI* is the value retrived by [**GetDesktopDpi**](https://msdn.microsoft.com/library/Dd371316(v=VS.85).aspx) and *default horizontal DPI* is 96. The formula is similar for the vertical size:
 
 <*vertical DPI*> \* <*height*, in pixels> / <*default vertical DPI*>
 
-...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) method and *default vertical DPI* is 96.
+...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](https://msdn.microsoft.com/library/Dd371316(v=VS.85).aspx) method and *default vertical DPI* is 96.
 
-The following code uses the [**GetDesktopDpi**](https://msdn.microsoft.com/en-us/library/Dd371316(v=VS.85).aspx) method to retrieve the system DPI and then creates a 640 × 480 window, scaled to the system DPI.
+The following code uses the [**GetDesktopDpi**](https://msdn.microsoft.com/library/Dd371316(v=VS.85).aspx) method to retrieve the system DPI and then creates a 640 × 480 window, scaled to the system DPI.
 
 
 ```C++

@@ -1,8 +1,8 @@
 ---
 Description: Represents access to a rectangle.
 ms.assetid: 78e6c29c-0f43-46a5-9d30-948de5f369c8
-title: InkRectangle class
-ms.topic: interface
+title: InkRectangle class (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

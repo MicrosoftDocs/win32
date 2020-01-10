@@ -18,7 +18,7 @@ The following procedure describes how to install [side-by-side assemblies](about
 
 2.  You should install shared side-by-side assemblies as components of a Windows Installer package. This can be the same installation package used to install or update your application. If the shared assembly is shipped as part of multiple applications, you should provide a merge module that can be incorporated into these applications' installation packages and create a catalog for the files in the assembly.
 
-    Windows Installer version 2.0 or later is required to install assemblies. For more information, see the [Windows Installer](https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx) SDK and the sections under [Installation of Win32 Assemblies](https://msdn.microsoft.com/en-us/library/Aa369292(v=VS.85).aspx).
+    Windows Installer version 2.0 or later is required to install assemblies. For more information, see the [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx) SDK and the sections under [Installation of Win32 Assemblies](https://msdn.microsoft.com/library/Aa369292(v=VS.85).aspx).
 
  
 

@@ -12,9 +12,9 @@ Windows Sockets 1.1 defined a number of routines that were used for IPv4 name re
 
 [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)
 
-[**gethostbyaddr**](https://msdn.microsoft.com/en-us/library/ms738521(v=VS.85).aspx)
+[**gethostbyaddr**](https://msdn.microsoft.com/library/ms738521(v=VS.85).aspx)
 
-[**gethostbyname**](https://msdn.microsoft.com/en-us/library/ms738524(v=VS.85).aspx)
+[**gethostbyname**](https://msdn.microsoft.com/library/ms738524(v=VS.85).aspx)
 
 [**getprotobyname**](/windows/desktop/api/winsock/nf-winsock-getprotobyname)
 
@@ -26,9 +26,9 @@ Windows Sockets 1.1 defined a number of routines that were used for IPv4 name re
 
 Asynchronous versions of these functions were also defined.
 
-[**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/en-us/library/ms741519(v=VS.85).aspx)
+[**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/library/ms741519(v=VS.85).aspx)
 
-[**WSAAsyncGetHostByName**](https://msdn.microsoft.com/en-us/library/ms741522(v=VS.85).aspx)
+[**WSAAsyncGetHostByName**](https://msdn.microsoft.com/library/ms741522(v=VS.85).aspx)
 
 [**WSAAsyncGetProtoByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname)
 

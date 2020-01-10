@@ -2,7 +2,7 @@
 Description: The CreateObject method of the Microsoft.Windows.ActCtx object creates an object in the context of the current manifest.
 ms.assetid: 531e6501-bb68-472b-b483-1f52815ba9d7
 title: ActCtx.CreateObject method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapterCollection Item property
+title: IVMNetworkAdapterCollection Item property (VPCCOMInterfaces.h)
 description: IVMNetworkAdapter object that corresponds to the specified index.
 ms.assetid: 3de76e24-3315-473f-870b-074be8bcfe70
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

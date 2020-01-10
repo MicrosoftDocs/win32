@@ -1,7 +1,7 @@
 ---
 Description: This topic lists the SetCenterPoint methods of the PathGradientBrush class. For a complete list of methods for the PathGradientBrush class, see PathGradientBrush Methods.
 ms.assetid: 41765887-b1de-4259-95af-a1ef8c84d01a
-title: PathGradientBrush.SetCenterPoint methods
+title: PathGradientBrush.SetCenterPoint methods (Gdipluspath.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

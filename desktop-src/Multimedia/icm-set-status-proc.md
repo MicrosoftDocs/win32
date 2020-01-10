@@ -1,5 +1,5 @@
 ---
-title: ICM_SET_STATUS_PROC message
+title: ICM_SET_STATUS_PROC message (Vfw.h)
 description: The ICM\_SET\_STATUS\_PROC message provides a status callback function with the status of a lengthy operation.
 ms.assetid: a1bcd840-b94b-487e-91d6-67411a8a3a2d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

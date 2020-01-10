@@ -1,5 +1,5 @@
 ---
-title: TTM_GETDELAYTIME message
+title: TTM_GETDELAYTIME message (Commctrl.h)
 description: Retrieves the initial, pop-up, and reshow durations currently set for a tooltip control.
 ms.assetid: f89a75ed-ba80-4741-927f-c571f3b2efe7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

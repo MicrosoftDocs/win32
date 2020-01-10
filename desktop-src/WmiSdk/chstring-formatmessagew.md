@@ -3,7 +3,7 @@ Description: The overloaded FormatMessageW method formats a message string.
 audience: developer
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.tgt_platform: multiple
-title: CHString::FormatMessageW methods
+title: CHString::FormatMessageW methods (ChString.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---
@@ -20,8 +20,8 @@ The overloaded **FormatMessageW** method formats a message string.
 
 | Method                                                              | Description                                                                                     |
 |:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**FormatMessageW(UINT)**](https://msdn.microsoft.com/en-us/library/Aa385519(v=VS.85).aspx)       | Formats this message according to the resource identifier specified by the **UINT**.<br/> |
-| [**FormatMessageW(LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385515(v=VS.85).aspx) | Formats this message string according to the format specified by the **LPCWSTR**.<br/>    |
+| [**FormatMessageW(UINT)**](https://msdn.microsoft.com/library/Aa385519(v=VS.85).aspx)       | Formats this message according to the resource identifier specified by the **UINT**.<br/> |
+| [**FormatMessageW(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385515(v=VS.85).aspx) | Formats this message string according to the format specified by the **LPCWSTR**.<br/>    |
 
 
 

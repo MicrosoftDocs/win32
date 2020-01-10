@@ -26,7 +26,7 @@ This documentation assumes that the reader is familiar with COM operation and co
 **To display a property sheet for an object in an Active Directory server**
 
 1.  Create a window that can be used to process messages. This can be an existing window or a special purpose window. This is known as the *hidden window*.
-2.  Create an OLE COM object that is derived from [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx). This data object must support the following data formats:
+2.  Create an OLE COM object that is derived from [**IDataObject**](https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx). This data object must support the following data formats:
 
     -   [**CFSTR\_DSOBJECTNAMES**](cfstr-dsobjectnames.md) This data format contains a [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) that identifies the object that the property sheet applies to. When hosting a property sheet, the more significant members of the **DSOBJECTNAMES** structure are shown in the following list.
 
@@ -83,7 +83,7 @@ In some cases, the existing property sheets will need to display a secondary pro
 **To duplicate the behavior of the CLSID\_DsPropertyPages object**
 
 1.  Enumerate the values in the [**adminPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-adminpropertypages) or [**shellPropertyPages**](https://docs.microsoft.com/windows/desktop/ADSchema/a-shellpropertypages) attribute for the display specifier for the object class. Each value is a string that contains a number, followed by a comma, followed by the string representation of the class identifier of the property page extension. For more information about the format of the property pages display specifier values, see [Registering the Property Page COM Object in a Display Specifier](registering-the-property-page-com-object-in-a-display-specifier.md).
-2.  Convert each class identifier string into a **CLSID** using the [**CLSIDFromString**](https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx) function.
+2.  Convert each class identifier string into a **CLSID** using the [**CLSIDFromString**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx) function.
 3.  Sort the extension class identifiers by the number that precedes each class identifier string in the attribute value. If two numbers are identical, sort the class identifiers in the order that the attribute values are obtained from the Active Directory server.
 4.  Enumerate the extension class identifiers, creating an instance of each extension.
 5.  For each extension, in the order sorted above, call the extension's [**IShellExtInit::Initialize**](https://msdn.microsoft.com/library/Bb775094(v=VS.85).aspx) with the same information described in Step 4 of the Hosting an Active Directory Users and Computers Property Sheet procedure.

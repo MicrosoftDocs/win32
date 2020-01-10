@@ -18,7 +18,7 @@ In various bridged or party-line configurations when multiple parties are on the
 
 Following a drop operation, the session identifier and most resources associated with the session will remain usable for most query operations. When an application no longer requires these resources, it must [terminate the session](terminate-a-session-ovr.md) in order to avoid memory leaks.
 
-**TAPI 2.x:** See [**lineDrop**](https://msdn.microsoft.com/en-us/library/ms735626(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineDrop**](https://msdn.microsoft.com/library/ms735626(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Disconnect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-disconnect).
 

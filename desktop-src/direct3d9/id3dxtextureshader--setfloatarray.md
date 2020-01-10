@@ -1,8 +1,8 @@
 ---
 Description: Sets an array of floating-point numbers.
 ms.assetid: 8e64b569-a6bf-4925-9d21-4df0b6661ee2
-title: ID3DXTextureShader::SetFloatArray method
-ms.topic: article
+title: ID3DXTextureShader::SetFloatArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Unique identifier to the array of constants. See [D3DXHANDLE](d3dxfx.md).
 *pf* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Array of floating-point numbers.
 
@@ -58,7 +58,7 @@ Array of floating-point numbers.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of floating-point values in the array.
 
@@ -66,7 +66,7 @@ Number of floating-point values in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

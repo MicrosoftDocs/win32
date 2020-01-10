@@ -2,7 +2,7 @@
 Description: Represents the logical connection point for a Fibre Channel port.
 ms.assetid: 54e9cb76-04f2-417b-b250-1b3156772694
 title: Msvm_FcEndpoint class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

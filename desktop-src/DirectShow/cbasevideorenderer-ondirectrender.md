@@ -1,8 +1,8 @@
 ---
 Description: The OnDirectRender method collects timing information that controls synchronization and quality control.
 ms.assetid: ed617fac-b2c6-4a3a-ac91-77e2d7cce981
-title: CBaseVideoRenderer.OnDirectRender method
-ms.topic: article
+title: CBaseVideoRenderer.OnDirectRender method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

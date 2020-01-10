@@ -1,5 +1,5 @@
 ---
-title: LVM_SETTOOLTIPS message
+title: LVM_SETTOOLTIPS message (Commctrl.h)
 description: Sets the tooltip control that the list-view control will use to display tooltips. You can send this message explicitly or use the ListView\_SetToolTips macro.
 ms.assetid: 5b4335a4-e9f0-4b13-b00b-516af3b60bf1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

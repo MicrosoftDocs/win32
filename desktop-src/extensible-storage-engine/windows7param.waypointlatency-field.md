@@ -5,7 +5,7 @@ ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.WaypointLatenc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7param.waypointlatency(v=EXCHG.10)
 ms:contentKeyID: 55104440
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.WaypointLatency
 dev_langs:

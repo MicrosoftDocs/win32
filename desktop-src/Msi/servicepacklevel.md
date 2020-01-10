@@ -2,7 +2,7 @@
 Description: The installer sets the ServicePackLevel property to the numerical value of the operating system service pack level, if one is installed.
 ms.assetid: 8b46a020-ab02-46d6-bcc4-016d9c93b5db
 title: ServicePackLevel property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

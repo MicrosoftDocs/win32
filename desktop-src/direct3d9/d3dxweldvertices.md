@@ -1,8 +1,8 @@
 ---
 Description: Welds together replicated vertices that have equal attributes. This method uses specified epsilon values for equality comparisons.
 ms.assetid: bddf6e0c-55a1-40d2-8681-e7f0f9002bfa
-title: D3DXWeldVertices function
-ms.topic: article
+title: D3DXWeldVertices function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -53,9 +53,9 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) object, the mesh from which to weld 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/en-us/library/Bb205561(v=VS.85).aspx).
+Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/library/Bb205561(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Pointer to a [**D3DXWeldEpsilons**](d3dxweldepsilons.md) structure, specifying t
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the source mesh. If the edge has no adjacent faces, the value is 0xffffffff. If this parameter is set to **NULL**, [**ID3DXBaseMesh::GenerateAdjacency**](id3dxbasemesh--generateadjacency.md) will be called to create logical adjacency information.
 
@@ -80,7 +80,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pAdjacencyOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the optimized mesh. If the edge has no adjacent faces, the value is 0xffffffff.
 
@@ -89,7 +89,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the welded mesh.
 
@@ -106,7 +106,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface, which co
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

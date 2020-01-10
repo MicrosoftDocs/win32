@@ -1,5 +1,5 @@
 ---
-title: IResultVerb interface
+title: IResultVerb interface (WdsSharedIDL.h)
 description: Exposes verb properties.
 ms.assetid: 8cc8408e-0117-4344-ad26-0c4a5d09a935
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

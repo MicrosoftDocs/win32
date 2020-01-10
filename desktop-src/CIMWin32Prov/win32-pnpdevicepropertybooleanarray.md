@@ -3,7 +3,7 @@ Description: Represents a PnP device property consisting of an array of boolean 
 ms.assetid: 2C7C6439-5C8C-4BA4-BF93-133FB7486421
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBooleanArray class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

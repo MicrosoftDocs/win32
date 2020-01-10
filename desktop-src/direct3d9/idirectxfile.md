@@ -1,8 +1,8 @@
 ---
 Description: Applications use the methods of the IDirectXFile interface to create instances of the IDirectXFileEnumObject and IDirectXFileSaveObject interfaces, and to register templates. Deprecated.
 ms.assetid: c4e800dc-72a9-4b91-9c89-ee76764b1bb9
-title: IDirectXFile interface
-ms.topic: interface
+title: IDirectXFile interface (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ Applications use the methods of the IDirectXFile interface to create instances o
 
 ## Members
 
-The **IDirectXFile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IDirectXFile** also has these types of members:
+The **IDirectXFile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirectXFile** also has these types of members:
 
 -   [Methods](#methods)
 

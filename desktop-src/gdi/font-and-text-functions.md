@@ -1,7 +1,7 @@
 ---
 Description: The following functions are used with fonts and text.
 ms.assetid: 69c04ed7-52da-4cb6-9fd2-f2a8c044df8b
-title: Font and Text Functions
+title: Font and Text Functions (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -22,7 +22,7 @@ The following functions are used with fonts and text.
 | [**CreateFontIndirectEx**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirectexa)       | Creates a logical font from a structure.                                                                             |
 | [**DrawText**](/windows/desktop/api/Winuser/nf-winuser-drawtext)                               | Draws formatted text in a rectangle.                                                                                 |
 | [**DrawTextEx**](/windows/desktop/api/Winuser/nf-winuser-drawtextexa)                           | Draws formatted text in rectangle.                                                                                   |
-| [**EnumFontFamExProc**](https://msdn.microsoft.com/en-us/library/Dd162618(v=VS.85).aspx)             | An application definedcallback function used with [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) to process fonts. |
+| [**EnumFontFamExProc**](https://msdn.microsoft.com/library/Dd162618(v=VS.85).aspx)             | An application definedcallback function used with [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa) to process fonts. |
 | [**EnumFontFamiliesEx**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesexa)           | Enumerates all fonts in the system with certain characteristics.                                                     |
 | [**ExtTextOut**](/windows/desktop/api/Wingdi/nf-wingdi-exttextouta)                           | Draws a character string.                                                                                            |
 | [**GetAspectRatioFilterEx**](/windows/desktop/api/Wingdi/nf-wingdi-getaspectratiofilterex)   | Gets the setting for the aspect-ratio filter.                                                                        |
@@ -73,9 +73,9 @@ These functions are provided only for compatibility with 16-bit versions of Wind
 
 -   [**CreateScalableFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-createscalablefontresourcea)
 -   [**EnumFontFamilies**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontfamiliesa)
--   [**EnumFontFamProc**](https://msdn.microsoft.com/en-us/library/Dd162621(v=VS.85).aspx)
+-   [**EnumFontFamProc**](https://msdn.microsoft.com/library/Dd162621(v=VS.85).aspx)
 -   [**EnumFonts**](/windows/desktop/api/Wingdi/nf-wingdi-enumfontsa)
--   [**EnumFontsProc**](https://msdn.microsoft.com/en-us/library/Dd162623(v=VS.85).aspx)
+-   [**EnumFontsProc**](https://msdn.microsoft.com/library/Dd162623(v=VS.85).aspx)
 -   [**GetCharWidth**](/windows/desktop/api/Wingdi/nf-wingdi-getcharwidtha)
 -   [**GetTextExtentPoint**](/windows/desktop/api/WinGdi/nf-wingdi-gettextextentpointa)
 

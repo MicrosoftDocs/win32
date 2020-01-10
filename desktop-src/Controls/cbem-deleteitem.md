@@ -1,5 +1,5 @@
 ---
-title: CBEM_DELETEITEM message
+title: CBEM_DELETEITEM message (Commctrl.h)
 description: Removes an item from a ComboBoxEx control.
 ms.assetid: 688cf388-54ba-4b45-88d7-628da49d8615
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

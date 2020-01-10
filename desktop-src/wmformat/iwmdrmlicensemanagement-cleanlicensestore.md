@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement CleanLicenseStore method
+title: IWMDRMLicenseManagement CleanLicenseStore method (Wmdrmsdk.h)
 description: The CleanLicenseStore method removes unusable licenses from the temporary license store and defragments the local license store to improve performance.
 ms.assetid: 07ddd6f8-a091-4c18-81d3-c4d0c6026b6b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

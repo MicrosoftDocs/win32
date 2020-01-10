@@ -2,7 +2,7 @@
 Description: Retrieves the TAGID and a handle to the shim database for the specified TAGREF.
 ms.assetid: 869c6af5-4c10-4358-9d6a-1a354be6f4e9
 title: SdbTagRefToTagID function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

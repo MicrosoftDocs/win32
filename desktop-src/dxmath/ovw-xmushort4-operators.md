@@ -2,7 +2,7 @@
 Description: The XMUSHORT4 structure exposes the following operators.
 ms.assetid: 428448bc-4bbf-420d-a41c-c38112bd26cc
 title: XMUSHORT4 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ The [**XMUSHORT4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvec
 
 | Methods                                                | Description                                                                                                            |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee420711(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUSHORT4` to the current instance of `XMUSHORT4`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Ee420711(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUSHORT4` to the current instance of `XMUSHORT4`. <br/> |
 
 
 

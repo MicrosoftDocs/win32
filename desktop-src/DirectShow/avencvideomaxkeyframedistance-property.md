@@ -1,8 +1,8 @@
 ---
 Description: Specifies the maximum number of frames between key frames.
 ms.assetid: 5a1968e0-4c83-4733-8ea4-18f5eda52860
-title: AVEncVideoMaxKeyframeDistance property
-ms.topic: article
+title: AVEncVideoMaxKeyframeDistance property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

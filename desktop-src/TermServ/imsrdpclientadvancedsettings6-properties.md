@@ -3,7 +3,7 @@ title: IMsRdpClientAdvancedSettings6 Properties
 description: The IMsRdpClientAdvancedSettings6 interface exposes the following properties.
 ms.assetid: 240FA6D2-811C-4FF0-B089-21DAE0BB63B0
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

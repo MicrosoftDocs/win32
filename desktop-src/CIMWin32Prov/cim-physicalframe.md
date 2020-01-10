@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalFrame class is a parent class of rack, chassis, an
 ms.assetid: 571c8ca2-1644-4060-8d89-d9625a591f86
 ms.tgt_platform: multiple
 title: CIM_PhysicalFrame class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

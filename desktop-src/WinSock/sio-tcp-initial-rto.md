@@ -2,9 +2,7 @@
 Description: Control code configures initial retransmission timeout (RTO) parameters on a socket.
 ms.assetid: F5ABAE57-E0F0-4AEB-825C-B53AEE8210E7
 title: SIO_TCP_INITIAL_RTO Control Code
-author: TimShererWithAquent
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/20/2019
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]

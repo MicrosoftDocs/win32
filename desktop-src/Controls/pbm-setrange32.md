@@ -1,5 +1,5 @@
 ---
-title: PBM_SETRANGE32 message
+title: PBM_SETRANGE32 message (Commctrl.h)
 description: Sets the minimum and maximum values for a progress bar to 32-bit values, and redraws the bar to reflect the new range.
 ms.assetid: 7958ea14-17b4-4c0e-97ec-b09fa0d36e8b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

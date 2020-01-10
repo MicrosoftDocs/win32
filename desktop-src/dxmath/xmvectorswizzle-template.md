@@ -1,8 +1,8 @@
 ---
 Description: Swizzles a vector.
 ms.assetid: 75608e80-5911-45a8-beca-ceac1f4d2c1c
-title: XMVectorSwizzle template
-ms.topic: article
+title: XMVectorSwizzle template (DirectXMath.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ Returns the swizzled [**XMVECTOR**](xmvector-data-type.md).
 
 ## Remarks
 
-This function is a template version of [**XMVectorSwizzle**](https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx) where the *Swizzle\** arguments are template values.
+This function is a template version of [**XMVectorSwizzle**](https://msdn.microsoft.com/library/Hh404826(v=VS.85).aspx) where the *Swizzle\** arguments are template values.
 
 `XM_SWIZZLE_X`, `XM_SWIZZLE_Y`, `XM_SWIZZLE_Z`, and `XM_SWIZZLE_W` are constants which evaluate to 0, 1, 2, and 3 respectively for use with `XMVectorSwizzle`. This is identical to `XM_PERMUTE_0X`, `XM_PERMUTE_0Y`, `XM_PERMUTE_0Z`, and `XM_PERMUTE_0W`.
 

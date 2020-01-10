@@ -1,8 +1,8 @@
 ---
 Description: Renders primitives and returns the updated render state.
 ms.assetid: ef28ee62-a7ad-406c-a892-ffee14123d16
-title: NtGdiD3DDrawPrimitives2 function
-ms.topic: article
+title: NtGdiD3DDrawPrimitives2 function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,21 +45,21 @@ DWORD APIENTRY NtGdiD3DDrawPrimitives2(
 *hCmdBuf* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that identifies the DirectDraw surface containing the command data.
+Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that identifies the DirectDraw surface containing the command data.
 
 </dd> <dt>
 
 *hVBuf* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that identifies the DirectDraw surface containing the vertex data.
+Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that identifies the DirectDraw surface containing the vertex data.
 
 </dd> <dt>
 
 *pded* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_DRAWPRIMITIVES2DATA**](https://msdn.microsoft.com/en-us/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to render one or more primitives.
+Pointer to a [**D3DNTHAL\_DRAWPRIMITIVES2DATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to render one or more primitives.
 
 </dd> <dt>
 

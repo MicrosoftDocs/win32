@@ -1,7 +1,7 @@
 ---
-title: S
+title: S (Text Services Framework)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 0fde1909-895d-425a-81ae-a6e17f354b3f
 ms.topic: article
 ms.date: 05/31/2018

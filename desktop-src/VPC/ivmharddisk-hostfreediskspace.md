@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk HostFreeDiskSpace property
+title: IVMHardDisk HostFreeDiskSpace property (VPCCOMInterfaces.h)
 description: Retrieves the amount of remaining disk space available on the host for the virtual hard disk.
 ms.assetid: 08574bd3-e96d-465c-a1fc-265085fb3847
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

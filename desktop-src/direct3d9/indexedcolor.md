@@ -2,7 +2,7 @@
 Description: Consists of an index parameter and an RGBA color and is used for defining mesh vertex colors. The index defines the vertex to which the color is applied.
 ms.assetid: 63909c54-c2de-4065-9882-58fca2b4e893
 title: IndexedColor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

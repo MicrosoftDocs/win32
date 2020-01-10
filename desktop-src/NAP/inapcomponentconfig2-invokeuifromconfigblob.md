@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig2 InvokeUIFromConfigBlob method
+title: INapComponentConfig2 InvokeUIFromConfigBlob method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) as needed to load the configuration of a remote or local machine in memory and display a UI that allows manipulation of the configuration data.
 ms.assetid: 9c012690-6751-4a47-8683-74abac610c77
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

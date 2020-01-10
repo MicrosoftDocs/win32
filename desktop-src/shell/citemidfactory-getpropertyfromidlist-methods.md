@@ -1,7 +1,7 @@
 ---
 Description: Returns a property from the IPropertyStore within the IDList.
 ms.assetid: D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D
-title: CItemIDFactory::GetPropertyFromIDList methods
+title: CItemIDFactory::GetPropertyFromIDList methods (Shidfact.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---
@@ -16,10 +16,10 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore) with
 
 | Method                                                                        | Description                                                                                                                                   |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/en-us/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList as a variant, using the key.<br/>            |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/en-us/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList as a variant, using the named property.<br/> |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/en-us/library/Hh289342(v=VS.85).aspx)  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList, using the key.<br/>                         |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/en-us/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList, using the named property.<br/>              |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList as a variant, using the key.<br/>            |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList as a variant, using the named property.<br/> |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289342(v=VS.85).aspx)  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList, using the key.<br/>                         |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList, using the named property.<br/>              |
 
 
 
@@ -39,7 +39,7 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore) with
 
 <dl> <dt>
 
-[**CItemIDFactory**](https://msdn.microsoft.com/en-us/library/Hh289338(v=VS.85).aspx)
+[**CItemIDFactory**](https://msdn.microsoft.com/library/Hh289338(v=VS.85).aspx)
 </dt> </dl>
 
  

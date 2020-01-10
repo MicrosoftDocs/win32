@@ -1,5 +1,5 @@
 ---
-title: ICM_COMPRESS_GET_FORMAT message
+title: ICM_COMPRESS_GET_FORMAT message (Vfw.h)
 description: The ICM\_COMPRESS\_GET\_FORMAT message requests the output format of the compressed data from a video compression driver. You can send this message explicitly or by using the ICCompressGetFormat macro.
 ms.assetid: ac12d415-bad5-4838-b206-09c8097d3fd9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

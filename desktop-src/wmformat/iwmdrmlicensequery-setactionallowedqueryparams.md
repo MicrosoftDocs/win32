@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseQuery SetActionAllowedQueryParams method
+title: IWMDRMLicenseQuery SetActionAllowedQueryParams method (Wmdrmsdk.h)
 description: The SetActionAllowedQueryParams method sets environment-specific information for more accurate query results when using the QueryActionAllowed method.
 ms.assetid: 1c8f9d4e-999d-4d7c-87fd-9d30e432350c
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd CreateSoftKeyboardLayoutFromResource method
+title: ISoftKbd CreateSoftKeyboardLayoutFromResource method (Softkbdc.h)
 description: The ISoftKbd CreateSoftKeybboardLayoutFromResource method creates a soft keyboard layout from the specified resource.
 ms.assetid: c1b2f8bd-8065-426d-9c23-67fa46a33dc8
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

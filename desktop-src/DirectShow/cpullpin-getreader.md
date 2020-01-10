@@ -1,8 +1,8 @@
 ---
 Description: The GetReader method returns a pointer to the output pin's IAsyncReader interface.
 ms.assetid: bb7ed3f2-a5bc-496c-8a52-f9915a75105e
-title: CPullPin.GetReader method
-ms.topic: article
+title: CPullPin.GetReader method (Pullpin.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Generates implementation declarations for subscribe/unsubscribe proxy functions for port type notification operations.
 ms.assetid: 0e5b2232-c9bf-4741-921d-bb3bce4ee293
 title: subscriptionFunctionDeclarations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

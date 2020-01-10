@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,8 +24,8 @@ Gets the property name that corresponds to the given index.
 
 | Method                                                                            | Description                                                                                         |
 |:----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**GetPropertyName(U, PWSTR, UINT32)**](https://msdn.microsoft.com/en-us/library/JJ151732(v=VS.85).aspx)     | Gets the property name that corresponds to the given index. This is a template overload.<br/> |
-| [**GetPropertyName(UINT32, PWSTR, UINT32)**](https://msdn.microsoft.com/en-us/library/Hh446864(v=VS.85).aspx) | Gets the property name that corresponds to the given index.<br/>                              |
+| [**GetPropertyName(U, PWSTR, UINT32)**](https://msdn.microsoft.com/library/JJ151732(v=VS.85).aspx)     | Gets the property name that corresponds to the given index. This is a template overload.<br/> |
+| [**GetPropertyName(UINT32, PWSTR, UINT32)**](https://msdn.microsoft.com/library/Hh446864(v=VS.85).aspx) | Gets the property name that corresponds to the given index.<br/>                              |
 
 
 
@@ -33,7 +33,7 @@ Gets the property name that corresponds to the given index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

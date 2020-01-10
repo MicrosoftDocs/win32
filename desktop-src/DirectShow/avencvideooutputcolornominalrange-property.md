@@ -1,8 +1,8 @@
 ---
 Description: Specifies the nominal range for the encoded video.
 ms.assetid: 815d4bf5-3f11-4d45-8f92-b01e12d7dcc3
-title: AVEncVideoOutputColorNominalRange property
-ms.topic: article
+title: AVEncVideoOutputColorNominalRange property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

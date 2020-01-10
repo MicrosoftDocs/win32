@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: b476e0c9-1432-4644-8002-154797a2a594
 title: IXml2Dex::CreateGraphFromFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

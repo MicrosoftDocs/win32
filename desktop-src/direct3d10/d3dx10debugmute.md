@@ -1,8 +1,8 @@
 ---
 Description: Enable or disable debug messages.
 ms.assetid: 5c2aa3cf-ee6a-40fd-b300-67cb6ce691b6
-title: D3DX10DebugMute function
-ms.topic: article
+title: D3DX10DebugMute function (D3DX10Core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT D3DX10DebugMute(
 *Mute* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Set to **TRUE** to enable debug messages; set to **FALSE** to disable debug messages.
 
@@ -46,7 +46,7 @@ Set to **TRUE** to enable debug messages; set to **FALSE** to disable debug mess
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

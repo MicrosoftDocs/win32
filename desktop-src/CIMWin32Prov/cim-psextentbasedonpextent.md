@@ -3,7 +3,7 @@ Description: The CIM\_PSExtentBasedOnPExtent class associates protected space ex
 ms.assetid: 4b89319c-022c-4ff4-91ec-70c435a5888a
 ms.tgt_platform: multiple
 title: CIM_PSExtentBasedOnPExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

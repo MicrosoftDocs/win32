@@ -1,8 +1,8 @@
 ---
 Description: Computes a quaternion's axis and angle of rotation.
 ms.assetid: 6efd0a68-7641-403e-8ae2-c715b705b36e
-title: D3DXQuaternionToAxisAngle function
-ms.topic: article
+title: D3DXQuaternionToAxisAngle function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ This function returns a pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure
 *pAngle* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 This function returns a pointer to a FLOAT value that identifies the quaternion's angle of rotation in radians.
 

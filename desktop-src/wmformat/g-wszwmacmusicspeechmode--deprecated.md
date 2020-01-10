@@ -1,5 +1,5 @@
 ---
-title: g_wszWMACMusicSpeechMode
+title: g_wszWMACMusicSpeechMode (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 7cd57741-ee32-47ce-a390-b6663b5e158b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

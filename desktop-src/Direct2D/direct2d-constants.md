@@ -15,7 +15,7 @@ api_location:
 - d2d1effects_2.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 09/19/2019
 ---
 

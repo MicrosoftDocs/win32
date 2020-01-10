@@ -1,5 +1,5 @@
 ---
-title: MMIOM_WRITE message
+title: MMIOM_WRITE message (Mmsystem.h)
 description: The MMIOM\_WRITE message is sent to an I/O procedure by the mmioWrite function to request that data be written to an open file.
 ms.assetid: 46e2dd9a-c4a7-4c99-86e4-a67b424411d1
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MMIOM\_WRITE message
 
-The **MMIOM\_WRITE** message is sent to an I/O procedure by the [**mmioWrite**](https://msdn.microsoft.com/en-us/library/Dd757341(v=VS.85).aspx) function to request that data be written to an open file.
+The **MMIOM\_WRITE** message is sent to an I/O procedure by the [**mmioWrite**](https://msdn.microsoft.com/library/Dd757341(v=VS.85).aspx) function to request that data be written to an open file.
 
 
 ```C++
@@ -53,7 +53,7 @@ Returns the number of bytes actually written to the file. If there is an error, 
 
 ## Remarks
 
-The I/O procedure is responsible for updating the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure to reflect the new file position after the write operation.
+The I/O procedure is responsible for updating the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure to reflect the new file position after the write operation.
 
 ## Requirements
 

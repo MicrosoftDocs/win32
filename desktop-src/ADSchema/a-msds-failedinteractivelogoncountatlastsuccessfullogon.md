@@ -12,7 +12,7 @@ api_name:
 - ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

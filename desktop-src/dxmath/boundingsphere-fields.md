@@ -2,7 +2,7 @@
 Description: BoundingSphere Fields
 ms.assetid: 6691c022-0729-497b-8299-b355e09bdd9e
 title: BoundingSphere Fields
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingSphere](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
+[BoundingSphere](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

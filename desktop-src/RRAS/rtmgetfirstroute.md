@@ -1,5 +1,5 @@
 ---
-title: RtmGetFirstRoute function
+title: RtmGetFirstRoute function (Rtm.h)
 description: The RtmGetFirstRoute function returns the first route from the specified subset of routes in the table.
 ms.assetid: f2071b50-4b06-432f-8dbf-45696f8a5cb1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 Description: The Add method of the SWbemPrivilegeSet object adds an SWbemPrivilege object to the SWbemPrivilegeSet collection. If a privilege with the same name already exists in the collection, it is replaced.
 ms.assetid: 7d44193f-60e1-4e83-8640-31d8df509d98
 ms.tgt_platform: multiple
-title: SWbemPrivilegeSet.Add method
-ms.topic: article
+title: SWbemPrivilegeSet.Add method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

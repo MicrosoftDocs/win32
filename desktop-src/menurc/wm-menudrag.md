@@ -1,5 +1,5 @@
 ---
-title: WM_MENUDRAG message
+title: WM_MENUDRAG message (Winuser.h)
 description: Sent to the owner of a drag-and-drop menu when the user drags a menu item.
 ms.assetid: 99e8f490-ef1e-4964-a3a1-47030a88f10c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -62,7 +62,7 @@ The application should return one of the following values.
 
 ## Remarks
 
-The application can call the [**DoDragDrop**](https://msdn.microsoft.com/en-us/library/ms678486(v=VS.85).aspx) function in response to this message.
+The application can call the [**DoDragDrop**](https://msdn.microsoft.com/library/ms678486(v=VS.85).aspx) function in response to this message.
 
 To create a drag-and-drop menu, call [**SetMenuInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuinfo) with **MNS\_DRAGDROP**.
 

@@ -3,7 +3,7 @@ Description: The Win32\_BootConfiguration WMI class represents the boot configur
 ms.assetid: c2db28dd-3feb-44bb-a532-c91cab980ba3
 ms.tgt_platform: multiple
 title: Win32_BootConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

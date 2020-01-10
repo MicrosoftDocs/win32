@@ -1,5 +1,5 @@
 ---
-title: ID2D1DeviceContext2 CreateInkStyle methods
+title: ID2D1DeviceContext2 CreateInkStyle methods (D2d1\_3.h)
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
 ms.assetid: 647cf483-c650-4a6a-a1cd-272f3af0e6b6
 keywords:
@@ -11,12 +11,12 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1DeviceContext2::CreateInkStyle methods
 
-Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/en-us/library/Dn900427(v=VS.85).aspx) object, for use with ink rendering methods such as [**DrawInk**](https://msdn.microsoft.com/en-us/library/Dn900379(v=VS.85).aspx).
+Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/library/Dn900427(v=VS.85).aspx) object, for use with ink rendering methods such as [**DrawInk**](https://msdn.microsoft.com/library/Dn900379(v=VS.85).aspx).
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/en-us/library/Dn900
 
 | Method                                                                                                             | Description                                                                                                                                                        |
 |:-------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateInkStyle (D2D1\_INK\_STYLE\_PROPERTIES&, ID2D1InkStyle \*\*)**](https://msdn.microsoft.com/en-us/library/Dn900369(v=VS.85).aspx)   | Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/en-us/library/Dn900427(v=VS.85).aspx) object, for use with ink rendering methods such as [**DrawInk**](https://msdn.microsoft.com/en-us/library/Dn900379(v=VS.85).aspx).<br/> |
-| [**CreateInkStyle (D2D1\_INK\_STYLE\_PROPERTIES\*, ID2D1InkStyle \*\*)**](https://msdn.microsoft.com/en-us/library/Dn900370(v=VS.85).aspx) | Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/en-us/library/Dn900427(v=VS.85).aspx) object, for use with ink rendering methods such as [**DrawInk**](https://msdn.microsoft.com/en-us/library/Dn900379(v=VS.85).aspx).<br/> |
+| [**CreateInkStyle (D2D1\_INK\_STYLE\_PROPERTIES&, ID2D1InkStyle \*\*)**](https://msdn.microsoft.com/library/Dn900369(v=VS.85).aspx)   | Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/library/Dn900427(v=VS.85).aspx) object, for use with ink rendering methods such as [**DrawInk**](https://msdn.microsoft.com/library/Dn900379(v=VS.85).aspx).<br/> |
+| [**CreateInkStyle (D2D1\_INK\_STYLE\_PROPERTIES\*, ID2D1InkStyle \*\*)**](https://msdn.microsoft.com/library/Dn900370(v=VS.85).aspx) | Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/library/Dn900427(v=VS.85).aspx) object, for use with ink rendering methods such as [**DrawInk**](https://msdn.microsoft.com/library/Dn900379(v=VS.85).aspx).<br/> |
 
 
 
@@ -43,7 +43,7 @@ Creates a new [**ID2D1InkStyle**](https://msdn.microsoft.com/en-us/library/Dn900
 
 <dl> <dt>
 
-[**ID2D1DeviceContext2**](https://msdn.microsoft.com/en-us/library/Dn890789(v=VS.85).aspx)
+[**ID2D1DeviceContext2**](https://msdn.microsoft.com/library/Dn890789(v=VS.85).aspx)
 </dt> </dl>
 
 �

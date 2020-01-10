@@ -1,8 +1,8 @@
 ---
 Description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
 ms.assetid: 67399237-38e2-4905-a97c-10ca72c7799b
-title: IInkAnalyzer::GetInkAnalysisRecognizersByPriority method
-ms.topic: article
+title: IInkAnalyzer::GetInkAnalysisRecognizersByPriority method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

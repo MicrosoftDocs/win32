@@ -3,7 +3,7 @@ Description: The CIM\_SerialInterface class represents a CIM\_ControlledBy relat
 ms.assetid: bebc304a-c2b7-41c7-b24a-8f450ee3c4bb
 ms.tgt_platform: multiple
 title: CIM_SerialInterface class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

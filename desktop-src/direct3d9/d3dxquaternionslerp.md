@@ -1,8 +1,8 @@
 ---
 Description: Interpolates between two quaternions, using spherical linear interpolation.
 ms.assetid: 94a989c8-fa6b-4852-9aa3-e55ad814ffd7
-title: D3DXQuaternionSlerp function
-ms.topic: article
+title: D3DXQuaternionSlerp function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -68,7 +68,7 @@ Pointer to a source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Parameter that indicates how far to interpolate between the quaternions.
 

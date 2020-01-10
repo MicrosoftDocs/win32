@@ -1,8 +1,8 @@
 ---
 Description: Displays a dialog box that enables the user to select a hardware device for image acquisition.
 ms.assetid: cd020dc6-fddf-4d7f-aa57-eae94953ef4e
-title: IWiaDevMgr2::SelectDeviceDlg method
-ms.topic: article
+title: IWiaDevMgr2::SelectDeviceDlg method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -129,7 +129,7 @@ This method creates and displays the **Select Device** dialog box so the user ca
 
 The application can restrict the devices displayed to the user to particular types by specifying the device types through the *lDeviceType* parameter. If only one device meets the specification, **IWiaDevMgr2::SelectDeviceDlg** does not display the **Select Device** dialog box. Instead it creates the [**IWiaItem2**](-wia-iwiaitem2.md) tree for the device and store a pointer to the **IWiaItem2** interface of the root item in the parameter *ppItemRoot*. You can override this behavior and force **IWiaDevMgr2::SelectDeviceDlg** to display the dialog box by specifying WIA\_SELECT\_DEVICE\_NODEFAULT as the value for the *lFlags* parameter. If more than one WIA 2.0 device matches the specification, all matching devices are displayed in the **Select Device** dialog box so the user may choose one.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppItemRoot* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppItemRoot* parameter.
 
 > [!Note]  
 > It is recommended that applications make device and image selection available through a menu item named **From scanner** on the **File** menu.

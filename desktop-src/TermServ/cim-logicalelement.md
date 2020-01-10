@@ -1,5 +1,5 @@
 ---
-title: CIM_LogicalElement class
+title: CIM_LogicalElement class (Remote Desktop Services)
 description: The base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 ms.assetid: 21e4a2ba-7bc5-4e33-a888-198299137da6
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

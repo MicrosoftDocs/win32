@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder generates picture extension headers. This property applies to MPEG video encoders.
 ms.assetid: fea39283-53b1-4af1-b048-18fad6d56ec7
-title: AVEncMPVGenerateHeaderPicExt property
-ms.topic: article
+title: AVEncMPVGenerateHeaderPicExt property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

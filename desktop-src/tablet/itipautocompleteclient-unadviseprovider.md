@@ -1,8 +1,8 @@
 ---
 Description: Unregisters the associated provider.
 ms.assetid: b5edc33d-dfd0-4350-b8cd-eaa30b726771
-title: ITipAutocompleteClient::UnadviseProvider method
-ms.topic: article
+title: ITipAutocompleteClient::UnadviseProvider method (TipAutoComplete.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

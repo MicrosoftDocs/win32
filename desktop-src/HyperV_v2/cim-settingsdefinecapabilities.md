@@ -2,7 +2,7 @@
 Description: Represents an association between properties of a CIM\_SettingData instance and a CIM\_Capabilities instance.
 ms.assetid: f3364779-baeb-4b84-a0e6-b2a60d1661bd
 title: CIM_SettingsDefineCapabilities class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

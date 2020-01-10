@@ -1,5 +1,5 @@
 ---
-title: WINBIO_CREDENTIAL_FORMAT enumeration
+title: WINBIO_CREDENTIAL_FORMAT enumeration (Winbio\_types.h)
 description: Defines flags that can be used to specify the end-user credential format.
 ms.assetid: f107e000-98a2-44f0-aa5e-d13b5d9c8d43
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

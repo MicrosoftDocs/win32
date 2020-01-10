@@ -1,8 +1,8 @@
 ---
 Description: Returns the number of output identifiers associated with a specified cryptographic session and Direct3D device.
 ms.assetid: a5b17250-6a40-40a9-93b6-3b98b56b09d6
-title: D3DAUTHENTICATEDQUERY_OUTPUTIDCOUNT
-ms.topic: article
+title: D3DAUTHENTICATEDQUERY_OUTPUTIDCOUNT (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

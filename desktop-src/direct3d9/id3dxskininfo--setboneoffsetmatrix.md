@@ -1,8 +1,8 @@
 ---
 Description: Sets the bone offset matrix.
 ms.assetid: f8ac1117-510d-42af-a6bf-422cbaaf6b74
-title: ID3DXSkinInfo::SetBoneOffsetMatrix method
-ms.topic: article
+title: ID3DXSkinInfo::SetBoneOffsetMatrix method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetBoneOffsetMatrix(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Bone number.
 
@@ -56,7 +56,7 @@ Pointer to the bone offset matrix.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

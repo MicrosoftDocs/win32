@@ -12,14 +12,14 @@ api_name:
 - GetMuteOperation.GetResults
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # GetMuteOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/en-us/library/Hh828930(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx).
 
 ## Syntax
 

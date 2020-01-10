@@ -1,8 +1,8 @@
 ---
 Description: The DoBufferProcessingLoop method generates media data and delivers it to the downstream input pin.
 ms.assetid: a8dce761-eed6-402d-9115-e21822d7a853
-title: CSourceStream.DoBufferProcessingLoop method
-ms.topic: article
+title: CSourceStream.DoBufferProcessingLoop method (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Contains a network key or passphrase.
 ms.assetid: d2ed407e-5eaa-477b-8c4d-a47795048e0b
 title: keyMaterial (sharedKey) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Key material returned by [**WlanGetProfile**](/windows/desktop/api/wlanapi/nf-wl
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The key material is never encrypted.
 
-If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling [**CryptUnprotectData**](https://msdn.microsoft.com/en-us/library/Aa380882(v=VS.85).aspx).
+If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx).
 
 ## Examples
 

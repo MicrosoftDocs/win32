@@ -1,5 +1,5 @@
 ---
-title: Constant Integer Register
+title: Constant integer register (HLSL PS reference)
 description: Constant integer registers are used only by loop - ps and rep - ps.
 ms.assetid: 85720ec0-b6aa-4a24-910c-3ad0468300dc
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Constant Integer Register
+# Constant integer register (HLSL PS reference)
 
 Constant integer registers are used only by [loop - ps](loop---ps.md) and [rep - ps](rep---ps.md).
 

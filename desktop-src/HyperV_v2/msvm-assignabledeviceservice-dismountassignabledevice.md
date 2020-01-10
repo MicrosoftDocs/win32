@@ -2,7 +2,7 @@
 Description: Dismounts the specified PCI device so that it can be assigned.
 ms.assetid: 8ea3bc27-93ba-4db8-a4aa-cdfea225eaa9
 title: DismountAssignableDevice method of the Msvm_AssignableDeviceService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

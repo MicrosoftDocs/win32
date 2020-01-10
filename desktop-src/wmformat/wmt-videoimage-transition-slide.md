@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_SLIDE
+title: WMT_VIDEOIMAGE_TRANSITION_SLIDE (Wmsdkidl.h)
 description: The slide transition reveals the new image by sliding the old image out of the frame.
 ms.assetid: 925bcf92-5608-48ca-9bdc-dd08bcd8b8d5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

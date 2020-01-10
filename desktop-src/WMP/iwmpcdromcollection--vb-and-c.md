@@ -1,5 +1,5 @@
 ---
-title: IWMPCdromCollection (VB and C ) interface
+title: IWMPCdromCollection (VB and C ) interface (Wmp.h)
 description: Provides a way to organize and access a collection of CD or DVD drives.The IWMPCdromCollection interface exposes the following property.
 ms.assetid: 60874603-d9c8-4ed1-a92a-bd069bd0c253
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

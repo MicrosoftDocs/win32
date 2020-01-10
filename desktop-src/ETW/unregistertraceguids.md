@@ -1,8 +1,8 @@
 ---
 Description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
-title: UnregisterTraceGuids function
-ms.topic: article
+title: UnregisterTraceGuids function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Handle to the event trace provider, obtained from an earlier call to the [**Regi
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

@@ -2,7 +2,7 @@
 Description: Converts a string to a GUID.
 ms.assetid: 109b99e6-7409-44e0-932c-658be66651f4
 title: GUIDFromString function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ api_location:
 
 # GUIDFromString function
 
-\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/en-us/library/ms680589(v=VS.85).aspx) or [**IIDFromString**](https://msdn.microsoft.com/en-us/library/ms687262(v=VS.85).aspx) in place of this function.\]
+\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/library/ms680589(v=VS.85).aspx) or [**IIDFromString**](https://msdn.microsoft.com/library/ms687262(v=VS.85).aspx) in place of this function.\]
 
 Converts a string to a GUID.
 

@@ -2,7 +2,7 @@
 Description: Translates a user-provided passphrase input into a 20-byte owner authorization that can be used to interact with the TPM. Methods such as TakeOwnership and ResetAuthLockOut require the resulting owner authorization value.
 ms.assetid: 69eed934-1668-495a-b5b7-cd4a87df1ab3
 title: ConvertToOwnerAuth method of the Win32_Tpm class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -83,7 +83,7 @@ For example, to convert the TPM owner passphrase "1Sample" to a TPM owner author
 
 To convert a zero-length passphrase to an owner authorization value, the SHA-1 hash is taken of the **NULL** byte stream.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

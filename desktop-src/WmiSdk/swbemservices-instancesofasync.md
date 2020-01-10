@@ -2,8 +2,8 @@
 Description: Retrieves instances of a specified class according to user-specified criteria.
 ms.assetid: 631cd749-9a39-4606-9a38-0b4bb5b4b2cd
 ms.tgt_platform: multiple
-title: SWbemServices.InstancesOfAsync method
-ms.topic: article
+title: SWbemServices.InstancesOfAsync method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Represents a forwarding service for network traffic. The service processes packets received protocol endpoints by discarding them, or sending the packets to other protocol endpoints.
 ms.assetid: 366ae2bf-a436-4ad2-b212-39958a7fbc43
 title: CIM_ForwardingService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

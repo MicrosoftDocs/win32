@@ -1,8 +1,8 @@
 ---
 Description: Defines the supported culling modes.
 ms.assetid: b669307c-0d40-4ecb-8a2e-8bd1d9c65647
-title: D3DCULL enumeration
-ms.topic: enumeration
+title: D3DCULL enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -89,7 +89,7 @@ The values in this enumerated type are used by the D3DRS\_CULLMODE render state.
 [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
 </dt> </dl>
 
  

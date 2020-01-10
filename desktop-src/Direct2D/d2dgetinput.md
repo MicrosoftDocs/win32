@@ -1,5 +1,5 @@
 ---
-title: D2DGetInput function
+title: D2DGetInput function (D2d1effecthelpers.h)
 description: Returns the color of input N at the input coordinate. Only available for simple inputs.
 ms.assetid: 74B6F814-53C7-4C8C-B45C-3CB23B9D8BED
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

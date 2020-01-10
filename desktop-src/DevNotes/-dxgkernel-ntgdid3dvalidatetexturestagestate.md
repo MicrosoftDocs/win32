@@ -1,8 +1,8 @@
 ---
 Description: Returns the number of passes where the hardware can perform the blending operations specified in the current state.
 ms.assetid: 355dae78-cd65-4fc9-8f08-8e5ae123064b
-title: NtGdiD3DValidateTextureStageState function
-ms.topic: article
+title: NtGdiD3DValidateTextureStageState function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DValidateTextureStageState(
 *pData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsoft.com/en-us/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
+Pointer to a [**D3DNTHAL\_VALIDATETEXTURESTAGESTATEDATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 
 </dd> </dl>
 

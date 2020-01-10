@@ -1,8 +1,8 @@
 ---
 Description: The SendAnyway method delivers any pending samples.
 ms.assetid: b4e3a0c6-0f72-4a00-963e-65ceed265f01
-title: COutputQueue.SendAnyway method
-ms.topic: article
+title: COutputQueue.SendAnyway method (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

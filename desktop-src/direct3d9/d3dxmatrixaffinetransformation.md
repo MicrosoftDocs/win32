@@ -1,8 +1,8 @@
 ---
 Description: Builds a 3D affine transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 54eac78f-57be-4a24-8dfb-0b519e97d6ca
-title: D3DXMatrixAffineTransformation function
-ms.topic: article
+title: D3DXMatrixAffineTransformation function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor.
 

@@ -1,8 +1,8 @@
 ---
 Description: Sets the supported controls for a video encoder.
 ms.assetid: 42FD987A-7D6C-4434-BD48-3CC289F2748D
-title: CODECAPI_AVEncVideoSupportedControls property
-ms.topic: article
+title: CODECAPI_AVEncVideoSupportedControls property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

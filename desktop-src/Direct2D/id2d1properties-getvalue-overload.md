@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,11 +24,11 @@ Gets the value of the property by index.
 
 | Method                                                                                      | Description                                                                                |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
-| [**GetValue(U)**](https://msdn.microsoft.com/en-us/library/JJ151743(v=VS.85).aspx)                                            | Gets the value of the property by index. This is a template overload.<br/>           |
-| [**GetValue(U, T\*)**](https://msdn.microsoft.com/en-us/library/JJ151742(v=VS.85).aspx)                                       | Gets the value of the property by index. This is a template overload.<br/>           |
-| [**GetValue(U, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/JJ151741(v=VS.85).aspx)                            | Gets the value of the specified property by index. This is a template overload.<br/> |
-| [**GetValue(UINT32, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/Hh446876(v=VS.85).aspx)                        | Gets the value of the specified property by index.<br/>                              |
-| [**GetValue(UINT32, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/JJ151740(v=VS.85).aspx) | Gets the value of the specified property by index.<br/>                              |
+| [**GetValue(U)**](https://msdn.microsoft.com/library/JJ151743(v=VS.85).aspx)                                            | Gets the value of the property by index. This is a template overload.<br/>           |
+| [**GetValue(U, T\*)**](https://msdn.microsoft.com/library/JJ151742(v=VS.85).aspx)                                       | Gets the value of the property by index. This is a template overload.<br/>           |
+| [**GetValue(U, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151741(v=VS.85).aspx)                            | Gets the value of the specified property by index. This is a template overload.<br/> |
+| [**GetValue(UINT32, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/Hh446876(v=VS.85).aspx)                        | Gets the value of the specified property by index.<br/>                              |
+| [**GetValue(UINT32, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151740(v=VS.85).aspx) | Gets the value of the specified property by index.<br/>                              |
 
 
 
@@ -36,7 +36,7 @@ Gets the value of the property by index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

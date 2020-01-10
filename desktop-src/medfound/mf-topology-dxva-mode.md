@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.
 ms.assetid: 03783ef3-f957-41e3-9734-94cb34ecc088
-title: MF_TOPOLOGY_DXVA_MODE attribute
-ms.topic: article
+title: MF_TOPOLOGY_DXVA_MODE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

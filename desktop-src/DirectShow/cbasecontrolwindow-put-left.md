@@ -1,8 +1,8 @@
 ---
 Description: The put\_Left method sets the left coordinate for the window.
 ms.assetid: 4ba6b243-e7a7-4c41-a2c5-248b05b42f4f
-title: CBaseControlWindow.put_Left method
-ms.topic: article
+title: CBaseControlWindow.put_Left method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

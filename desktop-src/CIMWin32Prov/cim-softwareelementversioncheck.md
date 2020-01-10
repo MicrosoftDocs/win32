@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareElementVersionCheck class represents a type of sof
 ms.assetid: a1c0f0d5-2586-499c-bd82-bbb107570d81
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementVersionCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

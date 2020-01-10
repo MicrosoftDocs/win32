@@ -3,7 +3,7 @@ title: Personal desktop task agent API enumerations
 description: The personal desktop task agent API supports the following enumerations.
 ms.assetid: 783F7CB7-FFAF-480C-94FD-C9897FF5E38F
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

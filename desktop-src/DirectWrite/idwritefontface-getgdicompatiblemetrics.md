@@ -14,7 +14,7 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -97,7 +97,7 @@ Standard HRESULT error code.
 
 <dl> <dt>
 
-[**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx)
+[**IDWriteFontFace**](https://msdn.microsoft.com/library/Dd370983(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)

@@ -1,8 +1,8 @@
 ---
 Description: Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
-title: IShellDispatch.BrowseForFolder method
-ms.topic: article
+title: IShellDispatch.BrowseForFolder method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ The handle to the parent window of the dialog box. This value can be zero.
 *sTitle* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** value that represents the title displayed inside the **Browse** dialog box.
 

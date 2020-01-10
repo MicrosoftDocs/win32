@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo PhysicalProcessorCount property
+title: IVMHostInfo PhysicalProcessorCount property (VPCCOMInterfaces.h)
 description: Retrieves the number of physical processors in the host machine.
 ms.assetid: b8f805a6-2962-4a48-94e9-bd76220974f0
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

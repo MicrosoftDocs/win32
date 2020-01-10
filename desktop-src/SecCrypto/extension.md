@@ -1,8 +1,8 @@
 ---
 Description: Represents a single certificate extension.
 ms.assetid: 'cca3121d-0f0f-4de2-a225-6dd3910078d7'
-title: Extension object
-ms.topic: interface
+title: Extension object (Mmcobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

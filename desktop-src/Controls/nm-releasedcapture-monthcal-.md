@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (monthcal) notification code
+title: NM_RELEASEDCAPTURE (monthcal) notification code (Commctrl.h)
 description: Notifies a monthcal control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: c05d3331-26f3-41f4-8032-36ed38d47917
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The OnWaitEnd method is called when a wait time ends.
 ms.assetid: 283627bb-599c-4711-abc4-b5f92dfd29a5
-title: CBaseVideoRenderer.OnWaitEnd method
-ms.topic: article
+title: CBaseVideoRenderer.OnWaitEnd method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the VBR quality level of the most recently enumerated output type.
 ms.assetid: 7d67e41f-060b-49a1-9e17-5db081ef4210
-title: MFPKEY_MOST_RECENT_ENUMERATED_VBRQUALITY Property
-ms.topic: article
+title: MFPKEY_MOST_RECENT_ENUMERATED_VBRQUALITY Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the VBR quality level of the most recently enumerated output type. Rea
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

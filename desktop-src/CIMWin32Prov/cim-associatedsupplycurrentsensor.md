@@ -3,7 +3,7 @@ Description: The CIM\_AssociatedSupplyCurrentSensor class associates a power sup
 ms.assetid: bed4714f-ecf4-4c53-b231-c8fac673371f
 ms.tgt_platform: multiple
 title: CIM_AssociatedSupplyCurrentSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

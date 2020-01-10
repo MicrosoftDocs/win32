@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_ParallelController class requests a re
 ms.assetid: 7cdd46b5-b054-4322-bb05-dd9fd6d54f13
 ms.tgt_platform: multiple
 title: Reset method of the CIM_ParallelController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

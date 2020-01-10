@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW (tree view) notification code
+title: NM_CUSTOMDRAW (tree view) notification code (Commctrl.h)
 description: Sent by a tree-view control to notify its parent window about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: eafe2427-20eb-4f3b-9407-bece897ffe16
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

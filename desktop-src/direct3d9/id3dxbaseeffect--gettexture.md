@@ -1,8 +1,8 @@
 ---
 Description: Gets a texture.
 ms.assetid: e009ccc2-4491-4976-9460-7478b2bd34c2
-title: ID3DXBaseEffect::GetTexture method
-ms.topic: article
+title: ID3DXBaseEffect::GetTexture method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Returns a texture object. See [**IDirect3DBaseTexture9**](https://msdn.microsoft
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

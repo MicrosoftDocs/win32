@@ -2,7 +2,7 @@
 Description: Imports a previously encoded certificate from a string into the Certificate object.
 ms.assetid: 8515e034-08aa-4575-9b96-34cdee3ccba8
 title: ICertificate2::Import method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -21,7 +21,7 @@ api_location:
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://msdn.microsoft.com/library/Hh424017(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Import** method imports a previously encoded certificate from a string into the [**Certificate**](certificate.md) object. Calling this method resets the [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of this object.
+The **Import** method imports a previously encoded certificate from a string into the [**Certificate**](certificate.md) object. Calling this method resets the [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of this object.
 
 ## Syntax
 

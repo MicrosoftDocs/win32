@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 
 | Topic                                                                                        | Description |
 |----------------------------------------------------------------------------------------------|-------------|
-| [System.Task.BillingInformation](https://msdn.microsoft.com/en-us/library/Bb760130(v=VS.85).aspx)<br/> |             |
-| [System.Task.CompletionStatus](https://msdn.microsoft.com/en-us/library/Bb760132(v=VS.85).aspx)<br/>     |             |
-| [System.Task.Owner](https://msdn.microsoft.com/en-us/library/Bb760134(v=VS.85).aspx)<br/>                           |             |
+| [System.Task.BillingInformation](https://msdn.microsoft.com/library/Bb760130(v=VS.85).aspx)<br/> |             |
+| [System.Task.CompletionStatus](https://msdn.microsoft.com/library/Bb760132(v=VS.85).aspx)<br/>     |             |
+| [System.Task.Owner](https://msdn.microsoft.com/library/Bb760134(v=VS.85).aspx)<br/>                           |             |
 
 
 

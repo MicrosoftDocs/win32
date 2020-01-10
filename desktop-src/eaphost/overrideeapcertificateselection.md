@@ -2,7 +2,6 @@
 title: OverrideEAPCertificateSelection
 description: The OverrideEAPCertificateSelection registry key determines whether the client will override the default smart card certificate selection behavior and provide the user with more certificates to choose from.
 ms.assetid: 469FECA9-FF2A-46B1-9370-0FF28EF2FB33
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

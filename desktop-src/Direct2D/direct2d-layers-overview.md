@@ -30,7 +30,7 @@ This overview describes the basics of using Direct2D layers. It contains the fol
 
 ## What Are Layers?
 
-Layers, represented by [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) objects, enable an application to manipulate a group of drawing operations. You use a layer by "pushing" it onto a render target. Subsequent drawing operations by the render target are directed to the layer. After you're finished with the layer, you "pop" the layer from the render target, which composites the layer's content back to the render target.
+Layers, represented by [**ID2D1Layer**](https://msdn.microsoft.com/library/Dd371483(v=VS.85).aspx) objects, enable an application to manipulate a group of drawing operations. You use a layer by "pushing" it onto a render target. Subsequent drawing operations by the render target are directed to the layer. After you're finished with the layer, you "pop" the layer from the render target, which composites the layer's content back to the render target.
 
 Like brushes, layers are device-dependent resources created by render targets. Layers can be used on any render target in the same resource domain that contains the render target that created it. However, a layer resource can only be used by one render target at a time. For more information about resources, see the [Resources Overview](resources-and-resource-domains.md).
 
@@ -42,7 +42,7 @@ Windows 8 introduced new layer related APIs that simplify, improve the performa
 
 ### ID2D1DeviceContext and PushLayer
 
-The [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
+The [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) interface is derived from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) interface and is key to displaying Direct2D content in Windows 8, for more information about this interface see [Devices and Device Contexts](devices-and-device-contexts.md). With the device context interface, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**ID2D1DeviceContext::PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx) method. Direct2D automatically manages the layer resource and can share resources between layers and effect graphs.
 
 ### D2D1\_LAYER\_PARAMETERS1 and D2D1\_LAYER\_OPTIONS1
 
@@ -56,30 +56,30 @@ The [**D2D1\_LAYER\_PARAMETERS1**](/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_la
 
 ### Blend Modes
 
-Starting in Windows 8, the device context has a [**primitive blend mode**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) that determines how each primitive is blended with the target surface. This mode also applies to layers when you call the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method.
+Starting in Windows 8, the device context has a [**primitive blend mode**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) that determines how each primitive is blended with the target surface. This mode also applies to layers when you call the [**PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx) method.
 
 For example, if you are using a layer to clip primitives with transparency set the [**D2D1\_PRIMITIVE\_BLEND\_COPY**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) mode on the device context for proper results. The copy mode makes the device context linear interpolate all 4 color channels, including the alpha channel, of each pixel with the contents of the target surface according to the geometric mask of the layer.
 
 ### Interoperation
 
-Starting in Windows 8, Direct2D supports interoperation with Direct3D and GDI while a layer or clip is pushed. You call [**ID2D1GdiInteropRenderTarget::GetDC**](https://msdn.microsoft.com/en-us/library/Dd371323(v=VS.85).aspx) while a layer is pushed to interoperate with GDI. You call [**ID2D1DeviceContext::Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) and then render to the underlying surface to interoperate with Direct3D. It is your responsibility to render inside the layer or clip with Direct3D or GDI. If you try to render outside the layer or clip the results are undefined.
+Starting in Windows 8, Direct2D supports interoperation with Direct3D and GDI while a layer or clip is pushed. You call [**ID2D1GdiInteropRenderTarget::GetDC**](https://msdn.microsoft.com/library/Dd371323(v=VS.85).aspx) while a layer is pushed to interoperate with GDI. You call [**ID2D1DeviceContext::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) and then render to the underlying surface to interoperate with Direct3D. It is your responsibility to render inside the layer or clip with Direct3D or GDI. If you try to render outside the layer or clip the results are undefined.
 
 ## Creating Layers
 
-Working with layers requires familiarity with the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)), [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) methods, and the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure, which contains a set of parametric data that defines how the layer can be used. The following list describes the methods and structure.
+Working with layers requires familiarity with the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)), [**PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) methods, and the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure, which contains a set of parametric data that defines how the layer can be used. The following list describes the methods and structure.
 
 -   Call the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method to create a layer resource.
     > [!Note]  
-    > Starting in Windows 8, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) method on the [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface. This is simpler and allows Direct2D to automatically manage the layer resource and share resources between layers and effect graphs.
+    > Starting in Windows 8, you can skip calling the [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) method and then pass NULL to the [**PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx) method on the [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) interface. This is simpler and allows Direct2D to automatically manage the layer resource and share resources between layers and effect graphs.
 
      
 
--   After render target has begun drawing (after its [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method has been called), you can use the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Dd316869(v=VS.85).aspx) method. The **PushLayer** method adds the specified layer to the render target, so that the target receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) is called. This method takes an [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) object returned by calling [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) and an *layerParameters* in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure. The following table describes the fields of the structure. 
+-   After render target has begun drawing (after its [**BeginDraw**](https://msdn.microsoft.com/library/Dd371768(v=VS.85).aspx) method has been called), you can use the [**PushLayer**](https://msdn.microsoft.com/library/Dd316869(v=VS.85).aspx) method. The **PushLayer** method adds the specified layer to the render target, so that the target receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) is called. This method takes an [**ID2D1Layer**](https://msdn.microsoft.com/library/Dd371483(v=VS.85).aspx) object returned by calling [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) and an *layerParameters* in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure. The following table describes the fields of the structure. 
 
     | Field                 | Description                                                                                                                                                                                                                                                                 |     |
     |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
     | **contentBounds**     | The content bounds of the layer. Content outside these bounds is guaranteed not to render. This parameter defaults to [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). When the default value is used, the content bounds are effectively taken to be the bounds of the render target. |     |
-    | **geometricMask**     | (Optional) The area, defined by an [**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx), to which the layer should be clipped. Set to **NULL** if the layer shouldn't be clipped to a geometry.                                                                                           |     |
+    | **geometricMask**     | (Optional) The area, defined by an [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx), to which the layer should be clipped. Set to **NULL** if the layer shouldn't be clipped to a geometry.                                                                                           |     |
     | **maskAntialiasMode** | A value that specifies the antialiasing mode for the geometric mask specified by the **geometricMask** field.                                                                                                                                                               |     |
     | **maskTransform**     | A value that specifies the transform that is applied to the geometric mask when composing the layer. This is relative to the world transform.                                                                                                                               |     |
     | **opacity**           | The opacity value of the layer. The opacity of each resource in the layer is multiplied with this value when compositing to the target.                                                                                                                                     |     |
@@ -97,9 +97,9 @@ Working with layers requires familiarity with the [**CreateLayer**](/windows/des
 
     For convenience, Direct2D provides the [**D2D1::LayerParameters**](/windows/desktop/api/d2d1helper/nf-d2d1helper-layerparameters) method to help you create [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structures.
 
--   To composite the contents of the layer into the render target, call the [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx) method. You must call the **PopLayer** method before you call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method.
+-   To composite the contents of the layer into the render target, call the [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) method. You must call the **PopLayer** method before you call the [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) method.
 
-The following example shows how to use [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)), [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx). All fields in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure are set to their defaults, except **opacityBrush**, which is set to an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx).
+The following example shows how to use [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)), [**PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx), and [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx). All fields in the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure are set to their defaults, except **opacityBrush**, which is set to an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx).
 
 
 ```C++
@@ -148,7 +148,7 @@ SafeRelease(&pLayer);
 
 Code has been omitted from this example.
 
-Note that when you call [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx) and [**PopLayer**](https://msdn.microsoft.com/en-us/library/Dd316852(v=VS.85).aspx), ensure that each **PushLayer** has a matching **PopLayer** call. If there are more **PopLayer** calls than **PushLayer** calls, the render target is placed into an error state. If [**Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) is called before all outstanding layers are popped, the render target is placed into an error state and returns an error. To clear the error state, use [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx).
+Note that when you call [**PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx) and [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx), ensure that each **PushLayer** has a matching **PopLayer** call. If there are more **PopLayer** calls than **PushLayer** calls, the render target is placed into an error state. If [**Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) is called before all outstanding layers are popped, the render target is placed into an error state and returns an error. To clear the error state, use [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx).
 
 ## Content Bounds
 
@@ -202,9 +202,9 @@ Code has been omitted from this example.
 
 ## Geometric Masks
 
-A geometric mask is a clip or a cutout, defined by an [**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx) object, that masks a layer when it is drawn by a render target. You can use the **geometricMask** field of the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure to mask the results to a geometry. For example, if you want to display an image masked by a block letter "A", you can first create a geometry representing the block letter "A" and use that geometry as a geometric mask for a layer. Then, after pushing the layer, you can draw the image. Popping the layer results in the image being clipped to the block letter "A" shape.
+A geometric mask is a clip or a cutout, defined by an [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) object, that masks a layer when it is drawn by a render target. You can use the **geometricMask** field of the [**D2D1\_LAYER\_PARAMETERS**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) structure to mask the results to a geometry. For example, if you want to display an image masked by a block letter "A", you can first create a geometry representing the block letter "A" and use that geometry as a geometric mask for a layer. Then, after pushing the layer, you can draw the image. Popping the layer results in the image being clipped to the block letter "A" shape.
 
-The example that follows shows how to create an [**ID2D1PathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371512(v=VS.85).aspx) containing a shape of a mountain and then pass the path geometry to the [**PushLayer**](https://msdn.microsoft.com/en-us/library/Hh847983(v=VS.85).aspx). It then draws a bitmap and squares. If there is only a bitmap in the layer to render, use [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) with a clamped bitmap brush for efficiency. The following illustration shows the output from the example.
+The example that follows shows how to create an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx) containing a shape of a mountain and then pass the path geometry to the [**PushLayer**](https://msdn.microsoft.com/library/Hh847983(v=VS.85).aspx). It then draws a bitmap and squares. If there is only a bitmap in the layer to render, use [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) with a clamped bitmap brush for efficiency. The following illustration shows the output from the example.
 
 ![illustration of a picture of a leaf and the resulting picture after a geometric mask of a mountain is applied](images/layers-bitmapmask.png)
 
@@ -309,7 +309,7 @@ Code has been omitted from this example.
 
 An opacity mask is a mask, described by a brush or bitmap, that is applied to another object to make that object partially or completely transparent. It allows the use of the alpha channel of a brush to be used as a content mask. For example, you can define a radial gradient brush that varies from opaque to transparent to create a vignette effect.
 
-The example that follows uses an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/en-us/library/Dd371529(v=VS.85).aspx) (*m\_pRadialGradientBrush*) as an opacity mask. It then draws a bitmap and squares. If there is only a bitmap in the layer to render, use [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) with a clamped bitmap brush for efficiency. The following illustration shows the output from this example.
+The example that follows uses an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) (*m\_pRadialGradientBrush*) as an opacity mask. It then draws a bitmap and squares. If there is only a bitmap in the layer to render, use [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) with a clamped bitmap brush for efficiency. The following illustration shows the output from this example.
 
 ![illustration of a picture of trees and the resulting picture after an opacity mask is applied](images/layers-opacitymask.png)
 
@@ -370,7 +370,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
 Code has been omitted from this example.
 
 > [!Note]  
-> This example uses a layer to apply an opacity mask to a single object to keep the example as simple as possible. When applying an opacity mask to a single object, its more efficient to use the [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) or [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) methods, rather than a layer.
+> This example uses a layer to apply an opacity mask to a single object to keep the example as simple as possible. When applying an opacity mask to a single object, its more efficient to use the [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) or [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) methods, rather than a layer.
 
  
 
@@ -378,7 +378,7 @@ For instructions on how to apply an opacity mask without using a layer, see the 
 
 ## Alternatives to Layers
 
-As mentioned earlier, excessive number of layers can adversely affect the performance of your application. To improve performance, avoid using layers whenever possible; instead use their alternatives. The following code example shows how to use [**PushAxisAlignedClip**](https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx) and [**PopAxisAlignedClip**](https://msdn.microsoft.com/en-us/library/Dd316850(v=VS.85).aspx) to clip a region, as an alternative to using a layer with content bounds.
+As mentioned earlier, excessive number of layers can adversely affect the performance of your application. To improve performance, avoid using layers whenever possible; instead use their alternatives. The following code example shows how to use [**PushAxisAlignedClip**](https://msdn.microsoft.com/library/Dd742855(v=VS.85).aspx) and [**PopAxisAlignedClip**](https://msdn.microsoft.com/library/Dd316850(v=VS.85).aspx) to clip a region, as an alternative to using a layer with content bounds.
 
 
 ```C++
@@ -393,7 +393,7 @@ pRT->PopAxisAlignedClip();
 
 
 
-Similarly, use [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) with a clamped bitmap brush as an alternative to using a layer with an opacity mask when there is only one content in the layer to render, as shown in the following example.
+Similarly, use [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) with a clamped bitmap brush as an alternative to using a layer with an opacity mask when there is only one content in the layer to render, as shown in the following example.
 
 
 ```C++
@@ -454,7 +454,7 @@ The figure here shows the result of applying a clip to an image.
 
 ![an image that shows an example of an image before and after a clip.](images/clip.png)
 
-You can get this result by using layers with a geometry mask or the [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) method with an opacity brush.
+You can get this result by using layers with a geometry mask or the [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) method with an opacity brush.
 
 Here's an example that uses a layer:
 
@@ -469,7 +469,7 @@ m_d2dContext->PushLayer(
 
 
 
-Here's an example that uses the [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) method:
+Here's an example that uses the [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) method:
 
 
 ```C++
@@ -506,13 +506,13 @@ m_d2dContext->FillGeometry(
 In this code example, when you call the PushLayer method, you don't pass in an app created layer. Direct2D creates a layer for you. Direct2D is able to manage the allocation and destruction of this resource without any involvement from the app. This allows Direct2D to reuse layers internally and apply resource management optimizations.
 
 > [!Note]  
-> In Windows 8 many optimizations have been made to the usage of layers and we recommend you try using layer APIs instead of [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) whenever possible.
+> In Windows 8 many optimizations have been made to the usage of layers and we recommend you try using layer APIs instead of [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) whenever possible.
 
  
 
 ### Axis aligned clips
 
-If the region to be clipped is aligned to the axis of the drawing surface, instead of arbitrary. This case is suited for using a clip rectangle instead of a layer. The performance gain is more for aliased geometry than antialiased geometry. For more info on axis aligned clips, see the [**PushAxisAlignedClip**](https://msdn.microsoft.com/en-us/library/Dd316860(v=VS.85).aspx) topic.
+If the region to be clipped is aligned to the axis of the drawing surface, instead of arbitrary. This case is suited for using a clip rectangle instead of a layer. The performance gain is more for aliased geometry than antialiased geometry. For more info on axis aligned clips, see the [**PushAxisAlignedClip**](https://msdn.microsoft.com/library/Dd316860(v=VS.85).aspx) topic.
 
 ## Related topics
 

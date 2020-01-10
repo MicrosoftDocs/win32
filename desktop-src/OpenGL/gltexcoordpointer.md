@@ -1,5 +1,5 @@
 ---
-title: glTexCoordPointer function
+title: glTexCoordPointer function (Gl.h)
 description: The glTexCoordPointer function defines an array of texture coordinates.
 ms.assetid: c3640a1b-ccc7-4f1a-94a5-a164f7377dbc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

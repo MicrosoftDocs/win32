@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The MsiUnpublishAssemblies action manages the advertisement of common language runtime assemblies and Win32 assemblies that are being removed. The action queries the [MsiAssembly table](msiassembly-table.md) to determine which assemblies have advertised or installed features being removed from the global assembly cache and which assemblies have an advertised or installed parent component being removed from a location isolated for a particular application. For information see, [Installation of Assemblies to the Global Assembly Cache](installation-of-assemblies-to-the-global-assembly-cache.md) and [Installation of Win32 Assemblies](installation-of-win32-assemblies.md).
 
-On systems running Windows XP and later, Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see [About Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/en-us/library/Aa374029(v=VS.85).aspx).
+On systems running Windows XP and later, Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see [About Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Aa374029(v=VS.85).aspx).
 
 ## Sequence Restrictions
 

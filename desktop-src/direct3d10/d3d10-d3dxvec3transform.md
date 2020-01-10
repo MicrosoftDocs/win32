@@ -1,8 +1,8 @@
 ---
 Description: Transforms vector (x, y, z, 1) by a given matrix.
 ms.assetid: 88b26d94-2550-4126-bf91-b06391ec5c75
-title: D3DXVec3Transform function
-ms.topic: article
+title: D3DXVec3Transform function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ D3DXVECTOR4* D3DXVec3Transform(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) structure that is the result of the operation.
 
@@ -48,7 +48,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) structure that is the res
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXVECTOR3**](d3d10-d3dxvector3.md).
 
@@ -57,7 +57,7 @@ Pointer to the source [**D3DXVECTOR3**](d3d10-d3dxvector3.md).
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -65,7 +65,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR4 structure that is the transformed vector.
 

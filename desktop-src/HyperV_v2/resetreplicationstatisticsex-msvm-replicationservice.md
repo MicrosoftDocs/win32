@@ -2,7 +2,7 @@
 Description: Resets replication statistics that are associated with the specified replication relationship of the specified virtual machine.
 ms.assetid: 6E49A7C0-2F60-444E-964E-420470EE1538
 title: Msvm_ReplicationService::ResetReplicationStatisticsEx method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

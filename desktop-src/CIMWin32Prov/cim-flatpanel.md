@@ -3,7 +3,7 @@ Description: The CIM\_FlatPanel class represents the capabilities and management
 ms.assetid: 0c515621-4ff9-42af-a281-ac49af6d96ba
 ms.tgt_platform: multiple
 title: CIM_FlatPanel class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

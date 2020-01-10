@@ -1,5 +1,5 @@
 ---
-title: MrmPackagingOptions enumeration
+title: MrmPackagingOptions enumeration (MrmResourceIndexer.h)
 description: Defines constants that specify options for the PRI file created by MrmCreateResourceFile and MrmCreateResourceFileInMemory.
 ms.assetid: 11FADCB2-CE6F-449E-8A85-DA50B52B26D0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

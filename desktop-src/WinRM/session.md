@@ -1,5 +1,5 @@
 ---
-title: Session object
+title: Session object (WSManDisp.h)
 description: Defines operations and session settings.
 ms.assetid: b98ca759-71cb-492e-8645-8766b202eb36
 ms.tgt_platform: multiple
@@ -14,7 +14,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

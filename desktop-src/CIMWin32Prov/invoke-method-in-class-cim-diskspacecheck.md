@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_DiskSpaceCheck class evaluates a part
 ms.assetid: 1f06b0c4-3f39-4a6f-9205-2aa309fb06bb
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_DiskSpaceCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

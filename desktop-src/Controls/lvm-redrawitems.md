@@ -1,5 +1,5 @@
 ---
-title: LVM_REDRAWITEMS message
+title: LVM_REDRAWITEMS message (Commctrl.h)
 description: Forces a list-view control to redraw a range of items. You can send this message explicitly or by using the ListView\_RedrawItems macro.
 ms.assetid: a717b17f-6e0a-4804-96f9-da93392a19ec
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

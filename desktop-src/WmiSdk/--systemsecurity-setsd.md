@@ -3,7 +3,7 @@ Description: Sets the security descriptor for the namespace to which a user is c
 ms.assetid: 049f8722-1674-4c4f-9300-09b1cc1412fb
 ms.tgt_platform: multiple
 title: SetSD method of the __SystemSecurity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

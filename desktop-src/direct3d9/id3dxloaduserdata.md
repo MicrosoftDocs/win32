@@ -1,8 +1,8 @@
 ---
 Description: This interface is implemented by the application to save any additional user data embedded in .x files.
 ms.assetid: 0d656f99-c24c-4326-bc6f-c0e7874c0fb2
-title: ID3DXLoadUserData interface
-ms.topic: interface
+title: ID3DXLoadUserData interface (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ This interface is implemented by the application to save any additional user dat
 
 ## Members
 
-The **ID3DXLoadUserData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXLoadUserData** also has these types of members:
+The **ID3DXLoadUserData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXLoadUserData** also has these types of members:
 
 -   [Methods](#methods)
 

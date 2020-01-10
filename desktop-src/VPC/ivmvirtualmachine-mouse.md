@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Mouse property
+title: IVMVirtualMachine Mouse property (VPCCOMInterfaces.h)
 description: Retrieves the mouse device for the virtual machine.
 ms.assetid: 917bbcc1-615d-4fd7-87e1-62abf2ece539
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

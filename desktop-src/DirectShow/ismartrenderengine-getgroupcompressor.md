@@ -1,8 +1,8 @@
 ---
 Description: The GetGroupCompressor method retrieves the compression filter for the specified group.
 ms.assetid: 9d71e659-7abb-48c6-b9bd-5239560dc150
-title: ISmartRenderEngine::GetGroupCompressor method
-ms.topic: article
+title: ISmartRenderEngine::GetGroupCompressor method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: RTM_IPX_ROUTE structure
+title: RTM_IPX_ROUTE structure (Rtm.h)
 description: The RTM\_IPX\_ROUTE structure contains information that describes a route for the IPX protocol family.
 ms.assetid: ffa0637c-2197-4ebd-a5ef-e174dd0ccb15
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

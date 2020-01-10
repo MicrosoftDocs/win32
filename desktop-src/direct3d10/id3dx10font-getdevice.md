@@ -1,8 +1,8 @@
 ---
 Description: Retrieve the Direct3D device associated with the font object.
 ms.assetid: aad2406e-9461-4a84-9875-74b53d68ef40
-title: ID3DX10Font::GetDevice method
-ms.topic: article
+title: ID3DX10Font::GetDevice method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an ID3D10Device interface, representing the Direct3D dev
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

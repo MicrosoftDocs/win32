@@ -2,13 +2,13 @@
 Description: This section provides the reference specifications for SystemParametersInfo constants related to Configuration system attributes.
 ms.assetid: E9E2FB97-D63B-419A-AC9C-C9AC9E9B5BE0
 title: Configuration Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # Configuration Constants
 
-This section provides the reference specifications for [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) constants related to [Configuration](configuration.md) system attributes.
+This section provides the reference specifications for [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) constants related to [Configuration](configuration.md) system attributes.
 
 ## In this section
 

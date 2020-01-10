@@ -1,8 +1,8 @@
 ---
 Description: Removes all resources from the device by setting their pointers to NULL. This should be called during shutdown of your application. It helps ensure that when one is releasing all of their resources that none of them are bound to the device.
 ms.assetid: f41ce97e-5a81-43a4-a8c7-7411b43c0d61
-title: D3DX10UnsetAllDeviceObjects function
-ms.topic: article
+title: D3DX10UnsetAllDeviceObjects function (D3DX10Core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the device. See [**ID3D10Device Interface**](/windows/desktop/api/D3D
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

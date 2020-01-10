@@ -1,5 +1,5 @@
 ---
-title: INapSoHConstructor GetSoH method
+title: INapSoHConstructor GetSoH method (NapProtocol.h)
 description: Retrieves the constructed SoHRequest or SoHResponse packet.
 ms.assetid: 402c72fd-9e23-453a-8c95-57615295e056
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

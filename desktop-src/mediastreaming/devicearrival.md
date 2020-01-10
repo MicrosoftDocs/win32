@@ -10,7 +10,7 @@ api_name:
 - DeviceArrival
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -37,7 +37,7 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**DeviceControllerFinderHandler**](https://msdn.microsoft.com/en-us/library/Hh828843(v=VS.85).aspx) event handler function using the [**add\_DeviceArrival**](https://msdn.microsoft.com/en-us/library/Hh828903(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_DeviceArrival**](https://msdn.microsoft.com/en-us/library/Hh828907(v=VS.85).aspx) method.
+To handle notifications from this event, register a [**DeviceControllerFinderHandler**](https://msdn.microsoft.com/library/Hh828843(v=VS.85).aspx) event handler function using the [**add\_DeviceArrival**](https://msdn.microsoft.com/library/Hh828903(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_DeviceArrival**](https://msdn.microsoft.com/library/Hh828907(v=VS.85).aspx) method.
 
  
 

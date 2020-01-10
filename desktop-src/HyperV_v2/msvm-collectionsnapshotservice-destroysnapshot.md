@@ -2,7 +2,7 @@
 Description: Destroys an existing snapshot of virtual system collection. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.
 ms.assetid: 79a529d5-35bb-4e63-a1b7-8943de9580e8
 title: DestroySnapshot method of the Msvm_CollectionSnapshotService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

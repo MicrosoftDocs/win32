@@ -1,8 +1,8 @@
 ---
 Description: The TAPI LINE\_AGENTSTATUS message is sent when the status of an ACD agent changes on a line the application currently has open. The application can invoke lineGetAgentStatus to determine the current status of the agent.
 ms.assetid: 48f5d9bc-f20d-4364-8ec1-0b4bdc9cfcb4
-title: LINE_AGENTSTATUS message
-ms.topic: article
+title: LINE_AGENTSTATUS message (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

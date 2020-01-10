@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_STEP_PARMS structure
+title: MCI_VCR_STEP_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_STEP\_PARMS structure contains parameters for the MCI\_STEP command for video-cassette recorders.
 ms.assetid: 57751de6-d174-418f-8167-402d3ead4e24
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -52,7 +52,7 @@ Number of frames to jump (the length of a single step) as the [**MCI\_STEP**](mc
 
 ## Remarks
 
-When assigning data to the members in this structure, set the corresponding flags in the *fdwCommand* parameter of [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) to validate the members.
+When assigning data to the members in this structure, set the corresponding flags in the *fdwCommand* parameter of [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) to validate the members.
 
 ## Requirements
 
@@ -79,7 +79,7 @@ When assigning data to the members in this structure, set the corresponding flag
 [**MCI\_STEP**](mci-step.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

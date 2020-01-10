@@ -1,8 +1,8 @@
 ---
 Description: Specifies the x-coordinate of the upper-left corner of the pan/scan region.
 ms.assetid: 1aed8614-d856-4885-80fe-c3f2bf3304ad
-title: MFPKEY_RESIZE_PANSCANAPX Property
-ms.topic: article
+title: MFPKEY_RESIZE_PANSCANAPX Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the x-coordinate of the upper-left corner of the pan/scan region.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

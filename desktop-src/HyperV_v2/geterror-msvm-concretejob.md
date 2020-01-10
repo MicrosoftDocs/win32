@@ -2,7 +2,7 @@
 Description: Retrieves the error object for the job, if one exists.
 ms.assetid: 7E810CBE-F18F-4EFA-B52E-631CD071D136
 title: GetError method of the Msvm_ConcreteJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

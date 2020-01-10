@@ -3,7 +3,7 @@ Description: The CIM\_RealizesAggregatePExtent association represents the relati
 ms.assetid: 420dde1d-daa8-4cd3-b3fd-c2aefdc1e217
 ms.tgt_platform: multiple
 title: CIM_RealizesAggregatePExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

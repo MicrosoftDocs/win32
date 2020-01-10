@@ -1,5 +1,5 @@
 ---
-title: HelpContextID Property
+title: HelpContextID Property (Characters Object)
 description: HelpContextID Property
 ms.assetid: 7ef190ba-c194-4386-a8d6-d32d902a1c03
 ms.topic: article

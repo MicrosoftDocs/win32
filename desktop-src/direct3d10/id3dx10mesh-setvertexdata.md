@@ -1,8 +1,8 @@
 ---
 Description: Set vertex data into one of the mesh's vertex buffers.
 ms.assetid: 930cbc49-4202-431f-ac72-386c31acd87e
-title: ID3DX10Mesh::SetVertexData method
-ms.topic: article
+title: ID3DX10Mesh::SetVertexData method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetVertexData(
 *iBuffer* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The vertex buffer to be filled with pData.
 
@@ -56,7 +56,7 @@ The vertex data to set.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

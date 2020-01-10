@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType GetDesc method
+title: ID3DX11EffectType GetDesc method (D3dx11effect.h)
 description: Get an effect-type description.
 ms.assetid: 08a8a1b6-fe2d-431b-a0e4-d628f0ceb1a0
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to an effect-type description. See [**D3DX11\_EFFECT\_TYPE\_DESC**](d3
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

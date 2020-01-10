@@ -1,5 +1,5 @@
 ---
-title: EN_OLEOPFAILED notification code
+title: EN_OLEOPFAILED notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that a user action on a Component Object Model (COM) object has failed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: b674c36f-2454-473e-8e1c-368c0afd8c34
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

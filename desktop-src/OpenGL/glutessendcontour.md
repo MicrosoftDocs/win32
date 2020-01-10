@@ -1,5 +1,5 @@
 ---
-title: gluTessEndContour function
+title: gluTessEndContour function (Glu.h)
 description: The gluTessBeginContour and gluTessEndContour functions delimit a contour description.
 ms.assetid: 115db079-cbcb-48e1-8bab-0eb4814afb82
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

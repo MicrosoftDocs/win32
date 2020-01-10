@@ -20,7 +20,7 @@ The Volume Shadow Copy Service (VSS) API provides both COM and C++ interfaces to
 -   [**IVssExamineWriterMetadataEx**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadataex)
 -   [**IVssExamineWriterMetadataEx2**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssexaminewritermetadataex2)
 -   [**IVssWMComponent**](/windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent)
--   [**IVssWriterComponentsExt**](https://msdn.microsoft.com/en-us/library/Aa384312(v=VS.85).aspx)
+-   [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx)
 
 ## VSS Writer-Specific Interfaces
 

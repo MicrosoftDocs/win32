@@ -1,8 +1,8 @@
 ---
 Description: Generate a list of mesh edges and the patches that share each edge.
 ms.assetid: 024528c0-2c0d-4448-9b38-05cf8d6ffc63
-title: ID3DXPatchMesh::GenerateAdjacency method
-ms.topic: article
+title: ID3DXPatchMesh::GenerateAdjacency method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT GenerateAdjacency(
 *fTolerance* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies that vertices that differ in position by less than the tolerance should be treated as coincident.
 
@@ -46,7 +46,7 @@ Specifies that vertices that differ in position by less than the tolerance shoul
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

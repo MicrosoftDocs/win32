@@ -2,7 +2,7 @@
 Description: Represents a certificate trust chain.
 ms.assetid: '45ed686f-4a7f-4df9-8366-98b825c3c657'
 title: Chain object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -54,7 +54,7 @@ The **Chain** object has these methods.
 | Method                                                   | Description                                                                                                                                                                                                                                                                                                       |
 |:---------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ApplicationPolicies**](chain-applicationpolicies.md) | Returns an [**OIDs**](oids.md) collection that represents the application policy OIDs valid for the chain.<br/> (Inherited from **ChainIChain2**)                                                                                                                                                          |
-| [**Build**](chain-build.md)                             | Builds a certificate verification chain from an end certificate to the trusted [*root certificate*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx), returning a Boolean value that indicates the overall validity of the chain.<br/> (Inherited from **ChainIChain2IChain**) |
+| [**Build**](chain-build.md)                             | Builds a certificate verification chain from an end certificate to the trusted [*root certificate*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx), returning a Boolean value that indicates the overall validity of the chain.<br/> (Inherited from **ChainIChain2IChain**) |
 | [**CertificatePolicies**](chain-certificatepolicies.md) | Returns an [**OIDs**](oids.md) collection that represents the certificate policy OIDs valid for the chain.<br/> (Inherited from **ChainIChain2**)                                                                                                                                                          |
 | [**ExtendedErrorInfo**](chain-extendederrorinfo.md)     | Returns a string that contains additional error information about the indexed entry.<br/> (Inherited from **ChainIChain2**)                                                                                                                                                                                 |
 

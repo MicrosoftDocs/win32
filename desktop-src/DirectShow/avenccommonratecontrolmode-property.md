@@ -1,8 +1,8 @@
 ---
 Description: Specifies the rate control mode.
 ms.assetid: 4a0d49b1-30da-4ebe-abff-3fceef6dd94a
-title: AVEncCommonRateControlMode property
-ms.topic: article
+title: AVEncCommonRateControlMode property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -24,7 +24,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncCommonRateControlMode**](https://msdn.microsoft.com/en-us/library/Dd388772(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncCommonRateControlMode**](https://msdn.microsoft.com/library/Dd388772(v=VS.85).aspx) enumeration.
 
 ## Remarks
 

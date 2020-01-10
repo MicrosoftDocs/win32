@@ -1,5 +1,5 @@
 ---
-title: LVN_ITEMCHANGING notification code
+title: LVN_ITEMCHANGING notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that an item is changing. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ed6b5fc2-7e8c-4392-aa39-498b18922a98
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

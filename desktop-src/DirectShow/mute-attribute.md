@@ -2,7 +2,7 @@
 Description: The mute attribute specifies the object's mute state.
 ms.assetid: 9a6dccf5-ae00-4ee0-8df3-bf817fe1a164
 title: mute Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

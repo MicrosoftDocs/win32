@@ -1,5 +1,5 @@
 ---
-title: EM_SETSCROLLPOS message
+title: EM_SETSCROLLPOS message (Richedit.h)
 description: Scrolls the contents of a rich edit control to the specified point.
 ms.assetid: 9ec514a4-97b1-44ab-b2ca-973b1f6fc404
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The SetArpAlwaysSourceRoute WMI class static method is used to set 
 ms.assetid: bbff4e2e-aea6-400e-8bd8-f62aaa9fa601
 ms.tgt_platform: multiple
 title: SetArpAlwaysSourceRoute method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

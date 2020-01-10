@@ -1,14 +1,14 @@
 ---
 Description: The TSPI LINE\_NEWCALL message is sent to the LINEEVENT callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open.
 ms.assetid: 36122dfb-1ed6-459d-aa2b-69c86daaddd8
-title: LINE_NEWCALL message
-ms.topic: article
+title: LINE_NEWCALL message (Tspi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # LINE\_NEWCALL message
 
-The TSPI **LINE\_NEWCALL** message is sent to the [**LINEEVENT**](https://msdn.microsoft.com/en-us/library/ms725228(v=VS.85).aspx) callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open. This must be the first message sent regarding that call. TAPI writes the *htCall* opaque handle to the location passed by the service provider as *dwParam2*. This gives the service provider the *htCall* value to be used in subsequent messages.
+The TSPI **LINE\_NEWCALL** message is sent to the [**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx) callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open. This must be the first message sent regarding that call. TAPI writes the *htCall* opaque handle to the location passed by the service provider as *dwParam2*. This gives the service provider the *htCall* value to be used in subsequent messages.
 
 
 ```C++
@@ -93,7 +93,7 @@ There is no directly corresponding message at the TAPI level. This message is us
 [**LINE\_CALLSTATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85))
 </dt> <dt>
 
-[**LINEEVENT**](https://msdn.microsoft.com/en-us/library/ms725228(v=VS.85).aspx)
+[**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx)
 </dt> </dl>
 
  

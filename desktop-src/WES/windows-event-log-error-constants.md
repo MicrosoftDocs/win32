@@ -1,5 +1,5 @@
 ---
-title: Windows Event Log Error Constants
+title: Windows Event Log Error Constants (WinError.h)
 description: The following are the error codes that Windows Event Log defines.
 ms.assetid: 889ea4ae-dede-45d5-9293-cec85d81f010
 topic_type:
@@ -47,7 +47,7 @@ api_location:
 - WinError.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

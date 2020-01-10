@@ -1,0 +1,139 @@
+---
+title: CimMofDeserializer.DeserializeClasses method (Byte[], UInt32, IEnumerable(CimClass), String, String, OnClassNeeded, GetIncludedFileContent) (Microsoft.Management.Infrastructure.Serialization)
+TOCTitle: CimMofDeserializer.DeserializeClasses method (Byte[], UInt32, IEnumerable(CimClass), String, String, OnClassNeeded, GetIncludedFileContent) (Microsoft.Management.Infrastructure.Serialization)
+ms:assetid: M:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.DeserializeClasses(System.Byte[],System.UInt32@,System.Collections.Generic.IEnumerable{Microsoft.Management.Infrastructure.CimClass},System.String,System.String,Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.OnClassNeeded,Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.GetIncludedFileContent)
+ms.date: 11/14/2019
+mtps_version: v=VS.85
+dev_langs:
+- csharp
+- c++
+- fsharp
+- vb
+api_location:
+- Microsoft.Management.Infrastructure.dll
+api_name:
+- Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.DeserializeClasses
+api_type:
+- Assembly
+topic_type:
+- apiref
+product_family_name: VS
+ms.topic: reference
+---
+
+# CimMofDeserializer.DeserializeClasses method (Byte\[\], UInt32, IEnumerable\<CimClass\>, String, String, OnClassNeeded, GetIncludedFileContent)
+
+Deserializes CIM classes based on serialized data, collection of parent CIM classes, computer and namespace names, and callbacks.
+
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
+
+## Syntax
+
+``` csharp
+public IEnumerable<CimClass> DeserializeClasses(
+    byte[] serializedData,
+    ref uint offset,
+    IEnumerable<CimClass> classes,
+    string computerName,
+    string namespaceName,
+    OnClassNeeded onClassNeededCallback,
+    GetIncludedFileContent getIncludedFileCallback
+)
+```
+
+``` c++
+public:
+IEnumerable<CimClass^>^ DeserializeClasses(
+    array<unsigned char>^ serializedData,
+    unsigned int% offset,
+    IEnumerable<CimClass^>^ classes,
+    String^ computerName,
+    String^ namespaceName,
+    OnClassNeeded^ onClassNeededCallback,
+    GetIncludedFileContent^ getIncludedFileCallback
+)
+```
+
+``` fsharp
+member DeserializeClasses : 
+        serializedData:byte[] *
+        offset:uint32 byref *
+        classes:IEnumerable<CimClass> *
+        computerName:string *
+        namespaceName:string *
+        onClassNeededCallback:OnClassNeeded *
+        getIncludedFileCallback:GetIncludedFileContent -> IEnumerable<CimClass>
+```
+
+``` vb
+Public Function DeserializeClasses (
+    serializedData As Byte(),
+    ByRef offset As UInteger,
+    classes As IEnumerable(Of CimClass),
+    computerName As String,
+    namespaceName As String,
+    onClassNeededCallback As OnClassNeeded,
+    getIncludedFileCallback As GetIncludedFileContent
+) As IEnumerable(CimClass)
+```
+
+#### Parameters
+
+  - serializedData  
+    Type: [System.Byte](/dotnet/api/system.byte?view=netframework-4.8)\[\]
+    
+    A buffer that contains the serialized data.
+
+<!-- end list -->
+
+  - offset  
+    Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)
+    
+    The byte offset to the location at which to begin reading the data. When the method returns, the offset will be pointing to the next byte after the deserialized classes.
+
+<!-- end list -->
+
+  - classes  
+    Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8)\<[CimClass](hh832269\(v=vs.85\).md)\>
+    
+    An optional cache of parent CIM classes.
+
+<!-- end list -->
+
+  - computerName  
+    [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    
+    The computer name.
+
+<!-- end list -->
+
+  - namespaceName  
+    [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    
+    The namespace name.
+
+<!-- end list -->
+
+  - onClassNeededCallback  
+    Type: [OnClassNeeded](microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded)
+    
+    A callback function used to provide a requested class object during deserialization.
+
+<!-- end list -->
+
+  - getIncludedFileCallback  
+    Type: [GetIncludedFileContent](microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent)
+    
+    A callback function used to provide the file buffer contents of a specified file.
+
+#### Return value
+
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8)\<[CimClass](hh832269\(v=vs.85\).md)\>
+
+An [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8) interface that can be used to enumerate the CIM classes.
+
+## See also
+
+[CimClass class](hh832269\(v=vs.85\).md)  
+[Microsoft.Management.Infrastructure.Serialization namespace](hh832966\(v=vs.85\).md)

@@ -1,8 +1,8 @@
 ---
 Description: Contains the scripting object for the view.
 ms.assetid: 63a4e42f-3d24-493f-8801-fc09a7477401
-title: ShellFolderView.Script property
-ms.topic: article
+title: ShellFolderView.Script property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -34,7 +34,7 @@ objScript = ShellFolderView.Script
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the scripting object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the scripting object.
 
 ## Requirements
 

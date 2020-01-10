@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a value that describes the Device Guard policy enforcement status for .NET dynamic code.
 ms.assetid: 11E6C631-0FF8-4DB2-931A-1012B3CA4357
-title: WldpIsDynamicCodePolicyEnabled function
-ms.topic: article
+title: WldpIsDynamicCodePolicyEnabled function (Wldp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_PrinterDriver WMI class represents the drivers for a Win
 ms.assetid: baf48bbf-60a3-4d9b-93b7-c1b22518a9c1
 ms.tgt_platform: multiple
 title: Win32_PrinterDriver class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ api_location:
 
 # Win32\_PrinterDriver class
 
-The **Win32\_PrinterDriver** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents the drivers for a [**Win32\_Printer**](win32-printer.md) instance.
+The **Win32\_PrinterDriver** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents the drivers for a [**Win32\_Printer**](win32-printer.md) instance.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties, but excludes methods. For reference information about methods, see the table of methods in this topic.
 
@@ -112,7 +112,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the object—a one-line string.
@@ -145,7 +145,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Class Name")
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Class Name")
 </dt> </dl>
 
 Name of the class or the subclass used in the creation of an instance. When used with the other key properties of this class, this property allows all instances of this class and its subclasses to be uniquely identified.
@@ -163,7 +163,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (CIM\_DataFile.FileName)
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (CIM\_DataFile.FileName)
 </dt> </dl>
 
 Data file for this printer driver.
@@ -209,7 +209,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Comment that describes the link.
@@ -227,7 +227,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (CIM\_DataFile.Path)
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (CIM\_DataFile.Path)
 </dt> </dl>
 
 Path for this printer driver.
@@ -288,7 +288,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time the object is installed. This property does not require a value to indicate that the object is installed.
@@ -321,7 +321,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 Driver name for this printer. This is a compound key composed of the **Name**, **Version**, and **SupportedPlatform** values.
@@ -352,7 +352,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Started")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Started")
 </dt> </dl>
 
 If **TRUE**, the service is started. If **FALSE**, the service is stopped.
@@ -370,7 +370,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Start Mode")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Start Mode")
 </dt> </dl>
 
 Start mode of the service is automatically started by an operating system, or only started when requested.
@@ -408,7 +408,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", can apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -529,7 +529,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("System Class Name")
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("System Class Name")
 </dt> </dl>
 
 Scoping system's creation class name.
@@ -547,7 +547,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("System Name")
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("System Name")
 </dt> </dl>
 
 Name of the system that hosts this service.
@@ -640,7 +640,7 @@ Next
 
 <dl> <dt>
 
-[**CIM\_Service**](https://msdn.microsoft.com/en-us/library/Aa388442(v=VS.85).aspx)
+[**CIM\_Service**](https://msdn.microsoft.com/library/Aa388442(v=VS.85).aspx)
 </dt> <dt>
 
 [Computer System Hardware Classes](computer-system-hardware-classes.md)

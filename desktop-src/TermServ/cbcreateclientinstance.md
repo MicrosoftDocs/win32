@@ -1,5 +1,5 @@
 ---
-title: CBCreateClientInstance function
+title: CBCreateClientInstance function (Cbclient.h)
 description: Creates an instance of the Remote Desktop Connection Broker RPC client.
 ms.assetid: 700E47BC-C547-44AB-8607-B9797D542AA7
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cbclient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

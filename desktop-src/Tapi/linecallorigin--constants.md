@@ -1,8 +1,8 @@
 ---
 Description: The LINECALLORIGIN\_ constants describe the origin of a call.
 ms.assetid: b830a40e-62d9-4a6c-b43f-8318f30a7cd4
-title: LINECALLORIGIN_ Constants
-ms.topic: article
+title: LINECALLORIGIN_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

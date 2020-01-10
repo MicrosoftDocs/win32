@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob Complete method
+title: IBackgroundCopyJob Complete method (Deliveryoptimization.h)
 description: Ends the job and saves the transferred files on the client.
 ms.assetid: A3706DBA-C44E-4F7A-A787-62FB436706FC
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the number of GUIDs the driver supports.
 ms.assetid: ed6b81bc-3f83-4983-97b6-32fdeb1c901e
-title: NtGdiDdGetMoCompGuids function
-ms.topic: article
+title: NtGdiDdGetMoCompGuids function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetMoCompGuidsData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPGUIDSDATA**](https://msdn.microsoft.com/en-us/library/Ff551587(v=VS.85).aspx) structure that contains the **GUID** information.
+Pointer to a [**DD\_GETMOCOMPGUIDSDATA**](https://msdn.microsoft.com/library/Ff551587(v=VS.85).aspx) structure that contains the **GUID** information.
 
 </dd> </dl>
 

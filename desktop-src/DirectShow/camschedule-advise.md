@@ -1,8 +1,8 @@
 ---
 Description: The Advise method dispatches all requests that are scheduled for a specified time or earlier.
 ms.assetid: 09ea84b7-517a-4ea6-9e03-0d9cd8f72e1f
-title: CAMSchedule.Advise method
-ms.topic: article
+title: CAMSchedule.Advise method (Dsschedule.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

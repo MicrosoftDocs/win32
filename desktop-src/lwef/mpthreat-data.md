@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_DATA structure
+title: MPTHREAT_DATA structure (MpClient.h)
 description: Notification data passed due to threat detection or modification.
 ms.assetid: 07A2F88B-9D58-44EC-86D0-BDCC1DF44B94
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

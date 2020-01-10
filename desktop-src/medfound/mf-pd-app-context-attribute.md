@@ -1,8 +1,8 @@
 ---
 Description: Contains a pointer to the presentation descriptor from the Protected Media Path (PMP).
 ms.assetid: cf12552e-0963-46fa-9a26-44dd601ab68c
-title: MF_PD_APP_CONTEXT attribute
-ms.topic: article
+title: MF_PD_APP_CONTEXT attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

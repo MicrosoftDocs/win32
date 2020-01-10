@@ -1,5 +1,5 @@
 ---
-title: INapServerManagement SetFailureCategoryMappings method
+title: INapServerManagement SetFailureCategoryMappings method (NapServerManagement.h)
 description: Is used to set the SHV's failure category mappings.
 ms.assetid: be482f82-c79c-405c-b619-9bcb9b4dc349
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

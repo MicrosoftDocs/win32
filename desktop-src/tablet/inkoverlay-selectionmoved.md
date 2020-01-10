@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 78b5ab11-01c0-4bdb-ae1f-ec55774abdce
-title: InkOverlay.SelectionMoved event
-ms.topic: article
+title: InkOverlay.SelectionMoved event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -28,7 +28,7 @@ void SelectionMoved(
 *OldSelectionRect* \[in\]
 </dt> <dd>
 
-The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionMoved** event fired.
+The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionMoved** event fired.
 
 > [!Note]  
 > This rectangle is specified in ink space coordinates, which allows for undo scenarios.

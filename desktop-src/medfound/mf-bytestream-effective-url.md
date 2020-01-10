@@ -1,8 +1,8 @@
 ---
 Description: Gets the effective URL of a byte stream.
 ms.assetid: 0A83CFC0-7EAA-464B-BA39-50DF220AF683
-title: MF_BYTESTREAM_EFFECTIVE_URL attribute
-ms.topic: article
+title: MF_BYTESTREAM_EFFECTIVE_URL attribute (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 Description: Retrieves the handle to the autohide appbar associated with an edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
-title: ABM_GETAUTOHIDEBAR message
-ms.topic: article
+title: ABM_GETAUTOHIDEBAR message (Shellapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 545dd1d9-8cbb-4ff3-b871-4908ecac56db
 api_name: 

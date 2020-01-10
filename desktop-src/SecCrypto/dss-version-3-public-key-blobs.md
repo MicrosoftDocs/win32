@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DSS Version 3 Public Key BLOBs
 
-DSS version 3 [*Public Key BLOBs*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of type PUBLICKEYBLOB are used to export and import information about a DH public key. They have the following format:
+DSS version 3 [*Public Key BLOBs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of type PUBLICKEYBLOB are used to export and import information about a DH public key. They have the following format:
 
 
 ```C++
@@ -29,7 +29,7 @@ BYTE y[dsspubkeyver3.bitlenP/8];
 
 
 
-This [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) format is exported when the CRYPT\_BLOB\_VER3 flag is used with [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey). Because the version is in the BLOB, there is no need to specify a flag when using this BLOB with [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey).
+This [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) format is exported when the CRYPT\_BLOB\_VER3 flag is used with [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey). Because the version is in the BLOB, there is no need to specify a flag when using this BLOB with [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey).
 
 In addition, this BLOB format is used with the [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) function when the *dwParam* value KP\_PUB\_PARAMS is used to set key parameters on a DSS key. This is done when the CRYPT\_PREGEN flag has been used to generate the key. When used in this situation, the y value is ignored and therefore should not be included in the BLOB.
 

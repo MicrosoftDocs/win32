@@ -1,5 +1,5 @@
 ---
-title: glLighti function
+title: glLighti function (Gl.h)
 description: The glLighti function returns light source parameter values.
 ms.assetid: 4fa5e604-d45d-412e-a08c-c38e0836596f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

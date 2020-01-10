@@ -2,8 +2,8 @@
 Description: The SetAsClass method of the SWbemObjectPath object forces the path to address a WMI class.
 ms.assetid: d341b980-bac9-4db4-a55f-eb971fb385da
 ms.tgt_platform: multiple
-title: SWbemObjectPath.SetAsClass property
-ms.topic: article
+title: SWbemObjectPath.SetAsClass property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

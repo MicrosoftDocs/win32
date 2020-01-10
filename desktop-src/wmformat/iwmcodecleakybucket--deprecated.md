@@ -1,5 +1,5 @@
 ---
-title: IWMCodecLeakyBucket
+title: IWMCodecLeakyBucket (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: ef1cedff-bbc7-4350-84eb-c9d044bb3fb5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

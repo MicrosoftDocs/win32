@@ -1,8 +1,8 @@
 ---
 Description: Occurs before strokes are deleted from the Ink property.
 ms.assetid: 09468416-ad08-48ea-aa4a-3af0fe553f3d
-title: InkOverlay.StrokesDeleting event
-ms.topic: article
+title: InkOverlay.StrokesDeleting event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -28,7 +28,7 @@ void StrokesDeleting(
 *Strokes* \[in\]
 </dt> <dd>
 
-The [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection deleted when the **StrokesDeleting** event fires.
+The [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection deleted when the **StrokesDeleting** event fires.
 
 </dd> </dl>
 

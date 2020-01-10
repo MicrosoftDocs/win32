@@ -1,8 +1,8 @@
 ---
 Description: The StreamQualityProperty enum used by the ITStreamQualityControl::GetRange, ITStreamQualityControl::Get, and ITStreamQualityControl::Set methods to indicate the stream quality property being addressed.
 ms.assetid: 28c9257f-6fbb-440f-9b84-c15a74229b5b
-title: StreamQualityProperty enumeration
-ms.topic: enumeration
+title: StreamQualityProperty enumeration (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

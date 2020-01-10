@@ -1,5 +1,5 @@
 ---
-title: WM_MENUCHAR message
+title: WM_MENUCHAR message (Winuser.h)
 description: Sent when a menu is active and the user presses a key that does not correspond to any mnemonic or accelerator key. This message is sent to the window that owns the menu.
 ms.assetid: de6c91bb-80fd-44b2-8d96-d016477a6547
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

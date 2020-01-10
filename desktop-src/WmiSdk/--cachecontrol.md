@@ -3,7 +3,7 @@ Description: Class is the abstract base class for classes that are used to deter
 ms.assetid: 32631610-8c0e-4f04-b0b2-62e5f8e23ef4
 ms.tgt_platform: multiple
 title: '__CacheControl class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

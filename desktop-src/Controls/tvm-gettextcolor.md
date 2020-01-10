@@ -1,5 +1,5 @@
 ---
-title: TVM_GETTEXTCOLOR message
+title: TVM_GETTEXTCOLOR message (Commctrl.h)
 description: Retrieves the current text color of the control. You can send this message explicitly or by using the TreeView\_GetTextColor macro.
 ms.assetid: fe1aa2e8-fdf2-48d1-936b-6d6bc8e589f4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

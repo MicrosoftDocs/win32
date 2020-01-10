@@ -3,7 +3,7 @@ Description: Reports a namespace deletion event, which is a type of intrinsic ev
 ms.assetid: f7160a90-562d-40d9-9189-32aaabcd81d0
 ms.tgt_platform: multiple
 title: '__NamespaceDeletionEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

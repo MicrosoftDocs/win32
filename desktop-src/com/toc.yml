@@ -454,11 +454,11 @@
         - name: "APTTYPEQUALIFIER"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttypequalifier
         - name: "BIND_FLAGS"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagbind_flags
+          href: /windows/win32/api/Objidl/ne-objidl-bind_flags
         - name: "BINDSPEED"
-          href: /windows/desktop/api/Oleidl/ne-oleidl-tagbindspeed
+          href: /windows/win32/api/Oleidl/ne-oleidl-bindspeed
         - name: "CALLFRAME_COPY"
-          href: /windows/desktop/api/CallObj/ne-callobj-__midl_icallframe_0003
+          href: /windows/win32/api/CallObj/ne-callobj-callframe_copy
         - name: "CALLFRAME_FREE"
           href: /windows/desktop/api/CallObj/ne-callobj-callframe_free
         - name: "CALLFRAME_NULL"
@@ -466,49 +466,49 @@
         - name: "CALLFRAME_WALK"
           href: /windows/desktop/api/CallObj/ne-callobj-callframe_walk
         - name: "CALLTYPE"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagcalltype
+          href: /windows/win32/api/Objidl/ne-objidl-calltype
         - name: "CLSCTX"
           href: https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx
         - name: "CO_MARSHALING_CONTEXT_ATTRIBUTES"
           href: /windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes
         - name: "COINIT"
-          href: /windows/desktop/api/Objbase/ne-objbase-tagcoinit
+          href: /windows/win32/api/Objbase/ne-objbase-coinit
         - name: "COMSD"
-          href: /windows/desktop/api/Objbase/ne-objbase-tagcomsd
+          href: /windows/win32/api/Objbase/ne-objbase-comsd
         - name: "COWAIT_FLAGS"
-          href: /windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags
+          href: /windows/win32/api/combaseapi/ne-combaseapi-cowait_flags
         - name: "EOC_ChangeType"
-          href: /windows/desktop/api/EventSys/ne-eventsys-__midl_ieventobjectchange_0001
+          href: /windows/win32/api/EventSys/ne-eventsys-eoc_changetype
         - name: "EOLE_AUTHENTICATION_CAPABILITIES"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tageole_authentication_capabilities
         - name: "EXTCONN"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagextconn
         - name: "GLOBALOPT_PROPERTIES"
-          href: /windows/desktop/api/objidl/ne-objidl-tagglobalopt_properties
+          href: /windows/win32/api/objidl/ne-objidl-globalopt_properties
         - name: "GLOBALOPT_UNMARSHALING_POLICY_VALUES"
-          href: /windows/desktop/api/objidl/ne-objidl-tagglobalopt_unmarshaling_policy_values
+          href: /windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values
         - name: "MKRREDUCE"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagmkreduce
+          href: /windows/win32/api/Objidl/ne-objidl-mkrreduce
         - name: "MKSYS"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagmksys
+          href: /windows/win32/api/Objidl/ne-objidl-mksys
         - name: "MSHCTX"
-          href: /windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx
+          href: /windows/win32/api/wtypesbase/ne-wtypesbase-mshctx
         - name: "MSHLFLAGS"
-          href: /windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags
+          href: /windows/win32/api/wtypesbase/ne-wtypesbase-mshlflags
         - name: "PENDINGMSG"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagpendingmsg
+          href: /windows/win32/api/Objidl/ne-objidl-pendingmsg
         - name: "PENDINGTYPE"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagpendingtype
+          href: /windows/win32/api/Objidl/ne-objidl-pendingtype
         - name: "RECORD_READING_POLICY"
           href: /windows/desktop/api/TxLogpub/ne-txlogpub-record_reading_policy
         - name: "REGCLS"
-          href: /windows/desktop/api/combaseapi/ne-combaseapi-tagregcls
+          href: /windows/win32/api/combaseapi/ne-combaseapi-regcls
         - name: "SERVERCALL"
-          href: /windows/desktop/api/Objidl/ne-objidl-tagservercall
+          href: /windows/win32/api/Objidl/ne-objidl-servercall
         - name: "THDTYPE"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_thdtype
         - name: "TYSPEC"
-          href: /windows/desktop/api/WTypes/ne-wtypes-tagtyspec
+          href: /windows/win32/api/WTypes/ne-wtypes-tyspec
       - name: "Interfaces"
         href: interfaces.md
         items: 
@@ -1571,37 +1571,37 @@
         - name: "ACTRL_ACCESS"
           href: /windows/desktop/api/AccCtrl/ns-accctrl-_actrl_alista
         - name: "ACTRL_ACCESS_ENTRY"
-          href: /windows/desktop/api/AccCtrl/ns-accctrl-_actrl_access_entrya
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_access_entrya
         - name: "ACTRL_ACCESS_ENTRY_LIST"
-          href: /windows/desktop/api/AccCtrl/ns-accctrl-_actrl_access_entry_lista
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_access_entry_lista
         - name: "ACTRL_PROPERTY_ENTRY"
-          href: /windows/desktop/api/AccCtrl/ns-accctrl-_actrl_property_entrya
+          href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_property_entrya
         - name: "BIND_OPTS"
-          href: /windows/desktop/api/Objidl/ns-objidl-tagbind_opts
+          href: /windows/win32/api/Objidl/ns-objidl-bind_opts
         - name: "BIND_OPTS2"
-          href: /windows/desktop/api/Objidl/ns-objidl-tagbind_opts2
+          href: /windows/win32/api/Objidl/ns-objidl-bind_opts2~r1
         - name: "BIND_OPTS3"
-          href: /windows/desktop/api/Objidl/ns-objidl-tagbind_opts3
+          href: /windows/win32/api/Objidl/ns-objidl-bind_opts3~r1
         - name: "CALLFRAME_MARSHALCONTEXT"
-          href: /windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0004
+          href: /windows/win32/api/callobj/ns-callobj-callframe_marshalcontext
         - name: "CALLFRAMEINFO"
-          href: /windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0001
+          href: /windows/win32/api/callobj/ns-callobj-callframeinfo
         - name: "CALLFRAMEPARAMINFO"
-          href: /windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0002
+          href: /windows/win32/api/callobj/ns-callobj-callframeparaminfo
         - name: "CATEGORYINFO"
-          href: /windows/desktop/api/Comcat/ns-comcat-tagcategoryinfo
+          href: /windows/win32/api/Comcat/ns-comcat-categoryinfo
         - name: "COAUTHIDENTITY"
-          href: /windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthidentity
+          href: /windows/win32/api/wtypesbase/ns-wtypesbase-coauthidentity
         - name: "COAUTHINFO"
-          href: /windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo
+          href: /windows/win32/api/wtypesbase/ns-wtypesbase-coauthinfo
         - name: "CONNECTDATA"
-          href: /windows/desktop/api/Ocidl/ns-ocidl-tagconnectdata
+          href: /windows/win32/api/Ocidl/ns-ocidl-connectdata
         - name: "COSERVERINFO"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo
         - name: "CSPLATFORM"
-          href: /windows/desktop/api/WTypes/ns-wtypes-tagcsplatform
+          href: /windows/win32/api/WTypes/ns-wtypes-csplatform
         - name: "INTERFACEINFO"
-          href: /windows/desktop/api/Objidl/ns-objidl-taginterfaceinfo
+          href: /windows/win32/api/Objidl/ns-objidl-interfaceinfo
         - name: "MULTI_QI"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagmulti_qi
         - name: "ORPC_DBG_ALL"
@@ -1611,7 +1611,7 @@
         - name: "ORPC_INIT_ARGS"
           href: orpc-init-args.md
         - name: "QUERYCONTEXT"
-          href: /windows/desktop/api/WTypes/ns-wtypes-tagquerycontext
+          href: /windows/win32/api/WTypes/ns-wtypes-querycontext
         - name: "RPCOLEMESSAGE"
           href: https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage
         - name: "SOLE_AUTHENTICATION_INFO"
@@ -1978,25 +1978,25 @@
         href: enumerations-odt.md
         items: 
         - name: "ACTIVATEFLAGS"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagactivateflags
+          href: /windows/win32/api/OCIdl/ne-ocidl-activateflags
         - name: "ADVF"
-          href: /windows/desktop/api/ObjIdl/ne-objidl-tagadvf
+          href: /windows/win32/api/ObjIdl/ne-objidl-advf
         - name: "DATADIR"
-          href: /windows/desktop/api/ObjIdl/ne-objidl-tagdatadir
+          href: /windows/win32/api/ObjIdl/ne-objidl-datadir
         - name: "DISCARDCACHE"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagdiscardcache
+          href: /windows/win32/api/OleIdl/ne-oleidl-discardcache
         - name: "DOCMISC"
-          href: /windows/desktop/api/DocObj/ne-docobj-__midl_ioledocument_0001
+          href: /windows/win32/api/DocObj/ne-docobj-docmisc
         - name: "DVASPECT"
-          href: /windows/desktop/api/WTypes/ne-wtypes-tagdvaspect
+          href: /windows/win32/api/WTypes/ne-wtypes-dvaspect
         - name: "DVASPECT2"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagdvaspect2
+          href: /windows/win32/api/OCIdl/ne-ocidl-dvaspect2
         - name: "DVASPECTINFOFLAG"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagaspectinfoflag
+          href: /windows/win32/api/OCIdl/ne-ocidl-dvaspectinfoflag
         - name: "DVEXTENTMODE"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagextentmode
+          href: /windows/win32/api/OCIdl/ne-ocidl-dvextentmode
         - name: "HITRESULT"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-taghitresult
+          href: /windows/win32/api/OCIdl/ne-ocidl-hitresult
         - name: "OLECLOSE"
           href: https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleclose
         - name: "OLECMDEXECOPT"
@@ -2010,33 +2010,33 @@
         - name: "OLECMDTEXTF"
           href: /windows/desktop/api/DocObj/ne-docobj-olecmdtextf
         - name: "OLECONTF"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagolecontf
+          href: /windows/win32/api/OleIdl/ne-oleidl-olecontf
         - name: "OLEDCFLAGS"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagoledcflags
+          href: /windows/win32/api/OCIdl/ne-ocidl-oledcflags
         - name: "OLEGETMONIKER"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagolegetmoniker
+          href: /windows/win32/api/OleIdl/ne-oleidl-olegetmoniker
         - name: "OLELINKBIND"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagolelinkbind
+          href: /windows/win32/api/OleIdl/ne-oleidl-olelinkbind
         - name: "OLEMISC"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagolemisc
+          href: /windows/win32/api/OleIdl/ne-oleidl-olemisc
         - name: "OLERENDER"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagolerender
+          href: /windows/win32/api/OleIdl/ne-oleidl-olerender
         - name: "OLEUIPASTEFLAG"
-          href: /windows/desktop/api/OleDlg/ne-oledlg-tagoleuipasteflag
+          href: /windows/win32/api/OleDlg/ne-oledlg-oleuipasteflag
         - name: "OLEUPDATE"
           href: https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleupdate
         - name: "OLEVERBATTRIB"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagoleverbattrib
+          href: /windows/win32/api/OleIdl/ne-oleidl-oleverbattrib
         - name: "OLEWHICHMK"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-tagolewhichmk
+          href: /windows/win32/api/OleIdl/ne-oleidl-olewhichmk
         - name: "TYMED"
-          href: /windows/desktop/api/ObjIdl/ne-objidl-tagtymed
+          href: /windows/win32/api/ObjIdl/ne-objidl-tymed
         - name: "UASFLAGS"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-taguasflags
+          href: /windows/win32/api/OCIdl/ne-ocidl-uasflags
         - name: "USERCLASSTYPE"
-          href: /windows/desktop/api/OleIdl/ne-oleidl-taguserclasstype
+          href: /windows/win32/api/OleIdl/ne-oleidl-userclasstype
         - name: "VIEWSTATUS"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagviewstatus
+          href: /windows/win32/api/OCIdl/ne-ocidl-viewstatus
       - name: "Functions"
         href: functions-odt.md
         items: 
@@ -2769,53 +2769,53 @@
         - name: "DVASPECTINFO"
           href: /windows/desktop/api/OCIdl/ns-ocidl-tagaspectinfo
         - name: "DVEXTENTINFO"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagextentinfo
+          href: /windows/win32/api/OCIdl/ns-ocidl-dvextentinfo
         - name: "DVTARGETDEVICE"
-          href: /windows/desktop/api/ObjIdl/ns-objidl-tagdvtargetdevice
+          href: /windows/win32/api/ObjIdl/ns-objidl-dvtargetdevice
         - name: "FORMATETC"
-          href: /windows/desktop/api/ObjIdl/ns-objidl-tagformatetc
+          href: /windows/win32/api/ObjIdl/ns-objidl-formatetc
         - name: "OBJECTDESCRIPTOR"
-          href: /windows/desktop/api/OleIdl/ns-oleidl-tagobjectdescriptor
+          href: /windows/win32/api/OleIdl/ns-oleidl-objectdescriptor
         - name: "OLECMD"
           href: /windows/desktop/api/DocObj/ns-docobj-_tagolecmd
         - name: "OLECMDTEXT"
           href: /windows/desktop/api/DocObj/ns-docobj-_tagolecmdtext
         - name: "OLEINPLACEFRAMEINFO"
-          href: /windows/desktop/api/OleIdl/ns-oleidl-tagoifi
+          href: /windows/win32/api/OleIdl/ns-oleidl-oleinplaceframeinfo
         - name: "OLEMENUGROUPWIDTHS"
-          href: /windows/desktop/api/OleIdl/ns-oleidl-tagolemenugroupwidths
+          href: /windows/win32/api/OleIdl/ns-oleidl-olemenugroupwidths
         - name: "OLEUIBUSY"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuibusya
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuibusya
         - name: "OLEUICHANGEICON"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuichangeicona
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuichangeicona
         - name: "OLEUICHANGESOURCE"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuichangesourcea
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuichangesourcea
         - name: "OLEUICONVERT"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuiconverta
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiconverta
         - name: "OLEUIEDITLINKS"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuieditlinksa
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuieditlinksa
         - name: "OLEUIGNRLPROPS"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuignrlpropsa
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuignrlpropsa
         - name: "OLEUIINSERTOBJECT"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuiinsertobjecta
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiinsertobjecta
         - name: "OLEUILINKPROPS"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuilinkpropsa
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuilinkpropsa
         - name: "OLEUIOBJECTPROPS"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuiobjectpropsa
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiobjectpropsa
         - name: "OLEUIPASTEENTRY"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuipasteentrya
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuipasteentrya
         - name: "OLEUIPASTESPECIAL"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuipastespeciala
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuipastespeciala
         - name: "OLEUIVIEWPROPS"
-          href: /windows/desktop/api/OleDlg/ns-oledlg-tagoleuiviewpropsa
+          href: /windows/win32/api/OleDlg/ns-oledlg-oleuiviewpropsa
         - name: "OLEVERB"
-          href: /windows/desktop/api/OleIdl/ns-oleidl-tagoleverb
+          href: /windows/win32/api/OleIdl/ns-oleidl-oleverb
         - name: "POINTF"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagpointf
+          href: /windows/win32/api/OCIdl/ns-ocidl-pointf
         - name: "STATDATA"
-          href: /windows/desktop/api/ObjIdl/ns-objidl-tagstatdata
+          href: /windows/win32/api/ObjIdl/ns-objidl-statdata
         - name: "STGMEDIUM"
-          href: /windows/desktop/api/ObjIdl/ns-objidl-tagstgmedium
+          href: /windows/win32/api/ObjIdl/ns-objidl-ustgmedium~r1
   - name: "Controls and Property Pages"
     href: controls-and-property-pages.md
     items: 
@@ -3001,13 +3001,13 @@
         href: enumerations-ctrls.md
         items: 
         - name: "GUIDKIND"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagguidkind
+          href: /windows/win32/api/OCIdl/ne-ocidl-guidkind
         - name: "PICTUREATTRIBUTES"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagpictureattributes
+          href: /windows/win32/api/OCIdl/ne-ocidl-pictureattributes
         - name: "POINTERINACTIVE"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagpointerinactive
+          href: /windows/win32/api/OCIdl/ne-ocidl-pointerinactive
         - name: "QACONTAINERFLAGS"
-          href: /windows/desktop/api/OCIdl/ne-ocidl-tagqacontainerflags
+          href: /windows/win32/api/OCIdl/ne-ocidl-qacontainerflags
       - name: "Functions"
         href: functions-ctrls.md
         items: 
@@ -3238,31 +3238,31 @@
         href: structures-ctrls.md
         items: 
         - name: "CADWORD"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagcadword
+          href: /windows/win32/api/OCIdl/ns-ocidl-cadword
         - name: "CALPOLESTR"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagcalpolestr
+          href: /windows/win32/api/OCIdl/ns-ocidl-calpolestr
         - name: "CAUUID"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagcauuid
+          href: /windows/win32/api/OCIdl/ns-ocidl-cauuid
         - name: "CONTROLINFO"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagcontrolinfo
+          href: /windows/win32/api/OCIdl/ns-ocidl-controlinfo
         - name: "FONTDESC"
-          href: /windows/desktop/api/Olectl/ns-olectl-tagfontdesc
+          href: /windows/win32/api/Olectl/ns-olectl-fontdesc
         - name: "LICINFO"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-taglicinfo
+          href: /windows/win32/api/OCIdl/ns-ocidl-licinfo
         - name: "OCPFIPARAMS"
-          href: /windows/desktop/api/Olectl/ns-olectl-tagocpfiparams
+          href: /windows/win32/api/Olectl/ns-olectl-ocpfiparams
         - name: "PAGERANGE"
-          href: /windows/desktop/api/Docobj/ns-docobj-tagpagerange
+          href: /windows/win32/api/Docobj/ns-docobj-pagerange
         - name: "PAGESET"
-          href: /windows/desktop/api/Docobj/ns-docobj-tagpageset
+          href: /windows/win32/api/Docobj/ns-docobj-pageset
         - name: "PICTDESC"
-          href: /windows/desktop/api/Olectl/ns-olectl-tagpictdesc
+          href: /windows/win32/api/Olectl/ns-olectl-pictdesc
         - name: "PROPPAGEINFO"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagproppageinfo
+          href: /windows/win32/api/OCIdl/ns-ocidl-proppageinfo
         - name: "QACONTAINER"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagqacontainer
+          href: /windows/win32/api/OCIdl/ns-ocidl-qacontainer
         - name: "QACONTROL"
-          href: /windows/desktop/api/OCIdl/ns-ocidl-tagqacontrol
+          href: /windows/win32/api/OCIdl/ns-ocidl-qacontrol
   - name: "COM Language Translations"
     href: com-language-translations.md
     items: 

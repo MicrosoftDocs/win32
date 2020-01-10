@@ -1,8 +1,8 @@
 ---
 Description: The Get method retrieves a property identified by a property set GUID and a property ID.
 ms.assetid: f39862db-0659-4533-8cee-aee2f778e085
-title: IKsPropertySet::Get method
-ms.topic: article
+title: IKsPropertySet::Get method (Ksproxy.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -109,7 +109,7 @@ Returns an **HRESULT** value. Possible values include the following.
 ## Remarks
 
 > [!Note]  
-> Another interface by this name exists in the dsound.h header file. The two interfaces are not compatible. The [IKsControl](https://msdn.microsoft.com/en-us/library/Ff559766(v=VS.85).aspx) interface, documented in the DirectShow DDK, is now the recommended interface for passing property sets between WDM drivers and user mode components.
+> Another interface by this name exists in the dsound.h header file. The two interfaces are not compatible. The [IKsControl](https://msdn.microsoft.com/library/Ff559766(v=VS.85).aspx) interface, documented in the DirectShow DDK, is now the recommended interface for passing property sets between WDM drivers and user mode components.
 
  
 

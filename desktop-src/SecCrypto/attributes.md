@@ -2,7 +2,7 @@
 Description: Represents a collection of Attribute objects.
 ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Attributes object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -53,7 +53,7 @@ The **Attributes** object has these properties.
 
 | Property                                           | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](attributes-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](attributes-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](attributes-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**Attribute**](attribute.md) objects in the collection.<br/>                                                                                                                                    |
 | [**Item**](attributes-item.md)<br/>         | Read-only<br/> | Retrieves the [**Attribute**](attribute.md) object that represents the indexed attribute. This is the default property.<br/>                                                                                             |
 

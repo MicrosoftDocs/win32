@@ -2,7 +2,7 @@
 Description: Sets or retrieves the PCCERT\_CHAIN\_CONTEXT of a certificate.
 ms.assetid: 1b33ecd5-88c9-4654-9d2d-95a0be4283c6
 title: IChainContext::ChainContext property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

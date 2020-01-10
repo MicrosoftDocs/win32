@@ -1,5 +1,5 @@
 ---
-title: fma
+title: fma (Corecrt\_math.h)
 description: Returns the double-precision fused multiply-addition of a \ b + c.
 ms.assetid: C4EF2552-7388-4CA8-B78F-6B2D4C8FC5F6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The SPFILENOTIFY\_STARTSUBQUEUE notification is sent to the callback function when the queue starts to process the operations in the delete, rename, or copy subqueue.
 ms.assetid: 4f971549-8f79-4995-9796-1177c3a3c416
-title: SPFILENOTIFY_STARTSUBQUEUE message
-ms.topic: article
+title: SPFILENOTIFY_STARTSUBQUEUE message (Setupapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

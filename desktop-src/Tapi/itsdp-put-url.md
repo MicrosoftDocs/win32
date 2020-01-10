@@ -1,8 +1,8 @@
 ---
 Description: The put\_Url method sets the URL.
 ms.assetid: 538bb1dd-c7ad-446d-9df7-23363b466263
-title: ITSdp::put_Url method
-ms.topic: article
+title: ITSdp::put_Url method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx) to allocate memory for the *pUrl* parameter and use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pUrl* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
 
 An URL is typically used to reference a Web page containing additional resources or background information about a conference.
 

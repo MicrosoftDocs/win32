@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetDevice method
+title: ID3DX11Effect GetDevice method (D3dx11effect.h)
 description: Get the device that created the effect.
 ms.assetid: efcc0358-9842-46eb-a521-ea220ec18735
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to an [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3d11-id3d11dev
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

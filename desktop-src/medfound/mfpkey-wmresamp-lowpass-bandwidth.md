@@ -1,8 +1,8 @@
 ---
 Description: Specifies the low-pass filter bandwidth, as a percentage of the destination sample rate.
 ms.assetid: 7d9b5949-2d9e-436a-9e44-61c6fc86f973
-title: MFPKEY_WMRESAMP_LOWPASS_BANDWIDTH Property
-ms.topic: article
+title: MFPKEY_WMRESAMP_LOWPASS_BANDWIDTH Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the low-pass filter bandwidth, as a percentage of the destination samp
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

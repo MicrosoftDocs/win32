@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNonSilentLicenseAquisition GetChallenge method
+title: IWMDRMNonSilentLicenseAquisition GetChallenge method (Wmdrmsdk.h)
 description: The GetChallenge method retrieves the license challenge that should be posted to the license server.
 ms.assetid: f2ff8484-8fe2-4c74-82c1-9bc14f8197e0
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Starts a named service.
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
-title: IShellDispatch2.ServiceStart method
-ms.topic: article
+title: IShellDispatch2.ServiceStart method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ IShellDispatch2.ServiceStart( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the service.
 
@@ -80,9 +80,9 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ServiceStart**](https://msdn.microsoft.com/en-us/library/Gg537743(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.ServiceStart**](https://msdn.microsoft.com/library/Gg537743(v=VS.85).aspx) method.
 
-The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/en-us/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
+The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 

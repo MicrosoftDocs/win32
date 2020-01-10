@@ -3,7 +3,7 @@ Description: The Win32\_Bus WMI class represents a physical bus as seen by a com
 ms.assetid: 76ba15f4-8c7b-4713-b5a2-e444fbab064a
 ms.tgt_platform: multiple
 title: Win32_Bus class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

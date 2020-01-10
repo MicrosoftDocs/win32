@@ -2,7 +2,7 @@
 Description: Retrieves a Boolean value that indicates whether the keyCertSign bit is set.
 ms.assetid: c0331293-4a65-40f0-a404-87d8546349c2
 title: KeyUsage.IsKeyCertSignEnabled property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

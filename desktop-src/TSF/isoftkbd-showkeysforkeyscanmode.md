@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd ShowKeysForKeyScanMode method
+title: ISoftKbd ShowKeysForKeyScanMode method (Softkbdc.h)
 description: The ISoftKbd ShowKeysForKeyScanMode method displays the keys used for the key scan mode for a soft keyboard.
 ms.assetid: bfa76e5b-6f6e-470a-ba3a-7ecff9f67f7b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

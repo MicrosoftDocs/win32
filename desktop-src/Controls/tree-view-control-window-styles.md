@@ -1,5 +1,5 @@
 ---
-title: Tree-View Control Window Styles
+title: Tree-View Control Window Styles (CommCtrl.h)
 description: This section lists window styles used when creating tree-view controls.
 ms.assetid: d0a1ad6d-1bda-4b65-b97a-b389d6e6d7a6
 topic_type:
@@ -25,7 +25,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

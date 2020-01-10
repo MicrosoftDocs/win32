@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_CPU_DESCRIPTOR_HANDLE structure
+title: CD3DX12_CPU_DESCRIPTOR_HANDLE structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_CPU\_DESCRIPTOR\_HANDLE structure.
 ms.assetid: 91736069-7D13-47B0-B78C-0F6F104F97EB
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

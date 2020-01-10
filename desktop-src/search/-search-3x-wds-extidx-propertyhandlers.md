@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed. To read and index property values, property handlers are invoked out-of-process by Windows Search to improve security and robustness. In contrast, property handlers are invoked in-process by Windows Explorer to read and write property values.
 
-This topic supplements the [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx) topic with information specific to Windows Search and contains the following sections:
+This topic supplements the [Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx) topic with information specific to Windows Search and contains the following sections:
 
 -   [Design Decisions for Property Handlers](#design-decisions-for-property-handlers)
     -   [Property Decisions](#property-decisions)
@@ -62,7 +62,7 @@ After you have made these decisions, you can write formal descriptions of your c
 
 When considering which properties to support, you should identify your users' indexing and searching needs. For example, you may be able to identify one hundred potentially useful properties for your file type, but users may be interested in searching on only a handful. Furthermore, you may want to display a different, larger or smaller, group of those properties to users in Windows Explorer, and allow users to edit only a subset of those properties displayed.
 
-Your file type can support any custom properties you define, as well as a set of system-defined properties. Before you create a custom property, please review [System Properties](https://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx) to see if the property you want to support is already defined by a system property. Always be sure you support the most important system-defined properties.
+Your file type can support any custom properties you define, as well as a set of system-defined properties. Before you create a custom property, please review [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx) to see if the property you want to support is already defined by a system property. Always be sure you support the most important system-defined properties.
 
 We recommend using a matrix to help you design your properties:
 
@@ -78,7 +78,7 @@ We recommend using a matrix to help you design your properties:
 
  
 
-For each of these properties, you need to determine what attributes it should have and then describe them formally in Property Description XML files (.propdesc). Attributes include the property's data type, label, help string and more. For indexable properties, you should pay particular attention to the following property attributes found in the [searchInfo](https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx)   XML element of the Property Description file.
+For each of these properties, you need to determine what attributes it should have and then describe them formally in Property Description XML files (.propdesc). Attributes include the property's data type, label, help string and more. For indexable properties, you should pay particular attention to the following property attributes found in the [searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)   XML element of the Property Description file.
 
 
 
@@ -132,7 +132,7 @@ For each of these properties, you need to determine what attributes it should ha
 
 ### Full-Text Support
 
-Generally speaking, full-text search is supported by components called [filters](-search-3x-wds-extidx-filters.md); however, for text-based file types with uncomplicated file formats, property handlers may be able to provide this functionality with less development effort. You should review the [Full-Text Contents](https://msdn.microsoft.com/en-us/library/Cc144131(VS.85).aspx) section for a comparison of filter and property handler functionality to help you decide what is best for your file type. Of particular importance is the fact that filters can handle multiple language code identifiers (LCIDs) per file while property handlers cannot.
+Generally speaking, full-text search is supported by components called [filters](-search-3x-wds-extidx-filters.md); however, for text-based file types with uncomplicated file formats, property handlers may be able to provide this functionality with less development effort. You should review the [Full-Text Contents](https://msdn.microsoft.com/library/Cc144131(VS.85).aspx) section for a comparison of filter and property handler functionality to help you decide what is best for your file type. Of particular importance is the fact that filters can handle multiple language code identifiers (LCIDs) per file while property handlers cannot.
 
 > [!Note]  
 > Because property handlers cannot chunk content the way filters can, large files (even if they are uncomplicated file formats) must be completely loaded into memory.
@@ -151,9 +151,9 @@ If only an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).as
 
 For property description flags specific to Windows 7, see the following reference topics:
 
--   [GETPROPERTYSTOREFLAGS](https://msdn.microsoft.com/en-us/library/bb762582(VS.85).aspx)
--   [PROPDESC\_COLUMNINDEX\_TYPE](https://msdn.microsoft.com/en-us/library/bb762587(VS.85).aspx)
--   [PROPDESC\_SEARCHINFO\_FLAGS](https://msdn.microsoft.com/en-us/library/bb762588(VS.85).aspx)
+-   [GETPROPERTYSTOREFLAGS](https://msdn.microsoft.com/library/bb762582(VS.85).aspx)
+-   [PROPDESC\_COLUMNINDEX\_TYPE](https://msdn.microsoft.com/library/bb762587(VS.85).aspx)
+-   [PROPDESC\_SEARCHINFO\_FLAGS](https://msdn.microsoft.com/library/bb762588(VS.85).aspx)
 
 ### Implementation Information for Windows Vista and Earlier
 
@@ -165,9 +165,9 @@ While the property system is also included with the Windows Search installation 
 
 ## Writing Property Description Files
 
-The structure of property description XML files (.propdesc) is described in the [propertyDescription](https://msdn.microsoft.com/en-us/library/Bb773880(VS.85).aspx) topic. Of particular interest for search are the attributes of the [searchInfo](https://msdn.microsoft.com/en-us/library/Bb773885(VS.85).aspx) element. Once you've decided which properties to support, you need to create and register property description files for each properties. When you register your .propdesc files, they are included in the schema's property description list and become column names within the Search engine's property store.
+The structure of property description XML files (.propdesc) is described in the [propertyDescription](https://msdn.microsoft.com/library/Bb773880(VS.85).aspx) topic. Of particular interest for search are the attributes of the [searchInfo](https://msdn.microsoft.com/library/Bb773885(VS.85).aspx) element. Once you've decided which properties to support, you need to create and register property description files for each properties. When you register your .propdesc files, they are included in the schema's property description list and become column names within the Search engine's property store.
 
-You can register your custom property descriptions using the [PSRegisterPropertySchema](https://msdn.microsoft.com/en-us/library/Bb762087(VS.85).aspx) function, a wrapper API that calls the schema subsystem's IPropertySystem::RegisterPropertySchema. This function informs the schema subsystem of the addition of property description schema (.propdesc) files, using file path(s) to the .propdesc file(s) on the local machine, usually the application's install directory under "Program Files". Typically, a setup or application (for example, your property handler installer) will call this method after installing the .propdesc file(s).
+You can register your custom property descriptions using the [PSRegisterPropertySchema](https://msdn.microsoft.com/library/Bb762087(VS.85).aspx) function, a wrapper API that calls the schema subsystem's IPropertySystem::RegisterPropertySchema. This function informs the schema subsystem of the addition of property description schema (.propdesc) files, using file path(s) to the .propdesc file(s) on the local machine, usually the application's install directory under "Program Files". Typically, a setup or application (for example, your property handler installer) will call this method after installing the .propdesc file(s).
 
  
 
@@ -181,11 +181,11 @@ Developing a property handler involves implementing the following interfaces:
 
 ### IInitializeWithStream
 
-As described in the [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx) topic, we strongly recommend implementing property handlers with **IInitializeWithStream** to do stream-based initialization. If you chose not to implement IInitializeWithStream, the property handler must opt out of running in the isolation process by setting the DisableProcessIsolation flag on the property handler's registry key. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
+As described in the [Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx) topic, we strongly recommend implementing property handlers with **IInitializeWithStream** to do stream-based initialization. If you chose not to implement IInitializeWithStream, the property handler must opt out of running in the isolation process by setting the DisableProcessIsolation flag on the property handler's registry key. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
 
 ### IPropertyStore
 
-To create a property handler, you must implement the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface with the following methods.
+To create a property handler, you must implement the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface with the following methods.
 
 
 
@@ -205,7 +205,7 @@ To create a property handler, you must implement the [**IPropertyStore**](https:
 
  
 
-Important considerations for implementing this interface are included in the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) documentation.
+Important considerations for implementing this interface are included in the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) documentation.
 
 > [!Note]  
 > If your property handler emits multiple values for the same property for a given item, only the last value emitted is stored in the catalog.
@@ -328,7 +328,7 @@ You can use the CLSID listed in the following table to register the system-suppl
 
  
 
-Before creating a custom property, you should be sure there isn't a system-defined property you can use instead. You can enumerate the system-defined properties by calling [**PSEnumeratePropertyDescriptions**](https://msdn.microsoft.com/en-us/library/Bb776495(v=VS.85).aspx) or using the prop.exe command line tool.
+Before creating a custom property, you should be sure there isn't a system-defined property you can use instead. You can enumerate the system-defined properties by calling [**PSEnumeratePropertyDescriptions**](https://msdn.microsoft.com/library/Bb776495(v=VS.85).aspx) or using the prop.exe command line tool.
 
 The system schema defines how these properties interact with the indexer, and you cannot change that. Furthermore, the application you use to create, edit and save your file type needs to conform to certain behavior as well. For example, if the application implements safe save (whereby a temporary file is created during editing, and then ReplaceFile() is used to swap the new version for the old), it must transfer all of the properties from the original file to the new file. Failure to do means the file loses properties added by users or other applications.
 
@@ -407,10 +407,10 @@ System.FileOwner;System.ComputerName
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx)
+[Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
 </dt> <dt>
 
-[System Properties](https://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
+[System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 </dt> <dt>
 
 [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)

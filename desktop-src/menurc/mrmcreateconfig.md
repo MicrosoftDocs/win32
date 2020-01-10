@@ -1,5 +1,5 @@
 ---
-title: MrmCreateConfig function
+title: MrmCreateConfig function (MrmResourceIndexer.h)
 description: Creates a new, initialized PRI config file defining the qualifier defaults that you specify. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: F8FB4E9C-1C04-460A-BFA1-FB663653DA3C
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

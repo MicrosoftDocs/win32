@@ -3,7 +3,7 @@ title: RemoteFX Media Redirection API interfaces
 description: The RemoteFX media redirection API supports the following interfaces.
 ms.assetid: 9fb19c56-67a8-40f1-b6f1-8448eb83b38c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

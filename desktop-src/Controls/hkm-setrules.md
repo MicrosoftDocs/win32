@@ -1,5 +1,5 @@
 ---
-title: HKM_SETRULES message
+title: HKM_SETRULES message (Commctrl.h)
 description: Defines the invalid combinations and the default modifier combination for a hot key control.
 ms.assetid: de3dd463-a534-4c7c-ae04-da80a3bff2ab
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

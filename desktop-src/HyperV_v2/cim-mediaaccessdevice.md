@@ -1,8 +1,8 @@
 ---
 Description: Represents a device that can use media to store and retrieve data.
 ms.assetid: c63b1731-dbc0-4e5e-acb8-cd91b5569dd2
-title: CIM_MediaAccessDevice class
-ms.topic: article
+title: CIM_MediaAccessDevice class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

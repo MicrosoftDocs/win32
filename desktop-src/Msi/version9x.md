@@ -2,7 +2,7 @@
 Description: 'The Version9X property gives the version number for 9x versions of Windows operating systems.The value of this property is an integer: MajorVersion \* 100 + MinorVersion.'
 ms.assetid: 0a22de88-4958-46be-82c3-6465aec86d33
 title: Version9X property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

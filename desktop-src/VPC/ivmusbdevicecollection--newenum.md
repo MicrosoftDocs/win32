@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDeviceCollection _NewEnum property
+title: IVMUSBDeviceCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the collection.
 ms.assetid: f14f64a0-e65a-44d6-b053-54bbcb9ea804
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

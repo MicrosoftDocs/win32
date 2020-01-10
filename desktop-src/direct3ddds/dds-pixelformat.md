@@ -1,5 +1,5 @@
 ---
-title: DDS_PIXELFORMAT structure
+title: DDS_PIXELFORMAT structure (Dds.h)
 description: Surface pixel format.
 ms.assetid: 39c5e48d-cf20-4d77-80d5-a67f04de4883
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Dds.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Menus
+title: Menus (Menus and Other Resources)
 description: This section discusses menus.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\menus.htm'
 keywords:

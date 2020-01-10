@@ -2,7 +2,7 @@
 title: deriv_rty_coarse (sm5 - asm)
 description: Computes the rate of change of components.
 ms.assetid: 1EBCC0B9-BD3E-46DD-AC17-F7167F892195
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

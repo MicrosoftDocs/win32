@@ -15,7 +15,7 @@ api_location:
 
 Microsoft Visual Studio 2012 can now compile shader code from \*.hlsl files that you include in your C++ project.
 
-As part of the build process, Visual Studio 2012 uses the [fxc.exe](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) HLSL code compiler to compile the .hlsl files into binary shader object files or into byte arrays that are defined in header files. How the HLSL code compiler compiles each .hlsl file in your project depends on how you specify the **Ouput Files** property for that file. For more info about HLSL property pages, see [HLSL Property Pages](https://msdn.microsoft.com/en-us/library/JJ620902(v=VS.110).aspx).
+As part of the build process, Visual Studio 2012 uses the [fxc.exe](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) HLSL code compiler to compile the .hlsl files into binary shader object files or into byte arrays that are defined in header files. How the HLSL code compiler compiles each .hlsl file in your project depends on how you specify the **Ouput Files** property for that file. For more info about HLSL property pages, see [HLSL Property Pages](https://msdn.microsoft.com/library/JJ620902(v=VS.110).aspx).
 
 The compile method that you use typically depends on the size of your \*.hlsl file. If you include a large amount of byte code in a header, you increase the size and the initial load time of your app. You also force all byte code to reside in memory even after the shader is created, which wastes resources. But when you include byte code in a header, you can reduce code complexity and simplify shader creation.
 

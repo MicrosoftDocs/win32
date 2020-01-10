@@ -11,7 +11,7 @@ api_name:
 - ms-net-ieee-8023-GP-PolicyData
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

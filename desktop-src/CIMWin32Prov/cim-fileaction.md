@@ -3,7 +3,7 @@ Description: The CIM\_FileAction class allows the author to locate files that al
 ms.assetid: 0576e73f-08e1-4f80-af5a-f5d497f57632
 ms.tgt_platform: multiple
 title: CIM_FileAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Return information about the placement and orientation of a glyph in a character cell.
 ms.assetid: 1114b06a-c0f0-4c2a-86ad-2ed72bee4049
-title: ID3DX10Font::GetGlyphData method
-ms.topic: article
+title: ID3DX10Font::GetGlyphData method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ HRESULT GetGlyphData(
 *Glyph* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Glyph identifier.
 
@@ -59,9 +59,9 @@ Address of a pointer to a ID3D10Texture object that contains the glyph.
 *pBlackBox* \[in\]
 </dt> <dd>
 
-Type: **[**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)\***
+Type: **[**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
 
-Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](https://msdn2.microsoft.com/en-us/library/ms536136.aspx).
+Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](https://msdn2.microsoft.com/library/ms536136.aspx).
 
 </dd> <dt>
 
@@ -70,13 +70,13 @@ Pointer to the smallest rectangle object that completely encloses the glyph. See
 
 Type: **POINT\***
 
-Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [POINT](https://msdn2.microsoft.com/en-us/library/ms536119.aspx).
+Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [POINT](https://msdn2.microsoft.com/library/ms536119.aspx).
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

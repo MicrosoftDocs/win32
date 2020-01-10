@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_NET\_EVENT\_CALLBACK0**](https://msdn.microsoft.com/en-us/library/Dd744948(v=VS.85).aspx)
+-   [**FWPM\_NET\_EVENT\_CALLBACK0**](https://msdn.microsoft.com/library/Dd744948(v=VS.85).aspx)
 -   [*FWPM\_NET\_EVENT\_CALLBACK1*](/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1)
 -   [*FWPM\_NET\_EVENT\_CALLBACK2*](/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback2)
 -   [**FwpmNetEventCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0)

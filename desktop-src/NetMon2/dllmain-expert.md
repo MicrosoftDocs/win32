@@ -1,8 +1,8 @@
 ---
 Description: The expert implements the DllMain function. The operating system calls DllMain to obtain a handle to an instance of the expert.
 ms.assetid: 38593ba0-dc37-4620-bb49-2e50c3d9ea3c
-title: DllMain Expert callback function
-ms.topic: article
+title: DllMain Expert callback function (Process.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

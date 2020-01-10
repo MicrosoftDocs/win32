@@ -1,5 +1,5 @@
 ---
-title: MCM_SETCALENDARBORDER message
+title: MCM_SETCALENDARBORDER message (Commctrl.h)
 description: Sets the size of the border, in pixels. You can send this message explicitly or by using the MonthCal\_SetCalendarBorder macro.
 ms.assetid: 2a64a08f-a1fb-47a8-8f09-725807e87a03
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

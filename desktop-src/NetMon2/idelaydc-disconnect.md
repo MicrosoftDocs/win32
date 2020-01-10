@@ -1,8 +1,8 @@
 ---
 Description: The Disconnect method disconnects the NPP from the network.
 ms.assetid: 476bbce4-2e3c-448f-b85e-6adac424fb0d
-title: IDelaydC::Disconnect method
-ms.topic: article
+title: IDelaydC::Disconnect method (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

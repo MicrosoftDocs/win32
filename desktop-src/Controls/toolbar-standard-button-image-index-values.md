@@ -1,5 +1,5 @@
 ---
-title: Toolbar Standard Button Image Index Values
+title: Toolbar Standard Button Image Index Values (CommCtrl.h)
 description: This section specifies index values of images within standard bitmaps.
 ms.assetid: 58605c48-a306-4b89-9d70-c3248ada4cb0
 topic_type:
@@ -41,7 +41,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

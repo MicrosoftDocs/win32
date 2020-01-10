@@ -1,8 +1,8 @@
 ---
 Description: Creates a binary object and adds it as a child object. Deprecated.
 ms.assetid: 6164951d-dd87-4318-ac08-b97c22f58d45
-title: IDirectXFileData::AddBinaryObject method
-ms.topic: article
+title: IDirectXFileData::AddBinaryObject method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ HRESULT AddBinaryObject(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the name of the object. Specify **NULL** if the object does not need a name.
 
@@ -60,7 +60,7 @@ Pointer to the GUID representing the object. Specify **NULL** if the object does
 *szMimeType* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the object's MIME type.
 
@@ -69,7 +69,7 @@ Pointer to the object's MIME type.
 *pvData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the object's data.
 
@@ -78,7 +78,7 @@ Pointer to the object's data.
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of the buffer pointed to by pvData, in bytes.
 
@@ -86,7 +86,7 @@ Size of the buffer pointed to by pvData, in bytes.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values.DXFILEERR\_BADALLOC DXFILEERR\_BADVALUE
 

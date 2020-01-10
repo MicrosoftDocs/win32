@@ -1,8 +1,8 @@
 ---
 Description: Wide-character string containing the name of the filter.
 ms.assetid: 7d41990f-aba2-4ea9-9d83-50a99cd0a648
-title: CFactoryTemplate::m_Name member
-ms.topic: article
+title: CFactoryTemplate::m_Name member (Combase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

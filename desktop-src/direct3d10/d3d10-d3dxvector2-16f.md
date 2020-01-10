@@ -1,8 +1,8 @@
 ---
 Description: Describes a two-component vector including operator overloads and type casts. Same as a D3DXVECTOR2, but it uses 16-bit floating point values for x, y, and z.
 ms.assetid: b410d2e1-a006-4563-928a-c9000f73c224
-title: D3DXVECTOR2_16F structure
-ms.topic: structure
+title: D3DXVECTOR2_16F structure (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DXVECTOR2_16F {
 **x**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ The x-component.
 **y**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

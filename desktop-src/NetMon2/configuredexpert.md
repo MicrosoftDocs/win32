@@ -1,8 +1,8 @@
 ---
 Description: The CONFIGUREDEXPERT structure associates an expert with its configuration data.
 ms.assetid: 96a6650b-6d6f-495e-83bb-385d44ff015d
-title: CONFIGUREDEXPERT structure
-ms.topic: structure
+title: CONFIGUREDEXPERT structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,10 +2,10 @@
 title: Absolute Value
 description: Take the absolute value of a source operand used in an arithmetic operation.
 ms.assetid: FD2ACE91-0AF6-43E8-80C5-849488E39BEF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

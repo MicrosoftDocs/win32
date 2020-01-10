@@ -10,7 +10,7 @@ api_name:
 - D1108 Wrong Factory
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---
@@ -54,7 +54,7 @@ The address of the factory with which *resource* was used.
 
 ## Examples
 
-The following example first creates two debug-enabled [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx), passing in the geometry and the brush.
+The following example first creates two debug-enabled [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx), passing in the geometry and the brush.
 
 
 ```C++

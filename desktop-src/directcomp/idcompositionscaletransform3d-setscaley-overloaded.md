@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform3D SetScaleY methods
+title: IDCompositionScaleTransform3D SetScaleY methods (Dcomp.h)
 description: Changes or animates the value of the ScaleY property of a scale transform.
 ms.assetid: 90E48F55-B9A3-464D-9FB2-03AA27AA5A08
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform3D::SetScaleY methods
@@ -24,8 +24,8 @@ Changes or animates the value of the ScaleY property of a scale transform. The S
 
 | Method                                                                                                        | Description                                           |
 |:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetScaleY(float)**](https://msdn.microsoft.com/en-us/library/Hh449020(v=VS.85).aspx)                                     | Changes the value of the ScaleY property.<br/>  |
-| [**SetScaleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449022(v=VS.85).aspx) | Animates the value of the ScaleY property.<br/> |
+| [**SetScaleY(float)**](https://msdn.microsoft.com/library/Hh449020(v=VS.85).aspx)                                     | Changes the value of the ScaleY property.<br/>  |
+| [**SetScaleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449022(v=VS.85).aspx) | Animates the value of the ScaleY property.<br/> |
 
 
 
@@ -47,13 +47,13 @@ Changes or animates the value of the ScaleY property of a scale transform. The S
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDCompositionScaleTransform3D::SetScaleX**](idcompositionscaletransform3d-setscalex-overloaded.md)
 </dt> <dt>
 
-[**IDCompositionScaleTransform3D::SetScaleZ**](https://msdn.microsoft.com/en-us/library/Hh449030(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D::SetScaleZ**](https://msdn.microsoft.com/library/Hh449030(v=VS.85).aspx)
 </dt> </dl>
 
 �

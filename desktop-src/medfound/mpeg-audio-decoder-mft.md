@@ -2,7 +2,7 @@
 Description: The Microsoft MPEG Audio Decoder is a synchronous Media Foundation Transform (MFT) that enables decoding MPEG audio elementary stream formats using the Media Foundation (MF) pipeline.
 ms.assetid: 29A0491D-CA0D-4909-96F0-5640D5EE77F9
 title: MPEG Audio Decoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -75,9 +75,9 @@ The MPEG Audio decoder implements the [**IMFTransform::GetAttributes**](/windows
 
 | Attribute                                                                               | Description                                                                                                                                                                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CODECAPI\_AVDecAudioDualMono**](https://msdn.microsoft.com/en-us/library/Dd317616(v=VS.85).aspx)                   | Specifies whether 2-channel audio being decoded is dual mono or not. Read-only. Set by the MFT. For more information see [**eAVDecAudioDualMono**](https://msdn.microsoft.com/en-us/library/Dd388757(v=VS.85).aspx).                                                                                                                               |
-| [**CODECAPI\_AVDecAudioDualMonoReproMode**](https://msdn.microsoft.com/en-us/library/Dd317614(v=VS.85).aspx) | Specifies how the decoder reproduces dual mono audio. The default value is **eAVDecAudioDualMonoReproMode\_LEFT\_MONO**.<br/> Read/Write. Applications can set this property to change the default behavior. For more information see [**eAVDecAudioDualMono**](https://msdn.microsoft.com/en-us/library/Dd388757(v=VS.85).aspx).<br/> |
-| [**CODECAPI\_AVEncCommonMeanBitRate**](https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx)           | Specifies the compressed stream bit rate. Read-only. Set by the MFT.                                                                                                                                                                                                                                         |
+| [**CODECAPI\_AVDecAudioDualMono**](https://msdn.microsoft.com/library/Dd317616(v=VS.85).aspx)                   | Specifies whether 2-channel audio being decoded is dual mono or not. Read-only. Set by the MFT. For more information see [**eAVDecAudioDualMono**](https://msdn.microsoft.com/library/Dd388757(v=VS.85).aspx).                                                                                                                               |
+| [**CODECAPI\_AVDecAudioDualMonoReproMode**](https://msdn.microsoft.com/library/Dd317614(v=VS.85).aspx) | Specifies how the decoder reproduces dual mono audio. The default value is **eAVDecAudioDualMonoReproMode\_LEFT\_MONO**.<br/> Read/Write. Applications can set this property to change the default behavior. For more information see [**eAVDecAudioDualMono**](https://msdn.microsoft.com/library/Dd388757(v=VS.85).aspx).<br/> |
+| [**CODECAPI\_AVEncCommonMeanBitRate**](https://msdn.microsoft.com/library/Dd317662(v=VS.85).aspx)           | Specifies the compressed stream bit rate. Read-only. Set by the MFT.                                                                                                                                                                                                                                         |
 
 
 

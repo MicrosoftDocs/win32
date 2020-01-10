@@ -10,7 +10,7 @@ api_name:
 - D1114 Non Optional Pointer NULL
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---
@@ -54,7 +54,7 @@ The name of the method that received the invalid parameter.
 
 ### Examples
 
-The following example shows that the [**FillGeometry**](https://msdn.microsoft.com/en-us/library/Dd371933(v=VS.85).aspx) method receives a NULL pointer for the non-optional *geometry* parameter.
+The following example shows that the [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) method receives a NULL pointer for the non-optional *geometry* parameter.
 
 
 ```C++

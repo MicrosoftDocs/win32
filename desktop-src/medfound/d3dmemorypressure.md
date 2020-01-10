@@ -1,8 +1,8 @@
 ---
 Description: Contains data for memory pressure reporting.
 ms.assetid: 42cf0922-53cc-48b9-8359-b88583ef5f1c
-title: D3DMEMORYPRESSURE structure
-ms.topic: structure
+title: D3DMEMORYPRESSURE structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

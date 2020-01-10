@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC GetHardDisk method
+title: IVMVirtualPC GetHardDisk method (VPCCOMInterfaces.h)
 description: Retrieves an object corresponding to an existing disk image file.
 ms.assetid: 648a3f8a-5114-4c14-b9a9-f175941333ab
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

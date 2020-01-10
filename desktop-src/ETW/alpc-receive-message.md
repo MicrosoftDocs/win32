@@ -2,7 +2,7 @@
 Description: This class is the event type class for ALPC receive message events. The following syntax is simplified from MOF code.
 ms.assetid: 6aa98240-e559-47b6-ae55-5a6379e08077
 title: ALPC_Receive_Message class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

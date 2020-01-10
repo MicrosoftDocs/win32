@@ -1,8 +1,8 @@
 ---
 Description: Instructs an IME window to retrieve the logical font used for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 43db70b6-f8bc-4241-9096-5d91fd1e332b
-title: IMC_GETCOMPOSITIONFONT command
-ms.topic: article
+title: IMC_GETCOMPOSITIONFONT command (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ Set to IMC\_GETCOMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**LOGFONT**](https://msdn.microsoft.com/en-us/library/Dd145037(v=VS.85).aspx) structure that receives information about the logical font.
+Pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure that receives information about the logical font.
 
 </dd> </dl>
 

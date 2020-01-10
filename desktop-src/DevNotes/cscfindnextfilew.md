@@ -2,7 +2,7 @@
 Description: Continues a file search operation.
 ms.assetid: 5b1a8f67-7fce-4ba5-918d-826bdaca1947
 title: CSCFindNextFileW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -92,7 +92,7 @@ This parameter can be one of the following values.
 *lpOrgFileTime* \[in\]
 </dt> <dd>
 
-A pointer to a [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure to receive the date and time information for the file or subdirectory.
+A pointer to a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure to receive the date and time information for the file or subdirectory.
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

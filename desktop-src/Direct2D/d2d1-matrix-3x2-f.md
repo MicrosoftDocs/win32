@@ -1,10 +1,10 @@
 ---
-title: D2D1_MATRIX_3X2_F
+title: D2D1_MATRIX_3X2_F (D2d1.h)
 description: Represents a 3-by-2 matrix.
 ms.assetid: f05d7555-6482-4eea-950f-7b443892cc1f
 keywords:
 - D2D1_MATRIX_3X2_F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,11 +23,11 @@ typedef D2D_MATRIX_3X2_F D2D1_MATRIX_3X2_F;
 
 **D2D1\_MATRIX\_3X2** is a new name for the [**D2D\_MATRIX\_3X2\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. For a list of fields provided by the matrix, see [**D2D\_MATRIX\_3X2\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f).
 
-To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F**](https://msdn.microsoft.com/en-us/library/Dd372275(v=VS.85).aspx) class, which is derived from the [**D2D1\_MATRIX\_3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. The **Matrix3x2F** class provides a set of helper methods for performing common tasks, such as creating a translation or skew matrix.
+To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F**](https://msdn.microsoft.com/library/Dd372275(v=VS.85).aspx) class, which is derived from the [**D2D1\_MATRIX\_3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. The **Matrix3x2F** class provides a set of helper methods for performing common tasks, such as creating a translation or skew matrix.
 
 ## Examples
 
-The following example uses the [**D2D1::Matrix3x2F::Rotation**](https://msdn.microsoft.com/en-us/library/Dd372285(v=VS.85).aspx) method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the [**SetTransform**](https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx) method of the render target (*m\_pRenderTarget*).
+The following example uses the [**D2D1::Matrix3x2F::Rotation**](https://msdn.microsoft.com/library/Dd372285(v=VS.85).aspx) method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the [**SetTransform**](https://msdn.microsoft.com/library/Dd742690(v=VS.85).aspx) method of the render target (*m\_pRenderTarget*).
 
 The following illustration shows the effect of applying the preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline.
 
@@ -82,7 +82,7 @@ Code has been omitted from this example. For more information about transforms, 
 
 <dl> <dt>
 
-[**D2D1::Matrix3x2F**](https://msdn.microsoft.com/en-us/library/Dd372275(v=VS.85).aspx)
+[**D2D1::Matrix3x2F**](https://msdn.microsoft.com/library/Dd372275(v=VS.85).aspx)
 </dt> <dt>
 
 [Transforms Overview](direct2d-transforms-overview.md)

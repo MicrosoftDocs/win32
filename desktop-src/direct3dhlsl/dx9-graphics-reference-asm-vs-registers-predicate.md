@@ -1,5 +1,5 @@
 ---
-title: Predicate Register
+title: Predicate Register (HLSL VS reference)
 description: This vertex shader output register contains a per-channel Boolean value.
 ms.assetid: 4b06e19a-78c7-4886-a0e2-225d419282e7
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Predicate Register
+# Predicate Register (HLSL VS reference)
 
 This vertex shader output register contains a per-channel Boolean value.
 

@@ -95,7 +95,7 @@ The output is the same size as the input image.
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,8 +1,8 @@
 ---
 Description: Sets the attribute table for a mesh and the number of entries stored in the table.
 ms.assetid: 629fd31b-d88a-4650-82ed-ab7c40690986
-title: ID3DX10Mesh::SetAttributeTable method
-ms.topic: article
+title: ID3DX10Mesh::SetAttributeTable method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to an array of D3DX10\_ATTRIBUTE\_RANGE structures, representing the ent
 *cAttribTableSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of attributes in the mesh attribute table.
 
@@ -56,7 +56,7 @@ Number of attributes in the mesh attribute table.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

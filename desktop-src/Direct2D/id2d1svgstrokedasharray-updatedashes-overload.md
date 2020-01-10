@@ -1,5 +1,5 @@
 ---
-title: ID2D1SvgStrokeDashArray UpdateDashes methods
+title: ID2D1SvgStrokeDashArray UpdateDashes methods (D2d1svg.h)
 description: Updates the array.
 ms.assetid: b9be98f2-d215-d009-ec9e-732163539053
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1SvgStrokeDashArray::UpdateDashes methods
@@ -24,8 +24,8 @@ Updates the array.
 
 | Method                                                                                               | Description                                                                                                                                                    |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**UpdateDashes(FLOAT \*, UINT32, UINT32)**](https://msdn.microsoft.com/en-us/library/Mt797922(v=VS.85).aspx)               | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
-| [**UpdateDashes(D2D1\_SVG\_LENGTH \*, UINT32, UINT32)**](https://msdn.microsoft.com/en-us/library/Mt797923(v=VS.85).aspx) | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
+| [**UpdateDashes(FLOAT \*, UINT32, UINT32)**](https://msdn.microsoft.com/library/Mt797922(v=VS.85).aspx)               | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
+| [**UpdateDashes(D2D1\_SVG\_LENGTH \*, UINT32, UINT32)**](https://msdn.microsoft.com/library/Mt797923(v=VS.85).aspx) | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Updates the array.
 
 <dl> <dt>
 
-[**ID2D1SvgStrokeDashArray**](https://msdn.microsoft.com/en-us/library/Mt797917(v=VS.85).aspx)
+[**ID2D1SvgStrokeDashArray**](https://msdn.microsoft.com/library/Mt797917(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set a texture.
 ms.assetid: 971802f4-ea7a-4906-83b8-0cd83111716e
-title: ID3DXEffectStateManager::SetTexture method
-ms.topic: article
+title: ID3DXEffectStateManager::SetTexture method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetTexture(
 *Stage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The stage to which the texture is assigned. This is the index value in [**IDirect3DDevice9::SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) or [**IDirect3DDevice9::SetTextureStageState**](https://msdn.microsoft.com/library/Bb174462(v=VS.85).aspx).
 
@@ -56,7 +56,7 @@ A pointer to the texture object. This can be any of the Direct3D texture types (
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

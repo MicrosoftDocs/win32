@@ -1,5 +1,5 @@
 ---
-title: Visible Property
+title: Visible Property (Command Object)
 description: Visible Property
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article

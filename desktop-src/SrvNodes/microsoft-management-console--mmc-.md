@@ -2,7 +2,7 @@
 Description: Microsoft Management Console (MMC)
 ms.assetid: 036cf52b-9250-46c6-a2f9-613b6e35ddfe
 title: Microsoft Management Console (MMC)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

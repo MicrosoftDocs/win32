@@ -1,8 +1,8 @@
 ---
 Description: The Microsoft MPEG-2 Audio Encoder filter encodes MPEG-1 audio layers I and II, including support for the MPEG-2 Low Sampling Frequency (LSF) extensions.
 ms.assetid: a36e838b-8b11-4851-9dd2-efd9fe070770
-title: Microsoft MPEG-2 Audio Encoder
-ms.topic: article
+title: Microsoft MPEG-2 Audio Encoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,7 +23,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)<br/> [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)<br/> [**IVideoEncoder**](https://msdn.microsoft.com/en-us/library/Dd377231(v=VS.85).aspx)<br/>
+[**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)<br/> [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)<br/> [**IVideoEncoder**](https://msdn.microsoft.com/library/Dd377231(v=VS.85).aspx)<br/>
 
 Input Pin Media Types
 

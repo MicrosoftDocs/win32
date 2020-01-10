@@ -1,8 +1,8 @@
 ---
 Description: The read-only DatabaseKeys property of the Error object returns a string collection that contains the primary keys of the database row causing the error. There is one key per entry in the collection.
 ms.assetid: 416a6cef-4c70-4c06-a8d2-801c9440e25a
-title: Error.DatabaseKeys property
-ms.topic: article
+title: Error.DatabaseKeys property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_DatabaseKeys**](https://msdn.microsoft.com/en-us/library/Aa369250(v=VS.85).aspx) function.
+See [**get\_DatabaseKeys**](https://msdn.microsoft.com/library/Aa369250(v=VS.85).aspx) function.
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: g_wszWMADRCAverageTarget
+title: g_wszWMADRCAverageTarget (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: a4e1c99a-9211-4271-af86-5906e9d84e56
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

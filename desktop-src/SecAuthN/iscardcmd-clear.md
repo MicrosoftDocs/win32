@@ -1,8 +1,8 @@
 ---
 Description: The Clear method clears the application protocol data unit (APDU) and reply APDU message buffers.
 ms.assetid: 5fd3ebb9-b492-4668-9dd8-3ffbcfceb12c
-title: ISCardCmd::Clear method
-ms.topic: article
+title: ISCardCmd::Clear method (Scarddat.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::Clear method
 
-\[The **Clear** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Clear** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **Clear** method clears the [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) and [*reply APDU*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) message buffers.
+The **Clear** method clears the [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) and [*reply APDU*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) message buffers.
 
 ## Syntax
 

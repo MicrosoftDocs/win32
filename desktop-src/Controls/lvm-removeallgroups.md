@@ -1,5 +1,5 @@
 ---
-title: LVM_REMOVEALLGROUPS message
+title: LVM_REMOVEALLGROUPS message (Commctrl.h)
 description: Removes all groups from a list-view control.
 ms.assetid: b8971f35-dc04-4729-8ac1-8cabbc86caa6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Specifies the provider ID of the cellular network.
 ms.assetid: 5528dfec-eb1b-4af3-8d7d-03b458e5ae75
 title: ProviderID (providerType) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

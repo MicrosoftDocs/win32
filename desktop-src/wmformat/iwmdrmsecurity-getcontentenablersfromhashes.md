@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity GetContentEnablersFromHashes method
+title: IWMDRMSecurity GetContentEnablersFromHashes method (Wmdrmsdk.h)
 description: The GetContentEnablersFromHashes method retrieves content enabler interfaces that enable renewal of components based on hashed certificates.
 ms.assetid: d7429859-b609-49a2-a369-d02260bc15bf
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

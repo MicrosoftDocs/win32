@@ -1,7 +1,7 @@
 ---
 Description: Adds an item to the Microsoft Active Desktop.
-title: ShellUIHelper.AddDesktopComponent method
-ms.topic: article
+title: ShellUIHelper.AddDesktopComponent method (Exdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ iRetVal = ShellUIHelper.AddDesktopComponent(
 *sURL* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** value that specifies the URL of the new favorite item.
 
@@ -61,7 +61,7 @@ A **String** value that specifies the URL of the new favorite item.
 *sType* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** value that specifies the type of item being added. This can be one of the following values.
 

@@ -1,5 +1,5 @@
 ---
-title: Sample(S,float,int,float) function
+title: Sample(S,float,int,float) function (HLSL reference)
 description: Samples a Texture2D with an optional value to clamp sample level-of-detail (LOD) values to.
 ms.assetid: 899FACB6-40BB-471B-82A7-BDBBC63B206E
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - Sample
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,int,float) function
+# Sample(S,float,int,float) function (HLSL reference)
 
 Samples a [**Texture2D**](sm5-object-texture2d.md) with an optional value to clamp sample level-of-detail (LOD) values to.
 

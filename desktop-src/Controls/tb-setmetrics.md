@@ -1,5 +1,5 @@
 ---
-title: TB_SETMETRICS message
+title: TB_SETMETRICS message (Commctrl.h)
 description: Sets the metrics of a toolbar control.
 ms.assetid: 60e35d65-6291-4a55-a4cf-19b5b1db8a65
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

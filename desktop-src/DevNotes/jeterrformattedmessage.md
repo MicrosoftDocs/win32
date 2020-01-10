@@ -2,7 +2,7 @@
 Description: Retrieves an error code identifier (IDA) and creates the final display string when a Jet error and extended error information is provided.
 ms.assetid: 961da4fb-cb70-4f3d-a4a4-1774be7a05f4
 title: JetErrFormattedMessage function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -103,7 +103,7 @@ If the function succeeds, it returns **JET\_errSuccess**; otherwise, it returns 
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

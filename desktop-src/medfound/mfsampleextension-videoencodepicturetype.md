@@ -1,8 +1,8 @@
 ---
 Description: Specifies the type of picture that is output by a video encoder.
 ms.assetid: 18A47033-3EAC-46C3-94AB-6ED20732F63C
-title: MFSampleExtension_VideoEncodePictureType attribute
-ms.topic: article
+title: MFSampleExtension_VideoEncodePictureType attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

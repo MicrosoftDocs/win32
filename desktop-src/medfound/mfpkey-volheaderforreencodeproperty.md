@@ -1,8 +1,8 @@
 ---
 Description: For segment re-encoding, specifies the codec private data of the file that is being re-encoded.
 ms.assetid: 166a4c3b-e4bc-408c-ae83-36ed0c4419e5
-title: MFPKEY_VOLHEADERFORREENCODE Property
-ms.topic: article
+title: MFPKEY_VOLHEADERFORREENCODE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ For segment re-encoding, specifies the codec private data of the file that is be
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

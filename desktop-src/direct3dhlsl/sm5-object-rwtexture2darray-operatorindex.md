@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: RWTexture2DArray::Operator  function
 description: Returns a resource variable.
 ms.assetid: ae3d0697-ea0a-450d-bdfe-7bc5d8faf11a
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

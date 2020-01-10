@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the current state of the smart card.
 ms.assetid: 0e6e4a8f-ecad-4a82-8804-aaf58f13f7ca
-title: ISCard::get_Status method
-ms.topic: article
+title: ISCard::get_Status method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::get\_Status method
 
-\[The **get\_Status** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_Status** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_Status** method retrieves the current [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **get\_Status** method retrieves the current [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 

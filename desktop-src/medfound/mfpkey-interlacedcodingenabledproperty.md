@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether interlaced video encoding will be used.
 ms.assetid: d3fd52ac-5b98-4015-ae0a-4ec2e5cea083
-title: MFPKEY_INTERLACEDCODINGENABLED Property
-ms.topic: article
+title: MFPKEY_INTERLACEDCODINGENABLED Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

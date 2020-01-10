@@ -2,10 +2,10 @@
 title: defb - vs
 description: Defines a Boolean constant value, which should be loaded anytime a shader is set to a device.
 ms.assetid: 1db41115-14aa-462e-a7ee-c0a53fee97d8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

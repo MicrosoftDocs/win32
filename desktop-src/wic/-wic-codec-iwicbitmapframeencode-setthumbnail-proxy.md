@@ -2,7 +2,7 @@
 Description: Proxy function for the SetThumbnail method.
 ms.assetid: 3ad473ec-9218-4ed1-961d-a2aa0d542119
 title: IWICBitmapFrameEncode_SetThumbnail_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

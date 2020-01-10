@@ -2,7 +2,7 @@
 Description: Specifies the applications contained within each partition.
 ms.assetid: '264a35fd-ba71-4ae9-908a-24a72167c26b'
 title: Partitions collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

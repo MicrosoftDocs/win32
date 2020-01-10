@@ -30,7 +30,7 @@ There are two key usage scenarios where Dynamic Memory comes into play, host-sid
 
 **Host-side applications (management tools)**
 
-Old tools managing a new Windows Server 2008 R2 SP1 server will not be able to access the new Dynamic Memory settings. New WMI APIs and performance counters have been developed to manage the new Dynamic Memory settings for Hyper-V virtual machines. Software developers working on management tools should take advantage of these APIs and counters for use with Windows Server 2008 R2 SP1 with the Hyper-V role installed. Details about these new APIs will be available via [Hyper-V WMI Provider documentation on MSDN](https://msdn.microsoft.com/en-us/library/Cc723875(v=VS.85).aspx).
+Old tools managing a new Windows Server 2008 R2 SP1 server will not be able to access the new Dynamic Memory settings. New WMI APIs and performance counters have been developed to manage the new Dynamic Memory settings for Hyper-V virtual machines. Software developers working on management tools should take advantage of these APIs and counters for use with Windows Server 2008 R2 SP1 with the Hyper-V role installed. Details about these new APIs will be available via [Hyper-V WMI Provider documentation on MSDN](https://msdn.microsoft.com/library/Cc723875(v=VS.85).aspx).
 
 **Guest-side applications**
 
@@ -45,7 +45,7 @@ Virtual machines must have updated integration services (SP1) installed in order
 ## Links to Other Resources
 
 -   [Dynamic Memory Coming To Hyper-V blog](https://go.microsoft.com/fwlink/p/?linkid=205041)
--   [Using the Hyper-V WMI Provider](https://msdn.microsoft.com/en-us/library/Cc723875(v=VS.85).aspx)
+-   [Using the Hyper-V WMI Provider](https://msdn.microsoft.com/library/Cc723875(v=VS.85).aspx)
 
 ## Disclaimer
 

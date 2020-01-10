@@ -1,5 +1,5 @@
 ---
-title: Edit Control
+title: Edit Control (Windows Controls)
 description: This section contains information about the programming elements used with edit controls. An edit control is a rectangular control window typically used in a dialog box to permit the user to enter and edit text by typing on the keyboard.
 ms.assetid: 'vs|controls|~\controls\editcontrols\editcontrols.htm'
 ms.topic: article
@@ -30,7 +30,7 @@ This section contains information about the programming elements used with edit 
 
 | Topic                                        | Contents                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx) | An application-defined callback function used with the [**EM\_SETWORDBREAKPROC**](em-setwordbreakproc.md) message. A multiline edit control or a rich edit control calls an [*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx) function to break a line of text.<br/> The **EDITWORDBREAKPROC** type defines a pointer to this callback function. [*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx) is a placeholder for the application-defined function name. <br/> |
+| [*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx) | An application-defined callback function used with the [**EM\_SETWORDBREAKPROC**](em-setwordbreakproc.md) message. A multiline edit control or a rich edit control calls an [*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx) function to break a line of text.<br/> The **EDITWORDBREAKPROC** type defines a pointer to this callback function. [*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx) is a placeholder for the application-defined function name. <br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectDepthStencilViewVariable interface
+title: ID3DX11EffectDepthStencilViewVariable interface (D3dx11effect.h)
 description: A depth-stencil-view-variable interface accesses a depth-stencil view.
 ms.assetid: 316bf0cc-a7cd-4a40-932a-d566e3c2001e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

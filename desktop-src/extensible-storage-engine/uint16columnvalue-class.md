@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint16columnvalue(v=EXCHG.10)
 ms:contentKeyID: 55104170
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.UInt16ColumnValue
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity GetContentEnablersForRevocations method
+title: IWMDRMSecurity GetContentEnablersForRevocations method (Wmdrmsdk.h)
 description: The GetContentEnablersForRevocations method retrieves content enabler interfaces that enable renewal of components based on revoked certificates.
 ms.assetid: 9e5b58b8-07d6-4607-a40f-cd7df4984ac5
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

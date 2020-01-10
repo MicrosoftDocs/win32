@@ -1,5 +1,5 @@
 ---
-title: INapComponentInfo GetDescription method
+title: INapComponentInfo GetDescription method (NapCommon.h)
 description: Is used by the NAP System to get the description of a health client.
 ms.assetid: f8d1d5ea-0de6-426d-90eb-b035b5bd0bfd
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

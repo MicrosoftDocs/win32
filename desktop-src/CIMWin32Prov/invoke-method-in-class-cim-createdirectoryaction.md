@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_CreateDirectoryAction class takes a p
 ms.assetid: f14e215d-31f2-46c5-b45e-3de64ce46bf2
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_CreateDirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

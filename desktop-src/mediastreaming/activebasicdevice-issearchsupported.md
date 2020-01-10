@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice IsSearchSupported property
+title: ActiveBasicDevice IsSearchSupported property (PlayToDevice.h)
 description: Gets a value that indicates if the device supports search.
 ms.assetid: 091D467A-1FF6-4635-BF89-4E62AC9C660A
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ A pointer to a**boolean** that indicates if the device supports search.
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

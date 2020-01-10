@@ -1,5 +1,5 @@
 ---
-title: How to Ensure That Your Application Displays Properly on High-DPI Displays
+title: How to Ensure That Your Application Displays Properly on High-DPI Displays (DirectWrite)
 description: Describes how to create a window the displays properly on high-DPI displays.
 ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
 ms.topic: article
@@ -18,7 +18,7 @@ Although [DirectWrite](direct-write-portal.md) addresses many high-DPI issues fo
 
 ## Step 1: Use the System DPI When Creating Windows
 
-This can be done by using [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) or by using [GDI](/windows/win32/gdi/windows-gdi).
+This can be done by using [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) or by using [GDI](/windows/win32/gdi/windows-gdi).
 
 ### Direct2D
 
@@ -65,7 +65,7 @@ The following code uses the [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-
 
 ### GDI
 
-[GDI](interoperating-with-gdi.md) provides the [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) function for retrieving device information. You can retrieve DPI information by passing the *LOGPIXELSX* and *LOGPIXELSY* index values. The formula for determining the horizontal and vertical size of a window is the same as with the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) example above.
+[GDI](interoperating-with-gdi.md) provides the [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) function for retrieving device information. You can retrieve DPI information by passing the *LOGPIXELSX* and *LOGPIXELSY* index values. The formula for determining the horizontal and vertical size of a window is the same as with the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) example above.
 
 The following code uses the [**GetDeviceCaps**](/windows/win32/api/wingdi/nf-wingdi-getdevicecaps) function to create a 640 x 480 window, scaled to the system DPI.
 

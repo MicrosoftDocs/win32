@@ -3,9 +3,9 @@ Description: The WBEMTime class assignment operators are overloaded to facilitat
 audience: developer
 ms.assetid: 47978056-d46f-4f8f-99cb-8463b44da7cf
 ms.tgt_platform: multiple
-title: WBEMTime::operator= operators
+title: WBEMTime::operator= operators (WbemTime.h)
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # WBEMTime::operator= operators
@@ -20,11 +20,11 @@ The [**WBEMTime**](wbemtime.md) class assignment operators are overloaded to fac
 
 | Operator                                                                     | Description                                                    |
 |:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
-| [**operator=(BSTR)**](https://msdn.microsoft.com/en-us/library/Aa394031(v=VS.85).aspx)               | Converts a **BSTR** to **WBEMTime** format.<br/>         |
-| [**operator=(time\_t&)**](https://msdn.microsoft.com/en-us/library/Aa394035(v=VS.85).aspx)        | Converts **time\_t** to **WBEMTime** format.<br/>        |
-| [**operator=(FILETIME&)**](https://msdn.microsoft.com/en-us/library/Aa394032(v=VS.85).aspx)     | Converts **FILETIME** to **WBEMTime** format.<br/>       |
-| [**operator=(struct tm&)**](https://msdn.microsoft.com/en-us/library/Aa394033(v=VS.85).aspx)   | Converts a **tm** structure to **WBEMTime** format.<br/> |
-| [**operator=(SYSTEMTIME&)**](https://msdn.microsoft.com/en-us/library/Aa394034(v=VS.85).aspx) | Converts **SYSTEMTIME** to **WBEMTime** format.<br/>     |
+| [**operator=(BSTR)**](https://msdn.microsoft.com/library/Aa394031(v=VS.85).aspx)               | Converts a **BSTR** to **WBEMTime** format.<br/>         |
+| [**operator=(time\_t&)**](https://msdn.microsoft.com/library/Aa394035(v=VS.85).aspx)        | Converts **time\_t** to **WBEMTime** format.<br/>        |
+| [**operator=(FILETIME&)**](https://msdn.microsoft.com/library/Aa394032(v=VS.85).aspx)     | Converts **FILETIME** to **WBEMTime** format.<br/>       |
+| [**operator=(struct tm&)**](https://msdn.microsoft.com/library/Aa394033(v=VS.85).aspx)   | Converts a **tm** structure to **WBEMTime** format.<br/> |
+| [**operator=(SYSTEMTIME&)**](https://msdn.microsoft.com/library/Aa394034(v=VS.85).aspx) | Converts **SYSTEMTIME** to **WBEMTime** format.<br/>     |
 
 
 

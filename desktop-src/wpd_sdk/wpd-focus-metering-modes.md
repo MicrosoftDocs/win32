@@ -1,8 +1,8 @@
 ---
 Description: The WPD\_FOCUS\_METERING\_MODES enumeration type describes how a device should decide what part of a frame to use to set focus.
 ms.assetid: 0e68d0e8-2ce3-4994-99c2-2ff2293d8a20
-title: WPD_FOCUS_METERING_MODES enumeration
-ms.topic: enumeration
+title: WPD_FOCUS_METERING_MODES enumeration (PortableDevice.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

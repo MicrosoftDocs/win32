@@ -1,5 +1,5 @@
 ---
-title: LVM_GETITEMSTATE message
+title: LVM_GETITEMSTATE message (Commctrl.h)
 description: Retrieves the state of a list-view item. You can send this message explicitly or by using the ListView\_GetItemState macro.
 ms.assetid: 862960ed-a64a-4d66-b384-9228932eae6f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

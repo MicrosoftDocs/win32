@@ -1,8 +1,8 @@
 ---
 Description: The GetCurrentBuffer method retrieves a copy of the buffer associated with the most recent sample.
 ms.assetid: 08550c82-4711-4725-9cd0-19b43cf4c92e
-title: ISampleGrabber::GetCurrentBuffer method
-ms.topic: article
+title: ISampleGrabber::GetCurrentBuffer method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

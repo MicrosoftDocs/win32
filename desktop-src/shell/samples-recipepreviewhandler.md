@@ -107,10 +107,10 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
 
 <dl> <dt>
 
-[**IPreviewHandler**](https://msdn.microsoft.com/en-us/library/Bb775315(v=VS.85).aspx)
+[**IPreviewHandler**](https://msdn.microsoft.com/library/Bb775315(v=VS.85).aspx)
 </dt> <dt>
 
-[**IPreviewHandlerFrame**](https://msdn.microsoft.com/en-us/library/Bb775309(v=VS.85).aspx)
+[**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx)
 </dt> <dt>
 
 [Application User Model IDs (AppUserModelIDs)](appids.md)

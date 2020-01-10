@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a pointer to a DirectX file object's name. Deprecated.
 ms.assetid: feb3faa2-22b9-47ed-8a38-33092821d484
-title: IDirectXFileObject::GetName method
-ms.topic: article
+title: IDirectXFileObject::GetName method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT GetName(
 *pstrNameBuf* \[out\]
 </dt> <dd>
 
-Type: **[**LPSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the buffer in which the DirectX file object's name will be copied. Set to **NULL** if only the buffer length is needed.
 
@@ -48,7 +48,7 @@ Pointer to the buffer in which the DirectX file object's name will be copied. Se
 *pdwBufLen* \[in, out\]
 </dt> <dd>
 
-Type: **[**LPDWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPDWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a DWORD specifying the length of the buffer pointed to by pstrNameBuf. The pdwBufLen parameter value will be modified to the buffer length needed to hold the object's name even if pstrNameBuf is **NULL**. In either case, the function will return DXFILEERR\_BADVALUE if the original value of pdwBufLen is not as large as or larger than the length needed to hold the object's name.
 
@@ -56,7 +56,7 @@ Pointer to a DWORD specifying the length of the buffer pointed to by pstrNameBuf
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values.DXFILEERR\_BADALLOC DXFILEERR\_BADVALUE
 

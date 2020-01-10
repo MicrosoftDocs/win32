@@ -1,8 +1,8 @@
 ---
 Description: Initiate the rendering of a parabolic environment map.
 ms.assetid: 80456084-f5f5-4dfe-805a-7eaaf7f7cb2a
-title: ID3DXRenderToEnvMap::BeginParabolic method
-ms.topic: article
+title: ID3DXRenderToEnvMap::BeginParabolic method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb20590
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL.E\_FAIL
 

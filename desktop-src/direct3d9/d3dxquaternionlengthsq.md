@@ -1,8 +1,8 @@
 ---
 Description: Returns the square of the length of a quaternion.
 ms.assetid: 358d2a2b-7baf-4ae9-9b92-7a7f01ca843b
-title: D3DXQuaternionLengthSq function
-ms.topic: article
+title: D3DXQuaternionLengthSq function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The quaternion's squared length.
 

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRotateTransform SetCenterX methods
+title: IDCompositionRotateTransform SetCenterX methods (Dcomp.h)
 description: Changes or animates the value of the CenterX property of a 2D rotation transform.
 ms.assetid: D5CE4491-0A06-4824-BDE5-A839E0E60EA7
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRotateTransform::SetCenterX methods
@@ -24,8 +24,8 @@ Changes or animates the value of the CenterX property of a 2D rotation transform
 
 | Method                                                                                                         | Description                                            |
 |:---------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterX(float)**](https://msdn.microsoft.com/en-us/library/Hh448978(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
-| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448980(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
+| [**SetCenterX(float)**](https://msdn.microsoft.com/library/Hh448978(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
+| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448980(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterX property of a 2D rotation transform
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
 </dt> </dl>
 
 �

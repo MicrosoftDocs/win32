@@ -11,9 +11,8 @@ api_location:
 - deliveryoptimizationdownloadtypes.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
 ms.localizationpriority: low
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 07/29/2019
 ---
 

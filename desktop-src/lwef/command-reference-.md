@@ -1,5 +1,5 @@
 ---
-title: Command Reference
+title: Command Reference (Microsoft Agent Character Editor)
 description: Command Reference
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
 ms.topic: article

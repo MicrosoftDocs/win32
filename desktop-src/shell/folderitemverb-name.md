@@ -1,8 +1,8 @@
 ---
 Description: Contains the verb's name.
 ms.assetid: d18fddac-eb51-4031-a572-1bfef2f757a9
-title: FolderItemVerb.Name property
-ms.topic: article
+title: FolderItemVerb.Name property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -32,7 +32,7 @@ strName = FolderItemVerb.Name
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx) that receives the Name property.
+A variable of type [**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx) that receives the Name property.
 
 ## Examples
 

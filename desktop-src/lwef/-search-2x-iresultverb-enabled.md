@@ -1,5 +1,5 @@
 ---
-title: IResultVerb Enabled property
+title: IResultVerb Enabled property (WdsSharedIDL.h)
 description: This property returns TRUE if the verb is enabled.
 ms.assetid: 27e3dbb8-678e-46c7-82e5-40b86cb157a7
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

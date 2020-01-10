@@ -1,8 +1,8 @@
 ---
 Description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
-title: StopTrace function
-ms.topic: article
+title: StopTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -77,7 +77,7 @@ If you are using a newly initialized structure, you only need to set the **Wnode
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

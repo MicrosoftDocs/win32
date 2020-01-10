@@ -2,7 +2,7 @@
 Description: The PatchFiles property returns a StringList object that contains a list of files that can be updated by the provided list of patches.
 ms.assetid: 14549847-8558-4a9a-9ad5-3575c3f4391e
 title: Installer.PatchFiles property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

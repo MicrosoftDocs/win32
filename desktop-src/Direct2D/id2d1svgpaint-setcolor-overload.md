@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,8 +24,8 @@ Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_C
 
 | Method                                                         | Description                                                                                      |
 |:---------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [**SetColor(D2D1\_COLOR\_F \*)**](https://msdn.microsoft.com/en-us/library/Mt797898(v=VS.85).aspx)  | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
-| [**SetColor(D2D1\_COLOR\_F &)**](https://msdn.microsoft.com/en-us/library/Mt797899(v=VS.85).aspx) | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
+| [**SetColor(D2D1\_COLOR\_F \*)**](https://msdn.microsoft.com/library/Mt797898(v=VS.85).aspx)  | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
+| [**SetColor(D2D1\_COLOR\_F &)**](https://msdn.microsoft.com/library/Mt797899(v=VS.85).aspx) | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_C
 
 <dl> <dt>
 
-[**ID2D1SvgPaint**](https://msdn.microsoft.com/en-us/library/Mt797893(v=VS.85).aspx)
+[**ID2D1SvgPaint**](https://msdn.microsoft.com/library/Mt797893(v=VS.85).aspx)
 </dt> </dl>
 
  

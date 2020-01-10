@@ -1,8 +1,8 @@
 ---
 Description: The Start method starts a capture.
 ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
-title: IDelaydC::Start method
-ms.topic: article
+title: IDelaydC::Start method (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -14,7 +14,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: method
+ms.topic: reference
 ms.date: 08/29/2019
 ---
 

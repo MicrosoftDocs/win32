@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed
-title: CUnknown.CUnknown constructor
-ms.topic: article
+title: CUnknown.CUnknown constructor (Combase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

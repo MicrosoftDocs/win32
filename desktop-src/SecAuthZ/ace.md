@@ -1,7 +1,7 @@
 ---
 Description: Lists the currently defined ACE types.
 ms.assetid: '980b8242-2ba2-469f-b834-da7d3fb22e14'
-title: ACE
+title: ACE (Winnt.h)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -186,7 +186,7 @@ System-alarm and object-specific system-alarm ACEs are not currently supported.
 
 <dl> <dt>
 
-[**AddAce**](https://msdn.microsoft.com/en-us/library/Aa374970(v=VS.85).aspx)
+[**AddAce**](https://msdn.microsoft.com/library/Aa374970(v=VS.85).aspx)
 </dt> <dt>
 
 [**ACCESS\_ALLOWED\_ACE**](/windows/desktop/api/Winnt/ns-winnt-access_allowed_ace)

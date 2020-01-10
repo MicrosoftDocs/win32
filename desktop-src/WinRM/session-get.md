@@ -1,5 +1,5 @@
 ---
-title: Session.Get method
+title: Session.Get method (WSManDisp.h)
 description: Retrieves the resource specified by the URI and returns an XML representation of the current instance of the resource.
 ms.assetid: 873242fd-9da3-42f4-a18e-258fedba77ec
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

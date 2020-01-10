@@ -38,7 +38,7 @@ The first parameter that [**D3DXCreateTextureFromFile**](d3dxcreatetexturefromfi
 
 Direct3D supports multiple texture blending through the concept of texture stages. Each texture stage contains a texture and operations that can be performed on the texture. The textures in the texture stages form the set of current textures. For more information, see [Texture Blending (Direct3D 9)](texture-blending.md). The state of each texture is encapsulated in its texture stage.
 
-In a C++ application, the state of each texture must be set with the [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) method. Pass the stage number (0-7) as the value of the first parameter. Set the value of the second parameter to a member of the [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx) enumerated type. The final parameter is the state value for the particular texture state.
+In a C++ application, the state of each texture must be set with the [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api) method. Pass the stage number (0-7) as the value of the first parameter. Set the value of the second parameter to a member of the [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx) enumerated type. The final parameter is the state value for the particular texture state.
 
 Using texture interface pointers, your application can render a blend of up to eight textures. Set the current textures by invoking the [**IDirect3DDevice9::SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) method. Direct3D blends all current textures onto the primitives that it renders.
 

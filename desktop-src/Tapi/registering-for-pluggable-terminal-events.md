@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Registering for Pluggable Terminal Events
 
-The event registration process take place when the terminal is selected by a stream. In the terminal application's implementation of the [**SelectTerminal**](https://msdn.microsoft.com/en-us/library/ms732429(v=VS.85).aspx) method, we can use the [**ITTerminal**](https://msdn.microsoft.com/en-us/library/ms732646(v=VS.85).aspx) interface of the terminal that was attached to the stream, and call **QueryInterface** to find [**ITPluggableTerminalEventSinkRegistration**](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration).
+The event registration process take place when the terminal is selected by a stream. In the terminal application's implementation of the [**SelectTerminal**](https://msdn.microsoft.com/library/ms732429(v=VS.85).aspx) method, we can use the [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx) interface of the terminal that was attached to the stream, and call **QueryInterface** to find [**ITPluggableTerminalEventSinkRegistration**](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration).
 
 ``` syntax
 HRESULT hr = E_FAIL;

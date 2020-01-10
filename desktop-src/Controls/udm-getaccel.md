@@ -1,5 +1,5 @@
 ---
-title: UDM_GETACCEL message
+title: UDM_GETACCEL message (Commctrl.h)
 description: Retrieves acceleration information for an up-down control.
 ms.assetid: 794538d6-ca01-4f05-82d1-ce7bc0f76f64
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

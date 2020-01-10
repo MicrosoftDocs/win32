@@ -1,8 +1,8 @@
 ---
 Description: Computes the tangent vectors for the texture coordinates given in the texture stage. Provided to support legacy applications. Use D3DXComputeTangentFrameEx for better results.
 ms.assetid: 39748459-3f9b-4b48-ae13-7143eb29c292
-title: D3DXComputeTangent function
-ms.topic: article
+title: D3DXComputeTangent function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface that represent the input m
 *TexStageIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Index that represents the texture stage.
 
@@ -61,7 +61,7 @@ Index that represents the texture stage.
 *TangentIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Index that provides the usage index for the tangent data. The vertex declaration implies the usage; this index modifies the usage with the usage index. For more information about a vertex declaration, see [Vertex Declaration (Direct3D 9)](vertex-declaration.md).
 
@@ -70,7 +70,7 @@ Index that provides the usage index for the tangent data. The vertex declaration
 *BinormIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Index that provides the usage index for the binormal data. The vertex declaration implies the usage; this index modifies the usage with the usage index. For more information about a vertex declaration, see [Vertex Declaration (Direct3D 9)](vertex-declaration.md).
 
@@ -79,7 +79,7 @@ Index that provides the usage index for the binormal data. The vertex declaratio
 *Wrap* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Set this value to 0 for no wrapping, or to 1 for wrapping in the U and V directions.
 
@@ -88,7 +88,7 @@ Set this value to 0 for no wrapping, or to 1 for wrapping in the U and V directi
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face to be filled with adjacent face indices. The number of bytes in this array must be at least ((3 \* [**GetNumFaces**](id3dxbasemesh--getnumfaces.md)) \* sizeof(DWORD)).
 
@@ -96,7 +96,7 @@ Pointer to an array of three DWORDs per face to be filled with adjacent face ind
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

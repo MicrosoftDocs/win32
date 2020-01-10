@@ -2,7 +2,7 @@
 Description: Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.
 ms.assetid: afce5553-ef18-4a7f-b1c8-fbe00d3277e0
 title: IEKU::Name property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -57,7 +57,7 @@ A value of the [**CAPICOM\_EKU**](capicom-eku.md) enumeration that specifies the
 
 ## Remarks
 
-When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the object is reset.
+When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset.
 
 ## Requirements
 

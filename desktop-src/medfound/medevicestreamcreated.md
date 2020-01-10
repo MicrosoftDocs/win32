@@ -1,7 +1,7 @@
 ---
 Description: MEDeviceStreamCreated is an extended media event type generated with an MEUnknown media event by the Device MFT.
 ms.assetid: 8aaa6908-0f2e-4a73-9362-69f42b74f495
-title: MEDeviceStreamCreated event
+title: MEDeviceStreamCreated event (mftransform.h)
 ms.topic: article
 ms.date: 08/31/2018
 ---
@@ -17,7 +17,7 @@ This extended media event type has no payload.  Appropriate HRESULT should be pr
 
 ## Remarks
 
-This extended media event must be sent by the Device MFT as a part of the media type selection on the output stream of the DMFT.  When the SetOutputStreamState is invoked on the IMFDeviceTransform interface, the DMFT is responsible for signaling the change in the required input stream states with the [METransformInputStreamStateChanged](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream/metransforminputstreamstatechanged) media event. When the input stream state change has been acknowledged by the pipeline with the call into SetInputStreamState of the DMFT, the DMFT is responsible for completing its internal state configuration and raising the **MEDeviceStreamCreated** extended media event type.
+This extended media event must be sent by the Device MFT as a part of the media type selection on the output stream of the DMFT.  When the SetOutputStreamState is invoked on the IMFDeviceTransform interface, the DMFT is responsible for signaling the change in the required input stream states with the [METransformInputStreamStateChanged](https://docs.microsoft.com/windows-hardware/drivers/stream/metransforminputstreamstatechanged) media event. When the input stream state change has been acknowledged by the pipeline with the call into SetInputStreamState of the DMFT, the DMFT is responsible for completing its internal state configuration and raising the **MEDeviceStreamCreated** extended media event type.
 
 If this extended media event type is not raised, the Device Transform Manager will not deliver any input frames to the DMFT.
 The extended media event type must also set as an attribute of the IMFMediaEvent, the output stream ID using the **MF_EVENT_MFT_INPUT_STREAM_ID** attribute.

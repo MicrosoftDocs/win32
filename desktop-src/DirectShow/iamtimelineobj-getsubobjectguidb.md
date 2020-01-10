@@ -1,8 +1,8 @@
 ---
 Description: The GetSubObjectGUIDB method retrieves the GUID of the subobject associated with this timeline object. This method is equivalent to IAMTimelineObj::GetSubObjectGUID, but receives a BSTR value.
 ms.assetid: 693cafda-78c8-4ba4-90d7-23fedcd1fc52
-title: IAMTimelineObj::GetSubObjectGUIDB method
-ms.topic: article
+title: IAMTimelineObj::GetSubObjectGUIDB method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: glColor4us function
+title: glColor4us function (Gl.h)
 description: Sets the current color.
 ms.assetid: 800ab5f7-bf42-4df6-8f3f-64df651240bd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

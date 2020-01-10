@@ -1,12 +1,12 @@
 ---
-title: Coding For Multiple Cores on Xbox 360 and Microsoft Windows
+title: Coding for multicore on Xbox 360 and Windows
 description: This topic gives some advice on how to get started with multithreaded programming.
 ms.assetid: 661f13a6-c73d-8513-2bad-0ef9d1a361a0
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Coding For Multiple Cores on Xbox 360 and Microsoft Windows
+# Coding for multicore on Xbox 360 and Windows
 
 For years the performance of processors has increased steadily, and games and other programs have reaped the benefits of this increasing power without having to do anything special.
 
@@ -266,7 +266,7 @@ The **\_\_declspec(thread)** technique does not work with dynamically loaded DLL
 
 ## Destroying Threads
 
-The only safe way to destroy a thread is to have the thread itself exit, either by returning from the main thread function or by having the thread call [**ExitThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread) or [**\_endthreadex**](https://msdn.microsoft.com/en-us/library/hw264s73(v=VS.71).aspx). If a thread is created with [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx), then it should use **\_endthreadex** or return from the main thread function, since using **ExitThread** won't properly free CRT resources. Never call the [**TerminateThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread) function, because the thread will not be properly cleaned up. Threads should always commit suicide—they should never be murdered.
+The only safe way to destroy a thread is to have the thread itself exit, either by returning from the main thread function or by having the thread call [**ExitThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread) or [**\_endthreadex**](https://msdn.microsoft.com/library/hw264s73(v=VS.71).aspx). If a thread is created with [**\_beginthreadex**](https://msdn.microsoft.com/library/ms397047(v=VS.70).aspx), then it should use **\_endthreadex** or return from the main thread function, since using **ExitThread** won't properly free CRT resources. Never call the [**TerminateThread**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread) function, because the thread will not be properly cleaned up. Threads should always commit suicide—they should never be murdered.
 
 ## OpenMP
 

@@ -1,8 +1,8 @@
 ---
 Description: The FindPin method retrieves the pin with the specified identifier.
 ms.assetid: d07a298f-ddb0-44eb-85ca-81735875cdf3
-title: CBaseRenderer.FindPin method
-ms.topic: article
+title: CBaseRenderer.FindPin method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

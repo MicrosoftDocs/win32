@@ -1,5 +1,5 @@
 ---
-title: D3DX12GetBaseSubobjectType function
+title: D3DX12GetBaseSubobjectType function (D3dx12.h)
 description: Returns the subobject type that corresponds to the base class of the passed-in subobject type.
 ms.assetid: 3744B042-094C-4EA4-8185-A018B728D843
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - DllExport
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

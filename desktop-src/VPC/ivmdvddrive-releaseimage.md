@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive ReleaseImage method
+title: IVMDVDDrive ReleaseImage method (VPCCOMInterfaces.h)
 description: Releases a captured ISO image from the DVD drive.
 ms.assetid: 7cc95cf3-9d25-495f-863c-8eddd4068835
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

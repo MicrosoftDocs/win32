@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 # Using a Callback Function to Manage Buffered Playback
 
-You can define your own callback function to manage buffered playback of MIDI output devices. The callback function is documented as [**MidiOutProc**](https://msdn.microsoft.com/en-us/library/Dd798478(v=VS.85).aspx).
+You can define your own callback function to manage buffered playback of MIDI output devices. The callback function is documented as [**MidiOutProc**](https://msdn.microsoft.com/library/Dd798478(v=VS.85).aspx).
 
 The following messages can be sent to the *wMsg* parameter of the **MidiOutProc** callback function.
 
@@ -32,9 +32,9 @@ The following messages can be sent to the *wMsg* parameter of the **MidiOutProc*
 
 | Value                           | Meaning                                                                                                                                                                  |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MOM\_CLOSE**](mom-close.md) | Sent when the device is closed by using the [**midiOutClose**](https://msdn.microsoft.com/en-us/library/Dd798468(v=VS.85).aspx) function.                                                                               |
-| [**MOM\_DONE**](mom-done.md)   | Sent when the device driver is finished with a data block sent by using the [**midiOutLongMsg**](https://msdn.microsoft.com/en-us/library/Dd798474(v=VS.85).aspx) or [**midiStreamOut**](https://msdn.microsoft.com/en-us/library/Dd798487(v=VS.85).aspx) function. |
-| [**MOM\_OPEN**](mom-open.md)   | Sent when the device is opened by using the [**midiOutOpen**](https://msdn.microsoft.com/en-us/library/Dd798476(v=VS.85).aspx) function.                                                                                 |
+| [**MOM\_CLOSE**](mom-close.md) | Sent when the device is closed by using the [**midiOutClose**](https://msdn.microsoft.com/library/Dd798468(v=VS.85).aspx) function.                                                                               |
+| [**MOM\_DONE**](mom-done.md)   | Sent when the device driver is finished with a data block sent by using the [**midiOutLongMsg**](https://msdn.microsoft.com/library/Dd798474(v=VS.85).aspx) or [**midiStreamOut**](https://msdn.microsoft.com/library/Dd798487(v=VS.85).aspx) function. |
+| [**MOM\_OPEN**](mom-open.md)   | Sent when the device is opened by using the [**midiOutOpen**](https://msdn.microsoft.com/library/Dd798476(v=VS.85).aspx) function.                                                                                 |
 
 
 

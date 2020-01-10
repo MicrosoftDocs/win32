@@ -2,7 +2,7 @@
 Description: The Windows Installer sets the value of the AppDataFolder property to the full path of the Roaming folder for the current user.
 ms.assetid: d37cce18-6c65-4ee3-b6ab-27a51fb6853f
 title: AppDataFolder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

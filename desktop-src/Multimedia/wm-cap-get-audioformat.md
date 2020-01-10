@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_GET_AUDIOFORMAT message
+title: WM_CAP_GET_AUDIOFORMAT message (Vfw.h)
 description: The WM\_CAP\_GET\_AUDIOFORMAT message obtains the audio format or the size of the audio format. You can send this message explicitly or by using the capGetAudioFormat and capGetAudioFormatSize macros.
 ms.assetid: 25e58863-2b1e-4ed8-9f34-c39617a15bc1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="psAudioFormat"></span><span id="psaudioformat"></span><span id="PSAUDIOFORMAT"></span>*psAudioFormat*
 </dt> <dd>
 
-Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) structure, or **NULL**. If the value is **NULL**, the size, in bytes, required to hold the structure is returned.
+Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure, or **NULL**. If the value is **NULL**, the size, in bytes, required to hold the structure is returned.
 
 </dd> </dl>
 

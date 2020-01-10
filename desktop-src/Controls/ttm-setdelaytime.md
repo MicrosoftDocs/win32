@@ -1,5 +1,5 @@
 ---
-title: TTM_SETDELAYTIME message
+title: TTM_SETDELAYTIME message (Commctrl.h)
 description: Sets the initial, pop-up, and reshow durations for a tooltip control.
 ms.assetid: 0a73def0-550c-4d01-9cb1-1eb1f4356fa3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

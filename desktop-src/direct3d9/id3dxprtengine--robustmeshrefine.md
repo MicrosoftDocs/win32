@@ -1,8 +1,8 @@
 ---
 Description: Subdivides faces on a mesh, allowing for conservative adaptive sampling that will not eliminate features on the mesh.
 ms.assetid: 0d74a01a-de67-4607-99eb-ed98e239f199
-title: ID3DXPRTEngine::RobustMeshRefine method
-ms.topic: article
+title: ID3DXPRTEngine::RobustMeshRefine method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT RobustMeshRefine(
 *MinEdgeLength* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum face edge length that will be generated in adaptive sampling. If zero, a reasonable default value will be substituted.
 
@@ -48,7 +48,7 @@ Minimum face edge length that will be generated in adaptive sampling. If zero, a
 *MaxSubdiv* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum level of subdivision of a face that will be used in adaptive sampling. If zero, a default value of 5 will be substituted.
 
@@ -56,7 +56,7 @@ Maximum level of subdivision of a face that will be used in adaptive sampling. I
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

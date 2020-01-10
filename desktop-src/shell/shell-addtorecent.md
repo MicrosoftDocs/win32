@@ -1,8 +1,8 @@
 ---
 Description: Adds a file to the most recently used (MRU) list.
 ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
-title: Shell.AddToRecent method
-ms.topic: article
+title: Shell.AddToRecent method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -60,7 +60,7 @@ A **String** that contains the path of the file to add to the list of recently u
 *bstrCategory* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the category in which to place the file.
 

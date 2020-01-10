@@ -1,5 +1,5 @@
 ---
-title: DRV_ENABLE message
+title: DRV_ENABLE message (Mmsystem.h)
 description: Enables the driver. The driver should initialize any variables and locate devices with the input and output (I/O) interface.
 ms.assetid: 8aa36f3d-b36c-4460-859c-108a7a450ae5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

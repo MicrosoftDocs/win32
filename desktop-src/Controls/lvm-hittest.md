@@ -1,5 +1,5 @@
 ---
-title: LVM_HITTEST message
+title: LVM_HITTEST message (Commctrl.h)
 description: Determines which list-view item, if any, is at a specified position. You can send this message explicitly or by using the ListView\_HitTest macro.
 ms.assetid: 81df4ed1-30bd-4b63-9cb9-5163cb7cf52c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

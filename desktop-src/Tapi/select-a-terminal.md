@@ -83,19 +83,19 @@ while ( S_OK == pEnumStreams->Next(1, &pStream, NULL) )
 [**ITBasicCallControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol)
 </dt> <dt>
 
-[**ITStreamControl**](https://msdn.microsoft.com/en-us/library/ms732393(v=VS.85).aspx)
+[**ITStreamControl**](https://msdn.microsoft.com/library/ms732393(v=VS.85).aspx)
 </dt> <dt>
 
-[**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx)
+[**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx)
 </dt> <dt>
 
 [**IEnumStream**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream)
 </dt> <dt>
 
-[**ITTerminal**](https://msdn.microsoft.com/en-us/library/ms732646(v=VS.85).aspx)
+[**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)
 </dt> <dt>
 
-[**ITTerminalSupport**](https://msdn.microsoft.com/en-us/library/ms733156(v=VS.85).aspx)
+[**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx)
 </dt> </dl>
 
  

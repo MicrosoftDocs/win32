@@ -2,7 +2,7 @@
 Description: Copies a certificate to an encoded string.
 ms.assetid: bae7fb57-6b44-4aac-a635-b5b82de1f68d
 title: ICertificate2::Export method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

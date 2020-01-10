@@ -1,5 +1,5 @@
 ---
-title: gluNurbsSurface function
+title: gluNurbsSurface function (Glu.h)
 description: The gluNurbsSurface function defines the shape of a Non-Uniform Rational B-Spline (NURBS) surface.
 ms.assetid: ee86376c-26ba-49a9-b0b0-4ca936b6614b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

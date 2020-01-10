@@ -1,8 +1,8 @@
 ---
 Description: Specifies the maximum packet size, in bytes, of an Advanced Systems Format (ASF) file.
 ms.assetid: 8dcae150-2363-47ba-b0d3-0bc182574d81
-title: MF_PD_ASF_FILEPROPERTIES_MAX_PACKET_SIZE attribute
-ms.topic: article
+title: MF_PD_ASF_FILEPROPERTIES_MAX_PACKET_SIZE attribute (Wmcontainer.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

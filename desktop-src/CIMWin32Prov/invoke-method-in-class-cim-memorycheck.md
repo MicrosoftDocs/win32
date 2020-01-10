@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_MemoryCheck class evaluates a particu
 ms.assetid: 264a7690-b066-4024-8cb1-d988b829dc72
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_MemoryCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

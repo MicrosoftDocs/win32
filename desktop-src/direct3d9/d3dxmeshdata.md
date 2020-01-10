@@ -1,8 +1,8 @@
 ---
 Description: Mesh data structure.
 ms.assetid: 9164b956-95b7-4bc0-bf7e-feed2e3b4a2b
-title: D3DXMESHDATA structure
-ms.topic: structure
+title: D3DXMESHDATA structure (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,11 +41,11 @@ typedef struct D3DXMESHDATA {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXMESHDATATYPE**](https://msdn.microsoft.com/en-us/library/Bb205373(v=VS.85).aspx)**
+Type: **[**D3DXMESHDATATYPE**](https://msdn.microsoft.com/library/Bb205373(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Defines the mesh data type. See [**D3DXMESHDATATYPE**](https://msdn.microsoft.com/en-us/library/Bb205373(v=VS.85).aspx).
+Defines the mesh data type. See [**D3DXMESHDATATYPE**](https://msdn.microsoft.com/library/Bb205373(v=VS.85).aspx).
 
 </dd> <dt>
 

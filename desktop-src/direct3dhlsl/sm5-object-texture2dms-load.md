@@ -1,5 +1,5 @@
 ---
-title: Load(int,int) function
+title: Texture2DMS::Load(int,int) function
 description: Gets one value.
 ms.assetid: b49b94e0-5c49-4901-b49d-3e652d4fd2d1
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

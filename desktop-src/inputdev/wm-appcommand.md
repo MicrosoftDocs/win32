@@ -1,5 +1,5 @@
 ---
-title: WM_APPCOMMAND message
+title: WM_APPCOMMAND message (Winuser.h)
 description: Notifies a window that the user generated an application command event, for example, by clicking an application command button using the mouse or typing an application command key on the keyboard.
 ms.assetid: ffcdfc44-dbfa-42d4-8749-b33bf0e4de0c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -187,13 +187,13 @@ Unlike other windows messages, an application should return **TRUE** from this m
 [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**GET\_APPCOMMAND\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646247(v=VS.85).aspx)
+[**GET\_APPCOMMAND\_LPARAM**](https://msdn.microsoft.com/library/ms646247(v=VS.85).aspx)
 </dt> <dt>
 
-[**GET\_DEVICE\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646248(v=VS.85).aspx)
+[**GET\_DEVICE\_LPARAM**](https://msdn.microsoft.com/library/ms646248(v=VS.85).aspx)
 </dt> <dt>
 
-[**GET\_KEYSTATE\_LPARAM**](https://msdn.microsoft.com/en-us/library/ms646250(v=VS.85).aspx)
+[**GET\_KEYSTATE\_LPARAM**](https://msdn.microsoft.com/library/ms646250(v=VS.85).aspx)
 </dt> <dt>
 
 [**ShellProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))

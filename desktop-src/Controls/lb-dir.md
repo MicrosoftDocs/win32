@@ -1,5 +1,5 @@
 ---
-title: LB_DIR message
+title: LB_DIR message (Winuser.h)
 description: Adds names to the list displayed by a list box. The message adds the names of directories and files that match a specified string and set of file attributes. LB\_DIR can also add mapped drive letters to the list box.
 ms.assetid: 5ec134e9-fe42-4cc0-bdea-fa5e66c218f6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

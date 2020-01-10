@@ -1,8 +1,8 @@
 ---
 Description: The DeliverEndOfStream method delivers an end-of-stream notification to the connected input pin.
 ms.assetid: 5b564675-a1e0-4010-b35d-28315c262bcc
-title: CBaseOutputPin.DeliverEndOfStream method
-ms.topic: article
+title: CBaseOutputPin.DeliverEndOfStream method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Determines if an IP address is in a specific subnet.
 ms.assetid: 2fbfad9c-86b1-44c3-860b-a5c98ac6c2e9
 title: isInNetEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

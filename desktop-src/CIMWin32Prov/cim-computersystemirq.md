@@ -3,7 +3,7 @@ Description: The CIM\_ComputerSystemIRQ class represents an association between 
 ms.assetid: c2a1f231-1f8e-48b2-9afe-fa798e6a8a1d
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemIRQ class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

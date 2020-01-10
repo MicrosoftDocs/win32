@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the device associated with the sprite object.
 ms.assetid: 9ce18623-893e-4395-bdf7-8d16a641a557
-title: ID3DXSprite::GetDevice method
-ms.topic: article
+title: ID3DXSprite::GetDevice method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/lib
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

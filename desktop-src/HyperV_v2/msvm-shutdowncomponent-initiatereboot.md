@@ -2,7 +2,7 @@
 Description: Initiates an operating system reboot operation on the associated child virtual machine.
 ms.assetid: 9f3ebbaf-ee0f-4c01-8f73-1f37c08a0feb
 title: InitiateReboot method of the Msvm_ShutdownComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

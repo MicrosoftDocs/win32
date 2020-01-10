@@ -1,5 +1,5 @@
 ---
-title: gluScaleImage function
+title: gluScaleImage function (Glu.h)
 description: The gluScaleImage function scales an image to an arbitrary size.
 ms.assetid: f47191e8-b22d-4f6a-949a-9c7782d6d338
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

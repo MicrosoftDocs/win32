@@ -2,7 +2,7 @@
 Description: Displays the Folder Sharing tab on the properties sheet for the specified folder.
 ms.assetid: e622e4bb-eaf7-494f-b2a2-78ba1311a496
 title: ShowShareFolderUI function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ This function always returns S\_OK.
 
 ## Remarks
 
-This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) to use it.
+This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to use it.
 
 ## Requirements
 

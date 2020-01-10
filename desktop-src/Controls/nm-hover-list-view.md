@@ -1,5 +1,5 @@
 ---
-title: NM_HOVER (list view) notification code
+title: NM_HOVER (list view) notification code (Commctrl.h)
 description: Sent by a list-view control when the mouse hovers over an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0d4a2eee-9c98-43d1-bc05-226d91c0480a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Event that is signaled when the pin is not blocked.
 ms.assetid: c05670e1-e9fe-4cb1-917f-6f75d25cde1b
-title: CDynamicOutputPin::m_hUnblockOutputPinEvent member
-ms.topic: article
+title: CDynamicOutputPin::m_hUnblockOutputPinEvent member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

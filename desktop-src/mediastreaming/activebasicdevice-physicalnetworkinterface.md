@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice PhysicalNetworkInterface property
+title: ActiveBasicDevice PhysicalNetworkInterface property (PlayToDevice.h)
 description: Gets the id of the physical network interface.
 ms.assetid: F426462F-CE26-4EE1-B679-A4C80B2919A5
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -58,7 +58,7 @@ A pointer to a **GUID** that specifies the id of the physical network interface.
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

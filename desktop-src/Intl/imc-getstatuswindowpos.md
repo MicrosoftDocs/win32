@@ -1,8 +1,8 @@
 ---
 Description: Instructs an IME window to get the position of the status window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 59c7baae-1b8a-4761-9814-31afd8d39691
-title: IMC_GETSTATUSWINDOWPOS command
-ms.topic: article
+title: IMC_GETSTATUSWINDOWPOS command (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -37,7 +37,7 @@ Not used.
 
 ## Return Value
 
-Returns a [**POINTS**](https://msdn.microsoft.com/en-us/library/Dd162808(v=VS.85).aspx) structure that contains the x coordinate and y coordinate of the status window position in screen coordinates, relative to the upper left corner of the screen.
+Returns a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx) structure that contains the x coordinate and y coordinate of the status window position in screen coordinates, relative to the upper left corner of the screen.
 
 ## Requirements
 

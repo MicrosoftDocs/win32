@@ -1,8 +1,8 @@
 ---
 Description: The CQueue class template implements a simple, statically sized queue.
 ms.assetid: 5a4f0bcf-24ed-427d-898d-f3ddc6a35b59
-title: CQueue class
-ms.topic: interface
+title: CQueue class (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

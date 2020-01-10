@@ -3,7 +3,7 @@ Description: The SetPowerState method sets the desired power state for a logical
 ms.assetid: bf5bdc90-9735-47b8-87d5-8f2482e603ed
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_BinarySensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

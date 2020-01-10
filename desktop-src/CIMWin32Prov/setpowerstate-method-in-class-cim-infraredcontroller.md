@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_InfraredController class sets 
 ms.assetid: dce688f3-b7c2-4e43-a26f-7318ce0011b8
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_InfraredController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

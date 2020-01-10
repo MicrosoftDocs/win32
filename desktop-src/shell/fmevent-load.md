@@ -1,8 +1,8 @@
 ---
 Description: Sent to an extension DLL when File Manager is loading the DLL.
 ms.assetid: 9d673ab8-c468-4b46-b96e-1adfaa9f85fb
-title: FMEVENT_LOAD message
-ms.topic: article
+title: FMEVENT_LOAD message (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ The address of an [**FMS\_LOAD**](fms-load.md) structure that specifies the menu
 
 ## Return value
 
-An extension DLL must return **TRUE** to continue loading the DLL. If the DLL returns **FALSE**, File Manager calls the [**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx) function and ends any communication with the extension DLL.
+An extension DLL must return **TRUE** to continue loading the DLL. If the DLL returns **FALSE**, File Manager calls the [**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx) function and ends any communication with the extension DLL.
 
 ## Remarks
 

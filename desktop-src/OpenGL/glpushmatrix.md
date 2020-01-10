@@ -1,5 +1,5 @@
 ---
-title: glPushMatrix function
+title: glPushMatrix function (Gl.h)
 description: The glPushMatrix and glPopMatrix functions push and pop the current matrix stack.
 ms.assetid: 97d8e644-50bb-4130-b6b7-d87df4468e73
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

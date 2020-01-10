@@ -1,8 +1,8 @@
 ---
 Description: For segment re-encoding, specifies the starting buffer fullness.
 ms.assetid: b93a6175-bd28-4d7b-a3a1-a94eeb55875a
-title: MFPKEY_REENCSTARTBUFFERSIZE Property
-ms.topic: article
+title: MFPKEY_REENCSTARTBUFFERSIZE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ For segment re-encoding, specifies the starting buffer fullness.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

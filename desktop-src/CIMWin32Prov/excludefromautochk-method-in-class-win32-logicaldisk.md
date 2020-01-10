@@ -3,7 +3,7 @@ Description: Excludes disks from the autochk operation to be run at the next reb
 ms.assetid: 5df2bc3b-e149-4853-aa02-af4cb8af6da0
 ms.tgt_platform: multiple
 title: ExcludeFromAutochk method of the Win32_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

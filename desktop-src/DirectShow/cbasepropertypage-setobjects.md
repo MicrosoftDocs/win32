@@ -1,8 +1,8 @@
 ---
 Description: The SetObjects method provides IUnknown pointers for the objects associated with the property page. This method implements the IPropertyPage::SetObjects method.
 ms.assetid: 11ca1e70-772c-414e-9647-7e4c4084c0d3
-title: CBasePropertyPage.SetObjects method
-ms.topic: article
+title: CBasePropertyPage.SetObjects method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: FontSize Property
+title: FontSize Property (Commands Object)
 description: FontSize Property
 ms.assetid: a1113a3a-5da8-4077-8565-168963c503d2
 ms.topic: article

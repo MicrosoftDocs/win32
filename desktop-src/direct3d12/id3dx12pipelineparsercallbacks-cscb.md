@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks CSCb method
+title: ID3DX12PipelineParserCallbacks CSCb method (D3DX12.h)
 description: Calls the compute shader subobject callback of an object that implements this interface.
 ms.assetid: DE1ABA3D-D372-4D7F-9DB6-4E3360EAFAC2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

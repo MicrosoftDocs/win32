@@ -2,7 +2,7 @@
 Description: Opens a handle to a thread object with the access specified.
 ms.assetid: 85148f27-cfb4-4a33-8bcc-e48d2c2e3c51
 title: NtOpenThread function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # NtOpenThread function
 
-\[This function may be changed or removed from Windows without further notice. Use the [**OpenThread**](https://msdn.microsoft.com/en-us/library/ms684335(v=VS.85).aspx) function instead.\]
+\[This function may be changed or removed from Windows without further notice. Use the [**OpenThread**](https://msdn.microsoft.com/library/ms684335(v=VS.85).aspx) function instead.\]
 
 Opens a handle to a thread object with the access specified.
 
@@ -49,7 +49,7 @@ A pointer to a variable that receives the thread object handle.
 *DesiredAccess* \[in\]
 </dt> <dd>
 
-An [**ACCESS\_MASK**](https://msdn.microsoft.com/en-us/library/Aa374896(v=VS.85).aspx) data type that provides the desired types of access for the thread object.
+An [**ACCESS\_MASK**](https://msdn.microsoft.com/library/Aa374896(v=VS.85).aspx) data type that provides the desired types of access for the thread object.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ The forms and significance of **NTSTATUS** error codes are listed in the Ntstatu
 
 ## Remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 

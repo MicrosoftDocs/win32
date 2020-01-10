@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC FindVirtualMachine method
+title: IVMVirtualPC FindVirtualMachine method (VPCCOMInterfaces.h)
 description: Retrieves a virtual machine object that matches the requested configuration.
 ms.assetid: 1c73d6f7-5662-485e-a864-e8e48197f8e4
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

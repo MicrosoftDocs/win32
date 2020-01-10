@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS GetParameter method
+title: IVMGuestOS GetParameter method (VPCCOMInterfaces.h)
 description: Retrieves a named parameter within the guest operating system.
 ms.assetid: d4d5acbd-fa19-4eb2-af75-2c94e5f6f7f0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

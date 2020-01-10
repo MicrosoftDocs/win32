@@ -1,5 +1,5 @@
 ---
-title: EM_SETHYPHENATEINFO message
+title: EM_SETHYPHENATEINFO message (Richedit.h)
 description: Sets the way a rich edit control does hyphenation.
 ms.assetid: 67126cb8-ab50-49a9-b32f-2245debf2fe3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

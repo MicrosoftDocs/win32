@@ -3,7 +3,7 @@ Description: The Win32\_MemoryArray WMI class represents the properties of the c
 ms.assetid: 56ff6960-cde3-4e34-b4df-d2993bafaa62
 ms.tgt_platform: multiple
 title: Win32_MemoryArray class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

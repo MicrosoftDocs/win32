@@ -3,7 +3,7 @@ Description: The CIM\_CopyFileAction class represents moving or copying files fr
 ms.assetid: c80b5002-d489-4b7e-b9a2-4460c3596958
 ms.tgt_platform: multiple
 title: CIM_CopyFileAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

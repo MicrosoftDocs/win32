@@ -2,7 +2,7 @@
 Description: The VerifyDiskSpace property is a read-only property.
 ms.assetid: 62f11f71-00b0-4e04-8c45-d6d670238886
 title: Session.VerifyDiskSpace property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

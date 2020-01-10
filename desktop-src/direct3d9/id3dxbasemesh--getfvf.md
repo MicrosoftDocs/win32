@@ -1,8 +1,8 @@
 ---
 Description: Gets the fixed function vertex value.
 ms.assetid: ed56ff2d-0366-426c-9f9a-7d1a7c5d1a7c
-title: ID3DXBaseMesh::GetFVF method
-ms.topic: article
+title: ID3DXBaseMesh::GetFVF method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the flexible vertex format (FVF) codes.
 

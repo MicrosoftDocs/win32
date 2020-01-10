@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_GETACTIVETIMER message
+title: MCIWNDM_GETACTIVETIMER message (Vfw.h)
 description: The MCIWNDM\_GETACTIVETIMER message retrieves the update period used when the MCIWnd window is the active window. You can send this message explicitly or by using the MCIWndGetActiveTimer macro.
 ms.assetid: f9e6f9ed-75fd-4e45-ad92-79a82d8d572c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

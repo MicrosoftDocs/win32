@@ -1,5 +1,5 @@
 ---
-title: Video Capture
+title: Video Capture (Windows Multimedia)
 description: Video Capture
 ms.assetid: 'c93ecc51-e2c5-4b69-8625-c8385d53fab2'
 keywords:

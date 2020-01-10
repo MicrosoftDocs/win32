@@ -11,7 +11,7 @@ api_name:
 - WM_DSA_SHEET_CLOSE_NOTIFY
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

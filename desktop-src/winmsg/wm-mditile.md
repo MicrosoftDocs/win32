@@ -1,8 +1,8 @@
 ---
 Description: An application sends the WM\_MDITILE message to a multiple-document interface (MDI) client window to arrange all of its MDI child windows in a tile format.
 ms.assetid: a480ba61-807e-4d0e-bda2-f1876e0bb13c
-title: WM_MDITILE message
-ms.topic: article
+title: WM_MDITILE message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

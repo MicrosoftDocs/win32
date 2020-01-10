@@ -1,8 +1,8 @@
 ---
 Description: Adds a matrix to the stack.
 ms.assetid: 8660047f-64bc-4b34-8270-3087412db942
-title: ID3DXMATRIXStack::Push method
-ms.topic: article
+title: ID3DXMATRIXStack::Push method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

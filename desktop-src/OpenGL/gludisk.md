@@ -1,5 +1,5 @@
 ---
-title: gluDisk function
+title: gluDisk function (Glu.h)
 description: The gluDisk function draws a disk.
 ms.assetid: c9260621-930d-47dd-a046-30895779473b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

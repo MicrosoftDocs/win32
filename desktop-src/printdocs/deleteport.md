@@ -1,8 +1,8 @@
 ---
 Description: The DeletePort function displays a dialog box that allows the user to delete a port name.
 ms.assetid: 5f5788c2-c781-4106-abd2-98556d0a22de
-title: DeletePort function
-ms.topic: article
+title: DeletePort function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

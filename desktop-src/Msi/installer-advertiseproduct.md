@@ -2,7 +2,7 @@
 Description: The AdvertiseProduct method of the Installer object advertises an installation package.
 ms.assetid: a060ccb5-353f-439b-8d48-709c81da5f2c
 title: Installer::AdvertiseProduct method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Defines the type that contains the ink data, alternates, and confidence for ink content that is an InkWord element (as opposed to a Drawing element).
 ms.assetid: 361bc4a2-04e1-4cba-9925-a42cd0587760
 title: InkWordType Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

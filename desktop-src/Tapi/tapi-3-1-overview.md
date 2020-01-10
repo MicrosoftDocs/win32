@@ -27,9 +27,9 @@ The API is implemented as a suite of Component Object Model (COM) objects. Movin
 
 The TAPI Server process (TAPISRV) abstracts the TAPI Service Provider Interface (TSPI) from TAPI 3.x and TAPI 2.x, allowing TAPI 2.x Telephony Service Providers to be used with TAPI 3.x, maintaining the internal state of TAPI. TAPISRV is implemented as a service process within SVCHOST.
 
-[Service Providers](https://msdn.microsoft.com/en-us/library/ms725513(v=VS.85).aspx) abstract provider-specific media transport mechanisms. They typically exist in pairs – a Telephony Service Provider (TSP) for call control and a Media Service Provider (MSP) for media control.
+[Service Providers](https://msdn.microsoft.com/library/ms725513(v=VS.85).aspx) abstract provider-specific media transport mechanisms. They typically exist in pairs – a Telephony Service Provider (TSP) for call control and a Media Service Provider (MSP) for media control.
 
-[Telephony Service Providers](https://msdn.microsoft.com/en-us/library/ms725516(v=VS.85).aspx) (TSPs) are responsible for resolving the protocol-independent call model of TAPI into protocol-specific call control mechanisms. TAPI 3.1 provides backward compatibility with TAPI 2.1 TSPs. Two IP Telephony service providers (and their associated MSPs) ship by default with TAPI 3.1: the H.323 TSP and the IP Multicast Conferencing TSP.
+[Telephony Service Providers](https://msdn.microsoft.com/library/ms725516(v=VS.85).aspx) (TSPs) are responsible for resolving the protocol-independent call model of TAPI into protocol-specific call control mechanisms. TAPI 3.1 provides backward compatibility with TAPI 2.1 TSPs. Two IP Telephony service providers (and their associated MSPs) ship by default with TAPI 3.1: the H.323 TSP and the IP Multicast Conferencing TSP.
 
 [Media Service Providers](media-service-providers-start-page.md) (MSPs) provide a uniform way to access the media streams in a call, supporting the DirectShow<sup>TM</sup> API as the primary media stream handler. TAPI MSPs implement DirectShow interfaces for a particular TSP and are required for any telephony service that makes use of DirectShow streaming. Generic streams are handled by the application.
 

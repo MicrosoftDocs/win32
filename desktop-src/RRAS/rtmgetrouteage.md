@@ -1,5 +1,5 @@
 ---
-title: RtmGetRouteAge function
+title: RtmGetRouteAge function (Rtm.h)
 description: The RtmGetRouteAge function returns the age of a route. The age is the time, in seconds, since it was created or last updated.
 ms.assetid: 93052412-227f-4c9e-978b-3ec4bde4a256
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -53,7 +53,7 @@ The return value is one of the following values.
 | Value                                                                                   | Description                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**RouteAge**</dt> </dl> | The time in seconds since a route was created or last updated.<br/>                                                                                    |
-| <dl> <dt>**INFINITE**</dt> </dl> | The content of the route structure is invalid. In this case, a call to [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) returns ERROR\_INVALID\_PARAMETER.<br/> |
+| <dl> <dt>**INFINITE**</dt> </dl> | The content of the route structure is invalid. In this case, a call to [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) returns ERROR\_INVALID\_PARAMETER.<br/> |
 
 
 
@@ -88,7 +88,7 @@ The route age is computed from the RR\_TimeStamp member of the structure that is
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
+[**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)

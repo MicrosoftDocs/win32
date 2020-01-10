@@ -2,7 +2,7 @@
 Description: Verifies that the media region in the DVD drive matches the DVD drive region.
 ms.assetid: 864de493-94c2-4f32-96a8-14cfea13dbef
 title: DvdLauncher function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Pause method
+title: IVMVirtualMachine Pause method (VPCCOMInterfaces.h)
 description: Pauses the virtual machine.
 ms.assetid: 29ac40c4-7713-4782-8a31-42f2c32b8f7d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

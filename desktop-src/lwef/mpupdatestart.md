@@ -1,5 +1,5 @@
 ---
-title: MpUpdateStart function
+title: MpUpdateStart function (MpClient.h)
 description: Starts a signature update operation.
 ms.assetid: BB056356-17E5-42F0-9636-9E1C254361E4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -57,7 +57,7 @@ The [Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) class and 
 
 ## Waiting for Events
 
-The Tablet PC environment is multithreaded. Use the [**CoWaitForMultipleHandles**](https://msdn.microsoft.com/en-us/library/ms680732(v=VS.85).aspx) function instead of other wait methods to allow re-entrant Component Object Model (COM) calls to enter your multithreaded apartment (MTA) while your application is waiting on an event.
+The Tablet PC environment is multithreaded. Use the [**CoWaitForMultipleHandles**](https://msdn.microsoft.com/library/ms680732(v=VS.85).aspx) function instead of other wait methods to allow re-entrant Component Object Model (COM) calls to enter your multithreaded apartment (MTA) while your application is waiting on an event.
 
 ## Using Ink Strokes Collections
 

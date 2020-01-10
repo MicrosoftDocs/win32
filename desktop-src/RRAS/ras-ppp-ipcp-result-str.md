@@ -1,5 +1,5 @@
 ---
-title: RAS_PPP_IPCP_RESULT structure
+title: RAS_PPP_IPCP_RESULT structure (Rassapi.h)
 description: The RAS\_PPP\_IPCP\_RESULT structure is used to report the result of a PPP Internet Protocol (IP) projection operation for a port.
 ms.assetid: edbdc8f2-ba56-4d34-8908-f7eccc2ebf61
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

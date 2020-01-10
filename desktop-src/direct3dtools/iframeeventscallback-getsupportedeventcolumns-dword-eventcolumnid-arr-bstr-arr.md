@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IFrameEventsCallback::GetSupportedEventColumns method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: F1BFF189-A22C-4058-A427-74653998DD27
 api_name: 

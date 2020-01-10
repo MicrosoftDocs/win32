@@ -1,8 +1,8 @@
 ---
 Description: Computes the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation, using adaptive sampling.
 ms.assetid: 792d8460-d608-4384-ac1c-556435074580
-title: ID3DXPRTEngine::ComputeDirectLightingSHAdaptive method
-ms.topic: article
+title: ID3DXPRTEngine::ComputeDirectLightingSHAdaptive method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ HRESULT ComputeDirectLightingSHAdaptive(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -51,7 +51,7 @@ Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3d
 *AdaptiveThresh* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Threshold on the PRT vector to use for subdividing mesh vertices and faces. If less than 1e-6f, a default value of 1e-6f is specified.
 
@@ -60,7 +60,7 @@ Threshold on the PRT vector to use for subdividing mesh vertices and faces. If l
 *MinEdgeLength* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum face edge length that will be generated in adaptive sampling. If the method determines that the value is too small, a model-dependent value is specified. If zero, a default value of 4 is specified.
 
@@ -69,7 +69,7 @@ Minimum face edge length that will be generated in adaptive sampling. If the met
 *MaxSubdiv* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum level of subdivision of a face that will be used in adaptive sampling.
 
@@ -86,7 +86,7 @@ Pointer to an output [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object. This buffer
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

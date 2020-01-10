@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical paging file specif
 ms.assetid: 3abdfa1d-49d8-4676-b7a5-3be528938ec4
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 title: imm_atomic_iadd (sm5 - asm)
 description: Immediate atomic integer add to memory. Returns the value in memory before the add.
 ms.assetid: 24136B4C-D37C-4449-A318-57145BB8D8E9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

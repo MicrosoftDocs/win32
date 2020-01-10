@@ -2,10 +2,10 @@
 title: loop - ps
 description: Starts a loop...endloop - ps block.
 ms.assetid: 'vs|directx_sdk|~\loop___ps.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

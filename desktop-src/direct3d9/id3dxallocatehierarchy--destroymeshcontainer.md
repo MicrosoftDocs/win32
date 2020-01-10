@@ -1,8 +1,8 @@
 ---
 Description: Requests deallocation of a mesh container object.
 ms.assetid: 7a976ba8-6972-4857-b0a9-4ea7a88dc8ac
-title: ID3DXAllocateHierarchy::DestroyMeshContainer method
-ms.topic: article
+title: ID3DXAllocateHierarchy::DestroyMeshContainer method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the mesh container object to be deallocated.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from D3DERR or D3DXERR, as this will cause [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) to fail also, and return the error.
 

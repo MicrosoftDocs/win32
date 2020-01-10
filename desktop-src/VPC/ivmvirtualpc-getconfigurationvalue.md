@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC GetConfigurationValue method
+title: IVMVirtualPC GetConfigurationValue method (VPCCOMInterfaces.h)
 description: Retrieves the value of the specified configuration setting.
 ms.assetid: 4598b57c-9942-4b40-97b5-41ad9ec74bfa
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

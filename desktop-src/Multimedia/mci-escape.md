@@ -1,5 +1,5 @@
 ---
-title: MCI_ESCAPE command
+title: MCI_ESCAPE command (Mmsystem.h)
 description: The MCI\_ESCAPE command sends a string directly to the device. Videodisc devices recognize this command.
 ms.assetid: 56ebc717-f0f7-4612-8e51-57b13ff9d42b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_ESCAPE command sends a string directly to the device. Videodisc devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

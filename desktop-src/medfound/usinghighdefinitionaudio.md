@@ -1,7 +1,7 @@
 ---
 Description: Using High-Definition Audio
 ms.assetid: 5e21943f-363c-4831-bc09-aadf6f4a0ad5
-title: Using High-Definition Audio
+title: Using High-Definition Audio (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 High-definition audio, in the context of the Windows Media Audio codecs, is any audio type with more than two channels or more than 16 bits per sample. High-definition audio is supported by the Professional and Lossless categories of the [Windows Media Audio Encoder](windowsmediaaudioencoder.md).
 
-Uncompressed high-definition audio types are defined using the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure. **WAVEFORMATEXTENSIBLE** is a structured extension of the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure. When you are using DMOs, the **formattype** member of the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure that describes a high-definition audio type must be set to WMCFORMAT\_WaveFormatEx, just as it is for normal audio; there is no special format identifier for **WAVEFORMATEXTENSIBLE**. If a format uses **WAVEFORMATEXTENSIBLE** , you must set the **cbSize** member of the **WAVEFORMATEX** structure to 22.
+Uncompressed high-definition audio types are defined using the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure. **WAVEFORMATEXTENSIBLE** is a structured extension of the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure. When you are using DMOs, the **formattype** member of the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd375504(v=VS.85).aspx) structure that describes a high-definition audio type must be set to WMCFORMAT\_WaveFormatEx, just as it is for normal audio; there is no special format identifier for **WAVEFORMATEXTENSIBLE**. If a format uses **WAVEFORMATEXTENSIBLE** , you must set the **cbSize** member of the **WAVEFORMATEX** structure to 22.
 
 When using Media Foundation, you can construct the correct media type from a [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure by using the function [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex).
 

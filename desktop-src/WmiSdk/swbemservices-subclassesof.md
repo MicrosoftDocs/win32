@@ -2,8 +2,8 @@
 Description: Returns an SWbemObjectSet object.
 ms.assetid: cfe08956-7215-4e2e-a279-6e86f14e5c27
 ms.tgt_platform: multiple
-title: SWbemServices.SubclassesOf method
-ms.topic: article
+title: SWbemServices.SubclassesOf method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

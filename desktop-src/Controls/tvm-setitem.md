@@ -1,5 +1,5 @@
 ---
-title: TVM_SETITEM message
+title: TVM_SETITEM message (Commctrl.h)
 description: The TVM\_SETITEM message sets some or all of a tree-view item's attributes. You can send this message explicitly or by using the TreeView\_SetItem macro.
 ms.assetid: 28d288bf-a557-4fce-870c-ffa368ece5a9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

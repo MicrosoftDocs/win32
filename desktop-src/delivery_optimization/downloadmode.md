@@ -1,5 +1,5 @@
 ---
-title: DownloadMode enumeration
+title: DownloadMode enumeration (Deliveryoptimization.h)
 description: Defines the different download modes that Delivery Optimization uses.
 ms.assetid: 7E9407C6-A22F-459E-B316-5E7809F0067A
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

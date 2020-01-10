@@ -1,8 +1,8 @@
 ---
 Description: Creates a buffer object.
 ms.assetid: 6f44fe84-3e0b-4fb8-821a-c997944fed37
-title: D3DXCreateBuffer function
-ms.topic: article
+title: D3DXCreateBuffer function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT D3DXCreateBuffer(
 *NumBytes* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of the buffer to create, in bytes.
 
@@ -56,7 +56,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface, represen
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: E\_OUTOFMEMORY.
 

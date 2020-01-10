@@ -12,7 +12,7 @@ api_name:
 - IMediaRenderer.ActionInformation
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -39,7 +39,7 @@ HRESULT ActionInformation(
 *value* \[out\]
 </dt> <dd>
 
-Receives a reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx) interface.
+Receives a reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx) interface.
 
 </dd> </dl>
 

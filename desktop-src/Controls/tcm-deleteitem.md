@@ -1,5 +1,5 @@
 ---
-title: TCM_DELETEITEM message
+title: TCM_DELETEITEM message (Commctrl.h)
 description: Removes an item from a tab control. You can send this message explicitly or by using the TabCtrl\_DeleteItem macro.
 ms.assetid: 54bfa446-580a-4ea7-b5e9-9429f4ee1c2b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

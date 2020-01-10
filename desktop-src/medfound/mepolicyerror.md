@@ -1,8 +1,8 @@
 ---
 Description: Raised by a trusted output if an error occurs while enforcing the output policy.
 ms.assetid: 0cc62915-1ed6-4d1d-9600-0dac0b9034e3
-title: MEPolicyError event
-ms.topic: article
+title: MEPolicyError event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

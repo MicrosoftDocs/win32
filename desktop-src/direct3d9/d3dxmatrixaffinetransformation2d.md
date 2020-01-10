@@ -1,8 +1,8 @@
 ---
 Description: Builds a 2D affine transformation matrix in the xy plane. NULL arguments are treated as identity transformations.
 ms.assetid: 335de919-ae4d-405d-b6bb-ca6bdc2d568a
-title: D3DXMatrixAffineTransformation2D function
-ms.topic: article
+title: D3DXMatrixAffineTransformation2D function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor.
 
@@ -69,7 +69,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure, a point identifying th
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The angle of rotation.
 

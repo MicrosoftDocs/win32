@@ -14,7 +14,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -24,7 +24,7 @@ Manages client transport settings for the Remote Desktop Gateway (RD Gateway) se
 
 ## Members
 
-The **IMsRdpClientTransportSettings** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IMsRdpClientTransportSettings** also has these types of members:
+The **IMsRdpClientTransportSettings** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IMsRdpClientTransportSettings** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -66,7 +66,7 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)

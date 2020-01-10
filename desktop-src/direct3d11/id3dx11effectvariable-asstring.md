@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsString method
+title: ID3DX11EffectVariable AsString method (D3dx11effect.h)
 description: Get a string variable.
 ms.assetid: 60f8a730-bf95-4577-9259-7348d479ac3d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDevice Port property
+title: IVMUSBDevice Port property (VPCCOMInterfaces.h)
 description: Retrieves the identifier of the port on which the device is connected.
 ms.assetid: 612c0eba-aa80-4539-a883-f05d32d13b41
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

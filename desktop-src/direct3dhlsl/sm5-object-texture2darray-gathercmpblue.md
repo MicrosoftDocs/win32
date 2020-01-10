@@ -1,5 +1,5 @@
 ---
-title: GatherCmpBlue(S,float,float,int) function
+title: Texture2DArray::GatherCmpBlue(S,float,float,int) function
 description: Samples a texture, tests the samples against a compare value, and returns the blue component.
 ms.assetid: 5fa23e27-368a-4c55-b6d6-33506c932a43
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GatherCmpBlue
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

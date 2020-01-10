@@ -3,7 +3,7 @@ Description: The SWbemNamedValue object exposes the following properties.
 ms.assetid: B28DCF3B-D96D-44DF-A6D1-55156BEB15AB
 ms.tgt_platform: multiple
 title: SWbemNamedValue Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

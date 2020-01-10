@@ -1,8 +1,8 @@
 ---
 Description: Sets a new application callback for the image processing filter to use for forwarding calls.
 ms.assetid: 25b86f1d-96c8-4150-9147-13be9b1dd50c
-title: IWiaImageFilter::SetNewCallback method
-ms.topic: article
+title: IWiaImageFilter::SetNewCallback method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

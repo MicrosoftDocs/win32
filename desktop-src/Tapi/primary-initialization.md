@@ -15,7 +15,7 @@ A TAPI application must call an initialization operation, which prompts a series
 -   TAPI sets up a connection to the TAPISRV process.
 -   TAPISVR loads the service providers specified in the registry and prompts them to initialize the devices they support.
 
-**TAPI 2.x:** Applications perform initialization by calling [**lineInitializeEx**](https://msdn.microsoft.com/en-us/library/ms735983(v=VS.85).aspx).
+**TAPI 2.x:** Applications perform initialization by calling [**lineInitializeEx**](https://msdn.microsoft.com/library/ms735983(v=VS.85).aspx).
 
 **TAPI 3.x:** Applications call [**ITTAPI::Initialize**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-initialize).
 

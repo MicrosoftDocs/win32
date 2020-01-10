@@ -1,8 +1,8 @@
 ---
 Description: The SetSyncSource method notifies the base class of the current reference clock.
 ms.assetid: 056385ac-682c-456e-9a5f-86490bd6e05f
-title: CBaseStreamControl.SetSyncSource method
-ms.topic: article
+title: CBaseStreamControl.SetSyncSource method (Strmctl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

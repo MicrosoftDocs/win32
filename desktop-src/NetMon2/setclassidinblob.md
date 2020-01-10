@@ -1,8 +1,8 @@
 ---
 Description: The SetClassIDInBlob function sets the named class identifier value of a BLOB.
 ms.assetid: d17dd48b-2e35-4c57-ba33-688180910b63
-title: SetClassIDInBlob function
-ms.topic: article
+title: SetClassIDInBlob function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

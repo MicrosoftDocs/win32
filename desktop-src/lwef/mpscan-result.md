@@ -1,5 +1,5 @@
 ---
-title: MPSCAN_RESULT structure
+title: MPSCAN_RESULT structure (MpClient.h)
 description: The results of a scan.
 ms.assetid: 9031A371-092A-4175-BE1D-90442A5BED2D
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

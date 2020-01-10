@@ -1,8 +1,8 @@
 ---
 Description: Returns the vertical blank status of the device.
 ms.assetid: d09b684b-3482-424d-8a60-d123a65f9053
-title: NtGdiDdWaitForVerticalBlank function
-ms.topic: article
+title: NtGdiDdWaitForVerticalBlank function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puWaitForVerticalBlankData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/en-us/library/Ff551765(v=VS.85).aspx) structure that contains the information required to obtain the vertical blank status.
+Pointer to a [**DD\_WAITFORVERTICALBLANKDATA**](https://msdn.microsoft.com/library/Ff551765(v=VS.85).aspx) structure that contains the information required to obtain the vertical blank status.
 
 </dd> </dl>
 

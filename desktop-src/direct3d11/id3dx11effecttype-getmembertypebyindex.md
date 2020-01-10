@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectType GetMemberTypeByIndex method
+title: ID3DX11EffectType GetMemberTypeByIndex method (D3dx11effect.h)
 description: Get a member type by index.
 ms.assetid: 6421f08f-0236-4d8f-b3c2-ef7ec5ffe2a1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

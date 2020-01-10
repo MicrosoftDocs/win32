@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Keyboard property
+title: IVMVirtualMachine Keyboard property (VPCCOMInterfaces.h)
 description: Retrieves the keyboard device for the virtual machine.
 ms.assetid: bf516d07-eea9-40e3-b0d3-0fd4d3a04eb1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

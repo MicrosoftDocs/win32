@@ -2,7 +2,7 @@
 Description: Specifies if compression will be used at the data link for header and data transfer.
 ms.assetid: 2aee93e4-d124-43cb-b974-19f00eb4d6a6
 title: Compression (contextType) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

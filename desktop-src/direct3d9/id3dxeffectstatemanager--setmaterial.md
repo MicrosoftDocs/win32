@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set material state.
 ms.assetid: 4c5e903f-551b-4346-a5eb-301a3a5b9b44
-title: ID3DXEffectStateManager::SetMaterial method
-ms.topic: article
+title: ID3DXEffectStateManager::SetMaterial method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ A pointer to the material state. See [**D3DMATERIAL9**](d3dmaterial9.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

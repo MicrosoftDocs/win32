@@ -1,8 +1,8 @@
 ---
 Description: Creates an ephemeral key for use during the authentication that occurs during the Secure Sockets Layer protocol (SSL) handshake.
 ms.assetid: faad9b3b-e476-4e61-b978-bcb517ecaeb7
-title: SslCreateEphemeralKey function
-ms.topic: article
+title: SslCreateEphemeralKey function (Sslprovider.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

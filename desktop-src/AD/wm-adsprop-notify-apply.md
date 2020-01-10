@@ -1,5 +1,5 @@
 ---
-title: WM_ADSPROP_NOTIFY_APPLY message
+title: WM_ADSPROP_NOTIFY_APPLY message (Adsprop.h)
 description: An Active Directory directory service property sheet extension sends the WM\_ADSPROP\_NOTIFY\_APPLY message to the notification object if the property page PSN\_APPLY handler succeeds.
 ms.assetid: 3536054b-83ee-4cfa-ab54-c0af3a46289e
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

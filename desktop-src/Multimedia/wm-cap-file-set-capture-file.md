@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_FILE_SET_CAPTURE_FILE message
+title: WM_CAP_FILE_SET_CAPTURE_FILE message (Vfw.h)
 description: The WM\_CAP\_FILE\_SET\_CAPTURE\_FILE message names the file used for video capture. You can send this message explicitly or by using the capFileSetCaptureFile macro.
 ms.assetid: d96e498b-6322-4d48-a5d7-156e95f23740
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

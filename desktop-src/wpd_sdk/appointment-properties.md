@@ -1,8 +1,8 @@
 ---
 Description: Windows Portable Devices supports the following appointment properties.
 ms.assetid: d7e2130b-722b-46ef-9114-17db9c95d017
-title: Appointment Properties
-ms.topic: article
+title: Appointment Properties (PortableDevice.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

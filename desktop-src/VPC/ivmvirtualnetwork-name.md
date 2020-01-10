@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetwork Name property
+title: IVMVirtualNetwork Name property (VPCCOMInterfaces.h)
 description: Unique name of the virtual network instance.
 ms.assetid: dd4807dc-abae-4bdb-ba27-597cf1337834
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

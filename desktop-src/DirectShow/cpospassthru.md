@@ -1,8 +1,8 @@
 ---
 Description: The CPosPassThru class handles seek commands for transform filters, by passing them upstream to the next filter.
 ms.assetid: 14180d6e-7925-4e1a-8b16-cae9d7113468
-title: CPosPassThru class
-ms.topic: interface
+title: CPosPassThru class (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

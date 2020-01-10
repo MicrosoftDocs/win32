@@ -1,5 +1,5 @@
 ---
-title: PBM_SETBKCOLOR message
+title: PBM_SETBKCOLOR message (Commctrl.h)
 description: Sets the background color in the progress bar.
 ms.assetid: e28af958-babb-4c2e-9202-89b608c22f8e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

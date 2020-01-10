@@ -2,7 +2,7 @@
 Description: Loads the Apphelp resource file.
 ms.assetid: fca50e00-9324-410a-a572-69441f332593
 title: SdbOpenApphelpResourceFile function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

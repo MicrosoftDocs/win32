@@ -1,5 +1,5 @@
 ---
-title: BlobSetter
+title: BlobSetter (D2d1effecthelpers.h)
 description: Calls a member-function property setter callback for a blob-type property.
 ms.assetid: 29411D53-1D27-4040-A3C0-B1511E627A32
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

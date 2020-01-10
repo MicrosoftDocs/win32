@@ -4,7 +4,7 @@ description: Sets a background image to be displayed at the top of a wizard in t
 ms.assetid: 3265dc9e-4516-4f76-9601-2670557d352e
 keywords:
 - PSM_SETHEADERBITMAP message Windows Controls
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

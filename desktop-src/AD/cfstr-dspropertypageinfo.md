@@ -1,5 +1,5 @@
 ---
-title: CFSTR_DSPROPERTYPAGEINFO
+title: CFSTR_DSPROPERTYPAGEINFO (DSClient.h)
 description: The CFSTR\_DSPROPERTYPAGEINFO clipboard format provides an HGLOBAL that contains a DSPROPERTYPAGEINFO structure.
 ms.assetid: 84ed1322-fee3-44ee-873e-57586261ff62
 ms.tgt_platform: multiple
@@ -11,7 +11,7 @@ api_location:
 - DSClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

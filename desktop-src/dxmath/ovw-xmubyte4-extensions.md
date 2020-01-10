@@ -2,7 +2,7 @@
 Description: Describes a 4D vector made up of unsigned integers, 8-bits (1 byte) in length.
 ms.assetid: d606293a-3a6d-49b5-832c-82ee5943c634
 title: XMUBYTE4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ Describes a 4D vector made up of unsigned integers, 8-bits (1 byte) in length.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTE4**](https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx)
+[**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx)
 </dt> </dl>
 
  

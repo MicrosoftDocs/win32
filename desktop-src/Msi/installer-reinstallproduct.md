@@ -2,7 +2,7 @@
 Description: The ReinstallProduct method of the Installer object reinstalls a product or corrects installation problems in an installed product.
 ms.assetid: ff933cce-9f27-4215-9291-dd860d9c4d08
 title: Installer.ReinstallProduct method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

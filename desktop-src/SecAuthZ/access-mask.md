@@ -1,8 +1,8 @@
 ---
 Description: Defines standard, specific, and generic rights. These rights are used in access control entries (ACEs) and are the primary means of specifying the requested or granted access to an object.
 ms.assetid: f115ee54-3333-4109-8004-d71904a7a943
-title: ACCESS_MASK
-ms.topic: article
+title: ACCESS_MASK (Winnt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

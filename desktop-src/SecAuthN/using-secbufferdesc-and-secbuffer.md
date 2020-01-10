@@ -30,7 +30,7 @@ The following buffer data types are defined as follows.
 
 | Buffer type                | Meaning                                                                                                                                |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| SECBUFFER\_EMPTY           | Undefined, replaced by the [*security package*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) function |
+| SECBUFFER\_EMPTY           | Undefined, replaced by the [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) function |
 | SECBUFFER\_DATA            | Packet data                                                                                                                            |
 | SECBUFFER\_TOKEN           | Security token                                                                                                                         |
 | SECBUFFER\_PKG\_PARAMS     | Package-specific parameters                                                                                                            |
@@ -57,7 +57,7 @@ The buffer types above can be combined using a bitwise-**OR** operation with eit
 
  
 
-Before each call to an SSPI API that requires a [**SecBufferDesc**](/windows/desktop/api/Sspi/ns-sspi-secbufferdesc) parameter, one or more [**SecBuffer**](/windows/desktop/api/Sspi/ns-sspi-secbuffer) array elements are declared and initialized. For example, there can be two security buffers: one that contains input message data and the other for the output opaque security token returned by the security package. The order of security buffers in the security buffer descriptor is not important, but each buffer must be tagged with its appropriate type. A read-only tag can be used with any input buffer that must not be modified by the [*security package*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+Before each call to an SSPI API that requires a [**SecBufferDesc**](/windows/desktop/api/Sspi/ns-sspi-secbufferdesc) parameter, one or more [**SecBuffer**](/windows/desktop/api/Sspi/ns-sspi-secbuffer) array elements are declared and initialized. For example, there can be two security buffers: one that contains input message data and the other for the output opaque security token returned by the security package. The order of security buffers in the security buffer descriptor is not important, but each buffer must be tagged with its appropriate type. A read-only tag can be used with any input buffer that must not be modified by the [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 The size of the output buffer that is expected to contain the security token is important. An application can find the maximum token size for a security package during initial setup. The call to [**EnumerateSecurityPackages**](/windows/desktop/api/Sspi/nf-sspi-enumeratesecuritypackagesa) returns an array of pointers to security package information. The security package information structure contains the maximum token size for each package. In the example, the information is in the **cbMaxToken** member of the [**SecPkgInfo**](/windows/desktop/api/Sspi/ns-sspi-secpkginfoa) structure. The same information can be obtained later using [**QuerySecurityPackageInfo**](/windows/desktop/api/Sspi/nf-sspi-querysecuritypackageinfoa).
 

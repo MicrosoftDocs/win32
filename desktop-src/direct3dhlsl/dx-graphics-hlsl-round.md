@@ -1,5 +1,5 @@
 ---
-title: round
+title: round (Corecrt\_math.h)
 description: Rounds the specified value to the nearest integer.
 ms.assetid: 258ce717-dca1-4ed2-ad98-1ecfdb58f939
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

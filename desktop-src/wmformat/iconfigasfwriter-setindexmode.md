@@ -12,7 +12,7 @@ api_name:
 - IConfigAsfWriter.SetIndexMode
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -55,7 +55,7 @@ By default, the [WM ASF Writer](wm-asf-writer-filter.md) creates temporally inde
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/en-us/library/Dd743205(v=VS.85).aspx)
+[**IConfigAsfWriter Interface**](https://msdn.microsoft.com/library/Dd743205(v=VS.85).aspx)
 </dt> </dl>
 
  

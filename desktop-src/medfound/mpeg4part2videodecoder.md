@@ -1,8 +1,8 @@
 ---
 Description: The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.
 ms.assetid: 56e32d3c-9bd0-41fe-bb22-e4ff37b7cc5c
-title: MPEG-4 Part 2 Video Decoder
-ms.topic: article
+title: MPEG-4 Part 2 Video Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -48,19 +48,19 @@ The MPEG4 Part 2 Video decoder supports the following output media subtypes when
 
 The MPEG4 Part 2 Video decoder accepts the following formats.
 
--   [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx)
--   [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx) (VIH2)
+-   [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx)
+-   [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) (VIH2)
 -   [**MFVideoInfo**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo)
--   [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) (Only the VIH2 portion of the header is used.)
+-   [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/library/Dd390707(v=VS.85).aspx) (Only the VIH2 portion of the header is used.)
 
 ## Interfaces for the DMO
 
 If you create an instance of the MPEG4 Part 2 Video decoder as a DMO, the decoder exposes the following interfaces.
 
--   [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx)
--   [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx)
+-   [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx)
+-   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx)
 
-You can obtain an [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx) interface by calling **CoCreateInstance**, and you can obtain an [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface by calling **QueryInterface**.
+You can obtain an [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface by calling **CoCreateInstance**, and you can obtain an [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface by calling **QueryInterface**.
 
 ## Interfaces for the MFT
 
@@ -113,7 +113,7 @@ For more information about profiles and levels, see the MPEG4 Part 2 specificati
 
 ## Decoder Properties
 
-To set properties on the MPEG4 Part 2 Video decoder, use the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface or the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface.
+To set properties on the MPEG4 Part 2 Video decoder, use the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface or the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface.
 
 The MPEG4 Part 2 Video decoder supports the following properties.
 

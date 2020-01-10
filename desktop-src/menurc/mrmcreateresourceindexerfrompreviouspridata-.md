@@ -1,5 +1,5 @@
 ---
-title: MrmCreateResourceIndexerFromPreviousPriData function
+title: MrmCreateResourceIndexerFromPreviousPriData function (MrmResourceIndexer.h)
 description: Creates a resource indexer from PRI data created by a previous call to MrmCreateResourceFileInMemory. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: 945ED98C-8D73-404F-ACE3-7DD314FB405A
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

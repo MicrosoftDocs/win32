@@ -1,8 +1,8 @@
 ---
 Description: The WM\_PRINTCLIENT message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
 ms.assetid: 8703ee74-812a-4ca2-8ee3-a3b8779739e7
-title: WM_PRINTCLIENT message
-ms.topic: article
+title: WM_PRINTCLIENT message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ The drawing options. This parameter can be one or more of the following values.
 
 ## Remarks
 
-A window can process this message in much the same manner as [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx), except that [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
+A window can process this message in much the same manner as [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx), except that [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
 
 Windows that can be used anywhere in the system, such as controls, should process this message. It is probably worthwhile for other windows to process this message as well because it is relatively easy to implement.
 

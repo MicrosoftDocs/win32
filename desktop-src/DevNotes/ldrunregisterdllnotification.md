@@ -2,7 +2,7 @@
 Description: Cancels DLL load notification previously registered by calling the LdrRegisterDllNotification function.
 ms.assetid: 18c3a027-e3cb-4083-afdc-00f416a70d8c
 title: LdrUnregisterDllNotification function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -55,7 +55,7 @@ The forms and significance of **NTSTATUS** error codes are listed in the Ntstatu
 
 ## Remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 

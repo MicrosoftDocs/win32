@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectUnorderedAccessViewVariable GetUnorderedAccessView method
+title: ID3DX11EffectUnorderedAccessViewVariable GetUnorderedAccessView method (D3dx11effect.h)
 description: Get an unordered-access-view.
 ms.assetid: 46f61c4f-b3ee-4058-99b9-a43ca6944fb2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ Pointer to an [**ID3D11UnorderedAccessView**](/windows/desktop/api/D3D11/nn-d3d1
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

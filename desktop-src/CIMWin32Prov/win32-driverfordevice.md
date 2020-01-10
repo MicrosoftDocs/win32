@@ -3,7 +3,7 @@ Description: The Win32\_DriverForDevice association WMI class relates a printer 
 ms.assetid: 56ff74b2-31ba-4d8e-b389-9f962932aa03
 ms.tgt_platform: multiple
 title: Win32_DriverForDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

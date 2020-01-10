@@ -1,8 +1,8 @@
 ---
 Description: Texture stage states define multi-blender texture operations.
 ms.assetid: 87a5a1bb-e748-4c72-8320-ea82250dcc0e
-title: D3DTEXTURESTAGESTATETYPE enumeration
-ms.topic: enumeration
+title: D3DTEXTURESTAGESTATETYPE enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -55,7 +55,7 @@ typedef enum D3DTEXTURESTAGESTATETYPE {
 <span id="D3DTSS_COLOROP"></span><span id="d3dtss_colorop"></span>**D3DTSS\_COLOROP**
 </dt> <dd>
 
-Texture-stage state is a texture color blending operation identified by one member of the [**D3DTEXTUREOP**](https://msdn.microsoft.com/en-us/library/Bb172616(v=VS.85).aspx) enumerated type. The default value for the first texture stage (stage 0) is D3DTOP\_MODULATE; for all other stages the default is D3DTOP\_DISABLE.
+Texture-stage state is a texture color blending operation identified by one member of the [**D3DTEXTUREOP**](https://msdn.microsoft.com/library/Bb172616(v=VS.85).aspx) enumerated type. The default value for the first texture stage (stage 0) is D3DTOP\_MODULATE; for all other stages the default is D3DTOP\_DISABLE.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ Texture-stage state is the second color argument for the stage, identified by [D
 <span id="D3DTSS_ALPHAOP"></span><span id="d3dtss_alphaop"></span>**D3DTSS\_ALPHAOP**
 </dt> <dd>
 
-Texture-stage state is a texture alpha blending operation identified by one member of the [**D3DTEXTUREOP**](https://msdn.microsoft.com/en-us/library/Bb172616(v=VS.85).aspx) enumerated type. The default value for the first texture stage (stage 0) is D3DTOP\_SELECTARG1, and for all other stages the default is D3DTOP\_DISABLE.
+Texture-stage state is a texture alpha blending operation identified by one member of the [**D3DTEXTUREOP**](https://msdn.microsoft.com/library/Bb172616(v=VS.85).aspx) enumerated type. The default value for the first texture stage (stage 0) is D3DTOP\_SELECTARG1, and for all other stages the default is D3DTOP\_DISABLE.
 
 </dd> <dt>
 
@@ -154,7 +154,7 @@ Floating-point offset value for bump-map luminance. The default value is 0.0.
 <span id="D3DTSS_TEXTURETRANSFORMFLAGS"></span><span id="d3dtss_texturetransformflags"></span>**D3DTSS\_TEXTURETRANSFORMFLAGS**
 </dt> <dd>
 
-Member of the [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172618(v=VS.85).aspx) enumerated type that controls the transformation of texture coordinates for this texture stage. The default value is D3DTTFF\_DISABLE.
+Member of the [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/library/Bb172618(v=VS.85).aspx) enumerated type that controls the transformation of texture coordinates for this texture stage. The default value is D3DTTFF\_DISABLE.
 
 </dd> <dt>
 

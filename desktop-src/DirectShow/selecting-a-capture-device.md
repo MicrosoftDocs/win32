@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Selecting a Capture Device
 
-To select an audio or video capture device, use the [System Device Enumerator](system-device-enumerator.md), described in the topic [Using the System Device Enumerator](using-the-system-device-enumerator.md). The System Device Enumerator returns a collection of device monikers, selected by device category. A *moniker* is a COM object that contains information about another object. Monikers enable the application to get information about an object without actually creating the object. Later, the application can use the moniker to create the object. For more information about monikers, see the documentation for [**IMoniker**](https://msdn.microsoft.com/en-us/library/ms679705(v=VS.85).aspx).
+To select an audio or video capture device, use the [System Device Enumerator](system-device-enumerator.md), described in the topic [Using the System Device Enumerator](using-the-system-device-enumerator.md). The System Device Enumerator returns a collection of device monikers, selected by device category. A *moniker* is a COM object that contains information about another object. Monikers enable the application to get information about an object without actually creating the object. Later, the application can use the moniker to create the object. For more information about monikers, see the documentation for [**IMoniker**](https://msdn.microsoft.com/library/ms679705(v=VS.85).aspx).
 
 To use the System Device Enumerator, perform the following steps.
 
-1.  Call [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create an instance of the System Device Enumerator.
+1.  Call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to create an instance of the System Device Enumerator.
 2.  Call [**ICreateDevEnum::CreateClassEnumerator**](/windows/desktop/api/Strmif/nf-strmif-icreatedevenum-createclassenumerator) and specify the device category as a GUID. For capture devices, the following categories are relevant. 
 
     | Category GUID                       | Description           |
@@ -26,7 +26,7 @@ To use the System Device Enumerator, perform the following steps.
 
     If a video camera has an integrated microphone, it appears in both categories. However, the camera and microphone are treated as separate devices by the system, for purposes of enumeration, device creation, and data streaming.
 
-3.  The [**CreateClassEnumerator**](/windows/desktop/api/Strmif/nf-strmif-icreatedevenum-createclassenumerator) method returns a pointer to the [**IEnumMoniker**](https://msdn.microsoft.com/en-us/library/ms692852(v=VS.85).aspx) interface. To enumerate the monikers, call [**IEnumMoniker::Next**](https://msdn.microsoft.com/en-us/library/Dd542677(v=VS.85).aspx).
+3.  The [**CreateClassEnumerator**](/windows/desktop/api/Strmif/nf-strmif-icreatedevenum-createclassenumerator) method returns a pointer to the [**IEnumMoniker**](https://msdn.microsoft.com/library/ms692852(v=VS.85).aspx) interface. To enumerate the monikers, call [**IEnumMoniker::Next**](https://msdn.microsoft.com/library/Dd542677(v=VS.85).aspx).
 
 The following code creates an enumerator for a specified device category.
 
@@ -60,7 +60,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 
 
 
-The [**IEnumMoniker**](https://msdn.microsoft.com/en-us/library/ms692852(v=VS.85).aspx) interface enumerates a list of [**IMoniker**](https://msdn.microsoft.com/en-us/library/ms679705(v=VS.85).aspx) interfaces, each of which represents a device moniker. The application can read properties from the moniker, or use the moniker to create a DirectShow capture filter for the device. Moniker properties are returned as **VARIANT** values. The following properties are supported by device monikers.
+The [**IEnumMoniker**](https://msdn.microsoft.com/library/ms692852(v=VS.85).aspx) interface enumerates a list of [**IMoniker**](https://msdn.microsoft.com/library/ms679705(v=VS.85).aspx) interfaces, each of which represents a device moniker. The application can read properties from the moniker, or use the moniker to create a DirectShow capture filter for the device. Moniker properties are returned as **VARIANT** values. The following properties are supported by device monikers.
 
 
 
@@ -80,11 +80,11 @@ The "FriendlyName" and "Description" properties are suitable for displaying in a
 -   The "FriendlyName" property is available for every device. It contains a human-readable name for the device.
 -   The "Description" property is available only for DV and D-VHS/MPEG camcorder devices. For more information, see [MSDV Driver](msdv-driver.md) and [MSTape Driver](mstape-driver.md). If available, it contains a description of the device which is more specific than the "FriendlyName" property. Typically it includes the vendor name.
 -   The "DevicePath" property is not a human-readable string, but is guaranteed to be unique for each video capture device on the system. You can use this property to distinguish between two or more instances of the same model of device.
--   If the "WaveInID" property is present, it means the DirectShow capture filter uses the [Waveform Audio](https://msdn.microsoft.com/en-us/library/Dd757715(v=VS.85).aspx) APIs internally to communicate with the device. The value of the "WaveInID" property corresponds to the identifier used by the **waveIn\*** functions, such as [**waveInOpen**](https://msdn.microsoft.com/en-us/library/Dd743847(v=VS.85).aspx).
+-   If the "WaveInID" property is present, it means the DirectShow capture filter uses the [Waveform Audio](https://msdn.microsoft.com/library/Dd757715(v=VS.85).aspx) APIs internally to communicate with the device. The value of the "WaveInID" property corresponds to the identifier used by the **waveIn\*** functions, such as [**waveInOpen**](https://msdn.microsoft.com/library/Dd743847(v=VS.85).aspx).
 
 To read properties from the moniker, perform the following steps.
 
-1.  Call [**IMoniker::BindToStorage**](https://msdn.microsoft.com/en-us/library/ms688738(v=VS.85).aspx) to get a pointer to the [**IPropertyBag**](https://msdn.microsoft.com/en-us/library/ms679668(v=VS.85).aspx) interface.
+1.  Call [**IMoniker::BindToStorage**](https://msdn.microsoft.com/library/ms688738(v=VS.85).aspx) to get a pointer to the [**IPropertyBag**](https://msdn.microsoft.com/library/ms679668(v=VS.85).aspx) interface.
 2.  Call **IPropertyBag::Read** to read the property.
 
 The following code example shows how to enumerate a list of device monikers and get the properties.
@@ -169,7 +169,7 @@ void main()
 
 
 
-To create a DirectShow capture filter for the device, call the [**IMoniker::BindToObject**](https://msdn.microsoft.com/en-us/library/ms691433(v=VS.85).aspx) method to get an [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) pointer. Then call [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add the filter to the filter graph:
+To create a DirectShow capture filter for the device, call the [**IMoniker::BindToObject**](https://msdn.microsoft.com/library/ms691433(v=VS.85).aspx) method to get an [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) pointer. Then call [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add the filter to the filter graph:
 
 
 ```C++

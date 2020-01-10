@@ -1,5 +1,5 @@
 ---
-title: TTM_GETTOOLCOUNT message
+title: TTM_GETTOOLCOUNT message (Commctrl.h)
 description: Retrieves a count of the tools maintained by a tooltip control.
 ms.assetid: 0b0f3ba0-0361-4398-a828-30b7bd278652
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

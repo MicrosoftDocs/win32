@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,8 +24,8 @@ Sets the sharpness of the effect.
 
 | Method                                                                                                  | Description                                  |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------|
-| [**SetSharpness**](https://msdn.microsoft.com/en-us/library/Dn919693(v=VS.85).aspx)                               | Sets the sharpness of the effect.<br/> |
-| [**SetSharpness (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919694(v=VS.85).aspx) | Sets the sharpness of the effect.<br/> |
+| [**SetSharpness**](https://msdn.microsoft.com/library/Dn919693(v=VS.85).aspx)                               | Sets the sharpness of the effect.<br/> |
+| [**SetSharpness (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919694(v=VS.85).aspx) | Sets the sharpness of the effect.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Sets the sharpness of the effect.
 
 <dl> <dt>
 
-[**idcompositionaffinetransform2deffect**](https://msdn.microsoft.com/en-us/library/Dn919690(v=VS.85).aspx)
+[**idcompositionaffinetransform2deffect**](https://msdn.microsoft.com/library/Dn919690(v=VS.85).aspx)
 </dt> </dl>
 
  

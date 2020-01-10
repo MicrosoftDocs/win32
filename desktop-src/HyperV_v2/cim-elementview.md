@@ -2,7 +2,7 @@
 Description: Represents and association between a view, and an instance that represents the normalized view of a managed resource.
 ms.assetid: 9c6eb3d5-7366-4954-9e64-12f889c64114
 title: CIM_ElementView class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

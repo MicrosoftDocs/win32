@@ -1,8 +1,8 @@
 ---
 Description: The ThreadProc method is the thread procedure for the worker thread. This method implements the pure virtual CAMThread::ThreadProc method.
 ms.assetid: 8e66b609-d795-45a8-8fe5-774c659ee350
-title: CSourceStream.ThreadProc method
-ms.topic: article
+title: CSourceStream.ThreadProc method (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

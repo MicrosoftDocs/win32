@@ -1,8 +1,8 @@
 ---
 Description: Percent of time processing shader data.
 ms.assetid: 388bb943-c25f-4b50-b7e4-d6259f1186c2
-title: D3DDEVINFO_D3D9STAGETIMINGS structure
-ms.topic: structure
+title: D3DDEVINFO_D3D9STAGETIMINGS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3D9STAGETIMINGS {
 **MemoryProcessingPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Percent of time in shader spent on memory accesses.
 **ComputationProcessingPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

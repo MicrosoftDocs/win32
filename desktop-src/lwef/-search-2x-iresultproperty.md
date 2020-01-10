@@ -1,5 +1,5 @@
 ---
-title: IResultProperty interface
+title: IResultProperty interface (WdsSharedIDL.h)
 description: Exposes result properties.
 ms.assetid: 58d8c516-47c6-4cae-b46c-5127baf3054d
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

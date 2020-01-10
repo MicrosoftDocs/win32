@@ -3,7 +3,7 @@ Description: The CIM\_FileStorage association links the file system and the logi
 ms.assetid: 1d0b698b-4c57-4a1c-8b00-0a6079be8dcc
 ms.tgt_platform: multiple
 title: CIM_FileStorage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

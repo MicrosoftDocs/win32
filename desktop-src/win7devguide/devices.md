@@ -1,5 +1,5 @@
 ---
-title: Devices
+title: Devices (Windows 7 Developer Guide)
 description: Devices are a fundamental part of the PC experience, and Windows 7 enables new possibilities for developers of applications that interact with devices.
 ms.assetid: faed8ec8-2f12-4090-a003-b14b3d26e02a
 ms.topic: article

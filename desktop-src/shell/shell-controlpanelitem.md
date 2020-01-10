@@ -1,7 +1,7 @@
 ---
 Description: Runs the specified Control Panel (\*.cpl) application.
-title: Shell.ControlPanelItem method
-ms.topic: article
+title: Shell.ControlPanelItem method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -66,7 +66,7 @@ Shell.ControlPanelItem( _
 *bstrDir* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 The Control Panel application's file name. All Control Panel applications have the .cpl extension.
 

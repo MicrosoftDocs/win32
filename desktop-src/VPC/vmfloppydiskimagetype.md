@@ -1,5 +1,5 @@
 ---
-title: VMFloppyDiskImageType enumeration
+title: VMFloppyDiskImageType enumeration (VPCCOMInterfaces.h)
 description: Specifies the floppy disk formats.
 ms.assetid: 7eb504c0-dfb7-45eb-a943-b453b5f8ca63
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

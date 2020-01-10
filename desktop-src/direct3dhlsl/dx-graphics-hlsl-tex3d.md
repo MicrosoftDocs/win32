@@ -1,5 +1,5 @@
 ---
-title: tex3D
+title: tex3D (HLSL reference)
 description: Samples a 3D texture.
 ms.assetid: 713eec24-bdf5-456e-98da-30e2c9d7e808
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - tex3D
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex3D
+# tex3D (HLSL reference)
 
 Samples a 3D texture.
 

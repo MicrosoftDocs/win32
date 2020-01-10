@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile2 GetFileRanges method
+title: IBackgroundCopyFile2 GetFileRanges method (Deliveryoptimization.h)
 description: Retrieves the ranges that you want to download from the remote file.
 ms.assetid: 19B7B4FC-371F-482B-B997-C240B5483F4D
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

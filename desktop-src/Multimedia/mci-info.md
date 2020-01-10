@@ -1,5 +1,5 @@
 ---
-title: MCI_INFO command
+title: MCI_INFO command (Mmsystem.h)
 description: The MCI\_INFO command retrieves string information from a device.
 ms.assetid: aed3fed3-87b9-4673-9171-4f57770d765c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_INFO command retrieves string information from a device. All devices recognize this command. Information is returned in the **lpstrReturn** member of the structure identified by *lpInfo*. The **dwRetSize** member specifies the buffer length for the returned data.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

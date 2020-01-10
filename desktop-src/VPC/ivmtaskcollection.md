@@ -1,5 +1,5 @@
 ---
-title: IVMTaskCollection interface
+title: IVMTaskCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of task objects. To obtain an IVMTaskCollection object, use the IVMVirtualPC Tasks property.
 ms.assetid: 5cfc543c-81a1-49d2-93a9-9b1db1cb5070
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the collection of task objects. To obtain an **IVMTaskCollection** objec
 
 ## Members
 
-The **IVMTaskCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMTaskCollection** also has these types of members:
+The **IVMTaskCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMTaskCollection** also has these types of members:
 
 -   [Properties](#properties)
 

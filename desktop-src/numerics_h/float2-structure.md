@@ -1,5 +1,5 @@
 ---
-title: float2 structure
+title: float2 structure (Windowsnumerics.h)
 description: A vector with two components.
 ms.assetid: 1A23C1E3-F34F-4249-80EA-92A13CD4B34F
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

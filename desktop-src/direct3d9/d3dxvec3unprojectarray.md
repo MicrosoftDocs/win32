@@ -1,8 +1,8 @@
 ---
 Description: Projects an array (x, y, z, 0) from screen space into object space.
 ms.assetid: fef2a76c-c2fe-48c5-a1bb-6669bcc76b9b
-title: D3DXVec3UnprojectArray function
-ms.topic: article
+title: D3DXVec3UnprojectArray function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -55,7 +55,7 @@ Pointer to the [**D3DXVECTOR3**](d3dxvector3.md) structure that is the result of
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the output data stream.
 
@@ -73,7 +73,7 @@ Pointer to the source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the input data stream.
 
@@ -118,7 +118,7 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure, representing the world m
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of elements in the array.
 

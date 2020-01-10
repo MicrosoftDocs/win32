@@ -2,7 +2,7 @@
 Description: Defines the type that contains title information for the Journal note.
 ms.assetid: 40c15b02-2fb0-4837-8e32-6868e974c3f9
 title: TitleType Complex Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

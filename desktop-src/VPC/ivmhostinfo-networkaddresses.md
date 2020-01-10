@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo NetworkAddresses property
+title: IVMHostInfo NetworkAddresses property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of TCP/IP addresses in the host machine.
 ms.assetid: 94716b82-8f35-4702-873d-64507d879dc3
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

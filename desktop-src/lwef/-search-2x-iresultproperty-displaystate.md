@@ -1,5 +1,5 @@
 ---
-title: IResultProperty DisplayState property
+title: IResultProperty DisplayState property (WdsSharedIDL.h)
 description: Visability of the property.
 ms.assetid: 4fdf6cdb-30bd-4582-a573-a1cc9f4052e6
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

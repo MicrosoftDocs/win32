@@ -1,5 +1,5 @@
 ---
-title: EM_TAKEFOCUS message
+title: EM_TAKEFOCUS message (Commctrl.h)
 description: Forces a single-line edit control to receive keyboard focus. You can send this message explicitly or by using the Edit\_TakeFocus macro.
 ms.assetid: 27470857-4219-4426-bc69-e1271afc6ffb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

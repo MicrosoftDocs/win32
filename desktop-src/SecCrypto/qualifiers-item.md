@@ -2,7 +2,7 @@
 Description: Retrieves a qualifier based on a specified index.
 ms.assetid: 4d54358d-99de-4a1c-b843-41006f47a279
 title: Qualifiers.Item property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

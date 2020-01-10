@@ -1,5 +1,5 @@
 ---
-title: TVM_GETEDITCONTROL message
+title: TVM_GETEDITCONTROL message (Commctrl.h)
 description: Retrieves the handle to the edit control being used to edit a tree-view item's text. You can send this message explicitly or by using the TreeView\_GetEditControl macro.
 ms.assetid: c89e57e8-e113-47a1-85e6-bb68990f9c1a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

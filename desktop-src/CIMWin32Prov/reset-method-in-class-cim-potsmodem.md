@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_POTSModem class requests a reset of th
 ms.assetid: 456ce453-ee2f-4d73-a9e0-54d8f1bf402e
 ms.tgt_platform: multiple
 title: Reset method of the CIM_POTSModem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

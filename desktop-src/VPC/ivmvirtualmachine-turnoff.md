@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine TurnOff method
+title: IVMVirtualMachine TurnOff method (VPCCOMInterfaces.h)
 description: Turns off the virtual machine.
 ms.assetid: 4ea00314-8f1e-47d9-bbb8-b5791af1fb86
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

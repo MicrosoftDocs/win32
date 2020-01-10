@@ -1,7 +1,7 @@
 ---
-title: P
+title: P (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter P.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'bc7b0c93-af06-44a4-8bb8-adc0c6fedb6e'
 keywords:
 - parameters

@@ -1,8 +1,8 @@
 ---
 Description: Used to define private messages for use by private window classes, usually of the form WM\_USER+x, where x is an integer value.
 ms.assetid: 4115c587-fcb4-4170-9948-fe33bcb8742a
-title: WM_USER
-ms.topic: article
+title: WM_USER (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -38,7 +38,7 @@ Message numbers in the second range (**WM\_USER** through 0x7FFF) can be defined
 
 Message numbers in the third range (0x8000 through 0xBFFF) are available for applications to use as private messages. Messages in this range do not conflict with system messages.
 
-Message numbers in the fourth range (0xC000 through 0xFFFF) are defined at run time when an application calls the [**RegisterWindowMessage**](https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx) function to retrieve a message number for a string. All applications that register the same string can use the associated message number for exchanging messages. The actual message number, however, is not a constant and cannot be assumed to be the same between different sessions.
+Message numbers in the fourth range (0xC000 through 0xFFFF) are defined at run time when an application calls the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx) function to retrieve a message number for a string. All applications that register the same string can use the associated message number for exchanging messages. The actual message number, however, is not a constant and cannot be assumed to be the same between different sessions.
 
 Message numbers in the fifth range (greater than 0xFFFF) are reserved by the system.
 
@@ -61,7 +61,7 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 **Reference**
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://msdn.microsoft.com/en-us/library/ms644947(v=VS.85).aspx)
+[**RegisterWindowMessage**](https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_APP**](wm-app.md)

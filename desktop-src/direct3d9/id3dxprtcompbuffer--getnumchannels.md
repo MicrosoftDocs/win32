@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the number of color channels used in memory to store samples.
 ms.assetid: 8b033cda-feec-4e74-a4c4-ea44b5fb12c7
-title: ID3DXPRTCompBuffer::GetNumChannels method
-ms.topic: article
+title: ID3DXPRTCompBuffer::GetNumChannels method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the number of color channels used in memory to store samples. The value generally will be either 1 to represent luminance values, or 3 to represent RGB values.
 

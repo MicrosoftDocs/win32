@@ -13,7 +13,7 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ This interface adds the ability to check if a color rendering path is potentiall
 
 ## Members
 
-The **IDWriteFont2** interface inherits from [**IDWriteFont1**](https://msdn.microsoft.com/en-us/library/Hh780404(v=VS.85).aspx). **IDWriteFont2** also has these types of members:
+The **IDWriteFont2** interface inherits from [**IDWriteFont1**](https://msdn.microsoft.com/library/Hh780404(v=VS.85).aspx). **IDWriteFont2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -61,7 +61,7 @@ The **IDWriteFont2** interface has these methods.
 
 <dl> <dt>
 
-[**IDWriteFont1**](https://msdn.microsoft.com/en-us/library/Hh780404(v=VS.85).aspx)
+[**IDWriteFont1**](https://msdn.microsoft.com/library/Hh780404(v=VS.85).aspx)
 </dt> </dl>
 
  

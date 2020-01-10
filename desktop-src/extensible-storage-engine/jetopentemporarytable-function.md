@@ -5,7 +5,7 @@ ms:assetid: feacd0b8-2298-4ec6-aa59-0fede08474bc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294144(v=EXCHG.10)
 ms:contentKeyID: 32765758
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetOpenTemporaryTable
 topic_type: 

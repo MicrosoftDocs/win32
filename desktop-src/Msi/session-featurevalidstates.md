@@ -2,7 +2,7 @@
 Description: The FeatureValidStates property of the Session object returns an integer representing bit flags with each relevant bit representing a valid installation state for the specified feature.
 ms.assetid: 8a1f6911-b0a6-4fac-ba77-df4f1b7d15e2
 title: Session.FeatureValidStates property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

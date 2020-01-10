@@ -1,7 +1,7 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
-title: CPL_NEWINQUIRE message
-ms.topic: article
+title: CPL_NEWINQUIRE message (Cpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: af52889c-7180-4690-8ed1-a0eb0a9dff35
 api_name: 
@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_NEWINQUIRE message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to request information about a dialog box that the application supports.
+Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to request information about a dialog box that the application supports.
 
 ## Parameters
 
@@ -40,7 +40,7 @@ The address of a [**NEWCPLINFO**](/windows/win32/api/cpl/ns-cpl-newcplinfoa) str
 
 ## Return value
 
-If the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
 
 ## Remarks
 

@@ -1,8 +1,8 @@
 ---
 Description: Enables or disables CPU optimizations.
 ms.assetid: 6f73df12-f2fc-4651-b0f7-f7a55e534d3d
-title: D3DXCpuOptimizations function
-ms.topic: article
+title: D3DXCpuOptimizations function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ D3DX_CPU_OPTIMIZATION D3DXCpuOptimizations(
 *Enable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 **TRUE** to enable CPU optimizations; otherwise **FALSE**.
 

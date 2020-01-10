@@ -1,5 +1,5 @@
 ---
-title: EM_GETELLIPSISMODE message
+title: EM_GETELLIPSISMODE message (Richedit.h)
 description: Retrieves the current ellipsis mode.
 ms.assetid: 01A755F3-6C6E-4974-9866-76BF15E0F3AD
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

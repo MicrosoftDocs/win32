@@ -1,5 +1,5 @@
 ---
-title: LVM_HASGROUP message
+title: LVM_HASGROUP message (Commctrl.h)
 description: Determines whether the list-view control has a specified group.
 ms.assetid: 0b8a9208-5221-4f66-8b26-7de55afe485f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

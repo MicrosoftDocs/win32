@@ -2,7 +2,7 @@
 Description: The ShortcutTarget property of the Installer object examines a shortcut and returns its product, feature name, and component if available.
 ms.assetid: fd7a1d34-3013-4419-af92-0a0162c93494
 title: Installer.ShortcutTarget property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

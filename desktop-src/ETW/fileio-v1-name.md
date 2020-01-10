@@ -2,7 +2,7 @@
 Description: This class is the event type class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: a4ee38df-af75-4aec-89ec-5a1c39302c82
 title: FileIo_V1_Name class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

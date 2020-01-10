@@ -1,5 +1,5 @@
 ---
-title: PSM_CANCELTOCLOSE message
+title: PSM_CANCELTOCLOSE message (Prsht.h)
 description: Sent by an application when it has performed changes since the most recent PSN\_APPLY notification that cannot be canceled. You can send this message explicitly or by using the PropSheet\_CancelToClose macro.
 ms.assetid: 0a4b6176-7ddb-469f-8ebf-a31e533a8690
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

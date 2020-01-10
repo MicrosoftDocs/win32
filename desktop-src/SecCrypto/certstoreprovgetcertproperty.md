@@ -2,7 +2,7 @@
 Description: Retrieves a specified property of a certificate.
 ms.assetid: 827e0331-1f87-4891-8cc1-de1bcbad2963
 title: CertStoreProvGetCertProperty callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ BOOL WINAPI CertStoreProvGetCertProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

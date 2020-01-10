@@ -1,7 +1,7 @@
 ---
 Description: Installation
 ms.assetid: 02A7866F-0F72-4437-A882-EEE9C2E28EC7
-title: Installation
+title: Installation (Developer Notes)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**CoInstall**](https://msdn.microsoft.com/en-us/library/Bb432203(v=VS.85).aspx)
+-   [**CoInstall**](https://msdn.microsoft.com/library/Bb432203(v=VS.85).aspx)
 -   [**IcfgInstallInetComponents**](icfginstallinetcomponents.md)
 -   [**IcfgNeedInetComponents**](icfgneedinetcomponents.md)
 -   [**InstallCatalog**](installcatalog.md)

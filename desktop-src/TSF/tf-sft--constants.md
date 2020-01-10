@@ -1,5 +1,5 @@
 ---
-title: TF_SFT_ Constants
+title: TF_SFT_ Constants (Ctfutb.h)
 description: The TF\_SFT\_\ constants specify display settings of a floating language bar.
 ms.assetid: 628e1d85-9614-4327-b89b-723f6eeb0718
 topic_type:
@@ -21,7 +21,7 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

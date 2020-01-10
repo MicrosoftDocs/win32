@@ -5,7 +5,7 @@ ms:assetid: 537a4753-b804-457a-9a13-53e8d1056eab
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269250(v=EXCHG.10)
 ms:contentKeyID: 32765552
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetResetSessionContext
 topic_type: 

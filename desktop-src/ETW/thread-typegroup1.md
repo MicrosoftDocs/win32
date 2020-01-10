@@ -2,7 +2,7 @@
 Description: This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
 ms.assetid: d9e3e33a-0e59-4753-a8d8-5320cbae9d95
 title: Thread_TypeGroup1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -97,7 +97,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(11)
 </dt> </dl>
 
-The scheduler priority of the thread (see the [**SetThreadPriority**](https://msdn.microsoft.com/en-us/library/ms686277(v=VS.85).aspx) function).
+The scheduler priority of the thread (see the [**SetThreadPriority**](https://msdn.microsoft.com/library/ms686277(v=VS.85).aspx) function).
 
 </dd> <dt>
 

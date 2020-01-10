@@ -1,8 +1,8 @@
 ---
 Description: Uses the GPU to compute the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation. Computing the lighting on the GPU will generally be much faster than on the CPU.
 ms.assetid: ccea5a5e-23f1-4fdf-bce8-9bfc35d45257
-title: ID3DXPRTEngine::ComputeDirectLightingSHGPU method
-ms.topic: article
+title: ID3DXPRTEngine::ComputeDirectLightingSHGPU method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -45,7 +45,7 @@ HRESULT ComputeDirectLightingSHGPU(
 
 Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
 
-Pointer to the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/en-us/library/Bb219843(v=VS.85).aspx) pixel shaders.
+Pointer to the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/library/Bb219843(v=VS.85).aspx) pixel shaders.
 
 > [!Note]  
 > Callback functions should not use the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used by the GPU simulator.
@@ -57,16 +57,16 @@ Pointer to the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb17433
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-GPU simulation parameter that defines the resolution of the shadow z-buffer. Should be set to one of the constant values from [**D3DXSHGPUSIMOPT**](https://msdn.microsoft.com/en-us/library/Bb205452(v=VS.85).aspx). To specifiy higher precision simulation, the D3DXSHGPUSIMOPT\_HIGHQUALITY value may be combined with one of the D3DXSHGPUSIMOPT\_SHADOWRESxxx values.
+GPU simulation parameter that defines the resolution of the shadow z-buffer. Should be set to one of the constant values from [**D3DXSHGPUSIMOPT**](https://msdn.microsoft.com/library/Bb205452(v=VS.85).aspx). To specifiy higher precision simulation, the D3DXSHGPUSIMOPT\_HIGHQUALITY value may be combined with one of the D3DXSHGPUSIMOPT\_SHADOWRESxxx values.
 
 </dd> <dt>
 
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -75,7 +75,7 @@ Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3d
 *ZBias* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Bias in the normal direction.
 
@@ -84,7 +84,7 @@ Bias in the normal direction.
 *ZAngleBias* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Bias in the normal direction, scaled by one minus the cosine of the angle with the light ray.
 
@@ -101,7 +101,7 @@ Pointer to an [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object. This buffer must h
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

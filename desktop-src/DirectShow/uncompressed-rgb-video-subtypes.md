@@ -1,8 +1,8 @@
 ---
 Description: The following subtypes define uncompressed RGB formats with no alpha channel.
 ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
-title: Uncompressed RGB Video Subtypes
-ms.topic: article
+title: Uncompressed RGB Video Subtypes (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
     
 
--   For RGB 24, every pixel is an [**RGBTRIPLE**](https://msdn.microsoft.com/en-us/library/Dd162939(v=VS.85).aspx). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
+-   For RGB 24, every pixel is an [**RGBTRIPLE**](https://msdn.microsoft.com/library/Dd162939(v=VS.85).aspx). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
 
     |       |      |       |     |
     |-------|------|-------|-----|

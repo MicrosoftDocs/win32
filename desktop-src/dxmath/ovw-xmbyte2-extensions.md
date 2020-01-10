@@ -2,7 +2,7 @@
 Description: Describes a 2D vector made up of signed integers, 8-bits (1 byte) in length.
 ms.assetid: 4b01065e-28de-4c67-92ed-2a3564817656
 title: XMBYTE2 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

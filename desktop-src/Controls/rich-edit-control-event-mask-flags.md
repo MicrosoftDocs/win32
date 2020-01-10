@@ -1,5 +1,5 @@
 ---
-title: Rich Edit Control Event Mask Flags
+title: Rich Edit Control Event Mask Flags (RichEdit.h)
 description: The event mask specifies which notification codes a rich edit control sends to its parent window. The event mask can be none or a combination of these values.
 ms.assetid: ae0d2cbe-5cbc-42bb-aeb1-7e6be846a4ba
 topic_type:
@@ -27,7 +27,7 @@ api_location:
 - RichEdit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

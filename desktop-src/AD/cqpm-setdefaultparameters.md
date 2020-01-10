@@ -1,5 +1,5 @@
 ---
-title: CQPM_SETDEFAULTPARAMETERS message
+title: CQPM_SETDEFAULTPARAMETERS message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to set alternate default parameters for the page.
 ms.assetid: 4d7f1c03-5c67-4f4c-b381-034a142251fe
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

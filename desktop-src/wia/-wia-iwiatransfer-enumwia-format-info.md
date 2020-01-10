@@ -1,8 +1,8 @@
 ---
 Description: Creates an enumerator for the transfer formats that the Windows Image Acquisition (WIA) 2.0 device supports.
 ms.assetid: 70fffc7b-b500-4404-9d94-76d1828ddc8c
-title: IWiaTransfer::EnumWIA_FORMAT_INFO method
-ms.topic: article
+title: IWiaTransfer::EnumWIA_FORMAT_INFO method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointer received through the *ppIEnum* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointer received through the *ppIEnum* parameter.
 
 ## Requirements
 

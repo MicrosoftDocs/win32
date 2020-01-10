@@ -1,5 +1,5 @@
 ---
-title: gluTessEndPolygon function
+title: gluTessEndPolygon function (Glu.h)
 description: The gluTessBeginPolygon and gluTessEndPolygon functions delimit a polygon description.
 ms.assetid: c9ae2075-59d7-4c1a-b720-0aa05954525c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

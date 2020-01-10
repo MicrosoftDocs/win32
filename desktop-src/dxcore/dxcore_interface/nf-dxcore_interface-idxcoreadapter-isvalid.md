@@ -2,7 +2,7 @@
 title: IDXCoreAdapter::IsValid
 description: Determines whether this DXCore adapter object is still valid.
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2019
 ---
 

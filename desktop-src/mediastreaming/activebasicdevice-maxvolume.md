@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice MaxVolume property
+title: ActiveBasicDevice MaxVolume property (PlayToDevice.h)
 description: Gets the maximum volume supported by the device.
 ms.assetid: EA0EC323-4A18-4CC1-8FA4-7BD302318863
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -58,7 +58,7 @@ A pointer to a**UINT32** that specifies the maximum volume supported by the devi
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

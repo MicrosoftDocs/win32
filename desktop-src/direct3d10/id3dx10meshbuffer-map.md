@@ -1,8 +1,8 @@
 ---
 Description: Get a pointer to the mesh buffer memory to modify its contents.
 ms.assetid: d15ed47a-450e-404a-bcc2-a641abc2d02e
-title: ID3DX10MeshBuffer::Map method
-ms.topic: article
+title: ID3DX10MeshBuffer::Map method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to the buffer data.
 *pSize* \[out\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Size of the buffer in bytes.
 
@@ -56,7 +56,7 @@ Size of the buffer in bytes.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

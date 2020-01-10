@@ -3,7 +3,7 @@ Description: The Win32\_FloppyDrive WMI class manages the functions of a floppy 
 ms.assetid: 41823eeb-4831-4deb-a798-7b3589ebf3e2
 ms.tgt_platform: multiple
 title: Win32_FloppyDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: Enumerating Devices
+title: Enumerating Windows Media Device Manager devices
 description: Enumerating Devices
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerating Devices
+# Enumerating Windows Media Device Manager devices
 
 After authenticating an application, you can begin to enumerate the devices detected by Windows Media Device Manager. Enumeration is done by using an enumeration interface, [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice), obtained by using either [**IWMDeviceManager2::EnumDevices2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2) or [**IWMDeviceManager::EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices). If supported, use the **EnumDevices2** method, because the earlier version only returned legacy interfaces on devices, whereas the new version returns both the legacy and the new interfaces.
 

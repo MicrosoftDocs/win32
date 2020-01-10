@@ -1,8 +1,8 @@
 ---
 Description: Lists the signal processing modes supported by the mode effect APO.
 ms.assetid: 166B55B4-08F9-4B41-B659-FF8D750397F0
-title: PKEY_MFX_ProcessingModes_Supported_For_Streaming property
-ms.topic: article
+title: PKEY_MFX_ProcessingModes_Supported_For_Streaming property (Audioenginebaseapo.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

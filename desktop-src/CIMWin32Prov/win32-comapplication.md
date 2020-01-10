@@ -3,7 +3,7 @@ Description: The Win32\_COMApplication abstract WMI class represents a Component
 ms.assetid: a70939e2-5812-4ade-aa75-819c8d4b9173
 ms.tgt_platform: multiple
 title: Win32_COMApplication class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

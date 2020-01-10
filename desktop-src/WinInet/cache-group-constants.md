@@ -1,5 +1,5 @@
 ---
-title: Cache Group Constants
+title: Cache Group Constants (Wininet.h)
 description: The following list contains the constants used by the cache group functions.
 ms.assetid: 9ca2069e-497d-4747-acf4-d5b8020b8ab7
 topic_type:
@@ -25,7 +25,7 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Changes the current top alternate to the specified alternate and clears the confirmation type for all IContextNode objects associated with the alternate.
 ms.assetid: a4ff7e82-623f-4501-9641-5235c3083757
-title: IInkAnalyzer::ModifyTopAlternate method
-ms.topic: article
+title: IInkAnalyzer::ModifyTopAlternate method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

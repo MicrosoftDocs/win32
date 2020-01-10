@@ -3,7 +3,7 @@ Description: The CIM\_LinkHasConnector class associates cables and links used as
 ms.assetid: c8244b93-749a-424a-ab40-ce5ce79c8b02
 ms.tgt_platform: multiple
 title: CIM_LinkHasConnector class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

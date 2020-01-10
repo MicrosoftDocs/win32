@@ -1,8 +1,8 @@
 ---
 Description: Specifies a compression filter to use when rendering the specified group.
 ms.assetid: ba717cac-c5a8-4821-a5f0-dd9d5fe4834e
-title: ISmartRenderEngine::SetGroupCompressor method
-ms.topic: article
+title: ISmartRenderEngine::SetGroupCompressor method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

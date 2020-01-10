@@ -1,8 +1,8 @@
 ---
 Description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
 ms.assetid: 21447733-b27b-4906-8c0e-7089dec71b5b
-title: ID3DXPRTEngine::GetAdaptedMesh method
-ms.topic: article
+title: ID3DXPRTEngine::GetAdaptedMesh method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -51,7 +51,7 @@ Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336
 *pFaceRemap* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the original mesh face that was split to generate the current face.
 
@@ -60,7 +60,7 @@ Pointer to the original mesh face that was split to generate the current face.
 *pVertRemap* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a destination array containing the three original mesh vertices that are the parents of the current vertex.
 
@@ -69,7 +69,7 @@ Pointer to a destination array containing the three original mesh vertices that 
 *pfVertWeights* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a destination array containing blending factors for the pVertRemap vertices.
 
@@ -86,7 +86,7 @@ Pointer to the output [**ID3DXMesh**](id3dxmesh.md) mesh object.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

@@ -1,5 +1,5 @@
 ---
-title: SB_GETTIPTEXT message
+title: SB_GETTIPTEXT message (Commctrl.h)
 description: Retrieves the tooltip text for a part in a status bar. The status bar must be created with the SBT\_TOOLTIPS style to enable tooltips.
 ms.assetid: a3936830-a855-4ef6-b179-3aa3730cd0b8
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

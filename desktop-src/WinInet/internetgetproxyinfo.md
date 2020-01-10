@@ -12,7 +12,7 @@ api_location:
 - JSProxy.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -141,13 +141,13 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 <dl> <dt>
 
-[**InternetInitializeAutoProxyDll**](https://msdn.microsoft.com/en-us/library/Aa385093(v=VS.85).aspx)
+[**InternetInitializeAutoProxyDll**](https://msdn.microsoft.com/library/Aa385093(v=VS.85).aspx)
 </dt> <dt>
 
-[**InternetDeInitializeAutoProxyDll**](https://msdn.microsoft.com/en-us/library/Aa384580(v=VS.85).aspx)
+[**InternetDeInitializeAutoProxyDll**](https://msdn.microsoft.com/library/Aa384580(v=VS.85).aspx)
 </dt> <dt>
 
-[**DetectAutoProxyUrl**](https://msdn.microsoft.com/en-us/library/Aa383993(v=VS.85).aspx)
+[**DetectAutoProxyUrl**](https://msdn.microsoft.com/library/Aa383993(v=VS.85).aspx)
 </dt> </dl>
 
  

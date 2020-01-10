@@ -1,8 +1,8 @@
 ---
 Description: Adjusts the saturation.
 ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
-title: MFPKEY_COLOR_SATURATION Property
-ms.topic: article
+title: MFPKEY_COLOR_SATURATION Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Adjusts the saturation.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

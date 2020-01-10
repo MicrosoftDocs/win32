@@ -1,5 +1,5 @@
 ---
-title: HDM_GETUNICODEFORMAT message
+title: HDM_GETUNICODEFORMAT message (Commctrl.h)
 description: Gets the Unicode character format flag for the control. You can send this message explicitly or use the Header\_GetUnicodeFormat macro.
 ms.assetid: 2b36265a-023c-4083-a755-769461f3804b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

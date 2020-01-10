@@ -1,8 +1,8 @@
 ---
 Description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
-title: GetTraceEnableFlags function
-ms.topic: article
+title: GetTraceEnableFlags function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -53,9 +53,9 @@ Returns the value the controller specified in the *EnableFlag* parameter when ca
 
 To determine if the function failed or the controller set the enable flags to 0, follow these steps:
 
--   Call the [**SetLastError**](https://msdn.microsoft.com/en-us/library/ms680627(v=VS.85).aspx) function to set the last error to **ERROR\_SUCCESS**.
+-   Call the [**SetLastError**](https://msdn.microsoft.com/library/ms680627(v=VS.85).aspx) function to set the last error to **ERROR\_SUCCESS**.
 -   Call the **GetTraceEnableFlags** function to retrieve the enable flags.
--   If the enable flags value is 0, call the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function to retrieve the last known error.
+-   If the enable flags value is 0, call the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function to retrieve the last known error.
 -   If the last known error is **ERROR\_SUCCESS**, the controller set the enable flags to 0; otherwise, the **GetTraceEnableFlags** function failed with the last known error.
 
 ## Remarks

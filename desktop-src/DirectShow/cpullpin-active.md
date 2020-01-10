@@ -1,8 +1,8 @@
 ---
 Description: The Active method creates a worker thread that pulls data from the output pin. This method also commits the allocator.
 ms.assetid: 9efa20f3-7909-4d87-bfa8-314d055b80f8
-title: CPullPin.Active method
-ms.topic: article
+title: CPullPin.Active method (Pullpin.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

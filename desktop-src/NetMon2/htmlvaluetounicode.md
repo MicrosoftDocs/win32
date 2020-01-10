@@ -1,8 +1,8 @@
 ---
 Description: The HTMLValueToUnicode function converts an HTML CP\_UTF8 string to a Unicode string.
 ms.assetid: d175476e-9c84-48b8-9c89-00255b7cb638
-title: HTMLValueToUnicode function
-ms.topic: article
+title: HTMLValueToUnicode function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

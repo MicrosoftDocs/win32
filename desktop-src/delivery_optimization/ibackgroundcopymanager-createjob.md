@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyManager CreateJob method
+title: IBackgroundCopyManager CreateJob method (Deliveryoptimization.h)
 description: Creates a job.
 ms.assetid: BDE5BE4D-9AE9-463D-B900-850D255EAB58
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

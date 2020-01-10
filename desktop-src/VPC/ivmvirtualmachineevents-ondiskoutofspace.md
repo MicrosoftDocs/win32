@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnDiskOutOfSpace method
+title: IVMVirtualMachineEvents OnDiskOutOfSpace method (VPCCOMInterfaces.h)
 description: Receives notification that a disk required for a VM is low on free space.
 ms.assetid: 1c431904-fffd-4513-8670-b9723f53edf1
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

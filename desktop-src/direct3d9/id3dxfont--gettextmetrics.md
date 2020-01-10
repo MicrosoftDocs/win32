@@ -1,8 +1,8 @@
 ---
 Description: Retrieves font characteristics that are identified in a TEXTMETRIC structure. This method supports ANSI and Unicode compiler settings.
 ms.assetid: 37788281-5bb0-45bb-b6d4-bdc4d811e3af
-title: ID3DXFont::GetTextMetrics method
-ms.topic: article
+title: ID3DXFont::GetTextMetrics method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,7 +18,7 @@ api_location:
 
 # ID3DXFont::GetTextMetrics method
 
-Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/en-us/library/Dd145132(v=VS.85).aspx) structure. This method supports ANSI and Unicode compiler settings.
+Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx) structure. This method supports ANSI and Unicode compiler settings.
 
 ## Syntax
 
@@ -38,15 +38,15 @@ BOOL GetTextMetrics(
 *pTextMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**TEXTMETRIC**](https://msdn.microsoft.com/en-us/library/Dd145132(v=VS.85).aspx)\***
+Type: **[**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx)\***
 
-Pointer to a [**TEXTMETRIC**](https://msdn.microsoft.com/en-us/library/Dd145132(v=VS.85).aspx) structure, which contains font properties.
+Pointer to a [**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx) structure, which contains font properties.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Nonzero if the function is successful; otherwise 0.
 

@@ -46,7 +46,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-4.  Apply the effect chain to a voice with the [**SetEffectChain**](https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx) function.
+4.  Apply the effect chain to a voice with the [**SetEffectChain**](https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx) function.
 
     You can apply effect chains to master voices, source voices, and submix voices.
 
@@ -58,7 +58,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
 5.  Release the effect with IUnknown::Release.
 
-    When you create an XAPO, it will have a reference count of 1. When the XAPO is passed to XAudio2 with [**SetEffectChain**](https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx), XAudio2 increments the reference count on the XAPO. Releasing the client's reference to the XAPO allows XAudio2 to take ownership of the XAPO. If XAudio2 has the only reference to the XAPO, it will be disposed of when it is no longer being used by XAudio2. If the client code needs to maintain a reference to the XAPO—for example for later reuse—you should skip this step.
+    When you create an XAPO, it will have a reference count of 1. When the XAPO is passed to XAudio2 with [**SetEffectChain**](https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx), XAudio2 increments the reference count on the XAPO. Releasing the client's reference to the XAPO allows XAudio2 to take ownership of the XAPO. If XAudio2 has the only reference to the XAPO, it will be disposed of when it is no longer being used by XAudio2. If the client code needs to maintain a reference to the XAPO—for example for later reuse—you should skip this step.
 
     ```
     pXAPO->Release();
@@ -96,7 +96,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-7.  Pass the effect parameter structure to the effect by calling the [**SetEffectParameters**](https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx) function on the voice to which the effect is attached.
+7.  Pass the effect parameter structure to the effect by calling the [**SetEffectParameters**](https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx) function on the voice to which the effect is attached.
 
     ```
     hr = pVoice->SetEffectParameters( 0, &reverbParameters, sizeof( reverbParameters ) );
@@ -106,7 +106,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
 8.  Disable or enable the effect, whenever appropriate.
 
-    You can use [**DisableEffect**](https://msdn.microsoft.com/en-us/library/Ee418583(v=VS.85).aspx) at any time to turn an effect off.
+    You can use [**DisableEffect**](https://msdn.microsoft.com/library/Ee418583(v=VS.85).aspx) at any time to turn an effect off.
 
     ```
     pVoice->DisableEffect(0);
@@ -114,7 +114,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-    You can turn on an effect again with [**EnableEffect**](https://msdn.microsoft.com/en-us/library/Ee418584(v=VS.85).aspx).
+    You can turn on an effect again with [**EnableEffect**](https://msdn.microsoft.com/library/Ee418584(v=VS.85).aspx).
 
     ```
     pVoice->EnableEffect(0);
@@ -122,7 +122,7 @@ This topic shows you how you can apply an effect chain to a voice to allow custo
 
     
 
-    The parameters for [**DisableEffect**](https://msdn.microsoft.com/en-us/library/Ee418583(v=VS.85).aspx) and [**EnableEffect**](https://msdn.microsoft.com/en-us/library/Ee418584(v=VS.85).aspx) specify which effect in the chain to enable or disable.
+    The parameters for [**DisableEffect**](https://msdn.microsoft.com/library/Ee418583(v=VS.85).aspx) and [**EnableEffect**](https://msdn.microsoft.com/library/Ee418584(v=VS.85).aspx) specify which effect in the chain to enable or disable.
 
 ## Related topics
 

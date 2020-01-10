@@ -1,5 +1,5 @@
 ---
-title: DRM_COPY_OPL structure
+title: DRM_COPY_OPL structure (Wmdrmsdk.h)
 description: The DRM\_COPY\_OPL structure holds information about the output protection levels (OPLs) specified in a license for copy actions.
 ms.assetid: 439cbd56-05c1-46f8-86b9-ac1341902a40
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

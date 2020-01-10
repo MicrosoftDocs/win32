@@ -1,8 +1,8 @@
 ---
 Description: Returns time position in the local timeframe of an animation set.
 ms.assetid: d822e1d8-f371-43a1-bbcf-2223e28a200a
-title: ID3DXAnimationSet::GetPeriodicPosition method
-ms.topic: article
+title: ID3DXAnimationSet::GetPeriodicPosition method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ DOUBLE GetPeriodicPosition(
 *Position* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Local time of the animation set.
 
@@ -46,7 +46,7 @@ Local time of the animation set.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Time position as measured in the timeframe of the animation set. This value will be bounded by the period of the animation set.
 

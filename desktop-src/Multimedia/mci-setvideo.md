@@ -1,5 +1,5 @@
 ---
-title: MCI_SETVIDEO command
+title: MCI_SETVIDEO command (Mmsystem.h)
 description: The MCI\_SETVIDEO command sets values associated with video playback. Digital-video and VCR devices recognize this command.
 ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SETVIDEO command sets values associated with video playback. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

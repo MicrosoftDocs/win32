@@ -2,7 +2,7 @@
 Description: Loads a signing certificate from a specified .pfx file.
 ms.assetid: 98963354-c237-40d0-9235-8318728e2c8e
 title: Signer.Load method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -47,7 +47,7 @@ Name of the .pfx file that contains the signing certificate.
 *Password* \[optional\]
 </dt> <dd>
 
-String containing the plaintext password used to open the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. The default value is an empty string (""). For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx).
+String containing the plaintext password used to open the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. The default value is an empty string (""). For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
 
 </dd> </dl>
 

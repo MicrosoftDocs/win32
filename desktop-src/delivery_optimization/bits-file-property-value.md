@@ -1,5 +1,5 @@
 ---
-title: BITS_FILE_PROPERTY_VALUE structure
+title: BITS_FILE_PROPERTY_VALUE structure (Deliveryoptimization.h)
 description: The BITS_FILE_PROPERTY_VALUE union provides the property value of the DO file based on a value from the BITS_FILE_PROPERTY_ID enumeration.
 ms.assetid: 56A634F9-FB30-49D5-BD03-DD59AEF702C1
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

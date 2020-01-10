@@ -1,5 +1,5 @@
 ---
-title: Values for GUID_COMPARTMENT_TRANSITORYEXTENSION
+title: Values for GUID_COMPARTMENT_TRANSITORYEXTENSION (Ctffunc.h)
 description: The following values of the GUID\_COMPARTMENT\_TRANSITORYEXTENSION compartment are used to control the behavior of transitory extension.
 ms.assetid: a81a18be-fb71-4414-a552-3ae2582349f9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Ctffunc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

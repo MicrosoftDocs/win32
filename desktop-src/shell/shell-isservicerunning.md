@@ -1,8 +1,8 @@
 ---
 Description: Returns a value that indicates whether a particular service is running.
 ms.assetid: FDC41C2D-7462-458f-BBE6-D97260C26B6C
-title: Shell.IsServiceRunning method
-ms.topic: article
+title: Shell.IsServiceRunning method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ Shell.IsServiceRunning( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the name of the service.
 

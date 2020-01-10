@@ -1,8 +1,8 @@
 ---
 Description: Sets an array of Boolean values.
 ms.assetid: 920b3482-cc30-4ab2-bfce-59f03afe11da
-title: ID3DXBaseEffect::SetBoolArray method
-ms.topic: article
+title: ID3DXBaseEffect::SetBoolArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pB* \[in\]
 </dt> <dd>
 
-Type: **const [**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Array of Boolean values.
 
@@ -58,7 +58,7 @@ Array of Boolean values.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of Boolean values in the array.
 
@@ -66,7 +66,7 @@ Number of Boolean values in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

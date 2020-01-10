@@ -1,5 +1,5 @@
 ---
-title: TTM_GETTEXT message
+title: TTM_GETTEXT message (Commctrl.h)
 description: Retrieves the information a tooltip control maintains about a tool.
 ms.assetid: f2afa706-4209-4761-a981-df3d5b938c88
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

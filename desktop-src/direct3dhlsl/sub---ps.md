@@ -2,10 +2,10 @@
 title: sub - ps
 description: Subtracts sources.
 ms.assetid: e130724f-63bf-4d7f-bc9f-6a4441a788b8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

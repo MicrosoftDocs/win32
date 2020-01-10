@@ -1,5 +1,5 @@
 ---
-title: MrmPlatformVersion enumeration
+title: MrmPlatformVersion enumeration (MrmResourceIndexer.h)
 description: Defines constants that specify a platform version. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
 ms.assetid: 7BA30B8F-FB23-4DCA-930D-099C7F8476E9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Describes the logon session or sessions associated with a user logg
 ms.assetid: d09a115b-95a3-47c7-a04d-c810d044ccc8
 ms.tgt_platform: multiple
 title: Win32_LogonSession class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

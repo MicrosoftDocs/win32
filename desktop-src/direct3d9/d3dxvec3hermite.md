@@ -1,8 +1,8 @@
 ---
 Description: Performs a Hermite spline interpolation, using the specified 3D vectors.
 ms.assetid: d45b1179-0e11-4f58-8d50-432236cb88ca
-title: D3DXVec3Hermite function
-ms.topic: article
+title: D3DXVec3Hermite function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -88,7 +88,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure, a tangent vecto
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 

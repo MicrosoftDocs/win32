@@ -1,8 +1,8 @@
 ---
 Description: Returns the length of a 4D vector.
 ms.assetid: cb332160-3e3d-41b9-bfb0-e3b743d2eafd
-title: D3DXVec4Length function
-ms.topic: article
+title: D3DXVec4Length function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the source [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The vector's length.
 

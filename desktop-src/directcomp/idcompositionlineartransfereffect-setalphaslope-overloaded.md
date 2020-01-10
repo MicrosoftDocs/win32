@@ -1,5 +1,5 @@
 ---
-title: idcompositionlineartransfereffect SetAlphaSlope methods
+title: idcompositionlineartransfereffect SetAlphaSlope methods (Dcomp.h)
 description: Sets the slope of the linear function for the alpha channel.
 ms.assetid: 1de76dcb-9fcb-ddda-0a98-be151ff869ff
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionlineartransfereffect::SetAlphaSlope methods
@@ -24,8 +24,8 @@ Sets the slope of the linear function for the alpha channel.
 
 | Method                                                                                                 | Description                                                             |
 |:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-| [**SetAlphaSlope**](https://msdn.microsoft.com/en-us/library/Dn919743(v=VS.85).aspx)                               | Sets the slope of the linear function for the alpha channel.<br/> |
-| [**SetAlphaSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919744(v=VS.85).aspx) | Sets the slope of the linear function for the alpha channel.<br/> |
+| [**SetAlphaSlope**](https://msdn.microsoft.com/library/Dn919743(v=VS.85).aspx)                               | Sets the slope of the linear function for the alpha channel.<br/> |
+| [**SetAlphaSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919744(v=VS.85).aspx) | Sets the slope of the linear function for the alpha channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the slope of the linear function for the alpha channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

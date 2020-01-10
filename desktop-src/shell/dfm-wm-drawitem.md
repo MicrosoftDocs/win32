@@ -1,8 +1,8 @@
 ---
 Description: Sent to the parent window of an owner-drawn control or menu when a visual aspect of the control or menu has changed.
 ms.assetid: 2515bbab-025f-4f00-8564-a732d68edea3
-title: DFM_WM_DRAWITEM message
-ms.topic: article
+title: DFM_WM_DRAWITEM message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -37,7 +37,7 @@ The identifier of the control that sent the **DFM\_WM\_DRAWITEM** message. If th
 *lpDrawItem* \[out\]
 </dt> <dd>
 
-A pointer to a [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/en-us/library/Bb775802(v=VS.85).aspx) structure containing information about the item to be drawn and the type of drawing required.
+A pointer to a [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structure containing information about the item to be drawn and the type of drawing required.
 
 </dd> </dl>
 
@@ -47,9 +47,9 @@ If an application processes this message, it should return **TRUE**.
 
 ## Remarks
 
-The **itemAction** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/en-us/library/Bb775802(v=VS.85).aspx) structure specifies the drawing operation that an application should perform.
+The **itemAction** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structure specifies the drawing operation that an application should perform.
 
-Before returning from processing this message, an application should ensure that the device context identified by the **hDC** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/en-us/library/Bb775802(v=VS.85).aspx) structure is in the default state.
+Before returning from processing this message, an application should ensure that the device context identified by the **hDC** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structure is in the default state.
 
 ## Requirements
 

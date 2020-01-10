@@ -2,7 +2,7 @@
 Description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
 ms.assetid: a434938d-032f-46c6-a94b-3936e56e2db9
 title: Thread_V1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

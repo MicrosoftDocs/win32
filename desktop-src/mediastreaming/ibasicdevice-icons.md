@@ -12,14 +12,14 @@ api_name:
 - IBasicDevice.Icons
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # IBasicDevice::Icons method
 
-Returns a vector of [**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx) interfaces.
+Returns a vector of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interfaces.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT Icons(
 *value* \[out\]
 </dt> <dd>
 
-Receives an enumerable collection of [**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx) interface pointers.
+Receives an enumerable collection of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interface pointers.
 
 </dd> </dl>
 

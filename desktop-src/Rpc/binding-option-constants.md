@@ -1,5 +1,5 @@
 ---
-title: Binding Option Constants
+title: Binding Option Constants (Rpcdce.h)
 description: Applications set the binding option constants to control how the RPC run-time library processes remote procedure calls. The following table lists each binding property, and the relevant constant values for the binding properties.
 ms.assetid: ff88e05d-b9f3-42ef-a44f-fee9261832c8
 topic_type:
@@ -18,7 +18,7 @@ api_location:
 - Rpcdcep.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

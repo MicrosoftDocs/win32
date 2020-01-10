@@ -1,8 +1,8 @@
 ---
 Description: The Set method sets the value of a given audio device property.
 ms.assetid: 701cdfd4-9241-408c-8497-3983018e7da0
-title: ITAudioDeviceControl::Set method
-ms.topic: article
+title: ITAudioDeviceControl::Set method (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

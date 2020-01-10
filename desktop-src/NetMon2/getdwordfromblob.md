@@ -1,8 +1,8 @@
 ---
 Description: The GetDwordFromBlob function retrieves the named DWORD value from a BLOB.
 ms.assetid: edad74a7-b726-46d9-b49f-9984272d0a29
-title: GetDwordFromBlob function
-ms.topic: article
+title: GetDwordFromBlob function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

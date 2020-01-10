@@ -2,7 +2,7 @@
 title: iadd (sm4 - asm)
 description: Integer addition.
 ms.assetid: EF78EA65-DC16-469A-9E45-52844FF4BD93
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Prints a test page.
 ms.assetid: 7968e637-9817-4111-89f5-d3c6961395e5
 ms.tgt_platform: multiple
 title: PrintTestPage method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

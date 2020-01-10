@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set an array of vertex shader integer constants.
 ms.assetid: 0035c97a-1b17-4665-9032-7b3b9a9d2cff
-title: ID3DXEffectStateManager::SetVertexShaderConstantI method
-ms.topic: article
+title: ID3DXEffectStateManager::SetVertexShaderConstantI method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -40,7 +40,7 @@ HRESULT SetVertexShaderConstantI(
 *StartRegister* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The zero-based index of the first constant register.
 
@@ -49,7 +49,7 @@ The zero-based index of the first constant register.
 *pConstantData* \[out\]
 </dt> <dd>
 
-Type: **const [**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 An array of integer constants.
 
@@ -58,7 +58,7 @@ An array of integer constants.
 *RegisterCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of registers in pConstantData.
 
@@ -66,7 +66,7 @@ The number of registers in pConstantData.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

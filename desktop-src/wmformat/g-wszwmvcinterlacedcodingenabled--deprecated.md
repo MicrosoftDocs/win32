@@ -1,5 +1,5 @@
 ---
-title: g_wszWMVCInterlacedCodingEnabled
+title: g_wszWMVCInterlacedCodingEnabled (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 6ce382d0-b856-44e3-a8fb-96765d2797ca
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

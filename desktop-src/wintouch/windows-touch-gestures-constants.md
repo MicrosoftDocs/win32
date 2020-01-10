@@ -1,5 +1,5 @@
 ---
-title: Windows Touch Gestures Constants
+title: Windows Touch Gestures Constants (Winuser.h)
 description: This section lists the constants used for Windows Touch gestures.
 ms.assetid: C5C3C533-A781-47EF-8209-2D94A94C9097
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

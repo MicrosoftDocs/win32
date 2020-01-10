@@ -1,5 +1,5 @@
 ---
-title: CB_SETDROPPEDWIDTH message
+title: CB_SETDROPPEDWIDTH message (Winuser.h)
 description: An application sends the CB\_SETDROPPEDWIDTH message to set the minimum allowable width, in pixels, of the list box of a combo box with the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
 ms.assetid: 89f44733-aebe-44ea-b62d-8bd988f1bd6f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

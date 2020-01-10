@@ -1,5 +1,5 @@
 ---
-title: NM_RCLICK (toolbar) notification code
+title: NM_RCLICK (toolbar) notification code (Commctrl.h)
 description: Sent by a toolbar control when the user clicks the toolbar with the right mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: e9d2d871-e922-444d-a76c-e73f249ed410
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

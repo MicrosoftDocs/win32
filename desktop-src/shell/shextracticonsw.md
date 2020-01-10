@@ -1,7 +1,7 @@
 ---
 Description: Creates an array of handles to icons extracted from a specified file.
 title: SHExtractIconsW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -123,7 +123,7 @@ The number of icons to extract from the resource named in *pszFileName*. This pa
 
 Type: **UINT**
 
-The flags that control this function. For possible values, see the *fuLoad* parameter of the [**LoadImage**](https://msdn.microsoft.com/en-us/library/ms648045(v=VS.85).aspx) function.
+The flags that control this function. For possible values, see the *fuLoad* parameter of the [**LoadImage**](https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx) function.
 
 </dd> </dl>
 
@@ -146,11 +146,11 @@ A nonzero value if successful; otherwise, zero.
 
 Extractions from Windows 3.*x* 16-bit executable files (.exe or .dll) are also supported.
 
-The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx)(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
+The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](https://msdn.microsoft.com/library/ms632660(v=VS.85).aspx)(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
 
-The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx) function.
+The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx) function.
 
-**SHExtractIconsW** is not exported by name or declared in a public header file. To use it, you must declare a matching prototype and use [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) to request a function pointer from Shell32.dll that can be used to call this function.
+**SHExtractIconsW** is not exported by name or declared in a public header file. To use it, you must declare a matching prototype and use [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to request a function pointer from Shell32.dll that can be used to call this function.
 
 ## Requirements
 

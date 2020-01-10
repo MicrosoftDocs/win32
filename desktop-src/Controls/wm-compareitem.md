@@ -1,5 +1,5 @@
 ---
-title: WM_COMPAREITEM message
+title: WM_COMPAREITEM message (Winuser.h)
 description: Sent to determine the relative position of a new item in the sorted list of an owner-drawn combo box or list box.
 ms.assetid: 22882730-9fd6-4b45-a563-d7b00ed26564
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

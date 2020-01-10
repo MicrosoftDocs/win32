@@ -2,7 +2,7 @@
 Description: Defines a mesh's texture coordinates.
 ms.assetid: c87eb176-b502-49b6-bc73-401cc46e8412
 title: MeshTextureCoords
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.AddSelector method
+title: ResourceLocator.AddSelector method (WSManDisp.h)
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
 ms.assetid: 4b513d39-a377-487f-a03b-f3c5ab0f0b5a
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

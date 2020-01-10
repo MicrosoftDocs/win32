@@ -2,7 +2,7 @@
 Description: Closes the shim database initialized using the SdbInitDatabase function.
 ms.assetid: 8452ab14-a1e9-41b3-a1ac-7ff3a7d3a7ed
 title: SdbReleaseDatabase function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

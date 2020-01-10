@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo MemoryTotalString property
+title: IVMHostInfo MemoryTotalString property (VPCCOMInterfaces.h)
 description: Retrieves the total amount of physical memory in the host machine, in megabytes, as a string.
 ms.assetid: 732c62e5-2776-4551-909f-7ddab74e067d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

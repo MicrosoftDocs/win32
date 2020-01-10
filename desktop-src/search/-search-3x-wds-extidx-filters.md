@@ -1,7 +1,7 @@
 ---
 Description: Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index.
 ms.assetid: 7b86a1b4-c8a9-400d-a9f1-a3b821c0269d
-title: Best Practices for Creating Filter Handlers in Windows Search
+title: Best Practices for Filter Handlers in Windows Search
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -33,18 +33,18 @@ The following are practices for writing secure applications for use with Windows
 
 -   If a new filter handler for a file type is being installed as a replacement for an existing filter registration, the installer should save the current registration and restore it if the new filter handler is uninstalled. There is no mechanism to chain filters. Hence, the new filter handler is responsible for replicating any necessary functionality of the old filter.
 -   IFilters, word breakers, and stemmers for Windows Search run in the Local Security context. They should be written to manage buffers and to stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer. Buffer overruns are a common technique for exploiting code that does not enforce buffer size restrictions.
--   [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), word breaker and stemmer components should never call the [ExitProcess Function](https://msdn.microsoft.com/en-us/library/ms682658(VS.85).aspx) function or similar API that terminates a process and all its threads.
+-   [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), word breaker and stemmer components should never call the [ExitProcess Function](https://msdn.microsoft.com/library/ms682658(VS.85).aspx) function or similar API that terminates a process and all its threads.
 -   Do not allocate or free resources in the DllMain entry point. This can lead to failures during low-resource stress tests.
 -   Code all objects to be thread-safe. Windows Search calls any one instance of a word breaker or stemmer in one thread at a time, but it may call multiple instances at the same time across multiple threads.
 -   Avoid creating temporary files or writing to the registry.
--   If you use the Microsoft Visual C++ compiler, ensure that you compile your application using the **/GS** option. The **/GS** option is used to detect buffer overruns. The /GS option places security checks into the compiled code. For more information, see [DllGetClassObject Function](https://msdn.microsoft.com/en-us/library/8dbf701c(vs.71).aspx) /**GS** (Buffer Security Check) in the Visual C++ Compiler Options section of the Platform SDK.
+-   If you use the Microsoft Visual C++ compiler, ensure that you compile your application using the **/GS** option. The **/GS** option is used to detect buffer overruns. The /GS option places security checks into the compiled code. For more information, see [DllGetClassObject Function](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) /**GS** (Buffer Security Check) in the Visual C++ Compiler Options section of the Platform SDK.
 
 ## Additional Resources
 
 -   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155654) and the [Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](https://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/en-us/library/cc144150(VS.85).aspx).
+-   For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
+-   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).
 
 ## Related topics
 

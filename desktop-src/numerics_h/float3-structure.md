@@ -1,5 +1,5 @@
 ---
-title: float3 structure
+title: float3 structure (Windowsnumerics.h)
 description: A vector with three components.
 ms.assetid: CAA10ADA-C5A8-4B75-A0A9-5C5B3FDD9A07
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

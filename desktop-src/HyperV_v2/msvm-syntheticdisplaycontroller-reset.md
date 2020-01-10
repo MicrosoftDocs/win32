@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: 6fa327e8-0296-40f6-9ee6-6e447e31cce3
 title: Reset method of the Msvm_SyntheticDisplayController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

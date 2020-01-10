@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_CAN_WINDOW message
+title: MCIWNDM_CAN_WINDOW message (Vfw.h)
 description: The MCIWNDM\_CAN\_WINDOW message determines if an MCI device supports window-oriented MCI commands. You can send this message explicitly or by using the MCIWndCanWindow macro.
 ms.assetid: bf89c096-1272-441e-9334-2b4215dbc979
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms:assetid: 752589b6-1b8f-4b6f-a14a-00f4b1405db5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269296(v=EXCHG.10)
 ms:contentKeyID: 32765588
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetInit3
 - JetInit3A

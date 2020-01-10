@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Tachometer class requests a reset of t
 ms.assetid: c8806511-6796-49e9-bdcd-959e5c5f9da0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Tachometer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

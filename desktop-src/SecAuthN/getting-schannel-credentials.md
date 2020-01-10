@@ -77,7 +77,7 @@ The primary difference between the client-side and server-side request for crede
 The example function *getServerCertificate* is a placeholder function for this application-specific activity. For an example implementation of the *getServerCertificate* function, see [Getting a Certificate](getting-a-certificate-for-schannel.md).
 
 > [!Note]  
-> When requesting credentials to be used by the server, change the third (*fCredentialUse*) parameter of the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx) function from SECPKG\_CRED\_OUTBOUND to SECPKG\_CRED\_INBOUND.
+> When requesting credentials to be used by the server, change the third (*fCredentialUse*) parameter of the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/Aa374712(v=VS.85).aspx) function from SECPKG\_CRED\_OUTBOUND to SECPKG\_CRED\_INBOUND.
 
  
 

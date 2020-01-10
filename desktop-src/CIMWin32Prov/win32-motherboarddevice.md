@@ -3,7 +3,7 @@ Description: The Win32\_MotherboardDevice WMI class represents a device that con
 ms.assetid: 2aed5fff-e994-4ce1-8a2e-aadb01adf28d
 ms.tgt_platform: multiple
 title: Win32_MotherboardDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

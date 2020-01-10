@@ -1,7 +1,7 @@
 ---
-title: H
+title: H (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter H.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'd170ff55-88de-4864-8780-b876d2b691d9'
 keywords:
 - half spaces

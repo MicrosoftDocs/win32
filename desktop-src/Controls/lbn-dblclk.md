@@ -1,5 +1,5 @@
 ---
-title: LBN_DBLCLK notification code
+title: LBN_DBLCLK notification code (Winuser.h)
 description: Notifies the application that the user has double-clicked an item in a list box. The parent window of the list box receives this notification code through the WM\_COMMAND message.
 ms.assetid: 487282cb-833a-4123-987e-6a417fbd09d4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

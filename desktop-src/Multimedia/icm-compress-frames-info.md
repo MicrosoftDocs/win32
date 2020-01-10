@@ -1,5 +1,5 @@
 ---
-title: ICM_COMPRESS_FRAMES_INFO message
+title: ICM_COMPRESS_FRAMES_INFO message (Vfw.h)
 description: The ICM\_COMPRESS\_FRAMES\_INFO message notifies a compression driver to set the parameters for the pending compression.
 ms.assetid: d2f6f3b7-dff6-4fef-a642-cb77b00119af
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

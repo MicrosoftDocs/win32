@@ -2,7 +2,7 @@
 Description: Assigns vector component data to the current instance of XMU555.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmu555.operator = '
 title: XMU555 operator = operators
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2018
 topic_type:
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMU555`.
 
-Assigns vector component data to the current instance of [**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx).
 
 ### Overload list
 
@@ -63,7 +63,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx)
+[**XMU555**](https://msdn.microsoft.com/library/Ee420402(v=VS.85).aspx)
 </dt> </dl>
 
  

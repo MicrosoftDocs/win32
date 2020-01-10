@@ -3,7 +3,7 @@ Description: The Win32\_Directory&\#32;WMI class represents a directory entry on
 ms.assetid: d61cb5ee-8e87-4604-95e6-325c9b543411
 ms.tgt_platform: multiple
 title: Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

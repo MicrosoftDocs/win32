@@ -1,6 +1,6 @@
 ---
-title: Using the Code Examples
-description: Using the Code Examples
+title: Using the Microsoft Windows Media DRM Client Code Examples
+description: Using the Microsoft Windows Media DRM Client Code Examples
 ms.assetid: 75db2663-9eb8-406d-b1a9-8f6092c95f9d
 keywords:
 - Windows Media Format SDK,code examples

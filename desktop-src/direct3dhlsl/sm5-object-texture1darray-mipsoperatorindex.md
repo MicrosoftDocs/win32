@@ -1,5 +1,5 @@
 ---
-title: mips.Operator    function
+title: Texture1DArray::mips.Operator    function
 description: Returns a read-only resource variable.
 ms.assetid: b8f2ef78-4b50-4051-a00f-5b81cd77d1e0
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - mips.Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

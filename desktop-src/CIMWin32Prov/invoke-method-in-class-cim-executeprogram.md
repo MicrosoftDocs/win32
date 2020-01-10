@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_ExecuteProgram class takes a particul
 ms.assetid: 14a12fae-14a6-412a-a778-8dd34a5843d1
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_ExecuteProgram class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

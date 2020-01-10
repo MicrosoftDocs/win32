@@ -1,5 +1,5 @@
 ---
-title: EN_SEARCHWEB notification code
+title: EN_SEARCHWEB notification code (CommCtrl.h)
 description: Sent when an edit control loses the keyboard focus. The parent window of the edit control receives this notification code through a WM\_NOTIFY message.
 ms.assetid: c31f4b6c-afed-4506-b98a-65c902b0f63a
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 10/19/2018
 ---
 

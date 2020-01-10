@@ -3,7 +3,7 @@ Description: Attempts to place the referenced service in the paused state.
 ms.assetid: 57b8ccdd-056a-4bec-a0f8-ecebcf18039e
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_BaseService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

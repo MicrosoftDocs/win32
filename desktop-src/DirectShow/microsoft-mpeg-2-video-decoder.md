@@ -1,8 +1,8 @@
 ---
 Description: This filter decodes MPEG-1, MPEG-2, H.264 video.
 ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
-title: Microsoft MPEG-2 Video Decoder
-ms.topic: article
+title: Microsoft MPEG-2 Video Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -56,7 +56,7 @@ See [H.264 Video Types](h-264-video-types.md) for more information. The input me
 
 Input Pin Interfaces
 
-[**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin)<br/> [**IMFSampleProtection**](https://msdn.microsoft.com/en-us/library/ms703018(v=VS.85).aspx)<br/> [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin)<br/> [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)<br/>
+[**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin)<br/> [**IMFSampleProtection**](https://msdn.microsoft.com/library/ms703018(v=VS.85).aspx)<br/> [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin)<br/> [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)<br/>
 
 Output Pin Media Types
 

@@ -35,7 +35,7 @@
       href: kernel-transaction-manager-enumerations.md
       items: 
       - name: "TRANSACTION_OUTCOME"
-        href: /windows/desktop/api/Winnt/ne-winnt-_transaction_outcome
+        href: /windows/win32/api/Winnt/ne-winnt-transaction_outcome
     - name: "Kernel Transaction Manager Functions"
       href: kernel-transaction-manager-functions.md
       items: 
@@ -121,9 +121,9 @@
       href: kernel-transaction-manager-structures.md
       items: 
       - name: "TRANSACTION_NOTIFICATION"
-        href: /windows/desktop/api/KtmTypes/ns-ktmtypes-_transaction_notification
+        href: /windows/win32/api/KtmTypes/ns-ktmtypes-transaction_notification
       - name: "TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT"
-        href: /windows/desktop/api/KtmTypes/ns-ktmtypes-_transaction_notification_recovery_argument
+        href: /windows/win32/api/KtmTypes/ns-ktmtypes-transaction_notification_recovery_argument
     - name: "Kernel Transaction Manager Constants"
       href: kernel-transaction-manager-constants.md
       items: 

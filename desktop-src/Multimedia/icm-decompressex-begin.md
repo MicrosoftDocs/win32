@@ -1,5 +1,5 @@
 ---
-title: ICM_DECOMPRESSEX_BEGIN message
+title: ICM_DECOMPRESSEX_BEGIN message (Vfw.h)
 description: The ICM\_DECOMPRESSEX\_BEGIN message notifies a video compression driver to prepare to decompress data.
 ms.assetid: 35298274-91b5-4df0-b4b0-4a71d6a49990
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

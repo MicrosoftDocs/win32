@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateCompatibleRenderTarget methods
+title: ID2D1RenderTarget CreateCompatibleRenderTarget methods (D2d1.h)
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::CreateCompatibleRenderTarget methods
@@ -24,18 +24,18 @@ Creates a new bitmap render target for use during intermediate offscreen drawing
 
 | Method                                                                                                                                                                                                                        | Description                                                                                                                                                                                                                                            |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,D2D1\_SIZE\_U,D2D1\_PIXEL\_FORMAT,D2D1\_COMPATIBLE\_RENDER\_TARGET\_OPTIONS,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371811(v=VS.85).aspx)       | Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.<br/>                                                                                                             |
-| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F\*,D2D1\_SIZE\_U\*,D2D1\_PIXEL\_FORMAT\*,D2D1\_COMPATIBLE\_RENDER\_TARGET\_OPTIONS,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371822(v=VS.85).aspx) | Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target. <br/>                                                                                                            |
-| [**CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371825(v=VS.85).aspx)                                                                                                 | Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same size, DPI, and pixel format (but not alpha mode) as the current render target. <br/>         |
-| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371819(v=VS.85).aspx)                                                                                   | Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same pixel format (but not alpha mode) as the current render target. <br/>                        |
-| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,D2D1\_SIZE\_U,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371817(v=VS.85).aspx)                                                                     | Creates a bitmap render target for use during intermediate off-screen drawing that is compatible with the current render target. The new bitmap render target has the same pixel format (but not alpha mode) as the current render target. <br/> |
-| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,D2D1\_SIZE\_U,D2D1\_PIXEL\_FORMAT,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371814(v=VS.85).aspx)                                                 | Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target. <br/>                                                                                                            |
+| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,D2D1\_SIZE\_U,D2D1\_PIXEL\_FORMAT,D2D1\_COMPATIBLE\_RENDER\_TARGET\_OPTIONS,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371811(v=VS.85).aspx)       | Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.<br/>                                                                                                             |
+| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F\*,D2D1\_SIZE\_U\*,D2D1\_PIXEL\_FORMAT\*,D2D1\_COMPATIBLE\_RENDER\_TARGET\_OPTIONS,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371822(v=VS.85).aspx) | Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target. <br/>                                                                                                            |
+| [**CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371825(v=VS.85).aspx)                                                                                                 | Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same size, DPI, and pixel format (but not alpha mode) as the current render target. <br/>         |
+| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371819(v=VS.85).aspx)                                                                                   | Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same pixel format (but not alpha mode) as the current render target. <br/>                        |
+| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,D2D1\_SIZE\_U,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371817(v=VS.85).aspx)                                                                     | Creates a bitmap render target for use during intermediate off-screen drawing that is compatible with the current render target. The new bitmap render target has the same pixel format (but not alpha mode) as the current render target. <br/> |
+| [**CreateCompatibleRenderTarget(D2D1\_SIZE\_F,D2D1\_SIZE\_U,D2D1\_PIXEL\_FORMAT,ID2D1BitmapRenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371814(v=VS.85).aspx)                                                 | Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target. <br/>                                                                                                            |
 
 
 
 ## Examples
 
-The following example uses the **CreateCompatibleRenderTarget** method to create an [**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371146(v=VS.85).aspx) and uses it to draw a grid pattern. The grid pattern is used as the source of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx).
+The following example uses the **CreateCompatibleRenderTarget** method to create an [**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/library/Dd371146(v=VS.85).aspx) and uses it to draw a grid pattern. The grid pattern is used as the source of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx).
 
 
 ```C++
@@ -123,7 +123,7 @@ Code has been omitted from this example.
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> </dl>
 
 �

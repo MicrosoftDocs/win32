@@ -1,5 +1,5 @@
 ---
-title: Attributes with Multiple Values
+title: Attributes with Multiple Values (Windows Media Player SDK)
 description: Attributes with Multiple Values
 ms.assetid: 8405481c-47f5-4752-9dab-d3c84711fbb4
 keywords:

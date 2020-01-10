@@ -1,8 +1,8 @@
 ---
 Description: The following table describes IPPROTO\_RM socket options that apply to sockets created for the IPv4 address family (AF\_INET) with the protocol parameter to the socket function specified as reliable multicast (IPPROTO\_RM).
 ms.assetid: cb99960e-428b-4ef1-a6a5-e4bdb497c771
-title: IPPROTO_RM Socket Options
-ms.topic: article
+title: IPPROTO_RM Socket Options (Wsrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

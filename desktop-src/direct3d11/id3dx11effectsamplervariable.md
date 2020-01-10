@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable interface
+title: ID3DX11EffectSamplerVariable interface (D3dx11effect.h)
 description: A sampler interface accesses sampler state.
 ms.assetid: 8d21f829-2145-45f2-a9b4-2fdc06e0a879
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

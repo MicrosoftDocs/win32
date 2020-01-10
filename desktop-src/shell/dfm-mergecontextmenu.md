@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback to add items to the menu.
-title: DFM_MERGECONTEXTMENU message
-ms.topic: article
+title: DFM_MERGECONTEXTMENU message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 2fd779ac-7dd6-4b81-86dc-8930db27ae59
 api_name: 

@@ -2,7 +2,7 @@
 Description: Represents configuration and operational parameters for CIM\_ManagedElement instances.
 ms.assetid: a9ee0eb6-dc48-43f2-bdb5-f84fe7bbc1f2
 title: CIM_SettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

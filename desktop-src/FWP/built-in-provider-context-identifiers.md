@@ -1,5 +1,5 @@
 ---
-title: Built-in Provider Context Identifiers
+title: Built-in Provider Context Identifiers (Fwpmu.h)
 description: Built-in provider contexts identify the default policies to use with secure sockets.
 ms.assetid: 439a5abc-08ac-4514-a126-d738e5311003
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Specifies the number of entries in the PMK cache on the client.
 ms.assetid: 3a53f7fd-7f12-43d3-94e6-a11bec389a34
 title: PMKCacheSize (security) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

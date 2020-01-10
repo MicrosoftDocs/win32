@@ -1,5 +1,5 @@
 ---
-title: TCM_SETITEMEXTRA message
+title: TCM_SETITEMEXTRA message (Commctrl.h)
 description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can send this message explicitly or by using the TabCtrl\_SetItemExtra macro.
 ms.assetid: 8315f1fd-8eca-48bd-bb4a-71b09e8aa2c4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

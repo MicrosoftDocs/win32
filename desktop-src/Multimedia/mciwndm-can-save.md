@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_CAN_SAVE message
+title: MCIWNDM_CAN_SAVE message (Vfw.h)
 description: The MCIWNDM\_CAN\_SAVE message determines if an MCI device can save data. You can send this message explicitly or by using the MCIWndCanSave macro.
 ms.assetid: b4e27190-b095-494b-9ed3-10653bea187b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) 2.0 hardware device.
 ms.assetid: bc31ad4a-0851-4510-a038-83646ffd5c98
-title: IWiaItem2::GetRootItem method
-ms.topic: article
+title: IWiaItem2::GetRootItem method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Given any [**IWiaItem2**](-wia-iwiaitem2.md) object in the object tree of a WIA 2.0 hardware device, the application retrieves a pointer to the root item by calling this function.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 ## Requirements
 

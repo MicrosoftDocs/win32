@@ -1,5 +1,5 @@
 ---
-title: IWMPPlaylistArray (VB and C ) interface
+title: IWMPPlaylistArray (VB and C ) interface (Wmp.h)
 description: Provides a property and a method for accessing a collection of IWMPPlaylist interfaces by index number.The IWMPPlaylistArray interface exposes the following property.
 ms.assetid: 8a7477ee-58c5-41b2-9259-d1976433ae02
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

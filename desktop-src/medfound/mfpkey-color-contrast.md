@@ -1,8 +1,8 @@
 ---
 Description: Adjusts the contrast.
 ms.assetid: 32ae514a-eeba-4205-b6e6-70fc01b93a95
-title: MFPKEY_COLOR_CONTRAST Property
-ms.topic: article
+title: MFPKEY_COLOR_CONTRAST Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Adjusts the contrast.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

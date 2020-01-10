@@ -1,8 +1,8 @@
 ---
 Description: Puts the original word form in the IWordFormSink object.
 ms.assetid: 333A3109-6C0A-42AE-9E10-87F53C7F737C
-title: IWordFormSink::PutWord method
-ms.topic: article
+title: IWordFormSink::PutWord method (Search.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -65,7 +65,7 @@ This method can return one of these values.
 
 ## Remarks
 
-**PutWord** is called from the [**GenerateWordForms**](https://msdn.microsoft.com/en-us/library/Bb266434(v=VS.85).aspx) method of the [**IStemmer**](https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx) implementation. This method handles the original form of a word and is called last. All preceding alternative forms for a word are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md).
+**PutWord** is called from the [**GenerateWordForms**](https://msdn.microsoft.com/library/Bb266434(v=VS.85).aspx) method of the [**IStemmer**](https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx) implementation. This method handles the original form of a word and is called last. All preceding alternative forms for a word are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md).
 
 ## Requirements
 

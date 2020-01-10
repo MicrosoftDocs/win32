@@ -2,7 +2,7 @@
 Description: Describes a vertex declaration.
 ms.assetid: 6a95bdf6-8767-4ad3-bcec-b32858d25571
 title: DeclData
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

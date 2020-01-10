@@ -1,8 +1,8 @@
 ---
 Description: The RENDBIND constants are flags used by the ITDirectory::Bind method to indicate types of authentication supplied.
 ms.assetid: 27bcf36a-1826-4603-9821-22fcc5c1e186
-title: RENDBIND_ Constants
-ms.topic: article
+title: RENDBIND_ Constants (Rend.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

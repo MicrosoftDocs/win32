@@ -1,5 +1,5 @@
 ---
-title: PGM_SETCHILD message
+title: PGM_SETCHILD message (Commctrl.h)
 description: Sets the contained window for the pager control.
 ms.assetid: 717e6720-aa42-4ecd-9520-4618a04dc28d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

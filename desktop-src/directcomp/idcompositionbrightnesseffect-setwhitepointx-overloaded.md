@@ -1,5 +1,5 @@
 ---
-title: IDCompositionBrightnessEffect SetWhitePointX methods
+title: IDCompositionBrightnessEffect SetWhitePointX methods (Dcomp.h)
 description: Sets the x value of the white point.
 ms.assetid: a35c4a79-bf30-3334-1cea-ddd055427a0f
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionBrightnessEffect::SetWhitePointX methods
@@ -24,8 +24,8 @@ Sets the x value of the white point.
 
 | Method                                                                                               | Description                                     |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetWhitePointX**](https://msdn.microsoft.com/en-us/library/Dn919718(v=VS.85).aspx)                               | Sets the x value of the white point.<br/> |
-| [**SetWhitePointX (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919719(v=VS.85).aspx) | Sets the x value of the white point.<br/> |
+| [**SetWhitePointX**](https://msdn.microsoft.com/library/Dn919718(v=VS.85).aspx)                               | Sets the x value of the white point.<br/> |
+| [**SetWhitePointX (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919719(v=VS.85).aspx) | Sets the x value of the white point.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the x value of the white point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx)
+[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/library/Dn919711(v=VS.85).aspx)
 </dt> </dl>
 
 �

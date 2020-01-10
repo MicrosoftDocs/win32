@@ -2,7 +2,7 @@
 Description: Contains a signed BLOB.
 ms.assetid: c12d9007-c779-4363-8e28-6387a665a0d6
 title: SIGNER_CONTEXT structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_CONTEXT structure
 
-The **SIGNER\_CONTEXT** structure contains a signed [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx).
+The **SIGNER\_CONTEXT** structure contains a signed [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx).
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

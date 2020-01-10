@@ -2,7 +2,7 @@
 Description: Represents an association between an instance of Msvm\_ComputerSystem that represents the virtual machine and an instance of Msvm\_ReplicationRelationship that represents a replication relationship of the virtual machine.
 ms.assetid: 23E7BF91-9527-434C-A571-05879E83950E
 title: Msvm_SystemReplicationRelationship class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

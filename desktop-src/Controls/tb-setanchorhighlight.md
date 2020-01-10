@@ -1,5 +1,5 @@
 ---
-title: TB_SETANCHORHIGHLIGHT message
+title: TB_SETANCHORHIGHLIGHT message (Commctrl.h)
 description: Sets the anchor highlight setting for a toolbar.
 ms.assetid: d31652d5-e9cf-4bf3-8f90-818eb078fa87
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

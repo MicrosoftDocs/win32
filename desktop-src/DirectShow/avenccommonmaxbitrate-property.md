@@ -1,8 +1,8 @@
 ---
 Description: Specifies the maximum bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 053fdad0-dc5f-4af1-84a6-bb7c0dac7e79
-title: AVEncCommonMaxBitRate property
-ms.topic: article
+title: AVEncCommonMaxBitRate property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

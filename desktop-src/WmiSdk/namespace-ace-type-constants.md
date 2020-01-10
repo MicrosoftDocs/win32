@@ -2,8 +2,8 @@
 Description: The Type field in an access control entry (ACE) that determines whether the ACE is an ACE that allows access or denies access.
 ms.assetid: a78c72f7-0bc0-4bda-9012-4abe45342d8d
 ms.tgt_platform: multiple
-title: Namespace ACE Type Constants
-ms.topic: article
+title: Namespace ACE Type Constants (Winnt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

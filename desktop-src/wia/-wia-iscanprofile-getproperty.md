@@ -1,8 +1,8 @@
 ---
 Description: Gets the value of specified child properties in the <Properties> element of a scan profile.
 ms.assetid: 528b51f5-51e0-4639-965d-ee318eb2187b
-title: IScanProfile::GetProperty method
-ms.topic: article
+title: IScanProfile::GetProperty method (Scanprofile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -57,7 +57,7 @@ A pointer to an array of the identification numbers of the properties to be set.
 *pvar* \[out\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx)\***
+Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)\***
 
 A pointer to an array of values.
 

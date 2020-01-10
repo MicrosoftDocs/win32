@@ -2,7 +2,7 @@
 Description: The PatchesEx property returns a RecordList object that enumerates the list of patches.
 ms.assetid: 14fa0a1b-325c-42b7-b023-cd168e0615cc
 title: Installer.PatchesEx property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

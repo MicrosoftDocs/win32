@@ -2,8 +2,8 @@
 Description: The PutAsync\_ method of SWbemObject asynchronously creates or updates an instance or class object to Windows Management Instrumentation (WMI).
 ms.assetid: ff738412-fcca-4e4a-a178-0d1d391ec99b
 ms.tgt_platform: multiple
-title: SWbemObject.PutAsync_ method
-ms.topic: article
+title: SWbemObject.PutAsync_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

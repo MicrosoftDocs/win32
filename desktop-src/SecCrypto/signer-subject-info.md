@@ -2,7 +2,7 @@
 Description: Specifies a subject to sign.
 ms.assetid: ba569443-e50f-450b-82cc-b7328f0ca25a
 title: SIGNER_SUBJECT_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -61,7 +61,7 @@ This member is reserved. It must be set to zero.
 **dwSubjectChoice**
 </dt> <dd>
 
-Specifies whether the subject is a file or a [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx). This member can be one or more of the following values.
+Specifies whether the subject is a file or a [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx). This member can be one or more of the following values.
 
 
 

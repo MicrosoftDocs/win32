@@ -1,8 +1,8 @@
 ---
 Description: The Run method switches to running mode so that commands that are deferred by the stream time can be run.
 ms.assetid: c529ae84-c9b7-46f1-a1e4-716fc9e9df13
-title: CCmdQueue.Run method
-ms.topic: article
+title: CCmdQueue.Run method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

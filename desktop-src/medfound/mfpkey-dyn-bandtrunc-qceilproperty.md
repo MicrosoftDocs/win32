@@ -1,8 +1,8 @@
 ---
 Description: Specifies the quality at which minimum coded bandwidth is allowed.
 ms.assetid: 2f0f43a9-2424-4b73-a9aa-a06474676fb4
-title: MFPKEY_DYN_BANDTRUNC_QCEIL Property
-ms.topic: article
+title: MFPKEY_DYN_BANDTRUNC_QCEIL Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the quality at which minimum coded bandwidth is allowed. At quality wo
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

@@ -1,5 +1,5 @@
 ---
-title: glTexSubImage1D function
+title: glTexSubImage1D function (Gl.h)
 description: The glTexSubImage1D function specifies a portion of an existing one-dimensional texture image. You cannot define a new texture with glTexSubImage1D.
 ms.assetid: e5fcb1a3-96f8-47a6-a9a7-0061faaaa6ac
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

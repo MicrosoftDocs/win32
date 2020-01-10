@@ -11,7 +11,7 @@ api_name:
 - RECORD_HEADER
 api_type:
 - NA
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

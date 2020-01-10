@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the thread's identifier.
 ms.assetid: c2b25342-841a-46cb-862c-01761fc60363
-title: CMsgThread.GetThreadID method
-ms.topic: article
+title: CMsgThread.GetThreadID method (Msgthrd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

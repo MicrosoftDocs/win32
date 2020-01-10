@@ -1,5 +1,5 @@
 ---
-title: MpHandleClose function
+title: MpHandleClose function (MpClient.h)
 description: Closes the handle returned by MpManagerOpen, MpScanStart, MpThreatOpen, or MpUpdateStart.
 ms.assetid: 335776E2-7598-4DC1-92AB-B49B35222EF6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

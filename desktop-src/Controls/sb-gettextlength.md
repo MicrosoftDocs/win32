@@ -1,5 +1,5 @@
 ---
-title: SB_GETTEXTLENGTH message
+title: SB_GETTEXTLENGTH message (Commctrl.h)
 description: Retrieves the length, in characters, of the text from the specified part of a status window.
 ms.assetid: 2cd43106-dd43-499e-b595-760e9ededab5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

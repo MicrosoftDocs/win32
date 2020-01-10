@@ -1,8 +1,8 @@
 ---
 Description: The SetDiscontinuity method specifies whether this sample represents a break in the data stream. This method implements the IMediaSample::SetDiscontinuity method.
 ms.assetid: 29072130-1ec7-4b5b-8a43-5308b1365527
-title: CMediaSample.SetDiscontinuity method
-ms.topic: article
+title: CMediaSample.SetDiscontinuity method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

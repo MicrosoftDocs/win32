@@ -1,5 +1,5 @@
 ---
-title: HDM_HITTEST message
+title: HDM_HITTEST message (Commctrl.h)
 description: Tests a point to determine which header item, if any, is at the specified point.
 ms.assetid: ff866bd1-9f2a-457c-921d-549610ab9088
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Represents settings for the allocation of virtual storage.
 ms.assetid: 128fd3e9-8759-4b2f-a881-d34e89c539ac
 title: CIM_StorageAllocationSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

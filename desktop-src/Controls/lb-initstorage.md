@@ -1,5 +1,5 @@
 ---
-title: LB_INITSTORAGE message
+title: LB_INITSTORAGE message (Winuser.h)
 description: Allocates memory for storing list box items. This message is used before an application adds a large number of items to a list box.
 ms.assetid: abc49049-3424-46c6-981a-b858afe88883
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
 ms.assetid: b5cef452-2d00-483c-8e70-f804f1e3536b
-title: CIM_Component class
-ms.topic: article
+title: CIM_Component class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Represents a collection of Extension objects.
 ms.assetid: b0d69df9-12c4-4872-b883-b029c4350502
 title: NoticeNumbers object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ The **NoticeNumbers** object has these properties.
 
 | Property                                              | Access type          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](noticenumbers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](noticenumbers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](noticenumbers-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**Extension**](extension.md) objects in the collection.<br/>                                                                                                                                    |
 | [**Item**](noticenumbers-item.md)<br/>         | Read-only<br/> | Retrieves the [**Extension**](extension.md) object that represents the indexed notice number of the collection.<br/> This is the default property.<br/>                                                            |
 

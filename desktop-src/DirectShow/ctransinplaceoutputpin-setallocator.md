@@ -1,8 +1,8 @@
 ---
 Description: The SetAllocator method specifies an allocator for the connection.
 ms.assetid: 6b8e80f9-3b0d-498f-b1b0-bae491c25e81
-title: CTransInPlaceOutputPin.SetAllocator method
-ms.topic: article
+title: CTransInPlaceOutputPin.SetAllocator method (Transip.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

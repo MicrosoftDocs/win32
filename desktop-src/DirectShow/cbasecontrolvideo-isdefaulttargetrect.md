@@ -1,8 +1,8 @@
 ---
 Description: The IsDefaultTargetRect method determines if the renderer is using the default target rectangle (pure virtual).
 ms.assetid: 60c09515-7a34-421c-b3e8-ce746a935583
-title: CBaseControlVideo.IsDefaultTargetRect method
-ms.topic: article
+title: CBaseControlVideo.IsDefaultTargetRect method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The LoadOLEAut32 function loads the Automation dynamic-link library (OleAut32.dll).
 ms.assetid: af907341-1e2c-4c63-bf4e-d6c49b4f6a6e
-title: LoadOLEAut32 function
-ms.topic: article
+title: LoadOLEAut32 function (Combase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

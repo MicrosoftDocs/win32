@@ -1,5 +1,5 @@
 ---
-title: Load4(uint) function
+title: ByteAddressBuffer::Load4(uint) function
 description: Gets four values.
 ms.assetid: bc74bf29-1c22-4e47-bafc-ecef194f54b8
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load4
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

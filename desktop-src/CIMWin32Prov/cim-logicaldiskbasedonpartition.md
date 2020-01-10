@@ -3,7 +3,7 @@ Description: The CIM\_LogicalDiskBasedOnPartition class associates a logical dis
 ms.assetid: 264b62ed-2af2-42dc-9cd2-41b26cc85ca4
 ms.tgt_platform: multiple
 title: CIM_LogicalDiskBasedOnPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

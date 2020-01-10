@@ -1,8 +1,8 @@
 ---
 Description: Removes the current matrix from the top of the stack.
 ms.assetid: f4e4ff5d-a7a1-4f87-9b7e-53b9d044ba51
-title: ID3DXMATRIXStack::Pop method
-ms.topic: article
+title: ID3DXMATRIXStack::Pop method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK.
 

@@ -1,8 +1,8 @@
 ---
 Description: Determines the dot product of two 3D vectors.
 ms.assetid: 61aa7751-cc06-4673-929b-d7c1e691e395
-title: D3DXVec3Dot function
-ms.topic: article
+title: D3DXVec3Dot function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The dot-product.
 

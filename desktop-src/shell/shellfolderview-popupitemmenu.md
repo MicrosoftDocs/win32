@@ -1,7 +1,7 @@
 ---
 Description: Creates a shortcut menu for the specified item and returns the selected command string.
-title: ShellFolderView.PopupItemMenu method
-ms.topic: article
+title: ShellFolderView.PopupItemMenu method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -75,7 +75,7 @@ The vertical position of the menu, in screen coordinates.
 
 ## Return value
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)\***
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)\***
 
 The **String** that receives the command string.
 

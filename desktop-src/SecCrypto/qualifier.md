@@ -2,7 +2,7 @@
 Description: Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
 ms.assetid: 857af3d6-aa7b-429a-a056-72573232f72c
 title: Qualifier object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -26,7 +26,7 @@ The **Qualifier** object represents a Certification Practice Statement (CPS) poi
 The **Qualifier** object is used to perform the following tasks:
 
 -   Retrieve the object identifier of the qualifier.
--   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).
+-   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
 -   Retrieve the name of the organization associated with the qualifier.
 -   Retrieve the name and content of a user notice.
 

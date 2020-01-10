@@ -1,8 +1,8 @@
 ---
 Description: The LABELED\_WORD structure defines a label that is displayed when a specific WORD property value is detected.
 ms.assetid: bfb1d34e-4a07-493f-8e43-508b77cce581
-title: LABELED_WORD structure
-ms.topic: structure
+title: LABELED_WORD structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

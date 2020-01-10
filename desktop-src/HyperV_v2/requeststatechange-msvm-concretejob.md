@@ -2,7 +2,7 @@
 Description: Requests that the state of the job be changed to the specified state.
 ms.assetid: 5D7D7D20-4BB9-4375-BBBF-7AA64FEE6D13
 title: RequestStateChange method of the Msvm_ConcreteJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

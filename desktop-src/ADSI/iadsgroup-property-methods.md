@@ -1,5 +1,5 @@
 ---
-title: IADsGroup Property Methods
+title: IADsGroup Property Methods (Iads.h)
 description: Property methods of the IADsGroup interface.
 ms.assetid: a8aa88d4-4695-47bc-bf7f-a17236a5671c
 ms.tgt_platform: multiple
@@ -16,7 +16,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

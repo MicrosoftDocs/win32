@@ -1,5 +1,5 @@
 ---
-title: glDepthMask function
+title: glDepthMask function (Gl.h)
 description: The glDepthMask function enables or disables writing into the depth buffer.
 ms.assetid: 067b18e2-f21a-4dde-8fa6-dd975746e189
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

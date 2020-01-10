@@ -1,8 +1,8 @@
 ---
 Description: The SetPrinterData function sets the configuration data for a printer or print server.
 ms.assetid: 16072de9-98fb-4ada-8216-180b64cf44c8
-title: SetPrinterData function
-ms.topic: article
+title: SetPrinterData function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -143,7 +143,7 @@ The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum tim
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegSetValueEx**](https://msdn.microsoft.com/en-us/library/ms724922(v=VS.85).aspx) function to set these values.
+Call the [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) function to set these values.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: TB_ISBUTTONHIGHLIGHTED message
+title: TB_ISBUTTONHIGHLIGHTED message (Commctrl.h)
 description: Checks the highlight state of a toolbar button.
 ms.assetid: d5aab670-a989-46f2-b4f8-d8a8968cbe07
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

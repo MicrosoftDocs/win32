@@ -2,7 +2,7 @@
 Description: Proxy function for the SetMetadataByName method.
 ms.assetid: 467d7735-152a-4e7c-93b1-fd031cc57c19
 title: IWICMetadataQueryWriter_SetMetadataByName_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ The name of the metadata item.
 *pvarValue* \[in\]
 </dt> <dd>
 
-Type: **const [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx)\***
+Type: **const [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx)\***
 
 The metadata to set.
 

@@ -1,8 +1,8 @@
 ---
 Description: Providers implement this function to receive enable or disable notification requests from controllers. The WMIDPREQUEST type defines a pointer to this callback function. ControlCallback is a placeholder for the application-defined function name.
 ms.assetid: e9f70ae6-906f-4e55-bca7-4355f1ca6091
-title: WMIDPREQUEST callback function
-ms.topic: article
+title: WMIDPREQUEST callback function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

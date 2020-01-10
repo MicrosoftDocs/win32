@@ -1,12 +1,12 @@
 ---
 Description: Structures
 ms.assetid: '74f999c8-2602-42b0-97e4-2c626013fab3'
-title: Structures
+title: DirectShow structures
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# DirectShow structures
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

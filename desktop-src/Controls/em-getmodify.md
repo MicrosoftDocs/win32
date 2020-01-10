@@ -1,5 +1,5 @@
 ---
-title: EM_GETMODIFY message
+title: EM_GETMODIFY message (Winuser.h)
 description: Gets the state of an edit control's modification flag. The flag indicates whether the contents of the edit control have been modified. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 4229e2f2-3493-4721-8b52-8933c9dc0a77
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

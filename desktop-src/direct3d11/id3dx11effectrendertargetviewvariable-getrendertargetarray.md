@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRenderTargetViewVariable GetRenderTargetArray method
+title: ID3DX11EffectRenderTargetViewVariable GetRenderTargetArray method (D3dx11effect.h)
 description: Get an array of render-targets.
 ms.assetid: cc98a3b3-c2a2-48d0-86a8-77b914a199ec
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ The number of elements in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

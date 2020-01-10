@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_FILE_SET_INFOCHUNK message
+title: WM_CAP_FILE_SET_INFOCHUNK message (Vfw.h)
 description: The WM\_CAP\_FILE\_SET\_INFOCHUNK message sets and clears information chunks.
 ms.assetid: 67d11a05-a2b4-45d2-ba66-83a198745303
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

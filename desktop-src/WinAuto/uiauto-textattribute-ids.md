@@ -1,5 +1,5 @@
 ---
-title: Text Attribute Identifiers
+title: Text Attribute Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants used to identify text attributes of a Microsoft UI Automation text range.
 ms.assetid: 67d86817-6a3f-4047-88d9-34f33f52a563
 topic_type:
@@ -52,7 +52,7 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

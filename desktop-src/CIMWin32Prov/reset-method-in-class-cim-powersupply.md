@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_PowerSupply class requests a reset of 
 ms.assetid: 55fa8408-215b-4e24-a92a-96f44f28c589
 ms.tgt_platform: multiple
 title: Reset method of the CIM_PowerSupply class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ title: IMsRdpClientNonScriptable5 Properties
 description: The IMsRdpClientNonScriptable5 interface exposes the following properties.
 ms.assetid: 47DCC253-5939-4F77-B74F-24E600088563
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

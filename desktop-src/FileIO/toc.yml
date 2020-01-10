@@ -47,7 +47,7 @@
         href: directory-management-enumerations.md
         items: 
         - name: "READ_DIRECTORY_NOTIFY_INFORMATION_CLASS"
-          href: /windows/desktop/api/Minwinbase/ne-minwinbase-_read_directory_notify_information_class
+          href: /windows/win32/api/Minwinbase/ne-minwinbase-read_directory_notify_information_class
       - name: "Directory Management Functions"
         href: directory-management-functions.md
         items: 
@@ -86,11 +86,11 @@
         href: directory-management-structures.md
         items: 
         - name: "FILE_NOTIFY_EXTENDED_INFORMATION"
-          href: /windows/desktop/api/Winnt/ns-winnt-_file_notify_extended_information
+          href: /windows/win32/api/Winnt/ns-winnt-file_notify_extended_information
         - name: "FILE_NOTIFY_INFORMATION"
-          href: /windows/desktop/api/Winnt/ns-winnt-_file_notify_information
+          href: /windows/win32/api/Winnt/ns-winnt-file_notify_information
         - name: "REPARSE_GUID_DATA_BUFFER"
-          href: /windows/desktop/api/Winnt/ns-winnt-_reparse_guid_data_buffer
+          href: /windows/win32/api/Winnt/ns-winnt-reparse_guid_data_buffer
   - name: "Disk Management"
     href: disk-management.md
     items: 
@@ -206,19 +206,19 @@
         - name: "STORAGE_BUS_TYPE"
           href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type
         - name: "STORAGE_COMPONENT_HEALTH_STATUS"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_component_health_status
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_component_health_status
         - name: "STORAGE_DEVICE_FORM_FACTOR"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_device_form_factor
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_device_form_factor
         - name: "STORAGE_DEVICE_POWER_CAP_UNITS"
-          href: /windows/desktop/api/winioctl/ne-winioctl-_storage_device_power_cap_units
+          href: /windows/win32/api/winioctl/ne-winioctl-storage_device_power_cap_units
         - name: "STORAGE_PORT_CODE_SET"
           href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_port_code_set
         - name: "STORAGE_PROPERTY_ID"
           href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id
         - name: "STORAGE_PROTOCOL_TYPE"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_protocol_type
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_type
         - name: "STORAGE_QUERY_TYPE"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_query_type
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_query_type
         - name: "WRITE_CACHE_CHANGE"
           href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_change
         - name: "WRITE_CACHE_ENABLE"
@@ -346,101 +346,101 @@
         href: disk-management-structures.md
         items: 
         - name: "CREATE_DISK"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_create_disk
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-create_disk
         - name: "CREATE_DISK_GPT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_create_disk_gpt
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-create_disk_gpt
         - name: "CREATE_DISK_MBR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_create_disk_mbr
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-create_disk_mbr
         - name: "DEVICE_COPY_OFFLOAD_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_copy_offload_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_copy_offload_descriptor
         - name: "DEVICE_LB_PROVISIONING_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_lb_provisioning_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_lb_provisioning_descriptor
         - name: "DEVICE_SEEK_PENALTY_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_seek_penalty_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_seek_penalty_descriptor
         - name: "DEVICE_TRIM_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_trim_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_trim_descriptor
         - name: "DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_write_aggregation_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_write_aggregation_descriptor
         - name: "DEVICE_POWER_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_device_power_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-device_power_descriptor
         - name: "DISK_CACHE_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_cache_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_cache_information
         - name: "DISK_CLUSTER_INFO"
           href: disk-cluster-info.md
         - name: "DISK_DETECTION_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_detection_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_detection_info
         - name: "DISK_EX_INT13_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_ex_int13_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_ex_int13_info
         - name: "DISK_EXTENT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_extent
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_extent
         - name: "DISK_GEOMETRY"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_geometry
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_geometry
         - name: "DISK_GEOMETRY_EX"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_geometry_ex
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_geometry_ex
         - name: "DISK_GROW_PARTITION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_grow_partition
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_grow_partition
         - name: "DISK_INT13_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_int13_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_int13_info
         - name: "DISK_PARTITION_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_partition_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_partition_info
         - name: "DISK_PERFORMANCE"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_disk_performance
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_performance
         - name: "DISKQUOTA_USER_INFORMATION"
           href: /windows/desktop/api/Dskquota/ns-dskquota-diskquotauserinformation
         - name: "DRIVE_LAYOUT_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_drive_layout_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information
         - name: "DRIVE_LAYOUT_INFORMATION_EX"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_drive_layout_information_ex
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information_ex
         - name: "DRIVE_LAYOUT_INFORMATION_GPT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_drive_layout_information_gpt
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information_gpt
         - name: "DRIVE_LAYOUT_INFORMATION_MBR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_drive_layout_information_mbr
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information_mbr
         - name: "FORMAT_PARAMETERS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_format_parameters
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-format_parameters
         - name: "FORMAT_EX_PARAMETERS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_format_ex_parameters
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-format_ex_parameters
         - name: "GET_DISK_ATTRIBUTES"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_get_disk_attributes
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-get_disk_attributes
         - name: "GET_LENGTH_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_get_length_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-get_length_information
         - name: "PARTITION_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_partition_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information
         - name: "PARTITION_INFORMATION_EX"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_partition_information_ex
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information_ex
         - name: "PARTITION_INFORMATION_GPT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_partition_information_gpt
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information_gpt
         - name: "PARTITION_INFORMATION_MBR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_partition_information_mbr
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-partition_information_mbr
         - name: "REASSIGN_BLOCKS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_reassign_blocks
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-reassign_blocks
         - name: "REASSIGN_BLOCKS_EX"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_reassign_blocks_ex
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-reassign_blocks_ex
         - name: "SET_DISK_ATTRIBUTES"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_set_disk_attributes
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-set_disk_attributes
         - name: "SET_PARTITION_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_set_partition_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-set_partition_information
         - name: "STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_access_alignment_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_access_alignment_descriptor
         - name: "STORAGE_ADAPTER_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_adapter_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_adapter_descriptor
         - name: "STORAGE_DESCRIPTOR_HEADER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_descriptor_header
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_descriptor_header
         - name: "STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_device_attributes_descriptor
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_device_attributes_descriptor
         - name: "STORAGE_DEVICE_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_device_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_descriptor
         - name: "STORAGE_DEVICE_ID_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_device_id_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_id_descriptor
         - name: "STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_device_io_capability_descriptor
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_device_io_capability_descriptor
         - name: "STORAGE_DEVICE_POWER_CAP"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_device_power_cap
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_device_power_cap
         - name: "STORAGE_DEVICE_RESILIENCY_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_device_resiliency_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_device_resiliency_descriptor
         - name: "STORAGE_HW_FIRMWARE_ACTIVATE"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_hw_firmware_activate
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_hw_firmware_activate
         - name: "STORAGE_HW_FIRMWARE_DOWNLOAD"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_hw_firmware_download
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_hw_firmware_download
         - name: "STORAGE_HW_FIRMWARE_INFO"
           href: storage-hw-firmware-info.md
         - name: "STORAGE_HW_FIRMWARE_INFO_QUERY"
@@ -448,41 +448,41 @@
         - name: "STORAGE_HW_FIRMWARE_SLOT_INFO"
           href: storage-hw-firmware-slot-info.md
         - name: "STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_medium_product_type_descriptor
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_medium_product_type_descriptor
         - name: "STORAGE_MINIPORT_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_miniport_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_miniport_descriptor
         - name: "STORAGE_PHYSICAL_ADAPTER_DATA"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_physical_adapter_data
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_physical_adapter_data
         - name: "STORAGE_PHYSICAL_DEVICE_DATA"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_physical_device_data
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_physical_device_data
         - name: "STORAGE_PHYSICAL_NODE_DATA"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_physical_node_data
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_physical_node_data
         - name: "STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_physical_topology_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_physical_topology_descriptor
         - name: "STORAGE_PROPERTY_QUERY"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_property_query
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_property_query
         - name: "STORAGE_PROTOCOL_ATA_DATA_TYPE"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_protocol_ata_data_type
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_ata_data_type
         - name: "STORAGE_PROTOCOL_COMMAND"
-          href: /windows/desktop/api/winioctl/ns-winioctl-_storage_protocol_command
+          href: /windows/win32/api/winioctl/ns-winioctl-storage_protocol_command
         - name: "STORAGE_PROTOCOL_DATA_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_protocol_data_descriptor
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_protocol_data_descriptor
         - name: "STORAGE_PROTOCOL_NVME_DATA_TYPE"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_storage_protocol_nvme_data_type
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_nvme_data_type
         - name: "STORAGE_PROTOCOL_SPECIFIC_DATA"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_protocol_specific_data
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data
         - name: "STORAGE_SPEC_VERSION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_spec_version
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_spec_version
         - name: "STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_storage_temperature_data_descriptor
+          href: /windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor
         - name: "STORAGE_TEMPERATURE_INFO"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_storage_temperature_info
+          href: /windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_info
         - name: "STORAGE_TEMPERATURE_THRESHOLD"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_storage_temperature_threshold
+          href: /windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_threshold
         - name: "STORAGE_WRITE_CACHE_PROPERTY"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_storage_write_cache_property
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-storage_write_cache_property
         - name: "VERIFY_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_verify_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-verify_information
       - name: "Disk Partition Types"
         href: disk-partition-types.md
     - name: "Working with NVMe drives"
@@ -766,15 +766,15 @@
         href: file-management-enumerations.md
         items: 
         - name: "COPYFILE2_COPY_PHASE"
-          href: /windows/desktop/api/WinBase/ne-winbase-_copyfile2_copy_phase
+          href: /windows/win32/api/WinBase/ne-winbase-copyfile2_copy_phase
         - name: "COPYFILE2_MESSAGE_ACTION"
-          href: /windows/desktop/api/WinBase/ne-winbase-_copyfile2_message_action
+          href: /windows/win32/api/WinBase/ne-winbase-copyfile2_message_action
         - name: "COPYFILE2_MESSAGE_TYPE"
-          href: /windows/desktop/api/WinBase/ne-winbase-_copyfile2_message_type
+          href: /windows/win32/api/WinBase/ne-winbase-copyfile2_message_type
         - name: "CSV_CONTROL_OP"
-          href: /windows/desktop/api/WinIoCtl/ne-winioctl-_csv_control_op
+          href: /windows/win32/api/WinIoCtl/ne-winioctl-csv_control_op
         - name: "FILE_ID_TYPE"
-          href: /windows/desktop/api/WinBase/ne-winbase-_file_id_type
+          href: /windows/win32/api/WinBase/ne-winbase-file_id_type
         - name: "FILE_INFO_BY_HANDLE_CLASS"
           href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class
         - name: "FINDEX_INFO_LEVELS"
@@ -784,9 +784,9 @@
         - name: "GET_FILEEX_INFO_LEVELS"
           href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels
         - name: "PRIORITY_HINT"
-          href: /windows/desktop/api/WinBase/ne-winbase-_priority_hint
+          href: /windows/win32/api/WinBase/ne-winbase-priority_hint
         - name: "STREAM_INFO_LEVELS"
-          href: /windows/desktop/api/fileapi/ne-fileapi-_stream_info_levels
+          href: /windows/win32/api/fileapi/ne-fileapi-stream_info_levels
       - name: "File Management Functions"
         href: file-management-functions.md
         items: 
@@ -1054,107 +1054,107 @@
         href: file-management-structures.md
         items: 
         - name: "BY_HANDLE_FILE_INFORMATION"
-          href: /windows/desktop/api/FileAPI/ns-fileapi-_by_handle_file_information
+          href: /windows/win32/api/FileAPI/ns-fileapi-by_handle_file_information
         - name: "COPYFILE2_EXTENDED_PARAMETERS"
           href: /windows/desktop/api/WinBase/ns-winbase-copyfile2_extended_parameters
         - name: "COPYFILE2_MESSAGE"
           href: /windows/desktop/api/WinBase/ns-winbase-copyfile2_message
         - name: "CREATEFILE2_EXTENDED_PARAMETERS"
-          href: /windows/desktop/api/FileAPI/ns-fileapi-_createfile2_extended_parameters
+          href: /windows/win32/api/FileAPI/ns-fileapi-createfile2_extended_parameters
         - name: "CSV_CONTROL_PARAM"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_control_param
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_control_param
         - name: "CSV_QUERY_FILE_REVISION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_query_file_revision
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_file_revision
         - name: "CSV_QUERY_MDS_PATH"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_query_mds_path
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_mds_path
         - name: "CSV_QUERY_REDIRECT_STATE"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_query_redirect_state
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_redirect_state
         - name: "DUPLICATE_EXTENTS_DATA"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_duplicate_extents_data
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-duplicate_extents_data
         - name: "EFS_CERTIFICATE_BLOB"
           href: /windows/desktop/api/Winefs/ns-winefs-_certificate_blob
         - name: "EFS_HASH_BLOB"
-          href: /windows/desktop/api/Winefs/ns-winefs-_efs_hash_blob
+          href: /windows/win32/api/Winefs/ns-winefs-efs_hash_blob
         - name: "ENCRYPTION_CERTIFICATE"
-          href: /windows/desktop/api/Winefs/ns-winefs-_encryption_certificate
+          href: /windows/win32/api/Winefs/ns-winefs-encryption_certificate
         - name: "ENCRYPTION_CERTIFICATE_HASH"
-          href: /windows/desktop/api/WinEfs/ns-winefs-_encryption_certificate_hash
+          href: /windows/win32/api/WinEfs/ns-winefs-encryption_certificate_hash
         - name: "ENCRYPTION_CERTIFICATE_HASH_LIST"
-          href: /windows/desktop/api/WinEfs/ns-winefs-_encryption_certificate_hash_list
+          href: /windows/win32/api/WinEfs/ns-winefs-encryption_certificate_hash_list
         - name: "ENCRYPTION_CERTIFICATE_LIST"
-          href: /windows/desktop/api/WinEfs/ns-winefs-_encryption_certificate_list
+          href: /windows/win32/api/WinEfs/ns-winefs-encryption_certificate_list
         - name: "EXFAT_STATISTICS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_exfat_statistics
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-exfat_statistics
         - name: "FAT_STATISTICS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_fat_statistics
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-fat_statistics
         - name: "FILE_ALIGNMENT_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_alignment_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_alignment_info
         - name: "FILE_ALLOCATED_RANGE_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_allocated_range_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_allocated_range_buffer
         - name: "FILE_ALLOCATION_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_allocation_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_allocation_info
         - name: "FILE_ATTRIBUTE_TAG_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_attribute_tag_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_attribute_tag_info
         - name: "FILE_BASIC_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_basic_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_basic_info
         - name: "FILE_COMPRESSION_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_compression_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_compression_info
         - name: "FILE_DISPOSITION_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_disposition_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_disposition_info
         - name: "FILE_END_OF_FILE_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_end_of_file_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_end_of_file_info
         - name: "FILE_STORAGE_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_storage_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_storage_info
         - name: "FILE_FULL_DIR_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_full_dir_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_full_dir_info
         - name: "FILE_ID_128"
           href: https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128
         - name: "FILE_ID_BOTH_DIR_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_id_both_dir_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_id_both_dir_info
         - name: "FILE_ID_DESCRIPTOR"
           href: /windows/desktop/api/WinBase/ns-winbase-file_id_descriptor
         - name: "FILE_ID_EXTD_DIR_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_id_extd_dir_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_id_extd_dir_info
         - name: "FILE_ID_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_id_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_id_info
         - name: "FILE_IO_PRIORITY_HINT_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_io_priority_hint_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_io_priority_hint_info
         - name: "FILE_LEVEL_TRIM"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_level_trim
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_level_trim
         - name: "FILE_LEVEL_TRIM_OUTPUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_level_trim_output
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_level_trim_output
         - name: "FILE_LEVEL_TRIM_RANGE"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_level_trim_range
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_level_trim_range
         - name: "FILE_MAKE_COMPATIBLE_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_make_compatible_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_make_compatible_buffer
         - name: "FILE_NAME_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_name_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_name_info
         - name: "FILE_OBJECTID_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_objectid_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_objectid_buffer
         - name: "FILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_query_on_disk_vol_info_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_query_on_disk_vol_info_buffer
         - name: "FILE_QUERY_SPARING_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_query_sparing_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_query_sparing_buffer
         - name: "FILE_REMOTE_PROTOCOL_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_remote_protocol_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_remote_protocol_info
         - name: "FILE_RENAME_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_rename_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_rename_info
         - name: "FILE_SEGMENT_ELEMENT"
           href: /windows/desktop/api/WinNT/ns-winnt-_file_segment_element
         - name: "FILE_SET_DEFECT_MGMT_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_set_defect_mgmt_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_set_defect_mgmt_buffer
         - name: "FILE_SET_SPARSE_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_set_sparse_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_set_sparse_buffer
         - name: "FILE_STANDARD_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_standard_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_standard_info
         - name: "FILE_STREAM_INFO"
-          href: /windows/desktop/api/WinBase/ns-winbase-_file_stream_info
+          href: /windows/win32/api/WinBase/ns-winbase-file_stream_info
         - name: "FILE_ZERO_DATA_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_zero_data_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_zero_data_information
         - name: "FILESYSTEM_STATISTICS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_filesystem_statistics
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-filesystem_statistics
         - name: "FILESYSTEM_STATISTICS_EX"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_filesystem_statistics_ex
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-filesystem_statistics_ex
         - name: "FIND_BY_SID_DATA"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-find_by_sid_data
         - name: "FIND_BY_SID_OUTPUT"
@@ -1164,29 +1164,29 @@
         - name: "NTFS_FILE_RECORD_OUTPUT_BUFFER"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-ntfs_file_record_output_buffer
         - name: "NTFS_STATISTICS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_ntfs_statistics
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-ntfs_statistics
         - name: "NTFS_STATISTICS_EX"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_ntfs_statistics_ex
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-ntfs_statistics_ex
         - name: "OFSTRUCT"
-          href: /windows/desktop/api/WinBase/ns-winbase-_ofstruct
+          href: /windows/win32/api/WinBase/ns-winbase-ofstruct
         - name: "OVERLAPPED_ENTRY"
-          href: /windows/desktop/api/MinWinBase/ns-minwinbase-_overlapped_entry
+          href: /windows/win32/api/MinWinBase/ns-minwinbase-overlapped_entry
         - name: "REQUEST_OPLOCK_INPUT_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_request_oplock_input_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-request_oplock_input_buffer
         - name: "REQUEST_OPLOCK_OUTPUT_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_request_oplock_output_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-request_oplock_output_buffer
         - name: "WIM_ENTRY_INFO"
-          href: /windows/desktop/api/wofapi/ns-wofapi-_wim_entry_info
+          href: /windows/win32/api/wofapi/ns-wofapi-wim_entry_info
         - name: "WIM_EXTERNAL_FILE_INFO"
-          href: /windows/desktop/api/wofapi/ns-wofapi-_wim_external_file_info
+          href: /windows/win32/api/wofapi/ns-wofapi-wim_external_file_info
         - name: "WIN32_FILE_ATTRIBUTE_DATA"
-          href: /windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data
+          href: /windows/win32/api/fileapi/ns-fileapi-win32_file_attribute_data
         - name: "WIN32_FIND_DATA"
-          href: /windows/desktop/api/MinWinBase/ns-minwinbase-_win32_find_dataa
+          href: /windows/win32/api/MinWinBase/ns-minwinbase-win32_find_dataa
         - name: "WIN32_FIND_STREAM_DATA"
-          href: /windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data
+          href: /windows/win32/api/fileapi/ns-fileapi-win32_find_stream_data
         - name: "WOF_FILE_COMPRESSION_INFO_V1"
-          href: /windows/desktop/api/wofapi/ns-wofapi-_wof_file_compression_info_v1
+          href: /windows/win32/api/wofapi/ns-wofapi-wof_file_compression_info_v1
   - name: "Transactional NTFS (TxF)"
     href: transactional-ntfs-portal.md
     items: 
@@ -1248,41 +1248,41 @@
         href: transactional-ntfs-structures.md
         items: 
         - name: "TXFS_CREATE_MINIVERSION_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_create_miniversion_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_create_miniversion_info
         - name: "TXFS_GET_METADATA_INFO_OUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_get_metadata_info_out
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_get_metadata_info_out
         - name: "TXF_ID"
-          href: /windows/desktop/api/TxfW32/ns-txfw32-_txf_id
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_id
         - name: "TXFS_GET_TRANSACTED_VERSION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_get_transacted_version
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_get_transacted_version
         - name: "TXFS_LIST_TRANSACTION_LOCKED_FILES"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_list_transaction_locked_files
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transaction_locked_files
         - name: "TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_list_transaction_locked_files_entry
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transaction_locked_files_entry
         - name: "TXFS_LIST_TRANSACTIONS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_list_transactions
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transactions
         - name: "TXFS_LIST_TRANSACTIONS_ENTRY"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_list_transactions_entry
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_list_transactions_entry
         - name: "TXF_LOG_RECORD_AFFECTED_FILE"
-          href: /windows/desktop/api/TxfW32/ns-txfw32-_txf_log_record_affected_file
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_affected_file
         - name: "TXF_LOG_RECORD_BASE"
-          href: /windows/desktop/api/TxfW32/ns-txfw32-_txf_log_record_base
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_base
         - name: "TXF_LOG_RECORD_TRUNCATE"
-          href: /windows/desktop/api/TxfW32/ns-txfw32-_txf_log_record_truncate
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_truncate
         - name: "TXF_LOG_RECORD_WRITE"
-          href: /windows/desktop/api/TxfW32/ns-txfw32-_txf_log_record_write
+          href: /windows/win32/api/TxfW32/ns-txfw32-txf_log_record_write
         - name: "TXFS_MODIFY_RM"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_modify_rm
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_modify_rm
         - name: "TXFS_QUERY_RM_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_query_rm_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_query_rm_information
         - name: "TXFS_READ_BACKUP_INFORMATION_OUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_read_backup_information_out
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_read_backup_information_out
         - name: "TXFS_SAVEPOINT_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_savepoint_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_savepoint_information
         - name: "TXFS_TRANSACTION_ACTIVE_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_transaction_active_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_transaction_active_info
         - name: "TXFS_WRITE_BACKUP_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_txfs_write_backup_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-txfs_write_backup_information
       - name: "TxF Glossary"
         href: glossary.md
   - name: "Volume Management"
@@ -1437,7 +1437,7 @@
         href: volume-management-enumerations.md
         items: 
         - name: "FILE_STORAGE_TIER_MEDIA_TYPE"
-          href: /windows/desktop/api/WinIoctl/ne-winioctl-_file_storage_tier_media_type
+          href: /windows/win32/api/WinIoctl/ne-winioctl-file_storage_tier_media_type
       - name: "Volume Management Functions"
         href: volume-management-functions.md
         items: 
@@ -1483,41 +1483,41 @@
         href: volume-management-structures.md
         items: 
         - name: "BOOT_AREA_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_boot_area_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-boot_area_info
         - name: "CREATE_USN_JOURNAL_DATA"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-create_usn_journal_data
         - name: "CSV_IS_OWNED_BY_CSVFS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_is_owned_by_csvfs
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_is_owned_by_csvfs
         - name: "CSV_NAMESPACE_INFO"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_namespace_info
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_namespace_info
         - name: "CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_csv_query_veto_file_direct_io_output
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_query_veto_file_direct_io_output
         - name: "DELETE_USN_JOURNAL_DATA"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-delete_usn_journal_data
         - name: "FILE_STORAGE_TIER"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_file_storage_tier
+          href: /windows/win32/api/WinIoctl/ns-winioctl-file_storage_tier
         - name: "FILE_STORAGE_TIER_REGION"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_file_storage_tier_region
+          href: /windows/win32/api/WinIoctl/ns-winioctl-file_storage_tier_region
         - name: "FILE_SYSTEM_RECOGNITION_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_file_system_recognition_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-file_system_recognition_information
         - name: "FILE_SYSTEM_RECOGNITION_STRUCTURE"
           href: file-system-recognition-structure.md
         - name: "FSCTL_GET_INTEGRITY_INFORMATION_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_fsctl_get_integrity_information_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-fsctl_get_integrity_information_buffer
         - name: "FSCTL_QUERY_REGION_INFO_INPUT"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_fsctl_query_region_info_input
+          href: /windows/win32/api/WinIoctl/ns-winioctl-fsctl_query_region_info_input
         - name: "FSCTL_QUERY_REGION_INFO_OUTPUT"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_fsctl_query_region_info_output
+          href: /windows/win32/api/WinIoctl/ns-winioctl-fsctl_query_region_info_output
         - name: "FSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
-          href: /windows/desktop/api/WinIoctl/ns-winioctl-_fsctl_query_storage_classes_output
+          href: /windows/win32/api/WinIoctl/ns-winioctl-fsctl_query_storage_classes_output
         - name: "FSCTL_SET_INTEGRITY_INFORMATION_BUFFER"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_fsctl_set_integrity_information_buffer
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-fsctl_set_integrity_information_buffer
         - name: "LOOKUP_STREAM_FROM_CLUSTER_ENTRY"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_lookup_stream_from_cluster_entry
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-lookup_stream_from_cluster_entry
         - name: "LOOKUP_STREAM_FROM_CLUSTER_INPUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_lookup_stream_from_cluster_input
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-lookup_stream_from_cluster_input
         - name: "LOOKUP_STREAM_FROM_CLUSTER_OUTPUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_lookup_stream_from_cluster_output
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-lookup_stream_from_cluster_output
         - name: "MARK_HANDLE_INFO"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info
         - name: "MARK_HANDLE_INFO32"
@@ -1531,7 +1531,7 @@
         - name: "NTFS_VOLUME_DATA_BUFFER"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-ntfs_extended_volume_data
         - name: "PLEX_READ_DATA_REQUEST"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_plex_read_data_request
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-plex_read_data_request
         - name: "READ_FILE_USN_DATA"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-read_file_usn_data
         - name: "READ_USN_JOURNAL_DATA_V0"
@@ -1539,15 +1539,15 @@
         - name: "READ_USN_JOURNAL_DATA_V1"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802706(v=vs.85)
         - name: "REPAIR_COPIES_INPUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_repair_copies_input
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-repair_copies_input
         - name: "REPAIR_COPIES_OUTPUT"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_repair_copies_output
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-repair_copies_output
         - name: "RETRIEVAL_POINTER_BASE"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_retrieval_pointer_base
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-retrieval_pointer_base
         - name: "RETRIEVAL_POINTERS_BUFFER"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-retrieval_pointers_buffer
         - name: "SHRINK_VOLUME_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_shrink_volume_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-shrink_volume_information
         - name: "STARTING_LCN_INPUT_BUFFER"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-starting_lcn_input_buffer
         - name: "STARTING_VCN_INPUT_BUFFER"
@@ -1575,6 +1575,6 @@
         - name: "VOLUME_BITMAP_BUFFER"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-volume_bitmap_buffer
         - name: "VOLUME_DISK_EXTENTS"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_volume_disk_extents
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-volume_disk_extents
         - name: "VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-_volume_get_gpt_attributes_information
+          href: /windows/win32/api/WinIoCtl/ns-winioctl-volume_get_gpt_attributes_information

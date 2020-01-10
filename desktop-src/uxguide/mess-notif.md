@@ -1,5 +1,5 @@
 ---
-title: Notifications
+title: Notifications (Design basics)
 description: A notification informs users of events that are unrelated to the current user activity, by briefly displaying a balloon from an icon in the notification area.
 ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
 ms.topic: article

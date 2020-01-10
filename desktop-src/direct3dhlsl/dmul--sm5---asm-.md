@@ -2,7 +2,7 @@
 title: dmul (sm5 - asm)
 description: Component-wise double-precision multiply.
 ms.assetid: 53AE27BE-2F4B-4C55-B496-D7122C00DC52
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

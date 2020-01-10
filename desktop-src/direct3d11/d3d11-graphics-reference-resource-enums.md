@@ -1,5 +1,5 @@
 ---
-title: Resource Enumerations
+title: Resource Enumerations (Direct3D 11 Graphics)
 description: Enumerations are used to specify information about how resources are created and accessed during rendering.
 ms.assetid: b547819b-7006-40b5-84a4-adf198048051
 keywords:
@@ -32,7 +32,7 @@ Enumerations are used to specify information about how resources are created and
 | [**D3D11\_RESOURCE\_DIMENSION**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_dimension)<br/>                                           | Identifies the type of resource being used.<br/>                                                                                                                                        |
 | [**D3D11\_RESOURCE\_MISC\_FLAG**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)<br/>                                          | Identifies options for resources.<br/>                                                                                                                                                  |
 | [**D3D11\_RTV\_DIMENSION**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_rtv_dimension)<br/>                                                     | These flags identify the type of resource that will be viewed as a render target.<br/>                                                                                                  |
-| [**D3D11\_SRV\_DIMENSION**](https://msdn.microsoft.com/en-us/library/Ff476217(v=VS.85).aspx)<br/>                                                     | These flags identify the type of resource that will be viewed as a shader resource.<br/>                                                                                                |
+| [**D3D11\_SRV\_DIMENSION**](https://msdn.microsoft.com/library/Ff476217(v=VS.85).aspx)<br/>                                                     | These flags identify the type of resource that will be viewed as a shader resource.<br/>                                                                                                |
 | [**D3D11\_STANDARD\_MULTISAMPLE\_QUALITY\_LEVELS**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_standard_multisample_quality_levels)<br/>       | Specifies a multi-sample pattern type.<br/>                                                                                                                                             |
 | [**D3D11\_TEXTURE\_LAYOUT**](/windows/desktop/api/D3D11_3/ne-d3d11_3-d3d11_texture_layout)<br/>                                                   | Specifies texture layout options.<br/>                                                                                                                                                  |
 | [**D3D11\_TILE\_COPY\_FLAG**](/windows/desktop/api/D3D11_2/ne-d3d11_2-d3d11_tile_copy_flag)<br/>                                                 | Identifies how to copy a tile.<br/>                                                                                                                                                     |

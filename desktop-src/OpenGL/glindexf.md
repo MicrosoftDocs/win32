@@ -1,5 +1,5 @@
 ---
-title: glIndexf function
+title: glIndexf function (Gl.h)
 description: The glIndexf function sets the current color index.
 ms.assetid: 1109c6b0-daf6-4b93-8e9e-5dd542b6f7c8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

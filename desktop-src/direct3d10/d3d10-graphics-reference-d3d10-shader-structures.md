@@ -1,7 +1,7 @@
 ---
 Description: 'This section contains information about the following shader structures:'
 ms.assetid: b36309e0-1c44-42d9-adcf-33acd753438c
-title: Shader Structures
+title: Shader Structures (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -28,7 +28,7 @@ This section contains information about the following shader structures:
 | [**D3D10\_SHADER\_DEBUG\_VARTYPE**](/windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_vartype)                | Distinguishes variables from functions in a scope.                                    |
 | [**D3D10\_SHADER\_DEBUG\_VAR\_INFO**](/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_var_info)             | Contains information on a variable.                                                   |
 | [**D3D10\_SHADER\_INPUT\_BIND\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_shader_input_bind_desc)           | Describes how a shader resource is bound to a shader input.                           |
-| [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx)                                 | Defines a shader macro.                                                               |
+| [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)                                 | Defines a shader macro.                                                               |
 | [**D3D10\_SHADER\_TYPE\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_shader_type_desc)                        | Describes a shader-variable type.                                                     |
 | [**D3D10\_SHADER\_VARIABLE\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_shader_variable_desc)                | Describes a shader variable.                                                          |
 | [**D3D10\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_signature_parameter_desc)        | Describes a shader signature.                                                         |

@@ -1,8 +1,8 @@
 ---
 Description: The value of the &\#0034;cs(Referer)&\#0034; field that the network source uses for logging.
 ms.assetid: 328544b3-0d5f-4d1a-9ad1-ac38402d5898
-title: MFNETSOURCE_BROWSERWEBPAGE property
-ms.topic: article
+title: MFNETSOURCE_BROWSERWEBPAGE property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

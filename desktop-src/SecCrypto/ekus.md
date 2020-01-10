@@ -2,7 +2,7 @@
 Description: Represents a collection of EKU objects.
 ms.assetid: 04b9f0bf-e1d4-4a2c-be5d-bae7c1090bdb
 title: EKUs object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -43,7 +43,7 @@ The **EKUs** object has these properties.
 
 | Property                                     | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](ekus-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](ekus-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](ekus-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**EKU**](eku.md) objects in the collection.<br/>                                                                                                                                                |
 | [**Item**](ekus-item.md)<br/>         | Read-only<br/> | Retrieves the [**EKU**](eku.md) object that represents the indexed EKU property. This is the default property.<br/>                                                                                                      |
 

@@ -1,5 +1,5 @@
 ---
-title: LVM_INSERTCOLUMN message
+title: LVM_INSERTCOLUMN message (Commctrl.h)
 description: Inserts a new column in a list-view control. You can send this message explicitly or by using the ListView\_InsertColumn macro.
 ms.assetid: 1326e38e-bb45-4d0d-b5bc-ec684b3b92ef
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

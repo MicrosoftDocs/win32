@@ -1,8 +1,8 @@
 ---
 Description: Moves the specified IInkAnalysisRecognizer to the first position in the IInkAnalyzer object's list of ink recognizers.
 ms.assetid: 9126187f-02dd-4988-91b8-c4f3d3b6f773
-title: IInkAnalyzer::SetHighestPriorityInkAnalysisRecognizer method
-ms.topic: article
+title: IInkAnalyzer::SetHighestPriorityInkAnalysisRecognizer method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

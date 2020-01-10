@@ -1,8 +1,8 @@
 ---
 Description: Returns the dot product of two quaternions.
 ms.assetid: 2ed9aca9-0526-4b92-bd66-b09dcf4f474a
-title: D3DXQuaternionDot function
-ms.topic: article
+title: D3DXQuaternionDot function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The dot product of two quaternions.
 

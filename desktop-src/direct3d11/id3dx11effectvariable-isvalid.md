@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable IsValid method
+title: ID3DX11EffectVariable IsValid method (D3dx11effect.h)
 description: Compare the data type with the data stored.
 ms.assetid: 3384afa3-6ae5-4c7c-b95d-4fe3c87cc2fe
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

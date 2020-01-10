@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottomLeftRadiusX methods
+title: IDCompositionRectangleClip SetBottomLeftRadiusX methods (Dcomp.h)
 description: Changes or animates the value of the BottomLeftRadiusX property of this clip. The BottomLeftRadiusX property specifies the x radius of the ellipse that rounds the lower-left corner of the clip.
 ms.assetid: 1E008D8E-B28A-4E79-9653-587DF0CB5DD7
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetBottomLeftRadiusX methods
@@ -24,8 +24,8 @@ Changes or animates the value of the BottomLeftRadiusX property of this clip. Th
 
 | Method                                                                                                                           | Description                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**SetBottomLeftRadiusX(float)**](https://msdn.microsoft.com/en-us/library/Hh437436(v=VS.85).aspx)                                     | Changes the value of the BottomLeftRadiusX property of this clip.<br/>  |
-| [**SetBottomLeftRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh437438(v=VS.85).aspx) | Animates the value of the BottomLeftRadiusX property of this clip.<br/> |
+| [**SetBottomLeftRadiusX(float)**](https://msdn.microsoft.com/library/Hh437436(v=VS.85).aspx)                                     | Changes the value of the BottomLeftRadiusX property of this clip.<br/>  |
+| [**SetBottomLeftRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh437438(v=VS.85).aspx) | Animates the value of the BottomLeftRadiusX property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the BottomLeftRadiusX property of this clip. Th
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

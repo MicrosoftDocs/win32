@@ -1,8 +1,8 @@
 ---
 Description: Specifies the left edge of the destination rectangle, in pixels.
 ms.assetid: 9411a7f7-0ce6-43b7-b50d-54489a7bb864
-title: MFPKEY_COLORCONV_DSTLEFT Property
-ms.topic: article
+title: MFPKEY_COLORCONV_DSTLEFT Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the left edge of the destination rectangle, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

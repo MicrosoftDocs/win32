@@ -3,7 +3,7 @@ Description: The CIM\_ProductSoftwareFeatures association identifies the softwar
 ms.assetid: cd6190f8-d86e-44c8-b506-48016a7c22e1
 ms.tgt_platform: multiple
 title: CIM_ProductSoftwareFeatures class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

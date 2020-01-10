@@ -1,5 +1,5 @@
 ---
-title: TBM_SETTHUMBLENGTH message
+title: TBM_SETTHUMBLENGTH message (Commctrl.h)
 description: Sets the length of the slider in a trackbar. This message is ignored if the trackbar does not have the TBS\_FIXEDLENGTH style.
 ms.assetid: 027fe341-a60a-4dbe-a48a-5ddaadef0b4a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

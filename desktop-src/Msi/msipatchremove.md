@@ -2,7 +2,7 @@
 Description: The MSIPATCHREMOVE property specifies the list of patches to remove during an installation.
 ms.assetid: 76f8daa9-d32c-4845-85bc-52b728f53d1f
 title: MSIPATCHREMOVE property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the top edge of the source rectangle, in pixels.
 ms.assetid: 1dfd5557-3f3b-4d59-9df6-e73cb1157619
-title: MFPKEY_COLORCONV_SRCTOP Property
-ms.topic: article
+title: MFPKEY_COLORCONV_SRCTOP Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the top edge of the source rectangle, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

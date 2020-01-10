@@ -2,7 +2,7 @@
 Description: Enumerates the name of the available cryptographic service providers (CSPs).
 ms.assetid: d0dc8a8a-afff-4ccc-96e0-2c52913c3322
 title: ISCrdEnr::enumCSPName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::enumCSPName method
 
-The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs).
+The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs).
 
 ## Syntax
 

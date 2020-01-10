@@ -3,7 +3,7 @@ Description: The CIM\_InfraredController class represents the capabilities and m
 ms.assetid: c3643c1c-a3c0-4600-b432-4f4be925aeb5
 ms.tgt_platform: multiple
 title: CIM_InfraredController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_PCIController class represents the properties and manageme
 ms.assetid: 0f2aec01-362d-49d7-95ea-23487214188c
 ms.tgt_platform: multiple
 title: CIM_PCIController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

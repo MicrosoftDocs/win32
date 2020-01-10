@@ -2,7 +2,7 @@
 Description: Starts the service.
 ms.assetid: 1a1819de-823e-4e97-9c04-fcaeea2c67d9
 title: StartService method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

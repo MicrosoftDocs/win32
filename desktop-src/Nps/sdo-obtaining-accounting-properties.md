@@ -36,7 +36,7 @@ To access the accounting properties using C++, first obtain the request handlers
 
 The request handlers collection contains an object named "Microsoft Accounting". Retrieve this object from the collection. The section [Retrieving an Object from a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-an-object-from-a-collection) contains C++ code that demonstrates how to obtain an object from a collection.
 
-Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface for the object using [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx). The section [Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo) contains C++ code that demonstrates how obtain an **ISdo** interface for an object. You can then use the [**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) method to obtain property values for the Microsoft Accounting object.
+Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface for the object using [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx). The section [Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo) contains C++ code that demonstrates how obtain an **ISdo** interface for an object. You can then use the [**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty) method to obtain property values for the Microsoft Accounting object.
 
 ## Related topics
 
@@ -54,7 +54,7 @@ Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://docs
 [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo)
 </dt> <dt>
 
-[**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx)
+[**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx)
 </dt> <dt>
 
 [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)

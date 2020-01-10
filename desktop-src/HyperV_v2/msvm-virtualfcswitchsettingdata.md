@@ -2,7 +2,7 @@
 Description: Represents the configuration of a virtual Fibre Channel switch.
 ms.assetid: da2918a9-6e7f-4fee-9c13-7e75bbc6821f
 title: Msvm_VirtualFcSwitchSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

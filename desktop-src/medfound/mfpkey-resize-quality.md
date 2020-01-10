@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
 ms.assetid: a6760e7e-7c99-4412-bde5-05958fad89a1
-title: MFPKEY_RESIZE_QUALITY Property
-ms.topic: article
+title: MFPKEY_RESIZE_QUALITY Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether to use an algorithm that produces higher-quality video, or a f
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

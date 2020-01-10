@@ -2,7 +2,7 @@
 Description: Stops the service.
 ms.assetid: cf0dde8d-b6cf-4a52-905f-c686ac41e314
 title: StopService method of the Msvm_VirtualSystemMigrationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

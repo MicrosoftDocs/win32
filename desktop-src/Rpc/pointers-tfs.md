@@ -1,5 +1,5 @@
 ---
-title: Pointers
+title: Pointers (RPC)
 description: Pointers
 ms.assetid: 9756E637-BCBB-48F1-B962-25AF2C917921
 ms.topic: article

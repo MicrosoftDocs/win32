@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: df5efbb3-6bce-4e30-b1b1-d69bf64fa87d
-title: CBaseRenderer.CBaseRenderer constructor
-ms.topic: article
+title: CBaseRenderer.CBaseRenderer constructor (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

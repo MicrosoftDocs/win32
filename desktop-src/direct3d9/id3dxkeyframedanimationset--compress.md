@@ -1,8 +1,8 @@
 ---
 Description: Transforms animations in an animation set into a compressed format and returns a pointer to the buffer that stores the compressed data.
 ms.assetid: b70b6dfb-545f-4309-ab72-9543c3c48fc4
-title: ID3DXKeyframedAnimationSet::Compress method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::Compress method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,16 +41,16 @@ HRESULT Compress(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-One of the [**D3DXCOMPRESSION\_FLAGS**](https://msdn.microsoft.com/en-us/library/Bb172734(v=VS.85).aspx) values that define the compression mode used for storing compressed animation set data. D3DXCOMPRESS\_DEFAULT is the only value currently supported.
+One of the [**D3DXCOMPRESSION\_FLAGS**](https://msdn.microsoft.com/library/Bb172734(v=VS.85).aspx) values that define the compression mode used for storing compressed animation set data. D3DXCOMPRESS\_DEFAULT is the only value currently supported.
 
 </dd> <dt>
 
 *Lossiness* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Desired compression loss ratio, in the range from 0 to 1.
 
@@ -76,7 +76,7 @@ Address of a pointer to the [**ID3DXBuffer**](id3dxbuffer.md) compressed animati
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

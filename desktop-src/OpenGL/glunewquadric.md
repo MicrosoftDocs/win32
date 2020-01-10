@@ -1,5 +1,5 @@
 ---
-title: gluNewQuadric function
+title: gluNewQuadric function (Glu.h)
 description: The gluNewQuadric function creates a quadric object.
 ms.assetid: 5a4289bf-b57a-4c74-b0e3-b7536671e4df
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

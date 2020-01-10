@@ -1,5 +1,5 @@
 ---
-title: Virtual-Key Codes
+title: Virtual-Key Codes (Winuser.h)
 description: The following table shows the symbolic constant names, hexadecimal values, and mouse or keyboard equivalents for the virtual-key codes used by the system. The codes are listed in numeric order.
 ms.assetid: fa8926ad-41b2-4164-9ba3-ae501fd0eef2
 topic_type:
@@ -146,7 +146,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -338,7 +338,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | <dl> <dt></dt> <dt>0xE3-E4</dt> </dl>                                                                                                             | OEM specific<br/>                                                                                                                                                                                                                                                                                                                                 |
 | <span id="VK_PROCESSKEY"></span><span id="vk_processkey"></span><dl> <dt>**VK\_PROCESSKEY**</dt> <dt>0xE5</dt> </dl>                              | IME PROCESS key<br/>                                                                                                                                                                                                                                                                                                                              |
 | <dl> <dt></dt> <dt>0xE6</dt> </dl>                                                                                                                | OEM specific<br/>                                                                                                                                                                                                                                                                                                                                 |
-| <span id="VK_PACKET"></span><span id="vk_packet"></span><dl> <dt>**VK\_PACKET**</dt> <dt>0xE7</dt> </dl>                                          | Used to pass Unicode characters as if they were keystrokes. The VK\_PACKET key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in [**KEYBDINPUT**](https://msdn.microsoft.com/en-us/library/ms646271(v=VS.85).aspx), [**SendInput**](https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx), [**WM\_KEYDOWN**](wm-keydown.md), and [**WM\_KEYUP**](wm-keyup.md)<br/> |
+| <span id="VK_PACKET"></span><span id="vk_packet"></span><dl> <dt>**VK\_PACKET**</dt> <dt>0xE7</dt> </dl>                                          | Used to pass Unicode characters as if they were keystrokes. The VK\_PACKET key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in [**KEYBDINPUT**](https://msdn.microsoft.com/library/ms646271(v=VS.85).aspx), [**SendInput**](https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx), [**WM\_KEYDOWN**](wm-keydown.md), and [**WM\_KEYUP**](wm-keyup.md)<br/> |
 | <span id="-"></span><dl> <dt>**-**</dt> <dt>0xE8</dt> </dl>                                                                                       | Unassigned<br/>                                                                                                                                                                                                                                                                                                                                   |
 | <dl> <dt></dt> <dt>0xE9-F5</dt> </dl>                                                                                                             | OEM specific<br/>                                                                                                                                                                                                                                                                                                                                 |
 | <span id="VK_ATTN"></span><span id="vk_attn"></span><dl> <dt>**VK\_ATTN**</dt> <dt>0xF6</dt> </dl>                                                | Attn key<br/>                                                                                                                                                                                                                                                                                                                                     |

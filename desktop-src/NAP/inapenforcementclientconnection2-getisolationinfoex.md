@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection2 GetIsolationInfoEx method
+title: INapEnforcementClientConnection2 GetIsolationInfoEx method (NapEnforcementClient.h)
 description: Is used to get isolation information about the client.
 ms.assetid: ebacd056-5ab8-4096-821c-8f2987d853c4
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

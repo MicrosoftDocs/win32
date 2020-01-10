@@ -1,5 +1,5 @@
 ---
-title: Texture3D Sample methods
+title: Texture3D::Texture3D Sample methods
 description: Samples a texture.
 ms.assetid: 769AE904-5F0C-4427-862E-2BC5BC995546
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

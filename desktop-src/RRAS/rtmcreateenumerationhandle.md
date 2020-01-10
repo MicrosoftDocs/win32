@@ -1,5 +1,5 @@
 ---
-title: RtmCreateEnumerationHandle function
+title: RtmCreateEnumerationHandle function (Rtm.h)
 description: The RtmCreateEnumerationHandle function returns a handle to use with RtmEnumerateGetNextRoute to scan through all routes, or a subset of routes, known to the routing table manager.
 ms.assetid: 73e3ac7d-498a-4d89-a6b5-17aaf4b17ec2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -77,7 +77,7 @@ Pointer to a protocol-family-specific route structure ([**RTM\_IP\_ROUTE**](rtm-
 
 If the function succeeds, the return value is a **HANDLE** to use with subsequent enumeration calls.
 
-If the function fails, or no routes exist with the specified criteria, the return value is **NULL**. Call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) to obtain more information.
+If the function fails, or no routes exist with the specified criteria, the return value is **NULL**. Call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) to obtain more information.
 
 
 
@@ -117,7 +117,7 @@ If the function fails, or no routes exist with the specified criteria, the retur
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
+[**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)

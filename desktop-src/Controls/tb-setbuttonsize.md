@@ -1,5 +1,5 @@
 ---
-title: TB_SETBUTTONSIZE message
+title: TB_SETBUTTONSIZE message (Commctrl.h)
 description: Sets the size of buttons on a toolbar.
 ms.assetid: ef6beed7-a3d6-4379-b9c1-c64a5e33ce78
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

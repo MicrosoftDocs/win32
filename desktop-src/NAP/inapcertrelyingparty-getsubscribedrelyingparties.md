@@ -1,5 +1,5 @@
 ---
-title: INapCertRelyingParty GetSubscribedRelyingParties method
+title: INapCertRelyingParty GetSubscribedRelyingParties method (NapCertRelyingParty.h)
 description: Gets a list of relying parties that have subscribed.
 ms.assetid: 7eef28fd-71cd-4765-89a5-2c9ce29fdc00
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

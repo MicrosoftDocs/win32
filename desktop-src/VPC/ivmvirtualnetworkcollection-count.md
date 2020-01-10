@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetworkCollection Count property
+title: IVMVirtualNetworkCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of virtual networks in this collection.
 ms.assetid: a9a3ab48-74a0-498e-936e-a99c7b027a85
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

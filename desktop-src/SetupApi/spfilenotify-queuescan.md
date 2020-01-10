@@ -1,8 +1,8 @@
 ---
 Description: The SPFILENOTIFY\_QUEUESCAN notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue. This only occurs if the SetupScanFileQueue function was called specifying the flag SPQ\_SCAN\_USE\_CALLBACK.
 ms.assetid: 8aacc6c0-b6fe-4b4a-bbe4-a0351baf1f30
-title: SPFILENOTIFY_QUEUESCAN message
-ms.topic: article
+title: SPFILENOTIFY_QUEUESCAN message (Setupapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
