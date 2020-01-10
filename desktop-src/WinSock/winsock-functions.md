@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 10/01/2019
 ---
 
-# Winsock Functions
+# Winsock functions
 
 The following list provides concise descriptions of each Winsock function. For additional information on any function, click the function name.
 
