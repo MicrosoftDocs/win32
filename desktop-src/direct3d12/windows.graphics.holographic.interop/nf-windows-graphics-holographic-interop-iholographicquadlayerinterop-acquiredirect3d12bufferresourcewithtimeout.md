@@ -13,17 +13,14 @@ ms.date: 12/13/2019
 
 > [!IMPORTANT]
 > The feature described in this topic is implemented in 
-Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holographic.Interop.h` header file is available only in the [Windows 10 SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holographic.Interop.h` header file is available starting in the [Windows 10 SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-Acquires a Direct3D 12 buffer resource, with an optional timeout.
+The **AcquireDirect3D12BufferResourceWithTimeout** method transitions ownership of a Direct3D 12 back buffer resource from the platform to the app, waiting up to the amount of time indicated by the `duration` parameter for the resource to become available. If the app already owns control of the resource, the acquisition is considered to be a success and the method returns immediately.
 
-After committing a resource to a [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe) by calling [IHolographicQuadLayerUpdateParametersInterop::CommitDirect3D12Resource](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop-commitdirect3d12resource), your application should consider control of that resource to be relinquished to the system. That control can last for a few frames as the frame that the buffer was committed to makes its way through the presentation queue. To determine when the system has relinquished control, call [AcquireDirect3D12BufferResourceWithTimeout](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-acquiredirect3d12bufferresourcewithtimeout). If the buffer can't be acquired by the time your application is ready to start rendering a new [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe), then you should create a new resource and add it to the buffer queue, or wait for the buffer to be acquired before it begins rendering.
+After committing a resource to a [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe) by calling [IHolographicQuadLayerUpdateParametersInterop::CommitDirect3D12Resource](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop-commitdirect3d12resource), your application should consider control of that resource to be relinquished to the system until such a time as it is reacquired by the app using this method. The system owns the buffer until it is no longer needed for presenting the quad layer. To determine whether the system has relinquished control of the buffer, call **AcquireDirect3D12BufferResource** or **AcquireDirect3D12BufferResourceWithTimeout**. If the buffer cannot be acquired by the time your application is ready to start rendering a new update for the quad layer, then you should create a new resource and add it to the buffer queue or limit the queue size by waiting for a buffer to become available.
 
-This method accepts an optional timeout value. When this value is specified, the system waits for that many milliseconds for the buffer to become available. The default behavior is to not wait.
+This method accepts an optional timeout value. When a nonzero value is present in the `duration` parameter, the system will wait for that many milliseconds for the buffer to become available. The default behavior is to not wait. When a timeout value of zero is specified and the buffer is not ready to be acquired, the method call will fail with the error code **E_NOTREADY**.
 
-When no timeout value is specified, if this method is called and the buffer is not ready to be acquired, the method call fails with the error code **E_NOTREADY**.
-
-Also see [AcquireDirect3D12BufferResource](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerinterop-acquiredirect3d12bufferresource).
 
 ## Syntax
 
