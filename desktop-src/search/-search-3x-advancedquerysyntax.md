@@ -264,8 +264,8 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="odd">
 <td>COP_VALUE_STARTSWITH</td>
-<td>~<<br/></td>
-<td>System.FileName:~<&quot;C++ Primer&quot;<br/></td>
+<td>~&lt;<br/></td>
+<td>System.FileName:~&lt;&quot;C++ Primer&quot;<br/></td>
 <td>Finds items where the file name begins with the characters &quot;<em>C++ Primer</em>&quot;.<br/></td>
 </tr>
 <tr class="even">
