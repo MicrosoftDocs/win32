@@ -13,11 +13,15 @@ ms.date: 12/13/2019
 
 > [!IMPORTANT]
 > The feature described in this topic is implemented in 
-Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holographic.Interop.h` header file is available only in the [Windows 10 SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holographic.Interop.h` header file is available starting in the [Windows 10 SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-Acquires a Direct3D 12 buffer resource.
+The **AcquireDirect3D12BufferResource** method transitions ownership of a Direct3D 12 back buffer resource from the platform to the app. If the app already owns control of the resource, the acquisition is considered to be a success.
 
-After committing a resource to a [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe) by calling [IHolographicQuadLayerUpdateParametersInterop::CommitDirect3D12Resource](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop-commitdirect3d12resource), your application should consider control of that resource to be held by the system. That control can last for a few frames while the frame that the buffer was committed to makes its way through the presentation queue. To determine when the system has relinquished control, call **AcquireDirect3D12TextureResource**. If the buffer can't be acquired by the time your application is ready to start rendering a new [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe), then you should create a new resource, and add it to the buffer queue. Your application can limit the queue size by calling [AcquireDirect3D12BufferResourceWithTimeout](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-acquiredirect3d12bufferresourcewithtimeout) to queue work when a resource becomes available.
+After committing a resource to a [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe) by calling [IHolographicQuadLayerUpdateParametersInterop::CommitDirect3D12Resource](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop-commitdirect3d12resource), your application should consider control of that resource to be owned by the system until such a time as it is reacquired by the app using this method. The system owns the buffer until the frame that the buffer was committed to makes its way through the presentation queue. To determine whether the system has relinquished control of the buffer, call  **AcquireDirect3D12BufferResource** or **AcquireDirect3D12BufferResourceWithTimeout**. If the buffer cannot be acquired by the time your application is ready to start rendering a new [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe), then you should create a new resource and add it to the buffer queue or limit the queue size by waiting for a buffer to become available.
+
+If the buffer is not ready to be acquired when this method is called, the method call will fail and immediately return the error code **E_NOTREADY**.
+
+Your application can limit the queue size by calling [AcquireDirect3D12BufferResourceWithTimeout](/windows/win32/api/windows.graphics.holographic.interop/nf-windows-graphics-holographic-interop-iholographiccamerainterop-acquiredirect3d12bufferresourcewithtimeout) to wait until a resource becomes available before queuing more work.
 
 ## Syntax
 
@@ -41,7 +45,7 @@ The Direct3D 12 resource to acquire.
 Type: **[ID3D12CommandQueue](/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue)\***
 
 The Direct3D 12 command queue to use for transitioning the state of this resource when acquiring it for your application.
-The resource will be in the **D3D12_RESOURCE_STATE_COMMON** state when it is acquired.
+The resource will be in the **D3D12_RESOURCE_STATE_COMMON** state when it is acquired. The resource transition command may not be queued if the resource is already in the common state when it is being acquired.
 
 ## Returns
 **S_OK** if successful, otherwise returns an [HRESULT](/windows/win32/com/structure-of-com-error-codes) error code indicating the reason for failure. Also see [COM Error Codes (UI, Audio, DirectX, Codec)](/windows/win32/com/com-error-codes-10).
