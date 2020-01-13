@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 Media Foundation supports media files in the Advanced Systems Format (ASF):
 
--   Windows Media Video (WMA files)
--   Windows Media Audio (WMV files)
+-   Windows Media Video (WMV files)
+-   Windows Media Audio (WMA files)
 
 Media Foundation provides several objects for reading and writing ASF files. These objects are provided in two different architectural layers.
 
