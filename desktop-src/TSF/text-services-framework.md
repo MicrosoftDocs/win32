@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Microsoft Windows Text Services Framework (TSF) is a system service available as a redistributable for Windows 2000. TSF provides a simple and scalable framework for the delivery of advanced text input and natural language technologies. TSF can be enabled in applications, or as a TSF text service. A TSF text service provides multilingual support and delivers text services such as keyboard processors, handwriting recognition, and speech recognition.
+Microsoft Windows Text Services Framework (TSF) is a system service available as a redistributable for Windows. TSF provides a simple and scalable framework for the delivery of advanced text input and natural language technologies. TSF can be enabled in applications, or as a TSF text service. A TSF text service provides multilingual support and delivers text services such as keyboard processors, handwriting recognition, and speech recognition.
 
 ## Where applicable
 
@@ -22,7 +22,9 @@ Text Services Framework is designed for use by Component Object Model (COM) prog
 
 ## Run-time requirements
 
-Text Services Framework is available as a redistributable for Windows 2000. For more information about the requirements of specific API elements, see the Requirements section in the reference documentation.
+For the latest redistributable, download the [Windows 10 platform SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+
+For more information about the requirements of specific API elements, see the Requirements section in the ](/windows/win32/tsf/text-services-framework-reference)[TFS reference documentation.
 
 ## In this section
 
