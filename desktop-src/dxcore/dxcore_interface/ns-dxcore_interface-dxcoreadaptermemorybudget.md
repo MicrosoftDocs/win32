@@ -36,7 +36,7 @@ Type: **uint64_t**
 
 Specifies the OS-provided adapter memory budget, in bytes, that your application should target. If *currentUsage* is greater than *budget*, then your application may incur stuttering or performance penalties due to background activity by the OS, which is intended to provide other applications with a fair usage of adapter memory.
 
-### budget
+### currentUsage
 
 Type: **uint64_t**
 
@@ -48,7 +48,7 @@ Type: **uint64_t**
 
 Specifies the amount of adapter memory, in bytes, that your application has available for reservation. To reserve this adapter memory, your application should call [IDXCoreAdapter::SetState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) with *state* set to [DXCoreAdapterState::AdapterMemoryBudget](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate).
 
-### availableForReservation
+### currentReservation
 
 Type: **uint64_t**
 
