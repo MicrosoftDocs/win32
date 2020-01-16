@@ -1,5 +1,5 @@
 ﻿---
-title: Windows.Graphics.Holographic.Interop.h header
+title: Direct3D 12 on Windows Mixed Reality
 description: This section covers APIs for Direct3D 12-based graphics programming.
 ms.assetid: C4958E15-28BA-4275-882B-244D4CC22E1A
 ms.localizationpriority: low
@@ -8,7 +8,7 @@ ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
-# Windows.Graphics.Holographic.Interop.h header
+# Direct3D 12 on Windows Mixed Reality
 
 ## Description
 
@@ -19,9 +19,9 @@ ms.custom: 19H1
 > The feature described in this topic is implemented in 
 Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holographic.Interop.h` header file is available starting in the [Windows 10 SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-The APIs in this header allow Windows Mixed Reality apps to use Direct3D 12. The interfaces specified in this header use COM interface pointers to pass DirectX COM objects as parameters to methods on WinRT API objects in the [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic) namespace, allowing Windows Mixed Reality apps to create and use Direct3D 12 buffer resources with no additional overhead.
+The APIs in the `Windows.Graphics.Holographic.Interop.h` header allow Windows Mixed Reality apps to use Direct3D 12. The interfaces specified in this header use COM interface pointers to pass DirectX COM objects as parameters to methods on Windows Runtime objects in the [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic) namespace, allowing Windows Mixed Reality apps to create and use Direct3D 12 buffer resources with no additional overhead.
 
-Sample code for this API set is included in the [Windows Mixed Reality D3D12 app template](https://marketplace.visualstudio.com/items?itemName=WindowsMixedRealityteam.WindowsMixedRealityAppTemplatesVSIX). The Windows Mixed Reality D3D12 app template includes boilerplate code for most APIs that are provided in the Windows.Graphics.Holographic.Interop.h header and renders a spinning cube on a Windows Mixed Reality PC, a HoloLens 2, and the HoloLens 2 emulator.
+Sample code for this API set is included in the [Windows Mixed Reality Direct3D 12 app template](https://marketplace.visualstudio.com/items?itemName=WindowsMixedRealityteam.WindowsMixedRealityAppTemplatesVSIX). The Windows Mixed Reality Direct3D 12 app template includes boilerplate code for most APIs that are provided in the `Windows.Graphics.Holographic.Interop.h` header, and renders a spinning cube on a Windows Mixed Reality PC, a HoloLens 2, and the HoloLens 2 emulator.
 
 | Interface | Method |
 |-|-|

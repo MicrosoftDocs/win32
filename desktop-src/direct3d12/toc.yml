@@ -2357,7 +2357,7 @@
         items:
         - name: "D3D12_DOWNLEVEL_PRESENT_FLAGS"
           href: d3d12_downlevel_present_flags.md
-    - name: "Direct3D12 on Windows Mixed Reality"
+    - name: "Direct3D 12 on Windows Mixed Reality"
       href: /windows/win32/direct3d12/windows.graphics.holographic.interop/windows.graphics.holographic.interop
       items: 
       - name: "IHolographicCameraInterop"

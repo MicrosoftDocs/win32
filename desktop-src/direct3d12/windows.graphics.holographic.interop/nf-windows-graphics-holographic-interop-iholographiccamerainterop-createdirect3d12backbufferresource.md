@@ -17,7 +17,7 @@ Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holograp
 
 The **CreateDirect3D12BackBufferResource** method creates a Direct3D 12 resource for use as a back buffer for the corresponding [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) API object.
 
-The [D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc) structure can contain any set of valid initial values. Any values that won't work with this [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) will be overridden in the struct indicated by `pTexture2DDesc`, which is not an optional parameter. The resource is created so that it is already committed to a heap.
+The [D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc) structure can contain any set of valid initial values. Any values that won't work with this [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) will be overridden in the struct indicated by *pTexture2DDesc*, which is not an optional parameter. The resource is created so that it is already committed to a heap.
 
 ## Syntax
 
@@ -34,14 +34,14 @@ HRESULT CreateDirect3D12BackBufferResource(
 `pDevice`
 Type: **[ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)\***
 
-A Direct3D 12 device which will be used to create the resource.
+A Direct3D 12 device, which will be used to create the resource.
 
 `pTexture2DDesc`
 Type: **[D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc)\***
 
 The Direct3D 12 resource description. This parameter is not optional.
 
-The API will adjust the description as needed to comply with platform requirements, such as buffer size or format restrictions, which are determined at runtime. Your application should inspect the descriptor for the texture returned in `ppCreatedTexture2DResource` and respond appropriately to any differences from what was specified.
+**CreateDirect3D12BackBufferResource** adjusts the description as needed to comply with platform requirements, such as buffer size or format restrictions, which are determined at runtime. Your application should inspect the descriptor for the texture returned in *ppCreatedTexture2DResource*, and respond appropriately to any differences from what was specified.
 
 `ppCreatedTexture2DResource`
 Type: **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource)\*\***

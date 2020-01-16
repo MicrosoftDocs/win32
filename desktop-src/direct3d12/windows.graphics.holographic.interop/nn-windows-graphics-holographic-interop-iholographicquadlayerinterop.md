@@ -1,6 +1,6 @@
 ---
 title: IHolographicQuadLayerInterop
-description: A nano-COM interface that allows COM interop with the [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) WinRT class for apps that use Direct3D 12 for holographic rendering.
+description: A nano-COM interface that allows COM interop with the [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) Windows Runtime class for apps that use Direct3D 12 for holographic rendering.
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 12/13/2019
@@ -15,15 +15,13 @@ ms.date: 12/13/2019
 > The feature described in this topic is implemented in 
 Windows 10, version 1903 (10.0; Build 18362), but the `Windows.Graphics.Holographic.Interop.h` header file is available starting in the [Windows 10 SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-The **IHolographicQuadLayerInterop** interface is a nano-COM interface which is used to create Direct3D 12 content buffers for a [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) WinRT API object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality quad layers. It also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [**IHolographicQuadLayerUpdateParametersInterop**](/windows/win32/direct3d12/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop) API.
+The **IHolographicQuadLayerInterop** interface is a nano-COM interface, used to create Direct3D 12 content buffers for a [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) Windows Runtime object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality quad layers. It also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [**IHolographicQuadLayerUpdateParametersInterop**](/windows/win32/direct3d12/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop) interface.
 
-Your application can use this interface to initialize Direct3D 12 content buffer resources for holographic quad layers. Nano-COM allows pointers to Direct3D 12 objects to be passed as parameters for API calls directly, instead of using a WinRT container object.
+Your application can use **IHolographicQuadLayerInterop** to initialize Direct3D 12 content buffer resources for holographic quad layers. Nano-COM allows pointers to Direct3D 12 objects to be passed directly as parameters for API calls, instead of using a Windows Runtime container object.
 
-Your application manages its own pool of holographic content buffer resources. It can create additional buffers as needed in order to continue rendering smoothly. On most devices, this will be 3 or 4 buffers. Your application should start with at least 2 buffers in the pool. Your application can dynamically 
-detect when it needs to create a new buffer by looking for failed attempts to immediately acquire buffers that were previously committed 
-for presentation. A quad layer content buffer will continue to be presented each frame until a new buffer is committed.
+Your application manages its own pool of holographic content buffer resources. It can create additional buffers as needed in order to continue rendering smoothly. On most devices, this will be three or four buffers. Your application should start with at least two buffers in the pool. Your application can dynamically detect when it needs to create a new buffer by looking for failed attempts to immediately acquire buffers that were previously committed for presentation. A quad layer content buffer will continue to be presented each frame until a new buffer is committed.
 
-A buffer created by a [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) object can only be used with that object. It should be released when the **HolographicQuadLayer** is released, or when the Direct3D 12 device needs to be recreated&mdash;whichever happens first. The buffer must not be in the GPU pipeline when it is released - Direct3D 12 fences should be used to ensure that this condition is met prior to releasing the buffer object.
+A buffer created by a [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) object can be used only with that object. It should be released when the **HolographicQuadLayer** is released, or when the Direct3D 12 device needs to be recreated&mdash;whichever happens first. The buffer must not be in the GPU pipeline when it is released&mdash;Direct3D 12 fences should be used to ensure that this condition is met prior to releasing the buffer object.
 
 ## Inheritance
 The **IHolographicQuadLayerInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
