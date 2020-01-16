@@ -35,15 +35,7 @@ The VListVW Sample shows how to implement a simple virtual list-view control in 
 
 ## Downloading the Sample
 
-The VListVW Sample is installed as part of the [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=147890) and is available in the following location.
-
-
-
-| Location    | Path/URL                                                                                                |
-|-------------|---------------------------------------------------------------------------------------------------------|
-| Windows SDK | %Program Files%\\Microsoft SDKs\\Windows\\\[version number\]\\Samples\\winui\\controls\\common\\vlistvw |
-
-
+The VListVW Sample is available on on github in the [Windows Classic Samples repository](https://github.com/microsoft/Windows-classic-samples). The list view control items examples can be found at [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)
 
  
 
