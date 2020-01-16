@@ -3,7 +3,7 @@ Description: The scripting sample in this topic shows you how to use Windows Upd
 ms.assetid: 4b2b1898-64f1-4908-98b7-ea87a6fcb71d
 title: Searching, Downloading, and Installing Updates
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/16/2020
 ---
 
 # Searching, Downloading, and Installing Updates
