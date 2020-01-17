@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a variety of information for the battery.
 ms.assetid: 4cc89b89-ab33-47c2-8327-9627cbd1595e
-title: IOCTL_BATTERY_QUERY_INFORMATION control code
-ms.topic: article
+title: IOCTL_BATTERY_QUERY_INFORMATION control code (Poclass.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

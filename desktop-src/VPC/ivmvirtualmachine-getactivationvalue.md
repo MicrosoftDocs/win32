@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine GetActivationValue method
+title: IVMVirtualMachine GetActivationValue method (VPCCOMInterfaces.h)
 description: Retrieves the value of the specified activation setting for this virtual machine.
 ms.assetid: 9a6f138f-6a8a-4cdf-8fb3-83d541d88fba
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

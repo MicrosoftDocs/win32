@@ -12,7 +12,7 @@ api_name:
 - ms-DS-Secondary-KrbTgt-Number
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

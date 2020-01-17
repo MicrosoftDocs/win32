@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive Attachment property
+title: IVMFloppyDrive Attachment property (VPCCOMInterfaces.h)
 description: Retrieves the type of media attached to the floppy drive in the virtual machine.
 ms.assetid: 0b7e43ac-de56-4c4b-82e6-75877aea06f2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

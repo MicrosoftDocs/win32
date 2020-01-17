@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC CreateVirtualMachine method
+title: IVMVirtualPC CreateVirtualMachine method (VPCCOMInterfaces.h)
 description: Creates a new virtual machine configuration and retrieves the virtual machine object.
 ms.assetid: 35f7364f-debd-4b9c-8240-23c0512eb004
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

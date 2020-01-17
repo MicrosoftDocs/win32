@@ -1,8 +1,8 @@
 ---
 Description: Defines values for use with the FXMASTERINGLIMITER\_PARAMETERS structure.
 ms.assetid: 30e6ae97-0aa9-b8d5-ace3-47d98e889875
-title: FXMASTERINGLIMIT Constants
-ms.topic: article
+title: FXMASTERINGLIMIT Constants (XAPOFX.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

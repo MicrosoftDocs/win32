@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveCollection _NewEnum property
+title: IVMFloppyDriveCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the collection.
 ms.assetid: 06de9560-cba9-4c64-907e-83e77781cafc
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

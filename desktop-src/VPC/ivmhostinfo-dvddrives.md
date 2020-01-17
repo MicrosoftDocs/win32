@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo DVDDrives property
+title: IVMHostInfo DVDDrives property (VPCCOMInterfaces.h)
 description: Retrieves the drive letters associated with host CD and DVD devices.
 ms.assetid: 17f01d00-2c02-48f0-bfe9-0326a40fdf55
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

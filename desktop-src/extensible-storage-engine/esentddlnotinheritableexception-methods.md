@@ -1,5 +1,5 @@
 ---
-title: EsentDDLNotInheritableException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDDLNotInheritableException methods
 TOCTitle: EsentDDLNotInheritableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDDLNotInheritableException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentddlnotinheritableexception_methods(v=EXCHG.10)

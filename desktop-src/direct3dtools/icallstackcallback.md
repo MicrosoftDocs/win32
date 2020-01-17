@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: ICallStackCallback interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: AF380634-A284-4DCA-B746-FB1D8BE099B4
 api_name: 

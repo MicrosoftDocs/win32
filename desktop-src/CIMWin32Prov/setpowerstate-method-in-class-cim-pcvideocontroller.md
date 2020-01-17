@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_PCVideoController class sets t
 ms.assetid: db219a22-0f03-432e-b1c9-071771059ed6
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PCVideoController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

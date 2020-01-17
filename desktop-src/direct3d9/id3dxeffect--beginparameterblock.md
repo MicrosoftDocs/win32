@@ -1,8 +1,8 @@
 ---
 Description: Start capturing state changes in a parameter block.
 ms.assetid: cdf6f572-1a21-4c1d-a113-13b48bacd060
-title: ID3DXEffect::BeginParameterBlock method
-ms.topic: article
+title: ID3DXEffect::BeginParameterBlock method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

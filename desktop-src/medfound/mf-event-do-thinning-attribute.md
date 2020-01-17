@@ -1,8 +1,8 @@
 ---
 Description: When a media source requests a new playback rate, this attribute specifies whether the source also requests thinning. For a definition of thinning, see About Rate Control.
 ms.assetid: 42b6d0b3-e5af-4a48-969c-53628d1b7c31
-title: MF_EVENT_DO_THINNING attribute
-ms.topic: article
+title: MF_EVENT_DO_THINNING attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_MediaAccessDevice class requests a res
 ms.assetid: 89796284-3569-4ff0-873d-0c5ed58eaedc
 ms.tgt_platform: multiple
 title: Reset method of the CIM_MediaAccessDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

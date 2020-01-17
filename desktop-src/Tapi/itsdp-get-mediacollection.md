@@ -1,8 +1,8 @@
 ---
 Description: The get\_MediaCollection method gets a pointer to the ITMediaCollection interface for the conference.
 ms.assetid: 8109582a-74f0-47e8-91d1-0d89c3d3c331
-title: ITSdp::get_MediaCollection method
-ms.topic: article
+title: ITSdp::get_MediaCollection method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -26,7 +26,7 @@ Direct2D provides the following functions. Additional functions are defined in t
 | [**D2D1IsMatrixInvertible**](/windows/desktop/api/d2d1/nf-d2d1-d2d1ismatrixinvertible) | Indicates whether the specified matrix is invertible. |
 | [**D2D1MakeRotateMatrix**](/windows/desktop/api/d2d1/nf-d2d1-d2d1makerotatematrix) | Creates a rotation transformation that rotates by the specified angle about the specified point. |
 | [**D2D1MakeSkewMatrix**](/windows/desktop/api/d2d1/nf-d2d1-d2d1makeskewmatrix) | Creates a skew transformation that has the specified x-axis angle, y-axis angle, and center point.  |
-| [**operator\* (const D2D1\MATRIX\3X2\F&,const D2D1\MATRIX\3X2\F&)**](https://msdn.microsoft.com/en-us/library/Dd372318(v=VS.85).aspx) | Multiplies two matrices and returns the result. |
+| [**operator\* (const D2D1\MATRIX\3X2\F&,const D2D1\MATRIX\3X2\F&)**](https://msdn.microsoft.com/library/Dd372318(v=VS.85).aspx) | Multiplies two matrices and returns the result. |
 | [**BlobGetter**](blobgetter.md) | Calls a member-function property getter callback for a blob-type property. |
 | [**BlobSetter**](blobsetter.md) | Calls a member-function property setter callback for a blob-type property. |
 | [**DeducingBlobGetter**](deducingblobgetter.md) | Deduces the class and arguments and then calls a member-function property getter callback for a blob-type property. |
@@ -35,7 +35,7 @@ Direct2D provides the following functions. Additional functions are defined in t
 | [**DeducingStringSetter**](deducingstringsetter.md) | Deduces the class and arguments and then calls a member-function property setter callback for a string-type property. |
 | [**DeducingValueGetter**](deducingvaluegetter.md) | Deduces the class and arguments and then calls a member-function property getter callback for a value-type property. |
 | [**DeducingValueSetter**](deducingvaluesetter.md) | Deduces the class and arguments and then calls a member-function property setter callback for a value-type property. |
-| [**GetType**](https://msdn.microsoft.com/en-us/library/Hh847962(v=VS.85).aspx) | Retrieves the type of the given property. |
+| [**GetType**](https://msdn.microsoft.com/library/Hh847962(v=VS.85).aspx) | Retrieves the type of the given property. |
 | [**StringGetter**](/windows/desktop/api/d2d1effecthelpers/nf-d2d1effecthelpers-stringgetter) | Calls a member-function property getter callback for a string-type property. |
 | [**StringSetter**](/windows/desktop/api/d2d1effecthelpers/nf-d2d1effecthelpers-stringsetter) | Calls a member-function property setter callback for a string-type property. |
 | [**ValueGetter**](/windows/desktop/api/d2d1effecthelpers/nf-d2d1effecthelpers-valuegetter) | Calls a member-function property setter callback for a value-type property. |

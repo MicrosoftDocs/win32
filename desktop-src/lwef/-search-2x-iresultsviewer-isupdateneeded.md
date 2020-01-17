@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer IsUpdateNeeded property
+title: IResultsViewer IsUpdateNeeded property (WdsView.h)
 description: This returns TRUE if the views query has been modified and needs updating.
 ms.assetid: 68ae1f68-0585-4bc5-bea4-eb55f3626093
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - WdsView.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

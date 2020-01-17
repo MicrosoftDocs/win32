@@ -1,5 +1,5 @@
 ---
-title: Macros
+title: Macros (COM)
 ms.assetid: b9f8eb09-a8d9-42b4-8053-fa53701c9c5e
 description: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: breakc (sm4 - asm)
 description: Conditionally moves the point of execution to the instruction after the next endloop or endswitch.
 ms.assetid: 5735EF88-1E8C-4142-8442-9328D78999A7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

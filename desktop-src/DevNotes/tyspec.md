@@ -2,7 +2,7 @@
 Description: Defines ways of mapping to a class ID.
 ms.assetid: 1af170e3-1edd-411f-acba-d4b244107996
 title: TYSPEC enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -132,7 +132,7 @@ typedef union switch(DWORD tyspec) {
 
 <dl> <dt>
 
-[**CoInstall**](https://msdn.microsoft.com/en-us/library/Bb432203(v=VS.85).aspx)
+[**CoInstall**](https://msdn.microsoft.com/library/Bb432203(v=VS.85).aspx)
 </dt> </dl>
 
  

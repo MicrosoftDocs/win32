@@ -1,5 +1,5 @@
 ---
-title: BM_GETIMAGE message
+title: BM_GETIMAGE message (Winuser.h)
 description: Retrieves a handle to the image (icon or bitmap) associated with the button.
 ms.assetid: 766ea1b0-418d-41b8-b31d-0fcc58e03893
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_HMS_SECOND macro
+title: MCI_HMS_SECOND macro (Mciapi.h)
 description: The MCI\_HMS\_SECOND macro retrieves the seconds component from a parameter containing packed hours/minutes/seconds (HMS) information.
 ms.assetid: b6895bec-524f-4345-ae65-e75168855df2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

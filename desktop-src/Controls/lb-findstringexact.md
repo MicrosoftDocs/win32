@@ -1,5 +1,5 @@
 ---
-title: LB_FINDSTRINGEXACT message
+title: LB_FINDSTRINGEXACT message (Winuser.h)
 description: Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive.
 ms.assetid: 9bfe21af-626d-4416-aa20-65c425bd99af
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

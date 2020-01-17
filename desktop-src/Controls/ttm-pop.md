@@ -1,5 +1,5 @@
 ---
-title: TTM_POP message
+title: TTM_POP message (Commctrl.h)
 description: Removes a displayed tooltip window from view.
 ms.assetid: 911f8e55-5b5a-46f8-9895-58b06cbf8828
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Returns a pointer to the comment of a capture.
 ms.assetid: 3ef5c5b3-5586-469f-8975-049713715403
-title: GetCaptureComment function
-ms.topic: article
+title: GetCaptureComment function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

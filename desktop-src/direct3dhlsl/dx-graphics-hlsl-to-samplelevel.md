@@ -2,10 +2,10 @@
 title: SampleLevel (DirectX HLSL Texture Object)
 description: Samples a texture using a mipmap-level offset.
 ms.assetid: d61426c8-e09f-4e88-99f6-fa96c4a2b58d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
@@ -151,7 +151,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the Instancing.fx file in the [Instancing10 Sample](https://msdn.microsoft.com/en-us/library/Ee416415(v=VS.85).aspx).
+This partial code example is from the Instancing.fx file in the [Instancing10 Sample](https://msdn.microsoft.com/library/Ee416415(v=VS.85).aspx).
 
 
 ```

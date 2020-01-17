@@ -1,5 +1,5 @@
 ---
-title: Int16ColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: Int16ColumnValue methods
 TOCTitle: Int16ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.int16columnvalue_methods(v=EXCHG.10)

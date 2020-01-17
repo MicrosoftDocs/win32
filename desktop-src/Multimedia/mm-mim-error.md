@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_ERROR message
+title: MM_MIM_ERROR message (Mmsystem.h)
 description: The MM\_MIM\_ERROR message is sent to a window when an invalid MIDI message is received.
 ms.assetid: 03760bfc-a4ef-48cd-97a9-1b93b56fc641
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

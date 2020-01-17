@@ -1,8 +1,8 @@
 ---
 Description: Formats the property instance data using the generic formatter that Network Monitor provides.
 ms.assetid: 36206601-7519-45c8-a14e-707b318c539d
-title: FormatPropertyInstance function
-ms.topic: article
+title: FormatPropertyInstance function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

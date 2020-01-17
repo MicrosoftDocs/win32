@@ -1,7 +1,7 @@
 ---
-title: T
+title: T (Task Scheduler)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'd4c6d7ba-7bca-420d-a4dc-4daea816f99c'
 ms.topic: article
 ms.date: 05/31/2018

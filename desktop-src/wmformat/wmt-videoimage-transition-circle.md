@@ -1,5 +1,5 @@
 ---
-title: WMT_VIDEOIMAGE_TRANSITION_CIRCLE
+title: WMT_VIDEOIMAGE_TRANSITION_CIRCLE (Wmsdkidl.h)
 description: The circle transition reveals the new image in a circle.
 ms.assetid: ba3bcf46-1254-4aad-a958-0f9ddb2f40dc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

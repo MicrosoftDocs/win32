@@ -2,7 +2,7 @@
 Description: The GetError method of the View object returns the Validation error and the column name for which the error occurred.
 ms.assetid: ca90dfa5-8e15-490c-835b-c5c225c3cc7b
 title: View.GetError method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

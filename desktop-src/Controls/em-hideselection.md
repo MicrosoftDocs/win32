@@ -1,5 +1,5 @@
 ---
-title: EM_HIDESELECTION message
+title: EM_HIDESELECTION message (Richedit.h)
 description: The EM\_HIDESELECTION message hides or shows the selection in a rich edit control.
 ms.assetid: 1245618f-c9e6-4876-9133-6009370cdb97
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MMIOM_OPEN message
+title: MMIOM_OPEN message (Mmsystem.h)
 description: The MMIOM\_OPEN message is sent to an I/O procedure by the mmioOpen function to request that a file be opened or deleted.
 ms.assetid: 02b2cf22-21a3-4f49-b90e-7b44478c0168
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MMIOM\_OPEN message
 
-The **MMIOM\_OPEN** message is sent to an I/O procedure by the [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx) function to request that a file be opened or deleted.
+The **MMIOM\_OPEN** message is sent to an I/O procedure by the [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx) function to request that a file be opened or deleted.
 
 
 ```C++
@@ -64,11 +64,11 @@ Returns MMSYSERR\_NOERROR if successful or an error otherwise. Possible error va
 
 ## Remarks
 
-The **dwFlags** member of the [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure contains flags passed to the [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx) function.
+The **dwFlags** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure contains flags passed to the [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx) function.
 
-The **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure is initialized to zero. If this value is incorrect, the I/O procedure must correct it.
+The **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure is initialized to zero. If this value is incorrect, the I/O procedure must correct it.
 
-If the application passed an [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure to [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx), the return value is returned in the **wErrorRet** member.
+If the application passed an [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure to [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx), the return value is returned in the **wErrorRet** member.
 
 ## Requirements
 

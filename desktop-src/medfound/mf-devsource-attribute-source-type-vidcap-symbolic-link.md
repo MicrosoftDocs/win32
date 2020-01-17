@@ -1,8 +1,8 @@
 ---
 Description: Contains the symbolic link for a video capture driver.
 ms.assetid: 3d256dec-ec8c-4c62-883b-e2c292fd90eb
-title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK attribute
-ms.topic: article
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ In addition, this attribute is set on the activation objects returned by the fol
 
 The symbolic link should be considered an opaque string. The human-readable display name for a device is contained in the [MF\_DEVSOURCE\_ATTRIBUTE\_FRIENDLY\_NAME](mf-devsource-attribute-friendly-name.md) attribute.
 
-The MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK attribute can be passed in as the value of the DevicePath argument of the [**SetupDiOpenDeviceInterface**](https://msdn.microsoft.com/en-us/library/Ff552074(v=VS.85).aspx) function.
+The MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK attribute can be passed in as the value of the DevicePath argument of the [**SetupDiOpenDeviceInterface**](https://msdn.microsoft.com/library/Ff552074(v=VS.85).aspx) function.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

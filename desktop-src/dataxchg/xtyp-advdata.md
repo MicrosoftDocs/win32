@@ -1,5 +1,5 @@
 ---
-title: XTYP_ADVDATA transaction
+title: XTYP_ADVDATA transaction (Ddeml.h)
 description: Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, DdeCallback, receives this transaction after establishing an advise loop with a server.
 ms.assetid: c6e61785-b98c-4ffa-9d23-339e1c66cb4d
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_ADVDATA transaction
 
-Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction after establishing an advise loop with a server.
+Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction after establishing an advise loop with a server.
 
 
 ```C++

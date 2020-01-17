@@ -2,8 +2,8 @@
 Description: The SWbemNamedValue object represents a single named value that belongs to the SWbemNamedValueSet collection object. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 3f72afcd-6e10-4200-804d-918e3eb2862f
 ms.tgt_platform: multiple
-title: SWbemNamedValue object
-ms.topic: interface
+title: SWbemNamedValue object (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

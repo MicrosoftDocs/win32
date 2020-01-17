@@ -1,8 +1,8 @@
 ---
 Description: Converts an array of 32-bit floats to 16-bit floats.
 ms.assetid: 00f7ae77-d2b5-4244-8fe9-6fea475700b7
-title: D3DXFloat32To16Array function
-ms.topic: article
+title: D3DXFloat32To16Array function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Pointer to the array of 16-bit floats.
 *pIn* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of 32-bit floats.
 
@@ -58,7 +58,7 @@ Pointer to an array of 32-bit floats.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of elements in the array.
 

@@ -1,11 +1,11 @@
 ---
-title: Api.JetGetAttachInfoInstance method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetAttachInfoInstance method 
 TOCTitle: 'JetGetAttachInfoInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetAttachInfoInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String@,System.Int32,System.Int32@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetattachinfoinstance(v=EXCHG.10)
 ms:contentKeyID: 55100704
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetGetAttachInfoInstance
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidBookmarkException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBookmarkException methods
 TOCTitle: EsentInvalidBookmarkException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbookmarkexception_methods(v=EXCHG.10)

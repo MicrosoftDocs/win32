@@ -1,8 +1,8 @@
 ---
 Description: Contains the object's Application object.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
-title: Shell.Application property
-ms.topic: article
+title: Shell.Application property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ Property Application As Object
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the Application object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the Application object.
 
 ## Remarks
 

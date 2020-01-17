@@ -3,7 +3,7 @@ title: Remote Desktop ActiveX control reference
 description: The following programming elements are used with the Remote Desktop ActiveX control.
 ms.assetid: EAF75483-90A4-4BB1-82A5-EFBB2219A55B
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

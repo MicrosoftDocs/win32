@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,8 +24,8 @@ Gets the sub-properties of the provided property by index.
 
 | Method                                                                                    | Description                                                                                        |
 |:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**GetSubProperties(U, ID2D1Properties\*\*)**](https://msdn.microsoft.com/en-us/library/JJ151736(v=VS.85).aspx)     | Gets the sub-properties of the provided property by index. This is a template overload.<br/> |
-| [**GetSubProperties(UINT32, ID2D1Properties\*\*)**](https://msdn.microsoft.com/en-us/library/Hh446870(v=VS.85).aspx) | Gets the sub-properties of the provided property by index.<br/>                              |
+| [**GetSubProperties(U, ID2D1Properties\*\*)**](https://msdn.microsoft.com/library/JJ151736(v=VS.85).aspx)     | Gets the sub-properties of the provided property by index. This is a template overload.<br/> |
+| [**GetSubProperties(UINT32, ID2D1Properties\*\*)**](https://msdn.microsoft.com/library/Hh446870(v=VS.85).aspx) | Gets the sub-properties of the provided property by index.<br/>                              |
 
 
 
@@ -33,7 +33,7 @@ Gets the sub-properties of the provided property by index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

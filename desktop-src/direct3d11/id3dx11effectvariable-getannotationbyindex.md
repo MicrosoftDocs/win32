@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetAnnotationByIndex method
+title: ID3DX11EffectVariable GetAnnotationByIndex method (D3dx11effect.h)
 description: Get an annotation by index.
 ms.assetid: fc130098-0269-4c78-bc45-284aa0b77865
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

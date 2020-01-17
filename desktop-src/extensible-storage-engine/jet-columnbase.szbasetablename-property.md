@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNBASE.szBaseTableName property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNBASE.szBaseTableName property 
 TOCTitle: 'szBaseTableName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseTableName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase.szbasetablename(v=EXCHG.10)
 ms:contentKeyID: 55103375
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseTableName
 dev_langs:

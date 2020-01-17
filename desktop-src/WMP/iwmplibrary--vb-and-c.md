@@ -1,5 +1,5 @@
 ---
-title: IWMPLibrary (VB and C ) interface
+title: IWMPLibrary (VB and C ) interface (Wmp.h)
 description: Represents a library.The IWMPLibrary interface exposes the following properties.
 ms.assetid: 956b2da1-5f01-48d6-8faa-e360c225afda
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

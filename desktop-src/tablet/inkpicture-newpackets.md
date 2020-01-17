@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the ink collector receives a packet.
 ms.assetid: 7d120198-c016-4452-b8a8-22c4ad87d526
-title: InkPicture.NewPackets event
-ms.topic: article
+title: InkPicture.NewPackets event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

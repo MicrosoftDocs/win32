@@ -56,7 +56,7 @@ What is a fully qualified query expression? In WIC, a fully qualified expression
 
 -   /app1/ifd/{ushort=18249}
 
-WhenWIC parses this expression, it first searches for the App1 metadata block within the image's metadata. If the App1 block is found, it continues its search looking for the nested IFD metadata block. If the IFD block is found, it then looks for the specific metadata item, in this case the MicrosoftPhoto rating under the tag 18249, within the IFD metadata block. If at any time WIC does not find a metadata block or item, it aborts the query.
+When WIC parses this expression, it first searches for the App1 metadata block within the image's metadata. If the App1 block is found, it continues its search looking for the nested IFD metadata block. If the IFD block is found, it then looks for the specific metadata item, in this case the MicrosoftPhoto rating under the tag 18249, within the IFD metadata block. If at any time WIC does not find a metadata block or item, it aborts the query.
 
 ### Block Selection
 
@@ -174,7 +174,7 @@ The following table provides some invalid examples and the reasons they would be
 
 ## Photo Metadata Policy Expressions
 
-As noted previously, a fully qualified query expression starts with a slash (/). Expressions that do not begin with the slash are evaluated as policy expressions. A policy expression enables you to query the photo metadata for image-related Windows [Shell Properties](https://msdn.microsoft.com/en-us/library/ms788673(VS.85).aspx). In the Data Selection section earlier in this document, the expression "/xmp/xmp:Rating" was used to access the XMP rating property. This property can also be queried using the following policy expression:
+As noted previously, a fully qualified query expression starts with a slash (/). Expressions that do not begin with the slash are evaluated as policy expressions. A policy expression enables you to query the photo metadata for image-related Windows [Shell Properties](https://msdn.microsoft.com/library/ms788673(VS.85).aspx). In the Data Selection section earlier in this document, the expression "/xmp/xmp:Rating" was used to access the XMP rating property. This property can also be queried using the following policy expression:
 
 -   System.SimpleRating
 

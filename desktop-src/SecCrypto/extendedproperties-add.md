@@ -2,7 +2,7 @@
 Description: Adds an extended property to the collection.
 ms.assetid: 1d6b3c39-17b0-4a7c-a5c2-4a3bd866be07
 title: ExtendedProperties.Add method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

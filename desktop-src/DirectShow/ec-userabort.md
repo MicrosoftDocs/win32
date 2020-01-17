@@ -1,8 +1,8 @@
 ---
 Description: The user has terminated playback.
 ms.assetid: 974a9c3e-cfc9-4608-9f98-732aeaa0a752
-title: EC_USERABORT
-ms.topic: article
+title: EC_USERABORT (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

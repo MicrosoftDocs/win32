@@ -1,5 +1,5 @@
 ---
-title: EsentIndexHasPrimaryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentIndexHasPrimaryException methods
 TOCTitle: EsentIndexHasPrimaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexhasprimaryexception_methods(v=EXCHG.10)

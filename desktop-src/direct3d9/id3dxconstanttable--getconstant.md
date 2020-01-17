@@ -1,8 +1,8 @@
 ---
 Description: Gets a constant by looking up its index.
 ms.assetid: 7db25171-9bda-4db8-b6a8-8a4d60a842f7
-title: ID3DXConstantTable::GetConstant method
-ms.topic: article
+title: ID3DXConstantTable::GetConstant method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Unique identifier to the parent data structure. If the constant is a top-level p
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Zero-based index of the constant.
 

@@ -1,8 +1,8 @@
 ---
 Description: Implements the IStrokeBuilder Interface.
 ms.assetid: 0d699089-b913-4020-9284-a955f61fd861
-title: StrokeBuilder class
-ms.topic: interface
+title: StrokeBuilder class (RTSCom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,7 +23,7 @@ Implements the [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rts
 
 This class implements the [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder).
 
-This class can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) method in C++.
+This class can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method in C++.
 
 ## Requirements
 
@@ -42,7 +42,7 @@ This class can be instantiated by calling the [**CoCreateInstance**](https://msd
 
 <dl> <dt>
 
-[**DynamicRenderer Class**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx)
+[**DynamicRenderer Class**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx)
 </dt> <dt>
 
 [**RealTimeStylus Class**](realtimestylus-class.md)

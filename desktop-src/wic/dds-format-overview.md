@@ -42,7 +42,7 @@ The following table lists the GUIDs used to identify the native DDS codec compon
 
 ## Pixel Format Support
 
-Note that the DDS format supports any valid [**DXGI\_FORMAT**](https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx) value. However, the WIC DDS codec only supports decoding and encoding files containing the following formats:
+Note that the DDS format supports any valid [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) value. However, the WIC DDS codec only supports decoding and encoding files containing the following formats:
 
 -   DXGI\_FORMAT\_BC1\_UNORM
 -   DXGI\_FORMAT\_BC2\_UNORM

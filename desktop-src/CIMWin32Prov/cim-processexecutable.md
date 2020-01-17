@@ -3,7 +3,7 @@ Description: The CIM\_ProcessExecutable class represents a link between a proces
 ms.assetid: 6db69bf3-b28e-4d0b-8878-558e12052767
 ms.tgt_platform: multiple
 title: CIM_ProcessExecutable class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: LVM_SETCOLUMNWIDTH message
+title: LVM_SETCOLUMNWIDTH message (Commctrl.h)
 description: Changes the width of a column in report-view mode or the width of all columns in list-view mode. You can send this message explicitly or use the ListView\_SetColumnWidth macro.
 ms.assetid: 309aebfb-9fed-4c77-acbb-ea905b32b0e2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

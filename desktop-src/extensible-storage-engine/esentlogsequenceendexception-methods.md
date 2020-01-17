@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndException methods
 TOCTitle: EsentLogSequenceEndException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceendexception_methods(v=EXCHG.10)

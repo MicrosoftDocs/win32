@@ -1,8 +1,8 @@
 ---
 Description: Specifies the width of the minimum display aperture, in pixels.
 ms.assetid: 52392fcb-2bd2-486e-9256-83e17bc7f951
-title: MFPKEY_RESIZE_MINAPWIDTH Property
-ms.topic: article
+title: MFPKEY_RESIZE_MINAPWIDTH Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the width of the minimum display aperture, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

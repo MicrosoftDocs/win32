@@ -1,5 +1,5 @@
 ---
-title: TDN_CREATED notification code
+title: TDN_CREATED notification code (Commctrl.h)
 description: Sent by the task dialog after the dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: cfe13db3-9c3c-425c-a6ef-17c5cb33eeb6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: XTYP_ERROR transaction
+title: XTYP_ERROR transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_ERROR transaction when a critical error occurs.
 ms.assetid: 710daa04-ed83-42e3-a55e-6ccf891a3d52
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_ERROR transaction
 
-A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_ERROR** transaction when a critical error occurs.
+A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_ERROR** transaction when a critical error occurs.
 
 
 ```C++

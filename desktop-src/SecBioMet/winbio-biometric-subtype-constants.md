@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIOMETRIC_SUBTYPE Constants
+title: WINBIO_BIOMETRIC_SUBTYPE Constants (Winbio\_types.h)
 description: Provide information about a biometric measurement.
 ms.assetid: 019569A9-6184-4E75-9B82-C98F4F45F61A
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

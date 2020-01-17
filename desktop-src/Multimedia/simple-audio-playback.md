@@ -25,8 +25,8 @@ You can use the following functions to play waveform audio in your application i
 | Function                                                      | Description                                                                                                         |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [MessageBeep](https://go.microsoft.com/fwlink/p/?linkid=17107) | Plays the sound that corresponds to a specified system-alert level.                                                 |
-| [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx)                          | Plays the sound that corresponds to the system sound entered in the registry or the contents of the specified file. |
-| [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx)                                | Provides all the functionality of [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx) and can directly access resources.           |
+| [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx)                          | Plays the sound that corresponds to the system sound entered in the registry or the contents of the specified file. |
+| [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx)                                | Provides all the functionality of [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx) and can directly access resources.           |
 
 
 
@@ -41,7 +41,7 @@ The functions listed support the following sources of waveform audio:
 -   In-memory WAVE resources
 -   Waveform-audio files specified by name
 
-The [**sndPlaySound**](https://msdn.microsoft.com/en-us/library/Dd798676(v=VS.85).aspx) and [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) functions load an entire waveform-audio file into memory and, in effect, limit the size of the file they can play. Use **sndPlaySound** and **PlaySound** to play waveform-audio files that are small — up to about 100K. These two functions also require the sound data to be in a format that is playable by one of the installed waveform-audio drivers, including the wave mapper.
+The [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx) and [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx) functions load an entire waveform-audio file into memory and, in effect, limit the size of the file they can play. Use **sndPlaySound** and **PlaySound** to play waveform-audio files that are small — up to about 100K. These two functions also require the sound data to be in a format that is playable by one of the installed waveform-audio drivers, including the wave mapper.
 
 For larger sound files, use the Media Control Interface (MCI) services. For more information, see [MCI](mci.md).
 

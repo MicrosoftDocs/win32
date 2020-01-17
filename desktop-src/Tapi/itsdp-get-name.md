@@ -1,8 +1,8 @@
 ---
 Description: The get\_Name method gets the session name.
 ms.assetid: 97b44a01-585b-434c-ad59-51c35e8a1ceb
-title: ITSdp::get_Name method
-ms.topic: article
+title: ITSdp::get_Name method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppName* parameter.
+The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppName* parameter.
 
 ## Requirements
 

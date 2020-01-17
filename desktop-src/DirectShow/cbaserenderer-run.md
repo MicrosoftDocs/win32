@@ -1,8 +1,8 @@
 ---
 Description: The Run method runs the filter.
 ms.assetid: 83251137-83f8-45a3-b3f2-d7b45f43f7f8
-title: CBaseRenderer.Run method
-ms.topic: article
+title: CBaseRenderer.Run method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

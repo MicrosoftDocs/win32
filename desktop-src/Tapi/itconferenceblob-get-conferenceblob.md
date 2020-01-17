@@ -1,8 +1,8 @@
 ---
 Description: The get\_ConferenceBlob method gets a pointer to the textual conference blob currently stored in the conference blob object.
 ms.assetid: eb378f84-11bc-4f6e-9133-bc303e07eb53
-title: ITConferenceBlob::get_ConferenceBlob method
-ms.topic: article
+title: ITConferenceBlob::get_ConferenceBlob method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppBlob* parameter.
+The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppBlob* parameter.
 
 ## Requirements
 

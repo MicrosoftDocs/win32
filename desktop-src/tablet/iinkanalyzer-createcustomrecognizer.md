@@ -1,8 +1,8 @@
 ---
 Description: Creates a new custom recognizer node for the IInkAnalyzer.
 ms.assetid: bc1dbe88-8f81-48b6-9dd3-8f00e2b6c01c
-title: IInkAnalyzer::CreateCustomRecognizer method
-ms.topic: article
+title: IInkAnalyzer::CreateCustomRecognizer method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: CB_GETITEMHEIGHT message
+title: CB_GETITEMHEIGHT message (Winuser.h)
 description: Determines the height of list items or the selection field in a combo box.
 ms.assetid: 72fba6ca-0a51-4801-bd45-5f5a7d5ebee2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

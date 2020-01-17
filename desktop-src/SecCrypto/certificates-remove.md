@@ -2,7 +2,7 @@
 Description: Removes a single Certificate object from the collection.
 ms.assetid: dff82825-1a7d-4c1a-94e2-7f9d1281ecf2
 title: ICertificates2::Remove method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -47,7 +47,7 @@ Index value for the [**Certificate**](certificate.md) object to be removed. This
 | Type                                                                                                                                                                                                                                                              | Meaning                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Long"></span><span id="long"></span><span id="LONG"></span><dl> <dt>****Long****</dt> <dt></dt> </dl>                                                | The [**Certificate**](certificate.md) object at the specified index into the collection is removed.<br/>                                                                                                          |
-| <span id="String"></span><span id="string"></span><span id="STRING"></span><dl> <dt>****String****</dt> <dt></dt> </dl>                                        | The first [**Certificate**](certificate.md) object in the collection that matches the [*SHA-1*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) thumbprint contained in the specified string is removed.<br/> |
+| <span id="String"></span><span id="string"></span><span id="STRING"></span><dl> <dt>****String****</dt> <dt></dt> </dl>                                        | The first [**Certificate**](certificate.md) object in the collection that matches the [*SHA-1*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) thumbprint contained in the specified string is removed.<br/> |
 | <span id="Certificate"></span><span id="certificate"></span><span id="CERTIFICATE"></span><dl> <dt>**[**Certificate**](certificate.md)**</dt> <dt></dt> </dl> | The first [**Certificate**](certificate.md) object in the collection that matches the specified **Certificate** object is removed.<br/>                                                                           |
 
 

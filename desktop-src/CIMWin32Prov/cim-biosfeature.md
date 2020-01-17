@@ -3,7 +3,7 @@ Description: Represents the capabilities of the low-level software that is used 
 ms.assetid: 54d03539-d908-4571-b8fd-934b972e8d84
 ms.tgt_platform: multiple
 title: CIM_BIOSFeature class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMMouse GetButton method
+title: IVMMouse GetButton method (VPCCOMInterfaces.h)
 description: Retrieves the current state of the specified mouse button.
 ms.assetid: eb534f88-387d-42fb-bfc3-bca17685021e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

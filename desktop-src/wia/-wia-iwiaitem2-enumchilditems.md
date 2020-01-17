@@ -1,8 +1,8 @@
 ---
 Description: Creates an enumerator object and passes back a pointer to its IEnumWiaItem2 interface for folders with items in the IWiaItem2 tree of a Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: 0862bb6f-0464-491a-8cad-60b92d9609f1
-title: IWiaItem2::EnumChildItems method
-ms.topic: article
+title: IWiaItem2::EnumChildItems method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -65,7 +65,7 @@ The WIA 2.0 run-time system represents each WIA 2.0 hardware device as a hierarc
 
 If the folder is not empty, it contains a subtree of [**IWiaItem2**](-wia-iwiaitem2.md) objects. The **IWiaItem2::EnumChildItems** method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the *ppIEnumWiaItem2* parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnumWiaItem2* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnumWiaItem2* parameter.
 
 ## Requirements
 

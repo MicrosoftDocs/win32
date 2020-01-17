@@ -1,5 +1,5 @@
 ---
-title: NM_DBLCLK (status bar) notification code
+title: NM_DBLCLK (status bar) notification code (Commctrl.h)
 description: Notifies the parent window of a status bar control that the user has double-clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4c02c76d-2bdb-48ef-aa8e-635d0e200eb1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

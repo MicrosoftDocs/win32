@@ -1,8 +1,8 @@
 ---
 Description: Retrieves an object handle for the specified object associated with the specified process.
 ms.assetid: c7b371c3-02c0-4137-ad9d-dd07a74fe2a5
-title: ObFindHandleForObject function
-ms.topic: article
+title: ObFindHandleForObject function (Ntosp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

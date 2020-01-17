@@ -2,7 +2,7 @@
 Description: Associates a virtual system a snapshot of the virtual system.
 ms.assetid: f85f6914-dbb8-42c9-a732-11d48613c15c
 title: CIM_SnapshotOfVirtualSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

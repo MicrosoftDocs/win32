@@ -1,8 +1,8 @@
 ---
 Description: The INonDelegatingUnknown interface is a version of IUnknown that is renamed to enable support for both nondelegating and delegating IUnknown interfaces in the same COM object.
 ms.assetid: a2faf9d1-2130-4c6c-8fcd-3e118d592b7f
-title: INonDelegatingUnknown
-ms.topic: article
+title: INonDelegatingUnknown (Combase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

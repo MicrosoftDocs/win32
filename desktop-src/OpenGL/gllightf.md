@@ -1,5 +1,5 @@
 ---
-title: glLightf function
+title: glLightf function (Gl.h)
 description: The glLightf function returns light source parameter values.
 ms.assetid: d9f93fd9-6674-486f-a3fc-c10255dd37e7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

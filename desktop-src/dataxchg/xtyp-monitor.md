@@ -1,5 +1,5 @@
 ---
-title: XTYP_MONITOR transaction
+title: XTYP_MONITOR transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) debugger's DDE callback function, DdeCallback, receives the XTYP\_MONITOR transaction whenever a DDE event occurs in the system.
 ms.assetid: a27791b1-c1b4-4516-b050-71da164fa80a
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_MONITOR transaction
 
-A Dynamic Data Exchange (DDE) debugger's DDE callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_MONITOR** transaction whenever a DDE event occurs in the system. To receive this transaction, an application must specify the **APPCLASS\_MONITOR** value when it calls the [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) function.
+A Dynamic Data Exchange (DDE) debugger's DDE callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_MONITOR** transaction whenever a DDE event occurs in the system. To receive this transaction, an application must specify the **APPCLASS\_MONITOR** value when it calls the [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) function.
 
 
 ```C++

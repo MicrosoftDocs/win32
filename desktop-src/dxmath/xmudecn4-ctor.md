@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMUDECN4.
 ms.assetid: ed72a9be-23ef-4ebf-8690-48948d3f9c7f
 title: XMUDECN4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUDECN4`.
 
-Constructs instances of the [**XMUDECN4**](https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUDECN4**](https://msdn.microsoft.com/library/Ee420527(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -91,7 +91,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUDECN4**](https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx)
+[**XMUDECN4**](https://msdn.microsoft.com/library/Ee420527(v=VS.85).aspx)
 </dt> </dl>
 
  

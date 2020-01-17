@@ -1,5 +1,5 @@
 ---
-title: TBN_BEGINDRAG notification code
+title: TBN_BEGINDRAG notification code (Commctrl.h)
 description: Notifies a toolbar's parent window that the user has begun dragging a button in a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 244406e5-e13d-4c80-81fa-81b018b29ec1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

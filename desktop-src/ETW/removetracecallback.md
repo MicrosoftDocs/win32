@@ -1,8 +1,8 @@
 ---
 Description: The RemoveTraceCallback function stops an EventClassCallback function from receiving events for an event trace class.
 ms.assetid: da779e8d-4984-44e3-8731-647a422b55b2
-title: RemoveTraceCallback function
-ms.topic: article
+title: RemoveTraceCallback function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ Pointer to the class GUID of the event trace class for which the callback receiv
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

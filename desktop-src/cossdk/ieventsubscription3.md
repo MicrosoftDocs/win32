@@ -2,7 +2,7 @@
 Description: Stores and retrieves information about event subscriptions. This interface extends the IEventSubscription2 interface.
 ms.assetid: fd1c136e-6e4e-42ca-a951-4aa5fcdfaa49
 title: IEventSubscription3 interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

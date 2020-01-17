@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsShaderResource method
+title: ID3DX11EffectVariable AsShaderResource method (D3dx11effect.h)
 description: Get a shader-resource variable.
 ms.assetid: 02db94eb-980a-4677-af89-3006aef6faca
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: This operator divides a reference time by a value.
 ms.assetid: fb2e2a4b-dc0b-42e3-86c7-8aa2c60daedc
-title: COARefTime.operator/ method
-ms.topic: article
+title: COARefTime.operator/ method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

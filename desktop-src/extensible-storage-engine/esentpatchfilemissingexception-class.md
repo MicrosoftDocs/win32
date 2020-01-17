@@ -1,11 +1,11 @@
 ---
-title: EsentPatchFileMissingException class (Microsoft.Isam.Esent.Interop)
+title: EsentPatchFileMissingException class
 TOCTitle: EsentPatchFileMissingException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpatchfilemissingexception(v=EXCHG.10)
 ms:contentKeyID: 55102469
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException
 dev_langs:

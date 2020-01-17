@@ -1,5 +1,5 @@
 ---
-title: sample.Operator    function
+title: Texture2DMS::sample.Operator    function
 description: Retrieves a value from the resource at the location and sample index provided.
 ms.assetid: 5bc24129-b690-44dd-ae85-8533b10befaa
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - sample.Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -1,8 +1,8 @@
 ---
 Description: The flags listed in the following table specify the type of I/O bus used by the graphics adapter.
 ms.assetid: 6c8ec020-5f12-453b-bbeb-3baabb1ca213
-title: OPM Bus Type Flags
-ms.topic: article
+title: OPM Bus Type Flags (Opmapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ Up to three flags can be set, using a bitwise **OR**. Flags in the range 0x00 th
 
 In COPP emulation mode, the driver does not use the modifier flags, but it might set the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEGRATED** flag.
 
-The OPM\_BUG\_TYPE\_Xxxx flags and the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEGRATED** flag are equivalent to values from the [**COPP\_BusType**](https://msdn.microsoft.com/en-us/library/Dd387934(v=VS.85).aspx) enumeration used in Certified Output Protection Protocol (COPP).
+The OPM\_BUG\_TYPE\_Xxxx flags and the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEGRATED** flag are equivalent to values from the [**COPP\_BusType**](https://msdn.microsoft.com/library/Dd387934(v=VS.85).aspx) enumeration used in Certified Output Protection Protocol (COPP).
 
 ## Requirements
 

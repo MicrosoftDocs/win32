@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidBackupSequenceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidBackupSequenceException constructor 
 TOCTitle: 'EsentInvalidBackupSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbackupsequenceexception.esentinvalidbackupsequenceexception(v=EXCHG.10)
 ms:contentKeyID: 55101854
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException.EsentInvalidBackupSequenceException
 dev_langs:

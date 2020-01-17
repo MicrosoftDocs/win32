@@ -1,8 +1,8 @@
 ---
 Description: The NOTE macro sends a string to the debug output location. Ignored in retail builds.
 ms.assetid: 8b85861a-b4d6-4cc6-9ac9-77d06f173869
-title: NOTE
-ms.topic: article
+title: NOTE (Wxdebug.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

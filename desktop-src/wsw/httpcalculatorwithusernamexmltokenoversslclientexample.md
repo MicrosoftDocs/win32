@@ -1,5 +1,5 @@
 ---
-title: HttpCalculatorWithUsernameXmlTokenOverSslClientExample
+title: HttpCalculatorWithUsernameXmlTokenOverSslClient example
 description: This example shows a HTTP client that uses service proxy to talk to a calculator service, with XML security token over SSL mixed-mode security.
 ms.assetid: 9b687099-c59f-4aea-862f-c29d1978d955
 keywords:
@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# HttpCalculatorWithUsernameXmlTokenOverSslClientExample
+# HttpCalculatorWithUsernameXmlTokenOverSslClient example
 
 This example shows a HTTP client that uses service proxy to talk to a calculator service, with XML security token over SSL mixed-mode security. In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication. Client authentication is provided by a WS-Security username/password pair that is used as an XML security token by the example.
 

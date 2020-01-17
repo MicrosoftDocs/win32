@@ -1,5 +1,5 @@
 ---
-title: EsentLogSectorSizeMismatchDatabasesConsistentException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogSectorSizeMismatchDatabasesConsistentException properties
 TOCTitle: EsentLogSectorSizeMismatchDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsectorsizemismatchdatabasesconsistentexception_properties(v=EXCHG.10)

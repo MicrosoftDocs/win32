@@ -1,8 +1,8 @@
 ---
 Description: Indicates that the user pressed the F1 key.
 ms.assetid: 6a090125-67dd-4267-9973-10e32c6e4f1f
-title: WM_HELP message
-ms.topic: article
+title: WM_HELP message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ Returns **TRUE**.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function passes **WM\_HELP** to the parent window of a child window or to the owner of a top-level window.
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function passes **WM\_HELP** to the parent window of a child window or to the owner of a top-level window.
 
 ## Requirements
 

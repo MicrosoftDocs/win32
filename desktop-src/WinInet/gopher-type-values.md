@@ -1,5 +1,5 @@
 ---
-title: Gopher Type Values
+title: Gopher Type Values (Wininet.h)
 description: The following list contains the possible Gopher type values.
 ms.assetid: e77a0328-d811-4c01-831a-0ead888a4988
 topic_type:
@@ -33,7 +33,7 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

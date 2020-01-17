@@ -1,5 +1,5 @@
 ---
-title: EsentCallbackFailedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCallbackFailedException properties
 TOCTitle: EsentCallbackFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbackfailedexception_properties(v=EXCHG.10)

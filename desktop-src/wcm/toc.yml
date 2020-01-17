@@ -8,13 +8,13 @@
       href: wcm-enumerated-types.md
       items: 
       - name: "WCM_CONNECTION_COST"
-        href: /windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_connection_cost
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_connection_cost
       - name: "WCM_CONNECTION_COST_SOURCE"
-        href: /windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_connection_cost_source
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_connection_cost_source
       - name: "WCM_MEDIA_TYPE"
-        href: /windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_media_type
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_media_type
       - name: "WCM_PROPERTY"
-        href: /windows/desktop/api/Wcmapi/ne-wcmapi-_wcm_property
+        href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_property
     - name: "Windows Connection Manager Functions"
       href: wcm-functions.md
       items: 
@@ -34,16 +34,16 @@
       - name: "WCM_BILLING_CYCLE_INFO"
         href: /windows/desktop/api/Wcmapi/ns-wcmapi-wcm_billing_cycle_info
       - name: "WCM_CONNECTION_COST_DATA"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_connection_cost_data
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_connection_cost_data
       - name: "WCM_DATAPLAN_STATUS"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_dataplan_status
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_dataplan_status
       - name: "WCM_POLICY_VALUE"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_policy_value
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_policy_value
       - name: "WCM_PROFILE_INFO"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_profile_info
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_profile_info
       - name: "WCM_PROFILE_INFO_LIST"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_profile_info_list
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_profile_info_list
       - name: "WCM_TIME_INTERVAL"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_time_interval
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_time_interval
       - name: "WCM_USAGE_DATA"
-        href: /windows/desktop/api/Wcmapi/ns-wcmapi-_wcm_usage_data
+        href: /windows/win32/api/Wcmapi/ns-wcmapi-wcm_usage_data

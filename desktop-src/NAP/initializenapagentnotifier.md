@@ -1,5 +1,5 @@
 ---
-title: InitializeNapAgentNotifier function
+title: InitializeNapAgentNotifier function (NapUtil.h)
 description: Subscribes the calling process to NapAgent state change notifications and quarantine state change notifications.
 ms.assetid: 24180194-50d7-4f54-845d-25402af9cf9a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

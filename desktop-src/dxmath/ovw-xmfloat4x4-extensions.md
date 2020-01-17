@@ -2,13 +2,13 @@
 Description: XMFLOAT4X4 describes a 4\*4 floating point matrix.
 ms.assetid: ae6a5159-4a77-488c-a836-da3a16e7fcaf
 title: XMFLOAT4X4 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XMFLOAT4X4 Extensions
 
-[**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx) describes a 4\*4 floating point matrix.
+[**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx) describes a 4\*4 floating point matrix.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,7 +35,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx)
+[**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx)
 </dt> </dl>
 
  

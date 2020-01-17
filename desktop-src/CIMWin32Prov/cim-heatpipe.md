@@ -3,7 +3,7 @@ Description: The CIM\_HeatPipe class represents the capabilities and management 
 ms.assetid: 55cbf645-12d8-4f17-a894-43195d42de0e
 ms.tgt_platform: multiple
 title: CIM_HeatPipe class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

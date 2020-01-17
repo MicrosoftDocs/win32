@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the node address (Nad) used by the smart card in the reply message.
 ms.assetid: bf4f281c-d378-4abd-8f2e-e23c2f4e87a4
-title: ISCardCmd::get_ReplyNad method
-ms.topic: article
+title: ISCardCmd::get_ReplyNad method (Scarddat.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::get\_ReplyNad method
 
-\[The **get\_ReplyNad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_ReplyNad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_ReplyNad** method retrieves the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) in the reply message.
+The **get\_ReplyNad** method retrieves the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) in the reply message.
 
 ## Syntax
 
@@ -65,7 +65,7 @@ In addition to the COM error codes listed above, this method may return a smart 
 
 ## Examples
 
-The following example shows how to retrieve the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) in the reply message. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) in the reply message. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

@@ -1,5 +1,5 @@
 ---
-title: WM_LBUTTONDBLCLK message
+title: WM_LBUTTONDBLCLK message (Winuser.h)
 description: Posted when the user double-clicks the left mouse button while the cursor is in the client area of a window.
 ms.assetid: 370aa19e-4939-4ac3-9c0b-137a9792e52a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -115,16 +115,16 @@ Only windows that have the **CS\_DBLCLKS** style can receive **WM\_LBUTTONDBLCLK
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetDoubleClickTime**](https://msdn.microsoft.com/en-us/library/ms646258(v=VS.85).aspx)
+[**GetDoubleClickTime**](https://msdn.microsoft.com/library/ms646258(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetDoubleClickTime**](https://msdn.microsoft.com/en-us/library/ms646263(v=VS.85).aspx)
+[**SetDoubleClickTime**](https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_LBUTTONDOWN**](wm-lbuttondown.md)

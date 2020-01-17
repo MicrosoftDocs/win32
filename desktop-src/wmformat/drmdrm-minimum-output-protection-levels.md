@@ -1,5 +1,5 @@
 ---
-title: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure
+title: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure (Wmdrmsdk.h)
 description: The DRM\_MINIMUM\_OUTPUT\_PROTECTION\_LEVELS structure holds the minimum output protection levels (OPLs) for playback of various types of content. A device must support the minimum OPL for a type of data to receive that type of data from the reader.
 ms.assetid: 6232ecd4-9829-4de3-9810-70e3d3c129a9
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EM_GETOPTIONS message
+title: EM_GETOPTIONS message (Richedit.h)
 description: Retrieves rich edit control options.
 ms.assetid: 183f0fed-8666-4ed5-ac48-362c818378d2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

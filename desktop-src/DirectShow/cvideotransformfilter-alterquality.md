@@ -1,8 +1,8 @@
 ---
 Description: The AlterQuality method notifies the filter that a quality change is requested. This method overrides the CTransformFilter::AlterQuality method.
 ms.assetid: 9a1d1379-8557-4b33-ab49-b5c6a684f685
-title: CVideoTransformFilter.AlterQuality method
-ms.topic: article
+title: CVideoTransformFilter.AlterQuality method (Vtrans.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

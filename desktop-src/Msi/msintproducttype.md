@@ -2,7 +2,7 @@
 Description: The installer sets the MsiNTProductType property for Windows NT, Windows 2000, and later operating systems.
 ms.assetid: 6bbc8283-5911-4fbd-8a0f-09c398280e74
 title: MsiNTProductType property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The installer sets the **MsiNTProductType** property for Windows NT, Windows 2000, and later operating systems. This property indicates the Windows product type.
 
-For Windows 2000 and later operating systems, the installer sets the following values. Note that values are the same as of the **wProductType** field of the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/en-us/library/ms724833(v=VS.85).aspx) structure.
+For Windows 2000 and later operating systems, the installer sets the following values. Note that values are the same as of the **wProductType** field of the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/ms724833(v=VS.85).aspx) structure.
 
 
 

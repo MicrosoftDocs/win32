@@ -1,11 +1,11 @@
 ---
-title: EsentBadItagSequenceException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentBadItagSequenceException constructor 
 TOCTitle: 'EsentBadItagSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbaditagsequenceexception.esentbaditagsequenceexception(v=EXCHG.10)
 ms:contentKeyID: 55101154
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException.EsentBadItagSequenceException
 dev_langs:

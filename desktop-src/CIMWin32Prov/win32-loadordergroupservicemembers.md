@@ -3,7 +3,7 @@ Description: The Win32\_LoadOrderGroupServiceMembers association WMI class relat
 ms.assetid: 60fa8292-b9d1-48f2-bd26-e5c9276006fc
 ms.tgt_platform: multiple
 title: Win32_LoadOrderGroupServiceMembers class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

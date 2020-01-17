@@ -2,7 +2,7 @@
 Description: Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
 ms.assetid: a9a20aa1-378d-4a2a-9ebc-9786ab2dfda7
 title: RemoveReplicationRelationship method of the Msvm_ReplicationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

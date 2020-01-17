@@ -1,8 +1,8 @@
 ---
 Description: Converts radians into degrees.
 ms.assetid: 1b19af39-ca23-4364-9121-f532d7fed099
-title: D3DXToDegree
-ms.topic: article
+title: D3DXToDegree (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

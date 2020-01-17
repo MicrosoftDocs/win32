@@ -1,5 +1,5 @@
 ---
-title: Working with Media Buffers
+title: Working with Media Buffers (Windows Media Format 11 SDK)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 45428737-3f72-44b5-9606-69fa8aba308c
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Working with Media Buffers
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The CIM\_OperatingSystem class represents a computer operating syst
 ms.assetid: 014d2553-e1ac-4394-84ae-307af3658f6e
 ms.tgt_platform: multiple
 title: CIM_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The \_NewEnum property of Attributes retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 ms.assetid: a90ef28b-3926-4542-bcd2-27f0eda4e339
 title: Attributes._NewEnum property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](https://msdn.microsoft.com/library/ms147988(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
 
-The **\_NewEnum** property retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+The **\_NewEnum** property retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 
 ## Syntax
 
@@ -32,7 +32,7 @@ Attributes._NewEnum As IUnknown
 
 ## Property value
 
-An [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection.
+An [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection.
 
 ## Remarks
 

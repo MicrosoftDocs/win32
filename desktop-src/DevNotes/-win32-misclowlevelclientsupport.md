@@ -96,7 +96,7 @@ This topic contains information about low-level APIs that are used by the Window
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlfreeunicodestring"><strong>RtlFreeUnicodeString</strong></a></td>
-<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a> or by <a href="https://msdn.microsoft.com/en-us/library/ms803011.aspx">RtlUpcaseUnicodeString</a>.<br/></td>
+<td>Frees the string buffer allocated by <a href="/windows/desktop/api/Winternl/nf-winternl-rtlansistringtounicodestring"><strong>RtlAnsiStringToUnicodeString</strong></a> or by <a href="https://msdn.microsoft.com/library/ms803011.aspx">RtlUpcaseUnicodeString</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winternl/nf-winternl-rtlinitstring"><strong>RtlInitString</strong></a></td>
@@ -157,7 +157,7 @@ This function is obsolete and should not be used.
 
 | Topic                                 | Contents                                                                                                                                                                                                                              |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMESTRUCT**](https://msdn.microsoft.com/en-us/library/Aa969466(v=VS.85).aspx) | Used by [**SendIMEMessageEx**](/windows/desktop/api/Ime/nf-ime-sendimemessageexa) to specify the subfunction to be executed in the IME message and its parameters. This structure is also used to receive return values from those subfunctions.<br/> |
+| [**IMESTRUCT**](https://msdn.microsoft.com/library/Aa969466(v=VS.85).aspx) | Used by [**SendIMEMessageEx**](/windows/desktop/api/Ime/nf-ime-sendimemessageexa) to specify the subfunction to be executed in the IME message and its parameters. This structure is also used to receive return values from those subfunctions.<br/> |
 | [**STRING**](/windows/desktop/api/Winternl/ns-winternl-string)       | This structure is used with the [**RtlUnicodeStringToOemString**](/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring) function. <br/>                                                                                                              |
 
 

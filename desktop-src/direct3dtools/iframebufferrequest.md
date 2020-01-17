@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IFrameBufferRequest interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 74497395-9956-430A-AB75-F1FD2FC4E66E
 api_name: 

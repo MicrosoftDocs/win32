@@ -2,7 +2,7 @@
 Description: Saves the certificate to a file.
 ms.assetid: 2012b39b-47fd-4071-9752-98bb10954fc0
 title: ICertificate2::Save method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -50,7 +50,7 @@ A string that contains the name of the output file where the certificate will be
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) password for a [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx).
+A string that contains the [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) password for a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
 
 </dd> <dt>
 

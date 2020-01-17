@@ -2,7 +2,7 @@
 Description: Retrieves the security identifier and flags used to protect a key.
 ms.assetid: 5EF97F44-78FF-4FBF-9142-F2DD0A849057
 title: GetKeyProtectorCertificate method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -15,7 +15,7 @@ api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
 ---
 
-# GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class
+# GetKeyProtectorAdSidInformation method of the Win32\_EncryptableVolume class
 
 The **GetKeyProtectorAdSidInformation** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class retrieves the security identifier and flags used to protect a key.
 
@@ -92,7 +92,7 @@ This method returns one of the following codes or another error code if it fails
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

@@ -2,9 +2,6 @@
 title: EAPHost Authenticator Method Structures
 description: EAPHost Authenticator Method Structures
 ms.assetid: e26d5db7-f247-4bff-ae5f-081474f8e61e
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

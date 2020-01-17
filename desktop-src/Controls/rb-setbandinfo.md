@@ -1,5 +1,5 @@
 ---
-title: RB_SETBANDINFO message
+title: RB_SETBANDINFO message (Commctrl.h)
 description: Sets characteristics of an existing band in a rebar control.
 ms.assetid: 00021c35-612d-4278-b10c-6e9f1f45a543
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineComp interface inserts or retrieves virtual tracks on a composition in DirectShow Editing Services (DES).A composition is a collection of layers that acts as a single, composited track.
 ms.assetid: b0a47303-9e3c-4b78-ac90-c5d8fce2b727
-title: IAMTimelineComp interface
-ms.topic: interface
+title: IAMTimelineComp interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -33,7 +33,7 @@ To create a composition object, call [**IAMTimeline::CreateEmptyNode**](iamtimel
 
 ## Members
 
-The **IAMTimelineComp** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineComp** also has these types of members:
+The **IAMTimelineComp** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineComp** also has these types of members:
 
 -   [Methods](#methods)
 

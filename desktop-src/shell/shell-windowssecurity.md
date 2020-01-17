@@ -1,7 +1,7 @@
 ---
 Description: Displays the Windows Security dialog box.
-title: Shell.WindowsSecurity method
-ms.topic: article
+title: Shell.WindowsSecurity method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

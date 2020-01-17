@@ -1,8 +1,8 @@
 ---
 Description: The ID3DXRenderToSurface interface is used to generalize the process of rendering to surfaces.
 ms.assetid: e9f2ca5e-faa3-45a8-94eb-16f354618e80
-title: ID3DXRenderToSurface interface
-ms.topic: interface
+title: ID3DXRenderToSurface interface (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ The ID3DXRenderToSurface interface is used to generalize the process of renderin
 
 ## Members
 
-The **ID3DXRenderToSurface** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXRenderToSurface** also has these types of members:
+The **ID3DXRenderToSurface** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXRenderToSurface** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -15,7 +15,7 @@ The following functions are used with Remote Desktop Services.
 
 <dl> <dt>
 
-[**ProcessIdToSessionId**](https://msdn.microsoft.com/en-us/library/Aa382990(v=VS.85).aspx)
+[**ProcessIdToSessionId**](https://msdn.microsoft.com/library/Aa382990(v=VS.85).aspx)
 </dt> <dd>
 
 Retrieves the Remote Desktop Services session associated with a specified process.

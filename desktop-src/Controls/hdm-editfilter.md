@@ -1,5 +1,5 @@
 ---
-title: HDM_EDITFILTER message
+title: HDM_EDITFILTER message (Commctrl.h)
 description: Moves the input focus to the edit box when a filter button has the focus.
 ms.assetid: 580f7872-4056-4d7d-8e69-274b4b4b5545
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

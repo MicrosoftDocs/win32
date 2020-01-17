@@ -1,8 +1,8 @@
 ---
 Description: Represents the File History reassociation feature, which allows a user to reestablish a relationship with a backup target that was used by the same user in the past. Reassociation is performed by calling the methods of the IFhReassociation interface.
 ms.assetid: BB81F8ED-4DFB-4FA5-B3ED-ACBAB32BBE3D
-title: FhReassociation class
-ms.topic: interface
+title: FhReassociation class (Fhcfg.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ Represents the File History reassociation feature, which allows a user to reesta
 
 ## When to implement
 
-The File History API implements this class. To create an instance of this class, use the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) function.
+The File History API implements this class. To create an instance of this class, use the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function.
 
 ## Requirements
 

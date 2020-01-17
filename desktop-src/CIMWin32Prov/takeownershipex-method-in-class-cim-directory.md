@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical directory entry file specified in 
 ms.assetid: a13acaa2-2203-470a-b989-15f8276e46c6
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

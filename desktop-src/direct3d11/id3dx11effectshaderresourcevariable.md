@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderResourceVariable interface
+title: ID3DX11EffectShaderResourceVariable interface (D3dx11effect.h)
 description: A shader-resource interface accesses a shader resource.
 ms.assetid: 936a3439-1f7d-4fea-b124-1d6ead528250
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

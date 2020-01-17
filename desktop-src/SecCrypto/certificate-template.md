@@ -2,7 +2,7 @@
 Description: Returns the template that is associated with the certificate.
 ms.assetid: 84fbf984-b932-4794-a939-de01e529d891
 title: ICertificate2::Template method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

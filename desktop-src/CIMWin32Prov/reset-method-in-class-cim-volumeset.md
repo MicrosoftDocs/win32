@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_VolumeSet class requests a reset of th
 ms.assetid: be4563a2-b602-45fe-935f-3f7db5277150
 ms.tgt_platform: multiple
 title: Reset method of the CIM_VolumeSet class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

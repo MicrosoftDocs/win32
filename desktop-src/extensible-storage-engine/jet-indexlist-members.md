@@ -1,5 +1,5 @@
 ---
-title: JET_INDEXLIST members (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXLIST members
 TOCTitle: JET_INDEXLIST members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXLIST
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist_members(v=EXCHG.10)

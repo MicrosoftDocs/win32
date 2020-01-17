@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: CHECKSUMALGORITHM enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 9DCF7D41-9550-4E3F-A6B4-4B653BBA23C3
 api_name: 

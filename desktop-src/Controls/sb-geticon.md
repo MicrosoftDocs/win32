@@ -1,5 +1,5 @@
 ---
-title: SB_GETICON message
+title: SB_GETICON message (Commctrl.h)
 description: Retrieves the icon for a part in a status bar.
 ms.assetid: f99508e3-afa8-48fd-b87a-fce41c4410ff
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

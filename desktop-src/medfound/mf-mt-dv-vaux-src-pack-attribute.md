@@ -1,8 +1,8 @@
 ---
 Description: Video auxiliary (VAUX) source pack in a digital video (DV) media type.
 ms.assetid: 4263032f-9093-4c7a-9ca0-14f8dc0d1aef
-title: MF_MT_DV_VAUX_SRC_PACK attribute
-ms.topic: article
+title: MF_MT_DV_VAUX_SRC_PACK attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ Video auxiliary (VAUX) source pack in a digital video (DV) media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwDVVAuxSrc** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/en-us/library/Dd388639(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwDVVAuxSrc** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/library/Dd388639(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

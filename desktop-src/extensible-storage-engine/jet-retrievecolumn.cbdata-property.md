@@ -1,11 +1,11 @@
 ---
-title: JET_RETRIEVECOLUMN.cbData property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.cbData property 
 TOCTitle: 'cbData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.cbData
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.cbdata(v=EXCHG.10)
 ms:contentKeyID: 55103810
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.cbData
 dev_langs:

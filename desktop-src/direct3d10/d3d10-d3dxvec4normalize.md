@@ -1,8 +1,8 @@
 ---
 Description: Returns the normalized version of a 4D vector.
 ms.assetid: ed3c48cf-4985-4ef3-b733-f8532e3ff6b5
-title: D3DXVec4Normalize function
-ms.topic: article
+title: D3DXVec4Normalize function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ D3DXVECTOR4* D3DXVec4Normalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -47,7 +47,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to the source D3DXVECTOR4 structure.
 
@@ -55,7 +55,7 @@ Pointer to the source D3DXVECTOR4 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/en-us/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR4 structure that is the normalized version of the vector.
 

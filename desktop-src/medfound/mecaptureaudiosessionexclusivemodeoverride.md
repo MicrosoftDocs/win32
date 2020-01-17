@@ -1,8 +1,8 @@
 ---
 Description: Sent by an audio capture source when another program opens the audio device in exclusive mode.
 ms.assetid: E9CC8507-38AB-4049-8DAC-767EC0ECE270
-title: MECaptureAudioSessionExclusiveModeOverride event
-ms.topic: article
+title: MECaptureAudioSessionExclusiveModeOverride event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 This event is sent by the media stream of the audio capture source.
 
-The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/en-us/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonExclusiveModeOverride**.
+The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonExclusiveModeOverride**.
 
 ## Requirements
 

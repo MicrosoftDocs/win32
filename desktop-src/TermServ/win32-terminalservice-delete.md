@@ -1,5 +1,5 @@
 ---
-title: Delete method of the Win32_Service class
+title: Delete method of the Win32_Service class (Remote Desktop Services)
 description: The Delete \ 8194;WMI class method deletes an existing service.
 ms.assetid: 0F012D6B-BD29-4AC3-AC7E-78EC02C1FF43
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

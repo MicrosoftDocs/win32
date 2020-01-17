@@ -1,5 +1,5 @@
 ---
-title: WM_CONTEXTMENU message
+title: WM_CONTEXTMENU message (Winuser.h)
 description: Notifies a window that the user clicked the right mouse button (right-clicked) in the window.
 ms.assetid: e607a61a-0f9b-4d11-b8c0-b01a2e7fb35b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

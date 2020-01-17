@@ -12,7 +12,7 @@ The property proxy for the System.GPS.Longitude photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
 
 ### Containers
 
@@ -38,7 +38,7 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.GPS.Longitude](https://msdn.microsoft.com/en-us/library/bb760566(VS.85).aspx)
+[System.GPS.Longitude](https://msdn.microsoft.com/library/bb760566(VS.85).aspx)
 </dt> </dl>
 
  

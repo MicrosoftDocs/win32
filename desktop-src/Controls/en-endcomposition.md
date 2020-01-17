@@ -1,5 +1,5 @@
 ---
-title: EN_ENDCOMPOSITION notification code
+title: EN_ENDCOMPOSITION notification code (Richedit.h)
 description: Notifies a rich edit control parent window that the user has entered new data or has finished entering data while using IME or Text Services Framework.
 ms.assetid: 3956313F-F82F-41A2-AEDA-52E63218977C
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

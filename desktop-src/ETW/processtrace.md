@@ -1,8 +1,8 @@
 ---
 Description: The ProcessTrace function delivers events from one or more event tracing sessions to the consumer.
 ms.assetid: 'aea25a95-f435-4068-9b15-7473f31ebf16'
-title: ProcessTrace function
-ms.topic: article
+title: ProcessTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -60,14 +60,14 @@ Number of elements in *HandleArray*.
 *StartTime* \[in\]
 </dt> <dd>
 
-Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure that specifies the beginning time period for which you want to receive events. The function does not deliver events recorded prior to *StartTime*.
+Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure that specifies the beginning time period for which you want to receive events. The function does not deliver events recorded prior to *StartTime*.
 
 </dd> <dt>
 
 *EndTime* \[in\]
 </dt> <dd>
 
-Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure that specifies the ending time period for which you want to receive events. The function does not deliver events recorded after *EndTime*.
+Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure that specifies the ending time period for which you want to receive events. The function does not deliver events recorded after *EndTime*.
 
 **Windows Server 2003:** This value is ignored for real-time event delivery.
 
@@ -77,7 +77,7 @@ Pointer to an optional [**FILETIME**](https://msdn.microsoft.com/en-us/library/m
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

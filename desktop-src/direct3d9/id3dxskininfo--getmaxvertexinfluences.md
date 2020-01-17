@@ -1,8 +1,8 @@
 ---
 Description: Gets the maximum number of influences for any vertex in the mesh.
 ms.assetid: 012168e8-30e5-4571-b793-647ab23df068
-title: ID3DXSkinInfo::GetMaxVertexInfluences method
-ms.topic: article
+title: ID3DXSkinInfo::GetMaxVertexInfluences method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT GetMaxVertexInfluences(
 *maxVertexInfluences* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the maximum vertex influence.
 
@@ -46,7 +46,7 @@ Pointer to the maximum vertex influence.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

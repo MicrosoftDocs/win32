@@ -1,8 +1,8 @@
 ---
 Description: Returns the stroke identifiers that are associated with this IAnalysisAlternate.
 ms.assetid: 495d485f-0d16-4085-9213-cc55f3f259f0
-title: IAnalysisAlternate::GetStrokeIds method
-ms.topic: article
+title: IAnalysisAlternate::GetStrokeIds method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

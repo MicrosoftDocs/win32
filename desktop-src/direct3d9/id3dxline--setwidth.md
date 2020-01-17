@@ -1,8 +1,8 @@
 ---
 Description: Specifies the thickness of the line.
 ms.assetid: cedf9217-2b47-40c3-a64c-9872c1083d71
-title: ID3DXLine::SetWidth method
-ms.topic: article
+title: ID3DXLine::SetWidth method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT SetWidth(
 *fWidth* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Describes the line width.
 
@@ -46,7 +46,7 @@ Describes the line width.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

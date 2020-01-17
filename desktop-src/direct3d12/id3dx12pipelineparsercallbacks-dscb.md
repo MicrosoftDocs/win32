@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks DSCb method
+title: ID3DX12PipelineParserCallbacks DSCb method (D3DX12.h)
 description: Calls the domain shader subobject callback of an object that implements this interface.
 ms.assetid: F4877211-4122-4418-9323-3F68B0BB3363
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

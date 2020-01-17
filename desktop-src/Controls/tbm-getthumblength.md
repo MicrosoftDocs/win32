@@ -1,5 +1,5 @@
 ---
-title: TBM_GETTHUMBLENGTH message
+title: TBM_GETTHUMBLENGTH message (Commctrl.h)
 description: Retrieves the length of the slider in a trackbar.
 ms.assetid: 290187a2-7bf7-4a4b-a4cf-132f8ad38020
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

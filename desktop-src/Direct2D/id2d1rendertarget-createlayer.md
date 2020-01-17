@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget CreateLayer methods
+title: ID2D1RenderTarget CreateLayer methods (D2d1.h)
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::CreateLayer methods
@@ -24,9 +24,9 @@ Creates a layer resource that can be used with this render target and its compat
 
 | Method                                                                                                                 | Description                                                                                                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateLayer(ID2D1Layer\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371839(v=VS.85).aspx)                                | Creates a layer resource that can be used with this render target and its compatible render targets. <br/>                                               |
-| [**CreateLayer(D2D1\_SIZE\_F,ID2D1Layer\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371835(v=VS.85).aspx)       | Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size. <br/> |
-| [**CreateLayer(D2D1\_SIZE\_F\*,ID2D1Layer\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371838(v=VS.85).aspx) | Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size. <br/> |
+| [**CreateLayer(ID2D1Layer\*\*)**](https://msdn.microsoft.com/library/Dd371839(v=VS.85).aspx)                                | Creates a layer resource that can be used with this render target and its compatible render targets. <br/>                                               |
+| [**CreateLayer(D2D1\_SIZE\_F,ID2D1Layer\*\*)**](https://msdn.microsoft.com/library/Dd371835(v=VS.85).aspx)       | Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size. <br/> |
+| [**CreateLayer(D2D1\_SIZE\_F\*,ID2D1Layer\*\*)**](https://msdn.microsoft.com/library/Dd371838(v=VS.85).aspx) | Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size. <br/> |
 
 
 
@@ -98,7 +98,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 [Layers Overview](direct2d-layers-overview.md)
 </dt> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> </dl>
 
 �

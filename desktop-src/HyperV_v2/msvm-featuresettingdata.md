@@ -2,7 +2,7 @@
 Description: An abstract class that represents settings for a specific feature of a system or component.
 ms.assetid: f55eacdd-a802-4374-8756-a59733af6d2c
 title: Msvm_FeatureSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

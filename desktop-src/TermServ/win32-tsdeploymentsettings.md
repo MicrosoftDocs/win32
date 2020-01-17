@@ -37,7 +37,7 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -584,7 +584,7 @@ If **RequireServerAuth** is set to **TRUE**, consider the following:
 -   If the RemoteApp program is for intranet use, and all client computers are running either Windows Server 2008 or Windows Vista, you do not have to configure the RD Session Host server to use an SSL certificate. In this case, Network Level Authentication is used.
 -   You must specify the FQDN of the server or farm for the value of the **FarmName** property.
 
-To connect to the "CIMV2\\TerminalServices" namespace, the authentication level must include packet privacy. For C/C++ calls, this is an authentication level of **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, which can be set by using the [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx) COM function. For Visual Basic and scripting calls, this is an authentication level of **WbemAuthenticationLevelPktPrivacy** or "pktPrivacy", with a value of 6. The following Visual Basic Scripting Edition (VBScript) example shows how to connect to a remote computer with packet privacy.
+To connect to the "CIMV2\\TerminalServices" namespace, the authentication level must include packet privacy. For C/C++ calls, this is an authentication level of **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, which can be set by using the [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx) COM function. For Visual Basic and scripting calls, this is an authentication level of **WbemAuthenticationLevelPktPrivacy** or "pktPrivacy", with a value of 6. The following Visual Basic Scripting Edition (VBScript) example shows how to connect to a remote computer with packet privacy.
 
 
 ```VB

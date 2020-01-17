@@ -1,5 +1,5 @@
 ---
-title: glStencilFunc function
+title: glStencilFunc function (Gl.h)
 description: The glStencilFunc function sets the function and reference value for stencil testing.
 ms.assetid: 6c84415b-4d22-494b-90f2-6243d1406725
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

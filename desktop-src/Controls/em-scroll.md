@@ -1,5 +1,5 @@
 ---
-title: EM_SCROLL message
+title: EM_SCROLL message (Winuser.h)
 description: Scrolls the text vertically in a multiline edit control. This message is equivalent to sending a WM\_VSCROLL message to the edit control. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

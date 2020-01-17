@@ -1,5 +1,5 @@
 ---
-title: SisCSFilesToBackupForLink function
+title: SisCSFilesToBackupForLink function (Sisbkup.h)
 description: Returns information describing the common-store files the specified SIS link points to.
 ms.assetid: 0580c34e-195a-4a2c-893f-bc339dcc88d7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection SetConnectionId method
+title: INapEnforcementClientConnection SetConnectionId method (NapEnforcementClient.h)
 description: Is used to set the unique ID of the connection and must be set by the enforcement client as soon as the connection is created.
 ms.assetid: 69d1a891-bc86-4c8a-b614-ebcdaa4a9057
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

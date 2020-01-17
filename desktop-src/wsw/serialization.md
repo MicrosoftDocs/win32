@@ -36,8 +36,8 @@ By default deserialization is strict. Some conditions that cause deserialization
 
 -   Expected elements is missing
 -   Unexpected element fields appear between required elements
--   Extra element content after required fields, unless [**WS\_STRUCT\_IGNORE\_TRAILING\_ELEMENT\_CONTENT**](https://msdn.microsoft.com/en-us/library/Dd323454(v=VS.85).aspx)
--   Unexpected attributes, unless [**WS\_STRUCT\_IGNORE\_UNHANDLED\_ATTRIBUTES**](https://msdn.microsoft.com/en-us/library/Dd323454(v=VS.85).aspx) flag is specified
+-   Extra element content after required fields, unless [**WS\_STRUCT\_IGNORE\_TRAILING\_ELEMENT\_CONTENT**](https://msdn.microsoft.com/library/Dd323454(v=VS.85).aspx)
+-   Unexpected attributes, unless [**WS\_STRUCT\_IGNORE\_UNHANDLED\_ATTRIBUTES**](https://msdn.microsoft.com/library/Dd323454(v=VS.85).aspx) flag is specified
 -   Unexpected data type value that is out of specified range
 -   Count of repeating element is out of the specified range
 
@@ -56,7 +56,7 @@ The following callbacks are used with serialization:
 The following enumerations are used with serialization:
 
 -   [**WS\_FIELD\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_field_mapping)
--   [**WS\_FIELD\_OPTIONS**](https://msdn.microsoft.com/en-us/library/Dd401884(v=VS.85).aspx)
+-   [**WS\_FIELD\_OPTIONS**](https://msdn.microsoft.com/library/Dd401884(v=VS.85).aspx)
 -   [**WS\_READ\_OPTION**](/windows/desktop/api/WebServices/ne-webservices-ws_read_option)
 -   [**WS\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_type)
 -   [**WS\_TYPE\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_type_mapping)

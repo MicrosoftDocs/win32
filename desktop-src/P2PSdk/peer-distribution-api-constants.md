@@ -1,7 +1,7 @@
 ---
 ms.assetid: 61444677-2fd5-4599-a96e-be19fb019f34
-title: Peer Distribution API Constants
-ms.topic: article
+title: Peer Distribution API Constants (Peerdist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

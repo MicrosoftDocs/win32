@@ -1,5 +1,5 @@
 ---
-title: Store2 function
+title: RWByteAddressBuffer::Store2 function
 description: Sets two values.
 ms.assetid: 7b32c84c-9ea2-47ae-a0f3-df6d95249163
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Store2
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

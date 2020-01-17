@@ -1,8 +1,8 @@
 ---
 Description: Builds a left-handed perspective projection matrix based on a field of view.
 ms.assetid: 90328798-f124-4b61-90a9-971946066b02
-title: D3DXMatrixPerspectiveFovLH function
-ms.topic: article
+title: D3DXMatrixPerspectiveFovLH function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *fovy* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Field of view in the y direction, in radians.
 
@@ -60,7 +60,7 @@ Field of view in the y direction, in radians.
 *Aspect* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Aspect ratio, defined as view space width divided by height.
 
@@ -69,7 +69,7 @@ Aspect ratio, defined as view space width divided by height.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Z-value of the near view-plane.
 
@@ -78,7 +78,7 @@ Z-value of the near view-plane.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Z-value of the far view-plane.
 

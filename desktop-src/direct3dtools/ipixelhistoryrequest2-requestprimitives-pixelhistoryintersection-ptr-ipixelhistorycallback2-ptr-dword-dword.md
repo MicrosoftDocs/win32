@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixelHistoryRequest2::RequestPrimitives method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: CFEB833C-1747-4153-A691-7529AA3F4095
 api_name: 

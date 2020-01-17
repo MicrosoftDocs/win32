@@ -1,5 +1,5 @@
 ---
-title: Buttons
+title: Buttons (Windows Media Player SDK)
 description: Buttons
 ms.assetid: 1212e2d9-e8f8-45d8-8c7f-20865c9c9c94
 keywords:

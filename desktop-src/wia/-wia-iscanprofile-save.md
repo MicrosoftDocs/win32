@@ -1,8 +1,8 @@
 ---
 Description: Saves changes to a profile to disk.
 ms.assetid: e844bd4c-93c3-44a3-b7d5-0beb71c9fa17
-title: IScanProfile::Save method
-ms.topic: article
+title: IScanProfile::Save method (Scanprofile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

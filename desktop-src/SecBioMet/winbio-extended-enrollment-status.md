@@ -1,5 +1,5 @@
 ---
-title: WINBIO_EXTENDED_ENROLLMENT_STATUS structure
+title: WINBIO_EXTENDED_ENROLLMENT_STATUS structure (Winbio\_types.h)
 description: Contains additional information about the status of an enrollment that is in progress.
 ms.assetid: 2FDDF4D3-6A3E-4DF5-ACA4-423F893C6F2B
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

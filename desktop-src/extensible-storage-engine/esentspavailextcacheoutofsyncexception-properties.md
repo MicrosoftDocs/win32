@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfSyncException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfSyncException properties
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofsyncexception_properties(v=EXCHG.10)

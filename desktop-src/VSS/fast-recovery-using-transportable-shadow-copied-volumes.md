@@ -14,7 +14,7 @@ Fast recovery can be used to quickly revert to an earlier shadow copy. The steps
 
 1.  Create the transportable shadow copy of the appropriate LUNs. The shadow copy can be either [*persistent*](vssgloss-p.md) or nonpersistent.
 2.  Remove the original LUNs
-    1.  If the computer is inside a cluster, mark the affected disk resources as offline, or enable the [maintenance mode](https://msdn.microsoft.com/en-us/library/Aa370983(v=VS.85).aspx) for these disk resources.
+    1.  If the computer is inside a cluster, mark the affected disk resources as offline, or enable the [maintenance mode](https://msdn.microsoft.com/library/Aa370983(v=VS.85).aspx) for these disk resources.
     2.  Mask the affected LUNs from this computer (and all other nodes if the computer is in a cluster).
 3.  Import the shadow copy using the [**IVssBackupComponents::ImportSnapshots**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-importsnapshots) method.
 4.  Break the shadow copy using the [**IVssBackupComponents::BreakSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset) method.

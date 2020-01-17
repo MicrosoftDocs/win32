@@ -2,7 +2,7 @@
 Description: The PrivateKey object exposes the following properties.
 ms.assetid: 0B4D3F62-04AF-4D0A-8374-B77500140AC8
 title: PrivateKey Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

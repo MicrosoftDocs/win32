@@ -3,7 +3,7 @@ Description: Represents the capabilities and management capacity of a partitione
 ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
 ms.tgt_platform: multiple
 title: Win32_DiskPartition class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

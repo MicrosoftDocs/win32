@@ -1,5 +1,5 @@
 ---
-title: TVM_ENDEDITLABELNOW message
+title: TVM_ENDEDITLABELNOW message (Commctrl.h)
 description: Ends the editing of a tree-view item's label. You can send this message explicitly or by using the TreeView\_EndEditLabelNow macro.
 ms.assetid: 68de2020-9311-4958-859a-de55f5e41fcf
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

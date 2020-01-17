@@ -1,8 +1,8 @@
 ---
 Description: The OpenTrace function opens a real-time trace session or log file for consuming.
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
-title: OpenTrace function
-ms.topic: article
+title: OpenTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -73,7 +73,7 @@ If the function fails, it returns INVALID\_PROCESSTRACE\_HANDLE.
 
  
 
-If the function returns INVALID\_PROCESSTRACE\_HANDLE, you can use the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function to obtain extended error information. The following table lists some common errors and their causes.
+If the function returns INVALID\_PROCESSTRACE\_HANDLE, you can use the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function to obtain extended error information. The following table lists some common errors and their causes.
 
 
 

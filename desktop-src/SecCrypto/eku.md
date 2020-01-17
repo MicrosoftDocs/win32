@@ -2,7 +2,7 @@
 Description: Represents a single extended key usage (EKU) property of a certificate.
 ms.assetid: '08eb7c77-0224-4ab5-99e7-edf18eb23c60'
 title: EKU object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -36,7 +36,7 @@ The **EKU** object has these properties.
 | Property                            | Access type           | Description                                                                                                                                                                                                   |
 |:------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Name**](eku-name.md)<br/> | Read/write<br/> | Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.<br/>                                                                                   |
-| [**OID**](eku-oid.md)<br/>   | Read/write<br/> | Sets or retrieves a string that contains an EKU [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) string value as defined in Wincrypt.h.<br/> |
+| [**OID**](eku-oid.md)<br/>   | Read/write<br/> | Sets or retrieves a string that contains an EKU [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) string value as defined in Wincrypt.h.<br/> |
 
 
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The completion identifier for the incoming call is the result of a completion request that terminates.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx) (**dwCompletionID** member of the [**LINECALLINFO**](https://msdn.microsoft.com/en-us/library/ms735527(v=VS.85).aspx) structure pointed to by *lpCallInfo*).
+**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx) (**dwCompletionID** member of the [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx) structure pointed to by *lpCallInfo*).
 
 **TAPI 3.x:** See [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong) (**CIL\_COMPLETIONID** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long)).
 

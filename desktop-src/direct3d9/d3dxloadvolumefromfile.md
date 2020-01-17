@@ -1,8 +1,8 @@
 ---
 Description: Loads a volume from a file.
 ms.assetid: ea0fc588-094e-4488-bd82-54507ee0fc91
-title: D3DXLoadVolumeFromFile function
-ms.topic: article
+title: D3DXLoadVolumeFromFile function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -72,7 +72,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the destination box. S
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -90,7 +90,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the source box. Set th
 *Filter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Combination of one or more [D3DX\_FILTER](d3dx-filter.md), controlling how the image is filtered. Specifying D3DX\_DEFAULT for this parameter is the equivalent of specifying D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER.
 
@@ -116,7 +116,7 @@ Pointer to a [**D3DXIMAGE\_INFO**](d3dximage-info.md) structure to be filled wit
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 
@@ -124,7 +124,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXLoadVolumeFromFileW. Otherwise, the function call resolves to D3DXLoadVolumeFromFileA because ANSI strings are being used.
 
-This function handles conversion to and from compressed texture formats and supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx).
+This function handles conversion to and from compressed texture formats and supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx).
 
 Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromFile** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](https://msdn.microsoft.com/library/Bb205942(v=VS.85).aspx) on the volume texture.
 

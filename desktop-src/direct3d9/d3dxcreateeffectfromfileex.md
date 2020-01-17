@@ -1,8 +1,8 @@
 ---
 Description: Create an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffectFromFile that allows an application to control which parameters are ignored by the effects system.
 ms.assetid: 963caa1e-bc1a-4d4b-bdb1-50b17d8b4132
-title: D3DXCreateEffectFromFileEx function
-ms.topic: article
+title: D3DXCreateEffectFromFileEx function (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -55,7 +55,7 @@ Pointer to the device that will create the effect. See [**IDirect3DDevice9**](ht
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the filename. This parameter supports both Unicode and ANSI strings. See Remarks.
 
@@ -82,7 +82,7 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *pSkipConstants* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A string of effect parameters that will be ignored by the effect system. The string must be **NULL** terminated, and needs to contain the name of each application-managed constant separated by a semicolon.
 
@@ -91,9 +91,9 @@ A string of effect parameters that will be ignored by the effect system. The str
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-If *pSrcFile* contains a text effect, flags can be a combination of [D3DXSHADER Flags](d3dxshader-flags.md) and [D3DXFX](d3dxfx.md) flags; otherwise, *pSrcFile* contains a binary effect and the only flags honored are D3DXFX flags. The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx) for details.
+If *pSrcFile* contains a text effect, flags can be a combination of [D3DXSHADER Flags](d3dxshader-flags.md) and [D3DXFX](d3dxfx.md) flags; otherwise, *pSrcFile* contains a binary effect and the only flags honored are D3DXFX flags. The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
 
 </dd> <dt>
 
@@ -126,7 +126,7 @@ Returns a pointer to a buffer containing a listing of compile errors. See [**ID3
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

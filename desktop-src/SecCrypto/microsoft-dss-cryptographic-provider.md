@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Microsoft DSS Cryptographic Provider
 
-The Microsoft DSS Cryptographic Provider supports hashing, data signing, and signature verification using the [*Secure Hash Algorithm*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SHA) and [*Digital Signature Standard*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) (DSS) algorithms. It can be exported outside the United States and Canada.
+The Microsoft DSS Cryptographic Provider supports hashing, data signing, and signature verification using the [*Secure Hash Algorithm*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SHA) and [*Digital Signature Standard*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) (DSS) algorithms. It can be exported outside the United States and Canada.
 
 
 

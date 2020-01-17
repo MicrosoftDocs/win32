@@ -1,5 +1,5 @@
 ---
-title: EsentLogFilePathInUseException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogFilePathInUseException methods
 TOCTitle: EsentLogFilePathInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilepathinuseexception_methods(v=EXCHG.10)

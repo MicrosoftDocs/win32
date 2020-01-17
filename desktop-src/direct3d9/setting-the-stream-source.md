@@ -33,7 +33,7 @@ if( SUCCEEDED( g_pd3dDevice->BeginScene() ) )
 
 
 
-For more information about this code see the following tutorial: [Tutorial 3: Using Matrices](https://msdn.microsoft.com/en-us/library/Ee418892(v=VS.85).aspx)
+For more information about this code see the following tutorial: [Tutorial 3: Using Matrices](https://msdn.microsoft.com/library/Ee418892(v=VS.85).aspx)
 
 ## Related topics
 

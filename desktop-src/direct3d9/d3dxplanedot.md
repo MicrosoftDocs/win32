@@ -1,8 +1,8 @@
 ---
 Description: Computes the dot product of a plane and a 4D vector.
 ms.assetid: e6232ca8-52cc-472d-8bdb-4f8dfc520d4f
-title: D3DXPlaneDot function
-ms.topic: article
+title: D3DXPlaneDot function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The dot product of the plane and 4D vector.
 

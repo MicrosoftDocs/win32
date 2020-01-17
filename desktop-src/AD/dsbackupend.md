@@ -1,5 +1,5 @@
 ---
-title: DsBackupEnd function
+title: DsBackupEnd function (Ntdsbcli.h)
 description: Called to terminate a backup operation.
 ms.assetid: 872645bc-3dbe-4b12-af4f-778d54feb18f
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

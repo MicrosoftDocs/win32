@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetLeft methods
+title: IDCompositionRectangleClip SetLeft methods (Dcomp.h)
 description: Animates or changes the value of the Left property of a clip rectangle.
 ms.assetid: A8E2C2A3-6146-486F-8FF4-05097BFE9222
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetLeft methods
@@ -24,8 +24,8 @@ Animates or changes the value of the Left property of a clip rectangle. The Left
 
 | Method                                                                                                 | Description                                         |
 |:-------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
-| [**SetLeft(float)**](https://msdn.microsoft.com/en-us/library/Hh448899(v=VS.85).aspx)                                     | Changes the value of the Left property.<br/>  |
-| [**SetLeft(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448901(v=VS.85).aspx) | Animates the value of the Left property.<br/> |
+| [**SetLeft(float)**](https://msdn.microsoft.com/library/Hh448899(v=VS.85).aspx)                                     | Changes the value of the Left property.<br/>  |
+| [**SetLeft(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448901(v=VS.85).aspx) | Animates the value of the Left property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Animates or changes the value of the Left property of a clip rectangle. The Left
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

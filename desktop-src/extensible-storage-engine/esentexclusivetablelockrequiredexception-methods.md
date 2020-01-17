@@ -1,5 +1,5 @@
 ---
-title: EsentExclusiveTableLockRequiredException methods (Microsoft.Isam.Esent.Interop)
+title: EsentExclusiveTableLockRequiredException methods
 TOCTitle: EsentExclusiveTableLockRequiredException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentExclusiveTableLockRequiredException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentexclusivetablelockrequiredexception_methods(v=EXCHG.10)

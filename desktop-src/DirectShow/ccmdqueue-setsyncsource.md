@@ -1,8 +1,8 @@
 ---
 Description: The SetSyncSource method sets the clock used for timing.
 ms.assetid: 646d4d24-f9b7-438a-b842-58e90eb6a945
-title: CCmdQueue.SetSyncSource method
-ms.topic: article
+title: CCmdQueue.SetSyncSource method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

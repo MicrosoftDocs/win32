@@ -1,8 +1,8 @@
 ---
 Description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
 ms.assetid: a50e2a17-8170-4364-a562-7886593341b3
-title: D3DXGetVertexShaderProfile function
-ms.topic: article
+title: D3DXGetVertexShaderProfile function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the device. See [**IDirect3DDevice9**](https://msdn.microsoft.com/lib
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The HLSL profile name.
 
@@ -98,7 +98,7 @@ A shader profile specifies the assembly shader version to use and the capabiliti
 
  
 
-For more information about the differences between shader versions, see [Vertex Shader Differences](https://msdn.microsoft.com/en-us/library/Bb172931(v=VS.85).aspx).
+For more information about the differences between shader versions, see [Vertex Shader Differences](https://msdn.microsoft.com/library/Bb172931(v=VS.85).aspx).
 
 ## Requirements
 

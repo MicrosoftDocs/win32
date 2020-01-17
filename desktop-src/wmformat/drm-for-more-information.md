@@ -1,6 +1,6 @@
 ---
-title: For More Information
-description: For More Information
+title: For More Information (Microsoft Windows Media DRM Client)
+description: For More Information (Microsoft Windows Media DRM Client)
 ms.assetid: bed25d80-2c03-4bb1-b0f0-3aca1506b864
 keywords:
 - Windows Media Format SDK,additional resources

@@ -1,5 +1,5 @@
 ---
-title: HDM_GETIMAGELIST message
+title: HDM_GETIMAGELIST message (Commctrl.h)
 description: Gets the handle to the image list that has been set for an existing header control. You can send this message explicitly or use the Header\_GetImageList or Header\_GetStateImageList macro.
 ms.assetid: 3e1a979c-60c5-4538-bd4d-16238829062e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Sample(S,float,int,float,uint) function
+title: Texture2DArray::Sample(S,float,int,float,uint) function
 description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
 ms.assetid: 0F9DBC0D-F35D-4A7A-B8F5-1EFBF7E14615
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Sample
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

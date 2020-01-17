@@ -2,7 +2,7 @@
 Description: The Microsoft Media Foundation AAC encoder is a Media Foundation Transform that encodes Advanced Audio Coding (AAC) Low Complexity (LC) profile, as defined by ISO/IEC 13818-7 (MPEG-2 Audio Part 7) .
 ms.assetid: d88a8c32-c71f-4ddb-af8c-e2fb54c2322c
 title: AAC Encoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

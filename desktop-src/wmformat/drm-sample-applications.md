@@ -1,6 +1,6 @@
 ---
-title: Sample Applications
-description: Sample Applications
+title: Microsoft Windows Media DRM Client Sample Applications
+description: Microsoft Windows Media DRM Client Sample Applications
 ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
 keywords:
 - Windows Media Format SDK,sample applications

@@ -21,7 +21,7 @@ This section helps you get started in international development. It presents lin
 You should become familiar with the issues that arise in developing international software for Windows. Start with these overviews.
 
 -   [Understanding Internationalization](understanding-internationalization.md) explains the added difficulty of developing world-ready applications, and defines key terms.
--   The [Get World-Ready](https://msdn.microsoft.com/en-us/goglobal/bb895995.aspx) topic leads you to guidelines and best practices that you can skim through or delve into as needed.
+-   The [Get World-Ready](https://msdn.microsoft.com/goglobal/bb895995.aspx) topic leads you to guidelines and best practices that you can skim through or delve into as needed.
 -   The [Internationalization Checklist](internationalization-checklist.md) summarizes the actions you should take to create a world-ready application.
 -   Security is always an issue in software development, but you need to consider additional issues when developing international software. Take a look at [Security Considerations: International Features](security-considerations--international-features.md).
 

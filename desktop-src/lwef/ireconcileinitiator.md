@@ -13,7 +13,7 @@ api_location:
 - Shell32.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,8 +35,8 @@ The **IReconcileInitiator** interface has these methods.
 
 | Method                                                                 | Description                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SetAbortCallback**](https://msdn.microsoft.com/en-us/library/Bb761345(v=VS.85).aspx)       | Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction. <br/>                                                                                              |
-| [**SetProgressFeedback**](https://msdn.microsoft.com/en-us/library/Bb761347(v=VS.85).aspx) | Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation. The amount is a fraction and is computed as the quotient of the *ulProgress* and *ulProgressMax* parameters. Reconcilers should call this method periodically during their reconciliation process. <br/> |
+| [**SetAbortCallback**](https://msdn.microsoft.com/library/Bb761345(v=VS.85).aspx)       | Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction. <br/>                                                                                              |
+| [**SetProgressFeedback**](https://msdn.microsoft.com/library/Bb761347(v=VS.85).aspx) | Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation. The amount is a fraction and is computed as the quotient of the *ulProgress* and *ulProgressMax* parameters. Reconcilers should call this method periodically during their reconciliation process. <br/> |
 
 
 

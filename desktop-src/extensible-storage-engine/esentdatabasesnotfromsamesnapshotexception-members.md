@@ -1,5 +1,5 @@
 ---
-title: EsentDatabasesNotFromSameSnapshotException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabasesNotFromSameSnapshotException members
 TOCTitle: EsentDatabasesNotFromSameSnapshotException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesnotfromsamesnapshotexception_members(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: SB_GETRECT message
+title: SB_GETRECT message (Commctrl.h)
 description: Retrieves the bounding rectangle of a part in a status window.
 ms.assetid: 76b8d470-07ae-440b-9bf5-7875b80b0168
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Unlock the vertex buffer.
 ms.assetid: 98b82fd1-56e8-45f3-bf26-a1e3b54c2979
-title: ID3DXPatchMesh::UnlockVertexBuffer method
-ms.topic: article
+title: ID3DXPatchMesh::UnlockVertexBuffer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

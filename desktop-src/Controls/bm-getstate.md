@@ -1,5 +1,5 @@
 ---
-title: BM_GETSTATE message
+title: BM_GETSTATE message (Winuser.h)
 description: Retrieves the state of a button or check box. You can send this message explicitly or use the Button\_GetState macro.
 ms.assetid: ca4c2f1a-b657-490a-ac8b-5f0cfef64d76
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: NtGdiDdDeleteSurfaceObject deletes a previously created kernel-mode surface object.
 ms.assetid: 95ce6c73-7e41-4ac3-b849-9b8f53aa3ac3
-title: NtGdiDdDeleteSurfaceObject function
-ms.topic: article
+title: NtGdiDdDeleteSurfaceObject function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ If successful, this function returns **TRUE**; otherwise it returns **FALSE**.
 
 ## Remarks
 
-Applications are advised to use the DirectDraw and [Direct3D](https://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
+Applications are advised to use the DirectDraw and [Direct3D](https://msdn.microsoft.com/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
 ## Requirements
 

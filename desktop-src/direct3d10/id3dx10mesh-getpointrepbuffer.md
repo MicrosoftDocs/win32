@@ -1,8 +1,8 @@
 ---
 Description: Get the mesh's point rep buffer.
 ms.assetid: 4be7bee5-15ea-496f-83c2-a3a9bafd97c6
-title: ID3DX10Mesh::GetPointRepBuffer method
-ms.topic: article
+title: ID3DX10Mesh::GetPointRepBuffer method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a mesh buffer containing the mesh's point rep data. See [**ID3DX10Mes
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

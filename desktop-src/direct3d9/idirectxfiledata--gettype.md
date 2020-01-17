@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the GUID of the object's template. Deprecated.
 ms.assetid: bb4a4a32-a9e7-4caa-869d-24cfb310d8d1
-title: IDirectXFileData::GetType method
-ms.topic: article
+title: IDirectXFileData::GetType method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to receive the GUID of the object's template.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be DXFILEERR\_BADVALUE.
 

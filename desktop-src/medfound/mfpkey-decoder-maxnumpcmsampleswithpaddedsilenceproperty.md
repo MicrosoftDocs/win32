@@ -1,8 +1,8 @@
 ---
 Description: Specifies the maximum number of additional PCM samples that might be returned at the end of after decoding a file.
 ms.assetid: 82b3676c-7653-421c-aac7-7f20a642779f
-title: MFPKEY_Decoder_MaxNumPCMSamplesWithPaddedSilence Property
-ms.topic: article
+title: MFPKEY_Decoder_MaxNumPCMSamplesWithPaddedSilence Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the maximum number of additional PCM samples that might be returned at
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

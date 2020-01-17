@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilterCollection AddItem property
+title: IPropertyFilterCollection AddItem property (WdsSharedIDL.h)
 description: Adds a new filter to the collection.
 ms.assetid: 01078e7a-811a-4dfb-b122-4801f39413d8
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IPM_CLEARADDRESS message
+title: IPM_CLEARADDRESS message (Commctrl.h)
 description: Clears the contents of the IP address control.
 ms.assetid: 7ac3ec31-ee34-44af-b012-a7dc4246a847
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

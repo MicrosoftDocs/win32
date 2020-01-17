@@ -1,8 +1,8 @@
 ---
 Description: Defines the geometric aperture for a video media type.
 ms.assetid: a2489ba1-f322-4b63-a479-0d9879c30a8c
-title: MF_MT_GEOMETRIC_APERTURE attribute
-ms.topic: article
+title: MF_MT_GEOMETRIC_APERTURE attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

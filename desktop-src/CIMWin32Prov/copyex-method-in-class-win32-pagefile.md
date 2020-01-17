@@ -3,7 +3,7 @@ Description: Copies the logical paging file or directory specified in the object
 ms.assetid: a8376dc8-eb73-4097-b84c-839432ac3a25
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

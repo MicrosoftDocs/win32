@@ -1,5 +1,5 @@
 ﻿---
-title: JET_LGPOS properties (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS properties
 TOCTitle: JET_LGPOS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LGPOS
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos_properties(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: The following subtypes are defined for MEDIATYPE\_VBI.
 ms.assetid: 31ea89c5-fb09-48ae-878f-724a2cbd4772
-title: VBI Media Types
-ms.topic: article
+title: VBI Media Types (Uuids.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

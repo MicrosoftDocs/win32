@@ -1,11 +1,11 @@
 ---
-Description: UserLogonCred
+Description: ModemDMConfigProfile\/...\/UserLogonCred (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_UserLogonCred
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: UserLogonCred
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 6d563cf8-ea40-46b3-a74e-ec7640ca9824
 api_name: 
@@ -19,21 +19,21 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_1_UserLogonCred"></span>UserLogonCred
+# <span id="WWAN_profile_v4.element_1_UserLogonCred"></span>ModemDMConfigProfile\/...\/UserLogonCred (v4)
 
 Logon credentials for a connection.
 
 ## Element hierarchy
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<Context>](element-context.md)  
-**<UserLogonCred>**
+[\<MBNProfileExt\>](element-mbnprofileext.md)  
+&nbsp;&nbsp;[\<Context\>](element-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<UserLogonCred\>**
 
-<!-- -->
-
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-[<Context>](element-1-context.md)  
-**<UserLogonCred>**
+[\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
+&nbsp;&nbsp;[\<Context\>](element-1-context.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-1-userlogoncred.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<UserLogonCred\>**
 
 ## Syntax
 

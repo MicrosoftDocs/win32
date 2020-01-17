@@ -2,7 +2,7 @@
 Description: Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
 ms.assetid: c724f602-fc73-4857-941f-0f22a9e472d1
 title: WTHelperCertFindIssuerCertificate function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,7 +22,7 @@ api_location:
 The **WTHelperCertFindIssuerCertificate** function finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
 
 > [!Note]  
-> This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Wintrust.dll.
+> This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Wintrust.dll.
 
  
 

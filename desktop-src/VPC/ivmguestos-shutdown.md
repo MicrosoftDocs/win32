@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS Shutdown method
+title: IVMGuestOS Shutdown method (VPCCOMInterfaces.h)
 description: Shuts down the guest operating system in the VM.
 ms.assetid: a1453ad1-c4c2-47bb-a612-d203a6ee8c18
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

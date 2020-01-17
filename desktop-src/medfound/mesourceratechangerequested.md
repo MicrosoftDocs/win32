@@ -1,8 +1,8 @@
 ---
 Description: Raised by a media source to request a new playback rate. The application should call IMFRateControl::SetRate with the requested rate. A media source might raise this event if it cannot continue playback at the current rate.
 ms.assetid: 705e5a79-836b-417b-a7ed-c733572f6905
-title: MESourceRateChangeRequested event
-ms.topic: article
+title: MESourceRateChangeRequested event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Uses the Microsoft Win32 SuspendThread function to suspend the operation of a running thread.
 ms.assetid: 07d919a2-797d-47c3-83e3-c8e2d2b2cddd
-title: CMsgThread.SuspendThread method
-ms.topic: article
+title: CMsgThread.SuspendThread method (Msgthrd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

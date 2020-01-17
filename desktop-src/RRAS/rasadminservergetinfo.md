@@ -1,5 +1,5 @@
 ---
-title: RasAdminServerGetInfo function
+title: RasAdminServerGetInfo function (Rassapi.h)
 description: The RasAdminServerGetInfo function gets the server configuration of a RAS server.
 ms.assetid: a1c371fd-462c-443c-8016-592efb2f0b1a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -86,7 +86,7 @@ To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://d
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**NetServerEnum**](https://msdn.microsoft.com/en-us/library/Aa370623(v=VS.85).aspx)
+[**NetServerEnum**](https://msdn.microsoft.com/library/Aa370623(v=VS.85).aspx)
 </dt> <dt>
 
 [**RAS\_SERVER\_0**](ras-server-0-str.md)

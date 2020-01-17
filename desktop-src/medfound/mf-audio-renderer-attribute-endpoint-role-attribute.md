@@ -1,8 +1,8 @@
 ---
 Description: Specifies the audio endpoint role for the audio renderer.
 ms.assetid: f0456337-5351-457e-9830-920bf346bfc4
-title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ROLE attribute
-ms.topic: article
+title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ROLE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

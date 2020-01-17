@@ -1,8 +1,8 @@
 ---
 Description: Specifies the endpoint ID for an audio capture device.
 ms.assetid: a0d8b54b-7a05-4307-a756-a34bb22f1afd
-title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID attribute
-ms.topic: article
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -24,7 +24,7 @@ To set this attribute, call [**IMFAttributes::SetString**](/windows/desktop/api/
 
 The value of the attribute is an endpoint ID. This attribute is used with the following functions:
 
--   It can be used as input to the [**MFCreateDeviceSource**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesource) and [**MFCreateDeviceSourceActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesourceactivate) functions. In this context, the attribute specifies the audio capture device for the function. You can get the endpoint ID for a given device by calling the [**IMMDevice::GetId**](https://msdn.microsoft.com/en-us/library/Dd371407(v=VS.85).aspx) method. See the Core Audio API documentation for more information.
+-   It can be used as input to the [**MFCreateDeviceSource**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesource) and [**MFCreateDeviceSourceActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesourceactivate) functions. In this context, the attribute specifies the audio capture device for the function. You can get the endpoint ID for a given device by calling the [**IMMDevice::GetId**](https://msdn.microsoft.com/library/Dd371407(v=VS.85).aspx) method. See the Core Audio API documentation for more information.
 -   When the [**MFEnumDeviceSources**](/windows/desktop/api/mfidl/nf-mfidl-mfenumdevicesources) function enumerates audio devices, the returned activation objects contain this attribute. The attribute is used internally by the activation object when it creates the media source.
 
 The GUID constant for this attribute is exported from mfuuid.lib.

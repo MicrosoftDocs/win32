@@ -1,5 +1,5 @@
 ---
-title: Embedded Objects
+title: Embedded Objects (Text Services Framework)
 description: Text Services Framework enables a text service to embed objects in an application text stream.
 ms.assetid: 44cb22b5-707b-4f21-b986-5258ed273543
 keywords:

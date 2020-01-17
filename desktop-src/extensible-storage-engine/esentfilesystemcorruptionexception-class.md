@@ -1,11 +1,11 @@
 ---
-title: EsentFileSystemCorruptionException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileSystemCorruptionException class
 TOCTitle: EsentFileSystemCorruptionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilesystemcorruptionexception(v=EXCHG.10)
 ms:contentKeyID: 55101716
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException
 dev_langs:

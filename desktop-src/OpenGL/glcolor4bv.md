@@ -1,5 +1,5 @@
 ---
-title: glColor4bv function
+title: glColor4bv function (Gl.h)
 description: Sets the current color from an already existing array of color values.
 ms.assetid: 97070501-3718-4946-acc1-1f9f07fa156c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

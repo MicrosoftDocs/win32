@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseQuery QueryLicenseState method
+title: IWMDRMLicenseQuery QueryLicenseState method (Wmdrmsdk.h)
 description: The QueryLicenseState method queries the local license store for license information that applies to a Key ID for one or more specific rights.
 ms.assetid: 17f40c56-2266-4c94-9e95-a33a92ddef74
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

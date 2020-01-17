@@ -1,11 +1,11 @@
 ---
-title: SystemParameters.CacheSize property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.CacheSize property 
 TOCTitle: 'CacheSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.CacheSize
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.cachesize(v=EXCHG.10)
 ms:contentKeyID: 55104109
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SystemParameters.CacheSize
 dev_langs:

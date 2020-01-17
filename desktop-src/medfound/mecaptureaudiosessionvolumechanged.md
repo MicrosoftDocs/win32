@@ -1,8 +1,8 @@
 ---
 Description: Sent by an audio capture source when the volume changes.
 ms.assetid: 4A525D5F-9226-4277-BDB7-174BF65FE320
-title: MECaptureAudioSessionVolumeChanged event
-ms.topic: article
+title: MECaptureAudioSessionVolumeChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

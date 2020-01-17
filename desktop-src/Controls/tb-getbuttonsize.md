@@ -1,5 +1,5 @@
 ---
-title: TB_GETBUTTONSIZE message
+title: TB_GETBUTTONSIZE message (Commctrl.h)
 description: Retrieves the current width and height of toolbar buttons, in pixels.
 ms.assetid: c1b72494-670b-4cf8-a78f-c67b6eee0677
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

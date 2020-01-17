@@ -1,5 +1,5 @@
 ---
-title: MCI_CUT command
+title: MCI_CUT command (Mmsystem.h)
 description: The MCI\_CUT command removes data from the file and copies it to the clipboard. Digital-video devices recognize this command.
 ms.assetid: 09bb505b-715a-4393-80f0-e9ba270a8ac1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_CUT command removes data from the file and copies it to the clipboard. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

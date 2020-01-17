@@ -1,8 +1,8 @@
 ---
 Description: Predefined sets of pipeline state used by state blocks (see State Blocks Save and Restore State (Direct3D 9)).
 ms.assetid: 60b94d45-aab6-4dbe-ab48-65dfe9861d82
-title: D3DSTATEBLOCKTYPE enumeration
-ms.topic: enumeration
+title: D3DSTATEBLOCKTYPE enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

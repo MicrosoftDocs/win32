@@ -14,9 +14,9 @@ Service providers expose the media type or types supported by the devices they c
 
 A given communications session, or call, can involve several media types. For further information, see Media type for a session.
 
-**TAPI 2.x:** See [**lineGetAddressCaps**](https://msdn.microsoft.com/en-us/library/ms735674(v=VS.85).aspx), **dwAvailableMediaModes** member of [**LINEADDRESSCAPS**](https://msdn.microsoft.com/en-us/library/ms734930(v=VS.85).aspx) structure pointed to by *lpAddressCaps*, [LINEMEDIAMODE\_ Constants](https://msdn.microsoft.com/en-us/library/ms735994(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineGetAddressCaps**](https://msdn.microsoft.com/library/ms735674(v=VS.85).aspx), **dwAvailableMediaModes** member of [**LINEADDRESSCAPS**](https://msdn.microsoft.com/library/ms734930(v=VS.85).aspx) structure pointed to by *lpAddressCaps*, [LINEMEDIAMODE\_ Constants](https://msdn.microsoft.com/library/ms735994(v=VS.85).aspx).
 
-**TAPI 3.x:** See [**ITTerminal::get\_MediaType**](https://msdn.microsoft.com/en-us/library/ms733188(v=VS.85).aspx), [TAPIMEDIATYPE\_ Constants](tapimediatype--constants.md).
+**TAPI 3.x:** See [**ITTerminal::get\_MediaType**](https://msdn.microsoft.com/library/ms733188(v=VS.85).aspx), [TAPIMEDIATYPE\_ Constants](tapimediatype--constants.md).
 
  
 

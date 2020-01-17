@@ -1,5 +1,5 @@
 ---
-title: EsentDatabasesNotFromSameSnapshotException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabasesNotFromSameSnapshotException methods
 TOCTitle: EsentDatabasesNotFromSameSnapshotException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesnotfromsamesnapshotexception_methods(v=EXCHG.10)

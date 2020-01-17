@@ -1,8 +1,8 @@
 ---
 Description: Converts point representative data to mesh adjacency information.
 ms.assetid: 6ae40486-74be-45a8-9971-f20517c8dcf0
-title: ID3DXBaseMesh::ConvertPointRepsToAdjacency method
-ms.topic: article
+title: ID3DXBaseMesh::ConvertPointRepsToAdjacency method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT ConvertPointRepsToAdjacency(
 *pPRep* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of one DWORD per vertex of the mesh that contains point representative data. This parameter is optional. Supplying a **NULL** value will cause this parameter to be interpreted as an "identity" array.
 
@@ -48,7 +48,7 @@ Pointer to an array of one DWORD per vertex of the mesh that contains point repr
 *pAdjacency* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh. The number of bytes in this array must be at least 3 \* [**ID3DXBaseMesh::GetNumFaces**](id3dxbasemesh--getnumfaces.md) \* sizeof(DWORD).
 
@@ -56,7 +56,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

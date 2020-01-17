@@ -3,7 +3,7 @@ Description: The Win32\_Keyboard WMI class represents a keyboard installed on a 
 ms.assetid: f42a8e4f-3db9-4f9a-88ca-336ec883e85b
 ms.tgt_platform: multiple
 title: Win32_Keyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Describes the location for the include file.
 ms.assetid: a15d363e-0d82-44a9-816b-edf2f60540b3
-title: D3DXINCLUDE_TYPE enumeration
-ms.topic: enumeration
+title: D3DXINCLUDE_TYPE enumeration (D3dx9shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

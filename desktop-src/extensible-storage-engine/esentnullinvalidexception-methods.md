@@ -1,5 +1,5 @@
 ---
-title: EsentNullInvalidException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNullInvalidException methods
 TOCTitle: EsentNullInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNullInvalidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnullinvalidexception_methods(v=EXCHG.10)

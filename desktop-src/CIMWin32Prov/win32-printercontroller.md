@@ -3,7 +3,7 @@ Description: The Win32\_PrinterController association WMI class relates a printe
 ms.assetid: fb483b28-11f1-4153-893e-492f71763712
 ms.tgt_platform: multiple
 title: Win32_PrinterController class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -25,7 +25,7 @@ api_location:
 
 # Win32\_PrinterController class
 
-The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
+The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -115,7 +115,7 @@ Data type: **CIM\_Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
 </dt> </dl>
 
 Reference to the [**CIM\_Controller**](cim-controller.md) instance representing the local device associated with this printer.
@@ -133,7 +133,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx)
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx)
 </dt> </dl>
 
 Reference to the [**Win32\_Printer**](win32-printer.md) instance representing the printer associated with the local device.

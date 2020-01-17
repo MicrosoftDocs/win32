@@ -1,5 +1,5 @@
 ---
-title: trunc
+title: trunc (Corecrt\_math.h)
 description: Truncates a floating-point value to the integer component.
 ms.assetid: a0978fa2-71f8-4257-8c90-96224c2ec953
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

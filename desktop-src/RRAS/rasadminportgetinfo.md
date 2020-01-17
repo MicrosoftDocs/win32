@@ -1,5 +1,5 @@
 ---
-title: RasAdminPortGetInfo function
+title: RasAdminPortGetInfo function (Rassapi.h)
 description: The RasAdminPortGetInfo function retrieves information about a specified port on a specified server.
 ms.assetid: 22837685-62a4-4e55-b88f-11019d5d4154
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

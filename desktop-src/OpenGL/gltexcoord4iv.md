@@ -1,5 +1,5 @@
 ---
-title: glTexCoord4iv function
+title: glTexCoord4iv function (Gl.h)
 description: Sets the current texture coordinates.
 ms.assetid: 4ce3070c-70c1-4a2b-a6e7-084a4baa3dc5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

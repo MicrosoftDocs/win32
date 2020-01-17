@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PixEngineTextureSliceIndex structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 127765F7-4EBF-4B66-9491-A6FE9DC673C8
 api_name: 

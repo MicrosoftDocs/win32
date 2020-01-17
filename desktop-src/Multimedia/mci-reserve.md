@@ -1,5 +1,5 @@
 ---
-title: MCI_RESERVE command
+title: MCI_RESERVE command (Mmsystem.h)
 description: The MCI\_RESERVE command allocates contiguous disk space for the workspace of the device driver instance for use with subsequent recording. Digital-video devices recognize this command.
 ms.assetid: 01f0a377-0179-4b05-a642-af152a7a12ae
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_RESERVE command allocates contiguous disk space for the workspace of the device driver instance for use with subsequent recording. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

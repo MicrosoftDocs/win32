@@ -24,7 +24,7 @@ Windows Media Player uses the PARAM element to define specific startup condition
 For example, if you want to define whether the **autoStart** property is True, you would embed the PARAM element inside the OBJECT element.
 
 
-```C++
+```HTML
 <OBJECT ID="Player"
   CLASSID="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6">
     <PARAM name="autoStart" value="True">

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the slice control mode. Valid values are 0, 1, and 2.
 ms.assetid: 5269DB79-639C-4F67-B885-BF1274CDB635
-title: CODECAPI_AVEncSliceControlMode property
-ms.topic: article
+title: CODECAPI_AVEncSliceControlMode property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

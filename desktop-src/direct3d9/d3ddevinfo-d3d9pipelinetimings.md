@@ -1,8 +1,8 @@
 ---
 Description: Percent of time processing data in the pipeline.
 ms.assetid: eb9dec27-2e45-4897-92af-8415c8fa08d4
-title: D3DDEVINFO_D3D9PIPELINETIMINGS structure
-ms.topic: structure
+title: D3DDEVINFO_D3D9PIPELINETIMINGS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -40,7 +40,7 @@ typedef struct D3DDEVINFO_D3D9PIPELINETIMINGS {
 **VertexProcessingTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Percent of time spent running vertex shaders.
 **PixelProcessingTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Percent of time spent running pixel shaders.
 **OtherGPUProcessingTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Percent of time spent doing other processing.
 **GPUIdleTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

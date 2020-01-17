@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagUseCredSsp method
+title: WSMan.SessionFlagUseCredSsp method (WSManDisp.h)
 description: Returns the value of the WSManFlagUseCredSsp authentication flag for use in the flags parameter of the WSMan.CreateSession method.
 ms.assetid: bb167445-91d6-4e06-a976-bf869320784a
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

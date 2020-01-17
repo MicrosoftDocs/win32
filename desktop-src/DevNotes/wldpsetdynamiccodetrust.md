@@ -1,8 +1,8 @@
 ---
 Description: Sets an on-disk .NET CRL Dynamic Code trustable for .NET.
 ms.assetid: 4C8C3EF5-5C3C-4710-8223-D7B5BA86EF47
-title: WldpSetDynamicCodeTrust function
-ms.topic: article
+title: WldpSetDynamicCodeTrust function (Wldp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

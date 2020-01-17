@@ -1,8 +1,8 @@
 ---
 Description: Resolves data references. Deprecated.
 ms.assetid: e8cf6e5d-c9b2-4a47-b058-24282dc65e74
-title: IDirectXFileDataReference::Resolve method
-ms.topic: article
+title: IDirectXFileDataReference::Resolve method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**IDirectXFileData**](idirectxfiledata.md) interface
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values: DXFILEERR\_BADVALUE, DXFILEERR\_NOTFOUND.
 

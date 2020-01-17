@@ -1,5 +1,5 @@
 ---
-title: TB_ADDBITMAP message
+title: TB_ADDBITMAP message (Commctrl.h)
 description: Adds one or more images to the list of button images available for a toolbar.
 ms.assetid: 9040ab84-a5f3-4e4b-bc90-590b2ceeaa5a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

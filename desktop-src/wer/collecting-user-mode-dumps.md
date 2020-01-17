@@ -12,8 +12,6 @@ Starting with Windows Server 2008 and Windows Vista with Service Pack 1 (SP1), W
 
 This feature is not enabled by default. Enabling the feature requires administrator privileges. To enable and configure the feature, use the following registry values under the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps** key.
 
-
-
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -62,9 +60,8 @@ This feature is not enabled by default. Enabling the feature requires administra
 </tbody>
 </table>
 
-
-
- 
+>[!NOTE]
+> A crash dump is not collected when you set [automatic debugging for **application** crashes](https://docs.microsoft.com/windows/win32/debug/configuring-automatic-debugging#configuring-automatic-debugging-for-application-crashes). 
 
 These registry values represent the global settings. You can also provide per-application settings that override the global settings. To create a per-application setting, create a new key for your application under **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps** (for example, **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps\\MyApplication.exe**). Add your dump settings under the **MyApplication.exe** key. If your application crashes, WER will first read the global settings, and then will override any of the settings with your application-specific settings.
 

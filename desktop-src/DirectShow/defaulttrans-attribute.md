@@ -2,7 +2,7 @@
 Description: The defaulttrans attribute specifies the class identifier (CLSID) of a default transition for the timeline.
 ms.assetid: 94579bca-d519-47fa-a8b7-d3349a78d4b7
 title: defaulttrans Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

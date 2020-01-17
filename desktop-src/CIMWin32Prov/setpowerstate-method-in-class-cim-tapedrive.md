@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_TapeDrive class sets the desir
 ms.assetid: 73f98d08-49da-4b21-91c4-cbe420c648e4
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_TapeDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

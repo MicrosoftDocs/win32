@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: CallbackCommandType enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 78E0CD6C-5264-4F66-BAB9-20DC9C0C1EC1
 api_name: 

@@ -2,7 +2,7 @@
 Description: The EvaluateCondition method of the Session object evaluates a logical expression that contains symbols and values. This method uses the MsiEvaluateCondition function.
 ms.assetid: 629f7efd-80fe-4a0e-95cc-b62d6258ae0a
 title: Session.EvaluateCondition method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

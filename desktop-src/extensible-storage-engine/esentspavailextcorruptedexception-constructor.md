@@ -1,11 +1,11 @@
 ---
-title: EsentSPAvailExtCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCorruptedException constructor 
 TOCTitle: 'EsentSPAvailExtCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcorruptedexception.esentspavailextcorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55107351
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSPAvailExtCorruptedException.EsentSPAvailExtCorruptedException
 dev_langs:

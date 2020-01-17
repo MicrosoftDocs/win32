@@ -1,7 +1,7 @@
 ---
 Description: Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro NetAddr\_SetAllowType.
-title: NET_STRING
-ms.topic: article
+title: NET_STRING (Iphlpapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4144dac9-772c-49cb-b924-e852fb4c81c7
 api_name: 

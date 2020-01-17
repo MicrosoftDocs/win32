@@ -1,8 +1,8 @@
 ---
 Description: Generates a new mesh with reordered faces and vertices to optimize drawing performance.
 ms.assetid: c03e112a-7c9b-4082-9afe-42e1c20b5f4d
-title: ID3DX10Mesh::Optimize method
-ms.topic: article
+title: ID3DX10Mesh::Optimize method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT Optimize(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies the type of optimization to perform. This parameter can be set to a combination of one or more flags from D3DXMESHOPT and D3DXMESH (except D3DXMESH\_32BIT, D3DXMESH\_IB\_WRITEONLY, and D3DXMESH\_WRITEONLY).
 
@@ -49,7 +49,7 @@ Specifies the type of optimization to perform. This parameter can be set to a co
 *pFaceRemap* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 An array of UINTs, one per face, that identifies the original mesh face that corresponds to each face in the optimized mesh. If the value supplied for this argument is **NULL**, face remap data is not returned.
 
@@ -66,7 +66,7 @@ Address of a pointer to an [**ID3D10Blob Interface**](/windows/desktop/api/D3DCo
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

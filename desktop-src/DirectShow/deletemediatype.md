@@ -1,8 +1,8 @@
 ---
 Description: The DeleteMediaType function deletes an allocated AM\_MEDIA\_TYPE structure, including the format block.
 ms.assetid: 970f6b2b-2bf5-418d-b4ae-637561cd6765
-title: DeleteMediaType function
-ms.topic: article
+title: DeleteMediaType function (Mtype.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

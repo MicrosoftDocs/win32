@@ -1,5 +1,5 @@
 ---
-title: SisRestoredCommonStoreFile function
+title: SisRestoredCommonStoreFile function (Sisbkup.h)
 description: Reports to the SIS architecture that a common-store file has been written.
 ms.assetid: 2b1cd9e7-a19c-4474-a40a-5a27d4feeab7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

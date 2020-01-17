@@ -26,7 +26,7 @@ Calling [**ITBasicCallControl2::UnselectTerminalOnCall**](/windows/desktop/api/t
 
 ## Selecting a Terminal on ITStream
 
-Selecting a single-track terminal on [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) (by calling [**ITStream::SelectTerminal**](https://msdn.microsoft.com/en-us/library/ms732429(v=VS.85).aspx)) selects the terminal on the stream. This is the usual TAPI 3 terminal selection procedure.
+Selecting a single-track terminal on [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) (by calling [**ITStream::SelectTerminal**](https://msdn.microsoft.com/library/ms732429(v=VS.85).aspx)) selects the terminal on the stream. This is the usual TAPI 3 terminal selection procedure.
 
 Only single-tracks terminals can be selected on a stream. Selecting a multitrack terminal on a stream will fail, because the stream will not recognize the media type and direction.
 

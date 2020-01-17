@@ -11,6 +11,8 @@ keywords:
 - standard clipboard formats
 - registered clipboard formats
 - synthesized clipboard formats
+- cloud clipboard formats
+- clipboard history formats
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -26,6 +28,7 @@ The following topics describe the clipboard formats.
 -   [Private Clipboard Formats](#private-clipboard-formats)
 -   [Multiple Clipboard Formats](#multiple-clipboard-formats)
 -   [Synthesized Clipboard Formats](#synthesized-clipboard-formats)
+-   [Cloud Clipboard and Clipboard History Formats](#cloud-clipboard-and-clipboard-history-formats)
 
 ## Standard Clipboard Formats
 
@@ -99,10 +102,14 @@ If you place the **CF\_BITMAP** format on the clipboard (and not **CF\_DIB**), t
 If the clipboard contains data in the **CF\_PALETTE** format, the application should use the [**SelectPalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette) and [**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette) functions to realize any other data in the clipboard against that logical palette.
 
 There are two clipboard formats for metafiles: **CF\_ENHMETAFILE** and **CF\_METAFILEPICT**. Specify **CF\_ENHMETAFILE** for enhanced metafiles and **CF\_METAFILEPICT** for Windows metafiles.
-
  
+## Cloud Clipboard and Clipboard History Formats
 
- 
+Certain formats must be invoked to exclude clipboard content by being processed and stored in the Cloud Clipboard content or Clipboard History content. If the clipboard contains the format  **ExcludeClipboardContentFromMonitorProcessing**, the ClipboardMonitor will ignore the content. The ClipboardMonitor is an internal component processing content to send the the Cloud Clipboard and saved to Clipboard History. For example, any copied data using this format, will not be recorded in Clipboard History. Use the **RegisterClipboardFormat** function to obtain the value of the current content's format. 
+
+To stop content from being included in Clipboard History, set the registered format as **CanIncludeInClipboardHistory** with a DWORD value of zero. (A DWORD value of one will include the content). 
+
+To stop content from being uploaded to Cloud Clipnoard, set the registered format to **CanUploadToCloudClipboard** with a DWORD value of zero. (A DWORD value of one will upload the content). 
 
 
 

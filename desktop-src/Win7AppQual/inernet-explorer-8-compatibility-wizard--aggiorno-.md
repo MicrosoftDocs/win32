@@ -1,7 +1,7 @@
 ---
 Description: .
 ms.assetid: E8287262-16CB-43F4-AFFC-BEE37EF881E8
-title: Internet Explorer 8 Compatibility Wizard (Aggiorno)
+title: IE 8 Compatibility Wizard
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -20,6 +20,3 @@ The Compatibility Wizard in Windows Internet Explorer 8 automatically upgrades 
  
 
  
-
-
-

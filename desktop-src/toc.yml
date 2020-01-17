@@ -281,6 +281,8 @@
             href: directwrite/direct-write-portal.md
           - name: "DirectXMath"
             href: dxmath/directxmath-portal.md
+          - name: "windowsnumerics.h APIs"
+            href: numerics_h/windowsnumerics-h-apis-portal.md
           - name: "Classic DirectX Graphics"
             items: 
             - name: "Overview"

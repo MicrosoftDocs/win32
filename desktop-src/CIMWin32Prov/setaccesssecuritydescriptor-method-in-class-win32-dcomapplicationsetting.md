@@ -3,7 +3,7 @@ Description: Updates the access security descriptor of the DCOM application with
 ms.assetid: 71b708ba-5eb7-400e-bee2-37ca93966c3f
 ms.tgt_platform: multiple
 title: SetAccessSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

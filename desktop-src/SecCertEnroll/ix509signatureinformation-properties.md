@@ -2,7 +2,7 @@
 Description: The IX509SignatureInformation interface exposes the following properties.
 ms.assetid: 2CEDCB67-8829-4C56-A82B-010AF6CB7B67
 title: IX509SignatureInformation Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

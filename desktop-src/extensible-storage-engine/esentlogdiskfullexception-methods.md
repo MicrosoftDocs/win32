@@ -1,5 +1,5 @@
 ---
-title: EsentLogDiskFullException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogDiskFullException methods
 TOCTitle: EsentLogDiskFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogdiskfullexception_methods(v=EXCHG.10)

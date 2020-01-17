@@ -1,5 +1,5 @@
 ---
-title: IWMPStringCollection2 (VB and C ) interface
+title: IWMPStringCollection2 (VB and C ) interface (Wmp.h)
 description: Provides methods that supplement the IWMPStringCollection interface.
 ms.assetid: be93ff47-7f76-4b5e-ad30-3094a75147c8
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

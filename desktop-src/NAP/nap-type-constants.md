@@ -1,5 +1,5 @@
 ---
-title: NAP Type Constants
+title: NAP Type Constants (NapTypes.h)
 description: The following NAP constants are defined.
 ms.assetid: 2727487c-8c6a-4cd9-b6d8-253191a7d7f6
 topic_type:
@@ -35,7 +35,7 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

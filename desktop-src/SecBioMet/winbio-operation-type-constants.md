@@ -1,5 +1,5 @@
 ---
-title: WINBIO_OPERATION_TYPE Constants
+title: WINBIO_OPERATION_TYPE Constants (Winbio\_types.h)
 description: Specify the type of asynchronous operation being performed.
 ms.assetid: D4ECEF91-BEC7-4A42-8808-F09F5C141180
 topic_type:
@@ -40,7 +40,7 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: exp2
+title: exp2 (Corecrt\_math.h)
 description: Returns the base 2 exponential, or 2x, of the specified value.
 ms.assetid: 68b0057c-864d-440b-84f6-781d5fa3b019
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

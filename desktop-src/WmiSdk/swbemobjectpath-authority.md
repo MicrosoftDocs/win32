@@ -2,8 +2,8 @@
 Description: The Authority property of the SWbemObjectPath object contains a string that defines the Authority component of the object path.
 ms.assetid: f00e5759-03b4-4333-b89e-5f54db73c3b7
 ms.tgt_platform: multiple
-title: SWbemObjectPath.Authority property
-ms.topic: article
+title: SWbemObjectPath.Authority property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

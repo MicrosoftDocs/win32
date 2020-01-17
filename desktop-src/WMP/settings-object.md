@@ -1,5 +1,5 @@
 ---
-title: Settings Object
+title: Settings Object (Windows Media Player SDK)
 description: The Settings object provides a way to modify various Windows Media Player settings by using the following properties and methods.
 ms.assetid: 'f22e8c37-f0c6-4268-a6ed-ce03cff5f3e5'
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Settings Object
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

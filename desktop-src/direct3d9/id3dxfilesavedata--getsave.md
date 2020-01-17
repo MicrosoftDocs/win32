@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a pointer to this ID3DXFileSaveObject file data node.
 ms.assetid: 092d1c6f-0a53-4b8e-84ec-bc76f3f647ac
-title: ID3DXFileSaveData::GetSave method
-ms.topic: article
+title: ID3DXFileSaveData::GetSave method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**ID3DXFileSaveObject**](id3dxfilesaveobject.md) int
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DXFERR\_BADVALUE.
 

@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.LogBuffers property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.LogBuffers property 
 TOCTitle: 'LogBuffers property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.LogBuffers
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.logbuffers(v=EXCHG.10)
 ms:contentKeyID: 55107472
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.LogBuffers
 dev_langs:

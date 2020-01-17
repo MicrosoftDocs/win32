@@ -1,8 +1,8 @@
 ---
 Description: Returns a point in Barycentric coordinates, using the specified 2D vectors.
 ms.assetid: 8eceb2c0-26a0-4a7f-9830-85327dcb31ab
-title: D3DXVec2BaryCentric function
-ms.topic: article
+title: D3DXVec2BaryCentric function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ D3DXVECTOR2* D3DXVec2BaryCentric(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -61,7 +61,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -70,7 +70,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *pV3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -79,7 +79,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -88,7 +88,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -96,7 +96,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR2 structure in Barycentric coordinates.
 

@@ -2,13 +2,13 @@
 Description: On Windows XP and later operating systems, the installer sets the MsiNTSuitePersonal property to 1 if the operating system is Windows XP Home Edition.
 ms.assetid: 324a4c45-bd64-4361-90ba-6a0554a9c5ef
 title: MsiNTSuitePersonal property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MsiNTSuitePersonal property
 
-On Windows XP and later operating systems, the installer sets the **MsiNTSuitePersonal** property to 1 if the operating system is Windows XP Home Edition. The installer sets this property to 1 only if the VER\_SUITE\_PERSONAL flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/en-us/library/ms724833(v=VS.85).aspx) structure. Otherwise the installer does not set this property.
+On Windows XP and later operating systems, the installer sets the **MsiNTSuitePersonal** property to 1 if the operating system is Windows XP Home Edition. The installer sets this property to 1 only if the VER\_SUITE\_PERSONAL flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/ms724833(v=VS.85).aspx) structure. Otherwise the installer does not set this property.
 
 ## Requirements
 

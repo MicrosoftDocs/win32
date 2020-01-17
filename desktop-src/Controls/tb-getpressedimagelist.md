@@ -1,5 +1,5 @@
 ---
-title: TB_GETPRESSEDIMAGELIST message
+title: TB_GETPRESSEDIMAGELIST message (Commctrl.h)
 description: Gets the image list that a toolbar control uses to display buttons in a pressed state.
 ms.assetid: 116d4212-48ea-4b00-a752-21e5e1f10e36
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: Instance.Init method (JET_RSTINFO, InitGrbit) (Microsoft.Isam.Esent.Interop)
+title: Instance.Init method (JET_RSTINFO, InitGrbit)
 TOCTitle: Init method (JET_RSTINFO, InitGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init(Microsoft.Isam.Esent.Interop.JET_RSTINFO,Microsoft.Isam.Esent.Interop.InitGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.init(v=EXCHG.10)
 ms:contentKeyID: 55103274
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

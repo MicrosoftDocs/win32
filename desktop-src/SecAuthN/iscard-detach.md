@@ -1,8 +1,8 @@
 ---
 Description: Closes the open connection to the smart card.
 ms.assetid: 7d768945-8d5d-4d29-b5bc-1b2ac5b0e114
-title: ISCard::Detach method
-ms.topic: article
+title: ISCard::Detach method (Scardmgr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::Detach method
 
-\[The **Detach** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Detach** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **Detach** method closes the open connection to the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **Detach** method closes the open connection to the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -39,13 +39,13 @@ HRESULT Detach(
 *Disposition* \[in\]
 </dt> <dd>
 
-Indicates what should be done with the card in the connected [*reader*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx).
+Indicates what should be done with the card in the connected [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx).
 
 
 
 | Value                                                                                                                                      | Meaning                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| <span id="LEAVE"></span><span id="leave"></span><dl> <dt>**LEAVE**</dt> </dl>       | Leaves the smart card in the current [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).<br/> |
+| <span id="LEAVE"></span><span id="leave"></span><dl> <dt>**LEAVE**</dt> </dl>       | Leaves the smart card in the current [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).<br/> |
 | <span id="RESET"></span><span id="reset"></span><dl> <dt>**RESET**</dt> </dl>       | Resets the smart card to some known state.<br/>                                                              |
 | <span id="UNPOWER"></span><span id="unpower"></span><dl> <dt>**UNPOWER**</dt> </dl> | Removes power from the smart card.<br/>                                                                      |
 | <span id="EJECT"></span><span id="eject"></span><dl> <dt>**EJECT**</dt> </dl>       | Ejects the smart card if the reader has eject capabilities.<br/>                                             |

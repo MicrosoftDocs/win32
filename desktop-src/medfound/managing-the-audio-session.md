@@ -55,7 +55,7 @@ What follows is a C++ class that handles the basic tasks in WASAPI:
 
 ### Class Declaration
 
-The `CAudioSessionVolume` class declaration implements the [**IAudioSessionEvents**](https://msdn.microsoft.com/en-us/library/Dd368289(v=VS.85).aspx) interface, which is the callback interface for audio session events.
+The `CAudioSessionVolume` class declaration implements the [**IAudioSessionEvents**](https://msdn.microsoft.com/library/Dd368289(v=VS.85).aspx) interface, which is the callback interface for audio session events.
 
 
 ```C++
@@ -146,10 +146,10 @@ When the `CAudioSessionVolume` object receives an audio session event, it posts 
 
 `CAudioSessionVolume` uses two main WASAPI interfaces:
 
--   [**IAudioSessionControl**](https://msdn.microsoft.com/en-us/library/Dd368246(v=VS.85).aspx) manages the audio session.
--   [**ISimpleAudioVolume**](https://msdn.microsoft.com/en-us/library/Dd316531(v=VS.85).aspx) controls the volume level and mute state of the session.
+-   [**IAudioSessionControl**](https://msdn.microsoft.com/library/Dd368246(v=VS.85).aspx) manages the audio session.
+-   [**ISimpleAudioVolume**](https://msdn.microsoft.com/library/Dd316531(v=VS.85).aspx) controls the volume level and mute state of the session.
 
-To get these interfaces, you must enumerate the audio endpoint that is used by the SAR. An *audio endpoint* is a hardware device that captures or consumes audio data. For audio playback, an endpoint is simply a speaker or other audio output. By default, the SAR uses the default endpoint for the **eConsole** device role. A *device role* is an assigned role for an endpoint. Device roles are specified by the [**ERole**](https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx) enumeration, which is documented in [Core Audio APIs](https://msdn.microsoft.com/en-us/library/Dd370802(v=VS.85).aspx).
+To get these interfaces, you must enumerate the audio endpoint that is used by the SAR. An *audio endpoint* is a hardware device that captures or consumes audio data. For audio playback, an endpoint is simply a speaker or other audio output. By default, the SAR uses the default endpoint for the **eConsole** device role. A *device role* is an assigned role for an endpoint. Device roles are specified by the [**ERole**](https://msdn.microsoft.com/library/Dd370842(v=VS.85).aspx) enumeration, which is documented in [Core Audio APIs](https://msdn.microsoft.com/library/Dd370802(v=VS.85).aspx).
 
 The following code shows how to enumerate the endpoint and get the WASAPI interfaces.
 
@@ -230,7 +230,7 @@ done:
 
 ### Controlling the Volume
 
-The `CAudioSessionVolume` methods that control the audio volume call the equivalent [**ISimpleAudioVolume**](https://msdn.microsoft.com/en-us/library/Dd316531(v=VS.85).aspx) methods. For example, `CAudioSessionVolume::SetVolume` calls [**ISimpleAudioVolume::SetMasterVolume**](https://msdn.microsoft.com/en-us/library/Dd316537(v=VS.85).aspx), as shown in the following code.
+The `CAudioSessionVolume` methods that control the audio volume call the equivalent [**ISimpleAudioVolume**](https://msdn.microsoft.com/library/Dd316531(v=VS.85).aspx) methods. For example, `CAudioSessionVolume::SetVolume` calls [**ISimpleAudioVolume::SetMasterVolume**](https://msdn.microsoft.com/library/Dd316537(v=VS.85).aspx), as shown in the following code.
 
 
 ```C++

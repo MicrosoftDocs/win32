@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseAlreadyRunningMaintenanceException class (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseAlreadyRunningMaintenanceException class
 TOCTitle: EsentDatabaseAlreadyRunningMaintenanceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasealreadyrunningmaintenanceexception(v=EXCHG.10)
 ms:contentKeyID: 55101317
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException
 dev_langs:

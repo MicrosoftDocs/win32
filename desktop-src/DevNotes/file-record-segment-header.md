@@ -2,7 +2,7 @@
 Description: Represents the file record segment. This is the header for each file record segment in the master file table (MFT).
 ms.assetid: 4548ad49-1924-4888-8966-c45f8e453c6f
 title: FILE_RECORD_SEGMENT_HEADER structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -124,7 +124,7 @@ The update sequence array to protect multisector transfers of the file record se
 
 Note that there is no associated header file for this structure.
 
-This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364569(v=VS.85).aspx).
+This structure definition is valid only for major version 3 and minor version 0 or 1, as reported by [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](https://msdn.microsoft.com/library/Aa364569(v=VS.85).aspx).
 
 ## See also
 

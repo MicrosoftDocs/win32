@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottomRightRadiusX methods
+title: IDCompositionRectangleClip SetBottomRightRadiusX methods (Dcomp.h)
 description: Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property specifies the x radius of the ellipse that rounds the lower-right corner of the clip.
 ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetBottomRightRadiusX methods
@@ -24,8 +24,8 @@ Changes or animates the value of the BottomRightRadiusX property of this clip. T
 
 | Method                                                                                                                             | Description                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**SetBottomRightRadiusX(float)**](https://msdn.microsoft.com/en-us/library/Hh448851(v=VS.85).aspx)                                     | Changes the value of the BottomRightRadiusX property of this clip.<br/>  |
-| [**SetBottomRightRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448853(v=VS.85).aspx) | Animates the value of the BottomRightRadiusX property of this clip.<br/> |
+| [**SetBottomRightRadiusX(float)**](https://msdn.microsoft.com/library/Hh448851(v=VS.85).aspx)                                     | Changes the value of the BottomRightRadiusX property of this clip.<br/>  |
+| [**SetBottomRightRadiusX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448853(v=VS.85).aspx) | Animates the value of the BottomRightRadiusX property of this clip.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the BottomRightRadiusX property of this clip. T
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

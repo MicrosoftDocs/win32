@@ -1,8 +1,8 @@
 ---
 Description: The SetPortInfo method sets the 16-bit port value for the first port and the number of ports needed for a session.
 ms.assetid: 4726b39b-cd10-4630-8f38-8671db4f432b
-title: ITMedia::SetPortInfo method
-ms.topic: article
+title: ITMedia::SetPortInfo method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

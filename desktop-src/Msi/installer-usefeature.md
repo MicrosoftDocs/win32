@@ -2,7 +2,7 @@
 Description: The UseFeature method of the Installer object increments the usage count for a particular feature and returns the installation state for that feature. This method should be used to indicate an application's intent to use a feature.
 ms.assetid: c9ea812c-2f95-4ba4-ad8e-b96f7fc14bb1
 title: Installer.UseFeature method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

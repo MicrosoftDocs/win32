@@ -1,5 +1,5 @@
 ---
-title: glGetClipPlane function
+title: glGetClipPlane function (Gl.h)
 description: The glGetClipPlane function returns the coefficients of the specified clipping plane.
 ms.assetid: 8ff5ee0a-95c1-4321-8aa8-3d9d144d1ef6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

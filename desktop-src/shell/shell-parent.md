@@ -1,8 +1,8 @@
 ---
 Description: Gets an object that represents the parent of the current object.
 ms.assetid: 76c2f72c-5ef6-4f2c-bdfc-62ced6dbc504
-title: Shell.Parent property
-ms.topic: article
+title: Shell.Parent property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ Property Parent As Object
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the parent object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the parent object.
 
 ## Examples
 

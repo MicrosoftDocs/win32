@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether a video capture source is a hardware device or a software device.
 ms.assetid: 4a886124-54f1-4cd1-a22b-552e8c8d556f
-title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_HW_SOURCE attribute
-ms.topic: article
+title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_HW_SOURCE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

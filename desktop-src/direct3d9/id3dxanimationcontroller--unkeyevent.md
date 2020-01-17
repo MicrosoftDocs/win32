@@ -1,8 +1,8 @@
 ---
 Description: Removes a specified event from an animation track, preventing the execution of the event.
 ms.assetid: 658ffe91-44ba-4bde-b78c-c545dff27ab1
-title: ID3DXAnimationController::UnkeyEvent method
-ms.topic: article
+title: ID3DXAnimationController::UnkeyEvent method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Event handle to the event to be removed from the animation track.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

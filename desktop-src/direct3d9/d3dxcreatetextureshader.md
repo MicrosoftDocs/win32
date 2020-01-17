@@ -1,8 +1,8 @@
 ---
 Description: Creates a texture shader object from the compiled shader.
 ms.assetid: 3e8017f7-fe6b-4f4e-a80e-b16b16c0b348
-title: D3DXCreateTextureShader function
-ms.topic: article
+title: D3DXCreateTextureShader function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT D3DXCreateTextureShader(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the function DWORD stream.
 
@@ -56,7 +56,7 @@ Returns an [**ID3DXTextureShader**](id3dxtextureshader.md) object which can be u
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

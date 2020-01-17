@@ -1,8 +1,8 @@
 ---
 Description: The InactivateWindow method inactivates the window. In the base class, this method hides the window.
 ms.assetid: b575d4fd-dee1-4ae5-abb4-e92ae361e82a
-title: CBaseWindow.InactivateWindow method
-ms.topic: article
+title: CBaseWindow.InactivateWindow method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

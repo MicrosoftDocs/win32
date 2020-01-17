@@ -3,7 +3,7 @@ Description: Sets the rights parameter as a bitmap with each bit corresponding t
 ms.assetid: f28391a8-2b34-4234-bf1a-4688726b0b4b
 ms.tgt_platform: multiple
 title: GetCallerAccessRights method of the __SystemSecurity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

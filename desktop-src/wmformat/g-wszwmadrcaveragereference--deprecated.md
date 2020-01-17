@@ -1,5 +1,5 @@
 ---
-title: g_wszWMADRCAverageReference
+title: g_wszWMADRCAverageReference (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 422a2024-7dfd-4f76-a9e1-437eb5aa7adf
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

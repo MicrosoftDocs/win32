@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Socket Options and IOCTLs
 
-Some of the socket options for Windows Sockets 2 are summarized in the following table. More detailed information is provided in section 4 under [**WSPGetSockOpt**](https://msdn.microsoft.com/en-us/library/ms742281(v=VS.85).aspx) and/or [**WSPSetSockOpt**](https://msdn.microsoft.com/en-us/library/ms742293(v=VS.85).aspx). There are other new protocol-specific socket options which can be found in the Protocol-Specific Annex. A complete list of [**Socket Options**](socket-options.md) for Windows Sockets are available in the Winsock reference.
+Some of the socket options for Windows Sockets 2 are summarized in the following table. More detailed information is provided in section 4 under [**WSPGetSockOpt**](https://msdn.microsoft.com/library/ms742281(v=VS.85).aspx) and/or [**WSPSetSockOpt**](https://msdn.microsoft.com/library/ms742293(v=VS.85).aspx). There are other new protocol-specific socket options which can be found in the Protocol-Specific Annex. A complete list of [**Socket Options**](socket-options.md) for Windows Sockets are available in the Winsock reference.
 
 For a a summary of some of the Winsock Ioctls, see [Summary of Socket Ioctl Opcodes](summary-of-socket-ioctl-opcodes-2.md). A complete list of [**Winsock IOCTLs**](winsock-ioctls.md) are available in the Winsock reference.
 
 ## Summary of Common Socket Options
 
-A Winsock service provider must recognize all of these options, and (for [**WSPGetSockOpt**](https://msdn.microsoft.com/en-us/library/ms742281(v=VS.85).aspx)) return plausible values for each. The default value for each option is shown in the following table.
+A Winsock service provider must recognize all of these options, and (for [**WSPGetSockOpt**](https://msdn.microsoft.com/library/ms742281(v=VS.85).aspx)) return plausible values for each. The default value for each option is shown in the following table.
 
 Value
 
@@ -32,7 +32,7 @@ BOOL
 
 Socket is listening.
 
-FALSE unless a [**WSPListen**](https://msdn.microsoft.com/en-us/library/ms742284(v=VS.85).aspx) has been performed.
+FALSE unless a [**WSPListen**](https://msdn.microsoft.com/library/ms742284(v=VS.85).aspx) has been performed.
 
 <span id="SO_BROADCAST"></span><span id="so_broadcast"></span>SO\_BROADCAST
 
@@ -134,7 +134,7 @@ FALSE
 
 <span id="SO_PROTOCOL_INFOW"></span><span id="so_protocol_infow"></span>SO\_PROTOCOL\_INFOW
 
-structure [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx)
+structure [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx)
 
 Description of protocol information for the protocol that is bound to this socket.
 
@@ -194,7 +194,7 @@ Disables the Nagle algorithm for send coalescing.
 
 Implementation dependent
 
-(i) A service provider may silently ignore this option on [**WSPSetSockOpt**](https://msdn.microsoft.com/en-us/library/ms742293(v=VS.85).aspx) and return a constant value for [**WSPGetSockOpt**](https://msdn.microsoft.com/en-us/library/ms742281(v=VS.85).aspx), or it may accept a value for **WSPSetSockOpt** and return the corresponding value in **WSPGetSockOpt** without using the value in any way.
+(i) A service provider may silently ignore this option on [**WSPSetSockOpt**](https://msdn.microsoft.com/library/ms742293(v=VS.85).aspx) and return a constant value for [**WSPGetSockOpt**](https://msdn.microsoft.com/library/ms742281(v=VS.85).aspx), or it may accept a value for **WSPSetSockOpt** and return the corresponding value in **WSPGetSockOpt** without using the value in any way.
 
 
 

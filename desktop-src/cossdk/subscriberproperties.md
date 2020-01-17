@@ -2,7 +2,7 @@
 Description: Contains an object for each subscriber property for the parent SubscriptionsForComponent collection.
 ms.assetid: 58c9edbd-1128-4b8c-bb5a-528c212aa6a7
 title: SubscriberProperties collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

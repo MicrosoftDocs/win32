@@ -75,54 +75,54 @@
       - name: "DFS_GET_PKT_ENTRY_STATE_ARG"
         href: /windows/desktop/api/lmdfs/ns-lmdfs-get_pkt_entry_state_arg
       - name: "_DFS_INFO_1 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_1
       - name: "_DFS_INFO_2 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_2
       - name: "_DFS_INFO_3 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_3
       - name: "_DFS_INFO_4 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_4
       - name: "_DFS_INFO_5 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_5
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_5
       - name: "_DFS_INFO_6 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_6
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_6
       - name: "_DFS_INFO_7 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_7
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_7
       - name: "_DFS_INFO_8 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_8
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_8
       - name: "_DFS_INFO_9 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_9
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_9
       - name: "_DFS_INFO_50 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_50
       - name: "_DFS_INFO_100 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_100
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_100
       - name: "_DFS_INFO_101 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_101
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_101
       - name: "_DFS_INFO_102 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_102
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_102
       - name: "_DFS_INFO_103 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_103
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_103
       - name: "_DFS_INFO_104 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_104
       - name: "_DFS_INFO_105 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_105
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_105
       - name: "_DFS_INFO_106 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_106
       - name: "_DFS_INFO_107 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_107
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_107
       - name: "_DFS_INFO_150 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_150
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_150
       - name: "_DFS_INFO_200 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_200
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_200
       - name: "_DFS_INFO_300 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_300
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_300
       - name: "_DFS_STORAGE_INFO structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info
       - name: "_DFS_STORAGE_INFO_1 structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info_1
       - name: "_DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info
       - name: "_DFS_TARGET_PRIORITY structure"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-_dfs_target_priority
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_target_priority
       - name: "_DFS_TARGET_PRIORITY_CLASS enumeration"
         href: /windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class

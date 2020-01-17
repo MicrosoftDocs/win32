@@ -1,8 +1,8 @@
 ---
 Description: Sent by an application to direct the IME window to carry out the requested command.
 ms.assetid: 5d3b7f8a-57c9-41e3-8022-9a3f515fc32e
-title: WM_IME_CONTROL message
-ms.topic: article
+title: WM_IME_CONTROL message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

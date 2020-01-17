@@ -2,7 +2,7 @@
 title: atomic_umax (sm5 - asm)
 description: Atomic unsigned integer maximum to memory.
 ms.assetid: 7255B67A-37BE-443A-BDF2-A1D4A56C5E11
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

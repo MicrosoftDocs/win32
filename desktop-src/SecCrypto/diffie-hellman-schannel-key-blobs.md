@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # Diffie-Hellman/Schannel Key BLOBs
 
-[*BLOBs*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) are used with the [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx)/[*Schannel*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) provider to export keys from, and import keys into, the [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP).
+[*BLOBs*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) are used with the [*Diffie-Hellman*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)/[*Schannel*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) provider to export keys from, and import keys into, the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
 
 -   [Public Key BLOBs](#public-key-blobs)
 -   [Private Key BLOBs](#private-key-blobs)
 
 ## Public Key BLOBs
 
-Diffie-Hellman [*public key BLOBs*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx), type **PUBLICKEYBLOB**, are used to exchange the (G^X) mod P value in a Diffie-Hellman key exchange. These keys are exported and imported as a sequence of bytes with the following format.
+Diffie-Hellman [*public key BLOBs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx), type **PUBLICKEYBLOB**, are used to exchange the (G^X) mod P value in a Diffie-Hellman key exchange. These keys are exported and imported as a sequence of bytes with the following format.
 
 ``` syntax
 PUBLICKEYSTRUC  publickeystruc;
@@ -23,15 +23,15 @@ DHPUBKEY        dhpubkey;
 BYTE            y[dhpubkey.bitlen/8]; // Where y = (G^X) mod P
 ```
 
-The following table describes each component of the [*key BLOB*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx).
+The following table describes each component of the [*key BLOB*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx).
 
 
 
 | Field          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dhpubkey       | A [**DHPUBKEY**](/windows/win32/api/wincrypt/ns-wincrypt-dhpubkey) structure. The **magic** member must be set to 0x31484400. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of DH1.                                                                                                                                                                                                                                                                                                                                                      |
+| dhpubkey       | A [**DHPUBKEY**](/windows/win32/api/wincrypt/ns-wincrypt-dhpubkey) structure. The **magic** member must be set to 0x31484400. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) encoding of DH1.                                                                                                                                                                                                                                                                                                                                                      |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| y              | A **BYTE** sequence. The y value, (G^X) mod P, is located directly after the [**DHPUBKEY**](/windows/win32/api/wincrypt/ns-wincrypt-dhpubkey) structure. The length, in bytes, of the sequence is the **bitlen** member of **DHPUBKEY** divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by eight, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([*little-endian*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format). |
+| y              | A **BYTE** sequence. The y value, (G^X) mod P, is located directly after the [**DHPUBKEY**](/windows/win32/api/wincrypt/ns-wincrypt-dhpubkey) structure. The length, in bytes, of the sequence is the **bitlen** member of **DHPUBKEY** divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by eight, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([*little-endian*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) format). |
 
 
 
@@ -39,7 +39,7 @@ The following table describes each component of the [*key BLOB*](https://msdn.mi
 
 ## Private Key BLOBs
 
-D-H [*private key BLOBs*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx), type **PRIVATEKEYBLOB**, are used to export and import private information of a D-H key. These keys are exported and imported as a sequence of bytes with the following format.
+D-H [*private key BLOBs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx), type **PRIVATEKEYBLOB**, are used to export and import private information of a D-H key. These keys are exported and imported as a sequence of bytes with the following format.
 
 ``` syntax
 PUBLICKEYSTRUC  publickeystruc;
@@ -55,7 +55,7 @@ The following table describes each component of the key BLOB.
 
 | Field          | Description                                                                                                                                                                                                |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dhpubkey       | A [**DHPUBKEY**](/windows/win32/api/wincrypt/ns-wincrypt-dhpubkey) structure. The **magic** member must be set to 0x32484400. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) encoding of DH2. |
+| dhpubkey       | A [**DHPUBKEY**](/windows/win32/api/wincrypt/ns-wincrypt-dhpubkey) structure. The **magic** member must be set to 0x32484400. This hexadecimal value is the [*ASCII*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) encoding of DH2. |
 | generator      | A **BYTE** sequence. The generator G.                                                                                                                                                                      |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) structure.                                                                                                                                                      |
 | prime          | A **BYTE** sequence. The prime modulus, P. This data must always have the most significant bit of the most significant byte set to one.                                                                    |
@@ -66,7 +66,7 @@ The following table describes each component of the key BLOB.
  
 
 > [!Note]  
-> The prime, generator, and secret values must always have the same length, in bytes. If any value is one byte or more shorter than the others, it must be padded with the necessary number of zero bytes to make them the same. The prime, generator, and secret are in [*little-endian*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) format.
+> The prime, generator, and secret values must always have the same length, in bytes. If any value is one byte or more shorter than the others, it must be padded with the necessary number of zero bytes to make them the same. The prime, generator, and secret are in [*little-endian*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) format.
 
  
 

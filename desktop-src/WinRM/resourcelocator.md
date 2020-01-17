@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator object
+title: ResourceLocator object (WSManDisp.h)
 description: Supplies the path to a resource. You can use a ResourceLocator object instead of a resource URI in Session object operations such as Session.Get, Session.Put, or Session.Enumerate.
 ms.assetid: 0904b7eb-d4ce-46a7-bf58-452e7c0d41e9
 ms.tgt_platform: multiple
@@ -14,7 +14,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

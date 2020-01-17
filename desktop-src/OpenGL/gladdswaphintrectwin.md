@@ -1,5 +1,5 @@
 ---
-title: glAddSwapHintRectWIN function
+title: glAddSwapHintRectWIN function (Gl.h)
 description: The glAddSwapHintRectWIN callback function specifies a set of rectangles that are to be copied by SwapBuffers.
 ms.assetid: f242e755-8e8a-471a-9884-47efa22a3de6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

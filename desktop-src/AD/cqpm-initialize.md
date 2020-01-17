@@ -1,5 +1,5 @@
 ---
-title: CQPM_INITIALIZE message
+title: CQPM_INITIALIZE message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page when the page is added to a form.
 ms.assetid: 29cb39d5-9bc4-472e-8a2f-dc6cd505144a
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

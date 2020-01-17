@@ -1,7 +1,7 @@
 ---
 Description: Effects are a higher level abstraction that take advantage of vertex and pixel shaders to encapsulate rendering effects. Effects can be written with the high-level language or with the shader assembly language.
 ms.assetid: e44fc38f-5b08-497a-a6e7-cfd64661ed30
-title: Effect Reference
+title: Effect Reference (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -19,7 +19,7 @@ Here are the API topics.
 -   [Effect Format (Direct3D 9)](dx9-graphics-reference-effects-file-format.md)
 -   [DirectX Standard Annotations and Semantics Reference](dx9-graphics-reference-effects-dxsas.md)
 
-As an alternative to using the API to create effects, you can also use a command line compile tool. See [Effect-Compiler Tool](https://msdn.microsoft.com/en-us/library/Bb232919(v=VS.85).aspx).
+As an alternative to using the API to create effects, you can also use a command line compile tool. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx).
 
 ## Related topics
 

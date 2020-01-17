@@ -3,7 +3,7 @@ title: IMsRdpClientAdvancedSettings7 Properties
 description: The IMsRdpClientAdvancedSettings7 interface exposes the following properties.
 ms.assetid: 5F4F7148-FCD0-4FBF-A67A-56B43CB4DE12
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

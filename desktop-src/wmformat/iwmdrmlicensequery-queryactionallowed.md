@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseQuery QueryActionAllowed method
+title: IWMDRMLicenseQuery QueryActionAllowed method (Wmdrmsdk.h)
 description: The QueryActionAllowed method performs a query on the local license store to retrieve the license status for one or more DRM actions that apply to a specified Key ID.
 ms.assetid: 814c2850-c036-4c44-a64e-861e88f16fb1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

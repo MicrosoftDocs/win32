@@ -1,8 +1,8 @@
 ---
 Description: The SetBufferValue method adds a new BYTE\* value (type VT\_VECTOR \| VT\_UI1) or overwrites an existing one.
 ms.assetid: 6c421240-2ff8-4862-bd90-1feee5d15a8d
-title: IPortableDeviceValues::SetBufferValue method
-ms.topic: article
+title: IPortableDeviceValues::SetBufferValue method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

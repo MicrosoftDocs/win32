@@ -1,8 +1,8 @@
 ---
 Description: Gets the line stipple pattern.
 ms.assetid: 4f461cd8-e17f-4eda-b47d-256220f65a66
-title: ID3DXLine::GetPattern method
-ms.topic: article
+title: ID3DXLine::GetPattern method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the line stipple pattern: 1 is opaque, 0 is transparent.
 

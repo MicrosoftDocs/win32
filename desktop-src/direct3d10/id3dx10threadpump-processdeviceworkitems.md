@@ -1,8 +1,8 @@
 ---
 Description: Set work items to the device after they have finished loading and processing.
 ms.assetid: 67a9fcb2-3513-413d-ac3d-9988ef7b5a1f
-title: ID3DX10ThreadPump::ProcessDeviceWorkItems method
-ms.topic: article
+title: ID3DX10ThreadPump::ProcessDeviceWorkItems method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT ProcessDeviceWorkItems(
 *iWorkItemCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of work items to set to the device. ProcessDeviceObjectCreation will create at most iWorkItemCount objects. If there are not enough work items in the queue to process iWorkItemCount objects, ProcessDeviceObjectCreation will create as many device objects as there are items in the queue.
 
@@ -46,7 +46,7 @@ The number of work items to set to the device. ProcessDeviceObjectCreation will 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

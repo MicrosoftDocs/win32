@@ -1,5 +1,5 @@
 ﻿---
-title: JET_LOGTIME operators (Microsoft.Isam.Esent.Interop)
+title: JET_LOGTIME operators
 TOCTitle: JET_LOGTIME operators
 ms:assetid: a1323f48-4e9c-9fb8-c3a3-3d59154e7b2b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh565530(v=EXCHG.10)

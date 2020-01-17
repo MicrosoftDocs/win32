@@ -2,7 +2,7 @@
 Description: This class is the event type class for disk I/O events. The following syntax is simplified from MOF code.
 ms.assetid: fe7d4efa-3d39-4438-a1a6-af3f65ea3deb
 title: DiskIo_TypeGroup1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -119,7 +119,7 @@ Access type: Read-only
 Qualifiers: [**WmiDataId**](event-tracing-mof-qualifiers.md) (8)
 </dt> </dl>
 
-The time between I/O initiation and completion as measured by the partition manager (in the [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/en-us/library/Ff553053(v=VS.85).aspx) tick units).
+The time between I/O initiation and completion as measured by the partition manager (in the [**KeQueryPerformanceCounter**](https://msdn.microsoft.com/library/Ff553053(v=VS.85).aspx) tick units).
 
 **Windows Server 2003:** This property has a [**WmiDataId**](event-tracing-mof-qualifiers.md) value of 7.
 

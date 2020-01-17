@@ -2,7 +2,7 @@
 Description: Creates an instance of the BoundingBox class.
 ms.assetid: 9d8c25de-ed8b-4705-a29d-3a1638b0533f
 title: BoundingBox constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,9 +23,9 @@ Creates an instance of the `BoundingBox` class.
 
 | Constructor                                                                 | Description                                                |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [**BoundingBox ()**](https://msdn.microsoft.com/en-us/library/Hh437810(v=VS.85).aspx)                                | Creates an instance of the `BoundingBox` class.<br/> |
-| [**BoundingBox (const BoundingBox&)**](https://msdn.microsoft.com/en-us/library/Hh437808(v=VS.85).aspx)              | Creates an instance of the `BoundingBox` class.<br/> |
-| [**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](https://msdn.microsoft.com/en-us/library/Hh437809(v=VS.85).aspx) | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox ()**](https://msdn.microsoft.com/library/Hh437810(v=VS.85).aspx)                                | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox (const BoundingBox&)**](https://msdn.microsoft.com/library/Hh437808(v=VS.85).aspx)              | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](https://msdn.microsoft.com/library/Hh437809(v=VS.85).aspx) | Creates an instance of the `BoundingBox` class.<br/> |
 
 
 

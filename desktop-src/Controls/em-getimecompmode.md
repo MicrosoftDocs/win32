@@ -1,5 +1,5 @@
 ---
-title: EM_GETIMECOMPMODE message
+title: EM_GETIMECOMPMODE message (Richedit.h)
 description: Retrieves the current Input Method Editor (IME) mode for a rich edit control.
 ms.assetid: dac96833-4c3d-4da7-9ea4-52204434ec10
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

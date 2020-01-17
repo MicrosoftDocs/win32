@@ -2,7 +2,7 @@
 Description: The value of the ADVERTISE property is a list of features delimited by commas that are to be advertised.
 ms.assetid: ef97f70b-e4bf-4eb3-b643-046a9c348823
 title: ADVERTISE property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

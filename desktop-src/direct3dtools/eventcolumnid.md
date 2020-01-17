@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: EVENTCOLUMNID enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 908CC94B-DD06-4FEC-9DC8-B61D03D34F6E
 api_name: 

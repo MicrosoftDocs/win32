@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the size of the current selection has changed, for example through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 606d4bdf-b02e-459f-a4cf-050daac6c309
-title: InkOverlay.SelectionResized event
-ms.topic: article
+title: InkOverlay.SelectionResized event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -28,7 +28,7 @@ void SelectionResized(
 *OldSelectionRect* \[in\]
 </dt> <dd>
 
-The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionResized** event fired.
+The bounding rectangle of the selected [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection as it existed before the **SelectionResized** event fired.
 
 > [!Note]  
 > This rectangle is specified in ink space coordinates, which allows for undo scenarios.

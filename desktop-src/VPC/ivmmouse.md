@@ -1,5 +1,5 @@
 ---
-title: IVMMouse interface
+title: IVMMouse interface (VPCCOMInterfaces.h)
 description: Controls the mouse device within a VM.
 ms.assetid: 13bbf980-aafd-4c63-b1cb-60f00b738d1f
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Controls the mouse device within a virtual machine (VM). The **IVMMouse** for a 
 
 ## Members
 
-The **IVMMouse** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMMouse** also has these types of members:
+The **IVMMouse** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMMouse** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

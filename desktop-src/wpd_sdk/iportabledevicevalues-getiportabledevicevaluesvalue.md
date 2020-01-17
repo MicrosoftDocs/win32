@@ -1,8 +1,8 @@
 ---
 Description: The GetIPortableDeviceValuesValue method retrieves an IPortableDeviceValues value (type VT\_UNKNOWN) specified by a key.
 ms.assetid: bf62c6a9-560b-4667-94d0-2dea6657eed1
-title: IPortableDeviceValues::GetIPortableDeviceValuesValue method
-ms.topic: article
+title: IPortableDeviceValues::GetIPortableDeviceValuesValue method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

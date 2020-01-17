@@ -1,8 +1,8 @@
 ---
 Description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
-title: SetTraceCallback function
-ms.topic: article
+title: SetTraceCallback function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -59,7 +59,7 @@ Pointer to an [**EventClassCallback**](eventclasscallback.md) function used to p
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionMatrixTransform SetMatrixElement methods
+title: IDCompositionMatrixTransform SetMatrixElement methods (Dcomp.h)
 description: Changes or animates the value of one element of the matrix of this 2D transform.
 ms.assetid: ADF3D443-6764-40A5-AD5C-7C3053E247CB
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionMatrixTransform::SetMatrixElement methods
@@ -24,7 +24,7 @@ Changes or animates the value of one element of the matrix of this 2D transform.
 
 | Method                                                                                                                               | Description                                                                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**SetMatrixElement(int, int, float)**](https://msdn.microsoft.com/en-us/library/Hh437431(v=VS.85).aspx)                                           | Changes the value of one element of the matrix of this 2D transform.<br/>  |
+| [**SetMatrixElement(int, int, float)**](https://msdn.microsoft.com/library/Hh437431(v=VS.85).aspx)                                           | Changes the value of one element of the matrix of this 2D transform.<br/>  |
 | [**SetMatrixElement(int, int, IDCompositionAnimation\*)**](idcompositionmatrixtransform-setmatrixelement-idcompositionanimation.md) | Animates the value of one element of the matrix of this 2D transform.<br/> |
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of one element of the matrix of this 2D transform.
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx)
+[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/library/Hh437424(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the dynamic range control profile in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 539fd5c9-6dd9-45d6-8e19-1cda91fb4559
-title: AVEncDDDynamicRangeCompressionControl property
-ms.topic: article
+title: AVEncDDDynamicRangeCompressionControl property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDDynamicRangeCompressionControl**](https://msdn.microsoft.com/en-us/library/Dd319379(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncDDDynamicRangeCompressionControl**](https://msdn.microsoft.com/library/Dd319379(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

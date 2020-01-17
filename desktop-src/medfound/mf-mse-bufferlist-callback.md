@@ -2,7 +2,7 @@
 Description: Contains a pointer to the applications callback interface for the IMFBufferListNotify.
 ms.assetid: 9A68B650-97C0-4323-ACBF-5C8E496E8566
 title: MF_MSE_BUFFERLIST_CALLBACK attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

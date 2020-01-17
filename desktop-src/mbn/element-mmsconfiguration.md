@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: MmsConfiguration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -17,7 +17,7 @@ In addition to setting the configuration elements within this element, an MMS pr
 
 -   Its [**Name**](element-name.md) element must contain a system-wide unique name.
 -   Its [**ProfileCreationType**](https://msdn.microsoft.com/library/Dd323293(v=VS.85).aspx) must be set to **UserProvisioned**.
--   Its [**SimIccID**](https://msdn.microsoft.com/en-us/library/Dd323201(v=VS.85).aspx) must contain the ICCID of the SIM that this profile is intended for.
+-   Its [**SimIccID**](https://msdn.microsoft.com/library/Dd323201(v=VS.85).aspx) must contain the ICCID of the SIM that this profile is intended for.
 -   Its [**ConnectionMode**](https://msdn.microsoft.com/library/Dd323278(v=VS.85).aspx) must be set to **Manual**.
 -   Its [**PurposeGroupGuid**](element-purposegroupguid.md) must contain the GUID for MMS purpose group.
 -   Its [**IsAdditionalPdpContextProfile**](https://msdn.microsoft.com/library/Mt156987(v=VS.85).aspx) must be set to **true**.

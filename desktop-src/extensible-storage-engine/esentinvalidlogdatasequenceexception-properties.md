@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLogDataSequenceException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLogDataSequenceException properties
 TOCTitle: EsentInvalidLogDataSequenceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlogdatasequenceexception_properties(v=EXCHG.10)

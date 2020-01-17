@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseSharingViolationException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseSharingViolationException constructor 
 TOCTitle: 'EsentDatabaseSharingViolationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesharingviolationexception.esentdatabasesharingviolationexception(v=EXCHG.10)
 ms:contentKeyID: 55101434
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException.EsentDatabaseSharingViolationException
 dev_langs:

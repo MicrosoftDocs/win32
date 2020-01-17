@@ -2,8 +2,8 @@
 Description: The CIMType property of the SWbemProperty object is an integer that can be used to determine the CIM type of this property. This property is read-only.
 ms.assetid: fb570ba4-6ce3-4131-8088-2761110033ba
 ms.tgt_platform: multiple
-title: SWbemProperty.CIMType property
-ms.topic: article
+title: SWbemProperty.CIMType property (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

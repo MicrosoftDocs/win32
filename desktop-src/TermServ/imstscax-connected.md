@@ -1,5 +1,5 @@
 ---
-title: IMsTscAx Connected property
+title: IMsTscAx Connected property (Tsvirtualchannels.h)
 description: Retrieves the connection state of the current control.
 ms.assetid: f6f65ef6-d321-4362-b192-1ea5ffd2b712
 ms.tgt_platform: multiple
@@ -52,7 +52,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

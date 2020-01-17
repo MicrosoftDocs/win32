@@ -2,7 +2,7 @@
 Description: The filter criteria governing the subscription.
 ms.assetid: cfc3ba9e-0566-45fd-917f-34842b8ff377
 title: IEventSubscription2::FilterCriteria property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

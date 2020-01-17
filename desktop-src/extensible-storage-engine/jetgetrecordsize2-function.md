@@ -5,7 +5,7 @@ ms:assetid: 803cfb4e-44f3-447a-b642-018e6f2f713f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269314(v=EXCHG.10)
 ms:contentKeyID: 32765604
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetGetRecordSize2
 topic_type: 

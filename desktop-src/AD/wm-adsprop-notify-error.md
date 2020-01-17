@@ -1,5 +1,5 @@
 ---
-title: WM_ADSPROP_NOTIFY_ERROR message
+title: WM_ADSPROP_NOTIFY_ERROR message (Adsprop.h)
 description: The WM\_ADSPROP\_NOTIFY\_ERROR message adds an error message to a list of error messages that are displayed by calling the ADsPropShowErrorDialog function.
 ms.assetid: 7abf1b3d-5abe-42cd-baeb-1bf863c7f04d
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

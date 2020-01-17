@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest SetPrivateData method
+title: INapSystemHealthValidationRequest SetPrivateData method (NapSystemHealthValidator.h)
 description: Allows the NapServer to store state information.
 ms.assetid: 128f9beb-e5da-4b20-bf5e-fcf064209da3
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

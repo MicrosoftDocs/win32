@@ -1,8 +1,8 @@
 ---
 Description: Compares two Unicode strings.
 ms.assetid: D2703180-946C-4762-AFBA-1E882B01B944
-title: RtlCompareUnicodeString function
-ms.topic: article
+title: RtlCompareUnicodeString function (Wdm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -92,10 +92,10 @@ A signed value that gives the results of the comparison:
 
 <dl> <dt>
 
-[**RtlCompareString**](https://msdn.microsoft.com/en-us/library/Ff561781(v=VS.85).aspx)
+[**RtlCompareString**](https://msdn.microsoft.com/library/Ff561781(v=VS.85).aspx)
 </dt> <dt>
 
-[**RtlEqualString**](https://msdn.microsoft.com/en-us/library/Ff561852(v=VS.85).aspx)
+[**RtlEqualString**](https://msdn.microsoft.com/library/Ff561852(v=VS.85).aspx)
 </dt> </dl>
 
  

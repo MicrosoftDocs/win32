@@ -1,5 +1,5 @@
 ---
-title: DeliveryOptimizationFileProperty enumeration 
+title: DeliveryOptimizationFileProperty enumeration  (Deliveryoptimization.h)
 description: The DeliveryOptimizationFileProperty enumeration specifies the ID of an optional property for the DO file.
 keywords:
 - DeliveryOptimizationFileProperty enumeration
@@ -11,8 +11,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
 ---

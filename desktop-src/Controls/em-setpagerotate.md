@@ -1,5 +1,5 @@
 ---
-title: EM_SETPAGEROTATE message
+title: EM_SETPAGEROTATE message (Richedit.h)
 description: Sets the text layout for a rich edit control.
 ms.assetid: 3c2a37fe-ee9f-4b34-87bf-7ac27d010afc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

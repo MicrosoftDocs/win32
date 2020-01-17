@@ -1,5 +1,5 @@
 ---
-title: Extending the Index
+title: Extending the Index (Legacy Windows Environment Features)
 description: The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of Windows Search.
 ms.assetid: 'vs|search|~\search\wds2x\extending_index_ovr.htm'
 ms.topic: article

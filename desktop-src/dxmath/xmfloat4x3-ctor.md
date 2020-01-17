@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMFLOAT4X3.
 ms.assetid: 1b709942-e395-4867-b402-413b6292e511
 title: XMFLOAT4X3 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMFLOAT4X3`.
 
-Constructs instances of the [**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -82,7 +82,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx)
+[**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx)
 </dt> </dl>
 
  

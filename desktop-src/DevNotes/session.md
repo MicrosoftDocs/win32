@@ -2,7 +2,7 @@
 Description: The SESSION structure contains information about the current session.
 ms.assetid: e04571f9-eeb7-4612-8cb2-05aca7b5df06
 title: SESSION structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -165,7 +165,7 @@ A handle to the FDI context. This datatype is declared as follows:
 **erf**
 </dt> <dd>
 
-The FDI error structure. See [**ERF**](https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx).
+The FDI error structure. See [**ERF**](https://msdn.microsoft.com/library/Bb432257(v=VS.85).aspx).
 
 </dd> <dt>
 

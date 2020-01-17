@@ -1,8 +1,8 @@
 ---
 Description: The SetRecompFormatFromSource method sets the video recompression format using the compression format from a source file.
 ms.assetid: 2d42876a-524b-454d-b4f1-353afe3a4d28
-title: IAMTimelineGroup::SetRecompFormatFromSource method
-ms.topic: article
+title: IAMTimelineGroup::SetRecompFormatFromSource method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

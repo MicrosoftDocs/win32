@@ -1,5 +1,5 @@
 ---
-title: EsentMissingPreviousLogFileException members (Microsoft.Isam.Esent.Interop)
+title: EsentMissingPreviousLogFileException members
 TOCTitle: EsentMissingPreviousLogFileException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingPreviousLogFileException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissingpreviouslogfileexception_members(v=EXCHG.10)

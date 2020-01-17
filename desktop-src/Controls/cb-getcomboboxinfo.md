@@ -1,5 +1,5 @@
 ---
-title: CB_GETCOMBOBOXINFO message
+title: CB_GETCOMBOBOXINFO message (Winuser.h)
 description: Gets information about the specified combo box.
 ms.assetid: 3239dfa8-7301-48e3-ba8e-29c5d5f43b39
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

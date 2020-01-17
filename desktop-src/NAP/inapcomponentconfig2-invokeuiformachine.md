@@ -1,5 +1,5 @@
 ---
-title: INapComponentConfig2 InvokeUIForMachine method
+title: INapComponentConfig2 InvokeUIForMachine method (NapCommon.h)
 description: Is implemented by system health validators (SHVs) as needed to manage remote configuration directly on the machine specified. This method launches a configuration management UI.
 ms.assetid: 67a6d715-250b-4b8b-9c27-8173926b7bfe
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

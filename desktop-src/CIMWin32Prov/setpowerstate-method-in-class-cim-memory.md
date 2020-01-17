@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Memory class sets the desired 
 ms.assetid: 7e5b0c93-abaf-480e-9fbd-83e68c6b9308
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Memory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

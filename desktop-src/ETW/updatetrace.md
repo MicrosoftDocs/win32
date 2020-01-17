@@ -1,8 +1,8 @@
 ---
 Description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
-title: UpdateTrace function
-ms.topic: article
+title: UpdateTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -73,7 +73,7 @@ On output, the structure members contains the updated settings and statistics fo
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: Hresult enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 246FA53F-FF5B-44E1-BABB-F45AE0212687
 api_name: 

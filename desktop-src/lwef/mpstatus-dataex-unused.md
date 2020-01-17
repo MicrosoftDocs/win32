@@ -1,5 +1,5 @@
 ---
-title: MPSTATUS_DATAEX_UNUSED structure
+title: MPSTATUS_DATAEX_UNUSED structure (MpClient.h)
 description: Dummy structure for non-SRP.
 ms.assetid: 396744CE-2435-4591-B0CF-A4392C88640F
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseCorruptedNoRepairException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedNoRepairException properties
 TOCTitle: EsentDatabaseCorruptedNoRepairException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptednorepairexception_properties(v=EXCHG.10)

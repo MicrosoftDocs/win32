@@ -64,9 +64,9 @@ The following procedure describes how to receive semisynchronous event notificat
 
 **To receive semisynchronous event notification in C++**
 
-1.  Set up the application with calls to the [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) functions.
+1.  Set up the application with calls to the [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) functions.
 
-    Because WMI is COM based, calling [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) is a required step for a WMI application. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
+    Because WMI is COM based, calling [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) is a required step for a WMI application. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
 
 2.  Determine the kind of events that you want to receive.
 

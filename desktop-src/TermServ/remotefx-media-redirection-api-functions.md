@@ -3,7 +3,7 @@ title: RemoteFX Media Redirection API functions
 description: The RemoteFX media redirection API supports the following functions.
 ms.assetid: 31E9D0A2-BDB1-4FA8-88AE-E3F5D60C7433
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IDWriteFactory3 CreateFontFaceReference methods
+title: IDWriteFactory3 CreateFontFaceReference methods (Dwrite\_3.h)
 description: Creates a reference to a font.
 ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDWriteFactory3::CreateFontFaceReference methods
@@ -24,8 +24,8 @@ Creates a reference to a font.
 
 | Method                                                                                                                                                                         | Description                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**CreateFontFaceReference (IDWriteFontFile\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/en-us/library/Dn890757(v=VS.85).aspx)               | Creates a reference to a font given a file.<br/>      |
-| [**CreateFontFaceReference (WCHAR const \*, FILETIME const\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/en-us/library/Dn890756(v=VS.85).aspx) | Creates a reference to a font given a full path.<br/> |
+| [**CreateFontFaceReference (IDWriteFontFile\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/library/Dn890757(v=VS.85).aspx)               | Creates a reference to a font given a file.<br/>      |
+| [**CreateFontFaceReference (WCHAR const \*, FILETIME const\*, UINT32, DWRITE\_FONT\_SIMULATIONS, IDWriteFontFaceReference\*\*)**](https://msdn.microsoft.com/library/Dn890756(v=VS.85).aspx) | Creates a reference to a font given a full path.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Creates a reference to a font.
 
 <dl> <dt>
 
-[**IDWriteFactory3**](https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx)
+[**IDWriteFactory3**](https://msdn.microsoft.com/library/Dn890753(v=VS.85).aspx)
 </dt> </dl>
 
 �

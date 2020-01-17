@@ -1,5 +1,5 @@
 ---
-title: EsentAccessDeniedException members (Microsoft.Isam.Esent.Interop)
+title: EsentAccessDeniedException members
 TOCTitle: EsentAccessDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAccessDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentaccessdeniedexception_members(v=EXCHG.10)

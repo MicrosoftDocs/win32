@@ -1,7 +1,7 @@
 ---
 Description: Sent by the default context menu implementation to assign a name to a menu command.
-title: DFM_MAPCOMMANDNAME message
-ms.topic: article
+title: DFM_MAPCOMMANDNAME message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8aa764f7-d5d4-4a84-94d2-993265e1eb5a
 api_name: 

@@ -1,5 +1,5 @@
 ---
-title: D3DX Interfaces
+title: D3DX Interfaces (Direct3D 11 Graphics)
 description: This section contains reference information for the component object model (COM) interfaces provided by the D3DX utility library.
 ms.assetid: 0d3be1e6-b558-4586-9440-251a5611d7cd
 keywords:

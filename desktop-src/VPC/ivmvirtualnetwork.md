@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetwork interface
+title: IVMVirtualNetwork interface (VPCCOMInterfaces.h)
 description: Defines a virtual network.
 ms.assetid: 1ddafc33-05d4-45fb-924d-9830288aa240
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ A virtual network consists of a virtual switch, which performs all internal rout
 
 ## Members
 
-The **IVMVirtualNetwork** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualNetwork** also has these types of members:
+The **IVMVirtualNetwork** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualNetwork** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -55,7 +55,7 @@ The **IVMVirtualNetwork** interface has these properties.
 | Property                                                                | Access type          | Description                                                                    |
 |:------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------|
 | [**HostAdapter**](ivmvirtualnetwork-hostadapter.md)<br/>         | Read-only<br/> | The name of the adapter to which the virtual network is connected.<br/>  |
-| [**MediaType**](https://msdn.microsoft.com/en-us/library/Dd796707(v=VS.85).aspx)<br/>             | Read-only<br/> | Determines whether the virtual network instance is wireless or not.<br/> |
+| [**MediaType**](https://msdn.microsoft.com/library/Dd796707(v=VS.85).aspx)<br/>             | Read-only<br/> | Determines whether the virtual network instance is wireless or not.<br/> |
 | [**Name**](ivmvirtualnetwork-name.md)<br/>                       | Read-only<br/> | The unique name of the virtual network instance.<br/>                    |
 | [**NetworkAdapters**](ivmvirtualnetwork-networkadapters.md)<br/> | Read-only<br/> | An enumerable collection of NICs attached to the virtual network.<br/>   |
 

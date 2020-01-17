@@ -1,8 +1,8 @@
 ---
 Description: Not supported. Call the IAMTimeline::AddGroup method instead.
 ms.assetid: dd671fa5-ed5a-46e2-b4bd-a37f0e7458ca
-title: IAMTimelineGroup::SetTimeline method
-ms.topic: article
+title: IAMTimelineGroup::SetTimeline method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

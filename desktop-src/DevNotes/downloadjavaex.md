@@ -2,7 +2,7 @@
 Description: Downloads the .cab file signature, verifies the permissions associated with the packages, and executes them based on authentication.
 ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: DownloadJavaEX function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ This parameter is reserved.
 *pProviderData* \[in\]
 </dt> <dd>
 
-A [**CRYPT\_PROVIDER\_DATA**](https://msdn.microsoft.com/en-us/library/Aa381453(v=VS.85).aspx) structure that contains certificate data such as file and zone permissions.
+A [**CRYPT\_PROVIDER\_DATA**](https://msdn.microsoft.com/library/Aa381453(v=VS.85).aspx) structure that contains certificate data such as file and zone permissions.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ A [**JAVA\_POLICY\_PROVIDER**](https://msdn.microsoft.com/library/Bb432350(v=VS.
 *pFunctions* \[in\]
 </dt> <dd>
 
-A [**CRYPT\_PROVIDER\_FUNCTIONS**](https://msdn.microsoft.com/en-us/library/Aa381455(v=VS.85).aspx) structure that contains a list of methods to verify certificate objects, signatures, and final policies.
+A [**CRYPT\_PROVIDER\_FUNCTIONS**](https://msdn.microsoft.com/library/Aa381455(v=VS.85).aspx) structure that contains a list of methods to verify certificate objects, signatures, and final policies.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ If the function succeeds, the return value is **S\_OK**. Otherwise, the return v
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

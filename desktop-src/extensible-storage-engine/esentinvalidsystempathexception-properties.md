@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSystemPathException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSystemPathException properties
 TOCTitle: EsentInvalidSystemPathException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsystempathexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: MrmPackagingMode enumeration
+title: MrmPackagingMode enumeration (MrmResourceIndexer.h)
 description: Defines constants that specify what kind of PRI file(s) should be created by MrmCreateResourceFile and MrmCreateResourceFileInMemory.
 ms.assetid: 5695B67E-5446-4538-83D2-F8FF91A5080E
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The get\_SubStreamFromParticipant method allows an application to discover which substreams are associated with a given participant.
 ms.assetid: d45cdd1d-13cf-433a-9b19-193d5c0cba11
-title: ITParticipantSubStreamControl::get_SubStreamFromParticipant method
-ms.topic: article
+title: ITParticipantSubStreamControl::get_SubStreamFromParticipant method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -83,7 +83,7 @@ This method can return one of these values.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/en-us/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
 </dt> </dl>
 
  

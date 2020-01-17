@@ -1,8 +1,8 @@
 ---
 Description: Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.
 ms.assetid: 0d36d555-d0d9-4a1c-ac54-de611850449c
-title: IEnumWiaItem2::Clone method
-ms.topic: article
+title: IEnumWiaItem2::Clone method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnum* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnum* parameter.
 
 ## Requirements
 

@@ -236,67 +236,67 @@
         href: http-server-api-version-1-0-structures.md
         items: 
         - name: "HTTPAPI_VERSION"
-          href: /windows/desktop/api/Http/ns-http-_httpapi_version
+          href: /windows/win32/api/Http/ns-http-httpapi_version
         - name: "HTTP_BYTE_RANGE"
-          href: /windows/desktop/api/Http/ns-http-_http_byte_range
+          href: /windows/win32/api/Http/ns-http-http_byte_range
         - name: "HTTP_CACHE_POLICY"
-          href: /windows/desktop/api/Http/ns-http-_http_cache_policy
+          href: /windows/win32/api/Http/ns-http-http_cache_policy
         - name: "HTTP_COOKED_URL"
-          href: /windows/desktop/api/Http/ns-http-_http_cooked_url
+          href: /windows/win32/api/Http/ns-http-http_cooked_url
         - name: "HTTP_DATA_CHUNK"
-          href: /windows/desktop/api/Http/ns-http-_http_data_chunk
+          href: /windows/win32/api/Http/ns-http-http_data_chunk
         - name: "HTTP_KNOWN_HEADER"
-          href: /windows/desktop/api/Http/ns-http-_http_known_header
+          href: /windows/win32/api/Http/ns-http-http_known_header
         - name: "HTTP_REQUEST"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)
         - name: "HTTP_RESPONSE"
           href: http-response.md
         - name: "HTTP_REQUEST_HEADERS"
-          href: /windows/desktop/api/Http/ns-http-_http_request_headers
+          href: /windows/win32/api/Http/ns-http-http_request_headers
         - name: "HTTP_RESPONSE_HEADERS"
-          href: /windows/desktop/api/Http/ns-http-_http_response_headers
+          href: /windows/win32/api/Http/ns-http-http_response_headers
         - name: "HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ip_listen_param
+          href: /windows/win32/api/Http/ns-http-http_service_config_ip_listen_param
         - name: "HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ip_listen_query
+          href: /windows/win32/api/Http/ns-http-http_service_config_ip_listen_query
         - name: "HTTP_SERVICE_CONFIG_SSL_CCS_KEY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_ccs_key
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_ccs_key
         - name: "HTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_ccs_query
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_ccs_query
         - name: "HTTP_SERVICE_CONFIG_SSL_CCS_SET"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_ccs_set
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_ccs_set
         - name: "HTTP_SERVICE_CONFIG_SSL_KEY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_key
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_key
         - name: "HTTP_SERVICE_CONFIG_SSL_PARAM"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_param
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_param
         - name: "HTTP_SERVICE_CONFIG_SSL_QUERY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_query
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_query
         - name: "HTTP_SERVICE_CONFIG_SSL_SET"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_set
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_set
         - name: "HTTP_SERVICE_CONFIG_SSL_SNI_KEY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_sni_key
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_sni_key
         - name: "HTTP_SERVICE_CONFIG_SSL_SNI_SET"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_sni_set
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_sni_set
         - name: "HTTP_SERVICE_CONFIG_SSL_SNI_QUERY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_ssl_sni_query
+          href: /windows/win32/api/Http/ns-http-http_service_config_ssl_sni_query
         - name: "HTTP_SERVICE_CONFIG_URLACL_KEY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_urlacl_key
+          href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_key
         - name: "HTTP_SERVICE_CONFIG_URLACL_PARAM"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_urlacl_param
+          href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_param
         - name: "HTTP_SERVICE_CONFIG_URLACL_QUERY"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_urlacl_query
+          href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_query
         - name: "HTTP_SERVICE_CONFIG_URLACL_SET"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_urlacl_set
+          href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_set
         - name: "HTTP_SSL_CLIENT_CERT_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_ssl_client_cert_info
+          href: /windows/win32/api/Http/ns-http-http_ssl_client_cert_info
         - name: "HTTP_SSL_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_ssl_info
+          href: /windows/win32/api/Http/ns-http-http_ssl_info
         - name: "HTTP_TRANSPORT_ADDRESS"
-          href: /windows/desktop/api/Http/ns-http-_http_transport_address
+          href: /windows/win32/api/Http/ns-http-http_transport_address
         - name: "HTTP_UNKNOWN_HEADER"
-          href: /windows/desktop/api/Http/ns-http-_http_unknown_header
+          href: /windows/win32/api/Http/ns-http-http_unknown_header
         - name: "HTTP_VERSION"
-          href: /windows/desktop/api/Http/ns-http-_http_version
+          href: /windows/win32/api/Http/ns-http-http_version
       - name: "HTTP Server API  Version 1.0 Macros"
         href: http-server-api-version-1-0-macros.md
         items: 
@@ -326,17 +326,17 @@
         href: http-server-api-version-1-0-enumeration-types.md
         items: 
         - name: "HTTP_CACHE_POLICY_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_cache_policy_type
+          href: /windows/win32/api/Http/ne-http-http_cache_policy_type
         - name: "HTTP_DATA_CHUNK_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_data_chunk_type
+          href: /windows/win32/api/Http/ne-http-http_data_chunk_type
         - name: "HTTP_HEADER_ID"
-          href: /windows/desktop/api/Http/ne-http-_http_header_id
+          href: /windows/win32/api/Http/ne-http-http_header_id
         - name: "HTTP_SERVICE_CONFIG_ID"
-          href: /windows/desktop/api/Http/ne-http-_http_service_config_id
+          href: /windows/win32/api/Http/ne-http-http_service_config_id
         - name: "HTTP_SERVICE_CONFIG_QUERY_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_service_config_query_type
+          href: /windows/win32/api/Http/ne-http-http_service_config_query_type
         - name: "HTTP_VERB"
-          href: /windows/desktop/api/Http/ne-http-_http_verb
+          href: /windows/win32/api/Http/ne-http-http_verb
     - name: "HTTP Server API Version 2.0 Reference"
       href: http-server-api-version-2-0-reference.md
       items: 
@@ -389,67 +389,67 @@
         href: http-server-api-version-2-0-structures.md
         items: 
         - name: "HTTP_BANDWIDTH_LIMIT_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_bandwidth_limit_info
+          href: /windows/win32/api/Http/ns-http-http_bandwidth_limit_info
         - name: "HTTP_BINDING_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_binding_info
+          href: /windows/win32/api/Http/ns-http-http_binding_info
         - name: "HTTP_CHANNEL_BIND_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_channel_bind_info
+          href: /windows/win32/api/Http/ns-http-http_channel_bind_info
         - name: "HTTP_CONNECTION_LIMIT_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_connection_limit_info
+          href: /windows/win32/api/Http/ns-http-http_connection_limit_info
         - name: "HTTP_FLOWRATE_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_flowrate_info
+          href: /windows/win32/api/Http/ns-http-http_flowrate_info
         - name: "HTTP_LISTEN_ENDPOINT_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_listen_endpoint_info
+          href: /windows/win32/api/Http/ns-http-http_listen_endpoint_info
         - name: "HTTP_LOG_DATA"
-          href: /windows/desktop/api/Http/ns-http-_http_log_data
+          href: /windows/win32/api/Http/ns-http-http_log_data
         - name: "HTTP_LOG_FIELDS_DATA"
-          href: /windows/desktop/api/Http/ns-http-_http_log_fields_data
+          href: /windows/win32/api/Http/ns-http-http_log_fields_data
         - name: "HTTP_LOGGING_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_logging_info
+          href: /windows/win32/api/Http/ns-http-http_logging_info
         - name: "HTTP_MULTIPLE_KNOWN_HEADERS"
-          href: /windows/desktop/api/Http/ns-http-_http_multiple_known_headers
+          href: /windows/win32/api/Http/ns-http-http_multiple_known_headers
         - name: "HTTP_PROPERTY_FLAGS"
-          href: /windows/desktop/api/Http/ns-http-_http_property_flags
+          href: /windows/win32/api/Http/ns-http-http_property_flags
         - name: "HTTP_QOS_SETTING_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_qos_setting_info
+          href: /windows/win32/api/Http/ns-http-http_qos_setting_info
         - name: "HTTP_REQUEST_AUTH_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_request_auth_info
+          href: /windows/win32/api/Http/ns-http-http_request_auth_info
         - name: "HTTP_REQUEST_CHANNEL_BIND_STATUS"
-          href: /windows/desktop/api/Http/ns-http-_http_request_channel_bind_status
+          href: /windows/win32/api/Http/ns-http-http_request_channel_bind_status
         - name: "HTTP_REQUEST_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_request_info
+          href: /windows/win32/api/Http/ns-http-http_request_info
         - name: "HTTP_REQUEST_V1"
-          href: /windows/desktop/api/Http/ns-http-_http_request_v1
+          href: /windows/win32/api/Http/ns-http-http_request_v1
         - name: "HTTP_REQUEST_V2"
-          href: /windows/desktop/api/Http/ns-http-_http_request_v2
+          href: /windows/win32/api/Http/ns-http-http_request_v2
         - name: "HTTP_RESPONSE_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_response_info
+          href: /windows/win32/api/Http/ns-http-http_response_info
         - name: "HTTP_RESPONSE_V1"
-          href: /windows/desktop/api/Http/ns-http-_http_response_v1
+          href: /windows/win32/api/Http/ns-http-http_response_v1
         - name: "HTTP_RESPONSE_V2"
-          href: /windows/desktop/api/Http/ns-http-_http_response_v2
+          href: /windows/win32/api/Http/ns-http-http_response_v2
         - name: "HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"
-          href: /windows/desktop/api/Http/ns-http-_http_server_authentication_basic_params
+          href: /windows/win32/api/Http/ns-http-http_server_authentication_basic_params
         - name: "HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS"
-          href: /windows/desktop/api/Http/ns-http-_http_server_authentication_digest_params
+          href: /windows/win32/api/Http/ns-http-http_server_authentication_digest_params
         - name: "HTTP_SERVER_AUTHENTICATION_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_server_authentication_info
+          href: /windows/win32/api/Http/ns-http-http_server_authentication_info
         - name: "HTTP_SERVICE_BINDING_A"
-          href: /windows/desktop/api/Http/ns-http-_http_service_binding_a
+          href: /windows/win32/api/Http/ns-http-http_service_binding_a
         - name: "HTTP_SERVICE_BINDING_W"
-          href: /windows/desktop/api/Http/ns-http-_http_service_binding_w
+          href: /windows/win32/api/Http/ns-http-http_service_binding_w
         - name: "HTTP_SERVICE_BINDING_BASE"
-          href: /windows/desktop/api/Http/ns-http-_http_service_binding_base
+          href: /windows/win32/api/Http/ns-http-http_service_binding_base
         - name: "HTTP_SERVICE_BINDING_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_service_binding_type
+          href: /windows/win32/api/Http/ne-http-http_service_binding_type
         - name: "HTTP_SERVICE_CONFIG_CACHE_SET"
           href: /windows/desktop/api/Http/ns-http-http_service_config_cache_set
         - name: "HTTP_SERVICE_CONFIG_TIMEOUT_SET"
-          href: /windows/desktop/api/Http/ns-http-_http_service_config_timeout_set
+          href: /windows/win32/api/Http/ns-http-http_service_config_timeout_set
         - name: "HTTP_STATE_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_state_info
+          href: /windows/win32/api/Http/ns-http-http_state_info
         - name: "HTTP_TIMEOUT_LIMIT_INFO"
-          href: /windows/desktop/api/Http/ns-http-_http_timeout_limit_info
+          href: /windows/win32/api/Http/ns-http-http_timeout_limit_info
       - name: "HTTP Server API Version 2.0 Macros"
         href: http-server-api-version-2-0-macros.md
         items: 
@@ -474,32 +474,32 @@
         href: http-server-api-version-2-0-enumeration-types.md
         items: 
         - name: "HTTP_503_RESPONSE_VERBOSITY"
-          href: /windows/desktop/api/Http/ne-http-_http_503_response_verbosity
+          href: /windows/win32/api/Http/ne-http-http_503_response_verbosity
         - name: "HTTP_AUTH_STATUS"
-          href: /windows/desktop/api/Http/ne-http-_http_auth_status
+          href: /windows/win32/api/Http/ne-http-http_auth_status
         - name: "HTTP_AUTHENTICATION_HARDENING_LEVELS"
-          href: /windows/desktop/api/Http/ne-http-_http_authentication_hardening_levels
+          href: /windows/win32/api/Http/ne-http-http_authentication_hardening_levels
         - name: "HTTP_ENABLED_STATE"
-          href: /windows/desktop/api/Http/ne-http-_http_enabled_state
+          href: /windows/win32/api/Http/ne-http-http_enabled_state
         - name: "HTTP_LOG_DATA_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_log_data_type
+          href: /windows/win32/api/Http/ne-http-http_log_data_type
         - name: "HTTP_LOGGING_ROLLOVER_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_logging_rollover_type
+          href: /windows/win32/api/Http/ne-http-http_logging_rollover_type
         - name: "HTTP_LOGGING_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_logging_type
+          href: /windows/win32/api/Http/ne-http-http_logging_type
         - name: "HTTP_QOS_SETTING_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_qos_setting_type
+          href: /windows/win32/api/Http/ne-http-http_qos_setting_type
         - name: "HTTP_REQUEST_AUTH_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_request_auth_type
+          href: /windows/win32/api/Http/ne-http-http_request_auth_type
         - name: "HTTP_REQUEST_INFO_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_request_info_type
+          href: /windows/win32/api/Http/ne-http-http_request_info_type
         - name: "HTTP_RESPONSE_INFO_TYPE"
-          href: /windows/desktop/api/Http/ne-http-_http_response_info_type
+          href: /windows/win32/api/Http/ne-http-http_response_info_type
         - name: "HTTP_SERVER_PROPERTY"
-          href: /windows/desktop/api/Http/ne-http-_http_server_property
+          href: /windows/win32/api/Http/ne-http-http_server_property
         - name: "HTTP_SERVICE_CONFIG_CACHE_KEY"
-          href: /windows/desktop/api/Http/ne-http-_http_service_config_cache_key
+          href: /windows/win32/api/Http/ne-http-http_service_config_cache_key
         - name: "HTTP_SERVICE_CONFIG_TIMEOUT_KEY"
-          href: /windows/desktop/api/Http/ne-http-_http_service_config_timeout_key
+          href: /windows/win32/api/Http/ne-http-http_service_config_timeout_key
   - name: "HTTP Server Sample Application"
     href: http-server-sample-application.md

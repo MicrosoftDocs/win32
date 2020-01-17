@@ -1,5 +1,5 @@
 ---
-title: EN_SELCHANGE notification code
+title: EN_SELCHANGE notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that the current selection has changed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
 ms.assetid: 53d47b53-a73c-4652-889c-2374f8e99382
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC UnregisterVirtualMachine method
+title: IVMVirtualPC UnregisterVirtualMachine method (VPCCOMInterfaces.h)
 description: Unregisters a VM configuration without deleting the configuration file.
 ms.assetid: 82ca6ef3-e9e5-471e-b2dc-0ff689a618d9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

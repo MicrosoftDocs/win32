@@ -1,5 +1,5 @@
 ---
-title: CB_GETCUEBANNER message
+title: CB_GETCUEBANNER message (Winuser.h)
 description: Gets the cue banner text displayed in the edit control of a combo box. Send this message explicitly or by using the ComboBox\_GetCueBannerText macro.
 ms.assetid: 38959228-9f07-4636-a1ea-681efe77b9ec
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

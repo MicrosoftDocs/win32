@@ -1,5 +1,5 @@
 ---
-title: XTYP_CONNECT transaction
+title: XTYP_CONNECT transaction (Ddeml.h)
 description: A client uses the XTYP\_CONNECT transaction to establish a conversation.
 ms.assetid: 74f43b10-f7ac-4370-9caa-7b9ddf3413ed
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_CONNECT transaction
 
-A client uses the **XTYP\_CONNECT** transaction to establish a conversation. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies a service name that the server supports (and a topic name that is not **NULL**) in a call to the [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) function.
+A client uses the **XTYP\_CONNECT** transaction to establish a conversation. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies a service name that the server supports (and a topic name that is not **NULL**) in a call to the [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) function.
 
 
 ```C++

@@ -1,5 +1,5 @@
 ---
-title: MCI_INFO_PARMS structure
+title: MCI_INFO_PARMS structure (Mciapi.h)
 description: The MCI\_INFO\_PARMS structure contains information for the MCI\_INFO command.
 ms.assetid: c64cff7d-a6d5-44b7-8cfb-9593f6328832
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ Size, in characters, of return string.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_INFO**](mci-info.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

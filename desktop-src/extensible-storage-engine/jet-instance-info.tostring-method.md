@@ -1,11 +1,11 @@
 ---
-title: JET_INSTANCE_INFO.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE_INFO.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info.tostring(v=EXCHG.10)
 ms:contentKeyID: 55103710
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.ToString
 dev_langs:

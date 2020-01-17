@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the mouse pointer enters the InkPicture control.
 ms.assetid: cb31bf2f-e889-4da3-b408-e5612e2af95b
-title: InkPicture.MouseEnter event
-ms.topic: article
+title: InkPicture.MouseEnter event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -29,7 +29,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseEnter.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseEnter.
 
 ## Requirements
 

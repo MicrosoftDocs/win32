@@ -2,7 +2,7 @@
 Description: Invokes the method that is called when the specified asynchronous action completes.
 ms.assetid: 97199C1A-7CE3-4BBD-86A3-2CA9B27CC05E
 title: AsyncActionCompletedHandler::Invoke method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ HRESULT Invoke(
 *asyncInfo* \[in\]
 </dt> <dd>
 
-Type: **[**IAsyncAction**](https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx)\***
+Type: **[**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx)\***
 
 The asynchronous action that reports completion.
 

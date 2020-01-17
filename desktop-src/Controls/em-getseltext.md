@@ -1,5 +1,5 @@
 ---
-title: EM_GETSELTEXT message
+title: EM_GETSELTEXT message (Richedit.h)
 description: Retrieves the currently selected text in a rich edit control.
 ms.assetid: 56af77c3-f2d7-4b5d-895f-a67c141459e3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

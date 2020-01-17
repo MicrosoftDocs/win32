@@ -4,7 +4,7 @@ ms.assetid:
 title: CallShader function
 ms.date: 05/31/2018
 ms.localizationpriority: low
-ms.topic: function
+ms.topic: reference
 topic_type: 
 - APIRef
 - kbSyntax

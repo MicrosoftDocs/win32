@@ -1,5 +1,5 @@
 ---
-title: EsentInstanceNameInUseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInstanceNameInUseException properties
 TOCTitle: EsentInstanceNameInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstancenameinuseexception_properties(v=EXCHG.10)

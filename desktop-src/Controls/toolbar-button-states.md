@@ -1,5 +1,5 @@
 ---
-title: Toolbar Button States
+title: Toolbar Button States (CommCtrl.h)
 description: This section lists the states a toolbar button can have.
 ms.assetid: 422e0d81-bd80-45dc-b843-82fc5d5c2a9a
 topic_type:
@@ -17,7 +17,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

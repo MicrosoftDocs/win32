@@ -1,5 +1,5 @@
 ---
-title: DRM_HTTP_STATUS enumeration
+title: DRM_HTTP_STATUS enumeration (Wmdrmsdk.h)
 description: The DRM\_HTTP\_STATUS enumeration type defines a range of HTTP states for a DRM request.
 ms.assetid: 09183ef9-4832-4469-a960-dbeb67381949
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CB_RESOURCE_TYPE enumeration
+title: CB_RESOURCE_TYPE enumeration (Cbclient.h)
 description: Specifies the type of resource that the incoming connection is connecting to.
 ms.assetid: 80D921BF-2D84-4A18-9544-50087B81F177
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

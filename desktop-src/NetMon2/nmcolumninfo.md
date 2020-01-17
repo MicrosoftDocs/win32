@@ -1,8 +1,8 @@
 ---
 Description: The NMCOLUMNINFO structure defines one column in the top pane of the Event Viewer.
 ms.assetid: 21e0a129-464b-45b3-9c6b-6594e62fbce9
-title: NMCOLUMNINFO structure
-ms.topic: structure
+title: NMCOLUMNINFO structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

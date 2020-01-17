@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.ResourceURI property
+title: ResourceLocator.ResourceURI property (WSManDisp.h)
 description: Gets or sets the resource URI in a ResourceLocator object.
 ms.assetid: adb1e08a-290f-4a23-a6e4-d7567a6b7eee
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

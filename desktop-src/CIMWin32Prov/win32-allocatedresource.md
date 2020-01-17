@@ -3,7 +3,7 @@ Description: The Win32\_AllocatedResource association WMI class relates a logica
 ms.assetid: cfac1209-1405-4fee-847c-8a61504bfac1
 ms.tgt_platform: multiple
 title: Win32_AllocatedResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

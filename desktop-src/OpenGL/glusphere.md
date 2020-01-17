@@ -1,5 +1,5 @@
 ---
-title: gluSphere function
+title: gluSphere function (Glu.h)
 description: The gluSphere function draws a sphere.
 ms.assetid: 0f1919c6-0551-4d50-b782-767dacc088cb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

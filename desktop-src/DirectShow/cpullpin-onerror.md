@@ -1,8 +1,8 @@
 ---
 Description: The OnError method is called if an error occurs during streaming. The derived class must implement this method.
 ms.assetid: 0f135cab-611c-4464-9605-360a30de7eb3
-title: CPullPin.OnError method
-ms.topic: article
+title: CPullPin.OnError method (Pullpin.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

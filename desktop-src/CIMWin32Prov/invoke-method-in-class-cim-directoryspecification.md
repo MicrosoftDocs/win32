@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_DirectorySpecification class evaluate
 ms.assetid: 63289f94-f134-4159-898c-404cdd8f2a5c
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_DirectorySpecification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

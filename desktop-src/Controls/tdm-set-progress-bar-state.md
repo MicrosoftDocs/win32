@@ -1,5 +1,5 @@
 ---
-title: TDM_SET_PROGRESS_BAR_STATE message
+title: TDM_SET_PROGRESS_BAR_STATE message (Commctrl.h)
 description: Sets the state of the progress bar in a task dialog.
 ms.assetid: 8b0f2ee9-e6ca-4a5b-8687-6e2682eda7d0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

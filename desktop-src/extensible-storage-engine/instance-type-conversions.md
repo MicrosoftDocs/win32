@@ -1,5 +1,5 @@
 ﻿---
-title: Instance type conversions (Microsoft.Isam.Esent.Interop)
+title: Instance type conversions
 TOCTitle: Instance type conversions
 ms:assetid: 625e46fa-cb44-5d96-be16-b8d6543d2421
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn350940(v=EXCHG.10)

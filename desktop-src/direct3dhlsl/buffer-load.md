@@ -1,5 +1,5 @@
 ---
-title: Buffer Load methods
+title: Buffer::Buffer Load methods
 description: Reads Buffer data.
 ms.assetid: 53FD566F-2017-43B9-8E36-134958B74108
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

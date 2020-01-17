@@ -1,8 +1,8 @@
 ---
 Description: Defines the data needed to call a device dialog.
 ms.assetid: 544238de-310f-4fc3-b519-bb4e6b309272
-title: DEVICEDIALOGDATA2 structure
-ms.topic: structure
+title: DEVICEDIALOGDATA2 structure (Wiadefd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The client product of the component in question.
 ms.assetid: 14538e8b-3a7f-4d73-8c54-a0f83b013a42
 title: Client.ProductCode property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

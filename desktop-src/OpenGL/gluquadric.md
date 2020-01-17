@@ -1,5 +1,5 @@
 ---
-title: gluQuadricCallback function
+title: gluQuadricCallback function (Glu.h)
 description: The gluQuadricCallback function defines a callback for a quadric object.
 ms.assetid: 1f1e9fe9-7239-419c-92b6-af2534850ac5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

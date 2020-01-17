@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PixEngineHistogram structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: FC720568-6C8E-4B14-BCB1-5FA14D32C785
 api_name: 

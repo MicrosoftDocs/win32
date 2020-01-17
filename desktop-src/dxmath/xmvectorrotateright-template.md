@@ -1,8 +1,8 @@
 ---
 Description: Rotates the vector right by a given number of 32-bit elements.
 ms.assetid: 7493c1fe-2c3d-4eb6-bec1-02c066a70b9f
-title: XMVectorRotateRight template
-ms.topic: article
+title: XMVectorRotateRight template (DirectXMath.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ Returns the rotated [**XMVECTOR**](xmvector-data-type.md).
 
 ## Remarks
 
-This function is a template version of [**XMVectorRotateRight**](https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx) where the *Elements* argument is a template value.
+This function is a template version of [**XMVectorRotateRight**](https://msdn.microsoft.com/library/Hh404807(v=VS.85).aspx) where the *Elements* argument is a template value.
 
 > [!Note]  
 > The `XMVectorRotateRight` template is new for DirectXMath and is not available for XNAMath 2.x.

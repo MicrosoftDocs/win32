@@ -1,8 +1,8 @@
 ---
 Description: Describes the presentation parameters.
 ms.assetid: d677aeb7-a188-4ddc-b8c9-48e13676e9c8
-title: D3DPRESENT_PARAMETERS structure
-ms.topic: structure
+title: D3DPRESENT_PARAMETERS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -50,7 +50,7 @@ typedef struct D3DPRESENT_PARAMETERS {
 **BackBufferWidth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Width of the new swap chain's back buffers, in pixels. If **Windowed** is **FALS
 **BackBufferHeight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -89,7 +89,7 @@ Full-screen applications cannot do color conversion.
 **BackBufferCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -102,33 +102,33 @@ The method fails if one back buffer cannot be created. The value of **BackBuffer
 **MultiSampleType**
 </dt> <dd>
 
-Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx)**
+Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx) enumerated type. The value must be D3DMULTISAMPLE\_NONE unless **SwapEffect** has been set to D3DSWAPEFFECT\_DISCARD. Multisampling is supported only if the swap effect is D3DSWAPEFFECT\_DISCARD.
+Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx) enumerated type. The value must be D3DMULTISAMPLE\_NONE unless **SwapEffect** has been set to D3DSWAPEFFECT\_DISCARD. Multisampling is supported only if the swap effect is D3DSWAPEFFECT\_DISCARD.
 
 </dd> <dt>
 
 **MultiSampleQuality**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx) must match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx) must match.
 
 </dd> <dt>
 
 **SwapEffect**
 </dt> <dd>
 
-Type: **[**D3DSWAPEFFECT**](https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx)**
+Type: **[**D3DSWAPEFFECT**](https://msdn.microsoft.com/library/Bb172612(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Member of the [**D3DSWAPEFFECT**](https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx) enumerated type. The runtime will guarantee the implied semantics concerning buffer swap behavior; therefore, if **Windowed** is **TRUE** and **SwapEffect** is set to D3DSWAPEFFECT\_FLIP, the runtime will create one extra back buffer and copy whichever becomes the front buffer at presentation time.
+Member of the [**D3DSWAPEFFECT**](https://msdn.microsoft.com/library/Bb172612(v=VS.85).aspx) enumerated type. The runtime will guarantee the implied semantics concerning buffer swap behavior; therefore, if **Windowed** is **TRUE** and **SwapEffect** is set to D3DSWAPEFFECT\_FLIP, the runtime will create one extra back buffer and copy whichever becomes the front buffer at presentation time.
 
 D3DSWAPEFFECT\_COPY requires that **BackBufferCount** be set to 1.
 
@@ -149,7 +149,7 @@ D3DSWAPEFFECT\_DISCARD will be enforced in the debug runtime by filling any buff
 **hDeviceWindow**
 </dt> <dd>
 
-Type: **[**HWND**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HWND**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -168,7 +168,7 @@ Note that no attempt is made by the runtime to reflect user changes in window si
 **Windowed**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -179,7 +179,7 @@ Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).as
 **EnableAutoDepthStencil**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -203,7 +203,7 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type. The format of the autom
 **Flags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -214,7 +214,7 @@ One of the [D3DPRESENTFLAG](d3dpresentflag.md) constants.
 **FullScreen\_RefreshRateInHz**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -228,7 +228,7 @@ The rate at which the display adapter refreshes the screen. The value depends on
 **PresentationInterval**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -2,7 +2,7 @@
 Description: Locks and unlocks the media in a removeable access device.
 ms.assetid: 357ee552-82d0-4201-bcc2-0acf208e16a0
 title: LockMedia method of the CIM_MediaAccessDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

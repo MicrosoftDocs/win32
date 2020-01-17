@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPortCollection Count property
+title: IVMSerialPortCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of serial ports in this collection.
 ms.assetid: 94ff6c9d-17bc-4aa5-a486-d4428c829d02
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

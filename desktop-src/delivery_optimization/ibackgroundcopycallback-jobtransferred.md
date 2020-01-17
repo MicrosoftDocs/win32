@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyCallback JobTransferred method
+title: IBackgroundCopyCallback JobTransferred method (Deliveryoptimization.h)
 description: Delivery Optimization (DO) calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
 ms.assetid: D3088279-2D26-4707-9BA2-19D2758EA1CC
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

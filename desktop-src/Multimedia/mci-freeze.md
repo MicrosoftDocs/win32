@@ -1,5 +1,5 @@
 ---
-title: MCI_FREEZE command
+title: MCI_FREEZE command (Mmsystem.h)
 description: The MCI\_FREEZE command freezes motion on the display. Digital-video, video-overlay, and VCR devices recognize this command.
 ms.assetid: 6f90984a-24dc-4046-8234-986b2125bab4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_FREEZE command freezes motion on the display. Digital-video, video-overlay, and VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

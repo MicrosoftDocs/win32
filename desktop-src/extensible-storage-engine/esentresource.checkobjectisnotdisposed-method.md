@@ -1,11 +1,11 @@
 ---
-title: EsentResource.CheckObjectIsNotDisposed method  (Microsoft.Isam.Esent.Interop)
+title: EsentResource.CheckObjectIsNotDisposed method 
 TOCTitle: 'CheckObjectIsNotDisposed method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.CheckObjectIsNotDisposed
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.checkobjectisnotdisposed(v=EXCHG.10)
 ms:contentKeyID: 55102613
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentResource.CheckObjectIsNotDisposed
 dev_langs:

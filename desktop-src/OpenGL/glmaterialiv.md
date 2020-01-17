@@ -1,5 +1,5 @@
 ---
-title: glMaterialiv function
+title: glMaterialiv function (Gl.h)
 description: The glMaterialiv function specifies material parameters for the lighting model.
 ms.assetid: 9d045202-e565-4cf7-946a-60299e1bc1b1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_STATUS_PARMS structure
+title: MCI_VCR_STATUS_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_STATUS\_PARMS structure contains parameters for the MCI\_STATUS command for video-cassette recorders.
 ms.assetid: 5d7cbb64-a81d-4bdd-8f07-8c20dd7b9ef5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -76,7 +76,7 @@ Logical tuner that the current channel is associated with. This member is used t
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -103,7 +103,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_STATUS**](mci-status.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

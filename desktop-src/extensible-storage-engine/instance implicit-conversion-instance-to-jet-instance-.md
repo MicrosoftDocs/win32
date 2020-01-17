@@ -1,11 +1,11 @@
 ---
-title: Instance Implicit conversion (Instance to JET_INSTANCE) (Microsoft.Isam.Esent.Interop)
+title: Instance Implicit conversion (Instance to JET_INSTANCE)
 TOCTitle: Implicit conversion (Instance to JET_INSTANCE)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.op_Implicit(Microsoft.Isam.Esent.Interop.Instance)~Microsoft.Isam.Esent.Interop.JET_INSTANCE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.op_implicit(v=EXCHG.10)
 ms:contentKeyID: 55103290
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Instance.Implicit
 dev_langs:

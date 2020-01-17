@@ -2,7 +2,7 @@
 Description: Contains information about a smart card cryptographic service provider (CSP).
 ms.assetid: b3e6722a-25dd-4137-b224-4082e846ddec
 title: KERB_SMARTCARD_CSP_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # KERB\_SMARTCARD\_CSP\_INFO structure
 
-The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP).
+The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
 
 This structure is not declared in a public header.
 

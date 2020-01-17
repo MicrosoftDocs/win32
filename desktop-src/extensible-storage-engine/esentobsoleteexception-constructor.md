@@ -1,5 +1,5 @@
 ﻿---
-title: EsentObsoleteException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentObsoleteException constructor 
 TOCTitle: 'EsentObsoleteException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentObsoleteException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobsoleteexception.esentobsoleteexception(v=EXCHG.10)

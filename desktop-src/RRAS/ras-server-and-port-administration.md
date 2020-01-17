@@ -1,5 +1,5 @@
 ---
-title: RAS Server and Port Administration
+title: About RAS Server and Port Administration
 description: The RAS server administration functions get information about a specified RAS server and its ports. These functions are also used to terminate a connection on a specified RAS server port.
 ms.assetid: eedac23e-d716-451e-b08b-594398656bb5
 keywords:
@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RAS Server and Port Administration
+# About RAS Server and Port Administration
 
 The RAS server administration functions get information about a specified RAS server and its ports. These functions are also used to terminate a connection on a specified RAS server port.
 

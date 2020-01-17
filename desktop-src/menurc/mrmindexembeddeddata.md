@@ -1,5 +1,5 @@
 ---
-title: MrmIndexEmbeddedData function
+title: MrmIndexEmbeddedData function (MrmResourceIndexer.h)
 description: Indexes a single embeddeddata resource belonging to a UWP app.
 ms.assetid: 4DA37CF9-43B6-44EE-8A10-DBD4510D7885
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

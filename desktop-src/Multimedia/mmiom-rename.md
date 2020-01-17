@@ -1,5 +1,5 @@
 ---
-title: MMIOM_RENAME message
+title: MMIOM_RENAME message (Mmsystem.h)
 description: The MMIOM\_RENAME message is sent to an I/O procedure by the mmioRename function to request that the specified file be renamed.
 ms.assetid: 38a746c8-3a6f-4cb2-a5b4-c11bd1e73c8a
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MMIOM\_RENAME message
 
-The **MMIOM\_RENAME** message is sent to an I/O procedure by the [**mmioRename**](https://msdn.microsoft.com/en-us/library/Dd757335(v=VS.85).aspx) function to request that the specified file be renamed.
+The **MMIOM\_RENAME** message is sent to an I/O procedure by the [**mmioRename**](https://msdn.microsoft.com/library/Dd757335(v=VS.85).aspx) function to request that the specified file be renamed.
 
 
 ```C++

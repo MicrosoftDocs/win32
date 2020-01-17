@@ -2,7 +2,7 @@
 Description: Indicates whether the shared key will be a network key or a pass phrase.
 ms.assetid: 2cc909bb-7de6-492b-81ca-ddde93c17f63
 title: keyType (sharedKey) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

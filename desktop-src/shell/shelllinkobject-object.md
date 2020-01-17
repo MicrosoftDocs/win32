@@ -1,7 +1,7 @@
 ---
 Description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
-title: ShellLinkObject object
-ms.topic: interface
+title: ShellLinkObject object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -90,7 +90,7 @@ The **ShellLinkObject** object has these properties.
 
 <dl> <dt>
 
-[Shell Links](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx)
+[Shell Links](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx)
 </dt> </dl>
 
  

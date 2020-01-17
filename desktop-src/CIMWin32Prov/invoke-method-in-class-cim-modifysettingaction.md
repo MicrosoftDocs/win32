@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_ModifySettingAction class takes a par
 ms.assetid: 360e3e00-1c09-495a-8fc0-ce2e9d1f9e77
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_ModifySettingAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

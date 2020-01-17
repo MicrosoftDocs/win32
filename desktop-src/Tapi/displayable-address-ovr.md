@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The displayable address is a string that presents the address in a form that is suitable for display in a user interface.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx), **dwDisplayableAddressSize** and **dwDisplayableAddressOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/en-us/library/ms735527(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx), **dwDisplayableAddressSize** and **dwDisplayableAddressOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITCallInfo::get\_CallInfoString**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring) or [**ITCallInfo::put\_CallInfoString**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring), called with the **CIS\_DISPLAYABLEADDRESS** member of [**CALLINFO\_STRING**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_string).
 

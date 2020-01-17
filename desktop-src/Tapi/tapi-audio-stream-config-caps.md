@@ -1,8 +1,8 @@
 ---
 Description: The TAPI\_AUDIO\_STREAM\_CONFIG\_CAPS structure is contained by the TAPI\_STREAM\_CONFIG\_CAPS structure when the CapsType member is set to the AudioCap member of the StreamConfigCapsType union.
 ms.assetid: 61575839-4604-4c8b-ae4d-fe796c3c5314
-title: TAPI_AUDIO_STREAM_CONFIG_CAPS structure
-ms.topic: structure
+title: TAPI_AUDIO_STREAM_CONFIG_CAPS structure (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

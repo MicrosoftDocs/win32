@@ -2,7 +2,7 @@
 Description: Sets or retrieves the private key associated with the certificate.
 ms.assetid: 976d81b4-5cbe-4824-9087-9a908b0e60e5
 title: Certificate.PrivateKey property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

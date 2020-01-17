@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_LONGDATA message
+title: MM_MIM_LONGDATA message (Mmsystem.h)
 description: The MM\_MIM\_LONGDATA message is sent to a window when either a complete MIDI system-exclusive message is received or when a buffer has been filled with system-exclusive data.
 ms.assetid: 72b9eade-4224-436f-bfef-32204eaf51ae
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ Handle to the MIDI input device that received the data.
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
+Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure identifying the buffer.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ This message does not return a value.
 
 ## Remarks
 
-The returned buffer might not be full. To determine the number of bytes recorded into the returned buffer, use the **dwBytesRecorded** member of the [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure pointed to by *lpMidiHdr*.
+The returned buffer might not be full. To determine the number of bytes recorded into the returned buffer, use the **dwBytesRecorded** member of the [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure pointed to by *lpMidiHdr*.
 
 No time stamp is available with this message. For time-stamped input data, you must use the messages that are sent to callback functions.
 

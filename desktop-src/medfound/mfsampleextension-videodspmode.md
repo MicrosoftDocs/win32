@@ -1,8 +1,8 @@
 ---
 Description: Indicates whether video stabilization was applied to a video frame.
 ms.assetid: 13F877A3-7600-400F-9071-FE1B83027355
-title: MFSampleExtension_VideoDSPMode attribute
-ms.topic: article
+title: MFSampleExtension_VideoDSPMode attribute (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

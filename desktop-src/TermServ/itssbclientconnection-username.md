@@ -16,7 +16,7 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ HRESULT get_UserName(
 
 ## Property value
 
-A pointer to a user name. When you have finished using the string, free it by calling the [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) function.
+A pointer to a user name. When you have finished using the string, free it by calling the [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) function.
 
 ## Requirements
 

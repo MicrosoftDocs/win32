@@ -1,5 +1,5 @@
 ---
-title: g_wszWMACDRCSetting
+title: g_wszWMACDRCSetting (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: cbb884ac-ef7b-48e1-b83c-fdfea25d0fe1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

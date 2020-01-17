@@ -3,7 +3,7 @@ Description: Represents a product. This includes software and hardware used on t
 ms.assetid: 6241e703-4ce9-435f-bf36-4388e38a3ea5
 ms.tgt_platform: multiple
 title: Win32_ComputerSystemProduct class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

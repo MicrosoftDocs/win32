@@ -1,8 +1,8 @@
 ---
 Description: Specifies the monitor refresh rate.
 ms.assetid: deeb780c-2dc2-4a9a-926a-23b9ae3bedd5
-title: MF_TOPOLOGY_PLAYBACK_FRAMERATE attribute
-ms.topic: article
+title: MF_TOPOLOGY_PLAYBACK_FRAMERATE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

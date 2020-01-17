@@ -2,7 +2,7 @@
 Description: The IAzOperation interface exposes the following properties.
 ms.assetid: B1161A52-B6DC-4A7D-971A-AAA448431BDD
 title: IAzOperation Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: BytesColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: BytesColumnValue methods
 TOCTitle: BytesColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.BytesColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytescolumnvalue_methods(v=EXCHG.10)

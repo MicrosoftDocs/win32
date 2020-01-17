@@ -3,7 +3,7 @@ Description: Registers event consumer providers with WMI.
 ms.assetid: 31ff43dc-dc70-4ba0-866f-37445912f837
 ms.tgt_platform: multiple
 title: '__EventConsumerProviderRegistration class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

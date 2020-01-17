@@ -3,7 +3,7 @@ title: IMsRdpClientShell2 Properties
 description: The IMsRdpClientShell2 interface exposes the following properties.
 ms.assetid: AFC5232B-7E52-411C-8F05-F650640D50A1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

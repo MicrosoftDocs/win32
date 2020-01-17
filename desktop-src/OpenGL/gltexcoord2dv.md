@@ -1,5 +1,5 @@
 ---
-title: glTexCoord2dv function
+title: glTexCoord2dv function (Gl.h)
 description: Sets the current texture coordinates.
 ms.assetid: e324a5ac-6251-42f8-9483-3d6ad8ae321f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

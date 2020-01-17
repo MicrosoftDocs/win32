@@ -3,7 +3,7 @@ Description: Resumes a paused print queue.
 ms.assetid: 6d6d21e9-f469-4e2c-9a89-3e9febe229fc
 ms.tgt_platform: multiple
 title: Resume method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

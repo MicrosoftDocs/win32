@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPipeLineStagesCallback3::MeshFileReadyCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: BD4719A5-AC07-446A-A7CA-5978F869F66E
 api_name: 

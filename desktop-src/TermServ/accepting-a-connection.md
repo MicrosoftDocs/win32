@@ -1,5 +1,5 @@
 ---
-title: Accepting a Connection
+title: Accepting a Connection (Remote Desktop Services)
 description: At some point in time, the dynamic virtual channel (DVC) client will request a connection to the DVC listener.
 ms.assetid: eab17aa9-590c-4da2-a1a9-6e50a11d1de7
 ms.tgt_platform: multiple

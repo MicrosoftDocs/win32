@@ -1,5 +1,5 @@
 ---
-title: MM_WOM_CLOSE message
+title: MM_WOM_CLOSE message (Mmsystem.h)
 description: The MM\_WOM\_CLOSE message is sent to a window when a waveform-audio output device is closed. The device handle is no longer valid after this message has been sent.
 ms.assetid: 6505b688-88a1-43b2-ad4e-2f88e496430a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

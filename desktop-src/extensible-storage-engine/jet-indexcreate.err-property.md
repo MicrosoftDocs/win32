@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXCREATE.err property  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXCREATE.err property 
 TOCTitle: 'err property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.err
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexcreate.err(v=EXCHG.10)
 ms:contentKeyID: 55103652
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.err
 dev_langs:

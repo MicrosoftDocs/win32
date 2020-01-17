@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalLink class represents the cabling of physical elem
 ms.assetid: 0d96cb7f-ca50-4eb2-b8d4-e749bbe67ad7
 ms.tgt_platform: multiple
 title: CIM_PhysicalLink class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

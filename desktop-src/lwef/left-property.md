@@ -1,5 +1,5 @@
 ---
-title: Left Property
+title: Left Property (Characters Object)
 description: Left Property
 ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
 ms.topic: article

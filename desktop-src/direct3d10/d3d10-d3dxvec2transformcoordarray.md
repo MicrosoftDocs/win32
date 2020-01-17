@@ -1,8 +1,8 @@
 ---
 Description: Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: dba68678-2ab4-4f64-9975-5e9f2a20f66a
-title: D3DXVec2TransformCoordArray function
-ms.topic: article
+title: D3DXVec2TransformCoordArray function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ D3DXVECTOR2* D3DXVec2TransformCoordArray(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the output data stream.
 
@@ -61,7 +61,7 @@ Stride between vectors in the output data stream.
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to the source D3DXVECTOR2 array.
 
@@ -70,7 +70,7 @@ Pointer to the source D3DXVECTOR2 array.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the input data stream.
 
@@ -79,7 +79,7 @@ Stride between vectors in the input data stream.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -88,7 +88,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of elements in the array.
 
@@ -96,7 +96,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR4**](d3d10-d3dxvector4.md) transformed array.
 

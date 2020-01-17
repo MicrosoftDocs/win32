@@ -1,11 +1,11 @@
 ---
-title: DateTimeColumnValue constructor  (Microsoft.Isam.Esent.Interop)
+title: DateTimeColumnValue constructor 
 TOCTitle: 'DateTimeColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.DateTimeColumnValue.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.datetimecolumnvalue.datetimecolumnvalue(v=EXCHG.10)
 ms:contentKeyID: 55101206
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.DateTimeColumnValue.DateTimeColumnValue
 dev_langs:

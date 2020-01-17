@@ -1,8 +1,8 @@
 ---
 Description: Notifies the application of progress when opening a network file.
 ms.assetid: 022b87e5-76af-4253-9485-97140f294938
-title: EC_LOADSTATUS
-ms.topic: article
+title: EC_LOADSTATUS (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

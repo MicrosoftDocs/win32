@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_STATS structure
+title: MPTHREAT_STATS structure (MpClient.h)
 description: Threat-related statistics.
 ms.assetid: 78B7E2A8-1BB4-4610-8E90-1F8ECBE740A8
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

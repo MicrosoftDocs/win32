@@ -3,7 +3,7 @@ Description: The CIM\_MonitorResolution class represents the relationship betwee
 ms.assetid: 064620dd-2d92-42d0-9167-35867830a077
 ms.tgt_platform: multiple
 title: CIM_MonitorResolution class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

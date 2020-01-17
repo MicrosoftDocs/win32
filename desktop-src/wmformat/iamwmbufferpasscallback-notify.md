@@ -12,7 +12,7 @@ api_name:
 - IAMWMBufferPassCallback.Notify
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -82,7 +82,7 @@ This method enables an application to examine and act on information in the medi
 [**DirectShow QASF Reference**](directshow-qasf-reference.md)
 </dt> <dt>
 
-[**IAMWMBufferPassCallback Interface**](https://msdn.microsoft.com/en-us/library/Dd798277(v=VS.85).aspx)
+[**IAMWMBufferPassCallback Interface**](https://msdn.microsoft.com/library/Dd798277(v=VS.85).aspx)
 </dt> <dt>
 
 [**INSSBuffer3 Interface**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3)

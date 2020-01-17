@@ -2,7 +2,7 @@
 title: mad (sm4 - asm)
 description: Component-wise multiply add.
 ms.assetid: 1C24AF49-AA32-4D3A-8478-C9BAC4FE7D77
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

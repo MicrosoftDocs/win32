@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_UserDevice class sets the desi
 ms.assetid: ed56bcf0-da64-4802-a6d8-2a3d16706391
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_UserDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,6 +1,6 @@
 ---
-title: Getting Started
-description: Getting Started
+title: Getting Started with the Windows Media Player SDK
+description: Getting Started with the Windows Media Player SDK
 ms.assetid: 47c333dc-dad3-4430-a053-016d2c931f74
 keywords:
 - Windows Media Player Mobile,plug-ins

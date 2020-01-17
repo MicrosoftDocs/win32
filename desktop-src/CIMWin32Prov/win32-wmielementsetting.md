@@ -3,7 +3,7 @@ Description: The Win32\_WMIElementSetting association WMI class relates a servic
 ms.assetid: 00e9f882-5f54-4042-a916-2f90ed9a37c0
 ms.tgt_platform: multiple
 title: Win32_WMIElementSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_WMIElementSetting class
 
-The **Win32\_WMIElementSetting** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a service running in the Windows system and the WMI settings it can use.
+The **Win32\_WMIElementSetting** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a service running in the Windows system and the WMI settings it can use.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_Service**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Service")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Service")
 </dt> </dl>
 
 Reference to the instance representing the Windows service using or surfacing WMI properties.
@@ -72,7 +72,7 @@ Data type: **Win32\_WMISetting**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_WMISetting")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_WMISetting")
 </dt> </dl>
 
 Reference to the instance representing the WMI settings available to the Windows service.
@@ -104,7 +104,7 @@ The **Win32\_WMIElementSetting** class is derived from [**CIM\_ElementSetting**]
 [**CIM\_ElementSetting**](cim-elementsetting.md)
 </dt> <dt>
 
-[WMI Service Management Classes](https://msdn.microsoft.com/en-us/library/Dn792273(v=VS.85).aspx)
+[WMI Service Management Classes](https://msdn.microsoft.com/library/Dn792273(v=VS.85).aspx)
 </dt> </dl>
 
  

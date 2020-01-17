@@ -3,7 +3,7 @@ Description: The CIM\_Thread class represents the ability to execute units of a 
 ms.assetid: 57222d57-61bd-4641-a77c-805263be04b7
 ms.tgt_platform: multiple
 title: CIM_Thread class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

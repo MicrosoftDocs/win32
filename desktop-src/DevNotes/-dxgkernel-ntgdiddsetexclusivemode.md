@@ -1,8 +1,8 @@
 ---
 Description: Notifies the driver when a Microsoft DirectDraw application is switching to or from exclusive mode.
 ms.assetid: f2b63d90-7ede-479f-a2fd-ae9870c4d7b9
-title: NtGdiDdSetExclusiveMode function
-ms.topic: article
+title: NtGdiDdSetExclusiveMode function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puSetExclusiveModeData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SETEXCLUSIVEMODEDATA**](https://msdn.microsoft.com/en-us/library/Ff551702(v=VS.85).aspx) structure that contains the notification information.
+Pointer to a [**DD\_SETEXCLUSIVEMODEDATA**](https://msdn.microsoft.com/library/Ff551702(v=VS.85).aspx) structure that contains the notification information.
 
 </dd> </dl>
 

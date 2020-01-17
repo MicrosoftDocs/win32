@@ -1,8 +1,8 @@
 ---
 Description: The ConnectFrontEnd method builds the front end of the filter graph from the current timeline.
 ms.assetid: ac484fd6-b88d-4c3a-bc4d-f118083d706d
-title: IRenderEngine::ConnectFrontEnd method
-ms.topic: article
+title: IRenderEngine::ConnectFrontEnd method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

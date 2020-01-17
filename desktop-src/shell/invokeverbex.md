@@ -1,8 +1,8 @@
 ---
 Description: Executes a verb on a Shell item.
 ms.assetid: 'aac3f338-6074-4b1f-9b2f-e6206db52419'
-title: ShellFolderItem.InvokeVerbEx method
-ms.topic: article
+title: ShellFolderItem.InvokeVerbEx method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

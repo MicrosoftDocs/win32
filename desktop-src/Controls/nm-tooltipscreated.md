@@ -1,5 +1,5 @@
 ---
-title: NM_TOOLTIPSCREATED notification code
+title: NM_TOOLTIPSCREATED notification code (Commctrl.h)
 description: Notifies a control's parent window that the control has created a tooltip control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 8108f084-212d-4a16-b604-1ec134b1bb43
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

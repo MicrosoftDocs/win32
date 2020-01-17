@@ -2,7 +2,7 @@
 Description: The ARPREADME property provides the Add or Remove Programs Control Panel ReadMe for the application that is written under the Uninstall Registry Key. This property can by set by the command line or a transform.
 ms.assetid: 5a3232b0-8194-4df5-9e6b-a1c7df5a216c
 title: ARPREADME property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

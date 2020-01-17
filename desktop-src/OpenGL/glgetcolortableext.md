@@ -1,5 +1,5 @@
 ---
-title: glGetColorTableEXT function
+title: glGetColorTableEXT function (Gl.h)
 description: The glGetColorTableEXT function gets the color table data of the current targeted texture palette.
 ms.assetid: 9169c4e1-a22e-48fe-bd45-4549c1a10ff0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

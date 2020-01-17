@@ -1,5 +1,5 @@
 ---
-title: EsentOneDatabasePerSessionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentOneDatabasePerSessionException properties
 TOCTitle: EsentOneDatabasePerSessionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentonedatabasepersessionexception_properties(v=EXCHG.10)

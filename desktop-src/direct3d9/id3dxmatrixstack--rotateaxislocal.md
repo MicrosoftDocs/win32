@@ -1,8 +1,8 @@
 ---
 Description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 ms.assetid: c7ef11e9-f4c4-4801-8f25-190066baeb52
-title: ID3DXMATRIXStack::RotateAxisLocal method
-ms.topic: article
+title: ID3DXMATRIXStack::RotateAxisLocal method (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to the arbitrary axis of rotation. See [**D3DXVECTOR3**](d3dxvector3.md)
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Rotation angle about the arbitrary axis, in radians. Angles are measured counterclockwise when looking along the arbitrary axis toward the origin.
 
@@ -56,7 +56,7 @@ Rotation angle about the arbitrary axis, in radians. Angles are measured counter
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

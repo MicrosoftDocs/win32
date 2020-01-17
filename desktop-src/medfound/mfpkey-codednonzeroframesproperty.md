@@ -1,8 +1,8 @@
 ---
 Description: Specifies the number of video frames encoded by the codec that actually contain data.
 ms.assetid: f96fd0b2-8c81-4318-b44c-4b794b3945a3
-title: MFPKEY_CODEDNONZEROFRAMES Property
-ms.topic: article
+title: MFPKEY_CODEDNONZEROFRAMES Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the number of video frames encoded by the codec that actually contain 
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

@@ -14,7 +14,7 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -91,22 +91,22 @@ for (int i = 0; i < result.count; i++)
 Dim mc As WMPLib.IWMPMediaCollection2 = player.mediaCollection
 Dim q As WMPLib.IWMPQuery = mc.createQuery()
 
-&#39; Add a condition to the Query. 
-q.addCondition(&quot;WM/Composer&quot;, &quot;Equals&quot;, &quot;Antonio Vivaldi&quot;)
+' Add a condition to the Query. 
+q.addCondition("WM/Composer", "Equals", "Antonio Vivaldi")
 
-&#39; Begin another Query group.
+' Begin another Query group.
 q.beginNextGroup()
 
-&#39; Add a condition to the new group understanding that it will be combined with the
-&#39; first group using OR logic.
-q.addCondition(&quot;Title&quot;, &quot;Contains&quot;, &quot;Capriol&quot;)
+' Add a condition to the new group understanding that it will be combined with the
+' first group using OR logic.
+q.addCondition("Title", "Contains", "Capriol")
 
-&#39; Query the media collection and get a string collection containing the result.
-&#39; In this case, the string collection will contain the titles of all audio items that
-&#39; match the query.
-Dim result As WMPLib.IWMPStringCollection2 = mc.getStringCollectionByQuery(&quot;Title&quot;, q, &quot;audio&quot;, &quot;&quot;, False)
+' Query the media collection and get a string collection containing the result.
+' In this case, the string collection will contain the titles of all audio items that
+' match the query.
+Dim result As WMPLib.IWMPStringCollection2 = mc.getStringCollectionByQuery("Title", q, "audio", "", False)
 
-&#39; Display the results by adding them to a list box.
+' Display the results by adding them to a list box.
 For i As Integer = 0 To (result.count - 1)
 
     complexQueryResults.Items.Add(result.Item(i))

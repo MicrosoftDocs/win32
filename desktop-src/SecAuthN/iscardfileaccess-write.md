@@ -2,7 +2,7 @@
 Description: The Write method writes data to a current opened file.
 ms.assetid: 0c92af34-a9db-4242-8b6e-d1010a0d7afa
 title: ISCardFileAccess::Write method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # ISCardFileAccess::Write method
 
-\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
 The **Write** method writes data to a current opened file.
 
@@ -84,7 +84,7 @@ To open or close a file, call [**Open**](iscardfileaccess-open.md) or [**Close**
 
 For a list of all the methods defined by this interface, see [**ISCardFileAccess**](iscardfileaccess.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: EM_GETPAGEROTATE message
+title: EM_GETPAGEROTATE message (Richedit.h)
 description: Gets the text layout for a Microsoft Rich Edit control.
 ms.assetid: 0efb112e-ad51-4ebb-9037-3aee3ab9ad1d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

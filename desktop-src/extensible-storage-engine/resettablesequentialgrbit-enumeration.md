@@ -1,11 +1,11 @@
 ---
-title: ResetTableSequentialGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: ResetTableSequentialGrbit enumeration
 TOCTitle: ResetTableSequentialGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ResetTableSequentialGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.resettablesequentialgrbit(v=EXCHG.10)
 ms:contentKeyID: 39515281
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ResetTableSequentialGrbit
 - Microsoft.Isam.Esent.Interop.ResetTableSequentialGrbit.None

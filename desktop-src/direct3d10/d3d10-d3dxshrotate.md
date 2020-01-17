@@ -1,8 +1,8 @@
 ---
 Description: Rotates the spherical harmonic (SH) vector by the given matrix.
 ms.assetid: 22ed379a-ce08-46df-9cc1-8d5fde87c179
-title: D3DXSHRotate function
-ms.topic: article
+title: D3DXSHRotate function (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ FLOAT* D3DXSHRotate(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates Order² coefficients. This pointer should not alias with pIn. See Remarks.
 
@@ -50,7 +50,7 @@ Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Order of the SH evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -59,7 +59,7 @@ Order of the SH evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_
 *pMatrix* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the rotation matrix. The rotation sub-matrix must be orthogonal, with a unit determinant.
 
@@ -68,7 +68,7 @@ Pointer to the rotation matrix. The rotation sub-matrix must be orthogonal, with
 *pIn* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to rotated SH coefficients.
 
@@ -76,7 +76,7 @@ Pointer to rotated SH coefficients.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to SH output coefficients.
 

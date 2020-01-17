@@ -1,5 +1,5 @@
 ---
-title: SisCreateBackupStructure function
+title: SisCreateBackupStructure function (Sisbkup.h)
 description: Creates a SIS backup structure based on the supplied information.
 ms.assetid: a8c48961-fa24-4eb6-92cd-1b9bc83cec41
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

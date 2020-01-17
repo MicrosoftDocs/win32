@@ -1,8 +1,8 @@
 ---
 Description: Sets the value of specified child properties in the <Properties> element of a scan profile.
 ms.assetid: 3cf7b723-4004-49e5-b3bd-49a84432ede3
-title: IScanProfile::SetProperty method
-ms.topic: article
+title: IScanProfile::SetProperty method (Scanprofile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -57,7 +57,7 @@ A pointer to an array of identification numbers of the properties to be set. Eac
 *pvar* \[in\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx)\***
+Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)\***
 
 A pointer to an array of values to be assigned to the properties.
 

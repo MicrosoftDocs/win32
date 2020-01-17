@@ -2,7 +2,7 @@
 Description: Flushes the shim database cache. This function should be called after installing a new shim database.
 ms.assetid: 7e5bbdca-7b58-4c51-9cd1-105b05ee7fbe
 title: ShimFlushCache function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

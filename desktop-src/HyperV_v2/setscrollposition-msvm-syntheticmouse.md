@@ -2,7 +2,7 @@
 Description: Sets the z-coordinate of the wheel control of the pointing device.
 ms.assetid: 02349957-6BAA-42E7-B3D4-F39E748615E6
 title: SetScrollPosition method of the Msvm_SyntheticMouse class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: EN_LINK notification code
+title: EN_LINK notification code (Richedit.h)
 description: A rich edit control sends EN\_LINK notification codes when it receives various messages, for example, when the user clicks the mouse or when the mouse pointer is over text that has the CFE\_LINK effect.
 ms.assetid: 67f02908-957e-4d91-8a70-70399ce9cf2e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

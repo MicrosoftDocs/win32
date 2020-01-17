@@ -2,7 +2,7 @@
 Description: Retrieves the content of the user notice.
 ms.assetid: dcf73357-253d-4160-be4e-f826296f5eaa
 title: Qualifier.ExplicitText property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

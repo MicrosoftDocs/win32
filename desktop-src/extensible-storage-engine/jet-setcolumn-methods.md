@@ -1,5 +1,5 @@
 ---
-title: JET_SETCOLUMN methods (Microsoft.Isam.Esent.Interop)
+title: JET_SETCOLUMN methods
 TOCTitle: JET_SETCOLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn_methods(v=EXCHG.10)

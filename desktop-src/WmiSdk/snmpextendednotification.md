@@ -3,7 +3,7 @@ Description: The SnmpExtendedNotification class is the base class for any class 
 ms.assetid: 207966c1-14cf-4a47-8176-0f58838cfa1e
 ms.tgt_platform: multiple
 title: SnmpExtendedNotification class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

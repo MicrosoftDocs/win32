@@ -1,8 +1,8 @@
 ---
 Description: Create an asynchronous-file loader.
 ms.assetid: 1b79fba5-e7f0-4160-9cec-ffea94f84fde
-title: D3DX10CreateAsyncFileLoader function
-ms.topic: article
+title: D3DX10CreateAsyncFileLoader function (D3DX10Async.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT D3DX10CreateAsyncFileLoader(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The name of the file to load. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -55,7 +55,7 @@ Address of a pointer to the asynchronous-data loader (see [**ID3DX10DataLoader I
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

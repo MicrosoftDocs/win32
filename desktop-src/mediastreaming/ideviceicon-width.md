@@ -12,7 +12,7 @@ api_name:
 - IDeviceIcon.Width
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx)
+[**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx)
 </dt> </dl>
 
  

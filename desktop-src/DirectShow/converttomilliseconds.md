@@ -1,8 +1,8 @@
 ---
 Description: The ConvertToMilliseconds function converts a reference time to milliseconds.
 ms.assetid: fae3baa4-9344-4197-b375-4abe2656e1b7
-title: ConvertToMilliseconds function
-ms.topic: article
+title: ConvertToMilliseconds function (Refclock.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

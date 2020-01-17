@@ -1,5 +1,5 @@
 ---
-title: glTexParameterf function
+title: glTexParameterf function (Gl.h)
 description: Sets texture parameters.
 ms.assetid: 20b9f2d5-66e1-41cd-9571-8caa38ef033d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

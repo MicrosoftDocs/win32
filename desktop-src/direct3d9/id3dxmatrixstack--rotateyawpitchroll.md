@@ -1,8 +1,8 @@
 ---
 Description: Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: 25a7eff4-a575-4ddb-85eb-ef3fa2d6ae3b
-title: ID3DXMATRIXStack::RotateYawPitchRoll method
-ms.topic: article
+title: ID3DXMATRIXStack::RotateYawPitchRoll method (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT RotateYawPitchRoll(
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The yaw around the y-axis in radians.
 
@@ -49,7 +49,7 @@ The yaw around the y-axis in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The pitch around the x-axis in radians.
 
@@ -58,7 +58,7 @@ The pitch around the x-axis in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The roll around the z-axis in radians.
 
@@ -66,7 +66,7 @@ The roll around the z-axis in radians.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK.
 

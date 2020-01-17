@@ -1,8 +1,8 @@
 ---
 Description: Returns a 3D vector that is made up of the largest components of two 3D vectors.
 ms.assetid: 8d3a5310-bee9-4dbd-bef3-8a0e1586f365
-title: D3DXVec3Maximize function
-ms.topic: article
+title: D3DXVec3Maximize function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

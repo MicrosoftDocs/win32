@@ -1,5 +1,5 @@
 ---
-title: CB_GETCOUNT message
+title: CB_GETCOUNT message (Winuser.h)
 description: Gets the number of items in the list box of a combo box.
 ms.assetid: 69667724-5452-4fcc-afc3-0d98d3beedc8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

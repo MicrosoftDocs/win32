@@ -1,5 +1,5 @@
 ---
-title: Scroll Bar Control Styles
+title: Scroll Bar Control Styles (Winuser.h)
 description: To create a scroll bar control using the CreateWindow or CreateWindowEx function specify the SCROLLBAR class, appropriate window style constants, and a combination of the following scroll bar control styles.
 ms.assetid: 07195a95-eff8-4a47-926a-9d503fa7b299
 topic_type:
@@ -19,7 +19,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

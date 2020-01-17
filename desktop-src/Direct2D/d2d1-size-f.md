@@ -1,10 +1,10 @@
 ---
-title: D2D1_SIZE_F
+title: D2D1_SIZE_F (D2DBaseTypes.h)
 description: Stores an ordered pair of floats, typically the width and height of a rectangle.
 ms.assetid: c2fd41fb-72b3-418b-ad87-65549b04657d
 keywords:
 - D2D1_SIZE_F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

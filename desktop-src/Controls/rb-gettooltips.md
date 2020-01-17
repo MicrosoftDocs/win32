@@ -1,5 +1,5 @@
 ---
-title: RB_GETTOOLTIPS message
+title: RB_GETTOOLTIPS message (Commctrl.h)
 description: Retrieves the handle to any tooltip control associated with the rebar control.
 ms.assetid: 87897b00-857f-4a8a-ae16-a48abf4c411d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

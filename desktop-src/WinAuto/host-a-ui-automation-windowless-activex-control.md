@@ -1,5 +1,5 @@
 ---
-title: How to Host a UI Automation Windowless ActiveX Control
+title: Host a UI Automation Windowless ActiveX Control
 description: Learn how to create a control container that can host windowless Microsoft ActiveX controls that implement Microsoft UI Automation.
 ms.assetid: A0F82968-F434-4F5E-8052-CF7CE65DB120
 keywords:
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How to Host a UI Automation Windowless ActiveX Control
+# Host a UI Automation Windowless ActiveX Control
 
 Learn how to create a control container that can host windowless Microsoft ActiveX controls that implement Microsoft UI Automation. By using the steps described here, you can ensure that any UI Automation windowless controls that are hosted in your control container are accessible to assistive technology (AT) client applications.
 

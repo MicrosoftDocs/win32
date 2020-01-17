@@ -1,8 +1,8 @@
 ---
 Description: Defines the primitives supported by Direct3D.
 ms.assetid: 89e697f9-02b9-4ae1-9e86-6178da0cb008
-title: D3DPRIMITIVETYPE enumeration
-ms.topic: enumeration
+title: D3DPRIMITIVETYPE enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

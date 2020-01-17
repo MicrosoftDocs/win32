@@ -2,7 +2,7 @@
 Description: A Mobile Broadband v1 Profile is comprised of the following elements.
 ms.assetid: 234dd206-7306-4598-bfbb-b0cd9d726ace
 title: Mobile Broadband Profile Schema v1 Elements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

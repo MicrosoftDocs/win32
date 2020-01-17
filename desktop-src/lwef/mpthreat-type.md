@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_TYPE enumeration
+title: MPTHREAT_TYPE enumeration (MpClient.h)
 description: Possible threat types.
 ms.assetid: 56061F12-AA89-4203-BED4-99613E24002A
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

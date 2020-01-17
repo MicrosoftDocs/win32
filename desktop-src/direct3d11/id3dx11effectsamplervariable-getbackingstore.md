@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectSamplerVariable GetBackingStore method
+title: ID3DX11EffectSamplerVariable GetBackingStore method (D3dx11effect.h)
 description: Get a pointer to a variable that contains sampler state.
 ms.assetid: b188fb86-f54b-481e-9110-7b8af70ff303
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ A pointer to a sampler description (see [**D3D11\_SAMPLER\_DESC**](/windows/desk
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

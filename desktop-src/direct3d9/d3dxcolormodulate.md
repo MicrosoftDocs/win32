@@ -1,8 +1,8 @@
 ---
 Description: Blends two colors.
 ms.assetid: deff70c7-2359-48b2-ab40-8c418acf5a07
-title: D3DXColorModulate function
-ms.topic: article
+title: D3DXColorModulate function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

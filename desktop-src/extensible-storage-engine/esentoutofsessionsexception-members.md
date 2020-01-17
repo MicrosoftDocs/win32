@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfSessionsException members (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfSessionsException members
 TOCTitle: EsentOutOfSessionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofsessionsexception_members(v=EXCHG.10)

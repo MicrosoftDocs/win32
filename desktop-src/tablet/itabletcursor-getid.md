@@ -2,7 +2,7 @@
 Description: Retrieves the stylus identifier.
 ms.assetid: 27320a2f-1e4a-4d7d-a1f8-5244f4a03415
 title: ITabletCursor::GetId method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The Win32\_PnPDevice association WMI class relates a device (known 
 ms.assetid: 5163a423-60f2-416d-bf82-89517b499f93
 ms.tgt_platform: multiple
 title: Win32_PnPDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_PnPDevice class
 
-The **Win32\_PnPDevice** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a device (known to Configuration Manager as a PNPEntity) and the function it performs. Its function is represented by a subclass of the logical device that describes its use. For example, a [**Win32\_Keyboard**](win32-keyboard.md) or [**Win32\_DiskDrive**](win32-diskdrive.md) instance. Both referenced objects represent the same underlying system device; changes to resource allocation on the PNPEntity side will effect the associated device.
+The **Win32\_PnPDevice** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a device (known to Configuration Manager as a PNPEntity) and the function it performs. Its function is represented by a subclass of the logical device that describes its use. For example, a [**Win32\_Keyboard**](win32-keyboard.md) or [**Win32\_DiskDrive**](win32-diskdrive.md) instance. Both referenced objects represent the same underlying system device; changes to resource allocation on the PNPEntity side will effect the associated device.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_LogicalDevice")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_LogicalDevice")
 </dt> </dl>
 
 Reference to the [**CIM\_LogicalDevice**](cim-logicaldevice.md) instance representing the logical device properties associated with the Plug and Play device.
@@ -72,7 +72,7 @@ Data type: **Win32\_PnPEntity**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PnPEntity")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PnPEntity")
 </dt> </dl>
 
 Reference to the [**Win32\_PnPEntity**](win32-pnpentity.md) instance representing the Plug and Play device associated with the logical device.

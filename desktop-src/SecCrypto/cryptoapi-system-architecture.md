@@ -19,12 +19,12 @@ The CryptoAPI system architecture is composed of five major functional areas:
 ## Base Cryptographic Functions
 
 -   *Context functions* used to connect to a CSP. These functions enable applications to choose a specific CSP by name or to choose a specific CSP that can provide a needed class of functionality.
--   [*Key generation functions*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) used to generate and store [*cryptographic keys*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx). Full support is included for changing [*chaining modes*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), [*initialization vectors*](https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx), and other encryption features. For more information, see [Key Generation and Exchange Functions](cryptography-functions.md).
+-   [*Key generation functions*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) used to generate and store [*cryptographic keys*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx). Full support is included for changing [*chaining modes*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), [*initialization vectors*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx), and other encryption features. For more information, see [Key Generation and Exchange Functions](cryptography-functions.md).
 -   *Key exchange functions* used to exchange or transmit keys. For more information, see [Cryptographic Key Storage and Exchange](cryptographic-key-storage-and-exchange.md) and [Key Generation and Exchange Functions](cryptography-functions.md).
 
 ## Certificate Encode/Decode Functions
 
--   Functions used to encrypt or decrypt data. Support is also included for [*hashing*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) data. For more information, see [Data Encryption and Decryption Functions](cryptography-functions.md) and [Data Encryption and Decryption](data-encryption-and-decryption.md).
+-   Functions used to encrypt or decrypt data. Support is also included for [*hashing*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) data. For more information, see [Data Encryption and Decryption Functions](cryptography-functions.md) and [Data Encryption and Decryption](data-encryption-and-decryption.md).
 
 ## Certificate Store Functions
 
@@ -60,12 +60,12 @@ Each of the functional areas has a key word in its function name that indicates 
 
  
 
-Applications use functions in all of these areas. These functions, taken together, make up CryptoAPI. The [*base cryptographic functions*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) use the CSPs for the necessary cryptographic algorithms and for the generation and secure storage of [cryptographic keys](cryptographic-keys.md).
+Applications use functions in all of these areas. These functions, taken together, make up CryptoAPI. The [*base cryptographic functions*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) use the CSPs for the necessary cryptographic algorithms and for the generation and secure storage of [cryptographic keys](cryptographic-keys.md).
 
-Two different kinds of cryptographic keys are used: [*session keys*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), which are used for a single encryption/decryption, and [*public/private key pairs*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx), which are used on a more permanent basis.
+Two different kinds of cryptographic keys are used: [*session keys*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), which are used for a single encryption/decryption, and [*public/private key pairs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx), which are used on a more permanent basis.
 
 > [!Note]  
-> Although an application can communicate directly with any of the five functional areas, it cannot communicate directly with a CSP. All application-to-CSP communications occur through the [*base cryptographic functions*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx). Base cryptographic functions have a parameter that specifies which CSP to use. This parameter can be set to **NULL** to select a default CSP.
+> Although an application can communicate directly with any of the five functional areas, it cannot communicate directly with a CSP. All application-to-CSP communications occur through the [*base cryptographic functions*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx). Base cryptographic functions have a parameter that specifies which CSP to use. This parameter can be set to **NULL** to select a default CSP.
 
  
 

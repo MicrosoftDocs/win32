@@ -1,5 +1,5 @@
 ---
-title: MrmIndexString function
+title: MrmIndexString function (MrmResourceIndexer.h)
 description: Indexes a single string resource belonging to a UWP app.
 ms.assetid: 098F47E7-4BEC-452F-A33C-111F3F524E67
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

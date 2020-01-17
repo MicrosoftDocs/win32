@@ -1,8 +1,8 @@
 ---
 Description: Indicates whether MFSampleExtension\_ROIRectangle attribute set on the input sample will be honored or not.
 ms.assetid: 6B3CB513-43E8-4D30-B5A0-CD2E9C9F46BA
-title: CODECAPI_AVEncVideoROIEnabled property
-ms.topic: article
+title: CODECAPI_AVEncVideoROIEnabled property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

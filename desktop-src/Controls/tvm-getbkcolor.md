@@ -1,5 +1,5 @@
 ---
-title: TVM_GETBKCOLOR message
+title: TVM_GETBKCOLOR message (Commctrl.h)
 description: Retrieves the current background color of the control. You can send this message explicitly or by using the TreeView\_GetBkColor macro.
 ms.assetid: 1b9eea90-54cd-47b9-befa-ec0128a0230f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

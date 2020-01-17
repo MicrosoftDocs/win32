@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_FileAction class takes a particular a
 ms.assetid: f7514d67-4141-4d1a-bdfd-83aa062291aa
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_FileAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

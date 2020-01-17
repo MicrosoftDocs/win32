@@ -3,7 +3,7 @@ Description: The Win32\_ClassicCOMApplicationClasses association WMI class relat
 ms.assetid: 77f24461-9ca0-4fc3-8728-4a4b9a1edbc3
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMApplicationClasses class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Represents a data source that resolves to an actual local storage d
 ms.assetid: 134a90cc-b2c3-4ade-a317-b96c4aabe63d
 ms.tgt_platform: multiple
 title: Win32_LogicalDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

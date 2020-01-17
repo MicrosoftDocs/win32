@@ -1,5 +1,5 @@
 ---
-title: IndexInfo members (Microsoft.Isam.Esent.Interop)
+title: IndexInfo members
 TOCTitle: IndexInfo members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IndexInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexinfo_members(v=EXCHG.10)

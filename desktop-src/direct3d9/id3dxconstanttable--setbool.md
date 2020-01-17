@@ -1,8 +1,8 @@
 ---
 Description: Sets a Boolean value.
 ms.assetid: 652e5b68-88f3-4b05-959b-38bb530c546a
-title: ID3DXConstantTable::SetBool method
-ms.topic: article
+title: ID3DXConstantTable::SetBool method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -58,7 +58,7 @@ Unique identifier to the constant. See [D3DXHANDLE](dx9-graphics-reference-effec
 *b* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Boolean value.
 
@@ -66,7 +66,7 @@ Boolean value.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

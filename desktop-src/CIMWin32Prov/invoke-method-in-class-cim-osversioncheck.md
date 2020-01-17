@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_OSVersionCheck class evaluates a part
 ms.assetid: ff06772c-e40c-49c8-b334-5ee480926245
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_OSVersionCheck class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

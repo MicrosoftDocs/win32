@@ -1,5 +1,5 @@
 ---
-title: Common Control Styles
+title: Common Control Styles (CommCtrl.h)
 description: This section lists common control styles. Except where noted, these styles apply to rebar controls, toolbar controls, and status windows.
 ms.assetid: aab0cd68-ede7-474b-8695-c75805669716
 topic_type:
@@ -20,7 +20,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

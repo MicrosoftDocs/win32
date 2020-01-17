@@ -1,5 +1,5 @@
 ---
-title: Enumerator.Error property
+title: Enumerator.Error property (WSManDisp.h)
 description: Gets an XML representation of additional error information.
 ms.assetid: 08a6307b-3ed5-4d7f-aa22-a666d64371b5
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

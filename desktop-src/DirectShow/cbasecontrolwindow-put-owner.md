@@ -1,8 +1,8 @@
 ---
 Description: The put\_Owner method sets the video window's parent window; the parent window then forwards certain messages to the video window.
 ms.assetid: 8ed85cb0-47be-40c1-947a-dd9f7850d867
-title: CBaseControlWindow.put_Owner method
-ms.topic: article
+title: CBaseControlWindow.put_Owner method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

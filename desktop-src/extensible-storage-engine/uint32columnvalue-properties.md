@@ -1,5 +1,5 @@
 ﻿---
-title: UInt32ColumnValue properties (Microsoft.Isam.Esent.Interop)
+title: UInt32ColumnValue properties
 TOCTitle: UInt32ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.UInt32ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint32columnvalue_properties(v=EXCHG.10)

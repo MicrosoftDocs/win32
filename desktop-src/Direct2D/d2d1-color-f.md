@@ -1,10 +1,10 @@
 ---
-title: D2D1_COLOR_F
+title: D2D1_COLOR_F (D2DBaseTypes.h)
 description: Describes the red, green, blue, and alpha components of a color.
 ms.assetid: 564d4f41-2da7-49ed-b85a-d1070d662b40
 keywords:
 - D2D1_COLOR_F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -23,11 +23,11 @@ typedef D2D_COLOR_F D2D1_COLOR_F;
 
 **D2D1\_COLOR\_F** is a typedef for [**D2D\_COLOR\_F**](d2d-color-f.md), which is itself a typedef for [D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx). For information about the members provided by **D2D1\_COLOR\_F**, see [D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx).
 
-The [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) reference.
+The [**ColorF**](https://msdn.microsoft.com/library/Dd370907(v=VS.85).aspx) class provides a set of predefined colors and helper functions for defining colors. For more information, see the [**ColorF**](https://msdn.microsoft.com/library/Dd370907(v=VS.85).aspx) reference.
 
 ## Examples
 
-The following example uses the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class to specify a predefined color (black) when creating an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx).
+The following example uses the [**ColorF**](https://msdn.microsoft.com/library/Dd370907(v=VS.85).aspx) class to specify a predefined color (black) when creating an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx).
 
 
 ```C++
@@ -39,7 +39,7 @@ hr = m_pRenderTarget->CreateSolidColorBrush(
 
 
 
-The following example uses the [**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx) class to specify a color using red, green, blue, and alpha values.
+The following example uses the [**ColorF**](https://msdn.microsoft.com/library/Dd370907(v=VS.85).aspx) class to specify a color using red, green, blue, and alpha values.
 
 
 ```C++
@@ -72,7 +72,7 @@ hr = pCompatibleRenderTarget->CreateSolidColorBrush(
 [D3DCOLORVALUE](https://msdn.microsoft.com/library/bb172520(VS.85).aspx)
 </dt> <dt>
 
-[**ColorF**](https://msdn.microsoft.com/en-us/library/Dd370907(v=VS.85).aspx)
+[**ColorF**](https://msdn.microsoft.com/library/Dd370907(v=VS.85).aspx)
 </dt> </dl>
 
  

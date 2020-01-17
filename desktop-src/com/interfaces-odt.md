@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Interfaces (OLE and Data Transfer)
 description: The following interfaces are used to implement compound documents and perform data transfer between applications.
 ms.assetid: cfc2c9e9-ddb4-4422-80f8-26e20add6f6e
 ms.topic: article

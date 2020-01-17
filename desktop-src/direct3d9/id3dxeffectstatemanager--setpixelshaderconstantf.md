@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set an array of vertex shader floating-point constants.
 ms.assetid: db87ca8c-2539-4d80-854c-25b114a7e7e0
-title: ID3DXEffectStateManager::SetPixelShaderConstantF method
-ms.topic: article
+title: ID3DXEffectStateManager::SetPixelShaderConstantF method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -40,7 +40,7 @@ HRESULT SetPixelShaderConstantF(
 *StartRegister* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The zero-based index of the first constant register.
 
@@ -49,7 +49,7 @@ The zero-based index of the first constant register.
 *pConstantData* \[out\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 An array of floating-point constants.
 
@@ -58,7 +58,7 @@ An array of floating-point constants.
 *RegisterCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of registers in pConstantData.
 
@@ -66,7 +66,7 @@ The number of registers in pConstantData.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

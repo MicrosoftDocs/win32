@@ -1,8 +1,8 @@
 ---
 Description: Access the mesh's vertex buffer after it has been committed to the device with ID3DX10Mesh::CommitToDevice. This is different from ID3DX10Mesh::GetVertexBuffer, which returns the vertex buffer before it has been committed to the device.
 ms.assetid: 621d9105-e55d-47b8-8557-8adb7db19d66
-title: ID3DX10Mesh::GetDeviceVertexBuffer method
-ms.topic: article
+title: ID3DX10Mesh::GetDeviceVertexBuffer method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT GetDeviceVertexBuffer(
 *iBuffer* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 An index identifying which vertex buffer to access.
 
@@ -56,7 +56,7 @@ The vertex buffer after it has been committed to the device.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

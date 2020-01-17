@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback object to merge menu items into the Windows Explorer menus. Used by IShellFolderViewCB::MessageSFVCB.
-title: SFVM_MERGEMENU message
-ms.topic: article
+title: SFVM_MERGEMENU message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 59bb99a3-9a5a-4ea5-9830-b04d7d886b3f
 api_name: 
@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_MERGEMENU message
 
-Allows the callback object to merge menu items into the Windows Explorer menus. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to merge menu items into the Windows Explorer menus. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++
@@ -44,7 +44,7 @@ A [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo) structu
 
 ## Remarks
 
-This message serves essentially the same purpose as the [**IShellBrowser::InsertMenusSB**](https://msdn.microsoft.com/en-us/library/Bb775121(v=VS.85).aspx) and [**IShellBrowser::SetMenuSB**](https://msdn.microsoft.com/en-us/library/Bb775134(v=VS.85).aspx) in a custom folder view. See the *Using IShellBrowser to Communicate with Windows Explorer* section of [Implementing a Folder View](https://msdn.microsoft.com/en-us/library/Cc144092(v=VS.85).aspx) for further discussion.
+This message serves essentially the same purpose as the [**IShellBrowser::InsertMenusSB**](https://msdn.microsoft.com/library/Bb775121(v=VS.85).aspx) and [**IShellBrowser::SetMenuSB**](https://msdn.microsoft.com/library/Bb775134(v=VS.85).aspx) in a custom folder view. See the *Using IShellBrowser to Communicate with Windows Explorer* section of [Implementing a Folder View](https://msdn.microsoft.com/library/Cc144092(v=VS.85).aspx) for further discussion.
 
 ## Requirements
 

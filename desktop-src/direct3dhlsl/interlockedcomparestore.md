@@ -1,5 +1,5 @@
 ---
-title: InterlockedCompareStore function
+title: InterlockedCompareStore function (HLSL reference)
 description: Atomically compares the destination to the comparison value. If they are identical, the destination is overwritten with the input value.
 ms.assetid: eaf7e669-5240-40c9-9840-f4e7916e51b4
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - InterlockedCompareStore
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedCompareStore function
+# InterlockedCompareStore function (HLSL reference)
 
 Atomically compares the destination to the comparison value. If they are identical, the destination is overwritten with the input value.
 

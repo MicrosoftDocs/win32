@@ -18,7 +18,7 @@ Your MUI application can run under any language or locale setting, and the user 
 
 ## Supported Programming Environments
 
-You can add MUI functionality to a globalized Win32 forms application or console application as described in this SDK. In addition, you can create managed applications using .NET Framework, which is compatible with MUI. For more information, see [.NET Development](https://msdn.microsoft.com/en-us/library/Ff361664(v=VS.100).aspx).
+You can add MUI functionality to a globalized Win32 forms application or console application as described in this SDK. In addition, you can create managed applications using .NET Framework, which is compatible with MUI. For more information, see [.NET Development](https://msdn.microsoft.com/library/Ff361664(v=VS.100).aspx).
 
 ## User Interface Language Settings
 

@@ -1,8 +1,8 @@
 ---
 Description: D3DXSHPRTSPLITMESHVERTDATA structure
 ms.assetid: 8799a680-bf5f-42cc-91aa-1a6aed164ca5
-title: D3DXSHPRTSPLITMESHVERTDATA structure
-ms.topic: structure
+title: D3DXSHPRTSPLITMESHVERTDATA structure (D3dx9mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ typedef struct D3DXSHPRTSPLITMESHVERTDATA {
 **uVertRemap**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -48,7 +48,7 @@ Vertex in original mesh this corresponds to.
 **uSubCluster**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -59,7 +59,7 @@ Cluster index, relative to the supercluster.
 **ucVertStatus**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

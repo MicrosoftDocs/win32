@@ -1,14 +1,14 @@
 ---
 Description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
 ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
-title: Event Logging
+title: Event Logging (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Event Logging
 
-[Windows Events](https://msdn.microsoft.com/en-us/library/Aa964766(v=VS.85).aspx) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](https://msdn.microsoft.com/en-us/library/Bb968803(v=VS.85).aspx) (ETW) or [Event Logging](https://msdn.microsoft.com/en-us/library/Aa363652(v=VS.85).aspx) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](https://msdn.microsoft.com/en-us/library/Aa385780(v=VS.85).aspx) API.
+[Windows Events](https://msdn.microsoft.com/library/Aa964766(v=VS.85).aspx) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](https://msdn.microsoft.com/library/Bb968803(v=VS.85).aspx) (ETW) or [Event Logging](https://msdn.microsoft.com/library/Aa363652(v=VS.85).aspx) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](https://msdn.microsoft.com/library/Aa385780(v=VS.85).aspx) API.
 
 The installer also writes entries into the event log. These record events such as following:
 

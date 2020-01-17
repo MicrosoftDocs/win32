@@ -2,7 +2,7 @@
 Description: Resumes the processes of the package if they are currently suspended.
 ms.assetid: c5376e00-b4b7-4a81-a84c-3a46758fe130
 title: IPackageDebugSettings::Resume method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Each process receives the [**Resuming**](https://msdn.microsoft.com/en-us/library/BR205859(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Resuming**](https://msdn.microsoft.com/library/BR205859(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
@@ -69,7 +69,7 @@ Each process receives the [**Resuming**](https://msdn.microsoft.com/en-us/librar
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](https://msdn.microsoft.com/en-us/library/Hh438393(v=VS.85).aspx)
+[**IPackageDebugSettings**](https://msdn.microsoft.com/library/Hh438393(v=VS.85).aspx)
 </dt> </dl>
 
  

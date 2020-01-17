@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPipeLineStagesCallback::GetSupportedStages method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: F7046A41-5C9C-42FE-B1E2-879A47CE08E3
 api_name: 

@@ -1,6 +1,6 @@
 ---
-title: Getting Started
-description: Getting Started
+title: Getting Started with Microsoft Windows Media DRM Client
+description: Getting Started with Microsoft Windows Media DRM Client
 ms.assetid: da2c57ab-7f88-4696-a8cf-065d8c86a510
 keywords:
 - Windows Media Format SDK,DRM Client Extended APIs

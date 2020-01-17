@@ -37,7 +37,7 @@ This guide describes more about what libraries are, how programs can be made to 
 [**IShellLibrary**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary)
 </dt> <dt>
 
-[Shell Links](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx)
+[Shell Links](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx)
 </dt> <dt>
 
 [Known Folders](known-folders.md)

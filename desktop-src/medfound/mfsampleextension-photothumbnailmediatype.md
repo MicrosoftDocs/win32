@@ -1,8 +1,8 @@
 ---
 Description: Contains the IMFMediaType which describes the image format type contained in the MFSampleExtension\_PhotoThumbnail attribute.
 ms.assetid: BA727189-385D-4BA1-9F17-AC6ECDD20ABF
-title: MFSampleExtension_PhotoThumbnailMediaType attribute
-ms.topic: article
+title: MFSampleExtension_PhotoThumbnailMediaType attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

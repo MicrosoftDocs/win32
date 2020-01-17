@@ -1,8 +1,8 @@
 ---
 Description: Sets the left-handed world-view transform for a sprite. A call to this method is required before billboarding or sorting sprites.
 ms.assetid: 70f1181d-41f9-4663-91e0-8df94bce4eed
-title: ID3DXSprite::SetWorldViewLH method
-ms.topic: article
+title: ID3DXSprite::SetWorldViewLH method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) that contains a view transform. If 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

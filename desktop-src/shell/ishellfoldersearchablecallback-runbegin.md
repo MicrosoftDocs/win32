@@ -1,7 +1,7 @@
 ---
 Description: Indicates that a search was started.
 title: IShellFolderSearchableCallback::RunBegin method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

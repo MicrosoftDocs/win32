@@ -1,8 +1,8 @@
 ---
 Description: The following terms are useful in understanding the TAPI technology.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2908cd44-9334-48c7-a3ba-82629f24ba35
-title: I
+title: I (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -37,7 +37,7 @@ The process whereby bandwidth enables a call to transmit more information at the
 <span id="tapi2.ip_multicast_tapgloss"></span><span id="TAPI2.IP_MULTICAST_TAPGLOSS"></span>**IP Multicast**
 </dt> <dd>
 
-IP multicast is a scheme for sending the same data to several machines simultaneously. A network with multicast-aware routers enabled will be able to convey such information much more rapidly by sending packets just once between routers. For additional information, see [About Rendezvous IP Telephony Conferencing](https://msdn.microsoft.com/en-us/library/ms726002(v=VS.85).aspx).
+IP multicast is a scheme for sending the same data to several machines simultaneously. A network with multicast-aware routers enabled will be able to convey such information much more rapidly by sending packets just once between routers. For additional information, see [About Rendezvous IP Telephony Conferencing](https://msdn.microsoft.com/library/ms726002(v=VS.85).aspx).
 
 </dd> <dt>
 

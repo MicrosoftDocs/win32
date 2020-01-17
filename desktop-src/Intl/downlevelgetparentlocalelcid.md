@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the locale identifier for the parent of the supplied locale.
 ms.assetid: 4cfa1787-6b9e-4dd4-8466-7b737e00a4b1
-title: DownlevelGetParentLocaleLCID function
-ms.topic: article
+title: DownlevelGetParentLocaleLCID function (Nlsdl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Locale identifier of the locale for which to retrieve the parent locale identifi
 
 ## Return value
 
-Returns the parent locale identifier if successful, or 0 otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+Returns the parent locale identifier if successful, or 0 otherwise. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
 

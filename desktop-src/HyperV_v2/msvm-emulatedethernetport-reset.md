@@ -2,7 +2,7 @@
 Description: Resets the virtual device.
 ms.assetid: e4eb3952-a58e-4acd-85df-205d6ed23133
 title: Reset method of the Msvm_EmulatedEthernetPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

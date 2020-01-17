@@ -1,5 +1,5 @@
 ---
-title: WINBIO_UNIT_SCHEMA structure
+title: WINBIO_UNIT_SCHEMA structure (Winbio\_types.h)
 description: Describes the capabilities of a biometric unit.
 ms.assetid: b20adf18-2948-481f-9d12-8da17aa152f7
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

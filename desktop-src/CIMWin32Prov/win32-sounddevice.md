@@ -3,7 +3,7 @@ Description: Represents the properties of a sound device on a computer system ru
 ms.assetid: 5471ffe9-60a3-466f-a608-e6268ba73c2b
 ms.tgt_platform: multiple
 title: Win32_SoundDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ api_location:
 
 # Win32\_SoundDevice class
 
-The **Win32\_SoundDevice** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents the properties of a sound device on a computer system running Windows.
+The **Win32\_SoundDevice** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents the properties of a sound device on a computer system running Windows.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -116,7 +116,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
 </dt> </dl>
 
 Availability and status of the device.
@@ -319,7 +319,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the object.
@@ -337,7 +337,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 Win32 Configuration Manager error code.
@@ -697,7 +697,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 If **TRUE**, the device is using a user-defined configuration.
@@ -715,7 +715,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Name of the first concrete class to appear in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, the property allows all instances of this class and its subclasses to be uniquely identified.
@@ -733,7 +733,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -751,7 +751,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("DeviceId"), [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (260), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\control\\\\MediaResources\\\\wave\|DeviceID")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("DeviceId"), [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (260), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\control\\\\MediaResources\\\\wave\|DeviceID")
 </dt> </dl>
 
 Unique identifier of the sound device.
@@ -769,7 +769,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("kilobytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("kilobytes")
 </dt> </dl>
 
 Size of the Direct Memory Access buffer.
@@ -817,7 +817,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -850,7 +850,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Manufacturer of the sound device.
@@ -868,7 +868,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Starting I/O address assigned to the MPU-401 port of the sound device.
@@ -886,7 +886,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -904,7 +904,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 Windows Plug and Play device identifier of the logical device.
@@ -980,7 +980,7 @@ The device can change its power state based on usage or other criteria.
 
 </dt> <dd>
 
-The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/en-us/library/Aa390351(v=VS.85).aspx).
+The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/library/Aa390351(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1034,7 +1034,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Multimedia Structures\|[**WAVEOUTCAPS**](https://msdn.microsoft.com/en-us/library/Dd743855(v=VS.85).aspx)\|szPname")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Multimedia Structures\|[**WAVEOUTCAPS**](https://msdn.microsoft.com/library/Dd743855(v=VS.85).aspx)\|szPname")
 </dt> </dl>
 
 Product name of the sound device.
@@ -1052,7 +1052,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1158,7 +1158,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.3")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.3")
 </dt> </dl>
 
 State of the logical device. If this property does not apply to the logical device, the value 5 (Not Applicable) should be used.
@@ -1213,7 +1213,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Value of the scoping computer's **CreationClassName** property.
@@ -1231,7 +1231,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Name of the scoping system.

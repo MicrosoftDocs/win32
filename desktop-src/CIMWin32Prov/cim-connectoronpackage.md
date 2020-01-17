@@ -3,7 +3,7 @@ Description: The CIM\_ConnectorOnPackage class represents an association that ma
 ms.assetid: 67cfb8c7-b952-452c-aeb4-0f06b2b0570b
 ms.tgt_platform: multiple
 title: CIM_ConnectorOnPackage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

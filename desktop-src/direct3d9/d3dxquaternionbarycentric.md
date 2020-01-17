@@ -1,8 +1,8 @@
 ---
 Description: Returns a quaternion in barycentric coordinates.
 ms.assetid: 8fcd2e16-1bf1-4e18-afc9-17c92f2bbac5
-title: D3DXQuaternionBaryCentric function
-ms.topic: article
+title: D3DXQuaternionBaryCentric function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -79,7 +79,7 @@ Pointer to a source [**D3DXQUATERNION**](d3dxquaternion.md) structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -88,7 +88,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 

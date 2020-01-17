@@ -1,5 +1,5 @@
 ---
-title: TVM_SORTCHILDREN message
+title: TVM_SORTCHILDREN message (Commctrl.h)
 description: Sorts the child items of the specified parent item in a tree-view control. You can send this message explicitly or by using the TreeView\_SortChildren macro.
 ms.assetid: c18bcd5f-c083-46ee-873b-d3100b0d7b04
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

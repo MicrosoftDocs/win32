@@ -1,8 +1,8 @@
 ---
 Description: Represents printer capability information.
 ms.assetid: 70120739-a4e0-4b87-ac7a-40a42fb509ee
-title: PRINTPROCESSOR_CAPS_2 structure
-ms.topic: structure
+title: PRINTPROCESSOR_CAPS_2 structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

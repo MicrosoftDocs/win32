@@ -1,11 +1,11 @@
 ---
-title: EsentOSSnapshotNotAllowedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotNotAllowedException constructor 
 TOCTitle: 'EsentOSSnapshotNotAllowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotnotallowedexception.esentossnapshotnotallowedexception(v=EXCHG.10)
 ms:contentKeyID: 55102433
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException.EsentOSSnapshotNotAllowedException
 dev_langs:

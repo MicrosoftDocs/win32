@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentBinding2 interface
+title: INapSystemHealthAgentBinding2 interface (NapSystemHealthAgent.h)
 description: The SHAs use to communicate with the NapAgent.
 ms.assetid: 2b087d79-a738-42d6-a8f2-4698ab844446
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

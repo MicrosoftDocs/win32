@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Critical Section Objects
 
-The following example shows how a thread initializes, enters, and releases a [critical section](critical-section-objects.md). It uses the [**InitializeCriticalSectionAndSpinCount**](https://msdn.microsoft.com/en-us/library/ms683476(v=VS.85).aspx), [**EnterCriticalSection**](https://msdn.microsoft.com/en-us/library/ms682608(v=VS.85).aspx), [**LeaveCriticalSection**](https://msdn.microsoft.com/en-us/library/ms684169(v=VS.85).aspx), and [**DeleteCriticalSection**](https://msdn.microsoft.com/en-us/library/ms682552(v=VS.85).aspx) functions.
+The following example shows how a thread initializes, enters, and releases a [critical section](critical-section-objects.md). It uses the [**InitializeCriticalSectionAndSpinCount**](https://msdn.microsoft.com/library/ms683476(v=VS.85).aspx), [**EnterCriticalSection**](https://msdn.microsoft.com/library/ms682608(v=VS.85).aspx), [**LeaveCriticalSection**](https://msdn.microsoft.com/library/ms684169(v=VS.85).aspx), and [**DeleteCriticalSection**](https://msdn.microsoft.com/library/ms682552(v=VS.85).aspx) functions.
 
 ``` syntax
 // Global variable

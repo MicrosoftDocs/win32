@@ -1,5 +1,5 @@
 ---
-title: PSM_SETCURSEL message
+title: PSM_SETCURSEL message (Prsht.h)
 description: Activates the specified page in a property sheet. You can send this message explicitly or by using the PropSheet\_SetCurSel macro.
 ms.assetid: 800aadde-cabc-424e-8e63-60fc7ce952d7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

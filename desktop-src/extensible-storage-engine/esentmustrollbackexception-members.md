@@ -1,5 +1,5 @@
 ---
-title: EsentMustRollbackException members (Microsoft.Isam.Esent.Interop)
+title: EsentMustRollbackException members
 TOCTitle: EsentMustRollbackException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMustRollbackException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmustrollbackexception_members(v=EXCHG.10)

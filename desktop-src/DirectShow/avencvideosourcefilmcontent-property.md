@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the original source of the input video was film or video.
 ms.assetid: 21b0449b-eed0-4879-a938-a7b01b349f22
-title: AVEncVideoSourceFilmContent property
-ms.topic: article
+title: AVEncVideoSourceFilmContent property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncVideoFilmContent**](https://msdn.microsoft.com/en-us/library/Dd319452(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncVideoFilmContent**](https://msdn.microsoft.com/library/Dd319452(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

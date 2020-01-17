@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray GatherBlue methods
+title: Texture2DArray::Texture2DArray GatherBlue methods
 description: Samples a Texture2DArray and returns the blue component.
 ms.assetid: 'aaaa5f14-c316-499a-bcf2-1ccb6bca2796'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

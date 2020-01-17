@@ -17,7 +17,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -64,7 +64,7 @@ HRESULT get_Enabled(
 
 <dl> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/en-us/library/Mt787029(v=VS.85).aspx)
+[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx)
 </dt> </dl>
 
  

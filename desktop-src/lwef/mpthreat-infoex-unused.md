@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_INFOEX_UNUSED structure
+title: MPTHREAT_INFOEX_UNUSED structure (MpClient.h)
 description: Dummy structure for non-behavior modification type threats.
 ms.assetid: 3C5305CD-D533-47B5-ADD3-BD8DA05F2046
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

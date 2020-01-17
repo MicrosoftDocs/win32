@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: StructuredBuffer::Operator  function
 description: Returns a read-only resource variable of a StructuredBuffer.
 ms.assetid: e2a1b0f7-f374-44a3-b567-8a2318e8b2b8
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

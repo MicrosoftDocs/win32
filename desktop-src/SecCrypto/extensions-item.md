@@ -2,7 +2,7 @@
 Description: The Item property retrieves an extension, by index, from the collection. This is the default property.
 ms.assetid: 0242dc14-abf2-49df-b75a-9005b2376cfc
 title: Extensions.Item property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

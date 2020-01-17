@@ -2,7 +2,7 @@
 Description: Start a job to create a sub-pool from a parent pool using the specified allocation settings.
 ms.assetid: 9b09221a-7c4e-4648-a2a8-012df1818c3e
 title: CreateChildResourcePool method of the CIM_ResourcePoolConfigurationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The CurrentTitle property retrieves the number of the title currently playing.
 ms.assetid: 8e401f39-f2ad-40c0-9707-d4a589fc63b2
 title: CurrentTitle Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Contains the item's Folder object, if the item is a folder.
 ms.assetid: 87afd0b6-245b-4550-9f21-aa0426ba8470
-title: FolderItem.GetFolder property
-ms.topic: article
+title: FolderItem.GetFolder property (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -32,7 +32,7 @@ objGetFolder = FolderItem.GetFolder
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the [**Folder**](folder.md) object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that receives the [**Folder**](folder.md) object.
 
 ## Examples
 

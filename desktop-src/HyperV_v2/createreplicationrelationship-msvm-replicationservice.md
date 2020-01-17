@@ -2,7 +2,7 @@
 Description: Creates a new replication relationship for a virtual machine. When a client calls this method for a replica virtual machine, it extends the replication relationship to the specified provider.
 ms.assetid: 44d3b5aa-46c2-4fe9-9a1d-6ee699d3640d
 title: CreateReplicationRelationship method of the Msvm_ReplicationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

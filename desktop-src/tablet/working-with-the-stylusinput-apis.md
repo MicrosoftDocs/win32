@@ -21,7 +21,7 @@ The plug-ins can modify the data associated with in-air packets, stylus down, pa
 
 Both dynamic-renderer and ink-collection plug-ins can be created to render to various contexts—such as to a file, a stream, or to a display device. Ink can also be stored in various formats, such as an [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object, a fortified Graphics Interchange Format (GIF) file, an Ink Serialized Format (ISF) file, or other formats.
 
-Two plug-ins are provided with the StylusInput APIs: the [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) class and the [**GestureRecognizer**](gesturerecognizer-class.md) class. The **DynamicRenderer** class provides basic rendering of the ink data in real time and is streamlined to have a minimal performance impact. The **GestureRecognizer** class provides gesture recognition for the [**RealTimeStylus**](realtimestylus-class.md) class.
+Two plug-ins are provided with the StylusInput APIs: the [**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx) class and the [**GestureRecognizer**](gesturerecognizer-class.md) class. The **DynamicRenderer** class provides basic rendering of the ink data in real time and is streamlined to have a minimal performance impact. The **GestureRecognizer** class provides gesture recognition for the [**RealTimeStylus**](realtimestylus-class.md) class.
 
 ## In This Section
 

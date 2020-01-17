@@ -3,7 +3,7 @@ title: ResourceLocator Properties
 description: The ResourceLocator object exposes the following properties.
 ms.assetid: 58BB16D4-7ADD-4752-B092-D3C77B26953A
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

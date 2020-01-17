@@ -1,5 +1,5 @@
 ---
-title: GUESTOSVERSIONINFOEX structure
+title: GUESTOSVERSIONINFOEX structure (VPCCOMInterfaces.h)
 description: Contains operating system version information for the guest operating system.
 ms.assetid: 9cfd5cac-c8ea-4e09-ba47-3563554bdafa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

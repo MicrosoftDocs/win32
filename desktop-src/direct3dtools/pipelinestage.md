@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PipeLineStage structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 616103CB-777E-4AA8-8B70-E19B1A2D667C
 api_name: 

@@ -1,8 +1,8 @@
 ---
 Description: Calculate the Fresnel term.
 ms.assetid: eaa2e5ea-9b6f-4216-8b48-7be74501124d
-title: D3DXFresnelTerm function
-ms.topic: article
+title: D3DXFresnelTerm function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ FLOAT D3DXFresnelTerm(
 *CosTheta* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The value must be between 0 and 1.
 
@@ -48,7 +48,7 @@ The value must be between 0 and 1.
 *RefractionIndex* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The refraction index of a material. The value must be greater than 1.
 
@@ -56,7 +56,7 @@ The refraction index of a material. The value must be greater than 1.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 This function returns the Fresnel term for unpolarized light. CosTheta is the cosine of the incident angle.
 

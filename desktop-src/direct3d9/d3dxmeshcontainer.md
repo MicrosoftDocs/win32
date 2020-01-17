@@ -1,8 +1,8 @@
 ---
 Description: Encapsulates a mesh object in a transformation frame hierarchy.
 ms.assetid: 50e98230-7dc3-468a-92c4-8165e8fe242b
-title: D3DXMESHCONTAINER structure
-ms.topic: structure
+title: D3DXMESHCONTAINER structure (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -88,7 +88,7 @@ Pointer to a set of default effect parameters. See [**D3DXEFFECTINSTANCE**](d3dx
 **NumMaterials**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -99,7 +99,7 @@ Number of materials in the mesh.
 **pAdjacency**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 </dd> <dd>
 

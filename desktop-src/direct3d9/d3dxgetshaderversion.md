@@ -1,8 +1,8 @@
 ---
 Description: Returns the shader version of the compiled shader.
 ms.assetid: 6cc6c654-e8d1-4225-b5d0-6bc2434a16bd
-title: D3DXGetShaderVersion function
-ms.topic: article
+title: D3DXGetShaderVersion function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ DWORD D3DXGetShaderVersion(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the function DWORD stream.
 
@@ -46,7 +46,7 @@ Pointer to the function DWORD stream.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the shader version of the given shader, or zero if the shader function is **NULL**.
 

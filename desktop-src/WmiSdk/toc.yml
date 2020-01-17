@@ -172,7 +172,7 @@
             href: accessing-wmi-preinstalled-performance-classes.md
         - name: "Obtaining Statistical Performance Data"
           href: obtaining-statistical-performance-data.md
-        - name: "Monitoring Performance With the Performance Monitoring Provider"
+        - name: "The Performance Monitoring Provider"
           href: monitoring-performance-with-the-performance-monitoring-provider.md
       - name: "Receiving a WMI Event"
         href: receiving-a-wmi-event.md
@@ -417,7 +417,7 @@
               href: mapping-a-registry-data-type-to-a-wmi-data-type.md
             - name: "Defining a Registry Class With Qualifiers"
               href: defining-a-registry-class-with-qualifiers.md
-          - name: "Using the System Registry Provider as a Property Provider"
+          - name: "Use the System Registry Provider as a Property Provider"
             href: using-the-system-registry-provider-as-a-property-provider.md
           - name: "Describing a Resource for the Registry"
             href: describing-a-resource-for-the-registry.md
@@ -426,7 +426,7 @@
         - name: "Registering for System Registry Events"
           href: registering-for-system-registry-events.md
           items: 
-          - name: "Creating a Proper WHERE Clause for the Registry Provider"
+          - name: "Creating a WHERE clause for the registry provider"
             href: creating-a-proper-where-clause-for-the-registry-provider.md
           - name: "Receiving Registry Events"
             href: receiving-registry-events.md
@@ -523,7 +523,7 @@
           items: 
           - name: "Registering an Instance Provider"
             href: registering-an-instance-provider.md
-          - name: "Implementing the Primary Interface for an Instance Provider"
+          - name: "Implementing an instance provider primary interface"
             href: implementing-the-primary-interface-for-an-instance-provider.md
           - name: "Improving the Efficiency of an Instance Provider"
             href: improving-the-efficiency-of-an-instance-provider.md
@@ -588,7 +588,7 @@
           items: 
           - name: "Setting Namespace Security with the WMI Control"
             href: setting-namespace-security-with-the-wmi-control.md
-          - name: "Setting Namespace Security When the Namespace is Created"
+          - name: "Setting security on namespace creation"
             href: setting-namespace-security-when-the-namespace-is-created.md
         - name: "Requiring an Encrypted Connection to a Namespace"
           href: requiring-an-encrypted-connection-to-a-namespace.md
@@ -635,7 +635,7 @@
       - name: "Securing Scripting Clients"
         href: securing-scripting-clients.md
         items: 
-        - name: "Setting the Default Process Security Level Using VBScript"
+        - name: "Set the default process security level with VBScript"
           href: setting-the-default-process-security-level-using-vbscript.md
         - name: "Setting the Authentication Service Using VBScript"
           href: setting-the-authentication-service-using-vbscript.md
@@ -2097,23 +2097,23 @@
             href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-getanalysis
             items: 
             - name: "SWbemAssocQueryInf"
-              href: /windows/desktop/api/Wmiutils/ns-wmiutils-tag_swbemassocqueryinf
+              href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemassocqueryinf
               items: 
               - name: "WMIQ_ASSOCQ_FLAGS"
-                href: /windows/desktop/api/WMIUtils/ne-wmiutils-__midl___midl_itf_wmiutils_0000_0001_0003
+                href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_assocq_flags
             - name: "SWbemQueryQualifiedName"
-              href: /windows/desktop/api/Wmiutils/ns-wmiutils-tag_swbemqueryqualifiedname
+              href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemqueryqualifiedname
             - name: "SWbemRpnEncodedQuery"
-              href: /windows/desktop/api/Wmiutils/ns-wmiutils-tag_swbemrpnencodedquery
+              href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnencodedquery
             - name: "SWbemRpnConst"
-              href: /windows/desktop/api/Wmiutils/ns-wmiutils-tag_swbemrpnconst
+              href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnquerytoken
             - name: "SWbemRpnQueryToken"
-              href: /windows/desktop/api/Wmiutils/ns-wmiutils-tag_swbemrpnquerytoken
+              href: /windows/win32/api/Wmiutils/ns-wmiutils-swbemrpnquerytoken
               items: 
               - name: "WMIQ_RPN_TOKEN_FLAGS"
-                href: /windows/desktop/api/WMIUtils/ne-wmiutils-__midl___midl_itf_wmiutils_0000_0001_0002
+                href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_rpn_token_flags
             - name: "WMIQ_ANALYSIS_TYPE"
-              href: /windows/desktop/api/WMIUtils/ne-wmiutils-__midl___midl_itf_wmiutils_0000_0001_0001
+              href: /windows/win32/api/WMIUtils/ne-wmiutils-wmiq_analysis_type
           - name: "Parse method"
             href: /windows/desktop/api/Wmiutils/nf-wmiutils-iwbemquery-parse
       - name: "IWbemRefresher"
@@ -2915,47 +2915,47 @@
         href: wmi-enumerations.md
         items: 
         - name: "CIMTYPE_ENUMERATION"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_cimtype_enumeration
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-cimtype_enumeration
         - name: "WBEM_BACKUP_RESTORE_FLAGS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_backup_restore_flags
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_backup_restore_flags
         - name: "WBEM_CHANGE_FLAG_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_change_flag_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_change_flag_type
         - name: "WBEM_COMPARISON_FLAG"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_comparison_flag
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_comparison_flag
         - name: "WBEM_COMPILE_STATUS_INFO"
-          href: /windows/desktop/api/Wbemcli/ns-wbemcli-tag_compilestatusinfo
+          href: /windows/win32/api/Wbemcli/ns-wbemcli-wbem_compile_status_info
         - name: "WBEM_COMPILER_OPTIONS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_compiler_options
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_compiler_options
         - name: "WBEM_CONDITION_FLAG_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_condition_flag_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_condition_flag_type
         - name: "WBEM_CONNECT_OPTIONS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_connect_options
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_connect_options
         - name: "WBEM_FLAVOR_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_flavor_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_flavor_type
         - name: "WBEM_GENERIC_FLAG_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_generic_flag_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_generic_flag_type
         - name: "WBEM_GENUS_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_genus_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_genus_type
         - name: "WBEM_LIMITS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_limits
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_limits
         - name: "WBEM_QUERY_FLAG_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_query_flag_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_query_flag_type
         - name: "WBEM_REFRESHER_FLAGS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_refresher_flags
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_refresher_flags
         - name: "WBEM_SECURITY_FLAGS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_security_flags
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_security_flags
         - name: "WBEM_STATUS_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_status_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_status_type
         - name: "WBEM_TEXT_FLAG_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_text_flag_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_text_flag_type
         - name: "WBEM_TIMEOUT_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_timeout_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_timeout_type
         - name: "WBEM_UNSECAPP_FLAG_TYPE"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbem_unsecapp_flag_type
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbem_unsecapp_flag_type
         - name: "WBEMSTATUS"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wbemstatus
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wbemstatus
         - name: "WMI_OBJ_TEXT"
-          href: /windows/desktop/api/Wbemcli/ne-wbemcli-tag_wmi_obj_text
+          href: /windows/win32/api/Wbemcli/ne-wbemcli-wmi_obj_text
       - name: "MOF Data Types"
         href: mof-data-types.md
         items: 
@@ -3156,3 +3156,35 @@
       href: gloss-t.md
     - name: "W"
       href: gloss-w.md
+  - name: "Management Infrastructure Managed API"
+    items:
+    - name: "CimInstance.SetCimSessionComputerName method"
+      href: mi-managed-api\microsoft.management.infrastructure.ciminstance.setcimsessioncomputername.md
+    - name: "CimMofDeserializer class"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.md
+    - name: "CimMofDeserializer.Create method ()"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create.md
+    - name: "CimMofDeserializer.Create method (String, UInt32)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.create_string_uint.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], Uint32)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], Uint32, IEnumerable(CimClass))"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], UInt32, IEnumerable(CimClass), OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass2.md
+    - name: "CimMofDeserializer.DeserializeClasses method (Byte[], UInt32, IEnumerable(CimClass), String, String, OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeclasses_byte_uint_ienumerablecimclass3.md
+    - name: "CimMofDeserializer.DeserializeInstances method (Byte[], UInt32)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint.md
+    - name: "CimMofDeserializer.DeserializeInstances method (Byte[], UInt32, OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint2.md
+    - name: "CimMofDeserializer.DeserializeInstances method (Byte[], UInt32, IEnumerable(CimClass), OnClassNeeded, GetIncludedFileContent)"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.deserializeinstances_byte_uint3.md
+    - name: "CimMofDeserializer.SchemaValidationOption property"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.schemavalidationoption.md
+    - name: "CimMofDeserializer.GetIncludedFileContent delegate"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent.md
+    - name: "CimMofDeserializer.OnClassNeeded delegate"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded.md
+    - name: "MofDeserializerSchemaValidationOption enumeration"
+      href: mi-managed-api\microsoft.management.infrastructure.serialization.mofdeserializerschemavalidationoption.md

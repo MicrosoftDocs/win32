@@ -3,7 +3,7 @@ Description: The CIM\_ParticipatesInSet class identifies physical elements that 
 ms.assetid: 417607a3-6682-4745-a5ca-0538a0d4853d
 ms.tgt_platform: multiple
 title: CIM_ParticipatesInSet class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

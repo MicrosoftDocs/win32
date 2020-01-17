@@ -1,5 +1,5 @@
 ---
-title: EM_STOPGROUPTYPING message
+title: EM_STOPGROUPTYPING message (Richedit.h)
 description: Stops a rich edit control from collecting additional typing actions into the current undo action. The control stores the next typing action, if any, into a new action in the undo queue.
 ms.assetid: 3059826f-84d1-4b7b-b4a8-da17d5f41013
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

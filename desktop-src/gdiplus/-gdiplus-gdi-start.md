@@ -19,24 +19,15 @@ GDI+ functions and classes are not supported for use within a Windows service. A
 > [!Note]  
 > When you use the GDI+ API, you must never allow your application to download arbitrary fonts from untrusted sources. The operating system requires elevated privileges to assure that all installed fonts are trusted.
 
- 
-
 ## Developer audience
 
 The GDI+ C++ class-based interface is designed for use by C/C++ programmers. Familiarity with the Windows graphical user interface and message-driven architecture is required.
 
 ## Run-time requirements
 
-GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windows XP and Windows Server 2003. For information about which operating systems are required to use a particular class or method, see the More Information section of the documentation for the class or method. GDI+ is available as a redistributable for earlier operating systems. To download the latest redistributable, see <https://go.microsoft.com/fwlink/p/?linkid=20993>.
-
-> [!Note]  
-> If you are redistributing GDI+ to a down-level platform or a platform that does not ship with that version of GDI+ natively, install Gdiplus.dll in your application directory. This puts it in your address space, but you should use the linker's `/BASE` option to rebase the Gdiplus.dll to prevent address space conflict. For more information, see [/BASE (Base Address)](https://docs.microsoft.com/cpp/build/reference/base-base-address).
-
- 
+GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windows XP and Windows Server 2003. For information about which operating systems are required to use a particular class or method, see the More Information section of the documentation for the class or method.
 
 ## In this section
-
-
 
 | Topic                                                    | Description                                           |
 |----------------------------------------------------------|-------------------------------------------------------|
@@ -44,33 +35,21 @@ GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windo
 | [Using](-gdiplus-using-gdi--use.md)<br/>          | Tasks and examples using GDI+.<br/>             |
 | [Reference](-gdiplus-class-gdi-reference.md)<br/> | Documentation of GDI+ C++ class-based API.<br/> |
 
-
-
- 
-
 ## Related topics
 
 <dl> <dt>
 
-[Windows GDI](https://msdn.microsoft.com/library/en-us/gdi/wingdistart_9ezp.asp)
+[Windows GDI](https://msdn.microsoft.com/library/gdi/wingdistart_9ezp.asp)
 </dt> <dt>
 
 [DirectX](https://go.microsoft.com/fwlink/p/?linkid=182492)
 </dt> <dt>
 
-[Windows Image Acquisition](https://msdn.microsoft.com/library/en-us/wia/wia/overviews/startpage.asp)
+[Windows Image Acquisition](https://msdn.microsoft.com/library/wia/wia/overviews/startpage.asp)
 </dt> <dt>
 
-[OpenGL](https://msdn.microsoft.com/library/en-us/opengl/openglstart_9uw5.asp)
+[OpenGL](https://msdn.microsoft.com/library/opengl/openglstart_9uw5.asp)
 </dt> <dt>
 
-[Windows Multimedia](https://msdn.microsoft.com/en-us/library/Dd743883(v=VS.85).aspx)
+[Windows Multimedia](https://msdn.microsoft.com/library/Dd743883(v=VS.85).aspx)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

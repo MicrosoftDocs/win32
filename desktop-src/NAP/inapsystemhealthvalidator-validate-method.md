@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidator Validate method
+title: INapSystemHealthValidator Validate method (NapSystemHealthValidator.h)
 description: The NAP system to validate the SoHRequest received from a client.
 ms.assetid: d67dc2c8-f18c-4e06-a51e-a538ca75c3f1
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapSystemHealthValidator.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

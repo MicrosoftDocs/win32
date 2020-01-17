@@ -1,8 +1,8 @@
 ---
 Description: Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 44a82d6c-9cf9-440f-904d-5931dcb6117b
-title: AVEncDDAtoDConverterType property
-ms.topic: article
+title: AVEncDDAtoDConverterType property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDAtoDConverterType**](https://msdn.microsoft.com/en-us/library/Dd388780(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncDDAtoDConverterType**](https://msdn.microsoft.com/library/Dd388780(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

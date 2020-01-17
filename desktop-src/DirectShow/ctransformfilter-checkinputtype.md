@@ -1,8 +1,8 @@
 ---
 Description: The CheckInputType method checks whether a specified media type is acceptable for input.
 ms.assetid: 11f156f7-add2-45be-a0d3-05d21f596b89
-title: CTransformFilter.CheckInputType method
-ms.topic: article
+title: CTransformFilter.CheckInputType method (Transfrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

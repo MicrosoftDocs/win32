@@ -1,5 +1,5 @@
 ---
-title: IWMDRMNetTransmitter GetRootLicenseResponse method
+title: IWMDRMNetTransmitter GetRootLicenseResponse method (Wmdrmsdk.h)
 description: The GetRootLicenseResponse method generates a root license response message.
 ms.assetid: c735ee52-f0e0-4404-881b-18ee9a7fa9f9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

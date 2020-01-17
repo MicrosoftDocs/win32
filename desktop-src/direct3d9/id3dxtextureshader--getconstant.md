@@ -1,8 +1,8 @@
 ---
 Description: Gets a constant by looking up its index.
 ms.assetid: 7d3ab655-b50d-41ab-a4ca-c7b534e00e3f
-title: ID3DXTextureShader::GetConstant method
-ms.topic: article
+title: ID3DXTextureShader::GetConstant method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ A [handle](handles.md) to the parent data structure. If the constant is a top-le
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Zero-based index of the constant.
 

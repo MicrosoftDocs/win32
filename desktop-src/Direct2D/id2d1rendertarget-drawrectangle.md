@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget DrawRectangle methods
+title: ID2D1RenderTarget DrawRectangle methods (D2d1\_1.h)
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::DrawRectangle methods
@@ -24,18 +24,18 @@ Draws the outline of a rectangle that has the specified dimensions and stroke st
 
 | Method                                                                                                                                                                   | Description                                                                                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [**DrawRectangle(D2D1\_RECT\_F&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/en-us/library/Dd371902(v=VS.85).aspx)  | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
-| [**DrawRectangle(D2D1\_RECT\_F\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/en-us/library/Dd371899(v=VS.85).aspx) | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
+| [**DrawRectangle(D2D1\_RECT\_F&,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371902(v=VS.85).aspx)  | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
+| [**DrawRectangle(D2D1\_RECT\_F\*,ID2D1Brush\*,FLOAT,ID2D1StrokeStyle\*)**](https://msdn.microsoft.com/library/Dd371899(v=VS.85).aspx) | Draws the outline of a rectangle that has the specified dimensions and stroke style. <br/> |
 
 
 
 ## Remarks
 
-When this method fails, it does not return an error code. To determine whether a drawing method (such as **DrawRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) method.
+When this method fails, it does not return an error code. To determine whether a drawing method (such as **DrawRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) method.
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx) to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx) to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 
@@ -139,7 +139,7 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> <dt>
 
 [Creating a Simple Direct2D Application](direct2d-quickstart.md)

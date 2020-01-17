@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRenderTargetViewVariable SetRenderTarget method
+title: ID3DX11EffectRenderTargetViewVariable SetRenderTarget method (D3dx11effect.h)
 description: Set a render-target.
 ms.assetid: caac7190-4f58-4a8e-9764-b6120ac14856
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to a render-target-view interface. See [**ID3D11RenderTargetView**](/w
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

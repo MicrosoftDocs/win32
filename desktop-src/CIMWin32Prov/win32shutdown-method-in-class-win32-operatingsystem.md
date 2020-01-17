@@ -3,7 +3,7 @@ Description: The Win32Shutdown &\#8194; WMI class method provides the full set o
 ms.assetid: 7108570a-81ba-46d5-8b05-de6194f93f18
 ms.tgt_platform: multiple
 title: Win32Shutdown method of the Win32_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,9 +18,9 @@ api_location:
 
 # Win32Shutdown method of the Win32\_OperatingSystem class
 
-The **Win32Shutdown**   [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
+The **Win32Shutdown**   [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/en-us/library/Aa384832(v=VS.85).aspx).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/Aa384832(v=VS.85).aspx).
 
 ## Syntax
 
@@ -118,7 +118,7 @@ A means to extend **Win32Shutdown**. Currently, the *Reserved* parameter is igno
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/en-us/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/en-us/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx).
 
 <dl> <dt>
 
@@ -223,7 +223,7 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
@@ -232,10 +232,10 @@ Next
 [**Win32ShutdownTracker**](win32shutdowntracker-method-in-class-win32-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://msdn.microsoft.com/en-us/library/Aa394591(v=VS.85).aspx)
+[WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/Aa394591(v=VS.85).aspx)
 </dt> <dt>
 
-[Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/en-us/library/Aa390430(v=VS.85).aspx)
+[Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/library/Aa390430(v=VS.85).aspx)
 </dt> </dl>
 
  

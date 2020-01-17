@@ -1,5 +1,5 @@
 ---
-title: EsentEndingRestoreLogTooLowException methods (Microsoft.Isam.Esent.Interop)
+title: EsentEndingRestoreLogTooLowException methods
 TOCTitle: EsentEndingRestoreLogTooLowException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentendingrestorelogtoolowexception_methods(v=EXCHG.10)

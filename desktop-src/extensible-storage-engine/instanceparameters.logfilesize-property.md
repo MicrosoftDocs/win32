@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.LogFileSize property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.LogFileSize property 
 TOCTitle: 'LogFileSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.LogFileSize
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.logfilesize(v=EXCHG.10)
 ms:contentKeyID: 55103312
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.LogFileSize
 dev_langs:

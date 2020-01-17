@@ -2,7 +2,7 @@
 Description: Get started learning the basics of building great desktop apps in this section.
 ms.assetid: 15690E05-9AF7-41A3-AF7C-8DB7C5FB9BE4
 title: Get started
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

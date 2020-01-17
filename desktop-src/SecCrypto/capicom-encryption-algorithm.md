@@ -1,8 +1,8 @@
 ---
 Description: Defines the algorithms to be used in encryption and decryption.
 ms.assetid: c7aacd1c-02f6-4cf5-9305-50e2330f243c
-title: CAPICOM_ENCRYPTION_ALGORITHM enumeration
-ms.topic: enumeration
+title: CAPICOM_ENCRYPTION_ALGORITHM enumeration (Capicom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -29,7 +29,7 @@ The **CAPICOM\_ENCRYPTION\_ALGORITHM** enumeration type defines the algorithms t
 | **CAPICOM\_ENCRYPTION\_ALGORITHM\_RC4**  | Use RSA RC4 encryption.<br/>                                                                                                                                                                       | 1         |
 | **CAPICOM\_ENCRYPTION\_ALGORITHM\_DES**  | Use DES encryption.<br/>                                                                                                                                                                           | 2         |
 | **CAPICOM\_ENCRYPTION\_ALGORITHM\_3DES** | Use triple DES encryption.<br/>                                                                                                                                                                    | 3         |
-| **CAPICOM\_ENCRYPTION\_ALGORITHM\_AES**  | Use the [*Advanced Encryption Standard*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (AES) algorithm. This value is valid for the [**EncryptedData**](encrypteddata.md) object only.<br/> | 4 // v2.0 |
+| **CAPICOM\_ENCRYPTION\_ALGORITHM\_AES**  | Use the [*Advanced Encryption Standard*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (AES) algorithm. This value is valid for the [**EncryptedData**](encrypteddata.md) object only.<br/> | 4 // v2.0 |
 
 
 

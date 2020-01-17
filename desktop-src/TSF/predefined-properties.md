@@ -1,5 +1,5 @@
 ---
-title: Predefined Properties
+title: Predefined Properties (Msctf.h)
 description: The following values identify TSF-defined properties. The data format and contents of each property type are included.
 ms.assetid: d88f2eba-4c98-4b32-96e1-cd019fe0f7ad
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

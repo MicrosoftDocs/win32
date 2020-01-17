@@ -1,8 +1,8 @@
 ---
 Description: The system broadcasts the DBT\_DEVICEQUERYREMOVE device event to request permission to remove a device or piece of media.
 ms.assetid: a0e9aa57-da0e-4e9c-99d0-5502040d2664
-title: DBT_DEVICEQUERYREMOVE event
-ms.topic: article
+title: DBT_DEVICEQUERYREMOVE event (Dbt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The IX509ExtensionSmimeCapabilities interface exposes the following properties.
 ms.assetid: 57BFE32C-927E-4F75-9EB7-40578204637B
 title: IX509ExtensionSmimeCapabilities Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: Represents a civic address report.
 ms.assetid: 7c6e790f-0150-4ea8-9583-df633ebf035d
 title: LocationDisp.DispCivicAddressReport object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

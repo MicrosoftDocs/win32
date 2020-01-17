@@ -1,11 +1,11 @@
 ---
-title: StringColumnValue.GetValueFromBytes method  (Microsoft.Isam.Esent.Interop)
+title: StringColumnValue.GetValueFromBytes method 
 TOCTitle: 'GetValueFromBytes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.StringColumnValue.GetValueFromBytes(System.Byte[],System.Int32,System.Int32,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue.getvaluefrombytes(v=EXCHG.10)
 ms:contentKeyID: 55104020
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.StringColumnValue.GetValueFromBytes
 dev_langs:

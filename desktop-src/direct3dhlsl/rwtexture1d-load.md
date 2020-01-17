@@ -1,5 +1,5 @@
 ---
-title: RWTexture1D Load methods
+title: RWTexture1D::RWTexture1D Load methods
 description: Reads texture data from a RWTexture1D.
 ms.assetid: A6160554-147D-4CE5-971B-46BCB8E4833A
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

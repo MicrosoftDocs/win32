@@ -1,5 +1,5 @@
 ---
-title: WM_GETDLGCODE message
+title: WM_GETDLGCODE message (Winuser.h)
 description: Sent to the window procedure associated with a control.
 ms.assetid: 96d2caee-be6e-46e9-98b3-bffc3af1c003
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

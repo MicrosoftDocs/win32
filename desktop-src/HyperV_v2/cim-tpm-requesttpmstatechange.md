@@ -2,7 +2,7 @@
 Description: Requests that the state of the TPM be changed to the value specified in the RequestedTPMState parameter.
 ms.assetid: 7ad8bf4e-6263-45d5-8f33-fb842bbf1f1a
 title: RequestTPMStateChange method of the CIM_TPM class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

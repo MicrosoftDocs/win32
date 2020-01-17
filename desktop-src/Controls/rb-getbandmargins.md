@@ -1,5 +1,5 @@
 ---
-title: RB_GETBANDMARGINS message
+title: RB_GETBANDMARGINS message (Commctrl.h)
 description: Retrieves the margins of a band.
 ms.assetid: 262f4180-53f9-428f-9360-75b762470270
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Edit Control Styles
+title: Edit Control Styles (Winuser.h)
 description: To create an edit control using the CreateWindow or CreateWindowEx function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles.
 ms.assetid: 336c69b7-bc23-4b93-8968-ad63a1703385
 topic_type:
@@ -23,7 +23,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

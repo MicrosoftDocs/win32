@@ -1,8 +1,8 @@
 ---
 Description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
 ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
-title: MFT_MESSAGE_COMMAND_MARKER
-ms.topic: article
+title: MFT_MESSAGE_COMMAND_MARKER (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

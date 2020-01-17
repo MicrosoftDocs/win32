@@ -1,5 +1,5 @@
 ---
-title: MrmDumpPriFile function
+title: MrmDumpPriFile function (MrmResourceIndexer.h)
 description: Dumps a PRI file (which is binary) to its XML equivalent (as a file on disk), in order to make it more easily readable.
 ms.assetid: FE1982AB-881C-4F07-8B9E-E3770E5B5099
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

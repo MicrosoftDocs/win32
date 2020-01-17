@@ -2,7 +2,7 @@
 Description: Provides a method for invoking ISearchItem objects.
 ms.assetid: b52fd64b-b03a-4d02-a64f-201f6b7d5045
 title: ISearchProtocolUI interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ Provides a method for invoking [**ISearchItem**](-search-isearchitem.md) objects
 
 ## Members
 
-The **ISearchProtocolUI** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISearchProtocolUI** also has these types of members:
+The **ISearchProtocolUI** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISearchProtocolUI** also has these types of members:
 
 -   [Methods](#methods)
 

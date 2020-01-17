@@ -1,5 +1,5 @@
 ---
-title: IWMDRMEncryptScatter InitEncryptScatter method
+title: IWMDRMEncryptScatter InitEncryptScatter method (Wmdrmsdk.h)
 description: The InitEncryptScatter method initializes the IWMDRMEncryptScatter interface for use.
 ms.assetid: c5f2fa14-9465-4c53-bc42-ffcec34af083
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

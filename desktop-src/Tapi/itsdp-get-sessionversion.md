@@ -1,8 +1,8 @@
 ---
 Description: The get\_SessionVersion method gets the 32-bit (ideally Network Time Protocol, or NTP) value that serves as the session version.
 ms.assetid: 39c2aef4-24e3-4ea0-8b23-dff842f9ab84
-title: ITSdp::get_SessionVersion method
-ms.topic: article
+title: ITSdp::get_SessionVersion method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

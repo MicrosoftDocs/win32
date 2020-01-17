@@ -14,7 +14,7 @@ This section describes the functions used to implement Windows accessibility fea
 
 -   [**RegisterPointerInputTarget**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget)
 -   [**RegisterPointerInputTargetEx**](/windows/desktop/api/WinUser/nf-winuser-registerpointerinputtargetex)
--   [*SoundSentryProc*](https://msdn.microsoft.com/en-us/library/Dd373647(v=VS.85).aspx)
+-   [*SoundSentryProc*](https://msdn.microsoft.com/library/Dd373647(v=VS.85).aspx)
 -   [**UnregisterPointerInputTarget**](/windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget)
 -   [**UnregisterPointerInputTargetEx**](/windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtargetex)
 

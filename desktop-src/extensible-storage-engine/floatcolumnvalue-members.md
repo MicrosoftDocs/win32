@@ -1,5 +1,5 @@
 ---
-title: FloatColumnValue members (Microsoft.Isam.Esent.Interop)
+title: FloatColumnValue members
 TOCTitle: FloatColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.FloatColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.floatcolumnvalue_members(v=EXCHG.10)

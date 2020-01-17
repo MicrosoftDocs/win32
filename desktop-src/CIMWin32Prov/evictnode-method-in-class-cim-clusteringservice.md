@@ -3,7 +3,7 @@ Description: The EvictNode method removes a computer system from a cluster. The 
 ms.assetid: 4691d536-ade3-4a02-bc28-e31ebaf5d9e4
 ms.tgt_platform: multiple
 title: EvictNode method of the CIM_ClusteringService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

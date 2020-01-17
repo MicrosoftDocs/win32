@@ -1,5 +1,5 @@
 ---
-title: UDM_GETPOS32 message
+title: UDM_GETPOS32 message (Commctrl.h)
 description: Returns the 32-bit position of an up-down control.
 ms.assetid: 90feffbd-a472-446f-8a67-5da408cde002
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

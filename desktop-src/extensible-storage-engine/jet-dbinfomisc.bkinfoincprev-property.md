@@ -1,11 +1,11 @@
 ---
-title: JET_DBINFOMISC.bkinfoIncPrev property  (Microsoft.Isam.Esent.Interop)
+title: JET_DBINFOMISC.bkinfoIncPrev property 
 TOCTitle: 'bkinfoIncPrev property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoIncPrev
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.bkinfoincprev(v=EXCHG.10)
 ms:contentKeyID: 39510848
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoIncPrev
 dev_langs:

@@ -3,7 +3,7 @@ Description: The Win32ShutdownTracker method provides the same set of shutdown o
 ms.assetid: 2c5502c9-9ec0-4f9e-b661-1f8015556008
 ms.tgt_platform: multiple
 title: Win32ShutdownTracker method of the Win32_OperatingSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -124,7 +124,7 @@ Forced Power Off (8 + 4)
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/en-us/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/en-us/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx).
 
 <dl> <dt>
 
@@ -182,7 +182,7 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)

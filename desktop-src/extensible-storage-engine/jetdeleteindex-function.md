@@ -5,7 +5,7 @@ ms:assetid: c540503b-d5a6-47f2-9113-9650891c4b6d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294081(v=EXCHG.10)
 ms:contentKeyID: 32765696
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetDeleteIndexW
 - JetDeleteIndexA

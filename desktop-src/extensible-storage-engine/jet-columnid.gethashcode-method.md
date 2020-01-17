@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNID.GetHashCode method  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.GetHashCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.gethashcode(v=EXCHG.10)
 ms:contentKeyID: 39516240
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNID.GetHashCode
 dev_langs:

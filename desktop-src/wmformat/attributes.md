@@ -1,5 +1,5 @@
 ---
-title: Attributes
+title: Attributes (Windows Media Format 11 SDK)
 description: Attributes
 ms.assetid: 1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4
 keywords:

@@ -3,7 +3,7 @@ title: IADsTSUserEx Properties
 description: The IADsTSUserEx interface exposes the following properties.
 ms.assetid: 39EAC903-416D-400D-9A37-6AFE0B0CEAA2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

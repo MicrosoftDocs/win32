@@ -1,8 +1,8 @@
 ---
 Description: The SetConferenceBlob method commits changes to the conference blob. To initialize the conference blob for the first time, use the Init method instead.
 ms.assetid: 4a65edb9-77de-42d9-85a1-1e3c41706417
-title: ITConferenceBlob::SetConferenceBlob method
-ms.topic: article
+title: ITConferenceBlob::SetConferenceBlob method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -62,7 +62,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx) to allocate memory for the *pBlob* parameter and use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pBlob* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
 
 ## Requirements
 

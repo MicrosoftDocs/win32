@@ -1,8 +1,8 @@
 ---
 Description: The Alloc method allocates memory for the buffers. This method overrides the CBaseAllocator::Alloc method.
 ms.assetid: 4a246b4e-93b3-4adb-9f10-6b92d9f479eb
-title: CImageAllocator.Alloc method
-ms.topic: article
+title: CImageAllocator.Alloc method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,10 +1,10 @@
 ---
-title: D2D_COLOR_F
+title: D2D_COLOR_F (D2DBaseTypes.h)
 description: Describes the red, green, blue, and alpha components of a color.
 ms.assetid: 706c6ba1-1685-4df7-9b40-279eb628df34
 keywords:
 - D2D_COLOR_F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ typedef D3DCOLORVALUE D2D_COLOR_F;
 
 ## Remarks
 
-For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/library/Dd368193(v=VS.85).aspx).
+For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/library/Dd368193(v=VS.85).aspx).
 
 ## Requirements
 
@@ -40,7 +40,7 @@ For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/l
 
 <dl> <dt>
 
-[**D3DCOLORVALUE**](https://msdn.microsoft.com/en-us/library/Dd368193(v=VS.85).aspx)
+[**D3DCOLORVALUE**](https://msdn.microsoft.com/library/Dd368193(v=VS.85).aspx)
 </dt> </dl>
 
  

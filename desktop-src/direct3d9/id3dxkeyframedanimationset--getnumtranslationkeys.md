@@ -1,8 +1,8 @@
 ---
 Description: Gets the number of translation keys in the specified key frame animation.
 ms.assetid: cdab759f-d383-40b2-84dc-8b968e6fdce0
-title: ID3DXKeyframedAnimationSet::GetNumTranslationKeys method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetNumTranslationKeys method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ UINT GetNumTranslationKeys(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation index.
 
@@ -46,7 +46,7 @@ Animation index.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of translation keys in the specified key frame animation.
 

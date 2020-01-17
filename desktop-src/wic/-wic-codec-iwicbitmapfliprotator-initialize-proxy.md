@@ -2,7 +2,7 @@
 Description: Proxy function for the Initialize method.
 ms.assetid: 860e8092-054d-489e-8ca1-fec43a039eca
 title: IWICBitmapFlipRotator_Initialize_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Computes the bounding sphere of all the meshes in the frame hierarchy.
 ms.assetid: 8c3f5a9e-73ff-4d83-8f85-a3fc2a9a53f7
-title: D3DXFrameCalculateBoundingSphere function
-ms.topic: article
+title: D3DXFrameCalculateBoundingSphere function (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Returns the center of the bounding sphere.
 *pObjectRadius* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the radius of the bounding sphere.
 
@@ -66,7 +66,7 @@ Returns the radius of the bounding sphere.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

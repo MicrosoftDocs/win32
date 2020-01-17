@@ -1,5 +1,5 @@
 ---
-title: PSM_APPLY message
+title: PSM_APPLY message (Prsht.h)
 description: Simulates the selection of the Apply button, indicating that one or more pages have changed and the changes need to be validated and recorded.
 ms.assetid: 2948fb66-ad77-4552-88b6-455418515e4c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The SetDefaultTimerResolution method sets the resolution of the reference clock's timer.
 ms.assetid: 891b809a-15d3-41f3-853e-aca9ddcd56e8
-title: CBaseReferenceClock.SetDefaultTimerResolution method
-ms.topic: article
+title: CBaseReferenceClock.SetDefaultTimerResolution method (Refclock.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

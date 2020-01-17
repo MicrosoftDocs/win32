@@ -1,8 +1,8 @@
 ---
 Description: The GetBitMasks method retrieves the color masks for a specified VIDEOINFO format.
 ms.assetid: 72a9ba44-96de-4fff-a3fb-675d3dd080d8
-title: CImageDisplay.GetBitMasks method
-ms.topic: article
+title: CImageDisplay.GetBitMasks method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

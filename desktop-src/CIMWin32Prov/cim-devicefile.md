@@ -3,7 +3,7 @@ Description: The CIM\_DeviceFile class represents a type of logical file, which 
 ms.assetid: b07f039c-8ab0-4e13-96d5-3621da19e66d
 ms.tgt_platform: multiple
 title: CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

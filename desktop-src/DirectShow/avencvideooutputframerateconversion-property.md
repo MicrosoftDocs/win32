@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder converts the frame rate when the output frame rate does not match the input frame rate.
 ms.assetid: c3946942-5a61-4a15-ace6-da2f63c01963
-title: AVEncVideoOutputFrameRateConversion property
-ms.topic: article
+title: AVEncVideoOutputFrameRateConversion property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncVideoOutputFrameRateConversion**](https://msdn.microsoft.com/en-us/library/Dd319454(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncVideoOutputFrameRateConversion**](https://msdn.microsoft.com/library/Dd319454(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

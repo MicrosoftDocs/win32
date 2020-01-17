@@ -1,5 +1,5 @@
 ---
-title: MCM_GETSELRANGE message
+title: MCM_GETSELRANGE message (Commctrl.h)
 description: Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can send this message explicitly or by using the MonthCal\_GetSelRange macro.
 ms.assetid: a0d0a0d5-a519-4495-a87a-2438c4590e4c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

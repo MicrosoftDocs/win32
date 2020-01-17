@@ -2,7 +2,7 @@
 Description: Defines methods to obtain information about the properties of a search item. This interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: 0fef34c5-f20f-475a-9223-5cb73079c842
 title: IItemPropertyBag interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ Defines methods to obtain information about the properties of a search item. Thi
 
 ## Members
 
-The **IItemPropertyBag** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IItemPropertyBag** also has these types of members:
+The **IItemPropertyBag** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IItemPropertyBag** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -32,7 +32,7 @@ The **IItemPropertyBag** interface has these methods.
 
 | Method                                                      | Description                                                                                  |
 |:------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
-| [**CountProperties**](https://msdn.microsoft.com/en-us/library/Ff684387(v=VS.85).aspx) | Gets a count of the number of properties in the property bag.<br/>                     |
+| [**CountProperties**](https://msdn.microsoft.com/library/Ff684387(v=VS.85).aspx) | Gets a count of the number of properties in the property bag.<br/>                     |
 | [**GetPropertyInfo**](iitempropertybag-getpropertyinfo.md) | Gets the information required to read or save the properties in the property bag.<br/> |
 | [**Read**](iitempropertybag-read.md)                       | Causes one or more properties to be read from the property bag.<br/>                   |
 | [**Write**](iitempropertybag-write.md)                     | Causes one or more properties to be saved into the property bag.<br/>                  |

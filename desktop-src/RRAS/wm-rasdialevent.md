@@ -1,5 +1,5 @@
 ---
-title: WM_RASDIALEVENT message
+title: WM_RASDIALEVENT message (Ras.h)
 description: The operating system sends a WM\_RASDIALEVENT message to a window procedure when a change of state event occurs during a RAS connection process.
 ms.assetid: 4526da20-04e7-47b2-b576-8dc36c08b053
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Ras.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ dwError = (DWORD) lParam;
 *rasconnstate* 
 </dt> <dd>
 
-Value of *wParam*. Equivalent to the *rasconnstate* parameter of the [**RasDialFunc**](/windows/desktop/api/Ras/nc-ras-rasdialfunc) and [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) callback functions. Specifies a [**RASCONNSTATE**](https://msdn.microsoft.com/en-us/library/Aa376727(v=VS.85).aspx) enumerator value that indicates the state the RasDial remote access connection process is about to enter.
+Value of *wParam*. Equivalent to the *rasconnstate* parameter of the [**RasDialFunc**](/windows/desktop/api/Ras/nc-ras-rasdialfunc) and [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) callback functions. Specifies a [**RASCONNSTATE**](https://msdn.microsoft.com/library/Aa376727(v=VS.85).aspx) enumerator value that indicates the state the RasDial remote access connection process is about to enter.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ If an application processes this message, it should return **TRUE**.
 [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1)
 </dt> <dt>
 
-[**RASCONNSTATE**](https://msdn.microsoft.com/en-us/library/Aa376727(v=VS.85).aspx)
+[**RASCONNSTATE**](https://msdn.microsoft.com/library/Aa376727(v=VS.85).aspx)
 </dt> </dl>
 
  

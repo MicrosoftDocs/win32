@@ -1,8 +1,8 @@
 ---
 Description: Draws a line strip in screen space with a specified input transformation matrix.
 ms.assetid: 869dc705-8162-4cd9-ac6a-c0ce32f430c3
-title: ID3DXLine::DrawTransform method
-ms.topic: article
+title: ID3DXLine::DrawTransform method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Array of vertices that make up the line. See [**D3DXVECTOR3**](d3dxvector3.md).
 *dwVertexListCount* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices in the vertex list.
 
@@ -76,7 +76,7 @@ Color of the line. See [**D3DCOLOR**](d3dcolor.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

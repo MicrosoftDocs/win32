@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPipeLineStagesCallback2::ThreadDataNotAvailableCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 231DC830-5F1A-4DDA-B5D0-C7FBCEDCB2A0
 api_name: 

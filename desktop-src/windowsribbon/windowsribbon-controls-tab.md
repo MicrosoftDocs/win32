@@ -1,5 +1,5 @@
 ---
-title: Tab
+title: Tab (Windows Ribbon Framework)
 description: A Tab contains groups of related controls.
 ms.assetid: 7315ca96-73c8-4ea1-bce0-172ebc4dd43a
 ms.topic: article

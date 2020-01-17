@@ -67,7 +67,7 @@
         href: enumerating-devices.md
       - name: "Exploring a Device"
         href: exploring-a-device.md
-      - name: "Getting and Setting Metadata and Attributes in the Application"
+      - name: "Accessing metadata and attributes in the app"
         href: getting-and-setting-metadata-and-attributes-in-the-application.md
       - name: "Handling Protected Content in the Application"
         href: handling-protected-content-in-the-application.md
@@ -80,9 +80,9 @@
           href: discovering-a-files-format.md
         - name: "Discovering Device Format Capabilities"
           href: discovering-device-format-capabilities.md
-        - name: "Getting Format Capabilities on Devices That Support IWMDMDevice3"
+        - name: "Getting format capabilities through IWMDMDevice3"
           href: getting-format-capabilities-on-devices-that-support-iwmdmdevice3.md
-        - name: "Getting Format Capabilities on Devices That Support Only IWMDMDevice"
+        - name: "Getting format capabilities through IWMDMDevice"
           href: getting-format-capabilities-on-devices-that-support-only-iwmdmdevice.md
         - name: "Setting Metadata on a File"
           href: setting-metadata-on-a-file.md
@@ -891,9 +891,9 @@
       - name: "_BITMAPINFOHEADER"
         href: -bitmapinfoheader.md
       - name: "MTP_COMMAND_DATA_IN"
-        href: /windows/desktop/api/MtpExt/ns-mtpext-_mtp_command_data_in
+        href: /windows/win32/api/MtpExt/ns-mtpext-mtp_command_data_in
       - name: "MTP_COMMAND_DATA_OUT"
-        href: /windows/desktop/api/MtpExt/ns-mtpext-_mtp_command_data_out
+        href: /windows/win32/api/MtpExt/ns-mtpext-mtp_command_data_out
       - name: "OPAQUECOMMAND"
         href: opaquecommand.md
       - name: "_VIDEOINFOHEADER"

@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOBeyondEOFException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOBeyondEOFException properties
 TOCTitle: EsentFileIOBeyondEOFException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiobeyondeofexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: WSMan.CreateSession method
+title: WSMan.CreateSession method (WSManDisp.h)
 description: Creates a Session object that can then be used for subsequent network operations.
 ms.assetid: 299d9a95-bd30-414c-996d-6633e8b7ce52
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

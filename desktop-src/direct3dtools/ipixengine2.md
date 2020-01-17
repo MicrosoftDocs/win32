@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine2 interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: D650FB4C-C332-4E2E-85EB-DDCE3DA87B0C
 api_name: 

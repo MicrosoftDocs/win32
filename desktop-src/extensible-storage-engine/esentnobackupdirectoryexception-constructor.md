@@ -1,11 +1,11 @@
 ---
-title: EsentNoBackupDirectoryException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNoBackupDirectoryException constructor 
 TOCTitle: 'EsentNoBackupDirectoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnobackupdirectoryexception.esentnobackupdirectoryexception(v=EXCHG.10)
 ms:contentKeyID: 55102351
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException.EsentNoBackupDirectoryException
 dev_langs:

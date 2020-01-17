@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS IsUserLoggedOn method
+title: IVMGuestOS IsUserLoggedOn method (VPCCOMInterfaces.h)
 description: Determines whether the requested session is present.
 ms.assetid: 28035e30-023a-4ec2-88ef-43fe22f6d14e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

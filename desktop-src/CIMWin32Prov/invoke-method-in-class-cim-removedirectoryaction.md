@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_RemoveDirectoryAction class takes a p
 ms.assetid: c6a7edcd-aac1-4364-8de5-a16fe2bab107
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_RemoveDirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

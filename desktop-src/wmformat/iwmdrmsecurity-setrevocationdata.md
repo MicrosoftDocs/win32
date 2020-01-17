@@ -1,5 +1,5 @@
 ---
-title: IWMDRMSecurity SetRevocationData method
+title: IWMDRMSecurity SetRevocationData method (Wmdrmsdk.h)
 description: The SetRevocationData method sets a certificate revocation list in the local store.
 ms.assetid: 7e1c6d50-7a22-41b7-b29f-b1e5809a2097
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

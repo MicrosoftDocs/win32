@@ -1,8 +1,8 @@
 ---
 Description: Performs a bit-block transfer.
 ms.assetid: 90cc02af-96af-4913-ae7d-62f39cd6ddd7
-title: NtGdiDdBlt function
-ms.topic: article
+title: NtGdiDdBlt function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,21 +44,21 @@ DWORD APIENTRY NtGdiDdBlt(
 *hSurfaceDest* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the surface on which to blit.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface on which to blit.
 
 </dd> <dt>
 
 *hSurfaceSrc* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the source surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the source surface.
 
 </dd> <dt>
 
 *puBltData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_BLTDATA**](https://msdn.microsoft.com/en-us/library/Ff550474(v=VS.85).aspx) structure that contains the information required for the driver to perform the blit.
+Pointer to a [**DD\_BLTDATA**](https://msdn.microsoft.com/library/Ff550474(v=VS.85).aspx) structure that contains the information required for the driver to perform the blit.
 
 </dd> </dl>
 

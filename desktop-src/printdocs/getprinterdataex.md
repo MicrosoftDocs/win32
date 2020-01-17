@@ -1,8 +1,8 @@
 ---
 Description: The GetPrinterDataEx function retrieves configuration data for the specified printer or print server.
 ms.assetid: 5d9183a7-97cc-46de-848e-e37ce51396eb
-title: GetPrinterDataEx function
-ms.topic: article
+title: GetPrinterDataEx function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -174,7 +174,7 @@ The time specified in **SPLREG\_RESTART\_JOB\_ON\_POOL\_ERROR** is a minimum tim
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegQueryValueEx**](https://msdn.microsoft.com/en-us/library/ms724911(v=VS.85).aspx) function to query these values.
+Call the [**RegQueryValueEx**](https://msdn.microsoft.com/library/ms724911(v=VS.85).aspx) function to query these values.
 
 
 

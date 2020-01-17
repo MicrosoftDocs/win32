@@ -1,8 +1,8 @@
 ---
 Description: Repositions or modifies the visual attributes of an overlay surface.
 ms.assetid: 6d39166c-0efc-450d-adf4-9f4dfdf7c57f
-title: NtGdiDdUpdateOverlay function
-ms.topic: article
+title: NtGdiDdUpdateOverlay function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,14 +51,14 @@ Handle to previously created kernel-mode DirectDraw object.
 *hSurfaceSource* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/en-us/library/Ff551733(v=VS.85).aspx) structure that describes the overlay surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the overlay surface.
 
 </dd> <dt>
 
 *puUpdateOverlayData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_UPDATEOVERLAYDATA**](https://msdn.microsoft.com/en-us/library/Ff551751(v=VS.85).aspx) structure that contains the information required to update the overlay.
+Pointer to a [**DD\_UPDATEOVERLAYDATA**](https://msdn.microsoft.com/library/Ff551751(v=VS.85).aspx) structure that contains the information required to update the overlay.
 
 </dd> </dl>
 

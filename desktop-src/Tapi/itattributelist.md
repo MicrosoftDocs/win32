@@ -1,8 +1,8 @@
 ---
 Description: The ITAttributeList interface supplies methods for getting and setting of uninterpreted attributes.
 ms.assetid: 12806c2e-615c-4d78-a4bb-5cc35ea21175
-title: ITAttributeList interface
-ms.topic: interface
+title: ITAttributeList interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ The **ITAttributeList** interface supplies methods for getting and setting of un
 
 ## Members
 
-The **ITAttributeList** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITAttributeList** also has these types of members:
+The **ITAttributeList** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITAttributeList** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK structure
+title: CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK structure (D3dx12.h)
 description: A helper structure used to describe a node mask as a single object suitable for a stream description.
 ms.assetid: 5C770D9A-D692-46CF-8D60-EE5EB04998C8
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

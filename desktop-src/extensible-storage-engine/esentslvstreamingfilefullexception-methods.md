@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileFullException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileFullException methods
 TOCTitle: EsentSLVStreamingFileFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilefullexception_methods(v=EXCHG.10)

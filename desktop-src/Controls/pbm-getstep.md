@@ -1,5 +1,5 @@
 ---
-title: PBM_GETSTEP message
+title: PBM_GETSTEP message (Commctrl.h)
 description: Retrieves the step increment from a progress bar. The step increment is the amount by which the progress bar increases its current position whenever it receives a PBM\_STEPIT message. By default, the step increment is set to 10.
 ms.assetid: 0cf3052a-cf86-4c0e-ad59-ddab7c6e3602
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 Description: The CIM\_CollectedMSEs association class represents the members of the grouping object, a CollectionOfMSEs class.
 ms.assetid: 3dca2094-57f1-447e-809c-f924f88a185a
 ms.tgt_platform: multiple
-title: CIM_CollectedMSEs class
-ms.topic: article
+title: CIM_CollectedMSEs class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

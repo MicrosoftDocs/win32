@@ -2,7 +2,7 @@
 Description: Searches for the specified executable.
 ms.assetid: 32c6b054-7e47-4427-bdfe-6b5066db4ac3
 title: SdbGetMatchingExe function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

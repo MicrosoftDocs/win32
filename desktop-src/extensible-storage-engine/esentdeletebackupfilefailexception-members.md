@@ -1,5 +1,5 @@
 ---
-title: EsentDeleteBackupFileFailException members (Microsoft.Isam.Esent.Interop)
+title: EsentDeleteBackupFileFailException members
 TOCTitle: EsentDeleteBackupFileFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdeletebackupfilefailexception_members(v=EXCHG.10)

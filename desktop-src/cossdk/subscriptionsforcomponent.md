@@ -2,7 +2,7 @@
 Description: Contains an object for each subscription for the parent Components collection.
 ms.assetid: ec93d500-32bf-4e67-9eda-c1fe0349faa2
 title: SubscriptionsForComponent collection
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

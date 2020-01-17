@@ -1,8 +1,8 @@
 ---
 Description: Gets the root IContextNode of the IInkAnalyzer object's context tree.
 ms.assetid: 6c073952-7962-4f38-89ae-f543e64e904f
-title: IInkAnalyzer::GetRootNode method
-ms.topic: article
+title: IInkAnalyzer::GetRootNode method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilterCollection GetITem property
+title: IPropertyFilterCollection GetITem property (WdsSharedIDL.h)
 description: Returns a specific filter within the collection.
 ms.assetid: 72a35d98-b2d8-4dfb-84a7-365a3778fc85
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

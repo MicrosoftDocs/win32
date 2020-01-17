@@ -1,5 +1,5 @@
 ---
-title: EsentNullKeyDisallowedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentNullKeyDisallowedException methods
 TOCTitle: EsentNullKeyDisallowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnullkeydisallowedexception_methods(v=EXCHG.10)

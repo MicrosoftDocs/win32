@@ -1,8 +1,8 @@
 ---
 Description: Uses a left-handed coordinate system to create a line.
 ms.assetid: 0d2ef331-9edf-4b0a-ace4-ecb8bb2f7352
-title: D3DXCreateLine function
-ms.topic: article
+title: D3DXCreateLine function (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Pointer to an [**ID3DXLine**](id3dxline.md) interface.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

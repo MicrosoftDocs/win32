@@ -2,8 +2,8 @@
 Description: The CIM\_SerialController class represents the capabilities and management of the serial port logical device.
 ms.assetid: 7d5a96aa-fa6c-4904-8ca1-88ec14748810
 ms.tgt_platform: multiple
-title: CIM_SerialController class
-ms.topic: article
+title: CIM_SerialController class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

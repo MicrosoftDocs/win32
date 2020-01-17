@@ -3,7 +3,7 @@ Description: Copies the logical file (or directory) specified in the object path
 ms.assetid: 534d8b73-fc22-4a42-b8e6-24a54353bb14
 ms.tgt_platform: multiple
 title: CopyEx method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

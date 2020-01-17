@@ -2,7 +2,7 @@
 Description: Defines a globally unique identifier type, in Registry format.
 ms.assetid: 2be73c57-b6b6-46ab-93e1-d70f8655c30e
 title: GUIDType Simple Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

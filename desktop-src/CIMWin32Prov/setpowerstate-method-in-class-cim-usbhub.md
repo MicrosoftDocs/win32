@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_USBHub class sets the desired 
 ms.assetid: 000ea180-16c0-4c0b-89e5-620ee8112c8a
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_USBHub class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

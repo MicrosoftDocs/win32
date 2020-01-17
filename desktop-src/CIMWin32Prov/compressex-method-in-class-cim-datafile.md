@@ -3,7 +3,7 @@ Description: Uses NTFS compression to compress the logical file (or directory) t
 ms.assetid: 553b6a90-d16c-4abb-9015-66fe8e1606f6
 ms.tgt_platform: multiple
 title: CompressEx method of the CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Represents a PnP device property of type real32.
 ms.assetid: 06DFAFDA-6C6E-40BA-819D-50D2E1C1B524
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyReal32 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

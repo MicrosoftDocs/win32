@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ANTI_SPOOF_POLICY structure
+title: WINBIO_ANTI_SPOOF_POLICY structure (Winbio\_types.h)
 description: Represents the antispoofing policy for a user.
 ms.assetid: 2B433AE8-21A0-4AF1-853C-9074527DB2E4
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

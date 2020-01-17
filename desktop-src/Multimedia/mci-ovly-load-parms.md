@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_LOAD_PARMS structure
+title: MCI_OVLY_LOAD_PARMS structure (Mmsystem.h)
 description: The MCI\_OVLY\_LOAD\_PARMS structure contains information for the MCI\_LOAD command for video-overlay devices.
 ms.assetid: 701c27da-72bf-493d-a679-9e0bd210215d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ Identifies the area of the video buffer to update. [RECT](https://go.microsoft.c
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_LOAD**](mci-load.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> <dt>
 
 [RECT](https://go.microsoft.com/fwlink/p/?linkid=16998)

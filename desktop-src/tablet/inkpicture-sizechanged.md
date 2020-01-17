@@ -1,8 +1,8 @@
 ---
 Description: Occurs after the InkPicture control has been resized, specifically, after the Width or Height property value changes.
 ms.assetid: a5fc6c82-f9c8-4104-8abe-082c47c56be9
-title: InkPicture.SizeChanged event
-ms.topic: article
+title: InkPicture.SizeChanged event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -62,7 +62,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPESizeChanged.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPESizeChanged.
 
 ## Requirements
 

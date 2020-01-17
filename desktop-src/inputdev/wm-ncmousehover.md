@@ -1,5 +1,5 @@
 ---
-title: WM_NCMOUSEHOVER message
+title: WM_NCMOUSEHOVER message (Winuser.h)
 description: Posted to a window when the cursor hovers over the nonclient area of the window for the period of time specified in a prior call to TrackMouseEvent.
 ms.assetid: ca1afdc2-7884-445e-b9b7-4d7dd5dcea38
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # WM\_NCMOUSEHOVER message
 
-Posted to a window when the cursor hovers over the nonclient area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx).
+Posted to a window when the cursor hovers over the nonclient area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx).
 
 A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
@@ -53,7 +53,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-Hover tracking stops when this message is generated. The application must call [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx) again if it requires further tracking of mouse hover behavior.
+Hover tracking stops when this message is generated. The application must call [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) again if it requires further tracking of mouse hover behavior.
 
 You can also use the [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) and [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macros to extract the values of the x- and y- coordinates from *lParam*.
 
@@ -98,10 +98,10 @@ yPos = GET_Y_LPARAM(lParam);
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx)
+[**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
+[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_NCHITTEST**](wm-nchittest.md)

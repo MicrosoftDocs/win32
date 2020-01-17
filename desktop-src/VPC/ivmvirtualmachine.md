@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine interface
+title: IVMVirtualMachine interface (VPCCOMInterfaces.h)
 description: Defines the interface for a virtual machine.
 ms.assetid: c1c243f2-0fb7-4249-8dc9-f0b70059e78f
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the interface for a virtual machine. **IVMVirtualMachine** can notify cl
 
 ## Members
 
-The **IVMVirtualMachine** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualMachine** also has these types of members:
+The **IVMVirtualMachine** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualMachine** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

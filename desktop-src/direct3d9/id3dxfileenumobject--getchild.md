@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a child object in this file data object.
 ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
-title: ID3DXFileEnumObject::GetChild method
-ms.topic: article
+title: ID3DXFileEnumObject::GetChild method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT GetChild(
 *id* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 ID of the child object to retrieve.
 
@@ -56,7 +56,7 @@ Address of a pointer to receive the child object's interface pointer.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DXFERR\_BADVALUE, D3DXFERR\_NOMOREOBJECTS.
 

@@ -1,5 +1,5 @@
 ---
-title: IVMMouse VerticalPosition property
+title: IVMMouse VerticalPosition property (VPCCOMInterfaces.h)
 description: Absolute y-coordinate of the mouse.
 ms.assetid: 02fd3677-95d8-44b4-b398-d3ec62e5d9f0
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

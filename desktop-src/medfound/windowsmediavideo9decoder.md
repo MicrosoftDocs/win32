@@ -1,8 +1,8 @@
 ---
 Description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
 ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
-title: Windows Media Video 9 Decoder
-ms.topic: article
+title: Windows Media Video 9 Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ The class identifier (CLSID) for the Windows Media Video decoder is represented 
 
 ## Interfaces
 
-A video decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
+A video decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A video decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a video decoder behaves as a DMO or an MFT.
 
@@ -36,7 +36,7 @@ A video decoder behaves as a DMO or an MFT depending on which interfaces you obt
 
  
 
-Beginning with Windows 7, the Windows Media Video decoder implements the [**IDMOQualityControl**](https://msdn.microsoft.com/en-us/library/Dd406839(v=VS.85).aspx) interface.
+Beginning with Windows 7, the Windows Media Video decoder implements the [**IDMOQualityControl**](https://msdn.microsoft.com/library/Dd406839(v=VS.85).aspx) interface.
 
 ## Input Formats
 

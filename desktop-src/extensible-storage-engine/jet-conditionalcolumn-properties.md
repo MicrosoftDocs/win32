@@ -1,5 +1,5 @@
 ﻿---
-title: JET_CONDITIONALCOLUMN properties (Microsoft.Isam.Esent.Interop)
+title: JET_CONDITIONALCOLUMN properties
 TOCTitle: JET_CONDITIONALCOLUMN properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_conditionalcolumn_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SetKeyboardLabelTextCombination method
+title: ISoftKbd SetKeyboardLabelTextCombination method (Softkbdc.h)
 description: The ISoftKbd SetKeyboardLabelTextCombination method sets a combination of label and text used to describe a soft keyboard.
 ms.assetid: fe054eae-1a44-41ad-9a44-bc0b46df7c7b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

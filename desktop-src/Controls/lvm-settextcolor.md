@@ -1,5 +1,5 @@
 ---
-title: LVM_SETTEXTCOLOR message
+title: LVM_SETTEXTCOLOR message (Commctrl.h)
 description: Sets the text color of a list-view control. You can send this message explicitly or by using the ListView\_SetTextColor macro.
 ms.assetid: ff90c18b-0cd7-4331-bcd8-61044e891d1f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

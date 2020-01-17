@@ -2,7 +2,7 @@
 Description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
 ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462
 title: ISearchManager2::CreateCatalog method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT CreateCatalog(
 *pszCatalog* \[in\]
 </dt> <dd>
 
-Type: **[**LPCWSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCWSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Name of catalog to create. Can be any name selected by the caller, must contain only standard alphanumeric characters and underscore.
 
@@ -74,7 +74,7 @@ FAILED HRESULT: Failure creating catalog or invalid arguments passed.
 
 ## Remarks
 
-Called to create a new catalog in the Windows Search indexer. After creation, the methods on the returned [**ISearchCatalog**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results. See the “Managing the Index” documentation for more info: https://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx
+Called to create a new catalog in the Windows Search indexer. After creation, the methods on the returned [**ISearchCatalog**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results. See the “Managing the Index” documentation for more info: https://msdn.microsoft.com/library/bb266516(VS.85).aspx
 
 ## Requirements
 

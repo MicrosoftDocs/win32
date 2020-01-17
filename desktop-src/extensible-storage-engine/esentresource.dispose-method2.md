@@ -1,11 +1,11 @@
 ---
-title: EsentResource.Dispose method  (Microsoft.Isam.Esent.Interop)
+title: EsentResource.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.dispose(v=EXCHG.10)
 ms:contentKeyID: 55102626
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

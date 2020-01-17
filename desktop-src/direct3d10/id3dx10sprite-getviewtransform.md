@@ -1,8 +1,8 @@
 ---
 Description: Get the view transform that applies to all sprites.
 ms.assetid: eba45c08-64cc-4119-83d4-50351fe21bea
-title: ID3DX10Sprite::GetViewTransform method
-ms.topic: article
+title: ID3DX10Sprite::GetViewTransform method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT GetViewTransform(
 *pViewTransform* \[out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a [**D3DX10MATRIX**](d3d10-d3dxmatrix.md) that will be set to the transform of the sprite from the original world space.
 
@@ -46,7 +46,7 @@ Pointer to a [**D3DX10MATRIX**](d3d10-d3dxmatrix.md) that will be set to the tra
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

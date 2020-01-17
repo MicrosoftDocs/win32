@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMUNIBBLE4.
 ms.assetid: 56b8ad7d-4dd5-4d73-95e0-1bb7a12f9989
 title: XMUNIBBLE4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUNIBBLE4`.
 
-Constructs instances of the [**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,7 +109,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx)
+[**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx)
 </dt> </dl>
 
  

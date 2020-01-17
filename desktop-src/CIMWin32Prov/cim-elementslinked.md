@@ -3,7 +3,7 @@ Description: The CIM\_ElementsLinked association represents physical elements th
 ms.assetid: b9e1d11e-6f89-4d7a-9b5c-01161e7c1bdf
 ms.tgt_platform: multiple
 title: CIM_ElementsLinked class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

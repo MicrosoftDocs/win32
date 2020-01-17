@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileInUseException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileInUseException methods
 TOCTitle: EsentSLVFileInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileinuseexception_methods(v=EXCHG.10)

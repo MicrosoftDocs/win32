@@ -1,5 +1,5 @@
 ---
-title: glDrawArrays function
+title: glDrawArrays function (Gl.h)
 description: The glDrawArrays function specifies multiple primitives to render.
 ms.assetid: 6ebd467b-5a63-43e4-b3fd-242c704d7d13
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

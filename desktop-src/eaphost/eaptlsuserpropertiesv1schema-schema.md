@@ -2,9 +2,6 @@
 title: eaptlsuserpropertiesv1 Schema
 description: Defines authentication credentials and credential options using EAP-Transport Layer Security (EAP-TLS).
 ms.assetid: e679c1ce-4475-4dfc-bde9-2d135e530d45
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

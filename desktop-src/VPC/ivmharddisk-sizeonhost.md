@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk SizeOnHost property
+title: IVMHardDisk SizeOnHost property (VPCCOMInterfaces.h)
 description: Size of the virtual hard disk file on the host computer.
 ms.assetid: f787ec4b-7b4f-4d35-b07c-4844424d91cf
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

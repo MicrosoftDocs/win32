@@ -2,7 +2,7 @@
 Description: The GetChallenge method returns a challenge from the smart card.
 ms.assetid: a114ebfd-831f-4c6b-8156-ce631a732c9b
 title: ISCardAuth::GetChallenge method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,9 +16,9 @@ api_location:
 
 # ISCardAuth::GetChallenge method
 
-\[The **GetChallenge** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **GetChallenge** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **GetChallenge** method returns a challenge from the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
+The **GetChallenge** method returns a challenge from the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 

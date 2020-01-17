@@ -1,5 +1,5 @@
 ---
-title: glLightModeliv function
+title: glLightModeliv function (Gl.h)
 description: The glLightModeliv function sets lighting model parameters.
 ms.assetid: 5998bb7e-d97a-47a0-b612-e6b0046aa5d2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

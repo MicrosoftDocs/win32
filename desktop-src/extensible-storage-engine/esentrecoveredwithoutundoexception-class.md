@@ -1,11 +1,11 @@
 ---
-title: EsentRecoveredWithoutUndoException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithoutUndoException class
 TOCTitle: EsentRecoveredWithoutUndoException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwithoutundoexception(v=EXCHG.10)
 ms:contentKeyID: 55102607
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException
 dev_langs:

@@ -12,7 +12,7 @@ This application demonstrates ink collection and rendering when using the [**Rea
 
 ## The InkCollection Project
 
-This sample consists of a single solution that contains one project, InkCollection. The application defines the `InkCollection` namespace that contains a single class, also called `InkCollection`. The class inherits from the [Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) class and implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx) interface.
+This sample consists of a single solution that contains one project, InkCollection. The application defines the `InkCollection` namespace that contains a single class, also called `InkCollection`. The class inherits from the [Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) class and implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx) interface.
 
 
 ```C++
@@ -26,7 +26,7 @@ namespace InkCollection
 
 
 
-The InkCollection Class defines a set of private constants used to specify various ink thickness. The class also declares private instances of the [**RealTimeStylus**](realtimestylus-class.md) class, `myRealTimeStylus`, the [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) class, `myDynamicRenderer`, and the [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) class `myRenderer`. The **DynamicRenderer** renders the [Stroke](https://msdn.microsoft.com/library/ms552692(v=VS.100).aspx) that is currently being collected. The Renderer object, `myRenderer`, renders Stroke objects that have already been collected.
+The InkCollection Class defines a set of private constants used to specify various ink thickness. The class also declares private instances of the [**RealTimeStylus**](realtimestylus-class.md) class, `myRealTimeStylus`, the [**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx) class, `myDynamicRenderer`, and the [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) class `myRenderer`. The **DynamicRenderer** renders the [Stroke](https://msdn.microsoft.com/library/ms552692(v=VS.100).aspx) that is currently being collected. The Renderer object, `myRenderer`, renders Stroke objects that have already been collected.
 
 
 ```C++
@@ -57,7 +57,7 @@ private Ink myInk;
 
 ## The Form Load Event
 
-In the [Load](https://msdn.microsoft.com/library/4w303742(v=VS.100).aspx) event handler for the form, `myDynamicRenderer` is instantiated by using the [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) that takes a control as an argument, and `myRenderer` is constructed with a no-argument constructor.
+In the [Load](https://msdn.microsoft.com/library/4w303742(v=VS.100).aspx) event handler for the form, `myDynamicRenderer` is instantiated by using the [**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx) that takes a control as an argument, and `myRenderer` is constructed with a no-argument constructor.
 
 
 ```C++
@@ -81,7 +81,7 @@ Pay attention to the comment that follows the instantiation of the renderers, be
 
 
 
-Next, the application creates the [**RealTimeStylus**](realtimestylus-class.md) object that is used to receive stylus notifications and adds the [**DynamicRenderer**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx) object to the synchronous plug-in notification queue. Specifically, `myRealTimeStylus` adds `myDynamicRenderer` to the [SyncPluginCollection](https://msdn.microsoft.com/library/ms824833(v=MSDN.10).aspx) property.
+Next, the application creates the [**RealTimeStylus**](realtimestylus-class.md) object that is used to receive stylus notifications and adds the [**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx) object to the synchronous plug-in notification queue. Specifically, `myRealTimeStylus` adds `myDynamicRenderer` to the [SyncPluginCollection](https://msdn.microsoft.com/library/ms824833(v=MSDN.10).aspx) property.
 
 
 ```C++

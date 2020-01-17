@@ -1,5 +1,5 @@
 ---
-title: EM_SETPUNCTUATION message
+title: EM_SETPUNCTUATION message (Richedit.h)
 description: Sets the punctuation characters for a rich edit control.
 ms.assetid: c0c8ad14-63e2-4be8-8fc0-6b8ef9be4522
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

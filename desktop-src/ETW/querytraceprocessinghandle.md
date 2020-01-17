@@ -1,8 +1,8 @@
 ---
 Description: Queries the system for the trace processing handle.
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
-title: QueryTraceProcessingHandle function
-ms.topic: article
+title: QueryTraceProcessingHandle function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -93,7 +93,7 @@ The size in bytes of the data that the API wrote into *OutBuffer*. Important for
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx).
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx).
 
 ## Requirements
 

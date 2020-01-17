@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotFoundException members (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotFoundException members
 TOCTitle: EsentRecordNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotfoundexception_members(v=EXCHG.10)

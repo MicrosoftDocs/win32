@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCURSEL message
+title: MCM_GETCURSEL message (Commctrl.h)
 description: Retrieves the currently selected date. You can send this message explicitly or by using the MonthCal\_GetCurSel macro.
 ms.assetid: d4edc9ed-7c92-4ec8-bfa1-8ae597826b3f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

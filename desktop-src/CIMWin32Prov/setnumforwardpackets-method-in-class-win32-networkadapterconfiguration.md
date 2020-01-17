@@ -3,7 +3,7 @@ Description: The SetNumForwardPackets WMI class static method is used to set the
 ms.assetid: cadc7565-4cad-4e0f-a1eb-bf99d333bb28
 ms.tgt_platform: multiple
 title: SetNumForwardPackets method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

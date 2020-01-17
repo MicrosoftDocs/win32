@@ -1,5 +1,5 @@
 ---
-title: ID2D1Factory CreateHwndRenderTarget methods
+title: ID2D1Factory CreateHwndRenderTarget methods (D2d1.h)
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 ms.assetid: 3b55b1b0-a423-40dc-9581-c1fbe8134ca5
 keywords:
@@ -11,12 +11,12 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Factory::CreateHwndRenderTarget methods
 
-Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.
+Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/
 
 | Method                                                                                                                                                                                                                                                                              | Description                                                                                                             |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
-| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES\*,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES\*,ID2D1HwndRenderTarget\*\*)**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
-| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES&,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES&,ID2D1HwndRenderTarget\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties__constd2d1_hwnd_render_target_properties__id2d1hwndrendertarget))   | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
+| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES\*,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES\*,ID2D1HwndRenderTarget\*\*)**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
+| [**CreateHwndRenderTarget(D2D1\_RENDER\_TARGET\_PROPERTIES&,D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES&,ID2D1HwndRenderTarget\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties__constd2d1_hwnd_render_target_properties__id2d1hwndrendertarget))   | Creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx), a render target that renders to a window.<br/> |
 
 
 
@@ -35,7 +35,7 @@ When you create a render target and hardware acceleration is available, you allo
 
 ## Examples
 
-The following example creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx).
+The following example creates an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx).
 
 
 ```C++
@@ -73,5 +73,5 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 <dl> <dt>
 
-[**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
+[**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>

@@ -1,5 +1,5 @@
 ---
-title: Store3 function
+title: RWByteAddressBuffer::Store3 function
 description: Sets three values.
 ms.assetid: eaf12b5a-c9c6-413a-9646-3d14e7825460
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Store3
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

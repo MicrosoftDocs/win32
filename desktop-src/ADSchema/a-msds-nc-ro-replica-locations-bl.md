@@ -12,7 +12,7 @@ api_name:
 - ms-DS-NC-RO-Replica-Locations-BL
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

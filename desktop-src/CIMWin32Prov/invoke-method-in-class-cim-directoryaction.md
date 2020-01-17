@@ -3,7 +3,7 @@ Description: The Invoke method of the CIM\_DirectoryAction class takes a particu
 ms.assetid: e919dfdb-a52d-4bcb-abff-e1273c406226
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_DirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXID structure (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXID structure
 TOCTitle: JET_INDEXID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexid(v=EXCHG.10)
 ms:contentKeyID: 39510071
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXID
 dev_langs:

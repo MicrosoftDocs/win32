@@ -1,7 +1,7 @@
 ---
 Description: Represents an object in the Shell.
-title: IShellDispatch object
-ms.topic: interface
+title: IShellDispatch object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -189,7 +189,7 @@ The **IShellDispatch** object has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [**Shell Object**](shell.md)

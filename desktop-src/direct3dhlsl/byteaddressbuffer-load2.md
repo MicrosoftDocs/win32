@@ -1,5 +1,5 @@
 ---
-title: Load2 methods
+title: ByteAddressBuffer::Load2 methods
 description: Gets two values from a read-only buffer indexed in bytes.
 ms.assetid: C8770B52-66F0-4D1A-BE8B-0D91A348D002
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

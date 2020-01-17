@@ -1,5 +1,5 @@
 ---
-title: CQPM_GETPARAMETERS message
+title: CQPM_GETPARAMETERS message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to retrieve data about the query performed by the page.
 ms.assetid: 6b94b318-8356-4554-99fe-f82364325e6e
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ Not used.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**LPDSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) value that receives data about the query performed by the page. If this parameter is **NULL**, the **DSQUERYPARAMS** structure must be allocated by the extension using the [**CoTaskMemAlloc**](https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx) function.
+Pointer to a [**LPDSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) value that receives data about the query performed by the page. If this parameter is **NULL**, the **DSQUERYPARAMS** structure must be allocated by the extension using the [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx) function.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams)
 </dt> <dt>
 
-[**CoTaskMemAlloc**](https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx)
+[**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx)
 </dt> </dl>
 
  

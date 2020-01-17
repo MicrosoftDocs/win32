@@ -12,14 +12,14 @@ api_name:
 - IMediaRendererActionInformation.IsSeekAvailable
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # IMediaRendererActionInformation::IsSeekAvailable method
 
-Retrieves a value that indicates whether the DMR is currently accepting the [**SeekAsync**](https://msdn.microsoft.com/en-us/library/Hh828942(v=VS.85).aspx) method.
+Retrieves a value that indicates whether the DMR is currently accepting the [**SeekAsync**](https://msdn.microsoft.com/library/Hh828942(v=VS.85).aspx) method.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT IsSeekAvailable(
 *value* \[out\]
 </dt> <dd>
 
-A boolean value that is **True** if the DMR is currently accepting the [**SeekAsync**](https://msdn.microsoft.com/en-us/library/Hh828942(v=VS.85).aspx) method and **False** if it is not.
+A boolean value that is **True** if the DMR is currently accepting the [**SeekAsync**](https://msdn.microsoft.com/library/Hh828942(v=VS.85).aspx) method and **False** if it is not.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx)
+[**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx)
 </dt> </dl>
 
  

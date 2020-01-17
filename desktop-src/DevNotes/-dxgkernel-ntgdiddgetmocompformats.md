@@ -1,8 +1,8 @@
 ---
 Description: Indicates the uncompressed formats to which the hardware can decode the data.
 ms.assetid: 44bcc4e2-0f8e-4292-b4a4-1ebbf899c14a
-title: NtGdiDdGetMoCompFormats function
-ms.topic: article
+title: NtGdiDdGetMoCompFormats function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetMoCompFormatsData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPFORMATSDATA**](https://msdn.microsoft.com/en-us/library/Ff551580(v=VS.85).aspx) structure that contains the uncompressed format information for the hardware.
+Pointer to a [**DD\_GETMOCOMPFORMATSDATA**](https://msdn.microsoft.com/library/Ff551580(v=VS.85).aspx) structure that contains the uncompressed format information for the hardware.
 
 </dd> </dl>
 

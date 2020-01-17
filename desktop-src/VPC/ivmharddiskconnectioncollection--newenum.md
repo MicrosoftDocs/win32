@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnectionCollection _NewEnum property
+title: IVMHardDiskConnectionCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the collection.
 ms.assetid: 9302f536-de25-4aac-88cf-9f4af6efcda7
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

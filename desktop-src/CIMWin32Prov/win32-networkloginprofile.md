@@ -3,7 +3,7 @@ Description: The Win32\_NetworkLoginProfile&\#8194;WMI class represents the netw
 ms.assetid: e5a8e934-d5a7-43fa-b140-c3cca972590f
 ms.tgt_platform: multiple
 title: Win32_NetworkLoginProfile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ api_location:
 
 # Win32\_NetworkLoginProfile class
 
-The **Win32\_NetworkLoginProfile** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents the network login information of a specific user on a computer system running Windows. This includes, but is not limited to password status, access privileges, disk quotas, and logon directory paths.
+The **Win32\_NetworkLoginProfile** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents the network login information of a specific user on a computer system running Windows. This includes, but is not limited to password status, access privileges, disk quotas, and logon directory paths.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -116,7 +116,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_acct\_expires")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_acct\_expires")
 </dt> </dl>
 
 Account will expire. This value is calculated from the number of seconds elapsed since 00:00:00, January 1, 1970, and is set in this format: yyyymmddhhmmss.mmmmmm sutc.
@@ -134,7 +134,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_auth\_flags"), [**BitValues**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Printer", "Communication", "Server", "Accounts")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_auth\_flags"), [**BitValues**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Printer", "Communication", "Server", "Accounts")
 </dt> </dl>
 
 Set of flags that specify the resources a user is authorized to use or modify.
@@ -180,7 +180,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Functions\|NetUserEnum")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Functions\|NetUserEnum")
 </dt> </dl>
 
 Number of times the user enters a bad password when logging on to a computer system running Windows.
@@ -198,7 +198,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -216,7 +216,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_code\_page")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_code\_page")
 </dt> </dl>
 
 Code page for the user's language of choice. A code page is the character set used.
@@ -232,7 +232,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_comment")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_comment")
 </dt> </dl>
 
 Comment or description for this logon profile.
@@ -248,7 +248,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_country\_code")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_country\_code")
 </dt> </dl>
 
 Country/region code for the user's language of choice.
@@ -279,7 +279,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_flags"), [**BitMap**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("0", "1", "3", "4", "5", "6", "7", "8", "9", "11", "12", "13", "16", "17", "18", "19", "20", "21", "22", "23"), [**BitValues**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Script", "Account Disabled", "Home Dir Required", "Lockout", "Password Not Required", "Paswword Can't Change", "Encrypted Test Password Allowed", "Temp Duplicate Account", "Normal Account", "InterDomain Trust Account", "WorkStation Trust Account", "Server Trust Account", "Don't Expire Password", "MNS Logon Account", "Smartcard Required", "Trusted For Delegation", "Not Delegated", "Use DES Key Only", "Don't Require Preauthorization", "Password Expired")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_flags"), [**BitMap**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("0", "1", "3", "4", "5", "6", "7", "8", "9", "11", "12", "13", "16", "17", "18", "19", "20", "21", "22", "23"), [**BitValues**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Script", "Account Disabled", "Home Dir Required", "Lockout", "Password Not Required", "Paswword Can't Change", "Encrypted Test Password Allowed", "Temp Duplicate Account", "Normal Account", "InterDomain Trust Account", "WorkStation Trust Account", "Server Trust Account", "Don't Expire Password", "MNS Logon Account", "Smartcard Required", "Trusted For Delegation", "Not Delegated", "Use DES Key Only", "Don't Require Preauthorization", "Password Expired")
 </dt> </dl>
 
 The properties available to this network profile.
@@ -320,7 +320,7 @@ A home directory is required.
 
 Lockout
 
-The account is currently locked out. For [**NetUserSetInfo**](https://msdn.microsoft.com/en-us/library/Aa370659(v=VS.85).aspx), this value can be cleared to unlock a previously locked account. This value cannot be used to lock a previously unlocked account.
+The account is currently locked out. For [**NetUserSetInfo**](https://msdn.microsoft.com/library/Aa370659(v=VS.85).aspx), this value can be cleared to unlock a previously locked account. This value cannot be used to lock a previously unlocked account.
 
 </dd> <dt>
 
@@ -473,7 +473,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_full\_name")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_full\_name")
 </dt> </dl>
 
 Full name of the user belonging to the network login profile. This string can be empty if the user chooses not to associate a full name with a user name.
@@ -489,7 +489,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_home\_dir")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_home\_dir")
 </dt> </dl>
 
 Path to the home directory of the user. This string may be empty if the user chooses not to specify a home directory.
@@ -507,7 +507,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_home\_dir\_drive")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_home\_dir\_drive")
 </dt> </dl>
 
 Drive letter assigned to the user's home directory for log on purposes.
@@ -525,10 +525,10 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_last\_logoff")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_last\_logoff")
 </dt> </dl>
 
-User last logged off the system. This value is calculated from the number of seconds elapsed since 00:00:00, January 1, 1970. A value of " \*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*\*\*+\*\*\* " means that the last logoff time is unknown. The format of this value is yyyymmddhhmmss.mmmmmm sutc. For information about translating this property into your local time, see [WMI Tasks: Dates and Times](https://msdn.microsoft.com/en-us/library/Aa394590(v=VS.85).aspx).
+User last logged off the system. This value is calculated from the number of seconds elapsed since 00:00:00, January 1, 1970. A value of " \*\*\*\*\*\*\*\*\*\*\*\*\*\*.\*\*\*\*\*\*+\*\*\* " means that the last logoff time is unknown. The format of this value is yyyymmddhhmmss.mmmmmm sutc. For information about translating this property into your local time, see [WMI Tasks: Dates and Times](https://msdn.microsoft.com/library/Aa394590(v=VS.85).aspx).
 
 Example: 19521201000230.000000 000
 
@@ -543,10 +543,10 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_last\_logon")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_last\_logon")
 </dt> </dl>
 
-User last logged on to the system. This value is calculated from the number of seconds elapsed since 00:00:00, January 1, 1970. The format of this value is yyyymmddhhmmss.mmmmmm sutc. For information about translating this property into your local time, see [WMI Tasks: Dates and Times](https://msdn.microsoft.com/en-us/library/Aa394590(v=VS.85).aspx).
+User last logged on to the system. This value is calculated from the number of seconds elapsed since 00:00:00, January 1, 1970. The format of this value is yyyymmddhhmmss.mmmmmm sutc. For information about translating this property into your local time, see [WMI Tasks: Dates and Times](https://msdn.microsoft.com/library/Aa394590(v=VS.85).aspx).
 
 Example: 19521201000230.000000 000
 
@@ -561,7 +561,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (147), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_logon\_hours")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (147), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_logon\_hours")
 </dt> </dl>
 
 Times during the week when the user can log on. Each bit represents a unit of time specified by the **UnitsPerWeek** property. For instance, if the unit of time is hourly, the first bit (bit 0, word 0) is Sunday, 0:00 to 0:59, the second bit (bit 1, word 0) is Sunday, 1:00 to 1:59, and so on. If this member is set to **NULL**, then there is no time restriction. The time is set to GMT and must be adjusted for other time zones (for example, GMT minus 8 hours for PST).
@@ -577,7 +577,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_logon\_server")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_logon\_server")
 </dt> </dl>
 
 Name of the server to which logon requests are sent. Server names should be preceded by two backslashes (\\\\). A server name with an asterisk (\\\\\*) indicates that the logon request can be handled by any logon server. A null string indicates that requests are sent to the domain controller.
@@ -595,7 +595,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_max\_storage"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_max\_storage"), [**Units**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("bytes")
 </dt> </dl>
 
 Maximum amount of disk space available to the user. If MaximumStorage is set to USER\_MAXSTORAGE\_UNLIMITED, the user is allowed to use all of the available disk space.
@@ -615,7 +615,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_name")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_name")
 </dt> </dl>
 
 User account on a particular domain or computer. The number of characters in the name cannot exceed the value of UNLEN.
@@ -633,7 +633,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_num\_logons")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_num\_logons")
 </dt> </dl>
 
 Number of successful times the user tried to log on to this account. A value of 0xFFFFFFFF indicates that the value is unknown. This property is maintained separately on each backup domain controller (BDC) in the domain. To get an accurate value, only the largest value from all BDCs should be used.
@@ -651,7 +651,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_parms")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_parms")
 </dt> </dl>
 
 Space set aside for use by applications. This string can be null, or it can have any number of characters before the terminating null character. Microsoft products use this member to store user configuration information. Do not modify this information, because this value is specific to an application.
@@ -667,7 +667,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_password\_age")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_password\_age")
 </dt> </dl>
 
 Length of time a password has been in effect. This value is measured from the number of seconds elapsed since the password was last changed.
@@ -685,7 +685,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_MODALS\_INFO\_0**](https://msdn.microsoft.com/en-us/library/Aa371342(v=VS.85).aspx)\|usrmod0\_max\_passwd\_age")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_MODALS\_INFO\_0**](https://msdn.microsoft.com/library/Aa371342(v=VS.85).aspx)\|usrmod0\_max\_passwd\_age")
 </dt> </dl>
 
 Date and time the password expires. The value is set in this format: yyyymmddhhmmss.mmmmmm sutc
@@ -703,7 +703,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_primary\_group\_id")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_primary\_group\_id")
 </dt> </dl>
 
 Relative identifier (RID) of the Primary Global Group for this user. The identifier verifies the primary group to which the user's profile belongs.
@@ -719,7 +719,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_priv")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_priv")
 </dt> </dl>
 
 Level of privilege assigned to the **usri3\_name** property.
@@ -758,7 +758,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_profile")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_profile")
 </dt> </dl>
 
 Path to the user's profile. This value can be a null string, a local absolute path, or a UNC path. A user profile contains settings that are customizable for each user such as the desktop colors.
@@ -776,7 +776,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_script\_path")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_script\_path")
 </dt> </dl>
 
 Directory path to the user's logon script. A logon script automatically executes a set of commands each time a user logs on to a system.
@@ -794,7 +794,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -812,7 +812,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_units\_per\_week")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_units\_per\_week")
 </dt> </dl>
 
 Number of time units the week is divided into. It is used with the **LogonHours** property to limit user access to the computer.
@@ -830,7 +830,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_usr\_comment")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_usr\_comment")
 </dt> </dl>
 
 User-defined comment or description for this profile.
@@ -846,7 +846,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_user\_id")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_user\_id")
 </dt> </dl>
 
 RID of the user. The identifier verifies that the user exists and is unique to this domain.
@@ -862,7 +862,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_flags")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_flags")
 </dt> </dl>
 
 Type of account to which the user has privileges.
@@ -931,7 +931,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/en-us/library/Aa371338(v=VS.85).aspx)\|usri3\_workstations")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**USER\_INFO\_3**](https://msdn.microsoft.com/library/Aa371338(v=VS.85).aspx)\|usri3\_workstations")
 </dt> </dl>
 
 Names of workstations from which the user can log on. Up to eight workstations can be specified; the names must be separated by commas (,). A null string indicates no restrictions. To disable logons from all workstations to this account, set the UF\_ACCOUNTDISABLE in the **Flags** property of this class.
@@ -942,7 +942,7 @@ Names of workstations from which the user can log on. Up to eight workstations c
 
 The **Win32\_NetworkLoginProfile** class is derived from [**CIM\_Setting**](cim-setting.md).
 
-The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For more information, see [Executing Privileged Operations](https://msdn.microsoft.com/en-us/library/Aa390428(v=VS.85).aspx).
+The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For more information, see [Executing Privileged Operations](https://msdn.microsoft.com/library/Aa390428(v=VS.85).aspx).
 
 ## Examples
 
@@ -1037,7 +1037,7 @@ End Function
 [**CIM\_Setting**](cim-setting.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

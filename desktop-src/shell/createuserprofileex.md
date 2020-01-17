@@ -2,7 +2,7 @@
 Description: Creates a user profile for a specified user.
 ms.assetid: e4ea4032-d8d3-45c1-b2e5-7fef52a8a869
 title: CreateUserProfileEx function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -66,7 +66,7 @@ Pointer to a buffer that contains the user name of the new user.
 
 Type: **LPCTSTR**
 
-Pointer to a buffer that contains the [registry hive](https://msdn.microsoft.com/en-us/library/ms724877(v=VS.85).aspx) to use. This parameter can be **NULL**.
+Pointer to a buffer that contains the [registry hive](https://msdn.microsoft.com/library/ms724877(v=VS.85).aspx) to use. This parameter can be **NULL**.
 
 </dd> <dt>
 
@@ -109,7 +109,7 @@ Returns **TRUE** if the new user profile was created successfully; otherwise, **
 
 ## Remarks
 
-This function is not declared in the software development kit (SDK) headers and has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to link to Userenv.dll. The ANSI version of the function, **CreateUserProfileExA** is referenced from Userenv.dll as ordinal 153. The Unicode version, **CreateUserProfileExW** is referenced as ordinal 154.
+This function is not declared in the software development kit (SDK) headers and has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to link to Userenv.dll. The ANSI version of the function, **CreateUserProfileExA** is referenced from Userenv.dll as ordinal 153. The Unicode version, **CreateUserProfileExW** is referenced as ordinal 154.
 
 ## Requirements
 

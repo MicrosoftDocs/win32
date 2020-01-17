@@ -1,8 +1,8 @@
 ---
 Description: The NAME macro generates a debug-only string.
 ms.assetid: '5cb9f803-dd2b-4055-bdcc-e754ef5fa505'
-title: NAME
-ms.topic: article
+title: NAME (Wxdebug.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

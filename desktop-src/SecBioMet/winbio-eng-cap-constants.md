@@ -1,5 +1,5 @@
 ---
-title: WINBIO_ENG_CAP Constants
+title: WINBIO_ENG_CAP Constants (Winbio\_types.h)
 description: Specify generic engine capabilities.
 ms.assetid: 31C4E8AF-6EF8-43FF-A944-D7363A26BB1A
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

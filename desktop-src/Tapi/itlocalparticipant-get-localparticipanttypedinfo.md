@@ -1,8 +1,8 @@
 ---
 Description: The get\_LocalParticipantTypedInfo method gets participant information, such as e-mail name or geographical location.
 ms.assetid: 46bb70a7-7dc9-463d-8416-737122412750
-title: ITLocalParticipant::get_LocalParticipantTypedInfo method
-ms.topic: article
+title: ITLocalParticipant::get_LocalParticipantTypedInfo method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-The application must use [SysFreeString](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppInfo* parameter.
+The application must use [SysFreeString](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppInfo* parameter.
 
 ## Requirements
 

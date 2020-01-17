@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the user presses a mouse button while the mouse is over the InkEdit control.
 ms.assetid: 8985fee5-7b63-46ab-b229-046e2f0ee004
-title: InkEdit.MouseDown event
-ms.topic: article
+title: InkEdit.MouseDown event (Inked.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -91,7 +91,7 @@ If a mouse button is pressed while the pointer is over an [InkEdit](inkedit-cont
 
 If mouse buttons are pressed in succession, the object that captures the mouse after the first press receives all mouse events until all buttons are released.
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeMouseDown.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeMouseDown.
 
 ## Requirements
 

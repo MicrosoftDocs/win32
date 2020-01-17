@@ -1,5 +1,5 @@
 ---
-title: EsentQuotaException members (Microsoft.Isam.Esent.Interop)
+title: EsentQuotaException members
 TOCTitle: EsentQuotaException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentQuotaException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentquotaexception_members(v=EXCHG.10)

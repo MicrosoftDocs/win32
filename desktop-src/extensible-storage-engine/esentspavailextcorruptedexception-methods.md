@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCorruptedException methods
 TOCTitle: EsentSPAvailExtCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcorruptedexception_methods(v=EXCHG.10)

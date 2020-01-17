@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a pass.
 ms.assetid: 71332f6a-18fe-4702-8620-6d16b835ba8f
-title: ID3DXBaseEffect::GetPass method
-ms.topic: article
+title: ID3DXBaseEffect::GetPass method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Handle of the parent technique. See [Handles (Direct3D 9)](handles.md).
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Index for the pass.
 

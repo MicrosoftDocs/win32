@@ -1,8 +1,8 @@
 ---
 Description: Indicates the location of a certificate store.
 ms.assetid: b0c64e54-7139-4945-9802-6e6c479481e2
-title: CAPICOM_STORE_LOCATION enumeration
-ms.topic: enumeration
+title: CAPICOM_STORE_LOCATION enumeration (Capicom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_STORE\_LOCATION enumeration
 
-The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 ## Members
 

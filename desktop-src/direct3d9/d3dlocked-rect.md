@@ -1,8 +1,8 @@
 ---
 Description: Describes a locked rectangular region.
 ms.assetid: ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6
-title: D3DLOCKED_RECT structure
-ms.topic: structure
+title: D3DLOCKED_RECT structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DLOCKED_RECT {
 **Pitch**
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ Type: **void\***
 
 </dd> <dd>
 
-Pointer to the locked bits. If a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) was provided to the [**LockRect**](https://msdn.microsoft.com/library/Bb205896(v=VS.85).aspx) call, pBits will be appropriately offset from the start of the surface.
+Pointer to the locked bits. If a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) was provided to the [**LockRect**](https://msdn.microsoft.com/library/Bb205896(v=VS.85).aspx) call, pBits will be appropriately offset from the start of the surface.
 
 </dd> </dl>
 

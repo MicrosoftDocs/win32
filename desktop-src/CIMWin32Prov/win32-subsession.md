@@ -3,7 +3,7 @@ Description: The Win32\_SubSession association defines relationships between ses
 ms.assetid: 2269de22-b086-4f71-8b19-bc53e1c88dc7
 ms.tgt_platform: multiple
 title: Win32_SubSession class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Antecedent)
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (Antecedent)
 </dt> </dl>
 
 A [**Win32\_Session**](win32-session.md) that describes the session that has a subsession.
@@ -72,7 +72,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Dependent)
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (Dependent)
 </dt> </dl>
 
 A [**Win32\_Session**](win32-session.md) that describes the session that is the subsession.

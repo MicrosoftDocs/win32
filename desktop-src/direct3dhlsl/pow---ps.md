@@ -2,10 +2,10 @@
 title: pow - ps
 description: Full precision abs(src0)src1.
 ms.assetid: 39037c51-a524-459c-8422-bd7831e2aa3d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

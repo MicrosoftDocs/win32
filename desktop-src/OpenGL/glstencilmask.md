@@ -1,5 +1,5 @@
 ---
-title: glStencilMask function
+title: glStencilMask function (Gl.h)
 description: The glStencilMask function controls the writing of individual bits in the stencil planes.
 ms.assetid: c586f9db-bad5-4f06-a194-a8d979842d0c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

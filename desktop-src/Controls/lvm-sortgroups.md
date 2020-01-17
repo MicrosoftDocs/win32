@@ -1,5 +1,5 @@
 ---
-title: LVM_SORTGROUPS message
+title: LVM_SORTGROUPS message (Commctrl.h)
 description: Uses an application-defined comparison function to sort groups by ID within a list-view control.
 ms.assetid: 553e96d6-a982-4482-8fba-ef11a74fb82e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -57,7 +57,7 @@ Returns 1 if successful, or 0 otherwise.
 
 <dl> <dt>
 
-[**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx)
+[**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx)
 </dt> </dl>
 
  

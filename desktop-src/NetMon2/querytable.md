@@ -1,8 +1,8 @@
 ---
 Description: The QUERYTABLE structure provides a list of the computers that are currently using Network Monitor to capture network data.
 ms.assetid: b701a6d5-df6d-4ee9-b008-a568a410dc14
-title: QUERYTABLE structure
-ms.topic: structure
+title: QUERYTABLE structure (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

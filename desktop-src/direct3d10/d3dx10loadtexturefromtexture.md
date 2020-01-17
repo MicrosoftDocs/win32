@@ -1,8 +1,8 @@
 ---
 Description: Load a texture from a texture.
 ms.assetid: 126e71e1-a3b2-418b-be35-434a2e9472ca
-title: D3DX10LoadTextureFromTexture function
-ms.topic: article
+title: D3DX10LoadTextureFromTexture function (D3DX10Tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -65,7 +65,7 @@ Pointer to the destination texture. See [**ID3D10Resource Interface**](/windows/
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

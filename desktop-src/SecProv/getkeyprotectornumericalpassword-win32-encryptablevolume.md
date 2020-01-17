@@ -2,7 +2,7 @@
 Description: Retrieves the numerical password for a given key protector.
 ms.assetid: 5c4663fb-285d-471c-b355-82d553a7e686
 title: GetKeyProtectorNumericalPassword method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -80,7 +80,7 @@ This method returns one of the following codes or another error code if it fails
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

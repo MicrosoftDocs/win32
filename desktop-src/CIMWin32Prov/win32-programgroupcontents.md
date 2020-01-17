@@ -3,7 +3,7 @@ Description: The Win32\_ProgramGroupContents association WMI class relates a pro
 ms.assetid: 687794d1-acc1-498a-9886-0c9ac762ebf4
 ms.tgt_platform: multiple
 title: Win32_ProgramGroupContents class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ProgramGroupContents class
 
-The **Win32\_ProgramGroupContents** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a program group order and an individual program group or item contained in it.
+The **Win32\_ProgramGroupContents** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a program group order and an individual program group or item contained in it.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_LogicalProgramGroup**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_LogicalProgramGroup")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_LogicalProgramGroup")
 </dt> </dl>
 
 Reference to the instance representing the logical program group for this association.
@@ -72,7 +72,7 @@ Data type: **Win32\_ProgramGroupOrItem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ProgramGroupOrItem")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ProgramGroupOrItem")
 </dt> </dl>
 
 Reference to the instance representing the **Start** menu group or item for this association.
@@ -104,7 +104,7 @@ The **Win32\_ProgramGroupContents** class is derived from [**CIM\_Component**](c
 [**CIM\_Component**](cim-component.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

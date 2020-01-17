@@ -1,8 +1,8 @@
 ---
 Description: Builds a quaternion with the given yaw, pitch, and roll.
 ms.assetid: c929d9d4-b9cb-4de6-86c1-26fec3617846
-title: D3DXQuaternionRotationYawPitchRoll function
-ms.topic: article
+title: D3DXQuaternionRotationYawPitchRoll function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ D3DXQUATERNION* D3DXQuaternionRotationYawPitchRoll(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -50,7 +50,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Yaw around the y-axis, in radians.
 
@@ -59,7 +59,7 @@ Yaw around the y-axis, in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pitch around the x-axis, in radians.
 
@@ -68,7 +68,7 @@ Pitch around the x-axis, in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Roll around the z-axis, in radians.
 
@@ -76,7 +76,7 @@ Roll around the z-axis, in radians.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a D3DXQUATERNION structure with the specified yaw, pitch, and roll.
 

@@ -1,8 +1,8 @@
 ---
 Description: The Clear method releases all items from the collection.
 ms.assetid: 151d1f61-11f0-40f0-8da1-79e9eb2001ce
-title: IPortableDeviceValuesCollection::Clear method
-ms.topic: article
+title: IPortableDeviceValuesCollection::Clear method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

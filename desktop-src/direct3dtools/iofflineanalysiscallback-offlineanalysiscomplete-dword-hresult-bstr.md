@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IOfflineAnalysisCallback::OfflineAnalysisComplete method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 36E10709-51DC-4657-B184-F1F807ABBBB4
 api_name: 

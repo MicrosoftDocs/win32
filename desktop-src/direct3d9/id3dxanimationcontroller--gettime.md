@@ -1,8 +1,8 @@
 ---
 Description: Gets the global animation time.
 ms.assetid: a46e2a57-a76a-4d79-a3b6-30b242321ed2
-title: ID3DXAnimationController::GetTime method
-ms.topic: article
+title: ID3DXAnimationController::GetTime method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the global animation time.
 

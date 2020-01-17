@@ -1,5 +1,5 @@
 ---
-title: WINBIO_NO_FORMAT Constants
+title: WINBIO_NO_FORMAT Constants (Winbio\_types.h)
 description: Check for errors.
 ms.assetid: 0EDE7415-0CB5-449B-AC0B-2B7EAC7EBF86
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

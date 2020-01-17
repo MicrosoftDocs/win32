@@ -2,7 +2,7 @@
 title: IVMUSBDevice Properties
 description: The IVMUSBDevice interface exposes the following properties.
 ms.assetid: D542A0BA-0AC0-40E4-B06E-682952DB9DF4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

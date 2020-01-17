@@ -1,8 +1,8 @@
 ---
 Description: Shuts down the user name resolution thread.
 ms.assetid: 6c4544b9-81e7-4a72-aa00-70011e5cd85a
-title: DiskQuotaControl.ShutdownNameResolution method
-ms.topic: article
+title: DiskQuotaControl.ShutdownNameResolution method (Dskquota.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

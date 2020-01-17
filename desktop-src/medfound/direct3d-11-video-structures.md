@@ -2,7 +2,7 @@
 Description: This section contains reference information for the Microsoft Direct3D 11 video API structures.
 ms.assetid: 416159A4-F50E-4027-9367-727BA81D2A21
 title: Direct3D 11 Video Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -42,6 +42,8 @@ This section contains reference information for the Microsoft Direct3D 11 video
 -   [**D3D11\_AUTHENTICATED\_QUERY\_UNRESTRICTED\_PROTECTED\_SHARED\_RESOURCE\_COUNT\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_unrestricted_protected_shared_resource_count_output)
 -   [**D3D11\_AUTHENTICATED\_PROTECTION\_FLAGS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_protection_flags)
 -   [**D3D11\_ENCRYPTED\_BLOCK\_INFO**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_encrypted_block_info)
+-   [**D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM**](/windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_video_decoder_histogram)
+-   [**D3D11_FEATURE_DATA_D3D11_OPTIONS4**](/windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4)
 -   [**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION\_DATA**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_data)
 -   [**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION\_INPUT\_DATA**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data)
 -   [**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION\_OUTPUT\_DATA**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data)

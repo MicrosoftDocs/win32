@@ -1,5 +1,5 @@
 ---
-title: IWMPDVD (VB and C ) interface
+title: IWMPDVD (VB and C ) interface (Wmp.h)
 description: The IWMPDVD interface provides properties and methods for working with DVDs.The IWMPDVD interface exposes the following properties.
 ms.assetid: 6bb32eed-475e-4867-8318-34578dc430a4
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

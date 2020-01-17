@@ -2,7 +2,7 @@
 Description: Retrieves the unique private key container name.
 ms.assetid: 2f1315b7-0b12-45d6-8dac-80331bd84ffd
 title: PrivateKey.UniqueContainerName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Extracts the per-sample cluster IDs from an ID3DXPRTCompBuffer compressed data buffer.
 ms.assetid: d78d82ab-58bc-4b73-9ca0-8b7f06867618
-title: ID3DXPRTCompBuffer::ExtractClusterIDs method
-ms.topic: article
+title: ID3DXPRTCompBuffer::ExtractClusterIDs method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT ExtractClusterIDs(
 *pClusterIDs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the location in memory where IDs are written. The length of memory required is the value returned by [**ID3DXPRTCompBuffer::GetNumSamples**](id3dxprtcompbuffer--getnumsamples.md).
 
@@ -46,7 +46,7 @@ Pointer to the location in memory where IDs are written. The length of memory re
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.
 

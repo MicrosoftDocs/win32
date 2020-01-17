@@ -1,11 +1,11 @@
 ---
-title: SystemParameters.EnableAdvanced property  (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.EnableAdvanced property 
 TOCTitle: 'EnableAdvanced property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EnableAdvanced
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.enableadvanced(v=EXCHG.10)
 ms:contentKeyID: 55104116
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SystemParameters.EnableAdvanced
 dev_langs:

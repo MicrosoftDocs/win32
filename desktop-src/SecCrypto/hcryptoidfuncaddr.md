@@ -1,14 +1,14 @@
 ---
 Description: Represents a handle to an object identifier (OID) installable function.
 ms.assetid: 06492b94-9717-40e0-be96-f97f42ac34af
-title: HCRYPTOIDFUNCADDR
-ms.topic: article
+title: HCRYPTOIDFUNCADDR (Wincrypt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # HCRYPTOIDFUNCADDR
 
-The **HCRYPTOIDFUNCADDR** data type represents a handle to an [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) installable function. The [**CryptGetDefaultOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultoidfunctionaddress), [**CryptGetOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetoidfunctionaddress), and [**CryptFreeOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress) functions, and the [**CERT\_STORE\_PROV\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_store_prov_info) structure use this data type.
+The **HCRYPTOIDFUNCADDR** data type represents a handle to an [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) installable function. The [**CryptGetDefaultOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultoidfunctionaddress), [**CryptGetOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetoidfunctionaddress), and [**CryptFreeOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress) functions, and the [**CERT\_STORE\_PROV\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_store_prov_info) structure use this data type.
 
 
 ```C++

@@ -1,5 +1,5 @@
 ---
-title: Option Flags
+title: Option Flags (Wininet.h)
 description: The following option flags are used with the InternetQueryOption and InternetSetOption functions. All valid option flags have a value greater than or equal to INTERNET\_FIRST\_OPTION and less than or equal to INTERNET\_LAST\_OPTION.
 ms.assetid: 708510b8-468a-4287-849b-cba3d7001ea8
 topic_type:
@@ -97,7 +97,7 @@ api_location:
 - Winineti.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

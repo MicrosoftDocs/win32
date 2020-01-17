@@ -1,8 +1,8 @@
 ---
 Description: Raised by the Media Session when it completes a scrubbing request.
 ms.assetid: 1ae97022-3fb2-4c5e-9262-d5bdc2a62bee
-title: MESessionScrubSampleComplete event
-ms.topic: article
+title: MESessionScrubSampleComplete event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

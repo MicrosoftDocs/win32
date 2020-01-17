@@ -1,8 +1,8 @@
 ---
 Description: Determines the product of two matrices.
 ms.assetid: d15cd680-0e19-4353-9eee-73933663960e
-title: D3DXMatrixMultiply function
-ms.topic: article
+title: D3DXMatrixMultiply function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ D3DXMATRIX* D3DXMatrixMultiply(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -49,7 +49,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pM1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a source D3DXMATRIX structure (left hand side).
 
@@ -58,7 +58,7 @@ Pointer to a source D3DXMATRIX structure (left hand side).
 *pM2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a source D3DXMATRIX structure (right hand side).
 
@@ -66,7 +66,7 @@ Pointer to a source D3DXMATRIX structure (right hand side).
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that is the product of two matrices.
 

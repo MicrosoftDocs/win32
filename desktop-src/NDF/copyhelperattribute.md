@@ -1,5 +1,5 @@
 ---
-title: CopyHelperAttribute function
+title: CopyHelperAttribute function (Ndattributils.h)
 description: Creates a copy of a HELPER\_ATTRIBUTE structure.
 ms.assetid: ff49be29-4cd8-4730-929f-c66a7325704f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

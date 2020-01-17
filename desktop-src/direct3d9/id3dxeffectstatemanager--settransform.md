@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set a transform.
 ms.assetid: 5d886554-ddb6-4b8a-a7fd-453e94b9516f
-title: ID3DXEffectStateManager::SetTransform method
-ms.topic: article
+title: ID3DXEffectStateManager::SetTransform method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -39,9 +39,9 @@ HRESULT SetTransform(
 *State* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx)**
+Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx)**
 
-The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx).
+The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -56,7 +56,7 @@ A transformation matrix. See [**D3DMATRIX**](d3dmatrix.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

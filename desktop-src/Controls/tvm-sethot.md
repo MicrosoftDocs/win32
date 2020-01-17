@@ -1,5 +1,5 @@
 ---
-title: TVM_SETHOT message
+title: TVM_SETHOT message (Commctrl.h)
 description: Sets the hot item for a tree-view control. You can send this message explicitly or by using the TreeView\_SetHot macro.
 ms.assetid: 5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

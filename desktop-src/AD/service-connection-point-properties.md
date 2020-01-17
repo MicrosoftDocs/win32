@@ -51,7 +51,7 @@ The most important attributes of an SCP are **keywords**, **serviceDNSName**, **
 </tr>
 <tr class="even">
 <td><strong>serviceClassName</strong><br/></td>
-<td>A single-value property that identifies the class of service represented by the SCP. This is a descriptive string specific to the service that published the SCP; for example SqlServer. For services that support mutual authentication, clients can use this property, along with the DNS name of the service's host computer, to form a service principal name. For more information, see <a href="mutual-authentication-using-kerberos">Mutual Authentication Using Kerberos</a>.<br/></td>
+<td>A single-value property that identifies the class of service represented by the SCP. This is a descriptive string specific to the service that published the SCP; for example, SqlServer. For services that support mutual authentication, clients can use this property, along with the DNS name of the service's host computer, to form a service principal name. For more information, see <a href="mutual-authentication-using-kerberos.md">Mutual Authentication Using Kerberos</a>.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray SampleCmpLevelZero methods
+title: TextureCubeArray::TextureCubeArray SampleCmpLevelZero methods
 description: Samples a texture on mipmap level 0 only, using a comparison value to reject samples.
 ms.assetid: 85A7DAC6-25E3-4BB5-BE80-F0A32FCBEF80
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

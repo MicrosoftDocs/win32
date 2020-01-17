@@ -2,7 +2,7 @@
 Description: Occurs when a tablet context is being destroyed.
 ms.assetid: 805289d8-267e-488b-8092-6b07b37dd6d4
 title: ITabletEventSink::ContextDestroy method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

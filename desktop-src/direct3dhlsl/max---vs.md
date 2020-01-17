@@ -2,10 +2,10 @@
 title: max - vs
 description: Calculates the maximum of the sources.
 ms.assetid: 93fb8fb2-c722-43e5-bfe4-a2e9d3cd2049
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

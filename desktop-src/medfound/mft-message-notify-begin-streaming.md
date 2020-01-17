@@ -1,8 +1,8 @@
 ---
 Description: Notifies a Media Foundation transform (MFT) that streaming is about to begin.
 ms.assetid: a7f02e92-a747-4ac6-aa83-60897acb2bc5
-title: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
-ms.topic: article
+title: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: D2D1_RECT_F
+title: D2D1_RECT_F (D2DBaseTypes.h)
 description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
 ms.assetid: a961c0e3-fb76-4c07-b76e-47d8c09ada08
 keywords:
 - D2D1_RECT_F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ typedef D2D_RECT_F D2D1_RECT_F;
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) to draw and fill several rectangles. This example produces output as shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371461(v=VS.85).aspx) to draw and fill several rectangles. This example produces output as shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 

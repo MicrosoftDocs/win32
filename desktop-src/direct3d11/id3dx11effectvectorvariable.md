@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable interface
+title: ID3DX11EffectVectorVariable interface (D3dx11effect.h)
 description: A vector-variable interface accesses a four-component vector.
 ms.assetid: 191d373b-0562-4d7b-ac3f-cd24abf259bc
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

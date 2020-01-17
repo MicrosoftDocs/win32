@@ -126,7 +126,7 @@ This table maps the 2.6.5 schema PROPERTYKEY structures to the 3.01 schema PROPE
 
 <dl> <dt>
 
-[Vista Property System](https://msdn.microsoft.com/en-us/library/Cc144125(VS.85).aspx)
+[Vista Property System](https://msdn.microsoft.com/library/Cc144125(VS.85).aspx)
 </dt> </dl>
 
  

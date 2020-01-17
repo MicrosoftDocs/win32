@@ -1,5 +1,5 @@
 ---
-title: DM_SETDEFID message
+title: DM_SETDEFID message (Winuser.h)
 description: Changes the identifier of the default push button for a dialog box.
 ms.assetid: 30720fa1-48cb-42d4-8370-87bdbaa34600
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

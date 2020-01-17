@@ -167,11 +167,11 @@
           href: resource-enumeration-structures.md
           items: 
           - name: "AVRF_BACKTRACE_INFORMATION"
-            href: /windows/desktop/api/Avrfsdk/ns-avrfsdk-_avrf_backtrace_information
+            href: /windows/win32/api/Avrfsdk/ns-avrfsdk-avrf_backtrace_information
           - name: "AVRF_HANDLE_OPERATION"
-            href: /windows/desktop/api/Avrfsdk/ns-avrfsdk-_avrf_handle_operation
+            href: /windows/win32/api/Avrfsdk/ns-avrfsdk-avrf_handle_operation
           - name: "AVRF_HEAP_ALLOCATION"
-            href: /windows/desktop/api/Avrfsdk/ns-avrfsdk-_avrf_heap_allocation
+            href: /windows/win32/api/Avrfsdk/ns-avrfsdk-avrf_heap_allocation
     - name: "VerifierIsPerUserSettingsEnabled"
       href: /windows/desktop/api/Avrfsdk/nf-avrfsdk-verifierisperusersettingsenabled
   - name: "Audio and Video"
@@ -423,19 +423,19 @@
     href: file-history-api.md
     items: 
     - name: "FH_BACKUP_STATUS"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_backup_status
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_backup_status
     - name: "FH_DEVICE_VALIDATION_RESULT"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_device_validation_result
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_device_validation_result
     - name: "FH_LOCAL_POLICY_TYPE"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_local_policy_type
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_local_policy_type
     - name: "FH_PROTECTED_ITEM_CATEGORY"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_protected_item_category
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_protected_item_category
     - name: "FH_RETENTION_TYPES"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_retention_types
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_retention_types
     - name: "FH_TARGET_DRIVE_TYPES"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_target_drive_types
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_target_drive_types
     - name: "FH_TARGET_PROPERTY_TYPE"
-      href: /windows/desktop/api/Fhcfg/ne-fhcfg-_fh_target_property_type
+      href: /windows/win32/api/Fhcfg/ne-fhcfg-fh_target_property_type
     - name: "FhConfigMgr"
       href: fhconfigmgr.md
     - name: "FhManagew.exe"
@@ -838,7 +838,7 @@
     - name: "SendIMEMessageEx"
       href: /windows/desktop/api/Ime/nf-ime-sendimemessageexa
     - name: "STRING"
-      href: /windows/desktop/api/Winternl/ns-winternl-_string
+      href: /windows/win32/api/Winternl/ns-winternl-string
     - name: "UnregisterServerForPMP"
       href: /windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
     - name: "WINNLSEnableIME"
@@ -925,7 +925,7 @@
     - name: "DownloadJavaEX"
       href: downloadjavaex.md
     - name: "JAVA_TRUST"
-      href: /windows/desktop/api/Capi/ns-capi-_java_trust
+      href: /windows/win32/api/Capi/ns-capi-java_trust
     - name: "NotifyBrowserShutdown"
       href: notifybrowsershutdown.md
     - name: "ShowJavaConsole"
@@ -967,13 +967,13 @@
       href: /windows/desktop/api/Lmaccess/nf-lmaccess-i_netlogoncontrol2
       items: 
       - name: "NETLOGON_INFO_1"
-        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_1
+        href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_1
       - name: "NETLOGON_INFO_2"
-        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_2
+        href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_2
       - name: "NETLOGON_INFO_3"
-        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_3
+        href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_3
       - name: "NETLOGON_INFO_4"
-        href: /windows/desktop/api/Lmaccess/ns-lmaccess-_netlogon_info_4
+        href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_4
     - name: "ResumeSuspendedDownload"
       href: https://docs.microsoft.com/previous-versions//bb432423(v=vs.85)
     - name: "RPC NDR Engine"
@@ -1220,11 +1220,11 @@
         - name: "WSC_SECURITY_PRODUCT_STATE"
           href: /windows/desktop/api/Iwscapi/ne-iwscapi-wsc_security_product_state
         - name: "WSC_SECURITY_PROVIDER"
-          href: /windows/desktop/api/Wscapi/ne-wscapi-_wsc_security_provider
+          href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider
         - name: "WSC_SECURITY_PROVIDER_HEALTH"
-          href: /windows/desktop/api/Wscapi/ne-wscapi-_wsc_security_provider_health
+          href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
         - name: "WSC_SECURITY_SIGNATURE_STATUS"
-          href: /windows/desktop/api/Iwscapi/ne-iwscapi-_wsc_security_signature_status
+          href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
       - name: "Windows Security Center Interfaces"
         href: windows-security-center-interfaces.md
         items: 

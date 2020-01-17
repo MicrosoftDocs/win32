@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the enumeration object in this file data object.
 ms.assetid: 383560e2-1888-4e37-9883-2ddbcb101cf6
-title: ID3DXFileData::GetEnum method
-ms.topic: article
+title: ID3DXFileData::GetEnum method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to receive the enumeration object in this file data object.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DXFERR\_BADVALUE.
 

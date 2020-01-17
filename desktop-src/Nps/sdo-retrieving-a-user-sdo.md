@@ -56,10 +56,10 @@ The following code retrieves a Server Data Object (SDO) for the Administrator.
 [**ISdoMachine::GetUserSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo)
 </dt> <dt>
 
-[**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx)
+[**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx)
 </dt> <dt>
 
-[**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx)
+[**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx)
 </dt> </dl>
 
  

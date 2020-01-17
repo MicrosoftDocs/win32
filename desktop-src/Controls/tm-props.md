@@ -5,7 +5,7 @@ ms.assetid: 34b9e158-1d40-4d70-8b83-c13ac16fb7d2
 keywords:
 - TM_PROPS enumeration Windows Controls
 - BP_ANIMATIONSTYLE enumeration Windows Controls
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

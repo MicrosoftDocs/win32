@@ -1,14 +1,14 @@
 ---
 Description: The center of the BoundingOrientedBox.
 ms.assetid: e1e118cd-4549-4609-9c8e-7ce36a0bcc3f
-title: BoundingOrientedBox.Center
-ms.topic: article
+title: BoundingOrientedBox.Center (DirectXCollision.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # BoundingOrientedBox.Center
 
-The center of the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).
+The center of the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).
 
 
 ```C++
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
 </dt> </dl>
 
  

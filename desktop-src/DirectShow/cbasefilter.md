@@ -1,8 +1,8 @@
 ---
 Description: The CBaseFilter class is an abstract class for implementing filters.
 ms.assetid: 4610c8d6-9d7d-47ca-b1d5-0a867153a5f6
-title: CBaseFilter class
-ms.topic: interface
+title: CBaseFilter class (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

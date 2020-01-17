@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC UpTime property
+title: IVMVirtualPC UpTime property (VPCCOMInterfaces.h)
 description: Retrieves the number of seconds the Windows Virtual PC application has been running.
 ms.assetid: 3007a961-2e8c-4674-aab6-4424d0d73eca
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

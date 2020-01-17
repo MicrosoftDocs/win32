@@ -1,11 +1,11 @@
 ---
-title: JET_SIGNATURE.Equals method (JET_SIGNATURE) (Microsoft.Isam.Esent.Interop)
+title: JET_SIGNATURE.Equals method (JET_SIGNATURE)
 TOCTitle: Equals method (JET_SIGNATURE)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.Equals(Microsoft.Isam.Esent.Interop.JET_SIGNATURE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_signature.equals(v=EXCHG.10)
 ms:contentKeyID: 39511830
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

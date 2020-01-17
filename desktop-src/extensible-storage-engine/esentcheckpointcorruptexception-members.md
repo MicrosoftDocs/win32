@@ -1,5 +1,5 @@
 ---
-title: EsentCheckpointCorruptException members (Microsoft.Isam.Esent.Interop)
+title: EsentCheckpointCorruptException members
 TOCTitle: EsentCheckpointCorruptException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointcorruptexception_members(v=EXCHG.10)

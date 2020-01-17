@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseSignInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseSignInUseException constructor 
 TOCTitle: 'EsentDatabaseSignInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesigninuseexception.esentdatabasesigninuseexception(v=EXCHG.10)
 ms:contentKeyID: 55101552
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException.EsentDatabaseSignInUseException
 dev_langs:

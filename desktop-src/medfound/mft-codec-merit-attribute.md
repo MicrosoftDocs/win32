@@ -1,8 +1,8 @@
 ---
 Description: Contains the merit value of a hardware codec.
 ms.assetid: 1df40a42-4c02-473f-a87f-2ae2d42e4f4e
-title: MFT_CODEC_MERIT_Attribute attribute
-ms.topic: article
+title: MFT_CODEC_MERIT_Attribute attribute (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

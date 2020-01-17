@@ -21,7 +21,7 @@ To use the Windows 7 features of the Crypto API, define the **CRYPT\_OID\_INFO\
 
 
 
-Next, instantiate an [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface by calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx), as shown in the following code example.
+Next, instantiate an [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx), as shown in the following code example.
 
 
 ```C++
@@ -54,7 +54,7 @@ if (SUCCEEDED(hr)) {
 
 
 
-The interface instantiated by [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) can be used by only one XPS document, which must be loaded by calling [**LoadPackageFile**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) or [**LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) before calling any other method.
+The interface instantiated by [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) can be used by only one XPS document, which must be loaded by calling [**LoadPackageFile**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) or [**LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) before calling any other method.
 
 After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) interface has been instantiated and an XPS document has been loaded, the signature manager is ready for use.
 
@@ -77,7 +77,7 @@ After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn
 **Used in This Section**
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
 </dt> <dt>
 
 [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager)

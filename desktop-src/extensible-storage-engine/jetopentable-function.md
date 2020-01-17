@@ -5,7 +5,7 @@ ms:assetid: ded6348c-a82a-49bc-8a5d-e40ed5d6315c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294118(v=EXCHG.10)
 ms:contentKeyID: 32765732
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetOpenTable
 - JetOpenTableW

@@ -1,5 +1,5 @@
 ---
-title: IVMTask Error property
+title: IVMTask Error property (VPCCOMInterfaces.h)
 description: Retrieves the error recorded for this task.
 ms.assetid: 9023e24b-679b-43e4-8db4-b8510a582382
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

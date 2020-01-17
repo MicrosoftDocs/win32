@@ -1,8 +1,8 @@
 ---
 Description: Return a handle to a display device context (DC) that has the font set onto it.
 ms.assetid: 57510b89-980d-42bb-a7ab-a292680a6004
-title: ID3DX10Font::GetDC method
-ms.topic: article
+title: ID3DX10Font::GetDC method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HDC**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HDC**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Handle to a display DC.
 

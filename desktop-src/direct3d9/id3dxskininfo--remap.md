@@ -1,8 +1,8 @@
 ---
 Description: Updates bone influence information to match vertices after they are reordered. This method should be called if the target vertex buffer has been reordered externally.
 ms.assetid: bff5229f-e547-4ab3-84c6-58b15a7825e9
-title: ID3DXSkinInfo::Remap method
-ms.topic: article
+title: ID3DXSkinInfo::Remap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT Remap(
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices to remap.
 
@@ -48,7 +48,7 @@ Number of vertices to remap.
 *pVertexRemap* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Array of DWORDS whose length is specified by NumVertices.
 
@@ -56,7 +56,7 @@ Array of DWORDS whose length is specified by NumVertices.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

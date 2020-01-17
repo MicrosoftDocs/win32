@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive ReleaseImage method
+title: IVMFloppyDrive ReleaseImage method (VPCCOMInterfaces.h)
 description: Releases a floppy media image on the host from the floppy drive.
 ms.assetid: 12fc6dc4-8450-4122-b0f0-ed11cc10134c
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

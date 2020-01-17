@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyIOException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyIOException properties
 TOCTitle: EsentTooManyIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyIOException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyioexception_properties(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 2.
 ms.assetid: 9e0942ce-e39d-4147-9472-cda8a97fd390
-title: D3DXSHMultiply2 function
-ms.topic: article
+title: D3DXSHMultiply2 function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ FLOAT* D3DXSHMultiply2(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the output SH coefficients — the basis function *Y*ₗₘ is stored at l² + *m* + l. The order *N* determines the length of the array, where there should always be *N*² coefficients.
 
@@ -49,7 +49,7 @@ Pointer to the output SH coefficients — the basis function *Y*ₗₘ is stored
 *pF* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Input SH coefficients for first function.
 
@@ -58,7 +58,7 @@ Input SH coefficients for first function.
 *pG* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Second set of input SH coefficients.
 
@@ -66,7 +66,7 @@ Second set of input SH coefficients.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to SH output coefficients.
 

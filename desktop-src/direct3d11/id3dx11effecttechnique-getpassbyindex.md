@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectTechnique GetPassByIndex method
+title: ID3DX11EffectTechnique GetPassByIndex method (D3dx11effect.h)
 description: Get a pass by index.
 ms.assetid: 3c9452f5-c94a-4951-bdd2-e8891b7ceb34
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

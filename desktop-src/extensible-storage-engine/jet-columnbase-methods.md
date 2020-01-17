@@ -1,5 +1,5 @@
 ---
-title: JET_COLUMNBASE methods (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNBASE methods
 TOCTitle: JET_COLUMNBASE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase_methods(v=EXCHG.10)

@@ -1,11 +1,11 @@
 ---
-title: EsentSLVRootStillOpenException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootStillOpenException class
 TOCTitle: EsentSLVRootStillOpenException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootstillopenexception(v=EXCHG.10)
 ms:contentKeyID: 55102819
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException
 dev_langs:

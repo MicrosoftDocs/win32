@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Functions (OLE and Data Transfer)
 description: The following functions are used to implement compound documents and perform data transfer between applications.
 ms.assetid: cab450bb-13d8-4a5f-b8f3-ad68a483afbb
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following functions are used to implement compound documents and perform data transfer between applications.
 
--   [**CreateDataAdviseHolder**](https://msdn.microsoft.com/en-us/library/ms690308(v=VS.85).aspx)
+-   [**CreateDataAdviseHolder**](https://msdn.microsoft.com/library/ms690308(v=VS.85).aspx)
 -   [**CreateDataCache**](/windows/desktop/api/ObjBase/nf-objbase-createdatacache)
 -   [**CreateFormatEnumerator**](/windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator)
 -   [**CreateOleAdviseHolder**](/windows/desktop/api/Ole2/nf-ole2-createoleadviseholder)

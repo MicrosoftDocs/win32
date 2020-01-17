@@ -1,5 +1,5 @@
 ---
-title: MCI_VD_STEP_PARMS structure
+title: MCI_VD_STEP_PARMS structure (Mciapi.h)
 description: The MCI\_VD\_STEP\_PARMS structure contains information for the MCI\_STEP command for videodisc devices.
 ms.assetid: 5345468c-b195-485a-8101-4a076410f26a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -52,7 +52,7 @@ Number of frames to step.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -79,7 +79,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_STEP**](mci-step.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

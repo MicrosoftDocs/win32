@@ -1,5 +1,5 @@
 ---
-title: IADsPath Property Methods
+title: IADsPath Property Methods (Iads.h)
 description: The property method of the IADsPath interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 6fc7ce1a-575b-48c4-9f66-3ea22d60c96b
 ms.tgt_platform: multiple
@@ -22,7 +22,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

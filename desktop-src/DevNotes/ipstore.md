@@ -1,8 +1,8 @@
 ---
 Description: Provides COM-standard methods to manage protected storage data items.
 ms.assetid: 6a4200ed-c3cf-4d6c-8936-22261e670087
-title: IPStore interface
-ms.topic: interface
+title: IPStore interface (Pstore.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # IPStore interface
 
-\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/en-us/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/en-us/library/Aa380882(v=VS.85).aspx) functions.\]
+\[Protected Storage (Pstore) is available for use in Windows Server 2003 and Windows XP. It is only available for read-only operations in Windows Server 2008 and Windows Vista, but may be unavailable in subsequent versions. Pstore uses an older implementation of data protection. Developers are strongly encouraged to take advantage of the stronger data protection provided by the [**CryptProtectData**](https://msdn.microsoft.com/library/Aa380261(v=VS.85).aspx) and [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx) functions.\]
 
 \[This interface may be altered or unavailable in future versions of Windows.\]
 
@@ -25,7 +25,7 @@ Provides COM-standard methods to manage protected storage data items. The [**PSt
 
 ## Members
 
-The **IPStore** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IPStore** also has these types of members:
+The **IPStore** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IPStore** also has these types of members:
 
 -   [Methods](#methods)
 

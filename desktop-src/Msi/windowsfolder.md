@@ -2,7 +2,7 @@
 Description: The installer sets the WindowsFolder property to the full path of the Windows folder.
 ms.assetid: 196f7862-8dfc-4214-845f-7dc1f5c709f3
 title: WindowsFolder property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

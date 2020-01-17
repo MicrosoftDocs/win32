@@ -2,7 +2,7 @@
 Description: Represents the current configuration of a virtual Ethernet switch.
 ms.assetid: a7c03517-332d-47ce-8e04-c2187bcb2977
 title: Msvm_VirtualEthernetSwitchSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

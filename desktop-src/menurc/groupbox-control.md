@@ -1,5 +1,5 @@
 ---
-title: GROUPBOX control
+title: GROUPBOX control (Menus and Other Resources)
 description: Defines a group box control. The control is a rectangle that groups other controls together. The controls are grouped by drawing a border around them and displaying the given text in the upper-left corner.
 ms.assetid: ffca7b68-0326-4fbe-8330-7d1151abb14a
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GROUPBOX
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The AddPrinter function adds a printer to the list of supported printers for a specified server.
 ms.assetid: ffc4fee8-46c6-47ad-803d-623bf8efdefd
-title: AddPrinter function
-ms.topic: article
+title: AddPrinter function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

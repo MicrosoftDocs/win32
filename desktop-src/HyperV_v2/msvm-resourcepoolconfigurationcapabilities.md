@@ -2,7 +2,7 @@
 Description: Describes the capabilities of the associated Msvm\_ResourcePoolConfigurationService class.
 ms.assetid: 3e6857f9-62a0-420b-8f1d-8aad685a7ff7
 title: Msvm_ResourcePoolConfigurationCapabilities class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

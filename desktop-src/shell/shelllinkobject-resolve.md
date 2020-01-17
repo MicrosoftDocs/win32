@@ -1,8 +1,8 @@
 ---
 Description: Looks for the target of a Shell link, even if the target has been moved or renamed.
 ms.assetid: 60e119be-8e45-4f63-a381-cad048de0765
-title: ShellLinkObject.Resolve method
-ms.topic: article
+title: ShellLinkObject.Resolve method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -122,7 +122,7 @@ Call the Windows Installer.
 
 ## Remarks
 
-This method is essentially identical in functionality to [**Resolve**](https://msdn.microsoft.com/en-us/library/Bb774952(v=VS.85).aspx). For further discussion of link resolution, see the Remarks section of that page.
+This method is essentially identical in functionality to [**Resolve**](https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx). For further discussion of link resolution, see the Remarks section of that page.
 
 ## Examples
 

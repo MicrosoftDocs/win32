@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the user draws a new IInkStrokeDisp object on any IInkTablet object.
 ms.assetid: fac5104d-d0da-40b1-a4a6-00a34718d09f
-title: InkEdit.Stroke event
-ms.topic: article
+title: InkEdit.Stroke event (Inked.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ If this event succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 ## Remarks
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeStroke.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeStroke.
 
 ## Requirements
 

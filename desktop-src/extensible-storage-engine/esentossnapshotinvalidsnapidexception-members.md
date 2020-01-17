@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSnapIdException members (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSnapIdException members
 TOCTitle: EsentOSSnapshotInvalidSnapIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsnapidexception_members(v=EXCHG.10)

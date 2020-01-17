@@ -3,7 +3,7 @@ Description: The CounterType qualifier contains the integer value for the proper
 ms.assetid: aa79fcdb-503f-4928-b2b7-f07baeaf9fb5
 ms.tgt_platform: multiple
 title: CounterType Qualifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

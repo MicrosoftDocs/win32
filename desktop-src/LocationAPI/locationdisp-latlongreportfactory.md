@@ -2,7 +2,7 @@
 Description: Manages latitude/longitude reports.
 ms.assetid: 66025874-32dd-4494-a9ad-12fe3afa60f9
 title: LocationDisp.LatLongReportFactory object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ The **LocationDisp.LatLongReportFactory** object has these methods.
 |:---------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
 | [**ListenForReports**](locationdisp-latlongreportfactory-listenforreports.md)               | Requests latitude/longitude report events.<br/>                                         |
 | [**RequestPermissions**](locationdisp-latlongreportfactory-requestpermissions.md)           | Opens a system dialog box to request user permission for location-enabled devices.<br/> |
-| [**StopListeningForReports**](https://msdn.microsoft.com/en-us/library/Dd317718(v=VS.85).aspx) | Cancels requests for latitude/longitude report events.<br/>                             |
+| [**StopListeningForReports**](https://msdn.microsoft.com/library/Dd317718(v=VS.85).aspx) | Cancels requests for latitude/longitude report events.<br/>                             |
 
 
 

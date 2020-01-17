@@ -1,5 +1,5 @@
 ---
-title: TTM_SETTIPTEXTCOLOR message
+title: TTM_SETTIPTEXTCOLOR message (Commctrl.h)
 description: Sets the text color in a tooltip window.
 ms.assetid: a6c6eb31-e6c4-47e2-b112-48e7cd21b778
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

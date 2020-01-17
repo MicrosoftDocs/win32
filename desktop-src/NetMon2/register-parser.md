@@ -1,8 +1,8 @@
 ---
 Description: The Register export function must be implemented in all parser DLLs. The implementation of Register creates and fills-in a property database for a protocol. Network Monitor uses the database to determine which properties the protocol supports.
 ms.assetid: b8a2752d-30a6-48f2-90b3-b1430ae983d2
-title: Register Parser callback function
-ms.topic: article
+title: Register Parser callback function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -51,7 +51,7 @@ Network Monitor starts calling the **Register** function as soon as a capture is
 
 The implementation of **Register** includes calls to the following functions.
 
--   A call to the [CreatePropertyDatabase](createpropertydatabase.md) and [AddProperty](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx) functions to create a database of all the properties that the protocol supports.
+-   A call to the [CreatePropertyDatabase](createpropertydatabase.md) and [AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx) functions to create a database of all the properties that the protocol supports.
 -   A call to the [CreateHandoffTable](createhandofftable.md) function is required if the protocol uses a [*handoff set*](h.md).
 
 If the parser DLL contains multiple parsers, and the parser can detect more than one protocol, you must implement a **Register** function for each protocol.
@@ -84,7 +84,7 @@ If the parser DLL contains multiple parsers, and the parser can detect more than
 
 <dl> <dt>
 
-[AddProperty](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx)
+[AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx)
 </dt> <dt>
 
 [CreateHandoffTable](createhandofftable.md)

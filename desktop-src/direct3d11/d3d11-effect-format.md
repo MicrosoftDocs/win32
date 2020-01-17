@@ -2,7 +2,7 @@
 title: Effect Format (Direct3D 11)
 ms.assetid: c425f57b-fc14-46a5-bb65-a0a2305bd406
 description: 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

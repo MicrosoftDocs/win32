@@ -2,7 +2,7 @@
 Description: Proxy function for the CreateDecoderFromFilename method.
 ms.assetid: 12c60899-0fe0-47d0-9026-48c74df328ef
 title: IWICImagingFactory_CreateDecoderFromFilename_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -72,7 +72,7 @@ Type: **DWORD**
 
 The access to the object, which can be read, write, or both.
 
-For more information, see [File Security and Access Rights \[Files\]](https://msdn.microsoft.com/en-us/library/Aa364399(VS.85).aspx).
+For more information, see [File Security and Access Rights \[Files\]](https://msdn.microsoft.com/library/Aa364399(VS.85).aspx).
 
 </dd> <dt>
 

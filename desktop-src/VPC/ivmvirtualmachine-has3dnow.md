@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine Has3DNow property
+title: IVMVirtualMachine Has3DNow property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the 3DNow instruction set.
 ms.assetid: 525ee7f0-081c-4f87-b2b7-ffec09f632c4
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

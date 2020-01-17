@@ -2,7 +2,7 @@
 Description: Proxy function for the GetMetadataByName method.
 ms.assetid: 5685e282-637e-4db0-8654-fee12ae25112
 title: IWICMetadataQueryReader_GetMetadataByName_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ The name of the requested metadata item.
 *pvarValue* \[in, out\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx)\***
+Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx)\***
 
 Pointer that receives the metadata property.
 

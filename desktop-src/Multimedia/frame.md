@@ -1,5 +1,5 @@
 ---
-title: Frame
+title: Frame (Windows Multimedia)
 description: Frame
 ms.assetid: '9a48da30-8163-4399-abe3-3bf061eb4aaf'
 keywords:

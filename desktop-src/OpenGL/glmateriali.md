@@ -1,5 +1,5 @@
 ---
-title: glMateriali function
+title: glMateriali function (Gl.h)
 description: TheglMateriali function specifies material parameters for the lighting model.
 ms.assetid: e3722dfd-3bdd-4460-8226-e50580ca1d79
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

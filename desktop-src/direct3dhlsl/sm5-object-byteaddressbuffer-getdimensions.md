@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: ByteAddressBuffer::GetDimensions function
 description: Gets the length of the buffer.
 ms.assetid: 32099118-8d8a-440e-96ba-2580d905f068
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

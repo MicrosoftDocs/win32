@@ -1,7 +1,7 @@
 ---
 Description: This section contains reference information for the API elements provided by Direct3D. Reference material is divided into the following categories.
 ms.assetid: d538abab-7fc9-4f29-b63a-1d84e060d403
-title: Direct3D Reference
+title: Direct3D Reference (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---

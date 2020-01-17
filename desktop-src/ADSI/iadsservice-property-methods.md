@@ -1,5 +1,5 @@
 ---
-title: IADsService Property Methods
+title: IADsService Property Methods (Iads.h)
 description: Read and write the properties described in this topic.
 ms.assetid: ff05ab0c-b4fe-4c67-8894-9ac8427ce5b8
 ms.tgt_platform: multiple
@@ -49,7 +49,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

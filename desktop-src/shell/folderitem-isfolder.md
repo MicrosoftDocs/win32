@@ -1,8 +1,8 @@
 ---
 Description: Indicates if the item is a folder.
 ms.assetid: fb080c8f-04b1-4f9a-9219-0951a2e950ea
-title: FolderItem.IsFolder property
-ms.topic: article
+title: FolderItem.IsFolder property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

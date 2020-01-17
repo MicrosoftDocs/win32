@@ -1,5 +1,5 @@
 ---
-title: EsentUpdateMustVersionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentUpdateMustVersionException properties
 TOCTitle: EsentUpdateMustVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatemustversionexception_properties(v=EXCHG.10)

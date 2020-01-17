@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixCancelableRequest interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5463ADDD-6FE8-428C-A348-3811C6E97E39
 api_name: 

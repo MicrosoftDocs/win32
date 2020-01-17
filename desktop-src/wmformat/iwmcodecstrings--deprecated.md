@@ -1,5 +1,5 @@
 ---
-title: IWMCodecStrings
+title: IWMCodecStrings (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 2e537799-27f5-437c-9e41-c2d2055b2971
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

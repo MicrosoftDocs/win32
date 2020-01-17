@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the transform associated with a topology node supports DirectX Video Acceleration (DXVA).
 ms.assetid: b9e393be-0bc0-4cf6-be44-e9e95339c434
-title: MF_TOPONODE_D3DAWARE attribute
-ms.topic: article
+title: MF_TOPONODE_D3DAWARE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

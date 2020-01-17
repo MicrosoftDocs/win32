@@ -1,5 +1,5 @@
 ---
-title: IDCompositionLinearTransferEffect setgreenyintercept methods
+title: IDCompositionLinearTransferEffect setgreenyintercept methods (Dcomp.h)
 description: Sets the Y-intercept of the linear function for the green channel.
 ms.assetid: 1aa4c933-ee49-2772-9a7e-b120b5bdd331
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionLinearTransferEffect::setgreenyintercept methods
@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the green channel.
 
 | Method                                                                                                           | Description                                                                   |
 |:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**SetGreenYIntercept**](https://msdn.microsoft.com/en-us/library/Dn919756(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the green channel.<br/> |
-| [**SetGreenYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919757(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the green channel.<br/> |
+| [**SetGreenYIntercept**](https://msdn.microsoft.com/library/Dn919756(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the green channel.<br/> |
+| [**SetGreenYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919757(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the green channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the Y-intercept of the linear function for the green channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,5 +1,5 @@
 ﻿---
-title: JET_BKINFO operators (Microsoft.Isam.Esent.Interop)
+title: JET_BKINFO operators
 TOCTitle: JET_BKINFO operators
 ms:assetid: cb271c1b-2cef-aa6f-1676-2fb33a236ba4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh596325(v=EXCHG.10)

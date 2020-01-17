@@ -1,5 +1,5 @@
 ---
-title: IResultsViewer FilterType property
+title: IResultsViewer FilterType property (WdsView.h)
 description: This property will set or return the name of the preceived type to filter results by.
 ms.assetid: 025955eb-3e44-4e26-8b5f-ae92eb4c8300
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - WdsView.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

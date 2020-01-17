@@ -3,7 +3,7 @@ Description: Gets the security descriptor that controls who is allowed to start 
 ms.assetid: ba02807f-aa2a-4b1c-9692-2803d93cd2ee
 ms.tgt_platform: multiple
 title: GetLaunchSecurityDescriptor method of the Win32_DCOMApplicationSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

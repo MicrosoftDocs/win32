@@ -3,7 +3,7 @@ Description: The CIM\_ProductProductDependency class represents an association b
 ms.assetid: 898b9993-3bdc-4a7c-98c1-ed960014ace8
 ms.tgt_platform: multiple
 title: CIM_ProductProductDependency class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

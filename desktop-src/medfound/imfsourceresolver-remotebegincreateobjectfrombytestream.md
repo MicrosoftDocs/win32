@@ -1,8 +1,8 @@
 ---
 Description: Remotable version of the IMFSourceResolver::BeginCreateObjectFromByteStream method.
 ms.assetid: 960b5c51-b9b1-4956-a270-abfb7eedd482
-title: RemoteBeginCreateObjectFromByteStream
-ms.topic: article
+title: RemoteBeginCreateObjectFromByteStream (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

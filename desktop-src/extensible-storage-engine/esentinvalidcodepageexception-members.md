@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCodePageException members (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCodePageException members
 TOCTitle: EsentInvalidCodePageException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcodepageexception_members(v=EXCHG.10)

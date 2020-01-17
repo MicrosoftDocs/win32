@@ -1,5 +1,5 @@
 ﻿---
-title: Binding in DirectML
+title: Using strides to express padding and memory layout
 description: DirectML tensors are described by properties known as the *sizes* and the *strides* of the tensor.
 ms.custom: Windows 10 May 2019 Update
 ms.localizationpriority: high

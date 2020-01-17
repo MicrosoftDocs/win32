@@ -1,8 +1,8 @@
 ---
 Description: Checks cube-texture-creation parameters.
 ms.assetid: 56ced947-1142-4d05-95e3-ca6a26b147d4
-title: D3DXCheckCubeTextureRequirements function
-ms.topic: article
+title: D3DXCheckCubeTextureRequirements function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -52,7 +52,7 @@ Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336
 *pSize* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the requested width and height in pixels, or **NULL**. Returns the corrected size.
 
@@ -61,7 +61,7 @@ Pointer to the requested width and height in pixels, or **NULL**. Returns the co
 *pNumMipLevels* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the number of requested mipmap levels, or **NULL**. Returns the corrected number of mipmap levels.
 
@@ -70,7 +70,7 @@ Pointer to the number of requested mipmap levels, or **NULL**. Returns the corre
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 0 or D3DUSAGE\_RENDERTARGET. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](/windows/desktop/api) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx).
 
@@ -88,15 +88,15 @@ Pointer to a member of the [D3DFORMAT](d3dformat.md) enumerated type. Specifies 
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the texture should be placed.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the texture should be placed.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_NOTAVAILABLE, D3DERR\_INVALIDCALL.
 

@@ -3,7 +3,7 @@ Description: The CIM\_ElementCapacity class associates a CIM\_PhysicalCapacity o
 ms.assetid: 368c31e8-d56b-4b90-ba3f-20d9b0de8730
 ms.tgt_platform: multiple
 title: CIM_ElementCapacity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the number of children in this file data object.
 ms.assetid: ebc6905b-a453-4a15-adae-956ce7034084
-title: ID3DXFileData::GetChildren method
-ms.topic: article
+title: ID3DXFileData::GetChildren method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT GetChildren(
 *puiChildren* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Address of a pointer to receive the number of children in this file data object.
 
@@ -46,7 +46,7 @@ Address of a pointer to receive the number of children in this file data object.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DXFERR\_BADVALUE.
 

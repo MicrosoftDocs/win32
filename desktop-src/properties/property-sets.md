@@ -1,7 +1,7 @@
 ---
 Description: This section describes the Windows Property System property sets.
 ms.assetid: 2F7D9001-8ECE-43B2-8CAA-007254038554
-title: Property Sets
+title: Property Sets (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -14,7 +14,7 @@ This section describes the Windows Property System property sets.
 
 | Topic                                                               | Contents                                                                                                |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [DBPROPSET\_CIFRMWRKCORE\_EXT](https://msdn.microsoft.com/en-us/library/ms690988(v=VS.85).aspx) | Contains system properties that define the machine name and client class identifier (CLSID).<br/> |
+| [DBPROPSET\_CIFRMWRKCORE\_EXT](https://msdn.microsoft.com/library/ms690988(v=VS.85).aspx) | Contains system properties that define the machine name and client class identifier (CLSID).<br/> |
 
 
 

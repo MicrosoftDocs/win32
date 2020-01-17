@@ -1,5 +1,5 @@
 ---
-title: Core Enumerations
+title: Direct3D 11 core enumerations
 description: This section contains information about the core enumerations.
 ms.assetid: 1641713a-5ac8-4597-900b-1bba54f9f522
 keywords:
@@ -8,15 +8,11 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Core Enumerations
+# Direct3D 11 core enumerations
 
 This section contains information about the core enumerations.
 
-## 
-
 ## In this section
-
-
 
 <table>
 <colgroup>

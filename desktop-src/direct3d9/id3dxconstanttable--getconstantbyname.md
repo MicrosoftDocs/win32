@@ -1,8 +1,8 @@
 ---
 Description: Gets a constant by looking up its name.
 ms.assetid: 785a2d4f-6391-4419-a0b8-d8244a03ceae
-title: ID3DXConstantTable::GetConstantByName method
-ms.topic: article
+title: ID3DXConstantTable::GetConstantByName method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Unique identifier to the parent data structure. If the constant is a top-level p
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Name of the constant.
 

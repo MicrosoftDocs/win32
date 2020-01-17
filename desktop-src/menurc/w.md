@@ -1,7 +1,7 @@
 ---
-title: W
+title: W (Menus and Other Resources)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '304a2e00-b21b-4813-b38f-914eb4df2c3c'
 ms.topic: article
 ms.date: 05/31/2018

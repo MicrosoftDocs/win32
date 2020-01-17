@@ -1,8 +1,8 @@
 ---
 Description: Windows Image Acquisition (WIA) 2.0 items are grouped into categories that define how a IWiaItem2 is to be treated or used.
 ms.assetid: 927f4957-aedf-4eef-8892-91cf9b56e1a2
-title: WIA 2.0 Item Category GUIDs
-ms.topic: article
+title: WIA 2.0 Item Category GUIDs (Wiadef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

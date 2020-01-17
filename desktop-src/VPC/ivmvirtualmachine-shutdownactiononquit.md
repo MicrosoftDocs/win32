@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine ShutdownActionOnQuit property
+title: IVMVirtualMachine ShutdownActionOnQuit property (VPCCOMInterfaces.h)
 description: Action to be performed on this virtual machine if it is running when Windows Virtual PC is quit.
 ms.assetid: 3f6b256e-c48a-4a7c-acee-83d996e13ec7
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

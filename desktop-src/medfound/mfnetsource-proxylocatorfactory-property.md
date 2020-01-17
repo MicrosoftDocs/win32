@@ -1,8 +1,8 @@
 ---
 Description: Contains a pointer to the IMFNetProxyLocatorFactory interface.
 ms.assetid: 455325c0-5116-4e81-9729-fab9c6a367c7
-title: MFNETSOURCE_PROXYLOCATORFACTORY property
-ms.topic: article
+title: MFNETSOURCE_PROXYLOCATORFACTORY property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

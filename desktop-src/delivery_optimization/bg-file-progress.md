@@ -1,5 +1,5 @@
 ---
-title: BG_FILE_PROGRESS structure
+title: BG_FILE_PROGRESS structure (Deliveryoptimization.h)
 description: The BG_FILE_PROGRESS structure provides file-related progress information, such as the number of bytes transferred.
 ms.assetid: 49BDFEEE-D7BF-489A-8BC1-951549B06252
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

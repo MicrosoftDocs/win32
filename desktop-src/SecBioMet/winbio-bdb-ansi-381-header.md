@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BDB_ANSI_381_HEADER structure
+title: WINBIO_BDB_ANSI_381_HEADER structure (Winbio\_types.h)
 description: Specifies information about a series of fingerprint or palm samples.
 ms.assetid: 8b0caa50-9bba-45c4-b4bf-514540894793
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

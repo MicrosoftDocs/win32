@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS OSName property
+title: IVMGuestOS OSName property (VPCCOMInterfaces.h)
 description: The name of the guest operating system running in the virtual machine.
 ms.assetid: 6381fc15-a6ab-429b-809d-7f89e7ec666d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

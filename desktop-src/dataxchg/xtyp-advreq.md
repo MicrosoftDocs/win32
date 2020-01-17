@@ -1,5 +1,5 @@
 ---
-title: XTYP_ADVREQ transaction
+title: XTYP_ADVREQ transaction (Ddeml.h)
 description: The XTYP\_ADVREQ transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed.
 ms.assetid: 9bd43e61-cbd6-4d53-bab3-90e85819b16b
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_ADVREQ transaction
 
-The **XTYP\_ADVREQ** transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed. The system sends this transaction to the Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), after the server calls the [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) function.
+The **XTYP\_ADVREQ** transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed. The system sends this transaction to the Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), after the server calls the [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) function.
 
 
 ```C++

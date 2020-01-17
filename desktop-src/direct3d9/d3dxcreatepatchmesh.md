@@ -1,8 +1,8 @@
 ---
 Description: Creates a mesh from a control-patch mesh.
 ms.assetid: 50e4f7aa-a6b8-4a2b-9813-a9448f408d06
-title: D3DXCreatePatchMesh function
-ms.topic: article
+title: D3DXCreatePatchMesh function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -53,7 +53,7 @@ Patch information structure. For more information, see [**D3DXPATCHINFO**](d3dxp
 *dwNumPatches* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of patches.
 
@@ -62,7 +62,7 @@ Number of patches.
 *dwNumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of control vertices in the patch.
 
@@ -71,7 +71,7 @@ Number of control vertices in the patch.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Unused. Reserved for later use.
 
@@ -106,7 +106,7 @@ Pointer to the [**ID3DXPatchMesh**](id3dxpatchmesh.md) object that is created.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

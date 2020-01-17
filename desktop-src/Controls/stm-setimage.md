@@ -1,5 +1,5 @@
 ---
-title: STM_SETIMAGE message
+title: STM_SETIMAGE message (Winuser.h)
 description: An application sends an STM\_SETIMAGE message to associate a new image with a static control.
 ms.assetid: d3e7c5d4-f621-40f6-9558-7fb699e8b489
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

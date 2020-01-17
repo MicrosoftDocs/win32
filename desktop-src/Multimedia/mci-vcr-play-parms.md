@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_PLAY_PARMS structure
+title: MCI_VCR_PLAY_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_PLAY\_PARMS structure contains parameters for the MCI\_PLAY command for video-cassette recorders.
 ms.assetid: e180c203-3113-4fdb-bcf1-ea3e45e646e2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -70,7 +70,7 @@ Time value that affects the [**MCI\_PLAY**](mci-play.md) or [**MCI\_CUE**](mci-c
 
 Positions are specified in the current time format.
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -100,7 +100,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_PLAY**](mci-play.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

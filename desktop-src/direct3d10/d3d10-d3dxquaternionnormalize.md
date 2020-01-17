@@ -1,8 +1,8 @@
 ---
 Description: Computes a unit length quaternion.
 ms.assetid: 6735a632-64d7-4bc1-b63e-d0cd27f5a29b
-title: D3DXQuaternionNormalize function
-ms.topic: article
+title: D3DXQuaternionNormalize function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ D3DXQUATERNION* D3DXQuaternionNormalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -48,7 +48,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the source D3DXQUATERNION structure.
 
@@ -56,7 +56,7 @@ Pointer to the source D3DXQUATERNION structure.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a D3DXQUATERNION structure that is the normal of the quaternion.
 

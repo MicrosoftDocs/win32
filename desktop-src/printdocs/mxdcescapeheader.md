@@ -1,8 +1,8 @@
 ---
 Description: The MXDC\_ESCAPE\_HEADER\_T structure holds the operation code for a call to ExtEscape with MXDC\_ESCAPE as the nEscape parameter. It also provides the sizes of the input and output buffers.
 ms.assetid: 3d1f909c-0c3c-49ac-b530-4ce077ad6d94
-title: MXDC_ESCAPE_HEADER_T structure
-ms.topic: structure
+title: MXDC_ESCAPE_HEADER_T structure (Mxdc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -75,7 +75,7 @@ The code constant that tells MXDC what to do.
 
 ## Remarks
 
-Before calling [**MXDC\_ESCAPE**](mxdc-escape.md),\_applications should first verify that the driver is MXDC by calling [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/en-us/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC the function returns the zero-terminated string "https://schemas.microsoft.com/xps/2005/06".
+Before calling [**MXDC\_ESCAPE**](mxdc-escape.md),\_applications should first verify that the driver is MXDC by calling [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC the function returns the zero-terminated string "https://schemas.microsoft.com/xps/2005/06".
 
 This structure is always at the beginning of the data passed to the [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) function in its *lpszInData* parameter.
 
@@ -136,7 +136,7 @@ When **opCode** is MXDCOP\_SET\_XPSPASSTHRU\_MODE:
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/en-us/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)

@@ -1,5 +1,5 @@
 ---
-title: BG_JOB_TYPE enumeration
+title: BG_JOB_TYPE enumeration (Deliveryoptimization.h)
 description: The BG_JOB_TYPE enumeration defines constant values that specify the type of transfer job, such as download.
 ms.assetid: 696A43C3-1FA2-436D-B34A-3544E7C9A66A
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

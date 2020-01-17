@@ -1,5 +1,5 @@
 ﻿---
-title: Api.DeserializeObjectFromColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.DeserializeObjectFromColumn method 
 TOCTitle: 'DeserializeObjectFromColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.DeserializeObjectFromColumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.deserializeobjectfromcolumn(v=EXCHG.10)

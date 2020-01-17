@@ -1,5 +1,5 @@
 ---
-title: SampleBias(S,float,float,int,float) function
+title: SampleBias::SampleBias(S,float,float,int,float) function
 description: Samples a Texture2D, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to.
 ms.assetid: 4E4A1188-DE45-4A43-B54D-4CA2E66707E3
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - SampleBias
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

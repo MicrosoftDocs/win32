@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Registering for Application Restart
 
-To register your application to be restarted, call the [**RegisterApplicationRestart**](https://msdn.microsoft.com/en-us/library/Aa373347(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) will restart your application if it has been running for at least 60 seconds before becoming unresponsive or encountering an unhandled exception.
+To register your application to be restarted, call the [**RegisterApplicationRestart**](https://msdn.microsoft.com/library/Aa373347(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) will restart your application if it has been running for at least 60 seconds before becoming unresponsive or encountering an unhandled exception.
 
 You should consider also [registering for recovery](registering-for-application-recovery.md), which lets you save data and state information that may be helpful when WER restarts your application. WER will restart the application after the recovery process completes, if you also register for recovery.
 

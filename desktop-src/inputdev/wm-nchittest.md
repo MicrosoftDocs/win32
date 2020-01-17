@@ -1,5 +1,5 @@
 ---
-title: WM_NCHITTEST message
+title: WM_NCHITTEST message (Winuser.h)
 description: Sent to a window in order to determine what part of the window corresponds to a particular screen coordinate.
 ms.assetid: 4c860466-a9f8-4af8-96b9-cee005481875
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

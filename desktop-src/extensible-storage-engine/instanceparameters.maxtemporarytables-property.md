@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.MaxTemporaryTables property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.MaxTemporaryTables property 
 TOCTitle: 'MaxTemporaryTables property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxTemporaryTables
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.maxtemporarytables(v=EXCHG.10)
 ms:contentKeyID: 55103560
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.MaxTemporaryTables
 dev_langs:

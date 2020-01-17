@@ -2,13 +2,13 @@
 Description: The XMFLOAT3 structure exposes the following operators.
 ms.assetid: dc98a2ed-da87-4ba3-8394-682143b378b8
 title: XMFLOAT3 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XMFLOAT3 Operators
 
-The [**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx) structure exposes the following operators.
+The [**XMFLOAT3**](https://msdn.microsoft.com/library/Ee419475(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).as
 
 | Methods                                               | Description                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee419607(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMFLOAT3` to the current instance of `XMFLOAT3`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Ee419607(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMFLOAT3` to the current instance of `XMFLOAT3`. <br/> |
 
 
 
@@ -37,7 +37,7 @@ The [**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).as
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx)
+[**XMFLOAT3**](https://msdn.microsoft.com/library/Ee419475(v=VS.85).aspx)
 </dt> </dl>
 
  

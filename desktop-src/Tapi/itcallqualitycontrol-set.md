@@ -1,8 +1,8 @@
 ---
 Description: The Set method sets the value of a given call quality control property.
 ms.assetid: e83ed9d7-0a53-4555-ae44-737ab3dfb749
-title: ITCallQualityControl::Set method
-ms.topic: article
+title: ITCallQualityControl::Set method (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

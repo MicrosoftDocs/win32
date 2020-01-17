@@ -1,8 +1,8 @@
 ---
 Description: Used by applications to display a device dialog box to the user.
 ms.assetid: 3b486220-32ab-4d6c-872c-684f9d1ee660
-title: DeviceDialog function
-ms.topic: article
+title: DeviceDialog function (Wiadevd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

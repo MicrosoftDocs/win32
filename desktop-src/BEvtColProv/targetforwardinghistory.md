@@ -3,7 +3,7 @@ Description: The recent history of changes to the forwarding data for a target c
 ms.assetid: 621e2734-fc75-4e7a-9fae-de3d1b0272ae
 ms.tgt_platform: multiple
 title: TargetForwardingHistory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

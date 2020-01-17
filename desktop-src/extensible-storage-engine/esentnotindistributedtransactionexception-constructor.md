@@ -1,11 +1,11 @@
 ---
-title: EsentNotInDistributedTransactionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentNotInDistributedTransactionException constructor 
 TOCTitle: 'EsentNotInDistributedTransactionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnotindistributedtransactionexception.esentnotindistributedtransactionexception(v=EXCHG.10)
 ms:contentKeyID: 55102296
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException.EsentNotInDistributedTransactionException
 dev_langs:

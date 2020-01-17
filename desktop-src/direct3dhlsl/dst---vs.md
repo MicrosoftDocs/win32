@@ -2,10 +2,10 @@
 title: dst - vs
 description: Calculates a distance vector.
 ms.assetid: 4315a29f-58e7-427f-aaa0-1fe1a81eb392
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

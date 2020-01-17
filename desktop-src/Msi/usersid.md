@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # UserSID property
 
-The installer sets the value of the **UserSID** property to the string representation of the security identifier (SID) of the user running the installation. For more information, see [Authorization Structures](https://msdn.microsoft.com/en-us/library/Aa375780(v=VS.85).aspx).
+The installer sets the value of the **UserSID** property to the string representation of the security identifier (SID) of the user running the installation. For more information, see [Authorization Structures](https://msdn.microsoft.com/library/Aa375780(v=VS.85).aspx).
 
 ## Default Value
 

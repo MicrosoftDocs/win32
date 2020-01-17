@@ -1,5 +1,5 @@
 ---
-title: MPCOMPONENT_ID enumeration
+title: MPCOMPONENT_ID enumeration (MpClient.h)
 description: Possible components for the malware protection manager.
 ms.assetid: 014B400A-880B-419D-9F50-F3354CE945D9
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: JET_TABLECREATE.ContentEquals method  (Microsoft.Isam.Esent.Interop)
+title: JET_TABLECREATE.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ContentEquals(Microsoft.Isam.Esent.Interop.JET_TABLECREATE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.contentequals(v=EXCHG.10)
 ms:contentKeyID: 55103993
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ContentEquals
 dev_langs:

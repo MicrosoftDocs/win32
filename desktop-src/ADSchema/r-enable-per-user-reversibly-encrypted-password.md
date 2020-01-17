@@ -11,7 +11,7 @@ api_name:
 - Enable-Per-User-Reversibly-Encrypted-Password
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

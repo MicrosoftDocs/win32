@@ -32,7 +32,7 @@ The following functions support the Wi-Fi Direct feature.
 
 For more information on using Wi-Fi Direct in a desktop app, see [Using the Wi-Fi Direct functions](using-the-wi-fi-direct-api.md).
 
-For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerFinder**](https://msdn.microsoft.com/en-us/library/BR241203(v=Win.10).aspx) and related classes in the [**Windows.Networking.Proximity**](https://msdn.microsoft.com/en-us/library/BR241250(v=Win.10).aspx) namespace.
+For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerFinder**](https://msdn.microsoft.com/library/BR241203(v=Win.10).aspx) and related classes in the [**Windows.Networking.Proximity**](https://msdn.microsoft.com/library/BR241250(v=Win.10).aspx) namespace.
 
 ## Related topics
 
@@ -56,7 +56,7 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 **Reference**
 </dt> <dt>
 
-[**PeerFinder**](https://msdn.microsoft.com/en-us/library/BR241203(v=Win.10).aspx)
+[**PeerFinder**](https://msdn.microsoft.com/library/BR241203(v=Win.10).aspx)
 </dt> <dt>
 
 [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback)
@@ -83,7 +83,7 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 [**WFDUpdateDeviceVisibility**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility)
 </dt> <dt>
 
-[**Windows.Networking.Proximity**](https://msdn.microsoft.com/en-us/library/BR241250(v=Win.10).aspx)
+[**Windows.Networking.Proximity**](https://msdn.microsoft.com/library/BR241250(v=Win.10).aspx)
 </dt> </dl>
 
  

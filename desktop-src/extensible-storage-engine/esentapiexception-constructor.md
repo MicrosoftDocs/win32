@@ -1,5 +1,5 @@
 ﻿---
-title: EsentApiException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentApiException constructor 
 TOCTitle: 'EsentApiException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentApiException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentapiexception.esentapiexception(v=EXCHG.10)

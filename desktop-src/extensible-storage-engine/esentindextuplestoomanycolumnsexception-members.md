@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesTooManyColumnsException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesTooManyColumnsException members
 TOCTitle: EsentIndexTuplesTooManyColumnsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextuplestoomanycolumnsexception_members(v=EXCHG.10)

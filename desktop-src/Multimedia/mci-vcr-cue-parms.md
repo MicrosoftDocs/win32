@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_CUE_PARMS structure
+title: MCI_VCR_CUE_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_CUE\_PARMS structure contains parameters for the MCI\_CUE command for video-cassette recorders.
 ms.assetid: b2ac0c43-93ea-41c9-b886-542bda57b59e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ Position to cue to.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_CUE**](mci-cue.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

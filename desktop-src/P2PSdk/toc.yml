@@ -440,7 +440,7 @@
           href: distributed-routing-table-enumerations.md
           items: 
           - name: "DRT_ADDRESS_FLAGS"
-            href: /windows/desktop/api/drt/ne-drt-_drt_address_flags
+            href: /windows/win32/api/drt/ne-drt-drt_address_flags
           - name: "DRT_EVENT_TYPE"
             href: /windows/desktop/api/drt/ne-drt-drt_event_type_tag
           - name: "DRT_LEAFSET_KEY_CHANGE_TYPE"
@@ -448,7 +448,7 @@
           - name: "DRT_MATCH_TYPE"
             href: /windows/desktop/api/drt/ne-drt-drt_match_type_tag
           - name: "DRT_REGISTRATION_STATE"
-            href: /windows/desktop/api/drt/ne-drt-_drt_registration_state
+            href: /windows/win32/api/drt/ne-drt-drt_registration_state
           - name: "DRT_SCOPE"
             href: /windows/desktop/api/drt/ne-drt-drt_scope_tag
           - name: "DRT_SECURITY_MODE"
@@ -459,11 +459,11 @@
           href: distributed-routing-table-structures.md
           items: 
           - name: "DRT_ADDRESS"
-            href: /windows/desktop/api/drt/ns-drt-_drt_address
+            href: /windows/win32/api/drt/ns-drt-drt_address
           - name: "DRT_BOOTSTRAP_PROVIDER"
             href: /windows/desktop/api/drt/ns-drt-drt_bootstrap_provider_tag
           - name: "DRT_ADDRESS_LIST"
-            href: /windows/desktop/api/drt/ns-drt-_drt_address_list
+            href: /windows/win32/api/drt/ns-drt-drt_address_list
           - name: "DRT_DATA"
             href: /windows/desktop/api/drt/ns-drt-drt_data_tag
           - name: "DRT_EVENT_DATA"
@@ -605,24 +605,24 @@
           - name: "PNRP and WSAQUERYSET"
             href: pnrp-and-wsaqueryset.md
           - name: "PNRP_CLOUD_ID"
-            href: /windows/desktop/api/Pnrpdef/ns-pnrpdef-_pnrp_cloud_id
+            href: /windows/win32/api/Pnrpdef/ns-pnrpdef-pnrp_cloud_id
           - name: "PNRP and BLOB"
             href: pnrp-and-blob.md
           - name: "PNRPCLOUDINFO"
-            href: /windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpcloudinfo
+            href: /windows/win32/api/Pnrpns/ns-pnrpns-pnrpcloudinfo
           - name: "PNRPINFO_V1"
-            href: /windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1
+            href: /windows/win32/api/Pnrpns/ns-pnrpns-pnrpinfo_v1
           - name: "PNRPINFO_V2"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)
         - name: "PNRP Constants"
           href: pnrp-constants.md
           items: 
           - name: "PNRP_CLOUD_FLAGS"
-            href: /windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_flags
+            href: /windows/win32/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_flags
           - name: "PNRP_CLOUD_STATE"
-            href: /windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_cloud_state
+            href: /windows/win32/api/Pnrpdef/ne-pnrpdef-pnrp_cloud_state
           - name: "PNRP_RESOLVE_CRITERIA"
-            href: /windows/desktop/api/Pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria
+            href: /windows/win32/api/Pnrpdef/ne-pnrpdef-pnrp_resolve_criteria
         - name: "Winsock NSP Reference Links"
           href: winsock-nsp-reference-links.md
         - name: "PNRP NSP Error Codes"
@@ -812,14 +812,14 @@
         href: peer-distribution-api-enumerations.md
         items: 
         - name: "PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS"
-          href: /windows/desktop/api/peerdist/ne-peerdist-_peerdist_client_info_by_handle_class
+          href: /windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class
         - name: "PEERDIST_STATUS"
           href: /windows/desktop/api/peerdist/ne-peerdist-peerdist_status
       - name: "Peer Distribution API Structures"
         href: peer-distribution-api-structures.md
         items: 
         - name: "PEERDIST_CLIENT_BASIC_INFO"
-          href: /windows/desktop/api/peerdist/ns-peerdist-_peerdist_client_basic_info
+          href: /windows/win32/api/peerdist/ns-peerdist-peerdist_client_basic_info
         - name: "PEERDIST_CONTENT_TAG"
           href: /windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag
         - name: "PEERDIST_PUBLICATION_OPTIONS"

@@ -1,5 +1,5 @@
 ---
-title: MPSIGUPDATE_DATA structure
+title: MPSIGUPDATE_DATA structure (MpClient.h)
 description: Notification data passed to the signature update callback function.
 ms.assetid: E999ABC2-CC72-43CC-86D9-4F29E9128E1A
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

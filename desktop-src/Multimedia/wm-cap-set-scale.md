@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_SCALE message
+title: WM_CAP_SET_SCALE message (Vfw.h)
 description: The WM\_CAP\_SET\_SCALE message enables or disables scaling of the preview video images.
 ms.assetid: f15f1d18-2c5a-40c1-baa1-0d18549bee23
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

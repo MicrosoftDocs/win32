@@ -1,11 +1,11 @@
 ---
-title: EsentInvalidFilenameException class (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidFilenameException class
 TOCTitle: EsentInvalidFilenameException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidfilenameexception(v=EXCHG.10)
 ms:contentKeyID: 55101955
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException
 dev_langs:

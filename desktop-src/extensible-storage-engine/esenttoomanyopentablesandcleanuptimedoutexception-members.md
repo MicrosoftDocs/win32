@@ -1,5 +1,5 @@
 ---
-title: EsentTooManyOpenTablesAndCleanupTimedOutException members (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyOpenTablesAndCleanupTimedOutException members
 TOCTitle: EsentTooManyOpenTablesAndCleanupTimedOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyopentablesandcleanuptimedoutexception_members(v=EXCHG.10)

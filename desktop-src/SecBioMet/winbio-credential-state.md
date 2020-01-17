@@ -1,5 +1,5 @@
 ---
-title: WINBIO_CREDENTIAL_STATE enumeration
+title: WINBIO_CREDENTIAL_STATE enumeration (Winbio\_types.h)
 description: Defines values that specify whether a credential has been associated with the biometric data for an end user.
 ms.assetid: c24f1771-7a1f-403e-8100-dfb3f4cd77a1
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

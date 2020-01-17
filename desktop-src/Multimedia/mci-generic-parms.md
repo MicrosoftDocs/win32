@@ -1,5 +1,5 @@
 ---
-title: MCI_GENERIC_PARMS structure
+title: MCI_GENERIC_PARMS structure (Mciapi.h)
 description: The MCI\_GENERIC\_PARMS structure contains the handle of the window that receives notification messages. This structure is used for MCI command messages that have empty parameter lists.
 ms.assetid: 706e406c-d263-4347-932c-e5f125acfe0f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ The low-order word specifies a window handle used for the MCI\_NOTIFY flag.
 
 The **MCI\_CLOSE\_PARMS** and **MCI\_REALIZE\_PARMS** structures are identical to the **MCI\_GENERIC\_PARMS** structure.
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -70,7 +70,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI Structures**](mci-structures.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

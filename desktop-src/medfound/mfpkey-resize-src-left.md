@@ -1,8 +1,8 @@
 ---
 Description: Specifies the left edge of the source rectangle, in pixels.
 ms.assetid: e7432b80-f3fa-4c2f-89db-87cd130d7447
-title: MFPKEY_RESIZE_SRC_LEFT Property
-ms.topic: article
+title: MFPKEY_RESIZE_SRC_LEFT Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the left edge of the source rectangle, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

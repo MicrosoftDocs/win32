@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineTrans interface provides methods for manipulating transitions in DirectShow Editing Services (DES).
 ms.assetid: e29ff0cc-0e48-4a72-8a1b-051ed62c8130
-title: IAMTimelineTrans interface
-ms.topic: interface
+title: IAMTimelineTrans interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -31,7 +31,7 @@ To create a transition object, call [**IAMTimeline::CreateEmptyNode**](iamtimeli
 
 ## Members
 
-The **IAMTimelineTrans** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineTrans** also has these types of members:
+The **IAMTimelineTrans** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineTrans** also has these types of members:
 
 -   [Methods](#methods)
 

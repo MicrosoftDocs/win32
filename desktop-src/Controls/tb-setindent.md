@@ -1,5 +1,5 @@
 ---
-title: TB_SETINDENT message
+title: TB_SETINDENT message (Commctrl.h)
 description: Sets the indentation for the first button in a toolbar control.
 ms.assetid: 2d57cd1f-2bfa-4c6e-9581-9e8ab4b8196d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

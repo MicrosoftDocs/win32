@@ -1,5 +1,5 @@
 ---
-title: EM_GETELLIPSISSTATE message
+title: EM_GETELLIPSISSTATE message (Richedit.h)
 description: Retrieves the current ellipsis state.
 ms.assetid: D02AE225-F5BF-401A-9877-55C68946CDBE
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

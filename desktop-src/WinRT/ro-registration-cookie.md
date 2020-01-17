@@ -1,14 +1,14 @@
 ---
 Description: Represents activation factories that are registered by calling the RoRegisterActivationFactories function.
 ms.assetid: D74E5886-45DB-40DE-9740-D14341E78713
-title: RO_REGISTRATION_COOKIE
-ms.topic: article
+title: RO_REGISTRATION_COOKIE (Roapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # RO\_REGISTRATION\_COOKIE
 
-Represents activation factories that are registered by calling the [**RoRegisterActivationFactories**](https://msdn.microsoft.com/en-us/library/BR224653(v=VS.85).aspx) function.
+Represents activation factories that are registered by calling the [**RoRegisterActivationFactories**](https://msdn.microsoft.com/library/BR224653(v=VS.85).aspx) function.
 
 
 ```C++
@@ -19,7 +19,7 @@ typedef struct {}* RO_REGISTRATION_COOKIE;
 
 ## Remarks
 
-The [**RoRegisterActivationFactories**](https://msdn.microsoft.com/en-us/library/BR224653(v=VS.85).aspx) function returns a **RO\_REGISTRATION\_COOKIE** when a activatable class factories are registered with the Windows Runtime. The [**RoRevokeActivationFactories**](https://msdn.microsoft.com/en-us/library/BR224655(v=VS.85).aspx) function uses the cookie to remove the class factories.
+The [**RoRegisterActivationFactories**](https://msdn.microsoft.com/library/BR224653(v=VS.85).aspx) function returns a **RO\_REGISTRATION\_COOKIE** when a activatable class factories are registered with the Windows Runtime. The [**RoRevokeActivationFactories**](https://msdn.microsoft.com/library/BR224655(v=VS.85).aspx) function uses the cookie to remove the class factories.
 
 ## Requirements
 
@@ -37,10 +37,10 @@ The [**RoRegisterActivationFactories**](https://msdn.microsoft.com/en-us/library
 
 <dl> <dt>
 
-[**RoRegisterActivationFactories**](https://msdn.microsoft.com/en-us/library/BR224653(v=VS.85).aspx)
+[**RoRegisterActivationFactories**](https://msdn.microsoft.com/library/BR224653(v=VS.85).aspx)
 </dt> <dt>
 
-[**RoRevokeActivationFactories**](https://msdn.microsoft.com/en-us/library/BR224655(v=VS.85).aspx)
+[**RoRevokeActivationFactories**](https://msdn.microsoft.com/library/BR224655(v=VS.85).aspx)
 </dt> </dl>
 
  

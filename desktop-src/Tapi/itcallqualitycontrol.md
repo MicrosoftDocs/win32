@@ -1,8 +1,8 @@
 ---
 Description: The ITCallQualityControl interface exposes methods that allow an application to get and set parameters for call quality control.
 ms.assetid: 8d33e3b2-6af9-4c2d-bc65-905467f4fc6a
-title: ITCallQualityControl interface
-ms.topic: interface
+title: ITCallQualityControl interface (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

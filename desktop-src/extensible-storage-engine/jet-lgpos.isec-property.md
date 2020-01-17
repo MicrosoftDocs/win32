@@ -1,11 +1,11 @@
 ---
-title: JET_LGPOS.isec property  (Microsoft.Isam.Esent.Interop)
+title: JET_LGPOS.isec property 
 TOCTitle: 'isec property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.isec
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.isec(v=EXCHG.10)
 ms:contentKeyID: 39516463
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_LGPOS.isec
 dev_langs:

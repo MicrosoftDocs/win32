@@ -1,7 +1,7 @@
 ---
 Description: Publisher Configuration Files and Application Configuration Files enable assembly publishers, application publishers, and administrators to change side-by-side assembly dependencies after deployment.
 ms.assetid: 9b99c16d-c2fa-420a-a148-425287354854
-title: Configuration
+title: Configuration (Isolated Applications and Side-by-side Assemblies)
 ms.topic: article
 ms.date: 05/31/2018
 ---

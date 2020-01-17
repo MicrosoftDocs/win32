@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Speed Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Speed](https://msdn.microsoft.com/en-us/library/bb760582(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Speed](https://msdn.microsoft.com/library/bb760582(VS.85).aspx) property.
 
 ### PKEY
 
@@ -118,7 +118,7 @@ This value is generated from System.GPS.SpeedNumerator and System.GPS.SpeedDenom
 
 <dl> <dt>
 
-[System.GPS.Speed](https://msdn.microsoft.com/en-us/library/bb760582(VS.85).aspx)
+[System.GPS.Speed](https://msdn.microsoft.com/library/bb760582(VS.85).aspx)
 </dt> </dl>
 
  

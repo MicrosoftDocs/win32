@@ -1,5 +1,5 @@
 ---
-title: glNewList function
+title: glNewList function (Gl.h)
 description: The glNewList and glEndList functions create or replace a display list.
 ms.assetid: 9c6556d4-855f-4cba-94cc-27b5f1e4607a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

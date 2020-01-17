@@ -1,8 +1,8 @@
 ---
 Description: Returns a description of the original contents of an image file.
 ms.assetid: 40d89166-cc11-490d-867c-ae5db23a0784
-title: D3DX10_IMAGE_INFO structure
-ms.topic: structure
+title: D3DX10_IMAGE_INFO structure (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ typedef struct D3DX10_IMAGE_INFO {
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -56,7 +56,7 @@ Width of original image in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ Height of original image in pixels.
 **Depth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -78,7 +78,7 @@ Depth of original image in pixels.
 **ArraySize**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -89,7 +89,7 @@ Size of the texture array. *ArraySize* will be 1 for a single image.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -100,7 +100,7 @@ Number of mipmap levels in original image.
 **MiscFlags**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -111,11 +111,11 @@ Miscellaneous resource properties (see [**D3D10\_RESOURCE\_MISC\_FLAG**](/window
 **Format**
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx)**
+Type: **[**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx)**
 
 </dd> <dd>
 
-A value from the [**DXGI\_FORMAT**](https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx) enumerated type that most closely describes the data in the original image.
+A value from the [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) enumerated type that most closely describes the data in the original image.
 
 </dd> <dt>
 

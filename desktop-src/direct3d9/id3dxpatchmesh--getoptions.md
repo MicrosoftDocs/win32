@@ -1,8 +1,8 @@
 ---
 Description: Gets the type of patch.
 ms.assetid: 1e35a6db-7045-451d-a2d8-847d4935ccc8
-title: ID3DXPatchMesh::GetOptions method
-ms.topic: article
+title: ID3DXPatchMesh::GetOptions method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,13 +35,13 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The patch type.
 
 ## Remarks
 
-For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx).
+For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/library/Bb205384(v=VS.85).aspx).
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: MCI_CUE command
+title: MCI_CUE command (Mmsystem.h)
 description: The MCI\_CUE command cues a device so that playback or recording begins with minimum delay. Digital-video, VCR, and waveform-audio devices recognize this command.
 ms.assetid: 22da4a84-a7af-42df-b950-8d1184fff9ba
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_CUE command cues a device so that playback or recording begins with minimum delay. Digital-video, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

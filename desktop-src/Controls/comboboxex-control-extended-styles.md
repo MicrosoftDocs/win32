@@ -1,5 +1,5 @@
 ---
-title: ComboBoxEx Control Extended Styles
+title: ComboBoxEx Control Extended Styles (CommCtrl.h)
 description: Support the extended styles that are listed in this section as well as most standard combo box control styles.
 ms.assetid: 4741ac5e-1c46-4fd3-9174-b4ceb479261f
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

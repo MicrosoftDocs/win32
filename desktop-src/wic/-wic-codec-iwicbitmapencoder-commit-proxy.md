@@ -2,7 +2,7 @@
 Description: Proxy function for the Commit method.
 ms.assetid: f7f1be43-fe44-47eb-a5ba-3446c0db22a6
 title: IWICBitmapEncoder_Commit_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

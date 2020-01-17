@@ -1,5 +1,5 @@
 ---
-title: glCopyTexSubImage1D function
+title: glCopyTexSubImage1D function (Gl.h)
 description: The glCopyTexSubImage1D function copies a sub-image of a one-dimensional texture image from the framebuffer.
 ms.assetid: 718aee8a-6dce-49e1-a441-19beccd89f8d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

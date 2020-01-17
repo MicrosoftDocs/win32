@@ -1,5 +1,5 @@
 ---
-title: LVM_SETITEMPOSITION32 message
+title: LVM_SETITEMPOSITION32 message (Commctrl.h)
 description: Moves an item to a specified position in a list-view control (must be in icon or small icon view).
 ms.assetid: 77db5fd0-bbc3-47ad-95ef-61ef4ac022bc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

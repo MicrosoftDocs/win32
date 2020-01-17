@@ -1,8 +1,8 @@
 ---
 Description: Used to decompress encoded data. Typically this would be used to load resources from file systems, such as ZIP files. When loading from an uncompressed resource, the decompression stage does not have to do any work.
 ms.assetid: 7f7e3ffd-8dac-403f-813b-d6d21d146fa7
-title: ID3DX10DataLoader::Decompress method
-ms.topic: article
+title: ID3DX10DataLoader::Decompress method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Pointer to the raw data to decompress.
 *pcBytes* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 The size of the data pointed to by ppData.
 
@@ -56,7 +56,7 @@ The size of the data pointed to by ppData.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

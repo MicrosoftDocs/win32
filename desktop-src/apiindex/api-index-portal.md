@@ -7,24 +7,29 @@ ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 
-# API Index
+# API Index for desktop Windows applications
 
-## [Full Windows API Index](windows-api-list.md)
-The Windows application programming interface (API) lets you develop desktop and server applications that run successfully on all versions of Windows while taking advantage of the features and capabilities unique to each version. 
+This article provides links to reference documentation for APIs that can be used in desktop Windows apps.
 
-The Windows API can be used in all Windows-based desktop applications, and the same functions are generally supported on 32-bit and 64-bit Windows. Differences in the implementation of the programming elements depend on the capabilities of the underlying operating system. These differences are noted in the API documentation.
+## Win32 (Windows API)
 
-> [!Note]
-> This was formerly called the Win32 API. The name Windows API more accurately reflects its roots in 16-bit Windows and its support on 64-bit Windows.
+The Win32 API (also called the Windows API) is the native platform for Windows apps. This API is best for desktop apps that require direct access to system features and hardware. The Windows API can be used in all desktop apps, and the same functions are generally supported on 32-bit and 64-bit Windows.
 
-## [Windows API Sets](windows-apisets.md)
-API Sets are strongly named API contracts that provide architectural separation between an API contract and the associated host (DLL) implementation. API Sets contains a subset of the Windows API. The decoupling offers many engineering advantages including reducing the number of DLLs loaded in a process.
+* [Win32 API reference by feature](windows-api-list.md)
+* [Win32 API reference by header](/windows/win32/api/)
+* [Win32 and COM APIs for UWP apps](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps)
+* [Windows umbrella libraries](windows-umbrella-libraries.md)
+* [Windows API Sets](windows-apisets.md)
 
-## [.NET APIs](https://docs.microsoft.com/dotnet/api/index?view=netframework-4.7.2)
-The .NET Framework class library provides access to system functionality for managed application development. It is the foundation on which .NET Framework applications, components, and controls are built.
+## Universal Windows Platform (UWP)
 
-## [UWP APIs callable from a classic desktop app](uwp-apis-callable-from-a-classic-desktop-app.md)
-Desktop apps can use a subset of the UWP APIs.
+The UWP is the leading edge platform for Windows 10 apps and games, including desktop apps. The UWP API is suitable for both native C++ and managed desktop apps that require a sophisticated UI, styles customization, and graphics-intensive scenarios.
 
-## [Win32 and COM APIs for UWP apps](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps)
-Universal Windows Platform (UWP) apps can use a subset of the Win32 and COM API. This subset of APIs was chosen to support key scenarios for UWP apps that were not already covered by the Windows Runtime, HTML/CSS, or other supported languages or standards.
+* [UWP API reference](https://docs.microsoft.com/uwp/api/)
+* [UWP APIs callable from Win32, WPF, and Windows Forms desktop apps](uwp-apis-callable-from-a-classic-desktop-app.md)
+
+## .NET
+
+The .NET Framework and .NET Core class libraries provide access to Windows system and UI features for managed desktop apps, including WPF and Windows Forms apps.
+
+* [.NET API](https://docs.microsoft.com/dotnet/api/index)

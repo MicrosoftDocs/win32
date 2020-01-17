@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidSesidException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidSesidException properties
 TOCTitle: EsentInvalidSesidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsesidexception_properties(v=EXCHG.10)

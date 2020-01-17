@@ -1,5 +1,5 @@
 ---
-title: MCI_DELETE command
+title: MCI_DELETE command (Mmsystem.h)
 description: The MCI\_DELETE command removes data from the file. Digital-video and waveform-audio devices recognize this command.
 ms.assetid: cf7fae86-e81e-4006-9755-fd01f81aeb62
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_DELETE command removes data from the file. Digital-video and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

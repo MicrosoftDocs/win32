@@ -1,5 +1,5 @@
 ---
-title: TVN_SETDISPINFO notification code
+title: TVN_SETDISPINFO notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that it must update the information it maintains about an item. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 40fa61bc-c043-4001-ada9-b627d68bd737
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

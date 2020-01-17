@@ -1,8 +1,8 @@
 ---
 Description: Sets the maximum picture width that a video decoder will accept as an input type.
 ms.assetid: A6D70AD0-0B40-4AC8-A25A-89865BF5F5C1
-title: CODECAPI_AVDecVideoMaxCodedWidth property
-ms.topic: article
+title: CODECAPI_AVDecVideoMaxCodedWidth property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

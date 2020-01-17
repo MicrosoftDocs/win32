@@ -1,5 +1,5 @@
 ---
-title: TDM_UPDATE_ICON message
+title: TDM_UPDATE_ICON message (Commctrl.h)
 description: Refreshes the icon of a task dialog.
 ms.assetid: 1094d9ca-90b4-4ba6-a14b-0d4e96243a34
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -74,7 +74,7 @@ The return value is ignored.
 
 ## Remarks
 
-The layout of the task dialog with the icon may fail and this may not be reflected in the return value. A return value of S\_OK reflects only that the task dialog received the message and attempted to process it. If the layout of the task dialog fails, the dialog will close and an **HRESULT** code is returned at the registered callback function. For more information on the callback function syntax, see [*TaskDialogCallbackProc*](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx).
+The layout of the task dialog with the icon may fail and this may not be reflected in the return value. A return value of S\_OK reflects only that the task dialog received the message and attempted to process it. If the layout of the task dialog fails, the dialog will close and an **HRESULT** code is returned at the registered callback function. For more information on the callback function syntax, see [*TaskDialogCallbackProc*](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx).
 
 If the task dialog is created without a footer (that is, the appropriate footer members of the [**TASKDIALOGCONFIG**](/windows/desktop/api/Commctrl/ns-commctrl-taskdialogconfig) structure used to create the task dialog are **NULL**) and this message is sent, a footer is not dynamically added to the task dialog. The same is true for sending this message to update a header icon when a task dialog is created without a header. To add a header or footer at run time, use the [**TDM\_NAVIGATE\_PAGE**](tdm-navigate-page.md) functionality.
 

@@ -1,8 +1,8 @@
 ---
 Description: Restore all render targets and, if needed, compose all the rendered faces into the environment map surface.
 ms.assetid: 57c73787-36e7-4088-b5ff-78894e3a5d90
-title: ID3DXRenderToEnvMap::End method
-ms.topic: article
+title: ID3DXRenderToEnvMap::End method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT End(
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A valid combination of one or more [D3DX\_FILTER](d3dx-filter.md) flags.
 
@@ -46,7 +46,7 @@ A valid combination of one or more [D3DX\_FILTER](d3dx-filter.md) flags.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

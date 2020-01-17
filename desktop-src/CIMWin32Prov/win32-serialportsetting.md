@@ -3,7 +3,7 @@ Description: The Win32\_SerialPortSetting association WMI class relates a serial
 ms.assetid: 57856207-abe5-4d93-9a34-acfe30ccd80c
 ms.tgt_platform: multiple
 title: Win32_SerialPortSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SerialPortSetting class
 
-The **Win32\_SerialPortSetting** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a serial port and its configuration settings.
+The **Win32\_SerialPortSetting** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a serial port and its configuration settings.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_SerialPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SerialPort")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SerialPort")
 </dt> </dl>
 
 A [**Win32\_SerialPort**](win32-serialport.md) that contains the properties of a serial port on the computer system.
@@ -72,7 +72,7 @@ Data type: **Win32\_SerialPortConfiguration**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SerialPortConfiguration")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_SerialPortConfiguration")
 </dt> </dl>
 
 A [**Win32\_SerialPortConfiguration**](win32-serialportconfiguration.md) that contains the configuration setting for the serial port.

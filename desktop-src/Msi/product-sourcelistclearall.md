@@ -2,7 +2,7 @@
 Description: The SourceListClearAll method the Product object removes all sources for the product. The type of source to remove can be specified.
 ms.assetid: c8a63b54-7be6-424a-8653-0182b561faab
 title: Product.SourceListClearAll method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

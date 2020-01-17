@@ -1,8 +1,8 @@
 ---
 Description: A filter has completed frame stepping.
 ms.assetid: 61c3c343-3754-40b7-9f85-9a96d3faf4a2
-title: EC_STEP_COMPLETE
-ms.topic: article
+title: EC_STEP_COMPLETE (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

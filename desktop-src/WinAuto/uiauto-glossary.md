@@ -1,7 +1,7 @@
 ---
-title: Glossary
+title: Glossary (Windows Accessibility features)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: c45583f2-a6e8-4a01-9577-9b604b5bbc62
 ms.topic: article
 ms.date: 05/31/2018

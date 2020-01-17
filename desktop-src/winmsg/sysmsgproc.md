@@ -1,14 +1,12 @@
 ---
 UID: 
 title: SysMsgProc callback function
-author: TimShererWithAquent
 description: The system calls this function after an input event occurs in a dialog box, message box, menu, or scroll bar.
 old-location: 
 ms.assetid: na
-ms.author: TimShererWithAquent
 ms.date: 04/05/2019
 ms.keywords: 
-ms.topic: function
+ms.topic: reference
 req.header: 
 req.include-header: 
 req.target-type: Windows
@@ -31,8 +29,6 @@ topic_type:
 api_type: 
 api_location: 
 api_name: 
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

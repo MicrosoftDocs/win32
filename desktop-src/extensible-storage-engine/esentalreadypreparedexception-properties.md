@@ -1,5 +1,5 @@
 ---
-title: EsentAlreadyPreparedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentAlreadyPreparedException properties
 TOCTitle: EsentAlreadyPreparedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentalreadypreparedexception_properties(v=EXCHG.10)

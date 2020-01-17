@@ -1,8 +1,8 @@
 ---
 Description: The ID3DXTextureGutterHelper interface is used to build and manage gutter regions in a texture. Gutter regions separate textures and allow for bilinear interpolation to avoid rendering artifacts at texture boundaries.
 ms.assetid: 097e27bf-a1a6-4e7e-bdad-33015b50f91f
-title: ID3DXTextureGutterHelper interface
-ms.topic: interface
+title: ID3DXTextureGutterHelper interface (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -24,7 +24,7 @@ The Get... methods provide access to the data structures used by the Apply... me
 
 ## Members
 
-The **ID3DXTextureGutterHelper** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ID3DXTextureGutterHelper** also has these types of members:
+The **ID3DXTextureGutterHelper** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXTextureGutterHelper** also has these types of members:
 
 -   [Methods](#methods)
 

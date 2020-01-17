@@ -2,13 +2,13 @@
 Description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteSmallBusiness property to 1 if Microsoft Small Business Server is installed.
 ms.assetid: 9ac578b9-316f-413c-aae0-4f414109583b
 title: MsiNTSuiteSmallBusiness property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MsiNTSuiteSmallBusiness property
 
-On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteSmallBusiness** property to 1 if Microsoft Small Business Server is installed. The installer sets this property to 1 only if the VER\_SUITE\_SMALLBUSINESS flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/en-us/library/ms724833(v=VS.85).aspx) structure. Otherwise the installer does not set this property.
+On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteSmallBusiness** property to 1 if Microsoft Small Business Server is installed. The installer sets this property to 1 only if the VER\_SUITE\_SMALLBUSINESS flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/ms724833(v=VS.85).aspx) structure. Otherwise the installer does not set this property.
 
 ## Requirements
 

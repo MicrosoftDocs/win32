@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest GetSoHResponse method
+title: INapSystemHealthAgentRequest GetSoHResponse method (NapSystemHealthAgent.h)
 description: Is used by the health agent to retrieve their SoHResponse blob when the NapAgent calls INapSystemHealthAgentCallback ProcessSoHResponse.
 ms.assetid: 60319256-d5c2-46cc-a59b-f81732e21a7f
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

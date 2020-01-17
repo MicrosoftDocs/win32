@@ -1,5 +1,5 @@
 ---
-title: MPENDOFLIFE_DATA structure
+title: MPENDOFLIFE_DATA structure (MpClient.h)
 description: '\ 0034;End of life \ 0034; notification data.'
 ms.assetid: 00C2E707-9034-4BBC-99CF-3DFA4B8C08D9
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

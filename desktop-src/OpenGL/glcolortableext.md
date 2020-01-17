@@ -1,5 +1,5 @@
 ---
-title: glColorTableEXT function
+title: glColorTableEXT function (Gl.h)
 description: The glColorTableEXT function specifies the format and size of a palette for targeted paletted textures.
 ms.assetid: f3d7b1a1-97a5-47ef-a0ca-5e58acb86bb4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -30,7 +30,7 @@ There may be cases where you want to disable Input Panel. There are two ways to 
 
 ### Disabling Input Panel Programmatically
 
-To disable Input Panel programmatically, instantiate the [**PenInputPanel**](peninputpanel-class.md) and set its [**AutoShow**](https://msdn.microsoft.com/en-us/library/ms703289(v=VS.85).aspx) property to **False**.
+To disable Input Panel programmatically, instantiate the [**PenInputPanel**](peninputpanel-class.md) and set its [**AutoShow**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx) property to **False**.
 
 
 ```C++
@@ -54,7 +54,7 @@ theInputPanel.AutoShow = false;
 
 
 
-To disable Input Panel for multiple controls in a single application, either instantiate a [**PenInputPanel**](peninputpanel-class.md) object for each control and set the [**AutoShow**](https://msdn.microsoft.com/en-us/library/ms703289(v=VS.85).aspx)property to **False** for each or instantiate a single **PenInputPanel** and move it from control to control as input focus changes. For more information about these two techniques, see the [PenInputPanel Sample](peninputpanel-sample.md) topic.
+To disable Input Panel for multiple controls in a single application, either instantiate a [**PenInputPanel**](peninputpanel-class.md) object for each control and set the [**AutoShow**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx)property to **False** for each or instantiate a single **PenInputPanel** and move it from control to control as input focus changes. For more information about these two techniques, see the [PenInputPanel Sample](peninputpanel-sample.md) topic.
 
 ### Disabling Input Panel Through the Registry
 
@@ -62,7 +62,7 @@ You can set a registry entry to disable Input Panel for your entire application.
 
 Setting the `DisableInPlace` registry key to zero prevents Input Panel user interface (UI) from appearing in an application. You must place the `DisableInPlace` registry key at `HKEY_LOCAL_MACHINE\Software\Microsoft\TabletTip\`. Then, add a new registry value by using the full path of the application in which you want to disable Input Panel. The following example registry entry disables Input Panel in an application called MyApp:
 
-`[HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\WindowsNT\TabletTIP\DisableInPlace]``"C:\Progam Files\My App\MyApp.exe"=dword:00000000`
+`[HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\WindowsNT\TabletTIP\DisableInPlace]``"C:\Program Files\My App\MyApp.exe"=dword:00000000`
 
 If you still see a problem in your application after you disable the Input Panel UI, it may be necessary to disable the underlying framework, which queries your application for the caret location. For example, Input Panel may expose a bug in your application's caret tracking code. Turning off the caret tracking query also prevents the Input Panel UI from appearing. To disable the framework, set the `EnableCaretTracking` registry key to zero. Locate this key at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\AppCompatFlags\CaretTracking\`.
 
@@ -78,7 +78,7 @@ In order to use an API on a Web page, it must function in a partial trust enviro
 -   [PenInputPanel Constructors](https://msdn.microsoft.com/library/ms571341(v=VS.90).aspx) (managed code only)
 -   [Dispose Method](https://msdn.microsoft.com/library/ms571343(v=VS.90).aspx) (managed code only)
 -   [AttachedEditControl Property](https://msdn.microsoft.com/library/ms582239(v=VS.90).aspx) (managed code only)
--   [**AutoShow Property**](https://msdn.microsoft.com/en-us/library/ms703289(v=VS.85).aspx)
+-   [**AutoShow Property**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx)
 
 These APIs function in a partial trust environment, such as a Web page, enabling you to instantiate a [**PenInputPanel**](peninputpanel-class.md) object, attach it to a control, and disable Input Panel for that control. For more information, see Programming the Input Panel Using the PenInputPanel Class and [Ink on the Web](ink-on-the-web.md).
 

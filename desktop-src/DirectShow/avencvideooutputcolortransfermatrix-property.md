@@ -1,8 +1,8 @@
 ---
 Description: Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space for the encoded video.
 ms.assetid: 48891204-397b-4b2b-8550-7a77461db06c
-title: AVEncVideoOutputColorTransferMatrix property
-ms.topic: article
+title: AVEncVideoOutputColorTransferMatrix property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

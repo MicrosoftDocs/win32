@@ -1,11 +1,11 @@
 ---
-title: EsentLSCallbackNotSpecifiedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLSCallbackNotSpecifiedException constructor 
 TOCTitle: 'EsentLSCallbackNotSpecifiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlscallbacknotspecifiedexception.esentlscallbacknotspecifiedexception(v=EXCHG.10)
 ms:contentKeyID: 55102234
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException.EsentLSCallbackNotSpecifiedException
 dev_langs:

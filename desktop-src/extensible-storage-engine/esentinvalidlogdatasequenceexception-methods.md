@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidLogDataSequenceException methods (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidLogDataSequenceException methods
 TOCTitle: EsentInvalidLogDataSequenceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidlogdatasequenceexception_methods(v=EXCHG.10)

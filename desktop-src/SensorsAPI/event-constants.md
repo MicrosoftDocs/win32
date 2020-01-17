@@ -1,8 +1,8 @@
 ---
 Description: The Windows Sensor and Location platform defines constants for driver events. Sensor manfuactureres can also define their own constants.
 ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
-title: Event Constants
-ms.topic: article
+title: Event Constants (Sensors.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ The platform defines the following sensor event type identifiers.
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SENSOR_EVENT_ACCELEROMETER_SHAKE"></span><span id="sensor_event_accelerometer_shake"></span><dl> <dt>**SENSOR\_EVENT\_ACCELEROMETER\_SHAKE**</dt> <dt>{825F5A94-0F48-4396-9CA0-6ECB5C99D915}</dt> </dl> | Indicates that the device was shaken.<br/>                                                                                                                                                                                                                                                                      |
 | <span id="SENSOR_EVENT_DATA_UPDATED"></span><span id="sensor_event_data_updated"></span><dl> <dt>**SENSOR\_EVENT\_DATA\_UPDATED**</dt> <dt>{2ED0F2A4-0087-41D3-87DB-6773370B3C88}</dt> </dl>                      | Indicates that new data is available.<br/>                                                                                                                                                                                                                                                                      |
-| <span id="SENSOR_EVENT_PROPERTY_CHANGED"></span><span id="sensor_event_property_changed"></span><dl> <dt>**SENSOR\_EVENT\_PROPERTY\_CHANGED**</dt> <dt>{2358F099-84C9-4D3D-90DF-C2421E2B2045}</dt> </dl>          | Indicates that a property value changed. Check the [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) interface, passed through the *pEventData* parameter to [**OnEvent**](https://msdn.microsoft.com/en-us/library/Dd318860(v=VS.85).aspx), to determine which property changed and its new value.<br/> |
+| <span id="SENSOR_EVENT_PROPERTY_CHANGED"></span><span id="sensor_event_property_changed"></span><dl> <dt>**SENSOR\_EVENT\_PROPERTY\_CHANGED**</dt> <dt>{2358F099-84C9-4D3D-90DF-C2421E2B2045}</dt> </dl>          | Indicates that a property value changed. Check the [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) interface, passed through the *pEventData* parameter to [**OnEvent**](https://msdn.microsoft.com/library/Dd318860(v=VS.85).aspx), to determine which property changed and its new value.<br/> |
 | <span id="SENSOR_EVENT_STATE_CHANGED"></span><span id="sensor_event_state_changed"></span><dl> <dt>**SENSOR\_EVENT\_STATE\_CHANGED**</dt> <dt>{BFD96016-6BD7-4560-AD34-F2F6607E8F81}</dt> </dl>                   | Indicates a change of operational state, for example, from SENSOR\_STATE\_INITIALIZING to SENSOR\_STATE\_READY.<br/>                                                                                                                                                                                            |
 
 

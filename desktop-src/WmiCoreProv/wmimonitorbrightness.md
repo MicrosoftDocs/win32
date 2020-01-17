@@ -2,7 +2,7 @@
 Description: Represents the brightness parameters of a computer monitor.
 ms.assetid: 01fa3efc-2a1d-4405-989f-2c180842c6b9
 title: WmiMonitorBrightness class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

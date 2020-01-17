@@ -1,5 +1,5 @@
 ---
-title: TCM_SETITEMSIZE message
+title: TCM_SETITEMSIZE message (Commctrl.h)
 description: Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can send this message explicitly or by using the TabCtrl\_SetItemSize macro.
 ms.assetid: 3935d686-f8bc-41fb-b025-04120cf03f02
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

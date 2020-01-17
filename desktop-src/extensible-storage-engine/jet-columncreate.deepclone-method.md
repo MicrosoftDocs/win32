@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNCREATE.DeepClone method  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNCREATE.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.DeepClone
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columncreate.deepclone(v=EXCHG.10)
 ms:contentKeyID: 55103387
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.DeepClone
 dev_langs:

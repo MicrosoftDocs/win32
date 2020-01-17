@@ -1,11 +1,11 @@
 ---
-title: EsentPartiallyAttachedDBException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentPartiallyAttachedDBException constructor 
 TOCTitle: 'EsentPartiallyAttachedDBException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpartiallyattacheddbexception.esentpartiallyattacheddbexception(v=EXCHG.10)
 ms:contentKeyID: 55102598
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException.EsentPartiallyAttachedDBException
 dev_langs:

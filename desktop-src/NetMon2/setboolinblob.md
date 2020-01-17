@@ -1,8 +1,8 @@
 ---
 Description: The SetBoolInBlob function sets a Boolean value at a given location within a BLOB.
 ms.assetid: 354d22be-b8c4-4068-8356-19b30ac188d0
-title: SetBoolInBlob function
-ms.topic: article
+title: SetBoolInBlob function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

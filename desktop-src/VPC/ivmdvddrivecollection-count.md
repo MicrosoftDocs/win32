@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDriveCollection Count property
+title: IVMDVDDriveCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of CD and DVD drives in this collection.
 ms.assetid: 22e39c42-1f98-4680-a97e-0d329dc608e2
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

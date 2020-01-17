@@ -103,7 +103,7 @@
         href: clipboard-structures.md
         items: 
         - name: "METAFILEPICT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagmetafilepict
+          href: /windows/win32/api/Wingdi/ns-wingdi-metafilepict
       - name: "Standard Clipboard Formats"
         href: standard-clipboard-formats.md
   - name: "Data Copy"
@@ -117,7 +117,7 @@
       - name: "WM_COPYDATA"
         href: wm-copydata.md
       - name: "COPYDATASTRUCT"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagcopydatastruct
+        href: /windows/win32/api/Winuser/ns-winuser-copydatastruct
   - name: "Dynamic Data Exchange (DDE)"
     href: dynamic-data-exchange.md
     items: 
@@ -184,7 +184,7 @@
         - name: "DDEPOKE"
           href: /windows/desktop/api/Dde/ns-dde-ddepoke
         - name: "HSZPAIR"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-taghszpair
+          href: /windows/win32/api/Ddeml/ns-ddeml-hszpair
     - name: "Atom Reference"
       href: atoms-reference.md
       items: 
@@ -339,20 +339,20 @@
         href: dynamic-data-exchange-management-library-structures.md
         items: 
         - name: "CONVCONTEXT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagconvcontext
+          href: /windows/win32/api/Ddeml/ns-ddeml-convcontext
         - name: "CONVINFO"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagconvinfo
+          href: /windows/win32/api/Ddeml/ns-ddeml-convinfo
         - name: "DDEML_MSG_HOOK_DATA"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagddeml_msg_hook_data
+          href: /windows/win32/api/Ddeml/ns-ddeml-ddeml_msg_hook_data
         - name: "MONCBSTRUCT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagmoncbstruct
+          href: /windows/win32/api/Ddeml/ns-ddeml-moncbstruct
         - name: "MONCONVSTRUCT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagmonconvstruct
+          href: /windows/win32/api/Ddeml/ns-ddeml-monconvstruct
         - name: "MONERRSTRUCT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagmonerrstruct
+          href: /windows/win32/api/Ddeml/ns-ddeml-monerrstruct
         - name: "MONHSZSTRUCT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagmonhszstructa
+          href: /windows/win32/api/Ddeml/ns-ddeml-monhszstructa
         - name: "MONLINKSTRUCT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagmonlinkstruct
+          href: /windows/win32/api/Ddeml/ns-ddeml-monlinkstruct
         - name: "MONMSGSTRUCT"
-          href: /windows/desktop/api/Ddeml/ns-ddeml-tagmonmsgstruct
+          href: /windows/win32/api/Ddeml/ns-ddeml-monmsgstruct

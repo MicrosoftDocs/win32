@@ -1,5 +1,5 @@
 ---
-title: MCI_UPDATE command
+title: MCI_UPDATE command (Mmsystem.h)
 description: The MCI\_UPDATE command updates the display rectangle. Digital-video devices recognize this command.
 ms.assetid: 90a8c10f-61b9-49a1-bbcc-e0729aa8c454
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_UPDATE command updates the display rectangle. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # How to: Load Audio Data Files in XAudio2
 
 > [!Note]  
-> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for [**CreateFile2**](https://msdn.microsoft.com/en-us/library/Hh449422(v=VS.85).aspx), [**CreateEventEx**](https://msdn.microsoft.com/en-us/library/ms682400(v=VS.85).aspx), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/en-us/library/ms687036(v=VS.85).aspx), [**SetFilePointerEx**](https://msdn.microsoft.com/en-us/library/Aa365542(v=VS.85).aspx), and [**GetOverlappedResultEx**](https://msdn.microsoft.com/en-us/library/Hh448542(v=VS.85).aspx). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](https://code.msdn.microsoft.com/).
+> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for [**CreateFile2**](https://msdn.microsoft.com/library/Hh449422(v=VS.85).aspx), [**CreateEventEx**](https://msdn.microsoft.com/library/ms682400(v=VS.85).aspx), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx), [**SetFilePointerEx**](https://msdn.microsoft.com/library/Aa365542(v=VS.85).aspx), and [**GetOverlappedResultEx**](https://msdn.microsoft.com/library/Hh448542(v=VS.85).aspx). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](https://code.msdn.microsoft.com/).
 
  
 

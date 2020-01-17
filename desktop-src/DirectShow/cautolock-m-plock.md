@@ -1,8 +1,8 @@
 ---
 Description: Critical section for this lock.
 ms.assetid: 30f8b001-9a3b-4d07-9f02-5855ce793590
-title: CAutoLock::m_pLock member
-ms.topic: article
+title: CAutoLock::m_pLock member (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: The CIM\_HostedBootSAP class defines the hosting unitary computer s
 ms.assetid: 2113de13-e7af-4a1c-ba80-27e2c57af8a0
 ms.tgt_platform: multiple
 title: CIM_HostedBootSAP class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

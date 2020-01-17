@@ -2,9 +2,6 @@
 title: mspeapconnectionpropertiesv1 Schema Complex Types
 description: Defines the following complex types.
 ms.assetid: 544ee8fc-6b96-4661-bba5-9e26a7af661d
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

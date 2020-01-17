@@ -2,7 +2,7 @@
 Description: This class is the parent class for UDP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 31672a5a-05b2-4382-b793-7a793d985951
 title: UdpIp_V1 class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

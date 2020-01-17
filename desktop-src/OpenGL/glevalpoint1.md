@@ -1,5 +1,5 @@
 ---
-title: glEvalPoint1 function
+title: glEvalPoint1 function (Gl.h)
 description: The glEvalPoint1 and glEvalPoint2 functions generate and evaluate a single point in a mesh.
 ms.assetid: 5ef1d2f0-d77b-4bb8-a0d4-45c1a6a91c18
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

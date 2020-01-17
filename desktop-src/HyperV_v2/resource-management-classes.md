@@ -2,7 +2,7 @@
 Description: Virtualization WMI classes related to resource management.
 ms.assetid: 70184AEA-EA2E-4CC8-8DB3-828833E7C4C2
 title: Resource management classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

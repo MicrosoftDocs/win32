@@ -1,8 +1,8 @@
 ---
 Description: Gets a description of the current font object. GetDescW and GetDescA are identical to this method, except that a pointer is returned to a D3DXFONT\_DESCW or D3DXFONT\_DESCA structure, respectively.
 ms.assetid: 21bcd3e0-3659-4d64-959a-0f2d65850cb1
-title: ID3DXFont::GetDesc method
-ms.topic: article
+title: ID3DXFont::GetDesc method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a [**D3DXFONT\_DESC**](d3dxfont-desc.md) structure that describes the
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

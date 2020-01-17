@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_UserDevice class requests a reset of t
 ms.assetid: c0f4d732-698b-4d4c-b09d-a551e023453c
 ms.tgt_platform: multiple
 title: Reset method of the CIM_UserDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

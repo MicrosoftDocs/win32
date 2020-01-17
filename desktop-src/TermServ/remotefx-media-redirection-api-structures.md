@@ -3,7 +3,7 @@ title: RemoteFX Media Redirection API structures
 description: The RemoteFX media redirection API defines the following structures.
 ms.assetid: 9519F39D-E0EA-40E4-BEFD-E160DE012ECF
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDriveCollection _NewEnum property
+title: IVMDVDDriveCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the CD/DVD collection.
 ms.assetid: e911628b-2a92-41e5-9271-556a297d747d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

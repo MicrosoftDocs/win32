@@ -2,7 +2,7 @@
 Description: Winsock catalog change event for a layered service provider (LSP) installation operation.
 ms.assetid: 76A3D175-8CDC-486C-8341-D6314BCEC113
 title: WINSOCK_WS2HELP_LSP_INSTALL event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 # WINSOCK\_WS2HELP\_LSP\_INSTALL event
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/en-us/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
 
  
 
@@ -37,7 +37,7 @@ const EVENT_DESCRIPTOR WINSOCK_WS2HELP_LSP_INSTALL = {0x1, 0x0, 0x10, 0x0, 0x0, 
 *LSP Name* 
 </dt> <dd>
 
-The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.
+The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ The GUID value of the Winsock transport provider that the LSP is being installed
 *Category* 
 </dt> <dd>
 
-The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.
+The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.
 
 </dd> </dl>
 

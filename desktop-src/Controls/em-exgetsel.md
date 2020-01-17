@@ -1,5 +1,5 @@
 ---
-title: EM_EXGETSEL message
+title: EM_EXGETSEL message (Richedit.h)
 description: Retrieves the starting and ending character positions of the selection in a rich edit control.
 ms.assetid: 60fcf13e-6c45-4f4e-9b54-70f0985122fb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

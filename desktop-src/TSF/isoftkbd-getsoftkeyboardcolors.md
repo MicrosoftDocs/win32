@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd GetSoftKeyboardColors method
+title: ISoftKbd GetSoftKeyboardColors method (Softkbdc.h)
 description: The ISoftKbd GetSoftKeyboardColors method retrieves the soft keyboard color corresponding to the supplied color type.
 ms.assetid: d59d249c-a1c4-4d6a-add6-632be55a7549
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

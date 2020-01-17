@@ -2,9 +2,6 @@
 title: PeapExtensionsTypeV2 Complex Type
 description: Enables future enhancements to the schema.
 ms.assetid: cb011182-afec-4813-bd56-add894c74c9c
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

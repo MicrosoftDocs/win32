@@ -1,8 +1,8 @@
 ---
 Description: The CBaseAllocator class is an abstract base class that implements an allocator. Allocators expose the IMemAllocator interface.
 ms.assetid: 3c9003d8-f15c-4e85-9712-9aaa87dffdf3
-title: CBaseAllocator class
-ms.topic: interface
+title: CBaseAllocator class (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

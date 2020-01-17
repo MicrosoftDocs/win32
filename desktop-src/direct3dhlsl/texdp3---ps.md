@@ -2,10 +2,10 @@
 title: texdp3 - ps
 description: Performs a three-component dot product between data in the texture register number and the texture coordinate set corresponding to the destination register number.
 ms.assetid: 82e02f3f-4b88-4007-b4be-0c66223d9c66
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

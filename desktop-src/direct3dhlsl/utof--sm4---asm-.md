@@ -2,7 +2,7 @@
 title: utof (sm4 - asm)
 description: Unsigned integer to floating point conversion.
 ms.assetid: 5A52C959-7B4C-4FA1-B29C-BCAF448419F8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

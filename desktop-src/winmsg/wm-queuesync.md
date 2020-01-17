@@ -1,8 +1,8 @@
 ---
 Description: Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH\_JOURNALPLAYBACK procedure.
 ms.assetid: 9ac265be-1fcc-476f-9dee-3e961340b5a1
-title: WM_QUEUESYNC message
-ms.topic: article
+title: WM_QUEUESYNC message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -66,10 +66,10 @@ If an application specifies a **NULL** window handle, the message is posted to t
 **Reference**
 </dt> <dt>
 
-[*JournalPlaybackProc*](https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx)
+[*JournalPlaybackProc*](https://msdn.microsoft.com/library/ms644982(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetWindowsHookEx**](https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx)
+[**SetWindowsHookEx**](https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

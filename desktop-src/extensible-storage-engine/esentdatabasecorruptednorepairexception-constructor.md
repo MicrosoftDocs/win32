@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseCorruptedNoRepairException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedNoRepairException constructor 
 TOCTitle: 'EsentDatabaseCorruptedNoRepairException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptednorepairexception.esentdatabasecorruptednorepairexception(v=EXCHG.10)
 ms:contentKeyID: 55101452
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException.EsentDatabaseCorruptedNoRepairException
 dev_langs:

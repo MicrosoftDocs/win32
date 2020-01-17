@@ -1,5 +1,5 @@
 ---
-title: CB_TARGET_INFO structure
+title: CB_TARGET_INFO structure (Cbclient.h)
 description: Contains information about the target computer and IP addresses where incoming connections should be redirected.
 ms.assetid: 60612E10-9D82-4F38-87F7-B24F51E6EBDA
 ms.tgt_platform: multiple
@@ -14,7 +14,7 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

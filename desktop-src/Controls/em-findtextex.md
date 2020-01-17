@@ -1,5 +1,5 @@
 ---
-title: EM_FINDTEXTEX message
+title: EM_FINDTEXTEX message (Richedit.h)
 description: Finds text within a rich edit control.
 ms.assetid: f1bf925b-2776-40b8-9d05-8484daf8d989
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

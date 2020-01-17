@@ -1,5 +1,5 @@
 ---
-title: ID3DX11ThreadPump GetWorkItemCount method
+title: ID3DX11ThreadPump GetWorkItemCount method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Gets the number of work items in the thread pump.
 ms.assetid: 04883b25-64dc-41a3-849f-710a59e9d3da
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

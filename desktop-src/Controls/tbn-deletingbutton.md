@@ -1,5 +1,5 @@
 ---
-title: TBN_DELETINGBUTTON message
+title: TBN_DELETINGBUTTON message (Commctrl.h)
 description: Sent by a toolbar control when a button is about to be deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 08116071-36d6-456b-88f9-62a22cdb7ed9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

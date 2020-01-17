@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetwork _ID method
+title: IVMVirtualNetwork _ID method (VPCCOMInterfaces.h)
 description: Retrieves the internal identifier of the virtual network.
 ms.assetid: 6f1f75be-4218-40b8-8c73-938f0801f5e5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

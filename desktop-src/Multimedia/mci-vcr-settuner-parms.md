@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_SETTUNER_PARMS structure
+title: MCI_VCR_SETTUNER_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_SETTUNER\_PARMS structure contains parameters for the MCI\_SETTUNER command for video-cassette recorders.
 ms.assetid: 8254b4c0-80bb-44e4-9f51-1d7434d3b08f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ Logical tuner that the [**MCI\_SETTUNER**](mci-settuner.md) command affects.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SETTUNER**](mci-settuner.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

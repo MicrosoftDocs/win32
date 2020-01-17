@@ -1,11 +1,11 @@
 ---
-title: Api.JetGetIndexInfo method (JET_SESID, JET_DBID, String, String, JET_INDEXLIST) (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetIndexInfo method (JET_SESID, JET_DBID, String, String, JET_INDEXLIST)
 TOCTitle: JetGetIndexInfo method (JET_SESID, JET_DBID, String, String, JET_INDEXLIST)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetIndexInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_INDEXLIST@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetindexinfo(v=EXCHG.10)
 ms:contentKeyID: 55100770
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

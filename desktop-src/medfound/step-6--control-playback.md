@@ -127,7 +127,7 @@ HRESULT CPlayer::Stop()
 
 ## Repainting the Video Window
 
-The [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR) draws the video in the window specified by the application. This occurs on a separate thread, and for the most part, your application does not need to manage this process. If playback is paused or stopped, however, the EVR must be notified whenever the video window receives a [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx) message. This allows the EVR to repaint the window. To notify the EVR, call the [**IMFVideoDisplayControl::RepaintVideo**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo) method:
+The [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR) draws the video in the window specified by the application. This occurs on a separate thread, and for the most part, your application does not need to manage this process. If playback is paused or stopped, however, the EVR must be notified whenever the video window receives a [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) message. This allows the EVR to repaint the window. To notify the EVR, call the [**IMFVideoDisplayControl::RepaintVideo**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-repaintvideo) method:
 
 
 ```C++
@@ -148,7 +148,7 @@ HRESULT CPlayer::Repaint()
 
 
 
-The following code shows the handler for the [**WM\_PAINT**](https://msdn.microsoft.com/en-us/library/Dd145213(v=VS.85).aspx) message. This function should be called from the application's message loop.
+The following code shows the handler for the [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) message. This function should be called from the application's message loop.
 
 
 ```C++

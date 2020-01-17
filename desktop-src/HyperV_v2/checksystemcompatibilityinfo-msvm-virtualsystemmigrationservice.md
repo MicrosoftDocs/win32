@@ -2,7 +2,7 @@
 Description: Checks the compatibility information for compatibility with the hosting computer system.
 ms.assetid: 1991c58e-2d0b-4fc3-a04a-c18f358451f6
 title: CheckSystemCompatibilityInfo method of the Msvm_VirtualSystemMigrationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

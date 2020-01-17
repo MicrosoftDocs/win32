@@ -1,5 +1,5 @@
 ---
-title: IADsFileShare Property Methods
+title: IADsFileShare Property Methods (Iads.h)
 description: The property methods of the IADsFileshare interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: c5a81c42-507f-4a68-b6f4-83097bd0fa01
 ms.tgt_platform: multiple
@@ -26,7 +26,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The SENSOR\_CATEGORY\_ALL category represents the set of all platform-defined sensor categories.
 ms.assetid: e2d9fe6d-450a-446b-968b-0924116af6fe
-title: SENSOR_CATEGORY_ALL
-ms.topic: article
+title: SENSOR_CATEGORY_ALL (Sensors.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

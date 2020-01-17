@@ -2,7 +2,7 @@
 Description: Sets the value of the secret used to derive the cryptographic session key used to encrypt and decrypt data.
 ms.assetid: d940ae0b-a697-4529-b494-0051b9a6db5e
 title: EncryptedData.SetSecret method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage) and [**CryptDecryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecryptmessage) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](https://go.microsoft.com/fwlink/p/?linkid=119531). The [.NET and CryptoAPI via P/Invoke: Part 1](https://go.microsoft.com/fwlink/p/?linkid=119533) and [.NET and CryptoAPI via P/Invoke: Part 2](https://go.microsoft.com/fwlink/p/?linkid=119534) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](https://go.microsoft.com/fwlink/p/?linkid=119532) may also be helpful.\]
 
-The **SetSecret** method sets the value of the secret used to derive the cryptographic [*session key*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) used to encrypt and decrypt data.
+The **SetSecret** method sets the value of the secret used to derive the cryptographic [*session key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) used to encrypt and decrypt data.
 
 ## Syntax
 

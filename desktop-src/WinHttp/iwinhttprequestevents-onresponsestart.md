@@ -2,7 +2,7 @@
 Description: Occurs when the response data starts to be received.
 ms.assetid: 7245725b-40dd-4282-b681-f0b2c191db94
 title: IWinHttpRequestEvents::OnResponseStart event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

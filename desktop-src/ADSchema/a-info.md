@@ -12,11 +12,11 @@ api_name:
 - Comment
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Comment attribute
+# Comment attribute (AD Schema)
 
 The user's comments. This string can be a null string.
 

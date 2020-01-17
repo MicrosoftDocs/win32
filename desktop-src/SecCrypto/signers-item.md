@@ -2,7 +2,7 @@
 Description: Retrieves the Signer object that represents the indexed signer.
 ms.assetid: a95f4e33-ab92-44e1-91ab-2c5335a04f05
 title: Signers.Item property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

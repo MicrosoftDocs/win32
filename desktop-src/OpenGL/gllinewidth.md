@@ -1,5 +1,5 @@
 ---
-title: glLineWidth function
+title: glLineWidth function (Gl.h)
 description: The glLineWidth function specifies the width of rasterized lines.
 ms.assetid: 13a69fd7-5eee-42ec-bd05-5bd3c838d4d7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

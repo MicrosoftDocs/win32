@@ -3,7 +3,7 @@ Description: The CIM\_ClusterServiceAccessBySAP class represents the relationshi
 ms.assetid: b1e03ef1-909c-4836-a75f-c8d88a4d0087
 ms.tgt_platform: multiple
 title: CIM_ClusterServiceAccessBySAP class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

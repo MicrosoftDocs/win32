@@ -1,5 +1,5 @@
 ---
-title: MCI_CONFIGURE command
+title: MCI_CONFIGURE command (Mmsystem.h)
 description: The MCI\_CONFIGURE command displays a dialog box for setting the operating options. Digital-video devices recognize this command.
 ms.assetid: 92683579-e6af-42a7-8a0f-6b88b04441f2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_CONFIGURE command displays a dialog box for setting the operating options. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

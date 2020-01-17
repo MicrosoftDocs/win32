@@ -1,8 +1,8 @@
 ---
 Description: Contains information identifying the adapter.
 ms.assetid: d0d59df9-c512-4d69-b0a0-7d87d7a380f6
-title: D3DADAPTER_IDENTIFIER9 structure
-ms.topic: structure
+title: D3DADAPTER_IDENTIFIER9 structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -81,7 +81,7 @@ Device name for GDI.
 **DriverVersion**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)**
+Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/Aa383713(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ Identify the version of the Direct3D driver. It is legal to do less than and gre
 **DriverVersionLowPart**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ Identify the version of the Direct3D driver. It is legal to do < and > compariso
 **DriverVersionHighPart**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -114,7 +114,7 @@ Identify the version of the Direct3D driver. It is legal to do < and > compariso
 **VendorId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -125,7 +125,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **DeviceId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -136,7 +136,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **SubSysId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -147,7 +147,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **Revision**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -169,7 +169,7 @@ Can be queried to check changes in the driver and chip set. This GUID is a uniqu
 **WHQLLevel**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -1,5 +1,5 @@
 ---
-title: ID2D1GeometrySink AddBezier methods
+title: ID2D1GeometrySink AddBezier methods (D2d1.h)
 description: Creates a cubic Bezier curve between the current point and the specified end point and adds it to the geometry sink.
 ms.assetid: d1e228eb-dac6-485d-b3c9-69b2bd45e531
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1GeometrySink::AddBezier methods
@@ -24,14 +24,14 @@ Creates a cubic Bezier curve between the current point and the specified end poi
 
 | Method                                                                                            | Description                                                                                    |
 |:--------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**AddBezier(D2D1\_BEZIER\_SEGMENT&)**](https://msdn.microsoft.com/en-us/library/Dd316601(v=VS.85).aspx)  | Creates a cubic Bezier curve between the current point and the specified end point.<br/> |
-| [**AddBezier(D2D1\_BEZIER\_SEGMENT\*)**](https://msdn.microsoft.com/en-us/library/Dd316600(v=VS.85).aspx) | Creates a cubic Bezier curve between the current point and the specified endpoint.<br/>  |
+| [**AddBezier(D2D1\_BEZIER\_SEGMENT&)**](https://msdn.microsoft.com/library/Dd316601(v=VS.85).aspx)  | Creates a cubic Bezier curve between the current point and the specified end point.<br/> |
+| [**AddBezier(D2D1\_BEZIER\_SEGMENT\*)**](https://msdn.microsoft.com/library/Dd316600(v=VS.85).aspx) | Creates a cubic Bezier curve between the current point and the specified endpoint.<br/>  |
 
 
 
 ## Examples
 
-The following example creates an [**ID2D1PathGeometry**](https://msdn.microsoft.com/en-us/library/Dd371512(v=VS.85).aspx), retrieves a sink, and uses it to define an hourglass shape. For the complete example, see [How to Draw and Fill a Complex Shape](how-to-draw-and-fill-a-complex-shape.md).
+The following example creates an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx), retrieves a sink, and uses it to define an hourglass shape. For the complete example, see [How to Draw and Fill a Complex Shape](how-to-draw-and-fill-a-complex-shape.md).
 
 
 ```C++
@@ -103,7 +103,7 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1GeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316592(v=VS.85).aspx)
+[**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,11 +1,11 @@
 ---
-title: JET_INSTANCE.Nil property  (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE.Nil
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance.nil(v=EXCHG.10)
 ms:contentKeyID: 39512901
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INSTANCE.Nil
 dev_langs:

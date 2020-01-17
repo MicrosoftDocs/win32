@@ -1,7 +1,7 @@
 ---
 Description: Gets the user's display name.
 title: DIDiskQuotaUser.DisplayName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

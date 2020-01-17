@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVectorVariable SetIntVector method
+title: ID3DX11EffectVectorVariable SetIntVector method (D3dx11effect.h)
 description: Set a four-component vector that contains integer data.
 ms.assetid: d0546da4-c3b4-4e97-9aa9-d3b7022e22c5
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to the first component.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

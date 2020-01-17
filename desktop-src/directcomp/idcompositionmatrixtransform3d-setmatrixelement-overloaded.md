@@ -1,5 +1,5 @@
 ---
-title: IDCompositionMatrixTransform3D SetMatrixElement methods
+title: IDCompositionMatrixTransform3D SetMatrixElement methods (Dcomp.h)
 description: Changes or animates the value of one element of the matrix of this 3D transform.
 ms.assetid: 0494B335-B613-4F0A-9CDA-3BBC63A7B996
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionMatrixTransform3D::SetMatrixElement methods
@@ -24,8 +24,8 @@ Changes or animates the value of one element of the matrix of this 3D transform.
 
 | Method                                                                                                                                 | Description                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**SetMatrixElement(int, int, float)**](https://msdn.microsoft.com/en-us/library/Hh437427(v=VS.85).aspx)                                     | Changes the value of one element of the matrix of this 3D transform.<br/>  |
-| [**SetMatrixElement(int, int, IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh437428(v=VS.85).aspx) | Animates the value of one element of the matrix of this 3D transform.<br/> |
+| [**SetMatrixElement(int, int, float)**](https://msdn.microsoft.com/library/Hh437427(v=VS.85).aspx)                                     | Changes the value of one element of the matrix of this 3D transform.<br/>  |
+| [**SetMatrixElement(int, int, IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh437428(v=VS.85).aspx) | Animates the value of one element of the matrix of this 3D transform.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of one element of the matrix of this 3D transform.
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform3D**](https://msdn.microsoft.com/en-us/library/Hh437425(v=VS.85).aspx)
+[**IDCompositionMatrixTransform3D**](https://msdn.microsoft.com/library/Hh437425(v=VS.85).aspx)
 </dt> </dl>
 
 �

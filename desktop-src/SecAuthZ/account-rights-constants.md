@@ -1,8 +1,8 @@
 ---
 Description: Account rights determine the type of logon that a user account can perform. An administrator assigns account rights to user and group accounts. Each users account rights include those granted to the user and to the groups to which the user belongs.
 ms.assetid: 42139d33-2d56-4d29-998f-5512bb795d44
-title: Account Rights Constants
-ms.topic: article
+title: Account Rights Constants (Ntsecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ The following account right constants are used to control the logon ability of a
 
 The SE\_DENY rights override the corresponding account rights. An administrator can assign an SE\_DENY right to an account to override any logon rights that an account might have as a result of a group membership. For example, you could assign the SE\_NETWORK\_LOGON\_NAME right to Everyone but assign the SE\_DENY\_NETWORK\_LOGON\_NAME right to Administrators to prevent remote administration of computers.
 
-All of the LSA functions mentioned in the introduction above support both account rights and [privileges](privilege-constants.md). Unlike privileges, however, account rights are not supported by the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) and [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) functions. The [**GetTokenInformation**](https://msdn.microsoft.com/en-us/library/Aa446671(v=VS.85).aspx) function will obtain information on account rights if TokenGroups, and not TokenPrivileges, is specified as the value of the *TokenInformationClass* parameter.
+All of the LSA functions mentioned in the introduction above support both account rights and [privileges](privilege-constants.md). Unlike privileges, however, account rights are not supported by the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) and [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) functions. The [**GetTokenInformation**](https://msdn.microsoft.com/library/Aa446671(v=VS.85).aspx) function will obtain information on account rights if TokenGroups, and not TokenPrivileges, is specified as the value of the *TokenInformationClass* parameter.
 
 The preceding account right constants are defined as strings in Ntsecapi.h. For example, the SE\_INTERACTIVE\_LOGON\_NAME constant is defined as "SeInteractiveLogonRight".
 

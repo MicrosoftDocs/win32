@@ -1,5 +1,5 @@
 ---
-title: glDeleteTextures function
+title: glDeleteTextures function (Gl.h)
 description: The glDeleteTextures function deletes named textures.
 ms.assetid: 300eb99a-9ee5-4495-9489-7e084db9c6c1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

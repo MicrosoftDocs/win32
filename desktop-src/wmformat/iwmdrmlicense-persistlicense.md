@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicense PersistLicense method
+title: IWMDRMLicense PersistLicense method (Wmdrmsdk.h)
 description: The PersistLicense method saves the current license from the temporary store into the permanent local license store.
 ms.assetid: 80a0f932-2800-416b-9dfe-97654a76c19b
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

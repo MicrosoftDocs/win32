@@ -1,5 +1,5 @@
 ---
-title: TDN_BUTTON_CLICKED notification code
+title: TDN_BUTTON_CLICKED notification code (Commctrl.h)
 description: Sent by a task dialog when the user selects a button or command link in the task dialog. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: eefe48f8-8a80-4280-8a7e-244d9b699ec7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

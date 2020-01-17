@@ -10,7 +10,7 @@ api_name:
 - D1106 Resource Is Wrong Type
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: "seodec18"
 ---
@@ -44,7 +44,7 @@ An interface was improperly cast and used as a parameter for a method or functio
 
 ## Examples
 
-The following example passes an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) when an [**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx) is expected.
+The following example passes an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx) when an [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) is expected.
 
 
 ```C++

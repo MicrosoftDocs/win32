@@ -1,5 +1,5 @@
 ---
-title: ldexp
+title: ldexp (Corecrt\_math.h)
 description: Returns the result of multiplying the specified value by two, raised to the power of the specified exponent.
 ms.assetid: 6d6fee96-f952-4058-a1ac-3abb98dbd540
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

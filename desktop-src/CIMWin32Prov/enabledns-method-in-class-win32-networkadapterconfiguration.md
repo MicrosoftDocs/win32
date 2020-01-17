@@ -3,7 +3,7 @@ Description: The EnableDNS WMI class static method enables the Domain Name Syste
 ms.assetid: 083dccb1-eb38-4ae5-a252-0001759c0f50
 ms.tgt_platform: multiple
 title: EnableDNS method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

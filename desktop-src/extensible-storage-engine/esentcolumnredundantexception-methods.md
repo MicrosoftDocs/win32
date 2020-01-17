@@ -1,5 +1,5 @@
 ---
-title: EsentColumnRedundantException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnRedundantException methods
 TOCTitle: EsentColumnRedundantException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnredundantexception_methods(v=EXCHG.10)

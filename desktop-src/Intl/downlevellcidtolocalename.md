@@ -1,8 +1,8 @@
 ---
 Description: Converts a locale identifier to a locale name.
 ms.assetid: 8e40d097-08a2-43e8-88e8-a4ecaddf449a
-title: DownlevelLCIDToLocaleName function
-ms.topic: article
+title: DownlevelLCIDToLocaleName function (Nlsdl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -80,7 +80,7 @@ Flags specifying the type of name to retrieve. The default value is DOWNLEVEL\_L
 
 Returns the count of UTF-16 code points in the locale name, including the terminating null character, if successful. If the function succeeds and the value of *cchName* is 0, the return value is the required size, in characters (including null characters), for the locale name buffer.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INSUFFICIENT\_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to **NULL**.
 -   ERROR\_INVALID\_FLAGS. The value of *dwFlags* is not valid.

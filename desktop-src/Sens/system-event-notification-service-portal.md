@@ -41,7 +41,7 @@ Requires Microsoft Windows XP or later. For information about which operating s
 
 <dl> <dt>
 
-[**IEventSubscription**](https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx)
+[**IEventSubscription**](https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: ResourceLocator.AddOption method
+title: ResourceLocator.AddOption method (WSManDisp.h)
 description: Adds additional data required to process the request. For example, some WMI providers may require an IWbemContext or SWbemNamedValueSet object with provider-specific information.
 ms.assetid: c85949fc-41e7-47eb-8aab-9b456490bc81
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

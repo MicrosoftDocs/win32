@@ -14,7 +14,7 @@ For example, the initial handler of an incoming session might request and enter 
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx), [**lineSetCallData**](https://msdn.microsoft.com/en-us/library/ms736084(v=VS.85).aspx) (**dwCallDataSize** and **dwCallDataOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/en-us/library/ms735527(v=VS.85).aspx)), [**LINE\_CALLINFO**](https://msdn.microsoft.com/en-us/library/ms736518(v=VS.85).aspx) message (*dwParam1* set to LINECALLINFOSTATE\_CALLDATA).
+**TAPI 2.x:** See [**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx), [**lineSetCallData**](https://msdn.microsoft.com/library/ms736084(v=VS.85).aspx) (**dwCallDataSize** and **dwCallDataOffset** members of [**LINECALLINFO**](https://msdn.microsoft.com/library/ms735527(v=VS.85).aspx)), [**LINE\_CALLINFO**](https://msdn.microsoft.com/library/ms736518(v=VS.85).aspx) message (*dwParam1* set to LINECALLINFOSTATE\_CALLDATA).
 
 **TAPI 3.x:** See [**ITCallInfo::put\_CallInfoBuffer**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer) (**CIB\_CALLDATABUFFER** member of [**CALLINFO\_BUFFER**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_buffer)); [**ITCallInfoChangeEvent::get\_Cause**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause) returns the **CIC\_CALLDATA** member of [**CALLINFOCHANGE\_CAUSE**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfochange_cause).
 

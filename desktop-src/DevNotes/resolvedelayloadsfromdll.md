@@ -2,7 +2,7 @@
 Description: Forwards the work in resolving delay-loaded imports from the parent binary to a target binary.
 ms.assetid: 65629d7b-36b0-426b-a20d-ec736b8461dc
 title: ResolveDelayLoadsFromDll function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -80,7 +80,7 @@ The address of the delay-load descriptor, if it is found; otherwise, **NULL**.
 
 <dl> <dt>
 
-[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/en-us/library/151kt790(v=VS.71).aspx)
+[Linker Support for Delay-Loaded DLLs](https://msdn.microsoft.com/library/151kt790(v=VS.71).aspx)
 </dt> </dl>
 
  

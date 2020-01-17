@@ -40,7 +40,7 @@
         href: how-to-add-support-for-multiple-monitors.md
       - name: "How to Ensure That Your Application Displays Properly on High-DPI Displays"
         href: how-to-ensure-that-your-application-displays-properly-on-high-dpi-displays.md
-      - name: "How to Ensure Text is Displayed with the Correct Reading Direction"
+      - name: "Ensure text is displayed with the correct reading direction"
         href: how-to-ensure-text-is-displayed-with-the-correct-reading-direction.md
       - name: "How to Enumerate Fonts"
         href: font-enumeration.md

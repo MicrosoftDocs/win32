@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PRIMITIVE_TOPOLOGY enumeration
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: A845DD10-C735-4EA1-82D3-07F3B26508E7
 api_name: 

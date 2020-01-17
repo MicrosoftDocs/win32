@@ -2,7 +2,7 @@
 Description: Represents the settings of a Msvm\_ResourcePool instance that are not allocation related.
 ms.assetid: 32e0066c-7e14-454c-8aa9-06e093ef8072
 title: Msvm_ResourcePoolSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

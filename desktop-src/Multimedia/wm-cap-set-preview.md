@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_PREVIEW message
+title: WM_CAP_SET_PREVIEW message (Vfw.h)
 description: The WM\_CAP\_SET\_PREVIEW message enables or disables preview mode.
 ms.assetid: ef6218d6-4fff-469f-b2e0-d7990998a3e5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

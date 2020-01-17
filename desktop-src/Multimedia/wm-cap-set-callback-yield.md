@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_CALLBACK_YIELD message
+title: WM_CAP_SET_CALLBACK_YIELD message (Vfw.h)
 description: The WM\_CAP\_SET\_CALLBACK\_YIELD message sets a callback function in the application. AVICap calls this procedure when the capture window yields during streaming capture. You can send this message explicitly or by using the capSetCallbackOnYield macro.
 ms.assetid: d978dc3b-4336-46a4-85ae-7d588a63489b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

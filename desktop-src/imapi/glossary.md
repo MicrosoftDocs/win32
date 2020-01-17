@@ -1,13 +1,13 @@
 ---
-title: Glossary
+title: Glossary (IMAPI)
 description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e780705-09f9-4368-9bae-ad20c45e4fe1
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Glossary
+# Glossary (IMAPI)
 
 <dl> <dt>
 

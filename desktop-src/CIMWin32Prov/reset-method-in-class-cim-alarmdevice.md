@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_AlarmDevice class requests a logical d
 ms.assetid: e70718c5-2c80-4084-b233-b3e4d083e7b4
 ms.tgt_platform: multiple
 title: Reset method of the CIM_AlarmDevice class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

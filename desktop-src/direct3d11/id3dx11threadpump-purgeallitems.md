@@ -1,5 +1,5 @@
 ---
-title: ID3DX11ThreadPump PurgeAllItems method
+title: ID3DX11ThreadPump PurgeAllItems method (D3DX11core.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Clears all work items from the thread pump.
 ms.assetid: 41a102af-bb9e-4a5a-a351-de0725e592c4
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

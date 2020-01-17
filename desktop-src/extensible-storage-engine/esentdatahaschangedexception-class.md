@@ -1,11 +1,11 @@
 ---
-title: EsentDataHasChangedException class (Microsoft.Isam.Esent.Interop)
+title: EsentDataHasChangedException class
 TOCTitle: EsentDataHasChangedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatahaschangedexception(v=EXCHG.10)
 ms:contentKeyID: 55101459
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDataHasChangedException
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: The PassNotify method passes a quality-control message to the appropriate object.
 ms.assetid: dbc9a4b7-a522-4fbf-8e3a-af50e11c1d80
-title: CBaseInputPin.PassNotify method
-ms.topic: article
+title: CBaseInputPin.PassNotify method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Defines constants that describe depth-buffer formats.
 ms.assetid: 5e5ce48b-8859-43e0-a9b4-5972cf6bf781
-title: D3DZBUFFERTYPE enumeration
-ms.topic: enumeration
+title: D3DZBUFFERTYPE enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -86,7 +86,7 @@ Members of this enumerated type are used with the D3DRS\_ZENABLE render state.
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
 </dt> </dl>
 
  

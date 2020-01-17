@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice GetEffectiveBandwidth method
+title: ActiveBasicDevice GetEffectiveBandwidth method (PlayToDevice.h)
 description: Gets the current effective bandwidth for the device.
 ms.assetid: 88CE03AB-6F87-4E43-B673-2C693D351F10
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -76,7 +76,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

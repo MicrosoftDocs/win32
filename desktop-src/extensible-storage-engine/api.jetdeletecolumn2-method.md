@@ -1,11 +1,11 @@
 ---
-title: Api.JetDeleteColumn2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetDeleteColumn2 method 
 TOCTitle: 'JetDeleteColumn2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDeleteColumn2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.DeleteColumnGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetdeletecolumn2(v=EXCHG.10)
 ms:contentKeyID: 55100680
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetDeleteColumn2
 dev_langs:

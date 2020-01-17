@@ -1,5 +1,5 @@
 ---
-title: WM_DDE_DATA message
+title: WM_DDE_DATA message (Dde.h)
 description: A Dynamic Data Exchange (DDE) server application posts a WM\_DDE\_DATA message to a DDE client application to pass a data item to the client or to notify the client of the availability of a data item.
 ms.assetid: ed6a65d3-b2a3-45f2-9600-291ce2ec8c0a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

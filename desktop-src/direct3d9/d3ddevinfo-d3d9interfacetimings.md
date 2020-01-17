@@ -1,8 +1,8 @@
 ---
 Description: Percent of time processing data in the driver. These statistics may help identify cases when the driver is waiting for other resources.
 ms.assetid: 2c613349-61eb-44aa-aa7b-3161dd1fc95e
-title: D3DDEVINFO_D3D9INTERFACETIMINGS structure
-ms.topic: structure
+title: D3DDEVINFO_D3D9INTERFACETIMINGS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -41,7 +41,7 @@ typedef struct D3DDEVINFO_D3D9INTERFACETIMINGS {
 **WaitingForGPUToUseApplicationResourceTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Percentage of time the driver spent waiting for the GPU to finish using a locked
 **WaitingForGPUToAcceptMoreCommandsTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Percentage of time the driver spent waiting for the GPU to finish processing som
 **WaitingForGPUToStayWithinLatencyTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ If an application is GPU-limited, the driver must stall the CPU until the GPU ge
 **WaitingForGPUExclusiveResourceTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Percentage of time the driver spent waiting for a resource that cannot be pipeli
 **WaitingForGPUOtherTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

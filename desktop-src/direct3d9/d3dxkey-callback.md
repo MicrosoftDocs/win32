@@ -1,8 +1,8 @@
 ---
 Description: Describes a callback key for use in key frame animation.
 ms.assetid: aca034f5-6961-49f1-ba7c-addcf016af2b
-title: D3DXKEY_CALLBACK structure
-ms.topic: structure
+title: D3DXKEY_CALLBACK structure (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DXKEY_CALLBACK {
 **Time**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Key frame time stamp.
 **pCallbackData**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -2,7 +2,7 @@
 title: imm_atomic_and (sm5 - asm)
 description: Immediate atomic bitwise AND to memory. Returns the value in memory before the AND.
 ms.assetid: DA2A70C3-57BD-41F0-865C-235AA4DF1A52
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

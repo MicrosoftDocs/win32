@@ -1,5 +1,5 @@
 ---
-title: MCI_OVLY_OPEN_PARMS structure
+title: MCI_OVLY_OPEN_PARMS structure (Mmsystem.h)
 description: The MCI\_OVLY\_OPEN\_PARMS structure contains information for the MCI\_OPEN command for video-overlay devices.
 ms.assetid: 1559ae40-4aa5-4dfc-b337-7b056c706b67
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -92,7 +92,7 @@ Handle to parent window.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure in place of **MCI\_OVLY\_OPEN\_PARMS** if you are not using the extended data members.
 
@@ -124,7 +124,7 @@ You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure in place of 
 [**MCI\_OPEN\_PARMS**](mci-open-parms.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

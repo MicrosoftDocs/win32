@@ -3,7 +3,7 @@ Description: The Win32\_LogonSessionMappedDisk class represents an association b
 ms.assetid: 013ae55e-6dd1-42fb-bcba-74d6afa1b905
 ms.tgt_platform: multiple
 title: Win32_LogonSessionMappedDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

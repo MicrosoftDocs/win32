@@ -3,7 +3,7 @@ Description: Changes the security permissions for the logical codec file specifi
 ms.assetid: d7945666-e514-4bfc-81bc-8e98aa90bcf0
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_CodecFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

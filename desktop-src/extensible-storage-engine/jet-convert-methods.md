@@ -1,5 +1,5 @@
 ---
-title: JET_CONVERT methods (Microsoft.Isam.Esent.Interop)
+title: JET_CONVERT methods
 TOCTitle: JET_CONVERT methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_CONVERT
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_convert_methods(v=EXCHG.10)

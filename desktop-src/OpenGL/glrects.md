@@ -1,5 +1,5 @@
 ---
-title: glRects function
+title: glRects function (Gl.h)
 description: The glRects function draws a rectangle.
 ms.assetid: cf56352a-3396-4061-aa5e-dada986cf4ca
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

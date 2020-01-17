@@ -1,5 +1,5 @@
 ---
-title: TB_SETINSERTMARKCOLOR message
+title: TB_SETINSERTMARKCOLOR message (Commctrl.h)
 description: Sets the color used to draw the insertion mark for the toolbar.
 ms.assetid: 09a04449-9a1f-4f9a-b09f-9f22f930d735
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

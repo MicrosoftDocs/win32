@@ -1,8 +1,8 @@
 ---
 Description: Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
 ms.assetid: d4752a6c-2114-4016-a69f-dcc561d2c76b
-title: ID3DXMATRIXStack::TranslateLocal method
-ms.topic: article
+title: ID3DXMATRIXStack::TranslateLocal method (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT TranslateLocal(
 *x* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The translation factor in the x-direction.
 
@@ -49,7 +49,7 @@ The translation factor in the x-direction.
 *y* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The translation factor in the y-direction.
 
@@ -58,7 +58,7 @@ The translation factor in the y-direction.
 *z* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The translation factor in the z-direction.
 
@@ -66,7 +66,7 @@ The translation factor in the z-direction.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK.
 

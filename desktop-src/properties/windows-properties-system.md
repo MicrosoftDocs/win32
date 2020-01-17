@@ -19,7 +19,7 @@ Before you start reading the Windows Property System SDK documentation, you shou
 -   Component Object Model (COM)
 -   Shell Namespace programming
 
-For an introduction to COM, see [COM Fundamentals](https://msdn.microsoft.com/en-us/library/ms694505(v=VS.85).aspx). For an introduction to Shell Namespace programming, see [Getting Started with the Shell Namespace](https://msdn.microsoft.com/en-us/library/Cc144090(v=VS.85).aspx).
+For an introduction to COM, see [COM Fundamentals](https://msdn.microsoft.com/library/ms694505(v=VS.85).aspx). For an introduction to Shell Namespace programming, see [Getting Started with the Shell Namespace](https://msdn.microsoft.com/library/Cc144090(v=VS.85).aspx).
 
 For uses of the Windows Property System, see [Property System Overview: Development Scenarios](property-system-overview.md).
 

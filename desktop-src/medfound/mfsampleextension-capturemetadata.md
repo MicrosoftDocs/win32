@@ -1,8 +1,8 @@
 ---
 Description: The IMFAttributes store for all the metadata related to the capture pipeline.
 ms.assetid: 8F79B546-5E21-42D7-9168-6BB94245E665
-title: MFSampleExtension_CaptureMetadata attribute
-ms.topic: article
+title: MFSampleExtension_CaptureMetadata attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

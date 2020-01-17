@@ -1,8 +1,8 @@
 ---
 Description: The DeleteMonitor function removes a port monitor added by the AddMonitor function.
 ms.assetid: 32548d4f-830a-471d-8a72-c0f62f43ffa2
-title: DeleteMonitor function
-ms.topic: article
+title: DeleteMonitor function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

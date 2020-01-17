@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Resource Manager Support Function
 
-The following function frees memory allocated through the use of the SCARD\_AUTOALLOCATE length designator, simplifying the use of the other [*resource manager*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) functions.
+The following function frees memory allocated through the use of the SCARD\_AUTOALLOCATE length designator, simplifying the use of the other [*resource manager*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) functions.
 
 
 

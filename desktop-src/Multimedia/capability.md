@@ -10,7 +10,7 @@ api_name:
 - capability
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The capability command requests information about a particular capability of a device. All MCI devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -405,7 +405,7 @@ Can be "wait", "notify", or both. For digital-video and VCR devices, "test" can 
 
 ## Return Value
 
-Returns information in the *lpszReturnString* parameter of the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function. The information is dependent on the request type.
+Returns information in the *lpszReturnString* parameter of the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function. The information is dependent on the request type.
 
 ## Examples
 

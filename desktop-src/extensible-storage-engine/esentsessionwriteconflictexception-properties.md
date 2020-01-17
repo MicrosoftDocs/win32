@@ -1,5 +1,5 @@
 ---
-title: EsentSessionWriteConflictException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSessionWriteConflictException properties
 TOCTitle: EsentSessionWriteConflictException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessionwriteconflictexception_properties(v=EXCHG.10)

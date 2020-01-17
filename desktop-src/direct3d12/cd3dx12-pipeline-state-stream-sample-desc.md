@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC structure
+title: CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC structure (D3dx12.h)
 description: A helper structure used to describe a sample description as a single object suitable for a stream description.
 ms.assetid: D84C5373-AC0F-430A-97A1-6125611869B2
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

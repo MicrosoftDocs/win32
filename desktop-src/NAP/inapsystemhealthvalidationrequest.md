@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthValidationRequest interface
+title: INapSystemHealthValidationRequest interface (NapSystemHealthValidator.h)
 description: Are used to support system health validators which are defined by the application developer.
 ms.assetid: faa91ff5-49f5-4aec-81d7-02ec59274f23
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

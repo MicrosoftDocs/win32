@@ -1,8 +1,8 @@
 ---
 Description: Returns a string located at a given position within a BLOB.
 ms.assetid: 5930a30b-f0ed-4d5b-a0ba-6cead55c2fcd
-title: GetStringFromBlob function
-ms.topic: article
+title: GetStringFromBlob function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

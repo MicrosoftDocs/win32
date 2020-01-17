@@ -1,5 +1,5 @@
 ---
-title: MPHEALTH_DATA structure
+title: MPHEALTH_DATA structure (MpClient.h)
 description: Health notification data.
 ms.assetid: 37A87F77-386A-4508-B338-ED2151518968
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

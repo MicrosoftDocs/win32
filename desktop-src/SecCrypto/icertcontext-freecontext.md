@@ -2,7 +2,7 @@
 Description: Releases a PCCERT\_CONTEXT acquired through the CertContext property.
 ms.assetid: fcb9e885-d26c-4866-a35d-1c940bfe8162
 title: ICertContext::FreeContext method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

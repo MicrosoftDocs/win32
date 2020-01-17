@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents.SelectedItems method
+title: WebViewFolderContents.SelectedItems method (Shldisp.h)
 description: Gets a FolderItems object that represents all of the selected items in the view.
 ms.assetid: 683acac4-f157-4a75-a3f8-c693887c1ea5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Shell32.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

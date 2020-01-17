@@ -55,7 +55,7 @@ The following forms for a basic query are valid:
 | <restr>
 ```
 
-A property is designated by a keyword such as author or size, or by a canonical property name such as [System.DateModified](https://msdn.microsoft.com/en-us/library/bb760685(VS.85).aspx). Valid forms for a property are as follows:
+A property is designated by a keyword such as author or size, or by a canonical property name such as [System.DateModified](https://msdn.microsoft.com/library/bb760685(VS.85).aspx). Valid forms for a property are as follows:
 
 ``` syntax
 <prop> ::= 
@@ -133,15 +133,15 @@ System.Size:>1kb
 
 ### Properties
 
-Properties are referred to by a keyword, which can be a canonical property name in Windows 7 and later. AQS in the Windows UI can use the label instead of the canonical property name, such as author instead of [System.Author](https://msdn.microsoft.com/en-us/library/bb760652(VS.85).aspx). In Windows Vista and earlier it was possible to use English labels regardless of the UI language. In Windows 7 and later, Windows Search recognizes keywords in the current default UI language only.
+Properties are referred to by a keyword, which can be a canonical property name in Windows 7 and later. AQS in the Windows UI can use the label instead of the canonical property name, such as author instead of [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx). In Windows Vista and earlier it was possible to use English labels regardless of the UI language. In Windows 7 and later, Windows Search recognizes keywords in the current default UI language only.
 
 ### Support for Custom Properties
 
-In Windows Vista and earlier, custom properties were not available in AQS. In Windows 7 and later, AQS works with custom properties that are registered with the property system. For more information on creating custom properties, see [Property System](https://msdn.microsoft.com/en-us/library/cc144125(VS.85).aspx).
+In Windows Vista and earlier, custom properties were not available in AQS. In Windows 7 and later, AQS works with custom properties that are registered with the property system. For more information on creating custom properties, see [Property System](https://msdn.microsoft.com/library/cc144125(VS.85).aspx).
 
 ### DateTime properties in Windows 8
 
-As of Windows 8, DateTime properties (like [System.DateModified](https://msdn.microsoft.com/en-us/library/Bb760685(v=VS.85).aspx)) support the canonical date and time format specified by [ISO-8601](https://go.microsoft.com/fwlink/p/?linkid=107369), optionally including the UTC time zone.
+As of Windows 8, DateTime properties (like [System.DateModified](https://msdn.microsoft.com/library/Bb760685(v=VS.85).aspx)) support the canonical date and time format specified by [ISO-8601](https://go.microsoft.com/fwlink/p/?linkid=107369), optionally including the UTC time zone.
 
 -   **Windows 8 and earlier, date-time without UTC time zone:** *YYYY*-*MM*-*DDThh*:*mm*:*ss*
 
@@ -153,7 +153,7 @@ As of Windows 8, DateTime properties (like [System.DateModified](https://msdn.mi
 
 ## Keyword Use in Local Languages
 
-In Windows 7 and later, mnemonic keywords work in the system language only, such as German keywords only on a German operating system, and English keywords only on an English operating system. [System.Author](https://msdn.microsoft.com/en-us/library/bb760652(VS.85).aspx) is a canonical keyword, and the mnemonic value for the System.Author property is Author, for example. The introduction of canonical keywords compensates for the fact that English mnemonic keywords are no longer universally recognized on all operating systems regardless of language, as was the case in Windows Vista and earlier.
+In Windows 7 and later, mnemonic keywords work in the system language only, such as German keywords only on a German operating system, and English keywords only on an English operating system. [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx) is a canonical keyword, and the mnemonic value for the System.Author property is Author, for example. The introduction of canonical keywords compensates for the fact that English mnemonic keywords are no longer universally recognized on all operating systems regardless of language, as was the case in Windows Vista and earlier.
 
 > [!Note]  
 > In Windows 7 and later, Windows Search recognizes keywords in the current default language only, and not in English unless English is the current default. We recommend that developers always use canonical syntax so that their application won't have language problems with keywords.
@@ -191,16 +191,16 @@ The following table shows some examples of canonical properties and the syntax f
 
 | Type of canonical property | Example                                                                                     | Syntax                                                                                                                                                                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| String value               | [System.Author](https://msdn.microsoft.com/en-us/library/bb760652(VS.85).aspx)<br/>    | The string value is searched for in the author property: <br/>`System.Author:Jacobs`                                                                                                                                                              |
-| Enumeration range          | [System.Priority](https://msdn.microsoft.com/en-us/library/bb787550(VS.85).aspx)             | The priority property can have a numerical value range:<br/>`System.Priority:System.Priority#High`                                                                                                                                                |
-| Boolean                    | [System.IsDeleted](https://msdn.microsoft.com/en-us/library/bb760729(VS.85).aspx)<br/> | Boolean values can be used with any Boolean property:<br/>`System.IsDeleted:System.StructuredQueryType.Boolean#True`, and `System.IsDeleted:System.StructuredQueryType.Boolean#False`                                                             |
-| Numerical                  | [System.Size](https://msdn.microsoft.com/en-us/library/bb787566(VS.85).aspx)<br/>      | It is not possible to write safely a canonical query that involves a floating point constant, because floating point formats vary among locales. Integers must be written with no separators for thousands. For example:<br/>`System.Size:<12345` |
+| String value               | [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx)<br/>    | The string value is searched for in the author property: <br/>`System.Author:Jacobs`                                                                                                                                                              |
+| Enumeration range          | [System.Priority](https://msdn.microsoft.com/library/bb787550(VS.85).aspx)             | The priority property can have a numerical value range:<br/>`System.Priority:System.Priority#High`                                                                                                                                                |
+| Boolean                    | [System.IsDeleted](https://msdn.microsoft.com/library/bb760729(VS.85).aspx)<br/> | Boolean values can be used with any Boolean property:<br/>`System.IsDeleted:System.StructuredQueryType.Boolean#True`, and `System.IsDeleted:System.StructuredQueryType.Boolean#False`                                                             |
+| Numerical                  | [System.Size](https://msdn.microsoft.com/library/bb787566(VS.85).aspx)<br/>      | It is not possible to write safely a canonical query that involves a floating point constant, because floating point formats vary among locales. Integers must be written with no separators for thousands. For example:<br/>`System.Size:<12345` |
 
 
 
  
 
-For more information about canonical properties and the property system generally, see [System Properties](https://msdn.microsoft.com/en-us/library/dd561977(VS.85).aspx). Alternatively, refer to the public header files.
+For more information about canonical properties and the property system generally, see [System Properties](https://msdn.microsoft.com/library/dd561977(VS.85).aspx). Alternatively, refer to the public header files.
 
 ### Query Operators
 
@@ -234,44 +234,44 @@ The syntax listed in the following table consists of an operator, operator symbo
 </tr>
 <tr class="even">
 <td>COP_NOTEQUAL</td>
-<td>≠<br/> -<br/> <><br/> NOT<br/> - -<br/></td>
-<td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:<>picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
+<td>≠<br/> -<br/> &lt;&gt;<br/> NOT<br/> - -<br/></td>
+<td>System.Kind:≠picture<br/> System.Photo.DateTaken:-[]¹<br/> System.Kind:&lt;&gt;picture<br/> System.Kind:NOT picture<br/> System.Kind:- -picture<br/></td>
 <td>The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture.<br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken">System.Photo.DateTaken</a> property has a value.<br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture. <br/> The <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-kind">System.Kind</a> property is not a picture. <br/> Double NOT operators applied to the same property do not cancel out. Hence, System.Kind:- -picture is equivalent to System.Kind:-picture and System.Kind:NOT picture.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_LESSTHAN</td>
-<td><<br/></td>
-<td>System.Size:<1kb<br/></td>
+<td>&lt;<br/></td>
+<td>System.Size:&lt;1kb<br/></td>
 <td>This value is less than <em>1kb</em>.<br/></td>
 </tr>
 <tr class="even">
 <td>COP_GREATERTHAN</td>
-<td>><br/></td>
-<td>System.ItemDate:>System.StructuredQueryType.DateTime#Today<br/></td>
+<td>&gt;<br/></td>
+<td>System.ItemDate:&gt;System.StructuredQueryType.DateTime#Today<br/></td>
 <td>This value is greater than <em>today</em>.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_LESSTHANOREQUAL</td>
-<td><=<br/> ≤<br/></td>
-<td>System.Size:<=1kb<br/></td>
+<td>&lt;=<br/> ≤<br/></td>
+<td>System.Size:&lt;=1kb<br/></td>
 <td>This value is less than or equal to <em>1kb</em>.<br/></td>
 </tr>
 <tr class="even">
 <td>COP_GREATERTHANOREQUAL</td>
-<td>>=<br/> ≥<br/></td>
-<td>System.Size:>=1kb<br/></td>
+<td>&gt;=<br/> ≥<br/></td>
+<td>System.Size:&gt;=1kb<br/></td>
 <td>This value is equal to or greater than <em>1kb</em>.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_VALUE_STARTSWITH</td>
-<td>~<<br/></td>
-<td>System.FileName:~<&quot;C++ Primer&quot;<br/></td>
+<td>~&lt;<br/></td>
+<td>System.FileName:~&lt;&quot;C++ Primer&quot;<br/></td>
 <td>Finds items where the file name begins with the characters &quot;<em>C++ Primer</em>&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>COP_VALUE_ENDSWITH</td>
-<td>~><br/></td>
-<td>System.Photo.CameraModel:~>non<br/></td>
+<td>~&gt;<br/></td>
+<td>System.Photo.CameraModel:~&gt;non<br/></td>
 <td>Finds items where the property value ends with the characters <em>non</em>.<br/></td>
 </tr>
 <tr class="odd">
@@ -421,8 +421,8 @@ Users can limit the scope of their searches to specific folder locations or data
 
 ## Additional Resources
 
--   In Windows 7 and later, a shortcut menu option can be available based on whether an AQS condition is met. For more information, see "Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax" in [Creating Context Menu Handlers](https://msdn.microsoft.com/en-us/library/Cc144171(VS.85).aspx).
--   AQS queries can be limited to specific types of files, which are known as file kinds. For more information, see [File Types and Associations](https://msdn.microsoft.com/en-us/library/cc144104(VS.85).aspx). For property reference documentation, see [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx), and [System.KindText](https://msdn.microsoft.com/library/Bb787523(v=VS.85).aspx).
+-   In Windows 7 and later, a shortcut menu option can be available based on whether an AQS condition is met. For more information, see "Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax" in [Creating Context Menu Handlers](https://msdn.microsoft.com/library/Cc144171(VS.85).aspx).
+-   AQS queries can be limited to specific types of files, which are known as file kinds. For more information, see [File Types and Associations](https://msdn.microsoft.com/library/cc144104(VS.85).aspx). For property reference documentation, see [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx), and [System.KindText](https://msdn.microsoft.com/library/Bb787523(v=VS.85).aspx).
 
 ## Related topics
 

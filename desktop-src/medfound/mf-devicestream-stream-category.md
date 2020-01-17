@@ -1,8 +1,8 @@
 ---
 Description: Represents the stream category.
 ms.assetid: 673FB138-574C-4A98-A88C-496F17B4E095
-title: MF_DEVICESTREAM_STREAM_CATEGORY attribute
-ms.topic: article
+title: MF_DEVICESTREAM_STREAM_CATEGORY attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

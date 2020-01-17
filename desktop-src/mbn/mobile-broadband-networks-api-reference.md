@@ -2,7 +2,7 @@
 Description: This section contains the reference material on using the Mobile Broadband client programming interface.
 ms.assetid: fae22b08-a63d-4a28-9cdd-ab9135d6e07a
 title: Mobile Broadband API Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,10 +14,3 @@ This section contains the reference material on using the Mobile Broadband clien
 -   [Mobile Broadband API Interfaces](mobile-broadband-networks-api-interfaces.md)
 -   [Mobile Broadband API Structures](mobile-broadband-networks-api-structures.md)
 -   [Wireless Wide Area Network Functions](mobile-broadband-api-functions.md)
-
- 
-
- 
-
-
-

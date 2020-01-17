@@ -1,5 +1,5 @@
 ---
-title: FontSize Property
+title: FontSize Property (Balloon Object)
 description: FontSize Property
 ms.assetid: 36d5526a-1ae9-4ef2-94f6-0ad63ce86882
 ms.topic: article

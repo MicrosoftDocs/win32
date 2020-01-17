@@ -1,8 +1,8 @@
 ---
 Description: Validates a patch mesh, returning the number of degenerate vertices and patches.
 ms.assetid: a95ff9d9-d476-42ac-8d7e-1dc42418f763
-title: D3DXValidPatchMesh function
-ms.topic: article
+title: D3DXValidPatchMesh function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Pointer to an [**ID3DXPatchMesh**](id3dxpatchmesh.md) interface, representing th
 *pNumDegenerateVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the number of degenerate vertices in the patch mesh.
 
@@ -59,7 +59,7 @@ Returns the number of degenerate vertices in the patch mesh.
 *pNumDegeneratePatches* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the number of degenerate patches in the patch mesh.
 
@@ -76,7 +76,7 @@ Returns a pointer to a buffer containing a string of errors and warnings that ex
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

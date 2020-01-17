@@ -1,5 +1,5 @@
 ---
-title: Texture2DMS Load methods
+title: Texture2DMS::Texture2DMS Load methods
 description: Retrieves a value from the resource at the location and sample index provided.
 ms.assetid: 'd597fc42-0b21-4e89-bb33-0b8c12ae00ae'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

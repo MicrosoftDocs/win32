@@ -16,11 +16,11 @@ This topic lists the methods of the [**GraphicsPathIterator**](/windows/desktop/
 -   [**GetLastStatus**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-getlaststatus)
 -   [**GetSubpathCount**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-getsubpathcount)
 -   [**HasCurve**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-hascurve)
--   [**NextMarker(GraphicsPath\*)**](https://msdn.microsoft.com/en-us/library/ms535464(v=VS.85).aspx)
--   [**NextMarker(INT\*,INT\*)**](https://msdn.microsoft.com/en-us/library/ms535465(v=VS.85).aspx)
+-   [**NextMarker(GraphicsPath\*)**](https://msdn.microsoft.com/library/ms535464(v=VS.85).aspx)
+-   [**NextMarker(INT\*,INT\*)**](https://msdn.microsoft.com/library/ms535465(v=VS.85).aspx)
 -   [**NextPathType**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-nextpathtype)
--   [**NextSubpath(GraphicsPath\*,BOOL\*)**](https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx)
--   [**NextSubpath(INT\*,INT\*,BOOL\*)**](https://msdn.microsoft.com/en-us/library/ms535463(v=VS.85).aspx)
+-   [**NextSubpath(GraphicsPath\*,BOOL\*)**](https://msdn.microsoft.com/library/ms535462(v=VS.85).aspx)
+-   [**NextSubpath(INT\*,INT\*,BOOL\*)**](https://msdn.microsoft.com/library/ms535463(v=VS.85).aspx)
 -   [**Rewind**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspathiterator-rewind)
 
  

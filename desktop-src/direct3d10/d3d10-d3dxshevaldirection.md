@@ -1,8 +1,8 @@
 ---
 Description: Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 ms.assetid: c86973cc-c5b0-4358-b7eb-5c31f38b5b5a
-title: D3DXSHEvalDirection function
-ms.topic: article
+title: D3DXSHEvalDirection function (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ FLOAT* D3DXSHEvalDirection(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates Order² coefficients. See Remarks.
 
@@ -49,7 +49,7 @@ Pointer to Spherical harmonic (SH) output coefficients. The evaluation generates
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Order of the SH evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -58,7 +58,7 @@ Order of the SH evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_
 *pDir* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 (x, y, z) direction vector in which to evaluate the SH basis functions. Must be normalized. See Remarks.
 
@@ -66,7 +66,7 @@ Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb20554
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to SH output coefficients. See Remarks.
 

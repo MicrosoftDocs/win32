@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidDatabaseVersionException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidDatabaseVersionException properties
 TOCTitle: EsentInvalidDatabaseVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvaliddatabaseversionexception_properties(v=EXCHG.10)

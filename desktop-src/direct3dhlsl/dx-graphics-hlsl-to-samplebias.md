@@ -2,10 +2,10 @@
 title: SampleBias (DirectX HLSL Texture Object)
 description: Samples a texture, after applying the input bias to the mipmap level.
 ms.assetid: 1bc03ad8-7b69-4001-81c7-64d8c631d68d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

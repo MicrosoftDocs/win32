@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetworkCollection Item property
+title: IVMVirtualNetworkCollection Item property (VPCCOMInterfaces.h)
 description: IVMVirtualNetwork object that corresponds to the specified index.
 ms.assetid: 1c6a3449-f76a-4216-8840-0fb9fb133e67
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

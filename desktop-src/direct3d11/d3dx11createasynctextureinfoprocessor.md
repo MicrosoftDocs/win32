@@ -1,5 +1,5 @@
 ---
-title: D3DX11CreateAsyncTextureInfoProcessor function
+title: D3DX11CreateAsyncTextureInfoProcessor function (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create a data processor to be used with a thread pump.
 ms.assetid: 87de73a5-21f7-4abd-b83a-65c6761681c3
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -62,7 +62,7 @@ Address of a pointer to a buffer that contains the data processor created (see [
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 
@@ -72,9 +72,9 @@ This API does creates a data-processor interface; [**D3DX11CreateAsyncTexturePro
 
 There s no implementation of the  async loader  outside of D3DX 10, and D3DX 11.
 
-For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](https://go.microsoft.com/fwlink/p/?linkid=255263)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](https://msdn.microsoft.com/en-us/library/BR244878(v=VS.110).aspx)).
+For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](https://go.microsoft.com/fwlink/p/?linkid=255263)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](https://msdn.microsoft.com/library/BR244878(v=VS.110).aspx)).
 
-For Win32 desktop apps, you can use the [Concurrency Runtime](https://msdn.microsoft.com/en-us/library/Ee207192(v=VS.100).aspx) to implement something similar to the Windows Runtime asynchronous programming model.
+For Win32 desktop apps, you can use the [Concurrency Runtime](https://msdn.microsoft.com/library/Ee207192(v=VS.100).aspx) to implement something similar to the Windows Runtime asynchronous programming model.
 
 ## Requirements
 

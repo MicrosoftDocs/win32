@@ -1,8 +1,8 @@
 ---
 Description: Specifies the number of audio samples for the encoder to skip.
 ms.assetid: cc4342d4-07d1-44d9-8fa6-a5f921f7cf06
-title: AVEncAudioIntervalToSkip property
-ms.topic: article
+title: AVEncAudioIntervalToSkip property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

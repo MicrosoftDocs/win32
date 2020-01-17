@@ -1,5 +1,5 @@
 ---
-title: Load(int) function
+title: ByteAddressBuffer::Load(int) function
 description: Gets one value.
 ms.assetid: a63f4099-2c3b-4d37-9135-b8c63df30824
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -1,5 +1,5 @@
 ---
-title: CDN_FILEOK notification code
+title: CDN_FILEOK notification code (Commdlg.h)
 description: Sent by an Explorer-style Open or Save As dialog box when the user specifies a file name and clicks the OK button.
 ms.assetid: 7f3de96f-68d8-4f40-b74f-304835f9def2
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user specifies a file name and clicks the **OK** button.
 
-Your [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message.
+Your [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message.
 
 
 ```C++
@@ -87,7 +87,7 @@ The system sends this notification only if the dialog box was created using the 
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
+[*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx)
 </dt> <dt>
 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)

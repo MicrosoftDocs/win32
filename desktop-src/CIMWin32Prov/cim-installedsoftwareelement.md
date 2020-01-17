@@ -3,7 +3,7 @@ Description: The CIM\_InstalledSoftwareElement class associates a computer syste
 ms.assetid: b9a570ed-b4e0-4f73-82e3-6d2bd1708e16
 ms.tgt_platform: multiple
 title: CIM_InstalledSoftwareElement class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

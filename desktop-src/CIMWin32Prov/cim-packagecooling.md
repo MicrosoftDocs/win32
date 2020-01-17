@@ -3,7 +3,7 @@ Description: The CIM\_PackageCooling association represents the relationship in 
 ms.assetid: 0aaae8e1-6e70-4b26-8e56-dac5657e58c1
 ms.tgt_platform: multiple
 title: CIM_PackageCooling class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: TCM_SETPADDING message
+title: TCM_SETPADDING message (Commctrl.h)
 description: Sets the amount of space (padding) around each tab's icon and label in a tab control. You can send this message explicitly or by using the TabCtrl\_SetPadding macro.
 ms.assetid: c7f84c0d-8bf4-429a-b403-a0019575e72e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: INapCertRelyingParty SubscribeCertByGroup method
+title: INapCertRelyingParty SubscribeCertByGroup method (NapCertRelyingParty.h)
 description: Subscribes to a health certificate server (HCS).
 ms.assetid: 6fce113d-e183-45d7-8fb5-e04b6f4afcca
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

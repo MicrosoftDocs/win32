@@ -2,7 +2,7 @@
 Description: Associates an instance of an allocated resource with the physical NUMA node from which it was allocated.
 ms.assetid: 811ed19f-9084-4e30-8604-860d2bf722c7
 title: Msvm_ElementAllocatedFromNumaNode class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

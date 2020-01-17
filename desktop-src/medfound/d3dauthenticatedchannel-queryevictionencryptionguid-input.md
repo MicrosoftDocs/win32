@@ -1,8 +1,8 @@
 ---
 Description: Contains input data for a D3DAUTHENTICATEDQUERY\_ENCRYPTIONWHENACCESSIBLEGUID query.
 ms.assetid: 0e24e393-3f63-4c6f-aca1-f73ced3490ba
-title: D3DAUTHENTICATEDCHANNEL_QUERYEVICTIONENCRYPTIONGUID_INPUT structure
-ms.topic: structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYEVICTIONENCRYPTIONGUID_INPUT structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

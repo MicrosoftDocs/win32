@@ -1,8 +1,8 @@
 ---
 Description: Places the specified user object next in line for name resolution.
 ms.assetid: 4c75f966-2e7d-4415-b1db-c98f8bdd4ce3
-title: DiskQuotaControl.GiveUserNameResolutionPriority method
-ms.topic: article
+title: DiskQuotaControl.GiveUserNameResolutionPriority method (Dskquota.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

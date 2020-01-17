@@ -1,8 +1,8 @@
 ---
 Description: Applies software skinning to the target vertices based on the current matrices.
 ms.assetid: 4858dfd4-dc0d-4852-9165-8ae1b40386d4
-title: ID3DXSkinInfo::UpdateSkinnedMesh method
-ms.topic: article
+title: ID3DXSkinInfo::UpdateSkinnedMesh method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -59,7 +59,7 @@ Inverse transpose of the bone transform matrix.
 *pVerticesSrc* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the buffer containing the source vertices.
 
@@ -68,7 +68,7 @@ Pointer to the buffer containing the source vertices.
 *pVerticesDst* \[in\]
 </dt> <dd>
 
-Type: **[**PVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**PVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the buffer containing the destination vertices.
 
@@ -76,7 +76,7 @@ Pointer to the buffer containing the destination vertices.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

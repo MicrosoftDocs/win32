@@ -1,5 +1,5 @@
 ---
-title: SysLink Control Styles
+title: SysLink Control Styles (CommCtrl.h)
 description: The following style constants are used when creating SysLink controls.
 ms.assetid: e9a8c99b-86c4-4385-ae20-b2b78a07b491
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

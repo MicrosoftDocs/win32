@@ -1,8 +1,8 @@
 ---
 Description: Returns a string that describes the status code.
 ms.assetid: d3007f3e-46e1-4ab6-8ce3-c4e38f87ce61
-title: IWiaErrorHandler::GetStatusDescription method
-ms.topic: article
+title: IWiaErrorHandler::GetStatusDescription method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,9 +42,9 @@ HRESULT GetStatusDescription(
 *punkItem* \[in\]
 </dt> <dd>
 
-Type: **[IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\***
+Type: **[IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
 
-Pointer to the [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Pointer to the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 

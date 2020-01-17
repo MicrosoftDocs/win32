@@ -1,8 +1,8 @@
 ---
 Description: Computes the intersection of a ray and a triangle.
 ms.assetid: f335a71d-7203-4ea1-a6bf-407b28c712e6
-title: D3DXIntersectTri function
-ms.topic: article
+title: D3DXIntersectTri function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -90,7 +90,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the directi
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Barycentric hit coordinates, U.
 
@@ -99,7 +99,7 @@ Barycentric hit coordinates, U.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Barycentric hit coordinates, V.
 
@@ -108,7 +108,7 @@ Barycentric hit coordinates, V.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Ray-intersection parameter distance.
 
@@ -116,7 +116,7 @@ Ray-intersection parameter distance.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the area of the triangle. Otherwise, returns **FALSE**.
 

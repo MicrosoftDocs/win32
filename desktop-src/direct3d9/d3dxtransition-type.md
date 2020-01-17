@@ -1,8 +1,8 @@
 ---
 Description: Defines the transition style between values of a mesh animation.
 ms.assetid: 4416ef28-ba6b-47ca-be7d-831daad619e5
-title: D3DXTRANSITION_TYPE enumeration
-ms.topic: enumeration
+title: D3DXTRANSITION_TYPE enumeration (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

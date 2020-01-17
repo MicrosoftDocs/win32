@@ -1,8 +1,8 @@
 ---
 Description: Creates a font object indirectly for both a device and a font.
 ms.assetid: 480f3012-8495-47ca-a649-11ce53cee06c
-title: D3DXCreateFontIndirect function
-ms.topic: article
+title: D3DXCreateFontIndirect function (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -66,7 +66,7 @@ Returns a pointer to an [**ID3DXFont**](id3dxfont.md) interface, representing th
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

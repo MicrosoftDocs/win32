@@ -1,5 +1,5 @@
 ---
-title: Referrals
+title: Referrals (ADSI)
 description: Referrals occur when the server you are querying does not contain that data, but can find it.
 ms.assetid: 2068ce7a-0b94-4d25-a18f-97f26863bd1d
 ms.tgt_platform: multiple
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Referrals
+# Referrals (ADSI)
 
 Referrals occur when the server you are querying does not contain that data, but can find it. The target server returns the result set, which may include both the actual data and a referral to another server to retrieve the additional data. By enabling *referral chasing*, the underlying ADSI client code will use that referral data to attempt to retrieve the target object from the server described in the referral data. Be aware that the disabling referral chasing may result in a smaller result set, whereas enabling referral chasing may cause a query to span many servers. When possible, the recommended solution is to use the global catalog.
 

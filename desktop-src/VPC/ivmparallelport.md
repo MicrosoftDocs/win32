@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPort interface
+title: IVMParallelPort interface (VPCCOMInterfaces.h)
 description: Defines a parallel port inside a virtual machine.
 ms.assetid: da8daf16-5d22-49be-8fe9-72d5018c0622
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines a parallel port inside a virtual machine. This interface allows you to c
 
 ## Members
 
-The **IVMParallelPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPort** also has these types of members:
+The **IVMParallelPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPort** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

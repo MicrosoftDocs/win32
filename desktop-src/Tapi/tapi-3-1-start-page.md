@@ -49,10 +49,10 @@ TAPI version 3.1 enables development of communications applications for Windows 
 [Microsoft Telephony Overview](microsoft-telephony-overview.md)
 </dt> <dt>
 
-[TAPI 2.2](https://msdn.microsoft.com/en-us/library/ms737220(v=VS.85).aspx)
+[TAPI 2.2](https://msdn.microsoft.com/library/ms737220(v=VS.85).aspx)
 </dt> <dt>
 
-[TAPI Service Providers](https://msdn.microsoft.com/en-us/library/ms725513(v=VS.85).aspx)
+[TAPI Service Providers](https://msdn.microsoft.com/library/ms725513(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionShadowEffect SetGreen methods
+title: IDCompositionShadowEffect SetGreen methods (Dcomp.h)
 description: Sets the green value for the color of the shadow.
 ms.assetid: 55566eb3-939e-c61f-dae8-5bd8da1c9f5b
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionShadowEffect::SetGreen methods
@@ -24,8 +24,8 @@ Sets the green value for the color of the shadow.
 
 | Method                                                                               | Description                                                  |
 |:-------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-| [**SetGreen (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919773(v=VS.85).aspx) | Sets the green value for the color of the shadow.<br/> |
-| [**SetGreen**](https://msdn.microsoft.com/en-us/library/Dn919772(v=VS.85).aspx)                               | Sets the green value for the color of the shadow.<br/> |
+| [**SetGreen (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919773(v=VS.85).aspx) | Sets the green value for the color of the shadow.<br/> |
+| [**SetGreen**](https://msdn.microsoft.com/library/Dn919772(v=VS.85).aspx)                               | Sets the green value for the color of the shadow.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the green value for the color of the shadow.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx)
+[**IDCompositionShadowEffect**](https://msdn.microsoft.com/library/Dn919766(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,7 +1,7 @@
 ---
-title: B
+title: B (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter B.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 053fa15a-fbda-43a7-a740-b4477ad9c946
 keywords:
 - back face

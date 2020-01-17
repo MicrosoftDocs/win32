@@ -1,5 +1,5 @@
 ---
-title: IWMPLibraryServices (VB and C ) interface
+title: IWMPLibraryServices (VB and C ) interface (Wmp.h)
 description: Provides methods to enumerate libraries.
 ms.assetid: f2a72731-6e61-4f78-b0ca-ae907004eb7d
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - wmp.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

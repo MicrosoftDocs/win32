@@ -25,8 +25,8 @@ Windows provides the following functions to request that a synthesizer preload a
 
 | Value                                                      | Meaning                                                                                                     |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [**midiOutCachePatches**](https://msdn.microsoft.com/en-us/library/Dd798466(v=VS.85).aspx)         | Requests that an internal MIDI synthesizer device preload and cache specified melodic patches.              |
-| [**midiOutCacheDrumPatches**](https://msdn.microsoft.com/en-us/library/Dd798465(v=VS.85).aspx) | Requests that an internal MIDI synthesizer device preload and cache specified key-based percussion patches. |
+| [**midiOutCachePatches**](https://msdn.microsoft.com/library/Dd798466(v=VS.85).aspx)         | Requests that an internal MIDI synthesizer device preload and cache specified melodic patches.              |
+| [**midiOutCacheDrumPatches**](https://msdn.microsoft.com/library/Dd798465(v=VS.85).aspx) | Requests that an internal MIDI synthesizer device preload and cache specified key-based percussion patches. |
 
 
 

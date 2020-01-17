@@ -1,8 +1,8 @@
 ---
 Description: Registers custom templates, given an ID3DXFileEnumObject enumeration object.
 ms.assetid: 1b0c71db-639b-4836-8a65-7d0a2ed3ba4f
-title: ID3DXFile::RegisterEnumTemplates method
-ms.topic: article
+title: ID3DXFile::RegisterEnumTemplates method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to an [**ID3DXFileEnumObject**](id3dxfileenumobject.md) enumeration obje
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK .
 

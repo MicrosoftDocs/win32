@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 The following changes summarize what is new in different versions of Task Scheduler.
 
-## Windows 10
+## Windows 10 (and Windows Server 2016)
 
-The following Task Scheduler changes are introduced in Windows 10:
+The following Task Scheduler changes are introduced in Windows 10.
 
 -   When battery saver is on, Windows Task Scheduler tasks are triggered only if the task is:
 
@@ -23,6 +23,8 @@ The following Task Scheduler changes are introduced in Windows 10:
     -   Is set to **Run only when user is logged on** (task [**LogonType**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype) is **TASK\_LOGON\_INTERACTIVE\_TOKEN** or **TASK\_LOGON\_GROUP**)
 
     All other triggers are delayed until battery saver is off. For more information about accessing battery saver status in your application, see [**SYSTEM\_POWER\_STATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-system_power_status). For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).
+
+-   For security reasons, a non-administrator user cannot view nor manage a Windows Task Scheduler task that was created by another user.
 
 ## Windows 8
 

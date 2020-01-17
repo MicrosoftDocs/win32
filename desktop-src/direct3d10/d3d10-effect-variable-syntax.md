@@ -2,7 +2,7 @@
 Description: An effect variable is declared with the following syntax.
 ms.assetid: 53939c65-3725-44cc-bec6-775c3b921770
 title: Effect Variable Syntax (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ An effect variable is declared with the following syntax.
 
 | Name         | Description                                                                                                                                                                                 |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DataType     | Any [basic](https://msdn.microsoft.com/en-us/library/Bb509706(v=VS.85).aspx) or [texture](https://msdn.microsoft.com/en-us/library/Bb509700(v=VS.85).aspx) type.                                                                        |
+| DataType     | Any [basic](https://msdn.microsoft.com/library/Bb509706(v=VS.85).aspx) or [texture](https://msdn.microsoft.com/library/Bb509700(v=VS.85).aspx) type.                                                                        |
 | VariableName | An ASCII string that uniquely identifies the name of the effect variable.                                                                                                                   |
 | SemanticName | A ASCII string that denotes additional information about how a variable should be used. A semantic is an ASCII string that can be either a predefined system-value or a custom-user string. |
 | Annotations  | One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see [Annotation Syntax (Direct3D 10)](d3d10-effect-annotation-syntax.md).     |
@@ -31,7 +31,7 @@ An effect variable that is declared outside of all functions, is considered glob
 
 ## Example
 
-The [BasicHLSL10 sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx) uses global variables without semantics for material colors, light properties and transformation matrices.
+The [BasicHLSL10 sample](https://msdn.microsoft.com/library/Ee416395(v=VS.85).aspx) uses global variables without semantics for material colors, light properties and transformation matrices.
 
 This example illustrates global effect variables.
 
@@ -86,7 +86,7 @@ Texture2D g_MeshTexture;            // Color texture for mesh
 
 
 
-Sampling a texture is done with a texture sampler. To set up a sampler in an effect, see the [sampler type](https://msdn.microsoft.com/en-us/library/Bb509644(v=VS.85).aspx).
+Sampling a texture is done with a texture sampler. To set up a sampler in an effect, see the [sampler type](https://msdn.microsoft.com/library/Bb509644(v=VS.85).aspx).
 
 ## Related topics
 

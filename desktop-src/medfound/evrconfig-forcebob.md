@@ -1,8 +1,8 @@
 ---
 Description: Forces the Enhanced Video Renderer (EVR) to use bob deinterlacing.
 ms.assetid: 56f808b3-c2eb-46e4-84a1-c478a5db78e7
-title: EVRConfig_ForceBob attribute
-ms.topic: article
+title: EVRConfig_ForceBob attribute (Uuids.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

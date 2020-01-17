@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Layout Analysis
 
-Layout analysis operates on a [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection and classifies the strokes into handwriting and drawing elements. The [**Divider**](inkdivider-class.md) object provides access to the Tablet PC layout analysis features.
+Layout analysis operates on a [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection and classifies the strokes into handwriting and drawing elements. The [**Divider**](inkdivider-class.md) object provides access to the Tablet PC layout analysis features.
 
-The following table describes the structural element types of the [**InkDivisionType**](https://msdn.microsoft.com/en-us/library/ms694985(v=VS.85).aspx) enumeration into which the [**Divider**](inkdivider-class.md) object classifies strokes.
+The following table describes the structural element types of the [**InkDivisionType**](https://msdn.microsoft.com/library/ms694985(v=VS.85).aspx) enumeration into which the [**Divider**](inkdivider-class.md) object classifies strokes.
 
 
 
@@ -25,7 +25,7 @@ The following table describes the structural element types of the [**InkDivision
 
  
 
-The [**Divider**](inkdivider-class.md) object has a [**Strokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection, which the **Divider** object dynamically analyzes each time you add to or delete from the collection. The **Divider** object is not serializable, and you cannot save its analysis state. Thus the **Divider** object is designed for applications that must differentiate between mixed handwriting and drawing input, but do not need to reanalyze large amounts of ink between sessions.
+The [**Divider**](inkdivider-class.md) object has a [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection, which the **Divider** object dynamically analyzes each time you add to or delete from the collection. The **Divider** object is not serializable, and you cannot save its analysis state. Thus the **Divider** object is designed for applications that must differentiate between mixed handwriting and drawing input, but do not need to reanalyze large amounts of ink between sessions.
 
 You can obtain a static snapshot of the current analysis result, which is returned in a [**DivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) object. You can obtain [**DivisionUnit**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit) objects, each which represents a single structural element of a **DivisionResult** object. The **DivisionResult** and **DivisionUnit** objects are not serializable. However, state information from these objects is available.
 

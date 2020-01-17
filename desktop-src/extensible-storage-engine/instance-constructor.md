@@ -1,5 +1,5 @@
 ﻿---
-title: Instance constructor  (Microsoft.Isam.Esent.Interop)
+title: Instance constructor 
 TOCTitle: 'Instance constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.instance(v=EXCHG.10)

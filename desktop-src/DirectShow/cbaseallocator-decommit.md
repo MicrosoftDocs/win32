@@ -1,8 +1,8 @@
 ---
 Description: The Decommit method decommits the allocator. This method implements the IMemAllocator::Decommit method.
 ms.assetid: 0c8d44e0-17ea-4f7f-be44-f9ae2e34fbef
-title: CBaseAllocator.Decommit method
-ms.topic: article
+title: CBaseAllocator.Decommit method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

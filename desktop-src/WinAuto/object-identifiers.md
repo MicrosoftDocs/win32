@@ -1,5 +1,5 @@
 ---
-title: Object Identifiers
+title: Object Identifiers (Winuser.h)
 description: This topic describes the Microsoft Active Accessibility object identifiers, 32-bit values that identify categories of accessible objects within a window.
 ms.assetid: dc1603f8-29e5-4acd-817a-c6957feaff6c
 topic_type:
@@ -23,7 +23,7 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

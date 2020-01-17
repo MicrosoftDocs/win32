@@ -1,8 +1,8 @@
 ---
 Description: The CorePrinterDriverInstalled function reports whether a core printer driver with a specified GUID, date, and version is installed.
 ms.assetid: fb859aca-bb7b-495d-bd38-16ffa084c240
-title: CorePrinterDriverInstalled function
-ms.topic: article
+title: CorePrinterDriverInstalled function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -87,7 +87,7 @@ A pointer to **TRUE** if the driver, or a newer version, is installed, **FALSE**
 
 If the operation succeeds, the return value is S\_OK, otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Remarks
 

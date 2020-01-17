@@ -1,8 +1,8 @@
 ---
 Description: Builds a transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 99c75ce9-3683-4753-b635-760eb8aaf46e
-title: D3DXMatrixTransformation function
-ms.topic: article
+title: D3DXMatrixTransformation function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,7 +44,7 @@ D3DXMATRIX* D3DXMatrixTransformation(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -53,7 +53,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pScalingCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the scaling center point. If this argument is **NULL**, an identity M<sub>sc</sub> matrix is applied to the formula in Remarks.
 
@@ -62,7 +62,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the scaling ce
 *pScalingRotation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that specifies the scaling rotation. If this argument is **NULL**, an identity M<sub>sr</sub> matrix is applied to the formula in Remarks.
 
@@ -71,7 +71,7 @@ Pointer to a [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that specifies the sc
 *pScaling* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure, the scaling vector. If this argument is **NULL**, an identity Mₛ matrix is applied to the formula in Remarks.
 
@@ -80,7 +80,7 @@ Pointer to a D3DXVECTOR3 structure, the scaling vector. If this argument is **NU
 *pRotationCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure, a point that identifies the center of rotation. If this argument is **NULL**, an identity M<sub>rc</sub> matrix is applied to the formula in Remarks.
 
@@ -89,7 +89,7 @@ Pointer to a D3DXVECTOR3 structure, a point that identifies the center of rotati
 *pRotation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a D3DXQUATERNION structure that specifies the rotation. If this argument is **NULL**, an identity M<sub>r</sub> matrix is applied to the formula in Remarks.
 
@@ -98,7 +98,7 @@ Pointer to a D3DXQUATERNION structure that specifies the rotation. If this argum
 *pTranslation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure, representing the translation. If this argument is **NULL**, an identity Mₜ matrix is applied to the formula in Remarks.
 
@@ -106,7 +106,7 @@ Pointer to a D3DXVECTOR3 structure, representing the translation. If this argume
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that is the transformation matrix.
 

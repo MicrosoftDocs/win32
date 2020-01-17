@@ -1,7 +1,7 @@
 ---
 Description: A custom action can call a function defined in a dynamic-link library (DLL) written in C or C++.
 ms.assetid: 605c7b97-70bd-467a-9438-47b05d8b6b5d
-title: Dynamic-Link Libraries
+title: Dynamic-Link Libraries (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,7 +40,7 @@ The following types of custom actions call a dynamic-link library.
  
 
 > [!Note]  
-> To use COM you need to call [**CoInitializeEx**](https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx) in the custom action. Do not quit if you find that the thread has already been initialized. For example, the thread is initialized in a per-machine installation but not in a per-user installation.
+> To use COM you need to call [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) in the custom action. Do not quit if you find that the thread has already been initialized. For example, the thread is initialized in a per-machine installation but not in a per-user installation.
 
  
 

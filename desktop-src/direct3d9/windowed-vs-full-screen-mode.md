@@ -12,7 +12,7 @@ Direct3D applications can run in either of two modes: full-screen or windowed.
 
 Full-screen mode means the window that the application runs in covers the entire desktop, hiding all running applications (including your development environment). Games typically default to full-screen mode to fully immerse the user in the game by hiding all running applications. An application running in windowed-mode shares the desktop with all running applications. Code differences between full-screen mode and windowed mode are very small.
 
-Because an application running in full-screen mode takes over the screen, debugging the application requires either a separate monitor or the use of a remote debugger. Use the [DirectX Control Panel Tool](https://msdn.microsoft.com/en-us/library/Ee416791(v=VS.85).aspx) to enable multiple-monitor debugging. One advantage of a windowed-mode application is that you can step through the code in a debugger without multiple monitors or a remote debugger.
+Because an application running in full-screen mode takes over the screen, debugging the application requires either a separate monitor or the use of a remote debugger. Use the [DirectX Control Panel Tool](https://msdn.microsoft.com/library/Ee416791(v=VS.85).aspx) to enable multiple-monitor debugging. One advantage of a windowed-mode application is that you can step through the code in a debugger without multiple monitors or a remote debugger.
 
 ## Related topics
 

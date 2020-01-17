@@ -2,8 +2,8 @@
 Description: Returns a collection of subclasses for a specified class.
 ms.assetid: a9d16ee9-992e-4ce5-9c03-0a2c9958588c
 ms.tgt_platform: multiple
-title: SWbemServices.SubclassesOfAsync method
-ms.topic: article
+title: SWbemServices.SubclassesOfAsync method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

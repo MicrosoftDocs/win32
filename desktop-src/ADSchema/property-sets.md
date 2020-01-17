@@ -1,5 +1,5 @@
 ---
-title: Property Sets
+title: Property Sets (AD Schema)
 description: The following property sets are defined by Active Directory.
 ms.assetid: 8d8bc34c-bfeb-4730-8e54-4facdf445032
 ms.tgt_platform: multiple
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property Sets
+# Property Sets (AD Schema)
 
 The following property sets are defined by Active Directory.
 

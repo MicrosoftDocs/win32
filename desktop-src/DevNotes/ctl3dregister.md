@@ -2,7 +2,7 @@
 Description: Registers an application as a client of CTL3D.
 ms.assetid: 38a4a04a-6322-4eb8-b272-ae9b90f84e0f
 title: Ctl3dRegister function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -51,7 +51,7 @@ An application that uses CTL3D should call this function in WinMain.
 
 3D effects are not available on systems that have less than VGA resolution.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

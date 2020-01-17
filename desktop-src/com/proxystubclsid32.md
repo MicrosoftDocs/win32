@@ -32,7 +32,7 @@ If you add interfaces, you must use this entry to register them (32-bit systems)
 
 <dl> <dt>
 
-[**IMarshal**](https://msdn.microsoft.com/en-us/library/Dd542707(v=VS.85).aspx)
+[**IMarshal**](https://msdn.microsoft.com/library/Dd542707(v=VS.85).aspx)
 </dt> <dt>
 
 [**Interface**](interface-key.md)

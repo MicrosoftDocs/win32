@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS ServicePackMinor property
+title: IVMGuestOS ServicePackMinor property (VPCCOMInterfaces.h)
 description: The minor version of the service pack of the guest operating system running in the virtual machine.
 ms.assetid: f1413b5a-6a74-42a6-9671-b00b7c8912fa
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

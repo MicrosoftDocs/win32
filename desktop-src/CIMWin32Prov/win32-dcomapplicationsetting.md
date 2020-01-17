@@ -3,7 +3,7 @@ Description: The Win32\_DCOMApplicationSetting&\#8194;WMI class represents the s
 ms.assetid: afa23faa-bf4d-4f54-9ee9-227956ff3292
 ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

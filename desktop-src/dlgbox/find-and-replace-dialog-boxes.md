@@ -98,7 +98,7 @@ You can provide a custom template for a **Find** or **Replace** dialog box, for 
 
         -   If your custom template is already in memory, set the FR\_ENABLETEMPLATEHANDLE flag. Use the **hInstance** member to identify the memory object that contains the template.
 
-You can provide an [**FRHookProc**](https://msdn.microsoft.com/en-us/library/ms646922(v=VS.85).aspx) hook procedure for a **Find** or **Replace** dialog box. The hook procedure can process messages sent to the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
+You can provide an [**FRHookProc**](https://msdn.microsoft.com/library/ms646922(v=VS.85).aspx) hook procedure for a **Find** or **Replace** dialog box. The hook procedure can process messages sent to the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
 
 **To enable a hook procedure for a Find or Replace dialog box**
 

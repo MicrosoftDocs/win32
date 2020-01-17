@@ -1,8 +1,8 @@
 ---
 Description: Enumerates the subkeys of the specified open registry key in an offline registry hive. The function retrieves information about one subkey each time it is called.
 ms.assetid: 46d13c37-473a-4772-992c-a565ad702fb9
-title: OREnumKey function
-ms.topic: article
+title: OREnumKey function (Offreg.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -106,7 +106,7 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 To enumerate subkeys, an application should initially call the **OREnumKey** function with the *dwIndex* parameter set to zero. The application should then increment the *dwIndex* parameter and call **OREnumKey** until there are no more subkeys (meaning the function returns ERROR\_NO\_MORE\_ITEMS).
 
-The application can also set *dwIndex* to the index of the last subkey on the first call to the function and decrement the index until the subkey with the index 0 is enumerated. To retrieve the index of the last subkey, use the [**ORQueryInfoKey**](https://msdn.microsoft.com/en-us/library/ms724902(v=VS.85).aspx) function.
+The application can also set *dwIndex* to the index of the last subkey on the first call to the function and decrement the index until the subkey with the index 0 is enumerated. To retrieve the index of the last subkey, use the [**ORQueryInfoKey**](https://msdn.microsoft.com/library/ms724902(v=VS.85).aspx) function.
 
 While an application is using the **OREnumKey** function, it should not make calls to any offline registry functions that might change the key being enumerated.
 

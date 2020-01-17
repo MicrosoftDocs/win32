@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientConnection2 SetInstalledShvs method
+title: INapEnforcementClientConnection2 SetInstalledShvs method (NapEnforcementClient.h)
 description: Used by the NAP Agent to set the installed System Health Validators (SHVs) on the client.
 ms.assetid: 38aa99b9-a15a-414d-91fc-128de8f5a654
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: SFVM\_QUERYFSNOTIFY may be altered or unavailable.
 ms.assetid: 5d777115-bae3-47c4-9edc-c99c40a4f926
-title: SFVM_QUERYFSNOTIFY message
-ms.topic: article
+title: SFVM_QUERYFSNOTIFY message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[**SFVM\_QUERYFSNOTIFY** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to register a folder so that changes to that folder's view will generate notifications. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to register a folder so that changes to that folder's view will generate notifications. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

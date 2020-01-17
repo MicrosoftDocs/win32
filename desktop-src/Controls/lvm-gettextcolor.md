@@ -1,5 +1,5 @@
 ---
-title: LVM_GETTEXTCOLOR message
+title: LVM_GETTEXTCOLOR message (Commctrl.h)
 description: Retrieves the text color of a list-view control. You can send this message explicitly or by using the ListView\_GetTextColor macro.
 ms.assetid: 51685e61-dd0a-4c21-8c66-31cf72c2b3e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

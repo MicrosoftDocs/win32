@@ -2,8 +2,8 @@
 Description: The CInstance::GetWBEMINT64 method retrieves a 64-bit integer property.
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
 ms.tgt_platform: multiple
-title: CInstance::GetWBEMINT64 methods
-ms.topic: article
+title: CInstance::GetWBEMINT64 methods (Instance.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -28,9 +28,9 @@ The **CInstance::GetWBEMINT64** method retrieves a 64-bit integer property.
 
 | Method                                                                                   | Description                                     |
 |:-----------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**GetWBEMINT64(LPCWSTR, LONGLONG&)**](https://msdn.microsoft.com/en-us/library/Aa388983(v=VS.85).aspx)   | Retrieves a 64-bit integer property.<br/> |
-| [**GetWBEMINT64(LPCWSTR, WBEMINT64&)**](https://msdn.microsoft.com/en-us/library/Aa388985(v=VS.85).aspx) | Retrieves a 64-bit integer property.<br/> |
-| [**GetWBEMINT64(LPCWSTR, ULONGLONG&)**](https://msdn.microsoft.com/en-us/library/Aa388984(v=VS.85).aspx) | Retrieves a 64-bit integer property.<br/> |
+| [**GetWBEMINT64(LPCWSTR, LONGLONG&)**](https://msdn.microsoft.com/library/Aa388983(v=VS.85).aspx)   | Retrieves a 64-bit integer property.<br/> |
+| [**GetWBEMINT64(LPCWSTR, WBEMINT64&)**](https://msdn.microsoft.com/library/Aa388985(v=VS.85).aspx) | Retrieves a 64-bit integer property.<br/> |
+| [**GetWBEMINT64(LPCWSTR, ULONGLONG&)**](https://msdn.microsoft.com/library/Aa388984(v=VS.85).aspx) | Retrieves a 64-bit integer property.<br/> |
 
 
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets a description of the constant table.
 ms.assetid: 3a7396c6-3a3e-44c2-96b7-60339015b376
-title: ID3DXConstantTable::GetDesc method
-ms.topic: article
+title: ID3DXConstantTable::GetDesc method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Description of the constant table. See [**D3DXCONSTANTTABLE\_DESC**](d3dxconstan
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

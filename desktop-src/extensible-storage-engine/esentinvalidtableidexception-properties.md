@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidTableIdException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidTableIdException properties
 TOCTitle: EsentInvalidTableIdException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidtableidexception_properties(v=EXCHG.10)

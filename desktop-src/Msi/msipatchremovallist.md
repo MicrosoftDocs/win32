@@ -2,7 +2,7 @@
 Description: The installer sets the value of the MsiPatchRemovalList property to a list of patches that are being removed during the installation.
 ms.assetid: 6e0b391a-d840-4f01-af12-4708ce6c9ce8
 title: MsiPatchRemovalList property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

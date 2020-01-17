@@ -1,7 +1,7 @@
 ---
 Description: Describes how to add data-unit extensions when using Windows Media encoders.
 ms.assetid: fdadcb85-c564-4d05-a4d7-af53a0107455
-title: Using Data Unit Extensions
+title: Using Data Unit Extensions (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -18,7 +18,7 @@ A data unit extension can contain information that is required by the encoder, t
 
 ## Passing Extended Samples to the Codec Objects
 
-The Windows Media Format SDK uses buffer objects that expose [**INSSBuffer**](https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx) interfaces. The latest interface is [**INSSBuffer4**](https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx). To pass samples to a codec object with data unit extensions, you must use a buffer object that implements the [**IMediaBuffer**](https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx) or [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) interface and the **INSSBuffer** interface. You can use buffer objects created by the Windows Media Format SDK or Microsoft Media Foundation to accomplish this, or you can make your own buffer class that meets the requirements. To create your own buffer class, you must conform to the method prototypes for the **INSSBuffer** interfaces. These interface definitions can be found in the wmsbuffer.h header file that is installed with the Windows Media Format SDK.
+The Windows Media Format SDK uses buffer objects that expose [**INSSBuffer**](https://msdn.microsoft.com/library/Dd743243(v=VS.85).aspx) interfaces. The latest interface is [**INSSBuffer4**](https://msdn.microsoft.com/library/Dd743256(v=VS.85).aspx). To pass samples to a codec object with data unit extensions, you must use a buffer object that implements the [**IMediaBuffer**](https://msdn.microsoft.com/library/Dd390166(v=VS.85).aspx) or [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) interface and the **INSSBuffer** interface. You can use buffer objects created by the Windows Media Format SDK or Microsoft Media Foundation to accomplish this, or you can make your own buffer class that meets the requirements. To create your own buffer class, you must conform to the method prototypes for the **INSSBuffer** interfaces. These interface definitions can be found in the wmsbuffer.h header file that is installed with the Windows Media Format SDK.
 
 ## Related topics
 

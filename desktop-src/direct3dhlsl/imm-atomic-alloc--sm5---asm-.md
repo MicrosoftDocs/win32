@@ -2,7 +2,7 @@
 title: imm_atomic_alloc (sm5 - asm)
 description: Atomically increment the hidden 32-bit counter stored with a Count or Append unordered access view (UAV), returning the original value.
 ms.assetid: 534FA3C3-6FAC-41DC-AC07-0E53FEED000C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

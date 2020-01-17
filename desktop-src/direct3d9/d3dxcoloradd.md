@@ -1,8 +1,8 @@
 ---
 Description: Adds two color values together to create a new color value.
 ms.assetid: 7743392d-4676-4408-93e9-f92d4bf02411
-title: D3DXColorAdd function
-ms.topic: article
+title: D3DXColorAdd function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

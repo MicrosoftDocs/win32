@@ -1,5 +1,5 @@
 ---
-title: How to Load a Bitmap from a Resource
+title: How to Load a Bitmap from a Resource (Direct2D)
 description: Shows how to load a Direct2D bitmap stored as an application resource.
 ms.assetid: 7285e6ea-ebc7-4693-8a77-99bff0b5d0d1
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 03/09/2019
 
 # How to Load a Bitmap from a Resource
 
-As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx).
+As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx).
 
 1.  In the [application resource definition file](https://docs.microsoft.com/windows/desktop/menurc/about-resource-files), define the resource. The following example defines a resource named "SampleImage".
 
@@ -85,7 +85,7 @@ This resource will be added to the application's resource file when the applicat
 
     
 
-4.  Use the [**IWICImagingFactory::CreateStream**](https://msdn.microsoft.com/en-us/library/Ee690325(v=VS.85).aspx) method to create an [**IWICStream**](https://msdn.microsoft.com/en-us/library/Ee719782(v=VS.85).aspx) object.
+4.  Use the [**IWICImagingFactory::CreateStream**](https://msdn.microsoft.com/library/Ee690325(v=VS.85).aspx) method to create an [**IWICStream**](https://msdn.microsoft.com/library/Ee719782(v=VS.85).aspx) object.
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -104,7 +104,7 @@ This resource will be added to the application's resource file when the applicat
 
     
 
-5.  Use the [**IWICImagingFactory::CreateDecoderFromStream**](https://msdn.microsoft.com/en-us/library/Ee690309(v=VS.85).aspx) method to create an [**IWICBitmapDecoder**](https://msdn.microsoft.com/en-us/library/Ee690086(v=VS.85).aspx).
+5.  Use the [**IWICImagingFactory::CreateDecoderFromStream**](https://msdn.microsoft.com/library/Ee690309(v=VS.85).aspx) method to create an [**IWICBitmapDecoder**](https://msdn.microsoft.com/library/Ee690086(v=VS.85).aspx).
 
     ```C++
         if (SUCCEEDED(hr))
@@ -121,7 +121,7 @@ This resource will be added to the application's resource file when the applicat
 
     
 
-6.  Retrieve a frame from the image and store it in an [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/en-us/library/Ee690134(v=VS.85).aspx) object.
+6.  Retrieve a frame from the image and store it in an [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/library/Ee690134(v=VS.85).aspx) object.
 
     ```C++
         if (SUCCEEDED(hr))
@@ -133,7 +133,7 @@ This resource will be added to the application's resource file when the applicat
 
     
 
-7.  Before Direct2D can use the image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**IWICImagingFactory::CreateFormatConverter**](https://msdn.microsoft.com/en-us/library/Ee690317(v=VS.85).aspx) method to create an [**IWICFormatConverter**](https://msdn.microsoft.com/en-us/library/Ee690274(v=VS.85).aspx) object, then use the **IWICFormatConverter** object's [**Initialize**](https://msdn.microsoft.com/en-us/library/Ee690279(v=VS.85).aspx) method to perform the conversion.
+7.  Before Direct2D can use the image, it must be converted to the 32bppPBGRA pixel format. To convert the image format, use the [**IWICImagingFactory::CreateFormatConverter**](https://msdn.microsoft.com/library/Ee690317(v=VS.85).aspx) method to create an [**IWICFormatConverter**](https://msdn.microsoft.com/library/Ee690274(v=VS.85).aspx) object, then use the **IWICFormatConverter** object's [**Initialize**](https://msdn.microsoft.com/library/Ee690279(v=VS.85).aspx) method to perform the conversion.
  
 ```C++
         if (SUCCEEDED(hr))
@@ -157,7 +157,7 @@ This resource will be added to the application's resource file when the applicat
 
     
 
-8.  Finally, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) object that can be drawn by a render target and used with other Direct2D objects.
+8.  Finally, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) object that can be drawn by a render target and used with other Direct2D objects.
     ```C++
         if (SUCCEEDED(hr))
         {

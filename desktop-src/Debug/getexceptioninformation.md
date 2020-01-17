@@ -2,7 +2,7 @@
 Description: Retrieves a computer-independent description of an exception, and information about the computer state that exists for the thread when the exception occurs. This function can be called only from within the filter expression of an exception handler.
 ms.assetid: e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae
 title: GetExceptionInformation macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -89,7 +89,7 @@ In the case of nested handlers, each filter expression is evaluated until one is
 [Structured Exception Handling Overview](structured-exception-handling.md)
 </dt> <dt>
 
-[Enable Windows Support for Intel AVX](https://msdn.microsoft.com/en-us/library/Ff919571(v=VS.85).aspx)
+[Enable Windows Support for Intel AVX](https://msdn.microsoft.com/library/Ff919571(v=VS.85).aspx)
 </dt> </dl>
 
  

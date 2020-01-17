@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_DisketteDrive class sets the d
 ms.assetid: ff9f8bbb-6e4f-4b2b-a352-d13f4175dbc7
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_DisketteDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

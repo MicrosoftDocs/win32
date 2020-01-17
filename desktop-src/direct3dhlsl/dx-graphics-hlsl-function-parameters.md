@@ -112,7 +112,7 @@ The *Type* of a function argument could be a structure, which could include a pe
 
 ## Examples
 
-This example (from the [BasicHLSL10 Sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx)) illustrates uniform and non-uniform inputs to a vertex shader function.
+This example (from the [BasicHLSL10 Sample](https://msdn.microsoft.com/library/Ee416395(v=VS.85).aspx)) illustrates uniform and non-uniform inputs to a vertex shader function.
 
 
 ```
@@ -130,7 +130,7 @@ VS_OUTPUT RenderSceneVS(
 
 
 
-This example (from the [ContentStreaming Sample](https://msdn.microsoft.com/en-us/library/Ee416397(v=VS.85).aspx)) uses an input structure to pass arguments to a pixel shader function.
+This example (from the [ContentStreaming Sample](https://msdn.microsoft.com/library/Ee416397(v=VS.85).aspx)) uses an input structure to pass arguments to a pixel shader function.
 
 
 ```

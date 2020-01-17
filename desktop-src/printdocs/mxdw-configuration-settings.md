@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MXDW Configuration Settings
 
-The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application. Applications developers can control the following output settings of the MXDW using the PrintTicket and PrintCapabilities parts of the [Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx).
+The Microsoft XPS Document Writer (MXDW) enables users to create XPS document files by printing from any Windows application. Applications developers can control the following output settings of the MXDW using the PrintTicket and PrintCapabilities parts of the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).
 
 ## JobInterleaving
 
@@ -43,9 +43,9 @@ The following example is an example of the PrintCapabilities XML that includes t
 
 
 
-The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx) for details.
+The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) for details.
 
-Since JobInterleaving is not one of the [Print Schema Public Keywords](https://msdn.microsoft.com/en-us/library/ms716547(v=VS.85).aspx), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
+Since JobInterleaving is not one of the [Print Schema Public Keywords](https://msdn.microsoft.com/library/ms716547(v=VS.85).aspx), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
 
 
 ```XML
@@ -103,9 +103,9 @@ The PrintCapabilities XML of the JobImageType setting appears below:
 
 
 
-The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx) for details.
+The PrintTicket XML is similar, except that it specifies a particular option. See the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) for details.
 
-Since JobImageType is not one of the [Print Schema Public Keywords](https://msdn.microsoft.com/en-us/library/ms716547(v=VS.85).aspx), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
+Since JobImageType is not one of the [Print Schema Public Keywords](https://msdn.microsoft.com/library/ms716547(v=VS.85).aspx), you must include a declaration of the namespace (in this case "ns0000" in the **PrintCapabilities** (or **PrintTicket**) tag at the beginning of the PrintCapabilities (or PrintTicket) document, as shown in the following example:
 
 
 ```XML
@@ -128,7 +128,7 @@ xmlns:ns0000=https://schemas.microsoft.com/windows/2006/06/printing/printschemak
 [Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
 </dt> <dt>
 
-[Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx)
+[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
 </dt> <dt>
 
 [XPS Specification and License Downloads](https://go.microsoft.com/fwlink/p/?linkid=70358)

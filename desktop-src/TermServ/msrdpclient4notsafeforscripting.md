@@ -14,7 +14,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -29,7 +29,7 @@ This class implements the following interfaces.
 -   [**IMsRdpClient2**](imsrdpclient2.md)
 -   [**IMsRdpClient**](imsrdpclientshell2.md)
 -   [**IMsTscAx**](imstscax-interface.md)
--   [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+-   [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 -   [**IMsTscAxEvents**](imstscaxevents-interface.md)
 -   [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 -   [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)

@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.PrereadIOMax property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.PrereadIOMax property 
 TOCTitle: 'PrereadIOMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.PrereadIOMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.prereadiomax(v=EXCHG.10)
 ms:contentKeyID: 55103559
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.PrereadIOMax
 dev_langs:

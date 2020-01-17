@@ -1,5 +1,5 @@
 ---
-title: EsentDatabasePatchFileMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabasePatchFileMismatchException members
 TOCTitle: EsentDatabasePatchFileMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasepatchfilemismatchexception_members(v=EXCHG.10)

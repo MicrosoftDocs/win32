@@ -1,11 +1,11 @@
 ---
-title: EsentDerivedColumnCorruptionException class (Microsoft.Isam.Esent.Interop)
+title: EsentDerivedColumnCorruptionException class
 TOCTitle: EsentDerivedColumnCorruptionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentderivedcolumncorruptionexception(v=EXCHG.10)
 ms:contentKeyID: 55101606
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException
 dev_langs:

@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsString method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsString method 
 TOCTitle: 'RetrieveColumnAsString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasstring(v=EXCHG.10)

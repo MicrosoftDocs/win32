@@ -1,8 +1,8 @@
 ---
 Description: Completes a decoded frame.
 ms.assetid: 476f8bcc-2a93-430e-bda5-33102e36a35a
-title: NtGdiDdEndMoCompFrame function
-ms.topic: article
+title: NtGdiDdEndMoCompFrame function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdEndMoCompFrame(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Handle to a [DD\_MOTIONCOMP\_LOCAL](https://msdn.microsoft.com/en-us/library/ms794211.aspx) structure that contains a description of the motion compensation being requested.
+Handle to a [DD\_MOTIONCOMP\_LOCAL](https://msdn.microsoft.com/library/ms794211.aspx) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puEndFrameData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_ENDMOCOMPFRAMEDATA](https://msdn.microsoft.com/en-us/library/ms793897.aspx) structure that contains the information needed to complete the decoded frame.
+Pointer to a [DD\_ENDMOCOMPFRAMEDATA](https://msdn.microsoft.com/library/ms793897.aspx) structure that contains the information needed to complete the decoded frame.
 
 </dd> </dl>
 

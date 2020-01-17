@@ -55,7 +55,7 @@ Local file URL formats accepted by selected APIs and queries are listed in the f
 | API or query                                                                                                    | Format A | Format B | Format C |
 |-----------------------------------------------------------------------------------------------------------------|----------|----------|----------|
 | [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager)                                            | Y        | N        | Y        |
-| [**IGatherNotifyInline::OnDataChange**](https://msdn.microsoft.com/en-us/library/Bb231472(v=VS.85).aspx)                           | Y        | Y        | Y        |
+| [**IGatherNotifyInline::OnDataChange**](https://msdn.microsoft.com/library/Bb231472(v=VS.85).aspx)                           | Y        | Y        | Y        |
 | [**ISearchCatalogManager::ReindexMatchingURLs**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexmatchingurls)         | Y        | Y        | Y        |
 | [**ISearchCatalogManager::ReindexSearchRoot**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexsearchroot)             | Y        | N        | N        |
 | [**ISearchCatalogManager2::PrioritizeMatchingURLs**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager2-prioritizematchingurls) | Y        | Y        | Y        |
@@ -75,7 +75,7 @@ Remote file URL formats accepted by selected queries are listed in the following
 | Query                                                                                                           | Format D | Format E | Format F |
 |-----------------------------------------------------------------------------------------------------------------|----------|----------|----------|
 | [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager)                                            | N/A      | N/A      | N/A      |
-| [**IGatherNotifyInline::OnDataChange**](https://msdn.microsoft.com/en-us/library/Bb231472(v=VS.85).aspx)                           | N/A      | N/A      | N/A      |
+| [**IGatherNotifyInline::OnDataChange**](https://msdn.microsoft.com/library/Bb231472(v=VS.85).aspx)                           | N/A      | N/A      | N/A      |
 | [**ISearchCatalogManager::ReindexMatchingURLs**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexmatchingurls)         | N/A      | N/A      | N/A      |
 | [**ISearchCatalogManager::ReindexSearchRoot**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-reindexsearchroot)             | N/A      | N/A      | N/A      |
 | [**ISearchCatalogManager2::PrioritizeMatchingURLs**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager2-prioritizematchingurls) | N/A      | N/A      | N/A      |

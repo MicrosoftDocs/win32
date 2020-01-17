@@ -1,8 +1,8 @@
 ---
 Description: Uses linear interpolation to create a color value.
 ms.assetid: bf7bf2f4-5fb5-44d3-a7e5-7998640d7d49
-title: D3DXColorLerp function
-ms.topic: article
+title: D3DXColorLerp function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -68,7 +68,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Parameter that linearly interpolates between the colors, pC1 and pC2, treating them both as 4D vectors. There are no limits on the value of s.
 

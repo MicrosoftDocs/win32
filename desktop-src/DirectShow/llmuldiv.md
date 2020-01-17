@@ -1,8 +1,8 @@
 ---
 Description: The llMulDiv function implements the formula ((a\*b)+rnd)/c where each term is a 64-bit value.
 ms.assetid: cd5073b9-27c7-42ee-8487-2d4ea29f77d4
-title: llMulDiv function
-ms.topic: article
+title: llMulDiv function (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

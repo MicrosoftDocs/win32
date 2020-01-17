@@ -1,5 +1,5 @@
 ﻿---
-title: SystemParameters members (Microsoft.Isam.Esent.Interop)
+title: SystemParameters members
 TOCTitle: SystemParameters members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.SystemParameters
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters_members(v=EXCHG.10)

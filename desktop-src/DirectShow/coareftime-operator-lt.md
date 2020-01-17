@@ -1,8 +1,8 @@
 ---
 Description: This operator tests if one reference time is less than another.
 ms.assetid: 709fb861-a836-4a20-8c93-c0e8ab79f377
-title: COARefTime.operator< method
-ms.topic: article
+title: COARefTime.operator< method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IDWriteFontSet GetPropertyValues methods
+title: IDWriteFontSet GetPropertyValues methods (Dwrite\_3.h)
 description: Returns property values for the font set.
 ms.assetid: 3c3fd5b7-88dd-d434-0b62-f365b407c379
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDWriteFontSet::GetPropertyValues methods
@@ -24,9 +24,9 @@ Returns property values for the font set.
 
 | Method                                                                                                                                   | Description                                                                                                                                                                                                                                                                                                   |
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetPropertyValues(DWRITE\_FONT\_PROPERTY\_ID, IDWriteStringList\*\*)**](https://msdn.microsoft.com/en-us/library/Dn933251(v=VS.85).aspx)                       | Returns all unique property values in the set, which can be used for purposes such as displaying a family list or tag cloud. All values are returned regardless of language, including all localized names. <br/>                                                                                       |
-| [**GetPropertyValues(DWRITE\_FONT\_PROPERTY\_ID, const WCHAR\*, IDWriteStringList\*\*)**](https://msdn.microsoft.com/en-us/library/Dn933250(v=VS.85).aspx)        | Returns all unique property values in the set, which can be used for purposes such as displaying a family list or tag cloud. Values are returned in priority order according to the language list, such that if a font contains more than one localized name, the preferred one will be returned. <br/> |
-| [**GetPropertyValues(UINT32, DWRITE\_FONT\_PROPERTY\_ID, BOOL\*, IDWriteLocalizedStrings\*\*)**](https://msdn.microsoft.com/en-us/library/Dn933249(v=VS.85).aspx) | Returns the property values of a specific font item index.<br/>                                                                                                                                                                                                                                         |
+| [**GetPropertyValues(DWRITE\_FONT\_PROPERTY\_ID, IDWriteStringList\*\*)**](https://msdn.microsoft.com/library/Dn933251(v=VS.85).aspx)                       | Returns all unique property values in the set, which can be used for purposes such as displaying a family list or tag cloud. All values are returned regardless of language, including all localized names. <br/>                                                                                       |
+| [**GetPropertyValues(DWRITE\_FONT\_PROPERTY\_ID, const WCHAR\*, IDWriteStringList\*\*)**](https://msdn.microsoft.com/library/Dn933250(v=VS.85).aspx)        | Returns all unique property values in the set, which can be used for purposes such as displaying a family list or tag cloud. Values are returned in priority order according to the language list, such that if a font contains more than one localized name, the preferred one will be returned. <br/> |
+| [**GetPropertyValues(UINT32, DWRITE\_FONT\_PROPERTY\_ID, BOOL\*, IDWriteLocalizedStrings\*\*)**](https://msdn.microsoft.com/library/Dn933249(v=VS.85).aspx) | Returns the property values of a specific font item index.<br/>                                                                                                                                                                                                                                         |
 
 
 
@@ -44,7 +44,7 @@ Returns property values for the font set.
 
 <dl> <dt>
 
-[**IDWriteFontSet**](https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx)
+[**IDWriteFontSet**](https://msdn.microsoft.com/library/Dn933235(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveredWithoutUndoException members (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithoutUndoException members
 TOCTitle: EsentRecoveredWithoutUndoException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwithoutundoexception_members(v=EXCHG.10)

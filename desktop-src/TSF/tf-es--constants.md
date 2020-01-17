@@ -1,5 +1,5 @@
 ---
-title: TF_ES_ Constants
+title: TF_ES_ Constants (Msctf.h)
 description: The following are constants used by the ITfContext RequestEditSession method.
 ms.assetid: 5498329f-3302-4f66-bdec-cab7db0cdc0e
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

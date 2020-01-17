@@ -1,5 +1,5 @@
 ---
-title: TBM_SETTICFREQ message
+title: TBM_SETTICFREQ message (Commctrl.h)
 description: Sets the interval frequency for tick marks in a trackbar.
 ms.assetid: c391260c-d6c2-4b6a-84e8-7fe5d734035b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

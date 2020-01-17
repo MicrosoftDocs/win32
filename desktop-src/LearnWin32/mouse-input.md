@@ -1,5 +1,5 @@
 ---
-title: Mouse Input
+title: Mouse Input (Get Started with Win32 and C++)
 description: Mouse Input
 ms.assetid: EB074CB6-2BB3-4593-A843-8EE25CA028BE
 ms.topic: article

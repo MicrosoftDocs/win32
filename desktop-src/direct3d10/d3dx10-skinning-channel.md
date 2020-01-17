@@ -1,8 +1,8 @@
 ---
 Description: The member of the vertex decl to do the software skinning on. This is used with the ID3DX10SkinInfo::DoSoftwareSkinning API.
 ms.assetid: 67c817cd-ce78-4e8b-bdc3-7c4d6670dee1
-title: D3DX10_SKINNING_CHANNEL structure
-ms.topic: structure
+title: D3DX10_SKINNING_CHANNEL structure (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ typedef struct D3DX10_SKINNING_CHANNEL {
 **SrcOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Offset from the beginning of each source vertex.
 **DestOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Offset from the beginning of each destination vertex.
 **IsNormal**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

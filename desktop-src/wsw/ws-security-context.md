@@ -1,10 +1,10 @@
 ---
-title: WS_SECURITY_CONTEXT
+title: WS_SECURITY_CONTEXT (WebServices.h)
 description: An opaque type used to reference a security context object.
 ms.assetid: 8d23357b-bff8-45fe-80ef-df3f3b0edde1
 keywords:
 - WS_SECURITY_CONTEXT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
 ms.assetid: dc776c41-0376-4222-bebf-86be7e4be122
-title: DownlevelLocaleNameToLCID function
-ms.topic: article
+title: DownlevelLocaleNameToLCID function (Nlsdl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Flags specifying the type of name. The default is DOWNLEVEL\_LOCALE\_NAME.
 
 Returns the locale identifier that corresponds to the locale name if successful.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_FLAGS. The values supplied for flags were not valid.
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values were invalid.

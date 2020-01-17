@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine5::LoadTextureSliceAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 520DBB6D-D8F3-451F-942C-BE8428B9ADFF
 api_name: 

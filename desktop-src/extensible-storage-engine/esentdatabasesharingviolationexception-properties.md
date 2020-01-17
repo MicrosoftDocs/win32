@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseSharingViolationException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseSharingViolationException properties
 TOCTitle: EsentDatabaseSharingViolationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesharingviolationexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: LVM_GETNUMBEROFWORKAREAS message
+title: LVM_GETNUMBEROFWORKAREAS message (Commctrl.h)
 description: Retrieves the number of working areas in a list-view control. You can send this message explicitly or use the ListView\_GetNumberOfWorkAreas macro.
 ms.assetid: ce0bcccd-62a2-45a4-959e-9959c9ca0c46
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

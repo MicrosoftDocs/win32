@@ -1,5 +1,5 @@
 ---
-title: Error Messages
+title: Error Messages (Wininet.h)
 description: The WinINet functions return error codes where appropriate. The following errors are specific to the WinINet functions.
 ms.assetid: 338bf65f-ebe5-4434-8407-9ab2a4c8d381
 topic_type:
@@ -106,7 +106,7 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

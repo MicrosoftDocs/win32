@@ -1,5 +1,5 @@
 ---
-title: Texture2D SampleLevel methods
+title: Texture2D::Texture2D SampleLevel methods
 description: Samples a Texture2D on the specified mipmap level.
 ms.assetid: EA5CFA70-1B0E-490D-A31F-001F63FD9530
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

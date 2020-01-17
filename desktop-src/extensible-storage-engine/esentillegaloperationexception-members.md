@@ -1,5 +1,5 @@
 ---
-title: EsentIllegalOperationException members (Microsoft.Isam.Esent.Interop)
+title: EsentIllegalOperationException members
 TOCTitle: EsentIllegalOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIllegalOperationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentillegaloperationexception_members(v=EXCHG.10)

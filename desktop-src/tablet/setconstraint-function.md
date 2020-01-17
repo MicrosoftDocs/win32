@@ -2,7 +2,7 @@
 Description: Sets a constraint on the prefix of all recognition results.
 ms.assetid: 0e804b11-eca0-40c7-bfdf-289ac3aa1e1f
 title: SetConstraint function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -97,7 +97,7 @@ The recognizer flag **RECOFLAG\_PREFIXOK** does not pertain to a constraint. For
 [**SetFlags**](/windows/desktop/api/recapis/nf-recapis-setflags)
 </dt> <dt>
 
-[**SetTextContext**](https://msdn.microsoft.com/en-us/library/ms704873(v=VS.85).aspx)
+[**SetTextContext**](https://msdn.microsoft.com/library/ms704873(v=VS.85).aspx)
 </dt> </dl>
 
  

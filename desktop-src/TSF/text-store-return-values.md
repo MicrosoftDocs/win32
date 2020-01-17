@@ -1,5 +1,5 @@
 ---
-title: Text Store Return Values
+title: Text Store Return Values (Textstor.h)
 description: When a document manager processes a text store, it produces return values in the range from 0xHHHH0200 through 0xHHHH0300. The following table lists text store return values in alphabetical order.
 ms.assetid: 20b0a89f-ab52-466f-9669-c6c29ad12de0
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

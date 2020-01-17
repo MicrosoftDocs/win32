@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetGetDatabaseFileInfo method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetGetDatabaseFileInfo method 
 TOCTitle: 'JetGetDatabaseFileInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseFileInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetdatabasefileinfo(v=EXCHG.10)

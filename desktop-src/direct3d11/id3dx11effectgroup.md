@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectGroup interface
+title: ID3DX11EffectGroup interface (D3dx11effect.h)
 description: The ID3DX11EffectGroup interface accesses an Effect group.The lifetime of an ID3DX11EffectGroup object is equal to the lifetime of its parent ID3DX11Effect object.
 ms.assetid: f5a35c47-0bac-4559-bd6c-5e8bc7699e10
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

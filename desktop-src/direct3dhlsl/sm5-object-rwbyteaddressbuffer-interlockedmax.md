@@ -1,5 +1,5 @@
 ---
-title: InterlockedMax function
+title: RWByteAddressBuffer::InterlockedMax function
 description: Finds the maximum value, atomically.
 ms.assetid: 2e78065f-c1ee-47ac-a826-c8a46c730c4a
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - InterlockedMax
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

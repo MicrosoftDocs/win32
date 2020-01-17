@@ -1,5 +1,5 @@
 ---
-title: WINBIO_SETTING_SOURCE Constants
+title: WINBIO_SETTING_SOURCE Constants (Winbio\_types.h)
 description: Determine whether the Windows Biometric Framework is currently enabled.
 ms.assetid: d95aa6cc-ddff-40fb-ab82-eac78dc0cb6b
 topic_type:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

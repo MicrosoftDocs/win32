@@ -1,11 +1,11 @@
 ---
-title: JET_INSTANCE_INFO.cDatabases property  (Microsoft.Isam.Esent.Interop)
+title: JET_INSTANCE_INFO.cDatabases property 
 TOCTitle: 'cDatabases property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.cDatabases
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info.cdatabases(v=EXCHG.10)
 ms:contentKeyID: 55103699
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.cDatabases
 dev_langs:

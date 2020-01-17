@@ -1,5 +1,5 @@
 ---
-title: D3DCOMPILE Constants
+title: D3DCOMPILE Constants (D3DCompiler.h)
 description: The D3DCOMPILE constants specify how the compiler compiles the HLSL code.
 ms.assetid: 039627DD-D6A4-4EA3-8E91-D2A20770E6FF
 topic_type:
@@ -31,7 +31,7 @@ api_location:
 - D3DCompiler.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

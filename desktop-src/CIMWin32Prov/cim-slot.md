@@ -3,7 +3,7 @@ Description: The CIM\_Slot class represents connectors into which packages are i
 ms.assetid: bcb1bdb5-fb1a-47ed-9450-dca38edca0eb
 ms.tgt_platform: multiple
 title: CIM_Slot class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

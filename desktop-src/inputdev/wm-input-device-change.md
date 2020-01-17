@@ -1,5 +1,5 @@
 ---
-title: WM_INPUT_DEVICE_CHANGE message
+title: WM_INPUT_DEVICE_CHANGE message (Winuser.h)
 description: Sent to the window that registered to receive raw input. A window receives this message through its WindowProc function.
 ms.assetid: 2f98d8ea-b47b-4dea-9c38-f9697b18053a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This parameter can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-The handle to the raw input device. Call [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx) to get more information regarding the device.
+The handle to the raw input device. Call [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx) to get more information regarding the device.
 
 </dd> </dl>
 

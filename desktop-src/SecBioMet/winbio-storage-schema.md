@@ -1,5 +1,5 @@
 ---
-title: WINBIO_STORAGE_SCHEMA structure
+title: WINBIO_STORAGE_SCHEMA structure (Winbio\_types.h)
 description: Describes the capabilities of a biometric storage adapter.
 ms.assetid: e4924803-5a1b-4e0a-b2cb-01d018d27ba1
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

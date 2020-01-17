@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine HasSSE2 property
+title: IVMVirtualMachine HasSSE2 property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the SSE2 instruction set.
 ms.assetid: da9860cf-d1e4-4dc4-8c4c-1b83104ffbc6
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

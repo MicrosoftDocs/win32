@@ -2,7 +2,7 @@
 Description: Searches for a file in the Offline Files cache that meets the specified criteria.
 ms.assetid: 09de6c55-fc37-4c0a-b5a0-ea73f06793d5
 title: CSCFindFirstFileW function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -92,7 +92,7 @@ This parameter can be one of the following values.
 *lpOrgFileTime* \[out\]
 </dt> <dd>
 
-A pointer to a [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) structure to receive the date and time information for the file or subdirectory.
+A pointer to a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure to receive the date and time information for the file or subdirectory.
 
 </dd> </dl>
 
@@ -104,7 +104,7 @@ If the function fails, the return value is **INVALID\_HANDLE\_VALUE**.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

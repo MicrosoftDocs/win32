@@ -1,5 +1,5 @@
 ---
-title: IADs Property Methods
+title: IADs Property Methods (Iads.h)
 description: The property methods of the IADs interface get or set the properties described in the following table. For more information about property methods, see Interface Property Methods.
 ms.assetid: d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12
 ms.tgt_platform: multiple
@@ -25,7 +25,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

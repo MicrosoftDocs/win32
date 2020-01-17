@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentBinding FlushCache method
+title: INapSystemHealthAgentBinding FlushCache method (NapSystemHealthAgent.h)
 description: Is called by an SHA to flush its SoH cache.
 ms.assetid: a771ce03-1922-4e2d-9490-7ee9f693857c
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

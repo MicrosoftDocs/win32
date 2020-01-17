@@ -1,8 +1,8 @@
 ---
 Description: Windows Portable Devices supports the following media properties.
 ms.assetid: 414d245a-b0b0-4da0-a333-095f0e2259f1
-title: Media Properties
-ms.topic: article
+title: Media Properties (PortableDevice.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

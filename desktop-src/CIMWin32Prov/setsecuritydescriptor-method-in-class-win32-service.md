@@ -2,8 +2,8 @@
 Description: Writes an updated version of the security descriptor that controls access to the service.
 ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
 ms.tgt_platform: multiple
-title: SetSecurityDescriptor method of the Win32_Service class
-ms.topic: article
+title: SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

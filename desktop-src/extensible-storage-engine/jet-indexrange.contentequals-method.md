@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXRANGE.ContentEquals method  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXRANGE.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.ContentEquals(Microsoft.Isam.Esent.Interop.JET_INDEXRANGE)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexrange.contentequals(v=EXCHG.10)
 ms:contentKeyID: 55103676
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.ContentEquals
 dev_langs:

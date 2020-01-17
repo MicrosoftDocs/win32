@@ -1,11 +1,11 @@
 ---
-title: JET_SESID.Equality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_SESID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SESID.op_Equality(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_SESID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_sesid.op_equality(v=EXCHG.10)
 ms:contentKeyID: 39511173
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_SESID.Equality
 dev_langs:

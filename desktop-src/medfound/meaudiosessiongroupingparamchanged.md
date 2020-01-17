@@ -1,8 +1,8 @@
 ---
 Description: Raised by the audio renderer when the grouping parameters change for the audio session.
 ms.assetid: d6f7757c-fd91-40bd-b2b5-a3e808445250
-title: MEAudioSessionGroupingParamChanged event
-ms.topic: article
+title: MEAudioSessionGroupingParamChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnGroupingParamChanged**](https://msdn.microsoft.com/en-us/library/Dd370937(v=VS.85).aspx) event from the audio session.
+This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnGroupingParamChanged**](https://msdn.microsoft.com/library/Dd370937(v=VS.85).aspx) event from the audio session.
 
 To get the new grouping parameters, call [**IMFAudioPolicy::GetGroupingParam**](/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-getgroupingparam).
 

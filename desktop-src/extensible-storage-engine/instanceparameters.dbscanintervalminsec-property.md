@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.DbScanIntervalMinSec property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.DbScanIntervalMinSec property 
 TOCTitle: 'DbScanIntervalMinSec property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.DbScanIntervalMinSec
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.dbscanintervalminsec(v=EXCHG.10)
 ms:contentKeyID: 55107436
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.DbScanIntervalMinSec
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 Description: The LINEPROXYSTATUS\_ constants indicate the status of the proxy on a line that the application currently has open.
 ms.assetid: a5cf3512-ee42-4f64-8fe3-73a14589f78c
-title: LINEPROXYSTATUS_ Constants
-ms.topic: article
+title: LINEPROXYSTATUS_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

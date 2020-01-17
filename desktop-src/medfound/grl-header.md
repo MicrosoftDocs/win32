@@ -2,7 +2,7 @@
 Description: Contains the global revocation list (GRL) header.
 ms.assetid: 806ae550-5106-47ec-8466-f967598d3e61
 title: GRL_HEADER structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: IVMTaskCollection _NewEnum property
+title: IVMTaskCollection _NewEnum property (VPCCOMInterfaces.h)
 description: Retrieves an enumerator for the collection.
 ms.assetid: 15c36bdb-5d26-4f67-aa7e-73b9bde2aa22
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

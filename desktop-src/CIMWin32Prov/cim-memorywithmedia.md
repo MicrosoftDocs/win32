@@ -3,7 +3,7 @@ Description: The CIM\_MemoryWithMedia class associates physical memory with a ph
 ms.assetid: 99806d2d-6575-431d-9149-dc8ea767146c
 ms.tgt_platform: multiple
 title: CIM_MemoryWithMedia class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

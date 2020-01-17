@@ -1,5 +1,5 @@
 ---
-title: TB_REPLACEBITMAP message
+title: TB_REPLACEBITMAP message (Commctrl.h)
 description: Replaces an existing bitmap with a new bitmap.
 ms.assetid: abad5c7a-ebdd-46b5-a465-fe64ff8eb127
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

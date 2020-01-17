@@ -1,8 +1,8 @@
 ---
 Description: Performs a Catmull-Rom interpolation, using the specified 3D vectors.
 ms.assetid: 779f067c-ac46-4fde-9e18-e31b1504b490
-title: D3DXVec3CatmullRom function
-ms.topic: article
+title: D3DXVec3CatmullRom function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -88,7 +88,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure, a position vect
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 

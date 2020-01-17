@@ -1,8 +1,8 @@
 ---
 Description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
-title: QueryAllTraces function
-ms.topic: article
+title: QueryAllTraces function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -71,7 +71,7 @@ Actual number of event tracing sessions started on the computer.
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

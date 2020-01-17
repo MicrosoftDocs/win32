@@ -1,8 +1,8 @@
 ---
 Description: Get information about an image already loaded into memory.
 ms.assetid: 6750116a-ad4f-4102-aba9-6ef32c367be4
-title: D3DX10GetImageInfoFromMemory function
-ms.topic: article
+title: D3DX10GetImageInfoFromMemory function (D3DX10Tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ HRESULT D3DX10GetImageInfoFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the image in memory.
 
@@ -51,7 +51,7 @@ Pointer to the image in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of the image in memory, in bytes.
 
@@ -78,7 +78,7 @@ Information about the image in memory.
 *pHResult* \[out\]
 </dt> <dd>
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)\***
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)\***
 
 A pointer to the return value. May be **NULL**. If *pPump* is not **NULL**, then *pHResult* must be a valid memory location until the asynchronous execution completes.
 
@@ -86,7 +86,7 @@ A pointer to the return value. May be **NULL**. If *pPump* is not **NULL**, then
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

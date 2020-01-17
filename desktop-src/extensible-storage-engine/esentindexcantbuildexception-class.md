@@ -1,11 +1,11 @@
 ---
-title: EsentIndexCantBuildException class (Microsoft.Isam.Esent.Interop)
+title: EsentIndexCantBuildException class
 TOCTitle: EsentIndexCantBuildException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexcantbuildexception(v=EXCHG.10)
 ms:contentKeyID: 55101747
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
 dev_langs:

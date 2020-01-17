@@ -1,8 +1,8 @@
 ---
 Description: The put\_SrcHeight method specifies the height of the source rectangle.
 ms.assetid: 80c8cf92-36e2-4e57-8ce7-6a114bc8bab4
-title: IDxtCompositor::put_SrcHeight method
-ms.topic: article
+title: IDxtCompositor::put_SrcHeight method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: The IFindCompressorCB interface is not supported.
 ms.assetid: 5d5bc006-a13f-48e7-84e8-f4bd6e74e76c
 title: IFindCompressorCB interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -25,7 +25,7 @@ The `IFindCompressorCB` interface is not supported.
 
 ## Members
 
-The **IFindCompressorCB** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
+The **IFindCompressorCB** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
 
 ## See also
 

@@ -1,5 +1,5 @@
 ﻿---
-title: JET_COLUMNID properties (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNID properties
 TOCTitle: JET_COLUMNID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid_properties(v=EXCHG.10)

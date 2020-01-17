@@ -1,5 +1,5 @@
 ---
-title: IResultVerb Name property
+title: IResultVerb Name property (WdsSharedIDL.h)
 description: This property returns a pointer to the cononical name for the verb such as print, open, etc.
 ms.assetid: e911ef1c-0ac9-4b70-a3af-c05e42bd1f0f
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

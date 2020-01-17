@@ -2,7 +2,7 @@
 Description: A collection of PolicyInformation objects.
 ms.assetid: 2abdd070-82ae-47fd-afbc-6d4361e5a3f1
 title: CertificatePolicies object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -43,7 +43,7 @@ The **CertificatePolicies** object has these properties.
 
 | Property                                                    | Access type          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](certificatepolicies-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**PolicyInformation**](policyinformation.md) objects in the collection.<br/>                                                                                                                    |
 | [**Item**](certificatepolicies-item.md)<br/>         | Read-only<br/> | Retrieves a [**PolicyInformation**](policyinformation.md) object that represents the indexed certificate policy of the collection. This is the default property.<br/>                                                    |
 

@@ -1,11 +1,11 @@
 ---
-title: EsentCannotBeTaggedException class (Microsoft.Isam.Esent.Interop)
+title: EsentCannotBeTaggedException class
 TOCTitle: EsentCannotBeTaggedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotbetaggedexception(v=EXCHG.10)
 ms:contentKeyID: 55101129
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException
 dev_langs:

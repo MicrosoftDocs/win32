@@ -1,5 +1,5 @@
 ---
-title: EM_GETTYPOGRAPHYOPTIONS message
+title: EM_GETTYPOGRAPHYOPTIONS message (Richedit.h)
 description: Returns the current state of the typography options of a rich edit control.
 ms.assetid: 6ff5980e-3201-4b0f-9a03-3de78730ce33
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_VALIDATEMEDIA message
+title: MCIWNDM_VALIDATEMEDIA message (Vfw.h)
 description: The MCIWNDM\_VALIDATEMEDIA message updates the starting and ending locations of the content, the current position in the content, and the trackbar according to the current time format.
 ms.assetid: 98ac6227-fc90-4276-8e26-2bd005e35dc6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

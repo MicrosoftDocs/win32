@@ -2,7 +2,7 @@
 title: ge (sm4 - asm)
 description: Component-wise vector floating point greater-than-or-equal comparison.
 ms.assetid: 658AF249-4935-41AF-972A-D8CDEABA76AA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

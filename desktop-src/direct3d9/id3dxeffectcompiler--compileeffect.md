@@ -1,8 +1,8 @@
 ---
 Description: Compile an effect.
 ms.assetid: be6f862a-5091-4a06-a27a-308e81360129
-title: ID3DXEffectCompiler::CompileEffect method
-ms.topic: article
+title: ID3DXEffectCompiler::CompileEffect method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT CompileEffect(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
 
@@ -66,7 +66,7 @@ Buffer containing at least the first compile error message that occurred. This i
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK.
 

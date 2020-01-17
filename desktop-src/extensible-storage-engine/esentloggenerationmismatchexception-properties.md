@@ -1,5 +1,5 @@
 ---
-title: EsentLogGenerationMismatchException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLogGenerationMismatchException properties
 TOCTitle: EsentLogGenerationMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentloggenerationmismatchexception_properties(v=EXCHG.10)

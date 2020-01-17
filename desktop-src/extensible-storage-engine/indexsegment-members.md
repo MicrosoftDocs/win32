@@ -1,5 +1,5 @@
 ---
-title: IndexSegment members (Microsoft.Isam.Esent.Interop)
+title: IndexSegment members
 TOCTitle: IndexSegment members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IndexSegment
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment_members(v=EXCHG.10)

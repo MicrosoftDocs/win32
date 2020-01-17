@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding interface
+title: INapEnforcementClientBinding interface (NapEnforcementClient.h)
 description: Enforcement clients use to communicate with the NapAgent.
 ms.assetid: 73c5c9ad-f213-4d34-9262-996acb570a55
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

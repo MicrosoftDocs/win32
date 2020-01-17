@@ -1,8 +1,8 @@
 ---
 Description: The GetGroup method retrieves a specified group.
 ms.assetid: 4ff651e5-a3aa-4da9-af23-a3a2bdbf7c5b
-title: IAMTimeline::GetGroup method
-ms.topic: article
+title: IAMTimeline::GetGroup method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

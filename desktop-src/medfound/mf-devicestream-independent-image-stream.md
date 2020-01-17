@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the image stream on a video capture source is independent of the video stream.
 ms.assetid: DC4ED612-593B-40BF-BB42-946149042D1F
-title: MF_DEVICESTREAM_INDEPENDENT_IMAGE_STREAM attribute
-ms.topic: article
+title: MF_DEVICESTREAM_INDEPENDENT_IMAGE_STREAM attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

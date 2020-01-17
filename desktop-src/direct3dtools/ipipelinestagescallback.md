@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPipeLineStagesCallback interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 2F5B84DB-3D06-4D82-BF1D-E5853CC4B835
 api_name: 

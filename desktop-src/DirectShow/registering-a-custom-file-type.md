@@ -98,7 +98,7 @@ Each entry can have multiple quadruples; all of them must match. In the followin
 Also, there can be multiple entries listed under a single media type. A match to any of them is sufficient. This scheme allows for a set of alternative masks; for instance, .wav files that might or might not have a RIFF header.
 
 > [!Note]  
-> This scheme is similar to the one used by the [**GetClassFile**](https://msdn.microsoft.com/en-us/library/ms693715(v=VS.85).aspx) function.
+> This scheme is similar to the one used by the [**GetClassFile**](https://msdn.microsoft.com/library/ms693715(v=VS.85).aspx) function.
 
  
 
@@ -110,7 +110,7 @@ If the Filter Graph Manager cannot find anything from the registry, it defaults 
 
 ## Custom File Types in Windows Media Player
 
-Windows Media Player uses an additional set of registry entries. For more information, see [File Name Extension Registry Settings](https://msdn.microsoft.com/en-us/library/Dd562995(v=VS.85).aspx) in the Windows Media Player SDK.
+Windows Media Player uses an additional set of registry entries. For more information, see [File Name Extension Registry Settings](https://msdn.microsoft.com/library/Dd562995(v=VS.85).aspx) in the Windows Media Player SDK.
 
 ## Related topics
 

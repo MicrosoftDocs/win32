@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 To create a bitmap brush, use the [**ID2D1RenderTarget::CreateBitmapBrush**](id2d1rendertarget-createbitmapbrush.md) method and specify the bitmap brush properties. Some overloads enable you to specify the brush properties. The following code shows how to create a bitmap brush to fill a square, and a solid black brush to draw the outline of the square. The code produces the output shown in the following screen shot.
 
 > [!Note]  
-> Starting with Windows 8, you can use the [**CreateBitmapBrush**](https://msdn.microsoft.com/en-us/library/Hh847970(v=VS.85).aspx) method on the [**ID2D1DeviceContext**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) interface to create a [**ID2D1BitmapBrush1**](https://msdn.microsoft.com/en-us/library/hh871447(v=VS.85).aspx) instead of a **ID2D1BitmapBrush**. **ID2D1BitmapBrush1** adds high-quality scaling modes to the bitmap brush.
+> Starting with Windows 8, you can use the [**CreateBitmapBrush**](https://msdn.microsoft.com/library/Hh847970(v=VS.85).aspx) method on the [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) interface to create a [**ID2D1BitmapBrush1**](https://msdn.microsoft.com/library/hh871447(v=VS.85).aspx) instead of a **ID2D1BitmapBrush**. **ID2D1BitmapBrush1** adds high-quality scaling modes to the bitmap brush.
 
  
 
 ![screen shot of a square filled with a plant bitmap](images/brushes-ovw-bitmap.png)
 
-1.  Declare a variable of type [**ID2D1BitmapBrush**](https://msdn.microsoft.com/en-us/library/Dd371122(v=VS.85).aspx).
+1.  Declare a variable of type [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx).
     ```C++
         ID2D1BitmapBrush *m_pBitmapBrush;
     ```

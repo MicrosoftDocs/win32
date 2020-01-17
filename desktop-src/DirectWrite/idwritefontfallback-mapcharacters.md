@@ -14,7 +14,7 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -50,7 +50,7 @@ HRESULT MapCharacters(
 *source* 
 </dt> <dd>
 
-Type: **[**IDWriteTextAnalysisSource**](https://msdn.microsoft.com/en-us/library/Dd371318(v=VS.85).aspx)\***
+Type: **[**IDWriteTextAnalysisSource**](https://msdn.microsoft.com/library/Dd371318(v=VS.85).aspx)\***
 
 The text source implementation holds the text and locale.
 
@@ -77,7 +77,7 @@ Length of the text to analyze.
 *baseFontCollection* \[in, optional\]
 </dt> <dd>
 
-Type: **[**IDWriteFontCollection**](https://msdn.microsoft.com/en-us/library/Dd368214(v=VS.85).aspx)\***
+Type: **[**IDWriteFontCollection**](https://msdn.microsoft.com/library/Dd368214(v=VS.85).aspx)\***
 
 Default font collection to use.
 
@@ -131,7 +131,7 @@ Length of text mapped to the mapped font. This will always be less than or equal
 *mappedFont* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteFont**](https://msdn.microsoft.com/en-us/library/Dd368213(v=VS.85).aspx)\*\***
+Type: **[**IDWriteFont**](https://msdn.microsoft.com/library/Dd368213(v=VS.85).aspx)\*\***
 
 The font that should be used to render the first *mappedLength* characters of the text. If it returns NULL, that means that no font can render the text, and *mappedLength* is the number of characters to skip (rendered with a missing glyph).
 
@@ -170,7 +170,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteFontFallback**](https://msdn.microsoft.com/en-us/library/Dn280474(v=VS.85).aspx)
+[**IDWriteFontFallback**](https://msdn.microsoft.com/library/Dn280474(v=VS.85).aspx)
 </dt> </dl>
 
  

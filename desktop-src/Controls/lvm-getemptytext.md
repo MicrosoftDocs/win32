@@ -1,5 +1,5 @@
 ---
-title: LVM_GETEMPTYTEXT message
+title: LVM_GETEMPTYTEXT message (Commctrl.h)
 description: Gets the text meant for display when the list-view control appears empty. Send this message explicitly or by using the ListView\_GetEmptyText macro.
 ms.assetid: aa6cb0ae-0c6c-42b7-80c5-c086c9579c81
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentIndexInvalidDefException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexInvalidDefException members
 TOCTitle: EsentIndexInvalidDefException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinvaliddefexception_members(v=EXCHG.10)

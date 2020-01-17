@@ -1,5 +1,5 @@
 ---
-title: TB_SETHOTITEM2 message
+title: TB_SETHOTITEM2 message (Commctrl.h)
 description: Sets the hot item in a toolbar.
 ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

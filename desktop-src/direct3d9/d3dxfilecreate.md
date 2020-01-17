@@ -1,8 +1,8 @@
 ---
 Description: Creates an instance of an ID3DXFile object.
 ms.assetid: c086cb66-b1dc-4180-b966-e9a3b1f36f22
-title: D3DXFileCreate function
-ms.topic: article
+title: D3DXFileCreate function (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**ID3DXFile**](id3dxfile.md) interface, representing
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of the following: E\_POINTER, E\_OUTOFMEMORY.
 

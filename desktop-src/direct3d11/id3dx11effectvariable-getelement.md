@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable GetElement method
+title: ID3DX11EffectVariable GetElement method (D3dx11effect.h)
 description: Get an array element.
 ms.assetid: 3edf2084-570a-4423-8205-0b94a2a0cfde
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

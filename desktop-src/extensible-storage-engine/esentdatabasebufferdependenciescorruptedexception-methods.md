@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseBufferDependenciesCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseBufferDependenciesCorruptedException methods
 TOCTitle: EsentDatabaseBufferDependenciesCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasebufferdependenciescorruptedexception_methods(v=EXCHG.10)

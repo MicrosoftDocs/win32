@@ -1,5 +1,5 @@
 ---
-title: IPM_SETFOCUS message
+title: IPM_SETFOCUS message (Commctrl.h)
 description: Sets the keyboard focus to the specified field in the IP address control. All of the text in that field will be selected.
 ms.assetid: 4b975eb2-85e1-4e33-a803-99b48d2ff5e8
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

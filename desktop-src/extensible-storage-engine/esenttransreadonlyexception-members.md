@@ -1,5 +1,5 @@
 ---
-title: EsentTransReadOnlyException members (Microsoft.Isam.Esent.Interop)
+title: EsentTransReadOnlyException members
 TOCTitle: EsentTransReadOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttransreadonlyexception_members(v=EXCHG.10)

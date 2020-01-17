@@ -1,8 +1,8 @@
 ---
 Description: Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
 ms.assetid: 013660ce-865e-4acf-a1ea-670e70377ff5
-title: D3DXFillTextureTX function
-ms.topic: article
+title: D3DXFillTextureTX function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a [**ID3DXTextureShader**](id3dxtextureshader.md) texture shader obje
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_NOTAVAILABLE, D3DERR\_INVALIDCALL.
 

@@ -1,8 +1,8 @@
 ---
 Description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
-title: IEnumParticipant::Next method
-ms.topic: article
+title: IEnumParticipant::Next method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ Number of elements requested.
 *ppElements* \[out\]
 </dt> <dd>
 
-Pointer to [**ITAgentHandler**](https://msdn.microsoft.com/en-us/library/Aa380394(v=VS.85).aspx) interfaces.
+Pointer to [**ITAgentHandler**](https://msdn.microsoft.com/library/Aa380394(v=VS.85).aspx) interfaces.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 ## Remarks
 
-TAPI calls the [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) method on the [**ITAgentHandler**](https://msdn.microsoft.com/en-us/library/Aa380394(v=VS.85).aspx) interface returned by **IEnumParticipant::Next**. The application must call [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) on the **ITAgentHandler** interface to free resources associated with it.
+TAPI calls the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) method on the [**ITAgentHandler**](https://msdn.microsoft.com/library/Aa380394(v=VS.85).aspx) interface returned by **IEnumParticipant::Next**. The application must call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on the **ITAgentHandler** interface to free resources associated with it.
 
 ## Requirements
 

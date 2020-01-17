@@ -1,5 +1,5 @@
 ---
-title: TBM_SETTIC message
+title: TBM_SETTIC message (Commctrl.h)
 description: Sets a tick mark in a trackbar at the specified logical position.
 ms.assetid: 89b42cac-967e-40c7-9fab-2bd76f06f3f9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

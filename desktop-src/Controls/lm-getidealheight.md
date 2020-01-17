@@ -1,5 +1,5 @@
 ---
-title: LM_GETIDEALHEIGHT message
+title: LM_GETIDEALHEIGHT message (Commctrl.h)
 description: Retrieves the preferred height of a link for the control's current width.
 ms.assetid: bf6ef3c1-89bc-4c56-9384-085fd00234e1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

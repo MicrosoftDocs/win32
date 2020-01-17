@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectUnorderedAccessViewVariable SetUnorderedAccessViewArray method
+title: ID3DX11EffectUnorderedAccessViewVariable SetUnorderedAccessViewArray method (D3dx11effect.h)
 description: Set an array of unordered-access-views.
 ms.assetid: 12d0da06-990a-42b2-9566-cc5136f48781
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

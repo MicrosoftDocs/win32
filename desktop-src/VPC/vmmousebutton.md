@@ -1,5 +1,5 @@
 ---
-title: VMMouseButton enumeration
+title: VMMouseButton enumeration (VPCCOMInterfaces.h)
 description: Specifies the mouse button.
 ms.assetid: d09e63cb-9dc5-424f-b130-c0b0dd07fe11
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

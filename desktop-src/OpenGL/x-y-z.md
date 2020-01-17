@@ -1,7 +1,7 @@
 ---
 title: X Y Z
 description: Definitions of OpenGL terms that begin with the letter X.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 52e17d1e-1bd4-496c-9059-1235f980cecf
 keywords:
 - X Window System

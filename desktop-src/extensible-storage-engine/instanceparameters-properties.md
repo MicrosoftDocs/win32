@@ -1,5 +1,5 @@
 ﻿---
-title: InstanceParameters properties (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters properties
 TOCTitle: InstanceParameters properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.InstanceParameters
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters_properties(v=EXCHG.10)

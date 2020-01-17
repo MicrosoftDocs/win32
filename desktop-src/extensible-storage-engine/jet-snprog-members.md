@@ -1,5 +1,5 @@
 ---
-title: JET_SNPROG members (Microsoft.Isam.Esent.Interop)
+title: JET_SNPROG members
 TOCTitle: JET_SNPROG members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SNPROG
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_snprog_members(v=EXCHG.10)

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IGenericBufferDataCallback::ResultCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5627A93E-8BE8-4413-BFB4-724AF2DDFEB6
 api_name: 

@@ -2,7 +2,7 @@
 Description: Represents the configured state of the time synchronization service.
 ms.assetid: AACEDE11-3F5B-42AB-A16F-0474FA98D3FD
 title: Msvm_TimeSyncComponentSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

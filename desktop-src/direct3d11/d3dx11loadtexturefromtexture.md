@@ -1,5 +1,5 @@
 ---
-title: D3DX11LoadTextureFromTexture function
+title: D3DX11LoadTextureFromTexture function (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, Resize, Convert, Compress, Decompress, and/or CopyRectangle. Load a texture from a texture.
 ms.assetid: 4e673f73-531d-4df8-8542-798e4e70c481
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -87,7 +87,7 @@ Pointer to the destination texture. See [**ID3D11Resource**](/windows/desktop/ap
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

@@ -1,8 +1,8 @@
 ---
 Description: The media type constants are defined below.
 ms.assetid: 3e418c9a-a008-4b94-b5d2-7c2eccb3bf87
-title: TAPIMEDIATYPE_ Constants
-ms.topic: article
+title: TAPIMEDIATYPE_ Constants (Tapi3.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -41,10 +41,10 @@ The following media types are defined:
 [**ITQOSEvent::get\_MediaType**](/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_mediatype)
 </dt> <dt>
 
-[**ITAMMediaFormat::get\_MediaFormat**](https://msdn.microsoft.com/en-us/library/Aa382339(v=VS.85).aspx)
+[**ITAMMediaFormat::get\_MediaFormat**](https://msdn.microsoft.com/library/Aa382339(v=VS.85).aspx)
 </dt> <dt>
 
-[**ITAMMediaFormat::put\_MediaFormat**](https://msdn.microsoft.com/en-us/library/Aa382349(v=VS.85).aspx)
+[**ITAMMediaFormat::put\_MediaFormat**](https://msdn.microsoft.com/library/Aa382349(v=VS.85).aspx)
 </dt> <dt>
 
 [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong)
@@ -53,7 +53,7 @@ The following media types are defined:
 [**ITMediaSupport::get\_MediaTypes**](/windows/desktop/api/tapi3if/nf-tapi3if-itmediasupport-get_mediatypes)
 </dt> <dt>
 
-[**ITTerminalSupport::CreateTerminal**](https://msdn.microsoft.com/en-us/library/ms733172(v=VS.85).aspx)
+[**ITTerminalSupport::CreateTerminal**](https://msdn.microsoft.com/library/ms733172(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfBuffersException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfBuffersException methods
 TOCTitle: EsentOutOfBuffersException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofbuffersexception_methods(v=EXCHG.10)

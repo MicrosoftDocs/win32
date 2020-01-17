@@ -1,5 +1,5 @@
 ---
-title: XTYP_REQUEST transaction
+title: XTYP_REQUEST transaction (Ddeml.h)
 description: A client uses the XTYP\_REQUEST transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_REQUEST in the DdeClientTransaction function.
 ms.assetid: e776b995-6a64-4398-9e29-c151f3ef4c1d
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_REQUEST transaction
 
-A client uses the **XTYP\_REQUEST** transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_REQUEST** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
+A client uses the **XTYP\_REQUEST** transaction to request data from a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_REQUEST** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
 
 
 ```C++

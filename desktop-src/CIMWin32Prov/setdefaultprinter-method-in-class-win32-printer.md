@@ -3,7 +3,7 @@ Description: The SetDefaultPrinter WMI class method sets the default system prin
 ms.assetid: 7e896961-363d-4b8b-9d22-bbfc9681e97b
 ms.tgt_platform: multiple
 title: SetDefaultPrinter method of the Win32_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

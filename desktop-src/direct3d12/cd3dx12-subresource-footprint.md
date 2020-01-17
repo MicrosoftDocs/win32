@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_SUBRESOURCE_FOOTPRINT structure
+title: CD3DX12_SUBRESOURCE_FOOTPRINT structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_SUBRESOURCE\_FOOTPRINT structure.
 ms.assetid: 17266FB0-41B5-4A70-A896-206B54F5E76F
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

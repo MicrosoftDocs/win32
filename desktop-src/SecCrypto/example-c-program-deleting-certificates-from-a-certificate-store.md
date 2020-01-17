@@ -8,16 +8,16 @@ ms.date: 05/31/2018
 
 # Example C Program: Deleting Certificates from a Certificate Store
 
-The following example lists the certificates in a system [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), displaying the name of the subject of each certificate, and it allows the user to choose to delete any certificates from the store. The example gets the name of the certificate store from the user and thus can be used to maintain the contents of any system certificate store.
+The following example lists the certificates in a system [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), displaying the name of the subject of each certificate, and it allows the user to choose to delete any certificates from the store. The example gets the name of the certificate store from the user and thus can be used to maintain the contents of any system certificate store.
 
-This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions:
+This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions:
 
 -   Opening a system certificate store using [**CertOpenSystemStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopensystemstorea).
 -   Listing the certificates in a certificate store using [**CertEnumCertificatesInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumcertificatesinstore).
 -   Getting the name of the subject of a certificate using [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
 -   Comparing the name of the subject of the certificate with the name of the issuer of the certificate using [**CertCompareCertificateName**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename).
 -   Checking to determine whether the public key of the current certificate matches the public key of a previous certificate using [**CertComparePublicKeyInfo**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo).
--   Duplicating a pointer to a [*certificate context*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) using [**CertDuplicateCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certduplicatecertificatecontext).
+-   Duplicating a pointer to a [*certificate context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) using [**CertDuplicateCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certduplicatecertificatecontext).
 -   Comparing the [**CERT\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_info) members of each certificate using [**CertCompareCertificate**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate).
 -   Deleting a certificate from a store using [**CertDeleteCertificateFromStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certdeletecertificatefromstore).
 -   Closing a certificate store using [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore).

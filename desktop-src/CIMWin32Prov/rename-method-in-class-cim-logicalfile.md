@@ -3,7 +3,7 @@ Description: The Rename method renames the logical file (or directory) specified
 ms.assetid: 5a62ff64-d1d2-43a2-997c-0ad46896b31f
 ms.tgt_platform: multiple
 title: Rename method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

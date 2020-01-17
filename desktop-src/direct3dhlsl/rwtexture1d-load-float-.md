@@ -1,5 +1,5 @@
 ---
-title: Load(int) function
+title: RWTexture1D::Load(int) function
 description: Reads texture data.
 ms.assetid: AA5E324E-A2C0-45C5-92A8-E4DBC4EB684C
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Load
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

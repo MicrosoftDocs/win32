@@ -1,5 +1,5 @@
 ---
-title: DsRestoreEnd function
+title: DsRestoreEnd function (Ntdsbcli.h)
 description: Called to terminate a restore operation.
 ms.assetid: 2c3b9aba-3e92-4e5b-afff-3ed9bf64832b
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: The SetPowerState method sets the desired power state for a logical
 ms.assetid: 2f252d65-55ad-43b2-bee4-d5db24ca9d29
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CDROMDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

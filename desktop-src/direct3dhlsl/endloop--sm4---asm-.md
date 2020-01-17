@@ -2,7 +2,7 @@
 title: endloop (sm4 - asm)
 description: Ends a loop statement.
 ms.assetid: 0BEFADF4-036E-4FDA-9681-10965D6BA9FC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

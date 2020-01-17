@@ -1,5 +1,5 @@
 ---
-title: log2
+title: log2 (Corecrt\_math.h)
 description: Returns the base-2 logarithm of the specified value.
 ms.assetid: 0bc75697-92c0-4de5-89bd-2ce824baa03e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

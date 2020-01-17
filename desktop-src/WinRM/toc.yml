@@ -136,45 +136,45 @@
         href: client-shell-api-structures.md
         items: 
         - name: "WSMAN_AUTHENTICATION_CREDENTIALS"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_authentication_credentials
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_authentication_credentials
         - name: "WSMAN_DATA"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_data
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_data
         - name: "WSMAN_DATA_BINARY"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_data_binary
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_data_binary
         - name: "WSMAN_DATA_TEXT"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_data_text
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_data_text
         - name: "WSMAN_ENVIRONMENT_VARIABLE"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_environment_variable
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_environment_variable
         - name: "WSMAN_ENVIRONMENT_VARIABLE_SET"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_environment_variable_set
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_environment_variable_set
         - name: "WSMAN_ERROR"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_error
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_error
         - name: "WSMAN_KEY"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_key
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_key
         - name: "WSMAN_OPTION"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_option
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_option
         - name: "WSMAN_OPTION_SET"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_option_set
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_option_set
         - name: "WSMAN_PROXY_INFO"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_proxy_info
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_proxy_info
         - name: "WSMAN_RECEIVE_DATA_RESULT"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_receive_data_result
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_receive_data_result
         - name: "WSMAN_RESPONSE_DATA"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_response_data
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_response_data
         - name: "WSMAN_SELECTOR_SET"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_selector_set
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_selector_set
         - name: "WSMAN_SHELL_ASYNC"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_shell_async
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_async
         - name: "WSMAN_SHELL_COMPLETION_FUNCTION"
           href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function
         - name: "WSMAN_SHELL_DISCONNECT_INFO"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_shell_disconnect_info
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_disconnect_info
         - name: "WSMAN_SHELL_STARTUP_INFO"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_shell_startup_info_v10
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_startup_info_v10
         - name: "WSMAN_STREAM_ID_SET"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_stream_id_set
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_stream_id_set
         - name: "WSMAN_USERNAME_PASSWORD_CREDS"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_username_password_creds
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_username_password_creds
     - name: "WinRM Plug-in API"
       href: winrm-plugin-api.md
       items: 
@@ -238,21 +238,21 @@
         href: winrm-plug-in-api-structures.md
         items: 
         - name: "WSMAN_AUTHZ_QUOTA"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_authz_quota
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_authz_quota
         - name: "WSMAN_CERTIFICATE_DETAILS"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_certificate_details
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_certificate_details
         - name: "WSMAN_COMMAND_ARG_SET"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_command_arg_set
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_command_arg_set
         - name: "WSMAN_FILTER"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_filter
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_filter
         - name: "WSMAN_FRAGMENT"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_fragment
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_fragment
         - name: "WSMAN_OPERATION_INFO"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_operation_info
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_operation_info
         - name: "WSMAN_PLUGIN_REQUEST"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_plugin_request
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_plugin_request
         - name: "WSMAN_SENDER_DETAILS"
-          href: /windows/desktop/api/Wsman/ns-wsman-_wsman_sender_details
+          href: /windows/win32/api/Wsman/ns-wsman-wsman_sender_details
     - name: "WinRM Scripting API"
       href: winrm-scripting-api.md
       items: 
@@ -604,9 +604,9 @@
         - name: "Enumeration Constants"
           href: enumeration-constants.md
         - name: "WSManProxyAccessTypeFlags"
-          href: /windows/desktop/api/WSManDisp/ne-wsmandisp-_wsmanproxyaccesstypeflags
+          href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyaccesstypeflags
         - name: "WSManProxyAuthenticationFlags"
-          href: /windows/desktop/api/WSManDisp/ne-wsmandisp-_wsmanproxyauthenticationflags
+          href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyauthenticationflags
     - name: "Managed Reference for WinRM Windows PowerShell Command Classes"
       href: winrm-powershell-commandlets.md
   - name: "Windows Remote Management Glossary"

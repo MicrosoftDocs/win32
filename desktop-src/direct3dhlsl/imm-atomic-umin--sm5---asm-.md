@@ -2,7 +2,7 @@
 title: imm_atomic_umin (sm5 - asm)
 description: Immediate atomic unsigned min to memory. Returns value in memory before the max operation.
 ms.assetid: B4556DA0-EE34-4420-A3AE-B340B4B1EB83
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

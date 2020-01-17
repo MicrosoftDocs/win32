@@ -1,8 +1,8 @@
 ---
 Description: Performs a Catmull-Rom interpolation, using the specified 4D vectors.
 ms.assetid: 24c26e70-b02c-4621-8b7e-db16f99dddb5
-title: D3DXVec4CatmullRom function
-ms.topic: article
+title: D3DXVec4CatmullRom function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -88,7 +88,7 @@ Pointer to a source [**D3DXVECTOR4**](d3dxvector4.md) structure, a position vect
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 

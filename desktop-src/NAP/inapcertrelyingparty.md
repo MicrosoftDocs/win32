@@ -1,5 +1,5 @@
 ---
-title: INapCertRelyingParty interface
+title: INapCertRelyingParty interface (NapCertRelyingParty.h)
 description: Certificate-relying parties must use to communicate with the NapAgent.
 ms.assetid: e5ae0f4d-24fa-4049-82d9-1c9baeb34e32
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

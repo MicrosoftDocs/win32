@@ -1,8 +1,8 @@
 ---
 Description: Gets the current priority blending weight used by the animation controller.
 ms.assetid: ceaf611e-e85b-4958-b8ac-7e60b98b1aad
-title: ID3DXAnimationController::GetPriorityBlend method
-ms.topic: article
+title: ID3DXAnimationController::GetPriorityBlend method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the current priority blending weight.
 

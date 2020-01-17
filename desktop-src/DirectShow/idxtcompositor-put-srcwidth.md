@@ -1,8 +1,8 @@
 ---
 Description: The put\_SrcWidth method specifies the width of the source rectangle.
 ms.assetid: 3dbf8ddb-1da9-468f-9960-30e7b8c305e0
-title: IDxtCompositor::put_SrcWidth method
-ms.topic: article
+title: IDxtCompositor::put_SrcWidth method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

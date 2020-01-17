@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumn method 
 TOCTitle: 'RetrieveColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumn(v=EXCHG.10)

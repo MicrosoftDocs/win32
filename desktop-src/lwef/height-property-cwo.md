@@ -1,5 +1,5 @@
 ---
-title: Height Property
+title: Height Property (CommandsWindow Object)
 description: Height Property
 ms.assetid: ca273dcd-2973-4813-b98b-b7dab3fb842c
 ms.topic: article

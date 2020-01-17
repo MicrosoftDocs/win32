@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectMatrixVariable GetMatrixTranspose method
+title: ID3DX11EffectMatrixVariable GetMatrixTranspose method (D3dx11effect.h)
 description: Transpose and get a floating-point matrix.
 ms.assetid: a261128c-d1f9-4864-b562-5fe9a69c9969
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to the first element of a transposed matrix.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

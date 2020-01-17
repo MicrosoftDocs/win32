@@ -1,5 +1,5 @@
 ---
-title: UDM_SETBUDDY message
+title: UDM_SETBUDDY message (Commctrl.h)
 description: Sets the buddy window for an up-down control.
 ms.assetid: 66e35acc-95f6-4bc5-b654-690abf2188ba
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

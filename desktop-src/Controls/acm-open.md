@@ -1,5 +1,5 @@
 ---
-title: ACM_OPEN message
+title: ACM_OPEN message (Commctrl.h)
 description: Opens an AVI clip and displays its first frame in an animation control. You can send this message explicitly or use the Animate\_Open or Animate\_OpenEx macro. We recommend using the Unicode version of this message, ACM\_OPENW.
 ms.assetid: 87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

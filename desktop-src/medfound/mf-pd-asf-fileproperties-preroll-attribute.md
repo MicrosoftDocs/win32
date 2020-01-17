@@ -1,8 +1,8 @@
 ---
 Description: Specifies the amount of time, in milliseconds, to buffer data before playing an Advanced Systems Format (ASF) file.
 ms.assetid: 6aebe1cf-bd45-4b02-a3c8-6599bb683d7c
-title: MF_PD_ASF_FILEPROPERTIES_PREROLL attribute
-ms.topic: article
+title: MF_PD_ASF_FILEPROPERTIES_PREROLL attribute (Wmcontainer.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentDTCMissingCallbackException members (Microsoft.Isam.Esent.Interop)
+title: EsentDTCMissingCallbackException members
 TOCTitle: EsentDTCMissingCallbackException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtcmissingcallbackexception_members(v=EXCHG.10)

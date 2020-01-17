@@ -2,7 +2,7 @@
 Description: Navigation page for Windows Sockets (Winsock) socket options.
 ms.assetid: 'e2831f76-4499-45b6-bc60-2908ec3a246c'
 title: Socket Options
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

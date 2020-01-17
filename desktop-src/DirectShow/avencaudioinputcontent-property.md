@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the audio content contains music or voice.
 ms.assetid: 10e35d7f-06b8-427f-9309-167358ccbd6f
-title: AVEncAudioInputContent property
-ms.topic: article
+title: AVEncAudioInputContent property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncAudioInputContent**](https://msdn.microsoft.com/en-us/library/Dd388768(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncAudioInputContent**](https://msdn.microsoft.com/library/Dd388768(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

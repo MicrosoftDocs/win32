@@ -3,7 +3,7 @@ Description: The CIM\_PhysicalMedia class represents types of documentation and 
 ms.assetid: ba258e53-4a82-4b30-aadd-54448841cd06
 ms.tgt_platform: multiple
 title: CIM_PhysicalMedia class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: DRM_VIDEO_OUTPUT_PROTECTION_IDS structure
+title: DRM_VIDEO_OUTPUT_PROTECTION_IDS structure (Wmdrmsdk.h)
 description: The DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS structure holds an array of DRM\_VIDEO\_OUTPUT\_PROTECTION structures.
 ms.assetid: 9f206a7e-c92b-4f29-a591-72784086d1db
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

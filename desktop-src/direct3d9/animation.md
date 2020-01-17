@@ -1,8 +1,8 @@
 ---
 Description: Contains animations referencing a previous frame. It should contain one reference to a frame and at least one set of AnimationKey templates. It also can contain an AnimationOptions data object.
 ms.assetid: 03e375ca-35f1-4b03-8ec7-d604c5607b3a
-title: Animation
-ms.topic: article
+title: Animation (Direct3D 9 Graphics)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

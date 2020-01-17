@@ -1,5 +1,5 @@
 ---
-title: D3DX11_STATE_BLOCK_MASK structure
+title: D3DX11_STATE_BLOCK_MASK structure (D3dx11effect.h)
 description: Indicates the device state.
 ms.assetid: 42044a6d-6a11-4f90-889a-82e7954da6c7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

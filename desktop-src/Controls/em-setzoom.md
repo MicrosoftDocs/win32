@@ -1,5 +1,5 @@
 ---
-title: EM_SETZOOM message
+title: EM_SETZOOM message (Richedit.h)
 description: Sets the zoom ratio. The ratio must be a value between 1/64 and 64. You can send this message to either an edit control or a rich edit control.
 ms.assetid: 6cdec5b8-4ce7-4fd5-8083-4daa63d17f63
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

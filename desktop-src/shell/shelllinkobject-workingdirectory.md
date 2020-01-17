@@ -1,8 +1,8 @@
 ---
 Description: Gets or sets the working directory specified in the link.
 ms.assetid: c3820deb-9f00-42a9-ab0e-c0f6389e9f29
-title: ShellLinkObject.WorkingDirectory property
-ms.topic: article
+title: ShellLinkObject.WorkingDirectory property (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

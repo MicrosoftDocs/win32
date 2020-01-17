@@ -2,7 +2,7 @@
 Description: Represents the state of the guest service interface component, which provides a mechanism to interact with the virtual machine from the management interfaces on the host system.
 ms.assetid: 9A158B42-052B-42B3-8539-00927056306D
 title: Msvm_GuestServiceInterfaceComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

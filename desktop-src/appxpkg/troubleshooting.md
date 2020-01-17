@@ -3,35 +3,37 @@ title: Troubleshooting packaging, deployment, and query of Windows apps
 description: Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/18/2019
+manager: dcscontentpm
+ms.custom: 
+- CI 111497
+- CSSTroubleshooting
 ---
 
 # Troubleshooting packaging, deployment, and query of Windows apps
 
 Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 
-## Get diagnostic info
+## Get diagnostic information
 
 When an API fails, it returns an error code that describes the problem.
 
-If the error code doesn't provide enough info, you can get detailed event logs that provide more info to help you diagnose the cause of the problem.
+If the error code doesn't provide enough information, you find more diagnostic information in the detailed event logs. To access the packaging and deployment event logs, follow these steps:
 
-**To access the packaging and deployment event logs**
-
-1.  Run **eventvwr.msc**.
-2.  Go to **Event Viewer (Local)** > **Applications and Services Logs** > **Microsoft** > **Windows**.
-3.  The first log to check is **AppxPackagingOM** > **Microsoft-Windows-AppxPackaging/Operational**.
-4.  Deployment-related errors are recorded in **AppXDeployment-Server** > **Microsoft-Windows-AppXDeploymentServer/Operational**.
+1. Run **eventvwr.msc**.
+1. Go to **Event Viewer (Local)** > **Applications and Services Logs** > **Microsoft** > **Windows**.
+1. The first log to check is **AppxPackagingOM** > **Microsoft-Windows-AppxPackaging/Operational**.  
+   Deployment-related errors are recorded in **AppXDeployment-Server** > **Microsoft-Windows-AppXDeploymentServer/Operational**.
 
 You can also use the following command in PowerShell to get the first few logged events:
 
-**Get-Appxlog \| Out-GridView**
+```ps
+Get-Appxlog | Out-GridView
+```
 
 ## Common error codes
 
 This table lists the most common error codes.
-
-
 
 <table>
 <colgroup>
@@ -50,7 +52,7 @@ This table lists the most common error codes.
 <tr class="odd">
 <td><strong>ERROR_BAD_FORMAT</strong></td>
 <td>0x8007000B</td>
-<td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See <a href="how-to-sign-a-package-using-signtool">How to sign an app package using SignTool</a>.<br/></td>
+<td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See <a href="how-to-sign-a-package-using-signtool.md">How to sign an app package using SignTool</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_OPEN_</strong><br/> <strong>PACKAGE_FAILED</strong><br/></td>
@@ -61,7 +63,7 @@ This table lists the most common error codes.
 <li>The publisher name doesn't match the signing certificate subject.</li>
 <li>The file:// prefix is missing or the package couldn't be found at the specified location.</li>
 </ul>
-Check the <strong>AppxPackagingOM</strong> event log for more info.<br/></td>
+For more information, check the <strong>AppxPackagingOM</strong> event log.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_INSTALL_PACKAGE_</strong><br/> <strong>NOT_FOUND</strong><br/></td>
@@ -82,7 +84,7 @@ Check the <strong>AppxPackagingOM</strong> event log for more info.<br/></td>
 <li>A specified package dependency can't be found.</li>
 <li>The package doesn't support the correct processor architecture.</li>
 </ul>
-Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></td>
+For more informtion, check the <strong>AppXDeployment-Server</strong> event log.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_OUT_</strong><br/> <strong>OF_DISK_SPACE</strong><br/></td>
@@ -97,12 +99,12 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <tr class="even">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>REGISTRATION_FAILURE</strong><br/></td>
 <td>0x80073CF6</td>
-<td>The package can't be registered.<br/> Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></td>
+<td>The package can't be registered.<br/> For more information, check the <strong>AppXDeployment-Server</strong> event log.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>DEREGISTRATION_EFAILURE</strong><br/></td>
 <td>0x80073CF7</td>
-<td>The package can't be unregistered.<br/> You may get this error while removing a package.<br/> Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></td>
+<td>The package can't be unregistered.<br/> You may get this error while removing a package.<br/> For more information, check the <strong>AppXDeployment-Server</strong> event log.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_CANCEL</strong></td>
@@ -112,12 +114,12 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <tr class="odd">
 <td><strong>ERROR_INSTALL_FAILED</strong></td>
 <td>0x80073CF9</td>
-<td>Package install failed. Contact the software vendor.<br/> Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></td>
+<td>Package install failed. Contact the software vendor.<br/> For more information, check the <strong>AppXDeployment-Server</strong> event log.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_REMOVE_FAILED</strong></td>
 <td>0x80073CFA</td>
-<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more info, see <a href="https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
+<td>Package removal failed.<br/> You may get this error for failures that occur during package uninstall.<br/> For more information, see <a href="https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.removepackageasync"><strong>RemovePackageAsync</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_PACKAGE_</strong><br/> <strong>ALREADY_EXISTS</strong><br/></td>
@@ -162,7 +164,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. See <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a> to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. For information about setting up Roaming User Profiles on user accounts, see <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj649079(v=ws.11)">Deploy Roaming User Profiles</a>. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>
@@ -192,7 +194,7 @@ One of the possible reasons is a need for a roaming profile. See <a href="https:
 <tr class="odd">
 <td><strong>ERROR_SYSTEM_</strong><br/> <strong>NEEDS_REMEDIATION</strong><br/></td>
 <td>0x80073D07</td>
-<td>An error in a system binary was detected. Try refreshing the PC to fix the problem. <br/></td>
+<td>An error in a system binary was detected. To fix the problem, try refreshing the PC. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_APPX_INTEGRITY_</strong><br/> <strong>FAILURE_EXTERNAL</strong><br/></td>
@@ -282,30 +284,61 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="even">
 <td><strong>E_INVALIDARG</strong></td>
 <td>0x80070057</td>
-<td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event;  While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect. <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package . Please remove these characters from the manifest and try installing the package. <br/></td>
+<td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event;  While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect. <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br/></td>
 </tr>
 </tbody>
 </table>
 
+## Applications don't start and their names are dimmed in Windows 10
 
+On a Windows 10-based computer, you cannot start some applications, and the application names appear dimmed.
 
- 
+![Some application names appear dimmed in the Start menu](./images/app-names-dimmed.png)
+
+When you try to open an application by selecting the dimmed name, you may receive one of the following error messages:
+
+> There's a problem with \<*application name*>. Contact your system administrator about repairing or reinstalling it  
+> Error: This app can't open
+
+Additionally, the following event entries are logged in the "Microsoft-Windows-TWinUI/Operational" log under **Applications and Services\Microsoft\Windows\Apps**:
+
+> Log Name: Microsoft-Windows-TWinUI/Operational  
+> Source: Microsoft-Windows-Immersive-Shell  
+> Date: <*date*>  
+> Event ID: 5960  
+> Task Category: (5960)  
+> Level: Error  
+> Keywords:  
+> Description:  
+> Activation of the app Microsoft.BingNews_8wekyb3d8bbwe!AppexNews for the Windows. Launch contract was blocked with error 0x80073CFC because its package is in state: Modified.  
+
+### Cause
+
+This issue occurs because the registry entry for the status value of application's corresponding package was modified.
+
+### Resolution
+
+> [!WARNING]
+> Serious problems might occur if you modify the registry incorrectly by using Registry Editor or by using another method. These problems might require that you reinstall the operating system. Microsoft cannot guarantee that these problems can be solved. Modify the registry at your own risk.
+
+To fix this issue:
+
+1. Start Registry Editor, and then locate the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList** subkey.
+
+1. To back up the subkey data, right-click **PackageList**, select **Export**, and then save the data as a registry file.
+1. For each of the applications that are listed in the Event ID 5960 log entries, follow these steps:  
+   1. Locate the **PackageStatus** entry.
+
+   1. Set the value of **PackageStatus** to zero (**0**).
+   > [!NOTE]  
+   >- If there are no entries for the application under **PackageList**, then the issue has some other cause.
+   >- In the case of the example event in this article, the full subkey is as follows:
+   >    ```
+   >    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus
+   >    ```
+1. Restart the computer.
 
 ## Related topics
 
-<dl> <dt>
-
-[How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)
-</dt> <dt>
-
-[How to troubleshoot app package signature errors](how-to-troubleshoot-app-package-signature-errors.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+- [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md)
+- [How to troubleshoot app package signature errors](how-to-troubleshoot-app-package-signature-errors.md)

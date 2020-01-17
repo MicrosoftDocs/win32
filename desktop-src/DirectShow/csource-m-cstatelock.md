@@ -1,8 +1,8 @@
 ---
 Description: Critical section object that protects the filter state. The CSource::pStateLock helper method returns a pointer to this member variable.
 ms.assetid: faaf5fea-54bc-4856-9bca-3ed420c491e4
-title: CSource::m_cStateLock member
-ms.topic: article
+title: CSource::m_cStateLock member (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

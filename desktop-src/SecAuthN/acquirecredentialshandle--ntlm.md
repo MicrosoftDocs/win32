@@ -1,14 +1,14 @@
 ---
 Description: Acquires a handle to preexisting credentials of a security principal that is using NTLM.
 ms.assetid: 8a51ca50-0e05-4f1e-9dfc-c5d0118f65ed
-title: AcquireCredentialsHandle (NTLM) function
-ms.topic: article
+title: AcquireCredentialsHandle (NTLM) function (Sspi.h)
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 
 # AcquireCredentialsHandle (NTLM) function
 
-The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexisting credentials of a [*security principal*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly). This handle is required by the [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) and [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
+The **AcquireCredentialsHandle (NTLM)** function acquires a handle to preexisting credentials of a [*security principal*](https://docs.microsoft.com/windows/win32/secgloss/s-gly). This handle is required by the [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) and [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) functions. These can be either preexisting *credentials*, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 
 > [!Note]  
 > This is not a "log on to the network" and does not imply gathering of credentials.
@@ -44,7 +44,7 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
 
 > [!Note]  
-> If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) it is executing.
+> If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) it is executing.
 
  
 
@@ -53,7 +53,7 @@ A pointer to a null-terminated string that specifies the name of the principal w
 *pszPackage* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secpkginfoa) function. After a context is established, [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) in use.
+A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secpkginfoa) function. After a context is established, [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) in use.
 
 </dd> <dt>
 
@@ -79,14 +79,14 @@ A flag that indicates how these credentials will be used. This parameter can be 
 *pvLogonID* \[in\]
 </dt> <dd>
 
-A pointer to a [*locally unique identifier*](https://docs.microsoft.com/en-us/windows/win32/secgloss/l-gly) (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be **NULL**.
+A pointer to a [*locally unique identifier*](https://docs.microsoft.com/windows/win32/secgloss/l-gly) (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be **NULL**.
 
 </dd> <dt>
 
 *pAuthData* \[in\]
 </dt> <dd>
 
-A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](https://docs.microsoft.com/en-us/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo).
+A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](https://docs.microsoft.com/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo).
 
 When using the NTLM package, the maximum character lengths for user name, password, and domain are 256, 256, and 15, respectively.
 
@@ -116,7 +116,7 @@ A pointer to a [CredHandle](sspi-handles.md) structure to receive the credential
 *ptsExpiry* \[out\]
 </dt> <dd>
 
-A pointer to a [**TimeStamp**](timestamp.md) structure that receives the time at which the returned credentials expire. The value returned in this **TimeStamp** structure depends on the [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly). The [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) must return this value in local time.
+A pointer to a [**TimeStamp**](timestamp.md) structure that receives the time at which the returned credentials expire. The value returned in this **TimeStamp** structure depends on the [*constrained delegation*](https://docs.microsoft.com/windows/win32/secgloss/s-gly). The [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) must return this value in local time.
 
 </dd> </dl>
 
@@ -132,9 +132,9 @@ If the function fails, it returns one of the following error codes.
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**SEC\_E\_INSUFFICIENT\_MEMORY**</dt> </dl> | There is not enough memory available to complete the requested action.<br/>                                                                  |
 | <dl> <dt>**SEC\_E\_INTERNAL\_ERROR**</dt> </dl>      | An error occurred that did not map to an SSPI error code.<br/>                                                                               |
-| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>      | No credentials are available in the [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly).<br/> |
+| <dl> <dt>**SEC\_E\_NO\_CREDENTIALS**</dt> </dl>      | No credentials are available in the [*constrained delegation*](https://docs.microsoft.com/windows/win32/secgloss/s-gly).<br/> |
 | <dl> <dt>**SEC\_E\_NOT\_OWNER**</dt> </dl>           | The caller of the function does not have the necessary credentials.<br/>                                                                     |
-| <dl> <dt>**SEC\_E\_SECPKG\_NOT\_FOUND**</dt> </dl>   | The requested [*security package*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) does not exist.<br/>                                                                                          |
+| <dl> <dt>**SEC\_E\_SECPKG\_NOT\_FOUND**</dt> </dl>   | The requested [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) does not exist.<br/>                                                                                          |
 | <dl> <dt>**SEC\_E\_UNKNOWN\_CREDENTIALS**</dt> </dl> | The credentials supplied to the package were not recognized.<br/>                                                                            |
 
 
@@ -143,18 +143,18 @@ If the function fails, it returns one of the following error codes.
 
 ## Remarks
 
-The **AcquireCredentialsHandle (NTLM)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific [*constrained delegation*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly). This can be the handle to preexisting credentials, or the function can create a new set of credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) and [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) functions.
+The **AcquireCredentialsHandle (NTLM)** function returns a handle to the credentials of a principal, such as a user or client, as used by a specific [*constrained delegation*](https://docs.microsoft.com/windows/win32/secgloss/s-gly). This can be the handle to preexisting credentials, or the function can create a new set of credentials and return it. This handle can be used in subsequent calls to the [**AcceptSecurityContext (NTLM)**](acceptsecuritycontext--ntlm.md) and [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) functions.
 
-In general, **AcquireCredentialsHandle (NTLM)** does not allow a process to obtain a handle to the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) has the option of specifying the [*logon identifier*](https://docs.microsoft.com/en-us/windows/win32/secgloss/l-gly) (LUID) of any existing logon session token to get a handle to that session's credentials. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
+In general, **AcquireCredentialsHandle (NTLM)** does not allow a process to obtain a handle to the credentials of other users logged on to the same computer. However, a caller with SE\_TCB\_NAME [*privilege*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) has the option of specifying the [*logon identifier*](https://docs.microsoft.com/windows/win32/secgloss/l-gly) (LUID) of any existing logon session token to get a handle to that session's credentials. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 
 A package might call the function in *pGetKeyFn* provided by the RPC run-time transport. If the transport does not support the notion of callback to retrieve credentials, this parameter must be **NULL**.
 
 For kernel mode callers, the following differences must be noted:
 
--   The two string parameters must be [*Unicode*](https://docs.microsoft.com/en-us/windows/win32/secgloss/u-gly) strings.
+-   The two string parameters must be [*Unicode*](https://docs.microsoft.com/windows/win32/secgloss/u-gly) strings.
 -   The buffer values must be allocated in process virtual memory, not from the pool.
 
-When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecredentialshandle) function.
+When you have finished using the returned credentials, free the memory used by the credentials by calling the [**FreeCredentialsHandle**](https://docs.microsoft.com/windows/win32/api/sspi/nf-sspi-freecredentialshandle) function.
 
 ## Requirements
 
@@ -184,7 +184,7 @@ When you have finished using the returned credentials, free the memory used by t
 [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md)
 </dt> <dt>
 
-[**FreeCredentialsHandle**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/nf-sspi-freecredentialshandle)
+[**FreeCredentialsHandle**](https://docs.microsoft.com/windows/win32/api/sspi/nf-sspi-freecredentialshandle)
 </dt> </dl>
 
  

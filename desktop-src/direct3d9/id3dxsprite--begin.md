@@ -1,8 +1,8 @@
 ---
 Description: Prepares a device for drawing sprites.
 ms.assetid: ec9eb069-0a41-4dd5-bbd5-5a31133550b6
-title: ID3DXSprite::Begin method
-ms.topic: article
+title: ID3DXSprite::Begin method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT Begin(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Combination of zero or more flags that describe sprite rendering options. For this method, the valid flags are:
 
@@ -57,7 +57,7 @@ For a description of the flags and for information on how to control device stat
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DERR\_OUTOFVIDEOMEMORY, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 
@@ -71,7 +71,7 @@ Render States:
 
 
 
-| Type ([**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)) | Value                                                                                                             |
+| Type ([**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)) | Value                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | D3DRS\_ALPHABLENDENABLE                                       | TRUE                                                                                                              |
 | D3DRS\_ALPHAFUNC                                              | D3DCMP\_GREATER                                                                                                   |
@@ -107,7 +107,7 @@ Texture Stage States:
 
 
 
-| Stage Identifier | Type ([**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx)) | Value            |
+| Stage Identifier | Type ([**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx)) | Value            |
 |------------------|---------------------------------------------------------------------------|------------------|
 | 0                | D3DTSS\_ALPHAARG1                                                         | D3DTA\_TEXTURE   |
 | 0                | D3DTSS\_ALPHAARG2                                                         | D3DTA\_DIFFUSE   |
@@ -128,7 +128,7 @@ Sampler States:
 
 
 
-| Sampler Stage Index | Type ([**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172602(v=VS.85).aspx)) | Value                                                                                                          |
+| Sampler Stage Index | Type ([**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/library/Bb172602(v=VS.85).aspx)) | Value                                                                                                          |
 |---------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | 0                   | D3DSAMP\_ADDRESSU                                               | D3DTADDRESS\_CLAMP                                                                                             |
 | 0                   | D3DSAMP\_ADDRESSV                                               | D3DTADDRESS\_CLAMP                                                                                             |

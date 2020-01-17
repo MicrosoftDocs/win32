@@ -3,7 +3,7 @@ Description: Registers instance providers in WMI.
 ms.assetid: 6eba9bff-a5b9-4741-94ef-7d65b33d9aff
 ms.tgt_platform: multiple
 title: '__InstanceProviderRegistration class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

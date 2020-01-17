@@ -1,5 +1,5 @@
 ---
-title: INapEnforcementClientBinding CreateConnection method
+title: INapEnforcementClientBinding CreateConnection method (NapEnforcementClient.h)
 description: Is used by enforcers to create connection objects.
 ms.assetid: 4d31928f-1a10-4168-a53c-256cbbf3e5c9
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagent.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

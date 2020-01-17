@@ -1,6 +1,6 @@
 ---
-title: Programming Reference
-description: Programming Reference
+title: Windows Media Format SDK Programming Reference
+description: Windows Media Format SDK Programming Reference
 ms.assetid: 'cafb8aa7-6b0a-4bcc-b618-2520a31cd7a6'
 keywords:
 - Windows Media Format SDK,programming reference

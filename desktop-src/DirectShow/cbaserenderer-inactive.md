@@ -1,8 +1,8 @@
 ---
 Description: The Inactive method is called when the state is switched to stopped.
 ms.assetid: 2bad81ef-d2a4-4c20-a49b-e40e5097b430
-title: CBaseRenderer.Inactive method
-ms.topic: article
+title: CBaseRenderer.Inactive method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

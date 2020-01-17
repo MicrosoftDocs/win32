@@ -1,8 +1,8 @@
 ---
 Description: IEnumUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: df4b6235-e66a-4187-b1f9-33c042cae2f2
-title: IEnumUserIdentity interface
-ms.topic: interface
+title: IEnumUserIdentity interface (Msident.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,7 +23,7 @@ Provides enumeration of all user identities present on the system.
 
 ## Members
 
-The **IEnumUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IEnumUserIdentity** also has these types of members:
+The **IEnumUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IEnumUserIdentity** also has these types of members:
 
 -   [Methods](#methods)
 

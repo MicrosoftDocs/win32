@@ -1,11 +1,11 @@
 ---
-title: EsentSessionContextNotSetByThisThreadException class (Microsoft.Isam.Esent.Interop)
+title: EsentSessionContextNotSetByThisThreadException class
 TOCTitle: EsentSessionContextNotSetByThisThreadException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextnotsetbythisthreadexception(v=EXCHG.10)
 ms:contentKeyID: 55102698
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException
 dev_langs:

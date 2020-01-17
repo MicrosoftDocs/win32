@@ -1,5 +1,5 @@
 ---
-title: LB_GETSEL message
+title: LB_GETSEL message (Winuser.h)
 description: Gets the selection state of an item.
 ms.assetid: f92c02e7-3c6d-4649-8798-42eb4a0c51b6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

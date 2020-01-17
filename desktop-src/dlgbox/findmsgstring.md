@@ -1,5 +1,5 @@
 ---
-title: FINDMSGSTRING message
+title: FINDMSGSTRING message (Commdlg.h)
 description: A Find or Replace dialog box sends the FINDMSGSTRING registered message to the window procedure of its owner window when the user clicks the Find Next, Replace, or Replace All button, or closes the dialog box.
 ms.assetid: ed0b256a-96df-4588-b8f3-f7d1f89ffe74
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

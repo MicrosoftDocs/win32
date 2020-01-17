@@ -1,5 +1,5 @@
 ---
-title: IVMKeyboard IsPressed method
+title: IVMKeyboard IsPressed method (VPCCOMInterfaces.h)
 description: Determines whether the specified key is down.
 ms.assetid: 7541d678-762a-4c2e-80cd-686bb56c9cd7
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

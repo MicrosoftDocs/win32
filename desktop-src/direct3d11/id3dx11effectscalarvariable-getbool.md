@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectScalarVariable GetBool method
+title: ID3DX11EffectScalarVariable GetBool method (D3dx11effect.h)
 description: Get a boolean variable.
 ms.assetid: 9d2789af-c59f-4d2d-87c6-9f36286e8a15
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ A pointer to the variable.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

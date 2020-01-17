@@ -1,8 +1,8 @@
 ---
 Description: Reads the binary data. Deprecated.
 ms.assetid: 530552c5-bf05-4e86-836d-d25161832c6d
-title: IDirectXFileBinary::Read method
-ms.topic: article
+title: IDirectXFileBinary::Read method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT Read(
 *pvData* \[out\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the buffer that receives the data that has been read.
 
@@ -49,7 +49,7 @@ Pointer to the buffer that receives the data that has been read.
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of the buffer pointed to by pvData, in bytes.
 
@@ -58,7 +58,7 @@ Size of the buffer pointed to by pvData, in bytes.
 *pcbRead* \[out\]
 </dt> <dd>
 
-Type: **[**LPDWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPDWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the number of bytes actually read.
 
@@ -66,7 +66,7 @@ Pointer to the number of bytes actually read.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values: DXFILEERR\_BADVALUE, DXFILEERR\_NOMOREDATA.
 

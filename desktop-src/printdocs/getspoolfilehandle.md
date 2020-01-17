@@ -1,8 +1,8 @@
 ---
 Description: The GetSpoolFileHandle function retrieves a handle for the spool file associated with the job currently submitted by the application.
 ms.assetid: df6f28b3-66a6-4fb7-bdde-40cd7d934c5f
-title: GetSpoolFileHandle function
-ms.topic: article
+title: GetSpoolFileHandle function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

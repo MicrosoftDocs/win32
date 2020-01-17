@@ -1,5 +1,5 @@
 ---
-title: WsSetAutoFail function
+title: WsSetAutoFail function (WebServicesDebug.h)
 description: Sets the next point to inject a failure. This is a DEBUG ONLY function.
 ms.assetid: b453dbc5-01ff-486d-8767-254b74cc5b6e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - WebServicesDebug.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMTask IsComplete property
+title: IVMTask IsComplete property (VPCCOMInterfaces.h)
 description: Determines whether the task has completed.
 ms.assetid: 181fa220-4de2-4ab3-950b-fffc4fe4de64
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

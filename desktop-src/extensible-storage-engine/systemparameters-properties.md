@@ -1,5 +1,5 @@
 ﻿---
-title: SystemParameters properties (Microsoft.Isam.Esent.Interop)
+title: SystemParameters properties
 TOCTitle: SystemParameters properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.SystemParameters
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters_properties(v=EXCHG.10)

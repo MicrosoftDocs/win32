@@ -1,5 +1,5 @@
 ---
-title: Voice Property
+title: Voice Property (Command Object)
 description: Voice Property
 ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
 ms.topic: article

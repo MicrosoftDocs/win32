@@ -1,5 +1,5 @@
 ---
-title: TITLEBAR_TYPE enumeration
+title: TITLEBAR_TYPE enumeration (Softkbdc.h)
 description: Elements of the TITLEBAR\_TYPE enumeration are used to specify types of titlebars that are available for a soft keyboard window.
 ms.assetid: 10d9b1c0-fd52-4f62-9268-cb8903a4c2db
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Softkbdc.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

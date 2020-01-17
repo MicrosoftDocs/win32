@@ -1,5 +1,5 @@
 ---
-title: MPSAMPLE_DATA structure
+title: MPSAMPLE_DATA structure (MpClient.h)
 description: Notification data passed to the sample submission callback function.
 ms.assetid: 58F348C6-411D-4545-9D4D-A80095FD139B
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

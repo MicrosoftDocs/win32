@@ -2,7 +2,7 @@
 Description: Provides a link between the capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
 ms.assetid: 3B09ED8A-D4D0-41E2-B807-96AD8E990773
 title: Msvm_SettingsDefineCapabilities class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

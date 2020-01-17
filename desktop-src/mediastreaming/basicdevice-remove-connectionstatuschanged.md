@@ -12,7 +12,7 @@ api_name:
 - BasicDevice.remove_ConnectionStatusChanged
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

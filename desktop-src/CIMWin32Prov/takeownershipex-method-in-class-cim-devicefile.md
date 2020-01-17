@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical device file specified in the objec
 ms.assetid: 084f755a-e837-4d21-8bd2-0f63f80302fc
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

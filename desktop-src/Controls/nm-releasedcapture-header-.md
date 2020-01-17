@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (header) notification code
+title: NM_RELEASEDCAPTURE (header) notification code (Commctrl.h)
 description: Notifies a header control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: fca57009-dc96-4575-8c64-c753884b05fe
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

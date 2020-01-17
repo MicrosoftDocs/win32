@@ -1,5 +1,5 @@
 ---
-title: About Skins
+title: About Skins (Mobile)
 description: About Skins
 ms.assetid: 105c11ce-705b-4a0c-8982-d0f9dd9ae3ac
 keywords:

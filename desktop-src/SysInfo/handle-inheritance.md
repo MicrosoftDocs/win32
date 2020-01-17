@@ -13,7 +13,7 @@ A child process can inherit handles from its parent process. An inherited handle
 1.  Create the handle with the **bInheritHandle** member of the [**SECURITY\_ATTRIBUTES**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure set to **TRUE**.
 2.  Create the child process using the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function, with the *bInheritHandles* parameter set to **TRUE**.
 
-The [**DuplicateHandle**](https://msdn.microsoft.com/en-us/library/ms724251(v=VS.85).aspx) function duplicates a handle to be used in the current process or in another process. If an application duplicates one of its handles for another process, the duplicated handle is valid only in the context of the other process.
+The [**DuplicateHandle**](https://msdn.microsoft.com/library/ms724251(v=VS.85).aspx) function duplicates a handle to be used in the current process or in another process. If an application duplicates one of its handles for another process, the duplicated handle is valid only in the context of the other process.
 
 A duplicated or inherited handle is a unique value, but it refers to the same object as the original handle. Processes can inherit or duplicate handles to the following types of objects:
 

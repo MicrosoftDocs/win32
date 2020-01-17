@@ -1,5 +1,5 @@
 ---
-title: MCI_WAVE_DELETE_PARMS structure
+title: MCI_WAVE_DELETE_PARMS structure (Mciapi.h)
 description: The MCI\_WAVE\_DELETE\_PARMS structure contains position information for the MCI\_DELETE command for waveform-audio devices.
 ms.assetid: 5c0bf0ca-773b-4b96-8b55-9ef7b5a306d9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ Position to delete to.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_DELETE**](mci-delete.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

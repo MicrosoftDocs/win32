@@ -1,7 +1,7 @@
 ---
 Description: Requests a pointer to a specified object.
-title: SMC_GETOBJECT message
-ms.topic: article
+title: SMC_GETOBJECT message (Shobjidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 36e8f304-a92a-485f-8413-b9c416087ec9
 api_name: 
@@ -59,9 +59,9 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 The following interfaces may be requested.
 
 -   [**IShellMenu**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu)
--   [**IContextMenu**](https://msdn.microsoft.com/en-us/library/Bb776095(v=VS.85).aspx)
+-   [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx)
 -   [**IShellMenuCallback**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback)
--   [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx)
+-   [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx)
 
 ## Requirements
 

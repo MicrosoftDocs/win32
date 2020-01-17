@@ -1,5 +1,5 @@
 ---
-title: WM_INITMENU message
+title: WM_INITMENU message (Winuser.h)
 description: Sent when a menu is about to become active.
 ms.assetid: d0fcc6d8-f57c-4d04-b9e7-4cfab6add173
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

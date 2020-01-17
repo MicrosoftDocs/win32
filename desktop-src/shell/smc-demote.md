@@ -1,7 +1,7 @@
 ---
 Description: Demote the item specified by the accompanying SMDATA structure.
-title: SMC_DEMOTE message
-ms.topic: article
+title: SMC_DEMOTE message (Shobjidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4809fbd1-da66-4453-b4f2-e75cb5b3457c
 api_name: 

@@ -1,5 +1,5 @@
 ---
-title: TTM_SETTIPBKCOLOR message
+title: TTM_SETTIPBKCOLOR message (Commctrl.h)
 description: Sets the background color in a tooltip window.
 ms.assetid: ed7860db-a221-4855-85d6-1b3b356279ed
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,10 +2,10 @@
 title: SampleGrad (DirectX HLSL Texture Object)
 description: Samples a texture using a gradient to influence the way the sample location is calculated.
 ms.assetid: f3d73296-23c4-4178-b89e-6f84cfcb48a5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 
@@ -218,7 +218,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the MotionBlur.fx file in the [MotionBlur10 Sample](https://msdn.microsoft.com/en-us/library/Ee416417(v=VS.85).aspx).
+This partial code example is from the MotionBlur.fx file in the [MotionBlur10 Sample](https://msdn.microsoft.com/library/Ee416417(v=VS.85).aspx).
 
 
 ```

@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_AUDIOFORMAT message
+title: WM_CAP_SET_AUDIOFORMAT message (Vfw.h)
 description: The WM\_CAP\_SET\_AUDIOFORMAT message sets the audio format to use when performing streaming or step capture. You can send this message explicitly or by using the capSetAudioFormat macro.
 ms.assetid: 8bffa401-3d36-43bb-9f69-988ebc69b860
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by **s**.
 <span id="psAudioFormat"></span><span id="psaudioformat"></span><span id="PSAUDIOFORMAT"></span>*psAudioFormat*
 </dt> <dd>
 
-Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx) or [**PCMWAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd743663(v=VS.85).aspx) structure that defines the audio format.
+Pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) or [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx) structure that defines the audio format.
 
 </dd> </dl>
 

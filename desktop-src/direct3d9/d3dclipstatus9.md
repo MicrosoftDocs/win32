@@ -1,8 +1,8 @@
 ---
 Description: Describes the current clip status.
 ms.assetid: 3ea8631c-a967-4d24-a49a-1751b3ee6077
-title: D3DCLIPSTATUS9 structure
-ms.topic: structure
+title: D3DCLIPSTATUS9 structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DCLIPSTATUS9 {
 **ClipUnion**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -71,7 +71,7 @@ Clip union flags that describe the current clip status. This member can be one o
 **ClipIntersection**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

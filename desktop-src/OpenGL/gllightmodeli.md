@@ -1,5 +1,5 @@
 ---
-title: glLightModeli function
+title: glLightModeli function (Gl.h)
 description: The glLightModeli function sets lighting model parameters.
 ms.assetid: 49975166-b2b3-47f9-8305-aea2ba364546
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

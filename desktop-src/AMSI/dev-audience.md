@@ -25,7 +25,7 @@ For sample code showing how to consume AMSI within your COM application, see the
 
 ## Third-party creators of antimalware products
 
-As a creator of antimalware products, you can choose to author and register your own in-process COM server (a DLL) to function as an AMSI provider. That AMSI provider must implement the [**IAntimalwareProvider** interface](/windows/desktop/api/amsi/nn-amsi-iantimalwareprovider), and it must run in-process (it's not required to be an out-of-process COM server).
+As a creator of antimalware products, you can choose to author and register your own in-process COM server (a DLL) to function as an AMSI provider. That AMSI provider must implement the [**IAntimalwareProvider** interface](/windows/desktop/api/amsi/nn-amsi-iantimalwareprovider), and it must run in-process.
 
 Note that, after Windows 10, version 1709 (the Fall 2017 Creators' Update), your AMSI provider DLL may not work if it depends upon other DLLs in its path to be loaded at the same time. To prevent DLL hijacking, we recommend that your provider DLL load its dependencies explicitly (with a full path) using secure [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) calls, or equivalent. We recommend this instead of relying on the **LoadLibrary** search behavior.
 

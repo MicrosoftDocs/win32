@@ -2,8 +2,8 @@
 Description: Represents a single item in an SWbemRefresher object.
 ms.assetid: 6a12c8eb-3ef9-4292-810c-6954294fc8c7
 ms.tgt_platform: multiple
-title: SWbemRefreshableItem object
-ms.topic: interface
+title: SWbemRefreshableItem object (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -62,7 +62,7 @@ The **SWbemRefreshableItem** object has these properties.
 
 ## Remarks
 
-The VBScript method [**GetObject**](https://msdn.microsoft.com/en-us/library/ebdktb00(v=VS.71).aspx) cannot be used to create **SWbemRefreshableItem** objects directly.
+The VBScript method [**GetObject**](https://msdn.microsoft.com/library/ebdktb00(v=VS.71).aspx) cannot be used to create **SWbemRefreshableItem** objects directly.
 
 ## Examples
 

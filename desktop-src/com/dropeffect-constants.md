@@ -1,5 +1,5 @@
 ---
-title: DROPEFFECT Constants
+title: DROPEFFECT Constants (OleIdl.h)
 description: Represents information about the effects of a drag-and-drop operation.
 ms.assetid: d8e46899-3fbf-4012-8dd3-67fa627526d5
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - OleIdl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

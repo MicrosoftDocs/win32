@@ -1,8 +1,8 @@
 ---
 Description: The LockIt class is an internal class that locks and unlocks the DMO.
 ms.assetid: f516ce22-17ad-488e-a768-3f3849c56087
-title: IMediaObjectImpl::LockIt Class
-ms.topic: article
+title: IMediaObjectImpl::LockIt Class (Dmoimpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

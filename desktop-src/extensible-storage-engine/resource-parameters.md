@@ -5,7 +5,7 @@ ms:assetid: 1f61845a-ffa5-4894-9fe0-a58737b3b54e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269201(v=EXCHG.10)
 ms:contentKeyID: 32765504
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 topic_type: 
 - apiref
@@ -523,7 +523,7 @@ This parameter reserves the requested number of temporary table resources for us
 
 This parameter reserves the requested number of version store pages for use by an instance. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. This setting will affect how many updates can be held in memory at a time. This in turn will affect either the maximum number of updates a single transaction can perform, the maximum duration a transaction can be held open, the maximum concurrent load of updating transactions on the system, or a combination of these.
 
-Each version store page as configured by this parameter is 16KB in size.
+Each version store page as configured by this parameter is 16KB in size on 32-bit machines, and 32KB on 64-bit machines.
 
 **Windows Vista and later:**  The version store page size can be read and changed via JET_paramVerPageSize.
 
@@ -716,7 +716,7 @@ This parameter represents a threshold relative to **JET_paramMaxVerPages** that 
 
 **Windows Vista and later:**  This is no longer supported and the default value of this parameter was changed to clarify its behavior.
 
-Each version store page as configured by this parameter is 16KB in size.
+Each version store page as configured by this parameter is 16KB in size on 32-bit machines, and 32KB on 64-bit machines.
 
 **Windows Vista and later:**  The version store page size can be read and changed via JET_paramVerPageSize.
 

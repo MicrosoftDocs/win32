@@ -3,7 +3,7 @@ Description: The CIM\_CreateDirectoryAction class creates empty directories for 
 ms.assetid: e8587534-4bb3-44de-98a1-8d777f1da1b3
 ms.tgt_platform: multiple
 title: CIM_CreateDirectoryAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

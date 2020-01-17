@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInvalidIncrementalReseedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidIncrementalReseedException properties
 TOCTitle: EsentDatabaseInvalidIncrementalReseedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidIncrementalReseedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidincrementalreseedexception_properties(v=EXCHG.10)

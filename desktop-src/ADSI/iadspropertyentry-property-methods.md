@@ -1,5 +1,5 @@
 ---
-title: IADsPropertyEntry Property Methods
+title: IADsPropertyEntry Property Methods (Iads.h)
 description: Provide access to the following properties.
 ms.assetid: 73b0f6d4-55db-46cf-a781-e10bc4fcf2db
 ms.tgt_platform: multiple
@@ -25,7 +25,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -124,7 +124,7 @@ HRESULT put_Name(
 **Values**
 </dt> <dd> <dl>
 
-A **VARIANT** array. Each element in this array represents a value of the named property. Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) and [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interfaces. Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.
+A **VARIANT** array. Each element in this array represents a value of the named property. Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue) and [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2) interfaces. Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.
 
 <dt>
 
@@ -316,7 +316,7 @@ Cleanup:
 [**IADsPropertyValue2**](/windows/desktop/api/Iads/nn-iads-iadspropertyvalue2)
 </dt> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> </dl>
 
  

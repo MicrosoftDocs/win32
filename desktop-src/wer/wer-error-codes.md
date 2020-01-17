@@ -1,5 +1,5 @@
 ---
-title: WER Error Codes
+title: WER Error Codes (Werapi.h)
 description: The following table provides a list of custom error codes used by Windows Error Reporting.
 ms.assetid: c409b222-5e02-4b48-b39a-f2e29d199944
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - Werapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

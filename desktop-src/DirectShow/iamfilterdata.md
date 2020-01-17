@@ -1,8 +1,8 @@
 ---
 Description: Note  This interface has been deprecated.
 ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
-title: IAMFilterData interface
-ms.topic: interface
+title: IAMFilterData interface (Fil\_data.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -26,7 +26,7 @@ The `IAMFilterData` interface converts filter information to packed binary data,
 
 ## Members
 
-The **IAMFilterData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMFilterData** also has these types of members:
+The **IAMFilterData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMFilterData** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetVariableBySemantic method
+title: ID3DX11Effect GetVariableBySemantic method (D3dx11effect.h)
 description: Get a variable by semantic.
 ms.assetid: fe731af6-3e9b-4f3e-9761-121796ac8c48
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

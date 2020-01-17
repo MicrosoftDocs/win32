@@ -1,8 +1,8 @@
 ---
 Description: Sets an albedo value for each texel, overwriting previous albedo values.
 ms.assetid: 2928c861-a07e-4099-b04f-cdfa41e70874
-title: ID3DXPRTEngine::SetPerTexelAlbedo method
-ms.topic: article
+title: ID3DXPRTEngine::SetPerTexelAlbedo method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -49,7 +49,7 @@ Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb20590
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of color channels to set. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -66,7 +66,7 @@ Optional pointer to an [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.m
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DERR\_NOTAVAILABLED3DERR\_OUTOFVIDEOMEMORY, D3DERR\_WASSTILLDRAWING, E\_OUTOFMEMORY.
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets the unfiltered image cached by the IWiaPreview::GetNewPreview method.
 ms.assetid: 121b6866-cca1-4170-9bdf-225491f942f5
-title: IWiaPreview::UpdatePreview method
-ms.topic: article
+title: IWiaPreview::UpdatePreview method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -89,7 +89,7 @@ An application must ensure that *pChildWiaItem* has the same image format ([**WI
 
 ## Examples
 
-UpdateRegion should be called each time a user changes, for example, the brightness or contrast for the child item represented by `dwRegionNumber`. This child item has previously been created by the segmentation filter ([**IWiaSegmentationFilter**](-wia-iwiasegmentationfilter.md). The image written to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) is returned by the transfer callback interface's [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) method. The code for GetSubRegionItem is omitted in this example.
+UpdateRegion should be called each time a user changes, for example, the brightness or contrast for the child item represented by `dwRegionNumber`. This child item has previously been created by the segmentation filter ([**IWiaSegmentationFilter**](-wia-iwiasegmentationfilter.md). The image written to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) is returned by the transfer callback interface's [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) method. The code for GetSubRegionItem is omitted in this example.
 
 After this function has been called, an application would typically redraw the region on the screen.
 

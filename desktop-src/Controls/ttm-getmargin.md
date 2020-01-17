@@ -1,5 +1,5 @@
 ---
-title: TTM_GETMARGIN message
+title: TTM_GETMARGIN message (Commctrl.h)
 description: Retrieves the top, left, bottom, and right margins set for a tooltip window. A margin is the distance, in pixels, between the tooltip window border and the text contained within the tooltip window.
 ms.assetid: c33ee1de-5fbd-4c7e-a703-576c2ffd3052
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

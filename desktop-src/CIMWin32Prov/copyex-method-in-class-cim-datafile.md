@@ -3,7 +3,7 @@ Description: The CopyEx method copies the logical file (or directory) that is sp
 ms.assetid: e52c1a0f-e34c-4a61-9e54-ed172976cb61
 ms.tgt_platform: multiple
 title: CopyEx method of the CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

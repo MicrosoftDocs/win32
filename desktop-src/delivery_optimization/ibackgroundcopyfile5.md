@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile5 interface
+title: IBackgroundCopyFile5 interface (Deliveryoptimization.h)
 description: Use this interface to get or set generic properties of Delivery Optimization (DO) file transfers.
 ms.assetid: 2D729717-62D2-4C69-92FE-F4289EC48DF1
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

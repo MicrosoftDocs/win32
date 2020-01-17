@@ -1,8 +1,8 @@
 ---
 Description: Specifies the MPEG-2 profile. This property applies to MPEG video encoders.
 ms.assetid: 89c76f7e-8ec9-414b-8929-7392ff3a11bd
-title: AVEncMPVProfile property
-ms.topic: article
+title: AVEncMPVProfile property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncMPVProfile**](https://msdn.microsoft.com/en-us/library/Dd319417(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncMPVProfile**](https://msdn.microsoft.com/library/Dd319417(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

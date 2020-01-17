@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfThreadsException members (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfThreadsException members
 TOCTitle: EsentOutOfThreadsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfThreadsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofthreadsexception_members(v=EXCHG.10)

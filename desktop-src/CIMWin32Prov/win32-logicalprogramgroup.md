@@ -3,7 +3,7 @@ Description: The Win32\_LogicalProgramGroup&\#8194;WMI class represents a progra
 ms.assetid: e05b512d-92ab-4864-b8df-f4a8b66761c9
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroup class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

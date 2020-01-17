@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC MinimumMemoryPerVM property
+title: IVMVirtualPC MinimumMemoryPerVM property (VPCCOMInterfaces.h)
 description: Retrieves the minimum allowable quantity of physical memory per virtual machine, in megabytes.
 ms.assetid: 3e7757cd-df45-4b30-9a38-6cfca0ee631a
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the core encoder uses the &\#0034;Plus&\#0034; feature.
 ms.assetid: 1ace09da-7dee-469e-a533-63b40ac747ab
-title: MFPKEY_ENHANCED_WMA Property
-ms.topic: article
+title: MFPKEY_ENHANCED_WMA Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the core encoder uses the "Plus" feature.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

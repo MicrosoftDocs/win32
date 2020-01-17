@@ -2,7 +2,7 @@
 Description: Windows Imaging Component (WIC) proxy function for IPropertyBag2::Write.
 ms.assetid: b97caba6-298a-4b36-9f39-9b5440b866c3
 title: IPropertyBag2_Write_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ HRESULT IPropertyBag2_Write_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
 
 PARAMDESC
 
@@ -57,7 +57,7 @@ Type: **ULONG**
 *ppropBag* \[in\]
 </dt> <dd>
 
-Type: **[PROPBAG2](https://msdn.microsoft.com/en-us/library/Aa768188(VS.85).aspx)\***
+Type: **[PROPBAG2](https://msdn.microsoft.com/library/Aa768188(VS.85).aspx)\***
 
 </dd> <dt>
 

@@ -1,8 +1,8 @@
 ---
 Description: Gets a constant by looking up its name.
 ms.assetid: 0c57f6ce-ea81-4b34-9251-c385bfe6ebe7
-title: ID3DXTextureShader::GetConstantByName method
-ms.topic: article
+title: ID3DXTextureShader::GetConstantByName method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ A [handle](handles.md) to the parent data structure. If the constant is a top-le
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A string containing the name of the constant.
 

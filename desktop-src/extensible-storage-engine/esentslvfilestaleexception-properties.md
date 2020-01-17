@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileStaleException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileStaleException properties
 TOCTitle: EsentSLVFileStaleException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfilestaleexception_properties(v=EXCHG.10)

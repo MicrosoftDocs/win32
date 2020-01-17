@@ -1,8 +1,8 @@
 ---
 Description: Enables or disables a track in the animation controller.
 ms.assetid: 8d06287b-e076-4553-962c-5c423e355101
-title: ID3DXAnimationController::SetTrackEnable method
-ms.topic: article
+title: ID3DXAnimationController::SetTrackEnable method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetTrackEnable(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Identifier of the track to be mixed.
 
@@ -48,7 +48,7 @@ Identifier of the track to be mixed.
 *Enable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Enable value. Set to **TRUE** to enable this track in the controller, or to **FALSE** to prevent it from being mixed.
 
@@ -56,7 +56,7 @@ Enable value. Set to **TRUE** to enable this track in the controller, or to **FA
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

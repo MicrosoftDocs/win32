@@ -1,5 +1,5 @@
 ---
-title: SB_GETPARTS message
+title: SB_GETPARTS message (Commctrl.h)
 description: Retrieves a count of the parts in a status window. The message also retrieves the coordinate of the right edge of the specified number of parts.
 ms.assetid: 2535f490-4d6b-468a-b13c-096941e61bf4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentSessionWriteConflictException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSessionWriteConflictException methods
 TOCTitle: EsentSessionWriteConflictException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessionwriteconflictexception_methods(v=EXCHG.10)

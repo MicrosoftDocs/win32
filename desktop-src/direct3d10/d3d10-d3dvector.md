@@ -1,8 +1,8 @@
 ---
 Description: A 3D vector.
 ms.assetid: de0dd889-a7c6-47a4-af65-a77ae1d8d014
-title: D3DVECTOR structure
-ms.topic: structure
+title: D3DVECTOR structure (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

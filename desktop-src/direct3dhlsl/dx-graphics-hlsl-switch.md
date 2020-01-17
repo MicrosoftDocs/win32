@@ -1,5 +1,5 @@
 ---
-title: switch Statement
+title: switch Statement (Urlmon.h)
 description: Transfer control to a different statement block within the switch body depending on the value of a selector.
 ms.assetid: d1932ee1-d789-4536-b77d-162aacdbb115
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - urlmon.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

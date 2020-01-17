@@ -12,7 +12,7 @@ api_location:
 - D3dcompiler_47.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -12,7 +12,7 @@ The XAPO API allows the creation of cross-platform audio processing objects (XAP
 
 ## Creating New XAPOs
 
-The XAPO API provides the [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo) interface and the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx) method, which is unique to each XAPO.
+The XAPO API provides the [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo) interface and the [**CXAPOBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapobase) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method, which is unique to each XAPO.
 
 For an example of creating a new XAPO, see [How to: Create an XAPO](how-to--create-an-xapo.md).
 
@@ -26,7 +26,7 @@ XAPO instances are passed to XAudio2 as **IUnknown** interfaces. XAudio2 uses **
 
 ## Using an XAPO in XAudio2
 
-XAPOs are used in XAudio2 by attaching them to voices. Each XAudio2 voice has an effect chain containing zero or more audio effects. Audio data sent to a voice is passed through each effect in the chain before it is sent to the voice's output targets. Data is passed from the voice to each effect using the *pInputProcessParameters* parameter of the [**IXAPO::Process**](https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx) method. Then it is returned to the voice using the *pOutputProcessParameters* parameter. The voice takes the output of each effect, and feeds it into the next effect in the chain until no effects are left in the chain.
+XAPOs are used in XAudio2 by attaching them to voices. Each XAudio2 voice has an effect chain containing zero or more audio effects. Audio data sent to a voice is passed through each effect in the chain before it is sent to the voice's output targets. Data is passed from the voice to each effect using the *pInputProcessParameters* parameter of the [**IXAPO::Process**](https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx) method. Then it is returned to the voice using the *pOutputProcessParameters* parameter. The voice takes the output of each effect, and feeds it into the next effect in the chain until no effects are left in the chain.
 
 For more information about XAudio2 effect chains, see [XAudio2 Audio Effects](xaudio2-audio-effects.md).
 

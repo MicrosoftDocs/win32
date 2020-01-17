@@ -1,8 +1,8 @@
 ---
 Description: The put\_AttributeList method sets the list of attributes.
 ms.assetid: f7d57c0c-9114-42a4-b2bc-c812334d8136
-title: ITAttributeList::put_AttributeList method
-ms.topic: article
+title: ITAttributeList::put_AttributeList method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the bounds of the region of interest which indicates the region of the frame that requires different quality.
 ms.assetid: F06CACF0-AE75-4707-8CD0-7BA7D51BB80A
-title: MFSampleExtension_ROIRectangle attribute
-ms.topic: article
+title: MFSampleExtension_ROIRectangle attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
 ms.assetid: 5567ba71-c815-4434-962c-aa46cd171712
-title: Error.Type property
-ms.topic: article
+title: Error.Type property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ propVal = Error.Type
 
 ## C++
 
-See [**get\_Type Function**](https://msdn.microsoft.com/en-us/library/Aa369256(v=VS.85).aspx) function (Error Object).
+See [**get\_Type Function**](https://msdn.microsoft.com/library/Aa369256(v=VS.85).aspx) function (Error Object).
 
 ## Requirements
 

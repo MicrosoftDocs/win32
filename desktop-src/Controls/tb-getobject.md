@@ -1,5 +1,5 @@
 ---
-title: TB_GETOBJECT message
+title: TB_GETOBJECT message (Commctrl.h)
 description: Retrieves the IDropTarget for a toolbar control.
 ms.assetid: b26394ea-6f0f-4084-956d-f9166cc54b76
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

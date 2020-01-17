@@ -1,8 +1,8 @@
 ---
 Description: Determines the product of the current matrix and the given matrix.
 ms.assetid: 72388919-e474-4433-b219-41e2d312848e
-title: ID3DXMATRIXStack::MultMatrix method
-ms.topic: article
+title: ID3DXMATRIXStack::MultMatrix method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT MultMatrix(
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the D3DXMATRIX structure to be multiplied with the current matrix.
 
@@ -46,7 +46,7 @@ Pointer to the D3DXMATRIX structure to be multiplied with the current matrix.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

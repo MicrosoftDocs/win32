@@ -61,11 +61,11 @@ This sample is available in the following location.
 
 [**ISearchManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager)
 
-[**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
+[**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
 
 ### Conceptual
 
-[OLE DB Programming Overview](https://docs.microsoft.com/en-us/cpp/data/oledb/ole-db-programming-overview)
+[OLE DB Programming Overview](https://docs.microsoft.com/cpp/data/oledb/ole-db-programming-overview)
 
 ### Other Samples
 

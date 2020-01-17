@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine ChassisSerialNumber property
+title: IVMVirtualMachine ChassisSerialNumber property (VPCCOMInterfaces.h)
 description: Chassis serial number.
 ms.assetid: 03e02e6e-6819-4052-a0e0-9167eb5fdf4b
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

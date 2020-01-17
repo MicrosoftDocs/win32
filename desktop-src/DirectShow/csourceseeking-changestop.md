@@ -1,8 +1,8 @@
 ---
 Description: The ChangeStop method is called when the stop position changes.
 ms.assetid: 3d4a73a4-68e6-449c-9637-62cad937c4b4
-title: CSourceSeeking.ChangeStop method
-ms.topic: article
+title: CSourceSeeking.ChangeStop method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

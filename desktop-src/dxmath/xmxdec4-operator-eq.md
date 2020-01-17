@@ -2,7 +2,7 @@
 Description: Assigns vector component data to the current instance of XMXDEC4.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmxdec4.operator = '
 title: XMXDEC4 operator = operators
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2018
 topic_type:
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMXDEC4`.
 
-Assigns vector component data to the current instance of [**XMXDEC4**](https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMXDEC4**](https://msdn.microsoft.com/library/Ee421399(v=VS.85).aspx).
 
 ### Overload list
 
@@ -68,7 +68,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMXDEC4**](https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx)
+[**XMXDEC4**](https://msdn.microsoft.com/library/Ee421399(v=VS.85).aspx)
 </dt> </dl>
 
  

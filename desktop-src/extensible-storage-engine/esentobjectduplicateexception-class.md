@@ -1,11 +1,11 @@
 ---
-title: EsentObjectDuplicateException class (Microsoft.Isam.Esent.Interop)
+title: EsentObjectDuplicateException class
 TOCTitle: EsentObjectDuplicateException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentObjectDuplicateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobjectduplicateexception(v=EXCHG.10)
 ms:contentKeyID: 55102411
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentObjectDuplicateException
 dev_langs:

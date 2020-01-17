@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the user moves the mouse while the mouse is over the InkEdit control.
 ms.assetid: 6ccaf2eb-acec-4dfd-9ec7-c78aca043900
-title: InkEdit.MouseMove event
-ms.topic: article
+title: InkEdit.MouseMove event (Inked.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -93,7 +93,7 @@ If mouse buttons are pressed in succession, the object that captures the mouse a
 
 The **MouseMove** event is generated continually as the mouse pointer moves across objects. Unless another object has captured the mouse, an [InkEdit](inkedit-control-reference.md) control recognizes a **MouseMove** event whenever the mouse position is within its borders.
 
-This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeMouseMove.
+This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IeeMouseMove.
 
 ## Requirements
 

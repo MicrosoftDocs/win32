@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IBufferObjectDataCallback interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: AAE4CE9A-B8EB-4ED6-9F48-D00C19B27A2E
 api_name: 

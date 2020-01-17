@@ -1,8 +1,8 @@
 ---
 Description: Represents a collection of qualifiers.
 ms.assetid: '2f51404d-b26e-4153-b206-ab6b413363a1'
-title: Qualifiers object
-ms.topic: interface
+title: Qualifiers object (Iads.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -43,7 +43,7 @@ The **Qualifiers** object has these properties.
 
 | Property                                           | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](qualifiers-count.md)<br/>       | Read-only<br/> | Retrieves the number of qualifiers in the collection.<br/>                                                                                                                                                                |
 | [**Item**](qualifiers-item.md)<br/>         | Read-only<br/> | Retrieves a [**Qualifier**](qualifier.md) object that represents the indexed qualifier of the collection. This is the default property.<br/>                                                                             |
 

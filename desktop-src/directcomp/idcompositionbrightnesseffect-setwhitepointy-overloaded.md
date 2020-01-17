@@ -1,5 +1,5 @@
 ---
-title: idcompositionbrightnesseffect SetWhitePointY methods
+title: idcompositionbrightnesseffect SetWhitePointY methods (Dcomp.h)
 description: Sets the y value of the white point.
 ms.assetid: b8111c61-cb02-e23f-6257-36708f775d02
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionbrightnesseffect::SetWhitePointY methods
@@ -24,8 +24,8 @@ Sets the y value of the white point.
 
 | Method                                                                                               | Description                                     |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetWhitePointY**](https://msdn.microsoft.com/en-us/library/Dn919720(v=VS.85).aspx)                               | Sets the y value of the white point.<br/> |
-| [**SetWhitePointY (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919721(v=VS.85).aspx) | Sets the y value of the white point.<br/> |
+| [**SetWhitePointY**](https://msdn.microsoft.com/library/Dn919720(v=VS.85).aspx)                               | Sets the y value of the white point.<br/> |
+| [**SetWhitePointY (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919721(v=VS.85).aspx) | Sets the y value of the white point.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the y value of the white point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx)
+[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/library/Dn919711(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -3,7 +3,7 @@ Description: The GetOwnerSid&\#8194;WMI class method retrieves the security iden
 ms.assetid: f856b06c-8080-4145-a775-51361f741873
 ms.tgt_platform: multiple
 title: GetOwnerSid method of the Win32_Process class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

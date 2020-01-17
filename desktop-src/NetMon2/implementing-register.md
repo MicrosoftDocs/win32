@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Network Monitor loads a capture from the capture file, and then starts calling the [**Register**](register-parser.md) function for all the protocols that it can identify. Each parser DLL must implement a **Register** function for each protocol that the parser DLL supports.
 
-Each implementation of the [**Register**](register-parser.md) function must call the [**CreatePropertyDatabase**](createpropertydatabase.md) and [**AddProperty**](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx) functions to create and fill-in the [*property database*](p.md) for the protocol, and then the [**CreateHandoffTable**](createhandofftable.md) to create the [*handoff table*](h.md) for the protocol — if needed.
+Each implementation of the [**Register**](register-parser.md) function must call the [**CreatePropertyDatabase**](createpropertydatabase.md) and [**AddProperty**](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx) functions to create and fill-in the [*property database*](p.md) for the protocol, and then the [**CreateHandoffTable**](createhandofftable.md) to create the [*handoff table*](h.md) for the protocol — if needed.
 
 > [!Note]  
 > Protocol properties are defined for Network Monitor. Properties are not mapped to a location in a capture data until the [**AttachProperties**](attachproperties.md) export function is called.
@@ -23,7 +23,7 @@ The following procedure identifies the steps necessary to implement the [**Regis
 
 1.  Define an array of [**PROPERTYINFO**](propertyinfo.md) structures to describe each property that the protocol supports.
 2.  Call [**CreatePropertyDatabase**](createpropertydatabase.md) to provide a protocol handle, and the number of properties that the protocol supports.
-3.  Call [**AddProperty**](https://msdn.microsoft.com/en-us/library/Ee817694(v=VS.85).aspx) in a loop to add each property defined in the [**PROPERTYINFO**](propertyinfo.md) structure array.
+3.  Call [**AddProperty**](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx) in a loop to add each property defined in the [**PROPERTYINFO**](propertyinfo.md) structure array.
 4.  If the protocol uses a handoff table, call [**CreateHandoffTable**](createhandofftable.md)— after all the properties of the protocol are added to the property database.
 
 The following is a basic implementation of [**Register**](register-parser.md). Note that a property database is created for a protocol that supports only two properties. This code example is taken from the generic parser that Network Monitor provides.

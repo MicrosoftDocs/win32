@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a technique.
 ms.assetid: da139706-734b-4d5e-896d-52f045942218
-title: ID3DXBaseEffect::GetTechnique method
-ms.topic: article
+title: ID3DXBaseEffect::GetTechnique method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ D3DXHANDLE GetTechnique(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Technique index.
 

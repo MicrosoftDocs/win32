@@ -1,8 +1,8 @@
 ---
 Description: Delete a parameter block.
 ms.assetid: 5502dabc-1703-481b-a69d-f6bd8fd01d20
-title: ID3DXEffect::DeleteParameterBlock method
-ms.topic: article
+title: ID3DXEffect::DeleteParameterBlock method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ A handle to the parameter block. This is the handle returned by [**ID3DXEffect::
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

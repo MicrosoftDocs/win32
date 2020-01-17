@@ -1,5 +1,5 @@
 ---
-title: WTNCA Values
+title: WTNCA Values (Uxtheme.h)
 description: Specifies flags that modify window visual style attributes. Use one, or a bitwise combination of the following values.
 ms.assetid: C71D1957-6572-4242-B715-C54BDFBBD6B7
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Uxtheme.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

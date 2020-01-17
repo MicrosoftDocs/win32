@@ -1,8 +1,8 @@
 ---
 Description: The SetSubObjectGUID method specifies the GUID of the subobject associated with this object.
 ms.assetid: 1f21e242-306e-4b28-8655-511b7db495ab
-title: IAMTimelineObj::SetSubObjectGUID method
-ms.topic: article
+title: IAMTimelineObj::SetSubObjectGUID method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

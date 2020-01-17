@@ -1,8 +1,8 @@
 ---
 Description: The OnApplyChanges method is called when the user applies changes to the property page.
 ms.assetid: 15a55644-b7bf-4c72-8e26-18fc4fb714b9
-title: CBasePropertyPage.OnApplyChanges method
-ms.topic: article
+title: CBasePropertyPage.OnApplyChanges method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

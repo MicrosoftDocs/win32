@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimeline interface provides methods for manipulating the timeline, the central object in Microsoft DirectShow Editing Services (DES).
 ms.assetid: 6750efa0-946c-4ad3-b0df-de55872b94c3
-title: IAMTimeline interface
-ms.topic: interface
+title: IAMTimeline interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ To create the timeline object, call **CoCreateInstance** with the class identifi
 
 ## Members
 
-The **IAMTimeline** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimeline** also has these types of members:
+The **IAMTimeline** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimeline** also has these types of members:
 
 -   [Methods](#methods)
 

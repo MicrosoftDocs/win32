@@ -2,7 +2,7 @@
 Description: Retrieves a specified property of a certificate trust list (CTL).
 ms.assetid: 65309715-65b4-4608-960d-3404e68800a2
 title: CertStoreProvGetCTLProperty callback function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # CertStoreProvGetCTLProperty callback function
 
-The **CertStoreProvGetCTLProperty** callback function retrieves a specified property of a [*certificate trust list*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTL).
+The **CertStoreProvGetCTLProperty** callback function retrieves a specified property of a [*certificate trust list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CTL).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ BOOL WINAPI CertStoreProvGetCTLProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-A **HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+A **HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

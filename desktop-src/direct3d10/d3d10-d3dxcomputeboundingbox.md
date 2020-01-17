@@ -1,8 +1,8 @@
 ---
 Description: Computes a coordinate-axis oriented bounding box.
 ms.assetid: 1b8f328c-2fe1-462e-b464-c8dd9dc03e67
-title: D3DXComputeBoundingBox function
-ms.topic: article
+title: D3DXComputeBoundingBox function (D3DX10math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ HRESULT D3DXComputeBoundingBox(
 *pFirstPosition* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the first position.
 
@@ -51,7 +51,7 @@ Pointer to the first position.
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices.
 
@@ -60,7 +60,7 @@ Number of vertices.
 *dwStride* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Count or number of bytes between vertices.
 
@@ -69,7 +69,7 @@ Count or number of bytes between vertices.
 *pMin* \[out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the returned lower-left corner of the bounding box.
 
@@ -78,7 +78,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the r
 *pMax* \[out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the returned upper-right corner of the bounding box.
 
@@ -86,7 +86,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the r
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL.
 

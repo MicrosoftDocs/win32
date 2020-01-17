@@ -2,7 +2,7 @@
 Description: Exports a reference point collection to a file. The reference point collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
 ms.assetid: 0ed61ded-b4d6-40c5-98be-e192eb934387
 title: ExportReferencePoint method of the Msvm_CollectionReferencePointService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

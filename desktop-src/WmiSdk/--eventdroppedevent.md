@@ -3,7 +3,7 @@ Description: Represents the occurrence of an event that is dropped. A dropped ev
 ms.assetid: fae267a9-e0ec-43fa-a3c3-d50345775a1d
 ms.tgt_platform: multiple
 title: '__EventDroppedEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

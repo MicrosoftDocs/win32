@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd ShowSoftKeyboard method
+title: ISoftKbd ShowSoftKeyboard method (Softkbdc.h)
 description: The ISoftKbd ShowSoftKeyboard method displays a soft keyboard.
 ms.assetid: 7e24bef1-accb-40f6-a549-fb676abf9971
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

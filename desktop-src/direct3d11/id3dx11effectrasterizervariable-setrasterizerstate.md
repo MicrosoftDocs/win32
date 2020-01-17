@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectRasterizerVariable SetRasterizerState method
+title: ID3DX11EffectRasterizerVariable SetRasterizerState method (D3dx11effect.h)
 description: Sets the rasterizer state.
 ms.assetid: b2cd93fb-77bb-4a39-b686-7b8f683c9172
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ Pointer to an [**ID3D11RasterizerState**](/windows/desktop/api/D3D11/nn-d3d11-id
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

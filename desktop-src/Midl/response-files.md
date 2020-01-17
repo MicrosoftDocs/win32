@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 As an alternative to placing all the options on the command line, the MIDL compiler accepts response files that contain switches and arguments. A response file is a text file containing one or more MIDL compiler command-line options. Unlike a command line, a response file allows multiple lines of options and file names. This may be useful due to limitations of your build environment or as a convenience for your build process. You can specify a MIDL response file as:
 
-**midl** **@filename**
+**midl** **\@filename**
 
 <dl> <dt>
 

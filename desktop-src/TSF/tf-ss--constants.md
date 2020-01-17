@@ -1,5 +1,5 @@
 ---
-title: TF_SS_ Constants
+title: TF_SS_ Constants (Msctf.h)
 description: The TF\_SS\_\ constants, defined before run time in the TF\_STATUS structure, describe static document states.
 ms.assetid: 371aeeda-f081-4506-ba51-79c6a8bc8768
 topic_type:
@@ -14,13 +14,13 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # TF\_SS\_\* Constants
 
-The TF\_SS\_\* constants, defined before run time in the [**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx) structure, describe static document states.
+The TF\_SS\_\* constants, defined before run time in the [**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx) structure, describe static document states.
 
 
 
@@ -56,7 +56,7 @@ The **dwStaticFlags** member of the TF\_STATUS structure uses these constants.
 
 <dl> <dt>
 
-[**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx)
+[**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: LVM_SETGROUPMETRICS message
+title: LVM_SETGROUPMETRICS message (Commctrl.h)
 description: Sets information about the display of groups.
 ms.assetid: 268b478d-da1f-4efe-9ee9-af3f12e089ee
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

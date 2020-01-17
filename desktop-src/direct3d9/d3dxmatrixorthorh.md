@@ -1,8 +1,8 @@
 ---
 Description: Builds a right-handed orthographic projection matrix.
 ms.assetid: 6b9b50d5-0307-4fc7-a28d-8f42d2a21bf0
-title: D3DXMatrixOrthoRH function
-ms.topic: article
+title: D3DXMatrixOrthoRH function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,14 +44,14 @@ D3DXMATRIX* D3DXMatrixOrthoRH(
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
 
 </dd> <dt>
 
 *w* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Width of the view volume.
 
@@ -60,7 +60,7 @@ Width of the view volume.
 *h* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Height of the view volume.
 
@@ -69,7 +69,7 @@ Height of the view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Minimum z-value of the view volume.
 
@@ -78,7 +78,7 @@ Minimum z-value of the view volume.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Maximum z-value of the view volume.
 
@@ -88,7 +88,7 @@ Maximum z-value of the view volume.
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
 
 ## Remarks
 

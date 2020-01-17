@@ -2,7 +2,7 @@
 Description: Searches for a child TAG within the specified parent and returns the TAGID of the first child.
 ms.assetid: 67538c7e-6360-40fa-b50f-dcbc7a6a147d
 title: SdbGetFirstChild function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

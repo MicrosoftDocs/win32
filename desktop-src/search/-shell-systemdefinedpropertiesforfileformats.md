@@ -171,10 +171,10 @@ The following table categorizes file formats and then lists the most important s
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx)
+[Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
 </dt> <dt>
 
-[System Properties](https://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
+[System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 </dt> </dl>
 
  

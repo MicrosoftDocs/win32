@@ -1,5 +1,5 @@
 ---
-title: CB_GETDROPPEDCONTROLRECT message
+title: CB_GETDROPPEDCONTROLRECT message (Winuser.h)
 description: An application sends a CB\_GETDROPPEDCONTROLRECT message to retrieve the screen coordinates of a combo box in its dropped-down state.
 ms.assetid: fd8d78c0-e1a8-49c8-9e35-a105d00b863c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

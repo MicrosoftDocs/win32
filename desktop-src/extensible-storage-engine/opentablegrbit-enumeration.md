@@ -1,11 +1,11 @@
 ---
-title: OpenTableGrbit enumeration (Microsoft.Isam.Esent.Interop)
+title: OpenTableGrbit enumeration
 TOCTitle: OpenTableGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.OpenTableGrbit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.opentablegrbit(v=EXCHG.10)
 ms:contentKeyID: 39510721
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.OpenTableGrbit.NoCache
 - Microsoft.Isam.Esent.Interop.OpenTableGrbit.DenyWrite

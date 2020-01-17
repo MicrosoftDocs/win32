@@ -2,7 +2,7 @@
 Description: Callback function for UVAtlas.
 ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ This function must be implemented to return S\_OK to keep running the simulator.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 

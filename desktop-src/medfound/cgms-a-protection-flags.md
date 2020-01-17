@@ -1,8 +1,8 @@
 ---
 Description: Specify the protection levels for Copy Generation Management System&\#8212;Analog (CGMS-A).
 ms.assetid: 739e2f9e-b8f1-4ee1-8706-9a069773a3de
-title: CGMS-A Protection Flags
-ms.topic: article
+title: CGMS-A Protection Flags (Opmapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

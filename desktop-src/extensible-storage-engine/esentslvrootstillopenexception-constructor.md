@@ -1,11 +1,11 @@
 ---
-title: EsentSLVRootStillOpenException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSLVRootStillOpenException constructor 
 TOCTitle: 'EsentSLVRootStillOpenException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvrootstillopenexception.esentslvrootstillopenexception(v=EXCHG.10)
 ms:contentKeyID: 55102823
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException.EsentSLVRootStillOpenException
 dev_langs:

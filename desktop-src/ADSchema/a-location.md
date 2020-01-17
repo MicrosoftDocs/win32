@@ -12,11 +12,11 @@ api_name:
 - Location
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Location attribute
+# Location attribute (AD Schema)
 
 The user's location, such as office number.
 

@@ -1,5 +1,5 @@
 ---
-title: EsentObjectNotFoundException members (Microsoft.Isam.Esent.Interop)
+title: EsentObjectNotFoundException members
 TOCTitle: EsentObjectNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentobjectnotfoundexception_members(v=EXCHG.10)

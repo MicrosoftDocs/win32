@@ -1,5 +1,5 @@
 ﻿---
-title: JET_LS operators (Microsoft.Isam.Esent.Interop)
+title: JET_LS operators
 TOCTitle: JET_LS operators
 ms:assetid: 35b69244-b6a8-50df-f442-6096bc5a5aa5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh577889(v=EXCHG.10)

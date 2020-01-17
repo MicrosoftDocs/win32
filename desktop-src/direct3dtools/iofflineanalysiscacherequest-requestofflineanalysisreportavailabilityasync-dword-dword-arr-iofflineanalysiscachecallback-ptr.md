@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IOfflineAnalysisCacheRequest::RequestOfflineAnalysisReportAvailabilityAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 10FA71F8-813D-4788-92C8-00B30A9AE5CC
 api_name: 

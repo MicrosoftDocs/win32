@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPortCollection Count property
+title: IVMParallelPortCollection Count property (VPCCOMInterfaces.h)
 description: Number of parallel ports in this collection.
 ms.assetid: f2f4cac4-bb63-4ac2-ba6e-321a8a29c6d4
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

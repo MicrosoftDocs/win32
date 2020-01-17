@@ -2,7 +2,7 @@
 Description: Gets graphics object information.
 ms.assetid: 352bff43-4271-4dab-8a4e-a5deb1a50ba1
 title: '_GetObject function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **GetObject** function. This function may be altered or unavailable in the future. Applications should call **GetObject** directly.\]
 
-Gets graphics object information. See [**GetObject**](https://msdn.microsoft.com/en-us/library/Dd144904(v=VS.85).aspx).
+Gets graphics object information. See [**GetObject**](https://msdn.microsoft.com/library/Dd144904(v=VS.85).aspx).
 
 ## Syntax
 
@@ -53,7 +53,7 @@ int _GetObject(
 
 <dl> <dt>
 
-[**GetObject**](https://msdn.microsoft.com/en-us/library/Dd144904(v=VS.85).aspx)
+[**GetObject**](https://msdn.microsoft.com/library/Dd144904(v=VS.85).aspx)
 </dt> </dl>
 
  

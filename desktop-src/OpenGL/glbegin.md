@@ -1,5 +1,5 @@
 ---
-title: glBegin function
+title: glBegin function (Gl.h)
 description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives.
 ms.assetid: 8e8e98f8-89e8-40f5-89c1-492c9e3bbd74
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

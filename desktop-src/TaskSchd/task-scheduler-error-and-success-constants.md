@@ -1,5 +1,5 @@
 ---
-title: Task Scheduler Error and Success Constants
+title: Task Scheduler Error and Success Constants (WinError.h)
 description: If an error occurs, the Task Scheduler APIs can return one of the following error codes as an HRESULT value.
 ms.assetid: 54278bbd-7dca-438e-a771-5fcb08c4aa68
 keywords:
@@ -52,7 +52,7 @@ api_location:
 - WinError.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

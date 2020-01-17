@@ -1,5 +1,5 @@
 ---
-title: TDM_CLICK_RADIO_BUTTON message
+title: TDM_CLICK_RADIO_BUTTON message (Commctrl.h)
 description: Simulates the action of a radio button click in a task dialog.
 ms.assetid: ad1616fc-f64d-4575-8bd1-7ce63185d725
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -44,7 +44,7 @@ The return value is ignored.
 
 ## Remarks
 
-The specified radio button ID is sent to the [**TaskDialogCallbackProc**](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx) callback function as part of a [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md) notification code. After the callback function returns, the radio button will be selected.
+The specified radio button ID is sent to the [**TaskDialogCallbackProc**](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx) callback function as part of a [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md) notification code. After the callback function returns, the radio button will be selected.
 
 ## Requirements
 

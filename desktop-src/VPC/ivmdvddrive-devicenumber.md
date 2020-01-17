@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive DeviceNumber property
+title: IVMDVDDrive DeviceNumber property (VPCCOMInterfaces.h)
 description: Retrieves the device number to which this drive is attached.
 ms.assetid: 57b09400-e0c8-4ca2-bcd4-e6dd047daf95
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

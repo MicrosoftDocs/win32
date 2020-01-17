@@ -1,8 +1,8 @@
 ---
 Description: Resamples a texture into this gutterhelper's parameterization.
 ms.assetid: a5ace0e4-2e89-471b-bdfb-67d5e85c6f46
-title: ID3DXTextureGutterHelper::ResampleTex method
-ms.topic: article
+title: ID3DXTextureGutterHelper::ResampleTex method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -60,16 +60,16 @@ Mesh containing the original and new parameterizations. It is required to store 
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx)**
+Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx)**
 
-Vertex data usage (used in combination with UsageIndex) which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx).
+Vertex data usage (used in combination with UsageIndex) which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
 
 </dd> <dt>
 
 *UsageIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Zero-based index (used in combination with Usage), which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. The combination of D3DDECLUSAGE\_TEXCOORD and index 0 is required for the new parameterization; any other usage/index combination may be used.
 
@@ -86,7 +86,7 @@ Resampled texture.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

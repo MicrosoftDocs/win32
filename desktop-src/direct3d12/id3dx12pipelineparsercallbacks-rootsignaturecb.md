@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks RootSignatureCb method
+title: ID3DX12PipelineParserCallbacks RootSignatureCb method (D3DX12.h)
 description: Calls the root signature subobject callback of an object that implements this interface.
 ms.assetid: FD467001-41B1-4A73-8E54-12C6B5EEAC3E
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

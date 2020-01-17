@@ -1,5 +1,5 @@
 ---
-title: NM_RCLICK (header) notification code
+title: NM_RCLICK (header) notification code (Commctrl.h)
 description: Notifies a tree-view control's parent window that the user has clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b453db51-9c41-4a85-8bc0-72bec10f8646
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

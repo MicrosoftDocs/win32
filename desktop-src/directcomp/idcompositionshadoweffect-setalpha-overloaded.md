@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,8 +24,8 @@ Sets the alpha value for the effect.
 
 | Method                                                                               | Description                                     |
 |:-------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetAlpha (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919768(v=VS.85).aspx) | Sets the alpha value for the effect.<br/> |
-| [**SetAlpha**](https://msdn.microsoft.com/en-us/library/Dn919767(v=VS.85).aspx)                               | Sets the alpha value for the effect.<br/> |
+| [**SetAlpha (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919768(v=VS.85).aspx) | Sets the alpha value for the effect.<br/> |
+| [**SetAlpha**](https://msdn.microsoft.com/library/Dn919767(v=VS.85).aspx)                               | Sets the alpha value for the effect.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Sets the alpha value for the effect.
 
 <dl> <dt>
 
-[**IDCompositionShadowEffect**](https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx)
+[**IDCompositionShadowEffect**](https://msdn.microsoft.com/library/Dn919766(v=VS.85).aspx)
 </dt> </dl>
 
  

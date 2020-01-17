@@ -1,8 +1,8 @@
 ---
 Description: Represents a diskette drive.
 ms.assetid: 8f382f91-9cff-4dcd-bf04-314a2986acbe
-title: CIM_DisketteDrive class
-ms.topic: article
+title: CIM_DisketteDrive class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

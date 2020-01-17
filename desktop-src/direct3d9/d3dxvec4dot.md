@@ -1,8 +1,8 @@
 ---
 Description: Determines the dot product of two 4D vectors.
 ms.assetid: 565dede8-6cc8-4313-9480-2f252cac94f2
-title: D3DXVec4Dot function
-ms.topic: article
+title: D3DXVec4Dot function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a source [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The dot product.
 

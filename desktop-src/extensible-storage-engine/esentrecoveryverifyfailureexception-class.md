@@ -1,11 +1,11 @@
 ---
-title: EsentRecoveryVerifyFailureException class (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveryVerifyFailureException class
 TOCTitle: EsentRecoveryVerifyFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveryverifyfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55102574
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException
 dev_langs:

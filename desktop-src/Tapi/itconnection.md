@@ -1,8 +1,8 @@
 ---
 Description: The ITConnection interface functionality is shown below.
 ms.assetid: 44dc39cf-3222-41ed-b29c-df2d32615500
-title: ITConnection interface
-ms.topic: interface
+title: ITConnection interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ The **ITConnection** interface is created by calling **QueryInterface** on [**IT
 
 ## Members
 
-The **ITConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITConnection** also has these types of members:
+The **ITConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITConnection** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -1,8 +1,8 @@
 ---
 Description: Extends the IShellDispatch object with a variety of new functionality.
 ms.assetid: 74687929-0777-479b-9853-2b0cf4b6adc9
-title: IShellDispatch2 object
-ms.topic: interface
+title: IShellDispatch2 object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -54,7 +54,7 @@ The **IShellDispatch2** object has these methods.
 
 ## Remarks
 
-For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx) documentation.
+For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx) documentation.
 
 ## Requirements
 
@@ -74,7 +74,7 @@ For a discussion of Windows services, see the [Services](https://msdn.microsoft.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [**Shell Object**](shell.md)

@@ -1,5 +1,5 @@
 ---
-title: SHAREVISTRING message
+title: SHAREVISTRING message (Commdlg.h)
 description: An Open or Save As dialog box sends the SHAREVISTRING registered message to your hook procedure, OFNHookProc, if a sharing violation occurs for the selected file when the user clicks the OK button.
 ms.assetid: 53884497-4872-4aa8-b56e-2bb98df58fed
 keywords:
@@ -14,15 +14,15 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # SHAREVISTRING message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/en-us/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
-An **Open** or **Save As** dialog box sends the **SHAREVISTRING** registered message to your hook procedure, [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx), if a sharing violation occurs for the selected file when the user clicks the **OK** button.
+An **Open** or **Save As** dialog box sends the **SHAREVISTRING** registered message to your hook procedure, [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx), if a sharing violation occurs for the selected file when the user clicks the **OK** button.
 
 
 ```C++

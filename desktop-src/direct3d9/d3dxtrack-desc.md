@@ -1,8 +1,8 @@
 ---
 Description: Describes an animation track and specifies blending weight, speed, and position for the track at a given time.
 ms.assetid: f1469b6f-861f-4b7d-a187-933092a5d257
-title: D3DXTRACK_DESC structure
-ms.topic: structure
+title: D3DXTRACK_DESC structure (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,18 +41,18 @@ typedef struct D3DXTRACK_DESC {
 **Priority**
 </dt> <dd>
 
-Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205401(v=VS.85).aspx)**
+Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/library/Bb205401(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Priority type, as defined in [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205401(v=VS.85).aspx).
+Priority type, as defined in [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/library/Bb205401(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Weight**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Weight value. The weight determines the proportion of this track to blend with o
 **Speed**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Speed value. This is used similarly to a multiplier to scale the period of the t
 **Position**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Time position of the track, in the local timeframe of its current animation set.
 **Enable**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

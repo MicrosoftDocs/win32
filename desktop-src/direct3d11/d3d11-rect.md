@@ -1,5 +1,5 @@
 ---
-title: D3D11_RECT
+title: D3D11_RECT (D3D11.h)
 description: D3D11\_RECT is declared as follows
 ms.assetid: 'd1cbbbd7-1221-4706-b805-8422c5ebdadc'
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3D11.dll
 api_type:
 - LibDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -36,7 +36,7 @@ The configuration and query operations that are associated with object creation 
 
 Several VDS methods delete or transform VDS objects. A caller can hold a reference, by way of an interface pointer, to a deleted object after the method returns. When the caller releases the interface, VDS deletes the object.
 
-With regard to object deletion, callers should refrain from invoking anything except the [**IUnknown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on these interfaces. The provider must be robust enough to deal with errant callers; if a caller invokes a method on a deleted object, the provider should return **VDS\_E\_OBJECT\_DELETED**.
+With regard to object deletion, callers should refrain from invoking anything except the [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on these interfaces. The provider must be robust enough to deal with errant callers; if a caller invokes a method on a deleted object, the provider should return **VDS\_E\_OBJECT\_DELETED**.
 
 ### Service Initialization
 
@@ -48,8 +48,8 @@ VDS supplies a class identifier (Clsid) for the service loader and the service o
 
      
 
--   An application calls the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) function, passing the service loader Clsid as an argument. With a pointer to the service loader object, the application can start VDS either locally or remotely by passing the desired computer name as a parameter to the [**IVdsServiceLoader::LoadService**](/windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice) method.
--   When the initial application attaches to the service, VDS first calls [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) on each Clsid found under the registry key, and then calls the [**IVdsProviderPrivate::OnLoad**](/windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onload) method on each provider to initialize the programs.
+-   An application calls the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function, passing the service loader Clsid as an argument. With a pointer to the service loader object, the application can start VDS either locally or remotely by passing the desired computer name as a parameter to the [**IVdsServiceLoader::LoadService**](/windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice) method.
+-   When the initial application attaches to the service, VDS first calls [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) on each Clsid found under the registry key, and then calls the [**IVdsProviderPrivate::OnLoad**](/windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onload) method on each provider to initialize the programs.
 
 ## Related topics
 

@@ -1,10 +1,10 @@
 ---
-title: RPC_BINDING_HANDLE
+title: RPC_BINDING_HANDLE (Rpcdce.h)
 description: The RPC\_BINDING HANDLE data type declares a binding handle containing information that the RPC run-time library uses to access binding information.
 ms.assetid: 3e07d9e9-04d8-4f94-8104-cd0ee89a9407
 keywords:
 - RPC_BINDING_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

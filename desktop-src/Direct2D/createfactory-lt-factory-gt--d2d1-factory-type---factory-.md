@@ -1,5 +1,5 @@
 ---
-title: D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,Factory  ) Function
+title: D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,Factory  ) Function (D2d1.h)
 description: Creates a factory object that can be used to create Direct2D resources.
 ms.assetid: c1c25d51-15ea-4075-a896-bd6501bf68c1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ HRESULT D2D1CreateFactory(
 
 | Parameter | Description                                                 |
 |-----------|-------------------------------------------------------------|
-| *Factory* | The type of [**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx) to create. |
+| *Factory* | The type of [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) to create. |
 
 
 

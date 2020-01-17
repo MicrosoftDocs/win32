@@ -96,7 +96,7 @@ There are a variety of DDS authoring tools available to create or convert block 
 
 Beginning with Visual Studio 2013, you can have Visual Studio convert existing visual assets such as JPEG and PNG to the correct DDS block compressed format as an automatic part of your build process. This is accomplished using the Image Content Task custom build step.
 
-For information on how to set this up for your project, see: [How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://msdn.microsoft.com/en-us/library/Dn392693(v=VS.120).aspx).
+For information on how to set this up for your project, see: [How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://msdn.microsoft.com/library/Dn392693(v=VS.120).aspx).
 
 ### Direct2D APIs
 
@@ -110,14 +110,14 @@ For the preceding formats, you must use premultiplied alpha. In addition, these 
 
 The following methods are updated in Windows 8.1 to support BC formats:
 
--   [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/en-us/library/Hh847982(v=VS.85).aspx)
--   [**ID2D1DeviceContext::CreateBitmap**](https://msdn.microsoft.com/en-us/library/Hh404480(v=VS.85).aspx)
+-   [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/library/Hh847982(v=VS.85).aspx)
+-   [**ID2D1DeviceContext::CreateBitmap**](https://msdn.microsoft.com/library/Hh404480(v=VS.85).aspx)
 -   [**ID2D1DeviceContext::CreateBitmapFromDxgiSurface**](/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1))
--   [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx)
+-   [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx)
 -   [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md)
--   [**ID2D1Bitmap::CopyFromMemory**](https://msdn.microsoft.com/en-us/library/Dd371155(v=VS.85).aspx)
--   [**ID2D1Bitmap::CopyFromBitmap**](https://msdn.microsoft.com/en-us/library/Dd371152(v=VS.85).aspx)
--   [**ID2D1Bitmap1::GetSurface**](https://msdn.microsoft.com/en-us/library/Hh404355(v=VS.85).aspx)
+-   [**ID2D1Bitmap::CopyFromMemory**](https://msdn.microsoft.com/library/Dd371155(v=VS.85).aspx)
+-   [**ID2D1Bitmap::CopyFromBitmap**](https://msdn.microsoft.com/library/Dd371152(v=VS.85).aspx)
+-   [**ID2D1Bitmap1::GetSurface**](https://msdn.microsoft.com/library/Hh404355(v=VS.85).aspx)
 
 Note that [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) takes [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) as an interface; however in Windows 8.1 WIC does not support obtaining block compressed data from **IWICBitmapSource**, and there is no WIC pixel format corresponding to DXGI\_FORMAT\_BC1\_UNORM, etc. Instead, **CreateBitmapFromWicBitmap** determines if the **IWICBitmapSource** is a valid DDS [**IWICBitmapFrameDecode**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) and directly loads the block compressed data. You can either explicitly specify the pixel format in the [**D2D1\_BITMAP\_PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) struct, or allow Direct2D to automatically determine the correct format.
 
@@ -145,7 +145,7 @@ For encoding, [**IWICDdsEncoder::CreateNewFrame**](https://docs.microsoft.com/wi
 
 <dl> <dt>
 
-[How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://msdn.microsoft.com/en-us/library/Dn392693(v=VS.120).aspx)
+[How to: Export a Texture for Use with Direct2D or Javascipt Apps](https://msdn.microsoft.com/library/Dn392693(v=VS.120).aspx)
 </dt> <dt>
 
 [Reference for DDS](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds-reference)

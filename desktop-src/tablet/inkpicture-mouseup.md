@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the mouse pointer is moved over the InkPicture control and a mouse button is released.
 ms.assetid: 5e49acc8-1ce1-45ff-b87c-04bdc653156a
-title: InkPicture.MouseUp event
-ms.topic: article
+title: InkPicture.MouseUp event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -80,7 +80,7 @@ This event does not return a value.
 
  
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseDown.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseDown.
 
 ## Requirements
 

@@ -1,8 +1,8 @@
 ---
 Description: The GetHResult method retrieves the HRESULT value from the invoked command.
 ms.assetid: 7e88a2bd-6b1b-4e59-b185-5dfd501fc37a
-title: CDeferredCommand.GetHResult method
-ms.topic: article
+title: CDeferredCommand.GetHResult method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

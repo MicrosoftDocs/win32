@@ -3,7 +3,7 @@ Description: The CIM\_CollectionOfSensors association represents the binary sens
 ms.assetid: d9494716-bb4e-4aa2-9e3b-e865360c740f
 ms.tgt_platform: multiple
 title: CIM_CollectionOfSensors class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

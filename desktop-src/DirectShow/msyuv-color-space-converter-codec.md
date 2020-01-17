@@ -2,7 +2,7 @@
 Description: MSYUV is a YUV-to-RGB color space converter codec.
 ms.assetid: 77b00937-ac63-4b23-b546-c0896b3c57ba
 title: MSYUV Color Space Converter Codec
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ MSYUV converts packed YUV formats to RGB, as shown in the following list:
 -   Input formats: UYVY, YUY2, YVYU
 -   Output formats: RGB 8, RGB 16, RGB 24, RGB 32
 
-The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec. It is used in DirectShow through the [AVI Decompressor](avi-decompressor-filter.md) filter. For a more general-purpose color converter, use the [**Color Converter DSP**](https://msdn.microsoft.com/en-us/library/Ff819079(v=VS.85).aspx).
+The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec. It is used in DirectShow through the [AVI Decompressor](avi-decompressor-filter.md) filter. For a more general-purpose color converter, use the [**Color Converter DSP**](https://msdn.microsoft.com/library/Ff819079(v=VS.85).aspx).
 
 ## Requirements
 

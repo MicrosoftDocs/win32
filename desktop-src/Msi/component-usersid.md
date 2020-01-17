@@ -2,7 +2,7 @@
 Description: The user SID for the enumerated component.
 ms.assetid: 52dd8514-bb06-4c67-ba07-950e5e21b85a
 title: Component.UserSID property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

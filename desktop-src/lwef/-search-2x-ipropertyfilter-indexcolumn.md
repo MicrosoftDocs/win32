@@ -1,5 +1,5 @@
 ---
-title: IPropertyFilter IndexColumn property
+title: IPropertyFilter IndexColumn property (WdsSharedIDL.h)
 description: Indexed column name of the property to filter by.
 ms.assetid: 18ce0c89-bdaa-4f83-bf03-c11b55a842f5
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

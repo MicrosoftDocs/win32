@@ -3,7 +3,7 @@ Description: The CIM\_MemoryMappedIO class represents computer architecture memo
 ms.assetid: cf418cd0-1ace-4d86-a878-65e81771787e
 ms.tgt_platform: multiple
 title: CIM_MemoryMappedIO class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

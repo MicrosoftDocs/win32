@@ -2,7 +2,7 @@
 Description: Puts the guest service in a started state.
 ms.assetid: 1DC6A5B3-0F91-4AC1-99D5-0E8CF5ED35A2
 title: Msvm_GuestService::StartService method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

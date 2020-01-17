@@ -1,8 +1,8 @@
 ---
 Description: Queries the amount of free memory in all video memory heaps.
 ms.assetid: 6718e8da-0da0-42e3-a02b-6884b141fe24
-title: NtGdiDdGetAvailDriverMemory function
-ms.topic: article
+title: NtGdiDdGetAvailDriverMemory function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetAvailDriverMemoryData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_GETAVAILDRIVERMEMORYDATA](https://msdn.microsoft.com/en-us/library/ms794088.aspx) structure that contains the information required to perform the query.
+Pointer to a [DD\_GETAVAILDRIVERMEMORYDATA](https://msdn.microsoft.com/library/ms794088.aspx) structure that contains the information required to perform the query.
 
 </dd> </dl>
 

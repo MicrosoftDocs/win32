@@ -16,7 +16,7 @@ In a bridged situation, the hold operation may not actually place the call on ho
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineHold**](https://msdn.microsoft.com/en-us/library/ms735981(v=VS.85).aspx), [**lineUnhold**](https://msdn.microsoft.com/en-us/library/ms736477(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineHold**](https://msdn.microsoft.com/library/ms735981(v=VS.85).aspx), [**lineUnhold**](https://msdn.microsoft.com/library/ms736477(v=VS.85).aspx).
 
 **TAPI 3.x:** See [**ITBasicCallControl::Hold**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-hold).
 

@@ -1,5 +1,5 @@
 ---
-title: EsentFileIOSparseException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOSparseException properties
 TOCTitle: EsentFileIOSparseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileiosparseexception_properties(v=EXCHG.10)

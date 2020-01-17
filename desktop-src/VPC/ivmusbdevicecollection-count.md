@@ -1,5 +1,5 @@
 ---
-title: IVMUSBDeviceCollection Count property
+title: IVMUSBDeviceCollection Count property (VPCCOMInterfaces.h)
 description: Retrieves the number of USB devices in this collection.
 ms.assetid: 8d17397b-4f4a-475d-99fe-4df0d74fe5a5
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

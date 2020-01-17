@@ -1,8 +1,8 @@
 ---
 Description: Sets a pointer to the DXGI Device Manager on the capture engine.
 ms.assetid: 1DFDE7AB-7DFF-4C39-9460-E42E37649AAC
-title: MF_CAPTURE_ENGINE_D3D_MANAGER attribute
-ms.topic: article
+title: MF_CAPTURE_ENGINE_D3D_MANAGER attribute (Mfcaptureengine.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

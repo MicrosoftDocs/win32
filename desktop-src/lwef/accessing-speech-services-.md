@@ -1,5 +1,5 @@
 ---
-title: Accessing Speech Services
+title: Accessing Speech Services (Microsoft Agent Control)
 description: Accessing Speech Services
 ms.assetid: c6c10f2a-a433-4a8e-a069-48e3c2032fb8
 ms.topic: article

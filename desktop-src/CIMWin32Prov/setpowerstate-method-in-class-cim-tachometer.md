@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Tachometer class sets the desi
 ms.assetid: 9b263049-09c2-4db0-865f-832a6b09066a
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Tachometer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

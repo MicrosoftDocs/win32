@@ -3,7 +3,7 @@ Description: The Win32\_ImplementedCategory association WMI class relates a comp
 ms.assetid: 7cf32b50-9ae6-44e5-b364-bc74dea3dc17
 ms.tgt_platform: multiple
 title: Win32_ImplementedCategory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

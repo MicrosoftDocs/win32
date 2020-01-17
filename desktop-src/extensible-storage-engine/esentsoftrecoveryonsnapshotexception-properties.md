@@ -1,5 +1,5 @@
 ---
-title: EsentSoftRecoveryOnSnapshotException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSoftRecoveryOnSnapshotException properties
 TOCTitle: EsentSoftRecoveryOnSnapshotException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsoftrecoveryonsnapshotexception_properties(v=EXCHG.10)

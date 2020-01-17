@@ -1,13 +1,13 @@
 ---
+title: Implementing an instance provider primary interface
 Description: An instance provider uses the asynchronous methods of IWbemServices as the primary interface to WMI.
 ms.assetid: 80425fa8-2746-4eba-8e7d-4a61e222852a
 ms.tgt_platform: multiple
-title: Implementing the Primary Interface for an Instance Provider
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Implementing the Primary Interface for an Instance Provider
+# Implementing an instance provider primary interface
 
 An instance provider uses the asynchronous methods of [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) as the primary interface to WMI. By implementing only the methods that fulfill the needs of your instance provider, you can reduce the amount of resources you spend coding. However, by implementing methods reserved for other types of providers, you can reduce the number of providers you write.
 

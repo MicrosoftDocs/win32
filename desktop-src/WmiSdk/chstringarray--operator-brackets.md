@@ -2,8 +2,8 @@
 Description: These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the SetAt and GetAt methods.
 ms.assetid: 93b10bef-908e-4c5e-aac3-b13051b2e7c9
 ms.tgt_platform: multiple
-title: CHStringArray::operator [ ]
-ms.topic: article
+title: CHStringArray::operator [ ] (ChStrArr.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ The debug version of the library asserts if the subscript (either on the left or
 
 ## Examples
 
-The following code example shows the use of [**CHStringArray::operator \[\]**](https://msdn.microsoft.com/en-us/library/Aa384934(v=VS.85).aspx).
+The following code example shows the use of [**CHStringArray::operator \[\]**](https://msdn.microsoft.com/library/Aa384934(v=VS.85).aspx).
 
 
 ```C++

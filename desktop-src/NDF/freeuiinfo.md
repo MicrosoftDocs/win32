@@ -1,5 +1,5 @@
 ---
-title: FreeUiInfo function
+title: FreeUiInfo function (Ndattributils.h)
 description: Deallocates the memory allocated internally to a UiInfo structure.
 ms.assetid: 41d923fd-2fb3-406e-a5cf-f3ba475685f6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

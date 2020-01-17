@@ -1,8 +1,8 @@
 ---
 Description: Calculate per-triangle IMT's from per-texel data. This function is similar to D3DXComputeIMTFromTexture, but it uses a float array to pass in the data, and it can calculate higher dimensional values than 4.
 ms.assetid: 4a151184-e67e-41e9-83c6-63da72f262fa
-title: D3DXComputeIMTFromPerTexelSignal function
-ms.topic: article
+title: D3DXComputeIMTFromPerTexelSignal function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -57,7 +57,7 @@ A pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains th
 *dwTextureIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Zero-based texture coordinate index that identifies which set of texture coordinates to use.
 
@@ -66,7 +66,7 @@ Zero-based texture coordinate index that identifies which set of texture coordin
 *pfTexelSignal* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 A pointer to an array of input texels from which IMT will be computed. The array size is uWidth\*uHeight\*uComponents.
 
@@ -75,7 +75,7 @@ A pointer to an array of input texels from which IMT will be computed. The array
 *uWidth* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Texture width in pixels.
 
@@ -84,7 +84,7 @@ Texture width in pixels.
 *uHeight* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Texture height in pixels.
 
@@ -93,7 +93,7 @@ Texture height in pixels.
 *uSignalDimension* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of floats per-component in each element of the signal array.
 
@@ -102,7 +102,7 @@ The number of floats per-component in each element of the signal array.
 *uComponents* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of components in each texel.
 
@@ -111,9 +111,9 @@ The number of components in each texel.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/en-us/library/Bb172880(v=VS.85).aspx).
+Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/library/Bb172880(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ A pointer to a callback function to monitor IMT computation progress.
 *pUserContext* 
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A pointer to a user-defined variable which is passed to the status callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -146,7 +146,7 @@ A pointer to the buffer (see [**ID3DXBuffer**](id3dxbuffer.md)) containing the r
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK; otherwise, the value is D3DERR\_INVALIDCALL.
 

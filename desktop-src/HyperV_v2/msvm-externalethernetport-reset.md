@@ -2,7 +2,7 @@
 Description: Requests a reset.
 ms.assetid: 6a4ca61c-b431-40d1-a241-f402aa667ebe
 title: Reset method of the Msvm_ExternalEthernetPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

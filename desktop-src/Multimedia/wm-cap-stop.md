@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_STOP message
+title: WM_CAP_STOP message (Vfw.h)
 description: The WM\_CAP\_STOP message stops the capture operation. You can send this message explicitly or by using the capCaptureStop macro.
 ms.assetid: 0fea82f5-f381-485a-82ae-b081b3a5e402
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

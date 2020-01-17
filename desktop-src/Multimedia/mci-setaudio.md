@@ -1,5 +1,5 @@
 ---
-title: MCI_SETAUDIO command
+title: MCI_SETAUDIO command (Mmsystem.h)
 description: The MCI\_SETAUDIO command sets values associated with audio playback and capture. Digital-video and VCR devices recognize this command.
 ms.assetid: 78624596-e465-4ef1-8988-edcfe9a46f89
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SETAUDIO command sets values associated with audio playback and capture. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

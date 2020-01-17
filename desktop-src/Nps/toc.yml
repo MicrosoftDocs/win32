@@ -36,19 +36,19 @@
         href: ias-internet-authentication-service-enumerations.md
         items: 
         - name: "RADIUS_ACTION"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_action
+          href: /windows/win32/api/AuthIf/ne-authif-radius_action
         - name: "RADIUS_ATTRIBUTE_TYPE"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_attribute_type
+          href: /windows/win32/api/AuthIf/ne-authif-radius_attribute_type
         - name: "RADIUS_AUTHENTICATION_PROVIDER"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_authentication_provider
+          href: /windows/win32/api/AuthIf/ne-authif-radius_authentication_provider
         - name: "RADIUS_CODE"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_code
+          href: /windows/win32/api/AuthIf/ne-authif-radius_code
         - name: "RADIUS_DATA_TYPE"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_data_type
+          href: /windows/win32/api/AuthIf/ne-authif-radius_data_type
         - name: "RADIUS_EXTENSION_POINT"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_extension_point
+          href: /windows/win32/api/AuthIf/ne-authif-radius_extension_point
         - name: "RADIUS_REJECT_REASON_CODE"
-          href: /windows/desktop/api/AuthIf/ne-authif-_radius_reject_reason_code
+          href: /windows/win32/api/AuthIf/ne-authif-radius_reject_reason_code
       - name: "NPS Extensions Functions"
         href: ias-internet-authentication-service-functions.md
         items: 
@@ -71,13 +71,13 @@
         href: ias-internet-authentication-service-structures.md
         items: 
         - name: "RADIUS_ATTRIBUTE"
-          href: /windows/desktop/api/AuthIf/ns-authif-_radius_attribute
+          href: /windows/win32/api/AuthIf/ns-authif-radius_attribute
         - name: "RADIUS_ATTRIBUTE_ARRAY"
-          href: /windows/desktop/api/AuthIf/ns-authif-_radius_attribute_array
+          href: /windows/win32/api/AuthIf/ns-authif-radius_attribute_array
         - name: "RADIUS_EXTENSION_CONTROL_BLOCK"
-          href: /windows/desktop/api/AuthIf/ns-authif-_radius_extension_control_block
+          href: /windows/win32/api/AuthIf/ns-authif-radius_extension_control_block
         - name: "RADIUS_VSA_FORMAT"
-          href: /windows/desktop/api/AuthIf/ns-authif-_radius_vsa_format
+          href: /windows/win32/api/AuthIf/ns-authif-radius_vsa_format
   - name: "Server Data Objects"
     href: server-data-objects.md
     items: 
@@ -179,83 +179,83 @@
           href: sdo-alphabetical-listing.md
           items: 
           - name: "ACCOUNTINGPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_accountingproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-accountingproperties
           - name: "ATTRIBUTEFILTER"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_attributefilter
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributefilter
           - name: "ATTRIBUTEID"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_attributeid
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributeid
           - name: "ATTRIBUTEINFO"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_attributeinfo
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributeinfo
           - name: "ATTRIBUTEPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_attributeproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributeproperties
           - name: "ATTRIBUTERESTRICTIONS"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_attributerestrictions
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributerestrictions
           - name: "ATTRIBUTESYNTAX"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_attributesyntax
+            href: /windows/win32/api/SdoIas/ne-sdoias-attributesyntax
           - name: "AUTHENTICATION_TYPE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_authentication_type
+            href: /windows/win32/api/SdoIas/ne-sdoias-authentication_type
           - name: "CLIENTPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_clientproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-clientproperties
           - name: "CONDITIONPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_conditionproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-conditionproperties
           - name: "DICTIONARYPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_dictionaryproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-dictionaryproperties
           - name: "EAPWRAPPROPERTIES"
             href: https://docs.microsoft.com/previous-versions/ms717032(v%3dvs.85)
           - name: "IASCOMMONPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_iascommonproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-iascommonproperties
           - name: "IASCOMPONENTPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_iascomponentproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-iascomponentproperties
           - name: "IASDATASTORE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_iasdatastore
+            href: /windows/win32/api/SdoIas/ne-sdoias-iasdatastore
           - name: "IASDOMAINTYPE"
             href: /windows/desktop/api/SdoIas/ne-sdoias-_domaintype
           - name: "IASOSTYPE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_iasostype
+            href: /windows/win32/api/SdoIas/ne-sdoias-iasostype
           - name: "IASPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_iasproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-iasproperties
           - name: "IDENTITY_TYPE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_identity_type
+            href: /windows/win32/api/SdoIas/ne-sdoias-identity_type
           - name: "NAMESPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_namesproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-namesproperties
           - name: "NAPPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_napproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-napproperties
           - name: "NEW_LOG_FILE_FREQUENCY"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_new_log_file_frequency
+            href: /windows/win32/api/SdoIas/ne-sdoias-new_log_file_frequency
           - name: "NTEVENTLOGPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_nteventlogproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-nteventlogproperties
           - name: "NTSAMPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_ntsamproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-ntsamproperties
           - name: "POLICYPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_policyproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-policyproperties
           - name: "PROFILEPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_profileproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-profileproperties
           - name: "PROTOCOLPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_protocolproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-protocolproperties
           - name: "RADIUSPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_radiusproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusproperties
           - name: "RADIUSPROXYPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_radiusproxyproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusproxyproperties
           - name: "RADIUSSERVERGROUPPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_radiusservergroupproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusservergroupproperties
           - name: "RADIUSSERVERPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_radiusserverproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-radiusserverproperties
           - name: "REMEDIATIONSERVERGROUPPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_remediationservergroupproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-remediationservergroupproperties
           - name: "REMEDIATIONSERVERPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_remediationserverproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-remediationserverproperties
           - name: "REMEDIATIONSERVERSPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_remediationserversproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-remediationserversproperties
           - name: "SERVICE_TYPE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_service_type
+            href: /windows/win32/api/SdoIas/ne-sdoias-service_type
           - name: "SHV_COMBINATION_TYPE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_shv_combination_type
+            href: /windows/win32/api/SdoIas/ne-sdoias-shv_combination_type
           - name: "SHVTEMPLATEPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_shvtemplateproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-shvtemplateproperties
           - name: "USERPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_userproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-userproperties
           - name: "VENDORPROPERTIES"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_vendorproperties
+            href: /windows/win32/api/SdoIas/ne-sdoias-vendorproperties
       - name: "Server Data Objects Interfaces"
         href: sdo-server-data-objects-interfaces.md
         items: 

@@ -3,7 +3,7 @@ Description: Controls remote access to unsupported versions of Windows.
 ms.assetid: eb326bba-a011-4b9c-b4ee-fc08ae364f6f
 ms.tgt_platform: multiple
 title: '__NTLMUser9X class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

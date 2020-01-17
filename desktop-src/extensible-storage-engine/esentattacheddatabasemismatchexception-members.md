@@ -1,5 +1,5 @@
 ---
-title: EsentAttachedDatabaseMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentAttachedDatabaseMismatchException members
 TOCTitle: EsentAttachedDatabaseMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentattacheddatabasemismatchexception_members(v=EXCHG.10)

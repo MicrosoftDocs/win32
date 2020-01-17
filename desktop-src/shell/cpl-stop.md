@@ -1,7 +1,7 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
-title: CPL_STOP message
-ms.topic: article
+title: CPL_STOP message (Cpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 4f632b91-8200-42a3-90cc-a98889704ca4
 api_name: 
@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_STOP message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
+Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
 
 ## Parameters
 
@@ -40,7 +40,7 @@ The value that the Control Panel application loaded into the **lpData** member o
 
 ## Return value
 
-If the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
 
 ## Remarks
 

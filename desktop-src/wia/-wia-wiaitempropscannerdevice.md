@@ -1,8 +1,8 @@
 ---
 Description: Windows Image Acquisition (WIA) hardware devices have property values that are stored in the Windows registry.
 ms.assetid: 78caa3af-927b-4143-9e88-4b5c918d00a4
-title: Scanner Device Property Constants
-ms.topic: article
+title: Scanner Device Property Constants (Wiadef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

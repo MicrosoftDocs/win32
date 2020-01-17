@@ -1,11 +1,11 @@
 ---
-title: EsentNullKeyDisallowedException class (Microsoft.Isam.Esent.Interop)
+title: EsentNullKeyDisallowedException class
 TOCTitle: EsentNullKeyDisallowedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnullkeydisallowedexception(v=EXCHG.10)
 ms:contentKeyID: 55102391
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException
 dev_langs:

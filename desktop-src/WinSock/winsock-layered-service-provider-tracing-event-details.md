@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Winsock Catalog Change Tracing Details
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/en-us/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
 
  
 
@@ -33,11 +33,11 @@ The following parameters are logged for a LSP install event:
 
 | Parameter                                                                                                | Description                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP Name<br/>     | The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.<br/> |
+| <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP Name<br/>     | The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.<br/> |
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>Catalog<br/>         | The Winsock catalog (32-bit or 64-bit) where the LSP is being installed. This is an integer value that is either 32 or 64.<br/>                                   |
 | <span id="Installer"></span><span id="installer"></span><span id="INSTALLER"></span>Installer<br/> | The module filename of the application making the LSP install call.<br/>                                                                                          |
 | <span id="GUID"></span><span id="guid"></span>GUID<br/>                                            | The GUID value of the Winsock transport provider that the LSP is being installed under.<br/>                                                                      |
-| <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>Category<br/>     | The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.<br/>                                |
+| <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>Category<br/>     | The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being installed.<br/>                                |
 
 
 
@@ -59,11 +59,11 @@ The following parameters are logged for a LSP uninstall event:
 
 | Parameter                                                                                                | Description                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP Name<br/>     | The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being removed.<br/> |
+| <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP Name<br/>     | The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being removed.<br/> |
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>Catalog<br/>         | The Winsock catalog (32-bit or 64-bit) where the LSP is being removed. This is an integer value that is either 32 or 64.<br/>                                   |
 | <span id="Installer"></span><span id="installer"></span><span id="INSTALLER"></span>Installer<br/> | The module filename of the application making the LSP remove call.<br/>                                                                                         |
 | <span id="GUID"></span><span id="guid"></span>GUID<br/>                                            | The GUID value of the Winsock transport provider that the LSP is removed from.<br/>                                                                             |
-| <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>Category<br/>     | The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being removed.<br/>                                |
+| <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>Category<br/>     | The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being removed.<br/>                                |
 
 
 
@@ -85,11 +85,11 @@ The following parameters are logged for a LSP disable event:
 
 | Parameter                                                                                                | Description                                                                                                                                                            |
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP Name<br/>     | The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being disabled.<br/> |
+| <span id="LSP_Name"></span><span id="lsp_name"></span><span id="LSP_NAME"></span>LSP Name<br/>     | The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being disabled.<br/> |
 | <span id="Catalog"></span><span id="catalog"></span><span id="CATALOG"></span>Catalog<br/>         | The Winsock catalog (32-bit or 64-bit) where the LSP is being disabled. This is an integer value that is either 32 or 64.<br/>                                   |
 | <span id="Installer"></span><span id="installer"></span><span id="INSTALLER"></span>Installer<br/> | The module filename of the application making the LSP disable call.<br/>                                                                                         |
 | <span id="GUID"></span><span id="guid"></span>GUID<br/>                                            | The GUID value of the Winsock transport provider where the LSP is being disabled.<br/>                                                                           |
-| <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>Category<br/>     | The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/en-us/library/ms741675(v=VS.85).aspx) structure for the LSP being disabled.<br/>                                |
+| <span id="Category"></span><span id="category"></span><span id="CATEGORY"></span>Category<br/>     | The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being disabled.<br/>                                |
 
 
 

@@ -1,11 +1,11 @@
 ---
-title: JET_RETRIEVECOLUMN.columnid property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.columnid property 
 TOCTitle: 'columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.columnid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.columnid(v=EXCHG.10)
 ms:contentKeyID: 55103813
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.columnid
 dev_langs:

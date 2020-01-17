@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Refrigeration class requests a reset o
 ms.assetid: ae2be95a-7fba-4050-a9a9-f01eeed9c453
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Refrigeration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

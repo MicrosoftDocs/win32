@@ -1,8 +1,8 @@
 ---
 Description: Returns a quaternion in barycentric coordinates.
 ms.assetid: 0a8d8d5a-f486-4457-86e9-27e76eaf1bc4
-title: D3DXQuaternionBaryCentric function
-ms.topic: article
+title: D3DXQuaternionBaryCentric function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ D3DXQUATERNION* D3DXQuaternionBaryCentric(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pQ1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -61,7 +61,7 @@ Pointer to a source D3DXQUATERNION structure.
 *pQ2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -70,7 +70,7 @@ Pointer to a source D3DXQUATERNION structure.
 *pQ3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -79,7 +79,7 @@ Pointer to a source D3DXQUATERNION structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -88,7 +88,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -96,7 +96,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a D3DXQUATERNION structure in Barycentric coordinates.
 

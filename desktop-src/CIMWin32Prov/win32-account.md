@@ -3,7 +3,7 @@ Description: Contains information about user accounts and group accounts known t
 ms.assetid: c0916f20-05be-4282-9642-28cec606bfd7
 ms.tgt_platform: multiple
 title: Win32_Account class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

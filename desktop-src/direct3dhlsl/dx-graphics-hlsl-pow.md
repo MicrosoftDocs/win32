@@ -10,7 +10,7 @@ api_name:
 - pow
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -58,7 +58,7 @@ The **pow** HLSL intrinsic function calculates *x*<sup>y</sup>.
 | == 0   | > 0 | 0                                                                           |
 | == 0   | < 0 | inf                                                                         |
 | > 0 | < 0 | 1/X<sup>-Y</sup>                                                            |
-| == 0   | == 0   | Depends on the particular graphics processor<br/> 0 or NAN<br/> |
+| == 0   | == 0   | Depends on the particular graphics processor<br/> 0, or 1, or NAN<br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: EsentPatchFileMissingException members (Microsoft.Isam.Esent.Interop)
+title: EsentPatchFileMissingException members
 TOCTitle: EsentPatchFileMissingException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpatchfilemissingexception_members(v=EXCHG.10)

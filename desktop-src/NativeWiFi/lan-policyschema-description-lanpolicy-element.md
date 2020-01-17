@@ -2,7 +2,7 @@
 Description: Contains the description of a wired LAN policy.
 ms.assetid: afd282cf-b6cc-4b32-9f3a-293c1a1a3ea0
 title: description (LANPolicy) Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

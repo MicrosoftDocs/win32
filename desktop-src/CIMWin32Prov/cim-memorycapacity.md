@@ -3,7 +3,7 @@ Description: The CIM\_MemoryCapacity class represents memory that can be install
 ms.assetid: a962ee38-9281-4a7a-b9d7-b321edb5670d
 ms.tgt_platform: multiple
 title: CIM_MemoryCapacity class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The RKeyOpenKeyService function is not supported.
 ms.assetid: 3af18cf7-bc98-4ebc-a62c-7234e9fbddaa
-title: RKeyOpenKeyService function
-ms.topic: article
+title: RKeyOpenKeyService function (Rkeysvcc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

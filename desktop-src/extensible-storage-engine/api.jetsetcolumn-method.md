@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetSetColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetSetColumn method 
 TOCTitle: 'JetSetColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetSetColumn
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetsetcolumn(v=EXCHG.10)

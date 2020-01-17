@@ -1,5 +1,5 @@
 ---
-title: RB_SIZETORECT message
+title: RB_SIZETORECT message (Commctrl.h)
 description: Attempts to find the best layout of the bands for the given rectangle.
 ms.assetid: c6242b54-bd65-489b-b417-9680cc39b64a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

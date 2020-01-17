@@ -3,7 +3,7 @@ Description: Causes an event to be generated on a specific date at a specific ti
 ms.assetid: bcb64c81-3b40-4665-a880-a100629656e0
 ms.tgt_platform: multiple
 title: '__AbsoluteTimerInstruction class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

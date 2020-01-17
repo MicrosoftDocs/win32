@@ -1,5 +1,5 @@
 ---
-title: DTM_GETMONTHCAL message
+title: DTM_GETMONTHCAL message (Commctrl.h)
 description: Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the DateTime\_GetMonthCal macro.
 ms.assetid: 78bbdcc9-2b2b-420b-be9b-6f2f573d60b6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

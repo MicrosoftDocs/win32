@@ -1,5 +1,5 @@
 ---
-title: EM_SETWORDBREAKPROC message
+title: EM_SETWORDBREAKPROC message (Winuser.h)
 description: Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can send this message to either an edit control or a rich edit control.
 ms.assetid: e5029b75-5f35-43a5-876d-24e81605bb49
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-The address of the application-defined Wordwrap function. For more information about breaking lines, see the description of the [*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx) callback function.
+The address of the application-defined Wordwrap function. For more information about breaking lines, see the description of the [*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx) callback function.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ A Wordwrap function defines the point at which the system should break a line of
 **Reference**
 </dt> <dt>
 
-[*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx)
+[*EditWordBreakProc*](https://msdn.microsoft.com/library/Bb761709(v=VS.85).aspx)
 </dt> <dt>
 
 [**EM\_FMTLINES**](em-fmtlines.md)

@@ -1,8 +1,8 @@
 ---
 Description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
-title: GetTraceEnableLevel function
-ms.topic: article
+title: GetTraceEnableLevel function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -53,9 +53,9 @@ Returns the value the controller specified in the *EnableLevel* parameter when c
 
 To determine if the function failed or the controller set the enable flags to 0, follow these steps:
 
--   Call the [**SetLastError**](https://msdn.microsoft.com/en-us/library/ms680627(v=VS.85).aspx) function to set the last error to **ERROR\_SUCCESS**.
+-   Call the [**SetLastError**](https://msdn.microsoft.com/library/ms680627(v=VS.85).aspx) function to set the last error to **ERROR\_SUCCESS**.
 -   Call the **GetTraceEnableLevel** function to retrieve the enable level.
--   If the enable level value is 0, call the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function to retrieve the last known error.
+-   If the enable level value is 0, call the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function to retrieve the last known error.
 -   If the last known error is **ERROR\_SUCCESS**, the controller set the enable level to 0; otherwise, the **GetTraceEnableLevel** function failed with the last known error.
 
 ## Remarks

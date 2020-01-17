@@ -1,5 +1,5 @@
 ---
-title: WM_NCRBUTTONDBLCLK message
+title: WM_NCRBUTTONDBLCLK message (Winuser.h)
 description: Posted when the user double-clicks the right mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 20d62b05-07de-49da-b160-29fa1f5067fa
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the top edge of the source rectangle, in pixels.
 ms.assetid: 12791b9f-4b00-4697-ae3c-8fc069568c82
-title: MFPKEY_RESIZE_SRC_TOP Property
-ms.topic: article
+title: MFPKEY_RESIZE_SRC_TOP Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the top edge of the source rectangle, in pixels.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

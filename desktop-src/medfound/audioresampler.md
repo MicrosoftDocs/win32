@@ -1,8 +1,8 @@
 ---
 Description: The Audio Resampler performs one or both of the following actions on an audio stream.Change the sampling rate.Change the number of channels.
 ms.assetid: bee755c4-0585-40fb-aa4d-4e964f5144a3
-title: Audio Resampler DSP
-ms.topic: article
+title: Audio Resampler DSP (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ CLSID\_CResamplerMediaObject
 
 -   [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
--   [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
+-   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
 -   [**IWMResamplerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops)
 
 ## Formats

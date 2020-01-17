@@ -1,5 +1,5 @@
 ---
-title: ColumnStream properties (Microsoft.Isam.Esent.Interop)
+title: ColumnStream properties
 TOCTitle: ColumnStream properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnStream
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream_properties(v=EXCHG.10)

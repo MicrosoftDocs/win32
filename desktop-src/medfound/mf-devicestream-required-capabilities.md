@@ -1,8 +1,8 @@
 ---
 Description: Specifies a list of unicode strings representing the device capabilities required by the sensor transform.
 ms.assetid: 4A129FEB-E650-47C9-ABC0-9A512EE4121D
-title: MF_DEVICESTREAM_REQUIRED_CAPABILITIES attribute
-ms.topic: article
+title: MF_DEVICESTREAM_REQUIRED_CAPABILITIES attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ Specifies a list of unicode strings representing the device capabilities require
 
 ## Remarks
 
-This attribute is optional and only required if the sensor transform accesses a protected resource. The value must be a semicolon delimited list of string tokens defined in [**DeviceCapability**](https://msdn.microsoft.com/en-us/library/BR211430(v=Win.10).aspx).
+This attribute is optional and only required if the sensor transform accesses a protected resource. The value must be a semicolon delimited list of string tokens defined in [**DeviceCapability**](https://msdn.microsoft.com/library/BR211430(v=Win.10).aspx).
 
 ## Requirements
 

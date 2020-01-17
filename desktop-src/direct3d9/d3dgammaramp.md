@@ -1,8 +1,8 @@
 ---
 Description: Contains red, green, and blue ramp data.
 ms.assetid: c596f47a-6c09-4b97-ab2f-b1da3d851aa4
-title: D3DGAMMARAMP structure
-ms.topic: structure
+title: D3DGAMMARAMP structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -39,7 +39,7 @@ typedef struct D3DGAMMARAMP {
 **red**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Array of 256 WORD element that describes the red gamma ramp.
 **green**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Array of 256 WORD element that describes the green gamma ramp.
 **blue**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

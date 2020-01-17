@@ -1,6 +1,6 @@
 ---
-title: Samples
-description: Samples
+title: WMP SDK Samples
+description: WMP SDK Samples
 ms.assetid: '9250ab9e-241d-426f-92f7-e0e0beecc190'
 keywords:
 - Windows Media Player,samples

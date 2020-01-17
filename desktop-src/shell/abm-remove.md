@@ -1,7 +1,7 @@
 ---
 Description: Unregisters an appbar by removing it from the system's internal list. The system no longer sends notification messages to the appbar or prevents other applications from using the screen area used by the appbar.
-title: ABM_REMOVE message
-ms.topic: article
+title: ABM_REMOVE message (Shellapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 3da73a52-3dbb-4133-a9bd-86540e1c4154
 api_name: 

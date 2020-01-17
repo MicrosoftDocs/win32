@@ -1,7 +1,7 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
-title: CPL_DBLCLK message
-ms.topic: article
+title: CPL_DBLCLK message (Cpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 68d74372-2fc2-45ed-8f77-574b943d28fa
 api_name: 
@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_DBLCLK message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
+Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
 
 ## Parameters
 
@@ -40,7 +40,7 @@ The value that the Control Panel application loaded into the **lpData** member o
 
 ## Return value
 
-If the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function processes this message successfully, the return value is zero; otherwise, it is nonzero.
+If the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function processes this message successfully, the return value is zero; otherwise, it is nonzero.
 
 ## Remarks
 

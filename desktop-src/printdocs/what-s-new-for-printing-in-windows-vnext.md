@@ -20,8 +20,8 @@ The following topics describe the printing and document features that were intro
 
 | Topic                                                                                         | Description                                                                                          |
 |-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [What's New for Printing in Windows 7](https://msdn.microsoft.com/en-us/library/Ee264335(v=VS.85).aspx)<br/>         | Describes what is new for documents and printing in Windows 7.<br/>                            |
-| [What's New for Printing in Windows Vista](https://msdn.microsoft.com/en-us/library/Dd145198(v=VS.85).aspx)<br/> | Lists the printing application programming interfaces (APIs) introduced in Windows Vista.<br/> |
+| [What's New for Printing in Windows 7](https://msdn.microsoft.com/library/Ee264335(v=VS.85).aspx)<br/>         | Describes what is new for documents and printing in Windows 7.<br/>                            |
+| [What's New for Printing in Windows Vista](https://msdn.microsoft.com/library/Dd145198(v=VS.85).aspx)<br/> | Lists the printing application programming interfaces (APIs) introduced in Windows Vista.<br/> |
 
 
 

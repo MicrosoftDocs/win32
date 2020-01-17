@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyFile Methods
+title: IBackgroundCopyFile Methods (BITS)
 description: The IBackgroundCopyFile interface exposes the following methods.
 ms.assetid: BBE18DFF-E82F-4709-A70C-90BD1B82ED1C
 ms.topic: reference

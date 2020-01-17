@@ -1,8 +1,8 @@
 ---
 Description: Computes the intersection of a ray and a triangle.
 ms.assetid: 819f2543-8046-47c9-93b8-7d888264786f
-title: D3DXIntersectTri function
-ms.topic: article
+title: D3DXIntersectTri function (D3DX10math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ BOOL D3DXIntersectTri(
 *p0* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the first triangle vertex position.
 
@@ -54,7 +54,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the f
 *p1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the second triangle vertex position.
 
@@ -63,7 +63,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the s
 *p2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the third triangle vertex position.
 
@@ -72,7 +72,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, describing the t
 *pRayPos* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the point where the ray begins.
 
@@ -81,7 +81,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the p
 *pRayDir* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the direction of the ray.
 
@@ -90,7 +90,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) structure, specifying the d
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Barycentric hit coordinates, U.
 
@@ -99,7 +99,7 @@ Barycentric hit coordinates, U.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Barycentric hit coordinates, V.
 
@@ -108,7 +108,7 @@ Barycentric hit coordinates, V.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Ray-intersection parameter distance.
 
@@ -116,7 +116,7 @@ Ray-intersection parameter distance.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the area of the triangle. Otherwise, returns **FALSE**.
 

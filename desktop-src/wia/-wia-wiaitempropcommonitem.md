@@ -1,8 +1,8 @@
 ---
 Description: The following device property constants must be supported by all IWiaItem, IWiaItem2 and IWiaDrvItem Interface interfaces unless otherwise noted in their descriptions.
 ms.assetid: ef48313e-4df4-4ccd-a085-f714100885a7
-title: Common WIA Item Property Constants
-ms.topic: article
+title: Common WIA Item Property Constants (Wiadef.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

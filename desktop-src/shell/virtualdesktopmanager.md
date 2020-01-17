@@ -1,8 +1,8 @@
 ---
 Description: VirtualDesktopManager implements the IVirtualDesktopManager interface.
 ms.assetid: '25e6c583-b91f-4eeb-90fb-34a7ebed7495'
-title: VirtualDesktopManager class
-ms.topic: interface
+title: VirtualDesktopManager class (Shobjidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

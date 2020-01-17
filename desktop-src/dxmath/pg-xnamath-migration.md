@@ -114,7 +114,7 @@ XMVECTOR XMVectorPermute(FXMVECTOR V1, FXMVECTOR V2, FXMVECTOR Control);
 
 
 
-For DirectXMath, **XMVectorPermuteControl** has been eliminated and the XM\_PERMUTE\_0X .. XM\_PERMUTE\_1Z constants have been redefined to be simple 0-7 indices. Here is the new signature for [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx):
+For DirectXMath, **XMVectorPermuteControl** has been eliminated and the XM\_PERMUTE\_0X .. XM\_PERMUTE\_1Z constants have been redefined to be simple 0-7 indices. Here is the new signature for [**XMVectorPermute**](https://msdn.microsoft.com/library/Hh855956(v=VS.85).aspx):
 
 
 ```
@@ -123,7 +123,7 @@ XMVECTOR XMVectorPermute(FXMVECTOR V1, FXMVECTOR V2, uint32_t PermuteX, uint32_t
 
 
 
-Instead of a control word, this function directly takes the 4 indices as parameters, which also makes it analogous to the [**XMVectorSwizzle**](https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx) function using the new XM\_SWIZZLE\_X .. XM\_SWIZZLE\_W constants defined as simple 0-3 indices.
+Instead of a control word, this function directly takes the 4 indices as parameters, which also makes it analogous to the [**XMVectorSwizzle**](https://msdn.microsoft.com/library/Hh404826(v=VS.85).aspx) function using the new XM\_SWIZZLE\_X .. XM\_SWIZZLE\_W constants defined as simple 0-3 indices.
 
 
 ```
@@ -133,7 +133,7 @@ XMVECTOR XMVectorSwizzle(FXMVECTOR V, uint32_t E0, uint32_t E1, uint32_t E2, uin
 
 
 > [!Note]  
-> For constant values, there is a much more efficient way to implement permute. Instead of using the function form of [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx), use the **template** form:
+> For constant values, there is a much more efficient way to implement permute. Instead of using the function form of [**XMVectorPermute**](https://msdn.microsoft.com/library/Hh855956(v=VS.85).aspx), use the **template** form:
 >
 > <span codelanguage=""></span>
 >
@@ -194,22 +194,22 @@ XMVECTOR XMVectorSwizzle(FXMVECTOR V, uint32_t E0, uint32_t E1, uint32_t E2, uin
 >
 > | Eliminated Function        | Replacement                                                                                                       |
 > |----------------------------|-------------------------------------------------------------------------------------------------------------------|
-> | XMStoreFloat3x3NC          | [**XMStoreFloat3x3**](https://msdn.microsoft.com/en-us/library/Ee420340(v=VS.85).aspx)                                                                        |
-> | XMStoreFloat4NC            | [**XMStoreFloat4**](https://msdn.microsoft.com/en-us/library/Ee420343(v=VS.85).aspx)                                                                            |
-> | XMStoreFloat4x3NC          | [**XMStoreFloat4x3**](https://msdn.microsoft.com/en-us/library/Ee420347(v=VS.85).aspx)                                                                        |
-> | XMStoreFloat4x4NC          | [**XMStoreFloat4x4**](https://msdn.microsoft.com/en-us/library/Ee420350(v=VS.85).aspx)                                                                        |
-> | XMStoreInt4NC              | [**XMStoreInt4**](https://msdn.microsoft.com/en-us/library/Ee420365(v=VS.85).aspx)                                                                                |
-> | XMVector2InBoundsR         | [**XMVector2InBounds**](https://msdn.microsoft.com/en-us/library/Ee420770(v=VS.85).aspx) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
-> | XMVector2TransformStreamNC | [**XMVector2TransformStream**](https://msdn.microsoft.com/en-us/library/Hh404775(v=VS.85).aspx)                                                      |
-> | XMVector3InBoundsR         | [**XMVector3InBounds**](https://msdn.microsoft.com/en-us/library/Ee420816(v=VS.85).aspx) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
-> | XMVector3TransformStreamNC | [**XMVector3TransformStream**](https://msdn.microsoft.com/en-us/library/Hh404780(v=VS.85).aspx)                                                      |
-> | XMVector4InBoundsR         | [**XMVector4InBounds**](https://msdn.microsoft.com/en-us/library/Ee420966(v=VS.85).aspx) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
-> | XMVectorCosHEst            | [**XMVectorCosH**](https://msdn.microsoft.com/en-us/library/Ee421011(v=VS.85).aspx)                                                                              |
-> | XMVectorExpEst             | [**XMVectorExp**](https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx)                                                                                |
-> | XMVectorLogEst             | [**XMVectorLog**](https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx)                                                                                |
-> | XMVectorPowEst             | [**XMVectorPow**](https://msdn.microsoft.com/en-us/library/Ee421196(v=VS.85).aspx)                                                                                |
-> | XMVectorSinHEst            | [**XMVectorSinH**](https://msdn.microsoft.com/en-us/library/Ee421242(v=VS.85).aspx)                                                                              |
-> | XMVectorTanHEst            | [**XMVectorTanH**](https://msdn.microsoft.com/en-us/library/Ee421363(v=VS.85).aspx)                                                                              |
+> | XMStoreFloat3x3NC          | [**XMStoreFloat3x3**](https://msdn.microsoft.com/library/Ee420340(v=VS.85).aspx)                                                                        |
+> | XMStoreFloat4NC            | [**XMStoreFloat4**](https://msdn.microsoft.com/library/Ee420343(v=VS.85).aspx)                                                                            |
+> | XMStoreFloat4x3NC          | [**XMStoreFloat4x3**](https://msdn.microsoft.com/library/Ee420347(v=VS.85).aspx)                                                                        |
+> | XMStoreFloat4x4NC          | [**XMStoreFloat4x4**](https://msdn.microsoft.com/library/Ee420350(v=VS.85).aspx)                                                                        |
+> | XMStoreInt4NC              | [**XMStoreInt4**](https://msdn.microsoft.com/library/Ee420365(v=VS.85).aspx)                                                                                |
+> | XMVector2InBoundsR         | [**XMVector2InBounds**](https://msdn.microsoft.com/library/Ee420770(v=VS.85).aspx) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
+> | XMVector2TransformStreamNC | [**XMVector2TransformStream**](https://msdn.microsoft.com/library/Hh404775(v=VS.85).aspx)                                                      |
+> | XMVector3InBoundsR         | [**XMVector3InBounds**](https://msdn.microsoft.com/library/Ee420816(v=VS.85).aspx) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
+> | XMVector3TransformStreamNC | [**XMVector3TransformStream**](https://msdn.microsoft.com/library/Hh404780(v=VS.85).aspx)                                                      |
+> | XMVector4InBoundsR         | [**XMVector4InBounds**](https://msdn.microsoft.com/library/Ee420966(v=VS.85).aspx) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
+> | XMVectorCosHEst            | [**XMVectorCosH**](https://msdn.microsoft.com/library/Ee421011(v=VS.85).aspx)                                                                              |
+> | XMVectorExpEst             | [**XMVectorExp**](https://msdn.microsoft.com/library/Ee421017(v=VS.85).aspx)                                                                                |
+> | XMVectorLogEst             | [**XMVectorLog**](https://msdn.microsoft.com/library/Ee421175(v=VS.85).aspx)                                                                                |
+> | XMVectorPowEst             | [**XMVectorPow**](https://msdn.microsoft.com/library/Ee421196(v=VS.85).aspx)                                                                                |
+> | XMVectorSinHEst            | [**XMVectorSinH**](https://msdn.microsoft.com/library/Ee421242(v=VS.85).aspx)                                                                              |
+> | XMVectorTanHEst            | [**XMVectorTanH**](https://msdn.microsoft.com/library/Ee421363(v=VS.85).aspx)                                                                              |
 >
 > 
 >

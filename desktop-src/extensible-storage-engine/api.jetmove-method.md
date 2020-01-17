@@ -1,5 +1,5 @@
 ﻿---
-title: Api.JetMove method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetMove method 
 TOCTitle: 'JetMove method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetMove
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetmove(v=EXCHG.10)

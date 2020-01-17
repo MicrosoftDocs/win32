@@ -3,7 +3,7 @@ Description: Represents a service on a computer system running Windows.
 ms.assetid: 713402d3-ee73-4a6c-afb9-ad8033a4c580
 ms.tgt_platform: multiple
 title: Win32_Service class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,7 +44,7 @@ api_location:
 
 # Win32\_Service class
 
-The **Win32\_Service** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents a service on a computer system running Windows.
+The **Win32\_Service** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a service on a computer system running Windows.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -130,7 +130,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwControlsAccepted\|SERVICE\_ACCEPT\_PAUSE\_CONTINUE"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Service Accepts Pause")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwControlsAccepted\|SERVICE\_ACCEPT\_PAUSE\_CONTINUE"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Service Accepts Pause")
 </dt> </dl>
 
 Indicates whether the service can be paused.
@@ -148,7 +148,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwControlsAccepted\|SERVICE\_ACCEPT\_STOP"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Service Accepts Stop")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwControlsAccepted\|SERVICE\_ACCEPT\_STOP"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Service Accepts Stop")
 </dt> </dl>
 
 Indicates whether the service can be stopped.
@@ -166,7 +166,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the service —a one-line string.
@@ -184,7 +184,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwCheckPoint"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Check Point Count")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwCheckPoint"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Check Point Count")
 </dt> </dl>
 
 Value that the service increments periodically to report its progress during a long start, stop, pause, or continue operation. For example, the service increments this value as it completes each step of its initialization when it is starting up. The user interface program that invokes the operation on the service uses this value to track the progress of the service during a lengthy operation. This value is not valid and should be zero when the service does not have a start, stop, pause, or continue operation pending.
@@ -200,7 +200,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Class Name")
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Class Name")
 </dt> </dl>
 
 Name of the first concrete class to appear in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, this property allows all instances of this class and its subclasses to be uniquely identified.
@@ -218,7 +218,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_DELAYED\_AUTO\_START\_INFO**](https://msdn.microsoft.com/en-us/library/ms685155(v=VS.85).aspx)\|fDelayedAutostart"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Delayed Auto-Start")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_DELAYED\_AUTO\_START\_INFO**](https://msdn.microsoft.com/library/ms685155(v=VS.85).aspx)\|fDelayedAutostart"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Delayed Auto-Start")
 </dt> </dl>
 
 If **True**, the service is started after other auto-start services are started plus a short delay.
@@ -236,7 +236,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -254,7 +254,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|dwServiceType\|SERVICE\_INTERACTIVE\_PROCESS"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Interacts With Desktop")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|dwServiceType\|SERVICE\_INTERACTIVE\_PROCESS"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Interacts With Desktop")
 </dt> </dl>
 
 Indicates whether the service can create or communicate with windows on the desktop, and thus interact in some way with a user. Interactive services must run under the Local System account. Most services are not interactive; that is, they do not communicate with the user in any way.
@@ -272,7 +272,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|lpDisplayName"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Display Name")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|lpDisplayName"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Display Name")
 </dt> </dl>
 
 Name of the service as viewed in the Services snap-in. This string has a maximum length of 256 characters. Note that the display name and the service name (which is stored in the registry) are not always the same. For example, the DHCP Client service has the service name Dhcp but the display name DHCP Client. The name is case-preserved in the Service Control Manager. However, **DisplayName** comparisons are always case-insensitive.
@@ -294,7 +294,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|dwErrorControl"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Severity Of Startup Failure")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|dwErrorControl"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Severity Of Startup Failure")
 </dt> </dl>
 
 Severity of the error if this service fails to start during startup. The value indicates the action taken by the startup program if failure occurs. All errors are logged by the computer system.
@@ -369,7 +369,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwWin32ExitCode"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Exit Code")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwWin32ExitCode"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Exit Code")
 </dt> </dl>
 
 Windows error code that defines errors encountered in starting or stopping the service. This property is set to **ERROR\_SERVICE\_SPECIFIC\_ERROR** (1066) when the error is unique to the service represented by this class, and information about the error is available in the **ServiceSpecificExitCode** property. The service sets this value to **NO\_ERROR** when running, and again upon normal termination.
@@ -387,7 +387,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date object is installed. This property does not require a value to indicate that the object is installed.
@@ -405,7 +405,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
 </dt> </dl>
 
 Unique identifier of the service that provides an indication of the functionality that is managed. This functionality is described in the **Description** property of the object.
@@ -423,7 +423,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|lpBinaryPathName"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("File Path Name")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|lpBinaryPathName"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("File Path Name")
 </dt> </dl>
 
 Fully qualified path to the service binary file that implements the service.
@@ -443,7 +443,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS\_PROCESS**](https://msdn.microsoft.com/en-us/library/ms685992(v=VS.85).aspx)\|dwProcessId"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Process Id")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS\_PROCESS**](https://msdn.microsoft.com/library/ms685992(v=VS.85).aspx)\|dwProcessId"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Process Id")
 </dt> </dl>
 
 Process identifier of the service.
@@ -461,7 +461,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwServiceSpecificExitCode"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Server Specific Exit Code")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwServiceSpecificExitCode"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Server Specific Exit Code")
 </dt> </dl>
 
 Service-specific error code for errors that occur while the service is either starting or stopping. The exit codes are defined by the service represented by this class. This value is only set when the **ExitCode** property value is **ERROR\_SERVICE\_SPECIFIC\_ERROR** (1066).
@@ -479,7 +479,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|dwServiceType"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Service Type")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|dwServiceType"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Service Type")
 </dt> </dl>
 
 Type of service provided to calling processes.
@@ -550,7 +550,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Started")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Started")
 </dt> </dl>
 
 Indicates whether or not the service is started.
@@ -568,7 +568,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Start Mode")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Start Mode")
 </dt> </dl>
 
 Start mode of the Windows base service.
@@ -643,7 +643,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|lpServiceStartName"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Starting Account Name")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|lpServiceStartName"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Starting Account Name")
 </dt> </dl>
 
 Account name under which a service runs. Depending on the service type, the account name may be in the form of "DomainName\\Username" or UPN format ("*Username@DomainName*"). The service process is logged by using one of these two forms when it runs. If the account belongs to the built-in domain, then ".\\Username" can be specified. For kernel or system-level drivers, **StartName** contains the driver object name (that is, "\\FileSystem\\Rdr" or "\\Driver\\Xns") which the I/O system uses to load the device driver. Additionally, if **NULL** is specified, the driver runs with a default object name created by the I/O system based on the service name.
@@ -663,7 +663,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwCurrentState "), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("State")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwCurrentState "), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("State")
 </dt> </dl>
 
 Current state of the base service.
@@ -743,7 +743,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -849,7 +849,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("System Class Name")
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("System Class Name")
 </dt> </dl>
 
 Type name of the system that hosts this service.
@@ -867,7 +867,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("System Name")
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("System Name")
 </dt> </dl>
 
 Name of the system that hosts this service.
@@ -885,7 +885,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/en-us/library/ms684950(v=VS.85).aspx)\|dwTagId"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Tag Id")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**QUERY\_SERVICE\_CONFIG**](https://msdn.microsoft.com/library/ms684950(v=VS.85).aspx)\|dwTagId"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Tag Id")
 </dt> </dl>
 
 Unique tag value for this service in the group. A value of 0 (zero) indicates that the service does not have a tag. A tag can be used to order service startup within a load order group by specifying a tag order vector in the registry located at:
@@ -907,7 +907,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/en-us/library/ms685996(v=VS.85).aspx)\|dwWaitHint"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Estimated Wait Time")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Service Structures\|[**SERVICE\_STATUS**](https://msdn.microsoft.com/library/ms685996(v=VS.85).aspx)\|dwWaitHint"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Estimated Wait Time")
 </dt> </dl>
 
 Estimated time required, in milliseconds, for a pending start, stop, pause, or continue operation. After the specified time has elapsed, the service makes its next call to the **SetServiceStatus** method with either an incremented **CheckPoint** value or a change in **CurrentState**. If the amount of time specified by **WaitHint** passes, and **CheckPoint** has not been incremented, or **CurrentState** has not changed, the service control manager or service control program assumes that an error has occurred.
@@ -926,7 +926,7 @@ You can use the WMI **Win32\_Service** class to enumerate the services installed
 
 A service application conforms to the interface rules of the Service Control Manager (SCM), and can be started by a user automatically at system start through the Services control panel utility, or by an application that uses the service functions included in the Windows API. Services can start when there are no users logged on to the computer.
 
-A user connecting from a remote computer must have the **SC\_MANAGER\_CONNECT** privilege enabled to be able to enumerate this class. For more information, see [Service Security and Access Rights](https://msdn.microsoft.com/en-us/library/ms685981(v=VS.85).aspx).
+A user connecting from a remote computer must have the **SC\_MANAGER\_CONNECT** privilege enabled to be able to enumerate this class. For more information, see [Service Security and Access Rights](https://msdn.microsoft.com/library/ms685981(v=VS.85).aspx).
 
 ## Examples
 
@@ -1109,10 +1109,10 @@ using System.Management;
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> <dt>
 
-[WMI Tasks: Services](https://msdn.microsoft.com/en-us/library/Aa394602(v=VS.85).aspx)
+[WMI Tasks: Services](https://msdn.microsoft.com/library/Aa394602(v=VS.85).aspx)
 </dt> </dl>
 
  

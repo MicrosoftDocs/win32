@@ -1,8 +1,8 @@
 ---
 Description: This structure contains information about a slot on a device.
 ms.assetid: 37475351-DE0F-4B80-B26B-1482FBCC16CD
-title: STORAGE_HW_FIRMWARE_SLOT_INFO structure
-ms.topic: structure
+title: STORAGE_HW_FIRMWARE_SLOT_INFO structure (Winioctl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

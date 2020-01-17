@@ -1,5 +1,5 @@
 ---
-title: Examples
+title: Examples (RPC)
 description: Examples that demonstrate Remote Procedure Call (RPC) concepts.
 ms.assetid: d5db3085-6df0-4539-a605-d60055f4f4ec
 keywords:

@@ -1,8 +1,8 @@
 ---
 Description: Sets the value of the private user bit in the MPEG-1 stream. This property applies to MPEG audio encoders.
 ms.assetid: e93a2456-1489-4904-9555-638c94739df5
-title: AVEncMPAPrivateUserBit property
-ms.topic: article
+title: AVEncMPAPrivateUserBit property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

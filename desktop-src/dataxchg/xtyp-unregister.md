@@ -1,5 +1,5 @@
 ---
-title: XTYP_UNREGISTER transaction
+title: XTYP_UNREGISTER transaction (Ddeml.h)
 description: A Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_UNREGISTER transaction whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the DdeNameService function to unregister a service name, or whenever a non-DDEML application that supports the System topic is terminated.
 ms.assetid: a57a5d53-7919-4698-8c84-6142dd29bb2a
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_UNREGISTER transaction
 
-A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_UNREGISTER** transaction whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice) function to unregister a service name, or whenever a non-DDEML application that supports the System topic is terminated.
+A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_UNREGISTER** transaction whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice) function to unregister a service name, or whenever a non-DDEML application that supports the System topic is terminated.
 
 
 ```C++

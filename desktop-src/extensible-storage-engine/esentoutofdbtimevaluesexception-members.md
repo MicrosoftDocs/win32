@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfDbtimeValuesException members (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfDbtimeValuesException members
 TOCTitle: EsentOutOfDbtimeValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofdbtimevaluesexception_members(v=EXCHG.10)

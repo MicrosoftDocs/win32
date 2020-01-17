@@ -1,8 +1,8 @@
 ---
 Description: The SetBandwidthInfo method sets the bandwidth information.
 ms.assetid: bf5db456-ea67-4a65-a681-df0741f73fc9
-title: ITConnection::SetBandwidthInfo method
-ms.topic: article
+title: ITConnection::SetBandwidthInfo method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -62,7 +62,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx) to allocate memory for the *pModifier* parameter and use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
+The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pModifier* parameter and use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variable is no longer needed.
 
 Reference: RFC 2327.
 

@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Winlogon and GINA
 
-[*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx), the [*GINA*](https://msdn.microsoft.com/en-us/library/ms721584(v=VS.85).aspx), and network providers are the parts of the interactive logon model. The interactive logon procedure is normally controlled by Winlogon, MSGina.dll, and network providers. To change the interactive logon procedure, MSGina.dll can be replaced with a customized GINA DLL.
+[*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx), the [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx), and network providers are the parts of the interactive logon model. The interactive logon procedure is normally controlled by Winlogon, MSGina.dll, and network providers. To change the interactive logon procedure, MSGina.dll can be replaced with a customized GINA DLL.
 
-To work with Winlogon, the GINA, and network providers, you should have a firm knowledge of the Windows security architecture, especially with regard to [*tokens*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx), [*authentication packages*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx), and related matters.
+To work with Winlogon, the GINA, and network providers, you should have a firm knowledge of the Windows security architecture, especially with regard to [*tokens*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx), [*authentication packages*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx), and related matters.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -21,9 +21,9 @@ For information about specific functions and structures, see [Authentication Ref
 
 Sample GINA code can be found in the Platform Software Development Kit (SDK) Security samples. The samples contain C code for implementing a GINA stub and a GINA hook. For more information about custom GINA DLL development, send an email message to: ginareqs@microsoft.com.
 
-For information about the authentication model supported by Windows and for details about the [*Local Security Authority*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx) (LSA) services and [*authentication package*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) interfaces, see [LSA Authentication](lsa-authentication.md).
+For information about the authentication model supported by Windows and for details about the [*Local Security Authority*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) (LSA) services and [*authentication package*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) interfaces, see [LSA Authentication](lsa-authentication.md).
 
-For information about the aspects of the Local Security Authority that relate to the administration of security policy, which includes trust relationships with other computers and domains, assignment of privileges, audit generation control, system accessibility, and other similar topics, see [LSA Policy](https://msdn.microsoft.com/en-us/library/ms721831(v=VS.85).aspx).
+For information about the aspects of the Local Security Authority that relate to the administration of security policy, which includes trust relationships with other computers and domains, assignment of privileges, audit generation control, system accessibility, and other similar topics, see [LSA Policy](https://msdn.microsoft.com/library/ms721831(v=VS.85).aspx).
 
 For information about Winlogon and GINA, see the following topics.
 
@@ -36,7 +36,7 @@ For information about Winlogon and GINA, see the following topics.
 | [Terminal Services GINA Functions](terminal-services-gina-functions.md)           | When Terminal Services are enabled, the GINA must call Winlogon support functions to complete several tasks.<br/>                                                                                                                   |
 | [Interaction with Network Providers](interaction-with-network-providers.md)       | You can configure a system to support zero or more network providers.<br/>                                                                                                                                                          |
 | [Responsibilities and Features](responsibilities-and-features.md)                 | Each part of the interactive logon process has a set of responsibilities.<br/>                                                                                                                                                      |
-| [Interaction Between Winlogon and GINA](interaction-between-winlogon-and-gina.md) | The state of Winlogon determines which GINA function is called to process any given [*secure attention sequence*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SAS) event.<br/> |
+| [Interaction Between Winlogon and GINA](interaction-between-winlogon-and-gina.md) | The state of Winlogon determines which GINA function is called to process any given [*secure attention sequence*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SAS) event.<br/> |
 | [Winlogon Notification Packages](winlogon-notification-packages.md)               | You can implement a notification package to monitor and respond to Winlogon events.<br/>                                                                                                                                            |
 
 

@@ -2,7 +2,7 @@
 Description: Typedef for the REGFILTERPINS structure.
 ms.assetid: ac734feb-6adc-4a26-95d4-ba24c12db783
 title: AMOVIESETUP_PIN structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

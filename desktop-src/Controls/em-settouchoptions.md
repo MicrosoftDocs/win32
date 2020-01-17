@@ -1,5 +1,5 @@
 ---
-title: EM_SETTOUCHOPTIONS message
+title: EM_SETTOUCHOPTIONS message (Richedit.h)
 description: Sets the touch options associated with a rich edit control.
 ms.assetid: C15036D6-B74F-414D-B731-F1587B616644
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

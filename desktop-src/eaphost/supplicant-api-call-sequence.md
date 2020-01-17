@@ -2,9 +2,6 @@
 title: Supplicant API Call Sequence
 description: Provides the specific call sequence for the supplicant API.
 ms.assetid: 83276783-aee5-43ac-982d-1144df982a7d
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

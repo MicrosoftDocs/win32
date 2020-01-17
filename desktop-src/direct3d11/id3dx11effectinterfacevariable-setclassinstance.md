@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectInterfaceVariable SetClassInstance method
+title: ID3DX11EffectInterfaceVariable SetClassInstance method (D3dx11effect.h)
 description: Sets a class instance.
 ms.assetid: fc71a0d2-054a-48ed-86a5-54cf0017062a
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ Pointer to an [**ID3DX11EffectClassInstanceVariable**](id3dx11effectclassinstanc
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

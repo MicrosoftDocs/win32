@@ -1,8 +1,8 @@
 ---
 Description: Gets the number of rotation keys in the specified key frame animation.
 ms.assetid: b39c6585-461d-48fb-a048-9965f58b0736
-title: ID3DXKeyframedAnimationSet::GetNumRotationKeys method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetNumRotationKeys method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ UINT GetNumRotationKeys(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation index.
 
@@ -46,7 +46,7 @@ Animation index.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of rotation keys in the specified key frame animation.
 

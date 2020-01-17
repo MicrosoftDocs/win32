@@ -1,5 +1,5 @@
 ---
-title: ID2D1InkStyle SetNibTransform methods
+title: ID2D1InkStyle SetNibTransform methods (D2d1\_3.h)
 description: Sets the transform to apply to this style's nib shape.
 ms.assetid: e2caee05-192c-1ea5-103c-e1d44e8c30a8
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1InkStyle::SetNibTransform methods
@@ -24,8 +24,8 @@ Sets the transform to apply to this style's nib shape.
 
 | Method                                                                             | Description                                                       |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------------|
-| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F\*)**](https://msdn.microsoft.com/en-us/library/Dn900431(v=VS.85).aspx)  | Sets the transform to apply to this style's nib shape.<br/> |
-| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/en-us/library/Dn900432(v=VS.85).aspx) | Sets the transform to apply to this style's nib shape.<br/> |
+| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F\*)**](https://msdn.microsoft.com/library/Dn900431(v=VS.85).aspx)  | Sets the transform to apply to this style's nib shape.<br/> |
+| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/library/Dn900432(v=VS.85).aspx) | Sets the transform to apply to this style's nib shape.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the transform to apply to this style's nib shape.
 
 <dl> <dt>
 
-[**ID2D1InkStyle**](https://msdn.microsoft.com/en-us/library/Dn900427(v=VS.85).aspx)
+[**ID2D1InkStyle**](https://msdn.microsoft.com/library/Dn900427(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMXDECN4.
 ms.assetid: 6b8a319d-1ffb-4a19-a27c-a692109a71e2
 title: XMXDECN4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMXDECN4`.
 
-Constructs instances of the [**XMXDECN4**](https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx) structure.
+Constructs instances of the [**XMXDECN4**](https://msdn.microsoft.com/library/Ee421408(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -91,7 +91,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMXDECN4**](https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx)
+[**XMXDECN4**](https://msdn.microsoft.com/library/Ee421408(v=VS.85).aspx)
 </dt> </dl>
 
  

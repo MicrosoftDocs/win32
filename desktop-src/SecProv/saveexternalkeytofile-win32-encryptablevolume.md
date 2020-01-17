@@ -2,7 +2,7 @@
 Description: Writes the external key associated with the specified volume key protector to a system, hidden, read-only file in the specified folder.
 ms.assetid: 8d928f85-b392-4119-aebb-f16021eb5c6a
 title: SaveExternalKeyToFile method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -77,7 +77,7 @@ This method returns one of the following codes or another error code if it fails
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

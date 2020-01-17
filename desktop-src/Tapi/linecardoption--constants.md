@@ -1,8 +1,8 @@
 ---
 Description: The LINECARDOPTION\_constants define values used in the dwOptions member of the LINECARDENTRY structure returned as part of the LINETRANSLATECAPS structure returned by lineGetTranslateCaps.
 ms.assetid: 36c67fbf-e5ca-4ec4-a03a-0b828667abcc
-title: LINECARDOPTION_ Constants
-ms.topic: article
+title: LINECARDOPTION_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

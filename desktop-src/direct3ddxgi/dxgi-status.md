@@ -1,8 +1,8 @@
 ---
 Description: Status codes that can be returned by DXGI functions.
 ms.assetid: dd7480b4-8218-4716-ab9f-74a9955b8aa7
-title: DXGI_STATUS
-ms.topic: article
+title: DXGI_STATUS (DXGI.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

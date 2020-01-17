@@ -1,7 +1,7 @@
 ---
 Description: This topic lists the DrawArc methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: b30757ea-b8b8-45bd-a716-a4c8c9c5f1ec
-title: Graphics.DrawArc methods
+title: Graphics.DrawArc methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

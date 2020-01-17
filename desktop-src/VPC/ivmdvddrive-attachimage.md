@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive AttachImage method
+title: IVMDVDDrive AttachImage method (VPCCOMInterfaces.h)
 description: Attaches an ISO image to the DVD drive within the VM.
 ms.assetid: 08947898-ca3f-41b6-97a3-52dc6977fc6d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

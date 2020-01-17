@@ -1,5 +1,5 @@
 ﻿---
-title: JET_DBID operators (Microsoft.Isam.Esent.Interop)
+title: JET_DBID operators
 TOCTitle: JET_DBID operators
 ms:assetid: 3ea69a68-c166-c943-97ba-19a80faa9b4f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578167(v=EXCHG.10)

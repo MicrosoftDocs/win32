@@ -1,5 +1,5 @@
 ---
-title: BG_JOB_PRIORITY enumeration
+title: BG_JOB_PRIORITY enumeration (Deliveryoptimization.h)
 description: The BG_JOB_PRIORITY enumeration defines the constant values that specify the priority level of a job.
 ms.assetid: AF1F1F6D-473A-49E5-B24D-644A70DF304C
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

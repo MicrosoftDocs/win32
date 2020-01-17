@@ -1,5 +1,5 @@
 ---
-title: EM_EXLINEFROMCHAR message
+title: EM_EXLINEFROMCHAR message (Richedit.h)
 description: Determines which line contains the specified character in a rich edit control.
 ms.assetid: 497482fb-9640-4063-a9f5-e0691b65225d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

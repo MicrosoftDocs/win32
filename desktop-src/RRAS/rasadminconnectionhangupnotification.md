@@ -4,7 +4,7 @@ description: The RasAdminConnectionHangupNotification function is an application
 ms.assetid: 0083c592-6785-4138-9ce1-1241071b5856
 keywords:
 - RasAdminConnectionHangupNotification callback function RAS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

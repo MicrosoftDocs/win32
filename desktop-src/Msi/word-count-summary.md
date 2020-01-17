@@ -2,7 +2,7 @@
 Description: In the summary information of an installation package, the Word Count Summary property indicates the type of source file image.
 ms.assetid: 1eeece25-4f24-4efe-879d-66ebbb6a9391
 title: Word Count Summary property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: GetCount is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 1fe39f2d-f95e-4436-a780-40fe8bd41b74
-title: IEnumUserIdentity::GetCount method
-ms.topic: article
+title: IEnumUserIdentity::GetCount method (Msident.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

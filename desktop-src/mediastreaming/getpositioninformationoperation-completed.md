@@ -12,14 +12,14 @@ api_name:
 - GetPositionInformationOperation.Completed
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # GetPositionInformationOperation.Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/en-us/library/Hh828931(v=VS.85).aspx) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/library/Hh828931(v=VS.85).aspx) is completed.
 
 This property is read/write.
 

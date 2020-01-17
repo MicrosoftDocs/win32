@@ -2,7 +2,7 @@
 Description: The TARGETDIR property specifies the root destination directory for the installation.
 ms.assetid: 279bb9ad-afb6-406e-b74a-8424da177e6f
 title: TARGETDIR property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

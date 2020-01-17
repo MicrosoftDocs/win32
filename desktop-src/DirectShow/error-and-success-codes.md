@@ -1,8 +1,8 @@
 ---
 Description: This topic lists the HRESULT return codes that are defined for DirectShow.
 ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
-title: DirectShow Error and Success Codes
-ms.topic: article
+title: DirectShow Error and Success Codes (Vfwmsgs.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -203,7 +203,7 @@ In addition to the values listed previously, DirectShow Editing Services defines
 
 <dl> <dt>
 
-[**AMGetErrorText**](https://msdn.microsoft.com/en-us/library/Dd373430(v=VS.85).aspx)
+[**AMGetErrorText**](https://msdn.microsoft.com/library/Dd373430(v=VS.85).aspx)
 </dt> <dt>
 
 [Constants and GUIDs](constants-and-guids.md)

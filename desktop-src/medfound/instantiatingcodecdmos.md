@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Instantiating Codec DMOs
 
-You can create a codec DMO by calling the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) COM function. You must pass the class identifier of the DMO, the interface identifier of **IMediaObject**, and a pointer to an **IMediaObject** pointer.
+You can create a codec DMO by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) COM function. You must pass the class identifier of the DMO, the interface identifier of **IMediaObject**, and a pointer to an **IMediaObject** pointer.
 
 The class identifiers of the codec DMOs are defined as constants in the wmcodecdsp.h header file.
 

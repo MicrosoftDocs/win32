@@ -1,8 +1,8 @@
 ---
 Description: The AddAfter method inserts a list after the specified position.
 ms.assetid: 99214667-8478-40e5-b55b-6ac47b1fb4d2
-title: CGenericList.AddAfter method
-ms.topic: article
+title: CGenericList.AddAfter method (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

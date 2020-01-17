@@ -1,5 +1,5 @@
 ---
-title: TVM_SETTOOLTIPS message
+title: TVM_SETTOOLTIPS message (Commctrl.h)
 description: Sets a tree-view control's child tooltip control. You can send this message explicitly or by using the TreeView\_SetToolTips macro.
 ms.assetid: beb9a739-868e-46a8-95d9-9dc032c79dd4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

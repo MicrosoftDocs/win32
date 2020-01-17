@@ -1,5 +1,5 @@
 ---
-title: RtmRegisterClient function
+title: RtmRegisterClient function (Rtm.h)
 description: The RtmRegisterClient function registers a client as a handler of the specified protocol. It establishes a route change notification mechanism for the client, and sets protocol options.
 ms.assetid: 70426601-695d-47ed-b71a-1df3fb8ddf10
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -84,7 +84,7 @@ Specifies miscellaneous options for special handling of the routing protocol. Th
 
 On successful return, a **HANDLE** value that identifies the client in subsequent calls to the routing table manager.
 
-A **NULL** handle indicates that the routing table manager was unable to register the client. Call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) to obtain the reason for the failure.
+A **NULL** handle indicates that the routing table manager was unable to register the client. Call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) to obtain the reason for the failure.
 
 
 
@@ -124,7 +124,7 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx)
+[**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
 </dt> <dt>
 
 [**RegisterProtocol**](/windows/desktop/api/Routprot/nc-routprot-pregister_protocol)

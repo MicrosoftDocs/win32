@@ -26,7 +26,7 @@ An application can specify the security descriptor for some of the printing and 
 [Security Developer Center](https://technet.microsoft.com/security/)
 </dt> <dt>
 
-[Security TechCenter](https://technet.microsoft.com/en-us/security/default.aspx)
+[Security TechCenter](https://technet.microsoft.com/security/default.aspx)
 </dt> </dl>
 
  

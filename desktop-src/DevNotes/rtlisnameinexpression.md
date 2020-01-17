@@ -2,7 +2,7 @@
 Description: Determines whether a Unicode string matches the specified pattern.
 ms.assetid: 9b220cb8-4402-4094-8209-59a9af004b4a
 title: RtlIsNameInExpression function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -71,7 +71,7 @@ Returns **TRUE** if the string matches the pattern. If the string does not match
 
 ## Remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the Microsoft Windows Driver Kit (WDK). You can also call this function using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the Microsoft Windows Driver Kit (WDK). You can also call this function using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 

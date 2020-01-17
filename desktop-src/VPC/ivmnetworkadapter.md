@@ -1,5 +1,5 @@
 ---
-title: IVMNetworkAdapter interface
+title: IVMNetworkAdapter interface (VPCCOMInterfaces.h)
 description: Serves as the interface to a virtual network interface card.
 ms.assetid: df050706-09be-47d1-9ae1-1eb0e1836d64
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Serves as the interface to a virtual network interface card (NIC). It is used to
 
 ## Members
 
-The **IVMNetworkAdapter** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMNetworkAdapter** also has these types of members:
+The **IVMNetworkAdapter** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMNetworkAdapter** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

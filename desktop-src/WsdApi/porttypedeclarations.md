@@ -2,7 +2,7 @@
 Description: Generates C constant declarations for port types.
 ms.assetid: 05a06206-3cc4-428d-b9f2-b7945e63922c
 title: portTypeDeclarations element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

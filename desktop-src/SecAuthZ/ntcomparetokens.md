@@ -1,8 +1,8 @@
 ---
 Description: Compares two access tokens and determines whether they are equivalent with respect to a call to the AccessCheck function.
 ms.assetid: 3a07ddc6-9748-4f96-a597-2af6b4282e56
-title: NtCompareTokens function
-ms.topic: article
+title: NtCompareTokens function (Ntseapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # NtCompareTokens function
 
-The **NtCompareTokens** function compares two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](https://msdn.microsoft.com/en-us/library/Aa374815(v=VS.85).aspx) function.
+The **NtCompareTokens** function compares two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](https://msdn.microsoft.com/library/Aa374815(v=VS.85).aspx) function.
 
 ## Syntax
 

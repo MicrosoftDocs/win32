@@ -1,5 +1,5 @@
 ---
-title: D3DX Functions
+title: D3DX Functions (Direct3D 11 Graphics)
 description: This section contains information about the D3DX 11 functions.
 ms.assetid: 7548c02e-c8c2-4629-95ac-d21ca7a39f0a
 keywords:

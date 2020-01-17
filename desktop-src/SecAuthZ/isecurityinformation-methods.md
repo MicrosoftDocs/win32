@@ -8,17 +8,17 @@ ms.date: 05/31/2018
 
 # ISecurityInformation Methods
 
-The [**ISecurityInformation**](https://msdn.microsoft.com/en-us/library/Aa378900(v=VS.85).aspx) interface exposes the following methods.
+The [**ISecurityInformation**](https://msdn.microsoft.com/library/Aa378900(v=VS.85).aspx) interface exposes the following methods.
 
 ## In this section
 
--   [**GetAccessRights Method**](https://msdn.microsoft.com/en-us/library/Aa379092(v=VS.85).aspx)
--   [**GetInheritTypes Method**](https://msdn.microsoft.com/en-us/library/Aa379097(v=VS.85).aspx)
--   [**GetObjectInformation Method**](https://msdn.microsoft.com/en-us/library/Aa379102(v=VS.85).aspx)
--   [**GetSecurity Method**](https://msdn.microsoft.com/en-us/library/Aa379105(v=VS.85).aspx)
--   [**MapGeneric Method**](https://msdn.microsoft.com/en-us/library/Aa379113(v=VS.85).aspx)
--   [**PropertySheetPageCallback Method**](https://msdn.microsoft.com/en-us/library/Aa379116(v=VS.85).aspx)
--   [**SetSecurity Method**](https://msdn.microsoft.com/en-us/library/Aa379122(v=VS.85).aspx)
+-   [**GetAccessRights Method**](https://msdn.microsoft.com/library/Aa379092(v=VS.85).aspx)
+-   [**GetInheritTypes Method**](https://msdn.microsoft.com/library/Aa379097(v=VS.85).aspx)
+-   [**GetObjectInformation Method**](https://msdn.microsoft.com/library/Aa379102(v=VS.85).aspx)
+-   [**GetSecurity Method**](https://msdn.microsoft.com/library/Aa379105(v=VS.85).aspx)
+-   [**MapGeneric Method**](https://msdn.microsoft.com/library/Aa379113(v=VS.85).aspx)
+-   [**PropertySheetPageCallback Method**](https://msdn.microsoft.com/library/Aa379116(v=VS.85).aspx)
+-   [**SetSecurity Method**](https://msdn.microsoft.com/library/Aa379122(v=VS.85).aspx)
 
  
 

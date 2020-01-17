@@ -1,5 +1,5 @@
 ---
-title: TVM_GETISEARCHSTRING message
+title: TVM_GETISEARCHSTRING message (Commctrl.h)
 description: Retrieves the incremental search string for a tree-view control.
 ms.assetid: 71f9a9b6-e124-4655-80fc-dd23f441496d
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Computes the product of two functions represented using SH (f and g).
 ms.assetid: 632400a4-2ac9-438d-85f7-869101f350c8
-title: D3DXSHMultiply2 function
-ms.topic: article
+title: D3DXSHMultiply2 function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ FLOAT* D3DXSHMultiply2(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m+l.
 
@@ -52,7 +52,7 @@ Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m
 *pF* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Input SH coeffs for first function.
 
@@ -61,7 +61,7 @@ Input SH coeffs for first function.
 *pG* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Second set of input SH coeffs.
 
@@ -69,7 +69,7 @@ Second set of input SH coeffs.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to SH output coefficients.
 

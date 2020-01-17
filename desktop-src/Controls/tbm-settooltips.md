@@ -1,5 +1,5 @@
 ---
-title: TBM_SETTOOLTIPS message
+title: TBM_SETTOOLTIPS message (Commctrl.h)
 description: Assigns a tooltip control to a trackbar control.
 ms.assetid: 9bba1084-d04e-4631-a5cc-408849a14eb1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

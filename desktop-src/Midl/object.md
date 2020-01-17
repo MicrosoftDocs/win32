@@ -10,7 +10,7 @@ api_name:
 - object
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -58,7 +58,7 @@ The name of the interface.
 *base-interface* 
 </dt> <dd>
 
-The COM interface from which this interface derives. The base interface must be [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx), [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx), or another COM interface that derives, either directly or indirectly, from **IUnknown** or **IDispatch**.
+The COM interface from which this interface derives. The base interface must be [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx), [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx), or another COM interface that derives, either directly or indirectly, from **IUnknown** or **IDispatch**.
 
 </dd> </dl>
 

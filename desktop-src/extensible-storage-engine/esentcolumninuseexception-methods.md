@@ -1,5 +1,5 @@
 ---
-title: EsentColumnInUseException methods (Microsoft.Isam.Esent.Interop)
+title: EsentColumnInUseException methods
 TOCTitle: EsentColumnInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninuseexception_methods(v=EXCHG.10)

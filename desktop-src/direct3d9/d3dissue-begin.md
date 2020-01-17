@@ -1,8 +1,8 @@
 ---
 Description: This macro creates a value used by Issue to issue a query begin.
 ms.assetid: 21b8a2b0-d18f-4412-b655-3a913b7312ee
-title: D3DISSUE_BEGIN
-ms.topic: article
+title: D3DISSUE_BEGIN (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -52,7 +52,7 @@ D3DISSUE\_BEGIN is valid for the following query type.
 [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md)
 </dt> <dt>
 
-[**D3DQUERYTYPE**](https://msdn.microsoft.com/en-us/library/Bb172594(v=VS.85).aspx)
+[**D3DQUERYTYPE**](https://msdn.microsoft.com/library/Bb172594(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,7 +1,7 @@
 ---
 Description: All item objects have properties.
 ms.assetid: 00e04790-e319-41b3-b88f-8064912b91b1
-title: Property Attributes
+title: Property Attributes (WIA)
 ms.topic: article
 ms.date: 05/31/2018
 ---

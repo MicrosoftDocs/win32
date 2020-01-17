@@ -1,11 +1,11 @@
 ---
-title: SystemParameters.ColumnsMost field (Microsoft.Isam.Esent.Interop)
+title: SystemParameters.ColumnsMost field
 TOCTitle: ColumnsMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsMost
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.columnsmost(v=EXCHG.10)
 ms:contentKeyID: 55104026
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsMost
 dev_langs:

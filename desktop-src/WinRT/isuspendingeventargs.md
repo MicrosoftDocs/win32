@@ -1,8 +1,8 @@
 ---
 Description: Provides data for an app suspending event.
 ms.assetid: 2590AFAA-679C-49F1-804F-D429BB971727
-title: ISuspendingEventArgs interface
-ms.topic: interface
+title: ISuspendingEventArgs interface (Windows.ApplicationModel.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -21,7 +21,7 @@ Provides data for an app suspending event.
 
 ## Members
 
-The **ISuspendingEventArgs** interface inherits from [**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx). **ISuspendingEventArgs** also has these types of members:
+The **ISuspendingEventArgs** interface inherits from [**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx). **ISuspendingEventArgs** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -41,7 +41,7 @@ The **ISuspendingEventArgs** interface has these properties.
 
 ## Remarks
 
-This object is accessed when you implement event handlers like [**SuspendingEventHandler**](https://msdn.microsoft.com/en-us/library/BR242303(v=Win.10).aspx), [**SuspendingEventHandler**](https://msdn.microsoft.com/en-us/library/BR244262(v=Win.10).aspx), and [**add\_Suspending**](https://msdn.microsoft.com/en-us/library/Hh438376(v=VS.85).aspx) to respond to app suspending events.
+This object is accessed when you implement event handlers like [**SuspendingEventHandler**](https://msdn.microsoft.com/library/BR242303(v=Win.10).aspx), [**SuspendingEventHandler**](https://msdn.microsoft.com/library/BR244262(v=Win.10).aspx), and [**add\_Suspending**](https://msdn.microsoft.com/library/Hh438376(v=VS.85).aspx) to respond to app suspending events.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 <dl> <dt>
 
-[**IInspectable**](https://msdn.microsoft.com/en-us/library/BR205821(v=VS.85).aspx)
+[**IInspectable**](https://msdn.microsoft.com/library/BR205821(v=VS.85).aspx)
 </dt> <dt>
 
 [**ISuspendingOperation**](isuspendingoperation.md)

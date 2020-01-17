@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: acbc06cd-7f6c-4555-8816-de3f021126aa
 title: RequestStateChange method of the Msvm_VirtualFcSwitch class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

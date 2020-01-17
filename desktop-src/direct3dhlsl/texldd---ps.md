@@ -2,10 +2,10 @@
 title: texldd - ps
 description: Samples a texture with additional gradient inputs.
 ms.assetid: 6d6b3180-d82e-4be4-929b-e5a6431bec38
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

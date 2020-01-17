@@ -1,8 +1,8 @@
 ---
 Description: The TAPI LINE\_REPLY message is sent to report the results of function calls that completed asynchronously.
 ms.assetid: 5d98ed8b-b75e-49f8-aba3-c6eee89e91c1
-title: LINE_REPLY message
-ms.topic: article
+title: LINE_REPLY message (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

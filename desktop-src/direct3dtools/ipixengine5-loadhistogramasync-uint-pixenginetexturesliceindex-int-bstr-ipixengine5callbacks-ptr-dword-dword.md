@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPixEngine5::LoadHistogramAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: A23CB3E0-B299-40FD-899E-9FE6E9177551
 api_name: 

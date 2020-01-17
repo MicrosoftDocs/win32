@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ThreeDNow property
+title: IVMHostInfo ThreeDNow property (VPCCOMInterfaces.h)
 description: Determines whether the processor supports the 3DNow instruction set.
 ms.assetid: 4987e326-d8fa-4dfa-b592-9dd90cedb0ef
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

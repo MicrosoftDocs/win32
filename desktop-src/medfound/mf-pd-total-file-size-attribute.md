@@ -1,8 +1,8 @@
 ---
 Description: Specifies the total size of the source file, in bytes. This attribute applies to presentation descriptors. A media source can optionally set this attribute.
 ms.assetid: 722ebb14-c3e8-4f83-8fa2-e006b1094a59
-title: MF_PD_TOTAL_FILE_SIZE attribute
-ms.topic: article
+title: MF_PD_TOTAL_FILE_SIZE attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

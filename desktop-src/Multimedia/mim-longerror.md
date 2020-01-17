@@ -1,5 +1,5 @@
 ---
-title: MIM_LONGERROR message
+title: MIM_LONGERROR message (Mmsystem.h)
 description: The MIM\_LONGERROR message is sent to a MIDI input callback function when an invalid or incomplete MIDI system-exclusive message is received.
 ms.assetid: 7e3b0716-33c4-449c-a200-e5ba72428dc1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -36,14 +36,14 @@ dwParam2 = dwTimestamp
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the buffer containing the invalid message.
+Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure identifying the buffer containing the invalid message.
 
 </dd> <dt>
 
 <span id="dwTimestamp"></span><span id="dwtimestamp"></span><span id="DWTIMESTAMP"></span>*dwTimestamp*
 </dt> <dd>
 
-Time that the data was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://msdn.microsoft.com/en-us/library/Dd798462(v=VS.85).aspx) function was called.
+Time that the data was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://msdn.microsoft.com/library/Dd798462(v=VS.85).aspx) function was called.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ This message does not return a value.
 
 ## Remarks
 
-The returned buffer might not be full. To determine the number of bytes recorded into the returned buffer, use the **dwBytesRecorded** member of the [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure specified by *lpMidiHdr*.
+The returned buffer might not be full. To determine the number of bytes recorded into the returned buffer, use the **dwBytesRecorded** member of the [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure specified by *lpMidiHdr*.
 
 ## Requirements
 

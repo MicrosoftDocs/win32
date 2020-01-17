@@ -1,8 +1,8 @@
 ---
 Description: Information relating to a periodic capture state.
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB
-title: TRACE_PERIODIC_CAPTURE_STATE_INFO structure
-ms.topic: structure
+title: TRACE_PERIODIC_CAPTURE_STATE_INFO structure (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

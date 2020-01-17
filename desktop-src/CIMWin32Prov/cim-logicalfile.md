@@ -3,7 +3,7 @@ Description: The CIM\_LogicalFile class represents a named collection of data, w
 ms.assetid: 96bf95a1-c8d7-4035-8d5a-38cdb9c75cce
 ms.tgt_platform: multiple
 title: CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

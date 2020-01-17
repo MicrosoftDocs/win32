@@ -1,8 +1,8 @@
 ---
 Description: Sets the constant table with the data in the buffer.
 ms.assetid: 55cf5456-8f23-405d-9329-8ff737c5c139
-title: ID3DXTextureShader::SetValue method
-ms.topic: article
+title: ID3DXTextureShader::SetValue method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Unique identifier to a constant. See [D3DXHANDLE](d3dxfx.md).
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A pointer to a buffer containing the constant data.
 
@@ -58,7 +58,7 @@ A pointer to a buffer containing the constant data.
 *Bytes* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of the buffer, in bytes.
 
@@ -66,7 +66,7 @@ Size of the buffer, in bytes.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

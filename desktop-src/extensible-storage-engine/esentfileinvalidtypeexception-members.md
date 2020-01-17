@@ -1,5 +1,5 @@
 ---
-title: EsentFileInvalidTypeException members (Microsoft.Isam.Esent.Interop)
+title: EsentFileInvalidTypeException members
 TOCTitle: EsentFileInvalidTypeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileinvalidtypeexception_members(v=EXCHG.10)

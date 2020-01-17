@@ -2,7 +2,7 @@
 Description: The Persist method of the SummaryInfo object formats and writes the previously stored properties into the standard SummaryInformation stream.
 ms.assetid: 77ec1754-73b1-416e-9c9d-72fdbabe16ae
 title: SummaryInfo.Persist method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

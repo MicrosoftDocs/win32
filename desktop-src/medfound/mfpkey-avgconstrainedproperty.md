@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder uses average-controllable VBR encoding.
 ms.assetid: 2c150eb1-4ffe-4f77-8ef8-e3bf29b17b10
-title: MFPKEY_AVGCONSTRAINED Property
-ms.topic: article
+title: MFPKEY_AVGCONSTRAINED Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the encoder uses average-controllable VBR encoding.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

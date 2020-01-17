@@ -2,7 +2,7 @@
 Description: Represents an association between an instance of a metric value and a metric definition.
 ms.assetid: 4c620a7a-8b15-49ad-ae84-246e2fca175d
 title: CIM_MetricInstance class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: WM_CAP_SET_CALLBACK_FRAME message
+title: WM_CAP_SET_CALLBACK_FRAME message (Vfw.h)
 description: The WM\_CAP\_SET\_CALLBACK\_FRAME message sets a preview callback function in the application. AVICap calls this procedure when the capture window captures preview frames. You can send this message explicitly or by using the capSetCallbackOnFrame macro.
 ms.assetid: 3882e6f6-c48c-4e50-9697-cbdf5b9342a5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

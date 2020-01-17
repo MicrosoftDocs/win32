@@ -3,7 +3,7 @@ Description: Represents a computer system running Windows.
 ms.assetid: fdb9fe36-1b8a-4dfa-a1cd-55065017ba2a
 ms.tgt_platform: multiple
 title: Win32_ComputerSystem class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

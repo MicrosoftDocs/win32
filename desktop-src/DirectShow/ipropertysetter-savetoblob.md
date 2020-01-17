@@ -1,8 +1,8 @@
 ---
 Description: The SaveToBlob method saves the property data to a persistence format.
 ms.assetid: 48201192-abda-484e-bdb3-442aca52b2bf
-title: IPropertySetter::SaveToBlob method
-ms.topic: article
+title: IPropertySetter::SaveToBlob method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Copies the logical device file (or directory) specified in the obje
 ms.assetid: 42cdb880-2431-4dcc-abdb-f271e2cd81a4
 ms.tgt_platform: multiple
 title: CopyEx method of the CIM_DeviceFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

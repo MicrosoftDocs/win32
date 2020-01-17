@@ -1,5 +1,5 @@
 ---
-title: CB_SHOWDROPDOWN message
+title: CB_SHOWDROPDOWN message (Winuser.h)
 description: An application sends a CB\_SHOWDROPDOWN message to show or hide the list box of a combo box that has the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
 ms.assetid: 32b995d7-eed6-4173-8525-0d356dea39b3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

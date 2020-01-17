@@ -1,11 +1,11 @@
 ---
-title: JET_ENUMCOLUMNVALUE.err property  (Microsoft.Isam.Esent.Interop)
+title: JET_ENUMCOLUMNVALUE.err property 
 TOCTitle: 'err property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE.err
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnvalue.err(v=EXCHG.10)
 ms:contentKeyID: 55103626
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE.err
 dev_langs:

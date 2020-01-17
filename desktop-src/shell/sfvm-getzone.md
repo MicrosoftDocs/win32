@@ -1,8 +1,8 @@
 ---
 Description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
-title: SFVM_GETZONE message
-ms.topic: article
+title: SFVM_GETZONE message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[This notification is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-Allows the callback object to provide Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to provide Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

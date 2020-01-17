@@ -1,5 +1,5 @@
 ---
-title: glIndexd function
+title: glIndexd function (Gl.h)
 description: The glIndexd function sets the current color index.
 ms.assetid: 4cd72d32-e796-4c94-94cb-591f1ee3b26e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT query.
 ms.assetid: 8b9fa0dc-bbe5-4382-8acc-59aeadfca825
-title: D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_OUTPUT structure
-ms.topic: structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_OUTPUT structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

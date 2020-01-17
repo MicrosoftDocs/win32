@@ -1,8 +1,8 @@
 ---
 Description: Saves a data object and its children to a .x file on disk.
 ms.assetid: a48cd1b2-d1e7-446b-8482-485ccdd59353
-title: ID3DXFileSaveObject::Save method
-ms.topic: article
+title: ID3DXFileSaveObject::Save method (D3DX9Xof.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be the following: D3DXFERR\_BADOBJECT.
 

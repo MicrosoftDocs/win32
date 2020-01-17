@@ -1,8 +1,8 @@
 ---
 Description: The read-only ModuleTable Property returns the name of the table in the module that caused the error.
 ms.assetid: 390f5889-d638-4c1c-b95c-76d38c934e7c
-title: Error.ModuleTable property
-ms.topic: article
+title: Error.ModuleTable property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_ModuleTable**](https://msdn.microsoft.com/en-us/library/Aa369254(v=VS.85).aspx) function.
+See [**get\_ModuleTable**](https://msdn.microsoft.com/library/Aa369254(v=VS.85).aspx) function.
 
 ## Requirements
 

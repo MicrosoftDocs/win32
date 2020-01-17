@@ -3,7 +3,7 @@ Description: The CIM\_SystemResource class represents an entity managed by BIOS,
 ms.assetid: f232c940-532d-4723-8e1e-09f983664b84
 ms.tgt_platform: multiple
 title: CIM_SystemResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # How to Draw Text
 
-To draw text with Direct2D, use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) method for text that has a single format. Or, use the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method for multiple formats, advanced OpenType features, or hit testing. These methods use the DirectWrite API to provide high-quality text display.
+To draw text with Direct2D, use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) method for text that has a single format. Or, use the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx) method for multiple formats, advanced OpenType features, or hit testing. These methods use the DirectWrite API to provide high-quality text display.
 
 ## The DrawText Method
 
-To draw text that has a single format, use the [**DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) method. To use this method, first use an [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) to create an [**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat) instance.
+To draw text that has a single format, use the [**DrawText**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) method. To use this method, first use an [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) to create an [**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat) instance.
 
-The following code creates an [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) object and stores it in the *m\_pTextFormat* variable.
+The following code creates an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) object and stores it in the *m\_pTextFormat* variable.
 
 
 ```C++
@@ -73,9 +73,9 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 
 
 
-Because [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) and [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) objects are [device-independent resources](resources-and-resource-domains.md), you can improve an application's performance by creating them only one time, instead of re-creating them every time that a frame is rendered.
+Because [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) and [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) objects are [device-independent resources](resources-and-resource-domains.md), you can improve an application's performance by creating them only one time, instead of re-creating them every time that a frame is rendered.
 
-After you create the text format object, you can use it with a render target. The following code draws the text by using the [**DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) method of the render target (the *m\_pRenderTarget* variable).
+After you create the text format object, you can use it with a render target. The following code draws the text by using the [**DrawText**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) method of the render target (the *m\_pRenderTarget* variable).
 
 
 ```C++
@@ -131,11 +131,11 @@ HRESULT DemoApp::OnRender()
 
 ## The DrawTextLayout Method
 
-The [**DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method renders an [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object. Use this method to apply multiple formats to a block of text (such as underlining a part of text), to use advanced OpenType features, or to perform hit testing support.
+The [**DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx) method renders an [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object. Use this method to apply multiple formats to a block of text (such as underlining a part of text), to use advanced OpenType features, or to perform hit testing support.
 
-The [**DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method also provides performance benefits for drawing the same text repeatedly. The [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object measures and lays out its text when you create it. If you create an **IDWriteTextLayout** object only one time and reuse it every time that you have to redraw the text, the performance improves because the system does not have to measure and lay out the text again.
+The [**DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx) method also provides performance benefits for drawing the same text repeatedly. The [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) object measures and lays out its text when you create it. If you create an **IDWriteTextLayout** object only one time and reuse it every time that you have to redraw the text, the performance improves because the system does not have to measure and lay out the text again.
 
-Before you can use the [**DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx) method, you must use an [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) to create [**IDWriteTextFormat**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx) and [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) objects. After these objects are created, call the **DrawTextLayout** method.
+Before you can use the [**DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx) method, you must use an [**IDWriteFactory**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory) to create [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx) and [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) objects. After these objects are created, call the **DrawTextLayout** method.
 
 For more information and examples, see the [Text Formatting and Layout](https://docs.microsoft.com/windows/desktop/DirectWrite/text-formatting-and-layout) overview.
 
@@ -143,10 +143,10 @@ For more information and examples, see the [Text Formatting and Layout](https://
 
 <dl> <dt>
 
-[**DrawText**](https://msdn.microsoft.com/en-us/library/Dd371919(v=VS.85).aspx)
+[**DrawText**](https://msdn.microsoft.com/library/Dd371919(v=VS.85).aspx)
 </dt> <dt>
 
-[**DrawTextLayout**](https://msdn.microsoft.com/en-us/library/Dd371913(v=VS.85).aspx)
+[**DrawTextLayout**](https://msdn.microsoft.com/library/Dd371913(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDWriteTextFormat**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat)

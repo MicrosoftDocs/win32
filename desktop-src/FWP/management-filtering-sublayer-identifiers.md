@@ -1,5 +1,5 @@
 ---
-title: Filtering Sublayer Identifiers
+title: Filtering Sublayer Identifiers (Fwpmu.h)
 description: WFP API management filtering sublayer identifier constants.
 ms.assetid: 4c8dbe35-e84b-4490-bf7a-7ff8b94e2022
 topic_type:
@@ -20,7 +20,7 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

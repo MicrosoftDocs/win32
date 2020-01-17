@@ -28,7 +28,7 @@ TOM version 2 (TOM 2) extends the original text object model; the new interfaces
 
 The top-level TOM 2 object is defined by the [**ITextDocument2**](/windows/desktop/api/Tom/nn-tom-itextdocument2) interface, which has methods for creating and retrieving objects lower in the object hierarchy. For simple plain-text processing, you can obtain an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object from an **ITextDocument2** object and do most everything with that. If you need to add rich-text formatting, you can obtain [**ITextFont2**](/windows/desktop/api/Tom/nn-tom-itextfont2) and [**ITextPara2**](/windows/desktop/api/Tom/nn-tom-itextpara2) objects from an **ITextRange2** object. **ITextFont2** provides the programming equivalent of the Microsoft Word format-font dialog, and **ITextPara2** provides the equivalent of the Word format-paragraph dialog.
 
-In addition to these three lower-level objects, TOM 2 has a selection object ([**ITextSelection2**](https://msdn.microsoft.com/en-us/library/Hh768717(v=VS.85).aspx)), which is an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object with selection highlighting and some UI-oriented methods.
+In addition to these three lower-level objects, TOM 2 has a selection object ([**ITextSelection2**](https://msdn.microsoft.com/library/Hh768717(v=VS.85).aspx)), which is an [**ITextRange2**](/windows/desktop/api/Tom/nn-tom-itextrange2) object with selection highlighting and some UI-oriented methods.
 
 The range and selection objects include screen-oriented methods that enable programs to examine text on screen or text that could be scrolled onto the screen. These capabilities help make text accessible to people with impaired vision, for example.
 

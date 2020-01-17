@@ -1,5 +1,5 @@
 ---
-title: Session methods (Microsoft.Isam.Esent.Interop)
+title: Session methods
 TOCTitle: Session methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Session
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session_methods(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Sets information about a specific callback in the animation set.
 ms.assetid: 899f3a85-c878-4eeb-8bda-fc4e9083bd1f
-title: ID3DXKeyframedAnimationSet::SetCallbackKey method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::SetCallbackKey method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT SetCallbackKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation index.
 
@@ -56,7 +56,7 @@ Pointer to the [**callback function**](d3dxkey-callback.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

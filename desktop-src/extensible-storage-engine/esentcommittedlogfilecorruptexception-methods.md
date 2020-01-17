@@ -1,5 +1,5 @@
 ---
-title: EsentCommittedLogFileCorruptException methods (Microsoft.Isam.Esent.Interop)
+title: EsentCommittedLogFileCorruptException methods
 TOCTitle: EsentCommittedLogFileCorruptException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFileCorruptException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcommittedlogfilecorruptexception_methods(v=EXCHG.10)

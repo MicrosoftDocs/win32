@@ -1,8 +1,8 @@
 ---
 Description: Describes swapchain statistics relating to PresentEx calls.
 ms.assetid: aa100b83-6fbf-442d-9891-7fc034a5b1d5
-title: D3DPRESENTSTATS structure
-ms.topic: structure
+title: D3DPRESENTSTATS structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ typedef struct _D3DPRESENTSTATS {
 **PresentCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Running count of successful Present calls made by a display device that is curre
 **PresentRefreshCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ The vblank count at which the last Present was displayed on screen, the vblank c
 **SyncRefreshCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ The vblank count when the scheduler last sampled the machine time by calling Que
 **SyncQPCTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)**
+Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/Aa383713(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ The scheduler's last sampled machine time, obtained by calling [**QueryPerforman
 **SyncGPUTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)**
+Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/Aa383713(v=VS.85).aspx)**
 
 </dd> <dd>
 

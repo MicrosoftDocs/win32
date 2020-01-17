@@ -1,5 +1,5 @@
 ---
-title: TBN_QUERYINSERT notification code
+title: TBN_QUERYINSERT notification code (Commctrl.h)
 description: Notifies the toolbar's parent window whether a button may be inserted to the left of the specified button while the user is customizing a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: d389fabb-16f6-43aa-a4b6-abb80723345b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

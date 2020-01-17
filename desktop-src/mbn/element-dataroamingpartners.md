@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: DataRoamingPartners
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: c29edf9c-4e70-4b8f-8c71-0ec8a9fad60d
 api_name: 

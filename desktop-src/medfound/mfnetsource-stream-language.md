@@ -1,8 +1,8 @@
 ---
 Description: Stores the string sent in the Accept-Language header.
 ms.assetid: b6ac613c-099b-4415-84ad-c0f8ad5f667b
-title: MFNETSOURCE_STREAM_LANGUAGE property
-ms.topic: article
+title: MFNETSOURCE_STREAM_LANGUAGE property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

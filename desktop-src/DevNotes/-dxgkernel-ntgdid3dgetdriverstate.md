@@ -1,8 +1,8 @@
 ---
 Description: Used by both the Microsoft DirectDraw and Microsoft Direct3D runtimes to obtain information from the driver about its current state.
 ms.assetid: a7697e0c-9485-4a9c-b211-67ce07dc3604
-title: NtGdiD3DGetDriverState function
-ms.topic: article
+title: NtGdiD3DGetDriverState function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ DWORD APIENTRY NtGdiD3DGetDriverState(
 *pdata* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETDRIVERSTATEDATA**](https://msdn.microsoft.com/en-us/library/Ff551551(v=VS.85).aspx) structure that describes the state of the driver.
+Pointer to a [**DD\_GETDRIVERSTATEDATA**](https://msdn.microsoft.com/library/Ff551551(v=VS.85).aspx) structure that describes the state of the driver.
 
 </dd> </dl>
 

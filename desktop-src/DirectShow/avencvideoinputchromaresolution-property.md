@@ -1,8 +1,8 @@
 ---
 Description: Specifies the chroma resolution of the input video.
 ms.assetid: 1e405def-2958-4f4f-9c15-db186e0df52f
-title: AVEncVideoInputChromaResolution property
-ms.topic: article
+title: AVEncVideoInputChromaResolution property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncVideoChromaResolution**](https://msdn.microsoft.com/en-us/library/Dd319429(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncVideoChromaResolution**](https://msdn.microsoft.com/library/Dd319429(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

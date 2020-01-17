@@ -1,7 +1,7 @@
 ---
 Description: Contains information about the drive selected in the active File Manager window (the directory window or the Search Results window).
-title: FMS_GETDRIVEINFO structure
-ms.topic: structure
+title: FMS_GETDRIVEINFO structure (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

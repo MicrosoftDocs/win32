@@ -1,8 +1,8 @@
 ---
 Description: The GetSchedule method retrieves a pointer to the clock's scheduling object.
 ms.assetid: ae509f16-d85f-4365-8cf2-c6585cbbdc3d
-title: CBaseReferenceClock.GetSchedule method
-ms.topic: article
+title: CBaseReferenceClock.GetSchedule method (Refclock.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

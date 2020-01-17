@@ -1,8 +1,8 @@
 ---
 Description: The EnumPrinterData function enumerates configuration data for a specified printer.
 ms.assetid: 0a4c8436-46fe-4e21-8d55-c5031a3d1b38
-title: EnumPrinterData function
-ms.topic: article
+title: EnumPrinterData function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

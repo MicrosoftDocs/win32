@@ -1,8 +1,8 @@
 ---
 Description: Specifies HDCP High-Bandwidth Digital Content Protection (HDCP) protection.
 ms.assetid: 3C4B6E66-D68B-4BE9-A821-8F91EF28B70B
-title: MFPROTECTION_HDCP attribute
-ms.topic: article
+title: MFPROTECTION_HDCP attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: ColumnValueOfStruct(T).ToString method  (Microsoft.Isam.Esent.Interop)
+title: ColumnValueOfStruct(T).ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334223(v=EXCHG.10)
 ms:contentKeyID: 55101006
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ToString
 dev_langs:

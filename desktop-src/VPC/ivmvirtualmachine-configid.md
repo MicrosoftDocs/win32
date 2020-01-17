@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine ConfigID property
+title: IVMVirtualMachine ConfigID property (VPCCOMInterfaces.h)
 description: Retrieves the unique identifier for the virtual machine.
 ms.assetid: e1679822-d733-4c7a-a5ad-82cbc24a6329
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: FreeConnections function
+title: FreeConnections function (NapUtil.h)
 description: Frees a Connections data structure.
 ms.assetid: bb339d71-f8e3-48d8-834d-8b957e0cb5ec
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

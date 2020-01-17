@@ -1,11 +1,11 @@
 ---
-title: EsentFileIOAbortException class (Microsoft.Isam.Esent.Interop)
+title: EsentFileIOAbortException class
 TOCTitle: EsentFileIOAbortException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOAbortException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfileioabortexception(v=EXCHG.10)
 ms:contentKeyID: 55101690
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentFileIOAbortException
 dev_langs:

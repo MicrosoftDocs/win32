@@ -1,5 +1,5 @@
 ---
-title: TDN_DESTROYED notification code
+title: TDN_DESTROYED notification code (Commctrl.h)
 description: Sent by a task dialog when it is destroyed and its window handle is no longer valid. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
 ms.assetid: bbebb77f-e078-46bf-a42d-65dab4f8a972
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

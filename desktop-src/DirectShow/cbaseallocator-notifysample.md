@@ -1,8 +1,8 @@
 ---
 Description: The NotifySample method releases any threads that are waiting for samples.
 ms.assetid: b09c48a0-9cd5-44a7-9267-d2a11e8cde4c
-title: CBaseAllocator.NotifySample method
-ms.topic: article
+title: CBaseAllocator.NotifySample method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

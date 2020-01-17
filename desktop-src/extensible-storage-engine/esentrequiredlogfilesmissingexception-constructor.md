@@ -1,11 +1,11 @@
 ---
-title: EsentRequiredLogFilesMissingException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRequiredLogFilesMissingException constructor 
 TOCTitle: 'EsentRequiredLogFilesMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrequiredlogfilesmissingexception.esentrequiredlogfilesmissingexception(v=EXCHG.10)
 ms:contentKeyID: 55102619
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException.EsentRequiredLogFilesMissingException
 dev_langs:

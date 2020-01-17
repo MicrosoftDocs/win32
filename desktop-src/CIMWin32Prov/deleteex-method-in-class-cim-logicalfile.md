@@ -3,7 +3,7 @@ Description: The DeleteEx method deletes the logical file (or directory) specifi
 ms.assetid: 53785f2e-8796-446c-8228-9abc2d9a0d68
 ms.tgt_platform: multiple
 title: DeleteEx method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

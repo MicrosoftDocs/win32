@@ -1,8 +1,8 @@
 ---
 Description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
 ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67
-title: TraceMessageVa function
-ms.topic: article
+title: TraceMessageVa function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -117,7 +117,7 @@ The caller must ensure that the sum of the sizes of the arguments + 72 does not 
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

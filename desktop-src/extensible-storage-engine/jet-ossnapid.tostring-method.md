@@ -1,5 +1,5 @@
 ---
-title: JET_OSSNAPID.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_OSSNAPID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ossnapid.tostring(v=EXCHG.10)
@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_OSSNAPID.ToString method
+# JET_OSSNAPID.ToString method overload list
 
 Include protected members  
 Include inherited members  

@@ -1,8 +1,8 @@
 ---
 Description: The ExtractFiles method of the Merge object extracts the embedded .cab file from a module and then writes those files to the destination directory.
 ms.assetid: '846355d6-32f2-4b04-91dc-acd60445fbd9'
-title: Merge.ExtractFiles method
-ms.topic: article
+title: Merge.ExtractFiles method (Advpub.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -54,7 +54,7 @@ Any files in the destination directory with the same name are overwritten. The p
 
 ### C++
 
-See [**ExtractFiles**](https://msdn.microsoft.com/en-us/library/Aa369270(v=VS.85).aspx) function.
+See [**ExtractFiles**](https://msdn.microsoft.com/library/Aa369270(v=VS.85).aspx) function.
 
 ## Requirements
 

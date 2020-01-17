@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks IBStripCutValueCb method
+title: ID3DX12PipelineParserCallbacks IBStripCutValueCb method (D3DX12.h)
 description: Calls the index buffer strip-cut value subobject callback of an object that implements this interface.
 ms.assetid: 702CA90A-FF20-4554-9469-C86428C203BC
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

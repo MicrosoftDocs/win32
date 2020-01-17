@@ -2,7 +2,7 @@
 Description: Sets or retrieves the plaintext content of a message to be enveloped. This is the default property.
 ms.assetid: 7927321f-fbda-45e0-9b9f-c10ecd3a98b1
 title: EnvelopedData.Content property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -36,7 +36,7 @@ The plaintext content of a message to be enveloped.
 
 ## Remarks
 
-Setting this property must be done before the [**Encrypt**](envelopeddata-encrypt.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the object is reset, and any encrypted content in the object is lost.
+Setting this property must be done before the [**Encrypt**](envelopeddata-encrypt.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset, and any encrypted content in the object is lost.
 
 ## Requirements
 

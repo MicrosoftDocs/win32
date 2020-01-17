@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IFrameListCallback::ResultCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: AEB340C6-74AA-4F8B-86D0-9C0366ECDE70
 api_name: 

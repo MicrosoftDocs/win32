@@ -38,7 +38,7 @@ This topic shows you how you can set groups of voices to send their output to th
 
 4.  Apply changes to all sound effect voices by adjusting the submix voice.
 
-    In this example, changing the volume of the submix voice with the [**SetVolume**](https://msdn.microsoft.com/en-us/library/Ee418600(v=VS.85).aspx) function effectively changes the volume of all voices that output to it.
+    In this example, changing the volume of the submix voice with the [**SetVolume**](https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx) function effectively changes the volume of all voices that output to it.
 
     ```
     pSFXSubmixVoice->SetVolume(0.1);

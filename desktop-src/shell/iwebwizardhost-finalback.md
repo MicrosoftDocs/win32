@@ -1,7 +1,7 @@
 ---
 Description: Navigates to the client-side page immediately preceding the page hosting the server-side HTML pages.
-title: WebWizardHost.FinalBack method
-ms.topic: article
+title: WebWizardHost.FinalBack method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

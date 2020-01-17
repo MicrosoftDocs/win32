@@ -1,8 +1,8 @@
 ---
 Description: Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object.
 ms.assetid: 65419fce-9e82-4621-9906-832144888a3b
-title: NtGdiDdDestroySurface function
-ms.topic: article
+title: NtGdiDdDestroySurface function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

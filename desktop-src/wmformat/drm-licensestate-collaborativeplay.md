@@ -10,13 +10,13 @@ api_name:
 - DRM_LicenseState_CollaborativePlay
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # DRM\_LicenseState\_CollaborativePlay
 
-The **DRM\_LicenseState\_CollaborativePlay** property contains a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/en-us/library/Dd757942(v=VS.85).aspx) structure that contains details about how this right has been applied to the content.
+The **DRM\_LicenseState\_CollaborativePlay** property contains a [**WM\_LICENSE\_STATE\_DATA**](https://msdn.microsoft.com/library/Dd757942(v=VS.85).aspx) structure that contains details about how this right has been applied to the content.
 
 ## Global Constant
 

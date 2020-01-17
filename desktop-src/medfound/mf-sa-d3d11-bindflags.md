@@ -1,8 +1,8 @@
 ---
 Description: Specifies the binding flags to use when allocating Microsoft Direct3D 11 surfaces for media samples.
 ms.assetid: C3B475B1-9A44-47EA-BCE7-D3D0FB56DDAC
-title: MF_SA_D3D11_BINDFLAGS attribute
-ms.topic: article
+title: MF_SA_D3D11_BINDFLAGS attribute (Mftransform.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ Specifies the binding flags to use when allocating Microsoft Direct3D 11 surfac
 
 ## Remarks
 
-The value of this attribute is a bitwise **OR** of [**D3D11\_BIND\_FLAG**](https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx) flags.
+The value of this attribute is a bitwise **OR** of [**D3D11\_BIND\_FLAG**](https://msdn.microsoft.com/library/Ff476085(v=VS.85).aspx) flags.
 
 ### Microsoft Media Foundation Transforms
 

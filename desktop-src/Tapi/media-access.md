@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Media Access
 
-Media features are different with TAPI 2.2 (TAPI/C) as opposed to TAPI 3 (COM), largely because the COM API has access to media service providers (MSPs). For more information about MSPs, see [About The Media Service Provider (MSP)](https://msdn.microsoft.com/en-us/library/ms726003(v=VS.85).aspx). For more information about media stream operations, see [Media Control](https://msdn.microsoft.com/en-us/library/ms726961(v=VS.85).aspx).
+Media features are different with TAPI 2.2 (TAPI/C) as opposed to TAPI 3 (COM), largely because the COM API has access to media service providers (MSPs). For more information about MSPs, see [About The Media Service Provider (MSP)](https://msdn.microsoft.com/library/ms726003(v=VS.85).aspx). For more information about media stream operations, see [Media Control](https://msdn.microsoft.com/library/ms726961(v=VS.85).aspx).
 
 The two most important concepts for an application are the media type (or mode) and the stream. The type is the form in which data is transmitted. For more information and a list of TAPI-defined types, see [LINEMEDIAMODE\_ Constants](linemediamode--constants.md). The media stream is the actual stream of data. An MSP can provide direct access to the stream. TAPI 2.2 applications have some access, but primarily reference other APIs to implement such controls.
 

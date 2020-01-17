@@ -1,8 +1,8 @@
 ---
 Description: The SetPrinterDataEx function sets the configuration data for a printer or print server. The function stores the configuration data under the printers registry key.
 ms.assetid: b7faadfc-1c81-4ddf-8fe5-68f4cc0376f1
-title: SetPrinterDataEx function
-ms.topic: article
+title: SetPrinterDataEx function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -178,7 +178,7 @@ The time specified in **SPLREG_RESTART_JOB_ON_POOL_ERROR** is a minimum time. Th
 
 **HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors\\<*MonitorName*>\\Ports**
 
-Call the [**RegSetValueEx**](https://msdn.microsoft.com/en-us/library/ms724922(v=VS.85).aspx) function to set these values.
+Call the [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724922(v=VS.85).aspx) function to set these values.
 
 
 

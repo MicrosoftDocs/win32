@@ -1,5 +1,5 @@
 ---
-title: EN_CLIPFORMAT notification code
+title: EN_CLIPFORMAT notification code (Richedit.h)
 description: Notifies a rich edit control's parent window that a paste occurred with a particular clipboard format. A windowless rich edit control sends this notification by using the ITextHost TxNotify method.
 ms.assetid: 79FE1350-4D45-447B-B705-63E966AC7F0E
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: A 4x4 matrix that contains methods and operator overloads.
 ms.assetid: 0911088b-50cf-4c4a-996e-351386fc359b
-title: D3DXMATRIX structure
-ms.topic: structure
+title: D3DXMATRIX structure (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ typedef struct D3DXMATRIX {
 **\_ij**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -1,8 +1,8 @@
 ---
 Description: The GetAdviseCount method retrieves the number of pending advise requests.
 ms.assetid: 5978abcf-2fc8-42d4-aaca-a8b79c623e84
-title: CAMSchedule.GetAdviseCount method
-ms.topic: article
+title: CAMSchedule.GetAdviseCount method (Dsschedule.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

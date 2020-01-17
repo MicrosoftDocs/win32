@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_RANGE_UINT64 structure
+title: CD3DX12_RANGE_UINT64 structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_RANGE\_UINT64 structure.
 ms.assetid: 789A2C46-B7D4-462E-9C10-69FD63D27491
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

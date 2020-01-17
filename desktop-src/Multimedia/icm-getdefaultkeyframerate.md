@@ -1,5 +1,5 @@
 ---
-title: ICM_GETDEFAULTKEYFRAMERATE message
+title: ICM_GETDEFAULTKEYFRAMERATE message (Vfw.h)
 description: The ICM\_GETDEFAULTKEYFRAMERATE message queries a video compression driver for its default (or preferred) key-frame spacing. You can send this message explicitly or by using the ICGetDefaulteyFrameRate macro.
 ms.assetid: 2ebe37cc-3ec2-4b52-bd8f-71c44b704647
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

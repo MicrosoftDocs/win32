@@ -1,8 +1,8 @@
 ---
 Description: Retrieve font characteristics.
 ms.assetid: ef7e0d18-492b-476b-945a-bfc0232a939a
-title: ID3DX10Font::GetTextMetrics method
-ms.topic: article
+title: ID3DX10Font::GetTextMetrics method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,13 +40,13 @@ BOOL GetTextMetrics(
 
 Type: **TEXTMETRIC\***
 
-Pointer to a [TEXTMETRIC](https://msdn2.microsoft.com/en-us/library/ms534202.aspx) structure, which contains font properties. If Unicode is defined, the function returns a TEXTMETRICW structure. Otherwise, the function returns a TEXTMETRICA structure.
+Pointer to a [TEXTMETRIC](https://msdn2.microsoft.com/library/ms534202.aspx) structure, which contains font properties. If Unicode is defined, the function returns a TEXTMETRICW structure. Otherwise, the function returns a TEXTMETRICA structure.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Nonzero if the function is successful; otherwise 0.
 

@@ -2,7 +2,7 @@
 title: dlt (sm5 - asm)
 description: Component-wise double-precision less-than comparison.
 ms.assetid: A9DE5007-4ADD-403D-A2B7-EAE475E9DCCB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

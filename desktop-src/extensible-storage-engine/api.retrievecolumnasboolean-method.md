@@ -1,5 +1,5 @@
 ﻿---
-title: Api.RetrieveColumnAsBoolean method  (Microsoft.Isam.Esent.Interop)
+title: Api.RetrieveColumnAsBoolean method 
 TOCTitle: 'RetrieveColumnAsBoolean method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsBoolean
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasboolean(v=EXCHG.10)

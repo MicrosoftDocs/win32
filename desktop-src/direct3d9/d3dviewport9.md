@@ -1,8 +1,8 @@
 ---
 Description: Defines the window dimensions of a render-target surface onto which a 3D volume projects.
 ms.assetid: fb2c6048-f837-497d-8e4f-e18942d37899
-title: D3DVIEWPORT9 structure
-ms.topic: structure
+title: D3DVIEWPORT9 structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -42,7 +42,7 @@ typedef struct D3DVIEWPORT9 {
 **X**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -53,7 +53,7 @@ Pixel coordinate of the upper-left corner of the viewport on the render-target s
 **Y**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -64,7 +64,7 @@ Pixel coordinate of the upper-left corner of the viewport on the render-target s
 **Width**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -75,7 +75,7 @@ Width dimension of the clip volume, in pixels. Unless you are rendering only to 
 **Height**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

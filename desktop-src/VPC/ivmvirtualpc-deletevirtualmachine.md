@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC DeleteVirtualMachine method
+title: IVMVirtualPC DeleteVirtualMachine method (VPCCOMInterfaces.h)
 description: Deletes a virtual machine configuration.
 ms.assetid: fc2562f3-6a83-4a40-b800-0bc2692beae8
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

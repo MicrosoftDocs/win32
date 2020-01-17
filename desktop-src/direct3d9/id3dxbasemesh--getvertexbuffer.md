@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the vertex buffer associated with the mesh.
 ms.assetid: 5caa6ce1-feab-4919-944e-f92fad3ad443
-title: ID3DXBaseMesh::GetVertexBuffer method
-ms.topic: article
+title: ID3DXBaseMesh::GetVertexBuffer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**IDirect3DVertexBuffer9**](https://msdn.microsoft.c
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -1,5 +1,5 @@
 ---
-title: LVM_SETHOVERTIME message
+title: LVM_SETHOVERTIME message (Commctrl.h)
 description: Sets the amount of time which the mouse cursor must hover over an item before it is selected. You can send this message explicitly or use the ListView\_SetHoverTime macro.
 ms.assetid: 454fbc38-f7fd-4dea-b223-56003b88528f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

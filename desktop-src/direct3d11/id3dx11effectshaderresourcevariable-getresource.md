@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderResourceVariable GetResource method
+title: ID3DX11EffectShaderResourceVariable GetResource method (D3dx11effect.h)
 description: Get a shader resource.
 ms.assetid: 7c56aba0-ce60-4b50-9c1a-802bf1d73c6b
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ The address of a pointer to a shader-resource-view interface. See [**ID3D11Shade
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

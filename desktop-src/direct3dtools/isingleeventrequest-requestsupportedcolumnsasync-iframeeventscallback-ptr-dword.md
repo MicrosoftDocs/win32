@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: ISingleEventRequest::RequestSupportedColumnsAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 74AAA0C9-11CD-4C0C-9737-C8774D60B874
 api_name: 

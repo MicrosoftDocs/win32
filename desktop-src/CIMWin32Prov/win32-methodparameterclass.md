@@ -3,7 +3,7 @@ Description: The Win32\_MethodParameterClass abstract, base WMI class derives an
 ms.assetid: 293fa378-432d-4e97-a8ab-8dc4917d5476
 ms.tgt_platform: multiple
 title: Win32_MethodParameterClass class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Adjusts the saturation value of a color.
 ms.assetid: a7ca64b4-2198-4116-8e9f-79d6c922fd09
-title: D3DXColorAdjustSaturation function
-ms.topic: article
+title: D3DXColorAdjustSaturation function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ D3DXCOLOR* D3DXColorAdjustSaturation(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)\***
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXCOLOR**](d3d10-d3dxcolor.md) that is the result of the operation.
 
@@ -49,7 +49,7 @@ Pointer to a [**D3DXCOLOR**](d3d10-d3dxcolor.md) that is the result of the opera
 *pC* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)\***
+Type: **const [**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
 
 Pointer to a source D3DXCOLOR structure.
 
@@ -58,7 +58,7 @@ Pointer to a source D3DXCOLOR structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Saturation value. This parameter linearly interpolates between the color converted to grayscale and the original color, pC. There are no limits on the value of s. If s is 0, the returned color is the grayscale color. If s is 1, the returned color is the original color.
 
@@ -66,7 +66,7 @@ Saturation value. This parameter linearly interpolates between the color convert
 
 ## Return value
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/en-us/library/Bb172721(v=VS.85).aspx)\***
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)\***
 
 This function returns a pointer to a D3DXCOLOR structure that is the result of the saturation adjustment.
 

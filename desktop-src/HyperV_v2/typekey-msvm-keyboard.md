@@ -2,7 +2,7 @@
 Description: Simulates a press-release key sequence.
 ms.assetid: 4166BA71-315D-41BD-857C-48AFB702911E
 title: TypeKey method of the Msvm_Keyboard class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

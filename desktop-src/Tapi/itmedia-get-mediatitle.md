@@ -1,8 +1,8 @@
 ---
 Description: The get\_MediaTitle method retrieves a textual title for the media that the application can use for informational or display purposes. This must be an ASCII convertible string if the character set is ASCII. Otherwise, it can be any BSTR string.
 ms.assetid: c5567672-54f0-45d6-81d2-5a501a33c25f
-title: ITMedia::get_MediaTitle method
-ms.topic: article
+title: ITMedia::get_MediaTitle method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppMediaTitle* parameter.
+The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppMediaTitle* parameter.
 
 ## Requirements
 

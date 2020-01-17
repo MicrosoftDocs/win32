@@ -1,5 +1,5 @@
 ---
-title: IVMHardDiskConnectionCollection interface
+title: IVMHardDiskConnectionCollection interface (VPCCOMInterfaces.h)
 description: Defines the collection of hard disk connections within the virtual machine. To obtain an IVMHardDiskConnectionCollection object, use the IVMVirtualMachine HardDiskConnections property.
 ms.assetid: 3440318c-45f4-4d24-9609-dbe5ca59b005
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the collection of hard disk connections within the virtual machine. To o
 
 ## Members
 
-The **IVMHardDiskConnectionCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnectionCollection** also has these types of members:
+The **IVMHardDiskConnectionCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHardDiskConnectionCollection** also has these types of members:
 
 -   [Properties](#properties)
 

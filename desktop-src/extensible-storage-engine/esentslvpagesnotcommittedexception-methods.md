@@ -1,5 +1,5 @@
 ---
-title: EsentSLVPagesNotCommittedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVPagesNotCommittedException methods
 TOCTitle: EsentSLVPagesNotCommittedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvpagesnotcommittedexception_methods(v=EXCHG.10)

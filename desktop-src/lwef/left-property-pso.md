@@ -1,5 +1,5 @@
 ---
-title: Left Property
+title: Left Property (PropertySheet Object)
 description: Left Property
 ms.assetid: 81b90391-300f-4100-98fe-7657223e3bfd
 ms.topic: article

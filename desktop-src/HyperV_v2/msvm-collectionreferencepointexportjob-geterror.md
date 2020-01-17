@@ -2,7 +2,7 @@
 Description: Retrieves an error.
 ms.assetid: 7c47acae-d398-4698-81db-e3c8a812f339
 title: GetError method of the Msvm_CollectionReferencePointExportJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

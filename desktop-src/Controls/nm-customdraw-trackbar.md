@@ -1,5 +1,5 @@
 ---
-title: NM_CUSTOMDRAW (trackbar) notification code
+title: NM_CUSTOMDRAW (trackbar) notification code (Commctrl.h)
 description: Sent by a trackbar control to notify its parent windows about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: b31d774d-e418-4162-aa2a-40fa49452d58
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

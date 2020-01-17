@@ -2,9 +2,6 @@
 title: SSO EAPHost Scenario Overview
 description: Contains two scenarios that demonstrate the advantages of a Single-Sign-On (SSO) enabled supplicant.
 ms.assetid: 2a5cbcae-74fe-4241-9e20-ec1ec5d9ed8a
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

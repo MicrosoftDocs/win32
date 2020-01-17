@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Lists
 
-The list controls provide single-select or multiple-select states for complex audio lines. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/en-us/library/Dd757295(v=VS.85).aspx) structure to retrieve and set control properties. The [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/en-us/library/Dd757296(v=VS.85).aspx) structure is also used to retrieve all text descriptions of a multiple-item control. The following table describes the types of list controls.
+The list controls provide single-select or multiple-select states for complex audio lines. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/library/Dd757295(v=VS.85).aspx) structure to retrieve and set control properties. The [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/library/Dd757296(v=VS.85).aspx) structure is also used to retrieve all text descriptions of a multiple-item control. The following table describes the types of list controls.
 
 
 

@@ -1,11 +1,11 @@
 ---
-title: Transaction class (Microsoft.Isam.Esent.Interop)
+title: Transaction class
 TOCTitle: Transaction class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Transaction
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction(v=EXCHG.10)
 ms:contentKeyID: 55104068
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Transaction
 dev_langs:

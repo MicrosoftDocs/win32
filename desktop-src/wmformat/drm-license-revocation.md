@@ -1,6 +1,6 @@
 ---
-title: License Revocation
-description: License Revocation
+title: License Revocation (Microsoft Windows Media DRM Client)
+description: License Revocation (Microsoft Windows Media DRM Client)
 ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
 keywords:
 - Windows Media Format SDK,licenses

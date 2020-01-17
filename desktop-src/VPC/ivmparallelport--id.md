@@ -1,5 +1,5 @@
 ---
-title: IVMParallelPort _ID method
+title: IVMParallelPort _ID method (VPCCOMInterfaces.h)
 description: Retrieves the internal identifier of the parallel port.
 ms.assetid: a0de74da-0e23-489e-8a89-8deba974e548
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
 ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
-title: D3DXGetPixelShaderProfile function
-ms.topic: article
+title: D3DXGetPixelShaderProfile function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the device. See [**IDirect3DDevice9**](https://msdn.microsoft.com/lib
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The HLSL profile name.
 
@@ -121,7 +121,7 @@ A shader profile specifies the assembly shader version to use and the capabiliti
 
  
 
-For more information about the differences between shader versions, see [Pixel Shader Differences](https://msdn.microsoft.com/en-us/library/Bb219846(v=VS.85).aspx).
+For more information about the differences between shader versions, see [Pixel Shader Differences](https://msdn.microsoft.com/library/Bb219846(v=VS.85).aspx).
 
 ## Requirements
 

@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: MBNProfileExt
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -91,7 +91,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-autoconnectoninternet">AutoConnectOnInternet</a></td>
-<td><p>Specifies whether the Mobile Broadband device will automatically connnect to a network.</p>
+<td><p>Specifies whether the Mobile Broadband device will automatically connect to a network.</p>
 <p>For more information, see the documentation for the v1 <a href="../mbn/schema_autoconnectoninternet_mbnprofile_element"><strong>AutoConnectOnInternet</strong></a> element.</p></td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-title: WMDRM_ANALOG_VIDEO_RESTRICTIONS structure
+title: WMDRM_ANALOG_VIDEO_RESTRICTIONS structure (Wmdrmsdk.h)
 description: The WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS structure holds information about a restriction for playing back content as analog video.
 ms.assetid: 13b38115-bd18-45b9-a1d5-542e043a4bde
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

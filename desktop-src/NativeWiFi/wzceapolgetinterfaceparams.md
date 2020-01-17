@@ -1,8 +1,8 @@
 ---
 Description: Gets EAPOL configuration parameters for the specified wireless LAN interface.
 ms.assetid: 3dce15be-879d-42e9-b8eb-96d52c004acb
-title: WZCEapolGetInterfaceParams function
-ms.topic: article
+title: WZCEapolGetInterfaceParams function (Wzcsapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -83,7 +83,7 @@ Returns ERROR\_SUCCESS if the operation completes successfully; otherwise, retur
 
 ## Remarks
 
-If the **WZCEapolGetInterfaceParams** returns ERROR\_SUCCESS, the caller should call [**LocalFree**](https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx) to release the internal buffers allocated for the data returned once this information is no longer needed.
+If the **WZCEapolGetInterfaceParams** returns ERROR\_SUCCESS, the caller should call [**LocalFree**](https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx) to release the internal buffers allocated for the data returned once this information is no longer needed.
 
 > [!Note]  
 > The *Wzcsapi.h* header file and *Wzcsapi.lib* import library file are not available in the Windows SDK.

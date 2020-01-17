@@ -1,5 +1,5 @@
 ---
-title: UI_COLLECTION_INVALIDINDEX
+title: UI_COLLECTION_INVALIDINDEX (Uiribbon.h)
 description: Specifies a constant that identifies an invalid index in a collection.
 ms.assetid: 'vs|scenicintent|~\scenicintent\reference\enums\ui_collection_invalidindex.htm'
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - Uiribbon.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

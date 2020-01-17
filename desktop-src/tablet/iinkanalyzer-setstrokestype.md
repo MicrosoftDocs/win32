@@ -1,8 +1,8 @@
 ---
 Description: Changes the type of the specified strokes.
 ms.assetid: 8d954a7d-c987-41cf-9933-b2e6bacc9489
-title: IInkAnalyzer::SetStrokesType method
-ms.topic: article
+title: IInkAnalyzer::SetStrokesType method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

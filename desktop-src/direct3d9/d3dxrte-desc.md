@@ -1,8 +1,8 @@
 ---
 Description: Describes an off-screen render target used by an instance of ID3DXRenderToEnvMap.
 ms.assetid: 805df4da-e882-4d54-bf2c-49cfcbc59ac6
-title: D3DXRTE_DESC structure
-ms.topic: structure
+title: D3DXRTE_DESC structure (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ typedef struct D3DXRTE_DESC {
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Width and height in pixels.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Color buffer format.
 **DepthStencil**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -1,5 +1,5 @@
 ---
-title: Session.BatchItems property
+title: Session.BatchItems property (WSManDisp.h)
 description: Sets and gets the number of items in each enumeration batch.
 ms.assetid: 1675ba12-a0c7-4e59-a013-2109780e8afe
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

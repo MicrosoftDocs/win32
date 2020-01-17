@@ -1,8 +1,8 @@
 ---
 Description: Deletes an IContextLink object from the IContextNode object's link collection.
 ms.assetid: c4a69a74-30d6-4099-a02a-13c8a2e52bc7
-title: IContextNode::DeleteContextLink method
-ms.topic: article
+title: IContextNode::DeleteContextLink method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

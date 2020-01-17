@@ -1,6 +1,6 @@
 ---
-title: Playlist Attributes
-description: Playlist Attributes
+title: Playlist Attributes Reference
+description: Playlist Attributes Reference
 ms.assetid: d163b6fd-a64f-4160-95cb-6ac1153f011b
 keywords:
 - Windows Media Player,playlist attributes

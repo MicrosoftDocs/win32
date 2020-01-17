@@ -1,8 +1,8 @@
 ---
 Description: Gets a vertex shader.
 ms.assetid: ab58b465-7b10-46eb-88c0-c5229cb09481
-title: ID3DXBaseEffect::GetVertexShader method
-ms.topic: article
+title: ID3DXBaseEffect::GetVertexShader method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Returns a vertex shader object. See [**IDirect3DVertexShader9**](https://msdn.mi
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

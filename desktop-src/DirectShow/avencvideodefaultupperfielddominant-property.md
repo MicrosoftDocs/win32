@@ -1,8 +1,8 @@
 ---
 Description: Specifies which field is displayed first.
 ms.assetid: c3ee4c1d-3d15-44a4-8e7e-acd5f9a51dfe
-title: AVEncVideoDefaultUpperFieldDominant property
-ms.topic: article
+title: AVEncVideoDefaultUpperFieldDominant property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

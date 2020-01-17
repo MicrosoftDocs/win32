@@ -1,8 +1,8 @@
 ---
 Description: Retrieves an array of character ranges representing the supported Unicode character ranges.
 ms.assetid: 334cf545-832a-4e8a-8fe6-76a173676be7
-title: IInkAnalysisRecognizer::GetUnicodeRanges method
-ms.topic: article
+title: IInkAnalysisRecognizer::GetUnicodeRanges method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,7 +1,7 @@
 ---
 Description: Changes which monitor is used for docked toolbars on a multiple monitor system.
 title: IMultiMonitorDockingSite::SetMonitor method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ HRESULT SetMonitor(
 *punkSrc* \[in\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
 
 A pointer to the object implementing the [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface for which the monitor is being altered.
 

@@ -1,5 +1,5 @@
 ---
-title: Seeking in ASF Files
+title: Seeking in ASF Files (Windows Media Format 11 SDK)
 description: Seeking in ASF Files
 ms.assetid: a1717cb4-9f41-4148-b088-a6517be7da9b
 keywords:

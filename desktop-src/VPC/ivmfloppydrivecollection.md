@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDriveCollection interface
+title: IVMFloppyDriveCollection interface (VPCCOMInterfaces.h)
 description: Defines a collection of floppy drives within the virtual machine.
 ms.assetid: ba05fa84-81c3-4e70-98f5-404a9bc517ad
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines a collection of floppy drives within the virtual machine. To obtain an *
 
 ## Members
 
-The **IVMFloppyDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDriveCollection** also has these types of members:
+The **IVMFloppyDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDriveCollection** also has these types of members:
 
 -   [Properties](#properties)
 

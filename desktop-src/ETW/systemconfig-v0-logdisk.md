@@ -2,7 +2,7 @@
 Description: This class is the event type class for logical disk configuration events.
 ms.assetid: 3fa5f2e4-f6fa-4c10-9634-04908783cd28
 title: SystemConfig_V0_LogDisk class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

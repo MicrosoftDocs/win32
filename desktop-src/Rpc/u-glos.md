@@ -1,7 +1,7 @@
 ---
-title: U
+title: U (RPC)
 description: Words starting with U in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b74acb87-030a-4263-9399-5fab6f239d02
 ms.topic: article
 ms.date: 05/31/2018

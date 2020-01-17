@@ -1,8 +1,8 @@
 ---
 Description: Uploads a printer driver to the print servers driver store so that it can be installed by calling InstallPrinterDriverFromPackage.
 ms.assetid: dd3b3a3b-8ded-44ae-85dd-e630bc62e898
-title: UploadPrinterDriverPackage function
-ms.topic: article
+title: UploadPrinterDriverPackage function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -107,7 +107,7 @@ On input, specifies the size, in characters, of the *pszDestInfPath* buffer. On 
 
 If the operation succeeds, the return value is S_OK, otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Remarks
 

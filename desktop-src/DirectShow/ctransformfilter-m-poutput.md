@@ -1,8 +1,8 @@
 ---
 Description: Pointer to the output pin.
 ms.assetid: 78ad7c38-8259-4005-9542-5ac375305940
-title: CTransformFilter::m_pOutput member
-ms.topic: article
+title: CTransformFilter::m_pOutput member (Transfrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

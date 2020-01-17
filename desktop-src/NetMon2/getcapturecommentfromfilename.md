@@ -1,8 +1,8 @@
 ---
 Description: The GetCaptureCommentFromFilename function extracts the capture comment from a capture file.
 ms.assetid: d3665cb0-d54d-45f7-aef9-c2e603d6f773
-title: GetCaptureCommentFromFilename function
-ms.topic: article
+title: GetCaptureCommentFromFilename function (Netmon.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

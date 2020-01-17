@@ -2,7 +2,7 @@
 Description: The value of the REINSTALL property is a list of features delimited by commas that are to be reinstalled. The features listed must be present in the Feature column of the Feature table. To reinstall all features use REINSTALL=ALL on the command line.
 ms.assetid: 14346fef-7923-4f30-bca8-96a29c0f820d
 title: REINSTALL property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

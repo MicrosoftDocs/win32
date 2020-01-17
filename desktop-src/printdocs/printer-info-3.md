@@ -1,8 +1,8 @@
 ---
 Description: The PRINTER\_INFO\_3 structure specifies printer security information.
 ms.assetid: 527d635d-2d75-4b56-bab7-e95c9919a8fb
-title: PRINTER_INFO_3 structure
-ms.topic: structure
+title: PRINTER_INFO_3 structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

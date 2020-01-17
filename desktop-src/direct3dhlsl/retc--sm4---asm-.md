@@ -2,7 +2,7 @@
 title: retc (sm4 - asm)
 description: Conditional return.
 ms.assetid: D936099D-4A75-4AE2-9FE3-70ED213DF4D9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

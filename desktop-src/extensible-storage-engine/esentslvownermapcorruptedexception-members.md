@@ -1,5 +1,5 @@
 ---
-title: EsentSLVOwnerMapCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapCorruptedException members
 TOCTitle: EsentSLVOwnerMapCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermapcorruptedexception_members(v=EXCHG.10)

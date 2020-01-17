@@ -1,5 +1,5 @@
 ---
-title: INapServerCallback interface
+title: INapServerCallback interface (NapSystemHealthValidator.h)
 description: SHVs use to signal asynchronous request completion.
 ms.assetid: 0138767a-9553-4de0-87da-97dd92906406
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

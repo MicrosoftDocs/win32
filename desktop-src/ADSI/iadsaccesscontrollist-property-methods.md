@@ -1,5 +1,5 @@
 ---
-title: IADsAccessControlList Property Methods
+title: IADsAccessControlList Property Methods (Iads.h)
 description: The property methods of the IADsAccessControlList interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: cb68bb61-4216-4f69-bea1-ab7f98937a27
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -213,7 +213,7 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)
 </dt> <dt>
 
-[**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx)
+[**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx)
 </dt> <dt>
 
 [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry)

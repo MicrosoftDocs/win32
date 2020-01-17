@@ -1,8 +1,8 @@
 ---
 Description: Sets virtualization flags on the specified open registry key in an offline registry hive.
 ms.assetid: c625af35-8e14-4379-8d0a-6f5b65a1aebb
-title: ORSetVirtualFlags function
-ms.topic: article
+title: ORSetVirtualFlags function (Offreg.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

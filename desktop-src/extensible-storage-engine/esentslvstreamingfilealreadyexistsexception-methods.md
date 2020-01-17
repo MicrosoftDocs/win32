@@ -1,5 +1,5 @@
 ---
-title: EsentSLVStreamingFileAlreadyExistsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileAlreadyExistsException methods
 TOCTitle: EsentSLVStreamingFileAlreadyExistsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlreadyExistsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilealreadyexistsexception_methods(v=EXCHG.10)

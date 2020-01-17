@@ -1,8 +1,8 @@
 ---
 Description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh.
 ms.assetid: e506aed3-bf14-4f29-845b-2091f5b00950
-title: ID3DXPRTEngine::ClosestRayIntersects method
-ms.topic: article
+title: ID3DXPRTEngine::ClosestRayIntersects method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -61,7 +61,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the normali
 *pFaceIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the index of the current mesh face that is first hit by the given ray, based upon stacking all blocker mesh faces in front of the current mesh.
 
@@ -70,7 +70,7 @@ Pointer to the index of the current mesh face that is first hit by the given ray
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a barycentric hit coordinate, U, for vertex 0 of the triangle.
 
@@ -79,7 +79,7 @@ Pointer to a barycentric hit coordinate, U, for vertex 0 of the triangle.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a barycentric hit coordinate, V, for vertex 1 of the triangle.
 
@@ -88,7 +88,7 @@ Pointer to a barycentric hit coordinate, V, for vertex 1 of the triangle.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the distance of the intersection point along the ray.
 
@@ -96,7 +96,7 @@ Pointer to the distance of the intersection point along the ray.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the current mesh; otherwise, returns **FALSE**.
 

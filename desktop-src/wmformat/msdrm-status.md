@@ -1,5 +1,5 @@
 ---
-title: MSDRM_STATUS enumeration
+title: MSDRM_STATUS enumeration (Wmdrmsdk.h)
 description: The MSDRM\_STATUS enumeration type defines status conditions for the DRM subsystem.
 ms.assetid: b26600ea-2603-4fca-9408-2d5c88091dcc
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

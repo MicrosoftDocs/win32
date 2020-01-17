@@ -1,8 +1,8 @@
 ---
 Description: Wait for all work items in the thread pump to finish.
 ms.assetid: d81c57d6-475c-444b-82c0-87b29ce0cbb4
-title: ID3DX10ThreadPump::WaitForAllItems method
-ms.topic: article
+title: ID3DX10ThreadPump::WaitForAllItems method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

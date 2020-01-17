@@ -1,11 +1,11 @@
 ---
-title: EsentRecoveryVerifyFailureException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveryVerifyFailureException constructor 
 TOCTitle: 'EsentRecoveryVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveryverifyfailureexception.esentrecoveryverifyfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55102577
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException.EsentRecoveryVerifyFailureException
 dev_langs:

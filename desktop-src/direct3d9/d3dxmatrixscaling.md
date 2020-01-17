@@ -1,8 +1,8 @@
 ---
 Description: Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
 ms.assetid: f51baa4e-0aec-4de8-b746-24cb52f318d6
-title: D3DXMatrixScaling function
-ms.topic: article
+title: D3DXMatrixScaling function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -50,7 +50,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *sx* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor that is applied along the x-axis.
 
@@ -59,7 +59,7 @@ Scaling factor that is applied along the x-axis.
 *sy* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor that is applied along the y-axis.
 
@@ -68,7 +68,7 @@ Scaling factor that is applied along the y-axis.
 *sz* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor that is applied along the z-axis.
 

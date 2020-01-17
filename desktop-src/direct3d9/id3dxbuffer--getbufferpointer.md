@@ -1,8 +1,8 @@
 ---
 Description: Retrieves a pointer to the data in the buffer.
 ms.assetid: f38dd003-b476-4937-b5d1-cefe7789bb2b
-title: ID3DXBuffer::GetBufferPointer method
-ms.topic: article
+title: ID3DXBuffer::GetBufferPointer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns a pointer to the data in the buffer.
 

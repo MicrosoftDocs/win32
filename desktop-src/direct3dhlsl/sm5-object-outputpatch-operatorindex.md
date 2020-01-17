@@ -1,5 +1,5 @@
 ---
-title: Operator  function
+title: OutputPatch::Operator  function
 description: Returns the nth control point in the patch.
 ms.assetid: 3ac15fe8-8bab-46a2-8826-61ade927c99e
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Operator
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

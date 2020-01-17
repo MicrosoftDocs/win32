@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: RWByteAddressBuffer::GetDimensions function
 description: Gets the length of the buffer.
 ms.assetid: 7d78aa0d-75b8-43d5-85d9-0a6fb04ae64f
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

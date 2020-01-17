@@ -1,8 +1,8 @@
 ---
 Description: Gets a pointer to the buffer that contains the constant table.
 ms.assetid: 71dda064-15f8-415c-aba7-60255886c6b4
-title: ID3DXConstantTable::GetBufferPointer method
-ms.topic: article
+title: ID3DXConstantTable::GetBufferPointer method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns a pointer the buffer.
 

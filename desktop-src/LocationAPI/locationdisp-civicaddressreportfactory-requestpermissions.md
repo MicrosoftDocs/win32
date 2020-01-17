@@ -2,7 +2,7 @@
 Description: Opens a system dialog box to request user permission for location-enabled devices.
 ms.assetid: b213591a-2830-4979-b532-e71cdef1b994
 title: LocationDisp.CivicAddressReportFactory.RequestPermissions method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -51,7 +51,7 @@ This method does not return a value.
 The call is synchronous and the caller waits for the dialog box to be closed.
 
 > [!Note]  
-> If an application running in protected mode, such as a Browser Helper Object (BHO) for Internet Explorer, calls **RequestPermissions**, and the user chooses the **Don't enable this location sensor** option in the dialog box, the location provider will not be enabled, but Windows will display the dialog box again if **RequestPermissions** is called again by the same user. Applications that run in protected mode may choose to not call [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd317635(v=VS.85).aspx) on startup so that the user does not see a possibly unwanted dialog box each time the application starts.
+> If an application running in protected mode, such as a Browser Helper Object (BHO) for Internet Explorer, calls **RequestPermissions**, and the user chooses the **Don't enable this location sensor** option in the dialog box, the location provider will not be enabled, but Windows will display the dialog box again if **RequestPermissions** is called again by the same user. Applications that run in protected mode may choose to not call [**RequestPermissions**](https://msdn.microsoft.com/library/Dd317635(v=VS.85).aspx) on startup so that the user does not see a possibly unwanted dialog box each time the application starts.
 
  
 

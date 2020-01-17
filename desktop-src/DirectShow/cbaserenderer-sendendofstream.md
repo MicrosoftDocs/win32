@@ -1,8 +1,8 @@
 ---
 Description: If end-of-stream was reached, the SendEndOfStream method schedules an EC\_COMPLETE event for the filter graph manager.
 ms.assetid: 3c10c956-e352-4796-a8cd-cc69a02066f2
-title: CBaseRenderer.SendEndOfStream method
-ms.topic: article
+title: CBaseRenderer.SendEndOfStream method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

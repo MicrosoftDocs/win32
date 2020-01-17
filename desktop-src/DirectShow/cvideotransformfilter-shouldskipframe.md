@@ -1,8 +1,8 @@
 ---
 Description: The ShouldSkipFrame method determines whether the filter should drop a specified sample.
 ms.assetid: 49f86f7d-28b1-443e-a238-692da96d60fb
-title: CVideoTransformFilter.ShouldSkipFrame method
-ms.topic: article
+title: CVideoTransformFilter.ShouldSkipFrame method (Vtrans.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

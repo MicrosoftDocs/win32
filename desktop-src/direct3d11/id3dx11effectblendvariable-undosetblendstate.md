@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectBlendVariable UndoSetBlendState method
+title: ID3DX11EffectBlendVariable UndoSetBlendState method (D3dx11effect.h)
 description: Reverts a previously set blend-state.
 ms.assetid: 375c225b-558f-4ad0-81e7-62eff3e28cf1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ Index into an array of blend-state interfaces. If there is only one blend-state 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

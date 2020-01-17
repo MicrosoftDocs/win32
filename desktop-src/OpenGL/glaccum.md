@@ -1,5 +1,5 @@
 ---
-title: glAccum function
+title: glAccum function (Gl.h)
 description: The glAccum function operates on the accumulation buffer.
 ms.assetid: 3ddd69fe-74fc-4ac0-be8d-bcaa71ac0292
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

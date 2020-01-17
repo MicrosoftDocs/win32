@@ -1,5 +1,5 @@
 ---
-title: CQPM_PERSIST message
+title: CQPM_PERSIST message (Cmnquery.h)
 description: Sent to the CQPageProc callback function of a query form extension page to allow the page to read or write query data from persistent memory.
 ms.assetid: f01586dd-4ed3-45af-9e25-a596a693313d
 ms.tgt_platform: multiple
@@ -13,7 +13,7 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ Contains nonzero to read the query data or zero to write the query data.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**IPersistQuery**](https://msdn.microsoft.com/en-us/library/ms677246(v=VS.85).aspx) interface that the query data should be read from or written to.
+Pointer to an [**IPersistQuery**](https://msdn.microsoft.com/library/ms677246(v=VS.85).aspx) interface that the query data should be read from or written to.
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 [**CQPageProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc)
 </dt> <dt>
 
-[**IPersistQuery**](https://msdn.microsoft.com/en-us/library/ms677246(v=VS.85).aspx)
+[**IPersistQuery**](https://msdn.microsoft.com/library/ms677246(v=VS.85).aspx)
 </dt> </dl>
 
  

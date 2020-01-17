@@ -14,22 +14,9 @@ This sample application shows how to use mouse input to draw a circle.
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=201699]( https://go.microsoft.com/fwlink/p/?linkid=201699).
+This sample is available [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/Direct2DCircle).
 
 ## Related topics
 
-<dl> <dt>
-
-[Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
-</dt> <dt>
-
-[Module 4. User Input](module-4--user-input.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
+* [Module 4. User Input](module-4--user-input.md)

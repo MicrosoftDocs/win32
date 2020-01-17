@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfLongValueIDsException methods (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfLongValueIDsException methods
 TOCTitle: EsentOutOfLongValueIDsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutoflongvalueidsexception_methods(v=EXCHG.10)

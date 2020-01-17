@@ -1,8 +1,8 @@
 ---
 Description: Specifies the type of unit contained in an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.
 ms.assetid: B74890ED-9586-475B-8C77-457ECB893980
-title: MF_CUSTOM_DECODE_UNIT_TYPE enumeration
-ms.topic: enumeration
+title: MF_CUSTOM_DECODE_UNIT_TYPE enumeration (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

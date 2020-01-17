@@ -2,7 +2,7 @@
 Description: The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.
 ms.assetid: 783a3618-981a-4573-9e9e-ebf5eeb75d06
 title: H.264 Video Decoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ The Media Foundation H.264 video decoder is a [Media Foundation Transform](media
 
 The H.264 video decoder exposes the following interfaces.
 
--   [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) (supported in Windows 8)
+-   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) (supported in Windows 8)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
 -   [**IMFQualityAdvise2**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2)
@@ -24,7 +24,7 @@ The H.264 video decoder exposes the following interfaces.
 To create an instance of the decoder, do one of the following:
 
 -   Call the [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) or [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) function.
--   Call [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
+-   Call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
 
 ## Input Types
 
@@ -109,8 +109,8 @@ The H.264 decoder implements the [**IMFTransform::GetAttributes**](/windows/desk
 
 | Attribute                                                                                       | Description                                                                                |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/en-us/library/Dd742712(v=VS.85).aspx)            | Enables or disables hardware acceleration.                                                 |
-| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx) | Enables or disables thumbnail generation mode.                                             |
+| [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/library/Dd742712(v=VS.85).aspx)            | Enables or disables hardware acceleration.                                                 |
+| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx) | Enables or disables thumbnail generation mode.                                             |
 | [MF\_SA\_D3D\_AWARE](mf-sa-d3d-aware-attribute.md)                                             | Indicates that the decoder supports DirectX Video Acceleration (DXVA). Treat as read-only. |
 
 
@@ -134,13 +134,13 @@ In Windows 8, the H.264 decoder also supports the following attributes.
 
  
 
-In Windows 8, the H.264 decoder supports the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface. This interface provides an alternativate API for setting the following codec properties.
+In Windows 8, the H.264 decoder supports the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface. This interface provides an alternativate API for setting the following codec properties.
 
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
--   [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/en-us/library/Dd742712(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoAcceleration\_H264](https://msdn.microsoft.com/library/Dd742712(v=VS.85).aspx)
 -   [CODECAPI\_AVDecVideoMaxCodedHeight](codecapi-avdecvideomaxcodedheight.md)
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
--   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/en-us/library/Dd742718(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx)
 
 ## Format Constraints
 

@@ -1,8 +1,8 @@
 ---
 Description: The IH323LineEx interface is implemented by the H323 MSP and is available only on H.323 address objects. This interface exposes methods that enable creation and manipulation of terminals that can communicate between H323 and SDP clients.
 ms.assetid: 2ab57343-8cf5-4af2-91f7-46926cfce6dd
-title: IH323LineEx interface
-ms.topic: interface
+title: IH323LineEx interface (H323priv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

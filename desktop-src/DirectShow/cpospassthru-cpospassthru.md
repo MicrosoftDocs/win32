@@ -2,7 +2,7 @@
 Description: Constructor method.
 ms.assetid: b258401c-158b-4eb8-8736-1e1ad9a8403a
 title: CPosPassThru.CPosPassThru constructor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

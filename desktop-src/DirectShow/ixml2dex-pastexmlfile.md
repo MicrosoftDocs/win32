@@ -2,7 +2,7 @@
 Description: Not implemented.
 ms.assetid: 25300ba5-3578-4eb3-99e2-d547dbb2b9ee
 title: IXml2Dex::PasteXMLFile method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

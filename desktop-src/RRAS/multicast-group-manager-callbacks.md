@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The multicast group manager uses the following callbacks to notify clients (typically, routing protocols) of events and state changes:
 
-[**PMGM\_CREATION\_ALERT\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Aa376677(v=VS.85).aspx)
+[**PMGM\_CREATION\_ALERT\_CALLBACK**](https://msdn.microsoft.com/library/Aa376677(v=VS.85).aspx)
 
 [**PMGM\_JOIN\_ALERT\_CALLBACK**](/windows/desktop/api/Mgm/nc-mgm-pmgm_join_alert_callback)
 
@@ -26,7 +26,7 @@ The multicast group manager uses the following callbacks to notify clients (typi
 
 The multicast group manager uses the following callbacks to notify IGMP of events and state changes:
 
-[**PMGM\_DISABLE\_IGMP\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Aa376678(v=VS.85).aspx)
+[**PMGM\_DISABLE\_IGMP\_CALLBACK**](https://msdn.microsoft.com/library/Aa376678(v=VS.85).aspx)
 
 [**PMGM\_ENABLE\_IGMP\_CALLBACK**](/windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback)
 

@@ -10,7 +10,7 @@
       href: using-ndf-functionality.md
     - name: "Designing NDF Helper Class Extensions"
       href: designing-ndf-helper-class-extensions.md
-    - name: "User Interface Guidelines for NDF Helper Class Extensions"
+    - name: "UI guidelines for NDF helper class extensions"
       href: user-interface-guidelines-for-ndf-helper-class-extensions.md
     - name: "Registering NDF Helper Class Extensions"
       href: registering-ndf-helper-class-extensions.md
@@ -30,19 +30,19 @@
       href: ndf-enumerated-types.md
       items: 
       - name: "ATTRIBUTE_TYPE"
-        href: /windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type
+        href: /windows/win32/api/ndattrib/ne-ndattrib-attribute_type
       - name: "DIAGNOSIS_STATUS"
-        href: /windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status
+        href: /windows/win32/api/ndhelper/ne-ndhelper-diagnosis_status
       - name: "PROBLEM_TYPE"
-        href: /windows/desktop/api/ndhelper/ne-ndhelper-tagproblem_type
+        href: /windows/win32/api/ndhelper/ne-ndhelper-problem_type
       - name: "REPAIR_RISK"
-        href: /windows/desktop/api/Ndattrib/ne-ndattrib-__midl___midl_itf_ndattrib_0000_0000_0002
+        href: /windows/win32/api/Ndattrib/ne-ndattrib-repair_risk
       - name: "REPAIR_STATUS"
-        href: /windows/desktop/api/ndhelper/ne-ndhelper-tagrepair_status
+        href: /windows/win32/api/ndhelper/ne-ndhelper-repair_status
       - name: "REPAIR_SCOPE"
-        href: /windows/desktop/api/Ndattrib/ne-ndattrib-tagrepair_scope
+        href: /windows/win32/api/Ndattrib/ne-ndattrib-repair_scope
       - name: "UI_INFO_TYPE"
-        href: /windows/desktop/api/Ndattrib/ne-ndattrib-__midl___midl_itf_ndattrib_0000_0000_0003
+        href: /windows/win32/api/Ndattrib/ne-ndattrib-ui_info_type
     - name: "NDF Functions"
       href: ndf-functions.md
       items: 
@@ -167,31 +167,31 @@
       href: ndf-structures.md
       items: 
       - name: "DIAG_SOCKADDR"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-tagsock_addr
+        href: /windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr
       - name: "DiagnosticsInfo"
-        href: /windows/desktop/api/ndhelper/ns-ndhelper-tagdiagnosticsinfo
+        href: /windows/win32/api/ndhelper/ns-ndhelper-diagnosticsinfo
       - name: "HELPER_ATTRIBUTE"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute
+        href: /windows/win32/api/ndattrib/ns-ndattrib-helper_attribute
       - name: "HelperAttributeInfo"
-        href: /windows/desktop/api/ndhelper/ns-ndhelper-taghelperattributeinfo
+        href: /windows/win32/api/ndhelper/ns-ndhelper-helperattributeinfo
       - name: "HYPOTHESIS"
-        href: /windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis
+        href: /windows/win32/api/ndhelper/ns-ndhelper-hypothesis
       - name: "HypothesisResult"
-        href: /windows/desktop/api/ndhelper/ns-ndhelper-taghypothesisresult
+        href: /windows/win32/api/ndhelper/ns-ndhelper-hypothesisresult
       - name: "LIFE_TIME"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-taglife_time
+        href: /windows/win32/api/ndattrib/ns-ndattrib-life_time
       - name: "OCTET_STRING"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-tagoctet_string
+        href: /windows/win32/api/ndattrib/ns-ndattrib-octet_string
       - name: "RepairInfo"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo
+        href: /windows/win32/api/ndattrib/ns-ndattrib-repairinfo
       - name: "RepairInfoEx"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex
+        href: /windows/win32/api/ndattrib/ns-ndattrib-repairinfoex
       - name: "RootCauseInfo"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo
+        href: /windows/win32/api/ndattrib/ns-ndattrib-rootcauseinfo
       - name: "ShellCommandInfo"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-tagshellcommandinfo
+        href: /windows/win32/api/ndattrib/ns-ndattrib-shellcommandinfo
       - name: "UiInfo"
-        href: /windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo
+        href: /windows/win32/api/ndattrib/ns-ndattrib-uiinfo
     - name: "Extensible Helper Classes"
       href: extensible-helper-classes.md
       items: 

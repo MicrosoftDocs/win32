@@ -2,10 +2,10 @@
 title: cmp - ps
 description: Choose src1 if src0 0. Otherwise, choose src2. The comparison is done per channel.
 ms.assetid: 8fabd548-3f5e-4b78-bf1e-16e4f1548ccd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

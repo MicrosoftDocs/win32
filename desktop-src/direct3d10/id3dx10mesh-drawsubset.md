@@ -1,8 +1,8 @@
 ---
 Description: Draws a subset of a mesh.
 ms.assetid: e785949e-fcda-4ef9-b50a-193cd954e97d
-title: ID3DX10Mesh::DrawSubset method
-ms.topic: article
+title: ID3DX10Mesh::DrawSubset method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT DrawSubset(
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Specifies which subset of the mesh to draw. This value is used to differentiate faces in a mesh as belonging to one or more attribute groups.
 
@@ -46,7 +46,7 @@ Specifies which subset of the mesh to draw. This value is used to differentiate 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

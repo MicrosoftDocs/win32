@@ -1,5 +1,5 @@
 ---
-title: CBEN_BEGINEDIT notification code
+title: CBEN_BEGINEDIT notification code (Commctrl.h)
 description: Sent when the user activates the drop-down list or clicks in the control's edit box. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 77236471-b1c0-4679-b7b8-93e85867fe3b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

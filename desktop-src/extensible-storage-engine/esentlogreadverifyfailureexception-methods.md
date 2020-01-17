@@ -1,5 +1,5 @@
 ---
-title: EsentLogReadVerifyFailureException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogReadVerifyFailureException methods
 TOCTitle: EsentLogReadVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogreadverifyfailureexception_methods(v=EXCHG.10)

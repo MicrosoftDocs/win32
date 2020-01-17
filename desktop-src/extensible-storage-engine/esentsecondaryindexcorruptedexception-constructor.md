@@ -1,11 +1,11 @@
 ---
-title: EsentSecondaryIndexCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentSecondaryIndexCorruptedException constructor 
 TOCTitle: 'EsentSecondaryIndexCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsecondaryindexcorruptedexception.esentsecondaryindexcorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55102678
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException.EsentSecondaryIndexCorruptedException
 dev_langs:

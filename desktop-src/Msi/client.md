@@ -2,7 +2,7 @@
 Description: The Client object represents a relationship between a component and client product.
 ms.assetid: ac1fbd74-fbc4-4f76-8e14-af48443a8528
 title: Client object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

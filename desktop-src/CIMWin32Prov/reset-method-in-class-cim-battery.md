@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_Battery class requests a reset of the 
 ms.assetid: 0c51bc15-e2d3-40ff-a6c4-d096ccc3978a
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Battery class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The CUnknown class implements the IUnknown interface. Most Component Object Model (COM) objects in DirectShow derive from CUnknown.
 ms.assetid: 9711d36b-6987-4fb0-a8df-eba94348dc7b
-title: CUnknown class
-ms.topic: interface
+title: CUnknown class (Combase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

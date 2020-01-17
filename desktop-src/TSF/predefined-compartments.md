@@ -1,5 +1,5 @@
 ---
-title: Predefined Compartments
+title: Predefined Compartments (Ctffunc.h)
 description: The following values identify compartments implemented by Text Services Framework.
 ms.assetid: 65177979-ff91-4f62-8ba5-3c426b221b6c
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Mstctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

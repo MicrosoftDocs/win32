@@ -1,5 +1,5 @@
 ---
-title: LVM_GETCALLBACKMASK message
+title: LVM_GETCALLBACKMASK message (Commctrl.h)
 description: Gets the callback mask for a list-view control. You can send this message explicitly or by using the ListView\_GetCallbackMask macro.
 ms.assetid: fb05593d-14b9-4e53-acb3-d5ac61e517ec
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

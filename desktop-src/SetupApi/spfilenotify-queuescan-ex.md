@@ -1,8 +1,8 @@
 ---
 Description: The SPFILENOTIFY\_QUEUESCAN\_EX notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
 ms.assetid: 293e63f9-9567-4ea7-b7e5-e5046c8a704b
-title: SPFILENOTIFY_QUEUESCAN_EX message
-ms.topic: article
+title: SPFILENOTIFY_QUEUESCAN_EX message (Setupapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

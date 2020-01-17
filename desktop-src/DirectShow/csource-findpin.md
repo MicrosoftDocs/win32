@@ -1,8 +1,8 @@
 ---
 Description: The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.
 ms.assetid: ad593dbf-ca56-4409-ac6e-1b88908c8cee
-title: CSource.FindPin method
-ms.topic: article
+title: CSource.FindPin method (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

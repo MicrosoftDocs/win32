@@ -1,5 +1,5 @@
 ---
-title: Predefined List Attributes
+title: Predefined List Attributes (TsAttrid.h)
 description: The following values identify list attributes obtained with the ITfContext GetAppProperty method. The data format and contents of each property type are included.
 ms.assetid: 9a9e1912-51c0-40e0-9e3a-b84ea7077dbe
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - TsAttrid.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

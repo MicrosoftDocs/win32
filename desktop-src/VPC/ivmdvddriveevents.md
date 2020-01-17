@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDriveEvents interface
+title: IVMDVDDriveEvents interface (VPCCOMInterfaces.h)
 description: Defines the outgoing event interface for the IVMDVDDrive interface.
 ms.assetid: aa68fb6f-032d-4322-8553-b1e840ae63b8
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines the outgoing event interface for the [**IVMDVDDrive**](ivmdvddrive.md) i
 
 ## Members
 
-The **IVMDVDDriveEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDriveEvents** also has these types of members:
+The **IVMDVDDriveEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDriveEvents** also has these types of members:
 
 -   [Methods](#methods)
 

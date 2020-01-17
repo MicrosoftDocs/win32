@@ -1,5 +1,5 @@
 ---
-title: NM_SETFOCUS notification code
+title: NM_SETFOCUS notification code (Commctrl.h)
 description: Notifies a control's parent window that the control has received the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 4810afd3-c8a8-4813-b44a-eba3d409d4f1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

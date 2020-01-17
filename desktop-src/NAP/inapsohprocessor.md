@@ -1,5 +1,5 @@
 ---
-title: INapSoHProcessor interface
+title: INapSoHProcessor interface (NapProtocol.h)
 description: Are used by SHAs to process the contents of SoHResponses and by SHVs to process the contents of SoHRequests.
 ms.assetid: c2dd71ca-a4dd-44d2-81ab-b83e90599a2f
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - qutil.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

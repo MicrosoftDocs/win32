@@ -1,5 +1,5 @@
 ---
-title: DRM_LICENSE_STATE_DATA structure
+title: DRM_LICENSE_STATE_DATA structure (Wmdrmsdk.h)
 description: The DRM\_LICENSE\_STATE\_DATA structure contains information about the license restrictions for a DRM right.
 ms.assetid: 822d60ae-5d96-4577-8564-0e1adafa5dd5
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

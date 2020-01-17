@@ -1,5 +1,5 @@
 ---
-title: Rich Edit Control Styles
+title: Rich Edit Control Styles (Winuser.h)
 description: The following window styles are unique to rich edit controls.
 ms.assetid: 0f1b3e01-01cb-4b3e-b959-6f32498f0394
 topic_type:
@@ -29,7 +29,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

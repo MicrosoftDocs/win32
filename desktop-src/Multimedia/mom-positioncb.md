@@ -1,5 +1,5 @@
 ---
-title: MOM_POSITIONCB message
+title: MOM_POSITIONCB message (Mmsystem.h)
 description: The MOM\_POSITION message is sent when an MEVT\_F\_CALLBACK event is reached in the MIDI output stream.
 ms.assetid: '0464d74d-7d1f-4aab-a9e7-03397872f3c0'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ The **MOM\_POSITION** message is sent when an **MEVT\_F\_CALLBACK** event is rea
 <span id="dwParam1"></span><span id="dwparam1"></span><span id="DWPARAM1"></span>*dwParam1*
 </dt> <dd>
 
-A pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the input buffer.
+A pointer to a [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure identifying the input buffer.
 
 </dd> <dt>
 
@@ -46,7 +46,7 @@ This message does not return a value.
 
 Playback of the stream buffer continues even while the callback function is executing. Any events after the **MEVT\_F\_CALLBACK** event in the buffer will be scheduled and sent on time regardless of how much time is spent in the callback function.
 
-If position callbacks are being generated more quickly than your application can process them, the **dwOffset** member of the [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure might refer to an event your application has not yet processed.
+If position callbacks are being generated more quickly than your application can process them, the **dwOffset** member of the [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure might refer to an event your application has not yet processed.
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: EsentDatabase500FormatException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabase500FormatException methods
 TOCTitle: EsentDatabase500FormatException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabase500formatexception_methods(v=EXCHG.10)

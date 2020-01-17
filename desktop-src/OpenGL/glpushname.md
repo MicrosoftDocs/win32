@@ -1,5 +1,5 @@
 ---
-title: glPushName function
+title: glPushName function (Gl.h)
 description: The glPushName and glPopName functions push and pop the name stack.
 ms.assetid: e4319018-42c0-4567-b67f-31dbdbee9b13
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

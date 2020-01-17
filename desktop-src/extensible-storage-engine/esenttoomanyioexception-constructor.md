@@ -1,11 +1,11 @@
 ---
-title: EsentTooManyIOException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTooManyIOException constructor 
 TOCTitle: 'EsentTooManyIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyIOException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyioexception.esenttoomanyioexception(v=EXCHG.10)
 ms:contentKeyID: 55103068
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentTooManyIOException.EsentTooManyIOException
 dev_langs:

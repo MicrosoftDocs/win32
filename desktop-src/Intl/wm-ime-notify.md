@@ -1,8 +1,8 @@
 ---
 Description: Sent to an application to notify it of changes to the IME window. A window receives this message through its WindowProc function.
 ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
-title: WM_IME_NOTIFY message
-ms.topic: article
+title: WM_IME_NOTIFY message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherBlue methods
+title: TextureCube::TextureCube GatherBlue methods
 description: Samples a texture and returns the blue component.
 ms.assetid: 933B1358-DD7D-477B-AC12-488C94127C92
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

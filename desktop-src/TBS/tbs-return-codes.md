@@ -1,5 +1,5 @@
 ---
-title: TBS Return Codes
+title: TBS Return Codes (Tbs.h)
 description: TBS uses the following codes to indicate the result of a function call.
 ms.assetid: a3888263-aa00-4b31-b51d-c6d448c1edb7
 topic_type:
@@ -32,7 +32,7 @@ api_location:
 - Tbs.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

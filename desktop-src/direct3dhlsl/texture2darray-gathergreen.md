@@ -1,5 +1,5 @@
 ---
-title: Texture2DArray GatherGreen methods
+title: Texture2DArray::Texture2DArray GatherGreen methods
 description: Samples a Texture2DArray and returns the green component.
 ms.assetid: '0d2bf350-bae1-47be-b753-7ebd8e3efb8c'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

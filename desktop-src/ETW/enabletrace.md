@@ -1,8 +1,8 @@
 ---
 Description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
-title: EnableTrace function
-ms.topic: article
+title: EnableTrace function (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -99,7 +99,7 @@ Handle of the event tracing session to which you want to enable, disable, or cha
 
 If the function is successful, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx). The following table includes some common errors and their causes.
 
 
 

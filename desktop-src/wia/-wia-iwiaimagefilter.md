@@ -1,8 +1,8 @@
 ---
 Description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Windows Image Acquisition (WIA) 2.0.
 ms.assetid: 2abe913b-bb2b-486d-a3f4-d5932433fc82
-title: IWiaImageFilter interface
-ms.topic: interface
+title: IWiaImageFilter interface (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ The **IWiaImageFilter** interface is an extension interface implemented by image
 
 ## Members
 
-The **IWiaImageFilter** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IWiaImageFilter** also has these types of members:
+The **IWiaImageFilter** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaImageFilter** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,7 +48,7 @@ Image processing filter developers should implement this interface and the [**IW
 
 WIA 2.0 calls filter methods. They are never called directly from an application.
 
-Microsoft supplies the WIA 2.0 Preview Component, which caches the original, unfiltered preview image that is acquired from the scanner. An application uses [CoCreateInstance](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to co-create an instance of the WIA 2.0 Preview Component (CLSID\_WiaPreview), which loads the filter using [**IWiaItem2::GetExtension**](-wia-iwiaitem2-getextension.md). The filter is called automatically when the application calls [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md).
+Microsoft supplies the WIA 2.0 Preview Component, which caches the original, unfiltered preview image that is acquired from the scanner. An application uses [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to co-create an instance of the WIA 2.0 Preview Component (CLSID\_WiaPreview), which loads the filter using [**IWiaItem2::GetExtension**](-wia-iwiaitem2-getextension.md). The filter is called automatically when the application calls [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md).
 
 The image processing filter is always executed when an image is scanned. An application cannot acquire an image from the scanner without having the imaging filter applied first.
 
@@ -56,7 +56,7 @@ A filter must implement brightness and contrast at a minimum. The common UI, whi
 
 An image processing filter should never modify the *lMessage* member of the [**WiaTransferParams**](-wia-wiatransferparams.md) structure.
 
-To read the required properties the image processing filter should call [**IWiaPropertyStorage::GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) on the [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface that it gets from the item by calling [IWiaImageFilter::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx). The filter can then instantiate an [IPropertyStorage](https://msdn.microsoft.com/en-us/library/Aa379968(v=VS.85).aspx) instance on this stream to read the items properties. The image processing filter should not call [IWiaPropertyStorage::ReadMultiple](https://msdn.microsoft.com/en-us/library/Aa379975(v=VS.85).aspx) directly because this method calls into the driver's `drvReadItemProperties`, but the WIA 2.0 service has already locked the driver in the `drvAcquireItemData` call so this call will timeout and fail.
+To read the required properties the image processing filter should call [**IWiaPropertyStorage::GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) on the [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface that it gets from the item by calling [IWiaImageFilter::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx). The filter can then instantiate an [IPropertyStorage](https://msdn.microsoft.com/library/Aa379968(v=VS.85).aspx) instance on this stream to read the items properties. The image processing filter should not call [IWiaPropertyStorage::ReadMultiple](https://msdn.microsoft.com/library/Aa379975(v=VS.85).aspx) directly because this method calls into the driver's `drvReadItemProperties`, but the WIA 2.0 service has already locked the driver in the `drvAcquireItemData` call so this call will timeout and fail.
 
 The properties that the filter is interested in could for example be the brightness and contrast settings. The filter typically also needs to read the image format as well as the preview property, [**WIA\_DPS\_PREVIEW**](-wia-wiaitempropscannerdevice.md), from *pWiaItem2*. These properties are all used in the filtering process.
 
@@ -70,15 +70,15 @@ The image processing filter is always given an image corresponding to the select
 
 The image processing filter is created through [**IWiaItem2::GetExtension**](-wia-iwiaitem2-getextension.md), typically not by the application but by WIA 2.0 components when an application calls [**IWiaPreview::GetNewPreview**](-wia-iwiapreview-getnewpreview.md) or [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md).
 
-The **IWiaImageFilter** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface methods.
+The **IWiaImageFilter** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface methods.
 
 
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx)                 | Increments reference count.               |
+| [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx)               | Decrements reference count.               |
 
 
 

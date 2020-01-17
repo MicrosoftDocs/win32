@@ -1,7 +1,7 @@
 ---
 Description: Sets the title and subtitle that appear in the wizard header. In general, the client will display the header above the HTML and below the title bar.
-title: WebWizardHost.SetHeaderText method
-ms.topic: article
+title: WebWizardHost.SetHeaderText method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ iRetVal = WebWizardHost.SetHeaderText(
 *bstrHeaderTitle* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 String containing the title.
 
@@ -57,7 +57,7 @@ String containing the title.
 *bstrHeaderSubtitle* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 String containing the subtitle.
 

@@ -2,7 +2,7 @@
 Description: Gets the user name.
 ms.assetid: 1373fc9d-ab1c-49b9-8b82-de2e99c4821c
 title: '_GetUserName function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetUserName** function. This function may be altered or unavailable in the future. Applications should call **GetUserName** directly.\]
 
-Gets the user name. See [**GetUserName**](https://msdn.microsoft.com/en-us/library/ms724432(v=VS.85).aspx).
+Gets the user name. See [**GetUserName**](https://msdn.microsoft.com/library/ms724432(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ BOOL _GetUserName(
 
 <dl> <dt>
 
-[**GetUserName**](https://msdn.microsoft.com/en-us/library/ms724432(v=VS.85).aspx)
+[**GetUserName**](https://msdn.microsoft.com/library/ms724432(v=VS.85).aspx)
 </dt> </dl>
 
  

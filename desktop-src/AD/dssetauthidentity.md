@@ -1,5 +1,5 @@
 ---
-title: DsSetAuthIdentity function
+title: DsSetAuthIdentity function (Ntdsbcli.h)
 description: Sets the security context under which the directory backup APIs are called.
 ms.assetid: bfa2f847-6fe3-4f9b-bafa-acf6a7c861d9
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

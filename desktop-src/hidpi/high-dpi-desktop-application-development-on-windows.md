@@ -280,7 +280,7 @@ void UpdateButtonLayoutForDpi(HWND hWnd)
     int dpiScaledY = MulDiv(INITIALY_96DPI, iDpi, 96); 
     int dpiScaledWidth = MulDiv(INITIALWIDTH_96DPI, iDpi, 96); 
     int dpiScaledHeight = MulDiv(INITIALHEIGHT_96DPI, iDpi, 96); 
-    SetWindowPos(hWnd, hWnd, dpiScaledX, dpiScaledY, dpiScaledWidth, dpiScaledY, SWP_NOZORDER | SWP_NOACTIVATE); 
+    SetWindowPos(hWnd, hWnd, dpiScaledX, dpiScaledY, dpiScaledWidth, dpiScaledHeight, SWP_NOZORDER | SWP_NOACTIVATE); 
 } 
  
 ... 

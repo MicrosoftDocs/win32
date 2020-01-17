@@ -1,11 +1,11 @@
 ---
-title: EsentOneDatabasePerSessionException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentOneDatabasePerSessionException constructor 
 TOCTitle: 'EsentOneDatabasePerSessionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentonedatabasepersessionexception.esentonedatabasepersessionexception(v=EXCHG.10)
 ms:contentKeyID: 55107291
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentOneDatabasePerSessionException.EsentOneDatabasePerSessionException
 dev_langs:

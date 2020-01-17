@@ -1,7 +1,7 @@
 ---
-title: R
+title: R (OpenGL)
 description: Definitions of OpenGL terms that begin with the letter R.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ab0286f5-cad2-4537-aa98-be0fce55ff53
 keywords:
 - rasterizing

@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareElementActions association identifies the actions 
 ms.assetid: 2f8a584c-dff0-48f8-bc5f-2b833b5c0b18
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementActions class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

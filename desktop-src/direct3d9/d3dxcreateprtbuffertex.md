@@ -1,8 +1,8 @@
 ---
 Description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-pixel buffers.
 ms.assetid: 41e65674-e5e1-4df9-aab8-1530ebf85f25
-title: D3DXCreatePRTBufferTex function
-ms.topic: article
+title: D3DXCreatePRTBufferTex function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ HRESULT D3DXCreatePRTBufferTex(
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Width of the texture, in pixels.
 
@@ -51,7 +51,7 @@ Width of the texture, in pixels.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Height of the texture, in pixels.
 
@@ -60,7 +60,7 @@ Height of the texture, in pixels.
 *NumCoeffs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of coefficients per sample location. When using spherical harmonic (SH) PRT, the number of coefficients should be Order², where Order is the order of the SH evaluation. Order must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The degree of the evaluation is Order - 1.
 
@@ -69,7 +69,7 @@ Number of coefficients per sample location. When using spherical harmonic (SH) P
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of color channels to set in the mesh. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -86,7 +86,7 @@ Address of a pointer to the created [**ID3DXPRTBuffer**](id3dxprtbuffer.md) obje
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

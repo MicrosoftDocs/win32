@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder performs stereo image processing.
 ms.assetid: d1c787ee-787b-4efa-8d96-5cb4ffff0ed2
-title: MFPKEY_DYN_STEREO_PREPROC Property
-ms.topic: article
+title: MFPKEY_DYN_STEREO_PREPROC Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the encoder performs stereo image processing. Read-write.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

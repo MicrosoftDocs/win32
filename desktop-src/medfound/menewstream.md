@@ -1,8 +1,8 @@
 ---
 Description: Raised by a media source when it starts a new stream.
 ms.assetid: 1bc8b265-b7a1-4068-89f7-c0da03dfb874
-title: MENewStream event
-ms.topic: article
+title: MENewStream event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

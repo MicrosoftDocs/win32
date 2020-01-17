@@ -20,7 +20,7 @@ The WWSAPI URL API elements provide mechanisms to split and unescape URLs into c
 
 The following enumerations are part of the URL:
 
--   [**WS\_URL\_FLAGS**](https://msdn.microsoft.com/en-us/library/Dd323492(v=VS.85).aspx)
+-   [**WS\_URL\_FLAGS**](https://msdn.microsoft.com/library/Dd323492(v=VS.85).aspx)
 -   [**WS\_URL\_SCHEME\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_url_scheme_type)
 
 The following functions are part of the URL:

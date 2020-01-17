@@ -1,5 +1,5 @@
 ---
-title: EsentLoggingDisabledException members (Microsoft.Isam.Esent.Interop)
+title: EsentLoggingDisabledException members
 TOCTitle: EsentLoggingDisabledException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentloggingdisabledexception_members(v=EXCHG.10)

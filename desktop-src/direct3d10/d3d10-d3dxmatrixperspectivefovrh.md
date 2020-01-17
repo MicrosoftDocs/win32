@@ -1,8 +1,8 @@
 ---
 Description: Builds a right-handed perspective projection matrix based on a field of view.
 ms.assetid: a75e6666-e6c0-4a54-bc88-835fa012542f
-title: D3DXMatrixPerspectiveFovRH function
-ms.topic: article
+title: D3DXMatrixPerspectiveFovRH function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -42,7 +42,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveFovRH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *fovy* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Field of view in the y direction, in radians.
 
@@ -60,7 +60,7 @@ Field of view in the y direction, in radians.
 *Aspect* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Aspect ratio, defined as view space width divided by height.
 
@@ -69,7 +69,7 @@ Aspect ratio, defined as view space width divided by height.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Z-value of the near view-plane.
 
@@ -78,7 +78,7 @@ Z-value of the near view-plane.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Z-value of the far view-plane.
 
@@ -86,7 +86,7 @@ Z-value of the far view-plane.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that is a right-handed perspective projection matrix.
 

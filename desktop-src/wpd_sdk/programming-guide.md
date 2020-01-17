@@ -1,12 +1,12 @@
 ---
+title: WPD programming guide
 Description: Programming Guide
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
-title: Programming Guide
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# WPD programming guide
 
 The primary source for this programming guide is a sample that ships with the Windows Portable Devices (WPD) Software Development Kit (SDK). This sample, named WpdApiSample.exe, consists of seven .cpp modules. Six of these modules contain the code that demonstrates 26 tasks that an application can accomplish using the WPD application programming interface (API).
 

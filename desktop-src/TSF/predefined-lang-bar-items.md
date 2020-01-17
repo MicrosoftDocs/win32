@@ -1,5 +1,5 @@
 ---
-title: Predefined Language Bar Items
+title: Predefined Language Bar Items (Ctffunc.h)
 description: The following GUID values identify the predefined language bar items. These values are used with GetItem to obtain a specific language bar item.
 ms.assetid: 6280cde9-2350-48a9-8740-01a856b0a1bc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - ctffunc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

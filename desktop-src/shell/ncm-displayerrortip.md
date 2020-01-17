@@ -1,7 +1,7 @@
 ---
 Description: Displays an error message in the balloon tip associated with the network address control.
-title: NCM_DISPLAYERRORTIP message
-ms.topic: article
+title: NCM_DISPLAYERRORTIP message (Shellapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5ECAB6C3-69FC-4f2a-A9E6-80BC37ED3119
 api_name: 

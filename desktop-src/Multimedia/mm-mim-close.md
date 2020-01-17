@@ -1,5 +1,5 @@
 ---
-title: MM_MIM_CLOSE message
+title: MM_MIM_CLOSE message (Mmsystem.h)
 description: The MM\_MIM\_CLOSE message is sent to a window when a MIDI input device is closed.
 ms.assetid: 261021aa-4df6-44d8-aad3-5f98b1213459
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

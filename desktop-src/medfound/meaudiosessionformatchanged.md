@@ -1,8 +1,8 @@
 ---
 Description: Raised by the audio renderer when the default audio format for the audio device changes. The audio renderer is now invalid.
 ms.assetid: eeef764a-f6d2-4f6e-9af3-acd5fd7bc55c
-title: MEAudioSessionFormatChanged event
-ms.topic: article
+title: MEAudioSessionFormatChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/en-us/library/Dd370941(v=VS.85).aspx) event from the user-mode audio session with the disconnection reason equal to **DisconnectReasonFormatChanged**.
+This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/library/Dd370941(v=VS.85).aspx) event from the user-mode audio session with the disconnection reason equal to **DisconnectReasonFormatChanged**.
 
 The [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) pointer, if set, is not useful, because the audio stream is no longer valid.
 

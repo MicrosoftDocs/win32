@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Run-Time Dynamic Linking
 
-You can use the same DLL in both load-time and run-time dynamic linking. The following example uses the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) function to get a handle to the Myputs DLL (see [Creating a Simple Dynamic-Link Library](creating-a-simple-dynamic-link-library.md)). If **LoadLibrary** succeeds, the program uses the returned handle in the [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) function to get the address of the DLL's myPuts function. After calling the DLL function, the program calls the [**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx) function to unload the DLL.
+You can use the same DLL in both load-time and run-time dynamic linking. The following example uses the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) function to get a handle to the Myputs DLL (see [Creating a Simple Dynamic-Link Library](creating-a-simple-dynamic-link-library.md)). If **LoadLibrary** succeeds, the program uses the returned handle in the [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) function to get the address of the DLL's myPuts function. After calling the DLL function, the program calls the [**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx) function to unload the DLL.
 
 Because the program uses run-time dynamic linking, it is not necessary to link the module with an import library for the DLL.
 

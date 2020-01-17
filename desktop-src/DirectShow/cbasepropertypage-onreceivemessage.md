@@ -1,8 +1,8 @@
 ---
 Description: The OnReceiveMessage method is called when the dialog box receives a message.
 ms.assetid: ea93500d-fd0f-4820-a54a-a186c40899ad
-title: CBasePropertyPage.OnReceiveMessage method
-ms.topic: article
+title: CBasePropertyPage.OnReceiveMessage method (Cprop.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

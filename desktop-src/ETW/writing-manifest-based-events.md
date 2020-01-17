@@ -153,7 +153,7 @@ cleanup:
 
 
 
-When you compile the manifest (see [Compiling an Instrumentation Manifest](https://msdn.microsoft.com/en-us/library/Dd996909(v=VS.85).aspx)) that the example above uses, it creates the following header file (referenced in the example above).
+When you compile the manifest (see [Compiling an Instrumentation Manifest](https://msdn.microsoft.com/library/Dd996909(v=VS.85).aspx)) that the example above uses, it creates the following header file (referenced in the example above).
 
 
 ```C++

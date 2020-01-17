@@ -1,5 +1,5 @@
 ---
-title: ICM_GETQUALITY message
+title: ICM_GETQUALITY message (Vfw.h)
 description: The ICM\_GETQUALITY message queries a video compression driver to return its current quality setting.
 ms.assetid: 8da99a26-7b2a-4118-89e1-7485915cbdc9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Flag indicating whether a decommit operation is in progress.
 ms.assetid: aa008be1-8faa-4dc1-9641-37dcc59ce6c7
-title: CBaseAllocator::m_bDecommitInProgress member
-ms.topic: article
+title: CBaseAllocator::m_bDecommitInProgress member (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

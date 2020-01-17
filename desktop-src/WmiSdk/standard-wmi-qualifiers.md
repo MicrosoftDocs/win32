@@ -3,7 +3,7 @@ Description: The following lists standard qualifiers specific to WMI.
 ms.assetid: 63bdbafc-51f3-4714-8b7e-9d5a61cef45e
 ms.tgt_platform: multiple
 title: Standard WMI Qualifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

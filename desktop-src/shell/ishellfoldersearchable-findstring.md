@@ -1,8 +1,8 @@
 ---
 Description: Begins a search for a specified search string.
 ms.assetid: 6ecad03c-e8e0-45ba-8def-b55a029992f2
-title: IShellFolderSearchable::FindString method
-ms.topic: article
+title: IShellFolderSearchable::FindString method (Mmc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,9 +58,9 @@ No flags are currently defined; set to **NULL**.
 *punkOnAsyncSearch* \[in\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
 
-A pointer to an object of type [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx). This object must support the [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) interface. Set to **NULL** if no callback is necessary.
+A pointer to an object of type [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx). This object must support the [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) interface. Set to **NULL** if no callback is necessary.
 
 </dd> <dt>
 

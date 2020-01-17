@@ -1,8 +1,8 @@
 ---
 Description: Contains a pointer to the presentation descriptor for the media source.
 ms.assetid: 4f2c1ad8-fda9-482f-b82a-9838d15d2785
-title: MF_TOPONODE_PRESENTATION_DESCRIPTOR attribute
-ms.topic: article
+title: MF_TOPONODE_PRESENTATION_DESCRIPTOR attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

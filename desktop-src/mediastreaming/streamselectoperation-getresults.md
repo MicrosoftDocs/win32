@@ -12,14 +12,14 @@ api_name:
 - StreamSelectOperation.GetResults
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # StreamSelectOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx).
 
 ## Syntax
 

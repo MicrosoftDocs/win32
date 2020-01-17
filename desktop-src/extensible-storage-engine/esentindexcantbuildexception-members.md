@@ -1,5 +1,5 @@
 ---
-title: EsentIndexCantBuildException members (Microsoft.Isam.Esent.Interop)
+title: EsentIndexCantBuildException members
 TOCTitle: EsentIndexCantBuildException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexcantbuildexception_members(v=EXCHG.10)

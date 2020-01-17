@@ -3,7 +3,7 @@ Description: The CIM\_DirectorySpecificationFile association represents the dire
 ms.assetid: 57fe996e-6bd4-4070-9e99-460b2a36243f
 ms.tgt_platform: multiple
 title: CIM_DirectorySpecificationFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,5 +1,5 @@
 ---
-title: EsentOutOfMemoryException members (Microsoft.Isam.Esent.Interop)
+title: EsentOutOfMemoryException members
 TOCTitle: EsentOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofmemoryexception_members(v=EXCHG.10)

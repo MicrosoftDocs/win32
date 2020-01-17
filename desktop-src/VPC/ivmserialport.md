@@ -1,5 +1,5 @@
 ---
-title: IVMSerialPort interface
+title: IVMSerialPort interface (VPCCOMInterfaces.h)
 description: Defines a serial port inside a virtual machine.
 ms.assetid: a6568885-bfdf-4559-8886-02ca59096ca0
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines a serial port inside a virtual machine. This interface allows you to con
 
 ## Members
 
-The **IVMSerialPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMSerialPort** also has these types of members:
+The **IVMSerialPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMSerialPort** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

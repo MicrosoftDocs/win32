@@ -1,5 +1,5 @@
 ---
-title: MCIWNDM_OPEN message
+title: MCIWNDM_OPEN message (Vfw.h)
 description: The MCIWNDM\_OPEN message opens an MCI device and associates it with an MCIWnd window.
 ms.assetid: ad1dfe0f-015b-45a9-ab88-cc0bdf0aa057
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

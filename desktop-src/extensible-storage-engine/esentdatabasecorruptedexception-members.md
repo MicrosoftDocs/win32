@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseCorruptedException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseCorruptedException members
 TOCTitle: EsentDatabaseCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptedexception_members(v=EXCHG.10)

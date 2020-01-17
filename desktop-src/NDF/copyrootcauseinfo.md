@@ -1,5 +1,5 @@
 ---
-title: CopyRootCauseInfo function
+title: CopyRootCauseInfo function (Ndattributils.h)
 description: Creates a copy of a RootCauseInfo structure.
 ms.assetid: 6bcd1341-657a-40c1-bebd-1c0f780ae337
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

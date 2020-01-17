@@ -1,8 +1,8 @@
 ---
 Description: Contains two arbitrary status strings.
 ms.assetid: fe29ee63-35ac-4145-a793-9bd7964f62af
-title: EC_STATUS
-ms.topic: article
+title: EC_STATUS (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

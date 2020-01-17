@@ -2,8 +2,8 @@
 Description: Stops the service represented by the object derived from CIM\_ClusteringService.
 ms.assetid: b8dbaeeb-819b-469b-9f5e-d658e88d1a6e
 ms.tgt_platform: multiple
-title: StopService method of the CIM_ClusteringService class
-ms.topic: article
+title: StopService method of the CIM_ClusteringService class (Sdoias.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 You can use PARAM elements inside an OBJECT element to set the initial state of the Player control. For example, the PARAM elements in the following example specify that the control should play seattle.wmv automatically.
 
 
-```C++
+```HTML
 <OBJECT id="Player" type="application/x-ms-wmp" width="300" height="200">
   <PARAM name="url" value="c:\MediaFiles\seattle.wmv" />
   <PARAM name="autostart" value="true" />

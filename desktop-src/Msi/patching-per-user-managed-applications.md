@@ -14,7 +14,7 @@ Beginning with Windows Installer 3.0, it is possible to apply patches to an appl
 
 An application is installed in the per-user-managed state in the following cases.
 
--   The per-user installation of the application was performed using deployment and [Group Policy](https://msdn.microsoft.com/en-us/library/Aa374177(v=VS.85).aspx).
+-   The per-user installation of the application was performed using deployment and [Group Policy](https://msdn.microsoft.com/library/Aa374177(v=VS.85).aspx).
 -   The application was advertised to a specified user and installed by the method described in [Advertising a Per-User Application To Be Installed with Elevated Privileges](advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md).
 
 Privileges are required to install an application in the per-user-managed context; therefore, future Windows Installer reinstallations or repairs of the application are also performed by the installer using elevated privileges. This means that only patches from trusted sources can be applied to the application.

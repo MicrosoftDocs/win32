@@ -3,7 +3,7 @@ title: IWSManSession Properties
 description: The IWSManSession interface exposes the following properties.
 ms.assetid: E8B65FC9-D690-4789-8320-75809FAA9095
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

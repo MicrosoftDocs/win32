@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Opening a Simple Device by Using the Device-Type Constant
 
-The following example opens a CD audio device by specifying a device-type constant using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
+The following example opens a CD audio device by specifying a device-type constant using the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

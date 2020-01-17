@@ -3,7 +3,7 @@ Description: Optional qualifiers address recurring situations not common to all 
 ms.assetid: f31162d1-25e6-494a-bc7d-f66955b514a6
 ms.tgt_platform: multiple
 title: Optional Qualifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

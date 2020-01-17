@@ -1,8 +1,8 @@
 ---
 Description: Describes a render surface.
 ms.assetid: cffa1555-1fa2-427d-8bcb-da0e61d82152
-title: D3DXRTS_DESC structure
-ms.topic: structure
+title: D3DXRTS_DESC structure (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ typedef struct D3DXRTS_DESC {
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Width of the render surface, in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the pixel fo
 **DepthStencil**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

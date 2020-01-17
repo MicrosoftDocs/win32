@@ -3,7 +3,7 @@ Description: Compresses the logical directory entry file (or directory) specifie
 ms.assetid: 6b6e559c-4ca6-49d4-b255-5e1511fdf2e2
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_Directory class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

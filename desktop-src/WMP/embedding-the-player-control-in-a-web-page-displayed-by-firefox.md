@@ -47,7 +47,7 @@ The preferred mime type is application/x-ms-wmp.
 The following examples show how to embed the Player control using an OBJECT element or an EMBED element.
 
 
-```C++
+```HTML
 <OBJECT id="Player"
   type="application/x-ms-wmp" 
   width="320" height="320">
@@ -68,7 +68,7 @@ The preceeding examples work in Firefox but not in Internet Explorer. To embed t
 The following example shows how to embed the Windows Media Player control in a webpage that can be displayed correctly by both Internet Explorer and Firefox. Script on the page detects the browser type and generates the appropriate OBJECT tag.
 
 
-```C++
+```HTML
 <HTML>
   <BODY>
     <SCRIPT type="text/javascript">

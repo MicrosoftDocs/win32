@@ -1,8 +1,8 @@
 ---
 Description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-vertex or volume buffers.
 ms.assetid: f79a3691-ab5f-4404-aafd-f9635ff88e71
-title: D3DXCreatePRTBuffer function
-ms.topic: article
+title: D3DXCreatePRTBuffer function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ HRESULT D3DXCreatePRTBuffer(
 *NumSamples* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices (or texels) sampled.
 
@@ -50,7 +50,7 @@ Number of vertices (or texels) sampled.
 *NumCoeffs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of coefficients per sample location. When using spherical harmonic (SH) PRT, the number of coefficients should be Order², where Order is the order of the SH evaluation. Order must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The degree of the evaluation is Order - 1.
 
@@ -59,7 +59,7 @@ Number of coefficients per sample location. When using spherical harmonic (SH) P
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of color channels to set in the mesh. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -76,7 +76,7 @@ Address of a pointer to the created [**ID3DXPRTBuffer**](id3dxprtbuffer.md) obje
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be one of these: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

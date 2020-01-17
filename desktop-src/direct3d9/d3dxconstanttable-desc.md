@@ -1,8 +1,8 @@
 ---
 Description: A description of the constant table.
 ms.assetid: 848b328a-95a4-4fd0-a7d4-4fb0e5d14f64
-title: D3DXCONSTANTTABLE_DESC structure
-ms.topic: structure
+title: D3DXCONSTANTTABLE_DESC structure (D3dx9shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ typedef struct D3DXCONSTANTTABLE_DESC {
 **Creator**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Name of the constant table creator.
 **Version**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Shader version.
 **Constants**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

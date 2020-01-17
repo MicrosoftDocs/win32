@@ -1,5 +1,5 @@
 ---
-title: Texture1D Load methods
+title: Texture1D::Texture1D Load methods
 description: Reads texture data from a Texture1D.
 ms.assetid: 'a158d1c8-f92b-48c8-9cb2-a6be28e70f51'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

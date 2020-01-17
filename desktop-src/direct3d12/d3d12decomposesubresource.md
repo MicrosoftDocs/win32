@@ -1,5 +1,5 @@
 ---
-title: D3D12DecomposeSubresource function
+title: D3D12DecomposeSubresource function (D3dx12.h)
 description: Outputs the mip slice, array slice, and plane slice that correspond to the specified subresource index.
 ms.assetid: 89FAD7C5-E732-4E74-AC2F-DEECD6ADDA7D
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - DllExport
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

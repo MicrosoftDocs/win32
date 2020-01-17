@@ -1,8 +1,8 @@
 ---
 Description: The EnumPrinterDataEx function enumerates all value names and data for a specified printer and key.
 ms.assetid: bc5ecc46-24a4-4b54-9431-0eaf6446e2d6
-title: EnumPrinterDataEx function
-ms.topic: article
+title: EnumPrinterDataEx function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: The read-only ModuleKeys property of the Error object returns a pointer to a string collection containing the primary keys of the row in the module causing the error, one key per entry in the collection.
 ms.assetid: b02b609b-4682-4228-b29a-364f079e863c
-title: Error.ModuleKeys property
-ms.topic: article
+title: Error.ModuleKeys property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,7 +41,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_ModuleKeys**](https://msdn.microsoft.com/en-us/library/Aa369253(v=VS.85).aspx) function.
+See [**get\_ModuleKeys**](https://msdn.microsoft.com/library/Aa369253(v=VS.85).aspx) function.
 
 ## Requirements
 

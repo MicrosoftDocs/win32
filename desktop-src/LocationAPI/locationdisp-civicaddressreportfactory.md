@@ -2,7 +2,7 @@
 Description: Manages civic address reports.
 ms.assetid: 46c2d001-409a-4a0a-9006-1c2c9d327c13
 title: LocationDisp.CivicAddressReportFactory object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Sets a texel class value that indicates texel class according to each texel's location.
 ms.assetid: cb2e6afb-4b6a-4b01-aaa8-1fd2d1f2bfa1
-title: ID3DXTextureGutterHelper::SetGutterMap method
-ms.topic: article
+title: ID3DXTextureGutterHelper::SetGutterMap method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT SetGutterMap(
 *pGutterData* \[in\]
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the texel class. Possible texel classes are as follows. There is no texel class 3.
 
@@ -59,7 +59,7 @@ Pointer to the texel class. Possible texel classes are as follows. There is no t
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned.D3DERR\_INVALIDCALL
 

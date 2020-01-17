@@ -1,8 +1,8 @@
 ---
 Description: The IMediaLocator interface provides methods for validating file names in DirectShow Editing Services (DES).
 ms.assetid: 6c1ae957-a2be-454b-9451-772e4a670677
-title: IMediaLocator interface
-ms.topic: interface
+title: IMediaLocator interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -34,7 +34,7 @@ Typically, a DES application will call these methods rather than directly create
 
 ## Members
 
-The **IMediaLocator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IMediaLocator** also has these types of members:
+The **IMediaLocator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IMediaLocator** also has these types of members:
 
 -   [Methods](#methods)
 

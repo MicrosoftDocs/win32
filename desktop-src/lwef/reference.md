@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: Reference (Microsoft Agent Server Interface)
 description: Reference
 ms.assetid: 'vs|msagent|~\paface_83s5.htm'
 ms.topic: article

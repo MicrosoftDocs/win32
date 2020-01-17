@@ -1,11 +1,11 @@
 ---
-title: JET_OBJECTLIST.columnidcRecord property  (Microsoft.Isam.Esent.Interop)
+title: JET_OBJECTLIST.columnidcRecord property 
 TOCTitle: 'columnidcRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidcRecord
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist.columnidcrecord(v=EXCHG.10)
 ms:contentKeyID: 55103775
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidcRecord
 dev_langs:

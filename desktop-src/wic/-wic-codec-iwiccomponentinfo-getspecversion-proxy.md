@@ -2,7 +2,7 @@
 Description: Proxy function for the GetSpecVersion method.
 ms.assetid: 363e55c2-d6e8-4ddc-a063-c5be08232a67
 title: IWICComponentInfo_GetSpecVersion_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

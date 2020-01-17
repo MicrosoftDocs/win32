@@ -2,8 +2,8 @@
 Description: The SetAsSingleton method of the SWbemObjectPath object forces the path to address a singleton WMI instance of a class. A singleton class is a class that can never have more than one instance.
 ms.assetid: 7ec53954-2aac-494c-87c7-6a14592d8bd5
 ms.tgt_platform: multiple
-title: SWbemObjectPath.SetAsSingleton method
-ms.topic: article
+title: SWbemObjectPath.SetAsSingleton method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

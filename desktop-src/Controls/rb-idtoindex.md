@@ -1,5 +1,5 @@
 ---
-title: RB_IDTOINDEX message
+title: RB_IDTOINDEX message (Commctrl.h)
 description: Converts a band identifier to a band index in a rebar control.
 ms.assetid: 'vs|controls|~\controls\rebar\messages\rb_idtoindex.htm'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

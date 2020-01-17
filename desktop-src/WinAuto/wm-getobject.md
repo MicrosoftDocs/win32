@@ -1,5 +1,5 @@
 ---
-title: WM_GETOBJECT message
+title: WM_GETOBJECT message (Winuser.h)
 description: Sent by both Microsoft Active Accessibility and Microsoft UI Automation to obtain information about an accessible object contained in a server application.
 ms.assetid: '59350aa1-1697-4110-b9a6-f30ee56c4cff'
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

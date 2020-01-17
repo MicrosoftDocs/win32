@@ -2,7 +2,7 @@
 title: xor (sm4 - asm)
 description: Bitwise xor.
 ms.assetid: 6B949653-6DDA-402B-8ABE-B93858B68470
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

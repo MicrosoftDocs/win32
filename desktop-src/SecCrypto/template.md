@@ -2,7 +2,7 @@
 Description: Represents the certificate extension template of the certificate.
 ms.assetid: '1ae9220a-f6b3-47c5-bd08-a36ffd84e1f9'
 title: Template object
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -26,7 +26,7 @@ The **Template** object represents the certificate extension template of the cer
 The **Template** object is used to perform the following tasks:
 
 -   Determine whether the template is marked critical or present.
--   Retrieve the [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) or name of the template.
+-   Retrieve the [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) or name of the template.
 -   Retrieve the minor or major version of the template.
 
 ## Members

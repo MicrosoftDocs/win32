@@ -1,5 +1,5 @@
 ---
-title: TTM_HITTEST message
+title: TTM_HITTEST message (Commctrl.h)
 description: Tests a point to determine whether it is within the bounding rectangle of the specified tool and, if it is, retrieves information about the tool.
 ms.assetid: d4dcc29b-c64c-41b8-a153-300df68ecdf5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

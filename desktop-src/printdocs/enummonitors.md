@@ -1,8 +1,8 @@
 ---
 Description: The EnumMonitors function retrieves information about the port monitors installed on the specified server.
 ms.assetid: 4d4fbed2-193f-426c-8463-eeb6b1eaf316
-title: EnumMonitors function
-ms.topic: article
+title: EnumMonitors function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXID.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexid.tostring(v=EXCHG.10)
 ms:contentKeyID: 39512357
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_INDEXID.ToString
 dev_langs:

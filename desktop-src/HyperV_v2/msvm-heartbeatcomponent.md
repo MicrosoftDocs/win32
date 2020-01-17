@@ -2,7 +2,7 @@
 Description: Represents the state of the heartbeat service, which is responsible for monitoring the state of a virtual machine by reporting a heartbeat at regular intervals.
 ms.assetid: 72DB3CD9-B083-4483-BCCD-DC8C140DDBF4
 title: Msvm_HeartbeatComponent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

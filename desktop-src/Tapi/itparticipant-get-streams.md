@@ -1,8 +1,8 @@
 ---
 Description: The get\_Streams method creates a collection of streams associated with the current participant.
 ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
-title: ITParticipant::get_Streams method
-ms.topic: article
+title: ITParticipant::get_Streams method (Ipmsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -30,7 +30,7 @@ HRESULT get_Streams(
 *pVariant* \[out\]
 </dt> <dd>
 
-Pointer to **VARIANT** containing an [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection) of [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) interface pointers.
+Pointer to **VARIANT** containing an [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection) of [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface pointers.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ This method can return one of these values.
 
 ## Remarks
 
-TAPI calls the **AddRef** method on the [**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx) interface returned by **ITParticipant::get\_Streams**. The application must call **Release** on the **ITStream** interface to free resources associated with it.
+TAPI calls the **AddRef** method on the [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface returned by **ITParticipant::get\_Streams**. The application must call **Release** on the **ITStream** interface to free resources associated with it.
 
 ## Requirements
 
@@ -83,7 +83,7 @@ TAPI calls the **AddRef** method on the [**ITStream**](https://msdn.microsoft.co
 [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)
 </dt> <dt>
 
-[**ITStream**](https://msdn.microsoft.com/en-us/library/ms732390(v=VS.85).aspx)
+[**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx)
 </dt> </dl>
 
  

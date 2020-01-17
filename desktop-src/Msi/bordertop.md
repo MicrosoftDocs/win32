@@ -2,7 +2,7 @@
 Description: The installer sets the BorderTop property to the height of the window borders in pixels.
 ms.assetid: a593197c-280b-4baf-a17f-561eb1cb12fd
 title: BorderTop property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

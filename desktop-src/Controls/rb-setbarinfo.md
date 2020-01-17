@@ -1,5 +1,5 @@
 ---
-title: RB_SETBARINFO message
+title: RB_SETBARINFO message (Commctrl.h)
 description: Sets the characteristics of a rebar control.
 ms.assetid: e4413d46-574f-4ccd-b5fd-3ba6c1e3924b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

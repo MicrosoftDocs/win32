@@ -2,7 +2,7 @@
 Description: Proxy function for the CreateMetadataWriterFromReader method.
 ms.assetid: da9e80d3-3265-428d-987e-8b344472527a
 title: IWICComponentFactory_CreateMetadataWriterFromReader_Proxy function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

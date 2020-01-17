@@ -2,7 +2,7 @@
 Description: Provides the ability to preview the current World Wide Port Name (WWPN) without the WWPN being reserved.
 ms.assetid: 7fc02099-744e-4a56-ae4b-1f5fd6a1eb45
 title: GetCurrentWwpnFromGenerator method of the Msvm_VirtualSystemManagementService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

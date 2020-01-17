@@ -2,7 +2,7 @@
 Description: The path and filename of the thumbnail image. This property is NULL if the item does not support thumbnails, or if a path cannot be built. Read-only.
 ms.assetid: 067b8421-2108-4297-84ce-415af07207f4
 title: Item.Thumbnail property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

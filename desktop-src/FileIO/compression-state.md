@@ -12,11 +12,11 @@ Each file and directory on a volume that supports compression for individual fil
 
 Whereas the compression attribute of a file or directory indicates simply whether the file or directory is compressed or not compressed, the compression state also specifies the format of any compressed data.
 
-Use the [**FSCTL\_GET\_COMPRESSION**](https://msdn.microsoft.com/en-us/library/Aa364567(v=VS.85).aspx) control code to determine the compression state of a file or directory.
+Use the [**FSCTL\_GET\_COMPRESSION**](https://msdn.microsoft.com/library/Aa364567(v=VS.85).aspx) control code to determine the compression state of a file or directory.
 
 Compression state is encoded as a 16-bit value. A compression state value of COMPRESSION\_FORMAT\_NONE indicates that a file is not compressed. A value of COMPRESSION\_FORMAT\_DEFAULT indicates that a file is compressed, using the default compression format. Any other value indicates that a file is compressed, using the compression format specified by the compression state value.
 
-Use the [**FSCTL\_SET\_COMPRESSION**](https://msdn.microsoft.com/en-us/library/Aa364592(v=VS.85).aspx) control code to set the compression state of a file or directory. This operation also sets the compression attribute of the file or directory.
+Use the [**FSCTL\_SET\_COMPRESSION**](https://msdn.microsoft.com/library/Aa364592(v=VS.85).aspx) control code to set the compression state of a file or directory. This operation also sets the compression attribute of the file or directory.
 
 Setting the compression state of a file to a nonzero value compresses the file, using the compression format encoded by the compression state value. Setting a file's compression state to zero decompresses the file. These are synchronous operations. The file is compressed or decompressed immediately when you set its compression state.
 

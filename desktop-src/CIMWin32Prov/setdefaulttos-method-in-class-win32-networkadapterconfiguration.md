@@ -3,7 +3,7 @@ Description: This method is obsolete. Applications should use the Quality of Ser
 ms.assetid: 18860c13-7324-4a37-b83c-f3d15c425acb
 ms.tgt_platform: multiple
 title: SetDefaultTOS method of the Win32_NetworkAdapterConfiguration class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

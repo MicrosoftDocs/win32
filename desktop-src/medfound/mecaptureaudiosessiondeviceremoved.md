@@ -1,8 +1,8 @@
 ---
 Description: Sent by an audio capture source when the device is removed.
 ms.assetid: A249D8B4-15A8-4AD3-8316-2886E5C37825
-title: MECaptureAudioSessionDeviceRemoved event
-ms.topic: article
+title: MECaptureAudioSessionDeviceRemoved event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 This event is sent by the media stream of the audio capture source.
 
-The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/en-us/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonDeviceRemoval**.
+The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonDeviceRemoval**.
 
 ## Requirements
 

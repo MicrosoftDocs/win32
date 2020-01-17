@@ -1,5 +1,5 @@
 ---
-title: MCM_GETCALENDARBORDER message
+title: MCM_GETCALENDARBORDER message (Commctrl.h)
 description: Gets the size of the border, in pixels. You can send this message explicitly or by using the MonthCal\_GetCurrentView macro.
 ms.assetid: 68366ee1-7511-46a5-aab0-a42fb80c265f
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

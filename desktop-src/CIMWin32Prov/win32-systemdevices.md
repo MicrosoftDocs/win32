@@ -3,7 +3,7 @@ Description: The Win32\_SystemDevices association WMI class relates a computer s
 ms.assetid: 84dfcb75-3b44-4b27-8eee-779be522eb1f
 ms.tgt_platform: multiple
 title: Win32_SystemDevices class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SystemDevices class
 
-The **Win32\_SystemDevices** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a computer system and a logical device installed on that system.
+The **Win32\_SystemDevices** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a computer system and a logical device installed on that system.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ComputerSystem")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("GroupComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ComputerSystem")
 </dt> </dl>
 
 Reference to the instance representing the properties of the computer system where the logical device exists.
@@ -72,7 +72,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_LogicalDevice")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("PartComponent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_LogicalDevice")
 </dt> </dl>
 
 Reference to the instance representing the properties of a logical device that exists on the computer system.
@@ -104,7 +104,7 @@ The **Win32\_SystemDevices** class is derived from [**CIM\_SystemDevice**](cim-s
 [**CIM\_SystemDevice**](cim-systemdevice.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

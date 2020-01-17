@@ -1,8 +1,8 @@
 ---
 Description: Specifies the maximum latency for the decoder, in milliseconds.
 ms.assetid: c4452c29-2d06-4c71-b960-26c805c29227
-title: MFPKEY_MAXDECLATENCYMS Property
-ms.topic: article
+title: MFPKEY_MAXDECLATENCYMS Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the maximum latency for the decoder, in milliseconds.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

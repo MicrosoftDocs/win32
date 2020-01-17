@@ -1,5 +1,5 @@
 ---
-title: SB_GETUNICODEFORMAT message
+title: SB_GETUNICODEFORMAT message (Commctrl.h)
 description: Retrieves the Unicode character format flag for the control.
 ms.assetid: 0b2b543a-b1ef-452c-9b34-c5fbbac4aaa9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

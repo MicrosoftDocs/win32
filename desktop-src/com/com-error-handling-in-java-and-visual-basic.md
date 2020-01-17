@@ -16,9 +16,9 @@ The three interfaces that provide support for **HRESULT**s are listed and descri
 
 |                                                                          |                                                                                                                      |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**ICreateErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221072(v=VS.71).aspx)<br/>  | Sets error information.<br/>                                                                                   |
-| [**IErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221233(v=VS.71).aspx)<br/>        | Returns information from an error object.<br/>                                                                 |
-| [**ISupportErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221083(v=VS.71).aspx)<br/> | Identifies the object as supporting the [**IErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221233(v=VS.71).aspx) interface.<br/> |
+| [**ICreateErrorInfo**](https://msdn.microsoft.com/library/ms221072(v=VS.71).aspx)<br/>  | Sets error information.<br/>                                                                                   |
+| [**IErrorInfo**](https://msdn.microsoft.com/library/ms221233(v=VS.71).aspx)<br/>        | Returns information from an error object.<br/>                                                                 |
+| [**ISupportErrorInfo**](https://msdn.microsoft.com/library/ms221083(v=VS.71).aspx)<br/> | Identifies the object as supporting the [**IErrorInfo**](https://msdn.microsoft.com/library/ms221233(v=VS.71).aspx) interface.<br/> |
 
 
 
@@ -30,9 +30,9 @@ The three functions that provide support for **HRESULT**s are listed and describ
 
 |                                                                        |                                                                                                                                                                      |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221316(v=VS.71).aspx)<br/> | Creates an instance of a generic error object.<br/>                                                                                                            |
-| [**GetErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221032(v=VS.71).aspx)<br/>    | Obtains the error information pointer set by the previous call to [**SetErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221409(v=VS.71).aspx) in the current logical thread.<br/> |
-| [**SetErrorInfo**](https://msdn.microsoft.com/en-us/library/ms221409(v=VS.71).aspx)<br/>    | Sets the error information object for the current thread of execution.<br/>                                                                                    |
+| [**CreateErrorInfo**](https://msdn.microsoft.com/library/ms221316(v=VS.71).aspx)<br/> | Creates an instance of a generic error object.<br/>                                                                                                            |
+| [**GetErrorInfo**](https://msdn.microsoft.com/library/ms221032(v=VS.71).aspx)<br/>    | Obtains the error information pointer set by the previous call to [**SetErrorInfo**](https://msdn.microsoft.com/library/ms221409(v=VS.71).aspx) in the current logical thread.<br/> |
+| [**SetErrorInfo**](https://msdn.microsoft.com/library/ms221409(v=VS.71).aspx)<br/>    | Sets the error information object for the current thread of execution.<br/>                                                                                    |
 
 
 

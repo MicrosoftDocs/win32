@@ -1,5 +1,5 @@
 ---
-title: MCI_SYSINFO_PARMS structure
+title: MCI_SYSINFO_PARMS structure (Mciapi.h)
 description: The MCI\_SYSINFO\_PARMS structure contains information for the MCI\_SYSINFO command.
 ms.assetid: 433649ed-7c00-440d-84f3-164949e01cc4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -76,7 +76,7 @@ Type of device. This member can be one of the values listed in [MCI Device Types
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -103,7 +103,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SYSINFO**](mci-sysinfo.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,8 +1,8 @@
 ---
 Description: The TransGetCount method retrieves the number of transitions on this object.
 ms.assetid: f7fb4a99-c841-4680-b7f1-e4d887f12707
-title: IAMTimelineTransable::TransGetCount method
-ms.topic: article
+title: IAMTimelineTransable::TransGetCount method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

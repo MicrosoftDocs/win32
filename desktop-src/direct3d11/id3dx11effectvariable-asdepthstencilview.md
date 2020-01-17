@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsDepthStencilView method
+title: ID3DX11EffectVariable AsDepthStencilView method (D3dx11effect.h)
 description: Get a depth-stencil-view variable.
 ms.assetid: 491ca6e1-a74c-4996-a25c-ea40910f0f36
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

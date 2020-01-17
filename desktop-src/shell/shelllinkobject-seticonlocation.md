@@ -1,8 +1,8 @@
 ---
 Description: Sets the location of the icon assigned to the link.
 ms.assetid: 257bb8e2-29fa-4d2f-ac2d-3497cf12959c
-title: ShellLinkObject.SetIconLocation method
-ms.topic: article
+title: ShellLinkObject.SetIconLocation method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ iRetVal = ShellLinkObject.SetIconLocation(
 *sPath* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 The fully qualified path of the file that contains the icon.
 

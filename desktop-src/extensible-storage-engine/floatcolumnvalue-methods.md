@@ -1,5 +1,5 @@
 ---
-title: FloatColumnValue methods (Microsoft.Isam.Esent.Interop)
+title: FloatColumnValue methods
 TOCTitle: FloatColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.FloatColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.floatcolumnvalue_methods(v=EXCHG.10)

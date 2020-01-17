@@ -2,9 +2,6 @@
 title: EAPHost Authenticator Method APIs
 description: EAPHost Authenticator Method APIs
 ms.assetid: f0c2f2a6-f03c-4a63-bf4d-5314d89c8010
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

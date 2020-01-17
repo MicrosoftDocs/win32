@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPipeLineStagesCallback::MeshDataVertCallback method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: E75EDE35-AC8E-4452-B79B-860C39B156F0
 api_name: 

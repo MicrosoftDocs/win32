@@ -1,5 +1,5 @@
 ---
-title: MCM_SETTODAY message
+title: MCM_SETTODAY message (Commctrl.h)
 description: Sets the \ 0034;today \ 0034; selection for a month calendar control. You can send this message explicitly or by using the MonthCal\_SetToday macro.
 ms.assetid: fcd4d33d-e661-4e02-8d19-666d80e1a070
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -18,25 +18,11 @@ The Direct2D Circle sample application draws a circle, as shown in the screen sh
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=195524]( https://go.microsoft.com/fwlink/p/?linkid=195524).
+This sample is available [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/Direct2DCircle).
 
 ## Related topics
 
-<dl> <dt>
-
-[Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
-</dt> <dt>
-
-[First Direct2D Program](your-first-direct2d-program.md)
-</dt> <dt>
-
-[Module 3: Windows Graphics](module-3---windows-graphics.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
+* [First Direct2D Program](your-first-direct2d-program.md)
+* [Module 3: Windows Graphics](module-3---windows-graphics.md)
 

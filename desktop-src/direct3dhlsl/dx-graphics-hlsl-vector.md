@@ -1,5 +1,5 @@
 ---
-title: Vector Type
+title: Vector Type (Frquery.h)
 description: A vector contains between one and four scalar components; every component of a vector must be of the same type.
 ms.assetid: 16e66f3c-c513-4d03-8adf-463dc8d83e12
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - frquery.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

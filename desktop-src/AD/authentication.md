@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentication (AD DS)
 description: Every object in Active Directory Domain Services has a unique security descriptor that defines the access permissions that are required to read or update the object or its individual properties.
 ms.assetid: a4a663d3-b0f3-4993-a74e-9e4f896e8c95
 ms.tgt_platform: multiple
@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Authentication
+# Authentication (AD DS)
 
 Every object in Active Directory Domain Services has a unique security descriptor that defines the access permissions that are required to read or update the object or its individual properties. Access privileges are determined by the rights granted to a user's account or group memberships.
 

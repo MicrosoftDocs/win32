@@ -13,10 +13,10 @@ The [**IWindowsParentalControls**](/windows/desktop/api/Wpcapi/nn-wpcapi-iwindow
 ## In this section
 
 -   [**GetGamesSettings Method**](/windows/desktop/api/Wpcapi/nf-wpcapi-iwindowsparentalcontrols-getgamessettings)
--   [**GetUserSettings Method**](https://msdn.microsoft.com/en-us/library/ms711705(v=VS.85).aspx)
--   [**GetVisibility Method**](https://msdn.microsoft.com/en-us/library/Dd728480(v=VS.85).aspx)
--   [**GetWebFilterInfo Method**](https://msdn.microsoft.com/en-us/library/Dd728481(v=VS.85).aspx)
--   [**GetWebSettings Method**](https://msdn.microsoft.com/en-us/library/ms711916(v=VS.85).aspx)
+-   [**GetUserSettings Method**](https://msdn.microsoft.com/library/ms711705(v=VS.85).aspx)
+-   [**GetVisibility Method**](https://msdn.microsoft.com/library/Dd728480(v=VS.85).aspx)
+-   [**GetWebFilterInfo Method**](https://msdn.microsoft.com/library/Dd728481(v=VS.85).aspx)
+-   [**GetWebSettings Method**](https://msdn.microsoft.com/library/ms711916(v=VS.85).aspx)
 
  
 

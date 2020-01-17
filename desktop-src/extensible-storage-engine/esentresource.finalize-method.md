@@ -1,11 +1,11 @@
 ---
-title: EsentResource.Finalize method  (Microsoft.Isam.Esent.Interop)
+title: EsentResource.Finalize method 
 TOCTitle: 'Finalize method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.Finalize
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresource.finalize(v=EXCHG.10)
 ms:contentKeyID: 55102622
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentResource.Finalize
 dev_langs:

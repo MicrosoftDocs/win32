@@ -1,5 +1,5 @@
 ---
-title: IWMDRMLicenseManagement MonitorLicenseAcquisition method
+title: IWMDRMLicenseManagement MonitorLicenseAcquisition method (Wmdrmsdk.h)
 description: The MonitorLicenseAcquisition method initiates monitoring for a license acquisition process.
 ms.assetid: 725cd51a-a50b-4ff5-a880-7f551f6dba8f
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -137,15 +137,15 @@
         href: bitmap-structures.md
         items: 
         - name: "BITMAP"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagbitmap
+          href: /windows/win32/api/Wingdi/ns-wingdi-bitmap
         - name: "BITMAPCOREHEADER"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreheader
+          href: /windows/win32/api/Wingdi/ns-wingdi-bitmapcoreheader
         - name: "BITMAPCOREINFO"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagbitmapcoreinfo
+          href: /windows/win32/api/Wingdi/ns-wingdi-bitmapcoreinfo
         - name: "BITMAPFILEHEADER"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagbitmapfileheader
+          href: /windows/win32/api/Wingdi/ns-wingdi-bitmapfileheader
         - name: "BITMAPINFO"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagbitmapinfo
+          href: /windows/win32/api/Wingdi/ns-wingdi-bitmapinfo
         - name: "BITMAPINFOHEADER"
           href: https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)
         - name: "BITMAPV4HEADER"
@@ -153,23 +153,23 @@
         - name: "BITMAPV5HEADER"
           href: /windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header
         - name: "BLENDFUNCTION"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_blendfunction
+          href: /windows/win32/api/Wingdi/ns-wingdi-blendfunction
         - name: "COLORADJUSTMENT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagcoloradjustment
+          href: /windows/win32/api/Wingdi/ns-wingdi-coloradjustment
         - name: "DIBSECTION"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagdibsection
+          href: /windows/win32/api/Wingdi/ns-wingdi-dibsection
         - name: "GRADIENT_RECT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_gradient_rect
+          href: /windows/win32/api/Wingdi/ns-wingdi-gradient_rect
         - name: "GRADIENT_TRIANGLE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_gradient_triangle
+          href: /windows/win32/api/Wingdi/ns-wingdi-gradient_triangle
         - name: "RGBQUAD"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagrgbquad
+          href: /windows/win32/api/Wingdi/ns-wingdi-rgbquad
         - name: "RGBTRIPLE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagrgbtriple
+          href: /windows/win32/api/Wingdi/ns-wingdi-rgbtriple
         - name: "SIZE"
           href: https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)
         - name: "TRIVERTEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_trivertex
+          href: /windows/win32/api/Wingdi/ns-wingdi-trivertex
       - name: "Bitmap Macros"
         href: bitmap-macros.md
         items: 
@@ -230,9 +230,9 @@
         href: brush-structures.md
         items: 
         - name: "LOGBRUSH"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taglogbrush
+          href: /windows/win32/api/Wingdi/ns-wingdi-logbrush
         - name: "LOGBRUSH32"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taglogbrush32
+          href: /windows/win32/api/Wingdi/ns-wingdi-logbrush32
   - name: "Clipping"
     href: clipping.md
     items: 
@@ -364,7 +364,7 @@
         - name: "COLORREF"
           href: colorref.md
         - name: "LOGPALETTE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taglogpalette
+          href: /windows/win32/api/Wingdi/ns-wingdi-logpalette
         - name: "PALETTEENTRY"
           href: https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)
       - name: "Color Macros"
@@ -499,7 +499,7 @@
         href: coordinate-space-and-transformation-structures.md
         items: 
         - name: "XFORM"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagxform
+          href: /windows/win32/api/Wingdi/ns-wingdi-xform
   - name: "Device Contexts"
     href: device-contexts.md
     items: 
@@ -541,7 +541,7 @@
         href: obtaining-a-private-display-device-context.md
       - name: "Retrieving the Capabilities of a Printer"
         href: retrieving-the-capabilities-of-a-printer.md
-      - name: "Retrieving Graphic-Object Attributes and Selecting New Graphic Objects"
+      - name: "Retrieve object attributes, select new objects"
         href: retrieving-graphic-object-attributes-and-selecting-new-graphic-objects.md
       - name: "Setting and Retrieving the Device Context Brush Color Value"
         href: setting-and-retrieving-the-device-context-brush-color-value.md
@@ -627,7 +627,7 @@
         href: device-context-structures.md
         items: 
         - name: "DISPLAY_DEVICE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_display_devicea
+          href: /windows/win32/api/Wingdi/ns-wingdi-display_devicea
         - name: "VIDEOPARAMETERS"
           href: https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)
       - name: "Device Context Messages"
@@ -876,63 +876,63 @@
         href: font-and-text-structures.md
         items: 
         - name: "ABC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_abc
+          href: /windows/win32/api/Wingdi/ns-wingdi-abc
         - name: "ABCFLOAT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_abcfloat
+          href: /windows/win32/api/Wingdi/ns-wingdi-abcfloat
         - name: "AXESLIST"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagaxeslista
+          href: /windows/win32/api/Wingdi/ns-wingdi-axeslista
         - name: "AXISINFO"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagaxisinfoa
+          href: /windows/win32/api/Wingdi/ns-wingdi-axisinfoa
         - name: "DESIGNVECTOR"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagdesignvector
+          href: /windows/win32/api/Wingdi/ns-wingdi-designvector
         - name: "DRAWTEXTPARAMS"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagdrawtextparams
+          href: /windows/win32/api/Winuser/ns-winuser-drawtextparams
         - name: "ENUMLOGFONT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagenumlogfonta
+          href: /windows/win32/api/Wingdi/ns-wingdi-enumlogfonta
         - name: "ENUMLOGFONTEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagenumlogfontexa
+          href: /windows/win32/api/Wingdi/ns-wingdi-enumlogfontexa
         - name: "ENUMLOGFONTEXDV"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagenumlogfontexdva
+          href: /windows/win32/api/Wingdi/ns-wingdi-enumlogfontexdva
         - name: "ENUMTEXTMETRIC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagenumtextmetrica
+          href: /windows/win32/api/Wingdi/ns-wingdi-enumtextmetrica
         - name: "EXTLOGFONT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagextlogfonta
+          href: /windows/win32/api/Wingdi/ns-wingdi-extlogfonta
         - name: "FIXED"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_fixed
+          href: /windows/win32/api/Wingdi/ns-wingdi-fixed
         - name: "GCP_RESULTS"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taggcp_resultsa
+          href: /windows/win32/api/Wingdi/ns-wingdi-gcp_resultsa
         - name: "GLYPHMETRICS"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_glyphmetrics
+          href: /windows/win32/api/Wingdi/ns-wingdi-glyphmetrics
         - name: "GLYPHSET"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagglyphset
+          href: /windows/win32/api/Wingdi/ns-wingdi-glyphset
         - name: "KERNINGPAIR"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagkerningpair
+          href: /windows/win32/api/Wingdi/ns-wingdi-kerningpair
         - name: "LOGFONT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taglogfonta
+          href: /windows/win32/api/Wingdi/ns-wingdi-logfonta
         - name: "MAT2"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_mat2
+          href: /windows/win32/api/Wingdi/ns-wingdi-mat2
         - name: "NEWTEXTMETRIC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetrica
+          href: /windows/win32/api/Wingdi/ns-wingdi-newtextmetrica
         - name: "NEWTEXTMETRICEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetricexa
+          href: /windows/win32/api/Wingdi/ns-wingdi-newtextmetricexa
         - name: "OUTLINETEXTMETRIC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_outlinetextmetrica
+          href: /windows/win32/api/Wingdi/ns-wingdi-outlinetextmetrica
         - name: "PANOSE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagpanose
+          href: /windows/win32/api/Wingdi/ns-wingdi-panose
         - name: "POINTFX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagpointfx
+          href: /windows/win32/api/Wingdi/ns-wingdi-pointfx
         - name: "POLYTEXT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagpolytexta
+          href: /windows/win32/api/Wingdi/ns-wingdi-polytexta
         - name: "RASTERIZER_STATUS"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_rasterizer_status
+          href: /windows/win32/api/Wingdi/ns-wingdi-rasterizer_status
         - name: "TEXTMETRIC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagtextmetrica
+          href: /windows/win32/api/Wingdi/ns-wingdi-textmetrica
         - name: "TTPOLYCURVE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagttpolycurve
+          href: /windows/win32/api/Wingdi/ns-wingdi-ttpolycurve
         - name: "TTPOLYGONHEADER"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagttpolygonheader
+          href: /windows/win32/api/Wingdi/ns-wingdi-ttpolygonheader
         - name: "WCRANGE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagwcrange
+          href: /windows/win32/api/Wingdi/ns-wingdi-wcrange
       - name: "Font and Text Macros"
         href: font-and-text-macros.md
         items: 
@@ -1159,153 +1159,153 @@
         href: metafile-structures.md
         items: 
         - name: "EMR"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemr
+          href: /windows/win32/api/Wingdi/ns-wingdi-emr
         - name: "EMRALPHABLEND"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemralphablend
+          href: /windows/win32/api/Wingdi/ns-wingdi-emralphablend
         - name: "EMRANGLEARC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemranglearc
+          href: /windows/win32/api/Wingdi/ns-wingdi-emranglearc
         - name: "EMRARC, EMRARCTO, EMRCHORD, EMRPIE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrarc
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrarc
         - name: "EMRBITBLT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrbitblt
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrbitblt
         - name: "EMRCOLORCORRECTPALETTE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagcolorcorrectpalette
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcolorcorrectpalette
         - name: "EMRCOLORMATCHTOTARGET"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagcolormatchtotarget
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcolormatchtotarget
         - name: "EMRCREATEBRUSHINDIRECT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatebrushindirect
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatebrushindirect
         - name: "EMRCREATECOLORSPACE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatecolorspace
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatecolorspace
         - name: "EMRCREATECOLORSPACEW"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatecolorspacew
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatecolorspacew
         - name: "EMRCREATEDIBPATTERNBRUSHPT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatedibpatternbrushpt
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatedibpatternbrushpt
         - name: "EMRCREATEMONOBRUSH"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatemonobrush
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatemonobrush
         - name: "EMRCREATEPALETTE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatepalette
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatepalette
         - name: "EMRCREATEPEN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrcreatepen
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrcreatepen
         - name: "EMRELLIPSE, EMRRECTANGLE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrellipse
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrellipse
         - name: "EMREOF"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemreof
+          href: /windows/win32/api/Wingdi/ns-wingdi-emreof
         - name: "EMREXCLUDECLIPRECT, EMRINTERSECTCLIPRECT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrexcludecliprect
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrexcludecliprect
         - name: "EMREXTCREATEFONTINDIRECTW"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrextcreatefontindirectw
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrextcreatefontindirectw
         - name: "EMREXTCREATEPEN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrextcreatepen
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrextcreatepen
         - name: "EMREXTFLOODFILL"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrextfloodfill
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrextfloodfill
         - name: "EMREXTSELECTCLIPRGN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrextselectcliprgn
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrextselectcliprgn
         - name: "EMREXTTEXTOUTA, EMREXTTEXTOUTW"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrexttextouta
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrexttextouta
         - name: "EMRFILLPATH, EMRSTROKEANDFILLPATH, EMRSTROKEPATH"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrfillpath
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrfillpath
         - name: "EMRFILLRGN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrfillrgn
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrfillrgn
         - name: "EMRFORMAT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrformat
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrformat
         - name: "EMRFRAMERGN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrframergn
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrframergn
         - name: "EMRGDICOMMENT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrgdicomment
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrgdicomment
         - name: "EMRGLSBOUNDEDRECORD"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrglsboundedrecord
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrglsboundedrecord
         - name: "EMRGLSRECORD"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrglsrecord
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrglsrecord
         - name: "EMRGRADIENTFILL"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrgradientfill
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrgradientfill
         - name: "EMRINVERTRGN, EMRPAINTRGN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrinvertrgn
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrinvertrgn
         - name: "EMRLINETO, EMRMOVETOEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrlineto
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrlineto
         - name: "EMRMASKBLT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrmaskblt
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrmaskblt
         - name: "EMRMODIFYWORLDTRANSFORM"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrmodifyworldtransform
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrmodifyworldtransform
         - name: "EMROFFSETCLIPRGN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemroffsetcliprgn
+          href: /windows/win32/api/Wingdi/ns-wingdi-emroffsetcliprgn
         - name: "EMRPIXELFORMAT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpixelformat
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpixelformat
         - name: "EMRPLGBLT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrplgblt
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrplgblt
         - name: "EMRPOLYDRAW"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolydraw
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolydraw
         - name: "EMRPOLYDRAW16"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolydraw16
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolydraw16
         - name: "EMRPOLYLINE, EMRPOLYBEZIER, EMRPOLYGON, EMRPOLYBEZIERTO, EMRPOLYLINETO"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolyline
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolyline
         - name: "EMRPOLYLINE16, EMRPOLYBEZIER16, EMRPOLYGON16, EMRPOLYBEZIERTO16, EMRPOLYLINETO16"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolyline16
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolyline16
         - name: "EMRPOLYPOLYLINE, EMRPOLYPOLYGON"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolypolyline
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolypolyline
         - name: "EMRPOLYPOLYLINE16, EMRPOLYPOLYGON16"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolypolyline16
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolypolyline16
         - name: "EMRPOLYTEXTOUTA, EMRPOLYTEXTOUTW"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrpolytextouta
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrpolytextouta
         - name: "EMRRESIZEPALETTE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrresizepalette
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrresizepalette
         - name: "EMRRESTOREDC"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrrestoredc
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrrestoredc
         - name: "EMRROUNDRECT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrroundrect
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrroundrect
         - name: "EMRSCALEVIEWPORTEXTEX, EMRSCALEWINDOWEXTEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrscaleviewportextex
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrscaleviewportextex
         - name: "EMRSETCOLORSPACE, EMRSELECTCOLORSPACE, EMRDELETECOLORSPACE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetcolorspace
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetcolorspace
         - name: "EMRSELECTOBJECT, EMRDELETEOBJECT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrselectobject
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrselectobject
         - name: "EMRSELECTPALETTE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrselectpalette
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrselectpalette
         - name: "EMRSETARCDIRECTION"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetarcdirection
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetarcdirection
         - name: "EMRSETBKCOLOR, EMRSETTEXTCOLOR"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsettextcolor
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetbkcolor
         - name: "EMRSETCOLORADJUSTMENT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetcoloradjustment
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetcoloradjustment
         - name: "EMRSETDIBITSTODEVICE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetdibitstodevice
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetdibitstodevice
         - name: "EMRSETICMPROFILE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrseticmprofile
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrseticmprofile
         - name: "EMRSETMAPPERFLAGS"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetmapperflags
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetmapperflags
         - name: "EMRSETMITERLIMIT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetmiterlimit
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetmiterlimit
         - name: "EMRSETPALETTEENTRIES"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetpaletteentries
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetpaletteentries
         - name: "EMRSETPIXELV"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetpixelv
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetpixelv
         - name: "EMRSETVIEWPORTEXTEX, EMRSETWINDOWEXTEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetviewportextex
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetviewportextex
         - name: "EMRSETVIEWPORTORGEX, EMRSETWINDOWORGEX, EMRSETBRUSHORGEX"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetviewportorgex
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetviewportorgex
         - name: "EMRSETWORLDTRANSFORM"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrsetworldtransform
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrsetworldtransform
         - name: "EMRSTRETCHBLT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrstretchblt
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrstretchblt
         - name: "EMRSTRETCHDIBITS"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrstretchdibits
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrstretchdibits
         - name: "EMRTEXT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrtext
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrtext
         - name: "EMRTRANSPARENTBLT"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrtransparentblt
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrtransparentblt
         - name: "Enhanced Metafile Records with No Parameters"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagabortpath
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrabortpath
         - name: "Enhanced Metafile Records with One Parameter"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagemrselectclippath
+          href: /windows/win32/api/Wingdi/ns-wingdi-emrselectclippath
         - name: "ENHMETAHEADER"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagenhmetaheader
+          href: /windows/win32/api/Wingdi/ns-wingdi-enhmetaheader
         - name: "ENHMETARECORD"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagenhmetarecord
+          href: /windows/win32/api/Wingdi/ns-wingdi-enhmetarecord
         - name: "HANDLETABLE"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taghandletable
+          href: /windows/win32/api/Wingdi/ns-wingdi-handletable
         - name: "METAHEADER"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagmetaheader
+          href: /windows/win32/api/Wingdi/ns-wingdi-metaheader
         - name: "METARECORD"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagmetarecord
+          href: /windows/win32/api/Wingdi/ns-wingdi-metarecord
         - name: "POINTL"
           href: https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)
         - name: "RECTL"
@@ -1366,9 +1366,9 @@
         href: multiple-display-monitors-structures.md
         items: 
         - name: "MONITORINFO"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmonitorinfo
+          href: /windows/win32/api/Winuser/ns-winuser-monitorinfo
         - name: "MONITORINFOEX"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagmonitorinfoexa
+          href: /windows/win32/api/Winuser/ns-winuser-monitorinfoexa
   - name: "Painting and Drawing"
     href: painting-and-drawing.md
     items: 
@@ -1533,7 +1533,7 @@
         href: painting-and-drawing-structures.md
         items: 
         - name: "PAINTSTRUCT"
-          href: /windows/desktop/api/Winuser/ns-winuser-tagpaintstruct
+          href: /windows/win32/api/Winuser/ns-winuser-paintstruct
       - name: "Painting and Drawing Messages"
         href: painting-and-drawing-messages.md
         items: 
@@ -1657,9 +1657,9 @@
         href: pen-structures.md
         items: 
         - name: "EXTLOGPEN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-tagextlogpen
+          href: /windows/win32/api/Wingdi/ns-wingdi-extlogpen
         - name: "LOGPEN"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-taglogpen
+          href: /windows/win32/api/Wingdi/ns-wingdi-logpen
   - name: "Rectangles"
     href: rectangles.md
     items: 
@@ -1813,6 +1813,6 @@
         href: region-structures.md
         items: 
         - name: "RGNDATA"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_rgndata
+          href: /windows/win32/api/Wingdi/ns-wingdi-rgndata
         - name: "RGNDATAHEADER"
-          href: /windows/desktop/api/Wingdi/ns-wingdi-_rgndataheader
+          href: /windows/win32/api/Wingdi/ns-wingdi-rgndataheader

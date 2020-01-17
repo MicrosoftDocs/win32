@@ -44,21 +44,21 @@ This topic describes VML, a feature that is deprecated as of Windows Internet Ex
 
  
 
-Using <stroke>
+Using `<stroke>`
 
-As you've learned, you can use the **strokecolor** and **strokeweight** property attributes of a predefined shape -- such as <oval> , <line>, <polyline>, <curve>, <rect>, <roundrect>, <arc> -- to specify the color and weight of a shape's outline. In this topic, we will illustrate how to draw a shape that has a more advanced outline.
+As you've learned, you can use the **strokecolor** and **strokeweight** property attributes of a predefined shape -- such as `<oval>` , `<line>`, `<polyline>`, `<curve>`, `<rect>`, `<roundrect>`, `<arc>` -- to specify the color and weight of a shape's outline. In this topic, we will illustrate how to draw a shape that has a more advanced outline.
 
-You can place the <stroke> sub-element inside the <shape>, or <shapetype>, or any predefined shape element to describe how to draw the outline of the shape. You can then use the property attributes -- for example, [dashstyle](#dashstyle), [opacity](#opacity), [linestyle](#linestyle), [joinstyle](#joinstyle), [filltype](#filltype) -- of the <stroke> sub-element to customize the outline.
+You can place the `<stroke>` sub-element inside the `<shape>`, or `<shapetype>`, or any predefined shape element to describe how to draw the outline of the shape. You can then use the property attributes -- for example, [dashstyle](#dashstyle), [opacity](#opacity), [linestyle](#linestyle), [joinstyle](#joinstyle), [filltype](#filltype) -- of the `<stroke>` sub-element to customize the outline.
 
 [![back to top](images/top.gif) Back to top](#top)
 
 ## dashstyle
 
-You can use the **dashstyle** property attribute of the <stroke> sub-element to draw an outline with various dash styles.
+You can use the **dashstyle** property attribute of the `<stroke>` sub-element to draw an outline with various dash styles.
 
 **Examples:**
 
-If you specify `<v:stroke dashstyle="solid" />` inside the <line> element, you can create a solid line, as shown in the following VML representation:
+If you specify `<v:stroke dashstyle="solid" />` inside the `<line>` element, you can create a solid line, as shown in the following VML representation:
 
 ![solid.gif (96 bytes)](images/solid.gif)
 
@@ -154,7 +154,7 @@ strokecolor="red" strokeweight="2pt">
 
 [Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/longdashdot.md)
 
-If you place `<v:stroke dashstyle="dashdot" />` inside the <rect> element, you can create a rectangle that has a dashed and dotted outline, as shown in the following VML representation:
+If you place `<v:stroke dashstyle="dashdot" />` inside the `<rect>` element, you can create a rectangle that has a dashed and dotted outline, as shown in the following VML representation:
 
 ![rect.gif (615 bytes)](images/rect.gif)
 
@@ -173,7 +173,7 @@ If you place `<v:stroke dashstyle="dashdot" />` inside the <rect> element, you c
 
 ## opacity
 
-You can use the **opacity** property attribute of the <stroke> sub-element to draw an outline with various opacity styles. The value for the **opacity** property attribute can be any number between 0 to 1. By default, it is 1, indicating full opacity.
+You can use the **opacity** property attribute of the `<stroke>` sub-element to draw an outline with various opacity styles. The value for the **opacity** property attribute can be any number between 0 to 1. By default, it is 1, indicating full opacity.
 
 **Examples:**
 
@@ -192,7 +192,7 @@ strokeweight="2pt">
 
 [Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/Opacity/Line1.md)
 
-If you add `<v:stroke opacity="0.5" />` inside the <line> element, you can create a line with 50% opacity, as shown in the following VML representation:
+If you add `<v:stroke opacity="0.5" />` inside the `<line>` element, you can create a line with 50% opacity, as shown in the following VML representation:
 
 ![line2.gif (108 bytes)](images/line2.gif)
 
@@ -212,11 +212,11 @@ strokeweight="2pt">
 
 ## linestyle
 
-You can use the **linestyle** property attribute of the <stroke> sub-element to draw an outline with various line styles.
+You can use the **linestyle** property attribute of the `<stroke>` sub-element to draw an outline with various line styles.
 
 **Examples:**
 
-If you specify `<v:stroke linestyle="single" />` inside the <rect> element, you can create a rectangle with a single outline, as shown in the following VML representation:
+If you specify `<v:stroke linestyle="single" />` inside the `<rect>` element, you can create a rectangle with a single outline, as shown in the following VML representation:
 
 ![single.gif (537 bytes)](images/single.gif)
 
@@ -299,9 +299,9 @@ strokeweight="10pt">
 
 ## joinstyle
 
-You can use the **joinstyle** attribute of the <stroke> sub-element to define how lines are joined together.
+You can use the **joinstyle** attribute of the `<stroke>` sub-element to define how lines are joined together.
 
-For example, to create a shape that has the round-join outline, as shown in the following illustration, you can specify `<v:stroke joinstyle="round" />` inside the <polyline> element, as shown in the following VML representation:
+For example, to create a shape that has the round-join outline, as shown in the following illustration, you can specify `<v:stroke joinstyle="round" />` inside the `<polyline>` element, as shown in the following VML representation:
 
 ![round.gif (660 bytes)](images/round.gif)
 
@@ -356,11 +356,11 @@ strokecolor="red" strokeweight="20pt">
 
 ## filltype
 
-You can use the **filltype** property attribute of the <stroke> sub-element to draw an outline with various fill effects.
+You can use the **filltype** property attribute of the `<stroke>` sub-element to draw an outline with various fill effects.
 
 **Examples:**
 
-If you specify `<v:stroke filltype="solid" />` inside the <roundrect> element, you can create a rounded rectangle with the solid-filled outline, as shown in the following VML representation:
+If you specify `<v:stroke filltype="solid" />` inside the `<roundrect>` element, you can create a rounded rectangle with the solid-filled outline, as shown in the following VML representation:
 
 ![solid.gif (701 bytes)](images/solidborder.gif)
 

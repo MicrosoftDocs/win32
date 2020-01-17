@@ -1,5 +1,5 @@
 ---
-title: CBEM_GETCOMBOCONTROL message
+title: CBEM_GETCOMBOCONTROL message (Commctrl.h)
 description: Gets the handle to the child combo box control.
 ms.assetid: b7eb8607-79c5-4dc8-b835-4014093532e4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 Description: The CIM\_ManagedSystemElement class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class.
 ms.assetid: f1b952f4-4bed-4420-ad5d-62478846be8e
 ms.tgt_platform: multiple
-title: CIM_ManagedSystemElement class
-ms.topic: article
+title: CIM_ManagedSystemElement class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

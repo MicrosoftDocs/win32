@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 Script on a webpage can use the Player object model to control the Player as the user interacts with the page. For example, the following INPUT element has script that sets the Player volume.
 
 
-```C++
+```HTML
 <INPUT type="button" value="Vol" OnClick="ChangeVolume()"/>
  
 <SCRIPT>

@@ -1,5 +1,5 @@
 ---
-title: DRM_ATTR_DATATYPE enumeration
+title: DRM_ATTR_DATATYPE enumeration (Wmdrmsdk.h)
 description: The DRM\_ATTR\_DATATYPE enumeration defines the data types used for DRM attributes and properties.
 ms.assetid: ccad16e2-475d-4cc7-b773-f17038d2754a
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -65,13 +65,13 @@ If functionality in a credential provider is needed that is not included nativel
 [Credential Provider driven Windows Logon Experience](https://go.microsoft.com/fwlink/?LinkId=717287)
 </dt> <dt>
 
-[**ICredentialProvider**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider)
+[ICredentialProvider](https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovider)
 </dt> <dt>
 
-[**CREDENTIAL\_PROVIDER\_CREDENTIAL\_SERIALIZATION**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization)
+[CREDENTIAL\_PROVIDER\_CREDENTIAL\_SERIALIZATION](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization)
 </dt> <dt>
 
-[**CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO**](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario)
+[CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO](https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario)
 </dt> </dl>
 
  

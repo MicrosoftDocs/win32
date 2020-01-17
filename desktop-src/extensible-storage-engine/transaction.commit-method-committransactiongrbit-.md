@@ -1,11 +1,11 @@
 ---
-title: Transaction.Commit method (CommitTransactionGrbit) (Microsoft.Isam.Esent.Interop)
+title: Transaction.Commit method (CommitTransactionGrbit)
 TOCTitle: Commit method (CommitTransactionGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Commit(Microsoft.Isam.Esent.Interop.CommitTransactionGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.transaction.commit(v=EXCHG.10)
 ms:contentKeyID: 55104071
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

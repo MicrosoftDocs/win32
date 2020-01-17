@@ -1,5 +1,5 @@
 ---
-title: WM_SETHOTKEY message
+title: WM_SETHOTKEY message (Winuser.h)
 description: Sent to a window to associate a hot key with the window. When the user presses the hot key, the system activates the window.
 ms.assetid: b2c7e6ca-da71-440b-a05e-17f2da419d18
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -89,7 +89,7 @@ When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](h
 
 A window can only have one hot key. If the window already has a hot key associated with it, the new hot key replaces the old one. If more than one window has the same hot key, the window that is activated by the hot key is random.
 
-These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx).
+These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx).
 
 ## Requirements
 
@@ -110,7 +110,7 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](https:/
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx)
+[**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETHOTKEY**](wm-gethotkey.md)

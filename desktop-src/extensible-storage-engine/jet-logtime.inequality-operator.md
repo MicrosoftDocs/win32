@@ -1,11 +1,11 @@
 ---
-title: JET_LOGTIME.Inequality operator  (Microsoft.Isam.Esent.Interop)
+title: JET_LOGTIME.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.op_Inequality(Microsoft.Isam.Esent.Interop.JET_LOGTIME,Microsoft.Isam.Esent.Interop.JET_LOGTIME)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_logtime.op_inequality(v=EXCHG.10)
 ms:contentKeyID: 39511232
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_LOGTIME.Inequality
 dev_langs:

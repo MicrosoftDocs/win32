@@ -1,8 +1,8 @@
 ---
 Description: Semantics map a parameter to vertex or pixel shader registers. They can also be optional descriptive strings attached to non-register parameters.
 ms.assetid: 547a6ff3-be24-4299-9119-6719ad09b4ef
-title: D3DXSEMANTIC structure
-ms.topic: structure
+title: D3DXSEMANTIC structure (D3dx9shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,18 +38,18 @@ typedef struct D3DXSEMANTIC {
 **Usage**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Options that identify how resources are used. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx).
+Options that identify how resources are used. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
 
 </dd> <dt>
 
 **UsageIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

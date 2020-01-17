@@ -1,8 +1,8 @@
 ---
 Description: Enables server-side pages hosted in a wizard to verify that the user has been authenticated through a Microsoft account.
 ms.assetid: 8b99eb84-c434-489a-b177-1e00f18d2dcc
-title: NewWDEvents.PassportAuthenticate method
-ms.topic: article
+title: NewWDEvents.PassportAuthenticate method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -37,7 +37,7 @@ bRetVal = NewWDEvents.PassportAuthenticate(
 *bstrSignInUrl* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A string containing the URL of a webpage that redirects to the Microsoft account log on UI.
 

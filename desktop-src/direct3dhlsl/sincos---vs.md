@@ -2,10 +2,10 @@
 title: sincos - vs
 description: Computes sine and cosine, in radians.
 ms.assetid: 733a3980-ceaf-43dc-a862-923c369e4a65
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

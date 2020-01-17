@@ -1,5 +1,5 @@
 ---
-title: HDM_GETITEMDROPDOWNRECT message
+title: HDM_GETITEMDROPDOWNRECT message (Commctrl.h)
 description: Gets the bounding rectangle of the split button for a header item with style HDF\_SPLITBUTTON. Send this message explicitly or by using the Header\_GetItemDropDownRect macro.
 ms.assetid: d7188dfb-4ffa-4641-b210-2c2ec480ca13
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

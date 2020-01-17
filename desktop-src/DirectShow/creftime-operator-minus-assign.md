@@ -1,8 +1,8 @@
 ---
 Description: The -= operator subtracts one reference time from another.
 ms.assetid: 5b0ec72e-87d8-4562-96b1-40e4f5036fd4
-title: CRefTime.operator-= method
-ms.topic: article
+title: CRefTime.operator-= method (Reftime.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

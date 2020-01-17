@@ -1,8 +1,8 @@
 ---
 Description: The Windows Media Video 7/8 encoder implements previous versions of the Windows Media Video encoder.
 ms.assetid: c4165614-b9ec-4216-b36c-f57bc05e3a8e
-title: Windows Media Video 7/8 Encoder
-ms.topic: article
+title: Windows Media Video 7/8 Encoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ The class identifier (CLSID) for the Windows Media Video 7/8 encoder is **CLSID\
 
 ## Interfaces
 
-A video encoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
+A video encoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A video encoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a video encoder behaves as a DMO or an MFT.
 

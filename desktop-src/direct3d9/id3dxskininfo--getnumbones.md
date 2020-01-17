@@ -1,8 +1,8 @@
 ---
 Description: Gets the number of bones.
 ms.assetid: 1079dfa2-7b95-4f80-a622-87fa74348ddc
-title: ID3DXSkinInfo::GetNumBones method
-ms.topic: article
+title: ID3DXSkinInfo::GetNumBones method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the number of bones.
 

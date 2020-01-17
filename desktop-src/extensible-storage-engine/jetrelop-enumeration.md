@@ -5,7 +5,7 @@ ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JetRelop
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jetrelop(v=EXCHG.10)
 ms:contentKeyID: 55104456
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Windows8.JetRelop
 - Microsoft.Isam.Esent.Interop.Windows8.JetRelop.BitmaskEqualsZero

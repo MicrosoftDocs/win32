@@ -1,5 +1,5 @@
 ---
-title: glColorMask function
+title: glColorMask function (Gl.h)
 description: The glColorMask function enables and disables writing of frame-buffer color components.
 ms.assetid: 23d7f94e-f290-423c-a841-f86caf94009d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

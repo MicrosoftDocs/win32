@@ -1,8 +1,8 @@
 ---
 Description: Contains the sample description box for an MP4 or 3GP file.
 ms.assetid: ea157988-bd15-465c-bd6a-6d33cc1a0323
-title: MF_MT_MPEG4_SAMPLE_DESCRIPTION attribute
-ms.topic: article
+title: MF_MT_MPEG4_SAMPLE_DESCRIPTION attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

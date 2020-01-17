@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetGroupByName method
+title: ID3DX11Effect GetGroupByName method (D3dx11effect.h)
 description: Gets an effect group by name.
 ms.assetid: 14b4b484-848a-409c-9a99-207ab25b7566
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

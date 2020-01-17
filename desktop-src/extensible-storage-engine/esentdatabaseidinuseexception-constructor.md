@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseIdInUseException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseIdInUseException constructor 
 TOCTitle: 'EsentDatabaseIdInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseidinuseexception.esentdatabaseidinuseexception(v=EXCHG.10)
 ms:contentKeyID: 55101364
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException.EsentDatabaseIdInUseException
 dev_langs:

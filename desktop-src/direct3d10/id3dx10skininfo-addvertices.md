@@ -1,8 +1,8 @@
 ---
 Description: Allocate space for additional vertices.
 ms.assetid: dd6445ea-4754-4ba3-a264-59295325ee08
-title: ID3DX10SkinInfo::AddVertices method
-ms.topic: article
+title: ID3DX10SkinInfo::AddVertices method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT AddVertices(
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of vertices to add.
 
@@ -46,7 +46,7 @@ The number of vertices to add.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If this method succeeds, the return value is S\_OK. If the method fails, the return value can be: E\_OUTOFMEMORY.
 

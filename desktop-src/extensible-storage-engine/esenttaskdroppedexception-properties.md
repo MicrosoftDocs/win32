@@ -1,5 +1,5 @@
 ---
-title: EsentTaskDroppedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentTaskDroppedException properties
 TOCTitle: EsentTaskDroppedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttaskdroppedexception_properties(v=EXCHG.10)

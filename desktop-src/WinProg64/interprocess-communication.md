@@ -1,5 +1,5 @@
 ---
-title: Interprocess Communication Between 32-bit and 64-bit Applications
+title: Interprocess communication
 description: The following techniques can be used for communication between 32-bit and 64-bit applications.
 ms.assetid: 9a60ccfe-4ccf-44d7-9522-42609d95217b
 keywords:
@@ -23,7 +23,3 @@ A 64-bit executable file located under %windir%\\System32 cannot be launched fro
  
 
  
-
-
-
-

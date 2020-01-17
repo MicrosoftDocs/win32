@@ -1,8 +1,8 @@
 ---
 Description: An HRECOCONTEXT handle is used to add ink to the context, perform ink recognition (synchronously or asynchronously), retrieve the recognition result, and retrieve alternates.
 ms.assetid: 509188e2-28af-4915-bc76-ee451133398f
-title: HRECOCONTEXT Handle
-ms.topic: article
+title: HRECOCONTEXT Handle (Recapis.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,8 +35,8 @@ The following are the **HRECOCONTEXT** functions
 | [**AdviseInkChange**](/windows/desktop/api/recapis/nf-recapis-adviseinkchange)                          | Stops the recognizer from processing ink because a new stroke is being added or deleted.<br/>                                                                                                                                                         |
 | [**CloneContext**](/windows/desktop/api/recapis/nf-recapis-clonecontext)                                | Creates a recognizer context that contains the same settings as the original. The new recognizer context does not include the ink or recognition results of the original.<br/>                                                                        |
 | [**EndInkInput**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput)             | Indicates that no more ink will be added to the context.<br/>                                                                                                                                                                                         |
-| [**GetAlternateList**](https://msdn.microsoft.com/en-us/library/ms698163(v=VS.85).aspx)                        | Returns a list of alternates for the best result string.<br/>                                                                                                                                                                                         |
-| [**GetBestAlternate**](https://msdn.microsoft.com/en-us/library/ms699575(v=VS.85).aspx)                        | Returns an [HRECOALT Handle](hrecoalt-handle.md) pointer for the best result alternate.<br/>                                                                                                                                                         |
+| [**GetAlternateList**](https://msdn.microsoft.com/library/ms698163(v=VS.85).aspx)                        | Returns a list of alternates for the best result string.<br/>                                                                                                                                                                                         |
+| [**GetBestAlternate**](https://msdn.microsoft.com/library/ms699575(v=VS.85).aspx)                        | Returns an [HRECOALT Handle](hrecoalt-handle.md) pointer for the best result alternate.<br/>                                                                                                                                                         |
 | [**GetBestResultString**](/windows/desktop/api/recapis/nf-recapis-getbestresultstring)                  | Returns the best result string.<br/>                                                                                                                                                                                                                  |
 | [**GetContextPropertyList**](/windows/desktop/api/recapis/nf-recapis-getcontextpropertylist)            | Returns a list of properties the recognizer supports.<br/>                                                                                                                                                                                            |
 | [**GetContextPropertyValue**](/windows/desktop/api/recapis/nf-recapis-getcontextpropertyvalue)          | Returns a specified property value from the recognizer context.<br/>                                                                                                                                                                                  |

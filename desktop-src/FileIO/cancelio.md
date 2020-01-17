@@ -1,8 +1,8 @@
 ---
 Description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4
-title: CancelIo function
-ms.topic: article
+title: CancelIo function (IoAPI.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

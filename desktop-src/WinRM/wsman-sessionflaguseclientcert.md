@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagUseClientCertificate method
+title: WSMan.SessionFlagUseClientCertificate method (WSManDisp.h)
 description: Returns the value of the WSManFlagUseClientCertificate authentication flag for use in the flags parameter of the WSMan.CreateSession method.
 ms.assetid: b0ec4dbb-3a98-45e8-8f6b-74b858d6c3fc
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

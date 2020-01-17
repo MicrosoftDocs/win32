@@ -1,5 +1,5 @@
 ---
-title: TF_LBI_ Constants
+title: TF_LBI_ Constants (Ctfutb.h)
 description: The TF\_LBI\_\ constants are used with the ITfLangBarItemSink OnUpdate method to indicate which language bar items changed.
 ms.assetid: ed84012f-19ba-43b3-bbb5-7373ed174c33
 topic_type:
@@ -18,7 +18,7 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

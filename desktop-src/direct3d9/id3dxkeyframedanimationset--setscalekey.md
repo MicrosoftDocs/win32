@@ -1,8 +1,8 @@
 ---
 Description: Set scale information for a specific key frame in the animation set.
 ms.assetid: b606e5d3-11c9-4997-ad3c-d3ae21c32e10
-title: ID3DXKeyframedAnimationSet::SetScaleKey method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::SetScaleKey method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT SetScaleKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation index.
 
@@ -49,7 +49,7 @@ Animation index.
 *Key* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Key frame.
 
@@ -66,7 +66,7 @@ Pointer to the scale data. See [**D3DXKEY\_VECTOR3**](d3dxkey-vector3.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

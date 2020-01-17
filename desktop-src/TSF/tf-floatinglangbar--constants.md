@@ -1,5 +1,5 @@
 ---
-title: TF_FLOATINGLANGBAR_ Constants
+title: TF_FLOATINGLANGBAR_ Constants (Ctfutb.h)
 description: The define a TF\_FLOATINGLANGBAR\_\ constants string for the title of the language bar window.
 ms.assetid: 05394b71-2cc3-440e-943b-d69ee0432fb0
 topic_type:
@@ -12,7 +12,7 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

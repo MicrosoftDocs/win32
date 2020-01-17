@@ -1,11 +1,11 @@
 ---
-title: JET_COLUMNLIST.columnidcbMax property  (Microsoft.Isam.Esent.Interop)
+title: JET_COLUMNLIST.columnidcbMax property 
 TOCTitle: 'columnidcbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidcbMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnlist.columnidcbmax(v=EXCHG.10)
 ms:contentKeyID: 55103518
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidcbMax
 dev_langs:

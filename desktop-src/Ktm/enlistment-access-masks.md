@@ -1,8 +1,8 @@
 ---
 Description: KTM defines the following enlistment access masks to be used when opening enlistments.
 ms.assetid: 93773eb7-141a-49f3-9306-ffbda2f4ab9f
-title: Enlistment Access Masks
-ms.topic: article
+title: Enlistment Access Masks (WinNT.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

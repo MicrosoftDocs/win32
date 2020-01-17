@@ -1,8 +1,8 @@
 ---
 Description: A callback for the user to save a .x file template.
 ms.assetid: c2e29495-5eeb-42b8-826e-1a60c1c6bda2
-title: ID3DXSaveUserData::SaveTemplates method
-ms.topic: article
+title: ID3DXSaveUserData::SaveTemplates method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,9 +46,9 @@ Pointer to a .x file save object. Do not use this parameter to add data objects.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
-The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](https://msdn.microsoft.com/en-us/library/Bb172825(v=VS.85).aspx), as this will cause [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) to fail also, and return the error.
+The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](https://msdn.microsoft.com/library/Bb172825(v=VS.85).aspx), as this will cause [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) to fail also, and return the error.
 
 ## Remarks
 

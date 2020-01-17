@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseDirtyShutdownException methods (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseDirtyShutdownException methods
 TOCTitle: EsentDatabaseDirtyShutdownException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasedirtyshutdownexception_methods(v=EXCHG.10)

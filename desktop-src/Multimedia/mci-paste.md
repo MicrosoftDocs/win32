@@ -1,5 +1,5 @@
 ---
-title: MCI_PASTE command
+title: MCI_PASTE command (Mmsystem.h)
 description: The MCI\_PASTE command pastes data from the clipboard into a file. Digital-video devices recognize this command.
 ms.assetid: cad5799a-08ef-4e34-803a-415b937d8fbd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_PASTE command pastes data from the clipboard into a file. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

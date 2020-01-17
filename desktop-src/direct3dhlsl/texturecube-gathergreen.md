@@ -1,5 +1,5 @@
 ---
-title: TextureCube GatherGreen methods
+title: TextureCube::TextureCube GatherGreen methods
 description: Samples a texture and returns the green component.
 ms.assetid: F70AA57B-D54C-4F78-ABD1-7F8D3AD44997
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

@@ -1,5 +1,5 @@
 ---
-title: atan2
+title: atan2 (Corecrt\_math.h)
 description: Returns the arctangent of two values (x,y).
 ms.assetid: e7b53751-f321-4390-8f8f-ec1fa3aaa798
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 Description: The InstallProperty property is the value of the property for the instance of this product. This property calls the MsiGetProductInfoEx function, with the ProductCode, UserSid and Context of the Product object and the requested property as a parameter.
 ms.assetid: 945c11fe-39da-43b7-a19f-e6364d5e715c
 title: Product.InstallProperty method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

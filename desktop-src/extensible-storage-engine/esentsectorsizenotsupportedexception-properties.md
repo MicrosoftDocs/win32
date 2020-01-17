@@ -1,5 +1,5 @@
 ---
-title: EsentSectorSizeNotSupportedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSectorSizeNotSupportedException properties
 TOCTitle: EsentSectorSizeNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsectorsizenotsupportedexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: Shader Interfaces
+title: Shader Interfaces (Direct3D 12 Graphics)
 description: D3d12shader.h declares the following interfaces.
 ms.assetid: 791d2c91-3791-47fe-b887-8117ecc798ba
 keywords:

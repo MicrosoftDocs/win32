@@ -1,5 +1,5 @@
 ---
-title: StartService method of the Win32_Service class
+title: StartService method of the Win32_Service class (Remote Desktop Services)
 description: Attempts to place the referenced service into its startup state.
 ms.assetid: 4DA05C48-03A0-4D4B-9E69-0404393C219C
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Describes parameters used to load a texture from another texture.
 ms.assetid: dee693ce-afa7-479b-a76a-00816e30d5cf
-title: D3DX10_TEXTURE_LOAD_INFO structure
-ms.topic: structure
+title: D3DX10_TEXTURE_LOAD_INFO structure (D3DX10Tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -68,7 +68,7 @@ Destination texture box (see [**D3D10\_BOX**](/windows/desktop/api/D3D10/ns-d3d1
 **SrcFirstMip**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Source texture mipmap level, see [**D3D10CalcSubresource**](/windows/desktop/api
 **DstFirstMip**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Destination texture mipmap level, see [**D3D10CalcSubresource**](/windows/deskto
 **NumMips**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Number of mipmap levels in the source texture.
 **SrcFirstElement**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -112,7 +112,7 @@ First element of the source texture.
 **DstFirstElement**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ First element of the destination texture.
 **NumElements**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ Number of elements to load.
 **Filter**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -145,7 +145,7 @@ Filtering options during resampling (see [**D3DX10\_FILTER\_FLAG**](d3dx10-filte
 **MipFilter**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

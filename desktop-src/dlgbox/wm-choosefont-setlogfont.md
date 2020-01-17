@@ -1,5 +1,5 @@
 ---
-title: WM_CHOOSEFONT_SETLOGFONT message
+title: WM_CHOOSEFONT_SETLOGFONT message (Commdlg.h)
 description: An application sends the WM\_CHOOSEFONT\_SETLOGFONT message to a Font dialog box to set the current logical font information.
 ms.assetid: ad169eca-a3ae-45bd-90df-821a93a7a764
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This message has no return value.
 
 When you call the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
 
-Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
+Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
 
 ## Requirements
 
@@ -75,7 +75,7 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
+[**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)

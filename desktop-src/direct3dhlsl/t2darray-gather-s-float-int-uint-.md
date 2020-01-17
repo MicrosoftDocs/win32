@@ -1,5 +1,5 @@
 ---
-title: Gather(S,float,int,uint) function
+title: Texture2DArray::Gather(S,float,int,uint) function
 description: Samples a texture and returns all four components along with status about the operation.
 ms.assetid: 311A5042-19AA-41C7-8B22-2E34E4554250
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Gather
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

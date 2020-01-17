@@ -1,11 +1,11 @@
 ---
-title: EsentDatabaseLockedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseLockedException constructor 
 TOCTitle: 'EsentDatabaseLockedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaselockedexception.esentdatabaselockedexception(v=EXCHG.10)
 ms:contentKeyID: 55101529
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException.EsentDatabaseLockedException
 dev_langs:

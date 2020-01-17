@@ -2,7 +2,7 @@
 Description: The DVDAdm.RestoreScreenSaver method restores the system screen saver settings.
 ms.assetid: 606ab850-95bf-4c60-b7cf-e3a94ceee7a7
 title: RestoreScreenSaver Method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

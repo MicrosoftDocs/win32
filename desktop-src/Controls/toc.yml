@@ -42,7 +42,7 @@
         href: bumper-custom-draw-reference-structures.md
         items: 
         - name: "NMCUSTOMDRAW"
-          href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo
+          href: /windows/win32/api/Commctrl/ns-commctrl-nmcustomdraw
   - name: "Security Considerations: Microsoft Windows Controls"
     href: sec-comctls.md
   - name: "Control Library"
@@ -273,11 +273,11 @@
           - name: "BUTTON_IMAGELIST"
             href: /windows/desktop/api/Commctrl/ns-commctrl-button_imagelist
           - name: "BUTTON_SPLITINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagbutton_splitinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-button_splitinfo
           - name: "NMBCDROPDOWN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmbcdropdown
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmbcdropdown
           - name: "NMBCHOTITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmbchotitem
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmbchotitem
         - name: "Button Control Constants"
           href: bumper-button-control-reference-constants.md
           items: 
@@ -503,13 +503,13 @@
           href: bumper-combobox-control-reference-structures.md
           items: 
           - name: "COMBOBOXINFO"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagcomboboxinfo
+            href: /windows/win32/api/Winuser/ns-winuser-comboboxinfo
           - name: "COMPAREITEMSTRUCT"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagcompareitemstruct
+            href: /windows/win32/api/Winuser/ns-winuser-compareitemstruct
           - name: "DRAWITEMSTRUCT"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct
+            href: /windows/win32/api/Winuser/ns-winuser-drawitemstruct
           - name: "MEASUREITEMSTRUCT"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagmeasureitemstruct
+            href: /windows/win32/api/Winuser/ns-winuser-measureitemstruct
         - name: "ComboBox Control Constants"
           href: bumper-combobox-control-reference-constants.md
           items: 
@@ -593,7 +593,7 @@
           href: bumper-comboboxex-control-reference-structures.md
           items: 
           - name: "COMBOBOXEXITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema
+            href: /windows/win32/api/Commctrl/ns-commctrl-comboboxexitema
           - name: "NMCBEDRAGBEGIN"
             href: /windows/desktop/api/Commctrl/ns-commctrl-nmcbedragbegina
           - name: "NMCBEENDEDIT"
@@ -723,17 +723,17 @@
           href: bumper-date-and-time-picker-control-reference-structures.md
           items: 
           - name: "DATETIMEPICKERINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagdatetimepickerinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-datetimepickerinfo
           - name: "NMDATETIMECHANGE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimechange
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmdatetimechange
           - name: "NMDATETIMEFORMAT"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformata
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmdatetimeformata
           - name: "NMDATETIMEFORMATQUERY"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimeformatquerya
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmdatetimeformatquerya
           - name: "NMDATETIMESTRING"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimestringa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmdatetimestringa
           - name: "NMDATETIMEWMKEYDOWN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmdatetimewmkeydowna
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmdatetimewmkeydowna
         - name: "Date and Time Picker Constants"
           href: bumper-date-and-time-picker-control-reference-constants.md
           items: 
@@ -1216,13 +1216,13 @@
           - name: "HDLAYOUT"
             href: /windows/desktop/api/Commctrl/ns-commctrl-_hd_layout
           - name: "HDTEXTFILTER"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_hd_textfiltera
+            href: /windows/win32/api/Commctrl/ns-commctrl-hd_textfiltera
           - name: "NMHDDISPINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmhddispinfoa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmhddispinfoa
           - name: "NMHDFILTERBTNCLICK"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmhdfilterbtnclick
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmhdfilterbtnclick
           - name: "NMHEADER"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmheadera
         - name: "Header Control Constants"
           href: bumper-header-control-reference-constants.md
           items: 
@@ -1473,7 +1473,7 @@
           - name: "IMAGELISTDRAWPARAMS"
             href: https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams
           - name: "IMAGELISTSTATS"
-            href: /windows/desktop/api/Commoncontrols/ns-commoncontrols-tagimageliststats
+            href: /windows/win32/api/Commoncontrols/ns-commoncontrols-imageliststats
         - name: "Image List Constants"
           href: image-list-constants.md
           items: 
@@ -1534,7 +1534,7 @@
           href: bumper-ip-address-control-reference-structures.md
           items: 
           - name: "NMIPADDRESS"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmipaddress
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmipaddress
     - name: "List Box"
       href: list-boxes.md
       items: 
@@ -1767,9 +1767,9 @@
           href: bumper-list-box-control-reference-structures.md
           items: 
           - name: "DELETEITEMSTRUCT"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagdeleteitemstruct
+            href: /windows/win32/api/Winuser/ns-winuser-deleteitemstruct
           - name: "DRAGLISTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagdraglistinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-draglistinfo
         - name: "List Box Constants"
           href: bumper-list-box-control-reference-constants.md
           items: 
@@ -2421,59 +2421,59 @@
           href: bumper-list-view-control-reference-structures.md
           items: 
           - name: "LVBKIMAGE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvbkimagea
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvbkimagea
           - name: "LVCOLUMN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvcolumna
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvcolumna
           - name: "LVFINDINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvfindinfoa
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvfindinfoa
           - name: "LVFOOTERINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvfooterinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvfooterinfo
           - name: "LVFOOTERITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvfooteritem
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvfooteritem
           - name: "LVGROUP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvgroup
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvgroup
           - name: "LVGROUPMETRICS"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvgroupmetrics
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvgroupmetrics
           - name: "LVHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvhittestinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvhittestinfo
           - name: "LVINSERTGROUPSORTED"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvinsertgroupsorted
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvinsertgroupsorted
           - name: "LVINSERTMARK"
             href: /windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark
           - name: "LVITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvitema
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvitema
           - name: "LVITEMINDEX"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvitemindex
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvitemindex
           - name: "LVSETINFOTIP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvsetinfotip
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvsetinfotip
           - name: "LVTILEINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvtileinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvtileinfo
           - name: "LVTILEVIEWINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvtileviewinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-lvtileviewinfo
           - name: "NMITEMACTIVATE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmitemactivate
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmitemactivate
           - name: "NMLISTVIEW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlistview
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlistview
           - name: "NMLVCACHEHINT"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcachehint
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvcachehint
           - name: "NMLVCUSTOMDRAW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvcustomdraw
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvcustomdraw
           - name: "NMLVDISPINFO"
             href: /windows/desktop/api/Commctrl/ns-commctrl-taglvdispinfo
           - name: "NMLVEMPTYMARKUP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvemptymarkup
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvemptymarkup
           - name: "NMLVFINDITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvfinditema
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvfinditema
           - name: "NMLVGETINFOTIP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvgetinfotipa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvgetinfotipa
           - name: "NMLVKEYDOWN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglvkeydown
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvkeydown
           - name: "NMLVLINK"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvlink
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvlink
           - name: "NMLVODSTATECHANGE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvodstatechange
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvodstatechange
           - name: "NMLVSCROLL"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlvscroll
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlvscroll
         - name: "List View Constants"
           href: bumper-list-view-control-reference-constants.md
           items: 
@@ -2657,15 +2657,15 @@
           href: bumper-month-calendar-control-reference-structures.md
           items: 
           - name: "MCGRIDINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagmcgridinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-mcgridinfo
           - name: "MCHITTESTINFO"
             href: /windows/desktop/api/Commctrl/ns-commctrl-mchittestinfo
           - name: "NMDAYSTATE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmdaystate
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmdaystate
           - name: "NMSELCHANGE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmselchange
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmselchange
           - name: "NMVIEWCHANGE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmviewchange
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmviewchange
         - name: "Month Calendar Constants"
           href: bumper-month-calendar-control-reference-constants.md
           items: 
@@ -2771,7 +2771,7 @@
           - name: "NMPGCALCSIZE"
             href: /windows/desktop/api/Commctrl/ns-commctrl-nmpgcalcsize
           - name: "NMPGHOTITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmpghotitem
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmpghotitem
           - name: "NMPGSCROLL"
             href: /windows/desktop/api/Commctrl/ns-commctrl-nmpgscroll
         - name: "Pager Control Constants"
@@ -3052,11 +3052,11 @@
           href: bumper-property-sheets-reference-structures.md
           items: 
           - name: "PROPSHEETHEADER"
-            href: /windows/desktop/api/Prsht/ns-prsht-_propsheetheadera_v2
+            href: /windows/win32/api/Prsht/ns-prsht-propsheetheadera_v2
           - name: "PROPSHEETPAGE"
-            href: /windows/desktop/api/Prsht/ns-prsht-_propsheetpagea_v2
+            href: /windows/win32/api/Prsht/ns-prsht-propsheetpagea_v2
           - name: "PSHNOTIFY"
-            href: /windows/desktop/api/Prsht/ns-prsht-_pshnotify
+            href: /windows/win32/api/Prsht/ns-prsht-pshnotify
       - name: "Property Sheets Sample"
         href: bumper-property-sheet-property-sheets-sample.md
         items: 
@@ -3204,23 +3204,23 @@
           href: bumper-rebar-control-reference-structures.md
           items: 
           - name: "NMRBAUTOSIZE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmrbautosize
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmrbautosize
           - name: "NMREBAR"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmrebar
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmrebar
           - name: "NMREBARAUTOBREAK"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarautobreak
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmrebarautobreak
           - name: "NMREBARCHEVRON"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchevron
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmrebarchevron
           - name: "NMREBARCHILDSIZE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarchildsize
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmrebarchildsize
           - name: "NMREBARSPLITTER"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmrebarsplitter
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmrebarsplitter
           - name: "RBHITTESTINFO"
             href: /windows/desktop/api/Commctrl/ns-commctrl-_rb_hittestinfo
           - name: "REBARBANDINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa
+            href: /windows/win32/api/Commctrl/ns-commctrl-rebarbandinfoa
           - name: "REBARINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagrebarinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-rebarinfo
         - name: "Rebar Control Constants"
           href: bumper-rebar-control-reference-constants.md
           items: 
@@ -3611,7 +3611,7 @@
           href: bumper-rich-edit-control-reference-structures.md
           items: 
           - name: "BIDIOPTIONS"
-            href: /windows/desktop/api/Richedit/ns-richedit-_bidioptions
+            href: /windows/win32/api/Richedit/ns-richedit-bidioptions
           - name: "CHANGENOTIFY"
             href: /windows/desktop/api/Textserv/ns-textserv-changenotify
           - name: "CHARFORMAT"
@@ -3619,73 +3619,73 @@
           - name: "CHARFORMAT2"
             href: /windows/desktop/api/Richedit/ns-richedit-charformat2a
           - name: "CHARRANGE"
-            href: /windows/desktop/api/Richedit/ns-richedit-_charrange
+            href: /windows/win32/api/Richedit/ns-richedit-charrange
           - name: "CLIPBOARDFORMAT"
-            href: /windows/desktop/api/Richedit/ns-richedit-_clipboardformat
+            href: /windows/win32/api/Richedit/ns-richedit-clipboardformat
           - name: "COMPCOLOR"
-            href: /windows/desktop/api/Richedit/ns-richedit-_compcolor
+            href: /windows/win32/api/Richedit/ns-richedit-compcolor
           - name: "EDITSTREAM"
-            href: /windows/desktop/api/Richedit/ns-richedit-_editstream
+            href: /windows/win32/api/Richedit/ns-richedit-editstream
           - name: "ENCORRECTTEXT"
-            href: /windows/desktop/api/Richedit/ns-richedit-_encorrecttext
+            href: /windows/win32/api/Richedit/ns-richedit-encorrecttext
           - name: "ENDCOMPOSITIONNOTIFY"
             href: /windows/desktop/api/Richedit/ns-richedit-_endcomposition
           - name: "ENDROPFILES"
-            href: /windows/desktop/api/Richedit/ns-richedit-_endropfiles
+            href: /windows/win32/api/Richedit/ns-richedit-endropfiles
           - name: "ENLINK"
-            href: /windows/desktop/api/Richedit/ns-richedit-_enlink
+            href: /windows/win32/api/Richedit/ns-richedit-enlink
           - name: "ENLOWFIRTF"
-            href: /windows/desktop/api/Richedit/ns-richedit-_enlowfirtf
+            href: /windows/win32/api/Richedit/ns-richedit-enlowfirtf
           - name: "ENOLEOPFAILED"
-            href: /windows/desktop/api/Richedit/ns-richedit-_enoleopfailed
+            href: /windows/win32/api/Richedit/ns-richedit-enoleopfailed
           - name: "ENPROTECTED"
-            href: /windows/desktop/api/Richedit/ns-richedit-_enprotected
+            href: /windows/win32/api/Richedit/ns-richedit-enprotected
           - name: "ENSAVECLIPBOARD"
-            href: /windows/desktop/api/Richedit/ns-richedit-_ensaveclipboard
+            href: /windows/win32/api/Richedit/ns-richedit-ensaveclipboard
           - name: "FINDTEXT"
             href: /windows/desktop/api/Richedit/ns-richedit-_findtext
           - name: "FINDTEXTEX"
-            href: /windows/desktop/api/Richedit/ns-richedit-_findtextexa
+            href: /windows/win32/api/Richedit/ns-richedit-findtextexa
           - name: "FORMATRANGE"
-            href: /windows/desktop/api/Richedit/ns-richedit-_formatrange
+            href: /windows/win32/api/Richedit/ns-richedit-formatrange
           - name: "GETCONTEXTMENUEX"
-            href: /windows/desktop/api/Richedit/ns-richedit-_getcontextmenuex
+            href: /windows/win32/api/Richedit/ns-richedit-getcontextmenuex
           - name: "GETTEXTEX"
-            href: /windows/desktop/api/Richedit/ns-richedit-_gettextex
+            href: /windows/win32/api/Richedit/ns-richedit-gettextex
           - name: "GETTEXTLENGTHEX"
-            href: /windows/desktop/api/Richedit/ns-richedit-_gettextlengthex
+            href: /windows/win32/api/Richedit/ns-richedit-gettextlengthex
           - name: "HYPHENATEINFO"
-            href: /windows/desktop/api/Richedit/ns-richedit-taghyphenateinfo
+            href: /windows/win32/api/Richedit/ns-richedit-hyphenateinfo
           - name: "HYPHRESULT"
             href: /windows/desktop/api/Richedit/ns-richedit-hyphresult
           - name: "IMECOMPTEXT"
-            href: /windows/desktop/api/Richedit/ns-richedit-_imecomptext
+            href: /windows/win32/api/Richedit/ns-richedit-imecomptext
           - name: "MSGFILTER"
-            href: /windows/desktop/api/Richedit/ns-richedit-_msgfilter
+            href: /windows/win32/api/Richedit/ns-richedit-msgfilter
           - name: "OBJECTPOSITIONS"
-            href: /windows/desktop/api/Richedit/ns-richedit-_objectpositions
+            href: /windows/win32/api/Richedit/ns-richedit-objectpositions
           - name: "PARAFORMAT"
-            href: /windows/desktop/api/Richedit/ns-richedit-_paraformat
+            href: /windows/win32/api/Richedit/ns-richedit-paraformat
           - name: "PARAFORMAT2"
             href: /windows/desktop/api/Richedit/ns-richedit-paraformat2
           - name: "PUNCTUATION"
-            href: /windows/desktop/api/Richedit/ns-richedit-_punctuation
+            href: /windows/win32/api/Richedit/ns-richedit-punctuation
           - name: "REOBJECT"
-            href: /windows/desktop/api/Richole/ns-richole-_reobject
+            href: /windows/win32/api/Richole/ns-richole-reobject
           - name: "REPASTESPECIAL"
-            href: /windows/desktop/api/Richedit/ns-richedit-_repastespecial
+            href: /windows/win32/api/Richedit/ns-richedit-repastespecial
           - name: "REQRESIZE"
-            href: /windows/desktop/api/Richedit/ns-richedit-_reqresize
+            href: /windows/win32/api/Richedit/ns-richedit-reqresize
           - name: "RICHEDIT_IMAGE_PARAMETERS"
-            href: /windows/desktop/api/Richedit/ns-richedit-tagrichedit_image_parameters
+            href: /windows/win32/api/Richedit/ns-richedit-richedit_image_parameters
           - name: "SELCHANGE"
-            href: /windows/desktop/api/Richedit/ns-richedit-_selchange
+            href: /windows/win32/api/Richedit/ns-richedit-selchange
           - name: "SETTEXTEX"
-            href: /windows/desktop/api/Richedit/ns-richedit-_settextex
+            href: /windows/win32/api/Richedit/ns-richedit-settextex
           - name: "TABLECELLPARMS"
-            href: /windows/desktop/api/Richedit/ns-richedit-_tablecellparms
+            href: /windows/win32/api/Richedit/ns-richedit-tablecellparms
           - name: "TABLEROWPARMS"
-            href: /windows/desktop/api/Richedit/ns-richedit-_tablerowparms
+            href: /windows/win32/api/Richedit/ns-richedit-tablerowparms
           - name: "TEXTRANGE"
             href: /windows/desktop/api/Richedit/ns-richedit-_textrange
         - name: "Rich Edit Constants"
@@ -3699,11 +3699,11 @@
           href: bumper-rich-edit-control-reference-enumeration-types.md
           items: 
           - name: "KHYPH"
-            href: /windows/desktop/api/Richedit/ne-richedit-tagkhyph
+            href: /windows/win32/api/Richedit/ne-richedit-khyph
           - name: "TEXTMODE"
-            href: /windows/desktop/api/Richedit/ne-richedit-tagtextmode
+            href: /windows/win32/api/Richedit/ne-richedit-textmode
           - name: "UNDONAMEID"
-            href: /windows/desktop/api/Richedit/ne-richedit-_undonameid
+            href: /windows/win32/api/Richedit/ne-richedit-undonameid
       - name: "Text Object Model"
         href: text-object-model.md
         items: 
@@ -4593,11 +4593,11 @@
             href: text-object-model-enumerations.md
             items: 
             - name: "MANCODE"
-              href: /windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0003
+              href: /windows/win32/api/tom/ne-tom-mancode
             - name: "OBJECTTYPE"
-              href: /windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002
+              href: /windows/win32/api/tom/ne-tom-objecttype
             - name: "tomConstants"
-              href: /windows/desktop/api/Tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001
+              href: /windows/win32/api/Tom/ne-tom-tomconstants
       - name: "Windowless Rich Edit"
         href: windowless-rich-edit-controls.md
         items: 
@@ -4893,9 +4893,9 @@
           href: bumper-scroll-bars-reference-structures.md
           items: 
           - name: "SCROLLBARINFO"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagscrollbarinfo
+            href: /windows/win32/api/Winuser/ns-winuser-scrollbarinfo
           - name: "SCROLLINFO"
-            href: /windows/desktop/api/Winuser/ns-winuser-tagscrollinfo
+            href: /windows/win32/api/Winuser/ns-winuser-scrollinfo
         - name: "Scroll Bar Constants"
           href: bumper-scroll-bars-reference-constants.md
           items: 
@@ -5078,11 +5078,11 @@
           href: bumper-syslink-control-reference-structures.md
           items: 
           - name: "LHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglhittestinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-lhittestinfo
           - name: "LITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-taglitem
+            href: /windows/win32/api/Commctrl/ns-commctrl-litem
           - name: "NMLINK"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmlink
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmlink
         - name: "SysLink Control Constants"
           href: bumper-syslink-control-reference-constants.md
           items: 
@@ -5255,13 +5255,13 @@
           href: bumper-tab-control-reference-structures.md
           items: 
           - name: "NMTCKEYDOWN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtckeydown
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtckeydown
           - name: "TCHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtchittestinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-tchittestinfo
           - name: "TCITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtcitema
+            href: /windows/win32/api/Commctrl/ns-commctrl-tcitema
           - name: "TCITEMHEADER"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtcitemheadera
+            href: /windows/win32/api/Commctrl/ns-commctrl-tcitemheadera
         - name: "Tab Control Constants"
           href: bumper-tab-control-reference-constants.md
           items: 
@@ -5360,9 +5360,9 @@
           href: bumper-task-dialogs-reference-structures.md
           items: 
           - name: "TASKDIALOG_BUTTON"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_taskdialog_button
+            href: /windows/win32/api/Commctrl/ns-commctrl-taskdialog_button
           - name: "TASKDIALOGCONFIG"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_taskdialogconfig
+            href: /windows/win32/api/Commctrl/ns-commctrl-taskdialogconfig
     - name: "Toolbar"
       href: toolbar-control-reference.md
       items: 
@@ -5672,25 +5672,25 @@
           href: bumper-toolbar-control-reference-structures.md
           items: 
           - name: "COLORMAP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_colormap
+            href: /windows/win32/api/Commctrl/ns-commctrl-colormap
           - name: "NMTBCUSTOMDRAW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_nmtbcustomdraw
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtbcustomdraw
           - name: "NMTBDISPINFO"
             href: /windows/desktop/api/Commctrl/ns-commctrl-nmtbdispinfoa
           - name: "NMTBGETINFOTIP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtbgetinfotipa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtbgetinfotipa
           - name: "NMTBHOTITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtbhotitem
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtbhotitem
           - name: "NMTBRESTORE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtbrestore
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtbrestore
           - name: "NMTBSAVE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtbsave
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtbsave
           - name: "NMTOOLBAR"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtoolbara
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtoolbara
           - name: "TBADDBITMAP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtbaddbitmap
+            href: /windows/win32/api/Commctrl/ns-commctrl-tbaddbitmap
           - name: "TBBUTTON"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_tbbutton
+            href: /windows/win32/api/Commctrl/ns-commctrl-tbbutton
           - name: "TBBUTTONINFO"
             href: /windows/desktop/api/Commctrl/ns-commctrl-tbbuttoninfoa
           - name: "TBINSERTMARK"
@@ -5700,7 +5700,7 @@
           - name: "TBREPLACEBITMAP"
             href: /windows/desktop/api/Commctrl/ns-commctrl-tbreplacebitmap
           - name: "TBSAVEPARAMS"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtbsaveparamsa
+            href: /windows/win32/api/Commctrl/ns-commctrl-tbsaveparamsa
         - name: "Toolbar Control Constants"
           href: bumper-toolbar-control-reference-constants.md
           items: 
@@ -5830,13 +5830,13 @@
           href: bumper-tooltip-control-reference-structures.md
           items: 
           - name: "NMTTCUSTOMDRAW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmttcustomdraw
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmttcustomdraw
           - name: "NMTTDISPINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmttdispinfoa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmttdispinfoa
           - name: "TOOLINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa
+            href: /windows/win32/api/Commctrl/ns-commctrl-tttoolinfoa
           - name: "TTGETTITLE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_ttgettitle
+            href: /windows/win32/api/Commctrl/ns-commctrl-ttgettitle
           - name: "TTHITTESTINFO"
             href: /windows/desktop/api/Commctrl/ns-commctrl-_tt_hittestinfoa
         - name: "Tooltip Control Constants"
@@ -5958,7 +5958,7 @@
           href: trackbar-control-structures.md
           items: 
           - name: "NMTRBTHUMBPOSCHANGING Structure"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtrbthumbposchanging
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtrbthumbposchanging
         - name: "Trackbar Control Constants"
           href: bumper-trackbar-control-reference-constants.md
           items: 
@@ -6299,37 +6299,37 @@
           href: bumper-tree-view-control-reference-structures.md
           items: 
           - name: "NMTREEVIEW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtreeviewa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtreeviewa
           - name: "NMTVASYNCDRAW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtvasyncdraw
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvasyncdraw
           - name: "NMTVCUSTOMDRAW"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtvcustomdraw
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvcustomdraw
           - name: "NMTVDISPINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvdispinfoa
           - name: "NMTVDISPINFOEX"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoexa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvdispinfoexa
           - name: "NMTVGETINFOTIP"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtvgetinfotipa
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvgetinfotipa
           - name: "NMTVITEMCHANGE"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvitemchange
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvitemchange
           - name: "NMTVITEMRECT"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb773428(v=vs.85)
           - name: "NMTVKEYDOWN"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvkeydown
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvkeydown
           - name: "NMTVSTATEIMAGECHANGING"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtvstateimagechanging
+            href: /windows/win32/api/Commctrl/ns-commctrl-nmtvstateimagechanging
           - name: "TVGETITEMPARTRECTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvgetitempartrectinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-tvgetitempartrectinfo
           - name: "TVHITTESTINFO"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvhittestinfo
+            href: /windows/win32/api/Commctrl/ns-commctrl-tvhittestinfo
           - name: "TVINSERTSTRUCT"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvinsertstructa
+            href: /windows/win32/api/Commctrl/ns-commctrl-tvinsertstructa
           - name: "TVITEM"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvitema
+            href: /windows/win32/api/Commctrl/ns-commctrl-tvitema
           - name: "TVITEMEX"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvitemexa
+            href: /windows/win32/api/Commctrl/ns-commctrl-tvitemexa
           - name: "TVSORTCB"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-tagtvsortcb
+            href: /windows/win32/api/Commctrl/ns-commctrl-tvsortcb
         - name: "Tree View Constants"
           href: bumper-tree-view-control-reference-constants.md
           items: 
@@ -6408,7 +6408,7 @@
           - name: "NMUPDOWN"
             href: /windows/desktop/api/Commctrl/ns-commctrl-_nm_updown
           - name: "UDACCEL"
-            href: /windows/desktop/api/Commctrl/ns-commctrl-_udaccel
+            href: /windows/win32/api/Commctrl/ns-commctrl-udaccel
         - name: "Up-Down Constants"
           href: bumper-up-down-control-reference-constants.md
           items: 
@@ -6625,27 +6625,27 @@
       href: bumper-general-control-reference-structures.md
       items: 
       - name: "COLORSCHEME"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagcolorscheme
+        href: /windows/win32/api/Commctrl/ns-commctrl-colorscheme
       - name: "DPASTREAMINFO"
-        href: /windows/desktop/api/dpa_dsa/ns-dpa_dsa-_dpastreaminfo
+        href: /windows/win32/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo
       - name: "INITCOMMONCONTROLSEX"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex
+        href: /windows/win32/api/Commctrl/ns-commctrl-initcommoncontrolsex
       - name: "NMCHAR"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmchar
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmchar
       - name: "NMCUSTOMSPLITRECTINFO"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmcustomsplitrectinfo
       - name: "NMCUSTOMTEXT"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomtext
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmcustomtext
       - name: "NMHDR"
-        href: /windows/desktop/api/richedit/ns-richedit-_nmhdr
+        href: /windows/win32/api/richedit/ns-richedit-nmhdr
       - name: "NMKEY"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmkey
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmkey
       - name: "NMMOUSE"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmmouse
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmmouse
       - name: "NMOBJECTNOTIFY"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmobjectnotify
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmobjectnotify
       - name: "NMTOOLTIPSCREATED"
-        href: /windows/desktop/api/Commctrl/ns-commctrl-tagnmtooltipscreated
+        href: /windows/win32/api/Commctrl/ns-commctrl-nmtooltipscreated
       - name: "READERMODEINFO"
         href: readermodeinfo.md
     - name: "Control Constants"
@@ -6836,26 +6836,26 @@
         href: bumper-visual-styles-reference-structures.md
         items: 
         - name: "BP_ANIMATIONPARAMS"
-          href: /windows/desktop/api/Uxtheme/ns-uxtheme-_bp_animationparams
+          href: /windows/win32/api/Uxtheme/ns-uxtheme-bp_animationparams
         - name: "BP_PAINTPARAMS"
-          href: /windows/desktop/api/Uxtheme/ns-uxtheme-_bp_paintparams
+          href: /windows/win32/api/Uxtheme/ns-uxtheme-bp_paintparams
         - name: "DTBGOPTS"
-          href: /windows/desktop/api/Uxtheme/ns-uxtheme-_dtbgopts
+          href: /windows/win32/api/Uxtheme/ns-uxtheme-dtbgopts
         - name: "DTTOPTS"
-          href: /windows/desktop/api/Uxtheme/ns-uxtheme-_dttopts
+          href: /windows/win32/api/Uxtheme/ns-uxtheme-dttopts
         - name: "INTLIST"
-          href: /windows/desktop/api/UxTheme/ns-uxtheme-_intlist
+          href: /windows/win32/api/UxTheme/ns-uxtheme-intlist
         - name: "MARGINS"
-          href: /windows/desktop/api/Uxtheme/ns-uxtheme-_margins
+          href: /windows/win32/api/Uxtheme/ns-uxtheme-margins
         - name: "WTA_OPTIONS"
-          href: /windows/desktop/api/Uxtheme/ns-uxtheme-_wta_options
+          href: /windows/win32/api/Uxtheme/ns-uxtheme-wta_options
       - name: "Enumerated Types"
         href: bumper-visual-styles-reference-enumerated-types.md
         items: 
         - name: "BP_ANIMATIONSTYLE"
-          href: /windows/desktop/api/Uxtheme/ne-uxtheme-_bp_animationstyle
+          href: /windows/win32/api/Uxtheme/ne-uxtheme-bp_animationstyle
         - name: "BP_BUFFERFORMAT"
-          href: /windows/desktop/api/Uxtheme/ne-uxtheme-_bp_bufferformat
+          href: /windows/win32/api/Uxtheme/ne-uxtheme-bp_bufferformat
         - name: "PROPERTYORIGIN"
           href: /windows/desktop/api/Uxtheme/ne-uxtheme-propertyorigin
         - name: "THEMESIZE"

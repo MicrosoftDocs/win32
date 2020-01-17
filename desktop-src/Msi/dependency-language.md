@@ -1,8 +1,8 @@
 ---
 Description: The read-only Language property returns the LANGID of the required module.
 ms.assetid: 9b0608d1-b6e8-4cf9-8119-3c2909156516
-title: Dependency.Language property
-ms.topic: article
+title: Dependency.Language property (Mergemod.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ propVal = Dependency.Language
 
 ## C++
 
-See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/en-us/library/Aa369246(v=VS.85).aspx).
+See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/library/Aa369246(v=VS.85).aspx).
 
 ## Requirements
 

@@ -3,7 +3,7 @@ Description: The CIM\_CollectedCollections class is an aggregation association t
 ms.assetid: 7baaf429-1211-4545-ace2-c6312d53c0f6
 ms.tgt_platform: multiple
 title: CIM_CollectedCollections class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

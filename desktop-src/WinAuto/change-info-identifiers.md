@@ -1,5 +1,5 @@
 ---
-title: Change Info Identifiers
+title: Change Info Identifiers (UIAutomationClient.h)
 description: This topic describes the named constants used to identify Microsoft UI Automation change information.
 ms.assetid: 583A1FA3-68E5-419E-8E38-2B239928FF75
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

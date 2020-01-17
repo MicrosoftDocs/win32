@@ -1,5 +1,5 @@
 ---
-title: CB_GETCURSEL message
+title: CB_GETCURSEL message (Winuser.h)
 description: An application sends a CB\_GETCURSEL message to retrieve the index of the currently selected item, if any, in the list box of a combo box.
 ms.assetid: 47bf87f6-637f-48e9-849e-b2acbe5a6a7b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

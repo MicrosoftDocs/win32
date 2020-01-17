@@ -1,8 +1,8 @@
 ---
 Description: Gets the attributes of the patch.
 ms.assetid: 601a3275-25ea-4e16-8297-a9fc1f5fdd49
-title: ID3DXPatchMesh::GetPatchInfo method
-ms.topic: article
+title: ID3DXPatchMesh::GetPatchInfo method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to the structures containing the patch attributes. For more information 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

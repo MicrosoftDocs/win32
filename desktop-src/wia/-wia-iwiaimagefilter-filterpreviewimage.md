@@ -1,8 +1,8 @@
 ---
 Description: Filters the preview image.
 ms.assetid: 1710211a-a35c-4a51-b3bb-6f03f234f247
-title: IWiaImageFilter::FilterPreviewImage method
-ms.topic: article
+title: IWiaImageFilter::FilterPreviewImage method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -67,9 +67,9 @@ The coordinates (on the physical acquisition area) of the image that the preview
 *pInputStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx)\***
+Type: **[IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx)\***
 
-A pointer to the [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) interface for the cached image data that is filtered.
+A pointer to the [IStream](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) interface for the cached image data that is filtered.
 
 </dd> </dl>
 

@@ -3,7 +3,7 @@ Description: The CIM\_SoftwareFeatureSAPImplementation class represents an assoc
 ms.assetid: d9a5a747-b37b-4005-a661-2bfc6a83bbb2
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureSAPImplementation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

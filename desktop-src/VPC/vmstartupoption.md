@@ -1,5 +1,5 @@
 ---
-title: VMStartupOption enumeration
+title: VMStartupOption enumeration (VPCCOMInterfaces.h)
 description: Specifies the start-up option.
 ms.assetid: ac4de9a7-7fc7-4361-89dd-e7da8f5dbb92
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

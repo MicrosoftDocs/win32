@@ -2,7 +2,7 @@
 Description: Requests a state change.
 ms.assetid: 34f226a2-392b-4b3c-898e-308af52b71a2
 title: RequestStateChange method of the Msvm_InternalEthernetPort class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

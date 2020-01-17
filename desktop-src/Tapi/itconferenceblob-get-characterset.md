@@ -1,8 +1,8 @@
 ---
 Description: The get\_CharacterSet method gets a BLOB\_CHARACTER\_SET descriptor of the character set used in the current conference blob.
 ms.assetid: 9783d18c-79f6-4faa-b12d-9504c13d54e3
-title: ITConferenceBlob::get_CharacterSet method
-ms.topic: article
+title: ITConferenceBlob::get_CharacterSet method (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder performs band truncation.
 ms.assetid: 70b44f1e-06fc-4e7f-80cb-f9dd15891f75
-title: MFPKEY_DYN_BANDTRUNCATION Property
-ms.topic: article
+title: MFPKEY_DYN_BANDTRUNCATION Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the encoder performs band truncation. Read-write.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

@@ -1,12 +1,12 @@
 ---
-Description: Interfaces
+Description: DirectShow interfaces
 ms.assetid: '5efd174f-2eb1-44e6-97e3-b73c7c52fef1'
 title: Interfaces
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# DirectShow interfaces
 
 This topic contains reference information for the Microsoft® DirectShow® core interfaces. To provide broad support for various types of hardware, file formats, and stream operations, implements a large number of interfaces. Some are used by applications; others are used internally by filters and other DirectShow components.
 

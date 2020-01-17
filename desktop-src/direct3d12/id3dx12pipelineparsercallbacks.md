@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks interface
+title: ID3DX12PipelineParserCallbacks interface (D3DX12.h)
 description: An interface that represents a collection of parser and error callbacks used by the D3DX12parsePipelineStream helper function.
 ms.assetid: CBC04D17-2E19-4755-B1CB-FC42BF5083E5
 keywords:
@@ -14,7 +14,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

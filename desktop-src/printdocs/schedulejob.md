@@ -1,8 +1,8 @@
 ---
 Description: The ScheduleJob function requests that the print spooler schedule a specified print job for printing.
 ms.assetid: a103a29c-be4d-491e-9b04-84571fe969a5
-title: ScheduleJob function
-ms.topic: article
+title: ScheduleJob function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

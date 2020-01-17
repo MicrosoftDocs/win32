@@ -4,7 +4,7 @@ ms.assetid:
 title: Callable Shader
 ms.date: 05/31/2018
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 topic_type: 
 - APIRef
 - kbSyntax

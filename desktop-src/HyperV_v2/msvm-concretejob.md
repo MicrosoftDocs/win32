@@ -2,7 +2,7 @@
 Description: Represents a unit of work and is used to track the progress of asynchronous operations.
 ms.assetid: '33c13880-92a4-4367-8f0b-ecdf38b2ff8e'
 title: Msvm_ConcreteJob class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

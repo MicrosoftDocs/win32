@@ -1,5 +1,5 @@
 ---
-title: Miscellaneous Framework Constants
+title: Miscellaneous Framework Constants (Msctf.h)
 description: Miscellaneous framework constants indicate settings for clients, processes, or text.
 ms.assetid: fa53c1f1-50eb-45eb-b2ea-f236a376d41a
 topic_type:
@@ -21,7 +21,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

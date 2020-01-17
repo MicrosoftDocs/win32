@@ -1,8 +1,8 @@
 ---
 Description: Determines whether the area of the IAnalysisRegion intersects with the specified rectangle.
 ms.assetid: 683c3ad8-0236-474e-a16d-6164c2244cfb
-title: IAnalysisRegion::IntersectsWith method
-ms.topic: article
+title: IAnalysisRegion::IntersectsWith method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

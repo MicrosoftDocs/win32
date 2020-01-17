@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectTechnique GetPassByName method
+title: ID3DX11EffectTechnique GetPassByName method (D3dx11effect.h)
 description: Get a pass by name.
 ms.assetid: 07c7502e-2af9-4898-8cd4-106d6814fb85
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo interface
+title: IVMHostInfo interface (VPCCOMInterfaces.h)
 description: Retrieves information about the host machine. An IVMHostInfo object is returned from the IVMVirtualPC HostInfo property.
 ms.assetid: f30fa377-2067-4e03-bc6e-2ada62fc56b4
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Retrieves information about the host machine. An **IVMHostInfo** object is retur
 
 ## Members
 
-The **IVMHostInfo** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMHostInfo** also has these types of members:
+The **IVMHostInfo** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMHostInfo** also has these types of members:
 
 -   [Properties](#properties)
 

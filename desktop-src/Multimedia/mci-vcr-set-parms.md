@@ -1,5 +1,5 @@
 ---
-title: MCI_VCR_SET_PARMS structure
+title: MCI_VCR_SET_PARMS structure (Vcr.h)
 description: The MCI\_VCR\_SET\_PARMS structure contains parameters for the MCI\_SET command for video-cassette recorders.
 ms.assetid: f55515f5-14f6-47e4-8be2-4524975fc950
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -156,7 +156,7 @@ Videotape length needed to brake the VCR transport when a [**MCI\_STOP**](mci-st
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -189,7 +189,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_STOP**](mci-stop.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

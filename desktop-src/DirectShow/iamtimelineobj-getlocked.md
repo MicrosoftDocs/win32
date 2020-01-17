@@ -1,8 +1,8 @@
 ---
 Description: The GetLocked method retrieves the object's editing state (locked or unlocked).
 ms.assetid: ecd258db-36bf-41b6-9bdf-537efcf0a46a
-title: IAMTimelineObj::GetLocked method
-ms.topic: article
+title: IAMTimelineObj::GetLocked method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

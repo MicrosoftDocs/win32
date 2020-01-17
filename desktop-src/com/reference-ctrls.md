@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: Reference (Controls and Property Pages)
 description: The following programming elements are used to create standard COM objects and property pages.
 ms.assetid: 1fe85dca-1963-455a-bc21-3690e276ac82
 ms.topic: article

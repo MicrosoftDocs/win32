@@ -1,5 +1,5 @@
 ---
-title: ID2D1Geometry GetBounds methods
+title: ID2D1Geometry GetBounds methods (D2d1\_1.h)
 description: Retrieves the bounds of the geometry.
 ms.assetid: 3932189a-7c6b-4144-9d4a-32d2aba70835
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1Geometry::GetBounds methods
@@ -24,8 +24,8 @@ Retrieves the bounds of the geometry.
 
 | Method                                                                                                                   | Description                                      |
 |:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
-| [**GetBounds(D2D1\_MATRIX\_3X2\_F&,D2D\_RECT\_F\*)**](https://msdn.microsoft.com/en-us/library/Dd316701(v=VS.85).aspx)   | Retrieves the bounds of the geometry.<br/> |
-| [**GetBounds(D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/en-us/library/Dd316699(v=VS.85).aspx) | Retrieves the bounds of the geometry.<br/> |
+| [**GetBounds(D2D1\_MATRIX\_3X2\_F&,D2D\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316701(v=VS.85).aspx)   | Retrieves the bounds of the geometry.<br/> |
+| [**GetBounds(D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316699(v=VS.85).aspx) | Retrieves the bounds of the geometry.<br/> |
 
 
 
@@ -343,5 +343,5 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
+[**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>

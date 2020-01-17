@@ -1,7 +1,7 @@
 ---
 Description: Finds a user's entry, by name, in the volume's quota file.
 title: DiskQuotaControl.FindUser method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

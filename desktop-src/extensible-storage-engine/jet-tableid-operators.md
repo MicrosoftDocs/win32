@@ -1,5 +1,5 @@
 ﻿---
-title: JET_TABLEID operators (Microsoft.Isam.Esent.Interop)
+title: JET_TABLEID operators
 TOCTitle: JET_TABLEID operators
 ms:assetid: ef291f9a-8eed-fe37-7cc6-f32d84624f76
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh163504(v=EXCHG.10)

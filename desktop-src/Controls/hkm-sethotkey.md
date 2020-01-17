@@ -1,5 +1,5 @@
 ---
-title: HKM_SETHOTKEY message
+title: HKM_SETHOTKEY message (Commctrl.h)
 description: Sets the hot key combination for a hot key control.
 ms.assetid: 372a7b2f-d9d5-43a8-9c06-730f2f5dc56e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Calculates per-triangle IMT's from a texture mapped onto a mesh, to be used optionally as input to the D3DX UVAtlas Functions.
 ms.assetid: 6671edc4-e494-4847-ae99-b9e56651a875
-title: D3DXComputeIMTFromTexture function
-ms.topic: article
+title: D3DXComputeIMTFromTexture function (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -62,7 +62,7 @@ A pointer to the texture (see [**IDirect3DTexture9**](https://msdn.microsoft.com
 *dwTextureIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Zero-based texture coordinate index that identifies which set of texture coordinates to use.
 
@@ -71,9 +71,9 @@ Zero-based texture coordinate index that identifies which set of texture coordin
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/en-us/library/Bb172880(v=VS.85).aspx).
+Texture wrap options. This is a combination of one or more [**D3DXIMT FLAGS**](https://msdn.microsoft.com/library/Bb172880(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ A pointer to a callback function to monitor IMT computation progress.
 *pUserContext* 
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 A pointer to a user-defined variable which is passed to the status callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -106,7 +106,7 @@ A pointer to the buffer (see [**ID3DXBuffer**](id3dxbuffer.md)) containing the r
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK; otherwise, the value is D3DERR\_INVALIDCALL.
 

@@ -2,7 +2,7 @@
 Description: Decodes a string from base64.
 ms.assetid: acf2dba6-a0e8-4b77-a5a6-93cfa6afe874
 title: Utilities.Base64Decode method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

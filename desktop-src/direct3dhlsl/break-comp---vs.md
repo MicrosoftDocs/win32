@@ -2,10 +2,10 @@
 title: break_comp - vs
 description: Conditionally break out of the current loop at the nearest endloop - vs or endrep - vs.
 ms.assetid: 01745e03-874a-4594-b6ab-12db22d0cb4a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

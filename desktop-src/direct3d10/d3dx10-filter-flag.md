@@ -1,8 +1,8 @@
 ---
 Description: Texture filtering flags.
 ms.assetid: bc73d916-fe18-4b15-b507-7954e157ab9a
-title: D3DX10_FILTER_FLAG enumeration
-ms.topic: enumeration
+title: D3DX10_FILTER_FLAG enumeration (D3DX10Tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

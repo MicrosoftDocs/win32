@@ -1,8 +1,8 @@
 ---
 Description: Provides a custom user interface that replaces the default system user interface.
 ms.assetid: 5dbcacde-5bbe-459d-804f-5ce7eb1cd8d8
-title: IWiaUIExtension::DeviceDialog method
-ms.topic: article
+title: IWiaUIExtension::DeviceDialog method (Wiadevd.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

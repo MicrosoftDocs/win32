@@ -1,8 +1,8 @@
 ---
 Description: Specifies the x-coordinate of the upper-left corner of the geometric aperture.
 ms.assetid: b2c71e16-abd5-465c-a420-5b7675382025
-title: MFPKEY_RESIZE_GEOMAPX Property
-ms.topic: article
+title: MFPKEY_RESIZE_GEOMAPX Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the x-coordinate of the upper-left corner of the geometric aperture.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

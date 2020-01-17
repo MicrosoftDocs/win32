@@ -35,34 +35,34 @@ Many APIs in Direct3D 12 accept a *node mask* (a bit mask), which indicates the 
 
 When calling the following (single node) APIs, your application specifies a single node with which the API call will be associated. Most of the time, this is specified by a node mask. Each bit in the mask corresponds to a single node. For all of the APIs described in this section, you must set exactly one bit in the node mask.
 
--   [**Direct3D 12\_COMMAND\_QUEUE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_queue_desc) : has a *NodeMask* member.
--   [**CreateCommandQueue**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandqueue) : creates a queue from a [**Direct3D 12\_COMMAND\_QUEUE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_queue_desc) structure.
+-   [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_queue_desc) : has a *NodeMask* member.
+-   [**CreateCommandQueue**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandqueue) : creates a queue from a [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_queue_desc) structure.
 -   [**CreateCommandList**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandlist) : takes a *nodeMask* parameter.
--   [**Direct3D 12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc) : has a *NodeMask* member.
--   [**CreateDescriptorHeap**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap) : creates a descriptor heap from a [**Direct3D 12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc) structure.
--   [**Direct3D 12\_QUERY\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_heap_desc) : has a *NodeMask* member.
--   [**CreateQueryHeap**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createqueryheap) : creates a query heap from a [**Direct3D 12\_QUERY\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_heap_desc) structure.
+-   [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc) : has a *NodeMask* member.
+-   [**CreateDescriptorHeap**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createdescriptorheap) : creates a descriptor heap from a [**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_heap_desc) structure.
+-   [**D3D12\_QUERY\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_heap_desc) : has a *NodeMask* member.
+-   [**CreateQueryHeap**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createqueryheap) : creates a query heap from a [**D3D12\_QUERY\_HEAP\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_heap_desc) structure.
 
 ### Multiple nodes
 
 When calling the following (multiple node) APIs, your application specifies a set of nodes with which the API call will be associated. You specify node affinity as a node mask, potentially with multiple bits set. If your application passes 0 for this bit mask, then the Direct3D 12 driver converts that to the bit mask 1 (indicating that the object is associated with node 0).
 
--   [**Direct3D 12\_CROSS\_NODE\_SHARING\_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier) : determines the support for cross node sharing.
--   [**Direct3D 12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) : structure referencing [**Direct3D 12\_CROSS\_NODE\_SHARING\_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier).
--   [**Direct3D 12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture) : contains a *NodeIndex* member.
--   [**Direct3D 12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) : has a *NodeMask* member.
--   [**CreateGraphicsPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate) : creates a graphics pipeline state object from a [**Direct3D 12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) structure.
--   [**Direct3D 12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc) : has a *NodeMask* member.
--   [**CreateComputePipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate) : creates a compute pipeline state object from a [**Direct3D 12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc) structure.
+-   [**D3D12\_CROSS\_NODE\_SHARING\_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier) : determines the support for cross node sharing.
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) : structure referencing [**D3D12\_CROSS\_NODE\_SHARING\_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier).
+-   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture) : contains a *NodeIndex* member.
+-   [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) : has a *NodeMask* member.
+-   [**CreateGraphicsPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate) : creates a graphics pipeline state object from a [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) structure.
+-   [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc) : has a *NodeMask* member.
+-   [**CreateComputePipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate) : creates a compute pipeline state object from a [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc) structure.
 -   [**CreateRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature): takes a *nodeMask* parameter.
--   [**Direct3D 12\_COMMAND\_SIGNATURE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_signature_desc): has a *NodeMask* member.
--   [**CreateCommandSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandsignature) : creates a command signature object from a [**Direct3D 12\_COMMAND\_SIGNATURE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_signature_desc) structure.
+-   [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_signature_desc): has a *NodeMask* member.
+-   [**CreateCommandSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandsignature) : creates a command signature object from a [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_command_signature_desc) structure.
 
 ### Resource creation APIs
 
 The following APIs reference node masks.
 
--   [**Direct3D 12\_HEAP\_PROPERTIES**](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties) : has both *CreationNodeMask* and *VisibleNodeMask* members.
+-   [**D3D12\_HEAP\_PROPERTIES**](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties) : has both *CreationNodeMask* and *VisibleNodeMask* members.
 -   [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo) : has a *visibleMask* parameter.
 -   [**GetCustomHeapProperties**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties) : has a *nodeMask* parameter.
 

@@ -1,5 +1,5 @@
 ---
-title: WSMan.SessionFlagSkipCACheck method
+title: WSMan.SessionFlagSkipCACheck method (WSManDisp.h)
 description: Returns the value of the WSManFlagSkipCACheck authentication flag for use in the flags parameter of WSMan.CreateSession.
 ms.assetid: a67cadb3-c20a-4a58-a13b-5bbd23c547d1
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

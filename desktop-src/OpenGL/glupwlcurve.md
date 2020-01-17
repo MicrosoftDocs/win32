@@ -1,5 +1,5 @@
 ---
-title: gluPwlCurve function
+title: gluPwlCurve function (Glu.h)
 description: The gluPwlCurve function describes a piecewise linear Non-Uniform Rational B-Spline (NURBS) trimming curve.
 ms.assetid: 3d08e7e8-dfdf-447c-9795-bd73299412b5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

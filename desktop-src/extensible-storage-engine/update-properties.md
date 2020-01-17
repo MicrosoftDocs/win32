@@ -1,5 +1,5 @@
 ﻿---
-title: Update properties (Microsoft.Isam.Esent.Interop)
+title: Update properties
 TOCTitle: Update properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Update
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update_properties(v=EXCHG.10)

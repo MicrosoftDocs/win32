@@ -1,8 +1,8 @@
 ---
 Description: Specifies the desired quality level for quality based (1-pass) variable-bit-rate (VBR) encoding of audio streams.
 ms.assetid: 0bbb4f51-78c3-4455-bd96-9a6d80110220
-title: MFPKEY_DESIRED_VBRQUALITY Property
-ms.topic: article
+title: MFPKEY_DESIRED_VBRQUALITY Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the desired quality level for quality based (1-pass) variable-bit-rate
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

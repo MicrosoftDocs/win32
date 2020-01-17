@@ -1,8 +1,8 @@
 ---
 Description: For a 3D video format, specifies which view is the left view.
 ms.assetid: 4F33BF2D-EB32-46B6-B071-F9130D404201
-title: MF_MT_VIDEO_3D_FIRST_IS_LEFT attribute
-ms.topic: article
+title: MF_MT_VIDEO_3D_FIRST_IS_LEFT attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

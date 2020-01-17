@@ -1,5 +1,5 @@
 ---
-title: MCI_PUT command
+title: MCI_PUT command (Mmsystem.h)
 description: The MCI\_PUT command sets the source, destination, and frame rectangles. Digital-video and video-overlay devices recognize this command.
 ms.assetid: 9d81682b-6546-4e6d-a6df-e2de8c013b66
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_PUT command sets the source, destination, and frame rectangles. Digital-video and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -120,7 +120,7 @@ The **rc** member of the structure identified by *lpDest* contains a valid recta
 
 </dd> </dl>
 
-For digital-video devices, *lpDest* points to an [**MCI\_DGV\_PUT\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743397(v=VS.85).aspx) structure.
+For digital-video devices, *lpDest* points to an [**MCI\_DGV\_PUT\_PARMS**](https://msdn.microsoft.com/library/Dd743397(v=VS.85).aspx) structure.
 
 The following additional flags are used with the **overlay** device type:
 

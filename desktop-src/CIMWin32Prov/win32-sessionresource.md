@@ -3,7 +3,7 @@ Description: The Win32\_SessionResource association represents the relationship 
 ms.assetid: 39c195cf-e70b-4e93-b46b-61ed4f08f57e
 ms.tgt_platform: multiple
 title: Win32_SessionResource class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Data type: **Win32\_LogicalElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Antecedent")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent")
 </dt> </dl>
 
 The Antecedent reference represents resources used by this session.
@@ -72,7 +72,7 @@ Data type: **Win32\_Session**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Dependent")
+Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent")
 </dt> </dl>
 
 The Dependent reference represents the session using the resource.

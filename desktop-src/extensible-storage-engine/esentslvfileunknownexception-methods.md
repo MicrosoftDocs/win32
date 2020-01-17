@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileUnknownException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileUnknownException methods
 TOCTitle: EsentSLVFileUnknownException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileunknownexception_methods(v=EXCHG.10)

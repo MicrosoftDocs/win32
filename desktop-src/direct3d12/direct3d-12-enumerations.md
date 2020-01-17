@@ -18,6 +18,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D_ROOT_SIGNATURE_VERSION**](/windows/win32/api/d3d12/ne-d3d12-d3d_root_signature_version). Specifies the version of root signature layout. |
 | [**D3D_SHADER_MODEL**](/windows/win32/api/d3d12/ne-d3d12-d3d_shader_model). Specifies a shader model. |
 | [**D3D12_AUTO_BREADCRUMB_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_auto_breadcrumb_op). Defines constants that specify render/compute GPU operations. |
+| [**D3D12_BACKGROUND_PROCESSING_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_background_processing_mode). Defines constants that specify a level of dynamic optimization to apply to GPU work that's subsequently submitted. |
 | [**D3D12_BLEND**](/windows/win32/api/d3d12/ne-d3d12-d3d12_blend). Specifies blend factors, which modulate values for the pixel shader and render target. |
 | [**D3D12_BLEND_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_blend_op). Specifies RGB or alpha blending operations. |
 | [**D3D12_BUFFER_SRV_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_buffer_srv_flags). Identifies how to view a buffer resource. |
@@ -61,7 +62,9 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_INDEX_BUFFER_STRIP_CUT_VALUE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_index_buffer_strip_cut_value). When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle strip . There is a special index value that represents the desire to have a discontinuity in the strip, the cut index value. This enum lists the supported cut values.  |
 | [**D3D12_INDIRECT_ARGUMENT_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_indirect_argument_type). Specifies the type of the indirect parameter.  |
 | [**D3D12_INPUT_CLASSIFICATION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_input_classification). Identifies the type of data contained in an input slot. |
+| [**D3D12_LIFETIME_STATE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_lifetime_state). Defines constants that specify the lifetime state of a lifetime-tracked object. |
 | [**D3D12_LOGIC_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op). Specifies logical operations to configure for a render target. |
+| [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action). Defines constants that specify what should be done with the results of earlier workload instrumentation. |
 | [**D3D12_MEMORY_POOL**](/windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool). Specifies the memory pool for the heap. |
 | [**D3D12_META_COMMAND_PARAMETER_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags). Defines constants that specify the flags for a parameter to a meta command. Values can be bitwise OR'd together. |
 | [**D3D12_META_COMMAND_PARAMETER_STAGE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage). Defines constants that specify the stage of a parameter to a meta command. |
@@ -73,6 +76,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_PREDICATION_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_predication_op). Specifies the predication operation to apply.  |
 | [**D3D12_PRIMITIVE_TOPOLOGY_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_primitive_topology_type). Specifies how the pipeline interprets geometry or hull shader input primitives. |
 | [**D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_programmable_sample_positions_tier). Specifies the level of support for programmable sample positions that's offered by the adapter. |
+| [**D3D12_PROTECTED_RESOURCE_SESSION_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_protected_resource_session_flags). Defines constants that specify protected resource session flags. |
 | [**D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_protected_resource_session_support_flags). Defines constants that specify protected resource session support. |
 | [**D3D12_PROTECTED_SESSION_STATUS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_protected_session_status). Defines constants that specify protected session status. |
 | [**D3D12_QUERY_HEAP_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_query_heap_type). Specifies the type of query heap to create. |
@@ -119,7 +123,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_TILE_RANGE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tile_range_flags). Specifies a range of tile mappings.  |
 | [**D3D12_TILED_RESOURCES_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier). Identifies the tier level at which tiled resources are supported.  |
 | [**D3D12_UAV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension). Identifies unordered access view options. |
-| [**D3D12_VIEW_INSTANCE_FLAGS**](https://msdn.microsoft.com/en_us/library/Mt844810(v=VS.85).aspx). Specifies options for view instancing. |
+| [**D3D12_VIEW_INSTANCING_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags). Specifies options for view instancing. |
 | [**D3D12_VIEW_INSTANCING_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier). Indicates the tier level at which view instancing is supported. |
 | [**D3D12_WRITEBUFFERIMMEDIATE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode). Specifies the mode used by a **WriteBufferImmediate** operation. |
 

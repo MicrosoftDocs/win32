@@ -2,7 +2,7 @@
 Description: Legacy template used to assign a value in an effect file. This template has been replaced by the EffectParamString template.
 ms.assetid: a9cebdfe-c70e-4e3f-8fde-41947bd9a1fa
 title: EffectString
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

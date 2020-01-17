@@ -2,7 +2,7 @@
 Description: Directory Access Technologies
 ms.assetid: 9880a969-b72a-4fb3-b1db-0c16425affa9
 title: Directory Access Technologies
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

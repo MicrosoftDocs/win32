@@ -1,5 +1,5 @@
 ---
-title: LB_GETCURSEL message
+title: LB_GETCURSEL message (Winuser.h)
 description: Gets the index of the currently selected item, if any, in a single-selection list box.
 ms.assetid: 39ab7f77-6c8e-45a4-aad4-47eba0a11a11
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: UDM_GETPOS message
+title: UDM_GETPOS message (Commctrl.h)
 description: Retrieves the current position of an up-down control with 16-bit precision.
 ms.assetid: 5f395de0-11b3-44f8-9bf4-42e27ce88a0c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

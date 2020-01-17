@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 4074f513-d1e7-4311-8732-4d755e621e55
-title: CMediaPosition.CMediaPosition constructor
-ms.topic: article
+title: CMediaPosition.CMediaPosition constructor (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

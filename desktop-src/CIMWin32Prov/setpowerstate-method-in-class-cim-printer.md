@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Printer class sets the desired
 ms.assetid: 8a170dea-400a-4f2a-9402-f70a97d4a46c
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Printer class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

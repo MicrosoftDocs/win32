@@ -1,8 +1,8 @@
 ---
 Description: Sets a non-transposed matrix.
 ms.assetid: 891441ea-09d5-43b6-a080-578d7f8e4586
-title: ID3DXTextureShader::SetMatrix method
-ms.topic: article
+title: ID3DXTextureShader::SetMatrix method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a non-transposed matrix. See [**D3DXMATRIX**](d3dxmatrix.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

@@ -12,7 +12,7 @@ api_name:
 - ms-DS-Allowed-To-Act-On-Behalf-Of-Other-Identity
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

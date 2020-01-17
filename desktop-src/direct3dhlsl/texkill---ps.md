@@ -2,10 +2,10 @@
 title: texkill - ps
 description: Cancels rendering of the current pixel if any of the first three components (UVW) of the texture coordinates is less than zero.
 ms.assetid: 7641aef8-8931-4a19-827a-75ab17e901ac
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the data for one of the object's members or the data for all members. Deprecated.
 ms.assetid: 2a227705-371e-41f1-af5d-20e652cd07f6
-title: IDirectXFileData::GetData method
-ms.topic: article
+title: IDirectXFileData::GetData method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT GetData(
 *szMember* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the name of the member for which to retrieve data. Specify **NULL** to retrieve all required members' data.
 
@@ -49,7 +49,7 @@ Pointer to the name of the member for which to retrieve data. Specify **NULL** t
 *pcbSize* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to receive the ppvData buffer size, in bytes.
 
@@ -66,7 +66,7 @@ Address of a pointer to the buffer to receive the data associated with szMember.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values: DXFILEERR\_BADARRAYSIZE, DXFILEERR\_BADDataReference, DXFILEERR\_BADVALUE.
 

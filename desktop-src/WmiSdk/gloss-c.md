@@ -1,9 +1,9 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 07ea3f71-8c1f-46d6-880d-e0687925616f
 ms.tgt_platform: multiple
-title: C
+title: C (WMI)
 ms.topic: article
 ms.date: 05/31/2018
 ---

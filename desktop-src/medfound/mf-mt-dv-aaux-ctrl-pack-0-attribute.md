@@ -1,8 +1,8 @@
 ---
 Description: Audio auxiliary (AAUX) source control pack for the first audio block in a digital video (DV) media type.
 ms.assetid: 483b5a5e-d385-4730-91dc-2e4dcca73ead
-title: MF_MT_DV_AAUX_CTRL_PACK_0 attribute
-ms.topic: article
+title: MF_MT_DV_AAUX_CTRL_PACK_0 attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ Audio auxiliary (AAUX) source control pack for the first audio block in a digita
 
 ## Remarks
 
-This attribute corresponds to the **dwDVAAuxCtl** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/en-us/library/Dd388639(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwDVAAuxCtl** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/library/Dd388639(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

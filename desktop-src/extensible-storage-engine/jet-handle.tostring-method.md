@@ -1,5 +1,5 @@
 ---
-title: JET_HANDLE.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_HANDLE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_HANDLE.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle.tostring(v=EXCHG.10)
@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_HANDLE.ToString method
+# JET_HANDLE.ToString method overload list
 
 Include protected members  
 Include inherited members  

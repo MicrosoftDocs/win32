@@ -2,7 +2,7 @@
 Description: Retrieves a string that contains the name of the certificate subject.
 ms.assetid: 95dc7e8b-6670-4dfc-9fe1-d37635fb92d6
 title: Certificate.SubjectName property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

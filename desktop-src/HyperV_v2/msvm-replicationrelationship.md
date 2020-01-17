@@ -2,7 +2,7 @@
 Description: Represents replication status for a replication relationship.
 ms.assetid: F11EFF86-5CC9-4310-8254-B310C54B561D
 title: Msvm_ReplicationRelationship class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

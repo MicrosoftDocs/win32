@@ -1,5 +1,5 @@
 ---
-title: DirectDraw Return Codes
+title: DirectDraw Return Codes (Ddraw.h)
 description: Errors are represented by negative values and cannot be combined.
 ms.assetid: F713193E-3614-4741-B293-D312C170270A
 topic_type:
@@ -127,7 +127,7 @@ api_location:
 - Ddraw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

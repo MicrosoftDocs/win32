@@ -1,5 +1,5 @@
 ---
-title: WM_MENUCOMMAND message
+title: WM_MENUCOMMAND message (Winuser.h)
 description: Sent when the user makes a selection from a menu.
 ms.assetid: 1ed702ef-8d32-4d4c-a68a-ffd199112ced
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

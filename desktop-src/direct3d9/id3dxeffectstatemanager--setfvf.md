@@ -1,8 +1,8 @@
 ---
 Description: A callback function that must be implemented by a user to set a FVF code.
 ms.assetid: 701a4333-a71e-4d84-a06c-1c86312ee4ff
-title: ID3DXEffectStateManager::SetFVF method
-ms.topic: article
+title: ID3DXEffectStateManager::SetFVF method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -38,7 +38,7 @@ HRESULT SetFVF(
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The FVF constant, that determines how to interpret vertex data. See [D3DFVF](d3dfvf.md).
 
@@ -46,7 +46,7 @@ The FVF constant, that determines how to interpret vertex data. See [D3DFVF](d3d
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

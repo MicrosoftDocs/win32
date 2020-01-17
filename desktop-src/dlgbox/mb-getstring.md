@@ -1,5 +1,5 @@
 ---
-title: MB_GetString function
+title: MB_GetString function (User.h)
 description: Returns strings for standard message box buttons.
 ms.assetid: D2AF238D-F5A8-477D-BF47-0F5D4D68B27E
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - user32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

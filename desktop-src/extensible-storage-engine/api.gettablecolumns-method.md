@@ -1,5 +1,5 @@
 ﻿---
-title: Api.GetTableColumns method  (Microsoft.Isam.Esent.Interop)
+title: Api.GetTableColumns method 
 TOCTitle: 'GetTableColumns method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.GetTableColumns
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.gettablecolumns(v=EXCHG.10)

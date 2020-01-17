@@ -1,5 +1,5 @@
 ---
-title: EM_PASTESPECIAL message
+title: EM_PASTESPECIAL message (Richedit.h)
 description: Pastes a specific clipboard format in a rich edit control.
 ms.assetid: b4b9c1a7-943d-4dc8-bcb9-054c984b82ba
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

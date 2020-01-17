@@ -1,5 +1,5 @@
 ---
-title: WM_VSCROLL message
+title: WM_VSCROLL message (Winuser.h)
 description: The WM\_VSCROLL message is sent to a window when a scroll event occurs in the window's standard vertical scroll bar.
 ms.assetid: 495733b8-1aac-4ff7-b0be-15f14581f41c
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

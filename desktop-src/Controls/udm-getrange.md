@@ -1,5 +1,5 @@
 ---
-title: UDM_GETRANGE message
+title: UDM_GETRANGE message (Commctrl.h)
 description: Retrieves the minimum and maximum positions (range) for an up-down control.
 ms.assetid: fd42538a-8d96-4a9c-a1db-07c3e9afef84
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

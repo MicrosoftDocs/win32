@@ -1,5 +1,5 @@
 ---
-title: MPTHREAT_INFOEX_NIS structure
+title: MPTHREAT_INFOEX_NIS structure (MpClient.h)
 description: Contains NIS-specific information.
 ms.assetid: 3887C5BF-B1F6-4420-B40A-9585E44BE7A9
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

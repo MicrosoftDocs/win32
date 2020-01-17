@@ -1,5 +1,5 @@
 ---
-title: CBEM_INSERTITEM message
+title: CBEM_INSERTITEM message (Commctrl.h)
 description: Inserts a new item in a ComboBoxEx control.
 ms.assetid: c99db676-204d-44c9-aaa3-81b70fe2cf44
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

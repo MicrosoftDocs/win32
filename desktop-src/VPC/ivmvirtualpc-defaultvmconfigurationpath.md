@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC DefaultVMConfigurationPath property
+title: IVMVirtualPC DefaultVMConfigurationPath property (VPCCOMInterfaces.h)
 description: Default directory to be searched for available virtual machine configuration files.
 ms.assetid: 9ae63198-e3f6-4dcb-8edb-85adfbbdca26
 keywords:
@@ -16,7 +16,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

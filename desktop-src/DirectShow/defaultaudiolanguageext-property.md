@@ -2,7 +2,7 @@
 Description: The DefaultAudioLanguageExt property retrieves the default DVD audio language extension.
 ms.assetid: 628af2aa-e528-4689-953b-558e13e1d513
 title: DefaultAudioLanguageExt Property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

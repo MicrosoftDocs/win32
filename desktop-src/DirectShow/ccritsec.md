@@ -1,8 +1,8 @@
 ---
 Description: The CCritSec class provides a thread lock.
 ms.assetid: ecc60afe-15d0-4780-8133-1dfc558c6325
-title: CCritSec class
-ms.topic: interface
+title: CCritSec class (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

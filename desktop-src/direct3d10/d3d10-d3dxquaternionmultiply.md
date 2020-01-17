@@ -1,8 +1,8 @@
 ---
 Description: Multiplies two quaternions.
 ms.assetid: f549e383-9c39-47a9-84e4-82365bdf1155
-title: D3DXQuaternionMultiply function
-ms.topic: article
+title: D3DXQuaternionMultiply function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -66,7 +66,7 @@ Pointer to a source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) structure.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) structure that is the product of two quaternions.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Update.Save method  (Microsoft.Isam.Esent.Interop)
+title: Update.Save method 
 TOCTitle: 'Save method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Update.Save
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update.save(v=EXCHG.10)
@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# Update.Save method
+# Update.Save method overload list
 
 Include protected members  
 Include inherited members  

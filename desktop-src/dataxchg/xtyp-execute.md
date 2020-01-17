@@ -1,5 +1,5 @@
 ---
-title: XTYP_EXECUTE transaction
+title: XTYP_EXECUTE transaction (Ddeml.h)
 description: A client uses the XTYP\_EXECUTE transaction to send a command string to the server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_EXECUTE in the DdeClientTransaction function.
 ms.assetid: 6001eb7d-59c0-49ec-97ce-26132891188c
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_EXECUTE transaction
 
-A client uses the **XTYP\_EXECUTE** transaction to send a command string to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_EXECUTE** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
+A client uses the **XTYP\_EXECUTE** transaction to send a command string to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_EXECUTE** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
 
 
 ```C++

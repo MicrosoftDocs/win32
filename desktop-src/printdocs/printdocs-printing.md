@@ -1,7 +1,7 @@
 ---
 Description: Windows provides applications with a complete set of functions that allow printing to various devices, such as laser printers, vector plotters, raster printers, and fax machines.
 ms.assetid: e5c115b0-9c1e-46e7-8fb5-eddbc2c75298
-title: Printing
+title: Printing (Documents and Printing)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -62,7 +62,7 @@ The following illustration provides a high-level view of how the different print
 
  
 
-The [Print Document Package API](https://msdn.microsoft.com/en-us/library/Hh448418(v=VS.85).aspx)s in this section describe the print document package and print preview interfaces that you can use with Windows 8 and later versions of Windows desktop.
+The [Print Document Package API](https://msdn.microsoft.com/library/Hh448418(v=VS.85).aspx)s in this section describe the print document package and print preview interfaces that you can use with Windows 8 and later versions of Windows desktop.
 
 For more info about printing from Windows Store apps that are written in JavaScript and HTML, see [Printing (Windows Store apps using JavaScript and HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)). For more info about printing from Windows Store apps that are written in C#, Microsoft Visual Basic, or C++ and XAML, see [Printing (Windows Store apps using C)](https://docs.microsoft.com/previous-versions/windows/apps/hh465196(v=win.10)).
 
@@ -75,7 +75,7 @@ For more info about printing from Windows Store apps that are written in JavaScr
 
 <dl> <dt>
 
-[XPS Document API](https://msdn.microsoft.com/en-us/library/Dd316976(v=VS.85).aspx)
+[XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx)
 </dt> <dt>
 
 [Bidirectional printer communications (Hardware Dev Center)](https://go.microsoft.com/fwlink/p/?LinkId=613189  )

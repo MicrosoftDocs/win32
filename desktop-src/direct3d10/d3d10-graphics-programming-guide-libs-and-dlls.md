@@ -16,7 +16,7 @@ The libraries included with the DirectX SDK will automatically load the proper D
 
 ## Redistributing Binaries
 
-Only d3dx10.dll (and subsequent versions of the same file) can be redistributed. To redistribute this file, you must use the **DirectXSetup** function. For details on using this function and putting together a redistributable package, see [Installing DirectX with DirectSetup](https://msdn.microsoft.com/en-us/library/Ee418267(v=VS.85).aspx). All other necessary binaries are included in Windows Vista. The only binaries that can be redistributed are those located in the following directory.
+Only d3dx10.dll (and subsequent versions of the same file) can be redistributed. To redistribute this file, you must use the **DirectXSetup** function. For details on using this function and putting together a redistributable package, see [Installing DirectX with DirectSetup](https://msdn.microsoft.com/library/Ee418267(v=VS.85).aspx). All other necessary binaries are included in Windows Vista. The only binaries that can be redistributed are those located in the following directory.
 
 
 ```

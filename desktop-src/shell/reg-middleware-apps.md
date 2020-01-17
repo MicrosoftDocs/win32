@@ -591,7 +591,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-After updating the registry keys, the program should broadcast the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx) message with **wParam** = 0 and **lParam** pointing to the null-terminated string "Software\\Clients\\**ClientTypeName**" to notify the operating system that the default client has changed.
+After updating the registry keys, the program should broadcast the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message with **wParam** = 0 and **lParam** pointing to the null-terminated string "Software\\Clients\\**ClientTypeName**" to notify the operating system that the default client has changed.
 
 ### Mail Client Registration
 

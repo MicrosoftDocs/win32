@@ -1,7 +1,7 @@
 ---
 Description: The user has clicked a chevron to expand the item specified by the accompanying SMDATA structure.
-title: SMC_CHEVRONEXPAND message
-ms.topic: article
+title: SMC_CHEVRONEXPAND message (Shobjidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: cb0b3cf1-1a12-4236-96e9-cc04360d269f
 api_name: 

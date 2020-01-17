@@ -1,5 +1,5 @@
 ---
-title: EsentIndexTuplesKeyTooSmallException properties (Microsoft.Isam.Esent.Interop)
+title: EsentIndexTuplesKeyTooSmallException properties
 TOCTitle: EsentIndexTuplesKeyTooSmallException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindextupleskeytoosmallexception_properties(v=EXCHG.10)

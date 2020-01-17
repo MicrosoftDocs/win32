@@ -1,5 +1,5 @@
 ---
-title: IVMHardDisk File property
+title: IVMHardDisk File property (VPCCOMInterfaces.h)
 description: Retrieves the full path name of the virtual hard disk file.
 ms.assetid: 8c1f028a-32e6-4b70-b19c-bed7c2d53de1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

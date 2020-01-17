@@ -1,5 +1,5 @@
 ---
-title: IVMHostInfo ParallelPort property
+title: IVMHostInfo ParallelPort property (VPCCOMInterfaces.h)
 description: Retrieves the host parallel port that can be attached to the guest.
 ms.assetid: 4c9486b8-ab66-4874-b467-a7a0ab7934f1
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

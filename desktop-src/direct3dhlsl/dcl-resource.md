@@ -2,10 +2,10 @@
 title: dcl_resource (sm4 - asm)
 description: dcl\_resource (sm4 - asm)
 ms.assetid: 045610f0-f7db-4bf2-bfea-501bbee94601
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
-- kbArticle
+- apiref
 api_name: 
 api_type: 
 api_location: 

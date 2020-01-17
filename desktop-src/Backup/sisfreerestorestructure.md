@@ -1,5 +1,5 @@
 ---
-title: SisFreeRestoreStructure function
+title: SisFreeRestoreStructure function (Sisbkup.h)
 description: Frees the memory allocated for the specified SIS restore structure, and performs tasks that prepare the SIS filter to properly set up the links created during the restore operation.
 ms.assetid: dbdccb53-b38e-465d-a6d0-ee86923a5879
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

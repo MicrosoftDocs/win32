@@ -2,7 +2,7 @@
 Description: Begins encryption of a fully decrypted operating system volume after a hardware test.
 ms.assetid: 216c96bb-7737-4421-8b16-1ce295342266
 title: EncryptAfterHardwareTest method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -206,7 +206,7 @@ On computer restart, the hardware test runs automatically.
 
 Encryption begins if the hardware test succeeds. Otherwise, attempt to resolve any hardware failures. Run [**GetHardwareTestStatus**](gethardwareteststatus-win32-encryptablevolume.md) after restarting the computer to get test results.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 ---
-title: RootDSE
+title: RootDSE (AD Schema)
 description: In LDAP 3.0, rootDSE is defined as the root of the directory data tree on a directory server.
 ms.assetid: dd5a160d-6604-43ca-878c-6b19e90d3adb
 ms.tgt_platform: multiple
@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RootDSE
+# RootDSE (AD Schema)
 
 In LDAP 3.0, rootDSE is defined as the root of the directory data tree on a directory server. The rootDSE is not part of any namespace. The purpose of the rootDSE is to provide data about the directory server. For more information about rootDSE, see [Serverless Binding and RootDSE](https://docs.microsoft.com/windows/desktop/AD/serverless-binding-and-rootdse) in the Active Directory SDK documentation.
 

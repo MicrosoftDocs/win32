@@ -3,7 +3,7 @@ Description: Obtains ownership of the logical file specified in the object path.
 ms.assetid: c01ab071-86e4-484d-aaed-4783b6c3bebf
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_LogicalFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

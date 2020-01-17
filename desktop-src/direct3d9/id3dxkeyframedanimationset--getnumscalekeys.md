@@ -1,8 +1,8 @@
 ---
 Description: Gets the number of scale keys in the specified key frame animation.
 ms.assetid: d3e8c3ba-5301-4f9d-b27f-655ef7bb6af8
-title: ID3DXKeyframedAnimationSet::GetNumScaleKeys method
-ms.topic: article
+title: ID3DXKeyframedAnimationSet::GetNumScaleKeys method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ UINT GetNumScaleKeys(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Animation index.
 
@@ -46,7 +46,7 @@ Animation index.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of scale keys in the specified key frame animation.
 

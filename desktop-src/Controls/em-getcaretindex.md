@@ -1,5 +1,5 @@
 ---
-title: EM_GETCARETINDEX message
+title: EM_GETCARETINDEX message (CommCtrl.h)
 description: Gets the zero-based index of the position of the caret in an edit control.
 ms.assetid: cf12aaea-cfa7-4804-ae34-fd0992332288
 keywords:
@@ -12,8 +12,7 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

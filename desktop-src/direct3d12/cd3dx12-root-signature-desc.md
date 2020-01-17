@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_ROOT_SIGNATURE_DESC structure
+title: CD3DX12_ROOT_SIGNATURE_DESC structure (D3dx12.h)
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_SIGNATURE\_DESC structure.
 ms.assetid: A3B820C1-51E8-4E35-A67F-2C4BE82A6B7F
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

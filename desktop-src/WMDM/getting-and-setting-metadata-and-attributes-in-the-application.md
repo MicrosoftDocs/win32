@@ -1,5 +1,5 @@
 ---
-title: Getting and Setting Metadata and Attributes in the Application
+title: Accessing metadata and attributes in the app
 description: Getting and Setting Metadata and Attributes in the Application
 ms.assetid: 308a722d-1c65-41eb-a0e2-21171eb410d5
 keywords:
@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting and Setting Metadata and Attributes in the Application
+# Accessing metadata and attributes in the app
 
 A general discussion of metadata and attributes is available in [Getting and Setting Metadata and Attributes](getting-and-setting-metadata-and-attributes.md). This section covers specific application method calls to retrieve or set values.
 

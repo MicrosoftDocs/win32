@@ -1,5 +1,5 @@
 ---
-title: LVM_GETSUBITEMRECT message
+title: LVM_GETSUBITEMRECT message (Commctrl.h)
 description: Retrieves information about the bounding rectangle for a subitem in a list-view control.
 ms.assetid: 985876b2-6eb3-4c96-88ea-ddec67ef5b5a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

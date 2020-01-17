@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob5 SetProperty method
+title: IBackgroundCopyJob5 SetProperty method (Deliveryoptimization.h)
 description: A generic method for setting Delivery Optimization (DO) job properties.
 ms.assetid: 9A8CCE04-B3EB-43CC-A135-7054EC40ABEC
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

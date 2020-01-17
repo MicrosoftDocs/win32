@@ -1,8 +1,8 @@
 ---
 Description: Creates a copy of an effect.
 ms.assetid: 6272bce0-b712-4a61-afe2-8f572993b03e
-title: ID3DXEffect::CloneEffect method
-ms.topic: article
+title: ID3DXEffect::CloneEffect method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Pointer to an [**ID3DXEffect**](id3dxeffect.md) interface, containing the cloned
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

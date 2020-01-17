@@ -1,8 +1,8 @@
 ---
 Description: Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX10 that uses thread pumps.
 ms.assetid: 6e5a6138-c218-4200-a24e-d906d34933b8
-title: D3DX10CreateAsyncShaderResourceViewProcessor function
-ms.topic: article
+title: D3DX10CreateAsyncShaderResourceViewProcessor function (D3DX10Async.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -65,7 +65,7 @@ Address of a pointer to a buffer that contains the data processor created (see [
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

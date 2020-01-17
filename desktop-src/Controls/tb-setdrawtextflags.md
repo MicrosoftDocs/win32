@@ -1,5 +1,5 @@
 ---
-title: TB_SETDRAWTEXTFLAGS message
+title: TB_SETDRAWTEXTFLAGS message (Commctrl.h)
 description: Sets the text drawing flags for the toolbar.
 ms.assetid: b088af32-ea8a-4304-89f1-a7cec5497f85
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: IDCompositionRectangleClip SetBottom methods
+title: IDCompositionRectangleClip SetBottom methods (Dcomp.h)
 description: Animates or changes the value of the Bottom property of a clip rectangle.
 ms.assetid: 5C80AA94-AE61-4F12-86C8-6474ADD455B1
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionRectangleClip::SetBottom methods
@@ -24,8 +24,8 @@ Animates or changes the value of the Bottom property of a clip rectangle. The Bo
 
 | Method                                                                                                     | Description                                           |
 |:-----------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetBottom(float)**](https://msdn.microsoft.com/en-us/library/Hh448860(v=VS.85).aspx)                                     | Changes the value of the Bottom property.<br/>  |
-| [**SetBottom(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh448862(v=VS.85).aspx) | Animates the value of the Bottom property.<br/> |
+| [**SetBottom(float)**](https://msdn.microsoft.com/library/Hh448860(v=VS.85).aspx)                                     | Changes the value of the Bottom property.<br/>  |
+| [**SetBottom(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448862(v=VS.85).aspx) | Animates the value of the Bottom property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Animates or changes the value of the Bottom property of a clip rectangle. The Bo
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
 </dt> </dl>
 
 �

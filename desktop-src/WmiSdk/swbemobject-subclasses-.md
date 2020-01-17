@@ -2,8 +2,8 @@
 Description: The Subclasses\_ method of the SWbemObject object returns an SWbemObjectSet object.
 ms.assetid: c17e5d4a-016f-42ae-bc11-e21a44772ce5
 ms.tgt_platform: multiple
-title: SWbemObject.Subclasses_ method
-ms.topic: article
+title: SWbemObject.Subclasses_ method (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

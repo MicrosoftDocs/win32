@@ -1,5 +1,5 @@
 ---
-title: SNMP Error Codes
+title: SNMP Error Codes (Snmp.h)
 description: Microsoft implements the following SNMP error codes that are defined by the SNMPv2C specification.
 ms.assetid: 7e7e2bc0-a058-4853-b736-1946e64a0c4a
 topic_type:
@@ -28,7 +28,7 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

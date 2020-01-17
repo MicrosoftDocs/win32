@@ -1,5 +1,5 @@
 ---
-title: INapSystemHealthAgentRequest GetStringCorrelationId method
+title: INapSystemHealthAgentRequest GetStringCorrelationId method (NapSystemHealthAgent.h)
 description: Is used by system health agents to log the correlation ID.
 ms.assetid: 5d6f2392-2ada-474a-b150-31e0583c2ea7
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

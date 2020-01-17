@@ -1,5 +1,5 @@
 ---
-title: glFlush function
+title: glFlush function (Gl.h)
 description: The glFlush function forces execution of OpenGL functions in finite time.
 ms.assetid: 7544b724-472f-4055-8f1c-64ddb58caaf3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

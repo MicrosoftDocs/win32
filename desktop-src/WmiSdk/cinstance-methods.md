@@ -48,7 +48,7 @@ The [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance) class e
 -   [**SetVariant method**](/windows/desktop/api/Instance/nf-instance-cinstance-setvariant)
 -   [**SetWBEMINT16 method**](/windows/desktop/api/Instance/nf-instance-cinstance-setwbemint16)
 -   [**SetWCHARSplat method**](/windows/desktop/api/Instance/nf-instance-cinstance-setwcharsplat)
--   [**SetWBEMINT64 methods**](https://msdn.microsoft.com/en-us/library/Aa389221(v=VS.85).aspx)
+-   [**SetWBEMINT64 methods**](https://msdn.microsoft.com/library/Aa389221(v=VS.85).aspx)
 -   [**SetWORD method**](/windows/desktop/api/Instance/nf-instance-cinstance-setword)
 
  

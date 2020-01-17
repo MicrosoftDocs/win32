@@ -1,5 +1,5 @@
 ---
-title: EsentLogSectorSizeMismatchDatabasesConsistentException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogSectorSizeMismatchDatabasesConsistentException members
 TOCTitle: EsentLogSectorSizeMismatchDatabasesConsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsectorsizemismatchdatabasesconsistentexception_members(v=EXCHG.10)

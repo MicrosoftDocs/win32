@@ -1,11 +1,11 @@
 ---
-title: JET_RETRIEVECOLUMN.itagSequence property  (Microsoft.Isam.Esent.Interop)
+title: JET_RETRIEVECOLUMN.itagSequence property 
 TOCTitle: 'itagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.itagSequence
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retrievecolumn.itagsequence(v=EXCHG.10)
 ms:contentKeyID: 55103882
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.itagSequence
 dev_langs:

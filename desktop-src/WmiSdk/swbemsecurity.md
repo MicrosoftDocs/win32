@@ -2,8 +2,8 @@
 Description: The SWbemSecurity object gets or sets security settings, such as privileges, COM impersonations, and authentication levels assigned to an object.
 ms.assetid: 794587fa-5feb-455b-be28-ecfaa25625ad
 ms.tgt_platform: multiple
-title: SWbemSecurity object
-ms.topic: interface
+title: SWbemSecurity object (Wbemdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

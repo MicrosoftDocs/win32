@@ -3,7 +3,7 @@ Description: Gets the remote access rights for a list of individual users on com
 ms.assetid: 79a596db-5f85-4664-8989-f309286eca0d
 ms.tgt_platform: multiple
 title: '__SystemSecurity::Get9XUserList method'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

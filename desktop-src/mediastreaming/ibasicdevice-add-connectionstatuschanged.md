@@ -12,7 +12,7 @@ api_name:
 - IBasicDevice.add_ConnectionStatusChanged
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -40,7 +40,7 @@ HRESULT add_ConnectionStatusChanged(
 *handler* \[in\]
 </dt> <dd>
 
-A [**ConnectionStatusHandler**](https://msdn.microsoft.com/en-us/library/Hh828836(v=VS.85).aspx) event handler function.
+A [**ConnectionStatusHandler**](https://msdn.microsoft.com/library/Hh828836(v=VS.85).aspx) event handler function.
 
 </dd> <dt>
 

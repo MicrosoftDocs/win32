@@ -1,5 +1,5 @@
 ---
-title: WSMan.EnumerationFlagReturnEPR method
+title: WSMan.EnumerationFlagReturnEPR method (WSManDisp.h)
 description: Returns the value of the enumeration flag EnumerationFlagReturnEPR for use in the flags parameter of Session.Enumerate.
 ms.assetid: 5e168aa9-5be1-46b3-bb9b-59895e68a75d
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

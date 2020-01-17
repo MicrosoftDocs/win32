@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 
 # Opening Waveform-Audio Input Devices
 
-Use the [**waveInOpen**](https://msdn.microsoft.com/en-us/library/Dd743847(v=VS.85).aspx) function to open a waveform-audio input device for recording. This function opens the device associated with the specified device identifier and returns a handle of the open device by writing the handle of a specified memory location.
+Use the [**waveInOpen**](https://msdn.microsoft.com/library/Dd743847(v=VS.85).aspx) function to open a waveform-audio input device for recording. This function opens the device associated with the specified device identifier and returns a handle of the open device by writing the handle of a specified memory location.
 
-Some multimedia computers have multiple waveform-audio input devices. Unless you know you want to open a specific waveform-audio input device in a system, you should use the WAVE\_MAPPER constant for the device identifier when you open a device. The [**waveInOpen**](https://msdn.microsoft.com/en-us/library/Dd743847(v=VS.85).aspx) function will choose the device in the system best able to record in the specified data format.
+Some multimedia computers have multiple waveform-audio input devices. Unless you know you want to open a specific waveform-audio input device in a system, you should use the WAVE\_MAPPER constant for the device identifier when you open a device. The [**waveInOpen**](https://msdn.microsoft.com/library/Dd743847(v=VS.85).aspx) function will choose the device in the system best able to record in the specified data format.
 
 ## Related topics
 

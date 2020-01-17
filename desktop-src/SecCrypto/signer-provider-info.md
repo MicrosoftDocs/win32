@@ -2,7 +2,7 @@
 Description: Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.
 ms.assetid: 85dc6a06-365a-4591-9d1d-117556a4417d
 title: SIGNER_PROVIDER_INFO structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_PROVIDER\_INFO structure
 
-The **SIGNER\_PROVIDER\_INFO** structure specifies the [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) and private key information used to create a digital signature.
+The **SIGNER\_PROVIDER\_INFO** structure specifies the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and private key information used to create a digital signature.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

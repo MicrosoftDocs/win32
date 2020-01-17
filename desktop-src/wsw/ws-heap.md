@@ -1,10 +1,10 @@
 ---
-title: WS_HEAP
+title: WS_HEAP (WebServices.h)
 description: An opaque type used to reference a heap object.
 ms.assetid: 1866f54f-26fc-4889-a88f-0d298a418bdc
 keywords:
 - WS_HEAP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

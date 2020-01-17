@@ -1,7 +1,7 @@
 ---
 Description: The virtual address space for a process is the set of virtual memory addresses that it can use. The address space for each process is private and cannot be accessed by other processes unless it is shared.
 ms.assetid: 747f9f53-a595-4f4b-8b81-3123d59edb2f
-title: Virtual Address Space
+title: Virtual Address Space (Memory Management)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -12,7 +12,7 @@ The virtual address space for a process is the set of virtual memory addresses t
 
 A virtual address does not represent the actual physical location of an object in memory; instead, the system maintains a *page table* for each process, which is an internal data structure used to translate virtual addresses into their corresponding physical addresses. Each time a thread references an address, the system translates the virtual address to a physical address.
 
-The virtual address space for 32-bit Windows is 4 gigabytes (GB) in size and divided into two partitions: one for use by the process and the other reserved for use by the system. For more information about the virtual address space in 64-bit Windows, see [Virtual Address Space in 64-bit Windows](https://msdn.microsoft.com/en-us/library/Aa384271(v=VS.85).aspx).
+The virtual address space for 32-bit Windows is 4 gigabytes (GB) in size and divided into two partitions: one for use by the process and the other reserved for use by the system. For more information about the virtual address space in 64-bit Windows, see [Virtual Address Space in 64-bit Windows](https://msdn.microsoft.com/library/Aa384271(v=VS.85).aspx).
 
 For more information about virtual memory, see the following topics:
 
@@ -54,7 +54,7 @@ If [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) is enabled, the memory range 
 
  
 
-After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://msdn.microsoft.com/en-us/library/ms680349(v=VS.85).aspx) flag set in its image header will have access to the additional 1 GB of memory above the low 2 GB.
+After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://msdn.microsoft.com/library/ms680349(v=VS.85).aspx) flag set in its image header will have access to the additional 1 GB of memory above the low 2 GB.
 
 ## Adjusting the Virtual Address Space for 32-bit Windows
 

@@ -1,5 +1,5 @@
 ---
-title: Numbers
+title: Numbers (Windows Multimedia)
 description: Numbers
 ms.assetid: d416c4c2-a3e1-45a2-9ae1-82050a5e471b
 keywords:
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # Numbers
 
-The number controls allow the user to enter numerical data associated with a line. The numerical data is expressed as signed integers, unsigned integers, or integer decibel values. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/en-us/library/Dd757297(v=VS.85).aspx) and [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/en-us/library/Dd757298(v=VS.85).aspx) structures to retrieve and set control properties. The following table describes the types of number controls.
+The number controls allow the user to enter numerical data associated with a line. The numerical data is expressed as signed integers, unsigned integers, or integer decibel values. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/library/Dd757297(v=VS.85).aspx) and [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/library/Dd757298(v=VS.85).aspx) structures to retrieve and set control properties. The following table describes the types of number controls.
 
 
 

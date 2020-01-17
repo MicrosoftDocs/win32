@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine GetConfigurationValue method
+title: IVMVirtualMachine GetConfigurationValue method (VPCCOMInterfaces.h)
 description: Retrieves the value of the specified configuration setting for this virtual machine.
 ms.assetid: fd3c509e-8a40-4828-b866-6bd2cb455ab2
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

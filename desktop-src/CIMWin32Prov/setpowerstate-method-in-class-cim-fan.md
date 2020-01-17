@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_Fan class sets the desired pow
 ms.assetid: 6d997a9a-4d80-4fef-b814-8319f9538c2f
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Fan class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

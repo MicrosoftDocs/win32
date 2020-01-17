@@ -1,8 +1,8 @@
 ---
 Description: Preprocesses a shader without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 ms.assetid: d91258ed-6206-487a-aa81-e7c2bcea21ea
-title: D3DXPreprocessShader function
-ms.topic: article
+title: D3DXPreprocessShader function (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ api_location:
 Preprocesses a shader without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/en-us/library/Dd607332(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/library/Dd607332(v=VS.85).aspx) API.
 
  
 
@@ -48,7 +48,7 @@ HRESULT D3DXPreprocessShader(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that contains the shader.
 
@@ -57,7 +57,7 @@ Pointer to a string that contains the shader.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Length of the data in bytes.
 
@@ -101,7 +101,7 @@ Returns a buffer containing a listing of errors and warnings that were encounter
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

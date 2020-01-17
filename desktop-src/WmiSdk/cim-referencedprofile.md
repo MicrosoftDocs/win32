@@ -3,7 +3,7 @@ Description: Used to associate an instance CIM\_RegisteredProfile with an instan
 ms.assetid: 631003de-477b-4447-9633-1601a7f8eadb
 ms.tgt_platform: multiple
 title: CIM_ReferencedProfile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -3,7 +3,7 @@ Description: Describes the local installation of WMI.
 ms.assetid: 907b65b2-a853-40f4-8b36-5a05a2b1cf85
 ms.tgt_platform: multiple
 title: '__CIMOMIdentification class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

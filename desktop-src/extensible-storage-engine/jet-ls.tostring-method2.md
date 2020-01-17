@@ -1,5 +1,5 @@
 ---
-title: JET_LS.ToString method  (Microsoft.Isam.Esent.Interop)
+title: JET_LS.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_LS.ToString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls.tostring(v=EXCHG.10)
@@ -15,7 +15,7 @@ dev_langs:
 - other
 ---
 
-# JET_LS.ToString method
+# JET_LS.ToString method overload list
 
 Include protected members  
 Include inherited members  

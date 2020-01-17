@@ -1,5 +1,5 @@
 ---
-title: HRESULT Codes Specific to Windows Virtual PC
+title: HRESULT Codes Specific to Windows Virtual PC (VPCCOMInterfaces.h)
 description: HRESULT Codes Specific to Windows Virtual PC
 ms.assetid: 9e3b534c-eb1e-42b1-bdae-b5af555e7de4
 topic_type:
@@ -66,7 +66,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

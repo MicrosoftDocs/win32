@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Reason
 
-The possible reasons for an incoming session, such as that it was transferred, are listed in the [LINECALLREASON\_ Constants](https://msdn.microsoft.com/en-us/library/ms735539(v=VS.85).aspx).
+The possible reasons for an incoming session, such as that it was transferred, are listed in the [LINECALLREASON\_ Constants](https://msdn.microsoft.com/library/ms735539(v=VS.85).aspx).
 
 Not all service providers support use of this information.
 
-**TAPI 2.x:  **[**lineGetCallInfo**](https://msdn.microsoft.com/en-us/library/ms735720(v=VS.85).aspx) (**dwReason** member of *lpCallInfo*)
+**TAPI 2.x:  **[**lineGetCallInfo**](https://msdn.microsoft.com/library/ms735720(v=VS.85).aspx) (**dwReason** member of *lpCallInfo*)
 
 **TAPI 3.x:  **[**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong) (**CIL\_REASON** member of [**CALLINFO\_LONG**](/windows/desktop/api/Tapi3if/ne-tapi3if-callinfo_long))
 

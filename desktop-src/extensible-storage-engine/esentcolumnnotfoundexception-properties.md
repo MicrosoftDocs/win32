@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNotFoundException properties
 TOCTitle: EsentColumnNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnotfoundexception_properties(v=EXCHG.10)

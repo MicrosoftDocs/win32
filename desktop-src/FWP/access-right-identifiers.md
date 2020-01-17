@@ -1,5 +1,5 @@
 ---
-title: Access Right Identifiers
+title: Access Right Identifiers (Fwpmu.h)
 description: Windows Filtering Platform (WFP) uses the standard Win32 access rights plus a set of WFP-specific access rights built into the filtering platform.
 ms.assetid: 77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c
 topic_type:
@@ -24,7 +24,7 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

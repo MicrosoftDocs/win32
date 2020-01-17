@@ -1,8 +1,8 @@
 ---
 Description: Get a pointer to the constant table.
 ms.assetid: 5d836d99-783f-41e1-b7bf-d874d09a4892
-title: ID3DXTextureShader::GetConstantBuffer method
-ms.topic: article
+title: ID3DXTextureShader::GetConstantBuffer method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface, which contains the co
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

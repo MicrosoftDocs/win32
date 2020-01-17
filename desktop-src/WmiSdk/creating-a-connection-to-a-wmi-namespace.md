@@ -29,9 +29,9 @@ The following procedure describes how to create a connection to a WMI namespace.
 
 **To create a connection to a WMI namespace**
 
--   Initialize the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface through a call to [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx).
+-   Initialize the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface through a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
 
-    WMI does not require that you perform any additional procedures when calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) on [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
+    WMI does not require that you perform any additional procedures when calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) on [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
 
     The following code example describes how to initialize [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
 

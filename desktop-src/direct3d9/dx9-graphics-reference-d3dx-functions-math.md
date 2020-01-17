@@ -1,7 +1,7 @@
 ---
 Description: The math library provided by the D3DX utility library supplies functions to compute 3D mathematical operations.
 ms.assetid: 00f0f943-64fa-45e3-8bd3-ca61c8b87e1a
-title: Math Functions
+title: Math Functions (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Math Functions
 
 > [!Note]  
-> The math functions of the D3DX utility library are deprecated for Windows 8. We recommend that you use [DirectXMath](https://msdn.microsoft.com/en-us/library/Hh437833(v=VS.85).aspx) instead.
+> The math functions of the D3DX utility library are deprecated for Windows 8. We recommend that you use [DirectXMath](https://msdn.microsoft.com/library/Hh437833(v=VS.85).aspx) instead.
 
  
 

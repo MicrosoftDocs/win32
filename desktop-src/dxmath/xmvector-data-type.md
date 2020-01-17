@@ -1,8 +1,8 @@
 ---
 Description: A portable type used to represent a vector of four 32-bit floating-point or integer components, each aligned optimally and mapped to a hardware vector register.
 ms.assetid: 1a044094-444d-e787-fa6a-76e88531aef1
-title: XMVECTOR Data Type
-ms.topic: article
+title: XMVECTOR Data Type (DirectXMath.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

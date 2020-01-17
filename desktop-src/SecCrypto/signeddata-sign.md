@@ -2,7 +2,7 @@
 Description: Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.
 ms.assetid: ee98a36c-f9a9-4247-ae48-7b1a10b92be4
 title: SignedData.Sign method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
 
-The **Sign** method creates a [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) on the content to be signed. A digital signature consists of a [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) of the content to be signed that is encrypted by using the private key of the signer. This method can only be used after the [**SignedData.Content**](signeddata-content.md) property has been initialized. If the **Sign** method is called on an object that already has a signature, the old signature is replaced. The signature is created by using the SHA1 signing algorithm.
+The **Sign** method creates a [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) on the content to be signed. A digital signature consists of a [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) of the content to be signed that is encrypted by using the private key of the signer. This method can only be used after the [**SignedData.Content**](signeddata-content.md) property has been initialized. If the **Sign** method is called on an object that already has a signature, the old signature is replaced. The signature is created by using the SHA1 signing algorithm.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ SignedData.Sign( _
 *Signer* \[in, optional\]
 </dt> <dd>
 
-A reference to the [**Signer**](signer.md) object of the signer of the data. The **Signer** object must have access to the [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of the [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) used to sign. This parameter can be **NULL**; for more information, see Remarks.
+A reference to the [**Signer**](signer.md) object of the signer of the data. The **Signer** object must have access to the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of the [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) used to sign. This parameter can be **NULL**; for more information, see Remarks.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ If this method fails, an error will be thrown. The **Err** object will contain a
 
  
 
-Because creating a [*digital signature*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) requires the use of a [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx), web-based applications that attempt to use this method will require user interface prompts that allow the user to approve the use of the private key, for security reasons.
+Because creating a [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) requires the use of a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx), web-based applications that attempt to use this method will require user interface prompts that allow the user to approve the use of the private key, for security reasons.
 
 The following results apply to the *Signer* parameter value:
 

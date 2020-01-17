@@ -1,8 +1,8 @@
 ---
 Description: Creates a hierarchical tree of IWiaItem2 objects for a Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: df7f3cc2-da0a-4238-b280-89c72107753c
-title: IWiaDevMgr2::CreateDevice method
-ms.topic: article
+title: IWiaDevMgr2::CreateDevice method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -73,7 +73,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Applications use the **IWiaDevMgr2::CreateDevice** method to create a device object for the WIA 2.0 devices specified by the bstrDeviceID parameter. When it returns, the **IWiaDevMgr2::CreateDevice** method stores an address of a pointer in the parameter *ppWiaItem2Root*, which points to the root item of the tree of [**IWiaItem2**](-wia-iwiaitem2.md) objects created by **IWiaDevMgr2::CreateDevice**. Applications can use this tree of objects to control and retrieve data from the WIA 2.0 device.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the pointers they receive through the *ppWiaItem2Root* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the pointers they receive through the *ppWiaItem2Root* parameter.
 
 ## Requirements
 

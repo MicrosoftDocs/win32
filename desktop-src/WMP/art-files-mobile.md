@@ -1,6 +1,6 @@
 ---
-title: Art Files
-description: Art Files
+title: Art Files (Mobile)
+description: Art Files (Mobile)
 ms.assetid: 90393c3c-7952-4f77-96f6-0a0541bded9e
 keywords:
 - Windows Media Player Mobile skins,art files

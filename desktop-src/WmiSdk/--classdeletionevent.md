@@ -3,7 +3,7 @@ Description: Represents a class deletion event, which is a type of intrinsic eve
 ms.assetid: dd44c03e-4d0d-4750-942d-495893d21650
 ms.tgt_platform: multiple
 title: '__ClassDeletionEvent class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

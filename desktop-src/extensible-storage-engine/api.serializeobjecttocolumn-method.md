@@ -1,11 +1,11 @@
 ---
-title: Api.SerializeObjectToColumn method  (Microsoft.Isam.Esent.Interop)
+title: Api.SerializeObjectToColumn method 
 TOCTitle: 'SerializeObjectToColumn method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.SerializeObjectToColumn(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.serializeobjecttocolumn(v=EXCHG.10)
 ms:contentKeyID: 55100915
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.SerializeObjectToColumn
 dev_langs:

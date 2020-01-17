@@ -1,8 +1,8 @@
 ---
 Description: Adds a sprite to the list of batched sprites.
 ms.assetid: 8f5c43a2-68dd-44a9-be2f-f76d9fa2d900
-title: ID3DXSprite::Draw method
-ms.topic: article
+title: ID3DXSprite::Draw method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -51,9 +51,9 @@ Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb20590
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx)\***
+Type: **const [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
 
-Pointer to a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
+Pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Type: **[**D3DCOLOR**](d3dcolor.md)**
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

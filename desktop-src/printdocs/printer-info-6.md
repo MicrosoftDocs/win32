@@ -1,8 +1,8 @@
 ---
 Description: The PRINTER\_INFO\_6 specifies the status value of a printer.
 ms.assetid: f26fe75b-7c97-47ad-892f-d9e40331fa5d
-title: PRINTER_INFO_6 structure
-ms.topic: structure
+title: PRINTER_INFO_6 structure (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

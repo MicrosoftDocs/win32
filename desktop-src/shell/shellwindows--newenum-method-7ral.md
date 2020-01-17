@@ -1,7 +1,7 @@
 ---
 Description: Creates and returns a new ShellWindows object that is a copy of this ShellWindows object.
-title: ShellWindows._NewEnum method
-ms.topic: article
+title: ShellWindows._NewEnum method (Exdisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,7 +44,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)\*\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object copy.
 

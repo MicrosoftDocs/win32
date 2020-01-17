@@ -1,5 +1,5 @@
 ---
-title: ActiveBasicDevice SetCachedBitrateMeasurement method
+title: ActiveBasicDevice SetCachedBitrateMeasurement method (PlayToDevice.h)
 description: Sets the cached bitrate.
 ms.assetid: 53530217-CFF7-4376-B155-E11044621E2D
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -74,7 +74,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

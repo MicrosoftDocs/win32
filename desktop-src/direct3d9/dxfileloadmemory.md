@@ -1,8 +1,8 @@
 ---
 Description: Identifies memory data. Deprecated.
 ms.assetid: fe791e13-d5de-425f-b68f-80db8b332cc6
-title: DXFILELOADMEMORY structure
-ms.topic: structure
+title: DXFILELOADMEMORY structure (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ typedef struct DXFILELOADMEMORY {
 **lpMemory**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Pointer to a block of memory to be loaded.
 **dSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

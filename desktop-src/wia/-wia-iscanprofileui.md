@@ -1,8 +1,8 @@
 ---
 Description: The IScanProfileUI interface enables applications to display a dialog box so that users can create, modify, and delete scan profiles.
 ms.assetid: d0c7edcc-00d8-49b2-a0f7-fe4bbba90bfb
-title: IScanProfileUI interface
-ms.topic: interface
+title: IScanProfileUI interface (Scanprofileui.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -21,7 +21,7 @@ The **IScanProfileUI** interface enables applications to display a dialog box so
 
 ## Members
 
-The **IScanProfileUI** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IScanProfileUI** also has these types of members:
+The **IScanProfileUI** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IScanProfileUI** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -60,7 +60,7 @@ The dialog box is modal; the user cannot switch to the parent window until the d
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)

@@ -1,8 +1,8 @@
 ---
 Description: Specifies the output frame rate as a ratio.
 ms.assetid: a825f3a5-f9b5-49c3-853c-87d1dcb3c4ca
-title: MFPKEY_CONV_OUTPUTFRAMERATE Property
-ms.topic: article
+title: MFPKEY_CONV_OUTPUTFRAMERATE Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies the output frame rate as a ratio.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

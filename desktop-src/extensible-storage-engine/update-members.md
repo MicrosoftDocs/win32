@@ -1,5 +1,5 @@
 ---
-title: Update members (Microsoft.Isam.Esent.Interop)
+title: Update members
 TOCTitle: Update members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Update
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update_members(v=EXCHG.10)

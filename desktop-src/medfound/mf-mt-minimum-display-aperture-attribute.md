@@ -1,8 +1,8 @@
 ---
 Description: Defines the display aperture, which is the region of a video frame that contains valid image data.
 ms.assetid: 86a7509b-c690-49c2-bbe4-8b02d64c307c
-title: MF_MT_MINIMUM_DISPLAY_APERTURE attribute
-ms.topic: article
+title: MF_MT_MINIMUM_DISPLAY_APERTURE attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

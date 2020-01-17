@@ -1,5 +1,5 @@
 ---
-title: glClearColor function
+title: glClearColor function (Gl.h)
 description: The glClearColor function specifies clear values for the color buffers.
 ms.assetid: f938e3f4-9db3-4c24-97ae-531b6799224e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

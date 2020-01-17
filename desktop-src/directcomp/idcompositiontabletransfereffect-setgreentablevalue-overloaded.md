@@ -1,5 +1,5 @@
 ---
-title: IDCompositionTableTransferEffect SetGreenTableValue methods
+title: IDCompositionTableTransferEffect SetGreenTableValue methods (Dcomp.h)
 description: Sets a value in the green table.
 ms.assetid: feccfc61-31e6-362a-1e81-0650736b962a
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionTableTransferEffect::SetGreenTableValue methods
@@ -24,8 +24,8 @@ Sets a value in the green table.
 
 | Method                                                                                                                | Description                                 |
 |:----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
-| [**SetGreenTableValue**](https://msdn.microsoft.com/en-us/library/Dn919795(v=VS.85).aspx)                                     | Sets a value in the green table.<br/> |
-| [**SetGreenTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919796(v=VS.85).aspx) | Sets a value in the green table.<br/> |
+| [**SetGreenTableValue**](https://msdn.microsoft.com/library/Dn919795(v=VS.85).aspx)                                     | Sets a value in the green table.<br/> |
+| [**SetGreenTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919796(v=VS.85).aspx) | Sets a value in the green table.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets a value in the green table.
 
 <dl> <dt>
 
-[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx)
+[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/library/Dn919783(v=VS.85).aspx)
 </dt> </dl>
 
 �

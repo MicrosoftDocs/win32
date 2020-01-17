@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMUBYTEN4.
 ms.assetid: 0bb46e9b-6c76-40b5-9bf0-6387edfed484
 title: XMUBYTEN4 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUBYTEN4`.
 
-Constructs instances of the [**XMUBYTEN4**](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,7 +109,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTEN4**](https://msdn.microsoft.com/en-us/library/Ee420492(v=VS.85).aspx)
+[**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx)
 </dt> </dl>
 
  

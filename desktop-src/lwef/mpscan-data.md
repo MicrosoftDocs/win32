@@ -1,5 +1,5 @@
 ---
-title: MPSCAN_DATA structure
+title: MPSCAN_DATA structure (MpClient.h)
 description: Scan data passed to the callback.
 ms.assetid: 6C9AAF1E-7566-43EE-A100-5112E9B8878C
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

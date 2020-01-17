@@ -2,9 +2,6 @@
 title: EAPHost Supplicant Callbacks
 description: EAPHost Supplicant Callbacks
 ms.assetid: a32ff75d-17c2-482f-b22d-0f6bf6003772
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---

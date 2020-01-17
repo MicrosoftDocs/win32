@@ -1,5 +1,5 @@
 ---
-title: ID3DX11Effect GetClassLinkage method
+title: ID3DX11Effect GetClassLinkage method (D3dx11effect.h)
 description: Gets a class linkage interface.
 ms.assetid: 006c900d-3464-4666-9fe9-d62ba8cb2b7f
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Computes the source radiance resulting from subsurface scattering, using material properties set by ID3DXPRTEngine::SetMeshMaterials. This method can be used only for materials defined per-vertex in a mesh object.
 ms.assetid: cdf0d9c1-70e3-44d5-b97a-0521e6739daf
-title: ID3DXPRTEngine::ComputeSS method
-ms.topic: article
+title: ID3DXPRTEngine::ComputeSS method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -66,7 +66,7 @@ Pointer to an optional [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that is th
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

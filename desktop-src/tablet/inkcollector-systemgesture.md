@@ -1,8 +1,8 @@
 ---
 Description: Occurs when a system gesture is recognized.
 ms.assetid: 11071d6f-8aa3-4902-94fd-89ad0cf17729
-title: InkCollector.SystemGesture event
-ms.topic: article
+title: InkCollector.SystemGesture event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

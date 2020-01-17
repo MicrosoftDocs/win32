@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: IPeerToPeerEngine::GetPlaybackEndpoint method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 3B391048-E7F7-4DA7-96A3-05875B170DCA
 api_name: 

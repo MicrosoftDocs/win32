@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a pass by looking up its name.
 ms.assetid: 24d043a2-5c87-4a59-80d4-0c81bd7a0b3e
-title: ID3DXBaseEffect::GetPassByName method
-ms.topic: article
+title: ID3DXBaseEffect::GetPassByName method (D3DX9Effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Handle of the parent technique. See [Handles (Direct3D 9)](handles.md).
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 String containing the pass name.
 

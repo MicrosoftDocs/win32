@@ -3,7 +3,7 @@ Description: The Find method searches a string for the first match of a substrin
 audience: developer
 ms.assetid: 98a7c5ad-5bc7-4918-b978-45d2b439f250
 ms.tgt_platform: multiple
-title: CHString::Find methods
+title: CHString::Find methods (ChString.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---
@@ -20,8 +20,8 @@ The **Find** method searches a string for the first match of a substring.
 
 | Method                                          | Description                                             |
 |:------------------------------------------------|:--------------------------------------------------------|
-| [**Find(WCHAR)**](https://msdn.microsoft.com/en-us/library/Aa385501(v=VS.85).aspx)     | Searches for the **WSTR** in this string.<br/>    |
-| [**Find(LPCWSTR)**](https://msdn.microsoft.com/en-us/library/Aa385497(v=VS.85).aspx) | Searches for the **LPCWSTR** in this string.<br/> |
+| [**Find(WCHAR)**](https://msdn.microsoft.com/library/Aa385501(v=VS.85).aspx)     | Searches for the **WSTR** in this string.<br/>    |
+| [**Find(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385497(v=VS.85).aspx) | Searches for the **LPCWSTR** in this string.<br/> |
 
 
 

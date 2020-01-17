@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: ISourceFileInfoRequest interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 69C50343-32F0-46AE-B724-36EBD8AA8DF9
 api_name: 

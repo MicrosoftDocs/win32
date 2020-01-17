@@ -3,7 +3,7 @@ Description: Restore the active configuration of the collector from the previous
 ms.assetid: 150fa554-9efd-483e-a177-5fc7766a6a6c
 ms.tgt_platform: multiple
 title: Undo method of the Control class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -16,7 +16,7 @@ Every Schannel credential contains a reference to one or more private keys, each
 
 Client [*private keys*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) are managed by the [*cryptographic service provider*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CSP) in use. Client private keys are typically stored by CSPs of type [PROV\_RSA\_FULL](https://docs.microsoft.com/windows/desktop/SecCrypto/prov-rsa-full) or PROV\_RSA\_SIGNATURE.
 
-If the client application makes the [**CryptAcquireContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta) call manually then before calling [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx), the client must bind the CSP's handle to the certificate context using the CERT\_KEY\_PROV\_HANDLE\_PROP\_ID property. If Schannel finds this property set, it does not use the CERT\_KEY\_PROV\_INFO\_PROP\_ID property.
+If the client application makes the [**CryptAcquireContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta) call manually then before calling [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/Aa374712(v=VS.85).aspx), the client must bind the CSP's handle to the certificate context using the CERT\_KEY\_PROV\_HANDLE\_PROP\_ID property. If Schannel finds this property set, it does not use the CERT\_KEY\_PROV\_INFO\_PROP\_ID property.
 
 ## Server Private Keys
 

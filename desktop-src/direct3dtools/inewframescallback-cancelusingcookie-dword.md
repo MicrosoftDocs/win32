@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: INewFramesCallback::CancelUsingCookie method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 36176554-BB4F-40CB-AB7B-4957DA84BAA8
 api_name: 

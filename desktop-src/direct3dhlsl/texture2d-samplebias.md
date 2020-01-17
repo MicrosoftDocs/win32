@@ -1,5 +1,5 @@
 ---
-title: Texture2D SampleBias methods
+title: Texture2D::Texture2D SampleBias methods
 description: Samples a Texture2D, after applying the bias value to the mipmap level.
 ms.assetid: 47978F6B-94FC-498C-B3F7-2AAE71C75E7A
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

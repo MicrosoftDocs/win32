@@ -1,5 +1,5 @@
 ---
-title: gluErrorString function
+title: gluErrorString function (Glu.h)
 description: The gluErrorString function produces an error string from an OpenGL or GLU error code. The error string is ANSI only.
 ms.assetid: 6d71a6d5-ac00-49f9-a56c-cfeeb88963eb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

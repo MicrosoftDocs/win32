@@ -1,5 +1,5 @@
 ---
-title: EsentLSNotSetException properties (Microsoft.Isam.Esent.Interop)
+title: EsentLSNotSetException properties
 TOCTitle: EsentLSNotSetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlsnotsetexception_properties(v=EXCHG.10)

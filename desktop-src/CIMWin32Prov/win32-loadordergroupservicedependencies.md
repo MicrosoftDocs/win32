@@ -3,7 +3,7 @@ Description: The Win32\_LoadOrderGroupServiceDependencies association WMI class 
 ms.assetid: 56739b80-9028-4a2e-85ed-973a078860c1
 ms.tgt_platform: multiple
 title: Win32_LoadOrderGroupServiceDependencies class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

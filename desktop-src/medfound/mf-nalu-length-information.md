@@ -1,8 +1,8 @@
 ---
 Description: Indicates the lengths of NALUs in the sample. This is a MF BLOB that is set on compressed input samples to the H.264 decoder.
 ms.assetid: 09F54504-A6CF-4385-BDD7-8D23B1D0125C
-title: MF_NALU_LENGTH_INFORMATION attribute
-ms.topic: article
+title: MF_NALU_LENGTH_INFORMATION attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

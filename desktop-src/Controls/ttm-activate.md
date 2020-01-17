@@ -1,5 +1,5 @@
 ---
-title: TTM_ACTIVATE message
+title: TTM_ACTIVATE message (Commctrl.h)
 description: Activates or deactivates a tooltip control.
 ms.assetid: f37da001-748c-4c51-bb32-dc49031ff2fb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

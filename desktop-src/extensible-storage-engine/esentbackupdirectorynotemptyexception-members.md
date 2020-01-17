@@ -1,5 +1,5 @@
 ---
-title: EsentBackupDirectoryNotEmptyException members (Microsoft.Isam.Esent.Interop)
+title: EsentBackupDirectoryNotEmptyException members
 TOCTitle: EsentBackupDirectoryNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbackupdirectorynotemptyexception_members(v=EXCHG.10)

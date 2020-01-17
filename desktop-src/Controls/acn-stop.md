@@ -1,5 +1,5 @@
 ---
-title: ACN_STOP notification code
+title: ACN_STOP notification code (Commctrl.h)
 description: Notifies the parent window of an animation control that the associated AVI clip has stopped playing. This notification code is sent in the form of a WM\_COMMAND message.
 ms.assetid: 2f21a2ec-975f-4592-8b21-956bd5311ef4
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

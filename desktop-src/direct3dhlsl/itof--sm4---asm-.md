@@ -2,7 +2,7 @@
 title: itof (sm4 - asm)
 description: Signed integer to floating point conversion.
 ms.assetid: 60652168-25FA-4084-8CC1-73F12984ECED
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

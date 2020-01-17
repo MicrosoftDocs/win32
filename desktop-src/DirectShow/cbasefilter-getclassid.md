@@ -1,8 +1,8 @@
 ---
 Description: The GetClassID method retrieves the class identifier of the filter. This method implements the IPersist::GetClassID method.
 ms.assetid: c3a8b6ab-b36f-493e-9436-6784e25e2511
-title: CBaseFilter.GetClassID method
-ms.topic: article
+title: CBaseFilter.GetClassID method (Amfilter.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

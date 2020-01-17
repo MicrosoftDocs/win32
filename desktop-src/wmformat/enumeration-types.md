@@ -1,5 +1,5 @@
 ---
-title: Enumeration Types
+title: Windows Media Format SDK Enumeration Types
 description: Enumeration Types
 ms.assetid: 'cd28f608-25ba-44a7-868b-b1cd4dfcfa45'
 keywords:

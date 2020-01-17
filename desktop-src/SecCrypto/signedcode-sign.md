@@ -2,7 +2,7 @@
 Description: Creates an Authenticode digital signature and signs the executable file specified in the SignedCode.FileName property.
 ms.assetid: db17be29-35ec-4468-b5cc-5ba64c4cf3fb
 title: SignedCode.Sign method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

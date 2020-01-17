@@ -1,7 +1,7 @@
 ---
 Description: Reconstructs a pointer to an item identifier list (PIDL) from one hierarchical representation of the Shell folder into a different representation.
 title: IShellFolderViewType::TranslateViewPidl method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

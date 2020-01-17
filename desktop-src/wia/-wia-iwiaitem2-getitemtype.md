@@ -1,8 +1,8 @@
 ---
 Description: Gets an item's type information.
 ms.assetid: 9670f184-e8ba-4596-af6d-2967320dfd95
-title: IWiaItem2::GetItemType method
-ms.topic: article
+title: IWiaItem2::GetItemType method (Wia.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

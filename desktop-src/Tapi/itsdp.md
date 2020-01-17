@@ -1,8 +1,8 @@
 ---
 Description: The ITSdp interface provides methods for the manipulation of a Session Descriptor Protocol (SDP, see RFC 2327) conference blob component.
 ms.assetid: 77c1e302-6290-4eeb-b7c9-462a13b29dcd
-title: ITSdp interface
-ms.topic: interface
+title: ITSdp interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ The **ITSdp** interface is created by calling **QueryInterface** on [**ITConfere
 
 ## Members
 
-The **ITSdp** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITSdp** also has these types of members:
+The **ITSdp** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITSdp** also has these types of members:
 
 -   [Methods](#methods)
 

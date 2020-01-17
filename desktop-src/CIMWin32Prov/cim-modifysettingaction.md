@@ -3,7 +3,7 @@ Description: The CIM\_ModifySettingAction class represents the information for m
 ms.assetid: 6d22bc11-f798-4634-8688-797d4a4a4bee
 ms.tgt_platform: multiple
 title: CIM_ModifySettingAction class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

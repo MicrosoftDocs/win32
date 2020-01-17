@@ -1,5 +1,5 @@
 ---
-title: glGetMaterialfv function
+title: glGetMaterialfv function (Gl.h)
 description: The glGetMaterialfv and glGetMaterialiv functions return material parameters.
 ms.assetid: b61dbe0c-5cc2-4397-9d7c-b99507a9f037
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

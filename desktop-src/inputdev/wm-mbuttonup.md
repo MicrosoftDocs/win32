@@ -1,5 +1,5 @@
 ---
-title: WM_MBUTTONUP message
+title: WM_MBUTTONUP message (Winuser.h)
 description: Posted when the user releases the middle mouse button while the cursor is in the client area of a window.
 ms.assetid: fb8dee71-11bd-4405-855d-a5d120442271
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -115,10 +115,10 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MBUTTONDBLCLK**](wm-mbuttondblclk.md)

@@ -1,5 +1,5 @@
 ---
-title: MPDETECTION_STATE enumeration
+title: MPDETECTION_STATE enumeration (MpClient.h)
 description: The state of the currently detected threat.
 ms.assetid: 293771FF-A210-41D0-88A5-3B52ACAA9295
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

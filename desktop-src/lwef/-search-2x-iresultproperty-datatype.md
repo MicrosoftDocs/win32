@@ -1,5 +1,5 @@
 ---
-title: IResultProperty DataType property
+title: IResultProperty DataType property (WdsSharedIDL.h)
 description: A properties data type.
 ms.assetid: 2bf83256-0d69-48f2-aa7d-d34dcba17050
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

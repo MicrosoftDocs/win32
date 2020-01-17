@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_PhysicalExtent class sets the 
 ms.assetid: a763c361-9b1a-49fd-8ed2-c1fcfdfd16db
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PhysicalExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

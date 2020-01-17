@@ -1,8 +1,8 @@
 ---
 Description: The ScheduleSample method schedules a sample for rendering.
 ms.assetid: 08c218d1-6d0a-4c66-bbde-a39e5d31561c
-title: CBaseRenderer.ScheduleSample method
-ms.topic: article
+title: CBaseRenderer.ScheduleSample method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

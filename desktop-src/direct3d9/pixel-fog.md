@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Pixel Fog (Direct3D 9)
 
-Pixel fog gets its name from the fact that it is calculated on a per-pixel basis in the device driver. This is different from vertex fog, which is computed by the pipeline during transformation and lighting calculations. Pixel fog is sometimes called table fog because some drivers use a precalculated lookup table to determine the fog factor, using the depth of each pixel to apply in blending computations. It can be applied using any fog formula identified by members of the [**D3DFOGMODE**](https://msdn.microsoft.com/en-us/library/Bb172557(v=VS.85).aspx) enumerated type. The implementations of these formulas are driver-specific. If a driver doesn't support a complex fog formula, it should degrade to a less complex formula.
+Pixel fog gets its name from the fact that it is calculated on a per-pixel basis in the device driver. This is different from vertex fog, which is computed by the pipeline during transformation and lighting calculations. Pixel fog is sometimes called table fog because some drivers use a precalculated lookup table to determine the fog factor, using the depth of each pixel to apply in blending computations. It can be applied using any fog formula identified by members of the [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type. The implementations of these formulas are driver-specific. If a driver doesn't support a complex fog formula, it should degrade to a less complex formula.
 
 ## Eye-Relative vs. Z-Based Depth
 
@@ -26,7 +26,7 @@ Use the following steps to enable pixel fog in your application.
 
 1.  Enable fog blending by setting the D3DRS\_FOGENABLE render state to **TRUE**.
 2.  Set the desired fog color in the D3DRS\_FOGCOLOR render state.
-3.  Choose the fog formula to use by setting the D3DRS\_FOGTABLEMODE render state to the corresponding member of the [**D3DFOGMODE**](https://msdn.microsoft.com/en-us/library/Bb172557(v=VS.85).aspx) enumerated type.
+3.  Choose the fog formula to use by setting the D3DRS\_FOGTABLEMODE render state to the corresponding member of the [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type.
 4.  Set the fog parameters as desired for the selected fog mode in the associated render states. This includes the start and end distances for linear fog, and fog density for exponential fog mode.
 
 The following example shows what these steps might look like in code.

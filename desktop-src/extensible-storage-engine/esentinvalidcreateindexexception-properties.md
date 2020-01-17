@@ -1,5 +1,5 @@
 ---
-title: EsentInvalidCreateIndexException properties (Microsoft.Isam.Esent.Interop)
+title: EsentInvalidCreateIndexException properties
 TOCTitle: EsentInvalidCreateIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreateindexexception_properties(v=EXCHG.10)

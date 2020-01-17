@@ -10,7 +10,7 @@ api_name:
 - helpstring
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -79,7 +79,7 @@ A MIDL interface definition statement such as [**propget**](propget.md) or [**pr
 
 ## Remarks
 
-Use the [**GetDocumentation**](https://msdn.microsoft.com/en-us/library/ms221396(v=VS.71).aspx) functions in the [**ITypeLib**](https://msdn.microsoft.com/en-us/library/ms221549(v=VS.71).aspx) and [**ITypeInfo**](https://msdn.microsoft.com/en-us/library/ms221696(v=VS.71).aspx) interfaces to retrieve the help string.
+Use the [**GetDocumentation**](https://msdn.microsoft.com/library/ms221396(v=VS.71).aspx) functions in the [**ITypeLib**](https://msdn.microsoft.com/library/ms221549(v=VS.71).aspx) and [**ITypeInfo**](https://msdn.microsoft.com/library/ms221696(v=VS.71).aspx) interfaces to retrieve the help string.
 
 ## Examples
 
@@ -132,10 +132,10 @@ library Lines
 [**typedef**](typedef.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
+[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)

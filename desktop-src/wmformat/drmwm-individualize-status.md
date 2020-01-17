@@ -1,5 +1,5 @@
 ---
-title: WM_INDIVIDUALIZE_STATUS structure
+title: WM_INDIVIDUALIZE_STATUS structure (Wmdrmsdk.h)
 description: The WM\_INDIVIDUALIZE\_STATUS structure holds information about a pending individualization process.
 ms.assetid: af7e8758-489b-461f-b241-d7e40c8d61da
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

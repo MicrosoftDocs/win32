@@ -1,7 +1,7 @@
 ---
 Description: This topic lists the NextMarker methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.
 ms.assetid: 6eb9e19c-df28-4cf9-a434-c27478ba1fa5
-title: GraphicsPathIterator.NextMarker methods
+title: GraphicsPathIterator.NextMarker methods (Gdipluspath.h)
 ms.date: 07/02/2019
 ms.topic: reference
 ---

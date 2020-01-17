@@ -2,7 +2,7 @@
 Description: Deletes a file. See DeleteFile.
 ms.assetid: 8c1f4368-8b0e-41af-9bf8-f3d9f58c3700
 title: '_DeleteFile function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

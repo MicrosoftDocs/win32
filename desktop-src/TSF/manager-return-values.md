@@ -1,5 +1,5 @@
 ---
-title: Manager Return Values
+title: Manager Return Values (Msctf.h)
 description: The Text Services Framework produces return values in the range from 0xHHHH0200 through 0xHHHH0507. The following table gives the manager return values in alphabetical order.
 ms.assetid: 12178252-c246-4fa4-bf7b-2445b859ec01
 topic_type:
@@ -10,7 +10,7 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

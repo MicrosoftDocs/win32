@@ -1,10 +1,10 @@
 ---
-title: D2D1_SIZE_U
+title: D2D1_SIZE_U (D2DBaseTypes.h)
 description: Stores an ordered pair of integers, typically the width and height of a rectangle.
 ms.assetid: e28da5ee-7d68-4ec5-b477-c6ead0c725e6
 keywords:
 - D2D1_SIZE_U
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

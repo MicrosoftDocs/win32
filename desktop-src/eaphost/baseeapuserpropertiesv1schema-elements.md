@@ -2,9 +2,6 @@
 title: baseeapuserpropertiesv1 Schema Elements
 description: Is made up of the following schema elements.
 ms.assetid: 469a3015-a082-44cd-9c88-70a5e0b2606c
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

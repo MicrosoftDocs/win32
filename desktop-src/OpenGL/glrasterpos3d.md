@@ -1,5 +1,5 @@
 ---
-title: glRasterPos3d function
+title: glRasterPos3d function (Gl.h)
 description: Specifies the raster position for pixel operations.
 ms.assetid: 82e526f2-7ccd-4d31-a281-7cd6d7a488c1
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

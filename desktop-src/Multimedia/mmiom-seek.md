@@ -1,5 +1,5 @@
 ---
-title: MMIOM_SEEK message
+title: MMIOM_SEEK message (Mmsystem.h)
 description: The MMIOM\_SEEK message is sent to an I/O procedure by the mmioSeek function to request that the current file position be moved.
 ms.assetid: 428b231a-6e00-4458-9ba2-e9b0b028843a
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MMIOM\_SEEK message
 
-The **MMIOM\_SEEK** message is sent to an I/O procedure by the [**mmioSeek**](https://msdn.microsoft.com/en-us/library/Dd757336(v=VS.85).aspx) function to request that the current file position be moved.
+The **MMIOM\_SEEK** message is sent to an I/O procedure by the [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx) function to request that the current file position be moved.
 
 
 ```C++
@@ -65,7 +65,7 @@ Returns the new file position. If there is an error, the return value is  1.
 
 ## Remarks
 
-The I/O procedure is responsible for maintaining the current file position in the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure.
+The I/O procedure is responsible for maintaining the current file position in the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure.
 
 ## Requirements
 

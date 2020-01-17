@@ -1,5 +1,5 @@
 ---
-title: EsentUpdateMustVersionException members (Microsoft.Isam.Esent.Interop)
+title: EsentUpdateMustVersionException members
 TOCTitle: EsentUpdateMustVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatemustversionexception_members(v=EXCHG.10)

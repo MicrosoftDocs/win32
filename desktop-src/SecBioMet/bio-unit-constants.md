@@ -1,5 +1,5 @@
 ---
-title: BIO_UNIT Constants
+title: BIO_UNIT Constants (Winbio\_types.h)
 description: Reserved for future use.
 ms.assetid: 681A7D1E-00E9-4EDD-B698-8989EB770286
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

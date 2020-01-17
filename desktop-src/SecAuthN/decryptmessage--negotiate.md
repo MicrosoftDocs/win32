@@ -2,16 +2,16 @@
 Description: Decrypts a message by using Negotiate.
 ms.assetid: 188341ff-4e67-481e-af30-7f9913b1d24e
 title: DecryptMessage (Negotiate) function
-ms.topic: article
+ms.topic: reference
 ms.date: 07/25/2019
 ---
 
 # DecryptMessage (Negotiate) function
 
-The **DecryptMessage (Negotiate)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](https://docs.microsoft.com/en-us/windows/win32/secgloss/h-gly).
+The **DecryptMessage (Negotiate)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](https://docs.microsoft.com/windows/win32/secgloss/h-gly).
 
 > [!Note]  
-> [**EncryptMessage (Negotiate)**](encryptmessage--negotiate.md) and **DecryptMessage (Negotiate)** can be called at the same time from two different threads in a single [*security support provider interface*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (Negotiate)**](encryptmessage--negotiate.md) and **DecryptMessage (Negotiate)** can be called at the same time from two different threads in a single [*security support provider interface*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
 ## Syntax
 
@@ -28,11 +28,11 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 *phContext* \[in\]
 
-A handle to the [*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly) to be used to decrypt the message.
+A handle to the [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) to be used to decrypt the message.
 
 *pMessage* \[in, out\]
 
-A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer) structures . At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
+A pointer to a [**SecBufferDesc**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure. On input, the structure references one or more [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer) structures . At least one of these must be of type SECBUFFER\_DATA. That buffer contains the encrypted message. The encrypted message is decrypted in place, overwriting the original contents of its buffer.
 
 *MessageSeqNo* \[in\]
 
@@ -78,5 +78,5 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 - [SSPI Functions](authentication-functions.md#sspi-functions)
 - [**EncryptMessage (Negotiate)**](encryptmessage--negotiate.md)
-- [**SecBuffer**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbuffer)
-- [**SecBufferDesc**](https://docs.microsoft.com/en-us/windows/win32/api/sspi/ns-sspi-secbufferdesc)
+- [**SecBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbuffer)
+- [**SecBufferDesc**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secbufferdesc)

@@ -12,7 +12,7 @@ api_name:
 - ms-SPP-CSVLK-Partial-Product-Key
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

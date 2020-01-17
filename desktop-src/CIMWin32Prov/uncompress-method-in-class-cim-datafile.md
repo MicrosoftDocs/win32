@@ -3,7 +3,7 @@ Description: Uncompresses the logical data file (or directory) that is specified
 ms.assetid: 0966ba13-8bbc-4283-919a-7675444409be
 ms.tgt_platform: multiple
 title: Uncompress method of the CIM_DataFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

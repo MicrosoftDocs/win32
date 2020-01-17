@@ -1,7 +1,7 @@
 ---
 Description: Sent to an extension DLL when the user selects the menu for the extension from the File Manager menu bar. The extension can use this notification to initialize menu items.
-title: FMEVENT_INITMENU message
-ms.topic: article
+title: FMEVENT_INITMENU message (Wfext.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

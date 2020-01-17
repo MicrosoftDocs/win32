@@ -1,5 +1,5 @@
 ---
-title: EsentFilteredMoveNotSupportedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentFilteredMoveNotSupportedException properties
 TOCTitle: EsentFilteredMoveNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilteredmovenotsupportedexception_properties(v=EXCHG.10)

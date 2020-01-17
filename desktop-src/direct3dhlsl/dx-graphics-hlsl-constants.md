@@ -1,5 +1,5 @@
 ---
-title: Shader Constants
+title: Shader Constants (HLSL)
 description: In Shader Model 4, shader constants are stored in one or more buffer resources in memory.
 ms.assetid: 89fe874a-8009-4901-bebe-2d9e45f894bb
 keywords:
@@ -141,7 +141,7 @@ There are two default constant buffers available, $Global and $Param. Variables 
 
 ## Examples
 
-Here is an example from [Skinning10 Sample](https://msdn.microsoft.com/en-us/library/Ee416429(v=VS.85).aspx) that is a texture buffer made up of an array of matrices.
+Here is an example from [Skinning10 Sample](https://msdn.microsoft.com/library/Ee416429(v=VS.85).aspx) that is a texture buffer made up of an array of matrices.
 
 
 ```

@@ -1,8 +1,8 @@
 ---
 Description: Defines texture coordinate transformation values.
 ms.assetid: a91f33ce-2db5-437a-ac29-402b26b0d4e1
-title: D3DTEXTURETRANSFORMFLAGS enumeration
-ms.topic: enumeration
+title: D3DTEXTURETRANSFORMFLAGS enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -110,7 +110,7 @@ Texture coordinates can be transformed using a 4 x 4 matrix before the results a
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172617(v=VS.85).aspx)
+[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx)
 </dt> </dl>
 
  

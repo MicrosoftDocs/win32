@@ -1,8 +1,8 @@
 ---
 Description: Glossary page
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 08951f9f-d03d-4720-8f18-1413ba72e93d
-title: Glossary
+title: Glossary (WinHTTP)
 ms.topic: article
 ms.date: 05/31/2018
 ---

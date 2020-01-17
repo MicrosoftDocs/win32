@@ -1,8 +1,8 @@
 ---
 Description: Attaches two kernel-mode surface representations.
 ms.assetid: f1b1859f-8b62-4385-9e8a-296086446fe7
-title: NtGdiDdAttachSurface function
-ms.topic: article
+title: NtGdiDdAttachSurface function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

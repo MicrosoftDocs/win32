@@ -1,8 +1,8 @@
 ---
 Description: Specifies the audio profile and level of an Advanced Audio Coding (AAC) stream.
 ms.assetid: 87fa1127-46ca-4b83-a3b5-99253af22ba0
-title: MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION attribute
-ms.topic: article
+title: MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

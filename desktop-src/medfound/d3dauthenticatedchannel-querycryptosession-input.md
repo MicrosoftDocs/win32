@@ -1,8 +1,8 @@
 ---
 Description: Contains input data for a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
 ms.assetid: 3a4dead8-fe23-41b4-a167-e0430d09248a
-title: D3DAUTHENTICATEDCHANNEL_QUERYCRYPTOSESSION_INPUT structure
-ms.topic: structure
+title: D3DAUTHENTICATEDCHANNEL_QUERYCRYPTOSESSION_INPUT structure (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

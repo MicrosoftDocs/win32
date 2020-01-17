@@ -2,7 +2,7 @@
 Description: The XMUBYTEN2 structure exposes the following operators.
 ms.assetid: 287521e0-ade4-4abd-aec6-dde9a734cdf2
 title: XMUBYTEN2 Operators
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ The [**XMUBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvec
 
 | Methods                                                | Description                                                                                                           |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/en-us/library/Hh404735(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUBYTEN2` to the current instance of `XMUBYTEN2`.<br/> |
+| [**operator =**](https://msdn.microsoft.com/library/Hh404735(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUBYTEN2` to the current instance of `XMUBYTEN2`.<br/> |
 
 
 

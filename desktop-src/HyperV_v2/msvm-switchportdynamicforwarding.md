@@ -2,7 +2,7 @@
 Description: Connects a switch port to a dynamic forward entry (learned MAC address).
 ms.assetid: 70687D56-1282-46C7-AB4E-60E32B9DBA14
 title: Msvm_SwitchPortDynamicForwarding class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

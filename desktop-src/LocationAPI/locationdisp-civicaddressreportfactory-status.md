@@ -2,7 +2,7 @@
 Description: The current report status.
 ms.assetid: 3aae0b61-cdaa-4131-b6e1-406813bb1848
 title: LocationDisp.CivicAddressReportFactory.Status property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

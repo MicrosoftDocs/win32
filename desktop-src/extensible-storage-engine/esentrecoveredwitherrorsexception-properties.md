@@ -1,5 +1,5 @@
 ---
-title: EsentRecoveredWithErrorsException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRecoveredWithErrorsException properties
 TOCTitle: EsentRecoveredWithErrorsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecoveredwitherrorsexception_properties(v=EXCHG.10)

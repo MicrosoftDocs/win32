@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: ISingleEventRequest::RequestAsync method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: C85CAF18-6953-4C5D-9491-5F5A5F28C580
 api_name: 

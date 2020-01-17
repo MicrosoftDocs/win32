@@ -98,7 +98,7 @@ The preceding code selects a rectangle that is around the second triangle. The p
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

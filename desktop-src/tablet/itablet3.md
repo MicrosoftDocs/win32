@@ -2,7 +2,7 @@
 Description: The ITablet3 interface enables multitouch querying for input.
 ms.assetid: 949f2d83-7761-4d60-b8fe-5a9ac7567238
 title: ITablet3 interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

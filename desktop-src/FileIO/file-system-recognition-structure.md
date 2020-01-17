@@ -2,7 +2,7 @@
 Description: Contains the on-disk file system recognition information stored in the volumes boot sector (logical disk sector zero).
 ms.assetid: d9c19e01-ff82-4bbc-9eb6-aac9dc5c34ac
 title: FILE_SYSTEM_RECOGNITION_STRUCTURE structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -118,7 +118,7 @@ A two-byte checksum calculated over the bytes starting at the **FsName** data me
 [**FILE\_SYSTEM\_RECOGNITION\_INFORMATION**](/windows/desktop/api/WinIoCtl/ns-winioctl-file_system_recognition_information)
 </dt> <dt>
 
-[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](https://msdn.microsoft.com/en-us/library/Dd442655(v=VS.85).aspx)
+[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](https://msdn.microsoft.com/library/Dd442655(v=VS.85).aspx)
 </dt> </dl>
 
  

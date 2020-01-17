@@ -12,7 +12,7 @@ api_name:
 - IConfigAsfWriter2.ResetMultiPassState
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -57,7 +57,7 @@ This method must be called to reset the internal state of the filter whenever a 
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/en-us/library/Dd743206(v=VS.85).aspx)
+[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/library/Dd743206(v=VS.85).aspx)
 </dt> </dl>
 
  

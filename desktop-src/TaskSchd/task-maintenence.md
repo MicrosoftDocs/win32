@@ -1,5 +1,5 @@
 ---
-title: Automatic Maintenance
+title: Automatic Maintenance (Task Scheduler)
 description: Maintenance activity refers to an application or process that helps maintain the health and performance of a Windows PC.
 ms.assetid: 1D38341B-15AA-422F-AED1-647FCDE69E2E
 ms.topic: article

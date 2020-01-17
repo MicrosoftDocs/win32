@@ -1,8 +1,8 @@
 ---
 Description: Retrieves system information.
 ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
-title: Shell.GetSystemInformation method
-ms.topic: article
+title: Shell.GetSystemInformation method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ Shell.GetSystemInformation( _
 *sName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that specifies the system information that is being requested.
 
@@ -107,7 +107,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/en-us/library/ms724958(v=VS.85).aspx) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/ms724958(v=VS.85).aspx) structure.
 
 PhysicalMemoryInstalled
 

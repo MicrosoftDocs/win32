@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_TemperatureSensor class sets t
 ms.assetid: 7a46bddd-9dda-4024-bb12-92637e4432e7
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_TemperatureSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: This section contains reference information for the Microsoft Direct3D 11 video API enumerations.
 ms.assetid: 40061AD1-BCD9-4170-A442-34B4C792BB55
 title: Direct3D 11 Video Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -17,9 +17,12 @@ This section contains reference information for the Microsoft Direct3D 11 video
 -   [**D3D11\_BUS\_TYPE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_bus_type)
 -   [**D3D11\_CONTENT\_PROTECTION\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps)
 -   [**D3D11\_CRYPTO\_SESSION\_STATUS**](/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status)
+-   [**D3D11_FEATURE_VIDEO**](/windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_feature_video)
 -   [**D3D11\_VDOV\_DIMENSION**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_vdov_dimension)
 -   [**D3D11\_VIDEO\_DECODER\_BUFFER\_TYPE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_decoder_buffer_type)
 -   [**D3D11\_VIDEO\_DECODER\_CAPS**](/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps)
+-   [**D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT**](/windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component)
+-   [**D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS**](/windows/desktop/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component_flags)
 -   [**D3D11\_VIDEO\_FRAME\_FORMAT**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_frame_format)
 -   [**D3D11\_VIDEO\_PROCESSOR\_ALPHA\_FILL\_MODE**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_alpha_fill_mode)
 -   [**D3D11\_VIDEO\_PROCESSOR\_AUTO\_STREAM\_CAPS**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps)

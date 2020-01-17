@@ -1,8 +1,8 @@
 ---
 Description: Sent when the value of a general parameter register (GPRM) changes.
 ms.assetid: 3e0c400e-9ea5-458c-9eca-97d66a440590
-title: EC_DVD_GPRM_Change
-ms.topic: article
+title: EC_DVD_GPRM_Change (Dvdevcode.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

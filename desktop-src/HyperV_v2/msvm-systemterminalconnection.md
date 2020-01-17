@@ -2,7 +2,7 @@
 Description: Associates a virtual machine with a terminal connection.
 ms.assetid: 31979FB8-3870-44D9-9720-AD99237C5268
 title: Msvm_SystemTerminalConnection class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

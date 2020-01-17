@@ -1,8 +1,8 @@
 ---
 Description: Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: 23c88bed-344b-4b3a-bb92-e50cbe96daf9
-title: D3DXVec2TransformCoordArray function
-ms.topic: article
+title: D3DXVec2TransformCoordArray function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -52,7 +52,7 @@ Pointer to the [**D3DXVECTOR2**](d3dxvector2.md) structure that is the result of
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the output data stream.
 
@@ -70,7 +70,7 @@ Pointer to the source [**D3DXVECTOR2**](d3dxvector2.md) array.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the input data stream.
 
@@ -88,7 +88,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of elements in the array.
 

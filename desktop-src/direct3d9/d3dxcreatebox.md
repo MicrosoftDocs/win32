@@ -1,8 +1,8 @@
 ---
 Description: Uses a left-handed coordinate system to create a mesh containing an axis-aligned box.
 ms.assetid: 396ef0f7-65d5-46f9-9b97-e6471f2fb5fe
-title: D3DXCreateBox function
-ms.topic: article
+title: D3DXCreateBox function (D3dx9shape.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -52,7 +52,7 @@ Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Width of the box, along the x-axis.
 
@@ -61,7 +61,7 @@ Width of the box, along the x-axis.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Height of the box, along the y-axis.
 
@@ -70,7 +70,7 @@ Height of the box, along the y-axis.
 *Depth* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Depth of the box, along the z-axis.
 
@@ -96,7 +96,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface. When the
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

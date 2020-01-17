@@ -1,7 +1,7 @@
 ---
 Description: Makes this pointer to an item identifier list (PIDL) an invalid portion of the Shell folder.
 title: IShellFolderSearchable::InvalidateSearch method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

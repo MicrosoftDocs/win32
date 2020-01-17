@@ -1,11 +1,11 @@
 ---
-title: Api.JetDupSession method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetDupSession method 
 TOCTitle: 'JetDupSession method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDupSession(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_SESID@)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetdupsession(v=EXCHG.10)
 ms:contentKeyID: 55100689
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetDupSession
 dev_langs:

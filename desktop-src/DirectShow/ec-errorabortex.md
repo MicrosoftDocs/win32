@@ -1,8 +1,8 @@
 ---
 Description: An operation was aborted because of an error.
 ms.assetid: de7b5222-3a29-40cc-af1a-2672bd68b7c9
-title: EC_ERRORABORTEX
-ms.topic: article
+title: EC_ERRORABORTEX (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

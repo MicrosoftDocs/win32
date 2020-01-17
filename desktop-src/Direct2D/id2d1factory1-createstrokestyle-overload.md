@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -16,7 +16,7 @@ api_location:
 
 # ID2D1Factory1::CreateStrokeStyle methods
 
-Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/en-us/library/Hh446914(v=VS.85).aspx) object.
+Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/library/Hh446914(v=VS.85).aspx) object.
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/en-us/library/Hh446
 
 | Method                                                                                                                                     | Description                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**CreateStrokeStyle (D2D1\_STROKE\_STYLE\_PROPERTIES1\*, FLOAT \*, UINT32, ID2D1StrokeStyle1\*\*)**](https://msdn.microsoft.com/en-us/library/Hh404605(v=VS.85).aspx) | Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/en-us/library/Hh446914(v=VS.85).aspx) object.<br/> |
-| [**CreateStrokeStyle (D2D1\_STROKE\_STYLE\_PROPERTIES1&, FLOAT \*, UINT32, ID2D1StrokeStyle1\*\*)**](https://msdn.microsoft.com/en-us/library/JJ841165(v=VS.85).aspx) | Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/en-us/library/Hh446914(v=VS.85).aspx) object.<br/> |
+| [**CreateStrokeStyle (D2D1\_STROKE\_STYLE\_PROPERTIES1\*, FLOAT \*, UINT32, ID2D1StrokeStyle1\*\*)**](https://msdn.microsoft.com/library/Hh404605(v=VS.85).aspx) | Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/library/Hh446914(v=VS.85).aspx) object.<br/> |
+| [**CreateStrokeStyle (D2D1\_STROKE\_STYLE\_PROPERTIES1&, FLOAT \*, UINT32, ID2D1StrokeStyle1\*\*)**](https://msdn.microsoft.com/library/JJ841165(v=VS.85).aspx) | Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/library/Hh446914(v=VS.85).aspx) object.<br/> |
 
 
 
@@ -33,7 +33,7 @@ Creates a [**ID2D1StrokeStyle1**](https://msdn.microsoft.com/en-us/library/Hh446
 
 <dl> <dt>
 
-[**ID2D1Factory1**](https://msdn.microsoft.com/en-us/library/Hh404596(v=VS.85).aspx)
+[**ID2D1Factory1**](https://msdn.microsoft.com/library/Hh404596(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -1,8 +1,8 @@
 ---
 Description: Sets the cluster information on a disk.
 ms.assetid: AB2243D9-4913-4412-87E0-2C8DB8AB10B8
-title: IOCTL_DISK_SET_CLUSTER_INFO control code
-ms.topic: article
+title: IOCTL_DISK_SET_CLUSTER_INFO control code (Ntdddisk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef

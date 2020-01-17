@@ -1,5 +1,5 @@
 ---
-title: Instance fields (Microsoft.Isam.Esent.Interop)
+title: Instance fields
 TOCTitle: Instance fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Instance
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance_fields(v=EXCHG.10)

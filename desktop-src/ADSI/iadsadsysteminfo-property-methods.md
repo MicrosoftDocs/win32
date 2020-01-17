@@ -1,5 +1,5 @@
 ---
-title: IADsADSystemInfo Property Methods
+title: IADsADSystemInfo Property Methods (Iads.h)
 description: The property methods of the IADsADSystemInfo interface get or set the properties described in the following table. For more information, see Interface Property Methods.
 ms.assetid: 1cdaa610-4341-4825-b2f9-dd495a9147ff
 ms.tgt_platform: multiple
@@ -31,7 +31,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -378,7 +378,7 @@ Response.Write "PDC Role Owner: " & sys.PDCRoleOwner
 [**IADsADSystemInfo**](/windows/desktop/api/Iads/nn-iads-iadsadsysteminfo)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx)
+[**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
 </dt> </dl>
 
  

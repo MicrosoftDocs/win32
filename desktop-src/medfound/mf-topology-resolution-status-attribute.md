@@ -1,8 +1,8 @@
 ---
 Description: Specifies the status of an attempt to resolve a topology.
 ms.assetid: 7c2410ce-e70b-4303-9dbc-caff4a355d6b
-title: MF_TOPOLOGY_RESOLUTION_STATUS attribute
-ms.topic: article
+title: MF_TOPOLOGY_RESOLUTION_STATUS attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

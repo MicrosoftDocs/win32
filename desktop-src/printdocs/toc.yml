@@ -1256,58 +1256,58 @@
             - name: "XPS_COLOR_TYPE_SCRGB"
               href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372943(v=vs.85)
             - name: "XPS_COLOR_TYPE_CONTEXT"
-              href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0024
+              href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color
           - name: "XPS_DASH"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash
           - name: "XPS_GLYPH_INDEX"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0021
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index
           - name: "XPS_GLYPH_MAPPING"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0022
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping
           - name: "XPS_MATRIX"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0023
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix
           - name: "XPS_POINT"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0017
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point
           - name: "XPS_RECT"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0019
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect
           - name: "XPS_SIZE"
-            href: /windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0018
+            href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size
         - name: "XPS Document Enumerations"
           href: document-object-model-enumerations.md
           items: 
           - name: "XPS_COLOR_INTERPOLATION"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0002
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation
           - name: "XPS_COLOR_TYPE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type
           - name: "XPS_DASH_CAP"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0006
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap
           - name: "XPS_DOCUMENT_TYPE"
-            href: /windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001
+            href: /windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type
           - name: "XPS_FILL_RULE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule
           - name: "XPS_FONT_EMBEDDING"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding
           - name: "XPS_IMAGE_TYPE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0008
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type
           - name: "XPS_INTERLEAVING"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0016
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_interleaving
           - name: "XPS_LINE_CAP"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0005
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap
           - name: "XPS_LINE_JOIN"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0007
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join
           - name: "XPS_OBJECT_TYPE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0014
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_object_type
           - name: "XPS_SEGMENT_STROKE_PATTERN"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0012
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern
           - name: "XPS_SEGMENT_TYPE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0011
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type
           - name: "XPS_SPREAD_METHOD"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0003
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method
           - name: "XPS_STYLE_SIMULATION"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0004
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation
           - name: "XPS_THUMBNAIL_SIZE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0015
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size
           - name: "XPS_TILE_MODE"
-            href: /windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001
+            href: /windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode
         - name: "XPS Document Errors"
           href: xps-document-errors.md
     - name: "XPS Digital Signature API"
@@ -1506,11 +1506,11 @@
           href: xps-digital-signatures-enumerations.md
           items: 
           - name: "XPS_SIGN_FLAGS"
-            href: /windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0003
+            href: /windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags
           - name: "XPS_SIGN_POLICY"
-            href: /windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0002
+            href: /windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy
           - name: "XPS_SIGNATURE_STATUS"
-            href: /windows/desktop/api/xpsdigitalsignature/ne-xpsdigitalsignature-__midl___midl_itf_xpsdigitalsignature_0000_0000_0001
+            href: /windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_signature_status
         - name: "XPS Digital Signature API Errors"
           href: xps-digital-signatures-errors.md
     - name: "XPS  Documents Glossary"
@@ -1565,7 +1565,7 @@
         href: tailored-app-printing-api-structures.md
         items: 
         - name: "PRINTDOCUMENTPACKAGESTATUS"
-          href: /windows/desktop/api/Documenttarget/ns-documenttarget-__midl___midl_itf_documenttarget_0000_0001_0001
+          href: /windows/win32/api/Documenttarget/ns-documenttarget-printdocumentpackagestatus
       - name: "Print Document Package API Enumerations"
         href: tailored-app-printing-api-enumerations.md
         items: 
@@ -1957,7 +1957,7 @@
         href: print-ticket-api-enumerations.md
         items: 
         - name: "EDefaultDevmodeType"
-          href: /windows/desktop/api/prntvpt/ne-prntvpt-tagedefaultdevmodetype
+          href: /windows/win32/api/prntvpt/ne-prntvpt-edefaultdevmodetype
         - name: "EPrintTicketScope"
           href: /windows/desktop/api/prntvpt/ne-prntvpt-eprintticketscope
     - name: "GDI Print API"
@@ -2026,15 +2026,15 @@
           - name: "DEVMODE"
             href: /windows/desktop/api/Wingdi/ns-wingdi-_devicemodea
           - name: "DOCINFO"
-            href: /windows/desktop/api/Wingdi/ns-wingdi-_docinfoa
+            href: /windows/win32/api/Wingdi/ns-wingdi-docinfoa
           - name: "DRAWPATRECT"
-            href: /windows/desktop/api/Wingdi/ns-wingdi-_drawpatrect
+            href: /windows/win32/api/Wingdi/ns-wingdi-drawpatrect
           - name: "PSFEATURE_CUSTPAPER"
-            href: /windows/desktop/api/Wingdi/ns-wingdi-_psfeature_custpaper
+            href: /windows/win32/api/Wingdi/ns-wingdi-psfeature_custpaper
           - name: "PSFEATURE_OUTPUT"
-            href: /windows/desktop/api/Wingdi/ns-wingdi-_psfeature_output
+            href: /windows/win32/api/Wingdi/ns-wingdi-psfeature_output
           - name: "PSINJECTDATA"
-            href: /windows/desktop/api/Wingdi/ns-wingdi-_psinjectdata
+            href: /windows/win32/api/Wingdi/ns-wingdi-psinjectdata
         - name: "GDI Printer Escape Functions"
           href: printer-escape-functions.md
           items: 
@@ -2134,12 +2134,12 @@
           href: xpsprint-structures.md
           items: 
           - name: "XPS_JOB_STATUS"
-            href: /windows/desktop/api/XpsPrint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002
+            href: /windows/win32/api/XpsPrint/ns-xpsprint-xps_job_status
         - name: "XPS Print API Enumerations"
           href: xpsprint-enumerations.md
           items: 
           - name: "XPS_JOB_COMPLETION"
-            href: /windows/desktop/api/XpsPrint/ne-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0001
+            href: /windows/win32/api/XpsPrint/ne-xpsprint-xps_job_completion
   - name: "Print Schema"
     href: printschema.md
     items: 

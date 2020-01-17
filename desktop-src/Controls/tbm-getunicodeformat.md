@@ -1,5 +1,5 @@
 ---
-title: TBM_GETUNICODEFORMAT message
+title: TBM_GETUNICODEFORMAT message (Commctrl.h)
 description: Retrieves the Unicode character format flag for the control.
 ms.assetid: cecd7e55-f482-4381-bde8-a60b8c5173eb
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

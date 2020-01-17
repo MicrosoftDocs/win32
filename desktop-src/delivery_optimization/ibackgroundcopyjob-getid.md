@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetId method
+title: IBackgroundCopyJob GetId method (Deliveryoptimization.h)
 description: Retrieves the identifier used to identify the job in the queue.
 ms.assetid: 05CE5420-22F8-4CFE-BC40-3A29C775854B
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

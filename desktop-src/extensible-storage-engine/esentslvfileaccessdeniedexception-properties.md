@@ -1,5 +1,5 @@
 ---
-title: EsentSLVFileAccessDeniedException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVFileAccessDeniedException properties
 TOCTitle: EsentSLVFileAccessDeniedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvfileaccessdeniedexception_properties(v=EXCHG.10)

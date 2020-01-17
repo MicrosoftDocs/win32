@@ -5,7 +5,7 @@ ms:assetid: 807de5ba-2f4b-4779-ab29-a1f094beecc1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269315(v=EXCHG.10)
 ms:contentKeyID: 32765605
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 api_name: 
 - JetDelete
 topic_type: 

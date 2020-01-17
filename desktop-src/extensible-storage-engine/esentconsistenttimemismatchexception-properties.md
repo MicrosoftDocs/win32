@@ -1,5 +1,5 @@
 ---
-title: EsentConsistentTimeMismatchException properties (Microsoft.Isam.Esent.Interop)
+title: EsentConsistentTimeMismatchException properties
 TOCTitle: EsentConsistentTimeMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentconsistenttimemismatchexception_properties(v=EXCHG.10)

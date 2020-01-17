@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineSplittable interface splits a timeline object in DirectShow Editing Services (DES). Sources, effects, transitions, and tracks implement this interface.
 ms.assetid: bb066d34-0ffd-495f-83ce-59ad054a7782
-title: IAMTimelineSplittable interface
-ms.topic: interface
+title: IAMTimelineSplittable interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -27,7 +27,7 @@ The `IAMTimelineSplittable` interface splits a timeline object in [DirectShow Ed
 
 ## Members
 
-The **IAMTimelineSplittable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSplittable** also has these types of members:
+The **IAMTimelineSplittable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSplittable** also has these types of members:
 
 -   [Methods](#methods)
 

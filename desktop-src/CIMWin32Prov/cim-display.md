@@ -2,8 +2,8 @@
 Description: The CIM\_Display class is a parent class for grouping miscellaneous display devices.
 ms.assetid: e7cd03b1-bc43-4eb0-a591-104a0d250e82
 ms.tgt_platform: multiple
-title: CIM_Display class
-ms.topic: article
+title: CIM_Display class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

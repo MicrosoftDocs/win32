@@ -20,7 +20,7 @@ The following structures are used with power management:
 [**BATTERY\_SET\_INFORMATION**](battery-set-information-str.md)  
 [**BATTERY\_STATUS**](battery-status-str.md)  
 [**BATTERY\_WAIT\_STATUS**](battery-wait-status-str.md)  
-[**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx)  
+[**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/library/Aa372686(v=VS.85).aspx)  
 [**DEVICE\_NOTIFY\_SUBSCRIBE\_PARAMETERS**](/windows/desktop/api/Powrprof/ns-powrprof-device_notify_subscribe_parameters)  
 [**DEVICE\_NOTIFY\_CALLBACK\_ROUTINE**](/windows/desktop/api/Powrprof/nc-powrprof-device_notify_callback_routine)  
 [**GLOBAL\_MACHINE\_POWER\_POLICY**](/windows/desktop/api/PowrProf/ns-powrprof-global_machine_power_policy)  

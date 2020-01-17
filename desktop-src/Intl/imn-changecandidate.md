@@ -1,8 +1,8 @@
 ---
 Description: Notifies the application when an IME is about to change the content of the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 0a276f9c-cece-4fa6-b71a-ba0daad5ca05
-title: IMN_CHANGECANDIDATE notification code
-ms.topic: article
+title: IMN_CHANGECANDIDATE notification code (Imm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

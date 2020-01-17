@@ -2,7 +2,7 @@
 Description: Converts a hexadecimal string to a binary-packed string.
 ms.assetid: 1f5fabf3-0729-44f8-bda7-a10b98c6e933
 title: Utilities.HexToBinary method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

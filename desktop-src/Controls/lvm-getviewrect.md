@@ -1,5 +1,5 @@
 ---
-title: LVM_GETVIEWRECT message
+title: LVM_GETVIEWRECT message (Commctrl.h)
 description: Retrieves the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can send this message explicitly or by using the ListView\_GetViewRect macro.
 ms.assetid: 69b96f86-8b7e-42c1-ad73-f9b2732ab9f9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

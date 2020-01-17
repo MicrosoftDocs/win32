@@ -1,8 +1,8 @@
 ---
 Description: Sent to an application when a window is activated. A window receives this message through its WindowProc function.
 ms.assetid: ba1e7877-1612-4f2f-aced-0dd982352ad6
-title: WM_IME_SETCONTEXT message
-ms.topic: article
+title: WM_IME_SETCONTEXT message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

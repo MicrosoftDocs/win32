@@ -1,5 +1,5 @@
 ---
-title: MCI_STATUS command
+title: MCI_STATUS command (Mmsystem.h)
 description: The MCI\_STATUS command retrieves information about an MCI device. All devices recognize this command. Information is returned in the dwReturn member of the structure identified by the lpStatus parameter.
 ms.assetid: d1c3dff9-c66f-4525-aac1-4a15b43083e7
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_STATUS command retrieves information about an MCI device. All devices recognize this command. Information is returned in the **dwReturn** member of the structure identified by the *lpStatus* parameter.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

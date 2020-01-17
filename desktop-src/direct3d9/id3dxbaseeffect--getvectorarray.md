@@ -1,8 +1,8 @@
 ---
 Description: Gets an array of vectors.
 ms.assetid: 75fe454c-75f7-4f03-acd2-dd9cbf94fb96
-title: ID3DXBaseEffect::GetVectorArray method
-ms.topic: article
+title: ID3DXBaseEffect::GetVectorArray method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Returns an array of 4D floating point vectors.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vectors in the array.
 
@@ -66,7 +66,7 @@ Number of vectors in the array.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

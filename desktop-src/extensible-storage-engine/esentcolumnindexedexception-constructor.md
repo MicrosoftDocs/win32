@@ -1,11 +1,11 @@
 ---
-title: EsentColumnIndexedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentColumnIndexedException constructor 
 TOCTitle: 'EsentColumnIndexedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnIndexedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnindexedexception.esentcolumnindexedexception(v=EXCHG.10)
 ms:contentKeyID: 55101307
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentColumnIndexedException.EsentColumnIndexedException
 dev_langs:

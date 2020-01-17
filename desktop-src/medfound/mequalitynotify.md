@@ -1,8 +1,8 @@
 ---
 Description: Provides feedback to the quality manager about playback quality.
 ms.assetid: 1b4b6a2d-411e-42d1-a44b-bb1928e1c063
-title: MEQualityNotify event
-ms.topic: article
+title: MEQualityNotify event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

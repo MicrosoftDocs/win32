@@ -3,7 +3,7 @@ Description: The CIM\_VoltageSensor class exists for backward compatibility to e
 ms.assetid: a578c7a2-27d5-4bd8-86d7-3962d5091f14
 ms.tgt_platform: multiple
 title: CIM_VoltageSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

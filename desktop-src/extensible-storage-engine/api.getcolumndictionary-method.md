@@ -1,11 +1,11 @@
 ---
-title: Api.GetColumnDictionary method  (Microsoft.Isam.Esent.Interop)
+title: Api.GetColumnDictionary method 
 TOCTitle: 'GetColumnDictionary method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetColumnDictionary(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.getcolumndictionary(v=EXCHG.10)
 ms:contentKeyID: 55100653
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.GetColumnDictionary
 dev_langs:

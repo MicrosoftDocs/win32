@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 
@@ -24,10 +24,10 @@ Gets the property value by name.
 
 | Method                                                                                                  | Description                                                              |
 |:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| [**GetValueByName(PCWSTR)**](https://msdn.microsoft.com/en-us/library/JJ151746(v=VS.85).aspx)                                       | Gets the property value by name. This is a template overload.<br/> |
-| [**GetValueByName(PCWSTR, T\*)**](https://msdn.microsoft.com/en-us/library/JJ151745(v=VS.85).aspx)                                  | Gets the property value by name. This is a template overload.<br/> |
-| [**GetValueByName(PCWSTR, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/Hh446879(v=VS.85).aspx)                        | Gets the property value by name.<br/>                              |
-| [**GetValueByName(PCWSTR, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](https://msdn.microsoft.com/en-us/library/JJ151744(v=VS.85).aspx) | Gets the property value by name.<br/>                              |
+| [**GetValueByName(PCWSTR)**](https://msdn.microsoft.com/library/JJ151746(v=VS.85).aspx)                                       | Gets the property value by name. This is a template overload.<br/> |
+| [**GetValueByName(PCWSTR, T\*)**](https://msdn.microsoft.com/library/JJ151745(v=VS.85).aspx)                                  | Gets the property value by name. This is a template overload.<br/> |
+| [**GetValueByName(PCWSTR, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/Hh446879(v=VS.85).aspx)                        | Gets the property value by name.<br/>                              |
+| [**GetValueByName(PCWSTR, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151744(v=VS.85).aspx) | Gets the property value by name.<br/>                              |
 
 
 
@@ -35,7 +35,7 @@ Gets the property value by name.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

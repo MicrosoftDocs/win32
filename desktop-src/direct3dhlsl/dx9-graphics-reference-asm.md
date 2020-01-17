@@ -126,7 +126,7 @@ The undesirable result is that the order in which the shaders are set could affe
 
 ## Shader Driver Model Requirements
 
-Direct3D 9 interfaces are restricted to device driver interface (DDI) drivers that are DirectX 7-level and above. To check the DDI level, run the [DirectX Diagnostic Tool](https://msdn.microsoft.com/en-us/library/Ee416792(v=VS.85).aspx) and examine the saved text file.
+Direct3D 9 interfaces are restricted to device driver interface (DDI) drivers that are DirectX 7-level and above. To check the DDI level, run the [DirectX Diagnostic Tool](https://msdn.microsoft.com/library/Ee416792(v=VS.85).aspx) and examine the saved text file.
 
 For reference, Direct3D 8 interfaces work only on DDI drivers that are DirectX 6-level and above.
 

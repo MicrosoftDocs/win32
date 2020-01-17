@@ -3,7 +3,7 @@ Description: The ViewSpaces qualifier defines the names and location of the name
 ms.assetid: 15d71bb6-842d-4f5a-b2e3-e9f60f0aea3b
 ms.tgt_platform: multiple
 title: ViewSpaces Qualifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

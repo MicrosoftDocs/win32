@@ -2,7 +2,7 @@
 Description: Gets the module path.
 ms.assetid: ff632357-8d4a-4de4-a69a-0be9e380639d
 title: '_GetModuleFileName function'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetModuleFileName** function. This function may be altered or unavailable in the future. Applications should call **GetModuleFileName** directly.\]
 
-Gets the module path. See [**GetModuleFileName**](https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx).
+Gets the module path. See [**GetModuleFileName**](https://msdn.microsoft.com/library/ms683197(v=VS.85).aspx).
 
 ## Syntax
 
@@ -54,7 +54,7 @@ DWORD _GetModuleFileName(
 
 <dl> <dt>
 
-[**GetModuleFileName**](https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx)
+[**GetModuleFileName**](https://msdn.microsoft.com/library/ms683197(v=VS.85).aspx)
 </dt> </dl>
 
  

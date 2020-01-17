@@ -2,7 +2,7 @@
 Description: The PropertyCount property of the SummaryInfo object is a read-only property that indicates the current number of property values in the summary information object. It takes into account properties that have been added, deleted, or replaced.
 ms.assetid: 577d3733-23ff-4bb1-9de2-0824215c5e25
 title: SummaryInfo.PropertyCount property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

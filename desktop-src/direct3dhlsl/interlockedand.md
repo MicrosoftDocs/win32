@@ -1,5 +1,5 @@
 ---
-title: InterlockedAnd function
+title: InterlockedAnd function (HLSL reference)
 description: Performs a guaranteed atomic and.
 ms.assetid: 7dc5185a-ea37-493d-975d-dbb803c886d3
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - InterlockedAnd
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# InterlockedAnd function
+# InterlockedAnd function (HLSL reference)
 
 Performs a guaranteed atomic and.
 

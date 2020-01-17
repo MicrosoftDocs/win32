@@ -1,5 +1,5 @@
 ---
-title: idcompositionlineartransfereffect setredslope methods
+title: idcompositionlineartransfereffect setredslope methods (Dcomp.h)
 description: Sets the slope of the linear function for the red channel.
 ms.assetid: 486dad35-e9f2-cc7e-1c20-0e69ce1d22bb
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # idcompositionlineartransfereffect::setredslope methods
@@ -24,8 +24,8 @@ Sets the slope of the linear function for the red channel.
 
 | Method                                                                                             | Description                                                           |
 |:---------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
-| [**SetRedSlope**](https://msdn.microsoft.com/en-us/library/Dn919759(v=VS.85).aspx)                               | Sets the slope of the linear function for the red channel.<br/> |
-| [**SetRedSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919760(v=VS.85).aspx) | Sets the slope of the linear function for the red channel.<br/> |
+| [**SetRedSlope**](https://msdn.microsoft.com/library/Dn919759(v=VS.85).aspx)                               | Sets the slope of the linear function for the red channel.<br/> |
+| [**SetRedSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919760(v=VS.85).aspx) | Sets the slope of the linear function for the red channel.<br/> |
 
 
 
@@ -43,7 +43,7 @@ Sets the slope of the linear function for the red channel.
 
 <dl> <dt>
 
-[**idcompositionlineartransfereffect**](https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx)
+[**idcompositionlineartransfereffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
 </dt> </dl>
 
 �

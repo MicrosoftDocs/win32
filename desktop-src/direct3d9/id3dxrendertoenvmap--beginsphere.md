@@ -1,8 +1,8 @@
 ---
 Description: Initiate the rendering of a spherical environment map.
 ms.assetid: b0634120-f5ad-48b3-979a-30b0a53d22a2
-title: ID3DXRenderToEnvMap::BeginSphere method
-ms.topic: article
+title: ID3DXRenderToEnvMap::BeginSphere method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb20590
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL.E\_FAIL
 

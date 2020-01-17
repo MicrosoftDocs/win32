@@ -1,5 +1,5 @@
 ---
-title: D3DX11_FILTER_FLAG enumeration
+title: D3DX11_FILTER_FLAG enumeration (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Texture filtering flags.
 ms.assetid: 083a6a19-1933-4831-9501-36d4867f3dce
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

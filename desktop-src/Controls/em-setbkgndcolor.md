@@ -1,5 +1,5 @@
 ---
-title: EM_SETBKGNDCOLOR message
+title: EM_SETBKGNDCOLOR message (Richedit.h)
 description: The EM\_SETBKGNDCOLOR message sets the background color for a rich edit control.
 ms.assetid: 0ad191cd-6370-493e-bfe2-5aa8d81ed999
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

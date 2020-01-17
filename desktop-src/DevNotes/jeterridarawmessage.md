@@ -2,7 +2,7 @@
 Description: Retrieves an unformatted message string when an error code identifier (IDA) is provided.
 ms.assetid: 3869e0c0-b3ec-4409-b071-04fd793ebf93
 title: JetErrIDARawMessage function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -87,7 +87,7 @@ If the function succeeds, it returns **JET\_errSuccess**; otherwise, it returns 
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 

@@ -1,14 +1,14 @@
 ---
 Description: Specifies a Multimedia Class Scheduler Service (MMCSS) task for a topology branch.
 ms.assetid: 8668d0f1-9d54-4c56-bb19-09498252bec4
-title: MF_TOPONODE_WORKQUEUE_MMCSS_CLASS attribute
-ms.topic: article
+title: MF_TOPONODE_WORKQUEUE_MMCSS_CLASS attribute (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS attribute
 
-Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/en-us/library/ms684247(v=VS.85).aspx) (MMCSS) task for a topology branch.
+Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) task for a topology branch.
 
 ## Data type
 

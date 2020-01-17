@@ -1,5 +1,5 @@
 ---
-title: Shader Specified Stencil Reference Value
+title: Shader Specified Stencil Reference Value (Direct3D 12 Graphics)
 description: Enabling pixel shaders to output the Stencil Reference Value, rather than using the API-specified one, enables a very fine granular control over stencil operations.
 ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
 ms.localizationpriority: high
@@ -22,9 +22,9 @@ This feature is optional in both D3D12 and D3D11.3. To test for its support, che
 Here is an example of the use of *SV\_StencilRef* in a pixel shader:
 
 ``` syntax
-float main2(float4 c : COORD) : SV_StencilRef
+uint main2(float4 c : COORD) : SV_StencilRef
 {
-    return c;
+    return uint(c.x);
 }
 ```
 

@@ -3,7 +3,7 @@ Description: The Reset method of the CIM\_AggregatePExtent class requests a rese
 ms.assetid: 99f48425-2a29-426d-a8af-4f90e4ed35e3
 ms.tgt_platform: multiple
 title: Reset method of the CIM_AggregatePExtent class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

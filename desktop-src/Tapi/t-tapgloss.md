@@ -1,8 +1,8 @@
 ---
 Description: The following terms are useful in understanding the TAPI technology.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 36b1d6c3-2d57-4b38-a35f-6bf632411c6e
-title: T
+title: T (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -58,14 +58,14 @@ The science of transmitting voice, data, video, or image signals over a distance
 <span id="tapi2.telephony_application_programming_interface_tapi__tapgloss"></span><span id="TAPI2.TELEPHONY_APPLICATION_PROGRAMMING_INTERFACE_TAPI__TAPGLOSS"></span>**Telephony Application Programming Interface (TAPI)**
 </dt> <dd>
 
-Set of functions that allows programming of telephone line-based devices in a device-independent manner, giving personal telephony to users. TAPI supports both speech and data transmission, allows for a variety of terminal devices, and supports complex connection types and call-management techniques such as conference calls, call waiting, and voice mail. TAPI allows all elements of telephone usage—from the simple dial-and-speak call to international e-mail—to be controlled within applications developed for Microsoft Windows. See the [Microsoft Telephony Overview](https://msdn.microsoft.com/en-us/library/ms733433(v=VS.85).aspx)
+Set of functions that allows programming of telephone line-based devices in a device-independent manner, giving personal telephony to users. TAPI supports both speech and data transmission, allows for a variety of terminal devices, and supports complex connection types and call-management techniques such as conference calls, call waiting, and voice mail. TAPI allows all elements of telephone usage—from the simple dial-and-speak call to international e-mail—to be controlled within applications developed for Microsoft Windows. See the [Microsoft Telephony Overview](https://msdn.microsoft.com/library/ms733433(v=VS.85).aspx)
 
 </dd> <dt>
 
 <span id="tapi2.telephony_service_provider_interface_tspi__tapgloss"></span><span id="TAPI2.TELEPHONY_SERVICE_PROVIDER_INTERFACE_TSPI__TAPGLOSS"></span>**Telephony Service Provider Interface (TSPI)**
 </dt> <dd>
 
-Tool for creating service providers for Microsoft Windows operating systems. TSPI defines how the network shares information with Windows Telephony, which in turn talks to the API, which talks to the Windows Telephony applications. For additional information, see [Telephony Service Provider Interface (TSPI)](https://msdn.microsoft.com/en-us/library/ms725517(v=VS.85).aspx).
+Tool for creating service providers for Microsoft Windows operating systems. TSPI defines how the network shares information with Windows Telephony, which in turn talks to the API, which talks to the Windows Telephony applications. For additional information, see [Telephony Service Provider Interface (TSPI)](https://msdn.microsoft.com/library/ms725517(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ A value in the range 0 through 255 that defines the scope within which multicast
 <span id="tapi2.tspi_tapgloss"></span><span id="TAPI2.TSPI_TAPGLOSS"></span>**TSPI**
 </dt> <dd>
 
-See [Telephony Service Provider Interface (TSPI)](https://msdn.microsoft.com/en-us/library/ms725517(v=VS.85).aspx).
+See [Telephony Service Provider Interface (TSPI)](https://msdn.microsoft.com/library/ms725517(v=VS.85).aspx).
 
 </dd> <dt>
 

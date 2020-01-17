@@ -1,5 +1,5 @@
 ---
-title: CIM_Setting class
+title: CIM_Setting class (Remote Desktop Services)
 description: Represents configuration-related and operational parameters for one or more managed system elements.
 ms.assetid: d0007762-5d13-421b-a73a-3392a77686a6
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

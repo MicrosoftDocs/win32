@@ -2,7 +2,7 @@
 Description: Closes a handle to a print ticket provider.
 ms.assetid: ce979c89-9f9d-4e89-b142-beed414caa3f
 title: UnbindPTProviderThunk function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ A handle to an open print ticket provider. This handle is returned by the [**Bin
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
 
 ## Requirements
 
@@ -63,7 +63,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/en-us/library/Dd372919(v=VS.85).aspx)
+[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
 </dt> <dt>
 
 [**PTCloseProvider**](/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider)

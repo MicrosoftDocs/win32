@@ -1,5 +1,5 @@
 ---
-title: EsentBadBackupDatabaseSizeException methods (Microsoft.Isam.Esent.Interop)
+title: EsentBadBackupDatabaseSizeException methods
 TOCTitle: EsentBadBackupDatabaseSizeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception_methods(v=EXCHG.10)

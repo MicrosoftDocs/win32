@@ -1,8 +1,8 @@
 ---
 Description: Sent to all top-level windows when the system detects more than 12.5 percent of system time over a 30- to 60-second interval is being spent compacting memory. This indicates that system memory is low.
 ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
-title: WM_COMPACTING message
-ms.topic: article
+title: WM_COMPACTING message (Winuser.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to all top-level windows when the system detects more than 12.5 percent of system time over a 30- to 60-second interval is being spent compacting memory. This indicates that system memory is low.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
 
 > [!Note]  
 > This message is provided only for compatibility with 16-bit Windows-based applications.

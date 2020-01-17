@@ -1,5 +1,5 @@
 ---
-title: DTN_FORMAT notification code
+title: DTN_FORMAT notification code (Commctrl.h)
 description: Sent by a date and time picker (DTP) control to request text to be displayed in a callback field. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: ce0ee230-638e-425f-9f34-c379342cea93
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

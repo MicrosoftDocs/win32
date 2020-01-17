@@ -1,5 +1,5 @@
 ---
-title: Remote data service server components are removed in Windows 8
+title: Remote data service removed
 description: Remote data service server components are removed in Windows 8
 ms.assetid: 53ECB92C-8868-4A1A-82BD-4ADE75F7BB59
 keywords:
@@ -43,7 +43,3 @@ Customers can keep their RDS server on a machine with Windows 7 or other down-le
  
 
  
-
-
-
-

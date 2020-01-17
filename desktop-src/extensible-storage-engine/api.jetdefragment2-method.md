@@ -1,11 +1,11 @@
 ---
-title: Api.JetDefragment2 method  (Microsoft.Isam.Esent.Interop)
+title: Api.JetDefragment2 method 
 TOCTitle: 'JetDefragment2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDefragment2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.Int32@,System.Int32@,Microsoft.Isam.Esent.Interop.JET_CALLBACK,Microsoft.Isam.Esent.Interop.DefragGrbit)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetdefragment2(v=EXCHG.10)
 ms:contentKeyID: 55100696
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetDefragment2
 dev_langs:

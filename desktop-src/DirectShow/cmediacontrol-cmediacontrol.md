@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 00549dfe-5dd4-445e-bad3-eb6bcfea8f5f
-title: CMediaControl.CMediaControl constructor
-ms.topic: article
+title: CMediaControl.CMediaControl constructor (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

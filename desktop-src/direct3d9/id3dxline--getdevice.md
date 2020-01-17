@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the Direct3D device associated with the line object.
 ms.assetid: 42459668-aa18-478d-82d9-b8b25dc4a898
-title: ID3DXLine::GetDevice method
-ms.topic: article
+title: ID3DXLine::GetDevice method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/lib
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

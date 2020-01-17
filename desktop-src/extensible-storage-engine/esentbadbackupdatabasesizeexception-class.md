@@ -1,11 +1,11 @@
 ---
-title: EsentBadBackupDatabaseSizeException class (Microsoft.Isam.Esent.Interop)
+title: EsentBadBackupDatabaseSizeException class
 TOCTitle: EsentBadBackupDatabaseSizeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception(v=EXCHG.10)
 ms:contentKeyID: 55101045
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException
 dev_langs:

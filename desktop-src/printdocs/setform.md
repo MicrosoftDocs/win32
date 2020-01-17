@@ -1,8 +1,8 @@
 ---
 Description: The SetForm function sets the form information for the specified printer.
 ms.assetid: 05d5d495-952c-4a1d-8694-1004d0c2bcf6
-title: SetForm function
-ms.topic: article
+title: SetForm function (Winspool.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

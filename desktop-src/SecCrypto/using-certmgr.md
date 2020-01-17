@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using CertMgr
 
-[CertMgr](certmgr.md) can be used to view [*certificates*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), [*certificate revocation lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRLs), and [*certificate trust lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTLs) from a file or a certificate store, to copy certificates into a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), to delete certificates from a certificate store, and to save certificates to files.
+[CertMgr](certmgr.md) can be used to view [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), [*certificate revocation lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRLs), and [*certificate trust lists*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CTLs) from a file or a certificate store, to copy certificates into a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), to delete certificates from a certificate store, and to save certificates to files.
 
 When [CertMgr](certmgr.md) is used without options, a CertMgr wizard appears to guide the user through the operation.
 
@@ -50,7 +50,7 @@ The following examples use [CertMgr](certmgr.md) commands to perform common cert
 
     **certmgr -del -all -ctl -s my** *NewStore.str*
 
--   Save, to a file called *NewCert.cer*, a certificate that is an [*X.509*](https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx) encoded certificate, that has the common name *MyCert*, and that is located in the Root certificate store.
+-   Save, to a file called *NewCert.cer*, a certificate that is an [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) encoded certificate, that has the common name *MyCert*, and that is located in the Root certificate store.
 
     **certmgr -put -c -n** *MyCert* **-s root** *NewCert.cer*
 

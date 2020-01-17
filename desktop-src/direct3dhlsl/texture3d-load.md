@@ -1,5 +1,5 @@
 ---
-title: Texture3D Load methods
+title: Texture3D::Texture3D Load methods
 description: Reads texture data.
 ms.assetid: 'eb98a31a-0535-4697-ba93-c216845dbfe8'
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

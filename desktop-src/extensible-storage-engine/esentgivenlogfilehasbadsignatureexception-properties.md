@@ -1,5 +1,5 @@
 ---
-title: EsentGivenLogFileHasBadSignatureException properties (Microsoft.Isam.Esent.Interop)
+title: EsentGivenLogFileHasBadSignatureException properties
 TOCTitle: EsentGivenLogFileHasBadSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentgivenlogfilehasbadsignatureexception_properties(v=EXCHG.10)

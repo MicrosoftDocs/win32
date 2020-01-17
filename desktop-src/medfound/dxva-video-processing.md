@@ -177,7 +177,7 @@ Consider an application that renders a video stream in YUY2 format, using the BT
 
 The code for this example is taken from the [DXVA2\_VideoProc](dxva2-videoproc-sample.md) SDK sample.
 
-The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids) method, so the application must free the array by calling [**CoTaskMemFree**](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx). The remaining steps can be performed using any of the device GUIDs returned by this method.
+The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids) method, so the application must free the array by calling [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx). The remaining steps can be performed using any of the device GUIDs returned by this method.
 
 ### Enumerate Render-Target Formats
 

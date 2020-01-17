@@ -1,8 +1,8 @@
 ---
 Description: The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.
 ms.assetid: 954e2381-207a-47d9-a0a5-87dc325f52b4
-title: CSourceSeeking.SetRate method
-ms.topic: article
+title: CSourceSeeking.SetRate method (Ctlutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Toggles the literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
 ms.assetid: 09ebf666-8a50-4604-abef-aed0d92a6d49
-title: ID3DXEffectCompiler::SetLiteral method
-ms.topic: article
+title: ID3DXEffectCompiler::SetLiteral method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *Literal* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Set to **TRUE** to make the parameter a literal, and **FALSE** if the parameter can change value during the shader lifetime.
 
@@ -56,7 +56,7 @@ Set to **TRUE** to make the parameter a literal, and **FALSE** if the parameter 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

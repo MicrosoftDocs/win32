@@ -3,7 +3,7 @@ Description: Represents a CIM\_ControlledBy relationship that indicates which de
 ms.assetid: a036dbf9-f9ce-4c85-9184-fefcbe4583ba
 ms.tgt_platform: multiple
 title: CIM_SCSIInterface class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

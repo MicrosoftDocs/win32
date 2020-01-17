@@ -1,8 +1,8 @@
 ---
 Description: 'This filter decodes the following audio formats:'
 ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
-title: Microsoft MPEG-1/DD/AAC Audio Decoder
-ms.topic: article
+title: Microsoft MPEG-1/DD/AAC Audio Decoder (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -145,7 +145,7 @@ To select between these two options, use the [**ICodecAPI**](/windows/desktop/ap
 
 ### AAC Decoding
 
-For AAC, the decoder has certain format constraints on the compressed AAC input. These format constraints are the same as the Media Foundation [**AAC Decoder**](https://msdn.microsoft.com/en-us/library/Dd742784(v=VS.85).aspx), and are documented in the section "[**Format Constraints**](https://msdn.microsoft.com/en-us/library/Dd742784(v=VS.85).aspx)".
+For AAC, the decoder has certain format constraints on the compressed AAC input. These format constraints are the same as the Media Foundation [**AAC Decoder**](https://msdn.microsoft.com/library/Dd742784(v=VS.85).aspx), and are documented in the section "[**Format Constraints**](https://msdn.microsoft.com/library/Dd742784(v=VS.85).aspx)".
 
 The DirectShow decoder also accepts different input types than the Media Foundation decoder. The DirectShow decoder supports the following AAC input types:
 

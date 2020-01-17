@@ -1,13 +1,13 @@
 ---
 Description: Contains definitions of security terms that begin with the letter H.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 4165b820-30fc-477e-a690-81109f161323
-title: H
+title: H (Security Glossary)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# H
+# H (Security Glossary)
 
 [A](a-gly.md) [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F [G](g-gly.md) H [I](i-gly.md) J [K](k-gly.md) [L](l-gly.md) [M](m-gly.md) [N](n-gly.md) [O](o-gly.md) [P](p-gly.md) Q [R](r-gly.md) [S](s-gly.md) [T](t-gly.md) [U](u-gly.md) [V](v-gly.md) [W](w-gly.md) [X](x-gly.md) Y Z
 

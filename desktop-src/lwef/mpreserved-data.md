@@ -1,5 +1,5 @@
 ---
-title: MPRESERVED_DATA structure
+title: MPRESERVED_DATA structure (MpClient.h)
 description: Reserved notification data.
 ms.assetid: C92206BD-6E56-4B7D-ABB1-DC1149AE141D
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

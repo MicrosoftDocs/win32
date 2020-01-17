@@ -1,5 +1,5 @@
 ---
-title: WSMan.GetErrorMessage method
+title: WSMan.GetErrorMessage method (WSManDisp.h)
 description: Returns a formatted string that contains the text of an error number.
 ms.assetid: 5f0a5259-8356-4406-8612-34f4921184f0
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: VMFloppyDriveAttachmentType enumeration
+title: VMFloppyDriveAttachmentType enumeration (VPCCOMInterfaces.h)
 description: Specifies what is attached to a floppy drive.
 ms.assetid: aba1be92-bd07-4edb-ad62-f8d76dbd19b9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

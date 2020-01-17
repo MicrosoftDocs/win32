@@ -1,8 +1,8 @@
 ---
 Description: Retrieves the parameters of the render surface.
 ms.assetid: 4f46a4c6-7c50-479c-b2f5-24edff590c57
-title: ID3DXRenderToSurface::GetDesc method
-ms.topic: article
+title: ID3DXRenderToSurface::GetDesc method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to a [**D3DXRTS\_DESC**](d3dxrts-desc.md) structure, describing the para
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

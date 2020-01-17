@@ -1,5 +1,5 @@
 ---
-title: TB_SETIMAGELIST message
+title: TB_SETIMAGELIST message (Commctrl.h)
 description: Sets the image list that the toolbar uses to display buttons that are in their default state.
 ms.assetid: 432ffdfc-bb63-4405-90da-9392910fdbb6
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

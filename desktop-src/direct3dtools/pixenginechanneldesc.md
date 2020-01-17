@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: PixEngineChannelDesc structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: E08E3B02-17FC-490E-A0F3-1E1A6BC1B848
 api_name: 

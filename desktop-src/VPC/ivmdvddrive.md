@@ -1,5 +1,5 @@
 ---
-title: IVMDVDDrive interface
+title: IVMDVDDrive interface (VPCCOMInterfaces.h)
 description: Controls a CD-ROM or DVD-ROM drive within a virtual machine. IVMDVDDrive can notify clients about events using the IVMDVDDriveEvents outgoing interface.
 ms.assetid: 0900b3a8-ba52-4c26-bd96-b37334d6d03c
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ You can add a new CD-ROM or DVD-ROM drive to a virtual machine using the [**IVMV
 
 ## Members
 
-The **IVMDVDDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDrive** also has these types of members:
+The **IVMDVDDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDrive** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

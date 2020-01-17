@@ -1,5 +1,5 @@
 ---
-title: CBEM_SETWINDOWTHEME message
+title: CBEM_SETWINDOWTHEME message (Commctrl.h)
 description: Sets the visual style of a ComboBoxEx control.
 ms.assetid: 064f9a24-42be-42f4-bee3-e7320fe8c366
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

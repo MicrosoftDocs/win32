@@ -1,5 +1,5 @@
 ---
-title: TB_GETSTRING message
+title: TB_GETSTRING message (Commctrl.h)
 description: Retrieves a string from a toolbar's string pool.
 ms.assetid: a5f80c16-bc6d-466d-8ec6-77451432148e
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

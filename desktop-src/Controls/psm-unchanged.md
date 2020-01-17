@@ -1,5 +1,5 @@
 ---
-title: PSM_UNCHANGED message
+title: PSM_UNCHANGED message (Prsht.h)
 description: Informs a property sheet that information in a page has reverted to the previously saved state. You can send this message explicitly or by using the PropSheet\_UnChanged macro.
 ms.assetid: 61c15dec-40d0-4720-a117-4eed765c8819
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

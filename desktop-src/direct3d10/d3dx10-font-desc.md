@@ -1,8 +1,8 @@
 ---
 Description: Defines font attributes.
 ms.assetid: 66e8a320-2b83-4766-a9a7-5571ee6c9f2a
-title: D3DX10_FONT_DESC structure
-ms.topic: structure
+title: D3DX10_FONT_DESC structure (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ typedef struct D3DX10_FONT_DESC {
 **Height**
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ Height, in logical units, of the font's character cell or character.
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ Width, in logical units, of characters in the font.
 **Weight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Weight of the font in the range from 0 through 1000.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Number of mipmap levels requested. If this value is zero or D3DX\_DEFAULT, a com
 **Italic**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Set to **TRUE** for an Italic font.
 **CharSet**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -112,7 +112,7 @@ Character set.
 **OutputPrecision**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ Output precision. The output precision defines how closely the output must match
 **Quality**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ Output quality.
 **PitchAndFamily**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -157,7 +157,7 @@ A NULL-terminated string that specifies the typeface name of the font. The lengt
 
 The compiler setting also determines the structure type. If Unicode is defined, the D3DX10\_FONT\_DESC structure type resolves to a D3DX10\_FONT\_DESCW; otherwise the structure type resolves to a D3DX10\_FONT\_DESCA.
 
-Possible values of the above members are given in the GDI [LOGFONT](https://msdn2.microsoft.com/en-us/library/ms533931.aspx) structure.
+Possible values of the above members are given in the GDI [LOGFONT](https://msdn2.microsoft.com/library/ms533931.aspx) structure.
 
 ## Requirements
 

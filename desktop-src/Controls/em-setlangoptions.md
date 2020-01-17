@@ -1,5 +1,5 @@
 ---
-title: EM_SETLANGOPTIONS message
+title: EM_SETLANGOPTIONS message (Richedit.h)
 description: Sets options for Input Method Editor (IME) and Asian language support in a rich edit control.
 ms.assetid: d42d0512-3339-471d-a91a-114151554799
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: The GetMediaType method retrieves the uncompressed media type for the group.
 ms.assetid: 129ed688-0f03-4ccb-b65f-d61f02cb94b2
-title: IAMTimelineGroup::GetMediaType method
-ms.topic: article
+title: IAMTimelineGroup::GetMediaType method (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

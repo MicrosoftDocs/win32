@@ -1,5 +1,5 @@
 ---
-title: TB_GETBUTTON message
+title: TB_GETBUTTON message (Commctrl.h)
 description: Retrieves information about the specified button in a toolbar.
 ms.assetid: d90d053c-0daf-4a5a-b7ca-b9b4472c65a3
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

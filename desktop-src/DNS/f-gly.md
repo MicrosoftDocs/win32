@@ -1,7 +1,7 @@
 ---
-title: F
+title: F (DNS)
 description: Domain Name System (DNS) glossary entries that start with F.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 127b68fe-f9b2-45f3-b016-da99ebdda7c2
 ms.topic: article
 ms.date: 05/31/2018

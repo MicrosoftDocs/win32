@@ -1,5 +1,5 @@
 ---
-title: UInt32ColumnValue members (Microsoft.Isam.Esent.Interop)
+title: UInt32ColumnValue members
 TOCTitle: UInt32ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.UInt32ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint32columnvalue_members(v=EXCHG.10)

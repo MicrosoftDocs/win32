@@ -1,5 +1,5 @@
 ---
-title: DWM Enable Composition Constants
+title: DWM Enable Composition Constants (Dwmapi.h)
 description: Flags used by the DwmEnableComposition \ 160; function to change the state of Desktop Window Manager (DWM) composition.
 ms.assetid: 1403d9a6-e1cb-42ab-bf48-3cede4f36ad4
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

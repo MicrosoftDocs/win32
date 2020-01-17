@@ -1,8 +1,8 @@
 ---
 Description: Returns a point in Barycentric coordinates, using the specified 3D vectors.
 ms.assetid: ecbabc76-9936-4f31-adec-1ec807984787
-title: D3DXVec3BaryCentric function
-ms.topic: article
+title: D3DXVec3BaryCentric function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -79,7 +79,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 
@@ -88,7 +88,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Weighting factor. See Remarks.
 

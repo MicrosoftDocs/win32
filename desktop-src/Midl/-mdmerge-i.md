@@ -1,5 +1,5 @@
 ---
-title: /i switch
+title: /i switch (MDMERGE)
 description: The /i switch specifies the directory that contains metadata files to be merged.
 ms.assetid: 52CFCB90-555F-487E-BB42-76B6DFC5DA93
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - /i
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

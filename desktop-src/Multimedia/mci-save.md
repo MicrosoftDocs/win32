@@ -1,5 +1,5 @@
 ---
-title: MCI_SAVE command
+title: MCI_SAVE command (Mmsystem.h)
 description: The MCI\_SAVE command saves the current file.
 ms.assetid: 286e6f31-cb93-443b-8191-8c363b366eae
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SAVE command saves the current file. Devices that modify files should not destroy the original copy until they receive the save message. Video-overlay and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -116,7 +116,7 @@ The **rc** member of the structure identified by *lpSave* contains a valid displ
 
 </dd> </dl>
 
-For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAVE\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743447(v=VS.85).aspx) structure.
+For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAVE\_PARMS**](https://msdn.microsoft.com/library/Dd743447(v=VS.85).aspx) structure.
 
 ## Requirements
 

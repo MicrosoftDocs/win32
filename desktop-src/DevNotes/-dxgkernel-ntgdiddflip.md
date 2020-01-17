@@ -1,8 +1,8 @@
 ---
 Description: Causes the surface memory associated with the target and current surfaces to be interchanged.
 ms.assetid: 2c557393-079e-48e5-b3a6-1157265d88e3
-title: NtGdiDdFlip function
-ms.topic: article
+title: NtGdiDdFlip function (Ntgdi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,35 +46,35 @@ DWORD APIENTRY NtGdiDdFlip(
 *hSurfaceCurrent* \[in\]
 </dt> <dd>
 
-Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/en-us/library/ms793861.aspx) structure describing the current surface.
+Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/library/ms793861.aspx) structure describing the current surface.
 
 </dd> <dt>
 
 *hSurfaceTarget* \[in\]
 </dt> <dd>
 
-Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/en-us/library/ms793861.aspx) structure describing the target surface; that is, the surface to which the driver should flip.
+Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/library/ms793861.aspx) structure describing the target surface; that is, the surface to which the driver should flip.
 
 </dd> <dt>
 
 *hSurfaceCurrentLeft* \[in\]
 </dt> <dd>
 
-Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/en-us/library/ms793861.aspx) structure describing the current left surface.
+Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/library/ms793861.aspx) structure describing the current left surface.
 
 </dd> <dt>
 
 *hSurfaceTargetLeft* \[in\]
 </dt> <dd>
 
-Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/en-us/library/ms793861.aspx) structure describing the left target surface to flip to.
+Handle to the [DD\_SURFACE\_LOCAL](https://msdn.microsoft.com/library/ms793861.aspx) structure describing the left target surface to flip to.
 
 </dd> <dt>
 
 *puFlipData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [DD\_FLIPDATA](https://msdn.microsoft.com/en-us/library/ms794213.aspx) structure that contains the information required to perform the flip.
+Pointer to a [DD\_FLIPDATA](https://msdn.microsoft.com/library/ms794213.aspx) structure that contains the information required to perform the flip.
 
 </dd> </dl>
 

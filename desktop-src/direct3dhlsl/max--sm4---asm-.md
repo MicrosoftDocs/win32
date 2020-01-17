@@ -2,7 +2,7 @@
 title: max (sm4 - asm)
 description: Component-wise float maximum.
 ms.assetid: 005468AA-577E-441F-ACD5-37A691E62CDD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

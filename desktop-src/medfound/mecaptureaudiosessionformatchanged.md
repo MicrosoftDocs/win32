@@ -1,8 +1,8 @@
 ---
 Description: Sent by an audio capture source when the audio format changes.
 ms.assetid: 8197BBAD-8102-43C3-BA61-8DC3BC13B7D6
-title: MECaptureAudioSessionFormatChanged event
-ms.topic: article
+title: MECaptureAudioSessionFormatChanged event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 This event is sent by the media stream of the audio capture source.
 
-The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/en-us/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonFormatChanged**.
+The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to **DisconnectReasonFormatChanged**.
 
 ## Requirements
 

@@ -2,7 +2,7 @@
 Description: The event type class for the log file header event. This class contains information about the event tracing session.
 ms.assetid: 3d0c4044-da06-4850-95c4-99b4ea28fcd9
 title: EventTrace_Header class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -401,7 +401,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (16), **Extension("NoPrint")**, **Max** (176)
 </dt> </dl>
 
-A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/en-us/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
+A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
 
 </dd> <dt>
 

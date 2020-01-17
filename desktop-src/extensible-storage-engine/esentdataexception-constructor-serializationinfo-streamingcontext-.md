@@ -1,11 +1,11 @@
 ---
-title: EsentDataException constructor (SerializationInfo, StreamingContext) (Microsoft.Isam.Esent.Interop)
+title: EsentDataException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentDataException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdataexception.esentdataexception(v=EXCHG.10)
 ms:contentKeyID: 55101275
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

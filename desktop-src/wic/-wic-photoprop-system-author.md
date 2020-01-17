@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Author Photo Metadata Policy
 
-The photo metadata policy for the [System.Author](https://msdn.microsoft.com/en-us/library/bb760652(VS.85).aspx) property.
+The photo metadata policy for the [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx) property.
 
 ### PKEY
 
@@ -145,7 +145,7 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Author](https://msdn.microsoft.com/en-us/library/bb760652(VS.85).aspx)
+[System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx)
 </dt> </dl>
 
  

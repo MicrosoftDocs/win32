@@ -1,8 +1,8 @@
 ---
 Description: Raised by the audio renderer when the audio session is disconnected from a Windows Terminal Services (WTS) session. The audio renderer is now invalid.
 ms.assetid: 08f9844c-f3b1-4d60-990e-9131f3312f6b
-title: MEAudioSessionDisconnected event
-ms.topic: article
+title: MEAudioSessionDisconnected event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/en-us/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to DisconnectReasonSessionDisconnected.
+This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/library/Dd370941(v=VS.85).aspx) event from the audio session with the disconnection reason equal to DisconnectReasonSessionDisconnected.
 
 The [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) pointer, if set, is not useful, because the audio stream is no longer valid.
 

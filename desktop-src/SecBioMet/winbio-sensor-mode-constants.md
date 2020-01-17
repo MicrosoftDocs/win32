@@ -1,5 +1,5 @@
 ---
-title: WINBIO_SENSOR_MODE Constants
+title: WINBIO_SENSOR_MODE Constants (Winbio\_types.h)
 description: Set the sensor adapter mode.
 ms.assetid: fceaed5c-de59-4da7-9d7a-adeef353292f
 topic_type:
@@ -14,7 +14,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

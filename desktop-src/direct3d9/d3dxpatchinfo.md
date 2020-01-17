@@ -1,8 +1,8 @@
 ---
 Description: Structure that contains the attributes of a patch mesh.
 ms.assetid: aaea69c9-2d33-46e8-bc26-95daf65abf50
-title: D3DXPATCHINFO structure
-ms.topic: structure
+title: D3DXPATCHINFO structure (D3dx9mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,33 +39,33 @@ typedef struct D3DXPATCHINFO {
 **PatchType**
 </dt> <dd>
 
-Type: **[**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx)**
+Type: **[**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/library/Bb205384(v=VS.85).aspx)**
 
 </dd> <dd>
 
-The patch type. For information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx).
+The patch type. For information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/library/Bb205384(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx)**
+Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Degree of the curves used to construct the patch. For information about the degrees supported, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx).
+Degree of the curves used to construct the patch. For information about the degrees supported, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb172507(v=VS.85).aspx)**
+Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Type of curve used to construct the patch. For information about the basis types supported, see [**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb172507(v=VS.85).aspx).
+Type of curve used to construct the patch. For information about the basis types supported, see [**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx).
 
 </dd> </dl>
 

@@ -1,5 +1,5 @@
 ---
-title: WM_VKEYTOITEM message
+title: WM_VKEYTOITEM message (Winuser.h)
 description: Sent by a list box with the LBS\_WANTKEYBOARDINPUT style to its owner in response to a WM\_KEYDOWN message.
 ms.assetid: 2eab922f-7298-436f-bd94-0eefae7284d5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

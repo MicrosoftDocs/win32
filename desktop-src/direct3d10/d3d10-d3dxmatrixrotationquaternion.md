@@ -1,8 +1,8 @@
 ---
 Description: Builds a rotation matrix from a quaternion.
 ms.assetid: dcbf8696-b959-4475-a250-6094dd5fe358
-title: D3DXMatrixRotationQuaternion function
-ms.topic: article
+title: D3DXMatrixRotationQuaternion function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ D3DXMATRIX* D3DXMatrixRotationQuaternion(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -48,7 +48,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the source D3DXQUATERNION structure.
 
@@ -56,7 +56,7 @@ Pointer to the source D3DXQUATERNION structure.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure built from the source quaternion.
 

@@ -1,5 +1,5 @@
 ---
-title: EsentWriteConflictPrimaryIndexException properties (Microsoft.Isam.Esent.Interop)
+title: EsentWriteConflictPrimaryIndexException properties
 TOCTitle: EsentWriteConflictPrimaryIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictprimaryindexexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: LVM_MAPINDEXTOID message
+title: LVM_MAPINDEXTOID message (Commctrl.h)
 description: Maps the index of an item to a unique ID.
 ms.assetid: d0486e21-2703-4289-abb0-f5f9c7b60b40
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

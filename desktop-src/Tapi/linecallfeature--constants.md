@@ -1,8 +1,8 @@
 ---
 Description: The LINECALLFEATURE\_ constants indicate operations that can be invoked for a given address or call.
 ms.assetid: 8bb1d678-079c-4c83-b4a2-08fd7afdca9b
-title: LINECALLFEATURE_ Constants
-ms.topic: article
+title: LINECALLFEATURE_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

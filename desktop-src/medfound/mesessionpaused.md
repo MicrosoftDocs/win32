@@ -1,8 +1,8 @@
 ---
 Description: Raised when the IMFMediaSession::Pause method completes asynchronously.
 ms.assetid: 72546082-83ec-4481-a24f-e82bd6c88859
-title: MESessionPaused event
-ms.topic: article
+title: MESessionPaused event (Mfobjects.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

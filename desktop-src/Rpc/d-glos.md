@@ -1,7 +1,7 @@
 ---
-title: D
+title: D (RPC)
 description: Words starting with D in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: a983860b-39af-4195-8b02-caac38cf42d7
 ms.topic: article
 ms.date: 05/31/2018

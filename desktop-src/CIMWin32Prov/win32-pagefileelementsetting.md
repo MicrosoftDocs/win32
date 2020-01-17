@@ -3,7 +3,7 @@ Description: The Win32\_PageFileElementSetting association WMI class relates the
 ms.assetid: efc1f20d-166e-4e27-9767-f6ec0bbd6c14
 ms.tgt_platform: multiple
 title: Win32_PageFileElementSetting class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_PageFileElementSetting class
 
-The **Win32\_PageFileElementSetting** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates the initial settings of a page file and the state of those settings during normal use.
+The **Win32\_PageFileElementSetting** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates the initial settings of a page file and the state of those settings during normal use.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_PageFileUsage**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PageFileUsage")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PageFileUsage")
 </dt> </dl>
 
 Reference to the instance representing the properties of a page file while the Win32 system is in use.
@@ -72,7 +72,7 @@ Data type: **Win32\_PageFileSetting**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PageFileSetting")
+Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_PageFileSetting")
 </dt> </dl>
 
 Reference to the instance representing the initial settings of a page file when the Win32 system is starting up.
@@ -104,7 +104,7 @@ The **Win32\_PageFileElementSetting** class is derived from [**CIM\_ElementSetti
 [**CIM\_ElementSetting**](cim-elementsetting.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

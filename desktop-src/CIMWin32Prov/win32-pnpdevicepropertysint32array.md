@@ -3,7 +3,7 @@ Description: Represents a PnP device property consisting of an array of Sint32 e
 ms.assetid: 8CA6421B-6AC7-4590-9142-4093AA7BE019
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint32Array class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

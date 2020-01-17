@@ -1,8 +1,8 @@
 ---
 Description: A pause request has completed.
 ms.assetid: 32acad47-65bd-42f0-987e-3690bb824b05
-title: EC_PAUSED
-ms.topic: article
+title: EC_PAUSED (Dshow.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

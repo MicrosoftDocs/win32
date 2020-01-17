@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseStreamingFileMismatchException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseStreamingFileMismatchException members
 TOCTitle: EsentDatabaseStreamingFileMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasestreamingfilemismatchexception_members(v=EXCHG.10)

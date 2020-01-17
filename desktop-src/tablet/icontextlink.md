@@ -1,8 +1,8 @@
 ---
 Description: Represents a relationship between two IContextNode objects.
 ms.assetid: ee81d9d7-eba9-4b11-84d0-5a6ca0df7d92
-title: IContextLink interface
-ms.topic: interface
+title: IContextLink interface (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -2,7 +2,7 @@
 Description: Starts a job to create a root ResourcePool. The ResourcePool will be scoped to the same System as this Service.
 ms.assetid: 357880dc-125a-452c-89f5-44cd17684436
 title: CreateResourcePool method of the CIM_ResourcePoolConfigurationService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

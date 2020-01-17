@@ -1,5 +1,5 @@
 ---
-title: EsentSoftRecoveryOnSnapshotException members (Microsoft.Isam.Esent.Interop)
+title: EsentSoftRecoveryOnSnapshotException members
 TOCTitle: EsentSoftRecoveryOnSnapshotException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsoftrecoveryonsnapshotexception_members(v=EXCHG.10)

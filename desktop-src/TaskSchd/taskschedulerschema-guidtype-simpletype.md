@@ -1,5 +1,5 @@
 ---
-title: guidType Simple Type
+title: guidType simple type (Task Scheduler)
 description: Defines the pattern for valid GUIDs.
 ms.assetid: 1aa3f08b-4b3e-4e72-8ac4-d859a8da4c32
 keywords:
@@ -10,12 +10,12 @@ api_name:
 - guidType
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
-# guidType Simple Type
+# guidType simple type (Task Scheduler)
 
 Defines the pattern for valid GUIDs.
 

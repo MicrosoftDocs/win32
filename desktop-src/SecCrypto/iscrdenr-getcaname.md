@@ -2,7 +2,7 @@
 Description: Retrieves the name of the specified certification authority (CA) for a given certificate template.
 ms.assetid: e921710a-7c74-4fda-91e1-fbad45889984
 title: ISCrdEnr::getCAName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::getCAName method
 
-The **getCAName** method retrieves the name of the specified [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) for a given certificate template.
+The **getCAName** method retrieves the name of the specified [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) for a given certificate template.
 
 ## Syntax
 

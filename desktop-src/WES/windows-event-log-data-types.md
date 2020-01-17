@@ -1,12 +1,12 @@
 ---
-title: Windows Event Log Data Types
+title: Windows Event Log Data Types (WinEvt.h)
 description: Windows Event Log defines the following data types
 ms.assetid: 1aad25fe-7503-4ef8-a40a-63457bd9a007
 keywords:
 - EVT_HANDLE
 - PEVT_HANDLE
 - EVT_OBJECT_ARRAY_PROPERTY_HANDLE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

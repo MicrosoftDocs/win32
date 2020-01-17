@@ -1,11 +1,11 @@
 ---
-title: EsentLVCorruptedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLVCorruptedException constructor 
 TOCTitle: 'EsentLVCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLVCorruptedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlvcorruptedexception.esentlvcorruptedexception(v=EXCHG.10)
 ms:contentKeyID: 55102219
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentLVCorruptedException.EsentLVCorruptedException
 dev_langs:

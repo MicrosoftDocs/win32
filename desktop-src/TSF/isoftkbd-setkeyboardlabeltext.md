@@ -1,5 +1,5 @@
 ---
-title: ISoftKbd SetKeyboardLabelText method
+title: ISoftKbd SetKeyboardLabelText method (Softkbdc.h)
 description: The ISoftKbd SetKeyboardLabelText method sets the label text from the layout for a soft keyboard.
 ms.assetid: 86c45c37-fe50-4596-b4c9-960de760a2e0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

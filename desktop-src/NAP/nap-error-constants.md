@@ -1,5 +1,5 @@
 ---
-title: NAP Error Constants
+title: NAP Error Constants (WinError.h)
 description: The following NAP error constants are defined in WinError.h.
 ms.assetid: b2fba990-75d9-4153-8058-c01e97700d00
 topic_type:
@@ -28,7 +28,7 @@ api_location:
 - WinError.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

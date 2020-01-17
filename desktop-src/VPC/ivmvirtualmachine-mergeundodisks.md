@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine MergeUndoDisks method
+title: IVMVirtualMachine MergeUndoDisks method (VPCCOMInterfaces.h)
 description: Merges the virtual undo disks.
 ms.assetid: 6445b097-220e-48c4-9a7b-1139ca7b3338
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

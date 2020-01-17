@@ -2,7 +2,7 @@
 title: Clipboard Overviews
 description: .
 ms.assetid: 587814ad-7bd2-4201-8f05-c4cd402b8dbe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

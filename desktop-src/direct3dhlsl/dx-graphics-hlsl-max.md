@@ -10,7 +10,7 @@ api_name:
 - max
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -45,13 +45,22 @@ Selects the greater of x and y.
 
 The *x* or *y* parameter, whichever is the largest value.
 
+
 ## Remarks
 
-For values of -INF or INF, max will behave as expected. However for values of NaN, the results are undefined.
+Denormals are handled as follows:
+
+| src0 src1-> | -inf | F             | +inf | NAN  |
+|-------------|------|---------------|------|------|
+| -inf        | -inf | src1          | +inf | -inf |
+| F           | src0 | src0 or src1  | +inf | src0 |
+| +inf        | +inf | +inf          | +inf | +inf |
+| NaN         | -inf | src1          | +inf | NaN  |
+
+F means finite-real number.
+
 
 ## Type Description
-
-
 
 | Name | In/Out      | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                 | Size                         |
 |------|-------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------|
@@ -85,11 +94,7 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
+[**DirectX Functional Specification**](https://microsoft.github.io/DirectX-Specs/d3d/archive/D3D11_3_FunctionalSpec.htm#inst_MAX) 
+</dt> </dl>
  
-
  
-
-
-
-
-

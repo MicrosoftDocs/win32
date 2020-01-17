@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the encoder uses noise substitution.
 ms.assetid: 8b018208-3e35-41a6-9f03-3aa142cc4f69
-title: MFPKEY_DYN_ALLOW_NOISESUB Property
-ms.topic: article
+title: MFPKEY_DYN_ALLOW_NOISESUB Property (Wmcodecdsp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ Specifies whether the encoder uses noise substitution. Read-write.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

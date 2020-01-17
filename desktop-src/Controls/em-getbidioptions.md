@@ -1,5 +1,5 @@
 ---
-title: EM_GETBIDIOPTIONS message
+title: EM_GETBIDIOPTIONS message (Richedit.h)
 description: Indicates the current state of the bidirectional options in the rich edit control.
 ms.assetid: 055581c0-ae59-4601-a3e9-416705af429a
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

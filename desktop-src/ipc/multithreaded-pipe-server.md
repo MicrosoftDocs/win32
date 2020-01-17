@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Multithreaded Pipe Server
 
-The following example is a multithreaded pipe server. It has a main thread with a loop that creates a pipe instance and waits for a pipe client to connect. When a pipe client connects, the pipe server creates a thread to service that client and then continues to execute the loop in the main thread. It is possible for a pipe client to connect successfully to the pipe instance in the interval between calls to the [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) and [**ConnectNamedPipe**](https://msdn.microsoft.com/en-us/library/Aa365146(v=VS.85).aspx) functions. If this happens, **ConnectNamedPipe** returns zero, and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_PIPE\_CONNECTED.
+The following example is a multithreaded pipe server. It has a main thread with a loop that creates a pipe instance and waits for a pipe client to connect. When a pipe client connects, the pipe server creates a thread to service that client and then continues to execute the loop in the main thread. It is possible for a pipe client to connect successfully to the pipe instance in the interval between calls to the [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) and [**ConnectNamedPipe**](https://msdn.microsoft.com/library/Aa365146(v=VS.85).aspx) functions. If this happens, **ConnectNamedPipe** returns zero, and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_PIPE\_CONNECTED.
 
 The thread created to service each pipe instance reads requests from the pipe and writes replies to the pipe until the pipe client closes its handle. When this happens, the thread flushes the pipe, disconnects, closes its pipe handle, and terminates. The main thread will run until an error occurs or the process is ended.
 
@@ -31,7 +31,7 @@ int _tmain(VOID)
    BOOL   fConnected = FALSE; 
    DWORD  dwThreadId = 0; 
    HANDLE hPipe = INVALID_HANDLE_VALUE, hThread = NULL; 
-   LPTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
+   LPCTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
  
 // The main loop creates an instance of the named pipe and 
 // then waits for a client to connect to it. When the client 
@@ -164,7 +164,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
       {   
           if (GetLastError() == ERROR_BROKEN_PIPE)
           {
-              _tprintf(TEXT("InstanceThread: client disconnected.\n"), GetLastError()); 
+              _tprintf(TEXT("InstanceThread: client disconnected.\n")); 
           }
           else
           {
@@ -202,7 +202,7 @@ DWORD WINAPI InstanceThread(LPVOID lpvParam)
    HeapFree(hHeap, 0, pchRequest);
    HeapFree(hHeap, 0, pchReply);
 
-   printf("InstanceThread exitting.\n");
+   printf("InstanceThread exiting.\n");
    return 1;
 }
 

@@ -1,5 +1,5 @@
 ---
-title: Width Property
+title: Width Property (Characters Object)
 description: Width Property
 ms.assetid: ebada4cc-dbe6-4540-be1f-1f61e176765b
 ms.topic: article

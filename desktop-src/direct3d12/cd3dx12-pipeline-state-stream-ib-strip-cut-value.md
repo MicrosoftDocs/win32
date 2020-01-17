@@ -1,5 +1,5 @@
 ---
-title: CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE structure
+title: CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE structure (D3dx12.h)
 description: A helper structure used to describe the index buffer strip cut value as a single object suitable for a stream description.
 ms.assetid: AF8F0919-4601-4A95-832A-5E1DA0304939
 keywords:
@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.localizationpriority: low
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

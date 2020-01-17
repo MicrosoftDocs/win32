@@ -14,7 +14,7 @@ This topic describes how to retrieve and set values for sensor properties. The [
 
 You can retrieve some property values from a sensor before the user has enabled it. Information such as the manufacturer's name or the model of the sensor can help you to decide whether your program can use the sensor.
 
-You can choose to retrieve a single property value, or to retrieve a collection of property values together. To retrieve single value, call [**ISensor::GetProperty**](https://msdn.microsoft.com/en-us/library/Dd318876(v=VS.85).aspx). To retrieve a collection of values, call [**ISensor::GetProperties**](https://msdn.microsoft.com/en-us/library/Dd318874(v=VS.85).aspx). You can retrieve all properties for a sensor by passing **NULL** through the first parameter to **ISensor::GetProperties**.
+You can choose to retrieve a single property value, or to retrieve a collection of property values together. To retrieve single value, call [**ISensor::GetProperty**](https://msdn.microsoft.com/library/Dd318876(v=VS.85).aspx). To retrieve a collection of values, call [**ISensor::GetProperties**](https://msdn.microsoft.com/library/Dd318874(v=VS.85).aspx). You can retrieve all properties for a sensor by passing **NULL** through the first parameter to **ISensor::GetProperties**.
 
 The following example code creates a helper function that prints the value of a single property. The function receives a pointer to the sensor from which to retrieve the value and a property key that contains the property to print. The function can print values for numbers, strings, and **GUID**s, but not other, more complex types.
 
@@ -173,7 +173,7 @@ HRESULT PrintSensorProperties(ISensor* pSensor)
 
 Before you can set property values for a sensor, the user must enable the sensor. Also, not all sensor properties can be set.
 
-To set one or more values for properties, call [**ISensor::SetProperties**](https://msdn.microsoft.com/en-us/library/Dd318899(v=VS.85).aspx). You provide this method with an [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) pointer that contains the collection of properties to set, and their associated values. The method returns a corresponding [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) interface that may contain error codes for properties that could not be set.
+To set one or more values for properties, call [**ISensor::SetProperties**](https://msdn.microsoft.com/library/Dd318899(v=VS.85).aspx). You provide this method with an [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) pointer that contains the collection of properties to set, and their associated values. The method returns a corresponding [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) interface that may contain error codes for properties that could not be set.
 
 The following example code creates a helper function that sets a new value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property. The function takes a pointer to the sensor for which to set the property, and a **ULONG** value that indicates the new report interval to be set. (Note that setting a value for this particular property does not guarantee that the sensor will accept the specified value. See [**Sensor Properties**](sensor-properties.md) for information about how this property works.)
 

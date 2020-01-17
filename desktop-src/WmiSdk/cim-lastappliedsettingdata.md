@@ -3,7 +3,7 @@ Description: An association between an object and another object which has been 
 ms.assetid: ee6b17b7-4f01-4731-8d6b-a3421621a75a
 ms.tgt_platform: multiple
 title: CIM_LastAppliedSettingData class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

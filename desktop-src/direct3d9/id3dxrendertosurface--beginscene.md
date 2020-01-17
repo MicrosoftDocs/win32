@@ -1,8 +1,8 @@
 ---
 Description: Begins a scene.
 ms.assetid: 8125c592-b985-42f7-8644-59ba93a1c517
-title: ID3DXRenderToSurface::BeginScene method
-ms.topic: article
+title: ID3DXRenderToSurface::BeginScene method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -56,7 +56,7 @@ Pointer to a [**D3DVIEWPORT9**](d3dviewport9.md) structure, describing the viewp
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL.D3DERR\_OUTOFVIDEOMEMORY D3DXERR\_INVALIDDATA E\_OUTOFMEMORY
 

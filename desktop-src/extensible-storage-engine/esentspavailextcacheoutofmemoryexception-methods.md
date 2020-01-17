@@ -1,5 +1,5 @@
 ---
-title: EsentSPAvailExtCacheOutOfMemoryException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSPAvailExtCacheOutOfMemoryException methods
 TOCTitle: EsentSPAvailExtCacheOutOfMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentspavailextcacheoutofmemoryexception_methods(v=EXCHG.10)

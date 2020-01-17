@@ -1,5 +1,5 @@
 ---
-title: TB_DELETEBUTTON message
+title: TB_DELETEBUTTON message (Commctrl.h)
 description: Deletes a button from the toolbar.
 ms.assetid: 6ba569f0-c400-4c0d-bc9f-3a82bcef0360
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreEntryTooBigException members (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreEntryTooBigException members
 TOCTitle: EsentVersionStoreEntryTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreentrytoobigexception_members(v=EXCHG.10)

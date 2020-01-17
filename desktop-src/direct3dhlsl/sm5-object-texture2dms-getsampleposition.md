@@ -1,5 +1,5 @@
 ---
-title: GetSamplePosition function
+title: Texture2DMS::GetSamplePosition function
 description: Returns the sample position for the sample index provided.
 ms.assetid: b7821112-9b40-4302-b5c1-03bab531a0ab
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetSamplePosition
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

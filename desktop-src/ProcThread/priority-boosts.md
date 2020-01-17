@@ -16,7 +16,7 @@ The system boosts the dynamic priority of a thread to enhance its responsiveness
 -   When a window receives input, such as timer messages, mouse messages, or keyboard input, the scheduler boosts the priority of the thread that owns the window.
 -   When the wait conditions for a blocked thread are satisfied, the scheduler boosts the priority of the thread. For example, when a wait operation associated with disk or keyboard I/O finishes, the thread receives a priority boost.
 
-    You can disable the priority-boosting feature by calling the [**SetProcessPriorityBoost**](https://msdn.microsoft.com/en-us/library/ms686225(v=VS.85).aspx) or [**SetThreadPriorityBoost**](https://msdn.microsoft.com/en-us/library/ms686280(v=VS.85).aspx) function. To determine whether this feature has been disabled, call the [**GetProcessPriorityBoost**](https://msdn.microsoft.com/en-us/library/ms683220(v=VS.85).aspx) or [**GetThreadPriorityBoost**](https://msdn.microsoft.com/en-us/library/ms683236(v=VS.85).aspx) function.
+    You can disable the priority-boosting feature by calling the [**SetProcessPriorityBoost**](https://msdn.microsoft.com/library/ms686225(v=VS.85).aspx) or [**SetThreadPriorityBoost**](https://msdn.microsoft.com/library/ms686280(v=VS.85).aspx) function. To determine whether this feature has been disabled, call the [**GetProcessPriorityBoost**](https://msdn.microsoft.com/library/ms683220(v=VS.85).aspx) or [**GetThreadPriorityBoost**](https://msdn.microsoft.com/library/ms683236(v=VS.85).aspx) function.
 
 After raising a thread's dynamic priority, the scheduler reduces that priority by one level each time the thread completes a time slice, until the thread drops back to its base priority. A thread's dynamic priority is never less than its base priority.
 

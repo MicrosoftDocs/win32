@@ -1,5 +1,5 @@
 ﻿---
-title: INullableJetStruct members (Microsoft.Isam.Esent.Interop)
+title: INullableJetStruct members
 TOCTitle: INullableJetStruct members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.INullableJetStruct
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.inullablejetstruct_members(v=EXCHG.10)

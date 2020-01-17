@@ -1,5 +1,5 @@
 ---
-title: Embedded Objects
+title: Embedded Objects (COM)
 description: Embedded Objects
 ms.assetid: 1f863fd4-fead-4dd3-b855-8820e015b52a
 ms.topic: article

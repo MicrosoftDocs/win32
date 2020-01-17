@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPCEvents OnEventLogged method
+title: IVMVirtualPCEvents OnEventLogged method (VPCCOMInterfaces.h)
 description: Receives notification that Windows Virtual PC logs an event.
 ms.assetid: 89439e8e-e9bf-409e-a129-525b9feb8fdd
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

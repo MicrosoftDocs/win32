@@ -1,5 +1,5 @@
 ---
-title: IVMGuestOS SuiteMask property
+title: IVMGuestOS SuiteMask property (VPCCOMInterfaces.h)
 description: Retrieves the SuiteMask of the guest operating system running in the virtual machine.
 ms.assetid: 11d065c1-9d46-4c81-b843-776db3507a04
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

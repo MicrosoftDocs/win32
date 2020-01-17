@@ -1,5 +1,5 @@
 ---
-title: ID2D1RenderTarget FillRoundedRectangle methods
+title: ID2D1RenderTarget FillRoundedRectangle methods (D2d1.h)
 description: Paints the interior of the specified rounded rectangle.
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # ID2D1RenderTarget::FillRoundedRectangle methods
@@ -24,14 +24,14 @@ Paints the interior of the specified rounded rectangle.
 
 | Method                                                                                                                                          | Description                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
-| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT&,ID2D1Brush\*)**](https://msdn.microsoft.com/en-us/library/Dd316795(v=VS.85).aspx)  | Paints the interior of the specified rounded rectangle. <br/> |
-| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT\*,ID2D1Brush\*)**](https://msdn.microsoft.com/en-us/library/Dd371959(v=VS.85).aspx) | Paints the interior of the specified rounded rectangle.<br/>  |
+| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT&,ID2D1Brush\*)**](https://msdn.microsoft.com/library/Dd316795(v=VS.85).aspx)  | Paints the interior of the specified rounded rectangle. <br/> |
+| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT\*,ID2D1Brush\*)**](https://msdn.microsoft.com/library/Dd371959(v=VS.85).aspx) | Paints the interior of the specified rounded rectangle.<br/>  |
 
 
 
 ## Remarks
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **FillRoundedRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) methods.
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **FillRoundedRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) methods.
 
 ## Examples
 
@@ -127,13 +127,13 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
 </dt> <dt>
 
 [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.md)
 </dt> <dt>
 
-[**D2D1::RoundedRect**](https://msdn.microsoft.com/en-us/library/Dd316917(v=VS.85).aspx)
+[**D2D1::RoundedRect**](https://msdn.microsoft.com/library/Dd316917(v=VS.85).aspx)
 </dt> </dl>
 
 �

@@ -1,8 +1,8 @@
 ---
 Description: Computes the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation.
 ms.assetid: 52d614cc-578a-4f2b-ba91-70d0c4371042
-title: ID3DXPRTEngine::ComputeDirectLightingSH method
-ms.topic: article
+title: ID3DXPRTEngine::ComputeDirectLightingSH method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT ComputeDirectLightingSH(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -56,7 +56,7 @@ Pointer to an output [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object that models 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

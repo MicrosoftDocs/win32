@@ -2,7 +2,7 @@
 Description: Retrieves the name of the stylus button.
 ms.assetid: 26fad9bc-43c2-4b00-b76b-bf9f1242da77
 title: ITabletCursorButton::GetName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -47,7 +47,7 @@ If an output file containing xml rather than plain text is preferred, the follow
 Winsock catalog change tracing is enabled by default on Windows Vista and later.
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/en-us/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
 
  
 

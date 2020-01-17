@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether the ASF media source uses approximate seeking.
 ms.assetid: 4877b67c-524c-4717-a90f-6de21918d3d8
-title: MFPKEY_ASFMediaSource_ApproxSeek property
-ms.topic: article
+title: MFPKEY_ASFMediaSource_ApproxSeek property (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

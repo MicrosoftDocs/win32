@@ -1,5 +1,5 @@
 ---
-title: Using Rectangles
+title: Using Rectangles (Windows Media Player SDK)
 description: Using Rectangles
 ms.assetid: b3fc16b4-dc93-43c0-a97d-5234e36437c8
 keywords:

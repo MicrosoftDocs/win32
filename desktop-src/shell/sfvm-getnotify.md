@@ -1,7 +1,7 @@
 ---
 Description: Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.
-title: SFVM_GETNOTIFY message
-ms.topic: article
+title: SFVM_GETNOTIFY message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 87933217-dfa9-4aaf-9630-fa2c302b18fa
 api_name: 
@@ -101,7 +101,7 @@ case SFVM_GETNOTIFY:
 [**SFVM\_QUERYFSNOTIFY**](sfvm-queryfsnotify.md)
 </dt> <dt>
 
-[**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx)
+[**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx)
 </dt> </dl>
 
  

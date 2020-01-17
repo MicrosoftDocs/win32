@@ -1,8 +1,8 @@
 ---
 Description: Vertex cache optimization hints.
 ms.assetid: 891624cd-03dd-4ddd-93f5-4899e1470325
-title: D3DDEVINFO_VCACHE structure
-ms.topic: structure
+title: D3DDEVINFO_VCACHE structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -40,7 +40,7 @@ typedef struct D3DDEVINFO_VCACHE {
 **Pattern**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Bit pattern. Return value must be the FOURCC ('C', 'A', 'C', 'H').
 **OptMethod**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Optimizations method. Use 0 to get the longest strips. Use 1 to optimize the ver
 **CacheSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Cache size used as a target for optimization. This is required only if OptMethod
 **MagicNumber**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

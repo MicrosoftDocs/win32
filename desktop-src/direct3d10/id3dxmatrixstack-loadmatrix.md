@@ -1,8 +1,8 @@
 ---
 Description: Loads the given matrix into the current matrix.
 ms.assetid: b898f344-db90-48e0-b457-0eb8d7b31dca
-title: ID3DXMATRIXStack::LoadMatrix method
-ms.topic: article
+title: ID3DXMATRIXStack::LoadMatrix method (D3DX10.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT LoadMatrix(
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the D3DXMATRIX structure loaded into the current matrix.
 
@@ -46,7 +46,7 @@ Pointer to the D3DXMATRIX structure loaded into the current matrix.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

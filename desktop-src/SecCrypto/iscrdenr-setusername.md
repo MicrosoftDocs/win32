@@ -2,7 +2,7 @@
 Description: Specifies the name of the user on whose behalf the certificate enrollment is intended.
 ms.assetid: e088af63-5064-4b1b-976f-047f52e56af8
 title: ISCrdEnr::setUserName method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -75,7 +75,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ## Remarks
 
-Call this method to specify the user name to be issued the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). An alternative to **setUserName** is [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md).
+Call this method to specify the user name to be issued the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). An alternative to **setUserName** is [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md).
 
 After a user name has been specified, its value can be retrieved by calling [**getUserName**](iscrdenr-getusername.md).
 

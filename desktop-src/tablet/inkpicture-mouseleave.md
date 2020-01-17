@@ -1,8 +1,8 @@
 ---
 Description: Occurs when the mouse pointer leaves the InkPicture control.
 ms.assetid: 4b7961cd-58a3-4e75-bb9e-fbb6dc225d3d
-title: InkPicture.MouseLeave event
-ms.topic: article
+title: InkPicture.MouseLeave event (Msinkaut.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -29,7 +29,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseLeave.
+This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEMouseLeave.
 
 ## Requirements
 

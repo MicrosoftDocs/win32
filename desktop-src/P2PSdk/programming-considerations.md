@@ -1,7 +1,7 @@
 ---
 Description: This topic discusses specific programming considerations when using the Peer Infrastructure.
 ms.assetid: 525b0625-ec13-4aba-a741-dbacff3587f9
-title: Programming Considerations
+title: Programming Considerations (Peer-to-Peer)
 ms.topic: article
 ms.date: 05/31/2018
 ---

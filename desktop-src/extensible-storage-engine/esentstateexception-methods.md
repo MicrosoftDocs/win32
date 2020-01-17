@@ -1,5 +1,5 @@
 ---
-title: EsentStateException methods (Microsoft.Isam.Esent.Interop)
+title: EsentStateException methods
 TOCTitle: EsentStateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentStateException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstateexception_methods(v=EXCHG.10)

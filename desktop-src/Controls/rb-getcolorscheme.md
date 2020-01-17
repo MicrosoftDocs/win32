@@ -1,5 +1,5 @@
 ---
-title: RB_GETCOLORSCHEME message
+title: RB_GETCOLORSCHEME message (Commctrl.h)
 description: Retrieves the color scheme information from the rebar control.
 ms.assetid: 01f81c4b-bbc9-43ae-a1f5-1e289c6fa278
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

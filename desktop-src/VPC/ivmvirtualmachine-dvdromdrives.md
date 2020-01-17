@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachine DVDROMDrives property
+title: IVMVirtualMachine DVDROMDrives property (VPCCOMInterfaces.h)
 description: Retrieves an enumerable collection of CD and DVD drives attached to the virtual machine.
 ms.assetid: e9e7d912-568f-4a3d-85cf-63f6fa99cb19
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

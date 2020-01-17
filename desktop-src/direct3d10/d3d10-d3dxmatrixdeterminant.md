@@ -1,8 +1,8 @@
 ---
 Description: Returns the determinant of a matrix.
 ms.assetid: b0155c91-1554-42ef-b219-c6cdd2a905b5
-title: D3DXMatrixDeterminant function
-ms.topic: article
+title: D3DXMatrixDeterminant function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ FLOAT D3DXMatrixDeterminant(
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the source D3DXMATRIX structure.
 
@@ -46,7 +46,7 @@ Pointer to the source D3DXMATRIX structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Returns the determinant of the matrix.
 

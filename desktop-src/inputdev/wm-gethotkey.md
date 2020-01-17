@@ -1,5 +1,5 @@
 ---
-title: WM_GETHOTKEY message
+title: WM_GETHOTKEY message (Winuser.h)
 description: Sent to determine the hot key associated with a window.
 ms.assetid: 6f527758-e713-47a8-a571-3bf3270f0b33
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -64,7 +64,7 @@ The return value is the virtual-key code and modifiers for the hot key, or **NUL
 
 ## Remarks
 
-These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx) function.
+These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx) function.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](htt
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx)
+[**RegisterHotKey**](https://msdn.microsoft.com/library/ms646309(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SETHOTKEY**](wm-sethotkey.md)

@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks VSCb method
+title: ID3DX12PipelineParserCallbacks VSCb method (D3DX12.h)
 description: Calls the vertex shader subobject callback of an object that implements this interface.
 ms.assetid: 65A185B7-C790-4254-A3C5-EBBE9C38CA4E
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

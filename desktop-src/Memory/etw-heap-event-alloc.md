@@ -1,8 +1,8 @@
 ---
 Description: Memory management tracing event for a heap allocation operation.
 ms.assetid: 572DEC3B-F909-45E5-849F-707AA62F2F5E
-title: ETW_HEAP_EVENT_ALLOC event
-ms.topic: article
+title: ETW_HEAP_EVENT_ALLOC event (Ntwmi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -33,7 +33,7 @@ typedef struct ETW_HEAP_EVENT_ALLOC
 *HeapHandle* 
 </dt> <dd>
 
-The handle of the heap where the memory was allocated. This is the heap handle an app passed to the [**AllocateHeap**](https://msdn.microsoft.com/en-us/library/Aa374721(v=VS.85).aspx) function when the memory was allocated.
+The handle of the heap where the memory was allocated. This is the heap handle an app passed to the [**AllocateHeap**](https://msdn.microsoft.com/library/Aa374721(v=VS.85).aspx) function when the memory was allocated.
 
 </dd> <dt>
 

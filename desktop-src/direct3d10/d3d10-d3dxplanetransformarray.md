@@ -1,8 +1,8 @@
 ---
 Description: Transforms an array of planes by a matrix. The vectors that describe each plane must be normalized.
 ms.assetid: 9529b06a-0575-4115-8d35-fc35a7bfb0bd
-title: D3DXPlaneTransformArray function
-ms.topic: article
+title: D3DXPlaneTransformArray function (D3DX10Math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -43,7 +43,7 @@ D3DXPLANE* D3DXPlaneTransformArray(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) structure that contains the resulting transformed plane. See Example.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) structure that contains the r
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The stride of each transformed plane.
 
@@ -61,7 +61,7 @@ The stride of each transformed plane.
 *pP* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
+Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the input D3DXPLANE structure, which contains the array of planes to transform. The vector (a, b, c) that describes the plane must be normalized before this function is called. See Example.
 
@@ -70,7 +70,7 @@ Pointer to the input D3DXPLANE structure, which contains the array of planes to 
 *PStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The stride of each non-transformed plane.
 
@@ -79,7 +79,7 @@ The stride of each non-transformed plane.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure, which contains the inverse transpose of the transformation values.
 
@@ -88,7 +88,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure, which con
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The number of planes to transform.
 
@@ -96,7 +96,7 @@ The number of planes to transform.
 
 ## Return value
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to a D3DXPLANE structure, representing the transformed plane. This is the same value returned in the pOut parameter so that this function can be used as a parameter for another function.
 

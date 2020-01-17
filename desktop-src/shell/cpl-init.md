@@ -1,14 +1,14 @@
 ---
 Description: Sent to the CPlApplet function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
 ms.assetid: 0e7e9b14-9f44-496e-a518-5d3ae92868c5
-title: CPL_INIT message
-ms.topic: article
+title: CPL_INIT message (Cpl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # CPL\_INIT message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
+Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
 
 
 ```C++
@@ -42,9 +42,9 @@ Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=
 
 ## Return value
 
-If initialization succeeds, the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function should return nonzero. Otherwise, it should return zero.
+If initialization succeeds, the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function should return nonzero. Otherwise, it should return zero.
 
-If [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) returns zero, the controlling application ends communication and releases the DLL containing the Control Panel application.
+If [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) returns zero, the controlling application ends communication and releases the DLL containing the Control Panel application.
 
 ## Remarks
 
@@ -68,7 +68,7 @@ This message is sent immediately after the DLL containing the application is loa
 
 <dl> <dt>
 
-[**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx)
+[**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx)
 </dt> </dl>
 
  

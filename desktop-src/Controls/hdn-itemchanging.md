@@ -1,5 +1,5 @@
 ---
-title: HDN_ITEMCHANGING notification code
+title: HDN_ITEMCHANGING notification code (Commctrl.h)
 description: Notifies a header control's parent window that the attributes of a header item are about to change. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: c3361f88-69d4-425f-b548-0ad3b2a00af4
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

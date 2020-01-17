@@ -1,5 +1,5 @@
 ---
-title: IPX_NETWORK structure
+title: IPX_NETWORK structure (Rtm.h)
 description: The IPX\_NETWORK structure describes an IPX network address.
 ms.assetid: 83fc4022-8515-4a51-ac47-f92572447fbf
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

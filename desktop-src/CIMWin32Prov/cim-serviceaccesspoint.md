@@ -2,8 +2,8 @@
 Description: The CIM\_ServiceAccessPoint class represents the ability to use or invoke a service. Access points represent services that are available for use by other entities.
 ms.assetid: caf828a1-c9a7-4ae8-9734-d77e4ba90b09
 ms.tgt_platform: multiple
-title: CIM_ServiceAccessPoint class
-ms.topic: article
+title: CIM_ServiceAccessPoint class (CIMWin32 WMI Providers)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Specifies protection system specific data.
 ms.assetid: 9FF8B67A-E7A3-4732-9770-503C1D07A1FF
-title: MF_EVENT_STREAM_METADATA_KEYDATA attribute
-ms.topic: article
+title: MF_EVENT_STREAM_METADATA_KEYDATA attribute (Mfapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

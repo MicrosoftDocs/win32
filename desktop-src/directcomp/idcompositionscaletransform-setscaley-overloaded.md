@@ -1,5 +1,5 @@
 ---
-title: IDCompositionScaleTransform SetScaleY methods
+title: IDCompositionScaleTransform SetScaleY methods (Dcomp.h)
 description: Changes or animates the value of the ScaleY property of a 2D scale transform.
 ms.assetid: 651F98F6-5674-4FB8-A180-FE02B7A1E4B1
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionScaleTransform::SetScaleY methods
@@ -24,8 +24,8 @@ Changes or animates the value of the ScaleY property of a 2D scale transform.
 
 | Method                                                                                                      | Description                                           |
 |:------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetScaleY(float)**](https://msdn.microsoft.com/en-us/library/Hh449050(v=VS.85).aspx)                                     | Changes the value of the ScaleY property.<br/>  |
-| [**SetScaleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449053(v=VS.85).aspx) | Animates the value of the ScaleY property.<br/> |
+| [**SetScaleY(float)**](https://msdn.microsoft.com/library/Hh449050(v=VS.85).aspx)                                     | Changes the value of the ScaleY property.<br/>  |
+| [**SetScaleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449053(v=VS.85).aspx) | Animates the value of the ScaleY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the ScaleY property of a 2D scale transform.
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDCompositionScaleTransform::SetScaleX**](idcompositionscaletransform-setscalex-overloaded.md)

@@ -1,5 +1,5 @@
 ---
-title: g_wszWMACAvgBytesPerSec
+title: g_wszWMACAvgBytesPerSec (Wmcodecdsp.h)
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
 ms.assetid: 31763d8c-457c-4ccf-b10c-c219d0eb018b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

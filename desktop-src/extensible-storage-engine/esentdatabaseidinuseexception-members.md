@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseIdInUseException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseIdInUseException members
 TOCTitle: EsentDatabaseIdInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseidinuseexception_members(v=EXCHG.10)

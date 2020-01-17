@@ -1,8 +1,8 @@
 ---
 Description: Draws a line strip in screen space. Input is in the form of an array that defines points (of D3DXVECTOR2) on the line strip.
 ms.assetid: 10ad5af5-fb57-46ef-a89f-7a05dcf58826
-title: ID3DXLine::Draw method
-ms.topic: article
+title: ID3DXLine::Draw method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Array of vertices that make up the line. See [**D3DXVECTOR2**](d3dxvector2.md).
 *dwVertexListCount* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices in the vertex list.
 
@@ -66,7 +66,7 @@ Color of the line. See [**D3DCOLOR**](d3dcolor.md).
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

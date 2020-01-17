@@ -1,5 +1,5 @@
 ---
-title: TextureCube SampleCmp methods
+title: TextureCube::TextureCube SampleCmp methods
 description: Samples a texture, using a comparison value to reject samples.
 ms.assetid: 2238D282-5D4E-44E8-A8E1-AD53D25201A3
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

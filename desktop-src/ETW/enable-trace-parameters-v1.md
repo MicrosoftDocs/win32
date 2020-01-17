@@ -1,8 +1,8 @@
 ---
 Description: Defines the information used to enable a provider.
 ms.assetid: 6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B
-title: ENABLE_TRACE_PARAMETERS_V1 structure
-ms.topic: structure
+title: ENABLE_TRACE_PARAMETERS_V1 structure (Evntrace.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -48,7 +48,7 @@ Set to **ENABLE\_TRACE\_PARAMETERS\_VERSION**.
 **EnableProperty**
 </dt> <dd>
 
-Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](https://msdn.microsoft.com/en-us/library/Aa363760(v=VS.85).aspx) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
+Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](https://msdn.microsoft.com/library/Aa363760(v=VS.85).aspx) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
 
 
 

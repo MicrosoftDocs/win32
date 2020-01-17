@@ -1,5 +1,5 @@
 ---
-title: EsentTableNotEmptyException methods (Microsoft.Isam.Esent.Interop)
+title: EsentTableNotEmptyException methods
 TOCTitle: EsentTableNotEmptyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttablenotemptyexception_methods(v=EXCHG.10)

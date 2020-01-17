@@ -1,5 +1,5 @@
 ---
-title: WMDRMCryptoData structure
+title: WMDRMCryptoData structure (Wmdrmsdk.h)
 description: The WMDRMCryptoData structure contains information about the cryptographic algorithm used to encrypt and decrypt content.
 ms.assetid: ad14c6d3-4305-47c0-8f67-7ef6d11cc326
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: VMDriveType enumeration
+title: VMDriveType enumeration (VPCCOMInterfaces.h)
 description: Specifies the type of drive attached to a bus location.
 ms.assetid: 7d3acff2-e1e3-4622-a448-0996ee7436ae
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
-ms.topic: enumeration
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

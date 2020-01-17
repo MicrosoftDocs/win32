@@ -1,8 +1,8 @@
 ---
 Description: Create the best Direct3D 10 device that represents the display adapter. If a Direct3D 10.1-compatible device can be created, it will be possible to acquire an ID3D10Device1 Interface pointer from the returned device interface pointer.
 ms.assetid: 1af8f4e5-a59e-403a-95d2-069b91bad93e
-title: D3DX10CreateDevice function
-ms.topic: article
+title: D3DX10CreateDevice function (D3DX10Core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -41,9 +41,9 @@ HRESULT D3DX10CreateDevice(
 *pAdapter* \[in\]
 </dt> <dd>
 
-Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx)\***
+Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx)\***
 
-Pointer to the display adapter (see the [**IDXGIAdapter**](https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx) interface) when creating a hardware device; otherwise set this parameter to **NULL**. If **NULL** is specified when creating a hardware device, Direct3D will use the first adapter enumerated by the [**IDXGIFactory**](https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx) interface.
+Pointer to the display adapter (see the [**IDXGIAdapter**](https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx) interface) when creating a hardware device; otherwise set this parameter to **NULL**. If **NULL** is specified when creating a hardware device, Direct3D will use the first adapter enumerated by the [**IDXGIFactory**](https://msdn.microsoft.com/library/Bb174535(v=VS.85).aspx) interface.
 
 </dd> <dt>
 
@@ -59,16 +59,16 @@ The device-driver type (see the [**D3D10\_DRIVER\_TYPE**](/windows/desktop/api/D
 *Software* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-A handle to a loaded module that implements a software driver (such as D3D10Ref.dll). To get a handle, call the [GetModuleHandle](https://msdn2.microsoft.com/en-us/library/ms683199.aspx) function.
+A handle to a loaded module that implements a software driver (such as D3D10Ref.dll). To get a handle, call the [GetModuleHandle](https://msdn2.microsoft.com/library/ms683199.aspx) function.
 
 </dd> <dt>
 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Device creation flags (see the [**D3D10\_CREATE\_DEVICE\_FLAG**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) enumeration) that enable [API layers](d3d10-graphics-programming-guide-api-features-layers.md). These flags can be bitwise OR'd together.
 
@@ -85,7 +85,7 @@ Address of a pointer to the device created (see the [**ID3D10Device**](/windows/
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 This function returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

@@ -1,5 +1,5 @@
 ---
-title: LVN_DELETEITEM notification code
+title: LVN_DELETEITEM notification code (Commctrl.h)
 description: Notifies a list-view control's parent window that an item is about to be deleted. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 6e3d1955-ee35-488b-8b96-3d6ebbe5ceb5
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

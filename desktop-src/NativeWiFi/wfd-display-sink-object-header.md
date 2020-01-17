@@ -1,8 +1,8 @@
 ---
 Description: Describes the display sink object data included in a notification or notification result.
 ms.assetid: 40D931F6-C068-48EB-A968-9CBAA3F9FAD8
-title: WFD_DISPLAY_SINK_OBJECT_HEADER structure
-ms.topic: structure
+title: WFD_DISPLAY_SINK_OBJECT_HEADER structure (Wfdsink.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

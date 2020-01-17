@@ -1,8 +1,8 @@
 ---
 Description: The SwitchTerminalToSubStream method sets a terminal to the participant substream.
 ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
-title: ITParticipantSubStreamControl::SwitchTerminalToSubStream method
-ms.topic: article
+title: ITParticipantSubStreamControl::SwitchTerminalToSubStream method (Confpriv.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,14 +31,14 @@ HRESULT SwitchTerminalToSubStream(
 *pITTerminal* \[in\]
 </dt> <dd>
 
-Pointer to [**ITTerminal**](https://msdn.microsoft.com/en-us/library/ms732646(v=VS.85).aspx) interface.
+Pointer to [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx) interface.
 
 </dd> <dt>
 
 *pITSubStream* \[in\]
 </dt> <dd>
 
-Pointer to [**ITSubStream**](https://msdn.microsoft.com/en-us/library/ms732440(v=VS.85).aspx) interface.
+Pointer to [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) interface.
 
 </dd> </dl>
 
@@ -83,10 +83,10 @@ This method can return one of these values.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/en-us/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
 </dt> <dt>
 
-[**ITTerminal**](https://msdn.microsoft.com/en-us/library/ms732646(v=VS.85).aspx)
+[**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)
 </dt> </dl>
 
  

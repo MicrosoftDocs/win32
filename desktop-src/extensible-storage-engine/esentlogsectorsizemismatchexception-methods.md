@@ -1,5 +1,5 @@
 ---
-title: EsentLogSectorSizeMismatchException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogSectorSizeMismatchException methods
 TOCTitle: EsentLogSectorSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsectorsizemismatchexception_methods(v=EXCHG.10)

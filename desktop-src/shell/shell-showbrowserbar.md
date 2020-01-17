@@ -1,8 +1,8 @@
 ---
 Description: Displays a browser bar.
 ms.assetid: 203636D2-54D3-4163-B9AC-39213D6F4203
-title: Shell.ShowBrowserBar method
-ms.topic: article
+title: Shell.ShowBrowserBar method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Shell.ShowBrowserBar( _
 *sCLSID* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the string form of the CLSID of the browser bar to be displayed. The object must be registered as an Explorer Bar object with a CATID\_InfoBand component category. For further information, see [Creating Custom Explorer Bars, Tool Bands, and Desk Bands](band-objects.md).
 

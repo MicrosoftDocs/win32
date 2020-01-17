@@ -3,7 +3,7 @@ Description: Represents the capabilities and management of a 1394 controller.
 ms.assetid: 5297b1d1-65b5-4bb7-add4-9dc07b4ddc6c
 ms.tgt_platform: multiple
 title: Win32_1394Controller class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

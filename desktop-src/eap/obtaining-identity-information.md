@@ -2,9 +2,6 @@
 title: Obtaining Identity Information
 description: The vendor that implements the authentication protocol may also provide a function interface that obtains initial identifying information for the user requesting authentication.
 ms.assetid: 773c9fdb-c810-4cea-afed-df6484a9c9c9
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -30,9 +27,9 @@ In addition to RAS\_EAP\_VALUENAME\_INVOKE\_NAMEDLG, the EAP vendor may create a
 
 For more information on these registry values, see [Authentication Protocol Registry Values](authentication-protocol-registry-values.md).
 
-The information obtained by [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) is passed to the authentication protocol during the call to [**RasEapBegin**](https://msdn.microsoft.com/en-us/library/Aa363520(v=VS.85).aspx). The information is pointed to by the **pszIdentity** and **pUserData** members of the [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) structure. To save this information in the registry on the client computer, the authentication protocol should return the information in the *pEapOutput* parameter of [**RasEapMakeMessage**](https://msdn.microsoft.com/en-us/library/Aa363532(v=VS.85).aspx).
+The information obtained by [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) is passed to the authentication protocol during the call to [**RasEapBegin**](https://msdn.microsoft.com/library/Aa363520(v=VS.85).aspx). The information is pointed to by the **pszIdentity** and **pUserData** members of the [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) structure. To save this information in the registry on the client computer, the authentication protocol should return the information in the *pEapOutput* parameter of [**RasEapMakeMessage**](https://msdn.microsoft.com/library/Aa363532(v=VS.85).aspx).
 
-After the call to [**RasEapBegin**](https://msdn.microsoft.com/en-us/library/Aa363520(v=VS.85).aspx), the authentication service calls [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) to free the memory occupied by this data. Therefore, the authentication protocol should copy the information into a private memory buffer during the call to **RasEapBegin**.
+After the call to [**RasEapBegin**](https://msdn.microsoft.com/library/Aa363520(v=VS.85).aspx), the authentication service calls [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) to free the memory occupied by this data. Therefore, the authentication protocol should copy the information into a private memory buffer during the call to **RasEapBegin**.
 
  
 

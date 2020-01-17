@@ -1,8 +1,8 @@
 ---
 Description: IUserIdentityManager::EnumIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 8111fbcd-dc4d-45cb-83e0-3c2cd7c4df27
-title: IUserIdentityManager::EnumIdentities method
-ms.topic: article
+title: IUserIdentityManager::EnumIdentities method (Msident.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

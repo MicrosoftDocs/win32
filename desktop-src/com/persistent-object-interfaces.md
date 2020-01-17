@@ -1,5 +1,5 @@
 ---
-title: Persistent Object Interfaces
+title: Persistent Object Interfaces (COM)
 description: A persistent object implements one or more persistent object interfaces.
 ms.assetid: 8c8e44e4-f564-4af5-9a8a-ac6883862cae
 ms.topic: article

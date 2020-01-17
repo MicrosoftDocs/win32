@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_WORMDrive class sets the desir
 ms.assetid: 9d53ed52-740d-4691-9718-29d6fe99180a
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_WORMDrive class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

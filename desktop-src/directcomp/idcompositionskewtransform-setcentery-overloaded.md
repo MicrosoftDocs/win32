@@ -1,5 +1,5 @@
 ---
-title: IDCompositionSkewTransform SetCenterY methods
+title: IDCompositionSkewTransform SetCenterY methods (Dcomp.h)
 description: Changes or animates the value of the CenterY property of a of a 2D skew transform.
 ms.assetid: D3F5E009-D6D2-431F-AC5C-C14C0AE1CD36
 keywords:
@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.date: 07/02/2019
-ms.topic: article
+ms.topic: reference
 ---
 
 # IDCompositionSkewTransform::SetCenterY methods
@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a of a 2D skew transfor
 
 | Method                                                                                                       | Description                                            |
 |:-------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/en-us/library/Hh449077(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/en-us/library/Hh449079(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh449077(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449079(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterY property of a of a 2D skew transfor
 
 <dl> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
 </dt> </dl>
 
 �

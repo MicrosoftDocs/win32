@@ -1,8 +1,8 @@
 ---
 Description: Opens a specified folder in a Windows Explorer window.
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
-title: IShellDispatch.Explore method
-ms.topic: article
+title: IShellDispatch.Explore method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

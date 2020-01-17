@@ -2,7 +2,7 @@
 Description: Retrieves the response entity body as an IStream.
 ms.assetid: e12a9338-5e0c-4672-bbc6-31375b872e94
 title: IWinHttpRequest::ResponseStream property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -44,7 +44,7 @@ vtResponseStream = WinHttpRequest.ResponseStream
 
 ## Property value
 
-A **Variant** that receives a pointer to an [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface that can be queried for an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. This stream returns the raw data as received directly from the server.
+A **Variant** that receives a pointer to an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface that can be queried for an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. This stream returns the raw data as received directly from the server.
 
 ## Error codes
 
@@ -54,7 +54,7 @@ It will be **E\_PENDING** if the previous [**Send**](iwinhttprequest-send.md) op
 
 ## Remarks
 
-Call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on the returned pointer to obtain a pointer to an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. This property returns the response data as an **IStream**. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
+Call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) on the returned pointer to obtain a pointer to an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. This property returns the response data as an **IStream**. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.

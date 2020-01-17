@@ -2,7 +2,7 @@
 Description: The Modify method of the View object modifies a database row with a modified Record object obtained by the Fetch method.
 ms.assetid: c3c500aa-070f-41d7-90f7-db979452d24f
 title: View.Modify method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

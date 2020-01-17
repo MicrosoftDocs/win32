@@ -1,8 +1,8 @@
 ---
 Description: The PHONEBUTTONFUNCTION\_ scalar constants describe the functions commonly assigned to buttons on telephone sets.
 ms.assetid: 33d369d0-2221-403e-8fbc-a9a1cbd640ad
-title: PHONEBUTTONFUNCTION_ Constants
-ms.topic: article
+title: PHONEBUTTONFUNCTION_ Constants (Tapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Defines the supported blend mode.
 ms.assetid: 60ff384c-15a0-4c6f-9e2c-59fdea76b7a1
-title: D3DBLEND enumeration
-ms.topic: enumeration
+title: D3DBLEND enumeration (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -208,7 +208,7 @@ The values in this enumerated type are used by the following render states:
 -   D3DRS\_DESTBLENDALPHA
 -   D3DRS\_SRCBLENDALPHA
 
-See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
+See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
 
 ### Render Target Blending
 

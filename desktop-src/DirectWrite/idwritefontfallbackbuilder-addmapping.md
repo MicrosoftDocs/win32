@@ -14,7 +14,7 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -83,7 +83,7 @@ Number of target family names.
 *fontCollection* \[in, optional\]
 </dt> <dd>
 
-Type: **[**IDWriteFontCollection**](https://msdn.microsoft.com/en-us/library/Dd368214(v=VS.85).aspx)**
+Type: **[**IDWriteFontCollection**](https://msdn.microsoft.com/library/Dd368214(v=VS.85).aspx)**
 
 Optional explicit font collection for this mapping.
 

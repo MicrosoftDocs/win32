@@ -2,7 +2,7 @@
 Description: The IProvidePropertyBuilder interface, when implemented, allows objects to specify property builder objects for properties.
 ms.assetid: 26557622-4a97-4db0-85ed-3f77fcb769a0
 title: IProvidePropertyBuilder interface
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,7 +23,7 @@ The version for this interface is 1.0. Method calls are received at a dynamicall
 
 ## Members
 
-The **IProvidePropertyBuilder:IUnknown** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IProvidePropertyBuilder** also has these types of members:
+The **IProvidePropertyBuilder:IUnknown** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IProvidePropertyBuilder** also has these types of members:
 
 -   [Methods](#methods)
 

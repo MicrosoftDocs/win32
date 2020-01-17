@@ -1,5 +1,5 @@
 ---
-title: IVMDisplay Width property
+title: IVMDisplay Width property (VPCCOMInterfaces.h)
 description: Width of the VM's display, in pixels.
 ms.assetid: a0062d75-dbb3-41ff-8112-87c1a31b088e
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

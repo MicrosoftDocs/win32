@@ -1,8 +1,8 @@
 ---
 Description: Defines units of 100 nanoseconds.
 ms.assetid: 9273ff1f-382e-4c58-b571-4852545915b3
-title: MFTIME
-ms.topic: article
+title: MFTIME (Mfidl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

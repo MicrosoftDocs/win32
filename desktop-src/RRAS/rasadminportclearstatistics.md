@@ -1,5 +1,5 @@
 ---
-title: RasAdminPortClearStatistics function
+title: RasAdminPortClearStatistics function (Rassapi.h)
 description: The RasAdminPortClearStatistics function resets the counters representing the various statistics reported by the RasAdminPortGetInfo function in the RAS\_PORT\_STATISTICS structure. The counters are reset to zero and start accumulating.
 ms.assetid: d2ce4652-1034-4ded-aa26-2678c719d5b9
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

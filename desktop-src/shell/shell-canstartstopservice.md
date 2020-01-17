@@ -1,8 +1,8 @@
 ---
 Description: Determines if the current user can start and stop the named service.
 ms.assetid: 1428F529-61F6-4113-A553-2C0D617FD859
-title: Shell.CanStartStopService method
-ms.topic: article
+title: Shell.CanStartStopService method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

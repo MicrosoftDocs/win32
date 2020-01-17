@@ -2,7 +2,7 @@
 Description: Retrieves analysis results from the InkDivider object.
 ms.assetid: 7fc2bb5a-172f-4f4e-84dd-e31925f86982
 title: CallDivideResults function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

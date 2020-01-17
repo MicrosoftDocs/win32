@@ -1,8 +1,8 @@
 ---
 Description: The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControl::Notify method.
 ms.assetid: cdb93eef-90d5-4111-a3d4-175903f44a13
-title: CTransformOutputPin.Notify method
-ms.topic: article
+title: CTransformOutputPin.Notify method (Transfrm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

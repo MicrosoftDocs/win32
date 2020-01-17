@@ -1,5 +1,5 @@
 ---
-title: File Streams
+title: File Streams (Windows Media Format 11 SDK)
 description: File Streams
 ms.assetid: 6a4ad6ef-dc53-4d31-8de5-ce35c343244b
 keywords:

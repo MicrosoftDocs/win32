@@ -1,5 +1,5 @@
 ---
-title: IVMFloppyDrive ImageFile property
+title: IVMFloppyDrive ImageFile property (VPCCOMInterfaces.h)
 description: Retrieves the full path of the image file to which the floppy drive is attached.
 ms.assetid: fc87e438-e5d4-494d-8ac2-27a4312ee81d
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

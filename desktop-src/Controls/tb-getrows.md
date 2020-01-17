@@ -1,5 +1,5 @@
 ---
-title: TB_GETROWS message
+title: TB_GETROWS message (Commctrl.h)
 description: Retrieves the number of rows of buttons in a toolbar with the TBSTYLE\_WRAPABLE style.
 ms.assetid: ced30d62-762a-426e-b3c7-7e57c60145bd
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

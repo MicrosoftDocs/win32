@@ -1,11 +1,11 @@
 ---
-title: InstanceParameters.CheckpointDepthMax property  (Microsoft.Isam.Esent.Interop)
+title: InstanceParameters.CheckpointDepthMax property 
 TOCTitle: 'CheckpointDepthMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CheckpointDepthMax
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.checkpointdepthmax(v=EXCHG.10)
 ms:contentKeyID: 55103294
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.InstanceParameters.CheckpointDepthMax
 dev_langs:

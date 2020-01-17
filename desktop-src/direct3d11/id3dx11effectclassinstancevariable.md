@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectClassInstanceVariable interface
+title: ID3DX11EffectClassInstanceVariable interface (D3dx11effect.h)
 description: Accesses a class instance.
 ms.assetid: 64bbae01-1b54-4b3c-9115-80d7b8911ff8
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

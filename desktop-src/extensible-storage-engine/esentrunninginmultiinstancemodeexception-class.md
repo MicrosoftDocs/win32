@@ -1,11 +1,11 @@
 ---
-title: EsentRunningInMultiInstanceModeException class (Microsoft.Isam.Esent.Interop)
+title: EsentRunningInMultiInstanceModeException class
 TOCTitle: EsentRunningInMultiInstanceModeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrunninginmultiinstancemodeexception(v=EXCHG.10)
 ms:contentKeyID: 55102667
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException
 dev_langs:

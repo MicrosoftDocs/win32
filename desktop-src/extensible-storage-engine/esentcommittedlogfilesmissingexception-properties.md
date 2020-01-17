@@ -1,5 +1,5 @@
 ---
-title: EsentCommittedLogFilesMissingException properties (Microsoft.Isam.Esent.Interop)
+title: EsentCommittedLogFilesMissingException properties
 TOCTitle: EsentCommittedLogFilesMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFilesMissingException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcommittedlogfilesmissingexception_properties(v=EXCHG.10)

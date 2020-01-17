@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: DescriptorHeapRecord structure
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 785EFF87-4D7A-4506-A1AA-63FD65B7A0F2
 api_name: 

@@ -2,7 +2,7 @@
 Description: This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
 ms.assetid: 14edefd8-d59b-4925-8b78-a979fb9a975f
 title: Msvm_BindsToLANEndpoint class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

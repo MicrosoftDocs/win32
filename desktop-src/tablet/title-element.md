@@ -2,7 +2,7 @@
 Description: Contains title information about the Journal note.
 ms.assetid: efeed3a6-de5e-4698-9dc3-d0acb3d13dee
 title: Title Element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

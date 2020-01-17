@@ -1,5 +1,5 @@
 ---
-title: EsentUsageException methods (Microsoft.Isam.Esent.Interop)
+title: EsentUsageException methods
 TOCTitle: EsentUsageException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUsageException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentusageexception_methods(v=EXCHG.10)

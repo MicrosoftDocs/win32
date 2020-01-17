@@ -1,11 +1,11 @@
 ---
-title: EsentLogSequenceEndException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndException constructor 
 TOCTitle: 'EsentLogSequenceEndException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceendexception.esentlogsequenceendexception(v=EXCHG.10)
 ms:contentKeyID: 55102163
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException.EsentLogSequenceEndException
 dev_langs:

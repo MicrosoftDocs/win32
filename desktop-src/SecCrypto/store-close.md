@@ -2,7 +2,7 @@
 Description: Closes an open certificate store.
 ms.assetid: 14db819a-b220-47d4-9030-72157e0e5019
 title: Store.Close method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[The **Close** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/Hh424027(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Close** method closes an open [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
+The **Close** method closes an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
 
 ## Syntax
 

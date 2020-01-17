@@ -40,7 +40,7 @@ GUID_STROKE_TIMEID = {50B6BC8-3B7D-4816-8C61-BC7E905B2132}
 
 
 
-This is a **TIMEID** structure. It allows stroke order to be maintained across paste and drop operations. Without the **TIMEID** structure, the timestamp for all [**IInkStrokeDisp Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects cut and pasted in a [InkStrokes Collection](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) will be the same.
+This is a **TIMEID** structure. It allows stroke order to be maintained across paste and drop operations. Without the **TIMEID** structure, the timestamp for all [**IInkStrokeDisp Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects cut and pasted in a [InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) will be the same.
 
 
 ```C++

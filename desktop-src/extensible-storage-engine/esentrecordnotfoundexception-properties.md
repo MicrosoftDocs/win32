@@ -1,5 +1,5 @@
 ---
-title: EsentRecordNotFoundException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRecordNotFoundException properties
 TOCTitle: EsentRecordNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrecordnotfoundexception_properties(v=EXCHG.10)

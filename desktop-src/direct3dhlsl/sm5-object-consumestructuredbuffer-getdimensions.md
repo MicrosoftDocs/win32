@@ -1,5 +1,5 @@
 ---
-title: GetDimensions function
+title: ConsumeStructuredBuffer::GetDimensions function
 description: Gets the resource dimensions.
 ms.assetid: 0710a4fb-23b0-4b19-b9ed-21bbb9874d33
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - GetDimensions
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

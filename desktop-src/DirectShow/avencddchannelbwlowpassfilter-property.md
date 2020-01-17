@@ -1,8 +1,8 @@
 ---
 Description: Specifies whether a low pass filter is applied to the main input channels in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 534869f6-bde5-4767-a332-26a05e07c56a
-title: AVEncDDChannelBWLowPassFilter property
-ms.topic: article
+title: AVEncDDChannelBWLowPassFilter property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Applications use the methods of the IDirectXFileDataReference interface to support data reference objects.
 ms.assetid: e0f6046f-36d9-4a13-9a0c-0738ebb2e569
-title: IDirectXFileDataReference interface
-ms.topic: interface
+title: IDirectXFileDataReference interface (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

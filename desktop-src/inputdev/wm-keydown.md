@@ -1,5 +1,5 @@
 ---
-title: WM_KEYDOWN message
+title: WM_KEYDOWN message (Winuser.h)
 description: Posted to the window with the keyboard focus when a nonsystem key is pressed. A nonsystem key is a key that is pressed when the ALT key is not pressed.
 ms.assetid: 0e37149f-445c-4b20-ad68-fdf39428ac91
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

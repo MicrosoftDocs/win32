@@ -1,11 +1,11 @@
 ---
-title: EsentTestInjectionNotSupportedException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentTestInjectionNotSupportedException constructor 
 TOCTitle: 'EsentTestInjectionNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttestinjectionnotsupportedexception.esenttestinjectionnotsupportedexception(v=EXCHG.10)
 ms:contentKeyID: 55107381
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException.EsentTestInjectionNotSupportedException
 dev_langs:

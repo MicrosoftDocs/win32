@@ -1,5 +1,5 @@
 ---
-title: D3DX11_IMAGE_LOAD_INFO structure
+title: D3DX11_IMAGE_LOAD_INFO structure (D3DX11tex.h)
 description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Optionally provide information to texture loader APIs to control how textures get loaded.
 ms.assetid: 6cd2f590-4e15-41e6-9f04-cd91eeb082db
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -226,7 +226,7 @@ The default values are:
 
 
 
-Here is a brief example that uses this structure to supply the pixel format when loading a texture. For the complete code, see HDRFormats10.cpp in [HDRToneMappingCS11 Sample](https://msdn.microsoft.com/en-us/library/Ee416569(v=VS.85).aspx).
+Here is a brief example that uses this structure to supply the pixel format when loading a texture. For the complete code, see HDRFormats10.cpp in [HDRToneMappingCS11 Sample](https://msdn.microsoft.com/library/Ee416569(v=VS.85).aspx).
 
 
 ```

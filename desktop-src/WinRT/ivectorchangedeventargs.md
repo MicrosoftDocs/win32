@@ -1,8 +1,8 @@
 ---
 Description: Provides data for a VectorChanged event.
 ms.assetid: 635c0f96-5d64-436e-9186-78f9d85b6d29
-title: IVectorChangedEventArgs interface
-ms.topic: interface
+title: IVectorChangedEventArgs interface (IVectorChangedEventArgs.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # IVectorChangedEventArgs interface
 
-Provides data for a [**VectorChanged**](https://msdn.microsoft.com/en-us/library/BR226053(v=Win.10).aspx) event.
+Provides data for a [**VectorChanged**](https://msdn.microsoft.com/library/BR226053(v=Win.10).aspx) event.
 
 ## Members
 

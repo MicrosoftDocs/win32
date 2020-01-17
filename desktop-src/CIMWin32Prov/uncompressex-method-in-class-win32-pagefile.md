@@ -3,7 +3,7 @@ Description: Uncompresses the logical paging file (or directory) specified in th
 ms.assetid: d4cfa42e-7f05-4d12-b629-14195fc04e77
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

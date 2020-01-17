@@ -2,7 +2,7 @@
 Description: Specifies a localized version of the device name.
 ms.assetid: 67ebbca0-bdb2-4a6e-98d8-3d8d1029884f
 title: modelNameLS element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

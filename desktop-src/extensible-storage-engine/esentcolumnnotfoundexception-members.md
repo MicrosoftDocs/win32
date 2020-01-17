@@ -1,5 +1,5 @@
 ---
-title: EsentColumnNotFoundException members (Microsoft.Isam.Esent.Interop)
+title: EsentColumnNotFoundException members
 TOCTitle: EsentColumnNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumnnotfoundexception_members(v=EXCHG.10)

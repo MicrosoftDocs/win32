@@ -1,8 +1,8 @@
 ---
 Description: Gets the value for a specified Windows Internet Explorer policy.
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
-title: Shell.ExplorerPolicy method
-ms.topic: article
+title: Shell.ExplorerPolicy method (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -47,7 +47,7 @@ Shell.ExplorerPolicy( _
 *bstrPolicyName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
 
 A **String** that specifies the name of the policy.
 

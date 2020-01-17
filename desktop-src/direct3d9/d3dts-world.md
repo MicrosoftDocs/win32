@@ -1,8 +1,8 @@
 ---
 Description: Identifies the transformation matrix being set as the world transformation matrix.
 ms.assetid: 2bf7ac8a-43d8-460e-a400-3b33e96441db
-title: D3DTS_WORLD macro
-ms.topic: article
+title: D3DTS_WORLD macro (D3d9types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -34,7 +34,7 @@ This macro has no parameters.
 
 ## Return value
 
-A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172619(v=VS.85).aspx) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/en-us/library/Bb172623(v=VS.85).aspx).
+A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/library/Bb172623(v=VS.85).aspx).
 
 ## Remarks
 

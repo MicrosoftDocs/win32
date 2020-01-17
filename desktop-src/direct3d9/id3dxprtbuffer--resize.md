@@ -1,8 +1,8 @@
 ---
 Description: Changes the number of samples contained in the buffer.
 ms.assetid: c3cceba8-0bbc-46e5-95d9-cdf58d8a2510
-title: ID3DXPRTBuffer::Resize method
-ms.topic: article
+title: ID3DXPRTBuffer::Resize method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ HRESULT Resize(
 *NewSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Number of samples to be contained in the buffer.
 
@@ -46,7 +46,7 @@ Number of samples to be contained in the buffer.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the following value will be returned, E\_OUTOFMEMORY.
 

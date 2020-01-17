@@ -17,7 +17,7 @@ The following procedures describe two ways to create a client process.
 **To create a client process by logging on to the client**
 
 1.  Log the client on to the local computer using the client's [*credentials*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) in a call to [**LogonUser**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera). **LogonUser** produces a primary token for the client's [*logon session*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly).
-2.  If the server needs to use the client's security context, get access to the executable file for the client [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) by using the primary token in a call to the [**ImpersonateLoggedOnUser**](https://msdn.microsoft.com/en-us/library/Aa378612(v=VS.85).aspx) function.
+2.  If the server needs to use the client's security context, get access to the executable file for the client [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) by using the primary token in a call to the [**ImpersonateLoggedOnUser**](https://msdn.microsoft.com/library/Aa378612(v=VS.85).aspx) function.
 3.  Create a process in the client's security context by using the primary token in a call to [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera).
 
 > [!Note]  
@@ -27,9 +27,9 @@ The following procedures describe two ways to create a client process.
 
 **To create a client process by impersonating the client**
 
-1.  Start the impersonation by using an impersonation function, such as [**ImpersonateNamedPipeClient**](https://msdn.microsoft.com/en-us/library/Aa378618(v=VS.85).aspx).
-2.  Call the [**OpenThreadToken**](https://msdn.microsoft.com/en-us/library/Aa379296(v=VS.85).aspx) function to get an impersonation token that has the security context of the client.
-3.  Call the [**DuplicateTokenEx**](https://msdn.microsoft.com/en-us/library/Aa446617(v=VS.85).aspx) function to convert the impersonation token into a primary token.
+1.  Start the impersonation by using an impersonation function, such as [**ImpersonateNamedPipeClient**](https://msdn.microsoft.com/library/Aa378618(v=VS.85).aspx).
+2.  Call the [**OpenThreadToken**](https://msdn.microsoft.com/library/Aa379296(v=VS.85).aspx) function to get an impersonation token that has the security context of the client.
+3.  Call the [**DuplicateTokenEx**](https://msdn.microsoft.com/library/Aa446617(v=VS.85).aspx) function to convert the impersonation token into a primary token.
 4.  Use the primary token in a call to the [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) function to create a process in the client's security context.
 
 By default, [**CreateProcessAsUser**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) creates the client [*process*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) on a noninteractive window station and desktop. To create an interactive process, the server must first set the [*discretionary access control lists*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACLs) of the interactive window station and desktop to ensure that the client is allowed access to them. The preferred way to do this is to log the client on, [get the security identifier (SID) of the client's logon session](https://docs.microsoft.com/previous-versions//aa446670(v=vs.85)), and then use that SID in access-allowed ACEs on both the interactive window station and desktop. The server can then call **CreateProcessAsUser**, specifying the interactive window station and desktop winsta0\\default. For an example that shows this procedure, see [Starting an Interactive Client Process in C++](https://docs.microsoft.com/previous-versions//aa379608(v=vs.85)).

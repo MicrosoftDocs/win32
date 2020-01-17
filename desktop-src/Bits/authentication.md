@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentication (BITS)
 description: BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes.
 ms.assetid: cfd4aec3-79d0-4971-93f8-df797e5c0f75
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Filtering Condition Flags
+title: Filtering Condition Flags (Fwptypes.h)
 description: The Windows Filtering Platform (WFP) filtering condition flags are each represented by a bitfield.
 ms.assetid: fe879479-331d-42ef-ac2f-634f0c13c21d
 topic_type:
@@ -49,7 +49,7 @@ api_location:
 - fwptypes.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

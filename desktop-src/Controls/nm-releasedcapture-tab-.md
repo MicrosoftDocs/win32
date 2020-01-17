@@ -1,5 +1,5 @@
 ---
-title: NM_RELEASEDCAPTURE (tab) notification code
+title: NM_RELEASEDCAPTURE (tab) notification code (Commctrl.h)
 description: Notifies a tab control's parent window that the control is releasing mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 17f87666-692c-4c2f-9ef5-6d2593e0de97
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

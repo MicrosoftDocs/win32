@@ -1,8 +1,8 @@
 ---
 Description: Loads a series of characters into video memory to improve the efficiency of rendering to the device.
 ms.assetid: bb49842e-99de-406b-bf4b-139d6499f96e
-title: ID3DXFont::PreloadCharacters method
-ms.topic: article
+title: ID3DXFont::PreloadCharacters method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT PreloadCharacters(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 ID of the first character to be loaded into video memory.
 
@@ -48,7 +48,7 @@ ID of the first character to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 ID of the last character to be loaded into video memory.
 
@@ -56,7 +56,7 @@ ID of the last character to be loaded into video memory.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 
@@ -66,7 +66,7 @@ This method generates textures containing glyphs that represent the input charac
 
 Characters will not be rendered to the device; [**DrawText**](id3dxfont--drawtext.md) must still be called to render the characters. However, by pre-loading characters into video memory, **DrawText** will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](https://msdn.microsoft.com/en-us/library/Dd144860(v=VS.85).aspx).
+This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](https://msdn.microsoft.com/library/Dd144860(v=VS.85).aspx).
 
 ## Requirements
 

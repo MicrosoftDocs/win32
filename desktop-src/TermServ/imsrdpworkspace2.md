@@ -14,7 +14,7 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -36,7 +36,7 @@ The **IMsRdpWorkspace** interface has these methods.
 
 | Method                                                        | Description                                                                    |
 |:--------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**StartWorkspaceEx**](https://msdn.microsoft.com/en-us/library/Dn123459(v=VS.85).aspx) | Associates user credentials and certificates with a connection ID. <br/> |
+| [**StartWorkspaceEx**](https://msdn.microsoft.com/library/Dn123459(v=VS.85).aspx) | Associates user credentials and certificates with a connection ID. <br/> |
 
 
 

@@ -1,8 +1,8 @@
 ---
 Description: The GetData method constructs an application protocol data unit (APDU) command that retrieves either a single primitive data object or a set of data objects (contained in a constructed data object), depending on the type of file selected.
 ms.assetid: d764a765-f451-4bf7-9d06-f5901062dcac
-title: ISCardISO7816::GetData method
-ms.topic: article
+title: ISCardISO7816::GetData method (Scardssp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::GetData method
 
-\[The **GetData** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **GetData** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **GetData** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) command that retrieves either a single primitive data object or a set of data objects (contained in a constructed data object), depending on the type of file selected.
+The **GetData** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that retrieves either a single primitive data object or a set of data objects (contained in a constructed data object), depending on the type of file selected.
 
 ## Syntax
 
@@ -95,7 +95,7 @@ Number of bytes expected in the response.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned using the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned using the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -118,7 +118,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being read. Security conditions are dependent on the policy of the card, and may be manipulated through [**ExternalAuthenticate**](iscardiso7816-externalauthenticate.md), [**InternalAuthenticate**](iscardiso7816-internalauthenticate.md), [**ISCardAuth**](iscardauth.md), and so on.
+The encapsulated command can only be performed if the security status of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) satisfies the security attributes of the elementary file being read. Security conditions are dependent on the policy of the card, and may be manipulated through [**ExternalAuthenticate**](iscardiso7816-externalauthenticate.md), [**InternalAuthenticate**](iscardiso7816-internalauthenticate.md), [**ISCardAuth**](iscardauth.md), and so on.
 
 To select a file, call [**SelectFile**](iscardiso7816-selectfile.md).
 

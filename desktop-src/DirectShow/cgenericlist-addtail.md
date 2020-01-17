@@ -1,8 +1,8 @@
 ---
 Description: The AddTail method appends an item to the end of the list.
 ms.assetid: e365a23e-7447-42ec-b836-21dd68962db1
-title: CGenericList.AddTail method
-ms.topic: article
+title: CGenericList.AddTail method (Wxlist.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

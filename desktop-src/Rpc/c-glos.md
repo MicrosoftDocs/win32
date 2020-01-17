@@ -1,7 +1,7 @@
 ---
-title: C
+title: C (RPC)
 description: Words starting with C in Remote Procedure Call (RPC) glossary.
-Robots: noindex, nofollow
+ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: da1ee843-c33e-42a1-bcaf-6cdb4834e70b
 ms.topic: article
 ms.date: 05/31/2018

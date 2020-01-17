@@ -1,5 +1,5 @@
 ---
-title: UInt32Type Simple Type
+title: UInt32Type Simple Type (Windows Event Log)
 description: Defines an unsigned integer type.
 ms.assetid: 11e99c26-3be7-4fac-b3e1-97cb0428a886
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - UInt32Type
 api_type:
 - Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---

@@ -2,7 +2,7 @@
 Description: Gets a value that indicates if the specified key system supports the specified media type.
 ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
 title: IMFMediaEngineClassFactoryEx::IsTypeSupported method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

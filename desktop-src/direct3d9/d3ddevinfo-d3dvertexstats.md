@@ -1,8 +1,8 @@
 ---
 Description: Reports the number of triangles that have been processed and clipped by the runtime's software vertex processing.
 ms.assetid: 280fb5c3-3048-4208-b352-0548b13ecba2
-title: D3DDEVINFO_D3DVERTEXSTATS structure
-ms.topic: structure
+title: D3DDEVINFO_D3DVERTEXSTATS structure (D3D9Types.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3DVERTEXSTATS {
 **NumRenderedTriangles**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Total number of triangles that are not clipped in this frame.
 **NumExtraClippingTriangles**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

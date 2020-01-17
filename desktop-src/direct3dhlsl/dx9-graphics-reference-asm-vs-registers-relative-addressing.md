@@ -1,5 +1,5 @@
 ---
-title: Relative Addressing
+title: Relative Addressing (HLSL VS reference)
 description: The \ \ syntax can be used only in register types that can be relatively addressed in certain shader models.
 ms.assetid: 9f9d2499-73a5-4c9d-9dce-94c914933334
 ms.topic: article
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Relative Addressing
+# Relative Addressing (HLSL VS reference)
 
 The \[ \] syntax can be used only in register types that can be relatively addressed in certain shader models. The supported forms of \[ \] syntax are listed as follows:
 

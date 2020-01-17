@@ -1,11 +1,11 @@
 ---
-title: EsentRunningInOneInstanceModeException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentRunningInOneInstanceModeException constructor 
 TOCTitle: 'EsentRunningInOneInstanceModeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRunningInOneInstanceModeException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrunninginoneinstancemodeexception.esentrunninginoneinstancemodeexception(v=EXCHG.10)
 ms:contentKeyID: 55107327
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentRunningInOneInstanceModeException.EsentRunningInOneInstanceModeException
 dev_langs:

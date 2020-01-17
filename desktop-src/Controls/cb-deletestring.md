@@ -1,5 +1,5 @@
 ---
-title: CB_DELETESTRING message
+title: CB_DELETESTRING message (Winuser.h)
 description: Deletes a string in the list box of a combo box.
 ms.assetid: 8d526796-04ef-4c01-94d6-fb50e6fef27b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

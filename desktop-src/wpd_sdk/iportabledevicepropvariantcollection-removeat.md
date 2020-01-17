@@ -1,8 +1,8 @@
 ---
 Description: The RemoveAt method removes the element stored at the location specified by the given index.
 ms.assetid: cfee2454-5103-48ce-b9f7-1f76f5c18b6d
-title: IPortableDevicePropVariantCollection::RemoveAt method
-ms.topic: article
+title: IPortableDevicePropVariantCollection::RemoveAt method (PortableDeviceTypes.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

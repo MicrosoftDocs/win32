@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TAPI Quick Function Reference
 
-The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for [Assisted Telephony](https://msdn.microsoft.com/en-us/library/ms726209(v=VS.85).aspx) and [Service Levels](https://msdn.microsoft.com/en-us/library/ms734248(v=VS.85).aspx).
+The following hyperlinked summary of TAPI functions is organized by category of operation. For additional information, see the overviews for [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx) and [Service Levels](https://msdn.microsoft.com/library/ms734248(v=VS.85).aspx).
 
 
 

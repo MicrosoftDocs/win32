@@ -1,8 +1,8 @@
 ---
 Description: The Receive method delivers a media sample to the input pin.
 ms.assetid: a8ee0988-8955-48d0-be1b-24eea72d560d
-title: COutputQueue.Receive method
-ms.topic: article
+title: COutputQueue.Receive method (Outputq.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

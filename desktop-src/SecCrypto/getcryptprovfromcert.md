@@ -2,7 +2,7 @@
 Description: Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.
 ms.assetid: ff72231f-e10f-49d2-b0e0-0008923803cc
 title: GetCryptProvFromCert function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -22,10 +22,10 @@ api_location:
 
  
 
-The **GetCryptProvFromCert** function gets a handle to a [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) and a key specification for a [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) context. Use this function to get access to the [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) of the certificate issuer.
+The **GetCryptProvFromCert** function gets a handle to a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) and a key specification for a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) context. Use this function to get access to the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of the certificate issuer.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
 
  
 

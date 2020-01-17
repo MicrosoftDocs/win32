@@ -3,7 +3,7 @@ Description: Represents a WMI namespace.
 ms.assetid: d5f0abc7-32cf-4d85-b5cd-5d60c991bcbc
 ms.tgt_platform: multiple
 title: '__Namespace class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

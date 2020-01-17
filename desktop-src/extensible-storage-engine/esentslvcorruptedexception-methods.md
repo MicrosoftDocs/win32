@@ -1,5 +1,5 @@
 ---
-title: EsentSLVCorruptedException methods (Microsoft.Isam.Esent.Interop)
+title: EsentSLVCorruptedException methods
 TOCTitle: EsentSLVCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVCorruptedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvcorruptedexception_methods(v=EXCHG.10)

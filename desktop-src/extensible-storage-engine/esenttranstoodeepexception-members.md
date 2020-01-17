@@ -1,5 +1,5 @@
 ---
-title: EsentTransTooDeepException members (Microsoft.Isam.Esent.Interop)
+title: EsentTransTooDeepException members
 TOCTitle: EsentTransTooDeepException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttranstoodeepexception_members(v=EXCHG.10)

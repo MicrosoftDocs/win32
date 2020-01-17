@@ -2,7 +2,7 @@
 Description: The Import method copies into an open certificate store the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
 ms.assetid: 22db8f1c-469b-4baf-9039-4da35c9c6aa0
 title: Store.Import method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -19,7 +19,7 @@ api_location:
 
 \[The **Import** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/Hh424027(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
 
-The **Import** method copies into an open [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
+The **Import** method copies into an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
 
 ## Syntax
 

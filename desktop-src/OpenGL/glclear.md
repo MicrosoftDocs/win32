@@ -1,5 +1,5 @@
 ---
-title: glClear function
+title: glClear function (Gl.h)
 description: The glClear function clears buffers to preset values.
 ms.assetid: 9818f969-3145-45ea-aa9c-2abed953a8e0
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

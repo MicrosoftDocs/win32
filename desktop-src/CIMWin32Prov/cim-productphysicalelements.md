@@ -3,7 +3,7 @@ Description: The CIM\_ProductPhysicalElements class represents the physical elem
 ms.assetid: cf23098a-f61e-4778-883e-1a5138af3da0
 ms.tgt_platform: multiple
 title: CIM_ProductPhysicalElements class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

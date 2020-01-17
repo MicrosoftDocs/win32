@@ -4,7 +4,7 @@ description: The NetServiceControl function is obsolete. It is included for comp
 ms.assetid: 4ea0e624-7b6e-459d-879e-f6c5998765cf
 keywords:
 - NetServiceControl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

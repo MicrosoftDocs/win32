@@ -1,5 +1,5 @@
 ---
-title: EsentRollbackErrorException properties (Microsoft.Isam.Esent.Interop)
+title: EsentRollbackErrorException properties
 TOCTitle: EsentRollbackErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRollbackErrorException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrollbackerrorexception_properties(v=EXCHG.10)

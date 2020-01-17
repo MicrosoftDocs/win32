@@ -1,11 +1,11 @@
 ---
-title: EsentSLVStreamingFileReadOnlyException class (Microsoft.Isam.Esent.Interop)
+title: EsentSLVStreamingFileReadOnlyException class
 TOCTitle: EsentSLVStreamingFileReadOnlyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilereadonlyexception(v=EXCHG.10)
 ms:contentKeyID: 55102845
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException
 dev_langs:

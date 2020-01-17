@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualMachineEvents OnReset method
+title: IVMVirtualMachineEvents OnReset method (VPCCOMInterfaces.h)
 description: Receives notification that a virtual machine has been reset.
 ms.assetid: 10a66aea-9a8f-4663-8eb6-cc35f361e43f
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

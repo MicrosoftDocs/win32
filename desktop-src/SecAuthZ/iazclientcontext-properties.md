@@ -2,7 +2,7 @@
 Description: The IAzClientContext interface exposes the following properties.
 ms.assetid: 478E5221-4AFA-477D-BFAD-80AE4FED5FDC
 title: IAzClientContext Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,8 +1,8 @@
 ---
 Description: Retrieves analysis alternates for the strokes with the specified stroke identifiers.
 ms.assetid: e8bc198e-de0b-49b7-9120-4298985dfe64
-title: IInkAnalyzer::GetAlternatesForStrokes method
-ms.topic: article
+title: IInkAnalyzer::GetAlternatesForStrokes method (IACom.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

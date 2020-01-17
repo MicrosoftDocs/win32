@@ -1,5 +1,5 @@
 ---
-title: WM_DEADCHAR message
+title: WM_DEADCHAR message (Winuser.h)
 description: Posted to the window with the keyboard focus when a WM\_KEYUP message is translated by the TranslateMessage function.
 ms.assetid: ada9a61c-dabf-447b-ae13-91803c097f0d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

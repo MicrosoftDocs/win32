@@ -1,8 +1,8 @@
 ---
 Description: The Run method signals the streaming thread to run.
 ms.assetid: 9aef7801-dcfb-4597-bccb-5ba19327b2d5
-title: CSourceStream.Run method
-ms.topic: article
+title: CSourceStream.Run method (Source.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

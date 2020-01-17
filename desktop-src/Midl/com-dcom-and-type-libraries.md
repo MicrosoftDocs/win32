@@ -35,7 +35,7 @@ Depending on the contents of your IDL file, the MIDL compiler will generate any 
 
 A C-language proxy/stub file, an interface identifier file, a DLL data file, and a related header file for a custom COM interface. The MIDL compiler generates these files when it encounters the object attribute in an interface attribute list. For more detailed information on these files, see [Files Generated for a COM Interface](files-generated-for-a-com-interface.md).
 
-A compiled type library (.tlb) file and related header file. MIDL generates these files when it encounters a [**library**](library.md) statement in the IDL file. For general information about type libraries, see [Contents of a Type Library](https://msdn.microsoft.com/en-us/library/ms221355(v=VS.71).aspx), in the Automation Programmer's Reference.
+A compiled type library (.tlb) file and related header file. MIDL generates these files when it encounters a [**library**](library.md) statement in the IDL file. For general information about type libraries, see [Contents of a Type Library](https://msdn.microsoft.com/library/ms221355(v=VS.71).aspx), in the Automation Programmer's Reference.
 
 C/C++-language client and server stub files and related header file for an RPC interface. These files are generated when there are interfaces in the IDL file that do not have the [**object**](object.md) attribute. For an overview of the stub and header files, see [General Build Procedure](https://docs.microsoft.com/windows/desktop/Rpc/general-build-procedure). For more detailed information, see [Files Generated for an RPC Interface](files-generated-for-an-rpc-interface.md).
 

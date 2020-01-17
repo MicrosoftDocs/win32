@@ -1,5 +1,5 @@
 ---
-title: EsentLogFileSizeMismatchDatabasesConsistentException methods (Microsoft.Isam.Esent.Interop)
+title: EsentLogFileSizeMismatchDatabasesConsistentException methods
 TOCTitle: EsentLogFileSizeMismatchDatabasesConsistentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogfilesizemismatchdatabasesconsistentexception_methods(v=EXCHG.10)

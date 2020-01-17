@@ -1,5 +1,5 @@
 ---
-title: IADsFaxNumber Property Methods
+title: IADsFaxNumber Property Methods (Iads.h)
 description: The property method of the IADsFaxNumber interface sets the property described in the following table. For more information, see Interface Property Methods.
 ms.assetid: f4d46b9d-8db2-47b3-b489-9ffc363e6ac6
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

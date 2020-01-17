@@ -1,6 +1,6 @@
 ---
-title: Interfaces
-description: Interfaces
+title: WMP SDK Interfaces
+description: WMP SDK Interfaces
 ms.assetid: '68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd'
 keywords:
 - Windows Media Player,interfaces

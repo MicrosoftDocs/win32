@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks RTVFormatsCb method
+title: ID3DX12PipelineParserCallbacks RTVFormatsCb method (D3DX12.h)
 description: Calls the render target format array subobject callback of an object that implements this interface.
 ms.assetid: 0D5F0BC4-D9E2-4B16-99B5-509454AF8C02
 keywords:
@@ -15,7 +15,7 @@ api_location:
 api_type:
 - COM
 ms.localizationpriority: low
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

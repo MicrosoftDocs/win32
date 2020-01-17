@@ -1,5 +1,5 @@
 ---
-title: Controls
+title: Controls (COM)
 description: Controls
 ms.assetid: '73947c81-6727-4112-9da0-efa60360f458'
 ms.topic: article

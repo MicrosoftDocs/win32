@@ -1,5 +1,5 @@
 ---
-title: glGetFloatv function
+title: glGetFloatv function (Gl.h)
 description: The glGetFloatv function returns the value or values of a selected parameter.
 ms.assetid: 1701ae76-c60d-431d-8d37-a0a388a44bbc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

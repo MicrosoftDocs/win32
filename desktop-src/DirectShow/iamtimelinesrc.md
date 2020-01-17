@@ -1,8 +1,8 @@
 ---
 Description: The IAMTimelineSrc interface provides methods for manipulating and setting properties on source objects in DirectShow Editing Services (DES).
 ms.assetid: 39a64718-1fac-4d90-8340-b712d3bad2ec
-title: IAMTimelineSrc interface
-ms.topic: interface
+title: IAMTimelineSrc interface (Qedit.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -31,7 +31,7 @@ To create a source object, call [**IAMTimeline::CreateEmptyNode**](iamtimeline-c
 
 ## Members
 
-The **IAMTimelineSrc** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSrc** also has these types of members:
+The **IAMTimelineSrc** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSrc** also has these types of members:
 
 -   [Methods](#methods)
 

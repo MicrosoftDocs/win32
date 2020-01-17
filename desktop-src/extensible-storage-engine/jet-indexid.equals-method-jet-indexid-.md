@@ -1,11 +1,11 @@
 ---
-title: JET_INDEXID.Equals method (JET_INDEXID) (Microsoft.Isam.Esent.Interop)
+title: JET_INDEXID.Equals method (JET_INDEXID)
 TOCTitle: Equals method (JET_INDEXID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.Equals(Microsoft.Isam.Esent.Interop.JET_INDEXID)
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexid.equals(v=EXCHG.10)
 ms:contentKeyID: 39515277
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 dev_langs:
 - vb
 - csharp

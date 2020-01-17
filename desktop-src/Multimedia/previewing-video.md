@@ -1,5 +1,5 @@
 ---
-title: Previewing Video
+title: Previewing Video (Windows Multimedia)
 description: Previewing Video
 ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
 keywords:

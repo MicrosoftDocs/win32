@@ -1,5 +1,5 @@
 ---
-title: WebViewFolderContents.SelectItem method
+title: WebViewFolderContents.SelectItem method (Shldisp.h)
 description: Sets the selection state of an item in the view.
 ms.assetid: c0e163ee-1951-476c-807a-781e26766d99
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Shell32.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentSLVOwnerMapAlreadyExistsException members (Microsoft.Isam.Esent.Interop)
+title: EsentSLVOwnerMapAlreadyExistsException members
 TOCTitle: EsentSLVOwnerMapAlreadyExistsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapAlreadyExistsException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvownermapalreadyexistsexception_members(v=EXCHG.10)

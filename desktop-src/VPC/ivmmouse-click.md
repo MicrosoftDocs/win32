@@ -1,5 +1,5 @@
 ---
-title: IVMMouse Click method
+title: IVMMouse Click method (VPCCOMInterfaces.h)
 description: Simulates a mouse button click.
 ms.assetid: f16e36d6-34ca-4d65-95e4-1a6660d0abd0
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

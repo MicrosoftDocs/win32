@@ -1,8 +1,8 @@
 ---
 Description: Extends the IShellDispatch2 object.
 ms.assetid: 89d0aa4d-844d-497d-82bb-bcc2bcf9c78b
-title: IShellDispatch3 object
-ms.topic: interface
+title: IShellDispatch3 object (Shldisp.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ The **IShellDispatch3** object has these methods.
 
 ## Remarks
 
-For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx) documentation.
+For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/library/ms685141(v=VS.85).aspx) documentation.
 
 ## Requirements
 
@@ -66,7 +66,7 @@ For a discussion of Windows services, see the [Services](https://msdn.microsoft.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [**Shell Object**](shell.md)

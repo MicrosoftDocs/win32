@@ -1,5 +1,5 @@
 ---
-title: EsentVersionStoreOutOfMemoryException properties (Microsoft.Isam.Esent.Interop)
+title: EsentVersionStoreOutOfMemoryException properties
 TOCTitle: EsentVersionStoreOutOfMemoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreoutofmemoryexception_properties(v=EXCHG.10)

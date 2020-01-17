@@ -3,7 +3,7 @@ Description: The Win32\_OperatingSystemQFE association WMI class relates an oper
 ms.assetid: 71985759-7e45-44df-82a9-f9a93e3b923e
 ms.tgt_platform: multiple
 title: Win32_OperatingSystemQFE class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_OperatingSystemQFE class
 
-The **Win32\_OperatingSystemQFE** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates an operating system and the product updates applied as represented in [**Win32\_QuickFixEngineering**](win32-quickfixengineering.md).
+The **Win32\_OperatingSystemQFE** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates an operating system and the product updates applied as represented in [**Win32\_QuickFixEngineering**](win32-quickfixengineering.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Antecedent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_OperatingSystem")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_OperatingSystem")
 </dt> </dl>
 
 Reference to the instance representing the system affected by the product update in this association.
@@ -72,7 +72,7 @@ Data type: **Win32\_QuickFixEngineering**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**Weak**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Dependent"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_QuickFixEngineering")
+Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Weak**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_QuickFixEngineering")
 </dt> </dl>
 
 Reference to the instance representing the object instance applied to the operating system in this association.
@@ -104,7 +104,7 @@ The **Win32\_OperatingSystemQFE** class is derived from [**CIM\_Dependency**](ci
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

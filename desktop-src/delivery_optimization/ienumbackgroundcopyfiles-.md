@@ -1,5 +1,5 @@
 ---
-title: IEnumBackgroundCopyFiles interface
+title: IEnumBackgroundCopyFiles interface (Deliveryoptimization.h)
 description: Use the IEnumBackgroundCopyFiles interface to enumerate the files that a job contains. To get an IEnumBackgroundCopyFiles interface pointer, call the IBackgroundCopyJob EnumFiles method.
 ms.assetid: 539973BA-2756-4163-9D8B-4B7C0A708A8D
 keywords:
@@ -13,8 +13,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

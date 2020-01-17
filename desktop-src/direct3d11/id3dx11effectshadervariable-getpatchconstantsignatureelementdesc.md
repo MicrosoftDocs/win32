@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectShaderVariable GetPatchConstantSignatureElementDesc method
+title: ID3DX11EffectShaderVariable GetPatchConstantSignatureElementDesc method (D3dx11effect.h)
 description: Get a patch constant signature description.
 ms.assetid: 72a86cf6-ace2-4306-ac5c-37d888c087f7
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ A pointer to a parameter description (see [**D3D11\_SIGNATURE\_PARAMETER\_DESC**
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 

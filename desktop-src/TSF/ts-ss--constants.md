@@ -1,5 +1,5 @@
 ---
-title: TS_SS_ Constants
+title: TS_SS_ Constants (Textstor.h)
 description: The TS\_SS\_\ constants, defined before run time in the TS\_STATUS structure, describe static document states.
 ms.assetid: 17264527-946a-4648-a4eb-30db751602ab
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -61,7 +61,7 @@ The **dwStaticFlags** member of the **TS\_STATUS** structure uses these constant
 [**TS\_STATUS**](/windows/desktop/api/Textstor/ns-textstor-ts_status)
 </dt> <dt>
 
-[**TF\_STATUS**](https://msdn.microsoft.com/en-us/library/ms629192(v=VS.85).aspx)
+[**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx)
 </dt> </dl>
 
  

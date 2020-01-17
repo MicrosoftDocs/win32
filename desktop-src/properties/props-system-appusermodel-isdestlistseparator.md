@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.AppUserModel.IsDestListSeparator
 
-Inserts a separator in the **Tasks** section of a Jump List. Set this property on an [**IShellLink**](https://msdn.microsoft.com/en-us/library/Bb774950(v=VS.85).aspx) object and pass it to [**ICustomDestinationList::AddUserTasks**](https://msdn.microsoft.com/en-us/library/Dd378395(v=VS.85).aspx).
+Inserts a separator in the **Tasks** section of a Jump List. Set this property on an [**IShellLink**](https://msdn.microsoft.com/library/Bb774950(v=VS.85).aspx) object and pass it to [**ICustomDestinationList::AddUserTasks**](https://msdn.microsoft.com/library/Dd378395(v=VS.85).aspx).
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 

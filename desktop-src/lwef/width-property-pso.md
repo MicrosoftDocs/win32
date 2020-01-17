@@ -1,5 +1,5 @@
 ---
-title: Width Property
+title: Width Property (PropertySheet Object)
 description: Width Property
 ms.assetid: fe5d4c44-3eea-4b13-913e-09f4c97f3aaa
 ms.topic: article

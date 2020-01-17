@@ -1,8 +1,8 @@
 ---
 Description: Represents a collection that provides computing capabilities and consists of CIM\_ManagedSystemElement objects.
 ms.assetid: 410be43f-3368-4109-8b29-7b7cc2a3ec1b
-title: CIM_ComputerSystem class
-ms.topic: article
+title: CIM_ComputerSystem class (Hyper-V management)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

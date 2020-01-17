@@ -1,5 +1,5 @@
 ---
-title: Enumeration Types
+title: Microsoft Windows Media DRM Client Enumeration Types
 description: Enumeration Types
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:

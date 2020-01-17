@@ -2,7 +2,7 @@
 Description: Defines a local transform for a frame (and all its child objects).
 ms.assetid: e9531d93-86a6-4606-ae3c-824e17f7b5fa
 title: FrameTransformMatrix
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

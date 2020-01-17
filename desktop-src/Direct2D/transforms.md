@@ -1,5 +1,5 @@
 ---
-title: Transforms
+title: Transforms (Direct2D)
 description: Describes the basics of tranforms and how to apply various transforms to objects.
 ms.assetid: '555511d4-98bb-45ca-8c3c-71523611283f'
 ms.topic: article

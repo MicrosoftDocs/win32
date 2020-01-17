@@ -1,5 +1,5 @@
 ---
-title: WM_DWMCOLORIZATIONCOLORCHANGED message
+title: WM_DWMCOLORIZATIONCOLORCHANGED message (Winuser.h)
 description: Informs all top-level windows that the colorization color has changed.
 ms.assetid: 6118d41b-f0b4-4034-aa98-d8757f18ca0d
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ Description: Associates a power supply with a voltage sensor that monitors its i
 ms.assetid: 4164320e-8362-4ce2-9949-f14669278bd8
 ms.tgt_platform: multiple
 title: CIM_AssociatedSupplyVoltageSensor class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

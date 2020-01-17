@@ -1,11 +1,11 @@
 ---
-title: Table.JetTableid property  (Microsoft.Isam.Esent.Interop)
+title: Table.JetTableid property 
 TOCTitle: 'JetTableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Table.JetTableid
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.table.jettableid(v=EXCHG.10)
 ms:contentKeyID: 55104065
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Table.JetTableid
 dev_langs:

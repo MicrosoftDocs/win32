@@ -14,25 +14,10 @@ This sample application is a very simple drawing program that shows how to use m
 
 ## Downloading the Sample
 
-This sample is available in the MSDN Code Gallery at [https://go.microsoft.com/fwlink/p/?linkid=201702]( https://go.microsoft.com/fwlink/p/?linkid=201702).
+This sample is available [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/SimpleDrawing).
 
 ## Related topics
 
-<dl> <dt>
-
-[Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
-</dt> <dt>
-
-[Module 4. User Input](module-4--user-input.md)
-</dt> <dt>
-
-[User Input: Extended Example](user-input--extended-example.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Learn to Program for Windows: Sample Code](learn-to-program-for-windows--sample-code.md)
+* [Module 4. User Input](module-4--user-input.md)
+* [User Input: Extended Example](user-input--extended-example.md)

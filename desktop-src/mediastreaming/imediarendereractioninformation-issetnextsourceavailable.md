@@ -12,14 +12,14 @@ api_name:
 - IMediaRendererActionInformation.IsSetNextSourceAvailable
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
 
 # IMediaRendererActionInformation::IsSetNextSourceAvailable method
 
-Retrieves a value that indicates whether the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/en-us/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/en-us/library/Hh828944(v=VS.85).aspx) method.
+Retrieves a value that indicates whether the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/library/Hh828944(v=VS.85).aspx) method.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT IsSetNextSourceAvailable(
 *value* \[out\]
 </dt> <dd>
 
-A boolean value that is **True** if the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/en-us/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/en-us/library/Hh828944(v=VS.85).aspx) method and **False** if it is not.
+A boolean value that is **True** if the DMR is currently accepting the [**SetNextSourceFromUriAsync**](https://msdn.microsoft.com/library/Hh828946(v=VS.85).aspx) method, the [**SetNextSourceFromStreamAsync**](https://msdn.microsoft.com/library/Hh828945(v=VS.85).aspx) method or the [**SetNextSourceFromMediaSourceAsync**](https://msdn.microsoft.com/library/Hh828944(v=VS.85).aspx) method and **False** if it is not.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx)
+[**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx)
 </dt> </dl>
 
  

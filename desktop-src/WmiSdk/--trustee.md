@@ -3,7 +3,7 @@ Description: The \_\_Trustee abstract system class represents a trustee. Either 
 ms.assetid: 92d17c7c-ebca-4dd0-80d8-6edd999ca394
 ms.tgt_platform: multiple
 title: '__Trustee class'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

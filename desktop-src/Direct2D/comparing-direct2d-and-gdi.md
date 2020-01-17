@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Comparing Direct2D and GDI Hardware Acceleration
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) are both immediate mode 2D rendering APIs and both offer some degree of hardware acceleration. This topic explores the differences between Direct2D and GDI, including past and present differences in the hardware acceleration features of both APIs.
+[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) are both immediate mode 2D rendering APIs and both offer some degree of hardware acceleration. This topic explores the differences between Direct2D and GDI, including past and present differences in the hardware acceleration features of both APIs.
 
 This topic has the following parts:
 
@@ -29,9 +29,9 @@ This topic has the following parts:
 
 ## Differences between Direct2D and GDI
 
-[GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) renders opaque, aliased geometries such as polygons, ellipses and lines. It renders aliased and ClearType text, and it can support transparency blending through the AlphaBlend API. However, its handling of transparency is inconsistent and most GDI APIs simply ignore the alpha channel. Few GDI APIs guarantee what the alpha channel will contain after an operation. More importantly, GDI's rendering does not map easily to 3D operations, and a modern GPU renders most efficiently on the 3D portion of its rendering engine. For example, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx)'s aliased lines are designed to be implemented simply as two triangles rendered on the GPU, whereas GDI uses Bresenham's line drawing algorithm.
+[GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) renders opaque, aliased geometries such as polygons, ellipses and lines. It renders aliased and ClearType text, and it can support transparency blending through the AlphaBlend API. However, its handling of transparency is inconsistent and most GDI APIs simply ignore the alpha channel. Few GDI APIs guarantee what the alpha channel will contain after an operation. More importantly, GDI's rendering does not map easily to 3D operations, and a modern GPU renders most efficiently on the 3D portion of its rendering engine. For example, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)'s aliased lines are designed to be implemented simply as two triangles rendered on the GPU, whereas GDI uses Bresenham's line drawing algorithm.
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) renders opaque, transparent, aliased and anti-aliased primitives. Modern UIs often make use of transparency and animation. Direct2D makes it easier to create a modern UI because it has strict guarantees on how it accepts and renders transparent content, and all of its primitives are rendered using hardware acceleration. Direct2D is not a pure superset of [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi): primitives that would have been unreasonably slow when implemented on a GPU aren't present in Direct2D. Because Direct2D is built with this emphasis on 3D acceleration it is also easy to use with Direct3D.
+[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) renders opaque, transparent, aliased and anti-aliased primitives. Modern UIs often make use of transparency and animation. Direct2D makes it easier to create a modern UI because it has strict guarantees on how it accepts and renders transparent content, and all of its primitives are rendered using hardware acceleration. Direct2D is not a pure superset of [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi): primitives that would have been unreasonably slow when implemented on a GPU aren't present in Direct2D. Because Direct2D is built with this emphasis on 3D acceleration it is also easy to use with Direct3D.
 
 Since Windows NT 4, [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) has run in kernel mode. The application calls GDI which then calls its kernel mode counterpart which passes the primitives to its own driver model. This driver then sends the results to the global kernel mode display driver.
 
@@ -41,7 +41,7 @@ Starting with Windows 2000, [GDI](https://docs.microsoft.com/windows/desktop/gdi
 
 ## GDI and Direct2D hardware acceleration
 
-The most important difference between [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) hardware acceleration is the underlying technology that drives them. Direct2D is layered on top Direct3D and GDI has its own driver model, the GDI Device Driver Interface (DDI), which corresponds to the GDI primitives. The Direct3D driver model corresponds to what the 3D rendering hardware in a GPU renders. When the GDI DDI was first defined, most display acceleration hardware targeted the GDI primitives. Over time, more and more emphasis was placed on 3D game acceleration and less on application acceleration. As a consequence the BitBlt API was hardware accelerated and most other GDI operations were not.
+The most important difference between [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) hardware acceleration is the underlying technology that drives them. Direct2D is layered on top Direct3D and GDI has its own driver model, the GDI Device Driver Interface (DDI), which corresponds to the GDI primitives. The Direct3D driver model corresponds to what the 3D rendering hardware in a GPU renders. When the GDI DDI was first defined, most display acceleration hardware targeted the GDI primitives. Over time, more and more emphasis was placed on 3D game acceleration and less on application acceleration. As a consequence the BitBlt API was hardware accelerated and most other GDI operations were not.
 
 This set the stage for a sequence of changes to how [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) renders to the display. The following illustration shows how GDI display rendering has changed from Windows XP to Windows 7.
 
@@ -71,35 +71,35 @@ For this reason, [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gd
 
 ## Contrasting Direct2D and GDI acceleration in Windows 7
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) are both 2D immediate-mode rendering APIs and are hardware accelerated. However, there are a number of differences that remain in both APIs.
+[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) are both 2D immediate-mode rendering APIs and are hardware accelerated. However, there are a number of differences that remain in both APIs.
 
 ### Location of resources
 
-[GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) maintains its resources, in particular bitmaps, in system memory by default. [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) maintains its resources in video memory on the display adapter. When GDI needs to update video memory, this must be done over the bus, unless the resource is already in the aperture memory segment or if the operation can be expressed directly. In contrast, Direct2D can simply translate its primitives to Direct3D primitives because the resources are already in video memory.
+[GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) maintains its resources, in particular bitmaps, in system memory by default. [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) maintains its resources in video memory on the display adapter. When GDI needs to update video memory, this must be done over the bus, unless the resource is already in the aperture memory segment or if the operation can be expressed directly. In contrast, Direct2D can simply translate its primitives to Direct3D primitives because the resources are already in video memory.
 
 ### Rendering method
 
-In order to maintain compatibility, [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) performs a large part of its rendering to aperture memory using the CPU. In contrast, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) translates its APIs calls into Direct3D primitives and drawing operations. The result is then rendered on the GPU. Some of GDI?s rendering is performed on the GPU when the aperture memory is copied to the video memory surface representing the GDI window.
+In order to maintain compatibility, [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) performs a large part of its rendering to aperture memory using the CPU. In contrast, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) translates its APIs calls into Direct3D primitives and drawing operations. The result is then rendered on the GPU. Some of GDI?s rendering is performed on the GPU when the aperture memory is copied to the video memory surface representing the GDI window.
 
 ### Scalability
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx)'s rendering calls are all independent command streams to the GPU. Each Direct2D factory represents a different Direct3D device. [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) uses one command stream for all of the applications on the system. GDI's method can result in a buildup of GPU and CPU rendering context overhead.
+[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)'s rendering calls are all independent command streams to the GPU. Each Direct2D factory represents a different Direct3D device. [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) uses one command stream for all of the applications on the system. GDI's method can result in a buildup of GPU and CPU rendering context overhead.
 
 ### Location
 
-[Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) operates entirely in user mode, including the Direct3D run time and the user mode Direct3D driver. This helps prevent system crashes caused by code defects in the kernel. [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi), however, has most of its functionality in session space in kernel mode, with its API surface in user mode.
+[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) operates entirely in user mode, including the Direct3D run time and the user mode Direct3D driver. This helps prevent system crashes caused by code defects in the kernel. [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi), however, has most of its functionality in session space in kernel mode, with its API surface in user mode.
 
 ### Availability of Hardware Acceleration
 
-[GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) is hardware accelerated on Windows XP, and accelerated on Windows 7 when the Desktop Window Manager is running and a WDDM 1.1 driver is in use. [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) is hardware accelerated on almost any WDDM driver and whether or not DWM is in use. On Vista, GDI will always render on the CPU.
+[GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) is hardware accelerated on Windows XP, and accelerated on Windows 7 when the Desktop Window Manager is running and a WDDM 1.1 driver is in use. [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) is hardware accelerated on almost any WDDM driver and whether or not DWM is in use. On Vista, GDI will always render on the CPU.
 
 ### Presentation Model
 
-When Windows was first designed, there was insufficient memory to allow every window to be stored in its own bitmap. As a result, [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) always rendered logically directly to the screen, with various clipping regions applied to ensure that an application did not render outside of its window. In the [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) model, an application renders to a back-buffer, and the result is displayed when the application is done drawing. This allows Direct2D to handle animation scenarios much more fluidly than GDI can.
+When Windows was first designed, there was insufficient memory to allow every window to be stored in its own bitmap. As a result, [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) always rendered logically directly to the screen, with various clipping regions applied to ensure that an application did not render outside of its window. In the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) model, an application renders to a back-buffer, and the result is displayed when the application is done drawing. This allows Direct2D to handle animation scenarios much more fluidly than GDI can.
 
 ## Conclusion
 
-Existing [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) code will continue to work well under Windows 7. However, when writing new graphics rendering code, [Direct2D](https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx) should be considered, as it takes better advantage of modern GPUs.
+Existing [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) code will continue to work well under Windows 7. However, when writing new graphics rendering code, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) should be considered, as it takes better advantage of modern GPUs.
 
  
 

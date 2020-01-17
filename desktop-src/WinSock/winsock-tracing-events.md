@@ -13,7 +13,7 @@ This section describes detailed information on specific Winsock Tracing Events d
 Winsock tracing is a troubleshooting feature that can be enabled in retail binaries to trace certain Windows socket events with minimal overhead. This feature allows for better diagnostic capabilities for developers and product support. Winsock network event tracing supports tracing socket operations for IPv4 and IPv6 applications. Winsock catalog change tracing supports tracing changes made to the Winsock catalog by layered service providers (LSPs).
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/en-us/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
 
  
 

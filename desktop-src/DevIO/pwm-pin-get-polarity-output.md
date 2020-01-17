@@ -1,8 +1,8 @@
 ---
 Description: Contains a polarity value to return.
 ms.assetid: 432C10EF-AC08-4781-9BCA-A31E0DF12704
-title: PWM_PIN_GET_POLARITY_OUTPUT structure
-ms.topic: structure
+title: PWM_PIN_GET_POLARITY_OUTPUT structure (Pwm.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - APIRef
@@ -64,7 +64,7 @@ The polarity of the pin or channel as a [**PWM\_POLARITY**](/windows/desktop/api
 [**IOCTL\_PWM\_PIN\_GET\_POLARITY**](https://www.bing.com/search?q=**IOCTL\_PWM\_PIN\_GET\_POLARITY**)
 </dt> <dt>
 
-[**PWM\_POLARITY**](https://msdn.microsoft.com/en-us/library/Mt843932(v=VS.85).aspx)
+[**PWM\_POLARITY**](https://msdn.microsoft.com/library/Mt843932(v=VS.85).aspx)
 </dt> </dl>
 
  

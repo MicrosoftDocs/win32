@@ -1,5 +1,5 @@
 ---
-title: EsentSLVEAListZeroAllocationException properties (Microsoft.Isam.Esent.Interop)
+title: EsentSLVEAListZeroAllocationException properties
 TOCTitle: EsentSLVEAListZeroAllocationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvealistzeroallocationexception_properties(v=EXCHG.10)

@@ -1,5 +1,5 @@
 ---
-title: MrmCreateResourceFileInMemory function
+title: MrmCreateResourceFileInMemory function (MrmResourceIndexer.h)
 description: Creates PRI info as a blob in memory, not as a file on disk.
 ms.assetid: 68BDAD27-545A-4DC6-B909-4242A0863690
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

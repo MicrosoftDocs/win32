@@ -2,7 +2,7 @@
 Description: Enumerates all certificates on the system that match the indicated criteria and returns a list of thumbprints.
 ms.assetid: 69522afe-9870-4ae9-8c69-cf8787913615
 title: FindValidCertificates method of the Win32_EncryptableVolume class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # FindValidCertificates method of the Win32\_EncryptableVolume class
 
-The **FindValidCertificates** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class enumerates all certificates on the system that match the indicated criteria and returns a list of thumbprints. The returned list only contains certificates with a valid [*object identifier*](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID). The OID may be the default, or it may be specified in the Group Policy.
+The **FindValidCertificates** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class enumerates all certificates on the system that match the indicated criteria and returns a list of thumbprints. The returned list only contains certificates with a valid [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID). The OID may be the default, or it may be specified in the Group Policy.
 
 ## Syntax
 

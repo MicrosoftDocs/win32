@@ -1,8 +1,8 @@
 ---
 Description: Gets the data buffer that stores compressed key frame animation data.
 ms.assetid: cb42a4c8-6420-4694-9921-0d36cfe960e5
-title: ID3DXCompressedAnimationSet::GetCompressedData method
-ms.topic: article
+title: ID3DXCompressedAnimationSet::GetCompressedData method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Address of a pointer to the [**ID3DXBuffer**](id3dxbuffer.md) data buffer that r
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DERR\_INVALIDCALL.
 

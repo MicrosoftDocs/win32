@@ -1,5 +1,5 @@
 ---
-title: SELFLAG Constants
+title: SELFLAG Constants (Oleacc.h)
 description: This topic describes the constant values used to specify how an accessible object becomes selected or takes the focus.
 ms.assetid: 52755540-dcf4-4e0b-bb5c-88b05f134d79
 topic_type:
@@ -15,7 +15,7 @@ api_location:
 - oleacc.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

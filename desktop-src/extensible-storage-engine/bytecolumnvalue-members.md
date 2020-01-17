@@ -1,5 +1,5 @@
 ---
-title: ByteColumnValue members (Microsoft.Isam.Esent.Interop)
+title: ByteColumnValue members
 TOCTitle: ByteColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ByteColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytecolumnvalue_members(v=EXCHG.10)

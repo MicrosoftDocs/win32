@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 For both Automation clients using ActiveX Data Objects (ADO) and all non-Automation clients, ADSI supplies an OLE DB provider that supports a subset of OLE DB query interfaces. Client code that already uses OLE DB interfaces for queries can use the same interfaces to query directory services.
 
-Under the OLE DB implementation, a directory service is exposed as a Data Source object. Data Source objects are factories for session objects and support [IDBInitialize](https://go.microsoft.com/fwlink/p/?linkid=83907) to connect to the directory, [IDBCreateSession](https://go.microsoft.com/fwlink/p/?linkid=83905) to create the session object, [IDBProperties](https://go.microsoft.com/fwlink/p/?linkid=83909) to supply authentication data to the underlying namespace and supply the query command and [**IPersist**](https://msdn.microsoft.com/en-us/library/ms688695(v=VS.85).aspx) to save the data necessary to create the data source object to the underlying directory service.
+Under the OLE DB implementation, a directory service is exposed as a Data Source object. Data Source objects are factories for session objects and support [IDBInitialize](https://go.microsoft.com/fwlink/p/?linkid=83907) to connect to the directory, [IDBCreateSession](https://go.microsoft.com/fwlink/p/?linkid=83905) to create the session object, [IDBProperties](https://go.microsoft.com/fwlink/p/?linkid=83909) to supply authentication data to the underlying namespace and supply the query command and [**IPersist**](https://msdn.microsoft.com/library/ms688695(v=VS.85).aspx) to save the data necessary to create the data source object to the underlying directory service.
 
 **To perform an Active Directory query using OLE DB**
 

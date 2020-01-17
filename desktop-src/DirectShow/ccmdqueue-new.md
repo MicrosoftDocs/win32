@@ -1,8 +1,8 @@
 ---
 Description: The New method initializes a command to be run and returns a new CDeferredCommand object.
 ms.assetid: bdd80747-a15b-422a-b742-ebfa4076bdf7
-title: CCmdQueue.New method
-ms.topic: article
+title: CCmdQueue.New method (Winutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -1,8 +1,8 @@
 ---
 Description: Identifies the object-related security information being set or queried.
 ms.assetid: e3e8b35d-9d18-4611-a898-72ca13e40d33
-title: SECURITY_INFORMATION
-ms.topic: article
+title: SECURITY_INFORMATION (Winnt.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -80,13 +80,13 @@ Each item of security information is designated by a bit flag. Each bit flag can
 [**GetFileSecurity**](/windows/desktop/api/Winbase/nf-winbase-getfilesecuritya)
 </dt> <dt>
 
-[**GetKernelObjectSecurity**](https://msdn.microsoft.com/en-us/library/Aa446641(v=VS.85).aspx)
+[**GetKernelObjectSecurity**](https://msdn.microsoft.com/library/Aa446641(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa)
 </dt> <dt>
 
-[**GetPrivateObjectSecurity**](https://msdn.microsoft.com/en-us/library/Aa446646(v=VS.85).aspx)
+[**GetPrivateObjectSecurity**](https://msdn.microsoft.com/library/Aa446646(v=VS.85).aspx)
 </dt> <dt>
 
 [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo)
@@ -101,13 +101,13 @@ Each item of security information is designated by a bit flag. Each bit flag can
 [**SetFileSecurity**](/windows/desktop/api/Winbase/nf-winbase-setfilesecuritya)
 </dt> <dt>
 
-[**SetKernelObjectSecurity**](https://msdn.microsoft.com/en-us/library/Aa379578(v=VS.85).aspx)
+[**SetKernelObjectSecurity**](https://msdn.microsoft.com/library/Aa379578(v=VS.85).aspx)
 </dt> <dt>
 
 [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa)
 </dt> <dt>
 
-[**SetPrivateObjectSecurity**](https://msdn.microsoft.com/en-us/library/Aa379580(v=VS.85).aspx)
+[**SetPrivateObjectSecurity**](https://msdn.microsoft.com/library/Aa379580(v=VS.85).aspx)
 </dt> <dt>
 
 [**SetSecurityAccessMask**](/windows/desktop/api/Securitybaseapi/nf-securitybaseapi-setsecurityaccessmask)

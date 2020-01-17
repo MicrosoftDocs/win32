@@ -23,7 +23,7 @@ To maintain backward compatibility with earlier provider versions, the provider 
 
  
 
-The following table highlights differences between the Base Provider, Strong Provider, and AES Provider. The [*key lengths*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) shown are the default key lengths.
+The following table highlights differences between the Base Provider, Strong Provider, and AES Provider. The [*key lengths*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) shown are the default key lengths.
 
 
 
@@ -34,7 +34,7 @@ The following table highlights differences between the Base Provider, Strong Pro
 | RC2 block encryption algorithm                                                           | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | RC4 stream encryption algorithm                                                          | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | DES                                                                                      | 56 bits                  | 56 bits                    | 56 bits                                     |
-| [*Triple DES*](https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
+| [*Triple DES*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
 | Triple DES (3 key)                                                                       | Not supported            | 168 bits                   | 168 bits                                    |
 
 

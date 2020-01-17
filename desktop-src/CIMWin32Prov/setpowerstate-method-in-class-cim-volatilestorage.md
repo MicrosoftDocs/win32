@@ -3,7 +3,7 @@ Description: The SetPowerState method of the CIM\_VolatileStorage class sets the
 ms.assetid: e96a9a99-74c3-48a6-b697-9fcbc14abc27
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_VolatileStorage class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

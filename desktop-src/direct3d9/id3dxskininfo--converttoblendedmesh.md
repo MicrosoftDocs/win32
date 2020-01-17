@@ -1,8 +1,8 @@
 ---
 Description: Takes a mesh and returns a new mesh with per-vertex blend weights and a bone combination table. The table describes which bones affect which subsets of the mesh.
 ms.assetid: c26a9e84-5731-4394-a047-5f1ffe7688d9
-title: ID3DXSkinInfo::ConvertToBlendedMesh method
-ms.topic: article
+title: ID3DXSkinInfo::ConvertToBlendedMesh method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -56,7 +56,7 @@ Input mesh. See [**ID3DXMesh**](id3dxmesh.md).
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Currently unused.
 
@@ -65,7 +65,7 @@ Currently unused.
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Input mesh adjacency information.
 
@@ -74,7 +74,7 @@ Input mesh adjacency information.
 *pAdjacencyOut* \[in\]
 </dt> <dd>
 
-Type: **[**LPDWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPDWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Output mesh adjacency information.
 
@@ -83,7 +83,7 @@ Output mesh adjacency information.
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the blended mesh. If the value supplied for this argument is **NULL**, face remap data is not returned.
 
@@ -101,7 +101,7 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) interface, which co
 *pMaxVertexInfl* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a DWORD that will contain the maximum number of bone influences required per vertex for this skinning method.
 
@@ -110,7 +110,7 @@ Pointer to a DWORD that will contain the maximum number of bone influences requi
 *pNumBoneCombinations* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the number of bones in the bone combination table.
 
@@ -136,7 +136,7 @@ Pointer to the new mesh.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

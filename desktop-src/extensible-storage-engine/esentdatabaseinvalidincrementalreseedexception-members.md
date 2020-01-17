@@ -1,5 +1,5 @@
 ---
-title: EsentDatabaseInvalidIncrementalReseedException members (Microsoft.Isam.Esent.Interop)
+title: EsentDatabaseInvalidIncrementalReseedException members
 TOCTitle: EsentDatabaseInvalidIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidIncrementalReseedException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidincrementalreseedexception_members(v=EXCHG.10)

@@ -1,8 +1,8 @@
 ---
 Description: Scales a 2D vector.
 ms.assetid: 1887bc48-3766-42d7-840b-1e29d78db4ce
-title: D3DXVec2Scale function
-ms.topic: article
+title: D3DXVec2Scale function (D3dx9math.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -58,7 +58,7 @@ Pointer to the source [**D3DXVECTOR2**](d3dxvector2.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Scaling value.
 

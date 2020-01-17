@@ -3,7 +3,7 @@ Description: Renames the paging file specified in the object path.
 ms.assetid: 6a98e05f-337e-4224-a847-f01913031b20
 ms.tgt_platform: multiple
 title: Rename method of the Win32_PageFile class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

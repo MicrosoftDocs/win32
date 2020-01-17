@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualPC GetVirtualMachineFiles method
+title: IVMVirtualPC GetVirtualMachineFiles method (VPCCOMInterfaces.h)
 description: Retrieves an array of known virtual machine configuration files.
 ms.assetid: 38771573-66fa-408a-95db-1281efdf8b73
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

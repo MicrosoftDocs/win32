@@ -1,8 +1,8 @@
 ---
 Description: Saves a data object and its children to a DirectX file. Deprecated.
 ms.assetid: 18bd5ef6-9e17-4c21-bc14-373de8df9ffb
-title: IDirectXFileSaveObject::SaveData method
-ms.topic: article
+title: IDirectXFileSaveObject::SaveData method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -46,7 +46,7 @@ Pointer to an [**IDirectXFileData**](idirectxfiledata.md) interface, representin
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values: DXFILEERR\_BADARRAYSIZE, DXFILEERR\_BADVALUE.
 

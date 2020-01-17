@@ -1,5 +1,5 @@
 ---
-title: XTYP_POKE transaction
+title: XTYP_POKE transaction (Ddeml.h)
 description: A client uses the XTYP\_POKE transaction to send unsolicited data to the server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_POKE in the DdeClientTransaction function.
 ms.assetid: 63c6115e-24f8-4f35-8397-8be63110b21f
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # XTYP\_POKE transaction
 
-A client uses the **XTYP\_POKE** transaction to send unsolicited data to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_POKE** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
+A client uses the **XTYP\_POKE** transaction to send unsolicited data to the server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_POKE** in the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
 
 
 ```C++

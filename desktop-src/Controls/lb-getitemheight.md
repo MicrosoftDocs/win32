@@ -1,5 +1,5 @@
 ---
-title: LB_GETITEMHEIGHT message
+title: LB_GETITEMHEIGHT message (Winuser.h)
 description: Gets the height of items in a list box.
 ms.assetid: ee96fce6-babd-4581-ac0e-2eb955fe543b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentLogSequenceEndDatabasesConsistentException members (Microsoft.Isam.Esent.Interop)
+title: EsentLogSequenceEndDatabasesConsistentException members
 TOCTitle: EsentLogSequenceEndDatabasesConsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceenddatabasesconsistentexception_members(v=EXCHG.10)

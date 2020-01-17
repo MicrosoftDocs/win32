@@ -1,5 +1,5 @@
 ---
-title: glClearAccum function
+title: glClearAccum function (Gl.h)
 description: The glClearAccum function specifies the clear values for the accumulation buffer.
 ms.assetid: 77d8f340-be47-43f4-96fc-31025a4c8b4e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

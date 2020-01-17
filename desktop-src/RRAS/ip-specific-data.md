@@ -1,5 +1,5 @@
 ---
-title: IP_SPECIFIC_DATA structure
+title: IP_SPECIFIC_DATA structure (Rtm.h)
 description: The IP\_SPECIFIC DATA structure contains IP-specific data.
 ms.assetid: 68f2f4cc-141b-4f22-94ac-cc72e8dcca0a
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
-ms.topic: structure
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

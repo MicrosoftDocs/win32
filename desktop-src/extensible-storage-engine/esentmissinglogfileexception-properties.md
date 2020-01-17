@@ -1,5 +1,5 @@
 ---
-title: EsentMissingLogFileException properties (Microsoft.Isam.Esent.Interop)
+title: EsentMissingLogFileException properties
 TOCTitle: EsentMissingLogFileException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMissingLogFileException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmissinglogfileexception_properties(v=EXCHG.10)

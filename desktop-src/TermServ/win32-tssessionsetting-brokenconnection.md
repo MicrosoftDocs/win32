@@ -1,5 +1,5 @@
 ---
-title: BrokenConnection method of the Win32_TSSessionSetting class
+title: BrokenConnection method of the Win32_TSSessionSetting class (Wtsprotocol.h)
 description: Sets the BrokenConnectionAction property, which is the action the server takes if the session time-limit is reached or if the connection is broken.
 ms.assetid: 2422e314-9e1c-4bed-a958-eedd2daeca66
 ms.tgt_platform: multiple
@@ -15,7 +15,7 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

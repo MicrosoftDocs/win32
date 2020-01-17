@@ -1,8 +1,8 @@
 ---
 Description: Provides a list of scripts for the specified locale.
 ms.assetid: 0cedcf6c-bab4-4e0f-ab8f-04aa8e51602f
-title: DownlevelGetLocaleScripts function
-ms.topic: article
+title: DownlevelGetLocaleScripts function (Idndl.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -70,7 +70,7 @@ Alternatively, the application can set this parameter to 0. In this case, the fu
 
 Returns the number of characters retrieved in the script buffer, including the terminating null character. If the function succeeds and the value of *cchScripts* is 0, the return value is the required size, in characters including a terminating null character, for the script buffer.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.
 -   ERROR\_INSUFFICIENT\_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to **NULL**.

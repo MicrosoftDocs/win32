@@ -1,5 +1,5 @@
 ---
-title: IME mode model changed from per-user to per-thread
+title: IME mode model changes
 description: IME mode model changed from per-user to per-thread
 ms.assetid: C9717AF2-7055-47CA-8F8F-BC0F483B2259
 ms.topic: article
@@ -45,7 +45,3 @@ When a user changes the IME mode on an application, the change doesn’t affect 
  
 
  
-
-
-
-

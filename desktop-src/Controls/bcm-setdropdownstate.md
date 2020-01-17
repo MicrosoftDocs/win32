@@ -1,5 +1,5 @@
 ---
-title: BCM_SETDROPDOWNSTATE message
+title: BCM_SETDROPDOWNSTATE message (Commctrl.h)
 description: Sets the drop down state for a button with style TBSTYLE\_DROPDOWN. Send this message explicitly or by using the Button\_SetDropDownState macro.
 ms.assetid: 725deff4-0bcb-497d-a6cf-e9c98b05f16e
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

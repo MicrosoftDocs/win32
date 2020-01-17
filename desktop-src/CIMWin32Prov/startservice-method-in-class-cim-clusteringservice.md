@@ -3,7 +3,7 @@ Description: The StartService method puts the service in a started state.
 ms.assetid: 2efd2a06-a03c-4f4c-b2fa-889f84faac0f
 ms.tgt_platform: multiple
 title: StartService method of the CIM_ClusteringService class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

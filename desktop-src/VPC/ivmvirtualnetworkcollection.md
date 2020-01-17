@@ -1,5 +1,5 @@
 ---
-title: IVMVirtualNetworkCollection interface
+title: IVMVirtualNetworkCollection interface (VPCCOMInterfaces.h)
 description: Defines a collection of IVMVirtualNetwork objects. To obtain an IVMVirtualNetworkCollection object, use the IVMVirtualPC VirtualNetworks property.
 ms.assetid: 3d595bc3-1a8d-4e09-a809-944d4dcdc675
 keywords:
@@ -13,7 +13,7 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
-ms.topic: interface
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ Defines a collection of [**IVMVirtualNetwork**](ivmvirtualnetwork.md) objects. T
 
 ## Members
 
-The **IVMVirtualNetworkCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualNetworkCollection** also has these types of members:
+The **IVMVirtualNetworkCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualNetworkCollection** also has these types of members:
 
 -   [Properties](#properties)
 

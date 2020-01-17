@@ -10,7 +10,7 @@ api_name:
 - About the Windows Media Audio and Video Codecs
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

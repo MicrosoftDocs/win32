@@ -1,8 +1,8 @@
 ---
 Description: The Connect method completes a connection to the output pin.
 ms.assetid: fb20ef5d-e00a-4154-a6da-25bef663c0e7
-title: CPullPin.Connect method
-ms.topic: article
+title: CPullPin.Connect method (Pullpin.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

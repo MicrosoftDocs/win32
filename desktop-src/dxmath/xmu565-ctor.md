@@ -2,7 +2,7 @@
 Description: Constructors exposed by XMU565.
 ms.assetid: d482dbf5-081c-4a1b-a81f-63d21d46a489
 title: XMU565 constructors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMU565`.
 
-Constructs instances of the [**XMU565**](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) structure.
+Constructs instances of the [**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,7 +109,7 @@ This is only available for C++ based development.
 **Reference**
 </dt> <dt>
 
-[**XMU565**](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx)
+[**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx)
 </dt> </dl>
 
  

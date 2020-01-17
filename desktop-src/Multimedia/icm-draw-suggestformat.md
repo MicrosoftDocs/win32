@@ -1,5 +1,5 @@
 ---
-title: ICM_DRAW_SUGGESTFORMAT message
+title: ICM_DRAW_SUGGESTFORMAT message (Vfw.h)
 description: The ICM\_DRAW\_SUGGESTFORMAT message queries a rendering driver to suggest a decompressed format that it can draw.
 ms.assetid: e3e97790-dbd1-4436-9830-5218ae1f949b
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

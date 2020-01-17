@@ -2,7 +2,7 @@
 Description: This class is the event type class for virtual allocation events. The following syntax is simplified from MOF code.
 ms.assetid: 037d33e0-da94-4834-bc02-814c1cae1d8d
 title: PageFault_VirtualAlloc class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -77,7 +77,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(4), Format("x")
 </dt> </dl>
 
-The type of memory allocation that was performed. For possible values, see the *flAllocationType* parameter of the [**VirtualAllocEx**](https://msdn.microsoft.com/en-us/library/Aa366890(v=VS.85).aspx) function.
+The type of memory allocation that was performed. For possible values, see the *flAllocationType* parameter of the [**VirtualAllocEx**](https://msdn.microsoft.com/library/Aa366890(v=VS.85).aspx) function.
 
 </dd> <dt>
 

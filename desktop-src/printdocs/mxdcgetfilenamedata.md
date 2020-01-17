@@ -1,8 +1,8 @@
 ---
 Description: The MXDC\_GET\_FILENAME\_DATA\_T structure holds the full path and file name of a Microsoft XPS Document Converter (MXDC) output file.
 ms.assetid: 070bce2e-5055-47e8-9412-2094a636635f
-title: MXDC_GET_FILENAME_DATA_T structure
-ms.topic: structure
+title: MXDC_GET_FILENAME_DATA_T structure (Mxdc.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -75,7 +75,7 @@ This structure is returned by [**ExtEscape**](/windows/desktop/api/Wingdi/nf-win
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/en-us/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)

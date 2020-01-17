@@ -2,7 +2,7 @@
 Description: The IsPhysicalPresenceHardwareEnabled method of the Win32\_Tpm class indicates whether physical presence on the platform can be set with a hardware signal.
 ms.assetid: 65dabfa9-bfbe-4b9b-8e80-02269895c7ad
 title: IsPhysicalPresenceHardwareEnabled method of the Win32_Tpm class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -63,7 +63,7 @@ Common return codes are listed below.
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/en-us/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
 
 ## Requirements
 

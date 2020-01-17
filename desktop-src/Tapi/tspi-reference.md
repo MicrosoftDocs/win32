@@ -12,7 +12,7 @@ The following material is the primary reference for the Telephony Service Provid
 
 -   [TSPI Functions](tspi-functions.md)
 -   [TSPI Structures](tspi-structures.md)
--   [TSPI Constants](https://msdn.microsoft.com/en-us/library/ms737261(v=VS.85).aspx)
+-   [TSPI Constants](https://msdn.microsoft.com/library/ms737261(v=VS.85).aspx)
 -   [TSPI Messages](tspi-messages.md)
 -   [TSPI Device Classes](tspi-device-classes.md)
 -   [TSPI Service Provider Datatypes](tspi-service-provider-datatypes.md)

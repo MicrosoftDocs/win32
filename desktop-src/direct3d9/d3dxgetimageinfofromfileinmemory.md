@@ -1,8 +1,8 @@
 ---
 Description: Retrieves information about a given image file in memory.
 ms.assetid: 6363aaf1-abfc-49df-9b99-be8a1c3540e1
-title: D3DXGetImageInfoFromFileInMemory function
-ms.topic: article
+title: D3DXGetImageInfoFromFileInMemory function (D3dx9tex.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -40,7 +40,7 @@ HRESULT D3DXGetImageInfoFromFileInMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 VOID pointer to the source file in memory.
 
@@ -49,7 +49,7 @@ VOID pointer to the source file in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Size of file in memory, in bytes. .
 
@@ -66,7 +66,7 @@ Pointer to a [**D3DXIMAGE\_INFO**](d3dximage-info.md) structure to be filled wit
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be the following: D3DERR\_INVALIDCALL
 

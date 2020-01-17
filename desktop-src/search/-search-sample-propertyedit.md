@@ -89,10 +89,10 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx)
+[**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
 </dt> <dt>
 
-[About Properties and Property Handlers](https://msdn.microsoft.com/en-us/library/Cc144129(v=VS.85).aspx)
+[About Properties and Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
 </dt> <dt>
 
 [Property Description Schema](https://msdn.microsoft.com/library/Cc144127(v=VS.85).aspx)

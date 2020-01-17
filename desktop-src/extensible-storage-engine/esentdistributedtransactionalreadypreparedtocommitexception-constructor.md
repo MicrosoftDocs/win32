@@ -1,11 +1,11 @@
 ---
-title: EsentDistributedTransactionAlreadyPreparedToCommitException constructor  (Microsoft.Isam.Esent.Interop)
+title: EsentDistributedTransactionAlreadyPreparedToCommitException constructor 
 TOCTitle: 'EsentDistributedTransactionAlreadyPreparedToCommitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionAlreadyPreparedToCommitException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdistributedtransactionalreadypreparedtocommitexception.esentdistributedtransactionalreadypreparedtocommitexception(v=EXCHG.10)
 ms:contentKeyID: 55101542
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentDistributedTransactionAlreadyPreparedToCommitException.EsentDistributedTransactionAlreadyPreparedToCommitException
 dev_langs:

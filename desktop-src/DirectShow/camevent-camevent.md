@@ -1,8 +1,8 @@
 ---
 Description: Constructor method.
 ms.assetid: 35c9ac07-8756-42b1-beeb-5f0e79466742
-title: CAMEvent.CAMEvent constructor
-ms.topic: article
+title: CAMEvent.CAMEvent constructor (Wxutil.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

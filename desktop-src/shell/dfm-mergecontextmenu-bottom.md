@@ -1,7 +1,7 @@
 ---
 Description: Allows the callback to add items to the bottom of the extended menu.
-title: DFM_MERGECONTEXTMENU_BOTTOM message
-ms.topic: article
+title: DFM_MERGECONTEXTMENU_BOTTOM message (Shlobj.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 37414335-4f3c-461e-bd05-d6ef850f972a
 api_name: 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Memory Management Rules
 
-The lifetime of pointers to interfaces is always managed through the [**AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) and [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
+The lifetime of pointers to interfaces is always managed through the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) and [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
 
 For all other parameters, it is important to adhere to certain rules for managing memory. The following rules apply to all parameters of interface methodsâ€”including the return valueâ€”that are not passed by value:
 

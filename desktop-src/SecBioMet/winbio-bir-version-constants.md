@@ -1,5 +1,5 @@
 ---
-title: WINBIO_BIR_VERSION Constants
+title: WINBIO_BIR_VERSION Constants (Winbio\_types.h)
 description: Specify the version.
 ms.assetid: FBB8AE77-0FA2-46DE-B2F4-55D17CB6E7AB
 topic_type:
@@ -11,7 +11,7 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

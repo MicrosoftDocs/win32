@@ -10,7 +10,7 @@ api_name:
 - RasAdminReleaseIpAddress
 api_type:
 - UserDefined
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_location: 
 ---
@@ -61,7 +61,7 @@ Pointer to an **IPADDR** variable that specifies the IP address returned for thi
 
 ## Return value
 
-There is no extended error information for this function; do no call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx).
+There is no extended error information for this function; do no call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
 
 ## Remarks
 

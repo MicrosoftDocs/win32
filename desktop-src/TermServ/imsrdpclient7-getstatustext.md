@@ -1,5 +1,5 @@
 ---
-title: IMsRdpClient7 GetStatusText method
+title: IMsRdpClient7 GetStatusText method (Openservice.h)
 description: Retrieves the status text for the specified status code.
 ms.assetid: 1da2280a-c26d-4caa-b227-c289055f3aa9
 ms.tgt_platform: multiple
@@ -24,7 +24,7 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

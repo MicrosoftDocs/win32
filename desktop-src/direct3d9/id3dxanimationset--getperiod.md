@@ -1,8 +1,8 @@
 ---
 Description: Gets the period of the animation set.
 ms.assetid: 0bb19ec1-c918-44b6-83b0-4fdbb4e1a485
-title: ID3DXAnimationSet::GetPeriod method
-ms.topic: article
+title: ID3DXAnimationSet::GetPeriod method (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Period of the animation set.
 

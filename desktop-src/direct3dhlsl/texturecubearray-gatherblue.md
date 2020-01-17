@@ -1,5 +1,5 @@
 ---
-title: TextureCubeArray GatherBlue methods
+title: TextureCubeArray::TextureCubeArray GatherBlue methods
 description: Samples a texture and returns the blue component.
 ms.assetid: 709EF549-20F6-44E1-8E8C-1FF71C259FC7
 keywords:
@@ -8,7 +8,7 @@ topic_type:
 - apiref
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 api_name: 
 api_location: 

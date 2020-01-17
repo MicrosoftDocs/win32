@@ -1,8 +1,8 @@
 ---
 Description: Locks a vertex buffer and obtains a pointer to the vertex buffer memory.
 ms.assetid: afcd479c-b268-4720-b26c-88b82f1aab08
-title: ID3DXBaseMesh::LockVertexBuffer method
-ms.topic: article
+title: ID3DXBaseMesh::LockVertexBuffer method (D3DX9Mesh.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT LockVertexBuffer(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Combination of zero or more locking flags that describe the type of lock to perform. For this method, the valid flags are:
 
@@ -56,7 +56,7 @@ For a description of the flags, see [D3DLOCK](d3dlock.md).
 *ppData* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
 
 VOID\* pointer to a buffer containing the vertex data.
 
@@ -64,7 +64,7 @@ VOID\* pointer to a buffer containing the vertex data.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
 

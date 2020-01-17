@@ -1,8 +1,8 @@
 ---
 Description: Specifies the adaptive encoding mode for a video encoder.
 ms.assetid: 14B833BC-2188-48D6-AA27-B15F491D90CF
-title: CODECAPI_AVEncAdaptiveMode property
-ms.topic: article
+title: CODECAPI_AVEncAdaptiveMode property (Codecapi.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ Specifies the adaptive encoding mode for a video encoder.
 
 ## Property value
 
-The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](https://msdn.microsoft.com/en-us/library/Hh447684(v=VS.85).aspx) enumeration.
+The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](https://msdn.microsoft.com/library/Hh447684(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

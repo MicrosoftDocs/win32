@@ -2,7 +2,7 @@
 Description: Converts an array of bytes to a binary-packed string.
 ms.assetid: 8db4597d-612c-4535-895e-984d29fc173d
 title: Utilities.ByteArrayToBinaryString method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

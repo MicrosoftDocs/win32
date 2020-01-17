@@ -1,8 +1,8 @@
 ---
 Description: Creates and adds a data reference object as a child object. Deprecated.
 ms.assetid: 71a770a2-1502-4b93-b368-990c3318bd33
-title: IDirectXFileData::AddDataReference method
-ms.topic: article
+title: IDirectXFileData::AddDataReference method (DXFile.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ HRESULT AddDataReference(
 *szRef* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the name of the referenced data object. This parameter can be **NULL** if pguidRef provides a reference to the GUID.
 
@@ -56,7 +56,7 @@ Pointer to the GUID representing the data. This parameter can be **NULL** if szR
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is DXFILE\_OK. If the method fails, the return value can be one of the following values.DXFILEERR\_BADALLOC DXFILEERR\_BADVALUE
 

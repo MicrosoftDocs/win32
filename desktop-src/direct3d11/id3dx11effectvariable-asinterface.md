@@ -1,5 +1,5 @@
 ---
-title: ID3DX11EffectVariable AsInterface method
+title: ID3DX11EffectVariable AsInterface method (D3dx11effect.h)
 description: Get an interface variable.
 ms.assetid: 5b1e5d05-ab36-42c2-9990-154baff5e9a4
 keywords:
@@ -15,7 +15,7 @@ api_location:
 - N/A.dll
 api_type:
 - COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

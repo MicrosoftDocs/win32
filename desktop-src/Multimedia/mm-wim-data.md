@@ -1,5 +1,5 @@
 ---
-title: MM_WIM_DATA message
+title: MM_WIM_DATA message (Mmsystem.h)
 description: The MM\_WIM\_DATA message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the waveInReset function is called.
 ms.assetid: 14298153-ea2f-40b7-bca7-196f4e6c1155
 keywords:
@@ -12,13 +12,13 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MM\_WIM\_DATA message
 
-The **MM\_WIM\_DATA** message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the [**waveInReset**](https://msdn.microsoft.com/en-us/library/Dd743850(v=VS.85).aspx) function is called.
+The **MM\_WIM\_DATA** message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the [**waveInReset**](https://msdn.microsoft.com/library/Dd743850(v=VS.85).aspx) function is called.
 
 
 ```C++
@@ -43,7 +43,7 @@ Handle to the waveform-audio input device that received the data.
 <span id="lpwvhdr"></span><span id="LPWVHDR"></span>*lpwvhdr*
 </dt> <dd>
 
-Pointer to a [**WAVEHDR**](https://msdn.microsoft.com/en-us/library/Dd743837(v=VS.85).aspx) structure that identifies the buffer containing the data.
+Pointer to a [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx) structure that identifies the buffer containing the data.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ This message does not return a value.
 
 ## Remarks
 
-The returned buffer might not be full. Use the **dwBytesRecorded** member of the [**WAVEHDR**](https://msdn.microsoft.com/en-us/library/Dd743837(v=VS.85).aspx) structure specified by *lParam* to determine the number of bytes recorded into the returned buffer.
+The returned buffer might not be full. Use the **dwBytesRecorded** member of the [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx) structure specified by *lParam* to determine the number of bytes recorded into the returned buffer.
 
 ## Requirements
 

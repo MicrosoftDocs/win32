@@ -3,7 +3,7 @@ Description: The Win32\_MemoryArrayLocation association WMI class relates a logi
 ms.assetid: 455daeee-ad67-4599-84d6-fa3f4ac593aa
 ms.tgt_platform: multiple
 title: Win32_MemoryArrayLocation class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

@@ -10,7 +10,7 @@ api_name:
 - WM/MediaClassSecondaryID
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -53,7 +53,7 @@ This attribute should be set to one of the values in the following table.
 
  
 
-When specifying a secondary class identifier, the file should also contain a primary clas identifier attribute.
+When specifying a secondary class identifier, the file should also contain a primary class identifier attribute.
 
 ## See also
 

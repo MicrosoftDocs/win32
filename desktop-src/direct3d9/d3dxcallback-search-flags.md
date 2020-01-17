@@ -1,8 +1,8 @@
 ---
 Description: Flags used to obtain callback information.
 ms.assetid: e8126ff0-db23-4da6-a999-0efb8c2647da
-title: D3DXCALLBACK_SEARCH_FLAGS enumeration
-ms.topic: enumeration
+title: D3DXCALLBACK_SEARCH_FLAGS enumeration (D3dx9anim.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

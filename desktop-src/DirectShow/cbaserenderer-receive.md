@@ -1,8 +1,8 @@
 ---
 Description: The Receive method receives the next media sample in the stream.
 ms.assetid: b340f76c-2305-444f-bc00-1ef5acdea329
-title: CBaseRenderer.Receive method
-ms.topic: article
+title: CBaseRenderer.Receive method (Renbase.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

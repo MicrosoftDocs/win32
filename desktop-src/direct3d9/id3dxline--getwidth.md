@@ -1,8 +1,8 @@
 ---
 Description: Gets the thickness of the line.
 ms.assetid: 8e29fcfe-91bd-4389-8586-470f1ca1c29f
-title: ID3DXLine::GetWidth method
-ms.topic: article
+title: ID3DXLine::GetWidth method (D3dx9core.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 The line thickness.
 

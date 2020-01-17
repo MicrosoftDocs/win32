@@ -1,8 +1,8 @@
 ---
 Description: Gets the handle of a top-level parameter or a structure member parameter.
 ms.assetid: 940f1bfd-ce62-4c86-88cc-787e62cf6a93
-title: ID3DXBaseEffect::GetParameter method
-ms.topic: article
+title: ID3DXBaseEffect::GetParameter method (D3DX9Shader.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -48,7 +48,7 @@ Handle of the parameter, or **NULL** for top-level parameters. See [Handles (Dir
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 Parameter index.
 

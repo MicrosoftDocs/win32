@@ -1,8 +1,8 @@
 ---
 Description: Sets the peak &\#0034;leaky bucket&\#0034; parameters (see Remarks) for encoding a Windows Media file. These parameters are used for the peak bit rate. Set this attribute by using the IMFASFStreamConfig interface.
 ms.assetid: 422d6d1b-4d29-4156-877b-8dc3bcb7580f
-title: MF_ASFSTREAMCONFIG_LEAKYBUCKET2 attribute
-ms.topic: article
+title: MF_ASFSTREAMCONFIG_LEAKYBUCKET2 attribute (Wmcontainer.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

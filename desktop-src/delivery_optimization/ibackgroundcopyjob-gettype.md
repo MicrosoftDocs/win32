@@ -1,5 +1,5 @@
 ---
-title: IBackgroundCopyJob GetType method
+title: IBackgroundCopyJob GetType method (Deliveryoptimization.h)
 description: Retrieves the type of transfer being performed, such as a file download or upload.
 ms.assetid: F543A601-9385-4A73-A4E2-DE61433E84D3
 keywords:
@@ -14,8 +14,7 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

@@ -76,7 +76,7 @@ The following table describes the two COM class factories the WIC APIs provide f
 
  
 
-To create either class factory, use the [CoCreateInstance](https://msdn.microsoft.com/en-us/library/ms686615(VS.85).aspx) COM function. The following example demonstrates the creation of the WIC imaging factory.
+To create either class factory, use the [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(VS.85).aspx) COM function. The following example demonstrates the creation of the WIC imaging factory.
 
 
 ```C++

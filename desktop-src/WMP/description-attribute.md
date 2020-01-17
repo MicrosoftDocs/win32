@@ -1,5 +1,5 @@
 ---
-title: Description Attribute
+title: Description Attribute (WMP SDK)
 description: The Description attribute is a description of the content.
 ms.assetid: 8bf76bf5-2bba-4ceb-bc98-f8b8ab2c8b6f
 keywords:
@@ -10,7 +10,7 @@ api_name:
 - Description
 api_type:
 - NA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EsentOSSnapshotInvalidSequenceException members (Microsoft.Isam.Esent.Interop)
+title: EsentOSSnapshotInvalidSequenceException members
 TOCTitle: EsentOSSnapshotInvalidSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsequenceexception_members(v=EXCHG.10)

@@ -2,7 +2,7 @@
 title: umad (sm4 - asm)
 description: Unsigned integer multiply and add.
 ms.assetid: C0BE31CA-E01D-42C0-A660-E63727CE344F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

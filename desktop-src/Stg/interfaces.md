@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Interfaces (Structured Storage)
 description: Structured Storage defines the following interfaces.
 ms.assetid: 068ca25f-8aca-450b-b9c9-cec07d515dac
 keywords:
@@ -15,9 +15,9 @@ Structured Storage defines the following interfaces:
 -   [**IMemoryAllocator**](imemoryallocator.md)
 -   [**IDirectWriterLock**](/windows/desktop/api/Objidl/nn-objidl-idirectwriterlock)
 -   [IDirectWriterLock - Compound File Implementation](idirectwriterlock-compound-file-implementation.md)
--   [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/en-us/library/Aa379184(v=VS.85).aspx)
+-   [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx)
 -   [IEnumSTATPROPSETSTG - Compound File Implementation](ienumstatpropsetstg-compound-file-implementation.md)
--   [**IEnumSTATPROPSTG**](https://msdn.microsoft.com/en-us/library/Aa379210(v=VS.85).aspx)
+-   [**IEnumSTATPROPSTG**](https://msdn.microsoft.com/library/Aa379210(v=VS.85).aspx)
 -   [IEnumSTATPROPSTG - Compound File Implementation](ienumstatpropstg-compound-file-implementation.md)
 -   [**IEnumSTATSTG**](/windows/desktop/api/Objidl/nn-objidl-ienumstatstg)
 -   [**IFillLockBytes**](/windows/desktop/api/Objidl/nn-objidl-ifilllockbytes)

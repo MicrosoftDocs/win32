@@ -1,8 +1,8 @@
 ---
 Description: Describes a function used by an effect.
 ms.assetid: 5d9deb82-7fe5-4408-8a6a-b34ecd97e8ba
-title: D3DXFUNCTION_DESC structure
-ms.topic: structure
+title: D3DXFUNCTION_DESC structure (D3dx9effect.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -38,7 +38,7 @@ typedef struct D3DXFUNCTION_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Function name.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

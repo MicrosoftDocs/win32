@@ -1,8 +1,8 @@
 ---
 Description: Used by a cryptographic service provider (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
 ms.assetid: 56f189e7-073b-4b42-b6ab-0147853fe6d5
-title: CRYPT_RETURN_HWND function pointer
-ms.topic: article
+title: CRYPT_RETURN_HWND function pointer (Cspdk.h)
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -17,7 +17,7 @@ api_location:
 
 # CRYPT\_RETURN\_HWND function pointer
 
-The **FuncReturnhWnd** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
+The **FuncReturnhWnd** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
 
 ## Syntax
 

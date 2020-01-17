@@ -1,5 +1,5 @@
 ---
-title: LVM_GETBKIMAGE message
+title: LVM_GETBKIMAGE message (Commctrl.h)
 description: Gets the background image in a list-view control. You can send this message explicitly or by using the ListView\_GetBkImage macro.
 ms.assetid: db0e8f31-746a-4a16-b689-68da696e3657
 keywords:
@@ -14,7 +14,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

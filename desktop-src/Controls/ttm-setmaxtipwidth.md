@@ -1,5 +1,5 @@
 ---
-title: TTM_SETMAXTIPWIDTH message
+title: TTM_SETMAXTIPWIDTH message (Commctrl.h)
 description: Sets the maximum width for a tooltip window.
 ms.assetid: 3cfb6011-d0c3-4a57-aead-d4ec09a057cc
 keywords:
@@ -12,7 +12,7 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

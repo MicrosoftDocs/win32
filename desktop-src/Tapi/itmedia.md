@@ -1,8 +1,8 @@
 ---
 Description: The ITMedia interface is a representation of media in a Session Descriptor Protocol (SDP, see RFC 2327).
 ms.assetid: f5cd7971-3456-4e2f-8808-deb16678099a
-title: ITMedia interface
-ms.topic: interface
+title: ITMedia interface (Sdpblb.h)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ The **ITMedia** interface is a representation of media in a Session Descriptor P
 
 ## Members
 
-The **ITMedia** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ITMedia** also has these types of members:
+The **ITMedia** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITMedia** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -59,7 +59,7 @@ The **ITMedia** interface has these methods.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
 </dt> <dt>
 
 [**ITMediaCollection**](itmediacollection.md)

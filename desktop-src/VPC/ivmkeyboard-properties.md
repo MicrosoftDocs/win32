@@ -2,7 +2,7 @@
 title: IVMKeyboard Properties
 description: The IVMKeyboard interface exposes the following properties.
 ms.assetid: E31C4937-AEAD-431B-8239-E8CC12FC74D3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

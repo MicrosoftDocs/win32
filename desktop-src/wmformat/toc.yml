@@ -2203,7 +2203,7 @@
       - name: "WMVIDEOINFOHEADER"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader
       - name: "WMVIDEOINFOHEADER2"
-        href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader2
+        href: /windows/win32/api/Wmsdkidl/ns-wmsdkidl-wmvideoinfoheader2
     - name: "Enumeration Types"
       href: enumeration-types.md
       items: 
@@ -2234,7 +2234,7 @@
       - name: "WMT_INDEX_TYPE"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_index_type
       - name: "WMT_INDEXER_TYPE"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_indexer_type
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_indexer_type
       - name: "WMT_NET_PROTOCOL"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_net_protocol
       - name: "WMT_MUSICSPEECH_CLASS_MODE"
