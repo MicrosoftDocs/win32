@@ -42,5 +42,5 @@ The following table defines the format types used to represent a time marker.
 
 | String | Meaning|
 | ---    | ---    |
-| t      | One-character time marker string.<br />**Note:** This format is not recommended for use with certain languages, such as Japanese (Japan). With this format, an application always takes the first character from the time marker string, defined by [LOCALE_S1159](locale-s1159) (AM) and [LOCALE_S2359](locale-s2359) (PM). Because of this, the application can create incorrect formatting with the same string used for both AM and PM.|
+| t      | One-character time marker string.<br />**Note:** This format is not recommended for use with certain languages, such as Japanese (Japan). With this format, an application always takes the first character from the time marker string, defined by [LOCALE_S1159](locale-s1159.md) (AM) and [LOCALE_S2359](locale-s2359.md) (PM). Because of this, the application can create incorrect formatting with the same string used for both AM and PM.|
 | tt     | Multi-character time marker string. |
