@@ -27,6 +27,25 @@ ms.date: 05/31/2018
 
 This overview discusses some programming considerations concerning dialog boxes.
 
+The overview includes the following topics.
+
+-   [Dialog Box Procedures](#dialog-box-procedures)
+    -   [The WM\_INITDIALOG Message](https://docs.microsoft.com/windows)
+    -   [The WM\_COMMAND Message](https://docs.microsoft.com/windows)
+    -   [The WM\_PARENTNOTIFY Message](https://docs.microsoft.com/windows)
+    -   [Control-Color Messages](#control-color-messages)
+    -   [Dialog Box Default Message Processing](#dialog-box-default-message-processing)
+-   [Dialog Box Keyboard Interface](#dialog-box-keyboard-interface)
+    -   [The WS\_TABSTOP Style](https://docs.microsoft.com/windows)
+    -   [The WS\_GROUP Style](https://docs.microsoft.com/windows)
+    -   [Mnemonics](#mnemonics)
+-   [Dialog Box Settings](#dialog-box-settings)
+    -   [Radio Buttons and Check Boxes](#radio-buttons-and-check-boxes)
+    -   [Dialog Box Edit Controls](#dialog-box-edit-controls)
+    -   [List Boxes, Combo Boxes, and Directory Listings](#list-boxes-combo-boxes-and-directory-listings)
+    -   [Dialog Box Control Messages](#dialog-box-control-messages)
+-   [Custom Dialog Boxes](#custom-dialog-boxes)
+
 ## Dialog Box Procedures
 
 A dialog box procedure is similar to a window procedure in that the system sends messages to the procedure when it has information to give or tasks to carry out. Unlike a window procedure, a dialog box procedure never calls the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Instead, it returns **TRUE** if it processes a message or **FALSE** if it does not.
