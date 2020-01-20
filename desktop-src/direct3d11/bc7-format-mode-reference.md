@@ -93,7 +93,7 @@ BC7 Mode 5 has the following characteristics:
 -   Color components with separate alpha component
 -   1 subset per block
 -   RGB 7.7.7 color endpoints
--   6-bit alpha endpoints
+-   8-bit alpha endpoints
 -   16 x 2-bit color indices
 -   16 x 2-bit alpha indices
 -   2-bit component rotation
