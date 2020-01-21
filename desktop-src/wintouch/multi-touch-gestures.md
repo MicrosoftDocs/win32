@@ -1,5 +1,5 @@
 ---
-title: Windows Touch Gestures
+title: Windows Touch Gestures (Windows Touch Programming)
 description: This section describes the API used for handling Windows Touch gestures.
 ms.assetid: 0ffe222a-a0ac-498b-a4ca-85cfb1caba93
 keywords:

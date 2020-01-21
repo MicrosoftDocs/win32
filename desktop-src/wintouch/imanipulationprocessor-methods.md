@@ -1,5 +1,5 @@
 ---
-title: Methods
+title: Methods (IInertiaProcessor)
 description: This section contains the methods for the IInertiaProcessor interface.
 ms.assetid: e4acfcac-06c1-42a5-9722-4534a4492ab8
 keywords:

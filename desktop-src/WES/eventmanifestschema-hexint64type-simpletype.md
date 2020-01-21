@@ -1,5 +1,5 @@
 ---
-title: UInt64Type Simple Type
+title: UInt64Type Simple Type (EventManifest Schema)
 description: Defines an unsigned long type.
 ms.assetid: 6f69dbde-8292-4f8e-bf49-3ef41ea7315e
 keywords:

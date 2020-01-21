@@ -1,5 +1,5 @@
 ---
-title: Properties
+title: Properties (IManipulationProcessor)
 description: This section contains the properties for the IManipulationProcessor interface.
 ms.assetid: 0f8a3e27-a92f-4086-9573-6c7bbe7efd20
 keywords:

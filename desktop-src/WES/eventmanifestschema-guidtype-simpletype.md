@@ -1,5 +1,5 @@
 ---
-title: GUIDType Simple Type
+title: GUIDType Simple Type (EventManifest Schema)
 description: Defines a globally unique identifier type, in Registry format.
 ms.assetid: c35fa54b-5a2e-46de-a1c7-fc408b00ee68
 keywords:

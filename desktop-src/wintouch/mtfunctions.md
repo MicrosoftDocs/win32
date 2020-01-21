@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Functions (Windows Touch Input)
 description: This section contains functions for Windows Touch input.
 ms.assetid: 6c64ed75-37ac-47ae-b39e-bdf10d2b5211
 keywords:

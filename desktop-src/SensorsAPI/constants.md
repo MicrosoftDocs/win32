@@ -1,7 +1,7 @@
 ---
 Description: This section describes platform-defined constants.
 ms.assetid: '1396ffd6-a660-4e0b-96a8-b0ea8b7e208d'
-title: Constants
+title: Constants (Sensor API Programming Reference)
 ms.topic: article
 ms.date: 05/31/2018
 ---

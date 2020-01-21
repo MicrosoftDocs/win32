@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Interfaces (Windows Animation)
 description: Reference documentation for interfaces defined by the Windows Animation Manager.
 ms.assetid: b54e319c-e140-4fd9-8045-5eb6f4a31326
 ms.topic: article
