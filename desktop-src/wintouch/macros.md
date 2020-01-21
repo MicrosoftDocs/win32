@@ -1,5 +1,5 @@
 ---
-title: Macros
+title: Macros (Windows Touch Gestures)
 description: This section contains macros for Windows Touch gestures.
 ms.assetid: 00877809-e8c7-41a5-928b-2cf66364d42a
 keywords:

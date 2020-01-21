@@ -1,5 +1,5 @@
 ---
-title: Language Bar
+title: Language Bar (TSF Applications)
 description: An application cannot add items to the language bar; only a text service can add items to the language bar.
 ms.assetid: facb0da1-3f80-4745-b021-c026e7e5356c
 keywords:

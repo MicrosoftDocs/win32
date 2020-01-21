@@ -1,5 +1,5 @@
 ---
-title: Macros
+title: Macros (Windows Touch Input)
 description: The following macros are used for Windows Touch input.
 ms.assetid: 3f10887f-5679-43b6-8bd0-f30e3bf715a1
 keywords:

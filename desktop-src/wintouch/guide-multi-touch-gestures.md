@@ -1,5 +1,5 @@
 ---
-title: Windows Touch Gestures
+title: Windows Touch Gestures (Programming Guide)
 description: This section contains topics about Windows Touch gestures.
 ms.assetid: afd61b18-4e54-44c5-9b71-74908c76c7ac
 keywords:
