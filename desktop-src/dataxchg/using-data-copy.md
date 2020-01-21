@@ -18,7 +18,7 @@ The following example demonstrates how to send information between two applicati
 The sending application displays a dialog box to the user which requests certain information. The application packages the information into a private data structure, includes a pointer to the structure in the [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-winuser-copydatastruct) structure, and sends the information to the receiving application using the [**WM\_COPYDATA**](wm-copydata.md) message. The receiving application has a hidden window with the class name Disp32Class.
 
 
-```
+```C++
 // ************ Globals ************
 //
 #define MYDISPLAY 1
@@ -71,7 +71,7 @@ BOOL CALLBACK InfoDlgProc( HWND, UINT, WPARAM, LPARAM );
 The receiving application has a hidden window which receives the information from [**WM\_COPYDATA**](wm-copydata.md) and displays it to the user.
 
 
-```
+```C++
 // ************ Globals ************
 //
 #define MYDISPLAY 1
