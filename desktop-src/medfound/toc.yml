@@ -3327,6 +3327,8 @@
         href: work-queue-identifiers.md
       - name: "IMFTimedTextTrack Data Format GUIDs"
         href: imftexttrack-data-formats.md
+      - name: "Content Decryption Module (CDM) GUIDs"
+        href: content-decryption-module-guids.md
     - name: "Media Foundation Datatypes"
       href: media-foundation-datatypes.md
       items: 
@@ -7775,6 +7777,12 @@
         href: codecapi-avlowlatencymode.md
       - name: "CODECAPI_VideoEncoderDisplayContentType"
         href: codecapi-videoencoderdisplaycontenttype.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH"
+        href: mf-contentdecryptionmodule-inprivatestorepath.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_PMPSTORECONTEXT"
+        href: mf-contentdecryptionmodule-pmpstorecontext.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_STOREPATH"
+        href: mf-contentdecryptionmodule-storepath.md
       - name: "MFNETSOURCE_ACCELERATEDSTREAMINGDURATION"
         href: mfnetsource-acceleratedstreamingduration-property.md
       - name: "MFNETSOURCE_AUTORECONNECTLIMIT"
