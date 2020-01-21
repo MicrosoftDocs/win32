@@ -9,7 +9,7 @@ topic_type:
 api_name:
 - CB_GETCUEBANNER
 api_location:
-- Winuser.h
+- CommCtrl.h
 api_type:
 - HeaderDef
 ms.topic: reference
@@ -52,7 +52,7 @@ If there is no cue banner text to get, the return value is 0. If the calling app
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
+| Header<br/>                   | <dl> <dt>CommCtrl.h</dt> </dl> |
 
 
 
