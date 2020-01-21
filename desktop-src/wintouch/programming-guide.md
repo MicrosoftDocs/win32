@@ -1,5 +1,5 @@
 ---
-title: Programming Guide
+title: Programming Guide (Touch Input)
 description: This section covers specific topics about software development with the Windows Touch API targeted to the Windows 7 operating system.
 ms.assetid: 8375475c-5a0e-42a2-8755-4c79dfe4cfce
 keywords:

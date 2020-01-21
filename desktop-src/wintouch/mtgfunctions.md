@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Functions (Windows Touch Gestures)
 description: This section contains functions for Windows Touch gestures.
 ms.assetid: 830031d1-eb8d-45d4-b66e-3f4fbb96ae13
 keywords:

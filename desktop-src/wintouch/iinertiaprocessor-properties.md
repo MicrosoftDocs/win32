@@ -1,5 +1,5 @@
 ---
-title: Properties
+title: Properties (IInertiaProcessor)
 description: This section contains the properties for the IInertiaProcessor interface.
 ms.assetid: 47fd1a49-8e14-4076-8ce6-f0c4917e8cf1
 keywords:

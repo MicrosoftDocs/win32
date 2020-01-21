@@ -1,5 +1,5 @@
 ---
-title: Samples
+title: Samples (UI Automation)
 description: The following sample applications demonstrate how to use the unmanaged Microsoft UI Automation provider and client APIs.
 ms.assetid: 53ba32de-85d2-477a-944a-963e1d5e1e95
 ms.topic: article

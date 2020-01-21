@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Functions (Boundary Feedback)
 description: This section describes the boundary feedback functions.
 ms.assetid: 7872a4cb-6ae0-449a-866a-58f909b6ef9f
 keywords:

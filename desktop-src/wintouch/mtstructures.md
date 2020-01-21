@@ -1,5 +1,5 @@
 ---
-title: Structures
+title: Structures (Windows Touch Gestures)
 description: This section contains structures for Windows Touch gestures.
 ms.assetid: 3735cfa1-095b-416c-a863-84fd7de4ba03
 keywords:

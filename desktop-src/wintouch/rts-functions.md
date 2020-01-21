@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Enumerations (Inertia and Manipulation)
 description: This section contains enumerations for manipulation.
 ms.assetid: a4424d27-c618-4fbe-99f6-70c74d3e2966
 keywords:
