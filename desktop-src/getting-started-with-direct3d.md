@@ -30,9 +30,9 @@ Direct3D:
 
 The Direct3D APIs that you choose depend on the style of app you want to write.
 
--   If you want to write a Windows Store app, use a subset of Direct3D 11, DXGI, and HLSL APIs. For a list of these APIs, see [Win32 and COM for Windows Store apps (graphics)](https://msdn.microsoft.com/library/BR205756(v=Win.10).aspx). To learn how to write a Direct3D 11 Windows Store app, see [An introduction to 3D graphics with DirectX](https://msdn.microsoft.com/library/Hh465137(v=Win.10).aspx).
--   If you write an app for the desktop, you can use the full set of Direct3D 11, DXGI, and HLSL APIs.
--   Starting with Windows 8, we no longer actively support the XNA framework for desktop apps. But Windows Store apps and desktop apps can use the full set of the [XAudio2](https://msdn.microsoft.com/library/Hh405049(v=VS.85).aspx) and [DirectXMath](https://msdn.microsoft.com/library/Hh437833(v=VS.85).aspx) APIs. Desktop apps can use the full set of the [XInput](https://msdn.microsoft.com/library/Hh405053(v=VS.85).aspx) APIs, while Windows Store apps can use most of the XInput APIs; for more info, see [XInput Versions](https://msdn.microsoft.com/library/Hh405051(v=VS.85).aspx).
+-   If you want to write a UWP app, use a subset of Direct3D 11, DXGI, and HLSL APIs. For a list of these APIs, see [Win32 and COM APIs for UWP apps](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps). To learn how to write a Direct3D 11 Windows Store app, see [Create 3D graphics with DirectX](https://docs.microsoft.com/previous-versions/windows/apps/hh465137(v=win.10)).
+-   If you write a desktop app, you can use the full set of Direct3D 11, DXGI, and HLSL APIs.
+-   Starting with Windows 8, we no longer actively support the XNA framework for desktop apps. But Windows Store apps, UWP apps, and desktop apps can use the full set of the [XAudio2](https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-apis-portal) and [DirectXMath](https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal) APIs. Desktop apps can use the full set of the [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal) APIs, while Windows Store apps and UWP apps can use most of the XInput APIs; for more info, see [XInput Versions](https://docs.microsoft.com/windows/desktop/xinput/xinput-versions).
 
 ## Which Direct3D version?
 

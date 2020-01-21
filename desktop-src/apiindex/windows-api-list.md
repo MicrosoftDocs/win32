@@ -244,12 +244,13 @@ The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85)
 
 ## Application Installation and Servicing
 
--   [Games Explorer](https://msdn.microsoft.com/library/Ee415251(v=VS.85).aspx)
--   [Side-by-side Assemblies](https://msdn.microsoft.com/library/Aa376414(v=VS.85).aspx)
--   [Windows Store app Packaging and Desployment](https://msdn.microsoft.com/library/Hh446581(v=VS.85).aspx)
--   [Developer License](https://msdn.microsoft.com/library/JJ554737(v=VS.85).aspx)
--   [Restart Manager](https://msdn.microsoft.com/library/Aa373656(v=VS.85).aspx)
--   [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx)
+-   [Games Explorer](https://msdn.microsoft.com/en-us/library/Ee415251(v=VS.85).aspx)
+-   [Side-by-side Assemblies](https://msdn.microsoft.com/en-us/library/Aa376414(v=VS.85).aspx)
+-   [Packaging, deployment, and query APIs](https://docs.microsoft.com/windows/desktop/appxpkg/api-reference
+)
+-   [Developer License](https://msdn.microsoft.com/en-us/library/JJ554737(v=VS.85).aspx)
+-   [Restart Manager](https://msdn.microsoft.com/en-us/library/Aa373656(v=VS.85).aspx)
+-   [Windows Installer](https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx)
 
 ## System Admin and Management
 
@@ -351,8 +352,8 @@ The following are technologies and APIs that are outdated or have been replaced 
 -   [Windows Media Rights Manager](https://docs.microsoft.com/previous-versions//bb614742(v=vs.85))
 -   [Windows Messaging (MAPI)](https://msdn.microsoft.com/library/Dd296730(v=VS.85).aspx): Use [Office MAPI](https://msdn.microsoft.com/library/Cc765775(v=office.12).aspx) instead.
 -   [Windows Multimedia](https://msdn.microsoft.com/library/Dd743606(v=VS.85).aspx)
--   [Windows Gadget Platform](https://msdn.microsoft.com/library/Dd370869(v=VS.85).aspx): Create Windows Store apps instead.
--   [Windows Sidebar](https://msdn.microsoft.com/library/Aa965853(v=VS.85).aspx): Create Windows Store apps instead.
+-   [Windows Gadget Platform](https://msdn.microsoft.com/library/Dd370869(v=VS.85).aspx): Create UWP apps instead.
+-   [Windows Sidebar](https://msdn.microsoft.com/library/Aa965853(v=VS.85).aspx): Create UWP apps instead.
 -   [Windows SideShow](https://msdn.microsoft.com/library/ms744179(v=VS.85).aspx): No replacement.
 -   [WPF Bitmap Effects](https://msdn.microsoft.com/library/ms735322(v=VS.85).aspx)
 
