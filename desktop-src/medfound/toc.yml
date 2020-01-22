@@ -3246,8 +3246,10 @@
           href: mft-input-types-attributes.md
         - name: "MFT_OUTPUT_TYPES_Attributes"
           href: mft-output-types-attributes.md
-        - name: "MFT_PREFERRED_ENCODER_PROFILE"
+        - name: "MFT_POLICY_SET_AWARE"
           href: mft-preferred-encoder-profile.md
+        - name: "MFT_PREFERRED_ENCODER_PROFILE"
+          href: mft-policy-set-aware.md
         - name: "MFT_PREFERRED_OUTPUTTYPE_Attribute"
           href: mft-preferred-outputtype-attribute.md
         - name: "MFT_PROCESS_LOCAL_Attribute"
@@ -3260,6 +3262,8 @@
           href: mft-support-dynamic-format-change-attribute.md
         - name: "MFT_TRANSFORM_CLSID_Attribute"
           href: mft-transform-clsid-attribute.md
+        - name: "MFT_USING_HARDWARE_DRM"
+          href: mft-using-hardware-drm.md
         - name: "VIDEO_ZOOM_RECT"
           href: video-zoom-rect-attribute.md
       - name: "ASF Attributes"
