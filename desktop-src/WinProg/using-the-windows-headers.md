@@ -11,7 +11,7 @@ keywords:
 - _WIN32_IE
 - WIN32_LEAN_AND_MEAN
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/22/2020
 ---
 
 # Using the Windows Headers
