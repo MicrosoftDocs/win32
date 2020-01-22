@@ -3,7 +3,7 @@ Description: An application manifest is an XML file that describes and identifie
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
 ms.topic: article
-ms.date: 04/19/2019
+ms.date: 01/22/2020
 ms.custom: 19H1
 ---
 
@@ -206,7 +206,7 @@ Specifies whether to disable window filtering. **TRUE** disables window filterin
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2011/WindowsSettings">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">
       <disableWindowFiltering>true</disableWindowFiltering>
     </asmv3:windowsSettings>
   </asmv3:application>
@@ -241,7 +241,7 @@ For more information about dpi awareness settings, see [Comparison of DPI Awaren
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2005/WindowsSettings">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
       <dpiAware>true</dpiAware>
     </asmv3:windowsSettings>
   </asmv3:application>
@@ -278,7 +278,7 @@ For more information about dpi awareness settings supported by this element, see
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2016/WindowsSettings">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
       <dpiAwareness>PerMonitorV2, unaware</dpiAwareness>
     </asmv3:windowsSettings>
   </asmv3:application>
@@ -303,7 +303,7 @@ Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by th
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2017/WindowsSettings">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2017/WindowsSettings">
       <gdiScaling>true</gdiScaling>
     </asmv3:windowsSettings>
   </asmv3:application>
@@ -327,7 +327,7 @@ Enables long paths that exceed **MAX_PATH** in length. This element is supported
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns:ws3="https://schemas.microsoft.com/SMI/2016/WindowsSettings">
+    <asmv3:windowsSettings xmlns:ws3="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
       <ws2:longPathAware>true</ws2:longPathAware>
     </asmv3:windowsSettings>
   </asmv3:application>
@@ -350,7 +350,7 @@ Specifies whether printer driver isolation is enabled. **TRUE** indicates that i
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2011/WindowsSettings">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">
       <printerDriverIsolation>true</printerDriverIsolation>
     </asmv3:windowsSettings>
   </asmv3:application>
@@ -376,7 +376,7 @@ This element has no attributes.
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
  ...
   <asmv3:application>
-    <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2020/WindowsSettings">
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">
       <heapType>SegmentHeap</heapType>
     </asmv3:windowsSettings>
   </asmv3:application>
