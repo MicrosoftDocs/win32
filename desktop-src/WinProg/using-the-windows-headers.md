@@ -39,21 +39,29 @@ The following table describes the preferred macros used in the Windows header fi
 
 
 
-| Minimum system required                       | Value for NTDDI\_VERSION         |
-|-----------------------------------------------|----------------------------------|
-| Windows 8.1                                   | **NTDDI\_WINBLUE** (0x06030000)  |
-| Windows 8                                     | **NTDDI\_WIN8** (0x06020000)     |
-| Windows 7                                     | **NTDDI\_WIN7** (0x06010000)     |
-| Windows Server 2008                           | **NTDDI\_WS08** (0x06000100)     |
-| Windows Vista with Service Pack 1 (SP1)       | **NTDDI\_VISTASP1** (0x06000100) |
-| Windows Vista                                 | **NTDDI\_VISTA** (0x06000000)    |
-| Windows Server 2003 with Service Pack 2 (SP2) | **NTDDI\_WS03SP2** (0x05020200)  |
-| Windows Server 2003 with Service Pack 1 (SP1) | **NTDDI\_WS03SP1** (0x05020100)  |
-| Windows Server 2003                           | **NTDDI\_WS03** (0x05020000)     |
-| Windows XP with Service Pack 3 (SP3)          | **NTDDI\_WINXPSP3** (0x05010300) |
-| Windows XP with Service Pack 2 (SP2)          | **NTDDI\_WINXPSP2** (0x05010200) |
-| Windows XP with Service Pack 1 (SP1)          | **NTDDI\_WINXPSP1** (0x05010100) |
-| Windows XP                                    | **NTDDI\_WINXP** (0x05010000)    |
+| Minimum system required                       | Value for NTDDI\_VERSION            |
+|-----------------------------------------------|-------------------------------------|
+| Windows 10 1903 "19H1"                        | **NTDDI\_WIN10\_19H1** (0x0A000007) |
+| Windows 10 1809 "Redstone 5"                  | **NTDDI\_WIN10\_RS5** (0x0A000006)  |
+| Windows 10 1803 "Redstone 4"                  | **NTDDI\_WIN10\_RS4** (0x0A000005)  |
+| Windows 10 1709 "Redstone 3"                  | **NTDDI\_WIN10\_RS3** (0x0A000004)  |
+| Windows 10 1703 "Redstone 2"                  | **NTDDI\_WIN10\_RS2** (0x0A000003)  |
+| Windows 10 1607 "Redstone 1"                  | **NTDDI\_WIN10\_RS1** (0x0A000002)  |
+| Windows 10 1511 "Threshold 2"                 | **NTDDI\_WIN10\_TH2** (0x0A000001)  |
+| Windows 10 1507 "Threshold"                   | **NTDDI\_WIN10** (0x0A000000)       |
+| Windows 8.1                                   | **NTDDI\_WINBLUE** (0x06030000)     |
+| Windows 8                                     | **NTDDI\_WIN8** (0x06020000)        |
+| Windows 7                                     | **NTDDI\_WIN7** (0x06010000)        |
+| Windows Server 2008                           | **NTDDI\_WS08** (0x06000100)        |
+| Windows Vista with Service Pack 1 (SP1)       | **NTDDI\_VISTASP1** (0x06000100)    |
+| Windows Vista                                 | **NTDDI\_VISTA** (0x06000000)       |
+| Windows Server 2003 with Service Pack 2 (SP2) | **NTDDI\_WS03SP2** (0x05020200)     |
+| Windows Server 2003 with Service Pack 1 (SP1) | **NTDDI\_WS03SP1** (0x05020100)     |
+| Windows Server 2003                           | **NTDDI\_WS03** (0x05020000)        |
+| Windows XP with Service Pack 3 (SP3)          | **NTDDI\_WINXPSP3** (0x05010300)    |
+| Windows XP with Service Pack 2 (SP2)          | **NTDDI\_WINXPSP2** (0x05010200)    |
+| Windows XP with Service Pack 1 (SP1)          | **NTDDI\_WINXPSP1** (0x05010100)    |
+| Windows XP                                    | **NTDDI\_WINXP** (0x05010000)       |
 
 
 
@@ -65,7 +73,8 @@ The following tables describe other macros used in the Windows header files.
 
 | Minimum system required                           | Minimum value for \_WIN32\_WINNT and WINVER |
 |---------------------------------------------------|---------------------------------------------|
-| Windows 8.1                                       | **\_WIN32\_WINNT\_WINBLUE** (0x0602)        |
+| Windows 10                                        | **\_WIN32\_WINNT\_WIN10** (0x0A00)          |
+| Windows 8.1                                       | **\_WIN32\_WINNT\_WINBLUE** (0x0603)        |
 | Windows 8                                         | **\_WIN32\_WINNT\_WIN8** (0x0602)           |
 | Windows 7                                         | **\_WIN32\_WINNT\_WIN7** (0x0601)           |
 | Windows Server 2008                               | **\_WIN32\_WINNT\_WS08** (0x0600)           |
@@ -81,6 +90,7 @@ The following tables describe other macros used in the Windows header files.
 
 | Minimum version required          | Minimum value of \_WIN32\_IE      |
 |-----------------------------------|-----------------------------------|
+| Internet Explorer 11.0            | **\_WIN32\_IE\_IE110** (0x0A00)   |
 | Internet Explorer 10.0            | **\_WIN32\_IE\_IE100** (0x0A00)   |
 | Internet Explorer 9.0             | **\_WIN32\_IE\_IE90** (0x0900)    |
 | Internet Explorer 8.0             | **\_WIN32\_IE\_IE80** (0x0800)    |
