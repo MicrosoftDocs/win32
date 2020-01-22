@@ -217,6 +217,78 @@ Applications can expect to see DXGI\_DEVICE\_REMOVED errors in the following API
 -   [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)
 -   [**GetDeviceRemovedReason**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason)
 
+## Command list API Restrictions
+
+Some command list APIs can only be called on certain types of command lists. The table below shows which command list APIs are valid to call on each type of command list. It also shows which APIs are valid to call in a [**D3D12 render pass**](/windows/desktop/direct3d12/direct3d-12-render-passes). 
+
+| API Name                                         | Graphics | Compute | Copy | Bundle | In Render Pass |
+|--------------------------------------------------|:--------:|:-------:|:----:|:------:|:--------------:|
+| AtomicCopyBufferUINT                             | ✓        | ✓       | ✓    |        |                |
+| AtomicCopyBufferUINT64                           | ✓        | ✓       | ✓    |        |                |
+| BeginQuery                                       | ✓        |         |      |        | ✓              |
+| BeginRenderPass                                  | ✓        |         |      |        |                |
+| BuildRaytracingAccelerationStructure             | ✓        | ✓       |      |        |                |
+| ClearDepthStencilView                            | ✓        |         |      |        |                |
+| ClearRenderTargetView                            | ✓        |         |      |        |                |
+| ClearState                                       | ✓        | ✓       |      |        |                |
+| ClearUnorderedAccessViewFloat                    | ✓        | ✓       |      |        |                |
+| ClearUnorderedAccessViewUint                     | ✓        | ✓       |      |        |                |
+| CopyBufferRegion                                 | ✓        | ✓       | ✓    |        |                |
+| CopyRaytracingAccelerationStructure              | ✓        | ✓       |      |        |                |
+| CopyResource                                     | ✓        | ✓       | ✓    |        |                |
+| CopyTextureRegion                                | ✓        | ✓       | ✓    |        |                |
+| CopyTiles                                        | ✓        | ✓       | ✓    |        |                |
+| DiscardResource                                  | ✓        | ✓       |      |        |                |
+| Dispatch                                         | ✓        | ✓       |      | ✓      |                |
+| DispatchRays                                     | ✓        | ✓       |      | ✓      |                |
+| DrawIndexedInstanced                             | ✓        |         |      | ✓      | ✓              |
+| DrawInstanced                                    | ✓        |         |      | ✓      | ✓              |
+| EmitRaytracingAccelerationStructurePostbuildInfo | ✓        | ✓       |      |        |                |
+| EndQuery                                         | ✓        | ✓       | ✓    |        | ✓              |
+| EndRenderPass                                    | ✓        |         |      |        | ✓              |
+| ExecuteBundle                                    | ✓        |         |      |        | ✓              |
+| ExecuteIndirect                                  | ✓        | ✓       |      | ✓      | ✓              |
+| ExecuteMetaCommand                               | ✓        | ✓       |      |        |                |
+| IASetIndexBuffer                                 | ✓        |         |      | ✓      | ✓              |
+| IASetPrimitiveTopology                           | ✓        |         |      | ✓      | ✓              |
+| IASetVertexBuffers                               | ✓        |         |      | ✓      | ✓              |
+| InitializeMetaCommand                            | ✓        | ✓       |      |        |                |
+| OMSetBlendFactor                                 | ✓        |         |      | ✓      | ✓              |
+| OMSetDepthBounds                                 | ✓        |         |      | ✓      | ✓              |
+| OMSetRenderTargets                               | ✓        |         |      |        |                |
+| OMSetStencilRef                                  | ✓        |         |      | ✓      | ✓              |
+| ResolveQueryData                                 | ✓        | ✓       | ✓    |        |                |
+| ResolveSubresource                               | ✓        |         |      |        |                |
+| ResolveSubresourceRegion                         | ✓        |         |      |        |                |
+| ResourceBarrier                                  | ✓        | ✓       | ✓    |        | ✓              |
+| RSSetScissorRects                                | ✓        |         |      |        | ✓              |
+| RSSetShadingRate                                 | ✓        |         |      | ✓      | ✓              |
+| RSSetShadingRateImage                            | ✓        |         |      | ✓      | ✓              |
+| RSSetViewports                                   | ✓        |         |      |        | ✓              |
+| SetComputeRoot32BitConstant                      | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRoot32BitConstants                     | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootConstantBufferView                 | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootDescriptorTable                    | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootShaderResourceView                 | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootSignature                          | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootUnorderedAccessView                | ✓        | ✓       |      | ✓      | ✓              |
+| SetDescriptorHeaps                               | ✓        | ✓       |      | ✓      | ✓              |
+| SetGraphicsRoot32BitConstant                     | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRoot32BitConstants                    | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootConstantBufferView                | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootDescriptorTable                   | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootShaderResourceView                | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootSignature                         | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootUnorderedAccessView               | ✓        |         |      | ✓      | ✓              |
+| SetPipelineState                                 | ✓        | ✓       |      | ✓      | ✓              |
+| SetPipelineState1                                | ✓        | ✓       |      | ✓      |                |
+| SetPredication                                   | ✓        | ✓       |      |        | ✓              |
+| SetProtectedResourceSession                      | ✓        | ✓       | ✓    |        |                |
+| SetSamplePositions                               | ✓        |         |      | ✓      | ✓              |
+| SetViewInstanceMask                              | ✓        |         |      | ✓      | ✓              |
+| SOSetTargets                                     | ✓        |         |      |        | ✓              |
+| WriteBufferImmediate                             | ✓        | ✓       | ✓    | ✓      | ✓              |
+
 ## Bundle restrictions
 
 Restrictions enable Direct3D 12 drivers to do most of the work associated with bundles at record time, thus enabling the [**ExecuteBundle**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executebundle) API to be run with low overhead. All pipeline state objects referenced by a bundle must have the same render target formats, depth buffer format, and sample descriptions.
