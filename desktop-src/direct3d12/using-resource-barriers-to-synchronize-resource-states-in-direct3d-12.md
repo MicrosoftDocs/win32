@@ -149,7 +149,7 @@ The following resources will decay when an [**ExecuteCommandLists**](/windows/wi
 
 Like common state promotion, the decay is free in that no additional synchronization is needed. Combining common state promotion and decay can help to eliminate many unnecessary [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) transitions. In some cases, this can provide significant performance improvements.
 
-Resources will decay to the common state regardless of whether they were explicitly transitioned using resource barriers or implicitly promoted.
+Buffers and Simultaneous-Access resources will decay to the common state regardless of whether they were explicitly transitioned using resource barriers or implicitly promoted.
 
 ### Performance implications
 
