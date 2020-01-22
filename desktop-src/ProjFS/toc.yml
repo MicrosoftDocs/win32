@@ -50,37 +50,37 @@
       - name: "PrjAllocateAlignedBuffer"
         href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer
       - name: "PrjClearNegativePathCache"
-        href: /windows/win32/api/projectedfslib/nf-prjclearnegativepathcache
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjclearnegativepathcache
       - name: "PrjCompleteCommand"
-        href: /windows/win32/api/projectedfslib/nf-prjcompletecommand
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjcompletecommand
       - name: "PrjDeleteFile"
-        href: /windows/win32/api/projectedfslib/nf-prjdeletefile
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjdeletefile
       - name: "PrjDoesNameContainWildCards"
-        href: /windows/win32/api/projectedfslib/nf-prjdoesnamecontainwildcards
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjdoesnamecontainwildcards
       - name: "PrjFileNameCompare"
-        href: /windows/win32/api/projectedfslib/nf-prjfilenamecompare
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamecompare
       - name: "PrjFileNameMatch"
-        href: /windows/win32/api/projectedfslib/nf-prjfilenamematch
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamematch
       - name: "PrjFillDirEntryBuffer"
-        href: /windows/win32/api/projectedfslib/nf-prjfilldirentrybuffer
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer
       - name: "PrjFreeAlignedBuffer"
-        href: /windows/win32/api/projectedfslib/nf-prjfreealignedbuffer
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfreealignedbuffer
       - name: "PrjGetOnDiskFileState"
-        href: /windows/win32/api/projectedfslib/nf-prjgetondiskfilestate
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjgetondiskfilestate
       - name: "PrjGetVirtualizationInstanceInfo"
-        href: /windows/win32/api/projectedfslib/nf-prjgetvirtualizationinstanceinfo
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo
       - name: "PrjMarkDirectoryAsPlaceholder"
-        href: /windows/win32/api/projectedfslib/nf-prjmarkdirectoryasplaceholder
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder
       - name: "PrjStartVirtualizing"
-        href: /windows/win32/api/projectedfslib/nf-prjstartvirtualizing
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing
       - name: "PrjStopVirtualizing"
-        href: /windows/win32/api/projectedfslib/nf-prjstopvirtualizing
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjstopvirtualizing
       - name: "PrjUpdateFileIfNeeded"
-        href: /windows/win32/api/projectedfslib/nf-prjupdatefileifneeded
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjupdatefileifneeded
       - name: "PrjWriteFileData"
-        href: /windows/win32/api/projectedfslib/nf-prjwritefiledata
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwritefiledata
       - name: "PrjWritePlaceholderInfo"
-        href: /windows/win32/api/projectedfslib/nf-prjwriteplaceholderinfo
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo
     - name: "Projected File System structures"
       href: projfs-structures.md
       items:
