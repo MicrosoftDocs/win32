@@ -2864,6 +2864,8 @@
           href: mf-pd-total-file-size-attribute.md
         - name: "MF_PD_VIDEO_ENCODING_BITRATE"
           href: mf-pd-video-encoding-bitrate-attribute.md
+        - name: "MF_POLICY_ID"
+          href: mf-policy-id.md
         - name: "MF_READWRITE_D3D_OPTIONAL"
           href: mf-readwrite-d3d-optional.md
         - name: "MF_READWRITE_DISABLE_CONVERTERS"
