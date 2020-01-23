@@ -14,8 +14,8 @@ This section describes the issues and limitations that you should consider befor
 
 -   [Scope and Longevity of Identity String](scope-and-longevity-of-identity-string.md)
 -   [Multiple Annotations on a Single Accessible Element](multiple-annotations-on-a-single-accessible-element.md)
--   [Annotation Properties That Have Corresponding WinEvents](annotation-properties-that-have-corresponding-winevents.md)
--   [Interaction with WinEvents](interaction-with-winevents.md)
+-   [Annotation Properties That Have Corresponding WinEvents](annotation-properties-that-have-corresponding-winevents-overview.md)
+-   [Interaction with WinEvents](interaction-with-winevents-overview.md)
 -   [Native IAccessible Support](native-iaccessible-support.md)
 -   [In-Process Support](in-process-support.md)
 

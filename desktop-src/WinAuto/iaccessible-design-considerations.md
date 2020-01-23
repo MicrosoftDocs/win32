@@ -16,7 +16,7 @@ This section discusses the issues that server developer face when designing clas
 -   [Choosing Which Properties to Support](choosing-which-properties-to-support.md)
 -   [Choosing the Content for Descriptive Properties](choosing-the-content-for-descriptive-properties.md)
 -   [Setting Properties for Animated or Moving Objects](setting-properties-for-animated-or-moving-objects.md)
--   [Generating Appropriate WinEvents](generating-appropriate-winevents.md)
+-   [Generating Appropriate WinEvents](generating-appropriate-winevents-overview.md)
 -   [Exposing Additional Information Not Covered by IAccessible Interface](exposing-additional-information-not-covered-by-iaccessible-interface.md)
 
  

@@ -37,7 +37,7 @@ This section contains information about the client functions used with Microsoft
 
 <dl> <dt>
 
-[Active Accessibility User Interface Services](active-accessibility-user-interface-services-collision208.md)
+[Active Accessibility User Interface Services](active-accessibility-user-interface-services-ref.md)
 </dt> </dl>
 
  

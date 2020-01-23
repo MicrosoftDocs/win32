@@ -1,5 +1,5 @@
 ---
-title: WinEvents and Active Accessibility
+title: WinEvents and Active Accessibility Overview
 description: Microsoft Active Accessibility servers raise WinEvents to notify clients when an accessible object changes.
 ms.assetid: 'a2d486ee-84ef-4c44-a832-dbc0dae81542'
 ms.topic: article
@@ -39,7 +39,7 @@ Inside the hook procedure, the client can call [**AccessibleObjectFromEvent**](/
 
 <dl> <dt>
 
-[WinEvents](winevents-collision169.md)
+[WinEvents](winevents-infrastructure.md)
 </dt> </dl>
 
  

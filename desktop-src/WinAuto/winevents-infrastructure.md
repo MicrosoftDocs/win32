@@ -1,5 +1,5 @@
 ---
-title: WinEvents
+title: WinEvents Infrastructure
 description: The Microsoft Windows operating system includes a feature, called WinEvents, that enables processes and applications running on the Windows desktop to exchange certain types of information.
 ms.assetid: ba97b00b-4a4c-4889-ae9c-8e92eb742849
 ms.topic: article
@@ -16,14 +16,14 @@ This section provides suggestions, guidelines, and examples to help clients hand
 
 ## In this section
 
--   [What Are WinEvents?](what-are-winevents.md)
+-   [What Are WinEvents?](what-are-winevents-overview.md)
 -   [Registering a Hook Function](registering-a-hook-function.md)
 -   [System-Level and Object-Level Events](system-level-and-object-level-events.md)
 -   [In-Context and Out-of-Context Hook Functions](in-context-and-out-of-context-hook-functions.md)
 -   [Guarding Against Reentrancy in Hook Functions](guarding-against-reentrancy-in-hook-functions.md)
 -   [Allocation of WinEvent IDs](allocation-of-winevent-ids.md)
 
-For an overview of the event notification process in Microsoft Active Accessibility, see [WinEvents](winevents.md) in the [Technical Overview](technical-overview.md).
+For an overview of the event notification process in Microsoft Active Accessibility, see [WinEvents](winevents-overview.md) in the [Technical Overview](technical-overview.md).
 
 ## Related topics
 
