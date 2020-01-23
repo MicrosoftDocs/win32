@@ -2681,9 +2681,9 @@
               - name: "Multiple Annotations on a Single Accessible Element"
                 href: multiple-annotations-on-a-single-accessible-element.md
               - name: "Annotation Properties That Have Corresponding WinEvents"
-                href: annotation-properties-that-have-corresponding-winevents-overview.md
+                href: annotation-properties-that-have-corresponding-winevents.md
               - name: "Interaction with WinEvents"
-                href: interaction-with-winevents-overview.md
+                href: interaction-with-winevents.md
               - name: "Native IAccessible Support"
                 href: native-iaccessible-support.md
               - name: "In-Process Support"
@@ -2725,7 +2725,7 @@
             - name: "Setting Properties for Animated or Moving Objects"
               href: setting-properties-for-animated-or-moving-objects.md
             - name: "Generating Appropriate WinEvents"
-              href: generating-appropriate-winevents-overview.md
+              href: generating-appropriate-winevents.md
             - name: "Exposing Additional Information Not Covered by IAccessible Interface"
               href: exposing-additional-information-not-covered-by-iaccessible-interface.md
               items: 
@@ -3125,10 +3125,10 @@
     href: common-infrastructure.md
     items: 
     - name: "WinEvents"
-      href: winevents-collision169.md
+      href: winevents-infrastructure.md
       items: 
       - name: "What Are WinEvents?"
-        href: what-are-winevents-overview.md
+        href: what-are-winevents.md
       - name: "Registering a Hook Function"
         href: registering-a-hook-function.md
       - name: "System-Level and Object-Level Events"

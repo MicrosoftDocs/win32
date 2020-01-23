@@ -14,7 +14,7 @@ You can use the following tools for testing Microsoft Active Accessibility imple
 
 | Tool                                                     | Description                                                                                                                                                                           |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Accessible Event Watcher](accessible-event-watcher.md) | Logs [WinEvents](winevents-collision169.md) as they occur within the system.                                                                                                         |
+| [Accessible Event Watcher](accessible-event-watcher.md) | Logs [WinEvents](winevents-infrastructure.md) as they occur within the system.                                                                                                         |
 | [Inspect](inspect-objects.md)                           | Identifies problems with the implementation of properties and methods in accessible objects of Microsoft Active Accessibility, and in automation elements of Microsoft UI Automation. |
 
 

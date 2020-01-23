@@ -16,7 +16,7 @@ This section provides suggestions, guidelines, and examples to help clients hand
 
 ## In this section
 
--   [What Are WinEvents?](what-are-winevents-overview.md)
+-   [What Are WinEvents?](what-are-winevents.md)
 -   [Registering a Hook Function](registering-a-hook-function.md)
 -   [System-Level and Object-Level Events](system-level-and-object-level-events.md)
 -   [In-Context and Out-of-Context Hook Functions](in-context-and-out-of-context-hook-functions.md)
