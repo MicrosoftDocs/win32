@@ -50,14 +50,14 @@ The caret supports the following [**IAccessible**](/windows/desktop/api/oleacc/n
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole"><strong>get_accRole</strong></a></td>
-<td>The <strong>Role</strong> property is <a href="object-roles"><strong>ROLE_SYSTEM_CARET</strong></a>.</td>
+<td>The <strong>Role</strong> property is <strong>[ROLE_SYSTEM_CARET](object-roles.md)</strong>.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate"><strong>get_accState</strong></a></td>
 <td>Possible values for the <strong>State</strong> property include:
 <ul>
 <li>Zero, which means the caret is visible</li>
-<li><a href="object-state-constants"><strong>STATE_SYSTEM_INVISIBLE</strong></a></li>
+<li><strong>[STATE_SYSTEM_INVISIBLE](object-state-constants.md)</strong></li>
 </ul></td>
 </tr>
 </tbody>
