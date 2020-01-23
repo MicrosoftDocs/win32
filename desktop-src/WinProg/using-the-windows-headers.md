@@ -120,7 +120,7 @@ To set \_WIN32\_WINNT in your source file, use the following statement:
 
 To set \_WIN32\_WINNT using the /D compiler option, use the following command:
 
-**cl -c /D\_WIN32\_WINNT=0x0502** *source***.cpp**
+**cl -c /D\_WIN32\_WINNT=0x0502** _source_**.cpp**
 
 For information on using the /D compiler option, see [/D (preprocessor definitions)](https://docs.microsoft.com/cpp/build/reference/d-preprocessor-definitions).
 
