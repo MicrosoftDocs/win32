@@ -8,6 +8,10 @@ ms.date: 05/31/2018
 
 # What's New in Native Wifi
 
+## Windows 10, version 2004
+
+See [Provision a Wi-Fi profile via a website](prov-wifi-profile-via-website.md).
+
 ## Windows 10
 
 Support for Hotspot 2.0 has been added to the [WLAN\_profile schema](wlan-profileschema-schema.md). Hotspot 2.0 enables automatic connection to public Wi-Fi services using existing credentials and membership in service provider networks. Service providers specify how connections are made using the new schema elements to describe which networks to use, and how to authenticate to them. See the [**Hotspot2**](wlan-profileschema-hotspot2-element.md) element documentation for details.
