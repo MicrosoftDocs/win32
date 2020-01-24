@@ -50,10 +50,10 @@ Since JobInterleaving is not one of the [Print Schema Public Keywords](https://m
 
 ```XML
 <psf:PrintCapabilities 
-xmlns:psf="https://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
+xmlns:psf="http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
 xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema"  
 version="1" 
-xmlns:ns0000=https://schemas.microsoft.com/windows/2006/06/printing/printschemakeywords/microsoftxpsdocumentwriter>
+xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemakeywords/microsoftxpsdocumentwriter>
 ```
 
 
@@ -110,10 +110,10 @@ Since JobImageType is not one of the [Print Schema Public Keywords](https://msdn
 
 ```XML
 <psf:PrintTicket 
-xmlns:psf="https://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
+xmlns:psf="http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
 xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema"  
 version="1" 
-xmlns:ns0000=https://schemas.microsoft.com/windows/2006/06/printing/printschemakeywords/microsoftxpsdocumentwriter>
+xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemakeywords/microsoftxpsdocumentwriter>
 ```
 
 

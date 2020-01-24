@@ -36,7 +36,7 @@ To read files as a text stream, you must create the scripting [TextStream](https
 2.  Construct the URI to identify the resource.
 
     ```VB
-    strResource = "https://schemas.microsoft.com/wbem/wsman/1/" &_
+    strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
                  "wmi/root/cimv2/Win32_ScheduledJob"
     ```
 
@@ -68,7 +68,7 @@ The following VBScript code example shows the complete script.
 Const RemoteComputer = "servername.domain.com"
 Set objWsman = CreateObject( "WSMan.Automation" )
 Set objSession = objWsman.CreateSession( "https://" & RemoteComputer )
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/" &_
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
               "wmi/root/cimv2/Win32_ScheduledJob"
 
 Set EnumJobs = objSession.Enumerate( strResource )

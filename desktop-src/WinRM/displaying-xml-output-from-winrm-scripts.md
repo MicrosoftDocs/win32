@@ -43,7 +43,7 @@ The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl tha
 3.  Obtain data through [**Session**](session.md) object methods.
 
     ```VB
-    xmlResponse = Session.Get("https://schemas.microsoft.com/" & _
+    xmlResponse = Session.Get("http://schemas.microsoft.com/" & _
         "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Spooler")
     ```
 
@@ -76,7 +76,7 @@ Set Session = Wsman.CreateSession
 Set xmlFile = CreateObject( "MSXml.DOMDocument" )
 Set xslFile = CreateObject( "MSXml.DOMDocument" )
 
-xmlResponse = Session.Get("https://schemas.microsoft.com/" & _
+xmlResponse = Session.Get("http://schemas.microsoft.com/" & _
     "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Spooler")
 xmlFile.LoadXml(xmlResponse)
 xslFile.Load("WsmTxt.xsl")
@@ -114,7 +114,7 @@ The following subroutine transforms each line of your data as shown in the follo
 Const RemoteComputer = "servername.domain.com"
 Set objWsman = CreateObject("WSMan.Automation")
 Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
-strResource = "https://schemas.microsoft.com/" & _
+strResource = "http://schemas.microsoft.com/" & _
     "wbem/wsman/1/wmi/root/cimv2/Win32_LogicalDisk"
 Set objResultSet = objSession.Enumerate(strResource)
 While Not objResultSet.AtEndOfStream

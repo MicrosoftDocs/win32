@@ -49,10 +49,10 @@ This parameter can contain one of the following:
 -   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://docs.microsoft.com/previous-versions/windows/desktop/wmitimepprov/win32-localtime), you cannot use a selector.
 
     ```VB
-    strResourceUri = "https://schemas.microsoft.com/" _ 
+    strResourceUri = "http://schemas.microsoft.com/" _ 
         & "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
 
-    strResourceUri = "https://schemas.microsoft.com/" _ 
+    strResourceUri = "http://schemas.microsoft.com/" _ 
         & "wbem/wsman/1/wmi/root/cimv2/Win32_LocalTime"
     ```
 
@@ -96,7 +96,7 @@ If objSession is Nothing Then
 End If 
 
 
-strResourceUri = "https://schemas.microsoft.com/" _ 
+strResourceUri = "http://schemas.microsoft.com/" _ 
     & "wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
 
 On Error Resume Next
@@ -146,7 +146,7 @@ If objSession is Nothing Then
 End If 
 
 
-strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/" _ 
+strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/" _ 
     & "Win32_Service?Name=winmgmt"
 
 

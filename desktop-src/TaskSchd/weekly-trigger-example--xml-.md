@@ -27,7 +27,7 @@ The following XML example shows how to define a task with a single execution act
 <!--
 This sample schedules a task to start on a bi-weekly basis.
 -->
-<Task xmlns="https://schemas.microsoft.com/windows/2004/02/mit/task">
+<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
     <RegistrationInfo>
         <Date>2005-05-01T09:00:00</Date>
         <Author>AuthorName</Author>

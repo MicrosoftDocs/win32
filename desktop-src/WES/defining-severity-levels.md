@@ -23,7 +23,7 @@ The following example shows how to define a level. You must specify the level's 
 
 ```XML
 <instrumentationManifest
-    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
     xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
     xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >

@@ -22,11 +22,11 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
 
 
 ```XML
-<wsdl:definitions xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="https://schemas.xmlsoap.org/soap/encoding/" xmlns:wsam="https://www.w3.org/2007/05/addressing/metadata" xmlns:tns="https://Microsoft.Virtualization.RDV" xmlns:wsa="https://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="https://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msc="https://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="https://www.w3.org/2005/08/addressing" xmlns:wsx="https://schemas.xmlsoap.org/ws/2004/09/mex" targetNamespace="https://Microsoft.Virtualization.RDV" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="https://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="https://schemas.xmlsoap.org/soap/encoding/" xmlns:wsam="https://www.w3.org/2007/05/addressing/metadata" xmlns:tns="https://Microsoft.Virtualization.RDV" xmlns:wsa="https://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="https://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="https://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="https://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="https://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="https://www.w3.org/2005/08/addressing" xmlns:wsx="https://schemas.xmlsoap.org/ws/2004/09/mex" targetNamespace="https://Microsoft.Virtualization.RDV" xmlns:wsdl="https://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <xsd:schema targetNamespace="https://Microsoft.Virtualization.RDV/Imports" xmlns:xs="https://www.w3.org/2001/XMLSchema">
       <xsd:import namespace="https://Microsoft.Virtualization.RDV" />
-      <xsd:import namespace="https://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xsd:import namespace="https://schemas.datacontract.org/2004/07/Microsoft.Virtualization.RDV" />
       <xs:element name="StartVM">
         <xs:complexType>
@@ -39,7 +39,7 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
       <xs:element name="StartVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="https://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
+            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -83,7 +83,7 @@ Beginning with Windows Server 2008 R2, client computers can communicate with w
       <xs:element name="PlaceVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="https://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
+            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -374,7 +374,7 @@ The web service must return the following element to the filter plug-in.
       <xs:element name="PlaceVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="https://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
+            <xs:element minOccurs="0" name="PlaceVMResult" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/" type="q6:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -443,7 +443,7 @@ The web service must return the following element to the filter plug-in.
       <xs:element name="StartVMResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="https://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
+            <xs:element minOccurs="0" name="StartVMResult" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/" type="q2:guid" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

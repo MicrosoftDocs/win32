@@ -55,7 +55,7 @@ Const RemoteComputer = "ComputerName.domain.com"
 
 Set objWsman = CreateObject("WSMan.Automation")
 Set objSession = objWsman.CreateSession("https://" & RemoteComputer)
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
   "wmi/root/cimv2/Win32_OperatingSystem"
 Set objResponse = objSession.Enumerate(strResource)
 
@@ -136,7 +136,7 @@ iFlags = objWsman.SessionFlagUseKerberos Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession("https://" & RemoteComputer, _
   iFlags, objConnectionOptions)
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
   "wmi/root/cimv2/Win32_OperatingSystem"
 Set objResponse = objSession.Enumerate(strResource)
 

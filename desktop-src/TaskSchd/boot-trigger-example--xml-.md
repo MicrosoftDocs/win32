@@ -28,7 +28,7 @@ The following XML example shows how to define a task with a single execution act
 This sample schedules a task to start notepad.exe when
 the system is booted.
 -->
-<Task xmlns="https://schemas.microsoft.com/windows/2004/02/mit/task">
+<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
     <RegistrationInfo>
         <Date>2005-10-11T13:21:17-08:00</Date>
         <Author>AuthorName</Author>
