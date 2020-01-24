@@ -1,18 +1,22 @@
 ---
 Description: Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
-ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
-title: MF_MT_TIMESTAMP_CAN_BE_DTS attribute (Mfapi.h)
+title: MF_MT_FSSourceTypeDecoded
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# MF\_MT\_TIMESTAMP\_CAN\_BE\_DTS attribute
+# MF\_MT\_FSSourceTypeDecoded attribute
 
-Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
+Specifies that a media type is auto-decoded.
 
 ## Data type
 
 **BOOL** stored as **UINT32**
+
+
+## Remarks
+A media type is marked an attribute to indicate this doesn’t exist on the physical source and is synthesized by the pipeline. A value of 1 (TRUE) indicates that the media type is synthesized. A value of 0 (FALSE) indicates that it is not.
+
 
 ## Requirements
 
@@ -22,7 +26,6 @@ Specifies whether a decoder can use decode time stamps (DTS) when setting time s
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Mfapi.h</dt> </dl> |
 
 
 
