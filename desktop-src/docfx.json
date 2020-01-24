@@ -66,9 +66,11 @@
       },
       "ms.author":
         {
-          "accessibility/**/*.md": "kbridge",
           "audio-and-video.md": "drewbat",
           "devices.md": "kbridge",
+          "user-interaction.md": "kbridge",
+          "windows-application-ui-development.md": "kbridge",
+          "accessibility/**/*.md": "kbridge",
           "AD/**/*.md": "alholiu",
           "ADSchema/**/*.md": "alholiu",
           "ADSI/**/*.md": "alholiu",
@@ -264,6 +266,10 @@
         },
         "author":
         {
+          "audio-and-video.md": "drewbatgit",
+          "devices.md": "Karl-Bridge-Microsoft",
+          "user-interaction.md": "Karl-Bridge-Microsoft",
+          "windows-application-ui-development.md": "Karl-Bridge-Microsoft",
           "accessibility/**/*.md": "Karl-Bridge-Microsoft",
           "AD/**/*.md": "lastnameholiu",
           "ADSchema/**/*.md": "lastnameholiu",
@@ -460,6 +466,10 @@
         },
         "ms.technology":
         {
+          "audio-and-video.md": "audio-video",
+          "devices.md": "devices",
+          "user-interaction.md": "desktop-app-ui",
+          "windows-application-ui-development.md": "desktop-app-ui",
           "accessibility/**/*.md": "accessibility",
           "AD/**/*.md": "security-identity",
           "ADSchema/**/*.md": "security-identity",
