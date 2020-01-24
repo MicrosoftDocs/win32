@@ -46,6 +46,7 @@
       ],
       "titleSuffix": "Win32 apps",
       "ms.prod": "desktop",
+      "ms.technology": "desktop-environment",
       "ms.author": "jken",
       "author": "GrantMeStrength",
       "_op_documentIdPathDepotMapping": {
