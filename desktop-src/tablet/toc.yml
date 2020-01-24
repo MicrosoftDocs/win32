@@ -3040,7 +3040,7 @@
         - name: "SHAREDMEMORY_HEADER"
           href: sharedmemory-header.md
         - name: "SYSTEM_EVENT_DATA"
-          href: system-event-data-collision16.md
+          href: system-event-data.md
         - name: "TABLET_CONTEXT_SETTINGS Structure"
           href: tablet-context-settings.md
     - name: "Working with the Text Ink Object"

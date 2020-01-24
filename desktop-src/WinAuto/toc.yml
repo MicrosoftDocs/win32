@@ -2574,7 +2574,7 @@
           href: client-server-communication.md
           items: 
           - name: "WinEvents and Active Accessibility"
-            href: winevents.md
+            href: winevents-overview.md
           - name: "How WM_GETOBJECT Works"
             href: how-wm-getobject-works.md
           - name: "Retrieving an IAccessible Object"
@@ -2602,7 +2602,7 @@
       href: c-c---developer-s-guide.md
       items: 
       - name: "Active Accessibility User Interface Services"
-        href: active-accessibility-user-interface-services.md
+        href: active-accessibility-user-interface-services-dev-guide.md
         items: 
         - name: "User Interface APIs"
           href: user-interface-apis.md
@@ -2756,13 +2756,11 @@
                 href: exposing-owner-drawn-list-box-items.md
               - name: "Exposing Owner-Drawn Combo Box Items"
                 href: exposing-owner-drawn-combo-box-items.md
-      - name: "Active Accessibility Text Services"
-        href: active-accessibility-text-services.md
     - name: "C/C++ Reference"
       href: c-c---reference.md
       items: 
       - name: "Active Accessibility User Interface Services"
-        href: active-accessibility-user-interface-services-collision208.md
+        href: active-accessibility-user-interface-services-ref.md
         items: 
         - name: "Interfaces"
           href: interfaces.md
@@ -2949,7 +2947,7 @@
         - name: "Return Values"
           href: return-values.md
       - name: "Active Accessibility Text Services"
-        href: active-accessibility-text-services-collision227.md
+        href: active-accessibility-text-services.md
         items: 
         - name: "IAccServerDocMgr"
           href: /windows/desktop/api/msaatext/nn-msaatext-iaccserverdocmgr
@@ -3127,7 +3125,7 @@
     href: common-infrastructure.md
     items: 
     - name: "WinEvents"
-      href: winevents-collision169.md
+      href: winevents-infrastructure.md
       items: 
       - name: "What Are WinEvents?"
         href: what-are-winevents.md
