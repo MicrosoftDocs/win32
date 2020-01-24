@@ -12,7 +12,7 @@ Windows offers two API specifications for user interface accessibility and softw
 
 ## In this section
 
--   [WinEvents](winevents-collision169.md)
+-   [WinEvents](winevents-infrastructure.md)
 -   [The WM\_GETOBJECT Message](the-wm-getobject-message.md)
 -   [Dynamic Annotation](dynamic-annotation-common.md)
 -   [The IAccessibleEx Interface](iaccessibleex.md)

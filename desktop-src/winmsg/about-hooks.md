@@ -113,7 +113,7 @@ The system calls a **WH\_CBT** hook procedure before activating, creating, destr
 
 For more information, see the [*CBTProc*](https://msdn.microsoft.com/library/ms644977(v=VS.85).aspx) callback function.
 
-For information, see [WinEvents](https://docs.microsoft.com/windows/desktop/WinAuto/winevents-collision169).
+For information, see [WinEvents](https://docs.microsoft.com/windows/desktop/WinAuto/winevents-infrastructure).
 
 ### WH\_DEBUG
 

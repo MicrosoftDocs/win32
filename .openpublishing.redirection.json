@@ -42059,6 +42059,46 @@
 	"source_path": "desktop-src/windows-8.md",
 	"redirect_url": "/windows/desktop/whats-new",
 	"redirect_document_id": false
+},
+{
+	"source_path": "desktop-src/tablet/system-event-data-collision16.md",
+	"redirect_url": "/windows/win32/tablet/system-event-data",
+	"redirect_document_id": false
+},
+{
+	"source_path": "active-accessibility-text-services-collision227.md",
+	"redirect_url": "/windows/win32/winauto/active-accessibility-text-services",
+	"redirect_document_id": false
+},
+{
+	"source_path": "active-accessibility-user-interface-services.md",
+	"redirect_url": "/windows/win32/winauto/active-accessibility-user-interface-services-dev-guide",
+	"redirect_document_id": false
+},
+{
+	"source_path": "active-accessibility-user-interface-services-collision208.md",
+	"redirect_url": "/windows/win32/winauto/active-accessibility-user-interface-services-ref",
+	"redirect_document_id": false
+},
+{
+	"source_path": "winevents.md",
+	"redirect_url": "/windows/win32/winauto/winevents-overview",
+	"redirect_document_id": false
+},
+{
+	"source_path": "winevents-collision169.md",
+	"redirect_url": "/windows/win32/winauto/winevents-infrastructure",
+	"redirect_document_id": false
+},
+{
+	"source_path": "supporting-device-side-content.md",
+	"redirect_url": "/windows/win32/wpd_sdk/supporting-device-side-content-context-menu",
+	"redirect_document_id": false
+},
+{
+	"source_path": "supporting-device-side-content-collision475.md",
+	"redirect_url": "/windows/win32/wpd_sdk/supporting-device-side-content-property-sheet",
+	"redirect_document_id": false
 }
   ]
 }

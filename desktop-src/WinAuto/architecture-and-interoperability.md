@@ -27,7 +27,7 @@ Microsoft Active Accessibility exposes basic information about controls such as 
 Microsoft Active Accessibility consists of the following components:
 
 -   Accessible object—A logical UI element (such as a button) that is represented by an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) Component Object Model (COM) interface and an integer child identifier (ChildID).
--   WinEvents—An event system that enables servers to notify clients when an accessible object changes. For more information, see [WinEvents](winevents-collision169.md).
+-   WinEvents—An event system that enables servers to notify clients when an accessible object changes. For more information, see [WinEvents](winevents-infrastructure.md).
 -   OLEACC.dll—The run-time, dynamic-link library that provides the Microsoft Active Accessibility API and the accessibility system framework. OLEACC implements proxy objects that provide default accessibility information for standard UI elements, including USER controls, USER menus, and common controls.
 
 For Microsoft Active Accessibility, the system component of the accessibility framework (OLEACC) helps the communication between assistive technologies (accessibility tools) and applications, as the following illustration shows.
