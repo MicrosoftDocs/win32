@@ -59,7 +59,7 @@ The following VBScript code example creates a [**ResourceLocator**](resourceloca
 
 
 ```VB
-const Uri = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_NetworkAdapterConfiguration"
+const Uri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_NetworkAdapterConfiguration"
 const FragmentPath = "Description"
 
 Set objWSMan = CreateObject("WSMan.Automation")

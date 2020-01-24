@@ -286,8 +286,8 @@ Now that you have a class that collects ink, you will need to update the XAML in
 
 ```XML
 <UserControl x:Class="InkRecognition.Page"
-    xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml">
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

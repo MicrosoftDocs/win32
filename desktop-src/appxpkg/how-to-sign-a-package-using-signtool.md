@@ -61,7 +61,7 @@ When you sign the app package, you must use the same hash algorithm that you use
 If you used the app packager with a specific hash algorithm to create the app package, use the same algorithm to sign the package. To determine the hash algorithm to use for signing a package, you can extract the package contents and inspect the AppxBlockMap.xml file. The **HashMethod** attribute of the [**BlockMap**](https://docs.microsoft.com/uwp/schemas/blockmapschema/element-blockmap) element indicates the hash algorithm that was used when creating the app package. For example:
 
 ``` syntax
-<BlockMap xmlns="https://schemas.microsoft.com/appx/2010/blockmap" 
+<BlockMap xmlns="http://schemas.microsoft.com/appx/2010/blockmap" 
 HashMethod="https://www.w3.org/2001/04/xmlenc#sha256">
 ```
 

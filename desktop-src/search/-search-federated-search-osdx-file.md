@@ -247,7 +247,7 @@ Because these extended child elements are not supported in the [OpenSearch](http
 
 
 ```
-https://schemas.microsoft.com/opensearchext/2009/
+http://schemas.microsoft.com/opensearchext/2009/
 ```
 
 
@@ -259,7 +259,7 @@ By default, search connectors are limited to 100 results per user query. This li
 
 ```
 <OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/" 
-    xmlns:ms-ose="https://schemas.microsoft.com/opensearchext/2009/">
+    xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
         ...
         <ms-ose:MaximumResultCount>200</ms-ose:MaximumResultCount>
 </OpenSearchDescription>
@@ -346,13 +346,13 @@ In the following example .osdx file, the XML **email** element maps to the Windo
 
 ```
 <OpenSearchDescription xmlns="https://a9.com/-/spec/opensearch/1.1/"
-    xmlns:ms-ose="https://schemas.microsoft.com/opensearchext/2009/">
+    xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
 ...
  <ms-ose:ResultsProcessing format="application/rss+xml">
    <ms-ose:PropertyMapList>
      <ms-ose:PropertyMap sourceNamespaceURI="https://example.com/schema/2009/" >
        <ms-ose:Source path="email">
-         <ms-ose:Property schema="https://schemas.microsoft.com/windows/2008/propertynamespace" name="System.Contact.EmailAddress" />
+         <ms-ose:Property schema="http://schemas.microsoft.com/windows/2008/propertynamespace" name="System.Contact.EmailAddress" />
        </ms-ose:Source>
      </ms-ose:PropertyMap>
    </ms-ose:PropertyMapList>
@@ -376,7 +376,7 @@ Windows provides a shortcut menu named **Open file location** for result items. 
 
 ```
 <rss version="2.0" xmlns:example="https://example.com/schema/2009" 
-    xmlns:win="https://schemas.microsoft.com/windows/2008/propertynamespace">
+    xmlns:win="http://schemas.microsoft.com/windows/2008/propertynamespace">
 ...
    <item>
       <title>Someone</title>
@@ -432,7 +432,7 @@ Each area of Windows Explorer has an associated set of proplists, which themselv
     ```
     <ms-ose:ResultsProcessing format="application/rss+xml">
         <ms-ose:PropertyDefaultValues>
-          <ms-ose:Property schema="https://schemas.microsoft.com/windows/2008/propertynamespace"
+          <ms-ose:Property schema="http://schemas.microsoft.com/windows/2008/propertynamespace"
             name="System.PropList.ContentViewModeForSearch">prop:~System.ItemNameDisplay;System.Photo.DateTaken;
             ~System.ItemPathDisplay;~System.Search.AutoSummary;System.Size;System.Author;System.Keywords</ms-ose:Property>
         </ms-ose:PropertyDefaultValues>
