@@ -2652,6 +2652,8 @@
           href: mf-mt-frame-size-attribute.md
         - name: "MF_MT_FRAMESOURCE_TYPES"
           href: mf-mt-framesource-types.md
+        - name: "MF_MT_FSSourceTypeDecoded"
+          href: mf-mt-fssourcetypedecoded.md
         - name: "MF_MT_GEOMETRIC_APERTURE"
           href: mf-mt-geometric-aperture-attribute.md
         - name: "MF_MT_H264_CAPABILITIES"
