@@ -32,9 +32,9 @@ The following is the performance counters schema that you can use to validate th
 
 ``` syntax
 <xs:schema
-  targetNamespace="https://schemas.microsoft.com/win/2005/12/counters"
+  targetNamespace="http://schemas.microsoft.com/win/2005/12/counters"
   elementFormDefault="qualified"
-  xmlns:man="https://schemas.microsoft.com/win/2005/12/counters"
+  xmlns:man="http://schemas.microsoft.com/win/2005/12/counters"
   xmlns:xs="https://www.w3.org/2001/XMLSchema">
 
   <xs:simpleType name="GUIDType">
@@ -467,14 +467,14 @@ The following shows an example manifest that defines performance counters.
 ```XML
 <!-- <?xml version="1.0" encoding="UTF-16"?> -->
 <instrumentationManifest     
-    xmlns="https://schemas.microsoft.com/win/2004/08/events" 
+    xmlns="http://schemas.microsoft.com/win/2004/08/events" 
     xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
     xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
     <instrumentation>
 
-        <counters xmlns="https://schemas.microsoft.com/win/2005/12/counters">
+        <counters xmlns="http://schemas.microsoft.com/win/2005/12/counters">
 
             <provider callback = "custom"
               applicationIdentity = "myprovider.exe"

@@ -44,13 +44,13 @@ Win32_DependentService
     Antecedent
         Address = https://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
         ReferenceParameters
-            ResourceURI = https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
+            ResourceURI = http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
             SelectorSet
                 Selector: Name = RpcSs
     Dependent
         Address = https://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
         ReferenceParameters
-            ResourceURI = https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
+            ResourceURI = http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
             SelectorSet
                 Selector: Name = WinRM
     TypeOfDependency = null
@@ -59,13 +59,13 @@ Win32_DependentService
     Antecedent
         Address = https://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
         ReferenceParameters
-            ResourceURI = https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_SystemDriver
+            ResourceURI = http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_SystemDriver
             SelectorSet
                 Selector: Name = HTTP
     Dependent
         Address = https://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
         ReferenceParameters
-            ResourceURI = https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
+            ResourceURI = http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
             SelectorSet
                 Selector: Name = WinRM
     TypeOfDependency = null

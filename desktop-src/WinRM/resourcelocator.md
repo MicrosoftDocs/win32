@@ -83,7 +83,7 @@ The following VBScript code example obtains the **NumberOfLogicalProcessors** an
 ```VB
 Option Explicit
 Dim strUri
-strUri = "https://schemas.microsoft.com/wbem/wsman/1/" _
+strUri = "http://schemas.microsoft.com/wbem/wsman/1/" _
     & "wmi/root/cimv2/Win32_Processor"
 Const FragmentDialect = _
     "https://www.w3.org/TR/1999/REC-xpath-19991116"

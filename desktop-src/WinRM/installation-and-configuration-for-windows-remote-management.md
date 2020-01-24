@@ -512,7 +512,7 @@ Beginning with Windows 8 and Windows Server 2012, [*WMI plug-ins*](windows-rem
 
 -   run **lusrmgr.msc** to add the user to the **WinRMRemoteWMIUsers\_\_** group in the **Local Users and Groups** window, or
 
--   use the **winrm** command-line tool to configure the security descriptor for the [*namespace*](windows-remote-management-glossary.md) of the [*WMI plug-in*](windows-remote-management-glossary.md), as follows: **winrm configSDDL https://schemas.microsoft.com/wbem/wsman/1/wmi/***WmiNamespace*.
+-   use the **winrm** command-line tool to configure the security descriptor for the [*namespace*](windows-remote-management-glossary.md) of the [*WMI plug-in*](windows-remote-management-glossary.md), as follows: **winrm configSDDL http://schemas.microsoft.com/wbem/wsman/1/wmi/***WmiNamespace*.
 
     When the user interface appears, add the user.
 

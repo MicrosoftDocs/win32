@@ -60,7 +60,7 @@ The following code example illustrates how to declare a Button control, labeled 
 
 
 ```
-<Application xmlns="https://schemas.microsoft.com/windows/2009/Ribbon">
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
   <Application.Commands>
     <Command Name="cmdExit" LabelTitle="Exit application" />
   </Application.Commands>

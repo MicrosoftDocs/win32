@@ -425,12 +425,12 @@ The following XML is an example of a subscription configuration file that create
 
 
 ```XML
-<Subscription xmlns="https://schemas.microsoft.com/2006/03/windows/events/subscription">
+<Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
     <SubscriptionId>SampleCISubscription</SubscriptionId>
     <SubscriptionType>CollectorInitiated</SubscriptionType>
     <Description>Collector Initiated Subscription Sample</Description>
     <Enabled>true</Enabled>
-    <Uri>https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
+    <Uri>http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
 
     <!-- Use Normal (default), Custom, MinLatency, MinBandwidth -->
     <ConfigurationMode>Custom</ConfigurationMode>
@@ -480,12 +480,12 @@ The following XML is an example of a subscription configuration file that create
 
 
 ```XML
-<Subscription xmlns="https://schemas.microsoft.com/2006/03/windows/events/subscription">
+<Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
     <SubscriptionId>SampleSISubscription</SubscriptionId>
     <SubscriptionType>SourceInitiated</SubscriptionType>
     <Description>Source Initiated Subscription Sample</Description>
     <Enabled>true</Enabled>
-    <Uri>https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
+    <Uri>http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
 
     <!-- Use Normal (default), Custom, MinLatency, MinBandwidth -->
     <ConfigurationMode>Custom</ConfigurationMode>

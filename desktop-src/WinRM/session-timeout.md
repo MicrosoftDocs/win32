@@ -62,14 +62,14 @@ If objSession is Nothing Then
     WScript.Quit
 End If 
 
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
     "wmi/root/cimv2/Win32_Process"
 
 'Reset timeout to 10,000 milliseconds
 objSession.Timeout = 10000     
 
 strInputParameters = "<p:Create_INPUT " & _
-    "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process"">" & _
+    "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process"">" & _
     "<p:CommandLine>" & "calc.exe" & _
     "</p:CommandLine>" & _
     "</p:Create_INPUT>"

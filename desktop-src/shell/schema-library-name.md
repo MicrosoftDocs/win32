@@ -41,7 +41,7 @@ The name is the friendly library name that is displayed in Windows Explorer. The
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<libraryDescription xmlns="https://schemas.microsoft.com/windows/2009/library">
+<libraryDescription xmlns="http://schemas.microsoft.com/windows/2009/library">
   <name>@shell32.dll,-34575</name>
 ...
 </libraryDescription>
