@@ -48,7 +48,7 @@ Oleacc.dll supports controls that are defined in User32.dll, Comctl32.dll, and W
 
 Although some support for system-provided UI elements is provided by Microsoft Active Accessibility on Microsoft Windows NT 4.0 with service pack 4, this support is limited.
 
-This appendix lists the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) properties and methods that Microsoft Active Accessibility supports for each UI element. Where applicable, the documentation also lists the [WinEvents](winevents-collision169.md) that the UI element triggers and includes additional information about the supported properties and methods. It also includes information about object roles and their supported **IAccessible** methods and properties.
+This appendix lists the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) properties and methods that Microsoft Active Accessibility supports for each UI element. Where applicable, the documentation also lists the [WinEvents](winevents-infrastructure.md) that the UI element triggers and includes additional information about the supported properties and methods. It also includes information about object roles and their supported **IAccessible** methods and properties.
 
 These details can help client developers avoid making unnecessary calls to unsupported properties and methods. This information also lets server developers know which properties and methods their custom controls should support and which WinEvents their controls should trigger.
 

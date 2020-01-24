@@ -12,7 +12,7 @@ These structures are used by the Windows Presentation Foundation to implement in
 
 ## In This Section
 
--   [**SYSTEM\_EVENT\_DATA Structure**](system-event-data-collision16.md)
+-   [**SYSTEM\_EVENT\_DATA Structure**](system-event-data.md)
 -   [**TABLET\_CONTEXT\_SETTINGS Structure**](tablet-context-settings.md)
 -   [**SHAREDMEMORY\_HEADER Structure**](sharedmemory-header.md)
 

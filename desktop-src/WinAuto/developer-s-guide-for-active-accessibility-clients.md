@@ -17,7 +17,7 @@ This section is for client developers who use Microsoft Active Accessibility to 
 -   [Receiving Errors for IAccessible Interface Pointers](receiving-errors-for-iaccessible-interface-pointers.md)
 -   [Active Accessibility and Windows Vista Screen Scaling](active-accessibility-and-windows-vista-screen-scaling.md)
 
-For information about working with events in a client application, see [WinEvents and Active Accessibility](winevents.md).
+For information about working with events in a client application, see [WinEvents and Active Accessibility](winevents-overview.md).
 
  
 

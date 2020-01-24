@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Client/Server Communication
 
-The [WinEvents](winevents.md) mechanism provides a way for servers to communicate easily with Microsoft Active Accessibility clients. Clients often collect information by reacting to WinEvents (for example, following focus), but they are free to request information from a server at any time.
+The [WinEvents](winevents-overview.md) mechanism provides a way for servers to communicate easily with Microsoft Active Accessibility clients. Clients often collect information by reacting to WinEvents (for example, following focus), but they are free to request information from a server at any time.
 
 To request information for an accessible object that generates a WinEvent, a client must process the event and establish a connection with the relevant accessible object. To do this, the client performs the following six steps:
 
@@ -23,7 +23,7 @@ Once the client has an interface address, it can call the [**IAccessible**](/win
 
 ## In this section
 
--   [WinEvents and Active Accessibility](winevents.md)
+-   [WinEvents and Active Accessibility](winevents-overview.md)
 -   [How WM\_GETOBJECT Works](how-wm-getobject-works.md)
 -   [Retrieving an IAccessible Object](retrieving-an-iaccessible-object.md)
 

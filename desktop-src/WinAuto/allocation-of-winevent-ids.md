@@ -59,7 +59,7 @@ According to the WinEvent specification, values from the System Reserved range, 
 
 <dl> <dt>
 
-[WinEvents](winevents-collision169.md)
+[WinEvents](winevents-infrastructure.md)
 </dt> <dt>
 
 [Accessibility Interoperability Alliance](https://go.microsoft.com/fwlink/p/?linkid=147043)
