@@ -66,7 +66,9 @@
       },
       "ms.author":
         {
-          "accessibility/**/*.md": "kbridge"
+          "accessibility/**/*.md": "kbridge",
+          "audio-and-video.md": "drewbat",
+          "devices.md": "kbridge",
           "AD/**/*.md": "alholiu",
           "ADSchema/**/*.md": "alholiu",
           "ADSI/**/*.md": "alholiu",
@@ -262,7 +264,7 @@
         },
         "author":
         {
-          "accessibility/**/*.md": "Karl-Bridge-Microsoft"
+          "accessibility/**/*.md": "Karl-Bridge-Microsoft",
           "AD/**/*.md": "lastnameholiu",
           "ADSchema/**/*.md": "lastnameholiu",
           "ADSI/**/*.md": "lastnameholiu",
@@ -458,7 +460,7 @@
         },
         "ms.technology":
         {
-          "accessibility/**/*.md": "accessibility"
+          "accessibility/**/*.md": "accessibility",
           "AD/**/*.md": "security-identity",
           "ADSchema/**/*.md": "security-identity",
           "ADSI/**/*.md": "security-identity",
