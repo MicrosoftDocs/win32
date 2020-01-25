@@ -21,19 +21,19 @@ You can activate this workflow from a hyperlink that includes as an argument the
 ms-settings:wifi-provisioning?uri={download_uri}
 ```
 
-For example, the following HTML markup gives a link to install the profile(s) that are found in a hypothetical document `http://localhost:5000/provdoc.xml`.
+For example, the following HTML markup gives a link to install the profile(s) that are found in a hypothetical document `http://contoso.com/ProvisioningDoc.xml`.
 
 ```html
-<a href="ms-settings:wifi-provisioning?uri=http://localhost:5000/provdoc.xml">Install</a>
+<a href="ms-settings:wifi-provisioning?uri=http://contoso.com/ProvisioningDoc.xml">Install</a>
 ```
 
-Your XML must adhere to the provisioning schema (see [Account provisioning](/windows-hardware/drivers/mobilebroadband/account-provisioning)). Your XML must also include one or more [WLANProfile](/windows/win32/nativewifi/wlan-profileschema-wlanprofile-element) elements. Each profile will be displayed in the **Install** dialog described next.
+Your XML must adhere to the provisioning schema (see [Account provisioning](/windows-hardware/drivers/mobilebroadband/account-provisioning)). Your XML must also include one or more [WLANProfile](/windows/win32/nativewifi/wlan-profileschema-wlanprofile-element) elements. Each profile will be displayed in the **Add** dialog described next.
 
 When the user clicks your HTML link, the installation workflow is invoked in the **Settings** app. Your provisioning XML document is downloaded by the **Settings** app. Once it's downloaded, information about the profiles, signature, and signer are displayed (provided that the document adheres to the schema).
 
 ![The Settings app](images/install-dialog.png)
 
-The **Install** button in the **Settings** app is enabled only if the provisioning file is signed and trusted.
+The **Add** button in the dialog in the **Settings** app is enabled only if the provisioning file is signed and trusted.
 
 ## In your web page, determine whether this workflow is supported
 
