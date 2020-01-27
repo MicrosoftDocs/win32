@@ -157,6 +157,13 @@ void CreateChildProcess()
 
       CloseHandle(piProcInfo.hProcess);
       CloseHandle(piProcInfo.hThread);
+      
+      // We've given the child process the writable end of stdout pipe so we don't need it anymore
+      // We've given the child process the readable end of stdin pipe so we don't need it anymore
+      // Without these, the pipes will not close and we will not know that the child process has ended
+      
+      CloseHandle(g_hChildStd_OUT_Wr);
+      CloseHandle(g_hChildStd_IN_Rd);
    }
 }
  
