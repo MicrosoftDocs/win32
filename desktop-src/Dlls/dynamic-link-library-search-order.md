@@ -105,6 +105,8 @@ If **SafeDllSearchMode** is disabled, the search order is as follows:
 
 The standard search order used by the system can be changed by calling the [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) function with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH**. The standard search order can also be changed by calling the [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya) function.
 
+**Note:** The standard search order of the process will also be affected by calling the [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya) function in the parent process before start of the current process.
+
 **Windows XP:** Changing the standard search order by calling [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya) is not supported until Windows XP with Service Pack 1 (SP1).
 
 If you specify an alternate search strategy, its behavior continues until all associated executable modules have been located. After the system starts processing DLL initialization routines, the system reverts to the standard search strategy.
