@@ -138,6 +138,8 @@
           href: shared-heaps.md
       - name: "Residency"
         href: residency.md
+    - name: "Core 1.0 Feature Level"
+      href: core-feature-levels.md
     - name: "Multi-adapter systems"
       href: multi-engine.md
     - name: "Multi-engine synchronization"

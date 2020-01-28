@@ -245,15 +245,15 @@
             href: wec/windows-event-collector.md
       - name: "Documents and Printing"
         href: printdocs/documents-and-printing.md
-      - name: "Graphics and Gaming"
+      - name: "Graphics and gaming"
         items: 
         - name: "Overview"
           href: graphics-and-multimedia.md
-        - name: "DirectX Graphics and Gaming"
+        - name: "DirectX graphics and gaming"
           items: 
           - name: "Overview"
             href: directx.md
-          - name: "Getting Started with DirectX Graphics"
+          - name: "Getting started with DirectX Graphics"
             href: getting-started-with-directx-graphics.md
           - name: "Programming DirectX with COM"
             href: prog-dx-with-com.md
@@ -263,7 +263,7 @@
             items: 
             - name: "Overview"
               href: direct3d.md
-            - name: "Getting Started with Direct3D"
+            - name: "Getting started with Direct3D"
               href: getting-started-with-direct3d.md
             - name: "Direct3D 12 Graphics"
               href: direct3d12/direct3d-12-graphics.md
