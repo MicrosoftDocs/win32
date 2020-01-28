@@ -1,12 +1,12 @@
 ---
 Description: .
 ms.assetid: 49E0D0C2-E6EC-4849-A44F-36FDEFBB9838
-title: Getting Started with DirectX Graphics
+title: Getting started with DirectX Graphics
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started with DirectX Graphics
+# Getting started with DirectX Graphics
 
 Microsoft DirectX graphics provides a set of APIs that you can use to create games and other high-performance multimedia applications. DirectX graphics includes support for high-performance 2-D and 3-D graphics.
 
@@ -18,7 +18,7 @@ For 2-D graphics and text, use Direct2D and [DirectWrite](https://msdn.microsoft
 To compose bitmaps that Direct3D 11 or Direct2D populated, use [DirectComposition](https://msdn.microsoft.com/library/Hh437371(v=VS.85).aspx).
 
 To learn about how to create a Windows Store app that uses DirectX, see [Create your first Windows Store app using DirectX](https://docs.microsoft.com/previous-versions/windows/apps/br229580(v=win.10)
-). You can use the [**Windows.UI::Xaml::Controls::SwapChainPanel**](https://msdn.microsoft.com/library/Dn252834(v=WIN.10).aspx) class to create high-performance DirectX apps with a XAML UI overlay. For more info about combining XAML and DirectX in a Windows app, see [DirectX and XAML interop](https://docs.microsoft.com/en-us/previous-versions/windows/apps/hh825871(v=win.10)).
+). You can use the [**Windows.UI::Xaml::Controls::SwapChainPanel**](https://msdn.microsoft.com/library/Dn252834(v=WIN.10).aspx) class to create high-performance DirectX apps with a XAML UI overlay. For more info about combining XAML and DirectX in a Windows app, see [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)).
 
 To learn about how to build a display driver for Windows 8, see [Roadmap for the Windows Display Driver Model (WDDM)](https://msdn.microsoft.com/library/Ff569513(v=VS.85).aspx).
 
