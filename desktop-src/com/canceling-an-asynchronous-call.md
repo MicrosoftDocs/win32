@@ -16,7 +16,7 @@ The client can cancel the call at any time, from when the Begin\_ method is call
 
 1.  Query the call object for [**ICancelMethodCalls**](https://msdn.microsoft.com/library/ms683860(v=VS.85).aspx).
 
-2.  Call [**ICancelMethodCalls::Cancel**](https://msdn.microsoft.com/library/ms680711(v=VS.85).aspx), and then call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) to release the pointer obtained by the [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) call in step 1.
+2.  Call [**ICancelMethodCalls::Cancel**](https://msdn.microsoft.com/library/ms680711(v=VS.85).aspx), and then call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) to release the pointer obtained by the [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) call in step 1.
 
 3.  If the client has not called the Finish\_ method already, call it now.
 
