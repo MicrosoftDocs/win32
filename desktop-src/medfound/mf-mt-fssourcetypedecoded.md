@@ -15,7 +15,7 @@ Specifies that a media type is auto-decoded.
 
 
 ## Remarks
-A media type is marked an attribute to indicate this doesn’t exist on the physical source and is synthesized by the pipeline. A value of 1 (TRUE) indicates that the media type is synthesized. A value of 0 (FALSE) indicates that it is not.
+A media type is marked an attribute to indicate this doesn’t exist on the physical source and is synthesized by the pipeline. A value of 1 (TRUE) indicates that the media type is synthesized. A value of 0 (FALSE), or the value not being present, indicates that it is not.
 
 
 ## Requirements
