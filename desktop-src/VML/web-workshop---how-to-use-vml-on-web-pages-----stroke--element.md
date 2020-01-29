@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 # Using the Stroke Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
@@ -72,7 +72,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/Solid.md)
+
 
 If you change the **dashstyle** property attribute to "dot", you can create a dotted line, as shown in the following VML representation:
 
@@ -88,7 +88,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/dot.md)
+
 
 If you change the **dashstyle** property attribute to "dash", you can create a dash line, as shown in the following VML representation:
 
@@ -104,7 +104,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/dash.md)
+
 
 If you change the **dashstyle** property attribute to "dashdot", you can create a line with a dashed and dotted style, as shown in the following VML representation:
 
@@ -120,7 +120,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/dashdot.md)
+
 
 If you change the **dashstyle** property attribute to "longdash", you can create a line with a long dashed style, as shown in the following VML representation:
 
@@ -136,7 +136,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/longdash.md)
+
 
 If you change the **dashstyle** property attribute to "longdashdot", you can create a line with a long dashed and dotted style, as shown in the following VML representation:
 
@@ -152,7 +152,7 @@ strokecolor="red" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/longdashdot.md)
+
 
 If you place `<v:stroke dashstyle="dashdot" />` inside the `<rect>` element, you can create a rectangle that has a dashed and dotted outline, as shown in the following VML representation:
 
@@ -167,7 +167,7 @@ If you place `<v:stroke dashstyle="dashdot" />` inside the `<rect>` element, you
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/DashStyle/rect.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -190,7 +190,7 @@ strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/Opacity/Line1.md)
+
 
 If you add `<v:stroke opacity="0.5" />` inside the `<line>` element, you can create a line with 50% opacity, as shown in the following VML representation:
 
@@ -206,7 +206,7 @@ strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/Opacity/Line2.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -229,7 +229,7 @@ If you specify `<v:stroke linestyle="single" />` inside the `<rect>` element, yo
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/LineStyle/Single.md)
+
 
 If you change the **linestyle** property attribute to "thinthin", you can create a rectangle with the outline (1:1:1), as shown in the following VML representation:
 
@@ -245,7 +245,7 @@ strokeweight="10pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/LineStyle/ThinThin.md)
+
 
 If you change the **linestyle** property attribute to "thinthick", you can create a rectangle with the outline (1:1:2), as shown in the following VML representation:
 
@@ -261,7 +261,7 @@ strokeweight="10pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/LineStyle/ThinThick.md)
+
 
 If you change the **linestyle** property attribute to "thickthin", you can create a rectangle with the outline (2:1:1), as shown in the following VML representation:
 
@@ -277,7 +277,7 @@ strokeweight="10pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/LineStyle/ThickThin.md)
+
 
 If you change the **linestyle** property attribute to "thickbetweenthin", you can create a rectangle with the outline (1:1:2:1:1), as shown in the following VML representation:
 
@@ -293,7 +293,7 @@ strokeweight="10pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/LineStyle/ThickBThin.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -316,7 +316,7 @@ strokecolor="red" strokeweight="20pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/JoinStyle/round.md)
+
 
 If you change the **joinstyle** property attribute to "bevel", you can create a shape that has the bevel-join outline, as shown in the following VML representation:
 
@@ -333,7 +333,7 @@ strokecolor="red" strokeweight="20pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/JoinStyle/bevel.md)
+
 
 If you change the **joinstyle** property attribute to "miter", you can create a shape that has the miter-join outline, as shown in the following VML representation:
 
@@ -350,7 +350,7 @@ strokecolor="red" strokeweight="20pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/JoinStyle/Miter.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -374,7 +374,7 @@ strokeweight="15pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/FillType/solid.md)
+
 
 If you change the **filltype** property attribute to "pattern", point the **src** property attribute to the location of the pattern image file, and set the **color2** property attribute to the second pattern color, you can create a rounded rectangle with a pattern outline, as shown in the following VML representation:
 
@@ -391,7 +391,7 @@ color2="green" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/FillType/pattern.md)
+
 
 If you change the **filltype** property attribute to "tile" and point the **src** property attribute to the location of the image file, you can create a rounded rectangle with a tiled outline, as shown in the following VML representation:
 
@@ -407,7 +407,7 @@ strokeweight="15pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/FillType/tile.md)
+
 
 If you change the **filltype** property attribute to "frame" and point the **src** property attribute to the location of the image file, you can create a rounded rectangle with a picture outline, as shown in the following VML representation:
 
@@ -423,7 +423,7 @@ strokeweight="15pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedLine/FillType/frame.md)
+
 
 For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858395) .
 

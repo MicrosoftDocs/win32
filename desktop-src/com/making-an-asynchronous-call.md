@@ -14,7 +14,7 @@ For each method on a synchronous interface, the corresponding asynchronous inter
 
 **To begin an asynchronous call**
 
-1.  Query the server object for the [**ICallFactory**](https://msdn.microsoft.com/library/ms680133(v=VS.85).aspx) interface. If [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) returns E\_NOINTERFACE, the server object does not support asynchronous calling.
+1.  Query the server object for the [**ICallFactory**](https://msdn.microsoft.com/library/ms680133(v=VS.85).aspx) interface. If [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) returns E\_NOINTERFACE, the server object does not support asynchronous calling.
 
 2.  Call [**ICallFactory::CreateCall**](https://msdn.microsoft.com/library/ms688577(v=VS.85).aspx) to create a call object corresponding to the interface you want, and then release the pointer to [**ICallFactory**](https://msdn.microsoft.com/library/ms680133(v=VS.85).aspx).
 

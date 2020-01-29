@@ -13,7 +13,7 @@ This topic provides information about using server annotation to specify a callb
 **To override a property that specifies a callback object**
 
 1.  Obtain an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer to the accessible element that is to be annotated.
-2.  Call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) on the accessible element to get an [**IAccIdentity**](/windows/desktop/api/oleacc/nn-oleacc-iaccidentity) interface pointer.
+2.  Call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the accessible element to get an [**IAccIdentity**](/windows/desktop/api/oleacc/nn-oleacc-iaccidentity) interface pointer.
 3.  Call [**IAccIdentity::GetIdentityString()**](/windows/desktop/api/Oleacc/nf-oleacc-iaccidentity-getidentitystring) on the [**IAccIdentity**](/windows/desktop/api/oleacc/nn-oleacc-iaccidentity) interface pointer to obtain a string that uniquely identifies the accessible element that is to be annotated.
 4.  Use [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) or [**CoCreateInstanceEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex) to create the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) object.
 5.  Create a Component Object Model (COM) object that implements [**IAccPropServer**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver).

@@ -29,9 +29,9 @@ float3 ObjectRayOrigin();
 
 This function can be called from the following raytracing shader types:
 
-* [**Any Hit Shader**](/any-hit-shader.md)
-* [**Closest Hit Shader**](/closest-hit-shader.md)
-* [**Intersection Shader**](/intersection-shader.md)
+* [**Any Hit Shader**](any-hit-shader.md)
+* [**Closest Hit Shader**](closest-hit-shader.md)
+* [**Intersection Shader**](intersection-shader.md)
 
 
 

@@ -25,7 +25,7 @@ The return value of COM functions and methods is an **HRESULT**. The values of s
 | E\_FAIL<br/>         | 0x80004005<br/> | An unspecified failure has occurred.<br/>                                                                                                    |
 | E\_HANDLE<br/>       | 0x80070006<br/> | An invalid handle was used.<br/>                                                                                                             |
 | E\_INVALIDARG<br/>   | 0x80070057<br/> | One or more arguments are invalid.<br/>                                                                                                      |
-| E\_NOINTERFACE<br/>  | 0x80004002<br/> | The [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) method did not recognize the requested interface. The interface is not supported.<br/> |
+| E\_NOINTERFACE<br/>  | 0x80004002<br/> | The [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) method did not recognize the requested interface. The interface is not supported.<br/> |
 | E\_NOTIMPL<br/>      | 0x80004001<br/> | The method is not implemented.<br/>                                                                                                          |
 | E\_OUTOFMEMORY<br/>  | 0x8007000E<br/> | The method failed to allocate necessary memory.<br/>                                                                                         |
 | E\_PENDING<br/>      | 0x8000000A<br/> | The data necessary to complete the operation is not yet available.<br/>                                                                      |
