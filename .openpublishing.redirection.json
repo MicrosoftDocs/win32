@@ -1,6 +1,11 @@
 {
   "redirections": [
       {
+            "source_path": "/windows/win32/etw/event-tracing-functions",
+            "redirect_url": "/windows/win32/api/_etw/#functions",
+            "redirect_document_id": false
+      },
+      {
             "source_path": "desktop-src/winauto/uiauto-iuiautomationelement5-cachedlandmarktype.md",
             "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlandmarktype",
             "redirect_document_id": false
