@@ -1,0 +1,20 @@
+- name: "Input Feedback Configuration"
+  href: input-feedback-configuration-portal.md
+  items: 
+  - name: "Input Feedback Configuration Reference"
+    href: input-feedback-configuration-reference.md
+    items: 
+    - name: "Constants"
+      href: constants.md
+    - name: "Enumerations"
+      href: enumerations.md
+      items: 
+      - name: "FEEDBACK_TYPE"
+        href: /windows/desktop/api/winuser/ne-winuser-tagfeedback_type
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "GetWindowFeedbackSetting"
+        href: /windows/desktop/api/Winuser/nf-winuser-getwindowfeedbacksetting
+      - name: "SetWindowFeedbackSetting"
+        href: /windows/desktop/api/Winuser/nf-winuser-setwindowfeedbacksetting
