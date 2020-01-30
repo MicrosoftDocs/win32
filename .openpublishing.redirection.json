@@ -386,11 +386,6 @@
             "redirect_document_id": false
       },
       {
-            "source_path": "desktop-src/etw/event tracing enumerations.md",
-            "redirect_url": "/windows/desktop/api/_etw/#enumerations",
-            "redirect_document_id": false
-      },
-      {
             "source_path": "desktop-src/etw/decoding_source.md",
             "redirect_url": "/windows/desktop/api/tdh/ne-tdh-decoding_source",
             "redirect_document_id": false
@@ -446,156 +441,6 @@
             "redirect_document_id": false
       },
       {
-            "source_path": "desktop-src/etw/event tracing interfaces.md",
-            "redirect_url": "/windows/desktop/api/_etw/#interfaces",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/itraceevent.md",
-            "redirect_url": "/windows/desktop/api/relogger/nn-relogger-itraceevent",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/clone method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-clone",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/geteventrecord method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-geteventrecord",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/getusercontext method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-getusercontext",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/seteventdescriptor method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-seteventdescriptor",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setkerneltime method.md",
-            "redirect_url": "/windows/desktop/api/windows/desktop/legacy/hh706649(v=vs.85)",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setpayload method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-setpayload",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setprocessid method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-setprocessid",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setprocessornumber method.md",
-            "redirect_url": "/windows/desktop/api/windows/desktop/legacy/hh706652(v=vs.85)",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setproviderid method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-setproviderid",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setproviderid method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-setproviderid",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setthreadid method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-setthreadid",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/settimestamp method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceevent-settimestamp",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setusertime method.md",
-            "redirect_url": "/windows/desktop/api/windows/desktop/legacy/hh706656(v=vs.85)",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/itraceeventcallback.md",
-            "redirect_url": "/windows/desktop/api/relogger/nn-relogger-itraceeventcallback",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/onbeginprocesstrace method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onbeginprocesstrace",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/onevent method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onevent",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/onfinalizeprocesstrace method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onfinalizeprocesstrace",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/itracerelogger.md",
-            "redirect_url": "/windows/desktop/api/relogger/nn-relogger-itracerelogger",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/addlogfiletracestream method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/addrealtimetracestream method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-addrealtimetracestream",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/cancel method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-cancel",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/createeventinstance method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-createeventinstance",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/inject method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-inject",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/processtrace method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-processtrace",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/registercallback method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-registercallback",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setcompressionmode method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-setcompressionmode",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/setoutputfilename method.md",
-            "redirect_url": "/windows/desktop/api/relogger/nf-relogger-itracerelogger-setoutputfilename",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event tracing structures.md",
-            "redirect_url": "/windows/desktop/api/_etw/#structures",
-            "redirect_document_id": false
-      },
-      {
             "source_path": "desktop-src/etw/etw_trace_partition_information.md",
             "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-etw_trace_partition_information",
             "redirect_document_id": false
@@ -616,81 +461,6 @@
             "redirect_document_id": false
       },
       {
-            "source_path": "desktop-src/etw/etw_buffer_context.md",
-            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-etw_buffer_context",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_data_descriptor.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_descriptor.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_descriptor",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_extended_item_instance.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_instance",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_extended_item_related_activityid.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_related_activityid",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_extended_item_stack_trace32.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace32",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_extended_item_stack_trace64.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_extended_item_ts_id.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_ts_id",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_filter_descriptor.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_filter_event_name.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_filter_event_name",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_filter_level_kw.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_filter_level_kw",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_filter_event_id.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_filter_event_id",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_filter_header.md",
-            "redirect_url": "/windows/desktop/api/evntprov/ns-evntprov-event_filter_header",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_header.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_header",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_header_extended_data_item.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item",
-            "redirect_document_id": false
-      },
-      {
             "source_path": "desktop-src/etw/event_instance_header.md",
             "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_instance_header",
             "redirect_document_id": false
@@ -698,26 +468,6 @@
       {
             "source_path": "desktop-src/etw/event_instance_info.md",
             "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_instance_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_map_entry.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-event_map_entry",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_map_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-event_map_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_property_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-event_property_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/event_record.md",
-            "redirect_url": "/windows/desktop/api/evntcons/ns-evntcons-event_record",
             "redirect_document_id": false
       },
       {
@@ -751,53 +501,8 @@
             "redirect_document_id": false
       },
       {
-            "source_path": "desktop-src/etw/payload_filter_predicate.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/property_data_descriptor.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-property_data_descriptor",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/provider_enumeration_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-provider_enumeration_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/provider_event_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-provider_event_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/provider_field_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-provider_field_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/provider_field_infoarray.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/provider_filter_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-provider_filter_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/tdh_context.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-tdh_context",
-            "redirect_document_id": false
-      },
-      {
             "source_path": "desktop-src/etw/trace_enable_info.md",
             "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_enable_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/trace_event_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-trace_event_info",
             "redirect_document_id": false
       },
       {
@@ -823,11 +528,6 @@
       {
             "source_path": "desktop-src/etw/trace_periodic_capture_state_info.md",
             "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_periodic_capture_state_info",
-            "redirect_document_id": false
-      },
-      {
-            "source_path": "desktop-src/etw/trace_provider_info.md",
-            "redirect_url": "/windows/desktop/api/tdh/ns-tdh-trace_provider_info",
             "redirect_document_id": false
       },
       {
