@@ -14,7 +14,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/30/2020
 ---
 
 # Input Feedback Configuration
@@ -27,15 +27,9 @@ The collection of topics provided here describe how to use Input Feedback Config
 
 ## In this section
 
-
-
-| Topic                                                                                           | Description                                                                                                  |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Topic | Description |
+|---|---|
 | [Input Feedback Configuration Reference](input-feedback-configuration-reference.md)<br/> | The topics in this section provide the reference specifications for Input Feedback Configuration.<br/> |
-
-
-
- 
 
 ## Developer audience
 
@@ -43,19 +37,4 @@ The Input Feedback ConfigurationAPIs are designed for developers who are buildin
 
 ## Related topics
 
-<dl> <dt>
-
-[User Interaction](https://msdn.microsoft.com/library/windows/desktop/ff657750)
-</dt> <dt>
-
-[**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[User Interaction](https://msdn.microsoft.com/library/windows/desktop/ff657750), [SystemParametersInfo](/win32/api/winuser/nf-winuser-systemparametersinfoa)
