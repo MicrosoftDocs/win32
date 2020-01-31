@@ -3,7 +3,7 @@ Description: Lists the elements used with event tracing.
 ms.assetid: 8cb5907e-9006-45d1-9d48-13a43a631664
 title: Event Tracing Reference
 ms.topic: article
-ms.date: 1/30/20
+ms.date: 01/30/2020
 ---
 
 # Event Tracing Reference
