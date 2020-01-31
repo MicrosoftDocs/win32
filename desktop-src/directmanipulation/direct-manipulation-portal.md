@@ -2,9 +2,6 @@
 Description: The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements.
 ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: Direct Manipulation
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -51,9 +48,9 @@ A contact represents a touch point identified by the **pointerId** provided in t
 
 In our basic case above, when [**SetContact**](/previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact) is called a few things happen:
 
--   When the user performs a pan, a [**WM\_POINTERCAPTURECHANGED**](https://msdn.microsoft.com/6eec37da-227c-4be1-bf0b-98704caa1322) message is sent to the application to notify that the contact has been consumed by Direct Manipulation.
--   When the user moves the moves, the viewport fires update events which are used by the [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173) wrapper to drive visual updates to the screen. To a user panning in a viewport, the content will appear to move smoothly under the contact.
--   When the user lifts the contact, the user sees the content continue to move as it transitions into an inertia animation, gradually decelerating until it reaches its final resting place.
+- When the user performs a pan, a [**WM\_POINTERCAPTURECHANGED**](https://msdn.microsoft.com/6eec37da-227c-4be1-bf0b-98704caa1322) message is sent to the application to notify that the contact has been consumed by Direct Manipulation.
+- When the user moves the moves, the viewport fires update events which are used by the [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173) wrapper to drive visual updates to the screen. To a user panning in a viewport, the content will appear to move smoothly under the contact.
+- When the user lifts the contact, the user sees the content continue to move as it transitions into an inertia animation, gradually decelerating until it reaches its final resting place.
 
 ## Processing keyboard and mouse input
 
@@ -65,20 +62,11 @@ Direct Manipulation is associated with a Win32 HWND in order to receive and proc
 
 ## Supporting documentation
 
--   [Viewports and content](directmanipulation-viewports-and-content.md)
--   [Using multiple viewports in DirectManipulation](directmanipulation-multiple-vieports.md)
--   [Processing input with DirectManipulation](directmanipulation-processing-input-with-directmanipulation.md)
--   [Composition engine](directmanipulation-composition-engine.md)
--   [Direct Manipulation Reference](direct-manipulation-reference.md)
+- [Viewports and content](directmanipulation-viewports-and-content.md)
+- [Using multiple viewports in DirectManipulation](directmanipulation-multiple-vieports.md)
+- [Processing input with DirectManipulation](directmanipulation-processing-input-with-directmanipulation.md)
+- [Composition engine](directmanipulation-composition-engine.md)
+- [Direct Manipulation Reference](direct-manipulation-reference.md)
 
-<!-- -->
-
--   [BUILD 2013: WCL-022: Make your desktop app great with touch, mouse, and pen](http://go.microsoft.com/fwlink/p/?LinkID=309846)
--   [Process touch input with Direct Manipulation sample](http://go.microsoft.com/fwlink/p/?LinkID=309852)
-
- 
-
- 
-
-
-
+- [BUILD 2013: WCL-022: Make your desktop app great with touch, mouse, and pen](http://go.microsoft.com/fwlink/p/?LinkID=309846)
+- [Process touch input with Direct Manipulation sample](http://go.microsoft.com/fwlink/p/?LinkID=309852)

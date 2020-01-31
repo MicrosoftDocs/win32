@@ -2,9 +2,6 @@
 Description: The topics contained in this section provide the reference specifications for Direct Manipulation enumerations.
 ms.assetid: D116798F-E381-46D4-8271-8BD8CADC9D27
 title: Direct Manipulation Enumerations
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -14,8 +11,6 @@ ms.date: 05/31/2018
 The topics contained in this section provide the reference specifications for [Direct Manipulation](direct-manipulation-portal.md) enumerations.
 
 ## In this section
-
-
 
 | Topic                                                                                                           | Description                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,21 +30,6 @@ The topics contained in this section provide the reference specifications for [D
 | [**DIRECTMANIPULATION\_VERTICALALIGNMENT**](/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment)<br/>                | Defines the vertical alignment settings for content within the viewport.<br/>                                                                                                                                                                    |
 | [**DIRECTMANIPULATION\_VIEWPORT\_OPTIONS**](/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_viewport_options)<br/>                 | Defines the input behavior options for the viewport.<br/>                                                                                                                                                                                        |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
 [Direct Manipulation Reference](direct-manipulation-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

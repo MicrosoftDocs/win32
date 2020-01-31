@@ -2,9 +2,6 @@
 Description: The topics contained in this section provide the reference specifications for Direct Manipulation interfaces.
 ms.assetid: 03680CE5-A858-4876-B41C-6F2E08C02C22
 title: Direct Manipulation Interfaces
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -16,11 +13,7 @@ The topics contained in this section provide the reference specifications for [D
 > [!Note]  
 > When implementing a [Direct Manipulation](direct-manipulation-portal.md) object, ensure that the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) implementation supports multithreading through thread-safe reference counting. For more information, see [**InterlockedIncrement**](https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd) and [**InterlockedDecrement**](https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3).
 
- 
-
 ## In this section
-
-
 
 | Topic                                                                                                       | Description                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,15 +35,3 @@ The topics contained in this section provide the reference specifications for [D
 | [**IDirectManipulationViewport**](/previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport)<br/>                               | Defines a region within a window (referred to as a viewport) that is able to receive and process input from user interactions. <br/>                                                                                                                                   |
 | [**IDirectManipulationViewport2**](/previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport2)<br/>                             | Provides management of behaviors on a viewport. A behavior affects the functionality of a particular part of the [Direct Manipulation](direct-manipulation-portal.md) workflow. <br/>                                                                                 |
 | [**IDirectManipulationViewportEventHandler**](/previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler)<br/>       | Defines methods for handling status and update events for the viewport.<br/>                                                                                                                                                                                           |
-
-
-
- 
-
- 
-
- 
-
-
-
-

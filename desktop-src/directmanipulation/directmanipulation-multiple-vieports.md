@@ -2,9 +2,6 @@
 Description: When using multiple viewports, Hit testingdetermines which viewport(s) are affected by user input by taking the screen location of a contact and determining which viewport rectangle the contact hits.
 ms.assetid: 960EF92D-F439-4A84-AAF9-1469E2830573
 title: Using multiple viewports in DirectManipulation
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,8 +37,6 @@ When the user pans the child viewport all the way to the edge of the content, th
 > [!Note]  
 > The X and Y axes chain independently of one another, so if a diagonal pan hits the x boundary before the y boundary, the manipulation moves the parent in the x direction while continuing to move the child in the y direction. To enable or disable chaining, call the [**SetChaining**](/previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setchaining) API on the child viewport.
 
- 
-
 ### Rails
 
 Specifying rails in a viewport’s configuration affects the way input is chained from the viewport. Specifically, input cannot chain from a railed child viewport to its parent in the “unrailed” panning mode of rails. To chain input when rails are set, the user must have panned vertically or horizontally and be locked to the rails.
@@ -55,10 +50,3 @@ If a child viewport is nested inside a parent, and both are configured for zoom,
 *Gesture targeting* is the process by which [Direct Manipulation](direct-manipulation-portal.md) groups contacts together and determines which viewport processes the input. *Parent promotion* refers to cases where the input is transferred from the child to the parent. For example, when a user puts down two contacts and pinches within a child viewport configured only for scrolling, the input is promoted to the parent so that zooming occurs. Parent promotion occurs regardless of whether chaining is enabled on the child viewport.
 
 Unlike chaining, parent promotion is not reversed. The parent viewport continues to process the interaction input until all contacts are lifted (child viewports stop processing the input).
-
- 
-
- 
-
-
-

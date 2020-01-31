@@ -2,9 +2,6 @@
 Description: The topics in this section provide the reference specifications for Direct Manipulation.
 ms.assetid: D9AEDA9D-D6EB-4567-8C12-362DA0F17667
 title: Direct Manipulation Reference
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -15,8 +12,6 @@ The topics in this section provide the reference specifications for [Direct Mani
 
 ## In this section
 
-
-
 | Topic                                                                               | Description                                                                                                                                                  |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Direct Manipulation Constants**](direct-manipulation-constants.md)<br/>   | This section provides the reference specifications for [Direct Manipulation](direct-manipulation-portal.md) constants.<br/>                           |
@@ -24,21 +19,6 @@ The topics in this section provide the reference specifications for [Direct Mani
 | [Direct Manipulation Enumerations](direct-manipulation-enumerations.md)<br/> | The topics contained in this section provide the reference specifications for [Direct Manipulation](direct-manipulation-portal.md) enumerations.<br/> |
 | [Direct Manipulation Interfaces](direct-manipulation-interfaces.md)<br/>     | The topics contained in this section provide the reference specifications for [Direct Manipulation](direct-manipulation-portal.md) interfaces. <br/>  |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
 [Direct Manipulation](direct-manipulation-portal.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
