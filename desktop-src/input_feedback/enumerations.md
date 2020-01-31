@@ -14,7 +14,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/30/2020
 ---
 
 # Enumerations
@@ -23,28 +23,10 @@ The topics in this section provide the reference specifications for [Input Feedb
 
 ## In this section
 
-
-
-| Topic                                              | Description                                                        |
-|----------------------------------------------------|--------------------------------------------------------------------|
-| [**FEEDBACK\_TYPE**](/previous-versions/windows/desktop/api)<br/> | Specifies the visual feedback associated with an event.<br/> |
-
-
-
- 
+| Topic | Description |
+|---|---|
+| [FEEDBACK_TYPE](/windows/win32/api/winuser/ne-winuser-feedback_type)<br/> | Specifies the visual feedback associated with an event.<br/> |
 
 ## Related topics
 
-<dl> <dt>
-
 [Input Feedback Configuration Reference](input-feedback-configuration-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
