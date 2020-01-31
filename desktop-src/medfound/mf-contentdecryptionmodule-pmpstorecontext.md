@@ -2,7 +2,7 @@
 Description: Specifies a context string used by Content Decryption Module (CDM) implementations that use MediaProtectionPMPServer.
 title: MF_CONTENTDECRYPTIONMODULE_PMPSTORECONTEXT (mfcontentdecryptionmodule.h)
 ms.topic: reference
-ms.date: 01/21/2021
+ms.date: 01/31/2020
 ---
 
 # MF\_CONTENTDECRYPTIONMODULE\_PMPSTORECONTEXT property

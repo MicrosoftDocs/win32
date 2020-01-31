@@ -2,7 +2,7 @@
 Description: Specifies a file path representing a storage location the Content Decryption Module (CDM) can use for content-specific data.
 title: MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH (mfcontentdecryptionmodule.h)
 ms.topic: reference
-ms.date: 01/21/2021
+ms.date: 01/31/2020
 ---
 
 # MF\_CONTENTDECRYPTIONMODULE\_INPRIVATESTOREPATH property
