@@ -14,7 +14,7 @@ ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/30/2020
 ---
 
 # Functions
@@ -23,29 +23,11 @@ The topics in this section provide the reference specifications for [Input Feedb
 
 ## In this section
 
-
-
 | Topic                                                                   | Description                                                   |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| [**GetWindowFeedbackSetting**](/previous-versions/windows/desktop/api)<br/> | Retrieves the feedback configuration for a window.<br/> |
-| [**SetWindowFeedbackSetting**](/previous-versions/windows/desktop/api)<br/> | Sets the feedback configuration for a window.<br/>      |
-
-
-
- 
+| [**GetWindowFeedbackSetting**](/windows/win32/api/Winuser/nf-winuser-getwindowfeedbacksetting)<br/> | Retrieves the feedback configuration for a window.<br/> |
+| [**SetWindowFeedbackSetting**](/windows/win32/api/Winuser/nf-winuser-setwindowfeedbacksetting)<br/> | Sets the feedback configuration for a window.<br/>      |
 
 ## Related topics
 
-<dl> <dt>
-
 [Input Feedback Configuration Reference](input-feedback-configuration-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
