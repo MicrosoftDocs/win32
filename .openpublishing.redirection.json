@@ -221,7 +221,7 @@
             "redirect_document_id": false
       },
       {
-            "source_path": "desktop-src/etw/enable-trace-parameters_v1.md",
+            "source_path": "desktop-src/etw/enable-trace-parameters-v1.md",
             "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-enable_trace_parameters_v1",
             "redirect_document_id": false
       },
