@@ -71,6 +71,8 @@
             href: tsf/text-services-framework.md
           - name: "Input feedback configuration"
             href: input_feedback/input-feedback-configuration-portal.md
+          - name: "Direct Manipulation"
+            href: directmanipulation/direct-manipulation-portal.md
           - name: "Legacy User Interaction Features"
             items: 
             - name: "Overview"
