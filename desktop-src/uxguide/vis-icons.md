@@ -262,6 +262,9 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 **Production**
 
+> [!TIP]
+> Follow these steps to create a single .ico file that contains multiple image sizes and color depths.
+
 **Step 1: Conceptualize**
 
 -   Use established concepts where possible, to ensure consistency of meanings for the icon and its relevance to other uses.
