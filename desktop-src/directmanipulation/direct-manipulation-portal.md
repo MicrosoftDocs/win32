@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements. You can use Direct Manipulation to optimize responsiveness and reduce latency through off-thread input processing, optional off-thread input hit testing, and input/output prediction.
 
-Any application that uses Direct Manipulation to process touch interactions displays the fluid Windows 8 animations and interaction feedback behaviors that conform to the [Guidelines for common user interactions](https://msdn.microsoft.com/windows/desktop/3250F729-4FDD-4AD4-B856-B8BA575C3375).
+Any application that uses Direct Manipulation to process touch interactions displays the fluid Windows 8 animations and interaction feedback behaviors that conform to the [Guidelines for common user interactions](/windows/uwp/design/input/).
 
 ## Developer Audience
 
-The Direct Manipulation API is for experienced developers who know C/C++, have a solid understanding of the [Component Object Model (COM)](https://msdn.microsoft.com/3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4), and are familiar with Windows programming concepts.
+The Direct Manipulation API is for experienced developers who know C/C++, have a solid understanding of the [Component Object Model (COM)](/windows/win32/com/component-object-model--com--portal), and are familiar with Windows programming concepts.
 
 ## Run-time requirements
 
@@ -32,7 +32,7 @@ To optimize responsiveness and minimize latency, Direct Manipulation processing 
 
 ### Implementation flexibility
 
-The interfaces included with Direct Manipulation provide comprehensive support for input handling, interaction recognition, feedback notifications, and UI updates. The interfaces also incorporate system services such as [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173).
+The interfaces included with Direct Manipulation provide comprehensive support for input handling, interaction recognition, feedback notifications, and UI updates. The interfaces also incorporate system services such as [DirectComposition](/windows/win32/directcomp/directcomposition-portal).
 
 ## Basic concepts
 
@@ -42,23 +42,23 @@ This figure shows a basic Direct Manipulation implementation before and after pa
 
 ![basic direct manipulation implementation before and after panning.](images/dm-art-1.png)
 
-During initialization of Direct Manipulation a **DCompDirectManipulationCompositor** object is instantiated and is associated with Direct Manipulation. This object is a wrapper around [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173), which is the system compositor. The object is responsible for applying the output transforms and driving visual updates.
+During initialization of Direct Manipulation a **DCompDirectManipulationCompositor** object is instantiated and is associated with Direct Manipulation. This object is a wrapper around [DirectComposition](/windows/win32/directcomp/directcomposition-portal), which is the system compositor. The object is responsible for applying the output transforms and driving visual updates.
 
-A contact represents a touch point identified by the **pointerId** provided in the [**WM\_POINTERDOWN**](https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8ac000) message. When a **WM\_POINTERDOWN** message is received, the application calls [**SetContact**](/previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). The application notifies Direct Manipulationabout the contacts that should be handled and the viewport(s) that should react to those contacts. Keyboard and mouse input have special **pointerId** values so they can be handled appropriately by Direct Manipulation.
+A contact represents a touch point identified by the **pointerId** provided in the [WM/_POINTERDOWN](../inputmsg/wm-pointerdown.md) message. When a **WM\_POINTERDOWN** message is received, the application calls [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). The application notifies Direct Manipulationabout the contacts that should be handled and the viewport(s) that should react to those contacts. Keyboard and mouse input have special **pointerId** values so they can be handled appropriately by Direct Manipulation.
 
-In our basic case above, when [**SetContact**](/previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact) is called a few things happen:
+In our basic case above, when [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact) is called a few things happen:
 
-- When the user performs a pan, a [**WM\_POINTERCAPTURECHANGED**](https://msdn.microsoft.com/6eec37da-227c-4be1-bf0b-98704caa1322) message is sent to the application to notify that the contact has been consumed by Direct Manipulation.
-- When the user moves the moves, the viewport fires update events which are used by the [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173) wrapper to drive visual updates to the screen. To a user panning in a viewport, the content will appear to move smoothly under the contact.
+- When the user performs a pan, a [WM/_POINTERCAPTURECHANGED](../inputmsg/wm-pointercapturechanged.md) message is sent to the application to notify that the contact has been consumed by Direct Manipulation.
+- When the user moves the moves, the viewport fires update events which are used by the [DirectComposition](/windows/win32/directcomp/directcomposition-portal) wrapper to drive visual updates to the screen. To a user panning in a viewport, the content will appear to move smoothly under the contact.
 - When the user lifts the contact, the user sees the content continue to move as it transitions into an inertia animation, gradually decelerating until it reaches its final resting place.
 
 ## Processing keyboard and mouse input
 
-Direct Manipulation allows keyboard and mouse messages to be forwarded manually from the application UI thread via the [**ProcessInput**](/previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput) API such that they can be handled appropriately by Direct Manipulation.
+Direct Manipulation allows keyboard and mouse messages to be forwarded manually from the application UI thread via the [**ProcessInput**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput) API such that they can be handled appropriately by Direct Manipulation.
 
 ## DirectManipulation and the HWND
 
-Direct Manipulation is associated with a Win32 HWND in order to receive and process pointer input messages for that window. As Direct Manipulation computes output values, it makes asynchronous callbacks to the Direct Manipulation[Component Object Model (COM)](https://msdn.microsoft.com/3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4) objects that are implemented in the application. These callbacks inform the application about the transform that was applied to the objects. Direct Manipulation is activated on the specified HWND by calling [**Activate**](/previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate).
+Direct Manipulation is associated with a Win32 HWND in order to receive and process pointer input messages for that window. As Direct Manipulation computes output values, it makes asynchronous callbacks to the Direct Manipulation [Component Object Model (COM)](/windows/win32/com/component-object-model--com--portal) objects that are implemented in the application. These callbacks inform the application about the transform that was applied to the objects. Direct Manipulation is activated on the specified HWND by calling [**Activate**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate).
 
 ## Supporting documentation
 
