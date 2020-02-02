@@ -20,245 +20,245 @@
       href: direct-manipulation-enumerations.md
       items: 
       - name: "DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_autoscroll_configuration
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_autoscroll_configuration
       - name: "DIRECTMANIPULATION_CONFIGURATION"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_configuration
       - name: "DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_configuration
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_configuration
       - name: "DIRECTMANIPULATION_DRAG_DROP_STATUS"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_status
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_status
       - name: "DIRECTMANIPULATION_GESTURE_CONFIGURATION"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_gesture_configuration
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_gesture_configuration
       - name: "DIRECTMANIPULATION_HITTEST_TYPE"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_hittest_type
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_hittest_type
       - name: "DIRECTMANIPULATION_HORIZONTALALIGNMENT"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_horizontalalignment
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_horizontalalignment
       - name: "DIRECTMANIPULATION_INPUT_MODE"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_input_mode
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_input_mode
       - name: "DIRECTMANIPULATION_INTERACTION_TYPE"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_interaction_type
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_interaction_type
       - name: "DIRECTMANIPULATION_MOTION_TYPES"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_motion_types
       - name: "DIRECTMANIPULATION_SNAPPOINT_COORDINATE"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_coordinate
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_coordinate
       - name: "DIRECTMANIPULATION_SNAPPOINT_TYPE"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_type
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_snappoint_type
       - name: "DIRECTMANIPULATION_STATUS"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_status
       - name: "DIRECTMANIPULATION_VERTICALALIGNMENT"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment
       - name: "DIRECTMANIPULATION_VIEWPORT_OPTIONS"
-        href: /previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_viewport_options
+        href: /windows/win32/api/directmanipulation/ne-directmanipulation-directmanipulation_viewport_options
     - name: "Direct Manipulation Interfaces"
       href: direct-manipulation-interfaces.md
       items: 
       - name: "IDirectManipulationAutoScrollBehavior"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationautoscrollbehavior
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationautoscrollbehavior
         items: 
         - name: "SetConfiguration method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationautoscrollbehavior-setconfiguration
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationautoscrollbehavior-setconfiguration
       - name: "IDirectManipulationCompositor"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor
         items: 
         - name: "AddContent method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-addcontent
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-addcontent
         - name: "Flush method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-flush
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-flush
         - name: "RemoveContent method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-removecontent
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-removecontent
         - name: "SetUpdateManager method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-setupdatemanager
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcompositor-setupdatemanager
       - name: "IDirectManipulationCompositor2"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor2
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor2
         items: 
         - name: "AddContentWithCrossProcessChaining method"
-          href: /previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining
+          href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining
       - name: "IDirectManipulationContent"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcontent
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationcontent
         items: 
         - name: "GetContentRect method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontentrect
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontentrect
         - name: "GetContentTransform method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontenttransform
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getcontenttransform
         - name: "GetOutputTransform Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getoutputtransform
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getoutputtransform
         - name: "GetTag Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-gettag
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-gettag
         - name: "GetViewport Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getviewport
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-getviewport
         - name: "SetContentRect method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect
         - name: "SetTag Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-settag
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-settag
         - name: "SyncContentTransform method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-synccontenttransform
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationcontent-synccontenttransform
       - name: "IDirectManipulationDeferContactService"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdefercontactservice
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdefercontactservice
         items: 
         - name: "CancelContact method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-cancelcontact
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-cancelcontact
         - name: "CancelDeferral method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-canceldeferral
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-canceldeferral
         - name: "DeferContact method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-defercontact
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdefercontactservice-defercontact
       - name: "IDirectManipulationDragDropBehavior"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior
         items: 
         - name: "SetConfiguration method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-setconfiguration
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-setconfiguration
         - name: "GetStatus method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-getstatus
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropbehavior-getstatus
       - name: "IDirectManipulationDragDropEventHandler"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropeventhandler
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationdragdropeventhandler
         items: 
         - name: "OnDragDropStatusChange method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropeventhandler-ondragdropstatuschange
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationdragdropeventhandler-ondragdropstatuschange
       - name: "IDirectManipulationFrameInfoProvider"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider
         items: 
         - name: "GetNextFrameInfo Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationframeinfoprovider-getnextframeinfo
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationframeinfoprovider-getnextframeinfo
       - name: "IDirectManipulationInteractionEventHandler"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationinteractioneventhandler
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationinteractioneventhandler
         items: 
         - name: "OnInteraction method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationinteractioneventhandler-oninteraction
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationinteractioneventhandler-oninteraction
       - name: "IDirectManipulationManager"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager
         items: 
         - name: "Activate Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate
         - name: "CreateContent Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createcontent
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createcontent
         - name: "CreateViewport Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createviewport
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-createviewport
         - name: "Deactivate Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-deactivate
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-deactivate
         - name: "GetUpdateManager Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-getupdatemanager
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-getupdatemanager
         - name: "ProcessInput Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput
         - name: "RegisterHitTestTarget method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-registerhittesttarget
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-registerhittesttarget
       - name: "IDirectManipulationManager2"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager2
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager2
         items: 
         - name: "CreateBehavior method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager2-createbehavior
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager2-createbehavior
       - name: "IDirectManipulationManager3"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager3
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationmanager3
         items: 
         - name: "GetService method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager3-getservice
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager3-getservice
       - name: "IDirectManipulationPrimaryContent"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationprimarycontent
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationprimarycontent
         items: 
         - name: "GetCenterPoint method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getcenterpoint
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getcenterpoint
         - name: "GetInertiaEndTransform method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getinertiaendtransform
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getinertiaendtransform
         - name: "SetHorizontalAlignment method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-sethorizontalalignment
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-sethorizontalalignment
         - name: "SetSnapCoordinate method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapcoordinate
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapcoordinate
         - name: "SetSnapInterval method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapinterval
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapinterval
         - name: "SetSnapPoints method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints
         - name: "SetSnapType method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnaptype
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnaptype
         - name: "SetVerticalAlignment method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setverticalalignment
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setverticalalignment
         - name: "SetZoomBoundaries method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setzoomboundaries
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setzoomboundaries
       - name: "IDirectManipulationUpdateHandler"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatehandler
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatehandler
         items: 
         - name: "Update Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatehandler-update
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatehandler-update
       - name: "IDirectManipulationUpdateManager"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatemanager
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationupdatemanager
         items: 
         - name: "RegisterWaitHandleCallback Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-registerwaithandlecallback
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-registerwaithandlecallback
         - name: "UnregisterWaitHandleCallback Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-unregisterwaithandlecallback
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-unregisterwaithandlecallback
         - name: "Update Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update
       - name: "IDirectManipulationViewport"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport
         items: 
         - name: "Abandon method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-abandon
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-abandon
         - name: "ActivateConfiguration Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration
         - name: "AddConfiguration Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addconfiguration
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addconfiguration
         - name: "AddContent Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addcontent
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addcontent
         - name: "AddEventHandler Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addeventhandler
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addeventhandler
         - name: "Disable Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-disable
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-disable
         - name: "Enable Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-enable
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-enable
         - name: "GetPrimaryContent Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getprimarycontent
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getprimarycontent
         - name: "GetStatus Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getstatus
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getstatus
         - name: "GetTag Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-gettag
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-gettag
         - name: "GetViewportRect method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getviewportrect
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-getviewportrect
         - name: "ReleaseAllContacts method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releaseallcontacts
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releaseallcontacts
         - name: "ReleaseContact method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releasecontact
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-releasecontact
         - name: "RemoveConfiguration Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeconfiguration
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeconfiguration
         - name: "RemoveContent Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removecontent
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removecontent
         - name: "RemoveEventHandler Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeeventhandler
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-removeeventhandler
         - name: "SetChaining Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setchaining
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setchaining
         - name: "SetContact method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact
         - name: "SetInputMode Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setinputmode
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setinputmode
         - name: "SetManualGesture method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setmanualgesture
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setmanualgesture
         - name: "SetTag Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-settag
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-settag
         - name: "SetUpdateMode method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setupdatemode
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setupdatemode
         - name: "SetViewportOptions method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportoptions
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportoptions
         - name: "SetViewportRect method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect
         - name: "SetViewportTransform method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewporttransform
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setviewporttransform
         - name: "Stop method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-stop
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-stop
         - name: "SyncDisplayTransform method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-syncdisplaytransform
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-syncdisplaytransform
         - name: "ZoomToRect Method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-zoomtorect
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-zoomtorect
       - name: "IDirectManipulationViewport2"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport2
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewport2
         items: 
         - name: "AddBehavior method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior
         - name: "RemoveBehavior method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removebehavior
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removebehavior
         - name: "RemoveAllBehaviors method"
-          href: /previous-versions/windows/desktop/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removeallbehaviors
+          href: /windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport2-removeallbehaviors
       - name: "IDirectManipulationViewportEventHandler"
-        href: /previous-versions/windows/desktop/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler
+        href: /windows/win32/api/DirectManipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler
         items: 
         - name: "OnContentUpdated Method"
-          href: /previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-oncontentupdated
+          href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-oncontentupdated
         - name: "OnViewportStatusChanged Method"
-          href: /previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportstatuschanged
+          href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportstatuschanged
         - name: "OnViewportUpdated Method"
-          href: /previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportupdated
+          href: /windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewporteventhandler-onviewportupdated
