@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Macros
 
-The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) macros for retrieving information from pointer input message parameters.
+The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) macros for retrieving information from pointer input message parameters.
 
 ## In this section
 

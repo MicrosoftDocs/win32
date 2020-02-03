@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Structures
 
-The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) structures.
+The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) structures.
 
 ## In this section
 

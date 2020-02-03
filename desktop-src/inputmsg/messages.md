@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Messages
 
-The topics in this section provide the reference specifications for specific [Pointer Input Messages and Notifications](messages-and-notifications.md).
+The topics in this section provide the reference specifications for specific [Pointer Input Messages and Notifications](messages-and-notifications-portal.md).
 
 ## In this section
 

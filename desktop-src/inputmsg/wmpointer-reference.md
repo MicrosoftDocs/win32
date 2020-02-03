@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Pointer Input Message Reference
 
-The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md).
+The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md).
 
 ## In this section
 
@@ -19,12 +19,12 @@ The topics in this section provide the reference specifications for [Pointer Inp
 
 | Topic                                   | Description                                                                                                                                                                                                                        |
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Constants](constants.md)<br/>   | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) constants. <br/>                                                              |
-| [Enumerations](enums.md)<br/>    | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) enumerations. <br/>                                                           |
-| [Functions](functions.md)<br/>   | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) functions.<br/>                                                               |
-| [Macros](macros.md)<br/>         | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) macros for retrieving information from pointer input message parameters.<br/> |
-| [Messages](messages.md)<br/>     | The topics in this section provide the reference specifications for specific [Pointer Input Messages and Notifications](messages-and-notifications.md).<br/>                                                                |
-| [Structures](structures.md)<br/> | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) structures.<br/>                                                              |
+| [Constants](constants.md)<br/>   | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) constants. <br/>                                                              |
+| [Enumerations](enums.md)<br/>    | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) enumerations. <br/>                                                           |
+| [Functions](functions.md)<br/>   | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) functions.<br/>                                                               |
+| [Macros](macros.md)<br/>         | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) macros for retrieving information from pointer input message parameters.<br/> |
+| [Messages](messages.md)<br/>     | The topics in this section provide the reference specifications for specific [Pointer Input Messages and Notifications](messages-and-notifications-portal.md).<br/>                                                                |
+| [Structures](structures.md)<br/> | The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) structures.<br/>                                                              |
 
 
 
@@ -34,7 +34,7 @@ The topics in this section provide the reference specifications for [Pointer Inp
 
 <dl> <dt>
 
-[Pointer Input Messages and Notifications](messages-and-notifications.md)
+[Pointer Input Messages and Notifications](messages-and-notifications-portal.md)
 </dt> </dl>
 
  

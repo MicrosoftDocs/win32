@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Functions
 
-The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications.md) functions.
+The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) functions.
 
 ## In this section
 

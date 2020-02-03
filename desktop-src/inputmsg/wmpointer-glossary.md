@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Pointer Input Messages and Notifications Glossary
 
-Terms and definitions specific to [Pointer Input Messages and Notifications](messages-and-notifications.md).
+Terms and definitions specific to [Pointer Input Messages and Notifications](messages-and-notifications-portal.md).
 
 <dl> <dt>
 
