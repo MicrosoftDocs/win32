@@ -1251,14 +1251,14 @@ Next
 
 
 ```PowerShell
-$colItems = Get-WmiObject Win32_Fan -Namespace &quot;root\cimv2&quot;
+$colItems = Get-WmiObject Win32_Fan -Namespace "root\cimv2"
 foreach ($objItem in $colItems)
 {
-    &quot;Active Cooling: &quot; + $objItem.ActiveCooling 
-    &quot;Availability: &quot; + $objItem.Availability 
-    &quot;Device ID: &quot; + $objItem.DeviceID 
-    &quot;Name: &quot; + $objItem.Name 
-    &quot;Status Information: &quot; + $objItem.StatusInfo 
+    "Active Cooling: " + $objItem.ActiveCooling 
+    "Availability: " + $objItem.Availability 
+    "Device ID: " + $objItem.DeviceID 
+    "Name: " + $objItem.Name 
+    "Status Information: " + $objItem.StatusInfo 
 }
 ```
 
