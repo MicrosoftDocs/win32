@@ -73,6 +73,8 @@
             href: input_feedback/input-feedback-configuration-portal.md
           - name: "Direct Manipulation"
             href: directmanipulation/direct-manipulation-portal.md
+          - name: "Pointer Input Messages and Notifications"
+            href: inputmsg/messages-and-notifications-portal.md
           - name: "Legacy User Interaction Features"
             items: 
             - name: "Overview"

@@ -1,5 +1,5 @@
 - name: "Pointer Input Messages and Notifications"
-  href: messages-and-notifications.md
+  href: messages-and-notifications-portal.md
   items: 
   - name: "Pointer Input Message Reference"
     href: wmpointer-reference.md
