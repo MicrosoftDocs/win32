@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Pointer Input Messages and Notifications
 
-This section describes input messages, notifications, and associated functionality in Windows 8.
+This section describes input messages, notifications, and associated functionality in Windows applications.
 
 ## In this section
 
