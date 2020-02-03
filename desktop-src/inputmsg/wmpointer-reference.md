@@ -2,9 +2,6 @@
 title: Pointer Input Message Reference
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications.
 ms.assetid: B3FAE463-3B1D-412C-9698-8366D6A63806
-
-
-
 ms.topic: article
 ms.date: 02/03/2020
 ---

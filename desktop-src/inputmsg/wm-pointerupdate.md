@@ -12,9 +12,6 @@ api_location:
 - Winuser.h
 api_type:git add
 - HeaderDef
-
-
-
 ms.topic: article
 ms.date: 02/03/2020
 ---
