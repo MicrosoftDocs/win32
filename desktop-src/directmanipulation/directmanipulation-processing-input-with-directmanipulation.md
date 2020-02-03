@@ -3,7 +3,7 @@ Description: This section provides an overview of the Direct Manipulation thread
 ms.assetid: 0818E34E-990E-4C36-9954-EF87EB226AF6
 title: Processing input with DirectManipulation
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Processing input with DirectManipulation

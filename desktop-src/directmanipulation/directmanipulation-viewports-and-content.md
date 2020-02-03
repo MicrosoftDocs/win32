@@ -3,7 +3,7 @@ Description: Direct Manipulation uses viewports, contents and contacts to descri
 ms.assetid: 1564F6F2-844F-4392-9EB5-AA46059D514C
 title: Viewports and content
 ms.topic: article
-ms.date: 02/02/2020
+ms.date: 02/03/2020
 ---
 
 # Viewports and content

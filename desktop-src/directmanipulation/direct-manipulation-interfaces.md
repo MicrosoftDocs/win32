@@ -3,7 +3,7 @@ Description: The topics contained in this section provide the reference specific
 ms.assetid: 03680CE5-A858-4876-B41C-6F2E08C02C22
 title: Direct Manipulation Interfaces
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Direct Manipulation Interfaces

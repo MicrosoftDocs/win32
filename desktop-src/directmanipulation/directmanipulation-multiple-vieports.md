@@ -3,7 +3,7 @@ Description: When using multiple viewports, Hit testingdetermines which viewport
 ms.assetid: 960EF92D-F439-4A84-AAF9-1469E2830573
 title: Using multiple viewports in DirectManipulation
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Using multiple viewports in DirectManipulation

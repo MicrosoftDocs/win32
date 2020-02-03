@@ -3,7 +3,7 @@ Description: This section provides the reference specifications for Direct Manip
 ms.assetid: 41A828F5-4AE3-4073-89EB-CC1279B9ECED
 title: Direct Manipulation Constants
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Direct Manipulation Constants

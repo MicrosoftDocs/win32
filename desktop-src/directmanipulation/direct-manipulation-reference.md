@@ -3,7 +3,7 @@ Description: The topics in this section provide the reference specifications for
 ms.assetid: D9AEDA9D-D6EB-4567-8C12-362DA0F17667
 title: Direct Manipulation Reference
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Direct Manipulation Reference

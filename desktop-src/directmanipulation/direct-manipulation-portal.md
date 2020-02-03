@@ -3,7 +3,7 @@ Description: The Direct Manipulation APIs let you create great pan, zoom, and dr
 ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: Direct Manipulation
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Direct Manipulation

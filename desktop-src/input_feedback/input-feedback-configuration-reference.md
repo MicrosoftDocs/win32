@@ -11,7 +11,7 @@ keywords:
 - pen
 - stylus
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Input Feedback Configuration Reference

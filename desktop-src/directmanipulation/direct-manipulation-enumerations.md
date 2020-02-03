@@ -3,7 +3,7 @@ Description: The topics contained in this section provide the reference specific
 ms.assetid: D116798F-E381-46D4-8271-8BD8CADC9D27
 title: Direct Manipulation Enumerations
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Direct Manipulation Enumerations
