@@ -29,79 +29,79 @@
       href: enums.md
       items: 
       - name: "POINTER_BUTTON_CHANGE_TYPE"
-        href: /windows/desktop/api/winuser/ne-winuser-tagpointer_button_change_type
+        href: /windows/win32/api/winuser/ne-winuser-pointer_button_change_type
       - name: "POINTER_INPUT_TYPE"
-        href: /windows/desktop/api/winuser/ne-winuser-tagpointer_input_type
+        href: /windows/win32/api/winuser/ne-winuser-pointer_input_type
     - name: "Functions"
       href: functions.md
       items: 
       - name: "EnableMouseInPointer"
-        href: /windows/desktop/api/Winuser/nf-winuser-enablemouseinpointer
+        href: /windows/win32/api/Winuser/nf-winuser-enablemouseinpointer
       - name: "GetPointerCursorId"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointercursorid
+        href: /windows/win32/api/Winuser/nf-winuser-getpointercursorid
       - name: "GetPointerFrameInfo"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerframeinfo
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerframeinfo
       - name: "GetPointerFrameInfoHistory"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerframeinfohistory
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerframeinfohistory
       - name: "GetPointerFramePenInfo"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerframepeninfo
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerframepeninfo
       - name: "GetPointerFramePenInfoHistory"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerframepeninfohistory
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerframepeninfohistory
       - name: "GetPointerFrameTouchInfo"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerframetouchinfo
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerframetouchinfo
       - name: "GetPointerFrameTouchInfoHistory"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerframetouchinfohistory
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerframetouchinfohistory
       - name: "GetPointerInfo"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerinfo
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerinfo
       - name: "GetPointerInfoHistory"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerinfohistory
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerinfohistory
       - name: "GetPointerInputTransform"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerinputtransform
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerinputtransform
       - name: "GetPointerPenInfo"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerpeninfo
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerpeninfo
       - name: "GetPointerPenInfoHistory"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointerpeninfohistory
+        href: /windows/win32/api/Winuser/nf-winuser-getpointerpeninfohistory
       - name: "GetPointerTouchInfo"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointertouchinfo
+        href: /windows/win32/api/Winuser/nf-winuser-getpointertouchinfo
       - name: "GetPointerTouchInfoHistory"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointertouchinfohistory
+        href: /windows/win32/api/Winuser/nf-winuser-getpointertouchinfohistory
       - name: "GetPointerType"
-        href: /windows/desktop/api/Winuser/nf-winuser-getpointertype
+        href: /windows/win32/api/Winuser/nf-winuser-getpointertype
       - name: "GetUnpredictedMessagePos"
-        href: /windows/desktop/api/Winuser/nf-winuser-getunpredictedmessagepos
+        href: /windows/win32/api/Winuser/nf-winuser-getunpredictedmessagepos
       - name: "IsMouseInPointerEnabled"
-        href: /windows/desktop/api/Winuser/nf-winuser-ismouseinpointerenabled
+        href: /windows/win32/api/Winuser/nf-winuser-ismouseinpointerenabled
       - name: "SkipPointerFrameMessages"
-        href: /windows/desktop/api/Winuser/nf-winuser-skippointerframemessages
+        href: /windows/win32/api/Winuser/nf-winuser-skippointerframemessages
     - name: "Macros"
       href: macros.md
       items: 
       - name: "GET_POINTERID_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-get_pointerid_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-get_pointerid_wparam
       - name: "HAS_POINTER_CONFIDENCE_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-has_pointer_confidence_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-has_pointer_confidence_wparam
       - name: "IS_POINTER_CANCELED_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_canceled_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_canceled_wparam
       - name: "IS_POINTER_FIFTHBUTTON_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_fifthbutton_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_fifthbutton_wparam
       - name: "IS_POINTER_FIRSTBUTTON_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_firstbutton_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_firstbutton_wparam
       - name: "IS_POINTER_FLAG_SET_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_flag_set_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_flag_set_wparam
       - name: "IS_POINTER_FOURTHBUTTON_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_fourthbutton_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_fourthbutton_wparam
       - name: "IS_POINTER_INCONTACT_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_incontact_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_incontact_wparam
       - name: "IS_POINTER_INRANGE_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_inrange_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_inrange_wparam
       - name: "IS_POINTER_NEW_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_new_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_new_wparam
       - name: "IS_POINTER_PRIMARY_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_primary_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_primary_wparam
       - name: "IS_POINTER_SECONDBUTTON_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_secondbutton_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_secondbutton_wparam
       - name: "IS_POINTER_THIRDBUTTON_WPARAM"
-        href: /windows/desktop/api/Winuser/nf-winuser-is_pointer_thirdbutton_wparam
+        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_thirdbutton_wparam
     - name: "Messages"
       href: messages.md
       items: 
@@ -151,14 +151,14 @@
       href: structures.md
       items: 
       - name: "INPUT_TRANSFORM"
-        href: /windows/desktop/api/Winuser/ns-winuser-taginput_transform
+        href: /windows/win32/api/Winuser/ns-winuser-input_transform
       - name: "POINTER_INFO"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagpointer_info
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_info
       - name: "POINTER_PEN_INFO"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagpointer_pen_info
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_pen_info
       - name: "POINTER_TOUCH_INFO"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagpointer_touch_info
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_touch_info
       - name: "TOUCHPREDICTIONPARAMETERS"
-        href: /windows/desktop/api/Winuser/ns-winuser-tagtouchpredictionparameters
+        href: /windows/win32/api/Winuser/ns-winuser-touchpredictionparameters
   - name: "Pointer Input  Messages and Notifications Glossary"
     href: wmpointer-glossary.md
