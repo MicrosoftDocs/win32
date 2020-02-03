@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Touch Flags

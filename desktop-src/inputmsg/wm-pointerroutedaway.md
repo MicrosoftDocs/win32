@@ -16,7 +16,7 @@ api_type:
 
 
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # WM\_POINTERROUTEDAWAY message

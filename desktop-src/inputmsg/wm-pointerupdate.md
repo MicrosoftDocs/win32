@@ -16,7 +16,7 @@ api_type:git add
 
 
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # WM\_POINTERUPDATE message

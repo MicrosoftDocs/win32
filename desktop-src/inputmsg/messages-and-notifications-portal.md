@@ -3,7 +3,7 @@ title: Pointer Input Messages and Notifications
 description: This section describes input messages, notifications, and associated functionality in Windows 8.
 ms.assetid: BDF74777-101F-4089-94C1-5C28520CAD1A
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Pointer Input Messages and Notifications

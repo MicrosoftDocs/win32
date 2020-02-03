@@ -3,7 +3,7 @@ title: Macros
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications macros for retrieving information from pointer input message parameters.
 ms.assetid: 2324DCD0-DAE1-4AC2-AB36-23D114803138
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Macros
