@@ -1,6 +1,6 @@
 ---
-title: WM\_POINTERACTIVATE message
-description: Sent to an inactive window when a primary pointer generates a WM\_POINTERDOWN over the window.
+title: WM_POINTERACTIVATE message
+description: Sent to an inactive window when a primary pointer generates a WM_POINTERDOWN over the window.
 ms.assetid: 4eec37da-227c-4be1-bf0b-99704caa1322
 keywords:
 - WM_POINTERACTIVATE message Input Messages and Notifications
@@ -16,9 +16,9 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERACTIVATE message
+# WM_POINTERACTIVATE message
 
-Sent to an inactive window when a primary pointer generates a [**WM\_POINTERDOWN**](wm-pointerdown.md) over the window. As long as the message remains unhandled, it travels up the parent window chain until it is reaches the top-level window. Applications can respond to this message to specify whether they wish to be activated.
+Sent to an inactive window when a primary pointer generates a [**WM_POINTERDOWN**](wm-pointerdown.md) over the window. As long as the message remains unhandled, it travels up the parent window chain until it is reaches the top-level window. Applications can respond to this message to specify whether they wish to be activated.
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
@@ -38,9 +38,9 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 Contains the pointer identifier and additional information. Use the following macros to retrieve this information.
 
-[**GET\_POINTERID\_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier
+[**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier
 
-[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)(wParam): hit-test value returned from processing the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message.
+[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message.
 
 </dd> <dt>
 
@@ -61,10 +61,10 @@ If the application does not process this message, it should call [**DefWindowPro
 
 An application can handle this message and return one of the following values to determine how the system processes the activation and the activating input:
 
--   PA\_ACTIVATE
--   PA\_NOACTIVATE
+-   PA_ACTIVATE
+-   PA_NOACTIVATE
 
-It is important to note that, when the user is interacting with the system with multiple simultaneous pointers, the activation opportunity that the **WM\_POINTERACTIVATE** message represents is available to applications only for the first of those pointers. Applications should, therefore, be aware that they may still receive input from pointers while they are inactive.
+It is important to note that, when the user is interacting with the system with multiple simultaneous pointers, the activation opportunity that the **WM_POINTERACTIVATE** message represents is available to applications only for the first of those pointers. Applications should, therefore, be aware that they may still receive input from pointers while they are inactive.
 
 If the application does not handle this message, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) passes the message to the parent window.
 

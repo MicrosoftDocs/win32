@@ -1,5 +1,5 @@
 ---
-title: WM\_POINTERROUTEDAWAY message
+title: WM_POINTERROUTEDAWAY message
 description: Occurs on the process receiving input when the pointer input is routed to another process.AddContentWithCrossProcessChaining).
 ms.assetid: 06F8152C-0DA0-4820-835E-07AD35B24310
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERROUTEDAWAY message
+# WM_POINTERROUTEDAWAY message
 
 Occurs on the process receiving input when the pointer input is routed to another process.
 
@@ -55,7 +55,7 @@ NULL
 
 ## Remarks
 
-This message is not sent with either a [**WM\_POINTERUP**](wm-pointerup.md) message or a [**WM\_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) message.
+This message is not sent with either a [**WM_POINTERUP**](wm-pointerup.md) message or a [**WM_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) message.
 
 ## Requirements
 
@@ -76,7 +76,7 @@ This message is not sent with either a [**WM\_POINTERUP**](wm-pointerup.md) mess
 [Messages](messages.md)
 </dt> <dt>
 
-[**WM\_POINTERROUTEDTO**](wm-pointerroutedto.md)
+[**WM_POINTERROUTEDTO**](wm-pointerroutedto.md)
 </dt> </dl>
 
  

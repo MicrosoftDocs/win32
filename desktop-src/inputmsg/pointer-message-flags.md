@@ -30,7 +30,7 @@ Values that are used in various pointer macros (see [Macros](macros.md)).
 
 <dl> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_NEW"></span><span id="pointer_message_flag_new"></span>**POINTER\_MESSAGE\_FLAG\_NEW**
+<span id="POINTER_MESSAGE_FLAG_NEW"></span><span id="pointer_message_flag_new"></span>**POINTER_MESSAGE_FLAG_NEW**
 </dt> <dd> <dl> <dt>
 
 0x00000001
@@ -43,7 +43,7 @@ Indicates the arrival of a new pointer.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_INRANGE"></span><span id="pointer_message_flag_inrange"></span>**POINTER\_MESSAGE\_FLAG\_INRANGE**
+<span id="POINTER_MESSAGE_FLAG_INRANGE"></span><span id="pointer_message_flag_inrange"></span>**POINTER_MESSAGE_FLAG_INRANGE**
 </dt> <dd> <dl> <dt>
 
 0x00000002
@@ -53,12 +53,12 @@ Indicates the arrival of a new pointer.
 
 Indicates that this pointer continues to exist. When this flag is not set, it indicates the pointer has left detection range.
 
-This flag is typically not set only when a hovering pointer leaves detection range (**POINTER\_FLAG\_UPDATE** is set) or when a pointer in contact with a window surface leaves detection range (**POINTER\_FLAG\_UP** is set).
+This flag is typically not set only when a hovering pointer leaves detection range (**POINTER_FLAG_UPDATE** is set) or when a pointer in contact with a window surface leaves detection range (**POINTER_FLAG_UP** is set).
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_INCONTACT"></span><span id="pointer_message_flag_incontact"></span>**POINTER\_MESSAGE\_FLAG\_INCONTACT**
+<span id="POINTER_MESSAGE_FLAG_INCONTACT"></span><span id="pointer_message_flag_incontact"></span>**POINTER_MESSAGE_FLAG_INCONTACT**
 </dt> <dd> <dl> <dt>
 
 0x00000004
@@ -71,7 +71,7 @@ Indicates that this pointer is in contact with the digitizer surface. When this 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_FIRSTBUTTON"></span><span id="pointer_message_flag_firstbutton"></span>**POINTER\_MESSAGE\_FLAG\_FIRSTBUTTON**
+<span id="POINTER_MESSAGE_FLAG_FIRSTBUTTON"></span><span id="pointer_message_flag_firstbutton"></span>**POINTER_MESSAGE_FLAG_FIRSTBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000010
@@ -90,7 +90,7 @@ A mouse pointer has this flag set when the left mouse button is down.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_SECONDBUTTON"></span><span id="pointer_message_flag_secondbutton"></span>**POINTER\_MESSAGE\_FLAG\_SECONDBUTTON**
+<span id="POINTER_MESSAGE_FLAG_SECONDBUTTON"></span><span id="pointer_message_flag_secondbutton"></span>**POINTER_MESSAGE_FLAG_SECONDBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000020
@@ -109,7 +109,7 @@ A mouse pointer has this flag set when the right mouse button is down.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_THIRDBUTTON"></span><span id="pointer_message_flag_thirdbutton"></span>**POINTER\_MESSAGE\_FLAG\_THIRDBUTTON**
+<span id="POINTER_MESSAGE_FLAG_THIRDBUTTON"></span><span id="pointer_message_flag_thirdbutton"></span>**POINTER_MESSAGE_FLAG_THIRDBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000040
@@ -128,7 +128,7 @@ A mouse pointer has this flag set when the mouse wheel button is down.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_FOURTHBUTTON"></span><span id="pointer_message_flag_fourthbutton"></span>**POINTER\_MESSAGE\_FLAG\_FOURTHBUTTON**
+<span id="POINTER_MESSAGE_FLAG_FOURTHBUTTON"></span><span id="pointer_message_flag_fourthbutton"></span>**POINTER_MESSAGE_FLAG_FOURTHBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000080
@@ -147,7 +147,7 @@ A mouse pointer has this flag set when the first extended mouse (XBUTTON1) butto
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_FIFTHBUTTON"></span><span id="pointer_message_flag_fifthbutton"></span>**POINTER\_MESSAGE\_FLAG\_FIFTHBUTTON**
+<span id="POINTER_MESSAGE_FLAG_FIFTHBUTTON"></span><span id="pointer_message_flag_fifthbutton"></span>**POINTER_MESSAGE_FLAG_FIFTHBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000100
@@ -166,7 +166,7 @@ A mouse pointer has this flag set when the second extended mouse (XBUTTON2) butt
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_PRIMARY"></span><span id="pointer_message_flag_primary"></span>**POINTER\_MESSAGE\_FLAG\_PRIMARY**
+<span id="POINTER_MESSAGE_FLAG_PRIMARY"></span><span id="pointer_message_flag_primary"></span>**POINTER_MESSAGE_FLAG_PRIMARY**
 </dt> <dd> <dl> <dt>
 
 0x00002000
@@ -174,14 +174,14 @@ A mouse pointer has this flag set when the second extended mouse (XBUTTON2) butt
 
 
 
-Indicates that this pointer has been designated as the primary pointer. A primary pointer is a single pointer that can perform actions beyond those available to non-primary pointers. For example, when a primary pointer makes contact with a window s surface, it may provide the window an opportunity to activate by sending it a WM\_POINTERACTIVATE message.
+Indicates that this pointer has been designated as the primary pointer. A primary pointer is a single pointer that can perform actions beyond those available to non-primary pointers. For example, when a primary pointer makes contact with a window s surface, it may provide the window an opportunity to activate by sending it a WM_POINTERACTIVATE message.
 
 The primary pointer is identified from all current user interactions on the system (mouse, touch, pen, and so on). As such, the primary pointer might not be associated with your app. The first contact in a multi-touch interaction is set as the primary pointer. Once a primary pointer is identified, all contacts must be lifted before a new contact can be identified as a primary pointer. For apps that don't process pointer input, only the primary pointer's events are promoted to mouse events.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_CONFIDENCE"></span><span id="pointer_message_flag_confidence"></span>**POINTER\_MESSAGE\_FLAG\_CONFIDENCE**
+<span id="POINTER_MESSAGE_FLAG_CONFIDENCE"></span><span id="pointer_message_flag_confidence"></span>**POINTER_MESSAGE_FLAG_CONFIDENCE**
 </dt> <dd> <dl> <dt>
 
 0x00000400
@@ -189,12 +189,12 @@ The primary pointer is identified from all current user interactions on the syst
 
 
 
-Confidence is a suggestion from the source device about whether the pointer represents an intended or accidental interaction, which is especially relevant for PT\_TOUCH pointers where an accidental interaction (such as with the palm of the hand) can trigger input. The presence of this flag indicates that the source device has high confidence that this input is part of an intended interaction.
+Confidence is a suggestion from the source device about whether the pointer represents an intended or accidental interaction, which is especially relevant for PT_TOUCH pointers where an accidental interaction (such as with the palm of the hand) can trigger input. The presence of this flag indicates that the source device has high confidence that this input is part of an intended interaction.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MESSAGE_FLAG_CANCELED"></span><span id="pointer_message_flag_canceled"></span>**POINTER\_MESSAGE\_FLAG\_CANCELED**
+<span id="POINTER_MESSAGE_FLAG_CANCELED"></span><span id="pointer_message_flag_canceled"></span>**POINTER_MESSAGE_FLAG_CANCELED**
 </dt> <dd> <dl> <dt>
 
 0x00000800

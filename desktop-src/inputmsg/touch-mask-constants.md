@@ -1,6 +1,6 @@
 ---
 title: Touch Mask
-description: Values that can appear in the touchMask field of the POINTER\_TOUCH\_INFO structure.
+description: Values that can appear in the touchMask field of the POINTER_TOUCH_INFO structure.
 ms.assetid: 23AD50C8-C769-48D6-9F27-DB2755C03D5C
 topic_type:
 - apiref
@@ -19,11 +19,11 @@ ms.date: 02/03/2020
 
 # Touch Mask
 
-Values that can appear in the **touchMask** field of the [**POINTER\_TOUCH\_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **touchMask** field of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure.
 
 <dl> <dt>
 
-<span id="TOUCH_MASK_NONE_"></span><span id="touch_mask_none_"></span>**TOUCH\_MASK\_NONE** 
+<span id="TOUCH_MASK_NONE_"></span><span id="touch_mask_none_"></span>**TOUCH_MASK_NONE** 
 </dt> <dd> <dl> <dt>
 
 0x00000000
@@ -36,7 +36,7 @@ Default. None of the optional fields are valid.
 
 </dt> </dl> </dd> <dt>
 
-<span id="TOUCH_MASK_CONTACTAREA"></span><span id="touch_mask_contactarea"></span>**TOUCH\_MASK\_CONTACTAREA**
+<span id="TOUCH_MASK_CONTACTAREA"></span><span id="touch_mask_contactarea"></span>**TOUCH_MASK_CONTACTAREA**
 </dt> <dd> <dl> <dt>
 
 0x00000001
@@ -44,12 +44,12 @@ Default. None of the optional fields are valid.
 
 
 
-**rcContact** of the [**POINTER\_TOUCH\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**rcContact** of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="TOUCH_MASK_ORIENTATION"></span><span id="touch_mask_orientation"></span>**TOUCH\_MASK\_ORIENTATION**
+<span id="TOUCH_MASK_ORIENTATION"></span><span id="touch_mask_orientation"></span>**TOUCH_MASK_ORIENTATION**
 </dt> <dd> <dl> <dt>
 
 0x00000002
@@ -57,12 +57,12 @@ Default. None of the optional fields are valid.
 
 
 
-**orientation** of the [**POINTER\_TOUCH\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**orientation** of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="TOUCH_MASK_PRESSURE"></span><span id="touch_mask_pressure"></span>**TOUCH\_MASK\_PRESSURE**
+<span id="TOUCH_MASK_PRESSURE"></span><span id="touch_mask_pressure"></span>**TOUCH_MASK_PRESSURE**
 </dt> <dd> <dl> <dt>
 
 0x00000004
@@ -70,7 +70,7 @@ Default. None of the optional fields are valid.
 
 
 
-**pressure** of the [**POINTER\_TOUCH\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**pressure** of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> </dl>
@@ -94,7 +94,7 @@ Default. None of the optional fields are valid.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  

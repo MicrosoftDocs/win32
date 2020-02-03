@@ -1,5 +1,5 @@
 ---
-title: WM\_POINTERDEVICEINRANGE message
+title: WM_POINTERDEVICEINRANGE message
 description: Sent to a window when a pointer device is detected within range of an input digitizer. This message contains information regarding the device and its proximity.
 ms.assetid: 04244758-E662-4FB2-850E-20B4B3D1294A
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERDEVICEINRANGE message
+# WM_POINTERDEVICEINRANGE message
 
 Sent to a window when a pointer device is detected within range of an input digitizer. This message contains information regarding the device and its proximity.
 

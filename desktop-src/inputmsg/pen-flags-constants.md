@@ -1,6 +1,6 @@
 ---
 title: Pen Flags
-description: Values that can appear in the penFlags field of the POINTER\_PEN\_INFO structure.
+description: Values that can appear in the penFlags field of the POINTER_PEN_INFO structure.
 ms.assetid: BC3CE568-4090-4451-B780-18530C988305
 topic_type:
 - apiref
@@ -19,11 +19,11 @@ ms.date: 02/03/2020
 
 # Pen Flags
 
-Values that can appear in the **penFlags** field of the [**POINTER\_PEN\_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **penFlags** field of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure.
 
 <dl> <dt>
 
-<span id="PEN_FLAG_NONE"></span><span id="pen_flag_none"></span>**PEN\_FLAG\_NONE**
+<span id="PEN_FLAG_NONE"></span><span id="pen_flag_none"></span>**PEN_FLAG_NONE**
 </dt> <dd> <dl> <dt>
 
 0x00000000
@@ -36,7 +36,7 @@ There is no pen flag. This is the default.
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_FLAG_BARREL"></span><span id="pen_flag_barrel"></span>**PEN\_FLAG\_BARREL**
+<span id="PEN_FLAG_BARREL"></span><span id="pen_flag_barrel"></span>**PEN_FLAG_BARREL**
 </dt> <dd> <dl> <dt>
 
 0x00000001
@@ -49,7 +49,7 @@ The barrel button is pressed.
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_FLAG_INVERTED"></span><span id="pen_flag_inverted"></span>**PEN\_FLAG\_INVERTED**
+<span id="PEN_FLAG_INVERTED"></span><span id="pen_flag_inverted"></span>**PEN_FLAG_INVERTED**
 </dt> <dd> <dl> <dt>
 
 0x00000002
@@ -62,7 +62,7 @@ The pen is inverted.
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_FLAG_ERASER"></span><span id="pen_flag_eraser"></span>**PEN\_FLAG\_ERASER**
+<span id="PEN_FLAG_ERASER"></span><span id="pen_flag_eraser"></span>**PEN_FLAG_ERASER**
 </dt> <dd> <dl> <dt>
 
 0x00000004
@@ -94,7 +94,7 @@ The eraser button is pressed.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  

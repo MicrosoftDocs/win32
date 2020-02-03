@@ -1,5 +1,5 @@
 ---
-title: WM\_POINTERDEVICEOUTOFRANGE message
+title: WM_POINTERDEVICEOUTOFRANGE message
 description: Sent to a window when a pointer device has departed the range of an input digitizer. This message contains information regarding the device and its proximity.
 ms.assetid: 6BC667C1-6D9A-4E69-BAC6-761A1859F09E
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERDEVICEOUTOFRANGE message
+# WM_POINTERDEVICEOUTOFRANGE message
 
 Sent to a window when a pointer device has departed the range of an input digitizer. This message contains information regarding the device and its proximity.
 

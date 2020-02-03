@@ -16,8 +16,8 @@ The topics in this section provide the reference specifications for [Pointer Inp
 
 | Topic                                                                          | Description                                                                        |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [**POINTER\_BUTTON\_CHANGE\_TYPE**](/previous-versions/windows/desktop/api)<br/> | Identifies a change in the state of a button associated with a pointer.<br/> |
-| [**POINTER\_INPUT\_TYPE**](/previous-versions/windows/desktop/api)<br/>             | Lists the pointer input types.<br/>                                          |
+| [**POINTER_BUTTON_CHANGE_TYPE**](/previous-versions/windows/desktop/api)<br/> | Identifies a change in the state of a button associated with a pointer.<br/> |
+| [**POINTER_INPUT_TYPE**](/previous-versions/windows/desktop/api)<br/>             | Lists the pointer input types.<br/>                                          |
 
 
 

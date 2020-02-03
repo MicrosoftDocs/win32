@@ -1,5 +1,5 @@
 ---
-title: WM\_TOUCHHITTESTING message
+title: WM_TOUCHHITTESTING message
 description: Sent to a window on a touch down in order to determine the most probable touch target.
 ms.assetid: 741F9D67-A914-46CF-91A3-EF40447E7438
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_TOUCHHITTESTING message
+# WM_TOUCHHITTESTING message
 
 Sent to a window on a touch down in order to determine the most probable touch target.
 
@@ -46,7 +46,7 @@ Unused.
 *lParam* 
 </dt> <dd>
 
-Pointer to the [**TOUCH\_HIT\_TESTING\_INPUT**](https://msdn.microsoft.com/library/windows/desktop/hh437254) structure that holds the touch contact area data.
+Pointer to the [**TOUCH_HIT_TESTING_INPUT**](https://msdn.microsoft.com/library/windows/desktop/hh437254) structure that holds the touch contact area data.
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ Pointer to the [**TOUCH\_HIT\_TESTING\_INPUT**](https://msdn.microsoft.com/libra
 
 If one or more elements are within the touch contact area, an application should return the result of [**PackTouchHitTestingProximityEvaluation**](https://msdn.microsoft.com/library/windows/desktop/hh437250).
 
-If no elements are within the touch contact area, an application should set the value of **score** in [**TOUCH\_HIT\_TESTING\_PROXIMITY\_EVALUATION**](https://msdn.microsoft.com/library/windows/desktop/hh437256) to [**TOUCH\_HIT\_TESTING\_PROXIMITY\_FARTHEST**](https://msdn.microsoft.com/library/windows/desktop/hh437249) and call [**PackTouchHitTestingProximityEvaluation**](https://msdn.microsoft.com/library/windows/desktop/hh437250) to get the LRESULT return value.
+If no elements are within the touch contact area, an application should set the value of **score** in [**TOUCH_HIT_TESTING_PROXIMITY_EVALUATION**](https://msdn.microsoft.com/library/windows/desktop/hh437256) to [**TOUCH_HIT_TESTING_PROXIMITY_FARTHEST**](https://msdn.microsoft.com/library/windows/desktop/hh437249) and call [**PackTouchHitTestingProximityEvaluation**](https://msdn.microsoft.com/library/windows/desktop/hh437250) to get the LRESULT return value.
 
 If the application does not process this message, it must call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
 

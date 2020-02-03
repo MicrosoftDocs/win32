@@ -1,6 +1,6 @@
 ---
 title: Pointer Flags
-description: Values that can appear in the pointerFlags field of the POINTER\_INFO structure.
+description: Values that can appear in the pointerFlags field of the POINTER_INFO structure.
 ms.assetid: CC3F8E21-F4FF-495C-922E-A3708D3F2093
 topic_type:
 - apiref
@@ -34,11 +34,11 @@ ms.date: 02/03/2020
 
 # Pointer Flags
 
-Values that can appear in the **pointerFlags** field of the [**POINTER\_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **pointerFlags** field of the [**POINTER_INFO**](/previous-versions/windows/desktop/api) structure.
 
 <dl> <dt>
 
-<span id="POINTER_FLAG_NONE"></span><span id="pointer_flag_none"></span>**POINTER\_FLAG\_NONE**
+<span id="POINTER_FLAG_NONE"></span><span id="pointer_flag_none"></span>**POINTER_FLAG_NONE**
 </dt> <dd> <dl> <dt>
 
 0x00000000
@@ -51,7 +51,7 @@ Default
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_NEW"></span><span id="pointer_flag_new"></span>**POINTER\_FLAG\_NEW**
+<span id="POINTER_FLAG_NEW"></span><span id="pointer_flag_new"></span>**POINTER_FLAG_NEW**
 </dt> <dd> <dl> <dt>
 
 0x00000001
@@ -64,7 +64,7 @@ Indicates the arrival of a new pointer.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_INRANGE"></span><span id="pointer_flag_inrange"></span>**POINTER\_FLAG\_INRANGE**
+<span id="POINTER_FLAG_INRANGE"></span><span id="pointer_flag_inrange"></span>**POINTER_FLAG_INRANGE**
 </dt> <dd> <dl> <dt>
 
 0x00000002
@@ -74,12 +74,12 @@ Indicates the arrival of a new pointer.
 
 Indicates that this pointer continues to exist. When this flag is not set, it indicates the pointer has left detection range.
 
-This flag is typically not set only when a hovering pointer leaves detection range (**POINTER\_FLAG\_UPDATE** is set) or when a pointer in contact with a window surface leaves detection range (**POINTER\_FLAG\_UP** is set).
+This flag is typically not set only when a hovering pointer leaves detection range (**POINTER_FLAG_UPDATE** is set) or when a pointer in contact with a window surface leaves detection range (**POINTER_FLAG_UP** is set).
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_INCONTACT"></span><span id="pointer_flag_incontact"></span>**POINTER\_FLAG\_INCONTACT**
+<span id="POINTER_FLAG_INCONTACT"></span><span id="pointer_flag_incontact"></span>**POINTER_FLAG_INCONTACT**
 </dt> <dd> <dl> <dt>
 
 0x00000004
@@ -92,7 +92,7 @@ Indicates that this pointer is in contact with the digitizer surface. When this 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_FIRSTBUTTON"></span><span id="pointer_flag_firstbutton"></span>**POINTER\_FLAG\_FIRSTBUTTON**
+<span id="POINTER_FLAG_FIRSTBUTTON"></span><span id="pointer_flag_firstbutton"></span>**POINTER_FLAG_FIRSTBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000010
@@ -111,7 +111,7 @@ A mouse pointer has this flag set when the left mouse button is down.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_SECONDBUTTON"></span><span id="pointer_flag_secondbutton"></span>**POINTER\_FLAG\_SECONDBUTTON**
+<span id="POINTER_FLAG_SECONDBUTTON"></span><span id="pointer_flag_secondbutton"></span>**POINTER_FLAG_SECONDBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000020
@@ -130,7 +130,7 @@ A mouse pointer has this flag set when the right mouse button is down.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_THIRDBUTTON"></span><span id="pointer_flag_thirdbutton"></span>**POINTER\_FLAG\_THIRDBUTTON**
+<span id="POINTER_FLAG_THIRDBUTTON"></span><span id="pointer_flag_thirdbutton"></span>**POINTER_FLAG_THIRDBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000040
@@ -149,7 +149,7 @@ A mouse pointer has this flag set when the mouse wheel button is down.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_FOURTHBUTTON"></span><span id="pointer_flag_fourthbutton"></span>**POINTER\_FLAG\_FOURTHBUTTON**
+<span id="POINTER_FLAG_FOURTHBUTTON"></span><span id="pointer_flag_fourthbutton"></span>**POINTER_FLAG_FOURTHBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000080
@@ -168,7 +168,7 @@ A mouse pointer has this flag set when the first extended mouse (XBUTTON1) butto
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_FIFTHBUTTON"></span><span id="pointer_flag_fifthbutton"></span>**POINTER\_FLAG\_FIFTHBUTTON**
+<span id="POINTER_FLAG_FIFTHBUTTON"></span><span id="pointer_flag_fifthbutton"></span>**POINTER_FLAG_FIFTHBUTTON**
 </dt> <dd> <dl> <dt>
 
 0x00000100
@@ -187,7 +187,7 @@ A mouse pointer has this flag set when the second extended mouse (XBUTTON2) butt
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_PRIMARY"></span><span id="pointer_flag_primary"></span>**POINTER\_FLAG\_PRIMARY**
+<span id="POINTER_FLAG_PRIMARY"></span><span id="pointer_flag_primary"></span>**POINTER_FLAG_PRIMARY**
 </dt> <dd> <dl> <dt>
 
 0x00002000
@@ -195,14 +195,14 @@ A mouse pointer has this flag set when the second extended mouse (XBUTTON2) butt
 
 
 
-Indicates that this pointer has been designated as the primary pointer. A primary pointer is a single pointer that can perform actions beyond those available to non-primary pointers. For example, when a primary pointer makes contact with a window s surface, it may provide the window an opportunity to activate by sending it a [**WM\_POINTERACTIVATE**](wm-pointeractivate.md) message.
+Indicates that this pointer has been designated as the primary pointer. A primary pointer is a single pointer that can perform actions beyond those available to non-primary pointers. For example, when a primary pointer makes contact with a window s surface, it may provide the window an opportunity to activate by sending it a [**WM_POINTERACTIVATE**](wm-pointeractivate.md) message.
 
 The primary pointer is identified from all current user interactions on the system (mouse, touch, pen, and so on). As such, the primary pointer might not be associated with your app. The first contact in a multi-touch interaction is set as the primary pointer. Once a primary pointer is identified, all contacts must be lifted before a new contact can be identified as a primary pointer. For apps that don't process pointer input, only the primary pointer's events are promoted to mouse events.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_CONFIDENCE"></span><span id="pointer_flag_confidence"></span>**POINTER\_FLAG\_CONFIDENCE**
+<span id="POINTER_FLAG_CONFIDENCE"></span><span id="pointer_flag_confidence"></span>**POINTER_FLAG_CONFIDENCE**
 </dt> <dd> <dl> <dt>
 
 0x000004000
@@ -210,12 +210,12 @@ The primary pointer is identified from all current user interactions on the syst
 
 
 
-Confidence is a suggestion from the source device about whether the pointer represents an intended or accidental interaction, which is especially relevant for PT\_TOUCH pointers where an accidental interaction (such as with the palm of the hand) can trigger input. The presence of this flag indicates that the source device has high confidence that this input is part of an intended interaction.
+Confidence is a suggestion from the source device about whether the pointer represents an intended or accidental interaction, which is especially relevant for PT_TOUCH pointers where an accidental interaction (such as with the palm of the hand) can trigger input. The presence of this flag indicates that the source device has high confidence that this input is part of an intended interaction.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_CANCELED"></span><span id="pointer_flag_canceled"></span>**POINTER\_FLAG\_CANCELED**
+<span id="POINTER_FLAG_CANCELED"></span><span id="pointer_flag_canceled"></span>**POINTER_FLAG_CANCELED**
 </dt> <dd> <dl> <dt>
 
 0x000008000
@@ -228,7 +228,7 @@ Indicates that the pointer is departing in an abnormal manner, such as when the 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_DOWN"></span><span id="pointer_flag_down"></span>**POINTER\_FLAG\_DOWN**
+<span id="POINTER_FLAG_DOWN"></span><span id="pointer_flag_down"></span>**POINTER_FLAG_DOWN**
 </dt> <dd> <dl> <dt>
 
 0x00010000
@@ -241,7 +241,7 @@ Indicates that this pointer transitioned to a down state; that is, it made conta
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_UPDATE"></span><span id="pointer_flag_update"></span>**POINTER\_FLAG\_UPDATE**
+<span id="POINTER_FLAG_UPDATE"></span><span id="pointer_flag_update"></span>**POINTER_FLAG_UPDATE**
 </dt> <dd> <dl> <dt>
 
 0x00020000
@@ -254,7 +254,7 @@ Indicates that this is a simple update that does not include pointer state chang
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_UP"></span><span id="pointer_flag_up"></span>**POINTER\_FLAG\_UP**
+<span id="POINTER_FLAG_UP"></span><span id="pointer_flag_up"></span>**POINTER_FLAG_UP**
 </dt> <dd> <dl> <dt>
 
 0x00040000
@@ -267,7 +267,7 @@ Indicates that this pointer transitioned to an up state; that is, contact with t
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_WHEEL"></span><span id="pointer_flag_wheel"></span>**POINTER\_FLAG\_WHEEL**
+<span id="POINTER_FLAG_WHEEL"></span><span id="pointer_flag_wheel"></span>**POINTER_FLAG_WHEEL**
 </dt> <dd> <dl> <dt>
 
 0x00080000
@@ -275,12 +275,12 @@ Indicates that this pointer transitioned to an up state; that is, contact with t
 
 
 
-Indicates input associated with a pointer wheel. For mouse pointers, this is equivalent to the action of the mouse scroll wheel ([**WM\_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
+Indicates input associated with a pointer wheel. For mouse pointers, this is equivalent to the action of the mouse scroll wheel ([**WM_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_HWHEEL"></span><span id="pointer_flag_hwheel"></span>**POINTER\_FLAG\_HWHEEL**
+<span id="POINTER_FLAG_HWHEEL"></span><span id="pointer_flag_hwheel"></span>**POINTER_FLAG_HWHEEL**
 </dt> <dd> <dl> <dt>
 
 0x00100000
@@ -288,12 +288,12 @@ Indicates input associated with a pointer wheel. For mouse pointers, this is equ
 
 
 
-Indicates input associated with a pointer h-wheel. For mouse pointers, this is equivalent to the action of the mouse horizontal scroll wheel ([**WM\_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
+Indicates input associated with a pointer h-wheel. For mouse pointers, this is equivalent to the action of the mouse horizontal scroll wheel ([**WM_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_CAPTURECHANGED"></span><span id="pointer_flag_capturechanged"></span>**POINTER\_FLAG\_CAPTURECHANGED**
+<span id="POINTER_FLAG_CAPTURECHANGED"></span><span id="pointer_flag_capturechanged"></span>**POINTER_FLAG_CAPTURECHANGED**
 </dt> <dd> <dl> <dt>
 
 0x00200000
@@ -301,12 +301,12 @@ Indicates input associated with a pointer h-wheel. For mouse pointers, this is e
 
 
 
-Indicates that this pointer was captured by (associated with) another element and the original element has lost capture (see [**WM\_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md)).
+Indicates that this pointer was captured by (associated with) another element and the original element has lost capture (see [**WM_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md)).
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_FLAG_HASTRANSFORM"></span><span id="pointer_flag_hastransform"></span>**POINTER\_FLAG\_HASTRANSFORM**
+<span id="POINTER_FLAG_HASTRANSFORM"></span><span id="pointer_flag_hastransform"></span>**POINTER_FLAG_HASTRANSFORM**
 </dt> <dd> <dl> <dt>
 
 0x00400000
@@ -342,10 +342,10 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> <dt>
 
-[**POINTER\_BUTTON\_CHANGE\_TYPE**](/previous-versions/windows/desktop/api)
+[**POINTER_BUTTON_CHANGE_TYPE**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  

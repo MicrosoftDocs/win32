@@ -24,9 +24,9 @@ Indicates how messages for touch hit testing are processed by windows that are r
 
 | Constant/value                                                                                                                                                                                                                                                   | Description                                                                                                                            |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="TOUCH_HIT_TESTING_DEFAULT"></span><span id="touch_hit_testing_default"></span><dl> <dt>**TOUCH\_HIT\_TESTING\_DEFAULT**</dt> <dt>0 (0x0)</dt> </dl> | [**WM\_TOUCHHITTESTING**](wm-touchhittesting.md) messages are not sent to the target window but are sent to child windows.<br/> |
-| <span id="TOUCH_HIT_TESTING_CLIENT"></span><span id="touch_hit_testing_client"></span><dl> <dt>**TOUCH\_HIT\_TESTING\_CLIENT**</dt> <dt>1 (0x1)</dt> </dl>    | [**WM\_TOUCHHITTESTING**](wm-touchhittesting.md) messages are sent to the target window.<br/>                                   |
-| <span id="TOUCH_HIT_TESTING_NONE"></span><span id="touch_hit_testing_none"></span><dl> <dt>**TOUCH\_HIT\_TESTING\_NONE**</dt> <dt>2 (0x2)</dt> </dl>          | [**WM\_TOUCHHITTESTING**](wm-touchhittesting.md) messages are not sent to the target window or child windows.<br/>              |
+| <span id="TOUCH_HIT_TESTING_DEFAULT"></span><span id="touch_hit_testing_default"></span><dl> <dt>**TOUCH_HIT_TESTING_DEFAULT**</dt> <dt>0 (0x0)</dt> </dl> | [**WM_TOUCHHITTESTING**](wm-touchhittesting.md) messages are not sent to the target window but are sent to child windows.<br/> |
+| <span id="TOUCH_HIT_TESTING_CLIENT"></span><span id="touch_hit_testing_client"></span><dl> <dt>**TOUCH_HIT_TESTING_CLIENT**</dt> <dt>1 (0x1)</dt> </dl>    | [**WM_TOUCHHITTESTING**](wm-touchhittesting.md) messages are sent to the target window.<br/>                                   |
+| <span id="TOUCH_HIT_TESTING_NONE"></span><span id="touch_hit_testing_none"></span><dl> <dt>**TOUCH_HIT_TESTING_NONE**</dt> <dt>2 (0x2)</dt> </dl>          | [**WM_TOUCHHITTESTING**](wm-touchhittesting.md) messages are not sent to the target window or child windows.<br/>              |
 
 
 
@@ -49,7 +49,7 @@ Indicates how messages for touch hit testing are processed by windows that are r
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  

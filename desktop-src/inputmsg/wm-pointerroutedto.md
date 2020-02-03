@@ -1,5 +1,5 @@
 ---
-title: WM\_POINTERROUTEDTO message
+title: WM_POINTERROUTEDTO message
 description: Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining (AddContentWithCrossProcessChaining).
 ms.assetid: 163E2C31-4E29-4CBA-B079-1963D4762D7B
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERROUTEDTO message
+# WM_POINTERROUTEDTO message
 
 Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining ([**AddContentWithCrossProcessChaining**](https://msdn.microsoft.com/library/windows/desktop/mt622455)).
 
@@ -53,9 +53,9 @@ NULL
 
 ## Remarks
 
-This message is not sent when a [**WM\_POINTERDOWN**](wm-pointerdown.md) message is posted for a new pointer ID on a different process.
+This message is not sent when a [**WM_POINTERDOWN**](wm-pointerdown.md) message is posted for a new pointer ID on a different process.
 
-A [**WM\_POINTERDOWN**](wm-pointerdown.md) message is not sent if a **WM\_POINTERROUTEDTO** message is posted first.
+A [**WM_POINTERDOWN**](wm-pointerdown.md) message is not sent if a **WM_POINTERROUTEDTO** message is posted first.
 
 ## Requirements
 
@@ -76,7 +76,7 @@ A [**WM\_POINTERDOWN**](wm-pointerdown.md) message is not sent if a **WM\_POINTE
 [Messages](messages.md)
 </dt> <dt>
 
-[**WM\_POINTERROUTEDAWAY**](wm-pointerroutedaway.md)
+[**WM_POINTERROUTEDAWAY**](wm-pointerroutedaway.md)
 </dt> </dl>
 
  

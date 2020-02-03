@@ -1,5 +1,5 @@
 ---
-title: WM\_POINTERDEVICECHANGE message
+title: WM_POINTERDEVICECHANGE message
 description: Sent to a window when there is a change in the settings of a monitor that has a digitizer attached to it. This message contains information regarding the scaling of the display mode.
 ms.assetid: 9ED01D4C-58B4-4A21-B510-784281F9A909
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERDEVICECHANGE message
+# WM_POINTERDEVICECHANGE message
 
 Sent to a window when there is a change in the settings of a monitor that has a digitizer attached to it. This message contains information regarding the scaling of the display mode.
 

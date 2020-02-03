@@ -16,19 +16,19 @@ The topics in this section provide the reference specifications for [Pointer Inp
 
 | Topic                                                                                  | Description                                                                                                                         |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [**GET\_POINTERID\_WPARAM**](/previous-versions/windows/desktop/api)<br/>                      | Retrieves the pointer ID using the specified value. <br/>                                                                     |
-| [**HAS\_POINTER\_CONFIDENCE\_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer message is considered intentional rather than accidental.<br/>                           |
-| [**IS\_POINTER\_CANCELED\_WPARAM**](/previous-versions/windows/desktop/api)<br/>         | Checks whether the specified pointer input ended abruptly, or was invalid, indicating the interaction was not completed.<br/> |
-| [**IS\_POINTER\_FIFTHBUTTON\_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer took fifth action. <br/>                                                                 |
-| [**IS\_POINTER\_FIRSTBUTTON\_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer took first action.<br/>                                                                  |
-| [**IS\_POINTER\_FLAG\_SET\_WPARAM**](/previous-versions/windows/desktop/api)<br/>        | Checks whether a pointer macro sets the specified flag. <br/>                                                                 |
-| [**IS\_POINTER\_FOURTHBUTTON\_WPARAM**](/previous-versions/windows/desktop/api)<br/> | Checks whether the specified pointer took fourth action. <br/>                                                                |
-| [**IS\_POINTER\_INCONTACT\_WPARAM**](/previous-versions/windows/desktop/api)<br/>       | Checks whether the specified pointer is in contact. <br/>                                                                     |
-| [**IS\_POINTER\_INRANGE\_WPARAM**](/previous-versions/windows/desktop/api)<br/>           | Checks whether the specified pointer is in range. <br/>                                                                       |
-| [**IS\_POINTER\_NEW\_WPARAM**](/previous-versions/windows/desktop/api)<br/>                   | Checks whether the specified pointer is a new pointer. <br/>                                                                  |
-| [**IS\_POINTER\_PRIMARY\_WPARAM**](/previous-versions/windows/desktop/api)<br/>           | Checks whether the specified pointer is the primary pointer. <br/>                                                            |
-| [**IS\_POINTER\_SECONDBUTTON\_WPARAM**](/previous-versions/windows/desktop/api)<br/> | Checks whether the specified pointer took second action. <br/>                                                                |
-| [**IS\_POINTER\_THIRDBUTTON\_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer took third action. <br/>                                                                 |
+| [**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)<br/>                      | Retrieves the pointer ID using the specified value. <br/>                                                                     |
+| [**HAS_POINTER_CONFIDENCE_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer message is considered intentional rather than accidental.<br/>                           |
+| [**IS_POINTER_CANCELED_WPARAM**](/previous-versions/windows/desktop/api)<br/>         | Checks whether the specified pointer input ended abruptly, or was invalid, indicating the interaction was not completed.<br/> |
+| [**IS_POINTER_FIFTHBUTTON_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer took fifth action. <br/>                                                                 |
+| [**IS_POINTER_FIRSTBUTTON_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer took first action.<br/>                                                                  |
+| [**IS_POINTER_FLAG_SET_WPARAM**](/previous-versions/windows/desktop/api)<br/>        | Checks whether a pointer macro sets the specified flag. <br/>                                                                 |
+| [**IS_POINTER_FOURTHBUTTON_WPARAM**](/previous-versions/windows/desktop/api)<br/> | Checks whether the specified pointer took fourth action. <br/>                                                                |
+| [**IS_POINTER_INCONTACT_WPARAM**](/previous-versions/windows/desktop/api)<br/>       | Checks whether the specified pointer is in contact. <br/>                                                                     |
+| [**IS_POINTER_INRANGE_WPARAM**](/previous-versions/windows/desktop/api)<br/>           | Checks whether the specified pointer is in range. <br/>                                                                       |
+| [**IS_POINTER_NEW_WPARAM**](/previous-versions/windows/desktop/api)<br/>                   | Checks whether the specified pointer is a new pointer. <br/>                                                                  |
+| [**IS_POINTER_PRIMARY_WPARAM**](/previous-versions/windows/desktop/api)<br/>           | Checks whether the specified pointer is the primary pointer. <br/>                                                            |
+| [**IS_POINTER_SECONDBUTTON_WPARAM**](/previous-versions/windows/desktop/api)<br/> | Checks whether the specified pointer took second action. <br/>                                                                |
+| [**IS_POINTER_THIRDBUTTON_WPARAM**](/previous-versions/windows/desktop/api)<br/>   | Checks whether the specified pointer took third action. <br/>                                                                 |
 
 
 

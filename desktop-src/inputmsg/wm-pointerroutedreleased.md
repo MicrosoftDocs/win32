@@ -1,6 +1,6 @@
 ---
-title: WM\_POINTERROUTEDRELEASED message
-description: Sent to all processes (configured for cross-process chaining through AddContentWithCrossProcessChaining and not currently handling pointer input) ever associated with a specific pointer ID, when a WM\_POINTERUP message is received on the current process.
+title: WM_POINTERROUTEDRELEASED message
+description: Sent to all processes (configured for cross-process chaining through AddContentWithCrossProcessChaining and not currently handling pointer input) ever associated with a specific pointer ID, when a WM_POINTERUP message is received on the current process.
 ms.assetid: B031ED80-6F1B-42A7-B4E2-55934E2C456C
 keywords:
 - WM_POINTERROUTEDRELEASED message Input Messages and Notifications
@@ -16,9 +16,9 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERROUTEDRELEASED message
+# WM_POINTERROUTEDRELEASED message
 
-Sent to all processes (configured for cross-process chaining through [**AddContentWithCrossProcessChaining**](https://msdn.microsoft.com/library/windows/desktop/mt622455) and not currently handling pointer input) ever associated with a specific pointer ID, when a [**WM\_POINTERUP**](wm-pointerup.md) message is received on the current process.
+Sent to all processes (configured for cross-process chaining through [**AddContentWithCrossProcessChaining**](https://msdn.microsoft.com/library/windows/desktop/mt622455) and not currently handling pointer input) ever associated with a specific pointer ID, when a [**WM_POINTERUP**](wm-pointerup.md) message is received on the current process.
 
 
 ```C++

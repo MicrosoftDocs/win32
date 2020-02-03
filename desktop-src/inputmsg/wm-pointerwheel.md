@@ -1,5 +1,5 @@
 ---
-title: WM\_POINTERWHEEL message
+title: WM_POINTERWHEEL message
 description: Posted to the window with foreground keyboard focus when a scroll wheel is rotated.
 ms.assetid: 6eec37da-2200-4be1-bf0b-44704caa1320
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# WM\_POINTERWHEEL message
+# WM_POINTERWHEEL message
 
 Posted to the window with foreground keyboard focus when a scroll wheel is rotated.
 
@@ -43,9 +43,9 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 
 Contains the pointer identifier and wheel delta. Use the following macros to retrieve this information.
 
-[**GET\_POINTERID\_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier.
+[**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier.
 
-[**GET\_WHEEL\_DELTA\_WPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms646254)(wParam): wheel delta as a signed short value.
+[**GET_WHEEL_DELTA_WPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms646254)(wParam): wheel delta as a signed short value.
 
 </dd> <dt>
 
@@ -61,8 +61,8 @@ Contains the point location of the pointer.
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
--   [**GET\_X\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)(lParam): the x (horizontal point) coordinate.
--   [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)(lParam): the y (vertical point) coordinate.
+-   [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)(lParam): the x (horizontal point) coordinate.
+-   [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)(lParam): the y (vertical point) coordinate.
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ If the application does not process this message, it should call [**DefWindowPro
 
 ## Remarks
 
-To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER\_INFO**](/previous-versions/windows/desktop/api) structure returned by calling [**GetPointerInfo**](/previous-versions/windows/desktop/api) function. This field contains a signed value and is expressed in a multiple of **WHEEL\_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
+To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER_INFO**](/previous-versions/windows/desktop/api) structure returned by calling [**GetPointerInfo**](/previous-versions/windows/desktop/api) function. This field contains a signed value and is expressed in a multiple of **WHEEL_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
 
 Note that the wheel inputs may be delivered even if the mouse cursor is located outside of application s window. The wheel messages are delivered in a way very similar to the keyboard inputs. The focus window of the foregournd message queue receives the wheel messages.
 

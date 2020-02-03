@@ -1,5 +1,5 @@
 ---
-title: DM\_POINTERHITTEST message
+title: DM_POINTERHITTEST message
 description: Sent to a window, when pointer input is first detected, in order to determine the most probable input target for Direct Manipulation.
 ms.assetid: E4CE60F0-0C2A-440A-8F64-B070867A1572
 keywords:
@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# DM\_POINTERHITTEST message
+# DM_POINTERHITTEST message
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 

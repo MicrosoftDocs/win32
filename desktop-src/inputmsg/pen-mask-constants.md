@@ -1,6 +1,6 @@
 ---
 title: Pen Mask
-description: Values that can appear in the penMask field of the POINTER\_PEN\_INFO structure.
+description: Values that can appear in the penMask field of the POINTER_PEN_INFO structure.
 ms.assetid: 6A44B701-55E1-41D4-9C4A-807E57441DA4
 topic_type:
 - apiref
@@ -20,11 +20,11 @@ ms.date: 02/03/2020
 
 # Pen Mask
 
-Values that can appear in the **penMask** field of the [**POINTER\_PEN\_INFO**](/previous-versions/windows/desktop/api) structure.
+Values that can appear in the **penMask** field of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure.
 
 <dl> <dt>
 
-<span id="PEN_MASK_NONE"></span><span id="pen_mask_none"></span>**PEN\_MASK\_NONE**
+<span id="PEN_MASK_NONE"></span><span id="pen_mask_none"></span>**PEN_MASK_NONE**
 </dt> <dd> <dl> <dt>
 
 0x00000000
@@ -37,7 +37,7 @@ Default. None of the optional fields are valid.
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_MASK_PRESSURE"></span><span id="pen_mask_pressure"></span>**PEN\_MASK\_PRESSURE**
+<span id="PEN_MASK_PRESSURE"></span><span id="pen_mask_pressure"></span>**PEN_MASK_PRESSURE**
 </dt> <dd> <dl> <dt>
 
 0x00000001
@@ -45,12 +45,12 @@ Default. None of the optional fields are valid.
 
 
 
-**pressure** of the [**POINTER\_PEN\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**pressure** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_MASK_ROTATION"></span><span id="pen_mask_rotation"></span>**PEN\_MASK\_ROTATION**
+<span id="PEN_MASK_ROTATION"></span><span id="pen_mask_rotation"></span>**PEN_MASK_ROTATION**
 </dt> <dd> <dl> <dt>
 
 0x00000002
@@ -58,12 +58,12 @@ Default. None of the optional fields are valid.
 
 
 
-**rotation** of the [**POINTER\_PEN\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**rotation** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_MASK_TILT_X____"></span><span id="pen_mask_tilt_x____"></span>**PEN\_MASK\_TILT\_X** 
+<span id="PEN_MASK_TILT_X____"></span><span id="pen_mask_tilt_x____"></span>**PEN_MASK_TILT_X** 
 </dt> <dd> <dl> <dt>
 
 0x00000004
@@ -71,12 +71,12 @@ Default. None of the optional fields are valid.
 
 
 
-**tiltX** of the [**POINTER\_PEN\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**tiltX** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="PEN_MASK_TILT_Y"></span><span id="pen_mask_tilt_y"></span>**PEN\_MASK\_TILT\_Y**
+<span id="PEN_MASK_TILT_Y"></span><span id="pen_mask_tilt_y"></span>**PEN_MASK_TILT_Y**
 </dt> <dd> <dl> <dt>
 
 0x00000008
@@ -84,7 +84,7 @@ Default. None of the optional fields are valid.
 
 
 
-**tiltY** of the [**POINTER\_PEN\_INFO**](/previous-versions/windows/desktop/api) structure is valid.
+**tiltY** of the [**POINTER_PEN_INFO**](/previous-versions/windows/desktop/api) structure is valid.
 
 
 </dt> </dl> </dd> </dl>
@@ -108,7 +108,7 @@ Default. None of the optional fields are valid.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  

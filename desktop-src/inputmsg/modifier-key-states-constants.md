@@ -21,7 +21,7 @@ Indicates which keyboard modifier keys were pressed at the time input was being 
 
 <dl> <dt>
 
-<span id="POINTER_MOD_SHIFT"></span><span id="pointer_mod_shift"></span>**POINTER\_MOD\_SHIFT**
+<span id="POINTER_MOD_SHIFT"></span><span id="pointer_mod_shift"></span>**POINTER_MOD_SHIFT**
 </dt> <dd> <dl> <dt>
 
 0x0004
@@ -34,7 +34,7 @@ A Shift key was pressed.
 
 </dt> </dl> </dd> <dt>
 
-<span id="POINTER_MOD_CTRL"></span><span id="pointer_mod_ctrl"></span>**POINTER\_MOD\_CTRL**
+<span id="POINTER_MOD_CTRL"></span><span id="pointer_mod_ctrl"></span>**POINTER_MOD_CTRL**
 </dt> <dd> <dl> <dt>
 
 0x0008
@@ -66,7 +66,7 @@ A Ctrl key was pressed.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](/previous-versions/windows/desktop/api)
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  
