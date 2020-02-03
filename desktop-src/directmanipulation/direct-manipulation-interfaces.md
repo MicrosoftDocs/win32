@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The topics contained in this section provide the reference specifications for [Direct Manipulation](direct-manipulation-portal.md) interfaces.
 
 > [!Note]  
-> When implementing a [Direct Manipulation](direct-manipulation-portal.md) object, ensure that the [**IUnknown**](windows/win32/api/unknwn/nn-unknwn-iunknown) implementation supports multithreading through thread-safe reference counting. For more information, see [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) and [**InterlockedDecrement**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement).
+> When implementing a [Direct Manipulation](direct-manipulation-portal.md) object, ensure that the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) implementation supports multithreading through thread-safe reference counting. For more information, see [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) and [**InterlockedDecrement**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement).
 
 ## In this section
 

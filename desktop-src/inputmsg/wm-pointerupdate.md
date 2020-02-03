@@ -10,11 +10,11 @@ api_name:
 - WM_POINTERUPDATE
 api_location:
 - Winuser.h
-api_type:
+api_type:git add
 - HeaderDef
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
+
+
+
 ms.topic: article
 ms.date: 05/31/2018
 ---
