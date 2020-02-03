@@ -1,11 +1,12 @@
 ---
-title: Constants
-description: This section provides the reference specifications for Input Feedback Configuration constants.
-ms.assetid: 1B0EA599-6618-4DF2-B8C7-91A534BD85C0
+title: Modifier Key State
+description: Indicates which keyboard modifier keys were pressed at the time input was being generated.
+ms.assetid: 721f5109-67ab-4242-921e-580c2dc0463b
 topic_type:
 - apiref
 api_name:
-- GWFS_INCLUDE_ANCESTORS
+- POINTER_MOD_SHIFT
+- POINTER_MOD_CTRL
 api_location:
 - winuser.h
 api_type:
@@ -14,21 +15,34 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Constants
+# Modifier Key State
 
-This section provides the reference specifications for [Input Feedback Configuration](input-feedback-configuration-portal.md) constants.
+Indicates which keyboard modifier keys were pressed at the time input was being generated.
 
 <dl> <dt>
 
-<span id="GWFS_INCLUDE_ANCESTORS"></span><span id="gwfs_include_ancestors"></span>**GWFS\_INCLUDE\_ANCESTORS**
+<span id="POINTER_MOD_SHIFT"></span><span id="pointer_mod_shift"></span>**POINTER_MOD_SHIFT**
 </dt> <dd> <dl> <dt>
 
-0x00000001
+0x0004
 </dt> <dt>
 
 
 
-Specifies that the parent window chain should be checked.
+A Shift key was pressed.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="POINTER_MOD_CTRL"></span><span id="pointer_mod_ctrl"></span>**POINTER_MOD_CTRL**
+</dt> <dd> <dl> <dt>
+
+0x0008
+</dt> <dt>
+
+
+
+A Ctrl key was pressed.
 
 
 </dt> </dl> </dd> </dl>
@@ -49,7 +63,10 @@ Specifies that the parent window chain should be checked.
 
 <dl> <dt>
 
-[Input Feedback Configuration Reference](input-feedback-configuration-reference.md)
+[Constants](constants.md)
+</dt> <dt>
+
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  

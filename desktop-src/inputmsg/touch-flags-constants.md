@@ -1,11 +1,11 @@
 ---
-title: Constants
-description: This section provides the reference specifications for Input Feedback Configuration constants.
-ms.assetid: 1B0EA599-6618-4DF2-B8C7-91A534BD85C0
+title: Touch Flags
+description: Values that can appear in the touchFlags field of the POINTER_TOUCH_INFO structure.
+ms.assetid: 87CE2BF4-BD33-4D45-B001-065048702064
 topic_type:
 - apiref
 api_name:
-- GWFS_INCLUDE_ANCESTORS
+- TOUCH_FLAG_NONE
 api_location:
 - winuser.h
 api_type:
@@ -14,21 +14,21 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Constants
+# Touch Flags
 
-This section provides the reference specifications for [Input Feedback Configuration](input-feedback-configuration-portal.md) constants.
+Values that can appear in the **touchFlags** field of the [**POINTER_TOUCH_INFO**](/previous-versions/windows/desktop/api) structure.
 
 <dl> <dt>
 
-<span id="GWFS_INCLUDE_ANCESTORS"></span><span id="gwfs_include_ancestors"></span>**GWFS\_INCLUDE\_ANCESTORS**
+<span id="TOUCH_FLAG_NONE"></span><span id="touch_flag_none"></span>**TOUCH_FLAG_NONE**
 </dt> <dd> <dl> <dt>
 
-0x00000001
+0x00000000
 </dt> <dt>
 
 
 
-Specifies that the parent window chain should be checked.
+The default value.
 
 
 </dt> </dl> </dd> </dl>
@@ -49,7 +49,10 @@ Specifies that the parent window chain should be checked.
 
 <dl> <dt>
 
-[Input Feedback Configuration Reference](input-feedback-configuration-reference.md)
+[Constants](constants.md)
+</dt> <dt>
+
+[**POINTER_INFO**](/previous-versions/windows/desktop/api)
 </dt> </dl>
 
  
