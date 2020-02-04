@@ -33,9 +33,9 @@ The **InkDesktopHost** class has these methods.
 
 | Method | Description |
 |---|---|
-| [**CreateAndInitializeInkPresenter**](inkdesktophost-createandinitializeinkpresenter.md) | Creates an [**IInkPresenterDesktop**](/windows/win32/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop) object on an application thread, connects it to the app's [DirectComposition](/windows/win32/directcomp/directcomposition-portal) visual tree, and sets the size of the object.<br/> |
-| [**CreateInkPresenter**](inkdesktophost-createinkpresenter.md) | Creates an [**IInkPresenterDesktop**](/windows/win32/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop) object on an application thread.<br/> |
-| [**QueueWorkItem**](inkdesktophost-queueworkitem.md) | Add an ink operation to a work queue for execution on the **InkDesktopHost** thread.<br/> |
+| [**CreateAndInitializeInkPresenter**](/windows/win32/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-createandinitializeinkpresenter) | Creates an [**IInkPresenterDesktop**](/windows/win32/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop) object on an application thread, connects it to the app's [DirectComposition](/windows/win32/directcomp/directcomposition-portal) visual tree, and sets the size of the object.<br/> |
+| [**CreateInkPresenter**](/windows/win32/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-createinkpresenter) | Creates an [**IInkPresenterDesktop**](/windows/win32/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop) object on an application thread.<br/> |
+| [**QueueWorkItem**](/windows/win32/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-queueworkitem) | Add an ink operation to a work queue for execution on the **InkDesktopHost** thread.<br/> |
 
 ## Creation\\Access Functions
 
@@ -50,13 +50,13 @@ CoCreateInstance(__uuidof(InkDesktopHost),
 
 ## Requirements
 
-|                                     |                                                                                                    |
-|-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | None supported<br/>                                                                          |
+|  |  |
+|---|---|
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | None supported<br/> |
 | Header<br/>                   | <dl> <dt>InkPresenterDesktop.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>InkPresenterDesktop.idl</dt> </dl> |
-| IID<br/>                      | IID\_IInkDesktopHost is defined as 4ce7d875-a981-4140-a1ff-ad93258e8d59<br/>                 |
+| IID<br/>                      | IID\_IInkDesktopHost is defined as 4ce7d875-a981-4140-a1ff-ad93258e8d59<br/> |
 
 ## Related topics
 
