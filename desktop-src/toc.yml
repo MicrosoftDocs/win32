@@ -67,14 +67,16 @@
           items: 
           - name: "Overview"
             href: user-interaction.md
-          - name: "Text Services Framework"
-            href: tsf/text-services-framework.md
-          - name: "Input feedback configuration"
-            href: input_feedback/input-feedback-configuration-portal.md
           - name: "Direct Manipulation"
             href: directmanipulation/direct-manipulation-portal.md
+          - name: "Ink input"
+            href: input_ink/input-ink-portal.md
+          - name: "Input feedback configuration"
+            href: input_feedback/input-feedback-configuration-portal.md
           - name: "Pointer Input Messages and Notifications"
             href: inputmsg/messages-and-notifications-portal.md
+          - name: "Text Services Framework"
+            href: tsf/text-services-framework.md
           - name: "Legacy User Interaction Features"
             items: 
             - name: "Overview"
