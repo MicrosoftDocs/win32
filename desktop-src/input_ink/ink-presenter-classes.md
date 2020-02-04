@@ -2,11 +2,8 @@
 Description: The topics contained in this section provide the reference specifications for Ink presenter classes.
 ms.assetid: 639BC980-18DF-4496-9753-3074D3148851
 title: Ink presenter classes
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 ---
 
 # Ink presenter classes
@@ -15,42 +12,10 @@ The topics contained in this section provide the reference specifications for [I
 
 ## In this section
 
-
-
 | Topic                                               | Description                                                                                     |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**InkDesktopHost**](inkdesktophost.md)<br/> | Implements the [**IInkDesktopHost**](https://msdn.microsoft.com/en-us/library/Mt622149(v=VS.85).aspx) interface.<br/> |
-
-
-
- 
+| [**InkDesktopHost**](inkdesktophost.md)<br/> | Implements the [**IInkDesktopHost**](/windows/win32/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkdesktophost) interface.<br/> |
 
 ## Related topics
 
-<dl> <dt>
-
-[Ink presenter](ink-presenter.md)
-</dt> <dt>
-
-[Pen and stylus interactions](https://msdn.microsoft.com/en-us/library/Mt187311(v=WIN.10).aspx)
-</dt> <dt>
-
-**Samples**
-</dt> <dt>
-
-[Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308)
-</dt> <dt>
-
-[Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312)
-</dt> <dt>
-
-[Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Ink presenter](ink-presenter.md), [Pen and stylus interactions](/windows/uwp/design/input/pen-and-stylus-interactions), [Ink Analysis sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/inkanalysis/), [Simple inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simpleink/), [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/)

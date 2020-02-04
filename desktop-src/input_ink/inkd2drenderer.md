@@ -2,11 +2,8 @@
 Description: Implements the IInkD2DRenderer interface.
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 title: InkD2DRenderer class
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: interface
-ms.date: 05/31/2018
+ms.date: 02/03/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -20,86 +17,45 @@ api_location:
 
 # InkD2DRenderer class
 
-Implements the [**IInkD2DRenderer**](/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) interface.
+Implements the [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) interface.
 
-An [**IInkD2DRenderer**](/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default [**InkCanvas**](https://msdn.microsoft.com/en-us/library/Dn858535(v=WIN.10).aspx) control.
+An [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) control.
 
 ## Members
 
-The **InkD2DRenderer** class inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **InkD2DRenderer** also has these types of members:
+The **InkD2DRenderer** class inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **InkD2DRenderer** also has these types of members:
 
--   [Methods](#methods)
+- [Methods](#methods)
 
 ### Methods
 
 The **InkD2DRenderer** class has these methods.
 
-
-
 | Method                              | Description                                                                             |
 |:------------------------------------|:----------------------------------------------------------------------------------------|
-| [**Draw**](https://msdn.microsoft.com/library/Mt592649(v=VS.85).aspx) | Renders the ink stroke to the designated Direct2D device context of the app.<br/> |
-
-
-
- 
+| [**Draw**](/windows/win32/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw) | Renders the ink stroke to the designated Direct2D device context of the app.<br/> |
 
 ## Creation\\Access Functions
 
-Use the following to retrieve a reference to the object:
+Call [<strong>CoCreateInstance</strong>](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with the class identifier <strong>InkD2DRenderer</strong> to retrieve a reference to the object.
 
-
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>[<strong>CoCreateInstance</strong>](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx)</td>
-<td>Call [<strong>CoCreateInstance</strong>](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) with the class identifier <strong>InkD2DRenderer</strong>.<br/> This snippet is taken from the &quot;InkRenderer.cpp&quot; file of the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314).<br/> <span data-codelanguage="ManagedCPlusPlus"></span>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>CoCreateInstance(__uuidof(InkD2DRenderer),
+``` C++
+CoCreateInstance(__uuidof(InkD2DRenderer),
   nullptr,
   CLSCTX_INPROC_SERVER,
-  IID_PPV_ARGS(&amp;_spInkD2DRenderer));</code></pre></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-
- 
+  IID_PPV_ARGS(&amp;_spInkD2DRenderer));
+```
 
 ## Examples
 
-This snippet from the "SceneComposer.cpp" file of the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314) demonstrates the rendering of a collection of ink strokes to a Direct2D device context.
-
+This snippet from the "SceneComposer.cpp" file of the [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/) demonstrates the rendering of a collection of ink strokes to a Direct2D device context.
 
 ```C++
 _inkRenderer->Render(strokes, _deviceResources->GetD2DDeviceContext());
 strokes->Clear();
 ```
 
-
-
-This snippet from the "InkRenderer.cpp" file of the [Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314) shows the Render method (called in the previous snippet) that calls the [**Draw**](https://msdn.microsoft.com/library/Mt592649(v=VS.85).aspx) method for rendering the strokes.
-
+This snippet from the "InkRenderer.cpp" file of the [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/) shows the Render method (called in the previous snippet) that calls the [**Draw**](/windows/win32/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw) method for rendering the strokes.
 
 ```C++
 void InkRenderer::Render(
@@ -125,11 +81,7 @@ void InkRenderer::Render(
 }
 ```
 
-
-
 ## Requirements
-
-
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
@@ -139,34 +91,6 @@ void InkRenderer::Render(
 | IDL<br/>                      | <dl> <dt>Inkrenderer.idl</dt> </dl> |
 | IID<br/>                      | IID\_IInkD2DRenderer is defined as 4044e60c-7b01-4671-a97c-04e0210a07a5<br/>         |
 
+## Related topics
 
-
-## See also
-
-<dl> <dt>
-
-[Ink renderer classes](ink-renderer-classes.md)
-</dt> <dt>
-
-[Pen and stylus interactions](https://msdn.microsoft.com/en-us/library/Mt187311(v=WIN.10).aspx)
-</dt> <dt>
-
-**Samples**
-</dt> <dt>
-
-[Ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620308)
-</dt> <dt>
-
-[Simple ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620312)
-</dt> <dt>
-
-[Complex ink sample](http://go.microsoft.com/fwlink/p/?LinkID=620314)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Ink renderer](ink-renderer.md), [Pen and stylus interactions](/windows/uwp/design/input/pen-and-stylus-interactions), [Ink Analysis sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/inkanalysis/), [Simple inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simpleink/), [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/)
