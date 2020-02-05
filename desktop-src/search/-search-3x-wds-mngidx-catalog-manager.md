@@ -127,7 +127,7 @@ The last two properties are intended primarily for future use. Each of these pro
 
 ## Running in Elevated Mode
 
-Any method calls that update the SystemIndex require your application to be run elevated. Otherwise, your application will fail wtih an Access Denied error.
+Any method calls that update the SystemIndex require your application to be run elevated. Otherwise, your application will fail with an Access Denied error.
 
 ## Related topics
 
