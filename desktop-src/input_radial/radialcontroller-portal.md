@@ -2,9 +2,6 @@
 Description: Learn about the radial controller APIs for Windows Wheel accessories such as the Surface Dial.
 ms.assetid: a548b450-180b-4fbe-be75-bb490cf76563
 title: Radial controller input
-ms.technology: desktop
-ms.prod: windows
-ms.author: windowssdkdev
 ms.topic: article
 ms.date: 05/31/2018
 ---
