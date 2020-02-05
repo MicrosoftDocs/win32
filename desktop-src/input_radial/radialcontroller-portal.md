@@ -14,7 +14,7 @@ Learn about the radial controller APIs for Windows Wheel accessories such as the
 
 | Topic | Description |
 |---|---|
-| [Radial controller interfaces](radial-controller-interfaces.md)[Radial controller interfaces]<br/> | The topics contained in this section provide the reference specifications for Radial controller input interfaces. <br/> |
+| [Radial controller interfaces](radial-controller-interfaces.md)<br/> | The topics contained in this section provide the reference specifications for Radial controller input interfaces. <br/> |
 
 ## Related topics
 
