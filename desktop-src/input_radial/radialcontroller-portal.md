@@ -15,45 +15,10 @@ Learn about the radial controller APIs for Windows Wheel accessories such as the
 
 ## In this section
 
-
-
-| Topic                                                                                | Description                                                                                                                   |
-|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [Radial controller interfaces](https://msdn.microsoft.com/44FED16E-63FB-466B-9615-8B744F861AE9)<br/> | The topics contained in this section provide the reference specifications for Radial controller input interfaces. <br/> |
-
-
-
- 
+| Topic | Description |
+|---|---|
+| [Radial controller interfaces](radial-controller-interfaces.md)[Radial controller interfaces]<br/> | The topics contained in this section provide the reference specifications for Radial controller input interfaces. <br/> |
 
 ## Related topics
 
-<dl> <dt>
-
-**Windows Runtime APIs**
-</dt> <dt>
-
-[**Windows.UI.Input**](https://msdn.microsoft.com/Windows.UI.Input)
-</dt> <dt>
-
-**Developer and UX guidance**
-</dt> <dt>
-
-[Surface Dial interactions](https://go.microsoft.com/fwlink/?linkid=832322)
-</dt> <dt>
-
-**Samples**
-</dt> <dt>
-
-[Universal Windows Platform samples (C\# and C++)](https://go.microsoft.com/fwlink/?linkid=832713)
-</dt> <dt>
-
-[Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Windows.UI.Input](/uwp/api/Windows.UI.Input), [Surface Dial interactions](/windows/uwp/design/input/windows-wheel-interactions), [Universal Windows Platform samples (C\# and C++)](https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController), [Windows classic desktop sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController)
