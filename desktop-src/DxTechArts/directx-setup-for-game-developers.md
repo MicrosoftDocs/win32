@@ -16,7 +16,8 @@ This article is intended to address some of the common questions about the Direc
 -   [Installation of DirectX by the Game's Installer](#installation-of-directx-by-the-games-installer)
 -   [Small Installation Packages](#small-installation-packages)
 -   [Internal Deployment of the Debug DirectX Runtime](#internal-deployment-of-the-debug-directx-runtime)
--   [Driver for the Xbox 360 Controller for Windows](#driver-for-the-xbox-360-controller-for-windows)
+
+> The legacy DirectX SDK is end-of-life, but is still available to support old games, tutorials, and projects. New projects should not use it. Using the legacy DirectX SDK requires the use of the deprecated DirectSetup for components like D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, and XACT. For more details on the current state of the DirectX SDK see [Microsoft Docs](https://docs.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-) and https://aka.ms/dxsetup.
 
 ## DirectX Runtime
 
@@ -129,15 +130,9 @@ The debug runtimes of the DirectX components are installed when the DirectX SDK 
 
 However, we strongly recommend that you do not simply copy the released run-time DLLs because it is easy to forget to remove them for the final product. Instead, put the DirectX setup files in a shared folder and run the setup silently from the shared folder.
 
-## Driver for the Xbox 360 Controller for Windows
+## Desktop Bridge applications 
 
-The user is expected to obtain the XInput driver for Xbox 360 controller from Windows Update or from the controller packaging. The XInput driver is included with Windows Vista.
-
- 
-
- 
-
-
+Desktop Bridge applications that use D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, or XACT must use the [Microsoft.DirectX.x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) / [Microsoft.DirectX.x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) framework to deploy these legacy DirectX SDK side-by-side components. Alternatively, developers can remove all such dependencies--see https://aka.ms/Kfsdiu, https://aka.ms/XAudio2Redist, https://aka.ms/Mu9kn7.
 
 
 
