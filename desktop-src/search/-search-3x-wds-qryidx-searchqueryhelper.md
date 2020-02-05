@@ -33,6 +33,7 @@ There are a few key interfaces and methods you should be aware of before you can
     // Create ISearchManager instance
     ISearchManager* pSearchManager;
 
+    // Use library SearchSDK.lib for CLSID_CSearchManager.
     hr = CoCreateInstance(CLSID_CSearchManager, NULL, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&pSearchManager));      
     ```
 
