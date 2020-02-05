@@ -1,0 +1,16 @@
+- name: "Radial controller input"
+  href: radialcontroller-portal.md
+  items: 
+  - name: "Radial controller interfaces"
+    href: radial-controller-interfaces.md
+    items: 
+    - name: "IRadialControllerConfigurationInterop"
+      href: /previous-versions/windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop
+      items: 
+      - name: "GetForWindow method"
+        href: /previous-versions/windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow
+    - name: "IRadialControllerInterop"
+      href: /previous-versions/windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerinterop
+      items: 
+      - name: "CreateForWindow method"
+        href: /previous-versions/windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow
