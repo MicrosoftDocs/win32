@@ -75,8 +75,10 @@
             href: input_radial/radialcontroller-portal.md
           - name: "Input feedback configuration"
             href: input_feedback/input-feedback-configuration-portal.md
-          - name: "Pointer Input Messages and Notifications"
-            href: inputmsg/messages-and-notifications-portal.md
+          - name: "Input feedback configuration"
+            href: input_feedback/input-feedback-configuration-portal.md
+          - name: "Input source identification"
+            href: inputsrcid/input-source-identification-portal.md
           - name: "Text Services Framework"
             href: tsf/text-services-framework.md
           - name: "Legacy User Interaction Features"
