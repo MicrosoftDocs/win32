@@ -8,9 +8,9 @@
       href: enumerations.md
       items: 
       - name: "INPUT_MESSAGE_DEVICE_TYPE"
-        href: /windows/win32/api/winuser/ne-winuser-taginput_message_device_type
+        href: /windows/win32/api/winuser/ne-winuser-input_message_device_type
       - name: "INPUT_MESSAGE_ORIGIN_ID"
-        href: /windows/win32/api/winuser/ne-winuser-taginput_message_origin_id
+        href: /windows/win32/api/winuser/ne-winuser-input_message_origin_id
     - name: "Functions"
       href: functions.md
       items: 
@@ -19,4 +19,4 @@
       - name: "GetCurrentInputMessageSource"
         href: /windows/win32/api/winuser/nf-winuser-getcurrentinputmessagesource
     - name: "INPUT_MESSAGE_SOURCE"
-      href: /windows/win32/api/winuser/ns-winuser-taginput_message_source
+      href: /windows/win32/api/winuser/ns-winuser-input_message_source
