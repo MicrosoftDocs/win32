@@ -75,6 +75,8 @@
             href: input_radial/radialcontroller-portal.md
           - name: "Input feedback configuration"
             href: input_feedback/input-feedback-configuration-portal.md
+          - name: "Input source identification"
+            href: input_sourceid/input-source-identification-portal.md
           - name: "Pointer Device Input Stack"
             href: input_pointerdevice/pointer-device-stack-portal.md
           - name: "Pointer Input Messages and Notifications"
