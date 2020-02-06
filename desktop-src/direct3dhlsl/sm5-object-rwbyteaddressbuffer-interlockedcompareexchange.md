@@ -89,7 +89,7 @@ This function is supported in the following types of shaders:
 
 | VS  | HS  | DS  | GS  | PS  | CS  |
 |-----|-----|-----|-----|-----|-----|
-|     |     |     |     | x   | x   |
+| x   | x   | x   | x   | x   | x   |
 
 
 
