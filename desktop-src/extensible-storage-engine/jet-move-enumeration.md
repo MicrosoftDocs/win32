@@ -2,7 +2,7 @@
 title: JET_Move enumeration
 TOCTitle: JET_Move enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_Move
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_move(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_move(v=EXCHG.10)
 ms:contentKeyID: 39513718
 ms.date: 07/30/2014
 ms.topic: reference

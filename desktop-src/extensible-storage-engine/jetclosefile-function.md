@@ -2,7 +2,7 @@
 title: JetCloseFile Function
 TOCTitle: JetCloseFile Function
 ms:assetid: e8930915-8102-44b0-ae42-abedbd3e0512
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294127(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294127(v=EXCHG.10)
 ms:contentKeyID: 32765741
 ms.date: 04/11/2016
 ms.topic: reference

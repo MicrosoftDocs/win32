@@ -2,7 +2,7 @@
 title: JetGrowDatabase Function
 TOCTitle: JetGrowDatabase Function
 ms:assetid: d9719991-6c80-4dcb-a1d6-f0c7de61f459
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294109(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294109(v=EXCHG.10)
 ms:contentKeyID: 32765724
 ms.date: 04/11/2016
 ms.topic: reference

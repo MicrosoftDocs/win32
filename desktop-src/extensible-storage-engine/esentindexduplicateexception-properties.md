@@ -2,7 +2,7 @@
 title: EsentIndexDuplicateException properties
 TOCTitle: EsentIndexDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexDuplicateException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexduplicateexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentindexduplicateexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101752
 ms.date: 07/30/2014
 ms.topic: article

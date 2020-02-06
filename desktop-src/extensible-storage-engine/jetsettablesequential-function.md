@@ -2,7 +2,7 @@
 title: JetSetTableSequential Function
 TOCTitle: JetSetTableSequential Function
 ms:assetid: 874ddd3c-0d69-4d48-b61a-e9e0457426ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269323(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269323(v=EXCHG.10)
 ms:contentKeyID: 32765613
 ms.date: 04/11/2016
 ms.topic: reference

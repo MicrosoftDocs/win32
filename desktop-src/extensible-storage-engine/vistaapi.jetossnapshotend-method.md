@@ -2,7 +2,7 @@
 title: VistaApi.JetOSSnapshotEnd method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOSSnapshotEnd method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOSSnapshotEnd(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.Vista.SnapshotEndGrbit)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaapi.jetossnapshotend(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaapi.jetossnapshotend(v=EXCHG.10)
 ms:contentKeyID: 55104196
 ms.date: 07/30/2014
 ms.topic: reference

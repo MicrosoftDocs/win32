@@ -2,7 +2,7 @@
 title: JetStopBackup Function
 TOCTitle: JetStopBackup Function
 ms:assetid: b7545284-2fdb-4470-8466-fc2109ad63c5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294067(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294067(v=EXCHG.10)
 ms:contentKeyID: 32765682
 ms.date: 04/11/2016
 ms.topic: reference

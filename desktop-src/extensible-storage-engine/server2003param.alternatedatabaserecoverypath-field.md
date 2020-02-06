@@ -2,7 +2,7 @@
 title: Server2003Param.AlternateDatabaseRecoveryPath field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: AlternateDatabaseRecoveryPath field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param.AlternateDatabaseRecoveryPath
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.server2003param.alternatedatabaserecoverypath(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.server2003param.alternatedatabaserecoverypath(v=EXCHG.10)
 ms:contentKeyID: 55104217
 ms.date: 07/30/2014
 ms.topic: reference

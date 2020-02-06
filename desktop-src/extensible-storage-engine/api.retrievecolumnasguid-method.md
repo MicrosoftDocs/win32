@@ -2,7 +2,7 @@
 title: Api.RetrieveColumnAsGuid method 
 TOCTitle: 'RetrieveColumnAsGuid method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsGuid
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasguid(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.retrievecolumnasguid(v=EXCHG.10)
 ms:contentKeyID: 55100852
 ms.date: 07/30/2014
 ms.topic: article

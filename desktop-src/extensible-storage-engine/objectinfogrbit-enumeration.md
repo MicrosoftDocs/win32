@@ -2,7 +2,7 @@
 title: ObjectInfoGrbit enumeration
 TOCTitle: ObjectInfoGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ObjectInfoGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.objectinfogrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.objectinfogrbit(v=EXCHG.10)
 ms:contentKeyID: 39516208
 ms.date: 07/30/2014
 ms.topic: reference

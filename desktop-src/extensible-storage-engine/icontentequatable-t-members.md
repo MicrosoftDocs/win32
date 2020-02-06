@@ -2,7 +2,7 @@
 title: IContentEquatable(T) members
 TOCTitle: IContentEquatable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578119(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh578119(v=EXCHG.10)
 ms:contentKeyID: 39511390
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: JET_DBID operators
 TOCTitle: JET_DBID operators
 ms:assetid: 3ea69a68-c166-c943-97ba-19a80faa9b4f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578167(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh578167(v=EXCHG.10)
 ms:contentKeyID: 39511438
 ms.date: 07/30/2014
 ms.topic: article

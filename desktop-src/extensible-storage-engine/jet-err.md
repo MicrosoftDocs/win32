@@ -2,7 +2,7 @@
 title: JET_ERR
 TOCTitle: JET_ERR
 ms:assetid: cd9cb876-251c-458d-a015-8e9045e77fc9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294092(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294092(v=EXCHG.10)
 ms:contentKeyID: 32765707
 ms.date: 04/11/2016
 ms.topic: reference

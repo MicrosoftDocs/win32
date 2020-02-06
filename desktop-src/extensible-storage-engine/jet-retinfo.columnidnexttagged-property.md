@@ -2,7 +2,7 @@
 title: JET_RETINFO.columnidNextTagged property 
 TOCTitle: 'columnidNextTagged property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETINFO.columnidNextTagged
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_retinfo.columnidnexttagged(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_retinfo.columnidnexttagged(v=EXCHG.10)
 ms:contentKeyID: 55103802
 ms.date: 07/30/2014
 ms.topic: reference

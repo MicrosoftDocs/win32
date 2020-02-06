@@ -2,7 +2,7 @@
 title: EsentDatabaseInvalidNameException constructor 
 TOCTitle: 'EsentDatabaseInvalidNameException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidnameexception.esentdatabaseinvalidnameexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabaseinvalidnameexception.esentdatabaseinvalidnameexception(v=EXCHG.10)
 ms:contentKeyID: 55101384
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentColumnTooBigException methods
 TOCTitle: EsentColumnTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumntoobigexception_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcolumntoobigexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101276
 ms.date: 07/30/2014
 ms.topic: article

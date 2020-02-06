@@ -2,7 +2,7 @@
 title: JET_ENUMCOLUMNID members
 TOCTitle: JET_ENUMCOLUMNID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnid_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_enumcolumnid_members(v=EXCHG.10)
 ms:contentKeyID: 55103504
 ms.date: 07/30/2014
 ms.topic: article

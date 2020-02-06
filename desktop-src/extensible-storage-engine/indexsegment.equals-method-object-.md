@@ -2,7 +2,7 @@
 title: IndexSegment.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IndexSegment.Equals(System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.indexsegment.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.indexsegment.equals(v=EXCHG.10)
 ms:contentKeyID: 55103251
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_BKLOGTIME.IsUtc property 
 TOCTitle: 'IsUtc property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.IsUtc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime.isutc(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_bklogtime.isutc(v=EXCHG.10)
 ms:contentKeyID: 39510831
 ms.date: 07/30/2014
 ms.topic: reference

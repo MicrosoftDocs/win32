@@ -2,7 +2,7 @@
 title: JET_THREADSTATS methods (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_threadstats_methods(v=EXCHG.10)
 ms:contentKeyID: 39514411
 ms.date: 07/30/2014
 ms.topic: article

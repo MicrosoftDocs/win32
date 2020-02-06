@@ -2,7 +2,7 @@
 title: JET_OPENTEMPORARYTABLE.cbKeyMost property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.cbKeyMost
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.cbkeymost(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.cbkeymost(v=EXCHG.10)
 ms:contentKeyID: 55104228
 ms.date: 07/30/2014
 ms.topic: reference

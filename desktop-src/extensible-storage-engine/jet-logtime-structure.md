@@ -2,7 +2,7 @@
 title: JET_LOGTIME Structure
 TOCTitle: JET_LOGTIME Structure
 ms:assetid: cb7c0b74-db7a-4e48-80b8-37b3fdf6d088
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294089(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294089(v=EXCHG.10)
 ms:contentKeyID: 32765704
 ms.date: 04/11/2016
 ms.topic: reference

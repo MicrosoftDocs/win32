@@ -2,7 +2,7 @@
 title: JET_OBJECTLIST Structure
 TOCTitle: JET_OBJECTLIST Structure
 ms:assetid: 95f12f2a-13da-48d4-a254-fc0cb718b17d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269348(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269348(v=EXCHG.10)
 ms:contentKeyID: 32765635
 ms.date: 04/11/2016
 ms.topic: reference

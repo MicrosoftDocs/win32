@@ -2,7 +2,7 @@
 title: VistaParam.EnableAdvanced field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: EnableAdvanced field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.EnableAdvanced
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaparam.enableadvanced(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaparam.enableadvanced(v=EXCHG.10)
 ms:contentKeyID: 55104335
 ms.date: 07/30/2014
 ms.topic: reference

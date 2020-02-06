@@ -2,7 +2,7 @@
 title: Windows8IdxInfo class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8IdxInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8IdxInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8idxinfo(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8idxinfo(v=EXCHG.10)
 ms:contentKeyID: 55104356
 ms.date: 07/30/2014
 ms.topic: reference

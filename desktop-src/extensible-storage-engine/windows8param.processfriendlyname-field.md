@@ -2,7 +2,7 @@
 title: Windows8Param.ProcessFriendlyName field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: ProcessFriendlyName field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.ProcessFriendlyName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.processfriendlyname(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8param.processfriendlyname(v=EXCHG.10)
 ms:contentKeyID: 55104366
 ms.date: 07/30/2014
 ms.topic: reference

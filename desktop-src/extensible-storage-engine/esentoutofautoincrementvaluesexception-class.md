@@ -2,7 +2,7 @@
 title: EsentOutOfAutoincrementValuesException class
 TOCTitle: EsentOutOfAutoincrementValuesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofautoincrementvaluesexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentoutofautoincrementvaluesexception(v=EXCHG.10)
 ms:contentKeyID: 55102440
 ms.date: 07/30/2014
 ms.topic: reference

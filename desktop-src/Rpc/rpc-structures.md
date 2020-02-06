@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This section explains the structures defined and used by Microsoft RPC.
 
--   [**NDR\_SCONTEXT**](https://msdn.microsoft.com/en-US/library/Aa374336(v=VS.80).aspx)
+-   [**NDR\_SCONTEXT**](https://msdn.microsoft.com/library/Aa374336(v=VS.80).aspx)
 -   [**GUID**](/windows/win32/api/guiddef/ns-guiddef-guid)
 -   [**NDR\_USER\_MARSHAL\_INFO**](/windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info)
 -   [**NDR\_USER\_MARSHAL\_INFO\_LEVEL1**](/windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info_level1)

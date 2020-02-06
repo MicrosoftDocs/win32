@@ -2,7 +2,7 @@
 title: EsentDatabaseInUseException methods
 TOCTitle: EsentDatabaseInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInUseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinuseexception_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabaseinuseexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101383
 ms.date: 07/30/2014
 ms.topic: article

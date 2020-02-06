@@ -2,7 +2,7 @@
 title: JET_THREADSTATS.Equals method (JET_THREADSTATS) (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Equals method (JET_THREADSTATS)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Equals(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_threadstats.equals(v=EXCHG.10)
 ms:contentKeyID: 39515931
 ms.date: 07/30/2014
 ms.topic: reference

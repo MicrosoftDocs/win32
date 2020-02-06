@@ -2,7 +2,7 @@
 title: EsentSLVColumnDefaultValueNotAllowedException members
 TOCTitle: EsentSLVColumnDefaultValueNotAllowedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnDefaultValueNotAllowedException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvcolumndefaultvaluenotallowedexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvcolumndefaultvaluenotallowedexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102740
 ms.date: 07/30/2014
 ms.topic: article

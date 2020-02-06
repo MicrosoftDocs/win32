@@ -2,7 +2,7 @@
 title: JetGetInstanceInfo Function
 TOCTitle: JetGetInstanceInfo Function
 ms:assetid: ffccdac0-3631-4753-876a-90ddfdd0252f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294149(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294149(v=EXCHG.10)
 ms:contentKeyID: 32765763
 ms.date: 04/11/2016
 ms.topic: reference

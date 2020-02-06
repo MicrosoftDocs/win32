@@ -2,7 +2,7 @@
 title: JetBeginTransaction Function
 TOCTitle: JetBeginTransaction Function
 ms:assetid: c5b2f9d7-157d-431d-a292-009c43773a9f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294083(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294083(v=EXCHG.10)
 ms:contentKeyID: 32765698
 ms.date: 04/11/2016
 ms.topic: reference

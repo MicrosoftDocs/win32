@@ -2,7 +2,7 @@
 title: CreateTableColumnIndexGrbit enumeration
 TOCTitle: CreateTableColumnIndexGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateTableColumnIndexGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.createtablecolumnindexgrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.createtablecolumnindexgrbit(v=EXCHG.10)
 ms:contentKeyID: 39516657
 ms.date: 07/30/2014
 ms.topic: reference

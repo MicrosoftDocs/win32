@@ -2,7 +2,7 @@
 title: JET_TABLECREATE.cColumns property 
 TOCTitle: 'cColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cColumns
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tablecreate.ccolumns(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_tablecreate.ccolumns(v=EXCHG.10)
 ms:contentKeyID: 55103945
 ms.date: 07/30/2014
 ms.topic: reference

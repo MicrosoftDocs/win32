@@ -2,7 +2,7 @@
 title: Extensible Storage Engine System Parameters
 TOCTitle: Extensible Storage Engine System Parameters
 ms:assetid: f95c2e87-b25e-4be5-8c17-8486ba37dad4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294139(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294139(v=EXCHG.10)
 ms:contentKeyID: 32765753
 ms.date: 04/11/2016
 ms.topic: reference

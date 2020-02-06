@@ -2,7 +2,7 @@
 title: JET_TABLECREATE2 Structure
 TOCTitle: JET_TABLECREATE2 Structure
 ms:assetid: 2029e684-0d10-44e7-8033-d9cdbdffd7a4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269203(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269203(v=EXCHG.10)
 ms:contentKeyID: 32765506
 ms.date: 04/11/2016
 ms.topic: reference

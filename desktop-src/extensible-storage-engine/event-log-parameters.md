@@ -2,7 +2,7 @@
 title: Event Log Parameters
 TOCTitle: Event Log Parameters
 ms:assetid: c660f555-2627-4d25-8f1c-8c1dc8a3a381
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294086(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294086(v=EXCHG.10)
 ms:contentKeyID: 32765701
 ms.date: 04/11/2016
 ms.topic: reference

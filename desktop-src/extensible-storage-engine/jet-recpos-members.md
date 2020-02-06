@@ -2,7 +2,7 @@
 title: JET_RECPOS members
 TOCTitle: JET_RECPOS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RECPOS
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_recpos_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_recpos_members(v=EXCHG.10)
 ms:contentKeyID: 55103843
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: JET_ERRINFOBASIC.DeepClone method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.DeepClone
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_errinfobasic.deepclone(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_errinfobasic.deepclone(v=EXCHG.10)
 ms:contentKeyID: 55104428
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentInvalidNameException members
 TOCTitle: EsentInvalidNameException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidNameException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidnameexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidnameexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101997
 ms.date: 07/30/2014
 ms.topic: article

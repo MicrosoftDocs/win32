@@ -2,7 +2,7 @@
 title: JetSeek Function
 TOCTitle: JetSeek Function
 ms:assetid: d3d5bfae-dd27-47ab-96c4-6bc9a01a501b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294103(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294103(v=EXCHG.10)
 ms:contentKeyID: 32765718
 ms.date: 04/11/2016
 ms.topic: reference

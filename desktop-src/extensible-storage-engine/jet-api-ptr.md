@@ -2,7 +2,7 @@
 title: JET_API_PTR
 TOCTitle: JET_API_PTR
 ms:assetid: 27b1eeec-1707-4edb-a4b2-2619190c21e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269209(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269209(v=EXCHG.10)
 ms:contentKeyID: 32765512
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_SPACEHINTS.cbMinExtent property 
 TOCTitle: 'cbMinExtent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.cbMinExtent
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints.cbminextent(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_spacehints.cbminextent(v=EXCHG.10)
 ms:contentKeyID: 55103980
 ms.date: 07/30/2014
 ms.topic: reference

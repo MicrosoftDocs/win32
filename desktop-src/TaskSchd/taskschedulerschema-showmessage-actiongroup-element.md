@@ -54,7 +54,7 @@ For scripting development, a message box action is specified using the [**ShowMe
 
 For C++ development, a message box action is specified using the [**IShowMessageAction**](/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction) interface.
 
-**Windows 8 and Windows Server 2012:** This element has been removed. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/en-US/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.
+**Windows 8 and Windows Server 2012:** This element has been removed. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.
 
 ## Examples
 

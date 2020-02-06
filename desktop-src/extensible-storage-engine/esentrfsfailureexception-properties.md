@@ -2,7 +2,7 @@
 title: EsentRfsFailureException properties
 TOCTitle: EsentRfsFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRfsFailureException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrfsfailureexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentrfsfailureexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102638
 ms.date: 07/30/2014
 ms.topic: article

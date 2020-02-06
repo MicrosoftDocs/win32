@@ -2,7 +2,7 @@
 title: EsentDatabaseSignInUseException members
 TOCTitle: EsentDatabaseSignInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesigninuseexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabasesigninuseexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101437
 ms.date: 07/30/2014
 ms.topic: article

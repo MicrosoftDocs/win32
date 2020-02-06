@@ -2,7 +2,7 @@
 title: Windows7Grbits.EnumerateInRecordOnly field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: EnumerateInRecordOnly field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.EnumerateInRecordOnly
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7grbits.enumerateinrecordonly(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows7.windows7grbits.enumerateinrecordonly(v=EXCHG.10)
 ms:contentKeyID: 55104269
 ms.date: 07/30/2014
 ms.topic: reference

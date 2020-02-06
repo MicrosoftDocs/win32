@@ -2,7 +2,7 @@
 title: User Defined Columns
 TOCTitle: User Defined Columns
 ms:assetid: cccfc97c-acde-4328-a87f-ee7dcc54203c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294091(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294091(v=EXCHG.10)
 ms:contentKeyID: 32765706
 ms.date: 04/11/2016
 ms.topic: article

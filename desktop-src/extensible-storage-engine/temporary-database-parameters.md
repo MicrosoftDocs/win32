@@ -2,7 +2,7 @@
 title: Temporary Database Parameters
 TOCTitle: Temporary Database Parameters
 ms:assetid: fa1cd867-6ce4-4de5-b31d-5b886f7c1e77
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294140(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294140(v=EXCHG.10)
 ms:contentKeyID: 32765754
 ms.date: 04/11/2016
 ms.topic: reference

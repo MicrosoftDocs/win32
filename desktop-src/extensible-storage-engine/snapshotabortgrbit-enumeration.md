@@ -2,7 +2,7 @@
 title: SnapshotAbortGrbit enumeration (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: SnapshotAbortGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.snapshotabortgrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.snapshotabortgrbit(v=EXCHG.10)
 ms:contentKeyID: 39516281
 ms.date: 07/30/2014
 ms.topic: reference

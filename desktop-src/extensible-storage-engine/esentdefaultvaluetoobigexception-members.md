@@ -2,7 +2,7 @@
 title: EsentDefaultValueTooBigException members
 TOCTitle: EsentDefaultValueTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101599
 ms.date: 07/30/2014
 ms.topic: article

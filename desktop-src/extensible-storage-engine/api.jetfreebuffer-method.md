@@ -2,7 +2,7 @@
 title: Api.JetFreeBuffer method 
 TOCTitle: 'JetFreeBuffer method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetFreeBuffer(System.IntPtr)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetfreebuffer(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetfreebuffer(v=EXCHG.10)
 ms:contentKeyID: 55100694
 ms.date: 07/30/2014
 ms.topic: reference

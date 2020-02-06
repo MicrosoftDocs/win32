@@ -2,7 +2,7 @@
 title: Windows8Param.EnableDBScanSerialization field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: EnableDBScanSerialization field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.EnableDBScanSerialization
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.enabledbscanserialization(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8param.enabledbscanserialization(v=EXCHG.10)
 ms:contentKeyID: 55104475
 ms.date: 07/30/2014
 ms.topic: reference

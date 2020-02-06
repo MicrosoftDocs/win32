@@ -2,7 +2,7 @@
 title: JET_BKLOGTIME.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.Equals
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_bklogtime.equals(v=EXCHG.10)
 ms:contentKeyID: 39516895
 ms.date: 07/30/2014
 ms.topic: article

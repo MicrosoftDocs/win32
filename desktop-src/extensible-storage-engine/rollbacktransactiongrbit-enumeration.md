@@ -2,7 +2,7 @@
 title: RollbackTransactionGrbit enumeration
 TOCTitle: RollbackTransactionGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.RollbackTransactionGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.rollbacktransactiongrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.rollbacktransactiongrbit(v=EXCHG.10)
 ms:contentKeyID: 39513584
 ms.date: 07/30/2014
 ms.topic: reference

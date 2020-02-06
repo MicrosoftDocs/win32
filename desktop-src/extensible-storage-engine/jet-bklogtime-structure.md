@@ -2,7 +2,7 @@
 title: JET_BKLOGTIME Structure
 TOCTitle: JET_BKLOGTIME Structure
 ms:assetid: 31460079-7c5b-4145-837d-b112ba0117d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269219(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269219(v=EXCHG.10)
 ms:contentKeyID: 32765522
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: VistaParam.TableClass4Name field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: TableClass4Name field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.TableClass4Name
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaparam.tableclass4name(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaparam.tableclass4name(v=EXCHG.10)
 ms:contentKeyID: 55104349
 ms.date: 07/30/2014
 ms.topic: reference

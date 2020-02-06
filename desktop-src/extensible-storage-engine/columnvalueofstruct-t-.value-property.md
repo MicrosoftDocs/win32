@@ -2,7 +2,7 @@
 title: ColumnValueOfStruct(T).Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.Value
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334180(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn334180(v=EXCHG.10)
 ms:contentKeyID: 55100978
 ms.date: 07/30/2014
 ms.topic: reference

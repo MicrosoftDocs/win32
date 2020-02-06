@@ -2,7 +2,7 @@
 title: JET_OBJTYP
 TOCTitle: JET_OBJTYP
 ms:assetid: 7f549c84-584b-42b6-a4a5-385cf6dc25df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269312(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269312(v=EXCHG.10)
 ms:contentKeyID: 32765602
 ms.date: 04/11/2016
 ms.topic: reference

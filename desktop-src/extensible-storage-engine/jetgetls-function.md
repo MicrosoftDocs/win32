@@ -2,7 +2,7 @@
 title: JetGetLS Function
 TOCTitle: JetGetLS Function
 ms:assetid: 411baf34-d167-4633-81af-be4886f4a646
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269234(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269234(v=EXCHG.10)
 ms:contentKeyID: 32765536
 ms.date: 04/11/2016
 ms.topic: reference

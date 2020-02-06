@@ -2,7 +2,7 @@
 title: Instance.Init method 
 TOCTitle: 'Init method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.init(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instance.init(v=EXCHG.10)
 ms:contentKeyID: 55103273
 ms.date: 07/30/2014
 ms.topic: reference

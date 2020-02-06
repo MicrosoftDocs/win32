@@ -2,7 +2,7 @@
 title: JetReadFile Function
 TOCTitle: JetReadFile Function
 ms:assetid: 59dc9e04-7e02-4835-9aed-95cfcf74d780
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269257(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269257(v=EXCHG.10)
 ms:contentKeyID: 32765559
 ms.date: 04/11/2016
 ms.topic: reference

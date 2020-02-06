@@ -2,7 +2,7 @@
 title: VistaApi.JetGetThreadStats method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetGetThreadStats method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetGetThreadStats(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS@)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaapi.jetgetthreadstats(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaapi.jetgetthreadstats(v=EXCHG.10)
 ms:contentKeyID: 55104192
 ms.date: 07/30/2014
 ms.topic: reference

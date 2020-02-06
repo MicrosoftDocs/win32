@@ -2,7 +2,7 @@
 title: JetAddColumn Function
 TOCTitle: JetAddColumn Function
 ms:assetid: e146f784-2cbd-42c0-bf64-b37dc6f9ee43
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294122(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294122(v=EXCHG.10)
 ms:contentKeyID: 32765736
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_LS properties
 TOCTitle: JET_LS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LS
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_ls_properties(v=EXCHG.10)
 ms:contentKeyID: 39514083
 ms.date: 07/30/2014
 ms.topic: article

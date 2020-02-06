@@ -2,7 +2,7 @@
 title: JET_COMMIT_ID.Equals method (JET_COMMIT_ID) (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Equals method (JET_COMMIT_ID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.Equals(Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_commit_id.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_commit_id.equals(v=EXCHG.10)
 ms:contentKeyID: 55104294
 ms.date: 07/30/2014
 ms.topic: reference

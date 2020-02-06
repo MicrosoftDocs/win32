@@ -2,7 +2,7 @@
 title: JetDupCursor Function
 TOCTitle: JetDupCursor Function
 ms:assetid: 154b7d2d-4656-46b3-873c-2e194a9059b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269193(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269193(v=EXCHG.10)
 ms:contentKeyID: 32765496
 ms.date: 04/11/2016
 ms.topic: reference

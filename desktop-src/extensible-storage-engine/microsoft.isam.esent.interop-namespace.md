@@ -2,7 +2,7 @@
 title: Microsoft.Isam.Esent.Interop namespace ()
 TOCTitle: '@NoTitle'
 ms:assetid: N:Microsoft.Isam.Esent.Interop
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop(v=EXCHG.10)
 ms:contentKeyID: 39515215
 ms.date: 07/30/2014
 ms.topic: article

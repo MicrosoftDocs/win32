@@ -2,7 +2,7 @@
 title: StringColumnValue properties
 TOCTitle: StringColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.StringColumnValue
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.stringcolumnvalue_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.stringcolumnvalue_properties(v=EXCHG.10)
 ms:contentKeyID: 55104024
 ms.date: 07/30/2014
 ms.topic: article

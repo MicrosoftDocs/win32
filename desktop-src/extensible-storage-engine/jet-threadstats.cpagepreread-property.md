@@ -2,7 +2,7 @@
 title: JET_THREADSTATS.cPagePreread property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cPagePreread property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cPagePreread
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats.cpagepreread(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_threadstats.cpagepreread(v=EXCHG.10)
 ms:contentKeyID: 39510638
 ms.date: 07/30/2014
 ms.topic: reference

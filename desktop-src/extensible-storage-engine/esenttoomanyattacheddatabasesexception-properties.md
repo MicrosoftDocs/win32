@@ -2,7 +2,7 @@
 title: EsentTooManyAttachedDatabasesException properties
 TOCTitle: EsentTooManyAttachedDatabasesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyAttachedDatabasesException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttoomanyattacheddatabasesexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esenttoomanyattacheddatabasesexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55103078
 ms.date: 07/30/2014
 ms.topic: article

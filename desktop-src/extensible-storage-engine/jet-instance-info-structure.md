@@ -2,7 +2,7 @@
 title: JET_INSTANCE_INFO Structure
 TOCTitle: JET_INSTANCE_INFO Structure
 ms:assetid: 8cdd2e48-f1bb-465b-aefc-ffe441bf88a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269331(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269331(v=EXCHG.10)
 ms:contentKeyID: 32765621
 ms.date: 04/11/2016
 ms.topic: reference

@@ -92,7 +92,7 @@
             - name: "Keyboard and Mouse Input"
               href: inputdev/user-input.md
             - name: "MultiPoint Mouse"
-              href: https://msdn.microsoft.com/en-us/library/windows/desktop/ff877472.aspx
+              href: https://msdn.microsoft.com/library/windows/desktop/ff877472.aspx
             - name: "Tablet PC"
               href: tablet/tablet-pc-development-guide.md
         - name: "Windows and Messages"
@@ -176,7 +176,7 @@
         - name: "Image Mastering API"
           href: imapi/portal.md
         - name: "Imaging API"
-          href: https://msdn.microsoft.com/en-us/library/windows/desktop/dd851933.aspx
+          href: https://msdn.microsoft.com/library/windows/desktop/dd851933.aspx
         - name: "Local File Systems"
           href: fileio/file-systems.md
         - name: "Projected File System"

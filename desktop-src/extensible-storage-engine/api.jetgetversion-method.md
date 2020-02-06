@@ -2,7 +2,7 @@
 title: Api.JetGetVersion method 
 TOCTitle: 'JetGetVersion method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetVersion(Microsoft.Isam.Esent.Interop.JET_SESID,System.UInt32@)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgetversion(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetgetversion(v=EXCHG.10)
 ms:contentKeyID: 55100744
 ms.date: 07/30/2014
 ms.topic: reference

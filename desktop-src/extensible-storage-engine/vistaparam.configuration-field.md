@@ -2,7 +2,7 @@
 title: VistaParam.Configuration field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Configuration field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.Configuration
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaparam.configuration(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaparam.configuration(v=EXCHG.10)
 ms:contentKeyID: 55104229
 ms.date: 07/30/2014
 ms.topic: reference

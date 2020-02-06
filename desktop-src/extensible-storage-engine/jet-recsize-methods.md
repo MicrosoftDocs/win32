@@ -2,7 +2,7 @@
 title: JET_RECSIZE methods (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize_methods(v=EXCHG.10)
 ms:contentKeyID: 39514154
 ms.date: 07/30/2014
 ms.topic: article

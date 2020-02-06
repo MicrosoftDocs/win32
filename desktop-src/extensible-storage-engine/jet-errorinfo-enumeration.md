@@ -2,7 +2,7 @@
 title: JET_ErrorInfo enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ErrorInfo enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_ErrorInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_errorinfo(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_errorinfo(v=EXCHG.10)
 ms:contentKeyID: 55104316
 ms.date: 07/30/2014
 ms.topic: reference

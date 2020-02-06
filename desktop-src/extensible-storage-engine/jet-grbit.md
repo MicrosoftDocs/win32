@@ -2,7 +2,7 @@
 title: JET_GRBIT
 TOCTitle: JET_GRBIT
 ms:assetid: b72548cf-3ca2-4ba5-b07a-35eb7e85ed2b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294066(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294066(v=EXCHG.10)
 ms:contentKeyID: 32765681
 ms.date: 04/11/2016
 ms.topic: reference

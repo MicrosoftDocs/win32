@@ -2,7 +2,7 @@
 title: INullableJetStruct properties
 TOCTitle: INullableJetStruct properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.INullableJetStruct
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.inullablejetstruct_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inullablejetstruct_properties(v=EXCHG.10)
 ms:contentKeyID: 39516258
 ms.date: 07/30/2014
 ms.topic: article

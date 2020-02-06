@@ -2,7 +2,7 @@
 title: Server2003Api.JetOSSnapshotAbort method  (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: 'JetOSSnapshotAbort method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api.JetOSSnapshotAbort(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.server2003api.jetossnapshotabort(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.server2003api.jetossnapshotabort(v=EXCHG.10)
 ms:contentKeyID: 55104209
 ms.date: 07/30/2014
 ms.topic: reference

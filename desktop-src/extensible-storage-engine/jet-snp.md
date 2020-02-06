@@ -2,7 +2,7 @@
 title: JET_SNP
 TOCTitle: JET_SNP
 ms:assetid: 7f3d1cc5-7b27-454d-8dd1-584ab4b60ab0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269311(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269311(v=EXCHG.10)
 ms:contentKeyID: 32765601
 ms.date: 04/11/2016
 ms.topic: reference

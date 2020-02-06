@@ -2,7 +2,7 @@
 title: Extensible Storage Engine Structures
 TOCTitle: Extensible Storage Engine Structures
 ms:assetid: 0fe8a183-0f4b-4840-a53f-2d6494c43f22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269187(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269187(v=EXCHG.10)
 ms:contentKeyID: 32765490
 ms.date: 04/11/2016
 ms.topic: reference

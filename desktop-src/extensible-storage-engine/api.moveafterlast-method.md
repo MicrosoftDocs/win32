@@ -2,7 +2,7 @@
 title: Api.MoveAfterLast method 
 TOCTitle: 'MoveAfterLast method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MoveAfterLast(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.moveafterlast(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.moveafterlast(v=EXCHG.10)
 ms:contentKeyID: 55100851
 ms.date: 07/30/2014
 ms.topic: reference

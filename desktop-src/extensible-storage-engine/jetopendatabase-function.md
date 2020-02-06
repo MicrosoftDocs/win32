@@ -2,7 +2,7 @@
 title: JetOpenDatabase Function
 TOCTitle: JetOpenDatabase Function
 ms:assetid: 7764f0c2-6795-4b93-be3d-f6830cdce369
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269299(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269299(v=EXCHG.10)
 ms:contentKeyID: 32765591
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JetOpenTempTable3 Function
 TOCTitle: JetOpenTempTable3 Function
 ms:assetid: 58d6e264-705e-402b-928f-96eefe5e9771
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269255(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269255(v=EXCHG.10)
 ms:contentKeyID: 32765557
 ms.date: 04/11/2016
 ms.topic: reference

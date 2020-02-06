@@ -2,7 +2,7 @@
 title: EsentFragmentationException members
 TOCTitle: EsentFragmentationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFragmentationException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfragmentationexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentfragmentationexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101728
 ms.date: 07/30/2014
 ms.topic: article

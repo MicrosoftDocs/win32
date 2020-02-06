@@ -169,13 +169,13 @@ The sample code below illustrates this issue. The unbounded access to the "buffe
 ## Links to Resources
 
 -   [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx)
--   [Asynchronous Design](https://msdn.microsoft.com/en-US/library/ms228969(v=VS.80).aspx)
+-   [Asynchronous Design](https://msdn.microsoft.com/library/ms228969(v=VS.80).aspx)
 -   [Asynchronous I/O](https://msdn.microsoft.com/library/Aa365683(v=VS.85).aspx)
 -   [**AttachThreadInput Function**](https://msdn.microsoft.com/library/ms681956(v=VS.85).aspx)
 -   [**auto\_ptr Class**](https://msdn.microsoft.com/library/ew3fk483(v=VS.71).aspx)
 -   [**DisableProcessWindowsGhosting Function**](https://msdn.microsoft.com/library/ms648415(v=VS.85).aspx)
 -   [**DllMain Callback Function**](https://msdn.microsoft.com/library/ms682583(v=VS.85).aspx)
--   [Events](https://msdn.microsoft.com/en-US/library/wewwczdw(v=VS.80).aspx)
+-   [Events](https://msdn.microsoft.com/library/wewwczdw(v=VS.80).aspx)
 -   [**GetMessage Function**](https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx)
 -   [I/O cancellation](https://msdn.microsoft.com/library/Aa363789(v=VS.85).aspx)
 -   [**IsHungAppWindow Function**](https://msdn.microsoft.com/library/ms633526(v=VS.85).aspx)

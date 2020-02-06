@@ -2,7 +2,7 @@
 title: JET_INDEX_COLUMN members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_COLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_index_column_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_index_column_members(v=EXCHG.10)
 ms:contentKeyID: 55104315
 ms.date: 07/30/2014
 ms.topic: article

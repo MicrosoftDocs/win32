@@ -2,7 +2,7 @@
 title: JET_ENUMCOLUMNVALUE constructor 
 TOCTitle: 'JET_ENUMCOLUMNVALUE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumnvalue.jet_enumcolumnvalue(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_enumcolumnvalue.jet_enumcolumnvalue(v=EXCHG.10)
 ms:contentKeyID: 55107536
 ms.date: 07/30/2014
 ms.topic: reference

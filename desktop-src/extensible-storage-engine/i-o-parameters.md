@@ -2,7 +2,7 @@
 title: I/O Parameters
 TOCTitle: I/O Parameters
 ms:assetid: 5df3c106-52ac-4ca0-9a6a-d5d62576bb23
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269260(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269260(v=EXCHG.10)
 ms:contentKeyID: 32765562
 ms.date: 04/11/2016
 ms.topic: reference

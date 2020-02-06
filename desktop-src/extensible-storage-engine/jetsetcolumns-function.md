@@ -2,7 +2,7 @@
 title: JetSetColumns Function
 TOCTitle: JetSetColumns Function
 ms:assetid: a5b011dc-0da6-44bf-aaf5-352d8a57e5bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294050(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294050(v=EXCHG.10)
 ms:contentKeyID: 32765649
 ms.date: 04/11/2016
 ms.topic: reference

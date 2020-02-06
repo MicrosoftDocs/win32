@@ -2,7 +2,7 @@
 title: JET_LGPOS.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.GetHashCode
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_lgpos.gethashcode(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_lgpos.gethashcode(v=EXCHG.10)
 ms:contentKeyID: 39511946
 ms.date: 07/30/2014
 ms.topic: reference

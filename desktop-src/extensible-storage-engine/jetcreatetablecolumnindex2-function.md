@@ -2,7 +2,7 @@
 title: JetCreateTableColumnIndex2 Function
 TOCTitle: JetCreateTableColumnIndex2 Function
 ms:assetid: ad9caaf3-8cd2-453f-894d-8ac438c50b73
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294057(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294057(v=EXCHG.10)
 ms:contentKeyID: 32765672
 ms.date: 04/11/2016
 ms.topic: reference

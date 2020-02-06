@@ -2,7 +2,7 @@
 title: EsentBadDbSignatureException properties
 TOCTitle: EsentBadDbSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadDbSignatureException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbaddbsignatureexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentbaddbsignatureexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101118
 ms.date: 07/30/2014
 ms.topic: article

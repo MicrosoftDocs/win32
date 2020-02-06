@@ -2,7 +2,7 @@
 title: JET_HANDLE
 TOCTitle: JET_HANDLE
 ms:assetid: 30748d98-f119-47df-92dd-a8ae8c2761c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269217(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269217(v=EXCHG.10)
 ms:contentKeyID: 32765520
 ms.date: 04/11/2016
 ms.topic: reference

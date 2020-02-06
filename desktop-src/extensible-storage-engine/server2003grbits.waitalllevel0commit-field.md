@@ -2,7 +2,7 @@
 title: Server2003Grbits.WaitAllLevel0Commit field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: WaitAllLevel0Commit field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.WaitAllLevel0Commit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.server2003grbits.waitalllevel0commit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.server2003grbits.waitalllevel0commit(v=EXCHG.10)
 ms:contentKeyID: 55104104
 ms.date: 07/30/2014
 ms.topic: reference

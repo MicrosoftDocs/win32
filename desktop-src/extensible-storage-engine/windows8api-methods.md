@@ -2,7 +2,7 @@
 title: Windows8Api methods (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8api_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8api_methods(v=EXCHG.10)
 ms:contentKeyID: 55104457
 ms.date: 07/30/2014
 ms.topic: article

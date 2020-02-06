@@ -2,7 +2,7 @@
 title: EsentOutOfBuffersException constructor 
 TOCTitle: 'EsentOutOfBuffersException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentoutofbuffersexception.esentoutofbuffersexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentoutofbuffersexception.esentoutofbuffersexception(v=EXCHG.10)
 ms:contentKeyID: 55102406
 ms.date: 07/30/2014
 ms.topic: reference
