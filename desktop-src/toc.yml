@@ -71,6 +71,8 @@
             href: directmanipulation/direct-manipulation-portal.md
           - name: "Ink input"
             href: input_ink/input-ink-portal.md
+          - name: "Input source identification"
+            href: input_sourceid/input-source-identification-portal.md
           - name: "Radial controller input"
             href: input_radial/radialcontroller-portal.md
           - name: "Input feedback configuration"
