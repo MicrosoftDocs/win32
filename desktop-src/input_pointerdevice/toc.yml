@@ -8,9 +8,9 @@
       href: enumerations.md
       items: 
       - name: "POINTER_DEVICE_CURSOR_TYPE"
-        href: /windows/win32/api/Winuser/ne-winuser-tagpointer_device_cursor_type
+        href: /windows/win32/api/Winuser/ne-winuser-pointer_device_cursor_type
       - name: "POINTER_DEVICE_TYPE"
-        href: /windows/win32/api/Winuser/ne-winuser-tagpointer_device_type
+        href: /windows/win32/api/Winuser/ne-winuser-pointer_device_type
     - name: "Functions"
       href: functions.md
       items: 
@@ -32,8 +32,8 @@
       href: structures.md
       items: 
       - name: "POINTER_DEVICE_CURSOR_INFO"
-        href: /windows/win32/api/Winuser/ns-winuser-tagpointer_device_cursor_info
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_device_cursor_info
       - name: "POINTER_DEVICE_INFO"
-        href: /windows/win32/api/Winuser/ns-winuser-tagpointer_device_info
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_device_info
       - name: "POINTER_DEVICE_PROPERTY"
-        href: /windows/win32/api/Winuser/ns-winuser-tagpointer_device_property
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_device_property
