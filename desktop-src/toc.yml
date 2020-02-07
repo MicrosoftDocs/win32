@@ -273,7 +273,7 @@
           items: 
           - name: "Overview"
             href: directx.md
-          - name: "Getting started with DirectX Graphics"
+          - name: "Getting started with DirectX graphics"
             href: getting-started-with-directx-graphics.md
           - name: "Programming DirectX with COM"
             href: prog-dx-with-com.md
