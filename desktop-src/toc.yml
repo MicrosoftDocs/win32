@@ -85,6 +85,8 @@
             href: inputmsg/messages-and-notifications-portal.md
           - name: "Text Services Framework"
             href: tsf/text-services-framework.md
+          - name: "Touch input injection"
+            href: input_touchinjection/touch-injection-portal.md
           - name: "Legacy User Interaction Features"
             items: 
             - name: "Overview"
