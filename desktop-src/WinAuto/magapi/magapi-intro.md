@@ -39,7 +39,7 @@ The Magnification API enables assistive technology vendors to develop screen mag
 
 ## Getting Started
 
-The original release of the Magnification API is supported on Windows Vista and later operating systems. On Windows 8 and later, the API supports additional features, including full-screen magnification and setting the visibility of the magnified system cursor. For more information, see [What's New](magapi-whats-new.md).
+The original release of the Magnification API is supported on Windows Vista and later operating systems. On Windows 8 and later, the API supports additional features, including full-screen magnification and setting the visibility of the magnified system cursor.
 
 Support for the Magnification API is provided by Magnification.dll. To compile your application, include Magnification.h and link to Magnification.lib.
 
