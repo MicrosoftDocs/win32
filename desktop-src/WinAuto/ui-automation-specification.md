@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # UI Automation Specification
 
-This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation. The UI Automation Specification can be supported across platforms other than Microsoft Windows. For more information, see [UI Automation Specification]( https://go.microsoft.com/fwlink/p/?linkid=198404)
+This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation. The UI Automation Specification can be supported across platforms other than Microsoft Windows. For more information, see [UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise)
 
 This topic contains the following sections:
 
@@ -107,18 +107,4 @@ For more information, see [UI Automation Events Overview](uiauto-eventsoverview.
 
 ## Related topics
 
-<dl> <dt>
-
-[UI Automation Specification]( https://go.microsoft.com/fwlink/p/?linkid=198404)
-</dt> <dt>
-
-[Windows Automation API Overview](windows-automation-api-overview.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise), [Windows Automation API Overview](windows-automation-api-overview.md)
