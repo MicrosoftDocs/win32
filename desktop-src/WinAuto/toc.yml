@@ -3121,6 +3121,8 @@
         href: appendix-f--object-identifier-values-for-objid-queryclassnameidx.md
       - name: "Appendix G: Active Accessibility Bridge to UI Automation"
         href: appendix-g--active-accessibility-bridge-to-ui-automation.md
+  - name: "Magnification API"
+    href: magapi/entry-magapi-sdk.md
   - name: "Common infrastructure"
     href: common-infrastructure.md
     items: 
