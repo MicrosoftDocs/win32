@@ -5253,25 +5253,25 @@
           href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory-createcontentdecryptionmoduleaccess
         - name: "IMFContentDecryptionModuleFactory::IsTypeSupported"
           href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory-istypesupported 
-    - name: "IMFContentDecryptionModuleSession"
-      href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession
-      items:
-      - name: "IMFContentDecryptionModuleSession::Close"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-close
-      - name: "IMFContentDecryptionModuleSession::GenerateRequest"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-generaterequest
-      - name: "IMFContentDecryptionModuleSession::GetExpiration"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getexpiration
-      - name: "IMFContentDecryptionModuleSession::GetKeyStatuses"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses
-      - name: "IMFContentDecryptionModuleSession::GetSessionId"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getsessionid
-      - name: "IMFContentDecryptionModuleSession::Load"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-load
-      - name: "IMFContentDecryptionModuleSession::Remove"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-remove
-      - name: "IMFContentDecryptionModuleSession::Update"
-        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-update
+      - name: "IMFContentDecryptionModuleSession"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession
+        items:
+        - name: "IMFContentDecryptionModuleSession::Close"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-close
+        - name: "IMFContentDecryptionModuleSession::GenerateRequest"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-generaterequest
+        - name: "IMFContentDecryptionModuleSession::GetExpiration"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getexpiration
+        - name: "IMFContentDecryptionModuleSession::GetKeyStatuses"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses
+        - name: "IMFContentDecryptionModuleSession::GetSessionId"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getsessionid
+        - name: "IMFContentDecryptionModuleSession::Load"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-load
+        - name: "IMFContentDecryptionModuleSession::Remove"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-remove
+        - name: "IMFContentDecryptionModuleSession::Update"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-update
       - name: "IMFContentDecryptionModuleSessionCallbacks"
         href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks
         items:
