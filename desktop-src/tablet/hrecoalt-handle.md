@@ -26,7 +26,6 @@ These functions are obsolete and need not be implemented by custom application r
 -   [**GetGuideIndex**](https://msdn.microsoft.com/library/ms701152(v=VS.85).aspx)
 -   [**GetMetrics**](https://msdn.microsoft.com/library/ms695560(v=VS.85).aspx)
 -   [**GetPropertyRanges**](https://msdn.microsoft.com/library/ms695602(v=VS.85).aspx)
--   [**GetRangePropertyValue**](https://msdn.microsoft.com/library/ms703427(v=VS.85).aspx)
 -   [**GetSegmentAlternateList**](https://msdn.microsoft.com/library/ms701702(v=VS.85).aspx)
 -   [**GetString**](https://msdn.microsoft.com/library/ms704890(v=VS.85).aspx)
 -   [**GetStrokeRanges**](https://msdn.microsoft.com/library/ms705304(v=VS.85).aspx)
