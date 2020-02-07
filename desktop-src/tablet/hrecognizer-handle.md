@@ -30,7 +30,6 @@ The following functions use an **HRECOGNIZER**.
 | [**GetRecoAttributes**](/windows/desktop/api/recapis/nf-recapis-getrecoattributes)                         | Returns the attributes of the recognizer.<br/>                                               |
 | [**CreateContext**](/windows/desktop/api/recapis/nf-recapis-createcontext)                                 | Creates a recognizer context.<br/>                                                           |
 | [**DestroyContext**](/windows/desktop/api/recapis/nf-recapis-destroycontext)                               | Destroys a recognizer context.<br/>                                                          |
-| [**DestroyRecognizer**](/windows/desktop/api/recapis/nf-recapis-destroyrecognizer)                         | Destroys a recognizer.<br/>                                                                  |
 | [**GetAllRecognizers**](/windows/desktop/api/recapis/nf-recapis-getallrecognizers)                         | Gets all recognizers.<br/>                                                                   |
 | [**GetResultPropertyList**](/windows/desktop/api/recapis/nf-recapis-getresultpropertylist)                 | Retrieves a list of properties the recognizer can return for a result range.<br/>            |
 | [**GetPreferredPacketDescription**](/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription) | Retrieves a packet description that contains the packet properties the recognizer uses.<br/> |
