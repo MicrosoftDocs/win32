@@ -73,18 +73,18 @@
             href: input_ink/input-ink-portal.md
           - name: "Input source identification"
             href: input_sourceid/input-source-identification-portal.md
-          - name: "Radial controller input"
-            href: input_radial/radialcontroller-portal.md
           - name: "Input feedback configuration"
             href: input_feedback/input-feedback-configuration-portal.md
           - name: "Input source identification"
             href: input_sourceid/input-source-identification-portal.md
-          - name: "Input source identification"
-            href: input_intcontext/interaction-context-portal.md
           - name: "Interaction context"
+            href: input_intcontext/interaction-context-portal.md
+          - name: "Pointer device stack"
             href: input_pointerdevice/pointer-device-stack-portal.md
           - name: "Pointer Input Messages and Notifications"
             href: inputmsg/messages-and-notifications-portal.md
+          - name: "Radial controller input"
+            href: input_radial/radialcontroller-portal.md
           - name: "Text Services Framework"
             href: tsf/text-services-framework.md
           - name: "Touch input injection"
