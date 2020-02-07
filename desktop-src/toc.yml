@@ -79,7 +79,9 @@
             href: input_feedback/input-feedback-configuration-portal.md
           - name: "Input source identification"
             href: input_sourceid/input-source-identification-portal.md
-          - name: "Pointer Device Input Stack"
+          - name: "Input source identification"
+            href: input_intcontext/interaction-context-portal.md
+          - name: "Interaction context"
             href: input_pointerdevice/pointer-device-stack-portal.md
           - name: "Pointer Input Messages and Notifications"
             href: inputmsg/messages-and-notifications-portal.md
