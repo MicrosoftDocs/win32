@@ -20,32 +20,14 @@ The topics in this section provide the reference specifications for [Interaction
 
 ## In this section
 
-
-
-| Topic                                                                                          | Description                                                                                                                                        |
-|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Topic | Description |
+|---|---|
 | [**HINTERACTIONCONTEXT**](hinteractioncontext.md)<br/>                                  | Handle to an [Interaction Context](interaction-context-portal.md) object.<br/>                                                              |
-| [*INTERACTION\_CONTEXT\_OUTPUT\_CALLBACK*](/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback)<br/> | Callback that receives events from an [Interaction Context](interaction-context-portal.md) object.<br/>                                     |
+| [*INTERACTION\_CONTEXT\_OUTPUT\_CALLBACK*](/windows/win32/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback)<br/> | Callback that receives events from an [Interaction Context](interaction-context-portal.md) object.<br/>                                     |
 | [Interaction Context Enumerations](enumerations.md)<br/>                                | The topics in this section provide the reference specifications for [Interaction Context](interaction-context-portal.md) enumerations.<br/> |
 | [Interaction Context Functions](functions.md)<br/>                                      | The topics in this section provide the reference specifications for [Interaction Context](interaction-context-portal.md) functions.<br/>    |
 | [Interaction Context Structures](structures.md)<br/>                                    | The topics in this section provide the reference specifications for [Interaction Context](interaction-context-portal.md) structures.<br/>   |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
 [Interaction Context](interaction-context-portal.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-

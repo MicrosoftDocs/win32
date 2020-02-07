@@ -24,15 +24,9 @@ The collection of topics provided here describe how your app can use Interaction
 
 ## In this section
 
-
-
-| Topic                                                                         | Description                                                                                         |
-|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| Topic | Description |
+|---|---|
 | [Interaction Context Reference](interaction-context-reference.md)<br/> | The topics in this section provide the reference specifications for Interaction Context.<br/> |
-
-
-
- 
 
 ## Developer audience
 
@@ -40,16 +34,4 @@ The Interaction Context APIs are designed for developers who are building UI fra
 
 ## Related topics
 
-<dl> <dt>
-
-[User Interaction](https://msdn.microsoft.com/library/windows/desktop/ff657750)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[User Interaction](../user-interaction.md)

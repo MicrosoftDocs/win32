@@ -12,16 +12,11 @@ ms.date: 02/06/2020
 
 Handle to an [Interaction Context](interaction-context-portal.md) object.
 
-
 ```C++
 typedef  HINTERACTIONCONTEXT;
 ```
 
-
-
 ## Requirements
-
-
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -29,26 +24,6 @@ typedef  HINTERACTIONCONTEXT;
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>Interactioncontext.h</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
-[Interaction Context Reference](interaction-context-reference.md)
-</dt> <dt>
-
-[**CreateInteractionContext**](/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-createinteractioncontext)
-</dt> <dt>
-
-[**DestroyInteractionContext**](/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-destroyinteractioncontext)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[Interaction Context Reference](interaction-context-reference.md), [**CreateInteractionContext**](/windows/win32/api/interactioncontext/nf-interactioncontext-createinteractioncontext), [**DestroyInteractionContext**](/windows/win32/api/interactioncontext/nf-interactioncontext-destroyinteractioncontext)
