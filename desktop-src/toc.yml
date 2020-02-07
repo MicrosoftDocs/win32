@@ -85,6 +85,8 @@
             href: input_radial/radialcontroller-portal.md
           - name: "Text Services Framework"
             href: tsf/text-services-framework.md
+          - name: "Touch input hit testing"
+            href: input_touchhittest/touch-hit-testing-portal.md
           - name: "Touch input injection"
             href: input_touchinjection/touch-injection-portal.md
           - name: "Legacy User Interaction Features"
