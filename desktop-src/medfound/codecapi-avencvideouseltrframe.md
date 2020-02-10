@@ -38,7 +38,7 @@ The value of this control includes two fields, where each field has 16 bits.
 <tbody>
 <tr class="odd">
 <td><span id="The_first_field"></span><span id="the_first_field"></span><span id="THE_FIRST_FIELD"></span><dl> <dt><strong>The first field</strong></dt> <dt>Bits[0..15]</dt> </dl></td>
-<td>Indicates which LTR frame(s) are allowed for encoding the current frame. <br/> <strong>H.264/AVC encoders:</strong><br/> This is a bitmap that indicates which LTR frames can be used as a reference for this frame. The least significant bit corresponds to LTR index 0, the second least significant bit corresponds to LTR index 1, etc.<br/> This value shall not be 0.<br/> The highest index specified by this value shall not be greater than the maximum number of LTR frames specified in the <a href="codecapi-avencvideoltrbuffercontrol">CODECAPI_AVEncVideoLTRBufferControl</a> property less one.<br/></td>
+<td>Indicates which LTR frame(s) are allowed for encoding the current frame. <br/> <strong>H.264/AVC encoders:</strong><br/> This is a bitmap that indicates which LTR frames can be used as a reference for this frame. The least significant bit corresponds to LTR index 0, the second least significant bit corresponds to LTR index 1, etc.<br/> This value shall not be 0.<br/> The highest index specified by this value shall not be greater than the maximum number of LTR frames specified in the <a href="codecapi-avencvideoltrbuffercontrol.md">CODECAPI_AVEncVideoLTRBufferControl</a> property less one.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="The_second_field"></span><span id="the_second_field"></span><span id="THE_SECOND_FIELD"></span><dl> <dt><strong>The second field</strong></dt> <dt>Bits[16..31]</dt> </dl></td>

@@ -101,7 +101,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Specifies values used by <a href="/windows/desktop/api/Shldisp/nf-shldisp-iautocomplete2-getoptions"><strong>IAutoComplete2::GetOptions</strong></a> and <a href="/windows/desktop/api/Shldisp/nf-shldisp-iautocomplete2-setoptions"><strong>IAutoComplete2::SetOptions</strong></a> for options surrounding autocomplete.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="str-constants"><strong>Bind Context String Keys</strong></a><br/></td>
+<td><a href="str-constants.md"><strong>Bind Context String Keys</strong></a><br/></td>
 <td>A set of string keys that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam"><strong>IBindCtx::RegisterObjectParam</strong></a> method to specify a bind context.<br/></td>
 </tr>
 <tr class="odd">
@@ -173,15 +173,15 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="csidl"><strong>CSIDL</strong></a><br/></td>
+<td><a href="csidl.md"><strong>CSIDL</strong></a><br/></td>
 <td><blockquote>
-<p>[!Note]As of Windows Vista, these values have been replaced by <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a> values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding <strong>KNOWNFOLDERID</strong> values are also noted here for each CSIDL value.</p>
-<p>The CSIDL system is supported under Windows Vista for compatibility reasons. However, new development should use <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a> values rather than CSIDL values.<br/></p>
+<p>[!Note]As of Windows Vista, these values have been replaced by <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding <strong>KNOWNFOLDERID</strong> values are also noted here for each CSIDL value.</p>
+<p>The CSIDL system is supported under Windows Vista for compatibility reasons. However, new development should use <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> values rather than CSIDL values.<br/></p>
 </blockquote>
 <br/> CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be &quot;C:\Windows&quot; on one system and &quot;C:\Winnt&quot; on another. These constants are defined in Shlobj.h.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="ctf"><strong>CTF Flags</strong></a><br/></td>
+<td><a href="ctf.md"><strong>CTF Flags</strong></a><br/></td>
 <td>Flags that control the calling function's behavior. Used by <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatethread"><strong>SHCreateThread</strong></a> and <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatethreadwithhandle"><strong>SHCreateThreadWithHandle</strong></a>. In those functions, these values are defined as being of type SHCT_FLAGS.<br/></td>
 </tr>
 <tr class="even">
@@ -262,7 +262,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a><br/></td>
-<td>Indicates <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> constants that are used in the EditFlags value of a file association <a href="fa-progids">PROGID</a> registry key.<br/></td>
+<td>Indicates <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> constants that are used in the EditFlags value of a file association <a href="fa-progids.md">PROGID</a> registry key.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode"><strong>FOLDER_ENUM_MODE</strong></a><br/></td>
@@ -277,8 +277,8 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getviewmode"><strong>IFolderViewSettings::GetViewMode</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfolderlogicalviewmode"><strong>ISearchFolderItemFactory::SetFolderLogicalViewMode</strong></a> to describe the view mode.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="foldertypeid"><strong>FOLDERTYPEID</strong></a><br/></td>
-<td>The <a href="foldertypeid"><strong>FOLDERTYPEID</strong></a> values represent a view template applied to a folder, usually based on its intended use and contents.<br/></td>
+<td><a href="foldertypeid.md"><strong>FOLDERTYPEID</strong></a><br/></td>
+<td>The <a href="foldertypeid.md"><strong>FOLDERTYPEID</strong></a> values represent a view template applied to a folder, usually based on its intended use and contents.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode"><strong>FOLDERVIEWMODE</strong></a><br/></td>
@@ -289,7 +289,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Used by methods of the <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>IFolderViewOptions</strong></a> interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="iactivedesktop-flags"><strong>IActiveDesktop Flags</strong></a><br/></td>
+<td><a href="iactivedesktop-flags.md"><strong>IActiveDesktop Flags</strong></a><br/></td>
 <td>This section describes the flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop"><strong>IActiveDesktop</strong></a> interface methods.<br/></td>
 </tr>
 <tr class="odd">
@@ -314,11 +314,11 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag"><strong>KNOWN_FOLDER_FLAG</strong></a><br/></td>
-<td>Specify special retrieval options for known folders. These values supersede <a href="csidl"><strong>CSIDL</strong></a> values, which have parallel meanings.<br/></td>
+<td>Specify special retrieval options for known folders. These values supersede <a href="csidl.md"><strong>CSIDL</strong></a> values, which have parallel meanings.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a><br/></td>
-<td>The <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a> constants represent GUIDs that identify standard folders registered with the system as <a href="known-folders">Known Folders</a>. These folders are installed with Windows Vista and later operating systems, and a computer will have only folders appropriate to it installed. For descriptions of these folders, see <a href="csidl"><strong>CSIDL</strong></a>.<br/></td>
+<td><a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a><br/></td>
+<td>The <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> constants represent GUIDs that identify standard folders registered with the system as <a href="known-folders.md">Known Folders</a>. These folders are installed with Windows Vista and later operating systems, and a computer will have only folders appropriate to it installed. For descriptions of these folders, see <a href="csidl.md"><strong>CSIDL</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter"><strong>LIBRARYFOLDERFILTER</strong></a><br/></td>
@@ -345,11 +345,11 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Specifies whether a display is showing desktop windows instead of Windows Store apps.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="mp-popupflags"><strong>MP_POPUPFLAGS constants</strong></a><br/></td>
+<td><a href="mp-popupflags.md"><strong>MP_POPUPFLAGS constants</strong></a><br/></td>
 <td>Represent options available when displaying a pop-up menu.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="net-string"><strong>NET_STRING</strong></a><br/></td>
+<td><a href="net-string.md"><strong>NET_STRING</strong></a><br/></td>
 <td>Represent network address types. Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro <a href="/windows/desktop/api/Shellapi/nf-shellapi-netaddr_setallowtype"><strong>NetAddr_SetAllowType</strong></a>.<br/></td>
 </tr>
 <tr class="even">
@@ -389,11 +389,11 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Specifies the state of the machine for the current user in relation to the propriety of sending a notification. Used by <a href="/windows/desktop/api/Shellapi/nf-shellapi-shqueryusernotificationstate"><strong>SHQueryUserNotificationState</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="hkey-type"><strong>Registry Data Types</strong></a><br/></td>
+<td><a href="hkey-type.md"><strong>Registry Data Types</strong></a><br/></td>
 <td>These data types can be used to specify the type of a registry value.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="regsam"><strong>REGSAM</strong></a><br/></td>
+<td><a href="regsam.md"><strong>REGSAM</strong></a><br/></td>
 <td>A data type used for specifying the security access attributes in the registry.<br/></td>
 </tr>
 <tr class="odd">
@@ -413,7 +413,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Specifies how the <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-strformatbytesizeex"><strong>StrFormatByteSizeEx</strong></a> function should handle rounding of undisplayed digits.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="sfgao"><strong>SFGAO</strong></a><br/></td>
+<td><a href="sfgao.md"><strong>SFGAO</strong></a><br/></td>
 <td>Attributes that can be retrieved on an item (file or folder) or set of items.<br/></td>
 </tr>
 <tr class="even">
@@ -442,7 +442,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shldisp/ne-shldisp-shellfolderviewoptions"><strong>ShellFolderViewOptions</strong></a><br/></td>
-<td>Specifies the view options returned by the <a href="shellfolderview-viewoptions"><strong>ViewOptions</strong></a> property.<br/></td>
+<td>Specifies the view options returned by the <a href="shellfolderview-viewoptions.md"><strong>ViewOptions</strong></a> property.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants"><strong>ShellSpecialFolderConstants</strong></a><br/></td>
@@ -502,11 +502,11 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 <td>Specifies the type of descriptive text being provided to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="srrf"><strong>SRRF</strong></a><br/></td>
+<td><a href="srrf.md"><strong>SRRF</strong></a><br/></td>
 <td>Flags that restrict the data to be set or returned.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="ssf-constants"><strong>SSF Constants</strong></a><br/></td>
+<td><a href="ssf-constants.md"><strong>SSF Constants</strong></a><br/></td>
 <td>Used by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>SHGetSetSettings</strong></a> function to specify which members of its <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea"><strong>SHELLSTATE</strong></a> structure should be set or retrived.<br/></td>
 </tr>
 <tr class="even">

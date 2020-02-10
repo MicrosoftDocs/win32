@@ -125,11 +125,11 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="odd">
 <td><span id="-nw"></span><span id="-NW"></span><strong>-nw</strong><br/></td>
-<td>This optional flag specifies shadow copies without involving writers. For more information about shadow copies without writer participation, see <a href="shadow-copy-creation-details">Shadow Copy Creation Details</a>. This flag and the <strong>-wi</strong> and <strong>-wx</strong> flags are mutually exclusive.<br/></td>
+<td>This optional flag specifies shadow copies without involving writers. For more information about shadow copies without writer participation, see <a href="shadow-copy-creation-details.md">Shadow Copy Creation Details</a>. This flag and the <strong>-wi</strong> and <strong>-wx</strong> flags are mutually exclusive.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-p"></span><span id="-P"></span><strong>-p</strong><br/></td>
-<td>This optional flag specifies <a href="vssgloss-p"><em>persistent shadow copies</em></a>.<br/>
+<td>This optional flag specifies <a href="vssgloss-p.md"><em>persistent shadow copies</em></a>.<br/>
 <blockquote>
 [!Note]<br />
 This flag is supported only on Windows server operating systems.
@@ -147,7 +147,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="even">
 <td><span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br/></td>
-<td>This optional flag specifies <a href="vssgloss-c"><em>client-accessible shadow copies</em></a>.<br/>
+<td>This optional flag specifies <a href="vssgloss-c.md"><em>client-accessible shadow copies</em></a>.<br/>
 <blockquote>
 [!Note]<br />
 This flag is supported only on Windows server operating systems.

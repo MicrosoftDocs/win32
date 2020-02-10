@@ -35,7 +35,7 @@ The following table identifies what is new for each release of the Image Masteri
 </tr>
 <tr class="even">
 <td>Version 1.0</td>
-<td>Initial release. Lets an application stage and burn a simple audio or data image to CD-R and CD-RW devices. The API supports the Joliet and ISO 9660 format for Redbook audio and data discs. For information on version 1.0, see <a href="imapiv1">IMAPIv1 Support</a>.Included in Windows XP.<br/></td>
+<td>Initial release. Lets an application stage and burn a simple audio or data image to CD-R and CD-RW devices. The API supports the Joliet and ISO 9660 format for Redbook audio and data discs. For information on version 1.0, see <a href="imapiv1.md">IMAPIv1 Support</a>.Included in Windows XP.<br/></td>
 </tr>
 </tbody>
 </table>

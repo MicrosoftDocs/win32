@@ -39,19 +39,19 @@ A handle to window.
 The command. This parameter can have one of the following values.
 
 <dl>
-<dd><a href="imn-changecandidate">IMN_CHANGECANDIDATE</a></dd> 
-<dd><a href="imn-closecandidate">IMN_CLOSECANDIDATE</a></dd> 
-<dd><a href="imn-closestatuswindow">IMN_CLOSESTATUSWINDOW</a></dd> 
-<dd><a href="imn-guideline">IMN_GUIDELINE</a></dd> 
-<dd><a href="imn-opencandidate">IMN_OPENCANDIDATE</a></dd> 
-<dd><a href="imn-openstatuswindow">IMN_OPENSTATUSWINDOW</a></dd> 
-<dd><a href="imn-setcandidatepos">IMN_SETCANDIDATEPOS</a></dd> 
-<dd><a href="imn-setcompositionfont">IMN_SETCOMPOSITIONFONT</a></dd> 
-<dd><a href="imn-setcompositionwindow">IMN_SETCOMPOSITIONWINDOW</a></dd> 
-<dd><a href="imn-setconversionmode">IMN_SETCONVERSIONMODE</a></dd> 
-<dd><a href="imn-setopenstatus">IMN_SETOPENSTATUS</a></dd> 
-<dd><a href="imn-setsentencemode">IMN_SETSENTENCEMODE</a></dd> 
-<dd><a href="imn-setstatuswindowpos">IMN_SETSTATUSWINDOWPOS</a></dd> 
+<dd><a href="imn-changecandidate.md">IMN_CHANGECANDIDATE</a></dd> 
+<dd><a href="imn-closecandidate.md">IMN_CLOSECANDIDATE</a></dd> 
+<dd><a href="imn-closestatuswindow.md">IMN_CLOSESTATUSWINDOW</a></dd> 
+<dd><a href="imn-guideline.md">IMN_GUIDELINE</a></dd> 
+<dd><a href="imn-opencandidate.md">IMN_OPENCANDIDATE</a></dd> 
+<dd><a href="imn-openstatuswindow.md">IMN_OPENSTATUSWINDOW</a></dd> 
+<dd><a href="imn-setcandidatepos.md">IMN_SETCANDIDATEPOS</a></dd> 
+<dd><a href="imn-setcompositionfont.md">IMN_SETCOMPOSITIONFONT</a></dd> 
+<dd><a href="imn-setcompositionwindow.md">IMN_SETCOMPOSITIONWINDOW</a></dd> 
+<dd><a href="imn-setconversionmode.md">IMN_SETCONVERSIONMODE</a></dd> 
+<dd><a href="imn-setopenstatus.md">IMN_SETOPENSTATUS</a></dd> 
+<dd><a href="imn-setsentencemode.md">IMN_SETSENTENCEMODE</a></dd> 
+<dd><a href="imn-setstatuswindowpos.md">IMN_SETSTATUSWINDOWPOS</a></dd> 
 </dl> 
 </dd> 
 <dt>

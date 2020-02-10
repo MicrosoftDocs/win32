@@ -46,7 +46,7 @@ Push mode only:<br/>
 <li>MEDIASUBTYPE_MPEG2_TRANSPORT</li>
 <li>MEDIASUBTYPE_MPEG2_TRANSPORT_STRIDE</li>
 </ul>
-For more information, see <a href="mpeg-2-demultiplexer-media-types"><strong>MPEG-2 Demultiplexer Media Types</strong></a>.<br/></td>
+For more information, see <a href="mpeg-2-demultiplexer-media-types.md"><strong>MPEG-2 Demultiplexer Media Types</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
@@ -54,7 +54,7 @@ For more information, see <a href="mpeg-2-demultiplexer-media-types"><strong>MPE
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Audio and video elementary streams must have a major type of MEDIATYPE_Audio or MEDIATYPE_Video.<br/> For more information, see <a href="mpeg-2-demultiplexer-media-types"><strong>MPEG-2 Demultiplexer Media Types</strong></a>.<br/></td>
+<td>Audio and video elementary streams must have a major type of MEDIATYPE_Audio or MEDIATYPE_Video.<br/> For more information, see <a href="mpeg-2-demultiplexer-media-types.md"><strong>MPEG-2 Demultiplexer Media Types</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
@@ -73,11 +73,11 @@ For more information, see <a href="mpeg-2-demultiplexer-media-types"><strong>MPE
 <td>mpg2splt.ax</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_NORMAL</td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

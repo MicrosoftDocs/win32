@@ -51,12 +51,12 @@ The **IMsTscAdvancedSettings** interface has these properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-allowbackgroundinput"><strong>allowBackgroundInput</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-allowbackgroundinput.md"><strong>allowBackgroundInput</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether background input mode is enabled.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-bitmapperistence"><strong>BitmapPeristence</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-bitmapperistence.md"><strong>BitmapPeristence</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether bitmap caching is enabled.<br/>
 <blockquote>
@@ -66,37 +66,37 @@ The spelling error in the name of the property is in the released version of the
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-compress"><strong>Compress</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-compress.md"><strong>Compress</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether compression is enabled.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-containerhandledfullscreen"><strong>ContainerHandledFullScreen</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-containerhandledfullscreen.md"><strong>ContainerHandledFullScreen</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether the container-handled full-screen mode is enabled.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-disablerdpdr"><strong>DisableRdpdr</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-disablerdpdr.md"><strong>DisableRdpdr</strong></a><br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">Specifies whether printer and clipboard redirection is enabled.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-iconfile"><strong>IconFile</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-iconfile.md"><strong>IconFile</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">Specifies the name of the file containing icon data that will be accessed when displaying the client in full-screen mode.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-iconindex"><strong>IconIndex</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-iconindex.md"><strong>IconIndex</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">Specifies the index of the icon within the current icon file.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-keyboardlayoutstr"><strong>KeyBoardLayoutStr</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-keyboardlayoutstr.md"><strong>KeyBoardLayoutStr</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">Specifies the name of the active input locale identifier (formerly called the keyboard layout) to use for the connection.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-plugindlls"><strong>PluginDlls</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscadvancedsettings-plugindlls.md"><strong>PluginDlls</strong></a><br/></td>
 <td style="text-align: left;">Write-only<br/></td>
 <td style="text-align: left;">Specifies the names of virtual channel client DLLs to be loaded.<br/></td>
 </tr>

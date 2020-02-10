@@ -44,13 +44,13 @@ fwpsk.h<br />
 <tr class="odd">
 <td rowspan="2">IKE/AuthIP API (IKEEXT)${REMOVE}$<br />
 </td>
-<td><a href="fwp-enums">Enumerated types</a> and <a href="fwp-structs">structures</a> used for managing IKE and AuthIP main mode (MM) policy and security associations.</td>
+<td><a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing IKE and AuthIP main mode (MM) policy and security associations.</td>
 <td><dl> iketypes.h<br />
 iketypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="fwp-ike-functions">Functions</a> used for managing IKE and AuthIP MM policy and security associations.</td>
+<td><a href="fwp-ike-functions.md">Functions</a> used for managing IKE and AuthIP MM policy and security associations.</td>
 <td><dl> fwpmu.h<br />
 fwpmk.h<br />
 </dl></td>
@@ -59,13 +59,13 @@ fwpmk.h<br />
 <tr class="odd">
 <td rowspan="2">IPsec API (IPSEC)${REMOVE}$<br />
 </td>
-<td><a href="fwp-enums">Enumerated types</a> and <a href="fwp-structs">structures</a> used for managing IPsec policies and security associations.</td>
+<td><a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing IPsec policies and security associations.</td>
 <td><dl> ipsectypes.h<br />
 ipsectypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="fwp-ipsec-functions">Functions</a> used for managing IPsec policies and security associations.</td>
+<td><a href="fwp-ipsec-functions.md">Functions</a> used for managing IPsec policies and security associations.</td>
 <td><dl> fwpmu.h<br />
 fwpmk.h<br />
 </dl></td>
@@ -74,13 +74,13 @@ fwpmk.h<br />
 <tr class="odd">
 <td rowspan="2">Management API (FWPM)${REMOVE}$<br />
 </td>
-<td><a href="fwp-enums">Enumerated types</a> and <a href="fwp-structs">structures</a> used for managing the filter engine.</td>
+<td><a href="fwp-enums.md">Enumerated types</a> and <a href="fwp-structs.md">structures</a> used for managing the filter engine.</td>
 <td><dl> fwpmtypes.h<br />
 fwpmtypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="fwp-mgmt-functions">Functions</a> used for managing the filter engine. These functions are used to perform the following tasks:<br/>
+<td><a href="fwp-mgmt-functions.md">Functions</a> used for managing the filter engine. These functions are used to perform the following tasks:<br/>
 <ul>
 <li>Set and query filters, providers, and callouts.</li>
 <li>Retrieve IPsec statistics.</li>
@@ -93,7 +93,7 @@ fwpmk.h<br />
 </tr>
 <tr class="odd">
 <td>Shared API (FWP)</td>
-<td>Fundamental <a href="fwp-enums">enumerated types</a> and <a href="fwp-structs">structures</a> shared across the Windows Filtering Platform.</td>
+<td>Fundamental <a href="fwp-enums.md">enumerated types</a> and <a href="fwp-structs.md">structures</a> shared across the Windows Filtering Platform.</td>
 <td><dl> fwptypes.h<br />
 fwptypes.idl<br />
 </dl></td>

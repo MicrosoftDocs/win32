@@ -147,7 +147,7 @@ This system gesture isn't recognized if the user begins a <strong>Drag</strong> 
 <td>Several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of low average velocity.<br/></td>
 <td><blockquote>
 [!Note]<br />
-There may be noticeable delay before receiving the <strong>HoverEnter</strong> system gesture. The <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
+There may be noticeable delay before receiving the <strong>HoverEnter</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
 </blockquote>
 <br/></td>
 </tr>
@@ -156,7 +156,7 @@ There may be noticeable delay before receiving the <strong>HoverEnter</strong> s
 <td>The <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoverEnter</strong> system gesture and several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of sufficient average velocity.<br/></td>
 <td><blockquote>
 [!Note]<br />
-There may be noticeable delay before receiving the <strong>HoverLeave</strong> system gesture. The <a href="realtimestylus-class"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
+There may be noticeable delay before receiving the <strong>HoverLeave</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
 </blockquote>
 <br/></td>
 </tr>

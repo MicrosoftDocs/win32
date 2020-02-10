@@ -28,7 +28,7 @@ An application can use the indexer to perform seeking based on presentation time
 <tbody>
 <tr class="odd">
 <td>Presentation time-based Index</td>
-<td>Provides presentation time-based indexing for audio and video streams in index blocks to make indexing more space efficient. Each index block references index entries that contain a byte offset. <br/> The offset is the position of the data packet being seeked, relative to the start of the ASF Data Object.<br/> GUID_NULL must be used as the GUID type for the index identifier. For more information; see <a href="using-the-indexer-to-write-a-new-index">Using the Indexer to Write a New Index</a>.<br/></td>
+<td>Provides presentation time-based indexing for audio and video streams in index blocks to make indexing more space efficient. Each index block references index entries that contain a byte offset. <br/> The offset is the position of the data packet being seeked, relative to the start of the ASF Data Object.<br/> GUID_NULL must be used as the GUID type for the index identifier. For more information; see <a href="using-the-indexer-to-write-a-new-index.md">Using the Indexer to Write a New Index</a>.<br/></td>
 </tr>
 <tr class="even">
 <td>Timecode Index</td>

@@ -48,7 +48,7 @@ You can also set other attributes. The following user attributes are set with de
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
-<td>A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects">How Security Descriptors are Set on New Directory Objects</a>.<br/></td>
+<td>A security descriptor is created based on specific rules. For more information, see <a href="how-security-descriptors-are-set-on-new-directory-objects.md">How Security Descriptors are Set on New Directory Objects</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a></td>

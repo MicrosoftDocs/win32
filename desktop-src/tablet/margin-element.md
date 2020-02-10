@@ -53,7 +53,7 @@ None..
 <tbody>
 <tr class="odd">
 <td><strong>Style</strong></td>
-<td><a href="linelayoutstyletype-simple-type"><strong>LineLayoutStyleType</strong></a> simpleType</td>
+<td><a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a> simpleType</td>
 <td>Required</td>
 <td>Specifies the type of line to be drawn.</td>
 <td><ul>
@@ -68,14 +68,14 @@ None..
 </tr>
 <tr class="even">
 <td><strong>Color</strong></td>
-<td><a href="colortype-simple-type"><strong>ColorType</strong></a> simpleType</td>
+<td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType</td>
 <td>Optional</td>
 <td>Color of the element.</td>
 <td>A hexadecimal RGB value. Matches the following regular expression: #[0-9a-zA-Z]{6}. For example, #4a79B5.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Type</strong></td>
-<td><a href="margintypetype-simple-type"><strong>MarginTypeType</strong></a> simpleType</td>
+<td><a href="margintypetype-simple-type.md"><strong>MarginTypeType</strong></a> simpleType</td>
 <td>Optional</td>
 <td>Indicates Left or Right margin.</td>
 <td><ul>

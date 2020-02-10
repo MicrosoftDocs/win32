@@ -318,7 +318,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>audio</td>
-<td>Returns &quot;on&quot; or &quot;off&quot; depending on the most recent <a href="setaudio">setaudio</a> &quot;on&quot; or &quot;off&quot; command. It returns &quot;on&quot; if either or both speakers are enabled, and &quot;off&quot; otherwise.</td>
+<td>Returns &quot;on&quot; or &quot;off&quot; depending on the most recent <a href="setaudio.md">setaudio</a> &quot;on&quot; or &quot;off&quot; command. It returns &quot;on&quot; if either or both speakers are enabled, and &quot;off&quot; otherwise.</td>
 </tr>
 <tr class="even">
 <td>audio alignment</td>
@@ -338,7 +338,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>audio input</td>
-<td>Returns the approximate instantaneous audio level of the analog input audio signal. A value greater than 1000 implies clipping distortion. Some devices can return this value only while recording audio. The value has no associated <a href="set">set</a> or <a href="setaudio">setaudio</a> command.</td>
+<td>Returns the approximate instantaneous audio level of the analog input audio signal. A value greater than 1000 implies clipping distortion. Some devices can return this value only while recording audio. The value has no associated <a href="set.md">set</a> or <a href="setaudio.md">setaudio</a> command.</td>
 </tr>
 <tr class="odd">
 <td>audio monitor</td>
@@ -346,7 +346,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>audio monitor number</td>
-<td>Returns the monitored-video number of the type specified by <strong>status</strong> &quot;audio monitor&quot;. For more information, see the <a href="setaudio">setaudio</a> command.</td>
+<td>Returns the monitored-video number of the type specified by <strong>status</strong> &quot;audio monitor&quot;. For more information, see the <a href="setaudio.md">setaudio</a> command.</td>
 </tr>
 <tr class="odd">
 <td>audio record</td>
@@ -366,7 +366,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>audio source number</td>
-<td>Returns the audio-source number of the type returned by <strong>status</strong> &quot;audio source&quot;. For more information, see the <a href="setaudio">setaudio</a> command.</td>
+<td>Returns the audio-source number of the type returned by <strong>status</strong> &quot;audio source&quot;. For more information, see the <a href="setaudio.md">setaudio</a> command.</td>
 </tr>
 <tr class="even">
 <td>audio stream</td>
@@ -410,7 +410,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>clock</td>
-<td>Returns the external time. The time must be an unsigned long integer expressing total increments. For more information, see the <a href="capability">capability</a> &quot;clock increment rate&quot; command.</td>
+<td>Returns the external time. The time must be an unsigned long integer expressing total increments. For more information, see the <a href="capability.md">capability</a> &quot;clock increment rate&quot; command.</td>
 </tr>
 <tr class="odd">
 <td>clock id</td>
@@ -430,7 +430,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>counter format</td>
-<td>Returns the current counter format. For more information, see the <a href="set">set</a> &quot;counter format&quot; command.</td>
+<td>Returns the current counter format. For more information, see the <a href="set.md">set</a> &quot;counter format&quot; command.</td>
 </tr>
 <tr class="even">
 <td>counter resolution</td>
@@ -446,7 +446,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>disk space <em>drive</em></td>
-<td>Returns the approximate disk space, in the current time format, that can be obtained by a <a href="reserve">reserve</a> command for the specified disk <em>drive.</em> The <em>drive</em> is usually specified as a single letter or a single letter followed by a colon (:). Some devices, however, might use a path.</td>
+<td>Returns the approximate disk space, in the current time format, that can be obtained by a <a href="reserve.md">reserve</a> command for the specified disk <em>drive.</em> The <em>drive</em> is usually specified as a single letter or a single letter followed by a colon (:). Some devices, however, might use a path.</td>
 </tr>
 <tr class="even">
 <td>division type</td>
@@ -462,15 +462,15 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>file completion</td>
-<td>Returns the estimated percentage a <a href="load">load</a>, <a href="save">save</a>, <a href="capture">capture</a>, <a href="cut">cut</a>, <a href="copy">copy</a>, <a href="delete">delete</a>, <a href="paste">paste</a>, or <a href="undo">undo</a> operation has progressed. (Applications can use this to provide a visual indicator of progress.)</td>
+<td>Returns the estimated percentage a <a href="load.md">load</a>, <a href="save.md">save</a>, <a href="capture.md">capture</a>, <a href="cut.md">cut</a>, <a href="copy.md">copy</a>, <a href="delete.md">delete</a>, <a href="paste.md">paste</a>, or <a href="undo.md">undo</a> operation has progressed. (Applications can use this to provide a visual indicator of progress.)</td>
 </tr>
 <tr class="even">
 <td>file format</td>
-<td>Returns the current file format for <a href="record">record</a> or <strong>save</strong> commands.</td>
+<td>Returns the current file format for <a href="record.md">record</a> or <strong>save</strong> commands.</td>
 </tr>
 <tr class="odd">
 <td>file mode</td>
-<td>Returns &quot;loading&quot;, &quot;saving&quot;, &quot;editing&quot;, or &quot;idle&quot;. During a <a href="load"><strong>load</strong></a> operation, it returns &quot;loading&quot;. During <a href="https://www.bing.com/search?q=<strong>save</strong>"><strong>save</strong></a> and <a href="capture"><strong>capture</strong></a> operations, it returns &quot;saving&quot;. During <a href="cut"><strong>cut</strong></a>, <a href="copy"><strong>copy</strong></a>, <a href="delete"><strong>delete</strong></a>, <a href="paste"><strong>paste</strong></a>, or <a href="undo"><strong>undo</strong></a> operations, it returns &quot;editing&quot;.</td>
+<td>Returns &quot;loading&quot;, &quot;saving&quot;, &quot;editing&quot;, or &quot;idle&quot;. During a <a href="load.md"><strong>load</strong></a> operation, it returns &quot;loading&quot;. During <a href="https://www.bing.com/search?q=<strong>save</strong>"><strong>save</strong></a> and <a href="capture.md"><strong>capture</strong></a> operations, it returns &quot;saving&quot;. During <a href="cut.md"><strong>cut</strong></a>, <a href="copy.md"><strong>copy</strong></a>, <a href="delete.md"><strong>delete</strong></a>, <a href="paste.md"><strong>paste</strong></a>, or <a href="undo.md"><strong>undo</strong></a> operations, it returns &quot;editing&quot;.</td>
 </tr>
 <tr class="even">
 <td>format tag</td>
@@ -490,11 +490,11 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>gamma</td>
-<td>Returns the value set with <a href="setvideo"><strong>setvideo</strong></a> &quot;gamma to&quot; <em>value</em>.</td>
+<td>Returns the value set with <a href="setvideo.md"><strong>setvideo</strong></a> &quot;gamma to&quot; <em>value</em>.</td>
 </tr>
 <tr class="odd">
 <td>index</td>
-<td>Returns the current index display. For more information, see the <a href="set"><strong>set</strong></a> &quot;index&quot; command.</td>
+<td>Returns the current index display. For more information, see the <a href="set.md"><strong>set</strong></a> &quot;index&quot; command.</td>
 </tr>
 <tr class="even">
 <td>index on</td>
@@ -582,7 +582,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>pause timeout</td>
-<td>Returns the maximum duration, in milliseconds, of a <a href="pause"><strong>pause</strong></a> command.</td>
+<td>Returns the maximum duration, in milliseconds, of a <a href="pause.md"><strong>pause</strong></a> command.</td>
 </tr>
 <tr class="even">
 <td>play format</td>
@@ -610,7 +610,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>postroll duration</td>
-<td>Returns the length of videotape, in the current time format, needed to brake the VCR transport when a <a href="stop"><strong>stop</strong></a> or <a href="pause"><strong>pause</strong></a> command is issued.</td>
+<td>Returns the length of videotape, in the current time format, needed to brake the VCR transport when a <a href="stop.md"><strong>stop</strong></a> or <a href="pause.md"><strong>pause</strong></a> command is issued.</td>
 </tr>
 <tr class="odd">
 <td>power on</td>
@@ -678,7 +678,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>still file format</td>
-<td>Returns the current file format for the <a href="capture"><strong>capture</strong></a> command.</td>
+<td>Returns the current file format for the <a href="capture.md"><strong>capture</strong></a> command.</td>
 </tr>
 <tr class="even">
 <td>stretch</td>
@@ -690,7 +690,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="even">
 <td>time format</td>
-<td>Returns the current time format. For more information, see the time formats in the <a href="set"><strong>set</strong></a> command.</td>
+<td>Returns the current time format. For more information, see the time formats in the <a href="set.md"><strong>set</strong></a> command.</td>
 </tr>
 <tr class="odd">
 <td>time mode</td>
@@ -710,7 +710,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>timecode type</td>
-<td>Returns &quot;smpte&quot;, &quot;smpte drop&quot;, &quot;other&quot;, or &quot;none&quot;. Note the frames per second can be obtained from the status &quot;frame rate&quot; command, and the accuracy of the device can be returned by the <a href="capability"><strong>capability</strong></a> &quot;seek accuracy&quot; command.</td>
+<td>Returns &quot;smpte&quot;, &quot;smpte drop&quot;, &quot;other&quot;, or &quot;none&quot;. Note the frames per second can be obtained from the status &quot;frame rate&quot; command, and the accuracy of the device can be returned by the <a href="capability.md"><strong>capability</strong></a> &quot;seek accuracy&quot; command.</td>
 </tr>
 <tr class="even">
 <td>tint</td>
@@ -726,11 +726,11 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>unsaved</td>
-<td>Returns <strong>TRUE</strong> if there is recorded data in the workspace that might be lost as a result of a <a href="close"><strong>close</strong></a>, <a href="load"><strong>load</strong></a>, <a href="record"><strong>record</strong></a>, <a href="reserve"><strong>reserve</strong></a>, <a href="cut"><strong>cut</strong></a>, <a href="delete"><strong>delete</strong></a>, or <a href="paste"><strong>paste</strong></a> command. Returns <strong>FALSE</strong> otherwise.</td>
+<td>Returns <strong>TRUE</strong> if there is recorded data in the workspace that might be lost as a result of a <a href="close.md"><strong>close</strong></a>, <a href="load.md"><strong>load</strong></a>, <a href="record.md"><strong>record</strong></a>, <a href="reserve.md"><strong>reserve</strong></a>, <a href="cut.md"><strong>cut</strong></a>, <a href="delete.md"><strong>delete</strong></a>, or <a href="paste.md"><strong>paste</strong></a> command. Returns <strong>FALSE</strong> otherwise.</td>
 </tr>
 <tr class="even">
 <td>video</td>
-<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the state set by the <a href="setvideo"><strong>setvideo</strong></a> command.</td>
+<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the state set by the <a href="setvideo.md"><strong>setvideo</strong></a> command.</td>
 </tr>
 <tr class="odd">
 <td>video key color</td>
@@ -742,15 +742,15 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>video monitor</td>
-<td>Returns &quot;output&quot; or one of the valid source-input types. For more information, see the <a href="setvideo"><strong>setvideo</strong></a> &quot;monitor&quot; command.</td>
+<td>Returns &quot;output&quot; or one of the valid source-input types. For more information, see the <a href="setvideo.md"><strong>setvideo</strong></a> &quot;monitor&quot; command.</td>
 </tr>
 <tr class="even">
 <td>video monitor number</td>
-<td>Returns the monitored-video number of the type returned by status &quot;video monitor&quot;. For more information, see the <a href="setvideo">setvideo</a> command.</td>
+<td>Returns the monitored-video number of the type returned by status &quot;video monitor&quot;. For more information, see the <a href="setvideo.md">setvideo</a> command.</td>
 </tr>
 <tr class="odd">
 <td>video record</td>
-<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the current state set by <a href="setvideo"><strong>setvideo</strong></a> &quot;record&quot;.</td>
+<td>Returns &quot;on&quot; or &quot;off&quot;, reflecting the current state set by <a href="setvideo.md"><strong>setvideo</strong></a> &quot;record&quot;.</td>
 </tr>
 <tr class="even">
 <td>video record track <em>number</em></td>
@@ -758,7 +758,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 </tr>
 <tr class="odd">
 <td>video source</td>
-<td>Returns the video-source type. For more information, see the <a href="setvideo"><strong>setvideo</strong></a> command.</td>
+<td>Returns the video-source type. For more information, see the <a href="setvideo.md"><strong>setvideo</strong></a> command.</td>
 </tr>
 <tr class="even">
 <td>video source number</td>

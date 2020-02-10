@@ -37,17 +37,17 @@ The output type must be set first, before the input type. The following table li
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a></td>
+<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
 <td>Major type.</td>
 <td>Required. Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-subtype-attribute">MF_MT_SUBTYPE</a></td>
+<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
 <td>Audio subtype.</td>
 <td>Required. Must be <strong>MFAudioFormat_MPEG</strong>. This subtype is used for both MPEG-1 and MPEG-2 audio.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
+<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Samples per second.</td>
 <td>Required. The following values are supported for both MPEG-1 and MPEG-2:
 <ul>
@@ -63,19 +63,19 @@ In addition, the following values are supported for MPEG-2 LSF: <br/>
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute">MF_MT_AUDIO_NUM_CHANNELS</a></td>
+<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Number of channels.</td>
 <td>Required. Must be either 1 (mono) or 2 (stereo).</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute">MF_MT_AUDIO_CHANNEL_MASK</a></td>
+<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Specifies the assignment of audio channels to speaker positions.</td>
 <td>Optional. If set, the value must be 0x3 for stereo (front left and right channels) or 0x4 for mono (front center channel).</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
+<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Bit rate of the encoded MPEG stream, in bytes per second.</td>
-<td>Optional.<br/> The ISO/IEC 11172-3 and ISO/IEC 13818-3 (LSF) specifications define several bit rates, depending on the sampling rate, the number of channels, and the audio layer (1 or 2). <br/> The encoder defaults to Layer 2 audio. If the <a href="mf-mt-audio-avg-bytes-per-second-attribute">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> attribute is not set, the encoder uses the following default bit rates:<br/>
+<td>Optional.<br/> The ISO/IEC 11172-3 and ISO/IEC 13818-3 (LSF) specifications define several bit rates, depending on the sampling rate, the number of channels, and the audio layer (1 or 2). <br/> The encoder defaults to Layer 2 audio. If the <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> attribute is not set, the encoder uses the following default bit rates:<br/>
 <ul>
 <li>MPEG-1 stereo: 224,000 bits per second (bps) = 28,000 bytes per second.</li>
 <li>MPEG-1 mono: 192,000 bps = 24,000 bytes per second.</li>
@@ -113,32 +113,32 @@ The following table lists the required and optional attributes for the input med
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a></td>
+<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
 <td>Major type.</td>
 <td>Required. Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-subtype-attribute">MF_MT_SUBTYPE</a></td>
+<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
 <td>Audio subtype.</td>
 <td>Required. Must be <strong>MFAudioFormat_PCM</strong> or <strong>MFAudioFormat_Float</strong>.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
+<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
 <td>Number of bits per audio sample.</td>
 <td>Required. The value must be 16 if the subtype is <strong>MFAudioFormat_PCM</strong>, or 32 if the subtype is <strong>MFAudioFormat_Float</strong>.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
+<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
 <td>Samples per second.</td>
 <td>Required. Must match the output type.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute">MF_MT_AUDIO_NUM_CHANNELS</a></td>
+<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
 <td>Number of channels.</td>
 <td>Required. Must match the output type.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
+<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
 <td>Block alignment, in bytes.</td>
 <td>Required. Calculate the value as follows:
 <ul>
@@ -147,19 +147,19 @@ The following table lists the required and optional attributes for the input med
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
+<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Bit rate of the encoded AC3 stream, in bytes per second.</td>
 <td>Required. Must equal block alignment × samples per second.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute">MF_MT_AUDIO_CHANNEL_MASK</a></td>
+<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Specifies the assignment of audio channels to speaker positions.</td>
 <td>Optional. If set, the value must match the output type.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
+<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
 <td>Number of valid bits of audio data in each audio sample.</td>
-<td>Optional. If set, the value must be identical to <a href="mf-mt-audio-bits-per-sample-attribute">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
+<td>Optional. If set, the value must be identical to <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
 </tr>
 </tbody>
 </table>

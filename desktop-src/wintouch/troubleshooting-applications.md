@@ -157,7 +157,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <tbody>
 <tr class="odd">
 <td>Issue</td>
-<td>I am including windows.h, but it still says that <a href="wm-touchdown"><strong>WM_TOUCH</strong></a> is not defined.</td>
+<td>I am including windows.h, but it still says that <a href="wm-touchdown.md"><strong>WM_TOUCH</strong></a> is not defined.</td>
 </tr>
 <tr class="even">
 <td>Cause</td>
@@ -325,7 +325,7 @@ In order to use the <a href="https://docs.microsoft.com/windows/desktop/api/winu
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>You need to call <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig"><strong>SetGestureConfig</strong></a> when you receive a <a href="wm-gesturenotify"><strong>WM_GESTURENOTIFY</strong></a> message as described in the <strong>WM_GESTURENOTIFY</strong> reference, or you need to add a handler for the <strong>WM_GESTURENOTIFY</strong> message. The following code shows how a handler could be implemented to enable support for rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>You need to call <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig"><strong>SetGestureConfig</strong></a> when you receive a <a href="wm-gesturenotify.md"><strong>WM_GESTURENOTIFY</strong></a> message as described in the <strong>WM_GESTURENOTIFY</strong> reference, or you need to add a handler for the <strong>WM_GESTURENOTIFY</strong> message. The following code shows how a handler could be implemented to enable support for rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />

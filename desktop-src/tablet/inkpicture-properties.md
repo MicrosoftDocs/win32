@@ -26,15 +26,15 @@ This section contains Properties for the InkPicture Control.
 <tbody>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw"><strong>AutoRedraw Property</strong></a></td>
-<td>Gets or sets a value that specifies whether the <a href="inkpicture-control-reference">InkPicture</a> control repaints when the window is invalidated (whether the <a href="inkdisp-class"><strong>InkDisp</strong></a> object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
+<td>Gets or sets a value that specifies whether the <a href="inkpicture-control-reference.md">InkPicture</a> control repaints when the window is invalidated (whether the <a href="inkdisp-class.md"><strong>InkDisp</strong></a> object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor"><strong>BackColor</strong></a></td>
-<td>Gets or sets the background color for the <a href="inkpicture-control-reference">InkPicture</a> control. The default background color is the system window background color, which is typically white.<br/></td>
+<td>Gets or sets the background color for the <a href="inkpicture-control-reference.md">InkPicture</a> control. The default background color is the system window background color, which is typically white.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink"><strong>CollectingInk Property</strong></a></td>
-<td>Gets the value that specifies whether the <a href="inkpicture-control-reference">InkPicture</a> control is collecting ink (run time only).<br/></td>
+<td>Gets the value that specifies whether the <a href="inkpicture-control-reference.md">InkPicture</a> control is collecting ink (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode"><strong>CollectionMode</strong></a></td>
@@ -42,7 +42,7 @@ This section contains Properties for the InkPicture Control.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors"><strong>Cursors Property</strong></a></td>
-<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>IInkCursors</strong></a> collection available for use in the <a href="inkpicture-control-reference">InkPicture</a> control's inking region.<br/></td>
+<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>IInkCursors</strong></a> collection available for use in the <a href="inkpicture-control-reference.md">InkPicture</a> control's inking region.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)"><strong>CustomStrokes</strong></a></td>
@@ -50,23 +50,23 @@ This section contains Properties for the InkPicture Control.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes"><strong>DefaultDrawingAttributes Property</strong></a></td>
-<td>Gets or sets the default <a href="inkdrawingattributes-class"><strong>InkDrawingAttributes</strong></a> collection to use when drawing and displaying ink (run time only).<br/></td>
+<td>Gets or sets the default <a href="inkdrawingattributes-class.md"><strong>InkDrawingAttributes</strong></a> collection to use when drawing and displaying ink (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription"><strong>DesiredPacketDescription Property</strong></a></td>
-<td>Gets or sets the packet description of the <a href="inkpicture-control-reference">InkPicture</a> control (run time only).<br/></td>
+<td>Gets or sets the packet description of the <a href="inkpicture-control-reference.md">InkPicture</a> control (run time only).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering"><strong>DynamicRendering Property</strong></a></td>
-<td>Gets or sets the value that specifies whether the <a href="inkpicture-control-reference">InkPicture</a> control dynamically renders the ink as it is collected.<br/></td>
+<td>Gets or sets the value that specifies whether the <a href="inkpicture-control-reference.md">InkPicture</a> control dynamically renders the ink as it is collected.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode"><strong>EditingMode</strong></a></td>
-<td>Gets or sets a value that specifies whether the <a href="inkpicture-control-reference">InkPicture</a> control is in ink mode, deletion mode, or selecting/editing mode.<br/></td>
+<td>Gets or sets a value that specifies whether the <a href="inkpicture-control-reference.md">InkPicture</a> control is in ink mode, deletion mode, or selecting/editing mode.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Enabled</strong></a></td>
-<td>Gets or sets a value that determines whether the <a href="inkpicture-control-reference">InkPicture</a> control can respond to user-generated events.<br/>
+<td>Gets or sets a value that determines whether the <a href="inkpicture-control-reference.md">InkPicture</a> control can respond to user-generated events.<br/>
 <blockquote>
 [!Note]<br />
 This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>InkEnabled</strong></a> property.
@@ -83,15 +83,15 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd"><strong>hWnd</strong></a></td>
-<td>Gets the window handle to which the <a href="inkpicture-control-reference">InkPicture</a> control is bound. (run time only)<br/></td>
+<td>Gets the window handle to which the <a href="inkpicture-control-reference.md">InkPicture</a> control is bound. (run time only)<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink"><strong>Ink</strong></a></td>
-<td>Gets or sets the <a href="inkdisp-class"><strong>InkDisp</strong></a> object that is associated with the <a href="inkpicture-control-reference">InkPicture</a> control (run time only).<br/></td>
+<td>Gets or sets the <a href="inkdisp-class.md"><strong>InkDisp</strong></a> object that is associated with the <a href="inkpicture-control-reference.md">InkPicture</a> control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>InkEnabled</strong></a></td>
-<td>Gets or sets a value that specifies whether the <a href="inkpicture-control-reference">InkPicture</a> control collects pen input (in-air packets, cursor in range events, and so on).<br/></td>
+<td>Gets or sets a value that specifies whether the <a href="inkpicture-control-reference.md">InkPicture</a> control collects pen input (in-air packets, cursor in range events, and so on).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx"><strong>MarginX Property</strong></a></td>
@@ -107,19 +107,19 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer"><strong>MousePointer Property</strong></a></td>
-<td>Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the <a href="inkpicture-control-reference">InkPicture</a> control.<br/></td>
+<td>Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the <a href="inkpicture-control-reference.md">InkPicture</a> control.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture"><strong>Picture</strong></a></td>
-<td>Gets the graphics file to appear on the <a href="inkpicture-control-reference">InkPicture</a> control.<br/></td>
+<td>Gets the graphics file to appear on the <a href="inkpicture-control-reference.md">InkPicture</a> control.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer"><strong>Renderer Property</strong></a></td>
-<td>Gets or sets the <a href="inkrenderer-class"><strong>InkRenderer</strong></a> object that is used to draw ink on the <a href="inkpicture-control-reference">InkPicture</a> control (run time only).<br/></td>
+<td>Gets or sets the <a href="inkrenderer-class.md"><strong>InkRenderer</strong></a> object that is used to draw ink on the <a href="inkpicture-control-reference.md">InkPicture</a> control (run time only).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Selection</strong></a></td>
-<td>Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection currently selected inside the <a href="inkpicture-control-reference">InkPicture</a> control (run time only).<br/></td>
+<td>Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection currently selected inside the <a href="inkpicture-control-reference.md">InkPicture</a> control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode"><strong>SizeMode</strong></a></td>
@@ -135,7 +135,7 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet"><strong>Tablet Property</strong></a></td>
-<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet"><strong>IInkTablet</strong></a> object that the <a href="inkpicture-control-reference">InkPicture</a> control is currently using to collect input.<br/></td>
+<td>Gets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet"><strong>IInkTablet</strong></a> object that the <a href="inkpicture-control-reference.md">InkPicture</a> control is currently using to collect input.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -66,11 +66,11 @@ The use of this filter is deprecated. To render multiple files within the same f
 <td>Quartz.dll</td>
 </tr>
 <tr class="even">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_UNLIKELY</td>
 </tr>
 <tr class="odd">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

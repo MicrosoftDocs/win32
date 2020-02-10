@@ -52,15 +52,15 @@ Represents the size and layout preference of a [**Group**](windowsribbon-element
 <td><strong>Group</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>Yes<br/></td>
-<td>Must correspond to an existing <a href="windowsribbon-element-group"><strong>Group</strong></a> <em>CommandName</em>.<br/> <br/>
+<td>Must correspond to an existing <a href="windowsribbon-element-group.md"><strong>Group</strong></a> <em>CommandName</em>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string or an integer value between 2 and 59999, inclusive, or 0x2 and 0xea5f in hexadecimal, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Size</strong><br/></td>
 <td>xs:string<br/></td>
 <td>Yes<br/></td>
-<td>This value should correspond to one of the valid sizes for the <em>SizeDefinition</em> attribute of the associated <a href="windowsribbon-element-group"><strong>Group</strong></a> of controls specified in <em>Group</em>. <br/> Restricted to one of the following values: <br/> <br/>
-<dt><span></span><span></span><strong></strong> (Popup)<br/> </dt> <dd> Identical control layout to <code>Large</code> but hosted in a pop-up or a drop-down pane.<br/> </dd> <dt><span></span><span></span><strong></strong> (Small)<br/> </dt> <dd> Small <a href="windowsribbon-element-sizedefinition"><strong>SizeDefinition</strong></a> template.<br/> </dd> <dt><span></span><span></span><strong></strong> (Medium)<br/> </dt> <dd> Medium <a href="windowsribbon-element-sizedefinition"><strong>SizeDefinition</strong></a> template.<br/> </dd> <dt><span></span><span></span><strong></strong> (Large)<br/> </dt> <dd> Large <a href="windowsribbon-element-sizedefinition"><strong>SizeDefinition</strong></a> template.<br/> </dd> </dl></td>
+<td>This value should correspond to one of the valid sizes for the <em>SizeDefinition</em> attribute of the associated <a href="windowsribbon-element-group.md"><strong>Group</strong></a> of controls specified in <em>Group</em>. <br/> Restricted to one of the following values: <br/> <br/>
+<dt><span></span><span></span><strong></strong> (Popup)<br/> </dt> <dd> Identical control layout to <code>Large</code> but hosted in a pop-up or a drop-down pane.<br/> </dd> <dt><span></span><span></span><strong></strong> (Small)<br/> </dt> <dd> Small <a href="windowsribbon-element-sizedefinition.md"><strong>SizeDefinition</strong></a> template.<br/> </dd> <dt><span></span><span></span><strong></strong> (Medium)<br/> </dt> <dd> Medium <a href="windowsribbon-element-sizedefinition.md"><strong>SizeDefinition</strong></a> template.<br/> </dd> <dt><span></span><span></span><strong></strong> (Large)<br/> </dt> <dd> Large <a href="windowsribbon-element-sizedefinition.md"><strong>SizeDefinition</strong></a> template.<br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>

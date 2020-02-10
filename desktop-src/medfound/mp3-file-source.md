@@ -77,7 +77,7 @@ In addition, it exposes the following interfaces through [**IMFGetService**](/wi
 <td><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a>
 <blockquote>
 [!Note]<br />
-See <a href="shell-metadata-providers">Shell Metadata Providers</a>.
+See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>

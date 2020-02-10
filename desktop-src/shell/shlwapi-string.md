@@ -230,7 +230,7 @@ Do not use this function or the <strong>StrCatN</strong> macro. See Remarks for 
 <td>Takes an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> and returns a pointer to an allocated string containing the display name.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="strrettostrn"><strong>StrRetToStrN</strong></a><br/></td>
+<td><a href="strrettostrn.md"><strong>StrRetToStrN</strong></a><br/></td>
 <td>Takes an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_strret"><strong>STRRET</strong></a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a>, converts it to a string, and places the result in a buffer.<br/></td>
 </tr>
 <tr class="odd">

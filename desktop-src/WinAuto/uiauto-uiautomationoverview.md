@@ -75,7 +75,7 @@ UI Automation has four main components, as shown in the following table.
 <td>A set of COM interfaces that enable client applications to obtain information about the UI and to send input to controls.
 <blockquote>
 [!Note]<br />
-The functions described in <a href="uiauto-entry-cpfunctions">Deprecated Control Pattern Functions</a> and <a href="uiauto-entry-uianodefunctions">Deprecated Node Functions</a> are deprecated. Instead, client applications should use the UI Automation COM interfaces described in <a href="uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>.
+The functions described in <a href="uiauto-entry-cpfunctions.md">Deprecated Control Pattern Functions</a> and <a href="uiauto-entry-uianodefunctions.md">Deprecated Node Functions</a> are deprecated. Instead, client applications should use the UI Automation COM interfaces described in <a href="uiauto-entry-uiautoclientinterfaces.md">UI Automation Element Interfaces for Clients</a>.
 </blockquote>
 <br/></td>
 </tr>

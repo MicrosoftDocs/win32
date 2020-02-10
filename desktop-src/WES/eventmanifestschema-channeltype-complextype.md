@@ -186,7 +186,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 <tr class="odd">
 <td>message</td>
 <td>string</td>
-<td><p>The localized display name for the channel. The message string references a localized string in the <a href="eventmanifestschema-stringtable-resources-element"><strong>stringTable</strong></a> section of the manifest.</p></td>
+<td><p>The localized display name for the channel. The message string references a localized string in the <a href="eventmanifestschema-stringtable-resources-element.md"><strong>stringTable</strong></a> section of the manifest.</p></td>
 </tr>
 <tr class="even">
 <td>name</td>
@@ -196,8 +196,8 @@ The default isolation is <strong>Application</strong>. The default permissions f
 </tr>
 <tr class="odd">
 <td>symbol</td>
-<td><a href="eventmanifestschema-csymboltype-simpletype"><strong>CSymbolType</strong></a></td>
-<td><p>The symbol to use to reference the channel in your application. The <a href="message-compiler--mc-exe-"><strong>Message Compiler (MC.exe)</strong></a> uses the symbol to create a constant for the channel in the header file that the compiler generates. If you do not specify a symbol, the compiler generates the name for you.</p></td>
+<td><a href="eventmanifestschema-csymboltype-simpletype.md"><strong>CSymbolType</strong></a></td>
+<td><p>The symbol to use to reference the channel in your application. The <a href="message-compiler--mc-exe-.md"><strong>Message Compiler (MC.exe)</strong></a> uses the symbol to create a constant for the channel in the header file that the compiler generates. If you do not specify a symbol, the compiler generates the name for you.</p></td>
 </tr>
 <tr class="even">
 <td>type</td>
@@ -218,7 +218,7 @@ The default isolation is <strong>Application</strong>. The default permissions f
 </tr>
 <tr class="odd">
 <td>value</td>
-<td><a href="eventmanifestschema-hexint8type-simpletype"><strong>UInt8Type</strong></a></td>
+<td><a href="eventmanifestschema-hexint8type-simpletype.md"><strong>UInt8Type</strong></a></td>
 <td><p>A numeric identifier that uniquely identifies the channel within the list of channels that the provider defines. The message compiler assigns the value if not specified.</p></td>
 </tr>
 </tbody>

@@ -196,7 +196,7 @@ Warnings have several usage patterns:
 <li><strong>Supplemental instruction:</strong> Explain any non-obvious reasons why the user might not want to proceed.</li>
 <li><strong>Commit buttons:</strong> Yes, No.</li>
 </ul>
-For guidelines on this pattern, see <a href="mess-confirm">Confirmations</a>. <br/></td>
+For guidelines on this pattern, see <a href="mess-confirm.md">Confirmations</a>. <br/></td>
 </tr>
 </tbody>
 </table>

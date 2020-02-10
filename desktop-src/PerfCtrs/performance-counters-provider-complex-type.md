@@ -184,11 +184,11 @@ Defines a provider and the counters that it provides.
 <tr class="even">
 <td>callback</td>
 
-<td>This attribute indicates that you want to receive notification when a consumer performs certain actions. <br/> If you include this attribute, the CTRPP tool uses the alternate <a href="counterinitialize"><strong>CounterInitialize</strong></a> function signature, which you use to pass in the name of your function that implements the <a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a> callback function.<br/> As an alternative to specifying this attribute, you can use the <strong>-NotificationCallback</strong><a href="ctrpp">CTRPP</a> argument.<br/> <strong>Windows Vista:</strong> The only valid value for this attribute is &quot;custom&quot;. The <a href="ctrpp">CTRPP</a> utility generates the template for a <a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a> callback function. The template is included in the .c file that CTRPP generated. <br/> <br/></td>
+<td>This attribute indicates that you want to receive notification when a consumer performs certain actions. <br/> If you include this attribute, the CTRPP tool uses the alternate <a href="counterinitialize.md"><strong>CounterInitialize</strong></a> function signature, which you use to pass in the name of your function that implements the <a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a> callback function.<br/> As an alternative to specifying this attribute, you can use the <strong>-NotificationCallback</strong><a href="ctrpp.md">CTRPP</a> argument.<br/> <strong>Windows Vista:</strong> The only valid value for this attribute is &quot;custom&quot;. The <a href="ctrpp.md">CTRPP</a> utility generates the template for a <a href="/windows/desktop/api/Perflib/nc-perflib-perflibrequest"><strong>ControlCallback</strong></a> callback function. The template is included in the .c file that CTRPP generated. <br/> <br/></td>
 </tr>
 <tr class="odd">
 <td>providerGuid</td>
-<td><a href="performance-counters-guidtype-simple-type"><strong>man:GUIDType</strong></a></td>
+<td><a href="performance-counters-guidtype-simple-type.md"><strong>man:GUIDType</strong></a></td>
 <td>String GUID that uniquely identifies the provider in the manifest. The GUID must be unique within the manifest.<br/> You need to provide a new GUID only when the version of the application changes (if you support side-by-side installations).<br/></td>
 </tr>
 <tr class="even">
@@ -223,14 +223,14 @@ Defines a provider and the counters that it provides.
 </tr>
 <tr class="even">
 <td>resourceBase</td>
-<td><a href="performance-counters-uint32type-simple-type"><strong>man:UInt32Type</strong></a></td>
-<td><p>Defines the starting resource index value that <a href="ctrpp">CTRPP</a> uses to generate the resource identifiers.</p></td>
+<td><a href="performance-counters-uint32type-simple-type.md"><strong>man:UInt32Type</strong></a></td>
+<td><p>Defines the starting resource index value that <a href="ctrpp.md">CTRPP</a> uses to generate the resource identifiers.</p></td>
 </tr>
 <tr class="odd">
 <td>symbol</td>
-<td><a href="performance-counters-csymboltype-simple-type"><strong>man:CSymbolType</strong></a></td>
-<td><p>A symbolic name that identifies the provider. The <a href="ctrpp">CTRPP</a> tool creates a HANDLE variable that you can use when calling functions that require a handle to the provider (for example, <a href="/windows/desktop/api/Perflib/nf-perflib-perfsetulongcountervalue"><strong>PerfSetULongCounterValue</strong></a>). The symbolic name is the name of the variable.</p>
-<p>If you include the <strong>-prefix</strong> argument when calling <a href="ctrpp">CTRPP</a>, the prefix string is added to the beginning of the symbolic name.</p></td>
+<td><a href="performance-counters-csymboltype-simple-type.md"><strong>man:CSymbolType</strong></a></td>
+<td><p>A symbolic name that identifies the provider. The <a href="ctrpp.md">CTRPP</a> tool creates a HANDLE variable that you can use when calling functions that require a handle to the provider (for example, <a href="/windows/desktop/api/Perflib/nf-perflib-perfsetulongcountervalue"><strong>PerfSetULongCounterValue</strong></a>). The symbolic name is the name of the variable.</p>
+<p>If you include the <strong>-prefix</strong> argument when calling <a href="ctrpp.md">CTRPP</a>, the prefix string is added to the beginning of the symbolic name.</p></td>
 </tr>
 </tbody>
 </table>

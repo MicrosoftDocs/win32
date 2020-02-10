@@ -32,7 +32,7 @@ The DirectShow EVR filter is documented in the Media Foundation SDK documentatio
 <li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>IAMCertifiedOutputProtection</strong></a></li>
 <li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li>
 <li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
-<li><a href="ikspropertyset"><strong>IKsPropertySet</strong></a></li>
+<li><a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a></li>
 <li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a></li>
 <li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li>
 <li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
@@ -82,11 +82,11 @@ Media Foundation interfaces:<br/>
 <td>evr.dll</td>
 </tr>
 <tr class="even">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="odd">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

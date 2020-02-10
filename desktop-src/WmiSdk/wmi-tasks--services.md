@@ -261,7 +261,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...find the services that must be running before I can start the DHCP service?</td>
-<td><p>Query for <a href="associators-of-statement">ASSOCIATORS OF</a> the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service"><strong>Win32_Service</strong></a> class named &quot;DHCP&quot; that are in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dependentservice"><strong>Win32_DependentService</strong></a> class and have &quot;Dependent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the DHCP service: in this case, it is dependent on the other services that are being started.</p>
+<td><p>Query for <a href="associators-of-statement.md">ASSOCIATORS OF</a> the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service"><strong>Win32_Service</strong></a> class named &quot;DHCP&quot; that are in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dependentservice"><strong>Win32_DependentService</strong></a> class and have &quot;Dependent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the DHCP service: in this case, it is dependent on the other services that are being started.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -309,7 +309,7 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Disp
 </tr>
 <tr class="odd">
 <td>...find the services that require the WMI service (Winmgmt) service to be running before they can start?</td>
-<td><p>Query for <a href="associators-of-statement">ASSOCIATORS OF</a> the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service"><strong>Win32_Service</strong></a> class named &quot;DHCP&quot; that are in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dependentservice"><strong>Win32_DependentService</strong></a> class and have &quot;Antecendent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the rasman service: in this case, it is antecedent to must be started before the dependent services.</p>
+<td><p>Query for <a href="associators-of-statement.md">ASSOCIATORS OF</a> the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service"><strong>Win32_Service</strong></a> class named &quot;DHCP&quot; that are in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-dependentservice"><strong>Win32_DependentService</strong></a> class and have &quot;Antecendent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the rasman service: in this case, it is antecedent to must be started before the dependent services.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

@@ -39,13 +39,13 @@ A handle to window.
 Command. This parameter can have one of the following values:
 
 <dl> 
-<dd><a href="imr-candidatewindow">IMR_CANDIDATEWINDOW</a></dd> 
-<dd><a href="imr-compositionfont">IMR_COMPOSITIONFONT</a></dd> 
-<dd><a href="imr-compositionwindow">IMR_COMPOSITIONWINDOW</a></dd> 
-<dd><a href="imr-confirmreconvertstring">IMR_CONFIRMRECONVERTSTRING</a></dd> 
-<dd><a href="imr-documentfeed">IMR_DOCUMENTFEED</a></dd> 
-<dd><a href="imr-querycharposition">IMR_QUERYCHARPOSITION</a></dd> 
-<dd><a href="imr-reconvertstring">IMR_RECONVERTSTRING</a></dd> 
+<dd><a href="imr-candidatewindow.md">IMR_CANDIDATEWINDOW</a></dd> 
+<dd><a href="imr-compositionfont.md">IMR_COMPOSITIONFONT</a></dd> 
+<dd><a href="imr-compositionwindow.md">IMR_COMPOSITIONWINDOW</a></dd> 
+<dd><a href="imr-confirmreconvertstring.md">IMR_CONFIRMRECONVERTSTRING</a></dd> 
+<dd><a href="imr-documentfeed.md">IMR_DOCUMENTFEED</a></dd> 
+<dd><a href="imr-querycharposition.md">IMR_QUERYCHARPOSITION</a></dd> 
+<dd><a href="imr-reconvertstring.md">IMR_RECONVERTSTRING</a></dd> 
 </dl> 
 </dd> 
 <dt>

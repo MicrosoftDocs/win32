@@ -60,11 +60,11 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 <td>Quartz.dll</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_NORMAL or MERIT_DO_NOT_USE</td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory or CLSID_AudioCompressorCategory</td>
 </tr>
 </tbody>

@@ -172,7 +172,7 @@ The following list identifies the hardware properties that the Windows Installer
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="alpha"><strong>Alpha</strong></a><br/></td>
+<td><a href="alpha.md"><strong>Alpha</strong></a><br/></td>
 <td>The numeric processor level when running on an Alpha processor.<br/>
 <blockquote>
 [!Note]<br />
@@ -181,51 +181,51 @@ This property is obsolete, the Alpha platform is not supported by Windows Instal
 <br/></td>
 </tr>
 <tr class="even">
-<td><a href="borderside"><strong>BorderSide</strong></a><br/></td>
+<td><a href="borderside.md"><strong>BorderSide</strong></a><br/></td>
 <td>The width of the window borders, in pixels.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bordertop"><strong>BorderTop</strong></a><br/></td>
+<td><a href="bordertop.md"><strong>BorderTop</strong></a><br/></td>
 <td>The height of the window borders, in pixels.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="captionheight"><strong>CaptionHeight</strong></a><br/></td>
+<td><a href="captionheight.md"><strong>CaptionHeight</strong></a><br/></td>
 <td>The height of normal caption area, in pixels.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="colorbits"><strong>ColorBits</strong></a><br/></td>
+<td><a href="colorbits.md"><strong>ColorBits</strong></a><br/></td>
 <td>The number of adjacent color bits for each pixel.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="intel"><strong>Intel</strong></a><br/></td>
+<td><a href="intel.md"><strong>Intel</strong></a><br/></td>
 <td>The numeric processor level when running on an Intel processor.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="intel64"><strong>Intel64</strong></a><br/></td>
+<td><a href="intel64.md"><strong>Intel64</strong></a><br/></td>
 <td>The numeric processor level when running on an Itanium processor.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="msix64"><strong>Msix64</strong></a><br/></td>
+<td><a href="msix64.md"><strong>Msix64</strong></a><br/></td>
 <td>The numeric processor level when running on an x64 processor.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="physicalmemory"><strong>PhysicalMemory</strong></a><br/></td>
+<td><a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br/></td>
 <td>The size of the installed RAM, in megabytes.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="screenx"><strong>ScreenX</strong></a><br/></td>
+<td><a href="screenx.md"><strong>ScreenX</strong></a><br/></td>
 <td>The width of the screen, in pixels.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="screeny"><strong>ScreenY</strong></a><br/></td>
+<td><a href="screeny.md"><strong>ScreenY</strong></a><br/></td>
 <td>The height of the screen, in pixels.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="textheight"><strong>TextHeight</strong></a><br/></td>
+<td><a href="textheight.md"><strong>TextHeight</strong></a><br/></td>
 <td>The height of characters, in logical units.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="virtualmemory"><strong>VirtualMemory</strong></a><br/></td>
+<td><a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br/></td>
 <td>The amount of available page file space, in megabytes.<br/></td>
 </tr>
 </tbody>

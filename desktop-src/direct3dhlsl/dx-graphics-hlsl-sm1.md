@@ -30,14 +30,14 @@ Shader Model 1 was the first shader model created in DirectX. It introduced vert
 <tr class="even">
 <td>Instruction Set</td>
 <td><ul>
-<li><a href="dx-graphics-hlsl-intrinsic-functions"><strong>HLSL functions</strong></a></li>
-<li>Vertex shader assembly instructions (see <a href="dx9-graphics-reference-asm-vs-instructions-vs-1-1">Instructions - vs_1_1</a>). Support for pixel shader instructions (ps_1_x) has been deprecated. To compile ps_1_x shaders as ps_2_0 shaders see <a href="https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools-fxc-using">Compiling Shader Model 1</a>.</li>
+<li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL functions</strong></a></li>
+<li>Vertex shader assembly instructions (see <a href="dx9-graphics-reference-asm-vs-instructions-vs-1-1.md">Instructions - vs_1_1</a>). Support for pixel shader instructions (ps_1_x) has been deprecated. To compile ps_1_x shaders as ps_2_0 shaders see <a href="https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools-fxc-using">Compiling Shader Model 1</a>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Register Set</td>
 <td><ul>
-<li><a href="dx9-graphics-reference-asm-vs-registers-vs-1-1">Vertex shader registers</a></li>
+<li><a href="dx9-graphics-reference-asm-vs-registers-vs-1-1.md">Vertex shader registers</a></li>
 </ul></td>
 </tr>
 <tr class="even">

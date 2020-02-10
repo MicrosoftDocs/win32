@@ -227,7 +227,7 @@ PRINTER_ATTRIBUTE_SHARED<br />
 </tr>
 <tr class="odd">
 <td>PRINTER_NOTIFY_FIELD_STATUS</td>
-<td><strong>adwData</strong> [0] specifies the printer status. For a list of possible values, see the <a href="printer-info-2"><strong>PRINTER_INFO_2</strong></a> structure.</td>
+<td><strong>adwData</strong> [0] specifies the printer status. For a list of possible values, see the <a href="printer-info-2.md"><strong>PRINTER_INFO_2</strong></a> structure.</td>
 <td>0x12</td>
 </tr>
 <tr class="even">

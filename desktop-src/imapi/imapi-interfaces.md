@@ -197,7 +197,7 @@ The following table lists the file system interfaces.
 </tr>
 <tr class="even">
 <td>The <strong>MsftStreamZero</strong> scripting object is not implemented as an interface.</td>
-<td><a href="msftstreamzero"><strong>MsftStreamZero</strong></a></td>
+<td><a href="msftstreamzero.md"><strong>MsftStreamZero</strong></a></td>
 </tr>
 </tbody>
 </table>

@@ -96,7 +96,7 @@ The **CIM\_Job** class has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="cim-job-killjob"><strong>KillJob</strong></a></td>
+<td style="text-align: left;"><a href="cim-job-killjob.md"><strong>KillJob</strong></a></td>
 <td style="text-align: left;">This method is deprecated. Instead, use the <strong>RequestStateChange</strong> method.<br/>
 <blockquote>
 [!Note]<br />

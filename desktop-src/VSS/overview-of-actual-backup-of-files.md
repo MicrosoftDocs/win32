@@ -45,7 +45,7 @@ The following table shows the sequence of actions and events that are required f
 </tr>
 <tr class="even">
 <td>The requester indicates that the backup has completed by calling <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>IVssBackupComponents::BackupComplete</strong></a>.</td>
-<td><a href="vssgloss-b"><em>BackupComplete</em></a></td>
+<td><a href="vssgloss-b.md"><em>BackupComplete</em></a></td>
 <td>Perform any post-backup cleanup (see <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>CVssWriter::OnBackupComplete</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>IVssWriterComponents</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>IVssComponent</strong></a>).</td>
 </tr>
 <tr class="odd">

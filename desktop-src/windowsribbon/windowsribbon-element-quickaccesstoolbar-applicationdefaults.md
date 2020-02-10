@@ -47,15 +47,15 @@ There are no attributes.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="windowsribbon-element-button"><strong>Button</strong></a><br/></td>
+<td><a href="windowsribbon-element-button.md"><strong>Button</strong></a><br/></td>
 <td>Must occur at least once.<br/> <br/></td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-element-checkbox"><strong>CheckBox</strong></a><br/></td>
+<td><a href="windowsribbon-element-checkbox.md"><strong>CheckBox</strong></a><br/></td>
 <td>Must occur at least once.<br/> <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-element-combobox"><strong>ComboBox</strong></a><br/></td>
+<td><a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-element-dropdowngallery"><strong>DropDownGallery</strong></a><br/></td>
+<td><a href="windowsribbon-element-dropdowngallery.md"><strong>DropDownGallery</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -73,7 +73,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-element-inribbongallery"><strong>InRibbonGallery</strong></a><br/></td>
+<td><a href="windowsribbon-element-inribbongallery.md"><strong>InRibbonGallery</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -82,7 +82,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-element-splitbuttongallery"><strong>SplitButtonGallery</strong></a><br/></td>
+<td><a href="windowsribbon-element-splitbuttongallery.md"><strong>SplitButtonGallery</strong></a><br/></td>
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
@@ -91,7 +91,7 @@ Windows 8 and newer.
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-element-togglebutton"><strong>ToggleButton</strong></a><br/></td>
+<td><a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br/></td>
 <td>Must occur at least once.<br/> <br/></td>
 </tr>
 </tbody>
