@@ -58,10 +58,10 @@
       href: entry-magapi-structures.md
       items: 
       - name: "MAGCOLOREFFECT"
-        href: /windows/win32/api/Magnification/ns-magnification-tagmagcoloreffect
+        href: /windows/win32/api/Magnification/ns-magnificationmagcoloreffect
       - name: "MAGIMAGEHEADER"
-        href: /windows/win32/api/Magnification/ns-magnification-tagmagimageheader
+        href: /windows/win32/api/Magnification/ns-magnificationmagimageheader
       - name: "MAGTRANSFORM"
-        href: /windows/win32/api/Magnification/ns-magnification-tagmagtransform
+        href: /windows/win32/api/Magnification/ns-magnificationmagtransform
   - name: "Samples"
     href: magapi-samples-entry.md
