@@ -26,7 +26,7 @@ A file path representing a storage location the Content Decryption Module (CDM) 
 
 The app should delete the store location after the CDM object has been released.
 
-If this property isn't set, the system will use the path specified with the[MF_CONTENTDECRYPTIONMODULE_STOREPATH](mf-contentdecryptionmodule-storepath) property for content-specific data.
+If this property isn't set, the system will use the path specified with the [MF_CONTENTDECRYPTIONMODULE_STOREPATH](mf-contentdecryptionmodule-storepath.md) property for content-specific data.
 
 Set this property when you create a CDM by calling [IMFContentDecryptionModuleAccess::CreateContentDecryptionModule](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-createcontentdecryptionmodule).
 

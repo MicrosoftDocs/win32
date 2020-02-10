@@ -24,7 +24,7 @@ A file path representing a storage location the Content Decryption Module (CDM) 
 
 ## Remarks
 
-The path specified with this property will also be used for content-specific data if the [MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH](mf-contentdecryptionmodule-inprivatestorepath) property isn't set.
+The path specified with this property will also be used for content-specific data if the [MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH](mf-contentdecryptionmodule-inprivatestorepath.md) property isn't set.
 
 To improve COM performance, the app should not delete the store location after the CDM object has been released.
 
