@@ -38,11 +38,11 @@ VHD is supported on Windows 7 and Windows Server 2008 R2.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="about-vhd">About VHD</a></p></td>
+<td><p><a href="about-vhd.md">About VHD</a></p></td>
 <td><p>Describes the VHD format with API usage tips and suggestions.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="vhd-reference">VHD Reference</a></p></td>
+<td><p><a href="vhd-reference.md">VHD Reference</a></p></td>
 <td><p>Describes the VHD API functions, structures, and enumerations.</p></td>
 </tr>
 </tbody>

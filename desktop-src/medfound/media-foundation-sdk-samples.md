@@ -120,8 +120,8 @@ This section describes sample applications that demonstrate how to use Media Fou
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="mfplayer2-sample">MFPlayer2</a></td>
-<td>Demonstrates some advanced playback features of the <a href="using-mfplay-for-audio-video-playback">MFPlay</a> API.</td>
+<td><a href="mfplayer2-sample.md">MFPlayer2</a></td>
+<td>Demonstrates some advanced playback features of the <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> API.</td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/previous-versions//bb970336(v=vs.85)">PlaybackFX</a></td>
@@ -133,7 +133,7 @@ This sample is no longer included in the SDK.
 <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="playlist-sample">Playlist</a></td>
+<td><a href="playlist-sample.md">Playlist</a></td>
 <td>Plays a sequence of audio files using the sequencer source.<br/>
 <blockquote>
 [!Note]<br />
@@ -142,11 +142,11 @@ This sample is no longer included in the SDK.
 <br/></td>
 </tr>
 <tr class="even">
-<td><a href="simplecapture-sample">SimpleCapture</a></td>
+<td><a href="simplecapture-sample.md">SimpleCapture</a></td>
 <td>Shows how to preview video from a video capture device, using the MFPlay API.</td>
 </tr>
 <tr class="odd">
-<td><a href="simpleplay-sample">SimplePlay</a></td>
+<td><a href="simpleplay-sample.md">SimplePlay</a></td>
 <td>Shows how to play a media file using the MFPlay API.</td>
 </tr>
 </tbody>

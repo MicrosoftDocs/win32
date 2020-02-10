@@ -46,11 +46,11 @@ These constants define values that specify the type of [**IContextNode**](iconte
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><span id="GUID_CNT_ANALYSISHINT"></span><span id="guid_cnt_analysishint"></span><dl> <dt><strong>GUID_CNT_ANALYSISHINT</strong></dt> <dt>(AnalysisHint)</dt> </dl></td>
-<td style="text-align: left;">Represents a node that contains additional context information for a region that the <a href="iinkanalyzer"><strong>IInkAnalyzer</strong></a> uses to improve its analysis.<br/></td>
+<td style="text-align: left;">Represents a node that contains additional context information for a region that the <a href="iinkanalyzer.md"><strong>IInkAnalyzer</strong></a> uses to improve its analysis.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="GUID_CNT_CUSTOMRECOGNIZER"></span><span id="guid_cnt_customrecognizer"></span><dl> <dt><strong>GUID_CNT_CUSTOMRECOGNIZER</strong></dt> <dt>(CustomRecognizer)</dt> </dl></td>
-<td style="text-align: left;">Represents a node used for a single recognition operation.<br/> All strokes and nodes that are within a custom recognizer node are recognized by an independent recognition operation and are not analyzed by the <a href="iinkanalyzer"><strong>IInkAnalyzer</strong></a>.<br/> A custom recognizer node must be the direct child of ink analyzer's root node.<br/> A custom recognizer node can contain the following types of child elements:<br/>
+<td style="text-align: left;">Represents a node used for a single recognition operation.<br/> All strokes and nodes that are within a custom recognizer node are recognized by an independent recognition operation and are not analyzed by the <a href="iinkanalyzer.md"><strong>IInkAnalyzer</strong></a>.<br/> A custom recognizer node must be the direct child of ink analyzer's root node.<br/> A custom recognizer node can contain the following types of child elements:<br/>
 <ul>
 <li>Any number of UnclassifiedInk nodes.</li>
 <li>Any number of Object nodes.</li>
@@ -61,7 +61,7 @@ These constants define values that specify the type of [**IContextNode**](iconte
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="GUID_CNT_IMAGE"></span><span id="guid_cnt_image"></span><dl> <dt><strong>GUID_CNT_IMAGE</strong></dt> <dt>(Image)</dt> </dl></td>
-<td style="text-align: left;">Represents a node for a two-dimensional region where any non-ink images can exist in the document.<br/> The <a href="iinkanalyzer"><strong>IInkAnalyzer</strong></a> does not produce image nodes. Use <a href="icontextnode-createsubnode"><strong>IContextNode::CreateSubNode</strong></a> to add an image node to the context node tree. The <strong>IInkAnalyzer</strong> then uses the regions defined by the image node to determine if any ink annotates the non-ink image.<br/> An image node cannot have any child elements.<br/></td>
+<td style="text-align: left;">Represents a node for a two-dimensional region where any non-ink images can exist in the document.<br/> The <a href="iinkanalyzer.md"><strong>IInkAnalyzer</strong></a> does not produce image nodes. Use <a href="icontextnode-createsubnode.md"><strong>IContextNode::CreateSubNode</strong></a> to add an image node to the context node tree. The <strong>IInkAnalyzer</strong> then uses the regions defined by the image node to determine if any ink annotates the non-ink image.<br/> An image node cannot have any child elements.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="GUID_CNT_INKBULLET"></span><span id="guid_cnt_inkbullet"></span><dl> <dt><strong>GUID_CNT_INKBULLET</strong></dt> <dt>(InkBullet)</dt> </dl></td>
@@ -99,7 +99,7 @@ These constants define values that specify the type of [**IContextNode**](iconte
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="GUID_CNT_ROOT"></span><span id="guid_cnt_root"></span><dl> <dt><strong>GUID_CNT_ROOT</strong></dt> <dt>(Root)</dt> </dl></td>
-<td style="text-align: left;">Represents a node for the top node of a tree of nodes that describe the results of ink analysis.<br/> Root nodes are generally obtained from the <a href="iinkanalyzer-getrootnode"><strong>IInkAnalyzer::GetRootNode Method</strong></a> method.<br/> A root node can contain the following types of child elements:<br/>
+<td style="text-align: left;">Represents a node for the top node of a tree of nodes that describe the results of ink analysis.<br/> Root nodes are generally obtained from the <a href="iinkanalyzer-getrootnode.md"><strong>IInkAnalyzer::GetRootNode Method</strong></a> method.<br/> A root node can contain the following types of child elements:<br/>
 <ul>
 <li>Any number of analysis hint nodes.</li>
 <li>Any number of custom recognizer nodes.</li>
@@ -112,7 +112,7 @@ These constants define values that specify the type of [**IContextNode**](iconte
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="GUID_CNT_TEXTWORD"></span><span id="guid_cnt_textword"></span><dl> <dt><strong>GUID_CNT_TEXTWORD</strong></dt> <dt>(TextWord)</dt> </dl></td>
-<td style="text-align: left;">Represents a node for the two-dimensional region where any non-ink text can exist in the document.<br/> The <a href="iinkanalyzer"><strong>IInkAnalyzer</strong></a> does not produce text word nodes. Use <a href="icontextnode-createsubnode"><strong>IContextNode::CreateSubNode</strong></a> to add a text word node to the context node tree. The <strong>IInkAnalyzer</strong> then uses the regions defined by the text word node to determine if any ink annotates the non-ink text.<br/> Future recognizers may use the region defined by a text word node to determine if any ink annotates the non-ink word.<br/> A text word node cannot have any child elements<br/></td>
+<td style="text-align: left;">Represents a node for the two-dimensional region where any non-ink text can exist in the document.<br/> The <a href="iinkanalyzer.md"><strong>IInkAnalyzer</strong></a> does not produce text word nodes. Use <a href="icontextnode-createsubnode.md"><strong>IContextNode::CreateSubNode</strong></a> to add a text word node to the context node tree. The <strong>IInkAnalyzer</strong> then uses the regions defined by the text word node to determine if any ink annotates the non-ink text.<br/> Future recognizers may use the region defined by a text word node to determine if any ink annotates the non-ink word.<br/> A text word node cannot have any child elements<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="GUID_CNT_UNCLASSIFIEDINKNODE"></span><span id="guid_cnt_unclassifiedinknode"></span><dl> <dt><strong>GUID_CNT_UNCLASSIFIEDINKNODE</strong></dt> <dt>(UnclassifiedInk)</dt> </dl></td>

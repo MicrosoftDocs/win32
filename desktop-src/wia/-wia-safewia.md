@@ -61,9 +61,9 @@ The **SafeWia** object has these properties.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="-wia-iwia-devices"><strong>Devices</strong></a><br/></td>
+<td style="text-align: left;"><a href="-wia-iwia-devices.md"><strong>Devices</strong></a><br/></td>
 <td style="text-align: left;">Read-only<br/></td>
-<td style="text-align: left;">Collection of <a href="-wia-deviceinfo"><strong>DeviceInfo</strong></a> objects that represents all of the devices installed on the computer. Read-only. <br/>
+<td style="text-align: left;">Collection of <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a> objects that represents all of the devices installed on the computer. Read-only. <br/>
 <blockquote>
 [!Note]<br />
 This collection is 0-based.

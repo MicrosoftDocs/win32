@@ -40,24 +40,24 @@ The following table lists object path types and the associated methods that requ
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="describing-a-wmi-namespace-object-path">Namespace</a></td>
+<td><a href="describing-a-wmi-namespace-object-path.md">Namespace</a></td>
 <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-opennamespace"><strong>IWbemServices::OpenNamespace</strong></a><br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="describing-a-class-object-path">Class</a></td>
+<td><a href="describing-a-class-object-path.md">Class</a></td>
 <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod"><strong>IWbemServices::ExecMethod</strong></a><br />
 [<strong>IWbemServices::ExecMethodAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethodasync)<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td><a href="describing-a-class-object-path">Class</a> or <a href="describing-an-instance-object-path">Instance</a></td>
+<td><a href="describing-a-class-object-path.md">Class</a> or <a href="describing-an-instance-object-path.md">Instance</a></td>
 <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject"><strong>IWbemServices::GetObject</strong></a><br />
 [<strong>IWbemServices::GetObjectAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="describing-an-instance-object-path">Instance</a></td>
+<td><a href="describing-an-instance-object-path.md">Instance</a></td>
 <td><dl><a href="/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstance"><strong>IWbemServices::DeleteInstance</strong></a><br />
 [<strong>IWbemServices::DeleteInstanceAsync</strong>](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync)<br />
 </dl></td>
@@ -90,8 +90,8 @@ The following table lists the scripting objects that require object paths.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="swbemservices"><strong>SWbemServices</strong></a></td>
-<td><dl><a href="swbemservices-associatorsof"><strong>AssociatorsOf</strong></a><br />
+<td><a href="swbemservices.md"><strong>SWbemServices</strong></a></td>
+<td><dl><a href="swbemservices-associatorsof.md"><strong>AssociatorsOf</strong></a><br />
 [<strong>AssociatorsOfAsync</strong>](swbemservices-associatorsofasync.md)<br />
 [<strong>Delete</strong>](swbemservices-delete.md)<br />
 [<strong>DeleteAsync</strong>](swbemservices-deleteasync.md)<br />
@@ -104,8 +104,8 @@ The following table lists the scripting objects that require object paths.
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="swbemobjectset"><strong>SWbemObjectSet</strong></a></td>
-<td><dl><a href="swbemobjectset-item"><strong>Item</strong></a><br />
+<td><a href="swbemobjectset.md"><strong>SWbemObjectSet</strong></a></td>
+<td><dl><a href="swbemobjectset-item.md"><strong>Item</strong></a><br />
 </dl></td>
 </tr>
 </tbody>

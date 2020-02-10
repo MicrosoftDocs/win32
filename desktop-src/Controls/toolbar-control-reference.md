@@ -48,7 +48,7 @@ This section contains information about the programming elements used with toolb
 <td>Creates a toolbar window and adds the specified buttons to the toolbar.
 <blockquote>
 [!Note]<br />
-This function is deprecated, because it does not support all features of toolbars. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls">Using Toolbar Controls</a>.
+This function is deprecated, because it does not support all features of toolbars. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> instead. For examples, see <a href="using-toolbar-controls.md">Using Toolbar Controls</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -253,24 +253,24 @@ This function is deprecated, because it does not support all features of toolbar
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="toolbar-button-states">Toolbar Button States</a></td>
+<td><a href="toolbar-button-states.md">Toolbar Button States</a></td>
 <td>This section lists the states a toolbar button can have. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="toolbar-control-and-button-styles">Toolbar Control and Button Styles</a></td>
-<td>The following window styles are specific to toolbars. They are combined with other window styles when the toolbar is created.<br/> <strong>Note</strong> For Common Controls <a href="common-control-versions">version 6.00</a>, if a <a href="themes-overview">visual style</a> is being used with the toolbar, buttons are always transparent regardless of the style setting. Otherwise, transparency behavior is normal as indicated by the use of the <a href="toolbar-control-and-button-styles"><strong>TBSTYLE_FLAT</strong></a> or <a href="toolbar-control-and-button-styles"><strong>TBSTYLE_TRANSPARENT</strong></a> style.
+<td><a href="toolbar-control-and-button-styles.md">Toolbar Control and Button Styles</a></td>
+<td>The following window styles are specific to toolbars. They are combined with other window styles when the toolbar is created.<br/> <strong>Note</strong> For Common Controls <a href="common-control-versions.md">version 6.00</a>, if a <a href="themes-overview.md">visual style</a> is being used with the toolbar, buttons are always transparent regardless of the style setting. Otherwise, transparency behavior is normal as indicated by the use of the <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> or <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> style.
 <blockquote>
 [!Note]<br />
-Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview">Enabling Visual Styles</a>.
+Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="toolbar-extended-styles">Toolbar Extended Styles</a></td>
+<td><a href="toolbar-extended-styles.md">Toolbar Extended Styles</a></td>
 <td>This section lists the extended styles supported by toolbar controls.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="toolbar-standard-button-image-index-values">Toolbar Standard Button Image Index Values</a></td>
+<td><a href="toolbar-standard-button-image-index-values.md">Toolbar Standard Button Image Index Values</a></td>
 <td>This section specifies index values of images within standard bitmaps.<br/></td>
 </tr>
 </tbody>

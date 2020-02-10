@@ -549,7 +549,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_FLAGS"></span><span id="fwpm_condition_flags"></span><dl> <dt><strong>FWPM_CONDITION_FLAGS</strong></dt> </dl></td>
-<td style="text-align: left;">A bitwise OR of a combination of filtering condition flags. <br/> <strong>Possible values:</strong> See <a href="filtering-condition-flags-"><strong>Filtering Condition Flags</strong></a><br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
+<td style="text-align: left;">A bitwise OR of a combination of filtering condition flags. <br/> <strong>Possible values:</strong> See <a href="filtering-condition-flags-.md"><strong>Filtering Condition Flags</strong></a><br/> <strong>Data type:</strong> FWP_UINT32<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_DIRECTION"></span><span id="fwpm_condition_direction"></span><dl> <dt><strong>FWPM_CONDITION_DIRECTION</strong></dt> </dl></td>

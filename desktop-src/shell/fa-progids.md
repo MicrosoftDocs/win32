@@ -48,7 +48,7 @@ A ProgID subkey should include the following elements. Note that some string dat
 </tr>
 <tr class="odd">
 <td><strong>AppUserModelID</strong> (introduced in Windows 7)</td>
-<td>Set this optional entry to the application's explicit Application User Model ID (AppUserModelID) if the application uses an explicit AppUserModelID and uses either the system's automatically generated <strong>Recent</strong> or <strong>Frequent</strong> Jump Lists or provides a custom Jump List. If an application uses an explicit AppUserModelID and does not set this value, items will not appear in that application's Jump Lists. This is a REG_SZ string. For more information, see <a href="appids">Application User Model IDs (AppUserModelIDs)</a>.<br/></td>
+<td>Set this optional entry to the application's explicit Application User Model ID (AppUserModelID) if the application uses an explicit AppUserModelID and uses either the system's automatically generated <strong>Recent</strong> or <strong>Frequent</strong> Jump Lists or provides a custom Jump List. If an application uses an explicit AppUserModelID and does not set this value, items will not appear in that application's Jump Lists. This is a REG_SZ string. For more information, see <a href="appids.md">Application User Model IDs (AppUserModelIDs)</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>EditFlags</strong></td>

@@ -56,22 +56,22 @@ To configure the AAC decoder, set the following attributes on the input media ty
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="mf-mt-major-type-attribute"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
+<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
 <td>Major type.</td>
 <td>Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-subtype-attribute"><strong>MF_MT_SUBTYPE</strong></a></td>
+<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
 <td>Audio subtype.</td>
 <td>Refer to the previous description for details.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-aac-audio-profile-level-indication">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
+<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
 <td>Audio profile and level. <br/></td>
 <td>Optional. Applies only to <strong>MFAudioFormat_AAC</strong>. <br/> The value of this attribute is the <strong>audioProfileLevelIndication</strong> field, as defined by ISO/IEC 14496-3. <br/> If unknown, set to zero or 0xFE (&quot;no audio profile specified&quot;).<br/></td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a></td>
+<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
 <td>Payload type.<br/></td>
 <td>Applies only to <strong>MFAudioFormat_AAC</strong>. The decoder supports the following payload types: <br/>
 <ul>
@@ -79,30 +79,30 @@ To configure the AAC decoder, set the following attributes on the input media ty
 <li>1: ADTS. The stream contains an adts_sequence(), as defined by MPEG-2. Only one raw_data_block() per adts_frame() is allowed.</li>
 <li>3: Audio transport stream with a synchronization layer (LOAS) and a multiplex layer (LATM). Of the three types of LOAS, only <strong>AudioSyncStream</strong> is supported. The multiplex layer is <strong>AudioMuxElement</strong>, restricted to one audio program and one layer.</li>
 </ul>
-<a href="mf-mt-aac-payload-type">MF_MT_AAC_PAYLOAD_TYPE</a> is optional. If this attribute is not specified, the default value 0 is used, which specifies the stream contains raw_data_block elements only.<br/></td>
+<a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> is optional. If this attribute is not specified, the default value 0 is used, which specifies the stream contains raw_data_block elements only.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
+<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
 <td>Desired bit depth of the decoded PCM audio.</td>
 
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
+<td><a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
 <td>Specifies the assignment of audio channels to speaker positions.</td>
 <td>Optional. For more information, see <a href="#format-constraints">Format Constraints</a>.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
+<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
 <td>Number of channels, including the low frequency (LFE) channel, if present.<br/></td>
 <td>The interpretation of this value depends on the media subtype, as described previously.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
+<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
 <td>Sample rate, in samples per second.<br/></td>
 <td>The interpretation of this value depends on the media subtype, as described previously.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-user-data-attribute"><strong>MF_MT_USER_DATA</strong></a></td>
+<td><a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a></td>
 <td>Additional format information.</td>
 <td>The value of this attribute depends on the subtype.<br/>
 <ul>
@@ -247,7 +247,7 @@ The AAC decoder implements the [**IMFTransform::GetAttributes**](/windows/deskto
 <td>Specifies how the decoder reproduces dual mono audio. The default value is <strong>eAVDecAudioDualMonoReproMode_LEFT_MONO</strong>: Output Ch1 to the left and right speakers. <br/> Applications can set this property to change the default behavior.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="mft-support-dynamic-format-change-attribute"><strong>MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE</strong></a></td>
+<td><a href="mft-support-dynamic-format-change-attribute.md"><strong>MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE</strong></a></td>
 <td>The AAC decoder does not handle dynamic format changes, and must be flushed or drained before a new input media type is set. Treat this attribute as read-only. <br/>
 <blockquote>
 [!Note]<br />

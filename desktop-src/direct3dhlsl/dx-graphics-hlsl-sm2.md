@@ -30,15 +30,15 @@ Shader Model 2 added additional capabilities to [shader model 1](dx-graphics-hls
 <tr class="even">
 <td>Instruction Set</td>
 <td><ul>
-<li><a href="dx-graphics-hlsl-intrinsic-functions"><strong>HLSL functions</strong></a></li>
-<li>Assembly instructions (see <a href="dx9-graphics-reference-asm-vs-instructions-vs-2-0">Instructions - vs_2_0</a>, <a href="dx9-graphics-reference-asm-vs-instructions-vs-2-x">Instructions - vs_2_x</a>, <a href="dx9-graphics-reference-asm-ps-instructions-ps-2-0">ps_2_0 Instructions</a>, <a href="dx9-graphics-reference-asm-ps-instructions-ps-2-x">ps_2_x Instructions</a>)</li>
+<li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL functions</strong></a></li>
+<li>Assembly instructions (see <a href="dx9-graphics-reference-asm-vs-instructions-vs-2-0.md">Instructions - vs_2_0</a>, <a href="dx9-graphics-reference-asm-vs-instructions-vs-2-x.md">Instructions - vs_2_x</a>, <a href="dx9-graphics-reference-asm-ps-instructions-ps-2-0.md">ps_2_0 Instructions</a>, <a href="dx9-graphics-reference-asm-ps-instructions-ps-2-x.md">ps_2_x Instructions</a>)</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Register Set</td>
 <td><ul>
-<li>Pixel shader registers (see <a href="dx9-graphics-reference-asm-ps-registers-ps-2-0">ps_2_0 Registers</a>, <a href="dx9-graphics-reference-asm-ps-registers-ps-2-x">ps_2_x Registers</a>)</li>
-<li>Vertex shader registers (see <a href="dx9-graphics-reference-asm-vs-registers-vs-2-0">Registers - vs_2_0</a>, <a href="dx9-graphics-reference-asm-vs-registers-vs-2-x">Registers - vs_2_x</a>)</li>
+<li>Pixel shader registers (see <a href="dx9-graphics-reference-asm-ps-registers-ps-2-0.md">ps_2_0 Registers</a>, <a href="dx9-graphics-reference-asm-ps-registers-ps-2-x.md">ps_2_x Registers</a>)</li>
+<li>Vertex shader registers (see <a href="dx9-graphics-reference-asm-vs-registers-vs-2-0.md">Registers - vs_2_0</a>, <a href="dx9-graphics-reference-asm-vs-registers-vs-2-x.md">Registers - vs_2_x</a>)</li>
 </ul></td>
 </tr>
 <tr class="even">

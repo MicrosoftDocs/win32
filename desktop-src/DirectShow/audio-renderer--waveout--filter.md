@@ -72,11 +72,11 @@ This filter supports a range of sample rates that depends on the audio driver.
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td><strong>MERIT_DO_NOT_USE</strong></td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td><strong>CLSID_AudioRendererCategory</strong></td>
 </tr>
 </tbody>

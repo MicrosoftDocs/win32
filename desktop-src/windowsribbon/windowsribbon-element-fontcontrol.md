@@ -59,7 +59,7 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 <td><strong>CommandName</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>No<br/></td>
-<td>Associates the element with a <a href="windowsribbon-element-command"><strong>Command</strong></a>.<br/> <br/>
+<td>Associates the element with a <a href="windowsribbon-element-command.md"><strong>Command</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string, an integer value between 2 and 59999, inclusive, or a hexadecimal value between 0x2 and 0xea5f, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
@@ -126,7 +126,7 @@ This control is displayed by default and cannot be hidden by setting the <em>IsH
 <td><strong>Windows 8 and newer</strong><br/> Restricted to one of the following values: <br/>
 <blockquote>
 [!Note]<br />
-The Grow/Shrink buttons are never displayed in the <a href="windowsribbon-element-minitoolbar"><strong>MiniToolbar</strong></a>.
+The Grow/Shrink buttons are never displayed in the <a href="windowsribbon-element-minitoolbar.md"><strong>MiniToolbar</strong></a>.
 </blockquote>
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default when the value of <em>FontType</em> equals <code>FontWithColor</code> or <code>RichFont</code>.<br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Default when the value of <em>FontType</em> equals <code>FontOnly</code>.<br/> </dd> </dl></td>

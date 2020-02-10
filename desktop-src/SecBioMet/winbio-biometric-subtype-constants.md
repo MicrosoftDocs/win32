@@ -48,7 +48,7 @@ To find the available biometric subtypes for a particular biometric type, use th
 <tbody>
 <tr class="odd">
 <td><strong>WINBIO_TYPE_FACIAL_FEATURES</strong></td>
-<td><a href="winbio-ansi-385-face-constants"><strong>WINBIO_ANSI_385_FACE Constants</strong></a>
+<td><a href="winbio-ansi-385-face-constants.md"><strong>WINBIO_ANSI_385_FACE Constants</strong></a>
 <blockquote>
 [!Note]<br />
 These values apply only for Windows 10 and later.
@@ -59,18 +59,18 @@ These values apply only for Windows 10 and later.
 <td><strong>WINBIO_TYPE_FINGERPRINT</strong></td>
 <td>One of the following topics:
 <ul>
-<li><a href="winbio-ansi-381-format-constants"><strong>WINBIO_ANSI_381_FORMAT Constants</strong></a></li>
-<li><a href="winbio-ansi-381-img-constants"><strong>WINBIO_ANSI_381_IMG Constants</strong></a></li>
-<li><a href="winbio-ansi-381-img-acq-constants"><strong>WINBIO_ANSI_381_IMG_ACQ Constants</strong></a></li>
-<li><a href="winbio-ansi-381-imp-type-constants"><strong>WINBIO_ANSI_381_IMP_TYPE Constants</strong></a></li>
-<li><a href="winbio-ansi-381-pixels-constants"><strong>WINBIO_ANSI_381_PIXELS Constants</strong></a></li>
-<li><a href="winbio-ansi-381-pos-fingerprint-constants"><strong>WINBIO_ANSI_381_POS Fingerprint Constants</strong></a></li>
-<li><a href="winbio-ansi-381-pos-palm-constants"><strong>WINBIO_ANSI_381_POS_Palm Constants</strong></a></li>
+<li><a href="winbio-ansi-381-format-constants.md"><strong>WINBIO_ANSI_381_FORMAT Constants</strong></a></li>
+<li><a href="winbio-ansi-381-img-constants.md"><strong>WINBIO_ANSI_381_IMG Constants</strong></a></li>
+<li><a href="winbio-ansi-381-img-acq-constants.md"><strong>WINBIO_ANSI_381_IMG_ACQ Constants</strong></a></li>
+<li><a href="winbio-ansi-381-imp-type-constants.md"><strong>WINBIO_ANSI_381_IMP_TYPE Constants</strong></a></li>
+<li><a href="winbio-ansi-381-pixels-constants.md"><strong>WINBIO_ANSI_381_PIXELS Constants</strong></a></li>
+<li><a href="winbio-ansi-381-pos-fingerprint-constants.md"><strong>WINBIO_ANSI_381_POS Fingerprint Constants</strong></a></li>
+<li><a href="winbio-ansi-381-pos-palm-constants.md"><strong>WINBIO_ANSI_381_POS_Palm Constants</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><strong>WINBIO_TYPE_IRIS</strong></td>
-<td><a href="winbio-iris-constants"><strong>WINBIO_IRIS Constants</strong></a>
+<td><a href="winbio-iris-constants.md"><strong>WINBIO_IRIS Constants</strong></a>
 <blockquote>
 [!Note]<br />
 These values apply only for Windows 10 and later.

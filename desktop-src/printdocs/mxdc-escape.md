@@ -59,7 +59,7 @@ The size, in bytes, of the data pointed to by the *lpszInData* parameter.
 
 A pointer to a buffer containing the input data, which is always stored in one of the following structures.
 
-<dl> <dd><a href="mxdcescapeheader">**MxdcEscapeHeader**</a></dd> <dd><a href="mxdcprintticketescape">**MxdcPrintTicketEscape**</a></dd> <dd><a href="mxdcs0pagepassthroughescape">**MxdcS0PagePassthroughEscape**</a></dd> <dd><a href="mxdcs0pageresourceescape">**MxdcS0PageResourceEscape**</a></dd> </dl>
+<dl> <dd><a href="mxdcescapeheader.md">**MxdcEscapeHeader**</a></dd> <dd><a href="mxdcprintticketescape.md">**MxdcPrintTicketEscape**</a></dd> <dd><a href="mxdcs0pagepassthroughescape.md">**MxdcS0PagePassthroughEscape**</a></dd> <dd><a href="mxdcs0pageresourceescape.md">**MxdcS0PageResourceEscape**</a></dd> </dl>
 
 Each of these structures has an opcode member that specifies what the MXDC is supposed to do. See MxdcEscapeHeader for detailed remarks about these codes.
 

@@ -92,11 +92,11 @@ The following table lists the type of [**HINTERNET**](appendix-a-hinternet-handl
 </tr>
 <tr class="even">
 <td>INTERNET_HANDLE_TYPE_CONNECT_FTP</td>
-<td>The option settings for this connection to an FTP server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles"><strong>HINTERNET</strong></a> handle, such as file downloads.</td>
+<td>The option settings for this connection to an FTP server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> handle, such as file downloads.</td>
 </tr>
 <tr class="odd">
 <td>INTERNET_HANDLE_TYPE_CONNECT_GOPHER</td>
-<td>The option settings for this connection to a Gopher server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles"><strong>HINTERNET</strong></a> handle, such as file downloads.
+<td>The option settings for this connection to a Gopher server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> handle, such as file downloads.
 <blockquote>
 [!Note]<br />
 Windows XP and Windows Server 2003 R2 and earlier only.
@@ -105,7 +105,7 @@ Windows XP and Windows Server 2003 R2 and earlier only.
 </tr>
 <tr class="even">
 <td>INTERNET_HANDLE_TYPE_CONNECT_HTTP</td>
-<td>The option settings for this connection to an HTTP server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles"><strong>HINTERNET</strong></a> handle, such as file downloads.</td>
+<td>The option settings for this connection to an HTTP server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> handle, such as file downloads.</td>
 </tr>
 <tr class="odd">
 <td>INTERNET_HANDLE_TYPE_FILE_REQUEST</td>

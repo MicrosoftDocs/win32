@@ -52,14 +52,14 @@ Header controls have a number of styles, described in this section, that determi
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_FILTERBAR"></span><span id="hds_filterbar"></span><dl> <dt><strong>HDS_FILTERBAR</strong></dt> </dl></td>
-<td style="text-align: left;">Include a filter bar as part of the standard header control. This bar allows users to conveniently apply a filter to the display. Calls to <a href="hdm-layout"><strong>HDM_LAYOUT</strong></a> will yield a new size for the control and cause the list view to update. <br/></td>
+<td style="text-align: left;">Include a filter bar as part of the standard header control. This bar allows users to conveniently apply a filter to the display. Calls to <a href="hdm-layout.md"><strong>HDM_LAYOUT</strong></a> will yield a new size for the control and cause the list view to update. <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="HDS_FLAT"></span><span id="hds_flat"></span><dl> <dt><strong>HDS_FLAT</strong></dt> </dl></td>
-<td style="text-align: left;"><a href="common-control-versions">Version 6.0 and later</a>. Causes the header control to be drawn flat when the operating system is running in classic mode. <br/>
+<td style="text-align: left;"><a href="common-control-versions.md">Version 6.0 and later</a>. Causes the header control to be drawn flat when the operating system is running in classic mode. <br/>
 <blockquote>
 [!Note]<br />
-Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview">Enabling Visual Styles</a>.
+Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -69,7 +69,7 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows. To 
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="HDS_HIDDEN"></span><span id="hds_hidden"></span><dl> <dt><strong>HDS_HIDDEN</strong></dt> </dl></td>
-<td style="text-align: left;">Indicates a header control that is intended to be hidden. This style does not hide the control. Instead, when you send the <a href="hdm-layout"><strong>HDM_LAYOUT</strong></a> message to a header control with the HDS_HIDDEN style, the control returns zero in the <strong>cy</strong> member of the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-windowpos"><strong>WINDOWPOS</strong></a> structure. You would then hide the control by setting its height to zero. This can be useful when you want to use the control as an information container instead of a visual control. <br/></td>
+<td style="text-align: left;">Indicates a header control that is intended to be hidden. This style does not hide the control. Instead, when you send the <a href="hdm-layout.md"><strong>HDM_LAYOUT</strong></a> message to a header control with the HDS_HIDDEN style, the control returns zero in the <strong>cy</strong> member of the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-windowpos"><strong>WINDOWPOS</strong></a> structure. You would then hide the control by setting its height to zero. This can be useful when you want to use the control as an information container instead of a visual control. <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_HORZ"></span><span id="hds_horz"></span><dl> <dt><strong>HDS_HORZ</strong></dt> </dl></td>
@@ -81,15 +81,15 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows. To 
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_CHECKBOXES"></span><span id="hds_checkboxes"></span><dl> <dt><strong>HDS_CHECKBOXES</strong></dt> </dl></td>
-<td style="text-align: left;"><a href="common-control-versions">Version 6.00 and later</a>. Allows the placing of checkboxes on header items. For more information, see the <strong>fmt</strong> member of <a href="/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema"><strong>HDITEM</strong></a>.<br/></td>
+<td style="text-align: left;"><a href="common-control-versions.md">Version 6.00 and later</a>. Allows the placing of checkboxes on header items. For more information, see the <strong>fmt</strong> member of <a href="/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema"><strong>HDITEM</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="HDS_NOSIZING"></span><span id="hds_nosizing"></span><dl> <dt><strong>HDS_NOSIZING</strong></dt> </dl></td>
-<td style="text-align: left;"><a href="common-control-versions">Version 6.00 and later</a>. The user cannot drag the divider on the header control.<br/></td>
+<td style="text-align: left;"><a href="common-control-versions.md">Version 6.00 and later</a>. The user cannot drag the divider on the header control.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_OVERFLOW"></span><span id="hds_overflow"></span><dl> <dt><strong>HDS_OVERFLOW</strong></dt> </dl></td>
-<td style="text-align: left;"><a href="common-control-versions">Version 6.00 and later</a>. A button is displayed when not all items can be displayed within the header control's rectangle. When clicked, this button sends an <a href="hdn-overflowclick">HDN_OVERFLOWCLICK</a> notification.<br/></td>
+<td style="text-align: left;"><a href="common-control-versions.md">Version 6.00 and later</a>. A button is displayed when not all items can be displayed within the header control's rectangle. When clicked, this button sends an <a href="hdn-overflowclick.md">HDN_OVERFLOWCLICK</a> notification.<br/></td>
 </tr>
 </tbody>
 </table>

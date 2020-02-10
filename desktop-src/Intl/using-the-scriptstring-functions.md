@@ -39,7 +39,7 @@ The following table details the **ScriptString\*** functions and any counterpart
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringfree"><strong>ScriptStringFree</strong></a></td>
-<td>Frees a <a href="script-string-analysis"><strong>SCRIPT_STRING_ANALYSIS</strong></a> structure.</td>
+<td>Frees a <a href="script-string-analysis.md"><strong>SCRIPT_STRING_ANALYSIS</strong></a> structure.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetlogicalwidths"><strong>ScriptStringGetLogicalWidths</strong></a></td>

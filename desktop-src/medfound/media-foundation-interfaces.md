@@ -289,7 +289,7 @@ ms.date: 05/31/2018
 <td>Enables two threads to share the same Microsoft Direct3D 11 device.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="imfdxgidevicemanagersource"><strong>IMFDXGIDeviceManagerSource</strong></a><br/></td>
+<td><a href="imfdxgidevicemanagersource.md"><strong>IMFDXGIDeviceManagerSource</strong></a><br/></td>
 <td>Provides functionality for getting the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager"><strong>IMFDXGIDeviceManager</strong></a> from the Media Foundation video rendering sink.<br/></td>
 </tr>
 <tr class="even">
@@ -314,7 +314,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsessionprovider"><strong>IMFHttpDownloadSessionProvider</strong></a><br/></td>
-<td>Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation. Use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver"><strong>IMFSourceResolver</strong></a> interface to register the provider. For more information, see <a href="using-the-source-resolver">Using the Source Resolver</a>. Once registered, the Microsoft Media Foundation will invoke the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession"><strong>CreateHttpDownloadSession</strong></a> method of the provider implementation to open HTTP or HTTPS URLs instead of using the default implementation.<br/></td>
+<td>Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation. Use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver"><strong>IMFSourceResolver</strong></a> interface to register the provider. For more information, see <a href="using-the-source-resolver.md">Using the Source Resolver</a>. Once registered, the Microsoft Media Foundation will invoke the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession"><strong>CreateHttpDownloadSession</strong></a> method of the provider implementation to open HTTP or HTTPS URLs instead of using the default implementation.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine"><strong>IMFImageSharingEngine</strong></a><br/></td>
@@ -374,7 +374,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineopminfo"><strong>IMFMediaEngineOPMInfo</strong></a><br/></td>
-<td>Provides methods for getting information about the <a href="output-protection-manager">Output Protection Manager</a> (OPM).<br/></td>
+<td>Provides methods for getting information about the <a href="output-protection-manager.md">Output Protection Manager</a> (OPM).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent"><strong>IMFMediaEngineProtectedContent</strong></a><br/></td>
@@ -473,7 +473,7 @@ ms.date: 05/31/2018
 <td>Represents one stream in a media source. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="imfmediastreamsourcesamplerequest"><strong>IMFMediaStreamSourceSampleRequest</strong></a><br/></td>
+<td><a href="imfmediastreamsourcesamplerequest.md"><strong>IMFMediaStreamSourceSampleRequest</strong></a><br/></td>
 <td>Represents a request for a sample from a MediaStreamSource. <br/></td>
 </tr>
 <tr class="even">
@@ -590,11 +590,11 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp"><strong>IMFPMPHostApp</strong></a><br/></td>
-<td>Allows a media source to create a <a href="https://docs.microsoft.com/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="protected-media-path">Protected Media Path</a> (PMP) process. <br/></td>
+<td>Allows a media source to create a <a href="https://docs.microsoft.com/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="protected-media-path.md">Protected Media Path</a> (PMP) process. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver"><strong>IMFPMPServer</strong></a><br/></td>
-<td>Enables two instances of the <a href="media-session">Media Session</a> to share the same protected media path (PMP) process. <br/></td>
+<td>Enables two instances of the <a href="media-session.md">Media Session</a> to share the same protected media path (PMP) process. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock"><strong>IMFPresentationClock</strong></a><br/></td>
@@ -662,7 +662,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamistyle"><strong>IMFSAMIStyle</strong></a><br/></td>
-<td>Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the <a href="sami-media-source">SAMI Media Source</a>. <br/></td>
+<td>Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the <a href="sami-media-source.md">SAMI Media Source</a>. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample"><strong>IMFSample</strong></a><br/></td>
@@ -746,7 +746,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource"><strong>IMFSequencerSource</strong></a><br/></td>
-<td>Implemented by the <a href="sequencer-source">Sequencer Source</a>.<br/></td>
+<td>Implemented by the <a href="sequencer-source.md">Sequencer Source</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfsharingengineclassfactory"><strong>IMFSharingEngineClassFactory</strong></a><br/></td>
@@ -910,7 +910,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/evr/nn-evr-imftopologyservicelookup"><strong>IMFTopologyServiceLookup</strong></a><br/></td>
-<td>Enables a custom video mixer or video presenter to get interface pointers from the <a href="enhanced-video-renderer">Enhanced Video Renderer</a> (EVR).<br/></td>
+<td>Enables a custom video mixer or video presenter to get interface pointers from the <a href="enhanced-video-renderer.md">Enhanced Video Renderer</a> (EVR).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-imftopologyservicelookupclient"><strong>IMFTopologyServiceLookupClient</strong></a><br/></td>
@@ -930,7 +930,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform"><strong>IMFTransform</strong></a><br/></td>
-<td>Implemented by all <a href="media-foundation-transforms">Media Foundation Transforms</a> (MFTs).<br/></td>
+<td>Implemented by all <a href="media-foundation-transforms.md">Media Foundation Transforms</a> (MFTs).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imftrustedinput"><strong>IMFTrustedInput</strong></a><br/></td>
@@ -946,7 +946,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol"><strong>IMFVideoDisplayControl</strong></a><br/></td>
-<td>Controls how the <a href="enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) displays video.<br/></td>
+<td>Controls how the <a href="enhanced-video-renderer.md">Enhanced Video Renderer</a> (EVR) displays video.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfvideomediatype"><strong>IMFVideoMediaType</strong></a><br/></td>
@@ -954,11 +954,11 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap"><strong>IMFVideoMixerBitmap</strong></a><br/></td>
-<td>Alpha-blends a static bitmap image with the video displayed by the <a href="enhanced-video-renderer">Enhanced Video Renderer</a> (EVR).<br/></td>
+<td>Alpha-blends a static bitmap image with the video displayed by the <a href="enhanced-video-renderer.md">Enhanced Video Renderer</a> (EVR).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol"><strong>IMFVideoMixerControl</strong></a><br/></td>
-<td>Controls how the <a href="enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) mixes video substreams.<br/></td>
+<td>Controls how the <a href="enhanced-video-renderer.md">Enhanced Video Renderer</a> (EVR) mixes video substreams.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol2"><strong>IMFVideoMixerControl2</strong></a><br/></td>
@@ -974,19 +974,19 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor"><strong>IMFVideoProcessor</strong></a><br/></td>
-<td>Controls video processing in the <a href="enhanced-video-renderer">Enhanced Video Renderer</a> (EVR).<br/></td>
+<td>Controls video processing in the <a href="enhanced-video-renderer.md">Enhanced Video Renderer</a> (EVR).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol"><strong>IMFVideoProcessorControl</strong></a><br/></td>
-<td>Configures the <a href="video-processor-mft"><strong>Video Processor MFT</strong></a>.<br/></td>
+<td>Configures the <a href="video-processor-mft.md"><strong>Video Processor MFT</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2"><strong>IMFVideoProcessorControl2</strong></a><br/></td>
-<td>Configures the <a href="video-processor-mft"><strong>Video Processor MFT</strong></a>.<br/></td>
+<td>Configures the <a href="video-processor-mft.md"><strong>Video Processor MFT</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>IMFVideoRenderer</strong></a><br/></td>
-<td>Sets a new mixer or presenter for the <a href="enhanced-video-renderer">Enhanced Video Renderer</a> (EVR).<br/></td>
+<td>Sets a new mixer or presenter for the <a href="enhanced-video-renderer.md">Enhanced Video Renderer</a> (EVR).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator"><strong>IMFVideoSampleAllocator</strong></a><br/></td>
@@ -1010,7 +1010,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices"><strong>IMFWorkQueueServices</strong></a><br/></td>
-<td>Controls the work queues created by the <a href="media-session">Media Session</a>.<br/></td>
+<td>Controls the work queues created by the <a href="media-session.md">Media Session</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservicesex"><strong>IMFWorkQueueServicesEx</strong></a><br/></td>

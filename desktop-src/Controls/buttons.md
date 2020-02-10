@@ -120,94 +120,94 @@ This section contains information about the programming elements used with butto
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="bcn-dropdown">BCN_DROPDOWN</a></td>
-<td>Sent when the user clicks a drop down arrow on a button. The parent window of the control receives this notification code in the form of a <a href="wm-notify"><strong>WM_NOTIFY</strong></a> message.<br/></td>
+<td><a href="bcn-dropdown.md">BCN_DROPDOWN</a></td>
+<td>Sent when the user clicks a drop down arrow on a button. The parent window of the control receives this notification code in the form of a <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="bcn-hotitemchange">BCN_HOTITEMCHANGE</a></td>
-<td>Notifies the button control owner that the mouse is entering or leaving the client area of the button control. The button control sends this notification code in the form of a <a href="wm-notify"><strong>WM_NOTIFY</strong></a> message.<br/></td>
+<td><a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a></td>
+<td>Notifies the button control owner that the mouse is entering or leaving the client area of the button control. The button control sends this notification code in the form of a <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bn-clicked">BN_CLICKED</a></td>
-<td>Sent when the user clicks a button. <br/> The parent window of the button receives the <a href="bn-clicked">BN_CLICKED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
+<td><a href="bn-clicked.md">BN_CLICKED</a></td>
+<td>Sent when the user clicks a button. <br/> The parent window of the button receives the <a href="bn-clicked.md">BN_CLICKED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="bn-dblclk">BN_DBLCLK</a></td>
-<td>Sent when the user double-clicks a button. This notification code is sent automatically for <a href="button-styles"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles"><strong>BS_RADIOBUTTON</strong></a>, and <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> buttons. Other button types send <a href="bn-dblclk">BN_DBLCLK</a> only if they have the <a href="button-styles"><strong>BS_NOTIFY</strong></a> style.<br/> The parent window of the button receives the <a href="bn-dblclk">BN_DBLCLK</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
+<td><a href="bn-dblclk.md">BN_DBLCLK</a></td>
+<td>Sent when the user double-clicks a button. This notification code is sent automatically for <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>, and <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> buttons. Other button types send <a href="bn-dblclk.md">BN_DBLCLK</a> only if they have the <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> style.<br/> The parent window of the button receives the <a href="bn-dblclk.md">BN_DBLCLK</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bn-disable">BN_DISABLE</a></td>
+<td><a href="bn-disable.md">BN_DISABLE</a></td>
 <td>Sent when a button is disabled.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
-<br/> <br/> The parent window of the button receives the <a href="bn-disable">BN_DISABLE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
+<br/> <br/> The parent window of the button receives the <a href="bn-disable.md">BN_DISABLE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="bn-doubleclicked">BN_DOUBLECLICKED</a></td>
-<td>Sent when the user double-clicks a button. This notification code is sent automatically for <a href="button-styles"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles"><strong>BS_RADIOBUTTON</strong></a>, and <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> buttons. Other button types send <a href="bn-doubleclicked">BN_DOUBLECLICKED</a> only if they have the <a href="button-styles"><strong>BS_NOTIFY</strong></a> style.<br/> The parent window of the button receives the <a href="bn-doubleclicked">BN_DOUBLECLICKED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
+<td><a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a></td>
+<td>Sent when the user double-clicks a button. This notification code is sent automatically for <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>, and <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> buttons. Other button types send <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> only if they have the <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> style.<br/> The parent window of the button receives the <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bn-hilite">BN_HILITE</a></td>
+<td><a href="bn-hilite.md">BN_HILITE</a></td>
 <td>Sent when the user selects a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
-<br/> <br/> The parent window of the button receives the <a href="bn-hilite">BN_HILITE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
+<br/> <br/> The parent window of the button receives the <a href="bn-hilite.md">BN_HILITE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="bn-killfocus">BN_KILLFOCUS</a></td>
-<td>Sent when a button loses the keyboard focus. The button must have the <a href="button-styles"><strong>BS_NOTIFY</strong></a> style to send this notification code. <br/> The parent window of the button receives the <a href="bn-killfocus">BN_KILLFOCUS</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
+<td><a href="bn-killfocus.md">BN_KILLFOCUS</a></td>
+<td>Sent when a button loses the keyboard focus. The button must have the <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> style to send this notification code. <br/> The parent window of the button receives the <a href="bn-killfocus.md">BN_KILLFOCUS</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bn-paint">BN_PAINT</a></td>
+<td><a href="bn-paint.md">BN_PAINT</a></td>
 <td>Sent when a button should be painted.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
-<br/> <br/> The parent window of the button receives the <a href="bn-paint">BN_PAINT</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
+<br/> <br/> The parent window of the button receives the <a href="bn-paint.md">BN_PAINT</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="bn-pushed">BN_PUSHED</a></td>
+<td><a href="bn-pushed.md">BN_PUSHED</a></td>
 <td>Sent when the push state of a button is set to pushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
-<br/> <br/> The parent window of the button receives the <a href="bn-pushed">BN_PUSHED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
+<br/> <br/> The parent window of the button receives the <a href="bn-pushed.md">BN_PUSHED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bn-setfocus">BN_SETFOCUS</a></td>
-<td>Sent when a button receives the keyboard focus. The button must have the <a href="button-styles"><strong>BS_NOTIFY</strong></a> style to send this notification code. <br/> The parent window of the button receives the <a href="bn-setfocus">BN_SETFOCUS</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
+<td><a href="bn-setfocus.md">BN_SETFOCUS</a></td>
+<td>Sent when a button receives the keyboard focus. The button must have the <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> style to send this notification code. <br/> The parent window of the button receives the <a href="bn-setfocus.md">BN_SETFOCUS</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="bn-unhilite">BN_UNHILITE</a></td>
+<td><a href="bn-unhilite.md">BN_UNHILITE</a></td>
 <td>Sent when the highlight should be removed from a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
-<br/> <br/> The parent window of the button receives the <a href="bn-unhilite">BN_UNHILITE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
+<br/> <br/> The parent window of the button receives the <a href="bn-unhilite.md">BN_UNHILITE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="bn-unpushed">BN_UNPUSHED</a></td>
+<td><a href="bn-unpushed.md">BN_UNPUSHED</a></td>
 <td>Sent when the push state of a button is set to unpushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
-<br/> <br/> The parent window of the button receives the <a href="bn-unpushed">BN_UNPUSHED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
+<br/> <br/> The parent window of the button receives the <a href="bn-unpushed.md">BN_UNPUSHED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="nm-customdraw-button">NM_CUSTOMDRAW (button)</a></td>
-<td>Notifies the parent window of a button control about custom draw operations on the button. <br/> The button control sends this notification code in the form of a <a href="wm-notify"><strong>WM_NOTIFY</strong></a> message.<br/></td>
+<td><a href="nm-customdraw-button.md">NM_CUSTOMDRAW (button)</a></td>
+<td>Notifies the parent window of a button control about custom draw operations on the button. <br/> The button control sends this notification code in the form of a <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> message.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="wm-ctlcolorbtn"><strong>WM_CTLCOLORBTN</strong></a></td>
-<td>The <a href="wm-ctlcolorbtn"><strong>WM_CTLCOLORBTN</strong></a> message is sent to the parent window of a button before drawing the button. The parent window can change the button's text and background colors. However, only owner-drawn buttons respond to the parent window processing this message. <br/></td>
+<td><a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a></td>
+<td>The <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> message is sent to the parent window of a button before drawing the button. The parent window can change the button's text and background colors. However, only owner-drawn buttons respond to the parent window processing this message. <br/></td>
 </tr>
 </tbody>
 </table>

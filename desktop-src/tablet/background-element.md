@@ -58,10 +58,10 @@ Contains the background for a [**JournalDocument**](journaldocument-element.md) 
 </tr>
 <tr class="even">
 <td><strong>Color</strong></td>
-<td><a href="colortype-simple-type"><strong>ColorType</strong></a> simpleType</td>
+<td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType</td>
 <td>Optional</td>
 <td>Specifies the color of the background.</td>
-<td>See <a href="colortype-simple-type"><strong>ColorType</strong></a> simpleType.</td>
+<td>See <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType.</td>
 </tr>
 </tbody>
 </table>

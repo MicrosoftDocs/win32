@@ -203,7 +203,7 @@ This structure is supported by the Direct3D 11.1 runtime, which is available on 
 <td>Describes rasterizer state.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3d11-rect"><strong>D3D11_RECT</strong></a><br/></td>
+<td><a href="d3d11-rect.md"><strong>D3D11_RECT</strong></a><br/></td>
 <td>D3D11_RECT is declared as follows:<br/></td>
 </tr>
 <tr class="odd">

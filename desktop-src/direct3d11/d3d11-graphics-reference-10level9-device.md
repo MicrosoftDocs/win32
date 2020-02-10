@@ -84,7 +84,7 @@ This section lists the differences between each 10Level9 feature level and the D
 <tbody>
 <tr class="odd">
 <td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">See format support by <a href="overviews-direct3d-11-devices-downlevel-intro">feature level</a>${REMOVE}$<br />
+<td rowspan="3">See format support by <a href="overviews-direct3d-11-devices-downlevel-intro.md">feature level</a>${REMOVE}$<br />
 </td>
 </tr>
 <tr class="even">

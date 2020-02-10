@@ -62,7 +62,7 @@ Miscellaneous driver primitive capability flags.
 <tr class="odd">
 <td>D3DPMISCCAPS_TSSARGTEMP</td>
 <td>0x00000400L</td>
-<td>Device supports <a href="d3dta">D3DTA</a> for temporary register.</td>
+<td>Device supports <a href="d3dta.md">D3DTA</a> for temporary register.</td>
 </tr>
 <tr class="even">
 <td>D3DPMISCCAPS_BLENDOP</td>

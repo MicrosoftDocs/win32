@@ -40,23 +40,23 @@ The following table lists the **lDAPDisplayName** and description of the key att
 </tr>
 <tr class="even">
 <td><strong>lDAPDisplayName</strong></td>
-<td>The name used by LDAP clients, such as the ADSI LDAP provider, to refer to the class, for example to specify the class in a search filter. A class's <strong>lDAPDisplayName</strong> must be unique in the schema container, which means it must be unique across all <strong>classSchema</strong> and <strong>attributeSchema</strong> objects. For more information about composing a <strong>cn</strong> and an <strong>lDAPDisplayName</strong> for a new class, see <a href="naming-attributes-and-classes">Naming Attributes and Classes</a>.</td>
+<td>The name used by LDAP clients, such as the ADSI LDAP provider, to refer to the class, for example to specify the class in a search filter. A class's <strong>lDAPDisplayName</strong> must be unique in the schema container, which means it must be unique across all <strong>classSchema</strong> and <strong>attributeSchema</strong> objects. For more information about composing a <strong>cn</strong> and an <strong>lDAPDisplayName</strong> for a new class, see <a href="naming-attributes-and-classes.md">Naming Attributes and Classes</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>schemaIDGUID</strong></td>
-<td>A GUID stored as an octet string. This GUID uniquely identifies the class. This GUID can be used in access control entries to control access to objects of this class. For more information, see <a href="setting-permissions-on-child-object-operations">Setting Permissions on Child Object Operations</a>. On creation of the <strong>classSchema</strong> object, the Active Directory server generates this value if it is not specified. If you create a new class, generate your own GUID for each class so that all installations of your extension use the same <strong>schemaIDGUID</strong> to refer to the class.<br/></td>
+<td>A GUID stored as an octet string. This GUID uniquely identifies the class. This GUID can be used in access control entries to control access to objects of this class. For more information, see <a href="setting-permissions-on-child-object-operations.md">Setting Permissions on Child Object Operations</a>. On creation of the <strong>classSchema</strong> object, the Active Directory server generates this value if it is not specified. If you create a new class, generate your own GUID for each class so that all installations of your extension use the same <strong>schemaIDGUID</strong> to refer to the class.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>adminDisplayName</strong></td>
-<td>A display name of the class for use in administrative tools. If <strong>adminDisplayName</strong> is not specified when a class is created, the system uses the Common-Name value as the display name. This display name is used only if a mapping does not exist in the <strong>classDisplayName</strong> property of the display specifier for the class. For more information, see <a href="display-specifiers">Display Specifiers</a> and <a href="class-and-attribute-display-names">Class and Attribute Display Names</a>.<br/></td>
+<td>A display name of the class for use in administrative tools. If <strong>adminDisplayName</strong> is not specified when a class is created, the system uses the Common-Name value as the display name. This display name is used only if a mapping does not exist in the <strong>classDisplayName</strong> property of the display specifier for the class. For more information, see <a href="display-specifiers.md">Display Specifiers</a> and <a href="class-and-attribute-display-names.md">Class and Attribute Display Names</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>governsID</strong></td>
-<td>The OID of the class. This value must be unique among the <strong>governsIDs</strong> of all <strong>classSchema</strong> objects and the <strong>attributeIDs</strong> of all <strong>attributeSchema</strong> objects. For more information, see <a href="object-identifiers">Object Identifiers</a>.</td>
+<td>The OID of the class. This value must be unique among the <strong>governsIDs</strong> of all <strong>classSchema</strong> objects and the <strong>attributeIDs</strong> of all <strong>attributeSchema</strong> objects. For more information, see <a href="object-identifiers.md">Object Identifiers</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>rDnAttId</strong></td>
-<td>Identifies the naming attribute, which is the attribute that provides the RDN for this class   if different than the default (<strong>cn</strong>). Use of a naming attribute other than <strong>cn</strong> is discouraged. Naming attributes should be drawn from the well-known set (OU, CN, O, L, and DC) that is understood by all LDAP version 3 clients. For more information, see <a href="object-names-and-identities">Object Names and Identities</a> and <a href="syntaxes-for-attributes-in-active-directory-domain-services">Syntaxes for Attributes in Active Directory Domain Services</a>. A naming attribute must have the Directory String syntax. For more information, see <a href="syntaxes-for-attributes-in-active-directory-domain-services">Syntaxes for Attributes in Active Directory Domain Services</a>.<br/></td>
+<td>Identifies the naming attribute, which is the attribute that provides the RDN for this class   if different than the default (<strong>cn</strong>). Use of a naming attribute other than <strong>cn</strong> is discouraged. Naming attributes should be drawn from the well-known set (OU, CN, O, L, and DC) that is understood by all LDAP version 3 clients. For more information, see <a href="object-names-and-identities.md">Object Names and Identities</a> and <a href="syntaxes-for-attributes-in-active-directory-domain-services.md">Syntaxes for Attributes in Active Directory Domain Services</a>. A naming attribute must have the Directory String syntax. For more information, see <a href="syntaxes-for-attributes-in-active-directory-domain-services.md">Syntaxes for Attributes in Active Directory Domain Services</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>mustContain</strong>, <strong>systemMustContain</strong></td>
@@ -78,7 +78,7 @@ The following table lists the **lDAPDisplayName** and description of the key att
 <li>Abstract, meaning that the class provides a basic definition of a class that can be used to form structural classes.</li>
 <li>Auxiliary, meaning that a class that can be used to extend the definition of a class that inherits from it but cannot be used to form a class by itself.</li>
 </ul>
-For more information, see <a href="structural-abstract-and-auxiliary-classes">Structural, Abstract, and Auxiliary Classes</a>.<br/></td>
+For more information, see <a href="structural-abstract-and-auxiliary-classes.md">Structural, Abstract, and Auxiliary Classes</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>subClassOf</strong></td>
@@ -90,7 +90,7 @@ For more information, see <a href="structural-abstract-and-auxiliary-classes">St
 </tr>
 <tr class="odd">
 <td><strong>defaultObjectCategory</strong></td>
-<td>The distinguished name of this object class or one of its superclasses. When an instance of this object class is created, the system sets the <strong>objectCategory</strong> property of the new instance to the value specified in the <strong>defaultObjectCategory</strong> property of its object class. The <strong>objectCategory</strong> property is an indexed property used to increase the efficiency of object class searches. If <strong>defaultObjectCategory</strong> is not specified when a class is created, the system sets it to the distinguished name (DN) of the <strong>classSchema</strong> object for this class. If this object will be frequently queried by the value of a superclass rather than the object's own class, you can set <strong>defaultObjectCategory</strong> to the DN of the superclass. For example, if you are subclassing a predefined (category 1) class, the best practice is to set <strong>defaultObjectCategory</strong> to the same value as the superclass. This enables the standard UI to &quot;find&quot; your subclass.<br/> For more information, see <a href="object-class-and-object-category">Object Class and Object Category</a>.<br/></td>
+<td>The distinguished name of this object class or one of its superclasses. When an instance of this object class is created, the system sets the <strong>objectCategory</strong> property of the new instance to the value specified in the <strong>defaultObjectCategory</strong> property of its object class. The <strong>objectCategory</strong> property is an indexed property used to increase the efficiency of object class searches. If <strong>defaultObjectCategory</strong> is not specified when a class is created, the system sets it to the distinguished name (DN) of the <strong>classSchema</strong> object for this class. If this object will be frequently queried by the value of a superclass rather than the object's own class, you can set <strong>defaultObjectCategory</strong> to the DN of the superclass. For example, if you are subclassing a predefined (category 1) class, the best practice is to set <strong>defaultObjectCategory</strong> to the same value as the superclass. This enables the standard UI to &quot;find&quot; your subclass.<br/> For more information, see <a href="object-class-and-object-category.md">Object Class and Object Category</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>defaultHidingValue</strong></td>
@@ -106,11 +106,11 @@ For more information, see <a href="structural-abstract-and-auxiliary-classes">St
 </tr>
 <tr class="odd">
 <td><strong>defaultSecurityDescriptor</strong></td>
-<td>Specifies the default security descriptor for new objects of this class. For more information, see <a href="default-security-descriptor">Default Security Descriptor</a> and <a href="how-security-descriptors-are-set-on-new-directory-objects">How Security Descriptors are Set on New Directory Objects</a>.</td>
+<td>Specifies the default security descriptor for new objects of this class. For more information, see <a href="default-security-descriptor.md">Default Security Descriptor</a> and <a href="how-security-descriptors-are-set-on-new-directory-objects.md">How Security Descriptors are Set on New Directory Objects</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>isDefunct</strong></td>
-<td>A Boolean value that indicates whether the class is defunct. For more information, see <a href="disabling-existing-classes-and-attributes">Disabling Existing Classes and Attributes</a>.</td>
+<td>A Boolean value that indicates whether the class is defunct. For more information, see <a href="disabling-existing-classes-and-attributes.md">Disabling Existing Classes and Attributes</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>description</strong></td>

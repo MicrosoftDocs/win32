@@ -270,7 +270,7 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter"><strong>IConfigAsfWriter</strong></a></td>
-<td>Configures the <a href="wm-asf-writer-filter">WM ASF Writer</a> filter.</td>
+<td>Configures the <a href="wm-asf-writer-filter.md">WM ASF Writer</a> filter.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2"><strong>IConfigAsfWriter2</strong></a></td>
@@ -278,7 +278,7 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a></td>
-<td>Configures the <a href="avi-mux-filter">AVI Mux</a> filter.</td>
+<td>Configures the <a href="avi-mux-filter.md">AVI Mux</a> filter.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a></td>
@@ -306,11 +306,11 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo"><strong>IDirectDrawVideo</strong></a></td>
-<td>Queries the <a href="video-renderer-filter">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.</td>
+<td>Queries the <a href="video-renderer-filter.md">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>Provides access to DirectDraw surfaces allocated by the <a href="overlay-mixer-filter">Overlay Mixer</a> filter.</td>
+<td>Provides access to DirectDraw surfaces allocated by the <a href="overlay-mixer-filter.md">Overlay Mixer</a> filter.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator"><strong>IDirectDrawMediaSampleAllocator</strong></a></td>
@@ -350,11 +350,11 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvenc"><strong>IDVEnc</strong></a></td>
-<td>Sets and retrieves properties on the <a href="dv-video-encoder-filter">DV Video Encoder</a> filter.</td>
+<td>Sets and retrieves properties on the <a href="dv-video-encoder-filter.md">DV Video Encoder</a> filter.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvrgb219"><strong>IDVRGB219</strong></a></td>
-<td>Controls the dynamic range in the DV Video Encoder and <a href="dv-video-decoder-filter">DV Video Decoder</a> filters.</td>
+<td>Controls the dynamic range in the DV Video Encoder and <a href="dv-video-decoder-filter.md">DV Video Decoder</a> filters.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvsplitter"><strong>IDVSplitter</strong></a></td>
@@ -370,7 +370,7 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap"><strong>IEnumPIDMap</strong></a></td>
-<td>Enumerates the mappings of Packet IDs (PID) to output pins on the <a href="mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter.</td>
+<td>Enumerates the mappings of Packet IDs (PID) to output pins on the <a href="mpeg-2-demultiplexer.md">MPEG-2 Demultiplexer</a> filter.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ienumpins"><strong>IEnumPins</strong></a></td>
@@ -418,7 +418,7 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex"><strong>IFullScreenVideoEx</strong></a></td>
-<td>Exposed by the <a href="full-screen-renderer-filter">Full Screen Renderer</a> filter.</td>
+<td>Exposed by the <a href="full-screen-renderer-filter.md">Full Screen Renderer</a> filter.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igetcapabilitieskey"><strong>IGetCapabilitiesKey</strong></a></td>
@@ -442,18 +442,18 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iipdvdec"><strong>IIPDVDec</strong></a></td>
-<td>Configures the <a href="dv-video-decoder-filter">DV Video Decoder</a> filter.</td>
+<td>Configures the <a href="dv-video-decoder-filter.md">DV Video Decoder</a> filter.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-iksnodecontrol"><strong>IKsNodeControl</strong></a></td>
 <td>Exposed by USB Video Class (UVC) extension units.</td>
 </tr>
 <tr class="odd">
-<td><a href="ikspin"><strong>IKsPin</strong></a></td>
+<td><a href="ikspin.md"><strong>IKsPin</strong></a></td>
 <td>Retrieves the mediums supported by a kernel-mode pin.</td>
 </tr>
 <tr class="even">
-<td><a href="ikspropertyset"><strong>IKsPropertySet</strong></a></td>
+<td><a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a></td>
 <td>Sets properties on a kernel-mode filter.</td>
 </tr>
 <tr class="odd">
@@ -648,11 +648,11 @@ Deprecated.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivmraspectratiocontrol"><strong>IVMRAspectRatioControl</strong></a></td>
-<td>controls whether the <a href="video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) preserves the aspect ratio of the source video.</td>
+<td>controls whether the <a href="video-mixing-renderer-filter-7.md">Video Mixing Renderer Filter 7</a> (VMR-7) preserves the aspect ratio of the source video.</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmraspectratiocontrol9"><strong>IVMRAspectRatioControl9</strong></a></td>
-<td>Controls whether the <a href="video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video</td>
+<td>Controls whether the <a href="video-mixing-renderer-filter-9.md">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrdeinterlacecontrol"><strong>IVMRDeinterlaceControl</strong></a></td>

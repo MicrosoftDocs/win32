@@ -38,7 +38,7 @@ NCM_SETALLOWTYPE
 <dl> <dt>
 
 *addrMask* \[in\]
-</dt> <dd>Specifies the network address types as one or more of the <a href="net-string">**NET\_STRING**</a> constants.</dd> <dt>
+</dt> <dd>Specifies the network address types as one or more of the <a href="net-string.md">**NET\_STRING**</a> constants.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Must be zero.</dd> </dl>

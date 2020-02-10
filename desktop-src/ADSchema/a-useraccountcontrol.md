@@ -303,7 +303,7 @@ You cannot assign the permission settings of PASSWD_CANT_CHANGE by directly modi
 <tr class="even">
 <td>0x00800000</td>
 <td><a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWORD_EXPIRED</strong></a></td>
-<td>The user password has expired. This flag is created by the system using data from the <a href="a-pwdlastset"><strong>Pwd-Last-Set</strong></a> attribute and the domain policy.</td>
+<td>The user password has expired. This flag is created by the system using data from the <a href="a-pwdlastset.md"><strong>Pwd-Last-Set</strong></a> attribute and the domain policy.</td>
 </tr>
 <tr class="odd">
 <td>0x01000000</td>

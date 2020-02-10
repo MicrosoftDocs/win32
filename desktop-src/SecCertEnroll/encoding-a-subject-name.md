@@ -15,7 +15,7 @@ DC=jdomcsc
 DC=nttest  
 DC=microsoft  
 DC=com  
-</dl>The **IX500DistinguishedName** object creates the following DER-encoded (ASN.1) sequence. Notice that the sequence is encoded in reverse order. This example is derived from the<a href="pkcs--7-renewal-encoded-asn-1">PKCS #7 Renewal Encoded ASN.1</a> topic.
+</dl>The **IX500DistinguishedName** object creates the following DER-encoded (ASN.1) sequence. Notice that the sequence is encoded in reverse order. This example is derived from the<a href="pkcs--7-renewal-encoded-asn-1.md">PKCS #7 Renewal Encoded ASN.1</a> topic.
 
 ``` syntax
 0a0d: 30 81 c4          ; SEQUENCE (c4 Bytes)

@@ -22,7 +22,7 @@ This section of topics provide developers with guidance on how to implement imag
 [The Lifetime of a Codec](-wic-howwicworks.md)  
 [How to WIC-enable a Codec](-wic-howwicworks.md)  
 [Multi-Threaded Apartment Support in WIC](-wic-howwicworks.md)  
-</dl> </dd> <a href="-wic-implementingwicdecoder">Implementing a WIC-Enabled Decoder</a><dl>
+</dl> </dd> <a href="-wic-implementingwicdecoder.md">Implementing a WIC-Enabled Decoder</a><dl>
 
 [Decoder Interfaces](-wic-decoderinterfaces.md)<dl>
 
@@ -33,7 +33,7 @@ This section of topics provide developers with guidance on how to implement imag
 [IWICMetadataBlockReader](-wic-imp-iwicmetadatablockreader.md)  
 [IWICBitmapSourceTransform](-wic-imp-iwicbitmapsourcetransform.md)  
 [IWICDevelopRaw](-wic-imp-iwicdevelopraw.md)  
-</dl> </dd> </dl> </dd> <a href="-wic-implementingwicencoder">Implementing a WIC-Enabled Encoder</a>  
+</dl> </dd> </dl> </dd> <a href="-wic-implementingwicencoder.md">Implementing a WIC-Enabled Encoder</a>  
 <dl>
 
 [Encoder Interfaces](-wic-encoderinterfaces.md)  
@@ -43,7 +43,7 @@ This section of topics provide developers with guidance on how to implement imag
 [IWICBitmapCodecProgressNotification](-wic-imp-iwicbitmapcodecprogressnotification-encoder.md)  
 [IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md)  
 [IWICMetadataBlockWriter](-wic-imp-iwicmetadatablockwriter.md)  
-</dl> </dd> </dl> </dd> <a href="-wic-codecinstallandreg">Codec Installation and Registration</a>  
+</dl> </dd> </dl> </dd> <a href="-wic-codecinstallandreg.md">Codec Installation and Registration</a>  
 <dl>
 
 [Registering a Codec](-wic-codecinstallandreg.md)  
@@ -54,19 +54,19 @@ This section of topics provide developers with guidance on how to implement imag
 <dl>
 
 [Registering a Container Format with Metadata Writers](-wic-encoderregentries.md)  
-</dl> </dd> <a href="-wic-decoderregentries">Encoder-Specific Registry Entries</a>  
+</dl> </dd> <a href="-wic-decoderregentries.md">Encoder-Specific Registry Entries</a>  
 <dl>
 
 [Registering a New Container Format with Metadata Readers](-wic-decoderregentries.md)  
-</dl> </dd> <a href="-wic-integrationregentries">Integration with Windows Vista PhotoGallery and Explorer</a>  
+</dl> </dd> <a href="-wic-integrationregentries.md">Integration with Windows Vista PhotoGallery and Explorer</a>  
 <dl>
 
 [Windows Property Store](-wic-integrationregentries.md)  
 [Windows Vista Photo Gallery](-wic-integrationregentries.md)  
 [Windows Vista Thumbnail Cache](-wic-integrationregentries.md)  
-</dl> </dd> </dl> </dd> <a href="-wic-codecinstallandreg">Updating the Thumbnail Cache when Installing a Codec</a>  
+</dl> </dd> </dl> </dd> <a href="-wic-codecinstallandreg.md">Updating the Thumbnail Cache when Installing a Codec</a>  
 [Making Your WIC-Enabled Codec Available to Users](-wic-codecinstallandreg.md)  
-</dl> </dd> <a href="-wic-howtowriteacodec-conclusion">Conclusion</a>  
+</dl> </dd> <a href="-wic-howtowriteacodec-conclusion.md">Conclusion</a>  
 </dl>
 
 ## Related topics

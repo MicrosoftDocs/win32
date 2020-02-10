@@ -36,7 +36,7 @@ This section contains information about the D3DX 11 functions.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="d3dx11compilefromfile"><strong>D3DX11CompileFromFile</strong></a><br/></td>
+<td><a href="d3dx11compilefromfile.md"><strong>D3DX11CompileFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -49,7 +49,7 @@ Instead of using this function, we recommend that you compile offline by using t
 <br/> Compile a shader or an effect from a file.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11compilefrommemory"><strong>D3DX11CompileFromMemory</strong></a><br/></td>
+<td><a href="d3dx11compilefrommemory.md"><strong>D3DX11CompileFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -62,7 +62,7 @@ Instead of using this function, we recommend that you compile offline by using t
 <br/> Compile a shader or an effect that is loaded in memory.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11compilefromresource"><strong>D3DX11CompileFromResource</strong></a><br/></td>
+<td><a href="d3dx11compilefromresource.md"><strong>D3DX11CompileFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -75,7 +75,7 @@ Instead of using this function, we recommend that you use <a href="https://docs.
 <br/> Compile a shader or an effect from a resource.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11computenormalmap"><strong>D3DX11ComputeNormalMap</strong></a><br/></td>
+<td><a href="d3dx11computenormalmap.md"><strong>D3DX11ComputeNormalMap</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -88,7 +88,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createasynccompilerprocessor"><strong>D3DX11CreateAsyncCompilerProcessor</strong></a><br/></td>
+<td><a href="d3dx11createasynccompilerprocessor.md"><strong>D3DX11CreateAsyncCompilerProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
@@ -96,7 +96,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Create an asynchronous-data processor for a shader.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createasyncfileloader"><strong>D3DX11CreateAsyncFileLoader</strong></a><br/></td>
+<td><a href="d3dx11createasyncfileloader.md"><strong>D3DX11CreateAsyncFileLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
@@ -104,7 +104,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Create an asynchronous-file loader.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createasyncmemoryloader"><strong>D3DX11CreateAsyncMemoryLoader</strong></a><br/></td>
+<td><a href="d3dx11createasyncmemoryloader.md"><strong>D3DX11CreateAsyncMemoryLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
@@ -112,7 +112,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Create an asynchronous-memory loader.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createasyncresourceloader"><strong>D3DX11CreateAsyncResourceLoader</strong></a><br/></td>
+<td><a href="d3dx11createasyncresourceloader.md"><strong>D3DX11CreateAsyncResourceLoader</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
@@ -120,7 +120,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Create an asynchronous-resource loader.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createasyncshaderpreprocessprocessor"><strong>D3DX11CreateAsyncShaderPreprocessProcessor</strong></a><br/></td>
+<td><a href="d3dx11createasyncshaderpreprocessprocessor.md"><strong>D3DX11CreateAsyncShaderPreprocessProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
@@ -128,31 +128,31 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Create a data processor for a shader asynchronously.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createasynctextureinfoprocessor"><strong>D3DX11CreateAsyncTextureInfoProcessor</strong></a><br/></td>
+<td><a href="d3dx11createasynctextureinfoprocessor.md"><strong>D3DX11CreateAsyncTextureInfoProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
-<br/> Create a data processor to be used with a <a href="id3dx11threadpump"><strong>thread pump</strong></a>.<br/></td>
+<br/> Create a data processor to be used with a <a href="id3dx11threadpump.md"><strong>thread pump</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createasynctextureprocessor"><strong>D3DX11CreateAsyncTextureProcessor</strong></a><br/></td>
+<td><a href="d3dx11createasynctextureprocessor.md"><strong>D3DX11CreateAsyncTextureProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
-<br/> Create a data processor to be used with a <a href="id3dx11threadpump"><strong>thread pump</strong></a>.<br/></td>
+<br/> Create a data processor to be used with a <a href="id3dx11threadpump.md"><strong>thread pump</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createasyncshaderresourceviewprocessor"><strong>D3DX11CreateAsyncShaderResourceViewProcessor</strong></a><br/></td>
+<td><a href="d3dx11createasyncshaderresourceviewprocessor.md"><strong>D3DX11CreateAsyncShaderResourceViewProcessor</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
-<br/> Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX11 that uses <a href="id3dx11threadpump"><strong>thread pumps</strong></a>.<br/></td>
+<br/> Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX11 that uses <a href="id3dx11threadpump.md"><strong>thread pumps</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createshaderresourceviewfromfile"><strong>D3DX11CreateShaderResourceViewFromFile</strong></a><br/></td>
+<td><a href="d3dx11createshaderresourceviewfromfile.md"><strong>D3DX11CreateShaderResourceViewFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -169,7 +169,7 @@ Instead of using this function, we recommend that you use these:</p>
 <br/> Create a shader-resource view from a file.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createshaderresourceviewfrommemory"><strong>D3DX11CreateShaderResourceViewFromMemory</strong></a><br/></td>
+<td><a href="d3dx11createshaderresourceviewfrommemory.md"><strong>D3DX11CreateShaderResourceViewFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -186,7 +186,7 @@ Instead of using this function, we recommend that you use these:</p>
 <br/> Create a shader-resource view from a file in memory.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createshaderresourceviewfromresource"><strong>D3DX11CreateShaderResourceViewFromResource</strong></a><br/></td>
+<td><a href="d3dx11createshaderresourceviewfromresource.md"><strong>D3DX11CreateShaderResourceViewFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -203,7 +203,7 @@ Instead of using this function, we recommend that you use <a href="https://docs.
 <br/> Create a shader-resource view from a resource.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createtexturefromfile"><strong>D3DX11CreateTextureFromFile</strong></a><br/></td>
+<td><a href="d3dx11createtexturefromfile.md"><strong>D3DX11CreateTextureFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -220,7 +220,7 @@ Instead of using this function, we recommend that you use these:</p>
 <br/> Create a texture resource from a file.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createtexturefrommemory"><strong>D3DX11CreateTextureFromMemory</strong></a><br/></td>
+<td><a href="d3dx11createtexturefrommemory.md"><strong>D3DX11CreateTextureFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -237,7 +237,7 @@ Instead of using this function, we recommend that you use these:</p>
 <br/> Create a texture resource from a file residing in system memory.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11createtexturefromresource"><strong>D3DX11CreateTextureFromResource</strong></a><br/></td>
+<td><a href="d3dx11createtexturefromresource.md"><strong>D3DX11CreateTextureFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -254,7 +254,7 @@ Instead of using this function, we recommend that you use <a href="https://docs.
 <br/> Create a texture from another resource.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11createthreadpump"><strong>D3DX11CreateThreadPump</strong></a><br/></td>
+<td><a href="d3dx11createthreadpump.md"><strong>D3DX11CreateThreadPump</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
@@ -262,7 +262,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Create a thread pump.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11filtertexture"><strong>D3DX11FilterTexture</strong></a><br/></td>
+<td><a href="d3dx11filtertexture.md"><strong>D3DX11FilterTexture</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -275,7 +275,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Generates mipmap chain using a particular texture filter.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11getimageinfofromfile"><strong>D3DX11GetImageInfoFromFile</strong></a><br/></td>
+<td><a href="d3dx11getimageinfofromfile.md"><strong>D3DX11GetImageInfoFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -288,7 +288,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Retrieves information about a given image file.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11getimageinfofrommemory"><strong>D3DX11GetImageInfoFromMemory</strong></a><br/></td>
+<td><a href="d3dx11getimageinfofrommemory.md"><strong>D3DX11GetImageInfoFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -301,7 +301,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Get information about an image already loaded into memory.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11getimageinfofromresource"><strong>D3DX11GetImageInfoFromResource</strong></a><br/></td>
+<td><a href="d3dx11getimageinfofromresource.md"><strong>D3DX11GetImageInfoFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -314,7 +314,7 @@ Instead of using this function, we recommend that you use <a href="https://docs.
 <br/> Retrieves information about a given image in a resource.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11loadtexturefromtexture"><strong>D3DX11LoadTextureFromTexture</strong></a><br/></td>
+<td><a href="d3dx11loadtexturefromtexture.md"><strong>D3DX11LoadTextureFromTexture</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -327,7 +327,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Load a texture from a texture.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11preprocessshaderfromfile"><strong>D3DX11PreprocessShaderFromFile</strong></a><br/></td>
+<td><a href="d3dx11preprocessshaderfromfile.md"><strong>D3DX11PreprocessShaderFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -340,7 +340,7 @@ Instead of using this function, we recommend that you use the <a href="https://d
 <br/> Create a shader from a file without compiling it.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11preprocessshaderfrommemory"><strong>D3DX11PreprocessShaderFromMemory</strong></a><br/></td>
+<td><a href="d3dx11preprocessshaderfrommemory.md"><strong>D3DX11PreprocessShaderFromMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -353,7 +353,7 @@ Instead of using this function, we recommend that you use the <a href="https://d
 <br/> Create a shader from memory without compiling it.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11preprocessshaderfromresource"><strong>D3DX11PreprocessShaderFromResource</strong></a><br/></td>
+<td><a href="d3dx11preprocessshaderfromresource.md"><strong>D3DX11PreprocessShaderFromResource</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -366,7 +366,7 @@ Instead of using this function, we recommend that you use the <a href="https://d
 <br/> Create a shader from a resource without compiling it.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11savetexturetofile"><strong>D3DX11SaveTextureToFile</strong></a><br/></td>
+<td><a href="d3dx11savetexturetofile.md"><strong>D3DX11SaveTextureToFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -379,7 +379,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Save a texture to a file.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11savetexturetomemory"><strong>D3DX11SaveTextureToMemory</strong></a><br/></td>
+<td><a href="d3dx11savetexturetomemory.md"><strong>D3DX11SaveTextureToMemory</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -392,7 +392,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Save a texture to memory.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11shprojectcubemap"><strong>D3DX11SHProjectCubeMap</strong></a><br/></td>
+<td><a href="d3dx11shprojectcubemap.md"><strong>D3DX11SHProjectCubeMap</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -405,7 +405,7 @@ Instead of using this function, we recommend that you use the <a href="https://g
 <br/> Projects a function represented in a cube map into spherical harmonics.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11unsetalldeviceobjects"><strong>D3DX11UnsetAllDeviceObjects</strong></a><br/></td>
+<td><a href="d3dx11unsetalldeviceobjects.md"><strong>D3DX11UnsetAllDeviceObjects</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.

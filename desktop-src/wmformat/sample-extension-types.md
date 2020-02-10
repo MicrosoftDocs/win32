@@ -45,7 +45,7 @@ The following table lists the predefined data unit extension identifiers, and de
 <tbody>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_OutputCleanPoint</td>
-<td>The data indicates whether the sample is a <a href="wmformat-glossary"><em>cleanpoint</em></a>. A value of zero indicates that the sample is not a cleanpoint. A non-zero value indicates that it is a cleanpoint. This sample data unit extension (DUE) type is used to keep track of cleanpoints when writing precompressed media streams that were encoded with third-party codecs.</td>
+<td>The data indicates whether the sample is a <a href="wmformat-glossary.md"><em>cleanpoint</em></a>. A value of zero indicates that the sample is not a cleanpoint. A non-zero value indicates that it is a cleanpoint. This sample data unit extension (DUE) type is used to keep track of cleanpoints when writing precompressed media streams that were encoded with third-party codecs.</td>
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_Timecode</td>
@@ -61,7 +61,7 @@ The following table lists the predefined data unit extension identifiers, and de
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_PixelAspectRatio</td>
-<td>The data indicates the pixel aspect ratio of the content in the sample. This applies only to video.This extension type is used to identify the aspect ratio of non-square pixels. For more information, see <a href="to-read-and-write-video-streams-with-non-square-pixels">To Read and Write Video Streams with Non-Square Pixels</a>.<br/> Aspect ratio values are stored as a word whose low byte is the X aspect and whose high byte is the Y aspect. For example, 16:9 is stored as 0x0910.<br/> The size for this DUE is always WM_SampleExtension_PixelAspectRatio_Size, which is 2 bytes.<br/></td>
+<td>The data indicates the pixel aspect ratio of the content in the sample. This applies only to video.This extension type is used to identify the aspect ratio of non-square pixels. For more information, see <a href="to-read-and-write-video-streams-with-non-square-pixels.md">To Read and Write Video Streams with Non-Square Pixels</a>.<br/> Aspect ratio values are stored as a word whose low byte is the X aspect and whose high byte is the Y aspect. For example, 16:9 is stored as 0x0910.<br/> The size for this DUE is always WM_SampleExtension_PixelAspectRatio_Size, which is 2 bytes.<br/></td>
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_SampleDuration</td>

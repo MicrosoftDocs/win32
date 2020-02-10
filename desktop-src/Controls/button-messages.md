@@ -113,35 +113,35 @@ The window procedure for the predefined button control window class carries out 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="bm-click"><strong>BM_CLICK</strong></a></td>
-<td>Sends the button a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
+<td><a href="bm-click.md"><strong>BM_CLICK</strong></a></td>
+<td>Sends the button a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> and a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup"><strong>WM_LBUTTONUP</strong></a> message, and sends the parent window a <a href="bn-clicked.md">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="even">
-<td><a href="bm-getcheck"><strong>BM_GETCHECK</strong></a></td>
+<td><a href="bm-getcheck.md"><strong>BM_GETCHECK</strong></a></td>
 <td>Returns the check state of the button.</td>
 </tr>
 <tr class="odd">
-<td><a href="bm-getimage"><strong>BM_GETIMAGE</strong></a></td>
+<td><a href="bm-getimage.md"><strong>BM_GETIMAGE</strong></a></td>
 <td>Returns a handle to the bitmap or icon associated with the button or <strong>NULL</strong> if the button has no bitmap or icon.</td>
 </tr>
 <tr class="even">
-<td><a href="bm-getstate"><strong>BM_GETSTATE</strong></a></td>
+<td><a href="bm-getstate.md"><strong>BM_GETSTATE</strong></a></td>
 <td>Returns the current check state, push state, and focus state of the button.</td>
 </tr>
 <tr class="odd">
-<td><a href="bm-setcheck"><strong>BM_SETCHECK</strong></a></td>
+<td><a href="bm-setcheck.md"><strong>BM_SETCHECK</strong></a></td>
 <td>Sets the check state for all styles of radio buttons and check boxes. If the <em>wParam</em> parameter is greater than zero for radio buttons, the button is given the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles"><strong>WS_TABSTOP</strong></a> style.</td>
 </tr>
 <tr class="even">
-<td><a href="bm-setimage"><strong>BM_SETIMAGE</strong></a></td>
+<td><a href="bm-setimage.md"><strong>BM_SETIMAGE</strong></a></td>
 <td>Associates the specified bitmap or icon handle with the button and returns a handle to the previous bitmap or icon.</td>
 </tr>
 <tr class="odd">
-<td><a href="bm-setstate"><strong>BM_SETSTATE</strong></a></td>
-<td>Sets the push state of the button. For owner-drawn buttons, a <a href="wm-drawitem"><strong>WM_DRAWITEM</strong></a> message is sent to the parent window if the state of the button has changed.</td>
+<td><a href="bm-setstate.md"><strong>BM_SETSTATE</strong></a></td>
+<td>Sets the push state of the button. For owner-drawn buttons, a <a href="wm-drawitem.md"><strong>WM_DRAWITEM</strong></a> message is sent to the parent window if the state of the button has changed.</td>
 </tr>
 <tr class="even">
-<td><a href="bm-setstyle"><strong>BM_SETSTYLE</strong></a></td>
+<td><a href="bm-setstyle.md"><strong>BM_SETSTYLE</strong></a></td>
 <td>Sets the button style. If the low-order word of the <em>lParam</em> parameter is <strong>TRUE</strong>, the button is redrawn.</td>
 </tr>
 <tr class="odd">
@@ -168,31 +168,31 @@ The window procedure for the predefined button control window class carries out 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="button-styles"><strong>BS_AUTOCHECKBOX</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_AUTOCHECKBOX</strong></a></td>
 <td>DLGC_WANTCHARS | DLGC_BUTTON</td>
 </tr>
 <tr class="even">
-<td><a href="button-styles"><strong>BS_AUTORADIOBUTTON</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_AUTORADIOBUTTON</strong></a></td>
 <td>DLGC_RADIOBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td><a href="button-styles"><strong>BS_CHECKBOX</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_CHECKBOX</strong></a></td>
 <td>DLGC_WANTCHARS | DLGC_BUTTON</td>
 </tr>
 <tr class="even">
-<td><a href="button-styles"><strong>BS_DEFPUSHBUTTON</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_DEFPUSHBUTTON</strong></a></td>
 <td>DLGC_DEFPUSHBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td><a href="button-styles"><strong>BS_GROUPBOX</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_GROUPBOX</strong></a></td>
 <td>DLGC_STATIC</td>
 </tr>
 <tr class="even">
-<td><a href="button-styles"><strong>BS_PUSHBUTTON</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_PUSHBUTTON</strong></a></td>
 <td>DLGC_UNDEFPUSHBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td><a href="button-styles"><strong>BS_RADIOBUTTON</strong></a></td>
+<td><a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a></td>
 <td>DLGC_RADIOBUTTON | DLGC_BUTTON</td>
 </tr>
 </tbody>
@@ -218,7 +218,7 @@ The window procedure for the predefined button control window class carries out 
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk"><strong>WM_LBUTTONDBLCLK</strong></a></td>
-<td>Sends a <a href="bn-dblclk">BN_DBLCLK</a> notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> message.</td>
+<td>Sends a <a href="bn-dblclk.md">BN_DBLCLK</a> notification code to the parent window for radio buttons and owner-drawn buttons. For other buttons, a double-click is processed as a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a> message.</td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown"><strong>WM_LBUTTONDOWN</strong></a></td>
@@ -234,7 +234,7 @@ The window procedure for the predefined button control window class carries out 
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate"><strong>WM_NCCREATE</strong></a></td>
-<td>Turns any <a href="button-styles"><strong>BS_OWNERDRAW</strong></a> button into a <a href="button-styles"><strong>BS_PUSHBUTTON</strong></a> button.</td>
+<td>Turns any <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button into a <a href="button-styles.md"><strong>BS_PUSHBUTTON</strong></a> button.</td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest"><strong>WM_NCHITTEST</strong></a></td>
@@ -246,7 +246,7 @@ The window procedure for the predefined button control window class carries out 
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus"><strong>WM_SETFOCUS</strong></a></td>
-<td>Draws a focus rectangle on the button getting the focus. For radio buttons and automatic radio buttons, the parent window is sent a <a href="bn-clicked">BN_CLICKED</a> notification code.</td>
+<td>Draws a focus rectangle on the button getting the focus. For radio buttons and automatic radio buttons, the parent window is sent a <a href="bn-clicked.md">BN_CLICKED</a> notification code.</td>
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont"><strong>WM_SETFONT</strong></a></td>

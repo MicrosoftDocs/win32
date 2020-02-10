@@ -135,7 +135,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 </tr>
 <tr class="even">
 <td><p><span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Type</em></p></td>
-<td><p>Optional. Any <a href="dx-graphics-hlsl-scalar">scalar HLSL type</a> or <a href="dx-graphics-hlsl-vector"><strong>vector HLSL type</strong></a>, surrounded by angle brackets. The default type is <strong>float4</strong>.</p></td>
+<td><p>Optional. Any <a href="dx-graphics-hlsl-scalar.md">scalar HLSL type</a> or <a href="dx-graphics-hlsl-vector.md"><strong>vector HLSL type</strong></a>, surrounded by angle brackets. The default type is <strong>float4</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="Name"></span><span id="name"></span><span id="NAME"></span><em>Name</em></p></td>

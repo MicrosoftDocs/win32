@@ -58,7 +58,7 @@ Contains the content for a Journal page.
 <tbody>
 <tr class="odd">
 <td><strong>Type</strong></td>
-<td><a href="contenttype-complex-type"><strong>ContentType complexType</strong></a></td>
+<td><a href="contenttype-complex-type.md"><strong>ContentType complexType</strong></a></td>
 <td>Required</td>
 <td>If the type is &quot;Inert&quot;, then the content cannot be modified.<br/></td>
 <td><ul>

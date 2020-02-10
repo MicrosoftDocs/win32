@@ -44,7 +44,7 @@ This section describes the Windows Shell interfaces.
 <td>Informs an accessibility app that its window has been undocked.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="iaclcustommru"><strong>IACLCustomMRU</strong></a><br/></td>
+<td><a href="iaclcustommru.md"><strong>IACLCustomMRU</strong></a><br/></td>
 <td>Exposes methods that are used to initialize a most recently used (MRU) list for an autocompletion object.<br/></td>
 </tr>
 <tr class="odd">
@@ -655,7 +655,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid"><strong>ILaunchSourceAppUserModelId</strong></a><br/></td>
-<td>Provides a method for retrieving an <a href="appids">AppUserModelId</a>.<br/></td>
+<td>Provides a method for retrieving an <a href="appids.md">AppUserModelId</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference"><strong>ILaunchSourceViewSizePreference</strong></a><br/></td>
@@ -682,7 +682,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Exposes a method that represents a modal window. This interface is used in the Windows XP Passport Wizard.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="imultimonitordockingsite"><strong>IMultiMonitorDockingSite</strong></a><br/></td>
+<td><a href="imultimonitordockingsite.md"><strong>IMultiMonitorDockingSite</strong></a><br/></td>
 <td>Implemented by the browser. Exposes methods that manage which monitor contains the Windows taskbar on a multiple monitor system. <br/></td>
 </tr>
 <tr class="even">
@@ -874,11 +874,11 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the <em>shadow copies</em> technology provided with Windows Server 2003.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="iprivateidentitymanager"><strong>IPrivateIdentityManager</strong></a><br/></td>
+<td><a href="iprivateidentitymanager.md"><strong>IPrivateIdentityManager</strong></a><br/></td>
 
 </tr>
 <tr class="even">
-<td><a href="iprivateidentitymanager2"><strong>IPrivateIdentityManager2</strong></a><br/></td>
+<td><a href="iprivateidentitymanager2.md"><strong>IPrivateIdentityManager2</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
@@ -907,7 +907,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay"><strong>IQueryCancelAutoPlay</strong></a><br/></td>
-<td>Exposes a method that programmatically overrides <a href="autorun2k-intro">AutoPlay</a> or <a href="autoplay">AutoRun</a>. This allows you to customize the location and type of content that is launched when media is inserted.<br/></td>
+<td>Exposes a method that programmatically overrides <a href="autorun2k-intro.md">AutoPlay</a> or <a href="autoplay.md">AutoRun</a>. This allows you to customize the location and type of content that is launched when media is inserted.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycodepage"><strong>IQueryCodePage</strong></a><br/></td>
@@ -994,11 +994,11 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a>. Its methods provide a variety of information about the contents of a Shell folder.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="ishellfoldersearchable"><strong>IShellFolderSearchable</strong></a><br/></td>
+<td><a href="ishellfoldersearchable.md"><strong>IShellFolderSearchable</strong></a><br/></td>
 <td>Exposes methods that allow a Shell extension to provide a searchable namespace.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="ishellfoldersearchablecallback"><strong>IShellFolderSearchableCallback</strong></a><br/></td>
+<td><a href="ishellfoldersearchablecallback.md"><strong>IShellFolderSearchableCallback</strong></a><br/></td>
 <td>Exposes callback routines to monitor the search process.<br/></td>
 </tr>
 <tr class="odd">
@@ -1018,7 +1018,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Exposes methods that modify the current folder view.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="ishellfolderviewtype"><strong>IShellFolderViewType</strong></a><br/></td>
+<td><a href="ishellfolderviewtype.md"><strong>IShellFolderViewType</strong></a><br/></td>
 <td>Exposes methods that enable a Shell folder to support different views on its content (different hierarchical layouts of its data).<br/></td>
 </tr>
 <tr class="even">
@@ -1380,7 +1380,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="taskcompletionclient"><strong>TaskCompletionClient</strong></a><br/></td>
+<td><a href="taskcompletionclient.md"><strong>TaskCompletionClient</strong></a><br/></td>
 <td>Enables task completion. <br/></td>
 </tr>
 </tbody>

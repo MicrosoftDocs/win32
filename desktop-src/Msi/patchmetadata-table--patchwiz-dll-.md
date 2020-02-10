@@ -58,7 +58,7 @@ The name of a metadata property. The AllowRemoval, ManufacturerName, TargetProdu
 <tbody>
 <tr class="odd">
 <td>AllowRemoval</td>
-<td>An integer value that indicates whether or not the patch is an <a href="uninstallable-patches">Uninstallable Patch</a>. If the Value field contains a 0 (zero), the patch cannot be removed. If the Value field contains 1 (one), the patch is an Uninstallable Patch. This property is required.This property is registered and its value can be obtain by using the <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> function.<br/></td>
+<td>An integer value that indicates whether or not the patch is an <a href="uninstallable-patches.md">Uninstallable Patch</a>. If the Value field contains a 0 (zero), the patch cannot be removed. If the Value field contains 1 (one), the patch is an Uninstallable Patch. This property is required.This property is registered and its value can be obtain by using the <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> function.<br/></td>
 </tr>
 <tr class="even">
 <td>ManufacturerName</td>
@@ -69,7 +69,7 @@ The name of a metadata property. The AllowRemoval, ManufacturerName, TargetProdu
 <td>Indicates that the patch targets the RTM version of the product or the most recent major upgrade patch. Author this optional property in minor upgrade patches that contain sequencing information to indicate that the patch removes of all patches up to the RTM version of the product, or up to the most recent major upgrade patch. This property is available beginning with Windows Installer 3.1.
 <blockquote>
 [!Note]<br />
-To require that Windows Installer 3.1 be installed to apply the patch, set the MinimumRequiredMsiVersion property to 310 in the <a href="properties-table-patchwiz-dll-">Properties Table</a> of the .pcp file.
+To require that Windows Installer 3.1 be installed to apply the patch, set the MinimumRequiredMsiVersion property to 310 in the <a href="properties-table-patchwiz-dll-.md">Properties Table</a> of the .pcp file.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -99,7 +99,7 @@ To require that Windows Installer 3.1 be installed to apply the patch, set the 
 </tr>
 <tr class="even">
 <td>OptimizedInstallMode</td>
-<td>If this property is set to 1 (one) in all the patches to be applied in a transaction, the application of the patch is optimized if possible. For information, see <a href="patch-optimization">Patch Optimization</a>. Available beginning with Windows Installer 3.1.</td>
+<td>If this property is set to 1 (one) in all the patches to be applied in a transaction, the application of the patch is optimized if possible. For information, see <a href="patch-optimization.md">Patch Optimization</a>. Available beginning with Windows Installer 3.1.</td>
 </tr>
 </tbody>
 </table>

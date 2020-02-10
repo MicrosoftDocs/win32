@@ -54,7 +54,7 @@ These interfaces support application control over video rendering. Note that som
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>Access a DirectDraw surface allocated by the <a href="overlay-mixer-filter">Overlay Mixer</a> filter.(Deprecated.)</td>
+<td>Access a DirectDraw surface allocated by the <a href="overlay-mixer-filter.md">Overlay Mixer</a> filter.(Deprecated.)</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>

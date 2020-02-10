@@ -85,7 +85,7 @@ The following event identifiers are defined.
 <tbody>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_MPEG2DEMUX_PTS_TRANSLATION</td>
-<td>Logged when the <a href="mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter converts a presentation time stamp (PTS) to stream time.
+<td>Logged when the <a href="mpeg-2-demultiplexer.md">MPEG-2 Demultiplexer</a> filter converts a presentation time stamp (PTS) to stream time.
 <ul>
 <li><strong>data</strong>[0]: Converted start time.</li>
 <li><strong>data</strong>[1]: Converted stop time.</li>
