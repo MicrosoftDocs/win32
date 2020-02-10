@@ -1,5 +1,5 @@
 ---
-title: Properties
+title: Properties (Common Elements)
 description: Text Services Framework (TSF) provides properties that associate metadata with a range of text.
 ms.assetid: 'd1d0dd99-f303-4355-9835-917de9491a0b'
 keywords:

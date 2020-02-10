@@ -45,7 +45,7 @@ To create this object, call [**CoCreateInstance**](https://docs.microsoft.com/wi
 
 Objects instantiated from the **CServiceConfig** class aggregate the free-threaded marshaler so that they can be stored by system runtimes and reused in different apartments.
 
-To configure an individual service, call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration.
+To configure an individual service, call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) for the interface associated with the service and then call methods on that interface to establish the appropriate configuration.
 
 ## Requirements
 

@@ -13,7 +13,7 @@ A Windows Remote Management (WinRM) plug-in must be registered in the WinRM cata
 
 The following command registers a plug-in configuration with the WinRM service:
 
-**winrm create https://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlugIn -file:myplugin.xml**
+**winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlugIn -file:myplugin.xml**
 
 > [!Note]  
 > The WinRM service needs to be restarted to expose the newly registered plug-ins.
@@ -24,7 +24,7 @@ Plug-in configuration is specified in XML. The following is an example.
 
 
 ```XML
-<PlugInConfiguration xmlns="https://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
+<PlugInConfiguration xmlns="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
                      Name="MyPlugIn"
                      Filename="%systemroot%\system32\myplugin.dll" 
                      SDKVersion="1"
@@ -213,8 +213,8 @@ The following is the plug-in configuration schema specified as an XSD.
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" 
            elementFormDefault="qualified" 
-           targetNamespace="https://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
-           xmlns="https://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
+           targetNamespace="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
+           xmlns="http://schemas.microsoft.com/wbem/wsman/1/config/PluginConfiguration" 
            xmlns:xs="https://www.w3.org/2001/XMLSchema">
  <xs:element name="PlugInConfiguration">
   <xs:complexType>

@@ -14,18 +14,7 @@ Note that a *client* is an accessibility aid or other application that uses Micr
 
 ## In this section
 
--   [Active Accessibility User Interface Services](active-accessibility-user-interface-services.md)
--   [Active Accessibility Text Services](active-accessibility-text-services.md)
+- [Active Accessibility User Interface Services](active-accessibility-user-interface-services-dev-guide.md)
 
 > [!Note]  
 > Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](https://go.microsoft.com/fwlink/p/?linkid=131573) for more information on advanced text input and natural language technologies.
-
- 
-
- 
-
- 
-
-
-
-

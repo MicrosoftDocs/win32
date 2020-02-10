@@ -20,9 +20,9 @@ The VTL isolation is created by the Hyper-V Hypervisor which assigns memory at b
 
 ## Trustlets
 
-Trustlets, short for trusted processes, are programs running as IUM processes in VSM Secure Mode. They complete system calls by marshalling them over to the Windows kernel running in VTL0 ring 0. VSM creates a small execution environment including the small Secure Kernel executing in VTL1 which is isolated from the kernel and drivers running in VTL0. The clear security benefit is isolation of trustlet user mode pages in VTL1 from drivers running in the VTL0 kernel. Even if kernel mode of VTL0 is compromised by malware, it will not have access to the IUM process pages. Trustlets are also referred to as secure processes or IUM processes.
+Trustlets (also known as trusted processes, secure processes, or IUM processes) are programs running as IUM processes in VSM. They complete system calls by marshalling them over to the Windows kernel running in VTL0 ring 0. VSM creates a small execution environment that includes the small Secure Kernel executing in VTL1 (isolated from the kernel and drivers running in VTL0). The clear security benefit is isolation of trustlet user mode pages in VTL1 from drivers running in the VTL0 kernel. Even if kernel mode of VTL0 is compromised by malware, it will not have access to the IUM process pages.
 
-With VSM enabled, the Local Security Authority (LSASS) environment runs as a trustlet. LSASS manages the local system policy, user authentication, and auditing while handling sensitive security data such as password hashes and Kerberos keys. To leverage the security benefits of VSM, a trustlet named LSAISO.exe (LSA Isolated) runs in VTL1 and communicates with LSASS.exe running in VTL0 through a RPC channel. The LSASIO secrets are encrypted before sending them over to LSASS running in VSM Normal Mode and the pages of LSAISO are protected from malicious code running in VTL0.
+With VSM enabled, the Local Security Authority (LSASS) environment runs as a trustlet. LSASS manages the local system policy, user authentication, and auditing while handling sensitive security data such as password hashes and Kerberos keys. To leverage the security benefits of VSM, a trustlet named LSAISO.exe (LSA Isolated) runs in VTL1 and communicates with LSASS.exe running in VTL0 through an RPC channel. The LSASIO secrets are encrypted before sending them over to LSASS running in VSM Normal Mode and the pages of LSAISO are protected from malicious code running in VTL0.
 
 **Diagram 2 – LSASS Trustlet Design**
 
@@ -30,9 +30,9 @@ With VSM enabled, the Local Security Authority (LSASS) environment runs as a tru
 
 ## Isolated User Mode (IUM) Implications
 
-It is not possible to attach to a IUM process, inhibiting the ability to debug VTL1 code. This includes post mortem debugging of memory dumps and attaching the Debugging Tools for live debugging. It also includes attempts by privileged accounts or kernel drivers to load a DLL into an IUM process, to inject a thread, or deliver a user-mode APC. Such attempts may result in destabilization of the entire system. Windows APIs that would compromise the security of a Trustlet may fail in unexpected ways. For example, loading a DLL into a Trustlet will make it available in VTL0 but not VTL1. QueueUserApc may silently fail if the target thread is in a Trustlet. Other APIs, such as CreateThread, VirtualAlloc, and Read/WriteProcessMemory will also not work as expected when used against Trustlets.
+It is not possible to attach to an IUM process, inhibiting the ability to debug VTL1 code. This includes post mortem debugging of memory dumps and attaching the Debugging Tools for live debugging. It also includes attempts by privileged accounts or kernel drivers to load a DLL into an IUM process, to inject a thread, or deliver a user-mode APC. Such attempts may result in destabilization of the entire system. Windows APIs that would compromise the security of a Trustlet may fail in unexpected ways. For example, loading a DLL into a Trustlet will make it available in VTL0 but not VTL1. QueueUserApc may silently fail if the target thread is in a Trustlet. Other APIs, such as CreateRemoteThread, VirtualAllocEx, and Read/WriteProcessMemory will also not work as expected when used against Trustlets.
 
-Use the sample code below to prevent calling any functions which attempt to attach or inject code into a IUM process. This includes kernel drivers that queue APCs for execution of code in a trustlet.
+Use the sample code below to prevent calling any functions which attempt to attach or inject code into an IUM process. This includes kernel drivers that queue APCs for execution of code in a trustlet.
 
 ## Remarks
 

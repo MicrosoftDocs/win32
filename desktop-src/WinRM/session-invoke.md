@@ -58,7 +58,7 @@ This parameter can contain one of the following:
 -   URI with or without [*selectors*](windows-remote-management-glossary.md). In the following Visual Basic Scripting Edition (VBScript) example, the key is specified by `Win32_Service?Name=winmgmt`.
 
     ```VB
-    strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/" _ 
+    strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _ 
        & "Win32_Service?Name=winmgmt"
     ```
 
@@ -105,11 +105,11 @@ If objSession is Nothing Then
     WScript.Quit
 End If 
 
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/" & _
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" & _
     "wmi/root/cimv2/Win32_Process"
 
 strInputParameters = "<p:Create_INPUT " & _
-    "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process"">" & _
+    "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process"">" & _
     "<p:CommandLine>" & "calc.exe" & _
     "</p:CommandLine>" & _
     "</p:Create_INPUT>"
@@ -150,13 +150,13 @@ Dim strMethodName
 
 set objWsman = CreateObject("Wsman.Automation")
 set objSession = objWsman.CreateSession
-strResourceURI = "https://schemas.microsoft.com/wbem/wsman/1/"_
+strResourceURI = "http://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_Service?Name=w32time"
 strMethodName = "StopService"
 strActionURI = strMethodName                                      
 
 strInputXml = "<p:StopService_INPUT " _
-    & "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/"_
+    & "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_Service""/>"
 
 strResponse = objSession.Invoke(strMethodName, strResourceURI, strInputXml)
@@ -166,7 +166,7 @@ call DisplayOutput(strResponse)
 strMethodName = "StartService" 
 strActionURI = strResourceURI & "/" & strMethodName  
 strInputXml = "<p:StartService_INPUT " _
-    & "xmlns:p=""https://schemas.microsoft.com/wbem/wsman/1/"_
+    & "xmlns:p=""http://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_Service""/>"
 strResponse = objSession.Invoke(strMethodName, _
     strResourceURI, strInputXml)

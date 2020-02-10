@@ -26,7 +26,7 @@ Enabling printer-driver isolation requires you to add the **printerDriverIsolati
     ```XML
     <application xmlns="urn:schemas-microsoft-com:asm.v3">
         <windowsSettings>
-            <printerDriverIsolation xmlns="https://schemas.microsoft.com/SMI/2011/WindowsSettings">true</printerDriverIsolation>
+            <printerDriverIsolation xmlns="http://schemas.microsoft.com/SMI/2011/WindowsSettings">true</printerDriverIsolation>
         </windowsSettings>
     </application>
     ```

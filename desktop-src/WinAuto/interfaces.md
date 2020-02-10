@@ -1,5 +1,5 @@
 ---
-title: Interfaces
+title: Interfaces (Active Accessibility User Interface Services)
 description: Interfaces
 ms.assetid: 304ba3f8-5d1e-4a74-a0d5-36f29207f178
 ms.topic: article
@@ -31,7 +31,7 @@ This section contains information about interfaces used with Microsoft Active Ac
 
 <dl> <dt>
 
-[Active Accessibility User Interface Services](active-accessibility-user-interface-services-collision208.md)
+[Active Accessibility User Interface Services](active-accessibility-user-interface-services-ref.md)
 </dt> </dl>
 
  

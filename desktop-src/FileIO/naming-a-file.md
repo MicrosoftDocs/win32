@@ -157,7 +157,7 @@ To enable the new long path behavior, both of the following conditions must be m
 
     ```XML
     <application xmlns="urn:schemas-microsoft-com:asm.v3">
-        <windowsSettings xmlns:ws2="https://schemas.microsoft.com/SMI/2016/WindowsSettings">
+        <windowsSettings xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
             <ws2:longPathAware>true</ws2:longPathAware>
         </windowsSettings>
     </application>

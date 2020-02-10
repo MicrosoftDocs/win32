@@ -40,7 +40,7 @@ HRESULT QueryState(
 
 ## Parameters
 
-### state
+### state
 
 Type: **[DXCoreAdapterState](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
 

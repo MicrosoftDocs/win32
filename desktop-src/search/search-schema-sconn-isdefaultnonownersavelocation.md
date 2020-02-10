@@ -49,7 +49,7 @@ If true, when a user from another computer in a Homegroup chooses to save an ite
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <isDefaultNonOwnerSaveLocation>true</isDefaultNonOwnerSaveLocation>
     ...

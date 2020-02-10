@@ -1,5 +1,5 @@
 ---
-title: Methods
+title: Methods (IManipulationProcessor)
 description: This section contains the methods for the IManipulationProcessor interface.
 ms.assetid: 33736f79-cb61-449c-80b9-1358db2621e9
 keywords:

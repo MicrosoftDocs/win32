@@ -1,5 +1,5 @@
 ---
-title: Overview of the User Interface Development Process
+title: Overview of UI Development
 description: This section outlines the three phases of user interface design and introduces the tasks that are typically associated with each phase.
 ms.assetid: ab544cb9-eed3-4575-a8dd-2f5d7b5c575f
 ms.topic: article

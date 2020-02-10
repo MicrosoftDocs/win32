@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Rules for Implementing QueryInterface
 
-There are three main rules that govern implementing the [**IUnknown::QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) method on a COM object:
+There are three main rules that govern implementing the [**IUnknown::QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) method on a COM object:
 
 -   Objects must have identity.
 -   The set of interfaces on an object instance must be static.
@@ -16,11 +16,11 @@ There are three main rules that govern implementing the [**IUnknown::QueryInterf
 
 ## Objects Must Have Identity
 
-For any given object instance, a call to [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) with IID\_IUnknown must always return the same physical pointer value. This allows you to call **QueryInterface** on any two interfaces and compare the results to determine whether they point to the same instance of an object.
+For any given object instance, a call to [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) with IID\_IUnknown must always return the same physical pointer value. This allows you to call **QueryInterface** on any two interfaces and compare the results to determine whether they point to the same instance of an object.
 
 ## The Set of Interfaces on an Object Instance Must Be Static
 
-The set of interfaces accessible on an object through [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) must be static, not dynamic. Specifically, if **QueryInterface** returns S\_OK for a given IID once, it must never return E\_NOINTERFACE on subsequent calls on the same object; and if **QueryInterface** returns E\_NOINTERFACE for a given IID, subsequent calls for the same IID on the same object must never return S\_OK.
+The set of interfaces accessible on an object through [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) must be static, not dynamic. Specifically, if **QueryInterface** returns S\_OK for a given IID once, it must never return E\_NOINTERFACE on subsequent calls on the same object; and if **QueryInterface** returns E\_NOINTERFACE for a given IID, subsequent calls for the same IID on the same object must never return S\_OK.
 
 ## It Must Be Possible to Query Successfully for Any Interface on an Object from Any Other Interface
 
@@ -36,14 +36,14 @@ hr = pA->QueryInterface(IID_IB, &pB);
 
 the following rules apply:
 
--   If you have a pointer to an interface on an object, a call like the following to [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) for that same interface must succeed:
+-   If you have a pointer to an interface on an object, a call like the following to [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) for that same interface must succeed:
 
     ``` syntax
     pA->QueryInterface(IID_IA, ...) 
      
     ```
 
--   If a call to [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q_)) for a second interface pointer succeeds, a call to **QueryInterface** from that pointer for the first interface must also succeed. If pB was successfully obtained, the following must also succeed:
+-   If a call to [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) for a second interface pointer succeeds, a call to **QueryInterface** from that pointer for the first interface must also succeed. If pB was successfully obtained, the following must also succeed:
 
     ``` syntax
     pB->QueryInterface(IID_IA, ...) 

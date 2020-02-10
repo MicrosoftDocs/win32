@@ -92,11 +92,11 @@ For more detailed information about property mapping, see the "Extended Elements
 
 ## Automatic Mapping to Windows Shell Properties
 
-Within the items in your RSS feed, you can choose to include other XML elements that automatically map to Windows Shell system properties. To do so, include an element named after the Windows Shell property and prefixed with the Windows Shell system namespace. The following example illustrates the namespace declaration `win=" https://schemas.microsoft.com/windows/2008/propertynamespace"` and the inclusion of an element for the property mapping `win:System.Contact.PrimaryEmailAddress`:
+Within the items in your RSS feed, you can choose to include other XML elements that automatically map to Windows Shell system properties. To do so, include an element named after the Windows Shell property and prefixed with the Windows Shell system namespace. The following example illustrates the namespace declaration `win=" http://schemas.microsoft.com/windows/2008/propertynamespace"` and the inclusion of an element for the property mapping `win:System.Contact.PrimaryEmailAddress`:
 
 
 ```
-<rss version="2.0" xmlns:example="https://example.com/schema/2009" xmlns:win="https://schemas.microsoft.com/windows/2008/propertynamespace">
+<rss version="2.0" xmlns:example="https://example.com/schema/2009" xmlns:win="http://schemas.microsoft.com/windows/2008/propertynamespace">
 ...
    <item>
       <title>Someone</title>
@@ -111,7 +111,7 @@ The namespace prefix used here (`"win"`) is a suggestion; you can use any prefix
 
 
 ```
-https://schemas.microsoft.com/windows/2008/propertynamespace
+http://schemas.microsoft.com/windows/2008/propertynamespace
 ```
 
 

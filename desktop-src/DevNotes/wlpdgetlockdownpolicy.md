@@ -46,8 +46,7 @@ A [**WLDP\_HOST\_INFORMATION**](wldp-host-information.md) structure identifying 
 *lockdownState* \[out\]
 </dt> <dd>
 
-Provides the resulting policy secure value.
-
+Provides the resulting policy secure value. If !WLDP_LOCKDOWN_IS_OFF, then UMCI is enabled. You can also check WLDP_LOCKDOWN_IS_AUDIT and WLDP_LOCKDOWN_IS_ENFORCE to determine if a policy is in audit or enforce mode.
 </dd> <dt>
 
 *lockdownFlags* \[in\]

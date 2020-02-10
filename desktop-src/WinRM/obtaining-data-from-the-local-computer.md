@@ -53,7 +53,7 @@ Calling the [**WSMan.CreateSession**](wsman-createsession.md) method to create a
 3.  Create a resource [*URI*](windows-remote-management-glossary.md) to identify the [*resource*](windows-remote-management-glossary.md) you want to manage or for which you want to obtain data. For more information about formatting a URI, see [Resource URIs](resource-uris.md). This resource URI is for a specific instance of the WMI [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) class, the Winmgmt service. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
     ```VB
-    strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
+    strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
     ```
 
     
@@ -75,7 +75,7 @@ The following VBScript code example shows the complete script that obtains the s
 ```VB
 Set objWsman = CreateObject("Wsman.Automation")
 Set objSession = objWsman.CreateSession()
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
 strResponse = objSession.Get(strResource)
 Wscript.Echo strResponse
 ```
@@ -88,7 +88,7 @@ The following VBScript code example shows the complete script with the data tran
 ```VB
 Set objWsman = CreateObject("Wsman.Automation")
 Set objSession = objWsman.CreateSession()
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
 strResponse = objSession.Get(strResource)
 Set xmlFile = CreateObject("MSXml.DOMDocument")
 Set xslFile = CreateObject("MSXml.DOMDocument")

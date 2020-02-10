@@ -1,0 +1,39 @@
+- name: "Pointer Device Input Stack"
+  href: pointer-device-stack-portal.md
+  items: 
+  - name: "Pointer Device Input Stack Reference"
+    href: unified-input-stack-reference.md
+    items: 
+    - name: "Enumerations"
+      href: enumerations.md
+      items: 
+      - name: "POINTER_DEVICE_CURSOR_TYPE"
+        href: /windows/win32/api/Winuser/ne-winuser-pointer_device_cursor_type
+      - name: "POINTER_DEVICE_TYPE"
+        href: /windows/win32/api/Winuser/ne-winuser-pointer_device_type
+    - name: "Functions"
+      href: functions.md
+      items: 
+      - name: "GetPointerDevice"
+        href: /windows/win32/api/winuser/nf-winuser-getpointerdevice
+      - name: "GetPointerDeviceCursors"
+        href: /windows/win32/api/winuser/nf-winuser-getpointerdevicecursors
+      - name: "GetPointerDeviceProperties"
+        href: /windows/win32/api/winuser/nf-winuser-getpointerdeviceproperties
+      - name: "GetPointerDeviceRects"
+        href: /windows/win32/api/winuser/nf-winuser-getpointerdevicerects
+      - name: "GetPointerDevices"
+        href: /windows/win32/api/winuser/nf-winuser-getpointerdevices
+      - name: "GetRawPointerDeviceData"
+        href: /windows/win32/api/winuser/nf-winuser-getrawpointerdevicedata
+      - name: "RegisterPointerDeviceNotifications"
+        href: /windows/win32/api/winuser/nf-winuser-registerpointerdevicenotifications
+    - name: "Structures"
+      href: structures.md
+      items: 
+      - name: "POINTER_DEVICE_CURSOR_INFO"
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_device_cursor_info
+      - name: "POINTER_DEVICE_INFO"
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_device_info
+      - name: "POINTER_DEVICE_PROPERTY"
+        href: /windows/win32/api/Winuser/ns-winuser-pointer_device_property

@@ -138,6 +138,8 @@
           href: shared-heaps.md
       - name: "Residency"
         href: residency.md
+    - name: "Core 1.0 Feature Level"
+      href: core-feature-levels.md
     - name: "Multi-adapter systems"
       href: multi-engine.md
     - name: "Multi-engine synchronization"
@@ -1865,6 +1867,8 @@
           href: /windows/win32/api/directml/ns-directml-dml_activation_scaled_elu_operator_desc
         - name: "DML_ACTIVATION_SCALED_TANH_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_activation_scaled_tanh_operator_desc
+        - name: "DML_ACTIVATION_SHRINK_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_activation_shrink_operator_desc
         - name: "DML_ACTIVATION_SIGMOID_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_activation_sigmoid_operator_desc
         - name: "DML_ACTIVATION_SOFTMAX_OPERATOR_DESC"
@@ -1899,16 +1903,26 @@
           href: /windows/win32/api/directml/ns-directml-dml_convolution_operator_desc
         - name: "DML_DEPTH_TO_SPACE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_depth_to_space_operator_desc
+        - name: "DML_DIAGONAL_MATRIX_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_diagonal_matrix_operator_desc
         - name: "DML_ELEMENT_WISE_ABS_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_abs_operator_desc
         - name: "DML_ELEMENT_WISE_ACOS_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_acos_operator_desc
+        - name: "DML_ELEMENT_WISE_ACOSH_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_acosh_operator_desc
         - name: "DML_ELEMENT_WISE_ADD_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_add_operator_desc
+        - name: "DML_ELEMENT_WISE_ADD1_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_add1_operator_desc
         - name: "DML_ELEMENT_WISE_ASIN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_asin_operator_desc
+        - name: "DML_ELEMENT_WISE_ASINH_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_asinh_operator_desc
         - name: "DML_ELEMENT_WISE_ATAN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_atan_operator_desc
+        - name: "DML_ELEMENT_WISE_ATANH_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_atanh_operator_desc
         - name: "DML_ELEMENT_WISE_CEIL_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_ceil_operator_desc
         - name: "DML_ELEMENT_WISE_CLIP_OPERATOR_DESC"
@@ -1917,16 +1931,24 @@
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_constant_pow_operator_desc
         - name: "DML_ELEMENT_WISE_COS_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_cos_operator_desc
+        - name: "DML_ELEMENT_WISE_COSH_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_cosh_operator_desc
         - name: "DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc
         - name: "DML_ELEMENT_WISE_DIVIDE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_divide_operator_desc
+        - name: "DML_ELEMENT_WISE_ERF_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_erf_operator_desc
         - name: "DML_ELEMENT_WISE_EXP_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_exp_operator_desc
         - name: "DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_floor_operator_desc
         - name: "DML_ELEMENT_WISE_IDENTITY_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_identity_operator_desc
+        - name: "DML_ELEMENT_WISE_IF_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_if_operator_desc
+        - name: "DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_is_nan_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_logical_and_operator_desc
         - name: "DML_ELEMENT_WISE_LOGICAL_EQUALS_OPERATOR_DESC"
@@ -1957,14 +1979,20 @@
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc
         - name: "DML_ELEMENT_WISE_RECIP_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_recip_operator_desc
+        - name: "DML_ELEMENT_WISE_SIGN_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_sign_operator_desc
         - name: "DML_ELEMENT_WISE_SIN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_sin_operator_desc
+        - name: "DML_ELEMENT_WISE_SINH_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_sinh_operator_desc
         - name: "DML_ELEMENT_WISE_SQRT_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_sqrt_operator_desc
         - name: "DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_subtract_operator_desc
         - name: "DML_ELEMENT_WISE_TAN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_tan_operator_desc
+        - name: "DML_ELEMENT_WISE_TANH_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_tanh_operator_desc
         - name: "DML_ELEMENT_WISE_THRESHOLD_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_threshold_operator_desc
         - name: "DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT"
@@ -1989,20 +2017,30 @@
           href: /windows/win32/api/directml/ns-directml-dml_lstm_operator_desc
         - name: "DML_MAX_POOLING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc
+        - name: "DML_MAX_POOLING1_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_max_pooling1_operator_desc
+        - name: "DML_MAX_UNPOOLING_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_max_unpooling_operator_desc
         - name: "DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_mean_variance_normalization_operator_desc
+        - name: "DML_ONE_HOT_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_one_hot_operator_desc
         - name: "DML_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_operator_desc
         - name: "DML_PADDING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_padding_operator_desc
         - name: "DML_REDUCE_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_reduce_operator_desc
+        - name: "DML_RESAMPLE_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_resample_operator_desc
         - name: "DML_RNN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_rnn_operator_desc
         - name: "DML_ROI_POOLING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_roi_pooling_operator_desc
         - name: "DML_SCALE_BIAS"
           href: /windows/win32/api/directml/ns-directml-dml_scale_bias
+        - name: "DML_SCATTER_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_scatter_operator_desc
         - name: "DML_SIZE_2D"
           href: /windows/win32/api/directml/ns-directml-dml_size_2d
         - name: "DML_SLICE_OPERATOR_DESC"
@@ -2357,7 +2395,7 @@
         items:
         - name: "D3D12_DOWNLEVEL_PRESENT_FLAGS"
           href: d3d12_downlevel_present_flags.md
-    - name: "Direct3D12 on Windows Mixed Reality"
+    - name: "Direct3D 12 on Windows Mixed Reality"
       href: /windows/win32/direct3d12/windows.graphics.holographic.interop/windows.graphics.holographic.interop
       items: 
       - name: "IHolographicCameraInterop"

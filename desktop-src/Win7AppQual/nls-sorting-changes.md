@@ -34,7 +34,7 @@ For a major version, one or more code points change so that the application must
 **DefinedVersion Minor** – Added new code points in the default table  
 </dl>
 
-**Sorting version numbers fro released versions:**
+**Sorting version numbers for released versions:**
 
 
 

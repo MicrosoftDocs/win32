@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (Active Accessibility User Interface Services)
 description: Constants
 ms.assetid: a6325361-ea7b-472d-85d7-bc1544b57352
 ms.topic: article
@@ -31,7 +31,7 @@ This section contains information about the constants used with Microsoft Active
 
 <dl> <dt>
 
-[Active Accessibility User Interface Services](active-accessibility-user-interface-services-collision208.md)
+[Active Accessibility User Interface Services](active-accessibility-user-interface-services-ref.md)
 </dt> </dl>
 
  

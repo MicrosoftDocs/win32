@@ -23,7 +23,7 @@ This topic lists all the APIs in OneCoreUap.lib, grouped by module. Linking to O
  
 
 > [!IMPORTANT]
-> Windows Store apps should not use OneCoreUap.lib but need to use WindowsApp.lib instead.
+> UWP apps should not use OneCoreUap.lib but need to use WindowsApp.lib instead.
 
  
 

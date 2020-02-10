@@ -1,5 +1,5 @@
 ---
-title: Functions
+title: Functions (Visual Styles Reference)
 description: .
 ms.assetid: deaeb9a2-0bee-400d-9090-9529a1f3bdc2
 ms.topic: article

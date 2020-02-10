@@ -51,7 +51,7 @@ This parameter can contain one of the following:
 -   The URI of the resource.
 
     ```VB
-    strResourceUri = "https://schemas.microsoft.com/" _ 
+    strResourceUri = "http://schemas.microsoft.com/" _ 
         & "wbem/wsman/1/wmi/root/cimv2/Win32_Service"
     ```
 
@@ -112,7 +112,7 @@ Set objWsman = CreateObject( "WSMan.Automation" )
 
 Set objSession = objWsman.CreateSession( "https://" & REMOTECOMPUTER )
 
-strResource = "https://schemas.microsoft.com/wbem/wsman/1/" &_
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
               "wmi/root/cimv2/Win32_LogicalDisk"
 
 Set objResultSet = objSession.Enumerate( strResource )

@@ -294,7 +294,7 @@ To implement the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-sear
 
 The **search-ms** [application protocol](https://msdn.microsoft.com/library/Aa767916(VS.85).aspx) is a convention for starting an application, like Windows Explorer, to query the Windows Search index. It enables queries to be built with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 
-For detailed information on the search-ms protocol syntax, see [Querying the Index wtih the search-ms Protocol](-search-3x-wds-qryidx-searchms.md).
+For detailed information on the search-ms protocol syntax, see [Querying the Index with the search-ms Protocol](-search-3x-wds-qryidx-searchms.md).
 
 ## Related topics
 

@@ -23,7 +23,7 @@ ASF media sinks contain one or more stream sinks, which represents the data to w
 
 ## ASF Media Sink Object Model
 
-ASF media sinks implement the [**IMFMediaSink**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink) interface and exposes the following interfaces. An application can get a reference to these interfaces by calling [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) on the ASF media sink it is using for generating output samples.
+ASF media sinks implement the [**IMFMediaSink**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink) interface and exposes the following interfaces. An application can get a reference to these interfaces by calling [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the ASF media sink it is using for generating output samples.
 
 
 

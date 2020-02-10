@@ -67,8 +67,28 @@
           items: 
           - name: "Overview"
             href: user-interaction.md
+          - name: "Direct Manipulation"
+            href: directmanipulation/direct-manipulation-portal.md
+          - name: "Ink input"
+            href: input_ink/input-ink-portal.md
+          - name: "Input feedback configuration"
+            href: input_feedback/input-feedback-configuration-portal.md
+          - name: "Input source identification"
+            href: input_sourceid/input-source-identification-portal.md
+          - name: "Interaction context"
+            href: input_intcontext/interaction-context-portal.md
+          - name: "Pointer device stack"
+            href: input_pointerdevice/pointer-device-stack-portal.md
+          - name: "Pointer Input Messages and Notifications"
+            href: inputmsg/messages-and-notifications-portal.md
+          - name: "Radial controller input"
+            href: input_radial/radialcontroller-portal.md
           - name: "Text Services Framework"
             href: tsf/text-services-framework.md
+          - name: "Touch input hit testing"
+            href: input_touchhittest/touch-hit-testing-portal.md
+          - name: "Touch input injection"
+            href: input_touchinjection/touch-injection-portal.md
           - name: "Legacy User Interaction Features"
             items: 
             - name: "Overview"
@@ -245,15 +265,15 @@
             href: wec/windows-event-collector.md
       - name: "Documents and Printing"
         href: printdocs/documents-and-printing.md
-      - name: "Graphics and Gaming"
+      - name: "Graphics and gaming"
         items: 
         - name: "Overview"
           href: graphics-and-multimedia.md
-        - name: "DirectX Graphics and Gaming"
+        - name: "DirectX graphics and gaming"
           items: 
           - name: "Overview"
             href: directx.md
-          - name: "Getting Started with DirectX Graphics"
+          - name: "Getting started with DirectX graphics"
             href: getting-started-with-directx-graphics.md
           - name: "Programming DirectX with COM"
             href: prog-dx-with-com.md
@@ -263,7 +283,7 @@
             items: 
             - name: "Overview"
               href: direct3d.md
-            - name: "Getting Started with Direct3D"
+            - name: "Getting started with Direct3D"
               href: getting-started-with-direct3d.md
             - name: "Direct3D 12 Graphics"
               href: direct3d12/direct3d-12-graphics.md

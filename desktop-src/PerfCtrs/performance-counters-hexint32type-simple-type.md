@@ -1,7 +1,7 @@
 ---
 Description: Defines a 4-byte hexadecimal type.
 ms.assetid: d0e538c1-f22e-4905-ba73-b670fa7eb174
-title: HexInt32Type Simple Type
+title: HexInt32Type Simple Type (Performance Counters)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

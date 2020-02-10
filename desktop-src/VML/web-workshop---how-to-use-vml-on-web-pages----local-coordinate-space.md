@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 
 # Using Local Coordinate Space
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
@@ -56,7 +56,7 @@ For example, the VML representation for the red oval shown below doesn't specify
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval1.md)
+
 
 When the shape becomes more complicated, or when you would like to group several shapes and scale them together, you should use the Local Coordinate Space feature provided in VML.
 
@@ -76,7 +76,7 @@ fillcolor="red" strokecolor="blue" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord1.md)
+
 
 -   `coordsize="21600,21600"` defines the size of the Local Coordinate Space for the shape to be 21600 units by 21600 units. Therefore, one unit in the Local Coordinate Space is equivalent to 1/216 point.
 -   `path="m10800,0l0,10800,10800,21600,21600,10800xe"` defines the outline of the shape as a diamond shape. As we've learned, all position-related information (such as width, height, left, top, path, etc.) is expressed in terms of the unit in Local Coordinate Space. Therefore, 10800 in the `<path>` means 10800 units, which is equivalent to 50 points.
@@ -97,7 +97,7 @@ fillcolor="red" strokecolor="blue" strokeweight="2pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord2.md)
+
 
 You can also use Local Coordinate Space in the `<group>` element so that the contents of all shapes within the group are scaled together according to the same coordinate. Then, whenever you want to scale or move a group of shapes, simply change the width and height, or **coordsize** and **coordorigin** settings, of the group.
 
@@ -116,7 +116,7 @@ coordsize="1000,1000" coordorigin="-500,-500">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord3.md)
+
 
 -   `coordsize="1000,1000"` defines the size of the Local Coordinate Space for the group to be 1000 units by 1000 units. Therefore, 1 unit in the Local Coordinate Space is equivalent to 1/5 point.
 -   `coordorigin="-500,-500"` defines the top left corner of the containing box to be "-500, -500". Therefore, the coordinate system inside the containing box ranges from -500 to 500 along the x-axis, and -500 to 500 along the y-axis. In other words, the center of the containing box is "0, 0".
@@ -130,7 +130,7 @@ For example, if you change `<v:group style='... width:200pt;height:200pt;'>` to 
 
 ![cord4.gif (943 bytes)](images/cord4.gif)
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord4.md)
+
 
 You'd also notice that the shapes are located differently. This is because the shapes are drawn from "0, 0" which is located at the center of the containing box. Because you make the containing box bigger, the center of the containing box is also moved.
 
@@ -138,7 +138,7 @@ If you change `coordorigin="-500,-500"` to `coordorigin="0,0"`, as shown in the 
 
 ![cord5.gif (648 bytes)](images/cord5.gif)
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/LocalCord/cord5.md)
+
 
 It is also important to note that the containing box does not establish a clipping region. Graphics may be drawn outside the boundaries of the containing box. The containing box merely serves to map the local coordinate space to the page space.
 

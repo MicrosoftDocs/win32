@@ -1,5 +1,5 @@
 ---
-title: HexInt32Type Simple Type
+title: HexInt32Type Simple Type (Event Schema)
 description: Defines a 4-byte hexadecimal type.
 ms.assetid: f4b5226d-2a5e-4756-b4c5-30cfbf13568e
 keywords:

@@ -104,7 +104,7 @@ The following UI Automation control patterns are not required when the control h
 
 ## WinEvents for UI Automation Property Changed Events
 
-In addition to the events defined for [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible), the following event identifiers are also defined and may be used with an [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) implementation as property changed events for corresponding UI Automation properties. These use the same mechanism as the events defined for **IAccessible**. For more information, see [WinEvents](winevents-collision169.md).
+In addition to the events defined for [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible), the following event identifiers are also defined and may be used with an [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) implementation as property changed events for corresponding UI Automation properties. These use the same mechanism as the events defined for **IAccessible**. For more information, see [WinEvents](winevents-infrastructure.md).
 
 
 
@@ -141,7 +141,7 @@ For the events above that have an EVENT\_OBJECT\_ value listed after them, and [
 
 <dl> <dt>
 
-[WinEvents](winevents-collision169.md)
+[WinEvents](winevents-infrastructure.md)
 </dt> <dt>
 
 [The IAccessibleEx Interface](iaccessibleex.md)

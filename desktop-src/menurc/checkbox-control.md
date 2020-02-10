@@ -1,5 +1,5 @@
 ---
-title: CHECKBOX control
+title: CHECKBOX control (Resource Compiler)
 description: Defines a check box control.
 ms.assetid: '24ee25e5-9de2-4843-a55e-96b897f6ae8e'
 keywords:

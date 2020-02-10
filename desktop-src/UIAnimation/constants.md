@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Constants (Windows Animation Reference)
 description: Reference documentation for constants and enumerations defined by the Windows Animation Manager.
 ms.assetid: c590cf68-28ce-4d7d-949d-2683ece3c12d
 ms.topic: article

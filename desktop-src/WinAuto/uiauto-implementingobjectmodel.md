@@ -45,7 +45,7 @@ The following method is required for implementing the [**IObjectModelProvider**]
 
 | Required members                                                                             | Member type | Notes                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetUnderlyingObjectModel**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel) | Method      | Returns a COM pointer to the underlying object model. The client is expected to call the [**IUnknown::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) method to retrieve specific object model pointers. |
+| [**GetUnderlyingObjectModel**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel) | Method      | Returns a COM pointer to the underlying object model. The client is expected to call the [**IUnknown::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to retrieve specific object model pointers. |
 
 
 

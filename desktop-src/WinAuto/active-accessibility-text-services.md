@@ -1,36 +1,29 @@
 ---
 title: Active Accessibility Text Services
-description: The following Active Accessibility Text Services interfaces are available in msaatext.dll. For more information about these interfaces, see Active Accessibility Text Services.
-ms.assetid: 2e007f26-9d4a-440f-a564-f785c914f236
+description: This section discusses the Active Accessibility Text Services interfaces.
+ms.assetid: 8bbc647f-1687-45b8-8b63-a6ea45a0a721
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # Active Accessibility Text Services
 
-The following Active Accessibility Text Services interfaces are available in msaatext.dll. For more information about these interfaces, see [Active Accessibility Text Services](active-accessibility-text-services-collision227.md).
+This section discusses the Active Accessibility Text Services interfaces.
 
 > [!Note]  
 > Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](https://go.microsoft.com/fwlink/p/?linkid=131573) for more information on advanced text input and natural language technologies.
 
- 
+## In this section
 
+| Topic                                                     | Description                                                                                                                    |
+|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| [**IAccServerDocMgr**](/windows/desktop/api/msaatext/nn-msaatext-iaccserverdocmgr)   | Exposes methods that make documents accessible to client applications.                              |
+| [**IAccClientDocMgr**](/windows/desktop/api/msaatext/nn-msaatext-iaccclientdocmgr)   | Exposes methods for client applications to retrieve documents.                                      |
+| [**IAccDictionary**](/windows/desktop/api/msaatext/nn-msaatext-iaccdictionary)       | Exposes methods for string manipulation.                                                            |
+| [**ICoCreateLocally**](/windows/desktop/api/msaatext/nn-msaatext-icocreatelocally)   | Exposes a method that enables a client application to create a helper object in the server context. |
+| [**ICoCreatedLocally**](/windows/desktop/api/msaatext/nn-msaatext-icocreatedlocally) | Exposes a method to return information about a local object.                                        |
+| [**IVersionInfo**](/windows/desktop/api/msaatext/nn-msaatext-iversioninfo)           | Exposes methods that supply version information for accessible elements.                            |
 
+## Related topics
 
-|                                              |                                                                                                                                                                                                                                                                                                    |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IAccServerDocMgr**](/windows/desktop/api/msaatext/nn-msaatext-iaccserverdocmgr) | Servers use this interface to present the [ITextStoreAnchor](https://go.microsoft.com/fwlink/p/?linkid=178215) interface to the system, and to make it available for clients. Servers use this interface if they do not support Text Services Framework, but want their documents to be accessible. |
-| [**IAccClientDocMgr**](/windows/desktop/api/msaatext/nn-msaatext-iaccclientdocmgr) | Clients use this interface to obtain interface pointers to currently available documents.                                                                                                                                                                                                          |
-| [**IAccDictionary**](/windows/desktop/api/msaatext/nn-msaatext-iaccdictionary)     | This interface provides the default dictionary for Active Accessibility Text Services. The default dictionary provides localized strings for all system properties. Servers implement this interface when they want to expose custom property GUIDs for their documents.                           |
-
-
-
- 
-
- 
-
- 
-
-
-
-
+[Active Accessibility User Interface Services](active-accessibility-user-interface-services-dev-guide.md)

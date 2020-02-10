@@ -151,11 +151,11 @@ The following is the complete listing of the manifest file schema.
   <ElementType name="noInheritable" model="closed" content="empty" /> 
   <ElementType name="progid" /> 
 
-  <!-- WindowsSettings elements from XML namespace https://schemas.microsoft.com/SMI/2005/WindowsSettings
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2005/WindowsSettings
   --> 
   <ElementType name="dpiAware" /> 
 
-  <!-- WindowsSettings elements from XML namespace https://schemas.microsoft.com/SMI/2011/WindowsSettings
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2011/WindowsSettings
   --> 
   <ElementType name="autoElevate" /> 
   <ElementType name="disableTheming" /> 
@@ -165,7 +165,7 @@ The following is the complete listing of the manifest file schema.
   <ElementType name="printerDriverIsolation" /> 
   <ElementType name="ultraHighResolutionScrollingAware" /> 
 
-  <!-- WindowsSettings elements from XML namespace https://schemas.microsoft.com/SMI/2016/WindowsSettings
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2016/WindowsSettings
   -->
   <ElementType name="dpiAwareness" />
   <ElementType name="longPathAware" />

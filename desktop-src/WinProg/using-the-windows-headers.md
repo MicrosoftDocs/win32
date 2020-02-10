@@ -65,7 +65,7 @@ The following tables describe other macros used in the Windows header files.
 
 | Minimum system required                           | Minimum value for \_WIN32\_WINNT and WINVER |
 |---------------------------------------------------|---------------------------------------------|
-| Windows 8.1                                       | **\_WIN32\_WINNT\_WINBLUE** (0x0602)        |
+| Windows 8.1                                       | **\_WIN32\_WINNT\_WINBLUE** (0x0603)        |
 | Windows 8                                         | **\_WIN32\_WINNT\_WIN8** (0x0602)           |
 | Windows 7                                         | **\_WIN32\_WINNT\_WIN7** (0x0601)           |
 | Windows Server 2008                               | **\_WIN32\_WINNT\_WS08** (0x0600)           |

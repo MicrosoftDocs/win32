@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Scaling Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
@@ -44,7 +44,7 @@ fillcolor="red" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SacleShape/Oval1.md)
+
 
 If you change the size to **style**='width:120pt;height:140pt', the oval becomes larger because it is scaled within the new containing box at a size of 120 points (width) by 140 points (height), as shown in the following picture:
 
@@ -58,7 +58,7 @@ fillcolor="red" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SacleShape/Oval2.md)
+
 
 If you change the size to **style**='width:60pt;height:40pt', the oval becomes smaller because it is scaled within the new containing box at a size of 60 points (width) by 40 points (height), as shown in the following picture:
 
@@ -72,7 +72,7 @@ fillcolor="red" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SacleShape/Oval3.md)
+
 
  
 

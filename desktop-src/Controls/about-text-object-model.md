@@ -329,7 +329,7 @@ if( pDoc )
 
 The [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message provides another way to obtain an [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface for an object at a given screen position. As described in [Interface from Running Object Table](#interface-from-running-object-table), you get an [**HWND**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) for the screen position and then send this message to that **HWND**. The **EM\_GETOLEINTERFACE** message is rich edit-specific and returns a pointer to an [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) interface in the variable addressed by *lParam*.
 
-**Tip** If a pointer is returned (be sure to set the object to which *lParam* points to null before sending the message), you can call its [**IUnknown::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) method to obtain an [**ITextDocument**](/windows/desktop/api/Tom/nn-tom-itextdocument) interface. The following code sample illustrates this approach.
+**Tip** If a pointer is returned (be sure to set the object to which *lParam* points to null before sending the message), you can call its [**IUnknown::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to obtain an [**ITextDocument**](/windows/desktop/api/Tom/nn-tom-itextdocument) interface. The following code sample illustrates this approach.
 
 
 ```

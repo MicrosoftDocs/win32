@@ -1,5 +1,5 @@
 ---
-title: Methods
+title: Methods (_IManipulationEvents)
 description: This section contains the methods for the \_IManipulationEvents interface.
 ms.assetid: ac697a9b-3cef-4100-8ad3-aaa867b94ec4
 keywords:

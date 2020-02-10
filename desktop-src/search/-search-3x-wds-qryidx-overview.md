@@ -26,7 +26,7 @@ This section provides the conceptual framework for querying the index programmat
 ## Additional Resources
 
 -   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/library/system.data.oledb(VS.71).aspx).
--   For additional background on using of properties in querying, see the following topics:
+-   For additional background on using properties in querying, see the following topics:
     -   [Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
     -   [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 -   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](https://msdn.microsoft.com/library/Bb775176(v=VS.85).aspx).

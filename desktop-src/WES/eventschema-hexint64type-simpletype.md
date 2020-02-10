@@ -1,5 +1,5 @@
 ---
-title: HexInt64Type Simple Type
+title: HexInt64Type Simple Type (Event Schema)
 description: Defines an 8-byte hexadecimal type.
 ms.assetid: b4d8f416-d9e3-4a07-9b08-6f634c0de06c
 keywords:

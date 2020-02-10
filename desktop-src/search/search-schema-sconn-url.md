@@ -172,7 +172,7 @@ The following table shows the Windows 7 known folder GUIDs.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <simpleLocation>
         <url>mapi://{S-1-5-21-2127521184-1604012920-1887927527-2779359}/</url>
@@ -186,7 +186,7 @@ The following table shows the Windows 7 known folder GUIDs.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <simpleLocation>
         <url>knownfolder:{ED4824AF-DCE4-45A8-81E2-FC7965083634}</url>

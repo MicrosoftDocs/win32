@@ -12,8 +12,8 @@ This section provides C/C++ language reference information about the Microsoft A
 
 ## In this section
 
--   [Active Accessibility User Interface Services](active-accessibility-user-interface-services-collision208.md)
--   [Active Accessibility Text Services](active-accessibility-text-services-collision227.md)
+-   [Active Accessibility User Interface Services](active-accessibility-user-interface-services-ref.md)
+-   [Active Accessibility Text Services](active-accessibility-text-services.md)
 
  
 

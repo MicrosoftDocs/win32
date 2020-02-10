@@ -1,7 +1,7 @@
 ---
+title: Document as a Snapshot of Properties
 Description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 476c98e6-face-42cf-874d-cfa7a54b0666
-title: PrintCapabilities Document as a Snapshot of Properties
 ms.topic: article
 ms.date: 05/31/2018
 ---

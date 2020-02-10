@@ -1,5 +1,5 @@
 ---
-title: Language Bar
+title: Language Bar (Text Services)
 description: Language Bar
 ms.assetid: 82b92567-fdc1-488c-b395-4cb95257955c
 keywords:
