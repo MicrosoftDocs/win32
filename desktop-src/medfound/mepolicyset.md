@@ -19,6 +19,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 | VARTYPE              | Description                           |
 |----------------------|---------------------------------------|
 | VT\_EMPTY<br/> | No event data.<br/> <br/> |
+| VT\_UI4<br/> | An identifier that can be set on an [IMFOutputPolicy](/windows/win32/api/mfidl/nn-mfidl-imfoutputpolicy) through the [MF_POLICY_ID](mf-policy-id.md) attribute.<br/> <br/> |
 
 
 
