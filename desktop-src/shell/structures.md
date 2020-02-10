@@ -85,7 +85,7 @@ This section describes the Windows Shell Structures.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida"><strong>CIDA</strong></a><br/></td>
-<td>Used with the <a href="clipboard">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.<br/></td>
+<td>Used with the <a href="clipboard.md">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo"><strong>CM_COLUMNINFO</strong></a><br/></td>
@@ -129,7 +129,7 @@ This section describes the Windows Shell Structures.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cpl/ns-cpl-tagcplinfo"><strong>CPLINFO</strong></a><br/></td>
-<td>Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc"><strong>CPlApplet</strong></a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="cpl-inquire"><strong>CPL_INQUIRE</strong></a> message.<br/></td>
+<td>Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc"><strong>CPlApplet</strong></a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="cpl-inquire.md"><strong>CPL_INQUIRE</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization"><strong>CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</strong></a><br/></td>
@@ -157,11 +157,11 @@ This section describes the Windows Shell Structures.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_detailsinfo"><strong>DETAILSINFO</strong></a><br/></td>
-<td>Contains detail information for a Shell folder item. Used with the <a href="sfvm-getdetailsof"><strong>SFVM_GETDETAILSOF</strong></a> notification.<br/></td>
+<td>Contains detail information for a Shell folder item. Used with the <a href="sfvm-getdetailsof.md"><strong>SFVM_GETDETAILSOF</strong></a> notification.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dfmics"><strong>DFMICS</strong></a><br/></td>
-<td>Contains additional arguments used by <a href="dfm-invokecommandex"><strong>DFM_INVOKECOMMANDEX</strong></a>.<br/></td>
+<td>Contains additional arguments used by <a href="dfm-invokecommandex.md"><strong>DFM_INVOKECOMMANDEX</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-_dllversioninfo"><strong>DLLVERSIONINFO</strong></a><br/></td>
@@ -182,7 +182,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_dropfiles"><strong>DROPFILES</strong></a><br/></td>
-<td>Defines the <a href="clipboard">CF_HDROP</a> clipboard format. The data that follows is a double null-terminated list of file names.<br/></td>
+<td>Defines the <a href="clipboard.md">CF_HDROP</a> clipboard format. The data that follows is a double null-terminated list of file names.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link"><strong>EXP_DARWIN_LINK</strong></a><br/></td>
@@ -201,7 +201,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Holds an extra data block used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>IShellLinkDataList</strong></a>. It holds expandable environment strings for the icon or target.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="ext-button"><strong>EXT_BUTTON</strong></a><br/></td>
+<td><a href="ext-button.md"><strong>EXT_BUTTON</strong></a><br/></td>
 <td>Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.<br/></td>
 </tr>
 <tr class="odd">
@@ -214,30 +214,30 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
-<td>Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="dragdrop">drag-and-drop</a> operation.<br/></td>
+<td>Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="dragdrop.md">drag-and-drop</a> operation.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>FILEGROUPDESCRIPTOR</strong></a><br/></td>
 <td>Defines the CF_FILEGROUPDESCRIPTOR clipboard format.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="fms-getdriveinfo"><strong>FMS_GETDRIVEINFO</strong></a><br/></td>
+<td><a href="fms-getdriveinfo.md"><strong>FMS_GETDRIVEINFO</strong></a><br/></td>
 <td>Contains information about the drive selected in the active File Manager window (the directory window or the Search Results window).<br/></td>
 </tr>
 <tr class="even">
-<td><a href="fms-getfilesel"><strong>FMS_GETFILESEL</strong></a><br/></td>
+<td><a href="fms-getfilesel.md"><strong>FMS_GETFILESEL</strong></a><br/></td>
 <td>Contains information about a selected file in the active File Manager window (the directory window or the Search Results window).<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="fms-helpstring"><strong>FMS_HELPSTRING</strong></a><br/></td>
+<td><a href="fms-helpstring.md"><strong>FMS_HELPSTRING</strong></a><br/></td>
 <td>Contains information that File Manager uses to add a Help string for a menu or toolbar command item.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="fms-load"><strong>FMS_LOAD</strong></a><br/></td>
+<td><a href="fms-load.md"><strong>FMS_LOAD</strong></a><br/></td>
 <td>Contains information that File Manager uses to add a custom menu provided by a File Manager extension DLL. The structure also provides a delta value that the extension DLL can use to manipulate the custom menu after File Manager has loaded the menu.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="fms-toolbarload"><strong>FMS_TOOLBARLOAD</strong></a><br/></td>
+<td><a href="fms-toolbarload.md"><strong>FMS_TOOLBARLOAD</strong></a><br/></td>
 <td>Contains information about custom buttons to be added to the File Manager toolbar. The buttons are provided by a File Manager extension DLL.<br/></td>
 </tr>
 <tr class="even">
@@ -277,8 +277,8 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Defines the attributes of a font.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="mruinfo"><strong>MRUINFO</strong></a><br/></td>
-<td>Contains information that defines a new most recently used (MRU) list. Used by <a href="createmrulist"><strong>CreateMRUListW</strong></a>.<br/></td>
+<td><a href="mruinfo.md"><strong>MRUINFO</strong></a><br/></td>
+<td>Contains information that defines a new most recently used (MRU) list. Used by <a href="createmrulist.md"><strong>CreateMRUListW</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Winuser/ns-winuser-tagmultikeyhelpa"><strong>MULTIKEYHELP</strong></a><br/></td>
@@ -370,11 +370,11 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shlobj/ns-shlobj-_sfv_setitempos"><strong>SFV_SETITEMPOS</strong></a><br/></td>
-<td>Stores position information for an item. Used with message <a href="sfvm-setitempos"><strong>SFVM_SETITEMPOS</strong></a>.<br/></td>
+<td>Stores position information for an item. Used with message <a href="sfvm-setitempos.md"><strong>SFVM_SETITEMPOS</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfvm_helptopic_data"><strong>SFVM_HELPTOPIC_DATA</strong></a><br/></td>
-<td>Contains the name of an HTML Help file and a topic in that file. Used with the <a href="sfvm-gethelptopic"><strong>SFVM_GETHELPTOPIC</strong></a> notification. This structure requires Unicode strings.<br/></td>
+<td>Contains the name of an HTML Help file and a topic in that file. Used with the <a href="sfvm-gethelptopic.md"><strong>SFVM_GETHELPTOPIC</strong></a> notification. This structure requires Unicode strings.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfvm_proppage_data"><strong>SFVM_PROPPAGE_DATA</strong></a><br/></td>
@@ -394,7 +394,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangenotifyentry"><strong>SHChangeNotifyEntry</strong></a><br/></td>
-<td>Contains and receives information for change notifications. This structure is used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister"><strong>SHChangeNotifyRegister</strong></a> function and the <a href="sfvm-queryfsnotify"><strong>SFVM_QUERYFSNOTIFY</strong></a> notification.<br/></td>
+<td>Contains and receives information for change notifications. This structure is used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister"><strong>SHChangeNotifyRegister</strong></a> function and the <a href="sfvm-queryfsnotify.md"><strong>SFVM_QUERYFSNOTIFY</strong></a> notification.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumndata"><strong>SHCOLUMNDATA</strong></a><br/></td>
@@ -536,7 +536,7 @@ As of Windows Vista, the use of the <a href="/windows/desktop/api/shobjidl_core
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shlobj/ns-shlobj-_tbinfo"><strong>TBINFO</strong></a><br/></td>
-<td>Used with the <a href="sfvm-getbuttoninfo"><strong>SFVM_GETBUTTONINFO</strong></a> notification to specify the number of buttons to add to the toolbar, as well as how they're added.<br/></td>
+<td>Used with the <a href="sfvm-getbuttoninfo.md"><strong>SFVM_GETBUTTONINFO</strong></a> notification to specify the number of buttons to add to the toolbar, as well as how they're added.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton"><strong>THUMBBUTTON</strong></a><br/></td>

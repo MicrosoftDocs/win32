@@ -67,15 +67,15 @@ If key protectors are already enabled and no other errors occur, this method ret
 <td><dl> <dt><strong>FVE_E_SECURE_KEY_REQUIRED</strong></dt> <dt>2150694919 (0x80310007)</dt> </dl></td>
 <td>No key protectors exist on the volume. Use one of the following methods to specify key protectors for the volume:<br/>
 <ul>
-<li><a href="protectkeywithcertificatefile-win32-encryptablevolume"><strong>ProtectKeyWithCertificateFile</strong></a></li>
-<li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithpassphrase-win32-encryptablevolume"><strong>ProtectKeyWithPassphrase</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
+<li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li>
+<li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li>
+<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
+<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
+<li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li>
+<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
+<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
+<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
+<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">

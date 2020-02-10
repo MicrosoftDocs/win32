@@ -21,9 +21,9 @@ Windows 7 introduces the following new programming elements for Remote Desktop S
 <tbody>
 <tr class="odd">
 <td>Remote Desktop ActiveX Control Interfaces<br/></td>
-<td>The following interfaces (and their associated properties) were added to the <a href="remote-desktop-web-connection-reference">Remote Desktop ActiveX Control Interface</a>.<br/>
+<td>The following interfaces (and their associated properties) were added to the <a href="remote-desktop-web-connection-reference.md">Remote Desktop ActiveX Control Interface</a>.<br/>
 <ul>
-<li><a href="imsrdpclientadvancedsettings7"><strong>IMsRdpClientAdvancedSettings7 Interface</strong></a></li>
+<li><a href="imsrdpclientadvancedsettings7.md"><strong>IMsRdpClientAdvancedSettings7 Interface</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">

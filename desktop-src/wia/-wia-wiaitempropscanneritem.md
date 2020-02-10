@@ -85,7 +85,7 @@ The prefix "WIA\_IPS\_" indicates an Item Property for Scanner devices and is th
 [!Note]<br />
 This property is supported only by Windows Vista and later.
 </blockquote>
-<br/> Turns automatic deskew on or off.<br/> Optional for WIA_CATEGORY_FEEDER only.<br/> Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a><br/> The following table has the constants that are valid with this property. 
+<br/> Turns automatic deskew on or off.<br/> Optional for WIA_CATEGORY_FEEDER only.<br/> Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a><br/> The following table has the constants that are valid with this property. 
 <table>
 <thead>
 <tr class="header">
@@ -113,20 +113,20 @@ This property is supported only by Windows Vista and later.
 <p>Contains the current hardware brightness setting for the device. An application sets this property to the hardware's brightness value. The minidriver creates and maintains this property.</p>
 <p>Values should be mapped in a range from -1000 through 1000, where 1000 corresponds to the maximum brightness, 0 corresponds to normal brightness, and -1000 corresponds to the minimum brightness.</p>
 <p>Required for all items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM. Optional, but recommended, for WIA_CATEGORY_FINISHED_FILE items supporting previews.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>ScannerPictureContrast</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the current hardware contrast setting for a device. An application sets this property to the hardware's contrast value. The minidriver creates and maintains this property.</p>
 <p>Values should be mapped in a range from -1000 through 1000, where -1000 corresponds to the minimum contrast, 0 corresponds to normal contrast, and 1000 corresponds to the maximum contrast.</p>
 <p>Required for all items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM. Optional, but recommended, for WIA_CATEGORY_FINISHED_FILE items supporting previews.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>ScannerPictureCurIntent</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the current intent settings. The minidriver creates and maintains this property.</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM. It is not supported for WIA_CATEGORY_FINISHED_FILE or WIA_CATEGORY_FOLDER items.</p>
-<p>Type: <strong>VT_I4</strong> Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_FLAGS</a></p>
+<p>Type: <strong>VT_I4</strong> Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_FLAGS</a></p>
 <p>The driver uses these to preset item properties based on an application's intended use of the image. This might include, for example, maximum quality, minimum size, and so on.</p>
 <p>The driver chooses the bit depth, in dots per inch, and other settings that it determines are appropriate for the selected intent. It is up to the application to read the current settings to determine which properties were changed. An application sets this property to auto-set the WIA properties for specific acquisition intent. This property is required for all scanners.</p>
 <p>An application sets this property to auto-set the WIA properties for specific acquisition intent</p>
@@ -250,7 +250,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Contains the current scanner acquisition source and mode. The minidriver creates and maintains this property.</p>
 <p>An application reads this property to determine the current acquisition source of the scanner or to write this property to set the source and mode of the scanner. In addition, applications use this property to enable and disable duplexer functionality.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes">WIA_PROP_FLAG</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_FLAG</a></p>
 <p>The following table has the constants that are valid with this property. </p>
 <table>
 <thead>
@@ -302,7 +302,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Enables specification of a particular film scanning attachment when there is more than one.</p>
 <p>This property is required for the WIA_CATEGORY_FILM items when there are multiple film scan items. If the device supports only one root scanner film item then this property is optional.</p>
-<p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p>
+<p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Allowed values: The BSTR should be in the form of @ResourceBinary,-<ResourceID> to allow localization as this string would be exposed to the user through the film scanning UI.</p></td>
 </tr>
 <tr class="odd">
@@ -318,7 +318,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Enables configuration of the current film scan.</p>
 <p>This property is required for the WIA_CATEGORY_FILM item.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following table has the constants that are valid with this property. </p>
 <table>
 <thead>
@@ -348,7 +348,7 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
 <td style="text-align: left;"><p>Reserved for future use and is not implemented at this time.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
@@ -362,7 +362,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies how many items are stored in the WIA_CATEGORY_FOLDER item.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>ScannerPictureLamp</dt> </dl></td>
@@ -377,7 +377,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Turns the scanner lamp on or off.</p>
 <p>Optional for the WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, and WIA_CATEGORY_FILM items and recommended for WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following table has the constants that are valid with this property. </p>
 <table>
 <thead>
@@ -427,7 +427,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies the maximum width, in thousandths of an inch, that is scanned in the horizontal (X) axis at the current resolution. This may be the width of the sheet feeder or the scanning bed, according to the type of item.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMaxVerticalSize</dt> </dl></td>
@@ -441,7 +441,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies the maximum height, in thousandths of an inch, that is scanned in the vertical (Y) axis at the current resolution. This may be the height of the sheet feeder or the scanning bed, according to the type of item.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMinHorizontalSize</dt> </dl></td>
@@ -455,7 +455,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies the minimum width, in thousandths of an inch, that is scanned in the horizontal (X) axis at the current resolution.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMinVerticalSize</dt> </dl></td>
@@ -469,12 +469,12 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies the minimum height, in thousandths of an inch, that is scanned in the vertical (Y) axis at the current resolution.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>ScannerPictureMirror</dt> </dl></td>
 <td style="text-align: left;"><p>Reserved for future use and is not implemented at this time.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>ScannerPictureOpticalXres</dt> </dl></td>
@@ -488,7 +488,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Horizontal Optical Resolution. Highest supported horizontal optical resolution in DPI. This property is a single value. This is not a list of all resolutions that can be generated by the device. Rather, this is the resolution of the device's optics. The minidriver creates and maintains this property. This property is required for all items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>ScannerPictureOpticalYres</dt> </dl></td>
@@ -502,7 +502,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Vertical Optical Resolution. Highest supported vertical optical resolution in DPI. This property is a single value. This is not a list of all resolutions that are generated by the device. Rather, this is the resolution of the device's optics. The minidriver creates and maintains this property. This property is required for all items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>ScannerPictureOrientation</dt> </dl></td>
@@ -517,7 +517,7 @@ WIA_IPS_ORIENTATION refers to the position of the document to be scanned on the 
 <div>
  
 </div>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following table has the four constants that are valid with this property.</p>
 
 <table>
@@ -561,8 +561,8 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Contains the size of the page that is currently set to be scanned. An application sets this property to select the dimensions of the page to scan. The minidriver creates and maintains this property.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes">WIA_PROP_LIST</a></p>
-<p>For the constants that can be used with this property, see <a href="-wia-wia2-pagesizeconstants"><strong>WIA 2.0 Page Size Constants</strong></a>. Note these non-fixed sizes, in particular: </p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>For the constants that can be used with this property, see <a href="-wia-wia2-pagesizeconstants.md"><strong>WIA 2.0 Page Size Constants</strong></a>. Note these non-fixed sizes, in particular: </p>
 <table>
 <thead>
 <tr class="header">
@@ -598,12 +598,12 @@ Valid values of type WIA_PROP_LIST depend on valid settings of the <strong>WIA_I
  
 </div>
 <p>If an application sets <strong>WIA_IPS_PAGE_SIZE</strong> to any value other than the three in the table above, the minidriver should adjust the values of <strong>WIA_IPS_PAGE_WIDTH</strong> and <strong>WIA_IPS_PAGE_HEIGHT</strong> to the page's dimensions in thousandths of an inch. It should also adjust the values of <strong>WIA_IPS_XEXTENT</strong> and <strong>WIA_IPS_YEXTENT</strong> to the page's dimensions in pixels.</p>
-<p>If an extent setting (<strong>WIA_IPS_XEXTENT</strong> or <strong>WIA_IPS_YEXTENT</strong>) is changed to a value that does not match the current page size setting, the minidriver should change the value of the <strong>WIA_IPS_PAGE_SIZE</strong> property to WIA_PAGE_CUSTOM. The minidriver should also modify <a href="-wia-wiaitempropscannerdevice"><strong>WIA_IPS_PAGE_WIDTH</strong></a> or <strong>WIA_IPS_PAGE_HEIGHT</strong> in accordance with the new extent setting.</p>
+<p>If an extent setting (<strong>WIA_IPS_XEXTENT</strong> or <strong>WIA_IPS_YEXTENT</strong>) is changed to a value that does not match the current page size setting, the minidriver should change the value of the <strong>WIA_IPS_PAGE_SIZE</strong> property to WIA_PAGE_CUSTOM. The minidriver should also modify <a href="-wia-wiaitempropscannerdevice.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a> or <strong>WIA_IPS_PAGE_HEIGHT</strong> in accordance with the new extent setting.</p>
 <p>If <strong>WIA_IPS_ORIENTATION</strong> is set to LANDSCAPE, the extent settings will be exchanged relative to their usual values. For example, if an application sets <strong>WIA_IPS_PAGE_SIZE</strong> to WIA_PAGE_A4, the minidriver sets <strong>WIA_IPS_PAGE_WIDTH</strong> to 11692 and <strong>WIA_IPS_PAGE_HEIGHT</strong> to 8267. (The minidriver should also adjust <strong>WIA_IPS_XEXTENT</strong> and <strong>WIA_IPS_YEXTENT</strong> accordingly.)</p>
 <div class="alert">
 <blockquote>
 [!Note]<br />
-If <a href="-wia-wiaitempropscannerdevice"><strong>WIA_IPS_PAGE_SIZE</strong></a> is set to WIA_PAGE_CUSTOM, the orientation setting is not used to determine the extent dimensions of the page to be scanned.
+If <a href="-wia-wiaitempropscannerdevice.md"><strong>WIA_IPS_PAGE_SIZE</strong></a> is set to WIA_PAGE_CUSTOM, the orientation setting is not used to determine the extent dimensions of the page to be scanned.
 </blockquote>
 </div>
 <div>
@@ -731,7 +731,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Contains the height, in thousandths of an inch, of the currently selected page. The minidriver creates and maintains the <strong>WIA_IPS_PAGE_HEIGHT</strong> property. An application reads this property to determine the physical dimensions of the page being scanned. If the extent settings are different from the known page sizes, this property reports the height of the page whose <strong>WIA_IPS_PAGE_SIZE</strong> property is set to WIA_PAGE_CUSTOM (which is a value of the <strong>WIA_IPS_PAGE_SIZE</strong> property). <strong>WIA_IPS_PAGE_HEIGHT</strong> must be in sync with <strong>WIA_IPS_XEXTENT</strong>, which reports the height, in pixels, of the page to be scanned.</p>
 <p>This property is required for WIA_CATEGORY_FEEDER items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>ScannerPicturePageWidth</dt> </dl></td>
@@ -746,7 +746,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Contains the width of the current page selected, in thousandths of an inch. An application reads this property to determine the physical dimensions of the page being scanned. If the extent settings are different from known page sizes, this property reports the width of the page whose <strong>WIA_IPS_PAGE_SIZE</strong> property is set to WIA_PAGE_CUSTOM. <strong>WIA_IPS_PAGE_WIDTH</strong> must be in sync with the value of <strong>WIA_IPS_XEXTENT</strong>, which reports the width, in pixels, of the page to be scanned. The minidriver creates and maintains this property.</p>
 <p>This property is required for WIA_CATEGORY_FEEDER items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>ScannerPicturePages</dt> </dl></td>
@@ -760,7 +760,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Contains the current number of pages to be acquired from an automatic document feeder. The minidriver creates and maintains this property.</p>
-<p>Type: <strong>VT_I4</strong>; Access: Read/Write; Valid values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a> This is zero through the maximum number of pages that the scanner can scan. The value is ALL_PAGES (= 0) if the scanner can scan continuously.</p>
+<p>Type: <strong>VT_I4</strong>; Access: Read/Write; Valid values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> This is zero through the maximum number of pages that the scanner can scan. The value is ALL_PAGES (= 0) if the scanner can scan continuously.</p>
 <p>An application reads this property to determine the document feeder's page capacity. The application also sets this property to the number of pages it is going to scan.</p>
 <div class="alert">
 <blockquote>
@@ -779,7 +779,7 @@ If duplex mode is enabled (<strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong> is 
 <td style="text-align: left;"><p>Contains the current setting for white and black pixels. The minidriver creates and maintains this property.</p>
 <p>An application reads this value to determine the value of WHITE or BLACK (depending on what the application is doing).</p>
 <p>Required for all acquisition enabled or stored items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE, and WIA_CATEGORY_FILM. It is not supported for WIA_CATEGORY_FOLDER items.</p>
-<p>Type: <strong>VT_I4</strong>; Access: Read/Write; Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a>. If the device can be set to only a single value, create a WIA_PROP_LIST type, and place the valid value in it.</p>
+<p>Type: <strong>VT_I4</strong>; Access: Read/Write; Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>. If the device can be set to only a single value, create a WIA_PROP_LIST type, and place the valid value in it.</p>
 <p>The following table has the two constants that are valid with this property.</p>
 
 <table>
@@ -816,7 +816,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Indicates the preview mode for a device. An application sets this property to place the device into a preview mode.</p>
 <p>This property is required for the WIA_CATEGORY_FLATBED and WIA_CATEGORY_FILM items, optional for the WIA_CATEGORY_FEEDER item.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes">WIA_PROP_LIST</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following table has the constants that are valid with this property. </p>
 <table>
 <thead>
@@ -852,7 +852,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Specifies whether the existing preview image can be updated during an image preview (in response to a change in the WIA_IPA_DATATYPE or WIA_IPA_DEPTH properties).</p>
 <p>This property is optional for all acquisition enabled items that support preview scans; that is, WIA_IPS_PREVIEW is supported with WIA_PREVIEW_SCAN. This includes items of types WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The following table has the constants that are valid with this property. </p>
 <table>
 <thead>
@@ -892,7 +892,7 @@ WIA_IPS_ORIENTATION refers to the position of the document to be scanned on the 
 <p>Considerable confusion exists about resolving the effect of rotation on the current image's selection area (which is defined by the <strong>WIA_IPS_XPOS</strong>, <strong>WIA_IPS_YPOS</strong>, <strong>WIA_IPS_XEXTENT</strong> and <strong>WIA_IPS_YEXTENT</strong> properties).</p>
 <p><em>Selection area</em> refers to the selected area on the physical scanner bed that an image is be acquired from. <strong>WIA_IPS_ROTATION</strong> does not modify the selection area. The driver applies a counterclockwise rotation according to <strong>WIA_IPS_ROTATION</strong> only after the driver has acquired the appropriate selection area. <strong>WIA_IPS_ROTATION</strong> does affect the dimensions of the output image, so these dimensions must be reflected in the resulting image's data header.</p>
 <p>Optional for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following rotation constants are defined.</p>
 
 <table>
@@ -936,7 +936,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies whether the application should use the driver's segmentation filter for multi-region scanning. WIA_IPS_SEGMENTATION must be implemented for WIA_CATEGORY_FLATBED and WIA_CATEGORY_FILM items if they support either the creation of child items with a segmentation filter or if the driver itself creates child items for fixed frames.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The following table has the two constants that are valid with this property.</p>
 
 <table>
@@ -982,7 +982,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Contains the registration, or alignment and edge detection, for documents that are placed on the flatbed. The minidriver creates and maintains this property. This property indicates how the sheet is horizontally positioned on the scanning head of a handheld or sheet-fed scanner. The property is used to predict where across the scan head a document is placed.</p>
 <p>For scanners that support more than one scan head, this property is relative to the topmost scan head. This property is mandatory for sheet-fed, scroll-fed, and handheld scanners.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The following table has the three constants that are valid with this property.</p>
 
 <table>
@@ -1023,7 +1023,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Indicates whether an item needs a preview control displayed to the user. The minidriver creates and maintains this property.</p>
 <p>Optional for all transfer enabled items. This is usually just items of the categories WIA_ITEM_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FILM, and WIA_CATEGORY_FINISHED_FILE.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The following table has the constants that are valid with this property. </p>
 <table>
 <thead>
@@ -1075,7 +1075,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Specifies the grayscale value that determines whether a pixel will be converted to white or black when an image is converted to monochromatic. Pixels above the threshold become white. Pixels below the threshold become white.</p>
 <p>This property is required for acquisition items that support 1-bpp scans and that have the WIA_IPA_DATATYPE property set to WIA_DATA_THRESHOLD.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>ScannerPictureTransferCapabilities</dt> </dl></td>
@@ -1089,7 +1089,7 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies whether the driver is capable of transferring multiple child items in single transfer call.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_FLAG</a></p>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_FLAG</a></p>
 <p>The only possible value for this property is WIA_TRANSFER_CHILDREN_SINGLE_SCAN. If this flag is set, then the driver is capable of transfering multiple child items in single transfer call. If the flag is not set, the WIA Service will walk through the child items recursively and then transfer each of those items.</p></td>
 </tr>
 <tr class="even">
@@ -1104,33 +1104,33 @@ This property is supported only by Windows Vista and later.
  
 </div>
 <p>Specifies the number of bytes to upload for the item.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>ScannerPictureWarmUpTime</dt> </dl></td>
 <td style="text-align: left;"><p>Specifies the maximum warm-up time, in milliseconds, that the device needs before starting the scanning operation. The minidriver creates and maintains this property.</p>
 <p>An application can read this property to determine the maximum warm-up time for this device. It can then present a &quot;waiting for the device to warm up&quot; dialog box, to let the user know that a wait or pause might occur before anything happens.</p>
 <p>This property is required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_NONE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>ScannerPictureXextent</dt> </dl></td>
-<td style="text-align: left;"><p>Contains the current width, in pixels, of the selected image to acquire. An application sets this property to mark the width of a selection area to acquire. This property must agree with the <a href="-wia-wiaitempropcommonitem"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> property. The minidriver creates and maintains this property.</p>
+<td style="text-align: left;"><p>Contains the current width, in pixels, of the selected image to acquire. An application sets this property to mark the width of a selection area to acquire. This property must agree with the <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> property. The minidriver creates and maintains this property.</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>ScannerPictureXpos</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the x coordinate, in pixels, of the upper-left corner of the selected image. An application sets this property to mark the upper-left corner of the selection area. The minidriver creates and maintains this property.</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE, and WIA_CATEGORY_FILM. It is not supported for WIA_CATEGORY_FOLDER items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>ScannerPictureXres</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the current horizontal resolution, in pixels per inch, for the device. An application sets this property to set the horizontal resolution. The minidriver creates and maintains this property.</p>
-<p>If the device can be set to only a single value, create a <a href="-wia-property-attributes">WIA_PROP_LIST</a> type and place the valid value in it. This is also a case where one resolution setting depends on another resolution. (The vertical resolution can depend on the horizontal resolution.)</p>
+<p>If the device can be set to only a single value, create a <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> type and place the valid value in it. This is also a case where one resolution setting depends on another resolution. (The vertical resolution can depend on the horizontal resolution.)</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE, and WIA_CATEGORY_FILM. It is not supported for WIA_CATEGORY_FOLDER items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a> or WIA_PROP_LIST</p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> or WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>ScannerPictureXscaling</dt> </dl></td>
@@ -1145,27 +1145,27 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Sets the horizontal scaling, as a percentage, that may be applied to scanned images within the scanner device or its driver.</p>
 <p>This property is optional for all acquisition enabled items; that is, items of types WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a> or WIA_PROP_RANGE.</p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> or WIA_PROP_RANGE.</p>
 <p>Values can be from 1 to maximum VT_I4 (0xFFFF). For example, 100 means no scaling, 050 means scaling down to 50% of the orignal size, and 200 means scaling up to 200% of the original size.</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>ScannerPictureYextent</dt> </dl></td>
-<td style="text-align: left;"><p>Contains the current height, in pixels, of the selected image to acquire. An application sets this property to mark the height of a selection area. This property must be agree with the value of the <a href="-wia-wiaitempropcommonitem"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> property. The minidriver creates and maintains this property.</p>
+<td style="text-align: left;"><p>Contains the current height, in pixels, of the selected image to acquire. An application sets this property to mark the height of a selection area. This property must be agree with the value of the <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> property. The minidriver creates and maintains this property.</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>ScannerPictureYpos</dt> </dl></td>
 <td style="text-align: left;"><p>Current y coordinate, in pixels, of the upper-left corner of the selected image. An application sets this property to mark the upper-left corner of the selection area. The minidriver creates and maintains this property.</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE, and WIA_CATEGORY_FILM. It is not supported for WIA_CATEGORY_FOLDER items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a></p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>ScannerPictureYres</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the current vertical resolution, in pixels per inch, for the device. An application sets this property to set the vertical resolution. The minidriver creates and maintains this property.</p>
-<p>If the device can be set to only a single value, create a <a href="-wia-property-attributes">WIA_PROP_LIST</a> type and place the valid value in it. This is also a case where one resolution setting depends on another resolution. (The horizontal resolution can depend on the vertical resolution.)</p>
+<p>If the device can be set to only a single value, create a <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> type and place the valid value in it. This is also a case where one resolution setting depends on another resolution. (The horizontal resolution can depend on the vertical resolution.)</p>
 <p>Required for all acquisition enabled items; that is, items in the categories: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE, and WIA_CATEGORY_FILM. It is not supported for WIA_CATEGORY_FOLDER items.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_RANGE</a> or WIA_PROP_LIST</p></td>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> or WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>ScannerPictureYscaling</dt> </dl></td>
@@ -1180,7 +1180,7 @@ This property is supported only by Windows Vista and later.
 </div>
 <p>Sets the vertical scaling, as a percentage, that may be applied to scanned images within the scanner device or its driver.</p>
 <p>This property is optional for all acquisition enabled items; that is, items of types WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, and WIA_CATEGORY_FILM.</p>
-<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes">WIA_PROP_LIST</a> or WIA_PROP_RANGE.</p>
+<p>Type: <strong>VT_I4</strong>, Access: Read/Write or Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> or WIA_PROP_RANGE.</p>
 <p>Values can be from 1 to maximum VT_I4 (0xFFFF). For example, 100 means no scaling, 050 means scaling down to 50% of the orignal size, and 200 means scaling up to 200% of the original size.</p></td>
 </tr>
 </tbody>

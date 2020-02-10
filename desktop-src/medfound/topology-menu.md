@@ -26,19 +26,19 @@ The **Topology** menu provides the following commands:
 <tbody>
 <tr class="odd">
 <td><strong>Add Source...</strong></td>
-<td>Adds a source node for the specified media file. See <a href="adding-source-nodes-with-topoedit">Adding Source Nodes with TopoEdit</a>.</td>
+<td>Adds a source node for the specified media file. See <a href="adding-source-nodes-with-topoedit.md">Adding Source Nodes with TopoEdit</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>Add SAR</strong></td>
-<td>Adds an output node for the Streaming Audio Renderer (SAR). See <a href="adding-output-nodes-with-topoedit">Adding Output Nodes with TopoEdit</a>.</td>
+<td>Adds an output node for the Streaming Audio Renderer (SAR). See <a href="adding-output-nodes-with-topoedit.md">Adding Output Nodes with TopoEdit</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Add EVR</strong></td>
-<td>Adds an output node for the enhanced video renderer (EVR). See <a href="adding-output-nodes-with-topoedit">Adding Output Nodes with TopoEdit</a>.</td>
+<td>Adds an output node for the enhanced video renderer (EVR). See <a href="adding-output-nodes-with-topoedit.md">Adding Output Nodes with TopoEdit</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>Add Transform...</strong></td>
-<td>Adds the specified transform node. See <a href="adding-transform-nodes-with-topoedit">Adding Transform Nodes with TopoEdit</a>.</td>
+<td>Adds the specified transform node. See <a href="adding-transform-nodes-with-topoedit.md">Adding Transform Nodes with TopoEdit</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Add Tee</strong></td>
@@ -46,11 +46,11 @@ The **Topology** menu provides the following commands:
 </tr>
 <tr class="even">
 <td><strong>Add Custom MFT...</strong></td>
-<td>Adds a custom Media Foundation Transform (MFT). See <a href="adding-transform-nodes-with-topoedit">Adding Transform Nodes with TopoEdit</a>.</td>
+<td>Adds a custom Media Foundation Transform (MFT). See <a href="adding-transform-nodes-with-topoedit.md">Adding Transform Nodes with TopoEdit</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Add Custom Sink...</strong></td>
-<td>Adds an output node for a custom stream sink. See <a href="adding-output-nodes-with-topoedit">Adding Output Nodes with TopoEdit</a>.</td>
+<td>Adds an output node for a custom stream sink. See <a href="adding-output-nodes-with-topoedit.md">Adding Output Nodes with TopoEdit</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>Add Video Capture Source...</strong></td>
@@ -72,7 +72,7 @@ This feature requires Windows 7.
 </tr>
 <tr class="even">
 <td><strong>Resolve Topology</strong></td>
-<td>Creates a full topology for playback. See <a href="resolving-a-topology-with-topoedit">Resolving a Topology with TopoEdit</a>.</td>
+<td>Creates a full topology for playback. See <a href="resolving-a-topology-with-topoedit.md">Resolving a Topology with TopoEdit</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Delete</strong></td>

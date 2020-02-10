@@ -257,7 +257,7 @@ The following table lists the flags that can be specified in the *lpszRequest* p
 </tr>
 <tr class="odd">
 <td>can preroll</td>
-<td>Returns <strong>TRUE</strong> if the device supports the &quot;preroll&quot; flag with the <a href="cue">cue</a> command.</td>
+<td>Returns <strong>TRUE</strong> if the device supports the &quot;preroll&quot; flag with the <a href="cue.md">cue</a> command.</td>
 </tr>
 <tr class="even">
 <td>can preview</td>

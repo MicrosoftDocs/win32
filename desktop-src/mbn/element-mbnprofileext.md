@@ -78,106 +78,106 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-adminenable">AdminEnable</a></td>
+<td><a href="element-adminenable.md">AdminEnable</a></td>
 <td><p>Specifies whether the profile is enabled administratively.This is a new element for v4.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-adminroamcontrol">AdminRoamControl</a></td>
-<td><p>Specifies whether the profile is administratively roam controlled. This element is new for v4. The value of this element is a <a href="simpletype-roamcontroltype"><strong>roamControlType</strong></a> value. This is an optional element; if no value is specified, then <strong>AllRoamAllowed</strong> is the default.</p></td>
+<td><a href="element-adminroamcontrol.md">AdminRoamControl</a></td>
+<td><p>Specifies whether the profile is administratively roam controlled. This element is new for v4. The value of this element is a <a href="simpletype-roamcontroltype.md"><strong>roamControlType</strong></a> value. This is an optional element; if no value is specified, then <strong>AllRoamAllowed</strong> is the default.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-apnid">ApnID</a></td>
+<td><a href="element-apnid.md">ApnID</a></td>
 <td><p>An APN ID associated with this profile.This element is new in v4, and it is optional.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-autoconnectoninternet">AutoConnectOnInternet</a></td>
+<td><a href="element-autoconnectoninternet.md">AutoConnectOnInternet</a></td>
 <td><p>Specifies whether the Mobile Broadband device will automatically connect to a network.</p>
 <p>For more information, see the documentation for the v1 <a href="../mbn/schema_autoconnectoninternet_mbnprofile_element"><strong>AutoConnectOnInternet</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-connectionmode">ConnectionMode</a></td>
+<td><a href="element-connectionmode.md">ConnectionMode</a></td>
 <td><p>Specifies the auto connection setting to be used for a Mobile Broadband device.</p>
 <p>For more information, see the documentation for the v1 <a href="../mbn/schema_connectionmode_mbnprofile_element"><strong>ConnectionMode</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-context">Context</a></td>
+<td><a href="element-context.md">Context</a></td>
 <td><p>Specifies the parameters required to establish a data connection.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-dataroamingpartners">DataRoamingPartners</a></td>
+<td><a href="element-dataroamingpartners.md">DataRoamingPartners</a></td>
 <td><p>Specifies a list of preferred network providers when roaming.</p>
 <p>For details, see the documentation for the v1 <a href="../mbn/schema_dataroamingpartners_mbnprofile_element"><strong>DataRoamingPartners</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-description">Description</a></td>
+<td><a href="element-description.md">Description</a></td>
 <td><p>A description of the profile.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-homeprovidername">HomeProviderName</a></td>
+<td><a href="element-homeprovidername.md">HomeProviderName</a></td>
 <td><p>The name of the home provider for the given SIM/Device. For more information, see the documentation for the v1 <a href="../mbn/schema_homeprovidername_mbnprofile_element"><strong>HomeProviderName</strong></a> element.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-iconfilepath">ICONFilePath</a></td>
+<td><a href="element-iconfilepath.md">ICONFilePath</a></td>
 <td><p>The path to the icon file for the connection. The operating system connection user interface displays the icon when a connection is made using this profile.</p>
 <p>For more details on using this element, see the v1 documentation for <a href="../mbn/schema_iconfilepath_mbnprofile_element"><strong>ICONFilePath</strong></a>.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-isdefault">IsDefault</a></td>
+<td><a href="element-isdefault.md">IsDefault</a></td>
 <td><p>Specifies whether this profile is the default profile.</p>
 <p>For more detail on this element, see the v1 documentation for <a href="../mbn/schema_isdefault_mbnprofile_element"><strong>IsDefault</strong></a>.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-isexclusivetoother">IsExclusiveToOther</a></td>
+<td><a href="element-isexclusivetoother.md">IsExclusiveToOther</a></td>
 <td><p>Specifies that this profile is exclusive to other profiles of the same profile set(s).This element is new for v4.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-islongstandingadditionalpdpcontextprofile">IsLongStandingAdditionalPdpContextProfile</a></td>
+<td><a href="element-islongstandingadditionalpdpcontextprofile.md">IsLongStandingAdditionalPdpContextProfile</a></td>
 <td><p>Specifies that this profile is a long-standing additional PDP context profile.If the value of this element is <strong>true</strong>, then <a href="../WWAN_profile_v3/element_IsAdditionalPdpContextProfile"><strong>IsAdditionalPdpContextProfile</strong></a> must also be set to <strong>true</strong>. This is a new element for v4.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-isprovisioningprofile">IsProvisioningProfile</a></td>
+<td><a href="element-isprovisioningprofile.md">IsProvisioningProfile</a></td>
 <td><p>Specifies that this profile is to be used for provisioning only.Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. This element is new for v4.</p>
-<p>If <strong>IsProvisioningProfile</strong> is true, <a href="element-isdefault"><strong>IsDefault</strong></a> must be false, and <a href="element-connectionmode"><strong>ConnectionMode</strong></a> must be manual.</p></td>
+<p>If <strong>IsProvisioningProfile</strong> is true, <a href="element-isdefault.md"><strong>IsDefault</strong></a> must be false, and <a href="element-connectionmode.md"><strong>ConnectionMode</strong></a> must be manual.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-mmsconfiguration">MmsConfiguration</a></td>
+<td><a href="element-mmsconfiguration.md">MmsConfiguration</a></td>
 <td><p>Configuration information for Multimedia Messaging Service (MMS).</p>
 <p>In addition to setting the configuration elements within this element, an MMS profile must have the following settings.</p>
 <ul>
-<li>Its <a href="element-name"><strong>Name</strong></a> element must contain a system-wide unique name.</li>
+<li>Its <a href="element-name.md"><strong>Name</strong></a> element must contain a system-wide unique name.</li>
 <li>Its <a href="../mbn/schema_profilecreationtype_mbnprofile_element"><strong>ProfileCreationType</strong></a> must be set to <strong>UserProvisioned</strong>.</li>
 <li>Its <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid"><strong>SimIccID</strong></a> must contain the ICCID of the SIM that this profile is intended for.</li>
 <li>Its <a href="../mbn/schema_connectionmode_mbnprofile_element"><strong>ConnectionMode</strong></a> must be set to <strong>Manual</strong>.</li>
-<li>Its <a href="element-purposegroupguid"><strong>PurposeGroupGuid</strong></a> must contain the GUID for MMS purpose group.</li>
+<li>Its <a href="element-purposegroupguid.md"><strong>PurposeGroupGuid</strong></a> must contain the GUID for MMS purpose group.</li>
 <li>Its <a href="../WWAN_profile_v3/element_IsAdditionalPdpContextProfile"><strong>IsAdditionalPdpContextProfile</strong></a> must be set to <strong>true</strong>.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="element-name">Name</a></td>
+<td><a href="element-name.md">Name</a></td>
 <td><p>The name of the profile. For more information, see the documentation for the v1 <a href="../mbn/schema_name_mbnprofile_element"><strong>Name</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-profileconditionedon">ProfileConditionedOn</a></td>
+<td><a href="element-profileconditionedon.md">ProfileConditionedOn</a></td>
 <td><p>Specifies the conditions which must be satisfied for a profile to be applicable.</p>
 <p>This element is new for v4. It enables you to specify multiple profiles that apply in different conditions, and for the proper profile to be used automatically when it is applicable. This element is optional. If you do not specify it, then the profile is always applicable with respect to the conditions listed.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-profilecreationtype">ProfileCreationType (in MBNProfileExt)</a></td>
+<td><a href="element-profilecreationtype.md">ProfileCreationType (in MBNProfileExt)</a></td>
 <td><p>Specifies the creator of the profile.</p>
 <p>For more information about this element, see the documentation for the v1 <a href="../mbn/schema_profilecreationtype_mbnprofile_element"><strong>ProfileCreationType</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-purposegroups">PurposeGroups</a></td>
+<td><a href="element-purposegroups.md">PurposeGroups</a></td>
 <td><p>An optional list of groups of profiles, where each group includes profiles used for a common purpose.</p>
 <p>This element is new for v4 of the schema.</p>
 <p>One profile can be listed in multiple groups.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-simiccid">SimIccID</a></td>
+<td><a href="element-simiccid.md">SimIccID</a></td>
 <td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid"><strong>SimIccID</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-subscriberid">SubscriberID</a></td>
+<td><a href="element-subscriberid.md">SubscriberID</a></td>
 <td><p>Identifies the unique identifier of the profile.</p>
 <p>For a GSM network this should contain the IMSI (International Mobile Subscriber Identity) of the SIM and for CDMA devices it should contain the MIN (Mobile Identification Number) of the device.</p>
 <p>For more information, see the documentation for the v1 <a href="../mbn/schema_subscriberid_mbnprofile_element"><strong>SubscriberID</strong></a> element.</p></td>

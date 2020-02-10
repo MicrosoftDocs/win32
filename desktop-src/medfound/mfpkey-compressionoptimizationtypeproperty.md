@@ -48,15 +48,15 @@ This property provides a quick way to configure a number of video encoding optio
 <td>1</td>
 <td>Enables the features that will produce the best visual quality.Using this value configures the codec as if you had set the following properties:<br/>
 <ul>
-<li><a href="mfpkey-bdeltaqpproperty">MFPKEY_BDELTAQP</a> = 1</li>
-<li><a href="mfpkey-complexityexproperty">MFPKEY_COMPLEXITYEX</a> = 3</li>
-<li><a href="mfpkey-loopfilterproperty">MFPKEY_LOOPFILTER</a> = 1</li>
-<li><a href="mfpkey-motionmatchmethodproperty">MFPKEY_MOTIONMATCHMETHOD</a> = -1</li>
-<li><a href="mfpkey-motionsearchlevelproperty">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li>
-<li><a href="mfpkey-motionsearchrangeproperty">MFPKEY_MOTIONSEARCHRANGE</a> = -1</li>
-<li><a href="mfpkey-numbframesproperty">MFPKEY_NUMBFRAMES</a> = 1</li>
+<li><a href="mfpkey-bdeltaqpproperty.md">MFPKEY_BDELTAQP</a> = 1</li>
+<li><a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a> = 3</li>
+<li><a href="mfpkey-loopfilterproperty.md">MFPKEY_LOOPFILTER</a> = 1</li>
+<li><a href="mfpkey-motionmatchmethodproperty.md">MFPKEY_MOTIONMATCHMETHOD</a> = -1</li>
+<li><a href="mfpkey-motionsearchlevelproperty.md">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li>
+<li><a href="mfpkey-motionsearchrangeproperty.md">MFPKEY_MOTIONSEARCHRANGE</a> = -1</li>
+<li><a href="mfpkey-numbframesproperty.md">MFPKEY_NUMBFRAMES</a> = 1</li>
 </ul>
-If you set any of the properties in the previous list, the value you set overrides the values associated with this setting, except for <a href="mfpkey-complexityexproperty">MFPKEY_COMPLEXITYEX</a>.<br/></td>
+If you set any of the properties in the previous list, the value you set overrides the values associated with this setting, except for <a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a>.<br/></td>
 </tr>
 </tbody>
 </table>

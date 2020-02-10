@@ -75,7 +75,7 @@ Rows in the MsiPatchMetadata Table that contain a Null value in the CompanyName 
 <tbody>
 <tr class="odd">
 <td>AllowRemoval</td>
-<td>Indicates whether or not the patch is an <a href="uninstallable-patches">Uninstallable Patch</a>. If the value field contains 0 (zero), the patch cannot be removed. If the value field contains one (1), the patch is an Uninstallable Patch.This property is registered and its value can be obtain by using the <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> function. <br/></td>
+<td>Indicates whether or not the patch is an <a href="uninstallable-patches.md">Uninstallable Patch</a>. If the value field contains 0 (zero), the patch cannot be removed. If the value field contains one (1), the patch is an Uninstallable Patch.This property is registered and its value can be obtain by using the <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> function. <br/></td>
 </tr>
 <tr class="even">
 <td>ManufacturerName</td>
@@ -114,15 +114,15 @@ Rows in the MsiPatchMetadata Table that contain a Null value in the CompanyName 
 <td>Indicates whether the Windows Installer should skip custom actions when applying the patch. This can reduce the time required to apply the patch. The OptimizeCA property can have one of the following values:<br/>
 <ul>
 <li>0 - Do not skip any custom actions.</li>
-<li>1 - Skip property and directory assignment custom actions. <a href="custom-action-type-35">Custom Action Type 35</a> and <a href="custom-action-type-51">Custom Action Type 51</a> can be property and directory assignment custom actions.</li>
-<li>2 - Skip immediate custom actions that do not fall into the property or directory assignments. The immediate custom actions do not include msidbCustomActionTypeInScript option in the Type column of the <a href="customaction-table">CustomAction Table</a>.</li>
+<li>1 - Skip property and directory assignment custom actions. <a href="custom-action-type-35.md">Custom Action Type 35</a> and <a href="custom-action-type-51.md">Custom Action Type 51</a> can be property and directory assignment custom actions.</li>
+<li>2 - Skip immediate custom actions that do not fall into the property or directory assignments. The immediate custom actions do not include msidbCustomActionTypeInScript option in the Type column of the <a href="customaction-table.md">CustomAction Table</a>.</li>
 <li>4 - Skip custom actions that run within the script.</li>
 </ul>
 The value of OptimizeCA must be the same for all patches that are being installed or no custom actions are skipped. For example, if two patches are being installed, and OptimizeCA is set to the values 1 and 2 respectively, no custom actions are skipped. <br/> The values of OptimizeCA can be combined when processing multiple new patches. If all patches have a 1 (one) included in the values, then all property and directory assignment custom actions are skipped. If one patch has the value 3 (three)for the property, and one patch has the value 1 (one) for the property, the property and directory assignment custom actions are skipped. However, the other immediate custom actions run, because not all of the patches requested are skipped. <br/></td>
 </tr>
 <tr class="odd">
 <td>OptimizedInstallMode</td>
-<td>If this property is set to 1 (one) in all the patches to be applied in a transaction, an application of the patch is optimized if possible. For more information, see <a href="patch-optimization">Patch Optimization</a>. Available beginning with Windows Installer 3.1.</td>
+<td>If this property is set to 1 (one) in all the patches to be applied in a transaction, an application of the patch is optimized if possible. For more information, see <a href="patch-optimization.md">Patch Optimization</a>. Available beginning with Windows Installer 3.1.</td>
 </tr>
 </tbody>
 </table>

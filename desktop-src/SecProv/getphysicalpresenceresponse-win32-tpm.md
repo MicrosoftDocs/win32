@@ -64,14 +64,14 @@ An integer value that specifies the TPM physical presence operation that was per
 <td><dl> <dt>1</dt> </dl></td>
 <td>Enable the TPM.<br/> This operation is reversed by operation 2. <br/> For more information, see these related methods that do not involve physical presence:
 <ul>
-<li><a href="enable-win32-tpm"><strong>Enable</strong></a></li>
-<li><a href="isenabled-win32-tpm"><strong>IsEnabled</strong></a></li>
+<li><a href="enable-win32-tpm.md"><strong>Enable</strong></a></li>
+<li><a href="isenabled-win32-tpm.md"><strong>IsEnabled</strong></a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>2</dt> </dl></td>
-<td>Disable the TPM.<br/> This operation is reversed by operation 1. <br/> For more information, see this related method that does not involve physical presence: <a href="disable-win32-tpm"><strong>Disable</strong></a>.<br/></td>
+<td>Disable the TPM.<br/> This operation is reversed by operation 1. <br/> For more information, see this related method that does not involve physical presence: <a href="disable-win32-tpm.md"><strong>Disable</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt>3</dt> </dl></td>
@@ -83,7 +83,7 @@ An integer value that specifies the TPM physical presence operation that was per
 </tr>
 <tr class="even">
 <td><dl> <dt>5</dt> </dl></td>
-<td>Clear the TPM.<br/> This operation cannot be reversed. <br/> For more information, see this related method that does not involve physical presence: <a href="clear-win32-tpm"><strong>Clear</strong></a>.<br/></td>
+<td>Clear the TPM.<br/> This operation cannot be reversed. <br/> For more information, see this related method that does not involve physical presence: <a href="clear-win32-tpm.md"><strong>Clear</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt>6</dt> </dl></td>

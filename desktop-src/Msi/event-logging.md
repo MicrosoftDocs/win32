@@ -36,7 +36,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="odd">
 <td>1001</td>
 <td>Detection of product '%1', feature '%2' failed during request for component '%3'</td>
-<td>A warning message. For details, see <a href="searching-for-a-broken-feature-or-component">Searching For a Broken Feature or Component</a>.</td>
+<td>A warning message. For details, see <a href="searching-for-a-broken-feature-or-component.md">Searching For a Broken Feature or Component</a>.</td>
 </tr>
 <tr class="even">
 <td>1002</td>
@@ -51,7 +51,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1004</td>
 <td>Detection of product '%1', feature '%2', component '%3' failed <strong>Note:</strong> Beginning with Windows Installer version 2.0, this message is: Detection of product '%1', feature '%2', component '%3' failed. The resource '%4' does not exist.<br/></td>
-<td>A warning message. See also <a href="searching-for-a-broken-feature-or-component">Searching For a Broken Feature or Component</a>.</td>
+<td>A warning message. See also <a href="searching-for-a-broken-feature-or-component.md">Searching For a Broken Feature or Component</a>.</td>
 </tr>
 <tr class="odd">
 <td>1005</td>
@@ -61,7 +61,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1006</td>
 <td>Verification of the digital signature for cabinet '%1' cannot be performed. WinVerifyTrust is not available on the computer.</td>
-<td>Warning message. A cabinet was authored in the <a href="msidigitalsignature-table">MsiDigitalSignature table</a> to have a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust"><strong>WinVerifyTrust</strong></a> check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
+<td>Warning message. A cabinet was authored in the <a href="msidigitalsignature-table.md">MsiDigitalSignature table</a> to have a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust"><strong>WinVerifyTrust</strong></a> check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
 </tr>
 <tr class="odd">
 <td>1007</td>
@@ -96,7 +96,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="odd">
 <td>1016</td>
 <td>Detection of product '%1', feature '%2', component '%3' failed. The resource '%4' in a run-from-source component could not be located because no valid and accessible source could be found.</td>
-<td>Warning message. For more information, see <a href="searching-for-a-broken-feature-or-component">Searching for a Broken Feature or Component</a>.</td>
+<td>Warning message. For more information, see <a href="searching-for-a-broken-feature-or-component.md">Searching for a Broken Feature or Component</a>.</td>
 </tr>
 <tr class="even">
 <td>1017</td>
@@ -121,7 +121,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1021</td>
 <td>Product: %1 - Update '%2' could not be removed. Error code %3.</td>
-<td>Error message indicating that the installer was unable to remove the update. For information on how to turn on logging, see <a href="windows-installer-best-practices">Enable verbose logging on user's computer when troubleshooting deployment.</a><strong>Windows Installer 2.0:</strong> Not available.<br/></td>
+<td>Error message indicating that the installer was unable to remove the update. For information on how to turn on logging, see <a href="windows-installer-best-practices.md">Enable verbose logging on user's computer when troubleshooting deployment.</a><strong>Windows Installer 2.0:</strong> Not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1022</td>
@@ -136,7 +136,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="odd">
 <td>1024</td>
 <td>Product: %1 - Update '%2' could not be installed. Error code %3.</td>
-<td>Error message indicating that the installer was unable to install the update. For information on how to turn logging on, see <a href="windows-installer-best-practices">Enable verbose logging on user's computer when troubleshooting deployment.</a><strong>Windows Installer 2.0:</strong> Not available.<br/></td>
+<td>Error message indicating that the installer was unable to install the update. For information on how to turn logging on, see <a href="windows-installer-best-practices.md">Enable verbose logging on user's computer when troubleshooting deployment.</a><strong>Windows Installer 2.0:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1025</td>
@@ -146,74 +146,74 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="odd">
 <td>1026</td>
 <td>Windows Installer has determined that its configuration data registry key was not secured properly. The owner of the key must be either Local System or Builtin\Administrators. The existing key will be deleted and re-created with the appropriate security settings.</td>
-<td>Warning message.<strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message.<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1027</td>
 <td>Windows Installer has determined that a registry sub key %1 within its configuration data was not secured properly. The owner of the key must be either Local System or Builtin\Administrators. The existing sub key and all of its contents will be deleted.</td>
-<td>Warning message.<strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message.<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1028</td>
 <td>Windows Installer has determined that its configuration data cache folder was not secured properly. The owner of the key must be either Local System or Builtin\Administrators. The existing folder will be deleted and re-created with the appropriate security settings.</td>
-<td>Warning message<strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1029</td>
 <td>Product: %1. Restart required.</td>
-<td>Warning message indicatiing that a system restart is required to complete the installation and the restart has been deferred to a later time.<strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message indicatiing that a system restart is required to complete the installation and the restart has been deferred to a later time.<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1030</td>
 <td>Product: %1. The application tried to install a more recent version of the protected Windows file %2. You may need to update your operating system for this application to work correctly. (Package Version: %3, Operating System Protected Version: %4).</td>
-<td>Warning message indicating that the installation tried to replace a critical file that is protected by <a href="windows-resource-protection-on-windows-vista">Windows Resource Protection</a>. An update of the operating system may be required to use this application. <strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message indicating that the installation tried to replace a critical file that is protected by <a href="windows-resource-protection-on-windows-vista.md">Windows Resource Protection</a>. An update of the operating system may be required to use this application. <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1031</td>
 <td>Product: %1. The assembly '%2' for component '%3' is in use.</td>
-<td>Warning message indicating that the installation tried to update an assembly currently in use. The system must be restarted to complete the update of this assembly.<strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message indicating that the installation tried to update an assembly currently in use. The system must be restarted to complete the update of this assembly.<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1032</td>
 <td>An error occurred while refreshing environment variables updated during the installation of '%1'.</td>
-<td>Warning message indicating that some users who are logged on to the computer may need to log off and back on to complete the update of environment variables.<strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
+<td>Warning message indicating that some users who are logged on to the computer may need to log off and back on to complete the update of environment variables.<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1033</td>
 <td>Product: %1. Version: %2. Language: %3. Installation completed with status: %4. Manufacturer: %5.</td>
-<td>Field 1 - <a href="productname"><strong>ProductName</strong></a> Field 2 - <a href="productversion"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage"><strong>ProductLanguage</strong></a><br/> <strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 5 - <a href="manufacturer"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:</strong> Field 5 not available.<br/></td>
+<td>Field 1 - <a href="productname.md"><strong>ProductName</strong></a> Field 2 - <a href="productversion.md"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage.md"><strong>ProductLanguage</strong></a><br/> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 5 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 5 not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1034</td>
 <td>Product: %1. Version: %2. Language: %3. Removal completed with status: %4. Manufacturer: %5.</td>
-<td>Field 1 - <a href="productname"><strong>ProductName</strong></a> Field 2 - <a href="productversion"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage"><strong>ProductLanguage</strong></a><br/> <strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 5 - <a href="manufacturer"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:</strong> Field 5 not available.<br/></td>
+<td>Field 1 - <a href="productname.md"><strong>ProductName</strong></a> Field 2 - <a href="productversion.md"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage.md"><strong>ProductLanguage</strong></a><br/> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 5 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 5 not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1035</td>
 <td>Product: %1. Version: %2. Language: %3. Configuration change completed with status: %4. Manufacturer: %5.</td>
-<td>Field 1 - <a href="productname"><strong>ProductName</strong></a> Field 2 - <a href="productversion"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage"><strong>ProductLanguage</strong></a><br/> Field 5 - <a href="manufacturer"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:</strong> Field 5 not available.<br/></td>
+<td>Field 1 - <a href="productname.md"><strong>ProductName</strong></a> Field 2 - <a href="productversion.md"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage.md"><strong>ProductLanguage</strong></a><br/> Field 5 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 5 not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1036</td>
 <td>Product: %1. Version: %2. Language: %3. Update: %4. Update installation completed with status: %5. Manufacturer: %6.</td>
-<td>Field 1 - <a href="productname"><strong>ProductName</strong></a> Field 2 - <a href="productversion"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage"><strong>ProductLanguage</strong></a><br/> Field 4 - This is the user friendly name if the <a href="msipatchmetadata-table">MsiPatchMetadata Table</a> is present in the patch package. Otherwise, this is the patch code GUID of the patch.<br/> Field 5 - Status of update installation.<br/> <strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
+<td>Field 1 - <a href="productname.md"><strong>ProductName</strong></a> Field 2 - <a href="productversion.md"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage.md"><strong>ProductLanguage</strong></a><br/> Field 4 - This is the user friendly name if the <a href="msipatchmetadata-table.md">MsiPatchMetadata Table</a> is present in the patch package. Otherwise, this is the patch code GUID of the patch.<br/> Field 5 - Status of update installation.<br/> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1037</td>
 <td>Product: %1. Version: %2. Language: %3. Update: %4. Update removal completed with status: %5. Manufacturer: %6.</td>
-<td>Field 1 - <a href="productname"><strong>ProductName</strong></a> Field 2 - <a href="productversion"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage"><strong>ProductLanguage</strong></a><br/> Field 4 - This is the user friendly name if the <a href="msipatchmetadata-table">MsiPatchMetadata Table</a> is present in the patch package. Otherwise, this is the patch code GUID of the patch.<br/> Field 5 - Status of update removal.<br/> <strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
+<td>Field 1 - <a href="productname.md"><strong>ProductName</strong></a> Field 2 - <a href="productversion.md"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage.md"><strong>ProductLanguage</strong></a><br/> Field 4 - This is the user friendly name if the <a href="msipatchmetadata-table.md">MsiPatchMetadata Table</a> is present in the patch package. Otherwise, this is the patch code GUID of the patch.<br/> Field 5 - Status of update removal.<br/> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1038</td>
 <td>Product: %1. Version: %2. Language: %3. Reboot required. Reboot Type: %4. Reboot Reason: %5. Manufacturer: %6.</td>
-<td>Field 1 - <a href="productname"><strong>ProductName</strong></a> Field 2 - <a href="productversion"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage"><strong>ProductLanguage</strong></a><br/> <dl> Field 4 - A constant indicating the type of restart: <br/> <dl> <strong>msirbRebootImmediate</strong> (1) - There was an immediate restart of the computer.<br />
-<strong>msirbRebootDeferred</strong> (2) - A user or admin has deferred a required restart of the computer using the UI or <a href="reboot"><strong>REBOOT</strong></a>=ReallySuppress.<br />
+<td>Field 1 - <a href="productname.md"><strong>ProductName</strong></a> Field 2 - <a href="productversion.md"><strong>ProductVersion</strong></a><br/> Field 3 - <a href="productlanguage.md"><strong>ProductLanguage</strong></a><br/> <dl> Field 4 - A constant indicating the type of restart: <br/> <dl> <strong>msirbRebootImmediate</strong> (1) - There was an immediate restart of the computer.<br />
+<strong>msirbRebootDeferred</strong> (2) - A user or admin has deferred a required restart of the computer using the UI or <a href="reboot.md"><strong>REBOOT</strong></a>=ReallySuppress.<br />
 </dl> </dd> Field 5 - A constant indicating the reason for the restart:<br/> <dl> <strong>msirbRebootUndeterminedReason</strong> (0)- Restart required for an unspecified reason.<br />
 <strong>msirbRebootInUseFilesReason</strong> (1)- A restart was required to replace files in use.<br />
-<strong>msirbRebootScheduleRebootReason</strong> (2)- The package contains a <a href="schedulereboot-action">ScheduleReboot</a> action.<br />
-<strong>msirbRebootForceRebootReason</strong> (3)- The package contains a <a href="forcereboot-action">ForceReboot</a> action.<br />
+<strong>msirbRebootScheduleRebootReason</strong> (2)- The package contains a <a href="schedulereboot-action.md">ScheduleReboot</a> action.<br />
+<strong>msirbRebootForceRebootReason</strong> (3)- The package contains a <a href="forcereboot-action.md">ForceReboot</a> action.<br />
 <strong>msirbRebootCustomActionReason</strong> (4)- A custom action called the <a href="/windows/desktop/api/Msiquery/nf-msiquery-msisetmode"><strong>MsiSetMode</strong></a> function.<br />
-</dl> </dd> </dl> <strong><a href="not-supported-in-windows-installer-version-3-1">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
+</dl> </dd> </dl> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
 </tr>
 <tr class="even">
 <td>10005</td>

@@ -27,7 +27,7 @@ Driver capability flags.
 <tr class="even">
 <td>D3DCAPS2_CANAUTOGENMIPMAP</td>
 <td>0x40000000L</td>
-<td>The driver is capable of automatically generating mipmaps. For more information, see <a href="automatic-generation-of-mipmaps">Automatic Generation of Mipmaps (Direct3D 9)</a>.</td>
+<td>The driver is capable of automatically generating mipmaps. For more information, see <a href="automatic-generation-of-mipmaps.md">Automatic Generation of Mipmaps (Direct3D 9)</a>.</td>
 </tr>
 <tr class="odd">
 <td>D3DCAPS2_CANCALIBRATEGAMMA</td>

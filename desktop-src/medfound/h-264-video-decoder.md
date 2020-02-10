@@ -60,24 +60,24 @@ To avoid an initial format change, provide as much information in the input type
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="mf-mt-frame-rate-attribute"><strong>MF_MT_FRAME_RATE</strong></a></td>
+<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
 <td>Frame rate.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-frame-size-attribute"><strong>MF_MT_FRAME_SIZE</strong></a></td>
+<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
 <td>Frame dimensions.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-interlace-mode-attribute"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
+<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
 <td>Interlace mode.
 <blockquote>
 [!Note]<br />
-In H.264 video, the interlace structure can change dynamically, so the recommended value of this attribute is <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Interlace information in the video elementary stream takes precedence over the media type. For more information, see <a href="video-interlacing">Video Interlacing</a>.
+In H.264 video, the interlace structure can change dynamically, so the recommended value of this attribute is <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Interlace information in the video elementary stream takes precedence over the media type. For more information, see <a href="video-interlacing.md">Video Interlacing</a>.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
+<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
 <td>Pixel aspect ratio.</td>
 </tr>
 </tbody>

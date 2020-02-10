@@ -45,7 +45,7 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Depends on the stream type. See <a href="mpeg-2-splitter-media-types">MPEG-2 Splitter Media Types</a></td>
+<td>Depends on the stream type. See <a href="mpeg-2-splitter-media-types.md">MPEG-2 Splitter Media Types</a></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
@@ -64,11 +64,11 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 <td>mpg2splt.ax</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_NORMAL + 1</td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_AudioInputDeviceCategory</td>
 </tr>
 </tbody>

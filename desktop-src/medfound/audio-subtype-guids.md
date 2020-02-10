@@ -30,7 +30,7 @@ When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-att
 <tbody>
 <tr class="odd">
 <td><strong>MEDIASUBTYPE_RAW_AAC1</strong></td>
-<td>Advanced Audio Coding (AAC).<br/> This subtype is used for AAC contained in an AVI file with an audio format tag equal to 0x00FF. <br/> For more information, see <a href="aac-decoder"><strong>AAC Decoder</strong></a>.<br/> Defined in wmcodecdsp.h<br/></td>
+<td>Advanced Audio Coding (AAC).<br/> This subtype is used for AAC contained in an AVI file with an audio format tag equal to 0x00FF. <br/> For more information, see <a href="aac-decoder.md"><strong>AAC Decoder</strong></a>.<br/> Defined in wmcodecdsp.h<br/></td>
 <td>WAVE_FORMAT_RAW_AAC1 (0x00FF)</td>
 </tr>
 <tr class="even">
@@ -42,8 +42,8 @@ Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.
 </blockquote>
 <br/> The stream can contain raw AAC data or AAC data in an Audio Data Transport Stream (ADTS) stream.<br/> For more information, see:<br/>
 <ul>
-<li><a href="aac-decoder"><strong>AAC Decoder</strong></a></li>
-<li><a href="mpeg-4-file-source">MPEG-4 File Source</a></li>
+<li><a href="aac-decoder.md"><strong>AAC Decoder</strong></a></li>
+<li><a href="mpeg-4-file-source.md">MPEG-4 File Source</a></li>
 </ul></td>
 <td>WAVE_FORMAT_MPEG_HEAAC (0x1610)</td>
 </tr>

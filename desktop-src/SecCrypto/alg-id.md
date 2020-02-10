@@ -48,22 +48,22 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_AES</td>
 <td>0x00006611</td>
-<td>Advanced Encryption Standard (AES). This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
+<td>Advanced Encryption Standard (AES). This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider.md">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_AES_128</td>
 <td>0x0000660e</td>
-<td>128 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
+<td>128 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider.md">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AES_192</td>
 <td>0x0000660f</td>
-<td>192 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
+<td>192 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider.md">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_AES_256</td>
 <td>0x00006610</td>
-<td>256 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider">Microsoft AES Cryptographic Provider</a>.</td>
+<td>256 bit AES. This algorithm is supported by the <a href="microsoft-aes-cryptographic-provider.md">Microsoft AES Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AGREEDKEY_ANY</td>
@@ -73,7 +73,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="even">
 <td>CALG_CYLINK_MEK</td>
 <td>0x0000660c</td>
-<td>An algorithm to create a 40-bit DES key that has parity bits and zeroed key bits to make its key length 64 bits. This algorithm is supported by the <a href=""></a><a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>An algorithm to create a 40-bit DES key that has parity bits and zeroed key bits to make its key length 64 bits. This algorithm is supported by the <a href=""></a><a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_DES</td>
@@ -148,7 +148,7 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="even">
 <td>CALG_HMAC</td>
 <td>0x00008009</td>
-<td>HMAC keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>HMAC keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_KEA_KEYX</td>
@@ -158,12 +158,12 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="even">
 <td>CALG_MAC</td>
 <td>0x00008005</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly"><em>MAC</em></a> keyed hash algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_MD2</td>
 <td>0x00008001</td>
-<td>MD2 hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>MD2 hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_MD4</td>
@@ -173,7 +173,7 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="odd">
 <td>CALG_MD5</td>
 <td>0x00008003</td>
-<td>MD5 hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>MD5 hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_NO_SIGN</td>
@@ -198,12 +198,12 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="even">
 <td>CALG_RC2</td>
 <td>0x00006602</td>
-<td>RC2 block encryption algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>RC2 block encryption algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_RC4</td>
 <td>0x00006801</td>
-<td>RC4 stream encryption algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>RC4 stream encryption algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_RC5</td>
@@ -213,12 +213,12 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="odd">
 <td>CALG_RSA_KEYX</td>
 <td>0x0000a400</td>
-<td>RSA public key exchange algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>RSA public key exchange algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_RSA_SIGN</td>
 <td>0x00002400</td>
-<td>RSA public key signature algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>RSA public key signature algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_SCHANNEL_ENC_KEY</td>
@@ -243,12 +243,12 @@ This algorithm is supported only through <a href="https://docs.microsoft.com/win
 <tr class="odd">
 <td>CALG_SHA</td>
 <td>0x00008004</td>
-<td>SHA hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>SHA hashing algorithm. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="even">
 <td>CALG_SHA1</td>
 <td>0x00008004</td>
-<td>Same as <strong>CALG_SHA</strong>. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>.</td>
+<td>Same as <strong>CALG_SHA</strong>. This algorithm is supported by the <a href="microsoft-base-cryptographic-provider.md">Microsoft Base Cryptographic Provider</a>.</td>
 </tr>
 <tr class="odd">
 <td>CALG_SHA_256</td>

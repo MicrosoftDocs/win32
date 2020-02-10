@@ -65,15 +65,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-mmsmaximummessagesize">MmsMaximumMessageSize</a></td>
+<td><a href="element-mmsmaximummessagesize.md">MmsMaximumMessageSize</a></td>
 <td><p>Specifies the maximum size of MMS messages, in kilobytes. Optional.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-mmscport">MmscPort</a></td>
+<td><a href="element-mmscport.md">MmscPort</a></td>
 <td><p>Specifies the port number of the MMSC server for the device. Specify 0 to indicate that no specific port is specified. Optional.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-mmscurl">MmscUrl</a></td>
+<td><a href="element-mmscurl.md">MmscUrl</a></td>
 <td><p>Specifies the URL of the MMSC server for the device. Optional.</p></td>
 </tr>
 </tbody>
@@ -96,9 +96,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-mbnprofileext">MBNProfileExt</a></td>
+<td><a href="element-mbnprofileext.md">MBNProfileExt</a></td>
 <td><p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p>
-<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
+<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
 </tr>
 </tbody>
 </table>

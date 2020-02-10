@@ -122,14 +122,14 @@ This method returns immediately. If the volume is already fully encrypted and no
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt> <dt>2150694958 (0x8031002E)</dt> </dl></td>
-<td>No encryption key exists for the volume.<br/> Either disable key protectors by using the <a href="disablekeyprotectors-win32-encryptablevolume"><strong>DisableKeyProtectors</strong></a> method, or use one of the following methods to specify key protectors for the volume:
+<td>No encryption key exists for the volume.<br/> Either disable key protectors by using the <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> method, or use one of the following methods to specify key protectors for the volume:
 <ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
+<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
+<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
+<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
+<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
+<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
+<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -141,24 +141,24 @@ This method returns immediately. If the volume is already fully encrypted and no
 <td><dl> <dt><strong>FVE_E_NO_PROTECTORS_TO_TEST</strong></dt> <dt>2150694971 (0x8031003B)</dt> </dl></td>
 <td>No key protectors of the type &quot;TPM&quot;, &quot;TPM And PIN&quot;, &quot;TPM And PIN And Startup Key&quot;, &quot;TPM And Startup Key&quot;, or &quot;External Key&quot; can be found. The hardware test only involves the previous key protectors.<br/> If you still want to run a hardware test, you must use one of the following methods to specify key protectors for the volume:
 <ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
+<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
+<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
+<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
+<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
+<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
+<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>FVE_E_NOT_DECRYPTED</strong></dt> <dt>2150694969 (0x80310039)</dt> </dl></td>
-<td>The volume is partially or fully encrypted.<br/> The hardware test applies before encryption occurs. If you still want to run the test, first use the <a href="decrypt-win32-encryptablevolume"><strong>Decrypt</strong></a> method and then use one of the following methods to add key protectors:
+<td>The volume is partially or fully encrypted.<br/> The hardware test applies before encryption occurs. If you still want to run the test, first use the <a href="decrypt-win32-encryptablevolume.md"><strong>Decrypt</strong></a> method and then use one of the following methods to add key protectors:
 <ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
+<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
+<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
+<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
+<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
+<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -168,7 +168,7 @@ This method returns immediately. If the volume is already fully encrypted and no
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt> <dt>2150694956 (0x8031002C)</dt> </dl></td>
-<td>No key protectors of the type &quot;Numerical Password&quot; are specified. The Group Policy requires a backup of recovery information to Active Directory Domain Services. To add at least one key protector of that type, use the <a href="protectkeywithnumericalpassword-win32-encryptablevolume"><strong>ProtectKeyWithNumericalPassword</strong></a> method.<br/></td>
+<td>No key protectors of the type &quot;Numerical Password&quot; are specified. The Group Policy requires a backup of recovery information to Active Directory Domain Services. To add at least one key protector of that type, use the <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> method.<br/></td>
 </tr>
 </tbody>
 </table>

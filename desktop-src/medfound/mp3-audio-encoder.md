@@ -39,22 +39,22 @@ Set the following attributes on the output media type.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="mf-mt-major-type-attribute"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
+<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
 <td>Major type.</td>
 <td>Must be <strong>MFMediaType_Audio</strong>.</td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-subtype-attribute"><strong>MF_MT_SUBTYPE</strong></a></td>
+<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
 <td>Audio subtype.</td>
 <td>Must be <strong>MFAudioFormat_MP3</strong>.</td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
+<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
 <td>Bit rate of the encoded MP3 stream, in bytes per second.</td>
 <td>The encoder supports all bit rates defined by the standard (32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, or 320 Kbps).<br/> The default bit rates are 128 Kbps for mono and 320 Kbps for stereo.<br/> Use this attribute to specify the encoded bit rate.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
+<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
 <td>Number of channels.</td>
 <td>The following values are supported:
 <ul>
@@ -63,7 +63,7 @@ Set the following attributes on the output media type.
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
+<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
 <td>Samples per second.</td>
 <td>The following values are supported:
 <ul>
@@ -73,7 +73,7 @@ Set the following attributes on the output media type.
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="mf-mt-user-data-attribute">MF_MT_USER_DATA</a></td>
+<td><a href="mf-mt-user-data-attribute.md">MF_MT_USER_DATA</a></td>
 <td>Additional codec data.</td>
 <td>This attribute contains the 12 bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> structure that follow the <strong>wfx</strong> member of that structure.</td>
 </tr>

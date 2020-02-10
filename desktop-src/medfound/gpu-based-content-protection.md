@@ -231,7 +231,7 @@ To send a command to the authenticated channel, perform the following steps.
     </tr>
     <tr class="even">
     <td><strong>ConfigureType</strong></td>
-    <td>GUID that identifies the command. For a list of commands, see <a href="content-protection-commands">Content Protection Commands</a>.</td>
+    <td>GUID that identifies the command. For a list of commands, see <a href="content-protection-commands.md">Content Protection Commands</a>.</td>
     </tr>
     <tr class="odd">
     <td><strong>hChannel</strong></td>
@@ -239,7 +239,7 @@ To send a command to the authenticated channel, perform the following steps.
     </tr>
     <tr class="even">
     <td><strong>SequenceNumber</strong></td>
-    <td>The sequence number. The first sequence number is specified by sending a <a href="d3dauthenticatedconfigure-initialize"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.
+    <td>The sequence number. The first sequence number is specified by sending a <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.
     <blockquote>
     [!Note]<br />
     Two separate sequence numbers are used, one for commands and one for queries.
@@ -282,7 +282,7 @@ To send a command to the authenticated channel, perform the following steps.
     <tbody>
     <tr class="odd">
     <td><strong>QueryType</strong></td>
-    <td>GUID that identifies the query. For a list of queries, see <a href="content-protection-queries">Content Protection Queries</a>.</td>
+    <td>GUID that identifies the query. For a list of queries, see <a href="content-protection-queries.md">Content Protection Queries</a>.</td>
     </tr>
     <tr class="even">
     <td><strong>hChannel</strong></td>
@@ -290,7 +290,7 @@ To send a command to the authenticated channel, perform the following steps.
     </tr>
     <tr class="odd">
     <td><strong>SequenceNumber</strong></td>
-    <td>The sequence number. The first sequence number is specified by sending a <a href="d3dauthenticatedconfigure-initialize"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.
+    <td>The sequence number. The first sequence number is specified by sending a <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.
     <blockquote>
     [!Note]<br />
     Two separate sequence numbers are used, one for commands and one for queries.

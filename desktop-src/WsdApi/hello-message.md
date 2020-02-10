@@ -85,14 +85,14 @@ A Hello message has the following focus points.
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;14&quot;>
 </wsd:AppSequence></code></pre></td>
-<td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in <a href="appsequence-validation-rules">AppSequence Validation Rules</a>.</td>
+<td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in <a href="appsequence-validation-rules.md">AppSequence Validation Rules</a>.</td>
 </tr>
 <tr class="odd">
 <td>Address</td>
 <td><pre class="syntax" data-space="preserve"><code><wsa:Address>
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
 </wsa:Address></code></pre></td>
-<td>Contains the endpoint address. This addressed may be referenced in a <a href="resolve-message">Resolve</a> message.</td>
+<td>Contains the endpoint address. This addressed may be referenced in a <a href="resolve-message.md">Resolve</a> message.</td>
 </tr>
 <tr class="even">
 <td>Types</td>

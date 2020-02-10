@@ -30,15 +30,15 @@ Shader Model 3 added additional capabilities to [shader model 2](dx-graphics-hls
 <tr class="even">
 <td>Instruction Set</td>
 <td><ul>
-<li><a href="dx-graphics-hlsl-intrinsic-functions"><strong>HLSL functions</strong></a></li>
-<li>Assembly instructions (see <a href="dx9-graphics-reference-asm-ps-instructions-ps-3-0">ps_3_0 Instructions</a>, <a href="dx9-graphics-reference-asm-vs-instructions-vs-3-0">Instructions - vs_3_0</a>)</li>
+<li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL functions</strong></a></li>
+<li>Assembly instructions (see <a href="dx9-graphics-reference-asm-ps-instructions-ps-3-0.md">ps_3_0 Instructions</a>, <a href="dx9-graphics-reference-asm-vs-instructions-vs-3-0.md">Instructions - vs_3_0</a>)</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Register Set</td>
 <td><ul>
-<li>Pixel shader registers (see <a href="dx9-graphics-reference-asm-ps-registers-ps-3-0">ps_3_0 Registers</a>)</li>
-<li>Vertex shader registers (see <a href="dx9-graphics-reference-asm-vs-registers-vs-3-0">Registers - vs_3_0</a>)</li>
+<li>Pixel shader registers (see <a href="dx9-graphics-reference-asm-ps-registers-ps-3-0.md">ps_3_0 Registers</a>)</li>
+<li>Vertex shader registers (see <a href="dx9-graphics-reference-asm-vs-registers-vs-3-0.md">Registers - vs_3_0</a>)</li>
 </ul></td>
 </tr>
 <tr class="even">

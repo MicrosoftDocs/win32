@@ -279,7 +279,7 @@ if (!$pcmcia.count) {
 </tr>
 <tr class="even">
 <td>...identify devices that are not working (those marked with an exclamation point icon in <strong>Device Manager</strong>)?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity"><strong>Win32_PnPEntity</strong></a> class and use the following clause in your <a href="querying-with-wql">WQL</a> query. <strong>WHERE ConfigManagerErrorCode <> 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity"><strong>Win32_PnPEntity</strong></a> class and use the following clause in your <a href="querying-with-wql.md">WQL</a> query. <strong>WHERE ConfigManagerErrorCode <> 0</strong> Note that this code may not detect USB devices that are missing drivers.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -655,7 +655,7 @@ foreach ($objItem in $colItems)
 </tr>
 <tr class="even">
 <td>...determine how many tape drives are installed on a computer?</td>
-<td><p>Use the class <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-tapedrive"><strong>Win32_TapeDrive</strong></a> class and then use the <a href="swbemobjectset-count"><strong>SWbemObjectSet.Count</strong></a> method. If Count = 0, then no tape drives are installed on the computer.</p>
+<td><p>Use the class <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-tapedrive"><strong>Win32_TapeDrive</strong></a> class and then use the <a href="swbemobjectset-count.md"><strong>SWbemObjectSet.Count</strong></a> method. If Count = 0, then no tape drives are installed on the computer.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

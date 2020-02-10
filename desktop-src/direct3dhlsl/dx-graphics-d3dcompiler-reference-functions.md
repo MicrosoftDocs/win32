@@ -34,27 +34,27 @@ This section contains information about the following Direct3D HLSL compiler fun
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="d3d11reflect"><strong>D3D11Reflect</strong></a><br/></td>
+<td><a href="d3d11reflect.md"><strong>D3D11Reflect</strong></a><br/></td>
 <td>Gets a pointer to a reflection interface.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dcompile"><strong>D3DCompile</strong></a><br/></td>
+<td><a href="d3dcompile.md"><strong>D3DCompile</strong></a><br/></td>
 <td>Compile HLSL code or an effect file into bytecode for a given target.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dcompile2"><strong>D3DCompile2</strong></a><br/></td>
+<td><a href="d3dcompile2.md"><strong>D3DCompile2</strong></a><br/></td>
 <td>Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dcompilefromfile"><strong>D3DCompileFromFile</strong></a><br/></td>
+<td><a href="d3dcompilefromfile.md"><strong>D3DCompileFromFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Refer to the section, &quot;Compiling shaders for UWP&quot;, in the remarks for <a href="d3dcompile2"><strong>D3DCompile2</strong></a>.
+You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Refer to the section, &quot;Compiling shaders for UWP&quot;, in the remarks for <a href="d3dcompile2.md"><strong>D3DCompile2</strong></a>.
 </blockquote>
 <br/> Compiles HLSL code into bytecode for a given target.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dcompressshaders"><strong>D3DCompressShaders</strong></a><br/></td>
+<td><a href="d3dcompressshaders.md"><strong>D3DCompressShaders</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
@@ -62,7 +62,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <br/> Compresses a set of shaders into a more compact form. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dcreateblob"><strong>D3DCreateBlob</strong></a><br/></td>
+<td><a href="d3dcreateblob.md"><strong>D3DCreateBlob</strong></a><br/></td>
 <td>Creates a buffer.<br/></td>
 </tr>
 <tr class="odd">
@@ -84,7 +84,7 @@ This function is part of the HLSL shader linking technology that you can use on 
 <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3ddecompressshaders"><strong>D3DDecompressShaders</strong></a><br/></td>
+<td><a href="d3ddecompressshaders.md"><strong>D3DDecompressShaders</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
@@ -92,27 +92,27 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <br/> Decompresses one or more shaders from a compressed set. <br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3ddisassemble"><strong>D3DDisassemble</strong></a><br/></td>
+<td><a href="d3ddisassemble.md"><strong>D3DDisassemble</strong></a><br/></td>
 <td>Disassembles compiled HLSL code.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3ddisassemble10effect"><strong>D3DDisassemble10Effect</strong></a><br/></td>
+<td><a href="d3ddisassemble10effect.md"><strong>D3DDisassemble10Effect</strong></a><br/></td>
 <td>Disassembles compiled HLSL code from a Direct3D10 effect.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3ddisassemble11trace"><strong>D3DDisassemble11Trace</strong></a><br/></td>
+<td><a href="d3ddisassemble11trace.md"><strong>D3DDisassemble11Trace</strong></a><br/></td>
 <td>Disassembles a section of compiled HLSL code that is specified by shader trace steps.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3ddisassembleregion"><strong>D3DDisassembleRegion</strong></a><br/></td>
+<td><a href="d3ddisassembleregion.md"><strong>D3DDisassembleRegion</strong></a><br/></td>
 <td>Disassembles a specific region of compiled HLSL code.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a><br/></td>
+<td><a href="d3dgetblobpart.md"><strong>D3DGetBlobPart</strong></a><br/></td>
 <td>Retrieves a specific part from a compilation result.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dgetdebuginfo"><strong>D3DGetDebugInfo</strong></a><br/></td>
+<td><a href="d3dgetdebuginfo.md"><strong>D3DGetDebugInfo</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
@@ -123,7 +123,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td><a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob"><strong>D3DGetInputAndOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart.md"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part.md"><strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the input and output signatures from a compilation result.<br/></td>
 </tr>
@@ -131,20 +131,20 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="d3dgetinputsignatureblob"><strong>D3DGetInputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="d3dgetinputsignatureblob.md"><strong>D3DGetInputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart.md"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part.md"><strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the input signature from a compilation result.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a><br/></td>
+<td><a href="d3dgetoutputsignatureblob.md"><strong>D3DGetOutputSignatureBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-<a href="d3dgetoutputsignatureblob"><strong>D3DGetOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part"><strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong></a> value.
+<a href="d3dgetoutputsignatureblob.md"><strong>D3DGetOutputSignatureBlob</strong></a> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="d3dgetblobpart.md"><strong>D3DGetBlobPart</strong></a> with the <a href="d3d-blob-part.md"><strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong></a> value.
 </blockquote>
 <br/> Gets the output signature from a compilation result.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dgettraceinstructionoffsets"><strong>D3DGetTraceInstructionOffsets</strong></a><br/></td>
+<td><a href="d3dgettraceinstructionoffsets.md"><strong>D3DGetTraceInstructionOffsets</strong></a><br/></td>
 <td>Retrieves the byte offsets for instructions within a section of shader code.<br/></td>
 </tr>
 <tr class="even">
@@ -157,11 +157,11 @@ This function is part of the HLSL shader linking technology that you can use on 
 <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dpreprocess"><strong>D3DPreprocess</strong></a><br/></td>
+<td><a href="d3dpreprocess.md"><strong>D3DPreprocess</strong></a><br/></td>
 <td>Preprocesses uncompiled HLSL code.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dreadfiletoblob"><strong>D3DReadFileToBlob</strong></a><br/></td>
+<td><a href="d3dreadfiletoblob.md"><strong>D3DReadFileToBlob</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
@@ -169,7 +169,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <br/> Reads a file that is on disk into memory.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dreflect"><strong>D3DReflect</strong></a><br/></td>
+<td><a href="d3dreflect.md"><strong>D3DReflect</strong></a><br/></td>
 <td>Gets a pointer to a reflection interface.<br/></td>
 </tr>
 <tr class="even">
@@ -182,15 +182,15 @@ This function is part of the HLSL shader linking technology that you can use on 
 <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dsetblobpart"><strong>D3DSetBlobPart</strong></a><br/></td>
+<td><a href="d3dsetblobpart.md"><strong>D3DSetBlobPart</strong></a><br/></td>
 <td>Sets information in a compilation result.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dstripshader"><strong>D3DStripShader</strong></a><br/></td>
+<td><a href="d3dstripshader.md"><strong>D3DStripShader</strong></a><br/></td>
 <td>Removes unwanted blobs from a compilation result.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dwriteblobtofile"><strong>D3DWriteBlobToFile</strong></a><br/></td>
+<td><a href="d3dwriteblobtofile.md"><strong>D3DWriteBlobToFile</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.

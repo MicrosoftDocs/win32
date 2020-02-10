@@ -48,7 +48,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     <tbody>
     <tr class="odd">
     <td>Scripts written in Microsoft ActiveX script hosting, including Visual Basic Scripting Edition (VBScript) and Perl<br/></td>
-    <td><a href="scripting-api-for-wmi">Scripting API for WMI</a>.<br/> Start with [Creating a WMI Script](creating-a-wmi-script.md).<br/> For script code examples, see <a href=""></a>[WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md) and the TechNet <a href="https://go.microsoft.com/fwlink/p/?linkid=46710">ScriptCenter</a> Script Repository.<br/></td>
+    <td><a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br/> Start with [Creating a WMI Script](creating-a-wmi-script.md).<br/> For script code examples, see <a href=""></a>[WMI Tasks for Scripts and Applications](wmi-tasks-for-scripts-and-applications.md) and the TechNet <a href="https://go.microsoft.com/fwlink/p/?linkid=46710">ScriptCenter</a> Script Repository.<br/></td>
     </tr>
     <tr class="even">
     <td>Windows PowerShell<br/></td>
@@ -56,15 +56,15 @@ The following procedure describes how to obtain data from WMI by writing a scrip
     </tr>
     <tr class="odd">
     <td>Visual Basic applications<br/></td>
-    <td><a href="scripting-api-for-wmi">Scripting API for WMI</a>.<br/></td>
+    <td><a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br/></td>
     </tr>
     <tr class="even">
     <td>Active Server Pages<br/></td>
-    <td><a href="scripting-api-for-wmi">Scripting API for WMI</a>.<br/> Start with <a href="creating-active-server-pages-for-wmi">Creating Active Server Pages for WMI</a>.<br/></td>
+    <td><a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br/> Start with <a href="creating-active-server-pages-for-wmi.md">Creating Active Server Pages for WMI</a>.<br/></td>
     </tr>
     <tr class="odd">
     <td>C++ applications<br/></td>
-    <td><a href="com-api-for-wmi">COM API for WMI</a>.<br/> Start with [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md) and <a href="wmi-c---application-examples">WMI C++ Application Examples</a> (contains examples).<br/></td>
+    <td><a href="com-api-for-wmi.md">COM API for WMI</a>.<br/> Start with [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md) and <a href="wmi-c---application-examples.md">WMI C++ Application Examples</a> (contains examples).<br/></td>
     </tr>
     <tr class="even">
     <td>.NET Framework applications written in C#, Visual Basic .NET, or J#<br/></td>

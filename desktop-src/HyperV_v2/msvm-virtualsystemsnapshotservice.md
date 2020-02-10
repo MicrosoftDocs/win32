@@ -114,15 +114,15 @@ The **Msvm\_VirtualSystemSnapshotService** class has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="applysnapshot-msvm-virtualsystemsnapshotservice"><strong>ApplySnapshot</strong></a></td>
+<td style="text-align: left;"><a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a></td>
 <td style="text-align: left;">Applies a virtual machine snapshot to the virtual machine that it was created from.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice"><strong>ClearSnapshotState</strong></a></td>
+<td style="text-align: left;"><a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a></td>
 <td style="text-align: left;">Clears save state from an existing snapshot.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint"><strong>ConvertToReferencePoint</strong></a></td>
+<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a></td>
 <td style="text-align: left;">Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.<br/>
 <blockquote>
 [!Note]<br />
@@ -131,19 +131,19 @@ Support for this method was added in Windows 10.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="createsnapshot-msvm-virtualsystemsnapshotservice"><strong>CreateSnapshot</strong></a></td>
+<td style="text-align: left;"><a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a></td>
 <td style="text-align: left;">Creates a snapshot of a virtual machine.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="destroysnapshot-msvm-virtualsystemsnapshotservice"><strong>DestroySnapshot</strong></a></td>
+<td style="text-align: left;"><a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a></td>
 <td style="text-align: left;">Destroy an existing virtual machine snapshot. This method may, as a side effect, destroy other snapshots that are dependent on the affected snapshot.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="destroysnapshottree-msvm-virtualsystemsnapshotservice"><strong>DestroySnapshotTree</strong></a></td>
+<td style="text-align: left;"><a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a></td>
 <td style="text-align: left;">Removes an existing snapshot, and all its children, of a virtual machine.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-requeststatechange"><strong>RequestStateChange</strong></a></td>
+<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a></td>
 <td style="text-align: left;">Requests a state change for the element.<br/>
 <blockquote>
 [!Note]<br />

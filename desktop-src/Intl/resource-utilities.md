@@ -281,7 +281,7 @@ rc [-h|-?] -fm mui_res_name [-q rc_config_file_name] [-g langid] [-g1 ] [-g2 ver
 </tr>
 <tr class="odd">
 <td>-q</td>
-<td>Uses the specified resource configuration file to obtain the resource types to place in the language-specific resource file and the LN file. For more information, see <a href="preparing-a-resource-configuration-file">Preparing a Resource Configuration File</a>. As an alternative to this switch, you can use the -j and -k switches, but it is preferred to use a resource configuration file. <br/> By using the -q switch with a resource configuration file, you can implement an item-based split and provide attributes that will end up with the binary resource configuration in the LN and language-specific resource file. This split is not possible using the -j and -k switches.
+<td>Uses the specified resource configuration file to obtain the resource types to place in the language-specific resource file and the LN file. For more information, see <a href="preparing-a-resource-configuration-file.md">Preparing a Resource Configuration File</a>. As an alternative to this switch, you can use the -j and -k switches, but it is preferred to use a resource configuration file. <br/> By using the -q switch with a resource configuration file, you can implement an item-based split and provide attributes that will end up with the binary resource configuration in the LN and language-specific resource file. This split is not possible using the -j and -k switches.
 <blockquote>
 [!Note]<br />
 The RC Compiler split process does not work properly if you store resources and version information in different resource configuration files. In this case, RC Compiler does not split the version information. Therefore a linker error occurs during linking of the language-specific resource file because the file does not have version resources.
@@ -290,7 +290,7 @@ The RC Compiler split process does not work properly if you store resources and 
 </tr>
 <tr class="even">
 <td>-g</td>
-<td>Specifies the ultimate <a href="language-identifiers">fallback language</a> identifier in hexadecimal.<br/></td>
+<td>Specifies the ultimate <a href="language-identifiers.md">fallback language</a> identifier in hexadecimal.<br/></td>
 </tr>
 <tr class="odd">
 <td>-g1</td>

@@ -36,7 +36,7 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 </tr>
 <tr class="even">
 <td><span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Configuration File</em><br/></td>
-<td>Read settings from the specified configuration file. See <a href="mftrace-configuration-file">MFTrace Configuration File</a>.<br/></td>
+<td>Read settings from the specified configuration file. See <a href="mftrace-configuration-file.md">MFTrace Configuration File</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="-dc"></span><span id="-DC"></span><strong>-dc</strong><br/></td>
@@ -48,7 +48,7 @@ MFTrace uses the Detours library to hook into Media Foundation API calls and gen
 </tr>
 <tr class="odd">
 <td><span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Keywords</em><br/></td>
-<td>A comma-separated list of keywords. See <a href="mftrace-keywords">MFTrace Keywords</a>.<br/></td>
+<td>A comma-separated list of keywords. See <a href="mftrace-keywords.md">MFTrace Keywords</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> <em>Level</em><br/></td>

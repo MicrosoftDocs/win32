@@ -60,42 +60,42 @@ The **\_\_SystemSecurity** class has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="--systemsecurity-get9xuserlist"><strong>Get9XUserList</strong></a></td>
+<td style="text-align: left;"><a href="--systemsecurity-get9xuserlist.md"><strong>Get9XUserList</strong></a></td>
 <td style="text-align: left;">Gets a list of users who are allowed remote access.<br/>
 <blockquote>
 [!Note]<br />
-This method does not work on supported versions of Windows. Use <a href="--systemsecurity-getsd"><strong>GetSD</strong></a> instead.
+This method does not work on supported versions of Windows. Use <a href="--systemsecurity-getsd.md"><strong>GetSD</strong></a> instead.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="--systemsecurity-getcalleraccessrights"><strong>GetCallerAccessRights</strong></a></td>
+<td style="text-align: left;"><a href="--systemsecurity-getcalleraccessrights.md"><strong>GetCallerAccessRights</strong></a></td>
 <td style="text-align: left;">Returns a mask with each bit that corresponds to an access right.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="--systemsecurity-getsd"><strong>GetSD</strong></a></td>
+<td style="text-align: left;"><a href="--systemsecurity-getsd.md"><strong>GetSD</strong></a></td>
 <td style="text-align: left;">Gets the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor"><strong>SECURITY_DESCRIPTOR</strong></a> for the namespace to which the user is connected.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="getsecuritydescriptor-method-in-class---systemsecurity-"><strong>GetSecurityDescriptor</strong></a></td>
-<td style="text-align: left;">Gets the security descriptor that controls access to the WMI namespace associated with the instance of <strong>__SystemSecurity</strong>. The security descriptor is returned as an instance of<a href="--securitydescriptor"><strong>__SecurityDescriptor</strong></a>.<br/></td>
+<td style="text-align: left;"><a href="getsecuritydescriptor-method-in-class---systemsecurity-.md"><strong>GetSecurityDescriptor</strong></a></td>
+<td style="text-align: left;">Gets the security descriptor that controls access to the WMI namespace associated with the instance of <strong>__SystemSecurity</strong>. The security descriptor is returned as an instance of<a href="--securitydescriptor.md"><strong>__SecurityDescriptor</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="--systemsecurity-set9xuserlist"><strong>Set9XUserList</strong></a></td>
+<td style="text-align: left;"><a href="--systemsecurity-set9xuserlist.md"><strong>Set9XUserList</strong></a></td>
 <td style="text-align: left;">Sets a list of users who are allowed remote access.<br/>
 <blockquote>
 [!Note]<br />
-This method does not work on supported versions of Windows. Use <a href="--systemsecurity-setsd"><strong>SetSD</strong></a> instead.
+This method does not work on supported versions of Windows. Use <a href="--systemsecurity-setsd.md"><strong>SetSD</strong></a> instead.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="--systemsecurity-setsd"><strong>SetSD</strong></a></td>
+<td style="text-align: left;"><a href="--systemsecurity-setsd.md"><strong>SetSD</strong></a></td>
 <td style="text-align: left;">Sets the security descriptor for the namespace to which the user is connected.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="setsecuritydescriptor-method-in-class---systemsecurity"><strong>SetSecurityDescriptor</strong></a></td>
-<td style="text-align: left;">Writes an updated version of the security descriptor that controls access to the printer. The security descriptor is represented by an instance of <a href="--securitydescriptor"><strong>__SecurityDescriptor</strong></a>.<br/></td>
+<td style="text-align: left;"><a href="setsecuritydescriptor-method-in-class---systemsecurity.md"><strong>SetSecurityDescriptor</strong></a></td>
+<td style="text-align: left;">Writes an updated version of the security descriptor that controls access to the printer. The security descriptor is represented by an instance of <a href="--securitydescriptor.md"><strong>__SecurityDescriptor</strong></a>.<br/></td>
 </tr>
 </tbody>
 </table>

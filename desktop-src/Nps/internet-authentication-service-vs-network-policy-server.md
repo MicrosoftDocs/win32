@@ -77,7 +77,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS has been updated to support its deployment in environments that must meet the Common Criteria security standards.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="ias-extensions">NPS Extensions API</a><br/></td>
+<td><a href="ias-extensions.md">NPS Extensions API</a><br/></td>
 <td>The NPS extension DLLs run in a separate process from the NPS service. Should an extension DLL crash, NPS will keep running and future requests will be rejected.<br/> The IAS extension DLLs run in the same process as the IAS service and may adversely affect the service.<br/></td>
 </tr>
 <tr class="odd">

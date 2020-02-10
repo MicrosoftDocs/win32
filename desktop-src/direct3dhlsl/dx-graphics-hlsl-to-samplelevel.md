@@ -45,11 +45,11 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 <tbody>
 <tr class="odd">
 <td><span id="Object"></span><span id="object"></span><span id="OBJECT"></span><em>Object</em><br/></td>
-<td>Any <a href="dx-graphics-hlsl-to-type">texture-object</a> type (except Texture2DMS and Texture2DMSArray).<br/></td>
+<td>Any <a href="dx-graphics-hlsl-to-type.md">texture-object</a> type (except Texture2DMS and Texture2DMSArray).<br/></td>
 </tr>
 <tr class="even">
 <td><span id="S"></span><span id="s"></span><em>S</em><br/></td>
-<td>[in] A <a href="dx-graphics-hlsl-sampler">Sampler state</a>. This is an object declared in an effect file that contains state assignments.<br/></td>
+<td>[in] A <a href="dx-graphics-hlsl-sampler.md">Sampler state</a>. This is an object declared in an effect file that contains state assignments.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Location"></span><span id="location"></span><span id="LOCATION"></span><em>Location</em><br/></td>
@@ -90,7 +90,7 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 </tr>
 <tr class="odd">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
-<td><p>[in] An optional texture coordinate offset, which can be used for any texture-object types. The offset is applied to the location before sampling. Use an offset only at an integer miplevel; otherwise, you may get results that do not translate well to hardware. The argument type is dependent on the texture-object type. For more info, see <a href="dx-graphics-hlsl-to-sample">Applying Integer Offsets</a>.</p>
+<td><p>[in] An optional texture coordinate offset, which can be used for any texture-object types. The offset is applied to the location before sampling. Use an offset only at an integer miplevel; otherwise, you may get results that do not translate well to hardware. The argument type is dependent on the texture-object type. For more info, see <a href="dx-graphics-hlsl-to-sample.md">Applying Integer Offsets</a>.</p>
 
 <table>
 <thead>

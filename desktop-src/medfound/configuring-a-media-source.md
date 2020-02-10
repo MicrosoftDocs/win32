@@ -28,15 +28,15 @@ The following table lists the configuration properties for the media sources tha
 <tbody>
 <tr class="odd">
 <td>Network source</td>
-<td>See <a href="network-source-features">Network Source Features</a>.</td>
+<td>See <a href="network-source-features.md">Network Source Features</a>.</td>
 </tr>
 <tr class="even">
 <td>ASF media source</td>
 <td><ul>
-<li><a href="mfpkey-asfmediasource-approxseek-property"><strong>MFPKEY_ASFMediaSource_ApproxSeek</strong></a></li>
-<li><a href="mfpkey-asfmediasource-iterativeseekifnoindex">MFPKEY_ASFMediaSource_IterativeSeekIfNoIndex</a></li>
-<li><a href="mfpkey-asfmediasource-iterativeseek-max-count">MFPKEY_ASFMediaSource_IterativeSeek_Max_Count</a></li>
-<li><a href="mfpkey-asfmediasource-iterativeseek-tolerance-in-millisecond">MFPKEY_ASFMediaSource_IterativeSeek_Tolerance_In_MilliSecond</a></li>
+<li><a href="mfpkey-asfmediasource-approxseek-property.md"><strong>MFPKEY_ASFMediaSource_ApproxSeek</strong></a></li>
+<li><a href="mfpkey-asfmediasource-iterativeseekifnoindex.md">MFPKEY_ASFMediaSource_IterativeSeekIfNoIndex</a></li>
+<li><a href="mfpkey-asfmediasource-iterativeseek-max-count.md">MFPKEY_ASFMediaSource_IterativeSeek_Max_Count</a></li>
+<li><a href="mfpkey-asfmediasource-iterativeseek-tolerance-in-millisecond.md">MFPKEY_ASFMediaSource_IterativeSeek_Tolerance_In_MilliSecond</a></li>
 </ul></td>
 </tr>
 </tbody>

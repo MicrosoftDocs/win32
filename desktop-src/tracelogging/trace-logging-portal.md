@@ -29,15 +29,15 @@ TraceLogging is the new Windows 10 event tracing framework for user-mode applica
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="trace-logging-about">About TraceLogging</a><br/></td>
+<td><a href="trace-logging-about.md">About TraceLogging</a><br/></td>
 <td>TraceLogging is the new Windows 10 event tracing for user-mode applications and kernel-mode drivers. TraceLogging is a format for self-describing Event Tracing for Windows (ETW). TraceLogging builds on Event Tracing for Windows (ETW) and provides a simplified way to instrument code.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="tracelogging-using-tracelogging">Using TraceLogging</a><br/></td>
+<td><a href="tracelogging-using-tracelogging.md">Using TraceLogging</a><br/></td>
 <td>The following topics provide a TraceLogging quick start for native and managed code, with examples.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="trace-logging-reference">TraceLogging Reference</a><br/></td>
+<td><a href="trace-logging-reference.md">TraceLogging Reference</a><br/></td>
 <td>The following topics provide information about the native TraceLogging API.<br/> TraceLogging builds on Event Tracing for Windows (ETW) and provides a simplified way to instrument code. TraceLogging allows you to include structured data with events, correlate events, and does not require a separate instrumentation manifest XML file.<br/> <span class="underline">For WinRT developers</span><br/>
 <ul>
 <li><a href="https://docs.microsoft.com/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel"><strong>LoggingChannel</strong></a> has been extended in Windows 10 to log self-describing Event Tracing for Windows (ETW) events without the need for a manifest.</li>

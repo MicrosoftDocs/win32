@@ -69,7 +69,7 @@ This constructor is only available when developing with C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(fxmvector_fxmvector_fxmvector_cxmvector)"><strong>XMMATRIX (XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMMATRIX</code> structure from four instances of <code>XMVECTOR</code>.<br/> Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> structure from four instances of <a href="xmvector-data-type"><strong>XMVECTOR Data Type</strong></a><br/></td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMMATRIX</code> structure from four instances of <code>XMVECTOR</code>.<br/> Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> structure from four instances of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a><br/></td>
 </tr>
 </tbody>
 </table>

@@ -87,11 +87,11 @@ Format Type: FORMAT_VideoInfo<br/></td>
 <td>qdvd.dll</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>Line 21 Decoder: MERIT_NORMALLine 21 Decoder 2: MERIT_NORMAL + 2<br/></td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

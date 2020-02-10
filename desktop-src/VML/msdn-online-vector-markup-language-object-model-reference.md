@@ -255,11 +255,11 @@ Describes a 3-D extrusion of the shape.
 <tbody>
 <tr class="odd">
 <td>AutoRotationCenter</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. If True, the center of rotation of the group of 3-D objects (in fact there is only ever one object in the group) is determined automatically to be the center of the group; otherwise it is determined by the RotationCenter parameters, which are a fraction of the shape with 0,0,0 being the center.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. If True, the center of rotation of the group of 3-D objects (in fact there is only ever one object in the group) is determined automatically to be the center of the group; otherwise it is determined by the RotationCenter parameters, which are a fraction of the shape with 0,0,0 being the center.</td>
 </tr>
 <tr class="even">
 <td>BackDepth</td>
-<td><a href="msdn-online-vml-vglength"><strong>VgLength</strong></a>. Amount of backward extrusion. Ranges from 0 to 32767.</td>
+<td><a href="msdn-online-vml-vglength.md"><strong>VgLength</strong></a>. Amount of backward extrusion. Ranges from 0 to 32767.</td>
 </tr>
 <tr class="odd">
 <td>Brightness</td>
@@ -267,7 +267,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="even">
 <td>Color</td>
-<td><a href="msdn-online-vml-ivgcolor">IVgColor</a>. The color of the extrusion. Only used if ColorMode is Custom. Otherwise, Auto sets the extrusion effect color to the same as FillColor.</td>
+<td><a href="msdn-online-vml-ivgcolor.md">IVgColor</a>. The color of the extrusion. Only used if ColorMode is Custom. Otherwise, Auto sets the extrusion effect color to the same as FillColor.</td>
 </tr>
 <tr class="odd">
 <td>ColorMode</td>
@@ -283,7 +283,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>Edge</td>
-<td><a href="msdn-online-vml-vglength">VgLength</a>. Sets the size of a simulated rounded beveled edge. Ranges from 0 to 32767 in floating point pts. Default is &quot;1pt&quot;.</td>
+<td><a href="msdn-online-vml-vglength.md">VgLength</a>. Sets the size of a simulated rounded beveled edge. Ranges from 0 to 32767 in floating point pts. Default is &quot;1pt&quot;.</td>
 </tr>
 <tr class="even">
 <td>Facet</td>
@@ -291,19 +291,19 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>ForeDepth</td>
-<td><a href="msdn-online-vml-vglength">VgLength</a>. Amount of forward extrusion. Ranges from 0 to 32767.</td>
+<td><a href="msdn-online-vml-vglength.md">VgLength</a>. Amount of forward extrusion. Ranges from 0 to 32767.</td>
 </tr>
 <tr class="even">
 <td>LightFace</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Determimes whether the front face of the object will respond to changes in the 3-D lighting, e.g., when an object rotates.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Determimes whether the front face of the object will respond to changes in the 3-D lighting, e.g., when an object rotates.</td>
 </tr>
 <tr class="odd">
 <td>LightHarsh</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Harsh lighting for the primary light source. Default is False.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Harsh lighting for the primary light source. Default is False.</td>
 </tr>
 <tr class="even">
 <td>LightHarsh2</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Harsh lighting for the secondary light source. Default is False.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Harsh lighting for the secondary light source. Default is False.</td>
 </tr>
 <tr class="odd">
 <td>LightLevel</td>
@@ -323,15 +323,15 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>LockRotationCenter</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. &quot;Lockrotationcenter&quot; means that the rotation of the group is defined to be by rotation-angle[1] degrees about the y-axis on the page followed by rotation-angle[0] degrees about the x-axis. When LockRotationCenter is False, the rotation is defined to be by orientation-angle degrees about the vector defined by orientation. So, for example, lockrotationcenter=false orientationangle=45 orientation=(0,1,0) is equivalent to lockrotationcenter=true rotationangle=(0,45).</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. &quot;Lockrotationcenter&quot; means that the rotation of the group is defined to be by rotation-angle[1] degrees about the y-axis on the page followed by rotation-angle[0] degrees about the x-axis. When LockRotationCenter is False, the rotation is defined to be by orientation-angle degrees about the vector defined by orientation. So, for example, lockrotationcenter=false orientationangle=45 orientation=(0,1,0) is equivalent to lockrotationcenter=true rotationangle=(0,45).</td>
 </tr>
 <tr class="even">
 <td>Metal</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Causes specularly reflected light to be the material color instead of the light source color, making the object seem more metallic.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Causes specularly reflected light to be the material color instead of the light source color, making the object seem more metallic.</td>
 </tr>
 <tr class="odd">
 <td>On</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Turns the display of the extrusion effect on and off.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Turns the display of the extrusion effect on and off.</td>
 </tr>
 <tr class="even">
 <td>Orientation</td>
@@ -339,7 +339,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="odd">
 <td>OrientationAngle</td>
-<td><a href="msdn-online-vml-vgangleindegrees-data-type">VgAngleInDegrees</a>. Angle between the orientation of the camera and the xy plane.</td>
+<td><a href="msdn-online-vml-vgangleindegrees-data-type.md">VgAngleInDegrees</a>. Angle between the orientation of the camera and the xy plane.</td>
 </tr>
 <tr class="even">
 <td>Plane</td>
@@ -361,7 +361,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="even">
 <td>RotationAngle</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. AngleX, AngleY, or AngleZ is controlled by the ShapeRotation attribute.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. AngleX, AngleY, or AngleZ is controlled by the ShapeRotation attribute.</td>
 </tr>
 <tr class="odd">
 <td>RotationCenter</td>
@@ -377,7 +377,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="even">
 <td>SkewAngle</td>
-<td><a href="msdn-online-vml-vgangleindegrees-data-type">VgAngleInDegrees</a>. If Type is Parallel, attribute determines the degree of skew. Default is &quot;-45&quot;.</td>
+<td><a href="msdn-online-vml-vgangleindegrees-data-type.md">VgAngleInDegrees</a>. If Type is Parallel, attribute determines the degree of skew. Default is &quot;-45&quot;.</td>
 </tr>
 <tr class="odd">
 <td>Specularity</td>
@@ -397,7 +397,7 @@ Describes a 3-D extrusion of the shape.
 </tr>
 <tr class="even">
 <td>ViewpointOrigin</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. Can have values from 0.5 to -0.5 to position the origin of the viewpoint within the shape bounding box.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. Can have values from 0.5 to -0.5 to position the origin of the viewpoint within the shape bounding box.</td>
 </tr>
 </tbody>
 </table>
@@ -422,11 +422,11 @@ Describes how a path should be filled for fills more complex than a solid color.
 <tbody>
 <tr class="odd">
 <td>AlignShape</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Align the image with the shape. If False, align image with window.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Align the image with the shape. If False, align image with window.</td>
 </tr>
 <tr class="even">
 <td>Angle</td>
-<td><a href="msdn-online-vml-vgangleindegrees-data-type">VgAngleInDegrees</a>. The angle along which the gradient goes. 0 degrees is along the horizontal axis from left to right.</td>
+<td><a href="msdn-online-vml-vgangleindegrees-data-type.md">VgAngleInDegrees</a>. The angle along which the gradient goes. 0 degrees is along the horizontal axis from left to right.</td>
 </tr>
 <tr class="odd">
 <td>Aspect</td>
@@ -458,11 +458,11 @@ Describes how a path should be filled for fills more complex than a solid color.
 </tr>
 <tr class="even">
 <td>Color</td>
-<td><a href="msdn-online-vml-ivgcolor">IVgColor</a> The main fill color. Same as FillColor attribute in shape.</td>
+<td><a href="msdn-online-vml-ivgcolor.md">IVgColor</a> The main fill color. Same as FillColor attribute in shape.</td>
 </tr>
 <tr class="odd">
 <td>Color2</td>
-<td><a href="msdn-online-vml-ivgcolor">IVgColor</a>. The secondary color for a fill when image type is Pattern or a gradient fill.</td>
+<td><a href="msdn-online-vml-ivgcolor.md">IVgColor</a>. The secondary color for a fill when image type is Pattern or a gradient fill.</td>
 </tr>
 <tr class="even">
 <td>Colors</td>
@@ -474,11 +474,11 @@ Describes how a path should be filled for fills more complex than a solid color.
 </tr>
 <tr class="even">
 <td>FocusPosition</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. Position of the innermost rectangle for radial gradients. The vector is a fraction (0.0 - 1.0) of the shape's width and height.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. Position of the innermost rectangle for radial gradients. The vector is a fraction (0.0 - 1.0) of the shape's width and height.</td>
 </tr>
 <tr class="odd">
 <td>FocusSize</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a> Size of the innermost rectangle for radial gradients. The vector is a fraction (0.0 to 1.0) of the shape's width and height.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a> Size of the innermost rectangle for radial gradients. The vector is a fraction (0.0 to 1.0) of the shape's width and height.</td>
 </tr>
 <tr class="even">
 <td>Method</td>
@@ -493,27 +493,27 @@ Describes how a path should be filled for fills more complex than a solid color.
 </tr>
 <tr class="odd">
 <td>On</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Turns fill display on. Same as Fill attribute in shape.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Turns fill display on. Same as Fill attribute in shape.</td>
 </tr>
 <tr class="even">
 <td>Opacity</td>
-<td><a href="msdn-online-vml-vgfraction-data-type">VgFraction</a>. Opacity of the fill.</td>
+<td><a href="msdn-online-vml-vgfraction-data-type.md">VgFraction</a>. Opacity of the fill.</td>
 </tr>
 <tr class="odd">
 <td>Opacity2</td>
-<td><a href="msdn-online-vml-vgfraction-data-type">VgFraction</a>. The secondary opacity for gradients.</td>
+<td><a href="msdn-online-vml-vgfraction-data-type.md">VgFraction</a>. The secondary opacity for gradients.</td>
 </tr>
 <tr class="even">
 <td>Origin</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. Point relative to upper left corner of the image that is treated as the origin of the image. Default is the center of the image. The vector is a fraction (from 0.0 to 1.0) of the image's width and height.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. Point relative to upper left corner of the image that is treated as the origin of the image. Default is the center of the image. The vector is a fraction (from 0.0 to 1.0) of the image's width and height.</td>
 </tr>
 <tr class="odd">
 <td>Position</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. Point in the reference rectangle of the shape to position the origin of the image. Default is the center of the container rectangle. The vector is a fraction (0.0 - 1.0) of the image's width and height.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. Point in the reference rectangle of the shape to position the origin of the image. Default is the center of the container rectangle. The vector is a fraction (0.0 - 1.0) of the image's width and height.</td>
 </tr>
 <tr class="even">
 <td>Size</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. The size of the image. Default is pixel size of the image. May be specified in absolute coordinates or percentage.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. The size of the image. Default is pixel size of the image. May be specified in absolute coordinates or percentage.</td>
 </tr>
 <tr class="odd">
 <td>Src</td>
@@ -597,7 +597,7 @@ Defines the path that makes up the shape, using a string that contains a rich se
 <tbody>
 <tr class="odd">
 <td>Limo</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">IVgVector2D</a>. Defines the point where the shape is stretched; e.g., for a giraffe shape, the limo point would be on the neck so when the shape is resized, the neck will stretch and the rest of the shape will maintain its dimensions.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">IVgVector2D</a>. Defines the point where the shape is stretched; e.g., for a giraffe shape, the limo point would be on the neck so when the shape is resized, the neck will stretch and the rest of the shape will maintain its dimensions.</td>
 </tr>
 <tr class="even">
 <td>TextBoxRect</td>
@@ -720,11 +720,11 @@ Describes a shadow effect on a shape.
 <tbody>
 <tr class="odd">
 <td>Color</td>
-<td><a href="msdn-online-vml-ivgcolor">IVgColor</a>. Color of the primary shadow. Default is RGB(128,128,128)</td>
+<td><a href="msdn-online-vml-ivgcolor.md">IVgColor</a>. Color of the primary shadow. Default is RGB(128,128,128)</td>
 </tr>
 <tr class="even">
 <td>Color2</td>
-<td><a href="msdn-online-vml-ivgcolor">IVgColor</a>. Color of the second shadow, or highlight in an embossed or engraved shadow. Default is RGB(203,203,203).</td>
+<td><a href="msdn-online-vml-ivgcolor.md">IVgColor</a>. Color of the second shadow, or highlight in an embossed or engraved shadow. Default is RGB(203,203,203).</td>
 </tr>
 <tr class="odd">
 <td>Matrix</td>
@@ -732,7 +732,7 @@ Describes a shadow effect on a shape.
 </tr>
 <tr class="even">
 <td>Obscured</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. The shadow can be seen through if there is no fill on the shape. Default is False.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. The shadow can be seen through if there is no fill on the shape. Default is False.</td>
 </tr>
 <tr class="odd">
 <td>Offset</td>
@@ -740,19 +740,19 @@ Describes a shadow effect on a shape.
 </tr>
 <tr class="even">
 <td>Offset2</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. Amount of x,y second offset from the shape?s location. Values are either an absolute measurement, or a fractional value of shape (-0.5 to +0.5).</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. Amount of x,y second offset from the shape?s location. Values are either an absolute measurement, or a fractional value of shape (-0.5 to +0.5).</td>
 </tr>
 <tr class="odd">
 <td>On</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Turns the display of the shadow on and off.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Turns the display of the shadow on and off.</td>
 </tr>
 <tr class="even">
 <td>Opacity</td>
-<td><a href="msdn-online-vml-vgfraction-data-type">VgFraction</a>. Opacity of the shadow effect.</td>
+<td><a href="msdn-online-vml-vgfraction-data-type.md">VgFraction</a>. Opacity of the shadow effect.</td>
 </tr>
 <tr class="odd">
 <td>Origin</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a> A pair of fractional values of shape from -0.5 to +0.5.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a> A pair of fractional values of shape from -0.5 to +0.5.</td>
 </tr>
 <tr class="even">
 <td>Type</td>
@@ -804,11 +804,11 @@ Describes how to draw the path if something beyond a solid line with a solid col
 <tbody>
 <tr class="odd">
 <td>Color</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. The color of the line. Same as StrokeColor attribute in Shape but overrides it.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. The color of the line. Same as StrokeColor attribute in Shape but overrides it.</td>
 </tr>
 <tr class="even">
 <td>Color2</td>
-<td><a href="msdn-online-vml-ivgcolor">IVgColor</a>. Secondary color. Used when FillType is Pattern.</td>
+<td><a href="msdn-online-vml-ivgcolor.md">IVgColor</a>. Secondary color. Used when FillType is Pattern.</td>
 </tr>
 <tr class="odd">
 <td>DashStyle</td>
@@ -880,7 +880,7 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tr>
 <tr class="odd">
 <td>ImageAlignShape</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Align the image with the shape. If False, align image with window.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Align the image with the shape. If False, align image with window.</td>
 </tr>
 <tr class="even">
 <td>ImageAspect</td>
@@ -912,7 +912,7 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tr>
 <tr class="odd">
 <td>ImageSize</td>
-<td><a href="msdn-online-vml-ivgvector2d-data-type">Vector2D</a>. Size of the image to form the brush with. Default is the size of the image.</td>
+<td><a href="msdn-online-vml-ivgvector2d-data-type.md">Vector2D</a>. Size of the image to form the brush with. Default is the size of the image.</td>
 </tr>
 <tr class="even">
 <td>JoinStyle</td>
@@ -936,15 +936,15 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tr>
 <tr class="even">
 <td>MiterLimit</td>
-<td><a href="msdn-online-vml-vglength">Length</a>. The maximum distance between the inner point and outer point of a joint. This number is a multiple of the thickness of the line. Ranges from 0 to 32,767.</td>
+<td><a href="msdn-online-vml-vglength.md">Length</a>. The maximum distance between the inner point and outer point of a joint. This number is a multiple of the thickness of the line. Ranges from 0 to 32,767.</td>
 </tr>
 <tr class="odd">
 <td>On</td>
-<td><a href="msdn-online-vml-vgtristate">VgTriState</a>. Turns the display of the line on and off. Same as Stroke attribute in Shape but overrides it.</td>
+<td><a href="msdn-online-vml-vgtristate.md">VgTriState</a>. Turns the display of the line on and off. Same as Stroke attribute in Shape but overrides it.</td>
 </tr>
 <tr class="even">
 <td>Opacity</td>
-<td><a href="msdn-online-vml-vgfraction-data-type">VgFraction</a>. Opacity of the stroke.</td>
+<td><a href="msdn-online-vml-vgfraction-data-type.md">VgFraction</a>. Opacity of the stroke.</td>
 </tr>
 <tr class="odd">
 <td>Src</td>
@@ -982,7 +982,7 @@ Describes how to draw the path if something beyond a solid line with a solid col
 </tr>
 <tr class="odd">
 <td>Weight</td>
-<td><a href="msdn-online-vml-vglength">VgLength</a>. Width of line. Ranges from 0 to 1584.
+<td><a href="msdn-online-vml-vglength.md">VgLength</a>. Width of line. Ranges from 0 to 1584.
 <div class="alert">
 <blockquote>
 [!Note]<br />

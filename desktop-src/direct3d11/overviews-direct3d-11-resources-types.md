@@ -20,13 +20,13 @@ Resources are areas in memory that can be accessed by the Direct3D pipeline, the
 <tr class="odd">
 <td>Differences between Direct3D 11 and Direct3D 10:<br/> Direct3D 11 supports several new resource types including:<br/>
 <ul>
-<li><a href="direct3d-11-advanced-stages-cs-resources">read-write buffers and textures</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources">structured buffers</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources">byte-address buffers</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources">append and consume buffers</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources">unordered access buffer or texture</a></li>
+<li><a href="direct3d-11-advanced-stages-cs-resources.md">read-write buffers and textures</a></li>
+<li><a href="direct3d-11-advanced-stages-cs-resources.md">structured buffers</a></li>
+<li><a href="direct3d-11-advanced-stages-cs-resources.md">byte-address buffers</a></li>
+<li><a href="direct3d-11-advanced-stages-cs-resources.md">append and consume buffers</a></li>
+<li><a href="direct3d-11-advanced-stages-cs-resources.md">unordered access buffer or texture</a></li>
 </ul>
-Direct3D 11.2 supports <a href="tiled-resources">tiled resources</a>.<br/> Both Direct3D 10 and Direct3D 11 support the <a href="overviews-direct3d-11-resources-buffers-intro">buffer</a> and <a href="overviews-direct3d-11-resources-textures-intro">texture</a> types that were introduced in Direct3D 10.<br/></td>
+Direct3D 11.2 supports <a href="tiled-resources.md">tiled resources</a>.<br/> Both Direct3D 10 and Direct3D 11 support the <a href="overviews-direct3d-11-resources-buffers-intro.md">buffer</a> and <a href="overviews-direct3d-11-resources-textures-intro.md">texture</a> types that were introduced in Direct3D 10.<br/></td>
 </tr>
 </tbody>
 </table>
