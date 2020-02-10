@@ -2,7 +2,7 @@
 title: ColumnInfo.DefaultValue property 
 TOCTitle: 'DefaultValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.DefaultValue
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo.defaultvalue(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.columninfo.defaultvalue(v=EXCHG.10)
 ms:contentKeyID: 55100932
 ms.date: 07/30/2014
 ms.topic: reference

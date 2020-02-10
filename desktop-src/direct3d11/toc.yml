@@ -1854,7 +1854,7 @@
         href: cd3d11-helper-classes.md
         items: 
         - name: "CD3D11_RECT"
-          href: https://msdn.microsoft.com/en-us/library/JJ151661(v=VS.85).aspx
+          href: https://msdn.microsoft.com/library/JJ151661(v=VS.85).aspx
           items: 
           - name: "CD3D11_RECT() constructor"
             href: https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect

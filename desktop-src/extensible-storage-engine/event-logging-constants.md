@@ -2,7 +2,7 @@
 title: Event Logging Constants
 TOCTitle: Event Logging Constants
 ms:assetid: d24603a9-a9be-4700-bc20-4e3f0661e741
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294101(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294101(v=EXCHG.10)
 ms:contentKeyID: 32765716
 ms.date: 04/11/2016
 ms.topic: reference

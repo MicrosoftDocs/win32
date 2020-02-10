@@ -2,7 +2,7 @@
 title: EsentTempPathInUseException members
 TOCTitle: EsentTempPathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttemppathinuseexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esenttemppathinuseexception_members(v=EXCHG.10)
 ms:contentKeyID: 55103044
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: EsentWriteConflictPrimaryIndexException class
 TOCTitle: EsentWriteConflictPrimaryIndexException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentwriteconflictprimaryindexexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentwriteconflictprimaryindexexception(v=EXCHG.10)
 ms:contentKeyID: 55107366
 ms.date: 07/30/2014
 ms.topic: reference

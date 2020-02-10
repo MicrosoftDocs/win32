@@ -2,7 +2,7 @@
 title: EsentInvalidSettingsException constructor 
 TOCTitle: 'EsentInvalidSettingsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsettingsexception.esentinvalidsettingsexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidsettingsexception.esentinvalidsettingsexception(v=EXCHG.10)
 ms:contentKeyID: 55102081
 ms.date: 07/30/2014
 ms.topic: reference

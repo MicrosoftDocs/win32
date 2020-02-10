@@ -2,7 +2,7 @@
 title: EsentCallbackFailedException members
 TOCTitle: EsentCallbackFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcallbackfailedexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcallbackfailedexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101114
 ms.date: 07/30/2014
 ms.topic: article

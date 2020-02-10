@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # RpcTryExcept
 
-The **RpcTryExcept** statement provides structured exception handling for RPC applications. If any of the program statements in the **RpcTryExcept** cause an exception, the statements in the [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) code block are executed. All **RpcTryExcept** statements must be terminated by the [**RpcEndExcept**](https://msdn.microsoft.com/en-US/library/Aa375629(v=VS.80).aspx) statement.
+The **RpcTryExcept** statement provides structured exception handling for RPC applications. If any of the program statements in the **RpcTryExcept** cause an exception, the statements in the [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) code block are executed. All **RpcTryExcept** statements must be terminated by the [**RpcEndExcept**](https://msdn.microsoft.com/library/Aa375629(v=VS.80).aspx) statement.
 
 For more information, see [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept).
 

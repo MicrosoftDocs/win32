@@ -2,7 +2,7 @@
 title: JetUnregisterCallback Function
 TOCTitle: JetUnregisterCallback Function
 ms:assetid: de5c7afa-07e1-4687-989b-b56125a9712e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294116(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294116(v=EXCHG.10)
 ms:contentKeyID: 32765730
 ms.date: 04/11/2016
 ms.topic: reference

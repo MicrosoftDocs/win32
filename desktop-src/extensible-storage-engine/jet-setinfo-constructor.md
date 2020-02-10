@@ -2,7 +2,7 @@
 title: JET_SETINFO constructor 
 TOCTitle: 'JET_SETINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETINFO.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setinfo.jet_setinfo(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_setinfo.jet_setinfo(v=EXCHG.10)
 ms:contentKeyID: 55103873
 ms.date: 07/30/2014
 ms.topic: reference

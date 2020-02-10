@@ -2,7 +2,7 @@
 title: JetGetRecordSize Function
 TOCTitle: JetGetRecordSize Function
 ms:assetid: a28567ed-c732-4509-9f8d-6f8104f62a86
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294045(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294045(v=EXCHG.10)
 ms:contentKeyID: 32765644
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JetFreeBuffer Function
 TOCTitle: JetFreeBuffer Function
 ms:assetid: f37d35f6-4bea-46ba-a334-7b8ad7a1568c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294134(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294134(v=EXCHG.10)
 ms:contentKeyID: 32765748
 ms.date: 04/11/2016
 ms.topic: reference

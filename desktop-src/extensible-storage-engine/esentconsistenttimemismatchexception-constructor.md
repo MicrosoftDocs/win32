@@ -2,7 +2,7 @@
 title: EsentConsistentTimeMismatchException constructor 
 TOCTitle: 'EsentConsistentTimeMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentconsistenttimemismatchexception.esentconsistenttimemismatchexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentconsistenttimemismatchexception.esentconsistenttimemismatchexception(v=EXCHG.10)
 ms:contentKeyID: 55101401
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: Extensible Storage Engine Error Codes
 TOCTitle: Extensible Storage Engine Error Codes
 ms:assetid: 7534370d-aed6-4980-b1ca-c3d063507e31
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269297(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269297(v=EXCHG.10)
 ms:contentKeyID: 32765589
 ms.date: 09/22/2016
 ms.topic: reference

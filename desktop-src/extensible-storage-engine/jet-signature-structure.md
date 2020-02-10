@@ -2,7 +2,7 @@
 title: JET_SIGNATURE Structure
 TOCTitle: JET_SIGNATURE Structure
 ms:assetid: 90d3fd56-be65-4126-b50c-b53e3c3f38f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269340(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269340(v=EXCHG.10)
 ms:contentKeyID: 32765629
 ms.date: 04/11/2016
 ms.topic: reference

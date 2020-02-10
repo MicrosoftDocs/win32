@@ -2,7 +2,7 @@
 title: IDeepCloneable(T).DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IDeepCloneable`1.DeepClone
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578936(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh578936(v=EXCHG.10)
 ms:contentKeyID: 39512955
 ms.date: 07/30/2014
 ms.topic: reference

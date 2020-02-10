@@ -2,7 +2,7 @@
 title: Api.JetGetTableColumnInfo method 
 TOCTitle: 'JetGetTableColumnInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetTableColumnInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetgettablecolumninfo(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetgettablecolumninfo(v=EXCHG.10)
 ms:contentKeyID: 55100717
 ms.date: 07/30/2014
 ms.topic: article

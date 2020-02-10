@@ -2,7 +2,7 @@
 title: JetAttachDatabase2 Function
 TOCTitle: JetAttachDatabase2 Function
 ms:assetid: 8667f3fc-d178-49f1-9474-f09352614f92
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269322(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269322(v=EXCHG.10)
 ms:contentKeyID: 32765612
 ms.date: 04/11/2016
 ms.topic: reference

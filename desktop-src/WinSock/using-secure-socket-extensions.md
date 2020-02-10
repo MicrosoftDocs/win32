@@ -292,7 +292,7 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 [IPsec Functions](https://msdn.microsoft.com/library/Aa364938(v=VS.85).aspx)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/en-US/library/Aa378663(v=VS.80).aspx)
+[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/library/Aa378663(v=VS.80).aspx)
 </dt> <dt>
 
 [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx)

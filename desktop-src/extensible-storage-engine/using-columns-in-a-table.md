@@ -2,7 +2,7 @@
 title: Using Columns in a Table
 TOCTitle: Using Columns in a Table
 ms:assetid: 064ac59e-d306-4335-a623-754a003f5ebc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269178(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269178(v=EXCHG.10)
 ms:contentKeyID: 32765481
 ms.date: 04/11/2016
 ms.topic: article

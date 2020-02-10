@@ -2,7 +2,7 @@
 title: EndSessionGrbit enumeration
 TOCTitle: EndSessionGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EndSessionGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.endsessiongrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.endsessiongrbit(v=EXCHG.10)
 ms:contentKeyID: 39511514
 ms.date: 07/30/2014
 ms.topic: reference

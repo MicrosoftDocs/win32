@@ -2,7 +2,7 @@
 title: EsentUpdateNotPreparedException constructor 
 TOCTitle: 'EsentUpdateNotPreparedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatenotpreparedexception.esentupdatenotpreparedexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentupdatenotpreparedexception.esentupdatenotpreparedexception(v=EXCHG.10)
 ms:contentKeyID: 55107342
 ms.date: 07/30/2014
 ms.topic: reference

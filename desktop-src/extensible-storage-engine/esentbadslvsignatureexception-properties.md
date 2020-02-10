@@ -2,7 +2,7 @@
 title: EsentBadSLVSignatureException properties
 TOCTitle: EsentBadSLVSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadslvsignatureexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentbadslvsignatureexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101172
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: JetRestore Function
 TOCTitle: JetRestore Function
 ms:assetid: cdfb8823-6260-46f2-adfc-77e2512a68fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294093(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294093(v=EXCHG.10)
 ms:contentKeyID: 32765708
 ms.date: 04/11/2016
 ms.topic: reference

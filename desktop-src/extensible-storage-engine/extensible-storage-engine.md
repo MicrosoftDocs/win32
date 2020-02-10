@@ -2,7 +2,7 @@
 title: Extensible Storage Engine
 TOCTitle: Extensible Storage Engine
 ms:assetid: 5c485eff-4329-4dc1-aa45-fb66e6554792
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269259(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269259(v=EXCHG.10)
 ms:contentKeyID: 32765561
 ms.date: 04/11/2016
 ms.topic: article

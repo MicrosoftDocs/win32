@@ -2,7 +2,7 @@
 title: JET_COLUMNDEF.cp property 
 TOCTitle: 'cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.cp
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columndef.cp(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columndef.cp(v=EXCHG.10)
 ms:contentKeyID: 55103411
 ms.date: 07/30/2014
 ms.topic: reference

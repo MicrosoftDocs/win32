@@ -2,7 +2,7 @@
 title: Sequencing in Multi-Valued Columns
 TOCTitle: Sequencing in Multi-Valued Columns
 ms:assetid: 825a1e51-6b18-4bcf-87f2-4223f302186c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269319(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269319(v=EXCHG.10)
 ms:contentKeyID: 32765609
 ms.date: 04/11/2016
 ms.topic: article

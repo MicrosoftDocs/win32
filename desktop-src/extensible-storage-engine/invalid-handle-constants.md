@@ -2,7 +2,7 @@
 title: Invalid Handle Constants
 TOCTitle: Invalid Handle Constants
 ms:assetid: 594d7804-725f-4f72-b5f0-56f099c1c17b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269256(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269256(v=EXCHG.10)
 ms:contentKeyID: 32765558
 ms.date: 04/11/2016
 ms.topic: reference

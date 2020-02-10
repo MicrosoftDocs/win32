@@ -2,7 +2,7 @@
 title: IContentEquatable(T) interface
 TOCTitle: IContentEquatable(T) interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh578046(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh578046(v=EXCHG.10)
 ms:contentKeyID: 39511318
 ms.date: 07/30/2014
 ms.topic: reference

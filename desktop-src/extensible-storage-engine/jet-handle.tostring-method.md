@@ -2,7 +2,7 @@
 title: JET_HANDLE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_HANDLE.ToString
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_handle.tostring(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_handle.tostring(v=EXCHG.10)
 ms:contentKeyID: 39513131
 ms.date: 07/30/2014
 ms.topic: article

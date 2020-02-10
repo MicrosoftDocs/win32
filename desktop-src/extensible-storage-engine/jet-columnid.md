@@ -2,7 +2,7 @@
 title: JET_COLUMNID
 TOCTitle: JET_COLUMNID
 ms:assetid: d6c74c5c-ba61-4e1c-a1b1-495e925b6b68
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294104(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294104(v=EXCHG.10)
 ms:contentKeyID: 32765719
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_TABLEID.Equals method (JET_TABLEID)
 TOCTitle: Equals method (JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.Equals(Microsoft.Isam.Esent.Interop.JET_TABLEID)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_tableid.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_tableid.equals(v=EXCHG.10)
 ms:contentKeyID: 39514708
 ms.date: 07/30/2014
 ms.topic: reference

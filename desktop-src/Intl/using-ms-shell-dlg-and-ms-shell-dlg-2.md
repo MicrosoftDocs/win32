@@ -61,7 +61,7 @@ On Windows Vista and Windows 7, MS Shell Dlg maps to MS UI Gothic if the machi
 
 MS Shell Dlg 2 simply uses the Tahoma font regardless of language. The main advantage of Tahoma over Microsoft Sans Serif is that Tahoma has a native bold font face. Its main disadvantage is that older operating systems might not have it installed, and might substitute a less attractive font.
 
-Characters that are not implemented in Tahoma or Microsoft Sans Serif may be implemented in other Windows fonts that are used for text display in user interfaces. Depending on what controls or APIs are used to display text, various mechanisms such as [font linking](https://msdn.microsoft.com/en-US/globalization/mt662331) may be used by the system to automatically select such fonts for displaying those characters.
+Characters that are not implemented in Tahoma or Microsoft Sans Serif may be implemented in other Windows fonts that are used for text display in user interfaces. Depending on what controls or APIs are used to display text, various mechanisms such as [font linking](https://msdn.microsoft.com/globalization/mt662331) may be used by the system to automatically select such fonts for displaying those characters.
 
 Applications can use either Microsoft Sans Serif or Tahoma explicitly, and save the level of indirection involved in using MS Shell Dlg or MS Shell Dlg 2. Because of font linking, specifying Microsoft Sans Serif or Tahoma provides appropriate glyphs for all languages.
 

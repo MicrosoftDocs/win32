@@ -2,7 +2,7 @@
 title: JetGetIndexInfo Function
 TOCTitle: JetGetIndexInfo Function
 ms:assetid: c6235281-e208-4966-bc66-ec1ab27333c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294084(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294084(v=EXCHG.10)
 ms:contentKeyID: 32765699
 ms.date: 04/11/2016
 ms.topic: reference

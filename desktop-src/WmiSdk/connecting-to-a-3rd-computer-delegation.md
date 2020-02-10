@@ -38,9 +38,9 @@ When you run a script on a local system that obtains data from a remote system, 
 <span id="C__"></span><span id="c__"></span>C++
 </dt> <dd>
 
-    Set the impersonation level parameter to **RPC\_C\_IMP\_LEVEL\_DELEGATE** in the call to [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx) or [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx). For more information about when to make these calls, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
+    Set the impersonation level parameter to **RPC\_C\_IMP\_LEVEL\_DELEGATE** in the call to [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) or [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx). For more information about when to make these calls, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-    To pass the client identity to remote COM servers in C++, set cloaking in the call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx). For more information, see [Cloaking](https://msdn.microsoft.com/en-us/library/ms683778(v=VS.85).aspx).
+    To pass the client identity to remote COM servers in C++, set cloaking in the call to [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx). For more information, see [Cloaking](https://msdn.microsoft.com/library/ms683778(v=VS.85).aspx).
 
     </dd> </dl>
 

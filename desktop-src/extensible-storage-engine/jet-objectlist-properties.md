@@ -2,7 +2,7 @@
 title: JET_OBJECTLIST properties
 TOCTitle: JET_OBJECTLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_objectlist_properties(v=EXCHG.10)
 ms:contentKeyID: 55103769
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: EsentInstanceUnavailableDueToFatalLogDiskFullException members
 TOCTitle: EsentInstanceUnavailableDueToFatalLogDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableduetofatallogdiskfullexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinstanceunavailableduetofatallogdiskfullexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101876
 ms.date: 07/30/2014
 ms.topic: article

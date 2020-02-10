@@ -2,7 +2,7 @@
 title: JET_RECSIZE.Equals method (Object) (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Equals(System.Object)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize.equals(v=EXCHG.10)
 ms:contentKeyID: 39515054
 ms.date: 07/30/2014
 ms.topic: reference

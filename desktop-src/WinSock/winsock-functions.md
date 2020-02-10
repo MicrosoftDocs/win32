@@ -13,26 +13,26 @@ The following list provides concise descriptions of each Winsock function. For a
 | Function | Description |
 |-|-|
 | [**accept**](/windows/win32/api/Winsock2/nf-winsock2-accept) | Permits an incoming connection attempt on a socket. |
-| [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx) | Accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. |
+| [**AcceptEx**](https://msdn.microsoft.com/library/ms737524(v=VS.85).aspx) | Accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. |
 | [**bind**](/windows/win32/api/winsock/nf-winsock-bind) | Associates a local address with a socket. |
 | [**closesocket**](/windows/win32/api/winsock/nf-winsock-closesocket) | Closes an existing socket. |
 | [**connect**](/windows/win32/api/Winsock2/nf-winsock2-connect) | Establishes a connection to a specified socket. |
 | [**ConnectEx**](/windows/win32/api/Mswsock/nc-mswsock-lpfn_connectex) | Establishes a connection to a specified socket, and optionally sends data once the connection is established. Only supported on connection-oriented sockets. |
-| [**DisconnectEx**](https://msdn.microsoft.com/en-us/library/ms737757(v=VS.85).aspx) | Closes a connection on a socket, and allows the socket handle to be reused. |
+| [**DisconnectEx**](https://msdn.microsoft.com/library/ms737757(v=VS.85).aspx) | Closes a connection on a socket, and allows the socket handle to be reused. |
 | [**EnumProtocols**](/windows/win32/api/Nspapi/nf-nspapi-enumprotocolsa) | Retrieves information about a specified set of network protocols that are active on a local host. |
-| [**freeaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfo) | Frees address information that the [**getaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function dynamically allocates in [**addrinfo**](https://msdn.microsoft.com/en-us/library/ms737530(v=VS.85).aspx) structures. |
+| [**freeaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfo) | Frees address information that the [**getaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function dynamically allocates in [**addrinfo**](https://msdn.microsoft.com/library/ms737530(v=VS.85).aspx) structures. |
 | [**FreeAddrInfoEx**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfoex) | Frees address information that the [**GetAddrInfoEx**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) function dynamically allocates in [**addrinfoex**](/windows/win32/api/Ws2def/ns-ws2def-addrinfoexw) structures. |
 | [**FreeAddrInfoW**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-freeaddrinfow) | Frees address information that the [**GetAddrInfoW**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow) function dynamically allocates in [**addrinfoW**](/windows/win32/api/Ws2def/ns-ws2def-addrinfow) structures. |
 | [**gai\_strerror**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-gai_strerrora) | Assists in printing error messages based on the EAI\_\* errors returned by the [**getaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function. |
-| [**GetAcceptExSockaddrs**](https://msdn.microsoft.com/en-us/library/ms738516(v=VS.85).aspx) | Parses the data obtained from a call to the [**AcceptEx**](https://msdn.microsoft.com/en-us/library/ms737524(v=VS.85).aspx) function. |
+| [**GetAcceptExSockaddrs**](https://msdn.microsoft.com/library/ms738516(v=VS.85).aspx) | Parses the data obtained from a call to the [**AcceptEx**](https://msdn.microsoft.com/library/ms737524(v=VS.85).aspx) function. |
 | [**GetAddressByName**](/windows/win32/api/Nspapi/nf-nspapi-getaddressbynamea) | Queries a namespace, or a set of default namespaces, to retrieve network address information for a specified network service. This process is known as service name resolution. A network service can also use the function to obtain local address information that it can use with the [**bind**](/windows/win32/api/winsock/nf-winsock-bind) function. |
 | [**getaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) | Provides protocol-independent translation from an ANSI host name to an address. |
 | [**GetAddrInfoEx**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) | Provides protocol-independent name resolution with additional parameters to qualify which name space providers should handle the request. |
 | [**GetAddrInfoExCancel**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel) | Cancels an asynchronous operation by the [**GetAddrInfoEx**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) function. |
 | [**GetAddrInfoExOverlappedResult**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult) | Gets the return code for an **OVERLAPPED** structure used by an asynchronous operation for the [**GetAddrInfoEx**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) function. |
 | [**GetAddrInfoW**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow) | Provides protocol-independent translation from a Unicode host name to an address. |
-| [**gethostbyaddr**](https://msdn.microsoft.com/en-us/library/ms738521(v=VS.85).aspx) | Retrieves the host information corresponding to a network address. |
-| [**gethostbyname**](https://msdn.microsoft.com/en-us/library/ms738524(v=VS.85).aspx) | Retrieves host information corresponding to a host name from a host database. Deprecated: use [**getaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) instead. |
+| [**gethostbyaddr**](https://msdn.microsoft.com/library/ms738521(v=VS.85).aspx) | Retrieves the host information corresponding to a network address. |
+| [**gethostbyname**](https://msdn.microsoft.com/library/ms738524(v=VS.85).aspx) | Retrieves host information corresponding to a host name from a host database. Deprecated: use [**getaddrinfo**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) instead. |
 | [**gethostname**](/windows/win32/api/winsock/nf-winsock-gethostname) | Retrieves the standard host name for the local computer. |
 | [**GetHostNameW**](/windows/win32/api/Winsock2/nf-winsock2-gethostnamew) | Retrieves the standard host name for the local computer as a Unicode string. |
 | [**getipv4sourcefilter**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-getipv4sourcefilter) | Retrieves the multicast filter state for an IPv4 socket. |
@@ -54,8 +54,8 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**htonl**](/windows/win32/api/winsock/nf-winsock-htonl) | Converts a **u\_long** from host to TCP/IP network byte order (which is big-endian). |
 | [**htonll**](/windows/win32/api/Winsock2/nf-winsock2-htonll) | Converts an **unsigned \_\_int64** from host to TCP/IP network byte order (which is big-endian). |
 | [**htons**](/windows/win32/api/winsock/nf-winsock-htons) | Converts a **u\_short** from host to TCP/IP network byte order (which is big-endian). |
-| [**inet\_addr**](https://msdn.microsoft.com/en-us/library/ms738563(v=VS.85).aspx) | Converts a string containing an (Ipv4) Internet Protocol dotted address into a proper address for the [**in\_addr**](https://msdn.microsoft.com/en-us/library/ms738571(v=VS.85).aspx) structure. |
-| [**inet\_ntoa**](https://msdn.microsoft.com/en-us/library/ms738564(v=VS.85).aspx) | Converts an (IPv4) Internet network address into a string in Internet standard dotted format. |
+| [**inet\_addr**](https://msdn.microsoft.com/library/ms738563(v=VS.85).aspx) | Converts a string containing an (Ipv4) Internet Protocol dotted address into a proper address for the [**in\_addr**](https://msdn.microsoft.com/library/ms738571(v=VS.85).aspx) structure. |
+| [**inet\_ntoa**](https://msdn.microsoft.com/library/ms738564(v=VS.85).aspx) | Converts an (IPv4) Internet network address into a string in Internet standard dotted format. |
 | [**InetNtop**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetntopw) | converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is [**inet\_ntop**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetntopw). |
 | [**InetPton**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetptonw) | Converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is [**inet\_pton**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetptonw). |
 | [**ioctlsocket**](/windows/win32/api/winsock/nf-winsock-ioctlsocket) | Controls the I/O mode of a socket. |
@@ -67,19 +67,19 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**ntohs**](/windows/win32/api/winsock/nf-winsock-ntohs) | Converts a u\_short from TCP/IP network byte order to host byte order (which is little-endian on Intel processors). |
 | [**recv**](/windows/win32/api/winsock/nf-winsock-recv) | Receives data from a connected or bound socket. |
 | [**recvfrom**](/windows/win32/api/winsock/nf-winsock-recvfrom) | Receives a datagram and stores the source address. |
-| [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/en-us/library/Hh448837(v=VS.85).aspx) | Closes an existing completion queue used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions. |
-| [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/en-us/library/Hh448841(v=VS.85).aspx) | Creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions. |
-| [**RIOCreateRequestQueue**](https://msdn.microsoft.com/en-us/library/Hh448843(v=VS.85).aspx) | Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions. |
-| [**RIODequeueCompletion**](https://msdn.microsoft.com/en-us/library/Hh448845(v=VS.85).aspx) | Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions. |
-| [**RIODeregisterBuffer**](https://msdn.microsoft.com/en-us/library/Hh448847(v=VS.85).aspx) | Deregisters a registered buffer used with the Winsock registered I/O extensions. |
-| [**RIONotify**](https://msdn.microsoft.com/en-us/library/Hh437191(v=VS.85).aspx) | Registers the method to use for notification behavior with an I/O completion queue for use with the Winsock registered I/O extensions. |
-| [**RIOReceive**](https://msdn.microsoft.com/en-us/library/Hh437193(v=VS.85).aspx) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
-| [**RIOReceiveEx**](https://msdn.microsoft.com/en-us/library/Hh437196(v=VS.85).aspx) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
-| [**RIORegisterBuffer**](https://msdn.microsoft.com/en-us/library/Hh437199(v=VS.85).aspx) | Registers a [**RIO\_BUFFERID**](rio-bufferid.md), a registered buffer descriptor, with a specified buffer for use with the Winsock registered I/O extensions. |
-| [**RIOResizeCompletionQueue**](https://msdn.microsoft.com/en-us/library/Hh437202(v=VS.85).aspx) | Resizes an I/O completion queue to be either larger or smaller for use with the Winsock registered I/O extensions. |
-| [**RIOResizeRequestQueue**](https://msdn.microsoft.com/en-us/library/Hh437204(v=VS.85).aspx) | Resizes a request queue to be either larger or smaller for use with the Winsock registered I/O extensions. |
-| [**RIOSend**](https://msdn.microsoft.com/en-us/library/Hh437213(v=VS.85).aspx) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
-| [**RIOSendEx**](https://msdn.microsoft.com/en-us/library/Hh437216(v=VS.85).aspx) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
+| [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx) | Closes an existing completion queue used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions. |
+| [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx) | Creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions. |
+| [**RIOCreateRequestQueue**](https://msdn.microsoft.com/library/Hh448843(v=VS.85).aspx) | Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions. |
+| [**RIODequeueCompletion**](https://msdn.microsoft.com/library/Hh448845(v=VS.85).aspx) | Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions. |
+| [**RIODeregisterBuffer**](https://msdn.microsoft.com/library/Hh448847(v=VS.85).aspx) | Deregisters a registered buffer used with the Winsock registered I/O extensions. |
+| [**RIONotify**](https://msdn.microsoft.com/library/Hh437191(v=VS.85).aspx) | Registers the method to use for notification behavior with an I/O completion queue for use with the Winsock registered I/O extensions. |
+| [**RIOReceive**](https://msdn.microsoft.com/library/Hh437193(v=VS.85).aspx) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
+| [**RIOReceiveEx**](https://msdn.microsoft.com/library/Hh437196(v=VS.85).aspx) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
+| [**RIORegisterBuffer**](https://msdn.microsoft.com/library/Hh437199(v=VS.85).aspx) | Registers a [**RIO\_BUFFERID**](rio-bufferid.md), a registered buffer descriptor, with a specified buffer for use with the Winsock registered I/O extensions. |
+| [**RIOResizeCompletionQueue**](https://msdn.microsoft.com/library/Hh437202(v=VS.85).aspx) | Resizes an I/O completion queue to be either larger or smaller for use with the Winsock registered I/O extensions. |
+| [**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx) | Resizes a request queue to be either larger or smaller for use with the Winsock registered I/O extensions. |
+| [**RIOSend**](https://msdn.microsoft.com/library/Hh437213(v=VS.85).aspx) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
+| [**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
 | [**select**](/windows/win32/api/Winsock2/nf-winsock2-select) | Determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O. |
 | [**send**](/windows/win32/api/Winsock2/nf-winsock2-send) | Sends data on a connected socket. |
 | [**sendto**](/windows/win32/api/winsock/nf-winsock-sendto) | Sends data to a specific destination. |
@@ -91,12 +91,12 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**setsourcefilter**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-setsourcefilter) | Sets the multicast filter state for an IPv4 or IPv6 socket. |
 | [**shutdown**](/windows/win32/api/winsock/nf-winsock-shutdown) | Disables sends or receives on a socket. |
 | [**socket**](/windows/win32/api/Winsock2/nf-winsock2-socket) | Creates a socket that is bound to a specific service provider. |
-| [**TransmitFile**](https://msdn.microsoft.com/en-us/library/ms740565(v=VS.85).aspx) | Transmits file data over a connected socket handle. |
+| [**TransmitFile**](https://msdn.microsoft.com/library/ms740565(v=VS.85).aspx) | Transmits file data over a connected socket handle. |
 | [**TransmitPackets**](/windows/win32/api/Mswsock/nc-mswsock-lpfn_transmitpackets) | Transmits in-memory data or file data over a connected socket. |
 | [**WSAAccept**](/windows/win32/api/Winsock2/nf-winsock2-wsaaccept) | Conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data. |
 | [**WSAAddressToString**](/windows/win32/api/Winsock2/nf-winsock2-wsaaddresstostringa) | Converts all components of a [**sockaddr**](sockaddr-2.md) structure into a human-readable string representation of the address. |
-| [**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/en-us/library/ms741519(v=VS.85).aspx) | Asynchronously retrieves host information that corresponds to an address. |
-| [**WSAAsyncGetHostByName**](https://msdn.microsoft.com/en-us/library/ms741522(v=VS.85).aspx) | Asynchronously retrieves host information that corresponds to a host name. |
+| [**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/library/ms741519(v=VS.85).aspx) | Asynchronously retrieves host information that corresponds to an address. |
+| [**WSAAsyncGetHostByName**](https://msdn.microsoft.com/library/ms741522(v=VS.85).aspx) | Asynchronously retrieves host information that corresponds to a host name. |
 | [**WSAAsyncGetProtoByName**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetprotobyname) | Asynchronously retrieves protocol information that corresponds to a protocol name. |
 | [**WSAAsyncGetProtoByNumber**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetprotobynumber) | Asynchronously retrieves protocol information that corresponds to a protocol number. |
 | [**WSAAsyncGetServByName**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetservbyname) | Asynchronously retrieves service information that corresponds to a service name and port. |
@@ -105,7 +105,7 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**WSACancelAsyncRequest**](/windows/win32/api/winsock/nf-winsock-wsacancelasyncrequest) | Cancels an incomplete asynchronous operation. |
 | [**WSACleanup**](/windows/win32/api/winsock/nf-winsock-wsacleanup) | Terminates use of the Ws2\_32.DLL. |
 | [**WSACloseEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsacloseevent) | Closes an open event object handle. |
-| [**WSAConnect**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnect) | Establishes a connection to another socket application, exchanges connect data, and specifies needed quality of service based on the specified [**FLOWSPEC**](https://msdn.microsoft.com/en-US/library/Aa373702(v=VS.80).aspx) structure. |
+| [**WSAConnect**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnect) | Establishes a connection to another socket application, exchanges connect data, and specifies needed quality of service based on the specified [**FLOWSPEC**](https://msdn.microsoft.com/library/Aa373702(v=VS.80).aspx) structure. |
 | [**WSAConnectByList**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnectbylist) | Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports). |
 | [**WSAConnectByName**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnectbynamea) | Establishes a connection to another socket application on a specified host and port |
 | [**WSACreateEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsacreateevent) | Creates a new event object. |
@@ -122,7 +122,7 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) | Retrieves the user-defined IP layer MTU for a socket. |
 | [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) | Returns the error status for the last operation that failed. |
 | [**WSAGetOverlappedResult**](/windows/win32/api/Winsock2/nf-winsock2-wsagetoverlappedresult) | Retrieves the results of an overlapped operation on the specified socket. |
-| [**WSAGetQOSByName**](/windows/win32/api/Winsock2/nf-winsock2-wsagetqosbyname) | Initializes a [**QOS**](https://msdn.microsoft.com/en-US/library/Aa374024(v=VS.80).aspx) structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names. |
+| [**WSAGetQOSByName**](/windows/win32/api/Winsock2/nf-winsock2-wsagetqosbyname) | Initializes a [**QOS**](https://msdn.microsoft.com/library/Aa374024(v=VS.80).aspx) structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names. |
 | [**WSAGetServiceClassInfo**](/windows/win32/api/Winsock2/nf-winsock2-wsagetserviceclassinfoa) | Retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider. |
 | [**WSAGetServiceClassNameByClassId**](/windows/win32/api/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida) | Retrieves the name of the service associated with the specified type. |
 | [**WSAGetUdpRecvMaxCoalescedSize**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetudprecvmaxcoalescedsize) | Retrieves the maximum size of a received, coalesced message for a UDP socket. |
@@ -139,14 +139,14 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**WSANSPIoctl**](/windows/win32/api/Winsock2/nf-winsock2-wsanspioctl) | Developers to make I/O control calls to a registered namespace. |
 | [**WSANtohl**](/windows/win32/api/Winsock2/nf-winsock2-wsantohl) | Converts a u\_long from network byte order to host byte order. |
 | [**WSANtohs**](/windows/win32/api/Winsock2/nf-winsock2-wsantohs) | Converts a u\_short from network byte order to host byte order. |
-| [**WSAPoll**](https://msdn.microsoft.com/en-us/library/ms741669(v=VS.85).aspx) | Determines status of one or more sockets. |
+| [**WSAPoll**](https://msdn.microsoft.com/library/ms741669(v=VS.85).aspx) | Determines status of one or more sockets. |
 | [**WSAProviderConfigChange**](/windows/win32/api/Winsock2/nf-winsock2-wsaproviderconfigchange) | Notifies the application when the provider configuration is changed. |
 | [**WSAQuerySocketSecurity**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) | Queries information about the security applied to a connection on a socket. |
 | [**WSARecv**](/windows/win32/api/Winsock2/nf-winsock2-wsarecv) | Receives data from a connected socket. |
 | [**WSARecvDisconnect**](/windows/win32/api/Winsock2/nf-winsock2-wsarecvdisconnect) | Terminates reception on a socket, and retrieves the disconnect data if the socket is connection oriented. |
-| [**WSARecvEx**](https://msdn.microsoft.com/en-us/library/ms741684(v=VS.85).aspx) | Receives data from a connected socket. |
+| [**WSARecvEx**](https://msdn.microsoft.com/library/ms741684(v=VS.85).aspx) | Receives data from a connected socket. |
 | [**WSARecvFrom**](/windows/win32/api/Winsock2/nf-winsock2-wsarecvfrom) | Receives a datagram and stores the source address. |
-| [**WSARecvMsg**](https://msdn.microsoft.com/en-us/library/ms741687(v=VS.85).aspx) | Receives data and optional control information from connected and unconnected sockets. |
+| [**WSARecvMsg**](https://msdn.microsoft.com/library/ms741687(v=VS.85).aspx) | Receives data and optional control information from connected and unconnected sockets. |
 | [**WSARemoveServiceClass**](/windows/win32/api/Winsock2/nf-winsock2-wsaremoveserviceclass) | Permanently removes the service class schema from the registry. |
 | [**WSAResetEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsaresetevent) | Resets the state of the specified event object to nonsignaled. |
 | [**WSARevertImpersonation**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation) | Terminates the impersonation of a socket peer. |

@@ -45,7 +45,7 @@
       - name: "CanWakeDevices Property"
         href: basicdevice-canwakedevices.md
       - name: "ConnectionStatus Property"
-        href: https://msdn.microsoft.com/en-us/library/Hh828816(v=VS.85).aspx
+        href: https://msdn.microsoft.com/library/Hh828816(v=VS.85).aspx
       - name: "Description Property"
         href: basicdevice-description.md
       - name: "DiscoveredOnCurrentNetwork Property"
@@ -91,7 +91,7 @@
       - name: "add_DeviceArrival Method"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828845(v=vs.85)
       - name: "add_DeviceDeparture Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh828846(v=VS.85).aspx
+        href: https://msdn.microsoft.com/library/Hh828846(v=VS.85).aspx
       - name: "AddDevice Method"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828844(v=vs.85)
       - name: "CachedDevices Method"
@@ -386,9 +386,9 @@
       - name: "ActionInformation Method"
         href: imediarenderer-actioninformation.md
       - name: "add_RenderingParametersUpdate Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh828928(v=VS.85).aspx
+        href: https://msdn.microsoft.com/library/Hh828928(v=VS.85).aspx
       - name: "add_TransportParametersUpdate Method"
-        href: https://msdn.microsoft.com/en-us/library/Hh828929(v=VS.85).aspx
+        href: https://msdn.microsoft.com/library/Hh828929(v=VS.85).aspx
       - name: "GetMuteAsync Method"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828930(v=vs.85)
       - name: "GetPositionInformationAsync Method"

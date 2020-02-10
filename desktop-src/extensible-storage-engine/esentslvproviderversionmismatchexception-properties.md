@@ -2,7 +2,7 @@
 title: EsentSLVProviderVersionMismatchException properties
 TOCTitle: EsentSLVProviderVersionMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderVersionMismatchException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvproviderversionmismatchexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvproviderversionmismatchexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102812
 ms.date: 07/30/2014
 ms.topic: article

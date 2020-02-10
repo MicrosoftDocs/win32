@@ -2,7 +2,7 @@
 title: EsentLogSequenceEndException members
 TOCTitle: EsentLogSequenceEndException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogsequenceendexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentlogsequenceendexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102214
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: EsentGivenLogFileIsNotContiguousException properties
 TOCTitle: EsentGivenLogFileIsNotContiguousException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentgivenlogfileisnotcontiguousexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentgivenlogfileisnotcontiguousexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101736
 ms.date: 07/30/2014
 ms.topic: article

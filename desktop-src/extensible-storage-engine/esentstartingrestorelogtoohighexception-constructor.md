@@ -2,7 +2,7 @@
 title: EsentStartingRestoreLogTooHighException constructor 
 TOCTitle: 'EsentStartingRestoreLogTooHighException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentstartingrestorelogtoohighexception.esentstartingrestorelogtoohighexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentstartingrestorelogtoohighexception.esentstartingrestorelogtoohighexception(v=EXCHG.10)
 ms:contentKeyID: 55102932
 ms.date: 07/30/2014
 ms.topic: reference

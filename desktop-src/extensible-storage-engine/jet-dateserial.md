@@ -2,7 +2,7 @@
 title: JET_DATESERIAL
 TOCTitle: JET_DATESERIAL
 ms:assetid: 8fe0abcc-6e63-4877-a74f-5b7f12dc15a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269338(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269338(v=EXCHG.10)
 ms:contentKeyID: 32765627
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: ColumnValueOfStruct(T).ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ToString
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334223(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn334223(v=EXCHG.10)
 ms:contentKeyID: 55101006
 ms.date: 07/30/2014
 ms.topic: reference

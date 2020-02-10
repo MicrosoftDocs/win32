@@ -2,7 +2,7 @@
 title: Database Cache Parameters
 TOCTitle: Database Cache Parameters
 ms:assetid: 715e5495-0cd8-430f-bf21-509cf03bfbfd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269293(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269293(v=EXCHG.10)
 ms:contentKeyID: 32765585
 ms.date: 04/11/2016
 ms.topic: reference

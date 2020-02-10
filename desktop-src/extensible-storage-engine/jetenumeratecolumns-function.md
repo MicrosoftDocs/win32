@@ -2,7 +2,7 @@
 title: JetEnumerateColumns Function
 TOCTitle: JetEnumerateColumns Function
 ms:assetid: 8413d056-cdb1-420e-9dd3-7280ad510165
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269321(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269321(v=EXCHG.10)
 ms:contentKeyID: 32765611
 ms.date: 04/11/2016
 ms.topic: reference

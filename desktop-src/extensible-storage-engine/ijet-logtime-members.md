@@ -2,7 +2,7 @@
 title: IJET_LOGTIME members
 TOCTitle: IJET_LOGTIME members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.ijet_logtime_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.ijet_logtime_members(v=EXCHG.10)
 ms:contentKeyID: 39511372
 ms.date: 07/30/2014
 ms.topic: article

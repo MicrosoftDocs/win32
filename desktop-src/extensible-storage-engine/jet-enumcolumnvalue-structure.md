@@ -2,7 +2,7 @@
 title: JET_ENUMCOLUMNVALUE Structure
 TOCTitle: JET_ENUMCOLUMNVALUE Structure
 ms:assetid: a9882d7b-0c53-4a5d-bc98-0979e6e68c88
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294052(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294052(v=EXCHG.10)
 ms:contentKeyID: 32765652
 ms.date: 04/11/2016
 ms.topic: reference

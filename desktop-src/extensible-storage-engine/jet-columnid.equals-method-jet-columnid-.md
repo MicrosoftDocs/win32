@@ -2,7 +2,7 @@
 title: JET_COLUMNID.Equals method (JET_COLUMNID)
 TOCTitle: Equals method (JET_COLUMNID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Equals(Microsoft.Isam.Esent.Interop.JET_COLUMNID)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columnid.equals(v=EXCHG.10)
 ms:contentKeyID: 39516458
 ms.date: 07/30/2014
 ms.topic: reference

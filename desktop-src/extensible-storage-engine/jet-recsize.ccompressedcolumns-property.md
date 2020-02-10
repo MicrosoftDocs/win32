@@ -2,7 +2,7 @@
 title: JET_RECSIZE.cCompressedColumns property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cCompressedColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cCompressedColumns
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize.ccompressedcolumns(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize.ccompressedcolumns(v=EXCHG.10)
 ms:contentKeyID: 39515840
 ms.date: 07/30/2014
 ms.topic: reference

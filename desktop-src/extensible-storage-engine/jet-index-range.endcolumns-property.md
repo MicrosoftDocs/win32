@@ -2,7 +2,7 @@
 title: JET_INDEX_RANGE.endColumns property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'endColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE.endColumns
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_index_range.endcolumns(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_index_range.endcolumns(v=EXCHG.10)
 ms:contentKeyID: 55107824
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_PFNREALLOC Callback Function
 TOCTitle: JET_PFNREALLOC Callback Function
 ms:assetid: 443d0b7e-1c3b-4584-9bc3-938724527313
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269237(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269237(v=EXCHG.10)
 ms:contentKeyID: 32765539
 ms.date: 04/11/2016
 ms.topic: reference

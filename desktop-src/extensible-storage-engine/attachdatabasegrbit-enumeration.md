@@ -2,7 +2,7 @@
 title: AttachDatabaseGrbit enumeration
 TOCTitle: AttachDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.AttachDatabaseGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.attachdatabasegrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.attachdatabasegrbit(v=EXCHG.10)
 ms:contentKeyID: 39514410
 ms.date: 07/30/2014
 ms.topic: reference

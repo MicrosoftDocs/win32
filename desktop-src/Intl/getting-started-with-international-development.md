@@ -25,7 +25,7 @@ You should become familiar with the issues that arise in developing internationa
 -   The [Internationalization Checklist](internationalization-checklist.md) summarizes the actions you should take to create a world-ready application.
 -   Security is always an issue in software development, but you need to consider additional issues when developing international software. Take a look at [Security Considerations: International Features](security-considerations--international-features.md).
 
-Also be aware of the more extensive articles that can be found at the [Go Global Developer Center](https://msdn.microsoft.com/globalization/mt613165) in the [Globalization Step-by-Step](https://msdn.microsoft.com/en-US/globalization/mt642951) section. As you develop international software, you will want to consult the additional overviews and detailed articles that can be found there.
+Also be aware of the more extensive articles that can be found at the [Go Global Developer Center](https://msdn.microsoft.com/globalization/mt613165) in the [Globalization Step-by-Step](https://msdn.microsoft.com/globalization/mt642951) section. As you develop international software, you will want to consult the additional overviews and detailed articles that can be found there.
 
 ## Learning Paths
 
@@ -46,7 +46,7 @@ The path you follow next in learning to create international software depends on
     -   Read the articles:
 
         -   [Script and Font Support in Windows](https://msdn.microsoft.com/globalization/mt791278)
-        -   [Input Language: Keyboards and IMEs](https://msdn.microsoft.com/en-US/globalization/mt662332)
+        -   [Input Language: Keyboards and IMEs](https://msdn.microsoft.com/globalization/mt662332)
 
     -   Explore the documentation for:
 

@@ -2,7 +2,7 @@
 title: Windows8Api.JetOpenTemporaryTable2 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetOpenTemporaryTable2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetOpenTemporaryTable2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8api.jetopentemporarytable2(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8api.jetopentemporarytable2(v=EXCHG.10)
 ms:contentKeyID: 55107829
 ms.date: 07/30/2014
 ms.topic: reference

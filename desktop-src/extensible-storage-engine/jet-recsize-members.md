@@ -2,7 +2,7 @@
 title: JET_RECSIZE members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize_members(v=EXCHG.10)
 ms:contentKeyID: 39510137
 ms.date: 07/30/2014
 ms.topic: article

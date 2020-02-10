@@ -2,7 +2,7 @@
 title: EsentLogCorruptDuringHardRestoreException class
 TOCTitle: EsentLogCorruptDuringHardRestoreException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrestoreexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentlogcorruptduringhardrestoreexception(v=EXCHG.10)
 ms:contentKeyID: 55102073
 ms.date: 07/30/2014
 ms.topic: reference

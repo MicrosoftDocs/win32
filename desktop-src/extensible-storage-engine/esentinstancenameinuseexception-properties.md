@@ -2,7 +2,7 @@
 title: EsentInstanceNameInUseException properties
 TOCTitle: EsentInstanceNameInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstancenameinuseexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinstancenameinuseexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101874
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: JET_OSSNAPID
 TOCTitle: JET_OSSNAPID
 ms:assetid: 89b15492-674a-46e4-8aea-991df4f22a6f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269325(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269325(v=EXCHG.10)
 ms:contentKeyID: 32765615
 ms.date: 04/11/2016
 ms.topic: reference

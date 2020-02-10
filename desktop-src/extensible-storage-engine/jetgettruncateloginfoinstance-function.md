@@ -2,7 +2,7 @@
 title: JetGetTruncateLogInfoInstance Function
 TOCTitle: JetGetTruncateLogInfoInstance Function
 ms:assetid: 1ecb2f2f-2cad-4c55-9296-5e5893b57695
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269199(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269199(v=EXCHG.10)
 ms:contentKeyID: 32765502
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: VistaGrbits.TruncateLogsAfterRecovery field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: TruncateLogsAfterRecovery field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.TruncateLogsAfterRecovery
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistagrbits.truncatelogsafterrecovery(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistagrbits.truncatelogsafterrecovery(v=EXCHG.10)
 ms:contentKeyID: 55104425
 ms.date: 07/30/2014
 ms.topic: reference

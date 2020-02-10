@@ -2,7 +2,7 @@
 title: JET_OPENTEMPORARYTABLE Structure
 TOCTitle: JET_OPENTEMPORARYTABLE Structure
 ms:assetid: 23f4fb0f-ca60-498b-9b8e-14de6188eb87
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269206(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269206(v=EXCHG.10)
 ms:contentKeyID: 32765509
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: Api.JetUpdate method (JET_SESID, JET_TABLEID, Byte , Int32, Int32)
 TOCTitle: JetUpdate method (JET_SESID, JET_TABLEID, Byte , Int32, Int32)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetUpdate(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32,System.Int32@)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetupdate(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetupdate(v=EXCHG.10)
 ms:contentKeyID: 55100814
 ms.date: 07/30/2014
 ms.topic: reference

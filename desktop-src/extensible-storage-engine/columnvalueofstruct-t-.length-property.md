@@ -2,7 +2,7 @@
 title: ColumnValueOfStruct(T).Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.Length
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334225(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn334225(v=EXCHG.10)
 ms:contentKeyID: 55101009
 ms.date: 07/30/2014
 ms.topic: reference

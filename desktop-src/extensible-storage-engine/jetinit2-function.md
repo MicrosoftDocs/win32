@@ -2,7 +2,7 @@
 title: JetInit2 Function
 TOCTitle: JetInit2 Function
 ms:assetid: b5541429-6ce6-457b-88cf-673d267f6209
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294065(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294065(v=EXCHG.10)
 ms:contentKeyID: 32765680
 ms.date: 04/11/2016
 ms.topic: reference

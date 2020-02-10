@@ -2,7 +2,7 @@
 title: JetResizeDatabase Function
 TOCTitle: JetResizeDatabase Function
 ms:assetid: b6420de7-acff-480e-838b-f0e5acc29c65
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ835047(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ835047(v=EXCHG.10)
 ms:contentKeyID: 49894669
 ms.date: 04/11/2016
 ms.topic: reference

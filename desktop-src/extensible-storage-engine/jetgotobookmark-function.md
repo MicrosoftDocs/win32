@@ -2,7 +2,7 @@
 title: JetGotoBookmark Function
 TOCTitle: JetGotoBookmark Function
 ms:assetid: a9a0aa43-834a-4eec-b47f-8e74d35aa972
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294053(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294053(v=EXCHG.10)
 ms:contentKeyID: 32765656
 ms.date: 04/11/2016
 ms.topic: reference

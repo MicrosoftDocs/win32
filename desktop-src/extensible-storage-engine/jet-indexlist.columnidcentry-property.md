@@ -2,7 +2,7 @@
 title: JET_INDEXLIST.columnidcEntry property 
 TOCTitle: 'columnidcEntry property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidcEntry
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexlist.columnidcentry(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_indexlist.columnidcentry(v=EXCHG.10)
 ms:contentKeyID: 55103597
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: Extensible Storage Engine Constants
 TOCTitle: Extensible Storage Engine Constants
 ms:assetid: 9a361b83-491d-442d-971d-6696f88ad42e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269351(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269351(v=EXCHG.10)
 ms:contentKeyID: 32765638
 ms.date: 04/11/2016
 ms.topic: reference

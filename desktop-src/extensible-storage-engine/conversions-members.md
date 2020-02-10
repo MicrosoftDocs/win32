@@ -2,7 +2,7 @@
 title: Conversions members
 TOCTitle: Conversions members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Conversions
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.conversions_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.conversions_members(v=EXCHG.10)
 ms:contentKeyID: 55107253
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: InstanceParameters.TempDirectory property 
 TOCTitle: 'TempDirectory property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.TempDirectory
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.tempdirectory(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instanceparameters.tempdirectory(v=EXCHG.10)
 ms:contentKeyID: 55103324
 ms.date: 07/30/2014
 ms.topic: reference

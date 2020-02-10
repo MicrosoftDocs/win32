@@ -2,7 +2,7 @@
 title: JetUpdate Function
 TOCTitle: JetUpdate Function
 ms:assetid: 6c9a53d0-46bc-403b-bdba-9020e023c14a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269288(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269288(v=EXCHG.10)
 ms:contentKeyID: 32765580
 ms.date: 04/11/2016
 ms.topic: reference

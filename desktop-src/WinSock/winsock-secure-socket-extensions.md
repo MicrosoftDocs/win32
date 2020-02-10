@@ -86,7 +86,7 @@ The [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsare
 [Secure Winsock Programming](secure-winsock-programming.md)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/en-US/library/Aa378663(v=VS.80).aspx)
+[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/library/Aa378663(v=VS.80).aspx)
 </dt> <dt>
 
 [Using Secure Socket Extensions](using-secure-socket-extensions.md)

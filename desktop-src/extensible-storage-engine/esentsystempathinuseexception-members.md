@@ -2,7 +2,7 @@
 title: EsentSystemPathInUseException members
 TOCTitle: EsentSystemPathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsystempathinuseexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentsystempathinuseexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102961
 ms.date: 07/30/2014
 ms.topic: article

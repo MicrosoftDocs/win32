@@ -2,7 +2,7 @@
 title: JET_OPENTEMPORARYTABLE class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_OPENTEMPORARYTABLE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable(v=EXCHG.10)
 ms:contentKeyID: 55104114
 ms.date: 07/30/2014
 ms.topic: reference

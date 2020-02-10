@@ -2,7 +2,7 @@
 title: JetMakeKey Function
 TOCTitle: JetMakeKey Function
 ms:assetid: 8c1cff2f-2f24-4990-a9d8-fb4f822e50b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269329(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269329(v=EXCHG.10)
 ms:contentKeyID: 32765619
 ms.date: 04/11/2016
 ms.topic: reference

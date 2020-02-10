@@ -2,7 +2,7 @@
 title: Microsoft.Isam.Esent.Interop.Vista namespace ()
 TOCTitle: '@NoTitle'
 ms:assetid: N:Microsoft.Isam.Esent.Interop.Vista
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista(v=EXCHG.10)
 ms:contentKeyID: 39513319
 ms.date: 07/30/2014
 ms.topic: article

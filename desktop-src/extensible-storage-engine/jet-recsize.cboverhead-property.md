@@ -2,7 +2,7 @@
 title: JET_RECSIZE.cbOverhead property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbOverhead property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cbOverhead
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize.cboverhead(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize.cboverhead(v=EXCHG.10)
 ms:contentKeyID: 39514763
 ms.date: 07/30/2014
 ms.topic: reference

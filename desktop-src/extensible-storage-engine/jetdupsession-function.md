@@ -2,7 +2,7 @@
 title: JetDupSession Function
 TOCTitle: JetDupSession Function
 ms:assetid: fa8fbaca-fe48-401e-9700-1303f4842ad9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294141(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294141(v=EXCHG.10)
 ms:contentKeyID: 32765755
 ms.date: 04/11/2016
 ms.topic: reference

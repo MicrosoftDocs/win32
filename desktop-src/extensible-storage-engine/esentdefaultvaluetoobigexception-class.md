@@ -2,7 +2,7 @@
 title: EsentDefaultValueTooBigException class
 TOCTitle: EsentDefaultValueTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdefaultvaluetoobigexception(v=EXCHG.10)
 ms:contentKeyID: 55101485
 ms.date: 07/30/2014
 ms.topic: reference

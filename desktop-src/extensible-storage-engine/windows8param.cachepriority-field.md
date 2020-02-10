@@ -2,7 +2,7 @@
 title: Windows8Param.CachePriority field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: CachePriority field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.CachePriority
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.cachepriority(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8param.cachepriority(v=EXCHG.10)
 ms:contentKeyID: 55104354
 ms.date: 07/30/2014
 ms.topic: reference

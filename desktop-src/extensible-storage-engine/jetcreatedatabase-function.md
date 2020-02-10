@@ -2,7 +2,7 @@
 title: JetCreateDatabase Function
 TOCTitle: JetCreateDatabase Function
 ms:assetid: 2b13b038-1694-46d8-b903-9be64384cb06
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269212(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269212(v=EXCHG.10)
 ms:contentKeyID: 32765515
 ms.date: 04/11/2016
 ms.topic: reference

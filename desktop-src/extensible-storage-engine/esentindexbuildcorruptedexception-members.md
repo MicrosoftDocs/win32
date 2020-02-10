@@ -2,7 +2,7 @@
 title: EsentIndexBuildCorruptedException members
 TOCTitle: EsentIndexBuildCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexBuildCorruptedException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexbuildcorruptedexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentindexbuildcorruptedexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101745
 ms.date: 07/30/2014
 ms.topic: article

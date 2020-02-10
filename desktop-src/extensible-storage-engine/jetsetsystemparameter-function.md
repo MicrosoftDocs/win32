@@ -2,7 +2,7 @@
 title: JetSetSystemParameter Function
 TOCTitle: JetSetSystemParameter Function
 ms:assetid: a244b5c9-6f6e-49d1-a6f7-9248feb9b92d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294044(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294044(v=EXCHG.10)
 ms:contentKeyID: 32765643
 ms.date: 04/11/2016
 ms.topic: reference

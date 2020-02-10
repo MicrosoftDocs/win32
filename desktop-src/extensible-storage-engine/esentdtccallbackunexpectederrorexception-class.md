@@ -2,7 +2,7 @@
 title: EsentDTCCallbackUnexpectedErrorException class
 TOCTitle: EsentDTCCallbackUnexpectedErrorException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception(v=EXCHG.10)
 ms:contentKeyID: 55107266
 ms.date: 07/30/2014
 ms.topic: reference

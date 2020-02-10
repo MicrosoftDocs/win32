@@ -2,7 +2,7 @@
 title: JET_TABLEID operators
 TOCTitle: JET_TABLEID operators
 ms:assetid: ef291f9a-8eed-fe37-7cc6-f32d84624f76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh163504(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh163504(v=EXCHG.10)
 ms:contentKeyID: 39516407
 ms.date: 07/30/2014
 ms.topic: article

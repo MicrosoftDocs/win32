@@ -2,7 +2,7 @@
 title: JET_INDEXRANGE.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.grbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexrange.grbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_indexrange.grbit(v=EXCHG.10)
 ms:contentKeyID: 55103679
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentDatabasesNotFromSameSnapshotException properties
 TOCTitle: EsentDatabasesNotFromSameSnapshotException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasesnotfromsamesnapshotexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabasesnotfromsamesnapshotexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101446
 ms.date: 07/30/2014
 ms.topic: article

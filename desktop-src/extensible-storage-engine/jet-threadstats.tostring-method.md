@@ -2,7 +2,7 @@
 title: JET_THREADSTATS.ToString method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.ToString
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats.tostring(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_threadstats.tostring(v=EXCHG.10)
 ms:contentKeyID: 39513782
 ms.date: 07/30/2014
 ms.topic: reference

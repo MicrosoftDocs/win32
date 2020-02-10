@@ -2,7 +2,7 @@
 title: JetRegisterCallback Function
 TOCTitle: JetRegisterCallback Function
 ms:assetid: 04c82fac-ffa2-477f-b4dd-59bbf1dde3c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269175(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269175(v=EXCHG.10)
 ms:contentKeyID: 32765478
 ms.date: 04/11/2016
 ms.topic: reference

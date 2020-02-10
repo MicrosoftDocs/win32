@@ -2,7 +2,7 @@
 title: JetTruncateLogInstance Function
 TOCTitle: JetTruncateLogInstance Function
 ms:assetid: 9b6852c6-a991-4d7b-bc54-49092f788751
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269352(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269352(v=EXCHG.10)
 ms:contentKeyID: 32765639
 ms.date: 04/11/2016
 ms.topic: reference

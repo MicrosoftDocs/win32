@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # ShowMessageAction.Title property
 
-\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/en-US/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.\]
+\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.\]
 
 For scripting, gets or sets the title of the message box.
 

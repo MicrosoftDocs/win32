@@ -2,7 +2,7 @@
 title: JetCreateIndex3 Function
 TOCTitle: JetCreateIndex3 Function
 ms:assetid: bc9b940e-65c6-49d6-ad32-74434527d29f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294075(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294075(v=EXCHG.10)
 ms:contentKeyID: 32765690
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JetGetTableColumnInfo Function
 TOCTitle: JetGetTableColumnInfo Function
 ms:assetid: b1c1df22-ad33-4320-9f08-baf2a3e7bd7d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294061(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294061(v=EXCHG.10)
 ms:contentKeyID: 32765676
 ms.date: 04/11/2016
 ms.topic: reference

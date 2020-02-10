@@ -2,7 +2,7 @@
 title: EsentFileSystemCorruptionException members
 TOCTitle: EsentFileSystemCorruptionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilesystemcorruptionexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentfilesystemcorruptionexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101743
 ms.date: 07/30/2014
 ms.topic: article

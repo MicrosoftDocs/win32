@@ -2,7 +2,7 @@
 title: EsentInstanceNameInUseException constructor 
 TOCTitle: 'EsentInstanceNameInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstancenameinuseexception.esentinstancenameinuseexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinstancenameinuseexception.esentinstancenameinuseexception(v=EXCHG.10)
 ms:contentKeyID: 55101823
 ms.date: 07/30/2014
 ms.topic: reference

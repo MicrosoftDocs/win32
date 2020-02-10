@@ -2,7 +2,7 @@
 title: Session type conversions
 TOCTitle: Session type conversions
 ms:assetid: 699a5362-c72c-34b1-824f-b1dc3b386fee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn351173(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn351173(v=EXCHG.10)
 ms:contentKeyID: 55104066
 ms.date: 07/30/2014
 ms.topic: article

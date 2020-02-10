@@ -130,7 +130,7 @@ The [Diagnostics](https://msdn.microsoft.com/library/Bb648685(v=VS.85).aspx) API
 -   [Event Logging](https://msdn.microsoft.com/library/Aa363657(v=VS.85).aspx)
 -   [Event Tracing](https://msdn.microsoft.com/library/Aa363802(v=VS.85).aspx)
 -   [Hardware Counter Profiling (HCP)](https://msdn.microsoft.com/library/Dd796399(v=VS.85).aspx)
--   [Network Diagnostics Framework (NDF)](https://msdn.microsoft.com/en-US/library/Aa369889(v=VS.80).aspx)
+-   [Network Diagnostics Framework (NDF)](https://msdn.microsoft.com/library/Aa369889(v=VS.80).aspx)
 -   [Network Monitor](https://msdn.microsoft.com/library/Ee832035(v=VS.85).aspx)
 -   [Performance Counters](https://msdn.microsoft.com/library/Aa373088(v=VS.85).aspx)
 -   [Performance Logs and Alerts (PLA)](https://msdn.microsoft.com/library/Aa372631(v=VS.85).aspx)
@@ -244,13 +244,13 @@ The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85)
 
 ## Application Installation and Servicing
 
--   [Games Explorer](https://msdn.microsoft.com/en-us/library/Ee415251(v=VS.85).aspx)
--   [Side-by-side Assemblies](https://msdn.microsoft.com/en-us/library/Aa376414(v=VS.85).aspx)
+-   [Games Explorer](https://msdn.microsoft.com/library/Ee415251(v=VS.85).aspx)
+-   [Side-by-side Assemblies](https://msdn.microsoft.com/library/Aa376414(v=VS.85).aspx)
 -   [Packaging, deployment, and query APIs](https://docs.microsoft.com/windows/desktop/appxpkg/api-reference
 )
--   [Developer License](https://msdn.microsoft.com/en-us/library/JJ554737(v=VS.85).aspx)
--   [Restart Manager](https://msdn.microsoft.com/en-us/library/Aa373656(v=VS.85).aspx)
--   [Windows Installer](https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx)
+-   [Developer License](https://msdn.microsoft.com/library/JJ554737(v=VS.85).aspx)
+-   [Restart Manager](https://msdn.microsoft.com/library/Aa373656(v=VS.85).aspx)
+-   [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx)
 
 ## System Admin and Management
 
@@ -305,8 +305,8 @@ The [Networking](https://msdn.microsoft.com/library/Gg537258(v=VS.85).aspx) APIs
 -   [Network Management](https://msdn.microsoft.com/library/Aa370680(v=VS.85).aspx)
 -   [Network Share Management](https://msdn.microsoft.com/library/Bb525394(v=VS.85).aspx)
 -   [Peer-to-Peer](https://msdn.microsoft.com/library/Aa371704(v=VS.85).aspx)
--   [Quality of Service (QOS)](https://msdn.microsoft.com/en-US/library/Aa374086(v=VS.80).aspx)
--   [Remote Procedure Call](https://msdn.microsoft.com/en-US/library/Aa374601(v=VS.80).aspx)
+-   [Quality of Service (QOS)](https://msdn.microsoft.com/library/Aa374086(v=VS.80).aspx)
+-   [Remote Procedure Call](https://msdn.microsoft.com/library/Aa374601(v=VS.80).aspx)
 -   [Routing and Remote Access Service (RAS)](https://msdn.microsoft.com/library/Bb545679(v=VS.85).aspx)
 -   [Simple Network Management Protocol (SNMP)](https://msdn.microsoft.com/library/Aa379001(v=VS.85).aspx)
 -   [SMB Management](https://msdn.microsoft.com/library/Hh830479(v=VS.85).aspx)

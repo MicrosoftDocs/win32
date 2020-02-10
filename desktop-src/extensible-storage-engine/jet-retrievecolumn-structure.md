@@ -2,7 +2,7 @@
 title: JET_RETRIEVECOLUMN Structure
 TOCTitle: JET_RETRIEVECOLUMN Structure
 ms:assetid: 8e23bed5-5279-4733-b787-a073a0e8d5a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269334(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269334(v=EXCHG.10)
 ms:contentKeyID: 32765623
 ms.date: 04/11/2016
 ms.topic: reference

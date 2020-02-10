@@ -2,7 +2,7 @@
 title: JET_OBJECTLIST.columnidgrbit property 
 TOCTitle: 'columnidgrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidgrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_objectlist.columnidgrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_objectlist.columnidgrbit(v=EXCHG.10)
 ms:contentKeyID: 55103774
 ms.date: 07/30/2014
 ms.topic: reference

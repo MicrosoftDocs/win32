@@ -2,7 +2,7 @@
 title: EsentVersionStoreEntryTooBigException constructor 
 TOCTitle: 'EsentVersionStoreEntryTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentversionstoreentrytoobigexception.esentversionstoreentrytoobigexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentversionstoreentrytoobigexception.esentversionstoreentrytoobigexception(v=EXCHG.10)
 ms:contentKeyID: 55107348
 ms.date: 07/30/2014
 ms.topic: reference
