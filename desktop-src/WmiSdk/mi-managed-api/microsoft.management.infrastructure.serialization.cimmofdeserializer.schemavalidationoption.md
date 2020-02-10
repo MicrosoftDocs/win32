@@ -57,7 +57,7 @@ Public Property SchemaValidationOption As MofDeserializerSchemaValidationOption
 
 #### Property value
 
-Type: [MofDeserializerSchemaValidationOption](microsoft.management.infrastructure.serialization.mofdeserializerschemavalidationoption)
+Type: [MofDeserializerSchemaValidationOption](microsoft.management.infrastructure.serialization.mofdeserializerschemavalidationoption.md)
 
 The schema validation option for deserialization.
 
