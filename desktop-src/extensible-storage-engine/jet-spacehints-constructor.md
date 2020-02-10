@@ -2,7 +2,7 @@
 title: JET_SPACEHINTS constructor 
 TOCTitle: 'JET_SPACEHINTS constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints.jet_spacehints(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_spacehints.jet_spacehints(v=EXCHG.10)
 ms:contentKeyID: 55103919
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_COLTYP
 TOCTitle: JET_COLTYP
 ms:assetid: 2c30c025-629d-4b94-bcb9-9c8fc3d4e039
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269213(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269213(v=EXCHG.10)
 ms:contentKeyID: 32765516
 ms.date: 04/11/2016
 ms.topic: reference

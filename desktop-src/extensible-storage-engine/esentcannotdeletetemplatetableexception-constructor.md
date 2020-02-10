@@ -2,7 +2,7 @@
 title: EsentCannotDeleteTemplateTableException constructor 
 TOCTitle: 'EsentCannotDeleteTemplateTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcannotdeletetemplatetableexception.esentcannotdeletetemplatetableexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcannotdeletetemplatetableexception.esentcannotdeletetemplatetableexception(v=EXCHG.10)
 ms:contentKeyID: 55101266
 ms.date: 07/30/2014
 ms.topic: reference

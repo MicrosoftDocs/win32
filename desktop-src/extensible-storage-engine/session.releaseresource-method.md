@@ -2,7 +2,7 @@
 title: Session.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.ReleaseResource
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.session.releaseresource(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.session.releaseresource(v=EXCHG.10)
 ms:contentKeyID: 55104124
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: IContentEquatable(T).ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IContentEquatable`1.ContentEquals(`0)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh538970(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh538970(v=EXCHG.10)
 ms:contentKeyID: 39509953
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JetOSSnapshotEnd Function
 TOCTitle: JetOSSnapshotEnd Function
 ms:assetid: f7f4db8b-8e40-48d7-bc7b-0c80d0d0f77f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294136(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294136(v=EXCHG.10)
 ms:contentKeyID: 32765750
 ms.date: 04/11/2016
 ms.topic: reference

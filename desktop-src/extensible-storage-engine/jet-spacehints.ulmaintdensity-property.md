@@ -2,7 +2,7 @@
 title: JET_SPACEHINTS.ulMaintDensity property 
 TOCTitle: 'ulMaintDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ulMaintDensity
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_spacehints.ulmaintdensity(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_spacehints.ulmaintdensity(v=EXCHG.10)
 ms:contentKeyID: 55103930
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JetComputeStats Function
 TOCTitle: JetComputeStats Function
 ms:assetid: 142f6ab0-715f-493a-a762-7a83854498d2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269192(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269192(v=EXCHG.10)
 ms:contentKeyID: 32765495
 ms.date: 04/11/2016
 ms.topic: reference

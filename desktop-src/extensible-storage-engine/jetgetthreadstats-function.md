@@ -2,7 +2,7 @@
 title: JetGetThreadStats Function
 TOCTitle: JetGetThreadStats Function
 ms:assetid: 1b8df8cd-fc61-44fe-a15c-a166f7097c32
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269196(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269196(v=EXCHG.10)
 ms:contentKeyID: 32765499
 ms.date: 04/11/2016
 ms.topic: reference

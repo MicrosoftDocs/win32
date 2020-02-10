@@ -2,7 +2,7 @@
 title: EsentPreviousVersionException methods
 TOCTitle: EsentPreviousVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentpreviousversionexception_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentpreviousversionexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55102486
 ms.date: 07/30/2014
 ms.topic: article

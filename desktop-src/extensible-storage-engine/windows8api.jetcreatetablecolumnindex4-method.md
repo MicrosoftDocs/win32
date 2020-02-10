@@ -2,7 +2,7 @@
 title: Windows8Api.JetCreateTableColumnIndex4 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetCreateTableColumnIndex4 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetCreateTableColumnIndex4(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_TABLECREATE)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8api.jetcreatetablecolumnindex4(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8api.jetcreatetablecolumnindex4(v=EXCHG.10)
 ms:contentKeyID: 55107827
 ms.date: 07/30/2014
 ms.topic: reference

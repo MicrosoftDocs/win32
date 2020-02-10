@@ -2,7 +2,7 @@
 title: JET_SETCOLUMN.columnid property 
 TOCTitle: 'columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.columnid
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_setcolumn.columnid(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_setcolumn.columnid(v=EXCHG.10)
 ms:contentKeyID: 55107683
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: VistaGrbits fields (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaGrbits fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistagrbits_fields(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistagrbits_fields(v=EXCHG.10)
 ms:contentKeyID: 55104318
 ms.date: 07/30/2014
 ms.topic: article

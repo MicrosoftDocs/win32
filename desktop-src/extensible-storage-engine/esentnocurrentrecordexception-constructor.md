@@ -2,7 +2,7 @@
 title: EsentNoCurrentRecordException constructor 
 TOCTitle: 'EsentNoCurrentRecordException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentnocurrentrecordexception.esentnocurrentrecordexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentnocurrentrecordexception.esentnocurrentrecordexception(v=EXCHG.10)
 ms:contentKeyID: 55102364
 ms.date: 07/30/2014
 ms.topic: reference

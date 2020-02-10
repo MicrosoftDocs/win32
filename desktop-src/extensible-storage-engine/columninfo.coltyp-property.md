@@ -2,7 +2,7 @@
 title: ColumnInfo.Coltyp property 
 TOCTitle: 'Coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Coltyp
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columninfo.coltyp(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.columninfo.coltyp(v=EXCHG.10)
 ms:contentKeyID: 55100970
 ms.date: 07/30/2014
 ms.topic: reference

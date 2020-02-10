@@ -2,7 +2,7 @@
 title: Long Value Columns
 TOCTitle: Long Value Columns
 ms:assetid: 0690f9d3-1a58-4e53-92e1-213630fc88f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269179(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269179(v=EXCHG.10)
 ms:contentKeyID: 32765482
 ms.date: 04/11/2016
 ms.topic: article

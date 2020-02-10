@@ -2,7 +2,7 @@
 title: JET_BKINFO operators
 TOCTitle: JET_BKINFO operators
 ms:assetid: cb271c1b-2cef-aa6f-1676-2fb33a236ba4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh596325(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh596325(v=EXCHG.10)
 ms:contentKeyID: 39515403
 ms.date: 07/30/2014
 ms.topic: article

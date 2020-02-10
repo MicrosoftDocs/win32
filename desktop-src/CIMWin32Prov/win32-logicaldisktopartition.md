@@ -165,7 +165,7 @@ int main(int argc, char **argv)
   
 //
 // Step 1-5 at:
-// https://msdn.microsoft.com/en-us/library/aa390423(VS.85).aspx
+// https://msdn.microsoft.com/library/aa390423(VS.85).aspx
 BOOL wmi_run()
 {
      HRESULT hres;

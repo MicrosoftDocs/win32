@@ -2,7 +2,7 @@
 title: Index Parameters
 TOCTitle: Index Parameters
 ms:assetid: df3dfbc7-71fb-4ae2-a94a-b00eaa1572ec
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294119(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294119(v=EXCHG.10)
 ms:contentKeyID: 32765733
 ms.date: 04/11/2016
 ms.topic: reference

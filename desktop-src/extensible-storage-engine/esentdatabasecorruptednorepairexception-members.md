@@ -2,7 +2,7 @@
 title: EsentDatabaseCorruptedNoRepairException members
 TOCTitle: EsentDatabaseCorruptedNoRepairException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabasecorruptednorepairexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabasecorruptednorepairexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101340
 ms.date: 07/30/2014
 ms.topic: article

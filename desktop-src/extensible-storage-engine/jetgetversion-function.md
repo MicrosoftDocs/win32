@@ -2,7 +2,7 @@
 title: JetGetVersion Function
 TOCTitle: JetGetVersion Function
 ms:assetid: f25c3639-ae2b-4357-9947-563ef3df72c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294133(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294133(v=EXCHG.10)
 ms:contentKeyID: 32765747
 ms.date: 04/11/2016
 ms.topic: reference

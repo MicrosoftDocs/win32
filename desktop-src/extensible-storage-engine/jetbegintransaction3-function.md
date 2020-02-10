@@ -2,7 +2,7 @@
 title: JetBeginTransaction3 Function
 TOCTitle: JetBeginTransaction3 Function
 ms:assetid: 7f8ed059-0b97-46fa-9925-e46cdcbee6ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ835043(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ835043(v=EXCHG.10)
 ms:contentKeyID: 49894665
 ms.date: 04/11/2016
 ms.topic: reference

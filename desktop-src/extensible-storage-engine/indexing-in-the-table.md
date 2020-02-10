@@ -2,7 +2,7 @@
 title: Indexing in the Table
 TOCTitle: Indexing in the Table
 ms:assetid: d86c2c6b-d001-468d-ab74-937911b0036d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294106(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294106(v=EXCHG.10)
 ms:contentKeyID: 32765721
 ms.date: 04/11/2016
 ms.topic: article

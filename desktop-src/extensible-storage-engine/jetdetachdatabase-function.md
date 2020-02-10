@@ -2,7 +2,7 @@
 title: JetDetachDatabase Function
 TOCTitle: JetDetachDatabase Function
 ms:assetid: 629f19e5-99f3-425a-b6ba-de18daec7efe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269266(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269266(v=EXCHG.10)
 ms:contentKeyID: 32765568
 ms.date: 04/11/2016
 ms.topic: reference

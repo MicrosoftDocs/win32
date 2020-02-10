@@ -2,7 +2,7 @@
 title: JetGetTableInfo Function
 TOCTitle: JetGetTableInfo Function
 ms:assetid: 0602186c-b5c3-44b5-87df-482680442afd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269177(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269177(v=EXCHG.10)
 ms:contentKeyID: 32765480
 ms.date: 04/11/2016
 ms.topic: reference

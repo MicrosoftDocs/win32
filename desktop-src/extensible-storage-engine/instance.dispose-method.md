@@ -2,7 +2,7 @@
 title: Instance.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.Dispose
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.dispose(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instance.dispose(v=EXCHG.10)
 ms:contentKeyID: 55103270
 ms.date: 07/30/2014
 ms.topic: article

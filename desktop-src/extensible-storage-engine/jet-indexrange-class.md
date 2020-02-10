@@ -2,7 +2,7 @@
 title: JET_INDEXRANGE class
 TOCTitle: JET_INDEXRANGE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_indexrange(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_indexrange(v=EXCHG.10)
 ms:contentKeyID: 55103671
 ms.date: 07/30/2014
 ms.topic: reference

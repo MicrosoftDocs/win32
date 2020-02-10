@@ -2,7 +2,7 @@
 title: JetCompact Function
 TOCTitle: JetCompact Function
 ms:assetid: 6944bd61-893d-4269-869b-56590e22580a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269284(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269284(v=EXCHG.10)
 ms:contentKeyID: 32765576
 ms.date: 04/11/2016
 ms.topic: reference

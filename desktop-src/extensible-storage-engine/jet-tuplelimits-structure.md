@@ -2,7 +2,7 @@
 title: JET_TUPLELIMITS Structure
 TOCTitle: JET_TUPLELIMITS Structure
 ms:assetid: 2610e2e5-5883-4aec-bc66-e6160b76c264
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269207(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269207(v=EXCHG.10)
 ms:contentKeyID: 32765510
 ms.date: 04/11/2016
 ms.topic: reference

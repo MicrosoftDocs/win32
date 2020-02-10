@@ -2,7 +2,7 @@
 title: VistaColInfo class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaColInfo
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistacolinfo(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistacolinfo(v=EXCHG.10)
 ms:contentKeyID: 55104307
 ms.date: 07/30/2014
 ms.topic: reference

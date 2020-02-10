@@ -2,7 +2,7 @@
 title: VistaColtyp.GUID field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: GUID field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp.GUID
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistacoltyp.guid(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistacoltyp.guid(v=EXCHG.10)
 ms:contentKeyID: 55104311
 ms.date: 07/30/2014
 ms.topic: reference

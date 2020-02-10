@@ -2,7 +2,7 @@
 title: JetCreateInstance Function
 TOCTitle: JetCreateInstance Function
 ms:assetid: 9d6c8c9f-3d3b-4308-87d3-84b1ef270262
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269354(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269354(v=EXCHG.10)
 ms:contentKeyID: 32765641
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: Extensible Storage Engine Data Types
 TOCTitle: Extensible Storage Engine Data Types
 ms:assetid: 37c23c0c-5c02-44a9-8a96-a712af221256
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269226(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269226(v=EXCHG.10)
 ms:contentKeyID: 32765528
 ms.date: 04/11/2016
 ms.topic: reference

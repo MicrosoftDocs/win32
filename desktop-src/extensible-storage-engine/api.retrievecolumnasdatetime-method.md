@@ -2,7 +2,7 @@
 title: Api.RetrieveColumnAsDateTime method 
 TOCTitle: 'RetrieveColumnAsDateTime method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsDateTime
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasdatetime(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.retrievecolumnasdatetime(v=EXCHG.10)
 ms:contentKeyID: 55100842
 ms.date: 07/30/2014
 ms.topic: article

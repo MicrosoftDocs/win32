@@ -2,7 +2,7 @@
 title: Api.JetRestoreInstance method 
 TOCTitle: 'JetRestoreInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRestoreInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_PFNSTATUS)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.jetrestoreinstance(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetrestoreinstance(v=EXCHG.10)
 ms:contentKeyID: 55100787
 ms.date: 07/30/2014
 ms.topic: reference

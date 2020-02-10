@@ -2,7 +2,7 @@
 title: JET_COLUMNDEF Structure
 TOCTitle: JET_COLUMNDEF Structure
 ms:assetid: ee1fc473-bff5-438e-98ae-247de12e76f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294130(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294130(v=EXCHG.10)
 ms:contentKeyID: 32765744
 ms.date: 04/11/2016
 ms.topic: reference

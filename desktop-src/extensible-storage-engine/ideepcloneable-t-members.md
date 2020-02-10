@@ -2,7 +2,7 @@
 title: IDeepCloneable(T) members
 TOCTitle: IDeepCloneable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh596443(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh596443(v=EXCHG.10)
 ms:contentKeyID: 39515520
 ms.date: 07/30/2014
 ms.topic: article

@@ -2,7 +2,7 @@
 title: JetGetRecordPosition Function
 TOCTitle: JetGetRecordPosition Function
 ms:assetid: 811d9e68-0594-4f70-b854-c3ec966b2705
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269316(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269316(v=EXCHG.10)
 ms:contentKeyID: 32765606
 ms.date: 04/11/2016
 ms.topic: reference

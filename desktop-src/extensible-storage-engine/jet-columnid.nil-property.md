@@ -2,7 +2,7 @@
 title: JET_COLUMNID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Nil
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnid.nil(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columnid.nil(v=EXCHG.10)
 ms:contentKeyID: 39511466
 ms.date: 07/30/2014
 ms.topic: reference

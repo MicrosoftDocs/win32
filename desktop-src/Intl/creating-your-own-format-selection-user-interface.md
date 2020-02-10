@@ -15,7 +15,7 @@ There are four possible options for displaying international text, which also en
 -   Instantiating rich edit controls
 -   Calling Uniscribe
 
-Please see [Options for Displaying Text](https://msdn.microsoft.com/en-US/globalization/mt662335) for the explanation and advantages of each of these options. It is then up to you to decide which is the best option for your application, based on the application's complexity and its design features.
+Please see [Options for Displaying Text](https://msdn.microsoft.com/globalization/mt662335) for the explanation and advantages of each of these options. It is then up to you to decide which is the best option for your application, based on the application's complexity and its design features.
 
 ## Related topics
 

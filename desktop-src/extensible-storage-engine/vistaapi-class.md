@@ -2,7 +2,7 @@
 title: VistaApi class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaApi class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaApi
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaapi(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaapi(v=EXCHG.10)
 ms:contentKeyID: 55104287
 ms.date: 07/30/2014
 ms.topic: reference

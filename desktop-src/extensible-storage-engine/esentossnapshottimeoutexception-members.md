@@ -2,7 +2,7 @@
 title: EsentOSSnapshotTimeOutException members
 TOCTitle: EsentOSSnapshotTimeOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshottimeoutexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentossnapshottimeoutexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102438
 ms.date: 07/30/2014
 ms.topic: article

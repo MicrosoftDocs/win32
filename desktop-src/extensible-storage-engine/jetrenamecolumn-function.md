@@ -2,7 +2,7 @@
 title: JetRenameColumn Function
 TOCTitle: JetRenameColumn Function
 ms:assetid: 30967765-355b-417c-b0d6-8b59e677cc98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269218(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269218(v=EXCHG.10)
 ms:contentKeyID: 32765521
 ms.date: 04/11/2016
 ms.topic: reference

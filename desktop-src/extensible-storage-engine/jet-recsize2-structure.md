@@ -2,7 +2,7 @@
 title: JET_RECSIZE2 Structure
 TOCTitle: JET_RECSIZE2 Structure
 ms:assetid: 02a13b5b-d904-49b2-baaa-c60328d70290
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269174(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269174(v=EXCHG.10)
 ms:contentKeyID: 32765477
 ms.date: 04/11/2016
 ms.topic: reference

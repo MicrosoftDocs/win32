@@ -2,7 +2,7 @@
 title: JET_SETCOLUMN Structure
 TOCTitle: JET_SETCOLUMN Structure
 ms:assetid: 3fdb8ec0-3c40-44f3-9859-72e22a504b90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269233(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269233(v=EXCHG.10)
 ms:contentKeyID: 32765535
 ms.date: 04/11/2016
 ms.topic: reference

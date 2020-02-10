@@ -2,7 +2,7 @@
 title: EsentMultiValuedColumnMustBeTaggedException class
 TOCTitle: EsentMultiValuedColumnMustBeTaggedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMultiValuedColumnMustBeTaggedException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentmultivaluedcolumnmustbetaggedexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentmultivaluedcolumnmustbetaggedexception(v=EXCHG.10)
 ms:contentKeyID: 55102318
 ms.date: 07/30/2014
 ms.topic: reference

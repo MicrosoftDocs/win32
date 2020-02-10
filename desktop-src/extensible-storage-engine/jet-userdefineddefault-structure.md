@@ -2,7 +2,7 @@
 title: JET_USERDEFINEDDEFAULT Structure
 TOCTitle: JET_USERDEFINEDDEFAULT Structure
 ms:assetid: 1f0a5419-9fae-4a93-a271-2f9772ecc996
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269200(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269200(v=EXCHG.10)
 ms:contentKeyID: 32765503
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: Api.RetrieveColumnAsInt32 method 
 TOCTitle: 'RetrieveColumnAsInt32 method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsInt32
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.retrievecolumnasint32(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.retrievecolumnasint32(v=EXCHG.10)
 ms:contentKeyID: 55100857
 ms.date: 07/30/2014
 ms.topic: article

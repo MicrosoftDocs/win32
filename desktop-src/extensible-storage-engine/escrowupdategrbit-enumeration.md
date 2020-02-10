@@ -2,7 +2,7 @@
 title: EscrowUpdateGrbit enumeration
 TOCTitle: EscrowUpdateGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EscrowUpdateGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.escrowupdategrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.escrowupdategrbit(v=EXCHG.10)
 ms:contentKeyID: 39514160
 ms.date: 07/30/2014
 ms.topic: reference

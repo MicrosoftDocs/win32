@@ -2,7 +2,7 @@
 title: EsentBadBackupDatabaseSizeException properties
 TOCTitle: EsentBadBackupDatabaseSizeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101048
 ms.date: 07/30/2014
 ms.topic: article

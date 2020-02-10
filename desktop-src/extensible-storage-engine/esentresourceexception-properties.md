@@ -2,7 +2,7 @@
 title: EsentResourceException properties
 TOCTitle: EsentResourceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentResourceException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentresourceexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentresourceexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102652
 ms.date: 07/30/2014
 ms.topic: article

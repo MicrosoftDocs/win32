@@ -2,7 +2,7 @@
 title: EsentInvalidBackupException members
 TOCTitle: EsentInvalidBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidbackupexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidbackupexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101846
 ms.date: 07/30/2014
 ms.topic: article

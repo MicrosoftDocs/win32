@@ -2,7 +2,7 @@
 title: JET_LGPOS Structure
 TOCTitle: JET_LGPOS Structure
 ms:assetid: dbce1a60-b32b-40c1-a215-e93bb77cd8c1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294113(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294113(v=EXCHG.10)
 ms:contentKeyID: 32765727
 ms.date: 04/11/2016
 ms.topic: reference

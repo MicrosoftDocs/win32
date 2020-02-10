@@ -2,7 +2,7 @@
 title: Windows8Api class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8api(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8api(v=EXCHG.10)
 ms:contentKeyID: 55104458
 ms.date: 07/30/2014
 ms.topic: reference

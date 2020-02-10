@@ -2,7 +2,7 @@
 title: Windows7Api.JetPrereadKeys method  (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: 'JetPrereadKeys method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api.JetPrereadKeys
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7api.jetprereadkeys(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows7.windows7api.jetprereadkeys(v=EXCHG.10)
 ms:contentKeyID: 55104369
 ms.date: 07/30/2014
 ms.topic: article

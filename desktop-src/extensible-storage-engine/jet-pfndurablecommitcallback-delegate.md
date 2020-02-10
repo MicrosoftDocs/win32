@@ -2,7 +2,7 @@
 title: JET_PFNDURABLECOMMITCALLBACK delegate (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_PFNDURABLECOMMITCALLBACK delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.jet_pfndurablecommitcallback(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_pfndurablecommitcallback(v=EXCHG.10)
 ms:contentKeyID: 55104327
 ms.date: 07/30/2014
 ms.topic: reference

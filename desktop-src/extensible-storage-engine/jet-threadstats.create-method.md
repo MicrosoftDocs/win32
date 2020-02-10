@@ -2,7 +2,7 @@
 title: JET_THREADSTATS.Create method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Create method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Create(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats.create(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_threadstats.create(v=EXCHG.10)
 ms:contentKeyID: 39509886
 ms.date: 07/30/2014
 ms.topic: reference

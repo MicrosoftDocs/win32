@@ -2,7 +2,7 @@
 title: ObjectInfoFlags enumeration
 TOCTitle: ObjectInfoFlags enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ObjectInfoFlags
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.objectinfoflags(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.objectinfoflags(v=EXCHG.10)
 ms:contentKeyID: 39515824
 ms.date: 07/30/2014
 ms.topic: reference

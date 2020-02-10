@@ -2,7 +2,7 @@
 title: Server2003Param class (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Param class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.server2003param(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.server2003param(v=EXCHG.10)
 ms:contentKeyID: 55107766
 ms.date: 07/30/2014
 ms.topic: reference

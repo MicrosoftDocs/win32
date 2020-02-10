@@ -2,7 +2,7 @@
 title: EsentIndexInvalidDefException methods
 TOCTitle: EsentIndexInvalidDefException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentindexinvaliddefexception_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentindexinvaliddefexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101829
 ms.date: 07/30/2014
 ms.topic: article

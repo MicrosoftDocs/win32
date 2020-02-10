@@ -2,7 +2,7 @@
 title: JetRollback Function
 TOCTitle: JetRollback Function
 ms:assetid: 685c51f4-8fe4-47cc-8a8e-c42014431b8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269273(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269273(v=EXCHG.10)
 ms:contentKeyID: 32765575
 ms.date: 04/11/2016
 ms.topic: reference

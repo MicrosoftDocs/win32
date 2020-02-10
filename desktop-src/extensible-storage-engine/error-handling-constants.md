@@ -2,7 +2,7 @@
 title: Error Handling Constants
 TOCTitle: Error Handling Constants
 ms:assetid: 5a1f9438-2d36-483e-9820-d0de30ee5e01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269258(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269258(v=EXCHG.10)
 ms:contentKeyID: 32765560
 ms.date: 04/11/2016
 ms.topic: reference

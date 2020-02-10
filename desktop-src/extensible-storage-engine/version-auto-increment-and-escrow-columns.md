@@ -2,7 +2,7 @@
 title: Version, Auto-Increment and Escrow Columns
 TOCTitle: Version, Auto-Increment and Escrow Columns
 ms:assetid: b12724a4-6846-49a7-9223-43895f91427e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294059(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294059(v=EXCHG.10)
 ms:contentKeyID: 32765674
 ms.date: 04/11/2016
 ms.topic: article

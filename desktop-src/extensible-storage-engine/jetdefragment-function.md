@@ -2,7 +2,7 @@
 title: JetDefragment Function
 TOCTitle: JetDefragment Function
 ms:assetid: 8215fd00-f1b8-4ebd-8d55-9bce11d7dc9b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269317(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269317(v=EXCHG.10)
 ms:contentKeyID: 32765607
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentInvalidCreateDbVersionException constructor 
 TOCTitle: 'EsentInvalidCreateDbVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidcreatedbversionexception.esentinvalidcreatedbversionexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidcreatedbversionexception.esentinvalidcreatedbversionexception(v=EXCHG.10)
 ms:contentKeyID: 55101906
 ms.date: 07/30/2014
 ms.topic: reference

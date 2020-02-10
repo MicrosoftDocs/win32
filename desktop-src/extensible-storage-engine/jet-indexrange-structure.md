@@ -2,7 +2,7 @@
 title: JET_INDEXRANGE Structure
 TOCTitle: JET_INDEXRANGE Structure
 ms:assetid: 8e437f7d-1e21-4a0b-a5a5-1c78235a4f80
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269335(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269335(v=EXCHG.10)
 ms:contentKeyID: 32765624
 ms.date: 04/11/2016
 ms.topic: reference

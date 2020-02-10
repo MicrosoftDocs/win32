@@ -2,7 +2,7 @@
 title: JET_THREADSTATS operators (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS operators
 ms:assetid: 008b884b-3d75-1c4e-15fb-f939e32bfdff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh556897(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh556897(v=EXCHG.10)
 ms:contentKeyID: 39509654
 ms.date: 07/30/2014
 ms.topic: article

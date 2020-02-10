@@ -2,7 +2,7 @@
 title: JET_ENUMCOLUMN class
 TOCTitle: JET_ENUMCOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_enumcolumn(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_enumcolumn(v=EXCHG.10)
 ms:contentKeyID: 55103488
 ms.date: 07/30/2014
 ms.topic: reference
