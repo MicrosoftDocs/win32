@@ -5245,7 +5245,7 @@
         - name: "IMFContentDecryptionModuleAccess::GetConfiguration"
           href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-getconfiguration
         - name: "IMFContentDecryptionModuleAccess::GetKeySystem"
-            href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-getkeysystem
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-getkeysystem
       - name: "IMFContentDecryptionModuleFactory"
         href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory
         items:
