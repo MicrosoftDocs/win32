@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Protected User Mode Audio (PUMA)
 
-Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering. It allows only the acceptable audio outputs to be enabled and ensures that the outputs are disabled reliably. For more information about PUMA, see [Output Content Protection and Windows Vista](https://www.microsoft.com/whdc/device/media/output_protect.mspx).
+Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering. It allows only the acceptable audio outputs to be enabled and ensures that the outputs are disabled reliably. For more information about PUMA, see [Output Content Protection and Windows Vista](https://download.microsoft.com/download/5/D/6/5D6EAF2B-7DDF-476B-93DC-7CF0072878E6/output_protect.doc).
 
 PUMA has been updated for Windows 7 to provide the following features:
 
@@ -19,7 +19,7 @@ PUMA has been updated for Windows 7 to provide the following features:
 
 Digital Rights Management (DRM) provides the ability to package media data in a secure container and attach usage rules to the content. For example, the content provider might use **Copy Protection** or **Digital Output Disable** to disable direct digital copies or transmission out of the PC system.
 
-The audio stack in certain Microsoft products supports DRM by implementing the usage rules that govern playback of the audio content. To play the protected content, the underlying audio driver must be a *trusted driver*; that is, the driver must be logo-certified for DRMLevel 1300. For information about developing trusted drivers, you can use interfaces that are defined in the Windows 2000 Driver Development Kit ("DDK") or later. Drivers developed with the DDK will implement the necessary interfaces to DRM. For more information, see https://microsoft.com/hwdev/audio/DRM.htm.
+The audio stack in certain Microsoft products supports DRM by implementing the usage rules that govern playback of the audio content. To play the protected content, the underlying audio driver must be a *trusted driver*; that is, the driver must be logo-certified for DRMLevel 1300. For information about developing trusted drivers, you can use interfaces that are defined in the Windows 2000 Driver Development Kit ("DDK") or later. Drivers developed with the DDK will implement the necessary interfaces to DRM. For more information, see [Digital Rights Management](https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management).
 
 To render the protected content, the trusted driver must check whether **Copy Protection** and **Digital Output Disable** are set on the content flowing through the audio stack, and respond to the settings accordingly.
 
