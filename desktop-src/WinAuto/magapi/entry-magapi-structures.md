@@ -14,9 +14,9 @@ This section contains reference information about the Magnification API structur
 
 | Topic | Description |
 |:---|:---|
-| [**MAGCOLOREFFECT**](/windows/win32/api/Magnification/ns-magnification-tagmagcoloreffect)<br/>  | Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.<br/> |
-| [***MAGIMAGEHEADER***](/windows/win32/api/Magnification/ns-magnification-tagmagimageheader)<br/> | **Deprecated in Windows 7 and later**<br/>Describes an image format. |
-| [**MAGTRANSFORM**](/windows/win32/api/Magnification/ns-magnification-tagmagtransform)<br/> | Describes a transformation matrix that a magnifier control uses to magnify screen content.<br/> |
+| [**MAGCOLOREFFECT**](/windows/win32/api/Magnification/ns-magnificationmagcoloreffect)<br/>  | Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.<br/> |
+| [***MAGIMAGEHEADER***](/windows/win32/api/Magnification/ns-magnificationmagimageheader)<br/> | **Deprecated in Windows 7 and later**<br/>Describes an image format. |
+| [**MAGTRANSFORM**](/windows/win32/api/Magnification/ns-magnificationmagtransform)<br/> | Describes a transformation matrix that a magnifier control uses to magnify screen content.<br/> |
 
 ## Related topics
 
