@@ -30,10 +30,14 @@ The debug layer provides extensive additional parameter and consistency validati
 
 To create a device that supports the debug layer, you must install the DirectX SDK (to get D3D11SDKLayers.dll), and then specify the **D3D11\_CREATE\_DEVICE\_DEBUG** flag when calling the [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) function or the [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) function. If you run your application with the debug layer enabled, the application will be substantially slower. But, to ensure that your application is clean of errors and warnings before you ship it, use the debug layer. For more info, see [Using the debug layer to debug apps](using-the-debug-layer-to-test-apps.md).
 
-> [!Note]  
-> For Windows 8, to create a device that supports the debug layer, install the Windows Software Development Kit (SDK) for Windows 8 to get D3D11\_1SDKLayers.dll.
 
- 
+> [!Note]  
+> For Windows 7 with Platform Update for Windows 7 (KB2670838) or Windows 8.x, to create a device that supports the debug layer, install the Windows Software Development Kit (SDK) for Windows 8.x to get D3D11\_1SDKLayers.dll.
+
+
+> [!Note]  
+> For Windows 10, to create a device that supports the debug layer, enable the "Graphics Tools" optional feature. Go to the Settings panel, under System, Apps & features, Manage optional Features, Add a feature, and then look for "Graphics Tools".
+
 
 > [!Note]  
 > For info about how to debug DirectX apps remotely, see [Debugging DirectX apps remotely](https://docs.microsoft.com/windows/desktop/direct3dtools/debugging-directx-apps-remotely).
