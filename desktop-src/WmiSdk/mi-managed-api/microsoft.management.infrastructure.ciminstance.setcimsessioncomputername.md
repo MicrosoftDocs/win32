@@ -28,7 +28,7 @@ ms.topic: reference
 
 Sets the name of the computer used for the CIM session.
 
-**Namespace:**   [Microsoft.Management.Infrastructure](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958\(v=vs.85\))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
