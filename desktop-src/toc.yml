@@ -201,6 +201,8 @@
           href: devices.md
         - name: "Communications Resources"
           href: devio/communications-resources.md
+        - name: "Device access"
+          href: deviceaccess/device-access-broker-api-portal.md
         - name: "Location API"
           href: locationapi/windows-location-api-portal.md
         - name: "Sensor API"
