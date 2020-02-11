@@ -63,7 +63,7 @@ JScript:
         var objShell = new ActiveXObject("shell.application");
         var objShellWindows;
         
-        objShellWindows = objshell.Shell_Windows();
+        objShellWindows = objshell.Windows();
         if (objShellWindows != null)
         {
             var objIE;
@@ -90,14 +90,14 @@ VBScript:
         dim objShellWindows
         
         set objShell = CreateObject("shell.application")
-        set objShellWindows = objshell.Shell_Windows
+        set objShellWindows = objshell.Windows()
 
         if (not objShellWindows is nothing) then
             dim objIE
             set objIE = objShellWindows.Item
 
             if (not objIE is nothing) then
-                alert(objIE.path)
+                Wscript.Echo objIE.path
             end if
 
             set objIE = nothing
@@ -120,7 +120,7 @@ Private Sub fnShellWindowsItemVB()
     Dim objShellWindows As ShellWindows
     
     Set objShell = New Shell
-    Set objShellWindows = objshell.Shell_Windows
+    Set objShellWindows = objshell.Windows()
 
     If (Not objShellWindows Is Nothing) Then
         Dim objIE As InternetExplorer
