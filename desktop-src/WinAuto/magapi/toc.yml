@@ -60,8 +60,8 @@
       - name: "MAGCOLOREFFECT"
         href: /windows/win32/api/magnification/ns-magnification-magcoloreffect
       - name: "MAGIMAGEHEADER"
-        href: /windows/win32/api/Magnification/ns-magnification-magimageheader
+        href: /windows/win32/api/magnification/ns-magnification-magimageheader
       - name: "MAGTRANSFORM"
-        href: /windows/win32/api/Magnification/ns-magnification-magtransform
+        href: /windows/win32/api/magnification/ns-magnification-magtransform
   - name: "Samples"
     href: magapi-samples-entry.md
