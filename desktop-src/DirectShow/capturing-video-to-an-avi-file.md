@@ -94,7 +94,7 @@ Specify the encoder filter as the fourth parameter to RenderStream, shown in bol
 IBaseFilter *pEncoder;
 /* Create the encoder filter (not shown). */
 // Add it to the filter graph.
-pGraph->AddFilter(pEncoder, L"Encoder);
+pGraph->AddFilter(pEncoder, L"Encoder");
 
 /* Call SetOutputFileName as shown previously. */
 
