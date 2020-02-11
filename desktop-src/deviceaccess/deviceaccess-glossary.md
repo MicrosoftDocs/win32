@@ -37,6 +37,6 @@ A component that provides access to a resource that isn't granted by default.
 **Privileged App**
 </dt> <dd>
 
-An app that's identified in a particular device's metadata as associated with that device, so that it can communicate with the device driver's restricted interface. An example of such an app might be a proprietary music playback app that has exclusive permission to sync with a portable music player, when apps from competitors can't. For more information about how to set a device's metadata or how to restrict a driver to privileged apps, see [Device Experience for Specialized Devices](http://go.microsoft.com/fwlink/p/?linkid=242009).
+An app that's identified in a particular device's metadata as associated with that device, so that it can communicate with the device driver's restricted interface. An example of such an app might be a proprietary music playback app that has exclusive permission to sync with a portable music player, when apps from competitors can't. For more information about how to set a device's metadata or how to restrict a driver to privileged apps, see [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices).
 
 </dd> </dl>
