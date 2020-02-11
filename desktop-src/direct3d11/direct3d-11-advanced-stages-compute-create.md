@@ -52,7 +52,7 @@ The following code example shows how to compile and create a compute shader.
  
 
 
-```C++
+```cpp
 #define _WIN32_WINNT 0x600
 #include <stdio.h>
 
@@ -263,18 +263,6 @@ void CSMain( uint3 DTid : SV_DispatchThreadID )
 
 ## Related topics
 
-<dl> <dt>
-
-[Compute Shader Overview](direct3d-11-advanced-stages-compute-shader.md)
-</dt> <dt>
-
-[How to Use Direct3D 11](how-to-use-direct3d-11.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Compute Shader Overview](direct3d-11-advanced-stages-compute-shader.md)
+* [How to Use Direct3D 11](how-to-use-direct3d-11.md)
+* [BasicCompute11 sample application](https://github.com/walbourn/directx-sdk-samples/tree/master/BasicCompute11)

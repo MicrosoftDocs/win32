@@ -48,7 +48,7 @@ The arctangent of (y,x).
 
 ## Remarks
 
-The signs of the *x* and *y* parameters are used to determine the quadrant of the return values within the range of -? to ?. The **atan2** HLSL intrinsic function is well-defined for every point other than the origin, even if *y* equals 0 and *x* does not equal 0.
+The signs of the *x* and *y* parameters are used to determine the quadrant of the return values within the range of -π to π. The **atan2** HLSL intrinsic function is well-defined for every point other than the origin, even if *y* equals 0 and *x* does not equal 0.
 
 ## Type Description
 

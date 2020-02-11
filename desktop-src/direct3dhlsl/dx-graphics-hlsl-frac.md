@@ -19,7 +19,7 @@ api_location:
 
 Returns the fractional (or decimal) part of x; which is greater than or equal to 0 and less than 1.
 
-
+Also see [trunc](/windows/win32/direct3dhlsl/dx-graphics-hlsl-trunc).
 
 | *ret* frac(*x*) |
 |-----------------|

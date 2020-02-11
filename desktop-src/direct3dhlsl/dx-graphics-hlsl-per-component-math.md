@@ -420,7 +420,7 @@ float4 v = a*b;
 v.x = a.x*b.x;
 v.y = a.y*b.y;
 v.z = a.z*b.z;
-v.w = a.w*a.w;
+v.w = a.w*b.w;
 ```
 
 

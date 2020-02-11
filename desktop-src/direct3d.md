@@ -10,6 +10,8 @@ ms.date: 02/07/2020
 
 Direct3D is a low-level API for drawing primitives with the rendering pipeline, or for performing parallel operations with the compute shader. See the content below for more information.
 
+For info about obtaining and installing Direct3D, see [Direct3D 12 programming environment setup](/windows/win32/direct3d12/directx-12-programming-environment-set-up).
+
 ## In this section
 
 | Topic | Description |

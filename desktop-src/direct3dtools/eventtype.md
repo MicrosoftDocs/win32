@@ -17,7 +17,6 @@ api_location:
 topic_type: 
  - APIRef
  - kbSyntax
-
 ---
 
 # <span id="vspixengine.eventtype"></span>EVENTTYPE enumeration
@@ -26,8 +25,25 @@ An enum used to indicate the type of an event.
 
 ## Syntax
 
-
-```C++
+```cpp
+C++ 
+enum EVENTTYPE {
+  ET_NONE = 0, 
+  ET_SESSIONSTART, 
+  ET_SESSIONEND, 
+  ET_PROCESSSTART, 
+  ET_PROCESSEND, 
+  ET_FRAMEBEGIN, 
+  ET_FRAMEEND, 
+  ET_USEREVENTBEGIN, 
+  ET_USEREVENTEND, 
+  ET_USERMARKER, 
+  ET_CALL, 
+  ET_OBJECTCREATION, 
+  ET_OBJECTPOPULATION, 
+  ET_CALLSYNC, 
+  ET_DRAW, 
+  ET_DISPATCH 
 };
 ```
 
@@ -83,10 +99,3 @@ A value that corresponds to a dispatch event.
 ## Requirements
 
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
-
- 
-
- 
-
-
-
