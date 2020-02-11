@@ -50,7 +50,6 @@ Application manifests have the following elements and attributes.
 | **magicFutureSetting**                |                           | No       |
 | **printerDriverIsolation**            |                           | No       |
 | **ultraHighResolutionScrollingAware** |                           | No       |
-| **heapType**                          |                           | No       |
 
 
 
@@ -363,26 +362,6 @@ Specifies whether printer driver isolation is enabled. **TRUE** indicates that i
 ### ultraHighResolutionScrollingAware
 
 Specifies whether ultra-high-resolution-scrolling aware is enabled. **TRUE** indicates that it is enabled. It has no attributes.
-
-### heapType
-
-Overrides the default heap implementation for the [Win32 heap APIs](../Memory/heap-functions.md) to use. 
-* The value **SegmentHeap** indicates that segment heap will be used. Segment heap is a modern heap implementation that will generally reduce your overall memory usage. This element is supported in Windows 10 Insider Preview build 19027 and later.
-* All other values are ignored
-
-This element has no attributes.
-
-```XML
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
- ...
-  <asmv3:application>
-    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">
-      <heapType>SegmentHeap</heapType>
-    </asmv3:windowsSettings>
-  </asmv3:application>
- ...
-</assembly>
-```
 
 ## Example
 
