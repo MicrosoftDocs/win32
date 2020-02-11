@@ -25,7 +25,7 @@ Describes the installation, tools and supported libraries that make up a product
 
 The Direct3D 12 headers and libraries are part of the Windows 10 SDK. There is no separate download or installation required to use Direct3D 12.
 
-After you install the Windows 10 SDK software, and Visual Studio 2015, the setup of your Direct3D 12 programming environment is complete. Visual Studio 2015 is recommended, as it will include the D3D12 graphics debugging tools, but earlier versions of Visual Studio will work for program development.
+After you install the Windows 10 SDK software, and Visual Studio, the setup of your Direct3D 12 programming environment is complete. Visual Studio 2019 is recommended, as it will include the D3D12 graphics debugging tools, but earlier versions of Visual Studio will work for program development.
 
 To use the [Direct3D 12 API](direct3d-12-reference.md), include D3d12.h and link to D3d12.lib, or query the entry points directly in D3d12.dll.
 
@@ -35,23 +35,13 @@ The following headers and libraries are available. The location of the static li
 
 | Header or library file name | Description                         | Install location      |
 |-----------------------------|-------------------------------------|-----------------------|
-| D3d12.h                     | Direct3D 12 API header              | %DXSDK\_DIR%\\Include |
-| D3d12.lib                   | Static Direct3D 12 API stub library | %DXSDK\_DIR%\\Lib     |
+| D3d12.h                     | Direct3D 12 API header              | %WindowsSdkDir\\Include\%WindowsSDKVersion%\\\um |
+| D3d12.lib                   | Static Direct3D 12 API stub library | %WindowsSdkDir\\Lib\%WindowsSDKVersion%\\\um\arch |
 | D3d12.dll                   | Dynamic Direct3D 12 API library     | %WINDIR%\\System32    |
-| D3d12SDKLayers.h            | Direct3D 12 debug header            | %DXSDK\_DIR%\\Include |
+| D3d12SDKLayers.h            | Direct3D 12 debug header            | %WindowsSdkDir\\Include\%WindowsSDKVersion%\\\um |
 | D3d12SDKLayers.dll          | Dynamic Direct3D 12 debug library   | %WINDIR%\\System32    |
 
 
-
- 
-
-To include a header file correctly, use a statement similar to the following:
-
-`#include <%DXSDK_DIR%Include\d3d12.h>`
-
-To determine the absolute location of %DXSDK\_DIR% on your development computer, in a command window type:
-
-`set dx`
 
 ## Supported languages
 
@@ -97,6 +87,9 @@ For walk-throughs on how to add code to enable particular features, refer to [D3
 ## Debug layer
 
 The debug layer provides extensive additional parameter and consistency validation (such as validating shader linkage and resource binding, validating parameter consistency, and reporting error descriptions).
+
+> [!Note]  
+> For Windows 10, to create a device that supports the debug layer, enable the "Graphics Tools" optional feature. Go to the Settings panel, under System, Apps & features, Manage optional Features, Add a feature, and then look for "Graphics Tools".
 
 The header required to support the debugging layer, D3D12SDKLayers.h, is included by default from d3d12.h.
 
