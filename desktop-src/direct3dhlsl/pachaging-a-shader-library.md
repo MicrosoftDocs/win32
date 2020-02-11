@@ -22,10 +22,9 @@ We assume that you are familiar with C++. You also need basic experience with gr
 
 ### 1. Compiling your shader code
 
-Compile your shader code with one of the compile functions. For example, the [HLSL shader compiler sample](https://go.microsoft.com/fwlink/?LinkId=321937) uses [**D3DCompile**](d3dcompile.md):
+Compile your shader code with one of the compile functions. For example, this code snippet uses [**D3DCompile**](d3dcompile.md).
 
-
-```C++
+```cpp
     string source;
  
     ComPtr<ID3DBlob> codeBlob;
@@ -44,8 +43,6 @@ Compile your shader code with one of the compile functions. For example, the [HL
         &errorBlob
         );
 ```
-
-
 
 The source string contains the uncompiled ASCII HLSL code.
 
@@ -85,7 +82,7 @@ Call the bind methods of [**ID3D11ModuleInstance**](https://docs.microsoft.com/w
 
 
 
-This HLSL code from the [HLSL shader compiler sample](https://go.microsoft.com/fwlink/?LinkId=321937) shows that the source library uses the same slots (t0, s0, b0, b1, and b2) as the slots used in the preceding bind methods of [**ID3D11ModuleInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance).
+This HLSL code shows that the source library uses the same slots (t0, s0, b0, b1, and b2) as the slots used in the preceding bind methods of [**ID3D11ModuleInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance).
 
 ``` syntax
 // This is the default code in the fixed header section.

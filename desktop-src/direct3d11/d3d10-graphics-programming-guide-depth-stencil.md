@@ -197,8 +197,6 @@ In the first render pass the depth buffer is bound as described in the [Bind Dep
 
 In the second render pass the [**ID3D11DeviceContext::OMSetRenderTargets**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets) function is used to set the depth-stencil view to **NULL** or a different depth-stencil resource and the shader resource view is passed to the shader using [**ID3D11EffectShaderResourceVariable::SetResource**](id3dx11effectshaderresourcevariable-setresource.md). This allows the shader to look up the depth values calculated in the first rendering pass. Note that a transformation will need to be applied to retrieve depth values if the point of view of the first render pass is different from the second render pass. For example, if a shadow mapping technique is being used the first render pass will be from the perspective of a light source while the second render pass will from the viewer's perspective.
 
-An example of reading the depth-stencil buffer as a texture can be found in the [softparticles sample](https://msdn.microsoft.com/library/Ee416430(v=VS.85).aspx).
-
 ## Related topics
 
 <dl> <dt>

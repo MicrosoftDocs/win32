@@ -1,5 +1,5 @@
 ---
-title: Direct3D 12 Raytracing HLSL System Value Intrinsics
+title: Direct3D 12 raytracing HLSL system value intrinsics
 description: The following HLSL shaders support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
 ms.localizationpriority: low
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct3D 12 Raytracing HLSL System Value Intrinsics
+# Direct3D 12 raytracing HLSL system value intrinsics
 
 System values are retrieved by using special intrinsic functions, rather than including parameters with special semantics in your shader function signature. 
 
@@ -15,55 +15,41 @@ System values are retrieved by using special intrinsic functions, rather than in
 
 ### Ray dispatch system values
 
-| Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DispatchRaysIndex**](dispatchraysindex.md)<br/>                              | Gets the current x and y location within the width and height obtained with the **DispatchRaysDimensions** system value intrinsic.<br/>                                                                                                                                                                                                                                              |
-| [**DispatchRaysDimensions**](dispatchraysdimensions.md)<br/>                              | The width, height and depth values from the **D3D12\_DISPATCH\_RAYS\_DESC** structure specified in the originating **DispatchRays** call.<br/>                                                                                                                                                                                                                                              |
+| Topic | Description |
+|-|-|
+| [**DispatchRaysIndex**](dispatchraysindex.md) | Gets the current x and y location within the width and height obtained with the **DispatchRaysDimensions** system value intrinsic. |
+| [**DispatchRaysDimensions**](dispatchraysdimensions.md) | The width, height and depth values from the **D3D12\_DISPATCH\_RAYS\_DESC** structure specified in the originating **DispatchRays** call. |
 
 ### Ray system values
 
-| Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WorldRayOrigin**](worldrayorigin.md)<br/>                              | The world-space direction for the current ray.<br/>                                                                                                                                                                                                                                              |
-| [**WorldRayDirection**](worldraydirection.md)<br/>                              | The world-space direction for the current ray.<br/>                                                                                                                                                                                                                                              |
-| [**RayTMin**](raytmin.md)<br/>                              | A float representing the current parametric starting point for the ray. <br/>                                                                                                                                                                                                                                              |
-| [**RayTCurrent**](raytcurrent.md)<br/>                              | An unsigned integer containing the current **ray_flag** flags. <br/>                                                                                                                                                                                                                                              |
-| [**RayFlags**](rayflags.md)<br/>                              | Invokes another shader from within a shader.<br/>                                                                                                                                                                                                                                              |
+| Topic | Description |
+|-|-|
+| [**WorldRayOrigin**](worldrayorigin.md) | The world-space direction for the current ray. |
+| [**WorldRayDirection**](worldraydirection.md) | The world-space direction for the current ray. |
+| [**RayTMin**](raytmin.md) | A float representing the current parametric starting point for the ray. |
+| [**RayTCurrent**](raytcurrent.md) | A float representing the current parametric ending point for the ray.  |
+| [**RayFlags**](rayflags.md) | An unsigned integer containing the current **ray_flag** flags. |
 
 ### Primitive/object space system values
 
-| Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InstanceIndex**](instanceindex.md)<br/>                              | The autogenerated index of the current instance in the top-level raytracing acceleration structure.<br/>                                                                                                                                                                                                                                              |
-| [**InstanceID**](instanceid.md)<br/>                              | The user-provided identifier for the instance on the bottom-level acceleration structure instance within the top-level structure.<br/>                                                                                                                                                                                                                                              |
-| [**PrimitiveIndex**](primitiveindex.md)<br/>                              | The autogenerated index of the primitive within the geometry inside the bottom-level acceleration structure instance.<br/>                                                                                                                                                                                                                                              |
-| [**ObjectRayOrigin**](objectrayorigin.md)<br/>                              | The object-space origin for the current ray.<br/>                                                                                                                                                                                                                                              |
-| [**ObjectRayDirection**](objectraydirection.md)<br/>                              | The object-space direction for the current ray.<br/>                                                                                                                                                                                                                                              |
-| [**ObjectToWorld3x4**](objecttoworld3x4.md)<br/>                              | A matrix for transforming from object-space to world-space.<br/>                                                                                                                                                                                                                                              |
-| [**ObjectToWorld4x3**](objecttoworld4x3.md)<br/>                              | A matrix for transforming from object-space to world-space.<br/>                                                                                                                                                                                                                                              |
-| [**WorldToObject3x4**](worldtoobject3x4.md)<br/>                              | A matrix for transforming from world-space to object-space<br/>                                                                                                                                                                                                                                              |
-| [**WorldToObject4x3**](worldtoobject4x3.md)<br/>                              | A matrix for transforming from world-space to object-space<br/>                                                                                                                                                                                                                                              |
+| Topic | Description |
+|-|-|
+| [**InstanceIndex**](instanceindex.md) | The autogenerated index of the current instance in the top-level raytracing acceleration structure. |
+| [**InstanceID**](instanceid.md) | The user-provided identifier for the instance on the bottom-level acceleration structure instance within the top-level structure. |
+| [**PrimitiveIndex**](primitiveindex.md) | The autogenerated index of the primitive within the geometry inside the bottom-level acceleration structure instance. |
+| [**ObjectRayOrigin**](objectrayorigin.md) | The object-space origin for the current ray. |
+| [**ObjectRayDirection**](objectraydirection.md) | The object-space direction for the current ray. |
+| [**ObjectToWorld3x4**](objecttoworld3x4.md) | A matrix for transforming from object-space to world-space. |
+| [**ObjectToWorld4x3**](objecttoworld4x3.md) | A matrix for transforming from object-space to world-space. |
+| [**WorldToObject3x4**](worldtoobject3x4.md) | A matrix for transforming from world-space to object-space |
+| [**WorldToObject4x3**](worldtoobject4x3.md) | A matrix for transforming from world-space to object-space |
 ### Hit-specific system values
 
-| Topic                                                                                                       | Description                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**HitKind**](hitkind.md)<br/>                              | Returns the value passed as the **HitKind** parameter to [**ReportHit**](reporthit-function.md).<br/>                                                                                                                                                                                                                                              |
+| Topic | Description |
+|-|-|
+| [**HitKind**](hitkind.md) | Returns the value passed as the **HitKind** parameter to [**ReportHit**](reporthit-function.md). |
 
 ## Related topics
 
-<dl> <dt>
-
-[Core Reference](direct3d-12-core-reference.md)
-</dt> <dt>
-
-[Direct3D 12 Reference](direct3d-12-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [Core Reference](direct3d-12-core-reference.md)
+* [Direct3D 12 Reference](direct3d-12-reference.md)
