@@ -3,11 +3,11 @@ title: WaveActiveAllEqual function
 description: Returns true if the expression is the same for every active lane in the current wave (and thus uniform across it).
 ms.assetid: E0A051A8-0ADD-4EC7-8D9A-8820CED9DA9D
 keywords:
-- WaveAllBitAnd function HLSL
+- WaveActiveAllEqual function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllBitAnd
+- WaveActiveAllEqual
 api_type:
 - NA
 ms.topic: reference
@@ -23,7 +23,7 @@ Returns true if the expression is the same for every active lane in the current 
 
 
 ```C++
-bool WaveAllBitAnd(
+bool WaveActiveAllEqual(
    <type> expr
 );
 ```

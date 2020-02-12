@@ -3,11 +3,11 @@ title: WaveActiveMax function
 description: Returns the maximum value of the expression across all active lanes in the current wave and replicates it back to all active lanes.
 ms.assetid: 19101C56-2618-4F34-8725-DF92198ABDA4
 keywords:
-- WaveAllMax function HLSL
+- WaveActiveMax function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllMax
+- WaveActiveMax
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Returns the maximum value of the expression across all active lanes in the curre
 ## Syntax
 
 ``` syntax
-<type> WaveAllMax(
+<type> WaveActiveMax(
    <type> expr
 );
 ```
@@ -61,7 +61,7 @@ This function is supported from shader model 6.0, in the following types of shad
 ## Examples
 
 ``` syntax
- float3 maxPos = WaveAllMax( myPoint.position );
+ float3 maxPos = WaveActiveMax( myPoint.position );
     BoundingBox.max = max( maxPos, BoundingBox.max );
 ```
 

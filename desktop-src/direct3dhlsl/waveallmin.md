@@ -3,11 +3,11 @@ title: WaveActiveMin function
 description: Returns the minimum value of the expression across all active lanes in the current wave replicates it back to all active lanes.
 ms.assetid: BA762C02-894C-4AF9-A226-C1E3AAC286FF
 keywords:
-- WaveAllMin function HLSL
+- WaveActiveMin function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllMin
+- WaveActiveMin
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Returns the minimum value of the expression across all active lanes in the curre
 ## Syntax
 
 ``` syntax
-<type> WaveAllMin(
+<type> WaveActiveMin(
    <type> expr
 );
 ```
@@ -61,7 +61,7 @@ This function is supported from shader model 6.0, in the following types of shad
 ## Examples
 
 ``` syntax
- float3 minPos = WaveAllMin( myPoint.position );
+ float3 minPos = WaveActiveMin( myPoint.position );
     BoundingBox.min = min( minPos, BoundingBox.min );
 ```
 

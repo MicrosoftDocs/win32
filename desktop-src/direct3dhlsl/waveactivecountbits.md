@@ -3,11 +3,11 @@ title: WaveActiveCountBits function
 description: Counts the number of boolean variables which evaluate to true across all active lanes in the current wave, and replicates the result to all lanes in the wave.
 ms.assetid: 053E100C-7E09-4F9D-9F38-9D5E208A38CE
 keywords:
-- WaveAllBitAnd function HLSL
+- WaveActiveCountBits function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllBitAnd
+- WaveActiveCountBits
 api_type:
 - NA
 ms.topic: reference
@@ -23,7 +23,7 @@ Counts the number of boolean variables which evaluate to true across all active 
 
 
 ```C++
-uint WaveAllBitAnd(
+uint WaveActiveCountBits(
    bool bBit
 );
 ```
@@ -64,7 +64,7 @@ This function is supported from shader model 6.0, in the following types of shad
 This can be implemented more efficiently than a full WaveActiveSum, as described in the following example:
 
 ``` syntax
-result = WaveActiveCountBits( waveActiveBallot( bBit ) ); 
+result = WaveActiveCountBits( WaveActiveBallot( bBit ) );
 ```
 
 ## See also

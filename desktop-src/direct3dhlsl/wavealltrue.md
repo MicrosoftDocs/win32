@@ -3,11 +3,11 @@ title: WaveActiveAllTrue function
 description: Returns true if the expression is true in all active lanes in the current wave.
 ms.assetid: C4EC5A02-6070-4FF4-B855-F597FFFE66F0
 keywords:
-- WaveAllTrue function HLSL
+- WaveActiveAllTrue function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllTrue
+- WaveActiveAllTrue
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Returns true if the expression is true in all active lanes in the current wave.
 ## Syntax
 
 ``` syntax
-bool WaveAllTrue(
+bool WaveActiveAllTrue(
    bool expr
 );
 ```
