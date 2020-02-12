@@ -73,18 +73,18 @@ None.
 <tr class="odd">
 <td><a href="element-accessstring.md">AccessString</a></td>
 <td><p>Identifies the APN or dial string to be used to establish a data connection.</p>
-<p>For more information, see the documentation for the v1 <a href="../mbn/schema_accessstring_contexttype_element"><strong>AccessString</strong></a> element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema_accessstring_contexttype_element.md"><strong>AccessString</strong></a> element.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-authprotocol.md">AuthProtocol</a></td>
 <td><p>>Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.</p>
 <p>Note that in v4, a new enumeration value is available for this element. <strong>AutoSelection</strong> means that an auth protocol is to be picked by lower layer(s).</p>
-<p>For further information, see the documentation for the v1 <a href="../mbn/schema_authprotocol_contexttype_element"><strong>AuthProtocol</strong></a> element.</p></td>
+<p>For further information, see the documentation for the v1 <a href="../mbn/schema_authprotocol_contexttype_element.md"><strong>AuthProtocol</strong></a> element.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-compression.md">Compression</a></td>
 <td><p>Specifies whether compression will be used at the data link for header and data transfer.</p>
-<p>For more information, see the documentation for the v1 <a href="../mbn/schema_compression_contexttype_element"><strong>Compression</strong></a> element.</p></td>
+<p>For more information, see the documentation for the v1 <a href="../mbn/schema_compression_contexttype_element.md"><strong>Compression</strong></a> element.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-iptype.md">IPType</a></td>

@@ -300,23 +300,23 @@
       href: difxapi-h.md
       items: 
       - name: "DIFLOGCALLBACK"
-        href: diflogcallback.md
+        href: /windows/desktop/api/difxapi/diflogcallback
       - name: "DIFXAPILOGCALLBACK"
-        href: difxapilogcallback.md
+        href: /windows/desktop/api/difxapi/difxapilogcallback
       - name: "DIFXAPISetLogCallback"
-        href: difxapisetlogcallback.md
+        href: /windows/desktop/api/difxapi/difxapisetlogcallback
       - name: "DriverPackageGetPath"
-        href: driverpackagegetpath.md
+        href: /windows/desktop/api/difxapi/driverpackagegetpath
       - name: "DriverPackageInstall"
-        href: driverpackageinstall.md
+        href: /windows/desktop/api/difxapi/driverpackageinstall
       - name: "DriverPackagePreinstall"
-        href: driverpackagepreinstall.md
+        href: /windows/desktop/api/difxapi/driverpackagepreinstall
       - name: "DriverPackageUninstall"
-        href: driverpackageuninstall.md
+        href: /windows/desktop/api/difxapi/driverpackageuninstall
       - name: "INSTALLERINFO"
-        href: installerinfo.md
+        href: /windows/desktop/api/difxapi/installerinfo
       - name: "SetDifxLogCallback"
-        href: setdifxlogcallback.md
+        href: /windows/desktop/api/difxapi/setdifxlogcallback
     - name: "Newdev.h"
       href: newdev-h.md
       items: 

@@ -1,4 +1,4 @@
-ï»¿---
+---
 Description: 'Displays a dialog box that contains the signer information for a signed message.'
 ms.assetid: 'e4552cbb-90f4-46f4-a271-3a91ccd5f806'
 title: CryptUIDlgViewSignerInfo function
@@ -13,7 +13,7 @@ The **CryptUIDlgViewSignerInfo** function displays a dialog box that contains th
 > [!Note]  
 > This function is not declared in a published header file. To use this structure, declare it in the exact format shown.
 
-Â 
+ 
 
 ## Syntax
 
@@ -37,9 +37,9 @@ A pointer to a [**CRYPTUI\_VIEWSIGNERINFO\_STRUCT**](cryptui-viewsignerinfo-stru
 
 ## Return value
 
-This function returns a nonzero value on success and zero on failure. For extended error information, call the [**GetLastError**](base.getlasterror) function.
+This function returns a nonzero value on success and zero on failure. For extended error information, call the [**GetLastError**](base.getlasterror.md) function.
 
-Possible error codes returned from [**GetLastError**](base.getlasterror) include, but are not limited to, the following.
+Possible error codes returned from [**GetLastError**](base.getlasterror.md) include, but are not limited to, the following.
 
 
 
@@ -50,7 +50,7 @@ Possible error codes returned from [**GetLastError**](base.getlasterror) include
 
 
 
-Â 
+ 
 
 ## Requirements
 
@@ -58,9 +58,9 @@ Possible error codes returned from [**GetLastError**](base.getlasterror) include
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | WindowsÂ XP \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows ServerÂ 2003 \[desktop apps only\]<br/>                                        |
-| End of support<br/> | WindowsÂ 7 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                        |
+| End of support<br/> | Windows 7 \[desktop apps only\]<br/>                                                       |
 | Library<br/>                  | <dl> <dt>Cryptui.lib</dt> </dl>      |
 | DLL<br/>                      | <dl> <dt>Cryptui.dll</dt> </dl>      |
 | Unicode and ANSI names<br/>   | **CryptUIDlgViewSignerInfoW** (Unicode) and **CryptUIDlgViewSignerInfoA** (ANSI)<br/> |
@@ -74,9 +74,9 @@ Possible error codes returned from [**GetLastError**](base.getlasterror) include
 [**CRYPTUI\_VIEWSIGNERINFO\_STRUCT**](cryptui-viewsignerinfo-struct.md)
 </dt> </dl>
 
-Â 
+ 
 
-Â 
+ 
 
 
 
