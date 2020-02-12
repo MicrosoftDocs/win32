@@ -3,11 +3,11 @@ title: WaveActiveProduct function
 description: Multiplies the values of the expression together across all active lanes in the current wave and replicates it back to all active lanes.
 ms.assetid: B259244D-C993-4F4A-AF09-F077D99AD025
 keywords:
-- WaveAllProduct function HLSL
+- WaveActiveProduct function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllProduct
+- WaveActiveProduct
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Multiplies the values of the expression together across all active lanes in the 
 ## Syntax
 
 ``` syntax
-<type> WaveAllProduct(
+<type> WaveActiveProduct(
    <type> expr
 );
 ```

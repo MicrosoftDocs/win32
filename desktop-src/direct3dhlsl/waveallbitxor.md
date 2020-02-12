@@ -3,11 +3,11 @@ title: WaveActiveBitXor function
 description: Returns the bitwise XOR of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes.
 ms.assetid: A6807D17-1E6E-4997-AB52-32FAB5857219
 keywords:
-- WaveAllBitXor function HLSL
+- WaveActiveBitXor function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllBitXor
+- WaveActiveBitXor
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Returns the bitwise XOR of all the values of the expression across all active la
 ## Syntax
 
 ``` syntax
-<int_type> WaveAllBitXor(
+<int_type> WaveActiveBitXor(
    <int_type> expr
 );
 ```

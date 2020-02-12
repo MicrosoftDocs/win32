@@ -3,11 +3,11 @@ title: WavePrefixCountBits function
 description: Returns the sum of all the specified boolean variables set to true across all active lanes with indices smaller than the current lane.
 ms.assetid: AEC9AFD7-6478-4397-B531-73990D30AA48
 keywords:
-- WaveGetLaneIndex function HLSL
+- WavePrefixCountBits function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveGetLaneIndex
+- WavePrefixCountBits
 api_type:
 - NA
 ms.topic: reference
@@ -23,7 +23,7 @@ Returns the sum of all the specified boolean variables set to true across all ac
 
 
 ```C++
-uint WaveGetLaneIndex(
+uint WavePrefixCountBits(
    bool bBit
 );
 ```
@@ -74,9 +74,9 @@ if ( WaveIsFirstLane () )
 {
     // this way, we only issue one atomic for the entire wave, which reduces contention
     // and keeps the output data for each lane in this wave together in the output buffer
-    appendOffset = atomicAdd(bufferSize, appendCount);
+    InterlockedAdd(bufferSize, appendCount, appendOffset);
 }
-appendOffset = WaveReadFirstLane( appendOffset ); // broadcast value
+appendOffset = WaveReadLaneFirst( appendOffset ); // broadcast value
 appendOffset += laneAppendOffset; // and add in the offset for this lane
 buffer[appendOffset] = myData; // write to the offset location for this lane
 ```

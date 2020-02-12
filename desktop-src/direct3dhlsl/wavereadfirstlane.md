@@ -3,11 +3,11 @@ title: WaveReadLaneFirst function
 description: Returns the value of the expression for the active lane of the current wave with the smallest index.
 ms.assetid: 89CA4FD5-4573-42ED-88D3-01C79C69FF6F
 keywords:
-- WaveReadFirstLane function HLSL
+- WaveReadLaneFirst function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveReadFirstLane
+- WaveReadLaneFirst
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Returns the value of the expression for the active lane of the current wave with
 ## Syntax
 
 ``` syntax
-<type> WaveReadFirstLane(
+<type> WaveReadLaneFirst(
    <type> expr
 );
 ```
