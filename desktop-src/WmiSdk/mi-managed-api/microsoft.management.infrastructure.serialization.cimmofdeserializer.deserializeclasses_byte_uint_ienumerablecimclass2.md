@@ -94,14 +94,14 @@ Public Function DeserializeClasses (
 <!-- end list -->
 
   - onClassNeededCallback  
-    Type: [OnClassNeeded](microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded)
+    Type: [OnClassNeeded](microsoft.management.infrastructure.serialization.cimmofdeserializer.onclassneeded.md)
     
     A callback function used to provide a requested class object during deserialization.
 
 <!-- end list -->
 
   - getIncludedFileCallback  
-    Type: [GetIncludedFileContent](microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent)
+    Type: [GetIncludedFileContent](microsoft.management.infrastructure.serialization.cimmofdeserializer.getincludedfilecontent.md)
     
     A callback function used to provide the file buffer contents of a specified file.
 

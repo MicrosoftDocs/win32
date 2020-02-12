@@ -68,7 +68,7 @@ None.
 <tr class="odd">
 <td><a href="element-dataroamingpartners.md">DataRoamingPartners</a></td>
 <td><p>Specifies a list of preferred network providers when roaming.</p>
-<p>For details, see the documentation for the v1 <a href="../mbn/schema_dataroamingpartners_mbnprofile_element"><strong>DataRoamingPartners</strong></a> element.</p></td>
+<p>For details, see the documentation for the v1 <a href="../mbn/schema_dataroamingpartners_mbnprofile_element.md"><strong>DataRoamingPartners</strong></a> element.</p></td>
 </tr>
 </tbody>
 </table>
