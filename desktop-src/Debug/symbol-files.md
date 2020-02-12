@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Symbol Files
 
-Normally, debugging information is stored in a symbol file separate from the executable. The implementation of this debugging information has changed over the years, and the following documentation will provide guidance regarding these various implementations .
+Normally, debugging information is stored in a symbol file separate from the executable. The implementation of this debugging information has changed over the years, and the following documentation will provide guidance regarding these various implementations.
 
 ## PDB files
 
