@@ -2,7 +2,7 @@
 title: JET_RECSIZE.Add method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Add method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Add(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize.add(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize.add(v=EXCHG.10)
 ms:contentKeyID: 39509872
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: Instance constructor (String, String)
 TOCTitle: Instance constructor (String, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.#ctor(System.String,System.String)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instance.instance(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instance.instance(v=EXCHG.10)
 ms:contentKeyID: 55103267
 ms.date: 07/30/2014
 ms.topic: reference

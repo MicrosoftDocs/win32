@@ -2,7 +2,7 @@
 title: EsentCheckpointFileNotFoundException constructor 
 TOCTitle: 'EsentCheckpointFileNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointfilenotfoundexception.esentcheckpointfilenotfoundexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcheckpointfilenotfoundexception.esentcheckpointfilenotfoundexception(v=EXCHG.10)
 ms:contentKeyID: 55101277
 ms.date: 07/30/2014
 ms.topic: reference

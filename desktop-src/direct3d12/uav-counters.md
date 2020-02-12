@@ -1,34 +1,31 @@
 ---
 title: UAV Counters
-description: UAV counters can be used to associate a 32-bit atomic counter with an unordered-access-view (UAV).
+description: You can use unordered-access-view (UAV) counters to associate a 32-bit atomic counter with an unordered-access-view (UAV).
 ms.assetid: 0B77E238-E8CF-466B-9188-3DE96AF97F42
 ms.localizationpriority: high
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/10/2020
 ---
 
 # UAV Counters
+You can use unordered-access-view (UAV) counters to associate a 32-bit atomic counter with an unordered-access-view (UAV).
 
-UAV counters can be used to associate a 32-bit atomic counter with an unordered-access-view (UAV).
-
--   [Differences in UAV Counters from Direct3D 11 to Direct3D 12](#differences-in-uav-counters-from-direct3d-11-to-direct3d-12)
--   [Using UAV Counters](#using-uav-counters)
--   [Related topics](#related-topics)
-
-## Differences in UAV Counters from Direct3D 11 to Direct3D 12
-
-In Direct3D 12 apps use the same HLSL shader functions as Direct3D 11 to access the UAV counters:
+## Differences in UAV counters from Direct3D 11 to Direct3D 12
+Direct3D 12 apps and Direct3D 11 apps both use the same high-level shader language (HLSL) shader functions to access the UAV counters.
 
 -   **IncrementCounter**
 -   **DecrementCounter**
 -   **Append**
 -   **Consume**
 
-Outside of the shaders Direct3D 11 uses API methods to access the counters, in Direct3D 12 the 32-bit values are allocated by the app so the 32-bit values can be read and written to by the CPU or GPU just like any other Direct3D 12 resource.
+### Direct3D 12
+In Direct3D 12, the 32-bit values are allocated by the application, so the 32-bit values can be read and written by either the CPU or the GPU, just like any other Direct3D 12 resource.
 
-## Using UAV Counters
+### Direct3D 11
+Outside of the shaders, with Direct3D 11 you need to call API methods in order to access the counters (for example, [ID3D11DeviceContext::CopyStructureCount](/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-copystructurecount)).
 
-The app is responsible for allocating 32-bits of storage for UAV counters. This storage can be allocated in a different resource as the one that contains data accessible via the UAV.
+## Using UAV counters
+Your app is responsible for allocating 32-bits of storage for UAV counters. This storage can be allocated in a different resource as the one that contains data accessible via the UAV.
 
 Refer to [**CreateUnorderedAccessView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview), [**D3D12\_BUFFER\_UAV\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_buffer_uav_flags) and [**D3D12\_BUFFER\_UAV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_uav).
 
@@ -66,15 +63,4 @@ UAV counters are supported in all heap types (default, upload, readback).
 
 ## Related topics
 
-<dl> <dt>
-
-[Counters and Queries](counters-and-queries.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Counters and queries](counters-and-queries.md)

@@ -2,7 +2,7 @@
 title: JET_TABLEID
 TOCTitle: JET_TABLEID
 ms:assetid: 09705c32-97d8-460c-8b58-921497e29c13
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269182(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269182(v=EXCHG.10)
 ms:contentKeyID: 32765485
 ms.date: 04/11/2016
 ms.topic: reference

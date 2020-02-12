@@ -2,7 +2,7 @@
 title: JetExternalRestore Function
 TOCTitle: JetExternalRestore Function
 ms:assetid: c930689a-3ea6-4c5a-9318-76f519f23343
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294088(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294088(v=EXCHG.10)
 ms:contentKeyID: 32765703
 ms.date: 04/11/2016
 ms.topic: reference

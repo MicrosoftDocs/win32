@@ -2,7 +2,7 @@
 title: JET_SNPROG Structure
 TOCTitle: JET_SNPROG Structure
 ms:assetid: 8b4224e4-ad4d-440f-8915-8eb43b0885f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269328(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269328(v=EXCHG.10)
 ms:contentKeyID: 32765618
 ms.date: 04/11/2016
 ms.topic: reference

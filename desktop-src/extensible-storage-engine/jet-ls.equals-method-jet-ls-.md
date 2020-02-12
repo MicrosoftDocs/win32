@@ -2,7 +2,7 @@
 title: JET_LS.Equals method (JET_LS)
 TOCTitle: Equals method (JET_LS)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LS.Equals(Microsoft.Isam.Esent.Interop.JET_LS)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls.equals(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_ls.equals(v=EXCHG.10)
 ms:contentKeyID: 39510488
 ms.date: 07/30/2014
 ms.topic: reference

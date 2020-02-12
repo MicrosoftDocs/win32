@@ -37,7 +37,7 @@ There are several pairs of low-level functions for setting and retrieving an obj
 <td><ul>
 <li><a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Processes</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Threads</a></li>
-<li><a href="access-rights-for-access-token-objects">Access tokens</a></li>
+<li><a href="access-rights-for-access-token-objects.md">Access tokens</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File-mapping objects</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Semaphores</a></li>
 <li><a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Events</a></li>
@@ -79,7 +79,7 @@ There are several pairs of low-level functions for setting and retrieving an obj
 </tr>
 <tr class="even">
 <td><ul>
-<li><a href="acl-based-access-control">Private objects (objects private to the creating application)</a></li>
+<li><a href="acl-based-access-control.md">Private objects (objects private to the creating application)</a></li>
 </ul></td>
 <td>Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity"><strong>CreatePrivateObjectSecurity</strong></a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity"><strong>DestroyPrivateObjectSecurity</strong></a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity"><strong>GetPrivateObjectSecurity</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity"><strong>SetPrivateObjectSecurity</strong></a> functions.</td>
 </tr>

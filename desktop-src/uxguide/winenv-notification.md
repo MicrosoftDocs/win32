@@ -151,7 +151,7 @@ Notification area icons have several usage patterns:
 <li>The application is run for an extended period of time.</li>
 <li>The icon shows status.</li>
 <li>The icon can be a notification source.</li>
-<li>Doing so is optional and users must <a href="glossary">opt in</a>.</li>
+<li>Doing so is optional and users must <a href="glossary.md">opt in</a>.</li>
 </ul>
 If all these conditions apply, minimizing to an icon eliminates having two access points when only one is necessary. <br/> <strong>Note:</strong> This icon pattern is no longer recommended for Windows 7. Use regular taskbar buttons instead if your program has desktop presence.<br/> <img src="images/winenv-notification-image13.png" alt="Screen shot of Outlook and Messenger taskbar icons " /><br/> In this example from Windows 7, a regular taskbar button takes little space, but benefits from the Windows 7 taskbar button features, including Jump Lists, overlay icons, and rich thumbnails.<br/></td>
 </tr>

@@ -58,9 +58,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-purposegroupguid">PurposeGroupGuid</a></td>
+<td><a href="element-purposegroupguid.md">PurposeGroupGuid</a></td>
 <td><p>Represents one profile in a PurposeGroup of profiles.</p>
-<p>Profiles are specified by their <a href="simpletype-guidtype"><strong>guidType</strong></a> value.</p>
+<p>Profiles are specified by their <a href="simpletype-guidtype.md"><strong>guidType</strong></a> value.</p>
 <p>Four GUID values are defined, as listed in the following table.</p>
 <table>
 <thead>
@@ -110,9 +110,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-mbnprofileext">MBNProfileExt</a></td>
+<td><a href="element-mbnprofileext.md">MBNProfileExt</a></td>
 <td><p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p>
-<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
+<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
 </tr>
 </tbody>
 </table>

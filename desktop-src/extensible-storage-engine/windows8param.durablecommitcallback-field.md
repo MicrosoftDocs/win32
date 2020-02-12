@@ -2,7 +2,7 @@
 title: Windows8Param.DurableCommitCallback field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.DurableCommitCallback
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.durablecommitcallback(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8param.durablecommitcallback(v=EXCHG.10)
 ms:contentKeyID: 55104473
 ms.date: 07/30/2014
 ms.topic: reference

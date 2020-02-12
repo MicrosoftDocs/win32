@@ -67,15 +67,15 @@ The **MDM\_WindowsLicensing** class has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="mdm-windowslicensing-changeproductkeymethod"><strong>ChangeProductKeyMethod</strong></a></td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-changeproductkeymethod.md"><strong>ChangeProductKeyMethod</strong></a></td>
 <td style="text-align: left;">Installs a product key for Windows 10 desktop devices. Does not reboot.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="mdm-windowslicensing-checkapplicabilitymethod"><strong>CheckApplicabilityMethod</strong></a></td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-checkapplicabilitymethod.md"><strong>CheckApplicabilityMethod</strong></a></td>
 <td style="text-align: left;">Method to check if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithlicensemethod"><strong>UpgradeEditionWithLicenseMethod</strong></a></td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithlicensemethod.md"><strong>UpgradeEditionWithLicenseMethod</strong></a></td>
 <td style="text-align: left;">Provide a license for an edition upgrade of Windows 10 mobile devices.<br/>
 <blockquote>
 [!Note]<br />
@@ -93,7 +93,7 @@ The XML license file contents must be properly escaped (that is, it should not s
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod"><strong>UpgradeEditionWithProductKeyMethod</strong></a></td>
+<td style="text-align: left;"><a href="mdm-windowslicensing-upgradeeditionwithproductkeymethod.md"><strong>UpgradeEditionWithProductKeyMethod</strong></a></td>
 <td style="text-align: left;">Triggers the device to take the product key and upgrade the edition of the client.
 <blockquote>
 [!Note]<br />

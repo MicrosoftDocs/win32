@@ -2,7 +2,7 @@
 title: JET_OPENTEMPORARYTABLE.ToString method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.ToString
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.tostring(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.tostring(v=EXCHG.10)
 ms:contentKeyID: 55104224
 ms.date: 07/30/2014
 ms.topic: reference

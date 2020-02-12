@@ -2,7 +2,7 @@
 title: JET_RECSIZE.cNonTaggedColumns property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cNonTaggedColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cNonTaggedColumns
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_recsize.cnontaggedcolumns(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize.cnontaggedcolumns(v=EXCHG.10)
 ms:contentKeyID: 39511443
 ms.date: 07/30/2014
 ms.topic: reference

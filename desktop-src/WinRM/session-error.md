@@ -40,7 +40,7 @@ XML representation of error information.
 
 ## Examples
 
-The following VBScript code example shows a script that contains an error in the [*resource URI*](windows-remote-management-glossary.md). The correct resource URI is https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_QuotaSetting?VolumePath=c:\\.
+The following VBScript code example shows a script that contains an error in the [*resource URI*](windows-remote-management-glossary.md). The correct resource URI is http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_QuotaSetting?VolumePath=c:\\.
 
 
 ```VB
@@ -58,7 +58,7 @@ If objSession is Nothing Then
     WScript.Quit
 End If 
 
-strResourceUri = "https://schemas.microsoft.com/wbem/wsman/1/"_
+strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/"_
     & "wmi/root/cimv2/Win32_QuotaSetting"
 
 On Error Resume Next
@@ -105,13 +105,13 @@ Source      : Session
 HelpFile    :
 HelpContext : 0
 <f:WSManFault 
-xmlns:f="https://schemas.microsoft.com/wbem/wsman/1/wsmanfault" 
+xmlns:f="http://schemas.microsoft.com/wbem/wsman/1/wsmanfault" 
 Code="2150859002" Machine="Server1" xml:lang="en-US">
 <f:Message>
 <f:ProviderFault provider="WMIv1 plugin for Windows Remote Management " 
 path="%systemroot%\system32\WsmWmiPl.dll">
 <f:WSManFault 
-xmlns:f="https://schemas.microsoft.com/wbem/wsman/1/wsmanfault" 
+xmlns:f="http://schemas.microsoft.com/wbem/wsman/1/wsmanfault" 
 Code="2150859002" Machine="" xml:lang="en-US">
 <f:Message>The WinRM client cannot process the request. 
 The resource URI is not valid: it does not contain keys, but the 

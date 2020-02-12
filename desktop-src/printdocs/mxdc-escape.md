@@ -59,7 +59,7 @@ The size, in bytes, of the data pointed to by the *lpszInData* parameter.
 
 A pointer to a buffer containing the input data, which is always stored in one of the following structures.
 
-<dl> <dd><a href="mxdcescapeheader">**MxdcEscapeHeader**</a></dd> <dd><a href="mxdcprintticketescape">**MxdcPrintTicketEscape**</a></dd> <dd><a href="mxdcs0pagepassthroughescape">**MxdcS0PagePassthroughEscape**</a></dd> <dd><a href="mxdcs0pageresourceescape">**MxdcS0PageResourceEscape**</a></dd> </dl>
+<dl> <dd><a href="mxdcescapeheader.md">**MxdcEscapeHeader**</a></dd> <dd><a href="mxdcprintticketescape.md">**MxdcPrintTicketEscape**</a></dd> <dd><a href="mxdcs0pagepassthroughescape.md">**MxdcS0PagePassthroughEscape**</a></dd> <dd><a href="mxdcs0pageresourceescape.md">**MxdcS0PageResourceEscape**</a></dd> </dl>
 
 Each of these structures has an opcode member that specifies what the MXDC is supposed to do. See MxdcEscapeHeader for detailed remarks about these codes.
 
@@ -103,7 +103,7 @@ If the function succeeds, the return value is greater than zero. If the function
 
 This escape is supported by MXDC and XPSDrv, but not by GDI.
 
-To determine if the printer driver is the MXDC, call [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC, the **ExtEscape** will return the zero-terminated string, "https://schemas.microsoft.com/xps/2005/06". Be sure the buffer referenced by the *lpszOutData* parameter is large enough to hold this string.
+To determine if the printer driver is the MXDC, call [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC, the **ExtEscape** will return the zero-terminated string, "http://schemas.microsoft.com/xps/2005/06". Be sure the buffer referenced by the *lpszOutData* parameter is large enough to hold this string.
 
 To determine if the printer driver is the Windows in-box Microsoft XPS Document Writer driver, confirm that the printer driver is the MXDC, and then determine whether the name of the printer driver is "Microsoft XPS Document Writer".
 

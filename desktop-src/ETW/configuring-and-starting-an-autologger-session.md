@@ -96,7 +96,7 @@ The following table describes the values that you can define for each AutoLogger
 <li>2 = System timer</li>
 <li>3 = CPU cycle counter</li>
 </ul>
-For a description of each clock type, see the <strong>ClientContext</strong> member of <a href="wnode-header"><strong>WNODE_HEADER</strong></a>.<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
+For a description of each clock type, see the <strong>ClientContext</strong> member of <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>DisableRealtimePersistence</strong></td>
@@ -116,7 +116,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="even">
 <td><strong>FileMax</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>The maximum number of instances of the log file that ETW creates. If the log file specified in <strong>FileName</strong> exists, ETW appends the <strong>FileCounter</strong> value to the file name. For example, if the default log file name is used, the form is %SystemRoot%\System32\LogFiles\WMI\<sessionname>.etl.NNNN. <br/> The first time the computer is started, the file name is <sessionname>.etl.0001, the second time the file name is <sessionname>.etl.0002, and so on. If <strong>FileMax</strong> is 3, on the fourth restart of the computer, ETW resets the counter to 1 and overwrites <sessionname>.etl.0001, if it exists.<br/> The maximum number of instances of the log file that are supported is 16.<br/> Do not use this feature with the <a href="logging-mode-constants">EVENT_TRACE_FILE_MODE_NEWFILE</a> log file mode.<br/></td>
+<td>The maximum number of instances of the log file that ETW creates. If the log file specified in <strong>FileName</strong> exists, ETW appends the <strong>FileCounter</strong> value to the file name. For example, if the default log file name is used, the form is %SystemRoot%\System32\LogFiles\WMI\<sessionname>.etl.NNNN. <br/> The first time the computer is started, the file name is <sessionname>.etl.0001, the second time the file name is <sessionname>.etl.0002, and so on. If <strong>FileMax</strong> is 3, on the fourth restart of the computer, ETW resets the counter to 1 and overwrites <sessionname>.etl.0001, if it exists.<br/> The maximum number of instances of the log file that are supported is 16.<br/> Do not use this feature with the <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> log file mode.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FlushTimer</strong></td>
@@ -131,7 +131,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="odd">
 <td><strong>LogFileMode</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Specify one or more log modes. For possible values, see <a href="logging-mode-constants">Logging Mode Constants</a>. The default is <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>. Instead of writing to a log file, you can specify either <strong>EVENT_TRACE_BUFFERING_MODE</strong> or <strong>EVENT_TRACE_REAL_TIME_MODE</strong>.<br/> Specifying <strong>EVENT_TRACE_BUFFERING_MODE</strong> avoids the cost of flushing the contents of the session to disk when the file system becomes available. <br/> Note that using <strong>EVENT_TRACE_BUFFERING_MODE</strong> will cause the system to ignore the <strong>MaximumBuffers</strong> value, as the buffer size is instead the product of <strong>MinimumBuffers</strong> and <strong>BufferSize</strong>.<br/> AutoLogger sessions do not support the <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong> logging mode.<br/> If <strong>EVENT_TRACE_FILE_MODE_APPEND</strong> is specified, <strong>BufferSize</strong> must be explicitly provided and must be the same in both the logger and the file being appended.<br/></td>
+<td>Specify one or more log modes. For possible values, see <a href="logging-mode-constants.md">Logging Mode Constants</a>. The default is <strong>EVENT_TRACE_FILE_MODE_SEQUENTIAL</strong>. Instead of writing to a log file, you can specify either <strong>EVENT_TRACE_BUFFERING_MODE</strong> or <strong>EVENT_TRACE_REAL_TIME_MODE</strong>.<br/> Specifying <strong>EVENT_TRACE_BUFFERING_MODE</strong> avoids the cost of flushing the contents of the session to disk when the file system becomes available. <br/> Note that using <strong>EVENT_TRACE_BUFFERING_MODE</strong> will cause the system to ignore the <strong>MaximumBuffers</strong> value, as the buffer size is instead the product of <strong>MinimumBuffers</strong> and <strong>BufferSize</strong>.<br/> AutoLogger sessions do not support the <strong>EVENT_TRACE_FILE_MODE_NEWFILE</strong> logging mode.<br/> If <strong>EVENT_TRACE_FILE_MODE_APPEND</strong> is specified, <strong>BufferSize</strong> must be explicitly provided and must be the same in both the logger and the file being appended.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>MaxFileSize</strong></td>
@@ -191,12 +191,12 @@ The following table describes the values that you can define for each provider t
 <tr class="even">
 <td><strong>EnableFlags</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Provider-defined value that specifies the class of events for which the provider generates events. For details, see the <em>EnableFlags</em> parameter of the <a href="enabletrace"><strong>EnableTrace</strong></a> function. Specify this value name if the provider does not support <strong>MatchAnyKeyword</strong> or <strong>MatchAllKeyword</strong>.</td>
+<td>Provider-defined value that specifies the class of events for which the provider generates events. For details, see the <em>EnableFlags</em> parameter of the <a href="enabletrace.md"><strong>EnableTrace</strong></a> function. Specify this value name if the provider does not support <strong>MatchAnyKeyword</strong> or <strong>MatchAllKeyword</strong>.</td>
 </tr>
 <tr class="odd">
 <td><strong>EnableLevel</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Provider-defined value that specifies the level of detail included in the event. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that the provider generates. For a list of predefined levels, see the <em>level</em> parameter of the <a href="enabletraceex-func"><strong>EnableTraceEx</strong></a> function.</td>
+<td>Provider-defined value that specifies the level of detail included in the event. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that the provider generates. For a list of predefined levels, see the <em>level</em> parameter of the <a href="enabletraceex-func.md"><strong>EnableTraceEx</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td><strong>EnableProperty</strong></td>
@@ -207,22 +207,22 @@ The following table describes the values that you can define for each provider t
 <li><strong>EVENT_ENABLE_PROPERTY_TS_ID</strong> (0x00000002) = Include in the extended data the terminal session identifier.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_STACK_TRACE</strong> (0x00000004) = Include in the extended data a call stack trace for events written using <a href="/windows/desktop/api/Evntprov/nf-evntprov-eventwrite"><strong>EventWrite</strong></a>.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0</strong> (0x00000010) = Filters out all events that do not have a non-zero keyword specified.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to <a href="enabletraceex2"><strong>EnableTraceEx2</strong></a> should enable a <a href="provider-traits">Provider Group</a> rather than an individual Event Provider.</li>
+<li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to <a href="enabletraceex2.md"><strong>EnableTraceEx2</strong></a> should enable a <a href="provider-traits.md">Provider Group</a> rather than an individual Event Provider.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY</strong> (0x00000080) = Include the Process Start Key in the extended data.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_EVENT_KEY</strong> (0x00000100) = Include the Event Key in the extended data.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE</strong> (0x00000200) = Filters out all events that are either marked as an InPrivate event or come from a process that is marked as InPrivate.</li>
 </ul>
-For more information about these items, see the <strong>EnableProperty</strong> of the <a href="enable-trace-parameters"><strong>ENABLE_TRACE_PARAMETERS</strong></a> structure.<br/></td>
+For more information about these items, see the <strong>EnableProperty</strong> of the <a href="enable-trace-parameters.md"><strong>ENABLE_TRACE_PARAMETERS</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>MatchAnyKeyword</strong></td>
 <td><strong>REG_QWORD</strong></td>
-<td>Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. To specify that the provider write all events, set this value to zero. For an example, see the Remarks section of the <a href="enabletraceex-func"><strong>EnableTraceEx</strong></a> function.</td>
+<td>Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. To specify that the provider write all events, set this value to zero. For an example, see the Remarks section of the <a href="enabletraceex-func.md"><strong>EnableTraceEx</strong></a> function.</td>
 </tr>
 <tr class="even">
 <td><strong>MatchAllKeyword</strong></td>
 <td><strong>REG_QWORD</strong></td>
-<td>This bitmask is optional. This mask further restricts the category of events that you want the provider to write. If the event's keyword meets the <em>MatchAnyKeyword</em> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <em>MatchAnyKeyword</em> is zero. For an example, see the Remarks section of the <a href="enabletraceex-func"><strong>EnableTraceEx</strong></a> function.</td>
+<td>This bitmask is optional. This mask further restricts the category of events that you want the provider to write. If the event's keyword meets the <em>MatchAnyKeyword</em> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <em>MatchAnyKeyword</em> is zero. For an example, see the Remarks section of the <a href="enabletraceex-func.md"><strong>EnableTraceEx</strong></a> function.</td>
 </tr>
 </tbody>
 </table>

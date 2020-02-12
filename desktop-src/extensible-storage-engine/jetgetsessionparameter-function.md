@@ -2,7 +2,7 @@
 title: JetGetSessionParameter Function
 TOCTitle: JetGetSessionParameter Function
 ms:assetid: 36fbcc06-a72d-4bfb-976b-1b705487732a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ835039(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ835039(v=EXCHG.10)
 ms:contentKeyID: 49894661
 ms.date: 04/11/2016
 ms.topic: reference

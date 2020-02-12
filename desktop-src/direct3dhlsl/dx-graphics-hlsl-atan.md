@@ -42,7 +42,7 @@ Returns the arctangent of the specified value.
 
 ## Return Value
 
-The arctangent of the *x* parameter. This value is within the range of -?/2 to ?/2.
+The arctangent of the *x* parameter. This value is within the range of -π/2 to π/2.
 
 ## Type Description
 

@@ -2,7 +2,7 @@
 title: VistaApi.JetOpenTemporaryTable method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOpenTemporaryTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOpenTemporaryTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaapi.jetopentemporarytable(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaapi.jetopentemporarytable(v=EXCHG.10)
 ms:contentKeyID: 55104291
 ms.date: 07/30/2014
 ms.topic: reference

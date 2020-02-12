@@ -87,7 +87,7 @@ A library can have a unique set of properties, and locations in the library can 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<libraryDescription xmlns="https://schemas.microsoft.com/windows/2009/library">
+<libraryDescription xmlns="http://schemas.microsoft.com/windows/2009/library">
     <name>@shell32.dll,-34575</name>
     <ownerSID>S-1-5-21-379071477-2495173225-776587366-1000</ownerSID>
     <version>1</version>

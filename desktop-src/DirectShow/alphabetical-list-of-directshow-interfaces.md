@@ -49,7 +49,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Sends Certified Output Protection Protocol (COPP) messages to the graphics driver.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iamchannelinfo"><strong>IAMChannelInfo</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamchannelinfo"><strong>IAMChannelInfo</strong></a></td>
 <td>Gets and sets channel information for Windows Media Station (.nsc) files.</td>
 </tr>
 <tr class="even">
@@ -93,7 +93,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Controls the transport on a VTR or camcorder.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking"><strong>IAMExtendedSeeking</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking"><strong>IAMExtendedSeeking</strong></a></td>
 <td>Seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file.</td>
 </tr>
 <tr class="odd">
@@ -121,23 +121,23 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Sets and retrieves information about closed captions.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a></td>
 <td>Retrieves metadata from a stream.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetshowconfig"><strong>IAMNetShowConfig</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig"><strong>IAMNetShowConfig</strong></a></td>
 <td>Configures the legacy Windows Media Player 6.4 source filter.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetshowexprops"><strong>IAMNetShowExProps</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowexprops"><strong>IAMNetShowExProps</strong></a></td>
 <td>Configures the legacy Windows Media Player 6.4 source filter.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetshowpreroll"><strong>IAMNetShowPreroll</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowpreroll"><strong>IAMNetShowPreroll</strong></a></td>
 <td>Sets and retrieves the preroll settings for the legacy Windows Media Player 6.4 source filter.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetworkstatus"><strong>IAMNetworkStatus</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus"><strong>IAMNetworkStatus</strong></a></td>
 <td>Reports the quality of the network connection for the legacy Windows Media Player 6.4 source filter.</td>
 </tr>
 <tr class="even">
@@ -201,11 +201,11 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Displays a dialog box provided by a Video for Windows (VFW) codec.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>IAMVideoAccelerator</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator"><strong>IAMVideoAccelerator</strong></a></td>
 <td>Enables a video decoder filter to access DirectX Video Acceleration (DXVA) 1.0 functionality.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify"><strong>IAMVideoAcceleratorNotify</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify"><strong>IAMVideoAcceleratorNotify</strong></a></td>
 <td>Callback interface for DXVA 1.0.</td>
 </tr>
 <tr class="odd">
@@ -225,12 +225,12 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Adjusts the qualities of an incoming video signal.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Dshowasf/nn-dshowasf-iamwmbufferpass"><strong>IAMWMBufferPass</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpass"><strong>IAMWMBufferPass</strong></a></td>
 <td>Gets or sets properties on individual samples in an ASF stream.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Dshowasf/nn-dshowasf-iamwmbufferpasscallback"><strong>IAMWMBufferPassCallback</strong></a></td>
-<td>Callback interface used with the <a href="/windows/desktop/api/Dshowasf/nn-dshowasf-iamwmbufferpass"><strong>IAMWMBufferPass</strong></a> interface.</td>
+<td><a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpasscallback"><strong>IAMWMBufferPassCallback</strong></a></td>
+<td>Callback interface used with the <a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpass"><strong>IAMWMBufferPass</strong></a> interface.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder"><strong>IAMWstDecoder</strong></a></td>
@@ -257,7 +257,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Extends the <a href="/windows/desktop/api/Control/nn-control-ibasicvideo"><strong>IBasicVideo</strong></a> interface.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vidcap/nn-vidcap-icameracontrol"><strong>ICameraControl</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-icameracontrol"><strong>ICameraControl</strong></a></td>
 <td>Controls the camera settings on a capture device.</td>
 </tr>
 <tr class="even">
@@ -269,16 +269,16 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Configures an encoder or decoder.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter"><strong>IConfigAsfWriter</strong></a></td>
-<td>Configures the <a href="wm-asf-writer-filter">WM ASF Writer</a> filter.</td>
+<td><a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter"><strong>IConfigAsfWriter</strong></a></td>
+<td>Configures the <a href="wm-asf-writer-filter.md">WM ASF Writer</a> filter.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter2"><strong>IConfigAsfWriter2</strong></a></td>
-<td>Extends the <a href="/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter"><strong>IConfigAsfWriter</strong></a> interface.</td>
+<td><a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2"><strong>IConfigAsfWriter2</strong></a></td>
+<td>Extends the <a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter"><strong>IConfigAsfWriter</strong></a> interface.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>IConfigAviMux</strong></a></td>
-<td>Configures the <a href="avi-mux-filter">AVI Mux</a> filter.</td>
+<td>Configures the <a href="avi-mux-filter.md">AVI Mux</a> filter.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>IConfigInterleaving</strong></a></td>
@@ -306,14 +306,14 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo"><strong>IDirectDrawVideo</strong></a></td>
-<td>Queries the <a href="video-renderer-filter">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.</td>
+<td>Queries the <a href="video-renderer-filter.md">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>Provides access to DirectDraw surfaces allocated by the <a href="overlay-mixer-filter">Overlay Mixer</a> filter.</td>
+<td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
+<td>Provides access to DirectDraw surfaces allocated by the <a href="overlay-mixer-filter.md">Overlay Mixer</a> filter.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Amstream/nn-amstream-idirectdrawmediasampleallocator"><strong>IDirectDrawMediaSampleAllocator</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator"><strong>IDirectDrawMediaSampleAllocator</strong></a></td>
 <td>Allocates samples that contain DirectDraw surfaces.</td>
 </tr>
 <tr class="even">
@@ -321,11 +321,11 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Enables a plug-in distributor to be notified when the filter graph changes.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter"><strong>IDMOWrapperFilter</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter"><strong>IDMOWrapperFilter</strong></a></td>
 <td>Enables an application to use a DirectX Media Object (DMO) inside a filter graph.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-idshowplugin"><strong>IDShowPlugin</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/qnetwork/nn-qnetwork-idshowplugin"><strong>IDShowPlugin</strong></a></td>
 <td>Enables the Windows Media Source filter to communicate with the Windows Media Player 6.4 Plug-in for Netscape Navigator.</td>
 </tr>
 <tr class="odd">
@@ -350,11 +350,11 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvenc"><strong>IDVEnc</strong></a></td>
-<td>Sets and retrieves properties on the <a href="dv-video-encoder-filter">DV Video Encoder</a> filter.</td>
+<td>Sets and retrieves properties on the <a href="dv-video-encoder-filter.md">DV Video Encoder</a> filter.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvrgb219"><strong>IDVRGB219</strong></a></td>
-<td>Controls the dynamic range in the DV Video Encoder and <a href="dv-video-decoder-filter">DV Video Decoder</a> filters.</td>
+<td>Controls the dynamic range in the DV Video Encoder and <a href="dv-video-decoder-filter.md">DV Video Decoder</a> filters.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-idvsplitter"><strong>IDVSplitter</strong></a></td>
@@ -369,8 +369,8 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Enumerates a pin's preferred media types</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Bdaiface/nn-bdaiface-ienumpidmap"><strong>IEnumPIDMap</strong></a></td>
-<td>Enumerates the mappings of Packet IDs (PID) to output pins on the <a href="mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter.</td>
+<td><a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap"><strong>IEnumPIDMap</strong></a></td>
+<td>Enumerates the mappings of Packet IDs (PID) to output pins on the <a href="mpeg-2-demultiplexer.md">MPEG-2 Demultiplexer</a> filter.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ienumpins"><strong>IEnumPins</strong></a></td>
@@ -418,7 +418,7 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex"><strong>IFullScreenVideoEx</strong></a></td>
-<td>Exposed by the <a href="full-screen-renderer-filter">Full Screen Renderer</a> filter.</td>
+<td>Exposed by the <a href="full-screen-renderer-filter.md">Full Screen Renderer</a> filter.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-igetcapabilitieskey"><strong>IGetCapabilitiesKey</strong></a></td>
@@ -442,22 +442,22 @@ The following is an alphabetical list of DirectShow interfaces.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iipdvdec"><strong>IIPDVDec</strong></a></td>
-<td>Configures the <a href="dv-video-decoder-filter">DV Video Decoder</a> filter.</td>
+<td>Configures the <a href="dv-video-decoder-filter.md">DV Video Decoder</a> filter.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vidcap/nn-vidcap-iksnodecontrol"><strong>IKsNodeControl</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-iksnodecontrol"><strong>IKsNodeControl</strong></a></td>
 <td>Exposed by USB Video Class (UVC) extension units.</td>
 </tr>
 <tr class="odd">
-<td><a href="ikspin"><strong>IKsPin</strong></a></td>
+<td><a href="ikspin.md"><strong>IKsPin</strong></a></td>
 <td>Retrieves the mediums supported by a kernel-mode pin.</td>
 </tr>
 <tr class="even">
-<td><a href="ikspropertyset"><strong>IKsPropertySet</strong></a></td>
+<td><a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a></td>
 <td>Sets properties on a kernel-mode filter.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vidcap/nn-vidcap-ikstopologyinfo"><strong>IKsTopologyInfo</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo"><strong>IKsTopologyInfo</strong></a></td>
 <td>Enumerates the nodes in a stream class driver.</td>
 </tr>
 <tr class="even">
@@ -531,12 +531,12 @@ Deprecated.
 <td>Delivers media data to an input pin.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>
 <td>Exposed by the Overlay Mixer filter.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
-<td>Callback interface for the <a href="/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a> interface.</td>
+<td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
+<td>Callback interface for the <a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a> interface.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig"><strong>IMixerPinConfig</strong></a></td>
@@ -551,7 +551,7 @@ Deprecated.
 <td>Configures the MPEG-2 Demultiplexer filter.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap"><strong>IMPEG2PIDMap</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap"><strong>IMPEG2PIDMap</strong></a></td>
 <td>Associates an output pin on the MPEG-2 Demultiplexer filter with one or more packet IDs (PIDs).</td>
 </tr>
 <tr class="odd">
@@ -627,7 +627,7 @@ Deprecated.
 <td>Implements seeking for one-input filters.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vidcap/nn-vidcap-iselector"><strong>ISelector</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-iselector"><strong>ISelector</strong></a></td>
 <td>Selects source nodes in a stream class driver.</td>
 </tr>
 <tr class="even">
@@ -639,7 +639,7 @@ Deprecated.
 <td>Steps through a video stream.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vidcap/nn-vidcap-ivideoprocamp"><strong>IVideoProcAmp</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ivideoprocamp"><strong>IVideoProcAmp</strong></a></td>
 <td>Controls the image adjustment (ProcAmp) settings on a capture device.</td>
 </tr>
 <tr class="odd">
@@ -648,18 +648,18 @@ Deprecated.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivmraspectratiocontrol"><strong>IVMRAspectRatioControl</strong></a></td>
-<td>controls whether the <a href="video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) preserves the aspect ratio of the source video.</td>
+<td>controls whether the <a href="video-mixing-renderer-filter-7.md">Video Mixing Renderer Filter 7</a> (VMR-7) preserves the aspect ratio of the source video.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmraspectratiocontrol9"><strong>IVMRAspectRatioControl9</strong></a></td>
-<td>Controls whether the <a href="video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video</td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmraspectratiocontrol9"><strong>IVMRAspectRatioControl9</strong></a></td>
+<td>Controls whether the <a href="video-mixing-renderer-filter-9.md">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrdeinterlacecontrol"><strong>IVMRDeinterlaceControl</strong></a></td>
 <td>Supports hardware-accelerated deinterlacing using the VMR-7.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9"><strong>IVMRDeinterlaceControl9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrdeinterlacecontrol9"><strong>IVMRDeinterlaceControl9</strong></a></td>
 <td>Supports hardware-accelerated deinterlacing using the VMR-9.</td>
 </tr>
 <tr class="even">
@@ -667,7 +667,7 @@ Deprecated.
 <td>Configures the VMR-7.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9"><strong>IVMRFilterConfig9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9"><strong>IVMRFilterConfig9</strong></a></td>
 <td>Configures the VMR-9.</td>
 </tr>
 <tr class="even">
@@ -675,7 +675,7 @@ Deprecated.
 <td>Exposed by VMR-7 compositors.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrimagecompositor9"><strong>IVMRImageCompositor9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9"><strong>IVMRImageCompositor9</strong></a></td>
 <td>Exposed by VMR-9 compositors.</td>
 </tr>
 <tr class="even">
@@ -683,7 +683,7 @@ Deprecated.
 <td>Exposed by VMR-7 allocator-presenters.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrimagepresenter9"><strong>IVMRImagePresenter9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9"><strong>IVMRImagePresenter9</strong></a></td>
 <td>Exposed by VMR-9 allocator-presenters.</td>
 </tr>
 <tr class="even">
@@ -691,7 +691,7 @@ Deprecated.
 <td>Sets the renderering preferences on the image presenter used by the VMR-7.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrimagepresenterconfig9"><strong>IVMRImagePresenterConfig9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9"><strong>IVMRImagePresenterConfig9</strong></a></td>
 <td>Sets the renderering preferences on the image presenter used by the VMR-9.</td>
 </tr>
 <tr class="even">
@@ -703,7 +703,7 @@ Deprecated.
 <td>Blends a static image onto the video stream, when using the VMR-7.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixerbitmap9"><strong>IVMRMixerBitmap9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9"><strong>IVMRMixerBitmap9</strong></a></td>
 <td>Blends a static image onto the video stream, when using the VMR-9.</td>
 </tr>
 <tr class="odd">
@@ -711,7 +711,7 @@ Deprecated.
 <td>Manipulates the incoming video streams on the VMR-7.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9"><strong>IVMRMixerControl9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9"><strong>IVMRMixerControl9</strong></a></td>
 <td>Manipulates the incoming video streams on the VMR-9.</td>
 </tr>
 <tr class="odd">
@@ -719,7 +719,7 @@ Deprecated.
 <td>Controls monitor usage by the VMR-7.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrmonitorconfig9"><strong>IVMRMonitorConfig9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9"><strong>IVMRMonitorConfig9</strong></a></td>
 <td>Controls monitor usage by the VMR-9.</td>
 </tr>
 <tr class="odd">
@@ -727,7 +727,7 @@ Deprecated.
 <td>Exposed by media samples from the VMR-7.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurface9"><strong>IVMRSurface9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurface9"><strong>IVMRSurface9</strong></a></td>
 <td>Exposed by media samples from the VMR-9.</td>
 </tr>
 <tr class="odd">
@@ -735,19 +735,19 @@ Deprecated.
 <td>Allocates the DirectDraw surfaces used by the VMR-7 allocator-presenter.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocator9"><strong>IVMRSurfaceAllocator9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9"><strong>IVMRSurfaceAllocator9</strong></a></td>
 <td>Allocates the Direct3D surfaces used by the VMR-9 allocator-presenter.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocatorex9"><strong>IVMRSurfaceAllocatorEx9</strong></a></td>
-<td>Extends the <a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocator9"><strong>IVMRSurfaceAllocator9</strong></a> interface.</td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatorex9"><strong>IVMRSurfaceAllocatorEx9</strong></a></td>
+<td>Extends the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9"><strong>IVMRSurfaceAllocator9</strong></a> interface.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-ivmrsurfaceallocatornotify"><strong>IVMRSurfaceAllocatorNotify</strong></a></td>
 <td>Enables the allocator-presenter to notify the VMR-7.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocatornotify9"><strong>IVMRSurfaceAllocatorNotify9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9"><strong>IVMRSurfaceAllocatorNotify9</strong></a></td>
 <td>Enables the allocator-presenter to notify the VMR-9.</td>
 </tr>
 <tr class="even">
@@ -755,7 +755,7 @@ Deprecated.
 <td>Controls input pins on the VMR-7.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrvideostreamcontrol9"><strong>IVMRVideoStreamControl9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrvideostreamcontrol9"><strong>IVMRVideoStreamControl9</strong></a></td>
 <td>Controls input pins on the VMR-9.</td>
 </tr>
 <tr class="even">
@@ -763,19 +763,19 @@ Deprecated.
 <td>Controls how the VMR-7 renders a video stream.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9"><strong>IVMRWindowlessControl9</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9"><strong>IVMRWindowlessControl9</strong></a></td>
 <td>Controls how the VMR-9 renders a video stream.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vpconfig/nn-vpconfig-ivpbaseconfig"><strong>IVPBaseConfig</strong></a></td>
-<td>Base interface for the <a href="/windows/desktop/api/Vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a> interface.</td>
+<td><a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig"><strong>IVPBaseConfig</strong></a></td>
+<td>Base interface for the <a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a> interface.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpbasenotify"><strong>IVPBaseNotify</strong></a></td>
 <td>Base interface for the <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a></td>
 <td>Enables a video port to communicate with the Overlay Mixer filter.</td>
 </tr>
 <tr class="odd">

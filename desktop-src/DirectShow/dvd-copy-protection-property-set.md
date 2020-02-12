@@ -43,7 +43,7 @@ The following information presents the necessary constants and data types to use
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="am-property-copy-analog-component-property"><strong>AM_PROPERTY_COPY_ANALOG_COMPONENT</strong></a></td>
+<td><a href="am-property-copy-analog-component-property.md"><strong>AM_PROPERTY_COPY_ANALOG_COMPONENT</strong></a></td>
 <td>Queries whether the video output is standard-definition, analog component video.</td>
 </tr>
 <tr class="even">

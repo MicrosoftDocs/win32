@@ -2,7 +2,7 @@
 title: Transactions (Windows Events)
 TOCTitle: Transactions
 ms:assetid: 1ceb362c-1efe-439b-b10a-016c8a54f27b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269197(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269197(v=EXCHG.10)
 ms:contentKeyID: 32765500
 ms.date: 04/11/2016
 ms.topic: article

@@ -2,7 +2,7 @@
 title: JET_COLUMNCREATE Structure
 TOCTitle: JET_COLUMNCREATE Structure
 ms:assetid: 553263a9-7d2c-4bd7-ad77-1dfb6d21ef2c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269252(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269252(v=EXCHG.10)
 ms:contentKeyID: 32765554
 ms.date: 04/11/2016
 ms.topic: reference

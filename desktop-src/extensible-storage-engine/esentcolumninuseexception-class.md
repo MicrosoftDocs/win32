@@ -2,7 +2,7 @@
 title: EsentColumnInUseException class
 TOCTitle: EsentColumnInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnInUseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcolumninuseexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcolumninuseexception(v=EXCHG.10)
 ms:contentKeyID: 55101255
 ms.date: 07/30/2014
 ms.topic: reference

@@ -1,6 +1,311 @@
 {
   "redirections": [
       {
+            "source_path": "desktop-src/etw/event-tracing-functions.md",
+            "redirect_url": "/windows/desktop/api/_etw/#functions",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-tracing-interfaces.md",
+            "redirect_url": "/windows/desktop/api/_etw/#interfaces",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-tracing-structures.md",
+            "redirect_url": "/windows/desktop/api/_etw/#structures",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-tracing-enumerations.md",
+            "redirect_url": "/windows/desktop/api/_etw/#enumerations",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/buffercallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nc-evntrace-pevent_trace_buffer_callbacka",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/closetrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-closetrace",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/controlcallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nc-evntrace-wmidprequest",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/controltrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-controltracea",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/createtraceinstanceid.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-createtraceinstanceid",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enabletrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-enabletrace",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enabletraceex-func.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-enabletraceex",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enabletraceex2.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-enabletraceex2",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enumeratetraceguids.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-enumeratetraceguids",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enumeratetraceguidsex.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-enumeratetraceguidsex",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/eventcallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nc-evntrace-pevent_callback",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/eventclasscallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nc-evntrace-pevent_callback",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/eventrecordcallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nc-evntrace-pevent_record_callback",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/flushtrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-flushtracea",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/gettraceenableflags.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-gettraceenableflags",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/gettraceenablelevel.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-gettraceenablelevel",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/gettraceloggerhandle.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-gettraceloggerhandle",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/opentrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-opentracea",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/processtrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-processtrace",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/queryalltraces.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-queryalltracesa",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/querytrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-querytrace",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/querytraceprocessinghandle.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-querytraceprocessinghandle",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/registertraceguids.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-registertraceguidsa",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/removetracecallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-removetracecallback",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/settracecallback.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-settracecallback",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/starttrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-starttracea",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/stoptrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-stoptrace",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/traceevent.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-traceevent",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/traceeventinstance.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-traceeventinstance",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/tracemessage.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-tracemessage",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/tracemessageva.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-tracemessageva",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/tracequeryinformation.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-tracequeryinformation",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/tracesetinformation.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-tracesetinformation",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/unregistertraceguids.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-unregistertraceguids",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/updatetrace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/nf-evntrace-updatetracea",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/etw-process-handle-info-type.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ne-evntrace-etw_process_handle_info_type",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-info-class.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ne-evntrace-trace_query_info_class",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/etw-trace-partition-information.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-etw_trace_partition_information",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/classic-event-id.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-classic_event_id",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enable-trace-parameters.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-enable_trace_parameters",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/enable-trace-parameters-v1.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-enable_trace_parameters_v1",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-instance-header.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_instance_header",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-instance-info.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_instance_info",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-trace.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_trace",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-trace-header.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_trace_header",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-trace-logfile.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_trace_logfilea",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-trace-properties.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_trace_properties",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/event-trace-properties-v2.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-event_trace_properties_v2",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/mof-field.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-mof_field",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-enable-info.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_enable_info",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-guid-info.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_guid_info",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-guid-properties.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_guid_properties",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-guid-registration.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_guid_registration",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-logfile-header.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_logfile_header",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-periodic-capture-state-info.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_periodic_capture_state_info",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-provider-instance-info.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_provider_instance_info",
+            "redirect_document_id": false
+      },
+      {
+            "source_path": "desktop-src/etw/trace-version-info.md",
+            "redirect_url": "/windows/desktop/api/evntrace/ns-evntrace-trace_version_info",
+            "redirect_document_id": false
+      },
+      {
             "source_path": "desktop-src/winauto/uiauto-iuiautomationelement5-cachedlandmarktype.md",
             "redirect_url": "/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement5-get_cachedlandmarktype",
             "redirect_document_id": false
@@ -42058,6 +42363,46 @@
 {
 	"source_path": "desktop-src/windows-8.md",
 	"redirect_url": "/windows/desktop/whats-new",
+	"redirect_document_id": false
+},
+{
+	"source_path": "desktop-src/tablet/system-event-data-collision16.md",
+	"redirect_url": "/windows/win32/tablet/system-event-data",
+	"redirect_document_id": false
+},
+{
+	"source_path": "active-accessibility-text-services-collision227.md",
+	"redirect_url": "/windows/win32/winauto/active-accessibility-text-services",
+	"redirect_document_id": false
+},
+{
+	"source_path": "active-accessibility-user-interface-services.md",
+	"redirect_url": "/windows/win32/winauto/active-accessibility-user-interface-services-dev-guide",
+	"redirect_document_id": false
+},
+{
+	"source_path": "active-accessibility-user-interface-services-collision208.md",
+	"redirect_url": "/windows/win32/winauto/active-accessibility-user-interface-services-ref",
+	"redirect_document_id": false
+},
+{
+	"source_path": "winevents.md",
+	"redirect_url": "/windows/win32/winauto/winevents-overview",
+	"redirect_document_id": false
+},
+{
+	"source_path": "winevents-collision169.md",
+	"redirect_url": "/windows/win32/winauto/winevents-infrastructure",
+	"redirect_document_id": false
+},
+{
+	"source_path": "supporting-device-side-content.md",
+	"redirect_url": "/windows/win32/wpd_sdk/supporting-device-side-content-context-menu",
+	"redirect_document_id": false
+},
+{
+	"source_path": "supporting-device-side-content-collision475.md",
+	"redirect_url": "/windows/win32/wpd_sdk/supporting-device-side-content-property-sheet",
 	"redirect_document_id": false
 }
   ]

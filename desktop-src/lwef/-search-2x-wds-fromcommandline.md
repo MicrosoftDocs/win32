@@ -65,13 +65,13 @@ The following syntax applies to the Windows Desktop Search 2.x command-line inte
 While Advanced Query Syntax supports referencing Microsoft Outlook as 'oe', the store parameter on the command line must be 'outlookexpress'.
 </blockquote>
 <p><br/></p></li>
-<li><p>show - Specifies which perceived type of results to return. See <a href="-search-2x-wds-perceivedtype">Perceived Types</a> for a complete list of types. If not specified, all types will be returned. <br/></p>
+<li><p>show - Specifies which perceived type of results to return. See <a href="-search-2x-wds-perceivedtype.md">Perceived Types</a> for a complete list of types. If not specified, all types will be returned. <br/></p>
 <blockquote>
 [!Note]<br />
 There are three differences between the perceived type values and the values for show. For <code>show</code>, use 'documents' instead of 'doc', 'pictures' instead of 'pics', and 'textdocuments' instead of 'text'.
 </blockquote>
 <p><br/></p></li>
-<li>query - Specifies the search criteria. This value supports <a href="-search-2x-wds-aqsreference">Advanced Query Syntax</a> parameters to refine the results. The query parameter must be the last parameter in the URL.</li>
+<li>query - Specifies the search criteria. This value supports <a href="-search-2x-wds-aqsreference.md">Advanced Query Syntax</a> parameters to refine the results. The query parameter must be the last parameter in the URL.</li>
 </ul></td>
 </tr>
 </tbody>

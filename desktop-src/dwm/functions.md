@@ -70,7 +70,7 @@ This function is deprecated as of Windows 8. DWM can no longer be programmatical
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcolorizationcolor"><strong>DwmGetColorizationColor</strong></a><br/></td>
-<td>Retrieves the current color used for DWM glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="wm-dwmcolorizationcolorchanged"><strong>WM_DWMCOLORIZATIONCOLORCHANGED</strong></a> notification.<br/></td>
+<td>Retrieves the current color used for DWM glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="wm-dwmcolorizationcolorchanged.md"><strong>WM_DWMCOLORIZATIONCOLORCHANGED</strong></a> notification.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo"><strong>DwmGetCompositionTimingInfo</strong></a><br/></td>
@@ -105,7 +105,7 @@ Checks the requirements needed to get tabs in the application title bar for the 
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmiscompositionenabled"><strong>DwmIsCompositionEnabled</strong></a><br/></td>
-<td>Obtains a value that indicates whether DWM composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the <a href="wm-dwmcompositionchanged"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> notification.<br/></td>
+<td>Obtains a value that indicates whether DWM composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> notification.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a><br/></td>

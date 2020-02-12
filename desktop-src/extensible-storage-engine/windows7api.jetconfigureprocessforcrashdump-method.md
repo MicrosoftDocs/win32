@@ -2,7 +2,7 @@
 title: Windows7Api.JetConfigureProcessForCrashDump method  (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: 'JetConfigureProcessForCrashDump method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api.JetConfigureProcessForCrashDump(Microsoft.Isam.Esent.Interop.Windows7.CrashDumpGrbit)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows7.windows7api.jetconfigureprocessforcrashdump(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows7.windows7api.jetconfigureprocessforcrashdump(v=EXCHG.10)
 ms:contentKeyID: 55104362
 ms.date: 07/30/2014
 ms.topic: reference

@@ -138,6 +138,8 @@
           href: shared-heaps.md
       - name: "Residency"
         href: residency.md
+    - name: "Core 1.0 Feature Level"
+      href: core-feature-levels.md
     - name: "Multi-adapter systems"
       href: multi-engine.md
     - name: "Multi-engine synchronization"
@@ -2336,6 +2338,8 @@
             href: ray-payload.md
           - name: "RayDesc Structure"
             href: raydesc.md
+        - name: "Direct3D 12 raytracing HLSL system value intrinsics"
+          href: direct3d-12-raytracing-hlsl-system-value-intrinsics.md
     - name: "Direct3D 12 On Windows 7"
       href: direct3d-12on7-reference.md
       items:

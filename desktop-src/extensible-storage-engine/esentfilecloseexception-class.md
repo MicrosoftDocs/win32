@@ -2,7 +2,7 @@
 title: EsentFileCloseException class
 TOCTitle: EsentFileCloseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileCloseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentfilecloseexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentfilecloseexception(v=EXCHG.10)
 ms:contentKeyID: 55101667
 ms.date: 07/30/2014
 ms.topic: reference

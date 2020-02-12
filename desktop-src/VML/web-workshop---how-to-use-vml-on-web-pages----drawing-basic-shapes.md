@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 
 # Drawing Basic Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
@@ -48,7 +48,7 @@ Alternatively, you can use VML to draw graphics. In the preceding example, you c
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval1.md)
+
 
 `<v:...>` and `</v:...>` are the start tag and end tag in [XML syntax](#xml-structure).`style='width:100pt; height:75pt'` provides [CSS information](#css-information). **oval** and **fillcolor**="red" are [VML elements](#vml-elements).
 
@@ -61,7 +61,7 @@ You can alter the graphics by simply changing their property attributes in VML. 
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/SimpleShape/Oval2.md)
+
 
 Browsers that support VML can render and display the graphics represented in VML without having to download separate image files. Most graphics represented in VML are rendered faster in browsers, and require less disk space and download time.
 

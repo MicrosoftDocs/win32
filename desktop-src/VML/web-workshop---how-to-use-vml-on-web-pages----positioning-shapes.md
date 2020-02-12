@@ -40,7 +40,7 @@ ms.date: 05/31/2018
 
 # Positioning Shapes
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
@@ -84,7 +84,7 @@ End.
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape1.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -108,7 +108,7 @@ End.
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape3.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -132,7 +132,7 @@ End.
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape2.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -156,7 +156,7 @@ fillcolor="red" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape4.md)
+
 
 If you change the z-index, as shown in the following VML representation, the red oval would move behind the blue rectangle.
 
@@ -173,7 +173,7 @@ fillcolor="blue" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape5.md)
+
 
 If you supply a negative integer, you can use z-index to position graphics behind the normal text flow, as shown in the following VML representation.
 
@@ -191,7 +191,7 @@ End.
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/PositionShape/shape6.md)
+
 
 [![back to top](images/top.gif) Back to top](#top)
 

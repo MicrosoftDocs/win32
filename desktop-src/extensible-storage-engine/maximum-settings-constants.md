@@ -2,7 +2,7 @@
 title: Maximum Settings Constants
 TOCTitle: Maximum Settings Constants
 ms:assetid: 1111051f-55af-4c33-be38-6a3973c2c815
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269189(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269189(v=EXCHG.10)
 ms:contentKeyID: 32765492
 ms.date: 04/11/2016
 ms.topic: reference

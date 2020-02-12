@@ -186,20 +186,20 @@ To configure the encoding mode, set the following properties:
 <tbody>
 <tr class="odd">
 <td>CBR</td>
-<td><a href="avenccommonratecontrolmode-property"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_CBR</strong><br/> <a href="avenccommonqualityvsspeed-property"><strong>AVEncCommonQualityVsSpeed</strong></a><br/> <a href="avenccommonmeanbitrate-property"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
+<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_CBR</strong><br/> <a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
 </tr>
 <tr class="even">
 <td>Quality-based VBR</td>
-<td><a href="avenccommonratecontrolmode-property"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_Quality</strong><br/> <a href="avenccommonquality-property"><strong>AVEncCommonQuality</strong></a><br/> <a href="avenccommonmaxbitrate-property"><strong>AVEncCommonMaxBitRate</strong></a><br/>
+<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_Quality</strong><br/> <a href="avenccommonquality-property.md"><strong>AVEncCommonQuality</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/>
 <blockquote>
 [!Note]<br />
-In this mode, the <a href="avenccommonmeanbitrate-property"><strong>AVEncCommonMeanBitRate</strong></a> and <a href="avenccommonminbitrate-property"><strong>AVEncCommonMinBitRate</strong></a> properties are not used. The minimum bit rate is assumed to be zero.
+In this mode, the <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a> and <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a> properties are not used. The minimum bit rate is assumed to be zero.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>Peak-constrained VBR</td>
-<td><a href="avenccommonratecontrolmode-property"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br/> <a href="avenccommonmultipassmode-property"><strong>AVEncCommonMultipassMode</strong></a> = 1<br/> <a href="avenccommonminbitrate-property"><strong>AVEncCommonMinBitRate</strong></a><br/> <a href="avenccommonmaxbitrate-property"><strong>AVEncCommonMaxBitRate</strong></a><br/> <a href="avenccommonmeanbitrate-property"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
+<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br/> <a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br/> <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
 </tr>
 </tbody>
 </table>

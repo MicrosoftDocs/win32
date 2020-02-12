@@ -56,7 +56,7 @@ This element can be used instead of <locationProvider> when the location is on t
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<searchConnectorDescription xmlns="https://schemas.microsoft.com/windows/2009/searchConnector">
+<searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
     ...
     <simpleLocation>
         <url>mapi://{S-1-5-21-2127521184-1604012920-1887927527-2779359}/</url>

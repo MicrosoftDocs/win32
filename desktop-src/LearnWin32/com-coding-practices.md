@@ -41,7 +41,7 @@ The compiler extracts the GUID value from the header, so no library export is ne
 
 ## The IID\_PPV\_ARGS Macro
 
-We saw that both [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) and [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) require coercing the final parameter to a **void\*\*** type. This creates the potential for a type mismatch. Consider the following code fragment:
+We saw that both [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) and [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) require coercing the final parameter to a **void\*\*** type. This creates the potential for a type mismatch. Consider the following code fragment:
 
 
 ```C++
@@ -97,7 +97,7 @@ hr = CoCreateInstance(__uuidof(FileOpenDialog), NULL, CLSCTX_ALL,
 
 
 
-You can use the same macro with [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)):
+You can use the same macro with [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)):
 
 
 ```C++

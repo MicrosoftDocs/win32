@@ -2,7 +2,7 @@
 title: JET_BKLOGTIME members
 TOCTitle: JET_BKLOGTIME members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_bklogtime_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_bklogtime_members(v=EXCHG.10)
 ms:contentKeyID: 39514187
 ms.date: 07/30/2014
 ms.topic: article

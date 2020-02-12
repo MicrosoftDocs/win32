@@ -26,7 +26,7 @@ The **Tools** menu provides the following commands:
 <tbody>
 <tr class="odd">
 <td><strong>Spy Selected Node</strong></td>
-<td>Logs all method calls on a selected transform node or an output node, and saves the results to a text file. For more information, see <a href="logging-topology-node-activities">Logging Topology Node Activities</a></td>
+<td>Logs all method calls on a selected transform node or an output node, and saves the results to a text file. For more information, see <a href="logging-topology-node-activities.md">Logging Topology Node Activities</a></td>
 </tr>
 <tr class="even">
 <td><strong>Custom Topoloader...</strong></td>

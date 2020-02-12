@@ -2,7 +2,7 @@
 title: EsentRestoreOfNonBackupDatabaseException methods
 TOCTitle: EsentRestoreOfNonBackupDatabaseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentrestoreofnonbackupdatabaseexception_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentrestoreofnonbackupdatabaseexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55102635
 ms.date: 07/30/2014
 ms.topic: article

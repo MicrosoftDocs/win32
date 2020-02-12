@@ -2,7 +2,7 @@
 title: EsentDatabaseIncompleteUpgradeException members
 TOCTitle: EsentDatabaseIncompleteUpgradeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseincompleteupgradeexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabaseincompleteupgradeexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101488
 ms.date: 07/30/2014
 ms.topic: article

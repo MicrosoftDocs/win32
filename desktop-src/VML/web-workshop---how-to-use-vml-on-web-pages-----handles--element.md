@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Using the Handles Element
 
-This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be [migrated to SVG](https://go.microsoft.com/fwlink/p/?LinkID=236964) or other widely supported standards.
+This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
 > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
@@ -61,7 +61,7 @@ path="m@0,0l@0@1,0@1,0@2@0@2@0,21600,21600,10800xe">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Handles/shape1.md)
+
 
 Notice that the only difference between the preceding VML representation and the following one is the **adj** value.
 
@@ -89,7 +89,7 @@ path="m@0,0l@0@1,0@1,0@2@0@2@0,21600,21600,10800xe">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/Handles/shape2.md)
+
 
 For more information about this element, see the [VML specification](https://www.w3.org/TR/NOTE-VML#-toc416858393) .
 

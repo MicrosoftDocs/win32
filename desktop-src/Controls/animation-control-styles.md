@@ -48,13 +48,13 @@ This section lists the window styles used with animation controls.
 <td style="text-align: left;">By default, the control creates a thread to play the AVI clip. If you set this flag, the control plays the clip without creating a thread; internally the control uses a Win32 timer to synchronize playback. <br/> <strong>Comctl32.dll version 6 and later:</strong> This style is not supported. By default, the control plays the AVI clip without creating a thread.<br/>
 <blockquote>
 [!Note]<br />
-Comctl32.dll version 6 is not redistributable. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview">Enabling Visual Styles</a>.
+Comctl32.dll version 6 is not redistributable. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="cookbook-overview.md">Enabling Visual Styles</a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="ACS_TRANSPARENT"></span><span id="acs_transparent"></span><dl> <dt><strong>ACS_TRANSPARENT</strong></dt> </dl></td>
-<td style="text-align: left;">Allows you to match an animation's background color to that of the underlying window, creating a &quot;transparent&quot; background. The parent of the animation control must not have the WS_CLIPCHILDREN style (see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Styles</a>). The control sends a <a href="wm-ctlcolorstatic"><strong>WM_CTLCOLORSTATIC</strong></a> message to its parent. Use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor"><strong>SetBkColor</strong></a> to set the background color for the device context to an appropriate value. The control interprets the upper-left pixel of the first frame as the animation's default background color. It will remap all pixels with that color to the value you supplied in response to WM_CTLCOLORSTATIC. <br/></td>
+<td style="text-align: left;">Allows you to match an animation's background color to that of the underlying window, creating a &quot;transparent&quot; background. The parent of the animation control must not have the WS_CLIPCHILDREN style (see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Styles</a>). The control sends a <a href="wm-ctlcolorstatic.md"><strong>WM_CTLCOLORSTATIC</strong></a> message to its parent. Use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor"><strong>SetBkColor</strong></a> to set the background color for the device context to an appropriate value. The control interprets the upper-left pixel of the first frame as the animation's default background color. It will remap all pixels with that color to the value you supplied in response to WM_CTLCOLORSTATIC. <br/></td>
 </tr>
 </tbody>
 </table>

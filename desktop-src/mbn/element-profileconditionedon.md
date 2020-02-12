@@ -60,24 +60,24 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-cellularclass">CellularClass</a></td>
+<td><a href="element-cellularclass.md">CellularClass</a></td>
 <td><p>Specifies that this profile is active only when the current cellular class is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-imsi">IMSI</a></td>
+<td><a href="element-imsi.md">IMSI</a></td>
 <td><p>Specifies that this profile is active only when the current IMSI being used in the ICCID is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-iwlanapplicability">IwlanApplicability</a></td>
-<td><p>Specifies that this profile is active only when connected to an IWLAN network. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. The value of this element must be a valid <a href="simpletype-iwlanapplicabilitytype"><strong>iwlanApplicabilityType</strong></a> value.</p></td>
+<td><a href="element-iwlanapplicability.md">IwlanApplicability</a></td>
+<td><p>Specifies that this profile is active only when connected to an IWLAN network. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. The value of this element must be a valid <a href="simpletype-iwlanapplicabilitytype.md"><strong>iwlanApplicabilityType</strong></a> value.</p></td>
 </tr>
 <tr class="even">
-<td><a href="element-ratapplicability">RATApplicability</a></td>
+<td><a href="element-ratapplicability.md">RATApplicability</a></td>
 <td><p>Specifies that this profile is active only when the RAT type is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="element-roamapplicability">RoamApplicability</a></td>
-<td><p>Specifies that this profile is active only when the current roaming condition is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. The value of this element must be a valid <a href="simpletype-roamapplicabilitytype"><strong>roamApplicabilityType</strong></a> value.</p></td>
+<td><a href="element-roamapplicability.md">RoamApplicability</a></td>
+<td><p>Specifies that this profile is active only when the current roaming condition is the one specified. Otherwise, the profile is not applicable, and cannot be used to activate a Packet Data Protocol (PDP) context. The value of this element must be a valid <a href="simpletype-roamapplicabilitytype.md"><strong>roamApplicabilityType</strong></a> value.</p></td>
 </tr>
 </tbody>
 </table>
@@ -99,9 +99,9 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-mbnprofileext">MBNProfileExt</a></td>
+<td><a href="element-mbnprofileext.md">MBNProfileExt</a></td>
 <td><p>The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element. It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</p>
-<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
+<p>There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions. Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</p></td>
 </tr>
 </tbody>
 </table>

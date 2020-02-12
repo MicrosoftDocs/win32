@@ -1203,7 +1203,7 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
         </requestedPrivileges>
       </security>
     </trustInfo>
-      <asmv3:windowsSettings xmlns=https://schemas.microsoft.com/SMI/2005/WindowsSettings>
+      <asmv3:windowsSettings xmlns=http://schemas.microsoft.com/SMI/2005/WindowsSettings>
         <dpiAware>true<dpiAware>
       </asmv3:windowsSettings>
     </asmv3:application>

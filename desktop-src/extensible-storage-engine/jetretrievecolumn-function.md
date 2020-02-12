@@ -2,7 +2,7 @@
 title: JetRetrieveColumn Function
 TOCTitle: JetRetrieveColumn Function
 ms:assetid: 1e55063f-6033-4416-a9a6-894032fed069
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269198(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269198(v=EXCHG.10)
 ms:contentKeyID: 32765501
 ms.date: 04/11/2016
 ms.topic: reference

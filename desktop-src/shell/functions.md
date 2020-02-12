@@ -34,15 +34,15 @@ This section describes the Windows Shell functions.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="intsafe-h-functions-bumper">Intsafe.h Functions</a><br/></td>
+<td><a href="intsafe-h-functions-bumper.md">Intsafe.h Functions</a><br/></td>
 
 </tr>
 <tr class="even">
-<td><a href="library-functions-bumper">Library Functions</a><br/></td>
+<td><a href="library-functions-bumper.md">Library Functions</a><br/></td>
 
 </tr>
 <tr class="odd">
-<td><a href="path-functions">Path Functions</a><br/></td>
+<td><a href="path-functions.md">Path Functions</a><br/></td>
 
 </tr>
 <tr class="even">
@@ -51,7 +51,7 @@ This section describes the Windows Shell functions.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-assocgetdetailsofpropkey"><strong>AssocGetDetailsOfPropKey</strong></a><br/></td>
-<td>Retrieves the value for a given property key using the file association information provided by the <a href="nse-works">Namespace Extensions</a>.<br/></td>
+<td>Retrieves the value for a given property key using the file association information provided by the <a href="nse-works.md">Namespace Extensions</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2"><strong>CDefFolderMenu_Create2</strong></a><br/></td>
@@ -83,7 +83,7 @@ This function is not supported as of Windows 8.
 <td>Retrieves the environment variables for the specified user. This block can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera"><strong>CreateProcessAsUser</strong></a> function.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="createmrulist"><strong>CreateMRUListW</strong></a><br/></td>
+<td><a href="createmrulist.md"><strong>CreateMRUListW</strong></a><br/></td>
 <td>Creates a new most recently used (MRU) list.<br/></td>
 </tr>
 <tr class="odd">
@@ -159,7 +159,7 @@ This function is not supported as of Windows 8.
 <td>The <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa"><strong>ExtractIconEx</strong></a> function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="fileiconinit"><strong>FileIconInit</strong></a><br/></td>
+<td><a href="fileiconinit.md"><strong>FileIconInit</strong></a><br/></td>
 <td>Initializes or reinitializes the system image list.<br/></td>
 </tr>
 <tr class="even">
@@ -187,7 +187,7 @@ This function is not supported as of Windows 8.
 <td>Frees the allocated fields in the result from <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getfolderdefinition"><strong>IKnownFolder::GetFolderDefinition</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="freemrulist"><strong>FreeMRUList</strong></a><br/></td>
+<td><a href="freemrulist.md"><strong>FreeMRUList</strong></a><br/></td>
 <td>Frees the handle associated with the MRU list and writes cached data to the registry.<br/></td>
 </tr>
 <tr class="odd">
@@ -356,7 +356,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Userenv/nf-userenv-loaduserprofilea"><strong>LoadUserProfile</strong></a><br/></td>
-<td>Loads the specified user's profile. The profile can be a <a href="local-user-profiles">local user profile</a> or a <a href="roaming-user-profiles">roaming user profile</a>.<br/></td>
+<td>Loads the specified user's profile. The profile can be a <a href="local-user-profiles.md">local user profile</a> or a <a href="roaming-user-profiles.md">roaming user profile</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Intshcut/nf-intshcut-mimeassociationdialoga"><strong>MIMEAssociationDialog</strong></a><br/></td>
@@ -591,7 +591,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 <td>Displays a <strong>ShellAbout</strong> dialog box.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="shellddeinit"><strong>ShellDDEInit</strong></a><br/></td>
+<td><a href="shellddeinit.md"><strong>ShellDDEInit</strong></a><br/></td>
 <td>Registers the Shell Dynamic Data Exchange (DDE) services in the current process, notifying the system that the current process wishes to host DDE objects.<br/></td>
 </tr>
 <tr class="odd">
@@ -644,7 +644,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt757093(v=vs.85)"><strong>SHGetFolderPathEx</strong></a><br/></td>
-<td>Retrieves the full path of a known folder identified by the folder's <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a>. This extends <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a> by allowing you to set the initial size of the string buffer.<br/></td>
+<td>Retrieves the full path of a known folder identified by the folder's <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a>. This extends <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a> by allowing you to set the initial size of the string buffer.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa"><strong>SHGetIconOverlayIndex</strong></a><br/></td>
@@ -680,7 +680,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a><br/></td>
-<td>Retrieves the full path of a known folder identified by the folder's <a href="knownfolderid"><strong>KNOWNFOLDERID</strong></a>.<br/></td>
+<td>Retrieves the full path of a known folder identified by the folder's <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetlocalizedname"><strong>SHGetLocalizedName</strong></a><br/></td>

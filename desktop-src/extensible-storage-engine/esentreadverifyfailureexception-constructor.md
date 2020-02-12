@@ -2,7 +2,7 @@
 title: EsentReadVerifyFailureException constructor 
 TOCTitle: 'EsentReadVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentreadverifyfailureexception.esentreadverifyfailureexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentreadverifyfailureexception.esentreadverifyfailureexception(v=EXCHG.10)
 ms:contentKeyID: 55102569
 ms.date: 07/30/2014
 ms.topic: reference

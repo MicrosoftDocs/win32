@@ -21,7 +21,7 @@ This article contains the following sections.
 
 ## SysLink Markup
 
-The SysLink control supports the anchor tag(<a>) along with the attributes **HREF** and **ID**. An **HREF** can be any protocol, such as http, ftp, and mailto. An **ID** is an optional name, unique within a SysLink control, and it is associated with an individual link. Links are also assigned a zero-based index according to their position within the string. This index is used to access a link.
+The SysLink control supports the anchor tag(&lt;a&gt;) along with the attributes **HREF** and **ID**. An **HREF** can be any protocol, such as http, ftp, and mailto. An **ID** is an optional name, unique within a SysLink control, and it is associated with an individual link. Links are also assigned a zero-based index according to their position within the string. This index is used to access a link.
 
 ## Link Attributes
 

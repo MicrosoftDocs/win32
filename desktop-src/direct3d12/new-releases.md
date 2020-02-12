@@ -11,6 +11,8 @@ ms.date: 12/05/2019
 
 This topic describes the most significant new Direct3D 12 documentation available for various releases.
 
+For info about obtaining and installing Direct3D, see [Direct3D 12 programming environment setup](/windows/win32/direct3d12/directx-12-programming-environment-set-up).
+
 ## Direct3D 12 on Windows 7
 
 - [Direct3D 12 on Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/) is now available for developers to use.

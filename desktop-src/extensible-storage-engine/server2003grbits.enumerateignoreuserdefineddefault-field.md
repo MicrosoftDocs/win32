@@ -2,7 +2,7 @@
 title: Server2003Grbits.EnumerateIgnoreUserDefinedDefault field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: EnumerateIgnoreUserDefinedDefault field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.EnumerateIgnoreUserDefinedDefault
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.server2003.server2003grbits.enumerateignoreuserdefineddefault(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.server2003grbits.enumerateignoreuserdefineddefault(v=EXCHG.10)
 ms:contentKeyID: 55104099
 ms.date: 07/30/2014
 ms.topic: reference

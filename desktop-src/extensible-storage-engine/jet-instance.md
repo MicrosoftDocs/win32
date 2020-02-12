@@ -2,7 +2,7 @@
 title: JET_INSTANCE
 TOCTitle: JET_INSTANCE
 ms:assetid: a4136bec-95b3-42d7-b21b-1df09197bb11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294048(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294048(v=EXCHG.10)
 ms:contentKeyID: 32765647
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_COMMIT_ID operators (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_COMMIT_ID operators
 ms:assetid: dcbdb0ce-2fda-646e-d73a-c2c96606ad5d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn335460(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn335460(v=EXCHG.10)
 ms:contentKeyID: 55104408
 ms.date: 07/30/2014
 ms.topic: article

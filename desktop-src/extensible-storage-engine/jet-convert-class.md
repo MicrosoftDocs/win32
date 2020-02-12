@@ -2,7 +2,7 @@
 title: JET_CONVERT class
 TOCTitle: JET_CONVERT class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CONVERT
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_convert(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_convert(v=EXCHG.10)
 ms:contentKeyID: 55103436
 ms.date: 07/30/2014
 ms.topic: reference

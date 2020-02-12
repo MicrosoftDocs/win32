@@ -2,7 +2,7 @@
 title: Extensible Storage Engine Managed Reference
 TOCTitle: Extensible Storage Engine Managed Reference
 ms:assetid: b6dc69d0-82be-478d-b47f-37d7569cd200
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn375980(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn375980(v=EXCHG.10)
 ms:contentKeyID: 56355772
 ms.date: 09/02/2015
 ms.topic: article

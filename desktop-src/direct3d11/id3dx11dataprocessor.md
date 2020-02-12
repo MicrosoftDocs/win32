@@ -52,7 +52,7 @@ The **ID3DX11DataProcessor** interface has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataprocessor-createdeviceobject"><strong>CreateDeviceObject</strong></a></td>
+<td style="text-align: left;"><a href="id3dx11dataprocessor-createdeviceobject.md"><strong>CreateDeviceObject</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -60,7 +60,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Creates a device object.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="id3dx11dataprocessor-destroy"><strong>Destroy</strong></a></td>
+<td style="text-align: left;"><a href="id3dx11dataprocessor-destroy.md"><strong>Destroy</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -68,7 +68,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Destroys the processor after a work item completes.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataprocessor-process"><strong>Process</strong></a></td>
+<td style="text-align: left;"><a href="id3dx11dataprocessor-process.md"><strong>Process</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.

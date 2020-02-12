@@ -44,7 +44,7 @@ The following WinRM script produces raw XML output.
 Set Wsman = CreateObject("Wsman.Automation")
 Set xmlFile = CreateObject( "MSxml.DOMDocument")
 Set Session = Wsman.CreateSession
-Response = Session.Get("https://schemas.microsoft.com/wbem/wsman/" _
+Response = Session.Get("http://schemas.microsoft.com/wbem/wsman/" _
     & "1/wmi/root/cimv2/Win32_Service?Name=Spooler")
 xmlFile.LoadXml(Response)
 xmlFile.Save( "c:\RawOutput.xml")
@@ -57,7 +57,7 @@ The following block of text shows the XML output from the WinRM script.
 
 ```XML
 <p:Win32_Service xmlns:xsi="https://www.w3.org/2001/XMLSchema-
-instance" xmlns:p="https://schemas.microsoft.com/wbem/wsman/1
+instance" xmlns:p="http://schemas.microsoft.com/wbem/wsman/1
 /wmi/root/cimv2/Win32_Service" xmlns:cim="https://schemas.dmtf
 .org/wbem/wsman/1/base" cim:Class="Win32_Service"><p:AcceptP
 ause>false</p:AcceptPause><p:AcceptStop>true</p:AcceptStop>
@@ -100,7 +100,7 @@ Set xmlFile = CreateObject( "MSXml.DOMDocument" )
 Set xslFile = CreateObject( "MSXml.DOMDocument" )
 
 Set Session = Wsman.CreateSession
-Response = Session.Get("https://schemas.microsoft.com/wbem/wsman/" _
+Response = Session.Get("http://schemas.microsoft.com/wbem/wsman/" _
     & "1/wmi/root/cimv2/Win32_Service?Name=Spooler")
 xmlFile.LoadXml(Response)
 xslFile.Load( "WsmTxt.xsl" )

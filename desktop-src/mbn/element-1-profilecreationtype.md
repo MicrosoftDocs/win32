@@ -55,7 +55,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="element-modemdmconfigprofile">ModemDMConfigProfile</a></td>
+<td><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></td>
 <td><p>Modem DM configuration profile.</p></td>
 </tr>
 </tbody>

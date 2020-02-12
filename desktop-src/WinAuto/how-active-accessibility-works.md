@@ -27,7 +27,7 @@ For example, to enable a user to select commands verbally from a word processor 
 
 ### Client Applications and Active Accessibility
 
-A Microsoft Active Accessibility client must be notified when the server UI has changed so that it can convey that information to the user. To ensure that the client is informed about UI changes, it uses a mechanism called Window Events, or WinEvents, to register to receive notifications. For more information, see [WinEvents](winevents-collision169.md).
+A Microsoft Active Accessibility client must be notified when the server UI has changed so that it can convey that information to the user. To ensure that the client is informed about UI changes, it uses a mechanism called Window Events, or WinEvents, to register to receive notifications. For more information, see [WinEvents](winevents-infrastructure.md).
 
 To learn about and manipulate a particular UI element, clients use the Microsoft Active Accessibility Component Object Model (COM) interface, [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible).
 

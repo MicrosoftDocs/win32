@@ -2,7 +2,7 @@
 title: JetEnableMultiInstance Function
 TOCTitle: JetEnableMultiInstance Function
 ms:assetid: d88a7b2a-c0d1-47de-9239-3631150d92da
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294107(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294107(v=EXCHG.10)
 ms:contentKeyID: 32765722
 ms.date: 04/11/2016
 ms.topic: reference

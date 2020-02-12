@@ -1363,7 +1363,7 @@
           - name: "AddRef Method"
             href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref
           - name: "QueryInterface Method"
-            href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)
+            href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)
           - name: "Release Method"
             href: https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release
       - name: "Macros"

@@ -2,7 +2,7 @@
 title: EsentOSSnapshotInvalidSnapIdException constructor 
 TOCTitle: 'EsentOSSnapshotInvalidSnapIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentossnapshotinvalidsnapidexception.esentossnapshotinvalidsnapidexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentossnapshotinvalidsnapidexception.esentossnapshotinvalidsnapidexception(v=EXCHG.10)
 ms:contentKeyID: 55107293
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentDTCCallbackUnexpectedErrorException members
 TOCTitle: EsentDTCCallbackUnexpectedErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdtccallbackunexpectederrorexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101560
 ms.date: 07/30/2014
 ms.topic: article

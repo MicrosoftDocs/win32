@@ -95,7 +95,7 @@ A ResolveMatches message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
 </wsa:RelatesTo></code></pre></td>
-<td>The identifier of the message to which the service is responding. This header matches the MessageId in the <a href="resolve-message">Resolve</a> message.</td>
+<td>The identifier of the message to which the service is responding. This header matches the MessageId in the <a href="resolve-message.md">Resolve</a> message.</td>
 </tr>
 <tr class="odd">
 <td>AppSequence</td>
@@ -103,7 +103,7 @@ A ResolveMatches message has the following focus points.
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;6&quot;>
 </wsd:AppSequence></code></pre></td>
-<td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in <a href="appsequence-validation-rules">AppSequence Validation Rules</a>.</td>
+<td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in <a href="appsequence-validation-rules.md">AppSequence Validation Rules</a>.</td>
 </tr>
 <tr class="even">
 <td>Address</td>
@@ -117,7 +117,7 @@ A ResolveMatches message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs>
     https://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
 </wsd:XAddrs></code></pre></td>
-<td>XAddrs are transport addresses that may be used for communication between client and service. Addrs are validated as described in <a href="xaddr-validation-rules">XAddr Validation Rules</a>.</td>
+<td>XAddrs are transport addresses that may be used for communication between client and service. Addrs are validated as described in <a href="xaddr-validation-rules.md">XAddr Validation Rules</a>.</td>
 </tr>
 </tbody>
 </table>

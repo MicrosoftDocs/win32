@@ -50,7 +50,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...convert WMI dates to standard dates and times?<br/></td>
-<td>Use the <a href="swbemdatetime"><strong>SWbemDateTime</strong></a> object to convert these to regular dates and times.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="swbemdatetime.md"><strong>SWbemDateTime</strong></a> object to convert these to regular dates and times.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -230,7 +230,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 </tr>
 <tr class="even">
 <td><p>...ensure that &quot;10/02/2000&quot; is interpreted as Oct. 2, 2000, not &quot;10 Feb, 2000&quot;?</p></td>
-<td><p>Manage dates in <a href="gloss-c"><em>CIM</em></a> <a href="datetime">DATETIME</a> format and use <a href="swbemdatetime"><strong>SWbemDateTime</strong></a> methods, such as <a href="swbemdatetime-getvardate"><strong>GetVarDate</strong></a> to convert to them to and from either <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime"><strong>FILETIME</strong></a> or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See <a href="date-and-time-format">Date and Time Format</a> for more information on converting dates and times.</p></td>
+<td><p>Manage dates in <a href="gloss-c.md"><em>CIM</em></a> <a href="datetime.md">DATETIME</a> format and use <a href="swbemdatetime.md"><strong>SWbemDateTime</strong></a> methods, such as <a href="swbemdatetime-getvardate.md"><strong>GetVarDate</strong></a> to convert to them to and from either <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime"><strong>FILETIME</strong></a> or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See <a href="date-and-time-format.md">Date and Time Format</a> for more information on converting dates and times.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...convert a WMI datetime to a .NET DateTime value?</p></td>

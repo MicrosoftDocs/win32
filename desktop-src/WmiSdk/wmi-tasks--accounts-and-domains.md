@@ -395,7 +395,7 @@ if ($return.ReturnValue -eq 0) {
 </tr>
 <tr class="even">
 <td>...retrieve only local groups using WMI?</td>
-<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-group"><strong>Win32_Group</strong></a> class and include the following <strong>WHERE</strong> clause in your <a href="querying-with-wql">WQL</a> query.</p>
+<td><p>Use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-group"><strong>Win32_Group</strong></a> class and include the following <strong>WHERE</strong> clause in your <a href="querying-with-wql.md">WQL</a> query.</p>
 <p><code>Where LocalAccount = True</code></p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>

@@ -2,7 +2,7 @@
 title: JET_CALLBACK delegate
 TOCTitle: JET_CALLBACK delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CALLBACK
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_callback(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_callback(v=EXCHG.10)
 ms:contentKeyID: 39515752
 ms.date: 07/30/2014
 ms.topic: reference

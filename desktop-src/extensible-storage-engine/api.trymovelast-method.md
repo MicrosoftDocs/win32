@@ -2,7 +2,7 @@
 title: Api.TryMoveLast method 
 TOCTitle: 'TryMoveLast method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TryMoveLast(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.api.trymovelast(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.trymovelast(v=EXCHG.10)
 ms:contentKeyID: 55100933
 ms.date: 07/30/2014
 ms.topic: reference

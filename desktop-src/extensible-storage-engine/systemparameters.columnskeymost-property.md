@@ -2,7 +2,7 @@
 title: SystemParameters.ColumnsKeyMost property 
 TOCTitle: 'ColumnsKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsKeyMost
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.systemparameters.columnskeymost(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.systemparameters.columnskeymost(v=EXCHG.10)
 ms:contentKeyID: 55104036
 ms.date: 07/30/2014
 ms.topic: reference

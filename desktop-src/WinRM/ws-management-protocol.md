@@ -39,7 +39,7 @@ The characters before the colon at the beginning of each tag indicate which stan
   <s:Header>
     <a:To>https://RemoteComputer:80/wsman</a:To> 
     <w:ResourceURI s:mustUnderstand="true">
-      https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_logicaldisk
+      http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_logicaldisk
     </w:ResourceURI> 
     <a:ReplyTo>
     <a:Address s:mustUnderstand="true">

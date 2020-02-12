@@ -2,7 +2,7 @@
 title: EsentInvalidIndexIdException constructor 
 TOCTitle: 'EsentInvalidIndexIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidindexidexception.esentinvalidindexidexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidindexidexception.esentinvalidindexidexception(v=EXCHG.10)
 ms:contentKeyID: 55101960
 ms.date: 07/30/2014
 ms.topic: reference

@@ -99,7 +99,7 @@ Set oWsman = CreateObject( "WSMAN.Automation" )
 Set oSession = oWsman.CreateSession
 
 'Define resourceUri and inputXml 
-resourceUri = "https://schemas.microsoft.com/wbem/wsman/1/"_
+resourceUri = "http://schemas.microsoft.com/wbem/wsman/1/"_
     & "config/Listener?Address=*+Transport=HTTP"
 
 inputXml = _

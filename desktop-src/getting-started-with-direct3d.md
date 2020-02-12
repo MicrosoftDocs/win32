@@ -1,20 +1,14 @@
 ---
 Description: Direct3D is a low-level API for drawing primitives with the rendering pipeline or performing parallel operations with the compute shader.
 ms.assetid: 55063BF2-34A3-4E56-882C-86F0949DE557
-title: Getting Started with Direct3D
+title: Getting started with Direct3D
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Started with Direct3D
+# Getting started with Direct3D
 
-Direct3D is a low-level API for drawing primitives with the rendering pipeline or performing parallel operations with the compute shader.
-
--   [What is Direct3D?](#what-is-direct3d)
--   [Which Direct3D APIs can you use?](#which-direct3d-apis-can-you-use)
--   [Which Direct3D version?](#which-direct3d-version)
--   [Direct3D Rendering Pipeline](#direct3d-rendering-pipeline)
--   [Direct3D Compute Shader](#direct3d-compute-shader)
+Direct3D is a low-level API for drawing primitives with the rendering pipeline, or for performing parallel operations with the compute shader.
 
 ## What is Direct3D?
 
@@ -56,10 +50,3 @@ In the Direct3D [rendering pipeline](https://msdn.microsoft.com/library/Ff476882
 ## Direct3D Compute Shader
 
 With the Direct3D [compute shader](https://msdn.microsoft.com/library/Ff476331(v=VS.85).aspx), all the GPU's processors execute in parallel. So the compute shader behaves more like a pond than a river.
-
- 
-
- 
-
-
-

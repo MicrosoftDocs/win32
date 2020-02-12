@@ -2,7 +2,7 @@
 title: Extensible Storage Engine Errors
 TOCTitle: Extensible Storage Engine Errors
 ms:assetid: 0c071ed6-0ea2-448b-9f9f-e606c5abf3db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269184(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269184(v=EXCHG.10)
 ms:contentKeyID: 32765487
 ms.date: 04/11/2016
 ms.topic: article

@@ -2,7 +2,7 @@
 title: EsentDirtyShutdownException class
 TOCTitle: EsentDirtyShutdownException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDirtyShutdownException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdirtyshutdownexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdirtyshutdownexception(v=EXCHG.10)
 ms:contentKeyID: 55101504
 ms.date: 07/30/2014
 ms.topic: reference

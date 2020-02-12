@@ -2,7 +2,7 @@
 title: JET_INSTANCE operators
 TOCTitle: JET_INSTANCE operators
 ms:assetid: 45e2b5a4-498a-9de3-014f-2c3104658669
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh564749(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Hh564749(v=EXCHG.10)
 ms:contentKeyID: 39511660
 ms.date: 07/30/2014
 ms.topic: article

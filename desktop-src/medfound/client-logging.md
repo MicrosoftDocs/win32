@@ -42,23 +42,23 @@ The following table describes the log fields and the corresponding properties th
 <tbody>
 <tr class="odd">
 <td>c-playerid</td>
-<td>Unique identification of the player. This information is sent at the beginning of the connection. Typically, this is a GUID of the client. The client can send this information to the server in the <a href="mfnetsource-playerid-property"><strong>MFNETSOURCE_PLAYERID</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/> Sample value: &quot;{c579d042-cecc-11d1-bb31-00a0c9603954}&quot;<br/></td>
+<td>Unique identification of the player. This information is sent at the beginning of the connection. Typically, this is a GUID of the client. The client can send this information to the server in the <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/> Sample value: &quot;{c579d042-cecc-11d1-bb31-00a0c9603954}&quot;<br/></td>
 </tr>
 <tr class="even">
 <td>c-playerversion</td>
-<td>The version number of the player that is sent at the beginning of the connection. The client can send this information to the server in the <a href="mfnetsource-playerversion-property"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/></td>
+<td>The version number of the player that is sent at the beginning of the connection. The client can send this information to the server in the <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/></td>
 </tr>
 <tr class="odd">
 <td>cs(User-Agent)</td>
-<td>Browser type used if the player was embedded in a browser. This value can be set by the client in the <a href="mfnetsource-browseruseragent-property"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> property.<br/> If the player was not embedded, this field refers to the user agent of the client that generated the log. In this case, the client must set the <a href="mfnetsource-playeruseragent-property"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/> Sample value: &quot;Mozilla/4.0_(compatible;_MSIE_4.01;_Windows_98)&quot;<br/></td>
+<td>Browser type used if the player was embedded in a browser. This value can be set by the client in the <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> property.<br/> If the player was not embedded, this field refers to the user agent of the client that generated the log. In this case, the client must set the <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/> Sample value: &quot;Mozilla/4.0_(compatible;_MSIE_4.01;_Windows_98)&quot;<br/></td>
 </tr>
 <tr class="even">
 <td>cs(Referer)</td>
-<td>URL of the webpage in which the player was embedded (if it was embedded). The client can send this information to the server in the <a href="mfnetsource-browserwebpage-property"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample value: &quot;https://www.example.microsoft.com&quot;<br/></td>
+<td>URL of the webpage in which the player was embedded (if it was embedded). The client can send this information to the server in the <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample value: &quot;https://www.example.microsoft.com&quot;<br/></td>
 </tr>
 <tr class="odd">
 <td>c-hostexe</td>
-<td>For player log entries, the host program (.exe) that was run. For example, a webpage in a browser, a Microsoft Visual Basic applet, or a stand-alone player. The client can send this information to the server in the <a href="mfnetsource-hostexe-property"><strong>MFNETSOURCE_HOSTEXE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample values:<br/>
+<td>For player log entries, the host program (.exe) that was run. For example, a webpage in a browser, a Microsoft Visual Basic applet, or a stand-alone player. The client can send this information to the server in the <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample values:<br/>
 <ul>
 <li>&quot;iexplore.exe&quot;</li>
 <li>&quot;myplayer.exe&quot;</li>
@@ -66,7 +66,7 @@ The following table describes the log fields and the corresponding properties th
 </tr>
 <tr class="even">
 <td>c-hostexever</td>
-<td>Host program (.exe) version number. The client can send this information to the server in the <a href="mfnetsource-hostversion-property"><strong>MFNETSOURCE_HOSTVERSION</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/></td>
+<td>Host program (.exe) version number. The client can send this information to the server in the <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/></td>
 </tr>
 </tbody>
 </table>

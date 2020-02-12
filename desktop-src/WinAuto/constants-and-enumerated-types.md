@@ -31,7 +31,7 @@ This section contains information about the constants used with Microsoft Active
 
 <dl> <dt>
 
-[Active Accessibility User Interface Services](active-accessibility-user-interface-services-collision208.md)
+[Active Accessibility User Interface Services](active-accessibility-user-interface-services-ref.md)
 </dt> </dl>
 
  

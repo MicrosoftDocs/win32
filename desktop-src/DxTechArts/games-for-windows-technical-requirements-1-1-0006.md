@@ -469,7 +469,7 @@ Adding the manifest element is easy to do with Visual Studio 2005 and 2008; crea
 ``` syntax
             <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
             <asmv3:application>
-            <asmv3:windowsSettings xmlns="https://schemas.microsoft.com/SMI/2005/WindowsSettings">
+            <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
             <dpiAware>true</dpiAware>
             </asmv3:windowsSettings>
             </asmv3:application>
@@ -1073,7 +1073,7 @@ AppVerifier tests for many known issues that cause crashes and hangs in Windows 
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/en-US/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
 
 This requirement does not apply to pure managed applications without native interop.
 

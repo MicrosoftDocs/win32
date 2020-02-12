@@ -2,7 +2,7 @@
 title: JET_OPENTEMPORARYTABLE.tableid property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.tableid
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.tableid(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable.tableid(v=EXCHG.10)
 ms:contentKeyID: 55104232
 ms.date: 07/30/2014
 ms.topic: reference

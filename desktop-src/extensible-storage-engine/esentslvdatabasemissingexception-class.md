@@ -2,7 +2,7 @@
 title: EsentSLVDatabaseMissingException class
 TOCTitle: EsentSLVDatabaseMissingException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvdatabasemissingexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvdatabasemissingexception(v=EXCHG.10)
 ms:contentKeyID: 55102738
 ms.date: 07/30/2014
 ms.topic: reference

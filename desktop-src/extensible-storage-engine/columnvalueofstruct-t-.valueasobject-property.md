@@ -2,7 +2,7 @@
 title: ColumnValueOfStruct(T).ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ValueAsObject
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn334226(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn334226(v=EXCHG.10)
 ms:contentKeyID: 55101010
 ms.date: 07/30/2014
 ms.topic: reference

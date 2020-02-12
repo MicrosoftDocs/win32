@@ -27,7 +27,7 @@ Driver capability flag.
 <tr class="even">
 <td>D3DENUM_WHQL_LEVEL</td>
 <td>0x00000002L</td>
-<td>Microsoft Windows Hardware Quality Labs (WHQL) driver testing. This is a time-consuming test requiring a one-second or two-second time penalty. This constant is used by the WHQLLevel member of <a href="d3dadapter-identifier9"><strong>D3DADAPTER_IDENTIFIER9</strong></a>.<br/> 
+<td>Microsoft Windows Hardware Quality Labs (WHQL) driver testing. This is a time-consuming test requiring a one-second or two-second time penalty. This constant is used by the WHQLLevel member of <a href="d3dadapter-identifier9.md"><strong>D3DADAPTER_IDENTIFIER9</strong></a>.<br/> 
 <table>
 <tbody>
 <tr class="odd">

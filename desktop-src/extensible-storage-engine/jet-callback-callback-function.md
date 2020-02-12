@@ -2,7 +2,7 @@
 title: JET_CALLBACK Callback Function
 TOCTitle: JET_CALLBACK Callback Function
 ms:assetid: d15d4f84-8378-4b4b-9b8b-e89a56be5ead
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294098(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294098(v=EXCHG.10)
 ms:contentKeyID: 32765713
 ms.date: 04/11/2016
 ms.topic: reference

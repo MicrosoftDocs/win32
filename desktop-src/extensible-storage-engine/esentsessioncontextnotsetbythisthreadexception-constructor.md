@@ -2,7 +2,7 @@
 title: EsentSessionContextNotSetByThisThreadException constructor 
 TOCTitle: 'EsentSessionContextNotSetByThisThreadException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsessioncontextnotsetbythisthreadexception.esentsessioncontextnotsetbythisthreadexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentsessioncontextnotsetbythisthreadexception.esentsessioncontextnotsetbythisthreadexception(v=EXCHG.10)
 ms:contentKeyID: 55102699
 ms.date: 07/30/2014
 ms.topic: reference

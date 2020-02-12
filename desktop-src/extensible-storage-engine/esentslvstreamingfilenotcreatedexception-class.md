@@ -2,7 +2,7 @@
 title: EsentSLVStreamingFileNotCreatedException class
 TOCTitle: EsentSLVStreamingFileNotCreatedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentslvstreamingfilenotcreatedexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvstreamingfilenotcreatedexception(v=EXCHG.10)
 ms:contentKeyID: 55102836
 ms.date: 07/30/2014
 ms.topic: reference

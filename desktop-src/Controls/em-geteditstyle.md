@@ -135,7 +135,7 @@ If you really want this behavior, use the Windows riched32.dll instead of riched
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_NOFOCUSLINKNOTIFY</strong></dt> </dl></td>
-<td>Sends <a href="en-link">EN_LINK</a> notification from links that do not have focus.<br/></td>
+<td>Sends <a href="en-link.md">EN_LINK</a> notification from links that do not have focus.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_NOIME</strong></dt> </dl></td>
@@ -171,7 +171,7 @@ If you really want this behavior, use the Windows riched32.dll instead of riched
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_USEATFONT</strong></dt> </dl></td>
-<td><strong>Windows XP with SP1</strong>: Uses an @ font, which is designed for vertical text; this is used with the <a href="rich-edit-control-styles"><strong>ES_VERTICAL</strong></a> window style. The name of an @ font begins with the @ symbol, for example, &quot;@Batang&quot; (default: 0, but is automatically turned on for vertical text layout). <br/></td>
+<td><strong>Windows XP with SP1</strong>: Uses an @ font, which is designed for vertical text; this is used with the <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> window style. The name of an @ font begins with the @ symbol, for example, &quot;@Batang&quot; (default: 0, but is automatically turned on for vertical text layout). <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_USECTF</strong></dt> </dl></td>

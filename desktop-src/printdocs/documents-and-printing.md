@@ -39,14 +39,14 @@ These topics describe the documents and printing features of Windows that enable
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="printdocs-printing">Printing</a><br/></td>
+<td><a href="printdocs-printing.md">Printing</a><br/></td>
 <td>Information about the printing features supported by Windows. These features include:<br/>
 <ul>
 <li><a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a><br/> Provides apps with an interface that allows the management of the <strong>PrintDocument</strong> package.<br/></li>
-<li><a href="print-spooler-api">Print Spooler API</a><br/> Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/></li>
-<li><a href="print-ticket-api">Print Ticket API</a><br/> Provides applications with functions to manage and convert print tickets.<br/></li>
-<li><a href="gdi-printing">GDI Print API</a><br/> Provides applications with a device-independent printing interface. <br/></li>
-<li><p><a href="xps-printing">XPS Print API</a><br/> Provides an interface to the print spooler that applications can use to send XPS documents to a printer.</p>
+<li><a href="print-spooler-api.md">Print Spooler API</a><br/> Provides an interface to the print spooler so that applications can manage printers and print jobs.<br/></li>
+<li><a href="print-ticket-api.md">Print Ticket API</a><br/> Provides applications with functions to manage and convert print tickets.<br/></li>
+<li><a href="gdi-printing.md">GDI Print API</a><br/> Provides applications with a device-independent printing interface. <br/></li>
+<li><p><a href="xps-printing.md">XPS Print API</a><br/> Provides an interface to the print spooler that applications can use to send XPS documents to a printer.</p>
 <blockquote>
 [!Note]<br />
 The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the <a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> instead.

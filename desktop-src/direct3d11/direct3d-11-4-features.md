@@ -10,6 +10,8 @@ ms.date: 05/31/2018
 
 The following functionality has been added in Direct3D 11.4.
 
+Also see [Where is the DirectX SDK?](/windows/win32/directx-sdk--august-2009-).
+
 ## Direct3D device removal
 
 The [**RegisterDeviceRemovedEvent**](/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-registerdeviceremovedevent), and [**UnregisterDeviceRemoved**](/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved) methods are supported by a new interface, [**ID3D11Device4**](/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4), to support receiving an asynchronous event notification when a Direct3D device has been removed.

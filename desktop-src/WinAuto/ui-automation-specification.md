@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # UI Automation Specification
 
-This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation. The UI Automation Specification can be supported across platforms other than Microsoft Windows. For more information, see [UI Automation Specification]( https://go.microsoft.com/fwlink/p/?linkid=198404)
+This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation. The UI Automation Specification can be supported across platforms other than Microsoft Windows. For more information, see [UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise)
 
 This topic contains the following sections:
 
@@ -101,24 +101,10 @@ For more information, see [UI Automation Control Types Overview](uiauto-controlt
 
 ## UI Automation Events
 
-UI Automation events notify applications of changes to, and actions taken with automation elements. There are four different types of UI Automation events, and they do not necessarily mean that the visual state of the UI has changed. The UI Automation event model is independent of the [WinEvent](winevents-collision169.md) framework in Windows, although the Windows Automation API makes UI Automation events interoperable with the Microsoft Active Accessibility framework.
+UI Automation events notify applications of changes to, and actions taken with automation elements. There are four different types of UI Automation events, and they do not necessarily mean that the visual state of the UI has changed. The UI Automation event model is independent of the [WinEvent](winevents-infrastructure.md) framework in Windows, although the Windows Automation API makes UI Automation events interoperable with the Microsoft Active Accessibility framework.
 
 For more information, see [UI Automation Events Overview](uiauto-eventsoverview.md).
 
 ## Related topics
 
-<dl> <dt>
-
-[UI Automation Specification]( https://go.microsoft.com/fwlink/p/?linkid=198404)
-</dt> <dt>
-
-[Windows Automation API Overview](windows-automation-api-overview.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise), [Windows Automation API Overview](windows-automation-api-overview.md)

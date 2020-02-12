@@ -2,7 +2,7 @@
 title: JET_DBINFOMISC.ulUpdate property 
 TOCTitle: 'ulUpdate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulUpdate
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_dbinfomisc.ulupdate(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_dbinfomisc.ulupdate(v=EXCHG.10)
 ms:contentKeyID: 39515298
 ms.date: 07/30/2014
 ms.topic: reference

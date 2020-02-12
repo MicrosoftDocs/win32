@@ -2,7 +2,7 @@
 title: VistaParam class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaParam class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaParam
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaparam(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaparam(v=EXCHG.10)
 ms:contentKeyID: 55104220
 ms.date: 07/30/2014
 ms.topic: reference

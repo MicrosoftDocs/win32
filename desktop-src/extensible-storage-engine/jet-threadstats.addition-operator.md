@@ -2,7 +2,7 @@
 title: JET_THREADSTATS.Addition operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Addition operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.op_Addition(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.jet_threadstats.op_addition(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_threadstats.op_addition(v=EXCHG.10)
 ms:contentKeyID: 39516195
 ms.date: 07/30/2014
 ms.topic: reference

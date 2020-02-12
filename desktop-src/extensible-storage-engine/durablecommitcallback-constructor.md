@@ -2,7 +2,7 @@
 title: DurableCommitCallback constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'DurableCommitCallback constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.#ctor(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.durablecommitcallback.durablecommitcallback(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.durablecommitcallback.durablecommitcallback(v=EXCHG.10)
 ms:contentKeyID: 55104290
 ms.date: 07/30/2014
 ms.topic: reference

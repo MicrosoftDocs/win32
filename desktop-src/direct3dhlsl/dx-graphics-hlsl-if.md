@@ -57,7 +57,7 @@ An optional parameter that controls how the statement is compiled.
 <td>Evaluate only one side of the if statement depending on the given condition.
 <blockquote>
 [!Note]<br />
-When you use <a href="dx-graphics-hlsl-sm2">Shader Model 2.x</a> or <a href="dx-graphics-hlsl-sm3">Shader Model 3.0</a>, each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.
+When you use <a href="dx-graphics-hlsl-sm2.md">Shader Model 2.x</a> or <a href="dx-graphics-hlsl-sm3.md">Shader Model 3.0</a>, each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.
 </blockquote>
 <br/></td>
 </tr>

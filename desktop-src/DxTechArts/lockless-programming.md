@@ -324,7 +324,7 @@ It is important to understand that [**\_ReadWriteBarrier**](https://msdn.microso
 
 You can also use [**\_ReadWriteBarrier**](https://msdn.microsoft.com/library/f20w0x5e(v=VS.71).aspx) when you write to non-cacheable write-combined memory to prevent reordering of writes. In this case **\_ReadWriteBarrier** helps to improve performance, by guaranteeing that the writes happen in the processor's preferred linear order.
 
-It is also possible to use the [**\_ReadBarrier**](https://msdn.microsoft.com/en-US/library/z055s48f(v=VS.80).aspx) and [**\_WriteBarrier**](https://msdn.microsoft.com/en-US/library/65tt87y8(v=VS.80).aspx) intrinsics for more precise control of compiler reordering. The compiler will not move reads across a **\_ReadBarrier**, and it will not move writes across a **\_WriteBarrier**.
+It is also possible to use the [**\_ReadBarrier**](https://msdn.microsoft.com/library/z055s48f(v=VS.80).aspx) and [**\_WriteBarrier**](https://msdn.microsoft.com/library/65tt87y8(v=VS.80).aspx) intrinsics for more precise control of compiler reordering. The compiler will not move reads across a **\_ReadBarrier**, and it will not move writes across a **\_WriteBarrier**.
 
 ## Preventing CPU Reordering
 

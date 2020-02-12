@@ -2,7 +2,7 @@
 title: JET_wrn enumeration
 TOCTitle: JET_wrn enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_wrn
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_wrn(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_wrn(v=EXCHG.10)
 ms:contentKeyID: 39510259
 ms.date: 07/30/2014
 ms.topic: reference

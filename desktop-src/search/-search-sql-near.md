@@ -84,7 +84,7 @@ The following table describes content search term types that can be used with a 
 </tr>
 <tr class="odd">
 <td>Wildcard</td>
-<td>Words or phrases with the asterisk (*) added to the end. For more information, see <a href="-search-sql-wildcards">Using Wildcards in the CONTAINS Predicate</a>.</td>
+<td>Words or phrases with the asterisk (*) added to the end. For more information, see <a href="-search-sql-wildcards.md">Using Wildcards in the CONTAINS Predicate</a>.</td>
 <td><div class="code">
 <span data-codelanguage=""></span>
 <table>

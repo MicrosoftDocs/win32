@@ -28,15 +28,15 @@ The following elements are used in Virtual Hard Disk (VHD):
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="vhd-enumerations">VHD Enumerations</a></p></td>
+<td><p><a href="vhd-enumerations.md">VHD Enumerations</a></p></td>
 <td><p>The following enumerations are used in Virtual Hard Disk (VHD):</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="vhd-functions">VHD Functions</a></p></td>
+<td><p><a href="vhd-functions.md">VHD Functions</a></p></td>
 <td><p>The following functions are used in Virtual Disks:</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="vhd-structures">VHD Structures</a></p></td>
+<td><p><a href="vhd-structures.md">VHD Structures</a></p></td>
 <td><p>The following structures are used in Virtual Hard Disk (VHD):</p></td>
 </tr>
 </tbody>

@@ -2,7 +2,7 @@
 title: JetGetLogInfoInstance Function
 TOCTitle: JetGetLogInfoInstance Function
 ms:assetid: 505500b1-2827-43f1-a0fe-5e84e00b0260
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269246(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269246(v=EXCHG.10)
 ms:contentKeyID: 32765548
 ms.date: 04/11/2016
 ms.topic: reference

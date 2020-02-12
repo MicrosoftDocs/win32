@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Activating Component Queues
 
-Making method calls on a queued component does not directly execute the method. Rather, [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page) marshals and stores method calls and parameters in a queue where they are later retrieved and executed by the queued component. Unlike activating a remote DCOM object, the queued component is not instantiated when a method is called. This is the basic idea behind using queued components—queued components need not be instantiated at the same time as the calling application.
+Making method calls on a queued component does not directly execute the method. Rather, [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page.md) marshals and stores method calls and parameters in a queue where they are later retrieved and executed by the queued component. Unlike activating a remote DCOM object, the queued component is not instantiated when a method is called. This is the basic idea behind using queued components—queued components need not be instantiated at the same time as the calling application.
 
 > [!Note]  
 > The descriptions for activating a queued application assume that the application is marked as queued and that the listener check box is enabled.

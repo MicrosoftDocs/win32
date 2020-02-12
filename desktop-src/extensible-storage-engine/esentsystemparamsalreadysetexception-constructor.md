@@ -2,7 +2,7 @@
 title: EsentSystemParamsAlreadySetException constructor 
 TOCTitle: 'EsentSystemParamsAlreadySetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSystemParamsAlreadySetException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsystemparamsalreadysetexception.esentsystemparamsalreadysetexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentsystemparamsalreadysetexception.esentsystemparamsalreadysetexception(v=EXCHG.10)
 ms:contentKeyID: 55103005
 ms.date: 07/30/2014
 ms.topic: reference

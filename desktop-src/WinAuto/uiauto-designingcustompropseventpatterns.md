@@ -70,7 +70,7 @@ A custom event should adhere to the following design guidelines:
 
 ### Custom UI Automation Events and WinEvents
 
-[WinEvents](winevents-collision169.md) are a useful interprocess communication and eventing mechanism in the Microsoft Windows platform. However, introducing a new WinEvent ID is risky because it can cause collisions with other applications or the operating system, resulting in the system becoming unstable. To avoid collisions, Microsoft has defined several different categories of WinEvents and, for each category, has defined one or more ranges of values for use as WinEvent IDs. For more information, see [Allocation of WinEvent IDs](allocation-of-winevent-ids.md).
+[WinEvents](winevents-infrastructure.md) are a useful interprocess communication and eventing mechanism in the Microsoft Windows platform. However, introducing a new WinEvent ID is risky because it can cause collisions with other applications or the operating system, resulting in the system becoming unstable. To avoid collisions, Microsoft has defined several different categories of WinEvents and, for each category, has defined one or more ranges of values for use as WinEvent IDs. For more information, see [Allocation of WinEvent IDs](allocation-of-winevent-ids.md).
 
 Custom UI Automation events avoid conflicts by allocating the event ID internally in the UI Automation framework.
 

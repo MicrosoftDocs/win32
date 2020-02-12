@@ -66,7 +66,7 @@
           href: troubleshooting-a-remote-wmi-connection.md
         - name: "Setting Up a Fixed Port for WMI"
           href: setting-up-a-fixed-port-for-wmi.md
-        - name: "Delegating wtih WMI"
+        - name: "Delegating with WMI"
           href: connecting-to-a-3rd-computer-delegation.md
         - name: "Connecting to WMI Remotely with VBScript"
           href: connecting-to-wmi-remotely-with-vbscript.md

@@ -52,7 +52,7 @@ Represents a group of controls in a [**SizeDefinition**](windowsribbon-element-s
 <td><strong>SequenceNumber</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
 <td>No<br/></td>
-<td>Valid only when <a href="windowsribbon-element-group"><strong>Group</strong></a> is the parent element.<br/> Each <em>SequenceNumber</em> must be unique within a <a href="windowsribbon-element-group"><strong>Group</strong></a> element. The values for <em>SequenceNumber</em> should increase for each <strong>Group</strong> element, but do not need to be sequential. <br/> <br/>
+<td>Valid only when <a href="windowsribbon-element-group.md"><strong>Group</strong></a> is the parent element.<br/> Each <em>SequenceNumber</em> must be unique within a <a href="windowsribbon-element-group.md"><strong>Group</strong></a> element. The values for <em>SequenceNumber</em> should increase for each <strong>Group</strong> element, but do not need to be sequential. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger)<br/> </dt> <dd> Any positive integer value between 1000 and 59999, inclusive.<br/> </dd> </dl></td>
 </tr>
 </tbody>

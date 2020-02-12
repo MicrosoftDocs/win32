@@ -173,8 +173,8 @@ An asynchronous MFT must implement the [**IMFTransform::GetAttributes**](/window
 Asynchronous MFTs are not compatible with the original MFT data processing model. To prevent asynchronous MFTs from breaking existing applications, the following mechanism is defined:
 
 <dl> The client calls <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes">IMFTransform::GetAttributes</a> on the MFT.  
-The client queries the for this <a href="mf-transform-async">MF_TRANSFORM_ASYNC</a> attribute. For an asynchronous MFT, the value of this attribute is **TRUE**.  
-To unlock the MFT, the client must sets the <a href="mf-transform-async-unlock">MF_TRANSFORM_ASYNC_UNLOCK</a> attribute to **TRUE**.  
+The client queries the for this <a href="mf-transform-async.md">MF_TRANSFORM_ASYNC</a> attribute. For an asynchronous MFT, the value of this attribute is **TRUE**.  
+To unlock the MFT, the client must sets the <a href="mf-transform-async-unlock.md">MF_TRANSFORM_ASYNC_UNLOCK</a> attribute to **TRUE**.  
 </dl>
 
 Until the client unlocks the MFT, all [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) methods should return **MF_E_TRANSFORM_ASYNC_LOCKED**, with the following exceptions:

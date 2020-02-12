@@ -2,7 +2,7 @@
 title: EsentInvalidSystemPathException methods
 TOCTitle: EsentInvalidSystemPathException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinvalidsystempathexception_methods(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinvalidsystempathexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55102083
 ms.date: 07/30/2014
 ms.topic: article

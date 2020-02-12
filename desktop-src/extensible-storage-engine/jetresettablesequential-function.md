@@ -2,7 +2,7 @@
 title: JetResetTableSequential Function
 TOCTitle: JetResetTableSequential Function
 ms:assetid: 5fe9daf2-5ef1-46d6-b0c3-ef92fb57d8bb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269261(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269261(v=EXCHG.10)
 ms:contentKeyID: 32765563
 ms.date: 04/11/2016
 ms.topic: reference

@@ -166,7 +166,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Increments the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly"><em>reference count</em></a> on an <a href="hcryptprov"><strong>HCRYPTPROV</strong></a> handle.</td>
+<br/> Increments the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly"><em>reference count</em></a> on an <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> handle.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a></td>
@@ -206,7 +206,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Installs a previously acquired <a href="hcryptprov"><strong>HCRYPTPROV</strong></a> context to be used as a default context.</td>
+<br/> Installs a previously acquired <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> context to be used as a default context.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseContext</strong></a></td>
@@ -241,7 +241,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 <br/> Removes a default context previously installed by <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a>.</td>
 </tr>
 <tr class="even">
-<td><a href="freecryptprovfromcertex"><strong>FreeCryptProvFromCertEx</strong></a></td>
+<td><a href="freecryptprovfromcertex.md"><strong>FreeCryptProvFromCertEx</strong></a></td>
 <td>Releases the handle either to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP) or to a Cryptography API: Next Generation (CNG) key.</td>
 </tr>
 </tbody>

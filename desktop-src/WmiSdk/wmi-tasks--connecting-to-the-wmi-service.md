@@ -54,14 +54,14 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...connect to a remote computer using WMI?</td>
-<td>Specify one of the following as part of your <a href="constructing-a-moniker-string">moniker</a> connection string:<br/>
+<td>Specify one of the following as part of your <a href="constructing-a-moniker-string.md">moniker</a> connection string:<br/>
 <ul>
 <li>A NetBIOS computer name, such as &quot;atl-dc-01&quot;</li>
 <li>A fully qualified domain name, such as &quot;atl-dc-01.fabrikam.com&quot;</li>
 <li>An IPv4 address, such as &quot;192.168.1.1&quot;</li>
 <li>Starting with Windows Vista, you can specify an IPv6 address if the target computer and the computer from which you are making the connection both run IPv6.<br/></li>
 </ul>
-For more information, see <a href="connecting-to-wmi-on-a-remote-computer">Connecting to WMI on a Remote Computer</a> and <a href="ipv6-and-ipv4-support-in-wmi">IPv6 and IPv4 Support in WMI</a>.<br/> <span data-codelanguage="VisualBasic"></span>
+For more information, see <a href="connecting-to-wmi-on-a-remote-computer.md">Connecting to WMI on a Remote Computer</a> and <a href="ipv6-and-ipv4-support-in-wmi.md">IPv6 and IPv4 Support in WMI</a>.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -103,7 +103,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 </tr>
 <tr class="even">
 <td>...run a WMI script under alternate credentials?</td>
-<td><p>Use the <a href="swbemlocator-connectserver"><strong>SWbemLocator.ConnectServer</strong></a> method, or <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver"><strong>IWbemLocator::ConnectServer</strong></a> in C++, and include the appropriate user name and password. You cannot change credentials when connecting to the local computer. For more information, see <a href="creating-a-wmi-script">Creating a WMI Script</a> and <a href="connecting-to-wmi-on-a-remote-computer">Connecting to WMI on a Remote Computer</a>.</p>
+<td><p>Use the <a href="swbemlocator-connectserver.md"><strong>SWbemLocator.ConnectServer</strong></a> method, or <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver"><strong>IWbemLocator::ConnectServer</strong></a> in C++, and include the appropriate user name and password. You cannot change credentials when connecting to the local computer. For more information, see <a href="creating-a-wmi-script.md">Creating a WMI Script</a> and <a href="connecting-to-wmi-on-a-remote-computer.md">Connecting to WMI on a Remote Computer</a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>

@@ -2,7 +2,7 @@
 title: JET_RETINFO Structure
 TOCTitle: JET_RETINFO Structure
 ms:assetid: a47a7902-3ecd-4d42-941f-89d25d78eb4c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294049(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294049(v=EXCHG.10)
 ms:contentKeyID: 32765648
 ms.date: 04/11/2016
 ms.topic: reference

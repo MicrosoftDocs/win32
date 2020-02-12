@@ -218,7 +218,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>StencilFail</td>
 <td>dword</td>
-<td>Same values as <a href="d3dstencilcaps">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL.</td>
+<td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILFAIL.</td>
 </tr>
 <tr class="even">
 <td>StencilFunc</td>
@@ -233,7 +233,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>StencilPass</td>
 <td>dword</td>
-<td>Same values as <a href="d3dstencilcaps">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS.</td>
+<td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILPASS.</td>
 </tr>
 <tr class="odd">
 <td>StencilRef</td>
@@ -248,12 +248,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>StencilZFail</td>
 <td>dword</td>
-<td>Same values as <a href="d3dstencilcaps">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL.</td>
+<td>Same values as <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> without the D3DSTENCILCAP_ prefix. See D3DRS_STENCILZFAIL.</td>
 </tr>
 <tr class="even">
 <td>TextureFactor</td>
 <td>dword</td>
-<td>Same values as <a href="d3dcolor"><strong>D3DCOLOR</strong></a>. Same values as D3DRS_TEXTUREFACTOR.</td>
+<td>Same values as <a href="d3dcolor.md"><strong>D3DCOLOR</strong></a>. Same values as D3DRS_TEXTUREFACTOR.</td>
 </tr>
 <tr class="odd">
 <td>Wrap0 - Wrap15</td>

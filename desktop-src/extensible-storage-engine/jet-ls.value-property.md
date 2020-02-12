@@ -2,7 +2,7 @@
 title: JET_LS.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LS.Value
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_ls.value(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_ls.value(v=EXCHG.10)
 ms:contentKeyID: 39510249
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JetGetAttachInfo Function
 TOCTitle: JetGetAttachInfo Function
 ms:assetid: 6b1392f3-f40a-4eb0-aea8-1508b23ed649
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269286(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269286(v=EXCHG.10)
 ms:contentKeyID: 32765578
 ms.date: 04/11/2016
 ms.topic: reference

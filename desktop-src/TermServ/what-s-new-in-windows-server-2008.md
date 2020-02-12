@@ -29,32 +29,32 @@ Windows Server 2008 introduces the following new programming elements for Termin
 <td>Dynamic Virtual Channels Reference<br/></td>
 <td>Dynamic virtual channel (DVC) APIs extend the existing virtual channel APIs for Terminal Services, known as static virtual channel (SVC) APIs.<br/>
 <ul>
-<li><a href="dynamic-virtual-channels">Dynamic Virtual Channels</a></li>
-<li><a href="dynamic-virtual-channels-reference">Dynamic Virtual Channels Reference</a></li>
+<li><a href="dynamic-virtual-channels.md">Dynamic Virtual Channels</a></li>
+<li><a href="dynamic-virtual-channels-reference.md">Dynamic Virtual Channels Reference</a></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Remote Desktop Web Connection Reference<br/></td>
-<td>The following interfaces (and their associated methods and properties) were added to <a href="remote-desktop-web-connection-reference">Remote Desktop Web Connection Reference</a>:<br/>
+<td>The following interfaces (and their associated methods and properties) were added to <a href="remote-desktop-web-connection-reference.md">Remote Desktop Web Connection Reference</a>:<br/>
 <ul>
-<li><a href="imsrdpclient5"><strong>IMsRdpClient5 Interface</strong></a></li>
-<li><a href="imsrdpclient6"><strong>IMsRdpClient6 Interface</strong></a></li>
-<li><a href="imsrdpclientadvancedsettings5"><strong>IMsRdpClientAdvancedSettings5 Interface</strong></a></li>
-<li><a href="imsrdpclientadvancedsettings6"><strong>IMsRdpClientAdvancedSettings6 Interface</strong></a></li>
-<li><a href="imsrdpclientnonscriptable3"><strong>IMsRdpClientNonScriptable3 Interface</strong></a></li>
-<li><a href="imsrdpclientshell"><strong>IMsRdpClientShell Interface</strong></a></li>
-<li><a href="imsrdpclienttransportsettings"><strong>IMsRdpClientTransportSettings Interface</strong></a></li>
-<li><a href="imsrdpclienttransportsettings2"><strong>IMsRdpClientTransportSettings2 Interface</strong></a></li>
-<li><a href="imsrdpdevice"><strong>IMsRdpDevice Interface</strong></a></li>
-<li><a href="imsrdpdevicecollection"><strong>IMsRdpDeviceCollection Interface</strong></a></li>
-<li><a href="imsrdpdrive"><strong>IMsRdpDrive Interface</strong></a></li>
-<li><a href="imsrdpdrivecollection"><strong>IMsRdpDriveCollection Interface</strong></a></li>
-<li><a href="itsremoteprogram"><strong>ITSRemoteProgram Interface</strong></a></li>
+<li><a href="imsrdpclient5.md"><strong>IMsRdpClient5 Interface</strong></a></li>
+<li><a href="imsrdpclient6.md"><strong>IMsRdpClient6 Interface</strong></a></li>
+<li><a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5 Interface</strong></a></li>
+<li><a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6 Interface</strong></a></li>
+<li><a href="imsrdpclientnonscriptable3.md"><strong>IMsRdpClientNonScriptable3 Interface</strong></a></li>
+<li><a href="imsrdpclientshell.md"><strong>IMsRdpClientShell Interface</strong></a></li>
+<li><a href="imsrdpclienttransportsettings.md"><strong>IMsRdpClientTransportSettings Interface</strong></a></li>
+<li><a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2 Interface</strong></a></li>
+<li><a href="imsrdpdevice.md"><strong>IMsRdpDevice Interface</strong></a></li>
+<li><a href="imsrdpdevicecollection.md"><strong>IMsRdpDeviceCollection Interface</strong></a></li>
+<li><a href="imsrdpdrive.md"><strong>IMsRdpDrive Interface</strong></a></li>
+<li><a href="imsrdpdrivecollection.md"><strong>IMsRdpDriveCollection Interface</strong></a></li>
+<li><a href="itsremoteprogram.md"><strong>ITSRemoteProgram Interface</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Terminal Services API Reference<br/></td>
-<td>The following functions were added to <a href="terminal-services-api-reference">Terminal Services API Reference</a>:<br/>
+<td>The following functions were added to <a href="terminal-services-api-reference.md">Terminal Services API Reference</a>:<br/>
 <ul>
 <li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsconnectsessiona"><strong>WTSConnectSession Function</strong></a></li>
 <li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex"><strong>WTSRegisterSessionNotificationEx Function</strong></a></li>
@@ -71,28 +71,28 @@ The following structures were added:<br/>
 </tr>
 <tr class="even">
 <td>Terminal Services WMI Provider<br/></td>
-<td>The following classes and methods were added to the <a href="terminal-services-wmi-provider">Terminal Services WMI Provider</a>.<br/>
+<td>The following classes and methods were added to the <a href="terminal-services-wmi-provider.md">Terminal Services WMI Provider</a>.<br/>
 <ul>
-<li><a href="terminal-services-gateway-classes">Terminal Services Gateway Classes (and associated methods)</a></li>
-<li><a href="terminal-services-license-server-classes">Terminal Services License Server Classes (and associated methods)</a></li>
-<li><a href="terminal-services-remoteapp-classes">RemoteApp Classes (and associated methods)</a></li>
-<li><a href="win32-tsdiscoveredlicenseserver"><strong>Win32_TSDiscoveredLicenseServer Class</strong></a></li>
-<li><a href="create-win32-terminal"><strong>Create Method of the Win32_Terminal Class</strong></a></li>
-<li><a href="delete-win32-terminal"><strong>Delete Method of the Win32_Terminal Class</strong></a></li>
-<li><a href="canaccesslicenseserver-win32-terminalservicesetting"><strong>CanAccessLicenseServer Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="findlicenseservers-win32-terminalservicesetting"><strong>FindLicenseServers Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="getdomain-win32-terminalservicesetting"><strong>GetDomain Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="getgraceperioddays-win32-terminalservicesetting"><strong>GetGracePeriodDays Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="getwinstationdrivernames-win32-terminalservicesetting"><strong>GetWinstationDriverNames Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="pinglicenseserver-win32-terminalservicesetting"><strong>PingLicenseServer Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="updatedirectconnectlicenseserver-win32-terminalservicesetting"><strong>UpdateDirectConnectLicenseServer Method of the Win32_TerminalServiceSetting Class</strong></a></li>
-<li><a href="setuserauthenticationrequired-win32-tsgeneralsetting"><strong>SetUserAuthenticationRequired Method of the Win32_TSGeneralSetting Class</strong></a></li>
-<li><a href="getcurrentredirectableaddresses-win32-tssessiondirectory"><strong>GetCurrentRedirectableAddresses Method of the Win32_TSSessionDirectory Class</strong></a></li>
-<li><a href="setcurrentredirectableaddresses-win32-tssessiondirectory"><strong>SetCurrentRedirectableAddresses Method of the Win32_TSSessionDirectory Class</strong></a></li>
-<li><a href="getredirectableaddresses-win32-tssessiondirectory"><strong>GetRedirectableAddresses Method of the Win32_TSSessionDirectory Class</strong></a></li>
-<li><a href="pingsessiondirectory-win32-tssessiondirectory"><strong>PingSessionDirectory Method of the Win32_TSSessionDirectory Class</strong></a></li>
-<li><a href="setloadbalancingstate-win32-tssessiondirectory"><strong>SetLoadBalancingState Method of the Win32_TSSessionDirectory Class</strong></a></li>
-<li><a href="setserverweight-win32-tssessiondirectory"><strong>SetServerWeight Method of the Win32_TSSessionDirectory Class</strong></a></li>
+<li><a href="terminal-services-gateway-classes.md">Terminal Services Gateway Classes (and associated methods)</a></li>
+<li><a href="terminal-services-license-server-classes.md">Terminal Services License Server Classes (and associated methods)</a></li>
+<li><a href="terminal-services-remoteapp-classes.md">RemoteApp Classes (and associated methods)</a></li>
+<li><a href="win32-tsdiscoveredlicenseserver.md"><strong>Win32_TSDiscoveredLicenseServer Class</strong></a></li>
+<li><a href="create-win32-terminal.md"><strong>Create Method of the Win32_Terminal Class</strong></a></li>
+<li><a href="delete-win32-terminal.md"><strong>Delete Method of the Win32_Terminal Class</strong></a></li>
+<li><a href="canaccesslicenseserver-win32-terminalservicesetting.md"><strong>CanAccessLicenseServer Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="findlicenseservers-win32-terminalservicesetting.md"><strong>FindLicenseServers Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="getdomain-win32-terminalservicesetting.md"><strong>GetDomain Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="getgraceperioddays-win32-terminalservicesetting.md"><strong>GetGracePeriodDays Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="getwinstationdrivernames-win32-terminalservicesetting.md"><strong>GetWinstationDriverNames Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="pinglicenseserver-win32-terminalservicesetting.md"><strong>PingLicenseServer Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="updatedirectconnectlicenseserver-win32-terminalservicesetting.md"><strong>UpdateDirectConnectLicenseServer Method of the Win32_TerminalServiceSetting Class</strong></a></li>
+<li><a href="setuserauthenticationrequired-win32-tsgeneralsetting.md"><strong>SetUserAuthenticationRequired Method of the Win32_TSGeneralSetting Class</strong></a></li>
+<li><a href="getcurrentredirectableaddresses-win32-tssessiondirectory.md"><strong>GetCurrentRedirectableAddresses Method of the Win32_TSSessionDirectory Class</strong></a></li>
+<li><a href="setcurrentredirectableaddresses-win32-tssessiondirectory.md"><strong>SetCurrentRedirectableAddresses Method of the Win32_TSSessionDirectory Class</strong></a></li>
+<li><a href="getredirectableaddresses-win32-tssessiondirectory.md"><strong>GetRedirectableAddresses Method of the Win32_TSSessionDirectory Class</strong></a></li>
+<li><a href="pingsessiondirectory-win32-tssessiondirectory.md"><strong>PingSessionDirectory Method of the Win32_TSSessionDirectory Class</strong></a></li>
+<li><a href="setloadbalancingstate-win32-tssessiondirectory.md"><strong>SetLoadBalancingState Method of the Win32_TSSessionDirectory Class</strong></a></li>
+<li><a href="setserverweight-win32-tssessiondirectory.md"><strong>SetServerWeight Method of the Win32_TSSessionDirectory Class</strong></a></li>
 </ul></td>
 </tr>
 <tr class="odd">

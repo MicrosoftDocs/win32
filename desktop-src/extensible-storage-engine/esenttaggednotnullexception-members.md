@@ -2,7 +2,7 @@
 title: EsentTaggedNotNULLException members
 TOCTitle: EsentTaggedNotNULLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esenttaggednotnullexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esenttaggednotnullexception_members(v=EXCHG.10)
 ms:contentKeyID: 55103027
 ms.date: 07/30/2014
 ms.topic: article

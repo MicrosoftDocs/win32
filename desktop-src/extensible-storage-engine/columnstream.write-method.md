@@ -2,7 +2,7 @@
 title: ColumnStream.Write method 
 TOCTitle: 'Write method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Write(System.Byte[],System.Int32,System.Int32)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnstream.write(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.columnstream.write(v=EXCHG.10)
 ms:contentKeyID: 55100987
 ms.date: 07/30/2014
 ms.topic: reference

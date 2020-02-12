@@ -157,6 +157,12 @@ void CreateChildProcess()
 
       CloseHandle(piProcInfo.hProcess);
       CloseHandle(piProcInfo.hThread);
+      
+      // Close handles to the stdin and stdout pipes no longer needed by the child process.
+      // If they are not explicitly closed, there is no way to recognize that the child process has ended.
+      
+      CloseHandle(g_hChildStd_OUT_Wr);
+      CloseHandle(g_hChildStd_IN_Rd);
    }
 }
  

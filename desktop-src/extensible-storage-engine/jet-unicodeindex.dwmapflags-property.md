@@ -2,7 +2,7 @@
 title: JET_UNICODEINDEX.dwMapFlags property 
 TOCTitle: 'dwMapFlags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.dwMapFlags
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex.dwmapflags(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_unicodeindex.dwmapflags(v=EXCHG.10)
 ms:contentKeyID: 55103990
 ms.date: 07/30/2014
 ms.topic: reference

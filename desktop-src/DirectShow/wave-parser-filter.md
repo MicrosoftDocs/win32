@@ -37,7 +37,7 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Major type: MEDIATYPE_AudioSubtype: MEDIASUBTYPE_PCM or other compression type. (See <a href="audio-subtypes"><strong>Audio Subtypes</strong></a>.)<br/> Format type: FORMAT_WaveFormatEx<br/></td>
+<td>Major type: MEDIATYPE_AudioSubtype: MEDIASUBTYPE_PCM or other compression type. (See <a href="audio-subtypes.md"><strong>Audio Subtypes</strong></a>.)<br/> Format type: FORMAT_WaveFormatEx<br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
@@ -56,11 +56,11 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_UNLIKELY</td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

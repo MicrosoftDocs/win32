@@ -2,7 +2,7 @@
 title: InstanceParameters.WaypointLatency property 
 TOCTitle: 'WaypointLatency property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.WaypointLatency
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.waypointlatency(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instanceparameters.waypointlatency(v=EXCHG.10)
 ms:contentKeyID: 55103325
 ms.date: 07/30/2014
 ms.topic: reference

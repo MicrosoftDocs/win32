@@ -2,7 +2,7 @@
 title: Update members
 TOCTitle: Update members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Update
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.update_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.update_members(v=EXCHG.10)
 ms:contentKeyID: 55104188
 ms.date: 07/30/2014
 ms.topic: article

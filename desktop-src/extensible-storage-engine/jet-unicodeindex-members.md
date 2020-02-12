@@ -2,7 +2,7 @@
 title: JET_UNICODEINDEX members
 TOCTitle: JET_UNICODEINDEX members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_unicodeindex_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_unicodeindex_members(v=EXCHG.10)
 ms:contentKeyID: 55104013
 ms.date: 07/30/2014
 ms.topic: article

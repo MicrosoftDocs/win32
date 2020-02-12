@@ -2,7 +2,7 @@
 title: EsentSesidTableIdMismatchException properties
 TOCTitle: EsentSesidTableIdMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentsesidtableidmismatchexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentsesidtableidmismatchexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102702
 ms.date: 07/30/2014
 ms.topic: article

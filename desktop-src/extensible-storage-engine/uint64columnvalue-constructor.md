@@ -2,7 +2,7 @@
 title: UInt64ColumnValue constructor 
 TOCTitle: 'UInt64ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt64ColumnValue.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.uint64columnvalue.uint64columnvalue(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.uint64columnvalue.uint64columnvalue(v=EXCHG.10)
 ms:contentKeyID: 55104088
 ms.date: 07/30/2014
 ms.topic: reference

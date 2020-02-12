@@ -39,16 +39,16 @@ Handle to the window.
 The command. This parameter can have one of the following values:
 
 <dl>
-<dd><a href="imc-closestatuswindow">IMC_CLOSESTATUSWINDOW</a></dd> 
-<dd><a href="imc-getcandidatepos">IMC_GETCANDIDATEPOS</a></dd> 
-<dd><a href="imc-getcompositionfont">IMC_GETCOMPOSITIONFONT</a></dd> 
-<dd><a href="imc-getcompositionwindow">IMC_GETCOMPOSITIONWINDOW</a></dd> 
-<dd><a href="imc-getstatuswindowpos">IMC_GETSTATUSWINDOWPOS</a></dd> 
-<dd><a href="imc-openstatuswindow">IMC_OPENSTATUSWINDOW</a></dd> 
-<dd><a href="imc-setcandidatepos">IMC_SETCANDIDATEPOS</a></dd> 
-<dd><a href="imc-setcompositionfont">IMC_SETCOMPOSITIONFONT</a>></dd> 
-<dd><a href="imc-setcompositionwindow">IMC_SETCOMPOSITIONWINDOW</a></dd> 
-<dd><a href="imc-setstatuswindowpos">IMC_SETSTATUSWINDOWPOS</a></dd> 
+<dd><a href="imc-closestatuswindow.md">IMC_CLOSESTATUSWINDOW</a></dd> 
+<dd><a href="imc-getcandidatepos.md">IMC_GETCANDIDATEPOS</a></dd> 
+<dd><a href="imc-getcompositionfont.md">IMC_GETCOMPOSITIONFONT</a></dd> 
+<dd><a href="imc-getcompositionwindow.md">IMC_GETCOMPOSITIONWINDOW</a></dd> 
+<dd><a href="imc-getstatuswindowpos.md">IMC_GETSTATUSWINDOWPOS</a></dd> 
+<dd><a href="imc-openstatuswindow.md">IMC_OPENSTATUSWINDOW</a></dd> 
+<dd><a href="imc-setcandidatepos.md">IMC_SETCANDIDATEPOS</a></dd> 
+<dd><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a>></dd> 
+<dd><a href="imc-setcompositionwindow.md">IMC_SETCOMPOSITIONWINDOW</a></dd> 
+<dd><a href="imc-setstatuswindowpos.md">IMC_SETSTATUSWINDOWPOS</a></dd> 
 </dl>
 </dd>
 

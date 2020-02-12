@@ -2,7 +2,7 @@
 title: EsentUpdateNotPreparedException class
 TOCTitle: EsentUpdateNotPreparedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentupdatenotpreparedexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentupdatenotpreparedexception(v=EXCHG.10)
 ms:contentKeyID: 55107339
 ms.date: 07/30/2014
 ms.topic: reference

@@ -117,7 +117,7 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 <tbody>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw"><strong>AutoRedraw Property</strong></a></td>
-<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the <a href="inkdisp-class"><strong>InkDisp</strong></a> object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
+<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the <a href="inkdisp-class.md"><strong>InkDisp</strong></a> object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor"><strong>BackColor</strong></a></td>
@@ -141,7 +141,7 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes"><strong>DefaultDrawingAttributes Property</strong></a></td>
-<td>Gets or sets the default <a href="inkdrawingattributes-class"><strong>InkDrawingAttributes</strong></a> collection to use when drawing and displaying ink (run time only).<br/></td>
+<td>Gets or sets the default <a href="inkdrawingattributes-class.md"><strong>InkDrawingAttributes</strong></a> collection to use when drawing and displaying ink (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription"><strong>DesiredPacketDescription Property</strong></a></td>
@@ -178,7 +178,7 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink"><strong>Ink</strong></a></td>
-<td>Gets or sets the <a href="inkdisp-class"><strong>InkDisp</strong></a> object that is associated with the InkPicture control (run time only).<br/></td>
+<td>Gets or sets the <a href="inkdisp-class.md"><strong>InkDisp</strong></a> object that is associated with the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>InkEnabled</strong></a></td>
@@ -206,7 +206,7 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer"><strong>Renderer Property</strong></a></td>
-<td>Gets or sets the <a href="inkrenderer-class"><strong>InkRenderer</strong></a> object that is used to draw ink on the InkPicture control (run time only).<br/></td>
+<td>Gets or sets the <a href="inkrenderer-class.md"><strong>InkRenderer</strong></a> object that is used to draw ink on the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Selection</strong></a></td>

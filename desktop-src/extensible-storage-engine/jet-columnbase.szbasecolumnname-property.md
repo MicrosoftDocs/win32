@@ -2,7 +2,7 @@
 title: JET_COLUMNBASE.szBaseColumnName property 
 TOCTitle: 'szBaseColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseColumnName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_columnbase.szbasecolumnname(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columnbase.szbasecolumnname(v=EXCHG.10)
 ms:contentKeyID: 55103467
 ms.date: 07/30/2014
 ms.topic: reference

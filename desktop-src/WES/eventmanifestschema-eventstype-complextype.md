@@ -105,8 +105,8 @@ Contains a list of providers that are defined in the manifest.
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="eventmanifestschema-provider-eventstype-element"><strong>provider</strong></a></td>
-<td><a href="eventmanifestschema-providertype-complextype"><strong>ProviderType</strong></a></td>
+<td><a href="eventmanifestschema-provider-eventstype-element.md"><strong>provider</strong></a></td>
+<td><a href="eventmanifestschema-providertype-complextype.md"><strong>ProviderType</strong></a></td>
 <td>A list of providers that you want to define.<br/></td>
 </tr>
 </tbody>

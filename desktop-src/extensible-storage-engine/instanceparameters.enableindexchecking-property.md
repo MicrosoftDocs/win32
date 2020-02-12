@@ -2,7 +2,7 @@
 title: InstanceParameters.EnableIndexChecking property 
 TOCTitle: 'EnableIndexChecking property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EnableIndexChecking
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.instanceparameters.enableindexchecking(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.instanceparameters.enableindexchecking(v=EXCHG.10)
 ms:contentKeyID: 55103567
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: JET_SNT
 TOCTitle: JET_SNT
 ms:assetid: 74ac5142-8102-4dd3-8f2a-786a7a2ac78f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269294(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269294(v=EXCHG.10)
 ms:contentKeyID: 32765586
 ms.date: 04/11/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentInstanceUnavailableException class
 TOCTitle: EsentInstanceUnavailableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentinstanceunavailableexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentinstanceunavailableexception(v=EXCHG.10)
 ms:contentKeyID: 55101879
 ms.date: 07/30/2014
 ms.topic: reference

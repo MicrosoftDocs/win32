@@ -2,7 +2,7 @@
 title: JetOSSnapshotThaw Function
 TOCTitle: JetOSSnapshotThaw Function
 ms:assetid: 3b001113-6299-4082-ab15-461f2e33e996
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269229(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269229(v=EXCHG.10)
 ms:contentKeyID: 32765531
 ms.date: 04/11/2016
 ms.topic: reference

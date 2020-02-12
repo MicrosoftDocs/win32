@@ -2,7 +2,7 @@
 title: JET_INSTANCE structure
 TOCTitle: JET_INSTANCE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INSTANCE
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_instance(v=EXCHG.10)
 ms:contentKeyID: 39510997
 ms.date: 07/30/2014
 ms.topic: reference

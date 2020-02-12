@@ -2,7 +2,7 @@
 title: JetEndExternalBackup Function
 TOCTitle: JetEndExternalBackup Function
 ms:assetid: 058f903b-14b7-44b3-9ec7-7c05c9ec6363
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269176(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269176(v=EXCHG.10)
 ms:contentKeyID: 32765479
 ms.date: 04/11/2016
 ms.topic: reference

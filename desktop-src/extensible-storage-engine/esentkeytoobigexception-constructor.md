@@ -2,7 +2,7 @@
 title: EsentKeyTooBigException constructor 
 TOCTitle: 'EsentKeyTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyTooBigException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentkeytoobigexception.esentkeytoobigexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentkeytoobigexception.esentkeytoobigexception(v=EXCHG.10)
 ms:contentKeyID: 55102049
 ms.date: 07/30/2014
 ms.topic: reference

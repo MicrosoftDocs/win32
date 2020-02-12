@@ -194,11 +194,11 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Simple tables</td>
-<td>Deleting and inserting rows is possible, but not resizing nor wrapping inside cells. With advanced typography turned on (see <a href="em-gettypographyoptions"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3.0 can align columns centered or flush right, and include decimals. Cells are simulated by tabs, so text tabs and carriage returns are replaced by blanks.</td>
+<td>Deleting and inserting rows is possible, but not resizing nor wrapping inside cells. With advanced typography turned on (see <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3.0 can align columns centered or flush right, and include decimals. Cells are simulated by tabs, so text tabs and carriage returns are replaced by blanks.</td>
 </tr>
 <tr class="even">
 <td>Normal and heading styles</td>
-<td>Built-in normal style and heading styles 1 through 9 are supported by the <a href="em-setparaformat"><strong>EM_SETPARAFORMAT</strong></a> and <a href="text-object-model">Text Object Model</a> (TOM) interfaces.</td>
+<td>Built-in normal style and heading styles 1 through 9 are supported by the <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> and <a href="text-object-model.md">Text Object Model</a> (TOM) interfaces.</td>
 </tr>
 <tr class="odd">
 <td>More underline types</td>
@@ -234,7 +234,7 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Advanced typography option</td>
-<td>Microsoft Rich Edit 3.0 can use an advanced typography option for line breaking and display (see <a href="em-gettypographyoptions"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). This elegant option was added primarily to facilitate handling complex scripts (bidirectional, Indic, and Thai). In addition, a number of improvements occur for simple scripts. Examples are:
+<td>Microsoft Rich Edit 3.0 can use an advanced typography option for line breaking and display (see <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). This elegant option was added primarily to facilitate handling complex scripts (bidirectional, Indic, and Thai). In addition, a number of improvements occur for simple scripts. Examples are:
 <ul>
 <li>Center, right, decimal tabs</li>
 <li>Fully justified text</li>
@@ -247,7 +247,7 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Font binding</td>
-<td>Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see <a href="using-rich-edit-controls">Font Binding</a>.</td>
+<td>Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see <a href="using-rich-edit-controls.md">Font Binding</a>.</td>
 </tr>
 <tr class="even">
 <td>Plain-text read/write options specific to character sets</td>
@@ -318,44 +318,44 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 <tbody>
 <tr class="odd">
 <td>Hyphenation</td>
-<td>Hyphenation is supported through the following APIs: <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo"><strong>EM_SETHYPHENATEINFO</strong></a>, and <a href="em-gethyphenateinfo"><strong>EM_GETHYPHENATEINFO</strong></a>.</td>
+<td>Hyphenation is supported through the following APIs: <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>, and <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>.</td>
 </tr>
 <tr class="even">
 <td>Page rotation</td>
-<td>Top-to-bottom and bottom-to-top layout is supported through <a href="em-setpagerotate"><strong>EM_SETPAGEROTATE</strong></a> and <a href="em-getpagerotate"><strong>EM_GETPAGEROTATE</strong></a>.</td>
+<td>Top-to-bottom and bottom-to-top layout is supported through <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> and <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Text Services Framework support</td>
 <td><ul>
-<li>To turn on TSF and certain TSF features, use the following styles in <a href="em-seteditstyle"><strong>EM_SETEDITSTYLE</strong></a>: SES_USECTF, SES_CTFALLOWEMBED, SES_CTFALLOWPROOFING, and SES_CTFALLOWSMARTTAG.</li>
-<li>To set and get the TSF mode bias, use <a href="em-setctfmodebias"><strong>EM_SETCTFMODEBIAS</strong></a> and <a href="em-getctfmodebias"><strong>EM_GETCTFMODEBIAS</strong></a>.</li>
-<li>To set and get the TSF keyboard status, use <a href="em-setctfopenstatus"><strong>EM_SETCTFOPENSTATUS</strong></a> and <a href="em-getctfopenstatus"><strong>EM_GETCTFOPENSTATUS</strong></a>.</li>
+<li>To turn on TSF and certain TSF features, use the following styles in <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>: SES_USECTF, SES_CTFALLOWEMBED, SES_CTFALLOWPROOFING, and SES_CTFALLOWSMARTTAG.</li>
+<li>To set and get the TSF mode bias, use <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> and <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>.</li>
+<li>To set and get the TSF keyboard status, use <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> and <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Additional IME support</td>
 <td><ul>
-<li>To set and get the IME mode bias, use <a href="em-setimemodebias"><strong>EM_SETIMEMODEBIAS</strong></a> and <a href="em-getimemodebias"><strong>EM_GETIMEMODEBIAS</strong></a>.</li>
-<li>To get the properties and capabilities of the IME, use <a href="em-getimeproperty"><strong>EM_GETIMEPROPERTY</strong></a>.</li>
-<li>To get the IME composition text, use <a href="em-getimecomptext"><strong>EM_GETIMECOMPTEXT</strong></a>.</li>
-<li>To determine whether the locale is an East Asian locale, use <a href="em-isime"><strong>EM_ISIME</strong></a>.</li>
+<li>To set and get the IME mode bias, use <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> and <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>.</li>
+<li>To get the properties and capabilities of the IME, use <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>.</li>
+<li>To get the IME composition text, use <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>.</li>
+<li>To determine whether the locale is an East Asian locale, use <a href="em-isime.md"><strong>EM_ISIME</strong></a>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Additional <a href="em-seteditstyle"><strong>EM_SETEDITSTYLE</strong></a> settings</td>
+<td>Additional <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a> settings</td>
 <td>Besides the TSF settings, there are new settings that exclude IMEs, set bidirectional text flow, use draftmode fonts, and more.</td>
 </tr>
 <tr class="even">
-<td>Additional <a href="em-setcharformat"><strong>EM_SETCHARFORMAT</strong></a> settings</td>
+<td>Additional <a href="em-setcharformat.md"><strong>EM_SETCHARFORMAT</strong></a> settings</td>
 <td>New flags allow the client to set the default font and font sizes for a given LCID or character set, to set the default font for the control, to prevent keyboard switching to match the font, and more.</td>
 </tr>
 <tr class="odd">
 <td>Restricting input to ANSI text</td>
-<td>Using <a href="/windows/desktop/api/Richedit/ne-richedit-tagtextmode"><strong>TM_SINGLECODEPAGE</strong></a> in <a href="em-settextmode"><strong>EM_SETTEXTMODE</strong></a> prevents Unicode input from entering a Rich Edit control.</td>
+<td>Using <a href="/windows/desktop/api/Richedit/ne-richedit-tagtextmode"><strong>TM_SINGLECODEPAGE</strong></a> in <a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a> prevents Unicode input from entering a Rich Edit control.</td>
 </tr>
 <tr class="even">
 <td>Unsupported RTF keyword notification</td>
-<td><a href="en-lowfirtf">EN_LOWFIRTF</a> warns an application when there is an unsupported RTF keyword.</td>
+<td><a href="en-lowfirtf.md">EN_LOWFIRTF</a> warns an application when there is an unsupported RTF keyword.</td>
 </tr>
 <tr class="odd">
 <td>Additional language support</td>
@@ -367,7 +367,7 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>ES_VERTICAL</td>
-<td>The <a href="rich-edit-control-styles"><strong>ES_VERTICAL</strong></a> window style is supported.</td>
+<td>The <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> window style is supported.</td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> support</td>

@@ -2,7 +2,7 @@
 title: DupCursorGrbit enumeration
 TOCTitle: DupCursorGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DupCursorGrbit
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.dupcursorgrbit(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.dupcursorgrbit(v=EXCHG.10)
 ms:contentKeyID: 39513663
 ms.date: 07/30/2014
 ms.topic: reference

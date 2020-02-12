@@ -2,7 +2,7 @@
 title: ColumnValue.Columnid property 
 TOCTitle: 'Columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.Columnid
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.columnvalue.columnid(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.columnvalue.columnid(v=EXCHG.10)
 ms:contentKeyID: 55101205
 ms.date: 07/30/2014
 ms.topic: reference

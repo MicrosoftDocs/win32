@@ -2,7 +2,7 @@
 title: EsentDatabaseInvalidPagesException constructor 
 TOCTitle: 'EsentDatabaseInvalidPagesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException.#ctor
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception.esentdatabaseinvalidpagesexception(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception.esentdatabaseinvalidpagesexception(v=EXCHG.10)
 ms:contentKeyID: 55101392
 ms.date: 07/30/2014
 ms.topic: reference

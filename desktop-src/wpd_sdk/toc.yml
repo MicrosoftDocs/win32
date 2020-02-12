@@ -145,14 +145,14 @@
         - name: "Registering Your Context Menu Handler"
           href: registering-your-context-menu-handler.md
         - name: "Supporting Device-Side Content"
-          href: supporting-device-side-content.md
+          href: supporting-device-side-content-context-menu.md
       - name: "Implementing Property Sheet Extensions"
         href: implementing-property-sheet-extensions.md
         items: 
         - name: "Registering Your Property Sheet Handler"
           href: registering-your-property-sheet-handler.md
         - name: "Supporting Device-Side Content"
-          href: supporting-device-side-content-collision475.md
+          href: supporting-device-side-content-property-sheet.md
       - name: "Supporting AutoPlay"
         href: supporting-autoplay.md
       - name: "Supporting MTP Extensions"

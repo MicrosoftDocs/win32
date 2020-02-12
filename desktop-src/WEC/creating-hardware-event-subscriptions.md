@@ -16,10 +16,10 @@ The following procedure defines how to create the SEL event subscription to retr
 1.  Save the following XML in an .xml file (in this example the file is named Wsmanselrg.xml). This XML defines the subscription.
 
     ```XML
-    <Subscription xmlns="https://schemas.microsoft.com/2006/03/windows/events/subscription">
+    <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
         <Description>A subscription for the HardwareEvents</Description>
         <SubscriptionId>WSManSelRg</SubscriptionId>
-        <Uri>https://schemas.microsoft.com/wbem/wsman/1/logrecord/sel</Uri>
+        <Uri>http://schemas.microsoft.com/wbem/wsman/1/logrecord/sel</Uri>
         <EventSources>
             <EventSource>
                 <Address>LOCALHOST</Address>

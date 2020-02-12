@@ -1515,7 +1515,7 @@
         href: unicode-and-character-set-functions.md
         items: 
         - name: "BytesToUnicode"
-          href: https://msdn.microsoft.com/en-us/library/Dd317724(v=VS.85).aspx
+          href: https://msdn.microsoft.com/library/Dd317724(v=VS.85).aspx
         - name: "GetTextCharset"
           href: /windows/desktop/api/Wingdi/nf-wingdi-gettextcharset
         - name: "GetTextCharsetInfo"

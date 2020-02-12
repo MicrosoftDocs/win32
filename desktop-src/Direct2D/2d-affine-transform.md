@@ -87,7 +87,7 @@ Although the input matrix is defined as a 3x2 matrix, the last column is padded 
 </tr>
 <tr class="odd">
 <td>TransformMatrix<br/> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
-<td>The 3x2 matrix to transform the image using the Direct2D matrix <a href="direct2d-transforms-overview">transform</a>. <br/> Type is D2D1_MATRIX_3X2_F.<br/> Default value is Matrix3x2F::Identity().<br/></td>
+<td>The 3x2 matrix to transform the image using the Direct2D matrix <a href="direct2d-transforms-overview.md">transform</a>. <br/> Type is D2D1_MATRIX_3X2_F.<br/> Default value is Matrix3x2F::Identity().<br/></td>
 </tr>
 <tr class="even">
 <td>Sharpness<br/> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br/></td>

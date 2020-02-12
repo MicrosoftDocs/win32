@@ -99,7 +99,7 @@ As a debugging aid, some developers have been enabling exceptions on the floatin
 Direct3D will set the floating-point unit to single-precision, round-to-nearest as part of initialization for the calling thread, unless the D3DCREATE\_FPU\_PRESERVE flag is used, in which case, the floating-point control word is untouched. Since the control word is a per-thread setting, ensuring that all of your application threads are set to single-precision mode may optimize performance. Remember that calling [**\_control87**](https://msdn.microsoft.com/library/e9b52ceh(v=VS.71).aspx) is not valid for x64-native coding, which uses SSE exclusively instead, and it is extremely expensive on the PowerPC-based architecture of the Xbox 360 CPU.
 
 > [!Note]  
-> If you modify the control word, use [**\_controlfp\_s**](https://msdn.microsoft.com/en-US/library/c9676k6h(v=VS.80).aspx) and be aware that for x64 platforms you can't change the floating-point precision via the control word.
+> If you modify the control word, use [**\_controlfp\_s**](https://msdn.microsoft.com/library/c9676k6h(v=VS.80).aspx) and be aware that for x64 platforms you can't change the floating-point precision via the control word.
 
  
 

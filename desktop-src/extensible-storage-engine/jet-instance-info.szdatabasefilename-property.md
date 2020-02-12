@@ -2,7 +2,7 @@
 title: JET_INSTANCE_INFO.szDatabaseFileName property 
 TOCTitle: 'szDatabaseFileName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.szDatabaseFileName
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.jet_instance_info.szdatabasefilename(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_instance_info.szdatabasefilename(v=EXCHG.10)
 ms:contentKeyID: 55103711
 ms.date: 07/30/2014
 ms.topic: reference

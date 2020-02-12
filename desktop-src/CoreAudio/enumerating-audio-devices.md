@@ -19,7 +19,7 @@ The client calls the [**IMMDeviceEnumerator::EnumAudioEndpoints**](/windows/desk
 A device collection is an object with an [**IMMDeviceCollection**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevicecollection) interface. Each item in a device collection is an endpoint object with at least the following two interfaces:
 
 -   An [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) interface. A client obtains a reference to the **IMMDevice** interface of an endpoint object in a device collection by calling the [**IMMDeviceCollection::Item**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item) method.
--   An [**IMMEndpoint**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immendpoint) interface. A client obtains a reference to the **IMMEndpoint** interface of an endpoint object by calling the [**IMMDevice::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) method.
+-   An [**IMMEndpoint**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immendpoint) interface. A client obtains a reference to the **IMMEndpoint** interface of an endpoint object by calling the [**IMMDevice::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method.
 
 After retrieving a collection of endpoint devices, the client can query the properties of the individual devices in the collection to determine their suitability for use. For a code example that shows how to enumerate endpoint devices and query their properties, see [Device Properties](device-properties.md).
 

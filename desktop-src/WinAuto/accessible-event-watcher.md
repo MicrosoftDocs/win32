@@ -155,4 +155,4 @@ To begin saving events to a text file, open the **File** menu and select **Start
 - [UI Accessibility Checker](ui-accessibility-checker.md)
 - [UI Automation Events Overview](uiauto-eventsoverview.md)
 - [UI Automation Verify](ui-automation-verify.md)
-- [WinEvents](winevents-collision169.md)
+- [WinEvents](winevents-infrastructure.md)

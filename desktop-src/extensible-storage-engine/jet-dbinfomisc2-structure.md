@@ -2,7 +2,7 @@
 title: JET_DBINFOMISC2 Structure
 TOCTitle: JET_DBINFOMISC2 Structure
 ms:assetid: c62e87ca-c02c-4d6f-a1e6-f80d022c6aad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg294085(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg294085(v=EXCHG.10)
 ms:contentKeyID: 32765700
 ms.date: 04/11/2016
 ms.topic: reference

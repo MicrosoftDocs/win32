@@ -2,7 +2,7 @@
 title: VistaApi.JetOSSnapshotPrepareInstance method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOSSnapshotPrepareInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOSSnapshotPrepareInstance(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.Vista.SnapshotPrepareInstanceGrbit)
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.vista.vistaapi.jetossnapshotprepareinstance(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaapi.jetossnapshotprepareinstance(v=EXCHG.10)
 ms:contentKeyID: 55104304
 ms.date: 07/30/2014
 ms.topic: reference

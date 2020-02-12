@@ -1290,7 +1290,7 @@
         - name: "CreateLookupTable3D method"
           href: https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createlookuptable3d
         - name: "CreateTransformedImageSource"
-          href: https://msdn.microsoft.com/en-us/library/Dn934381(v=VS.85).aspx
+          href: https://msdn.microsoft.com/library/Dn934381(v=VS.85).aspx
         - name: "DrawGdiMetafile methods"
           href: id2d1devicecontext2-drawgdimetafile-overload.md
           items: 
@@ -1416,7 +1416,7 @@
         - name: "SetInputCount method"
           href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputcount
         - name: "SetInputEffect method"
-          href: https://msdn.microsoft.com/en-us/library/JJ670560(v=VS.85).aspx
+          href: https://msdn.microsoft.com/library/JJ670560(v=VS.85).aspx
       - name: "ID2D1EffectContext"
         href: https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext
         items: 

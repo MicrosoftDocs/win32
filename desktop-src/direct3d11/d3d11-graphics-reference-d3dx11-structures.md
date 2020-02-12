@@ -37,7 +37,7 @@ This section contains information about the D3DX 11 structures.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="d3dx11-image-info"><strong>D3DX11_IMAGE_INFO</strong></a><br/></td>
+<td><a href="d3dx11-image-info.md"><strong>D3DX11_IMAGE_INFO</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -45,7 +45,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX11_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="d3dx11-image-load-info"><strong>D3DX11_IMAGE_LOAD_INFO</strong></a><br/></td>
+<td><a href="d3dx11-image-load-info.md"><strong>D3DX11_IMAGE_LOAD_INFO</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
@@ -53,7 +53,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/> Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX11_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="d3dx11-texture-load-info"><strong>D3DX11_TEXTURE_LOAD_INFO</strong></a><br/></td>
+<td><a href="d3dx11-texture-load-info.md"><strong>D3DX11_TEXTURE_LOAD_INFO</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
 The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.

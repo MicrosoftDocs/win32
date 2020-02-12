@@ -35,7 +35,7 @@ If the application is capable of handling high precision scroll wheel messages, 
 ```
 <application xmlns="urn:schemas-microsoft-com:asm.v3">  
     <windowsSettings>  
-      <highResolutionScrollingAware xmlns="https://schemas.microsoft.com/SMI/2013/WindowsSettings">true</highResolutionScrollingAware>  
+      <highResolutionScrollingAware xmlns="http://schemas.microsoft.com/SMI/2013/WindowsSettings">true</highResolutionScrollingAware>  
   </windowsSettings>  
 </application>  
 ```
@@ -48,7 +48,7 @@ If the application is not capable of handling either high precision scroll wheel
 ```
 <application xmlns="urn:schemas-microsoft-com:asm.v3">  
     <windowsSettings>  
-      <ultraHighResolutionScrollingAware xmlns="https://schemas.microsoft.com/SMI/2013/WindowsSettings">false</ultraHighResolutionScrollingAware >  
+      <ultraHighResolutionScrollingAware xmlns="http://schemas.microsoft.com/SMI/2013/WindowsSettings">false</ultraHighResolutionScrollingAware >  
   </windowsSettings>  
 </application>  
 ```

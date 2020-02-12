@@ -2,7 +2,7 @@
 title: Transaction Log Parameters
 TOCTitle: Transaction Log Parameters
 ms:assetid: 41ade693-2bae-4c84-9339-a68a1b7c23e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269235(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269235(v=EXCHG.10)
 ms:contentKeyID: 32765537
 ms.date: 04/11/2016
 ms.topic: reference

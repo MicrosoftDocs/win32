@@ -31,7 +31,7 @@ This filter splits an MPEG-1 system stream into its component audio and video st
 <li>MEDIASUBTYPE_Audio</li>
 <li>MEDIASUBTYPE_Video</li>
 </ul>
-See <a href="mpeg-1-media-types"><strong>MPEG-1 Media Types</strong></a><br/></td>
+See <a href="mpeg-1-media-types.md"><strong>MPEG-1 Media Types</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
@@ -39,7 +39,7 @@ See <a href="mpeg-1-media-types"><strong>MPEG-1 Media Types</strong></a><br/></t
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
-<td>Major type: MEDIATYPE_Audio or MEDIATYPE_Video<br/> Subtype: MEDIASUBTYPE_MPEG1Payload or MEDIASUBTYPE_MPEG1Packet<br/> See <a href="mpeg-1-media-types"><strong>MPEG-1 Media Types</strong></a><br/></td>
+<td>Major type: MEDIATYPE_Audio or MEDIATYPE_Video<br/> Subtype: MEDIASUBTYPE_MPEG1Payload or MEDIASUBTYPE_MPEG1Packet<br/> See <a href="mpeg-1-media-types.md"><strong>MPEG-1 Media Types</strong></a><br/></td>
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
@@ -58,11 +58,11 @@ See <a href="mpeg-1-media-types"><strong>MPEG-1 Media Types</strong></a><br/></t
 <td>quartz.dll</td>
 </tr>
 <tr class="odd">
-<td><a href="merit">Merit</a></td>
+<td><a href="merit.md">Merit</a></td>
 <td>MERIT_NORMAL</td>
 </tr>
 <tr class="even">
-<td><a href="filter-categories">Filter Category</a></td>
+<td><a href="filter-categories.md">Filter Category</a></td>
 <td>CLSID_LegacyAmFilterCategory</td>
 </tr>
 </tbody>

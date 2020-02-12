@@ -51,11 +51,11 @@ The following table lists the property keys that are associated with the Spinner
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-decimalplaces">UI_PKEY_DecimalPlaces</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-decimalplaces.md">UI_PKEY_DecimalPlaces</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-decimalvalue">UI_PKEY_DecimalValue</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-decimalvalue.md">UI_PKEY_DecimalValue</a></td>
 <td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.
 <blockquote>
 [!Note]<br />
@@ -64,59 +64,59 @@ If the Command associated with the control is invalidated through a call to <a h
 <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a></td>
 <td>Supports <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-formatstring">UI_PKEY_FormatString</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-formatstring.md">UI_PKEY_FormatString</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-increment">UI_PKEY_Increment</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-increment.md">UI_PKEY_Increment</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-keytip">UI_PKEY_Keytip</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-label">UI_PKEY_Label</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage">UI_PKEY_LargeHighContrastImage</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-largeimage">UI_PKEY_LargeImage</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-maxvalue">UI_PKEY_MaxValue</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-maxvalue.md">UI_PKEY_MaxValue</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-minvalue">UI_PKEY_MinValue</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-minvalue.md">UI_PKEY_MinValue</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-representativestring">UI_PKEY_RepresentativeString</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-representativestring.md">UI_PKEY_RepresentativeString</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage">UI_PKEY_SmallHighContrastImage</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-smallimage">UI_PKEY_SmallImage</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription">UI_PKEY_TooltipDescription</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle">UI_PKEY_TooltipTitle</a></td>
+<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a></td>
 <td>Can only be updated through invalidation.</td>
 </tr>
 </tbody>

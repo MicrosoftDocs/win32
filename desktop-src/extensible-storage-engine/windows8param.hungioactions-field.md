@@ -2,7 +2,7 @@
 title: Windows8Param.HungIOActions field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: HungIOActions field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.HungIOActions
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8param.hungioactions(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8param.hungioactions(v=EXCHG.10)
 ms:contentKeyID: 55104477
 ms.date: 07/30/2014
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: EsentCheckpointDepthTooDeepException properties
 TOCTitle: EsentCheckpointDepthTooDeepException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentcheckpointdepthtoodeepexception_properties(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcheckpointdepthtoodeepexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101295
 ms.date: 07/30/2014
 ms.topic: article

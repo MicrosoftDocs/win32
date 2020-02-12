@@ -2,7 +2,7 @@
 title: EsentLogWriteFailException members
 TOCTitle: EsentLogWriteFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.esentlogwritefailexception_members(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentlogwritefailexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102227
 ms.date: 07/30/2014
 ms.topic: article

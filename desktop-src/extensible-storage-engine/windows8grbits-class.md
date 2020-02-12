@@ -2,7 +2,7 @@
 title: Windows8Grbits class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Grbits class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.windows8.windows8grbits(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.windows8grbits(v=EXCHG.10)
 ms:contentKeyID: 55104347
 ms.date: 07/30/2014
 ms.topic: reference

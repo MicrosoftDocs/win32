@@ -117,7 +117,7 @@ The markup for the simple text editor might look something like the following ex
 
 ```C++
 <?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="https://schemas.microsoft.com/windows/2009/Ribbon">
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
 
   <Application.Commands>
     <Command Name="cmdNew" Id="0xE100" Symbol="ID_CMD_NEW" LabelTitle="New document" />

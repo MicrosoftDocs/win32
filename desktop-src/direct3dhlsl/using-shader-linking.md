@@ -20,7 +20,7 @@ We assume that you are familiar with C++. You also need basic experience with gr
 
 ## Where to go from here
 
-Here we talk about how to use shader linking by referencing the [HLSL shader compiler sample](https://go.microsoft.com/fwlink/?LinkId=321937). This sample demonstrates how to use [HLSL compiler APIs](dx-graphics-d3dcompiler-reference.md) from within Windows Store apps. It also demonstrates how to use shader linking to link precompiled shader libraries and form complete shaders at runtime.
+Also see [HLSL compiler APIs](dx-graphics-d3dcompiler-reference.md).
 
 We show you how to:
 

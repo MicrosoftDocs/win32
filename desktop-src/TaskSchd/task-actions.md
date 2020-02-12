@@ -113,8 +113,8 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 </ul>
 <br/> Scripting:
 <ul>
-<li><a href="comhandleraction-classid"><strong>ComHandlerAction.ClassId</strong></a></li>
-<li><a href="comhandleraction-data"><strong>ComHandlerAction.Data</strong></a></li>
+<li><a href="comhandleraction-classid.md"><strong>ComHandlerAction.ClassId</strong></a></li>
+<li><a href="comhandleraction-data.md"><strong>ComHandlerAction.Data</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -133,14 +133,14 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 </ul>
 <br/> Scripting:
 <ul>
-<li><a href="emailaction-body"><strong>EmailAction.Body</strong></a></li>
-<li><a href="emailaction-server"><strong>EmailAction.Server</strong></a></li>
-<li><a href="emailaction-subject"><strong>EmailAction.Subject</strong></a></li>
-<li><a href="emailaction-to"><strong>EmailAction.To</strong></a></li>
-<li><a href="emailaction-cc"><strong>EmailAction.Cc</strong></a></li>
-<li><a href="emailaction-bcc"><strong>EmailAction.Bcc</strong></a></li>
-<li><a href="emailaction-replyto"><strong>EmailAction.ReplyTo</strong></a></li>
-<li><a href="emailaction-from"><strong>EmailAction.From</strong></a></li>
+<li><a href="emailaction-body.md"><strong>EmailAction.Body</strong></a></li>
+<li><a href="emailaction-server.md"><strong>EmailAction.Server</strong></a></li>
+<li><a href="emailaction-subject.md"><strong>EmailAction.Subject</strong></a></li>
+<li><a href="emailaction-to.md"><strong>EmailAction.To</strong></a></li>
+<li><a href="emailaction-cc.md"><strong>EmailAction.Cc</strong></a></li>
+<li><a href="emailaction-bcc.md"><strong>EmailAction.Bcc</strong></a></li>
+<li><a href="emailaction-replyto.md"><strong>EmailAction.ReplyTo</strong></a></li>
+<li><a href="emailaction-from.md"><strong>EmailAction.From</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -153,8 +153,8 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 </ul>
 <br/> Scripting:
 <ul>
-<li><a href="execaction-arguments"><strong>ExecAction.Arguments</strong></a></li>
-<li><a href="execaction-workingdirectory"><strong>ExecAction.WorkingDirectory</strong></a></li>
+<li><a href="execaction-arguments.md"><strong>ExecAction.Arguments</strong></a></li>
+<li><a href="execaction-workingdirectory.md"><strong>ExecAction.WorkingDirectory</strong></a></li>
 </ul>
 <br/></td>
 </tr>
@@ -167,8 +167,8 @@ Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), .
 </ul>
 <br/> Scripting:
 <ul>
-<li><a href="showmessageaction-title"><strong>ShowMessageAction.Title</strong></a></li>
-<li><a href="showmessageaction-messagebody"><strong>ShowMessageAction.MessageBody</strong></a></li>
+<li><a href="showmessageaction-title.md"><strong>ShowMessageAction.Title</strong></a></li>
+<li><a href="showmessageaction-messagebody.md"><strong>ShowMessageAction.MessageBody</strong></a></li>
 </ul>
 <br/></td>
 </tr>

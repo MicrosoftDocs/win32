@@ -2,7 +2,7 @@
 title: JetSetLS Function
 TOCTitle: JetSetLS Function
 ms:assetid: 4fc77e09-7173-42e8-9dfd-9a8d8de2fb9b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg269243(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269243(v=EXCHG.10)
 ms:contentKeyID: 32765545
 ms.date: 04/11/2016
 ms.topic: reference

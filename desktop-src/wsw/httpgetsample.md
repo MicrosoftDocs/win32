@@ -99,7 +99,7 @@ const static WS_XML_STRING wsdl = WS_XML_STRING_VALUE(
 "    xmlns:wsp='https://schemas.xmlsoap.org/ws/2004/09/policy' "
 "    xmlns:wsap='https://schemas.xmlsoap.org/ws/2004/08/addressing/policy' "
 "    xmlns:xsd='https://www.w3.org/2001/XMLSchema' "
-"    xmlns:msc='https://schemas.microsoft.com/ws/2005/12/wsdl/contract' "
+"    xmlns:msc='http://schemas.microsoft.com/ws/2005/12/wsdl/contract' "
 "    xmlns:wsaw='https://www.w3.org/2006/05/addressing/wsdl' "
 "    xmlns:soap12='https://schemas.xmlsoap.org/wsdl/soap12/' xmlns:wsa10='https://www.w3.org/2005/08/addressing' "
 "    xmlns:wsx='https://schemas.xmlsoap.org/ws/2004/09/mex' xmlns:wsdl='https://schemas.xmlsoap.org/wsdl/' "

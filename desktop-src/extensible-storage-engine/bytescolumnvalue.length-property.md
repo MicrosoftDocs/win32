@@ -2,7 +2,7 @@
 title: BytesColumnValue.Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BytesColumnValue.Length
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.isam.esent.interop.bytescolumnvalue.length(v=EXCHG.10)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.bytescolumnvalue.length(v=EXCHG.10)
 ms:contentKeyID: 55107234
 ms.date: 07/30/2014
 ms.topic: reference

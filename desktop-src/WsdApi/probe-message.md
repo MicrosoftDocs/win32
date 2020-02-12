@@ -81,7 +81,7 @@ A Probe message has the following focus points.
 <td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
 </wsa:MessageID></code></pre></td>
-<td>Contains the message identifier, which is referenced by the RelatesTo element in a <a href="probematches-message">ProbeMatches</a> message.</td>
+<td>Contains the message identifier, which is referenced by the RelatesTo element in a <a href="probematches-message.md">ProbeMatches</a> message.</td>
 </tr>
 <tr class="odd">
 <td>Types</td>
