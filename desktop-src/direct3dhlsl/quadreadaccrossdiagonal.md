@@ -3,11 +3,11 @@ title: QuadReadAccrossDiagonal function
 description: Returns the specified local value which is read from the diagonally opposite lane in this quad.
 ms.assetid: 2914F1F9-5CE2-437A-ADDB-4955D2C1490B
 keywords:
-- QuadSwapX function HLSL
+- QuadReadAccrossDiagonal function HLSL
 topic_type:
 - apiref
 api_name:
-- QuadSwapX
+- QuadReadAccrossDiagonal
 api_type:
 - NA
 ms.topic: reference
@@ -23,7 +23,7 @@ Returns the specified local value which is read from the diagonally opposite lan
 
 
 ```C++
-<type> QuadSwapX(
+<type> QuadReadAccrossDiagonal(
    <type> localValue
 );
 ```
