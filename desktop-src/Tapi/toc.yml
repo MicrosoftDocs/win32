@@ -3419,7 +3419,7 @@
         href: telephony-service-provider-interface-tspi-.md
         items: 
         - name: "General Programming Considerations"
-          href: general-programming-considerations-tspi.md
+          href: general-programming-considerations.md
           items: 
           - name: "TSPI Versioning"
             href: tspi-versioning.md
@@ -3441,7 +3441,7 @@
         - name: "Installation and Initialization"
           href: installation-and-initialization.md
         - name: "Device Access"
-          href: device-access-tspi.md
+          href: device-access.md
           items: 
           - name: "Line Configurations"
             href: line-configurations.md
@@ -3450,12 +3450,12 @@
           - name: "Extended Line Services"
             href: extended-line-services.md
         - name: "Session Access"
-          href: session-access-tspi.md
+          href: session-access.md
           items: 
           - name: "Unowned Calls"
             href: unowned-calls.md
           - name: "Call Handles"
-            href: call-handles-tspi.md
+            href: call-handles.md
             items: 
             - name: "Pending Call Handles"
               href: pending-call-handles.md
@@ -3468,28 +3468,28 @@
           - name: "CallHub Support"
             href: callhub-support.md
         - name: "Media Access"
-          href: media-access-tspi.md
+          href: media-access.md
           items: 
           - name: "Monitoring"
             href: monitoring.md
             items: 
             - name: "Media Monitoring"
-              href: media-monitoring-tspi.md
+              href: media-monitoring.md
             - name: "Digit Monitoring"
-              href: digit-monitoring-tspi.md
+              href: digit-monitoring.md
             - name: "Tone Monitoring"
-              href: tone-monitoring-tspi.md
+              href: tone-monitoring.md
           - name: "Media Control"
-            href: media-control-tspi.md
+            href: media-control.md
             items: 
             - name: "Digit Gathering"
-              href: digit-gathering-tspi.md
+              href: digit-gathering.md
             - name: "Generating Inband Digits and Tones"
-              href: generating-inband-digits-and-tones-tspi.md
+              href: generating-inband-digits-and-tones.md
           - name: "Media Service Provider Communication"
             href: media-service-provider-communication.md
         - name: "Phone Devices"
-          href: phone-devices-tspi.md
+          href: phone-devices.md
           items: 
           - name: "Basic Phone Services"
             href: basic-phone-services.md
@@ -3497,33 +3497,33 @@
             - name: "Phone SPI Initialization"
               href: phone-spi-initialization.md
             - name: "Opening and Closing Phone Devices"
-              href: opening-and-closing-phone-devices-tspi.md
+              href: opening-and-closing-phone-devices.md
           - name: "Supplementary Phone Services"
             href: supplementary-phone-services.md
             items: 
             - name: "Hookswitch Devices"
-              href: hookswitch-devices-tspi.md
+              href: hookswitch-devices.md
             - name: "Display"
-              href: display-tspi.md
+              href: display.md
             - name: "Ring"
-              href: ring-tspi.md
+              href: ring.md
             - name: "Buttons"
               href: buttons.md
             - name: "Lamps"
-              href: lamps-tspi.md
+              href: lamps.md
             - name: "Data Areas"
-              href: data-areas-tspi.md
+              href: data-areas.md
             - name: "Status"
-              href: status-tspi.md
+              href: status.md
           - name: "Extended Phone Services"
             href: extended-phone-services.md
             items: 
             - name: "Scalar Data Constants"
-              href: scalar-data-constants-tspi.md
+              href: scalar-data-constants.md
             - name: "Bit-Flag Data Constants"
-              href: bit-flag-data-constants-tspi.md
+              href: bit-flag-data-constants.md
             - name: "Functions and Messages"
-              href: functions-and-messages-tspi.md
+              href: functions-and-messages.md
           - name: "Asynchronous Phone Operations"
             href: asynchronous-phone-operations.md
         - name: "The Telephony Service Provider UI DLL Interface"
@@ -3791,7 +3791,7 @@
             - name: "Line_Event"
               href: https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent
             - name: "Phone_Event"
-              href: phone-event-tspi.md
+              href: phone-event.md
           - name: "TSP UI DLL Functions"
             href: tsp-ui-dll-functions.md
             items: 
@@ -3866,43 +3866,43 @@
             href: tspi-line-device-messages.md
             items: 
             - name: "LINE_ADDRESSSTATE"
-              href: line-addressstate-tspi.md
+              href: line-addressstate.md
             - name: "LINE_CALLDEVSPECIFIC"
               href: line-calldevspecific.md
             - name: "LINE_CALLDEVSPECIFICFEATURE"
               href: line-calldevspecificfeature.md
             - name: "LINE_CALLINFO"
-              href: line-callinfo-tspi.md
+              href: line-callinfo.md
             - name: "LINE_CALLSTATE"
-              href: line-callstate-tspi.md
+              href: line-callstate.md
             - name: "LINE_CLOSE"
-              href: line-close-tspi.md
+              href: line-close.md
             - name: "LINE_CREATE"
-              href: line-create-tspi.md
+              href: line-create.md
             - name: "LINE_CREATEDIALOGINSTANCE"
               href: line-createdialoginstance.md
             - name: "LINE_DEVSPECIFIC"
-              href: line-devspecific-tspi.md
+              href: line-devspecific.md
             - name: "LINE_DEVSPECIFICEX"
-              href: line-devspecificex-tspi.md
+              href: line-devspecificex.md
             - name: "LINE_DEVSPECIFICFEATURE"
-              href: line-devspecificfeature-tspi.md
+              href: line-devspecificfeature.md
             - name: "LINE_GATHERDIGITS"
-              href: line-gatherdigits-tspi.md
+              href: line-gatherdigits.md
             - name: "LINE_GENERATE"
-              href: line-generate-tspi.md
+              href: line-generate.md
             - name: "LINE_LINEDEVSTATE"
-              href: line-linedevstate-tspi.md
+              href: line-linedevstate.md
             - name: "LINE_MONITORDIGITS"
-              href: line-monitordigits-tspi.md
+              href: line-monitordigits.md
             - name: "LINE_MONITORMEDIA"
-              href: line-monitormedia-tspi.md
+              href: line-monitormedia.md
             - name: "LINE_MONITORTONE"
-              href: line-monitortone-tspi.md
+              href: line-monitortone.md
             - name: "LINE_NEWCALL"
               href: line-newcall.md
             - name: "LINE_REMOVE"
-              href: line-remove-tspi.md
+              href: line-remove.md
             - name: "LINE_SENDDIALOGINSTANCEDATA"
               href: line-senddialoginstancedata.md
             - name: "LINE_SENDMSPDATA"
@@ -3913,44 +3913,44 @@
             href: tspi-phone-device-messages.md
             items: 
             - name: "PHONE_BUTTON"
-              href: phone-button-tspi.md
+              href: phone-button.md
             - name: "PHONE_CLOSE"
-              href: phone-close-tspi.md
+              href: phone-close.md
             - name: "PHONE_CREATE"
-              href: phone-create-tspi.md
+              href: phone-create.md
             - name: "PHONE_DEVSPECIFIC"
-              href: phone-devspecific-tspi.md
+              href: phone-devspecific.md
             - name: "PHONE_REMOVE"
-              href: phone-remove-tspi.md
+              href: phone-remove.md
             - name: "PHONE_STATE"
-              href: phone-state-tspi.md
+              href: phone-state.md
         - name: "TSPI Device Classes"
           href: tspi-device-classes.md
           items: 
           - name: "comm"
-            href: comm-tspi.md
+            href: comm.md
           - name: "comm/datamodem"
-            href: comm-datamodem-tspi.md
+            href: comm-datamodem.md
           - name: "comm/datamodem/portname"
-            href: comm-datamodem-portname-tspi.md
+            href: comm-datamodem-portname.md
           - name: "wave/in"
-            href: wave-in-tspi.md
+            href: wave-in.md
           - name: "wave/out"
-            href: wave-out-tspi.md
+            href: wave-out.md
           - name: "wave/in/out"
-            href: wave-in-out-tspi.md
+            href: wave-in-out.md
           - name: "midi/in"
-            href: midi-in-tspi.md
+            href: midi-in.md
           - name: "midi/out"
-            href: midi-out-tspi.md
+            href: midi-out.md
           - name: "tapi/line"
-            href: tapi-line-tspi.md
+            href: tapi-line.md
           - name: "tapi/phone"
-            href: tapi-phone-tspi.md
+            href: tapi-phone.md
           - name: "ndis"
-            href: ndis-tspi.md
+            href: ndis.md
           - name: "tapi/terminal"
-            href: tapi-terminal-tspi.md
+            href: tapi-terminal.md
         - name: "TSPI Service Provider Datatypes"
           href: tspi-service-provider-datatypes.md
           items: 

@@ -68,7 +68,7 @@ None.
 <tr class="odd">
 <td><a href="element-provider.md">Provider</a></td>
 <td><p>Specifies one preferred network provider in a list of providers to be used when roaming.</p>
-<p>The value of this element is an instance of the v1 <a href="../mbn/schema_providertype_complextype"><strong>providerType</strong></a> complex type.</p></td>
+<p>The value of this element is an instance of the v1 <a href="../mbn/schema_providertype_complextype.md"><strong>providerType</strong></a> complex type.</p></td>
 </tr>
 </tbody>
 </table>

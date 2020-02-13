@@ -8,7 +8,7 @@ ms.topic: reference
 
 # CItemIDFactory::GetPropertyFromIDList methods
 
-Returns a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList.
+Returns a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList.
 
 ### Overload list
 
@@ -16,10 +16,10 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore) with
 
 | Method                                                                        | Description                                                                                                                                   |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList as a variant, using the key.<br/>            |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList as a variant, using the named property.<br/> |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289342(v=VS.85).aspx)  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList, using the key.<br/>                         |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](properties.IPropertyStore) within the IDList, using the named property.<br/>              |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList as a variant, using the key.<br/>            |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList as a variant, using the named property.<br/> |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289342(v=VS.85).aspx)  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the key.<br/>                         |
+| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the named property.<br/>              |
 
 
 

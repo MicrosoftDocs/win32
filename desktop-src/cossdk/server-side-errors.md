@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Server-Side Errors
 
-The listener and player work together to deal with poison messages. If a transaction that is being played back fails, [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page) moves the input message back to the input queue. The player aborts the transaction if it receives a failed HRESULT from the server component or if it catches an exception. If the problem persists, the listener could loop continuously in the following pattern:
+The listener and player work together to deal with poison messages. If a transaction that is being played back fails, [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page.md) moves the input message back to the input queue. The player aborts the transaction if it receives a failed HRESULT from the server component or if it catches an exception. If the problem persists, the listener could loop continuously in the following pattern:
 
 -   Dequeues the message
 -   Instantiates the object

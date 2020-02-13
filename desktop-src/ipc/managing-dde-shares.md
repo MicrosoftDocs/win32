@@ -49,7 +49,7 @@ Network DDE provides functions that allow you to delete a share, get or set shar
 <tr class="even">
 <td>Change the DDE share name</td>
 <td>Delete the old share and create a new share.
-<p><img src="../common/wedge.gif" /><strong>To change the share name</strong><br/></p>
+<p><img src="../common/wedge.gif.md" /><strong>To change the share name</strong><br/></p>
 <ol>
 <li>Retrieve the share information using <a href="nddesharegetinfo.md"><strong>NDdeShareGetInfo</strong></a>.</li>
 <li>Remove the share using <a href="nddesharedel.md"><strong>NDdeShareDel</strong></a>.</li>
