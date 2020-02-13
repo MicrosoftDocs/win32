@@ -20,7 +20,7 @@ api_location:
 
 # CMediaSample::m\_dwStreamId member
 
-Stream identifier. For more information, see [**AM\_SAMPLE2\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties).
+Stream identifier. For more information, see [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties).
 
 ## Syntax
 

@@ -19,8 +19,8 @@ File transfer streams do not require any special settings in the [**WM\_MEDIA\_T
 
 To set a data unit extension for the stream, perform the following steps:
 
-1.  Obtain a pointer to the [**IWMStreamConfig2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) interface of the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
-2.  Add a data unit extension for the stream by calling [**IWMStreamConfig2::AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) as follows:
+1.  Obtain a pointer to the [**IWMStreamConfig2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) interface of the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
+2.  Add a data unit extension for the stream by calling [**IWMStreamConfig2::AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) as follows:
     ```C++
     hr = pStreamConfig2->AddDataUnitExtension(CLSID_WMTPropertyFileName,
                                               -1, NULL, 0);

@@ -39,7 +39,7 @@ Command identifier. Pass this parameter to the [**IDvdInfo2::GetCmdFromEvent**](
 
 ## Remarks
 
-This event is only fired if your application sets the **DVD\_CMD\_FLAG\_SendEvents** flag in an [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) method that takes a [**DVD\_CMD\_FLAGS**](/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags) flag.
+This event is only fired if your application sets the **DVD\_CMD\_FLAG\_SendEvents** flag in an [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) method that takes a [**DVD\_CMD\_FLAGS**](/windows/win32/api/strmif/ne-strmif-dvd_cmd_flags) flag.
 
 This event is raised in the title domain.
 

@@ -50,7 +50,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_FramesDrawn**](/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_framesdrawn) method.
+This member function implements the [**IQualProp::get\_FramesDrawn**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_framesdrawn) method.
 
 ## Requirements
 

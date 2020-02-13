@@ -34,22 +34,22 @@ This topic lists features that were new in Windows Media Player 11 and the Windo
 
 The following interfaces were new in the Windows Media Player 11 ActiveX control.
 
--   [**IWMPLibrary Interface**](/windows/desktop/api/wmp/nn-wmp-iwmplibrary)
--   [**IWMPLibraryServices Interface**](/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
--   [**IWMPLibrarySharingServices Interface**](/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
--   [**IWMPMediaCollection2 Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2)
--   [**IWMPQuery Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpquery)
--   [**IWMPStringCollection2 Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2)
+-   [**IWMPLibrary Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary)
+-   [**IWMPLibraryServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
+-   [**IWMPLibrarySharingServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
+-   [**IWMPMediaCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2)
+-   [**IWMPQuery Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpquery)
+-   [**IWMPStringCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2)
 -   [**MediaCollection Object**](mediacollection-object.md)
 -   [**Query Object**](query-object.md)
 -   [**StringCollection Object**](stringcollection-object.md)
--   [**IWMPCdromRip Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip)
--   [**IWMPCdromBurn Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn)
--   [**IWMPFolderMonitorServices Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
--   [**IWMPSyncDevice2 Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2)
--   [**IWMPVideoRenderConfig Interface**](/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig)
--   [**IWMPUserEventSink**](/windows/desktop/api/wmpservices/nn-wmpservices-iwmpusereventsink)
--   [**IWMPEvents3 Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpevents3)
+-   [**IWMPCdromRip Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip)
+-   [**IWMPCdromBurn Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn)
+-   [**IWMPFolderMonitorServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
+-   [**IWMPSyncDevice2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2)
+-   [**IWMPVideoRenderConfig Interface**](/previous-versions/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig)
+-   [**IWMPUserEventSink**](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpusereventsink)
+-   [**IWMPEvents3 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents3)
 
 ## Windows Media Player Skins
 
@@ -85,8 +85,8 @@ The C# sample named SchemaReader was new in the Windows Media Player 11 SDK. The
 
 The C++ sample named WMPML was updated in the Windows Media Player 11 SDK to demonstrate the following features:
 
--   Using the new [**IWMPStringCollection2**](/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2) interface to create a user interface similar to the Windows Media Player library feature.
--   Using the [**IWMPQuery**](/windows/desktop/api/wmp/nn-wmp-iwmpquery) and [**IWMPMediaCollection2**](/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2) interfaces to create compound queries and display the results.
+-   Using the new [**IWMPStringCollection2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2) interface to create a user interface similar to the Windows Media Player library feature.
+-   Using the [**IWMPQuery**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpquery) and [**IWMPMediaCollection2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2) interfaces to create compound queries and display the results.
 
  
 

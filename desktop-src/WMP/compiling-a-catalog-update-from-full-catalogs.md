@@ -55,7 +55,7 @@ If compilation is successful, catcomp.exe creates the output files listed below 
 | File name             | Description                                                                                                                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | catalog.diff          | Uncompressed compiled difference file.                                                                                                                                                           |
-| catalog.diff.lz       | Compressed version of catalog update file. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl). |
+| catalog.diff.lz       | Compressed version of catalog update file. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl). |
 | catalog.wmdb.delta    | Intermediate output file. Not used by Windows Media Player                                                                                                                                       |
 | catalog.wmdb.modified | Intermediate output file. Not used by Windows Media Player                                                                                                                                       |
 

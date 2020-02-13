@@ -19,9 +19,9 @@ ms.date: 05/31/2018
 
 # Erasing a Rewritable CD
 
-The [IWMPCdromBurn](/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn) interface provides a method for erasing CD-RW discs. Before erasing a CD, you must first ensure that the operation is supported. For more information, see [Retrieving the Drive and Disc Status](retrieving-the-drive-and-disc-status.md).
+The [IWMPCdromBurn](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn) interface provides a method for erasing CD-RW discs. Before erasing a CD, you must first ensure that the operation is supported. For more information, see [Retrieving the Drive and Disc Status](retrieving-the-drive-and-disc-status.md).
 
-To begin erasing the contents of a rewritable CD, call [IWMPCdromBurn::erase](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase).
+To begin erasing the contents of a rewritable CD, call [IWMPCdromBurn::erase](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase).
 
 
 ```C++

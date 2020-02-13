@@ -41,7 +41,7 @@ HRESULT SetProperties(
 *pRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the buffer requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-allocator_properties) structure that contains the buffer requirements.
 
 </dd> <dt>
 

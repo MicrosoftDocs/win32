@@ -49,7 +49,7 @@ This method does not return a value.
 When the view changes in Windows Media Player, the Player calls the online store's plug-in to determine which discovery page to display next. In some cases, however, the online store might want the Player to continue displaying the existing discovery page. The following process determines whether the Player displays a new discovery page:
 
 1.  An action by the user, either in the Player's user interface or on the discovery page, requests that the Player change its view.
-2.  The Player calls the plug-in's [GetTemplate](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) method to determine which discovery page to display next. The Player stores the URL of the new discovery page but does not display the new discovery page at this time.
+2.  The Player calls the plug-in's [GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) method to determine which discovery page to display next. The Player stores the URL of the new discovery page but does not display the new discovery page at this time.
 3.  The Player raises the [OnViewChange](external-onviewchange-event.md) event.
 4.  If the **OnViewChange** event handler on the discovery page calls **cancelNavigate**, the Player does not display the new discovery page (determined in step 2). Instead, it continues to display the existing discovery page. If the **OnViewChange** event handler does not call **cancelNavigate**, the Player does display the new discovery page.
 

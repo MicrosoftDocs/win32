@@ -77,7 +77,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Provides a way for the Filter Graph Manager to register for device removal events for a capture device.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>IAMDirectSound</strong></a></td>
 <td>Specifies which window has focus for controlling DirectSound audio playback.</td>
 </tr>
 <tr class="odd">
@@ -117,7 +117,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Reports the amount of latency that a filter introduces into the graph.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a></td>
 <td>Sets and retrieves information about closed captions.</td>
 </tr>
 <tr class="odd">
@@ -149,7 +149,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Controls how the video overlay appears on the user's screen.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Amparse/nn-amparse-iamparse"><strong>IAMParse</strong></a></td>
 <td>Sets and retrieves the parse time for an MPEG-2 stream.</td>
 </tr>
 <tr class="odd">
@@ -233,7 +233,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Callback interface used with the <a href="/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpass"><strong>IAMWMBufferPass</strong></a> interface.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder"><strong>IAMWstDecoder</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder"><strong>IAMWstDecoder</strong></a></td>
 <td>Sets and retrieves information about World Standard Teletext (WST)</td>
 </tr>
 <tr class="even">
@@ -305,7 +305,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Cancels or modifies graph-control commands that were queued using the <a href="/windows/desktop/api/Control/nn-control-iqueuecommand"><strong>IQueueCommand</strong></a> interface.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo"><strong>IDirectDrawVideo</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo"><strong>IDirectDrawVideo</strong></a></td>
 <td>Queries the <a href="video-renderer-filter.md">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.</td>
 </tr>
 <tr class="even">
@@ -417,7 +417,7 @@ The following is an alphabetical list of DirectShow interfaces.
 <td>Extends the <a href="/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2"><strong>IFilterMapper2</strong></a> interface.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex"><strong>IFullScreenVideoEx</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex"><strong>IFullScreenVideoEx</strong></a></td>
 <td>Exposed by the <a href="full-screen-renderer-filter.md">Full Screen Renderer</a> filter.</td>
 </tr>
 <tr class="even">
@@ -559,7 +559,7 @@ Deprecated.
 <td>Associates an output pin on the MPEG-2 Demultiplexer filter with one or more stream IDs.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder"><strong>IMpegAudioDecoder</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder"><strong>IMpegAudioDecoder</strong></a></td>
 <td>Configures the MPEG-1 Audio Decoder.</td>
 </tr>
 <tr class="odd">
@@ -595,7 +595,7 @@ Deprecated.
 <td>Provides support for quality control in the filter graph.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></td>
 <td>Retrieves performance information from video renderers.</td>
 </tr>
 <tr class="even">
@@ -771,8 +771,8 @@ Deprecated.
 <td>Base interface for the <a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a> interface.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpbasenotify"><strong>IVPBaseNotify</strong></a></td>
-<td>Base interface for the <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface.</td>
+<td><a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpbasenotify"><strong>IVPBaseNotify</strong></a></td>
+<td>Base interface for the <a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig"><strong>IVPConfig</strong></a></td>
@@ -783,15 +783,15 @@ Deprecated.
 <td>Exposed by the Video Port Manager filter.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a></td>
 <td>Enables the Overlay Mixer to control the properties of a hardware device that uses a video port.</td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
-<td>Extends the <a href="/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface.</td>
+<td><a href="/previous-versions/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
+<td>Extends the <a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface.</td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder"><strong>IXMLGraphBuilder</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder"><strong>IXMLGraphBuilder</strong></a></td>
 <td>Persists a DirectShow filter graph using an XML file format.
 <blockquote>
 [!Note]<br />

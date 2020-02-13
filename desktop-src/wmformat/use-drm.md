@@ -28,7 +28,7 @@ g\_wszWMUse\_DRM
 
 ## Remarks
 
-Use [**IWMHeaderInfo::SetAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) to set this property to **TRUE** when creating DRM version 1 content. This property is not accessible from the reader object.
+Use [**IWMHeaderInfo::SetAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) to set this property to **TRUE** when creating DRM version 1 content. This property is not accessible from the reader object.
 
 ## See also
 

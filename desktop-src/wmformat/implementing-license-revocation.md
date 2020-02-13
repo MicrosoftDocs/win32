@@ -31,10 +31,10 @@ The license revocation process is initiated by a service provided by the license
 
 To remove licenses from the license store, perform the following steps:
 
-1.  Upon receiving a license challenge from the license issuer, call the [**WMCreateLicenseRevocationAgent**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent) function to create a license revocation agent object and obtain a pointer to the [**IWMLicenseRevocationAgent**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent) interface.
-2.  Call the [**IWMLicenseRevocationAgent::GetLRBChallenge**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-getlrbchallenge) method to generate the challenge response.
+1.  Upon receiving a license challenge from the license issuer, call the [**WMCreateLicenseRevocationAgent**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent) function to create a license revocation agent object and obtain a pointer to the [**IWMLicenseRevocationAgent**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent) interface.
+2.  Call the [**IWMLicenseRevocationAgent::GetLRBChallenge**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-getlrbchallenge) method to generate the challenge response.
 3.  Send the challenge response back to the license service component from which you received the challenge.
-4.  The license service component sends a signed license revocation blob (LRB) to your application. When you receive it, call the [**IWMLicenseRevocationAgent::ProcessLRB**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-processlrb) method. **ProcessLRB** creates an acknowledgement message that you must send back to the license service to verify that the licenses were removed.
+4.  The license service component sends a signed license revocation blob (LRB) to your application. When you receive it, call the [**IWMLicenseRevocationAgent::ProcessLRB**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-processlrb) method. **ProcessLRB** creates an acknowledgement message that you must send back to the license service to verify that the licenses were removed.
 
 > [!Note]  
 > DRM is not supported by the x64-based version of this SDK.
@@ -48,7 +48,7 @@ To remove licenses from the license store, perform the following steps:
 [**Enabling DRM Support**](enabling-drm-support.md)
 </dt> <dt>
 
-[**IWMLicenseRevocationAgent Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent)
+[**IWMLicenseRevocationAgent Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent)
 </dt> </dl>
 
  

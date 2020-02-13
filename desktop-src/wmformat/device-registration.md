@@ -25,19 +25,19 @@ When a device is added to a network to which the client computer is connected, t
 
 Your application should perform the following steps when it receives a registration request message:
 
-1.  Parse the message by calling the [**IWMDRMMessageParser::ParseRegistrationReqMsg**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmmessageparser-parseregistrationreqmsg) method. This method retrieves the device certificate and the device serial number, both of which are needed to identify the device.
-2.  Call the [**IWMDeviceRegistration::GetRegisteredDeviceByID**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getregistereddevicebyid) method, passing in the certificate and device serial number retrieved in step 1. If the device is found, it is already registered and you can skip the next step.
-3.  Call the [**IWMDeviceRegistration::RegisterDevice**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-registerdevice) method to add the device to the device registration database.
+1.  Parse the message by calling the [**IWMDRMMessageParser::ParseRegistrationReqMsg**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmmessageparser-parseregistrationreqmsg) method. This method retrieves the device certificate and the device serial number, both of which are needed to identify the device.
+2.  Call the [**IWMDeviceRegistration::GetRegisteredDeviceByID**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getregistereddevicebyid) method, passing in the certificate and device serial number retrieved in step 1. If the device is found, it is already registered and you can skip the next step.
+3.  Call the [**IWMDeviceRegistration::RegisterDevice**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-registerdevice) method to add the device to the device registration database.
 
-You can access information about any device in the registration database by retrieving the registered device object associated with it. There are two ways to get a registered device object. If you have the certificate and serial number of the device, you can call the [**IWMDeviceRegistration::GetRegisteredDeviceByID**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getregistereddevicebyid) method. If you do not have the certificate and serial number of the device, you can enumerate all the devices in the database by calling [**IWMDeviceRegistration::GetFirstRegisteredDevice**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getfirstregistereddevice) followed by repeated calls to [**IWMDeviceRegistration::GetNextRegisteredDevice**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getnextregistereddevice) until a call returns S\_FALSE.
+You can access information about any device in the registration database by retrieving the registered device object associated with it. There are two ways to get a registered device object. If you have the certificate and serial number of the device, you can call the [**IWMDeviceRegistration::GetRegisteredDeviceByID**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getregistereddevicebyid) method. If you do not have the certificate and serial number of the device, you can enumerate all the devices in the database by calling [**IWMDeviceRegistration::GetFirstRegisteredDevice**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getfirstregistereddevice) followed by repeated calls to [**IWMDeviceRegistration::GetNextRegisteredDevice**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getnextregistereddevice) until a call returns S\_FALSE.
 
 Before your application can send data to a device, you must ensure that the device is approved, validated, and open.
 
-Device approval should involve interaction with the user. When a device sends a registration message, your application can prompt the user to decide whether the device is one that should receive that user's data. Then update the device registration database by calling the [**IWMRegisteredDevice::Approve**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistereddevice-approve) method, passing **TRUE** or **FALSE** as appropriate.
+Device approval should involve interaction with the user. When a device sends a registration message, your application can prompt the user to decide whether the device is one that should receive that user's data. Then update the device registration database by calling the [**IWMRegisteredDevice::Approve**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistereddevice-approve) method, passing **TRUE** or **FALSE** as appropriate.
 
 Validation is also called proximity detection. This is a process by which the internal DRM objects of the Windows Media Format SDK determine whether the device is "near" enough to the computer running your application to securely transmit media. Nearness is determined by the time it takes to get a response to a message. This feature is intended to prevent unauthorized users from accessing your network and obtaining your secured media. For more information, see [Performing Proximity Detection](performing-proximity-detection.md).
 
-To open a device, call [**IWMRegisteredDevice::Open**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistereddevice-open).
+To open a device, call [**IWMRegisteredDevice::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistereddevice-open).
 
 > [!Note]  
 > DRM is not supported by the x64-based version of this SDK.
@@ -48,7 +48,7 @@ To open a device, call [**IWMRegisteredDevice::Open**](/windows/desktop/api/Wmsd
 
 <dl> <dt>
 
-[**IWMRegisteredDevice**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice)
+[**IWMRegisteredDevice**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice)
 </dt> <dt>
 
 [**Using the Windows Media DRM 10 for Network Devices Protocol**](using-the-windows-media-drm-10-for-network-devices-protocol.md)

@@ -30,7 +30,7 @@ ms.date: 05/31/2018
 
 # Building the Plug-in for a Type 1 Online Store
 
-A type 1 online store must provide a plug-in that implements the [**IWMPContentPartner**](/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) interface. The plug-in runs in a separate process from Windows Media Player.
+A type 1 online store must provide a plug-in that implements the [**IWMPContentPartner**](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) interface. The plug-in runs in a separate process from Windows Media Player.
 
 The steps for creating a plug-in that runs out-of-process are as follows:
 

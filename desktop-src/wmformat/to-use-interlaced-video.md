@@ -48,10 +48,10 @@ You should enable users to specify field order when passing interlaced samples t
 
 To use interlaced encoding, perform the following steps:
 
-1.  Configure the video stream in the profile to use the content type data unit extension by calling the [**IWMStreamConfig2::AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) method. The sample extension GUID for the content type extension is WM\_SampleExtensionsGUID\_ContentType.
+1.  Configure the video stream in the profile to use the content type data unit extension by calling the [**IWMStreamConfig2::AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) method. The sample extension GUID for the content type extension is WM\_SampleExtensionsGUID\_ContentType.
 2.  Set the stream in the profile and configure the writer with the profile as normal.
-3.  Before passing interlaced samples to the writer, call the [**IWMWriterAdvanced2::SetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) method to set the g\_wszInterlacedCoding input setting to **TRUE**.
-4.  For every interlaced sample that you pass to the writer, call the [**INSSBuffer3::SetProperty**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method to set the content type. Content type values are combinations of the flags in the following table.
+3.  Before passing interlaced samples to the writer, call the [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) method to set the g\_wszInterlacedCoding input setting to **TRUE**.
+4.  For every interlaced sample that you pass to the writer, call the [**INSSBuffer3::SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method to set the content type. Content type values are combinations of the flags in the following table.
 
 
 
@@ -73,7 +73,7 @@ To use interlaced encoding, perform the following steps:
 
 ## Decoding Interlaced Video
 
-When decoding interlaced video, you must set the g\_wszAllowInterlacedOutput setting to **TRUE** using the [**IWMReaderAdvanced2::SetOutputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) method. Otherwise the codec will deliver progressive frames.
+When decoding interlaced video, you must set the g\_wszAllowInterlacedOutput setting to **TRUE** using the [**IWMReaderAdvanced2::SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) method. Otherwise the codec will deliver progressive frames.
 
 The content type data unit extension is maintained on the output samples. You should pass the field orientation to the rendering device to ensure proper playback.
 

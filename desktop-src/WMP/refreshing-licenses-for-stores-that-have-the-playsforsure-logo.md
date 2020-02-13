@@ -31,7 +31,7 @@ The following example illustrates how the license updating process works.
      
 
 4.  The LRM looks up the URL of Proseware's ServiceInfo document, downloads the document, and inspects the document's **Install** element to obtain the URL of a package that the LRM can use to install Proseware's component. The LRM installs and loads the component.
-5.  For each of the 50 tracks, the LRM calls the Proseware component's [IWMPSubscriptionService::allowPlay](/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay) method. The **allowPlay** method places a license for the individual track on the new computer and returns **TRUE** in the *pfAllowPlay* parameter.
+5.  For each of the 50 tracks, the LRM calls the Proseware component's [IWMPSubscriptionService::allowPlay](/previous-versions/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay) method. The **allowPlay** method places a license for the individual track on the new computer and returns **TRUE** in the *pfAllowPlay* parameter.
     > [!Note]  
     > The Proseware component must provide all licenses required to play the individual track. That is, the component must provide both a root license and a leaf license if needed.
 

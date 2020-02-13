@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 DirectShow includes a class template, [**IMediaObjectImpl**](imediaobjectimpl-class-template.md), for implementing DMOs. The template handles many of the "bookkeeping" tasks, such as validating input parameters. By using the template, you can focus on the functionality that is specific to your DMO. In addition, the template helps to ensure that you create a robust implementation. The template is defined in the header file Dmoimpl.h, located in the Include directory of the SDK.
 
-The **IMediaObjectImpl** template inherits the [**IMediaObject**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. To create a DMO using the template, define a new class that derives from **IMediaObjectImpl**. The template implements all of the **IMediaObject** methods. In most cases, the template calls a corresponding private method on the derived class. The template provides the following features:
+The **IMediaObjectImpl** template inherits the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. To create a DMO using the template, define a new class that derives from **IMediaObjectImpl**. The template implements all of the **IMediaObject** methods. In most cases, the template calls a corresponding private method on the derived class. The template provides the following features:
 
 -   Basic parameter checking. The template methods verify that required parameters are not **NULL**, that stream indexes are within range, and that flags are valid.
 -   Locking. The template methods call two internal methods, **Lock** and **Unlock**, to serialize operations on the DMO. This feature ensures that the DMO is thread-safe.
 -   Media types. The template stores the media types set by the client, and provides accessor methods for the media types.
--   Streaming. The template prevents streaming until the client has set media types for all non-optional streams. It also ensures that the [**IMediaObject::AllocateStreamingResources**](/windows/desktop/api/Mediaobj/nf-mediaobj-imediaobject-allocatestreamingresources) method is called before streaming begins, which guarantees that resources are allocated.
+-   Streaming. The template prevents streaming until the client has set media types for all non-optional streams. It also ensures that the [**IMediaObject::AllocateStreamingResources**](/previous-versions/windows/desktop/api/Mediaobj/nf-mediaobj-imediaobject-allocatestreamingresources) method is called before streaming begins, which guarantees that resources are allocated.
 
 The derived class must implement the **IUnknown** interface; the template does not provide this interface. You can use the Active Template Library (ATL) to implement **IUnknown**, or you can provide some other implementation. The template also does not implement the locking mechanism. The derived class must implement the **Lock** and **Unlock** methods. If you create your class using ATL, you can use the default ATL implementations.
 
@@ -77,11 +77,11 @@ The following methods are used to stream data:
 -   **Discontinuity**. This method signals a discontinuity in an input stream. The template calls **InternalAcceptingInput** on the derived class. If that method returns S\_OK, the template calls **InternalDiscontinuity** on the derived class.
 -   **Flush**. This method flushes the DMO. The template calls **InternalFlush** on the derived class. The DMO should discard any input buffers that it still holds to be processed.
 
-The template does not provide any direct support for the [**IMediaObjectInPlace**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace) interface.
+The template does not provide any direct support for the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace) interface.
 
 **Methods for Locking**
 
-Locking is used to protect the DMO's state in a multithreaded environment. In an ATL project, the [**IMediaObject::Lock**](/windows/desktop/api/Mediaobj/nf-mediaobj-imediaobject-lock) method causes a name conflict with the ATL **Lock** method. To resolve the conflict, the template renames the **IMediaObject** method to **DMOLock**. When you compile the derived class, define FIX\_LOCK\_NAME before including the header file Dmo.h:
+Locking is used to protect the DMO's state in a multithreaded environment. In an ATL project, the [**IMediaObject::Lock**](/previous-versions/windows/desktop/api/Mediaobj/nf-mediaobj-imediaobject-lock) method causes a name conflict with the ATL **Lock** method. To resolve the conflict, the template renames the **IMediaObject** method to **DMOLock**. When you compile the derived class, define FIX\_LOCK\_NAME before including the header file Dmo.h:
 
 
 ```C++

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The Windows Media Format SDK includes system profiles with names and descriptions in several languages. The localized system profile .prx files are installed into the \[SDKRoot\]\\WMSDK\\WMFSDK9\\LocalizedProfiles folder. To access a particular file with the **IWMProfileManagerLanguage** methods, you must move it into the system root directory along with the other system profile files. For a list of the localized system profile files, see [Localized System Profiles](localized-system-profiles.md).
 
-You can set or retrieve the system profile language using the methods of the [**IWMProfileManagerLanguage**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage) interface. The language is specified as a LANGID value, which consists of a primary language identifier and a secondary language identifier. The following code demonstrates how to retrieve the current language. The default language is U.S. English (0x409). For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
+You can set or retrieve the system profile language using the methods of the [**IWMProfileManagerLanguage**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanagerlanguage) interface. The language is specified as a LANGID value, which consists of a primary language identifier and a secondary language identifier. The following code demonstrates how to retrieve the current language. The default language is U.S. English (0x409). For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 
 
 ```C++

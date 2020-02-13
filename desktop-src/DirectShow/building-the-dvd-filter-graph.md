@@ -38,7 +38,7 @@ The first parameter is the name of a directory that contains the DVD files. On a
 
 The second parameter contains various optional flags for choosing the type of decoder (hardware or software) and other options.
 
-The third parameter is an [**AM\_DVD\_RENDERSTATUS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus) structure that receives status information. If the [**RenderDvdVideoVolume**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume) method returns S\_FALSE, it means the call partially succeeded (or partially failed, if you're a pessimist). For example, the method might fail to render the subpicture stream, even though the other streams rendered successfully. If the **RenderDvdVideoVolume** method returns an error code or the value S\_FALSE, you can examine the **AM\_DVD\_RENDERSTATUS** structure for details about the error.
+The third parameter is an [**AM\_DVD\_RENDERSTATUS**](/windows/win32/api/strmif/ns-strmif-am_dvd_renderstatus) structure that receives status information. If the [**RenderDvdVideoVolume**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume) method returns S\_FALSE, it means the call partially succeeded (or partially failed, if you're a pessimist). For example, the method might fail to render the subpicture stream, even though the other streams rendered successfully. If the **RenderDvdVideoVolume** method returns an error code or the value S\_FALSE, you can examine the **AM\_DVD\_RENDERSTATUS** structure for details about the error.
 
 Next, get a pointer to the Filter Graph Manager by calling [**IDvdGraphBuilder::GetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-getfiltergraph). This method returns a pointer to the Filter Graph Manager's [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) interface.
 
@@ -54,7 +54,7 @@ Use the [**IDvdGraphBuilder::GetDvdInterface**](/windows/desktop/api/Strmif/nf-s
 
 -   [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2). Controls playback and DVD commands
 -   [**IDvdInfo2**](/windows/desktop/api/Strmif/nn-strmif-idvdinfo2). Returns information about the DVD Navigator's current state.
--   [**IAMLine21Decoder**](/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder). Controls closed caption display. Closed caption display is enabled by default. To disable it, call [**IAMLine21Decoder::SetServiceState**](/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate) with the AM\_L21\_CCSTATE\_Off flag.
+-   [**IAMLine21Decoder**](/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder). Controls closed caption display. Closed caption display is enabled by default. To disable it, call [**IAMLine21Decoder::SetServiceState**](/previous-versions/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate) with the AM\_L21\_CCSTATE\_Off flag.
 -   [**IBasicAudio**](/windows/desktop/api/Control/nn-control-ibasicaudio). Controls audio volume and balance.
 
 For example, the following code returns the [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) interface.
@@ -75,7 +75,7 @@ DirectShow provides several video renderer filters. Before you build the graph, 
 
 -   Overlay Mixer Filter: [**IDDrawExclModeVideo**](/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo).
 -   Video Mixing Renderer 7 (VMR-7): [**IVMRFilterConfig**](/windows/desktop/api/Strmif/nn-strmif-ivmrfilterconfig).
--   Video Mixing Renderer 9 (VMR-9): [**IVMRFilterConfig9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9).
+-   Video Mixing Renderer 9 (VMR-9): [**IVMRFilterConfig9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9).
 -   Enhanced Video Renderer (EVR): [**IEVRFilterConfig**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig).
 
 If you request any of these interfaces before building the filter graph, the DVD Graph Builder creates the corresponding video renderer. Later, when you build the graph, the DVD Graph Builder will try to use that renderer. But if it cannot build the graph using the renderer you selected, it may switch to another renderer. For example, your MPEG-2 decoder might not be compatible with the VMR filter, in which case the DVD Graph Builder would default to the Overlay Mixer.

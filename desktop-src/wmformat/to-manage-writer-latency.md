@@ -19,7 +19,7 @@ It takes time for the writer to process samples. The amount of time between pass
 
 The most obvious factor involved in writer latency is the time it takes to compress a sample. Under most circumstances, you will have little or no control over this. If bandwidth is not a big concern, you can reduce latency by using less compression. Of course, you can achieve the least latency by passing samples that are already compressed.
 
-The next factor, and one over which you usually do have control, is the order in which samples are passed to the reader. You can achieve better latency by passing samples in order of presentation time, and by ensuring that the input samples are well synchronized between all input streams. The greater the discrepancy in presentation times between the samples for different streams, the more latency will result. You can set a maximum for the discrepancy between input samples by calling [**IWMWriterAdvanced::SetSyncTolerance**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance).
+The next factor, and one over which you usually do have control, is the order in which samples are passed to the reader. You can achieve better latency by passing samples in order of presentation time, and by ensuring that the input samples are well synchronized between all input streams. The greater the discrepancy in presentation times between the samples for different streams, the more latency will result. You can set a maximum for the discrepancy between input samples by calling [**IWMWriterAdvanced::SetSyncTolerance**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance).
 
 ## Related topics
 

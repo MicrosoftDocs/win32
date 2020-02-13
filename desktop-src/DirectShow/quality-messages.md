@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Quality Messages
 
-Quality messages are defined with the [**Quality**](/previous-versions/windows/desktop/api/strmif/ns-strmif-quality) structure. This structure contains the following members:
+Quality messages are defined with the [**Quality**](/windows/win32/api/strmif/ns-strmif-quality) structure. This structure contains the following members:
 
--   **Type:** Defined by the [**QualityMessageType**](/previous-versions/windows/desktop/api/strmif/ne-strmif-qualitymessagetype) enumeration; either Famine, indicating that the filter is receiving too little data, or Flood, indicating that the filter is receiving too much data.
+-   **Type:** Defined by the [**QualityMessageType**](/windows/win32/api/strmif/ne-strmif-qualitymessagetype) enumeration; either Famine, indicating that the filter is receiving too little data, or Flood, indicating that the filter is receiving too much data.
 -   **Proportion:** The requested adjustment in the data rate, from a baseline of 1000. For example, 750 indicates 75% and 1500 indicates 150%.
 -   **Late:** Reference time indicating how late the most recent sample arrived. The value is negative if the sample arrived early.
 -   **TimeStamp:** The time stamp on the most recent sample.

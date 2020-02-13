@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # To Index an ASF File
 
-The process of indexing an ASF file is very simple. Make a call to [**IWMIndexer::StartIndexing**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing) and pass the file name. The indexer does the rest. The call to **StartIndexing** is asynchronous, so status must be monitored using the **OnStatus** callback.
+The process of indexing an ASF file is very simple. Make a call to [**IWMIndexer::StartIndexing**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing) and pass the file name. The indexer does the rest. The call to **StartIndexing** is asynchronous, so status must be monitored using the **OnStatus** callback.
 
 The following code shows how to index an ASF file. If you want to configure the indexer prior to indexing the file, you will need to include code from the example included in [To Configure the Indexer](to-configure-the-indexer.md).
 
@@ -86,13 +86,13 @@ g_hEvent = NULL;
 
 <dl> <dt>
 
-[**IWMIndexer Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer)
+[**IWMIndexer Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer)
 </dt> <dt>
 
 [**To Configure the Indexer**](to-configure-the-indexer.md)
 </dt> <dt>
 
-[**WMCreateIndexer**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer)
+[**WMCreateIndexer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer)
 </dt> <dt>
 
 [**Working with Indexes**](working-with-indexes.md)

@@ -17,7 +17,7 @@ The filter graph has changed state.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-(**DWORD**) Member of the [**FILTER\_STATE**](/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state) enumerated type, indicating the new graph state.
+(**DWORD**) Member of the [**FILTER\_STATE**](/windows/win32/api/strmif/ne-strmif-filter_state) enumerated type, indicating the new graph state.
 
 </dd> <dt>
 

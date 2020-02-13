@@ -38,13 +38,13 @@ The following sections describe the predefined attributes.
 
 <dl> <dt>
 
-[**IWMHeaderInfo::GetAttributeByIndex**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyindex)
+[**IWMHeaderInfo::GetAttributeByIndex**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyindex)
 </dt> <dt>
 
-[**IWMHeaderInfo::GetAttributeByName**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname)
+[**IWMHeaderInfo::GetAttributeByName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname)
 </dt> <dt>
 
-[**IWMHeaderInfo::SetAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute)
+[**IWMHeaderInfo::SetAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute)
 </dt> <dt>
 
 [**Working with Metadata**](working-with-metadata.md)

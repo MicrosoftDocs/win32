@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # To Implement Reader Messages in the OnStatus Callback
 
-To use the asynchronous reader to deliver content from an ASF file, you must implement a minimum of two callback methods, [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) and [**IWMReaderCallback::OnSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample). This section describes how to implement **IWMStatusCallback::OnStatus** to receive and respond to status messages sent by the reader. **OnStatus** is used by other objects in the Windows Media Format SDK. For general information about **OnStatus**, see [Using the OnStatus Callback](using-the-onstatus-callback.md).
+To use the asynchronous reader to deliver content from an ASF file, you must implement a minimum of two callback methods, [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) and [**IWMReaderCallback::OnSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample). This section describes how to implement **IWMStatusCallback::OnStatus** to receive and respond to status messages sent by the reader. **OnStatus** is used by other objects in the Windows Media Format SDK. For general information about **OnStatus**, see [Using the OnStatus Callback](using-the-onstatus-callback.md).
 
 When using the asynchronous reader, you must trap the following messages in **IWMStatusCallback::OnStatus**.
 
@@ -34,13 +34,13 @@ When using the asynchronous reader, you must trap the following messages in **IW
 
 You should use the status messages listed above to control execution of your reading application. For example, you must wait until receiving the **WMT\_OPENED** message to start the reader or call other methods that require the reader to have a file ready. Frequently, applications built with the asynchronous reader use an event to signal the completion of asynchronous calls and proceed with processing. For more information about using events for signaling completion of operations, see [Using Events with Asynchronous Calls](using-events-with-asynchronous-calls.md).
 
-Many other messages are sent to **OnStatus** by the reader object to enable the application to respond to the status of reading operations. The possible status message values are defined in the [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) enumeration type.
+Many other messages are sent to **OnStatus** by the reader object to enable the application to respond to the status of reading operations. The possible status message values are defined in the [**WMT\_STATUS**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) enumeration type.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus)
+[**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus)
 </dt> <dt>
 
 [**Reading Files with the Asynchronous Reader**](reading-files-with-the-asynchronous-reader.md)

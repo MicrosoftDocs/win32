@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Handling License Acquisition Events
 
-A DRM-enabled reader application, in its [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) callback method, handles the following four events related to the license acquisition process:
+A DRM-enabled reader application, in its [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) callback method, handles the following four events related to the license acquisition process:
 
 -   **WMT\_LICENSEURL\_SIGNATURE\_STATE**
 -   **WMT\_NO\_RIGHTS**
@@ -38,20 +38,20 @@ If appropriate, an application can make it easier for the user to navigate to th
 
 Because the application has no way of knowing when a DRM version 1 license has been acquired, it is up to the user to attempt to open the file again after acquiring the license.
 
-This same non-silent license acquisition process can also be used for version 7 licenses, but in this case the application can first call [**IWMDRMReader::MonitorLicenseAcquisition**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition). This method will cause the local license store to be checked repeatedly until the license for the new file is found. At that point, the application will receive a **WMT\_ACQUIRE\_LICENSE** event. For all version 7 licenses, it is recommended that applications give users the option to obtain licenses silently or non-silently.
+This same non-silent license acquisition process can also be used for version 7 licenses, but in this case the application can first call [**IWMDRMReader::MonitorLicenseAcquisition**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition). This method will cause the local license store to be checked repeatedly until the license for the new file is found. At that point, the application will receive a **WMT\_ACQUIRE\_LICENSE** event. For all version 7 licenses, it is recommended that applications give users the option to obtain licenses silently or non-silently.
 
 **WMT\_NO\_RIGHTS\_EX**
 
 The **WMT\_NO\_RIGHTS\_EX** event indicates that the content is protected by DRM version 7, and therefore the license acquisition process can proceed either silently or non-silently. In general, silent license acquisition is more convenient for end users, although some people prefer to acquire all licenses non-silently. When license acquisition requires the user to submit payment or personal information, the process should always be performed non-silently. Non-silent license acquisition is described above under the **WMT\_NO\_RIGHTS** heading. Silent acquisition proceeds as follows:
 
 1.  Cast the *pValue* parameter to a [**WM\_GET\_LICENSE\_DATA**](wm-get-license-data.md) structure and store the structure in case it is needed later for non-silent license acquisition.
-2.  Call **QueryInterface** on the reader object to obtain the [**IWMDRMReader**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) interface.
-3.  Call [**IWMDRMReader::AcquireLicense**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense) and specify 0x1 in the *dwFlags* parameter to indicate silent language acquisition. This is an asynchronous call that returns immediately.
+2.  Call **QueryInterface** on the reader object to obtain the [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) interface.
+3.  Call [**IWMDRMReader::AcquireLicense**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense) and specify 0x1 in the *dwFlags* parameter to indicate silent language acquisition. This is an asynchronous call that returns immediately.
 4.  Wait for the **WMT\_ACQUIRE\_LICENSE** event.
 
 **WMT\_ACQUIRE\_LICENSE**
 
-The **WMT\_ACQUIRE\_LICENSE** event is sent after the license acquisition process is completed for a DRM version 7 license. [**IWMDRMReader::AcquireLicense**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense) causes this event to be sent for silent acquisition, and [**MonitorLicenseAcquisition**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition) causes it to be sent for non-silent acquisition. In your event handler, cast *pValue* to a pointer to a [**WM\_GET\_LICENSE\_DATA**](wm-get-license-data.md) structure and examine the **hr** member to determine whether the license was successfully acquired. If **hr** equals NS\_E\_DRM\_NO\_RIGHTS, it indicates that the license must be acquired non-silently. Applications should enable users to cancel the license acquisition process at any time. This is done by calling [**IWMDRMReader::CancelLicenseAcquisition**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition). Calling this method will send a **WMT\_ACQUIRE\_LICENSE** event with an **HRESULT** value of NS\_S\_DRM\_ACQUIRE\_CANCELLED.
+The **WMT\_ACQUIRE\_LICENSE** event is sent after the license acquisition process is completed for a DRM version 7 license. [**IWMDRMReader::AcquireLicense**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense) causes this event to be sent for silent acquisition, and [**MonitorLicenseAcquisition**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition) causes it to be sent for non-silent acquisition. In your event handler, cast *pValue* to a pointer to a [**WM\_GET\_LICENSE\_DATA**](wm-get-license-data.md) structure and examine the **hr** member to determine whether the license was successfully acquired. If **hr** equals NS\_E\_DRM\_NO\_RIGHTS, it indicates that the license must be acquired non-silently. Applications should enable users to cancel the license acquisition process at any time. This is done by calling [**IWMDRMReader::CancelLicenseAcquisition**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition). Calling this method will send a **WMT\_ACQUIRE\_LICENSE** event with an **HRESULT** value of NS\_S\_DRM\_ACQUIRE\_CANCELLED.
 
 If **hr** equals NS\_S\_DRM\_LICENSE\_ACQUIRED, then the license has been acquired and the application can attempt to play the file, or copy it to a device or perform whatever action it had requested rights for.
 

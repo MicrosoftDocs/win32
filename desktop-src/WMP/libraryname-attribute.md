@@ -29,7 +29,7 @@ The LibraryName attribute is the name of the library that the item belongs to.
 
 A media item might belong to the current user's local library or it might belong to a library that has been made available by another user on a home network.
 
-The value of this attribute is the same as the value returned by the [**IWMPLibrary::get\_name**](/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name) method.
+The value of this attribute is the same as the value returned by the [**IWMPLibrary::get\_name**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name) method.
 
 ## Requirements
 

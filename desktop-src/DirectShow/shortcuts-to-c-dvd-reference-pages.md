@@ -14,7 +14,7 @@ The following interfaces are those typically used when writing a DVD application
 
 | Interface                                    | Purpose                                                                                          |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**IAMLine21Decoder**](/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder) | Controls closed captioning display.                                                              |
+| [**IAMLine21Decoder**](/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder) | Controls closed captioning display.                                                              |
 | [**IDvdCmd**](/windows/desktop/api/Strmif/nn-strmif-idvdcmd)                   | Used in advanced command synchronization techniques to control a command object.                 |
 | [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2)         | Issues commands to the [DVD Navigator](dvd-navigator-filter.md) filter (the "set" methods).     |
 | [**IDvdGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-idvdgraphbuilder) | Creates the DVD filter graph.                                                                    |

@@ -28,7 +28,7 @@ g\_wszWMDRM\_BaseLicenseAcqURL
 
 ## Remarks
 
-This is an optional read-write property that is set and retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). It is provided to enable license distribution systems to use relative paths in the license acquisition URL properties.
+This is an optional read-write property that is set and retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). It is provided to enable license distribution systems to use relative paths in the license acquisition URL properties.
 
 After setting this property, all partial license acquisition URLs in content headers will have the base URL added to the front of the partial URL to form a full URL for the player application to navigate to. Calling **IWMDRMReader::GetDRMProperty** for **DRM\_BaseLicenseAcqURL** will only work only in the same session as it was set. The property is not stored in the content header; it is dynamic, and only the relative URL is stored in the content.
 

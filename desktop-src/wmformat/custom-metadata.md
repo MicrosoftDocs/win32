@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 In addition to the many supported attributes provided with the Windows Media Format SDK, you can create metadata attributes to your own specifications. When creating custom metadata attributes, you should use an easily identifiable naming convention to avoid possible conflict with attributes created by others.
 
-It is recommended that you use the methods of [**IWMHeaderInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) to create your metadata because of the added flexibility they provide over the methods of [**IWMHeaderInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo).
+It is recommended that you use the methods of [**IWMHeaderInfo3**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) to create your metadata because of the added flexibility they provide over the methods of [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo).
 
 ## Related topics
 

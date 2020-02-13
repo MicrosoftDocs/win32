@@ -20,7 +20,7 @@ api_location:
 
 # GetBitmapSize function
 
-The `GetBitmapSize` function calculates the number of bytes required by a device-independent bitmap (DIB). This function simply calls the [**DIBSIZE**](/windows/desktop/api/Amvideo/nf-amvideo-dibsize) macro.
+The `GetBitmapSize` function calculates the number of bytes required by a device-independent bitmap (DIB). This function simply calls the [**DIBSIZE**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-dibsize) macro.
 
 ## Syntax
 

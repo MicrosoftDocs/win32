@@ -23,7 +23,7 @@ This filter can be added to the graph automatically by calling [**ICaptureGraphB
 
 |                                          |                                                               |
 |------------------------------------------|---------------------------------------------------------------|
-| Filter Interfaces                        | ISpecifyPropertyPages, [**IAMWstDecoder**](/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder) |
+| Filter Interfaces                        | ISpecifyPropertyPages, [**IAMWstDecoder**](/previous-versions/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder) |
 | Input Pin Media Types                    | MEDIATYPE\_VBI, MEDIASUBTYPE\_TELETEXT                        |
 | Input Pin Interfaces                     | [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin)                                          |
 | Output Pin Media Types                   | MEDIATYPE\_Video                                              |

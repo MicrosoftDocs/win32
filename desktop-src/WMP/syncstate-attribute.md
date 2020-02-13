@@ -61,10 +61,10 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Determining Playlist Synchronization State**](determining-playlist-synchronization-state.md)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_partnershipIndex**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex)
+[**IWMPSyncDevice::get\_partnershipIndex**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_status**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status)
+[**IWMPSyncDevice::get\_status**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status)
 </dt> </dl>
 
  

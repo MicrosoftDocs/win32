@@ -71,7 +71,7 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 [**AxWindowsMediaPlayer.OpenStateChange Event**](axwmplib-axwindowsmediaplayer-openstatechange.md)
 </dt> <dt>
 
-[**WMPLib.WMPOpenState**](/windows/desktop/api/wmp/ne-wmp-wmpopenstate)
+[**WMPLib.WMPOpenState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpopenstate)
 </dt> </dl>
 
  

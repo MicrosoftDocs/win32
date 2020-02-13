@@ -48,7 +48,7 @@ Pointer to the pin's [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) inte
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure that specifies the media type, or **NULL**.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure that specifies the media type, or **NULL**.
 
 </dd> </dl>
 

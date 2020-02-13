@@ -21,11 +21,11 @@ ms.date: 05/31/2018
 
 A *marker* is a named point within an ASF file. Each marker consists of a name and an associated time, measured as an offset from the start of the file. An application can use markers to assign names to various points within the content, display those names to the user, and then seek to the marker positions. An application can add or remove markers from an existing ASF file.
 
-The [**IWMHeaderInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) interface contains methods for working with markers. The metadata editor object supports adding and removing markers. The writer and reader objects can retrieve markers but cannot add or remove markers.
+The [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) interface contains methods for working with markers. The metadata editor object supports adding and removing markers. The writer and reader objects can retrieve markers but cannot add or remove markers.
 
 ## Adding Markers
 
-To add a marker, query the metadata editor for the **IWMHeaderInfo** interface. Then call the [**IWMHeaderInfo::AddMarker**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker) method, specifying the marker name as a wide-character string and the time in 100-nanosecond units. The time must not exceed the file duration. Two markers can have the same time.
+To add a marker, query the metadata editor for the **IWMHeaderInfo** interface. Then call the [**IWMHeaderInfo::AddMarker**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker) method, specifying the marker name as a wide-character string and the time in 100-nanosecond units. The time must not exceed the file duration. Two markers can have the same time.
 
 The following example adds several markers to a file:
 
@@ -59,7 +59,7 @@ pEdit->Release();
 
 ## Removing Markers
 
-To remove a marker, call [**IWMHeaderInfo::RemoveMarker**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removemarker), specifying the index of the marker to remove. Markers are automatically sorted in increasing time order, so index 0 is always the first marker. Note that calling **RemoveMarker** changes the index numbers of any markers that follow. The following code, where *pInfo* is a pointer to an **IWMHeaderInfo** interface, removes all the markers from a file:
+To remove a marker, call [**IWMHeaderInfo::RemoveMarker**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removemarker), specifying the index of the marker to remove. Markers are automatically sorted in increasing time order, so index 0 is always the first marker. Note that calling **RemoveMarker** changes the index numbers of any markers that follow. The following code, where *pInfo* is a pointer to an **IWMHeaderInfo** interface, removes all the markers from a file:
 
 
 ```C++
@@ -78,8 +78,8 @@ while (count--)
 
 To retrieve the name and time of a marker, perform the following steps:
 
-1.  Call the [**IWMHeaderInfo::GetMarkerCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount) method to determine how many markers the file contains.
-2.  Retrieve the size of the string needed to contain the marker name. To do so, call the [**IWMHeaderInfo::GetMarker**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker) method. Specify the index of the marker to retrieve, and **NULL** for the string buffer (the *pwszMarkerName* parameter). The method returns the length of the string, including the terminating '\\0' character, in the *pcchMarkerNameLen* parameter.
+1.  Call the [**IWMHeaderInfo::GetMarkerCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount) method to determine how many markers the file contains.
+2.  Retrieve the size of the string needed to contain the marker name. To do so, call the [**IWMHeaderInfo::GetMarker**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker) method. Specify the index of the marker to retrieve, and **NULL** for the string buffer (the *pwszMarkerName* parameter). The method returns the length of the string, including the terminating '\\0' character, in the *pcchMarkerNameLen* parameter.
 3.  Allocate a wide-character string to receive the name.
 4.  Call **GetMarker** again, but this time pass the address of the string in the *pwszMarkerName* parameter. The method writes the marker name into the string, and returns the marker time in the *pcnsMarkerTime* parameter.
 
@@ -116,7 +116,7 @@ delete[] wszName;
 
 ## Seeking to a Marker
 
-To start playback from a marker location, call the reader object's [**IWMReaderAdvanced2::StartAtMarker**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-startatmarker) method, specifying the index of the marker. The remaining parameters are identical to those for the [**IWMReader::Start**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start) method. The following example queries the reader for the [**IWMReaderAdvanced2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interface and seeks to the first marker.
+To start playback from a marker location, call the reader object's [**IWMReaderAdvanced2::StartAtMarker**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-startatmarker) method, specifying the index of the marker. The remaining parameters are identical to those for the [**IWMReader::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start) method. The following example queries the reader for the [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interface and seeks to the first marker.
 
 
 ```C++
@@ -137,10 +137,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IWMHeaderInfo Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)
+[**IWMHeaderInfo Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)
 </dt> <dt>
 
-[**IWMReaderAdvanced2::StartAtMarker**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-startatmarker)
+[**IWMReaderAdvanced2::StartAtMarker**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-startatmarker)
 </dt> <dt>
 
 [**Working with Metadata**](working-with-metadata.md)

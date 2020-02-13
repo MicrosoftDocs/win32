@@ -20,7 +20,7 @@ The following steps are required to initialize an ASF writer object for importin
 
 1.  Follow steps 1 to 4 of [Importing License and Key Material](importing-license-and-key-material.md).
 2.  Create and initialize an ASF writer object using the appropriate Windows Media DRM key material. For more information, see [Enabling DRM Support](enabling-drm-support.md).
-3.  Set each of the following attributes by calling [**IWMDRMWriter::SetDRMAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute):
+3.  Set each of the following attributes by calling [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute):
     -   DRM\_HeaderSignPrivKey
     -   DRM\_V1LicenseAcqURL
     -   DRM\_KeyID
@@ -36,9 +36,9 @@ The following steps are required to initialize an ASF writer object for importin
 7.  Encrypt the content key with the session key, using RC4 encryption.
 8.  Extract the machine certificate collection key. For an example, see [Get Machine Certificate Example](get-machine-certificate-example.md).
 9.  Encrypt the session key with the public key extracted from the certificate.
-10. Fill out a [**WMDRM\_IMPORT\_INIT\_STRUCT**](/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct) structure.
-11. Call the [**IWMDRMWriter3::SetProtectStreamSamples**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter3-setprotectstreamsamples) method to notify the SDK that samples coming into the writer are already protected and should be sent directly to the Windows Media DRM client for import.
-12. Call [**IWMWriter::BeginWriting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting).
+10. Fill out a [**WMDRM\_IMPORT\_INIT\_STRUCT**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct) structure.
+11. Call the [**IWMDRMWriter3::SetProtectStreamSamples**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter3-setprotectstreamsamples) method to notify the SDK that samples coming into the writer are already protected and should be sent directly to the Windows Media DRM client for import.
+12. Call [**IWMWriter::BeginWriting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting).
 
 The remaining steps for creating a DRM-protected file are documented in the Windows Media Format SDK Programming Guide. For more information, see [Creating Protected Files](creating-protected-files.md).
 

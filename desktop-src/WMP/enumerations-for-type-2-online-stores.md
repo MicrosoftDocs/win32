@@ -24,7 +24,7 @@ The following enumeration type is available for online stores using C++ code.
 
 | Enumeration                                                    | Description                                         |
 |----------------------------------------------------------------|-----------------------------------------------------|
-| [WMPSubscriptionServiceEvent](/windows/desktop/api/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent) | Defines the types of service events that may occur. |
+| [WMPSubscriptionServiceEvent](/previous-versions/windows/desktop/api/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent) | Defines the types of service events that may occur. |
 
 
 

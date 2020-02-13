@@ -30,10 +30,10 @@ The following topics explain how to work with outputs:
 
 <dl> <dt>
 
-[**IWMReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
+[**IWMReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
 </dt> <dt>
 
-[**IWMSyncReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
+[**IWMSyncReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
 [**Reading ASF Files**](reading-asf-files.md)

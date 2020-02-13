@@ -69,7 +69,7 @@ The following steps show how Windows Media Player uses the parameters of the **s
 
 1.  Script on a discovery page calls **showPopup**, passing an integer in *PopupIndex* and a string in *Parameters*.
 
-2.  Windows Media Player passes the index to [IWMPContentPartner::GetItemInfo](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) to retrieve the URL of the webpage to be displayed.
+2.  Windows Media Player passes the index to [IWMPContentPartner::GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) to retrieve the URL of the webpage to be displayed.
 
 3.  Windows Media Player appends *Parameters* to the URL as a query string. For example, if **GetItemInfo** returns "https://www.Proseware.com/Pages/Popup1.htm" and *Parameters* is equal to "DlgX=800&DlgY=400&Greeting=Hi", Windows Media Player creates the following URL:
 

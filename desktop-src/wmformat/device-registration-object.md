@@ -18,7 +18,7 @@ The device registration object manages the device registration database. This da
 
 If your application supports Windows Media DRM 10 for Network Devices, you must use the interfaces of this object to register network devices, and to validate those devices. You can also use the device registration database to store information about network devices that do not use Windows Media DRM 10 for Network Devices, although not all of the information in the database will apply to such devices.
 
-The device registration object is created by the [**WMCreateDeviceRegistration**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration) function, which sets a pointer to an **IWMDeviceRegistration** interface. The other methods of the device registration object can be obtained by calling the **QueryInterface** method.
+The device registration object is created by the [**WMCreateDeviceRegistration**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration) function, which sets a pointer to an **IWMDeviceRegistration** interface. The other methods of the device registration object can be obtained by calling the **QueryInterface** method.
 
 The following interfaces are supported by the device registration object.
 
@@ -26,9 +26,9 @@ The following interfaces are supported by the device registration object.
 
 | Interface                                              | Description                               |
 |--------------------------------------------------------|-------------------------------------------|
-| [**IWMDeviceRegistration**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration) | Manages the device registration database. |
-| [**IWMDRMMessageParser**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser)     | Parses messages sent by devices.          |
-| [**IWMProximityDetection**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection) | Manages device validation.                |
+| [**IWMDeviceRegistration**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration) | Manages the device registration database. |
+| [**IWMDRMMessageParser**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser)     | Parses messages sent by devices.          |
+| [**IWMProximityDetection**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection) | Manages device validation.                |
 
 
 
@@ -40,7 +40,7 @@ The following callback interface must be implemented by the application in order
 
 | Interface                                      | Description                                                                |
 |------------------------------------------------|----------------------------------------------------------------------------|
-| [**IWMStatusCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Receives status messages from processes that execute in a separate thread. |
+| [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Receives status messages from processes that execute in a separate thread. |
 
 
 

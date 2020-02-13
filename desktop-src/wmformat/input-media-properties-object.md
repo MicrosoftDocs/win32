@@ -20,9 +20,9 @@ An input media properties object created by the writer object supports the follo
 
 | Interface                                        | Description                                                                                                |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [**IWMInputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) | Retrieves the properties of an input stream.                                                               |
-| [**IWMMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)           | Used as the base interface for the other media-property interfaces (input, output, and video).             |
-| [**IWMVideoMediaProps**](/windows/desktop/api/Wmsdkidl/nn-wmsdkidl-iwmvideomediaprops) | Manages the properties of a video stream. This is an optional interface, available only for video streams. |
+| [**IWMInputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) | Retrieves the properties of an input stream.                                                               |
+| [**IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)           | Used as the base interface for the other media-property interfaces (input, output, and video).             |
+| [**IWMVideoMediaProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nn-wmsdkidl-iwmvideomediaprops) | Manages the properties of a video stream. This is an optional interface, available only for video streams. |
 
 
 

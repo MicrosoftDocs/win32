@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 Every DMO should meet the following minimum requirements:
 
 -   It must support aggregation.
--   It must expose the [**IMediaObject**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface.
+-   It must expose the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface.
 -   The threading model must be 'both'. DMOs must function correctly in a free-threaded environment.
 
-Audio effect DMOs should support the [**IMediaObjectInPlace**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace) interface, for use in DirectMusic and DirectSound.
+Audio effect DMOs should support the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace) interface, for use in DirectMusic and DirectSound.
 
 The following interfaces are documented elsewhere, but are useful for many DMOs. They are not required, however.
 

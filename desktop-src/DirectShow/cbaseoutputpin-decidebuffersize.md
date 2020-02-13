@@ -48,7 +48,7 @@ Pointer to the allocator's [**IMemAllocator**](/windows/desktop/api/Strmif/nn-st
 *ppropInputRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the input pin's buffer requirements. If the input pin does not have any requirements, the caller should zero out the members of this structure before calling the method.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-allocator_properties) structure that contains the input pin's buffer requirements. If the input pin does not have any requirements, the caller should zero out the members of this structure before calling the method.
 
 </dd> </dl>
 

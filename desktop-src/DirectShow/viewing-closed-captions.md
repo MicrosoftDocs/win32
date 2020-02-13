@@ -55,7 +55,7 @@ If the capture device uses a video port, the capture filter might have a video p
 
 ### Enabling and Disabling the Captions
 
-To control the captioning display, use the [**IAMLine21Decoder**](/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder) interface on the Line 21 Decoder filter. For example, you can turn off the captioning display using the [**IAMLine21Decoder::SetServiceState**](/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate) method, as follows:
+To control the captioning display, use the [**IAMLine21Decoder**](/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder) interface on the Line 21 Decoder filter. For example, you can turn off the captioning display using the [**IAMLine21Decoder::SetServiceState**](/previous-versions/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate) method, as follows:
 
 
 ```C++
@@ -76,7 +76,7 @@ if (SUCCEEDED(hr))
 
 
 
-This example uses the [**ICaptureGraphBuilder2::FindInterface**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-findinterface) method to locate the [**IAMLine21Decoder**](/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder) interface. The first parameter to **FindInterface** is **&LOOK\_DOWNSTREAM\_ONLY**, which specifies to search downstream from the capture filter (*pCap*).
+This example uses the [**ICaptureGraphBuilder2::FindInterface**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-findinterface) method to locate the [**IAMLine21Decoder**](/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder) interface. The first parameter to **FindInterface** is **&LOOK\_DOWNSTREAM\_ONLY**, which specifies to search downstream from the capture filter (*pCap*).
 
 ### Capturing Closed Caption Bitmaps
 

@@ -38,7 +38,7 @@ One of the following **WMT\_STATUS** values:
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-Pointer to an [**AM\_WMT\_EVENT\_DATA**](/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data) structure that contains information about the event, or **NULL**. The **pData** member of this structure points to additional data, whose type depends on the value of **lParam1**, as shown in the following table.
+Pointer to an [**AM\_WMT\_EVENT\_DATA**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data) structure that contains information about the event, or **NULL**. The **pData** member of this structure points to additional data, whose type depends on the value of **lParam1**, as shown in the following table.
 
 
 

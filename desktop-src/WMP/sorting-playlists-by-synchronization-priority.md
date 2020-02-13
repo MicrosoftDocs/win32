@@ -122,13 +122,13 @@ STDMETHODIMP CSyncSettings::SortPlaylist(IWMPPlaylist *pPlaylist, BSTR bstrSyncA
 
 <dl> <dt>
 
-[**IWMPMedia::getItemInfo**](/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo)
+[**IWMPMedia::getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo)
 </dt> <dt>
 
-[**IWMPPlaylist::get\_item**](/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_item)
+[**IWMPPlaylist::get\_item**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_item)
 </dt> <dt>
 
-[**IWMPPlaylist::moveItem**](/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-moveitem)
+[**IWMPPlaylist::moveItem**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-moveitem)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

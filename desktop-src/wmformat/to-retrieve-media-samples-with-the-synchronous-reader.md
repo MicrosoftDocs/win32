@@ -16,12 +16,12 @@ ms.date: 05/31/2018
 
 You must request each sample one at a time from the synchronous reader. This gives you more control over the samples you receive and when you receive them.
 
-Use the [**IWMSyncReader::GetNextSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample) method to retrieve a sample. You need to pass mostly pointers to variables that will be filled with information about the sample retrieved as parameters. The only input parameter is *wStreamNum*. If you pass a stream number, **GetNextSample** will retrieve the next sample with the specified stream number. If you pass zero for *wStreamNum*, the next sample that occurs chronologically in the file is retrieved.
+Use the [**IWMSyncReader::GetNextSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample) method to retrieve a sample. You need to pass mostly pointers to variables that will be filled with information about the sample retrieved as parameters. The only input parameter is *wStreamNum*. If you pass a stream number, **GetNextSample** will retrieve the next sample with the specified stream number. If you pass zero for *wStreamNum*, the next sample that occurs chronologically in the file is retrieved.
 
 By default, the synchronous reader retrieves all of the samples from the outputs in a file in chronological order. If you call **GetNextSample** and there are no more samples to get, it will return NS\_E\_NO\_MORE\_SAMPLES, which is a failed error code. When coding therefore, you can simply loop through samples until the method fails.
 
 > [!Note]  
-> To ensure that the synchronous reader delivers correct sample durations for video streams, you must first configure the stream output. Call the [**IWMSyncReader::SetOutputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting) method to set the g\_wszVideoSampleDurations setting to **TRUE**.
+> To ensure that the synchronous reader delivers correct sample durations for video streams, you must first configure the stream output. Call the [**IWMSyncReader::SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting) method to set the g\_wszVideoSampleDurations setting to **TRUE**.
 
  
 
@@ -65,7 +65,7 @@ while (SUCCEEDED(hr));
 
 <dl> <dt>
 
-[**IWMSyncReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
+[**IWMSyncReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
 [**Reading Files with the Synchronous Reader**](reading-files-with-the-synchronous-reader.md)

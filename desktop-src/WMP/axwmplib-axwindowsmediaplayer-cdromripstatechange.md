@@ -71,7 +71,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 [**IWMPCdromRip Interface (VB and C#)**](iwmpcdromrip--vb-and-c.md)
 </dt> <dt>
 
-[**WMPRipState**](/windows/desktop/api/wmp/ne-wmp-wmpripstate)
+[**WMPRipState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpripstate)
 </dt> </dl>
 
  

@@ -27,16 +27,16 @@ Each bandwidth sharing object is defined by two settings. First is the bandwidth
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMProfile3::AddBandwidthSharing**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing)
+[**IWMProfile3::AddBandwidthSharing**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing)
 </dt> <dt>
 
-[**IWMProfile3::CreateNewBandwidthSharing**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing)
+[**IWMProfile3::CreateNewBandwidthSharing**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing)
 </dt> <dt>
 
-[**IWMProfile3::GetBandwidthSharing**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing)
+[**IWMProfile3::GetBandwidthSharing**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing)
 </dt> <dt>
 
-[**IWMProfile3::GetBandwidthSharingCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount)
+[**IWMProfile3::GetBandwidthSharingCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

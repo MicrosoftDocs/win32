@@ -91,7 +91,7 @@ Thus, for PCM audio the subtype GUID (defined in uuids.h as **MEDIASUBTYPE\_PCM*
 
 `{00000001-0000-0010-8000-00AA00389B71}`
 
-The [**CreateAudioMediaType**](createaudiomediatype.md) function can be used to create an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure from a **WAVEFORMATEX** structure.
+The [**CreateAudioMediaType**](createaudiomediatype.md) function can be used to create an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure from a **WAVEFORMATEX** structure.
 
 ## Obsolete Audio Types
 
@@ -104,7 +104,7 @@ The following audio subtypes are obsolete and should not be used:
 
 <dl> <dt>
 
-[**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type)
+[**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type)
 </dt> <dt>
 
 [Media Types](media-types.md)

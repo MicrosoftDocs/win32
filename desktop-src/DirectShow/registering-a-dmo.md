@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 In order for clients to use your DMO, the CLSID must be registered on the user's system. This is done through the DLL's **DllRegisterServer** function. If you are using the Active Template Library (ATL), the ATL wizard automatically generates this function.
 
-You can also register your DMO under one or more standard DMO categories. This enables clients to discover your DMO using the [**DMOEnum**](/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) function. The categories are defined by GUID, and are listed in the section [DMO GUIDs](dmo-guids.md).
+You can also register your DMO under one or more standard DMO categories. This enables clients to discover your DMO using the [**DMOEnum**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) function. The categories are defined by GUID, and are listed in the section [DMO GUIDs](dmo-guids.md).
 
-Registering a DMO under a category is optional. To do so, call the [**DMORegister**](/windows/desktop/api/Dmoreg/nf-dmoreg-dmoregister) function and specify the friendly name of the DMO, the CLSID, and the category. Optionally, you can also register a set of media types that your DMOs supports. For more information, see [DMO Media Types](dmo-media-types.md).
+Registering a DMO under a category is optional. To do so, call the [**DMORegister**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmoregister) function and specify the friendly name of the DMO, the CLSID, and the category. Optionally, you can also register a set of media types that your DMOs supports. For more information, see [DMO Media Types](dmo-media-types.md).
 
 The following example shows how to register an audio effect DMO that supports PCM audio input and output. In this case the input types and output types are the same.
 
@@ -47,7 +47,7 @@ This example assumes that ATL was used to create the project; the last line of t
 
 **Unregistering a DMO**
 
-Your **DllUnregisterServer** function must remove any registry entries that the **DllRegisterServer** function creates. If you call **DMORegister** when you register the DMO, you must [**DMOUnregister**](/windows/desktop/api/Dmoreg/nf-dmoreg-dmounregister) with the same category when you unregister the DMO.
+Your **DllUnregisterServer** function must remove any registry entries that the **DllRegisterServer** function creates. If you call **DMORegister** when you register the DMO, you must [**DMOUnregister**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmounregister) with the same category when you unregister the DMO.
 
 The following example removes the registry entries created in the previous example:
 

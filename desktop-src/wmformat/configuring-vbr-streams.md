@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 You can use variable bit rate (VBR) encoding to produce high quality streams for local files or for downloading and playing. There are three options for VBR: quality-based (one-pass), unconstrained (two-pass), and constrained (two-pass). For more information about the types of VBR encoding, see [Variable Bit Rate (VBR) Encoding](variable-bit-rate--vbr--encoding.md).
 
-You can configure VBR encoding in a profile by setting properties with the [**IWMPropertyVault**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault) interface. The following table describes the properties used to configure VBR encoding.
+You can configure VBR encoding in a profile by setting properties with the [**IWMPropertyVault**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault) interface. The following table describes the properties used to configure VBR encoding.
 
 
 

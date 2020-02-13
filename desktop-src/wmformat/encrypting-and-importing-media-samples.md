@@ -26,10 +26,10 @@ Next, encrypt the sample according to the RC4 algorithm using the generated tran
 
 Here are the steps for encrypting media samples:
 
-1.  Call the **QueryInterface** method of the sample object to get the [**INSSBuffer3**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) interface.
+1.  Call the **QueryInterface** method of the sample object to get the [**INSSBuffer3**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) interface.
 2.  Increment the salt value.
 3.  Encrypt the sample using an RC1 encryption algorithm. For the encryption you create a key by concatenating the initialization vector and the salt value.
-4.  Provide the salt value to the SDK by calling [**INSSBuffer::SetProperty**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty).
+4.  Provide the salt value to the SDK by calling [**INSSBuffer::SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty).
 
 ## Related topics
 

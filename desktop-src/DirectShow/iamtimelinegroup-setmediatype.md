@@ -43,7 +43,7 @@ HRESULT SetMediaType(
 *pmt* \[in\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure describing the format.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure describing the format.
 
 </dd> </dl>
 

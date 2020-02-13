@@ -41,7 +41,7 @@ Documentation of enumerated types, functions, and structures that compose the NP
 [Network Policy Server (Internet Authentication Service)](portal.md)
 </dt> <dt>
 
-[Extensible Authentication Protocol (EAP)](https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-start-page)
+[Extensible Authentication Protocol (EAP)](https://docs.microsoft.com/windows/win32/eap/eap-start-page)
 </dt> </dl>
 
  

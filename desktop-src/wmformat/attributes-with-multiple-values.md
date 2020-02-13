@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Attributes with Multiple Values
 
-Some of the predefined attributes can have multiple values assigned to them. For example, **Artist** is an attribute that can have multiple values. You can call [**IWMHeaderInfo3::AddAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) multiple times to add as many **Artist** values as you require. If you make multiple calls to **AddAttribute** for attributes that do not support multiple values, the method may return an error code, or simply ignore your request.
+Some of the predefined attributes can have multiple values assigned to them. For example, **Artist** is an attribute that can have multiple values. You can call [**IWMHeaderInfo3::AddAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) multiple times to add as many **Artist** values as you require. If you make multiple calls to **AddAttribute** for attributes that do not support multiple values, the method may return an error code, or simply ignore your request.
 
 The following table lists the attributes that support multiple values. Some attributes can have multiple values only in ASF files, while others can have multiple values in both ASF and MP3 files.
 

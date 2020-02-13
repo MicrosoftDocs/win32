@@ -41,10 +41,10 @@ The following sections describe the use of writer sinks.
 
 <dl> <dt>
 
-[**IWMWriterAdvanced Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced)
+[**IWMWriterAdvanced Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced)
 </dt> <dt>
 
-[**IWMWriterSink Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink)
+[**IWMWriterSink Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink)
 </dt> <dt>
 
 [**Writing ASF Files**](writing-asf-files.md)

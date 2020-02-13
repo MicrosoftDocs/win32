@@ -28,11 +28,11 @@ The backup and restore processes are asynchronous. They are triggered when the u
 
 To back up licenses:
 
-1.  Use the [**WMCreateBackupRestorer**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer) function to create the backup restorer object.
-2.  Call the [**IWMBackupRestoreProps::SetProp**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-setprop) method to set the backup path (the location where you will write the files, such as A:\\ or D:\\Licenses).
-3.  Call the [**IWMLicenseBackup::BackupLicenses**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicensebackup-backuplicenses) method to back up the licenses to the specified path.
+1.  Use the [**WMCreateBackupRestorer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer) function to create the backup restorer object.
+2.  Call the [**IWMBackupRestoreProps::SetProp**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-setprop) method to set the backup path (the location where you will write the files, such as A:\\ or D:\\Licenses).
+3.  Call the [**IWMLicenseBackup::BackupLicenses**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicensebackup-backuplicenses) method to back up the licenses to the specified path.
 
-The following events are sent to the [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method:
+The following events are sent to the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method:
 
 -   **WMT\_BACKUPRESTORE\_BEGIN** indicates the backup process has started.
 -   **WMT\_BACKUPRESTORE\_END** indicates the backup process has been completed.
@@ -44,9 +44,9 @@ To restore licenses:
 
 1.  Use the **WMCreateBackupRestorer** function to create the backup restorer object.
 2.  Call the **IWMBackupRestoreProps::SetProp** method to set the restore path to the location where licenses are backed up.
-3.  Call the [**IWMLicenseRestore::RestoreLicenses**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicenserestore-restorelicenses) method to restore licenses from that location.
+3.  Call the [**IWMLicenseRestore::RestoreLicenses**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlicenserestore-restorelicenses) method to restore licenses from that location.
 
-The following events are sent to the [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method:
+The following events are sent to the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method:
 
 -   **WMT\_BACKUPRESTORE\_CONNECTING** indicates that the application is connecting to the License Management Service.
 -   **WMT\_BACKUPRESTORE\_DISCONNECTING** indicates that the application is disconnecting from the License Management Service.
@@ -65,13 +65,13 @@ The following events are sent to the [**IWMStatusCallback::OnStatus**](/windows/
 [**Digital Rights Management Features**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**IWMBackupRestoreProps Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops)
+[**IWMBackupRestoreProps Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops)
 </dt> <dt>
 
-[**IWMLicenseBackup Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup)
+[**IWMLicenseBackup Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup)
 </dt> <dt>
 
-[**IWMLicenseRestore Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore)
+[**IWMLicenseRestore Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore)
 </dt> </dl>
 
  

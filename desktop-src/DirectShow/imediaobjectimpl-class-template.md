@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # IMediaObjectImpl Class Template
 
-The `IMediaObjectImpl` class template provides a base implementation for the [**IMediaObject**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. For more information on using this template, see [Using the DMO Class Template](using-the-dmo-class-template.md).
+The `IMediaObjectImpl` class template provides a base implementation for the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. For more information on using this template, see [Using the DMO Class Template](using-the-dmo-class-template.md).
 
 This `IMediaObjectImpl` template exposes the following members.
 

@@ -43,7 +43,7 @@ The information in the following table applies to both versions of the filter:
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td><a href="/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>

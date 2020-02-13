@@ -45,7 +45,7 @@ Individual items of digital media content contain metadata about synchronization
 
 To optimize performance, Windows Media Player enforces a set of rules for creating synchronization playlists. Your program should only create synchronization playlists for content you provided. Allow Windows Media Player to create synchronization playlists for content that the user added to the library from other sources.
 
-As an alternative to creating your own playlist user interface, you can present users with a default dialog box for choosing playlists and managing the partnership for a device. To do this, call [IWMPSyncDevice::showSettings](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-showsettings). When you invoke this method, Windows Media Player displays its synchronization settings dialog box. When the user closes the dialog box, Windows Media Player automatically returns to its prior docking state and passes control back to your remoted program.
+As an alternative to creating your own playlist user interface, you can present users with a default dialog box for choosing playlists and managing the partnership for a device. To do this, call [IWMPSyncDevice::showSettings](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-showsettings). When you invoke this method, Windows Media Player displays its synchronization settings dialog box. When the user closes the dialog box, Windows Media Player automatically returns to its prior docking state and passes control back to your remoted program.
 
 ## Related topics
 

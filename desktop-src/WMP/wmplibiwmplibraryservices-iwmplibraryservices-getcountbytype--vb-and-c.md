@@ -78,7 +78,7 @@ A **System.Int32** that is the library count.
 [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)
 </dt> <dt>
 
-[**WMPLibraryType**](/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
+[**WMPLibraryType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
 </dt> </dl>
 
  

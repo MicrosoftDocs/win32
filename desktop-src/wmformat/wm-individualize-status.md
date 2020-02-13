@@ -92,7 +92,7 @@ Value from the [**DRM\_HTTP\_STATUS**](drm-http-status.md) enumeration type.
 
 ## Remarks
 
-This structure is filled in by the DRM run-time components and is sent to applications in the *pValue* parameter of the applications [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method when the event equals WMT\_INDIVIDUALIZE. The application receives this event multiple times during the download process.
+This structure is filled in by the DRM run-time components and is sent to applications in the *pValue* parameter of the applications [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method when the event equals WMT\_INDIVIDUALIZE. The application receives this event multiple times during the download process.
 
 ## Requirements
 

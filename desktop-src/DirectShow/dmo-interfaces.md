@@ -14,14 +14,14 @@ This section contains reference entries for all the Microsoft DirectX Media Obje
 
 | Interface                                                            | Description                                                              |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------|
-| [**IDMOQualityControl**](/windows/desktop/api/Mediaobj/nn-mediaobj-idmoqualitycontrol)                     | Supports quality control on a DMO.                                       |
-| [**IDMOVideoOutputOptimizations**](/windows/desktop/api/Mediaobj/nn-mediaobj-idmovideooutputoptimizations) | Supports video optimizations on a DMO.                                   |
-| [**IEnumDMO**](/windows/desktop/api/Mediaobj/nn-mediaobj-ienumdmo)                                         | Provides methods for enumerating DMOs.                                   |
-| [**IMediaBuffer**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer)                                 | Provides methods for manipulating a data buffer.                         |
-| [**IMediaObject**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject)                                 | Provides methods for manipulating a DMO.                                 |
-| [**IMediaObjectInPlace**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace)                   | Provides methods for processing data in place.                           |
-| [**IMediaParamInfo**](/windows/desktop/api/Medparam/nn-medparam-imediaparaminfo)                           | Retrieves information about the media parameters that an object supports |
-| [**IMediaParams**](/windows/desktop/api/Medparam/nn-medparam-imediaparams)                                 | Sets and retrieves media parameters on an object.                        |
+| [**IDMOQualityControl**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-idmoqualitycontrol)                     | Supports quality control on a DMO.                                       |
+| [**IDMOVideoOutputOptimizations**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-idmovideooutputoptimizations) | Supports video optimizations on a DMO.                                   |
+| [**IEnumDMO**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-ienumdmo)                                         | Provides methods for enumerating DMOs.                                   |
+| [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer)                                 | Provides methods for manipulating a data buffer.                         |
+| [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject)                                 | Provides methods for manipulating a DMO.                                 |
+| [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace)                   | Provides methods for processing data in place.                           |
+| [**IMediaParamInfo**](/previous-versions/windows/desktop/api/Medparam/nn-medparam-imediaparaminfo)                           | Retrieves information about the media parameters that an object supports |
+| [**IMediaParams**](/previous-versions/windows/desktop/api/Medparam/nn-medparam-imediaparams)                                 | Sets and retrieves media parameters on an object.                        |
 
 
 
