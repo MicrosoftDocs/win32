@@ -15,7 +15,7 @@ Reader threads read data from a shared resource whereas writer threads write dat
 SRW locks provide two modes in which threads can access a shared resource:
 
 -   **Shared mode**, which grants shared read-only access to multiple reader threads, which enables them to read data from the shared resource concurrently. If read operations exceed write operations, this concurrency increases performance and throughput compared to critical sections.
--   **Exclusive mode**, which grants read/write access to one writer thread at a time. When the lock has been acquired in exclusive mode, no other thread can access the shared resource until the writer releases the lock.
+-   **Exclusive mode**, which grants read/write access to one writer thread at a time. When the lock has been acquired in exclusive mode, no other thread can access the shared resource until the writer releases the lock. (_Note: The same thread trying to acquire a lock it already holds will also fail (for `TryAcquireSRWLockExclusive`) or deadlock (for `AcquireSRWLockExclusive`). The lock is not rentrant._)
 
 A single SRW lock can be acquired in either mode; reader threads can acquire it in shared mode whereas writer threads can acquire it in exclusive mode. There is no guarantee about the order in which threads that request ownership will be granted ownership; SRW locks are neither fair nor FIFO.
 
