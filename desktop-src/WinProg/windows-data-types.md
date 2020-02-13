@@ -564,7 +564,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="INT64"></span><span id="int64"></span><strong>INT64</strong></td>
-<td><p>A 64-bit signed integer. The range is  9223372036854775808 through 9223372036854775807 decimal.</p>
+<td><p>A 64-bit signed integer. The range is -9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef signed __int64 INT64;</code></p></td>
 </tr>
@@ -594,13 +594,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LONG"></span><span id="long"></span><strong>LONG</strong></td>
-<td><p>A 32-bit signed integer. The range is  2147483648 through 2147483647 decimal.</p>
+<td><p>A 32-bit signed integer. The range is -2147483648 through 2147483647 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef long LONG;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LONGLONG"></span><span id="longlong"></span><strong>LONGLONG</strong></td>
-<td><p>A 64-bit signed integer. The range is  9223372036854775808 through 9223372036854775807 decimal.</p>
+<td><p>A 64-bit signed integer. The range is -9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -656,13 +656,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="LONG32"></span><span id="long32"></span><strong>LONG32</strong></td>
-<td><p>A 32-bit signed integer. The range is  2147483648 through 2147483647 decimal.</p>
+<td><p>A 32-bit signed integer. The range is -2147483648 through 2147483647 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef signed int LONG32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LONG64"></span><span id="long64"></span><strong>LONG64</strong></td>
-<td><p>A 64-bit signed integer. The range is  9223372036854775808 through 9223372036854775807 decimal.</p>
+<td><p>A 64-bit signed integer. The range is -9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef __int64 LONG64;</code></p></td>
 </tr>
@@ -1318,7 +1318,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="SHORT"></span><span id="short"></span><strong>SHORT</strong></td>
-<td><p>A 16-bit integer. The range is  32768 through 32767 decimal.</p>
+<td><p>A 16-bit integer. The range is -32768 through 32767 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef short SHORT;</code></p></td>
 </tr>

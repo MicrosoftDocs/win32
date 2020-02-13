@@ -3,11 +3,11 @@ title: WaveActiveBitOr function
 description: Returns the bitwise OR of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes.
 ms.assetid: FC8E5987-DAA7-41E6-A1AB-AA0E6A82CFC7
 keywords:
-- WaveAllBitOr function HLSL
+- WaveActiveBitOr function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllBitOr
+- WaveActiveBitOr
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Returns the bitwise OR of all the values of the expression across all active lan
 ## Syntax
 
 ``` syntax
-<int_type> WaveAllBitOr(
+<int_type> WaveActiveBitOr(
    <int_type> expr
 );
 ```

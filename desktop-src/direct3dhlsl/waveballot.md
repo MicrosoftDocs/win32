@@ -3,11 +3,11 @@ title: WaveActiveBallot function
 description: Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave.
 ms.assetid: 67FE28E0-F397-431A-8CF8-64E4AD88CDBC
 keywords:
-- WaveBallot function HLSL
+- WaveActiveBallot function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveBallot
+- WaveActiveBallot
 api_type:
 - NA
 ms.topic: reference
@@ -47,13 +47,13 @@ A uint4 containing a bitmask of the evaluation of the Boolean expression for all
 Different GPUs have different SIMD processor widths (lane counts). Most of these **WaveXXX** functions are able to operate at level of abstraction where SIMD machine width is concealed. To maximize portability of code across GPUs, use the intrinsics that don’t rely on machine width. For example, use:
 
 ``` syntax
-uint result = WaveAllCountBits( bBit );
+uint result = WaveActiveCountBits( bBit );
 ```
 
 Instead of:
 
 ``` syntax
-uint result = countbits( WaveBallot( bBit ) );
+uint result = countbits( WaveActiveBallot( bBit ) );
 ```
 
 This function is supported from shader model 6.0, in the following types of shaders:

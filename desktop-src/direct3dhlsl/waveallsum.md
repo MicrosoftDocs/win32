@@ -3,11 +3,11 @@ title: WaveActiveSum function
 description: Sums up the value of the expression across all active lanes in the current wave and replicates it to all lanes in the current wave.
 ms.assetid: 94CEF4AA-D6DE-4B00-9743-F491F255FE3D
 keywords:
-- WaveAllSum function HLSL
+- WaveActiveSum function HLSL
 topic_type:
 - apiref
 api_name:
-- WaveAllSum
+- WaveActiveSum
 api_type:
 - NA
 ms.topic: reference
@@ -22,7 +22,7 @@ Sums up the value of the expression across all active lanes in the current wave 
 ## Syntax
 
 ``` syntax
-<type> WaveAllSum(
+<type> WaveActiveSum(
    <type> expr
 );
 ```
@@ -61,7 +61,7 @@ This function is supported from shader model 6.0, in the following types of shad
 ## Examples
 
 ``` syntax
-float3 total = WaveAllSum( position ); // sum positions in wave
+float3 total = WaveActiveSum( position ); // sum positions in wave
 float3 center = total/count;           // compute average of these positions
 ```
 
