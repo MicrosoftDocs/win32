@@ -402,7 +402,7 @@ In this example, the large graphic serves no purpose.
 
 In this example, a warning icon is incorrectly used for a question that doesn't involve potential loss of data or system access.
 
-**Consider using icons to help users visually recognize your program's features.** This technique is most effective when the icons are easily recognizable and used in several locations within your program.
+- **Consider using icons to help users visually recognize your program's features.** This technique is most effective when the icons are easily recognizable and used in several locations within your program.
 
 ![screen shot of favorites dialog box with star icon ](images/win-dialog-box-image20.png)
 
