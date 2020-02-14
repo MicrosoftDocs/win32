@@ -49,7 +49,7 @@ The structure contains CPU Set information.
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                       |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                              |
-| Header<br/>                   | <dl> <dt>Processthreadapi.h (include Windows.h)</dt> </dl> |
+| Header<br/>                   | <dl> <dt>Processthreadsapi.h (include Windows.h)</dt> </dl> |
 
 
 
