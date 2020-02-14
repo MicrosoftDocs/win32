@@ -87,7 +87,7 @@ If the API succeeds it returns TRUE. If it fails, the error reason is available 
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Processthreadapi.h</dt> </dl> |
+| Header<br/>                   | <dl> <dt>Processthreadsapi.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Windows.h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 
