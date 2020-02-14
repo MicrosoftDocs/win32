@@ -15,12 +15,11 @@ The [64-bit Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/wi
 
 16-bit DOS, Windows, or OS/2 applications often use a 16-bit stub to check the machine type, then launch a 32-bit installation engine to actually perform the installation. To enable installation of applications that use this technique, 64-bit Windows substitutes 32-bit versions for the following 16-bit installer programs:
 
-<dl> Microsoft Setup for Windows 1.2  
-Microsoft Setup for Windows 2.6  
-Microsoft Setup for Windows 3.0  
-Microsoft Setup for Windows 3.01  
-InstallShield 5.x  
-</dl>
+* Microsoft Setup for Windows 1.2  
+* Microsoft Setup for Windows 2.6  
+* Microsoft Setup for Windows 3.0  
+* Microsoft Setup for Windows 3.01  
+* InstallShield 5.x  
 
 The list of substitutions is stored in the registry under the following key: **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\NtVdm64**.
 
