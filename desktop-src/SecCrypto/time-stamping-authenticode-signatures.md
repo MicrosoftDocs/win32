@@ -47,7 +47,7 @@ SignerInfo (the signature block)
 -   OPTIONAL AuthenticatedAttributes (for example, signed by this signer)
 -   OPTIONAL UnauthenticatedAttributes (for example, not signed by this signer)
 
-An example of an authenticated attribute is the signing time (OID 1.2.840.113549.9.5) because it is part of what the time stamp service signs. An example of an unauthenticated attribute is the countersignature (OID 1.2.840.113549.9.6) because it can be affixed after signing. In this case, the SignerInfo itself contains a SignerInfo (the Countersignature).
+An example of an authenticated attribute is the signing time (OID 1.2.840.113549.1.9.5) because it is part of what the time stamp service signs. An example of an unauthenticated attribute is the countersignature (OID 1.2.840.113549.1.9.6) because it can be affixed after signing. In this case, the SignerInfo itself contains a SignerInfo (the Countersignature).
 
 > [!Note]  
 > The object that is signed in the countersignature is the original signature (that is, the EncryptedDigest of the original SignerInfo).
