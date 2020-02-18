@@ -666,7 +666,7 @@ Management filtering layer identifiers and run-time filtering layer identifiers 
 
 Management filtering layer identifiers are used by functions that interact with the Base Filtering Engine (BFE) from either user mode or kernel mode (for example, [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)).
 
-Run-time filtering layer identifiers are used by functions that interact with the filter engine from kernel mode only (for example, [FwpsFlowAssociateContext0](https://go.microsoft.com/fwlink/p/?linkid=99624), [FwpsStreamInjectAsync0](https://go.microsoft.com/fwlink/p/?linkid=99625)), and in data structures that come directly from the kernel (for example, [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0_)).
+Run-time filtering layer identifiers are used by functions that interact with the filter engine from kernel mode only (for example, [FwpsFlowAssociateContext0](https://go.microsoft.com/fwlink/p/?linkid=99624), [FwpsStreamInjectAsync0](https://go.microsoft.com/fwlink/p/?linkid=99625)), and in data structures that come directly from the kernel (for example, [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0)).
 
 ## Requirements
 

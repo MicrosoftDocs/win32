@@ -105,7 +105,7 @@ fwptypes.idl<br />
 
  
 
-Data type names are all upper-case and underscore-delimited. The name always begins with a prefix that identifies its component group, such as [**FWPM\_PROVIDER0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_provider0_).
+Data type names are all upper-case and underscore-delimited. The name always begins with a prefix that identifies its component group, such as [**FWPM\_PROVIDER0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_provider0).
 
 Function names are mixed-case and case-delimited. The name always begins with a prefix that identifies its component group, such as [**FwpmProviderContextAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0).
 
