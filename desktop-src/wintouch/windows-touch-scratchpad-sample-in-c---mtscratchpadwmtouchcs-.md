@@ -175,5 +175,4 @@ The following code shows how the individual stroke objects display themselves wi
 
 ## Related topics
 
-- [Windows Touch Scratchpad sample in C#](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md)
 - [Windows Touch Samples](windows-touch-samples.md)
