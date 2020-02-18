@@ -37,7 +37,7 @@ pASFWriter
 
 in the previous example).
 
-Use the [**IConfigAsfWriter**](/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter) interface on the WM ASF Writer to set the Windows Media profile. You must do this before you connect any pins on the WM ASF Writer.
+Use the [**IConfigAsfWriter**](/previous-versions/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter) interface on the WM ASF Writer to set the Windows Media profile. You must do this before you connect any pins on the WM ASF Writer.
 
 
 ```C++

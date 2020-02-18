@@ -33,7 +33,7 @@ HRESULT CEVR::Repaint(HWND hwnd, HDC hdc)
 
 
 
-For the [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9), call [**IVMRWindowlessControl9::RepaintVideo**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo).
+For the [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9), call [**IVMRWindowlessControl9::RepaintVideo**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo).
 
 
 ```C++
@@ -100,7 +100,7 @@ HRESULT CEVR::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
 
 
 
-For the VMR-9, call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition).
+For the VMR-9, call [**IVMRWindowlessControl9::SetVideoPosition**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition).
 
 
 ```C++
@@ -155,7 +155,7 @@ HRESULT CVMR7::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
 
 ### Handle WM\_DISPLAYCHANGE Messages
 
-If the display mode changes, you must notify the VMR-9 or VMR-7 filter. For the VMR-9, call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged).
+If the display mode changes, you must notify the VMR-9 or VMR-7 filter. For the VMR-9, call [**IVMRWindowlessControl9::DisplayModeChanged**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged).
 
 
 ```C++

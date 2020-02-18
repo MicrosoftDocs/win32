@@ -96,10 +96,10 @@ Windows Media Player 10 Mobile: This property only accepts or returns values of 
 
 <dl> <dt>
 
-[**IWMPRemoteMediaServices Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices)
+[**IWMPRemoteMediaServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices)
 </dt> <dt>
 
-[**IWMPRemoteMediaServices::GetCustomUIMode**](/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode)
+[**IWMPRemoteMediaServices::GetCustomUIMode**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode)
 </dt> <dt>
 
 [**Player Object**](player-object.md)

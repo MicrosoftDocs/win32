@@ -66,7 +66,7 @@ This event is raised in the title domain.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
-[**DVD\_DOMAIN Enumeration**](/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain)
+[**DVD\_DOMAIN Enumeration**](/windows/win32/api/strmif/ne-strmif-dvd_domain)
 </dt> </dl>
 
  

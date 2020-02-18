@@ -65,7 +65,7 @@ A **WMPLib.WMPRipState** that is a value from the **WMPRipState** enumeration th
 [**Ripping a CD**](ripping-a-cd.md)
 </dt> <dt>
 
-[**WMPRipState**](/windows/desktop/api/wmp/ne-wmp-wmpripstate)
+[**WMPRipState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpripstate)
 </dt> </dl>
 
  

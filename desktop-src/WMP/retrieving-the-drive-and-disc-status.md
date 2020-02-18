@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Retrieving the Drive and Disc Status
 
-Before starting a CD burning operation, you must ensure that the selected CD-ROM drive supports the operation you want to perform. For instance, you must check that a CD is capable of being erased before calling [IWMPCdromBurn::erase](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase). The following code shows an example of using [IWMPCdromBurn::isAvailable](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-isavailable) to determine whether an operation is supported:
+Before starting a CD burning operation, you must ensure that the selected CD-ROM drive supports the operation you want to perform. For instance, you must check that a CD is capable of being erased before calling [IWMPCdromBurn::erase](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase). The following code shows an example of using [IWMPCdromBurn::isAvailable](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-isavailable) to determine whether an operation is supported:
 
 
 ```C++

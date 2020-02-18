@@ -45,7 +45,7 @@ pProfileMgr = NULL;
 
 
 
-If you do not know which profile you want to use, you can iterate through all of the system profiles of a particular version using the [**GetSystemProfileCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-getsystemprofilecount) and [**LoadSystemProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile) methods of the [**IWMProfileManager**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) interface. These methods only deal with one version of the system profiles at a time. For more information about changing the system profile version, see [To Change System Profile Versions](to-change-system-profile-versions.md).
+If you do not know which profile you want to use, you can iterate through all of the system profiles of a particular version using the [**GetSystemProfileCount**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-getsystemprofilecount) and [**LoadSystemProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile) methods of the [**IWMProfileManager**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) interface. These methods only deal with one version of the system profiles at a time. For more information about changing the system profile version, see [To Change System Profile Versions](to-change-system-profile-versions.md).
 
 ## Related topics
 

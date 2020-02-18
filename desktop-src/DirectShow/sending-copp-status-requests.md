@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Sending COPP Status Requests
 
-To send a Certified Output Protection Protocol (COPP) status request, fill in an [**AMCOPPStatusInput**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput) structure with the request data. The structure members are:
+To send a Certified Output Protection Protocol (COPP) status request, fill in an [**AMCOPPStatusInput**](/windows/win32/api/strmif/ns-strmif-amcoppstatusinput) structure with the request data. The structure members are:
 
--   **rApp**. A 128-bit random number, typed as a GUID. The same number is returned in the driver's response. You should allocate the random number on the heap and then copy it into structure. This guards against attacks where the attacker modifies the contents of the [**AMCOPPStatusInput**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput) structure.
+-   **rApp**. A 128-bit random number, typed as a GUID. The same number is returned in the driver's response. You should allocate the random number on the heap and then copy it into structure. This guards against attacks where the attacker modifies the contents of the [**AMCOPPStatusInput**](/windows/win32/api/strmif/ns-strmif-amcoppstatusinput) structure.
 -   **guidStatusRequestID**. A GUID that identifies the request. See [COPP Query Reference](copp-query-reference.md).
 -   **dwSequence**. The status sequence number. Increment this value after each status request. (In the section [Initiating a COPP Session](initiating-a-copp-session.md), this value is shown as *uStatusSeq* in the code examples.)
 -   **cbSizeData**. The size, in bytes, of any additional data needed for the request.
 -   **StatusData**. Data for the status request.
 
-Pass the [**AMCOPPStatusInput**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput) structure to the [**IAMCertifiedOutputProtection::ProtectionStatus**](/windows/desktop/api/Strmif/nf-strmif-iamcertifiedoutputprotection-protectionstatus) method. For example, the following code sends a status request that queries which protection mechanisms are available:
+Pass the [**AMCOPPStatusInput**](/windows/win32/api/strmif/ns-strmif-amcoppstatusinput) structure to the [**IAMCertifiedOutputProtection::ProtectionStatus**](/windows/desktop/api/Strmif/nf-strmif-iamcertifiedoutputprotection-protectionstatus) method. For example, the following code sends a status request that queries which protection mechanisms are available:
 
 
 ```C++
@@ -48,9 +48,9 @@ hr = pCOPP->ProtectionStatus(&input, &output);
 
 
 
-The response is written into the **COPPStatus** member of the [**AMCOPPStatusOutput**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusoutput) structure. The size of the valid data in the response is given in the **cbSizeData** member. To ensure the integrity of the message, the driver computes a message authentication code (MAC) using the OMAC 1 algorithm, and returns this value in the structure's **macKDI** member. The application should verify this value as follows:
+The response is written into the **COPPStatus** member of the [**AMCOPPStatusOutput**](/windows/win32/api/strmif/ns-strmif-amcoppstatusoutput) structure. The size of the valid data in the response is given in the **cbSizeData** member. To ensure the integrity of the message, the driver computes a message authentication code (MAC) using the OMAC 1 algorithm, and returns this value in the structure's **macKDI** member. The application should verify this value as follows:
 
-1.  Calculate the OMAC tag for the block of data that appears after the **macKDI** member of the [**AMCOPPStatusOutput**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppstatusoutput) structure (in other words, **cbSizeData** plus **COPPStatus**).
+1.  Calculate the OMAC tag for the block of data that appears after the **macKDI** member of the [**AMCOPPStatusOutput**](/windows/win32/api/strmif/ns-strmif-amcoppstatusoutput) structure (in other words, **cbSizeData** plus **COPPStatus**).
 2.  Compare this tag with the value in **macKDI**, using a straight **memcmp**.
 
 The OMAC 1 algorithm is described in detail at [https://www.nuee.nagoya-u.ac.jp/labs/tiwata/omac/omac.html](https://go.microsoft.com/fwlink?linkID=161618). COPP uses the following OMAC-1 parameters:

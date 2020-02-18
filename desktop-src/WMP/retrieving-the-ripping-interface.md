@@ -19,11 +19,11 @@ ms.date: 05/31/2018
 
 # Retrieving the Ripping Interface
 
-To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface. Retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection).
+To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface. Retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection).
 
-By using the [get\_count](/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-get_count) and [item](/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-item) methods, you can iterate the collection to retrieve an [IWMPCdrom](/windows/desktop/api/wmp/nn-wmp-iwmpcdrom) interface for each CD drive on the user's computer.
+By using the [get\_count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-get_count) and [item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-item) methods, you can iterate the collection to retrieve an [IWMPCdrom](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom) interface for each CD drive on the user's computer.
 
-The **IWMPCdrom** interface represents an individual CD drive. Before you begin ripping a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve the [IWMPCdromRip](/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip) interface.
+The **IWMPCdrom** interface represents an individual CD drive. Before you begin ripping a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve the [IWMPCdromRip](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip) interface.
 
 The following code example demonstrates how to retrieve an interface for ripping a CD from a specific drive:
 
@@ -80,7 +80,7 @@ HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
 [**Selecting Items for Ripping**](selecting-items-for-ripping.md)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
+[**IWMPCdromCollection Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
  

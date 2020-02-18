@@ -31,10 +31,10 @@ Manual stream selection is either on or off for the entire file. If a file conta
 
 To select a mutually exclusive stream manually, you must perform the following steps.
 
-1.  Retrieve a pointer to the [**IWMReaderAdvanced**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) interface of the reader object by calling **IWMReader::QueryInterface**.
-2.  Enable manual stream selection by calling [**IWMReaderAdvanced::SetManualStreamSelection**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setmanualstreamselection).
-3.  To find out if a particular stream is selected, call [**IWMReaderAdvanced::GetStreamSelected**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected). You must pass a pointer to a variable of the [**WMT\_STREAM\_SELECTION**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection) enumeration type. When the call returns, the value in the variable will describe the current selection type of the stream.
-4.  To select a stream, call [**IWMReaderAdvanced::SetStreamsSelected**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected). This method enables you to specify multiple streams at the same time for synchronized stream switching.
+1.  Retrieve a pointer to the [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) interface of the reader object by calling **IWMReader::QueryInterface**.
+2.  Enable manual stream selection by calling [**IWMReaderAdvanced::SetManualStreamSelection**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setmanualstreamselection).
+3.  To find out if a particular stream is selected, call [**IWMReaderAdvanced::GetStreamSelected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected). You must pass a pointer to a variable of the [**WMT\_STREAM\_SELECTION**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection) enumeration type. When the call returns, the value in the variable will describe the current selection type of the stream.
+4.  To select a stream, call [**IWMReaderAdvanced::SetStreamsSelected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected). This method enables you to specify multiple streams at the same time for synchronized stream switching.
 
 ## Related topics
 

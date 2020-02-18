@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 Both the reader object and the synchronous reader object communicate with the codecs to enumerate the possible output formats for compressed streams. When you read a file containing content compressed with one or more of the Windows Media codecs, you can examine the possible output formats to choose the one that best suits your needs. For convenience, each codec has a default output format which is set to the most commonly used format. For more information about output enumeration, see [Working with Outputs](working-with-outputs.md).
 
-You can make certain changes to an output format depending upon the media type. For video streams, for example, you can change the frame size and color depth. The reading objects both support an interface to test changes you make to the output format, called [**IWMReaderTypeNegotiation**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadertypenegotiation).
+You can make certain changes to an output format depending upon the media type. For video streams, for example, you can change the frame size and color depth. The reading objects both support an interface to test changes you make to the output format, called [**IWMReaderTypeNegotiation**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadertypenegotiation).
 
 ## Related topics
 

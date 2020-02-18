@@ -30,7 +30,7 @@ g\_wszWMASFSecurityObjectsSize
 
 This attribute is read-only, and applies to the entire file (stream 0).
 
-You can only retrieve this attribute by using the methods of the [**IWMHeaderInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) interface from the metadata editor object.
+You can only retrieve this attribute by using the methods of the [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) interface from the metadata editor object.
 
 ## See also
 

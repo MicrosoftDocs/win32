@@ -141,10 +141,10 @@ For the implementation of the SortPlaylist function, see [Sorting Playlists by S
 
 <dl> <dt>
 
-[**IWMPMedia::getItemInfo**](/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo)
+[**IWMPMedia::getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo)
 </dt> <dt>
 
-[**IWMPMediaCollection::getByAttribute**](/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyattribute)
+[**IWMPMediaCollection::getByAttribute**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyattribute)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

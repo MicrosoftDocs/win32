@@ -35,14 +35,14 @@ To use smart recompression, perform the following steps.
 1.  Set up a reader object with the source file for reading. For more information, see [Reading ASF Files](reading-asf-files.md).
 2.  Set up a writer object to use for transcoding the file. Set the file name for the new file. Select a profile to use for the new file. Set the selected profile in the writer object. For more information, see [Writing ASF Files](writing-asf-files.md).
 3.  Get a pointer to the [**IWMProfile**](iwmprofile.md) interface of the reader object by calling **IWMReader::QueryInterface**.
-4.  Retrieve the [**IWMStreamConfig**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig) interface for the audio stream to be transcoded by calling [**IWMProfile::GetStream**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream).
-5.  Get the [**IWMMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops) interface for the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
-6.  Retrieve the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure for the stream by making two calls to [**IWMMediaProps::GetMediaType**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype). Get the size of the structure on the first call, and allocate memory for a buffer to pass on the second call.
-7.  Get a pointer to the [**IWMInputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) interface for the input in the writer by calling [**IWMWriter::GetInputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
-8.  Get the [**IWMPropertyVault**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault) interface for the input media properties object by calling **IWMInputMediaProps::QueryInterface**.
-9.  Use the [**IWMPropertyVault::SetProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) method to set the g\_wszOriginalWaveFormat property. Use the **WAVEFORMATEX** structure obtained in step 6 as the value of the property.
-10. Include changes made to the input media properties by calling [**IWMWriter::SetInputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops) and passing it a pointer to the **IWMInputMediaProps** interface.
-11. Begin reading samples from the original file and passing them to the writer with calls to [**IWMWriter::WriteSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample).
+4.  Retrieve the [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig) interface for the audio stream to be transcoded by calling [**IWMProfile::GetStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream).
+5.  Get the [**IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops) interface for the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
+6.  Retrieve the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure for the stream by making two calls to [**IWMMediaProps::GetMediaType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype). Get the size of the structure on the first call, and allocate memory for a buffer to pass on the second call.
+7.  Get a pointer to the [**IWMInputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) interface for the input in the writer by calling [**IWMWriter::GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
+8.  Get the [**IWMPropertyVault**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault) interface for the input media properties object by calling **IWMInputMediaProps::QueryInterface**.
+9.  Use the [**IWMPropertyVault::SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) method to set the g\_wszOriginalWaveFormat property. Use the **WAVEFORMATEX** structure obtained in step 6 as the value of the property.
+10. Include changes made to the input media properties by calling [**IWMWriter::SetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops) and passing it a pointer to the **IWMInputMediaProps** interface.
+11. Begin reading samples from the original file and passing them to the writer with calls to [**IWMWriter::WriteSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample).
 
 ## Related topics
 
@@ -51,19 +51,19 @@ To use smart recompression, perform the following steps.
 [**Advanced Topics**](advanced-topics.md)
 </dt> <dt>
 
-[**IWMInputMediaProps Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops)
+[**IWMInputMediaProps Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops)
 </dt> <dt>
 
-[**IWMMediaProps Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)
+[**IWMMediaProps Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)
 </dt> <dt>
 
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMPropertyVault Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault)
+[**IWMPropertyVault Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault)
 </dt> <dt>
 
-[**IWMStreamConfig Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)
+[**IWMStreamConfig Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)
 </dt> </dl>
 
  

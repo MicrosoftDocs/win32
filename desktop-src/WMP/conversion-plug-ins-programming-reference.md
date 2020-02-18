@@ -21,7 +21,7 @@ The Microsoft Windows Media Player Software Development Kit (SDK) supports an in
 | Section                                                                | Description                                                                                                                                                                                           |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Registering Conversion Plug-ins](registering-conversion-plug-ins.md) | Describes how to register digital media file formats for conversion.                                                                                                                                  |
-| [IWMPConvert Interface](/windows/desktop/api/wmpservices/nn-wmpservices-iwmpconvert)                               | Provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF). |
+| [IWMPConvert Interface](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpconvert)                               | Provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF). |
 
 
 

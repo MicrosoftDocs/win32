@@ -155,10 +155,10 @@ STDMETHODIMP CMainDlg::ShowDeviceAttributes(long lIndex)
 [**Enumerating Devices**](enumerating-devices.md)
 </dt> <dt>
 
-[**IWMPSyncDevice Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
+[**IWMPSyncDevice Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
 </dt> <dt>
 
-[**IWMPSyncDevice::getItemInfo**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-getiteminfo)
+[**IWMPSyncDevice::getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-getiteminfo)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

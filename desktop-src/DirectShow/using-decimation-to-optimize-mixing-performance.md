@@ -19,7 +19,7 @@ Since this is a waste of processing power, the VMR provides a way to decimate (r
 
 **VMR-7:** To enable decimation, call [**IVMRMixerControl::SetMixingPrefs**](/windows/desktop/api/Strmif/nf-strmif-ivmrmixercontrol-setoutputrect) with the MixerPref\_DecimateOutput flag.
 
-**VMR-9:** To enable decimation, call [**IVMRMixerControl9::SetMixingPrefs**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs) with the MixerPref9\_DecimateOutput flag.
+**VMR-9:** To enable decimation, call [**IVMRMixerControl9::SetMixingPrefs**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs) with the MixerPref9\_DecimateOutput flag.
 
 The **SetMixingPrefs** method must be called before the VMR is connected. The mixing preference flags cannot be changed once the graph is running.
 

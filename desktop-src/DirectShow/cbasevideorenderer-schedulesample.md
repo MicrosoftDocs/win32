@@ -20,7 +20,7 @@ api_location:
 
 # CBaseVideoRenderer.ScheduleSample method
 
-The `ScheduleSample` method overrides the base class that does the main work to keep a count of samples drawn and dropped (which are used by the [**IQualProp**](/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) implementation).
+The `ScheduleSample` method overrides the base class that does the main work to keep a count of samples drawn and dropped (which are used by the [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) implementation).
 
 ## Syntax
 

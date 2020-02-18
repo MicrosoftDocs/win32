@@ -24,7 +24,7 @@ The following structure is available for type 1 online stores using C++ code.
 
 | Structure                                    | Description                                 |
 |----------------------------------------------|---------------------------------------------|
-| [WMPContextMenuInfo](/windows/desktop/api/contentpartner/ns-contentpartner-wmpcontextmenuinfo) | Contains data about a context menu command. |
+| [WMPContextMenuInfo](/previous-versions/windows/desktop/api/contentpartner/ns-contentpartner-wmpcontextmenuinfo) | Contains data about a context menu command. |
 
 
 

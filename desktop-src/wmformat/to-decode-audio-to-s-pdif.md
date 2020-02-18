@@ -20,15 +20,15 @@ ms.date: 05/31/2018
 
 Audio encoded with the Windows Media Audio 9 Professional codec can be decoded to Sony/Philips Digital Interconnect Format (S/PDIF). To generate S/PDIF output, perform the following steps:
 
-1.  Open a file that contains a Windows Media Audio 9 Professional stream by calling the [**IWMReader::Open**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) method.
+1.  Open a file that contains a Windows Media Audio 9 Professional stream by calling the [**IWMReader::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) method.
 2.  Identify the output number of the stream that you want. For more information, see [To Identify Output Numbers](to-identify-output-numbers.md).
-3.  Call the [**IWMReaderAdvanced2::SetOutputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) method to configure S/PDIF output. Use g\_wszEnableWMAProSPDIFOutput for the setting name. The data type is **WMT\_TYPE\_BOOL**; set the value to **TRUE** to enable S/PDIF output.
-4.  Get the output properties interface ([**IWMOutputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops)) of the desired output format by calling the [**IWMReader::GetOutputFormat**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) method. For more information about enumerating output formats, see [Assigning Output Formats](assigning-output-formats.md).
-5.  Set the output format by calling the [**IWMReader::SetOutputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops) method. Pass in a pointer to the **IWMOutputMediaProps** interface obtained in step 4.
+3.  Call the [**IWMReaderAdvanced2::SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) method to configure S/PDIF output. Use g\_wszEnableWMAProSPDIFOutput for the setting name. The data type is **WMT\_TYPE\_BOOL**; set the value to **TRUE** to enable S/PDIF output.
+4.  Get the output properties interface ([**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops)) of the desired output format by calling the [**IWMReader::GetOutputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) method. For more information about enumerating output formats, see [Assigning Output Formats](assigning-output-formats.md).
+5.  Set the output format by calling the [**IWMReader::SetOutputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops) method. Pass in a pointer to the **IWMOutputMediaProps** interface obtained in step 4.
 6.  Make any other configuration changes and begin playback.
 
 > [!Note]  
-> You can perform the preceding steps on the synchronous reader by using the corresponding methods of the [**IWMSyncReader**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) interface.
+> You can perform the preceding steps on the synchronous reader by using the corresponding methods of the [**IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) interface.
 
  
 
@@ -88,13 +88,13 @@ Exit:
 [**Reading ASF Files**](reading-asf-files.md)
 </dt> <dt>
 
-[**IWMReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
+[**IWMReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
 </dt> <dt>
 
-[**IWMReaderAdvanced2 Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2)
+[**IWMReaderAdvanced2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2)
 </dt> <dt>
 
-[**IWMSyncReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
+[**IWMSyncReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> </dl>
 
  

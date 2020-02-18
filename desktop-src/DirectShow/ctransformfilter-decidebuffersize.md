@@ -48,7 +48,7 @@ Pointer to the [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemall
 *ppropInputRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains buffer requirements from the downstream input pin.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-allocator_properties) structure that contains buffer requirements from the downstream input pin.
 
 </dd> </dl>
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The license revocation agent object manages the client side of license revocation. License revocation is the process by which a license server can remove licenses from the license store on the client computer. The process involves passing several messages between the client application and the license server. The methods exposed on this object process and generate those messages.
 
-The license revocation agent object is created by the [**WMCreateLicenseRevocationAgent**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent) function, which sets a pointer to an [**IWMLicenseRevocationAgent**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent) interface. **IUnknown** and **IWMLicenseRevocationAgent** are the only interfaces supported by this object.
+The license revocation agent object is created by the [**WMCreateLicenseRevocationAgent**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent) function, which sets a pointer to an [**IWMLicenseRevocationAgent**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent) interface. **IUnknown** and **IWMLicenseRevocationAgent** are the only interfaces supported by this object.
 
 ## Related topics
 

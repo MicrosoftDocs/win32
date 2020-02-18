@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 | Structure or Enumeration       | Description                                         |
 |--------------------------------|-----------------------------------------------------|
-| [PlayerState](/windows/desktop/api/effects/ne-effects-playerstate) | Provides some basic states of Windows Media Player. |
+| [PlayerState](/previous-versions/windows/desktop/api/effects/ne-effects-playerstate) | Provides some basic states of Windows Media Player. |
 | [TimedLevel](/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel)   | Holds data returned from the spectrum filter.       |
 
 

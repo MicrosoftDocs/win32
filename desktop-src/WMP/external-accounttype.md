@@ -36,7 +36,7 @@ This property is a read-only **String** that represents the account type. String
 
 ## Remarks
 
-This property retrieves the account type by calling the [IWMPContentPartner::GetContentPartnerInfo](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcontentpartnerinfo) method, which is implemented by the online store's plug-in. If the current user is logged in to the online store or the plug-in has cached the user's credentials, the **getContentPartnerInfo** method can determine the user's account type and return it to Windows Media Player. The account type is a string that Windows Media Player does not interpret. Rather, Windows Media Player passes the string from the online store's plug-in to the script on the online store's discovery page.
+This property retrieves the account type by calling the [IWMPContentPartner::GetContentPartnerInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcontentpartnerinfo) method, which is implemented by the online store's plug-in. If the current user is logged in to the online store or the plug-in has cached the user's credentials, the **getContentPartnerInfo** method can determine the user's account type and return it to Windows Media Player. The account type is a string that Windows Media Player does not interpret. Rather, Windows Media Player passes the string from the online store's plug-in to the script on the online store's discovery page.
 
 If the current user is not logged in to the online store and the online store's plug-in does not have cached credentials for the user, this property retrieves whatever string the **getContentPartnerInfo** method returns in that situation.
 

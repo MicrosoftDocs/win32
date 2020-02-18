@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # DirectDraw Exclusive Mode
 
 > [!Note]  
-> This topic applies to the VMR-7 only. In the VMR-9, you enable exclusive mode by supplying your own exclusive mode allocator-presenter. This is relatively straightforward if you use the [**IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrsurfaceallocatornotify9-allocatesurfacehelper) method. The VMR9Allocator sample shows how to implement a custom allocator-presenter.
+> This topic applies to the VMR-7 only. In the VMR-9, you enable exclusive mode by supplying your own exclusive mode allocator-presenter. This is relatively straightforward if you use the [**IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrsurfaceallocatornotify9-allocatesurfacehelper) method. The VMR9Allocator sample shows how to implement a custom allocator-presenter.
 
  
 

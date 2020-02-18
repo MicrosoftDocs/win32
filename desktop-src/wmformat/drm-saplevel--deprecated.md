@@ -30,7 +30,7 @@ g\_wszWMDRM\_SAPLEVEL
 
 ## Remarks
 
-This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty). The value is a wide-character string representation of the SAP level, such as L"200". Current supported values are 200 and 300.
+This is a write-only property that is set by calling [**IWMDRMReader::SetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty). The value is a wide-character string representation of the SAP level, such as L"200". Current supported values are 200 and 300.
 
 ## Requirements
 

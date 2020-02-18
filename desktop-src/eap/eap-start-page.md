@@ -21,7 +21,7 @@ The Extensible Authentication Protocol (EAP) is a standard supported by several 
 
 EAP improves on previous authentication protocols such as Password Authentication Protocol (PAP) and Challenge Handshake Authentication Protocol (CHAP).
 
-For new EAP method development, see [Extensible Authentication Protocol Host](https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/portal).
+For new EAP method development, see [Extensible Authentication Protocol Host](https://docs.microsoft.com/windows/win32/eaphost/portal).
 
 ## Developer audience
 

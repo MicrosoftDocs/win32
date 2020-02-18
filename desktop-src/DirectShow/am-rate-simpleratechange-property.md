@@ -16,7 +16,7 @@ This property is used to send rate changes to the decoder. The data type for thi
 |-------------------|-----------------------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange                       |
 | Property ID       | AM\_RATE\_SimpleRateChange                          |
-| Data Type         | [**AM\_SimpleRateChange**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_simpleratechange) |
+| Data Type         | [**AM\_SimpleRateChange**](/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_simpleratechange) |
 
 
 

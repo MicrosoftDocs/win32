@@ -49,7 +49,7 @@ For a more generalized approach, see the CCrossbar class in the [AmCap Sample](a
 
 Once you have a pointer to the **IAMCrossbar** interface, you can get information about the crossbar filter, including the physical type of each pin, and the matrix of which input pins can be routed to which output pins.
 
--   To determine the type of physical connector to which a pin corresponds, call the [**IAMCrossbar::get\_CrossbarPinInfo**](/windows/desktop/api/Strmif/nf-strmif-iamcrossbar-get_crossbarpininfo) method. The method returns a member of the [**PhysicalConnectorType**](/previous-versions/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration. For example, an S-Video pin returns the value PhysConn\_Video\_SVideo.
+-   To determine the type of physical connector to which a pin corresponds, call the [**IAMCrossbar::get\_CrossbarPinInfo**](/windows/desktop/api/Strmif/nf-strmif-iamcrossbar-get_crossbarpininfo) method. The method returns a member of the [**PhysicalConnectorType**](/windows/win32/api/strmif/ne-strmif-physicalconnectortype) enumeration. For example, an S-Video pin returns the value PhysConn\_Video\_SVideo.
 
     The **get\_CrossbarInfo** method also indicates whether two pins are related to each other. For example, a video tuner pin might be related to an audio tuner pin. Related pins have the same pin direction, and are typically part of the same physical jack or connector on the card.
 

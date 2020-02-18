@@ -30,7 +30,7 @@ A profile also contains information about the various ASF file features that wil
 
 Previous versions of the Windows Media Format SDK provided preconfigured system profiles, which could be used to create common types of files, or altered slightly to suit the needs of your application. System profiles are not supported for the Windows Media 9 Series codecs. This is because the number of "common" types of files has grown exponentially with the addition of new features. It is expected that virtually every content creator has needs that go beyond the simple solutions provided by system profiles. You can still use the old system profiles as a starting place. For more information, see [Using System Profiles](using-system-profiles.md).
 
-You must supply the writer with a profile for every file you write. You can specify a profile to use with the writer by calling [**IWMWriter::SetProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile).
+You must supply the writer with a profile for every file you write. You can specify a profile to use with the writer by calling [**IWMWriter::SetProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile).
 
 Profile data exists in several different forms that can be used by the Windows Media Format SDK. Profile information can also be accessed in several ways. This can lead to confusion about what a profile is and how it is used.
 
@@ -64,7 +64,7 @@ Rather than creating profiles by using the Windows Media Format SDK, you can use
 
 However, if you do use Profile Editor, it is recommended that you do not use the "Video Size: Same As Video Input" setting. When this check box is checked, Profile Editor will create a profile with the video output height and width set to zero. When Windows Media Encoder encounters these profiles, it sets the correct values to match its video input. However, the Writer in the Windows Media Format SDK does not do so automatically, so you must ensure that your application sets the video frame size in cases where the profile has none.
 
-**Note** Some stream configuration items are not stored in the profile. The data in the profile describes the format of the finished ASF file. Input media properties and other configuration data used by the writer object to configure the codecs are not saved in the profile. This includes all properties set by using the [**IWMPropertyVault::SetProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) method.
+**Note** Some stream configuration items are not stored in the profile. The data in the profile describes the format of the finished ASF file. Input media properties and other configuration data used by the writer object to configure the codecs are not saved in the profile. This includes all properties set by using the [**IWMPropertyVault::SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) method.
 
 ## Related topics
 
@@ -79,7 +79,7 @@ However, if you do use Profile Editor, it is recommended that you do not use the
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMProfileManager Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager)
+[**IWMProfileManager Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager)
 </dt> <dt>
 
 [**Mutual Exclusion Object**](mutual-exclusion-object.md)

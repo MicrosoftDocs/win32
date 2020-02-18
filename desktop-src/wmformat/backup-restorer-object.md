@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 The backup restorer provides interfaces to handle backing up licenses, typically onto removable media, and then restoring those licenses onto a new computer.
 
-The backup restorer object is created by the [**WMCreateBackupRestorer**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer) function, which sets a pointer to an [**IWMLicenseBackup**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup) interface. The other interfaces of the backup restorer object can be obtained by calling the **QueryInterface** method.
+The backup restorer object is created by the [**WMCreateBackupRestorer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer) function, which sets a pointer to an [**IWMLicenseBackup**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup) interface. The other interfaces of the backup restorer object can be obtained by calling the **QueryInterface** method.
 
 The following interfaces are supported by the backup restorer object.
 
@@ -24,9 +24,9 @@ The following interfaces are supported by the backup restorer object.
 
 | Interface                                              | Description                                                                                                                                               |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMBackupRestoreProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops) | Sets and retrieves properties required by the [**IWMLicenseBackup**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup) and [**IWMLicenseRestore**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore) interfaces. |
-| [**IWMLicenseBackup**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup)           | Backs up licenses, typically so that they can be restored onto another computer.                                                                          |
-| [**IWMLicenseRestore**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore)         | Restores licenses.                                                                                                                                        |
+| [**IWMBackupRestoreProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops) | Sets and retrieves properties required by the [**IWMLicenseBackup**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup) and [**IWMLicenseRestore**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore) interfaces. |
+| [**IWMLicenseBackup**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup)           | Backs up licenses, typically so that they can be restored onto another computer.                                                                          |
+| [**IWMLicenseRestore**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore)         | Restores licenses.                                                                                                                                        |
 
 
 
@@ -38,7 +38,7 @@ The following callback interface must be implemented by the application in order
 
 | Interface                                      | Description                                                                |
 |------------------------------------------------|----------------------------------------------------------------------------|
-| [**IWMStatusCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Receives status messages from processes that execute in a separate thread. |
+| [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Receives status messages from processes that execute in a separate thread. |
 
 
 

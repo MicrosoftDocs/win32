@@ -61,7 +61,7 @@ NPS supports policy authoring using the following additional settings:<br/>
 NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-start-page">EAP</a> Policy and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/portal">EAPHost</a> Support<br/></td>
+<td><a href="https://docs.microsoft.com/windows/win32/eap/eap-start-page">EAP</a> Policy and <a href="https://docs.microsoft.com/windows/win32/eaphost/portal">EAPHost</a> Support<br/></td>
 <td>NPS uses EAPHost for EAP method extensibility. Additionally, administrators may configure network access policy for EAP.<br/> IAS does not support EAPHost integration, or EAP type filter conditions for policies.<br/></td>
 </tr>
 <tr class="odd">

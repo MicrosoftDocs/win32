@@ -43,10 +43,10 @@ The Windows Media Format 9.5 SDK introduced new features to provide enhanced con
 
 ## New Interface for Application-specific Processing During DirectX Video Acceleration
 
-Player applications that support DirectX Video Acceleration can now implement the [**IWMPlayerHook**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook) interface to perform application-specific processing during DirectX VA decoding. The reader calls the [**IWMPLayerHook::PreDecode**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmplayerhook-predecode) callback method before passing compressed video samples to the video processor for decoding.
+Player applications that support DirectX Video Acceleration can now implement the [**IWMPlayerHook**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook) interface to perform application-specific processing during DirectX VA decoding. The reader calls the [**IWMPLayerHook::PreDecode**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmplayerhook-predecode) callback method before passing compressed video samples to the video processor for decoding.
 
 > [!Note]  
-> To use the **IWMPlayerHook** interface and the associated [**IWMReaderAdvanced5**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5) interface, you must have update number 888656 installed in the Windows Media Format SDK. You can download the update from the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=47910).
+> To use the **IWMPlayerHook** interface and the associated [**IWMReaderAdvanced5**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5) interface, you must have update number 888656 installed in the Windows Media Format SDK. You can download the update from the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=47910).
 
  
 

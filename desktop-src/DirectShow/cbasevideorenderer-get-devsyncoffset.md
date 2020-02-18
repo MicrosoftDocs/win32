@@ -50,7 +50,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_DevSyncOffset**](/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_devsyncoffset) method.
+This member function implements the [**IQualProp::get\_DevSyncOffset**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_devsyncoffset) method.
 
 ## Requirements
 

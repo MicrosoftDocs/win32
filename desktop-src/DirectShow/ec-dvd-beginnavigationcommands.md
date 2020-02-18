@@ -26,7 +26,7 @@ Sent when a set of DVD navigation commands are starting.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-A value from the [**DVD\_NavCmdType**](/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_navcmdtype) enumeration.
+A value from the [**DVD\_NavCmdType**](/windows/win32/api/strmif/ne-strmif-dvd_navcmdtype) enumeration.
 
 </dd> <dt>
 

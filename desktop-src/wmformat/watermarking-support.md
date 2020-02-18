@@ -32,9 +32,9 @@ The Windows Media Format SDK supports the use of digital watermarking [*DMOs*](w
 
 You must specify watermark configuration information when you configure a stream for watermarking. The configuration values will be different depending upon the watermarking DMO. The DMO you use should come with instructions describing the configuration values it supports.
 
-For information about the settings used to specify a watermarking system, see [**IWMWriterAdvanced2::SetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting)
+For information about the settings used to specify a watermarking system, see [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting)
 
-You can program your application to enumerate the watermarking DMOs installed on the client computer. For more information, see the [**IWMWatermarkInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwatermarkinfo) interface.
+You can program your application to enumerate the watermarking DMOs installed on the client computer. For more information, see the [**IWMWatermarkInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwatermarkinfo) interface.
 
 ## Related topics
 

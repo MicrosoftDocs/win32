@@ -20,11 +20,11 @@ ms.date: 05/31/2018
 
 # To Pause or Stop Playback
 
-When you call [**IWMReader::Start**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start) to begin playing a file, the asynchronous reader will continue processing in its own separate threads until the end of the file is reached. You can pause or stop the delivery of samples using the [**IWMReader::Pause**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-pause) or [**IWMReader::Stop**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-stop) methods respectively.
+When you call [**IWMReader::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start) to begin playing a file, the asynchronous reader will continue processing in its own separate threads until the end of the file is reached. You can pause or stop the delivery of samples using the [**IWMReader::Pause**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-pause) or [**IWMReader::Stop**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-stop) methods respectively.
 
 ## Pausing
 
-When you call **IWMReader::Pause** to pause playback of a file, the reader keeps track of the current position in the file. To resume playing after pausing, call [**IWMReader::Resume**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-resume). Playback will resume from the point at which it paused.
+When you call **IWMReader::Pause** to pause playback of a file, the reader keeps track of the current position in the file. To resume playing after pausing, call [**IWMReader::Resume**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-resume). Playback will resume from the point at which it paused.
 
 ## Stopping
 
@@ -34,7 +34,7 @@ When you call **IWMReader::Stop** to halt playback of a file, the reader does no
 
 <dl> <dt>
 
-[**IWMReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
+[**IWMReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
 </dt> <dt>
 
 [**Reading Files with the Asynchronous Reader**](reading-files-with-the-asynchronous-reader.md)

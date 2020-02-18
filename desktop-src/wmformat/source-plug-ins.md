@@ -31,7 +31,7 @@ Once the dll has been registered, the application can use the **IWMReader::Open*
 
 <dl> <dt>
 
-[**IWMReader::Open**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open)
+[**IWMReader::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open)
 </dt> <dt>
 
 [**Programming Reference**](programming-reference.md)

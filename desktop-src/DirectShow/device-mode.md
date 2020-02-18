@@ -39,7 +39,7 @@ If the camcorder goes offline, you should query it again when it next becomes av
 
 **UVC Driver**
 
-Because USB video devices can switch modes without resetting, the code shown in the previous examples is not reliable for USB devices. Instead, use the [**ISelector**](/windows/desktop/api/Vidcap/nn-vidcap-iselector) interface to get the current mode. You can also use this interface to switch modes programmatically if the device supports it.
+Because USB video devices can switch modes without resetting, the code shown in the previous examples is not reliable for USB devices. Instead, use the [**ISelector**](/previous-versions/windows/desktop/api/Vidcap/nn-vidcap-iselector) interface to get the current mode. You can also use this interface to switch modes programmatically if the device supports it.
 
 ## Related topics
 

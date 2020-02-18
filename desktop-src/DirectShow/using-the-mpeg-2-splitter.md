@@ -26,7 +26,7 @@ The MPEG-2 Splitter does not parse transport streams. Use the MPEG-2 Demultiplex
 
 **Time Stamps**
 
-When playing back MPEG-2 program streams, the MPEG-2 Splitter filter treats the first system clock reference it encounters as the time origin of any stream. This differs from the [MPEG-1 Stream Splitter](mpeg-1-stream-splitter-filter.md), which uses presentation time stamps. The [**IAMParse::GetParseTime**](/windows/desktop/api/Amparse/nf-amparse-iamparse-getparsetime) method returns the (possibly estimated) stream system clock time for the data it has processed.
+When playing back MPEG-2 program streams, the MPEG-2 Splitter filter treats the first system clock reference it encounters as the time origin of any stream. This differs from the [MPEG-1 Stream Splitter](mpeg-1-stream-splitter-filter.md), which uses presentation time stamps. The [**IAMParse::GetParseTime**](/previous-versions/windows/desktop/api/Amparse/nf-amparse-iamparse-getparsetime) method returns the (possibly estimated) stream system clock time for the data it has processed.
 
 If the MPEG-2 splitter filter encounters an input sample with the discontinuity property set (the discontinuity property can be set by using [**IMediaSample::SetDiscontinuity**](/windows/desktop/api/Strmif/nf-strmif-imediasample-setdiscontinuity) or [**IMediaSample2::SetProperties**](/windows/desktop/api/Strmif/nf-strmif-imediasample2-setproperties)), it skips data until it finds the first pack in the data and adjusts its time stamps so that the system clock reference (SCR) for that pack is considered identical to the SCR time before the discontinuity. If the SCR clock appears either to jump backward or to jump forward by more than a second, then (in line with the MPEG-2 program stream specification), this is also treated as a clock discontinuity and the apparent clock discrepancy is subtracted from the time stamps passed to downstream filters.
 
@@ -38,7 +38,7 @@ When playing back the MPEG-2 program stream, the first video stream and first au
 
 The MPEG-2 splitter filter supports the following interfaces.
 
--   [**IAMParse**](/windows/desktop/api/Amparse/nn-amparse-iamparse). MPEG-2 program stream only.
+-   [**IAMParse**](/previous-versions/windows/desktop/api/Amparse/nn-amparse-iamparse). MPEG-2 program stream only.
 -   [**IAMStreamSelect**](/windows/desktop/api/Strmif/nn-strmif-iamstreamselect). MPEG-2 program stream only, audio streams only.
 -   [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking). Includes byte mode seeking.
 

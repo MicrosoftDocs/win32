@@ -82,7 +82,7 @@ public:
 
 ### CVMR9 Class
 
-The `CVMR9` class manages the VMR-9. It contains a pointer to the [**IVMRWindowlessControl9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) interface.
+The `CVMR9` class manages the VMR-9. It contains a pointer to the [**IVMRWindowlessControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) interface.
 
 
 ```C++

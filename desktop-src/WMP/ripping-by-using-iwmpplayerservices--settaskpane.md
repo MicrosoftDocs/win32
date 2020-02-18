@@ -20,13 +20,13 @@ ms.date: 05/31/2018
 # Ripping by Using IWMPPlayerServices::setTaskPane
 
 > [!Note]  
-> This section documents a feature of the Windows Media Player 9 Series and Windows Media Player 10 ActiveX controls. It is recommended that you use the **IWMPCdromRip** interface with later versions. See [IWMPCdromRip Interface](/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip).
+> This section documents a feature of the Windows Media Player 9 Series and Windows Media Player 10 ActiveX controls. It is recommended that you use the **IWMPCdromRip** interface with later versions. See [IWMPCdromRip Interface](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip).
 
  
 
 You can use the Windows Media Player 9 Series or later control to copy CD tracks to the user's computer. This process is called *ripping*. To do this, you must embed the Windows Media Player control in remote mode. For more information about remote mode, see [Remoting the Windows Media Player Control](remoting-the-windows-media-player-control.md).
 
-To start the ripping process, call [IWMPPlayerServices::setTaskPane](/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane), passing the CopyFromCD?AutoCopy:*id* value for the *bstrTaskPane* parameter, where *id* is the index of the CD drive from which to copy. This index corresponds to the index of a **Cdrom** object in the **IWMPCdromCollection** interface or the **CdromMediaChange** event.
+To start the ripping process, call [IWMPPlayerServices::setTaskPane](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane), passing the CopyFromCD?AutoCopy:*id* value for the *bstrTaskPane* parameter, where *id* is the index of the CD drive from which to copy. This index corresponds to the index of a **Cdrom** object in the **IWMPCdromCollection** interface or the **CdromMediaChange** event.
 
 The following example code is a function that starts the process of ripping a CD from the CD drive identified by index zero. The function uses the following member variable:
 
@@ -73,7 +73,7 @@ HRESULT CMyApp::StartRip()
 
 Displaying Status to the User
 
-When copying from a CD, you can retrieve a string containing status information about the copy operation. To do this, you must first retrieve a playlist containing media items that represent the CD tracks by calling [IWMPCdrom::get\_playlist](/windows/desktop/api/wmp/nf-wmp-iwmpcdrom-get_playlist). Like the previous example, the following example code works with CD drive index zero. It stores the retrieved playlist in the following member variable:
+When copying from a CD, you can retrieve a string containing status information about the copy operation. To do this, you must first retrieve a playlist containing media items that represent the CD tracks by calling [IWMPCdrom::get\_playlist](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdrom-get_playlist). Like the previous example, the following example code works with CD drive index zero. It stores the retrieved playlist in the following member variable:
 
 
 ```C++
@@ -134,11 +134,11 @@ HRESULT CMyApp::GetCDPlaylist()
 
 
 
-Next, handle the [IWMPEvents::MediaChange](/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediachange) event. This event occurs when a CD track is being ripped. The **IDispatch** pointer passed to the event handler points to the **IWMPMedia** interface for the CD track. Call **QueryInterface** through **IDispatch** to retrieve the pointer to **IWMPMedia**.
+Next, handle the [IWMPEvents::MediaChange](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediachange) event. This event occurs when a CD track is being ripped. The **IDispatch** pointer passed to the event handler points to the **IWMPMedia** interface for the CD track. Call **QueryInterface** through **IDispatch** to retrieve the pointer to **IWMPMedia**.
 
-To detect which CD track is being ripped, compare the **IWMPMedia** pointer from the event to the media items in the CD playlist by calling [IWMPMedia::get\_isIdentical](/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_isidentical).
+To detect which CD track is being ripped, compare the **IWMPMedia** pointer from the event to the media items in the CD playlist by calling [IWMPMedia::get\_isIdentical](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_isidentical).
 
-Call [IWMPMedia::getItemInfo](/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo), passing the string "Status" as the item name. **Status** is a temporary attribute set by Windows Media Player on media items while they are being ripped from CD; it is not available from the library.
+Call [IWMPMedia::getItemInfo](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo), passing the string "Status" as the item name. **Status** is a temporary attribute set by Windows Media Player on media items while they are being ripped from CD; it is not available from the library.
 
 The following example code shows a **MediaChange** event handler.
 
@@ -239,22 +239,22 @@ void CMyApp::MediaChange(IDispatch * Item)
 
 <dl> <dt>
 
-[**IWMPCdrom Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpcdrom)
+[**IWMPCdrom Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
+[**IWMPCdromCollection Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> <dt>
 
-[**IWMPEvents Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpevents)
+[**IWMPEvents Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents)
 </dt> <dt>
 
-[**IWMPMedia Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
+[**IWMPMedia Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
 </dt> <dt>
 
-[**IWMPPlayerServices Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices)
+[**IWMPPlayerServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices)
 </dt> <dt>
 
-[**IWMPPlaylist Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpplaylist)
+[**IWMPPlaylist Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylist)
 </dt> <dt>
 
 [**Player Control Guide**](player-control-guide.md)

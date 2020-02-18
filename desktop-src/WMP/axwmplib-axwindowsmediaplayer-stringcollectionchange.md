@@ -72,7 +72,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Str
 [**IWMPStringCollection Interface (VB and C#)**](iwmpstringcollection--vb-and-c.md)
 </dt> <dt>
 
-[**WMPStringCollectionChangeEventType**](/windows/desktop/api/wmp/ne-wmp-wmpstringcollectionchangeeventtype)
+[**WMPStringCollectionChangeEventType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpstringcollectionchangeeventtype)
 </dt> </dl>
 
  

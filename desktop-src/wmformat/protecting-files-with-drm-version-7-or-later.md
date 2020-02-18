@@ -21,18 +21,18 @@ ms.date: 05/31/2018
 
 # Protecting Files with DRM Version 7 or Later
 
-To protect files with Windows Media DRM version 7 or later, use the writer object's [**IWMDRMWriter::SetDRMAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) method to set DRM attributes. Because DRM version 7 and later versions enable unique licenses for each protected file or set of files, the **IWMDRMWriter** interface also has methods for creating keys. These methods are provided for convenience only.
+To protect files with Windows Media DRM version 7 or later, use the writer object's [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) method to set DRM attributes. Because DRM version 7 and later versions enable unique licenses for each protected file or set of files, the **IWMDRMWriter** interface also has methods for creating keys. These methods are provided for convenience only.
 
 To protect ASF files using DRM version 7 or later, perform the following steps:
 
 1.  Link to WMStubDRM.lib and, if necessary, unlink wmvcore.lib.
-2.  Call the [**WMCreateWriter**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) function to create the DRM writer. The first argument is reserved and must be set to **NULL**.
-3.  Set a profile for the writer to use by calling [**IWMWriter::SetProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile) or [**IWMWriter::SetProfileByID**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid). You must set a profile in the writer before setting any DRM attributes. DRM is supported only for profiles that use the Windows Media Audio or Windows Media Video codecs
-4.  Obtain the writer object's [**IWMDRMWriter**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter) interface.
-5.  Call [**IWMDRMWriter::SetDRMAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) and set [**Use\_Advanced\_DRM**](use-advanced-drm.md) to **TRUE**.
-6.  If you need to generate a new key seed, call [**IWMDRMWriter::GenerateKeySeed**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyseed). In most cases, you will be reusing a key seed that was generated previously. This value must remain secret; it is not written into the file.
-7.  Call [**IWMDRMWriter::GenerateKeyID**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyid) to create a key ID, which is the second value used to create the actual key. Unlike the key seed, the key ID is public and is written to the file in the DRM header in the clear. Create a new key ID for each new file you create.
-8.  Call **IWMDRMWriter::GenerateSigningKeyPair** if necessary to generate a public and private key that will be used to sign the advanced DRM ASF Header object. For more information about these keys, see [**IWMDRMWriter::GenerateSigningKeyPair**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatesigningkeypair).
+2.  Call the [**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) function to create the DRM writer. The first argument is reserved and must be set to **NULL**.
+3.  Set a profile for the writer to use by calling [**IWMWriter::SetProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile) or [**IWMWriter::SetProfileByID**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid). You must set a profile in the writer before setting any DRM attributes. DRM is supported only for profiles that use the Windows Media Audio or Windows Media Video codecs
+4.  Obtain the writer object's [**IWMDRMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter) interface.
+5.  Call [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) and set [**Use\_Advanced\_DRM**](use-advanced-drm.md) to **TRUE**.
+6.  If you need to generate a new key seed, call [**IWMDRMWriter::GenerateKeySeed**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyseed). In most cases, you will be reusing a key seed that was generated previously. This value must remain secret; it is not written into the file.
+7.  Call [**IWMDRMWriter::GenerateKeyID**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyid) to create a key ID, which is the second value used to create the actual key. Unlike the key seed, the key ID is public and is written to the file in the DRM header in the clear. Create a new key ID for each new file you create.
+8.  Call **IWMDRMWriter::GenerateSigningKeyPair** if necessary to generate a public and private key that will be used to sign the advanced DRM ASF Header object. For more information about these keys, see [**IWMDRMWriter::GenerateSigningKeyPair**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatesigningkeypair).
 9.  If necessary, obtain the values to populate the DRM header's digital signature object. If you do not have a working version of Windows Media Rights Manager installed on your system, you must configure the ASF file header's digital signature object by specifying the following four attributes, which all must be obtained from Microsoft:
 
     -   [**DRM\_LASignatureRootCert**](drm-lasignaturerootcert.md)
@@ -42,7 +42,7 @@ To protect ASF files using DRM version 7 or later, perform the following steps:
 
     If you do have Windows Media Rights Manager installed, there is no need to set these attributes in your application. The DRM component will retrieve these attributes and use them to sign the header automatically. If you have an activated version of Windows Media Rights Manager on another machine, and wish to reuse those digital signature object values, you can find them in the registry. The license server certificate is stored under HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\WM Rights Manager\\License Server\\Certs:cert1, and the root certificate is stored under HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\WM Rights Manager\\License Server\\Certs:cert2. When protecting files with DRM version 7, you must use the values from these registry keys. For the **DRM\_LASignaturePrivKey property**, use either **GenerateSigningKeysEx** (through the Windows Media Rights Manager SDK) or else reuse the value installed by Windows Media Rights Manager under HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\WM Rights Manager\\License Server:Info\_Cert0. For the **DRM\_LASignatureCert** property, use either **GenerateSigningKeysEx** (through the Windows Media Rights Manager SDK) or else the value installed by Windows Media Rights Manager under HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\WM Rights Manager\\License Server\\Certs:cert0.
 
-10. Call [**IWMDRMWriter::SetDRMAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) as many times as necessary to configure the writer object, which will set the required DRM header attributes as necessary. These properties persist for the lifetime of the writer object or until they are reset with a new value. They do not need to be reset for each new file you create.
+10. Call [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) as many times as necessary to configure the writer object, which will set the required DRM header attributes as necessary. These properties persist for the lifetime of the writer object or until they are reset with a new value. They do not need to be reset for each new file you create.
 
     The following properties are required by the writer object:
 
@@ -59,7 +59,7 @@ To protect ASF files using DRM version 7 or later, perform the following steps:
 
     In addition, you may specify user-defined DRM file attributes directly using the [**DRM\_DRMHeader**](drm-drmheader.md) base attribute. You can add any additional attribute you wish, such as "DRMHeader.RequireSAP" for example, as a way of communicating additional information that will be used by the license server in creating the license. The license server must be aware in advance of any additional properties you add. There is no way to discover unknown properties programmatically.
 
-11. Write the file using the [**IWMWriter**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter) interface methods as described elsewhere in this documentation. To create a live-DRM stream, simply write to a network sink. You can also write to a push sink.
+11. Write the file using the [**IWMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter) interface methods as described elsewhere in this documentation. To create a live-DRM stream, simply write to a network sink. You can also write to a push sink.
 12. If necessary, create a license for the file using Windows Media Rights Manager. This task can also be performed by a third-party license server. For live-DRM scenarios, end users will need to obtain a license either before the stream begins, or else at the time they first attempt to connect to it.
 
 **Note** DRM is not supported by the x64-based version of this SDK.
@@ -77,19 +77,19 @@ To protect ASF files using DRM version 7 or later, perform the following steps:
 [**DRM Properties**](drm-properties.md)
 </dt> <dt>
 
-[**IWMDRMWriter Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter)
+[**IWMDRMWriter Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter)
 </dt> <dt>
 
-[**IWMHeaderInfo::SetAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute)
+[**IWMHeaderInfo::SetAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute)
 </dt> <dt>
 
-[**IWMWriter Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
+[**IWMWriter Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
 </dt> <dt>
 
 [**Reading Protected Files**](reading-protected-files.md)
 </dt> <dt>
 
-[**WMCreateWriter**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter)
+[**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter)
 </dt> </dl>
 
  

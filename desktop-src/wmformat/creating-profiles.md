@@ -17,9 +17,9 @@ ms.date: 05/31/2018
 
 In many cases, you will want to create an empty profile to configure for your needs. In other cases it is easier to edit an existing profile, like a system profile. For more information about using system profiles, see [Using System Profiles](using-system-profiles.md).
 
-Creating an empty profile, ready for you to configure, requires a profile manager object. To get the [**IWMProfileManager**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) interface of a profile manager object, call the [**WMCreateProfileManager**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager) function.
+Creating an empty profile, ready for you to configure, requires a profile manager object. To get the [**IWMProfileManager**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager) interface of a profile manager object, call the [**WMCreateProfileManager**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager) function.
 
-To create an empty profile, call [**IWMProfileManager::CreateEmptyProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-createemptyprofile). When you create an empty profile, the only thing you specify is the version of the Windows Media Format SDK with which the profile complies. Unless you have a specific need to use a previous version, you should always use the latest version. The version dictates the structure of the profile; previous versions did not support some properties.
+To create an empty profile, call [**IWMProfileManager::CreateEmptyProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-createemptyprofile). When you create an empty profile, the only thing you specify is the version of the Windows Media Format SDK with which the profile complies. Unless you have a specific need to use a previous version, you should always use the latest version. The version dictates the structure of the profile; previous versions did not support some properties.
 
 The following example code shows how to create a new profile. To compile this code in your application, include stdio.h. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 
@@ -50,7 +50,7 @@ HRESULT CreateProfile(IWMProfileManager* pProfileMgr, IWMProfile** ppProfile)
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMProfileManager Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager)
+[**IWMProfileManager Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

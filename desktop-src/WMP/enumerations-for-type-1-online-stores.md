@@ -24,13 +24,13 @@ The following enumeration types are available for type 1 online stores using C++
 
 | Enumeration                                            | Description                                                                                              |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [WMPAccountType](/windows/desktop/api/contentpartner/ne-contentpartner-wmpaccounttype)                   | Enumeration that defines account types for an online store.                                              |
-| [WMPCallbackNotification](/windows/desktop/api/contentpartner/ne-contentpartner-wmpcallbacknotification) | Enumeration that defines states for use by the **IWMPContentPartnerCallback::Notify** callback function. |
-| [WMPPartnerNotification](/windows/desktop/api/contentpartner/ne-contentpartner-wmppartnernotification)   | Enumeration that defines operational states of an online store.                                          |
-| [WMPStreamingType](/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype)               | Enumeration that specifies the type of streaming media.                                                  |
-| [WMPTaskType](/windows/desktop/api/contentpartner/ne-contentpartner-wmptasktype)                         | Enumeration that represents Windows Media Player task panes.                                             |
-| [WMPTemplateSize](/windows/desktop/api/contentpartner/ne-contentpartner-wmptemplatesize)                 | Enumeration that represents HTML template sizes.                                                         |
-| [WMPTransactionType](/windows/desktop/api/contentpartner/ne-contentpartner-wmptransactiontype)           | Enumeration that represents a transaction type.                                                          |
+| [WMPAccountType](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmpaccounttype)                   | Enumeration that defines account types for an online store.                                              |
+| [WMPCallbackNotification](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmpcallbacknotification) | Enumeration that defines states for use by the **IWMPContentPartnerCallback::Notify** callback function. |
+| [WMPPartnerNotification](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmppartnernotification)   | Enumeration that defines operational states of an online store.                                          |
+| [WMPStreamingType](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype)               | Enumeration that specifies the type of streaming media.                                                  |
+| [WMPTaskType](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmptasktype)                         | Enumeration that represents Windows Media Player task panes.                                             |
+| [WMPTemplateSize](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmptemplatesize)                 | Enumeration that represents HTML template sizes.                                                         |
+| [WMPTransactionType](/previous-versions/windows/desktop/api/contentpartner/ne-contentpartner-wmptransactiontype)           | Enumeration that represents a transaction type.                                                          |
 
 
 

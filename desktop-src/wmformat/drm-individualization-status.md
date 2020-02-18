@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DRM\_INDIVIDUALIZATION\_STATUS enumeration
 
-The **DRM\_INDIVIDUALIZATION\_STATUS** enumeration type defines the valid states for DRM [*individualization*](wmformat-glossary.md). When an application initiates individualization with a call to [**IWMDRMReader::Individualize**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize), the progress of the individualization request is conveyed to the application through calls to the [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method. Individualization status messages will all use the WMT\_INDIVIDUALIZE member of the [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) enumeration type as the *Status* parameter. The status of the individualization is passed to **OnStatus** in the *pValue* parameter.
+The **DRM\_INDIVIDUALIZATION\_STATUS** enumeration type defines the valid states for DRM [*individualization*](wmformat-glossary.md). When an application initiates individualization with a call to [**IWMDRMReader::Individualize**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize), the progress of the individualization request is conveyed to the application through calls to the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method. Individualization status messages will all use the WMT\_INDIVIDUALIZE member of the [**WMT\_STATUS**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) enumeration type as the *Status* parameter. The status of the individualization is passed to **OnStatus** in the *pValue* parameter.
 
 ## Syntax
 
@@ -73,7 +73,7 @@ Indicates that the individualization process failed.
 <span id="INDI_CANCEL"></span><span id="indi_cancel"></span>**INDI\_CANCEL**
 </dt> <dd>
 
-Indicates that the individualization process was canceled as the result of a call to [**IWMDRMReader::CancelIndividualization**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization).
+Indicates that the individualization process was canceled as the result of a call to [**IWMDRMReader::CancelIndividualization**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization).
 
 </dd> <dt>
 

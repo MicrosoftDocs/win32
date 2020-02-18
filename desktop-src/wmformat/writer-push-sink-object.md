@@ -16,15 +16,15 @@ ms.date: 05/31/2018
 
 The writer push sink object distributes digital media to publishing points. For example, a live concert can be encoded by a single server and then delivered, or *pushed*, to several other servers that will actually stream the content to users.
 
-A writer push sink object is created by the function [**WMCreateWriterPushSink**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink), which sets a pointer to an **IWMWriterPushSink** interface. The other interfaces supported by the object, listed in the following table, can be obtained by calling the **QueryInterface** method.
+A writer push sink object is created by the function [**WMCreateWriterPushSink**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink), which sets a pointer to an **IWMWriterPushSink** interface. The other interfaces supported by the object, listed in the following table, can be obtained by calling the **QueryInterface** method.
 
 
 
 | Interface                                          | Description                                                                                                      |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| [**IWMRegisterCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback) | Enables the application to get status messages from the object.                                                  |
-| [**IWMWriterPushSink**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink)     | Manages a push distribution session.                                                                             |
-| [**IWMWriterSink**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink)             | Allocates memory, determines whether the sink is operating in real time, and exposes several callback functions. |
+| [**IWMRegisterCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback) | Enables the application to get status messages from the object.                                                  |
+| [**IWMWriterPushSink**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink)     | Manages a push distribution session.                                                                             |
+| [**IWMWriterSink**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink)             | Allocates memory, determines whether the sink is operating in real time, and exposes several callback functions. |
 
 
 
@@ -36,7 +36,7 @@ The following callback interface can be implemented by the application to track 
 
 | Interface                                      | Description                                                                    |
 |------------------------------------------------|--------------------------------------------------------------------------------|
-| [**IWMStatusCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Required when status information must be communicated to the host application. |
+| [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Required when status information must be communicated to the host application. |
 
 
 

@@ -158,7 +158,7 @@ End Sub
 [**AxWindowsMediaPlayer.PlaylistChange Event (VB and C#)**](axwmplib-axwindowsmediaplayer-playlistchange.md)
 </dt> <dt>
 
-[**WMPPlaylistChangeEventType**](/windows/desktop/api/wmp/ne-wmp-wmpplaylistchangeeventtype)
+[**WMPPlaylistChangeEventType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaylistchangeeventtype)
 </dt> </dl>
 
  

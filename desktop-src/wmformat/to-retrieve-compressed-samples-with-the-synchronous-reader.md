@@ -22,7 +22,7 @@ Like the asynchronous reader, the synchronous reader can also retrieve compresse
 
 The Windows Media Format SDK does not provide any methods for decoding data after it has been extracted from an ASF file. If you receive compressed samples and later want to decompress them, you will have to provide your own code to do so. One way to get around this limitation is to write the compressed samples to a new ASF file and then re-read them into normal, uncompressed samples.
 
-To receive compressed samples with the synchronous reader, call [**IWMSyncReader::SetReadStreamSamples**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples) before or during playback. Pass true for *fCompressed*.
+To receive compressed samples with the synchronous reader, call [**IWMSyncReader::SetReadStreamSamples**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples) before or during playback. Pass true for *fCompressed*.
 
 > [!Note]  
 > Image streams are not valid for compressed stream delivery. If you copy an image stream from one file to another, it will not work in the new file. To copy an image stream from file to file, retrieve the image stream samples by output number and include them in the new file as if including a new image stream.

@@ -141,16 +141,16 @@ pProfileMgr = NULL;
 
 <dl> <dt>
 
-[**IWMMediaProps Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)
+[**IWMMediaProps Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)
 </dt> <dt>
 
-[**IWMMutualExclusion Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion)
+[**IWMMutualExclusion Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion)
 </dt> <dt>
 
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMStreamConfig Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)
+[**IWMStreamConfig Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)
 </dt> <dt>
 
 [**Using Mutual Exclusion**](using-mutual-exclusion.md)

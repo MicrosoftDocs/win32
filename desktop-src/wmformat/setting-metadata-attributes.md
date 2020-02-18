@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 # Setting Metadata Attributes
 
-Metadata attributes are set by using the [**IWMHeaderInfo3::AddAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) method.
+Metadata attributes are set by using the [**IWMHeaderInfo3::AddAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) method.
 
-All attributes are assigned a language from the language list for the file. You can access the language list by using the [**IWMLanguageList**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist) interface. To get a pointer to an **IWMLanguageList** interface, call **QueryInterface** on any interface of the object from which you have obtained [**IWMHeaderInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3).
+All attributes are assigned a language from the language list for the file. You can access the language list by using the [**IWMLanguageList**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist) interface. To get a pointer to an **IWMLanguageList** interface, call **QueryInterface** on any interface of the object from which you have obtained [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3).
 
 You can add attributes with any name you like. However, using attribute names that are not standard names supported by the Windows Media Format SDK can make your metadata difficult for users to discover. Most media-playing applications will check for standard values. For more information, see [Custom Metadata](custom-metadata.md).
 

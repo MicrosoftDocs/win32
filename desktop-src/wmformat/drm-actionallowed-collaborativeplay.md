@@ -30,7 +30,7 @@ g\_wszWMDRM\_ActionAllowed\_CollaborativePlay
 
 The collaborative play right applies to playing protected content as part of a collaborative session using peer-to-peer services. For example, users of MSN Messenger 2004 can play protected content in a MusicMix session. This right can only be used to contribute a protected file to a single session at one time, and all users participating in the session must be online to render the content.
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
 ## See also
 

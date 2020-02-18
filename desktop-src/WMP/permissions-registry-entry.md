@@ -42,7 +42,7 @@ The value of the **Permissions** entry is a bitwise **OR** of one or more of the
 | 4                    | Permission for media CD. Files having the registered file name extension will be included in the playlist created when a CD containing the files is inserted into the CD-ROM drive.                                                                                           |
 | 8                    | Permission for the library. Files having the registered file name extension can be added to the library. Required for conversion plug-ins.                                                                                                                                    |
 | 16                   | Permission for HTML streaming. Files having the registered file name extension will be inserted into the Internet Explorer cache when delivered from a Web stream.                                                                                                            |
-| 128                  | Permission for transcoding. Files having the registered file name extension can be transcoded to Windows Media Format under certain conditions. See [IWMPTranscodePolicy::allowTranscode](/windows/desktop/api/wmpservices/nf-wmpservices-iwmptranscodepolicy-allowtranscode). Requires Windows Media Player 10 or later. |
+| 128                  | Permission for transcoding. Files having the registered file name extension can be transcoded to Windows Media Format under certain conditions. See [IWMPTranscodePolicy::allowTranscode](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmptranscodepolicy-allowtranscode). Requires Windows Media Player 10 or later. |
 
 
 

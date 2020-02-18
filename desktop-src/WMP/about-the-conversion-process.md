@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 After Windows Media Player instantiates the conversion plug-in, the process proceeds as follows:
 
-1.  The Player calls [IWMPConvert::ConvertFile](/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile).
+1.  The Player calls [IWMPConvert::ConvertFile](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile).
 2.  The plug-in converts the file provided in the *bstrInputFile* parameter into an ASF format.
 3.  If the conversion fails for some reason, the plug-in returns an appropriate failure code and the process stops.
 4.  If the conversion succeeds, the plug-in places the converted file into the folder provided in the *bstrDestinationFolder* parameter and returns the fully qualified path to the converted file through the *pbstrOutputFile* parameter.

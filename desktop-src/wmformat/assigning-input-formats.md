@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Assigning Input Formats
 
-When you have identified the input format that matches your data, you can set it for use by the writer by calling [**IWMWriter::SetInputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops).
+When you have identified the input format that matches your data, you can set it for use by the writer by calling [**IWMWriter::SetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops).
 
 For video streams, you must set the size of the frames in the input samples. The following example code demonstrates how to configure and set a video input. It uses the **FindInputFormat** function defined in the [To Enumerate Input Formats](to-enumerate-input-formats.md) section to get the input format for 24-bit RGB video. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 

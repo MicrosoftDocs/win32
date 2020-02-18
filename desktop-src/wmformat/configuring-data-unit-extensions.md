@@ -17,16 +17,16 @@ Samples written to ASF files can contain additional information apart from the m
 
 To use data unit extensions, you must configure the stream in the profile to accept them. To configure a data unit extension for a stream, perform the following steps.
 
-1.  Obtain a pointer to the [**IWMStreamConfig2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) interface by calling the **QueryInterface** method of [**IWMStreamConfig**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig).
-2.  Call [**IWMStreamConfig2::AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) to register a type of data unit extension for the stream.
+1.  Obtain a pointer to the [**IWMStreamConfig2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) interface by calling the **QueryInterface** method of [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig).
+2.  Call [**IWMStreamConfig2::AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) to register a type of data unit extension for the stream.
 
-You can examine all of the data unit extension types currently registered for a stream by calling [**IWMStreamConfig2::GetDataUnitExtensionCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount) to retrieve the number of registered data unit extension types. Then you can loop through all of the types using calls to [**IWMStreamConfig2::GetDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension) for each.
+You can examine all of the data unit extension types currently registered for a stream by calling [**IWMStreamConfig2::GetDataUnitExtensionCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount) to retrieve the number of registered data unit extension types. Then you can loop through all of the types using calls to [**IWMStreamConfig2::GetDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension) for each.
 
 Data unit extensions are assigned a size when configured for a stream. Many data unit extension systems use data that is a constant size (usually a structure). However, you can also configure your data unit extensions to be of variable size by setting the size to 0xFFFF. Each data unit extension assigned at encoding time can then be of any size between 1 byte and 65534 bytes. Variably sized data unit extensions are also called dynamic data unit extensions.
 
 The advantage of using dynamic data unit extensions is that you can attach extension data as needed. If you define a data unit extension with a set size, every sample for the stream must contain extension data of that size, even if you have no data for some samples. With dynamic data unit extensions, you can omit data unit extensions from some samples, which saves space and reduces bandwidth requirements. However, if data unit extensions are of variable size, the reading object cannot verify the received extension data against a static size. You must verify that the extension data that you receive is valid, and not malicious distortion of the bit stream.
 
-Individual data unit extensions must be set on samples by using the [**INSSBuffer3::SetProperty**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method. For more information, see [Setting Data Unit Extensions](setting-data-unit-extensions.md).
+Individual data unit extensions must be set on samples by using the [**INSSBuffer3::SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method. For more information, see [Setting Data Unit Extensions](setting-data-unit-extensions.md).
 
 ## Related topics
 

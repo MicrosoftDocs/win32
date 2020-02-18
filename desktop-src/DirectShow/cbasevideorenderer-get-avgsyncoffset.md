@@ -50,7 +50,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_AvgSyncOffset**](/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_avgsyncoffset) method.
+This member function implements the [**IQualProp::get\_AvgSyncOffset**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_avgsyncoffset) method.
 
 ## Requirements
 

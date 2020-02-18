@@ -112,9 +112,9 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 
 **Calling IWMPPluginRegistrar**
 
-In addition to the registry subkeys and entries described in the preceding lists and tables, you must create some registry keys and entries by calling [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin). This method performs the necessary registration to enable Windows Media Player to recognize your plug-in and present it as an option to the user.
+In addition to the registry subkeys and entries described in the preceding lists and tables, you must create some registry keys and entries by calling [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin). This method performs the necessary registration to enable Windows Media Player to recognize your plug-in and present it as an option to the user.
 
-Call **IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin** in your plug-in's **DllRegisterServer** function, and call [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin) in your plug-in's **DllUnregisterServer** function. To get a pointer to an **IWMPMediaPluginRegistrar** interface, call **CoCreateInstance**, passing CLSID\_WMPMediaPluginRegistrar as the Class ID. The constant CLSID\_WMPMediaPluginRegistrar is defined in wmpservices.h.
+Call **IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin** in your plug-in's **DllRegisterServer** function, and call [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin) in your plug-in's **DllUnregisterServer** function. To get a pointer to an **IWMPMediaPluginRegistrar** interface, call **CoCreateInstance**, passing CLSID\_WMPMediaPluginRegistrar as the Class ID. The constant CLSID\_WMPMediaPluginRegistrar is defined in wmpservices.h.
 
 **Registration in the DSP Plug-in Wizard**
 
@@ -129,7 +129,7 @@ The DSP plug-in wizard also generates code for a proxy-stub component that is a 
 [**DSP Plug-in Developer Overview**](dsp-plug-in-developer-overview.md)
 </dt> <dt>
 
-[**IWMPMediaPluginRegistrar**](/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar)
+[**IWMPMediaPluginRegistrar**](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar)
 </dt> </dl>
 
  

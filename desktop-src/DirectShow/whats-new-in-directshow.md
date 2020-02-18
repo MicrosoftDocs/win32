@@ -40,7 +40,7 @@ DVD playback: New options for the [**IDvdControl2::SetOption**](/windows/desktop
 -   The MPEG-1 Layer II audio decoder now uses floating-point arithmetic, for improved decoding quality.
 -   DVD playback enhancements. For details, see [DVD Playback Enhancements in Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
     -   Better trick-mode support: Smooth transitions between rates; transitions between forward and reverse playback; support for audio playback during fast-forward and reverse.
-    -   Enhanced caching. Applications can set how much data the DVD Navigator reads in advance. Setting a larger cache can extend battery life and enable silent playback (after the drive spins down). For more information, see [**DVD\_OPTION\_FLAG**](/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_option_flag).
+    -   Enhanced caching. Applications can set how much data the DVD Navigator reads in advance. Setting a larger cache can extend battery life and enable silent playback (after the drive spins down). For more information, see [**DVD\_OPTION\_FLAG**](/windows/win32/api/strmif/ne-strmif-dvd_option_flag).
 -   Audio end-point devices: Applications can associate the [DirectSound Renderer Filter](directsound-renderer-filter.md) with a particular audio end-point device. Applications can use the Multimedia Device (MMDevice) API to enumerate and select the end-point device. For more information, see the Core Audio API documentation in the Windows SDK.
 -   The following filters have been removed from Windows Vista:
     -   [BDA IP Sink Filter](https://msdn.microsoft.com/library/Dd693009(v=VS.85).aspx)

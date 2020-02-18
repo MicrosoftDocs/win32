@@ -28,7 +28,7 @@ g\_wszWMDRM\_ActionAllowed\_PlaylistBurn
 
 ## Remarks
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
 ## See also
 

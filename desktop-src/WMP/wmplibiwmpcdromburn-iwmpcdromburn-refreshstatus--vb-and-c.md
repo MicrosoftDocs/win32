@@ -76,7 +76,7 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 [**IWMPCdromBurn.burnState (VB and C#)**](wmplibiwmpcdromburn-iwmpcdromburn-burnstate--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnState**](/windows/desktop/api/wmp/ne-wmp-wmpburnstate)
+[**WMPBurnState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnstate)
 </dt> </dl>
 
  

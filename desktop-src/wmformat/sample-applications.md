@@ -43,7 +43,7 @@ The DRM portions of this sample are not supported on x64-based versions of Windo
 </tr>
 <tr class="even">
 <td>DRMHeader</td>
-<td>DRMHeader is a console application that uses the metadata editor's <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor"><strong>IWMDRMEditor</strong></a> interface to read DRM attributes of files without linking to the DRM static library.
+<td>DRMHeader is a console application that uses the metadata editor's <a href="/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor"><strong>IWMDRMEditor</strong></a> interface to read DRM attributes of files without linking to the DRM static library.
 <blockquote>
 [!Note]<br />
 This sample is not supported on x64-based versions of Windows.

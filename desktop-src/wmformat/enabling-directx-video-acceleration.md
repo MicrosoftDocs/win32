@@ -46,9 +46,9 @@ Three interfaces are defined to enable the necessary communications between the 
 
 | Interface                                                        | Description                                                                                                                                                                                        |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMCodecAMVideoAccelerator**](/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator) | Exposed by the Windows Media Decoder DMO and called by a media player's source filter to set up the various connections required to enable DirectX VA for decoding of Windows Media Video content. |
-| [**IWMPlayerTimestampHook**](/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook)         | Implemented on the player's source filter. It enables the filter to modify the time stamps on the video samples before delivering them downstream.                                                 |
-| [**IWMReaderAccelerator**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator)             | Implemented on the WM Reader object. It is called by a player source filter to obtain interfaces from the decoder DMO.                                                                             |
+| [**IWMCodecAMVideoAccelerator**](/previous-versions/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator) | Exposed by the Windows Media Decoder DMO and called by a media player's source filter to set up the various connections required to enable DirectX VA for decoding of Windows Media Video content. |
+| [**IWMPlayerTimestampHook**](/previous-versions/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook)         | Implemented on the player's source filter. It enables the filter to modify the time stamps on the video samples before delivering them downstream.                                                 |
+| [**IWMReaderAccelerator**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator)             | Implemented on the WM Reader object. It is called by a player source filter to obtain interfaces from the decoder DMO.                                                                             |
 
 
 

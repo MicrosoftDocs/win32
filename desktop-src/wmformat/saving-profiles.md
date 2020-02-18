@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Saving Profiles
 
-You can use the [**IWMProfileManager::SaveProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile) method to save the contents of a profile object to a string formatted with XML. No methods are provided to store the profile string to a file; you can use the file I/O routines of your choice.
+You can use the [**IWMProfileManager::SaveProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile) method to save the contents of a profile object to a string formatted with XML. No methods are provided to store the profile string to a file; you can use the file I/O routines of your choice.
 
 > [!Note]  
 > You should never alter the profile string written to a file. Any changes you want to make to a profile should be made programmatically. Changing values in a .prx file can cause unpredictable results.
