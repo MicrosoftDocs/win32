@@ -81,8 +81,8 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 -   [**IPSEC\_KEY\_MANAGER0**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0)
 -   [**IPSEC\_KEY\_MANAGER\_CALLBACKS0**](/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0)
 -   [**IPSEC\_KEYING\_POLICY1**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1_)
--   [**IPSEC\_SA\_CONTEXT\_CHANGE0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa_context_change0_)
--   [**IPSEC\_SA\_CONTEXT\_SUBSCRIPTION0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0_)
+-   [**IPSEC\_SA\_CONTEXT\_CHANGE0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)
+-   [**IPSEC\_SA\_CONTEXT\_SUBSCRIPTION0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0)
 -   [**IPSEC\_TRANSPORT\_POLICY2**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2_)
 -   [**IPSEC\_TUNNEL\_ENDPOINT0**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0_)
 -   [**IPSEC\_TUNNEL\_ENDPOINTS2**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2_)
@@ -108,7 +108,7 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 -   [**FWPM\_CONNECTION\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)
 -   [**FWPM\_VSWITCH\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)
 -   [**IKEEXT\_CERT\_CRITERIA\_NAME\_TYPE**](/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type_)
--   [**IPSEC\_SA\_CONTEXT\_EVENT\_TYPE0**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0_)
+-   [**IPSEC\_SA\_CONTEXT\_EVENT\_TYPE0**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)
 
 ## New filtering layer identifiers
 
