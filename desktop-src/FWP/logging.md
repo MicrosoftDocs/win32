@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Windows Filtering Platform (WFP) provides logging of packet drops and IKE/AuthIP failures.
 
-The logged events are defined in the [**FWPM\_NET\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_net_event_type_) enumerated type and are as follows.
+The logged events are defined in the [**FWPM\_NET\_EVENT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) enumerated type and are as follows.
 
 -   IKE/AuthIP main mode failures.
 -   IKE/AuthIP quick mode failures.
