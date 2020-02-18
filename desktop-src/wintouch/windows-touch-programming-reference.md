@@ -8,37 +8,20 @@ keywords:
 - programming reference for Windows Touch
 - reference for Windows Touch
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Programming Reference
 
 The following sections describe the functionality of the Windows Touch API.
 
-
-
-| Section                                                            | Description                                                                                  |
+| Section        | Description    |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [Boundary Feedback](boundary-feedback.md)                         | Contains references for enabling feedback when a user reaches the edge of a pannable region. |
-| [Inertia and Manipulation](inertia-and-manipulation-reference.md) | Contains references for inertia and manipulation.                                            |
-| [Windows Touch Gestures](multi-touch-gestures.md)                 | Contains references for Windows Touch gesture messages.                                      |
-| [Windows Touch Input](multi-touch-input.md)                       | Contains references for Windows Touch input messages.                                        |
-
-
-
- 
+| [Inertia and Manipulation](inertia-and-manipulation-reference.md) | Contains references for inertia and manipulation.                  |
+| [Windows Touch Gestures](multi-touch-gestures.md)                 | Contains references for Windows Touch gesture messages.            |
+| [Windows Touch Input](multi-touch-input.md)                       | Contains references for Windows Touch input messages.              |
 
 ## Related topics
 
-<dl> <dt>
-
 [Windows Touch](windows-touch-portal.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
