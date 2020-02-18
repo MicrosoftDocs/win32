@@ -25,7 +25,7 @@ keywords:
 - IInertiaProcessor interface,code samples
 - IInertiaProcessor interface,sample code
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Manipulation and Inertia Sample
@@ -40,20 +40,15 @@ The boxes with gradients can be manipulated independently by a user when they ru
 
 Before you can receive touch input, you first must notify the system that your application is a Windows Touch application by calling the following function:
 
-
-```
+```C++
    RegisterTouchWindow(g_hWnd, 0);
-   
 ```
 
+## Implement the _IManipulationEventSink Interface
 
+The [**_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) event sink contains three functions: [**ManipulationStarted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted), [**ManipulationDelta**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta), and [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted). These callback functions are used by the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface and [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interface for returning the values calculated by the processors after they invoke the [**ProcessTime**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime), [**ProcessUpWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime), [**ProcessDownWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime), and [**ProcessMoveWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime) functions. The following code example shows an example implementation of a **_IManipulationEvents** interface.
 
-## Implement the \_IManipulationEventSink Interface
-
-The [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) event sink contains three functions: [**ManipulationStarted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted), [**ManipulationDelta**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta), and [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted). These callback functions are used by the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface and [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interface for returning the values calculated by the processors after they invoke the [**ProcessTime**](/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime), [**ProcessUpWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime), [**ProcessDownWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime), and [**ProcessMoveWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime) functions. The following code example shows an example implementation of a **\_IManipulationEvents** interface.
-
-
-```
+```C++
 #include "cmanipulationeventsink.h"
 #include <math.h>
 
@@ -83,7 +78,7 @@ CManipulationEventSink::CManipulationEventSink(HWND hWnd, CDrawingObject *dObj, 
 
 CManipulationEventSink::~CManipulationEventSink()
 {
-    
+
 }
 
 
@@ -91,7 +86,6 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
     FLOAT x,
     FLOAT y)
 {
-    
     KillTimer(m_hWnd, m_iTimerId);
 
     return S_OK;
@@ -123,20 +117,20 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
     // Apply translation based on translationDelta.
     m_dObj->Translate(translationDeltaX, translationDeltaY);
 
-    if(!m_bInertia) 
+    if(!m_bInertia)
     {
         // Set values for one-finger rotations.
-        FLOAT fPivotRadius = (FLOAT)(sqrt(pow(m_dObj->GetWidth()/2, 2) 
+        FLOAT fPivotRadius = (FLOAT)(sqrt(pow(m_dObj->GetWidth()/2, 2)
                            + pow(m_dObj->GetHeight()/2, 2)))*0.4f;
         FLOAT fPivotPtX    = m_dObj->GetCenterX();
         FLOAT fPivotPtY    = m_dObj->GetCenterY();
-        
+
         m_manip->put_PivotPointX(fPivotPtX);
         m_manip->put_PivotPointY(fPivotPtY);
         m_manip->put_PivotRadius(fPivotRadius);
     }
     return S_OK;
-}    
+}
 
 HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
     FLOAT x,
@@ -148,12 +142,12 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
     FLOAT cumulativeRotation)
 {
     if(!m_bInertia)
-    { 
+    {
         SetupInertia();
 
         // Kick off timer that handles inertia.
         SetTimer(m_hWnd, m_iTimerId, DESIRED_MILLISECONDS, NULL);
-    } 
+    }
     else
     {
         // Stop timer that handles inertia.
@@ -162,21 +156,17 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
 
     return S_OK;
 }
-   
 ```
-
-
 
 ## Create COM Objects and Set up the IManipulationProcessor and IInertiaProcessor Interfaces
 
 The API provides an implementation of the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) and [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interfaces. You should create an instance of and reference the COM objects from the [**IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) event sink that was implemented earlier.
 
-## Handle WM\_TOUCH Messages
+## Handle WM_TOUCH Messages
 
-The input data must be extracted from the [**WM\_TOUCH**](wm-touchdown.md) messages and then later must be processed to feed the correct manipulation processor.
+The input data must be extracted from the [**WM_TOUCH**](wm-touchdown.md) messages and then later must be processed to feed the correct manipulation processor.
 
-
-```
+```C++
 switch (msg)
 {
     case WM_TOUCH:
@@ -184,22 +174,22 @@ switch (msg)
       iNumContacts = LOWORD(wParam);
       hInput       = (HTOUCHINPUT)lParam;
       pInputs      = new TOUCHINPUT[iNumContacts];
-       
-      // Get each touch input info and feed each 
+
+      // Get each touch input info and feed each
       // tagTOUCHINPUT into the process input handler.
 
       if(pInputs != NULL)
       {
-          if(GetTouchInputInfo(hInput, iNumContacts, 
+          if(GetTouchInputInfo(hInput, iNumContacts,
                pInputs, sizeof(TOUCHINPUT)))
           {
               for(int i = 0; i < iNumContacts; i++)
               {
                   // Bring touch input info into client coordinates.
-                  ptInputs.x = pInputs[i].x/100;    
+                  ptInputs.x = pInputs[i].x/100;
                   ptInputs.y = pInputs[i].y/100;
                   ScreenToClient(g_hWnd, &ptInputs);
-                   
+
                   pInputs[i].x = ptInputs.x;
                   pInputs[i].y = ptInputs.y;
 
@@ -207,34 +197,25 @@ switch (msg)
               }
           }
       }
-        
+
       delete [] pInputs;
       break;
 }
-
-   
 ```
-
-
 
 > [!Note]  
 > In order to use the [**ScreenToClient**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information about supporting high DPI, visit the [High DPI]( https://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
 
- 
-
 ## Pass TOUCHINPUT Structures to the Appropriate Processor
 
-After the data is extracted from the [**WM\_TOUCH**](wm-touchdown.md) messages by using the [**GetTouchInputInfo**](/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo) function, feed the data into the manipulation processor by invoking [**ProcessUpWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime), [**ProcessDownWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime), or [**ProcessMoveWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime) functions, depending on the **dwFlag** set in the [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) structure.
+After the data is extracted from the [**WM_TOUCH**](wm-touchdown.md) messages by using the [**GetTouchInputInfo**](/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo) function, feed the data into the manipulation processor by invoking [**ProcessUpWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime), [**ProcessDownWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime), or [**ProcessMoveWithTime**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime) functions, depending on the **dwFlag** set in the [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) structure.
 
 > [!Note]  
 > When supporting multiple manipulations, a new manipulation processor must be created if the **dwID** defined in the [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) structure must be used to send the data to the correct [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) object.
 
- 
-
-
-```
+```C++
 CoreObject* coCurrent = m_coHead;
-    
+
 while(coCurrent!=NULL && !bFoundObj)
 {
     if(dwEvent & TOUCHEVENTF_DOWN)
@@ -271,18 +252,13 @@ VOID CComTouchDriver::DownEvent(CoreObject* coRef, tagTOUCHINPUT inData, BOOL* b
         ...
     }
 }
-   
 ```
-
-
 
 ## Set up Inertia within ManipulationCompleted
 
 After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted) method is invoked, the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) object must set the values for the [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) object linked to the **IManipulationProcessor** to invoke inertia. The following code example shows how to set up the **IInertiaProcessor** object from the **IManipulationProcessor** method **ManipulationCompleted**.
 
-
-```
-
+```C++
     int iVWidth       = GetSystemMetrics(SM_CXVIRTUALSCREEN);
     int iVHeight      = GetSystemMetrics(SM_CYVIRTUALSCREEN);
 
@@ -314,7 +290,6 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
     FLOAT fBoundaryTop    = fVOffset + fVElasticMargin;
     FLOAT fBoundaryRight  = lCWidth - fHOffset - fHElasticMargin;
     FLOAT fBoundaryBottom = lCHeight - fVOffset - fVElasticMargin;
-    
 
     // Set borders and elastic margin.
 
@@ -322,7 +297,7 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
     m_inert->put_BoundaryTop(fBoundaryTop);
     m_inert->put_BoundaryRight(fBoundaryRight);
     m_inert->put_BoundaryBottom(fBoundaryBottom);
-    
+
     m_inert->put_ElasticMarginLeft(fHElasticMargin);
     m_inert->put_ElasticMarginTop(fVElasticMargin);
     m_inert->put_ElasticMarginRight(fHElasticMargin);
@@ -332,7 +307,7 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
 
     m_inert->put_InitialOriginX(m_dObj->GetCenterX());
     m_inert->put_InitialOriginY(m_dObj->GetCenterY());
-    
+
     FLOAT fVX;
     FLOAT fVY;
     FLOAT fVR;
@@ -346,17 +321,13 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
     m_inert->put_InitialVelocityX(fVX);
     m_inert->put_InitialVelocityY(fVY);
     m_inert->put_InitialAngularVelocity(fVR);
-   
 ```
-
-
 
 ## Clean up your COM Objects
 
 When your application closes, you must clean up your COM objects. The following code shows how you can free the resources that were allocated in the sample.
 
-
-```
+```C++
 CComTouchDriver::~CComTouchDriver(VOID) {
     CoreObject* coCurrent = m_coHead;
 
@@ -371,22 +342,8 @@ CComTouchDriver::~CComTouchDriver(VOID) {
         coCurrent = coCurrent->coNext;
     }
 }
-   
 ```
-
-
 
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Multi-touch Manipulation Application](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [Manipulation and Inertia Sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [Windows Touch Samples](windows-touch-samples.md)

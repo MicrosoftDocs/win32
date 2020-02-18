@@ -8,7 +8,7 @@ keywords:
 - Windows Touch,Scratchpad samples
 - Scratchpad samples
 ms.topic: article
-ms.date: 10/28/2019
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Scratchpad Sample (C++)
@@ -17,7 +17,7 @@ The [Windows Touch Scratchpad sample](https://github.com/MicrosoftDocs/win32-pr/
 
 ![screen shot showing the windows touch scratchpad, with red and black squiggles on the screen](images/mtscratchpadwmtouch.png)
 
-For this application, the window is registered as a touch window, touch messages are interpreted to add touch points to stroke objects, and ink strokes are rendered to the screen in the **WM\_PAINT** message handler.
+For this application, the window is registered as a touch window, touch messages are interpreted to add touch points to stroke objects, and ink strokes are rendered to the screen in the **WM_PAINT** message handler.
 
 The following code shows how the window is registered as a touch window.
 
@@ -73,7 +73,7 @@ The following code shows how touch messages are used to add touch points to ink 
             break;
 ```
 
-The following code shows how the ink strokes are drawn to the screen in the **WM\_PAINT** message handler.
+The following code shows how the ink strokes are drawn to the screen in the **WM_PAINT** message handler.
 
 ```C++
         case WM_PAINT:
@@ -106,5 +106,4 @@ void CStroke::Draw(HDC hDC) const
 
 ## Related topics
 
-- [Windows Touch Scratchpad sample](https://github.com/MicrosoftDocs/win32-pr/blob/d99b905b0c9161069cb9337a92a887d647737b2a/desktop-src/wintouch/windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)
-- [Windows Touch Samples](windows-touch-samples.md)
+[Windows Touch Scratchpad Sample (C#)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md), [Multi-touch Scratchpad Application (WM_TOUCH/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [Multi-touch Scratchpad Application (WM_TOUCH/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [Windows Touch Samples](windows-touch-samples.md)

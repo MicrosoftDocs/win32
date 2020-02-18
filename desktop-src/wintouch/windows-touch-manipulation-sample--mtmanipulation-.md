@@ -11,24 +11,22 @@ keywords:
 - manipulations,code samples
 - Manipulation sample
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Manipulation Sample (MTManipulation)
 
 This section describes the Windows Touch Manipulation sample.
 
-The Windows Touch Manipulation sample demonstrates how to translate, rotate, and scale an object using the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface and implementing an [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) event sink. The following screen shot shows how the sample looks when it is running.
+The Windows Touch Manipulation sample demonstrates how to translate, rotate, and scale an object using the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface and implementing an [**_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) event sink. The following screen shot shows how the sample looks when it is running.
 
 ![screen shot showing the windows touch manipulation sample, with a rotated blue-outlined white rectangle with blue lines drawn from opposite corners](images/mtmanipulation.png)
 
-For this sample, a **CDrawingObject** class is created that can be programmatically translated, rotated, or scaled. An [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface is instantiated. A manipulation event sink is created that accepts a pointer to the **CDrawingObject** class and the **IManipulationProcessor** interface on its constructor. A connection point to the IManipulationProcessor is created in the manipulation event sink implementation so that events raised by the **IManipulationProcessor** are received by the event sink. Touch data is fed to the **IManipulationProcessor** interface and the interface will then raise [**\_IManipulationEvent**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) events. The event handlers in the **CManipulationEventSink** class will update the orientation of the **CDrawingObject** by calling accessors on the pointer to the **CDrawingObject**.
+For this sample, a **CDrawingObject** class is created that can be programmatically translated, rotated, or scaled. An [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface is instantiated. A manipulation event sink is created that accepts a pointer to the **CDrawingObject** class and the **IManipulationProcessor** interface on its constructor. A connection point to the IManipulationProcessor is created in the manipulation event sink implementation so that events raised by the **IManipulationProcessor** are received by the event sink. Touch data is fed to the **IManipulationProcessor** interface and the interface will then raise [**_IManipulationEvent**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) events. The event handlers in the **CManipulationEventSink** class will update the orientation of the **CDrawingObject** by calling accessors on the pointer to the **CDrawingObject**.
 
 The following code shows how the window is set up for touch and how the **CDrawingObject** and [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) are instantiated and passed to the **CManipulationEventSink** constructor.
 
-
 ```C++
-   
 CDrawingObject g_cRect; // CDrawingObject class holds information about the rectangle
                         // and it is responsible for painting the rectangle.
 
@@ -75,10 +73,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
     }
 ```
 
-
-
 The following code shows the constructor for the manipulation event sink, **CManipulationEventSink**.
-
 
 ```C++
 CManipulationEventSink::CManipulationEventSink(CDrawingObject* pcDrawingObject)
@@ -91,10 +86,7 @@ CManipulationEventSink::CManipulationEventSink(CDrawingObject* pcDrawingObject)
 }
 ```
 
-
-
 The following code shows how the event sink is connected to the manipulation processor.
-
 
 ```C++
 bool CManipulationEventSink::Connect(IManipulationProcessor* pManipulationProcessor)
@@ -134,8 +126,8 @@ bool CManipulationEventSink::Connect(IManipulationProcessor* pManipulationProces
     // Release the connection container.
     pConnectionContainer->Release();
 
-    // Advise. Establishes an advisory connection between the connection point and the 
-    // caller's sink object. 
+    // Advise. Establishes an advisory connection between the connection point and the
+    // caller's sink object.
     hr = m_pConnection->Advise(this, &m_dwCookie);
     if (FAILED(hr))
     {
@@ -149,10 +141,7 @@ bool CManipulationEventSink::Connect(IManipulationProcessor* pManipulationProces
 }
 ```
 
-
-
 The following code shows how touch data is passed to the manipulation event sink.
-
 
 ```C++
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
@@ -218,13 +207,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
 ```
 
-
-
 The following code shows how the event handlers update the object orientation and size on manipulation delta events.
 
-
 ```C++
-HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta( 
+HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
     /* [in] */ FLOAT /* x */,
     /* [in] */ FLOAT /* y */,
     /* [in] */ FLOAT translationDeltaX,
@@ -244,10 +230,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
 }
 ```
 
-
-
 The following code is the implementation of **ApplyManipulationDelta** in the **CDrawingObject** class.
-
 
 ```C++
 // This function is responsible for manipulation of the rectangle.
@@ -273,21 +256,8 @@ void CDrawingObject::ApplyManipulationDelta(
 }
 ```
 
-
-
 After the **CDrawingObject**'s center points, scale factor, and rotation angle are updated, the object will draw itself transformed.
 
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Multi-touch Manipulation Application](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [Manipulation and Inertia Sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [Windows Touch Samples](windows-touch-samples.md)

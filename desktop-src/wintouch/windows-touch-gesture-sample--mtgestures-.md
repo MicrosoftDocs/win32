@@ -11,14 +11,14 @@ keywords:
 - gestures,sample code
 - gestures,code samples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Gesture Sample (MTGestures)
 
 This section describes the Windows Touch Gesture sample.
 
-The Windows Touch Gesture sample demonstrates how to use gesture messages to translate, rotate, and scale a box rendered by the Graphics Device Interface (GDI) by handling the [**WM\_GESTURE**](wm-gesture.md) message. The following screen shot shows how the sample looks when it is running.
+The Windows Touch Gesture sample demonstrates how to use gesture messages to translate, rotate, and scale a box rendered by the Graphics Device Interface (GDI) by handling the [**WM_GESTURE**](wm-gesture.md) message. The following screen shot shows how the sample looks when it is running.
 
 ![screen shot showing the windows touch gesture sample when it is running, with a rotated, black-outlined white rectangle on the screen](images/mtgestures.png)
 
@@ -26,19 +26,15 @@ For this sample, gesture messages are passed to a gesture engine, which then cal
 
 The following code shows how gesture messages are passed to the gesture engine from the WndProc method.
 
-
 ```C++
     case WM_GESTURE:
-        // The gesture-processing code is implemented in the CGestureEngine 
+        // The gesture-processing code is implemented in the CGestureEngine
         // class.
         return g_cGestureEngine.WndProc(hWnd,wParam,lParam);
         break;
 ```
 
-
-
 The following code shows how the gesture engine handles the two-finger tap command.
-
 
 ```C++
 // Two-finger tap command
@@ -51,19 +47,13 @@ void CMyGestureEngine::ProcessTwoFingerTap(void)
 }
 ```
 
-
-
 The following code shows how the drawing object toggles its diagonals.
-
 
 ```C++
 void ToggleDrawDiagonals(void){_bDrawDiagonals = !_bDrawDiagonals;}
 ```
 
-
-
 The following code shows how the object renders diagonal lines in its draw method.
-
 
 ```C++
     if(_bDrawDiagonals)
@@ -76,19 +66,6 @@ The following code shows how the object renders diagonal lines in its draw metho
     }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Multi-touch Gestures Application (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [Multi-touch Gestures Application (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), [Windows Touch Samples](windows-touch-samples.md)
