@@ -24,7 +24,7 @@ The list of filter engine layers is provided in the reference section topic [**F
 
 A *filter* is a rule that is matched against incoming or outgoing packets. The rule tells the filtering engine what to do with the packet, including to call a callout module for deep packet or stream inspection. For example, a filter may specify "Block traffic with a TCP port greater than 1024" or "Call out to IDS for all traffic that is not secured."
 
-A boot-time filter is a filter that is enforced at boot-time as soon as the TCP/IP stack driver (tcpip.sys) starts. A boot-time filter is disabled when BFE starts. A filter is marked as boot-time by setting the [**FWPM\_FILTER\_FLAG\_BOOTTIME**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_filter0_) flag when [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0) is invoked.
+A boot-time filter is a filter that is enforced at boot-time as soon as the TCP/IP stack driver (tcpip.sys) starts. A boot-time filter is disabled when BFE starts. A filter is marked as boot-time by setting the [**FWPM\_FILTER\_FLAG\_BOOTTIME**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_filter0) flag when [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0) is invoked.
 
 A run-time filter is a filter that is enforced after BFE starts. A run-time filter can be static, dynamic, or persistent depending on the way it was created. See [Object Management](object-management.md) for more information on the different types of run-time filters and their lifetime.
 
