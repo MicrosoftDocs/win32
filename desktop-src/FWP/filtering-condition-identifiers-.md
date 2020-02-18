@@ -629,7 +629,7 @@ The following constants are available for user mode only.
 
 | User-mode conditions available for Windows 8 and Windows Server 2012                                                                                                                       | Description                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="FWPM_CONDITION_QM_MODE"></span><span id="fwpm_condition_qm_mode"></span><dl> <dt>**FWPM\_CONDITION\_QM\_MODE**</dt> </dl> | The mode of the quick mode (QM) filter. See [**IPSEC\_TRAFFIC\_TYPE**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type_) for possible values.<br/> **Data type:** FWP\_UINT32<br/> |
+| <span id="FWPM_CONDITION_QM_MODE"></span><span id="fwpm_condition_qm_mode"></span><dl> <dt>**FWPM\_CONDITION\_QM\_MODE**</dt> </dl> | The mode of the quick mode (QM) filter. See [**IPSEC\_TRAFFIC\_TYPE**](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_traffic_type) for possible values.<br/> **Data type:** FWP\_UINT32<br/> |
 
 
 
