@@ -99,72 +99,72 @@ Shared Structures
 IKE/AuthIP Structures
 
 -   IKEEXT\_AUTHENTICATION\_METHOD:
-    -   [**IKEEXT\_AUTHENTICATION\_METHOD0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_authentication_method0_) (Windows Vista)
-    -   [**IKEEXT\_AUTHENTICATION\_METHOD1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_authentication_method1_) (Windows 7)
+    -   [**IKEEXT\_AUTHENTICATION\_METHOD0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_authentication_method0) (Windows Vista)
+    -   [**IKEEXT\_AUTHENTICATION\_METHOD1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_authentication_method1) (Windows 7)
     -   [**IKEEXT\_AUTHENTICATION\_METHOD2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2_) (Windows 8)
 -   [**IKEEXT\_CERT\_EKUS0**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0_)
 -   [**IKEEXT\_CERT\_NAME0**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0_)
--   [**IKEEXT\_CERT\_ROOT\_CONFIG0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cert_root_config0_)
+-   [**IKEEXT\_CERT\_ROOT\_CONFIG0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cert_root_config0)
 -   IKEEXT\_CERTIFICATE\_AUTHENTICATION:
-    -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_authentication0_) (Windows Vista)
-    -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_authentication1_) (Windows 7)
+    -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_authentication0) (Windows Vista)
+    -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_authentication1) (Windows 7)
     -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication2_) (Windows 8)
 -   IKEEXT\_CERTIFICATE\_CREDENTIAL:
-    -   [**IKEEXT\_CERTIFICATE\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_credential0_) (Windows Vista)
-    -   [**IKEEXT\_CERTIFICATE\_CREDENTIAL1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_credential1_) (Windows 7 and later)
+    -   [**IKEEXT\_CERTIFICATE\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_credential0) (Windows Vista)
+    -   [**IKEEXT\_CERTIFICATE\_CREDENTIAL1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_credential1) (Windows 7 and later)
 -   [**IKEEXT\_CERTIFICATE\_CRITERIA0**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_)
--   [**IKEEXT\_CIPHER\_ALGORITHM0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cipher_algorithm0_)
+-   [**IKEEXT\_CIPHER\_ALGORITHM0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cipher_algorithm0)
 -   IKEEXT\_COMMON\_STATISTICS:
-    -   [**IKEEXT\_COMMON\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_common_statistics0_) (Windows Vista)
-    -   [**IKEEXT\_COMMON\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_common_statistics1_) (Windows 7 and later)
--   [**IKEEXT\_COOKIE\_PAIR0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cookie_pair0_)
+    -   [**IKEEXT\_COMMON\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_common_statistics0) (Windows Vista)
+    -   [**IKEEXT\_COMMON\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_common_statistics1) (Windows 7 and later)
+-   [**IKEEXT\_COOKIE\_PAIR0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cookie_pair0)
 -   IKEEXT\_CREDENTIAL:
-    -   [**IKEEXT\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential0_) (Windows Vista)
-    -   [**IKEEXT\_CREDENTIAL1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential1_) (Windows 7 and later)
+    -   [**IKEEXT\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential0) (Windows Vista)
+    -   [**IKEEXT\_CREDENTIAL1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential1) (Windows 7 and later)
 -   IKEEXT\_CREDENTIAL\_PAIR:
-    -   [**IKEEXT\_CREDENTIAL\_PAIR0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential_pair0_) (Windows Vista)
-    -   [**IKEEXT\_CREDENTIAL\_PAIR1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential_pair1_) (Windows 7 and later)
+    -   [**IKEEXT\_CREDENTIAL\_PAIR0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential_pair0) (Windows Vista)
+    -   [**IKEEXT\_CREDENTIAL\_PAIR1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credential_pair1) (Windows 7 and later)
 -   IKEEXT\_CREDENTIALS:
-    -   [**IKEEXT\_CREDENTIALS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credentials0_) (Windows Vista)
-    -   [**IKEEXT\_CREDENTIALS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credentials1_) (Windows 7 and later)
+    -   [**IKEEXT\_CREDENTIALS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credentials0) (Windows Vista)
+    -   [**IKEEXT\_CREDENTIALS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credentials1) (Windows 7 and later)
 -   [**IKEEXT\_EAP\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_eap_authentication0__)
 -   IKEEXT\_EM\_POLICY:
-    -   [**IKEEXT\_EM\_POLICY0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_em_policy0_) (Windows Vista)
-    -   [**IKEEXT\_EM\_POLICY1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_em_policy1_) (Windows 7)
+    -   [**IKEEXT\_EM\_POLICY0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_em_policy0) (Windows Vista)
+    -   [**IKEEXT\_EM\_POLICY1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_em_policy1) (Windows 7)
     -   [**IKEEXT\_EM\_POLICY2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2_) (Windows 8)
--   [**IKEEXT\_INTEGRITY\_ALGORITHM0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_integrity_algorithm0_)
+-   [**IKEEXT\_INTEGRITY\_ALGORITHM0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_integrity_algorithm0)
 -   IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS:
-    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0_) (Windows Vista)
-    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics1_) (Windows 7 and later)
+    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0) (Windows Vista)
+    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics1) (Windows 7 and later)
 -   IKEEXT\_IP\_VERSION\_SPECIFIC\_KEYMODULE\_STATISTICS:
-    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_KEYMODULE\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0_) (Windows Vista)
-    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_KEYMODULE\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1_) (Windows 7 and later)
--   [**IKEEXT\_IPV6\_CGA\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0_)
+    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_KEYMODULE\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0) (Windows Vista)
+    -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_KEYMODULE\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1) (Windows 7 and later)
+-   [**IKEEXT\_IPV6\_CGA\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0)
 -   IKEEXT\_KEYMODULE\_STATISTICS:
     -   [**IKEEXT\_KERBEROS\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_kerberos_authentication0__) (Windows Vista and Windows 7)
     -   [**IKEEXT\_KERBEROS\_AUTHENTICATION1**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1__) (Windows 8)
 -   -   IKEEXT\_KEYMODULE\_STATISTICS:
-    -   [**IKEEXT\_KEYMODULE\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics0_) (Windows Vista)
-    -   [**IKEEXT\_KEYMODULE\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics1_) (Windows 7 and later)
--   [**IKEEXT\_NAME\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_name_credential0_)
+    -   [**IKEEXT\_KEYMODULE\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics0) (Windows Vista)
+    -   [**IKEEXT\_KEYMODULE\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics1) (Windows 7 and later)
+-   [**IKEEXT\_NAME\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_name_credential0)
 -   [**IKEEXT\_NTLM\_V2\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ntlm_v2_authentication0__)
 -   IKEEXT\_POLICY:
-    -   [**IKEEXT\_POLICY0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_policy0_) (Windows Vista)
-    -   [**IKEEXT\_POLICY1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_policy1_) (Windows 7)
+    -   [**IKEEXT\_POLICY0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_policy0) (Windows Vista)
+    -   [**IKEEXT\_POLICY1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_policy1) (Windows 7)
     -   [**IKEEXT\_POLICY2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2_) (Windows 8)
 -   IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION:
     -   [**IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication0__) (Windows Vista)
     -   [**IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication1__) (Windows 7 and later)
--   [**IKEEXT\_PROPOSAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_proposal0_)
+-   [**IKEEXT\_PROPOSAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_proposal0)
 -   [**IKEEXT\_RESERVED\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_reserved_authentication0__)
 -   IKEEXT\_SA\_DETAILS:
-    -   [**IKEEXT\_SA\_DETAILS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_details0_) (Windows Vista)
-    -   [**IKEEXT\_SA\_DETAILS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_details1_) (Windows 7 and later)
--   [**IKEEXT\_SA\_ENUM\_TEMPLATE0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_enum_template0_)
+    -   [**IKEEXT\_SA\_DETAILS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_details0) (Windows Vista)
+    -   [**IKEEXT\_SA\_DETAILS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_details1) (Windows 7 and later)
+-   [**IKEEXT\_SA\_ENUM\_TEMPLATE0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_enum_template0)
 -   IKEEXT\_STATISTICS:
-    -   [**IKEEXT\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_statistics0_) (Windows Vista)
-    -   [**IKEEXT\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_statistics1_) (Windows 7 and later)
--   [**IKEEXT\_TRAFFIC0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_traffic0_)
+    -   [**IKEEXT\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_statistics0) (Windows Vista)
+    -   [**IKEEXT\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_statistics1) (Windows 7 and later)
+-   [**IKEEXT\_TRAFFIC0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_traffic0)
 
 IPsec Structures
 
