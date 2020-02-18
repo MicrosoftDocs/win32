@@ -9,7 +9,7 @@ keywords:
 - Scratchpad samples
 - Windows Touch,Real-time Stylus (RTS) object
 ms.topic: article
-ms.date: 10/28/2019
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Scratchpad using the Real-time Stylus Sample (C++)
@@ -177,9 +177,8 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
 }
 ```
 
-When the *m\_nContacts* value is incremented, it will change the color set in the dynamic renderer. Strokes that are not the primary contact will be drawn with different colors.
+When the *m_nContacts* value is incremented, it will change the color set in the dynamic renderer. Strokes that are not the primary contact will be drawn with different colors.
 
 ## Related topics
 
-- [MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)
-- [Windows Touch Samples](windows-touch-samples.md)
+[Multi-touch Scratchpad Application (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [Multi-touch Scratchpad Application (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [Windows Touch Samples](windows-touch-samples.md)

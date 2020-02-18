@@ -11,23 +11,22 @@ keywords:
 - gestures,sample code
 - gestures,code samples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Gestures in C# Sample (MTGesturesCS)
 
 This section describes the Windows Touch Gestures sample in C#.
 
-This Windows Touch Gestures sample demonstrates how to use gesture messages to translate, rotate, and scale a box rendered by the Graphics Device Interface (GDI) by handling the [**WM\_GESTURE**](wm-gesture.md) message. The following screen shot shows how the sample looks when it is running.
+This Windows Touch Gestures sample demonstrates how to use gesture messages to translate, rotate, and scale a box rendered by the Graphics Device Interface (GDI) by handling the [**WM_GESTURE**](wm-gesture.md) message. The following screen shot shows how the sample looks when it is running.
 
 ![screen shot showing the windows touch gestures in c sharp sample when it is running, with a black-outlined white rectangle centered on the screen](images/mtgesturescs.png)
 
 For this sample, gesture messages are passed to a gesture engine which then calls methods on drawing objects to translate, rotate, and scale an object that has methods for handling these commands. To make this possible in C#, a special form, TouchableForm, is created to handle gesture messages. This form then uses the messages to make changes on a drawing object, DrawingObject, to change how the object renders in the Paint method.
 
-To help show how the sample works, consider the steps for using the pan command to translate the rendered box. A user performs the pan gesture which generates a [**WM\_GESTURE**](wm-gesture.md) message with the gesture identifier GID\_PAN. The TouchableForm handles this messages and updates the position of the drawing object, and the object will then render itself translated.
+To help show how the sample works, consider the steps for using the pan command to translate the rendered box. A user performs the pan gesture which generates a [**WM_GESTURE**](wm-gesture.md) message with the gesture identifier GID_PAN. The TouchableForm handles this messages and updates the position of the drawing object, and the object will then render itself translated.
 
-The following code shows how the gesture handler retrieves parameters from the [**WM\_GESTURE**](wm-gesture.md) message and then performs translation on the rendered box through a call to the drawing object's move method.
-
+The following code shows how the gesture handler retrieves parameters from the [**WM_GESTURE**](wm-gesture.md) message and then performs translation on the rendered box through a call to the drawing object's move method.
 
 ```CSharp
             switch (gi.dwID)
@@ -65,10 +64,7 @@ The following code shows how the gesture handler retrieves parameters from the [
                     break;
 ```
 
-
-
 The following code shows how the drawing object's move method updates internal position variables.
-
 
 ```CSharp
         public void Move(int deltaX,int deltaY)
@@ -78,10 +74,7 @@ The following code shows how the drawing object's move method updates internal p
         }
 ```
 
-
-
 The following code shows how the position is used in the drawing object's paint method.
-
 
 ```CSharp
 public void Paint(Graphics graphics)
@@ -104,21 +97,8 @@ public void Paint(Graphics graphics)
         }
 ```
 
-
-
 Pan gestures will cause the drawn box to be rendered translated.
 
 ## Related topics
 
-<dl> <dt>
-
-[Windows Touch Samples](windows-touch-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+[Multi-touch Gestures Application (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [Multi-touch Gestures Application (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), [Windows Touch Samples](windows-touch-samples.md)
