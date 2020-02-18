@@ -104,7 +104,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/dg</strong> <em>Path</em></td>
-<td>Generates the to be signed digest and the unsigned PKCS7 files. The output digest and PKCS7 files will be: <em>Path</em>\<em>FileName.dig</em> and <em>Path</em>\<em>FileName.p7u</em>. To output an additional XML file, see <strong>/dxml</strong>.<br/></td>
+<td>Generates the base64-encoded digest to be signed and the unsigned PKCS7 files. The output digest and PKCS7 files will be: <em>Path</em>\<em>FileName.dig</em> and <em>Path</em>\<em>FileName.p7u</em>. To output an additional XML file, see <strong>/dxml</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/di</strong> <em>Path</em></td>
