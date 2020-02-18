@@ -27,7 +27,7 @@ The reader object can handle network authentication challenges, including digest
 
      
 
-As noted, in some cases the application must provide the user's credentials. This occurs through the **IWMCredentialCallback** interface, which has a single method, **AcquireCredentials**. To support authentication, implement this interface in your application. The reader object queries for this interface by calling **QueryInterface** on the [**IWMReaderCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback) pointer that it received from the application in the [**IWMReader::Open**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) method. If the reader object needs to get the user's credentials, it calls the application's **AcquireCredentials** method.
+As noted, in some cases the application must provide the user's credentials. This occurs through the **IWMCredentialCallback** interface, which has a single method, **AcquireCredentials**. To support authentication, implement this interface in your application. The reader object queries for this interface by calling **QueryInterface** on the [**IWMReaderCallback**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback) pointer that it received from the application in the [**IWMReader::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) method. If the reader object needs to get the user's credentials, it calls the application's **AcquireCredentials** method.
 
 If the credentials will be sent over the network without encryption, the reader sets the WMT\_CREDENTIAL\_CLEAR\_TEXT flag in the *pdwFlags* parameter. This gives the application an opportunity to warn the user that his or her credentials will be sent in plain text.
 
@@ -39,10 +39,10 @@ Generally, it is not necessary to encrypt the data, because the reader object en
 
 <dl> <dt>
 
-[**IWMCredentialCallback Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback)
+[**IWMCredentialCallback Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback)
 </dt> <dt>
 
-[**IWMReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
+[**IWMReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
 </dt> </dl>
 
  

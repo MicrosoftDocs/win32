@@ -82,10 +82,10 @@ case WMT_NO_RIGHTS_EX:
 [**Enabling DRM Support**](enabling-drm-support.md)
 </dt> <dt>
 
-[**IWMDRMReader**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader)
+[**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader)
 </dt> <dt>
 
-[**IWMDRMWriter**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter)
+[**IWMDRMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter)
 </dt> </dl>
 
  

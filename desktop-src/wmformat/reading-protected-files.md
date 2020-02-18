@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 Reading a DRM-protected file or network stream basically involves attempting to open the file (or connect to the stream) and then handling any events that might be sent from the DRM components.
 
-If a player is not DRM-enabled (does not link to a valid wmstubdrm.lib library) the [**IWMReader::Open**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) call fails when it tries to open a protected file and returns NS\_E\_PROTECTED\_CONTENT or some related error.
+If a player is not DRM-enabled (does not link to a valid wmstubdrm.lib library) the [**IWMReader::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) call fails when it tries to open a protected file and returns NS\_E\_PROTECTED\_CONTENT or some related error.
 
 When a DRM-enabled application attempts to open a DRM-protected file, the DRM component automatically searches the local system for a valid license. If one is found, the DRM component automatically decrypts the file in a way that is completely transparent to the application. The action that an application may perform on the decrypted file depends on the rights specified in the license. For a full description of possible rights, see the Windows Media Rights Manager SDK documentation.
 

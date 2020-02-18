@@ -54,9 +54,9 @@ Certain links on a discovery page have targets that should be displayed only aft
 
 1.  Script on a discovery page calls the *External*.**authenticate** method.
 2.  Windows Media Player displays a dialog box to obtain a user name and password.
-3.  Windows Media Player calls [IWMPContentPartner::Authenticate](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-authenticate), which initiates the authentication attempt and returns immediately.
-4.  When the authentication attempt is complete, the online store's plug-in calls [IWMPContentPartnerCallback::Notify](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify), passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.
-5.  If the authentication attempt was successful, Windows Media Player calls [IWMPContentPartner::GetItemInfo](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo), passing g\_szItemInfo\_AuthenticationSuccessURL, to obtain the URL of an authentication-success webpage. In this call, Windows Media Player passes the same index that the discovery page passed to the *External*.**authenticate** method.
+3.  Windows Media Player calls [IWMPContentPartner::Authenticate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-authenticate), which initiates the authentication attempt and returns immediately.
+4.  When the authentication attempt is complete, the online store's plug-in calls [IWMPContentPartnerCallback::Notify](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify), passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.
+5.  If the authentication attempt was successful, Windows Media Player calls [IWMPContentPartner::GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo), passing g\_szItemInfo\_AuthenticationSuccessURL, to obtain the URL of an authentication-success webpage. In this call, Windows Media Player passes the same index that the discovery page passed to the *External*.**authenticate** method.
 6.  Windows Media Player displays the authentication-success webpage.
 
 ## Requirements

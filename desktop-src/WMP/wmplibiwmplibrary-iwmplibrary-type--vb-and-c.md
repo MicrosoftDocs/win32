@@ -65,7 +65,7 @@ A **WMPLib.WMPLibraryType** that is a value from the **WMPLibraryType** enumerat
 [**IWMPLibrary.name (VB and C#)**](wmplibiwmplibrary-iwmplibrary-name--vb-and-c.md)
 </dt> <dt>
 
-[**WMPLibraryType**](/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
+[**WMPLibraryType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
 </dt> </dl>
 
  

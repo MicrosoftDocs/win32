@@ -35,7 +35,7 @@ In the code example that follows, the following dialog controls are defined:
 
  
 
-You can monitor the progress of the burning operation by periodically calling [IWMPCdromBurn::get\_burnProgress](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnprogress) while the CD is being burned. This method retrieves a progress value for the entire burning operation. The value retrieved is a number that represents the percentage of burning completed, from 0 to 100.
+You can monitor the progress of the burning operation by periodically calling [IWMPCdromBurn::get\_burnProgress](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnprogress) while the CD is being burned. This method retrieves a progress value for the entire burning operation. The value retrieved is a number that represents the percentage of burning completed, from 0 to 100.
 
 
 ```C++
@@ -54,7 +54,7 @@ if (SUCCEEDED(hr))
 
 
 
-You can get the current state of the burning operation by calling [IWMPCdromBurn::get\_burnState](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate). This method retrieves an enumeration specifying the current operation being performed.
+You can get the current state of the burning operation by calling [IWMPCdromBurn::get\_burnState](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate). This method retrieves an enumeration specifying the current operation being performed.
 
 
 ```C++
@@ -108,7 +108,7 @@ if (SUCCEEDED(hr))
 
 
 
-To retrieve the number of seconds of audio the CD can hold, call [IWMPCdromBurn::getItemInfo](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-getiteminfo) with "AvailableTime" as the first parameter. The value retrieved by this function is represented by a string.
+To retrieve the number of seconds of audio the CD can hold, call [IWMPCdromBurn::getItemInfo](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-getiteminfo) with "AvailableTime" as the first parameter. The value retrieved by this function is represented by a string.
 
 
 ```C++

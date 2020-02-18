@@ -47,7 +47,7 @@ To create an empty project
 [**Creating a User Interface Plug-in for Windows Media Player 10 Mobile**](creating-a-user-interface-plug-in-for-windows-media-player-10-mobile.md)
 </dt> <dt>
 
-[**IWMPEvents Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpevents)
+[**IWMPEvents Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents)
 </dt> </dl>
 
  

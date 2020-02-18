@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 The catalog compiler (catcomp.exe) is a command-line tool used by Type 1 online stores to compile the set of tab-separated-value (TSV) files containing the online store's catalog data into a compressed catalog that can be downloaded by Windows Media Player. The catalog compiler also compiles catalog update files containing only the catalog information that has changed since the last catalog update.
 
-The compressed catalog files or catalog update files should be provided to Windows Media Player for download in the online store plug-in's implementation of [IWMPContentPartner::GetCatalogURL](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl).
+The compressed catalog files or catalog update files should be provided to Windows Media Player for download in the online store plug-in's implementation of [IWMPContentPartner::GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl).
 
 Common Tasks
 

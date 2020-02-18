@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns the value of [**CBaseFilter::m\_State**](cbasefilter-m-state.md). The value is a member of the [**FILTER\_STATE**](/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state) enumerated type.
+Returns the value of [**CBaseFilter::m\_State**](cbasefilter-m-state.md). The value is a member of the [**FILTER\_STATE**](/windows/win32/api/strmif/ne-strmif-filter_state) enumerated type.
 
 ## Remarks
 

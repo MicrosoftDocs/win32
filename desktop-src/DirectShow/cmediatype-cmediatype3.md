@@ -41,7 +41,7 @@ CMediaType(
 *mtype* \[ref\]
 </dt> <dd>
 
-Reference to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. The constructor copies the media type to the new object, including the format block, if any.
+Reference to an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure. The constructor copies the media type to the new object, including the format block, if any.
 
 </dd> <dt>
 

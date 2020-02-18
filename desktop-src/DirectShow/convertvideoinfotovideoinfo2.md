@@ -40,7 +40,7 @@ HRESULT STDAPI ConvertVideoInfoToVideoInfo2(
 *pmt* 
 </dt> <dd>
 
-Pointer to the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure to convert. The structure must have format type FORMAT\_VideoInfo.
+Pointer to the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure to convert. The structure must have format type FORMAT\_VideoInfo.
 
 </dd> </dl>
 

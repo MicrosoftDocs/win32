@@ -46,13 +46,13 @@ The following topics discuss the other supported metadata features.
 [**Features**](features.md)
 </dt> <dt>
 
-[**IWMHeaderInfo Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)
+[**IWMHeaderInfo Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)
 </dt> <dt>
 
-[**IWMHeaderInfo2 Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)
+[**IWMHeaderInfo2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)
 </dt> <dt>
 
-[**IWMHeaderInfo3 Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)
+[**IWMHeaderInfo3 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)
 </dt> <dt>
 
 [**Metadata**](metadata.md)

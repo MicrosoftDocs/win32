@@ -28,7 +28,7 @@ g\_wszWMDRM\_IsDRMCached
 
 ## Remarks
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). It is **TRUE** when the license acquisition URL matches one of two know URLs used for local license acquisition in DRM version 1.
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). It is **TRUE** when the license acquisition URL matches one of two know URLs used for local license acquisition in DRM version 1.
 
 ## See also
 

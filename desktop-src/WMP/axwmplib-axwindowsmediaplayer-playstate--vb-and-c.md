@@ -107,7 +107,7 @@ End If
 [**AxWindowsMediaPlayer.PlayStateChange Event (VB and C#)**](axwmplib-axwindowsmediaplayer-playstatechange.md)
 </dt> <dt>
 
-[**WMPPlayState**](/windows/desktop/api/wmp/ne-wmp-wmpplaystate)
+[**WMPPlayState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate)
 </dt> </dl>
 
  

@@ -80,10 +80,10 @@ void CSyncSettings::SetPriorities()
 
 <dl> <dt>
 
-[**IWMPMedia Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
+[**IWMPMedia Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
 </dt> <dt>
 
-[**IWMPPlaylist Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpplaylist)
+[**IWMPPlaylist Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylist)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

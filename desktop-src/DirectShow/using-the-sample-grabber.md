@@ -266,7 +266,7 @@ In buffering mode, the Sample Grabber stores a copy of every sample. The [**ISam
 
 
 
-You will need to know the exact format of the data in the buffer. To get this information, call the [**ISampleGrabber::GetConnectedMediaType**](isamplegrabber-getconnectedmediatype.md) method. This method fills in an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure with the format.
+You will need to know the exact format of the data in the buffer. To get this information, call the [**ISampleGrabber::GetConnectedMediaType**](isamplegrabber-getconnectedmediatype.md) method. This method fills in an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure with the format.
 
 For an uncompressed video stream, the format information is contained in a [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) structure. The following example shows how to get the format information for an uncompressed video stream.
 

@@ -85,7 +85,7 @@ This method does not return a value.
 [**External.buy**](external-buy.md)
 </dt> <dt>
 
-[**IWMPContentPartner::Download**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download)
+[**IWMPContentPartner::Download**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download)
 </dt> </dl>
 
  

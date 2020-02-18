@@ -15,7 +15,7 @@ A parameter curve consists of one or more envelope segments, defined using the [
 -   The curve type (linear, square, and so forth).
 -   Optional flags, described shortly.
 
-The client adds envelope segments to a parameter by calling the [**IMediaParams::AddEnvelope**](/windows/desktop/api/Medparam/nf-medparam-imediaparams-addenvelope) method and passing in an array of **MP\_ENVELOPE\_SEGMENT** structures. The client should sort the segments into ascending time order before calling the method. As the DMO processes data, you can imagine the parameter traveling over each envelope segment, like a car driving over a series of hills. The [**IMediaParams::GetParam**](/windows/desktop/api/Medparam/nf-medparam-imediaparams-getparam) method returns the most recent value.
+The client adds envelope segments to a parameter by calling the [**IMediaParams::AddEnvelope**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparams-addenvelope) method and passing in an array of **MP\_ENVELOPE\_SEGMENT** structures. The client should sort the segments into ascending time order before calling the method. As the DMO processes data, you can imagine the parameter traveling over each envelope segment, like a car driving over a series of hills. The [**IMediaParams::GetParam**](/previous-versions/windows/desktop/api/Medparam/nf-medparam-imediaparams-getparam) method returns the most recent value.
 
 Two adjacent segments can have a gap between them. During gaps, the parameter retains its previous value, as follows:
 

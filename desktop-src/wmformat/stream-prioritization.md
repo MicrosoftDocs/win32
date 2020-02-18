@@ -27,19 +27,19 @@ Stream prioritization is configured with a stream prioritization object and adde
 [**ASF File Features**](asf-file-features.md)
 </dt> <dt>
 
-[**IWMProfile3::CreateNewStreamPrioritization**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewstreamprioritization)
+[**IWMProfile3::CreateNewStreamPrioritization**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewstreamprioritization)
 </dt> <dt>
 
-[**IWMProfile3::GetStreamPrioritization**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization)
+[**IWMProfile3::GetStreamPrioritization**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization)
 </dt> <dt>
 
-[**IWMProfile3::RemoveStreamPrioritization**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization)
+[**IWMProfile3::RemoveStreamPrioritization**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization)
 </dt> <dt>
 
-[**IWMProfile3::SetStreamPrioritization**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-setstreamprioritization)
+[**IWMProfile3::SetStreamPrioritization**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-setstreamprioritization)
 </dt> <dt>
 
-[**IWMStreamPrioritization Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization)
+[**IWMStreamPrioritization Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization)
 </dt> <dt>
 
 [**Using Stream Prioritization**](using-stream-prioritization.md)

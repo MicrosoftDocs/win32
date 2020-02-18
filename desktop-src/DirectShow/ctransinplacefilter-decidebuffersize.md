@@ -48,7 +48,7 @@ Pointer to the [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemall
 *pProperties* 
 </dt> <dd>
 
-Pointer to the requested allocator properties for count, size, and alignment, as specified by the [**ALLOCATOR\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure.
+Pointer to the requested allocator properties for count, size, and alignment, as specified by the [**ALLOCATOR\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-allocator_properties) structure.
 
 </dd> </dl>
 

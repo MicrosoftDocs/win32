@@ -84,7 +84,7 @@ If the value of the **ToNode** field is KSFILTER\_NODE, this field specifies the
 [DirectShow Structures](directshow-structures.md)
 </dt> <dt>
 
-[**IKsTopologyInfo::get\_ConnectionInfo**](/windows/desktop/api/Vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo)
+[**IKsTopologyInfo::get\_ConnectionInfo**](/previous-versions/windows/desktop/api/Vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo)
 </dt> </dl>
 
  

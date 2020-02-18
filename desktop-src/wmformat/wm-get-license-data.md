@@ -84,7 +84,7 @@ Pointer to a byte array containing the data to be posted to the license acquisit
 
 ## Remarks
 
-This filled-in structure is returned in the *pValue* parameter of the [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method if **WMT\_STATUS** equals **WMT\_NO\_RIGHTS\_EX** or **WMT\_ACQUIRE\_LICENSE**. For WMT\_NO\_RIGHTS\_EX events, the **hr** member will be NS\_E\_LICENSE\_REQUIRED, NS\_E\_LICENSE\_OUTOFDATE, or NS\_E\_LICENSE\_INCORRECT\_RIGHTS. Any of these errors indicates that a new license must be acquired by navigating to the URL in the **wszURL** member.
+This filled-in structure is returned in the *pValue* parameter of the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) method if **WMT\_STATUS** equals **WMT\_NO\_RIGHTS\_EX** or **WMT\_ACQUIRE\_LICENSE**. For WMT\_NO\_RIGHTS\_EX events, the **hr** member will be NS\_E\_LICENSE\_REQUIRED, NS\_E\_LICENSE\_OUTOFDATE, or NS\_E\_LICENSE\_INCORRECT\_RIGHTS. Any of these errors indicates that a new license must be acquired by navigating to the URL in the **wszURL** member.
 
 For WMT\_ACQUIRE\_LICENSE events, the **hr** member will pass the SUCCEEDED macro if a license was successfully acquired. If this event is received after an attempt at silent acquisition, and **hr** equals NS\_E\_DRM\_LICENSE\_NOTACQUIRED, it indicates that only non-silent acquisition is supported by the license server for this license.
 
@@ -107,7 +107,7 @@ The Audioplayer sample application demonstrates how to correctly use the informa
 
 <dl> <dt>
 
-[**IWMDRMReader::AcquireLicense**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense)
+[**IWMDRMReader::AcquireLicense**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense)
 </dt> <dt>
 
 [**Structures**](structures.md)

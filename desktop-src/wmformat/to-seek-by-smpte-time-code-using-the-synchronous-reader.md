@@ -25,8 +25,8 @@ SMPTE time codes are defined by a range and a time code within that range. A ran
 
 To seek data in an ASF file by SMPTE time code using the synchronous reader, perform the following steps.
 
-1.  Set the starting time code and ending time code for sample delivery by calling [**IWMSyncReader::SetRangeByFrame**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe). You must specify the stream number of a video stream indexed by time code. The synchronous reader will synchronize the rest of the outputs to the presentation time of the specified frame of the specified stream.
-2.  Begin retrieving samples with calls to [**IWMSyncReader::GetNextSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample). Proceed as you normally would with the synchronous reader.
+1.  Set the starting time code and ending time code for sample delivery by calling [**IWMSyncReader::SetRangeByFrame**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe). You must specify the stream number of a video stream indexed by time code. The synchronous reader will synchronize the rest of the outputs to the presentation time of the specified frame of the specified stream.
+2.  Begin retrieving samples with calls to [**IWMSyncReader::GetNextSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample). Proceed as you normally would with the synchronous reader.
 
 ## Related topics
 

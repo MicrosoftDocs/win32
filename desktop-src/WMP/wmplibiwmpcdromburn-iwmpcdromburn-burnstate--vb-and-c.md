@@ -65,7 +65,7 @@ A **WMPLib.WMPBurnState** that is a value from the **WMPBurnState** enumeration 
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnState**](/windows/desktop/api/wmp/ne-wmp-wmpburnstate)
+[**WMPBurnState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnstate)
 </dt> </dl>
 
  

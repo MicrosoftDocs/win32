@@ -22,7 +22,7 @@ The QuickTime Movie Parser filter splits Apple® QuickTime® data into audio and
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td><a href="/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent"><strong>IAMMediaContent</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>

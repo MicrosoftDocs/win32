@@ -28,7 +28,7 @@ g\_wszWMProtected
 
 ## Remarks
 
-This is a coded attribute. Retrieving this property provides the same information as calling [**WMIsContentProtected**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected).
+This is a coded attribute. Retrieving this property provides the same information as calling [**WMIsContentProtected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected).
 
 This attribute cannot be duplicated at the file level. If this attribute is used for an individual stream, it will be treated as custom metadata and will not convey its normal meaning to the objects of the Windows Media Format SDK.
 

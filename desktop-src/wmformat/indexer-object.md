@@ -19,7 +19,7 @@ The indexer object creates an index in an ASF file. An index is a standard part 
 
 Indexes created by this object are only necessary if the file contains one or more video streams. This is because audio data is not temporally compressed, making it easy to find a given time in an audio stream.
 
-The indexer object is created by the [**WMCreateIndexer**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer) function, which sets a pointer to an **IWMIndexer** interface. The other interfaces of the indexer object can be obtained by calling the **QueryInterface** method.
+The indexer object is created by the [**WMCreateIndexer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer) function, which sets a pointer to an **IWMIndexer** interface. The other interfaces of the indexer object can be obtained by calling the **QueryInterface** method.
 
 The following interfaces are supported by the indexer object.
 
@@ -27,8 +27,8 @@ The following interfaces are supported by the indexer object.
 
 | Interface                          | Description                                                                         |
 |------------------------------------|-------------------------------------------------------------------------------------|
-| [**IWMIndexer**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer)   | Starts and stops the indexing process.                                              |
-| [**IWMIndexer2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2) | Configures the indexer, enabling indexing by frame, by time, or by SMPTE time code. |
+| [**IWMIndexer**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer)   | Starts and stops the indexing process.                                              |
+| [**IWMIndexer2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2) | Configures the indexer, enabling indexing by frame, by time, or by SMPTE time code. |
 
 
 
@@ -40,7 +40,7 @@ The following callback interface must be implemented by the application in order
 
 | Interface                                      | Description                                                                |
 |------------------------------------------------|----------------------------------------------------------------------------|
-| [**IWMStatusCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Receives status messages from processes that execute in a separate thread. |
+| [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) | Receives status messages from processes that execute in a separate thread. |
 
 
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Starting the Burn Process
 
-Before burning can begin, you must assign a playlist to be burned. Use [IWMPCdromBurn::put\_burnPlaylist](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist) to specify a playlist for burning.
+Before burning can begin, you must assign a playlist to be burned. Use [IWMPCdromBurn::put\_burnPlaylist](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist) to specify a playlist for burning.
 
 
 ```C++
@@ -40,9 +40,9 @@ HRESULT CMainDlg::PutPlaylist (void)
 
 
 
-For information about using playlists, see [IWMPPlaylist](/windows/desktop/api/wmp/nn-wmp-iwmpplaylist).
+For information about using playlists, see [IWMPPlaylist](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylist).
 
-To start the burning operation, call [IWMPCdromBurn::startBurn](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-startburn).
+To start the burning operation, call [IWMPCdromBurn::startBurn](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-startburn).
 
 
 ```C++
@@ -53,7 +53,7 @@ hr = m_spCdromBurn->startBurn();
 
 
 
-You can stop the burning operation by calling [IWMPCdromBurn::stopBurn](/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-stopburn).
+You can stop the burning operation by calling [IWMPCdromBurn::stopBurn](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-stopburn).
 
 
 ```C++

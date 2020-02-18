@@ -25,7 +25,7 @@ Only the Windows Media Video 9 codec supports frame interpolation.
 [**Codec Features**](codec-features.md)
 </dt> <dt>
 
-[**IWMReaderAdvanced2::SetOutputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting)
+[**IWMReaderAdvanced2::SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting)
 </dt> <dt>
 
 [**Output Settings**](output-settings.md)

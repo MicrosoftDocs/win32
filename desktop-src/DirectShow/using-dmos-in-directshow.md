@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Using DMOs in DirectShow
 
-Applications based on DirectShow can use DMOs in a filter graph, through the [DMO Wrapper](dmo-wrapper-filter.md) filter. This filter aggregates a DMO and handles all the details of using the DMO, such as passing data to and from the DMO, allocating [**IMediaBuffer**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) objects, and so forth.
+Applications based on DirectShow can use DMOs in a filter graph, through the [DMO Wrapper](dmo-wrapper-filter.md) filter. This filter aggregates a DMO and handles all the details of using the DMO, such as passing data to and from the DMO, allocating [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) objects, and so forth.
 
 Because the DMO is aggregated by the filter, the application can query the filter for any COM interfaces that the DMO exposes. However, the application should let the filter handle all streaming operations on the DMO. For example, do not set media types, process any buffers, flush the DMO, lock the DMO, enable or disable quality control, or set video optimizations.
 
 If you know the class identifier (CLSID) of a specific DMO that you want to use, you can initialize the DMO Wrapper filter with that DMO, as follows:
 
 1.  Call **CoCreateInstance** to create the DMO Wrapper filter.
-2.  Query the DMO Wrapper filter for the [**IDMOWrapperFilter**](/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter) interface.
-3.  Call the [**IDMOWrapperFilter::Init**](/windows/desktop/api/Dmodshow/nf-dmodshow-idmowrapperfilter-init) method. Specify the CLSID of the DMO and the GUID of the DMO's category. For a list of DMO categories, see [DMO GUIDs](dmo-guids.md).
+2.  Query the DMO Wrapper filter for the [**IDMOWrapperFilter**](/previous-versions/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter) interface.
+3.  Call the [**IDMOWrapperFilter::Init**](/previous-versions/windows/desktop/api/Dmodshow/nf-dmodshow-idmowrapperfilter-init) method. Specify the CLSID of the DMO and the GUID of the DMO's category. For a list of DMO categories, see [DMO GUIDs](dmo-guids.md).
 
 The following code shows these steps:
 
@@ -53,7 +53,7 @@ if (SUCCEEDED(hr))
 
 
 
-The [**DMOEnum**](/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) function enumerates DMOs in the registry. This function uses a different set of category GUIDs from the ones used for DirectShow filters.
+The [**DMOEnum**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) function enumerates DMOs in the registry. This function uses a different set of category GUIDs from the ones used for DirectShow filters.
 
 **Using the System Device Enumerator with DMOs**
 

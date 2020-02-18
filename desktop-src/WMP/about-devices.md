@@ -20,9 +20,9 @@ ms.date: 05/31/2018
 
 Portable devices are hardware devices that users carry to enjoy digital media content when they are away from their computer. Typically, portable devices are battery operated. Some devices can play music only. Other devices can play video and music.
 
-Some devices support automatic synchronization of digital media content with Windows Media Player. Other devices support only manual transfer. You can determine whether a particular device supports automatic synchronization by calling [IWMPSyncDevice::get\_status](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status) and then inspecting the [WMPDeviceStatus](/windows/desktop/api/wmp/ne-wmp-wmpdevicestatus) value retrieved. If the retrieved value is **wmpdsManualDevice**, the device does not support automatic synchronization.
+Some devices support automatic synchronization of digital media content with Windows Media Player. Other devices support only manual transfer. You can determine whether a particular device supports automatic synchronization by calling [IWMPSyncDevice::get\_status](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status) and then inspecting the [WMPDeviceStatus](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpdevicestatus) value retrieved. If the retrieved value is **wmpdsManualDevice**, the device does not support automatic synchronization.
 
-You can enumerate the devices connected to the user's computer. To do this, first use [IWMPSyncServices::get\_deviceCount](/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-get_devicecount) to retrieve the count of devices. Then, in a loop, call [IWMPSyncServices::getDevice](/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-getdevice), passing the appropriate index value each time. You can use [IWMPSyncDevice::get\_connected](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_connected) to evaluate whether a particular device is currently connected.
+You can enumerate the devices connected to the user's computer. To do this, first use [IWMPSyncServices::get\_deviceCount](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-get_devicecount) to retrieve the count of devices. Then, in a loop, call [IWMPSyncServices::getDevice](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-getdevice), passing the appropriate index value each time. You can use [IWMPSyncDevice::get\_connected](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_connected) to evaluate whether a particular device is currently connected.
 
 To know when devices connect or disconnect, you can receive the **DeviceConnect** and **DeviceDisconnect** events. These events are received through the **IWMPEvents2** interface.
 
@@ -39,10 +39,10 @@ The **IWMPSyncDevice** interface provides additional methods to enable you to ge
 [**About Device Synchronization**](about-device-synchronization.md)
 </dt> <dt>
 
-[**IWMPEvents2 Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpevents2)
+[**IWMPEvents2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents2)
 </dt> <dt>
 
-[**IWMPSyncDevice Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
+[**IWMPSyncDevice Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

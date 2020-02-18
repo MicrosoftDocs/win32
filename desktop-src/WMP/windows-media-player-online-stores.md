@@ -141,10 +141,10 @@ Windows Media Player 10 has up to three service task panes. Windows Media Player
 <td>Yes</td>
 </tr>
 <tr class="odd">
-<td>Provide a plug-in that implements <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice"><strong>IWMPSubscriptionService</strong></a>.
+<td>Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice"><strong>IWMPSubscriptionService</strong></a>.
 <blockquote>
 [!Note]<br />
-In Windows Media Player 10 and later, this plug-in can also implement <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2"><strong>IWMPSubscriptionService2</strong></a>.
+In Windows Media Player 10 and later, this plug-in can also implement <a href="/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2"><strong>IWMPSubscriptionService2</strong></a>.
 </blockquote>
 <br/></td>
 <td>No</td>
@@ -164,7 +164,7 @@ In Windows Media Player 10 and later, this plug-in can also implement <a href="/
 <td>Yes</td>
 </tr>
 <tr class="even">
-<td>Provide a plug-in that implements <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner"><strong>IWMPContentPartner</strong></a>.</td>
+<td>Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner"><strong>IWMPContentPartner</strong></a>.</td>
 <td>No</td>
 <td>No</td>
 <td>Yes</td>

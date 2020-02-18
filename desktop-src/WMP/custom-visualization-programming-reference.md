@@ -21,8 +21,8 @@ The Custom Visualization Reference documents the following items.
 
 | Item                                                                                                 | Description                                                                                      |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [IWMPEffects Interface](/windows/desktop/api/effects/nn-effects-iwmpeffects)                                                             | An interface to custom visualizations.                                                           |
-| [IWMPEffects2 Interface](/windows/desktop/api/effects/nn-effects-iwmpeffects2)                                                           | An interface that extends **IWMPEffects**, allowing greater control over visualization behavior. |
+| [IWMPEffects Interface](/previous-versions/windows/desktop/api/effects/nn-effects-iwmpeffects)                                                             | An interface to custom visualizations.                                                           |
+| [IWMPEffects2 Interface](/previous-versions/previous-versions/windows/desktop/api/effects/nn-effects-iwmpeffects2)                                                           | An interface that extends **IWMPEffects**, allowing greater control over visualization behavior. |
 | [Visualization Structures and Enumeration Types](visualization-structures-and-enumeration-types.md) | Data types for use in manipulating custom visualizations.                                        |
 
 

@@ -116,25 +116,25 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
 
 
 
-You might use similar code to retrieve other such device lists. For example, you could use [IWMPSyncDevice::get\_status](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status) to create an array of devices for which a partnership exists.
+You might use similar code to retrieve other such device lists. For example, you could use [IWMPSyncDevice::get\_status](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status) to create an array of devices for which a partnership exists.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMPEvents2::DeviceConnect**](/windows/desktop/api/wmp/nf-wmp-iwmpevents2-deviceconnect)
+[**IWMPEvents2::DeviceConnect**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-deviceconnect)
 </dt> <dt>
 
-[**IWMPEvents2::DeviceDisconnect**](/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicedisconnect)
+[**IWMPEvents2::DeviceDisconnect**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicedisconnect)
 </dt> <dt>
 
-[**IWMPSyncDevice Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
+[**IWMPSyncDevice Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_connected**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_connected)
+[**IWMPSyncDevice::get\_connected**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_connected)
 </dt> <dt>
 
-[**IWMPSyncServices Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices)
+[**IWMPSyncServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

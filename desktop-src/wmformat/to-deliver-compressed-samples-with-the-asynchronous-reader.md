@@ -24,9 +24,9 @@ The Windows Media Format SDK does not provide any methods for decoding data afte
 
 To receive compressed samples with the asynchronous reader, perform the following steps.
 
-1.  Implement the [**IWMReaderCallbackAdvanced::OnStreamSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample) callback. This callback is basically identical in function to [**IWMReaderCallback::OnSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample) except that it delivers samples by stream number and the samples are still compressed.
-2.  Before starting playback, obtain a pointer to the [**IWMReaderAdvanced**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) interface of the reader object by calling **IWMReader::QueryInterface**.
-3.  Configure the reader to deliver compressed samples for the desired stream by calling [**IWMReaderAdvanced::SetReceiveStreamSamples**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples).
+1.  Implement the [**IWMReaderCallbackAdvanced::OnStreamSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample) callback. This callback is basically identical in function to [**IWMReaderCallback::OnSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample) except that it delivers samples by stream number and the samples are still compressed.
+2.  Before starting playback, obtain a pointer to the [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) interface of the reader object by calling **IWMReader::QueryInterface**.
+3.  Configure the reader to deliver compressed samples for the desired stream by calling [**IWMReaderAdvanced::SetReceiveStreamSamples**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples).
 4.  Repeat step 3 for each stream for which compressed sample delivery is desired.
 
 > [!Note]  
@@ -38,7 +38,7 @@ To receive compressed samples with the asynchronous reader, perform the followin
 
 <dl> <dt>
 
-[**IWMReaderCallbackAdvanced Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced)
+[**IWMReaderCallbackAdvanced Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced)
 </dt> <dt>
 
 [**Reading Files with the Asynchronous Reader**](reading-files-with-the-asynchronous-reader.md)

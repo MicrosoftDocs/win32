@@ -94,7 +94,7 @@ There is only one local library, and disc libraries are available only on data C
 [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)
 </dt> <dt>
 
-[**WMPLibraryType**](/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
+[**WMPLibraryType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
 </dt> </dl>
 
  

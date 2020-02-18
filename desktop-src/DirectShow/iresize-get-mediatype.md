@@ -43,7 +43,7 @@ HRESULT get_MediaType(
 *pmt* \[out\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure allocated by the caller. The method fills this structure with the media type. The caller must release the format block, if any.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure allocated by the caller. The method fills this structure with the media type. The caller must release the format block, if any.
 
 </dd> </dl>
 

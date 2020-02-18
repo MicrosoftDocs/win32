@@ -32,7 +32,7 @@ When receiving uncompressed stream samples from either reader object, you must u
 
 You also need to access stream information when using smart recompression to transcode an audio stream to a lower bit rate.
 
-You may want to determine whether a stream was written using variable bit rate (VBR) encoding. You cannot access any VBR information from the **IWMProfile** interface of either reader object. This is because the VBR information is not stored in the file after encoding. You can determine whether a stream was created using VBR encoding by obtaining a pointer to the [**IWMHeaderInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) interface of the reader object and calling [**IWMHeaderInfo::GetAttributeByName**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname). You must specify the stream number and pass g\_wszIsVBR as the attribute name.
+You may want to determine whether a stream was written using variable bit rate (VBR) encoding. You cannot access any VBR information from the **IWMProfile** interface of either reader object. This is because the VBR information is not stored in the file after encoding. You can determine whether a stream was created using VBR encoding by obtaining a pointer to the [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) interface of the reader object and calling [**IWMHeaderInfo::GetAttributeByName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname). You must specify the stream number and pass g\_wszIsVBR as the attribute name.
 
 ## Mutual Exclusion Information
 
@@ -43,7 +43,7 @@ If you want to create a reading application that uses mutual exclusion, you will
 Bandwidth sharing objects that are included in a profile are included only for informational purposes. Neither the writer object nor either of the reader objects takes any action as a result of bandwidth sharing data. If you want to use bandwidth sharing in your reading application, you must access the bandwidth sharing information from the profile data.
 
 > [!Note]  
-> Not all of the information from the profile used to create a file is present in the file header. As a general rule, data that is used only at the time of encoding is not persisted in the file. This includes input settings that were set using the [**IWMWriterAdvanced2::SetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) method, as well as properties set using the [**IWMPropertyVault::SetProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) method.
+> Not all of the information from the profile used to create a file is present in the file header. As a general rule, data that is used only at the time of encoding is not persisted in the file. This includes input settings that were set using the [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) method, as well as properties set using the [**IWMPropertyVault::SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) method.
 
  
 

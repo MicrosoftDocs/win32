@@ -19,7 +19,7 @@ api_location:
 
 # IWMPEvents4::SyncEstimationComplete method
 
-The **SyncEstimationComplete** event occurs when a size estimation, previously initiated by [**IWMPSyncDevice3::estimateSyncSize**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize), is complete.
+The **SyncEstimationComplete** event occurs when a size estimation, previously initiated by [**IWMPSyncDevice3::estimateSyncSize**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize), is complete.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ void SyncEstimationComplete(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to the [**IWMPSyncDevice**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice) interface that represents the device for which the size estimation was initiated.
+Pointer to the [**IWMPSyncDevice**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice) interface that represents the device for which the size estimation was initiated.
 
 </dd> <dt>
 
@@ -86,10 +86,10 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IWMPEvents4 Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
+[**IWMPEvents4 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
 </dt> <dt>
 
-[**IWMPSyncDevice3::estimateSyncSize**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize)
+[**IWMPSyncDevice3::estimateSyncSize**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing IMediaBuffer
 
-In the default DMO streaming model, buffers are managed through the [**IMediaBuffer**](/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) interface. The client of the DMO is responsible for implementing an object that exposes this interface. The **IMediaBuffer** interface has three methods:
+In the default DMO streaming model, buffers are managed through the [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) interface. The client of the DMO is responsible for implementing an object that exposes this interface. The **IMediaBuffer** interface has three methods:
 
 -   **GetBufferAndLength** returns the address of the buffer (that is, the actual block of memory that holds the data) and the size of any valid data in the buffer.
 -   **GetMaxLength** returns the size of the buffer.

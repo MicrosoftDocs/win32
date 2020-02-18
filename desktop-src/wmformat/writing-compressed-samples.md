@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Writing Compressed Samples
 
-For some audio or video streams, you may want to pass samples that are already compressed instead of passing raw data. This feature is used to copy an existing stream or to write samples compressed with a third-party codec. The process of writing a compressed sample is identical to writing an uncompressed sample, except that you use [**IWMWriterAdvanced::WriteStreamSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample) instead of [**IWMWriter::WriteSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample). For more information about writing uncompressed samples, see [To Write Samples](to-write-samples.md).
+For some audio or video streams, you may want to pass samples that are already compressed instead of passing raw data. This feature is used to copy an existing stream or to write samples compressed with a third-party codec. The process of writing a compressed sample is identical to writing an uncompressed sample, except that you use [**IWMWriterAdvanced::WriteStreamSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample) instead of [**IWMWriter::WriteSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample). For more information about writing uncompressed samples, see [To Write Samples](to-write-samples.md).
 
 When you write compressed samples, for CBR profiles, the writer will drop some samples, if necessary, to keep the content within the specified bit rate and buffer window values. For VBR, the writer will not drop samples, but there is no way to be sure that the bit rate and buffer window values will be correct.
 

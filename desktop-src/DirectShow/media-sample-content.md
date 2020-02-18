@@ -17,7 +17,7 @@ api_location:
 
 # MEDIA\_SAMPLE\_CONTENT enumeration
 
-Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the [**IMPEG2PIDMap**](/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap) interface, which is implemented on the output pins of the [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md).
+Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the [**IMPEG2PIDMap**](/previous-versions/windows/desktop/api/Bdaiface/nn-bdaiface-impeg2pidmap) interface, which is implemented on the output pins of the [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md).
 
 ## Syntax
 

@@ -41,7 +41,7 @@ void NotifyFilterState(
 *new\_state* 
 </dt> <dd>
 
-Specifies the new state, as a member of the [**FILTER\_STATE**](/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration.
+Specifies the new state, as a member of the [**FILTER\_STATE**](/windows/win32/api/strmif/ne-strmif-filter_state) enumeration.
 
 </dd> <dt>
 

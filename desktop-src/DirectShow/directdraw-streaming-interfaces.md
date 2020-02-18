@@ -19,8 +19,8 @@ If you use DirectDraw-supported video formats in your streams, the following int
 
 | Interface                                                  | Description                                                                                                                                                                                                                 |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDirectDrawMediaStream**](/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream)   | Sets and retrieves the stream format and the DirectDraw object associated with the media stream; this interface derives from [**IMediaStream**](/windows/desktop/api/mmstream/nn-mmstream-imediastream). You can also use this interface to create video samples. |
-| [**IDirectDrawStreamSample**](/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample) | Enables you to attach video samples to DirectDraw surfaces; this interface derives from the [**IStreamSample**](/windows/desktop/api/mmstream/nn-mmstream-istreamsample) interface. Each attached surface includes a clipping rectangle to make rendering easier. |
+| [**IDirectDrawMediaStream**](/previous-versions/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream)   | Sets and retrieves the stream format and the DirectDraw object associated with the media stream; this interface derives from [**IMediaStream**](/previous-versions/windows/desktop/api/mmstream/nn-mmstream-imediastream). You can also use this interface to create video samples. |
+| [**IDirectDrawStreamSample**](/previous-versions/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample) | Enables you to attach video samples to DirectDraw surfaces; this interface derives from the [**IStreamSample**](/previous-versions/windows/desktop/api/mmstream/nn-mmstream-istreamsample) interface. Each attached surface includes a clipping rectangle to make rendering easier. |
 
 
 

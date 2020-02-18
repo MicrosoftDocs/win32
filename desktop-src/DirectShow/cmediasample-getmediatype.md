@@ -40,7 +40,7 @@ HRESULT GetMediaType(
 *ppMediaType* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. If the media type has not changed from the previous sample, *\*ppMediaType* is set to **NULL**.
+Address of a variable that receives a pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure. If the media type has not changed from the previous sample, *\*ppMediaType* is set to **NULL**.
 
 </dd> </dl>
 

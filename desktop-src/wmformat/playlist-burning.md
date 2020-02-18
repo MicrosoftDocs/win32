@@ -30,7 +30,7 @@ The Windows Media Format SDK provides the ability to quickly check all of the fi
 [**Digital Rights Management Features**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**IWMReaderPlaylistBurn Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn)
+[**IWMReaderPlaylistBurn Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn)
 </dt> </dl>
 
  

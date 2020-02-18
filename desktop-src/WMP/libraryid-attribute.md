@@ -29,7 +29,7 @@ The **LibraryID** attribute is the identifier of the library that the item belon
 
 A media item might belong to the current user's local library or it might belong to a library that has been made available by another user on the home network or the Internet.
 
-The value of this attribute is the same as the value returned by the [**IWMPLibrary2::getItemInfo**](/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name) method.
+The value of this attribute is the same as the value returned by the [**IWMPLibrary2::getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name) method.
 
 ## Requirements
 

@@ -14,7 +14,7 @@ To get PSI information from an MPEG-2 transport stream using the MPEG-2 demux fi
 -   Subtype: MEDIASUBTYPE\_None
 -   Format type: GUID\_NULL
 
-Then call the output pin's [**IMPEG2PIDMap::MapPID**](/windows/desktop/api/Bdaiface/nf-bdaiface-impeg2pidmap-mappid) method with the desired PID and the flag MEDIA\_MPEG2\_PSI.
+Then call the output pin's [**IMPEG2PIDMap::MapPID**](/previous-versions/windows/desktop/api/Bdaiface/nf-bdaiface-impeg2pidmap-mappid) method with the desired PID and the flag MEDIA\_MPEG2\_PSI.
 
 
 ```C++

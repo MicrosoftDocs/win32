@@ -40,7 +40,7 @@ virtual HRESULT AlterQuality(
 *q* 
 </dt> <dd>
 
-[**Quality**](/previous-versions/windows/desktop/api/strmif/ns-strmif-quality) structure that contains the quality control message.
+[**Quality**](/windows/win32/api/strmif/ns-strmif-quality) structure that contains the quality control message.
 
 </dd> </dl>
 

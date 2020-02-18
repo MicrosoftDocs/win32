@@ -28,7 +28,7 @@ g\_wszWMDRM\_Level
 
 ## Remarks
 
-An application's DRM security level is determined by the particular wmstubdrm library that it links to at compile time. For more information on these security levels, see [Obtaining the Required DRM Library](obtaining-the-required-drm-library.md). Use [**IWMHeaderInfo::SetAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) to set this property when protecting ASF files with DRM version 1.
+An application's DRM security level is determined by the particular wmstubdrm library that it links to at compile time. For more information on these security levels, see [Obtaining the Required DRM Library](obtaining-the-required-drm-library.md). Use [**IWMHeaderInfo::SetAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) to set this property when protecting ASF files with DRM version 1.
 
 ## See also
 

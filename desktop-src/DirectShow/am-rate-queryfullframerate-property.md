@@ -18,7 +18,7 @@ This property is defined for version 1.1 of this property set; see [**AM\_RATE\_
 |-------------------|---------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange         |
 | Property ID       | AM\_RATE\_QueryFullFrameRate Property |
-| Data Type         | [**AM\_QueryRate**](/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_queryrate) |
+| Data Type         | [**AM\_QueryRate**](/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_queryrate) |
 
 
 

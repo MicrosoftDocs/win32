@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
  
 
-The following code sample demonstrates how to stream audio data using the [**IAudioMediaStream**](/windows/desktop/api/austream/nn-austream-iaudiomediastream), [**IAudioStreamSample**](/windows/desktop/api/austream/nn-austream-iaudiostreamsample), [**IMemoryData**](/windows/desktop/api/austream/nn-austream-imemorydata), and [**IAudioData**](/windows/desktop/api/austream/nn-austream-iaudiodata) interfaces. For brevity, this example performs minimal error checking.
+The following code sample demonstrates how to stream audio data using the [**IAudioMediaStream**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiomediastream), [**IAudioStreamSample**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiostreamsample), [**IMemoryData**](/previous-versions/windows/desktop/api/austream/nn-austream-imemorydata), and [**IAudioData**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiodata) interfaces. For brevity, this example performs minimal error checking.
 
 
 ```C++

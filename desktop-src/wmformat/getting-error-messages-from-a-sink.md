@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 
 # Getting Error Messages from a Sink
 
-The writer object does not send messages to the [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) callback method. However, you can set writer sinks to send messages to OnStatus. Each sink must be set to deliver status separately, but all sinks can report to the same callback.
+The writer object does not send messages to the [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus) callback method. However, you can set writer sinks to send messages to OnStatus. Each sink must be set to deliver status separately, but all sinks can report to the same callback.
 
-To set a sink to deliver status messages to **OnStatus**, call the [**IWMRegisterCallback::Advise**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise) method.
+To set a sink to deliver status messages to **OnStatus**, call the [**IWMRegisterCallback::Advise**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise) method.
 
 The following example code demonstrates how to set all of the sinks to deliver status messages to an **OnStatus** callback. In this example, the index of each sink will be used as the context parameter so that the **OnStatus** method can differentiate between messages from the different sinks. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 
@@ -78,7 +78,7 @@ Exit:
 
 <dl> <dt>
 
-[**IWMRegisterCallback Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback)
+[**IWMRegisterCallback Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback)
 </dt> <dt>
 
 [**Working with Writer Sinks**](working-with-writer-sinks.md)

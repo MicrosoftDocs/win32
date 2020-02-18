@@ -26,7 +26,7 @@ Signals the beginning of every video object unit (VOBU), a video segment which i
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the current playback timecode in a binary coded decimal (BCD) hours, minutes, seconds, frames (HH:MM:SS:FF) format. Member of the [**DVD\_TIMECODE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_timecode) structure.
+**DWORD** value indicating the current playback timecode in a binary coded decimal (BCD) hours, minutes, seconds, frames (HH:MM:SS:FF) format. Member of the [**DVD\_TIMECODE**](/windows/win32/api/strmif/ns-strmif-dvd_timecode) structure.
 
 </dd> <dt>
 

@@ -71,10 +71,10 @@ The wizard creates the following files for you:
 [**Building the Plug-in for a Type 2 Online Store**](building-the-plug-in-for-a-type-2-online-store.md)
 </dt> <dt>
 
-[**IWMPSubscriptionService Interface**](/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice)
+[**IWMPSubscriptionService Interface**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice)
 </dt> <dt>
 
-[**IWMPSubscriptionService2 Interface**](/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
+[**IWMPSubscriptionService2 Interface**](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
 </dt> </dl>
 
  

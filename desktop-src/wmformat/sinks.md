@@ -29,7 +29,7 @@ The writer object of the Windows Media Format SDK delivers processed content to 
 
 ## File Sinks
 
-File sinks write ASF content to a file on a local or network drive. When you use the writer object to write a file without explicitly adding a file sink, the writer will create one for you using the name you pass to [**IWMWriter::SetOutputFilename**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename). You can assign multiple file sinks to a writer object to write the content in several files at once.
+File sinks write ASF content to a file on a local or network drive. When you use the writer object to write a file without explicitly adding a file sink, the writer will create one for you using the name you pass to [**IWMWriter::SetOutputFilename**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename). You can assign multiple file sinks to a writer object to write the content in several files at once.
 
 By using a file sink, you can control many aspects of the file. The following features are available through a file sink.
 

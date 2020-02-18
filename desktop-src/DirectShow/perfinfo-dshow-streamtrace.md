@@ -109,7 +109,7 @@ The following event identifiers are defined.
 </tr>
 <tr class="even">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_DECODE</td>
-<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe"><strong>IAMVideoAccelerator::BeginFrame</strong></a>. No event data.</td>
+<td>Logged when the VMR begins a decoding operation—that is, when the decoder calls <a href="/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe"><strong>IAMVideoAccelerator::BeginFrame</strong></a>. No event data.</td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_BEGIN_DEINTERLACE</td>
@@ -129,7 +129,7 @@ The following event identifiers are defined.
 </tr>
 <tr class="even">
 <td>PERFINFO_STREAMTRACE_VMR_END_DECODE</td>
-<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe"><strong>IAMVideoAccelerator::EndFrame</strong></a>. No event data.</td>
+<td>Logged when the VMR ends a decoding operation—that is, when the decoder calls <a href="/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe"><strong>IAMVideoAccelerator::EndFrame</strong></a>. No event data.</td>
 </tr>
 <tr class="odd">
 <td>PERFINFO_STREAMTRACE_VMR_END_DEINTERLACE</td>

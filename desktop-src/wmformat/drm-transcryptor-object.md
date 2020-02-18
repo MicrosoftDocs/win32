@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The DRM transcryptor object converts DRM-protected ASF files into data streams ready to be sent to network devices that use Windows Media DRM 10 for Network Devices.
 
-The DRM transcryptor object is created by the [**WMCreateDRMTranscryptor**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor) function, which sets a pointer to the [**IWMDRMTranscryptor**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor) interface. **IUnknown** and **IWMDRMTranscryptor** are the only interfaces supported by this object.
+The DRM transcryptor object is created by the [**WMCreateDRMTranscryptor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor) function, which sets a pointer to the [**IWMDRMTranscryptor**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor) interface. **IUnknown** and **IWMDRMTranscryptor** are the only interfaces supported by this object.
 
 ## Related topics
 

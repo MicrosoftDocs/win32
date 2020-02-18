@@ -48,7 +48,7 @@ String that contains a message to display with the media type information.
 *pmtIn* 
 </dt> <dd>
 
-ointer to the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure that contains the media type.
+ointer to the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure that contains the media type.
 
 </dd> </dl>
 

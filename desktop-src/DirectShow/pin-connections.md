@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Pin Connections
 
-Filters connect at their pins, through the [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface. Output pins connect to input pins. Each pin connection has a media type, described by the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure.
+Filters connect at their pins, through the [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface. Output pins connect to input pins. Each pin connection has a media type, described by the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure.
 
 An application connects filters by calling methods on the Filter Graph Manager, never by calling methods on the filters or pins themselves. The application can directly specify which filters to connect, by calling the [**IFilterGraph::ConnectDirect**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-connectdirect) or [**IGraphBuilder::Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) method; or it can connect filters indirectly, using a graph-building method such as [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile).
 

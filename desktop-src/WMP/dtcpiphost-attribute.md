@@ -29,7 +29,7 @@ The **DTCPIPHost** attribute is the name or IP address of the computer or device
 
 If this attribute is available, the media item is protected using DTCP-IP.
 
-This attribute is not available for media items in the current user's local library. It is available only for media items that belong to a remote library; that is, a library that has been made available by another user on the home network. To determine whether a media library is remote, call [**IWMPLibrary::get\_type**](/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type).
+This attribute is not available for media items in the current user's local library. It is available only for media items that belong to a remote library; that is, a library that has been made available by another user on the home network. To determine whether a media library is remote, call [**IWMPLibrary::get\_type**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type).
 
 ## Requirements
 

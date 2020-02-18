@@ -61,7 +61,7 @@ The following enumeration, structure, and events are defined for use with the Di
 
 | Structure                                         | Description                                                                                                                                           |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AM\_WMT\_EVENT\_DATA**](https://msdn.microsoft.com/library/Dd743050(v=VS.85).aspx) | Contains information pertaining to a [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) event and the associated status code returned by the Windows Media Format SDK. |
+| [**AM\_WMT\_EVENT\_DATA**](https://msdn.microsoft.com/library/Dd743050(v=VS.85).aspx) | Contains information pertaining to a [**WMT\_STATUS**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) event and the associated status code returned by the Windows Media Format SDK. |
 
 
 

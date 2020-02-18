@@ -67,7 +67,7 @@ If the log-in attempt results in a change of log-in status, Windows Media Player
 [**External.userLoggedIn**](external-userloggedin.md)
 </dt> <dt>
 
-[**IWMPContentPartner::Login**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login)
+[**IWMPContentPartner::Login**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login)
 </dt> <dt>
 
 [**Managing Login**](managing-login.md)

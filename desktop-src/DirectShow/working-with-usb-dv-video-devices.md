@@ -36,7 +36,7 @@ In a UVC device, the functions of the device are logically divided into componen
 
 Also, not every terminal corresponds to a USB endpoint. The term endpoint refers specifically to USB connections, and a device may send or receive data through non-USB connections. For example, a video camera is an input terminal and an LCD screen is an output terminal.
 
-In the KS Proxy filter, units and terminals are represented as nodes inside the filter. The term node is more general than the terms unit and terminal because non-USB devices can also have nodes. To get information about the nodes in a filter, query the filter for the [**IKsTopologyInfo**](/windows/desktop/api/Vidcap/nn-vidcap-ikstopologyinfo) interface. Node types are identified by GUIDs. Selector nodes are nodes that can switch between two or more inputs. Selector nodes expose the [**ISelector**](/windows/desktop/api/Vidcap/nn-vidcap-iselector) interface.
+In the KS Proxy filter, units and terminals are represented as nodes inside the filter. The term node is more general than the terms unit and terminal because non-USB devices can also have nodes. To get information about the nodes in a filter, query the filter for the [**IKsTopologyInfo**](/previous-versions/windows/desktop/api/Vidcap/nn-vidcap-ikstopologyinfo) interface. Node types are identified by GUIDs. Selector nodes are nodes that can switch between two or more inputs. Selector nodes expose the [**ISelector**](/previous-versions/windows/desktop/api/Vidcap/nn-vidcap-iselector) interface.
 
 The following code tests whether an output pin on a filter receives input from a node of a given type.
 

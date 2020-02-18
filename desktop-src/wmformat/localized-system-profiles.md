@@ -53,7 +53,7 @@ The following table lists the localized system profile files included with the W
 
  
 
-You can set the language for the profile manager object by calling the [**IWMProfileManagerLanguage::SetUserLanguageID**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-setuserlanguageid) method. For most languages, only the primary language identifier in the LANGID is examined. The exceptions are for the Chinese and Portuguese languages, where the secondary language identifier is also used. The following table shows how to create a LANGID to specify in the **SetUserLanguageID** method.
+You can set the language for the profile manager object by calling the [**IWMProfileManagerLanguage::SetUserLanguageID**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-setuserlanguageid) method. For most languages, only the primary language identifier in the LANGID is examined. The exceptions are for the Chinese and Portuguese languages, where the secondary language identifier is also used. The following table shows how to create a LANGID to specify in the **SetUserLanguageID** method.
 
 
 

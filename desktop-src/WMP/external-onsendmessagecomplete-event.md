@@ -62,7 +62,7 @@ The same string that was passed in the **Param** parameter of **sendMessage**.
 
 ## Remarks
 
-The **sendMessage** method calls [IWMPContentPartner::SendMessage](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage), which returns asynchronously. That is, it returns before the online store finishes processing the message. When the online store finishes processing the message, it calls [IWMPContentPartnerCallback::SendMessageComplete](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete), which in turn calls the script's **OnSendMessageComplete** event handler.
+The **sendMessage** method calls [IWMPContentPartner::SendMessage](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage), which returns asynchronously. That is, it returns before the online store finishes processing the message. When the online store finishes processing the message, it calls [IWMPContentPartnerCallback::SendMessageComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete), which in turn calls the script's **OnSendMessageComplete** event handler.
 
 When the online store calls **IWMPContentPartnerCallback::SendMessageComplete**, it supplies a result code in the *bstrResult* parameter. Windows Media Player does not interpret that result code. Instead, Windows Media Player passes the result code along to the **OnSendMessageComplete** event handler in the *Result* parameter.
 
@@ -89,10 +89,10 @@ None of the parameters (*Msg*, *Param*, *Result*) of the **OnSendMessageComplete
 [**External.sendMessage**](external-sendmessage.md)
 </dt> <dt>
 
-[**IWMPContentPartner::SendMessage**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage)
+[**IWMPContentPartner::SendMessage**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback::SendMessageComplete**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete)
+[**IWMPContentPartnerCallback::SendMessageComplete**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete)
 </dt> </dl>
 
  

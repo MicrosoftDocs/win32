@@ -42,7 +42,7 @@ HRESULT Notify(
 *pNSSBuffer3* \[in\]
 </dt> <dd>
 
-Pointer to the [**INSSBuffer3**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) interface exposed on the media sample.
+Pointer to the [**INSSBuffer3**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) interface exposed on the media sample.
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ This method enables an application to examine and act on information in the medi
 [**IAMWMBufferPassCallback Interface**](https://msdn.microsoft.com/library/Dd798277(v=VS.85).aspx)
 </dt> <dt>
 
-[**INSSBuffer3 Interface**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3)
+[**INSSBuffer3 Interface**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3)
 </dt> </dl>
 
  

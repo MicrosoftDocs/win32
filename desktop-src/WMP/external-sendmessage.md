@@ -63,7 +63,7 @@ This method does not return a value.
 
 ## Remarks
 
-The message is sent asynchronously. That is, this method returns immediately rather than waiting for the message to be processed. When the plug-in finishes processing the message, it calls the [IWMPContentPartnerCallback::SendMessageComplete](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete) method, which in turn calls the script's [OnSendMessageComplete](external-onsendmessagecomplete-event.md) event handler.
+The message is sent asynchronously. That is, this method returns immediately rather than waiting for the message to be processed. When the plug-in finishes processing the message, it calls the [IWMPContentPartnerCallback::SendMessageComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete) method, which in turn calls the script's [OnSendMessageComplete](external-onsendmessagecomplete-event.md) event handler.
 
 ## Requirements
 
@@ -86,10 +86,10 @@ The message is sent asynchronously. That is, this method returns immediately rat
 [**External.OnSendMessageComplete**](external-onsendmessagecomplete-event.md)
 </dt> <dt>
 
-[**IWMPContentPartner::SendMessage**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage)
+[**IWMPContentPartner::SendMessage**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback::SendMessageComplete**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete)
+[**IWMPContentPartnerCallback::SendMessageComplete**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete)
 </dt> </dl>
 
  

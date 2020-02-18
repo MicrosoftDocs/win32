@@ -28,14 +28,14 @@ This topic lists features that are new in Windows Media Player 12.
 
 ## New Interfaces
 
--   [**IWMPAudioRenderConfig**](/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig)
--   [**IWMPEvents4**](/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
--   [**IWMPLibrary2**](/windows/desktop/api/wmp/nn-wmp-iwmplibrary2)
--   [**IWMPSyncDevice3**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3)
+-   [**IWMPAudioRenderConfig**](/previous-versions/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig)
+-   [**IWMPEvents4**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
+-   [**IWMPLibrary2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary2)
+-   [**IWMPSyncDevice3**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3)
 
 ## New Attributes
 
-The following new attributes for media items are available through the [**IWMPMedia**](/windows/desktop/api/wmp/nn-wmp-iwmpmedia) and [**IWMPMedia3**](/windows/desktop/api/wmp/nn-wmp-iwmpmedia3) interfaces.
+The following new attributes for media items are available through the [**IWMPMedia**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia) and [**IWMPMedia3**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia3) interfaces.
 
 -   [**AlbumCoverURL**](wm-albumcoverurl-attribute.md)
 -   [**AlternateSourceURL**](alternatesourceurl-attribute.md)
@@ -48,13 +48,13 @@ The following new attributes for media items are available through the [**IWMPMe
 
 ## New Device Metadata
 
-The following new device metadata items can be retrieved by calling [**IWMPSyncDevice::getItemInfo**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-getiteminfo).
+The following new device metadata items can be retrieved by calling [**IWMPSyncDevice::getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-getiteminfo).
 
 -   **BackgroundSyncState**
 -   **SkippedFiles**
 -   **SyncFilter**
 
-The following new device metadata items can be set by calling [**IWMPSyncDevice2::setItemInfo**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice2-setiteminfo).
+The following new device metadata items can be set by calling [**IWMPSyncDevice2::setItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice2-setiteminfo).
 
 -   **AutoSyncDefaultRules**
 -   **BackgroundSyncState**
@@ -70,7 +70,7 @@ The [**WMPSyncState**](https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp
 
 ## New Flag
 
-The [**IWMPGraphCreation::GetGraphCreationFlags**](/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-getgraphcreationflags) method supports the following new flag.
+The [**IWMPGraphCreation::GetGraphCreationFlags**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-getgraphcreationflags) method supports the following new flag.
 
 -   **WMPGC\_FLAGS\_USE\_CUSTOM\_GRAPH**
 
@@ -78,14 +78,14 @@ The [**IWMPGraphCreation::GetGraphCreationFlags**](/windows/desktop/api/wmpservi
 
 The following interface is deprecated.
 
--   [**IWMPFolderMonitorServices**](/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
+-   [**IWMPFolderMonitorServices**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
 
 ## Methods That Are No Longer Deprecated
 
 The following methods were deprecated in Windows Media Player 11 SDK, but are no longer deprecated.
 
--   [**IWMPGraphCreation::GraphCreationPreRender**](/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationprerender)
--   [**IWMPGraphCreation::GraphCreationPostRender**](/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationpostrender)
+-   [**IWMPGraphCreation::GraphCreationPreRender**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationprerender)
+-   [**IWMPGraphCreation::GraphCreationPostRender**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationpostrender)
 
 ## Related topics
 

@@ -85,7 +85,7 @@ In the base class, this method performs the following steps:
 
 Test for a format change as follows:
 
--   If the sample supports the [**IMediaSample2**](/windows/desktop/api/Strmif/nn-strmif-imediasample2) interface, check the **dwSampleFlags** member of the [**AM\_SAMPLE2\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure. If the AM\_SAMPLE\_TYPECHANGED flag is present, the format has changed.
+-   If the sample supports the [**IMediaSample2**](/windows/desktop/api/Strmif/nn-strmif-imediasample2) interface, check the **dwSampleFlags** member of the [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure. If the AM\_SAMPLE\_TYPECHANGED flag is present, the format has changed.
 -   Otherwise, if the sample does not support **IMediaSample2**, call the [**IMediaSample::GetMediaType**](/windows/desktop/api/Strmif/nf-strmif-imediasample-getmediatype) method. If the method returns a non-**NULL** value, the format has changed.
 
 In the base class, this method does not process the sample. The derived class must override this method to perform the processing. (What this entails depends entirely on the filter.) The derived class should call the base-class method, to check for the errors described previously.

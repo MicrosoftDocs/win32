@@ -33,7 +33,7 @@ The writer accepts the following video formats as input to be compressed using t
 -   WMMEDIASUBTYPE\_RGB555
 -   WMMEDIASUBTYPE\_RGB8
 
-You should always use [**IWMWriter::GetInputFormatCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount) and [**IWMWriter::GetInputFormat**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat) to enumerate the available input formats and to obtain the input media properties object for the desired format. Video input media properties objects must be changed to reflect the frame size and frame rate of your input media.
+You should always use [**IWMWriter::GetInputFormatCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount) and [**IWMWriter::GetInputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat) to enumerate the available input formats and to obtain the input media properties object for the desired format. Video input media properties objects must be changed to reflect the frame size and frame rate of your input media.
 
 ## Related topics
 

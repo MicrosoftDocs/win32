@@ -39,14 +39,14 @@ The number of speakers on the playing computer is set with g\_wszSpeakerConfig. 
 
  
 
-To set these settings, use [**IWMReaderAdvanced2::SetOutputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting).
+To set these settings, use [**IWMReaderAdvanced2::SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting).
 
 Finally, for the channels to be output discretely, with no fold-down to stereo, you must set the correct media type on the output by following these steps:
 
-1.  Call [**IWMReader::GetOutputFormatCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount) to get the number of supported formats for the relevant audio output. Output format indexes are zero-based.
-2.  For each supported format, call [**IWMReader::GetOutputFormat**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) to retrieve the [**IWMOutputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) interface on the output media properties object.
-3.  Call [**IWMMediaProps::GetMediaType**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype) to retrieve the media type.
-4.  If the retrieved media type is the desired multichannel type, then set it by calling [**IWMReader::SetOutputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops).
+1.  Call [**IWMReader::GetOutputFormatCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount) to get the number of supported formats for the relevant audio output. Output format indexes are zero-based.
+2.  For each supported format, call [**IWMReader::GetOutputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat) to retrieve the [**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) interface on the output media properties object.
+3.  Call [**IWMMediaProps::GetMediaType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype) to retrieve the media type.
+4.  If the retrieved media type is the desired multichannel type, then set it by calling [**IWMReader::SetOutputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops).
 
 After you have set discrete output and the speaker configuration, the output formats enumerated by the reader should include multichannel formats that use the [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)) structure. If you enumerate the output formats before setting the properties, only formats with 1 or 2 channels and a maximum of 16 bits per channel will be included. As with other audio formats, you should use only the formats enumerated by the reader; do not configure your own.
 

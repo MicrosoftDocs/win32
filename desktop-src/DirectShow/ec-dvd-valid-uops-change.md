@@ -26,7 +26,7 @@ Signals that the available set of [**IDvdControl2**](/windows/desktop/api/Strmif
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value that contains a combination of zero or more flags from the [**VALID\_UOP\_FLAG**](/previous-versions/windows/desktop/api/strmif/ne-strmif-valid_uop_flag) enumeration. The bits indicate which [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) commands were explicitly disabled by the DVD disc.
+**DWORD** value that contains a combination of zero or more flags from the [**VALID\_UOP\_FLAG**](/windows/win32/api/strmif/ne-strmif-valid_uop_flag) enumeration. The bits indicate which [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) commands were explicitly disabled by the DVD disc.
 
 </dd> <dt>
 
