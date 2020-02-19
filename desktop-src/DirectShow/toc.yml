@@ -4120,9 +4120,9 @@
       - name: "FILTER_INFO"
         href: /windows/desktop/api/strmif/ns-strmif-_filterinfo
       - name: "HEAACWAVEFORMAT"
-        href: /windows/desktop/api/mmreg/ns-mmreg-heaacwaveformat_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-heaacwaveformat
       - name: "HEAACWAVEINFO"
-        href: /windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-heaacwaveinfo
       - name: "KSMULTIPLE_ITEM"
         href: ksmultiple-item.md
       - name: "KSTOPOLOGY_CONNECTION"
@@ -4130,13 +4130,13 @@
       - name: "MPEG1VIDEOINFO"
         href: /windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo
       - name: "MPEG1WAVEFORMAT"
-        href: /windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-mpeg1waveformat
       - name: "MPEG2_TRANSPORT_STRIDE"
         href: mpeg2-transport-stride.md
       - name: "MPEG2VIDEOINFO"
         href: /windows/desktop/api/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo
       - name: "MPEGLAYER3WAVEFORMAT"
-        href: /windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-mpeglayer3waveformat
       - name: "NORMALIZEDRECT"
         href: /windows/win32/api/strmif/ns-strmif-normalizedrect
       - name: "PERFINFO_DSHOW_AUDIOBREAK"

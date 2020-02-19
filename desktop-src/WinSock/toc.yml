@@ -789,9 +789,9 @@
       - name: "MULTICAST_MODE_TYPE"
         href: /windows/desktop/api/Ws2ipdef/ne-ws2ipdef-multicast_mode_type
       - name: "NAPI_PROVIDER_LEVEL"
-        href: /windows/desktop/api/Nsemail/ne-nsemail-napi_provider_level_tag
+        href: /windows/win32/api/Nsemail/ne-nsemail-napi_provider_level
       - name: "NAPI_PROVIDER_TYPE"
-        href: /windows/desktop/api/Nsemail/ne-nsemail-napi_provider_type_tag
+        href: /windows/win32/api/Nsemail/ne-nsemail-napi_provider_type
       - name: "RIO_NOTIFICATION_COMPLETION_TYPE"
         href: /windows/win32/api/Mswsock/ne-mswsock-rio_notification_completion_type
       - name: "SOCKET_SECURITY_PROTOCOL"
@@ -1165,9 +1165,9 @@
       - name: "linger"
         href: /windows/desktop/api/winsock/ns-winsock-linger
       - name: "NAPI_DOMAIN_DESCRIPTION_BLOB"
-        href: /windows/desktop/api/Nsemail/ns-nsemail-napi_domain_description_blob_tag
+        href: /windows/win32/api/Nsemail/ns-nsemail-napi_domain_description_blob
       - name: "NAPI_PROVIDER_INSTALLATION_BLOB"
-        href: /windows/desktop/api/Nsemail/ns-nsemail-napi_provider_installation_blob_tag
+        href: /windows/win32/api/Nsemail/ns-nsemail-napi_provider_installation_blob
       - name: "NS_SERVICE_INFO"
         href: /windows/win32/api/Nspapi/ns-nspapi-ns_service_infoa
       - name: "PROTOCOL_INFO"
