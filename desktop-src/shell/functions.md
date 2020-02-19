@@ -256,95 +256,95 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilappendid"><strong>ILAppendID</strong></a><br/></td>
-<td>Appends or prepends an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure to an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Appends or prepends an <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure to an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclone"><strong>ILClone</strong></a><br/></td>
-<td>Clones an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Clones an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclonechild"><strong>ILCloneChild</strong></a><br/></td>
-<td>Clones a child <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Clones a child <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclonefirst"><strong>ILCloneFirst</strong></a><br/></td>
-<td>Clones the first <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Clones the first <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclonefull"><strong>ILCloneFull</strong></a><br/></td>
-<td>Clones a full, or absolute, <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Clones a full, or absolute, <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilcombine"><strong>ILCombine</strong></a><br/></td>
-<td>Combines two <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structures.<br/></td>
+<td>Combines two <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structures.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilcreatefrompath"><strong>ILCreateFromPath</strong></a><br/></td>
-<td>Returns the <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure associated with a specified file path.<br/></td>
+<td>Returns the <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure associated with a specified file path.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfindchild"><strong>ILFindChild</strong></a><br/></td>
-<td>Determines whether a specified <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure is the child of another <strong>ITEMIDLIST</strong> structure.<br/></td>
+<td>Determines whether a specified <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure is the child of another <strong>ITEMIDLIST</strong> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfindlastid"><strong>ILFindLastID</strong></a><br/></td>
-<td>Returns a pointer to the last <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Returns a pointer to the last <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree"><strong>ILFree</strong></a><br/></td>
-<td>Frees an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure allocated by the Shell.<br/></td>
+<td>Frees an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure allocated by the Shell.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilgetnext"><strong>ILGetNext</strong></a><br/></td>
-<td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilgetsize"><strong>ILGetSize</strong></a><br/></td>
-<td>Returns the size, in bytes, of an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Returns the size, in bytes, of an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisaligned"><strong>ILIsAligned</strong></a><br/></td>
-<td>Verifies whether a constant <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> is aligned on a pointer boundary, which is a <strong>DWORD</strong> on 32-bit architectures and a <strong>QWORD</strong> on 64-bit architectures.<br/></td>
+<td>Verifies whether a constant <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> is aligned on a pointer boundary, which is a <strong>DWORD</strong> on 32-bit architectures and a <strong>QWORD</strong> on 64-bit architectures.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilischild"><strong>ILIsChild</strong></a><br/></td>
-<td>Verifies whether a PIDL is a child PIDL, which is a PIDL with exactly one <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a>.<br/></td>
+<td>Verifies whether a PIDL is a child PIDL, which is a PIDL with exactly one <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisempty"><strong>ILIsEmpty</strong></a><br/></td>
-<td>Verifies whether an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure is empty.<br/></td>
+<td>Verifies whether an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure is empty.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisequal"><strong>ILIsEqual</strong></a><br/></td>
-<td>Tests whether two <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structures are equal in a binary comparison.<br/></td>
+<td>Tests whether two <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structures are equal in a binary comparison.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisparent"><strong>ILIsParent</strong></a><br/></td>
-<td>Tests whether an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure is the parent of another <strong>ITEMIDLIST</strong> structure.<br/></td>
+<td>Tests whether an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure is the parent of another <strong>ITEMIDLIST</strong> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilnext"><strong>ILNext(PCUIDLIST_RELATIVE)</strong></a><br/></td>
-<td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776455(v=vs.85)"><strong>ILNext(PUIDLIST_RELATIVE)</strong></a><br/></td>
-<td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Retrieves the next <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure in an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilremovelastid"><strong>ILRemoveLastID</strong></a><br/></td>
-<td>Removes the last <a href="/windows/desktop/api/Shtypes/ns-shtypes-_shitemid"><strong>SHITEMID</strong></a> structure from an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Removes the last <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>SHITEMID</strong></a> structure from an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilsavetostream"><strong>ILSaveToStream</strong></a><br/></td>
-<td>Saves an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure to a stream.<br/></td>
+<td>Saves an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure to a stream.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilskip"><strong>ILSkip(PCUIDLIST_RELATIVE, UINT)</strong></a><br/></td>
-<td>Skips a given number of bytes in a constant, unaligned, relative <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Skips a given number of bytes in a constant, unaligned, relative <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776459(v=vs.85)"><strong>ILSkip(PUIDLIST_RELATIVE, UINT)</strong></a><br/></td>
-<td>Skips a given number of bytes in an unaligned, relative <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Skips a given number of bytes in an unaligned, relative <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Intshcut/nf-intshcut-inetisoffline"><strong>InetIsOffline</strong></a><br/></td>
@@ -564,7 +564,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromidlists"><strong>SHCreateShellItemArrayFromIDLists</strong></a><br/></td>
-<td>Creates a Shell item array object from a list of <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structures.<br/></td>
+<td>Creates a Shell item array object from a list of <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structures.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromshellitem"><strong>SHCreateShellItemArrayFromShellItem</strong></a><br/></td>
@@ -672,7 +672,7 @@ It is recommended that you use <a href="/windows/desktop/api/shobjidl_core/nf-sh
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist"><strong>SHGetKnownFolderIDList</strong></a><br/></td>
-<td>Retrieves the path of a known folder as an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Retrieves the path of a known folder as an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderitem"><strong>SHGetKnownFolderItem</strong></a><br/></td>

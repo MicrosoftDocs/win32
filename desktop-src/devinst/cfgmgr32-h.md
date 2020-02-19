@@ -555,15 +555,15 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <br/> The <strong>CM_Modify_Res_Des_Ex</strong> function modifies a specified resource descriptor on a local or a remote machine.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/ne-cfgmgr32-_cm_notify_action"><strong>CM_NOTIFY_ACTION</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Cfgmgr32/ne-cfgmgr32-cm_notify_action"><strong>CM_NOTIFY_ACTION</strong></a><br/></td>
 <td>This enumeration identifies Plug and Play device event types.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-_cm_notify_event_data"><strong>CM_NOTIFY_EVENT_DATA</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_event_data"><strong>CM_NOTIFY_EVENT_DATA</strong></a><br/></td>
 <td>This is a device notification event data structure.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-_cm_notify_filter"><strong>CM_NOTIFY_FILTER</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_filter"><strong>CM_NOTIFY_FILTER</strong></a><br/></td>
 <td>Device notification filter structure<br/></td>
 </tr>
 <tr class="odd">
@@ -723,7 +723,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <td>The <strong>CMP_WaitNoPendingInstallEvents</strong> function waits until there are no pending device installation activities for the PnP manager to perform.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_conflict_details_a"><strong>CONFLICT_DETAILS</strong></a><br/></td>
+<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-conflict_details_a"><strong>CONFLICT_DETAILS</strong></a><br/></td>
 <td>The CONFLICT_DETAILS structure is used as a parameter to the <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw"><strong>CM_Get_Resource_Conflict_Details</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">

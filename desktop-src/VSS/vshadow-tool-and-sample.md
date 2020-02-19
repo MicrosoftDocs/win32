@@ -112,7 +112,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="odd">
 <td><span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br/></td>
-<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br/></td>
+<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-norevert"></span><span id="-NOREVERT"></span><strong>-norevert</strong><br/></td>

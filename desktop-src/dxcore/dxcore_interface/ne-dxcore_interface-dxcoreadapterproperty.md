@@ -44,7 +44,7 @@ enum class DXCoreAdapterProperty : uint32_t
 
 Specifies the <em>InstanceLuid</em> adapter property, which contains a locally unique identifier representing the adapter. This value remains constant for the lifetime of this adapter. The LUID of an adapter changes on reboot, driver upgrade, or device disablement/enablement.
 
-The <em>InstanceLuid</em> adapter property has type <a href="/windows/win32/api/winnt/ns-winnt-_luid">LUID</a>.
+The <em>InstanceLuid</em> adapter property has type <a href="/windows/win32/api/winnt/ns-winnt-luid">LUID</a>.
 
 ### DriverVersion
 

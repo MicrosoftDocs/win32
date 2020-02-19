@@ -46,7 +46,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shappmgr/ne-shappmgr-_tagappinfoflags"><strong>APPINFODATAFLAGS</strong></a><br/></td>
-<td>Specifies application information to return from <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ishellapp-getappinfo"><strong>IShellApp::GetAppInfo</strong></a>. These flags are bitmasks used in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-_appinfodata"><strong>dwMask</strong></a> member of the <strong>APPINFODATA</strong> structure.<br/></td>
+<td>Specifies application information to return from <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ishellapp-getappinfo"><strong>IShellApp::GetAppInfo</strong></a>. These flags are bitmasks used in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-appinfodata"><strong>dwMask</strong></a> member of the <strong>APPINFODATA</strong> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shobjidl_core/ne-shobjidl_core-application_view_orientation"><strong>APPLICATION_VIEW_ORIENTATION</strong></a><br/></td>
@@ -149,27 +149,27 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Provides customization options for a single field in a logon or credential UI.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_interactive_state"><strong>CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_field_interactive_state"><strong>CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</strong></a><br/></td>
 <td>Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_state"><strong>CREDENTIAL_PROVIDER_FIELD_STATE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_field_state"><strong>CREDENTIAL_PROVIDER_FIELD_STATE</strong></a><br/></td>
 <td>Specifies the state of a single field in the Credential UI.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_type"><strong>CREDENTIAL_PROVIDER_FIELD_TYPE</strong></a><br/></td>
-<td>Specifies a type of credential field. Used by <a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-_credential_provider_field_descriptor"><strong>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</strong></a>.<br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_field_type"><strong>CREDENTIAL_PROVIDER_FIELD_TYPE</strong></a><br/></td>
+<td>Specifies a type of credential field. Used by <a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-credential_provider_field_descriptor"><strong>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_get_serialization_response"><strong>CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_get_serialization_response"><strong>CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</strong></a><br/></td>
 <td>Describes the response when a credential provider attempts to serialize credentials.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_status_icon"><strong>CREDENTIAL_PROVIDER_STATUS_ICON</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_status_icon"><strong>CREDENTIAL_PROVIDER_STATUS_ICON</strong></a><br/></td>
 <td>Indicates which status icon should be displayed.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_usage_scenario"><strong>CREDENTIAL_PROVIDER_USAGE_SCENARIO</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_usage_scenario"><strong>CREDENTIAL_PROVIDER_USAGE_SCENARIO</strong></a><br/></td>
 <td>Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.<br/></td>
 </tr>
 <tr class="even">
@@ -382,7 +382,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shappmgr/ne-shappmgr-_tagpublishedappinfoflags"><strong>PUBAPPINFOFLAGS</strong></a><br/></td>
-<td>Specifies which members in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-_pubappinfo"><strong>PUBAPPINFO</strong></a> structure are valid. These flags are bitmasks set in the <strong>dwMask</strong> member and passed to <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo"><strong>IPublishedApp::GetPublishedAppInfo</strong></a>.<br/></td>
+<td>Specifies which members in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-pubappinfo"><strong>PUBAPPINFO</strong></a> structure are valid. These flags are bitmasks set in the <strong>dwMask</strong> member and passed to <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo"><strong>IPublishedApp::GetPublishedAppInfo</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/ne-shellapi-query_user_notification_state"><strong>QUERY_USER_NOTIFICATION_STATE</strong></a><br/></td>
@@ -486,11 +486,11 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 <td>Used to determine how to compare two Shell items. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-compare"><strong>IShellItem::Compare</strong></a> uses this enumerated type.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sigdn"><strong>SIGDN</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn"><strong>SIGDN</strong></a><br/></td>
 <td>Requests the form of an item's display name to retrieve through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname"><strong>IShellItem::GetDisplayName</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetnamefromidlist"><strong>SHGetNameFromIDList</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction"><strong>SPACTION</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-spaction"><strong>SPACTION</strong></a><br/></td>
 <td>Describes an action being performed that requires progress to be shown to the user using an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
@@ -498,7 +498,7 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 <td>Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin"><strong>IActionProgress::Begin</strong></a>, these constants specify certain UI operations that are to be enabled or disabled.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext"><strong>SPTEXT</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sptext"><strong>SPTEXT</strong></a><br/></td>
 <td>Specifies the type of descriptive text being provided to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
