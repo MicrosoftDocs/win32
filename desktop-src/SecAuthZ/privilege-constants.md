@@ -45,7 +45,7 @@ The operating system represents a privilege by using the string that follows "Us
 <li>FILE_GENERIC_READ</li>
 <li>FILE_TRAVERSE</li>
 </ul>
-User Right: Back up files and directories.<br/></td>
+User Right: Back up files and directories.<br/>If the file is located on a removable drive and the "Audit Removable Storage" is enabled, the SE_SECURITY_NAME is required to have ACCESS_SYSTEM_SECURITY.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_CHANGE_NOTIFY_NAME"></span><span id="se_change_notify_name"></span><dl> <dt><strong>SE_CHANGE_NOTIFY_NAME</strong></dt> <dt>TEXT(&quot;SeChangeNotifyPrivilege&quot;)</dt> </dl></td>
@@ -139,7 +139,7 @@ User Right: Back up files and directories.<br/></td>
 <li>FILE_ADD_SUBDIRECTORY</li>
 <li>DELETE</li>
 </ul>
-User Right: Restore files and directories.<br/></td>
+User Right: Restore files and directories.<br/>If the file is located on a removable drive and the "Audit Removable Storage" is enabled, the SE_SECURITY_NAME is required to have ACCESS_SYSTEM_SECURITY.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SE_SECURITY_NAME"></span><span id="se_security_name"></span><dl> <dt><strong>SE_SECURITY_NAME</strong></dt> <dt>TEXT(&quot;SeSecurityPrivilege&quot;)</dt> </dl></td>

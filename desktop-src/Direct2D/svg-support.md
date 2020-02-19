@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SVG Support
 
-Beginning in Windows 10 Anniversary Update, Direct2D supports rendering [color fonts](https://docs.microsoft.com/windows/desktop/DirectWrite/color-fonts) that contain SVG glyph outlines, as described in the [OpenType specification](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) (see the [‘SVG ’ table](https://www.microsoft.com/typography/otspec/svg.md)). Beginning in Windows 10 Creators Update, Direct2D also supports rendering standalone SVG images. However, certain SVG features are disallowed within OpenType SVG fonts, and certain SVG features are currently unsupported by Direct2D.  
+Beginning in Windows 10 Anniversary Update, Direct2D supports rendering [color fonts](/windows/win32/directwrite/color-fonts) that contain SVG glyph outlines, as described in the [OpenType specification](/typography/opentype/spec/) (see [The SVG table](/typography/opentype/spec/svg)). Beginning in Windows 10 Creators Update, Direct2D also supports rendering standalone SVG images. However, certain SVG features are disallowed within OpenType SVG fonts, and certain SVG features are currently unsupported by Direct2D.  
 
 This topic identifies the set of [SVG 1.1](https://www.w3.org/TR/SVG11/) features supported by Direct2D in Windows 10 Anniversary Update and newer. This document applies to SVG in OpenType fonts as well as standalone SVG images.
 
