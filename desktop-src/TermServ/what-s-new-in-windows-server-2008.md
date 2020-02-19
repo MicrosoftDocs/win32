@@ -65,8 +65,8 @@ Windows Server 2008 introduces the following new programming elements for Termin
 </ul>
 The following structures were added:<br/>
 <ul>
-<li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsclienta"><strong>WTSCLIENT Structure</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-_wtsinfoa"><strong>WTSINFO Structure</strong></a></li>
+<li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsclienta"><strong>WTSCLIENT Structure</strong></a></li>
+<li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsinfoa"><strong>WTSINFO Structure</strong></a></li>
 </ul></td>
 </tr>
 <tr class="even">
