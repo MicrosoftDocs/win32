@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # How to sign an app package using SignTool
 
 > [!Note]  
-> For signing a Windows app package, see [Sign an app package using SignTool](https://aka.ms/sign-package-signtool).
+> For signing a Windows app package, see [Sign an app package using SignTool](https://docs.microsoft.com/windows/msix/package/sign-app-package-using-signtool?redirectedfrom=MSDN).
 
  
 
@@ -184,7 +184,7 @@ After the package is signed, the certificate that you used to sign the package m
 **Samples**
 </dt> <dt>
 
-[Create app package sample](https://go.microsoft.com/fwlink/p/?linkid=236965)
+[Create app package sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
 </dt> <dt>
 
 **Concepts**

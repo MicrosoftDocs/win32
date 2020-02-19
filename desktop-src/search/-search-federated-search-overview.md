@@ -22,9 +22,9 @@ The following list of topics describe how you can build a web-based data store t
 
 ## Additional Resources
 
--   The [OpenSearch](-search-sample-opensearch.md) code sample, available on [Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155658) and the [Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787), demonstrates how to create a federated search service using the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
--   For a video demonstration of creating an [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) web service for a SQL database, see [Windows 7: Empower Users to Find, Visualize and Organize their Data with Libraries and the Explorer](https://go.microsoft.com/fwlink/p/?linkid=147942).
--   If you are writing a client-side [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) provider, see:
+-   The [OpenSearch](-search-sample-opensearch.md) code sample, available on [Code Gallery](https://code.msdn.microsoft.com/shellextensibility) and the [Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx), demonstrates how to create a federated search service using the [OpenSearch](http://www.opensearch.org/Home) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+-   For a video demonstration of creating an [OpenSearch](http://www.opensearch.org/Home) web service for a SQL database, see [Windows 7: Empower Users to Find, Visualize and Organize their Data with Libraries and the Explorer](https://channel9.msdn.com/pdc2008/PC16/).
+-   If you are writing a client-side [OpenSearch](http://www.opensearch.org/Home) provider, see:
     -   The [OpenSearch Developer How To Guide](https://www.opensearch.org/Documentation/Developer_how_to_guide) for more information on connecting to a client-side provider by using a proprietary data store's protocols or APIs.
     -   The [Overview of the Search Connector Description Schema](search-sconn-desc-schema-entry.md) (.searchconnector-ms) schema documentation.
 -   See the [Microsoft Download Center](https://www.microsoft.com/DOWNLOADS/en/default.aspx) website for the following downloadable resource: Search Server 2008 Sample: Federated Search Connector Sample.

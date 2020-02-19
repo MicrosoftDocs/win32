@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Issuing the GetDevicePropValue Command
 
-The example in this section invokes the **GetDevicePropValue** MTP command to retrieve the **BatteryLevel** device property. (For a complete description of this command and its parameters, see the [MTP specification](https://go.microsoft.com/fwlink/p/?linkid=179917).)
+The example in this section invokes the **GetDevicePropValue** MTP command to retrieve the **BatteryLevel** device property. (For a complete description of this command and its parameters, see the [MTP specification](http://www.usb.org/developers/devclass_docs/MTPv1_1.zip).)
 
 In the case of **GetDevicePropValue**, the sample code uses the following sequence:
 

@@ -135,7 +135,7 @@ The following flags refer to a resource record's (RR) section within a DNS messa
 
  
 
-The following flags refer to a RR's section within an update DNS message per [RFC 2136](https://go.microsoft.com/fwlink/p/?linkid=107017):
+The following flags refer to a RR's section within an update DNS message per [RFC 2136](https://www.ietf.org/rfc/rfc2136.txt):
 
 
 

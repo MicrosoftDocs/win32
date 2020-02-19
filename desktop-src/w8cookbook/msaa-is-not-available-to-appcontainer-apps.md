@@ -33,7 +33,7 @@ Switch any existing in-box tools that use MSAA to UIA if they need to interact w
 
 ## Resources
 
--   [UI Automation Fundamentals](https://go.microsoft.com/fwlink/p/?LinkId=325480)
+-   [UI Automation Fundamentals](https://msdn.microsoft.com/library/windows/desktop/ee684009(v=vs.85).aspx)
 
  
 

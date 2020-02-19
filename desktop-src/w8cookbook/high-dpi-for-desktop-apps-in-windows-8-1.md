@@ -36,9 +36,9 @@ Even if developers do not choose to make their applications take advantage of hi
 
 ## Resources
 
--   [White paper and tutorial on high DPI in Windows 8.1](https://go.microsoft.com/fwlink/p/?LinkID=307061)
--   [Windows desktop sample programs](https://go.microsoft.com/fwlink/p/?LinkId=228296)
--   [BUILD 2013 break-out session on high DPI in Windows 8.1](https://go.microsoft.com/fwlink/p/?LinkId=325300)
+-   [White paper and tutorial on high DPI in Windows 8.1](https://msdn.microsoft.com/library/windows/desktop/dn469266.aspx)
+-   [Windows desktop sample programs](https://www.microsoft.com/?ref=go)
+-   [BUILD 2013 break-out session on high DPI in Windows 8.1](https://channel9.msdn.com/Events/Build/2013/4-184)
 
  
 

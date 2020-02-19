@@ -12,7 +12,7 @@ Learn how to create an app package for a Windows app using the [packaging API](i
 
 If you want to create a desktop app package manually, you can also use the MakeAppx.exe tool which utilizes the [packaging API](interfaces.md). See [App packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) for more information.
 
-If you are using Visual Studio, it's recommended that you use the Visual Studio packaging wizard to package your app. For more details, see [Package a UWP app using Visual Studio](https://aka.ms/packaging-uwp-apps).
+If you are using Visual Studio, it's recommended that you use the Visual Studio packaging wizard to package your app. For more details, see [Package a UWP app using Visual Studio](https://docs.microsoft.com/windows/msix/package/packaging-uwp-apps?redirectedfrom=MSDN).
 
 ## Instructions
 
@@ -295,7 +295,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Create app package sample](https://go.microsoft.com/fwlink/p/?linkid=236965)
+[Create app package sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
 </dt> <dt>
 
 **Reference**

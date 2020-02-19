@@ -292,10 +292,10 @@ UnhandledExceptionFilter(
 
 <dl> <dt>
 
-[SAL Annotations](https://go.microsoft.com/fwlink/p/?linkid=101212)
+[SAL Annotations](https://msdn.microsoft.com/library/ms235402.aspx)
 </dt> <dt>
 
-[Walkthrough: Analyzing C/C++ Code for Defects](https://go.microsoft.com/fwlink/p/?linkid=101213)
+[Walkthrough: Analyzing C/C++ Code for Defects](https://msdn.microsoft.com/library/ms182028.aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The COOKER\_MIN counter type formula identifies the smallest value from a set of observations of one property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) instance. This calculated minimum value is placed in a property in a [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) instance. This counter type is defined only within WMI, and it is not available to the performance monitoring technologies, such as [Performance Counters Version 6.0](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
 
-For more information about the counter type formula, see [Counter Types](https://go.microsoft.com/fwlink/p/?linkid=44341).
+For more information about the counter type formula, see [Counter Types](https://technet.microsoft.com/library/cc785636(WS.10).aspx).
 
 For more information about WMI high-performance providers and scripting, see [WMI Performance Counter Types](wmi-performance-counter-types.md).
 

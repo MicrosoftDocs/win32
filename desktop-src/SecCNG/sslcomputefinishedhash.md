@@ -17,7 +17,7 @@ api_location:
 
 # SslComputeFinishedHash function
 
-The **SslComputeFinishedHash** function computes the [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) sent in the finished message of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) handshake. For more information about the SSL handshake sequence, see [Description of the Secure Sockets Layer (SSL) Handshake](https://go.microsoft.com/fwlink/p/?linkid=100173).
+The **SslComputeFinishedHash** function computes the [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) sent in the finished message of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) handshake. For more information about the SSL handshake sequence, see [Description of the Secure Sockets Layer (SSL) Handshake](https://support.microsoft.com/kb/257591).
 
 ## Syntax
 
@@ -118,7 +118,7 @@ The **SslComputeFinishedHash** function is one of three functions used to genera
 
 The hash value is computed by hashing the master secret with a hash of all previous handshake messages sent or received.
 
-The value of *cbOutput* determines the length of the hash data. When the [*Transport Layer Security protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.0 protocol is used, this should always be 12 (bytes). For more information, see [The TLS Protocol Version 1.0](https://go.microsoft.com/fwlink/p/?linkid=84035).
+The value of *cbOutput* determines the length of the hash data. When the [*Transport Layer Security protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) 1.0 protocol is used, this should always be 12 (bytes). For more information, see [The TLS Protocol Version 1.0](https://www.ietf.org/rfc/rfc2246.txt).
 
 ## Requirements
 

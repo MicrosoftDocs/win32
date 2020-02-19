@@ -23,7 +23,7 @@ This document provides information about the Winsock support for IPv6:
 
 For additional information on adding IPv6 capability to your Windows Sockets applications, see [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md).
 
-An introduction to the IPv6 protocol along with overviews on deployment and IPv6 transitioning technologies is available on Technet at [Microsoft Internet Protocol Version 6 (IPv6)](https://go.microsoft.com/fwlink/p/?linkid=194338).
+An introduction to the IPv6 protocol along with overviews on deployment and IPv6 transitioning technologies is available on Technet at [Microsoft Internet Protocol Version 6 (IPv6)](https://technet.microsoft.com/network/bb530961.aspx).
 
 ## Related topics
 
@@ -35,10 +35,10 @@ An introduction to the IPv6 protocol along with overviews on deployment and IPv6
 [IPv6 Support](ipv6-support-2.md)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](https://go.microsoft.com/fwlink/p/?linkid=193479)
+[IPv6 Technology Preview for Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
 </dt> <dt>
 
-[Microsoft Internet Protocol Version 6 (IPv6)](https://go.microsoft.com/fwlink/p/?linkid=194338)
+[Microsoft Internet Protocol Version 6 (IPv6)](https://technet.microsoft.com/network/bb530961.aspx)
 </dt> </dl>
 
  

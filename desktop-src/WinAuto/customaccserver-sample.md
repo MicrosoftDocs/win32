@@ -23,7 +23,7 @@ This sample shows how to implement a Microsoft Active Accessibility server for a
 
 ## Download Information
 
-The CustomAccServer sample is installed as part of the [Microsoft Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=129787) and is available in the following location.
+The CustomAccServer sample is installed as part of the [Microsoft Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) and is available in the following location.
 
 
 

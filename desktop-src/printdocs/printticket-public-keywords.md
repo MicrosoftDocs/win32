@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintTicket Public Keywords
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 The following section specifies both PrintTicket specific property descriptions and parameter initializers which may be applicable to a PrintTicket.
 
@@ -24,7 +24,7 @@ Parameter Initializers take the form of ParameterInit element types in a PrintTi
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

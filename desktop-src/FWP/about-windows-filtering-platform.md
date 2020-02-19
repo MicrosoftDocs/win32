@@ -43,7 +43,7 @@ Kernel-mode components that reside between the Network Stack and the filter engi
 
 ### Callouts
 
-Set of functions exposed by a driver and used for specialized filtering. Besides the basic actions of "Permit" and "Block", callouts can modify and secure inbound and outbound network traffic. See the [Windows Filtering Platform Callout Drivers](https://go.microsoft.com/fwlink/p/?linkid=95958) topic in the Windows Driver Kit (WDK) documentation for more information on callouts. WFP provides built-in callouts that accomplish the following tasks.<br/>
+Set of functions exposed by a driver and used for specialized filtering. Besides the basic actions of "Permit" and "Block", callouts can modify and secure inbound and outbound network traffic. See the [Windows Filtering Platform Callout Drivers](https://msdn.microsoft.com/library/ff571068.aspx) topic in the Windows Driver Kit (WDK) documentation for more information on callouts. WFP provides built-in callouts that accomplish the following tasks.<br/>
 
 -   Perform IPsec processing.
 -   Adjust stateful filtering behavior.

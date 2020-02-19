@@ -179,7 +179,7 @@ The [Graphics, multimedia,](https://msdn.microsoft.com/library/Aa969176(v=VS.85)
 -   [Printing](https://msdn.microsoft.com/library/Ff551767(v=VS.85).aspx)
     -   [Print Spooler](https://msdn.microsoft.com/library/Dd162863(v=VS.85).aspx)
     -   [Print Document Package](https://msdn.microsoft.com/library/Hh448418(v=VS.85).aspx)
-    -   [Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+    -   [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
     -   [Print Ticket](https://msdn.microsoft.com/library/Ff686808(v=VS.85).aspx)
     -   [XPS Print](https://msdn.microsoft.com/library/Dd374565(v=VS.85).aspx)
 -   [Sensors](https://msdn.microsoft.com/library/Dd318966(v=VS.85).aspx)
@@ -339,7 +339,7 @@ The following are technologies and APIs that are outdated or have been replaced 
 -   [DirectSound](https://msdn.microsoft.com/library/Ee416975(v=VS.85).aspx)
 -   [Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/Dd145203(v=VS.85).aspx): Use [Direct2D](https://msdn.microsoft.com/library/Dd372349(v=VS.85).aspx) instead.
 -   [GDI+](https://msdn.microsoft.com/library/ms533799(v=VS.85).aspx): Use [Direct2D](https://msdn.microsoft.com/library/Dd372349(v=VS.85).aspx) instead.
--   [Microsoft UDDI SDK](https://msdn.microsoft.com/library/Aa966237(v=BTS.10).aspx) is now included with [Microsoft BizTalk Server](https://go.microsoft.com/fwlink/p/?LinkID=122067).
+-   [Microsoft UDDI SDK](https://msdn.microsoft.com/library/Aa966237(v=BTS.10).aspx) is now included with [Microsoft BizTalk Server](https://msdn.microsoft.com/library/bb905520.aspx).
 -   [Monitor Configuration](https://msdn.microsoft.com/library/Dd692965(v=VS.85).aspx)
 -   [Multiple Display Monitors](https://msdn.microsoft.com/library/Dd145073(v=VS.85).aspx)
 -   [Network Dynamic Data Exchange (DDE)](https://msdn.microsoft.com/library/Aa365775(v=VS.85).aspx)

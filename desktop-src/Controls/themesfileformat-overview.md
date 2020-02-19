@@ -253,7 +253,7 @@ Your theme's background can be a slide show either of images stored locally or o
 </tr>
 <tr class="odd">
 <td>RSSFeed=URL to RSS feed</td>
-<td>Required if ImagesRootPath is not specified. RSSFeed specifies an RSS feed to use as the background slide show. For the feed to work, you need to reference high-resolution images adhering to the &quot;enclosures&quot; standard used by the <a href="https://go.microsoft.com/fwlink/p/?linkid=180574">Windows RSS Platform</a>. Because of this limitation, .theme files that include an RSS feed must be created manually. <br/>
+<td>Required if ImagesRootPath is not specified. RSSFeed specifies an RSS feed to use as the background slide show. For the feed to work, you need to reference high-resolution images adhering to the &quot;enclosures&quot; standard used by the <a href="https://msdn.microsoft.com/library/ms684701(VS.85).aspx">Windows RSS Platform</a>. Because of this limitation, .theme files that include an RSS feed must be created manually. <br/>
 <blockquote>
 [!Note]<br />
 You cannot specify both an RSSFeed and ImagesRootPath.

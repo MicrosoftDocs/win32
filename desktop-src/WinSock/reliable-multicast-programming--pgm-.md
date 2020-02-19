@@ -16,7 +16,7 @@ PGM is a reliable and scalable multicast protocol that enables receivers to dete
 
 PGM is appropriate for applications that require duplicate-free multicast data delivery from multiple sources to multiple receivers. PGM does not support acknowledged delivery, nor does it guarantee ordering of packets from multiple senders.
 
-For more information about PGM, refer to RFC 3208 available at [www.ietf.org](https://go.microsoft.com/fwlink/p/?linkid=84023).
+For more information about PGM, refer to RFC 3208 available at [www.ietf.org](https://www.ietf.org/).
 
 This section describes how to use reliable multicast on Windows. The following topics explain the various aspects of creating a reliable multicast application using Windows Sockets:
 

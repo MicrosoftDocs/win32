@@ -21,7 +21,7 @@ api_location:
 The **CompressEx** method uses NTFS compression to compress the logical file (or directory) that is specified in the object path. This method is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md). This method is an extended version of the [**Compress**](compress-method-in-class-cim-datafile.md) method and is inherited from [CIM\_LogicalFile](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

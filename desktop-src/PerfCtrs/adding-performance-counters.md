@@ -21,7 +21,7 @@ Performance counters specific to your application can help you tune performance 
 5.  Create a performance DLL containing a set of exported functions that provide the queried counter data to the consumer. For details, see [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md).
 6.  Modify the application's setup file to automate adding information to the registry (as described in step 4) and move your performance DLL to the system directory at setup.
 
-To view a performance object, its functions, and its counters, use the [extensible counter list utility](https://go.microsoft.com/fwlink/p/?linkid=84423) (Exctrlst.exe). The utility is included with the Support Tools for Windows Server 2003 and Windows XP.
+To view a performance object, its functions, and its counters, use the [extensible counter list utility](https://technet.microsoft.com/library/48edd368-2bde-4647-9fea-1b5f28a23ca9) (Exctrlst.exe). The utility is included with the Support Tools for Windows Server 2003 and Windows XP.
 
 For information about additional registry entries, see [Creating Other Registry Entries](creating-other-registry-entries.md).
 

@@ -40,11 +40,11 @@ A pointer to a [**GESTURENOTIFYSTRUCT**](/windows/win32/api/winuser/ns-winuser-g
 
 ## Return value
 
-A value should be returned from [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637).
+A value should be returned from [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx).
 
 ## Remarks
 
-When the **WM\_GESTURENOTIFY** message is received, the application can use [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) to specify the gestures to receive. This message should always be bubbled up using the [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637) function.
+When the **WM\_GESTURENOTIFY** message is received, the application can use [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) to specify the gestures to receive. This message should always be bubbled up using the [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx) function.
 
 > [!Note]  
 > Handling the **WM\_GESTURENOTIFY** message will change the gesture configuration for the lifetime of the Window, not just for the next gesture.

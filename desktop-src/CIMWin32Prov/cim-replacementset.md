@@ -23,7 +23,7 @@ api_location:
 The **CIM\_ReplacementSet** class aggregates physical elements that must be replaced together. For example, when replacing a memory card, the component memory chips can also be removed and replaced. Or, this association can be used to replace or upgrade a set of memory chips.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

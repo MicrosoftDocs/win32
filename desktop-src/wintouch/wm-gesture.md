@@ -42,7 +42,7 @@ Provides a handle to information identifying the gesture command and gesture-spe
 
 If an application processes this message, it should return 0.
 
-If the application does not process the message, it must call [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637). Not doing so will cause the application to leak memory because the touch input handle will not be closed and associated process memory will not be freed.
+If the application does not process the message, it must call [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx). Not doing so will cause the application to leak memory because the touch input handle will not be closed and associated process memory will not be freed.
 
 ## Remarks
 
@@ -65,7 +65,7 @@ The following table lists the supported gesture commands.
  
 
 > [!Note]  
-> In order to enable legacy support, messages with the **GID\_BEGIN** and **GID\_END** gesture commands need to be forwarded using [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637).
+> In order to enable legacy support, messages with the **GID\_BEGIN** and **GID\_END** gesture commands need to be forwarded using [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx).
 
  
 
@@ -100,7 +100,7 @@ The following table indicates the gesture arguments passed in the *lParam* and *
 The following code illustrates how to obtain gesture-specific information associated with this message.
 
 > [!Note]  
-> You should always forward unhandled messages to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637) and should close the gesture input handle for messages that you do handle with a call to [**CloseGestureInfoHandle**](/windows/desktop/api/winuser/nf-winuser-closegestureinfohandle). In this example, the default gesture handler behavior will be suppressed because the TOUCHINPUT handle is closed in each of the gesture cases. If you removed the cases in the above code for unhandled messages, the default gesture handler would process the messages by getting forwarded to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637) in the default case.
+> You should always forward unhandled messages to [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx) and should close the gesture input handle for messages that you do handle with a call to [**CloseGestureInfoHandle**](/windows/desktop/api/winuser/nf-winuser-closegestureinfohandle). In this example, the default gesture handler behavior will be suppressed because the TOUCHINPUT handle is closed in each of the gesture cases. If you removed the cases in the above code for unhandled messages, the default gesture handler would process the messages by getting forwarded to [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx) in the default case.
 
  
 

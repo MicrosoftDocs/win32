@@ -68,7 +68,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
 5.  Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
 6.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface (pJob).
-7.  Initialize COM process security by calling [CoInitializeSecurity](https://go.microsoft.com/fwlink/p/?linkid=162390). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
+7.  Initialize COM process security by calling [CoInitializeSecurity](https://msdn.microsoft.com/library/ms693736.aspx). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
 8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( https://go.microsoft.com/fwlink/p/?linkid=162386) function.
 9.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method.
 10. Get a pointer to the CNotifyInterface callback interface and call the [**IBackgroundCopyJob::SetNotifyInterface**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
@@ -79,7 +79,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 15. Set up a while loop to wait for Quit Message from the callback interface while the job is transferring.
 
     > [!Note]  
-    > This step is necessary only if the COM apartment is a single-threaded apartment. For more information, see [Single-Threaded Apartments](https://go.microsoft.com/fwlink/p/?linkid=163801).
+    > This step is necessary only if the COM apartment is a single-threaded apartment. For more information, see [Single-Threaded Apartments](https://msdn.microsoft.com/library/ms680112.aspx).
 
      
 
@@ -106,7 +106,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
     
 
-    The preceding loop uses the [GetTickCount](https://go.microsoft.com/fwlink/p/?linkid=162392) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
+    The preceding loop uses the [GetTickCount](https://msdn.microsoft.com/library/ms724408.aspx) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
 
 16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete).
 

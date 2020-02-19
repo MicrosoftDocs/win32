@@ -45,7 +45,7 @@ api_location:
 The **CIM\_StorageExtent** class represents the capabilities and management of the various media that exist to store data and allow data retrieval. This parent class can represent the various components of RAID (hardware or software) or a raw logical extent on top of physical media.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

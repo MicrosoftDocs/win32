@@ -14,19 +14,19 @@ These samples demonstrate the packaging, deployment, and query APIs for Windows 
 
 The following are sample desktop apps:
 
--   [Create app package sample (CreateAppx)](https://go.microsoft.com/fwlink/p/?linkid=236965)
--   [Extract app package contents sample (ExtractAppx)](https://go.microsoft.com/fwlink/p/?linkid=106455)
--   [Query app package and app manifest sample (DescribeAppx)](https://go.microsoft.com/fwlink/p/?linkid=236966)
+-   [Create app package sample (CreateAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
+-   [Extract app package contents sample (ExtractAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Package-Extraction-b0f5d164)
+-   [Query app package and app manifest sample (DescribeAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92)
 
 ## Package deployment API samples
 
 The following are sample desktop apps:
 
--   [Add app package sample (AddPackage)](https://go.microsoft.com/fwlink/p/?linkid=236968)
--   [Enumerate app packages sample (FindPackages)](https://go.microsoft.com/fwlink/p/?linkid=236973)
--   [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://go.microsoft.com/fwlink/p/?linkid=236974)
--   [Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://go.microsoft.com/fwlink/p/?linkid=236975)
--   [Remove app package sample (RemovePackage)](https://go.microsoft.com/fwlink/p/?linkid=236972)
+-   [Add app package sample (AddPackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-f4a89ec0)
+-   [Enumerate app packages sample (FindPackages)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079)
+-   [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
+-   [Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a)
+-   [Remove app package sample (RemovePackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-ae818077)
 
 ## Package query samples
 

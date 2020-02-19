@@ -20,7 +20,7 @@ Windows 7 supports high *DPI* displays. Market data suggests that deployments o
 
 The Windows*DPI* scaling feature scales fonts and user interface elements (such as buttons, icons, and input fields) by a calculated percentage, as specified by the *DPI* setting. This is different from the scaling that occurs when the display resolution is lowered. In the case of *DPI* scaling, Windows provides fonts and user interface elements that are drawn with more pixels, resulting in a larger, higher fidelity, and sharper Windows experience. Third-party Windows applications can leverage *High DPI* settings and adjust the user interface accordingly, by declaring themselves *High DPI* aware. Application developers should no longer assume that 96 dpi is the ideal resolution for all applications.
 
-For more information about *High DPI* and about writing applications that are *High DPI* aware, see [High DPI](https://go.microsoft.com/?linkid=9669709).
+For more information about *High DPI* and about writing applications that are *High DPI* aware, see [High DPI](https://msdn.microsoft.com/library/dd464646(VS.85).aspx).
 
  
 

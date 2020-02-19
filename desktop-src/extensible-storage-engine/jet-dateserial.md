@@ -34,7 +34,7 @@ The **JET_DATESERIAL** data type represents a date in fractional days since the 
 
 JET_DATESERIAL
 
-Holds a double-precision (8-byte) floating point number. This is the same as the C++ [DATE](https://go.microsoft.com/fwlink/?linkid=180735) type.
+Holds a double-precision (8-byte) floating point number. This is the same as the C++ [DATE](https://msdn.microsoft.com/library/82ab7w69(VS.71).aspx) type.
 
 ### Requirements
 
@@ -62,5 +62,5 @@ Holds a double-precision (8-byte) floating point number. This is the same as the
 
 ### See Also
 
-[DATE](https://go.microsoft.com/fwlink/?linkid=180735)
+[DATE](https://msdn.microsoft.com/library/82ab7w69(VS.71).aspx)
 

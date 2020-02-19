@@ -40,14 +40,14 @@ NTSTATUS NtQueryAttributesFile(
 *ObjectAttributes* \[in\]
 </dt> <dd>
 
-A pointer to an [OBJECT\_ATTRIBUTES](https://go.microsoft.com/fwlink/p/?linkid=85317) structure that supplies the attributes to be used for the file object.
+A pointer to an [OBJECT\_ATTRIBUTES](https://msdn.microsoft.com/library/aa491657.aspx) structure that supplies the attributes to be used for the file object.
 
 </dd> <dt>
 
 *FileInformation* \[out\]
 </dt> <dd>
 
-A pointer to a [FILE\_BASIC\_INFORMATION](https://go.microsoft.com/fwlink/p/?linkid=119327) structure to receive the returned file attribute information.
+A pointer to a [FILE\_BASIC\_INFORMATION](https://msdn.microsoft.com/library/aa491634.aspx) structure to receive the returned file attribute information.
 
 </dd> </dl>
 

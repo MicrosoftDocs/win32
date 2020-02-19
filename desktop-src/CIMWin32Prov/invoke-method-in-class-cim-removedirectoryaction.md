@@ -21,7 +21,7 @@ api_location:
 The **Invoke** method of the [**CIM\_RemoveDirectoryAction**](cim-removedirectoryaction.md) class takes a particular action. The details of how the method performs the action is implementation specific. This method is inherited from [**CIM\_Action**](cim-action.md).
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

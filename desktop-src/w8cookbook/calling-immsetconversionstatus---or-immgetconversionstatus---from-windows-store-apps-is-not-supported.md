@@ -41,9 +41,9 @@ The IME mode for a specified input scope is determined by each IME. Developers c
 
 ## Resources
 
--   [InputScope Enumeration](https://go.microsoft.com/fwlink/p/?LinkId=325301)
--   [ImmSetConversionStatus](https://go.microsoft.com/fwlink/p/?LinkId=325302)
--   [ImmGetConversionStatus](https://go.microsoft.com/fwlink/p/?LinkId=325303)
+-   [InputScope Enumeration](https://msdn.microsoft.com/library/windows/desktop/ms538181(v=vs.85).aspx)
+-   [ImmSetConversionStatus](https://msdn.microsoft.com/library/windows/desktop/dd318584(v=vs.85).aspx)
+-   [ImmGetConversionStatus](https://msdn.microsoft.com/library/aa912903.aspx)
 
  
 

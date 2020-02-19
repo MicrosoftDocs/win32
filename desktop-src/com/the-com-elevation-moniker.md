@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The COM Elevation Moniker
 
-The COM elevation moniker allows applications that are running under user account control (UAC) to activate COM classes with elevated privileges. For more information, see [Focus on Least Privilege](https://go.microsoft.com/fwlink/p/?linkid=103693).
+The COM elevation moniker allows applications that are running under user account control (UAC) to activate COM classes with elevated privileges. For more information, see [Focus on Least Privilege](https://msdn.microsoft.com/library/aa480194.aspx).
 
 ## When to Use the Elevation Moniker
 
@@ -126,7 +126,7 @@ HRESULT CoCreateInstanceAsAdmin(HWND hwnd, REFCLSID rclsid, REFIID riid, __out v
 
 The only addition is an **HWND** field, **hwnd**. This handle represents a window that becomes the owner of the Elevation UI, if applicable.
 
-If **hwnd** is **NULL**, COM will call [GetActiveWindow](https://go.microsoft.com/fwlink/p/?linkid=103701) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure. In this case, COM will try to use the window associated with the script thread.
+If **hwnd** is **NULL**, COM will call [GetActiveWindow](https://msdn.microsoft.com/library/ms646292.aspx) to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a [**BIND\_OPTS3**](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure. In this case, COM will try to use the window associated with the script thread.
 
 ## Over-The-Shoulder (OTS) Elevation
 
@@ -257,7 +257,7 @@ Windows Vista introduces the notion of *mandatory access labels* in security des
 
 As of Windows Vista, dcomcnfg.exe does not support changing the integrity level (IL) in COM permissions. It must be set programmatically.
 
-The following code example shows how to create a COM security descriptor with a label that allows launch/activation requests from all LOW IL clients. Note that the labels are valid for Launch/Activation and Call permissions. Thus, it is possible to write a COM server that disallows launch, activation or calls from clients with a certain IL. For more information about integrity levels, see the section "Understanding Windows Vista's Integrity Mechanism" in [Understanding and Working in Protected Mode Internet Explorer](https://go.microsoft.com/fwlink/p/?linkid=103717).
+The following code example shows how to create a COM security descriptor with a label that allows launch/activation requests from all LOW IL clients. Note that the labels are valid for Launch/Activation and Call permissions. Thus, it is possible to write a COM server that disallows launch, activation or calls from clients with a certain IL. For more information about integrity levels, see the section "Understanding Windows Vista's Integrity Mechanism" in [Understanding and Working in Protected Mode Internet Explorer](https://msdn.microsoft.com/library/bb250462.aspx).
 
 
 ```C++
@@ -327,7 +327,7 @@ This entry provides an "Activate As Activator" server with the same functionalit
 [Security in COM](security-in-com.md)
 </dt> <dt>
 
-[Understanding and Working in Protected Mode Internet Explorer](https://go.microsoft.com/fwlink/p/?linkid=103717)
+[Understanding and Working in Protected Mode Internet Explorer](https://msdn.microsoft.com/library/bb250462.aspx)
 </dt> </dl>
 
  

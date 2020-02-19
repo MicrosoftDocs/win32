@@ -112,7 +112,7 @@ This column contains binary information. If the Attribute field is marked with t
 
 To use an embedded user interface, the setup developer must author this functionality into the Windows Installer package. The MsiEmbeddedUI table defines the embedded user interface. The DLL for the embedded UI should export the [*InitializeEmbeddedUI*](initializeembeddedui.md), [*EmbeddedUIHandler*](embeddeduihandler.md), and [*ShutdownEmbeddedUI*](shutdownembeddedui.md) functions. Packages that do not support an embedded user interface can use the Windows Installer internal user interface.
 
-To run [Debugging Tools for Windows](https://go.microsoft.com/fwlink/p/?linkid=84137) on an embedded user interface, use the techniques described in [Debugging Custom Actions](debugging-custom-actions.md). Set the value of MsiBreak to MsiEmbeddedUI.
+To run [Debugging Tools for Windows](https://www.microsoft.com/?ref=go) on an embedded user interface, use the techniques described in [Debugging Custom Actions](debugging-custom-actions.md). Set the value of MsiBreak to MsiEmbeddedUI.
 
 For an example of an embedded custom UI see [Using an Embedded UI](using-an-embedded-ui.md).
 

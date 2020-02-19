@@ -173,7 +173,7 @@ HRESULT PrintSensorProperties(ISensor* pSensor)
 
 Before you can set property values for a sensor, the user must enable the sensor. Also, not all sensor properties can be set.
 
-To set one or more values for properties, call [**ISensor::SetProperties**](https://msdn.microsoft.com/library/Dd318899(v=VS.85).aspx). You provide this method with an [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) pointer that contains the collection of properties to set, and their associated values. The method returns a corresponding [IPortableDeviceValues](https://go.microsoft.com/fwlink/p/?linkid=134660) interface that may contain error codes for properties that could not be set.
+To set one or more values for properties, call [**ISensor::SetProperties**](https://msdn.microsoft.com/library/Dd318899(v=VS.85).aspx). You provide this method with an [IPortableDeviceValues](https://msdn.microsoft.com/library/ms740012(VS.85).aspx) pointer that contains the collection of properties to set, and their associated values. The method returns a corresponding [IPortableDeviceValues](https://msdn.microsoft.com/library/ms740012(VS.85).aspx) interface that may contain error codes for properties that could not be set.
 
 The following example code creates a helper function that sets a new value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property. The function takes a pointer to the sensor for which to set the property, and a **ULONG** value that indicates the new report interval to be set. (Note that setting a value for this particular property does not guarantee that the sensor will accept the specified value. See [**Sensor Properties**](sensor-properties.md) for information about how this property works.)
 

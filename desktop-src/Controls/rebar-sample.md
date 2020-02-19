@@ -35,7 +35,7 @@ The Rebar Sample shows how to implement a simple rebar common control in an appl
 
 ## Downloading the Sample
 
-The Rebar Sample is installed as part of the [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=147890) and is available in the following location.
+The Rebar Sample is installed as part of the [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windows/bb980924.aspx) and is available in the following location.
 
 
 

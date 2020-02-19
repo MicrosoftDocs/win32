@@ -30,7 +30,7 @@ One of the following conditions may cause the message to display:
 This can occur if one of the following conditions exists:
 
 -   Check your browser's security options. Your browser must be set to enable the loading of ActiveX scripts and playing of ActiveX controls.
--   If you are accessing pages scripted with Microsoft Agent and using Microsoft Internet Explorer, you must have version 3.02 or later (download the latest version of Internet Explorer at [https://www.microsoft.com/windows/ie/](https://go.microsoft.com/fwlink/p/?linkid=198364)<https://www.microsoft.com/windows/ie/>). In Microsoft Internet Explorer, open the View menu, choose Options, click the Security tab, and select all the Active Content check boxes.
+-   If you are accessing pages scripted with Microsoft Agent and using Microsoft Internet Explorer, you must have version 3.02 or later (download the latest version of Internet Explorer at [https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/internet-explorer/default.aspx)<https://www.microsoft.com/windows/ie/>). In Microsoft Internet Explorer, open the View menu, choose Options, click the Security tab, and select all the Active Content check boxes.
 -   A Java applet on the page can also cause this error. To run Microsoft Agent on the same page as a Java applet requires version 2.0 of the Microsoft Virtual Machine (VM). For more information, see the [Programming/Scripting FAQ](programming-scripting-faq.md).
 
 ### When I attempt to load a page scripted for Microsoft Agent, I get the message, "Unable to initialize Microsoft Agent."
@@ -43,7 +43,7 @@ This may appear if you attempt to install Microsoft Agent on Microsoft Internet 
 
 ### When I attempt to load a page scripted for Microsoft Agent using Netscape Navigator (or other Internet browsers), I get errors.
 
-Microsoft Agent is implemented using ActiveX interfaces. You can use it only with a browser (such as Microsoft Internet Explorer) that supports embedding ActiveX objects through script on a page, and only on systems running Microsoft Windows 95, Windows 98, and Windows NT 4.0 (or later). If you are not using Microsoft Internet Explorer ([https://www.microsoft.com/windows/ie/](https://go.microsoft.com/fwlink/p/?linkid=198364)), check with your browser vendor for further information on ActiveX support.
+Microsoft Agent is implemented using ActiveX interfaces. You can use it only with a browser (such as Microsoft Internet Explorer) that supports embedding ActiveX objects through script on a page, and only on systems running Microsoft Windows 95, Windows 98, and Windows NT 4.0 (or later). If you are not using Microsoft Internet Explorer ([https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/internet-explorer/default.aspx)), check with your browser vendor for further information on ActiveX support.
 
  
 

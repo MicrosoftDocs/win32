@@ -15,7 +15,7 @@ This section describes the document technologies that are supported by Microsoft
 -   [XPS Document Tools](#xps-document-tools)
 -   [Related topics](#related-topics)
 
-The content in this section is intended for programmers. If you are not interested in programming, you can [search for more information about documents](https://go.microsoft.com/?linkid=9693458).
+The content in this section is intended for programmers. If you are not interested in programming, you can [search for more information about documents](https://www.bing.com/search?q=XPS Documents).
 
 ## Choosing a Document Technology
 
@@ -85,11 +85,11 @@ The following tools are available to assist you with testing and troubleshooting
 
     Tests a file's conformity to the XML Paper Specification (XPS) and the Open Packaging Conventions (OPC) Specification.
 
--   [XpsAnalyzer](https://go.microsoft.com/fwlink/p/?linkid=163545)
+-   [XpsAnalyzer](https://msdn.microsoft.com/library/ff556218.aspx)
 
     A command-prompt tool that analyzes XPS document files for compatibility with the XPS 1.0 specification.
 
--   [PTConform](https://go.microsoft.com/fwlink/p/?linkid=163546)
+-   [PTConform](https://msdn.microsoft.com/library/dd327476.aspx)
 
     A tool that checks the validity of PrintTicket and PrintCapabilities documents.
 
@@ -106,10 +106,10 @@ The following tools are available to assist you with testing and troubleshooting
 [Printing](https://msdn.microsoft.com/library/Ff686805(v=VS.85).aspx)
 </dt> <dt>
 
-[Print Sample Program](https://go.microsoft.com/?linkid=9737083)
+[Print Sample Program](https://code.msdn.microsoft.com/WindowsPrintSample)
 </dt> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

@@ -82,7 +82,7 @@ Windows Vista Service Pack 1 extends the Direct3D 10 API with Direct3D 10.1, whi
  
 
 > [!Note]  
-> Windows 7 and the Windows Vista update ([KB 971644](https://go.microsoft.com/fwlink/p/?linkid=160189)) add support for DXGI 1.1, 10level9 feature levels, and the WARP10 device to the existing Direct3D 10.1 API.
+> Windows 7 and the Windows Vista update ([KB 971644](https://support.microsoft.com/kb/971644)) add support for DXGI 1.1, 10level9 feature levels, and the WARP10 device to the existing Direct3D 10.1 API.
 
  
 
@@ -93,7 +93,7 @@ Windows 7 supports a new revision of Direct3D, Direct3D 11, built on the design 
 In addition to the Direct3D 11 API, Windows 7 includes DXGI 1.1, Direct2D, DirectWrite, and support for WDDM 1.1 drivers.
 
 > [!Note]  
-> The Direct3D 11 and related APIs are also available as an update to Windows Vista (see [KB 971644](https://go.microsoft.com/fwlink/p/?linkid=160189)).
+> The Direct3D 11 and related APIs are also available as an update to Windows Vista (see [KB 971644](https://support.microsoft.com/kb/971644)).
 
  
 

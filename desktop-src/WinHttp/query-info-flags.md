@@ -209,7 +209,7 @@ Retrieves the resource location for the entity enclosed in the message.
 
 
 
-Retrieves an MD5 digest of the entity body for the purpose of providing an end-to-end message integrity check for the entity body. For more information, see [RFC 1864](https://go.microsoft.com/fwlink/p/?linkid=84555).
+Retrieves an MD5 digest of the entity body for the purpose of providing an end-to-end message integrity check for the entity body. For more information, see [RFC 1864](https://www.ietf.org/rfc/rfc1864.txt).
 
 
 </dt> </dl> </dd> <dt>

@@ -59,7 +59,7 @@ A filter at the [**FWPM\_LAYER\_ALE\_FLOW\_ESTABLISHED\_V{4\|6}**](management-fi
 
 A filter at this layer should not return Block or Permit.
 
-This layer is used by callout drivers to track connection state, described in detail in the [Windows Driver Kit](https://go.microsoft.com/fwlink/p/?linkid=95958) documentation.
+This layer is used by callout drivers to track connection state, described in detail in the [Windows Driver Kit](https://msdn.microsoft.com/library/ff571068.aspx) documentation.
 
 ## RESOURCE\_RELEASE
 

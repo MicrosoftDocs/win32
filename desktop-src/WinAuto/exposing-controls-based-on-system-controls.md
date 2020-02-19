@@ -21,7 +21,7 @@ If after using these utilities you determine that the modified control is not ac
 If all or most of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) properties for the modified control are the same as the base control, use [**CreateStdAccessibleProxy**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleproxya) or [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject) to simplify the implementation of the control's **IAccessible** interface.
 
 > [!Note]  
-> When superclassing or subclassing an accessible control, be aware that the object retrieved by the [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject) function may implement more than just the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface. It may include other interfaces such as [IEnumVARIANT](https://go.microsoft.com/fwlink/p/?linkid=120799). You might need to wrap these additional interfaces to retain the accessibility support provided by the original implemenation of the control.
+> When superclassing or subclassing an accessible control, be aware that the object retrieved by the [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject) function may implement more than just the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface. It may include other interfaces such as [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053.aspx). You might need to wrap these additional interfaces to retain the accessibility support provided by the original implemenation of the control.
 
  
 

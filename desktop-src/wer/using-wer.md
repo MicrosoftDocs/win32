@@ -55,7 +55,7 @@ To exclude your application from Windows error reporting, use the [**WerAddExclu
 
 ## Windows Error Reporting Samples
 
-For samples that use the WER functions, see [Windows Error Reporting (WER) Code Samples](https://go.microsoft.com/fwlink/p/?linkid=121560).
+For samples that use the WER functions, see [Windows Error Reporting (WER) Code Samples](https://code.msdn.microsoft.com/WERCodeSamples/Release/ProjectReleases.aspx?ReleaseId=121).
 
 ## Automatically recovering data and restarting a faulted application
 

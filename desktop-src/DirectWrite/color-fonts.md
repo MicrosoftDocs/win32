@@ -223,7 +223,7 @@ args.DrawingSession.DrawText(
 
 ## Related topics
 
-[DirectWrite color glyph sample](https://go.microsoft.com/fwlink/p/?LinkId=832476)
+[DirectWrite color glyph sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
 
 
 [DirectWrite Color Font Fallback sample](https://code.msdn.microsoft.com/windowsapps/DirectWrite-Color-Font-ef762d88)

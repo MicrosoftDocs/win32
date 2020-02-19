@@ -34,7 +34,7 @@ The mode ID setting of the TTS engine for the character.
 
 </dd> </dl>
 
-This setting determines the preferred engine mode for a character's spoken TTS output. The mode ID for a TTS (text-to-speech) engine is the GUID defined by the speech vendor that uniquely identifies the mode of the engine (formatted with braces and dashes). For more information, see the [Microsoft Speech SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=198367).
+This setting determines the preferred engine mode for a character's spoken TTS output. The mode ID for a TTS (text-to-speech) engine is the GUID defined by the speech vendor that uniquely identifies the mode of the engine (formatted with braces and dashes). For more information, see the [Microsoft Speech SDK documentation](https://msdn.microsoft.com/library/ee705648.aspx).
 
 If you set a TTS mode ID, it overrides the server attempt to match a speech engine based on the character's compiled TTS mode ID, the current system language ID, and the character's current language ID. However, if you attempt to set a mode ID when the user has disabled speech output in the Microsoft Agent property sheet or when the associated engine is not installed, this call will fail.
 

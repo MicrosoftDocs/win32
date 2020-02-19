@@ -27,7 +27,7 @@ The **WM/GenreID** attribute is a genre identifier compliant with the TCON tag i
 
 This attribute is stored only in the digital media file.
 
-ID3 version 2 is a tagging convention that was originally designed for MP3. For more information, see the [ID3 organization's website](https://go.microsoft.com/fwlink/p/?linkid=4467).
+ID3 version 2 is a tagging convention that was originally designed for MP3. For more information, see the [ID3 organization's website](http://www.id3.org/index.html).
 
 The Windows Media Format SDK constant for this attribute is g\_wszGenreID.
 

@@ -24,7 +24,7 @@ api_location:
 The **CIM\_ServiceServiceDependency** class represents an association between two services. The associated service must be present, must have completed, or must be absent for the other service to function. For example, boot services can be dependent on underlying BIOS, disk, and initialization services. For initialization services, the boot service is dependent on the initialization services completing. For disk services, boot services can actually use the SAPs of this service. This usage dependency is modeled on the [**CIM\_ServiceSAPDependency**](cim-servicesapdependency.md) association.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

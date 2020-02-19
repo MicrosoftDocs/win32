@@ -70,7 +70,7 @@ return 0;
 [Using Pager Controls](using-pager-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=218879)
+[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
 </dt> </dl>
 
  

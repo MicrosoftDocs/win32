@@ -13,7 +13,7 @@ You can subscribe to receive and store events on a local computer (event collect
 
 ## Event Forwarding and Event Collection Architecture
 
-Event collection allows administrators to get events from remote computers and store them in a local event log on the collector computer. The destination log path for the events is a property of the subscription. All data in the forwarded event is saved in the collector computer event log (none of the information is lost). Additional information related to the event forwarding is also added to the event. For more information about how to enable a computer to receive collected events or forward events, see [Configure Computers to Forward and Collect Events](https://go.microsoft.com/fwlink/p/?linkid=73696).
+Event collection allows administrators to get events from remote computers and store them in a local event log on the collector computer. The destination log path for the events is a property of the subscription. All data in the forwarded event is saved in the collector computer event log (none of the information is lost). Additional information related to the event forwarding is also added to the event. For more information about how to enable a computer to receive collected events or forward events, see [Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx).
 
 ## Subscriptions
 

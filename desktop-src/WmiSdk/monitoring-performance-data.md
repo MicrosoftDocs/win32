@@ -124,7 +124,7 @@ Next
 
 The following VBScript code example obtains raw, current percent processor time on the local computer and converts it to a percentage. The example shows you how to obtain raw performance data from the **PercentProcessorTime** property of the [**Win32\_PerfRawData\_PerfOS\_Processor**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class.
 
-To calculate the percent processor time value, you must locate the formula. Look up the value in the **CounterType** qualifier for the **PercentProcessorTime** property in the [**CounterType Qualifier**](countertype-qualifier.md) table to get the constant name. Locate the constant name in [Counter Types](https://Go.Microsoft.Com/FWLink/p/?LinkID=44341) to obtain the formula.
+To calculate the percent processor time value, you must locate the formula. Look up the value in the **CounterType** qualifier for the **PercentProcessorTime** property in the [**CounterType Qualifier**](countertype-qualifier.md) table to get the constant name. Locate the constant name in [Counter Types](https://technet.microsoft.com/library/cc785636(WS.10).aspx) to obtain the formula.
 
 
 ```VB

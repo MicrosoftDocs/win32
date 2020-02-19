@@ -29,7 +29,7 @@ Each application creates its own request queue. An application obtains its reque
 Use the [**HttpReceiveRequestEntityBody**](/windows/desktop/api/Http/nf-http-httpreceiverequestentitybody) function with the request queue handle to retrieve subsequent portions of a request's entity body, if any.
 
 > [!Note]  
-> The HTTP Server API decodes chunked messages on the receive side, but does not perform chunked encoding on the send side. If chunking is required on the send side, the application must implement it. For more information about chunked encoding, see [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048).
+> The HTTP Server API decodes chunked messages on the receive side, but does not perform chunked encoding on the send side. If chunking is required on the send side, the application must implement it. For more information about chunked encoding, see [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt).
 
  
 

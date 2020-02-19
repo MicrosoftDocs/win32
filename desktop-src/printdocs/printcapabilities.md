@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintCapabilities
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 A PrintCapabilities element represents the root of the PrintCapabilities document. The PrintCapabilities document contains all of the information needed to describe the supported device attributes, given a particular device configuration.
 
@@ -60,7 +60,7 @@ See [PrintCapabilities Document Example](printcapabilities-document-example.md).
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Render Spatial Sound Using Spatial Audio Objects
 
-This article presents some simple examples that illustrate how to implement spatial sound using static spatial audio objects, dynamic spatial audio objects, and spatial audio objects that use Microsoft's Head Relative Transfer Function (HRTF). The implementation steps for all three of these techniques are very similar and this article provides a similarly structured code example for each technique. For complete end-to-end examples of real-world spatial audio implementations, see [Microsoft Spatial Sound samples github repository](https://aka.ms/MSSpatialSamples). For an overview of Windows Sonic, Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, see [Spatial Sound](spatial-sound.md).
+This article presents some simple examples that illustrate how to implement spatial sound using static spatial audio objects, dynamic spatial audio objects, and spatial audio objects that use Microsoft's Head Relative Transfer Function (HRTF). The implementation steps for all three of these techniques are very similar and this article provides a similarly structured code example for each technique. For complete end-to-end examples of real-world spatial audio implementations, see [Microsoft Spatial Sound samples github repository](https://github.com/Microsoft/Xbox-ATG-Samples/tree/master/UWPSamples/Audio). For an overview of Windows Sonic, Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, see [Spatial Sound](spatial-sound.md).
 
 ## Render audio using static spatial audio objects
 

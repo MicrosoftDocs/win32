@@ -23,7 +23,7 @@ api_location:
 The **CIM\_DeviceServiceImplementation** class represents an association between a service and how it is implemented. When multiple devices are associated with one service, the elements operate in conjunction to provide the service. If different implementations of a service exist, each implementation results in individual instantiations of the service object.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

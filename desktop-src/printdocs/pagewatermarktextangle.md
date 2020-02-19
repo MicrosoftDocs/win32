@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageWatermarkTextAngle
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Specifies the angle of the watermark text relative to the PageImageableSizeWidth direction. The angle is measured in the counter-clockwise direction.
 
@@ -84,7 +84,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

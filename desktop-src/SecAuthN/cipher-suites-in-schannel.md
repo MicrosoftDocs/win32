@@ -42,7 +42,7 @@ Different Windows versions support different TLS cipher suites and priority orde
 
 **Windows 10, version 1511:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1511](tls-cipher-suites-in-windows-10-v1511.md)
 
-**Windows 10, version 1507:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1507](https://aka.ms/schannel1507)
+**Windows 10, version 1507:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1507](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10--version-1507?redirectedfrom=MSDN)
 
 **Windows Server 2012 R2 and Windows 8.1:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 8.1](tls-cipher-suites-in-windows-8-1.md)
 

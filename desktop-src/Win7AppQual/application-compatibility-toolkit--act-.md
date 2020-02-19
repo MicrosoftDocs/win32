@@ -33,10 +33,10 @@ With the ACT, you can:
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)
--   [Introduction to the Application Compatibility Toolkit](https://go.microsoft.com/fwlink/p/?linkid=205021)
--   [Application Compatibility Toolkit Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=205022)
--   [ACT Walkthrough Exercises](https://go.microsoft.com/fwlink/p/?linkid=205023)
+-   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
+-   [Introduction to the Application Compatibility Toolkit](https://technet.microsoft.com/library/cc722367(WS.10).aspx)
+-   [Application Compatibility Toolkit Technical Reference](https://technet.microsoft.com/library/cc749328.aspx)
+-   [ACT Walkthrough Exercises](https://technet.microsoft.com/library/cc766493.aspx)
 
  
 

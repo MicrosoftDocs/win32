@@ -129,7 +129,7 @@ Contains the last change of the shadow information.
 
 <dl> <dt>
 
-[RFC 2307](https://go.microsoft.com/fwlink/p/?linkid=84039)
+[RFC 2307](https://www.ietf.org/rfc/rfc2307.txt)
 </dt> </dl>
 
  

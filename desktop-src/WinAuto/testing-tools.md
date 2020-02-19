@@ -56,4 +56,4 @@ The **Accessible Explorer** and **UI Spy** tools are obsolete and no longer avai
 ## Related topics
 
 - [Accessibility Developer Hub](https://developer.microsoft.com/windows/accessible-apps)
-- [Microsoft accessibility](https://go.microsoft.com/fwlink/p/?LinkId=320802)
+- [Microsoft accessibility](https://www.microsoft.com/accessibility/)

@@ -49,7 +49,7 @@ typedef UINT32 MessageId;
 **ProbationTime**
 </dt> <dd>
 
-A [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains a time related to a client machine's probation.
+A [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx) structure that contains a time related to a client machine's probation.
 
 </dd> <dt>
 

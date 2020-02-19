@@ -27,8 +27,8 @@ ms.date: 05/31/2018
 > [!Note]  
 > Instead of using this function, we recommend that you use these:
 >
-> -   [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library (runtime), **CreateXXXTextureFromFile** (where XXX is DDS or WIC)
-> -   [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXFile** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then **CreateTexture**
+> -   [DirectXTK](https://github.com/Microsoft/DirectXTK) library (runtime), **CreateXXXTextureFromFile** (where XXX is DDS or WIC)
+> -   [DirectXTex](https://github.com/Microsoft/DirectXTex) library (tools), **LoadFromXXXFile** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then **CreateTexture**
 
  
 

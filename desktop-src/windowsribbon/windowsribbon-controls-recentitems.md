@@ -70,7 +70,7 @@ The following table lists the property keys that are associated with the Recent 
 
 ## Remarks
 
-The [IApplicationDocumentLists::GetList](https://go.microsoft.com/fwlink/p/?linkid=155812) method can be used to retrieve the Windows Shell MRU list for the Ribbon application. The object retrieved by this method can then be used by the application to create the data required by the Ribbon framework to populate the **Recent items** list of the [Application Menu](windowsribbon-controls-applicationmenu.md).
+The [IApplicationDocumentLists::GetList](https://msdn.microsoft.com/library/dd378410(VS.85).aspx) method can be used to retrieve the Windows Shell MRU list for the Ribbon application. The object retrieved by this method can then be used by the application to create the data required by the Ribbon framework to populate the **Recent items** list of the [Application Menu](windowsribbon-controls-applicationmenu.md).
 
 > [!Note]  
 > When using this method, *listtype* should have the value `ADLT_RECENT`.

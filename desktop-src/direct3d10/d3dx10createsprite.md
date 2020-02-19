@@ -21,7 +21,7 @@ api_location:
 Create a sprite for drawing a 2D texture.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and the [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteBatch** class.
+> Instead of using this function, we recommend that you use [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and the [DirectXTK](https://github.com/Microsoft/DirectXTK) library, **SpriteBatch** class.
 
  
 

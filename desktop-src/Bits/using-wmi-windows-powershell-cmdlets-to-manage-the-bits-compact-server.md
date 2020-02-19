@@ -20,9 +20,9 @@ Windows PowerShell provides a simple mechanism to connect to Windows Management 
 
     
 
-    The [Get-Credential](https://go.microsoft.com/fwlink/p/?linkid=155904) cmdlet requests the user's credentials to connect to the remote computer and assigns the credentials to the $cred object.
+    The [Get-Credential](https://technet.microsoft.com/library/dd315327.aspx) cmdlet requests the user's credentials to connect to the remote computer and assigns the credentials to the $cred object.
 
-    The objects returned by the [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476) cmdlet are assigned to the $bcs variable. In the preceding example, the [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476) cmdlet retrieves the [BITSCompactServerUrlGroup](https://go.microsoft.com/fwlink/p/?linkid=160846) class in the root\\Microsoft\\BITS namespace of Server1. Static methods exposed by the [BITSCompactServerUrlGroup](https://go.microsoft.com/fwlink/p/?linkid=160846) class can be called on the $bcs object. For more information about BITS remote management, see [BITS provider](https://go.microsoft.com/fwlink/p/?linkid=154267) and [BITS provider classes]( https://go.microsoft.com/fwlink/p/?linkid=160847).
+    The objects returned by the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet are assigned to the $bcs variable. In the preceding example, the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet retrieves the [BITSCompactServerUrlGroup](https://msdn.microsoft.com/library/dd904504.aspx) class in the root\\Microsoft\\BITS namespace of Server1. Static methods exposed by the [BITSCompactServerUrlGroup](https://msdn.microsoft.com/library/dd904504.aspx) class can be called on the $bcs object. For more information about BITS remote management, see [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx) and [BITS provider classes]( https://go.microsoft.com/fwlink/p/?linkid=160847).
 
     > [!Note]  
     > The grave-accent character (\`) is used to indicate a line break.
@@ -38,9 +38,9 @@ Windows PowerShell provides a simple mechanism to connect to Windows Management 
 
     
 
-    The "https://Server1:80/testurlgroup" URL prefix string is assigned to the $URLGroup variable. The $URLGroup variable is passed to the [CreateUrlGroup](https://go.microsoft.com/fwlink/p/?linkid=162116) method, which creates the URL group on Server1.
+    The "https://Server1:80/testurlgroup" URL prefix string is assigned to the $URLGroup variable. The $URLGroup variable is passed to the [CreateUrlGroup](https://msdn.microsoft.com/library/dd904510.aspx) method, which creates the URL group on Server1.
 
-    You can specify a different URL group. The URL group must conform to a valid URL prefix string. For more information about URL prefixes, see [UrlPrefix Strings](https://go.microsoft.com/fwlink/p/?linkid=143283).
+    You can specify a different URL group. The URL group must conform to a valid URL prefix string. For more information about URL prefixes, see [UrlPrefix Strings](https://msdn.microsoft.com/library/aa364698.aspx).
 
 3.  Host a file on the URL group.
 
@@ -51,7 +51,7 @@ Windows PowerShell provides a simple mechanism to connect to Windows Management 
 
     
 
-    The BITSCompactServerUrlGroup instance returned by the [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476) cmdlet is assigned to the $bcsObj variable. The [CreateUrl](https://go.microsoft.com/fwlink/p/?linkid=162129) method is called for the $bcsObj with the "url.txt" URL suffix, the "c:\\\\temp\\\\1.txt" source path for the file, and an empty security descriptor string as parameters. The "url.txt" suffix is added to the URL group prefix. Clients can download the file from the following address: https://Server1:80/testurlgroup/url.txt.
+    The BITSCompactServerUrlGroup instance returned by the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet is assigned to the $bcsObj variable. The [CreateUrl](https://msdn.microsoft.com/library/dd904511.aspx) method is called for the $bcsObj with the "url.txt" URL suffix, the "c:\\\\temp\\\\1.txt" source path for the file, and an empty security descriptor string as parameters. The "url.txt" suffix is added to the URL group prefix. Clients can download the file from the following address: https://Server1:80/testurlgroup/url.txt.
 
 4.  Clean up the URL and the URL group.
 
@@ -67,19 +67,19 @@ Windows PowerShell provides a simple mechanism to connect to Windows Management 
 
 <dl> <dt>
 
-[BITS Compact Server](https://go.microsoft.com/fwlink/p/?linkid=154264)
+[BITS Compact Server](https://msdn.microsoft.com/library/dd904465.aspx)
 </dt> <dt>
 
-[BITS provider](https://go.microsoft.com/fwlink/p/?linkid=154267)
+[BITS provider](https://msdn.microsoft.com/library/dd904506.aspx)
 </dt> <dt>
 
 [BITS provider classes]( https://go.microsoft.com/fwlink/p/?linkid=160847)
 </dt> <dt>
 
-[Get-Credential](https://go.microsoft.com/fwlink/p/?linkid=155904)
+[Get-Credential](https://technet.microsoft.com/library/dd315327.aspx)
 </dt> <dt>
 
-[Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476)
+[Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx)
 </dt> </dl>
 
  

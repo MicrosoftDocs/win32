@@ -97,7 +97,7 @@ This sample is configured to use Wi-Fi Protected Access 2 security running in En
 [Wireless Profile Samples](wireless-profile-samples.md)
 </dt> <dt>
 
-[Joining a Windows Vista Wireless Client to a Domain](https://go.microsoft.com/fwlink/p/?linkid=92471)
+[Joining a Windows Vista Wireless Client to a Domain](https://www.microsoft.com/technet/network/wifi/vista_bootstrap_wireless.mspx)
 </dt> </dl>
 
  

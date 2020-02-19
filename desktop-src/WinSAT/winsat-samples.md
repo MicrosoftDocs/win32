@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[WinSAT samples may be altered or unavailable for releases after Windows 8.1.\]
 
-The Windows System Assessment Tool (WinSAT) provides the following samples in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=84157).
+The Windows System Assessment Tool (WinSAT) provides the following samples in the [Windows SDK](https://msdn.microsoft.com/windows/bb980924.aspx).
 
 
 

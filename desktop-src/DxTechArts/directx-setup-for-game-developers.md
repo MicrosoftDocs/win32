@@ -24,7 +24,7 @@ This article is intended to address some of the common questions about the Direc
 
 The DirectX runtime consists of core components and optional components.
 
-The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](https://go.microsoft.com/fwlink/p/?linkid=160189)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](https://docs.microsoft.com/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) for more details.
+The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](https://support.microsoft.com/kb/971644)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](https://docs.microsoft.com/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) for more details.
 
 The optional components are released in updates of DirectX SDK, and they include D3DX, XACT, XAudio2, XINPUT, Managed DirectX, and other such components. Many of the optional components are regularly updated to integrate customer feedback and expose new features.
 
@@ -50,7 +50,7 @@ While ensuring that DLLs are installed on a system isn't as easy as simply linki
 ## Installation of DirectX by the Game's Installer
 
 > [!Note]  
-> See [Direct3D 11 Deployment for Game Developers](https://docs.microsoft.com/windows/desktop/direct3darticles/direct3d11-deployment) and the [D3D11InstallHelper sample](https://go.microsoft.com/fwlink/p/?LinkId=262642).
+> See [Direct3D 11 Deployment for Game Developers](https://docs.microsoft.com/windows/desktop/direct3darticles/direct3d11-deployment) and the [D3D11InstallHelper sample](https://code.msdn.microsoft.com/Direct3D-11-Install-Helper-3044575e).
 
  
 

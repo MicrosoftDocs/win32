@@ -18,7 +18,7 @@ There are three current versions of the XInput DLL today. Choose the appropriate
 
 ## XInput 1.4
 
-XInput 1.4 ships today as a system component in Windows 8 as XINPUT1\_4.DLL. It is available “inbox” and does not require redistribution with an application. The Windows Software Development Kit (SDK) contains the header and import library for statically linking against XINPUT1\_4.DLL. To download the Windows 8 SDK, see [Downloads for developing desktop apps](http://go.microsoft.com/fwlink/p/?linkid=253588).
+XInput 1.4 ships today as a system component in Windows 8 as XINPUT1\_4.DLL. It is available “inbox” and does not require redistribution with an application. The Windows Software Development Kit (SDK) contains the header and import library for statically linking against XINPUT1\_4.DLL. To download the Windows 8 SDK, see [Downloads for developing desktop apps](https://developer.microsoft.com/windows/downloads/).
 
 XInput 1.4 has these primary advantages over other versions of XInput:
 
@@ -40,7 +40,7 @@ XInput 1.4 has these disadvantages over other versions of XInput:
 
 ### XInput 1.3
 
-Some previous versions of XInput have been provided as redistributable DLLs in the DirectX SDK. The first redistributable version of XInput, XInput 1.1, shipped in the April 2006 release of the DirectX SDK. The last version to ship in the DirectX SDK was XInput 1.3, available in the June 2010 release of the DirectX SDK. For access to these versions of XInput, download previous versions of the DirectX SDK from the [Microsoft Download Center](http://go.microsoft.com/fwlink/p/?linkid=226640). We shipped the last version of the DirectX SDK in June 2010.
+Some previous versions of XInput have been provided as redistributable DLLs in the DirectX SDK. The first redistributable version of XInput, XInput 1.1, shipped in the April 2006 release of the DirectX SDK. The last version to ship in the DirectX SDK was XInput 1.3, available in the June 2010 release of the DirectX SDK. For access to these versions of XInput, download previous versions of the DirectX SDK from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=6812). We shipped the last version of the DirectX SDK in June 2010.
 
 You can use XInput 1.3 for applications that support down-level versions of Windows and require functionality not provided by XInput 9.1.0 (that is, correct subtype reporting, audio support, explicit battery reporting support, and so on).
 

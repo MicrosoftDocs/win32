@@ -94,7 +94,7 @@ The final notification is only sent if the control is in report mode and you ret
 **Other Resources**
 </dt> <dt>
 
-[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)](https://go.microsoft.com/fwlink/p/?linkid=198348)
+[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
  

@@ -36,7 +36,7 @@ The **IWordInfo** interface has these methods.
 
 | Method        | Description                                                                                                                                 |
 |:--------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| **BreakText** | Parses text to identify words and provides the results to the [WordSink](https://go.microsoft.com/fwlink/p/?linkid=85323) object.<br/> |
+| **BreakText** | Parses text to identify words and provides the results to the [WordSink](https://msdn.microsoft.com/library/ms691570.aspx) object.<br/> |
 
 
 
@@ -67,7 +67,7 @@ This interface is used to retrieve Japanese word breaks or dictionary forms for 
 [**WordInfo**](wordinfo-coclass.md)
 </dt> <dt>
 
-[WordSink](https://go.microsoft.com/fwlink/p/?linkid=85323)
+[WordSink](https://msdn.microsoft.com/library/ms691570.aspx)
 </dt> </dl>
 
  

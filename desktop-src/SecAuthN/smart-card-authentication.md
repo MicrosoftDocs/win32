@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Smart Card Authentication
 
-The basic parts of the [*smart card subsystem*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) are based on PC/SC standards (see the specifications at [https://www.pcscworkgroup.com/](https://go.microsoft.com/fwlink/p/?linkid=84156)). These basic parts include:
+The basic parts of the [*smart card subsystem*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) are based on PC/SC standards (see the specifications at [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/)). These basic parts include:
 
 -   A [*resource manager*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) that uses a Windows API.
 -   A [*user interface*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) (UI) that works with the resource manager.
@@ -35,7 +35,7 @@ For information about smart card authentication, see the following topics.
 
  
 
-Additionally, current Microsoft smart card developments can be found at [https://www.microsoft.com/whdc/device/input/smartcard/default.mspx](https://go.microsoft.com/fwlink/p/?linkid=84133).
+Additionally, current Microsoft smart card developments can be found at [https://www.microsoft.com/whdc/device/input/smartcard/default.mspx](https://www.microsoft.com/whdc/device/input/smartcard/default.mspx).
 
  
 

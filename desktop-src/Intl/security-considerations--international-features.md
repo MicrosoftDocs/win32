@@ -60,7 +60,7 @@ Windows code page and OEM character sets used on Japanese-language systems conta
 
 ## Security Considerations for Internationalized Domain Names
 
-Internationalized Domain Names (IDNs) are specified by Network Working Group [RFC 3490: Internationalizing Domain Names in Applications (IDNA)](https://go.microsoft.com/fwlink/p/?linkid=161551). The standard introduces a number of security issues.
+Internationalized Domain Names (IDNs) are specified by Network Working Group [RFC 3490: Internationalizing Domain Names in Applications (IDNA)](http://www.faqs.org/rfcs/rfc3490.html). The standard introduces a number of security issues.
 
 Glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("a") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "example.com" are two different domain names,one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. An unscrupulous host site can use this visual ambiguity to pretend to be another site in a spoofing attack.
 
@@ -68,11 +68,11 @@ The extended character set that IDNA allows for IDNs also has spoofing potential
 
 Similar issues arise from certain compatibility compositions. For example, the single Unicode character NUMBER TWENTY FULL STOP ("⒛", U+249B) is converted to "20." (U+0032 U+0030 U+002E) in a NamePrep step, prior to conversion to Punycode. In other words, this composition inserts a period (full stop). Such compositions have spoofing potential.
 
-Mixing of different scripts in an IDN does not necessarily indicate spoofing or deceptive intent. [Technical Report \#36: Unicode Security Considerations](https://go.microsoft.com/fwlink/p/?linkid=161648) gives several examples of reasonable IDNs that contain a mix of scripts, such as XML-Документы.com ("Документы" is Russian for "documents").
+Mixing of different scripts in an IDN does not necessarily indicate spoofing or deceptive intent. [Technical Report \#36: Unicode Security Considerations](https://www.unicode.org/reports/tr36/#international_domain_names) gives several examples of reasonable IDNs that contain a mix of scripts, such as XML-Документы.com ("Документы" is Russian for "documents").
 
 Spoofing attacks are not restricted to IDNs. For example, "rnicrosoft.com" looks much like "microsoft.com", yet it is an ASCII name. Additionally, a spoofing attack can be made by corruption of a name. Adding extra labels after a well-known brand name, or including the brand name in the path of a URL labeled as secure, can confuse novice users, regardless of the use of the IDN. For some locales, IDNs are required and the Punycode form of these names is unacceptable, since it makes the names look like gibberish.
 
-For more information about the security issues mentioned here, plus a large number of other issues relevant to IDNA, see [Technical Report \#36: Unicode Security Considerations](https://go.microsoft.com/fwlink/p/?linkid=161648). Along with detailed discussions of IDNA-related security issues, this report offers suggestions for dealing with suspect IDNs in your applications.
+For more information about the security issues mentioned here, plus a large number of other issues relevant to IDNA, see [Technical Report \#36: Unicode Security Considerations](https://www.unicode.org/reports/tr36/#international_domain_names). Along with detailed discussions of IDNA-related security issues, this report offers suggestions for dealing with suspect IDNs in your applications.
 
 ## Security Considerations for ANSI Functions
 

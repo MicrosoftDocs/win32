@@ -87,7 +87,7 @@ The value of the **level** attribute in this code is an example only.
 
 **UIAccess** is "false" by default. If the attribute is omitted, or if there is no manifest, the application cannot gain access to the protected UI.
 
-For more information on Windows security, on signing applications, and on creating manifests, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=147554) on MSDN.
+For more information on Windows security, on signing applications, and on creating manifests, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](https://msdn.microsoft.com/library/aa905330.aspx) on MSDN.
 
 ## Related topics
 

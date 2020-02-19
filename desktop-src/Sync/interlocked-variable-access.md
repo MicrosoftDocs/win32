@@ -34,7 +34,7 @@ Most of the interlocked functions provide full memory barriers on all Windows pl
 
 <dl> <dt>
 
-[Compiler Intrinsics](https://go.microsoft.com/fwlink/p/?linkid=83948)
+[Compiler Intrinsics](https://msdn.microsoft.com/library/26td21ds.aspx)
 </dt> <dt>
 
 [Synchronization and Multiprocessor Issues](synchronization-and-multiprocessor-issues.md)

@@ -21,16 +21,16 @@ The purpose of this article is to outline how the non-volatile memory library (N
 
 First support for persistent memory was introduced in Windows Server 2016 and the Windows 10 Anniversary Update (1607). For a quick overview, check out these two Channel9 videos:
 
--   [Using Non-volatile Memory (NVDIMM-N) as Block Storage in Windows Server 2016](https://aka.ms/nvdimm-block-storage)
--   [Using Non-volatile Memory (NVDIMM-N) as Byte-Addressable Storage in Windows Server 2016](https://aka.ms/nvdimm-byte-storage)
+-   [Using Non-volatile Memory (NVDIMM-N) as Block Storage in Windows Server 2016](https://channel9.msdn.com/Events/Build/2016/P466)
+-   [Using Non-volatile Memory (NVDIMM-N) as Byte-Addressable Storage in Windows Server 2016](https://channel9.msdn.com/Events/Build/2016/P470)
 
-To help developers take advantage of the benefits persistent memory offers, Microsoft has also contributed to the efforts of bringing the non-volatile memory library (NVML) to Windows. This library provides various tools to make applications persistent-memory aware. For example, it contains code that lets you easily create a PM-aware key-value store for extremely fast look-ups and stores. You can find more information on NVML, including samples, at [NVM Library](https://aka.ms/pmem-nvml).
+To help developers take advantage of the benefits persistent memory offers, Microsoft has also contributed to the efforts of bringing the non-volatile memory library (NVML) to Windows. This library provides various tools to make applications persistent-memory aware. For example, it contains code that lets you easily create a PM-aware key-value store for extremely fast look-ups and stores. You can find more information on NVML, including samples, at [NVM Library](https://pmem.io/nvml/).
 
 ## Integrating NVML into a Visual Studio Project
 
 1. Download NVML library files and headers
 
--   NVML is maintained on GitHub. You can either compile the source yourself, or just download compiled binaries directly from here: [NVML Version 1.2 - Windows Technical Preview](https://aka.ms/nvml-windows-tech-preview).
+-   NVML is maintained on GitHub. You can either compile the source yourself, or just download compiled binaries directly from here: [NVML Version 1.2 - Windows Technical Preview](https://github.com/pmem/pmdk/releases/tag/1.2%2Bwtp1).
 
 2. Place the library files and headers in a directory of your choosing, for example: “C:\\NVML\\lib” and “C:\\NVML\\inc” respectively.
 

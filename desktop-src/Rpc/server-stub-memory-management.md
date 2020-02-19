@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 MIDL-generated stubs act as the interface between a client process and a server process. A client stub marshals all data passed to parameters marked with the [**\[in\]**](https://msdn.microsoft.com/library/windows/desktop/aa367051) attribute, and sends it to the server stub. The server stub, upon receiving this data, reconstructs the call stack, and then executes the corresponding user-implemented server function. The server stub also marshals the parameter data marked with the [**\[out\]**](https://msdn.microsoft.com/library/windows/desktop/aa367136) attribute and returns it to the client application.
 
-The 32-bit marshaled data format used by MSRPC is a compliant version of the Network Data Representation (NDR) transfer syntax. For more information about this format, see [The Open Group website](https://go.microsoft.com/fwlink/p/?linkid=84153). For 64-bit platforms, a Microsoft 64-bit extension to NDR transfer syntax called NDR64 can be used for better performance.
+The 32-bit marshaled data format used by MSRPC is a compliant version of the Network Data Representation (NDR) transfer syntax. For more information about this format, see [The Open Group website](https://www.opengroup.org/). For 64-bit platforms, a Microsoft 64-bit extension to NDR transfer syntax called NDR64 can be used for better performance.
 
 ## Unmarshaling Inbound Data
 

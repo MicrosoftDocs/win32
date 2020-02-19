@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # No-Touch Deployment Web Sample
 
-This sample shows how to deploy a managed Tablet PC application over the Web by using no-touch deployment. You should be familiar with the concepts discussed in [No-Touch Deployment in the .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=21880). Your computer must have Microsoft Internet Information Services (IIS) installed to run this sample.
+This sample shows how to deploy a managed Tablet PC application over the Web by using no-touch deployment. You should be familiar with the concepts discussed in [No-Touch Deployment in the .NET Framework](https://msdn.microsoft.com/library/default.asp?url=/library/dv_vstechart/html/vbtchno-touchdeploymentinnetframework.asp). Your computer must have Microsoft Internet Information Services (IIS) installed to run this sample.
 
 ## Overview
 

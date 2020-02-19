@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The DirectXMath API provides SIMD-friendly C++ types and functions for common linear algebra and graphics math operations common to DirectX applications. The library provides optimized versions for Windows 32-bit (x86), Windows 64-bit (x64), and Windows RT through SSE2 and ARM-NEON intrinsics support in the Visual Studio compiler.
 
-For developers new to DirectXMath, you may want to consider using the SimpleMath wrapper in the [DirectX Tool Kit](https://go.microsoft.com/fwlink/?LinkId=248929) as a starting point.
+For developers new to DirectXMath, you may want to consider using the SimpleMath wrapper in the [DirectX Tool Kit](https://github.com/Microsoft/DirectXTK) as a starting point.
 
 ## In this section
 

@@ -23,7 +23,7 @@ A list of the features available in Direct3D 10 is [here](d3d10-graphics-program
 Here is a complete list of the features in Direct3D 9 that have been deprecated in Direct3D 10.
 
 -   **Alpha blend**. Alpha blend is now programmed independent of color blend. Direct3D 10 adds an alpha-blend-enable toggle which is enabled by default. See [State Objects (Direct3D 10)](d3d10-graphics-programming-guide-api-features-state-objects.md) for more information.
--   **Alpha test**. Alpha test is a fixed-function pixel behavior for Direct3D 9. Alpha test is moved into programmable pixel shaders for Direct3D 10 and higher. For info about emulating the Direct3D 9 alpha test functionality in Direct3D 10 and higher, see the FixedFuncEMU sample in the [DirectX SDK for June 2010](https://go.microsoft.com/fwlink/p/?linkid=226640).
+-   **Alpha test**. Alpha test is a fixed-function pixel behavior for Direct3D 9. Alpha test is moved into programmable pixel shaders for Direct3D 10 and higher. For info about emulating the Direct3D 9 alpha test functionality in Direct3D 10 and higher, see the FixedFuncEMU sample in the [DirectX SDK for June 2010](https://www.microsoft.com/download/en/details.aspx?id=6812).
 -   **Blend mode options**. BOTHSRCALPHA has been removed from D3D10\_BLEND since it is redundant with BOTHINVSRCALPHA. See [**D3D10\_BLEND**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_blend) for more information.
 -   **Block compression formats**. There is no distinction between pre-multiplied alpha or non-premultiplied alpha in Direct3D 10. These Direct3D 9 formats map to these Direct3D 10 formats: 
 

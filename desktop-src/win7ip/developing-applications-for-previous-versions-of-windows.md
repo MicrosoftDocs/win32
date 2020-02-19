@@ -18,17 +18,17 @@ Download and installation of the packages described in the following sections is
 
 The Windows SDK for Windows 7 is required for creating applications that use APIs supported with the Platform Update for Windows Vista and the Platform Update for Windows Server 2008.
 
-For access to additional resources and information, such as downloads, forum posts, and the Windows SDK team blog, see the [Windows SDK Developer Center](https://go.microsoft.com/fwlink/p/?linkid=147527) (https://go.microsoft.com/fwlink/p/?linkid=147527).
+For access to additional resources and information, such as downloads, forum posts, and the Windows SDK team blog, see the [Windows SDK Developer Center](https://msdn.microsoft.com/bb980924.aspx) (https://go.microsoft.com/fwlink/p/?linkid=147527).
 
 ### .NET Framework
 
 The .NET Framework 3.5 Service Pack 1 is required for creating applications that use APIs supported by the Platform Update for Windows Vista and the Platform Update for Windows Server 2008.
 
-For additional resources and information, see the [.NET Framework Developer Center](https://go.microsoft.com/fwlink/p/?linkid=131385) (https://go.microsoft.com/fwlink/p/?linkid=131385).
+For additional resources and information, see the [.NET Framework Developer Center](https://msdn.microsoft.com/netframework/default.aspx) (https://go.microsoft.com/fwlink/p/?linkid=131385).
 
 ### DirectX SDK Required When Using Direct3D
 
-If you create applications that use Direct3D, the [DirectX SDK](https://go.microsoft.com/fwlink/p/?linkid=147678) (https://go.microsoft.com/fwlink/p/?linkid=147678) is required for creating applications that use APIs supported by the Platform Update for Windows Vista and the Platform Update for Windows Server 2008.
+If you create applications that use Direct3D, the [DirectX SDK](https://msdn.microsoft.com/directx/aa937788.aspx) (https://go.microsoft.com/fwlink/p/?linkid=147678) is required for creating applications that use APIs supported by the Platform Update for Windows Vista and the Platform Update for Windows Server 2008.
 
 ### Update Your Development Computer
 
@@ -36,7 +36,7 @@ Ensure that your development computer has all of the latest updates from Windows
 
 If you are developing applications on a previous version of Windows, you must obtain the Platform Update for Windows Vista or the Platform Update for Windows Server 2008 update from Windows Update. Installing either of these updates will enable you to take advantage of the new API provided by the Windows SDK for Windows 7.
 
-For more information about how to obtain updates from Windows Update see the [Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://go.microsoft.com/fwlink/p/?linkid=160189) (https://go.microsoft.com/fwlink/p/?linkid=160189).
+For more information about how to obtain updates from Windows Update see the [Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644) (https://go.microsoft.com/fwlink/p/?linkid=160189).
 
 ## Development Environment
 
@@ -84,9 +84,9 @@ If the end-user's computer does not have Platform Update for Windows Vista or P
 
 To avoid the problems that could be caused by your user's computer being out-of-date, you want to verify that your user's computer has the Platform Update for Windows Vista or the Platform Update for Windows Server 2008 update during the installation of your application. You can use the [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client) to check your end-user's computer for installed updates. You can also use the Windows Update Agent API to download and install required updates during application installation if the end-user has not already installed the updates.
 
-For an example of an installer that demonstrates how to use the [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client), see [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/Ee416644(v=VS.85).aspx) in the [DirectX SDK](https://go.microsoft.com/fwlink/p/?linkid=147678) (https://go.microsoft.com/fwlink/p/?linkid=147678).
+For an example of an installer that demonstrates how to use the [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client), see [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/Ee416644(v=VS.85).aspx) in the [DirectX SDK](https://msdn.microsoft.com/directx/aa937788.aspx) (https://go.microsoft.com/fwlink/p/?linkid=147678).
 
-Although the D3D11InstallHelper installer sample that is discussed in [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/Ee416644(v=VS.85).aspx), was written for applications that use Direct3D 11, it provides a good example of how to interact with the [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client) to initiate and track the download and installation of updates that are hosted by Windows Update. Compiling this sample may require the Windows SDK for Windows 7. For additional information about the D3D11InstallHelper sample, including known issues, see the [DirectX SDK](https://go.microsoft.com/fwlink/p/?linkid=147678) (https://go.microsoft.com/fwlink/p/?linkid=147678) Release Notes for August 2009.Platform Update for Windows Vista
+Although the D3D11InstallHelper installer sample that is discussed in [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/Ee416644(v=VS.85).aspx), was written for applications that use Direct3D 11, it provides a good example of how to interact with the [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client) to initiate and track the download and installation of updates that are hosted by Windows Update. Compiling this sample may require the Windows SDK for Windows 7. For additional information about the D3D11InstallHelper sample, including known issues, see the [DirectX SDK](https://msdn.microsoft.com/directx/aa937788.aspx) (https://go.microsoft.com/fwlink/p/?linkid=147678) Release Notes for August 2009.Platform Update for Windows Vista
 
 ## Related topics
 
@@ -101,7 +101,7 @@ Although the D3D11InstallHelper installer sample that is discussed in [Direct3D 
 [About Platform Update for Windows Vista](platform-update-for-windows-vista-overview.md)
 </dt> <dt>
 
-[Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://go.microsoft.com/fwlink/p/?linkid=160189)
+[Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644)
 </dt> </dl>
 
  

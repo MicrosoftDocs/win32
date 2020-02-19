@@ -33,7 +33,7 @@ Multiple elements, or their parents, are custom controls that do not implement t
 [Guidelines for Keyboard User Interface Design](https://msdn.microsoft.com/library/ms971323(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Windows User Experience Interaction Guidelines - Keyboard](https://go.microsoft.com/fwlink/p/?linkid=255237)
+[Windows User Experience Interaction Guidelines - Keyboard](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
 </dt> </dl>
 
  

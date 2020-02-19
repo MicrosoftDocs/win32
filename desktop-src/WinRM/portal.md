@@ -21,7 +21,7 @@ api_location:
 
 Windows Remote Management (WinRM) is the Microsoft implementation of [WS-Management Protocol](ws-management-protocol.md), a standard Simple Object Access Protocol (SOAP)-based, firewall-friendly protocol that allows hardware and operating systems, from different vendors, to interoperate.
 
-The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](https://go.microsoft.com/fwlink/p/?linkid=84396#event-collector) are components of the [Windows Hardware Management](https://go.microsoft.com/fwlink/p/?linkid=45204) features.
+The WS-Management protocol specification provides a common way for systems to access and exchange management information across an IT infrastructure. WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md), along with the [Event Collector](https://technet.microsoft.com/library/f550cac0-5344-41cb-8e89-6e5c93236886) are components of the [Windows Hardware Management](https://technet.microsoft.com/library/f550cac0-5344-41cb-8e89-6e5c93236886) features.
 
 ## Where applicable
 

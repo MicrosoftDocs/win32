@@ -23,10 +23,10 @@ This section provides information about the following topics.
 
 <dl> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://go.microsoft.com/fwlink/p/?linkid=70358)
+[XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
 [isXPS Conformance Tool](https://msdn.microsoft.com/library/Aa348104(v=VS.85).aspx)

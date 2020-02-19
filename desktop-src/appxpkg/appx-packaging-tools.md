@@ -14,15 +14,15 @@ Use these tools and cmdlets to create, deploy, and inventory app packages for Wi
 
 Learn how to package an app, create a test certificate, and sign your app using the Command Prompt and PowerShell. For more info, see:
 
--   [Create an app package with the MakeAppx.exe tool](https://aka.ms/package-with-makeappx)
--   [Create a certificate for package signing](https://aka.ms/create-cert-package)
--   [Sign an app package using SignTool](https://aka.ms/sign-package-signtool)
+-   [Create an app package with the MakeAppx.exe tool](https://docs.microsoft.com/windows/msix/package/create-app-package-with-makeappx-tool?redirectedfrom=MSDN)
+-   [Create a certificate for package signing](https://docs.microsoft.com/windows/msix/package/create-certificate-package-signing?redirectedfrom=MSDN)
+-   [Sign an app package using SignTool](https://docs.microsoft.com/windows/msix/package/sign-app-package-using-signtool?redirectedfrom=MSDN)
 
-Alternatively, you can use Visual Studio to create and sign an app package. For more info, see [Package a UWP app with Visual Studio](https://aka.ms/packaging-uwp-apps).
+Alternatively, you can use Visual Studio to create and sign an app package. For more info, see [Package a UWP app with Visual Studio](https://docs.microsoft.com/windows/msix/package/packaging-uwp-apps?redirectedfrom=MSDN).
 
 ## PowerShell cmdlets
 
-Use Windows PowerShell to install, inventory, and uninstall line-of-business (LOB) Windows apps that are not Store-signed. For more info, see: [Appx Module Cmdlets](https://aka.ms/appx-cmdlets).
+Use Windows PowerShell to install, inventory, and uninstall line-of-business (LOB) Windows apps that are not Store-signed. For more info, see: [Appx Module Cmdlets](https://docs.microsoft.com/powershell/module/appx/index?redirectedfrom=MSDN&view=win10-ps).
 
 ## Related topics
 

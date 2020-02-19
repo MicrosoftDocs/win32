@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 ## Prerequisite for MUI
 
-The basic prerequisite for building a MUI-compliant application for Windows Vista and beyond is to design the application in accordance with Windows [globalization guidelines](https://go.microsoft.com/fwlink/p/?linkid=155075).
+The basic prerequisite for building a MUI-compliant application for Windows Vista and beyond is to design the application in accordance with Windows [globalization guidelines](https://msdn.microsoft.com/goglobal/bb688110.aspx).
 
 ## Separation of source code from language specific resources
 

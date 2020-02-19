@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # DMTF Profile Discovery Through Association Traversal
 
-A key component of the Windows Management Instrumentation (WMI) infrastructure is an object-oriented model of the manageable entities in a system. The model conforms to a standard maintained by the Desktop Management Task Force ([DMTF](https://go.microsoft.com/fwlink/p/?linkid=67786)) and is known as the Common Information Model (CIM). Some classes in the model, such as [CIM\_DataFile](https://go.microsoft.com/fwlink/p/?linkid=142368) or [Win32\_Process](https://go.microsoft.com/fwlink/p/?linkid=142366), correspond directly to manageable entities. Other classes in the model, such as [Win32\_SystemServices](https://go.microsoft.com/fwlink/p/?linkid=142367), represent relationships between manageable entities. These relationship-modeling classes are known as Association classes.
+A key component of the Windows Management Instrumentation (WMI) infrastructure is an object-oriented model of the manageable entities in a system. The model conforms to a standard maintained by the Desktop Management Task Force ([DMTF](https://www.dmtf.org/standards/wsman)) and is known as the Common Information Model (CIM). Some classes in the model, such as [CIM\_DataFile](https://msdn.microsoft.com/library/aa387236.aspx) or [Win32\_Process](https://msdn.microsoft.com/library/aa394372.aspx), correspond directly to manageable entities. Other classes in the model, such as [Win32\_SystemServices](https://msdn.microsoft.com/library/aa394484.aspx), represent relationships between manageable entities. These relationship-modeling classes are known as Association classes.
 
 Using the WMI-specific query language, WQL, you can retrieve instances of classes that represent manageable entities or instances of Association classes. But WQL is implementation specific. It works only with the Windows implementation of the DMTF standard (WMI). In addition, the WQL syntax for retrieving Association classes is rather complicated.
 
@@ -33,7 +33,7 @@ The winrm utility now supports a dialect for the association request. Either the
 
 ## Retrieving Instances of an Association Class by Using the AssociationFilter Dialect
 
-The winrm utility can retrieve WMI association class instances of a particular source instance. The following command demonstrates how to use the winrm utility to retrieve instances of [Win32\_Service](https://go.microsoft.com/fwlink/p/?linkid=142374) association classes. The switch "-associations" must be used to return association classes.
+The winrm utility can retrieve WMI association class instances of a particular source instance. The following command demonstrates how to use the winrm utility to retrieve instances of [Win32\_Service](https://msdn.microsoft.com/library/aa394418.aspx) association classes. The switch "-associations" must be used to return association classes.
 
 **winrm enumerate wmicimv2/\* -dialect:association -associations -filter:{object=win32\_service?name=winrm;resultclassname=win32\_dependentservice;role=dependent}**
 
@@ -73,7 +73,7 @@ Win32_DependentService
 
 ## Retrieving Instances of an Associated Class by Using the AssociationFilter Dialect
 
-The winrm utility can retrieve WMI class instances that are associated with a particular source instance. The following command demonstrates how to use the winrm utility to retrieve instances of [Win32\_Service](https://go.microsoft.com/fwlink/p/?linkid=142374) associated classes.
+The winrm utility can retrieve WMI class instances that are associated with a particular source instance. The following command demonstrates how to use the winrm utility to retrieve instances of [Win32\_Service](https://msdn.microsoft.com/library/aa394418.aspx) associated classes.
 
 **winrm enumerate wmicimv2/\* -dialect:association -filter:{object=win32\_service?name=winrm;associationclassname=win32\_dependentservice;resultclassname=win32\_service;resultrole=antecedent;role=dependent}**
 

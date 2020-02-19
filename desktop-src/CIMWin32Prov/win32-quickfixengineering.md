@@ -29,7 +29,7 @@ api_location:
 
 # Win32\_QuickFixEngineering class
 
-The **Win32\_QuickFixEngineering** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a small system-wide update, commonly referred to as a quick-fix engineering (QFE) update, applied to the current operating system. This class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Microsoft Windows Installer (MSI) or the Windows update site ([https://update.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=84398)) are not returned by **Win32\_QuickFixEngineering**.
+The **Win32\_QuickFixEngineering** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a small system-wide update, commonly referred to as a quick-fix engineering (QFE) update, applied to the current operating system. This class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Microsoft Windows Installer (MSI) or the Windows update site ([https://update.microsoft.com](https://update.microsoft.com/)) are not returned by **Win32\_QuickFixEngineering**.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 

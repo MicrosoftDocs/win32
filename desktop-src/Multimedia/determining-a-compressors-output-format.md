@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Determining a Compressor's Output Format
 
-The following example uses the [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) size macro to determine the buffer size needed for the data specifying the compression format, allocates a buffer of the appropriate size using the [GlobalAlloc](https://go.microsoft.com/fwlink/p/?linkid=16999) function, and retrieves the compression format information using the **ICCompressGetFormat** macro.
+The following example uses the [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) size macro to determine the buffer size needed for the data specifying the compression format, allocates a buffer of the appropriate size using the [GlobalAlloc](https://msdn.microsoft.com/library/aa366574.aspx) function, and retrieves the compression format information using the **ICCompressGetFormat** macro.
 
 
 ```C++
@@ -53,7 +53,7 @@ if (ICCompressQuery(hIC, lpbiIn, lpbiOut) == ICERR_OK)
 
 
 
-The following example uses the [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) macro to determine the buffer size, and it allocates a buffer of that size using [GlobalAlloc](https://go.microsoft.com/fwlink/p/?linkid=16999).
+The following example uses the [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) macro to determine the buffer size, and it allocates a buffer of that size using [GlobalAlloc](https://msdn.microsoft.com/library/aa366574.aspx).
 
 
 ```C++

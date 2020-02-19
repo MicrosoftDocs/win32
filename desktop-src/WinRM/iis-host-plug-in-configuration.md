@@ -60,9 +60,9 @@ For example, there are separate **sections** for sites, logging, caching, and so
 
 For more information about IIS configuration, see the following:
 
--   [IIS 7.0 Settings Schema](https://go.microsoft.com/fwlink/p/?linkid=122234)
--   [https://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx](https://go.microsoft.com/fwlink/p/?linkid=122233)
--   [https://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Deep-Dive-into-IIS7](https://go.microsoft.com/fwlink/p/?linkid=122235)
+-   [IIS 7.0 Settings Schema](https://msdn.microsoft.com/library/aa347559.aspx)
+-   [https://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx](https://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx)
+-   [https://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Deep-Dive-into-IIS7](https://www.iis.net/learn/get-started/planning-your-iis-architecture/deep-dive-into-iis-configuration-with-iis-7-and-iis-8)
 
 The IIS configuration schema used to validate IIS configuration data is XML files stored in the IIS schema directory (typically, %windir%\\System32\\InetSrv\\Config\\Schema). The IIS configuration schema is not XSD. IIS configuration supports extensibility. New configuration sections can be directly integrated into the IIS configuration system, and the IIS configuration system's settings can be manipulated using the existing administration APIs.
 

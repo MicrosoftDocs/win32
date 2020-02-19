@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Internet Explorer Compatibility Test Tool (IECTT)
 
-The Internet Explorer Compatibility Test Tool (IECTT) is a component of the [Microsoft Application Compatibility Toolkit](https://go.microsoft.com/fwlink/p/?linkid=205020). This tool can help you diagnose issues in your web applications by displaying issues in real time and optionally uploading the results to an ACT database. The results include details about possible compatibility issues and links for more information about each compatibility issue. IECTT also enables you to exclude issues and modify available attributes.
+The Internet Explorer Compatibility Test Tool (IECTT) is a component of the [Microsoft Application Compatibility Toolkit](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971). This tool can help you diagnose issues in your web applications by displaying issues in real time and optionally uploading the results to an ACT database. The results include details about possible compatibility issues and links for more information about each compatibility issue. IECTT also enables you to exclude issues and modify available attributes.
 
 ## To open IECTT
 
-1.  Install the [Microsoft Application Compatibility Toolkit](https://go.microsoft.com/fwlink/p/?linkid=205020).
+1.  Install the [Microsoft Application Compatibility Toolkit](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971).
 2.  Click **Start**, point to **Programs**, point to **Microsoft Application Compatibility Toolkit 5.6**, point to **Developer and Tester Tools**, and then click **Internet Explorer Compatibility Test Tool**.
 
 The following sections describe common IECTT scenarios.
@@ -54,7 +54,7 @@ You can filter any of your IECTT results by object name, by issue type, or by bo
 
 2.  Enter the name of the object that you intend to view in the **Enter the name of the object to view issues for** box.
 
-For more information about this tool and other developers tools, see [What is the Internet Explorer Compatibility Test Tool?](https://go.microsoft.com/fwlink/p/?linkid=205076) in the MSDN Library and the [Application Compatibility Logging in IE8](https://go.microsoft.com/fwlink/p/?linkid=205077) blog post.
+For more information about this tool and other developers tools, see [What is the Internet Explorer Compatibility Test Tool?](https://technet.microsoft.com/library/cc721989(WS.10).aspx) in the MSDN Library and the [Application Compatibility Logging in IE8](https://blogs.msdn.com/b/ie/archive/2008/09/23/application-compatibility-logging-in-ie8.aspx) blog post.
 
 ## Related topics
 

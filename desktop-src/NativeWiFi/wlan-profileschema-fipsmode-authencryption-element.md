@@ -16,7 +16,7 @@ api_location:
 
 # FIPSMode (authEncryption) Element
 
-The **FIPSMode** (authEncryption) element indicates whether Federal Information Processing Standards (FIPS) mode is enabled. When a wireless connection is operating in FIPS mode, the security level of the connection complies with the FIPS 140-2 standard. For more information about FIPS, see the [FIPS Home Page](https://go.microsoft.com/fwlink/p/?linkid=86229).
+The **FIPSMode** (authEncryption) element indicates whether Federal Information Processing Standards (FIPS) mode is enabled. When a wireless connection is operating in FIPS mode, the security level of the connection complies with the FIPS 140-2 standard. For more information about FIPS, see the [FIPS Home Page](https://www.itl.nist.gov/fipspubs/).
 
 This element is optional. If this element is not specified in a profile, then FIPS mode is not enabled.
 
@@ -42,7 +42,7 @@ The element is defined by the [**authEncryption**](wlan-profileschema-authencryp
 
 ## Remarks
 
-This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://go.microsoft.com/fwlink/p/?linkid=120964).
+This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f).
 
 ## Examples
 

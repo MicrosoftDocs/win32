@@ -41,10 +41,10 @@ The Native Wifi sample demonstrates how to perform the following tasks:
 [Using Native Wifi](using-native-wifi.md)
 </dt> <dt>
 
-[Windows Vista Wireless SDK Forum](https://go.microsoft.com/fwlink/p/?linkid=313706)
+[Windows Vista Wireless SDK Forum](https://social.msdn.microsoft.com/Forums/en-US/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
 </dt> <dt>
 
-[Troubleshooting Windows Vista 802.11 Wireless Connections](https://go.microsoft.com/fwlink/p/?linkid=93832)
+[Troubleshooting Windows Vista 802.11 Wireless Connections](https://technet.microsoft.com/library/3ed3d027-5ae8-4cb0-ade5-0a7c446cd4f7)
 </dt> </dl>
 
  

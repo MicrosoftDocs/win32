@@ -126,7 +126,7 @@ The following table lists the matching attributes for the Layer 2 Security exten
 
 **DiagnosticsID**
 
-802.11 Wireless Diagnostics will query the *DiagnosticsID* from the core Native Wifi service in order to find out if any third-party wireless extensions or security modules are installed and involved in the connection. Wireless Diagnostics will then provide hypotheses to these third-party helper classes using the *DiagnosticsID* as the matching attribute. Any third-party helper classes should be included in and installed with the associated driver package. The *DiagnosticsID* will be defined in the miniport INF file as a registry key in the [AddReg](https://go.microsoft.com/fwlink/p/?linkid=101543) directive.
+802.11 Wireless Diagnostics will query the *DiagnosticsID* from the core Native Wifi service in order to find out if any third-party wireless extensions or security modules are installed and involved in the connection. Wireless Diagnostics will then provide hypotheses to these third-party helper classes using the *DiagnosticsID* as the matching attribute. Any third-party helper classes should be included in and installed with the associated driver package. The *DiagnosticsID* will be defined in the miniport INF file as a registry key in the [AddReg](https://msdn.microsoft.com/library/ms794514.aspx) directive.
 
 ``` syntax
 HKR,Ndi\IHVExtensions, DiagnosticsID,0, "<Diagnostics ID GUID>"

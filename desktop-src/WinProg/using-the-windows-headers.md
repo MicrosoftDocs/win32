@@ -148,7 +148,7 @@ You can reduce the size of the Windows header files by excluding some of the les
 
 <dl> <dt>
 
-[Windows SDK download site](https://go.microsoft.com/fwlink/p/?linkid=84091)
+[Windows SDK download site](https://msdn.microsoft.com/windowsserver/bb980924.aspx)
 </dt> </dl>
 
  

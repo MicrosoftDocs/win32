@@ -20,7 +20,7 @@ The following topics describe the interface requirements of the [service control
 
 These topics do not apply to driver services. For interface requirements of driver services, see the Windows Driver Kit (WDK).
 
-A service runs as a background process that can affect system performance, responsiveness, energy efficiency, and security. For service optimization guidelines, see [Developing Efficient Background Processes for Windows](https://go.microsoft.com/fwlink/p/?linkid=145414). The following topics describe additional programming considerations:
+A service runs as a background process that can affect system performance, responsiveness, energy efficiency, and security. For service optimization guidelines, see [Developing Efficient Background Processes for Windows](https://docs.microsoft.com/windows-hardware/drivers/kernel/implementing-power-management). The following topics describe additional programming considerations:
 
 -   [Service State Transitions](service-status-transitions.md)
 -   [Receiving Events in a Service](receiving-events-in-a-service.md)

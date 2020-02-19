@@ -16,7 +16,7 @@ The following supplemental information sources may also be helpful to software d
 
 You can check the Windows Developer Center for information about using Windows Installer when building applications for Windows.
 
--   [Windows Developer Center](https://go.microsoft.com/fwlink/p/?linkid=83945)
+-   [Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx)
 
 ## Windows Installer Newsgroups
 
@@ -24,29 +24,29 @@ You can read and post to a newsgroup that discusses the Windows Installer. Past 
 
 Microsoft Technical Communities provides access to public newsgroups about Windows Installer:
 
--   [Microsoft Public Newsgroups](https://go.microsoft.com/fwlink/p/?linkid=83998)
+-   [Microsoft Public Newsgroups](https://support.microsoft.com/newsgroups/default.aspx?newsgroup=microsoft.public.windows.msi)
 
     You can search the available public newsgroups for Windows developer discussions about the Windows SDK and MSI.
 
 ## Windows Installer Team Blog
 
-You can read commentary by Microsoft Bloggers on the [MSDN blog site](https://go.microsoft.com/fwlink/p/?linkid=83846).
+You can read commentary by Microsoft Bloggers on the [MSDN blog site](https://blogs.msdn.com/).
 
 Read blogs by developers about the Windows Installer.
 
--   [Windows Installer Team Blog](https://go.microsoft.com/fwlink/p/?linkid=83848)
+-   [Windows Installer Team Blog](https://blogs.msdn.com/windows_installer_team/default.aspx)
 
 ## Windows Installer Technical Chats
 
 You can participate in live MSDN technical chat sessions about the Windows Installer:
 
--   [Technical Chats](https://go.microsoft.com/fwlink/p/?linkid=83854)
+-   [Technical Chats](https://msdn.microsoft.com/chats/default.aspx)
 
     Experts from the Windows Installer team at Microsoft answer questions you ask about Windows Installer.
 
 <!-- -->
 
--   [Archive of MSDN Windows Installer Chats](https://go.microsoft.com/fwlink/p/?linkid=83855)
+-   [Archive of MSDN Windows Installer Chats](https://msdn.microsoft.com/chats/aa497439.aspx)
 
     Transcripts of previous chats about the Windows Installer are archived for you to read at any time.
 
@@ -54,13 +54,13 @@ You can participate in live MSDN technical chat sessions about the Windows Insta
 
 You can search Technet for articles and newsgroups about the Windows Installer:
 
--   [Search TechNet Site](https://go.microsoft.com/fwlink/p/?linkid=84126)
+-   [Search TechNet Site](https://www.microsoft.com/technet/sitemap.mspx)
 
 ## Knowledge Base Articles
 
 You can search the Knowledge Base (KB) for articles about the Windows Installer:
 
--   [Search the Knowledge Base](https://go.microsoft.com/fwlink/p/?linkid=83983)
+-   [Search the Knowledge Base](https://support.microsoft.com/search)
 
     Search for both Windows Installer and MSI.
 
@@ -68,22 +68,22 @@ You can search the Knowledge Base (KB) for articles about the Windows Installer:
 
 You can read white papers that describe the Windows Installer:
 
--   [Windows Installer: Benefits and Implementation for System Administrators](https://go.microsoft.com/fwlink/p/?linkid=84111)
--   [New Features and Design Changes in Windows Installer 2.0](https://go.microsoft.com/fwlink/p/?linkid=84120)
--   [Using Software Restriction Policies to Protect Against Unauthorized Software](https://go.microsoft.com/fwlink/p/?linkid=84121)
--   [Patch Sequencing in Windows Installer version 3.0](https://go.microsoft.com/fwlink/p/?linkid=84092)
--   [Software Installation and Maintenance](https://go.microsoft.com/fwlink/p/?linkid=84110)
--   [Step-by-Step Guide to Creating Windows Installer Packages and Repackaging Software for the Windows Installer](https://go.microsoft.com/fwlink/p/?linkid=84109)
--   [Standardizing the Patch Experience](https://go.microsoft.com/fwlink/p/?linkid=84125)
--   [Delta Compression Application Programming Interface](https://go.microsoft.com/fwlink/p/?linkid=83882)
+-   [Windows Installer: Benefits and Implementation for System Administrators](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/winmsi.mspx)
+-   [New Features and Design Changes in Windows Installer 2.0](https://technet.microsoft.com/library/bb457094.aspx)
+-   [Using Software Restriction Policies to Protect Against Unauthorized Software](https://technet.microsoft.com/library/bb457006.aspx)
+-   [Patch Sequencing in Windows Installer version 3.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ad7ac91e-2493-4549-ae6f-bf5e007c12a3)
+-   [Software Installation and Maintenance](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/inmnwp.mspx)
+-   [Step-by-Step Guide to Creating Windows Installer Packages and Repackaging Software for the Windows Installer](https://www.microsoft.com/technet/prodtechnol/windows2000serv/howto/winstall.mspx)
+-   [Standardizing the Patch Experience](https://www.microsoft.com/technet/security/topics/patchmanagement/stdpatex.mspx)
+-   [Delta Compression Application Programming Interface](https://msdn.microsoft.com/library/ms811406.aspx)
 
 ## Online Windows Installer SDK
 
 You can read about Windows Installer online:
 
--   [Windows Installer SDK](https://go.microsoft.com/fwlink/p/?linkid=83892)
+-   [Windows Installer SDK](https://msdn.microsoft.com/library/cc185688.aspx)
     > [!Note]  
-    > You need to download and install the [Microsoft Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=162443) to obtain the development tools described in the [Windows Installer Development Tools](windows-installer-development-tools.md) section of the documentation.
+    > You need to download and install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) to obtain the development tools described in the [Windows Installer Development Tools](windows-installer-development-tools.md) section of the documentation.
 
      
 
@@ -91,7 +91,7 @@ You can read about Windows Installer online:
 
 [Orca](orca-exe.md) is a GUI .msi file editor that is provided with the Windows Installer SDK. It provides full access to the Windows Installer database tables.
 
-A set of Help files are provided with Orca. To obtain the orca.exe and Orca documentation you must download and install the Windows Installer SDK, which is provided as an Orca.msi file. After you install the [Microsoft Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=162443), double click the Orca.msi file to install Orca.
+A set of Help files are provided with Orca. To obtain the orca.exe and Orca documentation you must download and install the Windows Installer SDK, which is provided as an Orca.msi file. After you install the [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/), double click the Orca.msi file to install Orca.
 
 > [!Note]  
 > It is not possible to download Orca separately.
@@ -108,15 +108,15 @@ You can contact an independent software vendor about tools to create a Windows I
 
 You can visit non-Microsoft Web sites that provide useful information about the Windows Installer. The following list identifies some of those sites:
 
--   [InstallSite](https://go.microsoft.com/fwlink/p/?linkid=84071)
+-   [InstallSite](http://www.installsite.org/)
 
     Windows Installer information for developers.
 
--   [Desktop Engineer's Junk Drawer](https://go.microsoft.com/fwlink/p/?linkid=84019) and [AppDeploy.com](https://go.microsoft.com/fwlink/p/?linkid=84014)
+-   [Desktop Engineer's Junk Drawer](http://www.desktopengineer.com/) and [AppDeploy.com](http://www.appdeploy.com/)
 
     Windows Installer information for IT professionals.
 
--   [Sourceforge.net](https://go.microsoft.com/fwlink/p/?linkid=83976)
+-   [Sourceforge.net](https://sourceforge.net/projects/wix)
 
     Windows Installer XML (WiX) project on Sourceforge.net.
 

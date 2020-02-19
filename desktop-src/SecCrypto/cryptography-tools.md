@@ -54,7 +54,7 @@ For information about digital signing, see the following documents:
 -   CCITT, Recommendation X.509, *The Directory-Authentication Framework*, Consultation Committee, International Telephone and Telegraph, International Telecommunications Union, Geneva, 1989.
 -   RSA Laboratories, *PKCS \#7: Cryptographic Message Syntax Standard*. Version 1.5, November, 1993.
 -   Schneier, Bruce, *Applied Cryptography*, 2d ed. New York: John Wiley & Sons, 1996.
--   [https://www.rsasecurity.com](https://go.microsoft.com/fwlink/p/?linkid=84571)
+-   [https://www.rsasecurity.com](https://www.rsa.com/)
 
 > [!Note]  
 > These resources may not be available in some languages and countries or regions.

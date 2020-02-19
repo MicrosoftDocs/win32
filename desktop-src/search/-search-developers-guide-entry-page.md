@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores. To create Windows Search applications, third-party developers must first implement a Shell data store to a achieve a reasonable user experience. For more information, see [Implementing the Basic Folder Object Interfaces](https://msdn.microsoft.com/library/cc144093(VS.85).aspx).
 
-You must also download the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) for the Windows Search libraries. The [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8) contains useful code samples and an interopability assembly for developing with managed code. For more information on using the code samples, see [Windows Search Code Samples](-search-3x-wds-sampleentry.md).
+You must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) for the Windows Search libraries. The [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8) contains useful code samples and an interopability assembly for developing with managed code. For more information on using the code samples, see [Windows Search Code Samples](-search-3x-wds-sampleentry.md).
 
 This section is organized as follows:
 
@@ -21,12 +21,12 @@ This section is organized as follows:
 
 ## Additional Resources
 
-- For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://go.microsoft.com/fwlink/p/?linkid=201207).
+- For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads).
 - To download the Search Code Samples:
   - [Windows Search Samples](-search-samples-ovw.md)
 - To download the Windows SDK:
   - For Windows 10: [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)
-  - For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=129787)
+  - For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
 
 ## Related topics
 

@@ -53,7 +53,7 @@ KTM is supported starting with Windows Vista.
 [Transactional NTFS (TxF)](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal)
 </dt> <dt>
 
-[Distributed Transaction Coordinator](https://go.microsoft.com/fwlink/p/?linkid=139572)
+[Distributed Transaction Coordinator](https://msdn.microsoft.com/library/ms684146.aspx)
 </dt> </dl>
 
  

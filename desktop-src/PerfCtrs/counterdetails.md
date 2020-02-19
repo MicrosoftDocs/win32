@@ -16,7 +16,7 @@ The **CounterDetails** table defines the following fields:
 -   **MachineName:** The name of the computer that logged this data set.
 -   **ObjectName:** The name of the performance object.
 -   **CounterName:** The name of the counter.
--   **CounterType:** The counter type. For a list of counter types and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://go.microsoft.com/fwlink/p/?linkid=84422).
+-   **CounterType:** The counter type. For a list of counter types and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2).
 -   **DefaultScale:** The default scaling to be applied to the raw performance counter data.
 -   **InstanceName:** The name of the counter instance.
 -   **InstanceIndex:** The index number of the counter instance.
