@@ -30,7 +30,7 @@ g\_wszWMDRM\_ActionAllowed\_CopyToNonSDMIDevice
 
 Windows Media DRM 10 licenses use the Copy action to restrict copying to devices. You should check the [**DRM\_ActionAllowed\_Copy**](drm-actionallowed-copy.md) property to determine whether copying is allowed.
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
 ## See also
 

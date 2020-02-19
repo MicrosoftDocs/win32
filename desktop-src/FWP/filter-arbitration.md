@@ -76,7 +76,7 @@ The evaluation algorithm maintains the current action ("Permit" or "Block") alon
 
  
 
-The filter action can be set by setting the **type** member in the structure [**FWPM\_ACTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_action0_) to either **FWP\_ACTION\_BLOCK** or **FWP\_ACTION\_PERMIT**. Along with the action type, a filter also exposes the flag **FWPM\_FILTER\_FLAG\_CLEAR\_ACTION\_RIGHT**. If this flag is cleared, then the action type is hard and cannot be overridden except when a hard permit is overridden by a **Veto** as explained later on, else it is soft which can be overridden by high priority action.
+The filter action can be set by setting the **type** member in the structure [**FWPM\_ACTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_action0) to either **FWP\_ACTION\_BLOCK** or **FWP\_ACTION\_PERMIT**. Along with the action type, a filter also exposes the flag **FWPM\_FILTER\_FLAG\_CLEAR\_ACTION\_RIGHT**. If this flag is cleared, then the action type is hard and cannot be overridden except when a hard permit is overridden by a **Veto** as explained later on, else it is soft which can be overridden by high priority action.
 
 The following table lists the default behavior for filter and callout actions.
 

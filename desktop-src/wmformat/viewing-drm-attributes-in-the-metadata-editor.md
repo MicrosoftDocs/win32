@@ -35,7 +35,7 @@ The Metadata Editor exposes the IWMDRMEditor interface, which enables editing ap
 [**Digital Rights Management Features**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**IWMDRMEditor Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
+[**IWMDRMEditor Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
 </dt> </dl>
 
  

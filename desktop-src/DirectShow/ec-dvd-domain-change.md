@@ -26,7 +26,7 @@ Indicates the DVD player's new domain.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the new domain. Member of the [**DVD\_DOMAIN**](/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain) enumerated data type.
+**DWORD** value indicating the new domain. Member of the [**DVD\_DOMAIN**](/windows/win32/api/strmif/ne-strmif-dvd_domain) enumerated data type.
 
 </dd> <dt>
 

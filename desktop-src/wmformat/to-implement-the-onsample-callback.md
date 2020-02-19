@@ -17,24 +17,24 @@ ms.date: 05/31/2018
 
 # To Implement the OnSample Callback
 
-The asynchronous reader delivers samples to the controlling application in presentation-time order by making calls to the [**IWMReaderCallback::OnSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample) callback method. When you create an application using the asynchronous reader, you must implement **OnSample** to deal with uncompressed samples. Typically, functions or methods created to render content will be called from within **OnSample**.
+The asynchronous reader delivers samples to the controlling application in presentation-time order by making calls to the [**IWMReaderCallback::OnSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample) callback method. When you create an application using the asynchronous reader, you must implement **OnSample** to deal with uncompressed samples. Typically, functions or methods created to render content will be called from within **OnSample**.
 
 Typical implementation of the **OnSample** callback includes the following steps.
 
-1.  Retrieve the location and size of the buffer containing the sample by calling [**INSSBuffer::GetBufferAndLength**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength) on the buffer passed as *pSample*.
+1.  Retrieve the location and size of the buffer containing the sample by calling [**INSSBuffer::GetBufferAndLength**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength) on the buffer passed as *pSample*.
 2.  Branch your logic depending upon the output number. The output number is passed to **OnSample** as *dwOutputNumber*.
 3.  Include rendering logic for each output number you want to support. If you are rendering samples from multiple outputs, you may need to synchronize your rendering.
 
-Applications that deliver compressed samples from ASF files need to implement the [**IWMReaderCallbackAdvanced::OnStreamSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample) callback method. **OnStreamSample** functions almost identically to **OnSample**, except that it receives compressed samples by stream number instead of uncompressed samples by output number.
+Applications that deliver compressed samples from ASF files need to implement the [**IWMReaderCallbackAdvanced::OnStreamSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample) callback method. **OnStreamSample** functions almost identically to **OnSample**, except that it receives compressed samples by stream number instead of uncompressed samples by output number.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMReaderCallback Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback)
+[**IWMReaderCallback Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback)
 </dt> <dt>
 
-[**IWMReaderCallbackAdvanced Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced)
+[**IWMReaderCallbackAdvanced Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced)
 </dt> <dt>
 
 [**Reading Files with the Asynchronous Reader**](reading-files-with-the-asynchronous-reader.md)

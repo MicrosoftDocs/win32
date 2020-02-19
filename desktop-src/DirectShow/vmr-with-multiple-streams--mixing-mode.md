@@ -29,7 +29,7 @@ To render multiple input streams with the VMR-7, do the following:
 
 **Configuring the VMR-9 for Multiple Streams**
 
-By default, the VMR-9 creates four input pins. If you want to mix more than four video streams, call [**IVMRFilterConfig9::SetNumberOfStreams**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams) before connecting any input pins. Use the [**IVMRMixerControl9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9) interface to set the stream parameters, such as alpha, Z-order, and position.
+By default, the VMR-9 creates four input pins. If you want to mix more than four video streams, call [**IVMRFilterConfig9::SetNumberOfStreams**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams) before connecting any input pins. Use the [**IVMRMixerControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrmixercontrol9) interface to set the stream parameters, such as alpha, Z-order, and position.
 
 ## Related topics
 

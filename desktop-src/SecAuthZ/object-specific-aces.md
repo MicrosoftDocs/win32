@@ -36,7 +36,7 @@ Object-specific [*ACEs*](https://docs.microsoft.com/windows/desktop/SecGloss/a-g
 </tr>
 <tr class="even">
 <td><strong>InheritedObjectType</strong></td>
-<td>Indicates the type of child object that can inherit the ACE. Inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/Winnt/ns-winnt-_ace_header"><strong>ACE_HEADER</strong></a>, as well as by any protection against inheritance placed on the child objects. For more information, see <a href="ace-inheritance.md">ACE Inheritance</a>.</td>
+<td>Indicates the type of child object that can inherit the ACE. Inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/Winnt/ns-winnt-ace_header"><strong>ACE_HEADER</strong></a>, as well as by any protection against inheritance placed on the child objects. For more information, see <a href="ace-inheritance.md">ACE Inheritance</a>.</td>
 </tr>
 </tbody>
 </table>

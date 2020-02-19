@@ -66,7 +66,7 @@ Specifies the contents of the packet payload, as a [**MEDIA\_SAMPLE\_CONTENT**](
 [DirectShow Structures](directshow-structures.md)
 </dt> <dt>
 
-[**IEnumPIDMap Interface**](/windows/desktop/api/Bdaiface/nn-bdaiface-ienumpidmap)
+[**IEnumPIDMap Interface**](/previous-versions/windows/desktop/api/Bdaiface/nn-bdaiface-ienumpidmap)
 </dt> </dl>
 
  

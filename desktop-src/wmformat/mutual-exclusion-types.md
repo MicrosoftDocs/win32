@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Mutual Exclusion Types
 
-You can use mutual exclusion types to identify the nature of a mutual exclusion object in a profile. Mutual exclusion types are used as parameters for [**IWMMutualExclusion::GetType**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype) and [**IWMMutualExclusion::SetType**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype).
+You can use mutual exclusion types to identify the nature of a mutual exclusion object in a profile. Mutual exclusion types are used as parameters for [**IWMMutualExclusion::GetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype) and [**IWMMutualExclusion::SetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype).
 
 The following table lists the identifiers for mutual exclusion types.
 

@@ -20,7 +20,7 @@ The **Temporary** attribute specifies whether a playlist is temporary.
 
 **Remarks**
 
-If you retrieved a playlist from the library, changes you make to the playlist will be reflected in the user's library. To avoid this, call [IWMPPlaylist::setItemInfo](/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-setiteminfo) passing the attribute name "Temporary" and the value "true". This converts your playlist instance to a temporary playlist, which is safe to edit without changing the original playlist.
+If you retrieved a playlist from the library, changes you make to the playlist will be reflected in the user's library. To avoid this, call [IWMPPlaylist::setItemInfo](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-setiteminfo) passing the attribute name "Temporary" and the value "true". This converts your playlist instance to a temporary playlist, which is safe to edit without changing the original playlist.
 
 **Applies To**
 

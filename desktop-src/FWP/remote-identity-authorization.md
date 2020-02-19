@@ -39,7 +39,7 @@ To implement this example programmatically, use the following WFP configuration.
 
 **At FWPM\_LAYER\_IPSEC\_V{4\|6} setup QM and EM negotiation policy**  
 
-1.  Add one or both of the following QM transport mode policy provider contexts and set the [**IPSEC\_POLICY\_FLAG\_ND\_SECURE**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_transport_policy0_) flag.  
+1.  Add one or both of the following QM transport mode policy provider contexts and set the [**IPSEC\_POLICY\_FLAG\_ND\_SECURE**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_transport_policy0) flag.  
     -   For IKE, a policy provider context of type **FWPM\_IPSEC\_IKE\_QM\_TRANSPORT\_CONTEXT**.
     -   For AuthIP, a policy provider context of type **FWPM\_IPSEC\_AUTHIP\_QM\_TRANSPORT\_CONTEXT** that contains the AuthIP Extended Mode (EM) negotiation policy.
 
@@ -160,10 +160,10 @@ To implement this example programmatically, use the following WFP configuration.
 [**Filtering Layer Identifiers**](management-filtering-layer-identifiers-.md)
 </dt> <dt>
 
-[**FWPM\_ACTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_action0_)
+[**FWPM\_ACTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_action0)
 </dt> <dt>
 
-[**FWPM\_PROVIDER\_CONTEXT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type_)
+[**FWPM\_PROVIDER\_CONTEXT\_TYPE**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)
 </dt> </dl>
 
  

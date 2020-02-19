@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Video Capabilities
 
-The [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method presents video capabilities in an array of pairs of [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) and [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structures. You can use this to expose all the formats and resolutions supported on a pin as discussed below.
+The [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) method presents video capabilities in an array of pairs of [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) and [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) structures. You can use this to expose all the formats and resolutions supported on a pin as discussed below.
 
 For audio-related examples of **GetStreamCaps**, see [Audio Capabilities](audio-capabilities.md).
 
@@ -41,7 +41,7 @@ The cropping rectangle described throughout the [**IAMStreamConfig**](/windows/d
 
 The output rectangle described throughout the **IAMStreamConfig** documentation is the same as the **biWidth** and **biHeight** members of the output pin's **BITMAPINFOHEADER** structure (see [DV Data in the AVI File Format](dv-data-in-the-avi-file-format.md).).
 
-If a filter's output pin is connected to a media type with nonempty source and target rectangles, then your filter is required to stretch the input format's source subrectangle into the output format's target subrectangle. The source subrectangle is stored in the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps) structure's **InputSize** member.
+If a filter's output pin is connected to a media type with nonempty source and target rectangles, then your filter is required to stretch the input format's source subrectangle into the output format's target subrectangle. The source subrectangle is stored in the [**VIDEO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-video_stream_config_caps) structure's **InputSize** member.
 
 For example, consider the following video compressor scenario: The input image is in RGB format and has a size of 160 x 120 pixels. The source rectangle's upper-left corner is at coordinate (20,20), and its lower-right corner is at (30,30). The output image is in MPEG format with a size of 320 x 240. The target rectangle's upper-left corner is at (0,0) and its lower-right corner is at (100,100). In this case, the filter should take a 10 x 10 piece of the 160 x 120 RGB source bitmap, and make it fill the top 100 x 100 area of a 320 x 240 bitmap, leaving the rest of the 320 x 240 bitmap untouched. The following illustration shows this scenario.
 

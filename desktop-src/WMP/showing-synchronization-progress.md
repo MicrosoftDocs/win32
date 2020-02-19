@@ -131,13 +131,13 @@ STDMETHODIMP CMainDlg::ShowProgress(long lIndex)
 [**Enumerating Devices**](enumerating-devices.md)
 </dt> <dt>
 
-[**IWMPSyncDevice Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
+[**IWMPSyncDevice Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
 </dt> <dt>
 
-[**IWMPSyncDevice::get\_progress**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_progress)
+[**IWMPSyncDevice::get\_progress**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_progress)
 </dt> <dt>
 
-[**IWMPSyncDevice::isIdentical**](/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-isidentical)
+[**IWMPSyncDevice::isIdentical**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-isidentical)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

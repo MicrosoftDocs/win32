@@ -39,9 +39,9 @@ To override the VMR's default behavior, configure the VMR before building the fi
 
 1.  Create the Filter Graph Manager.
 2.  Create the VMR-9 and add it to the filter graph.
-3.  Call [**IVMRFilterConfig9::SetRenderingMode**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode) on the VMR-9 with the **VMR9Mode\_Windowless** flag.
-4.  Query the VMR-9 for the [**IVMRWindowlessControl9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) interface.
-5.  Call [**IVMRWindowlessControl9::SetVideoClippingWindow**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoclippingwindow) on the VMR-9. Specify a handle to the window where the video should appear.
+3.  Call [**IVMRFilterConfig9::SetRenderingMode**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode) on the VMR-9 with the **VMR9Mode\_Windowless** flag.
+4.  Query the VMR-9 for the [**IVMRWindowlessControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) interface.
+5.  Call [**IVMRWindowlessControl9::SetVideoClippingWindow**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoclippingwindow) on the VMR-9. Specify a handle to the window where the video should appear.
 
 Now build the rest of the filter graph by calling [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) or other graph-building methods. The Filter Graph Manager automatically uses the instance of the VMR that you added to the graph. (For details on why this happens, see [Intelligent Connect](intelligent-connect.md).)
 
@@ -137,8 +137,8 @@ After configuring the VMR, the next step is to set the position of the video. Th
 
 **VMR-9**
 
-1.  Call the [**IVMRWindowlessControl9::SetVideoPosition**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) method to specify both rectangles.
-2.  The source rectangle must be equal to or smaller than the native video size; you can use the [**IVMRWindowlessControl9::GetNativeVideoSize**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-getnativevideosize) method to get the native video size.
+1.  Call the [**IVMRWindowlessControl9::SetVideoPosition**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) method to specify both rectangles.
+2.  The source rectangle must be equal to or smaller than the native video size; you can use the [**IVMRWindowlessControl9::GetNativeVideoSize**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-getnativevideosize) method to get the native video size.
 
 For example, the following code sets the source and destination rectangles for the VMR-7. It sets the source rectangle equal to the entire video image, and the destination rectangle equal to the entire window client area:
 
@@ -179,9 +179,9 @@ Because the VMR does not have its own window, it must be notified if it need to 
 
 **VMR-9**
 
-1.  [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl9::RepaintVideo**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo). This method causes the VMR-9 to repaint the most recent video frame.
-2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
-3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) to update the position, if needed.
+1.  [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx). Call [**IVMRWindowlessControl9::RepaintVideo**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo). This method causes the VMR-9 to repaint the most recent video frame.
+2.  [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/library/Dd145210(v=VS.85).aspx): Call [**IVMRWindowlessControl9::DisplayModeChanged**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged). This method notifies the VMR-9 that the video must be shown at a new resolution or color depth.
+3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) to update the position, if needed.
 
 > [!Note]  
 > The default handler for the [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx) message sends a [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message. But if your application intercepts **WM\_WINDOWPOSCHANGED** and does not pass it to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), you should call **SetVideoPosition** in your **WM\_WINDOWPOSCHANGED** handler, in addition to your **WM\_SIZE** handler.

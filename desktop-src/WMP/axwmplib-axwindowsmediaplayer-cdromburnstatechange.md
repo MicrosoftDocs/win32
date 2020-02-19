@@ -71,7 +71,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnState**](/windows/desktop/api/wmp/ne-wmp-wmpburnstate)
+[**WMPBurnState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnstate)
 </dt> </dl>
 
  

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 Variable bit rate (VBR) streams are written the same way as constant bit rate (CBR) streams. The only difference is in the processing performed internally by the writer and the codecs. However, bit rate based VBR (both constrained and unconstrained) requires a preprocessing pass in the writer.
 
-You should check the return value for the first call you make to [**IWMWriter::WriteSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample) for each stream. If the error code returned is NS\_E\_INVALID\_NUM\_PASSES, the stream requires a preprocessing pass.
+You should check the return value for the first call you make to [**IWMWriter::WriteSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample) for each stream. If the error code returned is NS\_E\_INVALID\_NUM\_PASSES, the stream requires a preprocessing pass.
 
 ## Related topics
 

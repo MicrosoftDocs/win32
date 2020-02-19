@@ -45,7 +45,7 @@ The view in Windows Media Player can change for any of the following reasons:
 -   The user interacts with a discovery page, and script on the discovery page calls [External.changeView](external-changeview.md).
 -   The user interacts with a discovery page, and script on the discovery page calls [External.changeViewOnlineList](external-changeviewonlinelist.md).
 
-When the view changes in Windows Media Player, the Player calls [IWMPContentPartner::GetTemplate](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) to get the URL of the next discovery page to display. However, before the Player displays the new discovery page, it raises the **OnViewChange** event. If the **OnViewChange** event handler calls [External.cancelNavigate](external-cancelnavigate.md), Windows Media Player does not display the new discovery page. Instead, it continues to display the current discovery page.
+When the view changes in Windows Media Player, the Player calls [IWMPContentPartner::GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) to get the URL of the next discovery page to display. However, before the Player displays the new discovery page, it raises the **OnViewChange** event. If the **OnViewChange** event handler calls [External.cancelNavigate](external-cancelnavigate.md), Windows Media Player does not display the new discovery page. Instead, it continues to display the current discovery page.
 
 ## Requirements
 

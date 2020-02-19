@@ -23,7 +23,7 @@ See also:
 -   [Pin Property Set](pin-property-set.md)
 -   [**IKsPropertySet**](ikspropertyset.md)
 -   [**IVideoFrameStep**](/windows/desktop/api/Strmif/nn-strmif-ivideoframestep) (hardware decoders only)
--   [**IVPConfig**](/windows/desktop/api/Vpconfig/nn-vpconfig-ivpconfig) (hardware decoders only)
+-   [**IVPConfig**](/previous-versions/windows/desktop/api/Vpconfig/nn-vpconfig-ivpconfig) (hardware decoders only)
 
 ## Related topics
 

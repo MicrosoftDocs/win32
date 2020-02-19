@@ -28,10 +28,10 @@ The following interfaces are required for creating DSP plug-ins.
 | Interface                                                | Description                                                                                                                                            |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **IMediaObject**                                         | Manages data exchange with Windows Media Player and performs digital signal processing tasks. Detailed documentation is included with the DirectX SDK. |
-| [IWMPMediaPluginRegistrar](/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar) | Manages plug-in registration.                                                                                                                          |
-| [IWMPPlugin](/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin)                             | Manages the connection to Windows Media Player.                                                                                                        |
-| [IWMPPluginEnable](/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable)                 | Stores whether the plug-in is currently enabled by Windows Media Player.                                                                               |
-| [IWMPServices](/windows/desktop/api/wmpservices/nn-wmpservices-iwmpservices)                         | Retrieves information from the Player about the current stream time and stream state.                                                                  |
+| [IWMPMediaPluginRegistrar](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar) | Manages plug-in registration.                                                                                                                          |
+| [IWMPPlugin](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin)                             | Manages the connection to Windows Media Player.                                                                                                        |
+| [IWMPPluginEnable](/previous-versions/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable)                 | Stores whether the plug-in is currently enabled by Windows Media Player.                                                                               |
+| [IWMPServices](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpservices)                         | Retrieves information from the Player about the current stream time and stream state.                                                                  |
 
 
 

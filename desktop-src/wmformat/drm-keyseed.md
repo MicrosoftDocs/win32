@@ -28,13 +28,13 @@ g\_wszWMDRM\_KeySeed
 
 ## Remarks
 
-This property can be set using [**IWMDRMWriter::SetDRMAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute). It is not accessible by the reader object.
+This property can be set using [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute). It is not accessible by the reader object.
 
 A key seed is typically used to protect multiple files or sets of files, for example all the files issued by a license server, or perhaps all the files by a particular artist. The KeyID, however, is unique for each file.
 
 The key seed must remain a secret that is shared only between the content creator and the license distributor. This value is not stored in the DRM header and it is neither needed by nor accessible to DRM player applications.
 
-A new key seed can be generated using the [**IWMDRMWriter::GenerateKeySeed**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyseed) method or by any other suitable means.
+A new key seed can be generated using the [**IWMDRMWriter::GenerateKeySeed**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyseed) method or by any other suitable means.
 
 ## See also
 

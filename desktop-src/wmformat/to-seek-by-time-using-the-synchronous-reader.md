@@ -18,14 +18,14 @@ To seek for data using the synchronous reader, you specify a range for playback.
 
 To seek data in an ASF file by presentation time using the synchronous reader, perform the following steps.
 
-1.  Specify a starting time and duration for sample delivery by calling [**IWMSyncReader::SetRange**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange). This method does not require you to specify a stream number because the presentation times of each stream should already be synchronized.
-2.  Begin retrieving samples with calls to [**IWMSyncReader::GetNextSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample). Proceed as you normally would with the synchronous reader.
+1.  Specify a starting time and duration for sample delivery by calling [**IWMSyncReader::SetRange**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange). This method does not require you to specify a stream number because the presentation times of each stream should already be synchronized.
+2.  Begin retrieving samples with calls to [**IWMSyncReader::GetNextSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample). Proceed as you normally would with the synchronous reader.
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMSyncReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
+[**IWMSyncReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
 [**Reading Files with the Synchronous Reader**](reading-files-with-the-synchronous-reader.md)

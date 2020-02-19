@@ -65,7 +65,7 @@ A **WMPLib.WMPBurnFormat** that is a value from the **WMPBurnFormat** enumeratio
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnFormat**](/windows/desktop/api/wmp/ne-wmp-wmpburnformat)
+[**WMPBurnFormat**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnformat)
 </dt> </dl>
 
  

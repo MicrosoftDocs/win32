@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Using Complex Metadata Attributes
 
-The Windows Media Format SDK supports complex metadata attributes, which are attributes that have values represented by a structure. Because all attributes must have a data type defined in the [**WMT\_ATTR\_DATATYPE**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) enumeration, all complex metadata attributes are treated as **WMT\_TYPE\_BINARY**. When writing a complex attribute, cast the pointer to the structure as a byte pointer. When you retrieve a complex attribute, cast the array of bytes set by [**IWMHeaderInfo3::GetAttributeByIndexEx**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex) as the appropriate structure.
+The Windows Media Format SDK supports complex metadata attributes, which are attributes that have values represented by a structure. Because all attributes must have a data type defined in the [**WMT\_ATTR\_DATATYPE**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) enumeration, all complex metadata attributes are treated as **WMT\_TYPE\_BINARY**. When writing a complex attribute, cast the pointer to the structure as a byte pointer. When you retrieve a complex attribute, cast the array of bytes set by [**IWMHeaderInfo3::GetAttributeByIndexEx**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex) as the appropriate structure.
 
 The following code examples show how to set and retrieve a complex metadata attribute. The first function adds a user text attribute, the second function retrieves one. For more information about how to use these examples, see [Using the Code Examples](using-the-code-examples.md).
 

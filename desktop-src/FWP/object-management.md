@@ -14,7 +14,7 @@ This section covers the correct use of Windows Filtering Platform (WFP) API obje
 
 The WFP API is session-oriented, and most function calls are made within the context of a session. A new client session is created by calling [**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0). The session ends either when the client calls [**FwpmEngineClose0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineclose0) or the client process terminates. When a session is destroyed, either on purpose or by the RPC rundown, the Base Filtering Engine (BFE) first aborts any existing transaction.
 
-When creating a new session, the caller can create a dynamic session by passing the [**FWPM\_SESSION\_FLAG\_DYNAMIC**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_session0_) flag to [**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0). Any objects added during a dynamic session are automatically deleted when the session ends.
+When creating a new session, the caller can create a dynamic session by passing the [**FWPM\_SESSION\_FLAG\_DYNAMIC**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_session0) flag to [**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0). Any objects added during a dynamic session are automatically deleted when the session ends.
 
 ## Transactions
 
@@ -30,7 +30,7 @@ If an operation fails during the course of a transaction, it does not affect the
 -   Committing the transaction, in which case the first three filters will be added.
 -   Continuing with more operations including potentially retrying the failed [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0).
 
-When beginning a transaction, BFE will wait until the session's [**txnWaitTimeoutInMSec**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_session0_) expires to acquire the lock. If the lock is not acquired within this time, the lock acquisition (and the [**FwpmTransactionBegin0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0) call) will fail. This prevents clients from indefinitely failing to respond. If the client did not specify a lock timeout, it defaults to 15 seconds.
+When beginning a transaction, BFE will wait until the session's [**txnWaitTimeoutInMSec**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_session0) expires to acquire the lock. If the lock is not acquired within this time, the lock acquisition (and the [**FwpmTransactionBegin0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0) call) will fail. This prevents clients from indefinitely failing to respond. If the client did not specify a lock timeout, it defaults to 15 seconds.
 
 Each transaction also has a lock timeout. This is the maximum amount of time that it can own the lock. If the owner does not release the lock within this time, the transaction is forcibly aborted, causing the lock to be released. The lock timeout is not configurable. It is infinite for kernel-mode callers and one hour for user-mode callers. If a transaction is forcibly aborted, the next call made within that transaction will fail with **FWP\_E\_TXN\_ABORTED**.
 

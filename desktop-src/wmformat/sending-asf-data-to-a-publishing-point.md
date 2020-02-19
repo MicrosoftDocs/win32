@@ -27,13 +27,13 @@ To push data to the publishing point, attach the push sink object to the writer 
 
 Perform the following steps:
 
-1.  Create the writer object by calling the [**WMCreateWriter**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) function, which returns an [**IWMWriter**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter) pointer.
-2.  Create the push sink object by calling the [**WMCreateWriterPushSink**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink) function, which returns an [**IWMWriterPushSink**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink) pointer.
-3.  Attach the network sink to the writer by calling [**IWMWriterAdvanced::AddSink**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink) on the writer, with a pointer to the network sink's **IWMWriterPushSink** interface.
-4.  Connect to the server by calling [**IWMWriterPushSink::Connect**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterpushsink-connect).
+1.  Create the writer object by calling the [**WMCreateWriter**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriter) function, which returns an [**IWMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter) pointer.
+2.  Create the push sink object by calling the [**WMCreateWriterPushSink**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink) function, which returns an [**IWMWriterPushSink**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink) pointer.
+3.  Attach the network sink to the writer by calling [**IWMWriterAdvanced::AddSink**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink) on the writer, with a pointer to the network sink's **IWMWriterPushSink** interface.
+4.  Connect to the server by calling [**IWMWriterPushSink::Connect**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterpushsink-connect).
 5.  Write the stream. This step involves setting the profile on the writer object, sending samples to the writer, and possibly other tasks. For more information, see [Writing ASF Files](writing-asf-files.md). Additional tasks might include setting metadata attributes (as described in [Working with Metadata](working-with-metadata.md)) or setting live-DRM on the stream (as described in [Enabling DRM Support](enabling-drm-support.md)). These tasks are performed exactly as they are for ASF file writing.
-6.  After you are done writing, call [**IWMWriterAdvanced::RemoveSink**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink) on the writer to detach the push sink object.
-7.  Call [**IWMWriterPushSink::EndSession**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterpushsink-endsession) on the push sink to end the session with the server.
+6.  After you are done writing, call [**IWMWriterAdvanced::RemoveSink**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink) on the writer to detach the push sink object.
+7.  Call [**IWMWriterPushSink::EndSession**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterpushsink-endsession) on the push sink to end the session with the server.
 
 These steps are illustrated in the WMVNetWrite sample application.
 
@@ -46,11 +46,11 @@ These steps are illustrated in the WMVNetWrite sample application.
 
 Authentication to the server is automatically handled by the push sink object. However, the application may need to supply credentials. This is done through the **IWMCredentialCallback** callback interface, as follows:
 
-1.  Implement the [**IWMStatusCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) and [**IWMCredentialCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback) interface in your application.
-2.  Query the push sink object for the [**IWMRegisterCallback**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback) interface.
-3.  Call [**IWMRegisterCallback::Advise**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise) with a pointer to your application's **IWMStatusCallback** interface.
-4.  If the push sink needs to get credentials from the application, it queries the **IWMStatusCallback** pointer for the **IWMCredentialCallback** interface and calls [**IWMCredentialCallback::AcquireCredentials**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcredentialcallback-acquirecredentials). For information about this method, see [Authentication](authentication.md).
-5.  When you are done, call [**IWMRegisterCallback::Unadvise**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise) to stop getting event notifications from the push sink.
+1.  Implement the [**IWMStatusCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback) and [**IWMCredentialCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback) interface in your application.
+2.  Query the push sink object for the [**IWMRegisterCallback**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback) interface.
+3.  Call [**IWMRegisterCallback::Advise**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise) with a pointer to your application's **IWMStatusCallback** interface.
+4.  If the push sink needs to get credentials from the application, it queries the **IWMStatusCallback** pointer for the **IWMCredentialCallback** interface and calls [**IWMCredentialCallback::AcquireCredentials**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcredentialcallback-acquirecredentials). For information about this method, see [Authentication](authentication.md).
+5.  When you are done, call [**IWMRegisterCallback::Unadvise**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise) to stop getting event notifications from the push sink.
 
 ## Related topics
 

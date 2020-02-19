@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Attribute List
 
-The predefined attributes included with this SDK are presented alphabetically in the following table. Each attribute has a name, a global identifier, and a data type as defined by the appropriate member of the [**WMT\_ATTR\_DATATYPE**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) enumeration. Some attributes do not use a simple data type, or are formatted according to a structure. Entries for these attributes list a structure name in the data-type column with the data type used to set the value in parentheses.
+The predefined attributes included with this SDK are presented alphabetically in the following table. Each attribute has a name, a global identifier, and a data type as defined by the appropriate member of the [**WMT\_ATTR\_DATATYPE**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) enumeration. Some attributes do not use a simple data type, or are formatted according to a structure. Entries for these attributes list a structure name in the data-type column with the data type used to set the value in parentheses.
 
 > [!Note]  
 > See [DRM Attribute List](drm-attribute-list.md) for a table of all the DRM-related attributes.

@@ -11,7 +11,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Gestures Constants
@@ -20,22 +20,17 @@ This section lists the constants used for Windows Touch gestures.
 
 <dl> <dt>
 
-<span id="GESTURECONFIGMAXCOUNT"></span><span id="gestureconfigmaxcount"></span>**GESTURECONFIGMAXCOUNT**
+**GESTURECONFIGMAXCOUNT**
 </dt> <dd> <dl> <dt>
 
 256
 </dt> <dt>
 
-
-
 Defines the maximum number of gesture configurations that can be included in a single call to [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig) or [**GetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-getgestureconfig).
-
 
 </dt> </dl> </dd> </dl>
 
 ## Requirements
-
-
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -43,26 +38,6 @@ Defines the maximum number of gesture configurations that can be included in a s
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
-[**GetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-getgestureconfig)
-</dt> <dt>
-
-[**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig)
-</dt> <dt>
-
-[Windows Touch Gestures](multi-touch-gestures.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[**GetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-getgestureconfig), [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig), [Windows Touch Gestures](multi-touch-gestures.md)

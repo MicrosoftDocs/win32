@@ -83,7 +83,7 @@ If compilation is successful, catcomp.exe creates three output files.
 | File name                   | Description                                                                                                                                                                         |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | catalog.wmdb                | Uncompressed compiled catalog.                                                                                                                                                      |
-| catalog.wmdb.lz             | Catalog in compressed format. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl). |
+| catalog.wmdb.lz             | Catalog in compressed format. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl). |
 | compiled\_unique\_words.txt | An intermediate output file. Not used by Windows Media Player.                                                                                                                      |
 
 

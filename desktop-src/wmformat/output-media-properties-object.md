@@ -16,11 +16,11 @@ ms.date: 05/31/2018
 
 An output media properties object is used to retrieve and set an output property. Output media properties objects are created for supported output formats of streams in a file that is loaded into a reader object. For compressed streams, the output properties are determined by the possible outputs of the decompressing codec.
 
-An output media properties object is created by [**IWMReader::GetOutputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops) This method creates an output media properties object that contains the properties of the default output format. Other formats may be supported for an output. To obtain additional output formats, you can call [**IWMReader::GetOutputFormatCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount) to get the number of supported output formats and then loop through them using calls to [**IWMReader::GetOutputFormat**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat). **GetOutputFormat** creates an output media properties object populated with the data for the selected output format.
+An output media properties object is created by [**IWMReader::GetOutputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops) This method creates an output media properties object that contains the properties of the default output format. Other formats may be supported for an output. To obtain additional output formats, you can call [**IWMReader::GetOutputFormatCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount) to get the number of supported output formats and then loop through them using calls to [**IWMReader::GetOutputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat). **GetOutputFormat** creates an output media properties object populated with the data for the selected output format.
 
-Output media properties objects can also be created with the synchronous reader. All of the method names are identical to those in the reader and they are all exposed by the [**IWMSyncReader**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) interface.
+Output media properties objects can also be created with the synchronous reader. All of the method names are identical to those in the reader and they are all exposed by the [**IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) interface.
 
-**GetOutputProps** and **GetOutputFormat** both set a pointer to an [**IWMOutputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) interface. The other interfaces of the output media properties object can be obtained by calling the **QueryInterface** method.
+**GetOutputProps** and **GetOutputFormat** both set a pointer to an [**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) interface. The other interfaces of the output media properties object can be obtained by calling the **QueryInterface** method.
 
 The following interfaces are supported by every output media properties object.
 
@@ -28,9 +28,9 @@ The following interfaces are supported by every output media properties object.
 
 | Interface                                          | Description                                                                                                |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [**IWMMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)             | Used as the base interface for the other media-property interfaces (input, output, and video).             |
-| [**IWMOutputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) | Retrieves the properties of an output.                                                                     |
-| [**IWMVideoMediaProps**](/windows/desktop/api/Wmsdkidl/nn-wmsdkidl-iwmvideomediaprops)   | Manages the properties of a video stream. This is an optional interface, available only for video streams. |
+| [**IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)             | Used as the base interface for the other media-property interfaces (input, output, and video).             |
+| [**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops) | Retrieves the properties of an output.                                                                     |
+| [**IWMVideoMediaProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nn-wmsdkidl-iwmvideomediaprops)   | Manages the properties of a video stream. This is an optional interface, available only for video streams. |
 
 
 

@@ -16,11 +16,11 @@ Every sample you pass to the writer must be associated with an input number. Eac
 
 To identify the connection names and corresponding input numbers for a loaded profile, perform the following steps:
 
-1.  Create a writer object and set a profile to use. For more information about setting profiles in the writer, see [To Use Profiles with the Writer](to-use-profiles-with-the-writer.md). You should know the connection names used for the streams in the profile. You can get the connection name from within the profile by getting the stream configuration object for each stream and calling [**IWMStreamConfig::GetConnectionName**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getconnectionname). For more information about profiles and stream configuration objects, see [Working with Profiles](working-with-profiles.md).
-2.  Retrieve the total number of inputs by calling [**IWMWriter::GetInputCount**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputcount).
+1.  Create a writer object and set a profile to use. For more information about setting profiles in the writer, see [To Use Profiles with the Writer](to-use-profiles-with-the-writer.md). You should know the connection names used for the streams in the profile. You can get the connection name from within the profile by getting the stream configuration object for each stream and calling [**IWMStreamConfig::GetConnectionName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getconnectionname). For more information about profiles and stream configuration objects, see [Working with Profiles](working-with-profiles.md).
+2.  Retrieve the total number of inputs by calling [**IWMWriter::GetInputCount**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputcount).
 3.  Loop through all of the inputs, performing the following steps for each.
-    -   Retrieve the [**IWMInputMediaProps**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) interface for the input by calling [**IWMWriter::GetInputProps**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
-    -   Retrieve the connection name that corresponds to the input number by calling [**IWMInputMediaProps::GetConnectionName**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwminputmediaprops-getconnectionname). After you have the connection name, you know the streams that are associated with the input numbers assigned by the writer.
+    -   Retrieve the [**IWMInputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops) interface for the input by calling [**IWMWriter::GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
+    -   Retrieve the connection name that corresponds to the input number by calling [**IWMInputMediaProps::GetConnectionName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwminputmediaprops-getconnectionname). After you have the connection name, you know the streams that are associated with the input numbers assigned by the writer.
 
 The following example code displays the connection name for each input. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 
@@ -87,7 +87,7 @@ Exit:
 
 <dl> <dt>
 
-[**IWMWriter Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
+[**IWMWriter Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
 </dt> <dt>
 
 [**Writing ASF Files**](writing-asf-files.md)

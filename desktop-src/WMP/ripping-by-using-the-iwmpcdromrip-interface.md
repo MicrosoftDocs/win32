@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Ripping by Using the IWMPCdromRip Interface
 
-This section describes how to use the [IWMPCdromRip](/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip) interface to rip music from a CD.
+This section describes how to use the [IWMPCdromRip](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip) interface to rip music from a CD.
 
 Ripping a CD by using the **IWMPCdromRip** interface has the same effect as ripping music by using the Windows Media Player user interface. Ripped content is automatically added to the library according to the user's preferences. For more information about CD ripping, see "Ripping music from CDs" in Windows Media Player Help.
 

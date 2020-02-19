@@ -17,7 +17,7 @@ The [Windows Touch Scratchpad sample in C#](https://github.com/MicrosoftDocs/win
 
 ![screen shot that shows the windows touch scratchpad sample in c sharp, with black, green, blue, and red squiggles on the screen](images/mtscratchpadwmtouchcs.png)
 
-For this sample, a touchable form is created to handle [**WM\_TOUCH**](wm-touchdown.md) messages. This form is inherited to enable Windows Touch on the scratchpad application. When the **WM\_TOUCH** messages come to the form, they are interpreted into points and are added to the collection of strokes. The strokes collection is rendered to the Graphics object. The following code shows how the touchable form registers itself for handling **WM\_TOUCH** messages, and how it handles **WM\_TOUCH** messages.
+For this sample, a touchable form is created to handle [**WM_TOUCH**](wm-touchdown.md) messages. This form is inherited to enable Windows Touch on the scratchpad application. When the **WM_TOUCH** messages come to the form, they are interpreted into points and are added to the collection of strokes. The strokes collection is rendered to the Graphics object. The following code shows how the touchable form registers itself for handling **WM_TOUCH** messages, and how it handles **WM_TOUCH** messages.
 
 ```CSharp
         private void OnLoadHandler(Object sender, EventArgs e)
@@ -175,4 +175,5 @@ The following code shows how the individual stroke objects display themselves wi
 
 ## Related topics
 
-- [Windows Touch Samples](windows-touch-samples.md)
+[Windows Touch Scratchpad Sample (C++)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md), [Multi-touch Scratchpad Application (WM_TOUCH/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [Multi-touch Scratchpad Application (WM_TOUCH/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [Windows Touch Samples](windows-touch-samples.md)
+

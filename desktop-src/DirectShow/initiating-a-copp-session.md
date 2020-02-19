@@ -111,7 +111,7 @@ CryptGenRandom(hCSP, sizeof(UINT), &uCommandSeq);
 
 
 
-Now you can prepare the COPP signature. This is a 256-byte array, defined as the [**AMCOPPSignature**](/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppsignature) structure. Initialize the contents of the array to zero. Then copy the four numbers into the array—the driver's random number, the AES key, the status sequence number, and the command sequence number, in that order. Finally, swap the byte order of the entire array.
+Now you can prepare the COPP signature. This is a 256-byte array, defined as the [**AMCOPPSignature**](/windows/win32/api/strmif/ns-strmif-amcoppsignature) structure. Initialize the contents of the array to zero. Then copy the four numbers into the array—the driver's random number, the AES key, the status sequence number, and the command sequence number, in that order. Finally, swap the byte order of the entire array.
 
 According to the documentation for **CryptEncrypt**:
 

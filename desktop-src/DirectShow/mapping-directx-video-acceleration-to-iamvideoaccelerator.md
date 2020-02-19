@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Mapping DirectX Video Acceleration to IAMVideoAccelerator
 
-The following section is primarily relevant for software decoder developers. It provides detailed information on how to use the [**IAMVideoAccelerator**](/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) Interface when communicating through the [Overlay Mixer](overlay-mixer-filter.md) or Video Mixing Renderer filter with a DirectX VA-enabled hardware device. This section covers the following topics:
+The following section is primarily relevant for software decoder developers. It provides detailed information on how to use the [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) Interface when communicating through the [Overlay Mixer](overlay-mixer-filter.md) or Video Mixing Renderer filter with a DirectX VA-enabled hardware device. This section covers the following topics:
 
 -   [Restricted Mode Profile and Configuration Establishment](restricted-mode-profile-and-configuration-establishment.md)
 -   [DirectX Video Acceleration IAMVideoAccelerator Operational Specification](directx-video-acceleration-iamvideoaccelerator-operational-specification.md)

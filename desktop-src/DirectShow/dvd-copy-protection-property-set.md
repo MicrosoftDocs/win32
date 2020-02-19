@@ -72,7 +72,7 @@ The following information presents the necessary constants and data types to use
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_SET_COPY_STATE</td>
-<td>Both get and set are supported on this property. Get is called first to determine if authentication is required. The set properties are indications as to which phase of copy protection negotiation the filter is entering. The data passed will be a structure of type <a href="/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state"><strong>AM_DVDCOPY_SET_COPY_STATE</strong></a>.</td>
+<td>Both get and set are supported on this property. Get is called first to determine if authentication is required. The set properties are indications as to which phase of copy protection negotiation the filter is entering. The data passed will be a structure of type <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state"><strong>AM_DVDCOPY_SET_COPY_STATE</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT</td>
@@ -85,7 +85,7 @@ Applies to Windows 7.
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_TITLE_KEY</td>
-<td>This is a set-only property. This provides title key from current content. The key is a structure of type <a href="/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey"><strong>AM_DVDCOPY_TITLEKEY</strong></a>.</td>
+<td>This is a set-only property. This provides title key from current content. The key is a structure of type <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey"><strong>AM_DVDCOPY_TITLEKEY</strong></a>.</td>
 </tr>
 </tbody>
 </table>

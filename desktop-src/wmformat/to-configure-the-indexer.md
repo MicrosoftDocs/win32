@@ -68,13 +68,13 @@ pMyIndexer = NULL;
 
 <dl> <dt>
 
-[**IWMIndexer2::Configure**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmindexer2-configure)
+[**IWMIndexer2::Configure**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmindexer2-configure)
 </dt> <dt>
 
 [**To Index an ASF File**](to-index-an-asf-file.md)
 </dt> <dt>
 
-[**WMCreateIndexer**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer)
+[**WMCreateIndexer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer)
 </dt> <dt>
 
 [**Working with Indexes**](working-with-indexes.md)

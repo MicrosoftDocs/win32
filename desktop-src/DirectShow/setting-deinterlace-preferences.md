@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Setting Deinterlace Preferences
 
-The Video Mixing Renderer (VMR) supports hardware-accelerated deinterlacing, which improves rendering quality for interlaced video. The exact features that are available depend on the underlying hardware. The application can query for the hardware deinterlacing capabilities and set deinterlacing preferences through the [**IVMRDeinterlaceControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrdeinterlacecontrol) interface (VMR-7) or [**IVMRDeinterlaceControl9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9) interface (VMR-9). Deinterlacing is performed on a per-stream basis.
+The Video Mixing Renderer (VMR) supports hardware-accelerated deinterlacing, which improves rendering quality for interlaced video. The exact features that are available depend on the underlying hardware. The application can query for the hardware deinterlacing capabilities and set deinterlacing preferences through the [**IVMRDeinterlaceControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrdeinterlacecontrol) interface (VMR-7) or [**IVMRDeinterlaceControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9) interface (VMR-9). Deinterlacing is performed on a per-stream basis.
 
 There is one important difference in interlacing behavior between the VMR-7 and the VMR-9. On systems where the graphics hardware doesn't support advanced deinterlacing, the VMR-7 can fall back to the hardware overlay and instruct it to use a BOB style deinterlace. In this case, although the VMR is reporting 30fps the video is actually being rendered at 60 flips per second.
 
@@ -22,8 +22,8 @@ Except in the case of the VMR-7 using hardware overlay, deinterlacing is perform
 To get the deinterlacing capabilities for a video stream, do the following:
 
 1.  Fill in a [**VMR9VideoDesc**](/previous-versions/windows/desktop/api/Vmr9/ns-vmr9-vmr9videodesc) structure with a description of the video stream. Details of how to fill in this structure are given later.
-2.  Pass the structure to the [**IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes) method. Call the method twice. The first call returns the number of deinterlace modes the hardware supports for the specified format. Allocate an array of GUIDs of this size, and call the method again, passing in the address of the array. The second call fills the array with GUIDs. Each GUID identifies one deinterlacing mode.
-3.  To get the capabiltiies of a particular mode, call the [**IVMRDeinterlaceControl9::GetDeinterlaceModeCaps**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps) method. Pass in the same **VMR9VideoDesc** structure, along with one of the GUIDs from the array. The method fills a [**VMR9DeinterlaceCaps**](/previous-versions/windows/desktop/api/Vmr9/ns-vmr9-vmr9deinterlacecaps) structure with the mode capabilities.
+2.  Pass the structure to the [**IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes) method. Call the method twice. The first call returns the number of deinterlace modes the hardware supports for the specified format. Allocate an array of GUIDs of this size, and call the method again, passing in the address of the array. The second call fills the array with GUIDs. Each GUID identifies one deinterlacing mode.
+3.  To get the capabiltiies of a particular mode, call the [**IVMRDeinterlaceControl9::GetDeinterlaceModeCaps**](/previous-versions/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps) method. Pass in the same **VMR9VideoDesc** structure, along with one of the GUIDs from the array. The method fills a [**VMR9DeinterlaceCaps**](/previous-versions/windows/desktop/api/Vmr9/ns-vmr9-vmr9deinterlacecaps) structure with the mode capabilities.
 
 The following code shows these steps:
 
@@ -66,10 +66,10 @@ if (SUCCEEDED(hr) && (dwNumModes != 0))
 
 Now the application can set the deinterlacing mode for the stream, using the following methods:
 
--   The [**SetDeinterlaceMode**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlacemode) method sets the preferred mode. Use GUID\_NULL to turn off deinterlacing.
--   The [**SetDeinterlacePrefs**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlaceprefs) method specifies the behavior if the requested mode is not available.
--   The [**GetDeinterlaceMode**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemode) method returns the preferred mode that you set.
--   The [**GetActualDeinterlaceMode**](/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getactualdeinterlacemode) method returns the actual mode in use, which might be a fallback mode, if the preferred mode is not available.
+-   The [**SetDeinterlaceMode**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlacemode) method sets the preferred mode. Use GUID\_NULL to turn off deinterlacing.
+-   The [**SetDeinterlacePrefs**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlaceprefs) method specifies the behavior if the requested mode is not available.
+-   The [**GetDeinterlaceMode**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemode) method returns the preferred mode that you set.
+-   The [**GetActualDeinterlaceMode**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getactualdeinterlacemode) method returns the actual mode in use, which might be a fallback mode, if the preferred mode is not available.
 
 The method reference pages give more information.
 

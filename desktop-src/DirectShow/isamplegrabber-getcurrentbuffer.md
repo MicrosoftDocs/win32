@@ -84,7 +84,7 @@ The *pBuffer* parameter is typed as a **long** pointer, but the contents of the 
 
 Do not call this method while the filter graph is running. While the filter graph is running, the Sample Grabber filter overwrites the contents of the buffer whenever it receives a new sample. The best way to use this method is to use "one-shot mode," which stops the graph after receiving the first sample. To set one-shot mode, call [**ISampleGrabber::SetOneShot**](isamplegrabber-setoneshot.md).
 
-The filter does not buffer preroll samples, or samples in which the **dwStreamId** member of the [**AM\_SAMPLE2\_PROPERTIES**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure is anything other than AM\_STREAM\_MEDIA.
+The filter does not buffer preroll samples, or samples in which the **dwStreamId** member of the [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure is anything other than AM\_STREAM\_MEDIA.
 
 > [!Note]  
 > The header file Qedit.h is not compatible with Direct3D headers later than version 7.

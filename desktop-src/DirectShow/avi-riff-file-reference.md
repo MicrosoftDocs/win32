@@ -110,7 +110,7 @@ The 'hdrl' list begins with the main AVI header, which is contained in an 'avih'
 
 One or more 'strl' lists follow the main header. A 'strl' list is required for each data stream. Each 'strl' list contains information about one stream in the file, and must contain a stream header chunk ('strh') and a stream format chunk ('strf'). In addition, a 'strl' list might contain a stream-header data chunk ('strd') and a stream name chunk ('strn').
 
-The stream header chunk ('strh') consists of an [**AVISTREAMHEADER**](/windows/desktop/api/avifmt/ns-avifmt-avistreamheader) structure.
+The stream header chunk ('strh') consists of an [**AVISTREAMHEADER**](/previous-versions/windows/desktop/api/avifmt/ns-avifmt-avistreamheader) structure.
 
 A stream format chunk ('strf') must follow the stream header chunk. The stream format chunk describes the format of the data in the stream. The data contained in this chunk depends on the stream type. For video streams, the information is a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure, including palette information if appropriate. For audio streams, the information is a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure.
 
@@ -139,7 +139,7 @@ The FOURCC that identifies each data chunk consists of a two-digit stream number
 
  
 
-For example, if stream 0 contains audio, the data chunks for that stream would have the FOURCC '00wb'. If stream 1 contains video, the data chunks for that stream would have the FOURCC '01db' or '01dc'. Video data chunks can also define new palette entries to update the palette during an AVI sequence. Each palette-change chunk ('xxpc') contains an [**AVIPALCHANGE**](/windows/desktop/api/avifmt/ns-avifmt-avipalchange) structure. If a stream contains palette changes, set the **AVISF\_VIDEO\_PALCHANGES** flag in the **dwFlags** member of the [**AVISTREAMHEADER**](/windows/desktop/api/avifmt/ns-avifmt-avistreamheader) structure for that stream.
+For example, if stream 0 contains audio, the data chunks for that stream would have the FOURCC '00wb'. If stream 1 contains video, the data chunks for that stream would have the FOURCC '01db' or '01dc'. Video data chunks can also define new palette entries to update the palette during an AVI sequence. Each palette-change chunk ('xxpc') contains an [**AVIPALCHANGE**](/previous-versions/windows/desktop/api/avifmt/ns-avifmt-avipalchange) structure. If a stream contains palette changes, set the **AVISF\_VIDEO\_PALCHANGES** flag in the **dwFlags** member of the [**AVISTREAMHEADER**](/previous-versions/windows/desktop/api/avifmt/ns-avifmt-avistreamheader) structure for that stream.
 
 Text streams can use arbitrary two-character codes.
 

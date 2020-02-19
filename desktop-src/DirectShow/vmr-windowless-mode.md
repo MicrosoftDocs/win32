@@ -47,7 +47,7 @@ To set the position of the video within the application window, call the [**IVMR
 
 **Configuring the VMR-9 for Windowless Mode**
 
-To configure the VMR-9 for windowless mode, use the steps described for the VMR-7 for Windowless mode, but use the [**IVMRFilterConfig9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9) and [**IVMRWindowlessControl9**](/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) interfaces. The only significant difference is that the VMR-9 creates four input pins by default, rather than one input pin. Therefore, you only need to call **SetNumberOfStreams** if you are mixing more than four video streams.
+To configure the VMR-9 for windowless mode, use the steps described for the VMR-7 for Windowless mode, but use the [**IVMRFilterConfig9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9) and [**IVMRWindowlessControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) interfaces. The only significant difference is that the VMR-9 creates four input pins by default, rather than one input pin. Therefore, you only need to call **SetNumberOfStreams** if you are mixing more than four video streams.
 
 **Example Code**
 

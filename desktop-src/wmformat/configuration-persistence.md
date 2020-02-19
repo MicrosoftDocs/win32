@@ -28,7 +28,7 @@ The one exception to this rule is for the credentials information. If the applic
 [**Implementing Network Functionality**](implementing-network-functionality.md)
 </dt> <dt>
 
-[**IWMCredentialCallback Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback)
+[**IWMCredentialCallback Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback)
 </dt> </dl>
 
  

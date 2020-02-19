@@ -67,7 +67,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Fol
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**WMPFolderScanState**](/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate)
+[**WMPFolderScanState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate)
 </dt> </dl>
 
  

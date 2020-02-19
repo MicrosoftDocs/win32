@@ -18,15 +18,15 @@ ms.date: 05/31/2018
 
 The synchronous reader supports more simplified switching between stream and output numbers for playback than the asynchronous reader. It is therefore more important to be able to find which stream numbers equate to which output numbers, or the other way around.
 
-To find the output number that corresponds to a stream number, call [**IWMSyncReader::GetOutputNumberForStream**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputnumberforstream).
+To find the output number that corresponds to a stream number, call [**IWMSyncReader::GetOutputNumberForStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputnumberforstream).
 
-To find the stream number that corresponds to an output number, call [**IWMSyncReader::GetStreamNumberForOutput**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamnumberforoutput)
+To find the stream number that corresponds to an output number, call [**IWMSyncReader::GetStreamNumberForOutput**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getstreamnumberforoutput)
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMSyncReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
+[**IWMSyncReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
 [**Inputs, Streams and Outputs**](inputs-streams-and-outputs.md)

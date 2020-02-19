@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Burning a CD
 
-This section describes how to use the [IWMPCdromBurn](/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn) interface to burn music to a CD. The **IWMPCdromBurn** interface provides functionality for burning playlists to CDs as either data or audio tracks, as well as erasing CD-RWs.
+This section describes how to use the [IWMPCdromBurn](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn) interface to burn music to a CD. The **IWMPCdromBurn** interface provides functionality for burning playlists to CDs as either data or audio tracks, as well as erasing CD-RWs.
 
 Code Usage
 

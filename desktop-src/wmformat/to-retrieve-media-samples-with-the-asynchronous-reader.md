@@ -14,15 +14,15 @@ ms.date: 05/31/2018
 
 # To Retrieve Media Samples with the Asynchronous Reader
 
-After you have received the WMT\_OPENED status message in your implementation of [**IWMStatusCallback::OnStatus**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus), you can begin receiving samples by calling [**IWMReader::Start**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start). The asynchronous reader delivers samples to your implementation of [**IWMReaderCallback::OnSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample). Samples are delivered in presentation-time order.
+After you have received the WMT\_OPENED status message in your implementation of [**IWMStatusCallback::OnStatus**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus), you can begin receiving samples by calling [**IWMReader::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-start). The asynchronous reader delivers samples to your implementation of [**IWMReaderCallback::OnSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample). Samples are delivered in presentation-time order.
 
-**Start** is an asynchronous call. It will return almost immediately and continue to run on separate threads. The asynchronous reader uses multiple threads when decoding content and delivering samples. When the end of the file is reached, the reader sends a WMT\_EOF status message to your implementation of the **OnStatus** callback. When WMT\_EOF is sent, the reader stops its own processing; you do not need to respond to WMT\_EOF with a call to [**IWMReader::Stop**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-stop).
+**Start** is an asynchronous call. It will return almost immediately and continue to run on separate threads. The asynchronous reader uses multiple threads when decoding content and delivering samples. When the end of the file is reached, the reader sends a WMT\_EOF status message to your implementation of the **OnStatus** callback. When WMT\_EOF is sent, the reader stops its own processing; you do not need to respond to WMT\_EOF with a call to [**IWMReader::Stop**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-stop).
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
+[**IWMReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader)
 </dt> <dt>
 
 [**To Implement Reader Messages in the OnStatus Callback**](to-implement-reader-messages-in-the-onstatus-callback.md)

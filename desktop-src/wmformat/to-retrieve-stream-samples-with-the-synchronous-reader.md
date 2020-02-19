@@ -19,16 +19,16 @@ Like the asynchronous reader, the synchronous reader can retrieve samples by str
 
 To receive stream samples, perform the following steps.
 
-1.  Any time before or during playback, call [**IWMSyncReader::SetReadStreamSamples**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples) passing the desired stream number.
-2.  Retrieve samples with continued calls to [**IWMSyncReader::GetNextSample**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample).
+1.  Any time before or during playback, call [**IWMSyncReader::SetReadStreamSamples**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples) passing the desired stream number.
+2.  Retrieve samples with continued calls to [**IWMSyncReader::GetNextSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample).
 
-You can check whether a stream is selected for sample delivery by calling [**IWMSyncReader::GetReadStreamSamples**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples).
+You can check whether a stream is selected for sample delivery by calling [**IWMSyncReader::GetReadStreamSamples**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples).
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMSyncReader Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
+[**IWMSyncReader Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> <dt>
 
 [**Reading Files with the Synchronous Reader**](reading-files-with-the-synchronous-reader.md)

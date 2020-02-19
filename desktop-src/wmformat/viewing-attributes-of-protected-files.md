@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 # Viewing Attributes of Protected Files
 
-In some scenarios, you may need to retrieve certain DRM attributes in a file without actually accessing the contents of the file. This capability is useful, for example, in applications that process batches of files in different ways based on information in the file header. In previous versions of the Windows Media Format SDK, applications were required to link to the DRM static library in order to open any protected file. Applications that do not have the DRM library can use the [**IWMDRMEditor::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty) interface on the metadata editor object to examine certain DRM attributes.
+In some scenarios, you may need to retrieve certain DRM attributes in a file without actually accessing the contents of the file. This capability is useful, for example, in applications that process batches of files in different ways based on information in the file header. In previous versions of the Windows Media Format SDK, applications were required to link to the DRM static library in order to open any protected file. Applications that do not have the DRM library can use the [**IWMDRMEditor::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty) interface on the metadata editor object to examine certain DRM attributes.
 
 > [!Note]  
 > DRM is not supported by the x64-based version of this SDK.
@@ -41,7 +41,7 @@ In some scenarios, you may need to retrieve certain DRM attributes in a file wit
 [**Enabling DRM Support**](enabling-drm-support.md)
 </dt> <dt>
 
-[**IWMDRMEditor Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
+[**IWMDRMEditor Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
 </dt> </dl>
 
  

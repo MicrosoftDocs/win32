@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Displaying Dialog Boxes
 
-The online store can invoke dialog boxes through Windows Media Player. To do this, call [External.showPopup](external-showpopup.md) from the discovery page script code, providing a custom index value that represents the dialog box to display. This index value has meaning only to the online store code; Windows Media Player does not interpret this value. Windows Media Player then calls [IWMPContentPartner::GetItemInfo](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo), passing g\_szItemInfo\_PopupURL for the *bstrInfoName* parameter and the index number for the *pContext* parameter. The plug-in then returns a **BSTR** containing the URL of the webpage to display in the dialog box and the Player shows the dialog box.
+The online store can invoke dialog boxes through Windows Media Player. To do this, call [External.showPopup](external-showpopup.md) from the discovery page script code, providing a custom index value that represents the dialog box to display. This index value has meaning only to the online store code; Windows Media Player does not interpret this value. Windows Media Player then calls [IWMPContentPartner::GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo), passing g\_szItemInfo\_PopupURL for the *bstrInfoName* parameter and the index number for the *pContext* parameter. The plug-in then returns a **BSTR** containing the URL of the webpage to display in the dialog box and the Player shows the dialog box.
 
 ## Related topics
 

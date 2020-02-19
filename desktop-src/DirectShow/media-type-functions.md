@@ -20,7 +20,7 @@ api_location:
 
 # Media Type Functions
 
-The DirectShow base classes provides helper functions for handling the [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure.
+The DirectShow base classes provides helper functions for handling the [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure.
 
 The **AM\_MEDIA\_TYPE** structure contains a pointer (the **pbFormat** member) to another block of memory, which is called the *format block*. When you work with this structure, therefore, you must be careful about memory allocation in order to avoid memory leaks.
 

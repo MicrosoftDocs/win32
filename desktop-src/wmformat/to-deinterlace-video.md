@@ -25,7 +25,7 @@ Some sources of video, such as video capture cards, deliver video data for inter
 
 When you want to display video on a computer monitor, each frame of the video should be displayed as one image (this method of displaying video one whole frame at a time is called *progressive* video.) If you display interlaced video progressively, the frames may not look right, because of the time difference between the two fields. The Windows Media Video codec and the Windows Media Video Advanced Profile codec both support a preprocessing feature that converts interlaced content into progressive frames.
 
-To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) method. The setting to use is g\_wszDeinterlaceMode. Set the deinterlacing mode to one of the following values.
+To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) method. The setting to use is g\_wszDeinterlaceMode. Set the deinterlacing mode to one of the following values.
 
 
 
@@ -97,7 +97,7 @@ For mixed content, set the deinterlacing mode as needed before passing samples o
 
 For a description of inverse telecine, see [To Use Inverse Telecine](to-use-inverse-telecine.md).
 
-If you set the deinterlacing mode to WM\_DM\_DEINTERLACE\_INVERSETELECINE, you can specify the telecine pattern of the first input frame by calling the [**IWMWriterAdvanced2::SetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting). The setting to use is g\_wszInitialPatternForInverseTelecine. Set the initial pattern to one of the following values.
+If you set the deinterlacing mode to WM\_DM\_DEINTERLACE\_INVERSETELECINE, you can specify the telecine pattern of the first input frame by calling the [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting). The setting to use is g\_wszInitialPatternForInverseTelecine. Set the initial pattern to one of the following values.
 
 
 

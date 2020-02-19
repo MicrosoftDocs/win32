@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Data Unit Extensions
 
-The Windows Media Format SDK enables you to supplement data in samples with *data unit extensions*, also called payload extension systems. This documentation uses the term "data unit extensions" in order to remain consistent with method names such as [**AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension). A data unit extension is a name/value pair that is attached to the sample in the data section of the file. You can access the extended data using methods of the buffer object when the sample is retrieved by the reader.
+The Windows Media Format SDK enables you to supplement data in samples with *data unit extensions*, also called payload extension systems. This documentation uses the term "data unit extensions" in order to remain consistent with method names such as [**AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension). A data unit extension is a name/value pair that is attached to the sample in the data section of the file. You can access the extended data using methods of the buffer object when the sample is retrieved by the reader.
 
 You can create data unit extensions to your own specifications, but several types are predefined and supported by the objects of this SDK. These standard extensions are used to provide additional data for file names (in script and Web streams), SMPTE time code data, non-square pixel aspect ratio, duration, and type of interlacing.
 

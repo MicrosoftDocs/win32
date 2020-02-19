@@ -30,7 +30,7 @@ g\_wszWMDRM\_ActionAllowed\_Copy
 
 In Windows Media DRM 10, all copy operations are restricted using the Copy action.
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
 ## See also
 

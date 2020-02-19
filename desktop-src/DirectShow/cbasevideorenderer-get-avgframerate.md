@@ -50,7 +50,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_AvgFrameRate**](/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_avgframerate) method.
+This member function implements the [**IQualProp::get\_AvgFrameRate**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_avgframerate) method.
 
 ## Requirements
 

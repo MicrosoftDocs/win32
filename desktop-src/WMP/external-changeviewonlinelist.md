@@ -64,7 +64,7 @@ A [library location constant](library-location-constants.md) that specifies the 
 *Params* \[in\]
 </dt> <dd>
 
-**String** containing parameters that Windows Media Player passes along to the online store's plug-in by calling [IWMPContentPartner::GetTemplate](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate). These parameters are not interpreted by Windows Media Player. They are created by the online store and have meaning only to the online store. This string can be empty
+**String** containing parameters that Windows Media Player passes along to the online store's plug-in by calling [IWMPContentPartner::GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate). These parameters are not interpreted by Windows Media Player. They are created by the online store and have meaning only to the online store. This string can be empty
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ This method does not return a value.
 
 ## Remarks
 
-When script on a discovery page calls **changeViewOnlineList**, Windows Media Player passes some of the parameters along to the [IWMPContentPartner::GetListContents](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents) and [IWMPContentPartner::GetTemplate](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) methods, which are implemented by the online store's plug-in. The following table shows the correspondence between the parameters of the three methods.
+When script on a discovery page calls **changeViewOnlineList**, Windows Media Player passes some of the parameters along to the [IWMPContentPartner::GetListContents](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents) and [IWMPContentPartner::GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) methods, which are implemented by the online store's plug-in. The following table shows the correspondence between the parameters of the three methods.
 
 
 
@@ -170,13 +170,13 @@ Note that the *LocationType* and *LocationID* parameters do not specify the list
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> <dt>
 
-[**IWMPContentPartner::GetListContents**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents)
+[**IWMPContentPartner::GetListContents**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback::AddListContents**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents)
+[**IWMPContentPartnerCallback::AddListContents**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents)
 </dt> <dt>
 
-[**IWMPContentPartner::GetTemplate**](/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate)
+[**IWMPContentPartner::GetTemplate**](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate)
 </dt> <dt>
 
 [**Location and Selected Item**](location-and-selected-item.md)

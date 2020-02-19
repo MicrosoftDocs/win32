@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Bandwidth Sharing Types
 
-You can use bandwidth sharing types to identify the nature of a bandwidth sharing object in a profile. Bandwidth sharing types are used as parameters for [**IWMBandwidthSharing::GetType**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype) and [**IWMBandwidthSharing::SetType**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype).
+You can use bandwidth sharing types to identify the nature of a bandwidth sharing object in a profile. Bandwidth sharing types are used as parameters for [**IWMBandwidthSharing::GetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype) and [**IWMBandwidthSharing::SetType**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype).
 
 The following table lists the identifiers for bandwidth sharing types.
 

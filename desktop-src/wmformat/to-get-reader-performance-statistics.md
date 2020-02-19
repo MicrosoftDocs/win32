@@ -31,8 +31,8 @@ The performance information you can retrieve from the reader includes the follow
 To get reader performance statistics, perform the following steps.
 
 1.  Before starting playback, create a [**WM\_READER\_STATISTICS**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_statistics) structure. You must set the **cbSize** member to sizeof(WM\_READER\_STATISTICS).
-2.  Obtain a pointer to the [**IWMReaderAdvanced**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) interface of the reader object by calling **IWMReader::QueryInterface**.
-3.  During playback, make calls to [**IWMReaderAdvanced::GetStatistics**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics) frequently to monitor performance. Pass your **WM\_READER\_STATISTICS** structure with each call and examine the appropriate members.
+2.  Obtain a pointer to the [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) interface of the reader object by calling **IWMReader::QueryInterface**.
+3.  During playback, make calls to [**IWMReaderAdvanced::GetStatistics**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics) frequently to monitor performance. Pass your **WM\_READER\_STATISTICS** structure with each call and examine the appropriate members.
 
 ## Related topics
 

@@ -30,7 +30,7 @@ All samples used by the Windows Media Format SDK are encapsulated in buffer obje
 [**Concepts**](concepts.md)
 </dt> <dt>
 
-[**INSSBuffer Interface**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer)
+[**INSSBuffer Interface**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer)
 </dt> <dt>
 
 [**Inputs, Streams and Outputs**](inputs-streams-and-outputs.md)

@@ -48,10 +48,10 @@ The following global constants are used to identify input settings for the write
 
 <dl> <dt>
 
-[**IWMWriterAdvanced2::GetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting)
+[**IWMWriterAdvanced2::GetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting)
 </dt> <dt>
 
-[**IWMWriterAdvanced2::SetInputSetting**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting)
+[**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting)
 </dt> </dl>
 
  

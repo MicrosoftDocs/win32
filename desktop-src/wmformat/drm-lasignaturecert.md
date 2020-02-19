@@ -28,7 +28,7 @@ g\_wszWMDRM\_LASignatureCert
 
 ## Remarks
 
-This property can be set with the [**IWMDRMWriter::SetDRMAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) method. It is not accessible to the reader object.
+This property can be set with the [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) method. It is not accessible to the reader object.
 
 ## See also
 

@@ -22,8 +22,8 @@ The Microsoft Windows Media Player Software Development Kit (SDK) supports one i
 
 | Section                                                  | Description                                                                                                   |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [WMPNotifyPluginAddRemove](/windows/desktop/api/wmpplug/nf-wmpplug-wmpnotifypluginaddremove) | An independent function used to notify Windows Media Player that a plug-in has been installed or uninstalled. |
-| [IWMPPluginUI Interface](/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui)               | An interface to UI plug-ins.                                                                                  |
+| [WMPNotifyPluginAddRemove](/previous-versions/windows/desktop/api/wmpplug/nf-wmpplug-wmpnotifypluginaddremove) | An independent function used to notify Windows Media Player that a plug-in has been installed or uninstalled. |
+| [IWMPPluginUI Interface](/previous-versions/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui)               | An interface to UI plug-ins.                                                                                  |
 | [Registration Flags](registration-flags.md)             | A list of settings flags that affect the behavior of UI plug-ins.                                             |
 
 

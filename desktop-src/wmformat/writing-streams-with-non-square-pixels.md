@@ -32,8 +32,8 @@ There are two ways to create video streams with non-square pixels that will be d
 
 1.  Set up the writer object. For more information, see [Writing ASF Files](writing-asf-files.md).
 2.  Create or load a profile with one or more video streams. For more information, see [To Use Profiles with the Writer](to-use-profiles-with-the-writer.md).
-3.  Call [**IWMWriter::SetProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile). (Always call this method before setting any header attributes.)
-4.  Call **QueryInterface** to obtain the [**IWMHeaderInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) interface and call [**AddAttribute**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) twice to add [**AspectRatioX**](aspectratiox.md) and [**AspectRatioY**](aspectratioy.md) as stream-level attributes of the video stream. These attributes are **DWORD** values.
+3.  Call [**IWMWriter::SetProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile). (Always call this method before setting any header attributes.)
+4.  Call **QueryInterface** to obtain the [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) interface and call [**AddAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) twice to add [**AspectRatioX**](aspectratiox.md) and [**AspectRatioY**](aspectratioy.md) as stream-level attributes of the video stream. These attributes are **DWORD** values.
 5.  Write the file.
 
 ## To Use Data Unit Extensions to Set Pixel Aspect Ratio
@@ -42,14 +42,14 @@ There are two ways to create video streams with non-square pixels that will be d
 
 1.  Set up the writer object. For more information, see [Writing ASF Files](writing-asf-files.md).
 2.  Create or load a profile with one or more video streams. For more information, see [To Use Profiles with the Writer](to-use-profiles-with-the-writer.md).
-3.  For each stream (of any media type) in the profile, call [**IWMStreamConfig::SetStreamName**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamname) to specify a unique name of your choice. Do not give two streams the same name.
-4.  Use [**IWMStreamConfig2::AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) on the video stream to add a data unit extension for pixel aspect ratio.
-5.  Call [**IWMWriter::SetProfile**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile).
+3.  For each stream (of any media type) in the profile, call [**IWMStreamConfig::SetStreamName**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamname) to specify a unique name of your choice. Do not give two streams the same name.
+4.  Use [**IWMStreamConfig2::AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) on the video stream to add a data unit extension for pixel aspect ratio.
+5.  Call [**IWMWriter::SetProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile).
 6.  Write the file.
 
 **While writing:**
 
--   For each sample, call [**INSSBuffer3::SetProperty**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) and specify the WM\_SampleExtensionGUID\_PixelAspectRatio property along with the correct value. Aspect ratio values are written as two concatenated two-digit values. For example, 16:9 is written as 1609 or 0x0649. This is always a 2-byte value.
+-   For each sample, call [**INSSBuffer3::SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) and specify the WM\_SampleExtensionGUID\_PixelAspectRatio property along with the correct value. Aspect ratio values are written as two concatenated two-digit values. For example, 16:9 is written as 1609 or 0x0649. This is always a 2-byte value.
 
 ## Related topics
 

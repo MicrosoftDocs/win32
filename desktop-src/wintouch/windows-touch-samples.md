@@ -6,7 +6,7 @@ keywords:
 - Windows Touch SDK,code samples
 - Windows Touch SDK,sample code
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/18/2020
 ---
 
 # Windows Touch Samples
@@ -17,26 +17,15 @@ When you install the [Windows 7 Touch Samples](https://go.microsoft.com/fwlink/p
 
 The following Windows Touch samples ship with the [Windows 7 SDK](https://go.microsoft.com/fwlink/p/?LinkID=329034).
 
--   [Manipulation and Inertia Sample](manipulation-and-inertia-sample.md)
--   [Windows Touch Gesture Sample (MTGestures)](windows-touch-gesture-sample--mtgestures-.md)
--   [Windows Touch Gestures in C# Sample (MTGesturesCS)](windows-touch-gestures-in-c--sample--mtgesturescs-.md)
--   [Windows Touch Manipulation Sample (MTManipulation)](windows-touch-manipulation-sample--mtmanipulation-.md)
--   [Windows Touch Scratchpad Sample (MTScratchpadWMTouch)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)
--   [Windows Touch Scratchpad Sample in C# (MTScratchpadWMTouchCS)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md)
--   [Windows Touch Scratchpad using the Real-time Stylus Sample (MTScratchpadRTStylus)](windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md)
--   [Windows Touch Scratchpad using the Real-time Stylus in C# Sample (MTScratchpadRTStylusCS)](windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md)
+- [Manipulation and Inertia Sample](manipulation-and-inertia-sample.md)
+- [Windows Touch Gesture Sample (MTGestures)](windows-touch-gesture-sample--mtgestures-.md)
+- [Windows Touch Gestures in C# Sample (MTGesturesCS)](windows-touch-gestures-in-c--sample--mtgesturescs-.md)
+- [Windows Touch Manipulation Sample (MTManipulation)](windows-touch-manipulation-sample--mtmanipulation-.md)
+- [Windows Touch Scratchpad Sample (MTScratchpadWMTouch)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md)
+- [Windows Touch Scratchpad Sample in C# (MTScratchpadWMTouchCS)](windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md)
+- [Windows Touch Scratchpad using the Real-time Stylus Sample (MTScratchpadRTStylus)](windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md)
+- [Windows Touch Scratchpad using the Real-time Stylus in C# Sample (MTScratchpadRTStylusCS)](windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md)
 
 ## Related topics
 
-<dl> <dt>
-
 [Touch Input](windows-touch-portal.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

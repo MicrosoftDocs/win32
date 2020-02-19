@@ -66,10 +66,10 @@ The system profiles are available localized for languages other than English. Fo
 
 <dl> <dt>
 
-[**IWMProfileManager::LoadProfileByID**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid)
+[**IWMProfileManager::LoadProfileByID**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid)
 </dt> <dt>
 
-[**IWMProfileManager2 Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2)
+[**IWMProfileManager2 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager2)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

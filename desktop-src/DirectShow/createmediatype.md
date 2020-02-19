@@ -20,7 +20,7 @@ api_location:
 
 # CreateMediaType function
 
-The **CreateMediaType** function allocates a new [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure, including the format block.
+The **CreateMediaType** function allocates a new [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure, including the format block.
 
 ## Syntax
 
@@ -40,13 +40,13 @@ AM_MEDIA_TYPE* WINAPI CreateMediaType(
 *pSrc* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure. The method copies this structure into the new structure.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure. The method copies this structure into the new structure.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a new [**AM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type) structure, or **NULL** if there is an error.
+Returns a new [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure, or **NULL** if there is an error.
 
 ## Remarks
 

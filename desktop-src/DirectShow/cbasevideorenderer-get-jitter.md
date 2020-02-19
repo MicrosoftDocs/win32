@@ -50,7 +50,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_Jitter**](/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_jitter) method.
+This member function implements the [**IQualProp::get\_Jitter**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_jitter) method.
 
 ## Requirements
 

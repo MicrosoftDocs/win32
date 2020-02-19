@@ -88,7 +88,7 @@ To implement this example programmatically, use the following WFP configuration.
 [**Filtering Layer Identifiers**](management-filtering-layer-identifiers-.md)
 </dt> <dt>
 
-[**FWPM\_ACTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_action0_)
+[**FWPM\_ACTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_action0)
 </dt> </dl>
 
  

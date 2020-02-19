@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Starting the Rip Process
 
-After you have retrieved the ripping interface as explained in the previous section, start the ripping process by calling [IWMPCdromRip::startRip](/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip).
+After you have retrieved the ripping interface as explained in the previous section, start the ripping process by calling [IWMPCdromRip::startRip](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip).
 
 
 ```C++
@@ -29,7 +29,7 @@ HRESULT hr = m_spCdromRip->startRip();
 
 
 
-You can stop the ripping operation by calling [IWMPCdromRip::stopRip](/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip).
+You can stop the ripping operation by calling [IWMPCdromRip::stopRip](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip).
 
 
 ```C++

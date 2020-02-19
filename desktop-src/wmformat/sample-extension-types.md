@@ -23,9 +23,9 @@ ms.date: 05/31/2018
 
 Sample extensions, also called data unit extensions (DUEs) or buffer properties, are items of data that are attached to the media samples in the data section of the ASF file. Several types of sample extensions are defined in the Windows Media Format SDK. You can also create your own extension types.
 
-To use sample extensions, you must identify the extension type in the stream configuration data of the profile. Call the [**IWMStreamConfig2::AddDataUnitExtension**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) method to configure a stream to accept samples with extended data.
+To use sample extensions, you must identify the extension type in the stream configuration data of the profile. Call the [**IWMStreamConfig2::AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) method to configure a stream to accept samples with extended data.
 
-Individual sample extensions must be added to the input samples by calling the [**INSSBuffer3::SetProperty**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method. When reading samples, you can call the [**INSSBuffer3::GetProperty**](/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty) method to retrieve the extension data. You can also use the methods of the [**INSSBuffer4**](/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4) interface to enumerate the data unit extensions attached to a sample.
+Individual sample extensions must be added to the input samples by calling the [**INSSBuffer3::SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method. When reading samples, you can call the [**INSSBuffer3::GetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty) method to retrieve the extension data. You can also use the methods of the [**INSSBuffer4**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4) interface to enumerate the data unit extensions attached to a sample.
 
 The following table lists the predefined data unit extension identifiers, and describes the data that is attached to samples for each.
 

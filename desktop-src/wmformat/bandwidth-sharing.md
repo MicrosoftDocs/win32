@@ -32,10 +32,10 @@ Bandwidth sharing is configured with a bandwidth sharing object and is added to 
 [**Bandwidth Sharing Object**](bandwidth-sharing-object.md)
 </dt> <dt>
 
-[**IWMBandwidthSharing Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing)
+[**IWMBandwidthSharing Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing)
 </dt> <dt>
 
-[**IWMProfile3 Interface**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3)
+[**IWMProfile3 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3)
 </dt> <dt>
 
 [**Using Bandwidth Sharing**](using-bandwidth-sharing.md)

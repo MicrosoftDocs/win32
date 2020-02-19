@@ -81,7 +81,7 @@ The Windows Media Format SDK provides support for the following codecs which are
 
  
 
-Different versions of the Windows Media Audio and Video codecs are available for encoding depending on the version of the Windows Media Format SDK that you install. When you use the methods if the [**IWMCodecInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) interface to enumerate codecs and codec formats, only the latest supported versions are enumerated.
+Different versions of the Windows Media Audio and Video codecs are available for encoding depending on the version of the Windows Media Format SDK that you install. When you use the methods if the [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3) interface to enumerate codecs and codec formats, only the latest supported versions are enumerated.
 
 ## Related topics
 

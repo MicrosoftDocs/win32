@@ -92,10 +92,10 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
 
 <dl> <dt>
 
-[**IWMPMedia Interface**](/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
+[**IWMPMedia Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia)
 </dt> <dt>
 
-[**IWMPMedia3::getItemInfoByType**](/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype)
+[**IWMPMedia3::getItemInfoByType**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

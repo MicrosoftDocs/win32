@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # BannerImageType
 
-The **BannerImageType** attribute specifies the type of image stored in the [**BannerImageData**](bannerimagedata.md) attribute. This attribute is a value from the [**WMT\_IMAGE\_TYPE**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_image_type) enumeration type.
+The **BannerImageType** attribute specifies the type of image stored in the [**BannerImageData**](bannerimagedata.md) attribute. This attribute is a value from the [**WMT\_IMAGE\_TYPE**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_image_type) enumeration type.
 
 ## Global Constant
 
