@@ -54,9 +54,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a notification go to Can</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to P</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
-<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcCallComplete</strong></a> is received go Comp</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to P</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
+<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcCallComplete</strong></a> is received go Comp</li>
 </ul>
 To fail: go to Can<br/></td>
 </tr>
@@ -136,9 +136,9 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to A</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to P</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read (null pull) go to Comp</li>
+<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to A</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to P</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read (null pull) go to Comp</li>
 <li>If a failure is received go to A</li>
 </ul>
 To fail: go to A<br/></td>
@@ -211,9 +211,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to Can</li>
-<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to Can</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to P</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read (null pull) go to Comp</li>
+<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to Can</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to P</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read (null pull) go to Comp</li>
 <li>If a failure is received go Can</li>
 </ul>
 To fail: go to Can<br/></td>
@@ -282,8 +282,8 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to P</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to P</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
 <li>If a failure is received go Comp</li>
 </ul>
 To fail: go to A<br/></td>
@@ -374,9 +374,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a notification go to Can</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to PS</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
-<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcCallComplete</strong></a> is received go Comp</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to PS</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
+<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcCallComplete</strong></a> is received go Comp</li>
 </ul>
 To fail: go to Can<br/></td>
 </tr>
@@ -408,9 +408,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to Can</li>
-<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to Can</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to PL</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read go to Comp</li>
+<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to Can</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to PL</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read go to Comp</li>
 <li>If a failure is received go Can</li>
 </ul>
 To fail: go to Can<br/></td>
@@ -481,9 +481,9 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to A</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to PL</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read go to PS</li>
+<li>If a failure <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received go to A</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with non-zero bytes read go to PL</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcReceiveComplete</strong></a> is received with zero bytes read go to PS</li>
 <li>If a failure is received go A</li>
 </ul>
 To fail: go to A<br/></td>
@@ -504,8 +504,8 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to PS</li>
-<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-_rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data needs to be sent go to PS</li>
+<li>If a success <a href="/windows/desktop/api/Rpcasync/ne-rpcasync-rpc_async_event"><strong>RpcSendComplete</strong></a> is received and more data does not need to be sent go to NP</li>
 <li>If a failure is received go Comp</li>
 </ul>
 To fail: go to A<br/></td>

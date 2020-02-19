@@ -409,7 +409,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstream"><strong>ILLoadFromStream</strong></a><br/></td>
-<td>Deprecated. Loads an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure from a stream.<br/></td>
+<td>Deprecated. Loads an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure from a stream.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-illoadfromstreamex"><strong>ILLoadFromStreamEx(IStream*, PIDLIST_ABSOLUTE*)</strong></a><br/></td>
@@ -566,16 +566,16 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Converts a string from the ANSI code page to the Unicode code page.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a><br/></td>
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a> may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist"><strong>SHChangeDWORDAsIDList</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shchangeproductkeyasidlist"><strong>SHChangeProductKeyAsIDList</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist"><strong>SHChangeUpdateImageIDList</strong></a><br/></td>
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist"><strong>SHChangeUpdateImageIDList</strong></a> may be altered or unavailable.<br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist"><strong>SHChangeUpdateImageIDList</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist"><strong>SHChangeUpdateImageIDList</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shclonespecialidlist"><strong>SHCloneSpecialIDList</strong></a><br/></td>
@@ -606,7 +606,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Creates a new user-mode process and its primary thread to run a specified executable file. <br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-_shcreateprocessinfow"><strong>SHCREATEPROCESSINFOW</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shcreateprocessinfow"><strong>SHCREATEPROCESSINFOW</strong></a><br/></td>
 <td>Contains the information needed by <a href="/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw"><strong>SHCreateProcessAsUserW</strong></a> to create a process. <br/></td>
 </tr>
 <tr class="even">
@@ -687,7 +687,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation"><strong>SHGetFolderLocation</strong></a><br/></td>
-<td>Deprecated. Retrieves the path of a folder as an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
+<td>Deprecated. Retrieves the path of a folder as an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha"><strong>SHGetFolderPath</strong></a><br/></td>
@@ -773,7 +773,7 @@ This function has been deprecated as of Windows Vista. It is recommended that, 
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762218(v=vs.85)"><strong>SHMapIDListToImageListIndexAsync</strong></a><br/></td>
-<td>Retrieves an index in the system image list when given an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> and an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> that is contained in it. This function also gets the final icon from the callback if necessary.<br/></td>
+<td>Retrieves an index in the system image list when given an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> and an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> that is contained in it. This function also gets the final icon from the callback if necessary.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shmappidltosystemimagelistindex"><strong>SHMapPIDLToSystemImageListIndex</strong></a><br/></td>
@@ -834,7 +834,7 @@ This function has been replaced by <a href="/windows/desktop/api/Shlwapi/nf-shlw
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsimpleidlistfrompath"><strong>SHSimpleIDListFromPath</strong></a><br/></td>
-<td>Deprecated. Returns a pointer to an <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> structure when passed a path.<br/></td>
+<td>Deprecated. Returns a pointer to an <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> structure when passed a path.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shstartnetconnectiondialoga"><strong>SHStartNetConnectionDialog</strong></a><br/></td>

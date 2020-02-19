@@ -502,7 +502,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignContext</strong></a></td>
-<td>Releases a pointer to a <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> structure.</td>
+<td>Releases a pointer to a <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> structure.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a></td>
@@ -884,7 +884,7 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
-<td>Compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
+<td>Compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
@@ -964,7 +964,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Computes the hash of the &quot;to be signed&quot; information in the encoded signed content (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>).</td>
+<br/> Computes the hash of the &quot;to be signed&quot; information in the encoded signed content (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>

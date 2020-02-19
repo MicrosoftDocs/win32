@@ -51,7 +51,7 @@ The following table describes each component of the key BLOB.
 <tbody>
 <tr class="odd">
 <td>Blobheader</td>
-<td>A <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc"><strong>BLOBHEADER</strong></a> structure. The <strong>bType</strong> member must have a value of PUBLICKEYBLOB.</td>
+<td>A <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc"><strong>BLOBHEADER</strong></a> structure. The <strong>bType</strong> member must have a value of PUBLICKEYBLOB.</td>
 </tr>
 <tr class="even">
 <td>Dsspubkeyver3</td>

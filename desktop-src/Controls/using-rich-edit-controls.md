@@ -52,7 +52,7 @@ This section contains topics that demonstrate how to create and use rich edit co
 </tr>
 <tr class="odd">
 <td><a href="use-streams.md">How to Use Streams</a><br/></td>
-<td>You can use streams to transfer data into or out of a rich edit control. A stream is defined by an <a href="/windows/desktop/api/Richedit/ns-richedit-_editstream"><strong>EDITSTREAM</strong></a> structure, which specifies a buffer and an application-defined callback function. <br/></td>
+<td>You can use streams to transfer data into or out of a rich edit control. A stream is defined by an <a href="/windows/desktop/api/Richedit/ns-richedit-editstream"><strong>EDITSTREAM</strong></a> structure, which specifies a buffer and an application-defined callback function. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="automatically-resize-rich-edit-controls.md">How to Automatically Resize Rich Edit Controls</a><br/></td>
