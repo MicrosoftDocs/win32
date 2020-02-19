@@ -19,6 +19,7 @@ api_name:
 - Msvm_MemorySettingData.PoolID
 - Msvm_MemorySettingData.ConsumerVisibility
 - Msvm_MemorySettingData.HostResource
+- Msvm_MemorySettingData.HugePagesEnabled
 - Msvm_MemorySettingData.AllocationUnits
 - Msvm_MemorySettingData.VirtualQuantity
 - Msvm_MemorySettingData.Reservation
@@ -67,6 +68,7 @@ class Msvm_MemorySettingData : CIM_ResourceAllocationSettingData
   string  PoolID;
   uint16  ConsumerVisibility;
   string  HostResource[];
+  boolean HugePagesEnabled;
   string  AllocationUnits = "byte * 2^20";
   uint64  VirtualQuantity;
   uint64  Reservation;
@@ -111,7 +113,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The address of the resource. For example, the MAC address of an Ethernet port. This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
+The address of the resource. For example, the MAC address of an Ethernet port. This property is inherited from [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
 </dd> <dt>
 
@@ -258,6 +260,19 @@ Access type: Read-only
 </dt> </dl>
 
 The first element of this array contains a reference to the underlying host resource to be assigned. This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata), but it is not used.
+
+</dd> <dt>
+  
+**HugePagesEnabled**
+</dt> <dd> <dl> <dt>
+
+Data type: **boolean**
+</dt> <dt>
+
+Access type: Read-only
+</dt> </dl>
+
+Whether the memory is backed by 1GB pages or not.
 
 </dd> <dt>
 
@@ -513,6 +528,62 @@ Defines the memory allocation weighting value for each virtual machine. After al
 ## Remarks
 
 Access to the **Msvm\_MemorySettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+
+## Examples
+
+```powershell
+function WaitForResult
+{
+  param($result)
+  if ($result.ReturnValue -eq 4096)
+  {
+    while($true)
+    {
+      $result.Job
+      if ($result.Job -ne $null)
+      {
+        if ($result.Job.JobState -gt 4)
+        {
+          return $result.Job.ErrorCode
+        }
+      }
+      start-sleep 1
+    }
+  }
+  else
+  {
+    return $result.ReturnValue
+  }
+}
+
+if ($($args.count) -ne 2)
+{
+  Write-Host "EnableHugePages.ps1 VMName SizeInMB"
+  return
+}
+
+$vmName = $args[0]
+$sizeInMB = $args[1]
+ 
+$namespace = "root\virtualization\v2"
+$vm = Get-WmiObject -class MSVM_ComputerSystem -filter "ElementName='$vmName'" -namespace $namespace
+$settings = Get-WmiObject -query "Associators of {$vm} where ResultClass = Msvm_VirtualSystemSettingData" -namespace $namespace
+$vmSettings = $settings | ? VirtualSystemType -eq "Microsoft:Hyper-V:System:Realized"
+$memorySettings = Get-WmiObject -query "Associators of {$vmSettings} where ResultClass = Msvm_MemorySettingData" -namespace $namespace
+
+$memorySettings.MaxMemoryBlocksPerNumaNode = $sizeInMB
+$memorySettings.Reservation = $sizeInMB
+$memorySettings.Limit = $sizeInMB
+$memorySettings.VirtualQuantity = $sizeInMB
+$memorySettings.HugePagesEnabled = $True
+
+$vmSvc = Get-WmiObject -class Msvm_VirtualSystemManagementService -namespace $namespace
+$res = $vmSvc.ModifyResourceSettings($memorySettings.GetText(2))
+if (WaitForResult($res) -ne 0)
+{
+  Write-Host "Failed."
+}
+```
 
 ## Requirements
 
