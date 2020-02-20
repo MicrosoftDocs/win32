@@ -151,6 +151,26 @@ To see how to capture and view TraceLogging data using the latest internal versi
 
 See [C/C++ Tracelogging Examples](tracelogging-c-cpp-tracelogging-examples.md) for more C++ TraceLogging examples.
 
+## A note on compatability
+
+Depending on its configuration, TraceLoggingProvider.h can be
+backwards-compatible (compatible with Vista or later), or can be optimized for
+later OS versions. TraceLoggingProvider.h uses WINVER (user mode) and
+NTDDI_VERSION (kernel mode) to determine whether it should be compatible with
+earlier OS versions or be optimized for newer OS versions.:|
+
+For user-mode, if you include <windows.h> before setting WINVER, <windows.h>
+will set WINVER to the SDK's default target OS version. If WINVER is set to
+0x602 or higher, TraceLoggingProvider.h will optimize its behavior for Windows
+8 and your program will not run on earlier versions of Windows. If you need
+your program to run on Vista or Windows 7, be sure to set WINVER to the
+appropriate value before including <windows.h>.
+
+Similarly, if you include <wdm.h> before setting NTDDI_VERSION, <wdm.h> will
+set NTDDI_VERSION to a default value. If NTDDI_VERSION is set to 0x06040000
+or higher, TraceLoggingProvider.h will optimize its behavior for Windows 10
+and your driver will not work on earlier versions of Windows.
+
  
 
  
