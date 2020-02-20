@@ -273,7 +273,7 @@ The Multimedia Command set that is defined by the T10 working group of INCITS. T
 <span id="imapi.imapi2_glossary_MtFuji"></span><span id="imapi.imapi2_glossary_mtfuji"></span><span id="IMAPI.IMAPI2_GLOSSARY_MTFUJI"></span>**Mt. Fuji**
 </dt> <dd>
 
-A set of commands to control multimedia devices, similar to the MMC command set. Some items (such as features or media types) are described in the Mt. Fuji documents, while others are first described in the MMC documents. Current working drafts of the command set may be found at [ftp://ftp.avc-pioneer.com](https://go.microsoft.com/fwlink/p/?linkid=83839).
+A set of commands to control multimedia devices, similar to the MMC command set. Some items (such as features or media types) are described in the Mt. Fuji documents, while others are first described in the MMC documents. Current working drafts of the command set may be found at [ftp://ftp.avc-pioneer.com](ftp://ftp.avc-pioneer.com/).
 
 </dd> <dt>
 

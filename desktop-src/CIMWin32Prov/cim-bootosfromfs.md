@@ -23,7 +23,7 @@ api_location:
 The **CIM\_BootOSFromFS** class associates the operating system and the file systems from which the operating system is loaded. The association is many-to-many; a distributed operating system can depend on several file systems to load correctly and completely.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

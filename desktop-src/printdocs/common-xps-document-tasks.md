@@ -51,7 +51,7 @@ For clarity, these code examples use a very simple XPS OM, one that might not be
 [Error Handling in COM](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx)
 </dt> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

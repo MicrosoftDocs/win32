@@ -16,7 +16,7 @@ Run this sample from the command line, with the name of a video file as a comman
 
 ## Downloading the Sample
 
-To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
+To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 This sample is installed under the following path: *\[SDK Root\]*\\Samples\\Multimedia\\DirectShow\\Players\\CutScene.
 

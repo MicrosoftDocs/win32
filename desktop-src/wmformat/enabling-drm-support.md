@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 You can use the Microsoft Windows Media Format Software Development Kit (SDK) to build applications that can apply digital rights management (DRM) protection and play live-DRM streams or DRM-protected files. Support is also provided for backing up and restoring a player's DRM licenses, and for [*individualizing*](wmformat-glossary.md) players.
 
-This documentation assumes that you have a basic familiarity with Microsoft's digital rights management technology. A basic overview of Windows Media DRM is provided in the [Digital Rights Management Features](digital-rights-management-features.md) section of this documentation. For more information on DRM, see the Digital Rights Management page at the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=10404).
+This documentation assumes that you have a basic familiarity with Microsoft's digital rights management technology. A basic overview of Windows Media DRM is provided in the [Digital Rights Management Features](digital-rights-management-features.md) section of this documentation. For more information on DRM, see the Digital Rights Management page at the [Microsoft Web site](https://windows.microsoft.com/en-US/windows/products/windows-media).
 
 > [!Note]  
 > DRM is not supported by the x64-based version of this SDK.

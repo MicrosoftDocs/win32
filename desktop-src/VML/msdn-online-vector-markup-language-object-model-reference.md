@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -37,7 +37,7 @@ In this topic:
 
 ## Introduction
 
-[Vector Markup Language (VML)](https://go.microsoft.com/fwlink/p/?linkid=161711) is a text-based language that uses [XML](https://www.w3.org/TR/REC-xml.mdl) to extend HTML for the purpose of displaying vector graphic information. The VML Document Object Model (DOM) defines a programmatic interface for the manipulation of the document elements. This enables the user to dynamically create and modify vector graphics through a platform- and language-neutral interface. The VML DOM conforms to the [Document Object Model](https://www.w3.org/TR/REC-DOM-Level-1/) specification.
+[Vector Markup Language (VML)](https://www.w3.org/TR/NOTE-datetime.html) is a text-based language that uses [XML](https://www.w3.org/TR/REC-xml.mdl) to extend HTML for the purpose of displaying vector graphic information. The VML Document Object Model (DOM) defines a programmatic interface for the manipulation of the document elements. This enables the user to dynamically create and modify vector graphics through a platform- and language-neutral interface. The VML DOM conforms to the [Document Object Model](https://www.w3.org/TR/REC-DOM-Level-1/) specification.
 
 VML uses the [Shape](#shape-element) element as the basic building block for vector graphic images. Once a shape is created, you can modify the shape through attributes or by attached subelements. For example, to change the color of a shape, assign a color value to the **FillColor** attribute.
 

@@ -183,17 +183,17 @@ IMEs that are malicious or that do not follow the Windows 8 IME Guidelines can 
 
 ## Resources
 
--   [ITfThreadMgrEx::Get Active Flags method](https://go.microsoft.com/fwlink/p/?LinkId=325492)
--   [SignTool](https://go.microsoft.com/fwlink/p/?LinkId=325493)
--   [Everything you need to know about Authenticode Code Signing](https://go.microsoft.com/fwlink/p/?LinkId=325494)
--   [Windows app contracts and extensions](https://go.microsoft.com/fwlink/p/?LinkId=325495)
--   [Certification requirements for Windows 8 desktop apps](https://go.microsoft.com/fwlink/p/?LinkId=325496)
--   [Certification requirements for Windows apps](https://go.microsoft.com/fwlink/p/?LinkId=235357)
--   [Using the Windows App Certification Kit](https://go.microsoft.com/fwlink/p/?LinkId=325497)
--   [Authenticode Overview](https://go.microsoft.com/fwlink/p/?LinkId=325498)
--   [Ensuring Integrity and Authenticity](https://go.microsoft.com/fwlink/p/?LinkId=325499)
--   [Code Signing Best Practices](https://go.microsoft.com/fwlink/p/?LinkId=325500)
--   [What are Digital Certificates?](https://go.microsoft.com/fwlink/p/?LinkId=325501)
+-   [ITfThreadMgrEx::Get Active Flags method](https://msdn.microsoft.com/library/windows/desktop/aa383154.aspx)
+-   [SignTool](https://msdn.microsoft.com/library/aa387764.aspx)
+-   [Everything you need to know about Authenticode Code Signing](https://blogs.msdn.com/b/ieinternals/archive/2011/03/22/authenticode-code-signing-for-developers-for-file-downloads-building-smartscreen-application-reputation.aspx)
+-   [Windows app contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906.aspx)
+-   [Certification requirements for Windows 8 desktop apps](https://msdn.microsoft.com/library/windows/desktop/hh749939.aspx)
+-   [Certification requirements for Windows apps](https://msdn.microsoft.com/library/windows/apps/51A7C609-94AB-49ab-B8E0-F26FF776DDB4.aspx)
+-   [Using the Windows App Certification Kit](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27414)
+-   [Authenticode Overview](https://msdn.microsoft.com/library/ms537359.aspx)
+-   [Ensuring Integrity and Authenticity](https://msdn.microsoft.com/library/ms537361.aspx#Ensuring_Integrity_a)
+-   [Code Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)
+-   [What are Digital Certificates?](https://msdn.microsoft.com/library/Aa190113)
 
  
 

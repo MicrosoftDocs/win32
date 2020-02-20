@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Transactional NTFS (TxF) integrates transactions into the NTFS file system, which makes it easier for application developers and administrators to gracefully handle errors and preserve data integrity.
 
-TxF can participate in distributed transactions that the [Distributed Transaction Coordinator (DTC)](https://go.microsoft.com/fwlink/p/?linkid=139572) coordinates, which allows you to use TxF for the following:
+TxF can participate in distributed transactions that the [Distributed Transaction Coordinator (DTC)](https://msdn.microsoft.com/library/ms684146.aspx) coordinates, which allows you to use TxF for the following:
 
 -   Transactions that span multiple data stores, for example, a single transaction for file and SQL operations
 -   Transactions that span multiple computers, for example, a single transaction for file updates on multiple computers

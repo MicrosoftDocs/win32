@@ -19,7 +19,7 @@ When you receive an error code, you have the following options:
 
 -   Retrieve the error code normally.
 
-    WMI supports the standard techniques to retrieve error codes, which are COM error codes for C++, and native error objects, such as [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685), or [**SWbemLastError**](swbemlasterror.md) if the provider supplies error information.
+    WMI supports the standard techniques to retrieve error codes, which are COM error codes for C++, and native error objects, such as [Err Object (VBScript)](https://msdn.microsoft.com/library/sbf5ze0e.aspx), or [**SWbemLastError**](swbemlasterror.md) if the provider supplies error information.
 
 For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
@@ -32,10 +32,10 @@ The following sections are discussed in this topic:
 
 If a call to WMI through the Scripting API for WMI causes an error, you have the following options to access the error information:
 
--   Use native error mechanisms of the scripting language, for example, in VBScript use [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685) to support error handling.
+-   Use native error mechanisms of the scripting language, for example, in VBScript use [Err Object (VBScript)](https://msdn.microsoft.com/library/sbf5ze0e.aspx) to support error handling.
 -   Create an [**SWbemLastError**](swbemlasterror.md) object to get an error report.
 
-The following script shows use of the native [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685). When an incorrect value for the process handle is given, an error is generated.
+The following script shows use of the native [Err Object (VBScript)](https://msdn.microsoft.com/library/sbf5ze0e.aspx). When an incorrect value for the process handle is given, an error is generated.
 
 
 ```VB
@@ -49,9 +49,9 @@ Wscript.Echo Err.Number
 
 > [!Note]
 >
-> The **Description** property of [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685) is empty when connecting to WMI through the "winmgmts:" moniker. However, if you connect using [**SWbemLocator**](swbemlocator.md), the description is available.
+> The **Description** property of [Err Object (VBScript)](https://msdn.microsoft.com/library/sbf5ze0e.aspx) is empty when connecting to WMI through the "winmgmts:" moniker. However, if you connect using [**SWbemLocator**](swbemlocator.md), the description is available.
 >
-> The following table lists the properties of [Err Object (VBScript)](https://go.microsoft.com/fwlink/p/?linkid=125685).
+> The following table lists the properties of [Err Object (VBScript)](https://msdn.microsoft.com/library/sbf5ze0e.aspx).
 >
 > 
 >

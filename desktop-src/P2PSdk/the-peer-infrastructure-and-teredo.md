@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The Peer Infrastructure and Teredo
 
-A user can check the status of the [Teredo](https://go.microsoft.com/fwlink/p/?linkid=84357) interface from the command prompt by typing **netsh interface teredo show state** and examining the output. If the state is "offline", Teredo is not active, which prevents the user from connecting to other users via their Teredo addresses. It is possible Teredo may be offline because your firewall is disabled or does not support [IPv6](https://go.microsoft.com/fwlink/p/?linkid=84369).
+A user can check the status of the [Teredo](https://msdn.microsoft.com/library/ms819742.aspx) interface from the command prompt by typing **netsh interface teredo show state** and examining the output. If the state is "offline", Teredo is not active, which prevents the user from connecting to other users via their Teredo addresses. It is possible Teredo may be offline because your firewall is disabled or does not support [IPv6](https://msdn.microsoft.com/library/ms898970.aspx).
 
  
 

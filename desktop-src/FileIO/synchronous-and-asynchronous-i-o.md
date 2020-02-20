@@ -33,7 +33,7 @@ In some cases, this delay may be unacceptable to the application's design and pu
 A process opens a file for asynchronous I/O in its call to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) by specifying the **FILE\_FLAG\_OVERLAPPED** flag in the *dwFlagsAndAttributes* parameter. If **FILE\_FLAG\_OVERLAPPED** is not specified, the file is opened for synchronous I/O. When the file has been opened for asynchronous I/O, a pointer to an [**OVERLAPPED**](/windows/desktop/api/MinWinBase/ns-minwinbase-overlapped_entry) structure is passed into the call to [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) and [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile). When performing synchronous I/O, this structure is not required in calls to **ReadFile** and **WriteFile**.
 
 > [!Note]  
-> If a file or device is opened for asynchronous I/O, subsequent calls to functions such as [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) using that handle generally return immediately but can also behave synchronously with respect to blocked execution. For more information, see [https://support.microsoft.com/kb/156932](https://go.microsoft.com/fwlink/p/?linkid=116863).
+> If a file or device is opened for asynchronous I/O, subsequent calls to functions such as [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) using that handle generally return immediately but can also behave synchronously with respect to blocked execution. For more information, see [https://support.microsoft.com/kb/156932](https://support.microsoft.com/kb/156932).
 
  
 

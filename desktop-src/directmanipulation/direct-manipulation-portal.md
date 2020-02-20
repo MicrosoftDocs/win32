@@ -68,5 +68,5 @@ Direct Manipulation is associated with a Win32 HWND in order to receive and proc
 - [Composition engine](directmanipulation-composition-engine.md)
 - [Direct Manipulation Reference](direct-manipulation-reference.md)
 
-- [BUILD 2013: WCL-022: Make your desktop app great with touch, mouse, and pen](https://go.microsoft.com/fwlink/p/?LinkID=309846)
-- [Process touch input with Direct Manipulation sample](https://go.microsoft.com/fwlink/p/?LinkID=309852)
+- [BUILD 2013: WCL-022: Make your desktop app great with touch, mouse, and pen](https://channel9.msdn.com/Events/Build/2013/4-022)
+- [Process touch input with Direct Manipulation sample](https://code.msdn.microsoft.com/Process-touch-input-with-8242d794)

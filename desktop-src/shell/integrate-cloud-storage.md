@@ -99,7 +99,7 @@ Use the shell32.dll to emulate default windows folders. Only change this if you 
 
 ### Step 6: Define the instance object
 
-Indicate that your namespace extension should function like other file folder structures in File Explorer. For more information about shell instance objects, see [Creating Shell Extensions with Shell Instance Objects](https://go.microsoft.com/fwlink/p/?linkid=533798).
+Indicate that your namespace extension should function like other file folder structures in File Explorer. For more information about shell instance objects, see [Creating Shell Extensions with Shell Instance Objects](https://docs.microsoft.com/previous-versions/ms997573(v=msdn.10)?redirectedfrom=MSDN).
 
 **reg add HKCU\\Software\\Classes\\CLSID\\{0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3}\\Instance /v CLSID /t REG\_SZ /d {0E5AAE11-A475-4c5b-AB00-C66DE400274E} /f**
 

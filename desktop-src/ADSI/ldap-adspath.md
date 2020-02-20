@@ -85,7 +85,7 @@ LDAP://CN=Line\0AFeed,CN=users,DC=fabrikam,DC=com
 
 ## For More Information
 
-For more information about the distinguished name notation used by LDAP-compliant directory services, see [https://www.ietf.org/rfc/rfc1779.txt](https://go.microsoft.com/fwlink/p/?linkid=84030).
+For more information about the distinguished name notation used by LDAP-compliant directory services, see [https://www.ietf.org/rfc/rfc1779.txt](https://www.ietf.org/rfc/rfc1779.txt).
 
  
 

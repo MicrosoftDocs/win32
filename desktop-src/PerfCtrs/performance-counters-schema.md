@@ -18,7 +18,7 @@ Do not use the string table in the manifest to specify strings. Instead, specify
 
 When the manifest is complete, call the [CTRPP](ctrpp.md) tool to generate code for your provider. Complete your provider and then run the LodCtr.exe tool to write the name of the binary file that contains the localized resource strings and resource IDs to the registry. You must have administrator privileges to run LodCtr.exe.
 
-The following example shows how to run the LodCtr.exe tool. For complete details on the LodCtr.exe tool, see [Microsoft TechNet](https://go.microsoft.com/fwlink/p/?linkid=84000).
+The following example shows how to run the LodCtr.exe tool. For complete details on the LodCtr.exe tool, see [Microsoft TechNet](https://technet.microsoft.com/).
 
 **LodCtr.exe** \[**/m:***manifest* \[*path*\]\]
 

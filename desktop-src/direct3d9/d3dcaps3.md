@@ -48,7 +48,7 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS3_DXVAHD</td>
 <td>0x00000400L</td>
-<td>The display driver supports the DXVA-HD DDI. For more information about DXVA-HD DDI, see <a href="https://go.microsoft.com/fwlink/p/?linkid=186797">Processing High-Definition Video</a>.<br/> 
+<td>The display driver supports the DXVA-HD DDI. For more information about DXVA-HD DDI, see <a href="https://msdn.microsoft.com/library/dd835176.aspx">Processing High-Definition Video</a>.<br/> 
 <table>
 <tbody>
 <tr class="odd">

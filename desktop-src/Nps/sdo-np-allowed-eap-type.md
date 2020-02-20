@@ -19,7 +19,7 @@ EAP encryption modes permitted for a connection.
 
 **Values:  **
 
-Defined by the Internet Assigned Numbers Authority (IANA) in the [Extensible Authentication Protocol (EAP) Registry](https://go.microsoft.com/fwlink/p/?linkid=89882) document based on [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=90444).
+Defined by the Internet Assigned Numbers Authority (IANA) in the [Extensible Authentication Protocol (EAP) Registry](https://www.iana.org/assignments/eap-numbers) document based on [RFC 3748](https://www.ietf.org/rfc/rfc3748.txt).
 
 -   **MD5-Challenge** (4)
 -   **EAP\_TLS** (13)

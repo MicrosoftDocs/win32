@@ -43,7 +43,7 @@ HRESULT CreateDataObject(
 *rguidTemplate* \[in\]
 </dt> <dd>
 
-Type: **[REFGUID](https://go.microsoft.com/?linkid=9742306)**
+Type: **[REFGUID](https://msdn.microsoft.com/library/cc237815(PROT.13).aspx)**
 
 GUID representing the data object's template.
 

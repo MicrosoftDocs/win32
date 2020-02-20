@@ -29,7 +29,7 @@ void OnResponseStart(
 *Status* \[in\]
 </dt> <dd>
 
-Receives the standard status code returned with the response data. Status codes are defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048).
+Receives the standard status code returned with the response data. Status codes are defined in [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt).
 
 </dd> <dt>
 

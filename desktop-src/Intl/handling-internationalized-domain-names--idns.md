@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Handling Internationalized Domain Names (IDNs)
 
-This topic describes how you can work with internationalized domain names (IDNs) in your applications. IDNs are specified by Network Working Group [RFC 3490: Internationalizing Domain Names in Applications (IDNA)](https://go.microsoft.com/fwlink/p/?linkid=161551). Prior to this draft standard, IDNs were limited to Latin characters without diacritics. IDNA allows IDNs to include Latin characters with diacritics, along with characters from non-Latin scripts, such as Cyrillic, Arabic, and Chinese. The standard also establishes rules for mapping IDNs to ASCII-only domain names. Thus, IDNA issues can be handled on the client side, without requiring any domain name server (DNS) changes.
+This topic describes how you can work with internationalized domain names (IDNs) in your applications. IDNs are specified by Network Working Group [RFC 3490: Internationalizing Domain Names in Applications (IDNA)](http://www.faqs.org/rfcs/rfc3490.html). Prior to this draft standard, IDNs were limited to Latin characters without diacritics. IDNA allows IDNs to include Latin characters with diacritics, along with characters from non-Latin scripts, such as Cyrillic, Arabic, and Chinese. The standard also establishes rules for mapping IDNs to ASCII-only domain names. Thus, IDNA issues can be handled on the client side, without requiring any domain name server (DNS) changes.
 
 > [!Caution]  
 > RFC 3490 introduces a number of security issues related to the use of IDNs. For more information see the related section of [Security Considerations: International Features](security-considerations--international-features.md).
@@ -34,7 +34,7 @@ NLS also defines several API functions that can be used to mitigate some of the 
 -   [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex). Retrieve locale information. Using the functions with *LCType* set to [LOCALE\_SSCRIPTS](locale-sscripts.md) provides a list of scripts normally used for a particular locale.
 -   [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts). Compares lists of scripts. To verify against multiple locales, the application can make multiple calls to [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) or [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) and [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts).
 
-For applications that run on Windows XP and Windows Server 2003, the functions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md), and [**DownlevelVerifyScripts**](downlevelverifyscripts.md) play a similar role to the functions listed above in mitigating security risk. The ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download is available at the [MSDN Download Center](https://go.microsoft.com/fwlink/p/?linkid=362).
+For applications that run on Windows XP and Windows Server 2003, the functions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md), and [**DownlevelVerifyScripts**](downlevelverifyscripts.md) play a similar role to the functions listed above in mitigating security risk. The ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download is available at the [MSDN Download Center](https://www.microsoft.com/?ref=go).
 
 ## Handle Unicode Strings
 
@@ -42,7 +42,7 @@ IDNA supports the transformation of Unicode strings into legitimate host name la
 
 ## Handle Unassigned Code Points
 
-IDNs cannot contain unassigned code points. Therefore, code points that are not associated with a character ("assigned") as of Unicode 3.2 do not have defined IDN mappings, even though the IDN\_ALLOW\_UNASSIGNED flag in certain conversion functions allows them to be mapped to Punycode. You can find a list of unassigned code points in [RFC 3454](https://go.microsoft.com/fwlink/p/?linkid=161550).
+IDNs cannot contain unassigned code points. Therefore, code points that are not associated with a character ("assigned") as of Unicode 3.2 do not have defined IDN mappings, even though the IDN\_ALLOW\_UNASSIGNED flag in certain conversion functions allows them to be mapped to Punycode. You can find a list of unassigned code points in [RFC 3454](http://www.faqs.org/rfcs/rfc3454.html).
 
 > [!Caution]  
 > If your application encodes unassigned code points as Punycode, the resulting domain names should be illegal. Security can be compromised if a later version of IDNA makes these names legal or if the application filters out the illegal characters to try to create a legal domain name.

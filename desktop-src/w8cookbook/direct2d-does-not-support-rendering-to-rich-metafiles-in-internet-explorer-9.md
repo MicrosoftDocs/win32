@@ -36,10 +36,10 @@ Apps that use IViewObject::Draw can use the [FEATURE\_IVIEWOBJECTDRAW\_DMLT9\_WI
 
 ## Resources
 
--   [IHTMLElementRender::DrawToDC](https://go.microsoft.com/fwlink/p/?LinkId=325476)
--   [IViewObject::Draw](https://go.microsoft.com/fwlink/p/?LinkId=325477)
--   [IHTMLElement::innerText Property](https://go.microsoft.com/fwlink/p/?LinkId=325478)
--   [Internet Feature Controls (I..L)](https://go.microsoft.com/fwlink/p/?LinkId=325479)
+-   [IHTMLElementRender::DrawToDC](https://msdn.microsoft.com/library/aa752273(v=vs.85).aspx)
+-   [IViewObject::Draw](https://msdn.microsoft.com/library/ms688655(v=vs.85).aspx)
+-   [IHTMLElement::innerText Property](https://msdn.microsoft.com/library/aa752299(VS.85).aspx)
+-   [Internet Feature Controls (I..L)](https://msdn.microsoft.com/library/ee330732(v=vs.85).aspx)
 
  
 

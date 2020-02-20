@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using the Generic Control Point Sample Code
 
-The sample code for the Control Point API with UPnP technology supplied in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=147890) includes a Generic Control Point application. The sample code is provided in both Visual Basic and Visual C++.
+The sample code for the Control Point API with UPnP technology supplied in the [Windows SDK](https://msdn.microsoft.com/windows/bb980924.aspx) includes a Generic Control Point application. The sample code is provided in both Visual Basic and Visual C++.
 
 The following sections explain how to use the sample code as it is provided.
 

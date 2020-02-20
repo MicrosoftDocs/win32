@@ -36,7 +36,7 @@ Applications should link to Offreg.dll using dynamic linking.
 
 Offreg.dll is provided in the Windows Driver Kit (WDK) for Windows 10 and earlier versions of the Windows operating system.
 
-For information about obtaining the WDK, see [How to Get the WDK and the WLK](https://go.microsoft.com/fwlink/p/?linkid=156664) or visit the [MSDN Subscriptions](https://go.microsoft.com/fwlink/p/?linkid=156663) website.
+For information about obtaining the WDK, see [How to Get the WDK and the WLK](https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk) or visit the [MSDN Subscriptions](https://msdn.microsoft.com/subscriptions/default.aspx) website.
 
 ## In this section
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following are the side-by-side assemblies supported by Microsoft. Windows Service Packs may include compatible versions of these assemblies with security or bug fixes.
 
-You can search for available redistributables at the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468).
+You can search for available redistributables at the [Microsoft Download Center](https://www.microsoft.com/Downloads/).
 
 ## Windows Server 2003
 

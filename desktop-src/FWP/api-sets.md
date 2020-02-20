@@ -27,15 +27,15 @@ The Windows Filtering Platform (WFP) API is divided into the following component
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2"><a href="https://go.microsoft.com/fwlink/p/?linkid=95959">Callout API</a> (FWPS)${REMOVE}$<br />
+<td rowspan="2"><a href="https://msdn.microsoft.com/library/ff571067.aspx">Callout API</a> (FWPS)${REMOVE}$<br />
 </td>
-<td><a href="https://go.microsoft.com/fwlink/p/?linkid=98324">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
+<td><a href="https://msdn.microsoft.com/library/ff570892.aspx">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
 <td><dl> fwpstypes.h<br />
 fwpstypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="https://go.microsoft.com/fwlink/p/?linkid=98325">Functions</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=98326">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
+<td><a href="https://msdn.microsoft.com/library/ff571067.aspx">Functions</a> and <a href="https://msdn.microsoft.com/library/ff548865.aspx">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
 <td><dl> fwpsu.h<br />
 fwpsk.h<br />
 </dl></td>
@@ -140,7 +140,7 @@ For example, in order to add a filter to a certain filtering engine layer, the p
 
 Some FWPS counterparts to FWPM data types are expanding the original FWPM data types. For example, to add a filter condition at many filtering engine layers, the programmer specifies the `filterCondition.fieldKey = FWPM_CONDITION_IP_PROTOCOL` regardless of the filtering engine layer. To find a filter condition value, the programmer specifies a layer specific FWPS type, like: `inFixedValues->incomingValue[FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_IP_PROTOCOL]`.
 
-The FWPS data types are generally smaller than their FWPM counterparts. For example, the [**FWPM filtering layer identifiers**](management-filtering-layer-identifiers-.md) are **GUID**s (16-bytes) whereas the [FWPS filtering layer identifiers](https://go.microsoft.com/fwlink/p/?linkid=99585) are **UINT16** (16-bits). The smaller size for FWPS data types improves system performance since integer comparisons outweigh **GUID** comparisons for real-time traffic. Also, the kernel memory is used efficiently since the FWPS types are all used in the kernel for managing the filters, whereas the FWPM types are stored in user-mode to manage the different layers.
+The FWPS data types are generally smaller than their FWPM counterparts. For example, the [**FWPM filtering layer identifiers**](management-filtering-layer-identifiers-.md) are **GUID**s (16-bytes) whereas the [FWPS filtering layer identifiers](https://msdn.microsoft.com/library/ff549947.aspx) are **UINT16** (16-bits). The smaller size for FWPS data types improves system performance since integer comparisons outweigh **GUID** comparisons for real-time traffic. Also, the kernel memory is used efficiently since the FWPS types are all used in the kernel for managing the filters, whereas the FWPM types are stored in user-mode to manage the different layers.
 
 ## Related topics
 

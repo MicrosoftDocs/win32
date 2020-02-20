@@ -29,7 +29,7 @@ The control developer could supply a complete UI Automation provider for the con
 
 Updating the custom control requires these main steps:
 
--   Implement [IServiceProvider](https://go.microsoft.com/fwlink/p/?linkid=178086) on the accessible object so that the [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) interface can be found on this or a separate object.
+-   Implement [IServiceProvider](https://msdn.microsoft.com/library/cc678965(VS.85).aspx) on the accessible object so that the [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) interface can be found on this or a separate object.
 -   Implement [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) on the accessible object.
 -   Create distinct accessible objects for any Microsoft Active Accessibility child items, which in Microsoft Active Accessibility might have been represented by the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface on the parent object (for example, list items). Implement [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) on these objects.
 -   Implement [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) on all the accessible objects.
@@ -112,7 +112,7 @@ HRESULT CListboxAccessibleObject::GetObjectForChild(long idChild, IAccessibleEx 
 
 
 
-For a complete sample implementation, see [Making Custom Controls Accessible, Part 5: Using IAccessibleEx to Add UI Automation Support to a Custom Control](https://go.microsoft.com/fwlink/p/?linkid=201075) on MSDN.
+For a complete sample implementation, see [Making Custom Controls Accessible, Part 5: Using IAccessibleEx to Add UI Automation Support to a Custom Control](https://msdn.microsoft.com/windows/cc307850.aspx) on MSDN.
 
 ## Related topics
 

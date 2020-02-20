@@ -13,11 +13,11 @@ This topic discusses the outline fonts provided by Windows, font metric values t
 -   For info specific to font metrics in DirectWrite, see [Text Metrics](https://docs.microsoft.com/windows/desktop/DirectWrite/text-metrics).
 -   For details on managing text in apps using GDI, see the topics in [Fonts and Text](https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text).
 
-For more detailed information on font usage and type specifications, see the [Microsoft typography site](https://go.microsoft.com/fwlink/p/?linkid=3918).
+For more detailed information on font usage and type specifications, see the [Microsoft typography site](https://www.microsoft.com/typography/default.mspx).
 
 ## Available fonts
 
-The outline fonts supplied with Windows are delivered as OpenType fonts with TrueType outlines (Windows also supports OpenType fonts in the CFF format). For lists of all fonts supplied by Windows, see [Microsoft typography: fonts by product or family](https://go.microsoft.com/fwlink/p/?linkid=62459). All Windows outline fonts conform to the latest version of the [OpenType specification](https://go.microsoft.com/fwlink/p/?linkid=179164).
+The outline fonts supplied with Windows are delivered as OpenType fonts with TrueType outlines (Windows also supports OpenType fonts in the CFF format). For lists of all fonts supplied by Windows, see [Microsoft typography: fonts by product or family](https://www.microsoft.com/typography/fonts/default.aspx). All Windows outline fonts conform to the latest version of the [OpenType specification](https://www.microsoft.com/typography/otspec/).
 
 For a list of all the current and legacy UI fonts, see [Locked font metrics](#locked-font-metrics) below.
 
@@ -31,15 +31,15 @@ Note that some values associated with UI fonts and default fonts used in Microso
 
 The following reported values are locked for UI and default fonts, and may be inaccurately reported:
 
--   These values from the font’s [OS/2 table](https://go.microsoft.com/fwlink/p/?linkid=10362):
+-   These values from the font’s [OS/2 table](https://www.microsoft.com/typography/otspec/os2.htm):
     -   xAvgCharWidth
     -   sTypoLineGap
     -   sTypoAscender
     -   sTypoDescender
     -   usWinAscent
     -   usWinDescent
--   The [unitsPerEm](https://go.microsoft.com/fwlink/p/?linkid=10352) value set in the font’s header
--   Values from the [Vertical Device metrics table (VDMX)](https://go.microsoft.com/fwlink/p/?linkid=10371)
+-   The [unitsPerEm](https://www.microsoft.com/typography/otspec/head.htm) value set in the font’s header
+-   Values from the [Vertical Device metrics table (VDMX)](https://www.microsoft.com/typography/otspec/vdmx.htm)
 -   The advance widths for individual glyphs
 
 Here's a list of the UI fonts shipped with Windows 8.1 (affected by locked values):
@@ -157,11 +157,11 @@ Other than the locked metrics listed above, font values are accurately reported.
 
 ## Guidelines for using font metrics
 
--   Compute screen metrics and font metrics (e.g., average width) when an app is launched, and use these values to lay out your app. This will provide consistently accurate rendering, and your layout will respond to changes in fonts or accommodate font fallback. For an overview of font fallback and font linking, see [Globalization Step by Step: Fonts](https://go.microsoft.com/fwlink/p/?linkid=229111). See [Using Font Fallback](https://docs.microsoft.com/windows/desktop/Intl/using-font-fallback) for Uniscribe-specific info.
+-   Compute screen metrics and font metrics (e.g., average width) when an app is launched, and use these values to lay out your app. This will provide consistently accurate rendering, and your layout will respond to changes in fonts or accommodate font fallback. For an overview of font fallback and font linking, see [Globalization Step by Step: Fonts](https://msdn.microsoft.com/goglobal/bb688134.aspx). See [Using Font Fallback](https://docs.microsoft.com/windows/desktop/Intl/using-font-fallback) for Uniscribe-specific info.
     -   To compute a base metric, render representative text for your intended language/script.
     -   For controls that just contain a single line of unwrapped text, lay them out to fit the full width of the untrimmed text.
     -   For controls with multiple lines, get the total length, divide by the character length, and you’ve got a solid width to work with. Note that this is trickier for complex scripts where a single ‘character’ to the reader may be multiple code points.
--   Use sTypoAscender, sTypoDescender, and unitsPerEm (from the [OS/2 table](https://go.microsoft.com/fwlink/p/?linkid=10362)) to calculate vertical spacing. sTypoAscender is used to determine the optimum offset from the top of a text frame to the first baseline and sTypoDescender determines the optimum offset from the bottom of a text frame to the last baseline.
+-   Use sTypoAscender, sTypoDescender, and unitsPerEm (from the [OS/2 table](https://www.microsoft.com/typography/otspec/os2.htm)) to calculate vertical spacing. sTypoAscender is used to determine the optimum offset from the top of a text frame to the first baseline and sTypoDescender determines the optimum offset from the bottom of a text frame to the last baseline.
 -   If you’re using DirectWrite, create a layout using [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout). **IDWriteTextLayout** provides **ascender** + **descender** + **lineGap** in natural layout. You can access these specific values with [**DWRITE\_FONT\_METRICS**](https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics). For info on this interface, see [Text Formatting and Layout](https://docs.microsoft.com/windows/desktop/DirectWrite/text-formatting-and-layout).
 -   If you’re using GDI, render off screen, then inspect the layout (for example, the line length or characters per line) and recalculate the final layout parameters used in actual rendering.
 -   Don’t build layouts statically based on particular values for particular versions of fonts. Actual values may change from release to release.
@@ -182,16 +182,16 @@ Other than the locked metrics listed above, font values are accurately reported.
 [**TEXTMETRIC**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-textmetrica)
 </dt> <dt>
 
-[unitsPerEm](https://go.microsoft.com/fwlink/p/?linkid=10352)
+[unitsPerEm](https://www.microsoft.com/typography/otspec/head.htm)
 </dt> <dt>
 
-[OS/2 table](https://go.microsoft.com/fwlink/p/?linkid=10362)
+[OS/2 table](https://www.microsoft.com/typography/otspec/os2.htm)
 </dt> <dt>
 
-[Vertical Device metrics table (VDMX)](https://go.microsoft.com/fwlink/p/?linkid=10371)
+[Vertical Device metrics table (VDMX)](https://www.microsoft.com/typography/otspec/vdmx.htm)
 </dt> <dt>
 
-[Microsoft typography: fonts by product or family](https://go.microsoft.com/fwlink/p/?linkid=62459)
+[Microsoft typography: fonts by product or family](https://www.microsoft.com/typography/fonts/default.aspx)
 </dt> <dt>
 
 **Conceptual**
@@ -203,7 +203,7 @@ Other than the locked metrics listed above, font values are accurately reported.
 [Fonts and Text (GDI)](https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text)
 </dt> <dt>
 
-[Microsoft Typography](https://go.microsoft.com/fwlink/p/?linkid=3918)
+[Microsoft Typography](https://www.microsoft.com/typography/default.mspx)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Syntax of the Print Schema
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 The Print Schema is expressed in XML syntax. Readers are therefore expected to be familiar with XML syntax and terms such as element, element tag, element content, attribute, and namespace. The Print Schema Framework is composed of a small number of element types; each element type serves a specific purpose in the technologies built on the Print Schema.
 
@@ -20,7 +20,7 @@ Many element types are differentiated from others of the same type by the name a
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

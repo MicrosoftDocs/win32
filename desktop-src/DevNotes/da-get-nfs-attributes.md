@@ -308,7 +308,7 @@ The last change time.
 An **NFS\_FILE\_ATTRIBUTES** structure.
 
 > [!Note]  
-> For more detailed descriptions of the members of this structure, see the **fattr3** structure in the NFS Version 3 Protocol Specification (as defined in [RFC 1813](https://go.microsoft.com/fwlink/p/?linkid=247961)).
+> For more detailed descriptions of the members of this structure, see the **fattr3** structure in the NFS Version 3 Protocol Specification (as defined in [RFC 1813](https://www.ietf.org/rfc/rfc1813.txt)).
 
  
 

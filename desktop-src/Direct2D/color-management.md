@@ -178,7 +178,7 @@ The color management effect fails when drawing if the application requests a qua
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D effects photo adjustment sample](https://go.microsoft.com/fwlink/p/?linkid=231533) and see Lesson 4 of the sample.
+For an example of this effect, download the [Direct2D effects photo adjustment sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-Image-Effects-2979be08) and see Lesson 4 of the sample.
 
 ## Requirements
 

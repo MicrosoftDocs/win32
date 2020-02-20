@@ -33,7 +33,7 @@ When a server receives a request, it responds by sending a message back to the c
 
 The response either indicates that the request cannot be processed, or provides requested information. Depending on the type of request, this can be information about a resource, such as its size and type, or can be some or all of the resource itself. The part of a response that includes some or all of the requested resource is called the "response data" or the "entity body,' and the response is not complete until all the response data is received.
 
-For detailed information on HTTP transactions and the HTTP protocol, see [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048), Hypertext Transfer Protocol — HTTP/1.1.
+For detailed information on HTTP transactions and the HTTP protocol, see [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt), Hypertext Transfer Protocol — HTTP/1.1.
 
 ## Proxy Servers
 
@@ -57,7 +57,7 @@ An asynchronous model, on the other hand, allows an application to perform other
 
 Authentication is the process by which an HTTP proxy or HTTP server validates a user's login information before it allows access to resources. Various authentication schemes are used on the Internet. Usually a user's name and password are compared against an authorized list, and if the system detects a match, access is granted to the extent specified in the permission list for the user.
 
-WinHTTP functions support both server and proxy authentication for HTTP sessions. WinHTTP supports the following authentication schemes: Basic, Digest (see [RFC 2617](https://go.microsoft.com/fwlink/p/?linkid=84049)), [NTLM Authentication](https://msdn.microsoft.com/library/ms691272(v=VS.85).aspx), Negotiate/ [Kerberos](https://msdn.microsoft.com/library/ms690406(v=VS.85).aspx), and Microsoft Passport 1.4. For detailed information on authentication, as well as an example of using authentication in a Microsoft Visual C++ application, see [Authentication in WinHTTP](authentication-in-winhttp.md).
+WinHTTP functions support both server and proxy authentication for HTTP sessions. WinHTTP supports the following authentication schemes: Basic, Digest (see [RFC 2617](https://www.ietf.org/rfc/rfc2617.txt)), [NTLM Authentication](https://msdn.microsoft.com/library/ms691272(v=VS.85).aspx), Negotiate/ [Kerberos](https://msdn.microsoft.com/library/ms690406(v=VS.85).aspx), and Microsoft Passport 1.4. For detailed information on authentication, as well as an example of using authentication in a Microsoft Visual C++ application, see [Authentication in WinHTTP](authentication-in-winhttp.md).
 
 For information about security considerations regarding Basic and Passport authentication, see [WinHTTP Security Considerations](winhttp-security-considerations.md).
 

@@ -16,7 +16,7 @@ The current generation of the Component Object Model, COM+, offers a registry-in
 
 The COM+ Class Registration Database supports a VSS writer, which allows requesters to back up the registration database using data stored on a shadow-copied volume.
 
-To restore the COM+ Registration Database, a requester must call the [ICOMAdminCatalog::RestoreREGDB](https://go.microsoft.com/fwlink/p/?linkid=134110) method.
+To restore the COM+ Registration Database, a requester must call the [ICOMAdminCatalog::RestoreREGDB](https://msdn.microsoft.com/library/ms683256.aspx) method.
 
 For more information about the COM+ Registration Database writer, see [In-Box VSS Writers](in-box-vss-writers.md).
 

@@ -148,7 +148,7 @@ Objects within a multithreaded apartment (MTA) may be called concurrently by any
 
 There are currently a variety of metadata storage formats that contain overlapping properties, without any clear industry standard or guidance on consistent methods for reading and writing these metadata formats. To help with this variety of formats and properties, the Metadata Working Group (MWG) was formed. The aim of the MWG is to provide guidelines that ensure interoperability among a wide variety of platforms, applications, and devices. The guidelines established by the MWG apply to the XMP, Exif, and IPTC metadata fields, and to the JPEG, TIFF, and PSD image formats.
 
-In Windows 7, the photo metadata handler and the metadata policy layer have been updated to read and write image metadata according to the guidelines established by the MWG. For more information on the Metadata Working Group (MWG) and the established metadata guidelines, visit the [Metadata Working Group](https://go.microsoft.com/fwlink/p/?linkid=134772) Web site.
+In Windows 7, the photo metadata handler and the metadata policy layer have been updated to read and write image metadata according to the guidelines established by the MWG. For more information on the Metadata Working Group (MWG) and the established metadata guidelines, visit the [Metadata Working Group](http://www.metadataworkinggroup.com/) Web site.
 
 ### Windows 7 features supported on Windows Vista and Windows Server 2008
 

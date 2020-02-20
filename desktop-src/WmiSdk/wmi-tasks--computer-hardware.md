@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Computer Hardware
 
-WMI tasks for computer hardware obtain information about the presence, state, or properties of hardware components. For example, you can determine whether a computer is a desktop or laptop. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
+WMI tasks for computer hardware obtain information about the presence, state, or properties of hardware components. For example, you can determine whether a computer is a desktop or laptop. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -725,7 +725,7 @@ The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechN
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 </dt> </dl>
 
  

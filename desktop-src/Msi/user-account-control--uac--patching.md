@@ -23,7 +23,7 @@ If a non-administrator attempts to apply a patch to an application, and the foll
 -   The application was originally installed per-machine. For information about how to enable non-administrators to apply patches to per-user-managed applications after the patch has been approved as trusted by an administrator, see [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
 -   The [MsiPatchCertificate table](msipatchcertificate-table.md) is present in the Window Installer package (.msi file) and contains the information needed to enable UAC. The table and information may have been be included in the original installation package or added to the package by a Windows Installer patch file (.msp file).
 -   The patches are digitally signed by a certificate listed in the [MsiPatchCertificate table](msipatchcertificate-table.md). For more information about digital signature certificates, see [Digital Signatures and Windows Installer](digital-signatures-and-windows-installer.md).
--   The digital signature on the patch package can be verified against the certificate in the [MsiPatchCertificate table](msipatchcertificate-table.md). For more information about the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/library/Aa388208(v=VS.85).aspx), see the [Security](https://go.microsoft.com/fwlink/p/?LinkID=83879) section of the Microsoft Windows Software Development Kit (SDK).
+-   The digital signature on the patch package can be verified against the certificate in the [MsiPatchCertificate table](msipatchcertificate-table.md). For more information about the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/library/Aa388208(v=VS.85).aspx), see the [Security](https://msdn.microsoft.com/library/cc527452.aspx) section of the Microsoft Windows Software Development Kit (SDK).
 -   The signer certificate used to verify the digital signature on the patch package is valid and has not been revoked.
     > [!Note]  
     > Although you cannot sign a patch using an expired certificate, evaluation of a digital signature on a patch does not fail if the certificate has expired. Evaluation uses the current [MsiPatchCertificate table](msipatchcertificate-table.md), which consists of the MsiPatchCertificate table in the original package and any changes to the table by patches sequenced prior to the current one. A patch can add new certificates to the MsiPatchCertificate table to evaluate patches sequenced after the current patch. A revoked certificate is always rejected.
@@ -42,7 +42,7 @@ An administrator can disable least-privilege patching on the computer by setting
 
 This functionality is available beginning with Windows Installer version 3.0. User Account Control (UAC) patching was called least-privilege user account (LUA) patching in Windows XP. LUA patching is not available on Windows 2000 and Windows Server 2003.
 
-For more information about application compatibility and developing applications that are compatible with User Account Control (UAC), see the UAC information that is provided on [Microsoft Technet](https://go.microsoft.com/fwlink/p/?LinkID=53781).
+For more information about application compatibility and developing applications that are compatible with User Account Control (UAC), see the UAC information that is provided on [Microsoft Technet](https://technet.microsoft.com/library/0d75f774-8514-4c9e-ac08-4c21f5c6c2d9).
 
  
 

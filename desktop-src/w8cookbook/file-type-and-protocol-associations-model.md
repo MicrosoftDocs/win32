@@ -38,11 +38,11 @@ There are several things users can do to accommodate these changes:
 
 As a result of these changes, this API guidance is provided:
 
--   The functionality of some method calls within the [IApplicationAssociationRegistration](https://go.microsoft.com/fwlink/p/?LinkId=325451) API has changed, and should no longer be used.
+-   The functionality of some method calls within the [IApplicationAssociationRegistration](https://msdn.microsoft.com/library/bb776332(VS.85).aspx) API has changed, and should no longer be used.
 
-    -   **Do not** call [QueryAppIsDefault](https://go.microsoft.com/fwlink/p/?LinkId=325452)/[QueryAppIsDefaultAll](https://go.microsoft.com/fwlink/p/?LinkId=325453) to determine if an app is the default
-    -   **Do not** call [QueryCurrentDefault](https://go.microsoft.com/fwlink/p/?LinkId=325454) to determine which app (if any) is the current default
-    -   **Do not** call [SetAppIsDefault](https://go.microsoft.com/fwlink/p/?LinkId=325455)/[SetAppIsDefaultAll](https://go.microsoft.com/fwlink/p/?LinkId=325456) to set the default app
+    -   **Do not** call [QueryAppIsDefault](https://msdn.microsoft.com/library/bb776334(v=VS.85).aspx)/[QueryAppIsDefaultAll](https://msdn.microsoft.com/library/bb776335(v=VS.85).aspx) to determine if an app is the default
+    -   **Do not** call [QueryCurrentDefault](https://msdn.microsoft.com/library/bb776336(v=VS.85).aspx) to determine which app (if any) is the current default
+    -   **Do not** call [SetAppIsDefault](https://msdn.microsoft.com/library/bb776337(v=VS.85).aspx)/[SetAppIsDefaultAll](https://msdn.microsoft.com/library/bb776338(v=VS.85).aspx) to set the default app
 
 -   The guidance going forward is:
 
@@ -54,9 +54,9 @@ As a result of these changes, this API guidance is provided:
 
     -   **Do not** attempt to manage defaults for file types or URI schemes from within an app
 
-    -   **Do** integrate with the [Set Default Programs](https://go.microsoft.com/fwlink/p/?LinkId=325457) control panel if you want to allow users of your app to access the default management UI (the management UI within the app is no longer supported)
+    -   **Do** integrate with the [Set Default Programs](https://msdn.microsoft.com/library/cc144154(v=VS.85).aspx) control panel if you want to allow users of your app to access the default management UI (the management UI within the app is no longer supported)
 
-        -   Calling [IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI](https://go.microsoft.com/fwlink/p/?LinkId=325458) allows the user to access the ‘[Set Default Programs](https://go.microsoft.com/fwlink/p/?LinkId=325457)’ control panel page for the specified app
+        -   Calling [IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI](https://msdn.microsoft.com/library/bb776330(VS.85).aspx) allows the user to access the ‘[Set Default Programs](https://msdn.microsoft.com/library/cc144154(v=VS.85).aspx)’ control panel page for the specified app
 
 ## Tests
 
@@ -67,7 +67,7 @@ As a result of these changes, this API guidance is provided:
 ## Resources
 
 -   [Best Practices for File Type and URI Associations in Windows 8 Desktop Apps](https://go.microsoft.com/fwlink/p/?linkid=228165)
--   [File Type Associations and AutoPlay Build Conference Presentation](https://go.microsoft.com/fwlink/p/?LinkId=325427)
+-   [File Type Associations and AutoPlay Build Conference Presentation](https://channel9.msdn.com/events/BUILD/BUILD2011/PLAT-282T)
 
  
 

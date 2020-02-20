@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Event Tracing for Windows (ETW) provides application programmers the ability to start and stop event tracing sessions, instrument an application to provide trace events, and consume trace events. Trace events contain an event header and provider-defined data that describes the current state of an application or operation. You can use the events to debug an application and perform capacity and performance analysis.
 
-This documentation is for user-mode applications that want to use ETW. For information about instrumenting device drivers that run in kernel mode, see [WPP Software Tracing](https://go.microsoft.com/fwlink/p/?linkid=83875) and [Adding Event Tracing to Kernel-Mode Drivers](https://go.microsoft.com/fwlink/p/?LinkId=523799) in the Windows Driver Kit (WDK).
+This documentation is for user-mode applications that want to use ETW. For information about instrumenting device drivers that run in kernel mode, see [WPP Software Tracing](https://msdn.microsoft.com/library/ff556204.aspx) and [Adding Event Tracing to Kernel-Mode Drivers](https://msdn.microsoft.com/library/windows/hardware/ff545699(v=vs.85).aspx) in the Windows Driver Kit (WDK).
 
 ## Where applicable
 

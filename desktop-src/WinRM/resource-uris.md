@@ -47,7 +47,7 @@ The following list describes several types of resource URIs used by Windows Remo
 
     This group of URIs represent industry standard URIs based upon CIM version 2.9. IPMI URIs can be used in [**Session**](session.md) methods [**Get**](session-get.md), [**Put**](session-put.md), [**Enumerate**](session-enumerate.md) , and [**Invoke**](session-invoke.md).
 
-    An example is https://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM\_NumericSensor. This resource is defined according to the [DMTF.org](https://go.microsoft.com/fwlink/p/?linkid=50540) CIM schema.
+    An example is https://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM\_NumericSensor. This resource is defined according to the [DMTF.org](https://www.dmtf.org/home) CIM schema.
 
 -   WinRM configuration URIs
 
@@ -67,7 +67,7 @@ While resource URIs do not require case-sensitivity, [*fragment*](windows-remote
 
 Following XML and [*XPath*](windows-remote-management-glossary.md) standards, the [*WMI plug-in*](windows-remote-management-glossary.md) enforces case-sensitivity for fragments and XML that defines the input parameters for a method. Case-sensitivity is required to support the XPath 1.0/Level 1 standard. To get WMI data through WinRM, case-sensitivity means that the names of WMI classes, properties, and methods must match the case of the name found in the WMI repository.
 
-For more information, see [XPath Syntax](https://go.microsoft.com/fwlink/p/?linkid=84379).
+For more information, see [XPath Syntax](https://msdn.microsoft.com/library/ms256471.aspx).
 
 ## Case Sensitivity Examples
 

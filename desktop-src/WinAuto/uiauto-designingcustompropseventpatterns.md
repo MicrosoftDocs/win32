@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The design of a custom property, event, or control pattern should be useful in a wide variety of control implementations. Control- or application-specific designs that are useful only in limited scenarios should be avoided. The design should follow the example of the existing Microsoft UI Automation properties, events, and control patterns, which were carefully specified to meet the needs of a wide variety of accessibility and automated testing applications.
 
-Implementing the specification for a custom property, event, or control pattern involves the cooperation and agreement of parties on both the client and provider sides, and requires both parties to implement the specification consistently. Companies are encouraged to work with industry organizations such as the [Accessibility Interoperability Alliance (AIA)](https://go.microsoft.com/fwlink/p/?linkid=147043) to design and publish the specification for the custom property, event, or control pattern. In this way, consensus can be reached and interoperability with the widest variety of applications can be ensured.
+Implementing the specification for a custom property, event, or control pattern involves the cooperation and agreement of parties on both the client and provider sides, and requires both parties to implement the specification consistently. Companies are encouraged to work with industry organizations such as the [Accessibility Interoperability Alliance (AIA)](https://www.atia.org/) to design and publish the specification for the custom property, event, or control pattern. In this way, consensus can be reached and interoperability with the widest variety of applications can be ensured.
 
 This topic contains the following sections:
 

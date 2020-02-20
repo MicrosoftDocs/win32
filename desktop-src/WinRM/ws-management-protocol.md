@@ -13,7 +13,7 @@ The WS-Management protocol was developed by a group of hardware and software man
 
 ## Standards
 
-For more information about WS-Management protocol, see [Web Services for Management (WS-Management) Specification](https://go.microsoft.com/fwlink/p/?linkid=73965).
+For more information about WS-Management protocol, see [Web Services for Management (WS-Management) Specification](https://dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf).
 
 The intent of the protocol is to provide consistency and interoperability for management operations across many types of devices (including firmware) and operating systems. WS-Management protocol can be extended as new operations are identified by the IT industry.
 

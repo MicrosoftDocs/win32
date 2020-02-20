@@ -17,7 +17,7 @@ Key Bluetooth features include:
 
 -   A low-cost, low-power consumption wireless protocol with industry-standard support and worldwide acceptance.
 -   A defined and familiar programming interface that developers can use to quickly develop or port applications.
--   An official Web site and an industry-wide cooperative organization that explains, promotes, and standardizes Bluetooth technology. For more information, see [www.bluetooth.com](https://go.microsoft.com/fwlink/p/?linkid=84017).
+-   An official Web site and an industry-wide cooperative organization that explains, promotes, and standardizes Bluetooth technology. For more information, see [www.bluetooth.com](https://www.bluetooth.com/).
 
 Bluetooth on Windows provides core services that are similar to those exposed by Transmission Control Protocol (the TCP part of TCP/IP). Like many networking protocols and services, Bluetooth connectivity and data transfer are programmed through Windows Sockets function calls, using common Windows Sockets programming techniques and specific Bluetooth extensions. However, because significant differences exist between a wired, fixed network and a wireless ad-hoc network, Bluetooth provides extensions such as service/device discovery and notification that enable applications to operate properly in the wireless environment. These extensions also pave the way for simple porting to similar technologies, such as IrDA, or future wireless transports.
 

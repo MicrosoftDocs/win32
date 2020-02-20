@@ -61,7 +61,7 @@ Here is a summary of the key differences when applying these technical requireme
 
 All games that you register with the [Games Explorer](https://msdn.microsoft.com/library/Hh437965(v=VS.85).aspx) are surfaced as tiles in new Windows UI, but much of the metadata that is associated with the title is no longer visible. You still use the Games Definition File Maker tool (GDFMAKER.EXE), which is now available in the Windows Software Development Kit (SDK), to author the metadata. You also use the existing mechanisms for deploying the metadata. Continue to test your Games Explorer registration by using Windows 7, and verify that the new Windows UI tile shows up when you install it on Windows 8 (see [1.1 Games Explorer Integration](#11-games-explorer-integration)).
 
-To download the Windows 8 SDK, see [Downloads for developing desktop apps](https://go.microsoft.com/fwlink/p/?linkid=253588).
+To download the Windows 8 SDK, see [Downloads for developing desktop apps](https://msdn.microsoft.com/windows/desktop/aa904949).
 
 </dd> <dt>
 
@@ -1389,7 +1389,7 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 -   Avoid using legacy and deprecated APIs: DirectDraw, DirectSound, DirectPlay, DirectMusic's performance layer, DirectPlay Voice, and Direct3D Retained Mode. Note that DirectPlay Voice and Direct3D Retained Mode are not available at all on Windows Vista or Windows 7. DirectPlay and DirectMusic's performance layer are not available to x64-native applications.
 -   Optimize using SSE/SSE2 SIMD instruction sets. See the [DirectXMath](https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal) API in the Windows SDK as a cross-platform solution for SIMD-optimized math operations.
 -   Use modern best practices for Windows security (including compiler and linker options like **/NXCOMPAT**, **/GS**, **/SAFESEH**, **/DYNAMICBASE**, **/SDL**, and so on). For more information, see [Best Security Practices in Game Development](https://docs.microsoft.com/windows/desktop/DxTechArts/best-security-practices-in-game-development).
--   Use the latest Windows SDK components and libraries. Remove dependencies on the legacy DirectSetup deployed out-of-band components such as D3DX9, D3DX10, and D3DX11. Consider using [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) or [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929) or both.
+-   Use the latest Windows SDK components and libraries. Remove dependencies on the legacy DirectSetup deployed out-of-band components such as D3DX9, D3DX10, and D3DX11. Consider using [DirectXTex](https://github.com/Microsoft/DirectXTex) or [DirectXTK](https://github.com/Microsoft/DirectXTK) or both.
 -   Avoid using the older HLSL compiler, and instead, use the modern HLSL compiler. If support for Pixel Shader 1.x is required by your application, use shader assembly rather than HLSL, or limit the use of the older compiler to just those scenarios.
 
 ## Resources

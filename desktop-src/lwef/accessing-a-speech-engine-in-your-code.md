@@ -39,7 +39,7 @@ CODEBASE="#VERSION=4,0,0,0">
 </OBJECT>
 ```
 
-To query for or set an engine's mode ID, use [**TTSModeID**](https://www.bing.com/search?q=**TTSModeID**). With **TTSModeID** you can set a mode ID that is different from the character's [**LanguageID**](https://www.bing.com/search?q=**LanguageID**). For instance, you can set a German character to speak using a French mode ID. Speech output engine mode IDs not only define which engine you use, but also correspond to specific voices supported for an engine. You can also use the Microsoft Agent Character Editor or the tools included in the [Microsoft Speech SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=198367) to query for the mode IDs of TTS engines installed on your system.
+To query for or set an engine's mode ID, use [**TTSModeID**](https://www.bing.com/search?q=**TTSModeID**). With **TTSModeID** you can set a mode ID that is different from the character's [**LanguageID**](https://www.bing.com/search?q=**LanguageID**). For instance, you can set a German character to speak using a French mode ID. Speech output engine mode IDs not only define which engine you use, but also correspond to specific voices supported for an engine. You can also use the Microsoft Agent Character Editor or the tools included in the [Microsoft Speech SDK documentation](https://msdn.microsoft.com/library/ee705648.aspx) to query for the mode IDs of TTS engines installed on your system.
 
 **Speech Output Mode IDs**
 

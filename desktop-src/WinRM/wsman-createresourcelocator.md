@@ -51,7 +51,7 @@ A [**ResourceLocator**](resourcelocator.md) object that can then be used to perf
 
 ## Remarks
 
-If the **FragmentDialect** property is not specified in the [**ResourceLocator**](resourcelocator.md) object, the default is the XPath 1.0 specification. For more information, see [https://www.w3.org/TR/xpath](https://go.microsoft.com/fwlink/p/?linkid=84163).
+If the **FragmentDialect** property is not specified in the [**ResourceLocator**](resourcelocator.md) object, the default is the XPath 1.0 specification. For more information, see [https://www.w3.org/TR/xpath](https://www.w3.org/TR/xpath).
 
 ## Examples
 

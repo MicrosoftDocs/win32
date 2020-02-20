@@ -23,7 +23,7 @@ In general, migrating an existing application to the Ribbon framework involves t
 -   Migrating existing application resources (strings and images) to the Ribbon framework.
 
 > [!Note]  
-> The [Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233) should be reviewed to determine if the application is a suitable candidate for a Ribbon UI.
+> The [Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx) should be reviewed to determine if the application is a suitable candidate for a Ribbon UI.
 
  
 
@@ -76,7 +76,7 @@ Conversely, some functionality may not be thought of as a command in the traditi
 
 ### Organize
 
-Before attempting to organize the command inventory, the [Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233) should be reviewed for best practices when implementing a Ribbon UI.
+Before attempting to organize the command inventory, the [Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx) should be reviewed for best practices when implementing a Ribbon UI.
 
 In general, the following rules can be applied to Ribbon Command organization:
 

@@ -14,7 +14,7 @@ Netsh.exe has many subcommands for IPv6. A complete list of options for Netsh In
 
 **netsh interface ipv6 /?**
 
-Documentation on all of the **netsh** commands for IPv6 is also available online on Technet. For more information on **netsh** on Windows Server 2008, please see [Netsh commands for Interface (IPv4 and IPv6)](https://go.microsoft.com/fwlink/p/?linkid=189051). For more information on **netsh** on Windows Server 2003, please see [Netsh commands for Interface IPv6](https://go.microsoft.com/fwlink/p/?linkid=95439).
+Documentation on all of the **netsh** commands for IPv6 is also available online on Technet. For more information on **netsh** on Windows Server 2008, please see [Netsh commands for Interface (IPv4 and IPv6)](https://technet.microsoft.com/library/cc770948(WS.10).aspx). For more information on **netsh** on Windows Server 2003, please see [Netsh commands for Interface IPv6](https://technet.microsoft.com/library/f953fa20-f037-4609-89eb-0178240f103b).
 
 The following are a few commonly used commands for IPv6, although many other commands are supported:
 
@@ -124,7 +124,7 @@ Similar Netsh commands are available for IPv4. A complete list of options for Ne
 
 **netsh interface ip /?**
 
-Documentation on all of the Netsh commands for IPv4 is also available online on Technet. For more information, please see [Netsh commands for Interface IP](https://go.microsoft.com/fwlink/p/?linkid=107335)
+Documentation on all of the Netsh commands for IPv4 is also available online on Technet. For more information, please see [Netsh commands for Interface IP](https://technet.microsoft.com/library/b2c92af5-425a-4c0b-8604-7a8c4ac497e0)
 
  
 

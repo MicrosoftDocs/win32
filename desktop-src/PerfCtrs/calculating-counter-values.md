@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Calculating Counter Values
 
-Most counter types use a formula for calculating a displayable value for the counter. For a list of counter types and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://go.microsoft.com/fwlink/p/?linkid=84422). If the counter requires two samples in order to calculate the displayable value, the counter type's **PERF\_DELTA\_COUNTER** flag is set.
+Most counter types use a formula for calculating a displayable value for the counter. For a list of counter types and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2). If the counter requires two samples in order to calculate the displayable value, the counter type's **PERF\_DELTA\_COUNTER** flag is set.
 
 The following example shows how to use the raw data to calculate a displayable value for each counter type. This example builds on the example in [Retrieving Counter Data](retrieving-counter-data.md).
 

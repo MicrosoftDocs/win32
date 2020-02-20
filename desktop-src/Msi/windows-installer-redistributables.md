@@ -14,8 +14,8 @@ The Windows Installer 5.0 is part of the Windows Server 2012, Windows 8, Wind
 
 ## Obtaining the Windows Installer Redistributable
 
--   You can find all the available Windows Installer redistributables at the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkID=83468).
--   The download for the [Windows Installer 4.5 redistributable package](https://go.microsoft.com/fwlink/p/?LinkID=101159) is available at: https://go.microsoft.com/fwlink/p/?LinkID=101159.
+-   You can find all the available Windows Installer redistributables at the [Microsoft Download Center](https://www.microsoft.com/Downloads/).
+-   The download for the [Windows Installer 4.5 redistributable package](https://support.microsoft.com/kb/942288) is available at: https://go.microsoft.com/fwlink/p/?LinkID=101159.
 -   The name of the redistributable that installs Windows Installer 4.5 on x86-based computers running Windows Vista, Windows Vista with Service Pack 1 (SP1), and Windows Server 2008 is Windows6.0-KB942288-v2-x86.MSU.
 -   The name of the redistributable that installs Windows Installer 4.5 on x64-based computers running Windows Vista, Windows Vista with SP1, and Windows Server 2008 is Windows6.0-KB942288-v2-x64.MSU.
 -   The name of the redistributable that installs Windows Installer 4.5 on Itanium-Based Systems computers running Windows Vista, Windows Vista with SP1, and Windows Server 2008 is Windows6.0-KB942288-v2-ia64.MSU.
@@ -24,20 +24,20 @@ The Windows Installer 5.0 is part of the Windows Server 2012, Windows 8, Wind
 -   The name of the redistributable that installs Windows Installer 4.5 on x64-based computers running Windows Server 2003 with SP1 and Windows Server 2003 with SP2 is WindowsServer2003-KB942288-v4-x64.exe.
 -   The name of the redistributable that installs Windows Installer 4.5 on Itanium-Based Systems computers running Windows Server 2003 with SP1 and Windows Server 2003 with SP2 is WindowsServer2003-KB942288-v4-ia64.exe.
 -   There is no redistributable that installs Windows Installer 4.0. This version of the Windows Installer ships with Windows Vista.
--   The name of the redistributable that installs Windows Installer 3.1 is WindowsInstaller-KB893803-v2-x86.exe. The download for the [Windows Installer 3.1 Redistributable (v2)](https://go.microsoft.com/fwlink/p/?LinkID=84088) package is available at: https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c.
+-   The name of the redistributable that installs Windows Installer 3.1 is WindowsInstaller-KB893803-v2-x86.exe. The download for the [Windows Installer 3.1 Redistributable (v2)](https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c) package is available at: https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c.
     > [!Note]  
-    > If you upgraded to Windows Installer 3.1 by installing Windows Server 2003 with SP1, or an earlier version of this redistributable, you may also need to install the [Update for Windows Server 2003 Service Pack 1 (KB898715)](https://go.microsoft.com/fwlink/p/?LinkID=84089) to obtain all the updates available in [Windows Installer 3.1 Redistributable (v2)](https://go.microsoft.com/fwlink/p/?LinkID=84088).
+    > If you upgraded to Windows Installer 3.1 by installing Windows Server 2003 with SP1, or an earlier version of this redistributable, you may also need to install the [Update for Windows Server 2003 Service Pack 1 (KB898715)](https://www.microsoft.com/downloads/details.aspx?FamilyID=8b4e6b93-1886-4d47-a18d-35581c42eca0) to obtain all the updates available in [Windows Installer 3.1 Redistributable (v2)](https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c).
 
      
 
--   The redistributable that installs Windows Installer 3.0 is WindowsInstaller-KB884016-v2-x86.exe. The download for the [Windows Installer 3.0 Redistributable](https://go.microsoft.com/fwlink/p/?LinkID=84087) is available at: https://www.microsoft.com/downloads/details.aspx?FamilyID=5fbc5470-b259-4733-a914-a956122e08e8.
+-   The redistributable that installs Windows Installer 3.0 is WindowsInstaller-KB884016-v2-x86.exe. The download for the [Windows Installer 3.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?FamilyID=5fbc5470-b259-4733-a914-a956122e08e8) is available at: https://www.microsoft.com/downloads/details.aspx?FamilyID=5fbc5470-b259-4733-a914-a956122e08e8.
 -   The Windows Installer 2.0 used a previous naming convention for the redistributable: [Instmsi.exe](instmsi-exe.md). The redistributable for installing or upgrading to Windows Installer 2.0 on Windows 2000 should not be used to install or upgrade Windows Installer 2.0 on Windows Server 2003 and Windows XP.
 
-    The download for the [Windows Installer 2.0 Redistributable for Windows NT 4.0 and Windows 2000](https://go.microsoft.com/fwlink/p/?LinkID=84086) is available at https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f.
+    The download for the [Windows Installer 2.0 Redistributable for Windows NT 4.0 and Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f) is available at https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f.
 
 ## Installing the Windows Installer Redistributable
 
-The Windows Installer 4.5 resdistributable is provided for Windows Vista and Windows Server 2008 operating systems as a .msu file and should be installed using the [Windows Update Stand-alone Installer](https://go.microsoft.com/fwlink/p/?LinkID=120148) (Wusa.exe.)
+The Windows Installer 4.5 resdistributable is provided for Windows Vista and Windows Server 2008 operating systems as a .msu file and should be installed using the [Windows Update Stand-alone Installer](https://support.microsoft.com/kb/934307/) (Wusa.exe.)
 
 The Windows Installer 4.5 redistributable for Windows XP and Windows Server 2003 operating systems can be installed using the following command line syntax and options.
 

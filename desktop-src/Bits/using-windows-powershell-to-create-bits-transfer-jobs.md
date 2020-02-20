@@ -15,7 +15,7 @@ api_location:
 
 You can use PowerShell cmdlets to create synchronous and asynchronous Background Intelligent Transfer Service (BITS) transfer jobs.
 
-All of the examples in this topic use the [Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) cmdlet. To use the cmdlet, be sure to import the module first. To install the module, run the following command: Import-Module BitsTransfer. For more information, type **Get-Help Start-BitsTransfer** at the PowerShell prompt.
+All of the examples in this topic use the [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx) cmdlet. To use the cmdlet, be sure to import the module first. To install the module, run the following command: Import-Module BitsTransfer. For more information, type **Get-Help Start-BitsTransfer** at the PowerShell prompt.
 
 > [!IMPORTANT]
 >
@@ -50,7 +50,7 @@ In the preceding example, the local and remote names of the file are specified i
 
 The default transfer type is Download. When you upload files to an HTTP location, the *TransferType* parameter must be set to Upload.
 
-Because parameter position is enforced for the [Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) cmdlet, the parameter names do not need to be specified for the Source and Destination parameters. Therefore, this command can be simplified as follows.
+Because parameter position is enforced for the [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx) cmdlet, the parameter names do not need to be specified for the Source and Destination parameters. Therefore, this command can be simplified as follows.
 
 
 ```PowerShell
@@ -69,7 +69,7 @@ Start-BitsTransfer -Source C:\clientsourcedir\*.txt `
 
 
 
-In the preceding example, the [Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) command creates a new BITS transfer job. All of the files are added to this job and transferred sequentially to the client.
+In the preceding example, the [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx) command creates a new BITS transfer job. All of the files are added to this job and transferred sequentially to the client.
 
 > [!Note]  
 > The destination path cannot use wildcard characters. The destination path supports relative directories, root paths, or implicit directories (that is, the current directory). Destination files cannot be renamed by using a wildcard character. Additionally, HTTP and HTTPS URLs do not work with wildcards. Wildcards are only valid for UNC paths and local directories.
@@ -87,7 +87,7 @@ Start-BitsTransfer -DisplayName MyJob -Credential Username\Domain `
 
 
 
-In the preceding example, a user creates a BITS transfer job to download a file from a server that requires authentication. The user is prompted for credentials, and the *Credential* parameter passes a credential object to the [Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) cmdlet. The user sets an explicit proxy, and the BITS transfer job uses only the proxies that are defined by the *ProxyList* parameter. The *DisplayName* parameter gives the BITS transfer job a unique display name.
+In the preceding example, a user creates a BITS transfer job to download a file from a server that requires authentication. The user is prompted for credentials, and the *Credential* parameter passes a credential object to the [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx) cmdlet. The user sets an explicit proxy, and the BITS transfer job uses only the proxies that are defined by the *ProxyList* parameter. The *DisplayName* parameter gives the BITS transfer job a unique display name.
 
 ## To create a synchronous BITS transfer job from a CSV file
 
@@ -103,7 +103,7 @@ Import-CSV filelist.txt | Start-BitsTransfer -TransferType Upload
 
  
 
-In the preceding example, a user creates a BITS transfer job that uploads multiple files from a client. The [Import-CSV](https://go.microsoft.com/fwlink/p/?linkid=160811) cmdlet imports the source and destination file locations and pipes them to the [Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) command. The [Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646) command creates a new BITS transfer job for each file, adds the files to the job, and then transfers them sequentially to the server.
+In the preceding example, a user creates a BITS transfer job that uploads multiple files from a client. The [Import-CSV](https://technet.microsoft.com/library/dd347665.aspx) cmdlet imports the source and destination file locations and pipes them to the [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx) command. The [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx) command creates a new BITS transfer job for each file, adds the files to the job, and then transfers them sequentially to the server.
 
 The contents of the Filelist.txt file should be in the following format:
 
@@ -200,7 +200,7 @@ Remove-PSSession -Name MyRemoteSession
 
 <dl> <dt>
 
-[Start-BitsTransfer](https://go.microsoft.com/fwlink/p/?linkid=154646)
+[Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx)
 </dt> <dt>
 
 [Complete-BitsTransfer]( https://go.microsoft.com/fwlink/p/?linkid=154644)

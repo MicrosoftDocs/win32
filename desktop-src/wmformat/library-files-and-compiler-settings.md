@@ -93,9 +93,9 @@ If you are using the Platform SDK then the default paths would appear as follows
 
  
 
-Before calling any of the creation functions, COM should be initialized with a call to **Coinitialize** or **CoinitializeEx**. Either the free threading model or the apartment threading model can be used, but the apartment threading model imposes threading restrictions on the application. For more information on the Microsoft Component Object Model (COM), see the COM page at the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=3282).
+Before calling any of the creation functions, COM should be initialized with a call to **Coinitialize** or **CoinitializeEx**. Either the free threading model or the apartment threading model can be used, but the apartment threading model imposes threading restrictions on the application. For more information on the Microsoft Component Object Model (COM), see the COM page at the [Microsoft Web site](https://www.microsoft.com/com/default.asp).
 
-**Note** Applications that play or create files protected by Digital Rights Management (DRM) require an individualized static library that must be obtained separately from Microsoft. For more information, see the Windows Media Licensing Form at the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=8076). If you use the DRM library, you should not link to Wmvcore.lib.
+**Note** Applications that play or create files protected by Digital Rights Management (DRM) require an individualized static library that must be obtained separately from Microsoft. For more information, see the Windows Media Licensing Form at the [Microsoft Web site](http://wmlicense.smdisp.net/licenserequest/default.asp). If you use the DRM library, you should not link to Wmvcore.lib.
 
 ## Related topics
 

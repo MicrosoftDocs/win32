@@ -40,7 +40,7 @@ For more information about how to migrate to the .NET Framework 4, see [Migratio
 
 ## Compatibility Tests
 
-After you make the changes, test your application to make sure that it runs correctly. You can test compatibility as described in the [.NET Framework 4 Application Compatibility](https://go.microsoft.com/fwlink/p/?linkid=154814) topic.
+After you make the changes, test your application to make sure that it runs correctly. You can test compatibility as described in the [.NET Framework 4 Application Compatibility](https://msdn.microsoft.com/library/dd889541.aspx) topic.
 
 If your application or component does not work after .NET Framework 4 is installed, submit a bug through the [Microsoft Connect](https://connect.microsoft.com/visualstudio) website.
 
@@ -50,7 +50,7 @@ If your application or component does not work after .NET Framework 4 is install
 -   [Migration Guide to the .NET Framework 4](https://msdn.microsoft.com/library/Ff657133(v=VS.100).aspx)
 -   [Version Compatibility in the .NET Framework](https://msdn.microsoft.com/library/Ff602939(v=VS.100).aspx)
 -   **.NET Framework 4 RTM Application Compatibility Walkthrough:**<https://msdn.microsoft.com/library/dd889541.aspx>
--   [Microsoft Connect](https://go.microsoft.com/fwlink/p/?linkid=101629)
+-   [Microsoft Connect](https://connect.microsoft.com/)
 
  
 

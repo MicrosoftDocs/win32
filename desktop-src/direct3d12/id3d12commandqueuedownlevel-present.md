@@ -83,4 +83,4 @@ Returns **S_OK** on success, or else a failing HRESULT.
 * [ID3D12CommandQueueDownlevel](id3d12commandqueuedownlevel.md)
 * [Direct3D 12 On Windows 7 interfaces](direct3d-12on7-interfaces.md)
 * [Direct3D 12 on Windows 7 reference (d3d12downlevel.h)](direct3d-12on7-reference.md)
-* [Direct3D 12 On Windows 7](http://aka.ms/d3d12on7)
+* [Direct3D 12 On Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

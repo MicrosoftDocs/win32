@@ -30,7 +30,7 @@ To view sample WLAN profiles, see [Wireless Profile Samples](wireless-profile-sa
 
 <dl> <dt>
 
-[Netsh Commands for Wireless Local Area Network (wlan)](https://go.microsoft.com/fwlink/p/?linkid=120964)
+[Netsh Commands for Wireless Local Area Network (wlan)](https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f)
 </dt> </dl>
 
  

@@ -109,7 +109,7 @@ By having the JPEG codec produce YC<sub>b</sub>C<sub>r</sub> data, we can avoid 
 
 This section explains how to use WIC and Direct2D to operate on YC<sub>b</sub>C<sub>r</sub> data.
 
-To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
+To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
 
 ### Using YC<sub>b</sub>C<sub>r</sub> JPEG images
 
@@ -163,7 +163,7 @@ Before using the YC<sub>b</sub>C<sub>r</sub> image effect, you should call [**ID
 
 ### Sample code
 
-Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091).
+Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d).
 
 
 ```C++
@@ -223,7 +223,7 @@ Finally, if you want to render the YC<sub>b</sub>C<sub>r</sub> data in Direct2D,
 
 ### Code Sample
 
-Below is a code example demonstrating the steps to decode and render YC<sub>b</sub>C<sub>r</sub> data in Direct2D. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091).
+Below is a code example demonstrating the steps to decode and render YC<sub>b</sub>C<sub>r</sub> data in Direct2D. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d).
 
 
 ```C++
@@ -346,7 +346,7 @@ For more information about using [**ID2D1ImageSourceFromWic**](https://msdn.micr
 
 <dl> <dt>
 
-[JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://go.microsoft.com/fwlink/p/?LinkID=321091)
+[JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d)
 </dt> </dl>
 
  

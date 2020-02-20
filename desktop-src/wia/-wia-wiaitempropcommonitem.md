@@ -48,7 +48,7 @@ api_location:
 
 # Common WIA Item Property Constants
 
-The following device property constants must be supported by all [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem), [**IWiaItem2**](-wia-iwiaitem2.md) and [IWiaDrvItem Interface](https://go.microsoft.com/fwlink/p/?linkid=181163) interfaces unless otherwise noted in their descriptions.
+The following device property constants must be supported by all [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem), [**IWiaItem2**](-wia-iwiaitem2.md) and [IWiaDrvItem Interface](https://msdn.microsoft.com/library/ms793976.aspx) interfaces unless otherwise noted in their descriptions.
 
 The prefix "WIA\_IPA\_" indicates an item property for all devices and is the naming convention used in C/C++. For scripting purposes these constants use the prefix "Picture" and are part of the [WiaItemPropertyId](-wia-wiaitempropertyid.md) enumerated type. The corresponding member name from that script enumeration appears in parentheses next to the C/C++ constant name in the following list.
 
@@ -248,7 +248,7 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 </tr>
 <tr class="even">
 <td>WIA_DATA_COLOR_THRESHOLD</td>
-<td>Same as WIA_DATA_COLOR except that the threshold value is used when scanning the data. Color values over the <a href="https://go.microsoft.com/fwlink/p/?linkid=181219">WIA_IPS_THRESHOLD</a> value are converted to full brightness; colors under this value are converted to black.</td>
+<td>Same as WIA_DATA_COLOR except that the threshold value is used when scanning the data. Color values over the <a href="https://msdn.microsoft.com/library/ms796233.aspx">WIA_IPS_THRESHOLD</a> value are converted to full brightness; colors under this value are converted to black.</td>
 </tr>
 <tr class="odd">
 <td>WIA_DATA_DITHER</td>
@@ -256,11 +256,11 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 </tr>
 <tr class="even">
 <td>WIA_DATA_GRAYSCALE</td>
-<td>Scan data represents intensity. The palette is a fixed, equally-spaced gray scale with a depth specified by <a href="https://go.microsoft.com/fwlink/p/?linkid=181175">WIA_IPA_DEPTH</a> property.</td>
+<td>Scan data represents intensity. The palette is a fixed, equally-spaced gray scale with a depth specified by <a href="https://msdn.microsoft.com/library/ms795935.aspx">WIA_IPA_DEPTH</a> property.</td>
 </tr>
 <tr class="odd">
 <td>WIA_DATA_THRESHOLD</td>
-<td>The threshold is one bit per pixel of black-and-white data. Data over the current value of <a href="https://go.microsoft.com/fwlink/p/?linkid=181219">WIA_IPS_THRESHOLD</a> is converted to white; data under this value is converted to black.</td>
+<td>The threshold is one bit per pixel of black-and-white data. Data over the current value of <a href="https://msdn.microsoft.com/library/ms796233.aspx">WIA_IPS_THRESHOLD</a> is converted to white; data under this value is converted to black.</td>
 </tr>
 </tbody>
 </table>
@@ -268,7 +268,7 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 <p> </p>
 <p>The <strong>WIA_IPA_DATATYPE</strong> property is also used to describe the type of RAW data transfer to be used when the application sets WiaImgFmt_RAW. The driver should set the <strong>WIA_IPA_DATATYPE</strong> property to a list of allowed values from which the application can pick one.</p>
 <p>If the device can be set to only a single value, create a <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> type, and place the valid value in it.</p>
-<p>Check the <a href="https://go.microsoft.com/fwlink/p/?linkid=181175">WIA_IPA_DEPTH</a> property to determine the bit depth. This property usually contains a single value for cameras.</p>
+<p>Check the <a href="https://msdn.microsoft.com/library/ms795935.aspx">WIA_IPA_DEPTH</a> property to determine the bit depth. This property usually contains a single value for cameras.</p>
 <p>The following table lists the constants that are valid with <strong>WIA_IPA_DATATYPE</strong> when <strong>WIA_IPA_FORMAT</strong> is set to WiaImgFmt_RAW.</p>
 
 <table>
@@ -281,31 +281,31 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 <tbody>
 <tr class="odd">
 <td>WIA_DATA_GRAYSCALE</td>
-<td>Scan data represents intensity. The palette is a fixed, equally spaced grayscale with a depth specified by the <a href="https://go.microsoft.com/fwlink/p/?linkid=181175">WIA_IPA_DEPTH</a> property. <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 1.</td>
+<td>Scan data represents intensity. The palette is a fixed, equally spaced grayscale with a depth specified by the <a href="https://msdn.microsoft.com/library/ms795935.aspx">WIA_IPA_DEPTH</a> property. <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 1.</td>
 </tr>
 <tr class="even">
 <td>WIA_DATA_RAW_BGR</td>
-<td>Scan data is in the BGR (blue-green-red) colorspace. The full color format is described using the followingWIAproperties: <a href="https://go.microsoft.com/fwlink/p/?linkid=181218">WIA_IPA_CHANNELS_PER_PIXEL</a><br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=181176">WIA_IPA_BITS_PER_CHANNEL</a><br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=181222">WIA_IPA_PIXELS_PER_LINE</a><br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=181220">WIA_IPA_BYTES_PER_LINE</a><br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=181174">WIA_IPA_NUMBER_OF_LINES</a><br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
+<td>Scan data is in the BGR (blue-green-red) colorspace. The full color format is described using the followingWIAproperties: <a href="https://msdn.microsoft.com/library/ms796163.aspx">WIA_IPA_CHANNELS_PER_PIXEL</a><br/> <a href="https://msdn.microsoft.com/library/ms795997.aspx">WIA_IPA_BITS_PER_CHANNEL</a><br/> <a href="https://msdn.microsoft.com/library/ms796567.aspx">WIA_IPA_PIXELS_PER_LINE</a><br/> <a href="https://msdn.microsoft.com/library/ms796404.aspx">WIA_IPA_BYTES_PER_LINE</a><br/> <a href="https://msdn.microsoft.com/library/ms795916.aspx">WIA_IPA_NUMBER_OF_LINES</a><br/> <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
 </tr>
 <tr class="odd">
 <td>WIA_DATA_RAW_CMY</td>
-<td>Scan data is in the cyan-magenta-yellow (CMY) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
+<td>Scan data is in the cyan-magenta-yellow (CMY) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
 </tr>
 <tr class="even">
 <td>WIA_DATA_RAW_CMYK</td>
-<td>Scan data is in the cyan-magenta-yellow-black (CMYK) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 4.<br/></td>
+<td>Scan data is in the cyan-magenta-yellow-black (CMYK) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 4.<br/></td>
 </tr>
 <tr class="odd">
 <td>WIA_DATA_RAW_RGB</td>
-<td>Scan data is in the red-green-blue (RGB) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
+<td>Scan data is in the red-green-blue (RGB) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
 </tr>
 <tr class="even">
 <td>WIA_DATA_RAW_YUV</td>
-<td>Scan data is in the luminance-blue difference-red difference (YUV) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
+<td>Scan data is in the luminance-blue difference-red difference (YUV) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 3.<br/></td>
 </tr>
 <tr class="odd">
 <td>WIA_DATA_RAW_YUVK</td>
-<td>Scan data is in the luminance-blue difference-red difference-black (YUVK) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://go.microsoft.com/fwlink/p/?linkid=181173">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 4.<br/></td>
+<td>Scan data is in the luminance-blue difference-red difference-black (YUVK) colorspace. The full color format is described using the same WIA properties as in WIA_DATA_RAW_BGR. <a href="https://msdn.microsoft.com/library/ms795495.aspx">WIA_IPA_RAW_BITS_PER_CHANNEL</a> must be set to 4.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -326,7 +326,7 @@ The <strong>WIA_IPA_BUFFER_SIZE</strong> property contains is the minimum amount
 <td style="text-align: left;"><p>Contains the file name extension for a particular file format. The minidriver creates and maintains this property.</p>
 <p>Optional for all transfer-enabled WIA 2.0 items.</p>
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>The driver updates this property to reflect the current value of the <a href="https://go.microsoft.com/fwlink/p/?linkid=181221">WIA_IPA_FORMAT</a> property.</p>
+<p>The driver updates this property to reflect the current value of the <a href="https://msdn.microsoft.com/library/ms796440.aspx">WIA_IPA_FORMAT</a> property.</p>
 <p>For example, if <strong>WIA_IPA_FORMAT</strong> is WiaImgFmt_JPEG, then <a href="-wia-property-attributes.md">WIA_IPA_FILENAME_EXTENSION</a> should be <strong>jpg</strong>. If <strong>WIA_IPA_FORMAT</strong> is WiaImgFmt_BMP, then WIA_IPA_FILENAME_EXTENSION should be BMP.</p>
 <div class="alert">
 <blockquote>
@@ -342,7 +342,7 @@ The file name extension does not include the dot.
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_FORMAT"></span><span id="wia_ipa_format"></span><dl> <dt><strong>WIA_IPA_FORMAT</strong></dt> <dt>PictureFormat</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the current format of the image about to be transferred.</p>
-<p>An application reads this property to determine the format of the image that it is about to receive. An application writes this property to set the format. This property depends on the <a href="https://go.microsoft.com/fwlink/p/?linkid=181171">WIA_IPA_TYMED</a> property. The minidriver creates and maintains this property.</p>
+<p>An application reads this property to determine the format of the image that it is about to receive. An application writes this property to set the format. This property depends on the <a href="https://msdn.microsoft.com/library/ms795488.aspx">WIA_IPA_TYMED</a> property. The minidriver creates and maintains this property.</p>
 <p>If the device can be set to only a single value, create a <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> type, and place the valid value in it.</p>
 <p>Type: <strong>CLSID</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>The following table lists the constants that are valid with this property. The asterisk * indicates that the constant is not supported in Windows Vista. (It is only available through the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> interface.) The double asterisk ** indicates that the constant is not supported in either Windows Server 2003 or Windows Vista. The <strong>V</strong> symbol indicates that the constant is supported only in Windows Vista and later. (It is only available through the <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> interface.)</p>
@@ -515,7 +515,7 @@ When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRE
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_FULL_ITEM_NAME"></span><span id="wia_ipa_full_item_name"></span><dl> <dt><strong>WIA_IPA_FULL_ITEM_NAME</strong></dt> <dt>PictureFullItemName</dt> </dl></td>
-<td style="text-align: left;"><p>Contains the full item name (the item name together with path information). The full item name is the same as the <em>bstrFullItemName</em> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=181170">wiasCreateDrvItem</a> service utility function. An application reads this property to determine which item it is currently using and where that item is located in the item tree. Each item should have a unique name. Applications commonly use the full item name to search for items in the item tree. The WIA service creates and maintains this property.</p>
+<td style="text-align: left;"><p>Contains the full item name (the item name together with path information). The full item name is the same as the <em>bstrFullItemName</em> parameter of the <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> service utility function. An application reads this property to determine which item it is currently using and where that item is located in the item tree. Each item should have a unique name. Applications commonly use the full item name to search for items in the item tree. The WIA service creates and maintains this property.</p>
 <p>Required for all WIA 2.0 items.</p>
 <p>Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -538,7 +538,7 @@ When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRE
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ITEM_FLAGS"></span><span id="wia_ipa_item_flags"></span><dl> <dt><strong>WIA_IPA_ITEM_FLAGS</strong></dt> <dt>PictureItemFlags</dt> </dl></td>
-<td style="text-align: left;"><p>Contains the descriptive flags for a WIA item. The item flags are the same as those in the <em>lObjectFlags</em> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=181170">wiasCreateDrvItem</a> service utility function. The WIA service creates and maintains this property.</p>
+<td style="text-align: left;"><p>Contains the descriptive flags for a WIA item. The item flags are the same as those in the <em>lObjectFlags</em> parameter of the <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> service utility function. The WIA service creates and maintains this property.</p>
 <p>An application reads this property to determine the item's descriptive flag values.</p>
 <p>Type: <strong>VT_I4</strong> Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>The following table has the flags that are valid with this property. An asterisk * indicates that the flag is not supported in Windows Vista or later. (It is only available through the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> interface.) An double asterisk ** indicates that the flag is not supported in either Windows Server 2003 or Windows Vista or later. The <strong>V</strong> symbol indicates that the flag is supported only in Windows Vista and later. (It is only available through the <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> interface.)</p>
@@ -699,7 +699,7 @@ When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRE
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ITEM_SIZE"></span><span id="wia_ipa_item_size"></span><dl> <dt><strong>WIA_IPA_ITEM_SIZE</strong></dt> <dt>PictureItemSize</dt> </dl></td>
 <td style="text-align: left;"><p>Contains the current size, in bytes, of the data that is associated with the item. The minidriver creates and maintains this property.</p>
-<p>Contains is the total size of the data being transferred. If this value is zero, it means that the minidriver has no information about the exact size of the data. (This is common for compressed data.) An application reads this value to determine the size of the acquisition before it takes place. The WIA service reads this property to assist in allocating memory for data transfers. For further information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=181106">Transferring Data to a WIA Application</a> if the property is set to zero and TYMED is configured for a file transfer, the WIA service does not allocate any memory for the WIA minidriver.</p>
+<p>Contains is the total size of the data being transferred. If this value is zero, it means that the minidriver has no information about the exact size of the data. (This is common for compressed data.) An application reads this value to determine the size of the acquisition before it takes place. The WIA service reads this property to assist in allocating memory for data transfers. For further information, see <a href="https://msdn.microsoft.com/library/ms792198.aspx">Transferring Data to a WIA Application</a> if the property is set to zero and TYMED is configured for a file transfer, the WIA service does not allocate any memory for the WIA minidriver.</p>
 <p>Required for all transfer-enabled WIA 2.0 items.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>

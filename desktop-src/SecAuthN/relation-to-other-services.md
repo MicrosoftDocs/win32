@@ -12,7 +12,7 @@ Other parts of the Microsoft Internet Security Framework use the [*smart card su
 
 ![relation of microsoft internet security framework to smart card subsystem](images/smartovr3.png)
 
-For more information on the role of the smart card subsystem in the Microsoft Internet Security Framework, see [https://www.microsoft.com/whdc/device/input/smartcard/default.mspx](https://go.microsoft.com/fwlink/p/?linkid=84133).
+For more information on the role of the smart card subsystem in the Microsoft Internet Security Framework, see [https://www.microsoft.com/whdc/device/input/smartcard/default.mspx](https://www.microsoft.com/whdc/device/input/smartcard/default.mspx).
 
  
 

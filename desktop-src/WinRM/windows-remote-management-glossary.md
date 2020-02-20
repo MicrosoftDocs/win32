@@ -533,7 +533,7 @@ A public standard protocol, which is SOAP-based, for accessing XML representatio
 **XPath**
 </dt> <dd>
 
-A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](https://go.microsoft.com/fwlink/p/?linkid=84384) for [*fragment dialect*](windows-remote-management-glossary.md).
+A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](https://msdn.microsoft.com/library/ms256115.aspx) for [*fragment dialect*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 

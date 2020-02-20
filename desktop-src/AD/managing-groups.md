@@ -29,7 +29,7 @@ This section includes topics about how to use groups in Active Directory Domain 
 -   [Groups on Member Servers and Windows 2000 Professional](groups-on-member-servers-and-windows-2000-professional.md)
 -   [What Application and Service Developers Need to Know About Groups](what-application-and-service-developers-need-to-know-about-groups.md)
 
-For more information about groups in Active Directory Domain Services, see [Understanding groups](https://go.microsoft.com/fwlink/p/?linkid=84113).
+For more information about groups in Active Directory Domain Services, see [Understanding groups](https://www.microsoft.com/technet/prodtechnol/windowsserver2003/Library/ServerHelp/54af961b-28fa-461e-a32d-cf32697148ff.mspx).
 
  
 

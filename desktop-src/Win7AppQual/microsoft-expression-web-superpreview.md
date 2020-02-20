@@ -25,7 +25,7 @@ With the Web SuperPreview tool, you can:
 -   Debug more quickly by using element and DOM tree information. Web SuperPreview also combines image rendering with DOM data, so you can highlight specific DOM elements within the image and show differences across browsers. The tool provides element information such as position, dimensions, and ID to help you find the element that is causing the compatibility issue.
 -   Support Windows and Macintosh browsers, including Internet Explorer 6 and later versions, Firefox 3.6, and Macintosh Safari.
 
-For more information about this tool and other developers tools, see the [Expression Studio 4 Web overview](https://go.microsoft.com/fwlink/p/?linkid=205116), [Expression Web demo](https://go.microsoft.com/fwlink/p/?linkid=205117), and [Expression forums](https://go.microsoft.com/fwlink/p/?linkid=205118).
+For more information about this tool and other developers tools, see the [Expression Studio 4 Web overview](https://www.microsoft.com/expression/products/StudioWebPro_Overview.aspx), [Expression Web demo](https://msdn.microsoft.com/expression/ff723803.aspx), and [Expression forums](https://social.msdn.microsoft.com/forums/en-US/announce/threads).
 
 ## Related topics
 

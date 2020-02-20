@@ -215,7 +215,7 @@ This notification indicates that the recovery operation is complete for this RM.
 
 
 
-The specified transaction is in an in-doubt state. The RM receives this notification during recovery operations when a transaction has been prepared, but there is no superior transaction manager (TM) available. For example, when a transaction involves a remote TM and that node is unavailable, its node is unavailable, or the local [Distributed Transaction Coordinator](https://go.microsoft.com/fwlink/p/?linkid=139572) service is unavailable, the transaction state is in-doubt.
+The specified transaction is in an in-doubt state. The RM receives this notification during recovery operations when a transaction has been prepared, but there is no superior transaction manager (TM) available. For example, when a transaction involves a remote TM and that node is unavailable, its node is unavailable, or the local [Distributed Transaction Coordinator](https://msdn.microsoft.com/library/ms684146.aspx) service is unavailable, the transaction state is in-doubt.
 
 
 </dt> </dl> </dd> <dt>
@@ -275,7 +275,7 @@ Reserved.
 
 <dl> <dt>
 
-[Distributed Transaction Coordinator](https://go.microsoft.com/fwlink/p/?linkid=139572)
+[Distributed Transaction Coordinator](https://msdn.microsoft.com/library/ms684146.aspx)
 </dt> <dt>
 
 [Kernel Transaction Manager Constants](kernel-transaction-manager-constants.md)

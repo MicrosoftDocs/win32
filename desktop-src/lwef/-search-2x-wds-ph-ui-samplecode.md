@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Custom Protocol Handler User Interface Sample Code
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
 
 The following sample code shows how to create user interface extensions for a custom protocol handler.
 

@@ -31,7 +31,7 @@ Other service providers are included as part of products other than ADSI. The fo
 
 | Service provider | For more information                                                                        |
 |------------------|---------------------------------------------------------------------------------------------|
-| IIS<br/>   | [IIS ADSI Provider Architecture](https://go.microsoft.com/fwlink/p/?linkid=83888)<br/> |
+| IIS<br/>   | [IIS ADSI Provider Architecture](https://msdn.microsoft.com/library/ms525929.aspx)<br/> |
 
 
 

@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # PageMediaSizePSOrientation
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
-Specifies the orientation relative to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://go.microsoft.com/fwlink/p/?linkid=178075)).
+Specifies the orientation relative to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
 
 -   [Element Information](#element-information)
 -   [Structure Content](#structure-content)
@@ -84,10 +84,10 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[PostScript Printer Description File Format Specification](https://go.microsoft.com/fwlink/p/?linkid=178075)
+[PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

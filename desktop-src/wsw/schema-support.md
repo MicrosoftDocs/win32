@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Schema support
 
-WsUtil.exe supports the XSD schema specified at [XML Schema](http://go.microsoft.com/fwlink/p/?linkid=94953). xsd file and wsdl:type should be treated in the same category, with the exception in wsdl:type when a global element could be a parameter list. Wsutil.exe generates element descriptions for all global element definitions that can be used in serializer, with additional output for parameter structure specified in [WSDL support](wsdl-support.md).
+WsUtil.exe supports the XSD schema specified at [XML Schema](https://www.w3.org/XML/Schema). xsd file and wsdl:type should be treated in the same category, with the exception in wsdl:type when a global element could be a parameter list. Wsutil.exe generates element descriptions for all global element definitions that can be used in serializer, with additional output for parameter structure specified in [WSDL support](wsdl-support.md).
 
 ## XSD Schema Support Level
 

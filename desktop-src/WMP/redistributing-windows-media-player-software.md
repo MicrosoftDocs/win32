@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Redistributing Windows Media Player Software
 
-For information about obtaining a license to include support for or redistribute Windows Media Player components on your website, in your application, or on your devices, see the licensing and redistribution links on the [Windows Media website](https://go.microsoft.com/fwlink/p/?linkid=740).
+For information about obtaining a license to include support for or redistribute Windows Media Player components on your website, in your application, or on your devices, see the licensing and redistribution links on the [Windows Media website](https://support.microsoft.com/help/18612/windows-media-player).
 
 The following sections provide information about installation packages that you can use to include Windows Media Player in your application.
 

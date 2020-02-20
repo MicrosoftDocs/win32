@@ -49,9 +49,9 @@ The following code example demonstrates how to force a webpage to be rendered in
 
 ## Using an HTTP Header
 
-Many websites contain thousands (or tens of thousands) of individual webpages so setting the **meta** element on each document is impractical. If you want to set the **meta** element for all pages or a collection of pages that are selected by folder, you can adjust your server configuration instead and add the X-UA-Compatible metadata in the [HTTP header](https://go.microsoft.com/fwlink/p/?linkid=204319).
+Many websites contain thousands (or tens of thousands) of individual webpages so setting the **meta** element on each document is impractical. If you want to set the **meta** element for all pages or a collection of pages that are selected by folder, you can adjust your server configuration instead and add the X-UA-Compatible metadata in the [HTTP header](https://msdn.microsoft.com/cc817572.aspx).
 
-For sites that require different **meta** element values for pages on the same server, there are several tools that automatically generate and insert the appropriate **meta** element for you. For example, the [ArtinSoft Web Tools](https://go.microsoft.com/fwlink/p/?linkid=205192) utility from Aggiorno inserts and removes the Internet Explorer 8 compatibility tag feature and can help your site meet specific compatibility standards.
+For sites that require different **meta** element values for pages on the same server, there are several tools that automatically generate and insert the appropriate **meta** element for you. For example, the [ArtinSoft Web Tools](http://www.aggiorno.com/what-is-aggiorno-ie8-compatibility-tagging.aspx) utility from Aggiorno inserts and removes the Internet Explorer 8 compatibility tag feature and can help your site meet specific compatibility standards.
 
 ## Related topics
 

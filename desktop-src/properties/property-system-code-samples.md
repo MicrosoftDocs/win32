@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Property System Code Samples
 
-This section describes the individual property samples included in the Windows Software Development Kit (SDK) and, in most cases, downloadable from the [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=154617).
+This section describes the individual property samples included in the Windows Software Development Kit (SDK) and, in most cases, downloadable from the [MSDN Code Gallery](https://code.msdn.microsoft.com/).
 
 -   [Windows SDK Locations](#windows-sdk-locations)
 -   [MSDN Code Gallery Locations](#msdn-code-gallery-locations)
@@ -26,11 +26,11 @@ When you download and install the Windows 7 SDK, samples are included in that i
 
 ## MSDN Code Gallery Locations
 
-Shell samples can also be individually downloaded through the [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=154617). Most property samples listed below can be found on the following pages:
+Shell samples can also be individually downloaded through the [MSDN Code Gallery](https://code.msdn.microsoft.com/). Most property samples listed below can be found on the following pages:
 
--   [Windows Shell Application Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155655)
--   [Windows Shell Extensibility Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155658)
--   [Windows Shell Integration Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155659)
+-   [Windows Shell Application Samples on Code Gallery](https://code.msdn.microsoft.com/shellapplication)
+-   [Windows Shell Extensibility Samples on Code Gallery](https://code.msdn.microsoft.com/shellextensibility)
+-   [Windows Shell Integration Samples on Code Gallery](https://code.msdn.microsoft.com/shellintegration)
 
 ## Shell Samples
 

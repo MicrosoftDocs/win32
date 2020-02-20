@@ -29,7 +29,7 @@ Address of a BSTR that receives the mode ID setting of the speech recognition en
 
 </dd> </dl>
 
-This setting returns the engine set for a character's speech input. The mode ID for a speech recognition engine is a string representation of the GUID (formatted with braces and dashes) by the speech vendor uniquely identifying the engine. For more information, see the [Microsoft Speech SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=198367).
+This setting returns the engine set for a character's speech input. The mode ID for a speech recognition engine is a string representation of the GUID (formatted with braces and dashes) by the speech vendor uniquely identifying the engine. For more information, see the [Microsoft Speech SDK documentation](https://msdn.microsoft.com/library/ee705648.aspx).
 
 If you do not set a speech recognition engine mode ID for the character, the server returns an engine that matches the character's language setting (using Microsoft Speech API interfaces). If there is no matching speech recognition engine available for the character, the server returns a null (empty) string.
 

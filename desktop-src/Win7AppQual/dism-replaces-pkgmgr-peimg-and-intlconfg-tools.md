@@ -32,7 +32,7 @@ Check to ensure that calls to DISM have replaced any calls to pkgmgr, PEImg, and
 
 <dl> <dt>
 
-[Deployment Image Servicing and Management (TechNet)](https://go.microsoft.com/fwlink/p/?linkid=205353)
+[Deployment Image Servicing and Management (TechNet)](https://technet.microsoft.com/library/dd744256(WS.10).aspx)
 </dt> </dl>
 
  

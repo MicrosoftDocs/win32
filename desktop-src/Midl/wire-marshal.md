@@ -94,7 +94,7 @@ Specifies the current buffer pointer.
 
 Each application-specific data type, *userm-type,* has a one-to-one correspondence with a *wire-type* that defines the wire representation of the type. You must supply routines to size the data for marshaling, to marshal and unmarshal the data, and to free memory. Note that if there are embedded types in your data that are also defined with **\[wire\_marshal\]** or **\[**[**user\_marshal**](user-marshal.md)**\]**, you need to manage the servicing of those embedded types also. For more information on these routines, see [The wire\_marshal Attribute](https://docs.microsoft.com/windows/desktop/Rpc/the-wire-marshal-attribute).
 
-Your implementation must follow the marshalling rules according to the OSF-DCE specification. Details about NDR transfer syntax can be found at [https://www.opengroup.org/onlinepubs/9629399/chap14.htm](https://go.microsoft.com/fwlink/p/?linkid=84154). It is not recommended to use **\[wire\_marshal\]** if you are not familiar with the wire protocol.
+Your implementation must follow the marshalling rules according to the OSF-DCE specification. Details about NDR transfer syntax can be found at [https://www.opengroup.org/onlinepubs/9629399/chap14.htm](http://pubs.opengroup.org/onlinepubs/9629399/chap14.htm). It is not recommended to use **\[wire\_marshal\]** if you are not familiar with the wire protocol.
 
 The *wire-type* cannot be an interface pointer or a full pointer. The *wire-type* must have a well-defined memory size. See [Marshaling Rules for user\_marshal and wire\_marshal](https://docs.microsoft.com/windows/desktop/Rpc/marshaling-rules-for-user-marshal-and-wire-marshal) for details on how to marshal a given *wire-type*.
 

@@ -1009,7 +1009,7 @@ JET_errDatabaseDirtyShutdown</p></td>
 <tr class="even">
 <td><p>JET_errInvalidLCMapStringFlags<br />
 -1064</p></td>
-<td><p>There are invalid flags being used for <a href="https://go.microsoft.com/fwlink/?linkid=180732">LCMapString</a>.</p></td>
+<td><p>There are invalid flags being used for <a href="https://msdn.microsoft.com/library/dd318700(VS.85).aspx">LCMapString</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errVersionStoreEntryTooBig<br />

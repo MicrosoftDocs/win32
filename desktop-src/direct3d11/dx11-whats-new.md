@@ -26,7 +26,7 @@ This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and conta
 <tbody>
 <tr class="odd">
 <td><span id="Direct2D"></span><span id="direct2d"></span><span id="DIRECT2D"></span>Direct2D<br/></td>
-<td>Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with Direct3D and GDI. This SDK allows developers to evaluate the API and write simple applications, with some of the more advanced functionality possible on properly configured machines. <br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=141057">Documentation</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=141058">samples</a> for Direct2D are currently available on MSDN.<br/></td>
+<td>Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with Direct3D and GDI. This SDK allows developers to evaluate the API and write simple applications, with some of the more advanced functionality possible on properly configured machines. <br/> <a href="https://msdn.microsoft.com/library/dd370990(VS.85).aspx">Documentation</a> and <a href="https://msdn.microsoft.com/library/dd372354(VS.85).aspx">samples</a> for Direct2D are currently available on MSDN.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="DirectWrite"></span><span id="directwrite"></span><span id="DIRECTWRITE"></span>DirectWrite<br/></td>
@@ -38,7 +38,7 @@ This version of Windows 7/Direct3D 11 ships as part of the DirectX SDK and conta
 <li>Support for the advanced typography features of OpenType fonts.<br/></li>
 <li>Support for the layout and rendering of text in all languages supported by Windows.<br/></li>
 </ul>
-This SDK allows developers to evaluate the API and write basic applications for demonstration purposes only.<br/> <a href="https://go.microsoft.com/fwlink/p/?linkid=141059">Documentation</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=141060">samples</a> for DirectWrite are currently available on MSDN.<br/></td>
+This SDK allows developers to evaluate the API and write basic applications for demonstration purposes only.<br/> <a href="https://msdn.microsoft.com/library/dd368038(VS.85).aspx">Documentation</a> and <a href="https://msdn.microsoft.com/library/dd371575(VS.85).aspx">samples</a> for DirectWrite are currently available on MSDN.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DXGI_1.1"></span><span id="dxgi_1.1"></span>DXGI 1.1<br/></td>

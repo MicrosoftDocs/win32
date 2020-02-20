@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # ADSI and User Account Control
 
-Windows and Windows Server have [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84128), which has ramifications for applications that use [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Specifically, these interfaces were designed to be run by a user account with administrator privileges on the local computer.
+Windows and Windows Server have [User Account Control](https://technet.microsoft.com/library/0d75f774-8514-4c9e-ac08-4c21f5c6c2d9), which has ramifications for applications that use [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Specifically, these interfaces were designed to be run by a user account with administrator privileges on the local computer.
 
 **Problem**
 

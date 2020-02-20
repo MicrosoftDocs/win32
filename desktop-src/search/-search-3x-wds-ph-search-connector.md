@@ -100,7 +100,7 @@ HKEY_LOCAL_MACHINE
                      Description
 ```
 
-In addition, the FolderType entry can be set to one of the [FOLDERTYPEID](https://msdn.microsoft.com/library/bb762581(VS.85).aspx) GUIDs. The value should be the actual GUID, and not its name. For example, {94d6ddcc-4a68-4175-a374-bd584a510b78} rather than FOLDERTYPEID\_Music. The GUID for a FOLDERTYPEID can be obtained in the Shlguid.h header file in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
+In addition, the FolderType entry can be set to one of the [FOLDERTYPEID](https://msdn.microsoft.com/library/bb762581(VS.85).aspx) GUIDs. The value should be the actual GUID, and not its name. For example, {94d6ddcc-4a68-4175-a374-bd584a510b78} rather than FOLDERTYPEID\_Music. The GUID for a FOLDERTYPEID can be obtained in the Shlguid.h header file in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ```
 HKEY_LOCAL_MACHINE

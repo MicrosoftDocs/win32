@@ -50,7 +50,7 @@ The **Print** common dialog box is displayed when the user starts a print job. T
 
 3.  Save the fields from the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure and start the print job.
 
-    The [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure contains the data that describes the selections that the user made in the print dialog box. Some members of the **PRINTDLG** structure are handles to global memory objects. The [Print Sample Program](https://go.microsoft.com/?linkid=9737083) copies the data from the global memory objects to memory blocks that the program manages and copies other fields from the **PRINTDLG** structure to fields in a data structure that the program defined.
+    The [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure contains the data that describes the selections that the user made in the print dialog box. Some members of the **PRINTDLG** structure are handles to global memory objects. The [Print Sample Program](https://code.msdn.microsoft.com/WindowsPrintSample) copies the data from the global memory objects to memory blocks that the program manages and copies other fields from the **PRINTDLG** structure to fields in a data structure that the program defined.
 
     After you store the data from the [**PRINTDLG**](https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlga) structure in the program's data structure, you can open the print progress dialog box. The print progress dialog box procedure handles the dialog box messages and starts the print processing thread.
 

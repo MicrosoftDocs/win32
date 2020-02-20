@@ -47,7 +47,7 @@ The Background Intelligent Transfer Service (BITS) Compact Server with BITS Remo
 
 </dd> <dt>
 
-<span id="BizTalk"></span><span id="biztalk"></span><span id="BIZTALK"></span>[BizTalk](https://go.microsoft.com/fwlink/p/?linkid=84305)
+<span id="BizTalk"></span><span id="biztalk"></span><span id="BIZTALK"></span>[BizTalk](https://msdn.microsoft.com/library/ms941491.aspx)
 </dt> <dd>
 
 Supplies access to the BizTalk administration objects represented by WMI classes.
@@ -243,7 +243,7 @@ The Hyper-V (V2) provider extends the [Hyper-V](https://docs.microsoft.com/previ
 
 </dd> <dt>
 
-<span id="Internet_Information_Services__IIS_"></span><span id="internet_information_services__iis_"></span><span id="INTERNET_INFORMATION_SERVICES__IIS_"></span>[Internet Information Services (IIS)](https://go.microsoft.com/fwlink/p/?linkid=84317)
+<span id="Internet_Information_Services__IIS_"></span><span id="internet_information_services__iis_"></span><span id="INTERNET_INFORMATION_SERVICES__IIS_"></span>[Internet Information Services (IIS)](https://msdn.microsoft.com/library/ms525309.aspx)
 </dt> <dd>
 
 Exposes programming interfaces that can be used to query and configure the IIS metabase.
@@ -292,10 +292,10 @@ The preinstalled Kernel Trace event provider allows you to see kernel trace even
 
 </dd> <dt>
 
-<span id="Live_Communications_Server_2003"></span><span id="live_communications_server_2003"></span><span id="LIVE_COMMUNICATIONS_SERVER_2003"></span>[Live Communications Server 2003](https://go.microsoft.com/fwlink/p/?linkid=84360)
+<span id="Live_Communications_Server_2003"></span><span id="live_communications_server_2003"></span><span id="LIVE_COMMUNICATIONS_SERVER_2003"></span>[Live Communications Server 2003](https://msdn.microsoft.com/library/aa644833.aspx)
 </dt> <dd>
 
-Provides classes that create, register, configure, manage custom Session Initiation Protocol (SIP) applications with the [Live Communications Server 2003](https://go.microsoft.com/fwlink/p/?linkid=84359).
+Provides classes that create, register, configure, manage custom Session Initiation Protocol (SIP) applications with the [Live Communications Server 2003](https://msdn.microsoft.com/library/aa194012.aspx).
 
 </dd> <dt>
 
@@ -495,7 +495,7 @@ Enables consistent server administration in a Remote Desktop Services environmen
 
 </dd> <dt>
 
-<span id="Reporting_Services"></span><span id="reporting_services"></span><span id="REPORTING_SERVICES"></span>[Reporting Services](https://go.microsoft.com/fwlink/p/?linkid=84358)
+<span id="Reporting_Services"></span><span id="reporting_services"></span><span id="REPORTING_SERVICES"></span>[Reporting Services](https://msdn.microsoft.com/library/Aa226200.aspx)
 </dt> <dd>
 
 Defines classes that allow you to write scripts and code to modify the settings of the report server and the Report Manager.

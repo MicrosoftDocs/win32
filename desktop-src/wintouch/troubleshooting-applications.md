@@ -63,7 +63,7 @@ This section gives solutions to common problems.
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>You can call <a href="https://go.microsoft.com/fwlink/p/?linkid=153394">GetMessageExtraInfo</a> for the <strong>WM_LBUTTONDOWN</strong> and <strong>WM_LBUTTONUP</strong> messages to determine the source. The following code shows how this could be done. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>You can call <a href="https://msdn.microsoft.com/library/ms644937.aspx">GetMessageExtraInfo</a> for the <strong>WM_LBUTTONDOWN</strong> and <strong>WM_LBUTTONUP</strong> messages to determine the source. The following code shows how this could be done. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -289,7 +289,7 @@ In order to use the <a href="https://docs.microsoft.com/windows/desktop/api/winu
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | After handling the [**WM\_GESTURE**](wm-gesture.md) message, I stop getting boundary feedback. Or, a gesture that worked previously does not work now.                                                                                                                                                                                                                         |
 | Cause    | Consuming the [**WM\_GESTURE**](wm-gesture.md) message without handling it.                                                                                                                                                                                                                                                                                                    |
-| Solution | You are probably consuming a Windows Touch message without forwarding it to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637), which will result in unexpected behavior. Check [Getting Started with Windows Gestures](getting-started-with-multi-touch-gestures.md) for more information on how to properly handle [**WM\_GESTURE**](wm-gesture.md) messages. |
+| Solution | You are probably consuming a Windows Touch message without forwarding it to [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx), which will result in unexpected behavior. Check [Getting Started with Windows Gestures](getting-started-with-multi-touch-gestures.md) for more information on how to properly handle [**WM\_GESTURE**](wm-gesture.md) messages. |
 
 
 

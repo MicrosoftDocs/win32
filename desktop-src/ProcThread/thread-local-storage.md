@@ -26,7 +26,7 @@ It is ideal to use TLS in a dynamic-link library (DLL). For an example, see [Usi
 
 <dl> <dt>
 
-[Thread Local Storage (Visual C++)](https://go.microsoft.com/fwlink/p/?linkid=148620)
+[Thread Local Storage (Visual C++)](https://msdn.microsoft.com/library/6yh4a9k1.aspx)
 </dt> <dt>
 
 [Using Thread Local Storage](using-thread-local-storage.md)

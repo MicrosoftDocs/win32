@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Logical and Physical Addresses
 
-[WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) defines logical addressing using URIs based on the `urn:uuid:` format. The purpose of this addressing scheme is to differentiate the identity of the device from its current IP address. This scheme essentially provides the functionality of DNS names without requiring a name server. [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) recommends that devices use this addressing scheme.
+[WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf) defines logical addressing using URIs based on the `urn:uuid:` format. The purpose of this addressing scheme is to differentiate the identity of the device from its current IP address. This scheme essentially provides the functionality of DNS names without requiring a name server. [Devices Profile for Web Services](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS) recommends that devices use this addressing scheme.
 
 DPWS also recommends that services use physical (also called transport) addresses. This enables clients that do not natively support WS-Discovery addressing mechanisms to communicate with DPWS services. Also, each service can define its addresses, which enables transport level addressing for device implementations that manage service dispatch at a lower layer. Finally, using physical addresses maximizes interoperability.
 

@@ -30,7 +30,7 @@ Server Data Objects API can be used to manipulate the network policy configurati
 
 ## Developer audience
 
-The NPS Extensions API is designed for use by programmers using C/C++ development software. Programmers should be familiar with networking concepts and the RADIUS protocol. RADIUS is documented in [RFC 2865](https://go.microsoft.com/fwlink/p/?linkid=84055) and [RFC 2866](https://go.microsoft.com/fwlink/p/?linkid=84056).
+The NPS Extensions API is designed for use by programmers using C/C++ development software. Programmers should be familiar with networking concepts and the RADIUS protocol. RADIUS is documented in [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt) and [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt).
 
 The Server Data Objects API is designed for use by programmers using C/C++ or Visual Basic development software. Programmers should be familiar with [Remote Access Service](https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments) (RAS) and the RADIUS protocol.
 
@@ -78,10 +78,10 @@ Samples of stored procedures used for managing NPS (IAS) logging.
 
 <dl> <dt>
 
-[TechNet: Network Policy Server](https://go.microsoft.com/fwlink/p/?linkid=100577)
+[TechNet: Network Policy Server](https://technet.microsoft.com/network/bb629414.aspx)
 </dt> <dt>
 
-[TechNet: Internet Authentication Service](https://go.microsoft.com/fwlink/p/?linkid=100899)
+[TechNet: Internet Authentication Service](https://technet.microsoft.com/network/bb643123.aspx)
 </dt> <dt>
 
 [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page)

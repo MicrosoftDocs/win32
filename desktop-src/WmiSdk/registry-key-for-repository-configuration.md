@@ -40,7 +40,7 @@ Enabled
 
 </dd> </dl> </dd> </dl>
 
-The **AutoRestoreEnabled** registry value can be modified by using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](https://go.microsoft.com/fwlink/p/?linkid=148559).
+The **AutoRestoreEnabled** registry value can be modified by using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](https://msdn.microsoft.com/library/aa814316.aspx).
 
 This procedure provides details about how to enable or disable the AutoRestore repository feature:
 

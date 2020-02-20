@@ -61,7 +61,7 @@ Some attributes will also accept a value of "none". For **transparencyColor** at
 
  
 
-For more information, see the [Color Table](https://go.microsoft.com/fwlink/p/?linkid=10129) article in Microsoft MSDN® Online.
+For more information, see the [Color Table](https://msdn.microsoft.com/library/ms531197.aspx) article in Microsoft MSDN® Online.
 
 ## Related topics
 

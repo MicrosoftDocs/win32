@@ -21,7 +21,7 @@ api_location:
 The **TakeOwnerShip** method obtains ownership of the logical file specified in the object path. If the logical file is a directory, then this method acts recursively, taking ownership of all files and sub-directories that the directory contains.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

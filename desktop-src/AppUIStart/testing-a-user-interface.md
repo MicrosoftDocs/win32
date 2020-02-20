@@ -33,7 +33,7 @@ The primary scenarios for usability testing are:
 -   If you are a software product vendor, testing real users of your product means you are evaluating the design. Based on how you have designed the application, can users complete the tasks they need to do? Testing real users doing real tasks can also point out if the UI guidelines you are following are working within the context of your product, and when consistency helps or hinders the ability of a user to do their work.
 -   If you are a software product purchaser, you can do usability testing to evaluate a product for purchase. For example, your company might consider buying a product for their twenty thousand employees. Before the company spends its money, it wants to make sure that the product in question will really help employees do their jobs better. Usability testing can also be useful to see if the proposed application follows published UI style guidelines (internal or external). It's best to use UI guidelines as an auxiliary, rather than primary, source of information for making purchase decisions.
 
-For more information, see [Usability in Practice: Usability Testing](https://go.microsoft.com/fwlink/p/?linkid=191591).
+For more information, see [Usability in Practice: Usability Testing](https://msdn.microsoft.com/magazine/dd920305.aspx).
 
 ## Accessibility Testing
 

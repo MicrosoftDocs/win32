@@ -138,5 +138,5 @@ This registry entry is supported:
 
 <dl>
 
-[Implementing Registry-based Policy](https://go.microsoft.com/fwlink/p/?linkid=325432)  
+[Implementing Registry-based Policy](https://msdn.microsoft.com/library/aa374292(v=VS.85).aspx)  
 </dl>

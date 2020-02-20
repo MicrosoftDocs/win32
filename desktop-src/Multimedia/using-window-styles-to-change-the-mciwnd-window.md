@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Using Window Styles to Change the MCIWnd Window
 
-As with any window, you can change the appearance and behavior of an MCIWnd window by choosing from the standard window styles specified with the [CreateWindow](https://go.microsoft.com/fwlink/p/?linkid=17095) function. In addition, you can choose from several other window styles that are specific to MCIWnd windows. With these styles, your application can change these MCIWnd windows in the following ways:
+As with any window, you can change the appearance and behavior of an MCIWnd window by choosing from the standard window styles specified with the [CreateWindow](https://msdn.microsoft.com/library/ms632679.aspx) function. In addition, you can choose from several other window styles that are specific to MCIWnd windows. With these styles, your application can change these MCIWnd windows in the following ways:
 
 -   Change window size.
 -   Hide or display controls.

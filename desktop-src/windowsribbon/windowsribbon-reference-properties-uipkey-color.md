@@ -24,9 +24,9 @@ propertyDescription
 
 UI\_PKEY\_Color is used by an application to query the color value of the [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) control.
 
-The property value is a [COLORREF](https://go.microsoft.com/fwlink/p/?linkid=133391) value.
+The property value is a [COLORREF](https://msdn.microsoft.com/library/dd183449(VS.85).aspx) value.
 
-The high-order byte of the [COLORREF](https://go.microsoft.com/fwlink/p/?linkid=133391) value is ignored.
+The high-order byte of the [COLORREF](https://msdn.microsoft.com/library/dd183449(VS.85).aspx) value is ignored.
 
 ## Related topics
 

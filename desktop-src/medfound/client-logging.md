@@ -18,7 +18,7 @@ If the content is stored in a temporary local cache file on the computer that is
 
 The client sends streaming log data to the server to indicate how the client received the content, but not how it was rendered. The client can send the streaming log long before the client finishes rendering the content.
 
-This topic does not provide information about all the log fields. For a complete reference, see [Logging Model for Windows Media Services 9 Series](https://go.microsoft.com/fwlink/p/?linkid=68214).
+This topic does not provide information about all the log fields. For a complete reference, see [Logging Model for Windows Media Services 9 Series](https://www.microsoft.com/windows/windowsmedia/howto/articles/LoggingModel.aspx).
 
 ## Configuring Log Fields
 

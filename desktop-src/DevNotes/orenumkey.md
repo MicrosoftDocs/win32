@@ -61,7 +61,7 @@ Because subkeys are not ordered, any new subkey will have an arbitrary index. Th
 
 A pointer to a buffer that receives the name of the subkey, including the terminating null character. The function copies only the name of the subkey, not the full key hierarchy, to the buffer. If the function fails, no information is copied to this buffer.
 
-For more information, see [Registry Element Size Limits](https://go.microsoft.com/fwlink/p/?linkid=128771).
+For more information, see [Registry Element Size Limits](https://msdn.microsoft.com/library/ms724872.aspx).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ A pointer to a variable that specifies the size of the buffer specified by the *
 *lpftLastWriteTime* \[out, optional\]
 </dt> <dd>
 
-A pointer to [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776) structure that receives the time at which the enumerated subkey was last written. This parameter can be **NULL**.
+A pointer to [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx) structure that receives the time at which the enumerated subkey was last written. This parameter can be **NULL**.
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ A pointer to [FILETIME](https://go.microsoft.com/fwlink/p/?linkid=128776) struct
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://go.microsoft.com/fwlink/p/?linkid=128767) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
 
 -   If the *lpName* buffer is too small to receive the name of the key, the function returns ERROR\_MORE\_DATA.
 -   If there are no more subkeys available, the function returns ERROR\_NO\_MORE\_ITEMS.

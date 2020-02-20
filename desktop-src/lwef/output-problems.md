@@ -16,7 +16,7 @@ When an Agent character animates, it requires the application windows behind the
 
 -   Your system does not meet the minimum system requirements for Agent.
 -   The application window behind the character does not process updates in a timely fashion. Try dragging the character over the desktop or a folder window, or shut down some of your applications. If you see a noticeable improvement, the problem may be unavoidable.
--   You may not have the official release of the Microsoft Internet Explorer 4.0 (or later) installed. Early pre-release versions of Internet Explorer 4.0 did not handle updating the screen correctly. This would result in residual images of the character remaining on the screen. To fix the problem, install the latest official release of the Internet Explorer ([https://www.microsoft.com/windows/ie/](https://go.microsoft.com/fwlink/p/?linkid=198364)).
+-   You may not have the official release of the Microsoft Internet Explorer 4.0 (or later) installed. Early pre-release versions of Internet Explorer 4.0 did not handle updating the screen correctly. This would result in residual images of the character remaining on the screen. To fix the problem, install the latest official release of the Internet Explorer ([https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/internet-explorer/default.aspx)).
 -   There may be a problem with your system's screen drivers or hardware. Make certain you have the latest drivers for your graphic hardware. If the problem still persists, you may want to contact your PC vendor.
 
 ### The character doesn't produce any audio output when it speaks.

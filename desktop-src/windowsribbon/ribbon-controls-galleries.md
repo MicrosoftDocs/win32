@@ -145,17 +145,17 @@ This section describes the set of properties and methods that form the backbone 
 
 Galleries require a basic set of methods to access and manipulate the individual items in their collections.
 
-The [IEnumUnknown](https://go.microsoft.com/fwlink/p/?linkid=147384) interface defines these methods, and the framework supplements their functionality with additional methods that are defined in the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface. **IUICollection** is implemented by the framework for each gallery declaration in the Ribbon markup.
+The [IEnumUnknown](https://msdn.microsoft.com/library/ms683764.aspx) interface defines these methods, and the framework supplements their functionality with additional methods that are defined in the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface. **IUICollection** is implemented by the framework for each gallery declaration in the Ribbon markup.
 
-If additional functionality is required that is not provided by the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface, then a custom collection object that is implemented by the host application and derived from [IEnumUnknown](https://go.microsoft.com/fwlink/p/?linkid=147384) can be substituted for the framework collection.
+If additional functionality is required that is not provided by the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface, then a custom collection object that is implemented by the host application and derived from [IEnumUnknown](https://msdn.microsoft.com/library/ms683764.aspx) can be substituted for the framework collection.
 
 ### IUICollectionChangedEvent
 
 For an application to respond to changes in a gallery collection, it must implement the [**IUICollectionChangedEvent**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent) interface. Applications can subscribe to notifications from an [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object through the [**IUICollectionChangedEvent::OnChanged**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged) event listener.
 
-When the application replaces the gallery collection provided by the framework with a custom collection, the application should implement the [IConnectionPointContainer](https://go.microsoft.com/fwlink/p/?linkid=144035) interface. If [IConnectionPointContainer](https://go.microsoft.com/fwlink/p/?linkid=144035) is not implemented, then the application is unable to notify the framework of changes in the custom collection that require dynamic updates to the gallery control.
+When the application replaces the gallery collection provided by the framework with a custom collection, the application should implement the [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857.aspx) interface. If [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857.aspx) is not implemented, then the application is unable to notify the framework of changes in the custom collection that require dynamic updates to the gallery control.
 
-In those cases where [IConnectionPointContainer](https://go.microsoft.com/fwlink/p/?linkid=144035) is not implemented, the gallery control can be updated only by invalidation through [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) and [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty), or by calling [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).
+In those cases where [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857.aspx) is not implemented, the gallery control can be updated only by invalidation through [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) and [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty), or by calling [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).
 
 ### IUISimplePropertySet
 
@@ -865,10 +865,10 @@ HRESULT CQATHandler::OnCollectionChanged(
 [Understanding Commands and Controls](windowsribbon-commandscontrols.md)
 </dt> <dt>
 
-[Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233)
+[Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx)
 </dt> <dt>
 
-[Ribbon Design Process](https://go.microsoft.com/fwlink/p/?linkid=129234)
+[Ribbon Design Process](https://msdn.microsoft.com/library/cc872781.aspx)
 </dt> <dt>
 
 [Gallery Sample](windowsribbon-gallerysample.md)

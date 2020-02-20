@@ -40,7 +40,7 @@ For Windows Vista, end-users obtain the Platform Update for Windows Vista from W
 
 ## Additional resources
 
-[Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://go.microsoft.com/fwlink/p/?linkid=160189)
+[Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644)
 
  
 

@@ -35,15 +35,15 @@ Applications must be designed so that users can complete the desired task withou
 
 ## Resources
 
--   [Input Method Manager Interfaces](https://go.microsoft.com/fwlink/p/?LinkId=325304)
--   [IFECommon](https://go.microsoft.com/fwlink/p/?LinkId=325305)
--   [IFECommon interface](https://go.microsoft.com/fwlink/p/?LinkId=325305)
--   [IFEDictionary interface](https://go.microsoft.com/fwlink/p/?LinkId=325308)
--   [IFELanguage](https://go.microsoft.com/fwlink/p/?LinkId=325309)
--   [IImePad](https://go.microsoft.com/fwlink/p/?LinkId=325310)
--   [IImePadApplet](https://go.microsoft.com/fwlink/p/?LinkId=325311)
--   [IimePlugInDictDictionaryList](https://go.microsoft.com/fwlink/p/?LinkId=325312)
--   [IImeSpecifyApplets](https://go.microsoft.com/fwlink/p/?LinkId=325313)
+-   [Input Method Manager Interfaces](https://msdn.microsoft.com/library/windows/desktop/hh851805(v=vs.85).aspx)
+-   [IFECommon](https://msdn.microsoft.com/library/windows/desktop/hh851760(v=vs.85).aspx)
+-   [IFECommon interface](https://msdn.microsoft.com/library/windows/desktop/hh851760(v=vs.85).aspx)
+-   [IFEDictionary interface](https://msdn.microsoft.com/library/windows/desktop/hh851765(v=vs.85).aspx)
+-   [IFELanguage](https://msdn.microsoft.com/library/windows/desktop/hh851778(v=vs.85).aspx)
+-   [IImePad](https://msdn.microsoft.com/library/windows/desktop/hh851784(v=vs.85).aspx)
+-   [IImePadApplet](https://msdn.microsoft.com/library/windows/desktop/hh851785(v=vs.85).aspx)
+-   [IimePlugInDictDictionaryList](https://msdn.microsoft.com/library/windows/desktop/hh851792(v=vs.85).aspx)
+-   [IImeSpecifyApplets](https://msdn.microsoft.com/library/windows/desktop/hh851795(v=vs.85).aspx)
 
  
 

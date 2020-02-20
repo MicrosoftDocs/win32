@@ -40,7 +40,7 @@ This handle is valid only within the current process and should not be passed cr
 
 When the application no longer requires this handle, the application must call **CloseTouchInputHandle** to free the process memory associated with this handle. Failing to do so can result in an application memory leak.
 
-Note that the touch input handle in this parameter is no longer valid after the message has been passed to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637). [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637) will close and invalidate this handle.
+Note that the touch input handle in this parameter is no longer valid after the message has been passed to [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx). [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx) will close and invalidate this handle.
 
 Note also that the touch input handle in this parameter is no longer valid after the message has been forwarded using [**PostMessage**](sendmessage--postmessage--and-related-functions.md), **SendMessage**, or one of their variants. These functions will close and invalidate this handle.
 
@@ -50,7 +50,7 @@ Note also that the touch input handle in this parameter is no longer valid after
 
 If an application processes this message, it should return zero.
 
-If the application does not process the message, it must call [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637). Not doing so causes the application to leak memory because the touch input handle is not closed and associated process memory is not freed.
+If the application does not process the message, it must call [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx). Not doing so causes the application to leak memory because the touch input handle is not closed and associated process memory is not freed.
 
 ## Remarks
 

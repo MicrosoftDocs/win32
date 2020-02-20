@@ -36,7 +36,7 @@ Verify that the .NET classes your code uses is included in Server Core. Also tes
 ## Links to Other Resources
 
 -   [Server Core](https://msdn.microsoft.com/library/ms723891(v=VS.85).aspx)
--   [Server Core Blog](https://go.microsoft.com/fwlink/p/?linkid=161428)
+-   [Server Core Blog](https://blogs.technet.com/server_core/archive/2008/11/25/net-2-0-and-server-core-in-windows-server-2008-r2.aspx)
 -   *See also* the Server Core section of the *Windows Server 2008 R2 SDK* when it becomes available
 
 > [!Note]  

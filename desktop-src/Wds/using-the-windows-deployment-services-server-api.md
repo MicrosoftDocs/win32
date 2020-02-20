@@ -16,7 +16,7 @@ In environments where the standard Windows Deployment Services (WDS) solution ca
 
 -   Windows Deployment Services (WDS) is the revised version of Remote Installation Services (RIS), you will need the WDS server role to implement the WDS PXE server and providers.
 -   WDS replaces RIS as the standard component starting with Windows Server 2008 and Windows Server 2003 with Service Pack 2 (SP2).
--   You must update the RIS server to WDS on Windows Server 2003 with Service Pack 1 (SP1). You can install the WDS server role with the [Windows Automated Installation Kit (WAIK)](https://go.microsoft.com/fwlink/p/?linkid=53552).
+-   You must update the RIS server to WDS on Windows Server 2003 with Service Pack 1 (SP1). You can install the WDS server role with the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=c7d4bc6d-15f3-4284-9123-679830d629f2&DisplayLang=en).
 
 ## Register Providers
 

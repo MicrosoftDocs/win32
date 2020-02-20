@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Calling the DbgHelp Library
 
-Although DbgHelp.dll ships with all versions of Windows, callers should consider using one of the more recent versions of this DLL as found in the [Debugging Tools For Windows](https://go.microsoft.com/fwlink/p/?linkid=84137) package. For details on distribution of DbgHelp, see [DbgHelp Versions](dbghelp-versions.md).
+Although DbgHelp.dll ships with all versions of Windows, callers should consider using one of the more recent versions of this DLL as found in the [Debugging Tools For Windows](https://www.microsoft.com/?ref=go) package. For details on distribution of DbgHelp, see [DbgHelp Versions](dbghelp-versions.md).
 
-When using DbgHelp, the best strategy is to install a copy of the library from the [Debugging Tools For Windows](https://go.microsoft.com/fwlink/p/?linkid=84137) package in the application directory logically adjacent to the software that calls it. If Symbol Server and Source Server are also needed, then both SymSrv.dll and SrcSrv.dll must be installed in the same directory as DbgHelp.dll, as DbgHelp will only call these DLLs if they share the same directory with it. (Note that DbgHelp will not call these two DLLs from the standard search path.) This helps prevent the usage of mismatched DLLs; likewise, it also improves security overall.
+When using DbgHelp, the best strategy is to install a copy of the library from the [Debugging Tools For Windows](https://www.microsoft.com/?ref=go) package in the application directory logically adjacent to the software that calls it. If Symbol Server and Source Server are also needed, then both SymSrv.dll and SrcSrv.dll must be installed in the same directory as DbgHelp.dll, as DbgHelp will only call these DLLs if they share the same directory with it. (Note that DbgHelp will not call these two DLLs from the standard search path.) This helps prevent the usage of mismatched DLLs; likewise, it also improves security overall.
 
 The following code is extracted from the DbgHelp source. It shows how DbgHelp only loads versions of SymSrv.dll and SrcSrv.dll from the same directory that DbgHelp.dll resides in.
 

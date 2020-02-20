@@ -134,7 +134,7 @@ Before discussing standards, let's first discuss what exactly these standards ar
 
 If your application falls into a specific niche, then it may fare better to follow a different set of standards. For example, if your application supports, application or an add-on for, Office OneNote 2003, it is wise to follow the styles of UI and interactivity standards of Office—and OneNote itself, in particular. This includes using the Office-style command bars instead of the standard toolbars, and other such things— both visual and behavioral. If your application is to be part of the Microsoft Visual Studio .NET category, then you have a separate set of standards. In fact, for such add-on or support applications, companies such as Microsoft do release written guidelines. Also note that sometimes graphics and design concepts are protected intellectual properties. Always check the proper documentation to make sure you have the license to create such designs.
 
-A third example of standards would be the Tablet PC environment. These standards cross the boundaries between operating system guidelines and application guidelines. The [Tablet PC SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=192275) contains some very helpful information in the "Planning Your Application" topic. In contrast to theOffice 2003 or Visual Studio guidelines, these design recommendations directly affect how the user will interact with your application and how it should behave in turn. For instance, if you have docking windows in your application, the documentation recommends that you make sure it can detect when the screen orientation is changed, and that the docking windows properly reorganize themselves in a portrait or landscape orientation as needed. Even if you are not designing your application to be Tablet-specific, you should go over these guidelines.
+A third example of standards would be the Tablet PC environment. These standards cross the boundaries between operating system guidelines and application guidelines. The [Tablet PC SDK documentation](https://msdn.microsoft.com/library/ms840465.aspx) contains some very helpful information in the "Planning Your Application" topic. In contrast to theOffice 2003 or Visual Studio guidelines, these design recommendations directly affect how the user will interact with your application and how it should behave in turn. For instance, if you have docking windows in your application, the documentation recommends that you make sure it can detect when the screen orientation is changed, and that the docking windows properly reorganize themselves in a portrait or landscape orientation as needed. Even if you are not designing your application to be Tablet-specific, you should go over these guidelines.
 
 With the rise of Smart Clients, applications are now crossing the boundaries between different hardware—normal PCs, Tablet PCs, Mobile or Ultra Mobile Devices, Media Center PCs, and so on. Each situation calls for a different (or additional) set of standards to be followed.
 
@@ -168,7 +168,7 @@ In the same **System Properties** applet, each tab has multiple GroupBoxes with 
 
 Choosing the right icon is also important. Microsoft provides many standard graphics as part of Visual Studio 2005. These would be the best choice. If you create your own icons, it is highly recommended that you follow the operating system-level or application-level standards for these graphics as mentioned in the [Use Standards](#use-standards) section above.
 
-The [Windows User Experience Interaction Guidelines](https://go.microsoft.com/fwlink/p/?linkid=184016) contains a very helpful guide for creating Windows style [icons](https://go.microsoft.com/fwlink/p/?linkid=192279).
+The [Windows User Experience Interaction Guidelines](https://msdn.microsoft.com/library/aa511258.aspx) contains a very helpful guide for creating Windows style [icons](https://msdn.microsoft.com/library/aa511280.aspx).
 
 ### Simplify Recognition with Headers
 
@@ -282,7 +282,7 @@ Wizards are also a good way to help set up the initial configuration of your app
 
 ### Get the Tone of Your Text Right
 
-In the [Windows User Experience Interaction Guidelines](https://go.microsoft.com/fwlink/p/?linkid=184016), a very important point has been made about "Text Tone". This is the impression and feeling given by the text in your application. This can be anything from a simple tooltip, to an instruction label control.
+In the [Windows User Experience Interaction Guidelines](https://msdn.microsoft.com/library/aa511258.aspx), a very important point has been made about "Text Tone". This is the impression and feeling given by the text in your application. This can be anything from a simple tooltip, to an instruction label control.
 
 Earlier we discussed the change of text in the Webcam option in MSN Messenger. That is called proper text tone. When dealing with non-technical or novice users, getting the message across takes on a different aspect.
 
@@ -290,7 +290,7 @@ If you write "Destination Path" above a text box in a self-extracting applicatio
 
 Providing a clear description of what you want the user to do also lessens the need for Help files, or at least lessens the details you need to include in Help files.
 
-A very good suggestion from the [Windows User Experience Interaction Guidelines](https://go.microsoft.com/fwlink/p/?linkid=184016) applies to any software. It states that the writer should keep the text conversational. The Guidelines defines this as, "Avoid words you wouldn't say to someone else in person."
+A very good suggestion from the [Windows User Experience Interaction Guidelines](https://msdn.microsoft.com/library/aa511258.aspx) applies to any software. It states that the writer should keep the text conversational. The Guidelines defines this as, "Avoid words you wouldn't say to someone else in person."
 
 A few tips for writing text:
 
@@ -320,7 +320,7 @@ The fine points of the ListView control:
 
 "Sub-navigation" is the key to complex UI. Sometimes you can't escape having a complicated UI. The best thing to do in such a situation is to make the experience as easy as possible for the user. A sidebar consisting of link labels, or a TreeView for hierarchy-based navigation, suggests a sibling level navigation for the current dialog's task. It makes it very easy for the user to jump between steps of the process while knowing where he or she is.
 
-If you go for a hierarchy-based navigation with TreeViews or other similarly complex navigation, a good utility for the user would be a breadcrumb control. While Visual Studio does not ship with a built-in control for this yet, see [Creating A Breadcrumb Control](https://go.microsoft.com/fwlink/p/?linkid=192282) for information on creating one yourself. A breadcrumb control makes it easy to find the current location in relation to the hierarchy.
+If you go for a hierarchy-based navigation with TreeViews or other similarly complex navigation, a good utility for the user would be a breadcrumb control. While Visual Studio does not ship with a built-in control for this yet, see [Creating A Breadcrumb Control](https://msdn.microsoft.com/magazine/cc163764.aspx) for information on creating one yourself. A breadcrumb control makes it easy to find the current location in relation to the hierarchy.
 
 Breadcrumb navigation can be easily merged into the header if the form has one. See the previous section on [headers](#simplify-recognition-with-headers).
 

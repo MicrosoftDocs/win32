@@ -12,7 +12,7 @@ Microsoft Media Foundation is the next generation multimedia platform for Window
 
 Media Foundation requires Windows Vista or later. It uses the component object model (COM) and requires C/C++. Microsoft does not provide a managed API for Media Foundation.
 
-The Media Foundation APIs are part of the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787). To develop a Media Foundation application, install the latest version of the Windows SDK.
+The Media Foundation APIs are part of the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx). To develop a Media Foundation application, install the latest version of the Windows SDK.
 
 ## Audio and Video Quality
 

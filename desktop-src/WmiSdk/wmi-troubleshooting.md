@@ -24,7 +24,7 @@ The WMI diagnosis Utility (WMIDiag.exe) is no longer supported starting with Win
 
 If WMI returns error messages, be aware that they may not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system and emerge as errors through WMI. Under any circumstances, do not delete the WMI repository as a first action because deleting the repository can cause damage to the system or to installed applications.
 
-To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](https://go.microsoft.com/fwlink/p/?linkid=84435) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility at the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=84419).
+To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility at the [Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
 
 Provider writers may also encounter debugging issues unless you are writing a [*decoupled provider*](gloss-d.md). For more information, see [Debugging Providers](debugging-providers.md).
 

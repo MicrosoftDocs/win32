@@ -39,7 +39,7 @@ When using [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desk
 
 ## ratStrippedUserName
 
-The **ratStrippedUserName** is the user's identity after "realm stripping." For more information on realm stripping, see the [Realm names](https://go.microsoft.com/fwlink/p/?linkid=102153) topic on http:\\\\technet2.microsoft.com.
+The **ratStrippedUserName** is the user's identity after "realm stripping." For more information on realm stripping, see the [Realm names](https://technet.microsoft.com/library/6e5ce48d-e662-435c-a74e-0dce305914ce) topic on http:\\\\technet2.microsoft.com.
 
 This attribute may be present at the Authentication Extension DLL plug-in point, the Authorization Extension DLL plug-in point, or both. This attribute is guaranteed to have the format:
 

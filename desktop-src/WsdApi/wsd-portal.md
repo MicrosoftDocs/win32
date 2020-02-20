@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS). WSDAPI uses [WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) for device discovery.
+The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the [Devices Profile for Web Services](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS). WSDAPI uses [WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf) for device discovery.
 
 WSDAPI may be used for the development of both client and service implementations.
 
@@ -44,7 +44,7 @@ Client applications that use WSDAPI are supported starting with Windows Vista an
 
 <dl> <dt>
 
-[Dan Driscoll's Blog](https://go.microsoft.com/fwlink/p/?linkid=106491)
+[Dan Driscoll's Blog](https://blogs.msdn.com/dandris/)
 </dt> </dl>
 
  

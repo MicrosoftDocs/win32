@@ -37,13 +37,13 @@ All file systems supported by Windows have the following storage components:
 
 <dl> <dt>
 
-[FAT Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89461)
+[FAT Technical Reference](https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9)
 </dt> <dt>
 
-[File Systems Technologies](https://go.microsoft.com/fwlink/p/?linkid=89392)
+[File Systems Technologies](https://technet.microsoft.com/library/58bb0cab-2cb8-4d1d-97f9-c94e30514089)
 </dt> <dt>
 
-[NTFS Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89389)
+[NTFS Technical Reference](https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4)
 </dt> </dl>
 
  

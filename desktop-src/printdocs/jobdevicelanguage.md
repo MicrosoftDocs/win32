@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobDeviceLanguage
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Describes the device languages supported for sending data from driver to physical device. This is often called "Page Description Language". This keyword defines what page description language is supported by the driver and physical device.
 
@@ -65,7 +65,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                                 | Data type         | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                      |
 |--------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_OptionName\_<br/>            | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
+| \_OptionName\_<br/>            | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
 | \_IdentityOptionValue\_<br/>   | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/> |
 | \_LanguageLevelValue\_<br/>    | string<br/> | n/a<br/>        | None.<br/>                                                                                                                                                                      | Specifies the language level (for example, PS Level 2).<br/>           |
 | \_LanguageEncodingValue\_<br/> | string<br/> | n/a<br/>        | None.<br/>                                                                                                                                                                      | Specifies the language encoding (for example, ISOLatin1).<br/>         |
@@ -319,7 +319,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

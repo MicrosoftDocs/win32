@@ -186,7 +186,7 @@ Examples include high-capacity packet satellite links, high-speed wireless links
 The TCP header uses a 16-bit data field (the Window field in the TCP packet header) to report the receive window size to the sender.
 Therefore, the largest window that can be used is 65,535 bytes.
 To circumvent this limitation a TCP extension option, TCP Window Scale, was added for high-performance TCP to allow windows larger than 65,535 bytes.
-The TCP Window Scale option (WSopt) is defined in RFC 1323 available at the [IETF website](https://go.microsoft.com/fwlink/p/?linkid=84405).
+The TCP Window Scale option (WSopt) is defined in RFC 1323 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt).
 The WSopt extension expands the definition of the TCP window to 32 bits using a one-byte logarithmic scale factor to extend the 16-bit Window field in the TCP header.
 The WSopt extension defines an implicit scale factor (2 to some power), which is used to multiply the window size value found in a TCP header to obtain the true window size.
 So a window scale factor of 8 would result in a true window size equal to the value in the Window field in the TCP header multiplied by 2^8 or 256.

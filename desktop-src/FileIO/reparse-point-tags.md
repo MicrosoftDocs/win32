@@ -64,7 +64,7 @@ The following are Microsoft's predefined reparse tag values; they are defined in
 -   **IO\_REPARSE\_TAG\_SYMLINK**
 -   **IO\_REPARSE\_TAG\_WIM**
 
-To ensure uniqueness of tags, Microsoft provides a mechanism to distribute new tags. For more information, see the [Installable File System (IFS) Kit](https://go.microsoft.com/fwlink/p/?linkid=84079).
+To ensure uniqueness of tags, Microsoft provides a mechanism to distribute new tags. For more information, see the [Installable File System (IFS) Kit](https://www.microsoft.com/whdc/devtools/ifskit/reparse.mspx).
 
  
 

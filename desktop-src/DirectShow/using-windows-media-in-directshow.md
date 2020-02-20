@@ -32,7 +32,7 @@ To get the latest version of QASF, always download the latest Windows Media Form
 
 In Windows XP Service Pack 1 and earlier, the default source filter for ASF files (.asf, .wmv, and .wma file extensions) is the obsolete [Windows Media Source Filter](windows-media-source-filter.md). This behavior was maintained to ensure backward compatibility with applications that used the Windows Media Player 6.4. New applications should use the newer versions of QASF, which make the WM ASF Reader filter the default filter for playing ASF files.
 
-For more information on the Windows Media suite of software development kits, see the [Audio and Video](https://go.microsoft.com/fwlink/p/?linkid=7296) section of the MDSN Library.
+For more information on the Windows Media suite of software development kits, see the [Audio and Video](https://msdn.microsoft.com/library/ee663260(VS.85).aspx) section of the MDSN Library.
 
 This article contains the following topics:
 

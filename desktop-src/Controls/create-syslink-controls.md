@@ -64,7 +64,7 @@ Version 6 of ComCtl32.dll supports Unicode only. Therefore, you cannot create AN
 [Using SysLink Controls](https://docs.microsoft.com/windows/desktop/Controls/using-syslink-controls)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=214295)
+[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
 </dt> </dl>
 
  

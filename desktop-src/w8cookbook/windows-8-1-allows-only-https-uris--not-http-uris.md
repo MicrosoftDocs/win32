@@ -28,13 +28,13 @@ The new restrictions in Windows 8.1 are part of enhanced security restrictions t
 
 ## Manifestations
 
-When running an app built for Windows 8 on Windows 8.1, the use of http URIs in the [ApplicationContentUriRules](https://go.microsoft.com/fwlink/p/?LinkId=325296) is allowed.
+When running an app built for Windows 8 on Windows 8.1, the use of http URIs in the [ApplicationContentUriRules](https://msdn.microsoft.com/library/windows/apps/br211416.aspx) is allowed.
 
 ## Mitigations
 
-We recommend that WWA developers switch from [<iframe>](https://go.microsoft.com/fwlink/p/?LinkId=325297) to the [WebView](https://go.microsoft.com/fwlink/p/?LinkId=325298) control (<x-ms-webview>). However, if you need support for AppCache, IndexedDB, geolocation, or programmatic clipboard access, you will need to continue using <iframe> for Windows 8.1.
+We recommend that WWA developers switch from [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx) to the [WebView](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.webview.aspx) control (<x-ms-webview>). However, if you need support for AppCache, IndexedDB, geolocation, or programmatic clipboard access, you will need to continue using <iframe> for Windows 8.1.
 
-Continued usage of <iframe> for remote content will require a new entry in the ApplicationContentUriRules for the app. Apps with WebView require new entries in the ApplicationContentUriRules if the web content needs to invoke window.external.notify for generating a [ScriptNotify](https://go.microsoft.com/fwlink/p/?LinkId=325299) event. If you do not have Visual Studio, you can update the app manifest by adding the following XML, including wildcards for subdomains (e.g. https://\*.microsoft.com):
+Continued usage of <iframe> for remote content will require a new entry in the ApplicationContentUriRules for the app. Apps with WebView require new entries in the ApplicationContentUriRules if the web content needs to invoke window.external.notify for generating a [ScriptNotify](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.webview.scriptnotify.aspx) event. If you do not have Visual Studio, you can update the app manifest by adding the following XML, including wildcards for subdomains (e.g. https://\*.microsoft.com):
 
 
 ```
@@ -55,10 +55,10 @@ Continued usage of <iframe> for remote content will require a new entry in the A
 
 ## Resources
 
--   [ApplicationContentUriRules](https://go.microsoft.com/fwlink/p/?LinkId=325296)
--   [<iframe> element \| <iframe> object](https://go.microsoft.com/fwlink/p/?LinkId=325297)
--   [Webview class](https://go.microsoft.com/fwlink/p/?LinkId=325298)
--   [WebView.ScriptNotify event](https://go.microsoft.com/fwlink/p/?LinkId=325299)
+-   [ApplicationContentUriRules](https://msdn.microsoft.com/library/windows/apps/br211416.aspx)
+-   [<iframe> element \| <iframe> object](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx)
+-   [Webview class](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.webview.aspx)
+-   [WebView.ScriptNotify event](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.webview.scriptnotify.aspx)
 
  
 

@@ -18,7 +18,7 @@ The Virtual Disk Service (VDS) manages a wide range of storage configurations, f
 
 Beginning with Windows 8 and Windows Server 8, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more information, see the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
 
-For all usages except mirror boot volumes (using a mirror volume to host the operating system ), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more information, see [Storage Spaces Technical Preview](https://go.microsoft.com/fwlink/p/?linkid=246816).
+For all usages except mirror boot volumes (using a mirror volume to host the operating system ), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more information, see [Storage Spaces Technical Preview](https://technet.microsoft.com/library/hh831739.aspx).
 
 Application developers who use the interfaces described in this guide can query and configure a heterogeneous set of vendor-supplied and internally managed storage. VDS hides from applications the complexities associated with storage, making the service both vendor and technology neutral.
 
@@ -34,7 +34,7 @@ VDS is supported on Windows Server 2003, Windows Vista, and later. For informati
 
 Running 32-bit VDS applications under WOW64 is supported, but 64-bit VDS providers must run as native applications on 64-bit Windows versions.
 
-VDS is available in the Microsoft Windows Software Development Kit (SDK). You can install the SDK for Windows 7 and Windows Server 2008 R2 from the [Windows Download Center](https://go.microsoft.com/fwlink/p/?linkid=139812). This version of the Windows SDK can be used to develop VDS applications for Windows Server 2003, Windows Vista, and later. You can also download the [ISO version](https://go.microsoft.com/fwlink/p/?linkid=160664) of the SDK from the Windows Download Center.
+VDS is available in the Microsoft Windows Software Development Kit (SDK). You can install the SDK for Windows 7 and Windows Server 2008 R2 from the [Windows Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=c17ba869-9671-4330-a63e-1fd44e0e2505). This version of the Windows SDK can be used to develop VDS applications for Windows Server 2003, Windows Vista, and later. You can also download the [ISO version](https://www.microsoft.com/downloads/details.aspx?FamilyID=71deb800-c591-4f97-a900-bea146e4fae1) of the SDK from the Windows Download Center.
 
 ## In this section
 

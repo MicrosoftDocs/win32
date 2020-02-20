@@ -218,11 +218,11 @@ To use the **Win32\_EncryptableVolume** methods, the following conditions must b
 -   You must have administrator privileges.
 -   Connection encryption must be able to connect to the provider.
 
-    For more information about creating an encrypted connection, see [Requiring an Encrypted Connection to a Namespace](https://go.microsoft.com/fwlink/p/?linkid=103334).
+    For more information about creating an encrypted connection, see [Requiring an Encrypted Connection to a Namespace](https://msdn.microsoft.com/library/aa393068.aspx).
 
-To enable remote connections, remote WMI traffic must be allowed. For more information about enabling WMI traffic, see [Connecting to WMI Remotely Starting with Vista](https://go.microsoft.com/fwlink/p/?linkid=103324).
+To enable remote connections, remote WMI traffic must be allowed. For more information about enabling WMI traffic, see [Connecting to WMI Remotely Starting with Vista](https://msdn.microsoft.com/library/aa822854.aspx).
 
-The default namespace security setting includes an entry to allow editing by default. For more information about WMI namespace auditing, see [Access to WMI Namespaces](https://go.microsoft.com/fwlink/p/?linkid=103325).
+The default namespace security setting includes an entry to allow editing by default. For more information about WMI namespace auditing, see [Access to WMI Namespaces](https://msdn.microsoft.com/library/aa822575.aspx).
 
 ## Remarks
 

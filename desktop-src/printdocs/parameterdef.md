@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ParameterDef
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 A ParameterDef element defines the valid characteristics of parameter input. The value is entered by means of a ParameterInit element.
 
@@ -118,7 +118,7 @@ The following example sets all of the required Property elements for this parame
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

@@ -28,10 +28,10 @@ At times, it may be necessary to run a service as a console application for debu
 
 <dl> <dt>
 
-[Debugging a Service Application](https://go.microsoft.com/fwlink/p/?linkid=160257)
+[Debugging a Service Application](https://msdn.microsoft.com/library/cc267835.aspx)
 </dt> <dt>
 
-[Debugging Tools for Windows](https://go.microsoft.com/fwlink/p/?linkid=116392)
+[Debugging Tools for Windows](https://msdn.microsoft.com/library/cc267445.aspx)
 </dt> </dl>
 
  

@@ -67,7 +67,7 @@ The constants that begin with SCHED\_S\_ are success constants, and the constant
 
  
 
-For more information about events and error messages, see [Events and Errors Message Center](https://go.microsoft.com/fwlink/p/?linkid=69424).
+For more information about events and error messages, see [Events and Errors Message Center](https://www.microsoft.com/technet/support/ee/ee_advanced.aspx).
 
 <dl> <dt>
 

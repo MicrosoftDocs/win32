@@ -14,7 +14,7 @@ A print ticket is an XPS document component that contains the preferred printer 
 
 Before the printer can use the print ticket, the print ticket must be validated against the printer's characteristics, which are defined in the printer's Print Capabilities. The application performs that validation by calling the Print Ticket API.
 
-The PrintTicket and PrintCapabilities are described by using elements of the Print Schema, which is defined by the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+The PrintTicket and PrintCapabilities are described by using elements of the Print Schema, which is defined by the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 This topic contains information about the following API elements:
 

@@ -46,11 +46,11 @@ The SUA Wizard enables you to follow a guided, step-by-step process by which you
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)
--   [Understanding the Standard User Analyzer Tools](https://go.microsoft.com/fwlink/p/?linkid=205171)
--   [Standard User Analyzer Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=205173)
--   [Testing and Mitigating Issues by Using the Development Tools](https://go.microsoft.com/fwlink/p/?linkid=205676)
--   [Application Compatibility and User Account Control](https://go.microsoft.com/fwlink/p/?linkid=203633)
+-   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
+-   [Understanding the Standard User Analyzer Tools](https://technet.microsoft.com/library/cc838047.aspx)
+-   [Standard User Analyzer Technical Reference](https://technet.microsoft.com/library/cc765948.aspx)
+-   [Testing and Mitigating Issues by Using the Development Tools](https://technet.microsoft.com/pt-pt/library/cc766461(WS.10).aspx)
+-   [Application Compatibility and User Account Control](https://technet.microsoft.com/windows/aa905066.aspx)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.

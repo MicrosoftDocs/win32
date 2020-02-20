@@ -44,7 +44,7 @@ The value CLSID\_DelayMFT is declared in the header file AudioDelayUuids.h in th
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) | Windows 7 |
 
 
 
