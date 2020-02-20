@@ -14,7 +14,7 @@ api_location:
 
 # Setting up a Remote WMI Connection
 
-Connecting to a WMI namespace on a remote computer may require that you change the settings for [Windows Firewall](https://go.microsoft.com/fwlink/p/?linkid=157267), [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84439), DCOM, or Common Information Model Object Manager (CIMOM).
+Connecting to a WMI namespace on a remote computer may require that you change the settings for [Windows Firewall](https://technet.microsoft.com/network/bb545423.aspx), [User Account Control (UAC)](https://technet.microsoft.com/En-US/WindowsVista/aa905108.aspx), DCOM, or Common Information Model Object Manager (CIMOM).
 
 The following sections are discussed in this topic:
 

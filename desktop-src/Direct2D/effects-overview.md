@@ -258,7 +258,7 @@ See [How to apply effects to primitives](how-to-apply-effects-to-primitives.md) 
 
 <dl> <dt>
 
-[Direct2D basic image effects sample](https://go.microsoft.com/fwlink/p/?linkid=256511)
+[Direct2D basic image effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-basic-image-6b4b1a26)
 </dt> <dt>
 
 [Built-in Effects](built-in-effects.md)

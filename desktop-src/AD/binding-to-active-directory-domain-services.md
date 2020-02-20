@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Binding to Active Directory Domain Services
 
-In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) or [DirectoryEntry](https://go.microsoft.com/fwlink/p/?linkid=83868) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
+In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) or [DirectoryEntry](https://msdn.microsoft.com/library/system.directoryservices.directoryentry.aspx) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
 
 ## Binding Functions and Methods
 
@@ -24,7 +24,7 @@ The method for programmatically binding to an Active Directory object will depen
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi)         | [Binding to an ADSI Object](https://docs.microsoft.com/windows/desktop/ADSI/binding-to-an-adsi-object)                    |
 | [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api) | [Establishing an LDAP Session](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session)              |
-| [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN)                 | [Binding to Directory Objects](https://go.microsoft.com/fwlink/p/?linkid=83964) |
+| [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN)                 | [Binding to Directory Objects](https://msdn.microsoft.com/library/ms180840.aspx) |
 
 
 

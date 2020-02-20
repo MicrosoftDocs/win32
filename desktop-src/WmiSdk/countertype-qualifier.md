@@ -19,7 +19,7 @@ api_location:
 
 The **CounterType** qualifier contains the integer value for the property counter type for properties in [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes. The **CookingType** contains the constants for property formula types in [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes.
 
-For more information and a breakdown of counter types by function, see [Counter Types](https://go.microsoft.com/fwlink/p/?linkid=44341).
+For more information and a breakdown of counter types by function, see [Counter Types](https://technet.microsoft.com/library/cc785636(WS.10).aspx).
 
 
 

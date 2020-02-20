@@ -287,7 +287,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>IDataObjectProvider</strong></a><br/></td>
-<td>Provides methods that enable you to set or retrieve a <a href="https://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject interface</strong></a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
+<td>Provides methods that enable you to set or retrieve a <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject interface</strong></a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>IDataTransferManagerInterop</strong></a><br/></td>

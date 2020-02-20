@@ -32,7 +32,7 @@ The WpdServicesApiSample sample application includes the following files:
 
  
 
-In addition to the Windows SDK, you can also download this sample from [Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=166056).
+In addition to the Windows SDK, you can also download this sample from [Code Gallery](https://code.msdn.microsoft.com/WpdServicesApiSample/Release/ProjectReleases.aspx?ReleaseId=3300).
 
 ## Related topics
 

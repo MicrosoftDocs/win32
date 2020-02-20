@@ -70,11 +70,11 @@ The following printed material is available to help you learn more about WMI:
 The following online documentation and examples are available to help you learn to use WMI:
 
 -   The most up-to-date version of WMI SDK documentation is on the MSDN Library. This documentation is located under Win32 and COM Development \| Administration and Management \| Windows Management Instrumentation.
--   [TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
+-   [TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 
     Search by category and task to find short administrative scripts. For example, in the Monitoring category, you can find a script titled "Monitor Available Disk Space".
 
--   [TechNet scripting articles: Tales from the Script](https://go.microsoft.com/fwlink/p/?linkid=84424)
+-   [TechNet scripting articles: Tales from the Script](https://www.microsoft.com/technet/community/columns/scripts/default.mspx)
 
     Articles about topics such as how to run WMI scripts on remote computers or use WMI events. Each article provides examples.
 
@@ -82,23 +82,23 @@ The following online documentation and examples are available to help you learn 
 
     Articles about the basics of WMI administrator scripting. Each article provides examples.
 
-    [WMI Scripting Primer: Part 1](https://go.microsoft.com/fwlink/p/?linkid=84314)
+    [WMI Scripting Primer: Part 1](https://msdn.microsoft.com/library/ms974579.aspx)
 
-    [WMI Scripting Primer: Part 2](https://go.microsoft.com/fwlink/p/?linkid=84315)
+    [WMI Scripting Primer: Part 2](https://msdn.microsoft.com/library/ms974592.aspx)
 
-    [WMI Scripting Primer: Part 3](https://go.microsoft.com/fwlink/p/?linkid=84312)
+    [WMI Scripting Primer: Part 3](https://msdn.microsoft.com/library/ms974547.aspx)
 
 -   WMI Blog
 
-    You can search for posts on WMI at [https://blogs.msdn.com/wmi/default.aspx](https://go.microsoft.com/fwlink/p/?linkid=84294).
+    You can search for posts on WMI at [https://blogs.msdn.com/wmi/default.aspx](https://blogs.msdn.com/wmi/default.aspx).
 
--   [Scripting Guide](https://go.microsoft.com/fwlink/p/?linkid=84421)
+-   [Scripting Guide](https://technet.microsoft.com/library/ee692931.aspx)
 
     A comprehensive overview of the scripting technologies available in the Windows operating systems, including WMI. This Microsoft TechNet website offers hundreds of administrator scripting examples and information about how to modify them for the needs of your system.
 
 ## MSDN Scripting
 
-The Scripting Clinic under [Columns](https://go.microsoft.com/fwlink/p/?linkid=84304) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](https://go.microsoft.com/fwlink/p/?linkid=84313) from Excel data.
+The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519.aspx) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](https://msdn.microsoft.com/library/ms974568.aspx) from Excel data.
 
 ## Downloads
 
@@ -113,7 +113,7 @@ The Scripting Clinic under [Columns](https://go.microsoft.com/fwlink/p/?linkid=8
 
  
 
-CIM\_Studio and other WMI Administrative Tools can be downloaded from [WMI Administrative Tools](https://go.microsoft.com/fwlink/p/?linkid=84420).
+CIM\_Studio and other WMI Administrative Tools can be downloaded from [WMI Administrative Tools](https://www.microsoft.com/downloads/details.aspx?FamilyId=6430F853-1120-48DB-8CC5-F2ABDC3ED314).
 
 The WMI tools include:
 
@@ -143,7 +143,7 @@ The WMI tools include:
 
     You can use the Event Viewer to display the occurrence of WMI events you have configured in the WMI Event Registration.
 
-You can download PowerShell RC1 and documentation at [https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx](https://go.microsoft.com/fwlink/p/?linkid=84436).
+You can download PowerShell RC1 and documentation at [https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx](https://www.microsoft.com/technet/scriptcenter/topics/msh/download.mspx).
 
 > [!Note]  
 > These books and resources may not be available in some languages and countries or regions.

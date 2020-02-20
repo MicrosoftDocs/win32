@@ -13,7 +13,7 @@ Client developers should not rely on the Component Object Model (COM) macros [**
 Client developers must guard against the possibility that some servers return error codes other than the documented values. To be safe, you must ensure that all the output parameters contain valid information and meet the following criteria:
 
 -   All pointers are non-**NULL**.
--   The **vt** member of any [VARIANT](https://go.microsoft.com/fwlink/p/?linkid=127015) structure is not equal to VT\_EMPTY.
+-   The **vt** member of any [VARIANT](https://msdn.microsoft.com/library/ms221627.aspx) structure is not equal to VT\_EMPTY.
 
  
 

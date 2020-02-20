@@ -295,7 +295,7 @@ Connection</id>
                             <p id="CONTROLNOTINSTALLED" class="indent">
                                 <b>Remote Desktop Web Connection ActiveX control is not installed.</b><br>
                                 A connection cannot be made without a working installed version of the control.<br>
-                                Click <a href="https://go.microsoft.com/fwlink/?linkid=56287" target="_blank">here</a>
+                                Click <a href="https://support.microsoft.com/kb/943887/en-us" target="_blank">here</a>
                                 to install the updated Remote Desktop Connection (RDC) client.</p>
                         </div>
                         <div style="display: block" id="csafemsg" name="csafemsg">

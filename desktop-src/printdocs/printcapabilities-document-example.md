@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintCapabilities Document Example
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Notes: The default namespace does not apply to XML Attributes. They must be explicitly prefix-qualified. Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.
 
@@ -505,7 +505,7 @@ Notes: The default namespace does not apply to XML Attributes. They must be expl
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

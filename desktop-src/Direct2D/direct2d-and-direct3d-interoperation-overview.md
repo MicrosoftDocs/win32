@@ -20,7 +20,7 @@ ms.custom: "seodec18"
 
 Hardware accelerated 2-D and 3-D graphics are increasingly becoming a part of non-gaming applications, and most gaming applications use 2-D graphics in the form of menus and Heads-Up Displays (HUDs). There is lots of value that can be added by enabling traditional 2-D rendering to be mixed with Direct3D rendering in an efficient manner.
 
-This topic describes how to integrate 2-D and 3-D graphics by using Direct2D and [Direct3D](https://go.microsoft.com/fwlink/p/?linkid=154846).
+This topic describes how to integrate 2-D and 3-D graphics by using Direct2D and [Direct3D](https://msdn.microsoft.com/library/ee663279(VS.85).aspx).
 
 It contains the following sections.
 
@@ -71,7 +71,7 @@ Regardless of how you create the DXGI surface, the surface must use one of the D
 
 Additionally, the [**ID3D10Device1**](https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1) associated with the DXGI surface must support BGRA DXGI formats for the surface to work with Direct2D. To ensure this support, use the [**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**](https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag when you call the [**D3D10CreateDevice1**](https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1) method to create the device.
 
-The following code defines a method that creates an [**ID3D10Device1**](https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1). It selects the best feature level available and falls back to [Windows Advanced Rasterization Platform (WARP)](https://go.microsoft.com/fwlink/p/?linkid=154849) when hardware rendering is not available.
+The following code defines a method that creates an [**ID3D10Device1**](https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1). It selects the best feature level available and falls back to [Windows Advanced Rasterization Platform (WARP)](https://msdn.microsoft.com/library/windows/desktop/ee794287(v=vs.85).aspx) when hardware rendering is not available.
 
 
 ```C++
@@ -387,7 +387,7 @@ To accommodate this approach, your resize method should test to see whether the 
 [**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx)
 </dt> <dt>
 
-[Windows DirectX Graphics](https://go.microsoft.com/fwlink/p/?linkid=154846)
+[Windows DirectX Graphics](https://msdn.microsoft.com/library/ee663279(VS.85).aspx)
 </dt> </dl>
 
  

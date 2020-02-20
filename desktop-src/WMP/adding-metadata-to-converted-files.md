@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Adding Metadata to Converted Files
 
-Converted files must contain certain metadata to ensure a good user experience. At a minimum, converted files must contain the primary attributes listed in the [Windows Media Metadata Usage Guidelines](https://go.microsoft.com/fwlink/p/?linkid=254041).
+Converted files must contain certain metadata to ensure a good user experience. At a minimum, converted files must contain the primary attributes listed in the [Windows Media Metadata Usage Guidelines](http://blog.yezhucn.com/dnwmt/wm_metadata_usage.htm).
 
 For music files, set the value for **WM/MediaClassPrimaryID** to D1607DBC-E323-4BE2-86A1-48A42A28441E.
 

@@ -67,7 +67,7 @@ Before you install the Windows ACK, you need to install and run the operating sy
 
 **Submit for certification**
 
--   After your app is validated, you're ready to submit it for certification [through the portal submission process](https://go.microsoft.com/fwlink/p/?LinkId=708298).
+-   After your app is validated, you're ready to submit it for certification [through the portal submission process](https://www.microsoft.com/?ref=go).
 
 ## Reference Documents
 

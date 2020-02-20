@@ -171,7 +171,7 @@ Once you have the family name or names in the locale, you can list them for the 
 
 ## Example Code
 
-To see the full source code for this example see the [Font Enumeration Sample](https://go.microsoft.com/fwlink/?LinkId=624679).
+To see the full source code for this example see the [Font Enumeration Sample](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples).
 
  
 

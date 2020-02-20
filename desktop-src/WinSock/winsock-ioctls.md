@@ -363,7 +363,7 @@ For more detailed information, see the [**SIO\_IDEAL\_SEND\_BACKLOG\_QUERY**](ht
 <span id="SIO_KEEPALIVE_VALS__opcode_setting__I__T__3_"></span><span id="sio_keepalive_vals__opcode_setting__i__t__3_"></span><span id="SIO_KEEPALIVE_VALS__OPCODE_SETTING__I__T__3_"></span>SIO\_KEEPALIVE\_VALS (opcode setting: I, T==3)
 </dt> <dd>
 
-Enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. For more information on the keep-alive option, see section 4.2.3.6 on the *Requirements for Internet Hosts—Communication Layers* specified in RFC 1122 available at the [IETF website](https://go.microsoft.com/fwlink/p/?linkid=84405). (This resource may only be available in English.)
+Enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. For more information on the keep-alive option, see section 4.2.3.6 on the *Requirements for Internet Hosts—Communication Layers* specified in RFC 1122 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt). (This resource may only be available in English.)
 
 **SIO\_KEEPALIVE\_VALS** can be used to enable or disable keep-alive probes and set the keep-alive timeout and interval. The keep-alive timeout specifies the timeout, in milliseconds, with no activity until the first keep-alive packet is sent. The keep-alive interval specifies the interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received.
 

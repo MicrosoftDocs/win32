@@ -113,7 +113,7 @@ The value of adding GUIDs for both operating systems in the above example is to 
 
 **Context Mismatch** An application runs in a Windows Vista context instead of in a Windows 7 context on a computer that is running an x64 edition of either Windows 7 or Windows Server 2008 R2.
 
-**Solution** Updates are available to correct this for all supported x64-based versions of Windows 7 and Windows Server 2008 R2, as well as for all supported Itanium-based versions of Windows Server 2008 R2. Go to the Microsoft Support page for [KB 978637: An application runs in a Windows Vista context instead of in a Windows 7 context on a computer that is running an x64 edition of Windows 7 or of Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=205035) for additional details and to download the correct version for your system.
+**Solution** Updates are available to correct this for all supported x64-based versions of Windows 7 and Windows Server 2008 R2, as well as for all supported Itanium-based versions of Windows Server 2008 R2. Go to the Microsoft Support page for [KB 978637: An application runs in a Windows Vista context instead of in a Windows 7 context on a computer that is running an x64 edition of Windows 7 or of Windows Server 2008 R2](https://support.microsoft.com/kb/978637) for additional details and to download the correct version for your system.
 
 **Crash dump diagnosis blocked**
 
@@ -125,7 +125,7 @@ The value of adding GUIDs for both operating systems in the above example is to 
 -   [UAC manifest](https://msdn.microsoft.com/library/Bb756929(v=MSDN.10).aspx)
 -   [Application manifests for Windows applications](https://msdn.microsoft.com/library/Aa374191(v=VS.85).aspx)
 -   [Desktop Window Manager (DWM)](https://msdn.microsoft.com/library/Aa969540(v=VS.85).aspx)
--   [Context Mismatch Update](https://go.microsoft.com/fwlink/p/?linkid=205035)
+-   [Context Mismatch Update](https://support.microsoft.com/kb/978637)
 
  
 

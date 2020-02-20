@@ -45,7 +45,7 @@ Certain coding and design practices can limit the number of leaks in your code.
 
 -   Use smart pointers in C++ code both for heap allocations as well as for Win32 resources like kernel **HANDLE**s. The C++ Standard library provides the **auto\_ptr** class for heap allocations. For other allocation types you will need to write your own classes. The ATL library provides a rich set of classes for automatic resource management for both heap objects and kernel handles
 -   Use compiler intrinsic features like **\_com\_ptr\_t** to encapsulate your COM interface pointers into "smart pointers" and assist with reference counting. There are similar classes for other COM data types: **\_bstr\_t** and **\_variant\_t**
--   Monitor your .NET code unusual memory usage. Managed code is not immune to memory leaks. See ["Tracking down managed memory leaks"](https://go.microsoft.com/fwlink/p/?linkid=205152) on how to find GC leaks
+-   Monitor your .NET code unusual memory usage. Managed code is not immune to memory leaks. See ["Tracking down managed memory leaks"](https://blogs.msdn.com/ricom/archive/2004/12/10/279612.aspx) on how to find GC leaks
 -   Be aware of leak patterns in web client-side code. Circular references between COM objects and scripting engines like JScript can cause large leaks in web applications. ["Understanding and Solving Internet Explorer Leak Patterns"](https://msdn.microsoft.com/library/ms976398(v=MSDN.10).aspx) has more information on these kinds of leaks. You can use the JavaScript Memory Leak Detector to debug memory leaks in your code. While Windows Internet Explorer 8, which is shipping with Windows 7, mitigates most of these issues, older browsers are still vulnerable to these bugs
 -   Avoid using multiple exit paths from a function. Allocations assigned to variables at function scope should be freed in one particular block at the end of the function
 -   Do not use exceptions in your code without freeing all local variables in functions. If you use native exceptions, free all your allocations inside the \_\_finally block. If you use C++ exceptions, all your heap and handle allocations need to be wrapped in smart pointers
@@ -68,7 +68,7 @@ Certain coding and design practices can limit the number of leaks in your code.
 -   [Application Verifier](application-verifier.md)
 -   [Debugging Tools for Windows](https://msdn.microsoft.com/library/Ff551063(v=VS.85).aspx)
 -   [User-Mode Dump Heap](https://msdn.microsoft.com/library/Ff558947(v=VS.85).aspx)
--   [Trace Capture, Processing, and Analysis Tool](https://go.microsoft.com/fwlink/p/?linkid=205150)
+-   [Trace Capture, Processing, and Analysis Tool](https://msdn.microsoft.com/performance/cc825801.aspx)
 -   [CRT Debug Heap](https://msdn.microsoft.com/library/974tc9t1(v=VS.71).aspx)
 
 *Additional Links:*
@@ -78,9 +78,9 @@ Certain coding and design practices can limit the number of leaks in your code.
 -   [**\_com\_ptr\_t Object**](https://msdn.microsoft.com/library/417w8b3b(v=VS.71).aspx)
 -   [**\_bstr\_t Class**](https://msdn.microsoft.com/library/zthfhkd6(v=VS.71).aspx)
 -   [**\_variant\_yt Class**](https://msdn.microsoft.com/library/x295h94e(v=VS.71).aspx)
--   ["Tracking down managed memory leaks"](https://go.microsoft.com/fwlink/p/?linkid=205152)
+-   ["Tracking down managed memory leaks"](https://blogs.msdn.com/ricom/archive/2004/12/10/279612.aspx)
 -   ["Understanding and Solving Internet Explorer Leak Patterns"](https://msdn.microsoft.com/library/ms976398(v=MSDN.10).aspx)
--   ["JavaScript Memory Leak Detector"](https://go.microsoft.com/fwlink/p/?linkid=205153)
+-   ["JavaScript Memory Leak Detector"](https://blogs.msdn.com/b/gpde/archive/2008/01/16/new-javascript-memory-leak-detector-from-our-team.aspx)
 -   [Circular Memory Leak Mitigation (in browsers):](https://msdn.microsoft.com/library/Dd361842(v=VS.85).aspx)
 -   [**try-finally statement**](https://msdn.microsoft.com/library/yb3kz605(v=VS.71).aspx)
 -   [**PROPVARIANT Structure**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)

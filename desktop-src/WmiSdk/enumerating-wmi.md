@@ -59,7 +59,7 @@ foreach ($Drive in $objCol)
 
 ## Enumerating WMI Using C# (Microsoft.Management.Infrastructure)
 
-1.  Add a reference to the **Microsoft.Management.Infrastructure** reference assembly. (This assembly ships as part of the [Windows Software Development Kit (SDK) for Windows 8](https://Go.Microsoft.Com/FWLink/p/?LinkID=306595).)
+1.  Add a reference to the **Microsoft.Management.Infrastructure** reference assembly. (This assembly ships as part of the [Windows Software Development Kit (SDK) for Windows 8](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx).)
 2.  Add a **using** statement for the **Microsoft.Management.Infrastructure** namespace.
 
 ```CSharp

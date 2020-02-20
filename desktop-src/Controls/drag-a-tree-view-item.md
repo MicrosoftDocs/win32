@@ -184,7 +184,7 @@ void Main_OnLButtonUp(HWND hwndTV)
 [Using Tree-View Controls](using-treeview.md)
 </dt> <dt>
 
-[CustDTv sample illustrates custom draw in a Tree-View control](https://go.microsoft.com/fwlink/p/?linkid=198348)
+[CustDTv sample illustrates custom draw in a Tree-View control](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
  

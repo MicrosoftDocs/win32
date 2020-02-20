@@ -15,8 +15,8 @@ The precision timer algorithm counter types obtain more accurate readings than s
 
 | CounterType Constant                                                                                         | Description                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| [PERF\_PRECISION\_SYSTEM\_TIMER](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 541525248<br/> | Similar to PERF\_COUNTER\_TIMER except that it uses a counter defined time base instead of the system timestamp.             |
-| [PERF\_PRECISION\_100NS\_TIMER](https://go.microsoft.com/fwlink/p/?linkid=44341)Decimal 542573824<br/>  | Similar to PERF\_100NSEC\_TIMER except that it uses a 100ns counter defined time base instead of the system 100ns timestamp. |
+| [PERF\_PRECISION\_SYSTEM\_TIMER](https://technet.microsoft.com/library/cc785636(WS.10).aspx)Decimal 541525248<br/> | Similar to PERF\_COUNTER\_TIMER except that it uses a counter defined time base instead of the system timestamp.             |
+| [PERF\_PRECISION\_100NS\_TIMER](https://technet.microsoft.com/library/cc785636(WS.10).aspx)Decimal 542573824<br/>  | Similar to PERF\_100NSEC\_TIMER except that it uses a 100ns counter defined time base instead of the system 100ns timestamp. |
 
 
 

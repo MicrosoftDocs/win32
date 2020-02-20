@@ -25,7 +25,7 @@ Multimedia timer services allow applications to schedule timer events with the g
 
 These timer services are useful for applications that demand high-resolution timing. For example, a MIDI sequencer requires a high-resolution timer because it must maintain the pace of MIDI events within a resolution of 1 millisecond.
 
-Applications that do not use high-resolution timing should use the [SetTimer](https://go.microsoft.com/fwlink/p/?linkid=16908) function instead of multimedia timer services. The timer services provided by **SetTimer** post [WM\_TIMER](https://go.microsoft.com/fwlink/p/?linkid=16909) messages to a message queue, while the multimedia timer services call a callback function. Applications that want a waitable timer should use the [CreateWaitableTimer](https://go.microsoft.com/fwlink/p/?linkid=16910) function.
+Applications that do not use high-resolution timing should use the [SetTimer](https://msdn.microsoft.com/library/ms644906.aspx) function instead of multimedia timer services. The timer services provided by **SetTimer** post [WM\_TIMER](https://msdn.microsoft.com/library/ms644902.aspx) messages to a message queue, while the multimedia timer services call a callback function. Applications that want a waitable timer should use the [CreateWaitableTimer](https://msdn.microsoft.com/library/ms682492.aspx) function.
 
  
 

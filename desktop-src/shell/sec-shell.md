@@ -148,16 +148,16 @@ The following table lists some features that can, if used incorrectly, compromis
 
 <dl> <dt>
 
-[Microsoft Security](https://go.microsoft.com/fwlink/p/?linkid=193968)
+[Microsoft Security](https://www.microsoft.com/security/default.aspx)
 </dt> <dt>
 
-[Security Developer Center](https://go.microsoft.com/fwlink/p/?linkid=182493)
+[Security Developer Center](https://msdn.microsoft.com/security/)
 </dt> <dt>
 
-[Microsoft Solution Accelerators](https://go.microsoft.com/fwlink/p/?linkid=190371)
+[Microsoft Solution Accelerators](https://technet.microsoft.com/solutionaccelerators/default.aspx)
 </dt> <dt>
 
-[Security TechCenter](https://go.microsoft.com/fwlink/p/?linkid=181548)
+[Security TechCenter](https://technet.microsoft.com/security/default.aspx)
 </dt> <dt>
 
 [About Strsafe.h](https://msdn.microsoft.com/library/ms647466(v=VS.85).aspx)

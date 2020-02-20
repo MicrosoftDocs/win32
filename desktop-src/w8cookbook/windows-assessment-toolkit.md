@@ -138,15 +138,15 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
 
 <dl> **Video:**
 
--   [Channel9   BUILD ADK Videos](https://go.microsoft.com/fwlink/p/?LinkId=325505)
+-   [Channel9   BUILD ADK Videos](https://channel9.msdn.com/Events/BUILD/BUILD2011?sort=status&direction=asc&term=&t=assessment+and+deployment+kit)
 
   
 **Documentation:**
 
--   [Windows Assessment and Deployment Kit](https://go.microsoft.com/fwlink/p/?LinkId=325506)
--   [Windows Assessment Toolkit Technical Reference](https://go.microsoft.com/fwlink/p/?LinkId=325507)
--   [Assessment Execution Engine](https://go.microsoft.com/fwlink/p/?LinkId=325508)
--   [Windows Performance Analysis](https://go.microsoft.com/fwlink/p/?linkid=147307)
+-   [Windows Assessment and Deployment Kit](https://msdn.microsoft.com/library/windows/hardware/hh825420.aspx)
+-   [Windows Assessment Toolkit Technical Reference](https://msdn.microsoft.com/library/windows/hardware/hh825508.aspx)
+-   [Assessment Execution Engine](https://msdn.microsoft.com/library/windows/desktop/hh437709(v=VS.85).aspx)
+-   [Windows Performance Analysis](https://msdn.microsoft.com/performance/default.aspx)
 
   
 </dl>

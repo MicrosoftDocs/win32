@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Option
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 An Option element contains all of the Property and ScoredProperty elements associated with this option.
 
@@ -69,7 +69,7 @@ The following example defines a name for the Option.
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

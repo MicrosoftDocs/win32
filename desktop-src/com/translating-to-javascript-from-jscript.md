@@ -12,7 +12,7 @@ JScript is largely compatible with JavaScript. However, JScript includes some ob
 
 JScript version 5.0 supports exception handling through **try**...**catch** statements. JavaScript does not currently provide an error-handing mechanism.
 
-When working with either JScript or JavaScript, there are some subtle differences between the object model implementations supported by various Web browsers. To write script that runs on both Internet Explorer and Netscape Navigator, limit the features used by your scripts to those specified in the World Wide Web Consortium (W3C) [standard for HTML version 3.2](https://go.microsoft.com/fwlink/p/?linkid=103684).
+When working with either JScript or JavaScript, there are some subtle differences between the object model implementations supported by various Web browsers. To write script that runs on both Internet Explorer and Netscape Navigator, limit the features used by your scripts to those specified in the World Wide Web Consortium (W3C) [standard for HTML version 3.2](https://www.w3.org/tr/rec-html32.html).
 
 ## Related topics
 

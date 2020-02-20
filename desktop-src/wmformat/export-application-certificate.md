@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 To export Windows Media DRM protected content, you must obtain a Windows Media DRM Export Application Certificate, which you receive after entering into the DRM Export agreement with Microsoft.
 
-For information on how to obtain a Windows Media DRM Export Application Certificate, visit [Licensing Windows-based Applications That Support Windows Media DRM](https://go.microsoft.com/fwlink/p/?linkid=67112).
+For information on how to obtain a Windows Media DRM Export Application Certificate, visit [Licensing Windows-based Applications That Support Windows Media DRM](https://www.microsoft.com/windows/windowsmedia/licensing/Licensing_DRM_Apps.aspx).
 
 ## Related topics
 

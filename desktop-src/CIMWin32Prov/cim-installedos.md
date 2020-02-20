@@ -24,7 +24,7 @@ api_location:
 The **CIM\_InstalledOS** association class represents a link between the computer system and the installed operating system. An operating system is installed when it is in a computer system's storage extent (for example, copied to a disk drive or downloaded to memory).
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

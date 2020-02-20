@@ -88,7 +88,7 @@ BITS version 5.0 is also included in Windows 10, where the version of %windir%\S
 <li>Added the <a href="bits-compact-server.md">BITS Compact Server</a>, which is a stand-alone HTTP/HTTPS file server that provides the ability to transfer a limited number of large files asynchronously between computers.</li>
 <li>Added more granular bandwidth throttling. For more information, see <a href="group-policies.md">Group Policies</a>.</li>
 </ul>
-BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operating systems.<br/> You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see <a href="https://go.microsoft.com/fwlink/p/?linkid=151321">KB968929</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;7.5.xxxx.xxxx&quot;.<br/></td>
+BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operating systems.<br/> You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see <a href="https://support.microsoft.com/kb/968929">KB968929</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;7.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 3.0</td>
@@ -111,15 +111,15 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="odd">
 <td>Version 2.5</td>
-<td>Added support for custom HTTP headers, certificate-based client authentication for secure HTTP transports, and IPv6. Also added the use of Internet gateway device (IGD) counters to more accurately calculate available <a href="network-bandwidth.md">bandwidth</a>.<br/> The BITS 2.5 features are available in the Windows Server 2008, Windows Vista, and Windows XP with Service Pack 3 (SP3) operating systems. <br/> You can also download BITS 2.5 for Windows Server 2003 with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows XP with Service Pack 2 (SP2). To download BITS 2.5, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=93607">Microsoft Download Center</a> and install KB923845.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.7.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for custom HTTP headers, certificate-based client authentication for secure HTTP transports, and IPv6. Also added the use of Internet gateway device (IGD) counters to more accurately calculate available <a href="network-bandwidth.md">bandwidth</a>.<br/> The BITS 2.5 features are available in the Windows Server 2008, Windows Vista, and Windows XP with Service Pack 3 (SP3) operating systems. <br/> You can also download BITS 2.5 for Windows Server 2003 with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows XP with Service Pack 2 (SP2). To download BITS 2.5, go to the <a href="https://www.microsoft.com/downloads/Search.aspx?displaylang=en">Microsoft Download Center</a> and install KB923845.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.7.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 2.0</td>
-<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is now located under Computer Configuration, Administrative Templates, Network, Background Intelligent Transfer Service (BITS).<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=84094">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is now located under Computer Configuration, Administrative Templates, Network, Background Intelligent Transfer Service (BITS).<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=b93356b1-ba43-480f-983d-eb19368f9047">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="odd">
 <td>Version 1.5</td>
-<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="https://go.microsoft.com/fwlink/p/?linkid=166157">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://go.microsoft.com/fwlink/p/?linkid=83468">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
+<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="https://msdn.microsoft.com/library/aa379316.aspx">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/Downloads/">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 1.2</td>
@@ -228,7 +228,7 @@ The following interfaces and topics were added for version 1.5:
  
 ## Updating BITS versions
  
-You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](https://go.microsoft.com/fwlink/p/?linkid=151321).
+You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](https://support.microsoft.com/kb/968929).
 
 
 

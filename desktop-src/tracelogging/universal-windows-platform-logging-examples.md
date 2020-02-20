@@ -12,7 +12,7 @@ This sample shows how to use the Logging APIs in the Windows.Foundation.Diagnost
 
 The LoggingChannel and LoggingActivity APIs have been extended in Windows 10 to support writing complex events using TraceLogging event encoding.
 
-The Universal Windows Platform logging example can downloaded from [GitHub](https://go.microsoft.com/fwlink/?LinkId=733296).
+The Universal Windows Platform logging example can downloaded from [GitHub](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging).
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Listening for Ribbon Events
 
-The Windows Ribbon framework uses the [Event Tracing for Windows (ETW)](https://go.microsoft.com/fwlink/p/?linkid=141498) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
+The Windows Ribbon framework uses the [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
 
 ## Introduction
 
@@ -19,8 +19,8 @@ The Ribbon framework event mechanism is designed such that the framework reports
 
 Using the Ribbon framework events involves the following:
 
-1.  The ribbon application must register an [Event Tracing for Windows (ETW)](https://go.microsoft.com/fwlink/p/?linkid=141498) listener to receive ribbon event notifications from the Ribbon framework.
-2.  The Ribbon framework fires ribbon UI event callbacks at run time, if the application has registered an [Event Tracing for Windows (ETW)](https://go.microsoft.com/fwlink/p/?linkid=141498) listener.
+1.  The ribbon application must register an [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) listener to receive ribbon event notifications from the Ribbon framework.
+2.  The Ribbon framework fires ribbon UI event callbacks at run time, if the application has registered an [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) listener.
 
 ## Supported events
 
@@ -133,10 +133,10 @@ The application is responsible for unpacking this integer to determine which mod
 [Declaring Commands and Controls with Ribbon Markup](https://msdn.microsoft.com/library/Dd316913(v=VS.85).aspx)
 </dt> <dt>
 
-[Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233)
+[Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx)
 </dt> <dt>
 
-[Ribbon Design Process](https://go.microsoft.com/fwlink/p/?linkid=129234)
+[Ribbon Design Process](https://msdn.microsoft.com/library/cc872781.aspx)
 </dt> </dl>
 
  

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Parameterized Options versus Nonparameterized Options
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 PrintCapabilities and PrintTicket providers must correctly handle parameterized Option instances during the PrintTicket validation process. As discussed in [Option Definitions](option-definitions.md), one step performed in PrintTicket validation is to find the Option in the current device's PrintCapabilities document (the candidate Option) that best matches the Option specified in the PrintTicket (the reference Option). When one or both of the Option instances is parameterized, there are three possible cases that must be handled by the device driver defined scoring process: the case where both Option instances are parameterized, and the two cases where one Option is parameterized and the other is not. In the following cases it is assumed that there is a correspondence between the parameterized ScoredProperty instances in the PrintTicket Option and a particular ScoredProperty in the PrintCapabilities Option. If there is no correspondence, the scoring process can treat these ScoredProperty instances in the same way that it treats any other noncorresponding ScoredProperty instances.
 
@@ -32,7 +32,7 @@ It should be emphasized that you make the determination of how closely two Optio
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

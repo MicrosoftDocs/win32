@@ -118,7 +118,7 @@ The size of the effect's output depends on the size of the convolution kernel, t
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D convolve matrix effect sample](https://go.microsoft.com/fwlink/p/?linkid=254045).
+For an example of this effect, download the [Direct2D convolve matrix effect sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-convolve-matrix-a9846184).
 
 ## Requirements
 

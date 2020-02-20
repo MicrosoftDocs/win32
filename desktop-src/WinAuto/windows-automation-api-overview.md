@@ -25,7 +25,7 @@ This section includes the following topics:
 [UI Automation Specification](https://msdn.microsoft.com/library/Dd561923(v=VS.85).aspx)
 </dt> <dt>
 
-[UI Automation Community Promise](https://go.microsoft.com/fwlink/p/?linkid=198405)
+[UI Automation Community Promise](https://msdn.microsoft.com/windows/bb892136.aspx)
 </dt> </dl>
 
  

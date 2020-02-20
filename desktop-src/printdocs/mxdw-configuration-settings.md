@@ -12,7 +12,7 @@ The Microsoft XPS Document Writer (MXDW) enables users to create XPS document fi
 
 ## JobInterleaving
 
-The JobInterleaving setting controls the content interleaving order for the XPS Documents. For information about job interleaving, see the [XML Paper Specification](https://go.microsoft.com/?linkid=8435939). MXDW supports the following two options for this setting:
+The JobInterleaving setting controls the content interleaving order for the XPS Documents. For information about job interleaving, see the [XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816). MXDW supports the following two options for this setting:
 
 -   **Off** - This option disables interleaving so that all data for each content element in the document is contiguous, which improves the efficiency of random access. This option is best for viewing an XPS document.
 -   **On** - This option enables interleaving so that data for each content element is broken up and reordered for more efficient sequential processing. This option is best for web download and printing.
@@ -122,16 +122,16 @@ xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemake
 
 <dl> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> <dt>
 
 [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://go.microsoft.com/fwlink/p/?linkid=70358)
+[XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

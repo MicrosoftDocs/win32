@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enumerating Battery Devices
 
-To enumerate the battery devices on a local computer, use the [SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493) function. The *ClassGuid* parameter is a pointer to **GUID\_DEVCLASS\_BATTERY** (defined in BatClass.h). To enumerate all of the batteries, set the *Enumerator* parameter to **NULL** and set the *Flags* parameter to **DIGCF\_PRESENT** \| **DIGCF\_INTERFACEDEVICE**. To obtain the names of the battery devices, use the [SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492) and [SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494) functions on the data returned. To open a file handle for each of the battery devices, call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function with these names.
+To enumerate the battery devices on a local computer, use the [SetupDiGetClassDevs](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw?redirectedfrom=MSDN) function. The *ClassGuid* parameter is a pointer to **GUID\_DEVCLASS\_BATTERY** (defined in BatClass.h). To enumerate all of the batteries, set the *Enumerator* parameter to **NULL** and set the *Flags* parameter to **DIGCF\_PRESENT** \| **DIGCF\_INTERFACEDEVICE**. To obtain the names of the battery devices, use the [SetupDiEnumDeviceInterfaces](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces?redirectedfrom=MSDN) and [SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx) functions on the data returned. To open a file handle for each of the battery devices, call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function with these names.
 
 The following C++ example shows how to enumerate battery devices on a local computer.
 
@@ -175,13 +175,13 @@ To enumerate the battery devices connected to a remote computer, use the [**Win3
 
 <dl> <dt>
 
-[SetupDiGetClassDevs](https://go.microsoft.com/fwlink/p/?linkid=91493)
+[SetupDiGetClassDevs](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw?redirectedfrom=MSDN)
 </dt> <dt>
 
-[SetupDiEnumDeviceInterfaces](https://go.microsoft.com/fwlink/p/?linkid=91492)
+[SetupDiEnumDeviceInterfaces](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces?redirectedfrom=MSDN)
 </dt> <dt>
 
-[SetupDiGetDeviceInterfaceDetail](https://go.microsoft.com/fwlink/p/?linkid=91494)
+[SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx)
 </dt> <dt>
 
 [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md)

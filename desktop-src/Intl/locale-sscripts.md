@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LOCALE\_SSCRIPTS
 
-**Windows Vista and later:** A string representing a list of scripts, using the 4-character notation used in [ISO 15924](https://go.microsoft.com/fwlink/p/?linkid=161644). Each script name consists of four Latin characters and the list is arranged in alphabetical order with each name, including the last, followed by a semicolon.
+**Windows Vista and later:** A string representing a list of scripts, using the 4-character notation used in [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html). Each script name consists of four Latin characters and the list is arranged in alphabetical order with each name, including the last, followed by a semicolon.
 
 [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) or [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) can be called with *LCType* set to LOCALE\_SSCRIPTS as part of a strategy to mitigate security issues related to Internationalized Domain Names (IDNs). Here are some example values:
 

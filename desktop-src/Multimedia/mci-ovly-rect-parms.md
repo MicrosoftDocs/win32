@@ -46,7 +46,7 @@ The low-order word specifies a window handle used for the MCI\_NOTIFY flag.
 **rc**
 </dt> <dd>
 
-Rectangle containing positioning information. [RECT](https://go.microsoft.com/fwlink/p/?linkid=16998) structures are handled differently in MCI than in other parts of Windows; in MCI, **rc.right** contains the width of the rectangle and **rc.bottom** contains its height.
+Rectangle containing positioning information. [RECT](https://msdn.microsoft.com/library/ms536136.aspx) structures are handled differently in MCI than in other parts of Windows; in MCI, **rc.right** contains the width of the rectangle and **rc.bottom** contains its height.
 
 </dd> </dl>
 
@@ -85,7 +85,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
 </dt> <dt>
 
-[RECT](https://go.microsoft.com/fwlink/p/?linkid=16998)
+[RECT](https://msdn.microsoft.com/library/ms536136.aspx)
 </dt> </dl>
 
  

@@ -19,7 +19,7 @@ Winsock tracing is a troubleshooting feature that can be enabled in retail binar
 
 When an unexpected error occurs on a socket, the main clue to diagnose the problem is the error code returned. Very often, the returned error code does not explain why the error happened, especially when the error is initiated by the underlying network transport. Winsock tracing provides a more verbose tracing level which can log additional information to catch buffer corruption and poorly written applications.
 
-Winsock tracing uses Event Tracing for Windows (ETW), a general-purpose, high-speed tracing facility provided by the operating system. Using a buffering and logging mechanism implemented in the kernel, ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers. Additionally, ETW gives you the ability to enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts. The logging mechanism uses buffers that are written to disk by an asynchronous writer thread. This allows large-scale server applications to write events with minimum disturbance. ETW was first introduced on Windows 2000. Support for Winsock tracing using ETW was added on Windows Vista and later. For general information on ETW, see [Improve Debugging And Performance Tuning With ETW](https://go.microsoft.com/fwlink/p/?linkid=103737).
+Winsock tracing uses Event Tracing for Windows (ETW), a general-purpose, high-speed tracing facility provided by the operating system. Using a buffering and logging mechanism implemented in the kernel, ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers. Additionally, ETW gives you the ability to enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts. The logging mechanism uses buffers that are written to disk by an asynchronous writer thread. This allows large-scale server applications to write events with minimum disturbance. ETW was first introduced on Windows 2000. Support for Winsock tracing using ETW was added on Windows Vista and later. For general information on ETW, see [Improve Debugging And Performance Tuning With ETW](https://msdn.microsoft.com/magazine/cc163437.aspx).
 
 Winsock tracing can only be enabled at the operating system level for all processes and threads running on a computer. Winsock tracing currently cannot be enabled for just a single process or thread. When Winsock network event tracing is enabled, all socket applications (both IPv4 and IPv6) on a computer are traced.
 
@@ -34,7 +34,7 @@ The following topics describe Winsock tracing in more detail:
 
 <dl> <dt>
 
-[Improve Debugging And Performance Tuning With ETW](https://go.microsoft.com/fwlink/p/?linkid=103737)
+[Improve Debugging And Performance Tuning With ETW](https://msdn.microsoft.com/magazine/cc163437.aspx)
 </dt> <dt>
 
 [Debug and Trace Facilities](debug-and-trace-facilities-2.md)

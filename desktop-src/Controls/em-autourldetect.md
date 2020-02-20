@@ -86,7 +86,7 @@ If automatic URL detection is enabled (that is, *wParam* includes **AURL\_ENABLE
 
 When automatic link detection is enabled, the rich edit control removes the **CFE\_LINK** effect from modified text that does not have a format recognized by the control. If your application uses the **CFE\_LINK** effect to mark other types of text, do not enable automatic link detection. The rich edit control does not check whether a detected link exists; that responsibility belongs to the client.
 
-A rich edit control sends the [EN\_LINK](en-link.md) notification when it receives various messages while the mouse pointer is over text that has the **CFE\_LINK** effect. For more information, see [Automatic RichEdit Hyperlinks](https://go.microsoft.com/fwlink/p/?linkid=239627) and [RichEdit Friendly Name Hyperlinks](https://go.microsoft.com/fwlink/p/?linkid=239626).
+A rich edit control sends the [EN\_LINK](en-link.md) notification when it receives various messages while the mouse pointer is over text that has the **CFE\_LINK** effect. For more information, see [Automatic RichEdit Hyperlinks](https://blogs.msdn.com/b/murrays/archive/2009/08/31/automatic-richedit-hyperlinks.aspx) and [RichEdit Friendly Name Hyperlinks](https://blogs.msdn.com/b/murrays/archive/2009/09/24/richedit-friendly-name-hyperlinks.aspx).
 
 ## Requirements
 

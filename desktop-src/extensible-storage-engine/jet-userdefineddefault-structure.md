@@ -45,7 +45,7 @@ The export name of the function that implements the callback in "module\!functio
 
 The callback persists as a part of the column schema. The actual host executable and export name of the function must persist to enable the lookup of the true address of the function at run time.
 
-The module name is the name of the host binary that contains the function. The function name is the name of the export for that function. These two pieces of information will be used by the database engine at runtime to locate the true address of the callback by executing a [LoadLibrary](https://go.microsoft.com/fwlink/?linkid=181818) call on the module name followed by a [GetProcAddress](https://go.microsoft.com/fwlink/?linkid=181819) call on the function name.
+The module name is the name of the host binary that contains the function. The function name is the name of the export for that function. These two pieces of information will be used by the database engine at runtime to locate the true address of the callback by executing a [LoadLibrary](https://msdn.microsoft.com/library/ms684175(VS.85).aspx) call on the module name followed by a [GetProcAddress](https://msdn.microsoft.com/library/ms683212(VS.85).aspx) call on the function name.
 
 For example, if the callback were implemented in a DLL called MyCallback.DLL and that DLL were stored in C:\\MyApplication and the function implementing the callback were exported from the DLL as UserDefinedDefaultCallback, then the required string would be "C:\\MyApplication\\MyCallback.DLL\!UserDefinedDefaultCallback".
 

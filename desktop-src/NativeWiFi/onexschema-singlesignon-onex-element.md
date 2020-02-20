@@ -83,7 +83,7 @@ The **singleSignOn** element is defined by the [**OneX**](onexschema-onex-elemen
 
 ## Remarks
 
-This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://go.microsoft.com/fwlink/p/?linkid=120964).
+This parameter can be set at the command line using the **netsh wlan set profileparameter** command. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f).
 
 ## Requirements
 

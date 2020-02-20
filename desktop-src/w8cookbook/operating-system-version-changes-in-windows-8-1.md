@@ -102,6 +102,6 @@ They will return TRUE or FALSE depending on the question you are asking, and you
 
 ## Resources
 
--   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?LinkID=205020)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/p/?LinkID=205039)
--   [VersionHelpers APIs](https://go.microsoft.com/fwlink/p/?LinkId=325426)
+-   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
+-   [VersionHelpers APIs](https://msdn.microsoft.com/library/windows/desktop/dn424972(v=vs.85).aspx)

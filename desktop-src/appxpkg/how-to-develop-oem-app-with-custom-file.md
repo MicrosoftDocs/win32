@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to develop an OEM app that uses a custom file
 
-For more information on creating and using custom data files, see [DISM App Package (.appx or .appxbundle) Servicing Command-Line Options](https://aka.ms/dism-custom-file).
+For more information on creating and using custom data files, see [DISM App Package (.appx or .appxbundle) Servicing Command-Line Options](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-app-package--appx-or-appxbundle--servicing-command-line-options?redirectedfrom=MSDN).
 
 Learn how to develop an app that uses a custom file to pass info from the OEM to the app.
 

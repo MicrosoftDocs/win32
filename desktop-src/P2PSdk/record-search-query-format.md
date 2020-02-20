@@ -107,7 +107,7 @@ The primary element in a record search is **peersearch**, which contains the Uni
     </peersearch>
     ```
 
-    Common **type** attributes include **int**, **string**, and **date**. The **date** attribute can be one of the standard date formats described at [https://www.w3.org/TR/NOTE-datetime](https://go.microsoft.com/fwlink/p/?linkid=84446).
+    Common **type** attributes include **int**, **string**, and **date**. The **date** attribute can be one of the standard date formats described at [https://www.w3.org/TR/NOTE-datetime](https://www.w3.org/TR/NOTE-datetime).
 
     Values for the **compare** attribute are **equal**, **notequal**, **less**, **greater**, **lessorequal**, and **greaterorequal**.
 

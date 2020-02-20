@@ -26,7 +26,7 @@ This filter appears in GraphEdit as "Oscilloscope."
 
 ## Downloading the Sample
 
-To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
+To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 This sample is installed under the following path: *\[SDK Root\]*\\Samples\\Multimedia\\DirectShow\\Filters\\Scope.
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 Windows PowerShell implements Windows Management Instrumentation (WMI) functionality through a set of cmdlets. You can use these cmdlets to complete the end-to-end tasks that are necessary to manage local and remote computers.
 
-See [Windows PowerShell](https://go.microsoft.com/fwlink/p/?linkid=142509) for more information.
+See [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) for more information.
 
 ## WMI PowerShell Classes
 
@@ -27,11 +27,11 @@ These WMI command classes are implemented by Windows PowerShell. These classes a
 
 | Class                   | Description                                                                                                                                                                                                                                 |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| GetWmiObjectCommand     | Gets instances of WMI classes or information about the available classes.<br/> See the [Get-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=153476) cmdlet for examples and detailed information about the parameters.<br/> |
-| InvokeWmiMethod         | Calls WMI methods.<br/> See the [Invoke-WmiMethod](https://go.microsoft.com/fwlink/p/?linkid=154182) cmdlet for examples and detailed information about the parameters.<br/>                                                     |
-| RegisterWmiEventCommand | Subscribes to a WMI event.<br/> See the [Register-WmiEvent](https://go.microsoft.com/fwlink/p/?linkid=154183) cmdlet for examples and detailed information about the parameters.<br/>                                            |
-| RemoveWmiObject         | Deletes an instance of an existing WMI class.<br/> See the [Remove-WmiObject](https://go.microsoft.com/fwlink/p/?linkid=154184) cmdlet for examples and detailed information about the parameters.<br/>                          |
-| SetWmiInstance          | Creates or updates an instance of an existing WMI class.<br/> See the [Set-WmiInstance](https://go.microsoft.com/fwlink/p/?linkid=154185) cmdlet for examples and detailed information about the parameters.<br/>                |
+| GetWmiObjectCommand     | Gets instances of WMI classes or information about the available classes.<br/> See the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet for examples and detailed information about the parameters.<br/> |
+| InvokeWmiMethod         | Calls WMI methods.<br/> See the [Invoke-WmiMethod](https://technet.microsoft.com/library/dd315300.aspx) cmdlet for examples and detailed information about the parameters.<br/>                                                     |
+| RegisterWmiEventCommand | Subscribes to a WMI event.<br/> See the [Register-WmiEvent](https://technet.microsoft.com/library/dd315242.aspx) cmdlet for examples and detailed information about the parameters.<br/>                                            |
+| RemoveWmiObject         | Deletes an instance of an existing WMI class.<br/> See the [Remove-WmiObject](https://technet.microsoft.com/library/dd347605.aspx) cmdlet for examples and detailed information about the parameters.<br/>                          |
+| SetWmiInstance          | Creates or updates an instance of an existing WMI class.<br/> See the [Set-WmiInstance](https://technet.microsoft.com/library/dd315391.aspx) cmdlet for examples and detailed information about the parameters.<br/>                |
 
 
 

@@ -122,7 +122,7 @@ The effect performs the transform operation and then applies a bounding box arou
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D 3D transform effect sample](https://go.microsoft.com/fwlink/p/?linkid=254009).
+For an example of this effect, download the [Direct2D 3D transform effect sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-3D-transform-327c1e33).
 
 ## Requirements
 

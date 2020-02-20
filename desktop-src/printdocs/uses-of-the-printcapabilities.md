@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Uses of the PrintCapabilities
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 The PrintCapabilities are intended to represent configurable device attributes as either Feature/Option constructs or parameter constructs. This information defines the configuration space of the device and can be used by a user interface (UI) client to construct a UI. The Print Schema Keywords define a set of standard Feature instances, Option instances for the standard Feature instances, and ParameterDef instances.
 
@@ -20,7 +20,7 @@ It should be emphasized that the PrintCapabilities document is intended to repre
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

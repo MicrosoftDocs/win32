@@ -14,7 +14,7 @@ This form of virtualization is an interim application compatibility technology; 
 
 Virtualization is intended only to provide compatibility for existing applications. Applications designed for Windows Vista and later versions of Windows should not write to sensitive system areas, nor should they rely on virtualization to remedy any problems. When updating existing code to run on Windows Vista and later versions of Windows, developers should ensure that applications only store data in per-user locations or in computer locations within %alluserprofile% that properly use an access control list (ACL).
 
-For more information about building UAC-compliant applications, see the [UAC Developer Guide](https://go.microsoft.com/fwlink/p/?linkid=83946).
+For more information about building UAC-compliant applications, see the [UAC Developer Guide](https://msdn.microsoft.com/library/aa480150.aspx).
 
 ## Virtualization Overview
 
@@ -109,13 +109,13 @@ Whenever auditing is enabled on a key that is being virtualized, a new virtualiz
 
 <dl> <dt>
 
-[Getting Started with User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84129)
+[Getting Started with User Account Control](https://technet.microsoft.com/library/cc507861.aspx)
 </dt> <dt>
 
-[Understanding and Configuring User Account Control](https://go.microsoft.com/fwlink/p/?linkid=84127)
+[Understanding and Configuring User Account Control](https://technet.microsoft.com/library/cc709628.aspx)
 </dt> <dt>
 
-[Developer Best Practices and Guidelines for Applications in a Least Privileged Environment](https://go.microsoft.com/fwlink/p/?linkid=83946)
+[Developer Best Practices and Guidelines for Applications in a Least Privileged Environment](https://msdn.microsoft.com/library/aa480150.aspx)
 </dt> </dl>
 
  

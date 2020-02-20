@@ -60,13 +60,13 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
     -   Task security hardening support: new task security hardening feature is introduced with new IPrincipal2 interface.
     -   Introduced two new task settings with the new ITaskSettings2 interface.
 
-        -   DisallowStartOnRemoteAppSession: The new DisallowStartOnRemoteAppSession setting can reject a task start if triggered in [Remote Applications Integrated Locally (RAIL)](https://go.microsoft.com/fwlink/p/?linkid=168157) sessions.
+        -   DisallowStartOnRemoteAppSession: The new DisallowStartOnRemoteAppSession setting can reject a task start if triggered in [Remote Applications Integrated Locally (RAIL)](https://msdn.microsoft.com/library/cc239612.aspx) sessions.
         -   UseUnifiedSchedulingEngine: Using the UseUnifiedSchedulingEngine setting provides a cohesive behavior for Windows Tasks and Services because it is being managed in a uniform manner by a common system-wide scheduling engine. Although using a unified engine is recommended, it does not support some of the Task Scheduler features. If the combination of properties will not allow running of the task under a unified engine, the registration of such will be rejected.
         -   The task features that are not supported by the unified scheduling engine include:
 
             -   Logon types:
 
-                -   [TASK\_LOGON\_INTERACTIVE\_TOKEN\_OR\_PASSWORD](https://go.microsoft.com/fwlink/p/?linkid=168159)
+                -   [TASK\_LOGON\_INTERACTIVE\_TOKEN\_OR\_PASSWORD](https://msdn.microsoft.com/library/aa383013(VS.85).aspx)
 
             -   Multiple instance policy:
 
@@ -74,20 +74,20 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
 
             -   Actions:
 
-                -   [Send email](https://go.microsoft.com/fwlink/p/?linkid=168161)
-                -   [Display message](https://go.microsoft.com/fwlink/p/?linkid=168164)
+                -   [Send email](https://msdn.microsoft.com/library/aa383095(VS.85).aspx)
+                -   [Display message](https://msdn.microsoft.com/library/aa383104(VS.85).aspx)
 
             -   Settings:
 
-                -   [Task network settings](https://go.microsoft.com/fwlink/p/?linkid=168166)
-                -   [Do not allow task hard terminate](https://go.microsoft.com/fwlink/p/?linkid=168167)
+                -   [Task network settings](https://msdn.microsoft.com/library/aa383050(VS.85).aspx)
+                -   [Do not allow task hard terminate](https://msdn.microsoft.com/library/aa382594(VS.85).aspx)
 
             -   Triggers:
 
-                -   [Trigger execution time limit](https://go.microsoft.com/fwlink/p/?linkid=168168)
+                -   [Trigger execution time limit](https://msdn.microsoft.com/library/aa382681(VS.85).aspx)
                 -   [Repetition patterns for calendar triggers]( https://go.microsoft.com/fwlink/p/?linkid=168169)
                 -   [XPath query values for event triggers]( https://go.microsoft.com/fwlink/p/?linkid=168170)
-                -   [Monthly](https://go.microsoft.com/fwlink/p/?linkid=168171) and [Monthly day-of-week](https://go.microsoft.com/fwlink/p/?linkid=168173) trigger types
+                -   [Monthly](https://msdn.microsoft.com/library/aa383091(VS.85).aspx) and [Monthly day-of-week](https://msdn.microsoft.com/library/aa383090(VS.85).aspx) trigger types
 
 ## Windows Vista
 

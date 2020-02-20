@@ -118,21 +118,21 @@ Communications of the ACM (January 1991): 72-86
 
 <dl> <dt>
 
-<span id="ACM_Special_Interest_Group_on_Computer-Human_Interaction__SIGCHI_"></span><span id="acm_special_interest_group_on_computer-human_interaction__sigchi_"></span><span id="ACM_SPECIAL_INTEREST_GROUP_ON_COMPUTER-HUMAN_INTERACTION__SIGCHI_"></span>[ACM Special Interest Group on Computer-Human Interaction (SIGCHI)](https://go.microsoft.com/fwlink/p/?linkid=191896)
+<span id="ACM_Special_Interest_Group_on_Computer-Human_Interaction__SIGCHI_"></span><span id="acm_special_interest_group_on_computer-human_interaction__sigchi_"></span><span id="ACM_SPECIAL_INTEREST_GROUP_ON_COMPUTER-HUMAN_INTERACTION__SIGCHI_"></span>[ACM Special Interest Group on Computer-Human Interaction (SIGCHI)](http://www.sigchi.org/)
 </dt> <dd>
 
 The largest organization of UI practitioners.
 
 </dd> <dt>
 
-<span id="Human_Factors_and_Ergonomics_Society"></span><span id="human_factors_and_ergonomics_society"></span><span id="HUMAN_FACTORS_AND_ERGONOMICS_SOCIETY"></span>[Human Factors and Ergonomics Society](https://go.microsoft.com/fwlink/p/?linkid=191901)
+<span id="Human_Factors_and_Ergonomics_Society"></span><span id="human_factors_and_ergonomics_society"></span><span id="HUMAN_FACTORS_AND_ERGONOMICS_SOCIETY"></span>[Human Factors and Ergonomics Society](https://www.hfes.org/)
 </dt> <dd>
 
 Promotes the discovery and exchange of knowledge concerning the characteristics of human beings that are applicable to the design of systems and devices of all kinds.
 
 </dd> <dt>
 
-<span id="Usability_Professionals_Association"></span><span id="usability_professionals_association"></span><span id="USABILITY_PROFESSIONALS_ASSOCIATION"></span>[Usability Professionals Association](https://go.microsoft.com/fwlink/p/?linkid=191902)
+<span id="Usability_Professionals_Association"></span><span id="usability_professionals_association"></span><span id="USABILITY_PROFESSIONALS_ASSOCIATION"></span>[Usability Professionals Association](http://www.upassoc.org/)
 </dt> <dd>
 
 The UPA supports people who research, design, and evaluate the user experience of products and services.
@@ -143,7 +143,7 @@ The UPA supports people who research, design, and evaluate the user experience o
 
 <dl> <dt>
 
-<span id="useit.com__Jakob_Nielsen_s_Website"></span><span id="useit.com__jakob_nielsen_s_website"></span><span id="USEIT.COM__JAKOB_NIELSEN_S_WEBSITE"></span>[useit.com: Jakob Nielsen's Website](https://go.microsoft.com/fwlink/p/?linkid=191899)
+<span id="useit.com__Jakob_Nielsen_s_Website"></span><span id="useit.com__jakob_nielsen_s_website"></span><span id="USEIT.COM__JAKOB_NIELSEN_S_WEBSITE"></span>[useit.com: Jakob Nielsen's Website](http://www.useit.com/)
 </dt> <dd>
 
 Jakob's column on Web usability.
@@ -152,7 +152,7 @@ Jakob's column on Web usability.
 
 <dl> <dt>
 
-<span id="HCI_Bibliography___Human-Computer_Interaction_Resources"></span><span id="hci_bibliography___human-computer_interaction_resources"></span><span id="HCI_BIBLIOGRAPHY___HUMAN-COMPUTER_INTERACTION_RESOURCES"></span>[HCI Bibliography : Human-Computer Interaction Resources](https://go.microsoft.com/fwlink/p/?linkid=191900)
+<span id="HCI_Bibliography___Human-Computer_Interaction_Resources"></span><span id="hci_bibliography___human-computer_interaction_resources"></span><span id="HCI_BIBLIOGRAPHY___HUMAN-COMPUTER_INTERACTION_RESOURCES"></span>[HCI Bibliography : Human-Computer Interaction Resources](https://www.hcibib.org/)
 </dt> <dd>
 
 Search over 58,000 publications about Human-Computer Interaction.

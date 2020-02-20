@@ -18,6 +18,6 @@ The DbgHelp documentation is as follows:
 
 To obtain the latest version of DbgHelp.dll, go to [https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) and download Debugging Tools for Windows.
 
-For a description of the PE format, download the specification from the following location: [https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx](https://go.microsoft.com/fwlink/p/?linkid=84140).
+For a description of the PE format, download the specification from the following location: [https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx](https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx).
 
-For information on how to browse information found in .pdb files, see the [Debug Interface Access SDK](https://go.microsoft.com/fwlink/p/?linkid=83974).
+For information on how to browse information found in .pdb files, see the [Debug Interface Access SDK](https://msdn.microsoft.com/library/x93ctkx8.aspx).

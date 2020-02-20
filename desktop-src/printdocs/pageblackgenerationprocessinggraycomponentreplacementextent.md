@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageBlackGenerationProcessingGrayComponentReplacementExtent
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Describes the extented beyond neutrals (into chromatic colors) that GCR applies. 0% = Uniform component replacement, 100% = Gray component replacement.
 
@@ -83,7 +83,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

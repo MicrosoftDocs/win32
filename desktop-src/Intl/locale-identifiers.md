@@ -45,7 +45,7 @@ NLS uses the following locale information constants to represent locale identifi
 
 ## Building a Locale
 
-You can use the Locale Builder utility provided by NLS to build locales. For more information, see [Microsoft Locale Builder](https://go.microsoft.com/fwlink/p/?linkid=96654).
+You can use the Locale Builder utility provided by NLS to build locales. For more information, see [Microsoft Locale Builder](https://www.microsoft.com/download/details.aspx?id=41158).
 
 Your application can construct a locale identifier using the [**MAKELCID**](/windows/desktop/api/Winnt/nf-winnt-makelcid) macro. Alternatively it can use one of the default identifiers corresponding to the constants listed below.
 

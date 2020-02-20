@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Connecting to the WMI Service
 
-To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific [*namespace*](gloss-n.md). In most cases, use either the shorthand [moniker](creating-a-wmi-script.md) connection or the [**Locator**](swbemlocator-connectserver.md) connection. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
+To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific [*namespace*](gloss-n.md). In most cases, use either the shorthand [moniker](creating-a-wmi-script.md) connection or the [**Locator**](swbemlocator-connectserver.md) connection. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx).
 
 Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
@@ -166,7 +166,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 </dt> </dl>
 
  

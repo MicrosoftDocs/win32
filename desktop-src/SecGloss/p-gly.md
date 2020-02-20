@@ -44,7 +44,7 @@ See *Public Key Cryptography Standards*.
 <span id="_security_pkcs_1_standard_gly"></span><span id="_SECURITY_PKCS_1_STANDARD_GLY"></span>**PKCS \#1**
 </dt> <dd>
 
-The recommended standards for the implementation of public-key cryptography based on the RSA algorithm as defined in [RFC 3447](https://go.microsoft.com/fwlink/p/?linkid=86112).
+The recommended standards for the implementation of public-key cryptography based on the RSA algorithm as defined in [RFC 3447](https://tools.ietf.org/html/rfc3447).
 
 </dd> <dt>
 

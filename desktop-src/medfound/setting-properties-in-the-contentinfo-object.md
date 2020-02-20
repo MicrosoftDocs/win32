@@ -28,7 +28,7 @@ After configuring the encoder, you must configure the ContentInfo object with th
 
 1.  Get a pointer to the encoder's property store by querying the encoder ([**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface) directly for the **IPropertyStore** interface.
 2.  Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore). To set stream-specific properties, specify the stream identifier in the *wStreamNumber* parameter; for file-level properties, pass 0. The *ppIStore* parameter receives a pointer to the **IPropertyStore** interface. The received property store is empty.
-3.  Call **IPropertyStore::GetValue** on the encoder and get the property value by specifying the property key constants. For a complete list of encoding properties, see the [Codec Programming Reference](https://go.microsoft.com/fwlink/p/?linkid=111464).
+3.  Call **IPropertyStore::GetValue** on the encoder and get the property value by specifying the property key constants. For a complete list of encoding properties, see the [Codec Programming Reference](https://msdn2.microsoft.com/library/aa384554(VS.85).aspx).
 4.  Call **IPropertyStore::SetValue** on the ContentInfo object to set the required property in the property store.
 5.  Repeat steps 3 and 4 for each property that you want to set.
 

@@ -18,11 +18,11 @@ The AppInit\_DLLs infrastructure provides an easy way to hook system APIs by all
 
 Windows 8 adopted UEFI and secure boot to improve the overall system integrity and to provide strong protection against sophisticated threats. When secure boot is enabled, the AppInit\_DLLs mechanism is disabled as part of a no-compromise approach to protect customers against malware and threats.
 
-Please note that secure boot is a UEFI protocol and not a Windows 8 feature. More info on UEFI and the secure boot protocol specification can be found at [https://www.uefi.org](https://go.microsoft.com/fwlink/p/?LinkID=79145).
+Please note that secure boot is a UEFI protocol and not a Windows 8 feature. More info on UEFI and the secure boot protocol specification can be found at [https://www.uefi.org](https://www.uefi.org/).
 
 ## AppInit\_DLLs certification requirement for Windows 8 desktop apps
 
-One of the certification requirements for Windows 8 desktop apps is that the app must not load arbitrary DLLs to intercept Win32 API calls using the AppInit\_DLLs mechanism. For more detailed information about the certification requirements, refer to section 1.1 of [Certification requirements for Windows 8 desktop apps](https://go.microsoft.com/fwlink/p/?LinkID=237298).
+One of the certification requirements for Windows 8 desktop apps is that the app must not load arbitrary DLLs to intercept Win32 API calls using the AppInit\_DLLs mechanism. For more detailed information about the certification requirements, refer to section 1.1 of [Certification requirements for Windows 8 desktop apps](https://msdn.microsoft.com/library/windows/desktop/hh749939).
 
 ## Summary
 
@@ -30,7 +30,7 @@ One of the certification requirements for Windows 8 desktop apps is that the ap
 -   The AppInit\_DLLs mechanism is disabled by default when secure boot is enabled.
 -   Using AppInit\_DLLs in a Windows 8 desktop app is a Windows desktop app certification failure.
 
-See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkID=303932).
+See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](https://msdn.microsoft.com/windows/hardware/gg463040.aspx).
 
  
 

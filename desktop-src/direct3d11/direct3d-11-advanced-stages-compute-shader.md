@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Compute Shader Overview
 
-A compute shader is a programmable shader stage that expands Microsoft Direct3D 11 beyond graphics programming. The compute shader technology is also known as the [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) technology.
+A compute shader is a programmable shader stage that expands Microsoft Direct3D 11 beyond graphics programming. The compute shader technology is also known as the [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) technology.
 
 Like other programmable shaders (vertex and geometry shaders for example), a compute shader is designed and implemented with [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) but that is just about where the similarity ends. A compute shader provides high-speed general purpose computing and takes advantage of the large numbers of parallel processors on the graphics processing unit (GPU). The compute shader provides memory sharing and thread synchronization features to allow more effective parallel programming methods. You call the [**ID3D11DeviceContext::Dispatch**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatch) or [**ID3D11DeviceContext::DispatchIndirect**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-dispatchindirect) method to execute commands in a compute shader. A compute shader can run on many threads in parallel.
 
 ## Using Compute Shader on Direct3D 10.x Hardware
 
-A compute shader on Microsoft Direct3D 10 is also known as [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) 4.x.
+A compute shader on Microsoft Direct3D 10 is also known as [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) 4.x.
 
-If you use the Direct3D 11 API and updated drivers, [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 10 and 10.1 Direct3D hardware can optionally support a limited form of [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) that uses the cs\_4\_0 and cs\_4\_1 [profiles](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-models). When you use [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) on this hardware, keep the following limitations in mind:
+If you use the Direct3D 11 API and updated drivers, [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 10 and 10.1 Direct3D hardware can optionally support a limited form of [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) that uses the cs\_4\_0 and cs\_4\_1 [profiles](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-models). When you use [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) on this hardware, keep the following limitations in mind:
 
 -   The maximum number of threads is limited to D3D11\_CS\_4\_X\_THREAD\_GROUP\_MAX\_THREADS\_PER\_GROUP (768) per group.
 -   The X and Y dimension of **numthreads** is limited to D3D11\_CS\_4\_X\_THREAD\_GROUP\_MAX\_X (768) and D3D11\_CS\_4\_X\_THREAD\_GROUP\_MAX\_Y (768).
@@ -33,9 +33,9 @@ If you use the Direct3D 11 API and updated drivers, [feature level](overviews-di
 
 ## Using Compute Shader on Direct3D 11.x Hardware
 
-A compute shader on Direct3D 11 is also known as [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) 5.0.
+A compute shader on Direct3D 11 is also known as [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) 5.0.
 
-When you use [DirectCompute](https://go.microsoft.com/fwlink/p/?linkid=209544) with cs\_5\_0 [profiles](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-models), keep the following items in mind:
+When you use [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) with cs\_5\_0 [profiles](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-models), keep the following items in mind:
 
 -   The maximum number of threads is limited to D3D11\_CS\_THREAD\_GROUP\_MAX\_THREADS\_PER\_GROUP (1024) per group.
 -   The X and Y dimension of **numthreads** is limited to D3D11\_CS\_THREAD\_GROUP\_MAX\_X (1024) and D3D11\_CS\_THREAD\_GROUP\_MAX\_Y (1024).

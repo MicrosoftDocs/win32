@@ -83,7 +83,7 @@ d2dPrintControl->Close();
 [**ID2D1PrintControl**](https://msdn.microsoft.com/library/Hh847997(v=VS.85).aspx)
 </dt> <dt>
 
-[Direct2D Printing for Windows Store apps Sample](https://go.microsoft.com/fwlink/p/?linkid=231613)
+[Direct2D Printing for Windows Store apps Sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-printing-and-4c5006b2)
 </dt> <dt>
 
 [Improving the Performance of Direct2D Applications and Printing](improving-direct2d-performance.md)

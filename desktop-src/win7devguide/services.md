@@ -24,11 +24,11 @@ With [Windows Web Services](https://docs.microsoft.com/windows/desktop/wsw/porta
 -   The ability to build services based on the core *WS* family of protocols and *W3C* standards.
 -   The ability to use web services in resource-constrained environments.
 
-For more information, see [Windows Web Services API](https://go.microsoft.com/?linkid=9669736) and [Implement Web Services with the Windows Web Services API](https://go.microsoft.com/fwlink/p/?linkid=166106).
+For more information, see [Windows Web Services API](https://msdn.microsoft.com/library/dd430435(VS.85).aspx) and [Implement Web Services with the Windows Web Services API](https://code.msdn.microsoft.com/wwsapi).
 
 ## Distributed Routing Table
 
-Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](https://docs.microsoft.com/windows/desktop/P2PSdk/distributed-routing-table-api-reference). The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system. It can be used to build distributed hash tables and construct topologies for overlay networks. (See [Distributed Routing Table API](https://go.microsoft.com/?linkid=9669727).)
+Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](https://docs.microsoft.com/windows/desktop/P2PSdk/distributed-routing-table-api-reference). The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system. It can be used to build distributed hash tables and construct topologies for overlay networks. (See [Distributed Routing Table API](https://msdn.microsoft.com/library/dd407952(VS.85).aspx).)
 
 ## **Windows BranchCache**
 
@@ -38,7 +38,7 @@ Windows BranchCache is already integrated with HTTP and Server Message Block (SM
 
 If your application retrieves the same data multiple times from a server over a WAN link and is not automatically optimized using Windows 7, it is easy for you to use the Windows BranchCacheAPIs to optimize your application to work faster on Windows 7 and satisfy your branch users.
 
-These new features help reduce WAN traffic and latency while ensuring compliance with security mandates. (See [Peer Distribution](https://go.microsoft.com/?linkid=9669734).)
+These new features help reduce WAN traffic and latency while ensuring compliance with security mandates. (See [Peer Distribution](https://msdn.microsoft.com/library/dd408043(VS.85).aspx).)
 
  
 

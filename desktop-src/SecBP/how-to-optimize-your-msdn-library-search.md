@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Optimize Your MSDN Library Search
 
-To search MSDN, enter a keyword or character string in the **Search MSDN with Bing** box. After you search the [Microsoft Developer Network](https://go.microsoft.com/fwlink/p/?linkid=83026) (MSDN) website, you can narrow your search results by clicking the options available in the **Refine search** column under **By Source** or **By Topic**. These options become available after your first search attempt.
+To search MSDN, enter a keyword or character string in the **Search MSDN with Bing** box. After you search the [Microsoft Developer Network](https://msdn.microsoft.com/default.aspx) (MSDN) website, you can narrow your search results by clicking the options available in the **Refine search** column under **By Source** or **By Topic**. These options become available after your first search attempt.
 
 **To return only topics in the Windows Development section of MSDN Library**
 

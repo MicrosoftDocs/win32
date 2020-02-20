@@ -28,7 +28,7 @@ There are two types of disks when referring to storage types in this context: *b
 
 *Basic disks* are the storage types most often used with Windows. The term *basic disk* refers to a disk that contains partitions, such as primary partitions and logical drives, and these in turn are usually formatted with a file system to become a volume for file storage. Basic disks provide a simple storage solution that can accommodate a useful array of changing storage requirement scenarios. Basic disks also support clustered disks, Institute of Electrical and Electronics Engineers (IEEE) 1394 disks, and universal serial bus (USB) removable drives. For backward compatibility, basic disks usually use the same Master Boot Record (MBR) partition style as the disks used by the Microsoft MS-DOS operating system and all versions of Windows but can also support **GUID** Partition Table (GPT) partitions on systems that support it. For more information about MBR and GPT partition styles, see the [Partition Styles](#partition-styles) section.
 
-You can add more space to existing primary partitions and logical drives by extending them into adjacent, contiguous unallocated space on the same disk. To extend a basic volume, it must be formatted with the NTFS file system. You can extend a logical drive within contiguous free space in the extended partition that contains it. If you extend a logical drive beyond the free space available in the extended partition, the extended partition grows to contain the logical drive as long as the extended partition is followed by contiguous unallocated space. For more information, see [How Basic Disks and Volumes Work](https://go.microsoft.com/fwlink/p/?linkid=158742).
+You can add more space to existing primary partitions and logical drives by extending them into adjacent, contiguous unallocated space on the same disk. To extend a basic volume, it must be formatted with the NTFS file system. You can extend a logical drive within contiguous free space in the extended partition that contains it. If you extend a logical drive beyond the free space available in the extended partition, the extended partition grows to contain the logical drive as long as the extended partition is followed by contiguous unallocated space. For more information, see [How Basic Disks and Volumes Work](https://technet.microsoft.com/library/cc739412.aspx).
 
 The following operations can be performed only on basic disks:
 
@@ -52,9 +52,9 @@ The following operations can be performed only on dynamic disks:
 
 Another difference between basic and dynamic disks is that dynamic disk volumes can be composed of a set of noncontiguous extents on one or multiple physical disks. By contrast, a volume on a basic disk consists of one set of contiguous extents on a single disk. Because of the location and size of the disk space needed by the LDM database, Windows cannot convert a basic disk to a dynamic disk unless there is at least 1 MB of unused space on the disk.
 
-Regardless of whether the dynamic disks on a system use the MBR or GPT partition style, you can create up to 2,000 dynamic volumes on a system, although the recommended number of dynamic volumes is 32 or less. For details and other considerations about using dynamic disks and volumes, see [Dynamic disks and volumes](https://go.microsoft.com/fwlink/p/?linkid=158735).
+Regardless of whether the dynamic disks on a system use the MBR or GPT partition style, you can create up to 2,000 dynamic volumes on a system, although the recommended number of dynamic volumes is 32 or less. For details and other considerations about using dynamic disks and volumes, see [Dynamic disks and volumes](https://technet.microsoft.com/library/cc757696.aspx).
 
-For more features of and usage scenarios for dynamic disks, see [What Are Dynamic Disks and Volumes?](https://go.microsoft.com/fwlink/p/?linkid=158741).
+For more features of and usage scenarios for dynamic disks, see [What Are Dynamic Disks and Volumes?](https://technet.microsoft.com/library/cc737048.aspx).
 
 The operations common to basic and dynamic disks are the following:
 
@@ -65,13 +65,13 @@ The operations common to basic and dynamic disks are the following:
 -   Establish drive-letter assignments for disk volumes or partitions, and for CD-ROM devices.
 -   Convert a basic disk to a dynamic disk, or a dynamic disk to a basic disk.
 
-Unless specified otherwise, Windows initially partitions a drive as a basic disk by default. You must explicitly convert a basic disk to a dynamic disk. However, there are disk space considerations that must be accounted for before you attempt to do this. For more information, see [How To Convert to Basic and Dynamic Disks in Windows XP Professional](https://go.microsoft.com/fwlink/p/?linkid=158443).
+Unless specified otherwise, Windows initially partitions a drive as a basic disk by default. You must explicitly convert a basic disk to a dynamic disk. However, there are disk space considerations that must be accounted for before you attempt to do this. For more information, see [How To Convert to Basic and Dynamic Disks in Windows XP Professional](https://support.microsoft.com/kb/309044).
 
 ## Partition Styles
 
-*Partition styles*, also sometimes called *partition schemes*, is a term that refers to the particular underlying structure of the disk layout and how the partitioning is actually arranged, what the capabilities are, and also what the limitations are. To boot Windows, the BIOS implementations in x86-based and x64-based computers require a basic disk that must contain at least one master boot record (MBR) partition marked as active where information about the Windows operating system (but not necessarily the entire operating system installation) and where information about the partitions on the disk are stored. This information is placed in separate places, and these two places may be located in separate partitions or in a single partition. All other physical disk storage can be set up as various combinations of the two available partition styles, described in the following sections. For more information about other system types, see the TechNet topic on [partition styles](https://go.microsoft.com/fwlink/p/?linkid=158733).
+*Partition styles*, also sometimes called *partition schemes*, is a term that refers to the particular underlying structure of the disk layout and how the partitioning is actually arranged, what the capabilities are, and also what the limitations are. To boot Windows, the BIOS implementations in x86-based and x64-based computers require a basic disk that must contain at least one master boot record (MBR) partition marked as active where information about the Windows operating system (but not necessarily the entire operating system installation) and where information about the partitions on the disk are stored. This information is placed in separate places, and these two places may be located in separate partitions or in a single partition. All other physical disk storage can be set up as various combinations of the two available partition styles, described in the following sections. For more information about other system types, see the TechNet topic on [partition styles](https://technet.microsoft.com/library/cc738081.aspx).
 
-Dynamic disks follow slightly different usage scenarios, as previously outlined, and the way they utilize the two partition styles is affected by that usage. Because dynamic disks are not generally used to contain system boot volumes, this discussion is simplified to exclude special-case scenarios. For more detailed information about partition data block layouts, and basic or dynamic disk usage scenarios related to partition styles, see [How Basic Disks and Volumes Work](https://go.microsoft.com/fwlink/p/?linkid=158742) and [How Dynamic Disks and Volumes Work](https://go.microsoft.com/fwlink/p/?linkid=158739).
+Dynamic disks follow slightly different usage scenarios, as previously outlined, and the way they utilize the two partition styles is affected by that usage. Because dynamic disks are not generally used to contain system boot volumes, this discussion is simplified to exclude special-case scenarios. For more detailed information about partition data block layouts, and basic or dynamic disk usage scenarios related to partition styles, see [How Basic Disks and Volumes Work](https://technet.microsoft.com/library/cc739412.aspx) and [How Dynamic Disks and Volumes Work](https://technet.microsoft.com/library/cc758035.aspx).
 
 ### Master Boot Record
 
@@ -116,10 +116,10 @@ First, call [**GetVolumePathName**](/windows/desktop/api/FileAPI/nf-fileapi-getv
 [About Volume Management](about-volume-management.md)
 </dt> <dt>
 
-[Basic Disks and Volumes Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89438)
+[Basic Disks and Volumes Technical Reference](https://technet.microsoft.com/library/f22772a3-e6ff-49cb-b608-d969d669a863)
 </dt> <dt>
 
-[Dynamic Disks and Volumes Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=89439)
+[Dynamic Disks and Volumes Technical Reference](https://technet.microsoft.com/library/2c4910c6-1b83-40e5-810a-023993aa8b94)
 </dt> <dt>
 
 [Basic Storage Versus Dynamic Storage in Windows XP]( https://go.microsoft.com/fwlink/p/?linkid=158442)

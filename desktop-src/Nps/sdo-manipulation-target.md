@@ -24,7 +24,7 @@ The target data to which an attribute manipulation rule is applied. Attribute ma
 
 **Values:  **
 
-Defined by the Internet Assigned Numbers Authority (IANA) in the [RADIUS TYPES](https://go.microsoft.com/fwlink/p/?linkid=96676) document based on [RFC 2865](https://go.microsoft.com/fwlink/p/?linkid=90392).
+Defined by the Internet Assigned Numbers Authority (IANA) in the [RADIUS TYPES](https://www.iana.org/assignments/radius-types) document based on [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt).
 
 -   User-Name (1)
 -   Called-Station-Id (30)

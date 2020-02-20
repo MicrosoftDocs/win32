@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Network Monitor to View ETL Files
 
-[Network Monitor 3.3](https://go.microsoft.com/fwlink/p/?linkid=143947) enables users to parse, filter, and view an ETL file (using Windows Vista or later). (If using Network Monitor 3.2, you will need to download and install additional parsers from [CodePlex](https://go.microsoft.com/fwlink/p/?linkid=125105) in order to render the network tracing events.)
+[Network Monitor 3.3](https://connect.microsoft.com/site/sitehome.aspx?SiteID=216) enables users to parse, filter, and view an ETL file (using Windows Vista or later). (If using Network Monitor 3.2, you will need to download and install additional parsers from [CodePlex](https://www.codeplex.com/NMParsers) in order to render the network tracing events.)
 
 Correlated ETL files group the relevant events together. The illlustration below shows a correlated file opened in Network Monitor, with conversation enabled.
 

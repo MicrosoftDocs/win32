@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Supporting PrintTicket Deltas
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 The PrintTicket Provider Interface has methods that can be used to make incremental changes to an existing PrintTicket. The incremental PrintTicket changes can be specified in a partial PrintTicket that is known as a PrintTicket delta. A revised PrintTicket is created by merging a PrintTicket delta with an existing PrintTicket. See the forthcoming PrintTicket Provider Interface document for more information about methods involving PrintTicket deltas.
 
@@ -30,7 +30,7 @@ When a PrintTicket delta is processed, the following steps must be performed.
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

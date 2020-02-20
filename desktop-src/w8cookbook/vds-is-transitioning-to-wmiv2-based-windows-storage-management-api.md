@@ -46,10 +46,10 @@ Microsoft strongly recommends that you base any new storage management apps on t
 
 ## Resources
 
--   [Windows Storage Management API](https://go.microsoft.com/fwlink/p/?linkid=325468)
--   [Storage Cmdlets in Windows PowerShell](https://go.microsoft.com/fwlink/p/?linkid=325469)
--   [Windows Management Instrumentation](https://go.microsoft.com/fwlink/p/?LinkId=325470)
--   [Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=325471)
+-   [Windows Storage Management API](https://msdn.microsoft.com/library/hh830613(v=vs.85).aspx)
+-   [Storage Cmdlets in Windows PowerShell](https://technet.microsoft.com/library/hh848705.aspx)
+-   [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582(v=VS.85).aspx)
+-   [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=VS.85).aspx)
 
  
 

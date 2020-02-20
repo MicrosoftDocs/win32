@@ -110,7 +110,7 @@ The remainder of this Windows Property System SDK documentation contains the fol
 
 -   [Property System Code Samples](property-system-code-samples.md)
 
-    Describes the individual property samples included in the Windows Software Development Kit (SDK). Most samples can be downloaded from [MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=154617). All samples are included in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
+    Describes the individual property samples included in the Windows Software Development Kit (SDK). Most samples can be downloaded from [MSDN Code Gallery](https://code.msdn.microsoft.com/). All samples are included in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ## Additional Resources
 
@@ -120,7 +120,7 @@ The remainder of this Windows Property System SDK documentation contains the fol
     -   [Developing Filter Handlers for Windows Search](https://msdn.microsoft.com/library/Dd940430(v=VS.85).aspx)
     -   [Developing Protocol Handlers for Windows Search](https://msdn.microsoft.com/library/Bb266531(v=VS.85).aspx)
     -   [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/library/Bb266532(v=VS.85).aspx)
-    -   For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
+    -   For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ## Related topics
 

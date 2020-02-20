@@ -35,7 +35,7 @@ To create a session moniker, you must compose the session ID of the Remote Deskt
     "Session:Console!clsid:[class id]"
     ```
 
-2.  After you have created the session moniker, you can pass the result to either the [**MkParseDisplayName**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname) function or the [MkParseDisplayNameEx](https://go.microsoft.com/fwlink/p/?linkid=157933) function.
+2.  After you have created the session moniker, you can pass the result to either the [**MkParseDisplayName**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname) function or the [MkParseDisplayNameEx](https://msdn.microsoft.com/library/ms775113(VS.85).aspx) function.
 
 You can use a session moniker in the same way as you would use any other moniker.
 

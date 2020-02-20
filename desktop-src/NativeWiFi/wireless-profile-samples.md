@@ -15,7 +15,7 @@ api_location:
 
 The following topics show sample XML profiles for various wireless configurations. These XML profiles use [WLAN\_profile schema elements](wlan-profileschema-elements.md) and [OneX schema elements](onexschema-elements.md).
 
-You can add a wireless profile to the profile store programmatically by calling [**WlanSetProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile). You can also add a profile to the profile store using the **netsh** command-line utility. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://go.microsoft.com/fwlink/p/?linkid=120964).
+You can add a wireless profile to the profile store programmatically by calling [**WlanSetProfile**](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile). You can also add a profile to the profile store using the **netsh** command-line utility. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f).
 
 -   [Bootstrap Profile Sample](bootstrap-profile-sample.md)
 -   [FIPS Profile Sample](fips-profile-sample.md)

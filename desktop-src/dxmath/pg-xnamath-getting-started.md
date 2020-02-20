@@ -35,7 +35,7 @@ These sections outline the basics of getting started.
 
 ## Download
 
-The DirectXMath library is included in the Windows SDK. Alternatively you can download it from [GitHub/Microsoft/DirectXMath](https://go.microsoft.com/fwlink/?LinkID=615560). This site also contains related sample projects.
+The DirectXMath library is included in the Windows SDK. Alternatively you can download it from [GitHub/Microsoft/DirectXMath](https://github.com/Microsoft/DirectXMath). This site also contains related sample projects.
 
 ## Run-Time System Requirements
 

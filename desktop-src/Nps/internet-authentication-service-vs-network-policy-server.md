@@ -17,7 +17,7 @@ Internet Authentication Service is the Microsoft implementation of a RADIUS serv
 
 Internet Authentication Service supports two API sets: [Network Policy Server Extensions API](ias-extensions.md) and [Server Data Objects API](server-data-objects.md).
 
-See [TechNet: Internet Authentication Service](https://go.microsoft.com/fwlink/p/?linkid=100899) for more information on IAS.
+See [TechNet: Internet Authentication Service](https://technet.microsoft.com/network/bb643123.aspx) for more information on IAS.
 
 ## Network Policy Server
 
@@ -73,7 +73,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS configuration can be imported and exported in XML format.<br/> IAS is using a Jet database for storing service configuration.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="https://go.microsoft.com/fwlink/p/?linkid=144871">Common Criteria</a> Support<br/></td>
+<td><a href="https://www.niap-ccevs.org/cc-scheme/">Common Criteria</a> Support<br/></td>
 <td>NPS has been updated to support its deployment in environments that must meet the Common Criteria security standards.<br/></td>
 </tr>
 <tr class="even">
@@ -89,7 +89,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 <td>NPS is integrated with the Server Manager and the Role Management Tool. This integration facilitates the configuration and management of NPS and related scenarios.<br/> Server Manager is not available on computers running IAS.<br/></td>
 </tr>
 <tr class="odd">
-<td>Updated Command Line Scripting with <a href="https://go.microsoft.com/fwlink/p/?linkid=101204">Netsh</a>.<br/></td>
+<td>Updated Command Line Scripting with <a href="https://technet.microsoft.com/library/fd1e2fbe-15a6-413b-b712-28afb312c92f">Netsh</a>.<br/></td>
 <td>NPS supports the &quot;Netsh nps&quot; command line interface. &quot;Netsh nps&quot; contains new commands that permit to fully configure NPS, including NAP features.<br/> IAS supports the &quot;Netsh aaaa&quot; command line interface.<br/></td>
 </tr>
 <tr class="even">
@@ -103,7 +103,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 
  
 
-See [TechNet: Network Policy Server](https://go.microsoft.com/fwlink/p/?linkid=100577) for more information on NPS.
+See [TechNet: Network Policy Server](https://technet.microsoft.com/network/bb629414.aspx) for more information on NPS.
 
 ## Related topics
 

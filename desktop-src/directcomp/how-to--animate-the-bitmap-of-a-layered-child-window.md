@@ -1279,7 +1279,7 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
 [Bitmap objects](bitmap-surfaces.md)
 </dt> <dt>
 
-[DirectComposition layered child window sample](https://go.microsoft.com/fwlink/p/?linkid=231194)
+[DirectComposition layered child window sample](https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-layered-d3e4732c)
 </dt> </dl>
 
  

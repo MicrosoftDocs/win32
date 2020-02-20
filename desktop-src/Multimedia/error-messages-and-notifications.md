@@ -14,7 +14,7 @@ MCIWnd uses MCI to control the devices that play and record multimedia data. In 
 
 MCIWnd allows you two choices for handling error messages:
 
--   You can prevent error messages from reaching the user. To prevent the display of MCI error messages, specify the MCIWNDF\_NOERRORDLG window style when you create an instance of an MCIWnd window by using the [**MCIWndCreate**](/windows/desktop/api/Vfw/nf-vfw-mciwndcreatea) or [CreateWindowEx](https://go.microsoft.com/fwlink/p/?linkid=16991) function.
+-   You can prevent error messages from reaching the user. To prevent the display of MCI error messages, specify the MCIWNDF\_NOERRORDLG window style when you create an instance of an MCIWnd window by using the [**MCIWndCreate**](/windows/desktop/api/Vfw/nf-vfw-mciwndcreatea) or [CreateWindowEx](https://msdn.microsoft.com/library/ms632680.aspx) function.
 -   You can redirect them to your application for display. To redirect MCI error messages to your application, specify the MCIWNDF\_NOTIFYERROR window style when you create an instance of an MCIWnd window by using **MCIWndCreate** or **CreateWindowEx**.
 
 When error notification is enabled, MCIWnd sends each notification message ([**MCIWNDM\_NOTIFYERROR**](mciwndm-notifyerror.md)) to the main message handler of the parent of the MCIWnd window. Your application must have a message handler to process the notification messages it receives.

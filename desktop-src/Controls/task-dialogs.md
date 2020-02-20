@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This section contains information about the programming elements used with a task dialog. A *task dialog* is similar to, while much more flexible than, a basic message box.
 
 > [!Note]  
-> Applications written in managed code can access task dialogs by using a source code library provided by Microsoft. For more information, including downloading instructions, see the [Windows API Code Pack for Microsoft .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=180615) on the MSDN Code Gallery.
+> Applications written in managed code can access task dialogs by using a source code library provided by Microsoft. For more information, including downloading instructions, see the [Windows API Code Pack for Microsoft .NET Framework](https://code.msdn.microsoft.com/WindowsAPICodePack) on the MSDN Code Gallery.
 
  
 

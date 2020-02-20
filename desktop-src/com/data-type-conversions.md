@@ -44,7 +44,7 @@ The following table lists conversions between programming languages for common d
 
  
 
-For information about VARTYPE values and how to use them, see the topic [IDispatch Data Types and Structures](https://go.microsoft.com/fwlink/p/?linkid=124543).
+For information about VARTYPE values and how to use them, see the topic [IDispatch Data Types and Structures](https://msdn.microsoft.com/library/ms221600.aspx).
 
 The data type conversions between scripting languages are simpler than those for programming languages. JScript and JavaScript both support the same data types, and VBScript supports only a single data type, **Variant**. Thus, all JScript and JavaScript data types become **Variant** types when converted to VBScript. When you convert VBScript to JScript or JavaScript, the **Variant** types become numbers, strings, Boolean values, and so on.
 

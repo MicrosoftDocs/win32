@@ -12,11 +12,11 @@ You deploy, manage, and service Windows apps (including UWPs and desktop apps) t
 
 ## Introduction
 
-Typically, developers create and sign app packages using Visual Studio. For more info, see [Package a UWP app with Visual Studio](https://aka.ms/packaging-uwp-apps).
+Typically, developers create and sign app packages using Visual Studio. For more info, see [Package a UWP app with Visual Studio](https://docs.microsoft.com/windows/msix/package/packaging-uwp-apps?redirectedfrom=MSDN).
 
-The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world. For more info, see [App submissions](https://aka.ms/app-submissions).
+The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world. For more info, see [App submissions](https://docs.microsoft.com/windows/uwp/publish/app-submissions?redirectedfrom=MSDN).
 
-Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](https://aka.ms/appx-cmdlets).
+Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](https://docs.microsoft.com/powershell/module/appx/index?redirectedfrom=MSDN&view=win10-ps).
 
 Using the packaging, deployment, and query APIs, you can programmatically perform these tasks:
 

@@ -14,7 +14,7 @@ The [**IStringCollection**](/windows/desktop/api/Wuapi/nn-wuapi-istringcollectio
 
 | Property                                        | Description                                                                                                                     |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get__newenum) | Gets an [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) interface that can be used to enumerate the collection. |
+| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get__newenum) | Gets an [IEnumVARIANT](https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-ienumvariant?redirectedfrom=MSDN) interface that can be used to enumerate the collection. |
 | [**Count**](/windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_count)        | Gets the number of elements in the collection.                                                                                  |
 | [**Item**](/windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_item)          | Gets or sets a string in the collection.                                                                                        |
 | [**ReadOnly**](/windows/desktop/api/Wuapi/nf-wuapi-istringcollection-get_readonly)  | Gets a Boolean value that indicates whether the collection is read-only.                                                        |

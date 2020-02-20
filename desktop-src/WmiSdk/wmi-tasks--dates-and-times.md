@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Dates and Times
 
-There are several WMI classes and a scripting object to parse or convert the [CIM datetime](date-and-time-format.md) format. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103).
+There are several WMI classes and a scripting object to parse or convert the [CIM datetime](date-and-time-format.md) format. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -300,7 +300,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 [Date and Time Format](date-and-time-format.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 </dt> </dl>
 
  

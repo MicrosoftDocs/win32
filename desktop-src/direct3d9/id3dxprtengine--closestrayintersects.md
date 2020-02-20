@@ -108,7 +108,7 @@ The barycentric coordinate of the third vertex (vertex 2) of the triangle is 1 -
 
 This method executes slower than [**ID3DXPRTEngine::ShadowRayIntersects**](id3dxprtengine--shadowrayintersects.md). Use **ID3DXPRTEngine::ShadowRayIntersects** if the location of the intersection point is not needed.
 
-Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](https://go.microsoft.com/?linkid=9742311).
+Barycentric coordinates define a point inside a triangle in terms of the triangle's vertices. For a more in-depth description of barycentric coordinates, see [Mathworld's Barycentric Coordinates Description](http://mathworld.wolfram.com/BarycentricCoordinates.html).
 
 ## Requirements
 

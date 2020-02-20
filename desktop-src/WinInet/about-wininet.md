@@ -41,11 +41,11 @@ For more information, see:
 
 The two primary Internet protocols are FTP and HTTP. For more information about these protocols, see the Request For Comments (RFC) documents for FTP and HTTP:
 
--   [RFC 959](https://go.microsoft.com/fwlink/p/?linkid=84546), *File Transfer Protocol (FTP)*.
--   [RFC 1945](https://go.microsoft.com/fwlink/p/?linkid=84520), *Hypertext Transfer Protocol - HTTP/1.0*.
--   [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048), *Hypertext Transfer Protocol - HTTP/1.1*.
+-   [RFC 959](https://www.ietf.org/rfc/rfc0959.txt), *File Transfer Protocol (FTP)*.
+-   [RFC 1945](ftp://ftp.isi.edu/in-notes/rfc1945.txt), *Hypertext Transfer Protocol - HTTP/1.0*.
+-   [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt), *Hypertext Transfer Protocol - HTTP/1.1*.
 
 > [!NOTE]  
 > (These resources may not be available in some languages and countries.)
 
-**Windows XP and Windows Server 2003 R2 and earlier:** The Gopher protocol was also supported. See [RFC 1436](https://go.microsoft.com/fwlink/p/?linkid=84551), *The Internet Gopher Protocol*.
+**Windows XP and Windows Server 2003 R2 and earlier:** The Gopher protocol was also supported. See [RFC 1436](https://www.ietf.org/rfc/rfc1436.txt), *The Internet Gopher Protocol*.

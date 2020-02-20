@@ -27,8 +27,8 @@ The key features of ReFS are:
 
 ## Resources
 
--   [Building Windows 8 Blog Post – Building the next generation file system for Windows: ReFS](https://go.microsoft.com/fwlink/p/?LinkId=325504)
--   [Application Compatibility and ReFS](https://go.microsoft.com/?linkid=9797693)
+-   [Building Windows 8 Blog Post – Building the next generation file system for Windows: ReFS](https://blogs.msdn.com/b/b8/archive/2012/01/16/building-the-next-generation-file-system-for-windows-refs.aspx)
+-   [Application Compatibility and ReFS](https://www.microsoft.com/download/en/details.aspx?id=29043)
 
  
 

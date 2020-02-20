@@ -14,7 +14,7 @@ api_location:
 
 # Displaying XML Output from WinRM Scripts
 
-Windows Remote Management scripts return XML rather than objects. The XML is not in a human-readable format. You can use the methods of the [MSXML](https://go.microsoft.com/fwlink/p/?linkid=57523) API and the preinstalled XSL file to transform the data into human-readable format.
+Windows Remote Management scripts return XML rather than objects. The XML is not in a human-readable format. You can use the methods of the [MSXML](https://msdn.microsoft.com/library/ms763742.aspx) API and the preinstalled XSL file to transform the data into human-readable format.
 
 For more information about WinRM XML output and examples of raw and formatted XML, see [Scripting in Windows Remote Management](scripting-in-windows-remote-management.md).
 
@@ -49,7 +49,7 @@ The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl tha
 
     
 
-4.  Supply the response to the MSXML [loadXML](https://go.microsoft.com/fwlink/p/?linkid=84374) method and the [load](https://go.microsoft.com/fwlink/p/?linkid=84377) method to store the transform file.
+4.  Supply the response to the MSXML [loadXML](https://msdn.microsoft.com/library/ms754585.aspx) method and the [load](https://msdn.microsoft.com/library/ms762722.aspx) method to store the transform file.
 
     ```VB
     xmlFile.LoadXml(xmlResponse)
@@ -59,7 +59,7 @@ The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl tha
 
     
 
-5.  Use the MSXML [transformNode](https://go.microsoft.com/fwlink/p/?linkid=84376) method and display or save the output.
+5.  Use the MSXML [transformNode](https://msdn.microsoft.com/library/ms761399.aspx) method and display or save the output.
 
     ```VB
     Wscript.Echo xmlFile.TransformNode(xslFile)

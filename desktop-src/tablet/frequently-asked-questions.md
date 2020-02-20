@@ -116,8 +116,8 @@ From the **Start** menu, select **Run**. Type in "msconfig" and press Enter. Sel
 
 ## Q. More FAQs and Other Resources
 
--   [Windows Vista Developer Center](https://go.microsoft.com/fwlink/p/?linkid=180479)
--   [Windows XP Tablet PC Edition Home Page](https://go.microsoft.com/fwlink/p/?linkid=9076)
+-   [Windows Vista Developer Center](https://msdn.microsoft.com/windows/default.aspx)
+-   [Windows XP Tablet PC Edition Home Page](https://www.microsoft.com/windows/tabletpc/)
 
  
 

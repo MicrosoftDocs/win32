@@ -42,8 +42,8 @@ The following tables describe the resource-definition statements.
 | **PLUGPLAY**                                  | Obsolete.                                                                                                                                                                       |
 | [**RCDATA**](rcdata-resource.md)             | Defines data resources. Data resources let you include binary data in the executable file.                                                                                      |
 | [**STRINGTABLE**](stringtable-resource.md)   | Defines string resources. String resources are Unicode or ASCII strings that can be loaded from the executable file.                                                            |
-| **TEXTINCLUDE**                               | A special resource that is interpreted by Visual C++. For more information, see [TN035](https://go.microsoft.com/fwlink/p/?linkid=83951).                                        |
-| **TYPELIB**                                   | A special resource that is used with the [/TLBID](https://go.microsoft.com/fwlink/p/?linkid=83960) and [/TLBOUT](https://go.microsoft.com/fwlink/p/?linkid=83947) linker options. |
+| **TEXTINCLUDE**                               | A special resource that is interpreted by Visual C++. For more information, see [TN035](https://msdn.microsoft.com/library/6t3612sk.aspx).                                        |
+| **TYPELIB**                                   | A special resource that is used with the [/TLBID](https://msdn.microsoft.com/library/b1kw34cb.aspx) and [/TLBOUT](https://msdn.microsoft.com/library/439ahd3s.aspx) linker options. |
 | [**User-Defined**](user-defined-resource.md) | Defines a resource that contains application-specific data.                                                                                                                     |
 | [**VERSIONINFO**](versioninfo-resource.md)   | Defines a version-information resource. Contains information such as the version number, intended operating system, and so on.                                                  |
 | **VXD**                                       | Obsolete.                                                                                                                                                                       |
@@ -52,7 +52,7 @@ The following tables describe the resource-definition statements.
 
  
 
-For more information about predefined MFC resources, see [TN023](https://go.microsoft.com/fwlink/p/?linkid=83962) and [TN024](https://go.microsoft.com/fwlink/p/?linkid=83975).
+For more information about predefined MFC resources, see [TN023](https://msdn.microsoft.com/En-US/Library/fy6fte8a.aspx) and [TN024](https://msdn.microsoft.com/library/xkd95027.aspx).
 
 ## Controls
 

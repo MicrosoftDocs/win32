@@ -87,14 +87,14 @@ While testing an app, make sure that it renders correctly in all the in-box them
 
 ## Resources
 
--   [Aero Style Classes, Parts, and States](https://go.microsoft.com/fwlink/p/?linkid=325433) (the new basic theme and high-contrast themes also use these states)
--   [Parts and States common to all visual styles](https://go.microsoft.com/fwlink/p/?linkid=325434)
--   [Using Visual Styles with Custom and Owner-Drawn Controls](https://go.microsoft.com/fwlink/p/?linkid=325435)
--   [GetSysColor function](https://go.microsoft.com/fwlink/p/?linkid=325436)
--   [W3C CSS Color Module Level 3](https://go.microsoft.com/fwlink/p/?linkid=203761)
--   [SystemColors Class](https://go.microsoft.com/fwlink/p/?linkid=325437)
--   [SystemParametersInfo function](https://go.microsoft.com/fwlink/p/?LinkId=325438)
--   [Microsoft Accessibility](https://go.microsoft.com/fwlink/p/?linkid=202480)
+-   [Aero Style Classes, Parts, and States](https://msdn.microsoft.com/library/ee453680(VS.85).aspx) (the new basic theme and high-contrast themes also use these states)
+-   [Parts and States common to all visual styles](https://msdn.microsoft.com/library/bb773210(v=VS.85).aspx)
+-   [Using Visual Styles with Custom and Owner-Drawn Controls](https://msdn.microsoft.com/library/dd373487(v=VS.85).aspx)
+-   [GetSysColor function](https://msdn.microsoft.com/library/ms724371(v=VS.85).aspx)
+-   [W3C CSS Color Module Level 3](https://www.w3.org/TR/css3-color/)
+-   [SystemColors Class](https://msdn.microsoft.com/library/system.windows.systemcolors.aspx)
+-   [SystemParametersInfo function](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx)
+-   [Microsoft Accessibility](https://www.microsoft.com/enable/)
 
  
 

@@ -14,7 +14,7 @@ The following table lists several documents that give detailed descriptions of h
 
 | Document                                      | Location                                                                                                        |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Tagged Image File Format (TIFF) Specification | [https://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf](https://go.microsoft.com/fwlink/p/?linkid=182491) |
+| Tagged Image File Format (TIFF) Specification | [https://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf](http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf) |
 | Exif Specification                            | <https://www.exif.org/specifications.html>                                                                       |
 | Portable Network Graphics (PNG) Specification | <https://www.w3.org/TR/REC-png.html>                                                                             |
 | ISO/IEC 10918-1 (JPEG)                        | <https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=18902>                         |

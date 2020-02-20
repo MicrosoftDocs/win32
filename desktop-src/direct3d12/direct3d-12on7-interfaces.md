@@ -17,4 +17,4 @@ The following interfaces are declared in d3d12downlevel.h.
 
 ## Related topics
 * [Direct3D 12 on Windows 7 reference (d3d12downlevel.h)](direct3d-12on7-reference.md)
-* [Direct3D 12 On Windows 7](http://aka.ms/d3d12on7)
+* [Direct3D 12 On Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

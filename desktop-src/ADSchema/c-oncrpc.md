@@ -627,10 +627,10 @@ This class contains the following attributes for Windows Server 2012:
 
 <dl> <dt>
 
-[RFC 1057](https://go.microsoft.com/fwlink/p/?linkid=84026)
+[RFC 1057](https://www.ietf.org/rfc/rfc1057.txt)
 </dt> <dt>
 
-[RFC 2307](https://go.microsoft.com/fwlink/p/?linkid=84039)
+[RFC 2307](https://www.ietf.org/rfc/rfc2307.txt)
 </dt> </dl>
 
  

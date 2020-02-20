@@ -24,7 +24,7 @@ Not all bugs can be found prior to release, which means not all bugs that throw 
 
 The basic options for writing a minidump are as follows:
 
--   Do nothing. Windows automatically generates a minidump whenever a program throws an unhandled exception. Automatic generation of a minidump is available since Windows XP. If the user allows it, the minidump will be sent to Microsoft, and not to the developer, through Windows Error Reporting (WER). Developers can gain access to these minidumps through the [Windows Desktop Application Program](http://aka.ms/desktopprogram).
+-   Do nothing. Windows automatically generates a minidump whenever a program throws an unhandled exception. Automatic generation of a minidump is available since Windows XP. If the user allows it, the minidump will be sent to Microsoft, and not to the developer, through Windows Error Reporting (WER). Developers can gain access to these minidumps through the [Windows Desktop Application Program](https://docs.microsoft.com/windows/win32/appxpkg/windows-desktop-application-program?redirectedfrom=MSDN).
 
     Use of WER requires:
 

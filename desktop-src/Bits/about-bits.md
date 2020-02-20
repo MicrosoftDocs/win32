@@ -22,7 +22,7 @@ BITS is also mindful of power usage. Starting with the Windows 10 May 2019 Updat
 
 The BITS application can use the different BITS [priority levels](/windows/desktop/api/Bits/ne-bits-bg_job_priority) to let BITS intelligently pick which transfer jobs to run. Higher priority jobs preempt lower priority jobs. Jobs at the same priority level share transfer time, which prevents a large job from blocking small jobs in the transfer queue. Lower priority jobs do not receive transfer time until all higher priority jobs are complete or in an error state.
 
-BITS uses Windows BranchCache for peer caching. For more information, see the [BranchCache Overview](https://go.microsoft.com/fwlink/p/?linkid=150953).
+BITS uses Windows BranchCache for peer caching. For more information, see the [BranchCache Overview](https://technet.microsoft.com/library/dd755969(WS.10).aspx).
 
 Universal Windows Platform (UWP) developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
 

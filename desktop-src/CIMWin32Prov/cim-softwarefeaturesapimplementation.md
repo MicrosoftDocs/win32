@@ -23,7 +23,7 @@ api_location:
 The **CIM\_SoftwareFeatureSAPImplementation** class represents an association between a service access point (SAP) and how it is implemented in software. A SAP can be provided by more than one software feature to operate in conjunction with one another. Additionally, a software feature can provide more than one SAP. When many software features are associated with a single SAP, it is assumed that the elements operate in conjunction to provide the access point. If different implementations of a SAP exist, each implementation would result in individual instantiations of the SAP object. Individual instantiations would then have associations to the unique implementations.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

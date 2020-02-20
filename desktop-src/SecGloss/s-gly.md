@@ -379,7 +379,7 @@ A data content type defined by PKCS \#7. This data type consists of any type of 
 <span id="_security_simple_certificate_enrollment_protocol_gly"></span><span id="_SECURITY_SIMPLE_CERTIFICATE_ENROLLMENT_PROTOCOL_GLY"></span>**Simple Certificate Enrollment Protocol**
 </dt> <dd>
 
-(SCEP) An acronym that stands for Simple Certificate Enrollment Protocol. The protocol is currently a draft Internet standard which defines the communication between network devices and a registration authority (RA) for certificate enrollment. For more information, see [Microsoft SCEP Implementation White Paper](https://go.microsoft.com/fwlink/p/?linkid=94437).
+(SCEP) An acronym that stands for Simple Certificate Enrollment Protocol. The protocol is currently a draft Internet standard which defines the communication between network devices and a registration authority (RA) for certificate enrollment. For more information, see [Microsoft SCEP Implementation White Paper](https://www.microsoft.com/downloads/details.aspx?FamilyID=e11780de-819f-40d7-8b8e-10845bc8d446).
 
 </dd> <dt>
 

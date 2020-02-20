@@ -108,7 +108,7 @@ One final possibility is to write a custom service. In general, writing a custom
 
 Ultimately, it is up to you to decide which method to implement. You need to weigh the factors are that are important to you. Security, frequency of patching, ease of use by customer, workload required to implement, complexity of solution, and platform feature compliance are the factors that each developer must consider before deciding on a particular method.
 
-You can find more information about user account protection in [Windows Vista Application Development Requirements for User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=81232).
+You can find more information about user account protection in [Windows Vista Application Development Requirements for User Account Control (UAC)](https://msdn2.microsoft.com/library/aa905330.aspx).
 
  
 

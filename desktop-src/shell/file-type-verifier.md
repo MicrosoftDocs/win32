@@ -14,7 +14,7 @@ For instructions on using the File Type Verifier, see [How To Use the File Type 
 
 ## About the File Type Verifier Tool
 
-File Type Verifier is a program that is available as part of the [Windows 7 SDK](https://go.microsoft.com/fwlink/p/?linkid=129787). It is designed to help developers who create custom Windows [File Types](fa-file-types.md) to detect potential issues with their file types. Although the File Type Verifier runs only on Windows 7 and later, the rules that the File Type Verifier enforces apply to all versions of Windows where the features it checks are available.
+File Type Verifier is a program that is available as part of the [Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx). It is designed to help developers who create custom Windows [File Types](fa-file-types.md) to detect potential issues with their file types. Although the File Type Verifier runs only on Windows 7 and later, the rules that the File Type Verifier enforces apply to all versions of Windows where the features it checks are available.
 
 The File Type Verifier runs several tests on the file type to verify that it is properly registered, and that it provides the appropriate [File Type Handlers](fa-file-extensions.md) to display the file type properly in Windows Explorer, and when appropriate, that it supports indexing the file content.
 

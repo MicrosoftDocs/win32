@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Debugging Custom Actions
 
-You can debug custom actions that are based on [dynamic-link libraries](dynamic-link-libraries.md) by using [Debugging Tools for Windows](https://go.microsoft.com/fwlink/p/?linkid=84137). It is not possible to use dynamic debugging with custom actions based on [executable files](executable-files.md) or [scripts](scripts.md).
+You can debug custom actions that are based on [dynamic-link libraries](dynamic-link-libraries.md) by using [Debugging Tools for Windows](https://www.microsoft.com/?ref=go). It is not possible to use dynamic debugging with custom actions based on [executable files](executable-files.md) or [scripts](scripts.md).
 
-The techniques described in this section can help you debug Windows Installer custom actions. See the Driver Development Tools section of the Windows Driver Kit (WDK) for information about [Debugging Tools for Windows](https://go.microsoft.com/fwlink/p/?linkid=84137).
+The techniques described in this section can help you debug Windows Installer custom actions. See the Driver Development Tools section of the Windows Driver Kit (WDK) for information about [Debugging Tools for Windows](https://www.microsoft.com/?ref=go).
 
 Windows Installer uses the MsiBreak environment variable to determine which custom action is to be debugged. If you have access to the custom action's source code, you may be able to use debugging without MsiBreak. To start debugging without MsiBreak, put a temporary message box at the beginning of the action's code. When the message box appears during the installation, attach the debugger to the process owning the message box. You can then set any necessary breakpoints and dismiss the message box to resume execution. It is not possible to debug the earlier portions of the custom action by this method.
 

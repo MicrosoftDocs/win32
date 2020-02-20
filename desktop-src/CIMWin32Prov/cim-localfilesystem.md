@@ -40,7 +40,7 @@ api_location:
 The **CIM\_LocalFileSystem** class represents the file store controlled by a computer system through local means (for example, direct device-driver access). The file store can be managed directly by the computer system, without the need for another computer to act as a file server. For a clustered file system, however, the file system is local and, therefore, defers to the cluster.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

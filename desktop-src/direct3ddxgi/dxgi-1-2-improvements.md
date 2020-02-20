@@ -95,7 +95,7 @@ This DXGI 1.2 feature consists of the following methods.
 
 You can use the [**ID3D11Debug::SetFeatureMask**](https://msdn.microsoft.com/library/Ff476371(v=VS.85).aspx) method to set feature-mask flags that debug the behavior of the [**IDXGIDevice2::OfferResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-offerresources) and [**IDXGIDevice2::ReclaimResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-reclaimresources) methods in your app.
 
-The [Direct3D 11.1 Offer and Reclaim Resources Sample](https://go.microsoft.com/fwlink/p/?linkid=239948) shows how to use these APIs.
+The [Direct3D 11.1 Offer and Reclaim Resources Sample](https://code.msdn.microsoft.com/Direct3D-111-Offer-and-c7fbb32d) shows how to use these APIs.
 
 ## GPU preemption at finer granularity levels for WDDM 1.2 driver model
 

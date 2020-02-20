@@ -29,7 +29,7 @@ To access the Web Application Proxy, administrators can go to Server Manager and
 
 ## Resources
 
--   [Solution guide](https://go.microsoft.com/fwlink/p/?LinkId=325314)
+-   [Solution guide](https://technet.microsoft.com/library/dn280942.aspx)
 
  
 

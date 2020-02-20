@@ -82,7 +82,7 @@ Size, in characters, of the Unicode string indicated by *lpString*. The applicat
 *lpScripts* \[out\]
 </dt> <dd>
 
-Pointer to a buffer in which this function retrieves a null-terminated string representing a list of scripts, using the 4-character notation used in [ISO 15924](https://go.microsoft.com/fwlink/p/?linkid=161644). Each script name consists of four Latin characters, and the names are retrieved in alphabetical order. Each name, including the last, is followed by a semicolon.
+Pointer to a buffer in which this function retrieves a null-terminated string representing a list of scripts, using the 4-character notation used in [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html). Each script name consists of four Latin characters, and the names are retrieved in alphabetical order. Each name, including the last, is followed by a semicolon.
 
 Alternatively, this parameter can contain **NULL** if *cchScripts* set to 0. In this case, the function returns the required size for the script buffer.
 
@@ -204,7 +204,7 @@ Unassigned
 
  
 
-The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en%0A) download, available at the [MSDN Download Center](https://go.microsoft.com/fwlink/p/?linkid=362).
+The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en%0A) download, available at the [MSDN Download Center](https://www.microsoft.com/?ref=go).
 
 ## Requirements
 

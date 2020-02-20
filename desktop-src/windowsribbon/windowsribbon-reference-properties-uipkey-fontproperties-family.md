@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_Family is used by an application to query the value of the **Font family** drop-down gallery.
 
-The value of UI\_PKEY\_FontProperties\_Family matches a [Windows GDI Font Families](https://go.microsoft.com/fwlink/p/?linkid=152890) name retrieved with the [EnumFontFamilies function](https://go.microsoft.com/fwlink/p/?linkid=152891) or [EnumFontFamiliesEx function](https://go.microsoft.com/fwlink/p/?linkid=152892).
+The value of UI\_PKEY\_FontProperties\_Family matches a [Windows GDI Font Families](https://msdn.microsoft.com/library/dd144832.aspx) name retrieved with the [EnumFontFamilies function](https://msdn.microsoft.com/library/dd162619.aspx) or [EnumFontFamiliesEx function](https://msdn.microsoft.com/library/dd162620.aspx).
 
 The default value is an empty string.
 

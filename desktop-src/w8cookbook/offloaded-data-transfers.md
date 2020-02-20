@@ -52,10 +52,10 @@ To advance the storage data movement, Microsoft has developed a new data transfe
 ## Resources
 
 -   T10 XCOPY Lite Spec (11-059r8)
-    -   [https://www.t10.org/cgi-bin/ac.pl?t=f&f=spc4r35b.pdf](https://go.microsoft.com/fwlink/p/?LinkId=325473)
-    -   [https://www.t10.org/cgi-bin/ac.pl?t=f&f=sbc3r30.pdf](https://go.microsoft.com/fwlink/p/?LinkId=325474)
--   [Hardware Dashboard Services](https://go.microsoft.com/fwlink/p/?LinkId=327702)
--   [SCSI\_PASS\_THROUGH Structure](https://go.microsoft.com/fwlink/p/?LinkId=325475)
+    -   [https://www.t10.org/cgi-bin/ac.pl?t=f&f=spc4r35b.pdf](https://www.t10.org/cgi-bin/ac.pl?t=f&f=spc4r35b.pdf)
+    -   [https://www.t10.org/cgi-bin/ac.pl?t=f&f=sbc3r30.pdf](https://www.t10.org/cgi-bin/ac.pl?t=f&f=sbc3r30.pdf)
+-   [Hardware Dashboard Services](https://msdn.microsoft.com/windows/hardware/br230803.aspx)
+-   [SCSI\_PASS\_THROUGH Structure](https://msdn.microsoft.com/library/ff565345(VS.85).aspx)
 
  
 

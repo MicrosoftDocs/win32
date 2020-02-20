@@ -14,7 +14,7 @@ The [**ICategoryCollection**](/windows/desktop/api/Wuapi/nn-wuapi-icategorycolle
 
 | Property                                          | Description                                                                                                                     |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get__newenum) | Gets an [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) interface that can be used to enumerate the collection. |
+| [**\_NewEnum**](/windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get__newenum) | Gets an [IEnumVARIANT](https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-ienumvariant?redirectedfrom=MSDN) interface that can be used to enumerate the collection. |
 | [**Count**](/windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get_count)        | Gets the number of elements in the collection.                                                                                  |
 | [**Item**](/windows/desktop/api/Wuapi/nf-wuapi-icategorycollection-get_item)          | Gets an [**ICategory**](/windows/desktop/api/Wuapi/nn-wuapi-icategory) interface from the collection.                                                           |
 

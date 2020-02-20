@@ -27,7 +27,7 @@ The depth of the element tree for the verification target.
 [Guidelines for Keyboard User Interface Design](https://msdn.microsoft.com/library/ms971323(v=MSDN.10).aspx)
 </dt> <dt>
 
-[Windows User Experience Interaction Guidelines - Keyboard](https://go.microsoft.com/fwlink/p/?linkid=255237)
+[Windows User Experience Interaction Guidelines - Keyboard](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
 </dt> </dl>
 
  

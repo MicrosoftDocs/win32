@@ -32,7 +32,7 @@ A VSS writer can exclude files from a shadow copy as follows:
 >
 > -   It cannot delete files from a shadow copy that was created on a Windows Server by using the Previous Versions feature.
 > -   It cannot delete files from shadow copies for shared folders.
-> -   It can delete files from a shadow copy that was created by using the [DiskShadow](https://go.microsoft.com/fwlink/p/?linkid=117722) utility, but it cannot delete files from a shadow copy that was created by using the [Vssadmin](https://go.microsoft.com/fwlink/p/?linkid=103401) utility.
+> -   It can delete files from a shadow copy that was created by using the [DiskShadow](https://technet.microsoft.com/library/e962537d-b759-4368-b6f1-e8391cf7b221) utility, but it cannot delete files from a shadow copy that was created by using the [Vssadmin](https://technet.microsoft.com/library/df7eb505-43c6-42af-ab42-3095f96ffc27) utility.
 > -   Files are deleted from a shadow copy on a best-effort basis. This means that they are not guaranteed to be deleted.
 
  

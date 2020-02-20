@@ -141,7 +141,7 @@ The following code example gets the lists of the different resources that are us
 [**IXpsOMPartResources**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompartresources)
 </dt> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

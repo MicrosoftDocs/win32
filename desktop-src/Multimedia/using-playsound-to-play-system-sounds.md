@@ -38,7 +38,7 @@ The sound events that are predefined by the system can vary with the platform. T
 -   SystemQuestion
 -   SystemStart
 
-If an application registers its own sound events, the user can configure the sound event by using the standard Control Panel interface. The application should register the sound event by using the standard registry functions; for more information, see [Registry](https://go.microsoft.com/fwlink/p/?linkid=17106). The entries belong at the same position in the registry hierarchy as the rest of the sound events. This position varies with the Win32 implementation. The appropriate data value also varies with the implementation.
+If an application registers its own sound events, the user can configure the sound event by using the standard Control Panel interface. The application should register the sound event by using the standard registry functions; for more information, see [Registry](https://msdn.microsoft.com/library/ms724871.aspx). The entries belong at the same position in the registry hierarchy as the rest of the sound events. This position varies with the Win32 implementation. The appropriate data value also varies with the implementation.
 
 The [**sndPlaySound**](https://msdn.microsoft.com/library/Dd798676(v=VS.85).aspx) function always searches the registry for a keyname matching *lpszSound* before attempting to load a file with this name. The [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx) function accepts flags that specify the location of the sound.
 

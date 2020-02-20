@@ -17,7 +17,7 @@ api_location:
 The [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) class writes a message to the Windows Event log when a specified event occurs. This class is a standard event consumer that WMI provides.
 
 > [!Note]  
-> Authenticated users cannot, by default, log events to the Application log on a remote computer. As a result, the example described in this topic will fail if you use the **UNCServerName** property of the [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) class and specify a remote computer as its value. To learn how to change event log security, consult this [KB article](https://go.microsoft.com/fwlink/p/?linkid=98071).
+> Authenticated users cannot, by default, log events to the Application log on a remote computer. As a result, the example described in this topic will fail if you use the **UNCServerName** property of the [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) class and specify a remote computer as its value. To learn how to change event log security, consult this [KB article](https://support.microsoft.com/kb/323076).
 
  
 

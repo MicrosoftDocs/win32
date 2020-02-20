@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobBindAllDocuments
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Describes the method of binding. All documents in the job are bound together. JobBindAllDocuments and DocumentBinding are mutually exclusive. It is up to the driver to determine constraint handling between these keywords.
 
@@ -58,7 +58,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                               | Data type          | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                                                                                                                |
 |------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_OptionName\_<br/>          | string<br/>  | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                                                                                                                     |
+| \_OptionName\_<br/>          | string<br/>  | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                                                                                                                     |
 | \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/>                                                                                           |
 | \_BindingGutterValue\_<br/>  | integer<br/> | microns<br/>    | Greater than 0.<br/>                                                                                                                                                            | Defines minimum binding gutter for the specified finishing binding. The gutter is measured in microns relative to the edge of the physical media dimension.<br/> |
 
@@ -162,7 +162,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

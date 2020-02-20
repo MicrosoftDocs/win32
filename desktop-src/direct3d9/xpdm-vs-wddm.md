@@ -58,7 +58,7 @@ A Windows service is a process that runs in the background, controlled by the se
  
 
 > [!Note]  
-> You cannot use Direct3D 9 in a Windows service. For more information, see [Microsoft support article 978635](https://go.microsoft.com/fwlink/p/?linkid=215637).
+> You cannot use Direct3D 9 in a Windows service. For more information, see [Microsoft support article 978635](https://support.microsoft.com/kb/978635).
 
  
 

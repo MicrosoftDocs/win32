@@ -153,7 +153,7 @@ The effect performs the transform operation and then applies a bounding box arou
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D interpolation modes sample](https://go.microsoft.com/fwlink/p/?linkid=253990).
+For an example of this effect, download the [Direct2D interpolation modes sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-interpolation-0fa5420a).
 
 ## Requirements
 

@@ -83,7 +83,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>ComputeNormalMap</strong>.
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>ComputeNormalMap</strong>.
 </blockquote>
 <br/> Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.<br/></td>
 </tr>
@@ -162,8 +162,8 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <p>[!Note]<br />
 Instead of using this function, we recommend that you use these:</p>
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromFile</strong> (where XXX is DDS or WIC)</li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
+<li><a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromFile</strong> (where XXX is DDS or WIC)</li>
+<li><a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
 </ul>
 </blockquote>
 <br/> Create a shader-resource view from a file.<br/></td>
@@ -179,8 +179,8 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <p>[!Note]<br />
 Instead of using this function, we recommend that you use these:</p>
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
+<li><a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
+<li><a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
 </ul>
 </blockquote>
 <br/> Create a shader-resource view from a file in memory.<br/></td>
@@ -196,8 +196,8 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <p>[!Note]<br />
 Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then these:</p>
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
+<li><a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
+<li><a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateShaderResourceView</strong></li>
 </ul>
 </blockquote>
 <br/> Create a shader-resource view from a resource.<br/></td>
@@ -213,8 +213,8 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <p>[!Note]<br />
 Instead of using this function, we recommend that you use these:</p>
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromFile</strong> (where XXX is DDS or WIC)</li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
+<li><a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromFile</strong> (where XXX is DDS or WIC)</li>
+<li><a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
 </ul>
 </blockquote>
 <br/> Create a texture resource from a file.<br/></td>
@@ -230,8 +230,8 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <p>[!Note]<br />
 Instead of using this function, we recommend that you use these:</p>
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
+<li><a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
+<li><a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
 </ul>
 </blockquote>
 <br/> Create a texture resource from a file residing in system memory.<br/></td>
@@ -247,8 +247,8 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <p>[!Note]<br />
 Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then these:</p>
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
+<li><a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library (runtime), <strong>CreateXXXTextureFromMemory</strong> (where XXX is DDS or WIC)</li>
+<li><a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then <strong>CreateTexture</strong></li>
 </ul>
 </blockquote>
 <br/> Create a texture from another resource.<br/></td>
@@ -270,7 +270,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>GenerateMipMaps</strong> and <strong>GenerateMipMaps3D</strong>.
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>GenerateMipMaps</strong> and <strong>GenerateMipMaps3D</strong>.
 </blockquote>
 <br/> Generates mipmap chain using a particular texture filter.<br/></td>
 </tr>
@@ -283,7 +283,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>GetMetadataFromXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>GetMetadataFromXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 </blockquote>
 <br/> Retrieves information about a given image file.<br/></td>
 </tr>
@@ -296,7 +296,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>GetMetadataFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>GetMetadataFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 </blockquote>
 <br/> Get information about an image already loaded into memory.<br/></td>
 </tr>
@@ -309,7 +309,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then use <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+Instead of using this function, we recommend that you use <a href="https://docs.microsoft.com/windows/desktop/menurc/resources-functions">resource functions</a>, then use <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library (tools), <strong>LoadFromXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 </blockquote>
 <br/> Retrieves information about a given image in a resource.<br/></td>
 </tr>
@@ -322,7 +322,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>Resize</strong>, <strong>Convert</strong>, <strong>Compress</strong>, <strong>Decompress</strong>, and/or <strong>CopyRectangle</strong>.
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>Resize</strong>, <strong>Convert</strong>, <strong>Compress</strong>, <strong>Decompress</strong>, and/or <strong>CopyRectangle</strong>.
 </blockquote>
 <br/> Load a texture from a texture.<br/></td>
 </tr>
@@ -374,7 +374,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>CaptureTexture</strong> then <strong>SaveToXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). For the simplified scenario of creating a screen shot from a render target texture, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248929">DirectXTK</a> library, <strong>SaveDDSTextureToFile</strong> or <strong>SaveWICTextureToFile</strong>.
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>CaptureTexture</strong> then <strong>SaveToXXXFile</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). For the simplified scenario of creating a screen shot from a render target texture, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a> library, <strong>SaveDDSTextureToFile</strong> or <strong>SaveWICTextureToFile</strong>.
 </blockquote>
 <br/> Save a texture to a file.<br/></td>
 </tr>
@@ -387,7 +387,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?linkid=248926">DirectXTex</a> library, <strong>CaptureTexture</strong> then <strong>SaveToXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a> library, <strong>CaptureTexture</strong> then <strong>SaveToXXXMemory</strong> (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 </blockquote>
 <br/> Save a texture to memory.<br/></td>
 </tr>
@@ -400,7 +400,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the <a href="https://go.microsoft.com/fwlink/p/?LinkId=262885">Spherical Harmonics Math</a> library, <strong>SHProjectCubeMap</strong>.
+Instead of using this function, we recommend that you use the <a href="https://github.com/Microsoft/DirectXMath/tree/master/SHMath">Spherical Harmonics Math</a> library, <strong>SHProjectCubeMap</strong>.
 </blockquote>
 <br/> Projects a function represented in a cube map into spherical harmonics.<br/></td>
 </tr>

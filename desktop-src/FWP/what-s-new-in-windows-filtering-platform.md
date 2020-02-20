@@ -15,7 +15,7 @@ Windows 8 and Windows Server 2012 introduce new Windows Filtering Platform pro
 -   *App container management*: Allows access to information about app containers and network isolation connectivity issues.
 -   *IPsec updates*: Extended IPsec functionality including connection state monitoring, certificate selection, and key management.
 
-The Windows Driver Kit also includes information on [WFP Changes for Windows 8](https://go.microsoft.com/fwlink/p/?LinkId=262707).
+The Windows Driver Kit also includes information on [WFP Changes for Windows 8](https://msdn.microsoft.com/library/windows/hardware/hh440281(v=vs.85).aspx).
 
 ## Windows 8 API updates
 
@@ -173,7 +173,7 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 
 ## Windows 7 updates to the Windows Filtering Platform
 
-The document [What's New in Windows Filtering Platform](https://go.microsoft.com/fwlink/p/?LinkId=140050) details many of the updates made for Windows 7. Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](https://go.microsoft.com/fwlink/p/?LinkId=262711).
+The document [What's New in Windows Filtering Platform](https://go.microsoft.com/fwlink/p/?LinkId=140050) details many of the updates made for Windows 7. Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](https://msdn.microsoft.com/library/windows/hardware/ff571062(v=vs.85).aspx).
 
  
 

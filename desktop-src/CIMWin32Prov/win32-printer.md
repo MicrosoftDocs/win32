@@ -2602,7 +2602,7 @@ Access type: Read-only
 Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Printer**](cim-printer.md).**PaperTypesAvailable**")
 </dt> </dl>
 
-Paper type that the printer uses—unless a print job specifies a different paper type. The string must be expressed in the form specified by ISO/IEC 1017 Document Printing Application (DPA), which is summarized in Appendix C of [RFC 1759](https://go.microsoft.com/fwlink/p/?linkid=84407) (Printer MIB).
+Paper type that the printer uses—unless a print job specifies a different paper type. The string must be expressed in the form specified by ISO/IEC 1017 Document Printing Application (DPA), which is summarized in Appendix C of [RFC 1759](https://www.ietf.org/rfc/rfc1759.txt) (Printer MIB).
 
 This property is inherited from [**CIM\_Printer**](cim-printer.md).
 
@@ -3960,7 +3960,7 @@ Access type: Read-only
 Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtLocalizationLanguage"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.NaturalLanguage")
 </dt> </dl>
 
-Array of languages supported for strings that the printer uses for output of management information. Must conform to [RFC 1766](https://go.microsoft.com/fwlink/p/?linkid=84408). For example, "en" is used for English.
+Array of languages supported for strings that the printer uses for output of management information. Must conform to [RFC 1766](https://www.ietf.org/rfc/rfc1766.txt). For example, "en" is used for English.
 
 This property is inherited from [**CIM\_Printer**](cim-printer.md).
 
@@ -4602,7 +4602,7 @@ Access type: Read-only
 Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\_PrintJob.RequiredPaperType", "CIM\_PrintService.PaperTypesAvailable"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|Printer-MIB.prtInputMediaName")
 </dt> </dl>
 
-Array of paper types that are currently available on the printer. Each string must be expressed in the format specified by ISO/IEC 10175 Document Printing Application (DPA), which is summarized in Appendix C of [RFC 1759](https://go.microsoft.com/fwlink/p/?linkid=84407) (Printer MIB). Any paper size identified in this property must also appear in the **PaperSizesSupported** property.
+Array of paper types that are currently available on the printer. Each string must be expressed in the format specified by ISO/IEC 10175 Document Printing Application (DPA), which is summarized in Appendix C of [RFC 1759](https://www.ietf.org/rfc/rfc1759.txt) (Printer MIB). Any paper size identified in this property must also appear in the **PaperSizesSupported** property.
 
 This property is inherited from [**CIM\_Printer**](cim-printer.md).
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Device Drivers
 
-This documentation is for user-mode applications that want to use ETW for event tracing. This documentation is not for device drivers that run in kernel-mode. For those writing device drivers and kernel-mode applications that want to use ETW as a low-impact debugger to troubleshoot timing-related problems, see [Event Tracing for Windows](https://go.microsoft.com/fwlink/p/?linkid=94371), [WPP Software Tracing](https://go.microsoft.com/fwlink/p/?linkid=94372), and [WMI Event Tracing](https://go.microsoft.com/fwlink/p/?linkid=94373) in the Windows Driver Kit (WDK) for information on instrumenting your driver.
+This documentation is for user-mode applications that want to use ETW for event tracing. This documentation is not for device drivers that run in kernel-mode. For those writing device drivers and kernel-mode applications that want to use ETW as a low-impact debugger to troubleshoot timing-related problems, see [Event Tracing for Windows](https://msdn.microsoft.com/library/ff545699.aspx), [WPP Software Tracing](https://msdn.microsoft.com/library/ff556204.aspx), and [WMI Event Tracing](https://msdn.microsoft.com/library/ff566350.aspx) in the Windows Driver Kit (WDK) for information on instrumenting your driver.
 
  
 

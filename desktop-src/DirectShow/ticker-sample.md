@@ -16,7 +16,7 @@ The application creates a bitmap with a default text string and scrolls it acros
 
 ## Downloading the Sample
 
-To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787).
+To download the DirectShow SDK samples, install the latest version of the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ## Related topics
 

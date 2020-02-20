@@ -86,7 +86,7 @@ The length, in bytes, of the key description. The key description is a null-term
 
 ## Remarks
 
-This structure is included in the Ncrypt\_provider.h header. To use the structure, you must download the [Cryptographic Provider Development Kit](https://go.microsoft.com/fwlink/p/?linkid=226756) from Microsoft Connect.
+This structure is included in the Ncrypt\_provider.h header. To use the structure, you must download the [Cryptographic Provider Development Kit](https://docs.microsoft.com/collaborate/connect-redirect?ProgramID=7264&InvitationID=CSDK-GYTG-R2PX) from Microsoft Connect.
 
 ## Requirements
 

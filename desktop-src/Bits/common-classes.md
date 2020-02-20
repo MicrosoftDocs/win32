@@ -34,7 +34,7 @@ The MyException class is a generic exception class that accepts an HRESULT code 
 
 ## 
 
-The following code example defines a resource acquisition helper class for the [CoInitializeEx](https://go.microsoft.com/fwlink/p/?linkid=162303) function.
+The following code example defines a resource acquisition helper class for the [CoInitializeEx](https://msdn.microsoft.com/library/ms695279.aspx) function.
 
 
 ```C++
@@ -59,7 +59,7 @@ public:
 
 
 
-The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](https://go.microsoft.com/fwlink/p/?linkid=162332) method to be called after every exception block.
+The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](https://msdn.microsoft.com/library/ms688715.aspx) method to be called after every exception block.
 
 ## 
 
@@ -102,7 +102,7 @@ The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windo
 
 CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred), [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification), and [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror). All of these methods take an [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) job object.
 
-This example uses the [CoTaskMemFree](https://go.microsoft.com/fwlink/p/?linkid=134839) to free memory resources.
+This example uses the [CoTaskMemFree](https://msdn.microsoft.com/library/ms680722.aspx) to free memory resources.
 
 ## 
 
@@ -414,10 +414,10 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob)
 </dt> <dt>
 
-[CoInitializeEx](https://go.microsoft.com/fwlink/p/?linkid=162303)
+[CoInitializeEx](https://msdn.microsoft.com/library/ms695279.aspx)
 </dt> <dt>
 
-[CoUninitialize](https://go.microsoft.com/fwlink/p/?linkid=162332)
+[CoUninitialize](https://msdn.microsoft.com/library/ms688715.aspx)
 </dt> </dl>
 
  

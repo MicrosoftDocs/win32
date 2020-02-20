@@ -31,7 +31,7 @@ The property value is from the [**UI\_SWATCHCOLORTYPE**](https://docs.microsoft.
 |                                |                                                                                                                                                                                 |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UI\_SWATCHCOLORTYPE\_NOCOLOR   | Application should treat the color setting as transparent. Typically used in conjunction with the **No color** color setting.                                                   |
-| UI\_SWATCHCOLORTYPE\_AUTOMATIC | Application should query [GetSysColor(COLOR\_WINDOWTEXT)](https://go.microsoft.com/fwlink/p/?linkid=143871). Typically used in conjunction with the **Automatic** color setting. |
+| UI\_SWATCHCOLORTYPE\_AUTOMATIC | Application should query [GetSysColor(COLOR\_WINDOWTEXT)](https://msdn.microsoft.com/library/ms724371.aspx). Typically used in conjunction with the **Automatic** color setting. |
 | UI\_SWATCHCOLORTYPE\_RGB       | Application should query [UI\_PKEY\_Color](windowsribbon-reference-properties-uipkey-color.md) for the color setting.                                                          |
 
 

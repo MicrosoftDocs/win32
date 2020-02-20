@@ -27,7 +27,7 @@ With, SQL Server 7.0, ADSI, and the OLE DB Provider, it is possible to join data
 
     
 
-    In this line, the arguments for the [sp\_addlinkedserver](https://go.microsoft.com/fwlink/p/?linkid=83926) System Stored Procedure are as follows:
+    In this line, the arguments for the [sp\_addlinkedserver](https://msdn.microsoft.com/library/Aa259589.aspx) System Stored Procedure are as follows:
 
     -   " ADSI" is the **server** argument, which will be the name of this linked server.
     -   "Active Directory Services" is the **srvproduct** argument, which is the name of the OLE DB data source that you are adding as a linked server.
@@ -36,11 +36,11 @@ With, SQL Server 7.0, ADSI, and the OLE DB Provider, it is possible to join data
 
     You can now use the linked server to access Active Directory from SQL Server.
 
-4.  The next example performs a query using the [OPENQUERY](https://go.microsoft.com/fwlink/p/?linkid=83923) statement. This statement has two arguments: ADSI, which is the name of the linked server that you just created, and a query statement. The query statement contains the following items:
+4.  The next example performs a query using the [OPENQUERY](https://msdn.microsoft.com/library/Aa276848.aspx) statement. This statement has two arguments: ADSI, which is the name of the linked server that you just created, and a query statement. The query statement contains the following items:
 
-    -   The [SELECT](https://go.microsoft.com/fwlink/p/?linkid=83924) statement contains the list of data that will be obtained from the directory service. You will need to use the LDAP display name to indicate which data you are searching for.
-    -   The [FROM](https://go.microsoft.com/fwlink/p/?linkid=83922) statement contains the name of the linked directory server where this information will be obtained from.
-    -   The [WHERE](https://go.microsoft.com/fwlink/p/?linkid=83927) statement provides the search conditions. In this example, it is searching for users.
+    -   The [SELECT](https://msdn.microsoft.com/library/Aa259187.aspx) statement contains the list of data that will be obtained from the directory service. You will need to use the LDAP display name to indicate which data you are searching for.
+    -   The [FROM](https://msdn.microsoft.com/library/Aa258869.aspx) statement contains the name of the linked directory server where this information will be obtained from.
+    -   The [WHERE](https://msdn.microsoft.com/library/Aa260674.aspx) statement provides the search conditions. In this example, it is searching for users.
 
     Type and execute:
 

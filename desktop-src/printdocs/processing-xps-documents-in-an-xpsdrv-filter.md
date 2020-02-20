@@ -16,7 +16,7 @@ For more information about XPS Filters and XPSDrv printer drivers, see [XPS Filt
 
 <dl> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

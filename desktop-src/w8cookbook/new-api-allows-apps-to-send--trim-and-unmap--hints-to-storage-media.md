@@ -88,8 +88,8 @@ There are no comparable APIs in earlier operating system releases. There should 
 
 ## Resources
 
--   [T13 specification](https://go.microsoft.com/fwlink/p/?LinkId=325502)
--   [T10 SCSI specification](https://go.microsoft.com/fwlink/p/?LinkId=325503)
+-   [T13 specification](http://www.t13.org/Standards/Default.aspx?DocumentType=3)
+-   [T10 SCSI specification](https://www.t10.org/)
 
  
 

@@ -60,7 +60,7 @@ The following security considerations must be taken into account when using the 
 -   When the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set, COM hardens the security descriptor of the process object in the case of RunAs "Activator" COM servers. For such servers, the COM client is expected to harden the token that it uses for the COM activation.
 -   When the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set, COM hardens the security descriptor of the process object in the case of RunAs "This User" COM servers. It also hardens the process token of the COM server since the COM SCM is the entity that creates the token.
 
-The **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is supported in Windows XP, Windows Server 2003, Windows Vista, and Windows Server 2008 only when the MSRC8322 patch ([security bulletin MS09-012](https://go.microsoft.com/fwlink/p/?linkid=184379)) is applied. It is natively supported in Windows 7 and later versions of Windows.
+The **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is supported in Windows XP, Windows Server 2003, Windows Vista, and Windows Server 2008 only when the MSRC8322 patch ([security bulletin MS09-012](https://support.microsoft.com/kb/959454)) is applied. It is natively supported in Windows 7 and later versions of Windows.
 
 The **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag applies only to COM servers that are configured to RunAs "Activator" or "This User". It does not apply to COM servers that are NT services.
 

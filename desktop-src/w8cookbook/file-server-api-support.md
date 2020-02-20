@@ -31,7 +31,7 @@ Certain APIs are not supported with all protocols or in all scenarios while othe
 
 ## Resources
 
--   [API Support and Compatibility Matrix](https://go.microsoft.com/?linkid=9797692)
+-   [API Support and Compatibility Matrix](https://www.microsoft.com/download/en/details.aspx?id=29043)
 
  
 

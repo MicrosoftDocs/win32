@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using WinHTTP Tools
 
-For the commands you can use in Windows Vista and later to configure proxy and tracing settings for Windows HTTP , see [Netsh Commands for Windows Hypertext Transfer Protocol (WINHTTP)](https://go.microsoft.com/fwlink/p/?linkid=165430).
+For the commands you can use in Windows Vista and later to configure proxy and tracing settings for Windows HTTP , see [Netsh Commands for Windows Hypertext Transfer Protocol (WINHTTP)](https://technet.microsoft.com/ja-jp/library/cc731131(WS.10).aspx).
 
 **Windows Server 2003 and Earlier:** There are several tools that are available to help you write and debug your applications. They are explained in the following topics:
 

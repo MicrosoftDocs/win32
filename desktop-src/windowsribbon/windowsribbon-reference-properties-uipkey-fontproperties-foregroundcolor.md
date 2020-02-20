@@ -33,7 +33,7 @@ The default value is `0x00000000`.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[COLORREF](https://go.microsoft.com/fwlink/p/?linkid=133391)
+[COLORREF](https://msdn.microsoft.com/library/dd183449(VS.85).aspx)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)

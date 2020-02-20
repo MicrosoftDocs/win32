@@ -108,7 +108,7 @@ The following code retrieves the clients collection for the Network Policy Serve
 
 The pSdoServiceControl variable contains a pointer to a Server Data Object for NPS. For more information, see the topic [Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo).
 
-The vtClientsCollection variable is of type [\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857). A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx) as appropriate.
+The vtClientsCollection variable is of type [\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx). A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx) as appropriate.
 
 After the call to "pSdo->GetProperty()", the vtProtocolsCollection variable specifies an object. The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface for the object.
 
@@ -118,7 +118,7 @@ The above sample code can be adapted to retrieve other NPS collections, for exam
 
 <dl> <dt>
 
-[\_variant\_t](https://go.microsoft.com/fwlink/p/?linkid=83857)
+[\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx)
 </dt> <dt>
 
 [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)

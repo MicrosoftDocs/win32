@@ -69,7 +69,7 @@ The [Advanced XPS Document Programming Tasks](advanced-xps-document-tasks.md) in
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

@@ -78,7 +78,7 @@ In the backup initialization phase, the ASR writer reports the following types o
 
 -   Boot Configuration Data (BCD) store. This component specifies the path of the directory that contains the BCD store. The requester must specify this component and back up all of the files in the BCD store directory. For more information about the BCD store, see [About BCD](https://msdn.microsoft.com/library/Aa362639(v=VS.85).aspx).
     > [!Note]  
-    > On computers that use the Extended Firmware Interface (EFI), the EFI System Partition (ESP) is always hidden and cannot be included in a volume shadow copy. The requester must back up the contents of this partition. Because this partition cannot be included in a volume shadow copy, the backup can only be performed from the live volume, not from the shadow copy. For more information about EFI and ESP, see [Bring up guide](https://go.microsoft.com/fwlink/p/?linkid=86780).
+    > On computers that use the Extended Firmware Interface (EFI), the EFI System Partition (ESP) is always hidden and cannot be included in a volume shadow copy. The requester must back up the contents of this partition. Because this partition cannot be included in a volume shadow copy, the backup can only be performed from the live volume, not from the shadow copy. For more information about EFI and ESP, see [Bring up guide](https://docs.microsoft.com/windows-hardware/drivers/bringup/).
 
 The component names use the following formats:
 

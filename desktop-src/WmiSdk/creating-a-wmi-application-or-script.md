@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating a WMI Application or Script
 
-Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the [COM API for WMI](com-api-for-wmi.md) or in Visual Basic, using the Wbemdisp.tlb [type library](using-the-wmi-scripting-type-library.md) and the [Scripting API for WMI](scripting-api-for-wmi.md). . You can obtain data through WMI by writing a script, an Active Server Page (ASP), or an HTML application (HTA). You can also use Windows PowerShell to obtain data or write scripts. For more information, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script) and [Getting Started with Windows PowerShell](https://go.microsoft.com/fwlink/p/?linkid=113440). The TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103) contains hundreds of scripting examples. For more information about print and online resources, see [Further Information](further-information.md).
+Any scripting language, such as VBScript, that works with ActiveX objects can access WMI data. Applications can access WMI in C++, using the [COM API for WMI](com-api-for-wmi.md) or in Visual Basic, using the Wbemdisp.tlb [type library](using-the-wmi-scripting-type-library.md) and the [Scripting API for WMI](scripting-api-for-wmi.md). . You can obtain data through WMI by writing a script, an Active Server Page (ASP), or an HTML application (HTA). You can also use Windows PowerShell to obtain data or write scripts. For more information, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script) and [Getting Started with Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7). The TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) contains hundreds of scripting examples. For more information about print and online resources, see [Further Information](further-information.md).
 
 The following procedure describes how to connect to the WMI service and data store.
 
@@ -20,7 +20,7 @@ The following procedure describes how to connect to the WMI service and data sto
 
 These operations are different in C++, Visual Basic, .NET Framework languages, or when using a script. Scripts and Visual Basic applications must access classes whose instances are supplied with data by existing providers. But applications written in C++ can do more. For example, an application written in C++ can send events, but a WMI script can only subscribe to receive events.
 
-A WMI provider can be written only in C++ or using the .NET Framework. For more information about writing applications in C# or Visual Basic .NET, see [WMI .NET Overview](https://go.microsoft.com/fwlink/p/?linkid=98072).
+A WMI provider can be written only in C++ or using the .NET Framework. For more information about writing applications in C# or Visual Basic .NET, see [WMI .NET Overview](https://msdn.microsoft.com/library/bb404655.aspx).
 
 For more information about creating applications and scripts for WMI, see:
 

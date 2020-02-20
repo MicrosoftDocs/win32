@@ -44,7 +44,7 @@ The following issues identify common scenarios in which the combination of TCP/I
 [High-performance Windows Sockets Applications](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Nagle Algorithm](https://go.microsoft.com/fwlink/p/?linkid=194153)
+[Nagle Algorithm](https://msdn.microsoft.com/library/ms817942.aspx)
 </dt> </dl>
 
  

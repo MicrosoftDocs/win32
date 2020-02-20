@@ -68,11 +68,11 @@ All code samples in this tutorial are designed to be executed on x86 and x64 ver
 
 1.  Install Visual Studio 2008.
 
-    For more information, see the [Visual Studio Developer Center](https://go.microsoft.com/fwlink/p/?linkid=84381).
+    For more information, see the [Visual Studio Developer Center](https://msdn.microsoft.com/vstudio/default.aspx).
 
 2.  Install the Windows SDK for Windows 7.
 
-    You can install it from the Windows SDK page of the [Windows Developer Center](https://go.microsoft.com/fwlink/p/?linkid=84091). The SDK includes utilities to develop applications for OS versions starting from Windows XP through the most recent.
+    You can install it from the Windows SDK page of the [Windows Developer Center](https://msdn.microsoft.com/windowsserver/bb980924.aspx). The SDK includes utilities to develop applications for OS versions starting from Windows XP through the most recent.
 
     > [!Note]  
     > If you are not installing the package to the default location, or if you are not installing on the system drive, which is usually the C drive, make note of the install path.
@@ -91,7 +91,7 @@ All code samples in this tutorial are designed to be executed on x86 and x64 ver
 
      
 
-    1.  Download and install the package from its [download site](https://go.microsoft.com/fwlink/p/?linkid=164580).
+    1.  Download and install the package from its [download site](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en).
     2.  As with the Windows SDK, if you are not installing the package to the default location, or if you are not installing on the system drive, which is usually the C drive, make note of the install path.
     3.  If your development platform is Windows XP or Windows Server 2003, confirm that Nlsdl.dll is installed and registered correctly.
 
@@ -986,7 +986,7 @@ Create a project that can use the localized resource modules on any version of W
 5.  Build and run the project.
 
 > [!Note]  
-> If the application should run on Windows versions prior to Windows Vista, be sure to read the documents that came with the [Microsoft NLS downlevel APIs](https://go.microsoft.com/fwlink/p/?linkid=164580) package on how to redistribute Nlsdl.dll.
+> If the application should run on Windows versions prior to Windows Vista, be sure to read the documents that came with the [Microsoft NLS downlevel APIs](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en) package on how to redistribute Nlsdl.dll.
 
  
 
@@ -1022,7 +1022,7 @@ You can adopt one of the following design suggestions to determine which languag
 
 When an application that supports certain complex scripts runs on a version of Windows prior to Windows Vista, text in that script may not display properly in GUI components. For example, in the downlevel project within this tutorial, hi-IN and ta-IN scripts may not display in the message box due to issues with processing complex scripts and the lack of related fonts. Normally, problems of this nature present themselves as square boxes in the GUI component.
 
-More information about how to enable complex script processing can be found at [Script and Font Support in Windows](https://go.microsoft.com/fwlink/p/?linkid=164582).
+More information about how to enable complex script processing can be found at [Script and Font Support in Windows](https://msdn.microsoft.com/goglobal/bb688099.aspx).
 
 ## Summary
 

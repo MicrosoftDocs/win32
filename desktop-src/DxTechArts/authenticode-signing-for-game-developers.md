@@ -21,7 +21,7 @@ Data authentication is increasingly important for game developers. Windows Vista
 -   [More information](#more-information)
 
 > [!Note]  
-> As of January 1, 2016, Windows 7 and later no longer trust any SHA-1 code signing certificate with an expiration date of January 1, 2016 or later. See [Windows Enforcement of Authenticode Code Signing and Timestamping](https://aka.ms/sha1) for more information.
+> As of January 1, 2016, Windows 7 and later no longer trust any SHA-1 code signing certificate with an expiration date of January 1, 2016 or later. See [Windows Enforcement of Authenticode Code Signing and Timestamping](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx) for more information.
 
  
 

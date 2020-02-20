@@ -15,7 +15,7 @@ When developing your own VSS application, you should observe the following guide
 
  
 
-**Windows Server 2003 R2, Windows Server 2003 and Windows XP:** VSS is available in the Volume Shadow Copy Service 7.2 SDK, which you can download from [https://www.microsoft.com/downloads/details.aspx?FamilyID=0b4f56e4-0ccc-4626-826a-ed2c4c95c871](https://go.microsoft.com/fwlink/p/?linkid=84081). Note that the 64-bit vssapi.lib files in the directories under the Win2003\\Obj directory can be used for the 64-bit versions of Windows Server 2003 R2, Windows Server 2003, and Windows XP. This SDK also provides sample code for VSS requesters, providers, and writers.
+**Windows Server 2003 R2, Windows Server 2003 and Windows XP:** VSS is available in the Volume Shadow Copy Service 7.2 SDK, which you can download from [https://www.microsoft.com/downloads/details.aspx?FamilyID=0b4f56e4-0ccc-4626-826a-ed2c4c95c871](https://www.microsoft.com/downloads/details.aspx?FamilyID=0b4f56e4-0ccc-4626-826a-ed2c4c95c871). Note that the 64-bit vssapi.lib files in the directories under the Win2003\\Obj directory can be used for the 64-bit versions of Windows Server 2003 R2, Windows Server 2003, and Windows XP. This SDK also provides sample code for VSS requesters, providers, and writers.
 
 ## Compiling VSS Applications
 
@@ -112,9 +112,9 @@ The following list describes supported configurations and restrictions:
 
     | To compile a VSS requester, writer, or provider for        | Use                                                                                                                                       |
     |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-    | Windows Server 2008 R2 or Windows 7                        | Windows SDK for Windows 7 (Available from the [Windows Download Center](https://go.microsoft.com/fwlink/p/?linkid=139812).)                |
-    | Windows Server 2008 or Windows Vista                       | Windows SDK for Windows Server 2008 (Available from the [Windows SDK Developer Center](https://go.microsoft.com/fwlink/p/?linkid=133546).) |
-    | Windows Server 2003 R2, Windows Server 2003, or Windows XP | [Volume Shadow Copy Service 7.2 SDK](https://go.microsoft.com/fwlink/p/?linkid=84081)                                                      |
+    | Windows Server 2008 R2 or Windows 7                        | Windows SDK for Windows 7 (Available from the [Windows Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=c17ba869-9671-4330-a63e-1fd44e0e2505).)                |
+    | Windows Server 2008 or Windows Vista                       | Windows SDK for Windows Server 2008 (Available from the [Windows SDK Developer Center](https://msdn.microsoft.com/windows/bb980924.aspx).) |
+    | Windows Server 2003 R2, Windows Server 2003, or Windows XP | [Volume Shadow Copy Service 7.2 SDK](https://www.microsoft.com/downloads/details.aspx?FamilyID=0b4f56e4-0ccc-4626-826a-ed2c4c95c871)                                                      |
 
     
 

@@ -29,7 +29,7 @@ The following information is discussed in this topic:
 
 WMI maintains namespace security by comparing the [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) of the user connecting to the namespace with the [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of the namespace. For more information about Windows security, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).
 
-Be aware that, starting with Windows Vista, [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=84440) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [Default Permissions on WMI Namespaces](#default-permissions-on-wmi-namespaces) and [User Account Control and WMI](user-account-control-and-wmi.md).
+Be aware that, starting with Windows Vista, [User Account Control (UAC)](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [Default Permissions on WMI Namespaces](#default-permissions-on-wmi-namespaces) and [User Account Control and WMI](user-account-control-and-wmi.md).
 
 Access to WMI namespaces is also affected when the connection is from a remote computer. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md), [Securing a Remote WMI Connection](securing-a-remote-wmi-connection.md), and [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
