@@ -3,35 +3,24 @@ Description: Message codes, message text, and remarks for Windows Installer erro
 ms.assetid: 20863e0d-05a8-42a5-aa6e-16c2724a9778
 title: Windows Installer Error Messages
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/20/2020
 ---
 
 # Windows Installer Error Messages
 
 The error codes detailed in this topic are returned by the Windows Installer, and have error codes of 1000 or greater. The error codes numbered 1000 to 1999 are ship errors and must be authored into the [Error table](error-table.md). The error codes numbered greater than 2000 are internal errors and do not have authored strings, but these can occur if the installation package has been incorrectly authored. For error codes specific to the Windows Installer functions **MsiExec.exe** and **InstMsi.exe**, see [MsiExec.exe and InstMsi.exe Error Messages](error-codes.md). For a list of reserved error codes, see [Error table](error-table.md).
 
-> [!Note]  
+> [!NOTE]  
 > If you are a user experiencing difficulty with your computer either during or after installing or uninstalling an application, you should contact customer support for the software you are trying to install or remove. If you feel you are in need of support for a Microsoft product, please go to our technical support site at [support.microsoft.com](https://support.microsoft.com).
 
- 
-
-> [!Note]You can search for solutions to many of the messages in the following table in the Microsoft Support Knowledge Base (KB). Go to the [Search the Support Knowledge Base](https://support.microsoft.com/search) page and use the tool provided there to perform a search for a specific Windows Installer error message. Select "Search Product: All Products" to perform a comprehensive search for the message. In the "For:" pane, enter a character string like the following, with quotes enclosing the words Windows Installer, the appropriate *Message Code* value from the following table, and the keyword "kberrmsg".
->
-> "Windows Installer" *Message Code* kberrmsg
-
- 
-
-> [!Note]  
-> If you are viewing this documentation using the online MSDN library, you can also check the Community Content area at the bottom of this page to see whether any solutions for specific error messages have been contributed.
-
- 
+> [!NOTE]
+> You can search the Internet or the [Microsoft support site](https://support.microsoft.com/) for solutions to many of the messages in the following table.
 
 Developers of installation packages can also test the internal consistency of their packages by using Internal Consistency Evaluators. For more information, see [Internal Consistency Evaluators - ICEs](internal-consistency-evaluators-ices.md).
 
 
-
-| Message Code    | Message                                                                                                                                                                                                                                                                                                                                              | Remarks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Message Code    | Message     | Remarks    |
+|-----------------|-------------|------------|
 | 1101<br/> | Could not open file stream: \[2\]. System error: \[3\]<br/>                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | 1301<br/> | Cannot create the file '\[2\]'. A directory with this name already exists.<br/>                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | 1302<br/> | Please insert the disk: \[2\]<br/>                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -577,19 +566,4 @@ Developers of installation packages can also test the internal consistency of th
 | 2945<br/> | Installation of ComPlus App \[2\] failed with error \[3\].<br/>                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | 3001<br/> | The patches in this list contain incorrect sequencing information: \[2\]\[3\]\[4\]\[5\]\[6\]\[7\]\[8\]\[9\]\[10\]\[11\]\[12\]\[13\]\[14\]\[15\]\[16\].<br/>                                                                                                                                                                                    | Available beginning with Windows Installer version 3.0<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 3002<br/> | Patch \[2\] contains invalid sequencing information.<br/>                                                                                                                                                                                                                                                                                      | Available beginning with Windows Installer version 3.0<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-
-
-
- 
-
-## 
-
-Community content may be also be available for some Windows Installer error messages. If you are viewing the documentation using the online MSDN library, the Community content tool may be displayed at the bottom of this page.
-
- 
-
- 
-
-
-
 
