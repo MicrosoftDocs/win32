@@ -35,6 +35,7 @@ A file or directory that has been locally modified and is no longer a cache of i
 <span id="projfs.glossary_full_file_directory"></span><span id="PROJFS.GLOSSARY_FULL_FILE_DIRECTORY"></span>**full file/directory**
 </dt>
 <dd>
+
 A file or directory that was created in the local file system, or a file that has been modified, making it no longer a cache of its state in the backing store.  See [Cache State in the Virtualization Root](cache-state.md).
 </dd>
 
