@@ -2149,7 +2149,7 @@
       - name: "WM_MEDIA_TYPE"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmmediatype
       - name: "WMMPEG2VIDEOINFO"
-        href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmmpeg2videoinfo
+        href: /windows/win32/api/Wmsdkidl/ns-wmsdkidl-wmmpeg2videoinfo
       - name: "WM_PICTURE"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmpicture
       - name: "WM_PORT_NUMBER_RANGE"
@@ -2159,7 +2159,7 @@
       - name: "WM_READER_STATISTICS"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmreaderstatistics
       - name: "WMSCRIPTFORMAT"
-        href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmscriptformat
+        href: /windows/win32/api/Wmsdkidl/ns-wmsdkidl-wmscriptformat
       - name: "WM_STREAM_PRIORITY_RECORD"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmstreamprioritizationrecord
       - name: "WM_STREAM_TYPE_INFO"
@@ -2201,7 +2201,7 @@
       - name: "WMT_WEBSTREAM_SAMPLE_HEADER"
         href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-_wmt_webstream_sample_header
       - name: "WMVIDEOINFOHEADER"
-        href: /windows/desktop/api/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader
+        href: /windows/win32/api/Wmsdkidl/ns-wmsdkidl-wmvideoinfoheader
       - name: "WMVIDEOINFOHEADER2"
         href: /windows/win32/api/Wmsdkidl/ns-wmsdkidl-wmvideoinfoheader2
     - name: "Enumeration Types"
@@ -2226,21 +2226,21 @@
       - name: "WMT_CREDENTIAL_FLAGS"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_credential_flags
       - name: "WMT_DRMLA_TRUST"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_drmla_trust
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_drmla_trust
       - name: "WMT_FILESINK_MODE"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_filesink_mode
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_filesink_mode
       - name: "WMT_IMAGE_TYPE"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_image_type
       - name: "WMT_INDEX_TYPE"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_index_type
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_index_type
       - name: "WMT_INDEXER_TYPE"
         href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_indexer_type
       - name: "WMT_NET_PROTOCOL"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_net_protocol
       - name: "WMT_MUSICSPEECH_CLASS_MODE"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_musicspeech_class_mode
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode
       - name: "WMT_OFFSET_FORMAT"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_offset_format
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_offset_format
       - name: "WMT_PLAY_MODE"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_play_mode
       - name: "WMT_PROXY_SETTINGS"
@@ -2250,15 +2250,15 @@
       - name: "WMT_STATUS"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status
       - name: "WMT_STORAGE_FORMAT"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_storage_format
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_storage_format
       - name: "WMT_STREAM_SELECTION"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection
       - name: "WMT_TRANSPORT_TYPE"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_transport_type
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_transport_type
       - name: "WMT_VERSION"
         href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version
       - name: "WMT_WATERMARK_ENTRY_TYPE"
-        href: /windows/desktop/api/Wmsdkidl/ne-wmsdkidl-tagwmt_watermark_entry_type
+        href: /windows/win32/api/Wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type
     - name: "Attributes"
       href: attributes.md
       items: 

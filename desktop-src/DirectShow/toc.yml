@@ -4002,7 +4002,7 @@
       - name: "AM_MEDIA_TYPE"
         href: /windows/desktop/api/strmif/ns-strmif-_ammediatype
       - name: "AM_MPEGSTREAMTYPE"
-        href: /windows/desktop/api/mpegtype/ns-mpegtype-tagam_mpegstreamtype
+        href: /windows/win32/api/mpegtype/ns-mpegtype-am_mpegstreamtype
       - name: "AM_MPEGSYSTEMTYPE"
         href: /windows/win32/api/mpegtype/ns-mpegtype-am_mpegsystemtype
       - name: "AM_SAMPLE2_PROPERTIES"
@@ -4120,23 +4120,23 @@
       - name: "FILTER_INFO"
         href: /windows/desktop/api/strmif/ns-strmif-_filterinfo
       - name: "HEAACWAVEFORMAT"
-        href: /windows/desktop/api/mmreg/ns-mmreg-heaacwaveformat_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-heaacwaveformat
       - name: "HEAACWAVEINFO"
-        href: /windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-heaacwaveinfo
       - name: "KSMULTIPLE_ITEM"
         href: ksmultiple-item.md
       - name: "KSTOPOLOGY_CONNECTION"
         href: kstopology-connection.md
       - name: "MPEG1VIDEOINFO"
-        href: /windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo
+        href: /windows/win32/api/amvideo/ns-amvideo-mpeg1videoinfo
       - name: "MPEG1WAVEFORMAT"
-        href: /windows/desktop/api/mmreg/ns-mmreg-mpeg1waveformat_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-mpeg1waveformat
       - name: "MPEG2_TRANSPORT_STRIDE"
         href: mpeg2-transport-stride.md
       - name: "MPEG2VIDEOINFO"
-        href: /windows/desktop/api/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo
+        href: /windows/win32/api/Dvdmedia/ns-dvdmedia-mpeg2videoinfo
       - name: "MPEGLAYER3WAVEFORMAT"
-        href: /windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat_tag
+        href: /windows/win32/api/mmreg/ns-mmreg-mpeglayer3waveformat
       - name: "NORMALIZEDRECT"
         href: /windows/win32/api/strmif/ns-strmif-normalizedrect
       - name: "PERFINFO_DSHOW_AUDIOBREAK"
@@ -4172,11 +4172,11 @@
       - name: "VIDEO_STREAM_CONFIG_CAPS"
         href: /windows/win32/api/strmif/ns-strmif-video_stream_config_caps
       - name: "VIDEOINFO"
-        href: /windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo
+        href: /windows/win32/api/amvideo/ns-amvideo-videoinfo
       - name: "VIDEOINFOHEADER"
-        href: /windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader
+        href: /windows/win32/api/amvideo/ns-amvideo-videoinfoheader
       - name: "VIDEOINFOHEADER2"
-        href: /windows/desktop/api/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2
+        href: /windows/win32/api/Dvdmedia/ns-dvdmedia-videoinfoheader2
       - name: "VMR9AllocationInfo"
         href: /windows/win32/api/Vmr9/ns-vmr9-vmr9allocationinfo
       - name: "VMR9AlphaBitmap"
@@ -5105,7 +5105,7 @@
         href: dvd-karaoke-property-set.md
         items: 
         - name: "AM_DvdKaraokeData"
-          href: /windows/desktop/api/Dvdmedia/ns-dvdmedia-tagam_dvdkaraokedata
+          href: /windows/win32/api/Dvdmedia/ns-dvdmedia-am_dvdkaraokedata
       - name: "DVD Subpicture Property Set"
         href: dvd-subpicture-property-set.md
         items: 
