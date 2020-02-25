@@ -1065,6 +1065,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_CONNECT\_TIMEOUT<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_CONNECTION\_INFO<br/>[**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- |
 | WINHTTP\_OPTION\_CONTEXT\_VALUE<br/>**DWORD\_PTR** | X | X | X | X |
+| WINHTTP\_OPTION\_DECOMPRESSION<br/>**DWORD** | X | X | \- | X |
 | WINHTTP\_OPTION\_DISABLE\_FEATURE<br/>**DWORD** | \- | X | \- | X |
 | WINHTTP\_OPTION\_ENABLE\_FEATURE<br/>**DWORD** | \* | \* | \- | X |
 | WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL<br/>**DWORD** | X | X | \- | X |
@@ -1111,6 +1112,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X |
 | WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVENT<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X |
+| WINHTTP\_OPTION\_UNSAFE\_HEADER\_PARSING<br/>**DWORD** | \- | X | \- | X |
 | WINHTTP\_OPTION\_UPGRADE\_TO\_WEB\_SOCKET<br/>N/A | \- | X | \- | X |
 | WINHTTP\_OPTION\_URL<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS<br/>**BOOL** | X | X | \- | X |
@@ -1118,6 +1120,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_USERNAME<br/>**LPWSTR** | \- | X | X | X |
 | WINHTTP\_OPTION\_WEB\_SOCKET\_CLOSE\_TIMEOUT<br/>**DWORD** | \- | \- | X | X |
 | WINHTTP\_OPTION\_WEB\_SOCKET\_KEEPALIVE\_INTERVAL<br/>**DWORD** | \- | \- | X | X |
+| WINHTTP\_OPTION\_WEB\_SOCKET\_RECEIVE\_BUFFER\_SIZE<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_WEB\_SOCKET\_SEND\_BUFFER\_SIZE<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_WORKER\_THREAD\_COUNT<br/>**DWORD** | \- | \- | \- | X |
 | WINHTTP\_OPTION\_WRITE\_BUFFER\_SIZE<br/>**DWORD** | \- | X | X | X |
 
