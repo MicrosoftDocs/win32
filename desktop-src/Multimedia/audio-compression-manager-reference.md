@@ -23,7 +23,7 @@ This section describes the functions, structures, and messages associated with t
 
 -   [**acmDriverAdd**](/windows/desktop/api/Msacm/nf-msacm-acmdriveradd)
 -   [**acmDriverClose**](/windows/desktop/api/Msacm/nf-msacm-acmdriverclose)
--   [**ACMDRIVERDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmdriverdetails)
+-   [**ACMDRIVERDETAILS**](/windows/win32/api/msacm/ns-msacm-acmdriverdetails)
 -   [**acmDriverEnum**](/windows/desktop/api/Msacm/nf-msacm-acmdriverenum)
 -   [**acmDriverEnumCallback**](https://msdn.microsoft.com/library/Dd742891(v=VS.85).aspx)
 -   [**acmDriverID**](/windows/desktop/api/Msacm/nf-msacm-acmdriverid)
@@ -35,24 +35,24 @@ This section describes the functions, structures, and messages associated with t
 
 ## Filters
 
--   [**ACMFILTERCHOOSE**](/windows/desktop/api/Msacm/ns-msacm-tacmfilterchoose)
+-   [**ACMFILTERCHOOSE**](/windows/win32/api/msacm/ns-msacm-acmfilterchoose)
 -   [**acmFilterChooseHookProc**](/windows/desktop/api/Msacm/nc-msacm-acmfilterchoosehookproc)
--   [**ACMFILTERDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmfilterdetails)
+-   [**ACMFILTERDETAILS**](/windows/win32/api/msacm/ns-msacm-acmfilterdetails)
 -   [**acmFilterEnum**](/windows/desktop/api/Msacm/nf-msacm-acmfilterenum)
 -   [**acmFilterEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfilterenumcb)
--   [**ACMFILTERTAGDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmfiltertagdetails)
+-   [**ACMFILTERTAGDETAILS**](/windows/win32/api/msacm/ns-msacm-acmfiltertagdetails)
 -   [**acmFilterTagEnum**](/windows/desktop/api/Msacm/nf-msacm-acmfiltertagenum)
 -   [**acmFilterTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmfiltertagenumcb)
 
 ## Formats
 
--   [**ACMFORMATCHOOSE**](/windows/desktop/api/Msacm/ns-msacm-tacmformatchoose)
+-   [**ACMFORMATCHOOSE**](/windows/win32/api/msacm/ns-msacm-acmformatchoose)
 -   [**acmFormatChooseHookProc**](/windows/desktop/api/Msacm/nc-msacm-acmformatchoosehookproc)
--   [**ACMFORMATDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmformatdetails)
+-   [**ACMFORMATDETAILS**](/windows/win32/api/msacm/ns-msacm-acmformatdetails)
 -   [**acmFormatEnum**](/windows/desktop/api/Msacm/nf-msacm-acmformatenum)
 -   [**acmFormatEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformatenumcb)
 -   [**acmFormatSuggest**](/windows/desktop/api/Msacm/nf-msacm-acmformatsuggest)
--   [**ACMFORMATTAGDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmformattagdetails)
+-   [**ACMFORMATTAGDETAILS**](/windows/win32/api/msacm/ns-msacm-acmformattagdetails)
 -   [**acmFormatTagEnum**](/windows/desktop/api/Msacm/nf-msacm-acmformattagenum)
 -   [**acmFormatTagEnumCallback**](/windows/desktop/api/Msacm/nc-msacm-acmformattagenumcb)
 
@@ -66,7 +66,7 @@ This section describes the functions, structures, and messages associated with t
 -   [**acmStreamClose**](/windows/desktop/api/Msacm/nf-msacm-acmstreamclose)
 -   [**acmStreamConvert**](/windows/desktop/api/Msacm/nf-msacm-acmstreamconvert)
 -   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
--   [**ACMSTREAMHEADER**](/windows/desktop/api/Msacm/ns-msacm-tacmstreamheader)
+-   [**ACMSTREAMHEADER**](/windows/win32/api/msacm/ns-msacm-acmstreamheader)
 -   [**acmStreamMessage**](/windows/desktop/api/Msacm/nf-msacm-acmstreammessage)
 -   [**acmStreamOpen**](/windows/desktop/api/Msacm/nf-msacm-acmstreamopen)
 -   [**acmStreamPrepareHeader**](/windows/desktop/api/Msacm/nf-msacm-acmstreamprepareheader)

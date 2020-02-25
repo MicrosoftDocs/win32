@@ -25,7 +25,7 @@ To create a stream configuration object, use one of the following methods.
 |-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMProfile::CreateNewStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-createnewstream)     | Creates a stream configuration object without any data.                                                                          |
 | [**IWMProfile::GetStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream)                 | Creates a stream configuration object populated with data from a profile. Uses the stream index to identify the desired stream.  |
-| [**IWMProfile::GetStreamByNumber**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber) | Creates a stream configuration object populated with data from a profile. Uses the stream number to identify the desired stream. |
+| [**IWMProfile::GetStreamByNumber**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber) | Creates a stream configuration object populated with data from a profile. Uses the stream number to identify the desired stream. |
 
 
 

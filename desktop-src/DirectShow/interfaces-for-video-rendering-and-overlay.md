@@ -61,7 +61,7 @@ These interfaces support application control over video rendering. Note that som
 <td>Implemented on the Overlay Mixer. Enables windowless clients such as ActiveX® controls to get and set properties of the video rectangle and advise the filter of events.</td>
 </tr>
 <tr class="even">
-<td><a href="/previous-versions/previous-versions/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
+<td><a href="/previous-versions/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
 <td>Implemented by windowless clients and called by the Overlay Mixer to send notifications of events affecting the video display rectangle.</td>
 </tr>
 <tr class="odd">

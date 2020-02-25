@@ -51,7 +51,7 @@ int main(void)
 
 ## Second Process
 
-The second process uses the [**OpenMutex**](/windows/desktop/api/WinBase/nf-winbase-openmutexa) function to open a handle to the existing mutex. This function fails if a mutex object with the specified name does not exist. The access parameter requests full access to the mutex object, which is necessary for the handle to be used in any of the wait functions.
+The second process uses the [**OpenMutex**](/windows/win32/api/synchapi/nf-synchapi-openmutexw) function to open a handle to the existing mutex. This function fails if a mutex object with the specified name does not exist. The access parameter requests full access to the mutex object, which is necessary for the handle to be used in any of the wait functions.
 
 
 ```C++

@@ -121,7 +121,7 @@ The following data types are defined for waveform-audio output functions.
 
 ## Specifying Waveform-Audio Data Formats
 
-When you call the [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx) function to open a device driver for playback or to query whether the driver supports a particular data format, use the *pwfx* parameter to specify a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure containing the requested waveform-audio data format. **WAVEFORMATEX** supersedes the [**WAVEFORMAT**](/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex) and [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx) structures.
+When you call the [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx) function to open a device driver for playback or to query whether the driver supports a particular data format, use the *pwfx* parameter to specify a pointer to a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx) structure containing the requested waveform-audio data format. **WAVEFORMATEX** supersedes the [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat) and [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx) structures.
 
 For audio data that is separated into more than two channels or has a sample size that is not a multiple of 8, you should use [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd757714(v=VS.85).aspx). This structure simply configures the extra bytes pointed to by the **cbSize** member of **WAVEFORMATEX** to give extra information about the format. **WAVEFORMATEXTENSIBLE** can be cast as **WAVEFORMATEX**.
 

@@ -265,7 +265,7 @@ The following functions are used in synchronization.
 |----------------------------------------|--------------------------------------------------------------------------------------|
 | [**CreateMutex**](https://msdn.microsoft.com/library/ms682411(v=VS.85).aspx)     | Creates or opens a named or unnamed mutex object.                                    |
 | [**CreateMutexEx**](https://msdn.microsoft.com/library/ms682418(v=VS.85).aspx) | Creates or opens a named or unnamed mutex object and returns a handle to the object. |
-| [**OpenMutex**](/windows/desktop/api/WinBase/nf-winbase-openmutexa)         | Opens an existing named mutex object.                                                |
+| [**OpenMutex**](/windows/win32/api/synchapi/nf-synchapi-openmutexw)         | Opens an existing named mutex object.                                                |
 | [**ReleaseMutex**](https://msdn.microsoft.com/library/ms685066(v=VS.85).aspx)   | Releases ownership of the specified mutex object.                                    |
 
 
@@ -298,7 +298,7 @@ The following functions are used in synchronization.
 |------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea)     | Creates or opens a named or unnamed semaphore object.                                    |
 | [**CreateSemaphoreEx**](/windows/desktop/api/WinBase/nf-winbase-createsemaphoreexa) | Creates or opens a named or unnamed semaphore object and returns a handle to the object. |
-| [**OpenSemaphore**](/windows/desktop/api/WinBase/nf-winbase-opensemaphorea)         | Opens an existing named semaphore object.                                                |
+| [**OpenSemaphore**](/windows/win32/api/synchapi/nf-synchapi-opensemaphorew)         | Opens an existing named semaphore object.                                                |
 | [**ReleaseSemaphore**](https://msdn.microsoft.com/library/ms685071(v=VS.85).aspx)   | Increases the count of the specified semaphore object by a specified amount.             |
 
 
@@ -369,7 +369,7 @@ The following functions are used in synchronization.
 | [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects)     | Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.                                                                                                   |
 | [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) | Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses. The array of objects can include input event objects. |
 | [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) | Directs a wait thread in the thread pool to wait on the object.                                                                                                                                                                                            |
-| [**SignalObjectAndWait**](/windows/desktop/api/WinBase/nf-winbase-signalobjectandwait)                 | Signals one object and waits on another object as a single operation.                                                                                                                                                                                      |
+| [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)                 | Signals one object and waits on another object as a single operation.                                                                                                                                                                                      |
 | [**UnregisterWait**](/windows/desktop/api/WinBase/nf-winbase-unregisterwait)                           | Cancels a registered wait operation.                                                                                                                                                                                                                       |
 | [**UnregisterWaitEx**](unregisterwaitex.md)                       | Cancels a registered wait operation.                                                                                                                                                                                                                       |
 | [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/ms687025(v=VS.85).aspx)           | Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.                                                                                                                                                |
@@ -392,9 +392,9 @@ The following functions are used in synchronization.
 | Waitable-timer function                                | Description                                                                                                       |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [**CancelWaitableTimer**](https://msdn.microsoft.com/library/ms681985(v=VS.85).aspx)     | Sets the specified waitable timer to the inactive state.                                                          |
-| [**CreateWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimera)     | Creates or opens a waitable timer object.                                                                         |
-| [**CreateWaitableTimerEx**](/windows/desktop/api/WinBase/nf-winbase-createwaitabletimerexa) | Creates or opens a waitable timer object and returns a handle to the object.                                      |
-| [**OpenWaitableTimer**](/windows/desktop/api/WinBase/nf-winbase-openwaitabletimera)         | Opens an existing named waitable timer object.                                                                    |
+| [**CreateWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)     | Creates or opens a waitable timer object.                                                                         |
+| [**CreateWaitableTimerEx**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) | Creates or opens a waitable timer object and returns a handle to the object.                                      |
+| [**OpenWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)         | Opens an existing named waitable timer object.                                                                    |
 | [**SetWaitableTimer**](https://msdn.microsoft.com/library/ms686289(v=VS.85).aspx)           | Activates the specified waitable timer.                                                                           |
 | [**SetWaitableTimerEx**](https://msdn.microsoft.com/library/Dd405521(v=VS.85).aspx)       | Activates the specified waitable timer and provides context information for the timer. .                          |
 | [**TimerAPCProc**](https://msdn.microsoft.com/library/ms686786(v=VS.85).aspx)                   | Application-defined timer completion routine used with the [**SetWaitableTimer**](https://msdn.microsoft.com/library/ms686289(v=VS.85).aspx) function. |

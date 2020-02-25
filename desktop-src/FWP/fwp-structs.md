@@ -44,13 +44,13 @@ Management Structures
 -   FWPM\_NET\_EVENT\_CLASSIFY\_DROP:
     -   [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0) (Windows Vista)
     -   [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP1**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) (Windows 7 and later)
-    -   [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP2**](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2_) (Windows 8)
--   [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP\_MAC0**](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop_mac0_)
+    -   [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP2**](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2) (Windows 8)
+-   [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP\_MAC0**](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop_mac0)
 -   [**FWPM\_NET\_EVENT\_ENUM\_TEMPLATE0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0)
 -   FWPM\_NET\_EVENT\_HEADER:
     -   [**FWPM\_NET\_EVENT\_HEADER0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) (Windows Vista)
     -   [**FWPM\_NET\_EVENT\_HEADER1**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_header1) (Windows 7)
-    -   [**FWPM\_NET\_EVENT\_HEADER2**](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2_) (Windows 8)
+    -   [**FWPM\_NET\_EVENT\_HEADER2**](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) (Windows 8)
 -   FWPM\_NET\_EVENT\_IKEEXT\_EM\_FAILURE:
     -   [**FWPM\_NET\_EVENT\_IKEEXT\_EM\_FAILURE0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure0) (Windows Vista)
     -   [**FWPM\_NET\_EVENT\_IKEEXT\_EM\_FAILURE1**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure1) (Windows 7 and later)
@@ -86,7 +86,7 @@ Management Structures
 
 Shared Structures
 
--   [**FWP\_BYTE\_ARRAY6**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_array6_)
+-   [**FWP\_BYTE\_ARRAY6**](/windows/win32/api/fwptypes/ns-fwptypes-fwp_byte_array6)
 -   [**FWP\_BYTE\_ARRAY16**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_array16_)
 -   [**FWP\_BYTE\_BLOB**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_blob_)
 -   [**FWP\_CONDITION\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_condition_value0_)
@@ -101,18 +101,18 @@ IKE/AuthIP Structures
 -   IKEEXT\_AUTHENTICATION\_METHOD:
     -   [**IKEEXT\_AUTHENTICATION\_METHOD0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_authentication_method0) (Windows Vista)
     -   [**IKEEXT\_AUTHENTICATION\_METHOD1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_authentication_method1) (Windows 7)
-    -   [**IKEEXT\_AUTHENTICATION\_METHOD2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2_) (Windows 8)
--   [**IKEEXT\_CERT\_EKUS0**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_ekus0_)
--   [**IKEEXT\_CERT\_NAME0**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cert_name0_)
+    -   [**IKEEXT\_AUTHENTICATION\_METHOD2**](/windows/win32/api/iketypes/ns-iketypes-ikeext_authentication_method2) (Windows 8)
+-   [**IKEEXT\_CERT\_EKUS0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_cert_ekus0)
+-   [**IKEEXT\_CERT\_NAME0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_cert_name0)
 -   [**IKEEXT\_CERT\_ROOT\_CONFIG0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cert_root_config0)
 -   IKEEXT\_CERTIFICATE\_AUTHENTICATION:
     -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_authentication0) (Windows Vista)
     -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_authentication1) (Windows 7)
-    -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication2_) (Windows 8)
+    -   [**IKEEXT\_CERTIFICATE\_AUTHENTICATION2**](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication2) (Windows 8)
 -   IKEEXT\_CERTIFICATE\_CREDENTIAL:
     -   [**IKEEXT\_CERTIFICATE\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_credential0) (Windows Vista)
     -   [**IKEEXT\_CERTIFICATE\_CREDENTIAL1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_certificate_credential1) (Windows 7 and later)
--   [**IKEEXT\_CERTIFICATE\_CRITERIA0**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0_)
+-   [**IKEEXT\_CERTIFICATE\_CRITERIA0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)
 -   [**IKEEXT\_CIPHER\_ALGORITHM0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_cipher_algorithm0)
 -   IKEEXT\_COMMON\_STATISTICS:
     -   [**IKEEXT\_COMMON\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_common_statistics0) (Windows Vista)
@@ -127,11 +127,11 @@ IKE/AuthIP Structures
 -   IKEEXT\_CREDENTIALS:
     -   [**IKEEXT\_CREDENTIALS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credentials0) (Windows Vista)
     -   [**IKEEXT\_CREDENTIALS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_credentials1) (Windows 7 and later)
--   [**IKEEXT\_EAP\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_eap_authentication0__)
+-   [**IKEEXT\_EAP\_AUTHENTICATION0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)
 -   IKEEXT\_EM\_POLICY:
     -   [**IKEEXT\_EM\_POLICY0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_em_policy0) (Windows Vista)
     -   [**IKEEXT\_EM\_POLICY1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_em_policy1) (Windows 7)
-    -   [**IKEEXT\_EM\_POLICY2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2_) (Windows 8)
+    -   [**IKEEXT\_EM\_POLICY2**](/windows/win32/api/iketypes/ns-iketypes-ikeext_em_policy2) (Windows 8)
 -   [**IKEEXT\_INTEGRITY\_ALGORITHM0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_integrity_algorithm0)
 -   IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS:
     -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_COMMON\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0) (Windows Vista)
@@ -141,22 +141,22 @@ IKE/AuthIP Structures
     -   [**IKEEXT\_IP\_VERSION\_SPECIFIC\_KEYMODULE\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1) (Windows 7 and later)
 -   [**IKEEXT\_IPV6\_CGA\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0)
 -   IKEEXT\_KEYMODULE\_STATISTICS:
-    -   [**IKEEXT\_KERBEROS\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_kerberos_authentication0__) (Windows Vista and Windows 7)
-    -   [**IKEEXT\_KERBEROS\_AUTHENTICATION1**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1__) (Windows 8)
+    -   [**IKEEXT\_KERBEROS\_AUTHENTICATION0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_kerberos_authentication0) (Windows Vista and Windows 7)
+    -   [**IKEEXT\_KERBEROS\_AUTHENTICATION1**](/windows/win32/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1) (Windows 8)
 -   -   IKEEXT\_KEYMODULE\_STATISTICS:
     -   [**IKEEXT\_KEYMODULE\_STATISTICS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics0) (Windows Vista)
     -   [**IKEEXT\_KEYMODULE\_STATISTICS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_keymodule_statistics1) (Windows 7 and later)
 -   [**IKEEXT\_NAME\_CREDENTIAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_name_credential0)
--   [**IKEEXT\_NTLM\_V2\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_ntlm_v2_authentication0__)
+-   [**IKEEXT\_NTLM\_V2\_AUTHENTICATION0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_ntlm_v2_authentication0)
 -   IKEEXT\_POLICY:
     -   [**IKEEXT\_POLICY0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_policy0) (Windows Vista)
     -   [**IKEEXT\_POLICY1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_policy1) (Windows 7)
-    -   [**IKEEXT\_POLICY2**](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2_) (Windows 8)
+    -   [**IKEEXT\_POLICY2**](/windows/win32/api/iketypes/ns-iketypes-ikeext_policy2) (Windows 8)
 -   IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION:
-    -   [**IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication0__) (Windows Vista)
-    -   [**IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_preshared_key_authentication1__) (Windows 7 and later)
+    -   [**IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication0) (Windows Vista)
+    -   [**IKEEXT\_PRESHARED\_KEY\_AUTHENTICATION1**](/windows/win32/api/iketypes/ns-iketypes-ikeext_preshared_key_authentication1) (Windows 7 and later)
 -   [**IKEEXT\_PROPOSAL0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_proposal0)
--   [**IKEEXT\_RESERVED\_AUTHENTICATION0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_reserved_authentication0__)
+-   [**IKEEXT\_RESERVED\_AUTHENTICATION0**](/windows/win32/api/iketypes/ns-iketypes-ikeext_reserved_authentication0)
 -   IKEEXT\_SA\_DETAILS:
     -   [**IKEEXT\_SA\_DETAILS0**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_details0) (Windows Vista)
     -   [**IKEEXT\_SA\_DETAILS1**](/windows/desktop/api/Iketypes/ns-iketypes-ikeext_sa_details1) (Windows 7 and later)
@@ -192,7 +192,7 @@ IPsec Structures
 -   [**IPSEC\_KEY\_MANAGER\_CALLBACKS0**](/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0)
 -   IPSEC\_KEYING\_POLICY:
     -   [**IPSEC\_KEYING\_POLICY0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_keying_policy0) (Windows Vista and Windows 7)
-    -   [**IPSEC\_KEYING\_POLICY1**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1_) (Windows 8)
+    -   [**IPSEC\_KEYING\_POLICY1**](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1) (Windows 8)
 -   [**IPSEC\_KEYMODULE\_STATE0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_keymodule_state0)
 -   [**IPSEC\_PROPOSAL0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_proposal0)
 -   [**IPSEC\_SA0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa0)
@@ -228,18 +228,18 @@ IPsec Structures
 -   IPSEC\_TRANSPORT\_POLICY:
     -   [**IPSEC\_TRANSPORT\_POLICY0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_transport_policy0) (Windows Vista)
     -   [**IPSEC\_TRANSPORT\_POLICY1**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_transport_policy1) (Windows 7)
-    -   [**IPSEC\_TRANSPORT\_POLICY2**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2_) (Windows 8)
--   [**IPSEC\_TUNNEL\_ENDPOINT0**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0_)
+    -   [**IPSEC\_TRANSPORT\_POLICY2**](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2) (Windows 8)
+-   [**IPSEC\_TUNNEL\_ENDPOINT0**](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)
 -   IPSEC\_TUNNEL\_ENDPOINTS:
     -   [**IPSEC\_TUNNEL\_ENDPOINTS0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0) (Windows Vista)
     -   [**IPSEC\_TUNNEL\_ENDPOINTS1**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) (Windows 7)
-    -   [**IPSEC\_TUNNEL\_ENDPOINTS2**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2_) (Windows 8)
+    -   [**IPSEC\_TUNNEL\_ENDPOINTS2**](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2) (Windows 8)
 -   IPSEC\_TUNNEL\_POLICY:
     -   [**IPSEC\_TUNNEL\_POLICY0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) (Windows Vista)
     -   [**IPSEC\_TUNNEL\_POLICY1**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) (Windows 7)
-    -   [**IPSEC\_TUNNEL\_POLICY2**](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2_) (Windows 8)
+    -   [**IPSEC\_TUNNEL\_POLICY2**](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2) (Windows 8)
 -   [**IPSEC\_V4\_UDP\_ENCAPSULATION0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0)
--   [**IPSEC\_VIRTUAL\_IF\_TUNNEL\_INFO0**](/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0_)
+-   [**IPSEC\_VIRTUAL\_IF\_TUNNEL\_INFO0**](/windows/win32/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)
 
  
 

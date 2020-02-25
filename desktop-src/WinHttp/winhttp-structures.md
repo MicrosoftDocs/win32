@@ -73,7 +73,7 @@ Contains user credential information used for server and proxy authentication.
 
 </dd> <dt>
 
-[**WINHTTP\_CURRENT\_USER\_IE\_PROXY\_CONFIG**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config)
+[**WINHTTP\_CURRENT\_USER\_IE\_PROXY\_CONFIG**](/windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config)
 </dt> <dd>
 
 Contains the Internet Explorer proxy configuration information.

@@ -58,7 +58,7 @@ This section describes the Windows Shell functions.
 <td>Creates a context menu for a selected group of file folder objects.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Ntquery/nf-ntquery-cishutdown"><strong>CIShutdown</strong></a><br/></td>
+<td><a href="/windows/win32/api/ntquery/nf-ntquery-cishutdown"><strong>CIShutdown</strong></a><br/></td>
 <td>Shuts down the content indexer and closes all open catalogs. <br/>
 <blockquote>
 [!Note]<br />

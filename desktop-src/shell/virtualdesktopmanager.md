@@ -15,11 +15,11 @@ api_type:
 
 # VirtualDesktopManager class
 
-**VirtualDesktopManager** implements the [**IVirtualDesktopManager**](/windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager) interface.
+**VirtualDesktopManager** implements the [**IVirtualDesktopManager**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager) interface.
 
 ## Remarks
 
-Use this interface in order to interact with the virtual desktops and control where program windows are launched. For more information, see [**IVirtualDesktopManager**](/windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager).
+Use this interface in order to interact with the virtual desktops and control where program windows are launched. For more information, see [**IVirtualDesktopManager**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager).
 
 ## Requirements
 
@@ -37,7 +37,7 @@ Use this interface in order to interact with the virtual desktops and control wh
 
 <dl> <dt>
 
-[**IVirtualDesktopManager**](/windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager)
+[**IVirtualDesktopManager**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)
 </dt> </dl>
 
  

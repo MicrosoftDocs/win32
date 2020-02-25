@@ -14,7 +14,7 @@ The following are the Distributed File System (DFS) structures:
 
 <dl> <dt>
 
-[**DFS_GET_PKT_ENTRY_STATE_ARG**](/windows/desktop/api/lmdfs/ns-lmdfs-get_pkt_entry_state_arg)
+[**DFS_GET_PKT_ENTRY_STATE_ARG**](/windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg)
 </dt> <dd>
 
 Input buffer used with the [**FSCTL_DFS_GET_PKT_ENTRY_STATE**](fsctl-dfs-get-pkt-entry-state.md) control code

@@ -78,7 +78,7 @@ while (count--)
 
 To retrieve the name and time of a marker, perform the following steps:
 
-1.  Call the [**IWMHeaderInfo::GetMarkerCount**](/previous-versions/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount) method to determine how many markers the file contains.
+1.  Call the [**IWMHeaderInfo::GetMarkerCount**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount) method to determine how many markers the file contains.
 2.  Retrieve the size of the string needed to contain the marker name. To do so, call the [**IWMHeaderInfo::GetMarker**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker) method. Specify the index of the marker to retrieve, and **NULL** for the string buffer (the *pwszMarkerName* parameter). The method returns the length of the string, including the terminating '\\0' character, in the *pcchMarkerNameLen* parameter.
 3.  Allocate a wide-character string to receive the name.
 4.  Call **GetMarker** again, but this time pass the address of the string in the *pwszMarkerName* parameter. The method writes the marker name into the string, and returns the marker time in the *pcnsMarkerTime* parameter.
