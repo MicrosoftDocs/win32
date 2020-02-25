@@ -83,10 +83,10 @@ Retrieves the pointer to the callback function set with [**WinHttpSetStatusCallb
 
 Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md), it must call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
 
-> [!Note]  
+> [!Note]
 > The application should not attempt to close the certificate store with the CERT\_CLOSE\_STORE\_FORCE\_FLAG flag in the call to [**CertCloseStore**](windows/desktop/api/wincrypt/nf-wincrypt-certclosestore) on the certificate store from which the certificate context was retrieved. An access violation may occur.
 
- 
+
 
 When the server requests a client certificate, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) as shown in the following code example.
 
@@ -94,13 +94,13 @@ When the server requests a client certificate, [**WinHttpSendRequest**](/windows
 BOOL fRet = WinHttpSetOption ( hRequest,
                                WINHTTP_OPTION_CLIENT_CERT_CONTEXT,
                                WINHTTP_NO_CLIENT_CERT_CONTEXT,
-                               0); 
+                               0);
 ```
 
-> [!Note]  
+> [!Note]
 > This flag is available for Windows Vista and later.
 
- 
+
 
 If the server requires a client certificate, it may send a 403 HTTP status code in response. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
 
@@ -116,10 +116,10 @@ Retrieves a [**SecPkgContext\_IssuerListInfoEx**](windows/desktop/api/schannel/n
 
 Alternately, if the server requests the client certificate, but does not require it, the application can call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
 
-> [!Note]  
+> [!Note]
 > This flag is available for Windows Vista and later.
 
- 
+
 
 
 </dt> </dl> </dd> <dt>
@@ -195,7 +195,7 @@ If a TCP connection request takes longer than this time-out value, the request i
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_CONNECTION_INFO_"></span><span id="winhttp_option_connection_info_"></span>**WINHTTP\_OPTION\_CONNECTION\_INFO** 
+<span id="WINHTTP_OPTION_CONNECTION_INFO_"></span><span id="winhttp_option_connection_info_"></span>**WINHTTP\_OPTION\_CONNECTION\_INFO**
 </dt> <dd> <dl> <dt>
 
 
@@ -235,7 +235,7 @@ Sets a DWORD of flags which determine whether WinHTTP will automatically decompr
 
 
 
- 
+
 
 By default, WinHTTP will deliver compressed responses to the caller unmodified. Supported in Windows 8.1 and newer.
 
@@ -297,7 +297,7 @@ Sets an unsigned long integer value that specifies the features currently enable
 
 
 
- 
+
 
 
 </dt> </dl> </dd> <dt>
@@ -324,7 +324,7 @@ Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. Th
 Sets a **BOOL** value that specifies whether tracing is currently enabled. For more information about the trace facility in WinHTTP, see [WinHTTP Trace Facility](winhttptracecfg-exe--a-trace-configuration-tool.md). This option can only be set on a **NULL** **HINTERNET** handle.
 
 
-</dt> </dl> </dd> 
+</dt> </dl> </dd>
 
 <dt>
 
@@ -666,7 +666,7 @@ Sets the behavior of WinHTTP regarding the handling of a 30x HTTP redirect statu
 
 
 
- 
+
 
 
 </dt> </dl> </dd> <dt>
@@ -787,7 +787,7 @@ Allows an invalid certificate date, that is, an expired or not-yet-effective cer
 
 </dd> <dt>
 
-<span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA_"></span><span id="security_flag_ignore_unknown_ca_"></span>SECURITY\_FLAG\_IGNORE\_UNKNOWN\_CA 
+<span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA_"></span><span id="security_flag_ignore_unknown_ca_"></span>SECURITY\_FLAG\_IGNORE\_UNKNOWN\_CA
 </dt> <dd>
 
 Allows an invalid certificate authority. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_INVALID\_CA** callback.
@@ -869,10 +869,10 @@ Gets a pointer to [**SecPkgContext\_Bindings**](windows/desktop/api/sspi/ns-sspi
 
 A Channel Binding Token is a property of a secure transport channel and is used to bind an authentication channel to the secure transport channel. This token can only be obtained by this option after an SSL connection has been established.
 
-> [!Note]  
+> [!Note]
 > Passing this option and a **null** value for *lpBuffer* to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) will return ERROR\_INSUFFICIENT\_BUFFER and the required byte size for the buffer in the *lpdwBufferLength* parameter. This returned buffer size value can be passed in a subsequent call to query for the Channel Binding Token. These steps are necessary when handling WINHTTP\_CALLBACK\_STATUS\_REQUEST if you want to modify request headers based on the Channel Binding Token. Note that Windows XP and Vista do not support modifying request headers during this callback.
 
- 
+
 
 
 </dt> </dl> </dd> <dt>
@@ -977,7 +977,7 @@ Retrieves a string value that contains the full URL of a downloaded resource. If
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS_"></span><span id="winhttp_option_use_global_server_credentials_"></span>**WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** 
+<span id="WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS_"></span><span id="winhttp_option_use_global_server_credentials_"></span>**WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS**
 </dt> <dd> <dl> <dt>
 
 
@@ -1024,10 +1024,10 @@ Sets the time, in milliseconds, that [**WinHttpWebSocketClose**](/windows/deskto
 
 Sets the interval, in milliseconds, to send a keep-alive packet over the connection. The default interval is 30000 (30 seconds). The minimum interval is 15000 (15 seconds). Using [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to set a value lower than 15000 will return with **ERROR\_INVALID\_PARAMETER**.
 
-> [!Note]  
+> [!Note]
 > The default value for **WINHTTP\_OPTION\_WEB\_SOCKET\_KEEPALIVE\_INTERVAL** is read from **HKLM:\\SOFTWARE\\Microsoft\\WebSocket\\KeepaliveInterval**. If a value is not set, the default value of 30000 will be used. It is not possible to have a lower keepalive interval than 15000 milliseconds.
 
- 
+
 
 
 </dt> </dl> </dd> <dt>
@@ -1149,7 +1149,7 @@ The following table lists the option flags by specifying which handles they can 
 
 \* See the documentation for this flag earlier in this topic.
 
-> [!Note]  
+> [!Note]
 > For Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
 
 ## Requirements
@@ -1168,9 +1168,9 @@ The following table lists the option flags by specifying which handles they can 
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 
