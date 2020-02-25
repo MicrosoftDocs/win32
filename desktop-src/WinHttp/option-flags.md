@@ -86,8 +86,6 @@ Sets the client certificate context. If an application receives [**ERROR\_WINHTT
 > [!Note]
 > The application should not attempt to close the certificate store with the CERT\_CLOSE\_STORE\_FORCE\_FLAG flag in the call to [**CertCloseStore**](windows/desktop/api/wincrypt/nf-wincrypt-certclosestore) on the certificate store from which the certificate context was retrieved. An access violation may occur.
 
-
-
 When the server requests a client certificate, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) as shown in the following code example.
 
 ``` syntax
@@ -99,8 +97,6 @@ BOOL fRet = WinHttpSetOption ( hRequest,
 
 > [!Note]
 > This flag is available for Windows Vista and later.
-
-
 
 If the server requires a client certificate, it may send a 403 HTTP status code in response. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
 
@@ -118,8 +114,6 @@ Alternately, if the server requests the client certificate, but does not require
 
 > [!Note]
 > This flag is available for Windows Vista and later.
-
-
 
 
 </dt> </dl> </dd> <dt>
@@ -224,18 +218,12 @@ Sets or retrieves a **DWORD\_PTR** that contains a pointer to the context value 
 
 Sets a DWORD of flags which determine whether WinHTTP will automatically decompress response bodies with compressed Content-Encodings. WinHTTP will also set an appropriate Accept-Encoding header, overriding any supplied by the caller. Supported values are:
 
-
-
 |                                       |                                                           |
 |---------------------------------------|-----------------------------------------------------------|
 | Value                                 | Meaning                                                   |
 | WINHTTP\_DECOMPRESSION\_FLAG\_GZIP    | Decompress Content-Encoding: gzip responses.              |
 | WINHTTP\_DECOMPRESSION\_FLAG\_DEFLATE | Decompress Content-Encoding: deflate responses.           |
 | WINHTTP\_DECOMPRESSION\_FLAG\_ALL     | Decompress responses with any supported Content-Encoding. |
-
-
-
-
 
 By default, WinHTTP will deliver compressed responses to the caller unmodified. Supported in Windows 8.1 and newer.
 
@@ -288,16 +276,10 @@ Automatic redirection is disabled when sending requests with [**WinHttpSendReque
 
 Sets an unsigned long integer value that specifies the features currently enabled. Can be one of the following values.
 
-
-
 | Term                                                                                                                                                                       | Description                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="WINHTTP_ENABLE_SSL_REVERT_IMPERSONATION"></span><span id="winhttp_enable_ssl_revert_impersonation"></span>WINHTTP\_ENABLE\_SSL\_REVERT\_IMPERSONATION<br/> | If enabled, WinHTTP temporarily reverts client impersonation for the duration of SSL certificate authentication operations. This value can be set only on the session handle.<br/> |
 | <span id="WINHTTP_ENABLE_SSL_REVOCATION"></span><span id="winhttp_enable_ssl_revocation"></span>WINHTTP\_ENABLE\_SSL\_REVOCATION<br/>                                | If enabled, WinHTTP allows SSL revocation. This value can be set only on the request handle.<br/>                                                                                  |
-
-
-
-
 
 
 </dt> </dl> </dd> <dt>
@@ -330,6 +312,8 @@ Sets a **BOOL** value that specifies whether tracing is currently enabled. For m
 
 <span id="WINHTTP_OPTION_ENCODE_EXTRA"></span><span id="winhttp_option_encode_extra"></span>**WINHTTP\_OPTION\_ENCODE\_EXTRA**
 </dt> <dd> <dl> <dt>
+
+
 
 Enables URL percent encoding for path and query string. Supported on Windows 10, version 1803 and newer.
 
@@ -656,17 +640,11 @@ Sets or retrieves an unsigned long integer value that contains the time-out valu
 
 Sets the behavior of WinHTTP regarding the handling of a 30x HTTP redirect status code. This option can be set on a session or request handle to one of the following values:
 
-
-
 | Term                                                                                                                                                                                                                    | Description                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="WINHTTP_OPTION_REDIRECT_POLICY_ALWAYS"></span><span id="winhttp_option_redirect_policy_always"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_ALWAYS<br/>                                                    | All redirects are followed automatically.<br/>                                                                                                 |
 | <span id="WINHTTP_OPTION_REDIRECT_POLICY_DISALLOW_HTTPS_TO_HTTP"></span><span id="winhttp_option_redirect_policy_disallow_https_to_http"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_DISALLOW\_HTTPS\_TO\_HTTP<br/> | All redirects are followed, except those that originate from a secure (https) URL to an unsecure (http) URL. This is the default setting.<br/> |
 | <span id="WINHTTP_OPTION_REDIRECT_POLICY_NEVER"></span><span id="winhttp_option_redirect_policy_never"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_NEVER<br/>                                                       | Redirects are never followed. The 30x status is returned to the application.<br/>                                                              |
-
-
-
-
 
 
 </dt> </dl> </dd> <dt>
@@ -873,8 +851,6 @@ A Channel Binding Token is a property of a secure transport channel and is used 
 > Passing this option and a **null** value for *lpBuffer* to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) will return ERROR\_INSUFFICIENT\_BUFFER and the required byte size for the buffer in the *lpdwBufferLength* parameter. This returned buffer size value can be passed in a subsequent call to query for the Channel Binding Token. These steps are necessary when handling WINHTTP\_CALLBACK\_STATUS\_REQUEST if you want to modify request headers based on the Channel Binding Token. Note that Windows XP and Vista do not support modifying request headers during this callback.
 
 
-
-
 </dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_SERVER_CERT_CONTEXT"></span><span id="winhttp_option_server_cert_context"></span>**WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT**
@@ -1028,8 +1004,6 @@ Sets the interval, in milliseconds, to send a keep-alive packet over the connect
 > The default value for **WINHTTP\_OPTION\_WEB\_SOCKET\_KEEPALIVE\_INTERVAL** is read from **HKLM:\\SOFTWARE\\Microsoft\\WebSocket\\KeepaliveInterval**. If a value is not set, the default value of 30000 will be used. It is not possible to have a lower keepalive interval than 15000 milliseconds.
 
 
-
-
 </dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_WEB_SOCKET_RECEIVE_BUFFER_SIZE"></span><span id="winhttp_option_web_socket_receive_buffer_size"></span>**WINHTTP\_OPTION\_WEB\_SOCKET\_RECEIVE\_BUFFER\_SIZE**
@@ -1167,11 +1141,3 @@ The following table lists the option flags by specifying which handles they can 
 
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
-
-
-
-
-
-
-
-
