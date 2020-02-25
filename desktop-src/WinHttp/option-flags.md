@@ -905,23 +905,8 @@ Includes the server port number.
 
 Takes an event that will be set when the last callback has completed for a particular session. This flag must be must be used on a session handle. The event cannot be closed until after it has been set by WinHTTP.
 
-<dl> <dt>
 
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_ALL"></span><span id="winhttp_flag_secure_protocol_all"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_ALL
-</dt> <dd>
-
-The buffer length is incorrect for a handle, the handle is invalid, or the option has already been set.
-
-</dd> <dt>
-
-<span id="ERROR_WINHTTP_INCORRECT_HANDLE_TYPE"></span><span id="error_winhttp_incorrect_handle_type"></span>ERROR\_WINHTTP\_INCORRECT\_HANDLE\_TYPE
-</dt> <dd>
-
-The target is not a session handle.
-
-</dd> </dl>
-
-</dl> </dd> <dt>
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_UNSAFE_HEADER_PARSING"></span><span id="winhttp_option_unsafe_header_parsing"></span>**WINHTTP\_OPTION\_UNSAFE\_HEADER\_PARSING**
 </dt> <dd> <dl> <dt>
