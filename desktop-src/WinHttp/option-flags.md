@@ -189,7 +189,7 @@ If a TCP connection request takes longer than this time-out value, the request i
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_CONNECTION_INFO_"></span><span id="winhttp_option_connection_info_"></span>**WINHTTP\_OPTION\_CONNECTION\_INFO**
+<span id="WINHTTP_OPTION_CONNECTION_INFO"></span><span id="winhttp_option_connection_info"></span>**WINHTTP\_OPTION\_CONNECTION\_INFO**
 </dt> <dd> <dl> <dt>
 
 
@@ -765,7 +765,7 @@ Allows an invalid certificate date, that is, an expired or not-yet-effective cer
 
 </dd> <dt>
 
-<span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA_"></span><span id="security_flag_ignore_unknown_ca_"></span>SECURITY\_FLAG\_IGNORE\_UNKNOWN\_CA
+<span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA"></span><span id="security_flag_ignore_unknown_ca"></span>SECURITY\_FLAG\_IGNORE\_UNKNOWN\_CA
 </dt> <dd>
 
 Allows an invalid certificate authority. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_INVALID\_CA** callback.
@@ -953,7 +953,7 @@ Retrieves a string value that contains the full URL of a downloaded resource. If
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS_"></span><span id="winhttp_option_use_global_server_credentials_"></span>**WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS**
+<span id="WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS"></span><span id="winhttp_option_use_global_server_credentials"></span>**WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS**
 </dt> <dd> <dl> <dt>
 
 
