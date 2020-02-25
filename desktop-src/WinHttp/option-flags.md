@@ -333,7 +333,7 @@ Retrieves an unsigned long integer value that contains a Microsoft Windows Socke
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_GLOBAL_SERVER_CREDS"></span><span id="winhttp_option_global_server_creds"></span>**WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS**
+<span id="WINHTTP_OPTION_GLOBAL_PROXY_CREDS"></span><span id="winhttp_option_global_proxy_creds"></span>**WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS**
 </dt> <dd> <dl> <dt>
 
 
@@ -343,7 +343,7 @@ Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winh
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_GLOBAL_PROXY_CREDS"></span><span id="winhttp_option_global_proxy_creds"></span>**WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS**
+<span id="WINHTTP_OPTION_GLOBAL_SERVER_CREDS"></span><span id="winhttp_option_global_server_creds"></span>**WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS**
 </dt> <dd> <dl> <dt>
 
 
@@ -923,7 +923,7 @@ The target is not a session handle.
 
 </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_UNSAFE_HEADER_BLOCKING"></span><span id="winhttp_option_unsafe_header_blocking"></span>**WINHTTP\_OPTION\_UNSAFE\_HEADER\_BLOCKING**
+<span id="WINHTTP_OPTION_UNSAFE_HEADER_PARSING"></span><span id="winhttp_option_unsafe_header_parsing"></span>**WINHTTP\_OPTION\_UNSAFE\_HEADER\_PARSING**
 </dt> <dd> <dl> <dt>
 
 
@@ -1061,9 +1061,9 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST<br/>[**SecPkgContext\_IssuerListInfoEx**](windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)\* | \- | X | X | \- |
 | WINHTTP\_OPTION\_CODEPAGE<br/>**DWORD** | X | \- | \- | X |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH<br/>**DWORD** | X | \- | \- | X |
-| WINHTTP\_OPTION\_CONNECT\_INFO<br/>[**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- |
 | WINHTTP\_OPTION\_CONNECT\_RETRIES<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_CONNECT\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_CONNECTION\_INFO<br/>[**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- |
 | WINHTTP\_OPTION\_CONTEXT\_VALUE<br/>**DWORD\_PTR** | X | X | X | X |
 | WINHTTP\_OPTION\_DISABLE\_FEATURE<br/>**DWORD** | \- | X | \- | X |
 | WINHTTP\_OPTION\_ENABLE\_FEATURE<br/>**DWORD** | \* | \* | \- | X |
@@ -1074,8 +1074,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X |
 | WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X |
 | WINHTTP\_OPTION\_HANDLE\_TYPE<br/>**DWORD** | X | X | X | \- |
-| WINHTTP\_OPTION\_HTTP\_VERSION<br/>[**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X |
 | WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED<br/>**DWORD** | \- | X | X | \- |
+| WINHTTP\_OPTION\_HTTP\_VERSION<br/>[**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X |
 | WINHTTP\_OPTION\_IS\_PROXY\_CONNECT\_RESPONSE<br/>**BOOL** | X | X | X | \- |
 | WINHTTP\_OPTION\_MAX\_CONNS\_PER\_1\_0\_SERVER<br/>**DWORD** | X | \- | X | X |
 | WINHTTP\_OPTION\_MAX\_CONNS\_PER\_SERVER<br/>**DWORD** | X | \- | X | X |
@@ -1083,7 +1083,6 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_MAX\_HTTP\_STATUS\_CONTINUE<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_MAX\_RESPONSE\_DRAIN\_SIZE<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_MAX\_RESPONSE\_HEADER\_SIZE<br/>**DWORD** | X | X | X | X |
-| WINHTTP\_OPTION\_UPGRADE\_TO\_WEB\_SOCKET<br/>N/A | \- | X | \- | X |
 | WINHTTP\_OPTION\_PARENT\_HANDLE<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | X | X | \- |
 | WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL<br/>**LPWSTR** | \- | X | X | \- |
@@ -1096,8 +1095,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_PROXY\_USERNAME<br/>**LPWSTR** | \- | X | X | X |
 | WINHTTP\_OPTION\_READ\_BUFFER\_SIZE<br/>**DWORD** | \- | X | X | X |
 | WINHTTP\_OPTION\_RECEIVE\_PROXY\_CONNECT\_RESPONSE<br/>**BOOL** | X | X | \- | X |
-| WINHTTP\_OPTION\_RECEIVE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
+| WINHTTP\_OPTION\_RECEIVE\_TIMEOUT<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_REDIRECT\_POLICY<br/>**DWORD** | X | X | X | X |
 | WINHTTP\_OPTION\_REJECT\_USERPWD\_IN\_URL<br/>**BOOL** | \- | X | \- | X |
 | WINHTTP\_OPTION\_REQUEST\_PRIORITY<br/>**DWORD** | \- | X | X | X |
@@ -1111,7 +1110,8 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT<br/>[**CERT CONTEXT**](windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- |
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X |
-| WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVEN<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X |
+| WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVENT<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X |
+| WINHTTP\_OPTION\_UPGRADE\_TO\_WEB\_SOCKET<br/>N/A | \- | X | \- | X |
 | WINHTTP\_OPTION\_URL<br/>**LPWSTR** | \- | X | X | \- |
 | WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS<br/>**BOOL** | X | X | \- | X |
 | WINHTTP\_OPTION\_USER\_AGENT<br/>**LPWSTR** | X | \- | X | X |
