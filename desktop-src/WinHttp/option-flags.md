@@ -12,16 +12,6 @@ The following option flags are supported by [**WinHttpQueryOption**](/windows/de
 
 <dl> <dt>
 
-<span id="SECURITY_FLAG_IGNORE_WEAK_SIGNATURE"></span><span id="security_flag_ignore_weak_signature"></span>**SECURITY\_FLAG\_IGNORE\_WEAK\_SIGNATURE**
-</dt> <dd> <dl> <dt>
-
-
-
-Allows a weak signature check to be ignored.
-
-
-</dt> </dl> </dd> <dt>
-
 <span id="WINHTTP_OPTION_ASSURED_NON_BLOCKING_CALLBACKS"></span><span id="winhttp_option_assured_non_blocking_callbacks"></span>**WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS**
 </dt> <dd> <dl> <dt>
 
@@ -95,9 +85,6 @@ BOOL fRet = WinHttpSetOption ( hRequest,
                                0);
 ```
 
-> [!Note]
-> This flag is available for Windows Vista and later.
-
 If the server requires a client certificate, it may send a 403 HTTP status code in response. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
 
 
@@ -111,9 +98,6 @@ If the server requires a client certificate, it may send a 403 HTTP status code 
 Retrieves a [**SecPkgContext\_IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) structure when the error from [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) is **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. The issuer list in the structure contains a list of acceptable Certificate Authorities (CA) from the server. The client application can filter the CA list to retrieve the client certificate for SSL authentication.
 
 Alternately, if the server requests the client certificate, but does not require it, the application can call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
-
-> [!Note]
-> This flag is available for Windows Vista and later.
 
 
 </dt> </dl> </dd> <dt>
@@ -201,7 +185,7 @@ Retrieves the source and destination IP address, and port of the request that ge
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_CONNECTION_STATS_V0"></span><span id="winhttp_option_connection_stats_v0"></span>**WINHTTP\_OPTION\_CONNECTION\_STATS_\V0**
+<span id="WINHTTP_OPTION_CONNECTION_STATS_V0"></span><span id="winhttp_option_connection_stats_v0"></span>**WINHTTP\_OPTION\_CONNECTION\_STATS\_V0**
 </dt> <dd> <dl> <dt>
 
 
@@ -214,7 +198,7 @@ Retreives the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_CONNECTION_STATS_V1"></span><span id="winhttp_option_connection_stats_v1"></span>**WINHTTP\_OPTION\_CONNECTION\_STATS_\V1**
+<span id="WINHTTP_OPTION_CONNECTION_STATS_V1"></span><span id="winhttp_option_connection_stats_v1"></span>**WINHTTP\_OPTION\_CONNECTION\_STATS\_V1**
 </dt> <dd> <dl> <dt>
 
 
@@ -1181,8 +1165,8 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS<br/>**BOOL** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_AUTOLOGON\_POLICY<br/>**DWORD** | \- | X | \- | X | \- |
 | WINHTTP\_OPTION\_CALLBACK<br/>**LPVOID** | X | X | X | X | \- |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT<br/>[**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | \- |
-| WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST<br/>[**SecPkgContext\_IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)\* | \- | X | X | \- | \- |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT<br/>[**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | Windows Vista |
+| WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST<br/>[**SecPkgContext\_IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) | \- | X | X | \- | Windows Vista |
 | WINHTTP\_OPTION\_CODEPAGE<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONNECT\_RETRIES<br/>**DWORD** | X | X | X | X | \- |
@@ -1261,8 +1245,6 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_WEB\_SOCKET\_SEND\_BUFFER\_SIZE<br/>**DWORD** | X | X | X | X | Windows 8.1 |
 | WINHTTP\_OPTION\_WORKER\_THREAD\_COUNT<br/>**DWORD** | \- | \- | \- | X | \- |
 | WINHTTP\_OPTION\_WRITE\_BUFFER\_SIZE<br/>**DWORD** | \- | X | X | X | \- |
-
-\* See the documentation for this flag earlier in this topic.
 
 > [!Note]
 > For Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
