@@ -284,7 +284,7 @@ The GUID values for extension functions supported by the Windows TCP/IP service 
 
 Reserved for future use with sockets.
 
-Retrieve the [**QOS**](https://msdn.microsoft.com/library/Aa374024(v=VS.80).aspx) structure associated with the socket group to which this socket belongs. The input buffer is optional. Some protocols (for example, RSVP) allow the input buffer to be used to qualify a quality of service request. The **QOS** structure will be copied into the output buffer. If this socket does not belong to an appropriate socket group, the **SendingFlowspec** and **ReceivingFlowspec** members of the returned **QOS** structure are set to **NULL**. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
+Retrieve the [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) structure associated with the socket group to which this socket belongs. The input buffer is optional. Some protocols (for example, RSVP) allow the input buffer to be used to qualify a quality of service request. The **QOS** structure will be copied into the output buffer. If this socket does not belong to an appropriate socket group, the **SendingFlowspec** and **ReceivingFlowspec** members of the returned **QOS** structure are set to **NULL**. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
 
 </dd> <dt>
 
@@ -322,7 +322,7 @@ The *lpvOutBuffer* parameter points to the buffer in which to store the informat
 <span id="SIO_GET_QOS__opcode_setting__O__T__1_"></span><span id="sio_get_qos__opcode_setting__o__t__1_"></span><span id="SIO_GET_QOS__OPCODE_SETTING__O__T__1_"></span>SIO\_GET\_QOS (opcode setting: O, T==1)
 </dt> <dd>
 
-Reserved for future use with sockets. Retrieve the [**QOS**](https://msdn.microsoft.com/library/Aa374024(v=VS.80).aspx) structure associated with the socket. The input buffer is optional. Some protocols (for example, RSVP) allow the input buffer to be used to qualify a quality of service request. The **QOS** structure will be copied into the output buffer. The output buffer must be sized large enough to be able to contain the full **QOS** structure. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
+Reserved for future use with sockets. Retrieve the [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) structure associated with the socket. The input buffer is optional. Some protocols (for example, RSVP) allow the input buffer to be used to qualify a quality of service request. The **QOS** structure will be copied into the output buffer. The output buffer must be sized large enough to be able to contain the full **QOS** structure. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
 
 A sender may not call **SIO\_GET\_QOS** until the socket is connected.
 
@@ -634,7 +634,7 @@ Reserved.
 <span id="SIO_SET_QOS__opcode_setting__I__T__1_"></span><span id="sio_set_qos__opcode_setting__i__t__1_"></span><span id="SIO_SET_QOS__OPCODE_SETTING__I__T__1_"></span>SIO\_SET\_QOS (opcode setting: I, T==1)
 </dt> <dd>
 
-Associate the specified [**QOS**](https://msdn.microsoft.com/library/Aa374024(v=VS.80).aspx) structure with the socket. No output buffer is required, the **QOS** structure will be obtained from the input buffer. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
+Associate the specified [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) structure with the socket. No output buffer is required, the **QOS** structure will be obtained from the input buffer. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
 
 </dd> <dt>
 

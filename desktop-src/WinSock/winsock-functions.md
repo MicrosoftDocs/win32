@@ -67,16 +67,16 @@ ms.date: 05/31/2018
 | [**recvfrom**](/windows/win32/api/winsock/nf-winsock-recvfrom) | Receives a datagram and stores the source address. |
 | [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx) | Closes an existing completion queue used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions. |
 | [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx) | Creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions. |
-| [**RIOCreateRequestQueue**](https://msdn.microsoft.com/library/Hh448843(v=VS.85).aspx) | Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions. |
-| [**RIODequeueCompletion**](https://msdn.microsoft.com/library/Hh448845(v=VS.85).aspx) | Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions. |
-| [**RIODeregisterBuffer**](https://msdn.microsoft.com/library/Hh448847(v=VS.85).aspx) | Deregisters a registered buffer used with the Winsock registered I/O extensions. |
-| [**RIONotify**](https://msdn.microsoft.com/library/Hh437191(v=VS.85).aspx) | Registers the method to use for notification behavior with an I/O completion queue for use with the Winsock registered I/O extensions. |
-| [**RIOReceive**](https://msdn.microsoft.com/library/Hh437193(v=VS.85).aspx) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
-| [**RIOReceiveEx**](https://msdn.microsoft.com/library/Hh437196(v=VS.85).aspx) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
+| [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue) | Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions. |
+| [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) | Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions. |
+| [**RIODeregisterBuffer**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer) | Deregisters a registered buffer used with the Winsock registered I/O extensions. |
+| [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) | Registers the method to use for notification behavior with an I/O completion queue for use with the Winsock registered I/O extensions. |
+| [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
+| [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex) | Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
 | [**RIORegisterBuffer**](https://msdn.microsoft.com/library/Hh437199(v=VS.85).aspx) | Registers a [**RIO\_BUFFERID**](rio-bufferid.md), a registered buffer descriptor, with a specified buffer for use with the Winsock registered I/O extensions. |
 | [**RIOResizeCompletionQueue**](https://msdn.microsoft.com/library/Hh437202(v=VS.85).aspx) | Resizes an I/O completion queue to be either larger or smaller for use with the Winsock registered I/O extensions. |
 | [**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx) | Resizes a request queue to be either larger or smaller for use with the Winsock registered I/O extensions. |
-| [**RIOSend**](https://msdn.microsoft.com/library/Hh437213(v=VS.85).aspx) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
+| [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions. |
 | [**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx) | Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions. |
 | [**select**](/windows/win32/api/Winsock2/nf-winsock2-select) | Determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O. |
 | [**send**](/windows/win32/api/Winsock2/nf-winsock2-send) | Sends data on a connected socket. |
@@ -103,7 +103,7 @@ ms.date: 05/31/2018
 | [**WSACancelAsyncRequest**](/windows/win32/api/winsock/nf-winsock-wsacancelasyncrequest) | Cancels an incomplete asynchronous operation. |
 | [**WSACleanup**](/windows/win32/api/winsock/nf-winsock-wsacleanup) | Terminates use of the Ws2\_32.DLL. |
 | [**WSACloseEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsacloseevent) | Closes an open event object handle. |
-| [**WSAConnect**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnect) | Establishes a connection to another socket application, exchanges connect data, and specifies needed quality of service based on the specified [**FLOWSPEC**](https://msdn.microsoft.com/library/Aa373702(v=VS.80).aspx) structure. |
+| [**WSAConnect**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnect) | Establishes a connection to another socket application, exchanges connect data, and specifies needed quality of service based on the specified [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec) structure. |
 | [**WSAConnectByList**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnectbylist) | Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports). |
 | [**WSAConnectByName**](/windows/win32/api/Winsock2/nf-winsock2-wsaconnectbynamea) | Establishes a connection to another socket application on a specified host and port |
 | [**WSACreateEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsacreateevent) | Creates a new event object. |
@@ -120,7 +120,7 @@ ms.date: 05/31/2018
 | [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) | Retrieves the user-defined IP layer MTU for a socket. |
 | [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) | Returns the error status for the last operation that failed. |
 | [**WSAGetOverlappedResult**](/windows/win32/api/Winsock2/nf-winsock2-wsagetoverlappedresult) | Retrieves the results of an overlapped operation on the specified socket. |
-| [**WSAGetQOSByName**](/windows/win32/api/Winsock2/nf-winsock2-wsagetqosbyname) | Initializes a [**QOS**](https://msdn.microsoft.com/library/Aa374024(v=VS.80).aspx) structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names. |
+| [**WSAGetQOSByName**](/windows/win32/api/Winsock2/nf-winsock2-wsagetqosbyname) | Initializes a [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names. |
 | [**WSAGetServiceClassInfo**](/windows/win32/api/Winsock2/nf-winsock2-wsagetserviceclassinfoa) | Retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider. |
 | [**WSAGetServiceClassNameByClassId**](/windows/win32/api/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida) | Retrieves the name of the service associated with the specified type. |
 | [**WSAGetUdpRecvMaxCoalescedSize**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetudprecvmaxcoalescedsize) | Retrieves the maximum size of a received, coalesced message for a UDP socket. |

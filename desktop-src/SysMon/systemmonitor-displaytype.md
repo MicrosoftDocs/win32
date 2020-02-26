@@ -35,7 +35,7 @@ Property DisplayType As DisplayTypeConstants
 
 ## Property value
 
-Type of graph used to graph the performance counter data. For possible values, see [**DisplayTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant).
+Type of graph used to graph the performance counter data. For possible values, see [**DisplayTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-displaytypeconstants).
 
 ## Exceptions
 

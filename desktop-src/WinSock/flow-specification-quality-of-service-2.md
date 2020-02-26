@@ -12,7 +12,7 @@ Quality of Service is implemented in Windows through various system QoS componen
 
 For details about QoS templates, see [QoS Templates](https://msdn.microsoft.com/library/Aa374099(v=VS.80).aspx).
 
-For details and implementation guidelines about Quality of Service, see the [**FLOWSPEC**](https://msdn.microsoft.com/library/Aa373702(v=VS.80).aspx) structure.
+For details and implementation guidelines about Quality of Service, see the [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec) structure.
 
  
 

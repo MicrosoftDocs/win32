@@ -71,8 +71,8 @@ These functions are used in [file mapping](file-mapping.md).
 | [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Maps a view of a file mapping into the address space of a calling process, and specifies the NUMA node for the physical memory. |
 | [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Maps a view of a file mapping into the address space of a calling process from a Windows Store app. |
 | [**MapViewOfFileNuma2**](https://msdn.microsoft.com/library/Mt492558(v=VS.85).aspx) | Maps a view of a file or a pagefile-backed section into the address space of the specified process. |
-| [**OpenFileMapping**](/windows/desktop/api/MemoryApi/nf-memoryapi-openfilemapping) | Opens a named file-mapping object. |
-| [**OpenFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-openfilemappingfromapp) | Opens a named file-mapping object. |
+| [**OpenFileMapping**](/windows/win32/api/winbase/nf-winbase-openfilemappinga) | Opens a named file-mapping object. |
+| [**OpenFileMappingFromApp**](/windows/win32/api/winbase/nf-winbase-openfilemappingafromapp) | Opens a named file-mapping object. |
 | [**UnmapViewOfFile**](https://msdn.microsoft.com/library/Aa366882(v=VS.85).aspx) | Unmaps a mapped view of a file from the calling process's address space. |
 | [**UnmapViewOfFile2**](https://msdn.microsoft.com/library/Mt492559(v=VS.85).aspx) | Unmaps a previously mapped view of a file or a pagefile-backed section. |
 | [**UnmapViewOfFileEx**](/windows/desktop/api/MemoryApi/nf-memoryapi-unmapviewoffileex) | Unmaps a previously mapped view of a file or a pagefile-backed section. |

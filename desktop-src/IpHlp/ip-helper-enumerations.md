@@ -14,7 +14,7 @@ The following enumerations are used with IP Helper:
 -   [**IP\_DAD\_STATE**](/windows/desktop/api/Nldef/ne-nldef-nl_dad_state)
 -   [**IP\_PREFIX\_ORIGIN**](/windows/desktop/api/Nldef/ne-nldef-nl_prefix_origin)
 -   [**IP\_SUFFIX\_ORIGIN**](/windows/desktop/api/Nldef/ne-nldef-nl_suffix_origin)
--   [**NET\_ADDRESS\_FORMAT**](/windows/desktop/api/Iphlpapi/ne-iphlpapi-net_address_format_)
+-   [**NET\_ADDRESS\_FORMAT**](/windows/win32/api/iphlpapi/ne-iphlpapi-net_address_format)
 -   [**SCOPE\_LEVEL**](/windows/desktop/api/Ws2def/ne-ws2def-scope_level)
 -   [**TCP\_BOOLEAN\_OPTIONAL**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_boolean_optional)
 -   [**TCP\_ESTATS\_TYPE**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_estats_type)

@@ -12,7 +12,7 @@ The following structure is used with the registry.
 
 <dl>
 
-[**VALENT**](/windows/desktop/api/Winreg/ns-winreg-value_enta)  
+[**VALENT**](/windows/win32/api/winreg/ns-winreg-valentw)  
 </dl>
 
  

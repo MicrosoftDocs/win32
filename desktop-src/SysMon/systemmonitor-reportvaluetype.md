@@ -35,11 +35,11 @@ Property ReportValueType As ReportValueTypeConstants
 
 ## Property value
 
-Determines if the Histogram and Report views graph the last value sampled during the sampling interval or a calculated value from the sampling interval. For possible values, see [**ReportValueTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-ereportvaluetypeconstant).
+Determines if the Histogram and Report views graph the last value sampled during the sampling interval or a calculated value from the sampling interval. For possible values, see [**ReportValueTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants).
 
 ## Remarks
 
-SYSMON ignores this value and uses [**ReportValueTypeConstants.sysmonDefaultValue**](/windows/desktop/api/ISysmon/ne-isysmon-ereportvaluetypeconstant) if [**SystemMonitor.DisplayType**](systemmonitor-displaytype.md) is not [**DisplayTypeConstants.sysmonHistogram**](/windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant) or **DisplayTypeConstants.sysmonReport**.
+SYSMON ignores this value and uses [**ReportValueTypeConstants.sysmonDefaultValue**](/windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants) if [**SystemMonitor.DisplayType**](systemmonitor-displaytype.md) is not [**DisplayTypeConstants.sysmonHistogram**](/windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant) or **DisplayTypeConstants.sysmonReport**.
 
 ## Requirements
 

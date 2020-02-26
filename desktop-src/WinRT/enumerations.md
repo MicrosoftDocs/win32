@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 -   [**ThreadingType**](https://msdn.microsoft.com/library/Dn408457(v=VS.85).aspx)
 -   [**TrustLevel**](https://msdn.microsoft.com/library/Dn408452(v=VS.85).aspx)
 -   [**RO\_INIT\_TYPE**](https://msdn.microsoft.com/library/BR224661(v=VS.85).aspx)
--   [**RO\_ERROR\_REPORTING\_FLAGS**](https://msdn.microsoft.com/library/BR224647(v=VS.85).aspx)
+-   [**RO\_ERROR\_REPORTING\_FLAGS**](/windows/win32/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags)
 
  
 

@@ -479,7 +479,7 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="odd">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>SIP_CLIENT_DATA</strong> <br/></td>
 <td>0x80080209</td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
+<td>The <a href="https://docs.microsoft.com/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a>structure used to sign the package didn't contain the required data<br/></td>
 </tr>
 <tr class="even">
 <td><strong>APPX_E_INVALID_</strong> <br/> <strong>KEY_INFO</strong> <br/></td>

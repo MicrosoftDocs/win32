@@ -21,12 +21,12 @@ ms.date: 05/31/2018
 
 ## Single-object Wait Functions
 
-The [**SignalObjectAndWait**](/windows/desktop/api/WinBase/nf-winbase-signalobjectandwait), [**WaitForSingleObject**](https://msdn.microsoft.com/library/ms685061(v=VS.85).aspx), and [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx) functions require a handle to one synchronization object. These functions return when one of the following occurs:
+The [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait), [**WaitForSingleObject**](https://msdn.microsoft.com/library/ms685061(v=VS.85).aspx), and [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx) functions require a handle to one synchronization object. These functions return when one of the following occurs:
 
 -   The specified object is in the signaled state.
 -   The time-out interval elapses. The time-out interval can be set to **INFINITE** to specify that the wait will not time out.
 
-The [**SignalObjectAndWait**](/windows/desktop/api/WinBase/nf-winbase-signalobjectandwait) function enables the calling thread to atomically set the state of an object to signaled and wait for the state of another object to be set to signaled.
+The [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait) function enables the calling thread to atomically set the state of an object to signaled and wait for the state of another object to be set to signaled.
 
 ## Multiple-object Wait Functions
 
@@ -43,7 +43,7 @@ When waiting for the state of a single object to be set to signaled, these multi
 
 ## Alertable Wait Functions
 
-The [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex), [**SignalObjectAndWait**](/windows/desktop/api/WinBase/nf-winbase-signalobjectandwait), [**WaitForMultipleObjectsEx**](https://msdn.microsoft.com/library/ms684245(v=VS.85).aspx), and [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx) functions differ from the other wait functions in that they can optionally perform an *alertable wait operation*. In an alertable wait operation, the function can return when the specified conditions are met, but it can also return if the system queues an I/O completion routine or an APC for execution by the waiting thread. For more information about alertable wait operations and I/O completion routines, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md). For more information about APCs, see [Asynchronous Procedure Calls](asynchronous-procedure-calls.md).
+The [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex), [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait), [**WaitForMultipleObjectsEx**](https://msdn.microsoft.com/library/ms684245(v=VS.85).aspx), and [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx) functions differ from the other wait functions in that they can optionally perform an *alertable wait operation*. In an alertable wait operation, the function can return when the specified conditions are met, but it can also return if the system queues an I/O completion routine or an APC for execution by the waiting thread. For more information about alertable wait operations and I/O completion routines, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md). For more information about APCs, see [Asynchronous Procedure Calls](asynchronous-procedure-calls.md).
 
 ## Registered Wait Functions
 

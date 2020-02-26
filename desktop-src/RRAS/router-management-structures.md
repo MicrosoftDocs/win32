@@ -47,7 +47,7 @@ The [Router Administration Functions](router-administration-functions.md) and th
 -   [**PROJECTION\_INFO**](/windows/desktop/api/Mprapi/ns-mprapi-projection_info)
 -   [**PROJECTION\_INFO2**](/windows/desktop/api/mprapi/ns-mprapi-projection_info2)
 -   [**RAS\_CONNECTION\_4**](/windows/desktop/api/mprapi/ns-mprapi-ras_connection_4)
--   [**RAS\_UPDATE\_CONNECTION**](/windows/desktop/api/Mprapi/ns-mprapi-ras_update_connection_)
+-   [**RAS\_UPDATE\_CONNECTION**](/windows/win32/api/mprapi/ns-mprapi-ras_update_connection)
 -   [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](/windows/desktop/api/mprapi/ns-mprapi-router_custom_ikev2_policy0)
 -   [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](/windows/desktop/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0)
 -   [**SSTP\_CERT\_INFO**](/windows/desktop/api/Mprapi/ns-mprapi-sstp_cert_info)

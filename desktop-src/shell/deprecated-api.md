@@ -258,7 +258,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Deprecated. Data used in <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata"><strong>IBrowserService2::GetFolderSetData</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-stoolbaritem"><strong>TOOLBARITEM</strong></a><br/></td>
+<td><a href="/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem"><strong>TOOLBARITEM</strong></a><br/></td>
 <td>Deprecated. Data used in <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem"><strong>IBrowserService2::_GetToolbarItem</strong></a>, <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus"><strong>IBrowserService2::v_MayGetNextToolbarFocus</strong></a>, and <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus"><strong>IBrowserService2::_SetFocus</strong></a> to define a toolbar item.<br/></td>
 </tr>
 <tr class="odd">
