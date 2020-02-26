@@ -26,6 +26,12 @@ ETW is designed for C and C++ developers who write user-mode applications.
 
 ETW is included in Microsoft Windows 2000 and later. For information about which operating systems are required to use a particular function, see the Requirements section of the documentation for the function.
 
+## Process ETW traces in .NET code
+
+You can use the [.NET TraceProcessing API](https://docs.microsoft.com/windows/apps/trace-processing/overview) to analyze ETW traces for your applications and other software components. This API is used internally at Microsoft to analyze ETW data produced the Windows engineering system, and it is also used to power several tables in [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer). This API is available as a NuGet package.
+
+For more information, see [this article](https://docs.microsoft.com/windows/apps/trace-processing/overview).
+
 ## In this section
 
 
