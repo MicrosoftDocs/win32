@@ -26,6 +26,20 @@ Options that can be set or retrieved for the current WinHTTP session.
 
 </dd> <dt>
 
+[**WINHTTP\_REQUEST\_STAT\_ENTRY**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_request_stat_entry)
+</dt> <dd>
+
+Types of request statistics.
+
+</dd> <dt>
+
+[**WINHTTP\_REQUEST\_TIME\_ENTRY**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_request_time_entry)
+</dt> <dd>
+
+Types of request timings.
+
+</dd> <dt>
+
 [**WINHTTP\_WEB\_SOCKET\_BUFFER\_TYPE**](/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type)
 </dt> <dd>
 
