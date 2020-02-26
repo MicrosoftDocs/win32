@@ -28,7 +28,7 @@ A data type that specifies a socket descriptor used by send and receive requests
 
 ## Remarks
 
-The Winsock registered I/O extensions operate primarily on a **RIO\_RQ** object rather than a socket. An application obtains a **RIO\_RQ** for an existing socket using the [**RIOCreateRequestQueue**](https://msdn.microsoft.com/library/Hh448843(v=VS.85).aspx) function. The input socket must have been created by calling the [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) function with the **WSA\_FLAG\_RIO** flag set in the *dwFlags* parameter.
+The Winsock registered I/O extensions operate primarily on a **RIO\_RQ** object rather than a socket. An application obtains a **RIO\_RQ** for an existing socket using the [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue) function. The input socket must have been created by calling the [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) function with the **WSA\_FLAG\_RIO** flag set in the *dwFlags* parameter.
 
 After obtaining a **RIO\_RQ** object, the underlying socket descriptor remains valid. An application may continue to use the underlying socket to set and query socket options, issue IOCTLs and ultimately close the socket.
 
@@ -55,19 +55,19 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
 
 <dl> <dt>
 
-[**RIOCreateRequestQueue**](https://msdn.microsoft.com/library/Hh448843(v=VS.85).aspx)
+[**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 </dt> <dt>
 
-[**RIOReceive**](https://msdn.microsoft.com/library/Hh437193(v=VS.85).aspx)
+[**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive)
 </dt> <dt>
 
-[**RIOReceiveEx**](https://msdn.microsoft.com/library/Hh437196(v=VS.85).aspx)
+[**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex)
 </dt> <dt>
 
 [**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx)
 </dt> <dt>
 
-[**RIOSend**](https://msdn.microsoft.com/library/Hh437213(v=VS.85).aspx)
+[**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend)
 </dt> <dt>
 
 [**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx)
