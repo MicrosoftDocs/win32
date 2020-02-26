@@ -14,7 +14,7 @@ This topic describes the process and thread functions.
 -   [Process Functions](#process-functions)
 -   [Process Enumeration Functions](#process-enumeration-functions)
 -   [Policy Functions](#policy-functions)
--   [Thread Functions](#process-and-thread-functions)
+-   [Thread Functions](#thread-functions)
 -   [Process and Thread Extended Attribute Functions](#process-and-thread-extended-attribute-functions)
 -   [WOW64 Functions](#wow64-functions)
 -   [Job Object Functions](#job-object-functions)
