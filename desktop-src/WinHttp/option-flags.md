@@ -3,7 +3,7 @@ Description: The following option flags are supported by WinHttpQueryOption and 
 ms.assetid: 2d0441f4-ddba-4f2a-8861-8803cad6f1ac
 title: Option Flags (Winhttp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 02/25/2020
 ---
 
 # Option Flags
