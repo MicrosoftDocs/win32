@@ -46,7 +46,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
     hr = pSecurity->PerformSecurityUpdate(WMDRM_SECURITY_PERFORM_FORCE_INDIV,
         &pCancelCookie);
 
-    // Get the EventGenerator from the Secrity interface; this 
+    // Get the EventGenerator from the Security interface; this 
     //  is not neccessary, merely illustrative. 
     if (SUCCEEDED(hr))
     {
