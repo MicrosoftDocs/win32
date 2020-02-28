@@ -379,7 +379,7 @@
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12device3
           items: 
           - name: "OpenExistingHeapFromFileMapping"
-            href: /previous-versions/windows/desktop/legacy/mt813613(v%3Dvs.85)
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromfilemapping
           - name: "OpenExistingHeapFromAddress"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromaddress
           - name: "EnqueueMakeResident"
