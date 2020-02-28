@@ -145,7 +145,7 @@ In this case the "numbers" are sorted in order, but the user perceives a poorly 
 
 The application uses the [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa) or [**LCMapStringEx**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringex) function to map strings, if LCMAP\_SORTKEY is not specified. A mapped string is null-terminated if the source string is null-terminated.
 
-When transforming between uppercase and lowercase, the function always maps a single character to a single character. For example, the LCMAP\_LOWERCASE and LCMAP\_UPPERCASE flags map the German Sharp S ("ß") to itself. The LCMAP\_UPPERCASE flag does not map "ß" to "SS". The LCMAP\_LOWERCASE flag never maps "SS" to "ß".
+When transforming between uppercase and lowercase, the function does not guarantee that a single character will map to a single character. For example, the LCMAP\_LOWERCASE and LCMAP\_UPPERCASE flags may map the German Sharp S ("ß") to itself. Alternatively, the LCMAP\_UPPERCASE flag may map "ß" to "SS" and the LCMAP\_LOWERCASE flag may map "SS" to "ß". The behavior depends on the NLS version.
 
 When transforming between uppercase and lowercase, the function is not sensitive to context. For example, while the LCMAP\_UPPERCASE flag correctly maps both Greek lowercase sigma ("σ") and Greek lowercase final sigma ("ς") to Greek uppercase sigma ("Σ"), the LCMAP\_LOWERCASE flag always maps "Σ" to "σ", never to "ς".
 
