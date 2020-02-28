@@ -144,35 +144,27 @@ Fitts' Law is a well known principle in graphical user interface design ergonomi
 
 Thus, large targets are good. Be sure to make the entire target area clickable.
 
-**Incorrect:**
-
-![screen shot of icon with only label clickable ](images/inter-mouse-image24.png)
-
-**Correct:**
-
-![screen shot of clickable icon and clickable label ](images/inter-mouse-image25.png)
-
-In the correct example, the entire target is clickable.
+| Incorrect | Correct (the entire target is clickable) |
+|:---|:---|
+| ![screen shot of icon with only label clickable ](images/inter-mouse-image24.png) | ![screen shot of clickable icon and clickable label ](images/inter-mouse-image25.png) |
 
 You can dynamically change the size of a target when pointing to make it easier to acquire.
 
 ![screen shot of character map with enlarged number ](images/inter-mouse-image26.png)
 
-In this example, a target becomes larger when the user is pointing to make it easier to acquire.
+*A target becomes larger when the user is pointing to make it easier to acquire*
 
-And close targets are also good. Locate clickable items close to where they are most likely going to be used.
-
-**Incorrect:**
+And close targets are also good. Locate clickable items close to where they are most likely going to be used. In the following image, the color palette is too far away from the tool selector.
 
 ![screen shot of color palette separated from tools ](images/inter-mouse-image27.png)
 
-In this example, the color palette is too far from where it is likely to be used.
+*The color palette is too far from where it is likely to be used*
 
 Consider the fact that the user's current pointer location is as close as a target can be, making it trivial to acquire. Thus, context menus take full advantage of Fitts' law, as do the mini toolbars used by Microsoft Office.
 
 ![screen shot of pointers near drop-down list ](images/inter-mouse-image28.png)
 
-The current pointer location is always the easiest to acquire.
+*The current pointer location is always the easiest to acquire*
 
 Also, consider alternative input devices when determining object sizes. For example, the minimum target size recommended for touch is 23x23 pixels (13x13 DLUs).
 
@@ -196,10 +188,10 @@ For more information and guidelines, see [Accessibility](inter-accessibility.md)
 ### Click affordance
 
 - **Never require users to click an object to determine if it is clickable.** Users must be able to determine clickability by visual inspection alone.
-    - Primary UI (such as commit buttons) must have a static click affordance. Users shouldn't have to hover to discover primary UI.
-    - Secondary UI (such as secondary commands or progressive disclosure controls) can display their click affordance on hover.
-    - [Text links](ctrl-links.md) should statically suggest link text, then display their click affordance (underline or other presentation change, with [hand pointer](#hand-pointers)) on hover.
-    - [Graphics links](ctrl-links.md) only display a hand pointer on hover.
+  - Primary UI (such as commit buttons) must have a static click affordance. Users shouldn't have to hover to discover primary UI.
+  - Secondary UI (such as secondary commands or progressive disclosure controls) can display their click affordance on hover.
+  - [Text links](ctrl-links.md) should statically suggest link text, then display their click affordance (underline or other presentation change, with [hand pointer](#hand-pointers)) on hover.
+  - [Graphics links](ctrl-links.md) only display a hand pointer on hover.
 - **Use the hand (or "link select") pointer only for text and graphic links.** Otherwise, users would have to click on objects to determine if they are links.
 
 ### Standard mouse button interactions
@@ -233,17 +225,15 @@ The following table summarizes the mouse button interactions that apply in most 
 
 - **Make click targets at least 16x16 pixels so that they can be easily clicked by any input device.** For [touch](inter-touch.md), the recommended minimum control size is 23x23 pixels (13x13 DLUs). Consider dynamically changing the size of small targets when the user is pointing to make them easier to acquire.
 
-    **Incorrect:**
+    In this example, the spin control buttons are too small to be used effectively with touch or a pen.
 
-    ![screen shot of spin control with small arrows ](images/inter-mouse-image29.png)In this example, the spin control buttons are too small to be used effectively with touch or a pen.
+    ![screen shot of spin control with small arrows ](images/inter-mouse-image29.png) 
 
 - **Make splitters at least five pixels wide so that they can be easily clicked by any input device.** Consider dynamically changing the size of small targets when the user is pointing to make them easier to acquire.
 
-    **Incorrect:**
+    In this example, the splitter in the Windows Explorer navigation pane is too narrow to be used effectively with a mouse or pen.
 
     ![screen shot of narrow, almost invisible splitter ](images/inter-mouse-image30.png)
-
-    In this example, the splitter in the Windows Explorer navigation pane is too narrow to be used effectively with a mouse or pen.
 
 - **Provide users a margin of error spatially.** Allow for some mouse movement (for example, three pixels) when users release a mouse button. Users sometimes move the mouse slightly as they release the mouse button, so the mouse position just before button release better reflects the user's intention than the position just after.
 - **Provide users a margin of error temporally.** Use the system double-click speed to distinguish between single and double clicks.
@@ -252,11 +242,9 @@ The following table summarizes the mouse button interactions that apply in most 
 - Use the Esc key to let users abandon compound mouse interactions such as moving, resizing, splitting, and dragging.
 - **If an object doesn't support double clicks but users are likely to assume it does, interpret a "double click" as one single click.** Assume the user intended a single action instead of two.
 
-    **Incorrect:**
+    Because users are likely to assume that taskbar buttons support double clicks, a "double click" should be handled as a single click.
 
     ![screen shot of taskbar button and standard pointer ](images/inter-mouse-image31.png)
-
-    Because users are likely to assume that taskbar buttons support double clicks, a "double click" should be handled as a single click. Windows Vista has the correct behavior when a window is minimized.
 
 - **Ignore redundant mouse clicks while your program is inactive.** For example, if the user clicks a button 10 times while a program is inactive, interpret that as a single click.
 - **Don't use double drags or chords.** A double drag is a drag action commenced with a double-click, and a chord is when multiple mouse buttons are pressed simultaneously. These interactions aren't standard, aren't discoverable, are difficult to perform, and are most likely performed accidentally.
@@ -271,30 +259,30 @@ The following table summarizes the mouse button interactions that apply in most 
 - **Make the mouse wheel affect the object with the most specific scope.** For example, if the pointer is over a scrollable list box control in a scrollable pane within a scrollable window, the mouse wheel affects the list box control.
 - **Don't change the input focus when using the mouse wheel.**
 - Give the mouse wheel the following effects:
-    - For scrollable windows, panes, and controls:
-        - **Rotating the mouse wheel scrolls the object vertically, where rotating up scrolls up.** For the wheel to have natural mapping, rotating the mouse wheel should never scroll horizontally because doing so is disorienting and unexpected.
-        - **If the Ctrl key is pressed, rotating the mouse wheel zooms the object,** where rotating up zooms in and rotating down zooms out.
-        - **Tilting the mouse wheel scrolls the object horizontally.**
-    - For zoomable windows and panes (without scrollbars):
-        - **Rotating the mouse wheel zooms the object,** where rotating up zooms in and rotating down zooms out.
-        - Tilting the mouse wheel has no effect.
-    - For tabs:
-        - **Rotating the mouse wheel can change the current tab,** regardless of the orientation of the tabs.
-        - Tilting the mouse wheel has no effect.
-    - If the Shift and Alt keys are depressed, the mouse wheel has no effect.
+  - For scrollable windows, panes, and controls:
+    - **Rotating the mouse wheel scrolls the object vertically, where rotating up scrolls up.** For the wheel to have natural mapping, rotating the mouse wheel should never scroll horizontally because doing so is disorienting and unexpected.
+      - **If the Ctrl key is pressed, rotating the mouse wheel zooms the object,** where rotating up zooms in and rotating down zooms out.
+      - **Tilting the mouse wheel scrolls the object horizontally.**
+  - For zoomable windows and panes (without scrollbars):
+    - **Rotating the mouse wheel zooms the object,** where rotating up zooms in and rotating down zooms out.
+    - Tilting the mouse wheel has no effect.
+  - For tabs:
+    - **Rotating the mouse wheel can change the current tab,** regardless of the orientation of the tabs.
+    - Tilting the mouse wheel has no effect.
+  - If the Shift and Alt keys are depressed, the mouse wheel has no effect.
 - **Use the Windows system settings for the vertical scroll size (for rotating) and horizontal scroll size (for tilting).** These settings are configurable through the Mouse control panel item.
 - **Make rotating the mouse wheel more rapidly result in scrolling more rapidly.** Doing so allows users to scroll large documents more efficiently.
 - **For scrollable windows, consider having clicking the mouse wheel button put the window in "reader mode."** Reader mode plants a special scroll origin icon and scrolls the window in a direction and speed relative to the scroll origin.
 
 ![screen shot of page with scroll-origin icon ](images/inter-mouse-image32.png)
 
-In this example, Windows Internet Explorer supports reader mode.
+*Internet Explorer supports reader mode, which features the scroll-origin icon*
 
 ### Hiding the pointer
 
 - **Don't hide the pointer.** Exceptions:
-    - Presentation applications running in full screen presentation mode may hide the pointer. However, the pointer must be restored immediately when users move the mouse, and can be rehidden after two seconds of inactivity.
-    - Environments without a mouse (such as kiosks) can permanently hide the pointer.
+  - Presentation applications running in full screen presentation mode may hide the pointer. However, the pointer must be restored immediately when users move the mouse, and can be rehidden after two seconds of inactivity.
+  - Environments without a mouse (such as kiosks) can permanently hide the pointer.
 - By default, Windows hides the pointer while the user is typing in a text box. This Windows system setting is configurable through the Mouse control panel item.
 
 ### Activity pointers
@@ -309,21 +297,19 @@ The activity pointers in Windows are the busy pointer (![screen shot of doughnut
 
 - **Don't display the caret until the text input window or control has input focus.** The caret suggests input focus to users, but a window or control can display the caret without input focus. Of course, don't steal input focus so that an out-of-context dialog box can display the caret.
 
-    **Incorrect:**
+    The Windows Credential Manager is displayed out of context with the caret but without input focus. As a result, users end up typing their password in unexpected places.
 
     ![screen shot of credential manager without focus ](images/inter-mouse-image35.png)
-
-    The Windows Credential Manager is displayed out of context with the caret but without input focus. As a result, users end up typing their password in unexpected places.
 
 - **Place the caret where users are most likely to type first.** Usually this is either the last place the user was typing or at the end of the text.
 
 ### Accessibility
 
 - For users who can't use the mouse at all, make the mouse redundant with the keyboard.
-    - Users should be able to do everything with the keyboard that they can with the mouse, except actions for which fine motor skills are essential, such as drawing and game playing.
-    - Users should be able to do everything with the mouse that they can with the keyboard, except efficient text entry.
+  - Users should be able to do everything with the keyboard that they can with the mouse, except actions for which fine motor skills are essential, such as drawing and game playing.
+  - Users should be able to do everything with the mouse that they can with the keyboard, except efficient text entry.
 - For users with limited ability to use the mouse:
-    - Don't make double-clicking and dragging the only way to perform an action.
+  - Don't make double-clicking and dragging the only way to perform an action.
 
 For more information and guidelines, see [Accessibility](inter-accessibility.md).
 
