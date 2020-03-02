@@ -50,6 +50,7 @@ Application manifests have the following elements and attributes.
 | **magicFutureSetting**                |                           | No       |
 | **printerDriverIsolation**            |                           | No       |
 | **ultraHighResolutionScrollingAware** |                           | No       |
+| **msix**                              |                           | No       |
 
 
 
@@ -362,6 +363,32 @@ Specifies whether printer driver isolation is enabled. **TRUE** indicates that i
 ### ultraHighResolutionScrollingAware
 
 Specifies whether ultra-high-resolution-scrolling aware is enabled. **TRUE** indicates that it is enabled. It has no attributes.
+
+<span id="msix"></span><span id="MSIX"></span>
+
+### msix
+
+Specifies the identity info of a [sparse MSIX package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) for the current application. This element is supported in Windows 10, version 2004, and later versions.
+
+The **msix** element must be in the namespace `urn:schemas-microsoft-com:msix.v1`. It has the attributes shown in the following table.
+
+| Attribute   | Description                                                                                             |
+|-------------|---------------------------------------------------------------------------------------------------------|
+| **publisher**    | Describes the publisher information. This value must match the **Publisher** attribute in the [Identity](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest. |
+| **packageName** | Describes the contents of the package. This value must match the **Name** attribute in the [Identity](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-identity) element in your sparse package manifest.    |
+| **applicationId**    | The unique identifier of the application. This value must match the **Id** attribute in the [Application](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in your sparse package manifest.  |
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="Contoso.PhotoStoreApp"/>
+  <msix xmlns="urn:schemas-microsoft-com:msix.v1"
+          publisher="CN=Contoso"
+          packageName="ContosoPhotoStore"
+          applicationId="ContosoPhotoStore"
+        />
+</assembly>
+```
 
 ## Example
 
