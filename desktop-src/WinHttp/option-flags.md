@@ -31,28 +31,12 @@ The client application must take special care to perform minimal operations with
 
 Sets an unsigned long integer value that specifies the [Automatic Logon Policy](authentication-in-winhttp.md) with one of the following values.
 
-<dl> <dt>
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_AUTOLOGON_SECURITY_LEVEL_HIGH"></span><span id="winhttp_autologon_security_level_high"></span>WINHTTP\_AUTOLOGON\_SECURITY\_LEVEL\_HIGH | Default credentials are not used. Note that this flag takes effect only if you specify the server by the actual machine name. It will not take effect, if you specify the server by "localhost" or IP address. |
+| <span id="WINHTTP_AUTOLOGON_SECURITY_LEVEL_LOW"></span><span id="winhttp_autologon_security_level_low"></span>WINHTTP\_AUTOLOGON\_SECURITY\_LEVEL\_LOW | An authenticated log on using the default credentials is performed for all requests. |
+| <span id="WINHTTP_AUTOLOGON_SECURITY_LEVEL_MEDIUM"></span><span id="winhttp_autologon_security_level_medium"></span>WINHTTP\_AUTOLOGON\_SECURITY\_LEVEL\_MEDIUM | An authenticated log on using the default credentials is performed only for requests on the local Intranet. |
 
-<span id="WINHTTP_AUTOLOGON_SECURITY_LEVEL_HIGH"></span><span id="winhttp_autologon_security_level_high"></span>WINHTTP\_AUTOLOGON\_SECURITY\_LEVEL\_HIGH
-</dt> <dd>
-
-Default credentials are not used. Note that this flag takes effect only if you specify the server by the actual machine name. It will not take effect, if you specify the server by "localhost" or IP address.
-
-</dd> <dt>
-
-<span id="WINHTTP_AUTOLOGON_SECURITY_LEVEL_LOW"></span><span id="winhttp_autologon_security_level_low"></span>WINHTTP\_AUTOLOGON\_SECURITY\_LEVEL\_LOW
-</dt> <dd>
-
-An authenticated log on using the default credentials is performed for all requests.
-
-</dd> <dt>
-
-<span id="WINHTTP_AUTOLOGON_SECURITY_LEVEL_MEDIUM"></span><span id="winhttp_autologon_security_level_medium"></span>WINHTTP\_AUTOLOGON\_SECURITY\_LEVEL\_MEDIUM
-</dt> <dd>
-
-An authenticated log on using the default credentials is performed only for requests on the local Intranet.
-
-</dd> </dl>
 
 </dl> </dd> <dt>
 
@@ -119,35 +103,12 @@ Sets the [*code page*](glossary.md) that is used to process the URL (that is, qu
 
 Sets an unsigned long integer value that specifies whether [Passport Authentication in WinHTTP](passport-authentication-in-winhttp.md) authentication is enabled. The value can be one of the following:
 
-<dl> <dt>
-
-<span id="WINHTTP_DISABLE_PASSPORT_AUTH"></span><span id="winhttp_disable_passport_auth"></span>WINHTTP\_DISABLE\_PASSPORT\_AUTH
-</dt> <dd>
-
-Microsoft Passport authentication is disabled. This is the default.
-
-</dd> <dt>
-
-<span id="WINHTTP_DISABLE_PASSPORT_KEYRING"></span><span id="winhttp_disable_passport_keyring"></span>WINHTTP\_DISABLE\_PASSPORT\_KEYRING
-</dt> <dd>
-
-The Passport keyring is disabled. This is the default.
-
-</dd> <dt>
-
-<span id="WINHTTP_ENABLE_PASSPORT_AUTH"></span><span id="winhttp_enable_passport_auth"></span>WINHTTP\_ENABLE\_PASSPORT\_AUTH
-</dt> <dd>
-
-Passport authentication is enabled.
-
-</dd> <dt>
-
-<span id="WINHTTP_ENABLE_PASSPORT_KEYRING"></span><span id="winhttp_enable_passport_keyring"></span>WINHTTP\_ENABLE\_PASSPORT\_KEYRING
-</dt> <dd>
-
-The Passport keyring is enabled.
-
-</dd> </dl>
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_DISABLE_PASSPORT_AUTH"></span><span id="winhttp_disable_passport_auth"></span>WINHTTP\_DISABLE\_PASSPORT\_AUTH | Microsoft Passport authentication is disabled. This is the default. |
+| <span id="WINHTTP_DISABLE_PASSPORT_KEYRING"></span><span id="winhttp_disable_passport_keyring"></span>WINHTTP\_DISABLE\_PASSPORT\_KEYRING | The Passport keyring is disabled. This is the default. |
+| <span id="WINHTTP_ENABLE_PASSPORT_AUTH"></span><span id="winhttp_enable_passport_auth"></span>WINHTTP\_ENABLE\_PASSPORT\_AUTH | Passport authentication is enabled. |
+| <span id="WINHTTP_ENABLE_PASSPORT_KEYRING"></span><span id="winhttp_enable_passport_keyring"></span>WINHTTP\_ENABLE\_PASSPORT\_KEYRING | The Passport keyring is enabled. |
 
 </dl> </dd> <dt>
 
@@ -225,12 +186,11 @@ Sets or retrieves a **DWORD\_PTR** that contains a pointer to the context value 
 
 Sets a DWORD of flags which determine whether WinHTTP will automatically decompress response bodies with compressed Content-Encodings. WinHTTP will also set an appropriate Accept-Encoding header, overriding any supplied by the caller. Supported values are:
 
-|                                       |                                                           |
-|---------------------------------------|-----------------------------------------------------------|
-| Value                                 | Meaning                                                   |
-| WINHTTP\_DECOMPRESSION\_FLAG\_GZIP    | Decompress Content-Encoding: gzip responses.              |
-| WINHTTP\_DECOMPRESSION\_FLAG\_DEFLATE | Decompress Content-Encoding: deflate responses.           |
-| WINHTTP\_DECOMPRESSION\_FLAG\_ALL     | Decompress responses with any supported Content-Encoding. |
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_DECOMPRESSION_FLAG_GZIP"></span><span id="winhttp_decompression_flag_gzip"></span>WINHTTP\_DECOMPRESSION\_FLAG\_GZIP | Decompress Content-Encoding: gzip responses. |
+| <span id="WINHTTP_DECOMPRESSION_FLAG_DEFLATE"></span><span id="winhttp_decompression_flag_deflate"></span>WINHTTP\_DECOMPRESSION\_FLAG\_DEFLATE | Decompress Content-Encoding: deflate responses. |
+| <span id="WINHTTP_DECOMPRESSION_FLAG_ALL"></span><span id="winhttp_decompression_flag_all"></span>WINHTTP\_DECOMPRESSION\_FLAG\_ALL | Decompress responses with any supported Content-Encoding. |
 
 By default, WinHTTP will deliver compressed responses to the caller unmodified.
 
@@ -244,35 +204,13 @@ By default, WinHTTP will deliver compressed responses to the caller unmodified.
 
 Sets an unsigned long integer value that specifies which features are disabled with one or more of the following flags. Be aware that this feature should only be passed to [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) on request handles after the request handle is created with [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest), and before the request is sent with [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest).
 
-<dl> <dt>
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_DISABLE_AUTHENTICATION"></span><span id="winhttp_disable_authentication"></span>WINHTTP\_DISABLE\_AUTHENTICATION | Automatic authentication is disabled. |
+| <span id="WINHTTP_DISABLE_COOKIES"></span><span id="winhttp_disable_cookies"></span>WINHTTP\_DISABLE\_COOKIES | Automatic addition of cookie headers to requests is disabled. Also, returned cookies are not automatically added to the cookie database. Disabling cookies can result in poor performance for Passport authentication. |
+| <span id="WINHTTP_DISABLE_KEEP_ALIVE"></span><span id="winhttp_disable_keep_alive"></span>WINHTTP\_DISABLE\_KEEP\_ALIVE | Disables keep-alive semantics for the connection. Keep-alive semantics are required for MSN, NTLM, and other types of authentication. |
+| <span id="WINHTTP_DISABLE_REDIRECTS"></span><span id="winhttp_disable_redirects"></span>WINHTTP\_DISABLE\_REDIRECTS | Automatic redirection is disabled when sending requests with [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest). If automatic redirection is disabled, an application must register a callback function in order for Passport authentication to succeed. |
 
-<span id="WINHTTP_DISABLE_AUTHENTICATION"></span><span id="winhttp_disable_authentication"></span>WINHTTP\_DISABLE\_AUTHENTICATION
-</dt> <dd>
-
-Automatic authentication is disabled.
-
-</dd> <dt>
-
-<span id="WINHTTP_DISABLE_COOKIES"></span><span id="winhttp_disable_cookies"></span>WINHTTP\_DISABLE\_COOKIES
-</dt> <dd>
-
-Automatic addition of cookie headers to requests is disabled. Also, returned cookies are not automatically added to the cookie database. Disabling cookies can result in poor performance for Passport authentication.
-
-</dd> <dt>
-
-<span id="WINHTTP_DISABLE_KEEP_ALIVE"></span><span id="winhttp_disable_keep_alive"></span>WINHTTP\_DISABLE\_KEEP\_ALIVE
-</dt> <dd>
-
-Disables keep-alive semantics for the connection. Keep-alive semantics are required for MSN, NTLM, and other types of authentication.
-
-</dd> <dt>
-
-<span id="WINHTTP_DISABLE_REDIRECTS"></span><span id="winhttp_disable_redirects"></span>WINHTTP\_DISABLE\_REDIRECTS
-</dt> <dd>
-
-Automatic redirection is disabled when sending requests with [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest). If automatic redirection is disabled, an application must register a callback function in order for Passport authentication to succeed.
-
-</dd> </dl>
 
 </dl> </dd> <dt>
 
@@ -303,10 +241,10 @@ Allows new requests to open an additional HTTP/2 connection when the maximum con
 
 Sets an unsigned long integer value that specifies the features currently enabled. Can be one of the following values.
 
-| Term                                                                                                                                                                       | Description                                                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WINHTTP_ENABLE_SSL_REVERT_IMPERSONATION"></span><span id="winhttp_enable_ssl_revert_impersonation"></span>WINHTTP\_ENABLE\_SSL\_REVERT\_IMPERSONATION<br/> | If enabled, WinHTTP temporarily reverts client impersonation for the duration of SSL certificate authentication operations. This value can be set only on the session handle.<br/> |
-| <span id="WINHTTP_ENABLE_SSL_REVOCATION"></span><span id="winhttp_enable_ssl_revocation"></span>WINHTTP\_ENABLE\_SSL\_REVOCATION<br/>                                | If enabled, WinHTTP allows SSL revocation. This value can be set only on the request handle.<br/>                                                                                  |
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_ENABLE_SSL_REVERT_IMPERSONATION"></span><span id="winhttp_enable_ssl_revert_impersonation"></span>WINHTTP\_ENABLE\_SSL\_REVERT\_IMPERSONATION | If enabled, WinHTTP temporarily reverts client impersonation for the duration of SSL certificate authentication operations. This value can be set only on the session handle. |
+| <span id="WINHTTP_ENABLE_SSL_REVOCATION"></span><span id="winhttp_enable_ssl_revocation"></span>WINHTTP\_ENABLE\_SSL\_REVOCATION | If enabled, WinHTTP allows SSL revocation. This value can be set only on the request handle. |
 
 
 </dt> </dl> </dd> <dt>
@@ -318,7 +256,10 @@ Sets an unsigned long integer value that specifies the features currently enable
 
 Sets a DWORD bitmask of acceptable advanced HTTP versions. Possible values are:
 
--   WINHTTP\_PROTOCOL\_FLAG\_HTTP2 (0x1).
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_PROTOCOL_FLAG_HTTP2"></span><span id="winhttp_protocol_flag_http2"></span>WINHTTP\_PROTOCOL\_FLAG\_HTTP2 (0x1) | Enables HTTP/2 for the request. |
+| None (0x0) | Restricts the request to HTTP/1.1 and prior. |
 
 Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. The default is 0x0.
 
@@ -387,28 +328,12 @@ Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winh
 
 Retrieves an unsigned long integer value that contains the type of the [HINTERNET](hinternet-handles-in-winhttp.md) handle passed in. The return value can be one of the following:
 
-<dl> <dt>
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_HANDLE_TYPE_CONNECT"></span><span id="winhttp_handle_type_connect"></span>WINHTTP\_HANDLE\_TYPE\_CONNECT | The handle is a connection handle. |
+| <span id="WINHTTP_HANDLE_TYPE_REQUEST"></span><span id="winhttp_handle_type_request"></span>WINHTTP\_HANDLE\_TYPE\_REQUEST | The handle is a request handle. |
+| <span id="WINHTTP_HANDLE_TYPE_SESSION"></span><span id="winhttp_handle_type_session"></span>WINHTTP\_HANDLE\_TYPE\_SESSION | The handle is a session handle. |
 
-<span id="WINHTTP_HANDLE_TYPE_CONNECT"></span><span id="winhttp_handle_type_connect"></span>WINHTTP\_HANDLE\_TYPE\_CONNECT
-</dt> <dd>
-
-The handle is a connection handle.
-
-</dd> <dt>
-
-<span id="WINHTTP_HANDLE_TYPE_REQUEST"></span><span id="winhttp_handle_type_request"></span>WINHTTP\_HANDLE\_TYPE\_REQUEST
-</dt> <dd>
-
-The handle is a request handle.
-
-</dd> <dt>
-
-<span id="WINHTTP_HANDLE_TYPE_SESSION"></span><span id="winhttp_handle_type_session"></span>WINHTTP\_HANDLE\_TYPE\_SESSION
-</dt> <dd>
-
-The handle is a session handle.
-
-</dd> </dl>
 
 </dl> </dd> <dt>
 
@@ -427,11 +352,8 @@ Prevents protocol versions other than those enabled by **WINHTTP\_OPTION\_ENABLE
 
 
 
-Gets a DWORD indicating which advanced HTTP version was used on a given request. Possible values are:
+Gets a DWORD indicating which advanced HTTP version was used on a given request. For a list of possible values, see **WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL**.
 
--     WINHTTP\_PROTOCOL\_FLAG\_HTTP2 (0x1).
-
-0x0 indicates HTTP/1.1 or earlier.
 
 
 </dt> </dl> </dd> <dt>
@@ -701,11 +623,11 @@ Sets or retrieves an unsigned long integer value that contains the time-out valu
 
 Sets the behavior of WinHTTP regarding the handling of a 30x HTTP redirect status code. This option can be set on a session or request handle to one of the following values:
 
-| Term                                                                                                                                                                                                                    | Description                                                                                                                                          |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WINHTTP_OPTION_REDIRECT_POLICY_ALWAYS"></span><span id="winhttp_option_redirect_policy_always"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_ALWAYS<br/>                                                    | All redirects are followed automatically.<br/>                                                                                                 |
-| <span id="WINHTTP_OPTION_REDIRECT_POLICY_DISALLOW_HTTPS_TO_HTTP"></span><span id="winhttp_option_redirect_policy_disallow_https_to_http"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_DISALLOW\_HTTPS\_TO\_HTTP<br/> | All redirects are followed, except those that originate from a secure (https) URL to an unsecure (http) URL. This is the default setting.<br/> |
-| <span id="WINHTTP_OPTION_REDIRECT_POLICY_NEVER"></span><span id="winhttp_option_redirect_policy_never"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_NEVER<br/>                                                       | Redirects are never followed. The 30x status is returned to the application.<br/>                                                              |
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_OPTION_REDIRECT_POLICY_ALWAYS"></span><span id="winhttp_option_redirect_policy_always"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_ALWAYS | All redirects are followed automatically. |
+| <span id="WINHTTP_OPTION_REDIRECT_POLICY_DISALLOW_HTTPS_TO_HTTP"></span><span id="winhttp_option_redirect_policy_disallow_https_to_http"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_DISALLOW\_HTTPS\_TO\_HTTP | All redirects are followed, except those that originate from a secure (https) URL to an unsecure (http) URL. This is the default setting. |
+| <span id="WINHTTP_OPTION_REDIRECT_POLICY_NEVER"></span><span id="winhttp_option_redirect_policy_never"></span>WINHTTP\_OPTION\_REDIRECT\_POLICY\_NEVER | Redirects are never followed. The 30x status is returned to the application. |
 
 
 </dt> </dl> </dd> <dt>
@@ -767,49 +689,15 @@ Sets or retrieves an unsigned long integer value that contains the time-out valu
 
 Sets an unsigned long integer value that specifies which secure protocols are acceptable. By default only SSL3 and TLS1 are enabled in Windows 7 and Windows 8. By default only SSL3, TLS1.0, TLS1.1, and TLS1.2 are enabled in Windows 8.1 and Windows 10. The value can be a combination of one or more of the following values.
 
-<dl> <dt>
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_FLAG_SECURE_PROTOCOL_ALL"></span><span id="winhttp_flag_secure_protocol_all"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_ALL | The Secure Sockets Layer (SSL) 2.0, SSL 3.0, and Transport Layer Security (TLS) 1.0 protocols can be used. |
+| <span id="WINHTTP_FLAG_SECURE_PROTOCOL_SSL2"></span><span id="winhttp_flag_secure_protocol_ssl2"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_SSL2 | The SSL 2.0 protocol can be used. |
+| <span id="WINHTTP_FLAG_SECURE_PROTOCOL_SSL3"></span><span id="winhttp_flag_secure_protocol_ssl3"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_SSL3 | The SSL 3.0 protocol can be used. |
+| <span id="WINHTTP_FLAG_SECURE_PROTOCOL_TLS1"></span><span id="winhttp_flag_secure_protocol_tls1"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1 | The TLS 1.0 protocol can be used. |
+| <span id="WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_1"></span><span id="winhttp_flag_secure_protocol_tls1_1"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_1 | The TLS 1.1 protocol can be used. |
+| <span id="WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_2"></span><span id="winhttp_flag_secure_protocol_tls1_2"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_2 | The TLS 1.2 protocol can be used. |
 
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_ALL"></span><span id="winhttp_flag_secure_protocol_all"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_ALL
-</dt> <dd>
-
-The Secure Sockets Layer (SSL) 2.0, SSL 3.0, and Transport Layer Security (TLS) 1.0 protocols can be used.
-
-</dd> <dt>
-
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_SSL2"></span><span id="winhttp_flag_secure_protocol_ssl2"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_SSL2
-</dt> <dd>
-
-The SSL 2.0 protocol can be used.
-
-</dd> <dt>
-
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_SSL3"></span><span id="winhttp_flag_secure_protocol_ssl3"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_SSL3
-</dt> <dd>
-
-The SSL 3.0 protocol can be used.
-
-</dd> <dt>
-
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_TLS1"></span><span id="winhttp_flag_secure_protocol_tls1"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1
-</dt> <dd>
-
-The TLS 1.0 protocol can be used.
-
-</dd> <dt>
-
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_1"></span><span id="winhttp_flag_secure_protocol_tls1_1"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_1
-</dt> <dd>
-
-The TLS 1.1 protocol can be used.
-
-</dd> <dt>
-
-<span id="WINHTTP_FLAG_SECURE_PROTOCOL_TLS1_2"></span><span id="winhttp_flag_secure_protocol_tls1_2"></span>WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_2
-</dt> <dd>
-
-The TLS 1.2 protocol can be used.
-
-</dd> </dl>
 
 </dl> </dd> <dt>
 
@@ -830,72 +718,18 @@ Retrieves the certificate for a SSL/TLS server into the [**WINHTTP\_CERTIFICATE\
 
 Sets or retrieves an unsigned long integer value that contains the security flags for a handle. It can be a combination of these values:
 
-<dl> <dt>
+| Term | Description |
+|-|-|
+| <span id="SECURITY_FLAG_IGNORE_CERT_CN_INVALID"></span><span id="security_flag_ignore_cert_cn_invalid"></span>SECURITY\_FLAG\_IGNORE\_CERT\_CN\_INVALID |Allows an invalid common name in a certificate; that is, the server name specified by the application does not match the common name in the certificate. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_CERT\_CN\_INVALID** callback. |
+| <span id="SECURITY_FLAG_IGNORE_CERT_DATE_INVALID"></span><span id="security_flag_ignore_cert_date_invalid"></span>SECURITY\_FLAG\_IGNORE\_CERT\_DATE\_INVALID |Allows an invalid certificate date, that is, an expired or not-yet-effective certificate. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_CERT\_DATE\_INVALID** callback. |
+| <span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA"></span><span id="security_flag_ignore_unknown_ca"></span>SECURITY\_FLAG\_IGNORE\_UNKNOWN\_CA | Allows an invalid certificate authority. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_INVALID\_CA** callback. |
+| <span id="SECURITY_FLAG_IGNORE_CERT_WRONG_USAGE"></span><span id="security_flag_ignore_cert_wrong_usage"></span>SECURITY\_FLAG\_IGNORE\_CERT\_WRONG\_USAGE | Allows the identity of a server to be established with a non-server certificate (for example, a client certificate). |
+| <span id="SECURITY_FLAG_IGNORE_WEAK_SIGNATURE"></span><span id="security_flag_ignore_weak_signature"></span>SECURITY\_FLAG\_IGNORE\_WEAK\_SIGNATURE | Allows a weak signature to be ignored.<br/>This flag is available in the rollup update for each OS starting with Windows 7 and Windows Server 2008 R2. |
+| <span id="SECURITY_FLAG_SECURE"></span><span id="security_flag_secure"></span>SECURITY\_FLAG\_SECURE | Uses secure transfers. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption). |
+| <span id="SECURITY_FLAG_STRENGTH_MEDIUM"></span><span id="security_flag_strength_medium"></span>SECURITY\_FLAG\_STRENGTH\_MEDIUM | Uses medium (56-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption). |
+| <span id="SECURITY_FLAG_STRENGTH_STRONG"></span><span id="security_flag_strength_strong"></span>SECURITY\_FLAG\_STRENGTH\_STRONG | Uses strong (128-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption). |
+| <span id="SECURITY_FLAG_STRENGTH_WEAK"></span><span id="security_flag_strength_weak"></span>SECURITY\_FLAG\_STRENGTH\_WEAK | Uses weak (40-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption). |
 
-<span id="SECURITY_FLAG_IGNORE_CERT_CN_INVALID"></span><span id="security_flag_ignore_cert_cn_invalid"></span>SECURITY\_FLAG\_IGNORE\_CERT\_CN\_INVALID
-</dt> <dd>
-
-Allows an invalid common name in a certificate; that is, the server name specified by the application does not match the common name in the certificate. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_CERT\_CN\_INVALID** callback.
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_IGNORE_CERT_DATE_INVALID"></span><span id="security_flag_ignore_cert_date_invalid"></span>SECURITY\_FLAG\_IGNORE\_CERT\_DATE\_INVALID
-</dt> <dd>
-
-Allows an invalid certificate date, that is, an expired or not-yet-effective certificate. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_CERT\_DATE\_INVALID** callback.
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA"></span><span id="security_flag_ignore_unknown_ca"></span>SECURITY\_FLAG\_IGNORE\_UNKNOWN\_CA
-</dt> <dd>
-
-Allows an invalid certificate authority. If this flag is set, the application does not receive a **WINHTTP\_CALLBACK\_STATUS\_FLAG\_INVALID\_CA** callback.
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_IGNORE_CERT_WRONG_USAGE"></span><span id="security_flag_ignore_cert_wrong_usage"></span>SECURITY\_FLAG\_IGNORE\_CERT\_WRONG\_USAGE
-</dt> <dd>
-
-Allows the identity of a server to be established with a non-server certificate (for example, a client certificate).
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_IGNORE_WEAK_SIGNATURE"></span><span id="security_flag_ignore_weak_signature"></span>SECURITY\_FLAG\_IGNORE\_WEAK\_SIGNATURE
-</dt> <dd>
-
-Allows a weak signature to be ignored.
-
-This flag is available in the rollup update for each OS starting with Windows 7 and Windows Server 2008 R2.
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_SECURE"></span><span id="security_flag_secure"></span>SECURITY\_FLAG\_SECURE
-</dt> <dd>
-
-Uses secure transfers. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_STRENGTH_MEDIUM"></span><span id="security_flag_strength_medium"></span>SECURITY\_FLAG\_STRENGTH\_MEDIUM
-</dt> <dd>
-
-Uses medium (56-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_STRENGTH_STRONG"></span><span id="security_flag_strength_strong"></span>SECURITY\_FLAG\_STRENGTH\_STRONG
-</dt> <dd>
-
-Uses strong (128-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
-
-</dd> <dt>
-
-<span id="SECURITY_FLAG_STRENGTH_WEAK"></span><span id="security_flag_strength_weak"></span>SECURITY\_FLAG\_STRENGTH\_WEAK
-</dt> <dd>
-
-Uses weak (40-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
-
-</dd> </dl>
 
 </dl> </dd> <dt>
 
@@ -981,21 +815,11 @@ Gets the server Server Principal Name that WinHTTP supplied to SSPI during authe
 
 Includes or removes the server port number when the SPN (service principal name) is built for Kerberos or Negotiate Kerberos authentication. This flag is one of the following values:
 
-<dl> <dt>
+| Term | Description |
+|-|-|
+| <span id="WINHTTP_DISABLE_SPN_SERVER_PORT"></span><span id="winhttp_disable_spn_server_port"></span>WINHTTP\_DISABLE\_SPN\_SERVER\_PORT | Removes the server port number. |
+| <span id="WINHTTP_ENABLE_SPN_SERVER_PORT"></span><span id="winhttp_enable_spn_server_port"></span>WINHTTP\_ENABLE\_SPN\_SERVER\_PORT | Includes the server port number. |
 
-<span id="WINHTTP_DISABLE_SPN_SERVER_PORT"></span><span id="winhttp_disable_spn_server_port"></span>WINHTTP\_DISABLE\_SPN\_SERVER\_PORT
-</dt> <dd>
-
-Removes the server port number.
-
-</dd> <dt>
-
-<span id="WINHTTP_ENABLE_SPN_SERVER_PORT"></span><span id="winhttp_enable_spn_server_port"></span>WINHTTP\_ENABLE\_SPN\_SERVER\_PORT
-</dt> <dd>
-
-Includes the server port number.
-
-</dd> </dl>
 
 </dl> </dd> <dt>
 
@@ -1251,16 +1075,13 @@ Attempting to set or query an option flag on a Windows version where it is not s
 
 ## Requirements
 
-|                                     |                                                                                            |
-|-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
-| Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl>       |
+|                          |                                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|
+| Minimum supported client | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]            |
+| Minimum supported server | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]         |
+| Redistributable          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000. |
+| Header                   | Winhttp.h                                                                       |
 
 ## See also
 
-<dl> <dt>
-
 [WinHTTP Versions](winhttp-versions.md)
-</dt> </dl>
