@@ -38,6 +38,7 @@ For documentation on the ICU C APIs, please refer to the official ICU documentat
 There are basically only three main steps to follow: (Windows 10 Creators Update or higher)
 
 <dl> 1. Your application needs to target Windows 10 Creators Update or higher as the minimum supported version.  
+
 2. Add in the headers:
 
 ``` syntax
@@ -61,6 +62,9 @@ On Windows 10, version 1709 and above, you can include the header as follows:
 icuuc.lib
 icuin.lib
 ```
+
+> [!IMPORTANT]
+> The legacy libs icuuc and icuin must come before umbrella libs (like onecoreuap.lib or WindowsApp.lib). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app would crash.
 
   
 </dl>
