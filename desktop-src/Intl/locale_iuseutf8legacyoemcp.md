@@ -8,11 +8,4 @@ ms.date: 03/02/2020
 
 # LOCALE\_IUSEUTF8LEGACYOEMCP
 
-**Beginning with the Manganese version of Windows:** It is recommended that applications use Unicode instead. On machines that the user has configured to use a UTF-8 codepage, LOCALE_IUSEUTF8LEGACYOEMCP is the legacy OEM codepage that would have been used on a non-UTF-8 legacy Windows machine.
-
- 
-
- 
-
-
-
+**Beginning with the next version of Windows:** It is recommended that applications use Unicode instead. On machines that the user has configured to use a UTF-8 codepage, LOCALE_IUSEUTF8LEGACYOEMCP is the legacy OEM codepage that would have been used on a non-UTF-8 legacy Windows machine.
