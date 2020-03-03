@@ -7,7 +7,7 @@ ms.date: 01/22/2020
 
 # Provision a Wi-Fi profile via a website
 
-The workflow described in this topic was introduced in Windows 10, version 2004. This topic shows how to configure a website so that a user can provision a profile for a Hotspot 2.0 network (or for a normal network) prior to moving into range of the corresponding Wi-Fi access points. An example scenario is that of a user who might be planning to visit an airport or a conference for the first time, and they want to prepare in advance by downloading and provisioning a profile at home.
+The workflow described in this topic was introduced in Windows 10, version 2004. This topic shows how to configure a website so that a user can provision a profile for a Passpoint network (or for a normal network) prior to moving into range of the corresponding Wi-Fi access points. An example scenario is that of a user who might be planning to visit an airport or a conference for the first time, and they want to prepare in advance by downloading and provisioning a profile at home.
 
 As a developer, you enable the workflow by providing an XML profile, and configuring a website. Your users can then provision a Wi-Fi profile by downloading it from your website via a web browser. On the user's device, the Wi-Fi profile is then provisioned by using URI activation and the Windows **Settings** app.
 
