@@ -29,8 +29,6 @@ In Windows 10 Creators Update, ICU was integrated into Windows, making the C API
 > [!IMPORTANT]
 > The version of ICU in Windows only exposes the C APIs. It does not expose any of the C++ APIs. Unfortunately, it is impossible to ever expose the C++ APIs due to the lack of a stable ABI in C++.
 
- 
-
 For documentation on the ICU C APIs, please refer to the official ICU documentation page here: <http://icu-project.org/apiref/icu4c/index.html#Module>
 
 ## History of changes to the ICU library in Windows
