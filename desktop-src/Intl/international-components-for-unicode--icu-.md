@@ -66,7 +66,9 @@ Going forward, no new APIs will be added to the old headers (icucommon.h and icu
 
 There are basically only three main steps to follow: (Windows 10 Creators Update or higher)
 
-<dl> 1. Your application needs to target Windows 10 Creators Update or higher as the minimum supported version.  
+<dl>
+
+1. Your application needs to target Windows 10 Creators Update or higher as the minimum supported version.  
 
 2. Add in the headers:
 
