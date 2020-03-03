@@ -52,6 +52,8 @@ The following locale information constants are defined by NLS:
 [LOCALE\_ITIME](locale-itime.md)  
 [LOCALE\_ITIMEMARKPOSN](locale-itimemarkposn.md)  
 [LOCALE\_ITLZERO](locale-itlzero.md)  
+[LOCALE\_IUSEUTF8LEGACYACP](locale_iuseutf8legacyacp.md)  
+[LOCALE\_IUSEUTF8LEGACYOEMCP](locale_iuseutf8legacyoemcp.md)  
 [LOCALE\_NAME\* Constants](locale-name-constants.md)  
 [LOCALE\_NEUTRAL](locale-neutral.md)  
 [LOCALE\_NEUTRALDATA](locale-neutraldata.md)  
