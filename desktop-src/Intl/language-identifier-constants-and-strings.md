@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 # Language Identifier Constants and Strings
 
 > [!IMPORTANT]
-> Language identifier constants are deprecated, their use is discouraged.
+> Language identifiers are deprecated and their use is discouraged.
 
 See [language identifier](language-identifiers.md) for a description of language identifiers.
 
-A primary or sublanguage identifier can be user-defined or predefined. For the predefined primary language identifiers with their valid sublanguage identifiers, see [[MS-LCID]: Windows Language Code Identifier (LCID) Reference](http://aka.ms/ms-lcid).
+A primary or sublanguage identifier can be user-defined or predefined. For the predefined primary language identifiers with their valid sublanguage identifiers, see [[MS-LCID]: Windows Language Code Identifier (LCID) Reference](https://aka.ms/ms-lcid).
 
 > [!Note]  
 > If there is no sublanguage identifier to use with a primary language identifier, your application should use **SUBLANG\_DEFAULT**. It should use **SUBLANG\_NEUTRAL** for resources that are the same for all sublanguages of a primary language.
