@@ -63,10 +63,10 @@ Sets the client certificate context. If an application receives [**ERROR\_WINHTT
 When the server requests a client certificate, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) as shown in the following code example.
 
 ``` syntax
-BOOL fRet = WinHttpSetOption ( hRequest,
-                               WINHTTP_OPTION_CLIENT_CERT_CONTEXT,
-                               WINHTTP_NO_CLIENT_CERT_CONTEXT,
-                               0);
+BOOL fRet = WinHttpSetOption(hRequest,
+                             WINHTTP_OPTION_CLIENT_CERT_CONTEXT,
+                             WINHTTP_NO_CLIENT_CERT_CONTEXT,
+                             0);
 ```
 
 If the server requires a client certificate, it may send a 403 HTTP status code in response. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
