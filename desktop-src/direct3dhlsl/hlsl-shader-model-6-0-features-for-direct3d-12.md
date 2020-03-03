@@ -140,9 +140,9 @@ These routines work in either compute shaders or pixel shaders. In compute shade
 |-|-|-|-|
 | **Intrinsic** | **Description** | **Pixel shader** | **Compute shader** |
 | [**QuadReadLaneAt**](quadreadlaneat.md) | Returns the specified source value read from the lane of the current quad identified by quadLaneID \[0..3\] which must be uniform across the quad. | \* | |
-| [**QuadReadAccrossDiagonal**](quadreadaccrossdiagonal.md) | Returns the specified local value which is read from the diagonally opposite lane in this quad. | \* | |
-| [**QuadReadAccrossX**](quadswapx.md) | Returns the specified source value read from the other lane in this quad in the X direction. | \* | |
-| [**QuadReadAccrossY**](quadswapy.md) | Returns the specified source value read from the other lane in this quad in the Y direction. | \* | |
+| [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | Returns the specified local value which is read from the diagonally opposite lane in this quad. | \* | |
+| [**QuadReadAcrossX**](quadswapx.md) | Returns the specified source value read from the other lane in this quad in the X direction. | \* | |
+| [**QuadReadAcrossY**](quadswapy.md) | Returns the specified source value read from the other lane in this quad in the Y direction. | \* | |
 
 ## Hardware capability
 
