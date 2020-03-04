@@ -3,7 +3,7 @@ Description: Some applications, such as Microsoft Active Directory, Microsoft Ex
 ms.assetid: c8fc32bd-02bd-4a40-a836-d9ad9f69c209
 title: Handling Sorting in Your Applications
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/04/2020
 ---
 
 # Handling Sorting in Your Applications
