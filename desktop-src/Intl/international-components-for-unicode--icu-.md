@@ -75,7 +75,7 @@ There are basically only three main steps to follow: (Windows 10 Creators Update
 #include <icui18n.h>
 ```
 
-On Windows 10 Version 1709 and above, you can include the header as follows:
+On Windows 10 Version 1709 and above, you should include the header instead:
 
 ``` syntax
 #include <icu.h>
@@ -86,7 +86,9 @@ On Windows 10 Version 1709 and above, you can include the header as follows:
 -   icuuc.lib
 -   icuin.lib
 
-On Windows 10 Version 1903 and above, you should use the combined library "icu.lib" instead.
+On Windows 10 Version 1903 and above, you should use the combined library instead:
+
+-   icu.lib
 
 </dl>
 
