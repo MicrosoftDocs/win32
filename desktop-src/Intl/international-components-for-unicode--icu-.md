@@ -66,7 +66,7 @@ There are basically only three main steps to follow: (Windows 10 Creators Update
 
 <dl>
 
-1. Your application needs to target Windows 10 Creators Update or higher as the minimum supported version.  
+1. Your application needs to target Windows 10 Version 1703 (Creators Update) or higher as the minimum supported version.
 
 2. Add in the headers:
 
@@ -75,27 +75,25 @@ There are basically only three main steps to follow: (Windows 10 Creators Update
 #include <icui18n.h>
 ```
 
-  
-Note: In Windows 10, version 1709 these two headers were combined into a single header for convenience as well as the change to use char16\_t in ICU.  
-  
-On Windows 10, version 1709 and above, you can include the header as follows:
+On Windows 10 Version 1709 and above, you can include the header as follows:
 
 ``` syntax
 #include <icu.h>
 ```
-
   
 3. Link to the two libraries:
 
 -   icuuc.lib
 -   icuin.lib
 
+On Windows 10 Version 1903 and above, you should use the combined library "icu.lib" instead.
+
 </dl>
 
 Then you can call whatever ICU C API you want. (No C++ APIs are exposed.)
 
 > [!IMPORTANT]
-> The legacy libraries icuuc.lib and icuin.lib must be listed before the umbrella libs, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app would crash. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
+> If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app would crash. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
 
 ![icu example](images/icu-example.png)
 
