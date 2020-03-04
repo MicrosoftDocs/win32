@@ -47,16 +47,10 @@ It was added as:
     -   **icuin.lib**
 
 ### Version 1709 (Fall Creators Update)
-A combined header file, **icu.h**, was added, which contains the contents of both header files above (icucommon.h and icui18n.h), and also changes the type of `UCHAR` to `char16_t`. This was done in order to better accommodate the breaking change made by ICU to change the underlying type of the `UCHAR` `typedef` to be `char16_t`.
+A combined header file, **icu.h**, was added, which contains the contents of both header files above (icucommon.h and icui18n.h), and also changes the type of `UCHAR` to `char16_t`.
 
 ### Version 1903 (May 2019 Update)
 A new combined DLL, **icu.dll**, was added, which contains both the "common" and "i18n" libraries. Also, a new import library was added to the Windows 10 SDK: **icu.lib**.
-
-This change was done for two reasons:
--   The upstream ICU library made a binary breaking change in version 63.1 to move one of the public stable C APIs from icuuc to icuin.
--   The new single DLL allowed for a reduction in the overall footprint of the code and improve the performance.
-
-The existing DLLs (icuuc.dll and icuin.dll) were converted into "pure forwarder" DLLs, which means that they have entry points for the APIs that just point to the combined DLL. There is no implementation code at all in these DLLs now. This was done in order to not break any existing callers of the ICU library.
 
 Going forward, no new APIs will be added to the old headers (icucommon.h and icui18n.h) or to the old import libs (icuuc.lib and icuin.lib). New APIs will only be added to the combined header (icu.h) and the combined import lib (icu.lib).
 
@@ -75,7 +69,7 @@ There are basically only three main steps to follow: (Windows 10 Creators Update
 #include <icui18n.h>
 ```
 
-On Windows 10 Version 1709 and above, you should include the header instead:
+On Windows 10 Version 1709 and above, you should include the combined header instead:
 
 ``` syntax
 #include <icu.h>
@@ -95,7 +89,7 @@ On Windows 10 Version 1903 and above, you should use the combined library inste
 Then you can call whatever ICU C API you want. (No C++ APIs are exposed.)
 
 > [!IMPORTANT]
-> If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app would crash. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
+> If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app will fail to load and run. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
 
 ![icu example](images/icu-example.png)
 
