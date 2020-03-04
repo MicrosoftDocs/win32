@@ -24,45 +24,53 @@ The following diagram shows the event tracing model.
 
 ## Controllers
 
-Controllers are applications that define the size and location of the log file, start and stop [event tracing sessions](event-tracing-sessions.md), enable providers so they can log events to the session, manage the size of the buffer pool, and obtain execution statistics for sessions. Session statistics include the number of buffers used, the number of buffers delivered, and the number of events and buffers lost. For more information, see [Controlling Event Tracing Sessions](controlling-event-tracing-sessions.md).
+Controllers are applications that define the size and location of the log file, start and stop [event tracing sessions](event-tracing-sessions.md), enable providers so they can log events to the session, manage the size of the buffer pool, and obtain execution statistics for sessions. Session statistics include the number of buffers used, the number of buffers delivered, and the number of events and buffers lost. 
+
+For more information, see [Controlling Event Tracing Sessions](controlling-event-tracing-sessions.md).
 
 ## Providers
 
-Providers are applications that contain event tracing instrumentation. After a provider registers itself, a controller can then enable or disable event tracing in the provider. The provider defines its interpretation of being enabled or disabled. Generally, an enabled provider generates events, while a disabled provider does not. This lets you add event tracing to your application without requiring that it generate events all the time. For more information, see [Providing Events](providing-events.md).
+Providers are applications that contain event tracing instrumentation. After a provider registers itself, a controller can then enable or disable event tracing in the provider. The provider defines its interpretation of being enabled or disabled. Generally, an enabled provider generates events, while a disabled provider does not. This lets you add event tracing to your application without requiring that it generate events all the time. 
 
 Although the ETW model separates the controller and provider into separate applications, an application can include both components.
 
+For more information, see [Providing Events](providing-events.md).
+
+### Types of Providers
+
 There are four main types of providers: MOF (classic) providers, WPP providers, manifest-based providers, and TraceLogging providers. You should use a manifest-based provider or a TraceLogging provider if you are writing applications for Windows Vista or later that do not need to support legacy systems.
 
-MOF (classic) providers:
+#### MOF (classic) providers:
 
--   Use the [**RegisterTraceGuids**](registertraceguids.md) and [**TraceEvent**](traceevent.md) functions to register and write events.
+-   Use the [RegisterTraceGuids](registertraceguids.md) and [TraceEvent](traceevent.md) functions to register and write events.
 -   Use MOF classes to define events so that consumers know how to consume them.
 -   Can be enabled by only one trace session at a time.
 
-WPP providers:
+#### WPP providers:
 
--   Use the [**RegisterTraceGuids**](registertraceguids.md) and [**TraceEvent**](traceevent.md) functions to register and write events.
+-   Use the [RegisterTraceGuids](registertraceguids.md) and [TraceEvent](traceevent.md) functions to register and write events.
 -   Have associated TMF files (compiled into a binary's .pdb) containing decoding information inferred from the preprocessor's scan of WPP instrumentation in source code.
 -   Can be enabled by only one trace session at a time.
 
-Manifest-based providers:
+#### Manifest-based providers:
 
--   Use [**EventRegister**](/windows/desktop/api/Evntprov/nf-evntprov-eventregister) and [**EventWrite**](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite) to register and write events.
+-   Use [EventRegister](/windows/desktop/api/Evntprov/nf-evntprov-eventregister) and [EventWrite](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite) to register and write events.
 -   Use a manifest to define events so that consumers know how to consume them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
-[TraceLogging](https://docs.microsoft.com/windows/desktop/tracelogging/trace-logging-about) providers:
+#### [TraceLogging](https://docs.microsoft.com/windows/desktop/tracelogging/trace-logging-about) providers:
 
--   Use [**TraceLoggingRegister**](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) and [**TraceLoggingWrite**](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) to register and write events.
+-   Use [TraceLoggingRegister](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) and [TraceLoggingWrite](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) to register and write events.
 -   Use self-describing events so that the events themselves contain all required information for consuming them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
-All event providers fundamentally use the Event Tracing family of APIs ([**TraceEvent**](traceevent.md) for legacy technologies and [**EventWrite**](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite)/[**EventWriteEx**](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) for newer ones). Event providers simply differ in what field types they store in event payloads and where they store the associated event decoding information.
+All event providers fundamentally use the Event Tracing family of APIs ([TraceEvent](traceevent.md) for legacy technologies and [EventWrite](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite)/[EventWriteEx](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) for newer ones). Event providers simply differ in what field types they store in event payloads and where they store the associated event decoding information.
 
 ## Consumers
 
-Consumers are applications that select one or more event tracing sessions as a source of events. A consumer can request events from multiple event tracing sessions simultaneously; the system delivers the events in chronological order. Consumers can receive events stored in log files, or from sessions that deliver events in real time. When processing events, a consumer can specify start and end times, and only events that occur in the specified time frame will be delivered. For more information, see [Consuming Events](consuming-events.md).
+Consumers are applications that select one or more event tracing sessions as a source of events. A consumer can request events from multiple event tracing sessions simultaneously; the system delivers the events in chronological order. Consumers can receive events stored in log files, or from sessions that deliver events in real time. When processing events, a consumer can specify start and end times, and only events that occur in the specified time frame will be delivered. 
+
+For more information, see [Consuming Events](consuming-events.md).
 
 ## Missing Events
 
