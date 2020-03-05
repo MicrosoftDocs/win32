@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Language Identifier Constants and Strings
 
 > [!IMPORTANT]
-> Language identifiers are deprecated and their use is discouraged.
+> Language identifier constants are deprecated and their use is discouraged. Use of locale names instead of locale identifiers is always preferable.
 
 See [language identifier](language-identifiers.md) for a description of language identifiers.
 
