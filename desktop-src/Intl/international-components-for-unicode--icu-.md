@@ -29,15 +29,39 @@ In Windows 10 Creators Update, ICU was integrated into Windows, making the C API
 > [!IMPORTANT]
 > The version of ICU in Windows only exposes the C APIs. It does not expose any of the C++ APIs. Unfortunately, it is impossible to ever expose the C++ APIs due to the lack of a stable ABI in C++.
 
- 
-
 For documentation on the ICU C APIs, please refer to the official ICU documentation page here: <http://icu-project.org/apiref/icu4c/index.html#Module>
+
+## History of changes to the ICU library in Windows
+
+### Version 1703 (Creators Update)
+The ICU library was first added to the Windows 10 OS in this version.
+It was added as:
+- Two system DLLs:
+    -   **icuuc.dll** (this is the ICU "common" library)
+    -   **icuin.dll** (this is the ICU "i18n" library)
+- Two header files in the Windows 10 SDK:
+    -   **icucommon.h**
+    -   **icui18n.h**
+- Two import libs in the Windows 10 SDK:
+    -   **icuuc.lib**
+    -   **icuin.lib**
+
+### Version 1709 (Fall Creators Update)
+A combined header file, **icu.h**, was added, which contains the contents of both header files above (icucommon.h and icui18n.h), and also changes the type of `UCHAR` to `char16_t`.
+
+### Version 1903 (May 2019 Update)
+A new combined DLL, **icu.dll**, was added, which contains both the "common" and "i18n" libraries. Also, a new import library was added to the Windows 10 SDK: **icu.lib**.
+
+Going forward, no new APIs will be added to the old headers (icucommon.h and icui18n.h) or to the old import libs (icuuc.lib and icuin.lib). New APIs will only be added to the combined header (icu.h) and the combined import lib (icu.lib).
 
 ## Getting Started
 
 There are basically only three main steps to follow: (Windows 10 Creators Update or higher)
 
-<dl> 1. Your application needs to target Windows 10 Creators Update or higher as the minimum supported version.  
+<dl>
+
+1. Your application needs to target Windows 10 Version 1703 (Creators Update) or higher as the minimum supported version.
+
 2. Add in the headers:
 
 ``` syntax
@@ -45,27 +69,27 @@ There are basically only three main steps to follow: (Windows 10 Creators Update
 #include <icui18n.h>
 ```
 
-  
-Note: In Windows 10, version 1709 these two headers were combined into a single header for convenience as well as the change to use char16\_t in ICU.  
-  
-On Windows 10, version 1709 and above, you can include the header as follows:
+On Windows 10 Version 1709 and above, you should include the combined header instead:
 
 ``` syntax
 #include <icu.h>
 ```
-
   
 3. Link to the two libraries:
 
-``` syntax
-icuuc.lib
-icuin.lib
-```
+-   icuuc.lib
+-   icuin.lib
 
-  
+On Windows 10 Version 1903 and above, you should use the combined library instead:
+
+-   icu.lib
+
 </dl>
 
 Then you can call whatever ICU C API you want. (No C++ APIs are exposed.)
+
+> [!IMPORTANT]
+> If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app will fail to load and run. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
 
 ![icu example](images/icu-example.png)
 
