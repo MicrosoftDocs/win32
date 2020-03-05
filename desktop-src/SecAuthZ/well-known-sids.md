@@ -3,7 +3,7 @@ Description: Well-known security identifiers (SIDs) identify generic groups and 
 ms.assetid: eb2f95c4-9465-409b-b76c-9ccae1d05eda
 title: Well-known SIDs
 ms.topic: article
-ms.date: 04/19/2019
+ms.date: 03/04/2020
 ms.custom: 19H1
 ---
 
@@ -47,7 +47,7 @@ The following table lists the predefined identifier authority constants. The fir
 
 
 
-| Identifier authority                         | Value        | SID string prefix |
+| Identifier authority                         | Value        | String value |
 |----------------------------------------------|--------------|-------------------|
 | SECURITY\_NULL\_SID\_AUTHORITY<br/>    | 0<br/> | S-1-0<br/>  |
 | SECURITY\_WORLD\_SID\_AUTHORITY<br/>   | 1<br/> | S-1-1<br/>  |
@@ -63,7 +63,7 @@ The following [*RID*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly)
 
 
 
-| Relative identifier authority            | Value        | Identifier authority |
+| Relative identifier authority            | Value        | String value |
 |------------------------------------------|--------------|----------------------|
 | SECURITY\_NULL\_RID<br/>           | 0<br/> | S-1-0<br/>     |
 | SECURITY\_WORLD\_RID<br/>          | 0<br/> | S-1-1<br/>     |
@@ -109,25 +109,25 @@ The following RIDs are relative to each domain.
 
 | RID                                                                | Value       | Identifies                                                                                                                                                                                                                                           |
 |--------------------------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DOMAIN\_ALIAS\_RID\_CERTSVC\_DCOM\_ACCESS\_GROUP<br/>              | 0x0000023EL | The group of users who can connect to certification authorities using Distributed Component Object Model (DCOM).<br/>                                                                                                                          |
-| DOMAIN\_USER\_RID\_ADMIN<br/>                                      | 0x000001F4L | The administrative user account in a domain.<br/>                                                                                                                                                                                              |
-| DOMAIN\_USER\_RID\_GUEST<br/>                                      | 0x000001F5L | The guest-user account in a domain. Users who do not have an account can automatically log on to this account.<br/>                                                                                                                            |
-| DOMAIN\_GROUP\_RID\_ADMINS<br/>                                    | 0x00000200L | The domain administrators' group. This account exists only on systems running server operating systems.<br/>                                                                                                                                   |
-| DOMAIN\_GROUP\_RID\_USERS<br/>                                     | 0x00000201L | A group that contains all user accounts in a domain. All users are automatically added to this group.<br/>                                                                                                                                     |
-| DOMAIN\_GROUP\_RID\_GUESTS<br/>                                    | 0x00000202L | The guest-group account in a domain.<br/>                                                                                                                                                                                                      |
-| DOMAIN\_GROUP\_RID\_COMPUTERS<br/>                                 | 0x00000203L | The domain computers' group. All computers in the domain are members of this group.<br/>                                                                                                                                                       |
-| DOMAIN\_GROUP\_RID\_CONTROLLERS<br/>                               | 0x00000204L | The domain controllers' group. All DCs in the domain are members of this group.<br/>                                                                                                                                                           |
-| DOMAIN\_GROUP\_RID\_CERT\_ADMINS<br/>                              | 0x00000205L | The certificate publishers' group. Computers running Certificate Services are members of this group.<br/>                                                                                                                                      |
-| DOMAIN\_GROUP\_RID\_ENTERPRISE\_READONLY\_DOMAIN\_CONTROLLERS<br/> | 0x000001F2L | The group of enterprise read-only domain controllers.<br/>                                                                                                                                                                                     |
-| DOMAIN\_GROUP\_RID\_SCHEMA\_ADMINS<br/>                            | 0x00000206L | The schema administrators' group. Members of this group can modify the Active Directory schema.<br/>                                                                                                                                           |
-| DOMAIN\_GROUP\_RID\_ENTERPRISE\_ADMINS<br/>                        | 0x00000207L | The enterprise administrators' group. Members of this group have full access to all domains in the Active Directory forest. Enterprise administrators are responsible for forest-level operations such as adding or removing new domains.<br/> |
-| DOMAIN\_GROUP\_RID\_POLICY\_ADMINS<br/>                            | 0x00000208L | The policy administrators' group.<br/>                                                                                                                                                                                                         |
-| DOMAIN\_GROUP\_RID\_READONLY\_CONTROLLERS<br/>                     | 0x00000209L | The group of read-only domain controllers.<br/>                                                                                                                                                                                                |                                             
-| DOMAIN\_GROUP\_RID\_CLONEABLE\_CONTROLLERS<br />                   | 0x0000020AL | The group of cloneable domain controllers.<br/>                                                                                                                                                                                                |
-| DOMAIN\_GROUP\_RID\_CDC\_RESERVED<br />                            | 0x0000020CL | The reserved CDC group.<br/>                                                                                                                                                                                                                   |
-| DOMAIN\_GROUP\_RID\_PROTECTED\_USERS<br />                         | 0x0000020DL | The protected users group.</br>                                                                                                                                                                                                                |
-| DOMAIN\_GROUP\_RID\_KEY\_ADMINS<br />                              | 0x0000020EL | The key admins group.<br/>                                                                                                                                                                                                                     |
-| DOMAIN\_GROUP\_RID\_ENTERPRISE\_KEY\_ADMINS<br />                  | 0x0000020FL | The enterprise key admins group</br>                                                                                                                                                                                                           |
+| DOMAIN\_ALIAS\_RID\_CERTSVC\_DCOM\_ACCESS\_GROUP<br/>              | 0x0000023E | The group of users who can connect to certification authorities using Distributed Component Object Model (DCOM).<br/>                                                                                                                          |
+| DOMAIN\_USER\_RID\_ADMIN<br/>                                      | 0x000001F4 | The administrative user account in a domain.<br/>                                                                                                                                                                                              |
+| DOMAIN\_USER\_RID\_GUEST<br/>                                      | 0x000001F5 | The guest-user account in a domain. Users who do not have an account can automatically log on to this account.<br/>                                                                                                                            |
+| DOMAIN\_GROUP\_RID\_ADMINS<br/>                                    | 0x00000200 | The domain administrators' group. This account exists only on systems running server operating systems.<br/>                                                                                                                                   |
+| DOMAIN\_GROUP\_RID\_USERS<br/>                                     | 0x00000201 | A group that contains all user accounts in a domain. All users are automatically added to this group.<br/>                                                                                                                                     |
+| DOMAIN\_GROUP\_RID\_GUESTS<br/>                                    | 0x00000202 | The guest-group account in a domain.<br/>                                                                                                                                                                                                      |
+| DOMAIN\_GROUP\_RID\_COMPUTERS<br/>                                 | 0x00000203 | The domain computers' group. All computers in the domain are members of this group.<br/>                                                                                                                                                       |
+| DOMAIN\_GROUP\_RID\_CONTROLLERS<br/>                               | 0x00000204 | The domain controllers' group. All DCs in the domain are members of this group.<br/>                                                                                                                                                           |
+| DOMAIN\_GROUP\_RID\_CERT\_ADMINS<br/>                              | 0x00000205 | The certificate publishers' group. Computers running Certificate Services are members of this group.<br/>                                                                                                                                      |
+| DOMAIN\_GROUP\_RID\_ENTERPRISE\_READONLY\_DOMAIN\_CONTROLLERS<br/> | 0x000001F2 | The group of enterprise read-only domain controllers.<br/>                                                                                                                                                                                     |
+| DOMAIN\_GROUP\_RID\_SCHEMA\_ADMINS<br/>                            | 0x00000206 | The schema administrators' group. Members of this group can modify the Active Directory schema.<br/>                                                                                                                                           |
+| DOMAIN\_GROUP\_RID\_ENTERPRISE\_ADMINS<br/>                        | 0x00000207 | The enterprise administrators' group. Members of this group have full access to all domains in the Active Directory forest. Enterprise administrators are responsible for forest-level operations such as adding or removing new domains.<br/> |
+| DOMAIN\_GROUP\_RID\_POLICY\_ADMINS<br/>                            | 0x00000208 | The policy administrators' group.<br/>                                                                                                                                                                                                         |
+| DOMAIN\_GROUP\_RID\_READONLY\_CONTROLLERS<br/>                     | 0x00000209 | The group of read-only domain controllers.<br/>                                                                                                                                                                                                |                                             
+| DOMAIN\_GROUP\_RID\_CLONEABLE\_CONTROLLERS<br />                   | 0x0000020A | The group of cloneable domain controllers.<br/>                                                                                                                                                                                                |
+| DOMAIN\_GROUP\_RID\_CDC\_RESERVED<br />                            | 0x0000020C | The reserved CDC group.<br/>                                                                                                                                                                                                                   |
+| DOMAIN\_GROUP\_RID\_PROTECTED\_USERS<br />                         | 0x0000020D | The protected users group.</br>                                                                                                                                                                                                                |
+| DOMAIN\_GROUP\_RID\_KEY\_ADMINS<br />                              | 0x0000020E | The key admins group.<br/>                                                                                                                                                                                                                     |
+| DOMAIN\_GROUP\_RID\_ENTERPRISE\_KEY\_ADMINS<br />                  | 0x0000020F | The enterprise key admins group</br>                                                                                                                                                                                                           |
 
 
 
@@ -182,15 +182,15 @@ The following table has examples of domain-relative RIDs that you can use to for
 | DOMAIN\_ALIAS\_RID\_NON\_CACHEABLE\_PRINCIPALS\_GROUP<br/> | 0x0000023C<br/> | A local group that represents principals that cannot be cached.<br/>                                                                                                                                                                                                                 |
 | DOMAIN\_ALIAS\_RID\_EVENT\_LOG\_READERS\_GROUP<br/>        | 0x0000023D<br/> | A local group that represents event log readers.<br/>                                                                                                                                                                                                                                |
 | DOMAIN\_ALIAS\_RID\_CERTSVC\_DCOM\_ACCESS\_GROUP<br/>      | 0x0000023E<br/> | The local group of users who can connect to certification authorities using Distributed Component Object Model (DCOM).<br/>                                                                                                                                                          |
-| DOMAIN\_ALIAS\_RID\_RDS\_REMOTE\_ACCESS\_SERVERS<br />     | 0x0000023FL<br/>| A local group that represents RDS remote access servers.<br/> |
-| DOMAIN\_ALIAS\_RID\_RDS\_ENDPOINT\_SERVERS                 | 0x00000240L<br/>| A local group that represents endpoint servers.<br/> |
-| DOMAIN\_ALIAS\_RID\_RDS\_MANAGEMENT\_SERVERS               | 0x00000241L<br/>| A local group that represents management servers. <br/>|
-| DOMAIN\_ALIAS\_RID\_HYPER\_V\_ADMINS                       | 0x00000242L<br/>| A local group that represents hyper-v admins <br/>|
-| DOMAIN\_ALIAS\_RID\_ACCESS\_CONTROL\_ASSISTANCE\_OPS       | 0x00000243L<br/>| A local group that represents access control assistance OPS.<br/> |
-| DOMAIN\_ALIAS\_RID\_REMOTE\_MANAGEMENT\_USERS              | 0x00000244L<br/>| A local group that represents remote management users. <br/>|
-| DOMAIN\_ALIAS\_RID\_DEFAULT\_ACCOUNT                       | 0x00000245L<br/>| A local group that represents the default account. <br/>|
-| DOMAIN\_ALIAS\_RID\_STORAGE\_REPLICA\_ADMINS               | 0x00000246L<br/>| A local group that represents storage replica admins. <br/>|
-| DOMAIN\_ALIAS\_RID\_DEVICE\_OWNERS	                     | 0x00000247L<br/>| A local group that represents can make settings expected for Device Owners.<br/>|
+| DOMAIN\_ALIAS\_RID\_RDS\_REMOTE\_ACCESS\_SERVERS<br />     | 0x0000023F<br/>| A local group that represents RDS remote access servers.<br/> |
+| DOMAIN\_ALIAS\_RID\_RDS\_ENDPOINT\_SERVERS                 | 0x00000240<br/>| A local group that represents endpoint servers.<br/> |
+| DOMAIN\_ALIAS\_RID\_RDS\_MANAGEMENT\_SERVERS               | 0x00000241<br/>| A local group that represents management servers. <br/>|
+| DOMAIN\_ALIAS\_RID\_HYPER\_V\_ADMINS                       | 0x00000242<br/>| A local group that represents hyper-v admins <br/>|
+| DOMAIN\_ALIAS\_RID\_ACCESS\_CONTROL\_ASSISTANCE\_OPS       | 0x00000243<br/>| A local group that represents access control assistance OPS.<br/> |
+| DOMAIN\_ALIAS\_RID\_REMOTE\_MANAGEMENT\_USERS              | 0x00000244<br/>| A local group that represents remote management users. <br/>|
+| DOMAIN\_ALIAS\_RID\_DEFAULT\_ACCOUNT                       | 0x00000245<br/>| A local group that represents the default account. <br/>|
+| DOMAIN\_ALIAS\_RID\_STORAGE\_REPLICA\_ADMINS               | 0x00000246<br/>| A local group that represents storage replica admins. <br/>|
+| DOMAIN\_ALIAS\_RID\_DEVICE\_OWNERS	                     | 0x00000247<br/>| A local group that represents can make settings expected for Device Owners.<br/>|
 
 
  
