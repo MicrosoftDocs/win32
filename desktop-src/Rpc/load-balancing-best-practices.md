@@ -29,7 +29,7 @@ netsh rpc filter add condition field=ep_value matchtype=equal data=w3010
 netsh rpc filter add filter
 ```
 
-The RPC netsh command can be used to set a static endpoint for any dynamic or static interface. This is useful when restricting access to a machine running a port based firewall solution. If the Windows firewall solution is used, the RPC interface can be blocked or enabled without having to assign it to a specific port. For more information, see the [RPC netsh firewall command reference](https://go.microsoft.com/fwlink/p/?linkid=157383).
+The RPC netsh command can be used to set a static endpoint for any dynamic or static interface. This is useful when restricting access to a machine running a port based firewall solution. If the Windows firewall solution is used, the RPC interface can be blocked or enabled without having to assign it to a specific port. For more information, see the [RPC netsh firewall command reference](https://technet.microsoft.com/library/cc784909).
 
  
 

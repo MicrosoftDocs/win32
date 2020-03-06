@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 Specifies an IPv4 or IPv6 address to be added to the IP listen list.
 
 ``` syntax
-add iplisten [ address=] IPAddress
+add iplisten [ ipaddress=] IPAddress
  
 ```
 
@@ -27,7 +27,7 @@ add iplisten [ address=] IPAddress
 
 <dl> <dt>
 
-<span id="__address___IPAddress"></span><span id="__address___ipaddress"></span><span id="__ADDRESS___IPADDRESS"></span>**\[ address=\]** *IPAddress*
+<span id="__ipaddress___IPAddress"></span><span id="__ipaddress___ipaddress"></span><span id="__ipADDRESS___IPADDRESS"></span>**\[ ipaddress=\]** *IPAddress*
 </dt> <dd>
 
 Specifies the IPv4 or IPv6 address to be added to the IP listen list.
@@ -40,13 +40,13 @@ Adds a new IP address to the IP listen list. This does not include the port numb
 
 ## Examples
 
-**add iplisten address=fe80::1**
+**add iplisten ipaddress=fe80::1**
 
-**add iplisten address=1.1.1.1**
+**add iplisten ipaddress=1.1.1.1**
 
-**add iplisten address=0.0.0.0**
+**add iplisten ipaddress=0.0.0.0**
 
-**add iplisten address=::**
+**add iplisten ipaddress=::**
 
  
 

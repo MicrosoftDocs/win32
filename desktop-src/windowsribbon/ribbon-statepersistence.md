@@ -22,7 +22,7 @@ Various aspects of a ribbon, including configuration and interaction preferences
 
 ## A Predictable Experience
 
-The [Ribbon User Experience Guidelines](https://go.microsoft.com/fwlink/p/?linkid=129233) advise that, to provide the most predictable user experience possible, Ribbon applications should preserve the state of the ribbon (aside from the last selected tab) as the application is closed. In this way, when the same application is launched, the settings and customizations from the previous session can be restored and the user can expect to continue interacting with the application in the same way as they left it.
+The [Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx) advise that, to provide the most predictable user experience possible, Ribbon applications should preserve the state of the ribbon (aside from the last selected tab) as the application is closed. In this way, when the same application is launched, the settings and customizations from the previous session can be restored and the user can expect to continue interacting with the application in the same way as they left it.
 
 Ribbon settings that can be modified at run time and preserved across application sessions are listed in the Command context menu. They include:
 
@@ -160,7 +160,7 @@ HRESULT CMyRibbonApplication::_LoadRibbonSettings(IUIRibbon* pRibbon)
 
 Multiple instances of the same Ribbon framework application can manage each ribbon state independently as separate [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) objects or as a group through a single IStream object.
 
-When synchronizing ribbon state across a group of application instances, each top-level window must listen for a [WM\_ACTIVATE](https://go.microsoft.com/fwlink/p/?linkid=157711) notification. The top-level window being deactivated saves its ribbon state using the [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method, and the top-level window being activated loads its ribbon state using the [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method.
+When synchronizing ribbon state across a group of application instances, each top-level window must listen for a [WM\_ACTIVATE](https://msdn.microsoft.com/library/ms646274(VS.85).aspx) notification. The top-level window being deactivated saves its ribbon state using the [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method, and the top-level window being activated loads its ribbon state using the [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method.
 
 ## Related topics
 

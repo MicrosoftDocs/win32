@@ -28,7 +28,7 @@ A registry tree can be 512 levels deep. You can create up to 32 levels at a time
 
 <dl> <dt>
 
-[Overview of the Windows Registry](https://go.microsoft.com/fwlink/p/?linkid=114993)
+[Overview of the Windows Registry](https://technet.microsoft.com/library/a1377b7d-277f-47ba-adde-96ee781be5b3)
 </dt> </dl>
 
  

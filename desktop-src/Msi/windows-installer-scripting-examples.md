@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md) contains VBScript files that show you how the Windows Installer automation interface is used to modify Windows Installer packages.
 
-The script samples identified in this topic are not supported by Microsoft Corporation, and they are provided only as a potentially useful reference. Running these samples requires the Windows Script Host. For more information about Windows Script Host, see the [Windows Script Host](https://go.microsoft.com/fwlink/p/?linkid=120315) section of the Microsoft Windows Software Development Kit (SDK).
+The script samples identified in this topic are not supported by Microsoft Corporation, and they are provided only as a potentially useful reference. Running these samples requires the Windows Script Host. For more information about Windows Script Host, see the [Windows Script Host](https://msdn.microsoft.com/library/9bbdkx3k.aspx) section of the Microsoft Windows Software Development Kit (SDK).
 
 
 
@@ -48,7 +48,7 @@ All these scripts display a help screen that describes their command line argume
 These samples require Windows Script Host to run. Windows Script Host is actually two hosts:
 
 -   CScript.exe is the version that enables you to run scripts from the command prompt, and provides command-line switches for setting script properties.
--   WScript.exe is the version of Windows Script Host that enables you to run scripts from Windows. For more information, see the [Windows Script Host](https://go.microsoft.com/fwlink/p/?linkid=120315) section in the Windows SDK.
+-   WScript.exe is the version of Windows Script Host that enables you to run scripts from Windows. For more information, see the [Windows Script Host](https://msdn.microsoft.com/library/9bbdkx3k.aspx) section in the Windows SDK.
 
 The Makecab.exe utility is included with the patching samples in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).
 

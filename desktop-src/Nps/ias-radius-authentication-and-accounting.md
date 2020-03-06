@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
  
 
-NPS fully supports the Remote Authentication Dial-In User Service (RADIUS) protocol. The RADIUS protocol is the de facto standard for remote user authentication and it is documented in [RFC 2865](https://go.microsoft.com/fwlink/p/?linkid=84055) and [RFC 2866](https://go.microsoft.com/fwlink/p/?linkid=84056).
+NPS fully supports the Remote Authentication Dial-In User Service (RADIUS) protocol. The RADIUS protocol is the de facto standard for remote user authentication and it is documented in [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt) and [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt).
 
 ## RADIUS Authentication and Authorization
 
@@ -28,13 +28,13 @@ If a RADIUS server authenticates the User successfully, the RADIUS server return
 
 While the RADIUS server is processing the authentication request, it can perform authorization functions such as verifying the user's telephone number and checking whether the user already has a session in progress. The RADIUS server can determine whether the user already has a session in progress by contacting a state server.
 
-For more information on RADIUS authentication and authorization, see [RFC 2865](https://go.microsoft.com/fwlink/p/?linkid=84055).
+For more information on RADIUS authentication and authorization, see [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt).
 
 ## RADIUS Accounting
 
 The RADIUS server also collects a variety of information sent by the NAS that can be used for accounting and for reporting on network activity. The RADIUS client sends information to designated RADIUS servers when the User logs on and logs off. The RADIUS client may send additional usage information on a periodic basis while the session is in progress. The requests sent by the client to the server to record logon/logoff and usage information are generally called "accounting requests."
 
-For more information on RADIUS accounting, see [RFC 2866](https://go.microsoft.com/fwlink/p/?linkid=84056).
+For more information on RADIUS accounting, see [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt).
 
 ## RADIUS Proxy
 

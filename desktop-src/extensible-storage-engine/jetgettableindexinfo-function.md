@@ -110,7 +110,7 @@ Specifies which information will be stored in *pvResult*. The valid values are:
 </tr>
 <tr class="even">
 <td><p>JET_IdxInfoLangid</p></td>
-<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID instead, and the <a href="https://go.microsoft.com/fwlink/?linkid=181225">LANGIDFROMLCID</a> macro instead.</p></td>
+<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID instead, and the <a href="https://msdn.microsoft.com/library/dd318689(VS.85).aspx">LANGIDFROMLCID</a> macro instead.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_IdxInfoCount</p></td>

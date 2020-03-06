@@ -128,7 +128,7 @@ Assuming that the device handle is valid, the decoding process works as follows:
     4.  Call [**ID3D11VideoContext::SubmitDecoderBuffer**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffers). This method instructs the decoder device to perform the decoding operations on the frame.
 6.  Call [**ID3D11VideoContext::DecoderEndFrame**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderendframe) to signal the end of decoding for the current frame.
 
-Direct3D 11 uses the same data structures as DXVA 2.0 for decoding operations. For the original set of DXVA profiles (for H.261, H.263, and MPEG-2), these data structures are described in the [DXVA 1.0 specification](https://go.microsoft.com/fwlink/p/?linkid=93647).
+Direct3D 11 uses the same data structures as DXVA 2.0 for decoding operations. For the original set of DXVA profiles (for H.261, H.263, and MPEG-2), these data structures are described in the [DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516).
 
 Within each pair of [**DecoderBeginFrame**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe) and [**SubmitDecoderBuffer**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-submitdecoderbuffers) calls, you may call [**GetDecoderBuffer**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer) multiple times, but only once for each type of buffer. If you use the same buffer type twice without calling **SubmitDecoderBuffer**, you will overwrite the data in the buffer.
 

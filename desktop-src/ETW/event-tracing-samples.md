@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Event Tracing Samples
 
-The Platform Software Development Kit (SDK) contains complete event tracing samples. These samples are located in the Samples\\WinBase\\EventTrace directory. The root of this path is the base installation directory of the PSDK. You can download the PSDK from [https://www.microsoft.com/downloads/details.aspx?FamilyId=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5](https://go.microsoft.com/fwlink/p/?linkid=84091).
+The Platform Software Development Kit (SDK) contains complete event tracing samples. These samples are located in the Samples\\WinBase\\EventTrace directory. The root of this path is the base installation directory of the PSDK. You can download the PSDK from [https://www.microsoft.com/downloads/details.aspx?FamilyId=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5](https://msdn.microsoft.com/windowsserver/bb980924.aspx).
 
 The following table describes the samples contained in the Samples\\WinBase\\EventTrace directory.
 

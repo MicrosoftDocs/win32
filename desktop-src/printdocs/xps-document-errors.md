@@ -50,7 +50,7 @@ The following table lists all the **HRESULT** values that can be returned by the
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_COLOR_COMPONENT_OUT_OF_RANGE"></span><span id="xps_e_color_component_out_of_range"></span><dl> <dt><strong>XPS_E_COLOR_COMPONENT_OUT_OF_RANGE</strong></dt> <dt>0x80520506</dt> </dl></td>
-<td>A color value is out of range.<br/> For <a href="/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009"><strong>XPS_COLOR_TYPE_SCRGB</strong></a> color types, the alpha channel value must be greater than or equal to 0.0 and less than or equal to +1.0.<br/> For <a href="/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a> color types, the <strong>channelValues[0]</strong> that represents the alpha channel value must be greater than or equal to 0.0 and less than or equal to +1.0. <br/></td>
+<td>A color value is out of range.<br/> For <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_SCRGB</strong></a> color types, the alpha channel value must be greater than or equal to 0.0 and less than or equal to +1.0.<br/> For <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a> color types, the <strong>channelValues[0]</strong> that represents the alpha channel value must be greater than or equal to 0.0 and less than or equal to +1.0. <br/></td>
 </tr>
 <tr class="even">
 <td><span id="XPS_E_DICTIONARY_ITEM_NAMED"></span><span id="xps_e_dictionary_item_named"></span><dl> <dt><strong>XPS_E_DICTIONARY_ITEM_NAMED</strong></dt> <dt>0x80520401</dt> </dl></td>
@@ -98,7 +98,7 @@ The following table lists all the **HRESULT** values that can be returned by the
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_INVALID_MARKUP"></span><span id="xps_e_invalid_markup"></span><dl> <dt><strong>XPS_E_INVALID_MARKUP</strong></dt> <dt>0x8052000c</dt> </dl></td>
-<td>The markup being read contains an element or an attribute that does not conform to the <a href="https://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>.<br/>
+<td>The markup being read contains an element or an attribute that does not conform to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.<br/>
 <blockquote>
 [!Note]<br />
 To represent floating-point values, the XPS OM uses the <strong>FLOAT</strong> data type instead of <strong>DOUBLE</strong>. If an XPS document has an element with floating-point data that does not fit into a <strong>FLOAT</strong> value, this error will be returned when that value is encountered during deserialization.
@@ -119,7 +119,7 @@ To represent floating-point values, the XPS OM uses the <strong>FLOAT</strong> d
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_INVALID_RESOURCE_KEY"></span><span id="xps_e_invalid_resource_key"></span><dl> <dt><strong>XPS_E_INVALID_RESOURCE_KEY</strong></dt> <dt>0x80520002</dt> </dl></td>
-<td>According to the <a href="https://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the lookup key string is not valid.<br/></td>
+<td>According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the lookup key string is not valid.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE"></span><span id="xps_e_invalid_thumbnail_image_type"></span><dl> <dt><strong>XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE</strong></dt> <dt>0x80520005</dt> </dl></td>
@@ -131,7 +131,7 @@ To represent floating-point values, the XPS OM uses the <strong>FLOAT</strong> d
 </tr>
 <tr class="even">
 <td><span id="XPS_E_MAPPING_OUT_OF_ORDER"></span><span id="xps_e_mapping_out_of_order"></span><dl> <dt><strong>XPS_E_MAPPING_OUT_OF_ORDER</strong></dt> <dt>0x80520302</dt> </dl></td>
-<td>In one or more <a href="/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0022"><strong>XPS_GLYPH_MAPPING</strong></a> structures, an element is out of sequence. <br/></td>
+<td>In one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping"><strong>XPS_GLYPH_MAPPING</strong></a> structures, an element is out of sequence. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_MAPPING_OUTSIDE_INDICES"></span><span id="xps_e_mapping_outside_indices"></span><dl> <dt><strong>XPS_E_MAPPING_OUTSIDE_INDICES</strong></dt> <dt>0x80520304</dt> </dl></td>
@@ -307,7 +307,7 @@ To represent floating-point values, the XPS OM uses the <strong>FLOAT</strong> d
 </tr>
 <tr class="even">
 <td><span id="XPS_E_UNEXPECTED_COLORPROFILE"></span><span id="xps_e_unexpected_colorprofile"></span><dl> <dt><strong>XPS_E_UNEXPECTED_COLORPROFILE</strong></dt> <dt>0x80520505</dt> </dl></td>
-<td>A color profile was present when one was not expected. A color profile is only allowed when the color type is <a href="/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0009"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a>. <br/></td>
+<td>A color profile was present when one was not expected. A color profile is only allowed when the color type is <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a>. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_UNEXPECTED_CONTENT_TYPE"></span><span id="xps_e_unexpected_content_type"></span><dl> <dt><strong>XPS_E_UNEXPECTED_CONTENT_TYPE</strong></dt> <dt>0x80520008</dt> </dl></td>

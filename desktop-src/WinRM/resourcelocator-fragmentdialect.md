@@ -36,7 +36,7 @@ ResourceLocator.FragmentDialect As string
 
 ## Property value
 
-An XML string that identifies the language used in the [**FragmentPath**](resourcelocator-fragmentpath.md) property. The dialect string defaults to the XPath 1.0 specification. For more information, see [https://www.w3.org/TR/xpath](https://go.microsoft.com/fwlink/p/?linkid=84163).
+An XML string that identifies the language used in the [**FragmentPath**](resourcelocator-fragmentpath.md) property. The dialect string defaults to the XPath 1.0 specification. For more information, see [https://www.w3.org/TR/xpath](https://www.w3.org/TR/xpath).
 
 ## Remarks
 

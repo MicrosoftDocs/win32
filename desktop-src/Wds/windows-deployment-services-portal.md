@@ -23,7 +23,7 @@ Windows Deployment Services (WDS) is the revised version of Remote Installation 
 
 The primary developer audience of the WDS API is for groups that develop custom tools and processes for IT and other computer administration groups. In environments where the standard Windows Deployment Services (WDS) solution cannot be used, the WDS API enables programmatic access to some WDS components.
 
-Original Equipment Manufacturers (OEMs), system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard Windows Deployment Services (WDS) solution in the [Windows Deployment Services Update Step-by-Step Guide](https://go.microsoft.com/fwlink/p/?linkid=66145) and the [Windows Automated Installation Kit (WAIK)](https://go.microsoft.com/fwlink/p/?linkid=53552).
+Original Equipment Manufacturers (OEMs), system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard Windows Deployment Services (WDS) solution in the [Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=c7d4bc6d-15f3-4284-9123-679830d629f2&DisplayLang=en).
 
 ## Run-time requirements
 

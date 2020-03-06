@@ -28,7 +28,7 @@ EndPaint(hWnd, &ps);
 
 
 
-In the preceding code, the [BeginPaint](https://msdn.microsoft.com/library/gdi/pantdraw_7b78.asp) method returns a handle to a device context, and that handle is passed to the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. A device context is a structure (maintained by Windows) that holds information about the particular display device being used.
+In the preceding code, the [BeginPaint](/windows/win32/api/winuser/nf-winuser-beginpaint) method returns a handle to a device context, and that handle is passed to the [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. A device context is a structure (maintained by Windows) that holds information about the particular display device being used.
 
 ## Graphics State
 

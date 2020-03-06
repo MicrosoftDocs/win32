@@ -502,7 +502,7 @@ If the [*baseboard management controller (BMC)*](windows-remote-management-gloss
 
 If your system does not automatically detect the BMC and install the driver, but a BMC was detected during the setup process, the BMC device must be manually created. To do this, type the following command at a command prompt: **Rundll32 ipmisetp.dll, AddTheDevice**. After this command is executed, the IPMI device is created and appears in Device Manager. If you uninstall the Hardware Management component, the device is removed.
 
-For more information, see [Hardware Management Introduction](https://go.microsoft.com/fwlink/p/?linkid=45204).
+For more information, see [Hardware Management Introduction](https://technet.microsoft.com/library/f550cac0-5344-41cb-8e89-6e5c93236886).
 
 The IPMI provider places the hardware classes in the **root\\hardware** [*namespace*](https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-n) of WMI. For more information about the hardware classes, see [IPMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider). For more information about WMI *namespaces*, see [WMI Architecture](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-architecture).
 

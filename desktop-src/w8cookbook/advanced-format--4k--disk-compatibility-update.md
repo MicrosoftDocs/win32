@@ -230,19 +230,19 @@ A 4K Native Disk has the  Bytes Per Sector  and  Bytes Per Physical Sector  fiel
 
 ## Resources
 
--   [Windows General Support Statement](https://go.microsoft.com/fwlink/p/?linkid=325443)
+-   [Windows General Support Statement](https://support.microsoft.com/kb/2510009)
 -   [Microsoft KB 982018](https://support.microsoft.com/kb/982018)
--   [Microsoft KB 2553708](https://go.microsoft.com/fwlink/p/?LinkId=325447)
--   [Hotfix for Windows 7 and Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=325446)
--   [Hotfix for Windows Vista and Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkid=325447)
--   [HyperV Support Statement](https://go.microsoft.com/fwlink/p/?linkid=325448)
--   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://go.microsoft.com/fwlink/p/?linkid=325449)
--   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](https://go.microsoft.com/fwlink/p/?LinkId=325450)
--   [General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure](https://go.microsoft.com/fwlink/p/?LinkId=325460)
--   [Description of the standard terminology used to describe Microsoft software updates](https://go.microsoft.com/fwlink/p/?LinkId=325461)
--   [WDK sample code with details for how to extract the reported storage access alignment info from the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure when making a call to the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://go.microsoft.com/fwlink/p/?LinkId=325462)
--   [General information about ImageX Command-Line Options](https://go.microsoft.com/fwlink/p/?LinkId=325463)
--   [Intel Chipset driver requirements to support 4 KB Sector Drives](https://go.microsoft.com/fwlink/p/?LinkId=325464)
+-   [Microsoft KB 2553708](https://support.microsoft.com/kb/2553708)
+-   [Hotfix for Windows 7 and Windows Server 2008 R2](https://support.microsoft.com/kb/982018)
+-   [Hotfix for Windows Vista and Windows Server 2008](https://support.microsoft.com/kb/2553708)
+-   [HyperV Support Statement](https://support.microsoft.com/kb/2515143)
+-   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://msdn.microsoft.com/library/ff560590(VS.85).aspx)
+-   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](https://msdn.microsoft.com/library/ff800830(VS.85).aspx)
+-   [General information about the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure](https://msdn.microsoft.com/library/ff566344(VS.85).aspx)
+-   [Description of the standard terminology used to describe Microsoft software updates](https://support.microsoft.com/kb/824684/)
+-   [WDK sample code with details for how to extract the reported storage access alignment info from the STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR structure when making a call to the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](https://msdn.microsoft.com/library/ff800831(v=VS.85).aspx)
+-   [General information about ImageX Command-Line Options](https://technet.microsoft.com/library/dd799302(WS.10).aspx)
+-   [Intel Chipset driver requirements to support 4 KB Sector Drives](https://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm)
 
  
 

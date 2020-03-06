@@ -41,12 +41,12 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Indicates flags used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>IFolderView</strong></a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2"><strong>IFolderView2</strong></a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a> to specify a type of selection to apply.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/ne-shappmgr-_tagappactionflags"><strong>APPACTIONFLAGS</strong></a><br/></td>
+<td><a href="/windows/win32/api/shappmgr/ne-shappmgr-appactionflags"><strong>APPACTIONFLAGS</strong></a><br/></td>
 <td>Specifies application management actions supported by an application publisher. These flags are bitmasks passed to <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ishellapp-getpossibleactions"><strong>IShellApp::GetPossibleActions</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/ne-shappmgr-_tagappinfoflags"><strong>APPINFODATAFLAGS</strong></a><br/></td>
-<td>Specifies application information to return from <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ishellapp-getappinfo"><strong>IShellApp::GetAppInfo</strong></a>. These flags are bitmasks used in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-_appinfodata"><strong>dwMask</strong></a> member of the <strong>APPINFODATA</strong> structure.<br/></td>
+<td><a href="/windows/win32/api/shappmgr/ne-shappmgr-appinfodataflags"><strong>APPINFODATAFLAGS</strong></a><br/></td>
+<td>Specifies application information to return from <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ishellapp-getappinfo"><strong>IShellApp::GetAppInfo</strong></a>. These flags are bitmasks used in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-appinfodata"><strong>dwMask</strong></a> member of the <strong>APPINFODATA</strong> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shobjidl_core/ne-shobjidl_core-application_view_orientation"><strong>APPLICATION_VIEW_ORIENTATION</strong></a><br/></td>
@@ -93,11 +93,11 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Provides a set of flags to be used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt"><strong>IAttachmentExecute::Prompt</strong></a> to indicate the type of prompt UI to display.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-_tagautocompletelistoptions"><strong>AUTOCOMPLETELISTOPTIONS</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ne-shlobj_core-autocompletelistoptions"><strong>AUTOCOMPLETELISTOPTIONS</strong></a><br/></td>
 <td>Specifies which objects are enumerated for autocompletion lists.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/ne-shldisp-_tagautocompleteoptions"><strong>AUTOCOMPLETEOPTIONS</strong></a><br/></td>
+<td><a href="/windows/win32/api/shldisp/ne-shldisp-autocompleteoptions"><strong>AUTOCOMPLETEOPTIONS</strong></a><br/></td>
 <td>Specifies values used by <a href="/windows/desktop/api/Shldisp/nf-shldisp-iautocomplete2-getoptions"><strong>IAutoComplete2::GetOptions</strong></a> and <a href="/windows/desktop/api/Shldisp/nf-shldisp-iautocomplete2-setoptions"><strong>IAutoComplete2::SetOptions</strong></a> for options surrounding autocomplete.<br/></td>
 </tr>
 <tr class="even">
@@ -105,7 +105,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>A set of string keys that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam"><strong>IBindCtx::RegisterObjectParam</strong></a> method to specify a bind context.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shdeprecated/ne-shdeprecated-tagbnstate"><strong>BNSTATE</strong></a><br/></td>
+<td><a href="/windows/win32/api/shdeprecated/ne-shdeprecated-bnstate"><strong>BNSTATE</strong></a><br/></td>
 <td>Deprecated. Used by <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice-setnavigatestate"><strong>IBrowserService::SetNavigateState</strong></a> and <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice-getnavigatestate"><strong>IBrowserService::GetNavigateState</strong></a> to specify navigation states.<br/></td>
 </tr>
 <tr class="even">
@@ -149,27 +149,27 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Provides customization options for a single field in a logon or credential UI.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_interactive_state"><strong>CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_field_interactive_state"><strong>CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</strong></a><br/></td>
 <td>Describes the state of a field and how it a user can interact with it. Fields can be displayed by a credential provider in a variety of different interactive states.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_state"><strong>CREDENTIAL_PROVIDER_FIELD_STATE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_field_state"><strong>CREDENTIAL_PROVIDER_FIELD_STATE</strong></a><br/></td>
 <td>Specifies the state of a single field in the Credential UI.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_field_type"><strong>CREDENTIAL_PROVIDER_FIELD_TYPE</strong></a><br/></td>
-<td>Specifies a type of credential field. Used by <a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-_credential_provider_field_descriptor"><strong>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</strong></a>.<br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_field_type"><strong>CREDENTIAL_PROVIDER_FIELD_TYPE</strong></a><br/></td>
+<td>Specifies a type of credential field. Used by <a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-credential_provider_field_descriptor"><strong>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_get_serialization_response"><strong>CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_get_serialization_response"><strong>CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</strong></a><br/></td>
 <td>Describes the response when a credential provider attempts to serialize credentials.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_status_icon"><strong>CREDENTIAL_PROVIDER_STATUS_ICON</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_status_icon"><strong>CREDENTIAL_PROVIDER_STATUS_ICON</strong></a><br/></td>
 <td>Indicates which status icon should be displayed.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-_credential_provider_usage_scenario"><strong>CREDENTIAL_PROVIDER_USAGE_SCENARIO</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Credentialprovider/ne-credentialprovider-credential_provider_usage_scenario"><strong>CREDENTIAL_PROVIDER_USAGE_SCENARIO</strong></a><br/></td>
 <td>Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.<br/></td>
 </tr>
 <tr class="even">
@@ -293,7 +293,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>This section describes the flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop"><strong>IActiveDesktop</strong></a> interface methods.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-tagieshortcutflags"><strong>IESHORTCUTFLAGS</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ne-shlobj_core-ieshortcutflags"><strong>IESHORTCUTFLAGS</strong></a><br/></td>
 <td>Specifies how a shortcut should be handled by the browser.<br/></td>
 </tr>
 <tr class="even">
@@ -377,12 +377,12 @@ This section describes the Windows Shell constants, enumerations, and flags.
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shtypes/ne-shtypes-tagperceived"><strong>PERCEIVED</strong></a><br/></td>
+<td><a href="/windows/win32/api/shtypes/ne-shtypes-perceived"><strong>PERCEIVED</strong></a><br/></td>
 <td>Specifies a file's perceived type. This set of constants is used in the <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-assocgetperceivedtype"><strong>AssocGetPerceivedType</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/ne-shappmgr-_tagpublishedappinfoflags"><strong>PUBAPPINFOFLAGS</strong></a><br/></td>
-<td>Specifies which members in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-_pubappinfo"><strong>PUBAPPINFO</strong></a> structure are valid. These flags are bitmasks set in the <strong>dwMask</strong> member and passed to <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo"><strong>IPublishedApp::GetPublishedAppInfo</strong></a>.<br/></td>
+<td><a href="/windows/win32/api/shappmgr/ne-shappmgr-pubappinfoflags"><strong>PUBAPPINFOFLAGS</strong></a><br/></td>
+<td>Specifies which members in the <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-pubappinfo"><strong>PUBAPPINFO</strong></a> structure are valid. These flags are bitmasks set in the <strong>dwMask</strong> member and passed to <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo"><strong>IPublishedApp::GetPublishedAppInfo</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shellapi/ne-shellapi-query_user_notification_state"><strong>QUERY_USER_NOTIFICATION_STATE</strong></a><br/></td>
@@ -425,7 +425,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td>Specifies the access permissions assigned to the <strong>Users</strong> or <strong>Public</strong> folder. Used in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-createshare"><strong>CreateShare</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isharingconfigurationmanager-getsharepermissions"><strong>GetSharePermissions</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shtypes/ne-shtypes-tagshcolstate"><strong>SHCOLSTATE</strong></a><br/></td>
+<td><a href="/windows/win32/api/shtypes/ne-shtypes-shcolstate"><strong>SHCOLSTATE</strong></a><br/></td>
 <td>Describes how a property should be treated. These values are defined in Shtypes.h.<br/></td>
 </tr>
 <tr class="odd">
@@ -486,11 +486,11 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 <td>Used to determine how to compare two Shell items. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-compare"><strong>IShellItem::Compare</strong></a> uses this enumerated type.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sigdn"><strong>SIGDN</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn"><strong>SIGDN</strong></a><br/></td>
 <td>Requests the form of an item's display name to retrieve through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname"><strong>IShellItem::GetDisplayName</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetnamefromidlist"><strong>SHGetNameFromIDList</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction"><strong>SPACTION</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-spaction"><strong>SPACTION</strong></a><br/></td>
 <td>Describes an action being performed that requires progress to be shown to the user using an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
@@ -498,7 +498,7 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 <td>Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin"><strong>IActionProgress::Begin</strong></a>, these constants specify certain UI operations that are to be enabled or disabled.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext"><strong>SPTEXT</strong></a><br/></td>
+<td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sptext"><strong>SPTEXT</strong></a><br/></td>
 <td>Specifies the type of descriptive text being provided to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>IActionProgress</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">
@@ -582,31 +582,31 @@ Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 <td>Indicates flags used by <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync"><strong>ISyncMgrControl::StartHandlerSync</strong></a> and <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync"><strong>ISyncMgrControl::StartItemSync</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrflag"><strong>SYNCMGRFLAG</strong></a><br/></td>
-<td>The <a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrflag"><strong>SYNCMGRFLAG</strong></a> enumeration values are used in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronize-initialize"><strong>ISyncMgrSynchronize::Initialize</strong></a> method to indicate how the synchronization event was initiated.<br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrflag"><strong>SYNCMGRFLAG</strong></a><br/></td>
+<td>The <a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrflag"><strong>SYNCMGRFLAG</strong></a> enumeration values are used in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronize-initialize"><strong>ISyncMgrSynchronize::Initialize</strong></a> method to indicate how the synchronization event was initiated.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrhandlerflags"><strong>SYNCMGRHANDLERFLAGS</strong></a><br/></td>
-<td>Used in the <a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrhandlerinfo"><strong>SYNCMGRHANDLERINFO</strong></a> structure as flags that apply to the current handler.<br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrhandlerflags"><strong>SYNCMGRHANDLERFLAGS</strong></a><br/></td>
+<td>Used in the <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrhandlerinfo"><strong>SYNCMGRHANDLERINFO</strong></a> structure as flags that apply to the current handler.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrinvokeflags"><strong>SYNCMGRINVOKEFLAGS</strong></a><br/></td>
-<td>The <a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrinvokeflags"><strong>SYNCMGRINVOKEFLAGS</strong></a> enumeration value specifies how the Sync Manager is to be invoked in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems"><strong>ISyncMgrSynchronizeInvoke::UpdateItems</strong></a> method.<br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrinvokeflags"><strong>SYNCMGRINVOKEFLAGS</strong></a><br/></td>
+<td>The <a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrinvokeflags"><strong>SYNCMGRINVOKEFLAGS</strong></a> enumeration value specifies how the Sync Manager is to be invoked in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems"><strong>ISyncMgrSynchronizeInvoke::UpdateItems</strong></a> method.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgritemflags"><strong>SYNCMGRITEMFLAGS</strong></a><br/></td>
-<td>Specifies information for the current item in the <a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgritem"><strong>SYNCMGRITEM</strong></a> structure.<br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgritemflags"><strong>SYNCMGRITEMFLAGS</strong></a><br/></td>
+<td>Specifies information for the current item in the <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>SYNCMGRITEM</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrloglevel"><strong>SYNCMGRLOGLEVEL</strong></a><br/></td>
-<td>The <a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrloglevel"><strong>SYNCMGRLOGLEVEL</strong></a> enumeration values specify an error level for use in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror"><strong>ISyncMgrSynchronizeCallback::LogError</strong></a> method.<br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrloglevel"><strong>SYNCMGRLOGLEVEL</strong></a><br/></td>
+<td>The <a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrloglevel"><strong>SYNCMGRLOGLEVEL</strong></a> enumeration values specify an error level for use in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror"><strong>ISyncMgrSynchronizeCallback::LogError</strong></a> method.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrregisterflags"><strong>SYNCMGRREGISTERFLAGS</strong></a><br/></td>
-<td>The <a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrregisterflags"><strong>SYNCMGRREGISTERFLAGS</strong></a> enumeration values are used in methods of the <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>ISyncMgrRegister</strong></a> interface to identify events for which the handler is registered to be notified.<br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrregisterflags"><strong>SYNCMGRREGISTERFLAGS</strong></a><br/></td>
+<td>The <a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrregisterflags"><strong>SYNCMGRREGISTERFLAGS</strong></a> enumeration values are used in methods of the <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>ISyncMgrRegister</strong></a> interface to identify events for which the handler is registered to be notified.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrstatus"><strong>SYNCMGRSTATUS</strong></a><br/></td>
+<td><a href="/windows/win32/api/mobsync/ne-mobsync-syncmgrstatus"><strong>SYNCMGRSTATUS</strong></a><br/></td>
 <td>Used in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus"><strong>ISyncMgrSynchronize::SetItemStatus</strong></a> method to specify the updated status for the item.<br/></td>
 </tr>
 <tr class="odd">

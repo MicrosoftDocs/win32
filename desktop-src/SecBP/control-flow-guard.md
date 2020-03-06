@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## What is Control Flow Guard?
 
-Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities. By placing tight restrictions on where an application can execute code from, it makes it much harder for exploits to execute arbitrary code through vulnerabilities such as buffer overflows. CFG extends previous exploit mitigation technologies such as [/GS](https://go.microsoft.com/fwlink/p/?LinkId=717539), [DEP](https://go.microsoft.com/fwlink/p/?LinkId=717540), and [ASLR](https://go.microsoft.com/fwlink/p/?LinkId=717541).
+Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities. By placing tight restrictions on where an application can execute code from, it makes it much harder for exploits to execute arbitrary code through vulnerabilities such as buffer overflows. CFG extends previous exploit mitigation technologies such as [/GS](https://docs.microsoft.com/cpp/build/reference/gs-buffer-security-check?redirectedfrom=MSDN&view=vs-2019), [DEP](https://docs.microsoft.com/windows/win32/memory/data-execution-prevention?redirectedfrom=MSDN), and [ASLR](https://blogs.msdn.com/b/michael_howard/archive/2006/05/26/address-space-layout-randomization-in-windows-vista.aspx).
 
 This feature is available in Microsoft Visual Studio 2015, and runs on "CFG-Aware" versions of Windows—the x86 and x64 releases for Desktop and Server of Windows 10 and Windows 8.1 Update (KB3000850).
 
@@ -28,7 +28,7 @@ Alternatively, add **/guard:cf** to **Project \| Properties \| Configuration Pro
 
 ![cfg property for compiler](images/cfg-compiler.png)![cfg property for linker](images/cfg-linker.png)
 
-See [/guard (Enable Control Flow Guard)](https://go.microsoft.com/fwlink/p/?LinkId=717542) for additional info.
+See [/guard (Enable Control Flow Guard)](https://docs.microsoft.com/cpp/build/reference/guard-enable-control-flow-guard?redirectedfrom=MSDN&view=vs-2019) for additional info.
 
 If you are building your project from the command line, you can add the same options. For example, if you are compiling a project called test.cpp, use **cl /guard:cf test.cpp /link /guard:cf**.
 

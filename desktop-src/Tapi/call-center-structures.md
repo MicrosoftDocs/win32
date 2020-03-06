@@ -18,7 +18,7 @@ This section is an alphabetic listing for TAPI call center structures.
 -   [**LINEAGENTGROUPLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentgrouplist)
 -   [**LINEAGENTINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentinfo)
 -   [**LINEAGENTLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentlist)
--   [**LINEAGENTSESSIONENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentsession_tag)
+-   [**LINEAGENTSESSIONENTRY**](/windows/win32/api/tapi/ns-tapi-lineagentsessionentry)
 -   [**LINEAGENTSESSIONINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessioninfo)
 -   [**LINEAGENTSESSIONLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessionlist)
 -   [**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus)

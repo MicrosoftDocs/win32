@@ -42,7 +42,7 @@ GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windo
 [Windows GDI](https://msdn.microsoft.com/library/gdi/wingdistart_9ezp.asp)
 </dt> <dt>
 
-[DirectX](https://go.microsoft.com/fwlink/p/?linkid=182492)
+[DirectX](https://msdn.microsoft.com/directx/)
 </dt> <dt>
 
 [Windows Image Acquisition](https://msdn.microsoft.com/library/wia/wia/overviews/startpage.asp)

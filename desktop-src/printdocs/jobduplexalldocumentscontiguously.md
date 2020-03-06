@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobDuplexAllDocumentsContiguously
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Describes the duplex characteristics of the output. The duplex feature allows for printing on both sides of the media. All Documents in the job are duplexed together contiguously. JobDuplexAllDocumentsContiguously and DocumentDuplex are mutually exclusive. It is up to the driver to determine constraint handling between these keywords.
 
@@ -96,7 +96,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

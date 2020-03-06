@@ -3,7 +3,7 @@ title: TraceLogging C/C++ Quick Start
 description: The following section describes the basic steps required to add TraceLogging to native user-mode code.
 ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/20/2020
 ---
 
 # TraceLogging C/C++ Quick Start
@@ -20,12 +20,9 @@ The following section describes the basic steps required to add TraceLogging to 
 > [!IMPORTANT]
 > Link advapi32.lib in order to compile these examples.
 
- 
-
 ### SimpleTraceLoggingExample.h
 
 This example header includes the TraceLogging APIs and forward declares the provider handle that will be used to log events. Any class that wishes to use TraceLogging will include this header and can then start logging.
-
 
 ```C++
 #pragma once
@@ -38,8 +35,6 @@ TRACELOGGING_DECLARE_PROVIDER( g_hMyComponentProvider );
 
 ```
 
-
-
 The header file includes TraceLoggingProvider.h which defines the native TraceLogging API. You must include Windows.h first because it defines constants used by TraceLoggingProvider.h.
 
 The header file forward declares the provider handle `g_hMyComponentProvider` that you will pass to the TraceLogging APIs to log events. This handle needs to be accessible to any code that wishes to use TraceLogging.
@@ -49,7 +44,6 @@ The header file forward declares the provider handle `g_hMyComponentProvider` th
 ### SimpleTraceLoggingExample.cpp
 
 The following example registers the provider, logs an event, and unregisters the provider.
-
 
 ```C++
 #include "SimpleTraceLoggingExample.h"
@@ -78,8 +72,6 @@ void main()
 }
 ```
 
-
-
 The example above includes SimpleTraceLoggingExample.h which contains the global provider variable that your code will use to log events.
 
 The [**TRACELOGGING\_DEFINE\_PROVIDER**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider) macro allocates storage and defines the provider handle variable. The variable name that you provide to this macro must match the name you used in the [**TRACELOGGING\_DECLARE\_PROVIDER**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider) macro in your header file. This handle will remain valid as long as it is in scope.
@@ -87,7 +79,6 @@ The [**TRACELOGGING\_DEFINE\_PROVIDER**](/windows/desktop/api/traceloggingprovid
 ### Register the provider handle
 
 Before you can use the provider handle to log events you must call [**TraceLoggingRegister**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) to register your provider handle. This is typically done in Main() or DLLMain() but can be done at any time as long as it precedes any attempt to log an event. If you log an event before registering the provider handle, no error will occur but the event will not be logged. The following code from the example above registers the provider handle.
-
 
 ```C++
     // Define the GUID to use in TraceLoggingProviderRegister 
@@ -107,12 +98,9 @@ void main()
     TraceLoggingRegister(g_hMyComponentProvider);
 ```
 
-
-
 ### Log a Tracelogging event
 
 After the provider is registered, the following code logs a simple event.
-
 
 ```C++
     // Log an event
@@ -120,8 +108,6 @@ After the provider is registered, the following code logs a simple event.
         "HelloWorldTestEvent",              // Event Name that should uniquely identify your event.
         TraceLoggingValue(sampleValue, "TestMessage")); // Field for your event in the form of (value, field name).
 ```
-
-
 
 The [**TraceLoggingWrite**](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) macro takes up to ninety-nine arguments and executes as several statements. This means that the values being logged should not be C++ temporary objects. The event name is stored in UTF-8 format. You must not use embedded `null` characters in the event or other field names. There are no other limits on permitted characters.
 
@@ -137,13 +123,18 @@ The scope of a provider handle is strictly limited to the module (DLL, EXE, or S
 
 When you are finished logging events you must unregister the TraceLogging provider. The following code unregisters the provider.
 
-
 ```C++
     // Stop TraceLogging and unregister the provider
     TraceLoggingUnregister(g_hMyComponentProvider);
 ```
 
+## Compatibility
 
+Depending on its configuration, TraceLoggingProvider.h can be backwards-compatible (compatible with Windows Vista or later), or can be optimized for later OS versions. TraceLoggingProvider.h uses WINVER (user mode) and NTDDI_VERSION (kernel mode) to determine whether it should be compatible with earlier OS versions or be optimized for newer OS versions.
+
+For user-mode, if you include <windows.h> before setting WINVER, <windows.h> sets WINVER to the SDK's default target OS version. If WINVER is set to 0x602 or higher, TraceLoggingProvider.h optimizes its behavior for Windows 8 (your app will not run on earlier versions of Windows). If you need your program to run on Vista or Windows 7, be sure to set WINVER to the appropriate value before including <windows.h>.
+
+Similarly, if you include <wdm.h> before setting NTDDI_VERSION, <wdm.h> sets NTDDI_VERSION to a default value. If NTDDI_VERSION is set to 0x06040000 or higher, TraceLoggingProvider.h optimizes its behavior for Windows 10 (your driver will not work on earlier versions of Windows).
 
 ## Summary and next steps
 

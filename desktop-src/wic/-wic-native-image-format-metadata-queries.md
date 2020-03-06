@@ -97,11 +97,12 @@ The following table provides the available metadata query paths that can be used
 | /commentext/TextEntry                              |                            | VT\_LPSTR                           |
 | /logscrdesc                                        | Logical Screen Description | VT\_UNKNOWN - A query reader/writer |
 | /logscrdesc/Signature                              |                            | VT\_UI1 \| VT\_VECTOR               |
+| /logscrdesc/Width                                  |                            | VT\_UI2                             |
 | /logscrdesc/Height                                 |                            | VT\_UI2                             |
-| /logscrdesc/GlobalColorTableFlag                   |                            | VT\_UI2                             |
-| /logscrdesc/ColorResolution                        |                            | VT\_BOOL                            |
-| /logscrdesc/SortFlag                               |                            | VT\_UI1                             |
-| /logscrdesc/GlobalColorTableSize                   |                            | BOOL                                |
+| /logscrdesc/GlobalColorTableFlag                   |                            | VT\_BOOL                            |
+| /logscrdesc/ColorResolution                        |                            | VT\_UI1                             |
+| /logscrdesc/SortFlag                               |                            | VT\_BOOL                            |
+| /logscrdesc/GlobalColorTableSize                   |                            | VT\_UI1                             |
 | /logscrdesc/BackgroundColorIndex                   |                            | VT\_UI1                             |
 | /logscrdesc/PixelAspectRatio                       |                            | VT\_UI1                             |
 | /appext or /\[\*\]appext where \* = 0 to N         | Application Extension      | VT\_UNKNOWN - A query reader/writer |

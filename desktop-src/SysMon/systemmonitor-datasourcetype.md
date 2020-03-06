@@ -33,7 +33,7 @@ Property DataSourceType As DataSourceTypeConstants
 
 ## Property value
 
-Source of the performance counter data. For possible values, see [**DataSourceTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edatasourcetypeconstant).
+Source of the performance counter data. For possible values, see [**DataSourceTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-datasourcetypeconstants).
 
 ## Exceptions
 

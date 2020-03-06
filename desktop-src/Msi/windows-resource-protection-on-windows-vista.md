@@ -16,7 +16,7 @@ WRP in Windows Server 2008 and Windows Vista replaces Windows File Protection 
 -   WRP on Windows Server 2008 and later or Windows Vista and later can protect registry keys in addition to files. If the Windows Installer encounters a WRP-protected registry key, the installer skips the installation of that registry key, the installer enters a warning in the log file, and continues with the remainder of the installation without an error.
 -   Note that if a Windows Installer component contains a file or registry key that is protected by WRP, this resource must be used as the KeyPath for the component. In this case, Windows Installer does not install, update, or remove the component. You should not include any protected resources in an installation package. Instead, you should use the [supported resource replacement mechanisms](https://msdn.microsoft.com/library/Aa382540(v=VS.85).aspx) for [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx).
 
-For more information about WRP, see [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx) and information that is provided on [Microsoft Technet](https://go.microsoft.com/fwlink/p/?LinkID=53781).
+For more information about WRP, see [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx) and information that is provided on [Microsoft Technet](https://technet.microsoft.com/library/0d75f774-8514-4c9e-ac08-4c21f5c6c2d9).
 
 ## WFP for Windows Server 2003 and Windows XP/2000
 

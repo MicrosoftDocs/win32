@@ -23,7 +23,7 @@ All operations are considered remote and the WinRM service must be started befor
 When using the WinRM service for local operations, the following factors should be considered:
 
 -   The local WinRM configuration can only be read by administrators.
--   WMI namespaces must have remote enable permissions set. For more information, see [Securing a Remote WMI Connection](https://go.microsoft.com/fwlink/p/?linkid=144681).
+-   WMI namespaces must have remote enable permissions set. For more information, see [Securing a Remote WMI Connection](https://msdn.microsoft.com/library/aa393266.aspx).
 -   If a WinRM [*listener*](windows-remote-management-glossary.md) is not created, then the WinRM service listens for local requests on port 47001.
 
 Every WinRM script must start by establishing a session or connection to a computer by creating a [**Session**](session.md) object. After the session is created, you can use the **Session** object methods, such as [**Session.Enumerate**](session-enumerate.md) or [**Session.Invoke**](session-invoke.md) to obtain data or to execute methods.

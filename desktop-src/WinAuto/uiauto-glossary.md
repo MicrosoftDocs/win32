@@ -23,7 +23,7 @@ An underlined character in the text of a control's label.
 **accessibility aid**
 </dt> <dd>
 
-Also called assistive technology; specialized programs that work with a computer's operating system to accommodate specific impairments, such as a limited range of motion or blindness. Products include larger keyboards, eye-gaze-operated keyboards, voice input utilities, onscreen keyboards, and products that can convert text to speech or to a dynamic Braille display. For more information, see [Assistive Technology Products](https://go.microsoft.com/fwlink/p/?linkid=62971).
+Also called assistive technology; specialized programs that work with a computer's operating system to accommodate specific impairments, such as a limited range of motion or blindness. Products include larger keyboards, eye-gaze-operated keyboards, voice input utilities, onscreen keyboards, and products that can convert text to speech or to a dynamic Braille display. For more information, see [Assistive Technology Products](https://www.microsoft.com/enable/at/default.aspx).
 
 </dd> <dt>
 

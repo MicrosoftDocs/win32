@@ -13,7 +13,7 @@ The Authorization Manager API and MMC snap-in provide applications with a role-b
 -   [Advantages of Role-based Authorization](advantages-of-role-based-authorization.md)
 -   [Authorization Manager Model](authorization-manager-model.md)
 
-**Windows XP:** The Authorization Manager API and MMC snap-in are available as a download (Windows Server 2003 Administration Tools Pack) from [https://www.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=83468). This download supports administration and development of Authorization Manager policies; it does not support deployment of applications that use Authorization Manager to control access.
+**Windows XP:** The Authorization Manager API and MMC snap-in are available as a download (Windows Server 2003 Administration Tools Pack) from [https://www.microsoft.com/downloads](https://www.microsoft.com/Downloads/). This download supports administration and development of Authorization Manager policies; it does not support deployment of applications that use Authorization Manager to control access.
 
 ## Related topics
 

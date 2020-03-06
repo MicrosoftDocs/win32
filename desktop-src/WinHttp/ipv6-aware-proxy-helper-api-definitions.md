@@ -12,7 +12,7 @@ In order to take advantage of the IPv6 enabled functions, IT administrators must
 
 We also attempted to simplify work for developers, by aligning our functions to return different types of IP addresses in the same order of preference as other networking components, specifically IPv6 addresses followed by IPv4 addresses (i.e. current behavior for Winsock’s getaddrinfo(..) function).
 
-The following functions are extensions to the [Navigator Proxy Auto-Config (PAC) File Format specification](https://go.microsoft.com/fwlink/p/?linkid=84541) to enable WPAD scripts to handle IPv6 capable networks.
+The following functions are extensions to the [Navigator Proxy Auto-Config (PAC) File Format specification](https://web.archive.org/web/20060424005037/wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html) to enable WPAD scripts to handle IPv6 capable networks.
 
 ## Predefined Functions and Environment for the JavaScript Function FindProxyforURLEx
 

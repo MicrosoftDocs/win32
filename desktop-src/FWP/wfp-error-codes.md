@@ -419,7 +419,7 @@ A notification could not be delivered because a message queue is at its maximum 
 
 The network traffic parameters do not match those for the security association context.
 
-[**IPsecSaContextGetSpi0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0) can be called multiple times, but the caller must specify the same [**IPSEC\_TRAFFIC0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_traffic0_) each time. This error is returned if a subsequent call supplies a different **IPSEC\_TRAFFIC0**.
+[**IPsecSaContextGetSpi0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextgetspi0) can be called multiple times, but the caller must specify the same [**IPSEC\_TRAFFIC0**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_traffic0) each time. This error is returned if a subsequent call supplies a different **IPSEC\_TRAFFIC0**.
 
 
 </dt> </dl> </dd> <dt>

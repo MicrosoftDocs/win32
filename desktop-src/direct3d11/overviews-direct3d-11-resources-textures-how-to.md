@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 You can use the [Windows Imaging Component](https://docs.microsoft.com/windows/desktop/wic/-wic-lh) API to initialize a [texture](overviews-direct3d-11-resources-textures.md) from a file. To load a texture, you must create a texture and a texture view. This topic shows how to use Windows Imaging Component (WIC) to create the texture and the view separately.
 
 > [!Note]  
-> This topic is useful for images that you create as simple 2D textures. For more complex resources, use [DDS](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds). For a full-featured DDS file reader, writer, and texture processing pipeline, see [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://go.microsoft.com/fwlink/p/?linkid=248929).
+> This topic is useful for images that you create as simple 2D textures. For more complex resources, use [DDS](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds). For a full-featured DDS file reader, writer, and texture processing pipeline, see [DirectXTex](https://github.com/Microsoft/DirectXTex) and [DirectXTK](https://github.com/Microsoft/DirectXTK).
 
  
 

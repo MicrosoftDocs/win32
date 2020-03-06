@@ -18,7 +18,7 @@ api_location:
 
 # IRMGetLicense interface
 
-\[**IRMGetLicense** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Microsoft PlayReady](https://go.microsoft.com/fwlink/p/?linkid=325240). \]
+\[**IRMGetLicense** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Microsoft PlayReady](https://www.microsoft.com/PlayReady/). \]
 
 The **IRMGetLicense** interface is implemented in a run-time library that is installed as part of the Windows Media Format SDK. It enables client-side license acquisition. Because this method is used by license issuers through Web-based applications, it is documented in the Windows Media Rights Manager SDK documentation.
 

@@ -21,19 +21,19 @@ Learn about the package deployment API, which you can use to install, update, an
 **Samples**
 </dt> <dt>
 
-[Add app package sample (AddPackage)](https://go.microsoft.com/fwlink/p/?linkid=236968)
+[Add app package sample (AddPackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-f4a89ec0)
 </dt> <dt>
 
-[Enumerate app packages sample (FindPackages)](https://go.microsoft.com/fwlink/p/?linkid=236973)
+[Enumerate app packages sample (FindPackages)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079)
 </dt> <dt>
 
-[Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://go.microsoft.com/fwlink/p/?linkid=236974)
+[Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
 </dt> <dt>
 
-[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://go.microsoft.com/fwlink/p/?linkid=236975)
+[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a)
 </dt> <dt>
 
-[Remove app package sample (RemovePackage)](https://go.microsoft.com/fwlink/p/?linkid=236972)
+[Remove app package sample (RemovePackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-ae818077)
 </dt> <dt>
 
 **Concepts**

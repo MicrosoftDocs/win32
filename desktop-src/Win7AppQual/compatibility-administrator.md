@@ -38,10 +38,10 @@ The following flowchart illustrates the steps required in using the Compatibilit
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)
--   [Using the Compatibility Administrator](https://go.microsoft.com/fwlink/p/?linkid=205038)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://go.microsoft.com/fwlink/p/?linkid=205039)
--   [Testing and Mitigating Issues by Using the Development Tools](https://go.microsoft.com/fwlink/p/?linkid=205040)
+-   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
+-   [Using the Compatibility Administrator](https://technet.microsoft.com/library/cc749034(WS.10).aspx)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
+-   [Testing and Mitigating Issues by Using the Development Tools](https://technet.microsoft.com/library/cc766461(WS.10).aspx)
 
  
 

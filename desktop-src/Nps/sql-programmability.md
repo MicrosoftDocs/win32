@@ -383,7 +383,7 @@ GO
 
 <dl> <dt>
 
-[TechNet: Key concepts for IAS SQL Server logging](https://go.microsoft.com/fwlink/p/?linkid=101365)
+[TechNet: Key concepts for IAS SQL Server logging](https://technet.microsoft.com/library/5dcae8bc-d1e0-4562-9f53-b8478e5d3308)
 </dt> </dl>
 
  

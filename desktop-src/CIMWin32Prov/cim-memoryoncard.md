@@ -24,7 +24,7 @@ api_location:
 The **CIM\_MemoryOnCard** class associates physical memory located on hosting boards, adapter cards, and so on. This association explicitly defines the relationship of memory to cards.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

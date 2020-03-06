@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Learn how to extract files from the app package for a Windows app using the [packaging API](interfaces.md).
 
-You can also use the MakeAppx.exe tool to extract files from an app package or bundle. See [Extract files from a package or bundle](https://aka.ms/extract-from-package) for more information.
+You can also use the MakeAppx.exe tool to extract files from an app package or bundle. See [Extract files from a package or bundle](https://docs.microsoft.com/windows/msix/package/create-app-package-with-makeappx-tool?redirectedfrom=MSDN#extract-files-from-a-package-or-bundle) for more information.
 
 ### Create a package reader
 
@@ -442,7 +442,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Extract app package contents sample](https://go.microsoft.com/fwlink/p/?linkid=106455)
+[Extract app package contents sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Package-Extraction-b0f5d164)
 </dt> <dt>
 
 **Reference**

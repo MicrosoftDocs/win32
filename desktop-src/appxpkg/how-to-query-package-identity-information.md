@@ -341,7 +341,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Query app package and app manifest sample](https://go.microsoft.com/fwlink/p/?linkid=236966)
+[Query app package and app manifest sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92)
 </dt> <dt>
 
 **Reference**

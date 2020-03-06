@@ -47,7 +47,7 @@ The following table identifies native Windows support for common network protoco
 
 **DLC on Windows 2003 and Windows XP:** The Data Link Control (DLC) protocol is supported on Windows Server 2003 and Windows XP when the DLC driver included with Microsoft Host Integration Server 2006, Host Integration Server 2004, or Host Integration Server 2000 is installed.
 
-**ATM on Windows 2003, Windows XP, and Windows 2000:** The Asynchronous Transfer Mode (ATM) protocol is supported on Windows Server 2003, Windows XP, and Windows 2000 when an ATM network adapter is installed. The protocol for classical IP over ATM (sometimes abbreviated as CLIP/ATM) is defined in [RFC 2225](https://go.microsoft.com/fwlink/p/?linkid=193457) and related documents published by the IETF. Windows Server 2003, Windows XP, and Windows 2000 provide a full implementation of this standard.
+**ATM on Windows 2003, Windows XP, and Windows 2000:** The Asynchronous Transfer Mode (ATM) protocol is supported on Windows Server 2003, Windows XP, and Windows 2000 when an ATM network adapter is installed. The protocol for classical IP over ATM (sometimes abbreviated as CLIP/ATM) is defined in [RFC 2225](https://tools.ietf.org/html/rfc2225) and related documents published by the IETF. Windows Server 2003, Windows XP, and Windows 2000 provide a full implementation of this standard.
 
 **NetBEUI on Windows 2000:** The NetBEUI protocol is not directly supported by Windows sockets. But the NetBIOS protocol which may use multiple network protocols supports using the NetBEUI protocol on Windows 2000.
 
@@ -55,19 +55,19 @@ The following table identifies native Windows support for common network protoco
 
 <dl> <dt>
 
-[ATM Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=193472)
+[ATM Technical Reference](https://technet.microsoft.com/library/cc759707(WS.10).aspx)
 </dt> <dt>
 
 [Bluetooth](https://msdn.microsoft.com/library/Aa362932(v=VS.85).aspx)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](https://go.microsoft.com/fwlink/p/?linkid=193479)
+[IPv6 Technology Preview for Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
 </dt> <dt>
 
 [IrDA](https://msdn.microsoft.com/library/ms691773(v=VS.85).aspx)
 </dt> <dt>
 
-[NDIS 5.0 and ATM Support in Windows](https://go.microsoft.com/fwlink/p/?linkid=193474)
+[NDIS 5.0 and ATM Support in Windows](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-version-guide)
 </dt> </dl>
 
  

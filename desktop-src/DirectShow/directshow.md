@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Microsoft DirectShow application programming interface (API) is a media-streaming architecture for Microsoft Windows. Using DirectShow, your applications can perform high-quality video and audio playback or capture.
 
-The DirectShow headers, libraries, SDK tools, and samples are available in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=62332).
+The DirectShow headers, libraries, SDK tools, and samples are available in the [Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx).
 
 > [!Note]  
 > Previous versions of the DirectShow SDK were included in the DirectX SDK. The last version of the DirectX SDK to include DirectShow was DirectX 9.0 SDK Update - (February 2005) Extras. After this version, DirectShow was moved to the Windows SDK. To get the latest version of the DirectShow headers, libraries, and samples, download the Windows SDK.
@@ -33,7 +33,7 @@ The DirectShow documentation is divided into the following sections:
 
 <dl> <dt>
 
-[Media Technologies for Windows](https://go.microsoft.com/fwlink/p/?linkid=208025)
+[Media Technologies for Windows](https://msdn.microsoft.com/windows/bb190307)
 </dt> </dl>
 
  

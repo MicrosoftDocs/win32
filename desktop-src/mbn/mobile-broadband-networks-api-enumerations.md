@@ -39,7 +39,7 @@ The Mobile Broadband API defines and uses the following enumeration types.
 -   [**MBN\_SMS\_CAPS**](https://msdn.microsoft.com/library/Dd323239(v=VS.85).aspx)
 -   [**MBN\_SMS\_CDMA\_ENCODING**](/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_encoding)
 -   [**MBN\_SMS\_CDMA\_LANG**](/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang)
--   [**MBN\_SMS\_CONSTANTS**](/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_constants)
+-   [**MBN\_SMS\_CONSTANTS**](/windows/win32/api/mbnapi/ne-mbnapi-wwaext_sms_constants)
 -   [**MBN\_SMS\_FLAG**](/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_flag)
 -   [**MBN\_SMS\_FORMAT**](/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format)
 -   [**MBN\_SMS\_STATUS\_FLAG**](/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag)

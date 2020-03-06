@@ -137,7 +137,7 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 
   - The bookmark of a record is the same as the key of that record on the primary index over the table containing that record. If no primary index is defined over that table the database engine will create its own bookmark for the record.
 
-  - Bookmarks can be compared against each other using the [memcmp](https://go.microsoft.com/fwlink/?linkid=180733) function to establish their relative ordering in the primary index over the table of the source records. If no primary index is defined over that table, it is not meaningful to use the relative ordering of bookmarks from that table.
+  - Bookmarks can be compared against each other using the [memcmp](https://msdn.microsoft.com/library/aa246467(VS.60).aspx) function to establish their relative ordering in the primary index over the table of the source records. If no primary index is defined over that table, it is not meaningful to use the relative ordering of bookmarks from that table.
 
   - It is meaningless to compare bookmarks of records from different tables against each other.
 
@@ -184,5 +184,5 @@ Bookmarks should generally be treated as opaque chunks of data. No attempt shoul
 [JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGoToBookmark](gg294053\(v=exchg.10\).md)  
 [JetStopService](gg269240\(v=exchg.10\).md)  
-[memcmp](https://go.microsoft.com/fwlink/?linkid=180733)
+[memcmp](https://msdn.microsoft.com/library/aa246467(VS.60).aspx)
 

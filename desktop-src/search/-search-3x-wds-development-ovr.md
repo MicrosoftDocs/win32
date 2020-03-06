@@ -80,7 +80,7 @@ Another option is using the search-ms:// and search:// protocols, which execute 
 
 ### Querying Remote Data Stores (Federated Search)
 
-In Windows 7 and later, federated search offers a new search provider that queries remote data stores through web servers, through the [OpenSearch](https://go.microsoft.com/fwlink/p/?linkid=147911) protocol, and enumerates the results as RSS or Atom XML feeds. Search Connectors are namespace junctions that simulate folder behavior by using a search provider. For more information about search federation to remote data stores in Windows 7, see [Federated Search in Windows](-search-federated-search-overview.md).
+In Windows 7 and later, federated search offers a new search provider that queries remote data stores through web servers, through the [OpenSearch](http://www.opensearch.org/Home) protocol, and enumerates the results as RSS or Atom XML feeds. Search Connectors are namespace junctions that simulate folder behavior by using a search provider. For more information about search federation to remote data stores in Windows 7, see [Federated Search in Windows](-search-federated-search-overview.md).
 
 ### Indexing Files and Items
 
@@ -191,13 +191,13 @@ Thus, these add-ins should be written by developers with expertise in creating s
 -   For data sources that need to use the Shell Default System Folder View Object (DefView), see [Implementing a Folder View](https://msdn.microsoft.com/library/Cc144092(v=VS.85).aspx), [**SHCreateShellFolderView**](https://msdn.microsoft.com/library/Bb762141(v=VS.85).aspx) function, and [**SFV\_CREATE**](https://msdn.microsoft.com/library/Bb773399(v=VS.85).aspx) structure. Data sources that use the Shell Default System Folder View Object (DefView) must implement the following set of interfaces: [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx), [**IShellFolder2**](https://msdn.microsoft.com/library/Bb775055(v=VS.85).aspx), [**IPersistFolder**](https://msdn.microsoft.com/library/Bb775348(v=VS.85).aspx), [**IPersistFolder2**](https://msdn.microsoft.com/library/Bb775344(v=VS.85).aspx), and (optionally) [**IPersistFolder3**](https://msdn.microsoft.com/library/Bb775338(v=VS.85).aspx). If your **IShellFolder** implementation does not use **SHCreateShellFolderView** to create the DefView, the Shell view object may need [**IFolderView**](https://msdn.microsoft.com/library/Bb775606(v=VS.85).aspx).
 -   [**ISearchFolderItemFactory**](https://msdn.microsoft.com/library/Bb775176(v=VS.85).aspx) is the primary interface for consumers of the Shell data source known as DBFolder. For more information about DBFolder, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [**Bind Context String Keys**](https://msdn.microsoft.com/library/Bb762592(v=VS.85).aspx). See also [Association Arrays](https://msdn.microsoft.com/library/Ee872122(v=VS.85).aspx) and [**IPropertySystem::GetPropertyDescriptionListFromString**](https://msdn.microsoft.com/library/Bb761436(v=VS.85).aspx).
 -   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/library/system.data.oledb(VS.71).aspx) documentation.
--   For community-supported message boards on Search technologies, see [Windows: Search Forums](https://go.microsoft.com/fwlink/p/?linkid=201207) on MSDN.
+-   For community-supported message boards on Search technologies, see [Windows: Search Forums](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads) on MSDN.
 -   To download the Search SDK Code Samples:
-    -   For Windows 7: [Windows Search Samples on Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=155654).
-    -   For Windows Vista: [Windows Search Samples in the Windows Search SDK 3.x](https://go.microsoft.com/fwlink/p/?linkid=201210).
+    -   For Windows 7: [Windows Search Samples on Code Gallery](https://code.msdn.microsoft.com/windowssearch).
+    -   For Windows Vista: [Windows Search Samples in the Windows Search SDK 3.x](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8&displaylang=en).
 -   To download the Windows SDK:
-    -   For Windows 7: [Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=129787).
-    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=125979).
+    -   For Windows 7: [Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/downloads/details.aspx?familyid=4377f86d-c913-4b5c-b87e-ef72e5b4e065).
 
 ## Related topics
 

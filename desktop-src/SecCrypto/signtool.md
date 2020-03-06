@@ -104,7 +104,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/dg</strong> <em>Path</em></td>
-<td>Generates the to be signed digest and the unsigned PKCS7 files. The output digest and PKCS7 files will be: <em>Path</em>\<em>FileName.dig</em> and <em>Path</em>\<em>FileName.p7u</em>. To output an additional XML file, see <strong>/dxml</strong>.<br/></td>
+<td>Generates the digest to be signed and the unsigned PKCS7 files. The output digest and PKCS7 files will be: <em>Path</em>\<em>FileName.dig</em> and <em>Path</em>\<em>FileName.p7u</em>. To output an additional XML file, see <strong>/dxml</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/di</strong> <em>Path</em></td>
@@ -340,7 +340,7 @@ The following command line shows signing a file automatically using the best cer
 **signtool sign** **/a** *MyFile.exe*
 
 > [!Note]  
-> When signing an executable file that is larger than approximately 300 megabytes for use on a computer running Windows XP with Service Pack 2 (SP2) and later, you should use catalog signing with the [MakeCat](makecat.md) tool rather than use the SignTool tool. Depending on the available system resources of the computer on which the file is verified, some applications may not be able to verify the binary signature of a large file. For more information, see KB article [922225](https://go.microsoft.com/fwlink/p/?linkid=84540).
+> When signing an executable file that is larger than approximately 300 megabytes for use on a computer running Windows XP with Service Pack 2 (SP2) and later, you should use catalog signing with the [MakeCat](makecat.md) tool rather than use the SignTool tool. Depending on the available system resources of the computer on which the file is verified, some applications may not be able to verify the binary signature of a large file. For more information, see KB article [922225](https://support.microsoft.com/kb/922225).
 
  
 

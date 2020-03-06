@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Customizing Certificate Services Web Enrollment Pages
 
-[*Certificate Services*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) provides web enrollment pages that can be used to request certificates. An administrator can customize some of the items that can be viewed in the web enrollment pages; however, you should be familiar with the web enrollment pages and web scripting before making any changes. For more information about web scripting, see [Scripting](https://go.microsoft.com/fwlink/p/?linkid=1758).
+[*Certificate Services*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) provides web enrollment pages that can be used to request certificates. An administrator can customize some of the items that can be viewed in the web enrollment pages; however, you should be familiar with the web enrollment pages and web scripting before making any changes. For more information about web scripting, see [Scripting](https://msdn.microsoft.com/library/ms950396.aspx).
 
 The default values for the Distinguished Name fields for Organization, Organizational Unit, Locality, State, and Country/Region are the values specified for the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) when Certificate Services is installed. These default values appear in the webpages and can be changed by the user during the certificate enrollment process. However, if you want other default values to appear in the webpages, you can edit the Certdat.inc file (in the path \\*WindowsDirectory*\\System32\\Certsrv\\); specifically, you can assign custom values to the following variables provided for customization.
 

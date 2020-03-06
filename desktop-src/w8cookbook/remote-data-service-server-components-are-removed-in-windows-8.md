@@ -38,7 +38,7 @@ Customers can keep their RDS server on a machine with Windows 7 or other down-le
 
 ## Resources
 
-[Data Access Technologies Roadmap](https://go.microsoft.com/fwlink/p/?LinkId=325444)
+[Data Access Technologies Roadmap](https://msdn.microsoft.com/library/ms810810.aspx)
 
  
 

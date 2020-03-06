@@ -7,7 +7,7 @@ ms.date: 05/31/2018
 
 # WS-Discovery Specification Compliance
 
-[WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841) describes how to perform the following tasks:
+[WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf) describes how to perform the following tasks:
 
 -   Announce the availability of services on the local subnet
 -   Search for services on the subnet
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 To accomplish this, WS-Discovery defines two one-way messages, [Hello](hello-message.md) and [Bye](bye-message.md), and two bidirectional search messages, [Probe](probe-message.md) and [Resolve](resolve-message.md).
 
-WS-Discovery also provides addresses and a reserved port for IPv4 and IPv6 link local discovery. The specification also allows for alternate bindings to be defined elsewhere, such as the Probe over HTTP binding defined in the [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS).
+WS-Discovery also provides addresses and a reserved port for IPv4 and IPv6 link local discovery. The specification also allows for alternate bindings to be defined elsewhere, such as the Probe over HTTP binding defined in the [Devices Profile for Web Services](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS).
 
 The WS-Discovery specification describes elective functionality by using the terms MAY or SHOULD in a given implementation recommendation or restriction. Omitted functionality may be functionality described as REQUIRED in the WS-Discovery specification that was not implemented by WSDAPI, or it may be functionality that WSDAPI implemented in a method other in the one specified in the WS-Discovery specification.
 
@@ -23,7 +23,7 @@ This topic describes how WS-Discovery restrictions, requirements, and elective f
 
 ## WS-Discovery and SOAP-over-UDP Support
 
-In SOAP-over-UDP, Section 3.2 specifies that the UDP message must fit in a 64K datagram. WSDAPI will accept 64K UDP messages, but the DPWS constraint of MAX\_ENVELOPE\_SIZE (32K) will constrain the message size. As required by [WS-Discovery](https://go.microsoft.com/fwlink/p/?linkid=87841), WSDAPI supports the message patterns described in Section 4.
+In SOAP-over-UDP, Section 3.2 specifies that the UDP message must fit in a 64K datagram. WSDAPI will accept 64K UDP messages, but the DPWS constraint of MAX\_ENVELOPE\_SIZE (32K) will constrain the message size. As required by [WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf), WSDAPI supports the message patterns described in Section 4.
 
 WSDAPI may be configured to support the security model in Sections 7 and 8. When so configured, WSDAPI will sign outbound WS-Discovery messages and will validate signatures on inbound messages.
 

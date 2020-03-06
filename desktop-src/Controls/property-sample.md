@@ -35,7 +35,7 @@ The Property Sample shows how to implement three different styles of property sh
 
 ## Downloading the Sample
 
-The Property Sample is installed as part of the [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=147890) and is available in the following location.
+The Property Sample is installed as part of the [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windows/bb980924.aspx) and is available in the following location.
 
 
 

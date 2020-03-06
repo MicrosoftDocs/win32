@@ -26,7 +26,7 @@ All user input to these tools is case insensitive. Separate options now exist fo
 
 ## Additional Tools
 
-Certutil.exe is a command-line tool that is installed as part of Certificate Services. You can use Certutil.exe to dump and display [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) configuration information, configure Certificate Services, back up and restore CA components, and verify [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), [*key pairs*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx), and certificate chains. For more information about Certutil, see the [Certutil](https://go.microsoft.com/fwlink/p/?linkid=120697) topic on Microsoft TechNet.
+Certutil.exe is a command-line tool that is installed as part of Certificate Services. You can use Certutil.exe to dump and display [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) configuration information, configure Certificate Services, back up and restore CA components, and verify [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), [*key pairs*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx), and certificate chains. For more information about Certutil, see the [Certutil](https://technet.microsoft.com/library/c264ccf0-ba1e-412b-9dd3-d77dd9345ad9) topic on Microsoft TechNet.
 
  
 

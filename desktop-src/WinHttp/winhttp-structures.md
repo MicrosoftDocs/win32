@@ -59,7 +59,7 @@ Contains the source and destination IP address of the request that generated the
 
 Contains user credential information used for server and proxy authentication.
 
-> [!Note]  
+> [!Note]
 > This structure has been deprecated. Instead, the use of the [**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) structure is recommended.
 
  
@@ -73,7 +73,7 @@ Contains user credential information used for server and proxy authentication.
 
 </dd> <dt>
 
-[**WINHTTP\_CURRENT\_USER\_IE\_PROXY\_CONFIG**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config)
+[**WINHTTP\_CURRENT\_USER\_IE\_PROXY\_CONFIG**](/windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config)
 </dt> <dd>
 
 Contains the Internet Explorer proxy configuration information.
@@ -98,6 +98,27 @@ A collection of proxy result entries provided by [**WinHttpGetProxyResult**](/wi
 </dt> <dd>
 
 A result entry from a call to [**WinHttpGetProxyResult**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyresult).
+
+</dd> <dt>
+
+[**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats)
+</dt> <dd>
+
+Contains statistics for a request.
+
+</dd> <dt>
+
+[**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times)
+</dt> <dd>
+
+Contains timing information for a request.
+
+</dd> <dt>
+
+[**WINHTTP\_SECURITY\_INFO**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_security_info)
+</dt> <dd>
+
+Contains SChannel connection and cipher information for a request.
 
 </dd> <dt>
 

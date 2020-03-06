@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Overview of the PrintCapabilities
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 The PrintCapabilities describe the configurations or states available on a device. A device that is described by PrintCapabilities can often be placed in a number of different configurations. In the case of a printing device, typical printing attributes include duplex printing, resolution, and media size. If the device supports these attributes, they are part of the configuration for that device. The user selects a particular configuration by assigning a specific value to each of the available attributes; for example, Duplex: OneSided, Resolution: 600 dpi, and MediaSize: Legal.
 
@@ -18,7 +18,7 @@ The PrintCapabilities are built on the Print Schema Framework, which defines the
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

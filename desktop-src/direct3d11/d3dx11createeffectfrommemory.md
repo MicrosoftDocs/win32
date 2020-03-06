@@ -93,7 +93,7 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 ## Remarks
 
 > [!Note]  
-> You must use [Effects 11 source](https://go.microsoft.com/fwlink/p/?LinkId=271568) to build your effects-type application. For more info about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
+> You must use [Effects 11 source](https://github.com/Microsoft/FX11) to build your effects-type application. For more info about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
  
 

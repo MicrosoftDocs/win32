@@ -22,7 +22,7 @@ Recent and improved version of an existing application. For more information, se
 <span id="_msi_user_account_control_gly"></span><span id="_MSI_USER_ACCOUNT_CONTROL_GLY"></span>**User Account Control (UAC)**
 </dt> <dd>
 
-UAC is a new access control technology in Windows Vista that causes all users to run with limited privileges. For more information, see the [User Account Control](https://go.microsoft.com/fwlink/p/?linkid=53781) documentation.
+UAC is a new access control technology in Windows Vista that causes all users to run with limited privileges. For more information, see the [User Account Control](https://technet.microsoft.com/library/0d75f774-8514-4c9e-ac08-4c21f5c6c2d9) documentation.
 
 </dd> </dl>
 

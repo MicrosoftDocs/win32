@@ -38,7 +38,7 @@ Every application should be tested in an environment with a large RTT. Doing so 
 [High-performance Windows Sockets Applications](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Nagle Algorithm](https://go.microsoft.com/fwlink/p/?linkid=194153)
+[Nagle Algorithm](https://msdn.microsoft.com/library/ms817942.aspx)
 </dt> </dl>
 
  

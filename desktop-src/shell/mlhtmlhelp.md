@@ -77,7 +77,7 @@ A pointer to a buffer that contains the fully qualified path of a compiled help 
 
 Type: **UINT**
 
-The command to complete. This function directly supports only [HH\_DISPLAY\_TOPIC](https://go.microsoft.com/fwlink/p/?linkid=201048) and [HH\_DISPLAY\_TEXT\_POPUP](https://go.microsoft.com/fwlink/p/?linkid=201049). In the case of any other command, the call is forwarded without the *dwCrossCodePage* value to [HtmlHelp](https://go.microsoft.com/fwlink/p/?linkid=201050).
+The command to complete. This function directly supports only [HH\_DISPLAY\_TOPIC](https://msdn.microsoft.com/library/ms670084(VS.85).aspx) and [HH\_DISPLAY\_TEXT\_POPUP](https://msdn.microsoft.com/library/ms670082(VS.85).aspx). In the case of any other command, the call is forwarded without the *dwCrossCodePage* value to [HtmlHelp](https://msdn.microsoft.com/library/ms524238(VS.85).aspx).
 
 </dd> <dt>
 
@@ -110,15 +110,15 @@ Depending on the specified *uCommand* and the result, **MLHtmlHelp** returns one
 
 ## Remarks
 
-If a problem arises with the path of the help file for the current language, the call is forwarded to [HtmlHelp](https://go.microsoft.com/fwlink/p/?linkid=201050) for standard handling.
+If a problem arises with the path of the help file for the current language, the call is forwarded to [HtmlHelp](https://msdn.microsoft.com/library/ms524238(VS.85).aspx) for standard handling.
 
 When the help window is closed, focus returns to the owner unless the owner is the desktop. If *hwndCaller* is the desktop, then the operating system determines where focus is returned.
 
-In addition, if **MLHtmlHelp** sends any notification messages from the help window, the messages are sent to *hwndCaller* as long as you have enabled [notification message](https://go.microsoft.com/fwlink/p/?linkid=201053) tracking in the help window definition.
+In addition, if **MLHtmlHelp** sends any notification messages from the help window, the messages are sent to *hwndCaller* as long as you have enabled [notification message](https://msdn.microsoft.com/library/ms524237(VS.85).aspx) tracking in the help window definition.
 
 ## Examples
 
-The following example calls the [HH\_DISPLAY\_TOPIC](https://go.microsoft.com/fwlink/p/?linkid=201048) command to open the help file named Help.chm and display its default topic in the help window named `Mainwin`. Generally, the help window specified in this command is a standard [HTML Help Viewer](https://go.microsoft.com/fwlink/p/?linkid=201051).
+The following example calls the [HH\_DISPLAY\_TOPIC](https://msdn.microsoft.com/library/ms670084(VS.85).aspx) command to open the help file named Help.chm and display its default topic in the help window named `Mainwin`. Generally, the help window specified in this command is a standard [HTML Help Viewer](https://msdn.microsoft.com/library/ms524397(VS.85).aspx).
 
 ``` syntax
 HWND hwnd = HtmlHelp(GetDesktopWindow(),

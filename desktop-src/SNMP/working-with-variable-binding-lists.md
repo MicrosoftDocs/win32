@@ -28,7 +28,7 @@ The WinSNMP application can construct and manipulate variable binding lists, and
 
  
 
-For more information about variable bindings and variable binding lists, see [RFC1905](https://go.microsoft.com/fwlink/p/?linkid=84031), "Protocol Operations for Version 2 of the Simple Network Management Protocol (SNMPv2)," and the WinSNMP [Variable Binding Functions](winsnmp-functions.md).
+For more information about variable bindings and variable binding lists, see [RFC1905](https://www.ietf.org/rfc/rfc1905.txt), "Protocol Operations for Version 2 of the Simple Network Management Protocol (SNMPv2)," and the WinSNMP [Variable Binding Functions](winsnmp-functions.md).
 
  
 

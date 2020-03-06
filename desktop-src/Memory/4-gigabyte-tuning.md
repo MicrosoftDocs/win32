@@ -12,7 +12,7 @@ On 32-bit editions of Windows, applications have 4 gigabyte (GB) of virtual addr
 
 For applications that are memory-intensive, such as database management systems (DBMS), the use of a larger virtual address space can provide considerable performance and scalability benefits. However, the file cache, paged pool, and nonpaged pool are smaller, which can adversely affect applications with heavy networking or I/O. Therefore, you might want to test your application under load, and examine the performance counters to determine whether your application benefits from the larger address space.
 
-To enable 4GT, use the [BCDEdit /set](https://go.microsoft.com/fwlink/p/?linkid=93291) command to set the **increaseuserva** boot entry option to a value between 2048 (2 GB) and 3072 (3 GB).
+To enable 4GT, use the [BCDEdit /set](https://msdn.microsoft.com/library/ff542202.aspx) command to set the **increaseuserva** boot entry option to a value between 2048 (2 GB) and 3072 (3 GB).
 
 **Windows Server 2003 and earlier:** To enable 4GT, add the **/3GB** switch to the Boot.ini file. The **/3GB** switch is supported on the following systems:
 
@@ -48,7 +48,7 @@ Use the following guidelines to support 4GT in applications:
 [Physical Address Extension](physical-address-extension.md)
 </dt> <dt>
 
-[4GT Technical Reference](https://go.microsoft.com/fwlink/p/?linkid=93593)
+[4GT Technical Reference](https://technet.microsoft.com/library/5c0dc5e4-3467-4f35-ab25-c58f1e096e82)
 </dt> </dl>
 
  

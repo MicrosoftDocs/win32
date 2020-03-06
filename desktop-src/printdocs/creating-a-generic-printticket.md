@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Generic PrintTicket
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 If the PrintCapabilities document for the device is unavailable, or if the target device is unknown, you should construct a generic PrintTicket. Because there is no PrintCapabilities document that provides a set of Feature and Option elements, or parameters, the supported instances of these element types must be obtained directly from the Print Schema Keywords.
 
@@ -47,7 +47,7 @@ The steps shown in the following list should be used when you create a generic P
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

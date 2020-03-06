@@ -36,12 +36,12 @@ Verify Active Directory functionality before you update the schema to help ensur
 
     All domain controllers should show 0 in the Fails column, and the largest deltas (which indicate the number of changes that have been made to the Active Directory database since the last successful replication) should be less than or roughly equal to the replication frequency of the site link that is used by the domain controller for replication. The default replication frequency is 180 minutes.
 
-    For more information about additional steps that you can take to verify Active Directory functionality before you apply the schema extension, see [article 325379 in the Microsoft Knowledge Base](https://go.microsoft.com/fwlink/p/?linkid=71057).
+    For more information about additional steps that you can take to verify Active Directory functionality before you apply the schema extension, see [article 325379 in the Microsoft Knowledge Base](https://support.microsoft.com/kb/325379/en-us).
 
 **To Extend the Schema**
 
 1.  Determine the method of extension. Once you have carefully designed your schema changes, the next step is to decide which method to use to extend the schema. You can use one of the following methods:
-    -   Manually, using import files. See the documentation [Using the LDIFDE Tool](https://go.microsoft.com/fwlink/p/?linkid=83886).
+    -   Manually, using import files. See the documentation [Using the LDIFDE Tool](https://msdn.microsoft.com/library/ms870068.aspx).
         > [!Note]  
         > Do not use LDIFDE to import Windows Sch\*.ldf files. Those files are required to extend the Active Directory schema in order to install domain controllers that run a newer version of Windows Server than the version that is running on the current schema master. When you need to extend the schema in order to install a new domain controller, use Adprep.exe.
 
@@ -62,13 +62,13 @@ Verify Active Directory functionality before you update the schema to help ensur
 [Obtaining an Object Identifier](obtaining-an-object-identifier.md)
 </dt> <dt>
 
-[The new command-line tools for Active Directory in Windows Server 2003](https://go.microsoft.com/fwlink/p/?linkid=83982)
+[The new command-line tools for Active Directory in Windows Server 2003](https://support.microsoft.com/kb/298882)
 </dt> <dt>
 
-[Using the LDIFDE Tool](https://go.microsoft.com/fwlink/p/?linkid=83886)
+[Using the LDIFDE Tool](https://msdn.microsoft.com/library/ms870068.aspx)
 </dt> <dt>
 
-[Extending the Active Directory Schema](https://go.microsoft.com/fwlink/p/?linkid=83877)
+[Extending the Active Directory Schema](https://msdn.microsoft.com/library/ms806972.aspx)
 </dt> <dt>
 
 [Restrictions on Schema Extension](restrictions-on-schema-extension.md)

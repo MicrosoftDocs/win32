@@ -151,11 +151,14 @@ if (SUCCEEDED(hr))
 if (piFactory)
     piFactory->Release();
 
+if (piEncoder)
+    piEncoder->Release();
+
 if (piBitmapFrame)
     piBitmapFrame->Release();
 
-if (piEncoder)
-    piEncoder->Release();
+if (pPropertybag)
+    pPropertybag->Release();
 
 if (piStream)
     piStream->Release();

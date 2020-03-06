@@ -24,7 +24,7 @@ VT\_BLOB
 
 ## Remarks
 
-The value of this property is a [**KSAUDIO\_MIC\_ARRAY\_GEOMETRY**](https://msdn.microsoft.com/library/Ff537087(v=VS.85).aspx) structure. This structure is defined in the header file KsMedia.h. To get the microphone array geometry, query the audio device for the KSPROPERTY\_AUDIO\_MIC\_ARRAY\_GEOMETRY property by calling the **IKsControl::KSProperty** method on the device. For more information on microphone arrays, download the white paper [How to Build and Use Microphone Arrays for Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=180527).
+The value of this property is a [**KSAUDIO\_MIC\_ARRAY\_GEOMETRY**](https://msdn.microsoft.com/library/Ff537087(v=VS.85).aspx) structure. This structure is defined in the header file KsMedia.h. To get the microphone array geometry, query the audio device for the KSPROPERTY\_AUDIO\_MIC\_ARRAY\_GEOMETRY property by calling the **IKsControl::KSProperty** method on the device. For more information on microphone arrays, download the white paper [How to Build and Use Microphone Arrays for Windows Vista](https://docs.microsoft.com/windows-hardware/drivers/audio/microphone-array-geometry-descriptor-format).
 
 Set this property if you are using the DSP in filter mode and microphone array processing is enabled. If you are using the DSP in source mode, the DSP automatically queries the device for the geometry information.
 

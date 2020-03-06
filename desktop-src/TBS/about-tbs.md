@@ -14,7 +14,7 @@ The TPM Base Services (TBS) feature is a system service that allows transparent 
 
 The Trusted Computing Group (TCG) defines a Trusted Platform Module that provides cryptographic functions designed to provide trust in the platform. Because the TPM is implemented in hardware, it has finite resources. The TCG also defines a software stack that makes use of these resources to provide trusted operations for application software. However, no provision is made for running a TSS implementation side-by-side with operating system software that may also be using TPM resources. The TBS feature solves this problem by enabling each software stack that communicates with TBS to use TPM resources checking for any other software stacks that may be running on the machine.
 
-The TPM specification and TCG Software Stack (TSS) specification are available at [https://www.trustedcomputinggroup.org](https://go.microsoft.com/fwlink/p/?linkid=84158).
+The TPM specification and TCG Software Stack (TSS) specification are available at [https://www.trustedcomputinggroup.org](https://www.trustedcomputinggroup.org/).
 
 TBS is implemented as an out-of-process service that accepts commands that use an RPC service. A dynamically linked library presents the C language interface and communicates with the TBS service.
 

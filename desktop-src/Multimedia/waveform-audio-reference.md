@@ -68,7 +68,7 @@ This section lists the functions, structures, and messages associated with wavef
 -   [**MM\_WIM\_OPEN**](mm-wim-open.md)
 -   [**MM\_WOM\_CLOSE**](mm-wom-close.md)
 -   [**MM\_WOM\_OPEN**](mm-wom-open.md)
--   [**WAVEFORMAT**](/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex)
+-   [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 -   [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx)
 -   [**waveInClose**](https://msdn.microsoft.com/library/Dd743840(v=VS.85).aspx)
 -   [**waveInProc**](https://msdn.microsoft.com/library/Dd743849(v=VS.85).aspx)

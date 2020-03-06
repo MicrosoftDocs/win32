@@ -29,7 +29,7 @@ Make sure your applications and all of their dependent services and drivers resp
 
 <dl>
 
-[Windows Performance Toolkit](https://go.microsoft.com/fwlink/p/?linkid=111383)  
+[Windows Performance Toolkit](https://www.microsoft.com/whdc/system/sysperf/perftools.mspx)  
 </dl>
 
  

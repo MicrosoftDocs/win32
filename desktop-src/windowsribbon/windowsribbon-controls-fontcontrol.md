@@ -72,7 +72,7 @@ This single Command handler allows the Font Control to manage the functionality 
 Other features of the Font Control include
 
 -   Automatic, DPI-aware generation of a WYSIWYG (what you see is what you get) bitmap representation for each font in the **Font family** menu.
--   [Windows Graphics Device Interface (GDI)](https://go.microsoft.com/fwlink/p/?linkid=151261) integration.
+-   [Windows Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/dd145203.aspx) integration.
 -   Localized font family bitmaps and tooltips.
 -   Font enumeration, grouping, and metadata for managing and presenting fonts.
     > [!Note]  
@@ -85,9 +85,9 @@ Other features of the Font Control include
 
 ## Alignment with Common GDI Text Structures
 
-[Windows Graphics Device Interface (GDI)](https://go.microsoft.com/fwlink/p/?linkid=151261) text stack components are used to expose font selection and formatting functionality through the Ribbon Font Control. The various font features supported by the [LOGFONT Structure](https://go.microsoft.com/fwlink/p/?linkid=151263), [CHOOSEFONT Structure](https://go.microsoft.com/fwlink/p/?linkid=151262), and [CHARFORMAT2 Structure](https://go.microsoft.com/fwlink/p/?linkid=151508) are exposed through the sub-controls that are included in the Font Control.
+[Windows Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/dd145203.aspx) text stack components are used to expose font selection and formatting functionality through the Ribbon Font Control. The various font features supported by the [LOGFONT Structure](https://msdn.microsoft.com/library/dd145037.aspx), [CHOOSEFONT Structure](https://msdn.microsoft.com/library/ms646832.aspx), and [CHARFORMAT2 Structure](https://msdn.microsoft.com/library/bb787883.aspx) are exposed through the sub-controls that are included in the Font Control.
 
-The sub-controls that are displayed in the Font Control depend on the *FontType* template declared in the Ribbon markup. The *FontType* templates (discussed in further detail in the following section) are designed to align with the common [Windows Graphics Device Interface (GDI)](https://go.microsoft.com/fwlink/p/?linkid=151261) text structures.
+The sub-controls that are displayed in the Font Control depend on the *FontType* template declared in the Ribbon markup. The *FontType* templates (discussed in further detail in the following section) are designed to align with the common [Windows Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/dd145203.aspx) text structures.
 
 ## Add a FontControl
 
@@ -117,9 +117,9 @@ The following table lists the Font Control templates and the edit control type t
 
 | Template      | Supports                                                                 |
 |---------------|--------------------------------------------------------------------------|
-| FontOnly      | [LOGFONT Structure](https://go.microsoft.com/fwlink/p/?linkid=151263)     |
-| FontWithColor | [CHOOSEFONT Structure](https://go.microsoft.com/fwlink/p/?linkid=151262)  |
-| RichFont      | [CHARFORMAT2 Structure](https://go.microsoft.com/fwlink/p/?linkid=151508) |
+| FontOnly      | [LOGFONT Structure](https://msdn.microsoft.com/library/dd145037.aspx)     |
+| FontWithColor | [CHOOSEFONT Structure](https://msdn.microsoft.com/library/ms646832.aspx)  |
+| RichFont      | [CHARFORMAT2 Structure](https://msdn.microsoft.com/library/bb787883.aspx) |
 
 
 
@@ -559,7 +559,7 @@ The following table lists the property keys that are associated with the Font Co
 
 | Property Key                                                                                                                  | Notes                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                      | Exposes, in aggregate as an [IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=139562) object, all Font Control sub-control properties.<br/> The framework queries this property when `UI_INVALIDATIONS_VALUE` is passed as the value of *flags* in the call to [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).<br/> |
+| [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                      | Exposes, in aggregate as an [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx) object, all Font Control sub-control properties.<br/> The framework queries this property when `UI_INVALIDATIONS_VALUE` is passed as the value of *flags* in the call to [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).<br/> |
 | [UI\_PKEY\_FontProperties\_ChangedProperties](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md) | Exposes, in aggregate as an [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object, only Font Control sub-control properties that have changed.<br/>                                                                                                                                                                                                        |
 | [UI\_PKEY\_Keytip](windowsribbon-reference-properties-uipkey-keytip.md)                                                      | Can only be updated through invalidation.                                                                                                                                                                                                                                                                                                                                                      |
 | [UI\_PKEY\_Enabled](windowsribbon-reference-properties-uipkey-enabled.md)                                                    | Supports [**IUIFramework::GetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) and [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).                                                                                                                                                                  |
@@ -568,9 +568,9 @@ The following table lists the property keys that are associated with the Font Co
 
  
 
-In addition to the properties supported by the Font Control itself, the Ribbon framework also defines a [property key](windowsribbon-reference-properties.md) for each Font Control sub-control. These property keys and their values are exposed by the framework through an [IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=139562) interface implementation that defines the methods for managing a collection, also called a property bag, of name and value pairs.
+In addition to the properties supported by the Font Control itself, the Ribbon framework also defines a [property key](windowsribbon-reference-properties.md) for each Font Control sub-control. These property keys and their values are exposed by the framework through an [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx) interface implementation that defines the methods for managing a collection, also called a property bag, of name and value pairs.
 
-The application translates the font structures to properties that are accessible through the [IPropertyStore](https://go.microsoft.com/fwlink/p/?linkid=139562) interface methods. This model emphasizes the distinction between the Font Control and the Windows Graphics Device Interface (GDI) text stack components ([LOGFONT Structure](https://go.microsoft.com/fwlink/p/?linkid=151263), [CHOOSEFONT Structure](https://go.microsoft.com/fwlink/p/?linkid=151262), and [CHARFORMAT2 Structure](https://go.microsoft.com/fwlink/p/?linkid=151508)) that are supported by the framework.
+The application translates the font structures to properties that are accessible through the [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx) interface methods. This model emphasizes the distinction between the Font Control and the Windows Graphics Device Interface (GDI) text stack components ([LOGFONT Structure](https://msdn.microsoft.com/library/dd145037.aspx), [CHOOSEFONT Structure](https://msdn.microsoft.com/library/ms646832.aspx), and [CHARFORMAT2 Structure](https://msdn.microsoft.com/library/bb787883.aspx)) that are supported by the framework.
 
 The following table lists the individual controls and their associated property keys.
 

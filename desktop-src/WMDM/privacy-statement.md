@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Privacy Statement
 
-Developers who build Windows Media Device Manager applications should clearly communicate to their users how their privacy could be affected. To help you create an end user privacy statement, Microsoft has posted privacy guidelines on the [Windows Media Privacy Web page](https://go.microsoft.com/fwlink/p/?linkid=29952).
+Developers who build Windows Media Device Manager applications should clearly communicate to their users how their privacy could be affected. To help you create an end user privacy statement, Microsoft has posted privacy guidelines on the [Windows Media Privacy Web page](https://www.microsoft.com/windows/windowsmedia/privacy/10ssdk.aspx).
 
 ## Related topics
 

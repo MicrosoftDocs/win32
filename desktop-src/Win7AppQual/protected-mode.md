@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Most Windows Internet Explorer 8 security features are available in Internet Explorer 8 for the Windows XP with Service Pack 2 (SP2) operating system and later versions. Protected Mode is available only for Windows Vista or later versions because it is based on the following security features that are new to Windows Vista:
 
--   [User Account Control (UAC)](https://go.microsoft.com/fwlink/p/?linkid=205674) makes it easy to run without administrator privileges. When users run programs with limited user privileges, they are safer from an attack than when they run with administrator privileges. The Windows operating system can restrict the malicious code from carrying out damaging actions.
+-   [User Account Control (UAC)](https://msdn.microsoft.com/library/aa511445.aspx) makes it easy to run without administrator privileges. When users run programs with limited user privileges, they are safer from an attack than when they run with administrator privileges. The Windows operating system can restrict the malicious code from carrying out damaging actions.
 -   An integrity mechanism restricts write access to [securable objects](https://msdn.microsoft.com/library/Aa379557(v=VS.85).aspx) by lower-integrity processes, in the same way that user account group membership restricts the rights of users to access sensitive system components.
 -   [User Interface Privilege Isolation (UIPI)](https://msdn.microsoft.com/library/Bb625963(v=MSDN.10).aspx) prevents processes from sending selected window messages and other USER APIs to processes that are running with higher integrity.
 

@@ -201,7 +201,7 @@ WARP passes all the standard Windows Hardware Quality Labs (WHQL) conformance te
 
 WARP has been tested against a suite of Direct3D 10 and Direct3D 10.1 applications and benchmarks, and against SDK samples from DirectX, NVIDIA, and AMD.
 
-WARP used the [PIX](https://go.microsoft.com/fwlink/p/?linkid=208505) debugging and analysis tool for Windows in its testing; Microsoft has a large library of single frame captures of applications that are used to compare between hardware and WARP. The majority of the images appear almost identical between hardware and WARP; where small differences sometimes occur, they are found to be within the tolerances defined by the Direct3D 10 specification.
+WARP used the [PIX](https://msdn.microsoft.com/library/ee417062(v=VS.85).aspx) debugging and analysis tool for Windows in its testing; Microsoft has a large library of single frame captures of applications that are used to compare between hardware and WARP. The majority of the images appear almost identical between hardware and WARP; where small differences sometimes occur, they are found to be within the tolerances defined by the Direct3D 10 specification.
 
 ## 
 

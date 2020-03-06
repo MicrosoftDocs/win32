@@ -35,7 +35,7 @@ Some initialization tasks cannot be postponed. For example, a DLL that depends o
 You should never perform the following tasks from within [**DllMain**](dllmain.md):
 
 -   Call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) (either directly or indirectly). This can cause a deadlock or a crash.
--   Call [**GetStringTypeA**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea), [**GetStringTypeEx**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa), or [**GetStringTypeW**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew) (either directly or indirectly). This can cause a deadlock or a crash.
+-   Call [**GetStringTypeA**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea), [**GetStringTypeEx**](https://docs.microsoft.com/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw), or [**GetStringTypeW**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew) (either directly or indirectly). This can cause a deadlock or a crash.
 -   Synchronize with other threads. This can cause a deadlock.
 -   Acquire a synchronization object that is owned by code that is waiting to acquire the loader lock. This can cause a deadlock.
 -   Initialize COM threads by using [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex). Under certain conditions, this function can call [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa).

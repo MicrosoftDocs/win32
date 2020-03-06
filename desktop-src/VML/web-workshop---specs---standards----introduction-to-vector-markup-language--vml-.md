@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://go.microsoft.com/fwlink/p/?linkid=204313).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -30,7 +30,7 @@ Vector Markup Language (VML) is an XML-based exchange, editing, and delivery for
 
 VML is currently supported by Microsoft Internet Explorer version 5.0 or later.
 
-VML has been proposed to the W3C as a standard for vector graphics on the Web (see [https://www.w3.org/TR/NOTE-VML](https://go.microsoft.com/fwlink/p/?linkid=161711)). Microsoft is continuing to lead the charge in the development and implementation of XML-based technologies, working with leading industry partners (AutoDesk, Hewlett-Packard, Macromedia, Visio) and the W3C to advance Web-based standards. We expect to work with the W3C to ultimately drive to one standard format for vector graphics on the Web.
+VML has been proposed to the W3C as a standard for vector graphics on the Web (see [https://www.w3.org/TR/NOTE-VML](https://www.w3.org/TR/NOTE-datetime.html)). Microsoft is continuing to lead the charge in the development and implementation of XML-based technologies, working with leading industry partners (AutoDesk, Hewlett-Packard, Macromedia, Visio) and the W3C to advance Web-based standards. We expect to work with the W3C to ultimately drive to one standard format for vector graphics on the Web.
 
 VML is also supported by Microsoft Office 2000 or later. Microsoft Word, Microsoft Excel, and Microsoft PowerPoint can be used to create VML graphics.
 
@@ -82,7 +82,7 @@ Finally, add VML elements to define visuals effects. For example, the following 
 See the links below:
 
 -   For answers to frequently asked questions about VML, see the [VML FAQ](frequently-asked-questions-about-vml.md).
--   For a tutorial on using VML on Web pages, see [How to Use VML on Web Pages](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), which complements the [VML specification](https://go.microsoft.com/fwlink/p/?linkid=161711) submitted to the W3C.
+-   For a tutorial on using VML on Web pages, see [How to Use VML on Web Pages](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), which complements the [VML specification](https://www.w3.org/TR/NOTE-datetime.html) submitted to the W3C.
 -   For information on VML data types, see the [Basic VML Types](basic-vml-types.md) document.
 -   For the complete reference on VML, including information on how to use VML with tags as well as scripting, see the [VML Reference](msdn-online-vml-introduction.md).
 

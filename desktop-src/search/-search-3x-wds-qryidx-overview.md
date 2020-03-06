@@ -30,12 +30,12 @@ This section provides the conceptual framework for querying the index programmat
     -   [Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
     -   [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 -   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](https://msdn.microsoft.com/library/Bb775176(v=VS.85).aspx).
--   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://go.microsoft.com/fwlink/p/?linkid=201207).
+-   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads).
 -   To download the Search SDK Code Samples:
     -   For Windows 7: [Windows Search Samples on GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)
     -   For Windows Vista: [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
 -   To download the Windows SDK:
-    -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://go.microsoft.com/fwlink/p/?linkid=129787)
+    -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
     -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/downloads/details.aspx?FamilyID=4377f86d-c913-4b5c-b87e-ef72e5b4e065)
 
 ## Related topics

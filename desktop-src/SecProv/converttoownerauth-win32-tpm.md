@@ -19,7 +19,7 @@ api_location:
 
 The **ConvertToOwnerAuth** method of the [**Win32\_Tpm**](win32-tpm.md) class translates a user-provided passphrase input into a 20-byte owner authorization that can be used to interact with the TPM. Methods such as [**TakeOwnership**](takeownership-win32-tpm.md) and [**ResetAuthLockOut**](resetauthlockout-win32-tpm.md) require the resulting owner authorization value.
 
-The conversion process follows the specifications from the [Trusted Computing Group](https://go.microsoft.com/fwlink/p/?linkid=84158).
+The conversion process follows the specifications from the [Trusted Computing Group](https://www.trustedcomputinggroup.org/).
 
 ## Syntax
 

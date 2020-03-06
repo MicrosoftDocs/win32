@@ -16,13 +16,13 @@ In environments where a standard Windows Deployment Services (WDS) solution cann
 
 -   Windows Deployment Services (WDS) is the revised version of Remote Installation Services (RIS), you will need the WDS server role on the server to implement custom WDS client solutions.
 -   WDS replaces RIS as the standard component starting with Windows Server 2008 and Windows Server 2003 with Service Pack 2 (SP2).
--   You must update the RIS server to WDS on Windows Server 2003 with Service Pack 1 (SP1). You can install the WDS server role with the [Windows Automated Installation Kit (WAIK)](https://go.microsoft.com/fwlink/p/?linkid=53552).
+-   You must update the RIS server to WDS on Windows Server 2003 with Service Pack 1 (SP1). You can install the WDS server role with the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=c7d4bc6d-15f3-4284-9123-679830d629f2&DisplayLang=en).
 
 ## Start Windows PE 2.0
 
 Windows PE 2.0 must be started, if not already started. The WDS client and supporting DLLs are only loaded by setup.exe when it is in the Microsoft Windows Preinstallation Environment (Windows PE 2.0) phase of setup processing.
 
--   When a new computer is connected to the network, the built-in preboot execution environment (PXE) technology can be used to download the Network Boot Program. For more information about PXE-booting a computer to install Windows, see [The Windows Deployment Services Update Step-by-Step Guide](https://go.microsoft.com/fwlink/p/?linkid=66145).
+-   When a new computer is connected to the network, the built-in preboot execution environment (PXE) technology can be used to download the Network Boot Program. For more information about PXE-booting a computer to install Windows, see [The Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx).
 -   A RAMDISK bootable image of Windows PE 2.0 can be stored in the .WIM format and downloaded as part of the network boot process. Windows PE can then be loaded and run directly from that media.
 
 ## Open a session with the WDS server

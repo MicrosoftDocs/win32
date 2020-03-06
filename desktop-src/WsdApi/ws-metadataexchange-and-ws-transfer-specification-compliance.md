@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WS-MetadataExchange and WS-Transfer Specification Compliance
 
-Before August 2006, [WS-MetadataExchange](https://go.microsoft.com/fwlink/p/?linkid=95657) defined its own [Get](get--metadata-exchange--http-request-and-message.md) metadata exchange method, which was used by [Devices Profile for Web Services](https://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS). The WS-MetadataExchange specification version 1.1 replaced this method with the Get method defined in the WS-Transfer specification.
+Before August 2006, [WS-MetadataExchange](https://schemas.xmlsoap.org/ws/2004/09/mex/) defined its own [Get](get--metadata-exchange--http-request-and-message.md) metadata exchange method, which was used by [Devices Profile for Web Services](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS). The WS-MetadataExchange specification version 1.1 replaced this method with the Get method defined in the WS-Transfer specification.
 
 In the current model, WS-Transfer provides the [Get](get--metadata-exchange--http-request-and-message.md) method and makes no reference to the type of the body. WS-MetadataExchange describes the format of the body and a mechanism for packaging multiple pieces of metadata in a single response, and DPWS describes specific pieces of metadata that a service should include in a metadata response.
 

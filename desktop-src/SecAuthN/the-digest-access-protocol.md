@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The Digest Access Protocol
 
-The Digest Access protocol specified by [RFC 2617](https://go.microsoft.com/fwlink/p/?linkid=84049) is implemented by the Microsoft Digest [*security support provider*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSP). The implementation consists of a set of [Microsoft Security Support Provider Interface](sspi.md) (SSPI) security context functions that client/server applications call to:
+The Digest Access protocol specified by [RFC 2617](https://www.ietf.org/rfc/rfc2617.txt) is implemented by the Microsoft Digest [*security support provider*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSP). The implementation consists of a set of [Microsoft Security Support Provider Interface](sspi.md) (SSPI) security context functions that client/server applications call to:
 
 -   Establish a [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) for message exchange.
 -   Obtain data objects required by the Digest SSP, such as [*credentials*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and context handles.

@@ -40,7 +40,7 @@ HRESULT GetCapabilities(
 *pCapabilities* 
 </dt> <dd>
 
-Pointer to a variable that receives a bitwise combination of [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities) flags.
+Pointer to a variable that receives a bitwise combination of [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities) flags.
 
 </dd> </dl>
 

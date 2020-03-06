@@ -12,7 +12,7 @@ The [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattribute
 
 ## Data type
 
-**IUnknown** stored as **[**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)**
+**[**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)** stored as **IUnknown** 
 
 ## Remarks
 

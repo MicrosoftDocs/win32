@@ -113,17 +113,17 @@ The [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) functio
 
 The [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function called with the **SO\_KEEPALIVE** socket option allows an application to enable keep-alive packets for a socket connection. The **SO\_KEEPALIVE** option for a socket is disabled (set to **FALSE**) by default.
 
-When this socket option is enabled, the TCP stack sends keep-alive packets when no data or acknowledgement packets have been received for the connection within an interval. For more information on the keep-alive option, see section 4.2.3.6 on the *Requirements for Internet Hosts—Communication Layers* specified in RFC 1122 available at the [IETF website](https://go.microsoft.com/fwlink/p/?linkid=84405). (This resource may only be available in English.)
+When this socket option is enabled, the TCP stack sends keep-alive packets when no data or acknowledgement packets have been received for the connection within an interval. For more information on the keep-alive option, see section 4.2.3.6 on the *Requirements for Internet Hosts—Communication Layers* specified in RFC 1122 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt). (This resource may only be available in English.)
 
 The **SO\_KEEPALIVE** socket option is valid only for protocols that support the notion of keep-alive (connection-oriented protocols). For TCP, the default keep-alive timeout is 2 hours and the keep-alive interval is 1 second. The default number of keep-alive probes varies based on the version of Windows.
 
 The [**SIO\_KEEPALIVE\_VALS**](https://msdn.microsoft.com/library/Dd877220(v=VS.85).aspx) control code enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
 
-The default settings when a TCP socket is initialized sets the keep-alive timeout to 2 hours and the keep-alive interval to 1 second. The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](https://go.microsoft.com/fwlink/p/?linkid=153234) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](https://go.microsoft.com/fwlink/p/?linkid=153235) registry setting which takes a value in milliseconds.
+The default settings when a TCP socket is initialized sets the keep-alive timeout to 2 hours and the keep-alive interval to 1 second. The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](https://technet.microsoft.com/library/cc782936(WS.10).aspx) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](https://technet.microsoft.com/library/cc758083(WS.10).aspx) registry setting which takes a value in milliseconds.
 
 On Windows Vista and later, the number of keep-alive probes (data retransmissions) is set to 10 and cannot be changed.
 
-On Windows Server 2003, Windows XP, and Windows 2000, the default setting for number of keep-alive probes is 5. The number of keep-alive probes is controllable through the [TcpMaxDataRetransmissions](https://go.microsoft.com/fwlink/p/?linkid=153232) and [PPTPTcpMaxDataRetransmissions](https://go.microsoft.com/fwlink/p/?linkid=153233) registry settings. The number of keep-alive probes is set to the larger of the two registry key values. If this number is 0, then keep-alive probes will not be sent. If this number is above 255, then it is adjusted to 255.
+On Windows Server 2003, Windows XP, and Windows 2000, the default setting for number of keep-alive probes is 5. The number of keep-alive probes is controllable through the [TcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc780586.aspx) and [PPTPTcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc775408(WS.10).aspx) registry settings. The number of keep-alive probes is set to the larger of the two registry key values. If this number is 0, then keep-alive probes will not be sent. If this number is above 255, then it is adjusted to 255.
 
 On Windows Vista and later, the **SO\_KEEPALIVE** socket option can only be set using the [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function when the socket is in a well-known state not a transitional state. For TCP, the **SO\_KEEPALIVE** socket option should be set either before the connect function ([**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect), [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist), or [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)) is called, or after the connection request is actually completed. If the connect function was called asynchronously, then this requires waiting for the connection completion before trying to set the **SO\_KEEPALIVE** socket option. If an application attempts to set the **SO\_KEEPALIVE** socket option when a connection request is still in process, the **setsockopt** function will fail and return [WSAEINVAL](windows-sockets-error-codes-2.md).
 
@@ -153,13 +153,13 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)
 </dt> <dt>
 
-[KeepAliveTime](https://go.microsoft.com/fwlink/p/?linkid=153234)
+[KeepAliveTime](https://technet.microsoft.com/library/cc782936(WS.10).aspx)
 </dt> <dt>
 
-[KeepAliveInterval](https://go.microsoft.com/fwlink/p/?linkid=153235)
+[KeepAliveInterval](https://technet.microsoft.com/library/cc758083(WS.10).aspx)
 </dt> <dt>
 
-[PPTPTcpMaxDataRetransmissions](https://go.microsoft.com/fwlink/p/?linkid=153233)
+[PPTPTcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc775408(WS.10).aspx)
 </dt> <dt>
 
 [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket)
@@ -168,7 +168,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**SIO\_KEEPALIVE\_VALS**](https://msdn.microsoft.com/library/Dd877220(v=VS.85).aspx)
 </dt> <dt>
 
-[TcpMaxDataRetransmissions](https://go.microsoft.com/fwlink/p/?linkid=153232)
+[TcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc780586.aspx)
 </dt> <dt>
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)

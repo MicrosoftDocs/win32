@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes the headers and libraries needed to build DirectShow applications.
 
-The latest DirectShow headers and libraries are available in the [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=62332).
+The latest DirectShow headers and libraries are available in the [Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx).
 
 ## Header Files
 

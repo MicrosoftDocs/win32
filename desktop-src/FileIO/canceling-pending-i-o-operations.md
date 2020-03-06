@@ -33,7 +33,7 @@ Some functions cannot be canceled using the [**CancelIo**](cancelio.md), [**Canc
 -   [**MoveFileEx**](/windows/desktop/api/WinBase/nf-winbase-movefileexa)—use [**MoveFileWithProgress**](/windows/desktop/api/WinBase/nf-winbase-movefilewithprogressa)
 -   [**ReplaceFile**](/windows/desktop/api/WinBase/nf-winbase-replacefilea)
 
-For more information, see [I/O Completion/Cancellation Guidelines](https://go.microsoft.com/fwlink/p/?linkid=85346).
+For more information, see [I/O Completion/Cancellation Guidelines](https://www.microsoft.com/whdc/driver/kernel/iocancel.mspx).
 
 ## Canceling Asynchronous I/O
 

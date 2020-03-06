@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Schannel
 
-The Secure Channel (Schannel) security package, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_SCHANNEL, supports the following public-key based protocols: SSL (Secure Sockets Layer) versions 2.0 and 3.0, Transport Layer Security (TLS) 1.0, and Private Communication Technology (PCT) 1.0. TLS 1.0 is a standardized, slightly modified version of SSL 3.0 that was issued by the Internet Engineering Task Force (IETF) in January 1999, in document [RFC 2246](https://go.microsoft.com/fwlink/p/?linkid=84035). Because TLS has been standardized, developers are encouraged to use TLS rather than SSL. PCT is included for backward compatibility only and should not be used for new development. When the Schannel security package is used, DCOM automatically negotiates the best protocol, depending on the client and server capabilities.
+The Secure Channel (Schannel) security package, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_SCHANNEL, supports the following public-key based protocols: SSL (Secure Sockets Layer) versions 2.0 and 3.0, Transport Layer Security (TLS) 1.0, and Private Communication Technology (PCT) 1.0. TLS 1.0 is a standardized, slightly modified version of SSL 3.0 that was issued by the Internet Engineering Task Force (IETF) in January 1999, in document [RFC 2246](https://www.ietf.org/rfc/rfc2246.txt). Because TLS has been standardized, developers are encouraged to use TLS rather than SSL. PCT is included for backward compatibility only and should not be used for new development. When the Schannel security package is used, DCOM automatically negotiates the best protocol, depending on the client and server capabilities.
 
 The following topics briefly describe the TLS protocol and how it works with DCOM.
 
@@ -68,7 +68,7 @@ The decision of whether to use a client certificate should be made in the contex
 
 ## Using TLS in COM
 
-TLS supports only the impersonate (RPC\_C\_IMP\_LEVEL\_IMPERSONATE) level of impersonation. If COM negotiates TLS as the authentication service on a proxy, COM will set the impersonation level to impersonate regardless of the process default. For impersonation to work properly in TLS, the client must provide an X.509 certificate to the server and the server must have that certificate mapped to a particular user account on the server. For more information, see the [Step-by-Step Guide to Mapping Certificates to User Accounts](https://go.microsoft.com/fwlink/p/?linkid=103681).
+TLS supports only the impersonate (RPC\_C\_IMP\_LEVEL\_IMPERSONATE) level of impersonation. If COM negotiates TLS as the authentication service on a proxy, COM will set the impersonation level to impersonate regardless of the process default. For impersonation to work properly in TLS, the client must provide an X.509 certificate to the server and the server must have that certificate mapped to a particular user account on the server. For more information, see the [Step-by-Step Guide to Mapping Certificates to User Accounts](https://www.microsoft.com/isapi/redir.dll?prd=windows2000&sbp=technicallibrary&ar=security&sba=mappingcertificates).
 
 TLS does not support [cloaking](cloaking.md). If a cloaking flag and TLS are specified in a [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) or a [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/library/ms691255(v=VS.85).aspx) call, E\_INVALIDARG will be returned.
 

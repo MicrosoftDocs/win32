@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWP\_BYTE\_ARRAY6**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_array6_)
+-   [**FWP\_BYTE\_ARRAY6**](/windows/win32/api/fwptypes/ns-fwptypes-fwp_byte_array6)
 -   [**FWP\_BYTE\_ARRAY16**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_array16_)
 -   [**FWP\_BYTE\_BLOB**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_blob_)
 -   [**FWP\_CONDITION\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_condition_value0_)

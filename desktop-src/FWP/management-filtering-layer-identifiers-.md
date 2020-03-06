@@ -660,13 +660,13 @@ See [ALE Layers](ale-layers.md) for more information.
 
 ## Remarks
 
-These filtering layer identifiers are also referred to as management filtering layer identifiers. WFP API also contains a set of [run-time filtering layer identifiers](https://go.microsoft.com/fwlink/p/?linkid=99585), documented in the Windows Driver Kit (WDK). Run-time filtering layer identifiers are LUIDs, and therefore are smaller, only 64 bits in size, compared to the management filtering layer identifiers, which are 128 bits in size.
+These filtering layer identifiers are also referred to as management filtering layer identifiers. WFP API also contains a set of [run-time filtering layer identifiers](https://msdn.microsoft.com/library/ff549947.aspx), documented in the Windows Driver Kit (WDK). Run-time filtering layer identifiers are LUIDs, and therefore are smaller, only 64 bits in size, compared to the management filtering layer identifiers, which are 128 bits in size.
 
 Management filtering layer identifiers and run-time filtering layer identifiers point to the same layers.
 
 Management filtering layer identifiers are used by functions that interact with the Base Filtering Engine (BFE) from either user mode or kernel mode (for example, [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)).
 
-Run-time filtering layer identifiers are used by functions that interact with the filter engine from kernel mode only (for example, [FwpsFlowAssociateContext0](https://go.microsoft.com/fwlink/p/?linkid=99624), [FwpsStreamInjectAsync0](https://go.microsoft.com/fwlink/p/?linkid=99625)), and in data structures that come directly from the kernel (for example, [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0)).
+Run-time filtering layer identifiers are used by functions that interact with the filter engine from kernel mode only (for example, [FwpsFlowAssociateContext0](https://msdn.microsoft.com/library/ff551165.aspx), [FwpsStreamInjectAsync0](https://msdn.microsoft.com/library/ff551213.aspx)), and in data structures that come directly from the kernel (for example, [**FWPM\_NET\_EVENT\_CLASSIFY\_DROP0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop0)).
 
 ## Requirements
 

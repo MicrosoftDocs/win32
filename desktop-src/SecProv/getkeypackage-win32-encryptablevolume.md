@@ -26,7 +26,7 @@ The exported information consists of the volume's encryption key secured by a ke
 
  
 
-In the event of a drive failure, the BitLocker Repair Tool exists to help salvage available data. For more information about how this tool can use the key package, see [How to use the BitLocker Repair Tool to help recover data from an encrypted volume in Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=103765).
+In the event of a drive failure, the BitLocker Repair Tool exists to help salvage available data. For more information about how this tool can use the key package, see [How to use the BitLocker Repair Tool to help recover data from an encrypted volume in Windows Vista](https://support.microsoft.com/kb/928201).
 
 ## Syntax
 

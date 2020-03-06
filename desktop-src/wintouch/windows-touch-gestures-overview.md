@@ -49,7 +49,7 @@ The following flags indicate the various states of the gestures and are stored i
 | GF_END     | 0x00000004 | A gesture has finished.          |
 
 > [!Note]  
-> Most applications should ignore the **GID_BEGIN** and **GID_END** and pass them to [DefWindowProc](https://go.microsoft.com/fwlink/p/?linkid=136637). These messages are used by the default gesture handler. Application behavior is undefined when the **GID_BEGIN** and **GID_END** messages are consumed by a third-party application.
+> Most applications should ignore the **GID_BEGIN** and **GID_END** and pass them to [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx). These messages are used by the default gesture handler. Application behavior is undefined when the **GID_BEGIN** and **GID_END** messages are consumed by a third-party application.
 
 The following table indicates the various identifiers for gestures. 
 

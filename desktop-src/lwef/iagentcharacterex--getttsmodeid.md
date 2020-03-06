@@ -29,7 +29,7 @@ Address of a BSTR that receives the mode ID setting of the TTS engine for the ch
 
 </dd> </dl>
 
-This setting returns the TTS (text-to-speech) engine mode ID for a character's spoken output. The mode ID for a TTS engine is a string representation of the GUID (formatted with braces and dashes) defined by the speech vendor uniquely identifying the engine. For more information, see the [Microsoft Speech SDK documentation](https://go.microsoft.com/fwlink/p/?linkid=198367). Querying this property will load the associated engine if it is not already loaded.
+This setting returns the TTS (text-to-speech) engine mode ID for a character's spoken output. The mode ID for a TTS engine is a string representation of the GUID (formatted with braces and dashes) defined by the speech vendor uniquely identifying the engine. For more information, see the [Microsoft Speech SDK documentation](https://msdn.microsoft.com/library/ee705648.aspx). Querying this property will load the associated engine if it is not already loaded.
 
 If you do not set a TTS engine mode ID for the character, the server attempts to return an engine that matches (using Microsoft Speech API interfaces) the character's compiled TTS setting and the character's current language setting. If these are different, then the character's language setting overrides its authored mode setting. If you have not set the character's language setting, the character's language is the user default language ID, and the server attempts the match based on that language ID.
 

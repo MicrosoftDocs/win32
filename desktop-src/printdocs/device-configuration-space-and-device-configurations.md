@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Device Configuration Space and Device Configurations
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 A device's *configuration space* is the set of all possible values that can be assigned to all of the attributes of the device. The two most important reasons to describe the configuration space of the device in the PrintCapabilities are as follows.
 
@@ -26,7 +26,7 @@ Many devices do not support all possible configurations in the configuration spa
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

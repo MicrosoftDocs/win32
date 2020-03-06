@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # App packager (MakeAppx.exe)
 
 > [!Note]  
-> For UWP guidance on using this tool, see [Create an app package with the MakeAppx.exe tool](https://aka.ms/package-with-makeappx).
+> For UWP guidance on using this tool, see [Create an app package with the MakeAppx.exe tool](https://docs.microsoft.com/windows/msix/package/create-app-package-with-makeappx-tool?redirectedfrom=MSDN).
 
  
 

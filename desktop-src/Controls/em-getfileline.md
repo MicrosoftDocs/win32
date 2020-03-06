@@ -68,7 +68,7 @@ The copied line does not contain a terminating null character.
 [**EM\_FILELINELENGTH**](em-filelinelength.md)
 </dt> <dt>
 
-[**Edit\_GetFileLine**](/windows/desktop/api/Windowsx/nf-windowsx-edit_getfileline)
+[**Edit\_GetFileLine**](/windows/win32/api/commctrl/nf-commctrl-edit_getfileline)
 </dt> <dt>
 
 **Other Resources**

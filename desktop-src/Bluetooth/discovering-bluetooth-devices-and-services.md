@@ -28,7 +28,7 @@ For further information about discovering devices and services, consult the foll
 -   [**Bluetooth and BLOB**](bluetooth-and-blob.md)
 -   [**Bluetooth and WSAQUERYSET**](bluetooth-and-wsaqueryset-for-set-service.md)
 
-You can also download the [Bluetooth connection sample](https://go.microsoft.com/fwlink/p/?LinkID=331652) for a complete example.
+You can also download the [Bluetooth connection sample](https://code.msdn.microsoft.com/windowsdesktop/Bluetooth-Connection-e3263296) for a complete example.
 
 ## Related topics
 
@@ -37,7 +37,7 @@ You can also download the [Bluetooth connection sample](https://go.microsoft.com
 [Bluetooth Programming with Windows Sockets](bluetooth-programming-with-windows-sockets.md)
 </dt> <dt>
 
-[Bluetooth connection sample](https://go.microsoft.com/fwlink/p/?LinkID=331652)
+[Bluetooth connection sample](https://code.msdn.microsoft.com/windowsdesktop/Bluetooth-Connection-e3263296)
 </dt> </dl>
 
  

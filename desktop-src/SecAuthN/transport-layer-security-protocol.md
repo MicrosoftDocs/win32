@@ -14,7 +14,7 @@ Schannel supports versions 1.0, 1.1, and 1.2 of the [*Transport Layer Security (
 -   Message interception
 -   Message forgery
 
-The full specification of the TLS Protocol is available from the IETF website: [https://www.ietf.org/rfc/rfc2246.txt](https://go.microsoft.com/fwlink/p/?linkid=84035).
+The full specification of the TLS Protocol is available from the IETF website: [https://www.ietf.org/rfc/rfc2246.txt](https://www.ietf.org/rfc/rfc2246.txt).
 
 ## Organization of TLS
 

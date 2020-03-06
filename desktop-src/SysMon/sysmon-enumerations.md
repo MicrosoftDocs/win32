@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The System Monitor (SYSMON) [classes](sysmon-classes.md) use the following enumerations.
 
--   [**DataSourceTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edatasourcetypeconstant)
--   [**DisplayTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant)
--   [**ReportValueTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-ereportvaluetypeconstant)
+-   [**DataSourceTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-datasourcetypeconstants)
+-   [**DisplayTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-displaytypeconstants)
+-   [**ReportValueTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants)
 -   [**SysmonBatchReason**](/windows/win32/api/isysmon/ne-isysmon-sysmonbatchreason)
 -   [**SysmonDataType**](/windows/win32/api/isysmon/ne-isysmon-sysmondatatype)
 -   [**SysmonFileType**](/windows/win32/api/isysmon/ne-isysmon-sysmonfiletype)

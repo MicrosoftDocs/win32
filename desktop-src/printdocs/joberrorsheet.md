@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobErrorSheet
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Describes the error sheet output. The entire job will have a single error sheet. The error sheet should be output on the default PageMediaSize and using the default PageMediaType. The error sheet should to be isolated from the remainder of the job. This means that any finishing or processing options (such as JobDuplex, JobStaple, or JobBinding) should not include the error sheet. The error sheet should occur as the final sheet of the job.
 
@@ -70,7 +70,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                                             | Data type         | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                      |
 |--------------------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_ErrorSheetWhenOptionName\_<br/>          | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
+| \_ErrorSheetWhenOptionName\_<br/>          | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
 | \_ErrorSheetWhenIdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines the user interface (UI) selection criteria.<br/>               |
 | \_OptionName\_<br/>                        | string<br/> | n/a<br/>        | Valid fully qualified name as defined by https://www.w3.org/TR/1999/REC-xml-names-19990114/\#dt-qname. If no namespace is specified, default namespace is assumed.<br/>          | The name of the option.<br/>                                           |
 | \_IdentityOptionValue\_<br/>               | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/> |
@@ -115,7 +115,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

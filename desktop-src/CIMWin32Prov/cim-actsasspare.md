@@ -24,7 +24,7 @@ api_location:
 The **CIM\_ActsAsSpare** association indicates which elements can be spares or replace other aggregated elements. A spare can operate in "hot-standby" mode as specified on an element-by-element basis.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

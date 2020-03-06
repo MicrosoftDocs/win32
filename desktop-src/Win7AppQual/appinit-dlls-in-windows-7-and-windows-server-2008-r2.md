@@ -87,7 +87,7 @@ All DLLs that are loaded by the AppInit\_DLLs infrastructure must be code-signed
 
 <dl>
 
-[AppInit DLLs in Windows 7 and Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=205017)  
+[AppInit DLLs in Windows 7 and Windows Server 2008 R2](https://docs.microsoft.com/windows-hardware/drivers/install/)  
 </dl>
 
  

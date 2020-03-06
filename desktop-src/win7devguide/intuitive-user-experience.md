@@ -16,17 +16,17 @@ Windows 7 features improved touch and gesture support, empowering developers to
 
 Windows 7 also provides platform support for object manipulation and inertia processing. A rich set of manipulation functions enable you to stretch, resize, or rotate multiple objects concurrently and in very fine granularity. For example, multiple digital photographs could be cropped, resized, and rotated in a single session using touch based gestures.
 
-Windows 7 includes inertia APIs which simulate inertia when objects are moved, working hand-in-hand with the manipulation APIs. For example, in a photo application, you can use the manipulation APIs to let users rotate, resize, and move photos. Similarly, if a user "tosses" a photo, the inertia APIs provide natural interaction and enable the photo to coast to a stop or bounce off the borders of the application's window. (See [Windows Touch Programming Guide](https://go.microsoft.com/?linkid=9669683) and [Windows Touch: Developer Resources](https://go.microsoft.com/?linkid=9669684).)
+Windows 7 includes inertia APIs which simulate inertia when objects are moved, working hand-in-hand with the manipulation APIs. For example, in a photo application, you can use the manipulation APIs to let users rotate, resize, and move photos. Similarly, if a user "tosses" a photo, the inertia APIs provide natural interaction and enable the photo to coast to a stop or bounce off the borders of the application's window. (See [Windows Touch Programming Guide](https://msdn.microsoft.com/library/dd317323(VS.85).aspx) and [Windows Touch: Developer Resources](https://code.msdn.microsoft.com/WindowsTouch).)
 
 ## Single-Finger Panning
 
 In many common applications, touch features are more useful for navigation than for text selection. With extended touch APIs, a developer's application can choose to enable panning rather than dragging. For example, if you created an application that uses multi-touch gestures for users playing music, you could allow these users to simply slide a finger up or down to adjust the volume, change songs, or download a file. No scrolling required.
 
-Windows 7 provides endless opportunities for developers who are interested in creating applications for next-generation PCs. Best of all, it does the hard work of checking for scroll bars and implementing the panning semantics. Applications also receive a richer set of events and feedback for customized control of gestures than they did in previous versions of Windows. (See [Improving the Single-Finger Panning Experience](https://go.microsoft.com/?linkid=9669697).)
+Windows 7 provides endless opportunities for developers who are interested in creating applications for next-generation PCs. Best of all, it does the hard work of checking for scroll bars and implementing the panning semantics. Applications also receive a richer set of events and feedback for customized control of gestures than they did in previous versions of Windows. (See [Improving the Single-Finger Panning Experience](https://msdn.microsoft.com/library/dd562167(VS.85).aspx).)
 
 ## Raw Touch Input Data
 
-In Windows 7, new touch experiences are enabled by interaction models that access lower-level touch input messages, and provide customized responses to combinations of touch messages. The platform supports receiving raw touch input data for scenarios like multi-touch painting applications and custom gestures within an application. You can use the platform support for touch or create your own original, multi-touch experiences. (See [WM\_TOUCH Message](https://go.microsoft.com/?linkid=9669696).)
+In Windows 7, new touch experiences are enabled by interaction models that access lower-level touch input messages, and provide customized responses to combinations of touch messages. The platform supports receiving raw touch input data for scenarios like multi-touch painting applications and custom gestures within an application. You can use the platform support for touch or create your own original, multi-touch experiences. (See [WM\_TOUCH Message](https://msdn.microsoft.com/library/dd317341(VS.85).aspx).)
 
  
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Supporting Schema Versions
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 The Print Schema Framework is subject to change in the future as new needs arise. Such changes are expected to be very infrequent, because the most common change is the introduction of new instance names. This change does not affect the structure of the Framework, and should be transparent to clients and providers. Any changes to the structure and organization of the Print Schema Framework will be identified by increments to its version number. Additions to the Print Schema Keywords will not be identified. PrintTicket providers must be capable of supporting the current Print Schema Framework version, as well as any prior version. The Print Schema Framework version is identified using the XML Attribute: Version that appears at the root element of the PrintTicket.
 
@@ -16,7 +16,7 @@ The Print Schema Framework is subject to change in the future as new needs arise
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

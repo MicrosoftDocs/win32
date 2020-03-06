@@ -14,11 +14,11 @@ Microsoft Authenticode signatures provide authorship and integrity guarantees fo
 
 [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) applies digital signature technology to guarantee the authorship and integrity of binary data such as installable software. A client web browser, or other system components, can use the Authenticode signatures to verify the integrity of the data when the software is downloaded or installed. Authenticode signatures can be used with many software formats, including .cab, .exe, .ocx, and .dll.
 
-Microsoft maintains a list of public [*certification authorities*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CAs). Issuers of Authenticode certificates currently include [VeriSign](https://go.microsoft.com/fwlink/p/?linkid=103355), [Thawte](https://go.microsoft.com/fwlink/p/?linkid=103354), [Comodo](https://go.microsoft.com/fwlink/p/?linkid=131567), [Geotrust](https://go.microsoft.com/fwlink/p/?linkid=131568), and [GlobalSign](https://go.microsoft.com/fwlink/p/?linkid=131569).
+Microsoft maintains a list of public [*certification authorities*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CAs). Issuers of Authenticode certificates currently include [VeriSign](https://www.verisign.com/), [Thawte](https://www.thawte.com/), [Comodo](https://www.comodo.com/), [Geotrust](https://www.geotrust.com/), and [GlobalSign](https://www.globalsign.com/).
 
 ## About Cryptographic Time Stamping
 
-In the past, a variety of cryptographic time stamping methods have been proposed. See, for example, Haber and Stornetta "How to Time-Stamp a Digital Document" in the *Journal of Cryptology* (1991) and Benaloh and de Mare "One-Way Accumulators: A Decentralized Alternative to Digital Signatures" in *Springer-Verlag Lecture Notes in Computer Science* vol. 765 (EUROCRYPT '93). An extended abstract of this article is available from [Microsoft Research](https://go.microsoft.com/fwlink/p/?linkid=103376). (These resources may not be available in some languages and countries or regions.) Because time is a physical, rather than a mathematical, quantity, these methods generally concern how to link objects so that their order of creation can be determined or how to efficiently group objects that can all be described as having been created concurrently.
+In the past, a variety of cryptographic time stamping methods have been proposed. See, for example, Haber and Stornetta "How to Time-Stamp a Digital Document" in the *Journal of Cryptology* (1991) and Benaloh and de Mare "One-Way Accumulators: A Decentralized Alternative to Digital Signatures" in *Springer-Verlag Lecture Notes in Computer Science* vol. 765 (EUROCRYPT '93). An extended abstract of this article is available from [Microsoft Research](https://research.microsoft.com/research/pubs/view.aspx?id=233&type=Publication&0sr=a). (These resources may not be available in some languages and countries or regions.) Because time is a physical, rather than a mathematical, quantity, these methods generally concern how to link objects so that their order of creation can be determined or how to efficiently group objects that can all be described as having been created concurrently.
 
 Systems that purport to authenticate time as a quantity always require some form of trust. In a strongly adversarial setting, complex protocols can be used to ensure some degree of synchrony. However, these protocols require extensive interaction between affected parties. In practice, if one only needs certification of time from a trusted source, the source can simply act as a notary by providing a signed statement (certification) that the object was presented for signature at the indicated time.
 
@@ -47,7 +47,7 @@ SignerInfo (the signature block)
 -   OPTIONAL AuthenticatedAttributes (for example, signed by this signer)
 -   OPTIONAL UnauthenticatedAttributes (for example, not signed by this signer)
 
-An example of an authenticated attribute is the signing time (OID 1.2.840.113549.9.5) because it is part of what the time stamp service signs. An example of an unauthenticated attribute is the countersignature (OID 1.2.840.113549.9.6) because it can be affixed after signing. In this case, the SignerInfo itself contains a SignerInfo (the Countersignature).
+An example of an authenticated attribute is the signing time (OID 1.2.840.113549.1.9.5) because it is part of what the time stamp service signs. An example of an unauthenticated attribute is the countersignature (OID 1.2.840.113549.1.9.6) because it can be affixed after signing. In this case, the SignerInfo itself contains a SignerInfo (the Countersignature).
 
 > [!Note]  
 > The object that is signed in the countersignature is the original signature (that is, the EncryptedDigest of the original SignerInfo).
@@ -117,7 +117,7 @@ The time stamp response is a PKCS \#7 signed message signed by the time stamper.
 
 After Authenticode receives the time stamp from the server, Authenticode incorporates the time stamp into the original PKCS \#7 [**SignedData**](signeddata.md) as a countersignature. To accomplish this, the ContentInfo of the returned PKCS \#7 **SignedData** is discarded, and the SignerInfo of the returned time stamp is copied as a countersignature into the SignerInfo of the original PKCS \#7 **SignedData**. The certificate chain of the time stamper is also copied into Certificates in the original PKCS \#7 **SignedData** as an unauthenticated attribute of the original signer.
 
-For more information about PKCS and other security subjects, see the [content library of the RSA website](https://go.microsoft.com/fwlink/p/?linkid=103386).
+For more information about PKCS and other security subjects, see the [content library of the RSA website](https://www.rsa.com/content_library.aspx).
 
  
 

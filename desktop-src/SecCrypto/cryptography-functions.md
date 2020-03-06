@@ -502,7 +502,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignContext</strong></a></td>
-<td>Releases a pointer to a <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-_cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> structure.</td>
+<td>Releases a pointer to a <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> structure.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a></td>
@@ -884,7 +884,7 @@ The following CryptoAPI functions manage data and certificates.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
-<td>Compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
+<td>Compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"><em>certificate name</em></a> with the specified <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> to determine whether all attributes are included there.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
@@ -964,7 +964,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 [!Important]<br />
 This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.
 </blockquote>
-<br/> Computes the hash of the &quot;to be signed&quot; information in the encoded signed content (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>).</td>
+<br/> Computes the hash of the &quot;to be signed&quot; information in the encoded signed content (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>
@@ -1028,7 +1028,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
-<td>Returns a <a href="/windows/desktop/api/Mssip/ns-mssip-sip_indirect_data_"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly"><em>hash</em></a> of the supplied <a href="/windows/desktop/api/Mssip/ns-mssip-sip_subjectinfo_"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
+<td>Returns a <a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly"><em>hash</em></a> of the supplied <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
@@ -1040,7 +1040,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
-<td>Loads the dynamic link library that implements a subject interface package and assigns appropriate library export functions to a <a href="/windows/desktop/api/Mssip/ns-mssip-sip_dispatch_info_"><strong>SIP_DISPATCH_INFO</strong></a> structure.</td>
+<td>Loads the dynamic link library that implements a subject interface package and assigns appropriate library export functions to a <a href="/windows/win32/api/mssip/ns-mssip-sip_dispatch_info"><strong>SIP_DISPATCH_INFO</strong></a> structure.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
@@ -1371,11 +1371,11 @@ These functions are used to create a catalog. All of these functions are called 
 
 | Function                                                                           | Description                                                                                                               |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [**CryptCATCDFClose**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfclose)                                       | Closes a catalog definition file and frees the memory for the corresponding [**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_) structure. |
+| [**CryptCATCDFClose**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfclose)                                       | Closes a catalog definition file and frees the memory for the corresponding [**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf) structure. |
 | [**CryptCATCDFEnumAttributesWithCDFTag**](cryptcatcdfenumattributeswithcdftag.md) | Enumerates the attributes of member files in the **CatalogFiles** section of a CDF.                                       |
 | [**CryptCATCDFEnumCatAttributes**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfenumcatattributes)               | Enumerates catalog-level attributes within the **CatalogHeader** section of a CDF.                                        |
 | [**CryptCATCDFEnumMembersByCDFTagEx**](cryptcatcdfenummembersbycdftagex.md)       | Enumerates the individual file members in the **CatalogFiles** section of a CDF.                                          |
-| [**CryptCATCDFOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfopen)                                         | Opens an existing CDF for reading and initializes a [**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_) structure.                         |
+| [**CryptCATCDFOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfopen)                                         | Opens an existing CDF for reading and initializes a [**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf) structure.                         |
 
 
 

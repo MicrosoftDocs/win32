@@ -415,7 +415,7 @@ Run this command line to launch the task and validate that the Task Scheduler UI
 
 ## Resources
 
--   [Task Schedule 2.0](https://go.microsoft.com/fwlink/p/?LinkId=325490)
+-   [Task Schedule 2.0](https://msdn.microsoft.com/library/bb756979.aspx)
 
  
 

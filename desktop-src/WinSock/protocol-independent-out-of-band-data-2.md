@@ -41,8 +41,8 @@ The [**WSAAsyncSelect**](/windows/desktop/api/winsock/nf-winsock-wsaasyncselect)
 
  
 
--   There are, at present, two conflicting interpretations of [RFC 793](https://go.microsoft.com/fwlink/p/?linkid=84069) (where the concept is introduced).
--   The implementation of OOB data in the Berkeley Software Distribution (BSD) does not conform to the Host Requirements specified in [RFC 1122](https://go.microsoft.com/fwlink/p/?linkid=84405).
+-   There are, at present, two conflicting interpretations of [RFC 793](https://www.ietf.org/rfc/rfc793.txt) (where the concept is introduced).
+-   The implementation of OOB data in the Berkeley Software Distribution (BSD) does not conform to the Host Requirements specified in [RFC 1122](https://www.ietf.org/rfc/rfc1122.txt).
 
     Specifically, the TCP urgent pointer in BSD points to the byte after the urgent data byte, and an RFC-compliant TCP urgent pointer points to the urgent data byte. As a result, if an application sends urgent data from a BSD-compatible implementation to an implementation compatible with RFC 1122, the receiver reads the wrong urgent data byte (it reads the byte located after the correct byte in the data stream as the urgent data byte).
 

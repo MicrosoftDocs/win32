@@ -29,7 +29,7 @@ This sample has the following requirements:
 |                          |                                                                                                         |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows Vista                                                                                           |
-| Windows SDK              | [Windows Software Development Kit (SDK)](https://go.microsoft.com/fwlink/p/?linkid=129787) for Windows 7 |
+| Windows SDK              | [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windowsvista/bb980924.aspx) for Windows 7 |
 
 
 

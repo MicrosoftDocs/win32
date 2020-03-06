@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Print Schema-Related Technologies
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 For the .NET Framework 3.0, Windows Vista, and later releases, the PrintCapabilities and PrintTicket technologies extend the capabilities of the Print Schema to enable a richer printing experience.
 
@@ -28,7 +28,7 @@ Relative to the current print subsystem, the PrintTicket technology enables all 
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

@@ -36,7 +36,7 @@ SMC_SHCHANGENOTIFY
 *psmc* 
 </dt> <dd>
 
-A pointer to an [**SMCSHCHANGENOTIFYSTRUCT**](/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shcschangenotifystruct) structure with information on the change.
+A pointer to an [**SMCSHCHANGENOTIFYSTRUCT**](/windows/win32/api/shobjidl_core/ns-shobjidl_core-smcshchangenotifystruct) structure with information on the change.
 
 </dd> </dl>
 

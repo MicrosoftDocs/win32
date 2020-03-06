@@ -77,7 +77,7 @@ Apply one of the following options if you are relying on RegDisableReflectionKey
 
 -   [Registry Reflection article](https://msdn.microsoft.com/library/Aa384235(v=VS.85).aspx)
 -   [Redirected keys list within Registry Redirector article](https://msdn.microsoft.com/library/Aa384232(v=VS.85).aspx)
--   [Best Practices for Wow64](https://go.microsoft.com/fwlink/p/?linkid=205164)
+-   [Best Practices for Wow64](https://docs.microsoft.com/windows-hardware/drivers/display/microsoft-windows-vista-display-driver-64-bit-issues)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.

@@ -379,7 +379,7 @@
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12device3
           items: 
           - name: "OpenExistingHeapFromFileMapping"
-            href: /previous-versions/windows/desktop/legacy/mt813613(v%3Dvs.85)
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromfilemapping
           - name: "OpenExistingHeapFromAddress"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromaddress
           - name: "EnqueueMakeResident"
@@ -1410,6 +1410,15 @@
           items: 
           - name: "SetGPUBasedValidationFlags"
             href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug2-setgpubasedvalidationflags
+        - name: "ID3D12Debug3"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug3
+          items: 
+          - name: "SetEnableGPUBasedValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setenablegpubasedvalidation
+          - name: "SetEnableSynchronizedCommandQueueValidation method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setenablesynchronizedcommandqueuevalidation
+          - name: "SetGPUBasedValidationFlags"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setgpubasedvalidationflags
         - name: "ID3D12DebugCommandList"
           href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist
           items: 

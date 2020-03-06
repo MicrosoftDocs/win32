@@ -16,7 +16,7 @@ If a Kerberos KDC is not available, Windows uses MSV1\_0 and pass-through authen
 
 The Kerberos authentication package supports version 5, revision 6 of the Kerberos protocol. This protocol is based on Internet [RFC 4120](https://www.ietf.org/rfc/rfc4120.txt). For more information, see the IETF website:
 
-[https://www.ietf.org](https://go.microsoft.com/fwlink/p/?linkid=84023)
+[https://www.ietf.org](https://www.ietf.org/)
 
 For more information about Kerberos, see [Microsoft Kerberos](microsoft-kerberos.md).
 

@@ -88,6 +88,7 @@ This method returns one of the following codes or another error code if it fails
 | <dl> <dt>**S\_OK**</dt> <dt>0 (0x0)</dt> </dl>                                  | The method was successful.<br/>                                      |
 | <dl> <dt>**E\_INVALIDARG**</dt> <dt>2147942487 (0x80070057)</dt> </dl>          | The *NumericalPassword* parameter does not have a valid format.<br/> |
 | <dl> <dt>**FVE\_E\_LOCKED\_VOLUME**</dt> <dt>2150694912 (0x80310000)</dt> </dl> | The volume is locked.<br/>                                           |
+| <dl> <dt>**FVE\_E\_INVALID\_PASSWORD\_FORMAT**</dt> <dt>2150694965 (0x80310035)</dt> </dl> | The *NumericalPassword* parameter does not have a valid format.<br/>                                                                                                                                                     |
 
 
 

@@ -47,7 +47,7 @@ Windows Presentation Foundation (WPF) applications are by default system DPI-awa
 
 ## Per Monitor Aware WPF Sample Walkthrough
 
-The [Per Monitor Aware WPF sample](https://go.microsoft.com/fwlink/p/?LinkID=352115) is a sample WPF application updated to be per-monitor DPI-aware. The sample consists of two projects:
+The [Per Monitor Aware WPF sample](https://code.msdn.microsoft.com/windowsdesktop/Per-Monitor-Aware-WPF-e43cde33) is a sample WPF application updated to be per-monitor DPI-aware. The sample consists of two projects:
 
 -   NativeHelpers.vcxproj: This is a native helper project that implements the core functionality to make a WPF application as per-monitor DPI-aware utilizing the Win32APIs above. The project contains two classes:
     -   PerMonDPIHelpers: A class that provides helper functions for DPI related operations like retrieving the current DPI of the active monitor, setting a process to be per-monitor DPI-aware, etc.
@@ -56,7 +56,7 @@ The [Per Monitor Aware WPF sample](https://go.microsoft.com/fwlink/p/?LinkID=352
 
 To run the sample follow the steps below:
 
-1.  Download and unzip the [Per Monitor Aware WPF sample](https://go.microsoft.com/fwlink/p/?LinkID=352115)
+1.  Download and unzip the [Per Monitor Aware WPF sample](https://code.msdn.microsoft.com/windowsdesktop/Per-Monitor-Aware-WPF-e43cde33)
 2.  Start Microsoft Visual Studio and select **File > Open > Project/Solution**
 3.  Browse to the directory that contains the unzipped sample. Go to the directory named for the sample, and double-click the Visual Studio Solution (.sln) file
 4.  Press F7 or use **Build > Build Solution** to build the sample
@@ -95,7 +95,7 @@ If you have an existing WPF application and wish to leverage the DPI helper proj
 11. Press F7 or use **Build > Build Solution** to build the sample
 12. Press Ctrl+F5 or use **Debug > Start Without Debugging** to run the sample
 
-The [Per Monitor Aware WPF sample](https://go.microsoft.com/fwlink/p/?LinkID=352115) application illustrates how a WPF application can be updated to be per-monitor DPI-aware by responding to the [**WM\_DPICHANGED**](wm-dpichanged.md) window notification. In response to the window notification, the sample updates the scale transform used by WPF based on the current DPI of the monitor the window is on. The *wParam* of the window notification contains the new DPI in the *wParam*. The *lParam* contains a rectangle that has the size and position of the new suggested window, scaled for the new DPI.
+The [Per Monitor Aware WPF sample](https://code.msdn.microsoft.com/windowsdesktop/Per-Monitor-Aware-WPF-e43cde33) application illustrates how a WPF application can be updated to be per-monitor DPI-aware by responding to the [**WM\_DPICHANGED**](wm-dpichanged.md) window notification. In response to the window notification, the sample updates the scale transform used by WPF based on the current DPI of the monitor the window is on. The *wParam* of the window notification contains the new DPI in the *wParam*. The *lParam* contains a rectangle that has the size and position of the new suggested window, scaled for the new DPI.
 
 Note:
 

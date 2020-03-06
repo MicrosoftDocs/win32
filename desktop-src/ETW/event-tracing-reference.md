@@ -24,9 +24,8 @@ This section also contains information on:
 -   [MOF class definitions](event-tracing-mof-classes.md) for kernel events
 -   [MOF class qualifiers](event-tracing-mof-qualifiers.md) used when defining your event classes
 
- 
+## Process ETW traces in .NET code
 
- 
+You can also use the [.NET TraceProcessing API](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) to analyze ETW traces for your applications and other software components. This API is used internally at Microsoft to analyze ETW data produced the Windows engineering system, and it is also used to power several tables in [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer). This API is available as a NuGet package.
 
-
-
+For more information, see [this article](https://docs.microsoft.com/windows/apps/trace-processing/overview).

@@ -45,10 +45,10 @@ Full support for Microsoft Active Accessibility is built into Windows XP and Win
 
 <dl> <dt>
 
-[Microsoft Accessibility website](https://go.microsoft.com/fwlink/p/?linkid=79561)
+[Microsoft Accessibility website](https://www.microsoft.com/enable/)
 </dt> <dt>
 
-[Microsoft Accessibility Developer Center on MSDN](https://go.microsoft.com/fwlink/p/?linkid=186466)
+[Microsoft Accessibility Developer Center on MSDN](https://msdn.microsoft.com/windows/bb735024.aspx)
 </dt> </dl>
 
  

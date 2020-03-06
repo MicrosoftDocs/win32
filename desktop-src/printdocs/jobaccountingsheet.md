@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobAccountingSheet
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://go.microsoft.com/?linkid=7141496).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
 
 Describes the accounting sheet to be output for the job. The accounting sheet should be output on the default PageMediaSize and using the default PageMediaType. The accounting sheet should to be isolated from the remainder of the job. This means that any finishing or processing options (such as JobDuplex, JobStaple, or JobBinding) should not include the accounting sheet. The accounting sheet may occur as the first or last page of the job at the implementer's discretion.
 
@@ -55,7 +55,7 @@ The following table outlines the characteristics of the variables defined in the
 
 | Name                               | Data type         | Unit                  | Supported values                                                                                                                                                                      | Summary                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_OptionName\_<br/>          | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://go.microsoft.com/fwlink/p/?linkid=200944). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
+| \_OptionName\_<br/>          | string<br/> | characters<br/> | Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). If no namespace is specified, default namespace is assumed.<br/> | The name of the option.<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Defines an Option which when selected would disable this feature.<br/> |
 
 
@@ -83,7 +83,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://go.microsoft.com/?linkid=7141496)
+[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
 </dt> </dl>
 
  

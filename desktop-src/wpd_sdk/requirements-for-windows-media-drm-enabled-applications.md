@@ -25,7 +25,7 @@ The two additional properties that are required to enable Windows Media DRM-prot
 
 These properties must be supplied in the application's client information when the device is opened with the [**IPortableDevice::Open**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open) method. When these properties are supplied, the WPD API allows protected content transfers. If the application has provided a certificate and private key, the API will create a secure channel to transfer protected WMDRM content to the device.
 
-For information about creating and distributing Windows-based applications that support Windows Media DRM, see the following [Licensing Windows-based Applications](https://go.microsoft.com/fwlink/p/?linkid=143849) topic.
+For information about creating and distributing Windows-based applications that support Windows Media DRM, see the following [Licensing Windows-based Applications](https://www.microsoft.com/windows/windowsmedia/licensing/licensing_drm_apps.aspx) topic.
 
 ## Transferring Content
 
@@ -103,7 +103,7 @@ The same pre-requisite with the application private key and certificate applies 
 
 The above method to acquire the **IWMDRMDeviceApp** interface from the **IStream** pointer is just a convenience if your application is already doing a prior protected content transfer, before proceeding on to do metering and license synchronization operations.
 
-Our recommendation for most applications that need to access **IWMDRMDeviceApp** is to initialize **IWMDRMDeviceApp** directly as this does not require your application to transfer protected content or hold on to the transfer interfaces in order to do device metering and license sync. This method will require usage of Windows Media Device Manager (WMDM) APIs. For details and sample code, refer to the [Accessing WMDRM APIs from a WPD Application](https://go.microsoft.com/fwlink/p/?linkid=393689) whitepaper on the WHDC site.
+Our recommendation for most applications that need to access **IWMDRMDeviceApp** is to initialize **IWMDRMDeviceApp** directly as this does not require your application to transfer protected content or hold on to the transfer interfaces in order to do device metering and license sync. This method will require usage of Windows Media Device Manager (WMDM) APIs. For details and sample code, refer to the [Accessing WMDRM APIs from a WPD Application](https://msdn.microsoft.com/library/windows/hardware/gg463202.aspx) whitepaper on the WHDC site.
 
 ## Related topics
 

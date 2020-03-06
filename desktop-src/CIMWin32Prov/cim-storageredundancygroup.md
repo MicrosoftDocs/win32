@@ -29,7 +29,7 @@ api_location:
 The **CIM\_StorageRedundancyGroup** class represents mass storage-related redundancy information. Storage redundancy groups are used to protect user data. They are made up of one or more physical extents, or one or more aggregate physical extents. Storage redundancy groups may overlap; however, the underlying extents within the overlap should not contain any check data.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 

@@ -14,7 +14,7 @@ The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables 
 
 As a user, you would select the MXDW when you want to create an XPS document from a Windows application that does not have the option to save its content as an XPS document.
 
-As an application developer, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://go.microsoft.com/?linkid=8435939) and [XPS Specification and License Downloads](https://go.microsoft.com/fwlink/p/?linkid=70358).
+As an application developer, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816) and [XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816).
 
 The MXDW is installed automatically on Windows Vista and later versions of Windows and can be downloaded and installed on Windows XP with SP2 and Windows Server 2003.
 
@@ -22,7 +22,7 @@ The MXDW is installed automatically on Windows Vista and later versions of Wind
 
 On Windows Vista and later versions of Windows, the MXDW is installed automatically when the operating system is installed.
 
-**Windows XP with SP2 and Windows Server 2003**: Download and install either .Net Framework 3.0 or the XPS Essential Pack from the [Microsoft Download Center](https://go.microsoft.com/?linkid=9729629).
+**Windows XP with SP2 and Windows Server 2003**: Download and install either .Net Framework 3.0 or the XPS Essential Pack from the [Microsoft Download Center](https://www.microsoft.com/downloads/en/default.aspx).
 
 ## How to Use
 
@@ -38,10 +38,10 @@ Application developers can customize the output of MXDW using the [MXDW configur
 
 <dl> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://go.microsoft.com/fwlink/p/?linkid=70358)
+[XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
 [isXPS Conformance Tool](https://msdn.microsoft.com/library/Aa348104(v=VS.85).aspx)

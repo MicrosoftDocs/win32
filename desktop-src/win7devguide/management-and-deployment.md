@@ -16,7 +16,7 @@ PowerShell is a complete Microsoft .NET managed scripting language that has both
 
 The PowerShell 2.0 remoting feature now allows users to run commands on one or more remote computers from a single computer that is running PowerShell. Developers can also host PowerShell on IIS to access and manage their servers.
 
-PowerShell 2.0 supports partitioning and organizing PowerShell scripts by using modules that can be distributed and deployed as self-contained, reusable units. It also includes transactions support in the PowerShell engine and APIs, which means that developers can start, commit, and rollback transactions by using built-in transaction *cmdlets*. Further, the PowerShell engine includes eventing support for listening, forwarding, and acting on management and system events. PowerShell applications can be written to subscribe to certain events for synchronous or asynchronous processing. (See [Windows PowerShell](https://go.microsoft.com/?linkid=9669669).)
+PowerShell 2.0 supports partitioning and organizing PowerShell scripts by using modules that can be distributed and deployed as self-contained, reusable units. It also includes transactions support in the PowerShell engine and APIs, which means that developers can start, commit, and rollback transactions by using built-in transaction *cmdlets*. Further, the PowerShell engine includes eventing support for listening, forwarding, and acting on management and system events. PowerShell applications can be written to subscribe to certain events for synchronous or asynchronous processing. (See [Windows PowerShell](https://msdn.microsoft.com/library/bb905330.aspx).)
 
 ![windows powershell ise screen shot](images/windows7-devguide-solidfig1-powershell.jpg)
 
@@ -32,7 +32,7 @@ Embedded UI Handler makes custom UIs easier to integrate by embedding a custom u
 
 Embedded Multiple Package Chainer allows developers to enable installation events across multiple packages. For example, they can enable install-on-demand events, repair events, and uninstall events across multiple packages.
 
-New features also enable the creation of true per-user installations, including support for per-user program files and "elevate now" functionality, and provide support for offline software inventory and patch applicability checks through Deployment Image Servicing and Management. (See [What's New in Windows Installer 5.0](https://go.microsoft.com/?linkid=9669677).)
+New features also enable the creation of true per-user installations, including support for per-user program files and "elevate now" functionality, and provide support for offline software inventory and patch applicability checks through Deployment Image Servicing and Management. (See [What's New in Windows Installer 5.0](https://msdn.microsoft.com/library/dd408114(VS.85).aspx).)
 
  
 

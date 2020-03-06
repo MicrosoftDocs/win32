@@ -48,7 +48,7 @@ An [**ISOLATION\_STATE**](/windows/desktop/api/eaphostpeertypes/ne-eaphostpeerty
 **probationTime**
 </dt> <dd>
 
-A **ProbationTime** structure that specifies the time required for the connection to come out of quarantine after which the connection will be dropped. A **ProbationTime** structure is identical to a [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=90006) structure.
+A **ProbationTime** structure that specifies the time required for the connection to come out of quarantine after which the connection will be dropped. A **ProbationTime** structure is identical to a [FILETIME](https://docs.microsoft.com/windows/win32/api/minwinbase/ns-minwinbase-filetime?redirectedfrom=MSDN) structure.
 
 </dd> <dt>
 

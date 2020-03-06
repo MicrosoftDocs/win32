@@ -50,7 +50,7 @@ Windows Installer 2.0 is contained in Windows Server 2003 and Windows XP.
 
 Windows Installer 2.0 is available as a package for installing or upgrading to Windows Installer 2.0 on Windows 2000. This package should not be used to install or upgrade Windows Installer 2.0 on Windows Server 2003 and Windows XP.
 
-You can find all the available Windows Installer redistributables at the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkID=83468).
+You can find all the available Windows Installer redistributables at the [Microsoft Download Center](https://www.microsoft.com/Downloads/).
 
 ## In this section
 

@@ -166,7 +166,7 @@ if(SUCCEEDED(hr))
 
 The Microsoft XMP schemas for people tagging define a set of properties to tag individuals in digital photos.
 
-The following sections provide the schema definitions needed for people tagging. Wherever possible, the schema definitions use the conventions provided by [Adobe's Extensible Metadata Platform (XMP) Specifications](https://go.microsoft.com/fwlink/p/?linkid=144407). The schema definitions in this topic show the XML namespace Uniform Resource Identifier (URI) that identifies the schema and the preferred schema namespace prefix, followed by a table that lists all properties defined for the schema. Each table has the following columns:
+The following sections provide the schema definitions needed for people tagging. Wherever possible, the schema definitions use the conventions provided by [Adobe's Extensible Metadata Platform (XMP) Specifications](https://www.adobe.com/devnet/xmp/). The schema definitions in this topic show the XML namespace Uniform Resource Identifier (URI) that identifies the schema and the preferred schema namespace prefix, followed by a table that lists all properties defined for the schema. Each table has the following columns:
 
 -   **Property** - The name of the property, including the preferred namespace prefix.
 

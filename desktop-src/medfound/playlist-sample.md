@@ -40,7 +40,7 @@ The Playlist sample builds a Windows application.
 
 | Product                                                        | Version   |
 |----------------------------------------------------------------|-----------|
-| [Windows SDK](https://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7 |
+| [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) | Windows 7 |
 
 
 
@@ -54,7 +54,7 @@ This sample is available in the following locations.
 
 | Location                                                     | Path/URL                                                   |
 |--------------------------------------------------------------|------------------------------------------------------------|
-| [Windows SDK](https://go.microsoft.com/fwlink/?LinkId=715520) | *SDK Root*\\Samples\\multimedia\\mediafoundation\\Playlist |
+| [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) | *SDK Root*\\Samples\\multimedia\\mediafoundation\\Playlist |
 
 
 

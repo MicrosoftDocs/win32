@@ -83,7 +83,7 @@ The <a href="https://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition
 </tr>
 <tr class="even">
 <td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>All new samples that highlight DirectX technologies on Windows are online in the <a href="https://go.microsoft.com/fwlink/p/?LinkID=246562">Windows SDK Samples Gallery</a>. Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see <a href="https://blogs.msdn.microsoft.com/chuckw/2013/09/20/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>. <br/></td>
+<td>All new samples that highlight DirectX technologies on Windows are online in the <a href="https://code.msdn.microsoft.com/">Windows SDK Samples Gallery</a>. Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see <a href="https://blogs.msdn.microsoft.com/chuckw/2013/09/20/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>
@@ -96,10 +96,10 @@ The <a href="https://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition
 
  
 
-For access to historical versions of these DirectX SDK tools and technologies, download previous versions of the DirectX SDK from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=226640). We shipped the last version of the DirectX SDK in June 2010.
+For access to historical versions of these DirectX SDK tools and technologies, download previous versions of the DirectX SDK from the [Microsoft Download Center](https://www.microsoft.com/download/en/details.aspx?id=6812). We shipped the last version of the DirectX SDK in June 2010.
 
 > [!Note]  
-> The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://go.microsoft.com/fwlink/p/?linkid=256626).
+> The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://support.microsoft.com/kb/2728613).
 
  
 
@@ -112,11 +112,11 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 1.  Ensure that the June 2010 release of the DirectX SDK is installed on your development computer. If you install onto a computer running Windows 8 and later, you will be prompted and required to enable .NET 3.5 as a prerequisite installation to the DirectX SDK.
 
     > [!Note]  
-    > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://go.microsoft.com/fwlink/p/?linkid=256626).
+    > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://support.microsoft.com/kb/2728613).
 
      
 
-2.  Make sure that you are using one of the premium Visual Studio SKUs. Microsoft Visual Studio Express 2012 for Windows 8 or Microsoft Visual Studio Express 2013 for Windows won't build Windows 8 and later desktop applications such as the DirectX SDK samples. To install one of the premium Visual Studio SKUs, go to: [Visual Studio downloads](https://go.microsoft.com/fwlink/p/?LinkId=251517) and follow the instructions.
+2.  Make sure that you are using one of the premium Visual Studio SKUs. Microsoft Visual Studio Express 2012 for Windows 8 or Microsoft Visual Studio Express 2013 for Windows won't build Windows 8 and later desktop applications such as the DirectX SDK samples. To install one of the premium Visual Studio SKUs, go to: [Visual Studio downloads](https://www.microsoft.com/visualstudio/11/downloads) and follow the instructions.
 
 3.  Use the DirectX SDK Sample Browser to install the project files for the desired sample. Open the sample’s Microsoft Visual Studio 2010 compatible solution file (suffixed with **\_2010**).
 
@@ -149,7 +149,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
     2.  Wherever "d3dx9.h", "d3dx10.h", or "d3dx11.h" are included in your project, be sure to explicitly include "d3d9.h", "d3d10.h" and "dxgi.h", or "d3d11.h" and "dxgi.h" first to ensure you are picking up the newer version. You can disable **warning C4005** if needed; however, this warning indicates you are using the older version of these headers.
     3.  Remove all references to DXGIType.h in your project. This header doesn't exist in the Windows SDK, and the DirectX SDK version conflicts with the new winerror.h.
     4.  All D3DX DLLs are installed onto your development computer by the DirectX SDK installation. Ensure that the necessary D3DX dependencies are redistributed with any sample or with your application if it is moved to another machine.
-    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://go.microsoft.com/fwlink/p/?linkid=248926) and [DirectXTK](https://blogs.msdn.microsoft.com/chuckw/2012/03/02/directxtk/). D3DXMath is replaced by [DirectXMath](https://msdn.microsoft.com/library/Hh437833(v=VS.85).aspx).
+    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://github.com/Microsoft/DirectXTex) and [DirectXTK](https://blogs.msdn.microsoft.com/chuckw/2012/03/02/directxtk/). D3DXMath is replaced by [DirectXMath](https://msdn.microsoft.com/library/Hh437833(v=VS.85).aspx).
 
 6.  Ensure that you are using the new version of the HLSL shader compiler by observing the following conditions:
 

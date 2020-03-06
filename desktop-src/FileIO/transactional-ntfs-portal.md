@@ -22,7 +22,7 @@ An application can use TxF to preserve the integrity of data on disk caused by u
 
 ## Developer audience
 
-Before using TxF, you should have a working knowledge of transactions using either KTM or [Distributed Transaction Coordinator (DTC)](https://go.microsoft.com/fwlink/p/?linkid=139572).
+Before using TxF, you should have a working knowledge of transactions using either KTM or [Distributed Transaction Coordinator (DTC)](https://msdn.microsoft.com/library/ms684146.aspx).
 
 ## Run-time requirements
 

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 ### Web Service Discovery
 
-The Web Service Discovery component allows for the publication and discovery of services on the local subnet. In PNM, a user is a service that gets advertised on the local subnet. For more information about Web Service Discovery, see [XML Web Service Discovery](https://go.microsoft.com/fwlink/p/?linkid=84307).
+The Web Service Discovery component allows for the publication and discovery of services on the local subnet. In PNM, a user is a service that gets advertised on the local subnet. For more information about Web Service Discovery, see [XML Web Service Discovery](https://msdn.microsoft.com/library/fxx6cfx2.aspx).
 
 ### Schannel
 
@@ -24,7 +24,7 @@ The Windows Sockets component is used by applications for communications over TC
 
 ### Next Generation TCP/IP Stack
 
-New TCP/IP stack in Windows Vista that has IPv6 built-in and enabled by default. For more information, see [Next Generation TCP/IP Stack in Windows Vista](https://go.microsoft.com/fwlink/p/?linkid=84427).
+New TCP/IP stack in Windows Vista that has IPv6 built-in and enabled by default. For more information, see [Next Generation TCP/IP Stack in Windows Vista](https://www.microsoft.com/technet/itsolutions/network/tcpip/default.mspx).
 
  
 

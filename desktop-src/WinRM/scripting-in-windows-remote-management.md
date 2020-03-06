@@ -157,10 +157,10 @@ The output from a WinRM script is encoded in Unicode. If you create a [FileSyste
 [Using Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[MSXSL](https://go.microsoft.com/fwlink/p/?linkid=57523)
+[MSXSL](https://msdn.microsoft.com/library/ms763742.aspx)
 </dt> <dt>
 
-[DOM Reference](https://go.microsoft.com/fwlink/p/?linkid=84378)
+[DOM Reference](https://msdn.microsoft.com/library/ms764730.aspx)
 </dt> </dl>
 
  

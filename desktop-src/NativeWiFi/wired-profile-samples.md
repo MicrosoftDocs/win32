@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following topics show sample XML profiles for various wired network configurations. These XML profiles use [LAN\_profile schema elements](lan-profileschema-elements.md) and [OneX schema elements](onexschema-elements.md).
 
-You can add a profile to the profile store using the **netsh** command-line utility. For more information, see [Netsh Commands for Wired Local Area Network (LAN)](https://go.microsoft.com/fwlink/p/?linkid=120965).
+You can add a profile to the profile store using the **netsh** command-line utility. For more information, see [Netsh Commands for Wired Local Area Network (LAN)](https://technet.microsoft.com/library/d559acec-6511-4d81-b1d2-f85c9b6f9a32).
 
 -   [Machine Certificate Profile Sample](machine-certificate-profile-sample.md)
 -   [PEAP Profile Sample](peap-profile-sample.md)

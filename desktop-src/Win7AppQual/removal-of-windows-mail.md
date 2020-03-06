@@ -60,7 +60,7 @@ Do not design code that calls the Windows Mail UI API, since it will not work. Y
 
 <dl>
 
-[Application Compatibility Toolkit Download](https://go.microsoft.com/fwlink/p/?linkid=205020)  
+[Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)  
 </dl>
 
  

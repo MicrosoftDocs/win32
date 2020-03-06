@@ -14,7 +14,7 @@ api_location:
 
 # WMI Tasks: Performance Monitoring
 
-Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://go.microsoft.com/fwlink/p/?linkid=84103). For more information, see [Performance Libraries and WMI](performance-libraries-and-wmi.md) and [Monitoring Performance Data](monitoring-performance-data.md).
+Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance. For other examples, see the TechNet ScriptCenter at [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx). For more information, see [Performance Libraries and WMI](performance-libraries-and-wmi.md) and [Monitoring Performance Data](monitoring-performance-data.md).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -128,7 +128,7 @@ Wend</code></pre></td>
 </tr>
 <tr class="even">
 <td>...get and calculate performance data for processes on Windows 2000?</td>
-<td><p>Use the &quot;Win32_PerfRawData&quot; classes, such as <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfRawData_PerfProc_Process</strong></a>. Get the property data, such as <strong>PercentProcessorTime</strong>, twice for a specific process. Look up the formula specified in the <a href="countertype-qualifier.md"><strong>CounterType</strong></a> qualifier for the property and calculate. The CounterType in the example is <a href="https://go.microsoft.com/fwlink/p/?linkid=44341">PERF_100NSEC_TIMER_INV</a>. For more information, see <a href="monitoring-performance-data.md">Monitoring Performance Data</a>.</p>
+<td><p>Use the &quot;Win32_PerfRawData&quot; classes, such as <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfRawData_PerfProc_Process</strong></a>. Get the property data, such as <strong>PercentProcessorTime</strong>, twice for a specific process. Look up the formula specified in the <a href="countertype-qualifier.md"><strong>CounterType</strong></a> qualifier for the property and calculate. The CounterType in the example is <a href="https://technet.microsoft.com/library/cc785636(WS.10).aspx">PERF_100NSEC_TIMER_INV</a>. For more information, see <a href="monitoring-performance-data.md">Monitoring Performance Data</a>.</p>
 <p>The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process"><strong>Terminate</strong></a> method in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process"><strong>Win32_Process</strong></a> class.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
@@ -189,7 +189,7 @@ Wend</code></pre></td>
 [WMI C++ Application Examples](wmi-c---application-examples.md)
 </dt> <dt>
 
-[TechNet ScriptCenter](https://go.microsoft.com/fwlink/p/?linkid=46710)
+[TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 </dt> </dl>
 
  

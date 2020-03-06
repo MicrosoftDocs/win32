@@ -29,7 +29,7 @@ The raw centralized binary logging log file is made up of fixed-length records o
 
 The raw log file is not human-readable, and it cannot be read using most available log analyzers. To extract data from a raw log file, you can create a tool that locates and extracts the data and then converts it into formatted text.
 
-For more information, see [Centralized Binary Logging](https://go.microsoft.com/fwlink/p/?linkid=84006) on Microsoft TechNet.
+For more information, see [Centralized Binary Logging](https://technet.microsoft.com/library/85e7f1fc-d91b-4e0e-b6c7-afaa15a29478) on Microsoft TechNet.
 
  
 

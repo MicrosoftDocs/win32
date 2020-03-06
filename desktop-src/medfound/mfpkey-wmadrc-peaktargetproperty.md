@@ -30,7 +30,7 @@ If you request dynamic range control from the decoder when this property is not 
 
 Use the [MFPKEY\_WMADRC\_AVGREF](mfpkey-wmadrc-avgrefproperty.md) and [MFPKEY\_WMADRC\_PEAKREF](mfpkey-wmadrc-peakrefproperty.md) properties to compute appropriate values for this property.
 
-For more information on dynamic range control, see the web article [Windows Media Audio Professional Codec Features](https://go.microsoft.com/fwlink/p/?linkid=83063).
+For more information on dynamic range control, see the web article [Windows Media Audio Professional Codec Features](https://msdn2.microsoft.com/library/ms867218.aspx).
 
 ## Requirements
 

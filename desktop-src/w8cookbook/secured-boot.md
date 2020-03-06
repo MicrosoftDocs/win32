@@ -46,13 +46,13 @@ ELAM drivers must be specially signed by Microsoft to ensure they are started by
 
 ## Resources
 
--   [Early Launch Antimalware Whitepaper](https://go.microsoft.com/fwlink/p/?LinkId=325481)
--   [CmRegisterCallbackEx()](https://go.microsoft.com/fwlink/p/?LinkId=325482)
--   [CmUnRegisterCallback()](https://go.microsoft.com/fwlink/p/?LinkId=325483)
--   [IoRegisterBootDriverCallback()](https://go.microsoft.com/fwlink/p/?LinkId=325484)
--   [IoUnRegisterBootDriverCallback()](https://go.microsoft.com/fwlink/p/?LinkId=325485)
--   [Certifying hardware with the Windows Hardware Certification Kit Build Conference presentation](https://go.microsoft.com/fwlink/p/?LinkId=325486)
--   [Download Kits and Tools](https://go.microsoft.com/fwlink/p/?LinkId=325487)
+-   [Early Launch Antimalware Whitepaper](https://msdn.microsoft.com/library/windows/hardware/br259096)
+-   [CmRegisterCallbackEx()](https://msdn.microsoft.com/library/windows/hardware/ff541921(v=vs.85).aspx)
+-   [CmUnRegisterCallback()](https://msdn.microsoft.com/library/windows/hardware/ff541928(v=vs.85).aspx)
+-   [IoRegisterBootDriverCallback()](https://msdn.microsoft.com/library/windows/hardware/hh439379(v=VS.85))
+-   [IoUnRegisterBootDriverCallback()](https://msdn.microsoft.com/library/windows/hardware/hh439394(v=VS.85).aspx)
+-   [Certifying hardware with the Windows Hardware Certification Kit Build Conference presentation](https://channel9.msdn.com/events/BUILD/BUILD2011/HW-659T)
+-   [Download Kits and Tools](https://msdn.microsoft.com/windows/hardware/br259105)
 
  
 

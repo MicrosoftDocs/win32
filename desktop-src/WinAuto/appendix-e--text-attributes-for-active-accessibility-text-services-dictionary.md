@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This appendix provides information about text attributes that are defined in [**IAccDictionary**](/windows/desktop/api/msaatext/nn-msaatext-iaccdictionary). It is organized as a series of tables. Each table includes information about a specific category of attributes. These categories are actually nested, but are separated below so that you can see the attributes.
 
 > [!Note]  
-> Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](https://go.microsoft.com/fwlink/p/?linkid=131573) for more information on advanced text input and natural language technologies.
+> Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](https://msdn.microsoft.com/library/ms629032(VS.85).aspx) for more information on advanced text input and natural language technologies.
 
  
 

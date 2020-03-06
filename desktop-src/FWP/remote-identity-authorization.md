@@ -39,7 +39,7 @@ To implement this example programmatically, use the following WFP configuration.
 
 **At FWPM\_LAYER\_IPSEC\_V{4\|6} setup QM and EM negotiation policy**  
 
-1.  Add one or both of the following QM transport mode policy provider contexts and set the [**IPSEC\_POLICY\_FLAG\_ND\_SECURE**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_transport_policy0_) flag.  
+1.  Add one or both of the following QM transport mode policy provider contexts and set the [**IPSEC\_POLICY\_FLAG\_ND\_SECURE**](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_transport_policy0) flag.  
     -   For IKE, a policy provider context of type **FWPM\_IPSEC\_IKE\_QM\_TRANSPORT\_CONTEXT**.
     -   For AuthIP, a policy provider context of type **FWPM\_IPSEC\_AUTHIP\_QM\_TRANSPORT\_CONTEXT** that contains the AuthIP Extended Mode (EM) negotiation policy.
 
@@ -61,7 +61,7 @@ To implement this example programmatically, use the following WFP configuration.
 1.  Add a filter with the following properties. 
     | Filter property                                                   | Value                                                                                              |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-    | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](https://go.microsoft.com/fwlink/p/?linkid=94464)                                      |
+    | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](https://msdn.microsoft.com/library/ff568757.aspx)                                      |
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                                                              |
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_INBOUND\_TRANSPORT\_V{4\|6}**                                              |
     | **rawContext**                                                    | [**FWPM\_CONTEXT\_IPSEC\_INBOUND\_PERSIST\_CONNECTION\_SECURITY**](filter-context-identifiers.md) |

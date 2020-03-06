@@ -287,7 +287,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>IDataObjectProvider</strong></a><br/></td>
-<td>Provides methods that enable you to set or retrieve a <a href="https://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject interface</strong></a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
+<td>Provides methods that enable you to set or retrieve a <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject interface</strong></a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>IDataTransferManagerInterop</strong></a><br/></td>
@@ -590,7 +590,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Exposes a single method used to initialize objects that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>IExplorerCommandState</strong></a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a> with the application-specified command name and its registered properties.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iinitializenetworkfolder"><strong>IInitializeNetworkFolder</strong></a><br/></td>
+<td><a href="/windows/win32/api/shobjidl/nn-shobjidl-iinitializenetworkfolder"><strong>IInitializeNetworkFolder</strong></a><br/></td>
 <td>Exposes a method that initializes the network data source CLSID_NetworkPlaces as specified.<br/></td>
 </tr>
 <tr class="odd">
@@ -1167,7 +1167,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a><br/></td>
-<td>Exposes methods that enumerate through an array of <a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgritem"><strong>SYNCMGRITEM</strong></a> structures. Each of these structures provides information about an item that can be synchronized. <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a> has the same methods as all standard enumerator interfaces: Next, Skip, Reset, and Clone.<br/></td>
+<td>Exposes methods that enumerate through an array of <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>SYNCMGRITEM</strong></a> structures. Each of these structures provides information about an item that can be synchronized. <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a> has the same methods as all standard enumerator interfaces: Next, Skip, Reset, and Clone.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrevent"><strong>ISyncMgrEvent</strong></a><br/></td>
@@ -1315,7 +1315,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist"><strong>IUpdateIDList</strong></a><br/></td>
-<td>Provides a method to update the <a href="/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist"><strong>ITEMIDLIST</strong></a> of the child of an folder object.<br/></td>
+<td>Provides a method to update the <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a> of the child of an folder object.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook"><strong>IURLSearchHook</strong></a><br/></td>
@@ -1360,7 +1360,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 <td>Provides a canonical persistence item, an item for which view customizations will be remembered.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager"><strong>IVirtualDesktopManager</strong></a><br/></td>
+<td><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager"><strong>IVirtualDesktopManager</strong></a><br/></td>
 <td>Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.<br/></td>
 </tr>
 <tr class="odd">

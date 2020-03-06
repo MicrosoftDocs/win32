@@ -31,7 +31,7 @@ When using an [**XPS\_COLOR**](xps-color.md) structure, a color profile resource
 [**IXpsOMColorProfileResourceCollection Interface**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresourcecollection)
 </dt> <dt>
 
-[XML Paper Specification](https://go.microsoft.com/?linkid=8435939)
+[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  

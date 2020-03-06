@@ -17,8 +17,8 @@ The following persistent object interfaces are currently defined:
 -   [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)
 -   [**IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)
 -   [**IPersistMoniker**](https://msdn.microsoft.com/library/ms775042(v=VS.85).aspx)
--   [IPersistMemory](https://go.microsoft.com/fwlink/p/?linkid=103818)
--   [IPersistPropertyBag](https://go.microsoft.com/fwlink/p/?linkid=103820)
+-   [IPersistMemory](https://msdn2.microsoft.com/library/Aa768210.aspx)
+-   [IPersistPropertyBag](https://msdn2.microsoft.com/library/Aa768210.aspx)
 
 Implementers choose which persistent object interfaces an object supports depending on how the object is to be used. By not supporting any persistent object interfaces, the implementer is effectively saying, "This object's state cannot be persistently stored." By supporting one or more persistent object interfaces, the implementer is effectively saying, "This object's state can be persistently stored in one or more data store mediums."
 

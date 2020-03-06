@@ -30,7 +30,7 @@ The following steps are required to initialize an ASF writer object for importin
     -   DRM\_LASignatureCert
     -   DRM\_LASignatureLicSrvCert
     -   DRM\_LASignaturePrivKey
-    -   Application for the necessary encryption certificates can be completed by filling out the [Windows Media Licensing Agreement (WMLA)](https://go.microsoft.com/fwlink/p/?linkid=8076) online.
+    -   Application for the necessary encryption certificates can be completed by filling out the [Windows Media Licensing Agreement (WMLA)](http://wmlicense.smdisp.net/licenserequest/default.asp) online.
 5.  Create a session key and fill out a [**WMDRM\_IMPORT\_SESSION\_KEY**](wmdrm-import-session-key.md) structure. The session key will be used for encrypting a content key. For an example, see [Create Session Key Example](create-session-key-example.md).
 6.  Create a content key from a random RC4 initialization vector, and fill out a [**WMDRM\_IMPORT\_CONTENT\_KEY**](wmdrm-import-content-key.md) structure. The content key is used for encrypting the media samples. For an example, see [Create Content Key Example](create-content-key-example.md).
 7.  Encrypt the content key with the session key, using RC4 encryption.

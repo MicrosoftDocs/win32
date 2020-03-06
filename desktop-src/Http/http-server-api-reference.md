@@ -15,7 +15,7 @@ Use the following reference sections when implementing applications that use the
 -   [HTTP Server API Version 1.0 Reference](http-server-api-version-1-0-reference.md)
 -   [HTTP Server API Version 2.0 Reference](http-server-api-version-2-0-reference.md)
 
-For more information about the HyperText Transfer Protocol (HTTP), see [RFC 2616](https://go.microsoft.com/fwlink/p/?linkid=84048).
+For more information about the HyperText Transfer Protocol (HTTP), see [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt).
 
  
 

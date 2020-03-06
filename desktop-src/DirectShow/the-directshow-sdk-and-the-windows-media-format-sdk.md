@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The DirectShow SDK and the Windows Media Format SDK
 
-DirectShow and the Windows Media Format SDK offer complementary solutions for writing applications that create and play back Windows Media Format streams. For more information, see the "[Audio and Video](https://go.microsoft.com/fwlink/p/?linkid=7296)" section of the MSDN Library.
+DirectShow and the Windows Media Format SDK offer complementary solutions for writing applications that create and play back Windows Media Format streams. For more information, see the "[Audio and Video](https://msdn.microsoft.com/library/ee663260(VS.85).aspx)" section of the MSDN Library.
 
 The ASF Writer filter accepts any number of input streams and creates an ASF file. The filter uses the Windows Media Format SDK to convert uncompressed audio or video files to Windows Media-based content. The compressed content is then stored in the ASF container format. If the content is audio only, then the file is given a .wma extension and is referred to as a Windows Media Audio file. If the content is video only or video and audio, then the file is given a .wmv extension and is referred to as a Windows Media Video file. Either type of file may also include metadata.
 

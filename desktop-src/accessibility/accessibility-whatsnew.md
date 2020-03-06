@@ -9,7 +9,7 @@ ms.date: 04/18/2019
 
 The Windows platform is constantly being updated with new accessibility and automation features for developers.
 
-[Install the tools and SDK](https://go.microsoft.com/fwlink/?LinkId=821431) on Windows 10 and you’re ready to either create a new Universal Windows app or explore how you can use your existing app code on Windows.
+[Install the tools and SDK](https://developer.microsoft.com/windows/downloads/#_blank) on Windows 10 and you’re ready to either create a new Universal Windows app or explore how you can use your existing app code on Windows.
 
 For more info on the latest tools available for testing the accessibility implementation of your Windows and web applications, see [Testing for accessibility](accessibility-testwithuia.md).
 

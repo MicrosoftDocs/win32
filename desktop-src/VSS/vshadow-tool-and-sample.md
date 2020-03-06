@@ -112,7 +112,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="odd">
 <td><span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br/></td>
-<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br/></td>
+<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the <a href="/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> enumeration.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-norevert"></span><span id="-NOREVERT"></span><strong>-norevert</strong><br/></td>
@@ -380,7 +380,7 @@ The **-er** command-line option cannot be combined with other command-line optio
 
 **vshadow** **-wm3**
 
-The **-ws** command-line option enumerates the VSS writers that are currently running on the computer and describes their state. This command is the equivalent of the [Vssadmin list writers](https://go.microsoft.com/fwlink/p/?linkid=103401) command. There are six possible state values: Stable, Failed, Unknown, Waiting for freeze, Frozen, and Waiting for completion.
+The **-ws** command-line option enumerates the VSS writers that are currently running on the computer and describes their state. This command is the equivalent of the [Vssadmin list writers](https://technet.microsoft.com/library/df7eb505-43c6-42af-ab42-3095f96ffc27) command. There are six possible state values: Stable, Failed, Unknown, Waiting for freeze, Frozen, and Waiting for completion.
 
 The **-wm** command-line option lists a summary of the writer metadata, including the affected volumes.
 

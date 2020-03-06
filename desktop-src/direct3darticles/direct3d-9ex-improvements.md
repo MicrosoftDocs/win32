@@ -276,7 +276,7 @@ When DWM is off, windowed applications display directly to the monitor screen wi
 
 ## Walk-Through of a Direct3D 9Ex Flip Model and Present Statistics Sample
 
-A sample application that takes advantage of Direct3D 9Ex Flip Model and associated present statistics functionality is shown in the [D3D9ExFlipEx sample on the MSDN Code Gallery](https://go.microsoft.com/fwlink/p/?linkid=179115).
+A sample application that takes advantage of Direct3D 9Ex Flip Model and associated present statistics functionality is shown in the [D3D9ExFlipEx sample on the MSDN Code Gallery](https://code.msdn.microsoft.com/D3D9ExFlipEx).
 
 **To opt into FlipEx presentation for Direct3D 9Ex sample**
 
@@ -569,7 +569,7 @@ VOID Render()
 
 ## Conclusion about Direct3D 9Ex Improvements
 
-On Windows 7, applications that display video or gauge frame rate during presentation can opt into Flip Model. The present statistics improvements that are associated with Flip Model Direct3D 9Ex can benefit applications that synchronize presentation per frame rate, with real time feedback for glitch detection and recovery. Developers that adopt the Direct3D 9Ex Flip Model should take targeting a separate HWND from GDI content and frame rate synchronization into account. Refer to details in this topic, the [D3D9ExFlipEx MSDN Code Gallery sample](https://go.microsoft.com/fwlink/p/?linkid=179115), and MSDN documentation. For additional documentation, see [DirectX Developer Center on MSDN](https://go.microsoft.com/fwlink/p/?linkid=179176).
+On Windows 7, applications that display video or gauge frame rate during presentation can opt into Flip Model. The present statistics improvements that are associated with Flip Model Direct3D 9Ex can benefit applications that synchronize presentation per frame rate, with real time feedback for glitch detection and recovery. Developers that adopt the Direct3D 9Ex Flip Model should take targeting a separate HWND from GDI content and frame rate synchronization into account. Refer to details in this topic, the [D3D9ExFlipEx MSDN Code Gallery sample](https://code.msdn.microsoft.com/D3D9ExFlipEx), and MSDN documentation. For additional documentation, see [DirectX Developer Center on MSDN](https://msdn.microsoft.com/directx/default.aspx).
 
 ## Call to Action
 
@@ -579,10 +579,10 @@ We encourage you to use Direct3D 9Ex Flip Model and its present statistics on Wi
 
 <dl> <dt>
 
-[D3D9ExFlipEx MSDN Code Gallery sample](https://go.microsoft.com/fwlink/p/?linkid=179115)
+[D3D9ExFlipEx MSDN Code Gallery sample](https://code.msdn.microsoft.com/D3D9ExFlipEx)
 </dt> <dt>
 
-[DirectX Developer Center on MSDN](https://go.microsoft.com/fwlink/p/?linkid=179176)
+[DirectX Developer Center on MSDN](https://msdn.microsoft.com/directx/default.aspx)
 </dt> </dl>
 
  

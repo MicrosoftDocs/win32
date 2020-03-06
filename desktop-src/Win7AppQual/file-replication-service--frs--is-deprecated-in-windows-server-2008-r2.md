@@ -33,9 +33,9 @@ To prevent issues that might occur as a result of these changes, migrate custom 
 
 ## Links to Other Resources
 
--   [FRS Overview](https://go.microsoft.com/fwlink/p/?linkid=205050)
--   [Distributed File System Replication: Frequently Asked Questions](https://go.microsoft.com/fwlink/p/?linkid=205051)
--   [SYSVOL Replication Migration Guide: FRS to DFS Replication](https://go.microsoft.com/fwlink/p/?linkid=205052)
+-   [FRS Overview](https://technet.microsoft.com/library/cc754297.aspx)
+-   [Distributed File System Replication: Frequently Asked Questions](https://docs.microsoft.com/windows-server/storage/dfs-replication/dfsr-faq)
+-   [SYSVOL Replication Migration Guide: FRS to DFS Replication](https://docs.microsoft.com/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr)
 
  
 

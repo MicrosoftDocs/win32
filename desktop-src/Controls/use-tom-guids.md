@@ -49,7 +49,7 @@ DEFINE_GUIDXXX(IID_ITextDocument,0x8CC497C0,0xA1DF,0x11CE,0x80,0x98,
 [Using Rich Edit Controls](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://go.microsoft.com/fwlink/p/?linkid=214295)
+[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
 </dt> </dl>
 
  

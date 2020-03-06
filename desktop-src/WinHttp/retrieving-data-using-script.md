@@ -162,7 +162,7 @@ The [**WaitForResponse**](iwinhttprequest-waitforresponse.md) method can also be
 [**WinHttpRequest**](winhttprequest.md)
 </dt> <dt>
 
-[HTTP/1.1 Request for Comments (RFC 2616)](https://go.microsoft.com/fwlink/p/?linkid=84048)
+[HTTP/1.1 Request for Comments (RFC 2616)](https://www.ietf.org/rfc/rfc2616.txt)
 </dt> </dl>
 
  

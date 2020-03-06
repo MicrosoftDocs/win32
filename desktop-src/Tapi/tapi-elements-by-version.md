@@ -1568,7 +1568,7 @@ Use with TAPI version(s)
 | [**LINEAGENTGROUPLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentgrouplist)               |                          | 2.0 | 2.1 | 2.2 |
 | [**LINEAGENTINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentinfo)                             |                          |     |     | 2.2 |
 | [**LINEAGENTLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentlist)                             |                          |     |     | 2.2 |
-| [**LINEAGENTSESSIONENTRY**](/windows/desktop/api/Tapi/ns-tapi-lineagentsession_tag)         |                          |     |     | 2.2 |
+| [**LINEAGENTSESSIONENTRY**](/windows/win32/api/tapi/ns-tapi-lineagentsessionentry)         |                          |     |     | 2.2 |
 | [**LINEAGENTSESSIONINFO**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessioninfo)           |                          |     |     | 2.2 |
 | [**LINEAGENTSESSIONLIST**](/windows/desktop/api/Tapi/ns-tapi-lineagentsessionlist)           |                          |     |     | 2.2 |
 | [**LINEAGENTSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineagentstatus)                     |                          | 2.0 | 2.1 | 2.2 |

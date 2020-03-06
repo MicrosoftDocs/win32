@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # For More Information
 
-For more information about the Sensor and Location platform, see the [Windows Hardware Developer Central Web site](https://go.microsoft.com/fwlink/p/?linkid=133337).
+For more information about the Sensor and Location platform, see the [Windows Hardware Developer Central Web site](https://www.microsoft.com/whdc/device/sensors/default.mspx).
 
-For more information about Windows application development, including Sensor API development, see the [Windows Developer Center Web site](https://go.microsoft.com/fwlink/p/?linkid=134676).
+For more information about Windows application development, including Sensor API development, see the [Windows Developer Center Web site](https://msdn.microsoft.com/windows/default.aspx?wt.svl=client).
 
-For late breaking information, including new samples, see the [Windows Sensor and Location Platforms](https://go.microsoft.com/fwlink/p/?linkid=152787) page on MSDN Code Gallery.
+For late breaking information, including new samples, see the [Windows Sensor and Location Platforms](https://code.msdn.microsoft.com/SensorsAndLocation) page on MSDN Code Gallery.
 
  
 

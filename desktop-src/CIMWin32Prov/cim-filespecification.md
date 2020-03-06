@@ -36,7 +36,7 @@ api_location:
 The **CIM\_FileSpecification** class represents a file that is either on or off of the system. The file is located in the directory identified by the [**CIM\_DirectorySpecificationFile**](cim-directoryspecificationfile.md) association. The [**Invoke**](invoke-method-in-class-cim-filespecification.md) method uses the information to check for the file's existence. Note that properties with a **Null** value are not checked.
 
 > [!IMPORTANT]
-> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
+> The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
 
  
 
@@ -255,7 +255,7 @@ Access type: Read-only
 Qualifiers: [**maxlen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (16)
 </dt> </dl>
 
-Algorithm for computing a 128-bit checksum for any file or object. The likelihood of two different files producing the same MD5 checksum is very small (about 1 in 2^64), and the MD5 checksum of a file can be used to construct a reliable content identifier that is likely to uniquely identify the file. The reverse is also true. If two files have the same MD5 checksum, it is very likely that the files are identical. For purposes of MOF specification of the MD5 property, the MD5 algorithm always generates a 32-character string. For example, the string "abcdefghijklmnopqrstuvwxyz" generates the string "c3fcd3d76192e4007dfb496cca67e13b". For more information about implementing the MD5 algorithm, see [RFC 1321](https://go.microsoft.com/fwlink/p/?linkid=84027).
+Algorithm for computing a 128-bit checksum for any file or object. The likelihood of two different files producing the same MD5 checksum is very small (about 1 in 2^64), and the MD5 checksum of a file can be used to construct a reliable content identifier that is likely to uniquely identify the file. The reverse is also true. If two files have the same MD5 checksum, it is very likely that the files are identical. For purposes of MOF specification of the MD5 property, the MD5 algorithm always generates a 32-character string. For example, the string "abcdefghijklmnopqrstuvwxyz" generates the string "c3fcd3d76192e4007dfb496cca67e13b". For more information about implementing the MD5 algorithm, see [RFC 1321](https://www.ietf.org/rfc/rfc1321.txt).
 
 </dd> <dt>
 

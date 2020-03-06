@@ -13,7 +13,7 @@ Records can have application-specific attributes that are a sequence of name or 
 A record attribute can be one of the following three types:
 
 -   **int** is an integer value.
--   **date** is a datetime value represented as one of the standard formats described at [https://www.w3.org/TR/NOTE-datetime](https://go.microsoft.com/fwlink/p/?linkid=84446).
+-   **date** is a datetime value represented as one of the standard formats described at [https://www.w3.org/TR/NOTE-datetime](https://www.w3.org/TR/NOTE-datetime).
 -   **string** is a Unicode string value.
 
 The following list identifies the specific attribute names that are reserved by the Peer Infrastructure:

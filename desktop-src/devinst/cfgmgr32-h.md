@@ -27,15 +27,15 @@ This section contains reference topics for the Cfgmgr32.h header.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des_s"><strong>BUSNUMBER_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_des"><strong>BUSNUMBER_DES</strong></a><br/></td>
 <td>The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s"><strong>BUSNUMBER_RANGE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_range"><strong>BUSNUMBER_RANGE</strong></a><br/></td>
 <td>The BUSNUMBER_RANGE structure specifies a resource requirements list that describes bus number usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s"><strong>BUSNUMBER_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-busnumber_resource"><strong>BUSNUMBER_RESOURCE</strong></a><br/></td>
 <td>The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
@@ -555,15 +555,15 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <br/> The <strong>CM_Modify_Res_Des_Ex</strong> function modifies a specified resource descriptor on a local or a remote machine.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/ne-cfgmgr32-_cm_notify_action"><strong>CM_NOTIFY_ACTION</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Cfgmgr32/ne-cfgmgr32-cm_notify_action"><strong>CM_NOTIFY_ACTION</strong></a><br/></td>
 <td>This enumeration identifies Plug and Play device event types.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-_cm_notify_event_data"><strong>CM_NOTIFY_EVENT_DATA</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_event_data"><strong>CM_NOTIFY_EVENT_DATA</strong></a><br/></td>
 <td>This is a device notification event data structure.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-_cm_notify_filter"><strong>CM_NOTIFY_FILTER</strong></a><br/></td>
+<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-cm_notify_filter"><strong>CM_NOTIFY_FILTER</strong></a><br/></td>
 <td>Device notification filter structure<br/></td>
 </tr>
 <tr class="odd">
@@ -723,79 +723,79 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 <td>The <strong>CMP_WaitNoPendingInstallEvents</strong> function waits until there are no pending device installation activities for the PnP manager to perform.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_conflict_details_a"><strong>CONFLICT_DETAILS</strong></a><br/></td>
+<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-conflict_details_a"><strong>CONFLICT_DETAILS</strong></a><br/></td>
 <td>The CONFLICT_DETAILS structure is used as a parameter to the <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw"><strong>CM_Get_Resource_Conflict_Details</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des_s"><strong>CS_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-cs_des"><strong>CS_DES</strong></a><br/></td>
 <td>The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource_s"><strong>CS_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-cs_resource"><strong>CS_RESOURCE</strong></a><br/></td>
 <td>The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des_s"><strong>DMA_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_des"><strong>DMA_DES</strong></a><br/></td>
 <td>The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range_s"><strong>DMA_RANGE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_range"><strong>DMA_RANGE</strong></a><br/></td>
 <td>The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource_s"><strong>DMA_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-dma_resource"><strong>DMA_RESOURCE</strong></a><br/></td>
 <td>The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des_s"><strong>IO_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_des"><strong>IO_DES</strong></a><br/></td>
 <td>The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-io_range_s"><strong>IO_RANGE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_range"><strong>IO_RANGE</strong></a><br/></td>
 <td>The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource_s"><strong>IO_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-io_resource"><strong>IO_RESOURCE</strong></a><br/></td>
 <td>The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32_s"><strong>IRQ_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_des_64"><strong>IRQ_DES</strong></a><br/></td>
 <td>The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range_s"><strong>IRQ_RANGE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_range"><strong>IRQ_RANGE</strong></a><br/></td>
 <td>The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Cfgmgr32/ns-cfgmgr32-irq_resource_32_s"><strong>IRQ_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-irq_resource_64"><strong>IRQ_RESOURCE</strong></a><br/></td>
 <td>The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des_s"><strong>MEM_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_des"><strong>MEM_DES</strong></a><br/></td>
 <td>The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range_s"><strong>MEM_RANGE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_range"><strong>MEM_RANGE</strong></a><br/></td>
 <td>The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource_s"><strong>MEM_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mem_resource"><strong>MEM_RESOURCE</strong></a><br/></td>
 <td>The MEM_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des_s"><strong>MFCARD_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mfcard_des"><strong>MFCARD_DES</strong></a><br/></td>
 <td>The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <em>one</em> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource_s"><strong>MFCARD_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-mfcard_resource"><strong>MFCARD_RESOURCE</strong></a><br/></td>
 <td>The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by <em>one</em> of the hardware functions provided by an instance of a multifunction device. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des_s"><strong>PCCARD_DES</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-pccard_des"><strong>PCCARD_DES</strong></a><br/></td>
 <td>The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource_s"><strong>PCCARD_RESOURCE</strong></a><br/></td>
+<td><a href="/windows/win32/api/cfgmgr32/ns-cfgmgr32-pccard_resource"><strong>PCCARD_RESOURCE</strong></a><br/></td>
 <td>The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.<br/></td>
 </tr>
 </tbody>
