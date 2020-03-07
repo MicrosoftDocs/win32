@@ -26,9 +26,9 @@ Microsoft provides several different document technologies to support a variety 
 
     In the case of using OpenXPS with Windows 8 and Windows Server 2012, support is only provided via the [XPS Document API](documents-xps.md)
 
-    If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk).
+    If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk).
 
-    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/driver-support-for-openxps).
+    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://docs.microsoft.com/windows-hardware/drivers/print/driver-support-for-openxps).
 
 -   **XPS Document API**
 
