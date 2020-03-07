@@ -15,23 +15,20 @@ This section describes the document technologies that are supported by Microsoft
 -   [XPS Document Tools](#xps-document-tools)
 -   [Related topics](#related-topics)
 
-The content in this section is intended for programmers. If you are not interested in programming, you can [search for more information about documents](https://www.bing.com/search?q=XPS Documents).
 
 ## Choosing a Document Technology
 
-Microsoft provides several different document technologies to support a variety of document applications. The following table can help you select the best Microsoft document technology for your application.
-
-![a diagram that shows the various microsoft document technologies](images/ostable.png)
+Microsoft provides several different document technologies to support a variety of document applications:
 
 -   **XPS and OpenXPS**
 
-    XPS and OpenXPS are supported in Windows 8 and later versions of Windows. See the preceding diagram to determine the correct usage scenario for XPS and OpenXPS. For more information about these document technologies, see [Open XML Paper Specification (OpenXPS)](https://www.ecma-international.org/memento/TC46.md).
+    XPS and OpenXPS are supported in Windows 8 and later versions of Windows. See the preceding diagram to determine the correct usage scenario for XPS and OpenXPS. For more information about these document technologies, see [Open XML Paper Specification (OpenXPS)](https://www.ecma-international.org/publications/standards/Ecma-388.htm).
 
     In the case of using OpenXPS with Windows 8 and Windows Server 2012, support is only provided via the [XPS Document API](documents-xps.md)
 
-    If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://msdn.microsoft.com/windows/hardware/gg487463).
+    If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk).
 
-    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://msdn.microsoft.com/library/windows/hardware/dn567559(v=vs.85).aspx).
+    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/driver-support-for-openxps).
 
 -   **XPS Document API**
 
@@ -105,11 +102,8 @@ The following tools are available to assist you with testing and troubleshooting
 
 [Printing](https://msdn.microsoft.com/library/Ff686805(v=VS.85).aspx)
 </dt> <dt>
-
+  
 [Print Sample Program](https://code.msdn.microsoft.com/WindowsPrintSample)
-</dt> <dt>
-
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> </dl>
 
  
