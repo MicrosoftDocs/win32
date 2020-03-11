@@ -482,6 +482,10 @@
               href: locale-itimemarkposn.md
             - name: "LOCALE_ITLZERO"
               href: locale-itlzero.md
+            - name: "LOCALE_IUSEUTF8LEGACYACP"
+              href: locale_iuseutf8legacyacp.md
+            - name: "LOCALE_IUSEUTF8LEGACYOEMCP"
+              href: locale_iuseutf8legacyoemcp.md
             - name: "LOCALE_NAME* Constants"
               href: locale-name-constants.md
             - name: "LOCALE_NEUTRAL"
