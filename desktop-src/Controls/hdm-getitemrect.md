@@ -24,17 +24,17 @@ Gets the bounding rectangle for a given item in a header control. You can send t
 
 <dl> <dt>
 
-*wParam* 
+*wParam* \[in\]
 </dt> <dd>
 
 The zero-based index of the header control item for which to retrieve the bounding rectangle.
 
 </dd> <dt>
 
-*lParam* 
+*lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle information.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that receives the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the RECT structure are expressed relative to the header control parent.
 
 </dd> </dl>
 
