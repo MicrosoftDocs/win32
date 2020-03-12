@@ -38,6 +38,10 @@ The following operations can be performed only on basic disks:
 
 ## Dynamic Disks
 
+> [!NOTE]
+> Dynamic Disks have been deprecated with Storage Spaces as their replacement. For more information on Storage Spaces, please see
+see [Storage Spaces Overview](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/overview).
+
 *Dynamic disks* provide features that basic disks do not, such as the ability to create volumes that span multiple disks (spanned and striped volumes) and the ability to create fault-tolerant volumes (mirrored and RAID-5 volumes). Like basic disks, dynamic disks can use the MBR or GPT partition styles on systems that support both. All volumes on dynamic disks are known as dynamic volumes. Dynamic disks offer greater flexibility for volume management because they use a database to track information about dynamic volumes on the disk and about other dynamic disks in the computer. Because each dynamic disk in a computer stores a replica of the dynamic disk database, for example, a corrupted dynamic disk database can repair one dynamic disk by using the database on another dynamic disk. The location of the database is determined by the partition style of the disk. On MBR partitions, the database is contained in the last 1 megabyte (MB) of the disk. On GPT partitions, the database is contained in a 1-MB reserved (hidden) partition.
 
 Dynamic disks are a separate form of volume management that allows volumes to have noncontiguous extents on one or more physical disks. Dynamic disks and volumes rely on the Logical Disk Manager (LDM) and Virtual Disk Service (VDS) and their associated features. These features enable you to perform tasks such as converting basic disks into dynamic disks, and creating fault-tolerant volumes. To encourage the use of dynamic disks, multi-partition volume support was removed from basic disks, and is now exclusively supported on dynamic disks.
