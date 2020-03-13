@@ -245,7 +245,7 @@ L"MessageBlockLength"
 
 
 
-This can be set on any key handle that has the CFB chaining mode set. By default, this property is set to 1 for 8-bit CFB. Setting it to the block size in bytes causes full-block CFB to be used.
+This can be set on any key handle that has the CFB chaining mode set. By default, this property is set to 1 for 8-bit CFB. Setting it to the block size in bytes causes full-block CFB to be used. For XTS keys it is used to set the size, in bytes, of the XTS Data Unit (commonly 512 or 4096).
 
 
 </dt> </dl> </dd> <dt>
