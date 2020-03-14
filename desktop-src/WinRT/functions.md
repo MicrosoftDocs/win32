@@ -47,6 +47,7 @@ ms.date: 05/10/2019
 | [**RoCaptureErrorContext**](https://msdn.microsoft.com/library/JJ219014(v=VS.85).aspx) | Saves the current error context so that it's available for later calls to the [**RoFailFastWithErrorContext**](https://msdn.microsoft.com/library/JJ219015(v=VS.85).aspx) function. |
 | [**RoClearError**](https://msdn.microsoft.com/library/Dn302148(v=VS.85).aspx) | Removes existing error information from the current thread environment block (TEB). |
 | [**RoFailFastWithErrorContext**](https://msdn.microsoft.com/library/JJ219015(v=VS.85).aspx) | Raises a non-continuable exception in the current process. |
+| [**RoFailFastWithErrorContextInternal2**](/windows/win32/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontextinternal2) | Raises a non-continuable exception in the current process, and also allows you to include additional error context not already captured by the OS. |
 | [**RoFreeParameterizedTypeExtra**](https://msdn.microsoft.com/library/BR229854(v=VS.85).aspx) | Frees the handle allocated by [**RoGetParameterizedTypeInstanceIID**](https://msdn.microsoft.com/library/BR229857(v=VS.85).aspx). |
 | [**RoGetActivatableClassRegistration**](https://msdn.microsoft.com/library/BR229855(v=VS.85).aspx) | Enables retrieving class registration information. |
 | [**RoGetActivationFactory**](https://msdn.microsoft.com/library/BR224648(v=VS.85).aspx) | Gets the activation factory for the specified runtime class. |
