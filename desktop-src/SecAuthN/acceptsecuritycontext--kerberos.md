@@ -14,19 +14,16 @@ The **AcceptSecurityContext (Kerberos)** function enables the server component o
 
 
 ```C++
-SECURITY_STATUS SEC_Entry InitializeSecurityContext(
+SECURITY_STATUS SEC_Entry AcceptSecurityContext(
   _In_opt_    PCredHandle    phCredential,
   _In_opt_    PCtxtHandle    phContext,
-  _In_        SEC_CHAR       *pszTargetName,
-  _In_        ULONG          fContextReq,
-  _In_        ULONG          Reserved1,
-  _In_        ULONG          TargetDataRep,
   _In_opt_    PSecBufferDesc pInput,
-  _In_        ULONG          Reserved2,
+  _In_        ULONG          fContextReq,
+  _In_        ULONG          TargetDataRep,
   _Inout_opt_ PCtxtHandle    phNewContext,
   _Inout_opt_ PSecBufferDesc pOutput,
   _Out_       PULONG         pfContextAttr,
-  _Out_opt_   PTimeStamp     ptsExpiry
+  _Out_opt_   PTimeStamp     ptsTimeStamp
 );
 ```
 
