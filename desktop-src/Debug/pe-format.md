@@ -1366,7 +1366,7 @@ The Win32 **ImageGetDigestStream** function provides a data stream from a target
 
 ### Delay-Load Import Tables (Image Only)
 
-These tables were added to the image to support a uniform mechanism for applications to delay the loading of a DLL until the first call into that DLL. The layout of the tables matches that of the traditional import tables that are described in section 6.4, "The **.idata** Section." Only a few details are discussed here.
+These tables were added to the image to support a uniform mechanism for applications to delay the loading of a DLL until the first call into that DLL. The layout of the tables matches that of the traditional import tables that are described in section 6.4, [The .idata Section](#the-idata-section)." Only a few details are discussed here.
 
 #### The Delay-Load Directory Table
 
@@ -1389,7 +1389,7 @@ The delay-load directory table is the counterpart to the import directory table.
 
  
 
-The tables that are referenced in this data structure are organized and sorted just as their counterparts are for traditional imports. For details, see [The .idata Section](https://docs.microsoft.com/windows).
+The tables that are referenced in this data structure are organized and sorted just as their counterparts are for traditional imports. For details, see [The .idata Section](#the-idata-section).
 
 #### Attributes
 
@@ -2320,7 +2320,7 @@ The strings are null-terminated. Each string begins immediately after the null b
 
 ## Import Library Format
 
-Traditional import libraries, that is, libraries that describe the exports from one image for use by another, typically follow the layout described in section 7, "Archive (Library) File Format." The primary difference is that import library members contain pseudo-object files instead of real ones, in which each member includes the section contributions that are required to build the import tables that are described in section 6.4, "The .idata Section." The linker generates this archive while building the exporting application.
+Traditional import libraries, that is, libraries that describe the exports from one image for use by another, typically follow the layout described in section 7, [Archive (Library) File Format](#archive-library-file-format). The primary difference is that import library members contain pseudo-object files instead of real ones, in which each member includes the section contributions that are required to build the import tables that are described in section 6.4, [The .idata Section](#the-idata-section) The linker generates this archive while building the exporting application.
 
 The section contributions for an import can be inferred from a small set of information. The linker can either generate the complete, verbose information into the import library for each member at the time of the library's creation or write only the canonical information to the library and let the application that later uses it generate the necessary data on the fly.
 
