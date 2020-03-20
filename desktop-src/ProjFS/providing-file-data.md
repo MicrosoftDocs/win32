@@ -12,15 +12,19 @@ When a provider first creates a virtualization root it is empty on the local sys
 
 ## Placeholder Creation
 
-When an application attempts to open a handle to a virtualized file, ProjFS calls the **[PRJ_GET_PLACEHOLDER_INFO_CB](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb)** callback for each item of the path that does not yet exist on disk.  For example, if an application tries to open `C:\virtRoot\dir1\dir2\file.txt`, but only the path `C:\virtRoot\dir1` exists on disk, then the provider will receive a callback for `C:\virtRoot\dir1\dir2`, then for `C:\virtRoot\dir1\dir2\file.txt`.
+When an application attempts to open a handle to a virtualized file, ProjFS calls the **[PRJ_GET_PLACEHOLDER_INFO_CB](/windows/win32/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb)** callback for each item of the path that does not yet exist on disk.  For example, if an application tries to open `C:\virtRoot\dir1\dir2\file.txt`, but only the path `C:\virtRoot\dir1` exists on disk, then the provider will receive a callback for `C:\virtRoot\dir1\dir2`, then for `C:\virtRoot\dir1\dir2\file.txt`.
 
 When ProjFS calls the provider's **PRJ_GET_PLACEHOLDER_INFO_CB** callback, the provider performs the following actions:
 
-1. The provider determines whether the requested name exists in its backing store.  The provider should use **[PrjFileNameCompare](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamecompare)** as the comparison routine when searching its backing store to determine whether the requested name exists in the backing store.  If it does not, the provider returns HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) from the callback.
+1. The provider determines whether the requested name exists in its backing store.  The provider should use **[PrjFileNameCompare](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamecompare)** as the comparison routine when searching its backing store to determine whether the requested name exists in the backing store.  If it does not, the provider returns HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND) from the callback.
 
-1. If the requested name does exist in the backing store, the provider populates a [PRJ_PLACEHOLDER_INFO](https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_info) structure with the item's file system metadata and calls **[PrjWritePlaceholderInfo](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo)** to send the data to ProjFS.  ProjFS will use that information to create a placeholder in the local file system for the item.
+1. If the requested name does exist in the backing store, the provider populates a [PRJ_PLACEHOLDER_INFO](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_placeholder_info) structure with the item's file system metadata and calls **[PrjWritePlaceholderInfo](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo)** to send the data to ProjFS.  ProjFS will use that information to create a placeholder in the local file system for the item.
 
-> ProjFS will use whatever FILE_ATTRIBUTE flags the provider sets in the **FileBasicInfo.FileAttributes** member of PRJ_PLACEHOLDER_INFO except for FILE_ATTRIBUTE_DIRECTORY; it will set the correct value for FILE_ATTRIBUTE_DIRECTORY in the **FileBasicInfo.FileAttributes** member according to the supplied value of the **FileBasicInfo.IsDirectory** member.
+    > ProjFS will use whatever FILE_ATTRIBUTE flags the provider sets in the **FileBasicInfo.FileAttributes** member of PRJ_PLACEHOLDER_INFO except for FILE_ATTRIBUTE_DIRECTORY; it will set the correct value for FILE_ATTRIBUTE_DIRECTORY in the **FileBasicInfo.FileAttributes** member according to the supplied value of the **FileBasicInfo.IsDirectory** member.
+
+    > If the backing store supports symbolic links, the provider must use **[PrjWritePlaceholderInfo2](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2)** to send the placeholder data to ProjFS.  **PrjWritePlaceholderInfo2** supports an extra buffer input that allows the provider to specify that the placeholder is a symbolic link and what its target is.  It otherwise behaves as described above for **PrjWritePlaceholderInfo**.  The following sample illustrates how to use **PrjWritePlaceholderInfo2** to provide support for symbolic links.
+    >
+    > Note that **PrjWritePlaceholderInfo2** is supported as of Windows 10, version 2004.  A provider should probe for the existence of **PrjWritePlaceholderInfo2**, for instance by using **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
 
 ```C++
 HRESULT
@@ -32,8 +36,11 @@ MyGetPlaceholderInfoCallback(
     // information from its backing store for a given file path.  The first
     // parameter is an _In_ parameter that supplies the name to look for.
     // If the item exists the routine provides the file information in the
-    // remaining _Out_ parameters.  Here we capture them in a
-    // PRJ_PLACEHOLDER_INFO buffer.
+    // remaining parameters, all of which are annotated _Out_:
+    // * 2nd parameter: the name as it appears in the backing store
+    // * 3rd-9th parameters: basic file info
+    // * 10th parameter: if the item is a symbolic link, a pointer to a 
+    //   NULL-terminated string identifying the link's target
     //
     // Note that the routine returns the name that is in the backing
     // store.  This is because the input file path may not be in the same
@@ -41,9 +48,10 @@ MyGetPlaceholderInfoCallback(
     // the placeholder with the name it has in the backing store.
     //
     // Note also that this example does not provide anything beyond basic
-    // file information.
+    // file information and a possible symbolic link target.
     HRESULT hr;
     WCHAR* backingStoreName = NULL;
+    WCHAR* symlinkTarget = NULL;
     PRJ_PLACEHOLDER_INFO placeholderInfo = {};
     hr = MyGetItemInfo(callbackData->FilePathName,
                        &backingStoreName,
@@ -53,7 +61,8 @@ MyGetPlaceholderInfoCallback(
                        &placeholderInfo.FileBasicInfo.LastAccessTime,
                        &placeholderInfo.FileBasicInfo.LastWriteTime,
                        &placeholderInfo.FileBasicInfo.ChangeTime,
-                       &placeholderInfo.FileBasicInfo.FileAttributes);
+                       &placeholderInfo.FileBasicInfo.FileAttributes,
+                       &symlinkTarget);
 
     if (FAILED(hr))
     {
@@ -64,14 +73,36 @@ MyGetPlaceholderInfoCallback(
         return hr;
     }
 
-    // If this returns an error we'll want to return that error from the
-    // callback.
-    hr = PrjWritePlaceholderInfo(callbackData->NamespaceVirtualizationContext,
-                                 backingStoreName,
-                                 &placeholderInfo,
-                                 sizeof(placeholderInfo));
+    // If the file path is for a symbolic link, pass that in with the placeholder info.
+    if (symlinkTarget != NULL)
+    {
+        PRJ_EXTENDED_INFO extraInfo = {};
+
+        extraInfo.InfoType = PRJ_EXT_INFO_SYMLINK;
+        extraInfo.Symlink.TargetName = symlinkTarget;
+
+        // If this returns an error we'll want to return that error from the callback.
+        hr = PrjWritePlaceholderInfo2(callbackData->NamespaceVirtualizationContext,
+                                      backingStoreName,
+                                      &placeholderInfo,
+                                      sizeof(placeholderInfo),
+                                      &extraInfo);
+    }
+    else
+    {
+        // If this returns an error we'll want to return that error from the callback.
+        hr = PrjWritePlaceholderInfo(callbackData->NamespaceVirtualizationContext,
+                                     backingStoreName,
+                                     &placeholderInfo,
+                                     sizeof(placeholderInfo));
+    }
 
     free(backingStoreName);
+
+    if (symlinkTarget != NULL)
+    {
+        free(symlinkTarget);
+    }
 
     return hr;
 }
@@ -79,11 +110,11 @@ MyGetPlaceholderInfoCallback(
 
 ## Providing File Contents
 
-When ProjFS needs to ensure that a virtualized file contains data, such as when an application attempts to read from the file, ProjFS calls the **[PRJ_GET_FILE_DATA_CB](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_file_data_cb)** callback for that item to request that the provider supply the file's contents.  The provider retrieves the file's data from its backing store and uses **[PrjWriteFileData](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata)** to send the data to the local file system.
+When ProjFS needs to ensure that a virtualized file contains data, such as when an application attempts to read from the file, ProjFS calls the **[PRJ_GET_FILE_DATA_CB](/windows/win32/api/projectedfslib/nc-projectedfslib-prj_get_file_data_cb)** callback for that item to request that the provider supply the file's contents.  The provider retrieves the file's data from its backing store and uses **[PrjWriteFileData](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwritefiledata)** to send the data to the local file system.
 
 > When ProjFS calls this callback, the **FilePathName** member of the _callbackData_ parameter supplies the name the file had when its placeholder was created.  That is, if the file has been renamed since its placeholder was created, the callback supplies the original (pre-rename) name, not the current (post-rename) name.  If necessary, the provider can use the **VersionInfo** member of the _callbackData_ parameter to determine which file's data is being requested.
 >
-> For more information on how the **VersionInfo** member of PRJ_CALLBACK_DATA may be used, see the documentation for [PRJ_PLACEHOLDER_VERSION_INFO](https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info) and the [Handling View Changes](handling-view-changes.md) topic.
+> For more information on how the **VersionInfo** member of PRJ_CALLBACK_DATA may be used, see the documentation for [PRJ_PLACEHOLDER_VERSION_INFO](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_placeholder_version_info) and the [Handling View Changes](handling-view-changes.md) topic.
 
 The provider is allowed to split the range of data requested in the **PRJ_GET_FILE_DATA_CB** callback into multiple calls to **PrjWriteFileData**, each supplying a portion of the requested range.  However, the provider must supply the entire requested range before completing the callback.  For example, if the callback requests 10 MB of data from _byteOffset_ 0 for _length_ 10,485,760, the provider may choose to supply the data in 10 calls to **PrjWriteFileData**, each sending 1 MB.
 
@@ -93,8 +124,8 @@ The provider is also free to supply more than the requested range, up to the len
 
 ProjFS uses the [FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) from the caller who requires the data to write the data to the local file system.  However ProjFS cannot control whether that FILE_OBJECT was opened for buffered or unbuffered I/O.  If the FILE_OBJECT was opened for unbuffered I/O, reads and writes to the file must adhere to certain alignment requirements.  The provider can meet those alignment requirements by doing two things:
 
-1. Use **[PrjAllocateAlignedBuffer](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer)** to allocate the buffer to pass in **PrjWriteFileData**'s _buffer_ parameter.
-1. Ensure that the _byteOffset_ and _length_ parameters of **PrjWriteFileData** are integer multiples of the storage device's alignment requirement (note that the _length_ parameter does not have to meet this requirement if _byteOffset_ + _length_ is equal to the end of the file).  The provider can use **[PrjGetVirtualizationInstanceInfo](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo)** to retrieve the storage device's alignment requirement.
+1. Use **[PrjAllocateAlignedBuffer](/windows/win32/api/projectedfslib/nf-projectedfslib-prjallocatealignedbuffer)** to allocate the buffer to pass in **PrjWriteFileData**'s _buffer_ parameter.
+1. Ensure that the _byteOffset_ and _length_ parameters of **PrjWriteFileData** are integer multiples of the storage device's alignment requirement (note that the _length_ parameter does not have to meet this requirement if _byteOffset_ + _length_ is equal to the end of the file).  The provider can use **[PrjGetVirtualizationInstanceInfo](/windows/win32/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo)** to retrieve the storage device's alignment requirement.
 
 ProjFS leaves it up to the provider to calculate proper alignment.  This is because when processing a **PRJ_GET_FILE_DATA_CB** callback the provider may opt to return the requested data across multiple **PrjWriteFileData** calls, each returning part of the total requested data, before completing the callback.
 

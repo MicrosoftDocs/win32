@@ -63,6 +63,8 @@
         href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamematch
       - name: "PrjFillDirEntryBuffer"
         href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer
+      - name: "PrjFillDirEntryBuffer2"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2
       - name: "PrjFreeAlignedBuffer"
         href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjfreealignedbuffer
       - name: "PrjGetOnDiskFileState"
@@ -81,6 +83,8 @@
         href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwritefiledata
       - name: "PrjWritePlaceholderInfo"
         href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo
+      - name: "PrjWritePlaceholderInfo2"
+        href: /windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2
     - name: "Projected File System structures"
       href: projfs-structures.md
       items:

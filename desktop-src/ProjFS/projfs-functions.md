@@ -22,6 +22,7 @@ The following functions are declared in projectedfslib.h.
 | [**PrjFileNameCompare**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamecompare) | Compares two file names and returns a value that indicates their relative collation order. |
 | [**PrjFileNameMatch**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamematch) | Determines whether a file name matches a search pattern. |
 | [**PrjFillDirEntryBuffer**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer) | Provides information for one file or directory to an enumeration. |
+| [**PrjFillDirEntryBuffer2**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2) | Provides information for one file or directory to an enumeration and allows the caller to specify extended information. |
 | [**PrjFreeAlignedBuffer**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfreealignedbuffer) | Frees an allocated buffer. |
 | [**PrjGetOnDiskFileState**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjgetondiskfilestate) | Gets the on-disk file state for a file or directory. |
 | [**PrjGetVirtualizationInstanceInfo**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjgetvirtualizationinstanceinfo) | Retrieves information about the virtualization instance. |
@@ -31,3 +32,4 @@ The following functions are declared in projectedfslib.h.
 | [**PrjUpdateFileIfNeeded**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjupdatefileifneeded) | Enables a provider to update an item that has been cached on the local file system. |
 | [**PrjWriteFileData**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwritefiledata) | Sends file contents to ProjFS. |
 | [**PrjWritePlaceholderInfo**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo) | Sends file or directory metadata to ProjFS. |
+| [**PrjWritePlaceholderInfo2**](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2) | Sends file or directory metadata to ProjFS and allows the caller to specify extended information. |
