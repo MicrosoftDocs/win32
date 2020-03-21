@@ -83,7 +83,7 @@ Samples a texture, after applying the input bias to the mipmap level.
 </tr>
 <tr class="even">
 <td><p><span id="Bias"></span><span id="bias"></span><span id="BIAS"></span><em>Bias</em></p></td>
-<td><p>[in] The bias value, which is a floating-point number between 0.0 and 1.0 inclusive, is applied to a mip level before sampling.</p></td>
+<td><p>[in] The bias value, which is a floating-point number between -16.0 and 15.99, is applied to a mip level before sampling.</p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
