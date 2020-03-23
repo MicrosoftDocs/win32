@@ -135,6 +135,8 @@ For details of format support at different hardware feature levels, refer to:
 <dl> <dt>
 
 [Direct3D 11 on Downlevel Hardware](overviews-direct3d-11-devices-downlevel.md)
+
+[Hardware Feature Levels (Direct3D 12)](https://docs.microsoft.com/en-us/windows/win32/direct3d12/hardware-feature-levels)
 </dt> </dl>
 
  
