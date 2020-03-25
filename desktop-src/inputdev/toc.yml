@@ -122,15 +122,15 @@
         href: keyboard-input-structures.md
         items: 
         - name: "HARDWAREINPUT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghardwareinput
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-hardwareinput
         - name: "INPUT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input
         - name: "KEYBDINPUT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkeybdinput
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput
         - name: "LASTINPUTINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taglastinputinfo
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-lastinputinfo
         - name: "MOUSEINPUT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmouseinput
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mouseinput
       - name: "Keyboard Input Constants"
         href: keyboard-input-constants.md
         items: 
@@ -269,9 +269,9 @@
         href: mouse-input-structures.md
         items: 
         - name: "MOUSEMOVEPOINT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousemovepoint
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousemovepoint
         - name: "TRACKMOUSEEVENT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-trackmouseevent
   - name: "Raw Input"
     href: raw-input.md
     items: 
@@ -317,24 +317,24 @@
         href: raw-input-structures.md
         items: 
         - name: "RAWHID"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid
         - name: "RAWINPUT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput
         - name: "RAWINPUTDEVICE"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice
         - name: "RAWINPUTDEVICELIST"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist
         - name: "RAWINPUTHEADER"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader
         - name: "RAWKEYBOARD"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawkeyboard
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawkeyboard
         - name: "RAWMOUSE"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawmouse
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawmouse
         - name: "RID_DEVICE_INFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info
         - name: "RID_DEVICE_INFO_HID"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info_hid
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid
         - name: "RID_DEVICE_INFO_KEYBOARD"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info_keyboard
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard
         - name: "RID_DEVICE_INFO_MOUSE"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info_mouse
+          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse
