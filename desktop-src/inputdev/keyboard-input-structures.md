@@ -10,16 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**HARDWAREINPUT**](https://msdn.microsoft.com/library/ms646269(v=VS.85).aspx)
--   [**INPUT**](https://msdn.microsoft.com/library/ms646270(v=VS.85).aspx)
--   [**KEYBDINPUT**](https://msdn.microsoft.com/library/ms646271(v=VS.85).aspx)
--   [**LASTINPUTINFO**](https://msdn.microsoft.com/library/ms646272(v=VS.85).aspx)
--   [**MOUSEINPUT**](https://msdn.microsoft.com/library/ms646273(v=VS.85).aspx)
-
- 
-
- 
-
-
-
-
+- [**HARDWAREINPUT**](/windows/win32/api/winuser/ns-winuser-hardwareinput)
+- [**INPUT**](/windows/win32/api/winuser/ns-winuser-input)
+- [**KEYBDINPUT**](/windows/win32/api/winuser/ns-winuser-keybdinput)
+- [**LASTINPUTINFO**](/windows/win32/api/winuser/ns-winuser-lastinputinfo)
+- [**MOUSEINPUT**](/windows/win32/api/winuser/ns-winuser-mouseinput)
