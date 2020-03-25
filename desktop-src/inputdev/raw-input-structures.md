@@ -10,17 +10,17 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**RAWHID**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid)
--   [**RAWINPUT**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput)
--   [**RAWINPUTDEVICE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice)
--   [**RAWINPUTDEVICELIST**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist)
--   [**RAWINPUTHEADER**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader)
--   [**RAWKEYBOARD**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawkeyboard)
--   [**RAWMOUSE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawmouse)
--   [**RID\_DEVICE\_INFO**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info)
--   [**RID\_DEVICE\_INFO\_HID**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid)
--   [**RID\_DEVICE\_INFO\_KEYBOARD**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard)
--   [**RID\_DEVICE\_INFO\_MOUSE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse)
+-   [**RAWHID**](/windows/desktop/api/winuser/ns-winuser-rawhid)
+-   [**RAWINPUT**](/windows/desktop/api/winuser/ns-winuser-rawinput)
+-   [**RAWINPUTDEVICE**](/windows/desktop/api/winuser/ns-winuser-rawinputdevice)
+-   [**RAWINPUTDEVICELIST**](/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist)
+-   [**RAWINPUTHEADER**](/windows/desktop/api/winuser/ns-winuser-rawinputheader)
+-   [**RAWKEYBOARD**](/windows/desktop/api/winuser/ns-winuser-rawkeyboard)
+-   [**RAWMOUSE**](/windows/desktop/api/winuser/ns-winuser-rawmouse)
+-   [**RID\_DEVICE\_INFO**](/windows/desktop/api/winuser/ns-winuser-rid_device_info)
+-   [**RID\_DEVICE\_INFO\_HID**](/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid)
+-   [**RID\_DEVICE\_INFO\_KEYBOARD**](/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard)
+-   [**RID\_DEVICE\_INFO\_MOUSE**](/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse)
 
  
 
