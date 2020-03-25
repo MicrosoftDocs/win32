@@ -55,9 +55,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 | 30    | The previous key state. The value is 1 if the key is down before the message is sent, or it is 0 if the key is up.                                                                                                                                                    |
 | 31    | The transition state. The value is always 0 for a **WM\_SYSKEYDOWN** message.                                                                                                                                                                                         |
 
-
-
- 
+See [Keystroke Message Flags](about-keyboard-input.md#keystroke-message-flags) for additional details.
 
 </dd> </dl>
 
