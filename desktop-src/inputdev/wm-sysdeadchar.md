@@ -55,9 +55,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 | 30    | The previous key state. The value is 1 if the key is down before the message is sent, or it is 0 if the key is up.                                                                                                                                                    |
 | 31    | Transition state. The value is 1 if the key is being released, or it is 0 if the key is being pressed.                                                                                                                                                                |
 
-
-
- 
+For more detail, see [Keystroke Message Flags](about-keyboard-input.md#keystroke-message-flags).
 
 </dd> </dl>
 
