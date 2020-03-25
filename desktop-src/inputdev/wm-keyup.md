@@ -55,7 +55,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 | 30    | The previous key state. The value is always 1 for a **WM\_KEYUP** message.                                                                                                                                       |
 | 31    | The transition state. The value is always 1 for a **WM\_KEYUP** message.                                                                                                                                         |
 
-See [Keystroke Message Flags](about-keyboard-input.md#keystroke-message-flags) for additional details.
+For more detail, see [Keystroke Message Flags](about-keyboard-input.md#keystroke-message-flags).
  
 
 </dd> </dl>
