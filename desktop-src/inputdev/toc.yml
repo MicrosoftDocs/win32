@@ -185,7 +185,7 @@
         - name: "GET_KEYSTATE_WPARAM"
           href: https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-get_keystate_wparam
         - name: "GET_MOUSEORKEY_LPARAM"
-          href: get-mouseorkey-lparam.md
+          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)
         - name: "GET_NCHITTEST_WPARAM"
           href: https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-get_nchittest_wparam
         - name: "GET_WHEEL_DELTA_WPARAM"
