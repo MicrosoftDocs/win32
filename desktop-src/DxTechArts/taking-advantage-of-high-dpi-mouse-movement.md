@@ -67,7 +67,7 @@ To read mouse movement data from the WM\_INPUT message, the device must first be
     Rid[0].usUsage = HID_USAGE_GENERIC_MOUSE; 
     Rid[0].dwFlags = RIDEV_INPUTSINK;   
     Rid[0].hwndTarget = hWnd;
-    RegisterRawInputDevices(Rid, 1, sizeof(Rid[0]);
+    RegisterRawInputDevices(Rid, 1, sizeof(Rid[0]));
 ```
 
 The following code handles WM\_INPUT messages in the application's WinProc handler:
