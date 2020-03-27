@@ -61,7 +61,7 @@ The following table identifies the control codes that are used in disk managemen
 
 The following control codes are obsolete:
 
-<dl> **IOCTL\_DISK\_CONTROLLER\_NUMBER**  
+**IOCTL\_DISK\_CONTROLLER\_NUMBER**  
 [**IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_geometry)  
 [**IOCTL\_DISK\_GET\_DRIVE\_LAYOUT**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_layout)  
 [**IOCTL\_DISK\_GET\_PARTITION\_INFO**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_partition_info)  
@@ -72,8 +72,7 @@ The following control codes are obsolete:
 **IOCTL\_DISK\_REQUEST\_DATA**  
 **IOCTL\_DISK\_REQUEST\_STRUCTURE**  
 [**IOCTL\_DISK\_SET\_DRIVE\_LAYOUT**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_drive_layout)  
-[**IOCTL\_DISK\_SET\_PARTITION\_INFO**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_partition_info)  
-</dl>
+[**IOCTL\_DISK\_SET\_PARTITION\_INFO**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_set_partition_info)
 
  
 
