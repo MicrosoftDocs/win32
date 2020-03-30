@@ -3597,6 +3597,8 @@
         href: /windows/win32/api/mfidl/ne-mfidl-mfpolicymanager_action
       - name: "MFRATE_DIRECTION"
         href: /windows/win32/api/mfidl/ne-mfidl-mfrate_direction
+      - name: "MFSampleAllocatorUsage"
+        href: /windows/desktop/api/mfidl/ne-mfidl-mfsampleallocatorusage
       - name: "MFSampleEncryptionProtectionScheme"
         href: https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme
       - name: "MFSensorDeviceType"
@@ -6558,6 +6560,13 @@
           href: /windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleflags
         - name: "SetSampleTime"
           href: /windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampletime
+      - name: "IMFSampleAllocatorControl"
+        href: /windows/desktop/api/mfidl/nn-mfidl-imfsampleallocatorcontrol
+        items:
+        - name: "IMFSampleAllocatorControl::GetAllocatorUsage"
+          href: /windows/desktop/api/mfidl/nf-mfidl-imfsampleallocatorcontrol-getallocatorusage
+        - name: "IMFSampleAllocatorControl::SetDefaultAllocator"
+          href: /windows/desktop/api/mfidl/nf-mfidl-imfsampleallocatorcontrol-setdefaultallocator
       - name: "IMFSampleGrabberSinkCallback"
         href: /windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback
         items: 
@@ -7408,6 +7417,11 @@
           href: /windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritycount
         - name: "IsFinal"
           href: /windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-isfinal
+      - name: "IMFVideoCaptureSampleAllocator"
+        href: /windows/desktop/api/mfidl/nn-mfidl-imfvideocapturesampleallocator
+        items:
+        - name: "IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator"
+          href: /windows/desktop/api/mfidl/nf-mfidl-imfvideocapturesampleallocator-initializecapturesampleallocator
       - name: "IMFVideoDeviceID"
         href: /windows/desktop/api/evr/nn-evr-imfvideodeviceid
         items: 
