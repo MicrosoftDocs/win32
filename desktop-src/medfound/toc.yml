@@ -3940,6 +3940,8 @@
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelcreatefile
       - name: "MFCancelWorkItem"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelworkitem
+      - name: "MFCombineSample"
+        href: /windows/desktop/api/mfapi/nf-mfapi-mfcombinesample
       - name: "MFCheckContentProtectionDevice"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt219215(v=vs.85)
       - name: "MFCompareFullToPartialMediaType"
@@ -4354,6 +4356,8 @@
         href: /windows/desktop/api/mfapi/nf-mfapi-mfsetattributesize
       - name: "MFShutdown"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfshutdown
+      - name: "MFSplitSample"
+        href: /windows/desktop/api/mfapi/nf-mfapi-mfsplitsample
       - name: "MFShutdownObject"
         href: /windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject
       - name: "MFStartup"
