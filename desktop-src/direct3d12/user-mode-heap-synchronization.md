@@ -122,7 +122,7 @@ Note that bundles are not consumed by any queues and therefore this type cannot 
 
 ### Fences
 
-The multi-engine API provides explicit APIs to create and synchronize using fences. A fence is a synchronization construct determined by monotonically increasing a UINT64 value. Fence values are set by the application. A signal operation increases the fence value and a wait operation blocks until the fence has reached the requested value. An event can be fired when a fence reaches a certain value.
+The multi-engine API provides explicit APIs to create and synchronize using fences. A fence is a synchronization construct controlled by a UINT64 value. Fence values are set by the application. A signal operation modifies the fence value and a wait operation blocks until the fence has reached the requested value or greater. An event can be fired when a fence reaches a certain value.
 
 Refer to the methods of the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) interface.
 
@@ -130,15 +130,17 @@ Refer to the methods of the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-
 -   [**SetEventOnCompletion**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion) : causes an event to fire when the fence reaches a given value.
 -   [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-signal) : sets the fence to the given value.
 
-Fences allow CPU access to the current fence value, and CPU waits and signals. Independent components can share the default queues but create their own fences and control their own fence values and synchronization.
+Fences allow CPU access to the current fence value, and CPU waits and signals..
 
-The [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-signal) method on the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) interface updates a fence from the CPU side. The [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal) method on [**ID3D12CommandQueue**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue) updates a fence from the GPU side.
+The [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-signal) method on the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) interface updates a fence from the CPU side. This update occurs immediately. The [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal) method on [**ID3D12CommandQueue**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue) updates a fence from the GPU side. This update occurs after all other operations on the command queue have been completed.
 
 All nodes in a multi-engine setup can read and react to any fence reaching the right value.
 
 Applications set their own fence values, a good starting point might be increasing a fence once per frame.
 
-The fence APIs provide powerful synchronization functionality but can create potentially difficult to debug issues.
+A fence *may* be *rewound*. This means that the fence value does not need to solely increment. If a **Signal** operation is enqueued on two different command queues, or if two CPU threads are both calling **Signal** on a fence, there may be a race to determine which **Signal** completes last, and therefore which fence value is the one which will remain. If a fence is rewound, any new waits (including **SetEventOnCompletion** requests) will be compared against the new lower fence value, and therefore may not be satisfied, even if the fence value had previously been high enough to satisfy them. If a race does occur, between a value which will satisfy an outstanding wait, and a lower value which will not, the wait *will* be satisfied regardless of which value remains afterwards.
+
+The fence APIs provide powerful synchronization functionality but can create potentially difficult to debug issues. It is recommended that each fence only be used to indicate progress on one timeline to prevent races between signalers.
 
 ### Copy and compute command lists
 
