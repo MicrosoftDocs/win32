@@ -22,7 +22,7 @@ To retrieve the names or help text, call the [**RegQueryValueEx**](https://docs.
 
 
 
- 
+
 
 The function returns the data as a list of strings. Each string is null-terminated. The last string is followed by an additional null terminator. The strings are listed in pairs. The first string of each pair is the index, and the second string is the text associated with the index. The counter data uses only even-numbered indexes, while the help data uses odd-numbered indexes. The pairs are returned in increasing index order.
 
@@ -30,16 +30,16 @@ The following lists show examples of counter and help data. Incrementing a given
 
 Counter data pairs.
 
-<dl> 2 System  
-4 Memory  
-6 % Processor Time  
+<dl> 2 System
+4 Memory
+6 % Processor Time
 </dl>
 
 Help data pairs.
 
-<dl> 3 The System object type includes those counters that ...  
-5 The Memory object type includes those counters that ...  
-7 Processor Time is expressed as a percentage of the ...  
+<dl> 3 The System object type includes those counters that ...
+5 The Memory object type includes those counters that ...
+7 Processor Time is expressed as a percentage of the ...
 </dl>
 
 Note that the first pair of strings in the counter data do not identify a counter name and can be ignored. The index number of the first pair is 1 and the string is a numeric string that represents the maximum index value for system counters.
@@ -67,7 +67,7 @@ void wmain(void)
     LPWSTR pCounterTextHead = NULL; // Head of the MULTI_SZ buffer that contains the Counter text.
     LPWSTR pHelpTextHead = NULL;    // Head of the MULTI_SZ buffer that contains the Help text.
     LPDWORD pTextOffsets = NULL;    // Array of DWORDS that contain the offsets to the text in
-                                    // pCounterTextHead and pHelpTextHead. The text index 
+                                    // pCounterTextHead and pHelpTextHead. The text index
                                     // values mirror the array index.
     DWORD dwNumberOfOffsets = 0;    // Number of elements in the pTextOffsets array.
 
@@ -248,7 +248,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         0,
         KEY_READ,
         &hkey);
-    
+
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"RegOpenKeyEx failed with 0x%x.\n", status);
@@ -275,7 +275,7 @@ cleanup:
 void PrintCounterAndHelpText(LPWSTR pCounterTextHead, LPWSTR pHelpTextHead, LPDWORD pTextOffsets, DWORD dwNumberOfOffsets)
 {    UNREFERENCED_PARAMETER(dwNumberOfOffsets);
     // Counter index values are even numbers that start at 2 so begin with
-    // the second element of the array of offsets. Many array elements will 
+    // the second element of the array of offsets. Many array elements will
     // not contain offset values (index values are not contiguous).
 
     // There is typically a large number of counters, so this example prints
@@ -318,7 +318,7 @@ void wmain(void)
     LPWSTR pCounterTextHead = NULL; // Head of the MULTI_SZ buffer that contains the Counter text.
     LPWSTR pHelpTextHead = NULL;    // Head of the MULTI_SZ buffer that contains the Help text.
     LPDWORD pTextOffsets = NULL;    // Array of DWORDS that contain the offsets to the text in
-                                    // pCounterTextHead and pHelpTextHead. The text index 
+                                    // pCounterTextHead and pHelpTextHead. The text index
                                     // values mirror the array index.
     DWORD dwNumberOfOffsets = 0;    // Number of elements in the pTextOffsets array.
 
@@ -369,7 +369,7 @@ LPWSTR GetText(LPWSTR pwszSource)
     DWORD dwBufferSize = 0;
     LONG status = ERROR_SUCCESS;
     LANGID langid = 0;
-    WCHAR wszSourceAndLangId[15];   // Identifies the source of the text; either 
+    WCHAR wszSourceAndLangId[15];   // Identifies the source of the text; either
                                     // "Counter <langid>" or "Help <langid>"
 
 
@@ -416,10 +416,10 @@ cleanup:
 
 
 // Retrieve the default language identifier of the current user. For most languages,
-// you use the primary language identifier only to retrieve the text. In Windows XP and 
-// Windows Server 2003, you use the complete language identifier to retrieve Chinese 
+// you use the primary language identifier only to retrieve the text. In Windows XP and
+// Windows Server 2003, you use the complete language identifier to retrieve Chinese
 // text. In Windows Vista, you use the complete language identifier to retrieve Portuguese
-// text. 
+// text.
 LANGID GetLanguageId()
 {
     LANGID langid = 0;  // Complete language identifier.
@@ -549,7 +549,7 @@ DWORD GetNumberOfTextEntries(LPWSTR pwszSource)
         0,
         KEY_READ,
         &hkey);
-    
+
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"RegOpenKeyEx failed with 0x%x.\n", status);
@@ -576,7 +576,7 @@ cleanup:
 void PrintCounterAndHelpText(LPWSTR pCounterTextHead, LPWSTR pHelpTextHead, LPDWORD pTextOffsets, DWORD dwNumberOfOffsets)
 {   UNREFERENCED_PARAMETER(dwNumberOfOffsets);
     // Counter index values are even numbers that start at 2 so begin with
-    // the second element of the array of offsets. Many array elements will 
+    // the second element of the array of offsets. Many array elements will
     // not contain offset values (index values are not contiguous).
 
     // There is typically a large number of counters, so this example prints
@@ -598,9 +598,9 @@ void PrintCounterAndHelpText(LPWSTR pCounterTextHead, LPWSTR pHelpTextHead, LPDW
 
 
 
- 
 
- 
+
+
 
 
 
