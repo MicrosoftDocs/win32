@@ -55,7 +55,7 @@ A pointer to a null-terminated string that specifies the name of the principal w
 
 A pointer to a null-terminated string that specifies the name of the [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) with which these credentials will be used. This is a [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) name returned in the **Name** member of a [**SecPkgInfo**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secpkginfoa) structure returned by the [**EnumerateSecurityPackages**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-secpkginfoa) function. After a context is established, [**QueryContextAttributes (Negotiate)**](querycontextattributes--negotiate.md) can be called with *ulAttribute* set to SECPKG\_ATTR\_PACKAGE\_INFO to return information on the [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) in use.
 
-To successfully call this function using the Schannel SSP, set this parameter to "Negotiate".
+To successfully call this function using the Negotiate SSP, set this parameter to "Negotiate".
 
 </dd> <dt>
 
