@@ -372,7 +372,7 @@ WITH (
 /*
     NAP-specific information, available from NPS starting with Windows Server 2008. 
 */
-    MS_Quarantine_State int './MS-Quarantine-State'.
+    MS_Quarantine_State int './MS-Quarantine-State',
     Event_Source nvarchar(255) './Event-Source',
 	Framed_MTU int './Framed-MTU',
 	MS_RAS_Correlation_ID nvarchar(255) './MS-RAS-Correlation-ID',
