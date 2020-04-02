@@ -115,13 +115,6 @@ Contains timing information for a request.
 
 </dd> <dt>
 
-[**WINHTTP_SECURITY_INFO**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_security_info)
-</dt> <dd>
-
-Contains SChannel connection and cipher information for a request.
-
-</dd> <dt>
-
 [**WINHTTP_WEB_SOCKET_ASYNC_RESULT**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_async_result)
 </dt> <dd>
 
