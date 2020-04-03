@@ -114,7 +114,7 @@ For information on best practices when writing a DLL, see https://docs.microsoft
 
 If your DLL is linked with the C run-time library (CRT), the entry point provided by the CRT calls the constructors and destructors for global and static C++ objects. Therefore, these restrictions for *DllMain* also apply to constructors and destructors and any code that is called from them.
 
-Consider calling [**DisableThreadLibraryCalls**](https://docs.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls) when receiving **DLL\_PROCESS\_ATTACH**, unless your DLL is linked with static C run-time library (CRT).
+Consider calling [**DisableThreadLibraryCalls**](https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls) when receiving **DLL\_PROCESS\_ATTACH**, unless your DLL is linked with static C run-time library (CRT).
 
 ## Examples
 
@@ -157,7 +157,7 @@ For an example, see [Dynamic-Link Library Entry-Point Function](dynamic-link-lib
 [**TlsFree**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree)
 </dt> <dt>
 
-[**DisableThreadLibraryCalls**](https://docs.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls)
+[**DisableThreadLibraryCalls**](https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls)
 
 
 
