@@ -73,7 +73,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd,      // window handle
                                 0, 0, 0, 0,   // set size in WM_SIZE message 
                                 hwnd,         // parent window 
                                 (HMENU) ID_EDITCHILD,   // edit control ID 
-                                (HINSTANCE) GetWindowLong(hwnd, GWL_HINSTANCE), 
+                                (HINSTANCE) GetWindowLongPtr(hwnd, GWLP_HINSTANCE), 
                                 NULL);        // pointer not needed 
  
             // Add text to the window. 
