@@ -26,7 +26,6 @@ The Windows Ribbon framework is composed of two distinct, yet dependent, develop
     -   [Compile the Application](#link-the-markup-to-the-application)
 -   [Run Time Updates and Executions](#run-time-updates-and-executions)
 -   [OLE Support](#ole-support)
--   [Managed Code Support](#managed-code-support)
 -   [Related topics](#related-topics)
 
 ## Ribbon Roadmap
@@ -288,3 +287,4 @@ Objects created in an OLE server application maintain their association with the
 
 
 
+                                                                                                                                                    
