@@ -589,8 +589,6 @@
   - name: "Ribbon Framework Samples"
     href: windowsribbon-samples-entry.md
     items: 
-    - name: "Ribbon Development Introductory Tutorial"
-      href: windowsribbon-hol.md
     - name: "SimpleRibbon Sample"
       href: windowsribbon-sample1.md
     - name: "ContextPopup Sample"
@@ -603,7 +601,5 @@
       href: windowsribbon-htmleditribbonsample.md
     - name: "FontControl Sample"
       href: windowsribbon-fontcontrolsample.md
-    - name: "Preview Ribbon Sample"
-      href: windowsribbon-previewribbon.md
   - name: "Ribbon Framework Glossary"
     href: windowsribbon-glossary.md

@@ -267,11 +267,6 @@ Objects created in an OLE server application maintain their association with the
 > [!Note]  
 > The Ribbon framework does not support in-place OLE activation. Objects created in a Ribbon-based OLE server cannot be edited from within the OLE client application. An external dedicated instance of the server application is required.
 
- 
-
-## Managed Code Support
-
-For an example of a Windows Forms application that implements lightweight managed wrappers for the Ribbon framework native APIs, see the [Preview Ribbon Sample](windowsribbon-previewribbon.md).
 
 ## Related topics
 
