@@ -100,7 +100,7 @@ class Win32_LogicalDisk : CIM_LogicalDisk
   boolean  QuotasDisabled;
   boolean  QuotasIncomplete;
   boolean  QuotasRebuilding;
-  uint64   Size;
+  string   Size;
   string   Status;
   uint16   StatusInfo;
   boolean  SupportsDiskQuotas;
@@ -1596,7 +1596,7 @@ If **True**, indicates that the file system is in the active process of compilin
 **Size**
 </dt> <dd> <dl> <dt>
 
-Data type: **uint64**
+Data type: **string**
 </dt> <dt>
 
 Access type: Read-only
@@ -1608,8 +1608,6 @@ Qualifiers: [**units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standa
 Size of the disk drive.
 
 This property is inherited from [**CIM\_LogicalDisk**](cim-logicaldisk.md).
-
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 For a code example that retrieves this property, see the Remarks section, below.
 
